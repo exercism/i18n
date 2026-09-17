@@ -137,10 +137,10 @@ jobs:
       - name: Open or update the i18n issue
         if: steps.gate.outputs.allowed == 'true' && steps.changed.outputs.count != '0'
         env:
-          # TODO(iHiD): credentials. A token with `issues: write` on exercism/i18n
-          # and nothing else: a GitHub App installation token, or a fine-grained
-          # PAT, available to every source repo as an organisation secret.
-          GH_TOKEN: ${{ secrets.I18N_ISSUES_TOKEN }}
+          # An ORGANISATION secret on `exercism`, visible to every repo: a
+          # fine-grained PAT owned by iHiD with Issues read/write on exercism/i18n
+          # and nothing else. So the issues this opens are authored by `iHiD`.
+          GH_TOKEN: ${{ secrets.EXERCISM_I18N_ISSUES_PAT }}
           I18N_REPO: exercism/i18n
           REPO: ${{ github.repository }}
           PR_NUMBER: ${{ github.event.pull_request.number }}

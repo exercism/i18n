@@ -25,12 +25,14 @@
 # already-failed check on an open PR, which anyone with write access can do with
 # a button.
 #
-# TODO(iHiD): credentials. `SOURCE_REPOS_ACTIONS_TOKEN` must be able to read pull
-# requests and re-run workflows on EVERY source repo (website, docs, blog,
-# website-copy, problem-specifications and around eighty tracks). A GitHub App
-# installed org-wide with `actions: write` and `pull_requests: read`, minting a
-# token per run, fits that far better than a personal token. The default
-# GITHUB_TOKEN is scoped to this repo and cannot do it.
+# ## The token
+#
+# `EXERCISM_SOURCE_REPOS_ACTIONS_PAT` is a REPOSITORY secret on exercism/i18n: a
+# fine-grained PAT with Actions read/write and Pull requests read on the source
+# repos (website, docs, blog, website-copy, problem-specifications and the
+# tracks). The default GITHUB_TOKEN is scoped to this repo and cannot re-run a
+# workflow anywhere else. A source repo the PAT does not cover fails here with a
+# 404 from `gh`, which is the cue to add that repo to the PAT.
 
 name: Rerun source check
 
@@ -47,13 +49,13 @@ jobs:
     steps:
       - name: Re-run the PR's completeness check
         env:
-          GH_TOKEN: ${{ secrets.SOURCE_REPOS_ACTIONS_TOKEN }}
+          GH_TOKEN: ${{ secrets.EXERCISM_SOURCE_REPOS_ACTIONS_PAT }}
           TITLE: ${{ github.event.issue.title }}
         run: |
           set -euo pipefail
 
           if [ -z "${GH_TOKEN:-}" ]; then
-            echo "SOURCE_REPOS_ACTIONS_TOKEN is not configured; nothing can be re-run. See this workflow's header."
+            echo "EXERCISM_SOURCE_REPOS_ACTIONS_PAT is not configured; nothing can be re-run. See this workflow's header."
             exit 0
           fi
 

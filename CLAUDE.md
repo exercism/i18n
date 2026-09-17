@@ -157,7 +157,10 @@ Stubbed or absent:
 - **Upload to S3.** `dist/` is built; nothing is uploaded. `publish.yml`'s upload step is
   off until an `I18N_BUCKET` repository variable exists.
 - **The workflows have never run.** They parse as YAML and their data paths were rehearsed
-  locally. The secrets they name do not exist.
+  locally. The two secrets they name exist: `EXERCISM_I18N_ISSUES_PAT` (an organisation
+  secret, Issues read/write on this repo only, owned by iHiD, so queue issues are authored
+  by `iHiD`) and `EXERCISM_SOURCE_REPOS_ACTIONS_PAT` (a secret on this repo, Actions
+  read/write and Pull requests read on the source repos). S3 credentials do not.
 - **Fragment content types** are declared and inert.
 - **No translation pass exists** for this repo, so nothing has ever written to `locales/`.
 
@@ -176,7 +179,8 @@ Each is marked `TODO(iHiD): OPEN` where the code would change.
 5. **Whether a human-navigable symlink tree exists beside the blob-id store.** None does.
 6. **Which content types and locales are in scope for launch.** Every `unit: "file"` type is
    live; both locale lists are empty.
-7. **Bucket names, credentials and IAM.** No bucket is named anywhere.
+7. **Bucket names, S3 credentials and IAM.** No bucket is named anywhere. (The two GitHub
+   PATs are settled: see "What is real, what is stubbed".)
 
 ## House rules
 

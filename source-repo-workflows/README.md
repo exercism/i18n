@@ -8,7 +8,7 @@ to live yet.
 
 | Template | Installs as | Trigger | Holds a secret | Blocks a merge |
 | --- | --- | --- | --- | --- |
-| `i18n-queue.yml` | `.github/workflows/i18n-queue.yml` | `pull_request_target` | yes, `I18N_ISSUES_TOKEN` | no |
+| `i18n-queue.yml` | `.github/workflows/i18n-queue.yml` | `pull_request_target` | yes, `EXERCISM_I18N_ISSUES_PAT` | no |
 | `i18n-completeness.yml` | `.github/workflows/i18n-completeness.yml` | `pull_request` | no | yes, once made a required check |
 
 Keep the filenames. `rerun-source-check.yml` in this repo finds a PR's completeness run by
@@ -47,8 +47,8 @@ scripts, so the patterns cannot drift across eighty-five installed copies.
 
 ## Rehearsed, not run
 
-Neither template has run in GitHub Actions: no source repo has them installed and the
-secrets do not exist. What has been rehearsed locally, against a real public PR
+Neither template has run in GitHub Actions: no source repo has them installed yet. What
+has been rehearsed locally, against a real public PR
 (`exercism/ruby#1809`), is each template's data path: the blobless bare fetch of
 `refs/pull/<n>/merge` followed by `completeness.mjs --head=FETCH_HEAD --base=FETCH_HEAD^1`,
 and `gh api --paginate .../pulls/<n>/files` followed by `english-changes.mjs`. Both found
@@ -58,10 +58,13 @@ the same five English files.
 
 - [ ] Create the `translation` label in `exercism/i18n`. `gh issue create --label` fails
       without it.
-- [ ] TODO(iHiD): credentials. `I18N_ISSUES_TOKEN` (issues: write on `exercism/i18n`) as an
-      organisation secret visible to every source repo, and `SOURCE_REPOS_ACTIONS_TOKEN`
-      (actions: write, pull requests: read on every source repo) as a secret here. One
-      org-wide GitHub App can mint both.
+- [x] Credentials. Both exist, and both are fine-grained PATs:
+      `EXERCISM_I18N_ISSUES_PAT` is an ORGANISATION secret on `exercism`, visible to every
+      repo, owned by iHiD, with Issues read/write on `exercism/i18n` only (so the issues it
+      opens are authored by `iHiD`). `EXERCISM_SOURCE_REPOS_ACTIONS_PAT` is a REPOSITORY
+      secret on `exercism/i18n`, with Actions read/write and Pull requests read on the
+      source repos. A source repo added later must be added to the second PAT, or
+      `rerun-source-check.yml` cannot re-run its check.
 - [ ] TODO(iHiD): OPEN. Who may trigger an issue. `i18n-queue.yml` ships with a placeholder
       gate (the PR author is an owner, member or collaborator). See the TODO in its header.
 - [ ] TODO(iHiD): OPEN. Whether a runner in this repo translates automatically when an

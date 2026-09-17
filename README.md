@@ -4,8 +4,7 @@ Exercism's translated output, and the scripts and GitHub Actions that check and 
 
 **Status: a scaffold.** `locales/` is empty and `locales.json` lists no locale yet. The
 scripts all run, against nothing here and against a fixture in `scripts/test.mjs`. Uploading
-to S3, the secrets the workflows name, and the translator repo that would write into
-`locales/` do not exist yet. [CLAUDE.md](./CLAUDE.md) says exactly what is real, what is
+to S3, and the translator repo that would write into `locales/`, do not exist yet. [CLAUDE.md](./CLAUDE.md) says exactly what is real, what is
 stubbed, and which decisions are still open.
 
 English is never stored here. It is read from checkouts of the repos it is authored in,
