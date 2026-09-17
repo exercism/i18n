@@ -114,8 +114,12 @@ export function prefetchBlobs(repo, ids) {
   if (!promisor) return;
   const remote = promisor.split("\n")[0].split(".")[1];
 
-  const check = git(["cat-file", "--batch-check"], repo, { input: `${ids.join("\n")}\n`, env: NO_LAZY_FETCH });
-  const missing = check.split("\n").filter((line) => line.endsWith(" missing")).map((line) => line.split(" ")[0]);
+  // What is here is asked of the object store itself. Asking about the wanted ids
+  // (`--batch-check` on stdin) would trigger the very one-at-a-time fetch this
+  // exists to avoid, on any git older than 2.45, which is where
+  // GIT_NO_LAZY_FETCH arrived.
+  const local = new Set(git(["cat-file", "--batch-all-objects", "--batch-check=%(objectname)", "--unordered"], repo).split("\n"));
+  const missing = ids.filter((id) => !local.has(id));
   if (missing.length === 0) return;
   try {
     git(["-c", "fetch.negotiationAlgorithm=noop", "fetch", remote, "--no-tags", "--no-write-fetch-head", "--recurse-submodules=no", "--filter=blob:none", "--stdin"], repo, {
