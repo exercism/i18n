@@ -34,6 +34,7 @@ import { ERROR, WARN, checkCatalog, checkContentFile, placeholders, tags } from 
 import { CONTENT_TYPES, CONTENT_TYPE_IDS, contentRelativePath, parseContentRelativePath, typeForPath } from "./lib/content-types.mjs";
 import { REPO_KINDS, kindForRepo } from "./lib/source-repos.mjs";
 import { missingContent, missingUnits, requiredContent, requiredUnits } from "./lib/completeness.mjs";
+import { buildMetadataEnglish, changedCopyKeys, fileCopy, readTomlStrings } from "./lib/metadata.mjs";
 import { buildWebsiteEnglish, globToRegExp, isWebsiteEnglishPath, loadExclusions } from "./lib/website-english.mjs";
 import { GuardViolation, assertPublishableKey } from "./lib/guard.mjs";
 import { findDeletions } from "./no-deletions.mjs";
@@ -79,7 +80,7 @@ await test("every content type names a known repo kind, a unit and a pattern", (
   for (const id of CONTENT_TYPE_IDS) {
     const type = CONTENT_TYPES[id];
     assert.ok(type.kind in REPO_KINDS, `${id}: unknown kind ${type.kind}`);
-    assert.ok(["file", "fragment"].includes(type.unit), `${id}: unit`);
+    assert.ok(["file", "metadata"].includes(type.unit), `${id}: unit`);
     assert.ok(type.match instanceof RegExp && type.label, `${id}: match and label`);
   }
 });
@@ -107,29 +108,128 @@ await test("docs, blog and website-copy: what is served matches, what is not ser
     assert.equal(typeForPath("docs", unserved), null, unserved);
   }
   assert.equal(typeForPath("docs", "building/config.json"), null);
-  assert.equal(typeForPath("docs", "building/config.json", { unit: "fragment" }), "docs-metadata");
-  assert.equal(typeForPath("docs", "anatomy/config.json", { unit: "fragment" }), null);
+  assert.equal(typeForPath("docs", "building/config.json", { unit: "metadata" }), "docs-metadata");
+  assert.equal(typeForPath("docs", "anatomy/config.json", { unit: "metadata" }), null);
 
   assert.equal(typeForPath("blog", "posts/a-post.md"), "blog-post");
   assert.equal(typeForPath("blog", "stories/a-story.md"), "community-story");
   assert.equal(typeForPath("blog", "posts/nested/x.md"), null);
   assert.equal(typeForPath("blog", "README.md"), null);
-  assert.equal(typeForPath("blog", "config.json", { unit: "fragment" }), "blog-metadata");
+  assert.equal(typeForPath("blog", "config.json", { unit: "metadata" }), "blog-metadata");
 
   assert.equal(typeForPath("website-copy", "analyzer-comments/ruby/general/explicit_return.md"), "analyzer-comments");
   for (const unserved of ["tracks/ruby/exercises/two-fer/mentoring.md", "tracks/ruby/mentoring.md", "pages/about.md", "walkthrough/index.html", "automators.json", "licences/mit.md"]) {
     assert.equal(typeForPath("website-copy", unserved), null, unserved);
-    assert.equal(typeForPath("website-copy", unserved, { unit: "fragment" }), null, unserved);
+    assert.equal(typeForPath("website-copy", unserved, { unit: "metadata" }), null, unserved);
   }
 });
 
-// The open question must stay visibly open: a fragment file is never a `file`
-// type (which would require translating a whole config.json) and never nothing
-// (which would let it vanish from every report).
-await test("config.json and metadata.toml are fragment types, inert but named", () => {
+// A config.json is never a `file` type (that would require translating the whole
+// file, almost none of which is copy), and never nothing: it is what a repo's
+// metadata catalog is built from.
+await test("config.json and metadata.toml are metadata types, never whole files", () => {
   assert.equal(typeForPath("track", "exercises/practice/two-fer/.meta/config.json"), null);
-  assert.equal(typeForPath("track", "exercises/practice/two-fer/.meta/config.json", { unit: "fragment" }), "exercise-metadata");
-  assert.equal(typeForPath("problem-specifications", "exercises/two-fer/metadata.toml", { unit: "fragment" }), "problem-specification-metadata");
+  assert.equal(typeForPath("track", "exercises/practice/two-fer/.meta/config.json", { unit: "metadata" }), "exercise-metadata");
+  assert.equal(typeForPath("problem-specifications", "exercises/two-fer/metadata.toml", { unit: "metadata" }), "problem-specification-metadata");
+});
+
+// ----------------------------------------------------------------- metadata --
+
+const TRACK_CONFIG = {
+  language: "Ruby",
+  slug: "ruby",
+  blurb: "Ruby is dynamic.",
+  tags: ["paradigm/functional"],
+  key_features: [{ icon: "fun", title: "Happiness", content: "Ruby is fun." }],
+  concepts: [{ uuid: "c1", slug: "strings", name: "Strings" }],
+  exercises: {
+    concept: [{ uuid: "e1", slug: "lasagna", name: "Lasagna", concepts: ["basics"] }],
+    practice: [{ uuid: "e2", slug: "two-fer", name: "Two Fer", difficulty: 1 }]
+  }
+};
+const trackFiles = (config = TRACK_CONFIG) => ({
+  "config.json": JSON.stringify(config),
+  "docs/config.json": JSON.stringify({ docs: [{ uuid: "d1", slug: "installation", path: "docs/INSTALLATION.md", title: "Installing Ruby", blurb: "How to install." }] }),
+  "exercises/practice/two-fer/.meta/config.json": JSON.stringify({ blurb: "Create a sentence.", source: "A pairing session", source_url: "https://example.com", authors: ["x"] }),
+  "exercises/concept/lasagna/.meta/config.json": JSON.stringify({ blurb: "Cook.", icon: "lasagna" }),
+  "exercises/practice/unlisted/.meta/config.json": JSON.stringify({ blurb: "Never synced." }),
+  "concepts/strings/.meta/config.json": JSON.stringify({ blurb: "About strings.", authors: [] })
+});
+const asTree = (files) => Object.keys(files).map((file) => ({ path: file, id: blobId(files[file]) }));
+const asReader = (files) => (entries) => entries.map((entry) => ({ ...entry, text: files[entry.path] ?? null }));
+
+await test("a track's metadata is exactly the copy the website shows, keyed by slug", () => {
+  const files = trackFiles();
+  const { catalog } = buildMetadataEnglish("track", asTree(files), asReader(files));
+  assert.deepEqual(catalog, {
+    "track:blurb": "Ruby is dynamic.",
+    "key_feature:fun:title": "Happiness",
+    "key_feature:fun:content": "Ruby is fun.",
+    "exercise:lasagna:name": "Lasagna",
+    "exercise:two-fer:name": "Two Fer",
+    "concept:strings:name": "Strings",
+    "exercise:lasagna:blurb": "Cook.",
+    "exercise:two-fer:blurb": "Create a sentence.",
+    "exercise:two-fer:source": "A pairing session",
+    "concept:strings:blurb": "About strings.",
+    "doc:installation:title": "Installing Ruby",
+    "doc:installation:blurb": "How to install."
+  });
+  const text = JSON.stringify(catalog);
+  assert.ok(!Object.values(catalog).includes("Ruby"), "the language name is a proper name, not copy");
+  for (const data of ["paradigm", "example.com", "lasagna\"}", "Never synced", "INSTALLATION.md", "e1", "d1"]) assert.ok(!text.includes(data), `extracted data: ${data}`);
+});
+
+await test("reordering changes no key; a rename is new keys, and the old ones are simply no longer English", () => {
+  const files = trackFiles();
+  const before = buildMetadataEnglish("track", asTree(files), asReader(files)).catalog;
+  const reordered = trackFiles({ ...TRACK_CONFIG, exercises: { practice: TRACK_CONFIG.exercises.practice, concept: TRACK_CONFIG.exercises.concept } });
+  assert.deepEqual(new Set(Object.keys(buildMetadataEnglish("track", asTree(reordered), asReader(reordered)).catalog)), new Set(Object.keys(before)));
+
+  const renamed = trackFiles({ ...TRACK_CONFIG, exercises: { ...TRACK_CONFIG.exercises, practice: [{ uuid: "e2", slug: "one-for-you", name: "Two Fer" }] } });
+  renamed["exercises/practice/one-for-you/.meta/config.json"] = renamed["exercises/practice/two-fer/.meta/config.json"];
+  const after = buildMetadataEnglish("track", asTree(renamed), asReader(renamed)).catalog;
+  assert.deepEqual(requiredUnits("metadata", after, before).map((unit) => unit.id), ["exercise:one-for-you:name", "exercise:one-for-you:blurb", "exercise:one-for-you:source"]);
+  const { issues, extra } = checkCatalog(after, before, { kind: "metadata", locale: "hu" });
+  assert.deepEqual(errorsOf(issues), []);
+  assert.deepEqual(extra, ["exercise:two-fer:name", "exercise:two-fer:blurb", "exercise:two-fer:source"]);
+});
+
+await test("an edited blurb is a stale unit, which is what blocks its PR", () => {
+  const before = { "exercise:two-fer:blurb": "Create a sentence." };
+  const after = { "exercise:two-fer:blurb": "Create a sentence of the form 'One for X'." };
+  const required = requiredUnits("metadata", after, before);
+  const held = { "exercise:two-fer:blurb": "Alkoss egy mondatot." };
+  assert.deepEqual(missingUnits("metadata", required, held, { "exercise:two-fer:blurb": stringId(before["exercise:two-fer:blurb"]) }, "hu"), [{ unit: "exercise:two-fer:blurb", reason: "stale" }]);
+});
+
+await test("problem-specifications, docs and blog extract only their copy fields", () => {
+  const ps = { "exercises/two-fer/metadata.toml": 'title = "Two Fer"\nblurb = "Create a \\"sentence\\"."\nsource_url = "https://example.com"\ndeep_dive_youtube_id = "abc"\n' };
+  assert.deepEqual(buildMetadataEnglish("problem-specifications", asTree(ps), asReader(ps)).catalog, { "exercise:two-fer:title": "Two Fer", "exercise:two-fer:blurb": 'Create a "sentence".' });
+  assert.throws(() => readTomlStrings('title = """\nmulti\n"""', ["title"], "x.toml"), /x\.toml:1/);
+
+  const docs = { "using/config.json": JSON.stringify([{ uuid: "u", slug: "tracks/new/a.b", path: "using/a.md", title: "T", blurb: "" }]), "anatomy/config.json": JSON.stringify([{ slug: "x", title: "Never synced" }]) };
+  assert.deepEqual(buildMetadataEnglish("docs", asTree(docs), asReader(docs)).catalog, { "using:tracks/new/a.b:title": "T" });
+
+  const blog = { "config.json": JSON.stringify({ posts: [{ uuid: "p", slug: "hello", title: "Hello", marketing_copy: "Read it", author_handle: "iHiD", category: "updates" }], stories: [{ slug: "s", title: "Story", blurb: "B", youtube_id: "y" }] }) };
+  assert.deepEqual(buildMetadataEnglish("blog", asTree(blog), asReader(blog)).catalog, { "post:hello:title": "Hello", "post:hello:marketing_copy": "Read it", "story:s:title": "Story", "story:s:blurb": "B" });
+  assert.deepEqual(buildMetadataEnglish("website-copy", [], () => []).catalog, {});
+});
+
+await test("the queue tells a config.json edit that changes copy from one that does not", () => {
+  const path_ = "exercises/practice/two-fer/.meta/config.json";
+  const base = JSON.stringify({ blurb: "Old.", authors: ["a"] });
+  const dataOnly = JSON.stringify({ blurb: "Old.", authors: ["a", "b"] });
+  const copy = JSON.stringify({ blurb: "New.", authors: ["a"] });
+  const blobs = new Map([base, dataOnly, copy].map((text) => [blobId(text), text]));
+  const run = (head) => summarise("track", [{ path: path_, id: blobId(head) }], { baseTree: new Map([[path_, blobId(base)]]), readBlob: (id) => blobs.get(id) ?? null });
+  assert.equal(run(dataOnly).count, 0);
+  assert.deepEqual(run(copy).metadata[0].keys, ["exercise:two-fer:blurb"]);
+  const blind = summarise("track", [{ path: path_, id: blobId(copy) }], { baseTree: new Map([[path_, blobId(base)]]) });
+  assert.equal(blind.count, 1, "without the blobs the file is still reported: over-reporting is the safe direction");
+  assert.deepEqual(blind.needs.sort(), [blobId(base), blobId(copy)].sort());
+  assert.deepEqual(changedCopyKeys(fileCopy("exercise-metadata", path_, base), fileCopy("exercise-metadata", path_, copy)), ["exercise:two-fer:blurb"]);
+  assert.match(toMarkdown(run(copy), { repoName: "ruby" }), /metadata\/ruby\.json.*\n[\s\S]*`exercise:two-fer:blurb`/);
 });
 
 await test("a repo name maps to its kind, and anything unnamed is a track", () => {
@@ -350,10 +450,10 @@ await test("the PR file list is untrusted: bad shapes are dropped, deletions req
 
 await test("the issue body neutralises a hostile path and says what it truncated or could not translate", () => {
   const summary = summarise("track", [{ path: "docs/a`|b.md", id: ID_A }, { path: "config.json", id: ID_B }]);
-  assert.equal(summary.count, 1);
+  assert.equal(summary.count, 2);
   const markdown = toMarkdown(summary);
   assert.ok(markdown.includes("`docs/a'\\|b.md`"));
-  assert.ok(markdown.includes("NOT translatable yet") && markdown.includes("`config.json`"));
+  assert.ok(markdown.includes("not inspected") && markdown.includes("`config.json`"));
   assert.ok(isWebsiteEnglishPath("config/locales/views/x.yml") && isWebsiteEnglishPath("app/javascript/i18n/en/a.ts") && !isWebsiteEnglishPath("app/javascript/i18n/i18n.ts"));
 });
 
@@ -453,6 +553,7 @@ const WEBSITE = makeRepo("website", {
 
 const TRACK = makeRepo("ruby", {
   "exercises/practice/two-fer/.docs/instructions.md": "# Instructions\n\nSay `One for you`.\n",
+  "config.json": JSON.stringify({ language: "Ruby", slug: "ruby", blurb: "Ruby is dynamic.", exercises: { practice: [{ uuid: "u1", slug: "two-fer", name: "Two Fer" }] } }),
   "exercises/practice/two-fer/.meta/config.json": '{ "blurb": "Create a sentence." }\n',
   "exercises/practice/two-fer/two_fer.rb": "puts 1\n",
   "docs/ABOUT.md": "# About\n\nRuby is nice.\n"
@@ -542,26 +643,44 @@ await test("fixture: content is validated from the store alone, and a stray file
   assert.match(good.out, /ok\s+hu\s+content\s+total 1, verified 1, copied 0/);
 });
 
-await test("fixture: completeness blocks a track until every production locale holds every blob", () => {
+await test("fixture: completeness blocks a track until every production locale holds every blob AND every name and blurb", () => {
   const before = run("completeness.mjs", [`--source-repo=${TRACK}`, "--repo=exercism/ruby"]);
   assert.equal(before.status, 1, before.out);
-  assert.match(before.out, /FAIL hu: 1 translation\(s\) outstanding/);
+  assert.match(before.out, /requires 3 metadata unit\(s\)/);
+  assert.match(before.out, /FAIL hu: 4 translation\(s\) outstanding \(1 content file\(s\), 3 metadata unit\(s\)\)/);
   assert.match(before.out, /docs\/ABOUT\.md \(track-docs\)/);
-  assert.match(before.out, /NOT CHECKED: 1 file/);
+  assert.match(before.out, /metadata\/ruby\.json: exercise:two-fer:blurb: missing/);
 
-  writeTree(ROOT, { [`locales/hu/content/${contentRelativePath(ABOUT_ID, ".md")}`]: "# Rólunk\n\nA Ruby szép.\n" });
+  writeTree(ROOT, {
+    [`locales/hu/content/${contentRelativePath(ABOUT_ID, ".md")}`]: "# Rólunk\n\nA Ruby szép.\n",
+    "locales/hu/metadata/ruby.json": JSON.stringify({ "track:blurb": "A Ruby dinamikus.", "exercise:two-fer:name": "Two Fer", "exercise:two-fer:blurb": "Alkoss egy mondatot." }, null, 2)
+  });
+  const unstamped = run("completeness.mjs", [`--source-repo=${TRACK}`, "--repo=exercism/ruby"]);
+  assert.match(unstamped.out, /track:blurb: translated but never checked/, unstamped.out);
+
+  // No checkout named: the catalog is shape-checked and says so, never `ok`.
+  assert.match(run("validate.mjs", ["hu", "--type=metadata"]).out, /unv\s+hu\s+metadata\/ruby\s+total 3, unverified 3/);
+  const stamped = run("validate.mjs", ["hu", "--type=metadata", `--content-repos=${TRACK}:track@HEAD`, "--stamp"]);
+  assert.match(stamped.out, /metadata\/ruby\s+total 3, done 3,.*stamped 3/, stamped.out);
+
   const after = run("completeness.mjs", [`--source-repo=${TRACK}`, "--repo=exercism/ruby"]);
   assert.equal(after.status, 0, after.out);
   assert.match(after.out, /ok\s+hu/);
 });
 
-await test("fixture: an edit to English is a new blob, so it blocks again, and --base scopes it to the PR", () => {
-  writeTree(TRACK, { "exercises/practice/two-fer/.docs/instructions.md": "# Instructions\n\nSay `One for you, one for me`.\n", "docs/TESTS.md": "# Tests\n" });
+await test("fixture: an edit is a new blob and an edited blurb a stale unit, so both block again; --base scopes it to the PR", () => {
+  writeTree(TRACK, {
+    "exercises/practice/two-fer/.docs/instructions.md": "# Instructions\n\nSay `One for you, one for me`.\n",
+    "exercises/practice/two-fer/.meta/config.json": '{ "blurb": "Create a sentence, for two." }\n',
+    "docs/TESTS.md": "# Tests\n"
+  });
   commitAll(TRACK, "edit");
   const { status, out } = run("completeness.mjs", [`--source-repo=${TRACK}`, "--repo=exercism/ruby", "--head=HEAD", "--base=HEAD^1"]);
   assert.equal(status, 1, out);
   assert.match(out, /requires 2 content file/);
-  assert.match(out, /FAIL hu: 2 translation/);
+  assert.match(out, /requires 1 metadata unit\(s\).*from 1 changed file/);
+  assert.match(out, /FAIL hu: 3 translation/);
+  assert.match(out, /exercise:two-fer:blurb: translated from older English/);
 });
 
 await test("fixture: the website check passes when stamped, and blocks on a new key and on an EDITED one", () => {
@@ -602,6 +721,8 @@ await test("fixture: publish builds artifact, pointer and blob-path content, and
   assert.ok(fs.existsSync(path.join(out, `i18n/website/hu/backend-${hash}.json`)));
   assert.deepEqual(JSON.parse(fs.readFileSync(path.join(out, "i18n/website/hu/backend.current.json"), "utf8")), { hash });
   assert.ok(fs.existsSync(path.join(out, "i18n/content/hu", contentRelativePath(INSTRUCTIONS_ID, ".md"))));
+  assert.ok(fs.existsSync(path.join(out, `i18n/metadata/hu/ruby-${manifest.locales.hu.metadata.ruby}.json`)));
+  assert.deepEqual(JSON.parse(fs.readFileSync(path.join(out, "i18n/metadata/hu/ruby.current.json"), "utf8")), { hash: manifest.locales.hu.metadata.ruby });
   const plan = fs.readFileSync(path.join(out, "sync.sh"), "utf8");
   assert.ok(plan.indexOf("immutable") < plan.indexOf("*.current.json"), "pointers must come after artifacts");
   assert.equal(run("publish.mjs", ["all", `--out=${out}`, "--upload"]).status, 1, "--upload must refuse without a bucket");
@@ -613,6 +734,7 @@ await test("fixture: coverage reports units and blob coverage, and never gates",
   assert.match(out, /hu\s+\(production\)/);
   assert.match(out, /website-backend\s+4\/4 100%/);
   assert.match(out, /ruby: track-docs\s+1\/2/);
+  assert.match(out, /metadata\/ruby\s+2\/3\s+66%\s+stale 1/);
 });
 
 await test("fixture: no-deletions names a removed file and a removed key, and ignores stamp files", () => {

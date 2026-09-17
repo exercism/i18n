@@ -36,8 +36,11 @@
 #    checkout is exercism/i18n at `main`.
 #  - What the PR changed comes from GitHub's "list pull request files" API, which
 #    returns each file's path AND its git blob sha. A blob id is the key a
-#    translation is filed under, so the API response is everything the issue has
-#    to say, and the PR's tree is never fetched.
+#    translation is filed under, so for whole files the API response is everything
+#    the issue has to say. For a changed config.json or metadata.toml, the two
+#    versions of that one file are fetched BY BLOB ID through the blob API, so the
+#    issue can name the keys whose English changed. Both are API responses read as
+#    data: nothing is cloned, fetched with git, written into a working tree, or run.
 #  - That response is untrusted data. exercism/i18n's scripts/english-changes.mjs
 #    shape-checks every entry and neutralises paths before they reach Markdown.
 #    The PR's title reaches the shell only as an environment variable, is never
@@ -128,10 +131,30 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
         run: |
           set -euo pipefail
           gh api --paginate "repos/${REPO}/pulls/${PR_NUMBER}/files?per_page=100" > files.json
-          node i18n/scripts/english-changes.mjs --repo="$REPO" --pr-files=files.json --markdown=changes.md | tee out.txt
+          # The base commit's tree, for the OLD blob id of each changed metadata
+          # file (config.json, metadata.toml). An API response, not a checkout.
+          gh api "repos/${REPO}/git/trees/${BASE_SHA}?recursive=1" > base-tree.json
+
+          # Pass 1: which blobs would say WHICH names, titles and blurbs changed.
+          node i18n/scripts/english-changes.mjs --repo="$REPO" --pr-files=files.json --base-tree=base-tree.json --needs=needs.txt > /dev/null
+
+          # Each line of needs.txt is 40 hex characters and nothing else: the script
+          # writes only ids it has shape-checked, and the loop checks again. The
+          # blobs are PR content, fetched as DATA through the API, written to files
+          # named by their id, and only ever parsed as JSON or flat TOML.
+          mkdir -p blobs
+          while read -r sha; do
+            [[ "$sha" =~ ^[0-9a-f]{40}$ ]] || continue
+            gh api "repos/${REPO}/git/blobs/${sha}" --jq .content | base64 -d > "blobs/${sha}" || rm -f "blobs/${sha}"
+          done < needs.txt
+
+          # Pass 2: the real answer. A blob that could not be fetched only means
+          # its file is reported as changed with its keys unknown.
+          node i18n/scripts/english-changes.mjs --repo="$REPO" --pr-files=files.json --base-tree=base-tree.json --blobs-dir=blobs --markdown=changes.md | tee out.txt
           grep '^count=' out.txt >> "$GITHUB_OUTPUT"
 
       - name: Open or update the i18n issue

@@ -16,6 +16,8 @@
 //   dist/i18n/website/<locale>/backend.current.json     the pointer: { "hash": "..." }
 //   dist/i18n/website/<locale>/frontend-<hash>.json
 //   dist/i18n/website/<locale>/frontend.current.json
+//   dist/i18n/metadata/<locale>/<repo>-<hash>.json      one keyed catalog per source repo
+//   dist/i18n/metadata/<locale>/<repo>.current.json     ...and its pointer
 //   dist/i18n/content/<locale>/<ab>/<cd>/<rest>.<ext>   as-is, under its blob-id path
 //   dist/manifest.json, dist/sync.sh                    a record, and the upload plan
 //
@@ -75,6 +77,7 @@ import { git } from "./lib/git.mjs";
 import { CATALOG_KINDS, catalogPath } from "./lib/catalogs.mjs";
 import { CONTENT_EXTENSIONS, contentRelativePath } from "./lib/content-types.mjs";
 import { listContentFiles } from "./lib/content-store.mjs";
+import { heldMetadataRepos, metadataPath } from "./lib/metadata.mjs";
 import { assertPublishableKey } from "./lib/guard.mjs";
 
 let DIST = path.join(SCRIPTS_ROOT, "dist");
@@ -124,7 +127,7 @@ function main() {
   const content = [];
 
   for (const locale of locales) {
-    const record = (manifest.locales[locale] = { website: {}, content: 0 });
+    const record = (manifest.locales[locale] = { website: {}, metadata: {}, content: 0 });
 
     for (const kind of CATALOG_KINDS) {
       const file = catalogPath(locale, kind);
@@ -133,6 +136,17 @@ function main() {
       emit(artifacts, built.artifact.key, built.artifact.bytes, locales);
       emit(pointers, built.pointer.key, built.pointer.bytes, locales);
       record.website[kind] = built.hash;
+    }
+
+    // One keyed catalog per source repo, shipped exactly as the website catalogs
+    // are: hashed artifact, pointer beside it. The website reads it to fill the
+    // columns it syncs titles and blurbs into (scripts/lib/metadata.mjs).
+    for (const name of heldMetadataRepos(locale)) {
+      const bytes = Buffer.from(JSON.stringify(JSON.parse(fs.readFileSync(metadataPath(locale, name), "utf8"))), "utf8");
+      const hash = contentHash(bytes);
+      emit(artifacts, `${S3_PREFIX}/metadata/${locale}/${name}-${hash}.json`, bytes, locales);
+      emit(pointers, `${S3_PREFIX}/metadata/${locale}/${name}.current.json`, Buffer.from(JSON.stringify({ hash }), "utf8"), locales);
+      record.metadata[name] = hash;
     }
 
     for (const entry of listContentFiles(locale)) {
@@ -158,7 +172,7 @@ function main() {
   if (artifacts.length > 0) {
     plan.push(
       `# Immutable catalog artifacts. Content-hashed, so an upload is always an add.`,
-      `aws s3 cp ${S3_PREFIX}/website ${bucket}/${S3_PREFIX}/website --recursive --exclude '*' --include '*-????????????.json' --cache-control 'public, max-age=31536000, immutable'`
+      ...["website", "metadata"].map((area) => `aws s3 cp ${S3_PREFIX}/${area} ${bucket}/${S3_PREFIX}/${area} --recursive --exclude '*' --include '*-????????????.json' --cache-control 'public, max-age=31536000, immutable'`)
     );
   }
   if (content.length > 0) {
@@ -170,7 +184,7 @@ function main() {
   if (pointers.length > 0) {
     plan.push(
       `# Pointers, LAST, so none ever names an artifact that is not there yet.`,
-      `aws s3 cp ${S3_PREFIX}/website ${bucket}/${S3_PREFIX}/website --recursive --exclude '*' --include '*.current.json' --cache-control 'public, max-age=30'`
+      ...["website", "metadata"].map((area) => `aws s3 cp ${S3_PREFIX}/${area} ${bucket}/${S3_PREFIX}/${area} --recursive --exclude '*' --include '*.current.json' --cache-control 'public, max-age=30'`)
     );
   }
   fs.writeFileSync(path.join(DIST, "sync.sh"), `#!/usr/bin/env bash\nset -euo pipefail\ncd "$(dirname "$0")"\n\n${plan.join("\n")}\n`, { mode: 0o755 });

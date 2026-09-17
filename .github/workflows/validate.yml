@@ -80,8 +80,30 @@ jobs:
       - name: Fetch English (exercism/website main)
         run: node scripts/source-checkout.mjs --source=website
 
+      # A metadata catalog (locales/<locale>/metadata/<repo>.json) is checked
+      # against the English in THAT repo, so each repo some locale holds a catalog
+      # for is fetched too: trees only, plus the few blobs the catalog is built
+      # from. A repo that cannot be fetched leaves its catalogs `unv` (unverified),
+      # which is reported and does not fail the run.
+      - name: Fetch the repos metadata catalogs translate
+        id: repos
+        run: |
+          set -euo pipefail
+          REPOS=""
+          for name in $(ls locales/*/metadata/*.json 2>/dev/null | grep -v '\.meta\.json$' | xargs -n1 basename 2>/dev/null | sed 's/\.json$//' | sort -u); do
+            [[ "$name" =~ ^[A-Za-z0-9][A-Za-z0-9._-]*$ ]] || continue
+            case "$name" in
+              problem-specifications|docs|blog) node scripts/source-checkout.mjs --source="$name" || continue ;;
+              *) node scripts/source-checkout.mjs --source=track --repo="exercism/$name" || continue ;;
+            esac
+            REPOS="${REPOS:+$REPOS,}.source/$name"
+          done
+          echo "list=$REPOS" >> "$GITHUB_OUTPUT"
+
       - name: Validate every locale
-        run: node scripts/validate.mjs all
+        env:
+          CONTENT_REPOS: ${{ steps.repos.outputs.list }}
+        run: node scripts/validate.mjs all ${CONTENT_REPOS:+--content-repos="$CONTENT_REPOS"}
 
       # Builds every artifact and runs every key through the guard, without
       # uploading anything.

@@ -3,7 +3,7 @@
 // validate: check every translated file, and stamp the catalog units that pass.
 //
 // Usage:
-//   node scripts/validate.mjs [<locale|all>] [--type=website-backend|website-frontend|content]
+//   node scripts/validate.mjs [<locale|all>] [--type=website-backend|website-frontend|metadata|content]
 //                             [--complete] [--gate=all] [--json=<path>]
 //                             [--stamp] [--stamp-units=<id,id|@file>]
 //                             [--source-repo=<website checkout>] [--source-ref=<ref>]
@@ -47,8 +47,10 @@
 // pointed at, production or not. `--complete` is the go-live question, and a
 // locale being asked it is by definition not in `productionTargets` yet.
 //
-// That covers the two website catalogs only. Whether a locale holds every CONTENT
-// file is not something this script can know: the English is spread over eighty
+// That covers the two website catalogs, and the metadata catalog of every repo
+// named in `--content-repos` (scripts/lib/metadata.mjs: a catalog whose repo is
+// not named is shape-checked and reported `unv`, unverified, never `ok`). Whether
+// a locale holds every CONTENT file is not something this script can know: the English is spread over eighty
 // repos and this run has, at best, a few of them. `scripts/completeness.mjs`
 // answers it for one source repo at a time, which is how it is asked in practice.
 //
@@ -78,12 +80,13 @@ import fs from "node:fs";
 import path from "node:path";
 import { PRODUCTION_LOCALES, REPO_ROOT, TARGET_LOCALES, assertTargetLocale, fail, productionGateNotice } from "./lib/constants.mjs";
 import { parseArgs } from "./lib/args.mjs";
-import { readBlobs, refReader, resolveSha } from "./lib/git.mjs";
+import { lsTree, readBlobs, refReader, resolveSha } from "./lib/git.mjs";
 import { defaultRef, parseContentRepos, resolveRepo } from "./lib/source-repos.mjs";
 import { buildWebsiteEnglish } from "./lib/website-english.mjs";
 import { CATALOG_KINDS, DONE, MISSING, STALE, UNSTAMPED, catalogPath, englishUnits, flattenCatalog, readStamps, targetEntries, unitHash, unitState, writeStamps } from "./lib/catalogs.mjs";
 import { CATALOG_TYPE_IDS, CONTENT_EXTENSIONS, CONTENT_TYPE_ID } from "./lib/content-types.mjs";
 import { listContentFiles } from "./lib/content-store.mjs";
+import { METADATA_KIND, METADATA_REPO_KINDS, METADATA_TYPE_ID, buildMetadataEnglish, heldMetadataRepos, metadataPath } from "./lib/metadata.mjs";
 import { ERROR, WARN, checkCatalog, checkContentFile } from "./lib/checks.mjs";
 import { GuardViolation, assertPublishableKey } from "./lib/guard.mjs";
 
@@ -120,10 +123,9 @@ function parseStampUnits(value) {
   return new Set(list.map((id) => String(id).trim()).filter(Boolean));
 }
 
-function validateCatalog({ locale, kind, english, requireComplete, stamp, stampUnits }) {
-  const file = catalogPath(locale, kind);
+function validateCatalog({ locale, kind, english, requireComplete, stamp, stampUnits, file = catalogPath(locale, kind), type = `website-${kind}` }) {
   const units = englishUnits(kind, english.catalog);
-  const result = { locale, type: `website-${kind}`, issues: [], counts: { total: units.size, [DONE]: 0, [STALE]: 0, [UNSTAMPED]: 0, [MISSING]: 0, extra: 0 }, stamped: 0 };
+  const result = { locale, type, issues: [], counts: { total: units.size, [DONE]: 0, [STALE]: 0, [UNSTAMPED]: 0, [MISSING]: 0, extra: 0 }, stamped: 0 };
 
   if (!fs.existsSync(file)) {
     result.counts[MISSING] = units.size;
@@ -163,6 +165,43 @@ function validateCatalog({ locale, kind, english, requireComplete, stamp, stampU
   }
   if (changed) writeStamps(file, stamps);
   return result;
+}
+
+/**
+ * One locale's metadata catalogs: one per source repo (scripts/lib/metadata.mjs).
+ *
+ * The English for `metadata/ruby.json` is in the ruby repo, so a catalog is
+ * checked against English only when `--content-repos` names a checkout called
+ * `ruby`. Without one it is still read and shape-checked, and says `unverified`,
+ * which is never `ok`: this run has not looked at what it translates.
+ */
+function validateMetadata({ locale, contentRepos, requireComplete, stamp, stampUnits }) {
+  const results = [];
+  const repos = new Map(contentRepos.map((repo) => [path.basename(repo.dir), repo]));
+  const names = new Set([...heldMetadataRepos(locale), ...(requireComplete ? [...repos.keys()].filter((name) => METADATA_REPO_KINDS.includes(repos.get(name).kind)) : [])]);
+
+  for (const name of [...names].sort()) {
+    const file = metadataPath(locale, name);
+    const type = `metadata/${name}`;
+    const repo = repos.get(name);
+    if (repo) {
+      const english = buildMetadataEnglish(repo.kind, lsTree(repo.dir, repo.ref), refReader(repo.dir, repo.ref).readMany);
+      results.push(validateCatalog({ locale, kind: METADATA_KIND, english, requireComplete, stamp, stampUnits, file, type }));
+      continue;
+    }
+    const result = { locale, type, issues: [], counts: { total: 0, unverified: 0 }, unverified: true };
+    try {
+      const tree = JSON.parse(fs.readFileSync(file, "utf8"));
+      result.counts.total = result.counts.unverified = Object.keys(tree).length;
+      for (const [key, value] of Object.entries(tree)) {
+        if (typeof value !== "string" || value.trim() === "") result.issues.push({ level: ERROR, message: `${key}: value must be a non-empty string` });
+      }
+    } catch (error) {
+      result.issues.push({ level: ERROR, message: `invalid JSON: ${error.message}` });
+    }
+    results.push(result);
+  }
+  return results;
 }
 
 function validateContent({ locale, contentRepos }) {
@@ -208,8 +247,9 @@ async function main() {
   const locales = scope === "all" ? TARGET_LOCALES : [scope];
   if (scope !== "all") assertTargetLocale(scope);
 
-  const types = typeof flags.type === "string" ? [flags.type] : [...CATALOG_TYPE_IDS, CONTENT_TYPE_ID];
-  for (const type of types) if (![...CATALOG_TYPE_IDS, CONTENT_TYPE_ID].includes(type)) fail(`unknown --type "${type}". Known: ${[...CATALOG_TYPE_IDS, CONTENT_TYPE_ID].join(", ")}`);
+  const known = [...CATALOG_TYPE_IDS, METADATA_TYPE_ID, CONTENT_TYPE_ID];
+  const types = typeof flags.type === "string" ? [flags.type] : known;
+  for (const type of types) if (!known.includes(type)) fail(`unknown --type "${type}". Known: ${known.join(", ")}`);
   const kinds = CATALOG_KINDS.filter((kind) => types.includes(`website-${kind}`));
 
   const gateAll = flags.gate === "all";
@@ -249,6 +289,7 @@ async function main() {
     for (const kind of english ? kinds : []) {
       results.push(validateCatalog({ locale, kind, english: english[kind], requireComplete: requiresComplete(locale), stamp, stampUnits }));
     }
+    if (types.includes(METADATA_TYPE_ID)) results.push(...validateMetadata({ locale, contentRepos, requireComplete: requiresComplete(locale), stamp, stampUnits }));
     if (types.includes(CONTENT_TYPE_ID)) results.push(validateContent({ locale, contentRepos }));
   }
 
@@ -260,7 +301,7 @@ async function main() {
     bucket.errors += errors.length;
     bucket.warnings += warnings.length;
 
-    const status = errors.length > 0 ? "FAIL" : result.absent ? "miss" : warnings.length > 0 ? "warn" : "ok";
+    const status = errors.length > 0 ? "FAIL" : result.absent ? "miss" : result.unverified ? "unv" : warnings.length > 0 ? "warn" : "ok";
     const counts = Object.entries(result.counts).map(([name, value]) => `${name} ${value}`).join(", ");
     console.log(`${status.padEnd(4)} ${result.locale.padEnd(7)} ${result.type.padEnd(16)} ${counts}${result.stamped ? `, stamped ${result.stamped}` : ""}`);
     for (const found of [...errors, ...warnings]) console.log(`       ${found.level.padEnd(5)} ${found.message}`);

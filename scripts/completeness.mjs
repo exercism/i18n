@@ -152,7 +152,10 @@ async function main() {
       continue;
     }
     incomplete += 1;
-    console.log(`FAIL ${locale}: ${lines.length} translation(s) outstanding`);
+    // The list below is capped, so the split is said first: a single missing blurb
+    // must not be invisible behind two hundred missing files.
+    const units = lines.filter((line) => line.unit).length;
+    console.log(`FAIL ${locale}: ${lines.length} translation(s) outstanding${website ? "" : ` (${lines.length - units} content file(s), ${units} metadata unit(s))`}`);
     for (const line of lines.slice(0, SHOWN)) console.log(`       ${line.what}: ${line.why}`);
     if (lines.length > SHOWN) console.log(`       ... and ${lines.length - SHOWN} more (--json=<path> for the full list)`);
   }

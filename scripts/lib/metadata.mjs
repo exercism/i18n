@@ -299,3 +299,61 @@ export function buildMetadataEnglish(kind, entries, read) {
 
 /** The field of a key: what follows its last `:`. For reports. */
 export const keyField = (key) => key.slice(key.lastIndexOf(":") + 1);
+
+// ------------------------------------------------------- one file on its own --
+
+/**
+ * The copy ONE metadata source file holds, under the same keys the catalog uses.
+ *
+ * `buildMetadataEnglish` needs a whole tree, because which exercises count is
+ * decided by the track's config.json. The queue does not have a tree: it has a
+ * PR's file list and, at most, the two versions of each changed file. This
+ * answers the only question it asks, "did this change touch any COPY in this
+ * file?", by comparing the result for the two versions. Most edits to a
+ * config.json touch none (a uuid, a file list, a prerequisite), and an issue
+ * opened for those would be a translation run that finds nothing to do.
+ *
+ * It can disagree with the catalog in one direction only: it reports the blurb
+ * of an exercise the track's config does not list. That over-reports, which for
+ * a queue is the safe direction, and the completeness check is what decides.
+ *
+ * @param {string} typeId  the file's content type (content-types.mjs)
+ */
+export function fileCopy(typeId, file, text) {
+  const notes = [];
+  const one = (entryPath) => new Map([[entryPath, { path: entryPath, id: null }]]);
+  const read = (entries) => entries.map((entry) => ({ ...entry, text }));
+  const catalog = {};
+  switch (typeId) {
+    case "track-metadata":
+      return extractTrack(one("config.json"), read, notes).catalog;
+    case "blog-metadata":
+      return extractBlog(one("config.json"), read, notes).catalog;
+    case "docs-metadata":
+      return extractDocs(one(file), read, notes).catalog;
+    case "problem-specification-metadata":
+      return extractProblemSpecifications(one(file), read, notes).catalog;
+    case "exercise-metadata": {
+      const meta = parseJson({ path: file, text });
+      for (const field of ["blurb", "source"]) put(catalog, `exercise:${file.split("/")[2]}:${field}`, meta[field]);
+      return catalog;
+    }
+    case "concept-metadata":
+      put(catalog, `concept:${file.split("/")[1]}:blurb`, parseJson({ path: file, text }).blurb);
+      return catalog;
+    case "track-docs-metadata":
+      for (const doc of parseJson({ path: file, text }).docs ?? []) {
+        if (!slugOk(doc?.slug, notes, file)) continue;
+        put(catalog, `doc:${doc.slug}:title`, doc.title);
+        put(catalog, `doc:${doc.slug}:blurb`, doc.blurb);
+      }
+      return catalog;
+    default:
+      return catalog;
+  }
+}
+
+/** The keys whose English is new or different in `after`. A removed key requires nothing. */
+export function changedCopyKeys(before, after) {
+  return Object.keys(after).filter((key) => before[key] !== after[key]);
+}
