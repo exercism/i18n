@@ -1,0 +1,184 @@
+# TEMPLATE. Installed in a repo that holds English, as
+# .github/workflows/i18n-queue.yml. Do not edit a copy in a source repo; edit
+# exercism/i18n/source-repo-workflows/ and re-sync.
+#
+# Tell exercism/i18n that a PR changes English.
+#
+# This is the whole outbound integration with translation: one issue, opened in
+# exercism/i18n when a PR that changes English is open for review. ISSUES ARE THE
+# QUEUE. What is outstanding, who has it and when it was finished are questions
+# GitHub already answers, so nothing else answers them a second time.
+#
+# ## The loop
+#
+#   1. a PR here changes English
+#   2. this opens (or rewrites) an issue in exercism/i18n naming the files, their
+#      blob ids, and the commit
+#   3. the translations land on exercism/i18n `main`, and the issue is closed
+#   4. closing it re-runs this PR's `i18n completeness` check, which now passes
+#
+# ## One issue per PR, updated rather than duplicated
+#
+# The issue is found again by its title prefix, `Translate <repo>#<n>:`, and
+# rewritten in place on every later push. A stale SHA is the dangerous state, not
+# a duplicate one. A draft PR opens nothing: draft means the English is still
+# moving.
+#
+# ## Safe for fork PRs: this job holds a secret, so it never touches PR code
+#
+# It has to run on `pull_request_target`, because a fork's `pull_request` run gets
+# no secrets and this needs the token that opens an issue in another repository.
+# `pull_request_target` runs in the BASE repo's context, which is exactly why the
+# usual mistake with it is fatal: checking the PR out, or running anything from
+# it, hands that token to the PR's author. So this job does neither, and cannot:
+#
+#  - There is NO checkout of this repository at all, at any ref. The only
+#    checkout is exercism/i18n at `main`.
+#  - What the PR changed comes from GitHub's "list pull request files" API, which
+#    returns each file's path AND its git blob sha. A blob id is the key a
+#    translation is filed under, so the API response is everything the issue has
+#    to say, and the PR's tree is never fetched.
+#  - That response is untrusted data. exercism/i18n's scripts/english-changes.mjs
+#    shape-checks every entry and neutralises paths before they reach Markdown.
+#    The PR's title reaches the shell only as an environment variable, is never
+#    interpolated into a script, and the issue body is passed as a file.
+#  - "What counts as English" is NOT in this file. It is exercism/i18n's content
+#    type registry, read through that script, so it cannot drift across the
+#    eighty-five repos this template is installed in.
+#
+# TODO(iHiD): OPEN. WHO MAY TRIGGER AN ISSUE is undecided, and it matters because
+# an issue may come to mean money: whether a runner in exercism/i18n translates
+# automatically on issue-open is also undecided. The candidates are (a) only a
+# maintainer's own PR, (b) any PR once a maintainer has approved it, (c) a
+# `/translate` comment from a maintainer. The `gate` step below is where the
+# answer goes. It ships as (a), the most conservative of the three, as a
+# PLACEHOLDER and not as the decision. (b) needs a `pull_request_review` trigger
+# and (c) an `issue_comment` one; both are sketched, commented out, under `on:`.
+# Whatever is chosen, the completeness check still blocks every PR that changes
+# English, so under (a) an outside contributor's PR waits for a maintainer to
+# queue it by some other means. That gap is real and is part of the open question.
+
+name: i18n queue
+
+on:
+  pull_request_target:
+    # `opened` as well as `ready_for_review`, because they are mutually
+    # exclusive: a PR opened non-draft fires only `opened`.
+    types: [opened, ready_for_review, synchronize, reopened]
+    branches: [main]
+  # pull_request_review:        # candidate (b): queue on a maintainer's approval
+  #   types: [submitted]
+  # issue_comment:              # candidate (c): queue on a `/translate` comment
+  #   types: [created]
+
+# The default token only ever reads this repo's PR metadata. Writing the issue
+# uses a separate secret, scoped to exercism/i18n.
+permissions:
+  pull-requests: read
+
+# One run per PR. A rapid series of pushes should leave one issue holding the
+# newest SHA, not a queue of runs racing to write older ones.
+concurrency:
+  group: i18n-queue-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  queue:
+    # Drafts are excluded here rather than by the trigger, because `synchronize`
+    # fires on a draft too.
+    if: ${{ !github.event.pull_request.draft }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Gate (PLACEHOLDER policy, see the TODO in the header)
+        id: gate
+        env:
+          ASSOCIATION: ${{ github.event.pull_request.author_association }}
+        run: |
+          case "$ASSOCIATION" in
+            OWNER|MEMBER|COLLABORATOR) echo "allowed=true" >> "$GITHUB_OUTPUT" ;;
+            *)
+              echo "allowed=false" >> "$GITHUB_OUTPUT"
+              echo "::notice::Not queued: the author is not a maintainer of this repo, and who else may trigger translation is undecided."
+              ;;
+          esac
+
+      # exercism/i18n, at main. NEVER this repository: see the header.
+      - name: Check out exercism/i18n (scripts only)
+        if: steps.gate.outputs.allowed == 'true'
+        uses: actions/checkout@v4
+        with:
+          repository: exercism/i18n
+          ref: main
+          path: i18n
+          persist-credentials: false
+          sparse-checkout: |
+            scripts
+            locales.json
+            website-exclusions.json
+
+      - uses: actions/setup-node@v4
+        if: steps.gate.outputs.allowed == 'true'
+        with:
+          node-version: 20
+
+      - name: Which English changed
+        if: steps.gate.outputs.allowed == 'true'
+        id: changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          set -euo pipefail
+          gh api --paginate "repos/${REPO}/pulls/${PR_NUMBER}/files?per_page=100" > files.json
+          node i18n/scripts/english-changes.mjs --repo="$REPO" --pr-files=files.json --markdown=changes.md | tee out.txt
+          grep '^count=' out.txt >> "$GITHUB_OUTPUT"
+
+      - name: Open or update the i18n issue
+        if: steps.gate.outputs.allowed == 'true' && steps.changed.outputs.count != '0'
+        env:
+          # TODO(iHiD): credentials. A token with `issues: write` on exercism/i18n
+          # and nothing else: a GitHub App installation token, or a fine-grained
+          # PAT, available to every source repo as an organisation secret.
+          GH_TOKEN: ${{ secrets.I18N_ISSUES_TOKEN }}
+          I18N_REPO: exercism/i18n
+          REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          COUNT: ${{ steps.changed.outputs.count }}
+        run: |
+          set -euo pipefail
+
+          # Cut to a sane length, and keep it on one line. It is only ever a label.
+          SAFE_TITLE=$(printf '%s' "$PR_TITLE" | tr -d '\r\n' | cut -c1-120)
+          PREFIX="Translate ${REPO}#${PR_NUMBER}:"
+          TITLE="${PREFIX} ${SAFE_TITLE}"
+
+          {
+            printf 'English changed in %s, by @%s.\n\n' "$PR_URL" "$PR_AUTHOR"
+            printf '| | |\n|---|---|\n'
+            printf '| Repo | %s |\n' "$REPO"
+            printf '| Translate at | %s |\n' "$HEAD_SHA"
+            printf '| Base | %s |\n' "$BASE_SHA"
+            printf '| English files changed | %s |\n\n' "$COUNT"
+            printf '**Read English at %s, not at main.** This issue is rewritten in place on every later push to the PR, so the SHA above is always the current one.\n\n' "$HEAD_SHA"
+            cat changes.md
+            printf '\n---\n\n'
+            printf 'Close this when the translations are on `main` here for every locale in `locales.json` `productionTargets`. Closing it re-runs the `i18n completeness` check on the PR, which is what is holding its merge.\n\n'
+            printf 'Add and update only, never delete: `main` over there still defines the old text until the PR merges, and every other open PR is checked against what is here.\n'
+          } > body.md
+
+          EXISTING=$(gh issue list --repo "$I18N_REPO" --state open --label translation --search "in:title \"${PREFIX}\"" --limit 50 \
+            --json number,title | PREFIX="$PREFIX" jq -r 'first(.[] | select(.title | startswith(env.PREFIX)) | .number) // empty')
+
+          if [ -n "$EXISTING" ]; then
+            gh issue edit "$EXISTING" --repo "$I18N_REPO" --title "$TITLE" --body-file body.md
+            gh issue comment "$EXISTING" --repo "$I18N_REPO" --body "Superseded by a new push. Translate at ${HEAD_SHA}."
+            echo "Updated ${I18N_REPO}#${EXISTING} to ${HEAD_SHA}."
+          else
+            gh issue create --repo "$I18N_REPO" --title "$TITLE" --body-file body.md --label translation
+          fi

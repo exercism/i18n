@@ -1,0 +1,93 @@
+# The gate on every change to locales/ and to the scripts that check it.
+#
+# CI never stamps. Stamping needs --stamp and belongs to a translation pass,
+# beside the writing. A stamp asserts a translation matches its English, and
+# nothing automated except the pass that wrote the words should be able to make
+# that claim.
+#
+# ## Which English this validates against
+#
+# This repo holds no English. The two website catalogs are checked against
+# exercism/website `main`, fetched blobless with no working tree and read through
+# git objects (scripts/lib/git.mjs). Blob-keyed content needs no English at all:
+# a content file is checked from its own bytes and the path it is filed under.
+#
+# `main` floats, knowingly, and that is safe here in a way it is not in Jiki's
+# repo, which this was forked from. Nothing that floating English can cause is an
+# ERROR: a translation that is AHEAD of website main reads as an extra key (a
+# WARN) or a stale stamp (a counted state), and only a unit a PRODUCTION locale
+# is missing can fail the run. So there is no pin, no `English-Ref:` trailer and
+# no baseline-relative gating, because there is no standing backlog to subtract.
+#
+# ## Pushes to main as well as PRs
+#
+# Translation passes commit straight to main, so a gate only PRs can see would
+# miss most of what lands. A red main here means a production locale has been
+# broken, and publish.yml refuses to ship while it is.
+
+name: Validate
+
+on:
+  pull_request:
+    paths:
+      - "locales/**"
+      - "scripts/**"
+      - "locales.json"
+      - "website-exclusions.json"
+      - "package.json"
+      - ".github/workflows/validate.yml"
+  push:
+    branches: [main]
+    paths:
+      - "locales/**"
+      - "scripts/**"
+      - "locales.json"
+      - "website-exclusions.json"
+      - "package.json"
+      - ".github/workflows/validate.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Before setup-node, so its pnpm cache has a pnpm to ask for a store path.
+      # The version comes from package.json's `packageManager` field.
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      # One dependency, `yaml`, and only the code that reads the website's Rails
+      # YAML loads it.
+      - name: Install
+        run: pnpm install --frozen-lockfile
+
+      # Builds its own fixture (a tiny website, a tiny track, a tiny copy of this
+      # repo) and runs every script over it, so the scripts are exercised even
+      # while locales.json lists no locale.
+      - name: Test
+        run: node scripts/test.mjs
+
+      # Trees, plus the blobs of the two English directories in one request. No
+      # working tree: nothing from the website is ever a file on this runner.
+      - name: Fetch English (exercism/website main)
+        run: node scripts/source-checkout.mjs --source=website
+
+      - name: Validate every locale
+        run: node scripts/validate.mjs all
+
+      # Builds every artifact and runs every key through the guard, without
+      # uploading anything.
+      - name: Publish dry run
+        run: node scripts/publish.mjs all
+
+      - name: Coverage
+        if: always()
+        run: node scripts/coverage.mjs
