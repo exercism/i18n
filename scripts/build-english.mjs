@@ -1,0 +1,65 @@
+#!/usr/bin/env node
+//
+// build-english: flatten the website's English into the two catalogs.
+//
+// Usage:
+//   node scripts/build-english.mjs [--source-repo=<path>] [--source-ref=<ref>]
+//                                  [--out=<dir>] [--kind=backend|frontend] [--quiet]
+//
+// Examples:
+//   node scripts/build-english.mjs                         # website origin/main -> .build/english/
+//   node scripts/build-english.mjs --source-ref=<sha>      # exactly the English a PR holds
+//
+// English stays as many files in `website`. This writes the two flat catalogs
+// every locale is measured against, `.build/english/backend.json` and
+// `frontend.json`, plus `arrays.json` (which backend paths are lists). That
+// directory is gitignored: English is never committed here in any form.
+//
+// A translation pass is the reader. It lives in the translator repo, translates
+// these two files, and writes `locales/<locale>/website/<kind>.json`. The scripts
+// in THIS repo do not read the files back: they call the same builder in
+// scripts/lib/website-english.mjs directly, so a stale `.build/` can never be
+// what a check ran against.
+//
+// Reads English through git objects at a ref (default: `origin/main` where the
+// checkout has one, else `HEAD`), never from the working tree, and never
+// executes any of it. See scripts/lib/git.mjs.
+
+import fs from "node:fs";
+import path from "node:path";
+import { SCRIPTS_ROOT } from "./lib/constants.mjs";
+import { parseArgs } from "./lib/args.mjs";
+import { refReader, resolveSha } from "./lib/git.mjs";
+import { defaultRef, resolveRepo } from "./lib/source-repos.mjs";
+import { buildWebsiteEnglish } from "./lib/website-english.mjs";
+import { CATALOG_KINDS, englishUnits } from "./lib/catalogs.mjs";
+
+async function main() {
+  const { flags } = parseArgs(process.argv.slice(2));
+  const repo = resolveRepo("website", typeof flags["source-repo"] === "string" ? flags["source-repo"] : undefined);
+  const ref = typeof flags["source-ref"] === "string" ? flags["source-ref"] : defaultRef(repo);
+  const kinds = typeof flags.kind === "string" ? [flags.kind] : CATALOG_KINDS;
+  const outDir = path.resolve(typeof flags.out === "string" ? flags.out : path.join(SCRIPTS_ROOT, ".build", "english"));
+
+  const english = await buildWebsiteEnglish(refReader(repo, ref), { kinds });
+  fs.mkdirSync(outDir, { recursive: true });
+
+  const sha = resolveSha(repo, ref);
+  console.log(`English: ${repo} @ ${ref} (${sha})`);
+  for (const kind of kinds) {
+    const { catalog, files, notes } = english[kind];
+    const units = englishUnits(kind, catalog);
+    const groups = [...units.values()].filter((unit) => unit.plural).length;
+    fs.writeFileSync(path.join(outDir, `${kind}.json`), `${JSON.stringify(catalog, null, 2)}\n`);
+    console.log(`  ${kind}: ${files} file(s) -> ${Object.keys(catalog).length} keys, ${units.size} units (${groups} plural groups)`);
+    if (!flags.quiet) for (const note of notes) console.log(`    note: ${note}`);
+  }
+  if (english.backend) fs.writeFileSync(path.join(outDir, "arrays.json"), `${JSON.stringify(english.backend.arrays, null, 2)}\n`);
+  fs.writeFileSync(path.join(outDir, "source.json"), `${JSON.stringify({ repo: "exercism/website", sha }, null, 2)}\n`);
+  console.log(`Wrote ${path.relative(process.cwd(), outDir) || "."}/`);
+}
+
+main().catch((error) => {
+  console.error(`error: ${error.message}`);
+  process.exit(1);
+});

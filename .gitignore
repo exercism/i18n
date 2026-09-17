@@ -1,0 +1,27 @@
+# Generated publish artifacts. Rebuilt from locales/ by `pnpm publish:build`,
+# never committed: they are derivatives, and committing them would double every
+# translation diff.
+dist/
+
+# The flattened English catalogs `pnpm build:english` writes for a translation
+# pass to read. Derived from a website checkout, so never committed: English is
+# never stored in this repo in any form.
+.build/
+
+# The source checkouts English is read from. Ephemeral and rebuildable:
+# `pnpm source:checkout`, or the checkout step in CI. See ENGLISH-SOURCE.md.
+.source/
+
+# Local secrets and overrides. No script here calls an LLM provider (translation
+# lives in the translator repo), but an ignored .env is cheap insurance against a
+# key ever being committed from a local experiment.
+.env
+.env.*
+!.env.example
+
+# Scratch output.
+tmp/
+
+node_modules/
+.DS_Store
+.claude/worktrees/

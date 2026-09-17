@@ -1,0 +1,41 @@
+{
+  "$comment": [
+    "Areas of the website that are NEVER translated, and so are left out of the two",
+    "English catalogs when scripts/lib/website-english.mjs builds them.",
+    "",
+    "An exclusion binds on BOTH sides or it binds on neither: an excluded key is not",
+    "required of any locale, not counted by coverage, and not checked by validate. A",
+    "locale that holds one anyway keeps it, inert, reported as an extra key.",
+    "",
+    "`backendFiles` and `frontendNamespaces` are globs (`*` within one path segment,",
+    "`**` across segments). Backend files are matched relative to config/locales/.",
+    "`backendKeys` are dotted key prefixes, for an excluded area whose copy lives in",
+    "a file it shares with copy that IS translated.",
+    "",
+    "Every entry says which area it belongs to. The areas are iHiD's list: admin,",
+    "bootcamp, courses, hiring, campaigns, challenges, maintaining, test, and dead",
+    "mailers. The PATTERNS under each area were matched by hand against website",
+    "main at 102577eb and need his review: an area with an empty list is one where",
+    "nothing at that commit obviously matched, never a claim that nothing exists."
+  ],
+  "areas": {
+    "admin": { "backendFiles": [], "backendKeys": [], "frontendNamespaces": [] },
+    "bootcamp": {
+      "backendFiles": ["views/components/bootcamp.yml"],
+      "backendKeys": [],
+      "frontendNamespaces": ["components/settings/BootcampAffiliateCouponForm.tsx", "components/settings/BootcampFreeCouponForm.tsx"]
+    },
+    "courses": { "backendFiles": ["views/courses/**"], "backendKeys": [], "frontendNamespaces": [] },
+    "hiring": { "backendFiles": [], "backendKeys": [], "frontendNamespaces": [] },
+    "campaigns": { "backendFiles": [], "backendKeys": [], "frontendNamespaces": [] },
+    "challenges": { "backendFiles": [], "backendKeys": [], "frontendNamespaces": [] },
+    "maintaining": { "backendFiles": [], "backendKeys": [], "frontendNamespaces": ["components/maintaining", "components/maintaining/**"] },
+    "test": { "backendFiles": [], "backendKeys": [], "frontendNamespaces": ["components/test", "components/test/**"] },
+    "dead mailers": {
+      "$todo": "TODO(iHiD): which mailers are dead is not derivable from the repo. Nothing is excluded for this area yet.",
+      "backendFiles": [],
+      "backendKeys": [],
+      "frontendNamespaces": []
+    }
+  }
+}
