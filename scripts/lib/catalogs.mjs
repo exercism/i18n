@@ -32,6 +32,10 @@
 // frontend key keeps its dots: the bundles author flat dotted keys, and a nested
 // object in a bundle is flattened to the same spelling at build time.
 //
+// A third kind, `metadata`, reuses everything below for the per-repo catalogs of
+// names, titles and blurbs. It is flat on disk and never pluralises.
+// scripts/lib/metadata.mjs owns its paths, keys and extraction.
+//
 // ## Units
 //
 // A UNIT is what parity, staleness, coverage and completeness all count: one
@@ -48,10 +52,10 @@
 // per key, because a whole-file hash cannot say which of two thousand keys moved.
 //
 // The hash is the git blob id of the English string (for a group, of the JSON of
-// its category/value pairs). That is deliberate: the open question of how text
-// that is not a whole file gets keyed has "the blob id of the string itself" as
-// its candidate answer, and stamping with the same function means that answer
-// would need no second hash. See `stringId`.
+// its category/value pairs). Identical English therefore has an identical stamp
+// in every catalog that holds it, which is what lets the translator reuse a
+// translation across the per-repo metadata catalogs (scripts/lib/metadata.mjs)
+// with a hash lookup. See `stringId`.
 //
 // Stamps are written by `validate --stamp` and never by hand. A hand-written
 // stamp looks like a passed check and is not one, and models fabricate plausible
@@ -217,15 +221,14 @@ export function claimedKeys(kind, units) {
 // ------------------------------------------------------------------- stamps --
 
 /**
- * The id of a piece of text that is not a whole file: its git blob id.
+ * The hash of one English string: its git blob id.
  *
- * TODO(iHiD): OPEN. How text that is not a whole file is keyed (config.json
- * blurbs and titles, metadata.toml fields) is undecided, and the candidate is
- * exactly this. It is used today ONLY as the staleness hash for a catalog unit,
- * which commits to nothing: a stamp is private to this repo and can be recomputed
- * wholesale. If the answer is yes, fragment translations are filed under this id
- * in the content store and no second hash exists. If it is no, this stays a
- * stamp function and nothing else changes.
+ * It is a STAMP and nothing else. Text that is not a whole file was once a
+ * candidate for being FILED under this id, in the content store; that was decided
+ * against (iHiD), and such text lives in keyed per-repo catalogs instead
+ * (scripts/lib/metadata.mjs). What the choice of function still buys is that the
+ * same English has the same stamp everywhere, so "has this exact sentence been
+ * translated already, in any repo's catalog?" is one lookup.
  */
 export function stringId(text) {
   return blobId(Buffer.from(String(text), "utf8"));

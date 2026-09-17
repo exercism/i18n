@@ -42,13 +42,19 @@ Resolution order for the website, the one repo resolved implicitly: `--source-re
 Content repos are always named: `--source-repo=` for `completeness`, `--content-repos=`
 for `validate` and `coverage`.
 
-## Two stores, because the two kinds of English change differently
+## Three stores, because English changes in different ways
 
 **Git-sourced content is keyed by blob id**: `locales/<locale>/content/<ab>/<cd>/<rest>.<ext>`.
 A blob id names one sequence of bytes forever, so a translation is of exactly that text
 forever. There is no staleness, no stamp and no `en_md5`. Editing English produces a new
 blob id, which is a file that does not exist yet. Byte-identical English in fifty tracks is
 one blob id and one translation.
+
+**Names, titles and blurbs are keyed by slug**: `locales/<locale>/metadata/<repo>.json`, one
+flat catalog per source repo, extracted from `config.json` and `metadata.toml` by
+`scripts/lib/metadata.mjs`. The website syncs this text into database columns and shows only
+the latest, so there is no old version to keep serving, and it is stamped per unit exactly
+as the website catalogs are.
 
 **Website UI strings are keyed by name**: two catalogs per locale. A key's English can be
 edited under its translation, so each unit carries a stamp (in a sibling `.meta.json`)

@@ -37,6 +37,8 @@ locales/<locale>/
   website/backend.meta.json      per-unit staleness stamps, written by validate --stamp
   website/frontend.json          i18next strings: { "<namespace>": { "<key>": "..." } }
   website/frontend.meta.json
+  metadata/<repo>.json           names, titles, blurbs of ONE source repo, flat, keyed by slug
+  metadata/<repo>.meta.json      per-unit stamps, as for the website catalogs
   content/<ab>/<cd>/<rest>.<ext> one file per English git blob id, source extension kept
 scripts/                         see "Scripts"
 .github/workflows/               this repo's own workflows
@@ -44,7 +46,7 @@ source-repo-workflows/           TEMPLATES a source repo installs; they do not r
 .source/  .build/  dist/         gitignored: source fetches, flattened English, publish output
 ```
 
-## The two stores
+## The three stores
 
 ### Website UI strings: exactly two catalogs per locale
 
@@ -107,6 +109,42 @@ id, shared by every track with byte-identical English.
   tokens the website interpolates, so `validate` holds a content file to its English's.
   The track and `problem-specifications` patterns have NOT had the same check.
 
+### Names, titles and blurbs: one keyed catalog per source repo
+
+`locales/<locale>/metadata/<repo>.json`, where `<repo>` is the GitHub repo's name (`ruby`,
+`problem-specifications`, `docs`, `blog`). This is the text that is NOT a whole file: it
+sits inside `config.json` and `metadata.toml` among data. `scripts/lib/metadata.mjs` owns
+the extraction, the keys and the reasoning.
+
+- **Keyed, not hashed, and that is decided (iHiD).** The website syncs this text into
+  database columns and only ever shows the latest, so an old version never needs serving.
+  It is a catalog like the website's: same checker, same per-unit stamps, same four
+  states. An EDITED blurb is a stale unit and blocks its PR.
+- **Flat on disk**, `{ "<key>": "<translation>" }`, because keys carry slugs and a docs
+  slug contains `/`.
+- **Keys are slugs, never positions**: `track:blurb`, `key_feature:<icon>:title|content`,
+  `exercise:<slug>:name|blurb|source`, `concept:<slug>:name|blurb`, `doc:<slug>:title|blurb`;
+  `exercise:<slug>:title|blurb|source|deep_dive_blurb` for problem-specifications;
+  `<section>:<slug>:title|blurb` for docs; `post:<slug>:title|description|marketing_copy`
+  and `story:<slug>:title|blurb` for the blog. Reordering changes nothing.
+- **A renamed or removed exercise deletes nothing.** A rename is new keys, required like any
+  new text. The old keys stay in every locale, inert, reported as "key not in English".
+- **Only what a user is shown**, each field traced through the website's ingest at
+  `origin/main` and listed in `metadata.mjs`. Never uuids, slugs, paths, URLs, authors,
+  icons or file lists. Not the track's `language` (a proper name) and not its `tags`
+  (codes; the words come from `Track::TAGS` in the website's own Ruby). Only exercises and
+  concepts the track's `config.json` LISTS, because the website syncs nothing else.
+- **English lives in that repo**, so `validate` checks `metadata/ruby.json` against English
+  only when `--content-repos` names a checkout called `ruby`. Otherwise the catalog is
+  shape-checked and reported `unv` (unverified), never `ok`. CI fetches each repo some
+  locale holds a catalog for.
+- **Deduplication across tracks is the translator's job, not this repo's.** 323 of ruby's
+  427 units have English that also appears in problem-specifications. The format makes
+  reuse cheap: a stamp is the blob id of the English string, so identical English has an
+  identical stamp in every `*.meta.json`.
+- **Real sizes** (2026-09): ruby 427 units from 155 files, problem-specifications 439 from
+  151, docs 259 from 5, blog 134 from 1.
+
 ## Nothing under `locales/` is ever deleted
 
 `scripts/no-deletions.mjs` and `no-deletions.yml` refuse any removed file or key, on PRs and
@@ -131,13 +169,13 @@ implemented.
 
 | Script | What it does |
 | --- | --- |
-| `build-english.mjs` | The flattening step. Writes `.build/english/{backend,frontend,arrays,source}.json` for a pass to read. The other scripts call the same builder directly and never read those files. |
+| `build-english.mjs` | The flattening step. Writes `.build/english/{backend,frontend,arrays,source}.json` for a pass to read, or with `--content-repos` one `.build/english/metadata/<repo>.json` per repo. The other scripts call the same builder directly and never read those files. |
 | `validate.mjs` | The checker. Catalog unit parity, plural groups, placeholders, tags, whitespace; content path shape, UTF-8, JSON, no stamps, copied English, and structure against English when `--content-repos` can find it. Stamps with `--stamp`. Exits 1 on an ERROR in a production locale; `--gate=all` and `--complete` widen that. Exercises the S3 key guard on every run. |
-| `completeness.mjs` | The blocking check for ONE source repo: full, or relative to `--base`. Content by blob id, website by unit and stamp. Names the fragment files it cannot check yet. |
-| `english-changes.mjs` | The queue's reader: turns GitHub's PR file list (paths and blob shas) into the issue's table. Takes a file list, never a checkout. |
-| `coverage.mjs` | Per-locale unit counts and blob coverage for the repos named. Reports, never gates, always exits 0. |
+| `completeness.mjs` | The blocking check for ONE source repo: full, or relative to `--base`. Content by blob id; website and metadata by unit and stamp, so an edited key or blurb blocks. |
+| `english-changes.mjs` | The queue's reader: turns GitHub's PR file list (paths and blob shas) into the issue's table. For a changed `config.json` or `metadata.toml` it names the KEYS whose English changed, from the two versions of that file fetched by blob id. Takes API responses, never a checkout. |
+| `coverage.mjs` | Per-locale unit counts (website and metadata) and blob coverage for the repos named. Reports, never gates, always exits 0. |
 | `no-deletions.mjs` | Refuses a removed file or key under `locales/` between two refs. |
-| `publish.mjs` | Builds `dist/`: content-hashed catalog artifacts, a pointer beside each, content under its blob-id path, `manifest.json`, `sync.sh`. `--upload` refuses without `EXERCISM_I18N_BUCKET`. Needs no English. |
+| `publish.mjs` | Builds `dist/`: content-hashed catalog artifacts, a pointer beside each, the same for each metadata catalog, content under its blob-id path, `manifest.json`, `sync.sh`. `--upload` refuses without `EXERCISM_I18N_BUCKET`. Needs no English. |
 | `source-checkout.mjs` | Fetches a source repo into `.source/`, shallow, blobless, no working tree. |
 | `test.mjs` | Plain `node:assert`. Pure assertions, then a fixture of real git repos that every script is run over. |
 
@@ -148,7 +186,8 @@ implemented.
 ## Publishing
 
 Immutable, content-hashed artifacts plus tiny per-locale pointers for the two catalogs:
-`i18n/website/<locale>/<kind>-<hash>.json` and `<kind>.current.json` (`{ "hash": ... }`).
+`i18n/website/<locale>/<kind>-<hash>.json` and `<kind>.current.json` (`{ "hash": ... }`),
+and the same pair per source repo at `i18n/metadata/<locale>/<repo>-<hash>.json`.
 Artifact before pointer, one writer per pointer (`publish.yml`, serialised). Content is
 published as-is at `i18n/content/<locale>/<ab>/<cd>/<rest>.<ext>`, which is a STABLE path
 whose object can be corrected, so it is never cached as immutable. The backend artifact is
@@ -172,28 +211,22 @@ Stubbed or absent:
   secret, Issues read/write on this repo only, owned by iHiD, so queue issues are authored
   by `iHiD`) and `EXERCISM_SOURCE_REPOS_ACTIONS_PAT` (a secret on this repo, Actions
   read/write and Pull requests read on the source repos). S3 credentials do not.
-- **Fragment content types** are declared and inert.
 - **No translation pass exists** for this repo, so nothing has ever written to `locales/`.
 
 ## Open questions (do not answer these by accident)
 
 Each is marked `TODO(iHiD): OPEN` where the code would change.
 
-1. **How text that is not a whole file is keyed** (config.json blurbs and titles,
-   metadata.toml fields). Candidate: the blob id of the string itself, which
-   `stringId()` in `scripts/lib/catalogs.mjs` already computes (it is used today only as
-   the stamp hash, which commits to nothing). The types are in `content-types.mjs` with
-   `unit: "fragment"`, skipped everywhere and named in output.
-2. **What runs the S3 to EFS mirror.** Nothing here knows about EFS.
-3. **Whether a runner here translates automatically on issue-open.** Nothing does.
-4. **Who may trigger an issue.** `i18n-queue.yml` ships a placeholder gate.
-5. **Whether a human-navigable symlink tree exists beside the blob-id store.** None does.
-6. **Which content types and locales are in scope for launch.** Every `unit: "file"` type is
+1. **What runs the S3 to EFS mirror.** Nothing here knows about EFS.
+2. **Whether a runner here translates automatically on issue-open.** Nothing does.
+3. **Who may trigger an issue.** `i18n-queue.yml` ships a placeholder gate.
+4. **Whether a human-navigable symlink tree exists beside the blob-id store.** None does.
+5. **Which content types and locales are in scope for launch.** Every content type is
    live; both locale lists are empty. Two scope calls are flagged in `content-types.mjs` and
    deliberately not made: whether contributor-facing `building/` docs (155 of 212 pages)
    and mentor-facing `mentoring/` docs are translated, and whether the learner-facing CLI
    walkthrough (`website-copy` `walkthrough/index.html`, HTML not Markdown) is.
-7. **Bucket names, S3 credentials and IAM.** No bucket is named anywhere. (The two GitHub
+6. **Bucket names, S3 credentials and IAM.** No bucket is named anywhere. (The two GitHub
    PATs are settled: see "What is real, what is stubbed".)
 
 ## House rules

@@ -15,6 +15,8 @@ through git objects. See [ENGLISH-SOURCE.md](./ENGLISH-SOURCE.md).
 ```
 locales/<locale>/website/backend.json     Rails UI strings         (+ backend.meta.json stamps)
 locales/<locale>/website/frontend.json    i18next UI strings       (+ frontend.meta.json stamps)
+locales/<locale>/metadata/<repo>.json     names, titles, blurbs of one source repo, keyed by
+                                          slug (+ <repo>.meta.json stamps)
 locales/<locale>/content/<ab>/<cd>/<rest>.<ext>
                                           one file per English git blob id: exercises,
                                           concepts, track docs, docs, blog, analyzer
@@ -25,11 +27,16 @@ Content is keyed by the git blob id of its English file, so it has no staleness:
 English is a new blob id, which is a file that does not exist yet. Byte-identical English
 across fifty tracks is translated once.
 
+Text that is not a whole file (an exercise's name and blurb, a track's key features, a docs
+page's title) is different: the website only ever shows the latest, so it lives in one keyed
+catalog per source repo, stamped per unit like the website catalogs. An edited blurb is
+detected per key and blocks its PR.
+
 ## Quick start
 
 ```bash
 pnpm install                                  # one dependency: yaml, to read Rails YAML
-pnpm test                                     # 48 assertions, including a fixture run of every script
+pnpm test                                     # 54 assertions, including a fixture run of every script
 
 pnpm source:checkout                          # fetch exercism/website main (blobless, no working tree)
 node scripts/build-english.mjs                # flatten its English into .build/english/{backend,frontend}.json

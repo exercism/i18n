@@ -19,7 +19,8 @@ the workflow filename `i18n-completeness.yml`.
 1. A PR in a source repo changes English.
 2. `i18n-queue.yml` opens (or rewrites) an issue here: `Translate exercism/<repo>#<n>: ...`,
    labelled `translation`, listing each changed English file, its content type and the
-   blob-id path its translation goes to.
+   blob-id path its translation goes to, and for a changed `config.json` or `metadata.toml`
+   the metadata keys whose English changed.
 3. `i18n-completeness.yml` fails on that PR, because this repo does not hold the
    translations yet. With the check required, the PR cannot merge.
 4. Translations land on `main` here, for every locale in `locales.json` `productionTargets`.
@@ -33,8 +34,10 @@ holds a secret checks out or executes PR code, and no job executes PR code at al
 
 - `i18n-queue.yml` holds a secret, so it runs on `pull_request_target` and contains no
   checkout of the source repo at any ref. It learns what changed from GitHub's "list pull
-  request files" API, which returns each file's path and git blob sha. That response is
-  treated as untrusted data by `scripts/english-changes.mjs`.
+  request files" API, which returns each file's path and git blob sha, plus the base
+  commit's tree and the two versions of each changed metadata file, fetched BY BLOB ID
+  through the blob API. All of it is API responses, treated as untrusted data by
+  `scripts/english-changes.mjs` and parsed as JSON or flat TOML. Nothing is cloned.
 - `i18n-completeness.yml` holds no secret and runs on `pull_request` with a read-only token.
   It fetches the PR's merge ref as git objects into a bare repository, with no working tree,
   and reads it with `git ls-tree` and `git cat-file`. Website YAML and TypeScript bundles are
@@ -51,8 +54,10 @@ Neither template has run in GitHub Actions: no source repo has them installed ye
 has been rehearsed locally, against a real public PR
 (`exercism/ruby#1809`), is each template's data path: the blobless bare fetch of
 `refs/pull/<n>/merge` followed by `completeness.mjs --head=FETCH_HEAD --base=FETCH_HEAD^1`,
-and `gh api --paginate .../pulls/<n>/files` followed by `english-changes.mjs`. Both found
-the same five English files.
+and `gh api --paginate .../pulls/<n>/files` followed by `english-changes.mjs`, including its
+two-pass blob fetch. Both found the same five English files and the same four metadata
+units (`concept:hashes:name`, `concept:hashes:blurb`, `exercise:gross-store:name`,
+`exercise:gross-store:blurb`).
 
 ## Before installing
 
