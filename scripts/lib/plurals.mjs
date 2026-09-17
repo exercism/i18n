@@ -40,8 +40,12 @@ export function requiredCategories(locale, { ordinal = false } = {}) {
   if (cache.has(key)) return cache.get(key);
 
   let categories = null;
-  if (Intl.PluralRules.supportedLocalesOf(locale).length > 0) {
-    categories = new Intl.PluralRules(locale, { type: ordinal ? "ordinal" : "cardinal" }).resolvedOptions().pluralCategories;
+  try {
+    if (Intl.PluralRules.supportedLocalesOf(locale).length > 0) {
+      categories = new Intl.PluralRules(locale, { type: ordinal ? "ordinal" : "cardinal" }).resolvedOptions().pluralCategories;
+    }
+  } catch {
+    // A malformed tag throws rather than returning nothing. Same answer: unknown.
   }
   cache.set(key, categories);
   return categories;

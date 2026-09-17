@@ -225,21 +225,28 @@ async function main() {
   if (notice) console.log(notice);
   if (locales.length === 0) console.log(`note: locales.json "targets" is empty, so there is nothing to validate yet.`);
 
-  // English is resolved only when something will be compared against it, so a
-  // run over an empty `locales/` needs no website checkout at all.
+  // English is REQUIRED only when something will be compared against it: a
+  // catalog that exists, or a locale that is held to completeness. Otherwise it
+  // is used when a checkout happens to be there (so an absent catalog can say how
+  // many units it is missing) and skipped, out loud, when one is not. A run over
+  // an empty `locales/` therefore needs no website checkout at all.
   const needsEnglish = kinds.length > 0 && locales.some((locale) => requiresComplete(locale) || kinds.some((kind) => fs.existsSync(catalogPath(locale, kind))));
   let english = null;
-  if (needsEnglish) {
-    const repo = resolveRepo("website", typeof flags["source-repo"] === "string" ? flags["source-repo"] : undefined);
-    const ref = typeof flags["source-ref"] === "string" ? flags["source-ref"] : defaultRef(repo);
-    english = await buildWebsiteEnglish(refReader(repo, ref), { kinds });
-    console.log(`English: ${repo} @ ${ref} (${resolveSha(repo, ref)})`);
+  if (kinds.length > 0 && locales.length > 0) {
+    const repo = resolveRepo("website", typeof flags["source-repo"] === "string" ? flags["source-repo"] : undefined, { optional: !needsEnglish });
+    if (repo) {
+      const ref = typeof flags["source-ref"] === "string" ? flags["source-ref"] : defaultRef(repo);
+      english = await buildWebsiteEnglish(refReader(repo, ref), { kinds });
+      console.log(`English: ${repo} @ ${ref} (${resolveSha(repo, ref)})`);
+    } else {
+      console.log("skip: no website checkout, and no locale in scope holds a website catalog, so the website types were not checked.");
+    }
   }
 
   const contentRepos = parseContentRepos(flags["content-repos"]);
   const results = [];
   for (const locale of locales) {
-    for (const kind of kinds) {
+    for (const kind of english ? kinds : []) {
       results.push(validateCatalog({ locale, kind, english: english[kind], requireComplete: requiresComplete(locale), stamp, stampUnits }));
     }
     if (types.includes(CONTENT_TYPE_ID)) results.push(validateContent({ locale, contentRepos }));
