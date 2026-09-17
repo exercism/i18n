@@ -46,9 +46,9 @@ export function translatableFiles(kind, entries) {
   return out;
 }
 
-/** Paths that hold copy nobody can translate yet: the OPEN fragment question. */
-export function fragmentFiles(kind, entries) {
-  return entries.map((entry) => ({ type: typeForPath(kind, entry.path, { unit: "fragment" }), path: entry.path })).filter((entry) => entry.type);
+/** The files of a tree that a metadata catalog is built from (scripts/lib/metadata.mjs). */
+export function metadataFiles(kind, entries) {
+  return entries.map((entry) => ({ type: typeForPath(kind, entry.path, { unit: "metadata" }), path: entry.path, id: entry.id })).filter((entry) => entry.type);
 }
 
 /**

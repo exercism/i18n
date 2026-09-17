@@ -83,6 +83,9 @@ export const PLURAL_SPELLING = {
     join: (base, category) => `${base}.${category}`,
     unitId: (base) => `${base}.*`
   },
+  // The per-repo metadata catalogs (scripts/lib/metadata.mjs) hold names, titles
+  // and blurbs. None of it is ever pluralised, so no key is ever part of a group.
+  metadata: { split: () => null, join: (base) => base, unitId: (base) => base },
   frontend: {
     split(key) {
       const match = /^(.*?)(_ordinal)?_(zero|one|two|few|many|other)$/.exec(key);

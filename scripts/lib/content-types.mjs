@@ -48,7 +48,7 @@
 // scripts/english-changes.mjs rather than holding a copy of the patterns.
 //
 // TODO(iHiD): OPEN. Which content types are in scope for LAUNCH is undecided.
-// Every `unit: "file"` type below is live in the scripts today, which makes the
+// Every type below is live in the scripts today, which makes the
 // completeness check require all of them of a production locale. If launch is
 // narrower, add `launch: false` to a type and filter on it in `typesForKind`;
 // the field is deliberately absent rather than guessed.
@@ -165,7 +165,7 @@ export const CONTENT_TYPES = {
   //   reference/*.yml               data, not prose
   //   README.md, CODE_OF_CONDUCT.md, season-of-docs-proposal.md
   //                                 about the repo itself
-  //   <section>/config.json         titles and blurbs: fragment text, see below
+  //   <section>/config.json         titles and blurbs: the metadata catalog, see below
   "docs-using": { label: "docs page (using)", kind: "docs", unit: "file", match: /^using\/.+\.md$/ }, // 36
   "docs-building": { label: "docs page (building, contributor-facing)", kind: "docs", unit: "file", match: /^building\/.+\.md$/ }, // 158, of which 155 served
   "docs-programming": { label: "docs page (programming)", kind: "docs", unit: "file", match: /^programming\/.+\.md$/ }, // 3
@@ -184,7 +184,7 @@ export const CONTENT_TYPES = {
   //
   // Deliberately NOT translatable: README.md, CODE_OF_CONDUCT.md, bin/*.sh,
   // config.json.schema.json (about the repo), and config.json itself (titles,
-  // descriptions, marketing copy, blurbs: fragment text, see below).
+  // descriptions, marketing copy, blurbs: the metadata catalog, see below).
   "blog-post": { label: "blog post", kind: "blog", unit: "file", match: /^posts\/[^/]+\.md$/ }, // 54
   "community-story": { label: "community story", kind: "blog", unit: "file", match: /^stories\/[^/]+\.md$/ }, // 13
 
@@ -226,58 +226,55 @@ export const CONTENT_TYPES = {
   },
 
   // ---------------------------------------------------------------------------
-  // TODO(iHiD): OPEN. Text that is NOT a whole file.
+  // Text that is NOT a whole file: `unit: "metadata"`.
   //
-  // An exercise's blurb and title live inside `.meta/config.json` beside its file
-  // lists; a track's and a concept's live in config.json; a specification's live
-  // in metadata.toml; a docs page's title and blurb live in the docs config.json.
-  // Translating the whole file is wrong (almost none of it is copy, and the rest
-  // changes constantly), so these need keying per STRING, and how is undecided.
-  // The candidate is the blob id of the string itself, filed in the same content
-  // store, which `stringId` in catalogs.mjs already computes.
+  // An exercise's blurb lives inside `.meta/config.json` beside its file lists; a
+  // track's blurb, its exercise and concept names and its key features live in
+  // config.json; a specification's title and blurb live in metadata.toml; a docs
+  // page's and a blog post's live in a manifest. Translating those files whole is
+  // wrong (almost none of each is copy), so the copy is EXTRACTED into one keyed
+  // catalog per source repo: scripts/lib/metadata.mjs owns the extraction, the
+  // keys and the on-disk shape, and says which fields are copy and how each was
+  // verified against the website.
   //
-  // Until that is settled these types are DECLARED and INERT: `unit: "fragment"`
-  // is skipped by completeness, coverage and the queue, each of which says so
-  // rather than silently reading "0 missing". They are listed so that the paths
-  // are recorded in the one place a path belongs, and so that settling the
-  // question is filling in an extractor, not rediscovering where the copy is.
-  // `fields` is INDICATIVE: no script reads it. The docs and blog entries were
-  // checked against the real manifests; the track and problem-specifications
-  // ones were not. Verify them when the extractor is written.
+  // What lives HERE is only the path patterns: which files a metadata catalog is
+  // built from. english-changes uses them to tell that a PR touched one, and
+  // nothing files a translation under these paths. `fields` is documentation of
+  // what metadata.mjs extracts from each, and is read by nothing.
   // ---------------------------------------------------------------------------
   "exercise-metadata": {
     label: "exercise blurb",
     kind: "track",
-    unit: "fragment",
-    fields: ["blurb"],
+    unit: "metadata",
+    fields: ["blurb", "source"],
     match: new RegExp(`^${EXERCISE}/\\.meta/config\\.json$`)
   },
   "concept-metadata": {
     label: "concept blurb",
     kind: "track",
-    unit: "fragment",
+    unit: "metadata",
     fields: ["blurb"],
     match: /^concepts\/[^/]+\/\.meta\/config\.json$/
   },
   "track-metadata": {
     label: "track blurb, exercise and concept names, key features",
     kind: "track",
-    unit: "fragment",
-    fields: ["blurb", "exercises.*[].name", "concepts[].name", "key_features[].title", "key_features[].content"],
+    unit: "metadata",
+    fields: ["blurb", "exercises.concept[].name", "exercises.practice[].name", "concepts[].name", "key_features[].title", "key_features[].content"],
     match: /^config\.json$/
   },
   "track-docs-metadata": {
     label: "track docs titles and blurbs",
     kind: "track",
-    unit: "fragment",
+    unit: "metadata",
     fields: ["docs[].title", "docs[].blurb"],
     match: /^docs\/config\.json$/
   },
   "problem-specification-metadata": {
     label: "problem specification title and blurb",
     kind: "problem-specifications",
-    unit: "fragment",
-    fields: ["title", "blurb"],
+    unit: "metadata",
+    fields: ["title", "blurb", "source", "deep_dive_blurb"],
     match: /^exercises\/[^/]+\/metadata\.toml$/
   },
   "docs-metadata": {
@@ -285,7 +282,7 @@ export const CONTENT_TYPES = {
     // (mentoring's and using's also carry `section`). 212 titles and blurbs.
     label: "docs titles and blurbs",
     kind: "docs",
-    unit: "fragment",
+    unit: "metadata",
     fields: ["[].title", "[].blurb"],
     match: /^(?:using|building|programming|mentoring|community)\/config\.json$/
   },
@@ -294,7 +291,7 @@ export const CONTENT_TYPES = {
     // optional `description`; stories carry { title, blurb }.
     label: "blog post and story titles, descriptions, marketing copy, blurbs",
     kind: "blog",
-    unit: "fragment",
+    unit: "metadata",
     fields: ["posts[].title", "posts[].description", "posts[].marketing_copy", "stories[].title", "stories[].blurb"],
     match: /^config\.json$/
   }

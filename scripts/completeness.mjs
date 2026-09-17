@@ -45,11 +45,15 @@
 // `^1`): that diff is exactly what merging would change, with no merge-base
 // arithmetic and no history beyond depth 2.
 //
-// ## What it cannot check yet
+// ## Two things are required of a content repo
 //
-// Text that is not a whole file (blurbs and titles in config.json, fields of
-// metadata.toml). How that is keyed is an open decision, so those files are
-// counted and NAMED in the output as unchecked, never silently passed.
+// Whole files, by blob id. And the repo's METADATA catalog: the names, titles and
+// blurbs inside config.json and metadata.toml, extracted into keyed units
+// (scripts/lib/metadata.mjs) and held to the same standard as a website key:
+// present, and stamped against exactly the English that is asking. So an edited
+// blurb blocks its PR. In relative mode the metadata is only read at all when the
+// PR touched one of the files it is built from, because reading it means
+// fetching a blob per exercise.
 
 import fs from "node:fs";
 import path from "node:path";
@@ -60,7 +64,8 @@ import { kindForRepo, repoKind } from "./lib/source-repos.mjs";
 import { buildWebsiteEnglish } from "./lib/website-english.mjs";
 import { CATALOG_KINDS, catalogPath, flattenCatalog, readStamps } from "./lib/catalogs.mjs";
 import { heldContent } from "./lib/content-store.mjs";
-import { REASONS, fragmentFiles, missingContent, missingUnits, requiredContent, requiredUnits } from "./lib/completeness.mjs";
+import { REASONS, metadataFiles, missingContent, missingUnits, requiredContent, requiredUnits } from "./lib/completeness.mjs";
+import { METADATA_KIND, buildMetadataEnglish, metadataPath } from "./lib/metadata.mjs";
 
 const SHOWN = 40;
 
@@ -69,6 +74,7 @@ async function main() {
   if (typeof flags["source-repo"] !== "string") fail("--source-repo=<checkout> is required: the repo whose English is being asked about.");
   const repo = path.resolve(flags["source-repo"]);
   const name = typeof flags.repo === "string" ? flags.repo : `exercism/${path.basename(repo)}`;
+  const shortName = name.split("/").pop();
   const kind = typeof flags.kind === "string" ? flags.kind : kindForRepo(name);
   repoKind(kind);
 
@@ -79,10 +85,11 @@ async function main() {
 
   console.log(`${name} (${kind}) @ ${resolveSha(repo, head)}${base ? `, relative to ${resolveSha(repo, base)}` : ", in full"}`);
 
-  const report = { repo: name, kind, head: resolveSha(repo, head), base: base ? resolveSha(repo, base) : null, locales: {}, unchecked: [] };
+  const report = { repo: name, kind, head: resolveSha(repo, head), base: base ? resolveSha(repo, base) : null, locales: {} };
 
   // What is required is a fact about the source repo alone, computed once.
   let content = [];
+  let metadata = [];
   let website = null;
   if (kind === "website") {
     const englishHead = await buildWebsiteEnglish(refReader(repo, head));
@@ -95,14 +102,16 @@ async function main() {
     content = requiredContent(kind, headEntries, baseEntries);
     console.log(`  requires ${content.length} content file(s), ${new Set(content.map((file) => file.id)).size} distinct`);
 
+
     const before = baseEntries === null ? null : new Map(baseEntries.map((entry) => [entry.path, entry.id]));
-    const now = new Map(headEntries.map((entry) => [entry.path, entry.id]));
-    report.unchecked = fragmentFiles(kind, headEntries).filter((file) => before === null || before.get(file.path) !== now.get(file.path));
-    if (report.unchecked.length > 0) {
-      console.log(`  NOT CHECKED: ${report.unchecked.length} file(s) holding copy that is not a whole file (blurbs, titles). How that is keyed is undecided.`);
-      for (const file of report.unchecked.slice(0, 5)) console.log(`    ${file.path} (${file.type})`);
-      if (report.unchecked.length > 5) console.log(`    ... and ${report.unchecked.length - 5} more`);
+    const touched = metadataFiles(kind, headEntries).filter((file) => before === null || before.get(file.path) !== file.id);
+    if (touched.length > 0) {
+      const english = buildMetadataEnglish(kind, headEntries, refReader(repo, head).readMany);
+      const englishBase = baseEntries === null ? null : buildMetadataEnglish(kind, baseEntries, refReader(repo, base).readMany);
+      metadata = requiredUnits(METADATA_KIND, english.catalog, englishBase?.catalog ?? null);
+      for (const note of english.notes) console.log(`  note: ${note}`);
     }
+    console.log(`  requires ${metadata.length} metadata unit(s) (names, titles, blurbs), from ${touched.length} ${base ? "changed " : ""}file(s)`);
   }
 
   const notice = productionGateNotice();
@@ -127,6 +136,13 @@ async function main() {
     } else {
       for (const file of missingContent(content, heldContent(locale))) {
         if (!file.duplicate) lines.push({ what: `${file.path} (${file.type})`, why: `no locales/${locale}/content/${file.store}`, ...file });
+      }
+      if (metadata.length > 0) {
+        const file = metadataPath(locale, shortName);
+        const flat = fs.existsSync(file) ? flattenCatalog(METADATA_KIND, JSON.parse(fs.readFileSync(file, "utf8"))) : {};
+        for (const found of missingUnits(METADATA_KIND, metadata, flat, fs.existsSync(file) ? readStamps(file) : {}, locale)) {
+          lines.push({ what: `metadata/${shortName}.json: ${found.unit}`, why: REASONS[found.reason], ...found });
+        }
       }
     }
 

@@ -92,6 +92,8 @@ function flattenTree(tree, prefix, out) {
 
 /** The on-disk tree of one catalog kind, as a flat map. */
 export function flattenCatalog(kind, tree) {
+  // A metadata catalog is flat on disk already: see scripts/lib/metadata.mjs.
+  if (kind === "metadata") return { ...tree };
   if (kind === "backend") return flattenTree(tree, "", {});
   const out = {};
   for (const [namespace, keys] of Object.entries(tree)) {
@@ -106,6 +108,7 @@ export function flattenCatalog(kind, tree) {
  * as an object with numeric keys, which Rails would render as a hash.
  */
 export function unflattenCatalog(kind, flat, arrays = new Set()) {
+  if (kind === "metadata") return { ...flat };
   const root = {};
   for (const [flatKey, value] of Object.entries(flat)) {
     let segments;

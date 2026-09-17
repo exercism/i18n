@@ -55,6 +55,8 @@ const PLACEHOLDER_PATTERNS = {
   // Rails: `%{name}`, and the rarer sprintf form `%<name>s`.
   backend: [/%\{[\w.]+\}/g, /%<\w+>[-+0 #]*\d*(?:\.\d+)?[a-zA-Z]/g],
   // i18next: `{{name}}`, `{{count, number}}`, and nesting, `$t(other.key)`.
+  // Metadata is plain prose and Markdown: the website interpolates nothing into it.
+  metadata: [],
   frontend: [/\{\{\s*-?\s*[\w.]+\s*(?:,[^}]*)?\}\}/g, /\$t\([^)]*\)/g]
 };
 
