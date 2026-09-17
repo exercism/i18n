@@ -23,9 +23,22 @@ import { execFileSync } from "node:child_process";
 
 const MAX_BUFFER = 512 * 1024 * 1024;
 
-export function git(args, cwd, { input, encoding = "utf8" } = {}) {
-  return execFileSync("git", args, { cwd, input, encoding: encoding === "buffer" ? undefined : encoding, maxBuffer: MAX_BUFFER, stdio: ["pipe", "pipe", "pipe"] });
+export function git(args, cwd, { input, encoding = "utf8", env } = {}) {
+  return execFileSync("git", args, {
+    cwd,
+    input,
+    encoding: encoding === "buffer" ? undefined : encoding,
+    maxBuffer: MAX_BUFFER,
+    stdio: ["pipe", "pipe", "pipe"],
+    env: env ? { ...process.env, ...env } : process.env
+  });
 }
+
+// A blobless clone fetches a missing blob the moment anything asks for it, ONE
+// blob per round trip. Switched off wherever this file reads blobs, so that a
+// missing blob is reported as missing and the fetching is done once, in bulk, by
+// `prefetchBlobs`.
+const NO_LAZY_FETCH = { GIT_NO_LAZY_FETCH: "1" };
 
 /**
  * The git blob id of some bytes: sha1 over `blob <length>\0` and the content.
@@ -80,6 +93,40 @@ export function lsTree(repo, ref, prefixes = []) {
 }
 
 /**
+ * In a blobless clone, fetch the blobs about to be read, in ONE request.
+ *
+ * CI clones a source repo with `--filter=blob:none`, because a tree is all the
+ * content check needs. The website check does need blobs, a few hundred of them,
+ * and git's own lazy fetch would get them one round trip at a time. This is the
+ * same request git's promisor code makes, asked once for the whole list.
+ *
+ * A no-op in an ordinary clone. A failure is swallowed: the blobs then read as
+ * missing, and the caller says which file it could not read, which is a better
+ * error than a fetch's.
+ */
+export function prefetchBlobs(repo, ids) {
+  let promisor = "";
+  try {
+    promisor = git(["config", "--get-regexp", "^remote\\..*\\.promisor$"], repo).trim();
+  } catch {
+    return; // no promisor remote: an ordinary clone, everything is already here
+  }
+  if (!promisor) return;
+  const remote = promisor.split("\n")[0].split(".")[1];
+
+  const check = git(["cat-file", "--batch-check"], repo, { input: `${ids.join("\n")}\n`, env: NO_LAZY_FETCH });
+  const missing = check.split("\n").filter((line) => line.endsWith(" missing")).map((line) => line.split(" ")[0]);
+  if (missing.length === 0) return;
+  try {
+    git(["-c", "fetch.negotiationAlgorithm=noop", "fetch", remote, "--no-tags", "--no-write-fetch-head", "--recurse-submodules=no", "--filter=blob:none", "--stdin"], repo, {
+      input: `${missing.join("\n")}\n`
+    });
+  } catch {
+    // Reported by the caller as unreadable files.
+  }
+}
+
+/**
  * The content of many blobs, by id, in one `git cat-file --batch`.
  *
  * One process rather than one per file: the website's English is three hundred
@@ -90,12 +137,13 @@ export function lsTree(repo, ref, prefixes = []) {
  *
  * @returns {Map<string, Buffer|null>}
  */
-export function readBlobs(repo, ids) {
+export function readBlobs(repo, ids, { prefetch = true } = {}) {
   const wanted = [...new Set(ids)];
   const result = new Map();
   if (wanted.length === 0) return result;
+  if (prefetch) prefetchBlobs(repo, wanted);
 
-  const out = git(["cat-file", "--batch"], repo, { input: `${wanted.join("\n")}\n`, encoding: "buffer" });
+  const out = git(["cat-file", "--batch"], repo, { input: `${wanted.join("\n")}\n`, encoding: "buffer", env: NO_LAZY_FETCH });
   let offset = 0;
   for (const id of wanted) {
     const lineEnd = out.indexOf(0x0a, offset);

@@ -176,7 +176,7 @@ function validateContent({ locale, contentRepos }) {
   const english = new Map();
   for (const repo of contentRepos) {
     const wanted = files.filter((entry) => entry.id && !english.has(entry.id)).map((entry) => entry.id);
-    for (const [id, bytes] of readBlobs(repo.dir, wanted)) if (bytes !== null) english.set(id, bytes);
+    for (const [id, bytes] of readBlobs(repo.dir, wanted, { prefetch: false })) if (bytes !== null) english.set(id, bytes);
   }
 
   const seen = new Map();
