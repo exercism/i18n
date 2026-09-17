@@ -11,9 +11,9 @@ English, and nothing here can: there is no English directory under `locales/` to
 | `website` | `exercism/website` | `config/locales/**/*.yml` (Rails, `en:` root) and `app/javascript/i18n/en/*.ts` (i18next bundles) |
 | `track` | every track repo, around eighty | exercise `.docs/`, `concepts/*/about.md` and `introduction.md`, `docs/*.md` |
 | `problem-specifications` | `exercism/problem-specifications` | `exercises/*/description.md`, `instructions.md`, `introduction.md` |
-| `docs` | `exercism/docs` | every Markdown page in a section directory |
-| `blog` | `exercism/blog` | `posts/`, `stories/` |
-| `website-copy` | `exercism/website-copy` | `analyzer-comments/` |
+| `docs` | `exercism/docs` | Markdown under the five served sections: `using/`, `building/`, `programming/`, `mentoring/`, `community/` |
+| `blog` | `exercism/blog` | `posts/*.md`, `stories/*.md` |
+| `website-copy` | `exercism/website-copy` | `analyzer-comments/**/*.md` only (mentor notes, `pages/` and the walkthrough are not) |
 
 The kinds are `REPO_KINDS` in `scripts/lib/source-repos.mjs`. The exact paths are the
 content types in `scripts/lib/content-types.mjs`. There is no list of tracks here and there

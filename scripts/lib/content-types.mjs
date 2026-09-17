@@ -130,28 +130,99 @@ export const CONTENT_TYPES = {
     match: /^exercises\/[^/]+\/(?:description|instructions|introduction)\.md$/
   },
 
-  // ------------------------------------------------------------- docs, blog --
-  docs: {
-    label: "docs page",
-    kind: "docs",
-    unit: "file",
-    // Every Markdown page in a section directory. The repo's own top-level files
-    // (README, CODE_OF_CONDUCT, a proposal) are about the repo, not served.
-    match: /^[^/]+\/.+\.md$/
-  },
-  blog: {
-    label: "blog post",
-    kind: "blog",
-    unit: "file",
-    match: /^(?:posts|stories)\/.+\.md$/
-  },
+  // ------------------------------------------------------------------- docs --
+  //
+  // VERIFIED against exercism/docs@862f7be0 and the website's ingest
+  // (app/commands/git/sync_main_docs.rb, sync_doc.rb, app/models/document.rb).
+  //
+  // The website serves exactly the pages listed in FIVE section manifests,
+  // `<section>/config.json` for using, building, programming, mentoring and
+  // community, and reads each page's Markdown from the manifest entry's `path`.
+  // At that commit the manifests list 212 pages, every one of them exists, and
+  // every one is inside its own section's directory, so the five patterns below
+  // match all 212. They also match THREE files no manifest lists
+  // (building/product/experience.md, building/tracks/stories/ast.top-secret.md,
+  // building/tracks/stories/errors.new-passport.md), which the website never
+  // serves. A pattern cannot see a manifest's contents, so those three are
+  // over-required: translated and never shown. That errs in the safe direction.
+  //
+  // TODO(iHiD): if over-requiring ever matters, membership has to come from the
+  // manifest and not from a pattern. The same is true of `track-docs` above:
+  // a track's served docs are the `path`s in its docs/config.json, and
+  // exercism/ruby holds docs/24pullrequests.md, which that manifest omits.
+  //
+  // One type PER SECTION, so that scope is a one-line change.
+  //
+  // TODO(iHiD): DECISION NEEDED, not made here. `building/` is 155 of the 212
+  // pages and is written for contributors and maintainers, not learners, and
+  // `mentoring/` is written for mentors. Both are live below, because they are
+  // served to signed-in users like any other page and leaving them out silently
+  // would be deciding. Dropping one from launch is removing (or flagging) its
+  // entry.
+  //
+  // Deliberately NOT translatable, and why:
+  //   anatomy/**, dev/**            not a synced section: never served
+  //   reference/*.yml               data, not prose
+  //   README.md, CODE_OF_CONDUCT.md, season-of-docs-proposal.md
+  //                                 about the repo itself
+  //   <section>/config.json         titles and blurbs: fragment text, see below
+  "docs-using": { label: "docs page (using)", kind: "docs", unit: "file", match: /^using\/.+\.md$/ }, // 36
+  "docs-building": { label: "docs page (building, contributor-facing)", kind: "docs", unit: "file", match: /^building\/.+\.md$/ }, // 158, of which 155 served
+  "docs-programming": { label: "docs page (programming)", kind: "docs", unit: "file", match: /^programming\/.+\.md$/ }, // 3
+  "docs-mentoring": { label: "docs page (mentoring, mentor-facing)", kind: "docs", unit: "file", match: /^mentoring\/.+\.md$/ }, // 8
+  "docs-community": { label: "docs page (community)", kind: "docs", unit: "file", match: /^community\/.+\.md$/ }, // 10
+
+  // ------------------------------------------------------------------- blog --
+  //
+  // VERIFIED against exercism/blog@1df84cc2 and the website's ingest
+  // (app/commands/git/sync_blog.rb, app/models/git/blog.rb).
+  //
+  // config.json lists posts and stories by slug, and the website reads
+  // `posts/<slug>.md` and `stories/<slug>.md`. At that commit it lists 54 posts
+  // and 13 stories; all 67 files exist, the two directories hold nothing else,
+  // and nothing is nested. So these two patterns are EXACT: 54 and 13.
+  //
+  // Deliberately NOT translatable: README.md, CODE_OF_CONDUCT.md, bin/*.sh,
+  // config.json.schema.json (about the repo), and config.json itself (titles,
+  // descriptions, marketing copy, blurbs: fragment text, see below).
+  "blog-post": { label: "blog post", kind: "blog", unit: "file", match: /^posts\/[^/]+\.md$/ }, // 54
+  "community-story": { label: "community story", kind: "blog", unit: "file", match: /^stories\/[^/]+\.md$/ }, // 13
 
   // ----------------------------------------------------------- website-copy --
+  //
+  // VERIFIED against exercism/website-copy@68cc3fc9 and the website's ingest
+  // (app/models/git/website_copy.rb, app/models/submission/analysis.rb).
+  //
+  // An analyzer emits a comment CODE such as `ruby.two-fer.splat_args`; the
+  // website turns the dots into slashes and reads
+  // `analyzer-comments/<code>.md`, then interpolates `%{name}` parameters into
+  // the Markdown (and `%%` as a literal percent). At that commit the directory
+  // holds 519 files across 15 tracks, every one of them `.md`, with no README
+  // or other stray among them, so the pattern matches exactly the 519 files a
+  // code can resolve to. The `%{name}` tokens are why scripts/lib/checks.mjs
+  // holds a content file to its English's placeholders.
+  //
+  // Deliberately NOT translatable, and why:
+  //   tracks/**/mentoring.md (291) and the 3 other files under tracks/
+  //                                 mentor notes: read by mentors, never by a
+  //                                 learner
+  //   automators.json               usernames and track slugs: data
+  //   pages/*.md (24), licences/*   NOT READ BY THE WEBSITE AT ALL. Nothing in
+  //                                 Git::WebsiteCopy opens them; they are left
+  //                                 over from an earlier version of the site
+  //   walkthrough/index.html        TODO(iHiD): DECISION NEEDED. This one IS
+  //                                 learner-facing: it is the CLI walkthrough
+  //                                 modal (app/assemblers/assemble_cli_walkthrough.rb),
+  //                                 served after a `[CONFIGURE_COMMAND]` token
+  //                                 is substituted. But it is one 37KB HTML
+  //                                 document, not Markdown, and `.html` is not
+  //                                 an extension the store takes. Left out
+  //                                 rather than half-supported.
   "analyzer-comments": {
     label: "analyzer comment",
     kind: "website-copy",
     unit: "file",
-    match: /^analyzer-comments\/.+\.md$/
+    match: /^analyzer-comments\/.+\.md$/ // 519
   },
 
   // ---------------------------------------------------------------------------
@@ -170,8 +241,9 @@ export const CONTENT_TYPES = {
   // rather than silently reading "0 missing". They are listed so that the paths
   // are recorded in the one place a path belongs, and so that settling the
   // question is filling in an extractor, not rediscovering where the copy is.
-  // `fields` is INDICATIVE: no script reads it, and it has not been checked
-  // against each repo's schema. Verify it when the extractor is written.
+  // `fields` is INDICATIVE: no script reads it. The docs and blog entries were
+  // checked against the real manifests; the track and problem-specifications
+  // ones were not. Verify them when the extractor is written.
   // ---------------------------------------------------------------------------
   "exercise-metadata": {
     label: "exercise blurb",
@@ -209,17 +281,21 @@ export const CONTENT_TYPES = {
     match: /^exercises\/[^/]+\/metadata\.toml$/
   },
   "docs-metadata": {
+    // VERIFIED: five manifests, entries of { uuid, slug, path, title, blurb }
+    // (mentoring's and using's also carry `section`). 212 titles and blurbs.
     label: "docs titles and blurbs",
     kind: "docs",
     unit: "fragment",
     fields: ["[].title", "[].blurb"],
-    match: /^[^/]+\/config\.json$/
+    match: /^(?:using|building|programming|mentoring|community)\/config\.json$/
   },
   "blog-metadata": {
-    label: "blog post titles and marketing copy",
+    // VERIFIED: posts carry { title, marketing_copy } and, per sync_blog.rb, an
+    // optional `description`; stories carry { title, blurb }.
+    label: "blog post and story titles, descriptions, marketing copy, blurbs",
     kind: "blog",
     unit: "fragment",
-    fields: ["posts[].title", "posts[].marketing_copy"],
+    fields: ["posts[].title", "posts[].description", "posts[].marketing_copy", "stories[].title", "stories[].blurb"],
     match: /^config\.json$/
   }
 };

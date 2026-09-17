@@ -77,6 +77,10 @@ checker and a pass work against those:
   like a passed check and is not one, and models fabricate plausible hashes. `--stamp`
   stamps unstamped units that passed. A STALE unit is re-stamped only when named in
   `--stamp-units`, because nothing can tell "retranslated" from "untouched".
+- **The website's own `hu:` and `nl:` trees are not migrated.** `config/locales/pages/track.yml`
+  holds Hungarian and Dutch beside `en:`. The build reads the `en:` root only, and that is
+  the decision, not a gap: both languages will be redone from scratch with the current
+  engine. Nothing is to be copied from there into `locales/`.
 - **Exclusions live in `website-exclusions.json`** and bind on both sides: an excluded key is
   not required, counted or checked.
 
@@ -95,6 +99,13 @@ id, shared by every track with byte-identical English.
   legitimately identical.
 - **`scripts/lib/content-types.mjs` is the one place a path pattern lives.** A type is a
   pattern within a KIND of repo, so one entry covers all eighty tracks.
+- **The `docs`, `blog` and `website-copy` patterns are VERIFIED** against the real trees and
+  against how the website ingests each, and the registry records the commit, the match
+  counts and what is deliberately left out. `docs` is one type per served section (212
+  served pages, plus 3 unlisted files the patterns over-match); `blog` is exact (54 posts,
+  13 stories); `analyzer-comments` is exact (519). Analyzer comments carry `%{name}`
+  tokens the website interpolates, so `validate` holds a content file to its English's.
+  The track and `problem-specifications` patterns have NOT had the same check.
 
 ## Nothing under `locales/` is ever deleted
 
@@ -178,7 +189,10 @@ Each is marked `TODO(iHiD): OPEN` where the code would change.
 4. **Who may trigger an issue.** `i18n-queue.yml` ships a placeholder gate.
 5. **Whether a human-navigable symlink tree exists beside the blob-id store.** None does.
 6. **Which content types and locales are in scope for launch.** Every `unit: "file"` type is
-   live; both locale lists are empty.
+   live; both locale lists are empty. Two scope calls are flagged in `content-types.mjs` and
+   deliberately not made: whether contributor-facing `building/` docs (155 of 212 pages)
+   and mentor-facing `mentoring/` docs are translated, and whether the learner-facing CLI
+   walkthrough (`website-copy` `walkthrough/index.html`, HTML not Markdown) is.
 7. **Bucket names, S3 credentials and IAM.** No bucket is named anywhere. (The two GitHub
    PATs are settled: see "What is real, what is stubbed".)
 

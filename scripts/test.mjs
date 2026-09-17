@@ -96,6 +96,33 @@ await test("a track's paths resolve to the right type, and code resolves to none
   assert.equal(typeForPath("problem-specifications", "exercises/two-fer/description.md"), "problem-specification");
 });
 
+// Paths taken from the real trees these patterns were verified against
+// (docs@862f7be0, blog@1df84cc2, website-copy@68cc3fc9), together with how the
+// website ingests each. content-types.mjs has the counts and the reasoning.
+await test("docs, blog and website-copy: what is served matches, what is not served does not", () => {
+  assert.equal(typeForPath("docs", "using/contact.md"), "docs-using");
+  assert.equal(typeForPath("docs", "building/tracks/README.md"), "docs-building");
+  assert.equal(typeForPath("docs", "mentoring/how_to_give_great_feedback.md"), "docs-mentoring");
+  for (const unserved of ["anatomy/tracks/config-json.md", "dev/badges.md", "README.md", "season-of-docs-proposal.md", "reference/templates/ci/ci.yml"]) {
+    assert.equal(typeForPath("docs", unserved), null, unserved);
+  }
+  assert.equal(typeForPath("docs", "building/config.json"), null);
+  assert.equal(typeForPath("docs", "building/config.json", { unit: "fragment" }), "docs-metadata");
+  assert.equal(typeForPath("docs", "anatomy/config.json", { unit: "fragment" }), null);
+
+  assert.equal(typeForPath("blog", "posts/a-post.md"), "blog-post");
+  assert.equal(typeForPath("blog", "stories/a-story.md"), "community-story");
+  assert.equal(typeForPath("blog", "posts/nested/x.md"), null);
+  assert.equal(typeForPath("blog", "README.md"), null);
+  assert.equal(typeForPath("blog", "config.json", { unit: "fragment" }), "blog-metadata");
+
+  assert.equal(typeForPath("website-copy", "analyzer-comments/ruby/general/explicit_return.md"), "analyzer-comments");
+  for (const unserved of ["tracks/ruby/exercises/two-fer/mentoring.md", "tracks/ruby/mentoring.md", "pages/about.md", "walkthrough/index.html", "automators.json", "licences/mit.md"]) {
+    assert.equal(typeForPath("website-copy", unserved), null, unserved);
+    assert.equal(typeForPath("website-copy", unserved, { unit: "fragment" }), null, unserved);
+  }
+});
+
 // The open question must stay visibly open: a fragment file is never a `file`
 // type (which would require translating a whole config.json) and never nothing
 // (which would let it vanish from every report).
@@ -377,6 +404,9 @@ await test("a content file is checked from its bytes alone, and against English 
   assert.deepEqual(checkContentFile({ id, extension: ".md", bytes: good }, english), []);
   assert.match(warningsOf(checkContentFile({ id, extension: ".md", bytes: english }))[0], /byte-identical/);
   assert.match(errorsOf(checkContentFile({ id, extension: ".md", bytes: Buffer.from("# Cím\n\nszöveg\n") }, english))[0], /fenced code block/);
+  const comment = Buffer.from("Use `%{method}` instead of `%{other}`. 100%% sure.\n");
+  assert.deepEqual(checkContentFile({ id: blobId(comment), extension: ".md", bytes: Buffer.from("Használd a `%{method}` metódust a `%{other}` helyett. 100%% biztos.\n") }, comment), []);
+  assert.match(errorsOf(checkContentFile({ id: blobId(comment), extension: ".md", bytes: Buffer.from("Használd a `%{metódus}` metódust a `%{other}` helyett.\n") }, comment))[0], /placeholders differ.*%\{method\}/);
   assert.match(errorsOf(checkContentFile({ id, extension: ".md", bytes: Buffer.from("---\nen_md5: abc\n---\n# Cím\n") }))[0], /en_md5/);
   assert.match(errorsOf(checkContentFile({ id, extension: ".json", bytes: Buffer.from("{nope") }))[0], /invalid JSON/);
   assert.deepEqual(errorsOf(checkContentFile({ id, extension: ".md", bytes: Buffer.from([0xff, 0xfe, 0x00]) })), ["not valid UTF-8"]);

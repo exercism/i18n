@@ -284,6 +284,17 @@ export function checkContentFile({ id, extension, bytes }, english = null) {
         const [en, target] = [count(source, pattern), count(text, pattern)];
         if (en !== target) issues.push(issue(ERROR, `${what}: English has ${en}, translation has ${target}`));
       }
+      // `%{name}` is interpolated at render time into an analyzer comment
+      // (website: app/models/submission/analysis.rb), and a renamed or dropped
+      // one renders as an empty hole in a sentence. The blob id says nothing about
+      // which content type a file is, so the rule is applied to every file whose
+      // English carries the tokens: in any other document they sit in code, which
+      // a translation reproduces anyway.
+      const tokens = (body) => new Set(body.match(/%\{\w+\}/g) ?? []);
+      const [enTokens, targetTokens] = [tokens(source), tokens(text)];
+      const changed = [...enTokens].filter((token) => !targetTokens.has(token)).concat([...targetTokens].filter((token) => !enTokens.has(token)));
+      if (changed.length > 0) issues.push(issue(ERROR, `\`%{...}\` placeholders differ from English: ${changed.join(" ")}`));
+
       const links = (body) => new Set([...body.matchAll(/\]\((\S+?)(?:\s+"[^"]*")?\)/g)].map((match) => match[1]));
       const [enLinks, targetLinks] = [links(source), links(text)];
       const lost = [...enLinks].filter((url) => !targetLinks.has(url));

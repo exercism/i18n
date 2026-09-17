@@ -20,8 +20,10 @@
 //
 //  - Any root key other than `en`. At 102577eb config/locales/pages/track.yml
 //    holds `hu:` and `nl:` roots beside `en:`, translations that predate this
-//    repo. They are reported in `notes` and otherwise ignored: a translation is
-//    not English, and this repo is where translations live now.
+//    repo. Ignoring them is CORRECT and is a decision (iHiD): those two trees
+//    will NOT be migrated here. Hungarian and Dutch are redone from scratch with
+//    the current engine, like every other locale. They are still reported in
+//    `notes`, so that a new non-English root appearing in the website is seen.
 //  - A leaf that is not a string (a number, a boolean, null). Nothing to
 //    translate, so it never becomes a key. Counted in `notes`.
 //  - A bundle file index.ts does not import. i18next never sees it, so requiring
