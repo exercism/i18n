@@ -17,14 +17,13 @@
     "  - it is the list `scripts/completeness.mjs` holds a SOURCE repo's PR to: a PR",
     "    that changes English cannot merge until every locale here holds the",
     "    translation.",
-    "It is EMPTY today because no locale is in production yet. Unlike Jiki's repo,",
-    "where an empty list is a fatal misconfiguration, empty is a legitimate state",
-    "here, so the scripts accept it and SAY SO on every run: a gate that gates on",
-    "nothing must never be mistaken for a green one. A missing or non-array list,",
-    "or a locale `targets` does not know, is still fatal.",
+    "An empty list is a legitimate state here, unlike Jiki's repo, where it is a",
+    "fatal misconfiguration: the scripts accept it and SAY SO on every run, because",
+    "a gate that gates on nothing must never be mistaken for a green one. A missing",
+    "or non-array list, or a locale `targets` does not know, is still fatal.",
     "",
     "Joining `productionTargets` comes first and being served comes second. The",
-    "website's own list of served locales (config/initializers/locale.rb,",
+    "website's own list of served locales (config/application.rb,",
     "`I18n.available_locales`) answers a different question, and every locale it",
     "serves must already be here.",
     "",
@@ -32,6 +31,6 @@
     "stored in this repo at all. See ENGLISH-SOURCE.md."
   ],
   "targets": ["hu"],
-  "productionTargets": [],
+  "productionTargets": ["hu"],
   "plannedTargets": []
 }
