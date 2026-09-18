@@ -20,7 +20,10 @@
     "difficulty.medium": "Közepes",
     "difficulty.hard": "Nehéz",
     "exerciseTypeTag.learningExercise": "Tanulófeladat",
-    "exerciseTypeTag.tutorialExercise": "Bemutatófeladat"
+    "exerciseTypeTag.tutorialExercise": "Bemutatófeladat",
+    "mentoringStatus.requested": "Mentorálás kérve",
+    "mentoringStatus.inProgress": "Mentorálás folyamatban",
+    "mentoringStatus.finished": "Mentorálás befejezve"
   },
   "components/common/HandleWithFlair.tsx": {
     "flair.insider": "Egy Insiders-tag",
@@ -233,11 +236,14 @@
     "trackMenu.leaveTrack": "Kurzus elhagyása…",
     "notifications.seeAllYourNotifications": "Összes értesítésed megtekintése",
     "notifications.unableToLoad": "Nem sikerült betölteni az értesítéseket",
-    "reputation.unableToRetrieve": "Nem sikerült lekérni a reputációs tokeneket"
+    "reputation.unableToRetrieve": "Nem sikerült lekérni a reputációs tokeneket",
+    "notifications.openNotifications": "Nyisd meg az értesítéseket",
+    "trackMenu.trackOptions": "Kurzus beállításai"
   },
   "components/dropdowns/reputation": {
     "reputationMenu.seeHowYouEarned": "Nézd meg, hogyan szerezted az összes reputációdat",
-    "reputationIcon.reputationAriaLabel": "{{reputation}} reputáció"
+    "reputationIcon.reputationAriaLabel": "{{reputation}} reputáció",
+    "reputationIcon.reputationAlt": "Reputáció"
   },
   "components/dropdowns/track-menu": {
     "activatePracticeModeModal.disableLearningMode": "Tanulómód kikapcsolása",
@@ -282,7 +288,8 @@
     "leaveTrackModal.youreAboutToLeave": "Mindjárt elhagyod a(z) {{trackTitle}} kurzust.",
     "leaveTrackModal.noLongerInterested": "Nem szeretnéd tovább tanulni a(z) {{trackTitle}} kurzust? Semmi baj!",
     "leaveTrackModal.leave": "Elhagyás",
-    "leaveTrackModal.leavePlusReset": "Elhagyás + visszaállítás"
+    "leaveTrackModal.leavePlusReset": "Elhagyás + visszaállítás",
+    "leaveTrackModal.infoAlt": "Információ"
   },
   "components/editor/testComponents": {
     "testSummary.testFailure": "Sikertelen teszt",
@@ -940,7 +947,9 @@
     "solution.favoriteStudent": "Kedvenc tanuló",
     "solution.mentoredPreviously": "Korábban mentorált",
     "trackFilterList.clickToChange": "Kattints a módosításhoz",
-    "trackFilterList.changeTheTracksYouMentor": "Módosítsd, mely kurzusokat mentorálod"
+    "trackFilterList.changeTheTracksYouMentor": "Módosítsd, mely kurzusokat mentorálod",
+    "trackFilterList.openTheTrackFilter": "Nyisd meg a kurzusszűrőt",
+    "trackFilterList.unableToFetchTracks": "Nem sikerült lekérni a kurzusokat"
   },
   "components/mentoring/Queuetsx": {
     "queue.filterByStudentHandle": "Szűrés a tanuló felhasználóneve alapján"
@@ -1203,7 +1212,17 @@
     "fileStructureSection.fileStructure": "Fájlstruktúra",
     "fileStructureSection.configureFolderStructure": "Ezzel a beállítással alakíthatod ki a tárolód mappastruktúráját.",
     "fileStructureSection.placeholderValues": "A következő helyőrzőértékeket használhatod, amelyek minden commitnál behelyettesítésre kerülnek:",
-    "fileStructureSection.trackSlug": "<code>$track_slug</code>: A kurzus slugja (pl. „csharp”)."
+    "fileStructureSection.trackSlug": "<code>$track_slug</code>: A kurzus slugja (pl. „csharp”).",
+    "statusSection.failedToChangeStatus": "Nem sikerült megváltoztatni az állapotot.",
+    "dangerZoneSection.areYouSurePauseSyncing": "Biztosan szüneteltetni szeretnéd a megoldások GitHubbal való szinkronizálását?",
+    "dangerZoneSection.pause": "Szüneteltetés",
+    "dangerZoneSection.pausedCodeSync": "A GitHubbal való kódszinkronizálás szüneteltetve.",
+    "dangerZoneSection.failedToChangeStatus": "Nem sikerült módosítani az állapotot.",
+    "dangerZoneSection.githubSyncDeleted": "A GitHub-szinkronizálás sikeresen törölve",
+    "dangerZoneSection.failedToDeleteSync": "Nem sikerült törölni a GitHub-szinkronizálást.",
+    "dangerZoneSection.unexpectedErrorDeleting": "Hoppá! Váratlan hiba történt a GitHub-szinkronizálás törlése közben.",
+    "statusSection.cancel": "Mégse",
+    "statusSection.resumedCodeSync": "A GitHubbal való kódszinkronizálás folytatva."
   },
   "components/settings/github-syncer/sections/ConnectedSection/ManualSyncSection.tsx": {
     "backupATrack": "Kurzus mentése",
@@ -1249,7 +1268,13 @@
     "connectModal.ensureRepositoryReady": "Mielőtt folytatod, győződj meg róla, hogy létrehoztál egy új GitHub-repót, vagy hogy van egy meglévő, szinkronizálásra kész repód.",
     "connectModal.permissionWarning": "A következő képernyőn engedélyt kell adnod ahhoz a repóhoz. Ügyelj rá, hogy <strong>csak egy repót jelölj ki</strong> (sajnos a GitHub nem ad módot arra, hogy ezt kikényszerítsük!)",
     "connectModal.connectGithubRepository": "GitHub-repó összekapcsolása",
-    "connectModal.cancel": "Mégse"
+    "connectModal.cancel": "Mégse",
+    "index.exercismAlt": "Exercism",
+    "index.syncWithAlt": "Szinkronizálás ezzel",
+    "index.githubAlt": "Github",
+    "connectModal.exercismAlt": "Exercism",
+    "connectModal.syncWithAlt": "Szinkronizálás ezzel",
+    "connectModal.githubAlt": "Github"
   },
   "components/settings/HandleForm.tsx": {
     "handleForm.changeYourHandle": "Felhasználóneved módosítása",
@@ -1257,7 +1282,8 @@
     "handleForm.confirmYourPassword": "Jelszavad megerősítése",
     "handleForm.handleChangeRecommendation": "Csak ritka esetekben javasoljuk a felhasználóneved módosítását, mert a nyilvános megoldáslinkek eltörnek, és ez zavaró a mentoroknak.",
     "handleForm.changeHandle": "Felhasználónév módosítása",
-    "handleForm.success": "A felhasználóneved módosult"
+    "handleForm.success": "A felhasználóneved módosult",
+    "handleForm.successAlt": "Siker"
   },
   "components/settings/InsiderBenefitsForm.tsx": {
     "insiderBenefits.insiderBenefits": "Insider-előnyök",
@@ -1267,7 +1293,8 @@
     "insiderBenefits.thanksForBeingInsider": "Köszönjük, hogy Exercism Insider vagy! Íme néhány extra beállítás, kizárólag neked.",
     "insiderBenefits.eligibleToJoin": "Jogosult vagy csatlakozni az Insidershez. <link>Kezdj hozzá itt.</link>",
     "insiderBenefits.exclusiveOptions": "Ezek kizárólagos lehetőségek az Exercism Insiderek számára.",
-    "insiderBenefits.donateToExercism": "<0>Adományozz az Exercismnek</0>  hogy Insider legyél, és hozzáférj olyan előnyökhöz, mint a sötét mód, a ChatGPT-integráció, a reklámmentes élmény és még sok más."
+    "insiderBenefits.donateToExercism": "<0>Adományozz az Exercismnek</0>  hogy Insider legyél, és hozzáférj olyan előnyökhöz, mint a sötét mód, a ChatGPT-integráció, a reklámmentes élmény és még sok más.",
+    "insiderBenefits.successAlt": "Siker"
   },
   "components/settings/PasswordForm.tsx": {
     "changeYourPassword": "Jelszavad módosítása",
@@ -1301,7 +1328,8 @@
     "profileForm.beginner": "Kezdő",
     "profileForm.juniorDeveloper": "Junior fejlesztő",
     "profileForm.midLevelDeveloper": "Középszintű fejlesztő",
-    "profileForm.seniorDeveloper": "Senior fejlesztő"
+    "profileForm.seniorDeveloper": "Senior fejlesztő",
+    "profileForm.successAlt": "Siker"
   },
   "components/settings/PronounsForm.tsx": {
     "pronounsForm.howWouldYouLikeToBeAddressedOptional": "Hogyan szeretnéd, hogy megszólítsanak? (nem kötelező)",
@@ -1317,7 +1345,12 @@
     "pronounsForm.useHandle": "Felhasználónév használata",
     "pronounsForm.leaveBlank": "Hagyd üresen",
     "pronounsForm.savePronouns": "Névmások mentése",
-    "pronounsForm.yourPronounsHaveBeenUpdated": "A névmásaid frissítve lettek"
+    "pronounsForm.yourPronounsHaveBeenUpdated": "A névmásaid frissítve lettek",
+    "pronounsForm.pronounValidationTitle": "A névmás nem tartalmazhat szóközt, és legfeljebb 255 karakter hosszú lehet",
+    "pronounsForm.successAlt": "Siker",
+    "pronounsForm.placeholderThey": "pl. ő",
+    "pronounsForm.placeholderThem": "pl. őt",
+    "pronounsForm.placeholderTheir": "pl. övé"
   },
   "components/settings/ResetAccountButton.tsx": {
     "resetAccount": "Fiók visszaállítása"
@@ -1339,7 +1372,8 @@
     "tokenForm.yourAuthenticationTokenIs": "A hitelesítési tokened:",
     "tokenForm.whereDoIUseThis": "Hol használom ezt?",
     "tokenForm.resetToken": "Token visszaállítása",
-    "tokenForm.yourTokenHasBeenReset": "A tokenedet visszaállítottuk"
+    "tokenForm.yourTokenHasBeenReset": "A tokenedet visszaállítottuk",
+    "tokenForm.successAlt": "Siker"
   },
   "components/settings/useInvalidField.tsx": {
     "field.mustBeNoLongerThan": "A(z) {{fieldName}} legfeljebb {{maxLength}} karakter lehet"
@@ -1347,7 +1381,8 @@
   "components/settings/UserPreferencesForm.tsx": {
     "automation.title": "Automatizálás",
     "automation.changePreferences": "Beállítások módosítása",
-    "automation.successMessage": "A beállításaid frissítve lettek"
+    "automation.successMessage": "A beállításaid frissítve lettek",
+    "automation.successAlt": "Siker"
   },
   "components/student/CompleteExerciseButton.tsx": {
     "markAsComplete": "Megjelölés elkészültként"
@@ -1562,13 +1597,15 @@
     "manageExistingSolutions.disableCommentsOnExistingSolutions": "Hozzászólások letiltása az összes meglévő megoldásnál",
     "useCommentsPreferenceForm.none": "egyikéhez sem",
     "useCommentsPreferenceForm.all": "mindegyikéhez",
-    "useCommentsPreferenceForm.xOutOfY": "{{numCommentsEnabled}} / {{numPublished}}"
+    "useCommentsPreferenceForm.xOutOfY": "{{numCommentsEnabled}} / {{numPublished}}",
+    "commentsPreferenceForm.successAlt": "Sikeres"
   },
   "components/settings/CommunicationPreferencesForm.tsx": {
     "mentoring.title": "Mentorálás",
     "product.title": "Termék",
     "formButton.changePreferences": "Beállítások módosítása",
-    "successMessage.updatedPreferences": "A beállításaid frissültek"
+    "successMessage.updatedPreferences": "A beállításaid frissültek",
+    "successMessage.alt": "Sikeres"
   },
   "components/settings/delete-profile-form": {
     "deleteProfileModal.deleteProfile": "Törlöd a profilodat?",
@@ -1590,7 +1627,8 @@
     "confirmYourPassword": "Jelszó megerősítése",
     "info.changeEmailConfirmation": "Az e-mail-címedet a fenti űrlapon módosíthatod. Küldünk egy új megerősítő e-mailt, amelyet el kell fogadnod.",
     "changeEmail": "E-mail módosítása",
-    "success.confirmationEmailSent": "Megerősítő e-mailt küldtünk a következő címre: {{email}}"
+    "success.confirmationEmailSent": "Megerősítő e-mailt küldtünk a következő címre: {{email}}",
+    "success.alt": "Sikeres"
   },
   "components/settings/FormMessage.tsx": {
     "formMessage.error": "Hiba"
@@ -1655,7 +1693,9 @@
     "components.mentoring.session.iterationsList.previous": "Előző",
     "components.mentoring.session.iterationsList.goToNextIteration": "Ugrás a következő iterációra",
     "components.mentoring.session.iterationsList.next": "Következő",
-    "components.mentoring.session.guidance.feedbackHere": "Visszajelzés itt"
+    "components.mentoring.session.guidance.feedbackHere": "Visszajelzés itt",
+    "components.mentoring.session.iterationsList.leftArrow": "Bal nyíl",
+    "components.mentoring.session.iterationsList.rightArrow": "Jobb nyíl"
   },
   "session-batch-3": {
     "components.mentoring.session.iterationView.iterationDeleted": "Ez az iteráció törölve lett",
@@ -1670,7 +1710,8 @@
     "components.mentoring.session.mentorNotes.improveNotes": "Javítsd ezeket a megjegyzéseket",
     "components.mentoring.session.mentorNotes.communityNotes": "Ezeket a megjegyzéseket a közösségünk írja. Segíts javítani rajtuk azzal, hogy beküldesz egy <0>Pull Requestet a GitHubon</0>.",
     "components.mentoring.session.previousSessionsLink.opensInModal": "Modális ablakban nyílik meg",
-    "components.mentoring.session.previousSessionsLink.seePreviousSessions": "{{numPrevious}} korábbi {{sessions}} megtekintése"
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions": "{{numPrevious}} korábbi {{sessions}} megtekintése",
+    "components.mentoring.session.linkButton.linkConversation": "Beszélgetés összekapcsolása"
   },
   "components/student/tracks-list": {
     "orderSelect.sortByLastTouched": "Rendezés legutóbbi érintés szerint",
@@ -1700,7 +1741,8 @@
   },
   "components/student/UpdateExerciseNotice.tsx": {
     "updateExerciseNotice.exerciseUpdated": "Ez a feladat frissült. Frissíts a legújabb verzióra, és nézd meg, hogy a tesztjeid továbbra is sikeresek-e. ",
-    "updateExerciseNotice.seeWhatsChanged": "Nézd meg, mi változott…"
+    "updateExerciseNotice.seeWhatsChanged": "Nézd meg, mi változott…",
+    "updateExerciseNotice.docsForNewerVersion": "Ezek az utasítások a feladat újabb verziójához tartoznak. <english>Válts angolra</english>, hogy a saját verziódat lásd, vagy <update>Frissíts a legújabb verzióra</update>."
   },
   "components/tooltips/ExerciseTooltip.tsx": {
     "exerciseTooltip.unableToLoadInformation": "Nem sikerült betölteni az információkat"
@@ -1715,7 +1757,8 @@
     "firstSession": "Ez lesz az <strong>első</strong> mentorálási beszélgetésük",
     "favorited": "Kedvenc",
     "trackObjectivesTitle": "A kurzus céljai",
-    "unableToLoad": "Nem sikerült betölteni az információkat"
+    "unableToLoad": "Nem sikerült betölteni az információkat",
+    "locatedInAlt": "Itt található"
   },
   "components/tooltips/task-tooltip": {
     "knowledgeInfo.noExistingKnowledge": "Ehhez a részfeladathoz <strong>semmilyen</strong> meglévő Exercism-tudásra nincs szükség.",
@@ -2064,7 +2107,8 @@
     "orderSelect.sortByFewestLines": "Rendezés a legkevesebb sor szerint",
     "orderSelect.sortByHighestRepUser": "Rendezés a legmagasabb reputációjú felhasználó szerint",
     "exerciseTagFilter.exerciseTagFilterGroup.filterBy": "Szűrés {{groupName}} szerint",
-    "exerciseTagFilter.exerciseTagFilter.filter": "Szűrés"
+    "exerciseTagFilter.exerciseTagFilter.filter": "Szűrés",
+    "exerciseTagFilter.exerciseTagFilter.clickToChange": "Kattints a módosításhoz"
   },
   "components/track/ExerciseCommunitySolutionsList.tsx": {
     "exerciseCommunitySolutions.exploreSolutions": "Fedezd fel, hogyan oldották meg mások ezt a feladatot",
@@ -2077,7 +2121,8 @@
     "analysisStatusSummary.automatedComments": "Automatikus megjegyzések",
     "analysisStatusSummary.essential": "Lényeges",
     "analysisStatusSummary.actionable": "Cselekvésre ösztönző",
-    "analysisStatusSummary.other": "Egyéb"
+    "analysisStatusSummary.other": "Egyéb",
+    "analysisStatusSummary.analysisStatus": "Elemzés állapota"
   },
   "components/track/IterationSummary.tsx": {
     "iterationSummary.iteration": "Iteráció {{idx}}",
@@ -2085,7 +2130,9 @@
     "iterationSummary.published": "Közzétéve",
     "iterationSummary.submitted": "Beküldve ",
     "iterationSummary.viaCli": "parancssori felületen keresztül",
-    "iterationSummary.viaEditor": "a szerkesztőn keresztül"
+    "iterationSummary.viaEditor": "a szerkesztőn keresztül",
+    "iterationSummary.latestIteration": "Legutóbbi iteráció",
+    "iterationSummary.thisIterationIsPublished": "Ez az iteráció közzétételre került"
   },
   "components/track/Trophies.tsx": {
     "trophy.awardedOn": "Odaítélve ",
@@ -2165,5 +2212,122 @@
     "orderSelect.sortByNewestFirst": "Rendezés: legújabb elöl",
     "orderSelect.sortByOldestFirst": "Rendezés: legrégebbi elöl",
     "orderSelect.sortByMostStarred": "Rendezés: legtöbb csillag szerint"
+  },
+  "components/tooltips/AutomationLockedTooltip.tsx": {
+    "automationLockedTooltip.loadingData": "Adatok betöltése",
+    "automationLockedTooltip.unableToLoadData": "Nem sikerült betölteni az adatokat"
+  },
+  "components/tooltips/ConceptTooltip.tsx": {
+    "conceptTooltip.loadingConceptData": "A fogalom adatainak betöltése",
+    "conceptTooltip.unableToLoadConcept": "Nem sikerült betölteni a fogalmat"
+  },
+  "components/tooltips/ToolingTooltip.tsx": {
+    "toolingTooltip.loadingData": "Adatok betöltése",
+    "toolingTooltip.unableToLoadData": "Nem sikerült betölteni az adatokat"
+  },
+  "components/tooltips/UserTooltip.tsx": {
+    "userTooltip.loadingUserData": "Felhasználói adatok betöltése",
+    "userTooltip.unableToLoadUser": "Nem sikerült betölteni a felhasználót"
+  },
+  "components/common/CLIWalkthroughButton.tsx": {
+    "cliWalkthroughButton.installExercismLocally": "Telepítsd az Exercismet helyben",
+    "cliWalkthroughButton.useOurWizard": "A varázslónkkal állítsd be az Exercismet, hogy a helyi gépeden működjön.",
+    "cliWalkthroughButton.opensInModal": "Modális ablakban nyílik meg"
+  },
+  "components/common/ComboButton.tsx": {
+    "comboButton.openDropdown": "Nyisd meg a legördülő menüt"
+  },
+  "components/common/CommunitySolution.tsx": {
+    "communitySolution.published": "Közzétéve {{time}}",
+    "communitySolution.numTimesPublishedSimilar": "Hányszor tett közzé valaki ehhez hasonló megoldást",
+    "communitySolution.numLinesOfCode": "A megoldásban lévő kódsorok száma",
+    "communitySolution.numTimesStarred": "Hányszor csillagozták a megoldást",
+    "communitySolution.numTimesCommented": "A megoldáshoz írt hozzászólások száma",
+    "communitySolution.correctlySolvesLatest": "Ez a megoldás helyesen oldja meg a feladat legújabb verzióját",
+    "communitySolution.passesLatestTests": "Ez a megoldás átmegy a feladat legújabb verziójának tesztjein",
+    "communitySolution.doesNotFullySolveLatest": "Ez a megoldás nem oldja meg teljesen a feladat legújabb verzióját",
+    "communitySolution.solvedAgainstOlder": "Ezt a megoldást a feladat egy korábbi verziójára készítették, és lehet, hogy nem oldja meg teljesen a legújabb verziót.",
+    "communitySolution.yourSolution": "A te megoldásod",
+    "communitySolution.toExerciseInTrack": "a(z) {{track}} kurzus {{exercise}} feladatához",
+    "communitySolution.inTrack": "a(z) {{track}} kurzusban",
+    "communitySolution.authorsSolution": "{{handle}} megoldása",
+    "communitySolution.notPublished": "Nincs közzétéve"
+  },
+  "components/common/CopyToClipboardButton.tsx": {
+    "copyToClipboardButton.copyToClipboardLabel": "„{{text}}” másolása a vágólapra",
+    "copyToClipboardButton.copyToClipboard": "Másolás a vágólapra",
+    "copyToClipboardButton.copied": "Kimásolva"
+  },
+  "components/common/Introducer.tsx": {
+    "introducer.unableToHide": "Az ismertetőt nem sikerült elrejteni",
+    "introducer.gotIt": "Értem 👍",
+    "introducer.permanentlyHide": "Az ismertető végleges elrejtése"
+  },
+  "components/common/MultipleSelect.tsx": {
+    "multipleSelect.clickToChange": "Kattints a módosításhoz"
+  },
+  "components/common/ProminentLink.tsx": {
+    "prominentLink.opensInNewWindow": "A hivatkozás új ablakban vagy lapon nyílik meg"
+  },
+  "components/common/Reputation.tsx": {
+    "reputation.valueReputation": "{{value}} reputáció",
+    "reputation.reputation": "Reputáció"
+  },
+  "components/common/SingleSelect.tsx": {
+    "singleSelect.clickToChange": "Kattints a módosításhoz"
+  },
+  "components/common/site-updates-list/PullRequestWidget.tsx": {
+    "pullRequestWidget.pullRequest": "Pull Request",
+    "pullRequestWidget.mergedInfo": "#{{number}} mergelve {{time}}, {{user}} által",
+    "pullRequestWidget.merged": "Mergelve"
+  },
+  "components/Editor.tsx": {
+    "submitError.unableToSubmitFile": "A fájlt nem sikerült beküldeni. Próbáld újra.",
+    "revertError.unableToRevertFile": "Nem sikerült visszaállítani a fájlt, próbáld újra."
+  },
+  "components/favorites-list": {
+    "index.filteringRestricted": "A szűrés az Insiders-tagokra korlátozódik",
+    "index.searchPlaceholder": "Keresés szerző neve alapján",
+    "index.defaultError": "Nem sikerült lekérni a megoldásokat",
+    "index.noResults.title": "Nem található megoldás.",
+    "index.noResults.description": "Próbáld módosítani a szűrőket, hogy megtaláld a kedvenc megoldásaidat.",
+    "index.noFavoritesYet.title": "Még nincs kedvenced.",
+    "index.noFavoritesYet.description": "Csillagozd a megoldásokat, hogy bekerüljenek a kedvenceid közé."
+  },
+  "components/impact/map.tsx": {
+    "map.someoneJoinedExercism": "Valaki csatlakozott az Exercismhez",
+    "map.publishedNewSolution": "@{{handle}} új megoldást tett közzé",
+    "map.openedIssue": "@{{handle}} hibajegyet nyitott az Exercism GitHubján",
+    "map.submittedPullRequest": "@{{handle}} pull requestet nyújtott be az Exercism GitHubján",
+    "map.mergedPullRequest": "@{{handle}} pull requestjét egyesítették az Exercism GitHubján"
+  },
+  "components/journey/overview/learning-section/track-summary/TrackProgressBar.tsx": {
+    "trackProgressBar.completed": "Elkészült"
+  },
+  "components/journey/UnrevealedBadge.tsx": {
+    "unrevealedBadge.unrevealed": "Felfedetlen",
+    "unrevealedBadge.clickTapToReveal": "Kattints vagy érintsd meg a felfedéshez",
+    "unrevealedBadge.unableToRevealBadge": "Nem sikerült felfedni a jelvényt"
+  },
+  "components/mentoring/automation/TrackFilterList.tsx": {
+    "trackFilterList.unableToFetchTracks": "Nem sikerült lekérni a kurzusokat",
+    "trackFilterList.openTheTrackFilter": "Nyisd meg a kurzusszűrőt",
+    "trackFilterList.clickToChange": "Kattints a módosításhoz"
+  },
+  "components/mentoring/discussion/DiscussionDetails.tsx": {
+    "discussionDetails.discussionTimedOut": "Ez a beszélgetés lejárt",
+    "discussionDetails.finishedDiscussionWith": "Befejezted a beszélgetést {{studentHandle}} felhasználóval."
+  },
+  "components/mentoring/discussion/DiscussionPostList.tsx": {
+    "discussionPostList.loadingIndicatorAriaLabel": "A beszélgetésbejegyzések listájának betöltésjelzője"
+  },
+  "components/mentoring/representation/right-pane/MentoringConversation.tsx": {
+    "mentoringConversation.loading": "Betöltés.."
+  },
+  "components/mentoring/session/CloseButton.tsx": {
+    "closeButton.returnToDashboard": "Beszélgetés bezárása és visszatérés a mentorálási irányítópultra"
+  },
+  "components/mentoring/session/mobile-code-panel/SessionInfoHamburgerButton.tsx": {
+    "sessionInfoHamburgerButton.downloadSolution": "Megoldás letöltése"
   }
 }
