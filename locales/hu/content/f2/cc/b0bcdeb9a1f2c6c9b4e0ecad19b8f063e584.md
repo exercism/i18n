@@ -1,0 +1,62 @@
+# Bevezetés
+
+## További felsorolási metódusok
+
+A Felsorolásban megismerkedtél a `count`, `any?`, `select`, `all` és `map` felsorolási metódussal.
+Íme ezek összefoglalója, néhány további metódussal kiegészítve:
+
+```ruby
+fibonacci = [0, 1, 1, 2, 3, 5, 8, 13]
+
+fibonacci.count  { |number| number == 1 }   #=> 2
+fibonacci.any?   { |number| number > 20 }   #=> false
+fibonacci.none?  { |number| number > 20 }   #=> true
+fibonacci.select { |number| number.odd? }   #=> [1, 1, 3, 5, 13]
+fibonacci.all?   { |number| number < 20 }   #=> true
+fibonacci.map    { |number| number * 2  }   #=> [0, 2, 2, 4, 6, 10, 16, 26]
+fibonacci.select { |number| number >= 5 }   #=> [5, 8, 13]
+fibonacci.find   { |number| number >= 5 }   #=> 5
+
+# Some methods work with or without a block
+fibonacci.sum  #=> 33
+fibonacci.sum { |number| number * number }  #=> 273
+
+# There are also methods to help with nested arrays:
+animals = [ ['cat', 'bob'], ['horse', 'caris'], ['mouse', 'arya'] ]
+animals.flatten  #=> ["cat", "bob", "horse", "caris", "mouse", "arya"]
+```
+
+## Hash-ek felsorolása
+
+A `Hash` objektumok felsorolása pontosan ugyanolyan, mint az `Array` objektumoké, azzal a különbséggel, hogy a blokk két argumentumot kap: a kulcsot és az értéket:
+
+```ruby
+pet_names = {cat: "bob", horse: "caris", mouse: "arya"}
+pet_names.each { |animal, name| ... }
+```
+
+Ha csak az egyik értékre van szükséged, a speciális `_` szimbólummal jelezheted, hogy az egyik értékre nincs szükség.
+Ez egyrészt az átláthatóságot segíti a fejlesztő számára, másrészt teljesítményoptimalizálás is.
+
+```ruby
+pet_names = {cat: "bob", horse: "caris", mouse: "arya"}
+pet_names.map { |_, name| name }  #=> ["bob, "caris", "arya"]
+```
+
+## Egymásba ágyazott felsorolások
+
+Egymásba ágyazott blokkokban is felsorolhatsz, és a metódusokat láncba is fűzheted.
+Ha például van egy tömbünk állatok hash-eivel, és a rövid nevű állatokat szeretnénk kigyűjteni, valami ilyesmit tehetünk:
+
+```ruby
+pets = [
+  { animal: "cats", names: ["bob", "fred", "sandra"] },
+  { animal: "horses", names: ["caris", "black beard", "speedy"] },
+  { animal: "mice", names: ["arya", "jerry"] }
+]
+
+pets.map { |pet|
+  pet[:names].select { |name| name.length <= 5 }
+}.flatten.sort
+#=> ["arya", "bob", "caris", "fred", "jerry"]
+```
