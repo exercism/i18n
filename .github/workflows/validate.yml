@@ -22,8 +22,9 @@
 # ## Pushes to main as well as PRs
 #
 # Translation passes commit straight to main, so a gate only PRs can see would
-# miss most of what lands. A red main here means a production locale has been
-# broken, and publish.yml refuses to ship while it is.
+# miss most of what lands. Pushing to main IS the deploy (the website pulls this
+# repo on push and reads locales/ straight from its checkout), so a red main
+# here means a production locale is broken in what the website now serves.
 
 name: Validate
 
@@ -104,11 +105,6 @@ jobs:
         env:
           CONTENT_REPOS: ${{ steps.repos.outputs.list }}
         run: node scripts/validate.mjs all ${CONTENT_REPOS:+--content-repos="$CONTENT_REPOS"}
-
-      # Builds every artifact and runs every key through the guard, without
-      # uploading anything.
-      - name: Publish dry run
-        run: node scripts/publish.mjs all
 
       - name: Coverage
         if: always()

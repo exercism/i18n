@@ -88,32 +88,6 @@ import { CATALOG_TYPE_IDS, CONTENT_EXTENSIONS, CONTENT_TYPE_ID } from "./lib/con
 import { listContentFiles } from "./lib/content-store.mjs";
 import { METADATA_KIND, METADATA_REPO_KINDS, METADATA_TYPE_ID, buildMetadataEnglish, heldMetadataRepos, metadataPath } from "./lib/metadata.mjs";
 import { ERROR, WARN, checkCatalog, checkContentFile } from "./lib/checks.mjs";
-import { GuardViolation, assertPublishableKey } from "./lib/guard.mjs";
-
-/** The guard is exercised on every run: see scripts/lib/guard.mjs. */
-function checkGuards() {
-  const problems = [];
-  const locale = TARGET_LOCALES[0] ?? "xx";
-  const locales = [locale];
-  const refuses = (key) => {
-    try {
-      assertPublishableKey(key, { locales });
-      problems.push(`the S3 key guard PERMITTED "${key}"`);
-    } catch (error) {
-      if (!(error instanceof GuardViolation)) throw error;
-    }
-  };
-  for (const english of ["en", "en-US", "en-GB", "source", "default"]) refuses(`i18n/website/${english}/backend-000000000000.json`);
-  refuses(`static/website/${locale}/backend-000000000000.json`);
-  refuses(`i18n/website/not-a-locale/backend-000000000000.json`);
-  refuses(`i18n/content/${locale}/../en/ab/cd/x.md`);
-  try {
-    assertPublishableKey(`i18n/content/${locale}/ab/cd/${"0".repeat(36)}.md`, { locales });
-  } catch {
-    problems.push("the S3 key guard REFUSED a legitimate key");
-  }
-  return problems;
-}
 
 function parseStampUnits(value) {
   if (typeof value !== "string") return new Set();
@@ -258,9 +232,6 @@ async function main() {
   const stamp = Boolean(flags.stamp) || stampUnits.size > 0;
   const requiresComplete = (locale) => complete || PRODUCTION_LOCALES.includes(locale);
 
-  const guardProblems = checkGuards();
-  for (const problem of guardProblems) console.log(`ERROR guard: ${problem}`);
-
   const notice = productionGateNotice();
   if (notice) console.log(notice);
   if (locales.length === 0) console.log(`note: locales.json "targets" is empty, so there is nothing to validate yet.`);
@@ -309,7 +280,7 @@ async function main() {
 
   if (typeof flags.json === "string") fs.writeFileSync(path.resolve(flags.json), `${JSON.stringify({ results, totals }, null, 2)}\n`);
 
-  const gating = guardProblems.length + totals.production.errors + (gateAll || complete ? totals.other.errors : 0);
+  const gating = totals.production.errors + (gateAll || complete ? totals.other.errors : 0);
   console.log(
     `\n${results.length} item(s) checked. Production locales: ${totals.production.errors} error(s), ${totals.production.warnings} warning(s). ` +
       `Other locales: ${totals.other.errors} error(s), ${totals.other.warnings} warning(s)${gateAll || complete ? " (gating)" : totals.other.errors > 0 ? " (NOT gating: --gate=all to hold them to it)" : ""}.`

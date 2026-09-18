@@ -1,8 +1,3 @@
-# Generated publish artifacts. Rebuilt from locales/ by `pnpm publish:build`,
-# never committed: they are derivatives, and committing them would double every
-# translation diff.
-dist/
-
 # The flattened English catalogs `pnpm build:english` writes for a translation
 # pass to read. Derived from a website checkout, so never committed: English is
 # never stored in this repo in any form.

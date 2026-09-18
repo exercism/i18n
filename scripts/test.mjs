@@ -17,8 +17,8 @@
 // repo with real target locales, all of them real git repositories) and runs the
 // real scripts over it as subprocesses, with EXERCISM_I18N_ROOT pointed at it.
 // That half exists because the real `locales.json` lists no locale yet, so
-// without it the checker, the completeness check and the publisher would only
-// ever be run against nothing.
+// without it the checker and the completeness check would only ever be run
+// against nothing.
 
 import assert from "node:assert/strict";
 import fs from "node:fs";
@@ -36,10 +36,8 @@ import { REPO_KINDS, kindForRepo } from "./lib/source-repos.mjs";
 import { missingContent, missingUnits, requiredContent, requiredUnits } from "./lib/completeness.mjs";
 import { buildMetadataEnglish, changedCopyKeys, fileCopy, readTomlStrings } from "./lib/metadata.mjs";
 import { buildWebsiteEnglish, globToRegExp, isWebsiteEnglishPath, loadExclusions } from "./lib/website-english.mjs";
-import { GuardViolation, assertPublishableKey } from "./lib/guard.mjs";
 import { findDeletions } from "./no-deletions.mjs";
 import { readPrFiles, summarise, toMarkdown } from "./english-changes.mjs";
-import { catalogArtifacts } from "./publish.mjs";
 
 let failures = 0;
 
@@ -457,25 +455,6 @@ await test("the issue body neutralises a hostile path and says what it truncated
   assert.ok(isWebsiteEnglishPath("config/locales/views/x.yml") && isWebsiteEnglishPath("app/javascript/i18n/en/a.ts") && !isWebsiteEnglishPath("app/javascript/i18n/i18n.ts"));
 });
 
-// ----------------------------------------------------------------- the guard --
-
-await test("the S3 key guard refuses English, a foreign prefix, a traversal and an unknown locale", () => {
-  const locales = ["hu"];
-  for (const key of ["i18n/website/en/backend-0.json", "i18n/website/en-US/x.json", "static/website/hu/x.json", "i18n/content/hu/../en/x.md", "i18n/website/undefined/x.json", "i18n/website/pl/x.json"]) {
-    assert.throws(() => assertPublishableKey(key, { locales }), GuardViolation, key);
-  }
-  assert.equal(assertPublishableKey("/i18n/website/hu/backend-0123456789ab.json", { locales }), "i18n/website/hu/backend-0123456789ab.json");
-});
-
-await test("a catalog artifact is hashed from its bytes, wrapped for Rails, with a pointer naming it", () => {
-  const built = catalogArtifacts("hu", "backend", { nav: { home: "Kezdőlap" } });
-  assert.deepEqual(JSON.parse(built.artifact.bytes), { hu: { nav: { home: "Kezdőlap" } } });
-  assert.match(built.artifact.key, /^i18n\/website\/hu\/backend-[0-9a-f]{12}\.json$/);
-  assert.deepEqual(JSON.parse(built.pointer.bytes), { hash: built.hash });
-  assert.equal(built.pointer.key, "i18n/website/hu/backend.current.json");
-  assert.deepEqual(JSON.parse(catalogArtifacts("hu", "frontend", { ns: { k: "v" } }).artifact.bytes), { ns: { k: "v" } });
-});
-
 // ---------------------------------------------------------- locales.json ----
 
 await test("an empty production list is legitimate here; a missing, malformed or stray one is not", () => {
@@ -712,22 +691,6 @@ await test("fixture: a stale unit is re-stamped only when the pass names it", ()
   assert.equal(complete.status, 0, complete.out);
 });
 
-await test("fixture: publish builds artifact, pointer and blob-path content, and a plan that uploads pointers last", () => {
-  const out = path.join(TMP, "dist");
-  const result = run("publish.mjs", ["all", `--out=${out}`]);
-  assert.equal(result.status, 0, result.out);
-  const manifest = JSON.parse(fs.readFileSync(path.join(out, "manifest.json"), "utf8"));
-  const hash = manifest.locales.hu.website.backend;
-  assert.ok(fs.existsSync(path.join(out, `i18n/website/hu/backend-${hash}.json`)));
-  assert.deepEqual(JSON.parse(fs.readFileSync(path.join(out, "i18n/website/hu/backend.current.json"), "utf8")), { hash });
-  assert.ok(fs.existsSync(path.join(out, "i18n/content/hu", contentRelativePath(INSTRUCTIONS_ID, ".md"))));
-  assert.ok(fs.existsSync(path.join(out, `i18n/metadata/hu/ruby-${manifest.locales.hu.metadata.ruby}.json`)));
-  assert.deepEqual(JSON.parse(fs.readFileSync(path.join(out, "i18n/metadata/hu/ruby.current.json"), "utf8")), { hash: manifest.locales.hu.metadata.ruby });
-  const plan = fs.readFileSync(path.join(out, "sync.sh"), "utf8");
-  assert.ok(plan.indexOf("immutable") < plan.indexOf("*.current.json"), "pointers must come after artifacts");
-  assert.equal(run("publish.mjs", ["all", `--out=${out}`, "--upload"]).status, 1, "--upload must refuse without a bucket");
-});
-
 await test("fixture: coverage reports units and blob coverage, and never gates", () => {
   const { status, out } = run("coverage.mjs", ["all", `--content-repos=${TRACK}:track@HEAD`]);
   assert.equal(status, 0, out);
@@ -771,7 +734,6 @@ await test("the real, empty repo: every script runs, exits 0, and says nothing g
   const complete = run("completeness.mjs", [`--source-repo=${TRACK}`, "--repo=exercism/ruby"], real);
   assert.equal(complete.status, 0, complete.out);
   assert.match(complete.out, /NOTHING GATES/);
-  assert.equal(run("publish.mjs", ["all", `--out=${path.join(TMP, "dist-real")}`], real).status, 0);
   assert.equal(run("coverage.mjs", [], real).status, 0);
 });
 

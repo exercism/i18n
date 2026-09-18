@@ -25,13 +25,6 @@ export const LOCALES_DIR = path.join(REPO_ROOT, "locales");
 /** The locale English is called wherever a locale segment names it. */
 export const SOURCE_LOCALE = "en";
 
-// TODO(iHiD): bucket names, credentials and IAM are an open decision. Nothing
-// below is a real bucket. `publish.mjs --upload` refuses to run until
-// EXERCISM_I18N_BUCKET is set, so a guess here can never reach S3.
-export const S3_BUCKET_ENV = "EXERCISM_I18N_BUCKET";
-/** Every published key lives under this prefix, and the key guard enforces it. */
-export const S3_PREFIX = "i18n";
-
 const config = JSON.parse(fs.readFileSync(path.join(REPO_ROOT, "locales.json"), "utf8"));
 
 /** Locales this repo actively translates into. Never includes English. */

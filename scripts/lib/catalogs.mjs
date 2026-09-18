@@ -13,9 +13,9 @@
 //
 // ## On disk
 //
-// `backend.json` is the Rails tree, nested, WITHOUT the locale root key: publish
-// adds `{ "<locale>": ... }` on the way out, so the locale is said once, by the
-// directory. `frontend.json` is `{ "<namespace>": { "<key>": "<value>" } }`,
+// `backend.json` is the Rails tree, nested, WITHOUT the locale root key: the
+// website adds `{ "<locale>": ... }` as it loads the file, so the locale is said
+// once, by the directory. `frontend.json` is `{ "<namespace>": { "<key>": "<value>" } }`,
 // which is i18next's own resource shape. Both are JSON even though Rails authors
 // YAML: Rails' I18n loads `.json` natively, and JSON keeps every script here free
 // of a YAML dependency except the one that reads English.

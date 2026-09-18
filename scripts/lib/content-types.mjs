@@ -318,8 +318,8 @@ export function typeForPath(kind, file, { unit = "file" } = {}) {
 /**
  * `<ab>/<cd>/<rest>.<ext>` for one blob id, relative to a locale's content root.
  *
- * The one place the fan-out is spelled. Publish uses the same relative path as
- * the S3 key, so the store on disk and the store a browser reads are one layout.
+ * The one place the fan-out is spelled. The website reads the store straight
+ * from its checkout of this repo, so this layout is the served layout.
  */
 export function contentRelativePath(id, extension) {
   if (!BLOB_ID.test(id)) fail(`"${id}" is not a 40-character git blob id`);

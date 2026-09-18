@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
-  "description": "Exercism's translated output, and the scripts that check and publish it.",
+  "description": "Exercism's translated output, and the scripts that check it.",
   "engines": {
     "node": ">=20",
     "pnpm": ">=10"
@@ -19,8 +19,6 @@
     "coverage": "node scripts/coverage.mjs",
     "completeness": "node scripts/completeness.mjs",
     "no-deletions": "node scripts/no-deletions.mjs",
-    "publish:build": "node scripts/publish.mjs",
-    "publish:upload": "node scripts/publish.mjs all --upload",
     "test": "node scripts/test.mjs",
     "check": "node scripts/test.mjs && node scripts/validate.mjs all"
   }
