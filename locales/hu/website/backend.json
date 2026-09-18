@@ -922,6 +922,13 @@
     "not_found": {
       "title": "Az oldal nem található",
       "description": "Úgy tűnik, nem találjuk ezt az oldalt. Elnézést!"
+    },
+    "too_many_requests": {
+      "title": "Túl sok kérés",
+      "description": "Túl sok mindent tettél túl rövid idő alatt.",
+      "rate_limits": "Az Exercismet folyamatosan botok támadják, ezért korlátozzuk a kérések számát, hogy megállítsuk a visszaélést. Kérlek, várj egy percet, majd próbáld újra (megjegyzés: ha folyton az újratöltést nyomogatod, az visszaállítja a várakozási időt...)",
+      "forum_html": "Ha ezt gyakran látod, kérlek, jelezd nekünk %{link}!",
+      "forum_link": "a fórumon"
     }
   },
   "activerecord": {
@@ -2585,7 +2592,9 @@
       "representations": {
         "sort_options": {
           "highest_occurrence": "Rendezés legnagyobb előfordulás szerint",
-          "recent_first": "Rendezés legutóbbi elöl"
+          "recent_first": "Rendezés legutóbbi elöl",
+          "most_recent_feedback": "Legfrissebb visszajelzések",
+          "least_recent_feedback": "Legrégebbi visszajelzések"
         }
       }
     },
@@ -3904,6 +3913,11 @@
         "sign_up_to_help": "Regisztrálj, hogy segíts nekünk",
         "log_in": "Jelentkezz be"
       }
+    },
+    "header": {
+      "title": "Tanítóadatok",
+      "tagging_guides": "Címkézési útmutatók",
+      "tags": "Címkék"
     }
   },
   "unsubscribe": {
@@ -4002,6 +4016,11 @@
       "insiders_link_text": "Exercism Insiders",
       "upgrade_prompt_html": "Oldd fel a kedvencek teljes funkcióját a(z) %{insiders_link} segítségével. %{upgrade_link}, hogy több mint 10 kedvencet tárolhass, valamint keresést és szűrést is kapj!",
       "upgrade_link_text": "Frissítsd a fiókodat"
+    }
+  },
+  "helpers": {
+    "links": {
+      "opens_in_new_window": "A hivatkozás új ablakban vagy lapon nyílik meg"
     }
   }
 }

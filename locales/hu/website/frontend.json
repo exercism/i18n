@@ -110,7 +110,8 @@
     "videoGrid.index.thereAreNoVideos": "Jelenleg nincsenek videók.",
     "videoGrid.index.checkBackLater": "Nézz vissza ide később, hátha többet is találsz!",
     "videoGrid.trackFilterList.openTrackFilter": "A kurzusszűrő megnyitása",
-    "videoGrid.trackFilterList.clickToChange": "Kattints a módosításhoz"
+    "videoGrid.trackFilterList.clickToChange": "Kattints a módosításhoz",
+    "videoGrid.thumbnail": "bélyegkép"
   },
   "components/community-solutions": {
     "commentsList.reminder.rememberComments": "Ne feledd! A hozzászólások kérdések feltevésére vagy egy megoldás megdicsérésére valók. <0>Ne használd őket</0> mentorálásra vagy visszajelzés adására.",
@@ -123,7 +124,10 @@
     "commentsList.header.writeComment": "Hozzászólás írása",
     "commentsList.listDisabled.disabledCommentsAuthor": "Kikapcsoltad a hozzászólásokat ezen a megoldáson. A fenti „Beállítások” fogaskerékkel kapcsolhatod vissza ezt a lehetőséget.",
     "commentsList.listDisabled.disabledComments": "A hozzászólások ki vannak kapcsolva",
-    "commentsList.header.writeAComment": "Hozzászólás írása"
+    "commentsList.header.writeAComment": "Hozzászólás írása",
+    "starButton.numberOfStars": "Csillagok száma",
+    "starButton.favorite": "Kedvenc",
+    "starButton.favorited": "Kedvencnek jelölve"
   },
   "components/concept-map": {
     "exerciseStatusBar.exerciseStatusDotTooltip": "A feladat állapotát jelző pont súgója",
@@ -188,7 +192,29 @@
     "tasksList.sizeSwitcher.massive.title": "Hatalmas",
     "tasksList.sizeSwitcher.massive.description": "Hatalmas mennyiségű munka",
     "tasksList.sizeSwitcher.multiple": "Több",
-    "tasksList.sizeSwitcher.extraSmall": "Extra kicsi"
+    "tasksList.sizeSwitcher.extraSmall": "Extra kicsi",
+    "tasksList.actionSwitcher.multiple": "Több",
+    "tasksList.actionSwitcher.label": "Művelet",
+    "tasksList.actionSwitcher.createDescription": "Dolgozz valamin a nulláról",
+    "tasksList.actionSwitcher.syncDescription": "Szinkronizáld a tartalmat a legfrissebb verziójával",
+    "tasksList.actionSwitcher.improveDescription": "Fejleszd a meglévő funkcionalitást / tartalmat",
+    "tasksList.actionSwitcher.proofreadDescription": "Korrektúrázd a szöveget",
+    "tasksList.actionSwitcher.fixDescription": "Javíts egy hibát",
+    "tasksList.typeSwitcher.multiple": "Több",
+    "tasksList.typeSwitcher.label": "Típus",
+    "tasksList.typeSwitcher.docsDescription": "Segíts az Exercism dokumentációjának felépítésében",
+    "tasksList.typeSwitcher.ciDescription": "Automatizálás és folyamatos integráció",
+    "tasksList.typeSwitcher.dockerDescription": "Segíts fejleszteni a Dockerfile-jainkat",
+    "tasksList.typeSwitcher.codingDescription": "Írj éles kódot",
+    "tasksList.typeSwitcher.contentDescription": "Fejlessz feladatokat és fogalmakat",
+    "tasksList.knowledgeSwitcher.multiple": "Több",
+    "tasksList.knowledgeSwitcher.label": "Tudás",
+    "tasksList.knowledgeSwitcher.noneDescription": "Nem szükséges meglévő Exercism-tudás",
+    "tasksList.knowledgeSwitcher.elementaryDescription": "Kevés Exercism-tudás szükséges",
+    "tasksList.knowledgeSwitcher.intermediateDescription": "Meglehetősen sok Exercism-tudás szükséges",
+    "tasksList.knowledgeSwitcher.advancedDescription": "Átfogó Exercism-tudás szükséges",
+    "tasksList.moduleSwitcher.label": "Modul",
+    "tasksList.sizeSwitcher.label": "Méret"
   },
   "components/donations": {
     "stripeForm.defaultError": "Nem sikerült lekérni az előfizetés adatait",
@@ -210,7 +236,8 @@
     "form.monthlyRecurring": "Havi rendszeres",
     "form.oneOff": "Egyszeri",
     "stripeForm.progressing": "Folyamatban",
-    "stripeForm.eligibleForInsidersAccess": "Jogosult az Insiders hozzáférésre"
+    "stripeForm.eligibleForInsidersAccess": "Jogosult az Insiders hozzáférésre",
+    "transactionForm.specifyAmount": "Add meg az összeget"
   },
   "components/donations/subscription-form": {
     "formOptions.initializedOption.changeAmount": "Összeg módosítása",
@@ -330,7 +357,8 @@
     "testSummary.passed": "Sikeres",
     "testSummary.failed": "Sikertelen",
     "testSummary.test": "Teszt",
-    "testSummary.codeRun": "Kódfuttatás"
+    "testSummary.codeRun": "Kódfuttatás",
+    "jumpToInstructionButton.jumpToInstructions": "Ugrás az utasításokhoz"
   },
   "components/github-syncer-widget": {
     "miniAdvert.backupYourSolutionsToGitHub": "Készíts biztonsági mentést a megoldásaidról a GitHubra",
@@ -344,7 +372,14 @@
     "pausedSync.yourSyncerCurrentlyPaused": "A szinkronizálód jelenleg <0>szünetel</0>.",
     "pausedSync.visitSettingsToResumeSyncing": "A szinkronizálás folytatásához keresd fel a <0>beállításaidat</0>.",
     "activeManualSync.automaticSyncsDisabled": "Az automatikus szinkronizálásod le van tiltva",
-    "activeManualSync.clickToBackupSolution": "Kattints ide a megoldásod mentéséhez"
+    "activeManualSync.clickToBackupSolution": "Kattints ide a megoldásod mentéséhez",
+    "miniAdvert.exercism": "Exercism",
+    "miniAdvert.syncWith": "Szinkronizálás",
+    "miniAdvert.github": "Github",
+    "activeAutomaticSync.unknownError": "Ismeretlen hiba",
+    "activeAutomaticSync.errorQueuing": "Hiba történt a biztonsági mentés sorba állításakor az összes kurzushoz: {{message}}",
+    "activeAutomaticSync.backupQueued": "A biztonsági mentésed sorba került, és néhány percen belül el kell készülnie.",
+    "activeAutomaticSync.somethingWentWrong": "Valami hiba történt, miközben a biztonsági mentést sorba állítottuk az összes kurzushoz. Próbáld újra."
   },
   "components/impact/ImpactTestimonial.tsx": {
     "impactTestimonial.saidThisAbout": "ezt mondta erről",
@@ -442,7 +477,8 @@
     "getHelpPanelComponents.getHelpPanelCommunityHelp.forumDescription": "Áss mélyebbre a témákban és ötletekben a fórumunkon.",
     "getHelpPanelComponents.getHelpAccordionSkeleton.getHelp": "Kérj segítséget",
     "stuckButton.stuckGetHelp": "Elakadtál? Kérj segítséget",
-    "getHelpTab.getHelp": "Kérj segítséget"
+    "getHelpTab.getHelp": "Kérj segítséget",
+    "getHelpPanelComponents.getHelpPanelCommunityHelp.communityHelp": "Közösségi segítség"
   },
   "components/editor/header": {
     "settings.theme": "Téma",
@@ -460,7 +496,12 @@
     "more.revertToExerciseStart": "Visszaállítás a feladat elejére",
     "more.revertToLastIteration": "Visszaállítás az utolsó iterációra",
     "more.reportABug": "Bug bejelentése",
-    "backToExercise": "Vissza a feladathoz"
+    "backToExercise": "Vissza a feladathoz",
+    "settings.vim": "Vim",
+    "settings.emacs": "Emacs",
+    "settings.settings": "Beállítások",
+    "settings.editorConfigurationLabel": "Rádiógombok sora az Exercism kódszerkesztőjének beállításához",
+    "keyboardShortcuts": "Billentyűparancsok"
   },
   "components/journey/overview/mentoring-section": {
     "trackSummary.session_one": "{{count}} mentorálási beszélgetés",
@@ -505,7 +546,8 @@
     "exerciseStatusSelect.exerciseStatus": "Feladat állapota",
     "solutionFilter.filterBy": "Szűrés",
     "solutionFilter.applyFilters": "Szűrők alkalmazása",
-    "solutionFilter.close": "Bezárás"
+    "solutionFilter.close": "Bezárás",
+    "solutionFilter.filterTracksLabel": "Opciók sorozata az Exercism kurzusok szűréséhez"
   },
   "components/mentoring/automation/AutomationListElement.tsx": {
     "adminTab.lastShown": "Utoljára megjelenítve",
@@ -565,7 +607,8 @@
     "instructionsPanel.task": "{{n}}. részfeladat",
     "instructionsPanel.stuckRevealHints": "Elakadtál? Tippek megjelenítése",
     "instructionsPanel.opensInAModal": "Modális ablakban nyílik meg",
-    "instructionsPanel.howToDebug": "Hogyan keress hibát"
+    "instructionsPanel.howToDebug": "Hogyan keress hibát",
+    "instructionsPanel.helloWorldVideoTitle": "Üdv a Hello, World! feladatban!"
   },
   "components/editor/RunTestsButton.tsx": {
     "runTestsButton.youHaveNotMadeChanges": "Nem módosítottál semmit, mióta legutóbb lefuttattad a teszteket",
@@ -684,7 +727,8 @@
     "tutorialCompletedModal.returnToTutorial": "Vissza a(z) „{{exerciseTitle}}” feladathoz",
     "publishSolutionForm.yesShareSolution": "Igen, szeretném megosztani a megoldásomat a közösséggel.",
     "publishSolutionForm.noMarkComplete": "Nem, csak szeretném a feladatot befejezettként megjelölni.",
-    "publishSolutionForm.confirm": "Megerősítés"
+    "publishSolutionForm.confirm": "Megerősítés",
+    "publishSolutionForm.loading": "betöltés"
   },
   "components/modals/complete-exercise-modal/exercise-completed-modal/Unlocks.tsx": {
     "unlocks.conceptsUnlocked_one": "Feloldottál <icon/> 1 fogalmat",
@@ -1054,7 +1098,8 @@
     "donationStep.wantToKnowMore": "Többet szeretnél megtudni?",
     "donationStep.whyWeNeedDonations": "Készítettem egy rövid videót, amely elmagyarázza, miért van szükségünk adományokra, és hogyan használjuk fel őket 👇",
     "donationStep.continueWithoutDonating": "Folytatás adományozás nélkül",
-    "donationStep.lessThanOnePercentDonate": "Az Exercismet használók kevesebb mint 1%-a dönt úgy, hogy adományoz. Ha megengedheted magadnak, kérünk, légy te is köztük."
+    "donationStep.lessThanOnePercentDonate": "Az Exercismet használók kevesebb mint 1%-a dönt úgy, hogy adományoz. Ha megengedheted magadnak, kérünk, légy te is köztük.",
+    "reportStep.reportPlaceholder": "Írd le pontosan, miért készíted ezt a bejelentést, és mondd el, mi történt."
   },
   "components/modals/UnpublishSolutionModal.tsx": {
     "unpublishSolutionModal.body": "Ha visszavonod a megoldás közzétételét, az többé nem jelenik meg a profilodon, és a Közösségi megoldások között sem lesz látható. Minden csillag és hozzászólás elveszik, a kapcsolódó reputáció pedig törlődik.",
@@ -1081,7 +1126,9 @@
     "retrieveVideoForm.pasteYourVideoHere": "Illeszd be ide a videót",
     "retrieveVideoForm.retrieveVideo": "Videó lekérése",
     "uploadVideoModalHeader.submitACommunityWorkthrough": "Közösségi végigoldás beküldése",
-    "uploadVideoModalHeader.producedAVideoOfWorkingThroughThisExerciseYourselfWantToShareItWithTheExercismCommunity": "Készítettél egy videót, amelyben magad dolgozod végig ezt a feladatot? Meg szeretnéd osztani az Exercism közösségével? <strong className=\"font-medium text\">Küldd be az alábbi űrlapot, és Jeremy átnézi és jóváhagyja.</strong>"
+    "uploadVideoModalHeader.producedAVideoOfWorkingThroughThisExerciseYourselfWantToShareItWithTheExercismCommunity": "Készítettél egy videót, amelyben magad dolgozod végig ezt a feladatot? Meg szeretnéd osztani az Exercism közösségével? <strong className=\"font-medium text\">Küldd be az alábbi űrlapot, és Jeremy átnézi és jóváhagyja.</strong>",
+    "uploadVideoForm.videoThumbnail": "videó bélyegkép",
+    "uploadVideoForm.reset": "Visszaállítás"
   },
   "components/modals/welcome-modal": {
     "welcomeModal.helloFellowDeveloper": "Szia, fejlesztőtárs 👋",
@@ -1112,7 +1159,12 @@
     "juniorView.expertTeaching": "<strong className=\"font-semibold\">Szakértő oktatás</strong> és mentorálási támogatás.",
     "juniorView.overHoursHandsOn": "Több mint <strong className=\"font-semibold\">100 óra gyakorlati, projektalapú tanulás</strong> játékok készítésével és rejtvények megoldásával.",
     "juniorView.aCompleteCoding": "Egy teljes Coding Fundamentals <strong className=\"font-semibold\">tanterv</strong>, amely a tudás és az önbizalom építésére készült.",
-    "juniorView.aFormalCertificate": "Egy hivatalos <strong className=\"font-semibold\">tanúsítvány</strong> a befejezéskor."
+    "juniorView.aFormalCertificate": "Egy hivatalos <strong className=\"font-semibold\">tanúsítvány</strong> a befejezéskor.",
+    "juniorView.gameAlt.spaceInvaders": "Egy Space Invaders játék képe",
+    "juniorView.gameAlt.ticTacToe": "Egy tic-tac-toe játék képe",
+    "juniorView.gameAlt.breakout": "Egy Breakout játék képe",
+    "juniorView.gameAlt.maze": "Egy labirintusjáték képe",
+    "welcomeModal.communityTabVideoTitle": "Bemutatkozik a „Közösség” fül"
   },
   "components/modals/WelcomeToInsidersModal.tsx": {
     "welcomeToInsidersModal.title": "Üdv az Insidersben! 💙",
@@ -1123,7 +1175,8 @@
     "welcomeToInsidersModal.greatLetsGo": "Remek. Gyerünk!",
     "welcomeToInsidersModal.startWithOurWelcomeVideo": "Kezdd az üdvözlővideónkkal 👇🏽",
     "welcomeToInsidersModal.whatShouldIDoNext": "Mit tegyek most?",
-    "welcomeToInsidersModal.exploreDarkMode": "Próbáld ki a Dark Mode-ot (alapértelmezés szerint be van kapcsolva). Nézd meg az új jelvényeidet. Próbáld ki a ChatGPT-t az online szerkesztőben. Használd az egyik új mentorálási helyedet. Gyere és köszönj a Discord #insiders csatornáján. Vagy nézz meg néhány kulisszák mögötti videót 🎉"
+    "welcomeToInsidersModal.exploreDarkMode": "Próbáld ki a Dark Mode-ot (alapértelmezés szerint be van kapcsolva). Nézd meg az új jelvényeidet. Próbáld ki a ChatGPT-t az online szerkesztőben. Használd az egyik új mentorálási helyedet. Gyere és köszönj a Discord #insiders csatornáján. Vagy nézz meg néhány kulisszák mögötti videót 🎉",
+    "welcomeToInsidersModal.videoTitle": "Üdv az Exercism Insiders programban!"
   },
   "components/notifications/": {
     "notificationsList.notifications": "Értesítések",
@@ -1432,7 +1485,8 @@
     "deleteIterationModal.deleteIteration": "Iteráció törlése",
     "deleteIterationModal.cancel": "Mégse",
     "deleteIterationModal.unableToDeleteIteration": "Nem sikerült törölni az iterációt",
-    "iterationReport.thisIterationHasBeenDeleted": "Ezt az iterációt törölték"
+    "iterationReport.thisIterationHasBeenDeleted": "Ezt az iterációt törölték",
+    "analyzerFeedback.opensInANewTab": "Új lapon nyílik meg"
   },
   "components/student/mentoring-dropdown": {
     "discussionList.codeReviewSessions": "Kódáttekintési beszélgetések",
@@ -1483,7 +1537,8 @@
     "mentoringRequestForm.startMentoringDiscussion": "Indíts mentorálási beszélgetést a(z) <strong>{{exerciseTitle}}</strong> feladatról, hogy új és izgalmas megközelítéseket fedezz fel. Bővítsd és mélyítsd el a tudásodat.",
     "mentoringRequestForm.submitMentoringRequest": "Mentorálási kérés beküldése",
     "mentoringRequestForm.unableToCreateRequest": "Nem sikerült létrehozni a mentorálási kérést",
-    "mentoringRequestForm.openForMentor": "Amint beküldöd, a kérésed nyitottá válik, és egy mentor csatlakozhat hozzá, hogy visszajelzést adjon."
+    "mentoringRequestForm.openForMentor": "Amint beküldöd, a kérésed nyitottá válik, és egy mentor csatlakozhat hozzá, hogy visszajelzést adjon.",
+    "mentoringRequestInfo.opensInANewWindowOrTab": "A hivatkozás új ablakban vagy lapon nyílik meg"
   },
   "components/student/mentoring-session/mentoring-request/MentoringRequestFormComponents": {
     "solutionCommentTextArea.howCanMentorHelpYou": "Hogyan segíthet neked egy mentor ezzel a megoldással?",
@@ -1567,7 +1622,9 @@
     "comments.recommendations_one": "{{count}} javaslat",
     "comments.recommendations_other": "{{count}} javaslat",
     "comments.additionalComments_one": "{{count}} további megjegyzés",
-    "comments.additionalComments_other": "{{count}} további megjegyzés"
+    "comments.additionalComments_other": "{{count}} további megjegyzés",
+    "header.opensInANewTab": "Új lapon nyílik meg",
+    "mentoring.opensInNewTab": "Új lapon nyílik meg"
   },
   "components/profile/contributions-list": {
     "otherContributionsList.generic": "Általános",
@@ -1733,7 +1790,10 @@
     "tagsFilter.showingAll_other": "Az összes {{count}} kurzus megjelenítve",
     "tagsFilter.resetFilters": "Szűrők visszaállítása",
     "tagOptionList.apply": "Alkalmaz",
-    "tagOptionList.close": "Bezárás"
+    "tagOptionList.close": "Bezárás",
+    "track.numberOfExercisesAlt": "Feladatok száma",
+    "track.numberOfConceptsAlt": "Fogalmak száma",
+    "tagsFilter.filterTracksLabel": "Jelölőnégyzetek sorozata az Exercism kurzusok szűréséhez"
   },
   "components/student/TracksList.tsx": {
     "tracksList.searchLanguageTracks": "Kurzusok keresése nyelv szerint",
@@ -1742,7 +1802,8 @@
   "components/student/UpdateExerciseNotice.tsx": {
     "updateExerciseNotice.exerciseUpdated": "Ez a feladat frissült. Frissíts a legújabb verzióra, és nézd meg, hogy a tesztjeid továbbra is sikeresek-e. ",
     "updateExerciseNotice.seeWhatsChanged": "Nézd meg, mi változott…",
-    "updateExerciseNotice.docsForNewerVersion": "Ezek az utasítások a feladat újabb verziójához tartoznak. <english>Válts angolra</english>, hogy a saját verziódat lásd, vagy <update>Frissíts a legújabb verzióra</update>."
+    "updateExerciseNotice.docsForNewerVersion": "Ezek az utasítások a feladat újabb verziójához tartoznak. <english>Válts angolra</english>, hogy a saját verziódat lásd, vagy <update>Frissíts a legújabb verzióra</update>.",
+    "updateExerciseNotice.warning": "Figyelem"
   },
   "components/tooltips/ExerciseTooltip.tsx": {
     "exerciseTooltip.unableToLoadInformation": "Nem sikerült betölteni az információkat"
@@ -1921,7 +1982,11 @@
     "initialView.beginner": "Kezdő",
     "initialView.juniorDeveloper": "Junior fejlesztő",
     "initialView.midLevelDeveloper": "Középszintű fejlesztő",
-    "initialView.seniorDeveloper": "Senior fejlesztő"
+    "initialView.seniorDeveloper": "Senior fejlesztő",
+    "bootcampAd.gameAlt.spaceInvaders": "Egy Space Invaders játék képe",
+    "bootcampAd.gameAlt.ticTacToe": "Egy tic-tac-toe játék képe",
+    "bootcampAd.gameAlt.breakout": "Egy Breakout játék képe",
+    "bootcampAd.gameAlt.maze": "Egy labirintusjáték képe"
   },
   "components/modals/mentor": {
     "finishMentorDiscussionModal.areYouSure": "Biztosan be szeretnéd fejezni ezt a beszélgetést?",
@@ -1948,7 +2013,10 @@
     "congratulationsStep.makeGettingStartedEasy": "Szeretnénk, ha a mentorálás elkezdése a lehető legegyszerűbb lenne. Nézd meg az alábbi videót, hogy megtudd, hogyan kezdj hozzá.",
     "congratulationsStep.welcomeToMentorTeam": "Üdv a mentorok csapatában!",
     "congratulationsStep.video": "Videó · 0:24",
-    "congratulationsStep.readyToGetStarted": "Készen állok a kezdésre!"
+    "congratulationsStep.readyToGetStarted": "Készen állok a kezdésre!",
+    "commitStep.opensInANewTab": "Új lapon nyílik meg",
+    "congratulationsStep.thisIsAVideo": "Ez egy videó",
+    "stepIndicator.becomeAMentorProgress": "Mentorrá válás folyamata"
   },
   "components/modals/mentor-registration-modal/commit-step": {
     "reputationInfo.reputationAndTestimonials": "Reputáció és ajánlások",
@@ -2062,7 +2130,13 @@
     "whoIsThisTrackFor.courseOffers.certificate": "Egy hivatalos <strong>tanúsítvány</strong> a kurzus elvégzéséért.",
     "whoIsThisTrackFor.youllBuildGames": "Néhány hét alatt a nulláról jutsz el odáig, hogy rejtvényeket oldj meg és ilyen játékokat készíts...",
     "whoIsThisTrackFor.testimonial": "Lenyűgözött ennek a kurzusnak a színvonala. Hihetetlen sokat fejlődtem az elmúlt néhány hétben!",
-    "videoRHS.watchThisShortVideo": "☝️ Nézd meg ezt a rövid videót, hogy többet megtudj a tanulómódról és a gyakorlómódról, valamint arról, hogyan válaszd ki a neked megfelelő beállítást."
+    "videoRHS.watchThisShortVideo": "☝️ Nézd meg ezt a rövid videót, hogy többet megtudj a tanulómódról és a gyakorlómódról, valamint arról, hogyan válaszd ki a neked megfelelő beállítást.",
+    "whoIsThisTrackFor.gameAlt.spaceInvaders": "Egy Space Invaders játék képe",
+    "whoIsThisTrackFor.gameAlt.ticTacToe": "Egy tic-tac-toe játék képe",
+    "whoIsThisTrackFor.gameAlt.breakout": "Egy Breakout játék képe",
+    "whoIsThisTrackFor.gameAlt.maze": "Egy labirintusjáték képe",
+    "whoIsThisTrackFor.learnByDoing": "Tanulj a gyakorlatban... már az első naptól!",
+    "whoIsThisTrackFor.betaTester": "- Az egyik bétatessztelőnk."
   },
   "components/contributing/tasks-list/task": {
     "sizeTag.xs": "xs",
@@ -2079,7 +2153,11 @@
     "moduleTag.testRunner": "Tesztfuttató",
     "moduleTag.trackGenerators": "Kurzusgenerátorok",
     "moduleTag.trackConcepts": "Kurzusfogalmak",
-    "actionIcon.action": "Művelet: {{action}}"
+    "actionIcon.action": "Művelet: {{action}}",
+    "knowledgeTag.none": "Tudás: nincs",
+    "knowledgeTag.elementary": "Tudás: alapszintű",
+    "knowledgeTag.intermediate": "Tudás: középszintű",
+    "knowledgeTag.advanced": "Tudás: haladó"
   },
   "components/track/dig-deeper-components/community-videos": {
     "communityVideos.communityVideos": "Közösségi videók",
@@ -2091,7 +2169,8 @@
     "communityVideoModal.postedBy": "Közzétette ",
     "communityVideo.seeVideo": "videó megtekintése",
     "communityVideoFooter.wantYourVideoFeatured": "Szeretnéd, hogy itt szerepeljen a videód?",
-    "communityVideoFooter.submitItHere": "Itt küldd be"
+    "communityVideoFooter.submitItHere": "Itt küldd be",
+    "communityVideo.thumbnail": "bélyegkép"
   },
   "components/track/dig-deeper-components/no-content-yet": {
     "noContentYet.thereAreNoContentTypeForExerciseTitle": "Nincsenek {{contentType}} a(z) {{exerciseTitle}} feladathoz.",
@@ -2184,7 +2263,10 @@
     "communitySolutionsList.filterByExercise": "Szűrés feladat szerint",
     "avatarSelector.uploadNewPhoto": "Új fotó feltöltése",
     "avatarSelector.deletePhoto": "Fotó törlése",
-    "testimonialsList.unableToLoadTestimonials": "Nem sikerült betölteni az ajánlásokat"
+    "testimonialsList.unableToLoadTestimonials": "Nem sikerült betölteni az ajánlásokat",
+    "testimonialsSummary.testimonials": "Ajánlások",
+    "testimonialsSummary.mentoredBy": "Mentorálta",
+    "testimonialsSummary.exerciseInTrack": "<exercise>{{exercise}}</exercise> a <track>{{track}}</track> kurzusban"
   },
   "components/profile/avatar-selector": {
     "photo.yourProfilePicture": "A profilképed",
@@ -2329,5 +2411,77 @@
   },
   "components/mentoring/session/mobile-code-panel/SessionInfoHamburgerButton.tsx": {
     "sessionInfoHamburgerButton.downloadSolution": "Megoldás letöltése"
+  },
+  "components/editor/AssistantChat": {
+    "assistantChatStartState.getAssistantHelpFree": "Kérj segítséget az asszisztenstől ehhez a feladathoz, 100%-ban ingyenes.",
+    "insidersUpsellModal.unlockYourAiAssistant": "Oldd fel az AI-asszisztensedet",
+    "insidersUpsellModal.becomeAnInsiderFor": "Legyél Insiders-tag, hogy minden feladatnál korlátlanul beszélgethess.",
+    "insidersUpsellModal.fundedByDonations": "Az Exercism adományokból működik. A havi <strong>{{amount}}</strong> adományod mindenki számára ingyenesen tartja az Exercismet, és feloldja az AI-asszisztenst, a sötét módot, a reklámmentes élményt és még sok mást.",
+    "insidersUpsellModal.changeOrCancel": "Az adományodat bármikor módosíthatod vagy lemondhatod a beállításaidból.",
+    "insidersUpsellModal.youreAnInsider": "Insiders-tag vagy! 💙",
+    "insidersUpsellModal.thankYouForSupporting": "Köszönjük, hogy támogatod az Exercismet. Az AI-asszisztensed minden feladatnál fel van oldva, csakúgy, mint a sötét mód, a reklámmentes élmény és minden más, amit az Insiders felold.",
+    "insidersUpsellModal.receiptInYourInbox": "Hamarosan küldünk egy visszaigazolást a postaládádba.",
+    "insidersUpsellModal.startWorkingWithTheAssistant": "Kezdj el dolgozni az asszisztenssel",
+    "assistantChatTab.aiAssistant": "AI-asszisztens",
+    "chatApi.tooManyRequests": "Túl sok kérés. Kérlek, várj egy pillanatot, és próbáld újra.",
+    "chatApi.assistantOverloaded": "Az asszisztens túlterhelt. Kérlek, próbáld újra hamarosan.",
+    "chatApi.assistantTimedOut": "Az asszisztens túllépte az időkorlátot. Kérlek, próbáld újra.",
+    "chatApi.assistantUnavailable": "Az asszisztens nem elérhető. Kérlek, próbáld újra hamarosan.",
+    "chatApi.connectionLost": "Megszakadt a kapcsolat. Kérlek, ellenőrizd a hálózatodat.",
+    "chatApi.somethingWentWrong": "Valami hiba történt. Kérlek, próbáld újra.",
+    "chatApi.failedToParseErrorResponse": "Nem sikerült feldolgozni a hibaválaszt",
+    "chatApi.unknownError": "Ismeretlen hiba",
+    "chatApi.streamProcessingError": "Hiba a stream feldolgozása közben",
+    "chatUsage.closeToMonthlyLimit": "Közel jársz a havi limitedhez ({{used}}/{{limit}} üzenet ebben a hónapban).",
+    "chatUsage.closeToDailyLimit": "Közel jársz a napi limitedhez ({{used}}/{{limit}} üzenet ma).",
+    "chatUsage.usedAllMonthlyMessages": "Elhasználtad mind a {{limit}} üzenetet ebben a hónapban. A hónap elsején visszaállnak.",
+    "chatUsage.usedAllDailyMessages": "Elhasználtad mind a {{limit}} mai üzenetet. UTC szerinti éjfélkor állnak vissza.",
+    "assistantChatPanel.stuckAskYourAiAssistant": "Eltakadtál? Kérdezd meg az AI-asszisztensedet",
+    "assistantChatPanel.askAboutYourCode": "Kérdezz a kódodról, a tesztekről vagy a feladatról. Az asszisztens inkább rávezet a megoldásra, ahelyett hogy kész választ adna.",
+    "assistantChatPanel.tryAgain": "Próbáld újra",
+    "assistantChatPanel.notAvailableRightNow": "Az AI-asszisztens jelenleg nem elérhető.",
+    "assistantChatPanel.reachedYourMessageLimit": "Elérted az üzenetlimitet",
+    "assistantChatPanel.waitingForTheAssistant": "Várunk az asszisztens válaszára…",
+    "assistantChatPanel.respondToTheAssistant": "Válaszolj az asszisztensnek…",
+    "assistantChatPanel.askAboutYourCodePlaceholder": "Kérdezz a kódodról, a tesztekről vagy a feladatról…",
+    "assistantChatPanel.sendMessage": "Üzenet küldése",
+    "assistantChatPanel.whatAreYouStuckOn": "Szia! Min akadtál el? Meséld el, mit próbáltál már ki, és segítek megoldani.",
+    "assistantChatPanel.insiderBenefits.unlimitedAiAssistant.title": "Korlátlan AI-asszisztens",
+    "assistantChatPanel.insiderBenefits.unlimitedAiAssistant.desc": "Korlátlan beszélgetés minden feladatnál és minden kurzusnál.",
+    "assistantChatPanel.insiderBenefits.jikiPremium.title": "Teljes Jiki Premium hozzáférés",
+    "assistantChatPanel.insiderBenefits.jikiPremium.desc": "Minden benne van, ami a Jiki prémium csomagjában van.",
+    "assistantChatPanel.insiderBenefits.darkMode.title": "Sötét mód",
+    "assistantChatPanel.insiderBenefits.darkMode.desc": "A menő sötét témánk, ami késő este is kíméli a szemed.",
+    "assistantChatPanel.insiderBenefits.adFree.title": "Reklámmentes élmény",
+    "assistantChatPanel.insiderBenefits.adFree.desc": "Kapcsold ki az összes reklámot az egész platformon.",
+    "assistantChatPanel.insiderBenefits.behindTheScenes.title": "Kulisszák mögötti tartalom",
+    "assistantChatPanel.insiderBenefits.behindTheScenes.desc": "Zárt körű élő közvetítések és mélyelemzések az Exercism stackjébe.",
+    "assistantChatPanel.insiderBenefits.supportExercism.title": "Támogasd az Exercismet",
+    "assistantChatPanel.insiderBenefits.supportExercism.desc": "Tartsd életben az ingyenes programozásoktatást mindenki számára. 💙",
+    "assistantChatPanel.joinExercismInsiders": "Csatlakozz az <gradient>Exercism Insiders</gradient> programhoz több segítségért",
+    "assistantChatPanel.usedFreeConversationElsewhere": "Az ingyenes AI-beszélgetésedet egy másik feladatnál használtad el.",
+    "assistantChatPanel.usedFreeConversation": "Elhasználtad az ingyenes AI-beszélgetésedet.",
+    "assistantChatPanel.everyoneGetsAConversation": "Mindenki egy feladatnál ingyen kap egy AI-asszisztens beszélgetést. Legyél Insider, hogy mindenhol feloldd, és minden mást is megkapj, ami lentebb található.",
+    "assistantChatPanel.becomeAnInsider": "Legyél Insider",
+    "assistantChatPanel.tenAMonth": "$10/hó. Bármikor lemondhatod.",
+    "assistantChatStartState.rotatingPhrases.whyThisIsntWorking": "miért nem működik ez",
+    "assistantChatStartState.rotatingPhrases.howToFixThisBug": "hogyan javítsd ki ezt a hibát",
+    "assistantChatStartState.rotatingPhrases.whatThisErrorMeans": "mit jelent ez a hiba",
+    "assistantChatStartState.rotatingPhrases.howToApproachThis": "hogyan állj neki",
+    "assistantChatStartState.rotatingPhrases.howToGetUnstuck": "hogyan kerülj ki a holtpontról",
+    "assistantChatStartState.feelingStuck": "Eltakadtál?",
+    "assistantChatStartState.askOurAssistantAbout": "Kérdezd meg az asszisztensünket:",
+    "assistantChatStartState.tellUsWhatYoureStuckOn": "Meséld el, min akadtál el, és mit próbáltál már ki…",
+    "assistantChatStartState.askOurAssistant": "Kérdezd meg az asszisztensünket",
+    "assistantChatStartState.unlimitedConversations": "Korlátlan beszélgetések, az Insiders program részeként"
+  },
+  "components/modals/Modal.tsx": {
+    "modal.closeModal": "Modális ablak bezárása"
+  },
+  "components/ResultsZone.tsx": {
+    "resultsZone.loadingData": "Adatok betöltése"
+  },
+  "components/impact/chart-elements": {
+    "numberOfStudentsLabel.noOfStudents": "Tanulók száma"
   }
 }
