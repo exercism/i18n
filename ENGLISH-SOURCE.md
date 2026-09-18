@@ -81,6 +81,10 @@ an issue here (issues are the queue), the translator repo does the translating w
 DeepSeek, the result is committed to `main` here, and closing the issue re-runs the PR's
 check. `source-repo-workflows/README.md` has the loop in full.
 
+That commit to `main` is also the deploy: the website keeps a checkout of this repo on its
+EFS, pulls it on push, and reads `locales/` straight from it (CLAUDE.md, "How the website
+consumes this repo"). English is never in that tree either; it is deployed with the website.
+
 TODO(iHiD): the translator repo for Exercism does not exist yet, so steps 3 and 4 of that
 loop are manual today. Whether a runner here translates automatically on issue-open is an
 open decision.

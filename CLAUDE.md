@@ -1,7 +1,7 @@
 # Exercism i18n - Agent Instructions
 
 This repo holds **Exercism's translated output**, and the scripts and GitHub Actions that
-check and publish it. It was forked, in structure and idiom, from Jiki's `i18n` repo.
+check it. It was forked, in structure and idiom, from Jiki's `i18n` repo.
 Exercism and Jiki are fully separate: nothing is shared, and nothing here should reach for
 Jiki's repo, tooling or data.
 
@@ -16,7 +16,8 @@ real, what is stubbed" before assuming anything works end to end.
   blog, analyzer comments, problem-specifications), in every target locale.
 - **The checker of those translations** (`validate`), and the answer to "may this English
   merge yet?" for every source repo (`completeness`).
-- **The publisher of those translations to S3**, as far as that can go without a bucket.
+- **What the website serves.** The website reads translations straight from a checkout of
+  this repo, so `main` is production. See "How the website consumes this repo".
 
 ## What this repo is not
 
@@ -43,7 +44,7 @@ locales/<locale>/
 scripts/                         see "Scripts"
 .github/workflows/               this repo's own workflows
 source-repo-workflows/           TEMPLATES a source repo installs; they do not run here
-.source/  .build/  dist/         gitignored: source fetches, flattened English, publish output
+.source/  .build/                gitignored: source fetches, flattened English
 ```
 
 ## The three stores
@@ -170,12 +171,11 @@ implemented.
 | Script | What it does |
 | --- | --- |
 | `build-english.mjs` | The flattening step. Writes `.build/english/{backend,frontend,arrays,source}.json` for a pass to read, or with `--content-repos` one `.build/english/metadata/<repo>.json` per repo. The other scripts call the same builder directly and never read those files. |
-| `validate.mjs` | The checker. Catalog unit parity, plural groups, placeholders, tags, whitespace; content path shape, UTF-8, JSON, no stamps, copied English, and structure against English when `--content-repos` can find it. Stamps with `--stamp`. Exits 1 on an ERROR in a production locale; `--gate=all` and `--complete` widen that. Exercises the S3 key guard on every run. |
+| `validate.mjs` | The checker. Catalog unit parity, plural groups, placeholders, tags, whitespace; content path shape, UTF-8, JSON, no stamps, copied English, and structure against English when `--content-repos` can find it. Stamps with `--stamp`. Exits 1 on an ERROR in a production locale; `--gate=all` and `--complete` widen that. |
 | `completeness.mjs` | The blocking check for ONE source repo: full, or relative to `--base`. Content by blob id; website and metadata by unit and stamp, so an edited key or blurb blocks. |
 | `english-changes.mjs` | The queue's reader: turns GitHub's PR file list (paths and blob shas) into the issue's table. For a changed `config.json` or `metadata.toml` it names the KEYS whose English changed, from the two versions of that file fetched by blob id. Takes API responses, never a checkout. |
 | `coverage.mjs` | Per-locale unit counts (website and metadata) and blob coverage for the repos named. Reports, never gates, always exits 0. |
 | `no-deletions.mjs` | Refuses a removed file or key under `locales/` between two refs. |
-| `publish.mjs` | Builds `dist/`: content-hashed catalog artifacts, a pointer beside each, the same for each metadata catalog, content under its blob-id path, `manifest.json`, `sync.sh`. `--upload` refuses without `EXERCISM_I18N_BUCKET`. Needs no English. |
 | `source-checkout.mjs` | Fetches a source repo into `.source/`, shallow, blobless, no working tree. |
 | `test.mjs` | Plain `node:assert`. Pure assertions, then a fixture of real git repos that every script is run over. |
 
@@ -183,18 +183,21 @@ implemented.
   design. Read one; never promote one.
 - **`EXERCISM_I18N_ROOT`** points the scripts at another tree. It exists for `test.mjs`.
 
-## Publishing
+## How the website consumes this repo
 
-Immutable, content-hashed artifacts plus tiny per-locale pointers for the two catalogs:
-`i18n/website/<locale>/<kind>-<hash>.json` and `<kind>.current.json` (`{ "hash": ... }`),
-and the same pair per source repo at `i18n/metadata/<locale>/<repo>-<hash>.json`.
-Artifact before pointer, one writer per pointer (`publish.yml`, serialised). Content is
-published as-is at `i18n/content/<locale>/<ab>/<cd>/<rest>.<ext>`, which is a STABLE path
-whose object can be corrected, so it is never cached as immutable. The backend artifact is
-wrapped as `{ "<locale>": ... }`, which Rails' I18n loads from `.json`.
+**Pushing to `main` is the deploy.** The website keeps a plain checkout of this repo on its
+EFS, at `<efs_repositories_mount_point>/i18n`, on `main` and sparse to the locales it
+serves. Its webhook pulls that checkout on every push here, and it reads
+`locales/<locale>/...` straight from the tree. The frontend catalog is served by the
+website from that tree too. The checked-out HEAD sha is the version the website keys its
+caches on. There is no build step, no upload and no intermediate copy: the on-disk layout
+under `locales/` (see "Directory structure") IS the served layout, which is why nothing
+here may move a file or change a shape without the website changing with it.
 
-Every key goes through `assertPublishableKey()`: under `i18n/`, no English segment, and a
-locale `locales.json` lists. It throws; it never skips.
+Nothing is deployed selectively. Whatever is on `main` is what the website has, for every
+locale, complete or not. Strictness lives elsewhere: `validate` gates what may land for a
+production locale, the source repos' completeness check gates what English may merge, and
+the website decides which locales it serves.
 
 ## What is real, what is stubbed
 
@@ -204,30 +207,27 @@ of `exercism/website` and of a real PR's merge ref.
 
 Stubbed or absent:
 
-- **Upload to S3.** `dist/` is built; nothing is uploaded. `publish.yml`'s upload step is
-  off until an `I18N_BUCKET` repository variable exists.
 - **The workflows have never run.** They parse as YAML and their data paths were rehearsed
   locally. The two secrets they name exist: `EXERCISM_I18N_ISSUES_PAT` (an organisation
   secret, Issues read/write on this repo only, owned by iHiD, so queue issues are authored
   by `iHiD`) and `EXERCISM_SOURCE_REPOS_ACTIONS_PAT` (a secret on this repo, Actions
-  read/write and Pull requests read on the source repos). S3 credentials do not.
+  read/write and Pull requests read on the source repos).
 - **No translation pass exists** for this repo, so nothing has ever written to `locales/`.
 
 ## Open questions (do not answer these by accident)
 
 Each is marked `TODO(iHiD): OPEN` where the code would change.
 
-1. **What runs the S3 to EFS mirror.** Nothing here knows about EFS.
-2. **Whether a runner here translates automatically on issue-open.** Nothing does.
-3. **Who may trigger an issue.** `i18n-queue.yml` ships a placeholder gate.
-4. **Whether a human-navigable symlink tree exists beside the blob-id store.** None does.
-5. **Which content types and locales are in scope for launch.** Every content type is
+1. **Whether a runner here translates automatically on issue-open.** Nothing does.
+2. **Who may trigger an issue.** `i18n-queue.yml` ships a placeholder gate.
+3. **Whether a human-navigable symlink tree exists beside the blob-id store.** None does.
+4. **Which content types and locales are in scope for launch.** Every content type is
    live; both locale lists are empty. Two scope calls are flagged in `content-types.mjs` and
    deliberately not made: whether contributor-facing `building/` docs (155 of 212 pages)
    and mentor-facing `mentoring/` docs are translated, and whether the learner-facing CLI
    walkthrough (`website-copy` `walkthrough/index.html`, HTML not Markdown) is.
-6. **Bucket names, S3 credentials and IAM.** No bucket is named anywhere. (The two GitHub
-   PATs are settled: see "What is real, what is stubbed".)
+
+(The two GitHub PATs are settled: see "What is real, what is stubbed".)
 
 ## House rules
 

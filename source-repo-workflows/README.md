@@ -24,7 +24,8 @@ the workflow filename `i18n-completeness.yml`.
 3. `i18n-completeness.yml` fails on that PR, because this repo does not hold the
    translations yet. With the check required, the PR cannot merge.
 4. Translations land on `main` here, for every locale in `locales.json` `productionTargets`.
-   The issue is closed.
+   The issue is closed. That push is the deploy: the website pulls its checkout of this
+   repo and serves the new files.
 5. `rerun-source-check.yml` here re-runs the PR's failed check, which now passes.
 
 ## Fork safety

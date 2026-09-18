@@ -1,11 +1,12 @@
 # Exercism i18n
 
-Exercism's translated output, and the scripts and GitHub Actions that check and publish it.
+Exercism's translated output, and the scripts and GitHub Actions that check it.
 
 **Status: a scaffold.** `locales/` is empty and `locales.json` lists no locale yet. The
-scripts all run, against nothing here and against a fixture in `scripts/test.mjs`. Uploading
-to S3, and the translator repo that would write into `locales/`, do not exist yet. [CLAUDE.md](./CLAUDE.md) says exactly what is real, what is
-stubbed, and which decisions are still open.
+scripts all run, against nothing here and against a fixture in `scripts/test.mjs`. The
+translator repo that would write into `locales/` does not exist yet.
+[CLAUDE.md](./CLAUDE.md) says exactly what is real, what is stubbed, and which decisions
+are still open.
 
 English is never stored here. It is read from checkouts of the repos it is authored in,
 through git objects. See [ENGLISH-SOURCE.md](./ENGLISH-SOURCE.md).
@@ -32,18 +33,26 @@ page's title) is different: the website only ever shows the latest, so it lives 
 catalog per source repo, stamped per unit like the website catalogs. An edited blurb is
 detected per key and blocks its PR.
 
+## How the website consumes this repo
+
+Pushing to `main` is the deploy. The website keeps a plain checkout of this repo on its EFS
+(at `<efs_repositories_mount_point>/i18n`, on `main`, sparse to the locales it serves),
+pulls it on every push through its webhook, and reads `locales/<locale>/...` straight from
+that tree, including the frontend catalog, which the website serves itself. The checked-out
+HEAD sha is the version it keys its caches on. There is no build, no upload and no copy
+in between: the layout above is the served layout.
+
 ## Quick start
 
 ```bash
 pnpm install                                  # one dependency: yaml, to read Rails YAML
-pnpm test                                     # 54 assertions, including a fixture run of every script
+pnpm test                                     # 51 assertions, including a fixture run of every script
 
 pnpm source:checkout                          # fetch exercism/website main (blobless, no working tree)
 node scripts/build-english.mjs                # flatten its English into .build/english/{backend,frontend}.json
 node scripts/validate.mjs all                 # the CI gate
 node scripts/coverage.mjs --content-repos=../ruby,../docs
 node scripts/completeness.mjs --source-repo=../ruby --locales=<locale>
-node scripts/publish.mjs all                  # build dist/; uploads nothing
 ```
 
 A sibling `../website` is found automatically and read at `origin/main`, never at whatever
