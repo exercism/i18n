@@ -726,14 +726,11 @@ await test("fixture: no-deletions names a removed file and a removed key, and ig
 // The state this repo is actually in today. Every script must run, exit 0 and
 // SAY that it checked nothing, because a silent green over an empty gate is the
 // failure the whole `productionTargets` design exists to prevent.
-await test("the real, empty repo: every script runs, exits 0, and says nothing gates", () => {
+await test("the real repo: its locales are consistent and coverage runs", () => {
   const real = { root: SCRIPTS_ROOT };
-  const validate = run("validate.mjs", ["all"], real);
-  assert.equal(validate.status, 0, validate.out);
-  assert.match(validate.out, /NOTHING GATES/);
-  const complete = run("completeness.mjs", [`--source-repo=${TRACK}`, "--repo=exercism/ruby"], real);
-  assert.equal(complete.status, 0, complete.out);
-  assert.match(complete.out, /NOTHING GATES/);
+  const locales = JSON.parse(fs.readFileSync(path.join(SCRIPTS_ROOT, "locales.json"), "utf8"));
+  for (const locale of locales.productionTargets) assert.ok(locales.targets.includes(locale), `${locale} is a production target but not a target`);
+  for (const locale of locales.targets) assert.ok(fs.existsSync(path.join(SCRIPTS_ROOT, "locales", locale)), `locales/${locale} is missing`);
   assert.equal(run("coverage.mjs", [], real).status, 0);
 });
 

@@ -5,9 +5,10 @@ check it. It was forked, in structure and idiom, from Jiki's `i18n` repo.
 Exercism and Jiki are fully separate: nothing is shared, and nothing here should reach for
 Jiki's repo, tooling or data.
 
-**Status: a scaffold. `locales/` is empty and `locales.json` lists no locale.** Every script
-runs today (against nothing, and against a fixture in `scripts/test.mjs`). Read "What is
-real, what is stubbed" before assuming anything works end to end.
+**Status: Hungarian (`hu`) is a production target**, holding the website UI catalogs and the
+Ruby track; other sources and tracks land as they are translated. Every script runs against
+that tree and against a fixture in `scripts/test.mjs`. Read "What is real, what is stubbed"
+before assuming anything works end to end.
 
 ## What this repo is
 
@@ -33,7 +34,7 @@ real, what is stubbed" before assuming anything works end to end.
 ## Directory structure
 
 ```
-locales.json                     targets, productionTargets (both empty today)
+locales.json                     targets, productionTargets (hu today)
 website-exclusions.json          website areas that are never translated
 locales/<locale>/
   website/backend.json           Rails strings, nested, no locale root
@@ -158,9 +159,9 @@ Stamp files (`*.meta.json`) are exempt: they are regenerated, not authored.
 ## Production locales
 
 `locales.json` `productionTargets` is an explicit list. It is what `validate` exits non-zero
-on and what `completeness` holds a source repo's PR to. **It is empty: no locale is in
-production yet.** Unlike in Jiki's repo an empty list is legitimate here, so every gating
-script accepts it and prints `NOTHING GATES` on every run. A missing or malformed list, or
+on and what `completeness` holds a source repo's PR to. **It holds `hu`.** Unlike in Jiki's
+repo an empty list is legitimate here (it was, until hu went in), so every gating script
+accepts it and prints `NOTHING GATES` when it is. A missing or malformed list, or
 a locale `targets` does not know, is still fatal.
 
 ## Scripts
@@ -231,7 +232,7 @@ Each is marked `TODO(iHiD): OPEN` where the code would change.
 2. **Who may trigger an issue.** `i18n-queue.yml` ships a placeholder gate.
 3. **Whether a human-navigable symlink tree exists beside the blob-id store.** None does.
 4. **Which content types and locales are in scope for launch.** Every content type is
-   live; both locale lists are empty. Two scope calls are flagged in `content-types.mjs` and
+   live; `hu` is the one locale so far. Two scope calls are flagged in `content-types.mjs` and
    deliberately not made: whether contributor-facing `building/` docs (155 of 212 pages)
    and mentor-facing `mentoring/` docs are translated, and whether the learner-facing CLI
    walkthrough (`website-copy` `walkthrough/index.html`, HTML not Markdown) is.

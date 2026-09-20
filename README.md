@@ -2,9 +2,10 @@
 
 Exercism's translated output, and the scripts and GitHub Actions that check it.
 
-**Status: a scaffold.** `locales/` is empty and `locales.json` lists no locale yet. The
-scripts all run, against nothing here and against a fixture in `scripts/test.mjs`. The
-translator repo that would write into `locales/` does not exist yet.
+**Status: Hungarian (`hu`) is a production target.** `locales/hu/` holds the website UI
+catalogs and the Ruby track; more sources and tracks land as they are translated. The
+scripts run against that tree and against a fixture in `scripts/test.mjs`. Translations
+are written by `exercism/translator`.
 [CLAUDE.md](./CLAUDE.md) says exactly what is real, what is stubbed, and which decisions
 are still open.
 
