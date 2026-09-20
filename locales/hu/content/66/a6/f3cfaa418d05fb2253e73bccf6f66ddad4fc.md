@@ -1,0 +1,3 @@
+# Operátorok
+
+Dokumentáció az operátorokról
