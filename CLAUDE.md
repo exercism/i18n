@@ -24,7 +24,9 @@ real, what is stubbed" before assuming anything works end to end.
 - **Not the home of English.** English is authored in the source repos and read from
   checkouts of them, through git objects. See [ENGLISH-SOURCE.md](./ENGLISH-SOURCE.md).
 - **Not where translation happens.** No script here calls an LLM. DeepSeek translates every
-  language, from a separate Exercism translator repo that does not exist yet.
+  language, from `exercism/translator`, which reads this repo's scripts and writes into
+  `locales/`. `.github/workflows/translate-on-issue.yml` is the whole of this side of it:
+  one dispatch carrying an issue number.
 - **Not a review site.** There is no public review site for Exercism. Everything of Jiki's
   that rendered HTML was left behind.
 
@@ -208,17 +210,24 @@ of `exercism/website` and of a real PR's merge ref.
 Stubbed or absent:
 
 - **The workflows have never run.** They parse as YAML and their data paths were rehearsed
-  locally. The two secrets they name exist: `EXERCISM_I18N_ISSUES_PAT` (an organisation
+  locally. Two of the secrets they name exist: `EXERCISM_I18N_ISSUES_PAT` (an organisation
   secret, Issues read/write on this repo only, owned by iHiD, so queue issues are authored
   by `iHiD`) and `EXERCISM_SOURCE_REPOS_ACTIONS_PAT` (a secret on this repo, Actions
   read/write and Pull requests read on the source repos).
-- **No translation pass exists** for this repo, so nothing has ever written to `locales/`.
+  `EXERCISM_TRANSLATOR_DISPATCH_PAT`, which `translate-on-issue.yml` needs, is still to be
+  created: a fine-grained PAT with Contents read/write on `exercism/translator` and nothing
+  else. Without it that workflow says so and exits 0.
 
 ## Open questions (do not answer these by accident)
 
 Each is marked `TODO(iHiD): OPEN` where the code would change.
 
-1. **Whether a runner here translates automatically on issue-open.** Nothing does.
+1. ~~**Whether a runner here translates automatically on issue-open.**~~ **Answered: yes,
+   and the runner is not here.** `translate-on-issue.yml` hands the issue number to
+   `exercism/translator` with one `repository_dispatch`, and that repo translates, pushes
+   here and closes the issue. No script here calls an LLM, and the gate is unchanged: the
+   issue must be opened by `iHiD`, carry the `translation` label and be titled
+   `Translate exercism/...`. The translator repo verifies all of it again for itself.
 2. **Who may trigger an issue.** `i18n-queue.yml` ships a placeholder gate.
 3. **Whether a human-navigable symlink tree exists beside the blob-id store.** None does.
 4. **Which content types and locales are in scope for launch.** Every content type is

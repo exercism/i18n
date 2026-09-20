@@ -25,7 +25,9 @@ the workflow filename `i18n-completeness.yml`.
    translations yet. With the check required, the PR cannot merge.
 4. Translations land on `main` here, for every locale in `locales.json` `productionTargets`.
    The issue is closed. That push is the deploy: the website pulls its checkout of this
-   repo and serves the new files.
+   repo and serves the new files. Both happen on their own:
+   `.github/workflows/translate-on-issue.yml` dispatches `exercism/translator`, which does
+   the translating, the pushing and the closing.
 5. `rerun-source-check.yml` here re-runs the PR's failed check, which now passes.
 
 ## Fork safety
@@ -73,10 +75,12 @@ units (`concept:hashes:name`, `concept:hashes:blurb`, `exercise:gross-store:name
       `rerun-source-check.yml` cannot re-run its check.
 - [ ] TODO(iHiD): OPEN. Who may trigger an issue. `i18n-queue.yml` ships with a placeholder
       gate (the PR author is an owner, member or collaborator). See the TODO in its header.
-- [ ] TODO(iHiD): OPEN. Whether a runner in this repo translates automatically when an
-      issue opens. Nothing here does. If one is added it belongs in this repo's
-      `.github/workflows/`, triggered by `issues: opened` with the `translation` label, and
-      it calls the translator repo: no script here calls an LLM.
+- [x] ANSWERED. A runner does translate automatically when an issue opens, and it is not
+      here: `.github/workflows/translate-on-issue.yml` in this repo sends one
+      `repository_dispatch` to `exercism/translator` carrying the issue number, and that
+      repo translates, pushes to `main` here and closes the issue. No script here calls an
+      LLM. It needs `EXERCISM_TRANSLATOR_DISPATCH_PAT`, a repository secret here: a
+      fine-grained PAT with Contents read/write on `exercism/translator` only.
 - [ ] Decide how the templates reach the track repos. Exercism already syncs shared files
       to every track from `exercism/org-wide-files`; that is the natural carrier, and the
       "do not edit a copy" header on each template assumes something like it.

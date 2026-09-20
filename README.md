@@ -66,6 +66,11 @@ blocks its merge until this repo holds the translation for every locale in `loca
 workflows a source repo installs are in
 [source-repo-workflows/](./source-repo-workflows/README.md), and are safe for fork PRs.
 
+The queue is automated. `.github/workflows/translate-on-issue.yml` hands each new or
+rewritten issue to [`exercism/translator`](https://github.com/exercism/translator) as one
+`repository_dispatch` carrying the issue number, and that repo translates, pushes here and
+closes the issue. No script here calls an LLM.
+
 Nothing under `locales/` is ever deleted: `scripts/no-deletions.mjs` refuses it, and an
 `Allow-Deletions: <why>` commit trailer is the override.
 

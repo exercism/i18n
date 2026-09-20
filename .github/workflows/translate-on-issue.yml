@@ -1,0 +1,77 @@
+# Hand a translation issue to exercism/translator.
+#
+# This is the whole of the automated queue's inbound half. A PR in a source repo
+# opens (or rewrites) an issue here through that repo's i18n-queue workflow, and
+# this tells the translator repo an issue is waiting. Nothing else happens here:
+# no script in this repo calls an LLM, and the translations arrive as a push to
+# main from over there, which closes the issue, which re-runs the source PR's
+# completeness check (rerun-source-check.yml).
+#
+# One repository_dispatch call carrying ONE number. The translator repo reads the
+# issue itself, through the same guards its scripts already apply, so what is sent
+# cannot widen or redirect what it does.
+#
+# `edited` as well as `opened`, because one issue serves a PR for its whole life:
+# a later push to the PR rewrites the issue in place with a newer sha, and the new
+# sha is the one to translate.
+#
+# ## The issue is untrusted input
+#
+# This repo is public, so anybody can open an issue with any title, body or
+# label they can apply, exactly as for rerun-source-check.yml, whose reasoning
+# this follows. Three things bound it, and the payload carries none of the
+# issue's words:
+#
+#  - The job only runs for an issue OPENED BY iHiD (the owner of the PAT the
+#    source repos' workflows use), carrying the `translation` label, and titled
+#    `Translate exercism/...`. A label only someone with triage rights can apply.
+#  - The only thing sent is the issue number, checked here as digits and checked
+#    again over there. The translator repo fetches the issue itself and applies
+#    its own guards (author, label, an allowlisted repo, and a sha that belongs
+#    to that PR) before it translates anything.
+#  - The title and body reach this script only as an environment variable, are
+#    never interpolated into it, and are never sent anywhere.
+#
+# ## The token
+#
+# `EXERCISM_TRANSLATOR_DISPATCH_PAT` is a REPOSITORY secret here: a fine-grained
+# PAT with Contents read/write on exercism/translator and nothing else, which is
+# what `POST /repos/{owner}/{repo}/dispatches` requires. The default GITHUB_TOKEN
+# is scoped to this repo and cannot dispatch anywhere else.
+
+name: Translate on issue
+
+on:
+  issues:
+    types: [opened, edited]
+
+permissions: {}
+
+jobs:
+  dispatch:
+    if: ${{ github.event.issue.user.login == 'iHiD' && contains(github.event.issue.labels.*.name, 'translation') && startsWith(github.event.issue.title, 'Translate exercism/') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch translate-issue to exercism/translator
+        env:
+          GH_TOKEN: ${{ secrets.EXERCISM_TRANSLATOR_DISPATCH_PAT }}
+          ISSUE: ${{ github.event.issue.number }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "${GH_TOKEN:-}" ]; then
+            echo "EXERCISM_TRANSLATOR_DISPATCH_PAT is not configured; nothing was dispatched. See this workflow's header."
+            exit 0
+          fi
+
+          # Digits and nothing else. The number is the only thing that leaves
+          # this repo, and it is built into JSON by jq rather than by a string.
+          if [[ ! "$ISSUE" =~ ^[1-9][0-9]{0,8}$ ]]; then
+            echo "::error::Not an issue number."
+            exit 1
+          fi
+
+          jq -n --argjson issue "$ISSUE" '{event_type: "translate-issue", client_payload: {issue: $issue}}' \
+            | gh api -X POST repos/exercism/translator/dispatches --input -
+
+          echo "Dispatched translate-issue for #${ISSUE}."
