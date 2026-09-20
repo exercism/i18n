@@ -4021,6 +4021,21 @@
   "helpers": {
     "links": {
       "opens_in_new_window": "A hivatkozás új ablakban vagy lapon nyílik meg"
+    },
+    "meta_tags": {
+      "default_description": "Tanulj, gyakorolj, és kapj világszínvonalú mentorálást több mint 50 nyelven. 100%-ban ingyenes.",
+      "track": {
+        "title": "%{track_title} az Exercismen",
+        "description": "Válj profivá a(z) %{track_title} kurzusban %{num_exercises} feladat megoldásával. Utána pedig fejlődj tovább világszínvonalú csapatunk mentorálásával."
+      },
+      "concept": {
+        "title": "%{concept_name} a(z) %{track_title} kurzusban az Exercismen",
+        "description": "Sajátítsd el a(z) %{concept_name} fogalmat a(z) %{track_title} kurzusban %{num_exercises} feladat megoldásával, világszínvonalú csapatunk támogatásával."
+      },
+      "exercise": {
+        "title": "%{exercise_title} a(z) %{track_title} kurzusban az Exercismen",
+        "description": "Meg tudod oldani a(z) %{exercise_title} feladatot a(z) %{track_title} kurzusban? Fejleszd a(z) %{track_title} tudásodat világszínvonalú mentorcsapatunk támogatásával."
+      }
     }
   }
 }
