@@ -60,7 +60,8 @@
       "invalid_community_video_url": "Nem találtunk ehhez az URL-hez illeszkedő YouTube- vagy Vimeo-videót",
       "invalid_discussion_status": "A beszélgetés állapota érvénytelen",
       "training_data_code_tags_sample_locked": "Ezt a tanítási adatokhoz tartozó kódcímke-mintát valaki más zárolta.",
-      "could_not_generate_coupon_code": "Nem sikerült kuponkódot létrehozni"
+      "could_not_generate_coupon_code": "Nem sikerült kuponkódot létrehozni",
+      "invalid_locale": "Ezt a nyelvet nem szolgáljuk ki"
     }
   },
   "about": {
@@ -2819,6 +2820,14 @@
           "making_the_most_title": "Hogyan hozd ki a legtöbbet a mentorálásból"
         }
       }
+    },
+    "language_switcher": {
+      "label": "Válaszd ki a nyelvedet"
+    },
+    "locale_banner": {
+      "pre": "Ez az oldal %{current} nyelvű.",
+      "link": "Nézd meg %{offered} nyelven",
+      "dismiss": "Elvetés"
     }
   },
   "contributing": {

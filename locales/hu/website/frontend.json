@@ -2483,5 +2483,9 @@
   },
   "components/impact/chart-elements": {
     "numberOfStudentsLabel.noOfStudents": "Tanulók száma"
+  },
+  "components/settings/LanguageForm.tsx": {
+    "languageForm.language": "Nyelv",
+    "languageForm.instructions": "Válaszd ki, milyen nyelven szeretnéd látni az Exercismet."
   }
 }

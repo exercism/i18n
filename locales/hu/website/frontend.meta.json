@@ -1389,6 +1389,8 @@
     "components/settings/InsiderBenefitsForm.tsx:insiderBenefits.preferencesUpdated": "d1c0061a5061941228c71af5c405638b3a9e3540",
     "components/settings/InsiderBenefitsForm.tsx:insiderBenefits.successAlt": "51da4200abb928986170b996f71fb3dbeba71c1d",
     "components/settings/InsiderBenefitsForm.tsx:insiderBenefits.thanksForBeingInsider": "26c4a86e78a69e78340c17de5544694e36fd0521",
+    "components/settings/LanguageForm.tsx:languageForm.instructions": "ce42040fbbe0b2e2e067cce19f38c9507137f423",
+    "components/settings/LanguageForm.tsx:languageForm.language": "e7fa8fb1f70ca3537f1097c86ca7cab2229d80f3",
     "components/settings/PasswordForm.tsx:changePassword": "dd529cb38f31b3fb1c7a1316d1b09b632de2bb41",
     "components/settings/PasswordForm.tsx:changeYourPassword": "61116a63640a4b6d09a0c48bd0cadad8ca3db40e",
     "components/settings/PasswordForm.tsx:confirmNewPassword": "64c316172516ef9d24e15ff1d19dadb4104ce151",
