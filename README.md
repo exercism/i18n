@@ -1,16 +1,15 @@
 # Exercism i18n
 
-Exercism's translated output, and the scripts and GitHub Actions that check it.
+Exercism's translations, and the scripts and GitHub Actions that check them.
 
-**Status: Hungarian (`hu`) is a production target.** `locales/hu/` holds the website UI
-catalogs and the Ruby track; more sources and tracks land as they are translated. The
-scripts run against that tree and against a fixture in `scripts/test.mjs`. Translations
-are written by `exercism/translator`.
-[CLAUDE.md](./CLAUDE.md) says exactly what is real, what is stubbed, and which decisions
-are still open.
+Hungarian (`hu`) is in production. `locales/hu/` holds the website UI catalogs and the Ruby
+track, and more sources and tracks are added as they are translated. The scripts run against
+that tree and against a fixture in `scripts/test.mjs`. Translations are written by
+`exercism/translator`. [CLAUDE.md](./CLAUDE.md) describes what works today, what is stubbed,
+and which decisions are still open.
 
-English is never stored here. It is read from checkouts of the repos it is authored in,
-through git objects. See [ENGLISH-SOURCE.md](./ENGLISH-SOURCE.md).
+English is not stored here. The scripts read it as git objects from checkouts of the repos
+where it is written. See [ENGLISH-SOURCE.md](./ENGLISH-SOURCE.md).
 
 ## Layout
 
@@ -25,29 +24,29 @@ locales/<locale>/content/<ab>/<cd>/<rest>.<ext>
                                           comments, problem-specifications
 ```
 
-Content is keyed by the git blob id of its English file, so it has no staleness: an edit to
-English is a new blob id, which is a file that does not exist yet. Byte-identical English
-across fifty tracks is translated once.
+Content is keyed by the git blob id of its English file. Editing the English gives it a new
+blob id, so a translation never goes stale: the new blob id simply has no translation yet.
+English that is byte-identical across fifty tracks is translated once.
 
 Text that is not a whole file (an exercise's name and blurb, a track's key features, a docs
-page's title) is different: the website only ever shows the latest, so it lives in one keyed
-catalog per source repo, stamped per unit like the website catalogs. An edited blurb is
-detected per key and blocks its PR.
+page's title) is stored differently. The website only shows its latest version, so it lives
+in one keyed catalog per source repo, stamped per unit like the website catalogs. An edited
+blurb is detected per key and blocks its PR.
 
 ## How the website consumes this repo
 
-Pushing to `main` is the deploy. The website keeps a plain checkout of this repo on its EFS
-(at `<efs_repositories_mount_point>/i18n`, on `main`, sparse to the locales it serves),
-pulls it on every push through its webhook, and reads `locales/<locale>/...` straight from
-that tree, including the frontend catalog, which the website serves itself. The checked-out
-HEAD sha is the version it keys its caches on. There is no build, no upload and no copy
-in between: the layout above is the served layout.
+A push to `main` deploys. The website keeps a plain checkout of this repo on its EFS (at
+`<efs_repositories_mount_point>/i18n`, on `main`, sparse to the locales it serves), pulls it
+through a webhook on every push, and reads `locales/<locale>/...` directly from that
+checkout, including the frontend catalog, which the website serves itself. It keys its
+caches on the checked-out HEAD sha. There is no build, upload or copy step, so the layout
+above is exactly what the website reads.
 
 ## Quick start
 
 ```bash
 pnpm install                                  # one dependency: yaml, to read Rails YAML
-pnpm test                                     # 51 assertions, including a fixture run of every script
+pnpm test                                     # the tests, including a fixture run of every script
 
 pnpm source:checkout                          # fetch exercism/website main (blobless, no working tree)
 node scripts/build-english.mjs                # flatten its English into .build/english/{backend,frontend}.json
@@ -56,25 +55,24 @@ node scripts/coverage.mjs --content-repos=../ruby,../docs
 node scripts/completeness.mjs --source-repo=../ruby --locales=<locale>
 ```
 
-A sibling `../website` is found automatically and read at `origin/main`, never at whatever
-branch is checked out. `--source-repo=<path>` and `--source-ref=<ref>` override both.
+A sibling `../website` checkout is found automatically and read at `origin/main`, whichever
+branch it has checked out. `--source-repo=<path>` and `--source-ref=<ref>` override both.
 
 ## How work arrives
 
-A PR in any repo that holds English opens an issue here once a maintainer adds the
-`ready-to-translate` label to it. That PR's `i18n completeness` check
-blocks its merge until this repo holds the translation for every locale in `locales.json`
-`productionTargets`, for new text and for edits. Closing the issue re-runs the check. The two
-workflows a source repo installs are in
-[source-repo-workflows/](./source-repo-workflows/README.md), and are safe for fork PRs.
+When a maintainer adds the `ready-to-translate` label to a PR in a repo that holds English,
+an issue is opened here. The PR's `i18n completeness` check blocks its merge until this repo
+holds the translation for every locale in `locales.json` `productionTargets`, for new and
+edited text. Closing the issue re-runs the check. The two workflows a source repo installs
+are in [source-repo-workflows/](./source-repo-workflows/README.md), and both are safe for
+fork PRs.
 
-The queue is automated. `.github/workflows/translate-on-issue.yml` hands each new or
-rewritten issue to [`exercism/translator`](https://github.com/exercism/translator) as one
-`repository_dispatch` carrying the issue number, and that repo translates, pushes here and
-closes the issue. No script here calls an LLM.
+`.github/workflows/translate-on-issue.yml` sends each new or updated issue to
+[`exercism/translator`](https://github.com/exercism/translator) as a `repository_dispatch`
+carrying the issue number. That repo translates, pushes here and closes the issue. No script
+in this repo calls an LLM.
 
-Nothing under `locales/` is ever deleted: `scripts/no-deletions.mjs` refuses it, and an
-`Allow-Deletions: <why>` commit trailer is the override.
+Nothing under `locales/` is deleted. `scripts/no-deletions.mjs` fails on any removal unless a
+commit in the range has an `Allow-Deletions: <why>` trailer.
 
-`node scripts/<name>.mjs --help` is not implemented. Each script's header comment is its
-documentation.
+The scripts have no `--help`. Each script's header comment is its documentation.

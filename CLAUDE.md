@@ -1,35 +1,34 @@
 # Exercism i18n - Agent Instructions
 
-This repo holds **Exercism's translated output**, and the scripts and GitHub Actions that
-check it. It was forked, in structure and idiom, from Jiki's `i18n` repo.
-Exercism and Jiki are fully separate: nothing is shared, and nothing here should reach for
-Jiki's repo, tooling or data.
+This repo holds Exercism's translations, and the scripts and GitHub Actions that check them.
+Its structure and conventions were copied from Jiki's `i18n` repo, but the two are fully
+separate: nothing here should use Jiki's repo, tooling or data.
 
-**Status: Hungarian (`hu`) is a production target**, holding the website UI catalogs and the
-Ruby track; other sources and tracks land as they are translated. Every script runs against
-that tree and against a fixture in `scripts/test.mjs`. Read "What is real, what is stubbed"
-before assuming anything works end to end.
+Hungarian (`hu`) is a production target. `locales/hu/` holds the website UI catalogs and the
+Ruby track, and other sources and tracks are added as they are translated. Every script runs
+against that tree and against a fixture in `scripts/test.mjs`. Read "What is real, what is
+stubbed" before assuming anything works end to end.
 
-## What this repo is
+## What this repo does
 
-- **The home of every non-English string Exercism ships.** The website's UI strings and
-  every piece of git-sourced content (exercises, concepts, track docs, the docs repo, the
-  blog, analyzer comments, problem-specifications), in every target locale.
-- **The checker of those translations** (`validate`), and the answer to "may this English
-  merge yet?" for every source repo (`completeness`).
-- **What the website serves.** The website reads translations straight from a checkout of
+- **Holds every non-English string Exercism ships**: the website's UI strings and all
+  git-sourced content (exercises, concepts, track docs, the docs repo, the blog, analyzer
+  comments, problem-specifications), for every target locale.
+- **Checks those translations** (`validate`), and tells each source repo whether a PR's
+  English may merge yet (`completeness`).
+- **Supplies the website's translations.** The website reads them directly from a checkout of
   this repo, so `main` is production. See "How the website consumes this repo".
 
-## What this repo is not
+## What this repo does not do
 
-- **Not the home of English.** English is authored in the source repos and read from
-  checkouts of them, through git objects. See [ENGLISH-SOURCE.md](./ENGLISH-SOURCE.md).
-- **Not where translation happens.** No script here calls an LLM. DeepSeek translates every
-  language, from `exercism/translator`, which reads this repo's scripts and writes into
-  `locales/`. `.github/workflows/translate-on-issue.yml` is the whole of this side of it:
-  one dispatch carrying an issue number.
-- **Not a review site.** There is no public review site for Exercism. Everything of Jiki's
-  that rendered HTML was left behind.
+- **Store English.** English is written in the source repos and read from checkouts of them
+  as git objects. See [ENGLISH-SOURCE.md](./ENGLISH-SOURCE.md).
+- **Translate.** No script here calls an LLM. DeepSeek translates every language from
+  `exercism/translator`, which uses this repo's scripts and writes into `locales/`. On this
+  side, `.github/workflows/translate-on-issue.yml` sends it one dispatch per issue, carrying
+  the issue number.
+- **Host a review site.** Exercism has no public review site, and none of Jiki's HTML
+  rendering was brought over.
 
 ## Directory structure
 
@@ -41,22 +40,22 @@ locales/<locale>/
   website/backend.meta.json      per-unit staleness stamps, written by validate --stamp
   website/frontend.json          i18next strings: { "<namespace>": { "<key>": "..." } }
   website/frontend.meta.json
-  metadata/<repo>.json           names, titles, blurbs of ONE source repo, flat, keyed by slug
+  metadata/<repo>.json           names, titles, blurbs of one source repo, flat, keyed by slug
   metadata/<repo>.meta.json      per-unit stamps, as for the website catalogs
   content/<ab>/<cd>/<rest>.<ext> one file per English git blob id, source extension kept
 scripts/                         see "Scripts"
 .github/workflows/               this repo's own workflows
-source-repo-workflows/           TEMPLATES a source repo installs; they do not run here
+source-repo-workflows/           templates installed in source repos; they do not run here
 .source/  .build/                gitignored: source fetches, flattened English
 ```
 
 ## The three stores
 
-### Website UI strings: exactly two catalogs per locale
+### Website UI strings: two catalogs per locale
 
-English stays as many files in `website` (125 YAML files and about 205 bundles at
-`102577eb`). `scripts/lib/website-english.mjs` flattens it into two catalogs, and the
-checker and a pass work against those:
+English stays split over many files in `website` (125 YAML files and about 205 bundles at
+`102577eb`). `scripts/lib/website-english.mjs` flattens it into two catalogs, and the checker
+and translation passes work against those:
 
 | | backend | frontend |
 | --- | --- | --- |
@@ -66,28 +65,29 @@ checker and a pass work against those:
 | Plural group | nested `one:` / `other:` | `_one` / `_other` suffix, `_ordinal_` for ordinals |
 | Markup | HTML in `_html` keys | `<Trans>` tags: `<0>`, `<strong>`, `<trackTitle>` |
 
-- **Parity is by UNIT, never by leaf.** A unit is an ordinary key or a whole plural group.
-  A target language legitimately holds different plural keys from English: Polish needs
-  `one/few/many/other`, Japanese `other` alone. A group is complete when the locale holds
-  every category ITS OWN grammar reaches (`Intl.PluralRules`), whatever English holds.
-  `zero` is always allowed. There is no per-language table and there must never be one.
-- **Excess is never an error; absence always is.** A key English lacks is a WARN that names
-  it. Translation runs ahead of English merging, so this repo is routinely a superset.
-- **Missing is an ERROR only for a production locale**, and under `validate --complete`.
-  For any other locale it is a counted state.
-- **Staleness is per unit and never an error here.** A sibling `.meta.json` stamps each unit
-  with the hash of the English it was checked against. The states are `done`, `stale`,
-  `unstamped`, `missing`. What holds an English EDIT to account is the source PR's
-  completeness check, not this repo's CI.
-- **Stamps are written by `validate --stamp`, never by hand.** A hand-written stamp looks
-  like a passed check and is not one, and models fabricate plausible hashes. `--stamp`
-  stamps unstamped units that passed. A STALE unit is re-stamped only when named in
-  `--stamp-units`, because nothing can tell "retranslated" from "untouched".
+- **Parity is counted by unit.** A unit is an ordinary key or a whole plural group. A target
+  language often needs different plural keys from English: Polish needs `one/few/many/other`,
+  Japanese only `other`. A group is complete when the locale holds every category its own
+  grammar uses (`Intl.PluralRules`), whatever English holds. `zero` is always allowed. There
+  is no per-language table, and one should not be added.
+- **Extra keys are never an error.** A key English does not have is a WARN that names it.
+  Translation runs ahead of English merging, so this repo often holds keys English does not
+  have yet.
+- **A missing unit is an error only for a production locale**, or under `validate
+  --complete`. For any other locale it is counted.
+- **Staleness is counted per unit and is never an error here.** A sibling `.meta.json` stamps
+  each unit with the hash of the English it was checked against. The states are `done`,
+  `stale`, `unstamped` and `missing`. English edits are caught by the source PR's completeness
+  check, outside this repo's CI.
+- **Stamps are written by `validate --stamp`, never by hand.** A hand-written stamp looks like
+  a passed check without being one, and models invent plausible hashes. `--stamp` stamps
+  unstamped units that pass. A stale unit is only re-stamped when it is listed in
+  `--stamp-units`, because the script cannot tell a retranslated unit from an untouched one.
 - **The website's own `hu:` and `nl:` trees are not migrated.** `config/locales/pages/track.yml`
-  holds Hungarian and Dutch beside `en:`. The build reads the `en:` root only, and that is
-  the decision, not a gap: both languages will be redone from scratch with the current
-  engine. Nothing is to be copied from there into `locales/`.
-- **Exclusions live in `website-exclusions.json`** and bind on both sides: an excluded key is
+  holds Hungarian and Dutch beside `en:`. The build reads only the `en:` root. This is
+  deliberate: both languages will be translated again from scratch with the current engine,
+  so nothing from those trees is copied into `locales/`.
+- **Exclusions live in `website-exclusions.json`** and apply to both sides: an excluded key is
   not required, counted or checked.
 
 ### Git-sourced content: keyed by the blob id of the English file
@@ -95,152 +95,154 @@ checker and a pass work against those:
 `locales/<locale>/content/<ab>/<cd>/<rest-of-blob-id>.<ext>`. One file per locale per blob
 id, shared by every track with byte-identical English.
 
-- **There is no staleness, no stamp and no `en_md5`.** A blob id names exact bytes forever.
-  `validate` errors on a content file that carries an `en_md5`.
-- **Completeness is "does a file exist for this blob id"**, a directory lookup. It needs
-  trees only, never English bytes.
-- **The path says nothing about where the English came from**, on purpose.
-- **A file whose own blob id equals the id it is filed under is copied English.** Exact, and
-  needs no source repo. It is a WARN, because a page with nothing to translate is
+- **No staleness, no stamp and no `en_md5`.** A blob id always names the same bytes.
+  `validate` errors on a content file that has an `en_md5`.
+- **Completeness is a directory lookup**: does a file exist for this blob id? It needs trees
+  only, never English bytes.
+- **The path does not record where the English came from.** This is deliberate, so that
+  identical English in different repos shares one file.
+- **A file whose own blob id equals the id it is filed under is copied English.** The check is
+  exact and needs no source repo. It is a WARN, because a page with nothing to translate is
   legitimately identical.
-- **`scripts/lib/content-types.mjs` is the one place a path pattern lives.** A type is a
-  pattern within a KIND of repo, so one entry covers all eighty tracks.
-- **The `docs`, `blog` and `website-copy` patterns are VERIFIED** against the real trees and
-  against how the website ingests each, and the registry records the commit, the match
-  counts and what is deliberately left out. `docs` is one type per served section (212
-  served pages, plus 3 unlisted files the patterns over-match); `blog` is exact (54 posts,
-  13 stories); `analyzer-comments` is exact (519). Analyzer comments carry `%{name}`
-  tokens the website interpolates, so `validate` holds a content file to its English's.
-  The track and `problem-specifications` patterns have NOT had the same check.
+- **`scripts/lib/content-types.mjs` holds every path pattern.** A type is a pattern within a
+  kind of repo, so one entry covers all eighty tracks.
+- **The `docs`, `blog` and `website-copy` patterns have been verified** against the real trees
+  and against how the website loads each, and the registry records the commit, the match
+  counts and what is left out on purpose. `docs` has one type per served section (212 served
+  pages, plus 3 unlisted files the patterns also match); `blog` is exact (54 posts, 13
+  stories); `analyzer-comments` is exact (519). Analyzer comments contain `%{name}` tokens that
+  the website fills in, so `validate` checks that a content file keeps its English's tokens.
+  The track and `problem-specifications` patterns have not been checked this way.
 
 ### Names, titles and blurbs: one keyed catalog per source repo
 
 `locales/<locale>/metadata/<repo>.json`, where `<repo>` is the GitHub repo's name (`ruby`,
-`problem-specifications`, `docs`, `blog`). This is the text that is NOT a whole file: it
-sits inside `config.json` and `metadata.toml` among data. `scripts/lib/metadata.mjs` owns
+`problem-specifications`, `docs`, `blog`). This is text that sits among data inside
+`config.json` and `metadata.toml`, so it is not a whole file. `scripts/lib/metadata.mjs` owns
 the extraction, the keys and the reasoning.
 
-- **Keyed, not hashed, and that is decided (iHiD).** The website syncs this text into
-  database columns and only ever shows the latest, so an old version never needs serving.
-  It is a catalog like the website's: same checker, same per-unit stamps, same four
-  states. An EDITED blurb is a stale unit and blocks its PR.
-- **Flat on disk**, `{ "<key>": "<translation>" }`, because keys carry slugs and a docs
-  slug contains `/`.
+- **Keyed by slug (decided by iHiD).** The website copies this text into database columns and
+  only shows the latest version, so an old version never needs serving. It works like the
+  website catalogs: same checker, same per-unit stamps, same four states. An edited blurb is a
+  stale unit and blocks its PR.
+- **Flat on disk**, `{ "<key>": "<translation>" }`, because keys contain slugs and a docs slug
+  can contain `/`.
 - **Keys are slugs, never positions**: `track:blurb`, `key_feature:<icon>:title|content`,
   `exercise:<slug>:name|blurb|source`, `concept:<slug>:name|blurb`, `doc:<slug>:title|blurb`;
   `exercise:<slug>:title|blurb|source|deep_dive_blurb` for problem-specifications;
   `<section>:<slug>:title|blurb` for docs; `post:<slug>:title|description|marketing_copy`
-  and `story:<slug>:title|blurb` for the blog. Reordering changes nothing.
-- **A renamed or removed exercise deletes nothing.** A rename is new keys, required like any
-  new text. The old keys stay in every locale, inert, reported as "key not in English".
-- **Only what a user is shown**, each field traced through the website's ingest at
-  `origin/main` and listed in `metadata.mjs`. Never uuids, slugs, paths, URLs, authors,
-  icons or file lists. Not the track's `language` (a proper name) and not its `tags`
-  (codes; the words come from `Track::TAGS` in the website's own Ruby). Only exercises and
-  concepts the track's `config.json` LISTS, because the website syncs nothing else.
-- **English lives in that repo**, so `validate` checks `metadata/ruby.json` against English
-  only when `--content-repos` names a checkout called `ruby`. Otherwise the catalog is
-  shape-checked and reported `unv` (unverified), never `ok`. CI fetches each repo some
+  and `story:<slug>:title|blurb` for the blog. Reordering a file changes nothing.
+- **A renamed or removed exercise deletes nothing.** A rename creates new keys, required like
+  any new text. The old keys stay in every locale, unused, reported as "key not in English".
+- **Only text a user sees.** Each field was traced through the website's ingest at
+  `origin/main` and is listed in `metadata.mjs`. Uuids, slugs, paths, URLs, authors, icons and
+  file lists are never extracted. Neither is the track's `language` (a proper name) or its
+  `tags` (codes; the words come from `Track::TAGS` in the website's Ruby). Only exercises and
+  concepts listed in the track's `config.json` are included, because the website syncs
+  nothing else.
+- **English lives in the source repo**, so `validate` checks `metadata/ruby.json` against
+  English only when `--content-repos` names a checkout called `ruby`. Otherwise the catalog is
+  shape-checked and reported as `unv` (unverified), never `ok`. CI fetches each repo that some
   locale holds a catalog for.
-- **Deduplication across tracks is the translator's job, not this repo's.** 323 of ruby's
-  427 units have English that also appears in problem-specifications. The format makes
-  reuse cheap: a stamp is the blob id of the English string, so identical English has an
-  identical stamp in every `*.meta.json`.
-- **Real sizes** (2026-09): ruby 427 units from 155 files, problem-specifications 439 from
-  151, docs 259 from 5, blog 134 from 1.
+- **Deduplication across tracks is left to the translator.** 323 of ruby's 427 units have
+  English that also appears in problem-specifications. A stamp is the blob id of the English
+  string, so identical English has the same stamp in every `*.meta.json`, which makes reuse a
+  hash lookup.
+- **Sizes** (2026-09): ruby 427 units from 155 files, problem-specifications 439 from 151,
+  docs 259 from 5, blog 134 from 1.
 
-## Nothing under `locales/` is ever deleted
+## Nothing under `locales/` is deleted
 
-`scripts/no-deletions.mjs` and `no-deletions.yml` refuse any removed file or key, on PRs and
-on pushes to `main`. This repo must be a superset of every source repo's `main` AND every
-one of their open PRs. An `Allow-Deletions: <why>` commit trailer is the override.
-Stamp files (`*.meta.json`) are exempt: they are regenerated, not authored.
+`scripts/no-deletions.mjs` and `no-deletions.yml` fail on any removed file or key, on PRs and
+on pushes to `main`. This repo has to hold everything needed by every source repo's `main`
+and by all of their open PRs. An `Allow-Deletions: <why>` commit trailer overrides the check.
+Stamp files (`*.meta.json`) are exempt because they are generated.
 
 ## Production locales
 
-`locales.json` `productionTargets` is an explicit list. It is what `validate` exits non-zero
-on and what `completeness` holds a source repo's PR to. **It holds `hu`.** Unlike in Jiki's
-repo an empty list is legitimate here (it was, until hu went in), so every gating script
-accepts it and prints `NOTHING GATES` when it is. A missing or malformed list, or
-a locale `targets` does not know, is still fatal.
+`locales.json` `productionTargets` is an explicit list. `validate` exits non-zero on errors in
+these locales, and `completeness` holds source repo PRs to them. It currently holds `hu`. An
+empty list is allowed here (unlike in Jiki's repo; this list was empty until `hu` was added),
+and every gating script accepts it and prints `NOTHING GATES` when it is empty. A missing or
+malformed list, or a locale that `targets` does not include, is still fatal.
 
 ## Scripts
 
-All Node ESM, dependency-free with one exception: `yaml`, loaded lazily and only to read
-the website's Rails YAML. The package manager is pnpm, pinned in `package.json`. Each
-script's header comment is its documentation; read it before changing one. `--help` is not
-implemented.
+All Node ESM with no dependencies except `yaml`, which is loaded lazily and only to read the
+website's Rails YAML. The package manager is pnpm, pinned in `package.json`. Each script's
+header comment is its documentation, so read it before changing the script. There is no
+`--help`.
 
 | Script | What it does |
 | --- | --- |
-| `build-english.mjs` | The flattening step. Writes `.build/english/{backend,frontend,arrays,source}.json` for a pass to read, or with `--content-repos` one `.build/english/metadata/<repo>.json` per repo. The other scripts call the same builder directly and never read those files. |
-| `validate.mjs` | The checker. Catalog unit parity, plural groups, placeholders, tags, whitespace; content path shape, UTF-8, JSON, no stamps, copied English, and structure against English when `--content-repos` can find it. Stamps with `--stamp`. Exits 1 on an ERROR in a production locale; `--gate=all` and `--complete` widen that. |
-| `completeness.mjs` | The blocking check for ONE source repo: full, or relative to `--base`. Content by blob id; website and metadata by unit and stamp, so an edited key or blurb blocks. |
-| `english-changes.mjs` | The queue's reader: turns GitHub's PR file list (paths and blob shas) into the issue's table. For a changed `config.json` or `metadata.toml` it names the KEYS whose English changed, from the two versions of that file fetched by blob id. With `--push`, says whether one push to a queued PR changed the PR's English, from the two commits' trees. Takes API responses, never a checkout. |
-| `coverage.mjs` | Per-locale unit counts (website and metadata) and blob coverage for the repos named. Reports, never gates, always exits 0. |
-| `no-deletions.mjs` | Refuses a removed file or key under `locales/` between two refs. |
-| `source-checkout.mjs` | Fetches a source repo into `.source/`, shallow, blobless, no working tree. |
-| `test.mjs` | Plain `node:assert`. Pure assertions, then a fixture of real git repos that every script is run over. |
+| `build-english.mjs` | Flattens the website's English. Writes `.build/english/{backend,frontend,arrays,source}.json` for a translation pass to read, or with `--content-repos` one `.build/english/metadata/<repo>.json` per repo. The other scripts call the same builder directly and do not read these files. |
+| `validate.mjs` | The checker. Catalogs: unit parity, plural groups, placeholders, tags, whitespace. Content: path shape, UTF-8, JSON, no stamps, copied English, and structure against English when `--content-repos` provides it. Writes stamps with `--stamp`. Exits 1 on an ERROR in a production locale; `--gate=all` and `--complete` widen that. |
+| `completeness.mjs` | The blocking check for one source repo, in full or relative to `--base`. Content is checked by blob id, website and metadata units by presence and stamp, so an edited key or blurb blocks. |
+| `english-changes.mjs` | Used by the queue. Turns GitHub's PR file list (paths and blob shas) into the issue's table. For a changed `config.json` or `metadata.toml` it lists the keys whose English changed, using both versions of the file fetched by blob id. With `--push` it reports whether one push to a queued PR changed the PR's English, using the two commits' trees. It reads API responses, never a checkout. |
+| `coverage.mjs` | Per-locale unit counts (website and metadata) and blob coverage for the named repos. Reports only, and always exits 0. |
+| `no-deletions.mjs` | Fails on a removed file or key under `locales/` between two refs. |
+| `source-checkout.mjs` | Fetches a source repo into `.source/`: shallow, blobless, no working tree. |
+| `test.mjs` | Plain `node:assert`. Unit assertions, then a fixture of real git repos that every script is run against. |
 
-- **Errors block; warnings never do.** WARN checks are heuristics that false-positive by
-  design. Read one; never promote one.
+- **Errors block; warnings never do.** WARN checks are heuristics and are expected to flag
+  some correct text. Read them, and never turn one into an error.
 - **`EXERCISM_I18N_ROOT`** points the scripts at another tree. It exists for `test.mjs`.
 
 ## How the website consumes this repo
 
-**Pushing to `main` is the deploy.** The website keeps a plain checkout of this repo on its
-EFS, at `<efs_repositories_mount_point>/i18n`, on `main` and sparse to the locales it
-serves. Its webhook pulls that checkout on every push here, and it reads
-`locales/<locale>/...` straight from the tree. The frontend catalog is served by the
-website from that tree too. The checked-out HEAD sha is the version the website keys its
-caches on. There is no build step, no upload and no intermediate copy: the on-disk layout
-under `locales/` (see "Directory structure") IS the served layout, which is why nothing
-here may move a file or change a shape without the website changing with it.
+**A push to `main` deploys.** The website keeps a plain checkout of this repo on its EFS, at
+`<efs_repositories_mount_point>/i18n`, on `main` and sparse to the locales it serves. Its
+webhook pulls that checkout on every push here, and it reads `locales/<locale>/...` directly
+from it, including the frontend catalog. The website keys its caches on the checked-out HEAD
+sha. There is no build step, upload or intermediate copy, so the layout under `locales/` (see
+"Directory structure") is exactly what the website reads. Moving a file or changing a file's
+shape needs a matching change in the website.
 
-Nothing is deployed selectively. Whatever is on `main` is what the website has, for every
-locale, complete or not. Strictness lives elsewhere: `validate` gates what may land for a
-production locale, the source repos' completeness check gates what English may merge, and
-the website decides which locales it serves.
+Everything on `main` is deployed, for every locale, complete or not. The checks sit
+elsewhere: `validate` controls what may land for a production locale, each source repo's
+completeness check controls what English may merge, and the website decides which locales it
+serves.
 
 ## What is real, what is stubbed
 
-Real and exercised: everything in the Scripts table, against a fixture and (read-only)
-against the real `website`, `ruby`, `docs` and `problem-specifications`; the blobless fetch
-of `exercism/website` and of a real PR's merge ref.
+Working and tested: everything in the Scripts table, against a fixture and (read-only)
+against the real `website`, `ruby`, `docs` and `problem-specifications`; the blobless fetch of
+`exercism/website` and of a real PR's merge ref.
 
-Stubbed or absent:
+Not done yet:
 
-- **The loop runs in one source repo.** `exercism/website-copy` has both templates
-  installed and `completeness` required on `main`; the full loop (queue, translate-on-issue,
-  the translator, rerun-source-check, and every label and push path) was piloted there live
-  on 2026-09-21. Every other source repo has neither template. All three secrets exist:
-  `EXERCISM_I18N_ISSUES_PAT` (an organisation secret, Issues read/write on this repo only,
+- **The loop runs in one source repo.** `exercism/website-copy` has both templates installed
+  and `completeness` required on `main`. The full loop (queue, translate-on-issue, the
+  translator, rerun-source-check, and every label and push path) was tested there live on
+  2026-09-21. No other source repo has either template yet. All three secrets exist:
+  `EXERCISM_I18N_ISSUES_PAT` (an organisation secret with Issues read/write on this repo only,
   owned by iHiD, so queue issues are authored by `iHiD`), `EXERCISM_SOURCE_REPOS_ACTIONS_PAT`
-  (a secret on this repo, Actions read/write and Pull requests read on the source repos) and
-  `EXERCISM_TRANSLATOR_DISPATCH_PAT` (Contents read/write on `exercism/translator`).
+  (a secret on this repo, with Actions read/write and Pull requests read on the source repos)
+  and `EXERCISM_TRANSLATOR_DISPATCH_PAT` (Contents read/write on `exercism/translator`).
 
-## Open questions (do not answer these by accident)
+## Open questions
 
-Each is marked `TODO(iHiD): OPEN` where the code would change.
+Do not settle these as a side effect of other work. Each is marked `TODO(iHiD): OPEN` in the
+code it would change.
 
-1. ~~**Whether a runner here translates automatically on issue-open.**~~ **Answered: yes,
-   and the runner is not here.** `translate-on-issue.yml` hands the issue number to
-   `exercism/translator` with one `repository_dispatch`, and that repo translates, pushes
-   here and closes the issue. No script here calls an LLM, and the gate is unchanged: the
-   issue must be opened by `iHiD`, carry the `translation` label and be titled
-   `Translate exercism/...`. The translator repo verifies all of it again for itself.
-2. ~~**Who may trigger an issue.**~~ **Answered: whoever adds the `ready-to-translate`
-   label to the source PR**, which takes triage rights there, on every PR including
-   maintainers' own. A later push that changes English takes the label off and closes the
-   issue as not planned. See `source-repo-workflows/README.md`.
-3. **Whether a human-navigable symlink tree exists beside the blob-id store.** None does.
-4. **Which content types and locales are in scope for launch.** Every content type is
-   live; `hu` is the one locale so far. Two scope calls are flagged in `content-types.mjs` and
-   deliberately not made: whether contributor-facing `building/` docs (155 of 212 pages)
-   and mentor-facing `mentoring/` docs are translated, and whether the learner-facing CLI
-   walkthrough (`website-copy` `walkthrough/index.html`, HTML not Markdown) is.
+1. ~~Whether a runner here translates automatically on issue-open.~~ Answered: yes, and the
+   runner is in `exercism/translator`. `translate-on-issue.yml` sends it the issue number
+   with one `repository_dispatch`, and it translates, pushes here and closes the issue. No
+   script here calls an LLM. The dispatch only happens for an issue opened by `iHiD`, with
+   the `translation` label and a title starting `Translate exercism/`, and the translator repo
+   checks all of that again itself.
+2. ~~Who may trigger an issue.~~ Answered: whoever adds the `ready-to-translate` label to the
+   source PR, which needs triage rights there. Every PR needs it, including maintainers' own.
+   A later push that changes English removes the label and closes the issue as not planned.
+   See `source-repo-workflows/README.md`.
+3. Whether a human-navigable symlink tree should exist beside the blob-id store. None does.
+4. Which content types and locales are in scope for launch. Every content type is live, and
+   `hu` is the only locale so far. Two scope decisions are flagged in `content-types.mjs` and
+   left open: whether the contributor-facing `building/` docs (155 of 212 pages) and the
+   mentor-facing `mentoring/` docs are translated, and whether the learner-facing CLI
+   walkthrough (`website-copy` `walkthrough/index.html`, which is HTML) is.
 
-(The two GitHub PATs are settled: see "What is real, what is stubbed".)
+(The PATs are settled: see "What is real, what is stubbed".)
 
 ## House rules
 
@@ -248,6 +250,6 @@ Each is marked `TODO(iHiD): OPEN` where the code would change.
 - Refer to the owner as **iHiD** in code, comments and commit messages.
 - **Never hand-write a stamp.** `validate --stamp` writes them.
 - **Never delete under `locales/`.** Add and update.
-- **Never make a warning an error.**
-- **Never store English here**, including as filler for an untranslated key. A missing
-  unit is simply missing.
+- **Never turn a warning into an error.**
+- **Never store English here**, including as filler for an untranslated key. A missing unit
+  stays missing.

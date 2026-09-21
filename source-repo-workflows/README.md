@@ -1,128 +1,128 @@
 # Source-repo workflow templates
 
-These two workflows do not run in this repo. They are the half of the translation loop that
-lives in every repo that holds English: `website`, `docs`, `blog`, `website-copy`,
-`problem-specifications`, and every track repo. They are kept here because they are part of
-the same loop as this repo's own workflows, call this repo's scripts, and have nowhere else
-to live yet.
+These two workflows do not run in this repo. They are installed in every repo that holds
+English: `website`, `docs`, `blog`, `website-copy`, `problem-specifications` and every track
+repo. They live here because they are part of the same loop as this repo's own workflows and
+call this repo's scripts.
 
 | Template | Installs as | Trigger | Holds a secret | Blocks a merge |
 | --- | --- | --- | --- | --- |
 | `i18n-queue.yml` | `.github/workflows/i18n-queue.yml` | `pull_request_target` (`labeled`, `unlabeled`, `synchronize`) | yes, `EXERCISM_I18N_ISSUES_PAT` | no |
 | `i18n-completeness.yml` | `.github/workflows/i18n-completeness.yml` | `pull_request` | no | yes, once made a required check |
 
-Keep the filenames. `rerun-source-check.yml` in this repo finds a PR's completeness run by
-the workflow filename `i18n-completeness.yml`.
+Keep the filenames. `rerun-source-check.yml` in this repo finds a PR's completeness run by the
+workflow filename `i18n-completeness.yml`.
 
 ## The loop
 
-1. A PR in a source repo changes English. `i18n-completeness.yml` fails on it, because
-   this repo does not hold the translations yet. With the check required, the PR cannot
-   merge.
-2. Once the copy is final, a maintainer adds the `ready-to-translate` label to the PR. That
-   is the only thing that queues a translation, whoever wrote the PR.
-3. `i18n-queue.yml` opens (or rewrites) an issue here at the PR's head commit:
-   `Translate exercism/<repo>#<n>: ...`, labelled `translation`, listing each changed
-   English file, its content type and the blob-id path its translation goes to, and for a
-   changed `config.json` or `metadata.toml` the metadata keys whose English changed.
-4. Translations land on `main` here, for every locale in `locales.json` `productionTargets`.
-   The issue is closed. That push is the deploy: the website pulls its checkout of this
-   repo and serves the new files. Both happen on their own:
-   `.github/workflows/translate-on-issue.yml` dispatches `exercism/translator`, which does
-   the translating, the pushing and the closing.
+1. A PR in a source repo changes English. `i18n-completeness.yml` fails because this repo does
+   not hold the translations yet. If the check is required, the PR cannot merge.
+2. When the copy is final, a maintainer adds the `ready-to-translate` label to the PR. Only
+   this label queues a translation, whoever opened the PR.
+3. `i18n-queue.yml` opens an issue here (or updates the open one) at the PR's head commit. It
+   is titled `Translate exercism/<repo>#<n>: ...`, labelled `translation`, and lists each
+   changed English file, its content type and the blob-id path for its translation. For a
+   changed `config.json` or `metadata.toml` it also lists the metadata keys whose English
+   changed.
+4. `.github/workflows/translate-on-issue.yml` dispatches `exercism/translator`, which
+   translates for every locale in `locales.json` `productionTargets`, pushes to `main` here
+   and closes the issue. The push also deploys: the website pulls its checkout of this repo
+   and serves the new files.
 5. `rerun-source-check.yml` here re-runs the PR's failed check, which now passes.
 
-While the label is on, every push to the PR is checked. A push that changes English, by
-anyone, takes the label off, comments on the PR asking a maintainer to re-apply it once the
-copy is final, and closes the open issue here as "not planned". A push that changes no
-English keeps the label, and if the issue is still open it is rewritten at the new head: a
-rebase or force-push can drop the old sha out of the PR, and the translator refuses a sha
-that is not a commit of the PR. Taking the label off by hand closes the issue the same way
-as an English change does. "Changes English" is decided by `scripts/english-changes.mjs
---push`, over the same registry as the issue itself, and only for files the PR touches, so
-merging `main` into the branch does not count.
+While the label is on, every push to the PR is checked. If a push changes English, whoever
+made it, the label is removed, a comment asks a maintainer to add it again once the copy is
+final, and the open issue here is closed as "not planned". If a push changes no English, the
+label stays and an open issue is updated to the new head, because a rebase or force-push can
+remove the old commit from the PR and the translator only accepts commits that are in the
+PR. Removing the label by hand closes the issue in the same way. Whether a push changes
+English is decided by `scripts/english-changes.mjs --push`, using the same registry as the
+issue, and only for files the PR touches, so merging `main` into the branch does not count.
 
-The issue is closed because an open issue is the translator's queue:
-`exercism/translator`'s retry sweep re-dispatches every open one, and it would translate a
-commit whose English is no longer the PR's. "Not planned" keeps it apart from a finished
-issue, and `rerun-source-check.yml` skips it. Re-applying the label opens a new issue at
-the new head.
+The issue is closed because `exercism/translator`'s retry sweep re-dispatches every open
+issue, and it would translate a commit whose English is no longer the PR's. Closing it as
+"not planned" separates it from a finished issue, and `rerun-source-check.yml` skips it.
+Adding the label again opens a new issue at the new head.
 
 ## Fork safety
 
-Most Exercism PRs come from forks, so both templates are written to one rule: **no job that
-holds a secret checks out or executes PR code, and no job executes PR code at all.**
+Most Exercism PRs come from forks. Neither template runs PR code, and neither checks it out.
 
-- `i18n-queue.yml` holds a secret and a token that can write to pull requests, so it runs
-  on `pull_request_target` and contains no checkout of the source repo at any ref. It
-  learns what changed from GitHub's "list pull request files" and compare APIs, which
-  return each file's path and git blob sha, plus commit trees and the two versions of each
-  changed metadata file, fetched BY BLOB ID through the blob API. All of it is API
-  responses, treated as untrusted data by `scripts/english-changes.mjs` and parsed as JSON
-  or flat TOML. Nothing is cloned. Its GITHUB_TOKEN is scoped per job: `pull-requests:
-  write` only in the job that takes the label off and comments, read everywhere else.
+- `i18n-queue.yml` holds a secret and a token that can write to pull requests, so it runs on
+  `pull_request_target` and never checks out the source repo. It reads what changed from
+  GitHub's "list pull request files" and compare APIs, which give each file's path and git
+  blob sha, plus commit trees and the two versions of each changed metadata file, fetched by
+  blob id through the blob API. `scripts/english-changes.mjs` treats all of it as untrusted
+  data and parses it only as JSON or flat TOML. Nothing is cloned. The GITHUB_TOKEN is scoped
+  per job: `pull-requests: write` only in the job that removes the label and comments, read
+  everywhere else.
 - `i18n-completeness.yml` holds no secret and runs on `pull_request` with a read-only token.
-  It fetches the PR's merge ref as git objects into a bare repository, with no working tree,
+  It fetches the PR's merge ref as git objects into a bare repository with no working tree,
   and reads it with `git ls-tree` and `git cat-file`. Website YAML and TypeScript bundles are
   parsed as data and never evaluated.
-- The only code either one executes is this repo's `scripts/`, at `main`.
+- The only code either one runs is this repo's `scripts/`, at `main`.
 
-Both templates hold no list of "what counts as English". That is
+Neither template has its own list of what counts as English. That list is
 `scripts/lib/content-types.mjs` and `scripts/lib/website-english.mjs`, read through the
-scripts, so the patterns cannot drift across eighty-five installed copies.
+scripts, so the eighty-five installed copies cannot drift apart.
 
 ## Where they run
 
 `exercism/website-copy` is the first source repo with both templates installed, and
-`completeness` is a required check on its `main`. The whole loop was piloted there live on
-2026-09-21, from a fork PR (`exercism/website-copy#2409`, closed unmerged): no label queues
-nothing; the label opens an issue that is translated, pushed and closed, and the PR's check
-goes green; a push that changes no English (including a rebase, a force-push and a merge of
-`main` that brings in English the PR does not touch) keeps the label and moves an open
-issue to the new head; a push that changes English, or taking the label off by hand, closes
-the open issue as not planned and re-runs nothing; re-applying the label completes the loop
-again. An issue above the translator's word cap stays open and waits for iHiD.
+`completeness` is a required check on its `main`. The whole loop was tested there live on
+2026-09-21 with a fork PR (`exercism/website-copy#2409`, closed unmerged):
 
-Every other source repo still has neither template.
+- With no label, nothing was queued.
+- Adding the label opened an issue, which was translated, pushed and closed, and the PR's
+  check went green.
+- A push that changed no English (including a rebase, a force-push, and a merge of `main`
+  bringing in English the PR does not touch) kept the label and moved the open issue to the
+  new head.
+- A push that changed English, or removing the label by hand, closed the open issue as not
+  planned and re-ran nothing.
+- Adding the label again completed the loop again.
+
+An issue above the translator's word cap stays open until iHiD deals with it.
+
+No other source repo has either template yet.
 
 ## Before installing
 
 - [x] Create the `translation` label in `exercism/i18n`. `gh issue create --label` fails
       without it.
-- [x] Credentials. Both exist, and both are fine-grained PATs:
-      `EXERCISM_I18N_ISSUES_PAT` is an ORGANISATION secret on `exercism`, visible to every
-      repo, owned by iHiD, with Issues read/write on `exercism/i18n` only (so the issues it
-      opens are authored by `iHiD`). `EXERCISM_SOURCE_REPOS_ACTIONS_PAT` is a REPOSITORY
-      secret on `exercism/i18n`, with Actions read/write and Pull requests read on the
-      source repos. A source repo added later must be added to the second PAT, or
-      `rerun-source-check.yml` cannot re-run its check.
-- [x] DECIDED. Who may trigger an issue: whoever adds the `ready-to-translate` label to the
-      PR, which takes triage rights on the source repo. Every PR needs it, maintainers'
-      own included.
-- [ ] Create the `ready-to-translate` label in each source repo. Without it nobody can
-      apply it and nothing is ever queued. It belongs in `exercism/org-wide-files`' label
-      list, which the org-wide label sync applies to every repo. That sync also PRUNES labels
-      it does not list, so a label created by hand in one repo is temporary until it is
-      listed there. `exercism/website-copy` has one created by hand, so it is in that state.
-- [x] ANSWERED. A runner does translate automatically when an issue opens, and it is not
-      here: `.github/workflows/translate-on-issue.yml` in this repo sends one
-      `repository_dispatch` to `exercism/translator` carrying the issue number, and that
-      repo translates, pushes to `main` here and closes the issue. No script here calls an
-      LLM. It needs `EXERCISM_TRANSLATOR_DISPATCH_PAT`, a repository secret here: a
-      fine-grained PAT with Contents read/write on `exercism/translator` only.
-- [ ] Decide how the templates reach the track repos. Exercism already syncs shared files
-      to every track from `exercism/org-wide-files`; that is the natural carrier, and the
-      "do not edit a copy" header on each template assumes something like it.
-- [ ] Make `completeness` a required status check on `main` in each source repo. Until it
-      is required it informs and does not block. Done in `exercism/website-copy`.
-- [ ] `productionTargets` holds `hu`, so once installed the completeness check fails on
-      every PR that changes English until the Hungarian translation lands here. It blocks
-      the merge only once it is a required check; until then it is a red mark on the PR.
+- [x] Credentials. Both exist as fine-grained PATs. `EXERCISM_I18N_ISSUES_PAT` is an
+      organisation secret on `exercism`, available to every repo, owned by iHiD, with Issues
+      read/write on `exercism/i18n` only, so the issues it opens are authored by `iHiD`.
+      `EXERCISM_SOURCE_REPOS_ACTIONS_PAT` is a repository secret on `exercism/i18n` with
+      Actions read/write and Pull requests read on the source repos. A source repo added
+      later must be added to this second PAT, or `rerun-source-check.yml` cannot re-run its
+      check.
+- [x] Decided: who may trigger an issue. Whoever adds the `ready-to-translate` label to the
+      PR, which needs triage rights on the source repo. Every PR needs it, maintainers' own
+      included.
+- [ ] Create the `ready-to-translate` label in each source repo. Without it nobody can apply
+      it and nothing is queued. It belongs in the label list in `exercism/org-wide-files`,
+      which the org-wide label sync applies to every repo. That sync also removes labels it
+      does not list, so a label created by hand in one repo can be removed until it is listed
+      there. `exercism/website-copy` has a hand-created one, so it is in that state.
+- [x] Answered: a runner translates automatically when an issue opens, in
+      `exercism/translator`. `.github/workflows/translate-on-issue.yml` in this repo sends it
+      one `repository_dispatch` carrying the issue number, and that repo translates, pushes to
+      `main` here and closes the issue. No script here calls an LLM. The dispatch uses
+      `EXERCISM_TRANSLATOR_DISPATCH_PAT`, a repository secret here: a fine-grained PAT with
+      Contents read/write on `exercism/translator` only.
+- [ ] Decide how the templates reach the track repos. Exercism already syncs shared files to
+      every track from `exercism/org-wide-files`, which is the obvious route, and the "do not
+      edit a copy" header on each template assumes something like it.
+- [ ] Make `completeness` a required status check on `main` in each source repo. Until it is
+      required it only informs. Done in `exercism/website-copy`.
+- [ ] `productionTargets` holds `hu`, so once installed the completeness check fails on every
+      PR that changes English until the Hungarian translation lands here. It only blocks the
+      merge once it is a required check; until then it shows as a failed check on the PR.
 
-## A full sweep is a separate question
+## Checking a whole repo
 
-The PR check is relative: it requires what the PR adds or edits, so a PR is never blocked
-by a backlog it did not create. Whether a whole repo is translated is
-`node scripts/completeness.mjs --source-repo=<checkout>` with no `--base`, which is the
-right thing to run on a schedule, or before adding a locale to `productionTargets`. No
-workflow does that yet.
+The PR check only requires what the PR adds or edits, so a PR is never blocked by a backlog
+it did not create. To check whether a whole repo is translated, run
+`node scripts/completeness.mjs --source-repo=<checkout>` with no `--base`. That is what to run
+on a schedule, or before adding a locale to `productionTargets`. No workflow does this yet.
