@@ -1382,7 +1382,8 @@
     "profileForm.juniorDeveloper": "Junior fejlesztő",
     "profileForm.midLevelDeveloper": "Középszintű fejlesztő",
     "profileForm.seniorDeveloper": "Senior fejlesztő",
-    "profileForm.successAlt": "Siker"
+    "profileForm.successAlt": "Siker",
+    "profileForm.language": "Nyelv"
   },
   "components/settings/PronounsForm.tsx": {
     "pronounsForm.howWouldYouLikeToBeAddressedOptional": "Hogyan szeretnéd, hogy megszólítsanak? (nem kötelező)",

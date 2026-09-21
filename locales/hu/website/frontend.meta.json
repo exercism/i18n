@@ -1404,6 +1404,7 @@
     "components/settings/ProfileForm.tsx:profileForm.bio": "442fa9635172b56845ffbdeba738cb69e4a72011",
     "components/settings/ProfileForm.tsx:profileForm.githubHandle": "bf20dc1ee64b9a48963e221641d3895e41f56311",
     "components/settings/ProfileForm.tsx:profileForm.juniorDeveloper": "633c994d5d3ac16e8c186b09f8733c1f1e07448d",
+    "components/settings/ProfileForm.tsx:profileForm.language": "e7fa8fb1f70ca3537f1097c86ca7cab2229d80f3",
     "components/settings/ProfileForm.tsx:profileForm.linkedInFullURL": "7f036379b8fa621d753150f5d0ee175dd4cdc7bf",
     "components/settings/ProfileForm.tsx:profileForm.location": "181e8b8134cd9c9ba7149d9ec2c28ff14957511b",
     "components/settings/ProfileForm.tsx:profileForm.midLevelDeveloper": "055b659561feb2b02dc15c431d861cfec515df1a",
