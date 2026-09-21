@@ -3094,6 +3094,10 @@
       "insiders_title": "Exercism Insiders",
       "paypal_cancelled_message": "A Paypal-fizetésedet törölték. Kérünk, próbáld újra.",
       "return_to_insiders": "Vissza az Insidershez"
+    },
+    "join": {
+      "title": "Legyél Insiders-tag",
+      "message_html": "Az Exercism adományokból működik. A havi <strong>$10</strong> adományoddal az Exercism mindenki számára ingyenes marad, és feloldja az AI-asszisztenst, a sötét módot, a reklámmentes élményt és még sok mást."
     }
   },
   "jiki": {
