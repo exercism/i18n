@@ -71,16 +71,19 @@ Both templates hold no list of "what counts as English". That is
 `scripts/lib/content-types.mjs` and `scripts/lib/website-english.mjs`, read through the
 scripts, so the patterns cannot drift across eighty-five installed copies.
 
-## Rehearsed, not run
+## Where they run
 
-Neither template has run in GitHub Actions: no source repo has them installed yet. What
-has been rehearsed locally, against a real public PR
-(`exercism/ruby#1809`), is each template's data path: the blobless bare fetch of
-`refs/pull/<n>/merge` followed by `completeness.mjs --head=FETCH_HEAD --base=FETCH_HEAD^1`,
-and `gh api --paginate .../pulls/<n>/files` followed by `english-changes.mjs`, including its
-two-pass blob fetch. Both found the same five English files and the same four metadata
-units (`concept:hashes:name`, `concept:hashes:blurb`, `exercise:gross-store:name`,
-`exercise:gross-store:blurb`).
+`exercism/website-copy` is the first source repo with both templates installed, and
+`completeness` is a required check on its `main`. The whole loop was piloted there live on
+2026-09-21, from a fork PR (`exercism/website-copy#2409`, closed unmerged): no label queues
+nothing; the label opens an issue that is translated, pushed and closed, and the PR's check
+goes green; a push that changes no English (including a rebase, a force-push and a merge of
+`main` that brings in English the PR does not touch) keeps the label and moves an open
+issue to the new head; a push that changes English, or taking the label off by hand, closes
+the open issue as not planned and re-runs nothing; re-applying the label completes the loop
+again. An issue above the translator's word cap stays open and waits for iHiD.
+
+Every other source repo still has neither template.
 
 ## Before installing
 
@@ -100,7 +103,7 @@ units (`concept:hashes:name`, `concept:hashes:blurb`, `exercise:gross-store:name
       apply it and nothing is ever queued. It belongs in `exercism/org-wide-files`' label
       list, which the org-wide label sync applies to every repo. That sync also PRUNES labels
       it does not list, so a label created by hand in one repo is temporary until it is
-      listed there.
+      listed there. `exercism/website-copy` has one created by hand, so it is in that state.
 - [x] ANSWERED. A runner does translate automatically when an issue opens, and it is not
       here: `.github/workflows/translate-on-issue.yml` in this repo sends one
       `repository_dispatch` to `exercism/translator` carrying the issue number, and that
@@ -111,7 +114,7 @@ units (`concept:hashes:name`, `concept:hashes:blurb`, `exercise:gross-store:name
       to every track from `exercism/org-wide-files`; that is the natural carrier, and the
       "do not edit a copy" header on each template assumes something like it.
 - [ ] Make `completeness` a required status check on `main` in each source repo. Until it
-      is required it informs and does not block.
+      is required it informs and does not block. Done in `exercism/website-copy`.
 - [ ] `productionTargets` holds `hu`, so once installed the completeness check fails on
       every PR that changes English until the Hungarian translation lands here. It blocks
       the merge only once it is a required check; until then it is a red mark on the PR.

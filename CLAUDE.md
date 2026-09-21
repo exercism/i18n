@@ -210,14 +210,14 @@ of `exercism/website` and of a real PR's merge ref.
 
 Stubbed or absent:
 
-- **The workflows have never run.** They parse as YAML and their data paths were rehearsed
-  locally. Two of the secrets they name exist: `EXERCISM_I18N_ISSUES_PAT` (an organisation
-  secret, Issues read/write on this repo only, owned by iHiD, so queue issues are authored
-  by `iHiD`) and `EXERCISM_SOURCE_REPOS_ACTIONS_PAT` (a secret on this repo, Actions
-  read/write and Pull requests read on the source repos).
-  `EXERCISM_TRANSLATOR_DISPATCH_PAT`, which `translate-on-issue.yml` needs, is still to be
-  created: a fine-grained PAT with Contents read/write on `exercism/translator` and nothing
-  else. Without it that workflow says so and exits 0.
+- **The loop runs in one source repo.** `exercism/website-copy` has both templates
+  installed and `completeness` required on `main`; the full loop (queue, translate-on-issue,
+  the translator, rerun-source-check, and every label and push path) was piloted there live
+  on 2026-09-21. Every other source repo has neither template. All three secrets exist:
+  `EXERCISM_I18N_ISSUES_PAT` (an organisation secret, Issues read/write on this repo only,
+  owned by iHiD, so queue issues are authored by `iHiD`), `EXERCISM_SOURCE_REPOS_ACTIONS_PAT`
+  (a secret on this repo, Actions read/write and Pull requests read on the source repos) and
+  `EXERCISM_TRANSLATOR_DISPATCH_PAT` (Contents read/write on `exercism/translator`).
 
 ## Open questions (do not answer these by accident)
 
