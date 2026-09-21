@@ -176,7 +176,7 @@ implemented.
 | `build-english.mjs` | The flattening step. Writes `.build/english/{backend,frontend,arrays,source}.json` for a pass to read, or with `--content-repos` one `.build/english/metadata/<repo>.json` per repo. The other scripts call the same builder directly and never read those files. |
 | `validate.mjs` | The checker. Catalog unit parity, plural groups, placeholders, tags, whitespace; content path shape, UTF-8, JSON, no stamps, copied English, and structure against English when `--content-repos` can find it. Stamps with `--stamp`. Exits 1 on an ERROR in a production locale; `--gate=all` and `--complete` widen that. |
 | `completeness.mjs` | The blocking check for ONE source repo: full, or relative to `--base`. Content by blob id; website and metadata by unit and stamp, so an edited key or blurb blocks. |
-| `english-changes.mjs` | The queue's reader: turns GitHub's PR file list (paths and blob shas) into the issue's table. For a changed `config.json` or `metadata.toml` it names the KEYS whose English changed, from the two versions of that file fetched by blob id. Takes API responses, never a checkout. |
+| `english-changes.mjs` | The queue's reader: turns GitHub's PR file list (paths and blob shas) into the issue's table. For a changed `config.json` or `metadata.toml` it names the KEYS whose English changed, from the two versions of that file fetched by blob id. With `--push`, says whether one push to a queued PR changed the PR's English, from the two commits' trees. Takes API responses, never a checkout. |
 | `coverage.mjs` | Per-locale unit counts (website and metadata) and blob coverage for the repos named. Reports, never gates, always exits 0. |
 | `no-deletions.mjs` | Refuses a removed file or key under `locales/` between two refs. |
 | `source-checkout.mjs` | Fetches a source repo into `.source/`, shallow, blobless, no working tree. |
@@ -229,7 +229,10 @@ Each is marked `TODO(iHiD): OPEN` where the code would change.
    here and closes the issue. No script here calls an LLM, and the gate is unchanged: the
    issue must be opened by `iHiD`, carry the `translation` label and be titled
    `Translate exercism/...`. The translator repo verifies all of it again for itself.
-2. **Who may trigger an issue.** `i18n-queue.yml` ships a placeholder gate.
+2. ~~**Who may trigger an issue.**~~ **Answered: whoever adds the `ready-to-translate`
+   label to the source PR**, which takes triage rights there, on every PR including
+   maintainers' own. A later push that changes English takes the label off and closes the
+   issue as not planned. See `source-repo-workflows/README.md`.
 3. **Whether a human-navigable symlink tree exists beside the blob-id store.** None does.
 4. **Which content types and locales are in scope for launch.** Every content type is
    live; `hu` is the one locale so far. Two scope calls are flagged in `content-types.mjs` and

@@ -6,6 +6,9 @@
 //   node scripts/english-changes.mjs --repo=exercism/<name> --pr-files=<json> [--kind=<kind>]
 //                                    [--base-tree=<json>] [--blobs-dir=<dir>] [--needs=<out.txt>]
 //                                    [--markdown=<out.md>] [--json=<out.json>]
+//   node scripts/english-changes.mjs --push --repo=exercism/<name> --pr-files=<json>
+//                                    --before-files=<json> --before-tree=<json> --after-tree=<json>
+//                                    [--blobs-dir=<dir>] [--needs=<out.txt>] [--json=<out.json>]
 //
 // Example (what the queue workflow runs):
 //   gh api --paginate "repos/exercism/ruby/pulls/123/files" > files.json
@@ -41,6 +44,20 @@
 // is where a changed file's OLD blob id comes from. All of it is API responses
 // parsed as JSON. A blob that was not fetched just means the file is reported as
 // changed with its keys unknown.
+//
+// ## `--push`: did one push to a queued PR change English?
+//
+// The queue's label, `ready-to-translate`, says "this English is final". A push
+// that changes English takes the label off; a push that changes none leaves it.
+// So this mode answers for one push, `before` to `after`, from the two commits'
+// trees (GitHub's recursive tree API) and nothing else. A path counts when its
+// blob differs between the two trees AND the PR touches it, now (`--pr-files`)
+// or at `before` (`--before-files`, the files of the compare from the PR's base
+// to `before`). The second condition is what keeps a merge of `main` into the
+// branch quiet: English that `main` brought in is not the PR's. A path the PR
+// has dropped still counts, because the English the label approved is gone. A
+// config.json or metadata.toml counts only if its copy changed, found by the
+// same two-pass blob fetch as above, with `before` in place of the base.
 //
 // ## One list of patterns
 //
@@ -80,6 +97,56 @@ export function readPrFiles(raw) {
     entries.push({ path: entry.filename, id: entry.sha });
   }
   return entries;
+}
+
+/**
+ * Every path a PR file list or a compare's `files` names, removed and renamed-from
+ * paths included. Only a scope: nothing here is ever looked up by these strings
+ * except in the two trees.
+ */
+export function readPaths(raw) {
+  let parsed;
+  try {
+    parsed = JSON.parse(raw);
+  } catch {
+    parsed = JSON.parse(`[${raw.trim().replace(/\]\s*\[/g, "],[")}]`);
+  }
+  const paths = new Set();
+  const ok = (name) => typeof name === "string" && name.length > 0 && name.length <= 1024 && !/[\0\n\r]/.test(name);
+  for (const entry of [parsed?.files ?? parsed].flat(2)) {
+    if (ok(entry?.filename)) paths.add(entry.filename);
+    if (ok(entry?.previous_filename)) paths.add(entry.previous_filename);
+  }
+  return paths;
+}
+
+/** GitHub's compare API lists at most this many files; a list this long may be cut short. */
+export const COMPARE_FILE_CAP = 300;
+
+/**
+ * The English one push changed, in the PR's own files.
+ *
+ * @param {Set<string>|null} scope  paths the PR touches, at `before` or now. Null
+ *   when the scope is unknown (a compare that hit its cap), which widens it to
+ *   every path the push changed: over-reporting is the safe direction.
+ * @param {Map<string,string>} beforeTree  path -> blob id at `before`
+ * @param {Map<string,string>} afterTree   path -> blob id at `after`
+ */
+export function pushChanges(kind, { scope, beforeTree, afterTree, readBlob = null }) {
+  const paths = scope ?? new Set([...beforeTree.keys(), ...afterTree.keys()]);
+  const entries = [];
+  const removed = [];
+  for (const file of paths) {
+    const before = beforeTree.get(file) ?? null;
+    const after = afterTree.get(file) ?? null;
+    if (before === after) continue;
+    if (after === null) removed.push({ path: file, id: before });
+    else entries.push({ path: file, id: after });
+  }
+  const summary = summarise(kind, entries, { baseTree: beforeTree, readBlob });
+  const english = (entry) => (kind === "website" ? isWebsiteEnglishPath(entry.path) : translatableFiles(kind, [entry]).length + metadataFiles(kind, [entry]).length > 0);
+  const gone = removed.filter(english).map((entry) => entry.path);
+  return { ...summary, removed: gone, count: summary.count + gone.length };
 }
 
 /** A path, safe inside a Markdown table cell's code span. */
@@ -163,20 +230,36 @@ if (isMain) {
   if (typeof flags.repo !== "string" || typeof flags["pr-files"] !== "string") fail("usage: english-changes.mjs --repo=exercism/<name> --pr-files=<json>");
   const kind = typeof flags.kind === "string" ? flags.kind : kindForRepo(flags.repo);
   repoKind(kind);
-
-  const entries = readPrFiles(fs.readFileSync(path.resolve(flags["pr-files"]), "utf8"));
-  const baseTree = typeof flags["base-tree"] === "string" ? readBaseTree(fs.readFileSync(path.resolve(flags["base-tree"]), "utf8")) : null;
   const blobsDir = typeof flags["blobs-dir"] === "string" ? path.resolve(flags["blobs-dir"]) : null;
   const readBlob = (id) => {
     const file = blobsDir && BLOB_ID.test(id) ? path.join(blobsDir, id) : null;
     return file && fs.existsSync(file) ? fs.readFileSync(file, "utf8") : null;
   };
+  const read = (flag) => fs.readFileSync(path.resolve(flags[flag]), "utf8");
+  const writeNeeds = (needs) => {
+    if (typeof flags.needs === "string") fs.writeFileSync(path.resolve(flags.needs), needs.length > MAX_METADATA_FILES * 2 ? "" : needs.map((id) => `${id}\n`).join(""));
+  };
+
+  if (flags.push === true) {
+    for (const flag of ["before-files", "before-tree", "after-tree"]) if (typeof flags[flag] !== "string") fail(`--push needs --${flag}=<json>`);
+    const before = readPaths(read("before-files"));
+    const scope = before.size >= COMPARE_FILE_CAP ? null : new Set([...before, ...readPaths(read("pr-files"))]);
+    const summary = pushChanges(kind, { scope, beforeTree: readBaseTree(read("before-tree")), afterTree: readBaseTree(read("after-tree")), readBlob });
+    writeNeeds(summary.needs);
+    if (typeof flags.json === "string") fs.writeFileSync(path.resolve(flags.json), `${JSON.stringify(summary, null, 2)}\n`);
+    console.log(`${flags.repo} (${kind}): this push changes ${summary.files.length} whole file(s), ${summary.metadata.length} metadata file(s) and removes ${summary.removed.length} English file(s)${scope === null ? ", counted over the whole tree" : ""}.`);
+    console.log(`count=${summary.count}`);
+    process.exit(0);
+  }
+
+  const entries = readPrFiles(fs.readFileSync(path.resolve(flags["pr-files"]), "utf8"));
+  const baseTree = typeof flags["base-tree"] === "string" ? readBaseTree(read("base-tree")) : null;
 
   const summary = summarise(kind, entries, { baseTree, readBlob });
   // `--needs` is the first of two passes: it lists the blob ids (40 hex each, and
   // nothing else, so they are safe to put in a URL) whose text would let the
   // second pass say WHICH keys changed. Too many, and it lists none.
-  if (typeof flags.needs === "string") fs.writeFileSync(path.resolve(flags.needs), summary.needs.length > MAX_METADATA_FILES * 2 ? "" : summary.needs.map((id) => `${id}\n`).join(""));
+  writeNeeds(summary.needs);
   if (typeof flags.markdown === "string") fs.writeFileSync(path.resolve(flags.markdown), toMarkdown(summary, { repoName: flags.repo.split("/").pop().replace(/[^A-Za-z0-9._-]/g, "") }));
   if (typeof flags.json === "string") fs.writeFileSync(path.resolve(flags.json), `${JSON.stringify(summary, null, 2)}\n`);
 

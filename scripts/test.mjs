@@ -37,7 +37,7 @@ import { missingContent, missingUnits, requiredContent, requiredUnits } from "./
 import { buildMetadataEnglish, changedCopyKeys, fileCopy, readTomlStrings } from "./lib/metadata.mjs";
 import { buildWebsiteEnglish, globToRegExp, isWebsiteEnglishPath, loadExclusions } from "./lib/website-english.mjs";
 import { findDeletions } from "./no-deletions.mjs";
-import { readPrFiles, summarise, toMarkdown } from "./english-changes.mjs";
+import { COMPARE_FILE_CAP, pushChanges, readPaths, readPrFiles, summarise, toMarkdown } from "./english-changes.mjs";
 
 let failures = 0;
 
@@ -453,6 +453,33 @@ await test("the issue body neutralises a hostile path and says what it truncated
   assert.ok(markdown.includes("`docs/a'\\|b.md`"));
   assert.ok(markdown.includes("not inspected") && markdown.includes("`config.json`"));
   assert.ok(isWebsiteEnglishPath("config/locales/views/x.yml") && isWebsiteEnglishPath("app/javascript/i18n/en/a.ts") && !isWebsiteEnglishPath("app/javascript/i18n/i18n.ts"));
+});
+
+await test("a push takes the label off only when it changes the PR's own English", () => {
+  const cfg = "exercises/practice/two-fer/.meta/config.json";
+  const about = "concepts/strings/about.md";
+  const text = { base: JSON.stringify({ blurb: "Old.", authors: ["a"] }), data: JSON.stringify({ blurb: "Old.", authors: ["a", "b"] }), copy: JSON.stringify({ blurb: "New.", authors: ["a"] }) };
+  const blobs = new Map(Object.values(text).map((one) => [blobId(one), one]));
+  const readBlob = (id) => blobs.get(id) ?? null;
+  const tree = (entries) => new Map(Object.entries(entries));
+  const before = tree({ [cfg]: blobId(text.base), [about]: ID_A, "lib/x.rb": ID_A, "docs/MAIN.md": ID_A });
+  const push = (after, scope = new Set([cfg, about, "lib/x.rb"])) => pushChanges("track", { scope, beforeTree: before, afterTree: tree({ ...Object.fromEntries(before), ...after }), readBlob });
+
+  assert.equal(push({ "lib/x.rb": ID_B }).count, 0, "code only");
+  assert.equal(push({ [cfg]: blobId(text.data) }).count, 0, "config.json data only");
+  assert.deepEqual(push({ [cfg]: blobId(text.copy) }).metadata[0].keys, ["exercise:two-fer:blurb"]);
+  assert.equal(push({ [about]: ID_B }).files[0].path, about);
+  assert.equal(push({ "docs/MAIN.md": ID_B }).count, 0, "English a merge of main brought in is not the PR's");
+  assert.equal(push({ "docs/MAIN.md": ID_B }, null).count, 1, "an unknown scope widens to the whole push");
+  const dropped = pushChanges("track", { scope: new Set([about]), beforeTree: before, afterTree: tree({ [cfg]: blobId(text.base) }), readBlob });
+  assert.deepEqual(dropped.removed, [about], "English the PR dropped counts");
+  assert.equal(push({ [cfg]: blobId(text.copy) }, new Set([cfg])).needs.length, 0, "fetched blobs leave nothing needed");
+  assert.equal(pushChanges("track", { scope: new Set([cfg]), beforeTree: before, afterTree: tree({ [cfg]: blobId(text.copy) }) }).count, 1, "without the blobs a config.json change counts");
+
+  const compare = JSON.stringify({ files: [{ filename: "b.md", previous_filename: "a.md", status: "renamed" }, { filename: "c\nd.md" }, { filename: 7 }] });
+  assert.deepEqual([...readPaths(compare)].sort(), ["a.md", "b.md"]);
+  assert.deepEqual([...readPaths(`[{"filename":"x"}][{"filename":"y","status":"removed"}]`)], ["x", "y"]);
+  assert.equal(COMPARE_FILE_CAP, 300);
 });
 
 // ---------------------------------------------------------- locales.json ----

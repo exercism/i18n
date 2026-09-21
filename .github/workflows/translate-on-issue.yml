@@ -11,9 +11,9 @@
 # issue itself, through the same guards its scripts already apply, so what is sent
 # cannot widen or redirect what it does.
 #
-# `edited` as well as `opened`, because one issue serves a PR for its whole life:
-# a later push to the PR rewrites the issue in place with a newer sha, and the new
-# sha is the one to translate.
+# `edited` as well as `opened`, because the queue can rewrite an open issue in
+# place with a newer sha (the source PR's `ready-to-translate` label re-applied
+# while it is still open), and the new sha is the one to translate.
 #
 # ## The issue is untrusted input
 #

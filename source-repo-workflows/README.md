@@ -8,7 +8,7 @@ to live yet.
 
 | Template | Installs as | Trigger | Holds a secret | Blocks a merge |
 | --- | --- | --- | --- | --- |
-| `i18n-queue.yml` | `.github/workflows/i18n-queue.yml` | `pull_request_target` | yes, `EXERCISM_I18N_ISSUES_PAT` | no |
+| `i18n-queue.yml` | `.github/workflows/i18n-queue.yml` | `pull_request_target` (`labeled`, `unlabeled`, `synchronize`) | yes, `EXERCISM_I18N_ISSUES_PAT` | no |
 | `i18n-completeness.yml` | `.github/workflows/i18n-completeness.yml` | `pull_request` | no | yes, once made a required check |
 
 Keep the filenames. `rerun-source-check.yml` in this repo finds a PR's completeness run by
@@ -16,13 +16,15 @@ the workflow filename `i18n-completeness.yml`.
 
 ## The loop
 
-1. A PR in a source repo changes English.
-2. `i18n-queue.yml` opens (or rewrites) an issue here: `Translate exercism/<repo>#<n>: ...`,
-   labelled `translation`, listing each changed English file, its content type and the
-   blob-id path its translation goes to, and for a changed `config.json` or `metadata.toml`
-   the metadata keys whose English changed.
-3. `i18n-completeness.yml` fails on that PR, because this repo does not hold the
-   translations yet. With the check required, the PR cannot merge.
+1. A PR in a source repo changes English. `i18n-completeness.yml` fails on it, because
+   this repo does not hold the translations yet. With the check required, the PR cannot
+   merge.
+2. Once the copy is final, a maintainer adds the `ready-to-translate` label to the PR. That
+   is the only thing that queues a translation, whoever wrote the PR.
+3. `i18n-queue.yml` opens (or rewrites) an issue here at the PR's head commit:
+   `Translate exercism/<repo>#<n>: ...`, labelled `translation`, listing each changed
+   English file, its content type and the blob-id path its translation goes to, and for a
+   changed `config.json` or `metadata.toml` the metadata keys whose English changed.
 4. Translations land on `main` here, for every locale in `locales.json` `productionTargets`.
    The issue is closed. That push is the deploy: the website pulls its checkout of this
    repo and serves the new files. Both happen on their own:
@@ -30,17 +32,33 @@ the workflow filename `i18n-completeness.yml`.
    the translating, the pushing and the closing.
 5. `rerun-source-check.yml` here re-runs the PR's failed check, which now passes.
 
+While the label is on, every push to the PR is checked. A push that changes English, by
+anyone, takes the label off, comments on the PR asking a maintainer to re-apply it once the
+copy is final, and closes the open issue here as "not planned". A push that changes no
+English does nothing. Taking the label off by hand closes the issue the same way. "Changes
+English" is decided by `scripts/english-changes.mjs --push`, over the same registry as the
+issue itself, and only for files the PR touches, so merging `main` into the branch does
+not count.
+
+The issue is closed because an open issue is the translator's queue:
+`exercism/translator`'s retry sweep re-dispatches every open one, and it would translate a
+commit whose English is no longer the PR's. "Not planned" keeps it apart from a finished
+issue, and `rerun-source-check.yml` skips it. Re-applying the label opens a new issue at
+the new head.
+
 ## Fork safety
 
 Most Exercism PRs come from forks, so both templates are written to one rule: **no job that
 holds a secret checks out or executes PR code, and no job executes PR code at all.**
 
-- `i18n-queue.yml` holds a secret, so it runs on `pull_request_target` and contains no
-  checkout of the source repo at any ref. It learns what changed from GitHub's "list pull
-  request files" API, which returns each file's path and git blob sha, plus the base
-  commit's tree and the two versions of each changed metadata file, fetched BY BLOB ID
-  through the blob API. All of it is API responses, treated as untrusted data by
-  `scripts/english-changes.mjs` and parsed as JSON or flat TOML. Nothing is cloned.
+- `i18n-queue.yml` holds a secret and a token that can write to pull requests, so it runs
+  on `pull_request_target` and contains no checkout of the source repo at any ref. It
+  learns what changed from GitHub's "list pull request files" and compare APIs, which
+  return each file's path and git blob sha, plus commit trees and the two versions of each
+  changed metadata file, fetched BY BLOB ID through the blob API. All of it is API
+  responses, treated as untrusted data by `scripts/english-changes.mjs` and parsed as JSON
+  or flat TOML. Nothing is cloned. Its GITHUB_TOKEN is scoped per job: `pull-requests:
+  write` only in the job that takes the label off and comments, read everywhere else.
 - `i18n-completeness.yml` holds no secret and runs on `pull_request` with a read-only token.
   It fetches the PR's merge ref as git objects into a bare repository, with no working tree,
   and reads it with `git ls-tree` and `git cat-file`. Website YAML and TypeScript bundles are
@@ -73,8 +91,14 @@ units (`concept:hashes:name`, `concept:hashes:blurb`, `exercise:gross-store:name
       secret on `exercism/i18n`, with Actions read/write and Pull requests read on the
       source repos. A source repo added later must be added to the second PAT, or
       `rerun-source-check.yml` cannot re-run its check.
-- [ ] TODO(iHiD): OPEN. Who may trigger an issue. `i18n-queue.yml` ships with a placeholder
-      gate (the PR author is an owner, member or collaborator). See the TODO in its header.
+- [x] DECIDED. Who may trigger an issue: whoever adds the `ready-to-translate` label to the
+      PR, which takes triage rights on the source repo. Every PR needs it, maintainers'
+      own included.
+- [ ] Create the `ready-to-translate` label in each source repo. Without it nobody can
+      apply it and nothing is ever queued. It belongs in `exercism/org-wide-files`' label
+      list, which the org-wide label sync applies to every repo. That sync also PRUNES labels
+      it does not list, so a label created by hand in one repo is temporary until it is
+      listed there.
 - [x] ANSWERED. A runner does translate automatically when an issue opens, and it is not
       here: `.github/workflows/translate-on-issue.yml` in this repo sends one
       `repository_dispatch` to `exercism/translator` carrying the issue number, and that

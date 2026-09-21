@@ -61,7 +61,8 @@ branch is checked out. `--source-repo=<path>` and `--source-ref=<ref>` override 
 
 ## How work arrives
 
-A PR in any repo that holds English opens an issue here. That PR's `i18n completeness` check
+A PR in any repo that holds English opens an issue here once a maintainer adds the
+`ready-to-translate` label to it. That PR's `i18n completeness` check
 blocks its merge until this repo holds the translation for every locale in `locales.json`
 `productionTargets`, for new text and for edits. Closing the issue re-runs the check. The two
 workflows a source repo installs are in
