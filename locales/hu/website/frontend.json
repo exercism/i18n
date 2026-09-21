@@ -1383,7 +1383,15 @@
     "profileForm.midLevelDeveloper": "Középszintű fejlesztő",
     "profileForm.seniorDeveloper": "Senior fejlesztő",
     "profileForm.successAlt": "Siker",
-    "profileForm.language": "Nyelv"
+    "profileForm.language": "Nyelv",
+    "profileForm.languageEdit": "Módosítás",
+    "profileForm.languageDone": "Kész",
+    "profileForm.languageSearchPlaceholder": "Keresés a nyelvek között",
+    "profileForm.languageSearchLabel": "Keresés a nyelvek között",
+    "profileForm.languageComingSoon": "Hamarosan érkezik",
+    "profileForm.languageComingSoonBadge": "Hamarosan",
+    "profileForm.languageNoMatches": "Nincs a keresésnek megfelelő nyelv",
+    "profileForm.languageSelected": "Kiválasztva"
   },
   "components/settings/PronounsForm.tsx": {
     "pronounsForm.howWouldYouLikeToBeAddressedOptional": "Hogyan szeretnéd, hogy megszólítsanak? (nem kötelező)",

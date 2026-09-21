@@ -2822,7 +2822,9 @@
       }
     },
     "language_switcher": {
-      "label": "Válaszd ki a nyelvedet"
+      "label": "Válaszd ki a nyelvedet",
+      "coming_soon": "Hamarosan érkezik",
+      "coming_soon_badge": "Hamarosan"
     },
     "locale_banner": {
       "pre": "Ez az oldal %{current} nyelvű.",
