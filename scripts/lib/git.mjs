@@ -104,6 +104,18 @@ export function lsTree(repo, ref, prefixes = []) {
  * missing, and the caller says which file it could not read, which is a better
  * error than a fetch's.
  */
+/** Every object id in a promisor (blobless) clone's store, or null for an ordinary clone. */
+function localObjects(repo) {
+  let promisor = "";
+  try {
+    promisor = git(["config", "--get-regexp", "^remote\\..*\\.promisor$"], repo).trim();
+  } catch {
+    return null;
+  }
+  if (!promisor) return null;
+  return new Set(git(["cat-file", "--batch-all-objects", "--batch-check=%(objectname)", "--unordered"], repo).split("\n"));
+}
+
 export function prefetchBlobs(repo, ids) {
   let promisor = "";
   try {
@@ -147,9 +159,17 @@ export function readBlobs(repo, ids, { prefetch = true } = {}) {
   if (wanted.length === 0) return result;
   if (prefetch) prefetchBlobs(repo, wanted);
 
-  const out = git(["cat-file", "--batch"], repo, { input: `${wanted.join("\n")}\n`, encoding: "buffer", env: NO_LAZY_FETCH });
+  // Git before 2.45 ignores GIT_NO_LAZY_FETCH, and in a blobless clone every id
+  // that is not here becomes one fetch from the remote. Asking the object store
+  // what it holds first answers the misses locally on any git.
+  const local = localObjects(repo);
+  const here = local ? wanted.filter((id) => local.has(id)) : wanted;
+  for (const id of wanted) if (local && !local.has(id)) result.set(id, null);
+  if (here.length === 0) return result;
+
+  const out = git(["cat-file", "--batch"], repo, { input: `${here.join("\n")}\n`, encoding: "buffer", env: NO_LAZY_FETCH });
   let offset = 0;
-  for (const id of wanted) {
+  for (const id of here) {
     const lineEnd = out.indexOf(0x0a, offset);
     const header = out.subarray(offset, lineEnd).toString("utf8");
     offset = lineEnd + 1;
