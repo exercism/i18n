@@ -36,6 +36,7 @@ import { missingContent, missingUnits, requiredContent, requiredUnits } from "./
 import { buildMetadataEnglish, changedCopyKeys, fileCopy, readTomlStrings } from "./lib/metadata.mjs";
 import { buildWebsiteEnglish, globToRegExp, isWebsiteEnglishPath, loadExclusions } from "./lib/website-english.mjs";
 import { findDeletions } from "./no-deletions.mjs";
+import { HISTORY_CAP, describePath, displayNames, emptyIndex, recordTranslation, renderReadme, renderRepo, serialiseIndex, syncIndex } from "./lib/translation-index.mjs";
 import { COMPARE_FILE_CAP, pushChanges, readPaths, readPrFiles, summarise, toMarkdown } from "./english-changes.mjs";
 
 let failures = 0;
@@ -501,6 +502,83 @@ await test("the real locales.json and website-exclusions.json load, and the glob
   assert.ok(globToRegExp("components/test").test("components/test") && !globToRegExp("components/test").test("components/testimonials"));
 });
 
+// ------------------------------------------------------- translation index --
+
+const hex = (n) => blobId(`version ${n}\n`);
+
+await test("index: a new id goes first, a repeated one moves to the front, and the list stops at six", () => {
+  const index = emptyIndex("hu", "ruby", "track");
+  const file = "exercises/practice/two-fer/.docs/instructions.md";
+  assert.equal(recordTranslation(index, file, hex(1)), true);
+  for (let n = 2; n <= 8; n++) recordTranslation(index, file, hex(n));
+  assert.equal(HISTORY_CAP, 6);
+  assert.deepEqual(index.paths[file], [8, 7, 6, 5, 4, 3].map(hex));
+  assert.equal(recordTranslation(index, file, hex(5)), true);
+  assert.deepEqual(index.paths[file], [5, 8, 7, 6, 4, 3].map(hex));
+  assert.equal(recordTranslation(index, file, hex(5)), false, "recording the latest again changes nothing");
+  assert.throws(() => recordTranslation(index, file, "abc"), /not a blob id/);
+});
+
+await test("index: the JSON is sorted, one line per path, and the same index always gives the same bytes", () => {
+  const a = { ...emptyIndex("hu", "ruby", "track"), paths: { "b.md": [hex(1)], "a.md": [] }, names: { x: { hu: "Iksz", en: "Ex" } } };
+  const b = { ...emptyIndex("hu", "ruby", "track"), paths: { "a.md": [], "b.md": [hex(1)] }, names: { x: { en: "Ex", hu: "Iksz" } } };
+  const text = serialiseIndex(a);
+  assert.equal(text, serialiseIndex(b));
+  assert.equal(serialiseIndex(JSON.parse(text)), text);
+  assert.deepEqual(text.split("\n").filter((line) => line.startsWith("    ")), ['    "x": {"en":"Ex","hu":"Iksz"}', '    "a.md": [],', `    "b.md": ["${hex(1)}"]`]);
+});
+
+await test("index: a sync records held English as latest, lists the rest as missing, and a second sync changes nothing", () => {
+  const index = { ...emptyIndex("hu", "ruby", "track"), paths: { "exercises/practice/gone/.docs/instructions.md": [], "docs/OLD.md": [hex(9)] } };
+  const files = [
+    { path: "exercises/practice/two-fer/.docs/instructions.md", id: hex(1), extension: ".md" },
+    { path: "exercises/practice/two-fer/.docs/hints.md", id: hex(2), extension: ".md" }
+  ];
+  const held = new Set([hex(1)]);
+  syncIndex(index, files, (id) => held.has(id), { "exercises/practice/two-fer": { en: "Two Fer", hu: "Kettő" }, "exercises/practice/unused": { en: "Unused" } });
+  assert.deepEqual(index.paths, { "exercises/practice/two-fer/.docs/instructions.md": [hex(1)], "exercises/practice/two-fer/.docs/hints.md": [], "docs/OLD.md": [hex(9)] });
+  assert.deepEqual(Object.keys(index.names), ["exercises/practice/two-fer"]);
+  const before = serialiseIndex(index);
+  syncIndex(index, files, (id) => held.has(id), {});
+  assert.equal(serialiseIndex(index), before);
+});
+
+await test("index: paths are grouped by exercise, concept or page, with the file as the label", () => {
+  assert.deepEqual(describePath("track", "exercises/practice/two-fer/.docs/instructions.append.md"), { section: "Practice exercises", group: "exercises/practice/two-fer", label: "instructions.append.md" });
+  assert.deepEqual(describePath("track", "concepts/strings/about.md"), { section: "Concepts", group: "concepts/strings", label: "about.md" });
+  assert.deepEqual(describePath("track", "docs/TESTS.md"), { section: "Track docs", group: "docs/TESTS.md", label: "TESTS.md" });
+  assert.deepEqual(describePath("problem-specifications", "exercises/bob/description.md"), { section: "Exercises", group: "exercises/bob", label: "description.md" });
+  assert.deepEqual(describePath("docs", "using/settings/pronouns.md"), { section: "Using", group: "using/settings/pronouns.md", label: "pronouns.md" });
+  assert.deepEqual(describePath("website-copy", "analyzer-comments/ruby/two-fer/splat_args.md"), { section: "Analyzer comments", group: "analyzer-comments/ruby", label: "two-fer/splat_args.md" });
+});
+
+await test("index: display names come from the source's own files, and the translation from the metadata catalog", () => {
+  const files = {
+    "config.json": JSON.stringify({ exercises: { practice: [{ slug: "two-fer", name: "Two Fer" }], concept: [] }, concepts: [{ slug: "strings", name: "Strings" }] }),
+    "docs/config.json": JSON.stringify({ docs: [{ slug: "tests", path: "docs/TESTS.md", title: "Testing" }] })
+  };
+  const names = displayNames("track", asTree(files), asReader(files), "hu", { "exercise:two-fer:name": "Kettő", "doc:tests:title": "Tesztelés" });
+  assert.deepEqual(names, { "exercises/practice/two-fer": { en: "Two Fer", hu: "Kettő" }, "concepts/strings": { en: "Strings" }, "docs/TESTS.md": { en: "Testing", hu: "Tesztelés" } });
+});
+
+await test("index: a page links the latest and earlier translations relative to itself, and marks a file with none as missing", () => {
+  const index = {
+    ...emptyIndex("hu", "ruby", "track"),
+    names: { "exercises/practice/two-fer": { en: "Two Fer", hu: "Kettő neked" } },
+    paths: { "exercises/practice/two-fer/.docs/instructions.md": [hex(2), hex(1)], "exercises/practice/two-fer/.docs/hints.md": [], "concepts/strings/about.md": [hex(3)] }
+  };
+  const page = renderRepo(index);
+  assert.ok(page.indexOf("## Practice exercises") < page.indexOf("## Concepts"));
+  assert.match(page, /### Two Fer \(Kettő neked\)\n\n- `instructions\.md` \(\[English\]\(https:\/\/github\.com\/exercism\/ruby\/blob\/main\/exercises\/practice\/two-fer\/\.docs\/instructions\.md\)\): \[Latest\]\(\.\.\/\.\.\/\.\.\/locales\/hu\/content\//);
+  assert.ok(page.includes(`[Latest](../../../locales/hu/content/${contentRelativePath(hex(2), ".md")})\n  - [\`${hex(1).slice(0, 10)}\`](../../../locales/hu/content/${contentRelativePath(hex(1), ".md")})`));
+  assert.match(page, /- `hints\.md` \(\[English\]\([^)]+\)\): missing/);
+  assert.match(page, /### strings\n/);
+  assert.ok(!page.includes("—"), "no em dashes");
+  const readme = renderReadme("hu", [index, emptyIndex("hu", "docs", "docs")]);
+  assert.match(readme, /^# Hungarian translation index/);
+  assert.ok(readme.indexOf("[exercism/docs](docs.md)") < readme.indexOf("## Tracks") && readme.includes("[exercism/ruby](ruby.md)"));
+});
+
 // ------------------------------------------------------------ content files --
 
 await test("a content file is checked from its bytes alone, and against English when it is findable", () => {
@@ -788,6 +866,48 @@ await test("fixture: no-deletions names a removed file and a removed key, and ig
   assert.match(allowed.out, /Allowed by Allow-Deletions trailer: fixture/);
 });
 
+await test("fixture: backfill indexes each path's held versions newest first, and the check catches a hand edit", () => {
+  const v1 = "# Instructions\n\nFirst.\n";
+  const v2 = "# Instructions\n\nSecond.\n";
+  const v3 = "# Instructions\n\nThird.\n";
+  const track = makeRepo("sources/lisp", { "config.json": JSON.stringify({ active: true, exercises: { practice: [{ slug: "two-fer", name: "Two Fer" }] } }), "exercises/practice/two-fer/.docs/instructions.md": v1, "exercises/practice/two-fer/.docs/hints.md": "# Hints\n" });
+  writeTree(track, { "exercises/practice/two-fer/.docs/instructions.md": v2 });
+  commitAll(track, "v2");
+  writeTree(track, { "exercises/practice/two-fer/.docs/instructions.md": v3 });
+  commitAll(track, "v3");
+  makeRepo("sources/sleepy", { "config.json": JSON.stringify({ active: false }), "exercises/practice/two-fer/.docs/instructions.md": v1 });
+  for (const text of [v1, v3]) writeTree(ROOT, { [`locales/hu/content/${contentRelativePath(blobId(text), ".md")}`]: `${text.replace("Instructions", "Utasítások")}` });
+  writeTree(ROOT, { "locales/hu/metadata/lisp.json": JSON.stringify({ "exercise:two-fer:name": "Kettő" }) });
+
+  const sources = path.join(TMP, "sources");
+  const first = run("backfill-index.mjs", ["hu", `--sources=${sources}`]);
+  assert.equal(first.status, 0, first.out);
+  assert.match(first.out, /1 repos, 2 paths, 1 with a translation, 1 missing/);
+  assert.match(first.out, /sleepy \(inactive track\)/);
+  const jsonFile = path.join(ROOT, "index/json/hu/lisp.json");
+  const json = JSON.parse(fs.readFileSync(jsonFile, "utf8"));
+  assert.deepEqual(json.paths["exercises/practice/two-fer/.docs/instructions.md"], [blobId(v3), blobId(v1)]);
+  assert.deepEqual(json.paths["exercises/practice/two-fer/.docs/hints.md"], []);
+  assert.deepEqual(json.names["exercises/practice/two-fer"], { en: "Two Fer", hu: "Kettő" });
+  const page = fs.readFileSync(path.join(ROOT, "index/markdown/hu/lisp.md"), "utf8");
+  assert.match(page, /### Two Fer \(Kettő\)/);
+  assert.match(fs.readFileSync(path.join(ROOT, "index/markdown/hu/README.md"), "utf8"), /\[exercism\/lisp\]\(lisp\.md\)/);
+
+  const snapshot = fs.readFileSync(jsonFile, "utf8") + page;
+  assert.equal(run("backfill-index.mjs", ["hu", `--sources=${sources}`]).status, 0);
+  assert.equal(fs.readFileSync(jsonFile, "utf8") + fs.readFileSync(path.join(ROOT, "index/markdown/hu/lisp.md"), "utf8"), snapshot, "a second backfill changed something");
+
+  assert.equal(run("build-index.mjs", ["all", "--check"]).status, 0);
+  fs.appendFileSync(path.join(ROOT, "index/markdown/hu/lisp.md"), "\nA note.\n");
+  const edited = run("build-index.mjs", ["all", "--check"]);
+  assert.equal(edited.status, 1, edited.out);
+  assert.match(edited.out, /lisp\.md: differs from what its JSON generates/);
+  assert.equal(run("build-index.mjs", ["hu"]).status, 0);
+  assert.equal(run("build-index.mjs", ["all", "--check"]).status, 0);
+  fs.writeFileSync(jsonFile, fs.readFileSync(jsonFile, "utf8").replace(blobId(v1), blobId(v2)));
+  assert.match(run("build-index.mjs", ["all", "--check"]).out, /which has no file under locales\/hu\/content/);
+});
+
 // The real repo: every production locale is a target, and coverage runs.
 await test("the real repo: its locales are consistent and coverage runs", () => {
   const real = { root: SCRIPTS_ROOT };
@@ -795,6 +915,8 @@ await test("the real repo: its locales are consistent and coverage runs", () => 
   for (const locale of locales.productionTargets) assert.ok(locales.targets.includes(locale), `${locale} is a production target but not a target`);
   for (const locale of locales.targets) assert.ok(fs.existsSync(path.join(SCRIPTS_ROOT, "locales", locale)), `locales/${locale} is missing`);
   assert.equal(run("coverage.mjs", [], real).status, 0);
+  const index = run("build-index.mjs", ["all", "--check"], real);
+  assert.equal(index.status, 0, index.out);
 });
 
 fs.rmSync(TMP, { recursive: true, force: true });

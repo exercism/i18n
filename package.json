@@ -19,6 +19,7 @@
     "coverage": "node scripts/coverage.mjs",
     "completeness": "node scripts/completeness.mjs",
     "no-deletions": "node scripts/no-deletions.mjs",
+    "index": "node scripts/build-index.mjs",
     "test": "node scripts/test.mjs",
     "check": "node scripts/test.mjs && node scripts/validate.mjs all"
   }

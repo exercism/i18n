@@ -22,6 +22,8 @@ locales/<locale>/content/<ab>/<cd>/<rest>.<ext>
                                           one file per English git blob id: exercises,
                                           concepts, track docs, docs, blog, analyzer
                                           comments, problem-specifications
+index/json/<locale>/<repo>.json          which blob ids each source path has translations for
+index/markdown/<locale>/<repo>.md        generated from that JSON, for browsing
 ```
 
 Content is keyed by the git blob id of its English file. Editing the English gives it a new
@@ -32,6 +34,11 @@ Text that is not a whole file (an exercise's name and blurb, a track's key featu
 page's title) is stored differently. The website only shows its latest version, so it lives
 in one keyed catalog per source repo, stamped per unit like the website catalogs. An edited
 blurb is detected per key and blocks its PR.
+
+To find a translation, start at [index/markdown/hu/README.md](./index/markdown/hu/README.md).
+Each source repo has a page listing its translatable files, each linked to its latest
+translation and up to five earlier ones. The pages are generated from `index/json/` by
+`scripts/build-index.mjs`, and CI fails if one is edited by hand.
 
 ## How the website consumes this repo
 

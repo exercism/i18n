@@ -43,6 +43,8 @@ locales/<locale>/
   metadata/<repo>.json           names, titles, blurbs of one source repo, flat, keyed by slug
   metadata/<repo>.meta.json      per-unit stamps, as for the website catalogs
   content/<ab>/<cd>/<rest>.<ext> one file per English git blob id, source extension kept
+index/json/<locale>/<repo>.json  the translation index: held blob ids per source path
+index/markdown/<locale>/         generated from that JSON: one page per repo, and README.md
 scripts/                         see "Scripts"
 .github/workflows/               this repo's own workflows
 source-repo-workflows/           templates installed in source repos; they do not run here
@@ -151,6 +153,29 @@ the extraction, the keys and the reasoning.
 - **Sizes** (2026-09): ruby 427 units from 155 files, problem-specifications 439 from 151,
   docs 259 from 5, blog 134 from 1.
 
+## The translation index
+
+The content store records nothing about where its English came from, so `index/` maps it
+back. `index/json/<locale>/<repo>.json` lists, for each translatable path of a source repo,
+the blob ids of that path's English the locale holds, newest first and at most six (the
+latest and up to five before it), plus English and localised display names. A path with no
+ids is shown as missing. `index/markdown/<locale>/<repo>.md` and `README.md` are generated
+from the JSON alone, for browsing on GitHub, with relative links into `locales/`.
+
+- **Only the JSON is written.** `exercism/translator`'s `translate.mjs` updates a repo's JSON
+  after every pass over it and regenerates that repo's page and the README, and
+  `run-issue.mjs` commits `index/` with `locales/`. `scripts/backfill-index.mjs` rebuilds a
+  locale from source history. Both use `scripts/lib/translation-index.mjs`.
+- **CI fails on a hand edit.** `node scripts/build-index.mjs all --check` (in `validate.yml`)
+  fails when a page differs from what its JSON generates, or when the JSON lists an id with
+  no file under `locales/`. After changing the JSON by hand, run
+  `node scripts/build-index.mjs` to regenerate the pages.
+- **It lives outside `locales/`** because validate rejects unexpected files there. The
+  website never reads it, and `no-deletions` does not cover it: dropping the oldest id past
+  the cap is how it is meant to change.
+- **Inactive tracks are not indexed** by the backfill, since the website does not show them.
+- **Metadata catalogs are not indexed.** They are the source of the localised names only.
+
 ## Nothing under `locales/` is deleted
 
 `scripts/no-deletions.mjs` and `no-deletions.yml` fail on any removed file or key, on PRs and
@@ -182,6 +207,8 @@ header comment is its documentation, so read it before changing the script. Ther
 | `coverage.mjs` | Per-locale unit counts (website and metadata) and blob coverage for the named repos. Reports only, and always exits 0. |
 | `no-deletions.mjs` | Fails on a removed file or key under `locales/` between two refs. |
 | `source-checkout.mjs` | Fetches a source repo into `.source/`: shallow, blobless, no working tree. |
+| `build-index.mjs` | Generates `index/markdown/` from `index/json/`. With `--check` it writes nothing and fails on a page that differs, an id with no file, or JSON not in canonical form. |
+| `backfill-index.mjs` | Builds one locale's index from the full history of every source checkout (default `../translator/.source`), at `origin/main`. Re-runnable. |
 | `test.mjs` | Plain `node:assert`. Unit assertions, then a fixture of real git repos that every script is run against. |
 
 - **Errors block; warnings never do.** WARN checks are heuristics and are expected to flag
@@ -235,7 +262,9 @@ code it would change.
    source PR, which needs triage rights there. Every PR needs it, including maintainers' own.
    A later push that changes English removes the label and closes the issue as not planned.
    See `source-repo-workflows/README.md`.
-3. Whether a human-navigable symlink tree should exist beside the blob-id store. None does.
+3. ~~Whether a human-navigable symlink tree should exist beside the blob-id store.~~
+   Answered: there is no symlink tree. Use the translation index (`index/`, see above) to
+   find a file's translations.
 4. Which content types and locales are in scope for launch. Every content type is live, and
    `hu` is the only locale so far. Two scope decisions are flagged in `content-types.mjs` and
    left open: whether the contributor-facing `building/` docs (155 of 212 pages) and the

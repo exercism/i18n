@@ -31,6 +31,7 @@ on:
   pull_request:
     paths:
       - "locales/**"
+      - "index/**"
       - "scripts/**"
       - "locales.json"
       - "website-exclusions.json"
@@ -40,6 +41,7 @@ on:
     branches: [main]
     paths:
       - "locales/**"
+      - "index/**"
       - "scripts/**"
       - "locales.json"
       - "website-exclusions.json"
@@ -74,6 +76,12 @@ jobs:
       # whatever the real locales.json lists.
       - name: Test
         run: node scripts/test.mjs
+
+      # The index's Markdown is generated from its JSON, so a page that differs
+      # from what its JSON generates was edited by hand. Also fails on an id
+      # with no file under locales/.
+      - name: Check the translation index
+        run: node scripts/build-index.mjs all --check
 
       # Fetches trees, plus the blobs of the two English directories in one
       # request. There is no working tree, so no website file is written to

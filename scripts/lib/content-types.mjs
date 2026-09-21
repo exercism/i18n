@@ -343,9 +343,6 @@ export function parseContentRelativePath(relative) {
   return match ? { id: `${match[1]}${match[2]}${match[3]}`, extension: match[4] } : null;
 }
 
-// TODO(iHiD): OPEN. Whether a human-navigable symlink tree should exist beside
-// the blob-id store (`by-path/<repo>/<path> -> ../../content/ab/cd/...`) is
-// undecided. Nothing here creates one. If one is added it must live outside
-// `content/`, so a walk of the store never meets it, and it should be generated
-// from a source checkout by a script, never maintained by hand.
-// `contentRelativePath` is all it would need from this file.
+// To find a translation by its English path, use the translation index
+// (scripts/lib/translation-index.mjs), which lives in index/, outside this
+// store. iHiD agreed its design, and there is no symlink tree.
