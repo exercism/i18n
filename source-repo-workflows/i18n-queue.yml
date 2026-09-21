@@ -26,15 +26,24 @@
 # whole trust boundary. The label must exist in this repo: see "Before
 # installing" in exercism/i18n/source-repo-workflows/README.md.
 #
-# Three jobs, one per event:
+# Three jobs:
 #
-#   queue     `labeled` with the label: open or rewrite the issue at the head
+#   queue     `labeled` with the label: open or rewrite the issue at the head.
+#             Also after `hold` finds a push changed no English: if the issue is
+#             still open, move its sha to the new head (see below).
 #   hold      any push while the label is on: if the push changed English, take
 #             the label off and ask a maintainer to re-apply it once the copy is
-#             final. A push that changes no English does nothing.
+#             final.
 #   withdraw  the label came off (by `hold`, or by hand): close the open issue
 #             as "not planned", so the translator stops seeing it as queued. The
 #             next `ready-to-translate` opens a fresh one at the new head.
+#
+# A push that changes no English leaves the label on, but a rebase or
+# force-push can still drop the issue's sha out of the PR, and the translator
+# refuses a sha that is not a commit of the PR. So while the issue is open, such
+# a push rewrites it at the new head, which dispatches the translator again at a
+# sha it will accept. Once the issue is closed there is nothing to move: the
+# English is translated, and the new head's blob ids are the same ones.
 #
 # `hold` asks the same question the issue does ("which English?") through the
 # same script, so there is one list of what counts as English. The label coming
@@ -86,14 +95,18 @@ permissions: {}
 
 jobs:
   queue:
-    if: ${{ github.event.action == 'labeled' && github.event.label.name == 'ready-to-translate' }}
+    needs: hold
+    # `always()`, because on a `labeled` event `hold` is skipped.
+    if: ${{ always() && ((github.event.action == 'labeled' && github.event.label.name == 'ready-to-translate') || (github.event.action == 'synchronize' && needs.hold.outputs.english-changed == 'false')) }}
     runs-on: ubuntu-latest
     permissions:
       contents: read
       pull-requests: read
-    # A label taken off and put back quickly leaves one run, writing the newest SHA.
+    # A label taken off and put back quickly leaves one run, writing the newest
+    # SHA. Pushes have their own group, so a push straight after the label cannot
+    # cancel the run that opens the issue.
     concurrency:
-      group: i18n-queue-${{ github.event.pull_request.number }}
+      group: i18n-queue-${{ github.event.pull_request.number }}-${{ github.event.action }}
       cancel-in-progress: true
     steps:
       # exercism/i18n, at main. NEVER this repository: see the header.
@@ -163,6 +176,7 @@ jobs:
           HEAD_SHA: ${{ github.event.pull_request.head.sha }}
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
           COUNT: ${{ steps.changed.outputs.count }}
+          ACTION: ${{ github.event.action }}
         run: |
           set -euo pipefail
 
@@ -199,9 +213,19 @@ jobs:
           EXISTING=$(gh issue list --repo "$I18N_REPO" --state open --label translation --search "in:title \"${PREFIX}\"" --limit 50 \
             --json number,title | PREFIX="$PREFIX" jq -r 'first(.[] | select(.title | startswith(env.PREFIX)) | .number) // empty')
 
+          # A push that changed no English only moves an issue that is still open.
+          if [ "$ACTION" = "synchronize" ] && [ -z "$EXISTING" ]; then
+            echo "No open issue for ${REPO}#${PR_NUMBER}; nothing to move to ${HEAD_SHA}."
+            exit 0
+          fi
+
           if [ -n "$EXISTING" ]; then
             gh issue edit "$EXISTING" --repo "$I18N_REPO" --title "$TITLE" --body-file body.md
-            gh issue comment "$EXISTING" --repo "$I18N_REPO" --body "Re-queued. Translate at ${HEAD_SHA}."
+            if [ "$ACTION" = "synchronize" ]; then
+              gh issue comment "$EXISTING" --repo "$I18N_REPO" --body "The PR's head moved with no change to English. Translate at ${HEAD_SHA}."
+            else
+              gh issue comment "$EXISTING" --repo "$I18N_REPO" --body "Re-queued. Translate at ${HEAD_SHA}."
+            fi
             NUMBER="$EXISTING"
           else
             NUMBER=$(gh issue create --repo "$I18N_REPO" --title "$TITLE" --body-file body.md --label translation | sed -E 's#.*/issues/([0-9]+).*#\1#')

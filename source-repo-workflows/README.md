@@ -35,10 +35,12 @@ the workflow filename `i18n-completeness.yml`.
 While the label is on, every push to the PR is checked. A push that changes English, by
 anyone, takes the label off, comments on the PR asking a maintainer to re-apply it once the
 copy is final, and closes the open issue here as "not planned". A push that changes no
-English does nothing. Taking the label off by hand closes the issue the same way. "Changes
-English" is decided by `scripts/english-changes.mjs --push`, over the same registry as the
-issue itself, and only for files the PR touches, so merging `main` into the branch does
-not count.
+English keeps the label, and if the issue is still open it is rewritten at the new head: a
+rebase or force-push can drop the old sha out of the PR, and the translator refuses a sha
+that is not a commit of the PR. Taking the label off by hand closes the issue the same way
+as an English change does. "Changes English" is decided by `scripts/english-changes.mjs
+--push`, over the same registry as the issue itself, and only for files the PR touches, so
+merging `main` into the branch does not count.
 
 The issue is closed because an open issue is the translator's queue:
 `exercism/translator`'s retry sweep re-dispatches every open one, and it would translate a
