@@ -241,6 +241,8 @@ const decoder = new TextDecoder("utf-8", { fatal: true });
  *   path claims.
  * @param {Buffer|null} english  the English bytes, when known.
  */
+export const EMPTY_BLOB_ID = "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391";
+
 export function checkContentFile({ id, extension, bytes }, english = null) {
   const issues = [];
 
@@ -250,6 +252,9 @@ export function checkContentFile({ id, extension, bytes }, english = null) {
   } catch {
     return [issue(ERROR, "not valid UTF-8")];
   }
+  // An empty English file is filed under git's empty blob id, and its
+  // translation is the same empty file.
+  if (id === EMPTY_BLOB_ID && bytes.length === 0) return [];
   if (text.trim() === "") return [issue(ERROR, "empty file")];
 
   // Exact, and needs no English: a file whose own blob id is the id it is filed

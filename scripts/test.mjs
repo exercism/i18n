@@ -517,6 +517,8 @@ await test("a content file is checked from its bytes alone, and against English 
   assert.match(errorsOf(checkContentFile({ id, extension: ".json", bytes: Buffer.from("{nope") }))[0], /invalid JSON/);
   assert.deepEqual(errorsOf(checkContentFile({ id, extension: ".md", bytes: Buffer.from([0xff, 0xfe, 0x00]) })), ["not valid UTF-8"]);
   assert.deepEqual(errorsOf(checkContentFile({ id, extension: ".md", bytes: Buffer.from("  \n") })), ["empty file"]);
+  assert.deepEqual(errorsOf(checkContentFile({ id: "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391", extension: ".md", bytes: Buffer.alloc(0) })), []);
+  assert.deepEqual(errorsOf(checkContentFile({ id: "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391", extension: ".md", bytes: Buffer.from("\n") })), ["empty file"]);
 });
 
 // =================================================================== fixture ==
