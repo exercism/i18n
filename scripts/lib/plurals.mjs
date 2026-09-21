@@ -28,8 +28,12 @@ const CATEGORY_SET = new Set(CATEGORIES);
 const cache = new Map();
 
 /**
- * The plural categories `locale`'s grammar reaches, or null when it is not a
- * locale Intl has CLDR data for.
+ * The plural categories `locale`'s grammar reaches, in CATEGORIES order, or null
+ * when it is not a locale Intl has CLDR data for.
+ *
+ * The order is imposed here because the engine's is not stable: V8 in Node 20
+ * returns `pluralCategories` alphabetically (`few, many, one, other`), later V8
+ * in CLDR order. The same catalog must produce the same ERRORs on every runtime.
  *
  * Null rather than a guess: `new Intl.PluralRules("xx")` silently falls back to
  * the runtime default locale, and answering an unknown locale with English's
@@ -42,7 +46,8 @@ export function requiredCategories(locale, { ordinal = false } = {}) {
   let categories = null;
   try {
     if (Intl.PluralRules.supportedLocalesOf(locale).length > 0) {
-      categories = new Intl.PluralRules(locale, { type: ordinal ? "ordinal" : "cardinal" }).resolvedOptions().pluralCategories;
+      const reached = new Intl.PluralRules(locale, { type: ordinal ? "ordinal" : "cardinal" }).resolvedOptions().pluralCategories;
+      categories = CATEGORIES.filter((category) => reached.includes(category));
     }
   } catch {
     // A malformed tag throws rather than returning nothing. Same answer: unknown.
