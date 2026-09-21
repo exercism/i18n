@@ -3238,7 +3238,21 @@
         },
         "title_html": "Több mint <strong>%{count} programozási feladat.</strong> <br> Az „Allergiák”-tól a „Zebrarejtvény”-ig.",
         "subtitle": "Tanulj a gyakorlat által. Fejlődj a programozásban szórakoztató programozási feladatokkal, amelyek mélyítik a fogalmak megértését.",
-        "more_tracks": "+%{count} további"
+        "more_tracks": "+%{count} további",
+        "showcase": {
+          "allergies": {
+            "title": "Allergiák",
+            "blurb": "Adott egy személy allergiapontszáma; határozd meg, hogy allergiás-e egy adott dologra, és add meg a teljes allergialistáját."
+          },
+          "queen_attack": {
+            "title": "Királynőtámadás",
+            "blurb": "Két királynő sakktáblán elfoglalt helyzete alapján jelezd, hogy állásuk szerint tudják-e ütni egymást."
+          },
+          "zebra_puzzle": {
+            "title": "Zebrarejtvény",
+            "blurb": "Melyik lakó iszik vizet? Kié a zebra? Meg tudod oldani a Zebrarejtvényt kóddal?"
+          }
+        }
       },
       "mentoring_section": {
         "title_html": "Mélyítsd el a tudásodat emberi mentorálással, <strong>ingyen.</strong>",
