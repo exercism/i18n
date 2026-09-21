@@ -36,7 +36,7 @@ export function git(args, cwd, { input, encoding = "utf8", env } = {}) {
 // A blobless clone fetches a missing blob as soon as anything asks for it, one
 // blob per round trip. That is switched off wherever this file reads blobs, so
 // a missing blob is reported as missing, and `prefetchBlobs` fetches them once,
-// in bulk.
+// in bulk, or throws.
 const NO_LAZY_FETCH = { GIT_NO_LAZY_FETCH: "1" };
 
 /**
@@ -102,6 +102,8 @@ function localObjects(repo) {
   return new Set(git(["cat-file", "--batch-all-objects", "--batch-check=%(objectname)", "--unordered"], repo).split("\n"));
 }
 
+const pause = (ms) => Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, ms);
+
 /**
  * In a blobless clone, fetch the blobs about to be read, in one request.
  *
@@ -110,11 +112,15 @@ function localObjects(repo) {
  * and git's lazy fetch would get them one round trip at a time. This makes the
  * same request git's promisor code makes, once for the whole list.
  *
- * Does nothing in an ordinary clone. A failure is ignored: the blobs then read
- * as missing, and the caller reports which file it could not read, which is a
- * clearer error than the fetch's.
+ * Every id passed here must be one the remote holds, such as an id `lsTree`
+ * listed. A failed fetch is retried after each of `delays` (milliseconds), and
+ * if any blob is still missing after the last attempt this throws with git's
+ * own error. A network drop then stops the whole run, instead of surfacing
+ * later as a list of files whose English could not be read.
+ *
+ * Does nothing in an ordinary clone.
  */
-export function prefetchBlobs(repo, ids) {
+export function prefetchBlobs(repo, ids, { delays = [2000, 5000, 15000] } = {}) {
   let promisor = "";
   try {
     promisor = git(["config", "--get-regexp", "^remote\\..*\\.promisor$"], repo).trim();
@@ -127,16 +133,30 @@ export function prefetchBlobs(repo, ids) {
   // List what the object store already holds. Asking about the wanted ids
   // (`--batch-check` on stdin) would trigger the one-at-a-time fetch this
   // function avoids, on any git older than 2.45 (which added GIT_NO_LAZY_FETCH).
-  const local = new Set(git(["cat-file", "--batch-all-objects", "--batch-check=%(objectname)", "--unordered"], repo).split("\n"));
-  const missing = ids.filter((id) => !local.has(id));
-  if (missing.length === 0) return;
-  try {
-    git(["-c", "fetch.negotiationAlgorithm=noop", "fetch", remote, "--no-tags", "--no-write-fetch-head", "--recurse-submodules=no", "--filter=blob:none", "--stdin"], repo, {
-      input: `${missing.join("\n")}\n`
-    });
-  } catch {
-    // Reported by the caller as unreadable files.
+  const stillMissing = () => {
+    const local = new Set(git(["cat-file", "--batch-all-objects", "--batch-check=%(objectname)", "--unordered"], repo).split("\n"));
+    return [...new Set(ids)].filter((id) => !local.has(id));
+  };
+  let missing = stillMissing();
+  let lastError = "";
+  for (let attempt = 0; missing.length > 0 && attempt <= delays.length; attempt++) {
+    if (attempt > 0) pause(delays[attempt - 1]);
+    try {
+      git(["-c", "fetch.negotiationAlgorithm=noop", "fetch", remote, "--no-tags", "--no-write-fetch-head", "--recurse-submodules=no", "--filter=blob:none", "--stdin"], repo, {
+        input: `${missing.join("\n")}\n`
+      });
+      lastError = "";
+    } catch (error) {
+      lastError = error.stderr?.toString().trim() || error.message;
+    }
+    missing = stillMissing();
   }
+  if (missing.length === 0) return;
+  const tries = delays.length + 1;
+  throw new Error(
+    `could not fetch ${missing.length} blob(s) from "${remote}" into the blobless clone ${repo} (${tries} attempt${tries === 1 ? "" : "s"}), first ${missing[0]}.\n` +
+      (lastError ? `git said: ${lastError}` : "git fetch reported success, but the blobs are still not in the object store.")
+  );
 }
 
 /**
@@ -146,14 +166,17 @@ export function prefetchBlobs(repo, ids) {
  * and one process each turns a one-second build into half a minute. An id the
  * repo does not hold comes back as `null` without throwing, because validate
  * deliberately asks whether some English is in any of the repos it was given.
+ * Such a caller passes `prefetch: false`. With the default, every id is one the
+ * caller knows the repo holds, and a blob that cannot be fetched throws (see
+ * `prefetchBlobs`).
  *
  * @returns {Map<string, Buffer|null>}
  */
-export function readBlobs(repo, ids, { prefetch = true } = {}) {
+export function readBlobs(repo, ids, { prefetch = true, delays } = {}) {
   const wanted = [...new Set(ids)];
   const result = new Map();
   if (wanted.length === 0) return result;
-  if (prefetch) prefetchBlobs(repo, wanted);
+  if (prefetch) prefetchBlobs(repo, wanted, { delays });
 
   // Git before 2.45 ignores GIT_NO_LAZY_FETCH, and in a blobless clone each id
   // that is not here would be fetched from the remote one at a time. Checking

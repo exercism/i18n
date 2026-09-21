@@ -574,6 +574,42 @@ await test("fixture: git objects are read without a working tree being involved"
   assert.equal(blobs.get("0".repeat(40)), null);
 });
 
+function bloblessClone(source, name) {
+  gitIn(source, "config", "uploadpack.allowFilter", "true");
+  gitIn(source, "config", "uploadpack.allowAnySHA1InWant", "true");
+  const dir = path.join(TMP, name);
+  gitIn(TMP, "clone", "--quiet", "--bare", "--filter=blob:none", `file://${source}`, dir);
+  return dir;
+}
+const heldObjects = (repo) => gitIn(repo, "cat-file", "--batch-all-objects", "--batch-check=%(objectname)").split("\n");
+
+await test("blobless clone: the blobs a caller reads are fetched in one request, then read", () => {
+  const clone = bloblessClone(TRACK, "ruby-blobless");
+  const entries = lsTree(clone, "HEAD");
+  assert.ok(!entries.some((entry) => heldObjects(clone).includes(entry.id)));
+  const blobs = readBlobs(clone, entries.map((entry) => entry.id), { delays: [] });
+  assert.equal(blobs.get(blobId("# About\n\nRuby is nice.\n")).toString(), "# About\n\nRuby is nice.\n");
+  assert.ok(entries.every((entry) => blobs.get(entry.id) !== null));
+});
+
+await test("blobless clone: an id the remote does not hold is a fetch error, unless the caller asked not to fetch", () => {
+  const clone = bloblessClone(TRACK, "ruby-blobless-unknown");
+  assert.throws(() => readBlobs(clone, ["0".repeat(40)], { delays: [] }), /could not fetch 1 blob\(s\)[\s\S]*git said: /);
+  assert.equal(readBlobs(clone, ["0".repeat(40)], { prefetch: false }).get("0".repeat(40)), null);
+});
+
+await test("blobless clone: an unreachable remote is retried, then stops the run with git's error", () => {
+  const clone = bloblessClone(TRACK, "ruby-blobless-offline");
+  gitIn(clone, "remote", "set-url", "origin", `file://${path.join(TMP, "nowhere")}`);
+  const [entry] = lsTree(clone, "HEAD");
+  assert.throws(() => readBlobs(clone, [entry.id], { delays: [0, 0] }), (error) => {
+    assert.match(error.message, /could not fetch 1 blob\(s\) from "origin" .*\(3 attempts\)/);
+    assert.match(error.message, /git said: .*nowhere/);
+    return true;
+  });
+  assert.equal(readBlobs(clone, [entry.id], { prefetch: false }).get(entry.id), null);
+});
+
 let ENGLISH;
 await test("fixture: the website flattens to two catalogs, minus exclusions, other roots and orphans", async () => {
   ENGLISH = await buildWebsiteEnglish(refReader(WEBSITE, "HEAD"), { exclusions: loadExclusions(SCRIPTS_ROOT) });
