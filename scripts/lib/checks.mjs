@@ -1,40 +1,39 @@
-// The mechanical checks, in two levels:
+// The mechanical checks, at two levels:
 //
-//   ERROR  a structural fact that is true or false, AND one a correct
-//          translation can never have (a unit English has and the locale does
-//          not, a plural group missing a category the language's grammar
-//          reaches, a changed placeholder, a changed tag, a content file filed
-//          under something that is not a blob id). Blocks.
-//   WARN   a heuristic that produces false positives BY DESIGN, or a fact a
-//          correct translation legitimately CAN have (a key English does not
-//          have). There to be read by a human, and never to be promoted.
+//   ERROR  a structural fact that a correct translation can never have: a unit
+//          English has and the locale does not, a plural group missing a
+//          category the language's grammar uses, a changed placeholder, a
+//          changed tag, a content file filed under something that is not a
+//          blob id. Blocks.
+//   WARN   a heuristic that is expected to flag some correct text, or a fact a
+//          correct translation can legitimately have (a key English does not
+//          have). For a person to read. Never turn one into an ERROR.
 //
-// ## Excess is never an error. Absence always is.
+// ## Extra units are never an error
 //
-// A locale holding something English does not is EXCESS: reported, never fatal.
-// The reason is the ordering the whole pipeline is built on. A source repo's PR
-// cannot merge until its translations are HERE, so translation deliberately runs
-// ahead of English merging, and this repo routinely and correctly holds
-// translations of English that is still on an unmerged branch. Read against the
-// source repo's main, that correct state looks like extra keys. The same shape
-// arrives from the other end too: English drops a key and the translation still
-// carries it while the old release is being served.
+// A locale holding something English does not is reported, never fatal. A
+// source repo's PR cannot merge until its translations are here, so
+// translation runs ahead of English merging, and this repo often holds
+// translations of English that is still on an unmerged branch. Checked against
+// the source repo's main, those look like extra keys. It also happens the
+// other way round: English drops a key, and the translation still has it while
+// the old release is being served.
 //
-// ## Staleness is a third thing, and it does not block HERE
+// ## Staleness is counted, and does not block here
 //
-// A unit stamped against older English is neither excess nor absence. In Jiki's
-// repo that is an error; here it is a counted STATE (catalogs.mjs `unitState`)
-// and never an issue, for the same ordering reason: a translation made against a
-// PR's English is "stale" against main until that PR merges, and it is right.
-// What holds an English edit to account is the source PR's own completeness
-// check, which compares against exactly the English that PR holds.
+// A unit stamped against older English is neither extra nor missing. In Jiki's
+// repo that is an error. Here it is a counted state (catalogs.mjs `unitState`)
+// and is never reported as an issue, for the same reason: a translation made
+// against a PR's English is "stale" against main until that PR merges, and it
+// is still correct. English edits are caught by the source PR's own
+// completeness check, which compares against exactly the English in that PR.
 //
-// ## Missing is an error only where somebody is held to it
+// ## Missing units are an error only when required
 //
-// A young locale legitimately has almost nothing, and a wall of "missing key"
-// errors buries the real ones. So a missing unit is a counted state by default
-// and an ERROR only when the caller passes `requireComplete`, which validate does
-// for production locales and under `--complete`.
+// A new locale legitimately has very little, and hundreds of "missing key"
+// errors would hide the real ones. So a missing unit is counted by default and
+// is an ERROR only when the caller passes `requireComplete`, which validate
+// does for production locales and under `--complete`.
 
 import { CATEGORIES, PLURAL_SPELLING, isOptionalCategory, requiredCategories } from "./plurals.mjs";
 import { claimedKeys, englishUnits, targetEntries } from "./catalogs.mjs";
@@ -43,20 +42,20 @@ import { blobId } from "./git.mjs";
 export const ERROR = "ERROR";
 export const WARN = "WARN";
 
-// `unit` ties a catalog issue to the unit it is about, so validate can stamp the
-// units that passed without being held up by a neighbour that did not.
+// `unit` links a catalog issue to its unit, so validate can stamp the units that
+// passed even when another unit failed.
 const issue = (level, message, unit = null) => ({ level, message, unit });
 
 // ------------------------------------------------------------- placeholders --
 
-// Each catalog has ONE interpolation syntax, and it is immutable, inner name
-// included. Word order may move a placeholder; nothing else may.
+// Each catalog has one interpolation syntax. A translation must keep every
+// placeholder exactly, including its name, but may move it.
 const PLACEHOLDER_PATTERNS = {
   // Rails: `%{name}`, and the rarer sprintf form `%<name>s`.
   backend: [/%\{[\w.]+\}/g, /%<\w+>[-+0 #]*\d*(?:\.\d+)?[a-zA-Z]/g],
-  // i18next: `{{name}}`, `{{count, number}}`, and nesting, `$t(other.key)`.
   // Metadata is plain prose and Markdown: the website interpolates nothing into it.
   metadata: [],
+  // i18next: `{{name}}`, `{{count, number}}`, and nesting, `$t(other.key)`.
   frontend: [/\{\{\s*-?\s*[\w.]+\s*(?:,[^}]*)?\}\}/g, /\$t\([^)]*\)/g]
 };
 
@@ -71,12 +70,12 @@ export function placeholders(kind, value) {
 /**
  * Every tag in a value, as `{ name, token }`.
  *
- * Covers both sides' markup with one pattern: real HTML in a Rails `_html` key
+ * One pattern covers both sides' markup: real HTML in a Rails `_html` key
  * (`<a href="%{path}" class="...">`), and `<Trans>` component tags in a bundle,
  * which are either indexed (`<0>`, `</0>`) or named (`<strong>`, `<trackTitle>`).
- * The bundles also hold `<0/>` where `</0>` was meant; it is compared by name
- * like anything else, so a translation that reproduces it passes and so does one
- * that writes the closing tag properly.
+ * The bundles also contain `<0/>` where `</0>` was meant. Tags are compared by
+ * name, so a translation passes whether it copies `<0/>` or writes the closing
+ * tag correctly.
  */
 export function tags(value) {
   return [...String(value).matchAll(/<\/?\s*([A-Za-z0-9][\w-]*)\b[^<>]*>/g)].map((match) => ({ name: match[1], token: match[0] }));
@@ -96,21 +95,21 @@ function checkValue({ kind, where, source, value, issues, unitId }) {
     issues.push(issue(ERROR, `${where}: empty value`, unitId));
     return false;
   }
-  // English authored with a YAML folded scalar ends in a newline, and some keys
-  // carry a deliberate leading or trailing space because they are concatenated
-  // in a template. Matching English is the rule, and a mismatch is a WARN: it is
-  // usually harmless and occasionally glues two words together.
+  // English written as a YAML folded scalar ends in a newline, and some keys have
+  // a deliberate leading or trailing space because they are joined in a
+  // template. Translations should match English. A mismatch is a WARN, because
+  // it is usually harmless but occasionally joins two words together.
   const edge = (text) => [text.match(/^\s*/)[0], text.match(/\s*$/)[0]].join("|");
   if (edge(value) !== edge(source)) issues.push(issue(WARN, `${where}: leading or trailing whitespace differs from English`, unitId));
   return true;
 }
 
 /**
- * One catalog against its English. Both arguments are FLAT maps.
+ * One catalog against its English. Both arguments are flat maps.
  *
- * Parity is by UNIT (see plurals.mjs and catalogs.mjs): an ordinary key is
- * present or absent, and a plural group is present when the locale holds every
- * category ITS OWN grammar reaches, whatever English holds.
+ * Parity is counted by unit (see plurals.mjs and catalogs.mjs): an ordinary key
+ * is present or absent, and a plural group is present when the locale holds
+ * every category its own grammar uses, whatever English holds.
  *
  * @param {object} options
  * @param {"backend"|"frontend"} options.kind
@@ -142,11 +141,11 @@ export function checkCatalog(flatEnglish, flatTarget, { kind, locale, requireCom
       continue;
     }
 
-    // A plural group. The categories that matter are the LOCALE's. Rails raises
+    // A plural group. The categories that matter are the locale's. Rails raises
     // I18n::InvalidPluralizationData when the category a count resolves to is
-    // absent, and i18next renders the raw key, so a group short of a category its
-    // grammar reaches is broken for some counts and fine for others, which is
-    // exactly the kind of bug nobody finds by looking at a page.
+    // missing, and i18next renders the raw key. So a group missing a category
+    // its grammar uses is broken for some counts only, which is easy to miss
+    // when looking at a page.
     const required = requiredCategories(locale, { ordinal: unit.ordinal });
     if (required === null) {
       issues.push(issue(ERROR, `${unit.id}: cannot tell which plural categories "${locale}" needs (no CLDR data for it in this runtime)`, unit.id));
@@ -171,12 +170,12 @@ export function checkCatalog(flatEnglish, flatTarget, { kind, locale, requireCom
     }
   }
 
-  // An EXTRA key is not the mirror image of a missing one. See the header: a
-  // catalog is meant to be a superset for a while. The WARN names every key,
-  // because that is the only thing that tells a key landing ahead of its English
-  // from one left over from a shape nobody has used in a year. A MISSPELLED key
-  // is not lost by this: the key the translator meant is then absent, which is
-  // the missing unit above.
+  // Extra keys are treated differently from missing ones (see the header): a
+  // catalog is expected to hold more than English for a while. The WARN names
+  // every key, since that is the only way to tell a key that arrived ahead of
+  // its English from one left over from old English. A misspelled key is still
+  // caught: the key the translator meant is then missing, which is reported
+  // above.
   const claimed = claimedKeys(kind, units);
   const extra = Object.keys(flatTarget).filter((key) => !claimed.has(key));
   for (const key of extra) issues.push(issue(WARN, `key not in English: ${key} (fine while English catches up; stale if English never had it)`));
@@ -187,12 +186,12 @@ export function checkCatalog(flatEnglish, flatTarget, { kind, locale, requireCom
 /**
  * Placeholders and tags of one translated value against its English.
  *
- * `sources` is one string for an ordinary key and EVERY category's string for a
+ * `sources` is one string for an ordinary key and every category's string for a
  * plural group, because the categories do not line up: English's `one` is often
- * "1 slot filled" with no `%{count}`, and the Polish `few` it has no counterpart
- * for must say the number. So a group's value may use any placeholder any English
- * category uses, and only `other`, which every language has, must carry
- * everything English's `other` does (`mustCover`).
+ * "1 slot filled" with no `%{count}`, while a Polish `few`, which has no English
+ * equivalent, must include the number. So a group's value may use any
+ * placeholder that any English category uses, and only `other`, which every
+ * language has, must include everything English's `other` does (`mustCover`).
  */
 function compareMarkup({ kind, where, sources, value, issues, unitId, mustCover = null }) {
   const allowed = new Set(sources.flatMap((source) => placeholders(kind, source)));
@@ -219,8 +218,9 @@ function compareMarkup({ kind, where, sources, value, issues, unitId, mustCover 
   if (match === undefined) {
     issues.push(issue(ERROR, `${where}: tags changed (English: ${names(tags(sources[0])) || "none"}, translation: ${names(valueTags) || "none"})`, unitId));
   } else {
-    // Same tags, different attributes: a class, an href, a target. Nothing in an
-    // attribute is copy, so a difference is nearly always a model "tidying" HTML.
+    // Same tags with different attributes (a class, an href, a target).
+    // Attributes hold no copy, so a difference nearly always means a model
+    // rewrote the HTML.
     const tokens = (list) => list.map((tag) => tag.token.replace(/\s+/g, " ")).sort().join("|");
     if (tokens(tags(match)) !== tokens(valueTags)) issues.push(issue(WARN, `${where}: a tag's attributes differ from English`, unitId));
   }
@@ -231,10 +231,10 @@ function compareMarkup({ kind, where, sources, value, issues, unitId, mustCover 
 const decoder = new TextDecoder("utf-8", { fatal: true });
 
 /**
- * One blob-keyed content file, from its bytes and where it is filed.
+ * One blob-keyed content file, checked from its bytes and where it is filed.
  *
- * Almost everything here needs NO English: that is the point of the store. The
- * one check that uses English is structural, runs only when the caller found the
+ * Almost none of these checks need English, which is what the store is designed
+ * for. The one that does is structural, runs only when the caller found the
  * English blob in a checkout it was given, and is skipped otherwise.
  *
  * @param {object} file  `{ id, extension, bytes }`, `id` being the blob id the
@@ -252,11 +252,10 @@ export function checkContentFile({ id, extension, bytes }, english = null) {
   }
   if (text.trim() === "") return [issue(ERROR, "empty file")];
 
-  // Exact, and needs no English at all: a file whose own blob id is the id it is
-  // filed under IS the English file. It satisfies every structural check there
-  // could ever be, which is why it gets one of its own. A WARN and not an ERROR
-  // because a file with nothing in it to translate (a page that is one code
-  // block) is legitimately identical.
+  // Exact, and needs no English: a file whose own blob id is the id it is filed
+  // under is the English file itself. It would pass every structural check, so
+  // it gets a check of its own. It is a WARN, because a file with nothing to
+  // translate (a page that is one code block) is legitimately identical.
   if (blobId(bytes) === id) issues.push(issue(WARN, "byte-identical to its English (copied, not translated; legitimate only if there is nothing to translate)"));
 
   if (extension === ".json") {
@@ -268,17 +267,17 @@ export function checkContentFile({ id, extension, bytes }, english = null) {
   }
 
   if (extension === ".md") {
-    // There is no staleness here by construction, so a stamp is a sign that a
-    // pass built for Jiki's repo wrote this file, and that it may have written
-    // frontmatter into a document whose English has none.
+    // Content has no staleness, so a stamp means a pass built for Jiki's repo
+    // wrote this file, and it may have added frontmatter to a document whose
+    // English has none.
     if (/^---\n[\s\S]*?\ben_md5\s*:/.test(text)) issues.push(issue(ERROR, "carries an `en_md5` stamp: blob-keyed content has no staleness and no stamp"));
 
     if (english !== null) {
       const source = english.toString("utf8");
       const count = (body, pattern) => (body.match(pattern) ?? []).length;
-      // Both directions are errors. "More headings than English" cannot be an
-      // ahead-of-merge translation here: a different English is a different blob
-      // id, so this file is a translation of exactly these bytes or of nothing.
+      // A difference in either direction is an error. Unlike a catalog, a content
+      // file cannot be ahead of English: different English has a different blob
+      // id, so this file translates exactly these bytes.
       for (const [what, pattern] of [
         ["fenced code block fences", /^\s*(?:```|~~~)/gm],
         ["headings", /^#{1,6}\s/gm]
@@ -286,12 +285,12 @@ export function checkContentFile({ id, extension, bytes }, english = null) {
         const [en, target] = [count(source, pattern), count(text, pattern)];
         if (en !== target) issues.push(issue(ERROR, `${what}: English has ${en}, translation has ${target}`));
       }
-      // `%{name}` is interpolated at render time into an analyzer comment
+      // The website fills `%{name}` into an analyzer comment when rendering it
       // (website: app/models/submission/analysis.rb), and a renamed or dropped
-      // one renders as an empty hole in a sentence. The blob id says nothing about
-      // which content type a file is, so the rule is applied to every file whose
-      // English carries the tokens: in any other document they sit in code, which
-      // a translation reproduces anyway.
+      // token renders as a gap in a sentence. The blob id does not say which
+      // content type a file is, so the rule applies to every file whose English
+      // has these tokens. In other documents they sit in code, which a
+      // translation copies anyway.
       const tokens = (body) => new Set(body.match(/%\{\w+\}/g) ?? []);
       const [enTokens, targetTokens] = [tokens(source), tokens(text)];
       const changed = [...enTokens].filter((token) => !targetTokens.has(token)).concat([...targetTokens].filter((token) => !enTokens.has(token)));

@@ -1,25 +1,25 @@
-// Text that is NOT a whole file: titles, names and blurbs inside config.json and
-// metadata.toml. One KEYED catalog per source repo per locale.
+// Text that is not a whole file: titles, names and blurbs inside config.json
+// and metadata.toml. One keyed catalog per source repo per locale.
 //
 //   locales/<locale>/metadata/<repo>.json        { "<key>": "<translation>" }
 //   locales/<locale>/metadata/<repo>.meta.json   per-unit stamps, as for the website
 //
 // `<repo>` is the GitHub repository's name: `ruby`, `problem-specifications`,
-// `docs`, `blog`. The catalog is FLAT on disk, because its keys carry slugs, and
-// a docs slug contains `/` and may contain `.`, so no separator is safe to nest
-// on. A key is an opaque string everywhere except here.
+// `docs`, `blog`. The catalog is flat on disk because its keys contain slugs,
+// and a docs slug contains `/` and may contain `.`, so no separator is safe to
+// nest on. Outside this file a key is treated as an opaque string.
 //
-// ## Why keys and not blob ids
+// ## Keyed by slug
 //
 // Whole files are filed under the blob id of their English because an old
-// version of an exercise is still served to the people solving it, so a
-// translation has to be of exactly those bytes forever. None of that holds for
-// this text: the website syncs it into DATABASE COLUMNS (tracks.blurb,
-// exercises.title, exercises.blurb, documents.title, ...) and only ever shows the
-// latest. So it is a catalog like the website's own: a key names a slot, the
-// slot's English can be edited, and the per-unit stamp (catalogs.mjs) is what
-// notices. An edited blurb is a STALE unit, and the source PR's completeness
-// check blocks on it exactly as it does on an edited website key.
+// version of an exercise is still served to people solving it, so a
+// translation has to match exactly those bytes. That does not apply to this
+// text: the website copies it into database columns (tracks.blurb,
+// exercises.title, exercises.blurb, documents.title, ...) and only shows the
+// latest. So it works like the website's own catalogs: a key names a slot, the
+// slot's English can be edited, and the per-unit stamp (catalogs.mjs) detects
+// the edit. An edited blurb is a stale unit, and the source PR's completeness
+// check blocks on it just as it does on an edited website key.
 //
 // ## Keys are slugs, never positions
 //
@@ -33,18 +33,18 @@
 //   blog                      post:<slug>:title | description | marketing_copy
 //                             story:<slug>:title | blurb
 //
-// Reordering config.json therefore changes nothing. A RENAMED exercise is a new
-// slug, so new keys, which are required like any new text; the old keys stay in
-// every locale's catalog, inert, reported as "key not in English". The same for a
-// removed one. Nothing is ever deleted from a locale's catalog
-// (scripts/no-deletions.mjs), and nothing needs to be: a key nobody asks for
+// So reordering config.json changes nothing. A renamed exercise has a new
+// slug, so new keys, which are required like any new text; the old keys stay
+// in every locale's catalog, unused, reported as "key not in English". The
+// same applies to a removed exercise. Nothing is ever deleted from a locale's
+// catalog (scripts/no-deletions.mjs), and there is no need to: an unused key
 // costs nothing.
 //
-// A key feature has no slug. Its `icon` is the nearest thing to an identity, so
-// that is its key. Two features sharing an icon get `<icon>~2`, which is
-// position-dependent and is said out loud in `notes`.
+// A key feature has no slug. Its `icon` is the closest thing to an identity,
+// so that is its key. When two features share an icon, the later one gets
+// `<icon>~2`, which depends on position and is reported in `notes`.
 //
-// ## ONLY what a user is shown
+// ## Only what a user is shown
 //
 // Every field below was traced through the website's ingest at origin/main.
 // Everything else in these files is data and is never extracted: uuids, slugs,
@@ -57,13 +57,13 @@
 //     exercises.concept[] and .practice[] .name
 //                             -> exercises.title
 //     concepts[].name         -> concepts.name
-//     NOT `language`: it becomes tracks.title, and "Ruby" is a proper name.
-//     NOT `tags`: they are CODES ("paradigm/functional"). The words a user reads
+//     Not `language`: it becomes tracks.title, and "Ruby" is a proper name.
+//     Not `tags`: they are codes ("paradigm/functional"). The words a user reads
 //       come from Track::TAGS in the website's own Ruby, which is website copy.
 //   exercises/<type>/<slug>/.meta/config.json       app/models/git/exercise.rb
 //     blurb                   -> exercises.blurb
 //     source                  -> tracks/exercises/show/_instructions.html.haml
-//     NOT `source_url`. Only for exercises the track's config.json LISTS: the
+//     Not `source_url`. Only for exercises the track's config.json lists: the
 //       website never syncs a directory the config does not name.
 //   concepts/<slug>/.meta/config.json               app/models/git/concept.rb
 //     blurb                   -> concepts.blurb. Listed concepts only.
@@ -72,7 +72,7 @@
 //   exercises/<slug>/metadata.toml  app/models/git/problem_specifications/exercise.rb
 //     title, blurb, source, deep_dive_blurb
 //                             -> generic_exercises (app/commands/git/sync_problem_specifications.rb)
-//     NOT `source_url`, `deep_dive_youtube_id`.
+//     Not `source_url`, `deep_dive_youtube_id`.
 //   <section>/config.json (docs)    app/commands/git/sync_main_docs.rb, sync_doc.rb
 //     [].title, [].blurb      -> documents.title, documents.blurb. The five
 //                                synced sections only.
@@ -82,12 +82,12 @@
 //
 // ## Identical English across tracks
 //
-// "Two Fer" and its blurb appear, byte for byte, in dozens of tracks' catalogs.
-// Deduplicating that is the TRANSLATOR's job at translate time and is not built
-// here. The format makes it cheap: a unit's stamp is the git blob id of its
-// English string (catalogs.mjs `stringId`), so "has any repo's catalog already
-// translated this exact English?" is a lookup of one hash across the
-// `*.meta.json` files of a locale.
+// "Two Fer" and its blurb appear byte for byte in dozens of tracks' catalogs.
+// Deduplicating them is left to the translator at translate time and is not
+// built here. The format makes it cheap: a unit's stamp is the git blob id of
+// its English string (catalogs.mjs `stringId`), so checking whether any repo's
+// catalog has already translated this exact English is a lookup of one hash
+// across a locale's `*.meta.json` files.
 
 import fs from "node:fs";
 import path from "node:path";
@@ -128,12 +128,13 @@ export function heldMetadataRepos(locale) {
 /**
  * The string values of a flat TOML file, for the keys asked for.
  *
- * Deliberately not a TOML parser. Every metadata.toml in
- * problem-specifications@7c8c837f (151 of them) is `key = "basic string"` lines
- * and nothing else, and a basic string's escapes are JSON's. A wanted key whose
- * value is any other shape (a multi-line string, a literal string, a table) is a
- * HARD FAIL naming the file: skipping it would drop a title from English, and
- * text English does not list is text nothing requires a translation of.
+ * Deliberately not a full TOML parser. Every metadata.toml in
+ * problem-specifications@7c8c837f (151 of them) contains only
+ * `key = "basic string"` lines, and a basic string's escapes are the same as
+ * JSON's. A wanted key with any other kind of value (a multi-line string, a
+ * literal string, a table) fails with an error naming the file: skipping it
+ * would drop a title from English, and text English does not list is never
+ * required to be translated.
  */
 export function readTomlStrings(text, wanted, file = "<toml>") {
   const out = {};
@@ -169,9 +170,9 @@ function put(catalog, key, value) {
   if (typeof value === "string" && value.trim() !== "") catalog[key] = value;
 }
 
-// A slug with a `:` in it would make a key ambiguous, and an entry with no slug
-// has no stable identity at all. Neither is silently dropped: text English does
-// not list is text nothing requires, so it is said out loud.
+// A slug containing `:` would make a key ambiguous, and an entry with no slug
+// has no stable identity. Text English does not list is never required, so
+// neither is dropped without a note.
 function slugOk(slug, notes, where) {
   if (typeof slug === "string" && slug !== "" && !slug.includes(":")) return true;
   notes.push(`${where}: an entry with the slug ${JSON.stringify(slug ?? null)} was skipped (a slug must be a non-empty string without ":")`);
@@ -284,7 +285,7 @@ const EXTRACTORS = { track: extractTrack, "problem-specifications": extractProbl
  *
  * @param {string} kind  a REPO_KINDS id
  * @param {{path,id}[]} entries  the repo's tree (`git ls-tree`)
- * @param {(entries) => {path,id,text}[]} read  reads blobs as text, as DATA
+ * @param {(entries) => {path,id,text}[]} read  reads blobs as text (as data)
  * @returns {{ catalog, notes, files }} `files` is how many files were read.
  *   A kind with no metadata (the website, website-copy) is an empty catalog.
  */
@@ -303,19 +304,19 @@ export const keyField = (key) => key.slice(key.lastIndexOf(":") + 1);
 // ------------------------------------------------------- one file on its own --
 
 /**
- * The copy ONE metadata source file holds, under the same keys the catalog uses.
+ * The copy one metadata source file holds, under the same keys the catalog uses.
  *
- * `buildMetadataEnglish` needs a whole tree, because which exercises count is
- * decided by the track's config.json. The queue does not have a tree: it has a
- * PR's file list and, at most, the two versions of each changed file. This
- * answers the only question it asks, "did this change touch any COPY in this
- * file?", by comparing the result for the two versions. Most edits to a
- * config.json touch none (a uuid, a file list, a prerequisite), and an issue
- * opened for those would be a translation run that finds nothing to do.
+ * `buildMetadataEnglish` needs a whole tree, because the track's config.json
+ * decides which exercises count. The queue has no tree: it has a PR's file list
+ * and, at most, the two versions of each changed file. This answers the one
+ * question the queue asks, "did this change touch any copy in this file?", by
+ * comparing the result for the two versions. Most config.json edits touch no
+ * copy (a uuid, a file list, a prerequisite), and an issue for those would be a
+ * translation run with nothing to do.
  *
- * It can disagree with the catalog in one direction only: it reports the blurb
- * of an exercise the track's config does not list. That over-reports, which for
- * a queue is the safe direction, and the completeness check is what decides.
+ * It can only differ from the catalog in one way: it reports the blurb of an
+ * exercise the track's config does not list. That over-reports, which is the
+ * safe side for a queue, and the completeness check makes the final decision.
  *
  * @param {string} typeId  the file's content type (content-types.mjs)
  */

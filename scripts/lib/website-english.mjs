@@ -1,33 +1,34 @@
-// The catalog flattening step: many English files in `website`, two catalogs out.
+// Flattens the website's English: many files in `website`, two catalogs out.
 //
-// English for the website's UI is authored where it is rendered and stays there:
+// English for the website's UI is written where it is rendered and stays there:
 //
 //   config/locales/**/*.yml           Rails YAML, under an `en:` root key
 //   app/javascript/i18n/en/*.ts       i18next bundles, mapped to namespaces by
 //                                     app/javascript/i18n/en/index.ts
 //
-// This flattens each side into ONE flat catalog (see catalogs.mjs for the key
-// spelling), minus the areas website-exclusions.json says are never translated.
-// The checker, coverage, completeness and a translation pass all read English
-// through here and nowhere else, so none of them knows or cares how the website
-// splits its files, and the website is free to move them.
+// This flattens each side into one flat catalog (see catalogs.mjs for the key
+// format), minus the areas website-exclusions.json marks as never translated.
+// The checker, coverage, completeness and translation passes all read English
+// through here, so none of them depends on how the website splits its files,
+// and the website can move them freely.
 //
-// It reads through a `reader` (scripts/lib/git.mjs `refReader`, or a plain object
-// in the tests), never through the filesystem, so the same code reads website
-// main, a PR's head, or a fixture, and never executes any of it.
+// It reads through a `reader` (scripts/lib/git.mjs `refReader`, or a plain
+// object in the tests), never the filesystem, so the same code reads website
+// main, a PR's head or a fixture, and never executes any of it.
 //
-// ## What is NOT English
+// ## What is not English
 //
 //  - Any root key other than `en`. At 102577eb config/locales/pages/track.yml
-//    holds `hu:` and `nl:` roots beside `en:`, translations that predate this
-//    repo. Ignoring them is CORRECT and is a decision (iHiD): those two trees
-//    will NOT be migrated here. Hungarian and Dutch are redone from scratch with
-//    the current engine, like every other locale. They are still reported in
-//    `notes`, so that a new non-English root appearing in the website is seen.
-//  - A leaf that is not a string (a number, a boolean, null). Nothing to
-//    translate, so it never becomes a key. Counted in `notes`.
-//  - A bundle file index.ts does not import. i18next never sees it, so requiring
-//    a translation of it would block PRs on text no user can reach.
+//    has `hu:` and `nl:` roots beside `en:`, translations older than this
+//    repo. Ignoring them is deliberate (decided by iHiD): those two trees will
+//    not be migrated here, and Hungarian and Dutch are translated again from
+//    scratch with the current engine, like every other locale. They are still
+//    reported in `notes`, so a new non-English root in the website gets
+//    noticed.
+//  - A leaf that is not a string (a number, a boolean, null). There is nothing
+//    to translate, so it never becomes a key. Counted in `notes`.
+//  - A bundle file index.ts does not import. i18next never loads it, so
+//    requiring a translation of it would block PRs on text no user can see.
 
 import fs from "node:fs";
 import path from "node:path";
@@ -38,7 +39,7 @@ export const BACKEND_DIR = "config/locales";
 export const FRONTEND_DIR = "app/javascript/i18n/en";
 export const FRONTEND_INDEX = `${FRONTEND_DIR}/index.ts`;
 
-/** The paths a change to which may change website English. Used by the queue. */
+/** Whether a change to this path can change website English. Used by the queue. */
 export function isWebsiteEnglishPath(file) {
   return (file.startsWith(`${BACKEND_DIR}/`) && /\.ya?ml$/.test(file)) || (file.startsWith(`${FRONTEND_DIR}/`) && file.endsWith(".ts"));
 }
@@ -70,11 +71,11 @@ const excludedKey = (key, prefixes) => prefixes.some((prefix) => key === prefix 
 let yamlModule = null;
 
 /**
- * The ONE dependency in this repo, loaded only by the code that reads Rails
- * YAML. Folded scalars, multi-line plain scalars, anchors and quoting rules are
- * all in the website's files, and a hand-rolled reader that got one of them
- * subtly wrong would produce English that differs from what Rails renders, with
- * nothing to notice. Everything else here still runs on a bare `node`.
+ * The one dependency in this repo, loaded only by the code that reads Rails
+ * YAML. The website's files use folded scalars, multi-line plain scalars,
+ * anchors and various quoting rules, and a hand-written reader that got one of
+ * them subtly wrong would produce English different from what Rails renders,
+ * without anyone noticing. Everything else here runs on plain `node`.
  */
 async function yaml() {
   if (yamlModule) return yamlModule;
@@ -136,9 +137,9 @@ export async function buildBackendEnglish(reader, exclusions) {
         }
         if (excludedKey(key, exclusions.backendKeys)) return;
         // Rails deep-merges its load path and the last file wins. Two files
-        // defining one key differently is almost always a mistake over there, and
-        // which one Rails picks depends on a load order this repo cannot see, so
-        // it is said out loud rather than resolved quietly.
+        // defining one key differently is almost always a mistake in the website,
+        // and which one Rails picks depends on a load order this repo cannot
+        // see, so it is reported in `notes` (here the later file wins).
         if (key in catalog && catalog[key] !== value) notes.push(`${key}: defined differently in ${origin[key]} and ${entry.path}; the later file wins here`);
         catalog[key] = value;
         origin[key] = entry.path;

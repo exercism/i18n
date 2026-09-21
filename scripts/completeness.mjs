@@ -14,46 +14,45 @@
 //
 // Exit codes: 0 every locale asked about holds everything required, 1 otherwise.
 //
-// ## This is the blocking check
+// ## The blocking check
 //
-// A production-locale user never sees untranslated text. So every repo that holds
-// English runs this on every PR, and the PR cannot merge until it passes: the
-// translations have to be HERE first. source-repo-workflows/ has the workflow a
-// source repo installs, and that workflow is three lines around this script, so
-// that what "complete" means is decided in one place rather than in eighty-five
-// copies of a YAML file.
+// Every repo that holds English runs this on every PR, and once it is a
+// required check the PR cannot merge until it passes, so the translations have
+// to land here first. That way users of a production locale never see
+// untranslated text. source-repo-workflows/i18n-completeness.yml is the
+// workflow a source repo installs. It only fetches and runs this script, so
+// what "complete" means is defined in one place.
 //
 // ## Which locales
 //
-// `productionTargets` from locales.json (today `hu`), unless `--locales` names
-// others. With an empty production list there is nobody to hold a PR to, so this
-// exits 0 and says so, loudly: it is not a pass, it is an absence of a gate.
+// `productionTargets` from locales.json (currently `hu`), unless `--locales`
+// names others. If the production list is empty there is nothing to hold a PR
+// to, so this exits 0 and prints a notice that nothing is gated.
 //
-// ## What it reads, and what it never does
+// ## How the source repo is read
 //
-// The source repo is read through git objects at `--head` (and `--base`), never
-// through a working tree: `git ls-tree` for content, which needs no blobs at all,
-// and `git cat-file` for the website's YAML and bundles, which are parsed as data
-// and never executed. It is safe to point at a fork's PR. See scripts/lib/git.mjs
-// and scripts/lib/ts-object.mjs.
+// Through git objects at `--head` (and `--base`), never through a working
+// tree: `git ls-tree` for content, which needs no blobs, and `git cat-file` for
+// the website's YAML and bundles, which are parsed as data and never run. It
+// is safe to point at a fork's PR. See scripts/lib/git.mjs and
+// scripts/lib/ts-object.mjs.
 //
 // ## --base
 //
 // Without it, everything at `--head` is required. With it, only what changed
-// between the two. scripts/lib/completeness.mjs says why both exist. For a PR the
-// natural pair is the merge ref and its first parent (`refs/pull/N/merge` and
-// `^1`): that diff is exactly what merging would change, with no merge-base
-// arithmetic and no history beyond depth 2.
+// between the two refs. scripts/lib/completeness.mjs explains the two modes.
+// For a PR, use the merge ref and its first parent (`refs/pull/N/merge` and
+// `^1`): the difference is exactly what merging would change, and needs only
+// two commits of history.
 //
-// ## Two things are required of a content repo
+// ## What a content repo requires
 //
-// Whole files, by blob id. And the repo's METADATA catalog: the names, titles and
-// blurbs inside config.json and metadata.toml, extracted into keyed units
-// (scripts/lib/metadata.mjs) and held to the same standard as a website key:
-// present, and stamped against exactly the English that is asking. So an edited
-// blurb blocks its PR. In relative mode the metadata is only read at all when the
-// PR touched one of the files it is built from, because reading it means
-// fetching a blob per exercise.
+// Whole files, by blob id. And the repo's metadata catalog: the names, titles
+// and blurbs in config.json and metadata.toml, extracted into keyed units
+// (scripts/lib/metadata.mjs) and checked like a website key: present, and
+// stamped against exactly this English. So an edited blurb blocks its PR. With
+// `--base`, the metadata is only read when the PR touched one of the files it
+// is built from, because reading it means fetching a blob per exercise.
 
 import fs from "node:fs";
 import path from "node:path";
@@ -87,7 +86,7 @@ async function main() {
 
   const report = { repo: name, kind, head: resolveSha(repo, head), base: base ? resolveSha(repo, base) : null, locales: {} };
 
-  // What is required is a fact about the source repo alone, computed once.
+  // What is required depends only on the source repo, so it is worked out once.
   let content = [];
   let metadata = [];
   let website = null;
@@ -152,8 +151,8 @@ async function main() {
       continue;
     }
     incomplete += 1;
-    // The list below is capped, so the split is said first: a single missing blurb
-    // must not be invisible behind two hundred missing files.
+    // The list below is capped, so print the split first. Otherwise one missing
+    // blurb could be hidden behind two hundred missing files.
     const units = lines.filter((line) => line.unit).length;
     console.log(`FAIL ${locale}: ${lines.length} translation(s) outstanding${website ? "" : ` (${lines.length - units} content file(s), ${units} metadata unit(s))`}`);
     for (const line of lines.slice(0, SHOWN)) console.log(`       ${line.what}: ${line.why}`);

@@ -12,22 +12,25 @@
 //   node scripts/source-checkout.mjs --source=track --repo=exercism/ruby
 //   node scripts/source-checkout.mjs --ref=<sha>                       # one exact commit
 //
-// ## Shallow, blobless, and NEVER checked out
+// ## Shallow and blobless, with no working tree
 //
-// Every script here reads English through git objects (scripts/lib/git.mjs), so
-// this fetches one commit with no history and no working tree at all. A track
-// repo needs nothing more: `git ls-tree` answers the content question from trees
-// alone. For the website, the blobs under the two English directories are then
-// fetched in ONE request, because the catalogs are built from their contents.
+// Every script here reads English through git objects (scripts/lib/git.mjs),
+// so this fetches one commit with no history and no working tree. A track repo
+// needs nothing more, because `git ls-tree` answers the content question from
+// trees alone. For the website, the blobs under the two English directories
+// are then fetched in one request, because the catalogs are built from their
+// contents.
 //
-// No working tree also means nothing from the source repo is ever on disk as a
-// file, which is the same property the PR check relies on for fork safety.
+// With no working tree, no file from the source repo is written to disk, which
+// is the same property the PR check relies on for fork safety.
 //
-// ## In CI this is not what runs
+// ## Where it is used
 //
-// The workflows do the same fetch inline, because they need a PR's merge ref and
-// a token. The two agree on the one thing that matters: where the checkout lands,
-// `.source/<name>`, which is where scripts/lib/source-repos.mjs looks.
+// validate.yml runs this script in CI. The PR check in a source repo
+// (source-repo-workflows/i18n-completeness.yml) does its own fetch of the PR's
+// merge ref into a bare repository and passes it with `--source-repo`. The
+// scripts look for a checkout made by this script at `.source/<name>`
+// (scripts/lib/source-repos.mjs).
 
 import fs from "node:fs";
 import path from "node:path";

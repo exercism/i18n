@@ -11,7 +11,7 @@
 //
 // Examples:
 //   node scripts/validate.mjs all                       # the CI gate
-//   node scripts/validate.mjs hu --complete             # would hu be fit to serve?
+//   node scripts/validate.mjs hu --complete             # is hu ready to serve?
 //   node scripts/validate.mjs hu --type=website-backend --stamp --source-ref=<sha>
 //                                                       # after a pass, against the English it translated
 //   node scripts/validate.mjs hu --type=content --content-repos=../ruby,../problem-specifications
@@ -19,62 +19,63 @@
 //
 // Exit codes: 0 no gating ERROR, 1 at least one.
 //
-// ## Errors block, warnings never do
+// ## Errors and warnings
 //
-// ERROR checks are structural facts, WARN checks are heuristics and judgements a
-// human has to make. A WARN is printed to be read, never to gate. Do not promote
-// one. scripts/lib/checks.mjs has the level of every check and the reasoning.
+// ERROR checks are structural facts. WARN checks are heuristics or judgement
+// calls for a person to read, and never fail the run. Do not turn a WARN into
+// an ERROR. scripts/lib/checks.mjs lists the level of every check and why.
 //
-// ## The gate is scoped to production locales
+// ## Only production locales gate
 //
-// Every locale in scope is checked, printed and counted. What decides the exit
-// code is errors in a PRODUCTION locale (locales.json `productionTargets`).
-// `targets` will span locales at wildly different stages, and one gate over all
-// of them is permanently red, which is the same as no gate: it stops being read,
-// and the first real regression in a served locale lands underneath the noise.
-// The summary prints both counts side by side, so a green run says out loud how
-// many non-production errors it found. `--gate=all` widens the exit code to every
-// locale in scope.
+// Every locale in scope is checked, printed and counted, but only errors in a
+// production locale (locales.json `productionTargets`) set the exit code.
+// `targets` will include locales at very different stages, and a gate over all
+// of them would always fail, so people would stop reading it and miss a real
+// regression in a served locale. The summary prints both counts, so a passing
+// run still shows how many non-production errors it found. `--gate=all` makes
+// every locale in scope count towards the exit code.
 //
-// `productionTargets` holds `hu`. When it is empty this script cannot exit 1 on
-// content without `--gate=all` or `--complete`, and it says so on every run.
+// `productionTargets` holds `hu`. When it is empty, this script cannot exit 1
+// on content without `--gate=all` or `--complete`, and it prints a notice
+// saying so on every run.
 //
-// ## Missing, and --complete
+// ## Missing units, and --complete
 //
-// A unit English has and a locale does not is a counted state, `missing`, for an
-// ordinary locale: a young language legitimately has almost nothing. It is an
-// ERROR for a production locale, always, and for whatever locale `--complete` is
-// pointed at, production or not. `--complete` is the go-live question, and a
-// locale being asked it is by definition not in `productionTargets` yet.
+// A unit English has and a locale lacks is counted as `missing` for an
+// ordinary locale, since a new language legitimately has very little. It is
+// always an ERROR for a production locale, and for any locale `--complete` is
+// pointed at. `--complete` asks whether a locale is ready to go live, so it is
+// normally used on a locale that is not in `productionTargets` yet.
 //
-// That covers the two website catalogs, and the metadata catalog of every repo
-// named in `--content-repos` (scripts/lib/metadata.mjs: a catalog whose repo is
-// not named is shape-checked and reported `unv`, unverified, never `ok`). Whether
-// a locale holds every CONTENT file is not something this script can know: the English is spread over eighty
-// repos and this run has, at best, a few of them. `scripts/completeness.mjs`
-// answers it for one source repo at a time, which is how it is asked in practice.
+// This covers the two website catalogs, and the metadata catalog of every repo
+// named in `--content-repos` (see scripts/lib/metadata.mjs: a catalog whose
+// repo is not named is shape-checked and reported as `unv`, unverified, never
+// `ok`). This script cannot tell whether a locale holds every content file,
+// because that English is spread over eighty repos and a run has at most a few
+// of them. `scripts/completeness.mjs` answers that for one source repo at a
+// time.
 //
 // ## Staleness is counted, never an error
 //
-// See "Staleness is a third thing" in scripts/lib/checks.mjs. Content has no
-// staleness at all: it is keyed by the blob id of its English.
+// See the staleness section in scripts/lib/checks.mjs. Content has no
+// staleness: it is keyed by the blob id of its English.
 //
 // ## Stamping
 //
-// `--stamp` writes `<catalog>.meta.json`. Without it this script writes nothing.
-// A unit is stamped with the hash of the English it was just checked against when
-// it is present, has no ERROR of its own, and is either not stamped yet or named
-// in `--stamp-units`. A STALE unit is never re-stamped merely because the run
-// passed: nothing here can tell "retranslated" from "untouched", and stamping the
-// second would launder outdated text into `done`. The pass knows which units it
-// rewrote, so it says so. Unit ids are the ones this script prints (a key, or
-// `<base>.*` / `<base>_*` for a plural group).
+// `--stamp` writes `<catalog>.meta.json`. Without it this script writes
+// nothing. A unit is stamped with the hash of the English it was just checked
+// against when it is present, has no ERROR of its own, and is either unstamped
+// or named in `--stamp-units`. A stale unit is not re-stamped just because the
+// run passed: the script cannot tell a retranslated unit from an untouched one,
+// and stamping an untouched one would mark outdated text as `done`. The pass
+// knows which units it rewrote, so it lists them. Unit ids are the ones this
+// script prints (a key, or `<base>.*` / `<base>_*` for a plural group).
 //
-// The English a pass translated and the English `--stamp` hashes MUST be the same
-// bytes. Point both at one commit with `--source-ref=<sha>`.
+// The English a pass translated and the English `--stamp` hashes must be the
+// same bytes. Point both at one commit with `--source-ref=<sha>`.
 //
-// CI never stamps. A stamp asserts a translation matches its English, and nothing
-// automated except the pass that wrote the words should be able to claim that.
+// CI never stamps. A stamp says a translation matches its English, and only
+// the pass that wrote the text should say that.
 
 import fs from "node:fs";
 import path from "node:path";
@@ -142,12 +143,12 @@ function validateCatalog({ locale, kind, english, requireComplete, stamp, stampU
 }
 
 /**
- * One locale's metadata catalogs: one per source repo (scripts/lib/metadata.mjs).
+ * One locale's metadata catalogs, one per source repo (scripts/lib/metadata.mjs).
  *
  * The English for `metadata/ruby.json` is in the ruby repo, so a catalog is
  * checked against English only when `--content-repos` names a checkout called
- * `ruby`. Without one it is still read and shape-checked, and says `unverified`,
- * which is never `ok`: this run has not looked at what it translates.
+ * `ruby`. Without one it is still read and shape-checked, and reported as
+ * unverified, never `ok`, because this run has not seen its English.
  */
 function validateMetadata({ locale, contentRepos, requireComplete, stamp, stampUnits }) {
   const results = [];
@@ -183,9 +184,9 @@ function validateContent({ locale, contentRepos }) {
   const result = { locale, type: CONTENT_TYPE_ID, issues: [], counts: { total: files.length, verified: 0, copied: 0 } };
   const at = (entry, found) => ({ ...found, message: `content/${entry.relative}: ${found.message}` });
 
-  // English is looked up BY BLOB ID in whichever checkouts the caller offered.
-  // No path, no repo name and no registry is involved: the id is the key, so "is
-  // the English for this file in that repo?" is one `cat-file` for the lot.
+  // English is looked up by blob id in whichever checkouts the caller passed.
+  // No path, repo name or registry is needed, so one `cat-file` per repo finds
+  // all of it.
   const english = new Map();
   for (const repo of contentRepos) {
     const wanted = files.filter((entry) => entry.id && !english.has(entry.id)).map((entry) => entry.id);
@@ -202,7 +203,8 @@ function validateContent({ locale, contentRepos }) {
       result.issues.push(at(entry, { level: ERROR, message: `extension "${entry.extension}" is not one content may carry (${CONTENT_EXTENSIONS.join(", ")})` }));
       continue;
     }
-    // One blob id is one English file, which had one extension.
+    // A blob id is one English file with one extension, so it has at most one
+    // translation file.
     if (seen.has(entry.id)) result.issues.push(at(entry, { level: ERROR, message: `a second file for blob ${entry.id} (also content/${seen.get(entry.id)})` }));
     seen.set(entry.id, entry.relative);
 
@@ -236,11 +238,11 @@ async function main() {
   if (notice) console.log(notice);
   if (locales.length === 0) console.log(`note: locales.json "targets" is empty, so there is nothing to validate yet.`);
 
-  // English is REQUIRED only when something will be compared against it: a
-  // catalog that exists, or a locale that is held to completeness. Otherwise it
-  // is used when a checkout happens to be there (so an absent catalog can say how
-  // many units it is missing) and skipped, out loud, when one is not. A run over
-  // an empty `locales/` therefore needs no website checkout at all.
+  // English is required only when something will be compared against it: an
+  // existing catalog, or a locale held to completeness. Otherwise it is used if
+  // a checkout is available (so an absent catalog can report how many units it
+  // is missing), and skipped with a message if not. So a run over an empty
+  // `locales/` needs no website checkout.
   const needsEnglish = kinds.length > 0 && locales.some((locale) => requiresComplete(locale) || kinds.some((kind) => fs.existsSync(catalogPath(locale, kind))));
   let english = null;
   if (kinds.length > 0 && locales.length > 0) {

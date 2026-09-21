@@ -1,23 +1,24 @@
-// Reading the website's i18next bundles WITHOUT executing them.
+// Reads the website's i18next bundles without executing them.
 //
-// The frontend's English is authored as TypeScript modules under
-// app/javascript/i18n/en/: each is `export default { 'key': 'value', ... }`, and
-// index.ts imports them all and maps a namespace to each. Evaluating those files
-// would be the two-line way to read them, and it is the one thing this repo must
-// never do: the completeness check reads the English of a PULL REQUEST, most
-// Exercism PRs come from forks, and `vm` is not a security boundary. So the
-// bundles are parsed as data, by a parser that understands exactly the subset
-// they are written in and refuses everything else.
+// The frontend's English is written as TypeScript modules under
+// app/javascript/i18n/en/: each is `export default { 'key': 'value', ... }`,
+// and index.ts imports them all and maps a namespace to each. Evaluating those
+// files would be the easy way to read them, and this repo must never do it:
+// the completeness check reads a pull request's English, most Exercism PRs
+// come from forks, and `vm` is not a security boundary. So the bundles are
+// parsed as data, by a parser that accepts exactly the subset they are written
+// in and rejects everything else.
 //
 // The subset: line and block comments, `import x from './y'` lines, one
 // `export default { ... }`, keys that are quoted strings or bare identifiers,
-// and values that are a quoted string, a nested object, or (in index.ts) a bare
-// identifier naming an import. Adjacent strings joined with `+` are folded.
+// and values that are a quoted string, a nested object, or (in index.ts) a
+// bare identifier naming an import. Adjacent strings joined with `+` are
+// combined.
 //
-// Anything else is a HARD FAIL naming the file and the offset: a template
-// literal, a function call, a spread. Skipping what it cannot read would drop
-// keys from the English catalog silently, and a key English does not list is a
-// key nothing requires a translation for. Too narrow must be loud.
+// Anything else fails with an error naming the file and line: a template
+// literal, a function call, a spread. Skipping what it cannot read would
+// quietly drop keys from the English catalog, and a key English does not list
+// is never required to be translated. So the parser fails loudly.
 
 export class BundleSyntaxError extends Error {
   constructor(message) {
@@ -147,7 +148,7 @@ export function parseBundle(source, file = "<bundle>") {
       position += 1;
       const key = keyToken.value;
       if (Object.prototype.hasOwnProperty.call(out, key)) bad(`duplicate key ${JSON.stringify(key)}`, keyToken);
-      // `{ name }` shorthand only ever means "the import called name".
+      // `{ name }` shorthand always means the import called `name`.
       if (peek()?.type === ":") {
         take(":");
         out[key] = parseValue();

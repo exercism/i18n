@@ -1,8 +1,8 @@
-// Walking one locale's blob-id content store.
+// Lists one locale's blob-id content store.
 //
-// `locales/<locale>/content/` holds nothing but `<ab>/<cd>/<36 hex>.<ext>` files.
-// This lists what is actually there, including what should not be, so validate
-// can name a stray file rather than never seeing it.
+// `locales/<locale>/content/` should hold only `<ab>/<cd>/<36 hex>.<ext>`
+// files. This lists everything that is there, including files that should not
+// be, so validate can report a stray file.
 
 import fs from "node:fs";
 import path from "node:path";

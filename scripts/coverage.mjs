@@ -11,37 +11,37 @@
 //   node scripts/coverage.mjs                                         # website catalogs + what the store holds
 //   node scripts/coverage.mjs hu --content-repos=../ruby,../docs      # ...and how much of those repos hu covers
 //
-// It reports and NEVER gates: it exits 0 whatever it finds, and a source it
-// cannot read is a row that says so. `validate` is the gate for what is here, and
-// `completeness` is the gate for what a source repo needs.
+// It only reports: it exits 0 whatever it finds, and a source it cannot read
+// shows up as a row saying so. `validate` checks what is in this repo, and
+// `completeness` checks what a source repo needs.
 //
-// ## The website rows
+// ## Website rows
 //
-// Counted in UNITS against English's unit set (an ordinary key, or a whole plural
-// group: see scripts/lib/catalogs.mjs), so a Polish group holding four categories
-// where English holds two is one unit done, never two extra keys. `done` means
-// stamped against today's English; `stale`, `unstamped` and `missing` are the
-// other three states, and `extra` is reported outside the fraction, because a key
-// nobody can work on is neither done nor remaining.
+// Counted in units against English's units (an ordinary key, or a whole plural
+// group: see scripts/lib/catalogs.mjs), so a Polish group with four categories
+// where English has two counts as one unit done, not two extra keys. `done`
+// means stamped against current English; `stale`, `unstamped` and `missing`
+// are the other three states. `extra` is reported outside the fraction,
+// because a key English does not have is neither done nor still to do.
 //
-// With no website checkout the rows say so and count nothing. That reads as "not
-// measured", never as done.
+// With no website checkout the rows say "not measured" and count nothing, so
+// they cannot be read as done.
 //
-// ## The content rows
+// ## Content rows
 //
-// Content is keyed by blob id, so the store alone can only say how many files a
-// locale HOLDS. How many it NEEDS is a fact about source repos, around eighty-five
-// of them, and no run has them all. So a denominator appears only for the repos
-// named in `--content-repos`, one row per content type per repo, and the bare
-// held count is always printed beside them. A file shared by twenty tracks is one
-// file held and counts towards all twenty.
+// Content is keyed by blob id, so the store alone can only say how many files
+// a locale holds. How many it needs depends on the source repos, around
+// eighty-five of them, and no run has them all. So a total appears only for
+// the repos named in `--content-repos`, one row per content type per repo, and
+// the held count is always printed beside them. A file shared by twenty tracks
+// is one file held, and counts towards all twenty.
 //
-// ## The metadata rows
+// ## Metadata rows
 //
-// One per repo named in `--content-repos`: the names, titles and blurbs extracted
-// from its config.json or metadata.toml (scripts/lib/metadata.mjs), counted in
-// units with the same four states as the website rows. A metadata catalog a
-// locale holds for a repo that was NOT named is listed as held and not measured.
+// One per repo named in `--content-repos`: the names, titles and blurbs from
+// its config.json or metadata.toml (scripts/lib/metadata.mjs), counted in
+// units with the same four states as the website rows. A metadata catalog for
+// a repo that was not named is listed as held and not measured.
 
 import fs from "node:fs";
 import path from "node:path";
@@ -88,7 +88,8 @@ async function main() {
     }
   }
 
-  // Each content repo's translatable files are a fact about that repo alone.
+  // Each content repo's translatable files depend only on that repo, so they
+  // are listed once.
   const repos = parseContentRepos(flags["content-repos"]).map((repo) => {
     const entries = lsTree(repo.dir, repo.ref);
     let metadata = null;
@@ -159,7 +160,6 @@ async function main() {
 }
 
 main().catch((error) => {
-  // Coverage never gates, and that includes on its own bugs being survivable in
-  // CI: say what happened, exit 0.
+  // Coverage never fails CI, even on its own bugs: report the error and exit 0.
   console.error(`coverage could not complete: ${error.message}`);
 });

@@ -1,5 +1,5 @@
-// Minimal argv parsing shared by every script: `--flag`, `--key=value`, and
-// bare positionals. Deliberately tiny; nothing here needs a CLI framework.
+// Minimal argv parsing shared by every script: `--flag`, `--key=value` and
+// bare positionals. Kept small because no script needs a CLI framework.
 
 export function parseArgs(argv) {
   const flags = {};

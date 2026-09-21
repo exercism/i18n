@@ -1,25 +1,24 @@
-// What a source repo's change REQUIRES of this repo, and what is missing.
+// What a source repo's change requires of this repo, and what is missing.
 //
-// Pure functions over plain data, so scripts/test.mjs can assert them without a
+// Pure functions over plain data, so scripts/test.mjs can test them without a
 // repository, and so the two callers (scripts/completeness.mjs, which blocks a
-// PR, and scripts/english-changes.mjs, which describes one in an issue) cannot
-// disagree about what counts as English.
+// PR, and scripts/english-changes.mjs, which describes one in an issue) always
+// agree on what counts as English.
 //
 // ## Full, or relative to a base
 //
-// Both questions below can be asked two ways.
+// Both questions below can be asked two ways:
 //
-//   FULL       everything English holds at `head` is required. This is the
-//              promise itself: a production-locale user never sees untranslated
-//              text.
-//   RELATIVE   only what differs between `base` and `head` is required: a new
-//              file, an edited file (which is a new blob id), a new key, an
-//              edited key. This is "what work does this PR create?".
+//   full       everything English holds at `head` is required, so users of a
+//              production locale never see untranslated text.
+//   relative   only what differs between `base` and `head` is required: a new
+//              file, an edited file (which has a new blob id), a new key, an
+//              edited key. This is the work a PR creates.
 //
-// Once a repo is completely translated the two give the same verdict on every
-// PR. They differ only while a backlog exists, and there RELATIVE is what keeps a
-// PR from being blocked by English it never touched. Which one a PR check uses is
-// the caller's decision; see source-repo-workflows/README.md.
+// Once a repo is fully translated, the two give the same result on every PR.
+// They only differ while there is a backlog, and then the relative mode stops
+// a PR being blocked by English it did not touch. The caller chooses which to
+// use; see source-repo-workflows/README.md.
 
 import { CONTENT_TYPES, contentRelativePath, typeForPath, typesForKind } from "./content-types.mjs";
 import { englishUnits, targetEntries, unitHash } from "./catalogs.mjs";
@@ -55,10 +54,10 @@ export function metadataFiles(kind, entries) {
  * The content one change requires: every translatable file at `head`, less (when
  * a base is given) every blob id `base` already held.
  *
- * Compared by BLOB ID and never by path, which gets three cases right for free:
- * a rename requires nothing, a file restored to bytes it once had requires
- * nothing new, and a new track adding two-fer requires nothing if any other
- * track's identical instructions were already translated.
+ * Compared by blob id, never by path, which handles three cases correctly: a
+ * rename requires nothing, a file restored to earlier bytes requires nothing
+ * new, and a new track adding two-fer requires nothing if another track's
+ * identical instructions were already translated.
  */
 export function requiredContent(kind, headEntries, baseEntries = null) {
   const before = baseEntries === null ? new Set() : new Set(translatableFiles(kind, baseEntries).map((file) => file.id));
@@ -105,10 +104,10 @@ export const REASONS = {
 /**
  * Which required units a locale does not satisfy, and why.
  *
- * A unit is satisfied when it is present, whole, AND stamped against exactly the
- * English that is asking. The third part is what makes an English EDIT block: the
- * key is still there and still has a translation, and only the stamp says that
- * translation is of a sentence that no longer exists.
+ * A unit is satisfied when it is present, complete, and stamped against exactly
+ * the English being checked. The stamp is what makes an English edit block: the
+ * key still exists and still has a translation, and only the stamp shows that
+ * the translation is of a sentence that has since changed.
  */
 export function missingUnits(kind, units, flatTarget, stamps, locale) {
   const out = [];

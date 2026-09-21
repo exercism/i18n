@@ -1,16 +1,16 @@
 // Where English comes from: which repos, which checkout, which ref.
 //
-// English is not stored in this repo. It is read from a checkout of the repo it
-// is authored in, through git objects (scripts/lib/git.mjs), and every script
-// that needs one resolves it here and nowhere else. See ENGLISH-SOURCE.md.
+// English is not stored in this repo. It is read from a checkout of the repo
+// it is written in, through git objects (scripts/lib/git.mjs), and every
+// script that needs a checkout finds it here. See ENGLISH-SOURCE.md.
 //
-// Exercism's English is spread over far more repos than Jiki's: the website, the
-// docs, the blog, website-copy, problem-specifications, and one repo per track,
-// around eighty of them. So a repo has a KIND, the kind decides which content
-// types can live in it (content-types.mjs), and every track repo is the same
-// kind. There is no list of tracks here and there must not be one: the website's
-// database is the authority on which tracks exist, and a copy would be stale the
-// day a track launched.
+// Exercism's English is spread over many repos: the website, the docs, the
+// blog, website-copy, problem-specifications, and one repo per track, around
+// eighty in all. So each repo has a kind, the kind decides which content types
+// can live in it (content-types.mjs), and every track repo has the same kind.
+// There is no list of tracks here, and there should not be one: the website's
+// database decides which tracks exist, and a copy would go out of date as soon
+// as a track launched.
 
 import fs from "node:fs";
 import path from "node:path";
@@ -21,7 +21,8 @@ export const REPO_KINDS = {
   website: {
     remote: "exercism/website",
     env: "EXERCISM_WEBSITE_REPO",
-    // Only what the two catalogs are built from. The website is large.
+    // Only the directories the two catalogs are built from, since the website
+    // is large.
     sparse: ["config/locales", "app/javascript/i18n/en"]
   },
   "problem-specifications": { remote: "exercism/problem-specifications", env: "EXERCISM_PROBLEM_SPECIFICATIONS_REPO", sparse: ["exercises"] },
@@ -38,10 +39,10 @@ export const REPO_KIND_IDS = Object.keys(REPO_KINDS);
 /**
  * The kind of a repo, from its GitHub name.
  *
- * Anything that is not one of the named singletons is a track. That is a
- * default, not a detection: pointing this at a tooling repo calls it a track, and
- * a track's content types then simply match none of its paths, which reads as
- * "nothing to translate" and is the right answer.
+ * Any repo that is not one of the named single repos is treated as a track,
+ * without checking. A tooling repo is therefore called a track, and since no
+ * track content type matches its paths, it has nothing to translate, which is
+ * correct.
  */
 export function kindForRepo(fullName) {
   const name = String(fullName).split("/").pop();
@@ -54,7 +55,7 @@ export function repoKind(id) {
   return kind;
 }
 
-/** Where scripts/source-checkout.mjs and a CI checkout step put one source repo. */
+/** Where scripts/source-checkout.mjs puts one source repo, locally and in CI. */
 export function checkoutDir(name) {
   return path.join(SCRIPTS_ROOT, ".source", name);
 }
@@ -87,12 +88,11 @@ export function resolveRepo(kindId, explicit, { optional = false } = {}) {
 /**
  * Which ref to read when the caller names none.
  *
- * `origin/main` when the checkout has one, else `HEAD`. A sibling working copy on
- * a laptop is usually on a feature branch, and a branch reports English that does
- * not exist yet, so the remote-tracking ref is preferred over whatever is checked
- * out. A checkout this repo made (.source/<kind>, or CI's) is a detached fetch
- * with no `origin/main` at all, and its HEAD is exactly the commit that was asked
- * for.
+ * `origin/main` when the checkout has one, else `HEAD`. A sibling working copy
+ * on a laptop is often on a feature branch, which would report English that has
+ * not merged, so the remote-tracking ref comes first. A checkout this repo made
+ * (.source/<kind>, or CI's) is a detached fetch with no `origin/main`, and its
+ * HEAD is the commit that was asked for.
  */
 export function defaultRef(repo) {
   return refExists(repo, "origin/main") ? "origin/main" : "HEAD";

@@ -1,22 +1,22 @@
 {
   "$comment": [
-    "Areas of the website that are NEVER translated, and so are left out of the two",
-    "English catalogs when scripts/lib/website-english.mjs builds them.",
+    "Areas of the website that are never translated. scripts/lib/website-english.mjs",
+    "leaves them out of the two English catalogs it builds.",
     "",
-    "An exclusion binds on BOTH sides or it binds on neither: an excluded key is not",
-    "required of any locale, not counted by coverage, and not checked by validate. A",
-    "locale that holds one anyway keeps it, inert, reported as an extra key.",
+    "An exclusion applies to both sides: an excluded key is not required of any",
+    "locale, not counted by coverage, and not checked by validate. A locale that",
+    "already holds one keeps it, unused, and it is reported as an extra key.",
     "",
     "`backendFiles` and `frontendNamespaces` are globs (`*` within one path segment,",
     "`**` across segments). Backend files are matched relative to config/locales/.",
-    "`backendKeys` are dotted key prefixes, for an excluded area whose copy lives in",
-    "a file it shares with copy that IS translated.",
+    "`backendKeys` are dotted key prefixes, for an excluded area whose copy is in a",
+    "file shared with copy that is translated.",
     "",
-    "Every entry says which area it belongs to. The areas are iHiD's list: admin,",
+    "Every entry is grouped under its area. The areas are iHiD's list: admin,",
     "bootcamp, courses, hiring, campaigns, challenges, maintaining, test, and dead",
-    "mailers. The PATTERNS under each area were matched by hand against website",
-    "main at 102577eb and need his review: an area with an empty list is one where",
-    "nothing at that commit obviously matched, never a claim that nothing exists."
+    "mailers. The patterns under each area were matched by hand against website",
+    "main at 102577eb and need his review. An empty list means nothing at that",
+    "commit obviously matched; there may still be copy in that area."
   ],
   "areas": {
     "admin": { "backendFiles": [], "backendKeys": [], "frontendNamespaces": [] },

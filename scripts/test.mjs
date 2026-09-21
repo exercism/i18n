@@ -1,24 +1,23 @@
 #!/usr/bin/env node
 //
-// test: the assertions that guard the parts of this repo a mistake in would be
-// invisible until it reached a user.
+// test: assertions for the parts of this repo where a mistake would go
+// unnoticed until it reached a user.
 //
 // Usage:
 //   node scripts/test.mjs
 //
-// Deliberately a plain script with plain assertions, matching the rest of
-// scripts/: no framework, `node scripts/test.mjs` and a non-zero exit on failure.
-// Add a `test(name, fn)` block, not a dependency.
+// A plain script with plain assertions, like the rest of scripts/: no
+// framework, run with `node scripts/test.mjs`, non-zero exit on failure. To add
+// a test, add a `test(name, fn)` block.
 //
 // ## Two halves
 //
-// The first half asserts pure functions in-process. The second builds a FIXTURE
-// in a temp directory (a tiny `website`, a tiny track, and a tiny copy of this
-// repo with real target locales, all of them real git repositories) and runs the
+// The first half tests pure functions in-process. The second builds a fixture
+// in a temp directory (a small `website`, a small track and a small copy of
+// this repo with real target locales, all real git repositories) and runs the
 // real scripts over it as subprocesses, with EXERCISM_I18N_ROOT pointed at it.
-// That half exists because the real `locales.json` lists no locale yet, so
-// without it the checker and the completeness check would only ever be run
-// against nothing.
+// The fixture controls exactly which locales, catalogs and content exist, so
+// the scripts are tested whatever the real `locales.json` and `locales/` hold.
 
 import assert from "node:assert/strict";
 import fs from "node:fs";
@@ -56,8 +55,8 @@ const warningsOf = (issues) => issues.filter((found) => found.level === WARN).ma
 
 // ---------------------------------------------------------------- blob ids --
 
-// The whole content store is addressed by this one function. If it disagrees
-// with git by a byte, every translation is filed under a key nothing asks for.
+// The whole content store is addressed by this function. If it differed from
+// git by one byte, every translation would be filed under a key nothing looks up.
 await test("blobId agrees with git for known bytes", () => {
   assert.equal(blobId(""), "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391");
   assert.equal(blobId("hello\n"), "ce013625030ba8dba906f756967f9e9ca394464a");
@@ -122,9 +121,9 @@ await test("docs, blog and website-copy: what is served matches, what is not ser
   }
 });
 
-// A config.json is never a `file` type (that would require translating the whole
-// file, almost none of which is copy), and never nothing: it is what a repo's
-// metadata catalog is built from.
+// A config.json is never a `file` type (that would mean translating the whole
+// file, almost none of which is copy). It always has a metadata type, because it
+// is what a repo's metadata catalog is built from.
 await test("config.json and metadata.toml are metadata types, never whole files", () => {
   assert.equal(typeForPath("track", "exercises/practice/two-fer/.meta/config.json"), null);
   assert.equal(typeForPath("track", "exercises/practice/two-fer/.meta/config.json", { unit: "metadata" }), "exercise-metadata");
@@ -250,8 +249,9 @@ await test("index.ts yields imports and namespace references, shorthand included
   assert.deepEqual(value, { "components/one": { $ref: "aa" }, "components/very/long": { $ref: "ab" } });
 });
 
-// Too narrow must be loud. A construct the parser skipped would drop keys from
-// English, and a key English does not list is a key nothing requires.
+// The parser must fail on anything it does not understand. A skipped construct
+// would drop keys from English, and a key English does not list is never
+// required.
 await test("anything outside the subset is a hard failure naming the line", () => {
   assert.throws(() => parseBundle("export default { a: `template` }", "x.ts"), BundleSyntaxError);
   assert.throws(() => parseBundle("export default { a: t('x') }", "x.ts"), BundleSyntaxError);
@@ -296,8 +296,8 @@ await test("frontend groups are suffix-spelled, ordinals are their own group, `s
   assert.equal(PLURAL_SPELLING.frontend.join("ns:item", "few"), "ns:item_few");
 });
 
-// THE decision this repo's parity is built on: a target language legitimately
-// holds different plural keys from English.
+// Parity in this repo depends on this: a target language can legitimately hold
+// different plural keys from English.
 await test("Polish holding one/few/many/other against English's one/other is complete, with no extra keys", () => {
   const target = { ...BACKEND_EN, "slots.filled.one": "1 miejsce", "slots.filled.few": "%{count} miejsca", "slots.filled.many": "%{count} miejsc", "slots.filled.other": "%{count} miejsca" };
   const { issues, missing, extra } = checkCatalog(BACKEND_EN, target, { kind: "backend", locale: "pl" });
@@ -583,7 +583,7 @@ await test("fixture: the website flattens to two catalogs, minus exclusions, oth
   assert.ok(ENGLISH.frontend.notes.some((note) => /orphan\.ts/.test(note)));
 });
 
-// The fixture copy of THIS repo: real locales, one of them production.
+// The fixture copy of this repo: real locales, one of them production.
 const INSTRUCTIONS_ID = blobId("# Instructions\n\nSay `One for you`.\n");
 const ABOUT_ID = blobId("# About\n\nRuby is nice.\n");
 const ROOT = makeRepo("i18n", {
@@ -664,7 +664,7 @@ await test("fixture: completeness blocks a track until every production locale h
   const unstamped = run("completeness.mjs", [`--source-repo=${TRACK}`, "--repo=exercism/ruby"]);
   assert.match(unstamped.out, /track:blurb: translated but never checked/, unstamped.out);
 
-  // No checkout named: the catalog is shape-checked and says so, never `ok`.
+  // No checkout named: the catalog is shape-checked and reported as `unv`, never `ok`.
   assert.match(run("validate.mjs", ["hu", "--type=metadata"]).out, /unv\s+hu\s+metadata\/ruby\s+total 3, unverified 3/);
   const stamped = run("validate.mjs", ["hu", "--type=metadata", `--content-repos=${TRACK}:track@HEAD`, "--stamp"]);
   assert.match(stamped.out, /metadata\/ruby\s+total 3, done 3,.*stamped 3/, stamped.out);
@@ -750,7 +750,7 @@ await test("fixture: no-deletions names a removed file and a removed key, and ig
   assert.match(allowed.out, /Allowed by Allow-Deletions trailer: fixture/);
 });
 
-// The state this repo is actually in today: every production locale is a target.
+// The real repo: every production locale is a target, and coverage runs.
 await test("the real repo: its locales are consistent and coverage runs", () => {
   const real = { root: SCRIPTS_ROOT };
   const locales = JSON.parse(fs.readFileSync(path.join(SCRIPTS_ROOT, "locales.json"), "utf8"));

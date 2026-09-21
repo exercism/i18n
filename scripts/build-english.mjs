@@ -13,25 +13,26 @@
 //   node scripts/build-english.mjs --content-repos=../ruby,../problem-specifications
 //                                                          # their metadata -> .build/english/metadata/<repo>.json
 //
-// English stays as many files in `website`. This writes the two flat catalogs
-// every locale is measured against, `.build/english/backend.json` and
-// `frontend.json`, plus `arrays.json` (which backend paths are lists). That
-// directory is gitignored: English is never committed here in any form.
+// Website English is spread over many files. This writes the two flat
+// catalogs every locale is measured against, `.build/english/backend.json` and
+// `frontend.json`, plus `arrays.json` (which backend paths are lists) and
+// `source.json` (the commit it was read at). That directory is gitignored, so
+// English is never committed here.
 //
-// With `--content-repos` it writes, instead, one flat METADATA catalog per repo
-// named: the names, titles and blurbs inside its config.json or metadata.toml
+// With `--content-repos` it instead writes one flat metadata catalog per named
+// repo: the names, titles and blurbs in its config.json or metadata.toml
 // (scripts/lib/metadata.mjs), which a pass translates into
 // `locales/<locale>/metadata/<repo>.json`.
 //
-// A translation pass is the reader. It lives in the translator repo, translates
-// these two files, and writes `locales/<locale>/website/<kind>.json`. The scripts
-// in THIS repo do not read the files back: they call the same builder in
-// scripts/lib/website-english.mjs directly, so a stale `.build/` can never be
-// what a check ran against.
+// These files are for translation passes, which live in the translator repo
+// and write `locales/<locale>/website/<kind>.json`. The scripts in this repo
+// do not read them back. They call the same builder
+// (scripts/lib/website-english.mjs) directly, so a check never runs against a
+// stale `.build/`.
 //
-// Reads English through git objects at a ref (default: `origin/main` where the
-// checkout has one, else `HEAD`), never from the working tree, and never
-// executes any of it. See scripts/lib/git.mjs.
+// English is read through git objects at a ref (default: `origin/main` if the
+// checkout has one, else `HEAD`), never from the working tree, and none of it
+// is executed. See scripts/lib/git.mjs.
 
 import fs from "node:fs";
 import path from "node:path";

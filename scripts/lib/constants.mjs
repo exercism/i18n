@@ -1,5 +1,5 @@
-// Constants shared by every script in this repo. Anything that more than one
-// script needs to agree on lives here and nowhere else.
+// Constants shared by every script in this repo. Anything more than one script
+// needs to agree on lives here.
 
 import fs from "node:fs";
 import path from "node:path";
@@ -12,11 +12,10 @@ export const SCRIPTS_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.
  * The tree the scripts operate on: `locales/`, `locales.json` and
  * `website-exclusions.json`.
  *
- * It is this repo, except when `EXERCISM_I18N_ROOT` names another directory.
- * That override exists for `scripts/test.mjs`, which runs the real scripts over
- * a fixture tree it builds in a temp directory. Both `targets` lists are empty in
- * the real `locales.json` today, so without it there would be no way to run the
- * checker against anything at all.
+ * It is this repo, unless `EXERCISM_I18N_ROOT` names another directory.
+ * `scripts/test.mjs` uses that to run the real scripts over a fixture tree it
+ * builds in a temp directory, where it controls exactly which locales and
+ * files exist.
  */
 export const REPO_ROOT = process.env.EXERCISM_I18N_ROOT ? path.resolve(process.env.EXERCISM_I18N_ROOT) : SCRIPTS_ROOT;
 
@@ -34,25 +33,24 @@ export const TARGET_LOCALES = config.targets;
 export const PLANNED_LOCALES = config.plannedTargets ?? [];
 
 /**
- * Why `productionTargets` is checked at load.
+ * Checks `productionTargets` when this module loads.
  *
- * This list SHRINKS a gate, which makes every mistake in it silent in the worst
- * possible direction: whatever goes wrong, the result is a run that goes green
- * having quietly stopped checking a live language. Two shapes of mistake do it:
+ * This list decides which locales gate, so a mistake in it fails silently: the
+ * run passes having stopped checking a live language. Two mistakes cause that:
  *
- *  - a locale `targets` does not know (a casing slip, "pt-br" for "pt-BR", or a
- *    stale code) drops that one locale out of the production bucket;
- *  - an absent or non-array list empties the bucket without anybody having
- *    decided that it should be empty.
+ *  - a locale `targets` does not include (a casing slip such as "pt-br" for
+ *    "pt-BR", or an old code) drops that locale out of the production set;
+ *  - a missing or non-array list empties the set without anyone deciding it
+ *    should be empty.
  *
- * An EMPTY list is the one shape that is legitimate here and is not in Jiki's
- * repo, which this was forked from. It was this repo's state until `hu` went
- * in. It is accepted, and every script that gates prints `productionGateNotice()`
- * so that state is said out loud rather than read as a pass.
+ * An empty list is allowed here, unlike in Jiki's repo, which this was forked
+ * from. It was this repo's state until `hu` was added. Every gating script
+ * prints `productionGateNotice()` when it is empty, so the state is visible and
+ * not mistaken for a pass.
  *
- * Returned rather than thrown so `scripts/test.mjs` can assert each case without
- * a doctored locales.json or a subprocess. The caller below is what makes it
- * fatal.
+ * It returns the message, and the caller below makes it fatal. Returning it
+ * lets `scripts/test.mjs` test each case without editing locales.json or
+ * starting a subprocess.
  *
  * @returns {string|null} the failure message, or null if the list is sound.
  */

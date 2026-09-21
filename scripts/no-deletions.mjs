@@ -1,40 +1,40 @@
 #!/usr/bin/env node
 //
-// no-deletions: refuse a change to locales/ that removes a file or a key.
+// no-deletions: fail a change to locales/ that removes a file or a key.
 //
 // Usage:
 //   node scripts/no-deletions.mjs [--base=<ref>] [--head=<ref>]
 //
-// Defaults: base `origin/main`, head `HEAD`. Both are git refs; the working tree
-// is never read, so run it after committing (or against the branch CI sees).
+// Defaults: base `origin/main`, head `HEAD`. Both are git refs and the working
+// tree is never read, so run it after committing (or against the branch CI
+// sees).
 //
-// ## Why deletions are refused
+// ## Why deletions fail
 //
-// Translation runs AHEAD of English merging. A source repo's PR opens an issue
-// here, the translations land here, and only then can the PR merge, because its
-// completeness check looks for them here. Every source repo's `main` is held to
-// the same standard. So at any moment this repo has to be a SUPERSET of the
-// English on the main branch of every source repo AND on every open PR of every
-// one of them, around eighty-five repos in all.
+// Translation runs ahead of English merging. A source repo's PR opens an issue
+// here, the translations land here, and only then can the PR merge, because
+// its completeness check looks for them here. Every source repo's `main` is
+// held to the same standard. So at any time this repo has to hold translations
+// for the English on the main branch of every source repo and on every one of
+// their open PRs, around eighty-five repos in all.
 //
 // A pass that rewrites a catalog to match one PR, dropping the keys that PR
-// renamed away, breaks website main the moment it lands: every other website PR
-// goes red until that one merges, and a production locale is serving a catalog
-// short of keys the deployed site still asks for. Excess is never an error here
-// (a key English no longer defines is simply unused), so the cheap rule that
-// keeps everything green is: add and update, never delete.
+// renamed away, breaks website main as soon as it lands: every other website
+// PR fails until that one merges, and a production locale serves a catalog
+// missing keys the deployed site still uses. Extra keys are never an error
+// here (a key English no longer defines is just unused), so the simple rule
+// that keeps everything passing is: add and update, never delete.
 //
-// For blob-keyed content the rule is stronger still, because nothing there is
-// ever superseded. A blob id names one sequence of English bytes forever, some
-// commit of some repo may still hold it, and twenty tracks may share it. A
-// content file is never out of date, so there is never a reason to remove one.
+// Blob-keyed content has even less reason to be removed. A blob id always
+// names the same English bytes, some commit of some repo may still hold it,
+// and twenty tracks may share it. A content file never goes out of date.
 //
-// ## The escape hatch
+// ## Overriding
 //
-// Some removals are right: a locale being retired, a file created at a wrong
-// path, a key that was never English. Put an `Allow-Deletions: <why>` trailer on
-// a commit in the range and the removals are listed but do not fail. The reason
-// is in the commit for whoever reads the history.
+// Some removals are correct: retiring a locale, fixing a file created at the
+// wrong path, removing a key that was never English. Add an
+// `Allow-Deletions: <why>` trailer to a commit in the range, and the removals
+// are listed without failing. The reason stays in the history.
 
 import path from "node:path";
 import { execFileSync } from "node:child_process";
@@ -70,7 +70,7 @@ function readJsonAt(ref, file, cwd) {
 /**
  * Every removal between two refs under locales/: deleted files, the old path of
  * a rename, and keys dropped from a catalog that still exists. Stamp files
- * (`*.meta.json`) are skipped: they are regenerated, not authored.
+ * (`*.meta.json`) are skipped because they are generated.
  */
 export function findDeletions(base, head, { cwd = REPO_ROOT } = {}) {
   const deletions = [];
