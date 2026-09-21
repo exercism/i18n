@@ -64,7 +64,7 @@ units (`concept:hashes:name`, `concept:hashes:blurb`, `exercise:gross-store:name
 
 ## Before installing
 
-- [ ] Create the `translation` label in `exercism/i18n`. `gh issue create --label` fails
+- [x] Create the `translation` label in `exercism/i18n`. `gh issue create --label` fails
       without it.
 - [x] Credentials. Both exist, and both are fine-grained PATs:
       `EXERCISM_I18N_ISSUES_PAT` is an ORGANISATION secret on `exercism`, visible to every
@@ -86,8 +86,9 @@ units (`concept:hashes:name`, `concept:hashes:blurb`, `exercise:gross-store:name
       "do not edit a copy" header on each template assumes something like it.
 - [ ] Make `completeness` a required status check on `main` in each source repo. Until it
       is required it informs and does not block.
-- [ ] While `productionTargets` is empty the completeness check passes, saying loudly that
-      nothing gates. Installing early is therefore safe.
+- [ ] `productionTargets` holds `hu`, so once installed the completeness check fails on
+      every PR that changes English until the Hungarian translation lands here. It blocks
+      the merge only once it is a required check; until then it is a red mark on the PR.
 
 ## A full sweep is a separate question
 

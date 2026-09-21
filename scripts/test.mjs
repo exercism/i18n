@@ -723,9 +723,7 @@ await test("fixture: no-deletions names a removed file and a removed key, and ig
   assert.match(allowed.out, /Allowed by Allow-Deletions trailer: fixture/);
 });
 
-// The state this repo is actually in today. Every script must run, exit 0 and
-// SAY that it checked nothing, because a silent green over an empty gate is the
-// failure the whole `productionTargets` design exists to prevent.
+// The state this repo is actually in today: every production locale is a target.
 await test("the real repo: its locales are consistent and coverage runs", () => {
   const real = { root: SCRIPTS_ROOT };
   const locales = JSON.parse(fs.readFileSync(path.join(SCRIPTS_ROOT, "locales.json"), "utf8"));

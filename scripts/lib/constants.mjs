@@ -46,10 +46,9 @@ export const PLANNED_LOCALES = config.plannedTargets ?? [];
  *    decided that it should be empty.
  *
  * An EMPTY list is the one shape that is legitimate here and is not in Jiki's
- * repo, which this was forked from. No Exercism locale is in production yet, so
- * "nothing gates" is today's honest answer. It is accepted, and every script that
- * gates prints `productionGateNotice()` so that state is said out loud rather
- * than read as a pass.
+ * repo, which this was forked from. It was this repo's state until `hu` went
+ * in. It is accepted, and every script that gates prints `productionGateNotice()`
+ * so that state is said out loud rather than read as a pass.
  *
  * Returned rather than thrown so `scripts/test.mjs` can assert each case without
  * a doctored locales.json or a subprocess. The caller below is what makes it

@@ -25,8 +25,8 @@
 //
 // ## Which locales
 //
-// `productionTargets` from locales.json, unless `--locales` names others. With an
-// empty production list (today's state) there is nobody to hold a PR to, so this
+// `productionTargets` from locales.json (today `hu`), unless `--locales` names
+// others. With an empty production list there is nobody to hold a PR to, so this
 // exits 0 and says so, loudly: it is not a pass, it is an absence of a gate.
 //
 // ## What it reads, and what it never does

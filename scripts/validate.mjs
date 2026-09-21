@@ -36,8 +36,8 @@
 // many non-production errors it found. `--gate=all` widens the exit code to every
 // locale in scope.
 //
-// `productionTargets` is EMPTY today, which means this script cannot currently
-// exit 1 on content without `--gate=all` or `--complete`. It says so on every run.
+// `productionTargets` holds `hu`. When it is empty this script cannot exit 1 on
+// content without `--gate=all` or `--complete`, and it says so on every run.
 //
 // ## Missing, and --complete
 //
