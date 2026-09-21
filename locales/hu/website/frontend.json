@@ -2496,5 +2496,17 @@
   "components/settings/LanguageForm.tsx": {
     "languageForm.language": "Nyelv",
     "languageForm.instructions": "Válaszd ki, milyen nyelven szeretnéd látni az Exercismet."
+  },
+  "components/settings/LanguagePreferenceForm.tsx": {
+    "languagePreferenceForm.language": "Nyelv",
+    "languagePreferenceForm.change": "Módosítás",
+    "languagePreferenceForm.done": "Kész",
+    "languagePreferenceForm.searchPlaceholder": "Keresés a nyelvek között",
+    "languagePreferenceForm.searchLabel": "Keresés a nyelvek között",
+    "languagePreferenceForm.comingSoon": "Hamarosan érkezik",
+    "languagePreferenceForm.comingSoonBadge": "Hamarosan",
+    "languagePreferenceForm.noMatches": "Nincs a keresésnek megfelelő nyelv",
+    "languagePreferenceForm.selected": "Kiválasztva",
+    "languagePreferenceForm.description": "Válaszd ki, milyen nyelven szeretnéd használni az Exercismet. A választásodat azonnal elmentjük."
   }
 }
