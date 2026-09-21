@@ -1,19 +1,18 @@
-# Nothing under locales/ is ever removed by a translation change.
+# Fails a change that removes a file or a key under locales/.
 #
 # Translation runs ahead of English merging, and every repo that holds English
-# checks each of its PRs against what this repo holds. So this repo has to be a
-# superset of the English on the main branch of every source repo and on every
-# one of their open PRs at once. A pass that drops keys one PR renamed away
-# breaks website main the moment it lands. Blob-keyed content is never out of
-# date at all, so there is never a reason to remove a file of it. Excess is never
-# an error here, so the rule is cheap: add and update, never delete.
-# scripts/no-deletions.mjs has the full reasoning and the `Allow-Deletions:`
-# trailer for the removals that are right.
+# checks its PRs against what this repo holds. So this repo has to hold
+# translations for the English on every source repo's main branch and on all of
+# their open PRs at once. A pass that drops the keys one PR renamed away breaks
+# website main as soon as it lands. Blob-keyed content never goes out of date,
+# so there is no reason to remove any of it. Extra keys are never an error
+# here, so the rule is simple: add and update, never delete.
+# scripts/no-deletions.mjs has the full reasoning, and the `Allow-Deletions:`
+# trailer for removals that are correct.
 #
 # On a PR the range is merge base to head. On a push to main it is the push
-# itself (`before`..`after`), because passes commit straight to main and a rule
-# that only PRs can see would miss the very change it exists for. A red main here
-# is a real regression and is fixed by putting the keys back.
+# itself (`before`..`after`), because translation passes commit straight to
+# main. A failure on main is a real regression; fix it by restoring the keys.
 
 name: No deletions
 

@@ -1,30 +1,29 @@
-# The gate on every change to locales/ and to the scripts that check it.
+# Checks every change to locales/ and to the scripts that check it.
 #
-# CI never stamps. Stamping needs --stamp and belongs to a translation pass,
-# beside the writing. A stamp asserts a translation matches its English, and
-# nothing automated except the pass that wrote the words should be able to make
-# that claim.
+# CI never stamps. Stamping needs --stamp and is done by the translation pass
+# that wrote the text. A stamp says a translation matches its English, and
+# only that pass should say so.
 #
-# ## Which English this validates against
+# Which English this validates against:
 #
 # This repo holds no English. The two website catalogs are checked against
-# exercism/website `main`, fetched blobless with no working tree and read through
-# git objects (scripts/lib/git.mjs). Blob-keyed content needs no English at all:
-# a content file is checked from its own bytes and the path it is filed under.
+# exercism/website `main`, fetched blobless with no working tree and read as
+# git objects (scripts/lib/git.mjs). Blob-keyed content needs no English: a
+# content file is checked from its own bytes and the path it is filed under.
 #
-# `main` floats, knowingly, and that is safe here in a way it is not in Jiki's
-# repo, which this was forked from. Nothing that floating English can cause is an
-# ERROR: a translation that is AHEAD of website main reads as an extra key (a
-# WARN) or a stale stamp (a counted state), and only a unit a PRODUCTION locale
-# is missing can fail the run. So there is no pin, no `English-Ref:` trailer and
-# no baseline-relative gating, because there is no standing backlog to subtract.
+# `main` moves, and that is safe here (unlike in Jiki's repo, which this was
+# forked from). A translation ahead of website main shows up as an extra key (a
+# WARN) or a stale stamp (a counted state). The only way a change to website
+# main can fail this run is by adding a unit that a production locale does not
+# have. So there is no pin, no `English-Ref:` trailer and no baseline-relative
+# gating.
 #
-# ## Pushes to main as well as PRs
+# Pushes to main as well as PRs:
 #
-# Translation passes commit straight to main, so a gate only PRs can see would
-# miss most of what lands. Pushing to main IS the deploy (the website pulls this
-# repo on push and reads locales/ straight from its checkout), so a red main
-# here means a production locale is broken in what the website now serves.
+# Translation passes commit straight to main, so a check that only ran on PRs
+# would miss most changes. A push to main deploys (the website pulls this repo
+# on push and reads locales/ from its checkout), so a failure on main means a
+# production locale is broken in what the website serves.
 
 name: Validate
 
@@ -56,8 +55,8 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
-      # Before setup-node, so its pnpm cache has a pnpm to ask for a store path.
-      # The version comes from package.json's `packageManager` field.
+      # Runs before setup-node, whose pnpm cache needs pnpm to find the store
+      # path. The version comes from package.json's `packageManager` field.
       - uses: pnpm/action-setup@v6
 
       - uses: actions/setup-node@v7
@@ -65,27 +64,28 @@ jobs:
           node-version: 24
           cache: pnpm
 
-      # One dependency, `yaml`, and only the code that reads the website's Rails
-      # YAML loads it.
+      # Installs `yaml`, the one dependency. Only the code that reads the
+      # website's Rails YAML loads it.
       - name: Install
         run: pnpm install --frozen-lockfile
 
-      # Builds its own fixture (a tiny website, a tiny track, a tiny copy of this
-      # repo) and runs every script over it, so the scripts are exercised even
-      # while locales.json lists no locale.
+      # Builds its own fixture (a small website, a small track and a small copy
+      # of this repo) and runs every script over it, so every script is tested
+      # whatever the real locales.json lists.
       - name: Test
         run: node scripts/test.mjs
 
-      # Trees, plus the blobs of the two English directories in one request. No
-      # working tree: nothing from the website is ever a file on this runner.
+      # Fetches trees, plus the blobs of the two English directories in one
+      # request. There is no working tree, so no website file is written to
+      # this runner.
       - name: Fetch English (exercism/website main)
         run: node scripts/source-checkout.mjs --source=website
 
-      # A metadata catalog (locales/<locale>/metadata/<repo>.json) is checked
-      # against the English in THAT repo, so each repo some locale holds a catalog
-      # for is fetched too: trees only, plus the few blobs the catalog is built
-      # from. A repo that cannot be fetched leaves its catalogs `unv` (unverified),
-      # which is reported and does not fail the run.
+      # Each metadata catalog (locales/<locale>/metadata/<repo>.json) is checked
+      # against the English in its own repo, so every repo that some locale has
+      # a catalog for is fetched too: trees only, plus the few blobs the catalog
+      # is built from. If a repo cannot be fetched, its catalogs are reported as
+      # `unv` (unverified) and the run does not fail.
       - name: Fetch the repos metadata catalogs translate
         id: repos
         run: |

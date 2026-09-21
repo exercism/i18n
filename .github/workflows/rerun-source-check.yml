@@ -1,42 +1,40 @@
-# Close the loop: when a translation issue is closed, re-run the source PR's
-# completeness check.
+# Re-runs a source PR's completeness check when its translation issue is
+# closed.
 #
 # A source repo's i18n-queue workflow opens an issue here, titled
-# `Translate exercism/<repo>#<PR>: ...`, when a PR changes English. The
-# translations land on main here and the issue is closed. Nothing on the source
-# repo's side can see a push here, so without this the PR's red check would stay
-# red until somebody noticed and re-ran it by hand. Closing the issue is the one
-# event that knows the translations have landed, so it is where the re-run belongs.
+# `Translate exercism/<repo>#<PR>: ...`. The translations land on main here and
+# the issue is closed. The source repo cannot see pushes here, so without this
+# workflow the PR's failed check would stay failed until someone re-ran it by
+# hand. Closing the issue is the event that means the translations have landed.
 #
-# It re-runs the FAILED jobs of the most recent `i18n completeness` run for the
-# PR's current head commit. A run that already passed, a PR that is no longer
-# open, or a PR with no run yet is left alone. Looked up by head SHA and not by
-# branch name, because most Exercism PRs come from forks and a fork's branch is
-# very often called `main`.
+# It re-runs the failed jobs of the most recent `i18n completeness` run for the
+# PR's current head commit. It does nothing if that run passed, if the PR is no
+# longer open, or if there is no run yet. Runs are looked up by head SHA because
+# most Exercism PRs come from forks, and a fork's branch is often called `main`.
 #
-# An issue closed as "not planned" is skipped. The source repo's i18n-queue
-# workflow closes one that way when `ready-to-translate` comes off the PR, which
-# means nothing was translated and there is nothing to re-run.
+# Issues closed as "not planned" are skipped. The source repo's i18n-queue
+# workflow closes an issue that way when `ready-to-translate` is removed from
+# the PR, so nothing was translated and there is nothing to re-run.
 #
-# ## The issue is untrusted input
+# Untrusted input:
 #
-# This repo is public, so anybody can open an issue with any title, and an
-# author can close their own issue. Two things bound what that can do. The job
-# only runs for an issue carrying the `translation` label, which only someone
-# with triage rights (or the queue's token) can apply. And the repo name is taken
-# from the title through a strict pattern that can only ever name a repository in
-# the `exercism` organisation. The worst a forged issue could then do is re-run an
-# already-failed check on an open PR, which anyone with write access can do with
-# a button.
+# This repo is public, so anyone can open an issue with any title, and an
+# author can close their own issue. Two things limit what that can do. The job
+# only runs for issues with the `translation` label, which only someone with
+# triage rights (or the queue's token) can add. And the repo name is taken from
+# the title with a strict pattern that can only match a repository in the
+# `exercism` organisation. The worst a forged issue can do is re-run an
+# already-failed check on an open PR, which anyone with write access can do
+# with a button.
 #
-# ## The token
+# Token:
 #
-# `EXERCISM_SOURCE_REPOS_ACTIONS_PAT` is a REPOSITORY secret on exercism/i18n: a
+# `EXERCISM_SOURCE_REPOS_ACTIONS_PAT` is a repository secret on exercism/i18n: a
 # fine-grained PAT with Actions read/write and Pull requests read on the source
 # repos (website, docs, blog, website-copy, problem-specifications and the
-# tracks). The default GITHUB_TOKEN is scoped to this repo and cannot re-run a
-# workflow anywhere else. A source repo the PAT does not cover fails here with a
-# 404 from `gh`, which is the cue to add that repo to the PAT.
+# tracks). The default GITHUB_TOKEN only covers this repo and cannot re-run a
+# workflow elsewhere. If the PAT does not cover a source repo, this fails with a
+# 404 from `gh`; add that repo to the PAT.
 
 name: Rerun source check
 
@@ -63,8 +61,8 @@ jobs:
             exit 0
           fi
 
-          # `exercism/<name>#<digits>:` and nothing looser. The title reaches this
-          # script as an environment variable and is never interpolated into it.
+          # Accept only `exercism/<name>#<digits>:`. The title is passed in as an
+          # environment variable and never interpolated into the script.
           if [[ ! "$TITLE" =~ ^Translate\ (exercism/[A-Za-z0-9._-]+)#([0-9]+): ]]; then
             echo "Could not read a repo and PR number from the title."
             exit 0
