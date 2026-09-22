@@ -245,8 +245,8 @@ Not done yet:
   2026-09-21. No other source repo has either template yet. All three secrets exist:
   `EXERCISM_I18N_ISSUES_PAT` (an organisation secret with Issues read/write on this repo only,
   owned by iHiD, so queue issues are authored by `iHiD`), `EXERCISM_SOURCE_REPOS_ACTIONS_PAT`
-  (a secret on this repo, with Actions read/write and Pull requests read/write on the source
-  repos, for the re-run and the replies on the PR)
+  (a secret on this repo, with Actions read/write, Pull requests read and Issues read/write
+  on the source repos, for the re-run and the replies on the PR)
   and `EXERCISM_TRANSLATOR_DISPATCH_PAT` (Contents read/write on `exercism/translator`).
 - **The replies on the source PR are not tested live yet.** `scripts/pr-reply.mjs` and the
   reply job in `rerun-source-check.yml` run here as soon as they are on `main`. The

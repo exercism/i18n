@@ -127,10 +127,10 @@ No other source repo has either template yet.
       organisation secret on `exercism`, available to every repo, owned by iHiD, with Issues
       read/write on `exercism/i18n` only, so the issues it opens are authored by `iHiD`.
       `EXERCISM_SOURCE_REPOS_ACTIONS_PAT` is a repository secret on `exercism/i18n` with
-      Actions read/write and Pull requests read/write on the source repos. A source repo
-      added later must be added to this second PAT, or `rerun-source-check.yml` cannot re-run
-      its check or reply on its PRs. Without Pull requests write the replies are skipped with
-      a warning in the run's log.
+      Actions read/write, Pull requests read and Issues read/write on the source repos. A
+      source repo added later must be added to this second PAT, or `rerun-source-check.yml`
+      cannot re-run its check or reply on its PRs. Without Issues write the replies are
+      skipped with a warning in the run's log.
 - [x] Decided: who may trigger an issue. Whoever adds the `ready-to-translate` label to the
       PR, which needs triage rights on the source repo. Every PR needs it, maintainers' own
       included.
