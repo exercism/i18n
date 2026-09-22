@@ -3749,7 +3749,7 @@
     },
     "requests": {
       "unavailable": {
-        "unavailable": "Nem elérhető.",
+        "unavailable": "Sajnáljuk, ez a mentorálási beszélgetés már nem elérhető",
         "back_to_list": "Vissza a listához"
       }
     }

@@ -2482,7 +2482,9 @@
     "assistantChatStartState.askOurAssistantAbout": "Kérdezd meg az asszisztensünket:",
     "assistantChatStartState.tellUsWhatYoureStuckOn": "Meséld el, min akadtál el, és mit próbáltál már ki…",
     "assistantChatStartState.askOurAssistant": "Kérdezd meg az asszisztensünket",
-    "assistantChatStartState.unlimitedConversations": "Korlátlan beszélgetések, az Insiders program részeként"
+    "assistantChatStartState.unlimitedConversations": "Korlátlan beszélgetések, az Insiders program részeként",
+    "insidersUpsellModal.becomeAnInsider": "Legyél Insiders-tag",
+    "insidersUpsellModal.broughtStraightBack": "Utána egyenesen visszakerülsz ehhez a feladathoz, a munkád pedig gépelés közben mentődik."
   },
   "components/modals/Modal.tsx": {
     "modal.closeModal": "Modális ablak bezárása"
