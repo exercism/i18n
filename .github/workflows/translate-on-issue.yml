@@ -21,10 +21,13 @@
 # label they are allowed to add, as in rerun-source-check.yml. Three things
 # limit what that can do, and none of the issue's text is sent:
 #
-#  - The job only runs for an issue opened by iHiD (the owner of the PAT the
-#    source repos' workflows use), with the `translation` label, and titled
-#    `Translate exercism/...`. Only someone with triage rights can add the
-#    label.
+#  - The job only runs for an issue opened by `exercism-i18n[bot]` (the
+#    Exercism i18n GitHub App, which the source repos' workflows open issues
+#    as), with the `translation` label, and titled `Translate exercism/...`.
+#    Only someone with triage rights can add the label. For now it also
+#    accepts `iHiD`, because the source repos still on the old queue open
+#    issues with his token. See "Moving to the app" in
+#    source-repo-workflows/README.md.
 #  - Only the issue number is sent. It is checked here as digits, and checked
 #    again by the translator repo, which fetches the issue itself and applies
 #    its own checks (author, label, an allowlisted repo, and a sha that belongs
@@ -34,10 +37,13 @@
 #
 # Token:
 #
-# `EXERCISM_TRANSLATOR_DISPATCH_PAT` is a repository secret here: a
-# fine-grained PAT with Contents read/write on exercism/translator and nothing
-# else, which is what `POST /repos/{owner}/{repo}/dispatches` requires. The
-# default GITHUB_TOKEN only covers this repo and cannot dispatch elsewhere.
+# The job mints a short-lived installation token for the Exercism i18n GitHub
+# App with actions/create-github-app-token, limited to exercism/translator and
+# to Contents read and write, which is what
+# `POST /repos/{owner}/{repo}/dispatches` requires. The app's id is the
+# organisation variable EXERCISM_I18N_APP_ID and its private key the
+# organisation secret EXERCISM_I18N_APP_PRIVATE_KEY. The default GITHUB_TOKEN
+# only covers this repo and cannot dispatch elsewhere.
 
 name: Translate on issue
 
@@ -49,20 +55,25 @@ permissions: {}
 
 jobs:
   dispatch:
-    if: ${{ github.event.issue.user.login == 'iHiD' && contains(github.event.issue.labels.*.name, 'translation') && startsWith(github.event.issue.title, 'Translate exercism/') }}
+    if: ${{ (github.event.issue.user.login == 'exercism-i18n[bot]' || github.event.issue.user.login == 'iHiD') && contains(github.event.issue.labels.*.name, 'translation') && startsWith(github.event.issue.title, 'Translate exercism/') }}
     runs-on: ubuntu-latest
     steps:
+      - name: Mint a token for exercism/translator
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          app-id: ${{ vars.EXERCISM_I18N_APP_ID }}
+          private-key: ${{ secrets.EXERCISM_I18N_APP_PRIVATE_KEY }}
+          owner: exercism
+          repositories: translator
+          permission-contents: write
+
       - name: Dispatch translate-issue to exercism/translator
         env:
-          GH_TOKEN: ${{ secrets.EXERCISM_TRANSLATOR_DISPATCH_PAT }}
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
           ISSUE: ${{ github.event.issue.number }}
         run: |
           set -euo pipefail
-
-          if [ -z "${GH_TOKEN:-}" ]; then
-            echo "EXERCISM_TRANSLATOR_DISPATCH_PAT is not configured; nothing was dispatched. See this workflow's header."
-            exit 0
-          fi
 
           # Digits only. The number is the only thing sent, and jq builds the
           # JSON payload from it.

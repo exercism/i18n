@@ -46,8 +46,9 @@ locales/<locale>/
 index/json/<locale>/<repo>.json  the translation index: held blob ids per source path
 index/markdown/<locale>/         generated from that JSON: one page per repo, and README.md
 scripts/                         see "Scripts"
-.github/workflows/               this repo's own workflows
-source-repo-workflows/           templates installed in source repos; they do not run here
+.github/workflows/               this repo's own workflows, and source-queue.yml and
+                                 source-completeness.yml, which source repos call
+source-repo-workflows/           the short callers installed in source repos
 .source/  .build/                gitignored: source fetches, flattened English
 ```
 
@@ -209,7 +210,7 @@ header comment is its documentation, so read it before changing the script. Ther
 | `source-checkout.mjs` | Fetches a source repo into `.source/`: shallow, blobless, no working tree. |
 | `build-index.mjs` | Generates `index/markdown/` from `index/json/`. With `--check` it writes nothing and fails on a page that differs, an id with no file, or JSON not in canonical form. |
 | `backfill-index.mjs` | Builds one locale's index from the full history of every source checkout (default `../translator/.source`), at `origin/main`. Re-runnable. |
-| `pr-reply.mjs` | The wording of the replies the loop posts on a source PR (started, translated, needs attention, over the word cap), and whether a PR already has one. Used by the queue template and `rerun-source-check.yml`. Posts nothing itself. |
+| `pr-reply.mjs` | The wording of the one reply the loop posts on a source PR ("This PR has been translated 🚀"), and whether a PR already has it. Used by `rerun-source-check.yml`. Posts nothing itself. |
 | `test.mjs` | Plain `node:assert`. Unit assertions, then a fixture of real git repos that every script is run against. |
 
 - **Errors block; warnings never do.** WARN checks are heuristics and are expected to flag
@@ -239,15 +240,16 @@ against the real `website`, `ruby`, `docs` and `problem-specifications`; the blo
 
 Not done yet:
 
-- **The loop runs in one source repo.** `exercism/website-copy` has both templates installed
-  and `completeness` required on `main`. The full loop (queue, translate-on-issue, the
-  translator, rerun-source-check, and every label and push path) was tested there live on
-  2026-09-21. No other source repo has either template yet. All three secrets exist:
-  `EXERCISM_I18N_ISSUES_PAT` (an organisation secret with Issues read/write on this repo only,
-  owned by iHiD, so queue issues are authored by `iHiD`), `EXERCISM_SOURCE_REPOS_ACTIONS_PAT`
-  (a secret on this repo, with Actions read/write, Pull requests read/write and Issues
-  read/write on the source repos, for the re-run and the reply on the PR)
-  and `EXERCISM_TRANSLATOR_DISPATCH_PAT` (Contents read/write on `exercism/translator`).
+- **The loop runs as a GitHub App in one source repo.** `exercism/website-copy` calls the
+  reusable workflows (`source-queue.yml`, `source-completeness.yml`) through the thin
+  callers in `source-repo-workflows/`. The loop acts as the Exercism i18n app
+  (`exercism-i18n[bot]`), whose id and private key are an organisation variable
+  (`EXERCISM_I18N_APP_ID`) and secret (`EXERCISM_I18N_APP_PRIVATE_KEY`); each job mints a
+  token limited to the repos and permissions it needs. `website`, `docs`, `blog` and
+  `problem-specifications` still run the old self-contained queue, which opens issues as
+  `iHiD` with the organisation secret `EXERCISM_I18N_ISSUES_PAT`, so the checks here and in
+  the translator accept `iHiD` as well as the app until they move over. See "Moving to the
+  app" in `source-repo-workflows/README.md`.
 - **The reply on the source PR is not tested live yet.** `rerun-source-check.yml` posts
   "This PR has been translated 🚀" after it re-runs the check.
 
@@ -259,7 +261,8 @@ code it would change.
 1. ~~Whether a runner here translates automatically on issue-open.~~ Answered: yes, and the
    runner is in `exercism/translator`. `translate-on-issue.yml` sends it the issue number
    with one `repository_dispatch`, and it translates, pushes here and closes the issue. No
-   script here calls an LLM. The dispatch only happens for an issue opened by `iHiD`, with
+   script here calls an LLM. The dispatch only happens for an issue opened by
+   `exercism-i18n[bot]` (or, while the old queue is still installed, `iHiD`), with
    the `translation` label and a title starting `Translate exercism/`, and the translator repo
    checks all of that again itself.
 2. ~~Who may trigger an issue.~~ Answered: whoever adds the `ready-to-translate` label to the

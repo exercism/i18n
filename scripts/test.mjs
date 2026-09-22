@@ -939,6 +939,55 @@ await test("the real repo: its locales are consistent and coverage runs", () => 
   assert.equal(index.status, 0, index.out);
 });
 
+// The workflows: the loop acts as the Exercism i18n app, and source repos only
+// call the reusable workflows here.
+const WORKFLOWS = path.join(SCRIPTS_ROOT, ".github", "workflows");
+const TEMPLATES = path.join(SCRIPTS_ROOT, "source-repo-workflows");
+const readWorkflow = (dir, name) => fs.readFileSync(path.join(dir, name), "utf8");
+
+await test("each source-repo template is a caller of a reusable workflow here, with no steps of its own", () => {
+  const calls = { "i18n-queue.yml": "source-queue.yml", "i18n-completeness.yml": "source-completeness.yml" };
+  for (const [template, called] of Object.entries(calls)) {
+    const text = readWorkflow(TEMPLATES, template);
+    assert.ok(text.includes(`uses: exercism/i18n/.github/workflows/${called}@main`), `${template} does not call ${called}`);
+    assert.ok(!/^\s+steps:/m.test(text), `${template} has steps of its own`);
+    assert.ok(!/actions\/checkout/.test(text), `${template} checks something out`);
+    assert.match(readWorkflow(WORKFLOWS, called), /^on:\n  workflow_call:/m, `${called} is not a reusable workflow`);
+  }
+  // The job names make the status context `i18n / completeness`, the one to require.
+  assert.match(readWorkflow(TEMPLATES, "i18n-completeness.yml"), /^jobs:\n  i18n:\n/m);
+  assert.match(readWorkflow(WORKFLOWS, "source-completeness.yml"), /^jobs:\n  completeness:\n/m);
+  // The queue needs the app's private key, which only reaches it through the caller.
+  assert.match(readWorkflow(TEMPLATES, "i18n-queue.yml"), /^    secrets: inherit$/m);
+});
+
+await test("the loop's workflows use the app's tokens, each limited to named repos and permissions", () => {
+  const names = ["source-queue.yml", "translate-on-issue.yml", "rerun-source-check.yml"];
+  for (const name of names) {
+    const text = readWorkflow(WORKFLOWS, name);
+    assert.ok(!/secrets\.EXERCISM_[A-Z_]*_PAT\b/.test(text), `${name} still uses a personal access token`);
+    const mints = text.split("uses: actions/create-github-app-token@").slice(1).map((rest) => rest.split(/\n\s*\n/)[0]);
+    assert.ok(mints.length > 0, `${name} mints no app token`);
+    for (const mint of mints) {
+      assert.match(mint, /app-id: \$\{\{ vars\.EXERCISM_I18N_APP_ID \}\}/, name);
+      assert.match(mint, /private-key: \$\{\{ secrets\.EXERCISM_I18N_APP_PRIVATE_KEY \}\}/, name);
+      assert.match(mint, /owner: exercism/, name);
+      assert.match(mint, /repositories: \S+/, `${name} mints a token for every repo`);
+      assert.match(mint, /permission-[a-z-]+: (read|write)/, `${name} mints a token with every permission`);
+    }
+  }
+});
+
+await test("only issues opened by the app (or, for now, iHiD) are dispatched or replied to", () => {
+  const guard = "(github.event.issue.user.login == 'exercism-i18n[bot]' || github.event.issue.user.login == 'iHiD')";
+  assert.ok(readWorkflow(WORKFLOWS, "translate-on-issue.yml").includes(`if: \${{ ${guard} && `));
+  assert.ok(readWorkflow(WORKFLOWS, "rerun-source-check.yml").includes(` && ${guard} && github.event.issue.state_reason == 'completed'`));
+  // The queue only finds and edits issues the app opened.
+  const queue = readWorkflow(WORKFLOWS, "source-queue.yml");
+  assert.equal((queue.match(/gh issue list [^\n]*--author "\$APP_AUTHOR"/g) ?? []).length, 2);
+  assert.equal((queue.match(/APP_AUTHOR: app\/exercism-i18n$/gm) ?? []).length, 2);
+});
+
 fs.rmSync(TMP, { recursive: true, force: true });
 
 // ------------------------------------------------------------------- result

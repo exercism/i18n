@@ -31,20 +31,24 @@
 # the title with a strict pattern that can only match a repository in the
 # `exercism` organisation. The worst a forged issue can do is re-run an
 # already-failed check on an open PR, which anyone with write access can do
-# with a button. Replies go further, since they post under the PAT's owner, so
-# the reply job also requires the issue to be opened by iHiD, as the queue's
-# issues are. Its wording is fixed, and it reads nothing from the issue but the
+# with a button. Replies go further, since they post as the app, so the reply
+# job also requires the issue to be opened by `exercism-i18n[bot]`, as the
+# queue's issues are. For now it also accepts `iHiD`, because the source repos
+# still on the old queue open issues with his token (see "Moving to the app" in
+# source-repo-workflows/README.md). Its wording is fixed, and it reads nothing from the issue but the
 # title's repo and PR number and the issue's labels.
 #
 # Token:
 #
-# `EXERCISM_SOURCE_REPOS_ACTIONS_PAT` is a repository secret on exercism/i18n: a
-# fine-grained PAT with Actions read/write, Pull requests read/write and Issues
-# read/write on the source repos (website, docs, blog, website-copy, problem-specifications and
-# the tracks). The default GITHUB_TOKEN only covers this repo and cannot re-run
-# a workflow or comment elsewhere. If the PAT does not cover a source repo, the
-# re-run fails with a 404 from `gh`; add that repo to the PAT. If it cannot
-# write to pull requests, the reply job logs a warning and posts nothing.
+# Each job that acts on the source repo mints a short-lived installation token
+# for the Exercism i18n GitHub App with actions/create-github-app-token,
+# limited to the one source repo named in the title. `rerun` gets Actions read
+# and write (to re-run the check) and Pull requests read. `reply` gets Pull
+# requests read and write (to read the PR's comments and post the reply). The
+# app's id is the organisation variable EXERCISM_I18N_APP_ID and its private
+# key the organisation secret EXERCISM_I18N_APP_PRIVATE_KEY. The app is
+# installed on every repo in the organisation. The default GITHUB_TOKEN only
+# covers this repo and cannot re-run a workflow or comment elsewhere.
 
 name: Rerun source check
 
@@ -83,18 +87,24 @@ jobs:
     if: ${{ github.event.action == 'closed' && needs.pr.outputs.repo != '' }}
     runs-on: ubuntu-latest
     steps:
+      - name: Mint a token for the source repo
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          app-id: ${{ vars.EXERCISM_I18N_APP_ID }}
+          private-key: ${{ secrets.EXERCISM_I18N_APP_PRIVATE_KEY }}
+          owner: exercism
+          repositories: ${{ needs.pr.outputs.repo }}
+          permission-actions: write
+          permission-pull-requests: read
+
       - name: Re-run the PR's completeness check
         env:
-          GH_TOKEN: ${{ secrets.EXERCISM_SOURCE_REPOS_ACTIONS_PAT }}
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
           REPO: ${{ needs.pr.outputs.repo }}
           PR: ${{ needs.pr.outputs.number }}
         run: |
           set -euo pipefail
-
-          if [ -z "${GH_TOKEN:-}" ]; then
-            echo "EXERCISM_SOURCE_REPOS_ACTIONS_PAT is not configured; nothing can be re-run. See this workflow's header."
-            exit 0
-          fi
 
           STATE=$(gh pr view "$PR" --repo "$REPO" --json state --jq '.state')
           if [ "$STATE" != "OPEN" ]; then
@@ -123,7 +133,7 @@ jobs:
   reply:
     # Waits until the check has been re-run.
     needs: [pr, rerun]
-    if: ${{ needs.pr.outputs.repo != '' && github.event.issue.user.login == 'iHiD' && github.event.issue.state_reason == 'completed' }}
+    if: ${{ needs.pr.outputs.repo != '' && (github.event.issue.user.login == 'exercism-i18n[bot]' || github.event.issue.user.login == 'iHiD') && github.event.issue.state_reason == 'completed' }}
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -141,25 +151,31 @@ jobs:
         with:
           node-version: 24
 
+      - name: Mint a token for the source repo
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          app-id: ${{ vars.EXERCISM_I18N_APP_ID }}
+          private-key: ${{ secrets.EXERCISM_I18N_APP_PRIVATE_KEY }}
+          owner: exercism
+          repositories: ${{ needs.pr.outputs.repo }}
+          permission-pull-requests: write
+
       - name: Reply on the PR
         env:
-          GH_TOKEN: ${{ secrets.EXERCISM_SOURCE_REPOS_ACTIONS_PAT }}
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
           ISSUE: ${{ github.event.issue.number }}
           REPO: ${{ needs.pr.outputs.repo }}
           PR: ${{ needs.pr.outputs.number }}
         run: |
           set -euo pipefail
 
-          if [ -z "${GH_TOKEN:-}" ]; then
-            echo "::warning::EXERCISM_SOURCE_REPOS_ACTIONS_PAT is not configured, so no reply was posted on the PR."
-            exit 0
-          fi
           [[ "$ISSUE" =~ ^[1-9][0-9]*$ && "$PR" =~ ^[1-9][0-9]*$ ]] || { echo "Not an issue and PR number; no reply."; exit 0; }
 
           KIND=translated
 
           if ! STATE=$(gh pr view "$PR" --repo "$REPO" --json state --jq '.state'); then
-            echo "::warning::Could not read ${REPO}#${PR}, so no reply was posted. EXERCISM_SOURCE_REPOS_ACTIONS_PAT may not cover ${REPO}."
+            echo "::warning::Could not read ${REPO}#${PR}, so no reply was posted."
             exit 0
           fi
           if [ "$STATE" != "OPEN" ]; then
@@ -177,7 +193,7 @@ jobs:
             exit 0
           fi
           if ! gh api "repos/${REPO}/issues/${PR}/comments" -F body=@reply.md > /dev/null; then
-            echo "::warning::Could not reply on ${REPO}#${PR}. EXERCISM_SOURCE_REPOS_ACTIONS_PAT needs Pull requests read and write on ${REPO}."
+            echo "::warning::Could not reply on ${REPO}#${PR}. The app needs Pull requests read and write on ${REPO}."
             exit 0
           fi
           echo "Replied on ${REPO}#${PR} (${KIND})."

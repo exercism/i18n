@@ -1,17 +1,56 @@
 # Source-repo workflow templates
 
-These two workflows do not run in this repo. They are installed in every repo that holds
-English: `website`, `docs`, `blog`, `website-copy`, `problem-specifications` and every track
-repo. They live here because they are part of the same loop as this repo's own workflows and
-call this repo's scripts.
+These two workflows are installed in every repo that holds English: `website`, `docs`,
+`blog`, `website-copy`, `problem-specifications` and every track repo. Each is a few lines
+that hold a trigger and job permissions and call a reusable workflow in this repo, where the
+logic lives. A change to the loop is therefore a change here, and the installed copies stay
+as they are.
 
-| Template | Installs as | Trigger | Holds a secret | Blocks a merge |
-| --- | --- | --- | --- | --- |
-| `i18n-queue.yml` | `.github/workflows/i18n-queue.yml` | `pull_request_target` (`labeled`, `unlabeled`, `synchronize`) | yes, `EXERCISM_I18N_ISSUES_PAT` | no |
-| `i18n-completeness.yml` | `.github/workflows/i18n-completeness.yml` | `pull_request` | no | yes, once made a required check |
+| Template | Installs as | Trigger | Calls | Holds a secret | Blocks a merge |
+| --- | --- | --- | --- | --- | --- |
+| `i18n-queue.yml` | `.github/workflows/i18n-queue.yml` | `pull_request_target` (`labeled`, `unlabeled`, `synchronize`) | `.github/workflows/source-queue.yml` | yes, the Exercism i18n app's private key, through `secrets: inherit` | no |
+| `i18n-completeness.yml` | `.github/workflows/i18n-completeness.yml` | `pull_request` | `.github/workflows/source-completeness.yml` | no | yes, once made a required check |
 
 Keep the filenames. `rerun-source-check.yml` in this repo finds a PR's completeness run by the
 workflow filename `i18n-completeness.yml`.
+
+The completeness check reports as `i18n / completeness`: the caller's job, then the called
+job. That is the status check to require on `main`.
+
+## The Exercism i18n app
+
+The loop acts as the Exercism i18n GitHub App (`exercism-i18n`), installed on every repo in
+the `exercism` organisation. It has Actions, Contents, Issues and Pull requests read and
+write, and Metadata read. Its id is the organisation variable `EXERCISM_I18N_APP_ID` and its
+private key the organisation secret `EXERCISM_I18N_APP_PRIVATE_KEY`, both visible to every
+repo.
+
+Each job that needs to act outside its own repo mints a short-lived installation token with
+`actions/create-github-app-token`, limited to the repos and permissions that job needs:
+
+| Job | Repo | Permissions | For |
+| --- | --- | --- | --- |
+| `source-queue.yml` `queue`, `withdraw` | `exercism/i18n` | Issues write | opening, updating and closing the queue issue |
+| `translate-on-issue.yml` `dispatch` | `exercism/translator` | Contents write | the `repository_dispatch` |
+| `rerun-source-check.yml` `rerun` | the source repo | Actions write, Pull requests read | re-running the completeness check |
+| `rerun-source-check.yml` `reply` | the source repo | Pull requests write | "This PR has been translated 🚀" |
+| translator `translate-issue.yml` | `exercism/i18n` | Contents write, Issues write | the push to `main`, the comments, labels and close |
+| translator `retry-stale-issues.yml` | `exercism/i18n`, then `exercism/translator` | Issues read, then Contents write | listing open issues, then dispatching |
+
+So the queue's issues, their comments, the pushes to `main` here and the reply on the PR are
+all by `exercism-i18n[bot]`. Anyone can open an issue in this public repo, so every step that
+acts on an issue first checks that `exercism-i18n[bot]` opened it.
+
+### Moving to the app
+
+Until 2026-09-22 the loop used personal access tokens owned by iHiD, and the queue's issues
+were authored by `iHiD`. `exercism/website-copy` runs the thin callers above. `website`,
+`docs`, `blog` and `problem-specifications` still run the old self-contained template, which
+opens issues with the organisation secret `EXERCISM_I18N_ISSUES_PAT`, so their issues are
+still authored by `iHiD`. Until they move over, `translate-on-issue.yml`,
+`rerun-source-check.yml` and the translator accept issues from `iHiD` as well as from
+`exercism-i18n[bot]`. Once every source repo calls the reusable workflows, drop `iHiD` from
+those checks (and from `issue_authors` in the translator's `config.json`).
 
 ## The loop
 
@@ -37,8 +76,9 @@ check when the issue closes as completed, then replies "This PR has been transla
 the maintainer knows the PR can be merged. `scripts/pr-reply.mjs` holds the wording.
 
 The reply carries a hidden marker, so a re-run of the workflow doesn't post it twice. It is
-posted only on an open PR, only for an issue opened by `iHiD`, and the workflow reads nothing
-from the issue but the repo and PR number in its title.
+posted only on an open PR, only for an issue opened by `exercism-i18n[bot]` (or, for now, by
+`iHiD`), and the workflow reads nothing from the issue but the repo and PR number in its
+title.
 
 While the label is on, every push to the PR is checked. If a push changes English, whoever
 made it, the label is removed, a comment asks a maintainer to add it again once the copy is
@@ -59,18 +99,19 @@ Adding the label again opens a new issue at the new head.
 Most Exercism PRs come from forks. Neither template runs PR code, and neither checks it out.
 
 - `i18n-queue.yml` holds a secret and a token that can write to pull requests, so it runs on
-  `pull_request_target` and never checks out the source repo. It reads what changed from
+  `pull_request_target`, and neither it nor `source-queue.yml` checks out the source repo. It reads what changed from
   GitHub's "list pull request files" and compare APIs, which give each file's path and git
   blob sha, plus commit trees and the two versions of each changed metadata file, fetched by
   blob id through the blob API. `scripts/english-changes.mjs` treats all of it as untrusted
   data and parses it only as JSON or flat TOML. Nothing is cloned. The GITHUB_TOKEN is scoped
   per job. `hold` has `pull-requests: write` to remove the label and comment. Every other
-  job can only read.
+  job can only read. Only the steps that write the issue here mint the app's token, and it
+  covers issues on this repo and nothing else.
 - `i18n-completeness.yml` holds no secret and runs on `pull_request` with a read-only token.
   It fetches the PR's merge ref as git objects into a bare repository with no working tree,
   and reads it with `git ls-tree` and `git cat-file`. Website YAML and TypeScript bundles are
   parsed as data and never evaluated.
-- The only code either one runs is this repo's `scripts/`, at `main`.
+- The only code either one runs is this repo's reusable workflows and `scripts/`, at `main`.
 
 Neither template has its own list of what counts as English. That list is
 `scripts/lib/content-types.mjs` and `scripts/lib/website-english.mjs`, read through the
@@ -78,8 +119,11 @@ scripts, so the eighty-five installed copies cannot drift apart.
 
 ## Where they run
 
-`exercism/website-copy` is the first source repo with both templates installed, and
-`completeness` is a required check on its `main`. The whole loop was tested there live on
+`exercism/website-copy` is the first source repo with both templates installed, and it runs
+the thin callers. `website`, `docs`, `blog` and `problem-specifications` have the old
+self-contained templates (see "Moving to the app"). The loop was first tested on
+`exercism/website-copy`, with the old templates and a required `completeness` check on its
+`main`. The whole loop was tested there live on
 2026-09-21 with a fork PR (`exercism/website-copy#2409`, closed unmerged):
 
 - With no label, nothing was queued.
@@ -106,19 +150,13 @@ No other source repo has either template yet.
 - [x] Create the `translation` label in `exercism/i18n`. `gh issue create --label` fails
       without it.
 - [x] Create the `needs-attention` label in `exercism/i18n`. The translator adds it to an
-      issue a person has to fix, with `EXERCISM_I18N_PUSH_PAT` (Issues read/write).
+      issue a person has to fix.
 - [x] Create the `over-cap` label in `exercism/i18n`. The translator adds it, with
       `needs-attention`, to an issue above its word cap, so the issue shows it is waiting for
       approval.
-- [x] Credentials. Both exist as fine-grained PATs. `EXERCISM_I18N_ISSUES_PAT` is an
-      organisation secret on `exercism`, available to every repo, owned by iHiD, with Issues
-      read/write on `exercism/i18n` only, so the issues it opens are authored by `iHiD`.
-      `EXERCISM_SOURCE_REPOS_ACTIONS_PAT` is a repository secret on `exercism/i18n` with
-      Actions read/write, Pull requests read/write and Issues read/write on the source
-      repos. A source repo added later must be added to this second PAT, or
-      `rerun-source-check.yml` cannot re-run its check or reply on its PRs. Commenting on a
-      PR needs Pull requests write; without it the reply is skipped with a warning in the
-      run's log.
+- [x] Credentials. The Exercism i18n app is installed on every repo in the organisation, and
+      its id and private key are organisation-wide (see "The Exercism i18n app"). A source
+      repo added later needs nothing more.
 - [x] Decided: who may trigger an issue. Whoever adds the `ready-to-translate` label to the
       PR, which needs triage rights on the source repo. Every PR needs it, maintainers' own
       included.
@@ -130,14 +168,14 @@ No other source repo has either template yet.
 - [x] Answered: a runner translates automatically when an issue opens, in
       `exercism/translator`. `.github/workflows/translate-on-issue.yml` in this repo sends it
       one `repository_dispatch` carrying the issue number, and that repo translates, pushes to
-      `main` here and closes the issue. No script here calls an LLM. The dispatch uses
-      `EXERCISM_TRANSLATOR_DISPATCH_PAT`, a repository secret here: a fine-grained PAT with
-      Contents read/write on `exercism/translator` only.
+      `main` here and closes the issue. No script here calls an LLM. The dispatch uses the
+      app's token, limited to Contents write on `exercism/translator`.
 - [ ] Decide how the templates reach the track repos. Exercism already syncs shared files to
       every track from `exercism/org-wide-files`, which is the obvious route, and the "do not
       edit a copy" header on each template assumes something like it.
-- [ ] Make `completeness` a required status check on `main` in each source repo. Until it is
-      required it only informs. Done in `exercism/website-copy`.
+- [ ] Make `i18n / completeness` a required status check on `main` in each source repo that
+      runs the thin callers. Until it is required it only informs. A repo on the old template
+      reports the check as `completeness`.
 - [ ] `productionTargets` holds `hu`, so once installed the completeness check fails on every
       PR that changes English until the Hungarian translation lands here. It only blocks the
       merge once it is a required check; until then it shows as a failed check on the PR.

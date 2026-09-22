@@ -71,16 +71,23 @@ When a maintainer adds the `ready-to-translate` label to a PR in a repo that hol
 an issue is opened here. The PR's `i18n completeness` check blocks its merge until this repo
 holds the translation for every locale in `locales.json` `productionTargets`, for new and
 edited text. Closing the issue re-runs the check. The two workflows a source repo installs
-are in [source-repo-workflows/](./source-repo-workflows/README.md), and both are safe for
+are in [source-repo-workflows/](./source-repo-workflows/README.md). Each is a short caller
+of a reusable workflow in `.github/workflows/` here (`source-queue.yml` and
+`source-completeness.yml`), so the loop's logic changes here only, and both are safe for
 fork PRs.
+
+The loop acts as the Exercism i18n GitHub App. It opens the issues, comments on them, pushes
+translations to `main` here and replies on the PR, all as `exercism-i18n[bot]`, with
+short-lived tokens that each job mints for the repos it touches. See "The Exercism i18n app"
+in [source-repo-workflows/README.md](./source-repo-workflows/README.md).
 
 `.github/workflows/translate-on-issue.yml` sends each new or updated issue to
 [`exercism/translator`](https://github.com/exercism/translator) as a `repository_dispatch`
 carrying the issue number. That repo translates, pushes here and closes the issue. No script
 in this repo calls an LLM. A run that fails in a way another run would repeat labels the
 issue `needs-attention`, and the translation team fixes it by hand and runs it again. The PR
-gets a reply when its issue opens, when it closes, and when it is labelled, with wording from
-`scripts/pr-reply.mjs`.
+gets one reply, "This PR has been translated 🚀", once the translations have landed and its
+check has re-run, with wording from `scripts/pr-reply.mjs`.
 
 Nothing under `locales/` is deleted. `scripts/no-deletions.mjs` fails on any removal unless a
 commit in the range has an `Allow-Deletions: <why>` trailer.
