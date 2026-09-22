@@ -136,6 +136,12 @@ self-contained templates (see "Moving to the app"). The loop was first tested on
   planned and re-ran nothing.
 - Adding the label again completed the loop again.
 
+It was tested again on 2026-09-22 with the thin callers and the app, with a fork PR
+(`exercism/website-copy#2420`, closed unmerged). The check failed, and adding the label
+opened `exercism/i18n#8` as `exercism-i18n[bot]`. The app commented, pushed the translation to
+`main` here as `exercism-i18n[bot]` and closed the issue. `i18n / completeness` re-ran green,
+and the app replied "This PR has been translated 🚀" on the PR.
+
 A run that fails pushes nothing and leaves the issue open. When another run would fail the
 same way (items the checker rejects every time, checker errors, the word cap, deletions), the
 translator labels the issue `needs-attention`, and the PR gets a reply saying so. Its retry

@@ -249,9 +249,8 @@ Not done yet:
   `problem-specifications` still run the old self-contained queue, which opens issues as
   `iHiD` with the organisation secret `EXERCISM_I18N_ISSUES_PAT`, so the checks here and in
   the translator accept `iHiD` as well as the app until they move over. See "Moving to the
-  app" in `source-repo-workflows/README.md`.
-- **The reply on the source PR is not tested live yet.** `rerun-source-check.yml` posts
-  "This PR has been translated 🚀" after it re-runs the check.
+  app" in `source-repo-workflows/README.md`. The whole loop, the reply on the PR included, was
+  tested live as the app on 2026-09-22 (`exercism/website-copy#2420`).
 
 ## Open questions
 
