@@ -24,10 +24,7 @@
 #  - The job only runs for an issue opened by `exercism-i18n[bot]` (the
 #    Exercism i18n GitHub App, which the source repos' workflows open issues
 #    as), with the `translation` label, and titled `Translate exercism/...`.
-#    Only someone with triage rights can add the label. For now it also
-#    accepts `iHiD`, because the source repos still on the old queue open
-#    issues with his token. See "Moving to the app" in
-#    source-repo-workflows/README.md.
+#    Only someone with triage rights can add the label.
 #  - Only the issue number is sent. It is checked here as digits, and checked
 #    again by the translator repo, which fetches the issue itself and applies
 #    its own checks (author, label, an allowlisted repo, and a sha that belongs
@@ -55,7 +52,7 @@ permissions: {}
 
 jobs:
   dispatch:
-    if: ${{ (github.event.issue.user.login == 'exercism-i18n[bot]' || github.event.issue.user.login == 'iHiD') && contains(github.event.issue.labels.*.name, 'translation') && startsWith(github.event.issue.title, 'Translate exercism/') }}
+    if: ${{ github.event.issue.user.login == 'exercism-i18n[bot]' && contains(github.event.issue.labels.*.name, 'translation') && startsWith(github.event.issue.title, 'Translate exercism/') }}
     runs-on: ubuntu-latest
     steps:
       - name: Mint a token for exercism/translator

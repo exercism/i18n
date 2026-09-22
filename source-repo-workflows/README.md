@@ -41,16 +41,8 @@ So the queue's issues, their comments, the pushes to `main` here and the reply o
 all by `exercism-i18n[bot]`. Anyone can open an issue in this public repo, so every step that
 acts on an issue first checks that `exercism-i18n[bot]` opened it.
 
-### Moving to the app
-
 Until 2026-09-22 the loop used personal access tokens owned by iHiD, and the queue's issues
-were authored by `iHiD`. `exercism/website-copy` runs the thin callers above. `website`,
-`docs`, `blog` and `problem-specifications` still run the old self-contained template, which
-opens issues with the organisation secret `EXERCISM_I18N_ISSUES_PAT`, so their issues are
-still authored by `iHiD`. Until they move over, `translate-on-issue.yml`,
-`rerun-source-check.yml` and the translator accept issues from `iHiD` as well as from
-`exercism-i18n[bot]`. Once every source repo calls the reusable workflows, drop `iHiD` from
-those checks (and from `issue_authors` in the translator's `config.json`).
+were authored by `iHiD`. Every step now accepts only issues opened by `exercism-i18n[bot]`.
 
 ## The loop
 
@@ -76,9 +68,8 @@ check when the issue closes as completed, then replies "This PR has been transla
 the maintainer knows the PR can be merged. `scripts/pr-reply.mjs` holds the wording.
 
 The reply carries a hidden marker, so a re-run of the workflow doesn't post it twice. It is
-posted only on an open PR, only for an issue opened by `exercism-i18n[bot]` (or, for now, by
-`iHiD`), and the workflow reads nothing from the issue but the repo and PR number in its
-title.
+posted only on an open PR, only for an issue opened by `exercism-i18n[bot]`, and the workflow
+reads nothing from the issue but the repo and PR number in its title.
 
 While the label is on, every push to the PR is checked. If a push changes English, whoever
 made it, the label is removed, a comment asks a maintainer to add it again once the copy is
@@ -119,11 +110,13 @@ scripts, so the eighty-five installed copies cannot drift apart.
 
 ## Where they run
 
-`exercism/website-copy` is the first source repo with both templates installed, and it runs
-the thin callers. `website`, `docs`, `blog` and `problem-specifications` have the old
-self-contained templates (see "Moving to the app"). The loop was first tested on
-`exercism/website-copy`, with the old templates and a required `completeness` check on its
-`main`. The whole loop was tested there live on
+`website`, `docs`, `blog`, `website-copy` and `problem-specifications` run both callers, and
+each requires `i18n / completeness` on `main`. `exercism/org-wide-files` still holds the old
+self-contained templates under `tracks-files/.github/workflows/`, so it needs the callers
+before its sync to the track repos is turned back on. No track repo has either workflow yet.
+
+The loop was first tested on `exercism/website-copy`, with the old templates and a required
+`completeness` check on its `main`. The whole loop was tested there live on
 2026-09-21 with a fork PR (`exercism/website-copy#2409`, closed unmerged):
 
 - With no label, nothing was queued.
@@ -179,9 +172,9 @@ No other source repo has either template yet.
 - [ ] Decide how the templates reach the track repos. Exercism already syncs shared files to
       every track from `exercism/org-wide-files`, which is the obvious route, and the "do not
       edit a copy" header on each template assumes something like it.
-- [ ] Make `i18n / completeness` a required status check on `main` in each source repo that
-      runs the thin callers. Until it is required it only informs. A repo on the old template
-      reports the check as `completeness`.
+- [x] Make `i18n / completeness` a required status check on `main` in each source repo. Done
+      in `website`, `docs`, `blog`, `website-copy` and `problem-specifications`. A track repo
+      needs it too once it has the callers.
 - [ ] `productionTargets` holds `hu`, so once installed the completeness check fails on every
       PR that changes English until the Hungarian translation lands here. It only blocks the
       merge once it is a required check; until then it shows as a failed check on the PR.

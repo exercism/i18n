@@ -978,10 +978,13 @@ await test("the loop's workflows use the app's tokens, each limited to named rep
   }
 });
 
-await test("only issues opened by the app (or, for now, iHiD) are dispatched or replied to", () => {
-  const guard = "(github.event.issue.user.login == 'exercism-i18n[bot]' || github.event.issue.user.login == 'iHiD')";
+await test("only issues opened by the app are dispatched or replied to", () => {
+  const guard = "github.event.issue.user.login == 'exercism-i18n[bot]'";
   assert.ok(readWorkflow(WORKFLOWS, "translate-on-issue.yml").includes(`if: \${{ ${guard} && `));
   assert.ok(readWorkflow(WORKFLOWS, "rerun-source-check.yml").includes(` && ${guard} && github.event.issue.state_reason == 'completed'`));
+  for (const name of ["translate-on-issue.yml", "rerun-source-check.yml", "source-queue.yml"]) {
+    assert.ok(!/login == 'iHiD'/.test(readWorkflow(WORKFLOWS, name)), `${name} still trusts iHiD`);
+  }
   // The queue only finds and edits issues the app opened.
   const queue = readWorkflow(WORKFLOWS, "source-queue.yml");
   assert.equal((queue.match(/gh issue list [^\n]*--author "\$APP_AUTHOR"/g) ?? []).length, 2);

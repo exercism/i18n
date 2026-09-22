@@ -33,9 +33,7 @@
 # already-failed check on an open PR, which anyone with write access can do
 # with a button. Replies go further, since they post as the app, so the reply
 # job also requires the issue to be opened by `exercism-i18n[bot]`, as the
-# queue's issues are. For now it also accepts `iHiD`, because the source repos
-# still on the old queue open issues with his token (see "Moving to the app" in
-# source-repo-workflows/README.md). Its wording is fixed, and it reads nothing from the issue but the
+# queue's issues are. Its wording is fixed, and it reads nothing from the issue but the
 # title's repo and PR number and the issue's labels.
 #
 # Token:
@@ -133,7 +131,7 @@ jobs:
   reply:
     # Waits until the check has been re-run.
     needs: [pr, rerun]
-    if: ${{ needs.pr.outputs.repo != '' && (github.event.issue.user.login == 'exercism-i18n[bot]' || github.event.issue.user.login == 'iHiD') && github.event.issue.state_reason == 'completed' }}
+    if: ${{ needs.pr.outputs.repo != '' && github.event.issue.user.login == 'exercism-i18n[bot]' && github.event.issue.state_reason == 'completed' }}
     runs-on: ubuntu-latest
     permissions:
       contents: read

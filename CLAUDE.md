@@ -240,16 +240,16 @@ against the real `website`, `ruby`, `docs` and `problem-specifications`; the blo
 
 Not done yet:
 
-- **The loop runs as a GitHub App in one source repo.** `exercism/website-copy` calls the
-  reusable workflows (`source-queue.yml`, `source-completeness.yml`) through the thin
-  callers in `source-repo-workflows/`. The loop acts as the Exercism i18n app
+- **The loop runs as a GitHub App in the five non-track source repos, and in no track yet.**
+  `website`, `docs`, `blog`, `website-copy` and `problem-specifications` call the reusable
+  workflows (`source-queue.yml`, `source-completeness.yml`) through the short callers in
+  `source-repo-workflows/`, and each requires `i18n / completeness` on `main`. The loop acts as the Exercism i18n app
   (`exercism-i18n[bot]`), whose id and private key are an organisation variable
   (`EXERCISM_I18N_APP_ID`) and secret (`EXERCISM_I18N_APP_PRIVATE_KEY`); each job mints a
-  token limited to the repos and permissions it needs. `website`, `docs`, `blog` and
-  `problem-specifications` still run the old self-contained queue, which opens issues as
-  `iHiD` with the organisation secret `EXERCISM_I18N_ISSUES_PAT`, so the checks here and in
-  the translator accept `iHiD` as well as the app until they move over. See "Moving to the
-  app" in `source-repo-workflows/README.md`. The whole loop, the reply on the PR included, was
+  token limited to the repos and permissions it needs. Only issues opened by
+  `exercism-i18n[bot]` are acted on. `exercism/org-wide-files` still holds the old
+  self-contained templates for the tracks, and needs the callers before its sync is turned
+  back on. The whole loop, the reply on the PR included, was
   tested live as the app on 2026-09-22 (`exercism/website-copy#2420`).
 
 ## Open questions
@@ -261,7 +261,7 @@ code it would change.
    runner is in `exercism/translator`. `translate-on-issue.yml` sends it the issue number
    with one `repository_dispatch`, and it translates, pushes here and closes the issue. No
    script here calls an LLM. The dispatch only happens for an issue opened by
-   `exercism-i18n[bot]` (or, while the old queue is still installed, `iHiD`), with
+   `exercism-i18n[bot]`, with
    the `translation` label and a title starting `Translate exercism/`, and the translator repo
    checks all of that again itself.
 2. ~~Who may trigger an issue.~~ Answered: whoever adds the `ready-to-translate` label to the
