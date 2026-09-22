@@ -77,7 +77,8 @@ fork PRs.
 `.github/workflows/translate-on-issue.yml` sends each new or updated issue to
 [`exercism/translator`](https://github.com/exercism/translator) as a `repository_dispatch`
 carrying the issue number. That repo translates, pushes here and closes the issue. No script
-in this repo calls an LLM.
+in this repo calls an LLM. A run that fails in a way another run would repeat labels the
+issue `needs-attention`, and the translation team fixes it by hand and runs it again.
 
 Nothing under `locales/` is deleted. `scripts/no-deletions.mjs` fails on any removal unless a
 commit in the range has an `Allow-Deletions: <why>` trailer.

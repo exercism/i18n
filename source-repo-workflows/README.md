@@ -82,7 +82,12 @@ scripts, so the eighty-five installed copies cannot drift apart.
   planned and re-ran nothing.
 - Adding the label again completed the loop again.
 
-An issue above the translator's word cap stays open until iHiD deals with it.
+A run that fails pushes nothing and leaves the issue open. When another run would fail the
+same way (items the checker rejects every time, checker errors, the word cap, deletions), the
+translator labels the issue `needs-attention`. Its retry sweep skips a labelled issue, and the
+translation team fixes the rejected files by hand, commits them to `main` here, and runs the
+issue again, which closes it and removes the label. An outage leaves the issue unlabelled,
+and the sweep retries it.
 
 No other source repo has either template yet.
 
@@ -90,6 +95,8 @@ No other source repo has either template yet.
 
 - [x] Create the `translation` label in `exercism/i18n`. `gh issue create --label` fails
       without it.
+- [x] Create the `needs-attention` label in `exercism/i18n`. The translator adds it to an
+      issue a person has to fix, with `EXERCISM_I18N_PUSH_PAT` (Issues read/write).
 - [x] Credentials. Both exist as fine-grained PATs. `EXERCISM_I18N_ISSUES_PAT` is an
       organisation secret on `exercism`, available to every repo, owned by iHiD, with Issues
       read/write on `exercism/i18n` only, so the issues it opens are authored by `iHiD`.
