@@ -44,7 +44,7 @@ export function languageList(locales) {
 export function replyBody(kind, issue, locales = []) {
   if (!KINDS.includes(kind)) throw new Error(`"${kind}" is not one of ${KINDS.join(", ")}`);
   if (!/^[1-9][0-9]*$/.test(String(issue))) throw new Error(`"${issue}" is not an issue number`);
-  const lines = { translated: "This PR has been translated 🚀" };
+  const lines = { translated: `This PR [has been translated](https://github.com/exercism/i18n/issues/${issue}) 🚀` };
   return `${lines[kind]}\n\n${marker(kind, issue)}\n`;
 }
 

@@ -13,7 +13,7 @@
 # most Exercism PRs come from forks, and a fork's branch is often called `main`.
 #
 # After the re-run, when the issue closed as completed, it posts one reply on
-# the PR: "This PR has been translated 🚀" (scripts/pr-reply.mjs), so the
+# the PR: "This PR [has been translated](<the i18n issue>) 🚀" (scripts/pr-reply.mjs), so the
 # maintainer knows the PR can be merged. Every other step, including failures,
 # is recorded on the i18n issue only. The reply is skipped when the PR is no
 # longer open, or when the PR already has it.

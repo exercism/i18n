@@ -33,7 +33,7 @@ Each job that needs to act outside its own repo mints a short-lived installation
 | `source-queue.yml` `queue`, `withdraw` | `exercism/i18n` | Issues write | opening, updating and closing the queue issue |
 | `translate-on-issue.yml` `dispatch` | `exercism/translator` | Contents write | the `repository_dispatch` |
 | `rerun-source-check.yml` `rerun` | the source repo | Actions write, Pull requests read | re-running the completeness check |
-| `rerun-source-check.yml` `reply` | the source repo | Pull requests write | "This PR has been translated 🚀" |
+| `rerun-source-check.yml` `reply` | the source repo | Pull requests write | "This PR [has been translated](<the i18n issue>) 🚀" |
 | translator `translate-issue.yml` | `exercism/i18n` | Contents write, Issues write | the push to `main`, the comments, labels and close |
 | translator `retry-stale-issues.yml` | `exercism/i18n`, then `exercism/translator` | Issues read, then Contents write | listing open issues, then dispatching |
 
@@ -64,7 +64,7 @@ were authored by `iHiD`. Every step now accepts only issues opened by `exercism-
 The i18n issue is the log of each step: the translator comments when it starts and when it
 finishes, and failures, labels and approvals all happen there. The PR gets one reply, only
 when translation succeeds: `rerun-source-check.yml` here re-runs the PR's `i18n completeness`
-check when the issue closes as completed, then replies "This PR has been translated 🚀", so
+check when the issue closes as completed, then replies "This PR [has been translated](<the i18n issue>) 🚀", so
 the maintainer knows the PR can be merged. `scripts/pr-reply.mjs` holds the wording.
 
 The reply carries a hidden marker, so a re-run of the workflow doesn't post it twice. It is
@@ -133,7 +133,7 @@ It was tested again on 2026-09-22 with the thin callers and the app, with a fork
 (`exercism/website-copy#2420`, closed unmerged). The check failed, and adding the label
 opened `exercism/i18n#8` as `exercism-i18n[bot]`. The app commented, pushed the translation to
 `main` here as `exercism-i18n[bot]` and closed the issue. `i18n / completeness` re-ran green,
-and the app replied "This PR has been translated 🚀" on the PR.
+and the app replied "This PR [has been translated](<the i18n issue>) 🚀" on the PR.
 
 A run that fails pushes nothing and leaves the issue open. When another run would fail the
 same way (items the checker rejects every time, checker errors, the word cap, deletions), the

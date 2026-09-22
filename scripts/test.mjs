@@ -487,7 +487,7 @@ await test("a push takes the label off only when it changes the PR's own English
 // ------------------------------------------------------- replies on the PR --
 
 await test("pr-reply: the translated reply, with its marker", () => {
-  assert.match(replyBody("translated", 12), /^This PR has been translated 🚀\n/);
+  assert.match(replyBody("translated", 12), /^This PR \[has been translated\]\(https:\/\/github\.com\/exercism\/i18n\/issues\/12\) 🚀\n/);
   for (const kind of KINDS) assert.ok(replyBody(kind, 12).includes(marker(kind, 12)), kind);
   assert.equal(languageList(["hu", "de", "fr"]), "Hungarian, German and French");
   assert.equal(languageList(["hu", "de"]), "Hungarian and German");
