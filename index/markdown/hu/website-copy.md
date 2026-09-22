@@ -480,7 +480,8 @@ This page is generated from [the index](../../json/hu/website-copy.json) by `scr
 ### ruby
 
 - `general/explicit_return.md` ([English](https://github.com/exercism/website-copy/blob/main/analyzer-comments/ruby/general/explicit_return.md)): [Latest](../../../locales/hu/content/a8/00/95d5006148dd19f5086f03a56c88e13a092d.md)
-- `general/incorrect_indentation.md` ([English](https://github.com/exercism/website-copy/blob/main/analyzer-comments/ruby/general/incorrect_indentation.md)): [Latest](../../../locales/hu/content/c3/1a/d15dc50e79a3d70f3362f674f7b484a20b52.md)
+- `general/incorrect_indentation.md` ([English](https://github.com/exercism/website-copy/blob/main/analyzer-comments/ruby/general/incorrect_indentation.md)): [Latest](../../../locales/hu/content/32/e9/389ef940d1c6a2f9f1b13c3fc51f47f31c07.md)
+  - [`c31ad15dc5`](../../../locales/hu/content/c3/1a/d15dc50e79a3d70f3362f674f7b484a20b52.md)
 - `general/no_target_method.md` ([English](https://github.com/exercism/website-copy/blob/main/analyzer-comments/ruby/general/no_target_method.md)): [Latest](../../../locales/hu/content/02/46/1dab540e599a74a6b726f07da96f9bca8dd2.md)
 - `general/no_target_module.md` ([English](https://github.com/exercism/website-copy/blob/main/analyzer-comments/ruby/general/no_target_module.md)): [Latest](../../../locales/hu/content/52/10/2ec00b14ab96e85e9c321e15d187010857b0.md)
 - `high-scores/attr_reader.md` ([English](https://github.com/exercism/website-copy/blob/main/analyzer-comments/ruby/high-scores/attr_reader.md)): [Latest](../../../locales/hu/content/8c/07/e29971e8fc5f10fa7c9022d7c77a1cda0b6c.md)
