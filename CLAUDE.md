@@ -209,6 +209,7 @@ header comment is its documentation, so read it before changing the script. Ther
 | `source-checkout.mjs` | Fetches a source repo into `.source/`: shallow, blobless, no working tree. |
 | `build-index.mjs` | Generates `index/markdown/` from `index/json/`. With `--check` it writes nothing and fails on a page that differs, an id with no file, or JSON not in canonical form. |
 | `backfill-index.mjs` | Builds one locale's index from the full history of every source checkout (default `../translator/.source`), at `origin/main`. Re-runnable. |
+| `pr-reply.mjs` | The wording of the replies the loop posts on a source PR (started, translated, needs attention, over the word cap), and whether a PR already has one. Used by the queue template and `rerun-source-check.yml`. Posts nothing itself. |
 | `test.mjs` | Plain `node:assert`. Unit assertions, then a fixture of real git repos that every script is run against. |
 
 - **Errors block; warnings never do.** WARN checks are heuristics and are expected to flag
@@ -244,8 +245,13 @@ Not done yet:
   2026-09-21. No other source repo has either template yet. All three secrets exist:
   `EXERCISM_I18N_ISSUES_PAT` (an organisation secret with Issues read/write on this repo only,
   owned by iHiD, so queue issues are authored by `iHiD`), `EXERCISM_SOURCE_REPOS_ACTIONS_PAT`
-  (a secret on this repo, with Actions read/write and Pull requests read on the source repos)
+  (a secret on this repo, with Actions read/write and Pull requests read/write on the source
+  repos, for the re-run and the replies on the PR)
   and `EXERCISM_TRANSLATOR_DISPATCH_PAT` (Contents read/write on `exercism/translator`).
+- **The replies on the source PR are not tested live yet.** `scripts/pr-reply.mjs` and the
+  reply job in `rerun-source-check.yml` run here as soon as they are on `main`. The
+  "Translation started" reply is in the queue template, and reaches a source repo only when
+  iHiD signs off the template change and it is synced there.
 
 ## Open questions
 

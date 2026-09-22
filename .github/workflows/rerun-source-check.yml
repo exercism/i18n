@@ -1,5 +1,5 @@
 # Re-runs a source PR's completeness check when its translation issue is
-# closed.
+# closed, and replies on the PR to say how its translation is going.
 #
 # A source repo's i18n-queue workflow opens an issue here, titled
 # `Translate exercism/<repo>#<PR>: ...`. The translations land on main here and
@@ -12,6 +12,19 @@
 # longer open, or if there is no run yet. Runs are looked up by head SHA because
 # most Exercism PRs come from forks, and a fork's branch is often called `main`.
 #
+# It also posts one reply on the PR for each of these events, with wording from
+# scripts/pr-reply.mjs:
+#
+#  - The issue closes as completed. The reply names the languages in
+#    locales.json `productionTargets` and says the check is re-running.
+#  - The translator labels the issue `needs-attention`. The reply says the
+#    translation hit a problem and the team is fixing it. When the issue also
+#    has the `over-cap` label, which the translator adds first for a change
+#    above its word cap, the reply says it is waiting for approval instead.
+#
+# A reply is skipped when the PR is no longer open, or when the PR's latest loop
+# reply is already the same one.
+#
 # Issues closed as "not planned" are skipped. The source repo's i18n-queue
 # workflow closes an issue that way when `ready-to-translate` is removed from
 # the PR, so nothing was translated and there is nothing to re-run.
@@ -19,40 +32,69 @@
 # Untrusted input:
 #
 # This repo is public, so anyone can open an issue with any title, and an
-# author can close their own issue. Two things limit what that can do. The job
-# only runs for issues with the `translation` label, which only someone with
+# author can close their own issue. Two things limit what that can do. Every
+# job only runs for issues with the `translation` label, which only someone with
 # triage rights (or the queue's token) can add. And the repo name is taken from
 # the title with a strict pattern that can only match a repository in the
 # `exercism` organisation. The worst a forged issue can do is re-run an
 # already-failed check on an open PR, which anyone with write access can do
-# with a button.
+# with a button. Replies go further, since they post under the PAT's owner, so
+# the reply job also requires the issue to be opened by iHiD, as the queue's
+# issues are. Its wording is fixed, and it reads nothing from the issue but the
+# title's repo and PR number and the issue's labels.
 #
 # Token:
 #
 # `EXERCISM_SOURCE_REPOS_ACTIONS_PAT` is a repository secret on exercism/i18n: a
-# fine-grained PAT with Actions read/write and Pull requests read on the source
-# repos (website, docs, blog, website-copy, problem-specifications and the
-# tracks). The default GITHUB_TOKEN only covers this repo and cannot re-run a
-# workflow elsewhere. If the PAT does not cover a source repo, this fails with a
-# 404 from `gh`; add that repo to the PAT.
+# fine-grained PAT with Actions read/write and Pull requests read/write on the
+# source repos (website, docs, blog, website-copy, problem-specifications and
+# the tracks). The default GITHUB_TOKEN only covers this repo and cannot re-run
+# a workflow or comment elsewhere. If the PAT does not cover a source repo, the
+# re-run fails with a 404 from `gh`; add that repo to the PAT. If it cannot
+# write to pull requests, the reply job logs a warning and posts nothing.
 
 name: Rerun source check
 
 on:
   issues:
-    types: [closed]
+    types: [closed, labeled]
 
 permissions: {}
 
 jobs:
+  # Reads the source repo and PR number from the title, for both jobs below.
+  pr:
+    if: ${{ contains(github.event.issue.labels.*.name, 'translation') && startsWith(github.event.issue.title, 'Translate exercism/') && ((github.event.action == 'closed' && github.event.issue.state_reason != 'not_planned') || (github.event.action == 'labeled' && github.event.label.name == 'needs-attention')) }}
+    runs-on: ubuntu-latest
+    outputs:
+      repo: ${{ steps.title.outputs.repo }}
+      number: ${{ steps.title.outputs.number }}
+    steps:
+      - name: Read the repo and PR number from the title
+        id: title
+        env:
+          TITLE: ${{ github.event.issue.title }}
+        run: |
+          set -euo pipefail
+          # Accept only `exercism/<name>#<digits>:`. The title is passed in as an
+          # environment variable and never interpolated into the script.
+          if [[ ! "$TITLE" =~ ^Translate\ (exercism/[A-Za-z0-9._-]+)#([0-9]+): ]]; then
+            echo "Could not read a repo and PR number from the title."
+            exit 0
+          fi
+          echo "repo=${BASH_REMATCH[1]}" >> "$GITHUB_OUTPUT"
+          echo "number=${BASH_REMATCH[2]}" >> "$GITHUB_OUTPUT"
+
   rerun:
-    if: ${{ github.event.issue.state_reason != 'not_planned' && contains(github.event.issue.labels.*.name, 'translation') && startsWith(github.event.issue.title, 'Translate exercism/') }}
+    needs: pr
+    if: ${{ github.event.action == 'closed' && needs.pr.outputs.repo != '' }}
     runs-on: ubuntu-latest
     steps:
       - name: Re-run the PR's completeness check
         env:
           GH_TOKEN: ${{ secrets.EXERCISM_SOURCE_REPOS_ACTIONS_PAT }}
-          TITLE: ${{ github.event.issue.title }}
+          REPO: ${{ needs.pr.outputs.repo }}
+          PR: ${{ needs.pr.outputs.number }}
         run: |
           set -euo pipefail
 
@@ -60,15 +102,6 @@ jobs:
             echo "EXERCISM_SOURCE_REPOS_ACTIONS_PAT is not configured; nothing can be re-run. See this workflow's header."
             exit 0
           fi
-
-          # Accept only `exercism/<name>#<digits>:`. The title is passed in as an
-          # environment variable and never interpolated into the script.
-          if [[ ! "$TITLE" =~ ^Translate\ (exercism/[A-Za-z0-9._-]+)#([0-9]+): ]]; then
-            echo "Could not read a repo and PR number from the title."
-            exit 0
-          fi
-          REPO="${BASH_REMATCH[1]}"
-          PR="${BASH_REMATCH[2]}"
 
           STATE=$(gh pr view "$PR" --repo "$REPO" --json state --jq '.state')
           if [ "$STATE" != "OPEN" ]; then
@@ -93,3 +126,74 @@ jobs:
 
           echo "Re-running failed jobs of run $ID on $REPO#$PR ($HEAD_SHA)."
           gh run rerun "$ID" --repo "$REPO" --failed
+
+  reply:
+    needs: pr
+    if: ${{ needs.pr.outputs.repo != '' && github.event.issue.user.login == 'iHiD' && (github.event.action == 'labeled' || github.event.issue.state_reason == 'completed') }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: read
+    steps:
+      - name: Check out this repo (scripts only)
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+          sparse-checkout: |
+            scripts
+            locales.json
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+
+      - name: Reply on the PR
+        env:
+          GH_TOKEN: ${{ secrets.EXERCISM_SOURCE_REPOS_ACTIONS_PAT }}
+          READ_TOKEN: ${{ github.token }}
+          THIS_REPO: ${{ github.repository }}
+          ACTION: ${{ github.event.action }}
+          ISSUE: ${{ github.event.issue.number }}
+          REPO: ${{ needs.pr.outputs.repo }}
+          PR: ${{ needs.pr.outputs.number }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "${GH_TOKEN:-}" ]; then
+            echo "::warning::EXERCISM_SOURCE_REPOS_ACTIONS_PAT is not configured, so no reply was posted on the PR."
+            exit 0
+          fi
+          [[ "$ISSUE" =~ ^[1-9][0-9]*$ && "$PR" =~ ^[1-9][0-9]*$ ]] || { echo "Not an issue and PR number; no reply."; exit 0; }
+
+          if [ "$ACTION" = "closed" ]; then
+            KIND=translated
+          else
+            # The translator adds `over-cap` before `needs-attention`, so the
+            # labels read here already include it for an over-cap issue.
+            OVER_CAP=$(GH_TOKEN="$READ_TOKEN" gh api "repos/${THIS_REPO}/issues/${ISSUE}" --jq '[.labels[].name] | index("over-cap") != null' || echo unknown)
+            if [ "$OVER_CAP" = "true" ]; then KIND=over-cap; else KIND=needs-attention; fi
+          fi
+
+          if ! STATE=$(gh pr view "$PR" --repo "$REPO" --json state --jq '.state'); then
+            echo "::warning::Could not read ${REPO}#${PR}, so no reply was posted. EXERCISM_SOURCE_REPOS_ACTIONS_PAT may not cover ${REPO}."
+            exit 0
+          fi
+          if [ "$STATE" != "OPEN" ]; then
+            echo "${REPO}#${PR} is ${STATE}; no reply."
+            exit 0
+          fi
+
+          if ! gh api --paginate "repos/${REPO}/issues/${PR}/comments?per_page=100" --jq '.[].body | @json' > comments.jsonl; then
+            echo "::warning::Could not read the comments on ${REPO}#${PR}, so no reply was posted."
+            exit 0
+          fi
+          POST=$(node scripts/pr-reply.mjs "$KIND" --issue="$ISSUE" --out=reply.md --comments=comments.jsonl)
+          if [ "$POST" != "post=true" ]; then
+            echo "${REPO}#${PR} already has this reply (${KIND}); not posting it again."
+            exit 0
+          fi
+          if ! gh api "repos/${REPO}/issues/${PR}/comments" -F body=@reply.md > /dev/null; then
+            echo "::warning::Could not reply on ${REPO}#${PR}. EXERCISM_SOURCE_REPOS_ACTIONS_PAT needs Pull requests read and write on ${REPO}."
+            exit 0
+          fi
+          echo "Replied on ${REPO}#${PR} (${KIND})."

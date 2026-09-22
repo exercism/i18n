@@ -38,6 +38,7 @@ import { buildWebsiteEnglish, globToRegExp, isWebsiteEnglishPath, loadExclusions
 import { findDeletions } from "./no-deletions.mjs";
 import { HISTORY_CAP, describePath, displayNames, emptyIndex, recordTranslation, renderReadme, renderRepo, serialiseIndex, syncIndex } from "./lib/translation-index.mjs";
 import { COMPARE_FILE_CAP, pushChanges, readPaths, readPrFiles, summarise, toMarkdown } from "./english-changes.mjs";
+import { KINDS, languageList, marker, readBodies, replyBody, shouldPost } from "./pr-reply.mjs";
 
 let failures = 0;
 
@@ -481,6 +482,32 @@ await test("a push takes the label off only when it changes the PR's own English
   assert.deepEqual([...readPaths(compare)].sort(), ["a.md", "b.md"]);
   assert.deepEqual([...readPaths(`[{"filename":"x"}][{"filename":"y","status":"removed"}]`)], ["x", "y"]);
   assert.equal(COMPARE_FILE_CAP, 300);
+});
+
+// ------------------------------------------------------- replies on the PR --
+
+await test("pr-reply: one reply per kind, naming the issue and the production languages", () => {
+  assert.match(replyBody("started", 12), /^Translation started: exercism\/i18n#12\. /);
+  assert.match(replyBody("translated", 12, ["hu"]), /^Translated into Hungarian: exercism\/i18n#12\. The `i18n completeness` check is re-running\./);
+  assert.match(replyBody("needs-attention", 12), /hit a problem, and we're fixing it/);
+  assert.match(replyBody("over-cap", 12), /waiting for approval, because this PR changes more English than the word limit allows/);
+  for (const kind of KINDS) assert.ok(replyBody(kind, 12).includes(marker(kind, 12)), kind);
+  assert.equal(languageList(["hu", "de", "fr"]), "Hungarian, German and French");
+  assert.equal(languageList(["hu", "de"]), "Hungarian and German");
+  assert.throws(() => replyBody("anything", 12), /not one of/);
+  assert.throws(() => replyBody("started", "12; rm"), /not an issue number/);
+});
+
+await test("pr-reply: it skips only a reply the PR's latest loop reply already is", () => {
+  const started = replyBody("started", 12);
+  const failed = replyBody("needs-attention", 12);
+  assert.equal(shouldPost([], "started", 12), true);
+  assert.equal(shouldPost([started, "a maintainer's comment"], "started", 12), false);
+  assert.equal(shouldPost([started, failed], "needs-attention", 12), false);
+  // The same problem again after a different reply, or another issue's reply, is news.
+  assert.equal(shouldPost([failed, replyBody("over-cap", 12)], "needs-attention", 12), true);
+  assert.equal(shouldPost([replyBody("started", 11)], "started", 12), true);
+  assert.deepEqual(readBodies(`${JSON.stringify(started)}\nnot json\n42\n\n`), [started]);
 });
 
 // ---------------------------------------------------------- locales.json ----
