@@ -2199,6 +2199,10 @@
       },
       "other_posts": {
         "title": "További bejegyzések a közösségtől"
+      },
+      "rss": {
+        "title": "Az Exercism blogja",
+        "description": "Kövesd nyomon az Exercism változásait, ismerd meg a közösségünket, és értesülj az új, közelgő funkciókról!"
       }
     },
     "info_bar": {
@@ -2383,7 +2387,8 @@
     },
     "blog_post": {
       "new_label": "új",
-      "published_time": "%{time_ago} ezelőtt"
+      "published_time": "%{time_ago} ezelőtt",
+      "share_title": "Oszd meg ezt a blogbejegyzést"
     },
     "footer": {
       "shared": {
