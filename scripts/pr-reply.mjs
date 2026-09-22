@@ -62,7 +62,7 @@ export function replyBody(kind, issue, locales = []) {
   const link = `exercism/i18n#${issue}`;
   const lines = {
     started: `Translation started: ${link}. The \`i18n completeness\` check re-runs when the translations land.`,
-    translated: `${locales.length > 0 ? `Translated into ${languageList(locales)}` : "Translated"}: ${link}. The \`i18n completeness\` check is re-running.`,
+    translated: "This PR has been translated 🚀",
     "needs-attention": `Translation hit a problem, and we're fixing it: ${link}. The \`i18n completeness\` check re-runs once it's done.`,
     "over-cap": `Translation is waiting for approval, because this PR changes more English than the word limit allows: ${link}. The \`i18n completeness\` check re-runs once it's translated.`
   };

@@ -488,7 +488,7 @@ await test("a push takes the label off only when it changes the PR's own English
 
 await test("pr-reply: one reply per kind, naming the issue and the production languages", () => {
   assert.match(replyBody("started", 12), /^Translation started: exercism\/i18n#12\. /);
-  assert.match(replyBody("translated", 12, ["hu"]), /^Translated into Hungarian: exercism\/i18n#12\. The `i18n completeness` check is re-running\./);
+  assert.match(replyBody("translated", 12, ["hu"]), /^This PR has been translated 🚀\n/);
   assert.match(replyBody("needs-attention", 12), /hit a problem, and we're fixing it/);
   assert.match(replyBody("over-cap", 12), /waiting for approval, because this PR changes more English than the word limit allows/);
   for (const kind of KINDS) assert.ok(replyBody(kind, 12).includes(marker(kind, 12)), kind);

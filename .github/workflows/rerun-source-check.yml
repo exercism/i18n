@@ -128,8 +128,10 @@ jobs:
           gh run rerun "$ID" --repo "$REPO" --failed
 
   reply:
-    needs: pr
-    if: ${{ needs.pr.outputs.repo != '' && github.event.issue.user.login == 'iHiD' && (github.event.action == 'labeled' || github.event.issue.state_reason == 'completed') }}
+    # After a close, the reply waits until the check has been re-run. `rerun` is
+    # skipped on label events, so the result of each job is named here.
+    needs: [pr, rerun]
+    if: ${{ !cancelled() && needs.pr.result == 'success' && needs.pr.outputs.repo != '' && github.event.issue.user.login == 'iHiD' && ((github.event.action == 'labeled' && needs.rerun.result == 'skipped') || (github.event.issue.state_reason == 'completed' && needs.rerun.result == 'success')) }}
     runs-on: ubuntu-latest
     permissions:
       contents: read

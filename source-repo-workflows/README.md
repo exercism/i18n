@@ -36,9 +36,8 @@ posts its own reply, and `scripts/pr-reply.mjs` here holds the wording of all of
 - `i18n-queue.yml` replies when it opens an issue (never when it updates one), with a link to
   it: "Translation started: exercism/i18n#<n>. The `i18n completeness` check re-runs when the
   translations land."
-- `rerun-source-check.yml` here replies when the issue closes as completed, naming the
-  languages in `locales.json` `productionTargets`: "Translated into Hungarian:
-  exercism/i18n#<n>. The `i18n completeness` check is re-running."
+- `rerun-source-check.yml` here re-runs the PR's `i18n completeness` check when the issue
+  closes as completed, then replies: "This PR has been translated 🚀"
 - The same workflow replies when the translator labels the issue `needs-attention`: "Translation
   hit a problem, and we're fixing it: exercism/i18n#<n>. The `i18n completeness` check re-runs
   once it's done." For a change above the translator's word cap, the translator adds the
