@@ -1,37 +1,22 @@
 #!/usr/bin/env node
 //
-// pr-reply: the replies the translation loop posts on a source PR, so a
-// maintainer watching the PR can follow its translation.
+// pr-reply: the one reply the translation loop posts on a source PR, once
+// its translations have landed and its completeness check has re-run, so the
+// maintainer knows the PR can be merged. Every other step is recorded on the
+// i18n issue only.
 //
 // Usage:
-//   node scripts/pr-reply.mjs <kind> --issue=<n> --out=<file> [--comments=<file>]
+//   node scripts/pr-reply.mjs translated --issue=<n> --out=<file> [--comments=<file>]
 //
-//   <kind>      started | translated | needs-attention | over-cap
 //   --issue     the translation issue's number in exercism/i18n
 //   --out       where to write the reply's body
 //   --comments  the PR's comment bodies, one JSON string per line, as
 //               `gh api --paginate .../comments --jq '.[].body | @json'` prints them
 //
 // Prints `post=true` or `post=false`. It prints `post=false` when the PR's
-// latest loop reply is already this one, so a label added twice or a workflow
-// run again does not post twice. It never posts anything itself.
-//
-// Each workflow posts one reply per event:
-//
-//   started          source-repo-workflows/i18n-queue.yml, when it opens an
-//                    issue here (never when it updates one)
-//   translated       .github/workflows/rerun-source-check.yml, when the issue
-//                    closes as completed
-//   needs-attention  the same workflow, when the translator labels the issue
-//                    `needs-attention`
-//   over-cap         the same, when the issue also has the `over-cap` label,
-//                    which the translator adds first when a change is above its
-//                    word cap
-//
-// The workflows decide the kind from events and labels only, and read nothing
-// from the issue but the repo and PR number in its title. The wording lives
-// here so the templates installed in every source repo and this repo's own
-// workflow cannot drift apart.
+// latest loop reply is already this one, so a workflow run again does not post
+// twice. It never posts anything itself. .github/workflows/rerun-source-check.yml
+// calls it when an issue closes as completed.
 
 import fs from "node:fs";
 import path from "node:path";
@@ -39,7 +24,7 @@ import { parseArgs } from "./lib/args.mjs";
 import { PRODUCTION_LOCALES } from "./lib/constants.mjs";
 import { languageName } from "./lib/translation-index.mjs";
 
-export const KINDS = ["started", "translated", "needs-attention", "over-cap"];
+export const KINDS = ["translated"];
 
 const MARKER = /<!-- exercism-i18n-reply: ([a-z-]+ exercism\/i18n#[0-9]+) -->/;
 
@@ -59,13 +44,7 @@ export function languageList(locales) {
 export function replyBody(kind, issue, locales = []) {
   if (!KINDS.includes(kind)) throw new Error(`"${kind}" is not one of ${KINDS.join(", ")}`);
   if (!/^[1-9][0-9]*$/.test(String(issue))) throw new Error(`"${issue}" is not an issue number`);
-  const link = `exercism/i18n#${issue}`;
-  const lines = {
-    started: `Translation started: ${link}. The \`i18n completeness\` check re-runs when the translations land.`,
-    translated: "This PR has been translated 🚀",
-    "needs-attention": `Translation hit a problem, and we're fixing it: ${link}. The \`i18n completeness\` check re-runs once it's done.`,
-    "over-cap": `Translation is waiting for approval, because this PR changes more English than the word limit allows: ${link}. The \`i18n completeness\` check re-runs once it's translated.`
-  };
+  const lines = { translated: "This PR has been translated 🚀" };
   return `${lines[kind]}\n\n${marker(kind, issue)}\n`;
 }
 

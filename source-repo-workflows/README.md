@@ -30,25 +30,15 @@ workflow filename `i18n-completeness.yml`.
    and serves the new files.
 5. `rerun-source-check.yml` here re-runs the PR's failed check, which now passes.
 
-The PR gets a reply at each step, so a maintainer watching it can follow along. Each event
-posts its own reply, and `scripts/pr-reply.mjs` here holds the wording of all of them:
+The i18n issue is the log of each step: the translator comments when it starts and when it
+finishes, and failures, labels and approvals all happen there. The PR gets one reply, only
+when translation succeeds: `rerun-source-check.yml` here re-runs the PR's `i18n completeness`
+check when the issue closes as completed, then replies "This PR has been translated 🚀", so
+the maintainer knows the PR can be merged. `scripts/pr-reply.mjs` holds the wording.
 
-- `i18n-queue.yml` replies when it opens an issue (never when it updates one), with a link to
-  it: "Translation started: exercism/i18n#<n>. The `i18n completeness` check re-runs when the
-  translations land."
-- `rerun-source-check.yml` here re-runs the PR's `i18n completeness` check when the issue
-  closes as completed, then replies: "This PR has been translated 🚀"
-- The same workflow replies when the translator labels the issue `needs-attention`: "Translation
-  hit a problem, and we're fixing it: exercism/i18n#<n>. The `i18n completeness` check re-runs
-  once it's done." For a change above the translator's word cap, the translator adds the
-  `over-cap` label first, and the reply says instead: "Translation is waiting for approval,
-  because this PR changes more English than the word limit allows: exercism/i18n#<n>. The
-  `i18n completeness` check re-runs once it's translated."
-
-Each reply carries a hidden marker naming its kind and issue. `rerun-source-check.yml` skips a
-reply when the PR's latest loop reply is already the same one, and replies only on an open PR.
-It reads nothing from the issue but the repo and PR number in its title and the issue's
-labels, and only for an issue opened by `iHiD`.
+The reply carries a hidden marker, so a re-run of the workflow doesn't post it twice. It is
+posted only on an open PR, only for an issue opened by `iHiD`, and the workflow reads nothing
+from the issue but the repo and PR number in its title.
 
 While the label is on, every push to the PR is checked. If a push changes English, whoever
 made it, the label is removed, a comment asks a maintainer to add it again once the copy is
@@ -74,9 +64,8 @@ Most Exercism PRs come from forks. Neither template runs PR code, and neither ch
   blob sha, plus commit trees and the two versions of each changed metadata file, fetched by
   blob id through the blob API. `scripts/english-changes.mjs` treats all of it as untrusted
   data and parses it only as JSON or flat TOML. Nothing is cloned. The GITHUB_TOKEN is scoped
-  per job. `hold` has `pull-requests: write` to remove the label and comment. `announce` has
-  it to post the "Translation started" reply, and reads nothing from the PR. Every other job
-  can only read.
+  per job. `hold` has `pull-requests: write` to remove the label and comment. Every other
+  job can only read.
 - `i18n-completeness.yml` holds no secret and runs on `pull_request` with a read-only token.
   It fetches the PR's merge ref as git objects into a bare repository with no working tree,
   and reads it with `git ls-tree` and `git cat-file`. Website YAML and TypeScript bundles are
@@ -118,18 +107,18 @@ No other source repo has either template yet.
       without it.
 - [x] Create the `needs-attention` label in `exercism/i18n`. The translator adds it to an
       issue a person has to fix, with `EXERCISM_I18N_PUSH_PAT` (Issues read/write).
-- [ ] Create the `over-cap` label in `exercism/i18n`. The translator adds it, before
-      `needs-attention`, to an issue above its word cap, so the reply on the PR can say the
-      translation is waiting for approval. Without the label the translator logs an error
-      and the PR gets the general "hit a problem" reply.
+- [x] Create the `over-cap` label in `exercism/i18n`. The translator adds it, with
+      `needs-attention`, to an issue above its word cap, so the issue shows it is waiting for
+      approval.
 - [x] Credentials. Both exist as fine-grained PATs. `EXERCISM_I18N_ISSUES_PAT` is an
       organisation secret on `exercism`, available to every repo, owned by iHiD, with Issues
       read/write on `exercism/i18n` only, so the issues it opens are authored by `iHiD`.
       `EXERCISM_SOURCE_REPOS_ACTIONS_PAT` is a repository secret on `exercism/i18n` with
-      Actions read/write, Pull requests read and Issues read/write on the source repos. A
-      source repo added later must be added to this second PAT, or `rerun-source-check.yml`
-      cannot re-run its check or reply on its PRs. Without Issues write the replies are
-      skipped with a warning in the run's log.
+      Actions read/write, Pull requests read/write and Issues read/write on the source
+      repos. A source repo added later must be added to this second PAT, or
+      `rerun-source-check.yml` cannot re-run its check or reply on its PRs. Commenting on a
+      PR needs Pull requests write; without it the reply is skipped with a warning in the
+      run's log.
 - [x] Decided: who may trigger an issue. Whoever adds the `ready-to-translate` label to the
       PR, which needs triage rights on the source repo. Every PR needs it, maintainers' own
       included.
