@@ -84,7 +84,11 @@ async function main() {
 
   console.log(`${name} (${kind}) @ ${resolveSha(repo, head)}${base ? `, relative to ${resolveSha(repo, base)}` : ", in full"}`);
 
-  const report = { repo: name, kind, head: resolveSha(repo, head), base: base ? resolveSha(repo, base) : null, locales: {} };
+  // `required` counts what this run asked for, so a reader of the JSON can tell a
+  // locale that holds most of a repo from one that holds none of it. Both are
+  // one failure to a PR check, and very different work to plan.
+  // scripts/sweep.mjs reads it.
+  const report = { repo: name, kind, head: resolveSha(repo, head), base: base ? resolveSha(repo, base) : null, required: {}, locales: {} };
 
   // What is required depends only on the source repo, so it is worked out once.
   let content = [];
@@ -95,6 +99,7 @@ async function main() {
     const englishBase = base ? await buildWebsiteEnglish(refReader(repo, base)) : null;
     website = Object.fromEntries(CATALOG_KINDS.map((catalog) => [catalog, requiredUnits(catalog, englishHead[catalog].catalog, englishBase?.[catalog].catalog ?? null)]));
     for (const catalog of CATALOG_KINDS) console.log(`  requires ${website[catalog].length} ${catalog} unit(s)`);
+    for (const catalog of CATALOG_KINDS) report.required[catalog] = website[catalog].length;
   } else {
     const headEntries = lsTree(repo, head);
     const baseEntries = base ? lsTree(repo, base) : null;
@@ -111,6 +116,7 @@ async function main() {
       for (const note of english.notes) console.log(`  note: ${note}`);
     }
     console.log(`  requires ${metadata.length} metadata unit(s) (names, titles, blurbs), from ${touched.length} ${base ? "changed " : ""}file(s)`);
+    report.required = { content: content.length, metadata: metadata.length };
   }
 
   const notice = productionGateNotice();

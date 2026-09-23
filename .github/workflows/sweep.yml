@@ -1,0 +1,240 @@
+# Asks, once a day, whether every source repo's `main` is fully translated for
+# every production locale.
+#
+# `i18n / completeness` answers a narrower question: does this repo hold the
+# translations for the English one pull request changes, measured when the check
+# runs. That answer cannot stay true until the PR merges. A locale can join
+# `productionTargets` after a PR goes green, an administrator can merge a PR
+# whose check failed, a PR can predate the check, and a locale that is a target
+# but not a production target is never asked for anything at all. Each of those
+# puts untranslated English on `main` with nothing anywhere reporting it, until
+# a user reaches the page and Sentry records a missing translation.
+#
+# This workflow asks the question those races cannot beat, because it asks it of
+# `main` rather than of a change: scripts/completeness.mjs with no `--base`
+# requires everything at the ref it reads, so pointing it at a source repo's
+# `main` says exactly what that repo is still missing. It is the same script the
+# PR check runs, so the sweep and the gate cannot drift apart.
+#
+# Daily, at a quiet hour. English merges every working day, and a gap that
+# opens on Monday should be visible on Tuesday rather than the following week.
+# The repo is public, so the runner time is free, and the cost that matters is
+# the git traffic: one shallow blobless fetch per repo, no working trees, no
+# file contents except the few metadata files that have to be read to compare
+# names and blurbs. The whole set is about 124 repos, which is minutes of work
+# split over the shards below.
+#
+# ## It reports, it does not queue
+#
+# The run writes one issue and rewrites it in place, so two runs that find the
+# same thing leave the same issue and nothing is ever posted twice. It opens no
+# per-repo translation issues. The translation queue's issues are scoped to a
+# pull request (exercism/translator's run-issue.mjs derives a run's scope from a
+# PR's own diff), and a sweep has no PR, so an issue raised here would be one
+# that machinery cannot act on. What a sweep finds is instead a whole-repo pass,
+# which is `node scripts/translate.mjs <source> <locale>` in exercism/translator
+# and needs no issue. The summary prints that command per row.
+#
+# ## When the sweep itself stops
+#
+# The failure this workflow can least afford is its own silence, because a
+# summary issue that nobody rewrites still reads as an answer. Three things make
+# that visible. The issue carries the date it was last written, in its title and
+# on its first line, so an old sweep looks old in a list of issues. A failed run
+# is a failed scheduled workflow, which GitHub mails to the repo's admins. And
+# the next run that does work out compares its own timestamp with the one it is
+# overwriting and puts a warning at the top of the body when the gap is longer
+# than the sweep allows itself.
+#
+# A shard that fails does not take the answer down with it: `report` runs
+# whatever the shards did, says which are missing, and marks the counts as a
+# floor rather than an answer.
+
+name: Sweep
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+    inputs:
+      repos:
+        description: "Sweep only these repos (comma separated owner/name), instead of every one"
+        required: false
+      locales:
+        description: "Sweep only these locales, instead of locales.json productionTargets"
+        required: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sweep
+  cancel-in-progress: false
+
+jobs:
+  # The registry names every source repo except the tracks, of which there are
+  # more than a hundred and which come and go. There is no list of them in this
+  # repo on purpose (scripts/lib/source-repos.mjs says why), so they are found
+  # from the topic every track repo carries, and archived repos are left out
+  # because the website does not serve them.
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      shards: ${{ steps.shards.outputs.list }}
+      total: ${{ steps.shards.outputs.total }}
+    steps:
+      - name: Find the track repos
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh search repos --owner exercism --topic exercism-track --archived=false --limit 1000 --json name > tracks.json
+
+      - name: How many repos were found
+        run: |
+          set -euo pipefail
+          COUNT=$(jq length tracks.json)
+          echo "Found ${COUNT} track repo(s)."
+          # A topic search that suddenly returns almost nothing would quietly
+          # shrink the sweep to the five singleton repos, which would look like
+          # the backlog had been cleared.
+          [ "$COUNT" -ge 50 ] || { echo "::error::Only ${COUNT} track repos found. That is too few to be right, so this run is stopped rather than reporting a sweep that covered almost nothing."; exit 1; }
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tracks
+          path: tracks.json
+
+      - name: Split the repos into shards
+        id: shards
+        run: |
+          set -euo pipefail
+          TOTAL=8
+          echo "total=${TOTAL}" >> "$GITHUB_OUTPUT"
+          echo "list=$(seq 1 "$TOTAL" | jq -R . | jq -sc .)" >> "$GITHUB_OUTPUT"
+
+  sweep:
+    needs: plan
+    runs-on: ubuntu-latest
+    strategy:
+      # One shard's trouble is not another's, and a partial answer is worth
+      # having, so a failing shard never cancels the rest.
+      fail-fast: false
+      matrix:
+        shard: ${{ fromJson(needs.plan.outputs.shards) }}
+    steps:
+      # The whole repo, because the question is what `locales/` holds.
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - uses: pnpm/action-setup@v6
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - name: Install
+        run: pnpm install --frozen-lockfile
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: tracks
+
+      - name: Sweep this shard
+        env:
+          REPOS: ${{ inputs.repos }}
+          LOCALES: ${{ inputs.locales }}
+          SHARD: ${{ matrix.shard }}/${{ needs.plan.outputs.total }}
+        run: |
+          set -euo pipefail
+          node scripts/sweep.mjs --tracks=tracks.json --shard="$SHARD" --out=out \
+            ${REPOS:+--repos="$REPOS"} ${LOCALES:+--locales="$LOCALES"}
+
+      # `always()`, so a shard that fails part way still hands over what it did
+      # answer and the summary can name what it did not.
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: sweep-${{ matrix.shard }}
+          path: out
+          if-no-files-found: ignore
+
+  report:
+    needs: [plan, sweep]
+    if: always()
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+          sparse-checkout: |
+            scripts
+            locales.json
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: sweep-*
+          path: out
+
+      # The issue is found by its title among the open `sweep` issues this repo
+      # holds, and its current body becomes the previous timestamp the summary
+      # measures itself against.
+      - name: Read the summary issue as it stands
+        id: existing
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          gh issue list --state open --label sweep --limit 20 --json number,title,body \
+            --jq 'first(.[] | select(.title | startswith("Translation sweep:")))' > existing.json
+          if [ -s existing.json ]; then
+            jq -r .number existing.json > number.txt
+            jq -r .body existing.json > previous.md
+            echo "number=$(cat number.txt)" >> "$GITHUB_OUTPUT"
+          else
+            : > previous.md
+          fi
+
+      - name: Merge the shards into one summary
+        id: merge
+        run: |
+          set -uo pipefail
+          node scripts/sweep.mjs --merge=out --body=body.md --title=title.txt \
+            --expected-shards="${{ needs.plan.outputs.total }}" --previous=previous.md \
+            --run-url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          echo "status=$?" >> "$GITHUB_OUTPUT"
+
+      - name: Write the summary issue
+        if: hashFiles('body.md') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          NUMBER: ${{ steps.existing.outputs.number }}
+        run: |
+          set -euo pipefail
+          TITLE=$(head -c 240 title.txt | tr -d '\r\n')
+          if [ -n "$NUMBER" ]; then
+            gh issue edit "$NUMBER" --title "$TITLE" --body-file body.md
+            echo "Rewrote issue #${NUMBER}."
+          else
+            gh issue create --title "$TITLE" --body-file body.md --label sweep
+          fi
+
+      # The run is red when the sweep could not answer, and green when it
+      # answered and the answer is a backlog. Outstanding translations are the
+      # thing being measured, so they are never a failure here.
+      - name: Fail when the sweep could not answer
+        run: |
+          set -euo pipefail
+          if [ "${{ needs.sweep.result }}" != "success" ] || [ "${{ steps.merge.outputs.status }}" != "0" ]; then
+            echo "::error::This sweep is incomplete. The summary issue says which shards or repos it could not read."
+            exit 1
+          fi
