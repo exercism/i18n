@@ -359,6 +359,11 @@ This page is generated from [the index](../../json/el/bash.json) by `scripts/bui
 
 - `instructions.md` ([English](https://github.com/exercism/bash/blob/main/exercises/practice/satellite/.docs/instructions.md)): [Latest](../../../locales/el/content/fb/bf/14f439558fa6451f8ebfac7253e0c9e12189.md)
 
+### Save the Cow (Σώσε την αγελάδα)
+
+- `instructions.md` ([English](https://github.com/exercism/bash/blob/main/exercises/practice/save-the-cow/.docs/instructions.md)): [Latest](../../../locales/el/content/1e/c9/8a43a4245d184d048235e6b2792b0fcf8d59.md)
+- `introduction.md` ([English](https://github.com/exercism/bash/blob/main/exercises/practice/save-the-cow/.docs/introduction.md)): [Latest](../../../locales/el/content/c8/7a/7fa92873b675ba6dd90749e1af7958b0d4bf.md)
+
 ### Say (Πες)
 
 - `instructions.md` ([English](https://github.com/exercism/bash/blob/main/exercises/practice/say/.docs/instructions.md)): [Latest](../../../locales/el/content/32/51/c519acefd3c98f5ecf6edf4cb11db4290468.md)
