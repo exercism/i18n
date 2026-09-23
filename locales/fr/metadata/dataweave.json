@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO : ajouter une accroche",
+  "doc:installation:title": "Installation de Dataweave en local",
+  "doc:installation:blurb": "Apprends à installer Dataweave en local pour résoudre les exercices d'Exercism sur ta propre machine",
+  "doc:learning:title": "Comment apprendre Dataweave",
+  "doc:learning:blurb": "Un aperçu de la façon de débuter avec Dataweave, en partant de zéro",
+  "doc:tests:title": "Les tests sur le parcours Dataweave",
+  "doc:tests:blurb": "Apprends à tester tes exercices Dataweave sur Exercism",
+  "doc:resources:title": "Ressources utiles pour Dataweave",
+  "doc:resources:blurb": "Une sélection de ressources utiles pour t'aider à maîtriser Dataweave"
+}

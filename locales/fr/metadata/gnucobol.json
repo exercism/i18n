@@ -1,0 +1,6 @@
+{
+  "track:blurb": "TODO : ajouter une accroche",
+  "exercise:hello-world:name": "Hello World",
+  "exercise:hello-world:blurb": "L'exercice d'introduction classique. Dis simplement « Hello, World! ».",
+  "exercise:hello-world:source": "Il s'agit d'un exercice pour initier les utilisateurs à Exercism."
+}

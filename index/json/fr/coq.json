@@ -1,0 +1,20 @@
+{
+  "kind": "track",
+  "locale": "fr",
+  "names": {
+    "docs/LEARNING.md": {"en":"How to learn Coq","fr":"Comment apprendre Coq"},
+    "exercises/practice/hello-world": {"en":"Hello World","fr":"Hello World"},
+    "exercises/practice/rna-transcription": {"en":"Rna Transcription","fr":"Transcription d'ARN"}
+  },
+  "paths": {
+    "docs/ABOUT.md": ["d38fc6de454e3ad4a60c0c1ccf5300e01cacdeca"],
+    "docs/INSTALLATION.md": ["4026317a86c6bb837560c50310af26357f010d84"],
+    "docs/LEARNING.md": ["862ab31be787b99ef39414cef396b277852d254f"],
+    "docs/RESOURCES.md": ["06f84ec57f7ba454000039c95a153a93573d1a8e"],
+    "docs/TESTS.md": ["5932b408973c84d5102d2aa4736db7a372b20bc2"],
+    "exercises/practice/hello-world/.docs/instructions.md": ["6e08ebba535b4523f69eaf89d50d387ff926daf0"],
+    "exercises/practice/rna-transcription/.docs/instructions.md": ["36da381f5a7bdd5c45617d92fbd2cbd34d934cc1"],
+    "exercises/practice/rna-transcription/.docs/introduction.md": ["6b3f44b532d66665ff9c257ca28793f7e4bd1961"]
+  },
+  "repo": "coq"
+}
