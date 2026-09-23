@@ -31,7 +31,7 @@ import { PLURAL_SPELLING, requiredCategories } from "./lib/plurals.mjs";
 import { englishUnits, flattenCatalog, stringId, targetEntries, unflattenCatalog, unitHash, unitState } from "./lib/catalogs.mjs";
 import { ERROR, WARN, checkCatalog, checkContentFile, placeholders, tags } from "./lib/checks.mjs";
 import { CONTENT_TYPES, CONTENT_TYPE_IDS, contentRelativePath, parseContentRelativePath, typeForPath } from "./lib/content-types.mjs";
-import { REPO_KINDS, kindForRepo } from "./lib/source-repos.mjs";
+import { REPO_KINDS, isActiveTrack, kindForRepo } from "./lib/source-repos.mjs";
 import { missingContent, missingUnits, requiredContent, requiredUnits } from "./lib/completeness.mjs";
 import { SAMPLE, fixCommand, freshness, lastSweptAt, parseShard, shardOf, singletonRepos, standing, summariseRepo, summaryBody, summaryTitle, sweptRepos } from "./lib/sweep.mjs";
 import { buildMetadataEnglish, changedCopyKeys, fileCopy, readTomlStrings } from "./lib/metadata.mjs";
@@ -230,6 +230,18 @@ await test("the queue tells a config.json edit that changes copy from one that d
   assert.deepEqual(blind.needs.sort(), [blobId(base), blobId(copy)].sort());
   assert.deepEqual(changedCopyKeys(fileCopy("exercise-metadata", path_, base), fileCopy("exercise-metadata", path_, copy)), ["exercise:two-fer:blurb"]);
   assert.match(toMarkdown(run(copy), { repoName: "ruby" }), /metadata\/ruby\.json.*\n[\s\S]*`exercise:two-fer:blurb`/);
+});
+
+await test("a track's own config.json says whether Exercism still runs it, and an unreadable one counts as active", () => {
+  const activeWith = (config) => {
+    const files = { "config.json": config };
+    return isActiveTrack(asTree(files), asReader(files));
+  };
+  assert.equal(activeWith(JSON.stringify({ language: "Ruby", active: true })), true);
+  assert.equal(activeWith(JSON.stringify({ language: "Sather", active: false })), false);
+  assert.equal(activeWith(JSON.stringify({ language: "Ruby" })), true, "a config.json with no active key");
+  assert.equal(activeWith("{nope"), true, "an unreadable config.json");
+  assert.equal(isActiveTrack([], () => []), true, "a repo with no config.json");
 });
 
 await test("a repo name maps to its kind, and anything unnamed is a track", () => {
@@ -894,6 +906,38 @@ await test("fixture: completeness blocks a track until every production locale h
   const after = run("completeness.mjs", [`--source-repo=${TRACK}`, "--repo=exercism/ruby"]);
   assert.equal(after.status, 0, after.out);
   assert.match(after.out, /ok\s+hu/);
+});
+
+// CI names every repo any locale holds a catalog for, so without this one
+// locale translating an inactive track would require every other locale to
+// translate it too. That is what failed the run on the French PR: 37 tracks
+// nobody can reach were suddenly required of Hungarian.
+await test("fixture: a production locale must hold a catalog for an active track and for a non-track repo, never for an inactive track", () => {
+  const awake = makeRepo("awake", { "config.json": JSON.stringify({ language: "Awake", active: true, blurb: "Awake is served." }) });
+  const dozing = makeRepo("dozing", { "config.json": JSON.stringify({ language: "Dozing", active: false, blurb: "Dozing is retired." }) });
+  const blog = makeRepo("blog", { "config.json": JSON.stringify({ posts: [{ uuid: "p", slug: "hello", title: "Hello" }] }) });
+  const repos = [`${awake}:track@HEAD`, `${dozing}:track@HEAD`, `${blog}:blog@HEAD`].join(",");
+
+  const { status, out } = run("validate.mjs", ["hu", "--type=metadata", `--content-repos=${repos}`]);
+  assert.equal(status, 1, out);
+  assert.match(out, /ERROR no locales\/hu\/metadata\/awake\.json: 1 units missing/);
+  assert.match(out, /ERROR no locales\/hu\/metadata\/blog\.json: 1 units missing/);
+  assert.doesNotMatch(out, /metadata\/dozing/, "an inactive track was required of a production locale");
+
+  // pl is neither a production locale nor under --complete, so it is required
+  // to hold nothing, and the active track is not reported for it either.
+  const other = run("validate.mjs", ["pl", "--type=metadata", `--content-repos=${repos}`]);
+  assert.equal(other.status, 0, other.out);
+  assert.doesNotMatch(other.out, /metadata\/awake/);
+
+  // The exemption decides what a locale must hold. A locale that holds an
+  // inactive track's catalog anyway is checked against its English as usual.
+  writeTree(ROOT, { "locales/hu/metadata/dozing.json": "{}" });
+  const held = run("validate.mjs", ["hu", "--type=metadata", `--content-repos=${repos}`]);
+  fs.rmSync(path.join(ROOT, "locales/hu/metadata/dozing.json"));
+  assert.equal(held.status, 1, held.out);
+  assert.match(held.out, /FAIL hu\s+metadata\/dozing/, held.out);
+  assert.match(held.out, /ERROR missing: track:blurb/, held.out);
 });
 
 await test("fixture: an edit is a new blob and an edited blurb a stale unit, so both block again; --base scopes it to the PR", () => {
