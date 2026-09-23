@@ -1,0 +1,13 @@
+{
+  "exercise:hello-world:name": "Привіт, світ!",
+  "exercise:rna-transcription:name": "Транскрипція РНК",
+  "exercise:hello-world:blurb": "Класична вступна вправа. Просто вивести \"Hello, World!\"",
+  "exercise:hello-world:source": "Ця вправа знайомить користувачів з роботою на Exercism.",
+  "exercise:rna-transcription:blurb": "За заданим ланцюгом ДНК повернути його комплементарну транскрипцію РНК.",
+  "exercise:rna-transcription:source": "Hyperphysics",
+  "track:blurb": "Coq - асистент доведення. Використовуючи Coq, можна писати формальні описи математичних означень, алгоритмів і теорем. Coq також надає тактики для інтерактивної розробки перевірених машиною доведень.",
+  "exercise:tautology:name": "Тавтологія",
+  "exercise:tautology:blurb": "Перше правило Клубу тавтології - перше правило Клубу тавтології ",
+  "doc:learning:title": "Як вивчати Coq",
+  "doc:learning:blurb": "Огляд того, як з нуля розпочати роботу з Coq"
+}

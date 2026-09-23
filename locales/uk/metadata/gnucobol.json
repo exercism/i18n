@@ -1,0 +1,6 @@
+{
+  "track:blurb": "TODO: додати опис",
+  "exercise:hello-world:name": "Привіт, світ!",
+  "exercise:hello-world:blurb": "Класична вступна вправа. Просто скажіть «Hello, World!».",
+  "exercise:hello-world:source": "Ця вправа знайомить користувачів з роботою на Exercism."
+}

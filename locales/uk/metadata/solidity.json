@@ -1,0 +1,10 @@
+{
+  "exercise:hello-world:name": "Привіт, світ!",
+  "exercise:resistor-color-duo:name": "Дуо кольорів резистора",
+  "exercise:hello-world:blurb": "Класична вступна вправа. Просто вивести \"Hello, World!\"",
+  "exercise:hello-world:source": "Ця вправа знайомить користувачів з роботою на Exercism.",
+  "exercise:resistor-color-duo:blurb": "Перетворіть кольорові коди, які використовуються на резисторах, на числове значення.",
+  "exercise:resistor-color-duo:source": "Maud de Vries, Erik Schierboom",
+  "track:blurb": "У своїй основі Solidity - це мова програмування, на яку сильно вплинули C++, Python і JavaScript. Це обʼєктно-орієнтована мова, що працює на Ethereum Virtual Machine, також відомій як _EVM_. Вона має синтаксис, схожий на ECMAScript, тож декому здається знайомою, а водночас вона статично типізована, з варіативними типами повернення.",
+  "exercise:token-transfer:name": "Переказ токенів"
+}

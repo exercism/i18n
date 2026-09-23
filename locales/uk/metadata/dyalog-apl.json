@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: додати опис",
+  "doc:installation:title": "Встановлення Dyalog APL локально",
+  "doc:installation:blurb": "Дізнайтеся, як встановити Dyalog APL локально, щоб розвʼязувати вправи Exercism на власному компʼютері",
+  "doc:learning:title": "Як вивчати Dyalog APL",
+  "doc:learning:blurb": "Огляд того, як почати роботу з Dyalog APL з нуля",
+  "doc:tests:title": "Тестування на треку Dyalog APL",
+  "doc:tests:blurb": "Дізнайтеся, як тестувати свої вправи з Dyalog APL на Exercism",
+  "doc:resources:title": "Корисні ресурси з Dyalog APL",
+  "doc:resources:blurb": "Добірка корисних ресурсів, які допоможуть опанувати Dyalog APL"
+}

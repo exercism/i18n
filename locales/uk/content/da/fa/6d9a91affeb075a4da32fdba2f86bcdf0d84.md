@@ -1,0 +1,105 @@
+# Вступ
+
+У попередньому концепті ми згадували, що і локальні мітки, і функції - це лише адреси в секції з виконуваним кодом, як-от `section .text`.
+
+Насправді з функціями можна поводитися так само, як із будь-якою адресою памʼяті: їх можна завантажувати в регістри, передавати далі і зберігати в памʼяті.
+Також можна використати `call` або `jmp`, щоб передати керування функції, збереженій у регістрі чи в памʼяті:
+
+```x86asm
+section .text
+sum_op:
+    lea rax, [rdi + rsi] ; loads the sum rdi + rsi into rax
+    ret
+
+apply_sum:
+    lea rax, [rel sum_op]
+    jmp rax   ; tail call
+```
+
+Адресу функції, яку передають далі як значення, називають **thunk**.
+Thunks є будівельним блоком **програмування вищого порядку** мовою асемблера: код, який працює з іншим кодом.
+
+## Код як дані
+
+Адреси функцій також можна зберігати в памʼяті й діставати звідти пізніше:
+
+```x86asm
+section .bss
+    cached_fn resq 1
+
+section .text
+save_op:
+    mov qword [rel cached_fn], rdi
+    ret
+
+apply_op:
+    ; arguments are already set up according to the ABI
+    jmp qword [rel cached_fn] ; tail call
+```
+
+`save_op` записує адресу функції, яку отримує, у `cached_fn`.
+Значення залишається після повернення з `save_op`, тож будь-який наступний виклик `apply_op` виконує хвостовий перехід за останньою збереженою адресою.
+Завдяки цьому можна змінювати те, яку саме функцію `apply_op` викликає під час виконання.
+
+## Таблиці диспетчеризації
+
+Якщо зберігати адреси функцій у масиві, можна вибирати різні функції за індексом, який може залежати від умови, що виникає під час виконання.
+Це називають **таблицею диспетчеризації**:
+
+```x86asm
+section .data
+    dispatch_table dq add_op, sub_op, mul_op
+
+section .text
+dispatch:
+    ; this function takes two arguments in rdi and rsi, and an index in rdx
+    ; it then applies the function corresponding to the index in rdx to the arguments
+    lea rax, [rel dispatch_table]
+    jmp qword [rax + 8*rdx]   ; tail-call the function address for the index
+```
+
+## Thunk-и зі станом
+
+Thunk, який читає або змінює якусь постійну памʼять між викликами, може поводитися по-різному залежно від того, що було раніше.
+Його результат може залежати не лише від аргументів.
+
+Наприклад, _лічильник_, який приймає функцію і викликає її з поточним значенням лічильника, щоразу його збільшуючи:
+
+```x86asm
+section .data
+    count dq 0
+
+section .text
+tick:
+    mov rax, rdi               ; saves the function address
+    mov rdi, [rel count]       ; loads the current count as the function's argument
+    inc qword [rel count]      ; advances the count
+    jmp rax                    ; tail-calls the function
+```
+
+`tick` викликає передану функцію, передаючи їй поточне значення лічильника як аргумент, а потім збільшує лічильник.
+Тож перший виклик `tick(square)` викликає `square(0)`, наступний виклик `tick(square)` - `square(1)`, далі `square(2)` і так далі.
+
+Інший приклад - _відкладене обчислення_:
+
+```x86asm
+section .bss
+    captured_fn resq 1
+    argument resq 1
+
+section .text
+delay:
+    mov qword [rel captured_fn], rdi ; saves the function
+    mov qword [rel argument], rsi    ; saves the argument
+    lea rax, [rel invoke]            ; returns the `invoke` function
+    ret
+
+invoke:
+    mov rdi, qword [rel argument]    ; loads the saved argument into `rdi`
+    jmp qword [rel captured_fn]      ; tail-calls the saved function
+```
+
+`delay` приймає функцію та значення, зберігає їх і повертає `invoke`.
+Коли викликають `invoke`, він запускає збережену функцію зі збереженим аргументом.
+
+Багато з прийомів, поширених у мовах вищого рівня, як-от колбеки, віртуальні методи, генератори, карріювання, композиція функцій та багато інших, ґрунтуються на thunk-ах у поєднанні з постійним станом.

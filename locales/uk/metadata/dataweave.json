@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: додати опис",
+  "doc:installation:title": "Встановлення Dataweave локально",
+  "doc:installation:blurb": "Дізнайтеся, як встановити Dataweave локально, щоб розвʼязувати вправи Exercism на власному компʼютері",
+  "doc:learning:title": "Як вивчати Dataweave",
+  "doc:learning:blurb": "Огляд того, як зробити перші кроки в Dataweave з нуля",
+  "doc:tests:title": "Тестування на треку Dataweave",
+  "doc:tests:blurb": "Дізнайтеся, як тестувати свої вправи з Dataweave на Exercism",
+  "doc:resources:title": "Корисні ресурси для Dataweave",
+  "doc:resources:blurb": "Добірка корисних ресурсів, які допоможуть опанувати Dataweave"
+}

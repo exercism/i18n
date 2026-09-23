@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: додати опис",
+  "doc:installation:title": "Локальне встановлення мови асемблера Triton VM",
+  "doc:installation:blurb": "Дізнайтеся, як встановити мову асемблера Triton VM локально, щоб розвʼязувати вправи Exercism на власному компʼютері",
+  "doc:learning:title": "Як вивчати мову асемблера Triton VM",
+  "doc:learning:blurb": "Огляд того, як з нуля опанувати мову асемблера Triton VM",
+  "doc:tests:title": "Тестування на треку мови асемблера Triton VM",
+  "doc:tests:blurb": "Дізнайтеся, як тестувати власні вправи з мови асемблера Triton VM на Exercism",
+  "doc:resources:title": "Корисні ресурси з мови асемблера Triton VM",
+  "doc:resources:blurb": "Добірка корисних ресурсів, які допоможуть опанувати мову асемблера Triton VM"
+}

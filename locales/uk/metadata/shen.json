@@ -1,0 +1,6 @@
+{
+  "exercise:hello-world:name": "Привіт, світ!",
+  "exercise:hello-world:blurb": "Класична вступна вправа. Просто вивести \"Hello, World!\"",
+  "exercise:hello-world:source": "Ця вправа знайомить користувачів з роботою на Exercism.",
+  "track:blurb": "Lisp на хост-платформі зі зіставленням зі зразком, Prolog і потужною системою типів."
+}

@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: додати опис",
+  "doc:installation:title": "Встановлення Seed7 локально",
+  "doc:installation:blurb": "Дізнаймося, як встановити Seed7 локально, щоб розвʼязувати вправи Exercism на власному компʼютері",
+  "doc:learning:title": "Як вивчати Seed7",
+  "doc:learning:blurb": "Огляд того, як почати з нуля із Seed7",
+  "doc:tests:title": "Тестування на треку Seed7",
+  "doc:tests:blurb": "Дізнаймося, як тестувати свої вправи із Seed7 на Exercism",
+  "doc:resources:title": "Корисні ресурси Seed7",
+  "doc:resources:blurb": "Добірка корисних ресурсів, які допоможуть опанувати Seed7"
+}
