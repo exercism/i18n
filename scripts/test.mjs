@@ -31,8 +31,9 @@ import { PLURAL_SPELLING, requiredCategories } from "./lib/plurals.mjs";
 import { englishUnits, flattenCatalog, stringId, targetEntries, unflattenCatalog, unitHash, unitState } from "./lib/catalogs.mjs";
 import { ERROR, WARN, checkCatalog, checkContentFile, placeholders, tags } from "./lib/checks.mjs";
 import { CONTENT_TYPES, CONTENT_TYPE_IDS, contentRelativePath, parseContentRelativePath, typeForPath } from "./lib/content-types.mjs";
-import { REPO_KINDS, kindForRepo } from "./lib/source-repos.mjs";
+import { REPO_KINDS, isActiveTrack, kindForRepo } from "./lib/source-repos.mjs";
 import { missingContent, missingUnits, requiredContent, requiredUnits } from "./lib/completeness.mjs";
+import { SAMPLE, fixCommand, freshness, lastSweptAt, parseShard, shardOf, singletonRepos, standing, summariseRepo, summaryBody, summaryTitle, sweptRepos } from "./lib/sweep.mjs";
 import { buildMetadataEnglish, changedCopyKeys, fileCopy, readTomlStrings } from "./lib/metadata.mjs";
 import { buildWebsiteEnglish, globToRegExp, isWebsiteEnglishPath, loadExclusions } from "./lib/website-english.mjs";
 import { findDeletions } from "./no-deletions.mjs";
@@ -229,6 +230,18 @@ await test("the queue tells a config.json edit that changes copy from one that d
   assert.deepEqual(blind.needs.sort(), [blobId(base), blobId(copy)].sort());
   assert.deepEqual(changedCopyKeys(fileCopy("exercise-metadata", path_, base), fileCopy("exercise-metadata", path_, copy)), ["exercise:two-fer:blurb"]);
   assert.match(toMarkdown(run(copy), { repoName: "ruby" }), /metadata\/ruby\.json.*\n[\s\S]*`exercise:two-fer:blurb`/);
+});
+
+await test("a track's own config.json says whether Exercism still runs it, and an unreadable one counts as active", () => {
+  const activeWith = (config) => {
+    const files = { "config.json": config };
+    return isActiveTrack(asTree(files), asReader(files));
+  };
+  assert.equal(activeWith(JSON.stringify({ language: "Ruby", active: true })), true);
+  assert.equal(activeWith(JSON.stringify({ language: "Sather", active: false })), false);
+  assert.equal(activeWith(JSON.stringify({ language: "Ruby" })), true, "a config.json with no active key");
+  assert.equal(activeWith("{nope"), true, "an unreadable config.json");
+  assert.equal(isActiveTrack([], () => []), true, "a repo with no config.json");
 });
 
 await test("a repo name maps to its kind, and anything unnamed is a track", () => {
@@ -432,6 +445,91 @@ await test("an English EDIT blocks: present and stamped against the old text is 
   const stamps = { "nav.home": stringId("Home"), "nav.about": stringId("About") };
   assert.deepEqual(missingUnits("backend", required, target, stamps, "hu"), [{ unit: "nav.home", reason: "stale" }, { unit: "nav.new", reason: "missing" }]);
   assert.deepEqual(missingUnits("backend", required, { ...target, "nav.new": "Új" }, { ...stamps, "nav.home": stringId("Homepage"), "nav.new": stringId("New") }, "hu"), []);
+});
+
+// ---------------------------------------------------------------- the sweep --
+//
+// The per-PR check is evaluated against the world at check time and cannot stay
+// true until the PR merges. The sweep asks the same question of each source
+// repo's `main` instead, so these assertions are about covering every repo,
+// splitting the work, and an answer that says plainly when it is not one.
+
+const SWEPT_AT = "2026-09-23T05:17:00.000Z";
+const entryFor = (repo, kind, required, outstanding, sample = []) => ({ repo, kind, required, head: "0".repeat(40), locales: { hu: { outstanding, sample } } });
+
+await test("sweep: every singleton repo the registry names is covered, plus a repo per track", () => {
+  const repos = sweptRepos(["ruby", "python"]);
+  const names = repos.map((repo) => repo.name);
+  for (const singleton of singletonRepos()) assert.ok(names.includes(singleton.name), `${singleton.name} is not swept`);
+  assert.ok(names.includes("exercism/ruby") && names.includes("exercism/python"));
+  assert.deepEqual(names, [...names].sort(), "the order is not fixed");
+  // A track-topic repo that is already a singleton keeps its own kind, and is swept once.
+  const clash = sweptRepos(["docs"]);
+  assert.equal(clash.filter((repo) => repo.name === "exercism/docs").length, 1);
+  assert.equal(clash.find((repo) => repo.name === "exercism/docs").kind, "docs");
+  // The names reach a fetch URL, so they are checked rather than trusted.
+  assert.throws(() => sweptRepos(["../../etc"]), /is not a repo name/);
+});
+
+await test("sweep: sharding deals every repo exactly once, and a shard outside the run is refused", () => {
+  const repos = sweptRepos(Array.from({ length: 119 }, (_, position) => `track-${position}`));
+  const total = 8;
+  const dealt = Array.from({ length: total }, (_, position) => shardOf(repos, { index: position + 1, total }));
+  assert.deepEqual(dealt.flat().map((repo) => repo.name).sort(), repos.map((repo) => repo.name).sort());
+  const sizes = dealt.map((shard) => shard.length);
+  assert.ok(Math.max(...sizes) - Math.min(...sizes) <= 1, `shards are uneven: ${sizes.join(", ")}`);
+  assert.deepEqual(parseShard("3/8"), { index: 3, total: 8 });
+  assert.throws(() => parseShard("9/8"), /out of range/);
+  assert.throws(() => parseShard("all"), /must be <index>\/<total>/);
+});
+
+await test("sweep: a repo's report is cut down to counts and a few examples", () => {
+  const lines = Array.from({ length: 12 }, (_, position) => ({ what: `file-${position}.md (exercise-instructions)`, why: "no locales/hu/content/x" }));
+  const entry = summariseRepo({ repo: "exercism/ruby", kind: "track", head: "abc", required: { content: 300, metadata: 404 }, locales: { hu: lines } }, ["hu"]);
+  assert.equal(entry.required, 704);
+  assert.equal(entry.locales.hu.outstanding, 12);
+  assert.equal(entry.locales.hu.sample.length, SAMPLE);
+  assert.equal(entry.locales.hu.sample[0], "file-0.md (exercise-instructions)");
+});
+
+await test("sweep: part translated, not started and nothing to translate are three different answers", () => {
+  assert.equal(standing(entryFor("exercism/ruby", "track", 704, 0), "hu"), "complete");
+  assert.equal(standing(entryFor("exercism/ruby", "track", 704, 12), "hu"), "started");
+  assert.equal(standing(entryFor("exercism/zig", "track", 704, 704), "hu"), "untouched");
+  // A repo carrying the track topic that holds no translatable English at all is
+  // neither progress nor a gap, and calling it complete would be a lie.
+  assert.equal(standing(entryFor("exercism/tooling", "track", 0, 0), "hu"), "empty");
+  assert.equal(fixCommand(entryFor("exercism/ruby", "track", 1, 1), "hu"), "node scripts/translate.mjs track ruby hu");
+  assert.equal(fixCommand(entryFor("exercism/docs", "docs", 1, 1), "hu"), "node scripts/translate.mjs docs hu");
+});
+
+await test("sweep: the body carries the date it was written, and warns when the sweep before it is old", () => {
+  const entries = [entryFor("exercism/ruby", "track", 704, 12, ["docs/ABOUT.md (track-docs)"]), entryFor("exercism/zig", "track", 500, 500)];
+  const body = summaryBody({ entries, locales: ["hu"], sweptAt: SWEPT_AT });
+  assert.equal(lastSweptAt(body), SWEPT_AT, "the body does not say when it was written");
+  assert.match(body, /## Part translated \(1\)/);
+  assert.match(body, /## Not started \(1\)/);
+  assert.match(body, /node scripts\/translate\.mjs track ruby hu/);
+  assert.ok(!/WARNING/.test(body), "a healthy run warns about nothing");
+
+  // A schedule that stopped and started again leaves a gap, and the run that
+  // finds it is the only thing that can report it.
+  const stale = summaryBody({ entries, locales: ["hu"], sweptAt: SWEPT_AT, previousSweptAt: "2026-09-13T05:17:00.000Z" });
+  assert.match(stale, /\[!WARNING\][\s\S]*ran 10 days ago/);
+  assert.deepEqual(freshness(null, SWEPT_AT), { hours: null, days: null, stale: false });
+  assert.equal(freshness("2026-09-22T05:17:00.000Z", SWEPT_AT).stale, false);
+  assert.equal(freshness("2026-09-19T05:17:00.000Z", SWEPT_AT).stale, true);
+});
+
+await test("sweep: a run that could not read everything says its counts are a floor", () => {
+  const entries = [entryFor("exercism/ruby", "track", 704, 12)];
+  const body = summaryBody({ entries, locales: ["hu"], sweptAt: SWEPT_AT, failures: [{ repo: "exercism/nim", error: "could not fetch" }], incomplete: [4] });
+  assert.match(body, /\[!CAUTION\][\s\S]*counts below are a floor/);
+  assert.match(body, /shard 4 did not finish/);
+  assert.match(body, /exercism\/nim`: could not fetch/);
+  // The title carries the headline, so a summary nobody has rewritten looks old
+  // in a list of issues without anyone opening it.
+  assert.match(summaryTitle(entries, ["hu"], SWEPT_AT), /^Translation sweep: 12 outstanding across 1 source repo\(s\), as of 2026-09-23$/);
 });
 
 // --------------------------------------------------------------- the queue --
@@ -810,6 +908,38 @@ await test("fixture: completeness blocks a track until every production locale h
   assert.match(after.out, /ok\s+hu/);
 });
 
+// CI names every repo any locale holds a catalog for, so without this one
+// locale translating an inactive track would require every other locale to
+// translate it too. That is what failed the run on the French PR: 37 tracks
+// nobody can reach were suddenly required of Hungarian.
+await test("fixture: a production locale must hold a catalog for an active track and for a non-track repo, never for an inactive track", () => {
+  const awake = makeRepo("awake", { "config.json": JSON.stringify({ language: "Awake", active: true, blurb: "Awake is served." }) });
+  const dozing = makeRepo("dozing", { "config.json": JSON.stringify({ language: "Dozing", active: false, blurb: "Dozing is retired." }) });
+  const blog = makeRepo("blog", { "config.json": JSON.stringify({ posts: [{ uuid: "p", slug: "hello", title: "Hello" }] }) });
+  const repos = [`${awake}:track@HEAD`, `${dozing}:track@HEAD`, `${blog}:blog@HEAD`].join(",");
+
+  const { status, out } = run("validate.mjs", ["hu", "--type=metadata", `--content-repos=${repos}`]);
+  assert.equal(status, 1, out);
+  assert.match(out, /ERROR no locales\/hu\/metadata\/awake\.json: 1 units missing/);
+  assert.match(out, /ERROR no locales\/hu\/metadata\/blog\.json: 1 units missing/);
+  assert.doesNotMatch(out, /metadata\/dozing/, "an inactive track was required of a production locale");
+
+  // pl is neither a production locale nor under --complete, so it is required
+  // to hold nothing, and the active track is not reported for it either.
+  const other = run("validate.mjs", ["pl", "--type=metadata", `--content-repos=${repos}`]);
+  assert.equal(other.status, 0, other.out);
+  assert.doesNotMatch(other.out, /metadata\/awake/);
+
+  // The exemption decides what a locale must hold. A locale that holds an
+  // inactive track's catalog anyway is checked against its English as usual.
+  writeTree(ROOT, { "locales/hu/metadata/dozing.json": "{}" });
+  const held = run("validate.mjs", ["hu", "--type=metadata", `--content-repos=${repos}`]);
+  fs.rmSync(path.join(ROOT, "locales/hu/metadata/dozing.json"));
+  assert.equal(held.status, 1, held.out);
+  assert.match(held.out, /FAIL hu\s+metadata\/dozing/, held.out);
+  assert.match(held.out, /ERROR missing: track:blurb/, held.out);
+});
+
 await test("fixture: an edit is a new blob and an edited blurb a stale unit, so both block again; --base scopes it to the PR", () => {
   writeTree(TRACK, {
     "exercises/practice/two-fer/.docs/instructions.md": "# Instructions\n\nSay `One for you, one for me`.\n",
@@ -928,6 +1058,35 @@ await test("fixture: backfill indexes each path's held versions newest first, an
   assert.match(run("build-index.mjs", ["all", "--check"]).out, /which has no file under locales\/hu\/content/);
 });
 
+await test("fixture: the sweep merges its shards, and a missing shard makes it exit non-zero", () => {
+  const dir = path.join(TMP, "sweep");
+  fs.mkdirSync(dir, { recursive: true });
+  const shardFile = (index, total, entries, failures = []) =>
+    fs.writeFileSync(path.join(dir, `sweep-${index}-of-${total}.json`), JSON.stringify({ sweptAt: "2026-09-23T05:17:00.000Z", shard: { index, total }, locales: ["hu"], entries, failures }));
+  shardFile(1, 2, [{ repo: "exercism/ruby", kind: "track", head: "a", required: 704, locales: { hu: { outstanding: 0, sample: [] } } }]);
+  shardFile(2, 2, [{ repo: "exercism/zig", kind: "track", head: "b", required: 500, locales: { hu: { outstanding: 500, sample: ["docs/ABOUT.md (track-docs)"] } } }]);
+
+  const body = path.join(dir, "body.md");
+  const merged = run("sweep.mjs", [`--merge=${dir}`, `--body=${body}`, "--expected-shards=2"]);
+  assert.equal(merged.status, 0, merged.out);
+  assert.match(merged.out, /Merged 2 shard\(s\), 2 repo\(s\), 0 failure\(s\), 0 shard\(s\) missing/);
+  const text = fs.readFileSync(body, "utf8");
+  assert.match(text, /## Not started \(1\)/);
+  assert.match(text, /## Complete \(1\)/);
+  assert.match(text, /node scripts\/translate\.mjs track zig hu/);
+
+  // A shard that never wrote a report is the case the summary must not hide:
+  // it would otherwise read as "those repos are complete".
+  const short = run("sweep.mjs", [`--merge=${dir}`, `--body=${body}`, "--expected-shards=3"]);
+  assert.equal(short.status, 1, short.out);
+  assert.match(fs.readFileSync(body, "utf8"), /\[!CAUTION\][\s\S]*shard 3 did not finish/);
+
+  // Nothing at all is a hard failure, never an empty summary.
+  const nothing = run("sweep.mjs", [`--merge=${path.join(TMP, "sweep-empty")}`]);
+  assert.equal(nothing.status, 1, nothing.out);
+  assert.match(nothing.out, /no shard reports/);
+});
+
 // The real repo: every production locale is a target, and coverage runs.
 await test("the real repo: its locales are consistent and coverage runs", () => {
   const real = { root: SCRIPTS_ROOT };
@@ -976,6 +1135,22 @@ await test("the loop's workflows use the app's tokens, each limited to named rep
       assert.match(mint, /permission-[a-z-]+: (read|write)/, `${name} mints a token with every permission`);
     }
   }
+});
+
+await test("the sweep runs on a schedule, reports whatever its shards did, and queues nothing", () => {
+  const text = readWorkflow(WORKFLOWS, "sweep.yml");
+  assert.match(text, /^on:\n  schedule:\n    - cron: "[0-9 *\/,-]+"\n  workflow_dispatch:/m, "the sweep has no schedule, so nothing runs it");
+  assert.match(text, /fail-fast: false/, "one failing shard would cancel the others");
+  // The summary has to be written even when shards failed, or a broken run
+  // leaves yesterday's answer in place with nothing saying so.
+  assert.match(text, /^  report:\n    needs: \[plan, sweep\]\n    if: always\(\)$/m);
+  assert.match(text, /--expected-shards=/, "the merge cannot tell a missing shard from a complete run");
+  // It writes one issue and rewrites it. Opening a translation issue per repo
+  // would spam, and the queue's issues are scoped to a pull request a sweep has not got.
+  assert.ok(text.includes("gh issue edit"), "the sweep never updates an issue in place");
+  assert.equal((text.match(/gh issue create/g) ?? []).length, 1);
+  assert.ok(!/gh issue comment/.test(text), "the sweep comments, so a daily run would be a thread");
+  assert.ok(!/--label translation/.test(text), "a sweep issue labelled `translation` would reach the queue's machinery");
 });
 
 await test("only issues opened by the app are dispatched or replied to", () => {

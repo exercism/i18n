@@ -32,7 +32,7 @@ import { pathToFileURL } from "node:url";
 import { parseArgs } from "./lib/args.mjs";
 import { SCRIPTS_ROOT, assertTargetLocale, fail } from "./lib/constants.mjs";
 import { git, lsTree, refExists, refReader } from "./lib/git.mjs";
-import { REPO_KINDS, kindForRepo } from "./lib/source-repos.mjs";
+import { REPO_KINDS, isActiveTrack, kindForRepo } from "./lib/source-repos.mjs";
 import { translatableFiles } from "./lib/completeness.mjs";
 import { metadataPath } from "./lib/metadata.mjs";
 import { HISTORY_CAP, displayNames, heldIn, readIndex, saveRepoIndex, syncIndex, writeMarkdown } from "./lib/translation-index.mjs";
@@ -87,18 +87,9 @@ function main() {
     }
     const entries = lsTree(dir, ref);
     const read = refReader(dir, ref).readMany;
-    if (kind === "track") {
-      const config = entries.find((entry) => entry.path === "config.json");
-      let active = true;
-      try {
-        active = config ? JSON.parse(read([config])[0].text).active !== false : true;
-      } catch {
-        // An unreadable config.json is treated as active.
-      }
-      if (!active) {
-        skipped.push(`${name} (inactive track)`);
-        continue;
-      }
+    if (kind === "track" && !isActiveTrack(entries, read)) {
+      skipped.push(`${name} (inactive track)`);
+      continue;
     }
     const files = translatableFiles(kind, entries);
     if (files.length === 0) {

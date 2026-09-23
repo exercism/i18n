@@ -332,5 +332,7 @@
   "doc:resources:title": "Hasznos Bash-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Bash-t",
   "doc:syllabus:title": "Bash-fogalmak dokumentumai",
-  "doc:syllabus:blurb": "A Bash-programozás fogalmai, amelyek a tanulási útvonalon megjelennek"
+  "doc:syllabus:blurb": "A Bash-programozás fogalmai, amelyek a tanulási útvonalon megjelennek",
+  "exercise:save-the-cow:name": "Mentsd meg a tehenet",
+  "exercise:save-the-cow:blurb": "Valósíts meg egy szókitaláló játékot."
 }
