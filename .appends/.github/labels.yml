@@ -1,0 +1,16 @@
+# ----------------------------------------------------------------------------------------- #
+# These are the repository-specific labels that augment the Exercise-wide labels defined in #
+# https://github.com/exercism/org-wide-files/blob/main/global-files/.github/labels.yml.     #
+# ----------------------------------------------------------------------------------------- #
+
+- name: "translation"
+  description: "A translation request raised by the i18n queue"
+  color: "1d76db"
+
+- name: "needs-attention"
+  description: "A translation request a human needs to look at"
+  color: "d93f0b"
+
+- name: "over-cap"
+  description: "A translation request too large to run automatically"
+  color: "fbca04"
