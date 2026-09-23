@@ -361,7 +361,7 @@
   "doc:editors:title": "Szerkesztőintegráció",
   "doc:editors:blurb": "Clojure írásához gyakran használt szerkesztők",
   "doc:tests:title": "Tesztelés a Clojure-kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Clojure-feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Clojure-feladataidat az Exercism-ön",
   "doc:learning:title": "Így tanulj meg Clojure-t",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj hozzá a Clojure-hoz a nulláról",
   "doc:resources:title": "Hasznos Clojure-források",

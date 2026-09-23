@@ -407,7 +407,7 @@
   "doc:learning:title": "Hogyan tanulj meg Swiftet",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj hozzá a Swifthez a nulláról",
   "doc:tests:title": "Tesztelés a Swift-kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Swift-feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Swift-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Swift-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Swiftet",
   "concept:self:name": "Self",

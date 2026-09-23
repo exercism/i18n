@@ -233,7 +233,7 @@
   "doc:learning:title": "Hogyan tanuld meg az ARM64 assemblyt",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj hozzá az ARM64 assemblyhez a nulláról",
   "doc:tests:title": "Tesztelés az ARM64 assembly kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld az ARM64 assembly feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld az ARM64 assembly feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos ARM64 assembly források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani az ARM64 assemblyt"
 }

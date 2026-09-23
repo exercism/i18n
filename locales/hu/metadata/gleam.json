@@ -383,7 +383,7 @@
   "doc:learning:title": "Hogyan tanulj meg Gleamet",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj nulláról a Gleammel",
   "doc:tests:title": "Tesztelés a Gleam kurzuson",
-  "doc:tests:blurb": "Ismerd meg, hogyan tesztelheted a Gleam-feladataidat az Exercismen",
+  "doc:tests:blurb": "Ismerd meg, hogyan tesztelheted a Gleam-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Gleam-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Gleamet",
   "exercise:high-school-sweetheart:blurb": "Ismerkedj meg a pipe operátorral, miközben középiskolás szerelmeseknek segítesz megvallani a szerelmüket a közösségi médiában ASCII-művészet segítségével.",

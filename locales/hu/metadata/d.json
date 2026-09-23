@@ -285,7 +285,7 @@
   "doc:learning:title": "Hogyan tanulj D-t?",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj hozzá a D-hez a nulláról",
   "doc:tests:title": "Tesztelés a D kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a D-s feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a D-s feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos D-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a D-t"
 }

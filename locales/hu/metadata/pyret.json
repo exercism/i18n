@@ -224,7 +224,7 @@
   "doc:learning:title": "Hogyan tanulj Pyretet",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj hozzá a Pyrettel való munkához a nulláról",
   "doc:tests:title": "Tesztelés a Pyret kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Pyret feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Pyret feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Pyret-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Pyretet",
   "concept:conditionals:blurb": "TODO: adj hozzá ismertetőt ehhez a fogalomhoz",

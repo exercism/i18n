@@ -326,7 +326,7 @@
   "doc:learning:title": "Hogyan tanuld meg a Basht",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj nulláról a Bashsel",
   "doc:tests:title": "Tesztelés a Bash-kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan tesztelheted a Bash-feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan tesztelheted a Bash-feladataidat az Exercism-ön",
   "doc:debugging:title": "Hibakeresés a `bats` segítségével",
   "doc:debugging:blurb": "A Bash-kódod hibakeresése, miközben a bats segítségével tesztelsz.",
   "doc:resources:title": "Hasznos Bash-források",

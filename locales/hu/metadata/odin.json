@@ -227,7 +227,7 @@
   "doc:learning:title": "Hogyan tanuld meg az Odint",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj hozzá az Odinhoz a nulláról",
   "doc:tests:title": "Tesztelés az Odin kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld az Odin feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld az Odin feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Odin-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani az Odint"
 }

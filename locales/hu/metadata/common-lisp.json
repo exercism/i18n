@@ -301,7 +301,7 @@
   "doc:learning:title": "Hogyan tanulj meg Common Lispet",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj hozzá a nulláról a Common Lisp tanulásához",
   "doc:tests:title": "Tesztelés a Common Lisp kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Common Lisp feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Common Lisp feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Common Lisp-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek, hogy elsajátítsd a Common Lispet",
   "doc:representer-normalizations:title": "A Common Lisp representer normalizálásai",

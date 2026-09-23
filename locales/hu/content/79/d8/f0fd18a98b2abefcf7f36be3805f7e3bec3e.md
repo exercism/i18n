@@ -4,7 +4,7 @@
 
 A `use` makróval gyorsan kiterjeszthetjük a modulunkat egy másik modul által nyújtott funkciókkal. Amikor `use`-olunk egy modult, az a modul kódot szúrhat be a modulunkba: például definiálhat függvényeket, `import`-álhat vagy `alias`-olhat más modulokat, illetve beállíthat modulattribútumokat.
 
-Ha valaha is megnézted néhány itteni Elixir-feladat tesztfájlját az Exercismen, valószínűleg feltűnt, hogy mindegyik `use ExUnit.Case` sorral kezdődik. Ez az egyetlen kódsor teszi elérhetővé a `test` és `assert` makrókat a tesztmodulban.
+Ha valaha is megnézted néhány itteni Elixir-feladat tesztfájlját az Exercism-ön, valószínűleg feltűnt, hogy mindegyik `use ExUnit.Case` sorral kezdődik. Ez az egyetlen kódsor teszi elérhetővé a `test` és `assert` makrókat a tesztmodulban.
 
 ```elixir
 defmodule LasagnaTest do

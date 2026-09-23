@@ -1,14 +1,14 @@
 # Névmások
 
 A nyelvtanban a névmások olyan szavak, amelyek főnevek helyére léphetnek.
-Ha például az Exercism egyik társalapítója, Jeremy ki akarná fejezni, hogy szereti az Exercismet, akkor a „**Jeremy** loves **Exercism**” helyett azt mondaná: „**I** love **you**”.
+Ha például az Exercism egyik társalapítója, Jeremy ki akarná fejezni, hogy szereti az Exercism-öt, akkor a „**Jeremy** loves **Exercism**” helyett azt mondaná: „**I** love **you**”.
 Az „I” és a „you” is névmás, és mindkettő a „Jeremy”, illetve az „Exercism” főnevet helyettesíti.
 
 Sok nyelvben a névmások nemhez kötöttek.
 Jeremy például férfi, és a hímnemű névmásokat részesíti előnyben, így azt mondhatnánk, hogy **he** loves Exercism.
 Ha Jeremy nő lenne, azt mondanánk, hogy **she** loves Exercism.
 
-Vannak, akik az Exercismen nem szeretnének hím- vagy nőnemű névmást használni.
+Vannak, akik az Exercism-ön nem szeretnének hím- vagy nőnemű névmást használni.
 Ennek sok oka lehet: egyesek el akarják kerülni a nemükön alapuló diszkriminációt; mások nonbinárisak vagy genderqueer identitásúak; megint mások nagyra értékelik a magánéletüket.
 Ilyen helyzetekben az emberek néha semleges nemű névmást adnak meg, például a **they** (pl. „they love Exercism”) vagy a **ze** (pl. „ze loves Exercism”) szót.
 

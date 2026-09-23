@@ -462,7 +462,7 @@
   "doc:learning:title": "Hogyan tanulj meg Factort?",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj hozzá a Factorhoz a nulláról",
   "doc:tests:title": "Tesztelés a Factor kurzson",
-  "doc:tests:blurb": "Tanuld meg, hogyan tesztelheted a Factor-feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan tesztelheted a Factor-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Factor-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Factort",
   "exercise:pirates-path:blurb": "Használj egy <dlist>-et BFS-frontként a rejtett öblök térképén, majd gyorsítótárazd a drága aranykeresést a MEMO: kulcsszóval.",

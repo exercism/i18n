@@ -219,11 +219,11 @@
   "components/donations": {
     "stripeForm.defaultError": "Nem sikerült lekérni az előfizetés adatait",
     "transactionForm.orSpecifyCustomAmount": "Vagy adj meg egyéni összeget:",
-    "subscriptionForm.youReCurrentlyDonatingEachMonthToExercism": "Jelenleg havonta {{amount}} összeget adományozol az Exercismnek.",
+    "subscriptionForm.youReCurrentlyDonatingEachMonthToExercism": "Jelenleg havonta {{amount}} összeget adományozol az Exercism-nek.",
     "subscriptionForm.thankYou": "Köszönjük!",
-    "subscriptionForm.regularDonationsLikeYoursAllowUsToAnticipateOurCashflowAndMakeResponsibleDecisionsAboutHiringAndGrowingExercism": "A hozzád hasonló rendszeres adományok segítenek előre látni a pénzforgalmunkat, és felelős döntéseket hozni arról, hogyan bővítsük és növeljük az Exercismet.",
+    "subscriptionForm.regularDonationsLikeYoursAllowUsToAnticipateOurCashflowAndMakeResponsibleDecisionsAboutHiringAndGrowingExercism": "A hozzád hasonló rendszeres adományok segítenek előre látni a pénzforgalmunkat, és felelős döntéseket hozni arról, hogyan bővítsük és növeljük az Exercism-öt.",
     "externalDonationManagement.yourRegularDonationIsManagedByToModifyOrCancelYourRecurringDonationPleaseUseDashboard": "A rendszeres adományodat a(z) {{displayName}} kezeli. Ha módosítani vagy lemondani szeretnéd a rendszeres adományodat, használd a(z) <0>{{displayName}} irányítópultot<0/>.",
-    "existingSubscriptionNotice.youAlreadyDonate": "<0>Már havonta {{amount}} összeget adományozol az Exercismnek.</0> Köszönjük! Ennek módosításához vagy kezeléséhez menj a <1>Adománybeállítások<1/> oldalra.",
+    "existingSubscriptionNotice.youAlreadyDonate": "<0>Már havonta {{amount}} összeget adományozol az Exercism-nek.</0> Köszönjük! Ennek módosításához vagy kezeléséhez menj a <1>Adománybeállítások<1/> oldalra.",
     "existingSubscriptionNotice.extra": "A további <0>egyszeri adományokat</0> is hálásan fogadjuk!",
     "stripeForm.yourEmailAddressForReceipts": "Az e-mail-címed (a visszaigazolásokhoz):",
     "stripeForm.attackInfo": "A gyakori <0>kártyatesztelési támadások</0> miatt ellenőriznünk kell, hogy nem vagy-e bot, mielőtt elfogadhatjuk az adományt.",
@@ -394,14 +394,14 @@
     "insidersStatus.eligibleLifetimeText": "Örökös hozzáférést adtunk neked az Insidershez. Köszönjük, hogy az Exercism része vagy. Izgatottan várjuk, hogy együtt folytassuk az utunkat!",
     "insidersStatus.unsetText": "Jelenleg számítjuk az Insiders státuszodat. Ez a mező frissül, amint végeztünk.",
     "insidersStatus.getAccessToInsiders": "Hozzáférés az Insidershez",
-    "insidersStatus.donateToAccessInsiders": "Adományozz az Exercismnek, hogy hozzáférj az Insidershez",
+    "insidersStatus.donateToAccessInsiders": "Adományozz az Exercism-nek, hogy hozzáférj az Insidershez",
     "insidersStatus.exercismIsNonProfit": "Az Exercism egy független, bejegyzett nonprofit szervezet (UK #11733062), apró csapattal. Minden adományt a platform működtetésére és fejlesztésére fordítunk.",
     "insidersStatus.chooseMonthlyDonation": "1. Válaszd ki a havi adományodat:",
     "insidersStatus.specifyAmount": "Add meg az összeget",
     "insidersStatus.minimumDonationAmount": "Figyelem: az Insiders-hozzáférés minimális adományösszege 10,00 dollár. Köszönjük a kedves támogatásodat!",
     "insidersStatus.choosePaymentMethod": "2. Válaszd ki a fizetési módodat:",
     "insidersStatus.thankYou": "Köszönjük!",
-    "insidersStatus.thankYouForSupport": "Nagyon köszönjük, hogy támogatod az Exercismet. Ez mindent jelent nekünk! 💜",
+    "insidersStatus.thankYouForSupport": "Nagyon köszönjük, hogy támogatod az Exercism-öt. Ez mindent jelent nekünk! 💜",
     "insidersStatus.setUpMonthlyDonation": "A lenti űrlap segítségével állítsd be a havi adományodat. Az adományodat bármikor módosíthatod vagy lemondhatod a beállításaid oldalon.",
     "insidersStatus.donationsImprovePlatform": "Az Exercism egy független nonprofit szervezet. Minden adományt a platform működtetésére és fejlesztésére fordítunk. Minden fizetést biztonságosan a Stripe kezel.",
     "paymentPending.errorFetchingStatus": "Hiba a PayPal-státusz lekérdezésekor"
@@ -676,7 +676,7 @@
     "begModal.explainsWhyWeNeedDonations": "Összeállítottam egy rövid videót, amely elmagyarázza, miért van szükségünk adományokra, és hogyan használjuk fel őket 👇",
     "begModal.fewerThan1Percent": "Az Exercism-öt használók kevesebb mint 1%-a adományozik. Ha megengedheted magadnak, kérünk, legyél köztük te is.",
     "begModal.continueWithoutDonating": "Folytatás adományozás nélkül",
-    "begModal.previousDonorContent.thankYou": "Te vagy azon kevesek egyike, akik adományoztak az Exercismnek. Nagyon köszönjük a támogatásodat 💙",
+    "begModal.previousDonorContent.thankYou": "Te vagy azon kevesek egyike, akik adományoztak az Exercism-nek. Nagyon köszönjük a támogatásodat 💙",
     "begModal.previousDonorContent.hateToAskAgain": "Utálom, hogy újra kérnem kell (😔), de tényleg szükségünk van a támogatásodra. Az Exercism nem fedezi a költségeit, és nagyon számítunk a segítségedre. Ha élvezed az Exercism-öt, és megengedheted magadnak, <0>fontold meg, hogy még néhány dollárral támogatsz minket</0>.",
     "begModal.previousDonorContent.monthlyDonationHelpful": "Ha lehetséges, egy havi adomány különösen sokat segítene! A beállítás 30 másodpercet vesz igénybe a jobb oldali űrlapon 👉",
     "begModal.nonDonorContent.exercismReliesOnDonations": "Az Exercism adományokból működik. De épp most nem gyűlt össze elég 😔",
@@ -810,7 +810,7 @@
     "categorySelect.category": "Kategória"
   },
   "components/journey/overview": {
-    "contributingSection.youHaventContributed": "Még nem közreműködtél az Exercismnél",
+    "contributingSection.youHaventContributed": "Még nem közreműködtél az Exercism-nél",
     "contributingSection.seeHowYouCanContribute": "Nézd meg, hogyan tudsz közreműködni",
     "contributingSection.yourContributions": "A közreműködéseid",
     "learningSection.youHaventJoinedTracks": "Még nem csatlakoztál egyetlen kurzushoz sem",
@@ -861,7 +861,7 @@
     "trackSummary.mentoring.solution_one": "{{count}} megoldás",
     "trackSummary.mentoring.solution_other": "{{count}} megoldás",
     "trackSummary.progressionVelocity": "Haladási sebesség",
-    "trackSummary.avgVelocity": "Átlag az Exercismen = {{avg}}",
+    "trackSummary.avgVelocity": "Átlag az Exercism-ön = {{avg}}",
     "trackSummary.velocityExplanation": "Ez azt méri, hogy milyen gyorsan haladtál végig a kurzuson az elmúlt 6 hónapban",
     "learningOverview.youReThroughSingle": "A csatlakozott kurzusod <em>{{percentage}}%</em> részén már túl vagy. <strong>Csak így tovább!</strong>",
     "learningOverview.youReThroughMultiple": "A csatlakozott kurzusaid <em>{{percentage}}%</em> részén már túl vagy. <strong>Csak így tovább!</strong>",
@@ -1081,7 +1081,7 @@
     "addTestimonialStep.finish": "Befejezés",
     "celebrationStep.thankYouForTestimonial": "Köszönjük, hogy ajánlást hagytál 💙",
     "celebrationStep.helpedMakeDay": "Segítettél szebbé tenni {{mentorHandle}} napját.",
-    "celebrationStep.shareExperience": "Kérünk, oszd meg másokkal az Exercismről szerzett tapasztalataidat.",
+    "celebrationStep.shareExperience": "Kérünk, oszd meg másokkal az Exercism-ről szerzett tapasztalataidat.",
     "celebrationStep.backToExercise": "Vissza a feladathoz",
     "satisfiedStep.sorryMentoringWasntGreat": "Sajnáljuk, hogy ez a mentorálás nem volt jó.",
     "satisfiedStep.putExerciseBack": "Szeretnéd visszatenni ezt a feladatot a sorba, hogy egy másik mentor megnézze?",
@@ -1092,13 +1092,13 @@
     "reasonSelect.wrongOrMisleadingInformation": "Hibás vagy félrevezető információ",
     "reasonSelect.other": "Egyéb",
     "donationStep.oneMoreRequest": "Még egy kérés…",
-    "donationStep.areYouFindingHelpful": "Hasznosnak találod az Exercismet?",
+    "donationStep.areYouFindingHelpful": "Hasznosnak találod az Exercism-öt?",
     "donationStep.cantAfford": "Nem engedheted meg magadnak?",
-    "donationStep.shareMessage": "Ha nem engedheted meg magadnak az adományozást, de más módon szeretnél segíteni, oszd meg az Exercismet a barátaiddal és a kollégáiddal, és említs minket a közösségi médiában. Minél többen használnak minket, annál több adományt kapunk!",
+    "donationStep.shareMessage": "Ha nem engedheted meg magadnak az adományozást, de más módon szeretnél segíteni, oszd meg az Exercism-öt a barátaiddal és a kollégáiddal, és említs minket a közösségi médiában. Minél többen használnak minket, annál több adományt kapunk!",
     "donationStep.wantToKnowMore": "Többet szeretnél megtudni?",
     "donationStep.whyWeNeedDonations": "Készítettem egy rövid videót, amely elmagyarázza, miért van szükségünk adományokra, és hogyan használjuk fel őket 👇",
     "donationStep.continueWithoutDonating": "Folytatás adományozás nélkül",
-    "donationStep.lessThanOnePercentDonate": "Az Exercismet használók kevesebb mint 1%-a dönt úgy, hogy adományoz. Ha megengedheted magadnak, kérünk, légy te is köztük.",
+    "donationStep.lessThanOnePercentDonate": "Az Exercism-öt használók kevesebb mint 1%-a dönt úgy, hogy adományoz. Ha megengedheted magadnak, kérünk, légy te is köztük.",
     "reportStep.reportPlaceholder": "Írd le pontosan, miért készíted ezt a bejelentést, és mondd el, mi történt."
   },
   "components/modals/UnpublishSolutionModal.tsx": {
@@ -1134,14 +1134,14 @@
     "welcomeModal.helloFellowDeveloper": "Szia, fejlesztőtárs 👋",
     "welcomeModal.exercismDeepenSkills": "Az Exercism az a hely, ahol elmélyítheted a programozási tudásodat, és több mint {{numTracks}} programozási nyelvet fedezhetsz fel. 100%-ban ingyenes.",
     "welcomeModal.thanksForJoining": "Köszönjük, hogy csatlakoztál!",
-    "welcomeModal.madeByThousands": "Az Exercismet több ezer olyan ember készítette, akik egy szórakoztató és hatékony oktatási platformot szeretnének létrehozni, amely megkönnyíti a programozási ismeretek elsajátítását és elmélyítését. Nagyon örülünk, hogy velünk tartasz ezen az úton! Nézz körül a fórumainkon, a Youtube-on és a Twitchen, hogy felfedezd mindazt, amit az Exercism kínál 🎉",
+    "welcomeModal.madeByThousands": "Az Exercism-öt több ezer olyan ember készítette, akik egy szórakoztató és hatékony oktatási platformot szeretnének létrehozni, amely megkönnyíti a programozási ismeretek elsajátítását és elmélyítését. Nagyon örülünk, hogy velünk tartasz ezen az úton! Nézz körül a fórumainkon, a Youtube-on és a Twitchen, hogy felfedezd mindazt, amit az Exercism kínál 🎉",
     "welcomeModal.watchWelcomeVideo": "A kezdéshez nézd meg a jobb oldali üdvözlővideót, majd menj a Kurzusok oldalra, és válaszd ki a nyelvet, amelyet először fel szeretnél fedezni. Oldd meg a klasszikus &quot;Hello World&quot; feladatot, hogy megismerkedj a platformmal, aztán kezdj el igazi feladatokat megoldani.",
     "welcomeModal.gotItCloseModal": "Értem! Zárd be ezt az ablakot.",
     "welcomeModal.startWithWelcomeVideo": "Kezdd az üdvözlővideónkkal 👇🏽",
     "welcomeModal.whereCanIJoin": "Hol tudok csatlakozni a #48in24-hez?",
-    "welcomeModal.discoveredExercism": "A #48in24 vagy egyik kiemelt hónapunk miatt találtál rá az Exercismre? Remek! Miután megnézted a fenti videót, zárd be ezt az ablakot, és a jobb oldalon látni fogsz egy nagy grafikát, amely a #48in24-et hirdeti. Kattints rá, és kövesd az utasításokat a kezdéshez!",
-    "initialView.welcomeToExercism": "Üdv az Exercismnél! 💙",
-    "initialView.letsMakeSure": "Nézzük meg, hogyan hozhatod ki a legtöbbet az Exercismből.",
+    "welcomeModal.discoveredExercism": "A #48in24 vagy egyik kiemelt hónapunk miatt találtál rá az Exercism-re? Remek! Miután megnézted a fenti videót, zárd be ezt az ablakot, és a jobb oldalon látni fogsz egy nagy grafikát, amely a #48in24-et hirdeti. Kattints rá, és kövesd az utasításokat a kezdéshez!",
+    "initialView.welcomeToExercism": "Üdv az Exercism-nél! 💙",
+    "initialView.letsMakeSure": "Nézzük meg, hogyan hozhatod ki a legtöbbet az Exercism-ből.",
     "initialView.howExperienced": "Mennyire tapasztalt fejlesztő vagy?",
     "initialView.absoluteBeginner": "Teljesen kezdő",
     "initialView.beginner": "Kezdő",
@@ -1170,7 +1170,7 @@
     "welcomeToInsidersModal.title": "Üdv az Insidersben! 💙",
     "welcomeToInsidersModal.accessToFeatures": "Mostantól hozzáférsz a Dark Mode-hoz, a ChatGPT-integrációhoz, extra mentorálási helyekhez, valamint kulisszák mögötti videókhoz, új jelvényekhez és még sok máshoz!",
     "welcomeToInsidersModal.thanksForBeingPartOfOurStory": "Köszönjük, hogy a történetünk része vagy!",
-    "welcomeToInsidersModal.exercismReliesOnPeople": "Az Exercism olyan emberekre támaszkodik, mint te, akik az idejüket és a pénzüket adják, hogy másokon segítsenek. Nélküled nem tudtunk volna ennyi embernek segíteni. Az utunk még csak most kezdődik, és nagyon örülünk, hogy velünk vagy. Köszönjük szépen, hogy lehetővé teszed az Exercismet 💙",
+    "welcomeToInsidersModal.exercismReliesOnPeople": "Az Exercism olyan emberekre támaszkodik, mint te, akik az idejüket és a pénzüket adják, hogy másokon segítsenek. Nélküled nem tudtunk volna ennyi embernek segíteni. Az utunk még csak most kezdődik, és nagyon örülünk, hogy velünk vagy. Köszönjük szépen, hogy lehetővé teszed az Exercism-öt 💙",
     "welcomeToInsidersModal.weHopeInsidersIsFun": "Reméljük, hogy az Insiders szórakoztató élmény. Javasoljuk, hogy nézd meg a jobb oldali videót, hogy áttekintést kapj arról, hogyan változott meg a fiókod, és vess egy pillantást az ablak mögötti Insiders oldalra is, hogy lásd az összes feloldott funkciót.",
     "welcomeToInsidersModal.greatLetsGo": "Remek. Gyerünk!",
     "welcomeToInsidersModal.startWithOurWelcomeVideo": "Kezdd az üdvözlővideónkkal 👇🏽",
@@ -1346,7 +1346,7 @@
     "insiderBenefits.thanksForBeingInsider": "Köszönjük, hogy Exercism Insider vagy! Íme néhány extra beállítás, kizárólag neked.",
     "insiderBenefits.eligibleToJoin": "Jogosult vagy csatlakozni az Insidershez. <link>Kezdj hozzá itt.</link>",
     "insiderBenefits.exclusiveOptions": "Ezek kizárólagos lehetőségek az Exercism Insiderek számára.",
-    "insiderBenefits.donateToExercism": "<0>Adományozz az Exercismnek</0>  hogy Insider legyél, és hozzáférj olyan előnyökhöz, mint a sötét mód, a ChatGPT-integráció, a reklámmentes élmény és még sok más.",
+    "insiderBenefits.donateToExercism": "<0>Adományozz az Exercism-nek</0>  hogy Insider legyél, és hozzáférj olyan előnyökhöz, mint a sötét mód, a ChatGPT-integráció, a reklámmentes élmény és még sok más.",
     "insiderBenefits.successAlt": "Siker"
   },
   "components/settings/PasswordForm.tsx": {
@@ -1423,7 +1423,7 @@
   "components/settings/theme-preference-form": {
     "infoMessage.insiderAccessToDarkMode": "Exercism Insiderként hozzáférsz a sötét módhoz. Válassz világos, sötét vagy a rendszerbeállításaid alapján automatikusan frissülő megjelenés közül. Jó szórakozást! 💎",
     "infoMessage.eligibleToJoinInsiders": "Jogosult vagy csatlakozni az Insiders programhoz. <0>Kezdj hozzá itt.</0>",
-    "infoMessage.darkModeOnlyAvailableToInsiders": "A sötét mód csak az Exercism Insiders tagjai számára érhető el. <0>Támogasd az Exercismet</0>, és válj Insiders-taggá, hogy hozzáférj a sötét módhoz, a ChatGPT-integrációhoz és további funkciókhoz.",
+    "infoMessage.darkModeOnlyAvailableToInsiders": "A sötét mód csak az Exercism Insiders tagjai számára érhető el. <0>Támogasd az Exercism-öt</0>, és válj Insiders-taggá, hogy hozzáférj a sötét módhoz, a ChatGPT-integrációhoz és további funkciókhoz.",
     "disabledTooltip.mustBeExercismInsider": "Ahhoz, hogy feloldd ezt a témát, <0>Exercism Insider <1/></0> kell lenned."
   },
   "components/settings/ThemePreferenceForm.tsx": {
@@ -1578,7 +1578,7 @@
     "openEditor.downloadPrompt": "Inkább a megszokott eszközeidet használnád az online szerkesztőnk helyett? Semmi baj!",
     "openEditor.youCanWorkLocally": "{{downloadPrompt}} Ezt a feladatot letöltheted, és helyben dolgozhatsz rajta, majd beküldheted, amikor elégedett vagy.",
     "openEditor.exerciseNotAvailable": "Ez a feladat nem érhető el az online szerkesztővel.",
-    "openEditor.firstTimeUsingSetup": "Most használod először a helyi beállításunkat? Olvasd el a <link>helyi feladatmegoldás útmutatóját</link>, hogy megértsd a folyamatot, és telepítsd helyben az Exercismet. Aztán gyere vissza, és a fenti paranccsal indítsd el a feladatot.",
+    "openEditor.firstTimeUsingSetup": "Most használod először a helyi beállításunkat? Olvasd el a <link>helyi feladatmegoldás útmutatóját</link>, hogy megértsd a folyamatot, és telepítsd helyben az Exercism-öt. Aztán gyere vissza, és a fenti paranccsal indítsd el a feladatot.",
     "openEditor.onlineEditorNotAvailable": "Az online szerkesztő nem érhető el ehhez a feladathoz. Oldd meg a feladatot helyben, és küldd be a CLI-n keresztül.",
     "openEditor.clickArrowForMoreInfo": "További információért kattints a jobbra mutató nyílra.",
     "openEditor.exerciseCurrentlyLocked": "Ez a feladat jelenleg zárolva van"
@@ -1737,7 +1737,7 @@
     "components.mentoring.session.automatedFeedbackSummary.opensInAModal": "Modális ablakban nyílik meg",
     "components.mentoring.session.cancelledRequestModal.mentoringRequestCancelled": "A mentorálási kérés visszavonva",
     "components.mentoring.session.cancelledRequestModal.studentCancelledRequest": "A tanuló visszavonta ezt a mentorálási kérést. Tudjuk, hogy ez rendkívül frusztráló, ha már elkezdtél válaszolni 😞 Elnézést a bosszúságért!",
-    "components.mentoring.session.cancelledRequestModal.thankYouForBeingAMentor": "Köszönjük, hogy mentor vagy az Exercismen 💙",
+    "components.mentoring.session.cancelledRequestModal.thankYouForBeingAMentor": "Köszönjük, hogy mentor vagy az Exercism-ön 💙",
     "components.mentoring.session.cancelledRequestModal.backToMentorRequests": "Vissza a mentorálási kérésekhez",
     "components.mentoring.session.cancelledRequestModal.closeThisModal": "Ablak bezárása",
     "components.mentoring.session.filePanel.instructions": "Utasítások",
@@ -1832,7 +1832,7 @@
   },
   "components/tooltips/task-tooltip": {
     "knowledgeInfo.noExistingKnowledge": "Ehhez a részfeladathoz <strong>semmilyen</strong> meglévő Exercism-tudásra nincs szükség.",
-    "knowledgeInfo.perfectForFirstContribution": "Ez a részfeladat ideális azoknak, akik először működnek közre az Exercismnél. Ha már egy ideje itt vagy, fontold meg, hogy egy újnak hagyod 🙂",
+    "knowledgeInfo.perfectForFirstContribution": "Ez a részfeladat ideális azoknak, akik először működnek közre az Exercism-nél. Ha már egy ideje itt vagy, fontold meg, hogy egy újnak hagyod 🙂",
     "knowledgeInfo.elementaryKnowledge": "Ehhez a részfeladathoz <strong>alapszintű</strong> Exercism-tudásra van szükség.",
     "knowledgeInfo.littleBitAboutExercism": "Kicsit ismerned kell, hogyan működik az Exercism, de ezt a részfeladat során ki tudod deríteni. Ideális első közreműködőknek.",
     "knowledgeInfo.intermediateKnowledge": "Ehhez a részfeladathoz <strong>középszintű</strong> Exercism-tudásra van szükség.",
@@ -1868,21 +1868,21 @@
     "sizeInfo.smallTask": "Ez egy <strong>kicsi</strong> feladat.",
     "sizeInfo.completeInHour": "Tapasztalatodtól függően egy órán belül befejezheted.",
     "sizeInfo.mediumSizedTask": "Ez egy <strong>közepes méretű</strong> feladat.",
-    "sizeInfo.deepenKnowledge": "Tapasztalatodtól függően néhány óra alatt befejezheted. Ez egy remek feladat ahhoz, hogy elmélyítsd a tudásodat az Exercismen végzett munkáról, és jelentős hozzájárulást tegyél.",
+    "sizeInfo.deepenKnowledge": "Tapasztalatodtól függően néhány óra alatt befejezheted. Ez egy remek feladat ahhoz, hogy elmélyítsd a tudásodat az Exercism-ön végzett munkáról, és jelentős hozzájárulást tegyél.",
     "sizeInfo.largeTask": "Ez egy <strong>nagy feladat</strong>.",
-    "sizeInfo.bigContribution": "Ez sok órába telik majd. Remek feladat, amibe beleáshatod magad, és nagy hozzájárulás lesz az Exercismhez.",
+    "sizeInfo.bigContribution": "Ez sok órába telik majd. Remek feladat, amibe beleáshatod magad, és nagy hozzájárulás lesz az Exercism-höz.",
     "sizeInfo.project": "Ez a feladat egy <strong>projekt</strong>.",
-    "sizeInfo.daysToComplete": "Ez napokba telik majd, még akkor is, ha már tapasztalt közreműködő vagy az Exercismnél.",
+    "sizeInfo.daysToComplete": "Ez napokba telik majd, még akkor is, ha már tapasztalt közreműködő vagy az Exercism-nél.",
     "actionInfo.createNew": "Ehhez a feladathoz valami újat kell <strong>létrehoznod</strong>.",
     "actionInfo.buildingFromScratch": "Ez azt jelenti, hogy valamit a nulláról építesz fel.",
     "actionInfo.fixBroken": "Ehhez a feladathoz valami elromlottat kell <strong>megjavítanod</strong>.",
     "actionInfo.fixingIt": "Ez azt jelenti, hogy fogsz valamit, ami jelenleg nem működik, és megjavítod.",
     "actionInfo.improveSomething": "Ehhez a feladathoz <strong>fejlesztened</strong> kell valamit.",
-    "actionInfo.addFeatureOrImprovement": "Az Exercismnél gyakran beolvasztunk olyan dolgokat, amelyek előreviszik a projektet, és utólagos issue-kat nyitunk a további fejlesztéshez. Ez remek lehetőség egy új funkció vagy fejlesztés hozzáadására.",
+    "actionInfo.addFeatureOrImprovement": "Az Exercism-nél gyakran beolvasztunk olyan dolgokat, amelyek előreviszik a projektet, és utólagos issue-kat nyitunk a további fejlesztéshez. Ez remek lehetőség egy új funkció vagy fejlesztés hozzáadására.",
     "actionInfo.proofread": "Ehhez a feladathoz <strong>korrektúráznod</strong> kell.",
     "actionInfo.checkDocsAndContent": "Segíts ellenőrizni, hogy a dokumentációnk és a tartalmunk érthető és helyes nyelvtanú-e, valamint hogy a nem anyanyelvű beszélők is meg tudják érteni.",
     "actionInfo.syncContent": "Ehhez a feladathoz a tartalmat a legújabb verziókhoz kell <strong>szinkronizálnod</strong>.",
-    "actionInfo.updateTrackImplementation": "Az Exercismnek van egy központi feladattára, amelyet egy több nyelven dolgozó csapat frissít. Ez a feladat egy kurzus implementációjának frissítését jelenti egy feladat legújabb verziójára.",
+    "actionInfo.updateTrackImplementation": "Az Exercism-nek van egy központi feladattára, amelyet egy több nyelven dolgozó csapat frissít. Ez a feladat egy kurzus implementációjának frissítését jelenti egy feladat legújabb verziójára.",
     "summary.task": "Feladat",
     "summary.creating": "létrehozás",
     "summary.fixing": "javítás",
@@ -1983,7 +1983,7 @@
     "bootcampAd.quote.description": "Teljes kezdő",
     "senioritySurveyModal.inner": "Belső",
     "initialView.heyThere": "Szia 👋",
-    "initialView.expandingExercism": "Az Exercismet bővítjük, hogy a képességek széles skálájához illő tartalmat adjunk hozzá. Hogy az Exercism a megfelelő tartalmat mutassa neked, mondd el, mennyi tapasztalatod van.",
+    "initialView.expandingExercism": "Az Exercism-öt bővítjük, hogy a képességek széles skálájához illő tartalmat adjunk hozzá. Hogy az Exercism a megfelelő tartalmat mutassa neked, mondd el, mennyi tapasztalatod van.",
     "initialView.howExperiencedAreYou": "Mennyire tapasztalt fejlesztő vagy?",
     "initialView.saveMyChoice": "Választásom mentése",
     "initialView.canBeUpdatedInSettings": "(Ezt bármikor frissítheted a beállításaidban)",
@@ -2005,12 +2005,12 @@
   },
   "components/modals/mentor-registration-modal": {
     "commitStep.title": "Kötelezd el magad, hogy jó mentor legyél",
-    "commitStep.description": "A mentorálás az Exercismen hihetetlen élmény lehet a tanulóknak és a mentoroknak egyaránt. Hogy ez mindenki számára pozitív hely maradjon, arra kérjük a mentorokat, hogy az első megoldás mentorálása előtt erősítsék meg az Exercism értékeit.",
+    "commitStep.description": "A mentorálás az Exercism-ön hihetetlen élmény lehet a tanulóknak és a mentoroknak egyaránt. Hogy ez mindenki számára pozitív hely maradjon, arra kérjük a mentorokat, hogy az első megoldás mentorálása előtt erősítsék meg az Exercism értékeit.",
     "commitStep.youAgreeTo": "Vállalod, hogy:",
     "commitStep.codeOfConduct": "Betartod a <0>Magatartási kódexet <1/></0>",
     "commitStep.beKind": "Türelmes, empatikus és kedves vagy azokhoz, akiket mentorálsz",
     "commitStep.intellectualHumility": "Tanúsítasz <0>intellektuális alázatot <1/></0>",
-    "commitStep.noAgendas": "Nem használod az Exercismet személyes céljaid érvényesítésére",
+    "commitStep.noAgendas": "Nem használod az Exercism-öt személyes céljaid érvényesítésére",
     "commitStep.back": "Vissza",
     "commitStep.continue": "Folytatás",
     "chooseTrackStep.selectTracks": "Válaszd ki, mely kurzusokat szeretnéd mentorálni",
@@ -2085,7 +2085,7 @@
     "byLine": "készítette: <0><1>{{handle}}</1></0> ",
     "exerciseLine": "<strong>{{exercise}}</strong> feladatról a(z) <trackIcon/><trackTitle>{{track}}</trackTitle> kurzusban",
     "sharePanel.title": "Oszd meg az ajánlásodat a világgal",
-    "sharePanel.shareTitle": "Nézd meg ezt az ajánlást az Exercismen"
+    "sharePanel.shareTitle": "Nézd meg ezt az ajánlást az Exercism-ön"
   },
   "components/modals/track-welcome-modal/LHS": {
     "bootcampRecommendation.header": "Lehet, hogy a Jiki jobb lenne neked…",
@@ -2170,7 +2170,7 @@
   },
   "components/track/dig-deeper-components/community-videos": {
     "communityVideos.communityVideos": "Közösségi videók",
-    "communityVideos.walkthroughsFromPeople": " Végigvezetők olyan emberektől, akik az Exercismet használják ",
+    "communityVideos.walkthroughsFromPeople": " Végigvezetők olyan emberektől, akik az Exercism-öt használják ",
     "communityVideos.wantYourVideoFeatured": "Szeretnéd, hogy itt szerepeljen a videód?",
     "communityVideos.submitItHere": "Itt küldd be.",
     "videoCredits.exercismProfile": "Exercism-profil",
@@ -2244,7 +2244,7 @@
     "perksModalButton.continueToPartner": "Tovább a(z) {{websiteDomain}} oldalra",
     "perksModalButton.close": "Bezárás",
     "perksExternalModalButton.claimPerk": "Szerezd meg ezt az előnyt egy Exercism-fiókkal!",
-    "perksExternalModalButton.exercismIsNonProfit": "Az Exercism egy nonprofit szervezet. Világszínvonalú oktatást, remek közösséget és partnereinktől származó előnyöket kínálunk. Csatlakozz még ma az Exercismhez. Ingyenes!",
+    "perksExternalModalButton.exercismIsNonProfit": "Az Exercism egy nonprofit szervezet. Világszínvonalú oktatást, remek közösséget és partnereinktől származó előnyöket kínálunk. Csatlakozz még ma az Exercism-höz. Ingyenes!",
     "perksExternalModalButton.signUp": "Regisztráció",
     "perksExternalModalButton.logIn": "Bejelentkezés"
   },
@@ -2260,7 +2260,7 @@
     "newProfileForm.howDoYouWantToBeKnown": "Milyen néven szeretnél megjelenni?",
     "newProfileForm.locationOptional": "Hely (nem kötelező)",
     "newProfileForm.whereDoYouCurrentlyLive": "Hol élsz jelenleg?",
-    "newProfileForm.exercismIsMadeUpOfPeople": "Az Exercismet a világ minden tájáról érkező emberek alkotják 🌎",
+    "newProfileForm.exercismIsMadeUpOfPeople": "Az Exercism-öt a világ minden tájáról érkező emberek alkotják 🌎",
     "newProfileForm.bioOptional": "Bemutatkozás (nem kötelező)",
     "newProfileForm.tellEveryoneABitMore": "Mesélj egy kicsit többet magadról, hogy ki vagy, és mi érdekel. Pl. Rails-fejlesztő vagyok, imádok boulder-mászni és kávézni",
     "newProfileForm.characters": "{{length}} / 160 karakter",
@@ -2321,8 +2321,8 @@
     "userTooltip.unableToLoadUser": "Nem sikerült betölteni a felhasználót"
   },
   "components/common/CLIWalkthroughButton.tsx": {
-    "cliWalkthroughButton.installExercismLocally": "Telepítsd az Exercismet helyben",
-    "cliWalkthroughButton.useOurWizard": "A varázslónkkal állítsd be az Exercismet, hogy a helyi gépeden működjön.",
+    "cliWalkthroughButton.installExercismLocally": "Telepítsd az Exercism-öt helyben",
+    "cliWalkthroughButton.useOurWizard": "A varázslónkkal állítsd be az Exercism-öt, hogy a helyi gépeden működjön.",
     "cliWalkthroughButton.opensInModal": "Modális ablakban nyílik meg"
   },
   "components/common/ComboButton.tsx": {
@@ -2386,7 +2386,7 @@
     "index.noFavoritesYet.description": "Csillagozd a megoldásokat, hogy bekerüljenek a kedvenceid közé."
   },
   "components/impact/map.tsx": {
-    "map.someoneJoinedExercism": "Valaki csatlakozott az Exercismhez",
+    "map.someoneJoinedExercism": "Valaki csatlakozott az Exercism-höz",
     "map.publishedNewSolution": "@{{handle}} új megoldást tett közzé",
     "map.openedIssue": "@{{handle}} hibajegyet nyitott az Exercism GitHubján",
     "map.submittedPullRequest": "@{{handle}} pull requestet nyújtott be az Exercism GitHubján",
@@ -2425,10 +2425,10 @@
     "assistantChatStartState.getAssistantHelpFree": "Kérj segítséget az asszisztenstől ehhez a feladathoz, 100%-ban ingyenes.",
     "insidersUpsellModal.unlockYourAiAssistant": "Oldd fel az AI-asszisztensedet",
     "insidersUpsellModal.becomeAnInsiderFor": "Legyél Insiders-tag, hogy minden feladatnál korlátlanul beszélgethess.",
-    "insidersUpsellModal.fundedByDonations": "Az Exercism adományokból működik. A havi <strong>{{amount}}</strong> adományod mindenki számára ingyenesen tartja az Exercismet, és feloldja az AI-asszisztenst, a sötét módot, a reklámmentes élményt és még sok mást.",
+    "insidersUpsellModal.fundedByDonations": "Az Exercism adományokból működik. A havi <strong>{{amount}}</strong> adományod mindenki számára ingyenesen tartja az Exercism-öt, és feloldja az AI-asszisztenst, a sötét módot, a reklámmentes élményt és még sok mást.",
     "insidersUpsellModal.changeOrCancel": "Az adományodat bármikor módosíthatod vagy lemondhatod a beállításaidból.",
     "insidersUpsellModal.youreAnInsider": "Insiders-tag vagy! 💙",
-    "insidersUpsellModal.thankYouForSupporting": "Köszönjük, hogy támogatod az Exercismet. Az AI-asszisztensed minden feladatnál fel van oldva, csakúgy, mint a sötét mód, a reklámmentes élmény és minden más, amit az Insiders felold.",
+    "insidersUpsellModal.thankYouForSupporting": "Köszönjük, hogy támogatod az Exercism-öt. Az AI-asszisztensed minden feladatnál fel van oldva, csakúgy, mint a sötét mód, a reklámmentes élmény és minden más, amit az Insiders felold.",
     "insidersUpsellModal.receiptInYourInbox": "Hamarosan küldünk egy visszaigazolást a postaládádba.",
     "insidersUpsellModal.startWorkingWithTheAssistant": "Kezdj el dolgozni az asszisztenssel",
     "assistantChatTab.aiAssistant": "AI-asszisztens",
@@ -2465,7 +2465,7 @@
     "assistantChatPanel.insiderBenefits.adFree.desc": "Kapcsold ki az összes reklámot az egész platformon.",
     "assistantChatPanel.insiderBenefits.behindTheScenes.title": "Kulisszák mögötti tartalom",
     "assistantChatPanel.insiderBenefits.behindTheScenes.desc": "Zárt körű élő közvetítések és mélyelemzések az Exercism stackjébe.",
-    "assistantChatPanel.insiderBenefits.supportExercism.title": "Támogasd az Exercismet",
+    "assistantChatPanel.insiderBenefits.supportExercism.title": "Támogasd az Exercism-öt",
     "assistantChatPanel.insiderBenefits.supportExercism.desc": "Tartsd életben az ingyenes programozásoktatást mindenki számára. 💙",
     "assistantChatPanel.joinExercismInsiders": "Csatlakozz az <gradient>Exercism Insiders</gradient> programhoz több segítségért",
     "assistantChatPanel.usedFreeConversationElsewhere": "Az ingyenes AI-beszélgetésedet egy másik feladatnál használtad el.",
@@ -2497,7 +2497,7 @@
   },
   "components/settings/LanguageForm.tsx": {
     "languageForm.language": "Nyelv",
-    "languageForm.instructions": "Válaszd ki, milyen nyelven szeretnéd látni az Exercismet."
+    "languageForm.instructions": "Válaszd ki, milyen nyelven szeretnéd látni az Exercism-öt."
   },
   "components/settings/LanguagePreferenceForm.tsx": {
     "languagePreferenceForm.language": "Nyelv",
@@ -2509,6 +2509,6 @@
     "languagePreferenceForm.comingSoonBadge": "Hamarosan",
     "languagePreferenceForm.noMatches": "Nincs a keresésnek megfelelő nyelv",
     "languagePreferenceForm.selected": "Kiválasztva",
-    "languagePreferenceForm.description": "Válaszd ki, milyen nyelven szeretnéd használni az Exercismet. A választásodat azonnal elmentjük."
+    "languagePreferenceForm.description": "Válaszd ki, milyen nyelven szeretnéd használni az Exercism-öt. A választásodat azonnal elmentjük."
   }
 }

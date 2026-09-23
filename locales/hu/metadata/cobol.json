@@ -153,7 +153,7 @@
   "doc:learning:title": "Hogyan tanulj COBOL-t",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj hozzá a COBOL-hoz a nulláról",
   "doc:tests:title": "Tesztelés a COBOL-kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan tesztelheted a COBOL-feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan tesztelheted a COBOL-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos COBOL-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a COBOL-t"
 }

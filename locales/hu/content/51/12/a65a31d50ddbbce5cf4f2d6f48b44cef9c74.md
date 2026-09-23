@@ -4,7 +4,7 @@ Az ABAP támogat egy objektumorientált programozási modellt, amely az ABAP Obj
 
 ## (Újra)értékadás
 
-Az ABAP-ban többféleképpen is adhatsz értéket neveknek, például változókkal vagy konstansokkal. Az Exercismen a változókat mindig [snake-case][wiki-snake-case] írásmóddal írjuk. Nincs hivatalos útmutató, és a különböző cégeknek és szervezeteknek más-más stílusútmutatójuk van. _Nyugodtan írd a változókat úgy, ahogy szeretnéd._ Ha úgy írod őket, ahogy a feladatok elő vannak készítve, azzal az az előnyöd, hogy a webes felületen és a legtöbb IDE-ben másképp jelennek meg kiemelve.
+Az ABAP-ban többféleképpen is adhatsz értéket neveknek, például változókkal vagy konstansokkal. Az Exercism-ön a változókat mindig [snake-case][wiki-snake-case] írásmóddal írjuk. Nincs hivatalos útmutató, és a különböző cégeknek és szervezeteknek más-más stílusútmutatójuk van. _Nyugodtan írd a változókat úgy, ahogy szeretnéd._ Ha úgy írod őket, ahogy a feladatok elő vannak készítve, azzal az az előnyöd, hogy a webes felületen és a legtöbb IDE-ben másképp jelennek meg kiemelve.
 
 Az ABAP-ban a változókat a [`constant`][constant] vagy a [`data`][data] kulcsszóval definiálhatod.
 

@@ -2,19 +2,19 @@ Az Exercism lényege a közösség. Önkénteseink, mentoraink és mindazok nél
 
 Ezért mostantól jóval nagyobb hangsúlyt fektetünk a közösségre, és különféle kezdeményezéseket indítunk, hogy jobban összehozzuk a közösségünket, és a lehető legtöbb értéket hozzuk ki mindabból, amit ti alkottok!
 
-Négy új résszel bővítettük az Exercismet, és mindegyik az új [Közösség fül](https://exercism.org/community) alatt található.
+Négy új résszel bővítettük az Exercism-öt, és mindegyik az új [Közösség fül](https://exercism.org/community) alatt található.
 
 ## Fórum
 
 Régóta szerettünk volna fórumot indítani, de nem volt hozzá elég emberünk, hogy működtessük. Most viszont, hogy felvettük Jonathant, az új közösségi menedzserünket, úgy érezzük, van elég kapacitásunk ahhoz, hogy működjön.
 
 A fórum négy kategóriára oszlik:
-**Exercism:** Itt minden Exercismmel kapcsolatos dologról beszélgethetsz: a termékről, a bővítményekről, a mentorálásról, az önkénteskedésről és bármi másról, ami eszedbe jut.
+**Exercism:** Itt minden Exercism-mel kapcsolatos dologról beszélgethetsz: a termékről, a bővítményekről, a mentorálásról, az önkénteskedésről és bármi másról, ami eszedbe jut.
 **Exercism támogatás:** Itt kaphatsz támogatást és segítséget, ha elakadsz az Exercism használata vagy egy feladat megoldása közben. A megoldás utáni mentorálás továbbra is a szokásos mentorálási felületen zajlik, ez viszont egy plusz réteget ad hozzá, amikor nehezen boldogulsz egy feladattal.
 **Programozás:** Általános tér, ahol a programozásról, az egyes nyelvekről vagy bármelyik feladatunkkal kapcsolatos kérdésekről és ötletekről beszélgethetsz.
 **Társalgás:** Végül van egy külön helyünk a csevegésre, a kérdezésre és arra, hogy jobban megismerjük egymást.
 
-Ez az első próbálkozásunk, hogy szerintünk hogyan működhet egy fórum az Exercismnél, és ezt idővel biztosan tovább fogjuk fejleszteni. Egyelőre egy meglehetősen egyszerű [Discourse](https://www.discourse.org/) telepítést használunk, de a végcél, hogy a beszélgetéseket magába az Exercismbe építsük. Ha van ötleted, hogyan fejleszthetnénk vagy javíthatnánk a fórumot, nyiss egy új témát az Exercism kategóriában!
+Ez az első próbálkozásunk, hogy szerintünk hogyan működhet egy fórum az Exercism-nél, és ezt idővel biztosan tovább fogjuk fejleszteni. Egyelőre egy meglehetősen egyszerű [Discourse](https://www.discourse.org/) telepítést használunk, de a végcél, hogy a beszélgetéseket magába az Exercism-be építsük. Ha van ötleted, hogyan fejleszthetnénk vagy javíthatnánk a fórumot, nyiss egy új témát az Exercism kategóriában!
 
 Végül, ami ezt illeti: igazán elkötelezettek vagyunk amellett, hogy ez a fórum szórakoztató, biztonságos és nem toxikus hely legyen, ezért bevezettük a [Közösségi irányelveket](https://forum.exercism.org/faq), hogy mindenkit a kívánt együttműködési formák felé tereljünk. Ezeket viszonylag szigorúan fogjuk betartatni, ezért kérünk, olvasd el őket figyelmesen, mielőtt írsz. Köszönjük 🙂
 
@@ -38,7 +38,7 @@ Ha van egy érdekes történeted, amit szívesen elmesélnél, írj [Jonathannek
 
 Végül, de nem utolsósorban, végre elindítjuk az Exercism Swag Store-t. Ezt már évek óta szerettük volna megvalósítani, de biztosak akartunk lenni benne, hogy lesz elég időnk jól megcsinálni, és hogy az áruk minősége megfelelő lesz. Hát, összeállítottunk néhány dizájnt, rendeltünk néhány mintát, és nagyon elégedettek vagyunk az eredménnyel!
 
-Igyekeztünk a Swag árát a lehető legközelebb tartani az önköltségi árhoz, hogy mindenki beszerezhessen belőle valamit, de emellett bevezettünk „Donation items” tételeket is, amelyeket a kosaradba tehetsz, hogy támogasd az Exercismet. Ha van lehetőséged támogatni minket, kérünk, tedd meg: csak a te adományaidon keresztül tudunk olyan dolgokat megvalósítani, mint Jonathan felvétele vagy a közösségünket segítő eszközök fejlesztése. Szóval kérünk, segíts, ha tudsz!
+Igyekeztünk a Swag árát a lehető legközelebb tartani az önköltségi árhoz, hogy mindenki beszerezhessen belőle valamit, de emellett bevezettünk „Donation items” tételeket is, amelyeket a kosaradba tehetsz, hogy támogasd az Exercism-öt. Ha van lehetőséged támogatni minket, kérünk, tedd meg: csak a te adományaidon keresztül tudunk olyan dolgokat megvalósítani, mint Jonathan felvétele vagy a közösségünket segítő eszközök fejlesztése. Szóval kérünk, segíts, ha tudsz!
 
 A Swag Store-t a [https://swag.exercism.org](https://swag.exercism.org) címen fedezheted fel.
 

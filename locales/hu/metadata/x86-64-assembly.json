@@ -422,6 +422,6 @@
   "doc:learning:title": "Hogyan tanuld meg az x86-64 Assembly-t",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj a nulláról az x86-64 Assembly-vel",
   "doc:tests:title": "Tesztelés az x86-64 Assembly kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld az x86-64 Assembly feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld az x86-64 Assembly feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos x86-64 Assembly-források"
 }

@@ -302,7 +302,7 @@
   "doc:learning:title": "Hogyan tanulj meg Perlül",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj bele a Perlbe a nulláról",
   "doc:tests:title": "Tesztelés a Perl-kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Perl-feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Perl-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Perl-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Perlt"
 }

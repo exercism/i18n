@@ -307,7 +307,7 @@
   "doc:learning:title": "Hogyan tanulj meg Uiua-t",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj neki a nulláról az Uiua-val",
   "doc:tests:title": "Tesztelés az Uiua kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan tesztelheted az Uiua-feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan tesztelheted az Uiua-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Uiua-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek az Uiua elsajátításában"
 }

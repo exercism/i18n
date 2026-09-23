@@ -190,7 +190,7 @@
   "doc:learning:title": "Hogyan tanulj meg OCaml-t",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj el OCaml-t tanulni a nulláról",
   "doc:tests:title": "Tesztelés az OCaml-kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld az OCaml-feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld az OCaml-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos OCaml-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani az OCaml-t"
 }

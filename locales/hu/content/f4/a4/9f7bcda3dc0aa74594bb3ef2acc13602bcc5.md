@@ -2,7 +2,7 @@
 
 A Cairo az első Turing-teljes nyelv, amellyel általános célú számításokhoz lehet bizonyítható programokat írni. Magas szintű, Rust-szerű nyelv. A Rusthoz hasonlóan az a célja, hogy a fejlesztők könnyedén írhassanak hatékony és biztonságos kódot.
 
-Úgy gondoljuk, a legjobb tanulási mód a játék és a gyakorlás: akár saját programozási projekteket hozol létre, akár olyan kis feladatokat oldasz meg, mint amilyenek itt vannak az Exercismen!
+Úgy gondoljuk, a legjobb tanulási mód a játék és a gyakorlás: akár saját programozási projekteket hozol létre, akár olyan kis feladatokat oldasz meg, mint amilyenek itt vannak az Exercism-ön!
 
 Íme néhány forrás, amelyek segíthetnek belevágni a Cairo tanulásába:
 

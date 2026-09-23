@@ -27,7 +27,7 @@ Ahogy mindig, az Objektumorientált október jelvényt most is megszerezheted, h
 - Rengeteg szoftverben használják, a weboldalaktól a beágyazott rendszerekig, az alkalmazásoktól (Xamarin) a játékokig (Unity)
 
 ### Crystal
-- A Crystalt Ary Borenszweig (akinek van fiókja az Exercismen), Juan Wajnerman és Brian Cardiff fejlesztette ki (eredetileg Joy volt a neve, de 3 nappal később Crystalre keresztelték :))
+- A Crystalt Ary Borenszweig (akinek van fiókja az Exercism-ön), Juan Wajnerman és Brian Cardiff fejlesztette ki (eredetileg Joy volt a neve, de 3 nappal később Crystalre keresztelték :))
 - Úgy tervezték, hogy a Ruby eleganciáját és termelékenységét hozza, egy modern fordított nyelv sebességével, hatékonyságával és típusbiztonságával.
 - Nyílt forráskódú nyelv, amelyet a Manas szervezet fejleszt.
 - Az 1.0-s verzió 2021-ben jelent meg.

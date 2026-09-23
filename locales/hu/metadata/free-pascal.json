@@ -311,7 +311,7 @@
   "doc:learning:title": "Hogyan tanuld meg a FreePascalt",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj bele a FreePascalba a nulláról",
   "doc:tests:title": "Tesztelés a FreePascal kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a FreePascal-feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a FreePascal-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos FreePascal-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a FreePascalt"
 }

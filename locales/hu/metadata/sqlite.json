@@ -255,7 +255,7 @@
   "doc:learning:title": "Hogyan tanulj meg SQLite-ot",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj hozzá az SQLite-hoz a nulláról",
   "doc:tests:title": "Tesztelés az SQLite-kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld az SQLite-feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld az SQLite-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos SQLite-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani az SQLite-ot"
 }

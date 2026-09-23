@@ -318,7 +318,7 @@
   "doc:learning:title": "Hogyan tanulj meg Kotlint?",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj hozzá a Kotlinhoz a nulláról",
   "doc:tests:title": "Tesztelés a Kotlin kurzusban",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Kotlin-feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Kotlin-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Kotlin-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Kotlint"
 }

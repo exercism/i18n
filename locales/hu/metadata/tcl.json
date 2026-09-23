@@ -410,7 +410,7 @@
   "doc:learning:title": "Hogyan tanulj Tcl-t?",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj nulláról a Tcl-lel",
   "doc:tests:title": "Tesztelés a Tcl-kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Tcl-feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Tcl-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Tcl-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Tcl-t"
 }

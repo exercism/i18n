@@ -414,7 +414,7 @@
   "doc:learning:title": "Hogyan tanulj PowerShellt",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj hozzá a PowerShellhez a nulláról",
   "doc:tests:title": "Tesztelés a PowerShell-kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a PowerShell-feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a PowerShell-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos PowerShell-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a PowerShellt"
 }

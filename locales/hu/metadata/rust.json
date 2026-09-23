@@ -351,7 +351,7 @@
   "exercise:short-fibonacci:blurb": "Ismerd meg a `vec!` makrót egy rövid Fibonacci-sorozat felépítéséhez.",
   "exercise:rpn-calculator:blurb": "Használd a `Vec` néhány metódusát egy fordított lengyel jelölésű kifejezés kiértékeléséhez",
   "doc:tests:title": "Tesztelés a Rust kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan tesztelheted a Rust feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan tesztelheted a Rust feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Rust-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Rustot",
   "exercise:csv-builder:blurb": "Ismerkedj meg a stringekkel és a string szeletekkel, miközben egy CSV-építőn dolgozol",

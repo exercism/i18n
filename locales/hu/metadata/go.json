@@ -524,7 +524,7 @@
   "doc:learning:title": "Hogyan tanulj meg Go-t",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj neki a Go tanulásának a nulláról",
   "doc:tests:title": "Tesztelés a Go-kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Go-feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Go-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Go-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Go-t",
   "doc:roadmap:title": "Ütemterv és fogalomlista",

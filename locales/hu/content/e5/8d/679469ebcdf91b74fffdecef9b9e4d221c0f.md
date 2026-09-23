@@ -14,7 +14,7 @@ Mivel [nem tanulhatsz meg TypeScriptet anélkül, hogy JavaScriptet is megtanuln
 ## (Újra)értékadás
 
 Néhány alapvető módja van az értékek nevekhez rendelésének a TypeScriptben: változókkal vagy konstansokkal.
-Az Exercismen a változókat mindig [camelCase][wiki-camel-case] írásmóddal írjuk; a konstansokat [SCREAMING_SNAKE_CASE][wiki-snake-case] írásmóddal.
+Az Exercism-ön a változókat mindig [camelCase][wiki-camel-case] írásmóddal írjuk; a konstansokat [SCREAMING_SNAKE_CASE][wiki-snake-case] írásmóddal.
 Nincs hivatalos útmutató, amit követni kellene, és a különböző cégeknek és szervezeteknek más-más stílusútmutatójuk van.
 _Nyugodtan írd a változókat úgy, ahogy szeretnéd_.
 Ha úgy írod őket, ahogy a feladatok elő vannak készítve, az az előnyöd, hogy másképp lesznek kiemelve a webes felületen és a legtöbb IDE-ben.
@@ -102,8 +102,8 @@ MY_MUTABLE_VALUE_CONSTANT
 
 ### Konstans érték (módosíthatatlanság)
 
-Általános szabályként az Exercismen, valamint sok más szervezet és projekt stílusútmutatójában ne módosíts olyan értékeket, amelyek `const SCREAMING_SNAKE_CASE` formájúak.
-Technikailag az értékek _megváltoztathatók_, de az átláthatóság és az elvárások kezelése érdekében az Exercismen ezt nem javasoljuk.
+Általános szabályként az Exercism-ön, valamint sok más szervezet és projekt stílusútmutatójában ne módosíts olyan értékeket, amelyek `const SCREAMING_SNAKE_CASE` formájúak.
+Technikailag az értékek _megváltoztathatók_, de az átláthatóság és az elvárások kezelése érdekében az Exercism-ön ezt nem javasoljuk.
 Amikor ezt _muszáj_ érvényesíteni, használd az [`Object.freeze(value)`][mdn-object-freeze] hívást.
 
 Ahol lehetséges, a TypeScript `readonly` kulcsszava, az `as const`, vagy a `Readonly<T>` generikus típus használható a módosíthatatlanság statikus érvényesítésére.

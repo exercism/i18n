@@ -586,7 +586,7 @@
   "doc:learning:title": "Hogyan tanulj meg Pythont",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj hozzá a Pythonhoz a nulláról.",
   "doc:tests:title": "Tesztelés a Python-kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Python-feladataidat az Exercismen.",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Python-feladataidat az Exercism-ön.",
   "doc:test-driven-development:title": "Tesztvezérelt fejlesztés",
   "doc:test-driven-development:blurb": "A tesztvezérelt fejlesztés áttekintése.",
   "doc:problem-solving:title": "Problémamegoldási források",

@@ -184,7 +184,7 @@
   "doc:learning:title": "Hogyan tanulj meg ABAP-ot",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj az ABAP-hoz a nulláról",
   "doc:tests:title": "Tesztelés az ABAP kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld az ABAP feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld az ABAP feladataidat az Exercism-ön",
   "doc:clone:title": "Az ABAP-kurzus klónozása",
   "doc:clone:blurb": "Útmutató, hogyan klónozd az ABAP-kurzust a saját rendszeredre",
   "doc:resources:title": "Hasznos ABAP-erőforrások",

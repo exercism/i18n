@@ -205,7 +205,7 @@
   "doc:learning:title": "Hogyan tanulj meg OpenEuphoriát",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj az OpenEuphoriával a nulláról",
   "doc:tests:title": "Tesztelés az OpenEuphoria kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld az OpenEuphoria feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld az OpenEuphoria feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos OpenEuphoria-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani az OpenEuphoriát"
 }

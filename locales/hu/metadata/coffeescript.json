@@ -313,7 +313,7 @@
   "doc:installation:title": "A CoffeeScript telepítése helyben",
   "doc:installation:blurb": "Tanuld meg, hogyan telepítsd helyben a CoffeeScriptet, hogy az Exercism feladatait a saját gépeden oldhasd meg",
   "doc:tests:title": "Tesztelés a CoffeeScript-kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a CoffeeScript-feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a CoffeeScript-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos CoffeeScript-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a CoffeeScriptet",
   "doc:learning:title": "Hogyan tanulj meg CoffeeScriptet",

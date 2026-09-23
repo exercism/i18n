@@ -292,7 +292,7 @@
   "doc:learning:title": "Hogyan tanulj meg AWK-ot",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj bele az AWK-ba a nulláról",
   "doc:tests:title": "Tesztelés az AWK-kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld az AWK-feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld az AWK-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos AWK-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye az AWK elsajátításához",
   "exercise:automated-readability-index:source": "Automatikus olvashatósági index",

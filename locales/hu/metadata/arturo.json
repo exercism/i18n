@@ -249,7 +249,7 @@
   "doc:learning:title": "Hogyan tanulj meg Arturót?",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj az Arturóval a nulláról",
   "doc:tests:title": "Tesztelés az Arturo-kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan tesztelheted az Arturo-feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan tesztelheted az Arturo-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Arturo-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani az Arturót"
 }

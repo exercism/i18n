@@ -488,7 +488,7 @@
   "concept:compound-assignment:name": "Összetett értékadás",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj hozzá a nulláról a C#-hoz",
   "doc:tests:title": "Tesztelés a C# kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a C# feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a C# feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos C#-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amivel elsajátíthatod a C#-ot",
   "concept:ternary-operators:name": "Ternáris operátor",

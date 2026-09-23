@@ -384,7 +384,7 @@
   "doc:learning:title": "Hogyan tanulj meg Juliát",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj hozzá a Juliához a nulláról",
   "doc:tests:title": "Tesztelés a Julia-kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan tesztelheted a Julia-feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan tesztelheted a Julia-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Julia-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Juliát",
   "exercise:cheese-club:blurb": "Használj magasabb rendű függvényeket, hogy adatokat rendezz egy sajtklub számára",

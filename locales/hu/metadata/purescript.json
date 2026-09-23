@@ -113,5 +113,5 @@
   "doc:learning:title": "Hogyan tanulj PureScriptet",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj hozzá a PureScripthez a nulláról",
   "doc:tests:title": "Tesztelés a PureScript-kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a PureScript-feladataidat az Exercismen"
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a PureScript-feladataidat az Exercism-ön"
 }

@@ -281,7 +281,7 @@
   "doc:learning:title": "Hogyan tanulj Vim scriptet",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj hozzá a Vim scripthez a nulláról",
   "doc:tests:title": "Tesztelés a Vim script kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Vim script feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Vim script feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Vim script források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Vim scriptet"
 }

@@ -180,7 +180,7 @@
   "doc:learning:title": "Hogyan tanulj YAMLScriptet",
   "doc:learning:blurb": "Áttekintés arról, hogyan vágj bele a YAMLScriptbe a nulláról",
   "doc:tests:title": "Tesztelés a YAMLScript kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a YAMLScript feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a YAMLScript feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos YAMLScript-erőforrások",
   "doc:resources:blurb": "Válogatás hasznos erőforrásokból, amelyek segítenek elsajátítani a YAMLScriptet"
 }

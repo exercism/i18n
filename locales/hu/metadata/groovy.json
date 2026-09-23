@@ -214,7 +214,7 @@
   "doc:learning:title": "Hogyan tanulj meg Groovy-t",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj el a nulláról a Groovy-val",
   "doc:tests:title": "Tesztelés a Groovy-kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Groovy feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Groovy feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Groovy-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Groovy-t"
 }

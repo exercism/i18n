@@ -68,7 +68,7 @@
     "organisation_supporters": {
       "cta": {
         "email_label": "jeremy@exercism.org",
-        "title": "Szeretnéd megbeszélni, hogyan segíthetsz az Exercismnek?",
+        "title": "Szeretnéd megbeszélni, hogyan segíthetsz az Exercism-nek?",
         "description": "Vedd fel a kapcsolatot <strong>Jeremy Walkerrel</strong>, az Exercism vezérigazgatójával.",
         "jeremy_walker_photo_alt": "Jeremy Walker fényképe"
       },
@@ -112,7 +112,7 @@
       },
       "individual_supporters": {
         "alt": "Egyéni támogatók",
-        "title": "Az Exercismet nagylelkű magánszemélyek is támogatják",
+        "title": "Az Exercism-öt nagylelkű magánszemélyek is támogatják",
         "link_label": "Nézd meg mind a(z) %{num_individual_supporters} egyéni támogatónkat"
       },
       "meta": {
@@ -127,25 +127,25 @@
     "partners": {
       "gobridge": {
         "see_all_supporters": "Nézd meg az összes támogatónkat",
-        "supported_by": "Az Exercismet támogatja",
+        "supported_by": "Az Exercism-öt támogatja",
         "gobridge_alt": "GoBridge",
-        "how_gobridge_supports_exercism": "Hogyan támogatja a GoBridge az Exercismet",
+        "how_gobridge_supports_exercism": "Hogyan támogatja a GoBridge az Exercism-öt",
         "support_description": "2021-ben a GoBridge jelentős adományt ajánlott fel az Exercism Teams fejlesztésének támogatására, ami kifejezetten lehetővé tette számunkra, hogy lefektessük a tanuló és mentor közötti interakciók alapjait az új Exercism szerkesztőben.",
         "about_gobridge_title": "A GoBridge-ről",
-        "about_gobridge_description": "<strong>%{gobridge_text}</strong> küldetése, hogy lehetővé tegye a tech-iparban élő kisebbségek számára, hogy a Go-t eszközként használják a programozás tanulásához és tanításához, végső soron pedig megerősítse a tech-ipar alulreprezentált csoportjait, hogy segítsenek növelni a Go-közösség sokszínűségét. Ez tökéletesen illik ahhoz a küldetésünkhöz, hogy a programozás fejlesztésén keresztül lehetőséget biztosítsunk, így igazán izgatottak vagyunk, hogy elindíthatjuk ezt a partnerséget. A(z) <strong>%{gobridge_text}</strong> és a(z) <strong>%{go_developer_network_text}</strong> a saját hálózataikon keresztül népszerűsíti majd az Exercismet, és abban bízunk, hogy sok Go-mentor és tanuló csatlakozik hozzánk.",
+        "about_gobridge_description": "<strong>%{gobridge_text}</strong> küldetése, hogy lehetővé tegye a tech-iparban élő kisebbségek számára, hogy a Go-t eszközként használják a programozás tanulásához és tanításához, végső soron pedig megerősítse a tech-ipar alulreprezentált csoportjait, hogy segítsenek növelni a Go-közösség sokszínűségét. Ez tökéletesen illik ahhoz a küldetésünkhöz, hogy a programozás fejlesztésén keresztül lehetőséget biztosítsunk, így igazán izgatottak vagyunk, hogy elindíthatjuk ezt a partnerséget. A(z) <strong>%{gobridge_text}</strong> és a(z) <strong>%{go_developer_network_text}</strong> a saját hálózataikon keresztül népszerűsíti majd az Exercism-öt, és abban bízunk, hogy sok Go-mentor és tanuló csatlakozik hozzánk.",
         "go_developer_network_text": "Go Developer Network"
       },
       "index": {
         "meta": {
           "title": "Az Exercism támogatása",
-          "description": "Segíthet a szervezeted az Exercismnek növekedni? Válj a küldetésünk rakétahajtóanyagává!"
+          "description": "Segíthet a szervezeted az Exercism-nek növekedni? Válj a küldetésünk rakétahajtóanyagává!"
         },
         "header": {
           "title": "Válj <strong>rakétahajtóanyaggá</strong> a küldetésünkhöz",
           "description": "Legyél a partnerünk, vagy adományozz, hogy támogasd küldetésünket, amely ingyenes programozástanulást és gyakorlást kínál a világnak."
         },
         "cta": {
-          "title": "Szeretnéd megbeszélni, hogyan segíthetsz az Exercismnek?",
+          "title": "Szeretnéd megbeszélni, hogyan segíthetsz az Exercism-nek?",
           "description": "Vedd fel a kapcsolatot <strong>Jeremy Walkerrel</strong>, az Exercism vezérigazgatójával.",
           "email_label": "jeremy@exercism.org",
           "jeremy_walker_photo_alt": "Jeremy Walker fényképe"
@@ -181,18 +181,18 @@
         },
         "individual_supporters": {
           "alt": "Egyéni támogatók",
-          "title": "Az Exercismet %{num_individual_supporters} nagylelkű magánszemély is támogatja",
+          "title": "Az Exercism-öt %{num_individual_supporters} nagylelkű magánszemély is támogatja",
           "link_label": "Nézd meg az összes egyéni támogatónkat"
         }
       },
       "packt": {
         "see_all_supporters": "Nézd meg az összes támogatónkat",
-        "supported_by_prefix": "Az Exercismet támogatja",
-        "org_supports_exercism": "%{org_name} támogatja az Exercismet",
+        "supported_by_prefix": "Az Exercism-öt támogatja",
+        "org_supports_exercism": "%{org_name} támogatja az Exercism-öt",
         "packt_partnership_description": "A Packt Publishing az Exercism egyik központi partnere, amely segít nekünk a platform adománygyűjtési és tartalmi oldalának fejlesztésében. Szponzorálták az új adománygyűjtési pozíciónkat, és jelenleg egy szorosabb együttműködést dolgozunk ki, amelyet 2022 elején indítunk el.",
         "about_packt_publishing": "A Packt Publishingról",
         "packt_about_p1": "A Packt egy tech-kiadó, amely a technológia gyakorlati alkalmazására összpontosít. A Packt szerzői többnyire gyakorló fejlesztők, akik azt a feladatot végzik el, hogy kiderítsék, mi működik valójában, és hogyan lehet boldogulni a végtelenül áradó új technológiákkal. A Packt olvasói és felhasználói elfoglalt mérnökök, akik megoldásokat és alkalmazásokat építenek, és szeretnék tudni, hogy egy technológia hogyan működik a gyakorlatban, és megéri-e használni.",
-        "packt_about_p2": "A Packt támogatja az Exercismet abban a küldetésében, hogy megkönnyítse a nyelvek közötti jártasság felé vezető utat. Osztozunk az Exercism értékeiben: a függetlenségben bármely platformtól vagy nyelvtől, és abban a hitben, hogy a mérnökök szeretnének egymást támogatni és segíteni egyenrangú közösségként. A Packt könyvei és kiadványai célja, hogy strukturált, gyakorlati tudásanyagot nyújtsanak, kiegészítve az olyan remek platformokat, mint az Exercism. Mindketten lehetőséget nyújtunk arra, hogy a tapasztalt szakemberek megosszák tudásukat és tapasztalatukat a szélesebb tech-közösséggel."
+        "packt_about_p2": "A Packt támogatja az Exercism-öt abban a küldetésében, hogy megkönnyítse a nyelvek közötti jártasság felé vezető utat. Osztozunk az Exercism értékeiben: a függetlenségben bármely platformtól vagy nyelvtől, és abban a hitben, hogy a mérnökök szeretnének egymást támogatni és segíteni egyenrangú közösségként. A Packt könyvei és kiadványai célja, hogy strukturált, gyakorlati tudásanyagot nyújtsanak, kiegészítve az olyan remek platformokat, mint az Exercism. Mindketten lehetőséget nyújtunk arra, hogy a tapasztalt szakemberek megosszák tudásukat és tapasztalatukat a szélesebb tech-közösséggel."
       }
     },
     "impact": {
@@ -210,15 +210,15 @@
         "mentoring_discussions": "Mentorálási beszélgetések"
       },
       "languages_taught": "Az Exercism %{num_languages} programozási nyelvet tanít %{first_language} nyelvtől %{last_language} nyelvig, a tanulás, a gyakorlás és a mentorálás egyedi keverékével.",
-      "everything_is_free": "Az Exercismen minden 100%-ban ingyenes.",
-      "live_activity": "Élő aktivitás az Exercismen",
+      "everything_is_free": "Az Exercism-ön minden 100%-ban ingyenes.",
+      "live_activity": "Élő aktivitás az Exercism-ön",
       "testimonials": {
         "dapritchard_html": "A(z) %{twitter_handle} egyszerűen hihetetlen. A beküldött megoldásom elbukott a teszteken… Mentorálást kértem, hogy rendbe tegyük a dolgokat, és 15 percen belül valaki írt nekem, elmagyarázva a hibámat.",
         "zippkode_html": "…A Ruby string feladatain dolgoztam a(z) %{twitter_handle} oldalon. Ez a platform rákényszerít, hogy lelassítsak, és ténylegesen logikusan oldjam meg a feladatokat…",
         "alebaffa_html": "Mindig is szerettem a(z) %{twitter_handle} oldalt, mert nemcsak egy nyelv szintaxisát tanulod meg, hanem a fejlesztői környezetét is: hogyan állítsd be a teszteket, a csomagolást és a buildet. Fantasztikus forrás!"
       },
       "volunteers_section": {
-        "title": "Az Exercismet nagyszerű önkéntesek hatalmas csapata működteti.",
+        "title": "Az Exercism-öt nagyszerű önkéntesek hatalmas csapata működteti.",
         "mentors_label": "Mentorok",
         "code_contributors_label": "Kód-közreműködők",
         "full_time_staff_label": "Teljes munkaidős munkatársak"
@@ -227,7 +227,7 @@
         "emoji_aria_label": "Tapsoló kezek",
         "call_to_action_title": "Segített az Exercism, hogy jobb fejlesztővé válj?",
         "call_to_action_paragraph_one": "Ha az Exercism segített a karrierlehetőségeiden, vagy örömet szerzett neked, kérünk, fontold meg, hogy anyagilag is támogatsz minket.",
-        "call_to_action_paragraph_two": "Az Exercismet használók mindössze 1%-a támogat minket. Kérünk, légy te is köztük!",
+        "call_to_action_paragraph_two": "Az Exercism-öt használók mindössze 1%-a támogat minket. Kérünk, légy te is köztük!",
         "support_button": "Nézd meg, hogyan támogathatsz minket"
       },
       "partners_section": {
@@ -241,7 +241,7 @@
       "mission_cta": {
         "title": "Válj küldetésünk rakétahajtóanyagává",
         "description": "Mindent kevesebb mint $500,000-ből építettünk fel. Képzeld el, mit tehetnénk komolyabb támogatással! Lehetnél te az, aki megvalósítja?",
-        "organization_support_title": "Érdekel, hogy szervezetként támogasd az Exercismet?",
+        "organization_support_title": "Érdekel, hogy szervezetként támogasd az Exercism-öt?",
         "contact_prefix": "Vedd fel a kapcsolatot",
         "contact_suffix": "társalapítóval és vezérigazgatóval",
         "jeremy_walker_photo_alt": "Jeremy Walker fényképe"
@@ -252,9 +252,9 @@
     },
     "team": {
       "meta_title": "Az Exercism csapata",
-      "meta_description": "Tudd meg, kik vezetik az Exercismet: a kurátorok, a vezetőség és a főállású csapat.",
+      "meta_description": "Tudd meg, kik vezetik az Exercism-öt: a kurátorok, a vezetőség és a főállású csapat.",
       "our_team": "A csapatunk",
-      "built_by_people_worldwide": "Az Exercismet a világ minden tájáról származó emberek építik 🙌",
+      "built_by_people_worldwide": "Az Exercism-öt a világ minden tájáról származó emberek építik 🙌",
       "stats": {
         "contributors": "Több mint %{count} közreműködő",
         "countries": "%{count} ország",
@@ -262,7 +262,7 @@
       },
       "map_alt_text": "Világtérkép, amely az Exercism közreműködőinek avatarjait tartalmazza",
       "info_box": {
-        "title": "Emberek ezrei támogatták a víziónkat, és segítettek felépíteni az Exercismet.",
+        "title": "Emberek ezrei támogatták a víziónkat, és segítettek felépíteni az Exercism-öt.",
         "description": "Az Exercism a vezetőségre és a munkatársakra, egy körülbelül száz karbantartóból és kulcsfontosságú közreműködőből álló szélesebb csapatra, valamint emberek ezreinek apró hozzájárulásaira támaszkodik. A termékünkhöz nyújtott ezen hozzájárulásokon túl közösségünk tízezrei járultak hozzá azzal, hogy visszajelzést adtak és segítettek másoknak."
       },
       "leadership_team": {
@@ -271,7 +271,7 @@
         "katrina_owen": {
           "image_alt": "Kép Katrináról",
           "handle": "Társalapító és igazgató",
-          "bio_html": "Katrina az Exercism eredeti létrehozója. Társszerzője a(z) %{book_link} könyvnek. Poliglott fejlesztő és a Ruby Hero díj nyertese, molekuláris biológiai diplomával. Mélyen törődik a nyílt forráskóddal, és az Exercismen kívül is több projektben közreműködik.",
+          "bio_html": "Katrina az Exercism eredeti létrehozója. Társszerzője a(z) %{book_link} könyvnek. Poliglott fejlesztő és a Ruby Hero díj nyertese, molekuláris biológiai diplomával. Mélyen törődik a nyílt forráskóddal, és az Exercism-ön kívül is több projektben közreműködik.",
           "book_link_text": "99 Bottles of OOP",
           "personal_site_link": "Katrina személyes oldala"
         },
@@ -285,7 +285,7 @@
       },
       "staff_team": {
         "title": "Munkatársak",
-        "description": "Munkatársaink a weboldalunkat, a CLI-t és az Exercism működési oldalát irányítják, biztosítva, hogy mindenki biztonságos és megbízható élményt kapjon, aki az Exercismet használja.",
+        "description": "Munkatársaink a weboldalunkat, a CLI-t és az Exercism működési oldalát irányítják, biztosítva, hogy mindenki biztonságos és megbízható élményt kapjon, aki az Exercism-öt használja.",
         "erik_schierboom": {
           "image_alt": "Kép Erik Schierboomról",
           "handle": "Nyílt forráskód vezető",
@@ -295,15 +295,15 @@
         "aron_demeter": {
           "image_alt": "Kép Aron Demeterről",
           "handle": "Frontend fejlesztő",
-          "bio_html": "Áron autodidakta fejlesztő, akit izgalomba hoz a dolgok közötti összefüggések felfedezése. Mesterdiplomával rendelkezik klasszikus zongora előadóművészetből. Szabadidejében szívesen tölti az időt a családjával, új nyelveket tanul az Exercismen, vagy operát hallgat."
+          "bio_html": "Áron autodidakta fejlesztő, akit izgalomba hoz a dolgok közötti összefüggések felfedezése. Mesterdiplomával rendelkezik klasszikus zongora előadóművészetből. Szabadidejében szívesen tölti az időt a családjával, új nyelveket tanul az Exercism-ön, vagy operát hallgat."
         }
       },
       "alumni_team": {
         "title": "Korábbi munkatársak",
-        "description": "Emberek, akik korábban főállásban dolgoztak az Exercismnél, és azóta új kalandokba kezdtek. Hálásan emlékszünk az örökségükre!",
+        "description": "Emberek, akik korábban főállásban dolgoztak az Exercism-nél, és azóta új kalandokba kezdtek. Hálásan emlékszünk az örökségükre!",
         "nicole_chalmers": {
           "image_alt": "Kép Nicole Chalmersről",
-          "bio_html": "Nicole a(z) %{kaido_link} termékvezetője. Két évet töltött az Exercism termékvezetőjeként, végigvezetett minket a v1-től a v2-ig, és segített kialakítani azokat az elveket és ötleteket, amelyek ma is meghatározzák az Exercismet.",
+          "bio_html": "Nicole a(z) %{kaido_link} termékvezetője. Két évet töltött az Exercism termékvezetőjeként, végigvezetett minket a v1-től a v2-ig, és segített kialakítani azokat az elveket és ötleteket, amelyek ma is meghatározzák az Exercism-öt.",
           "kaido_link_text": "Kaido"
         },
         "charles_care": {
@@ -354,12 +354,12 @@
       }
     },
     "show": {
-      "meta_title": "Az Exercismről",
-      "meta_description": "Ismerd meg az Exercismet: a víziónkat, a küldetésünket és a stratégiánkat.",
+      "meta_title": "Az Exercism-ről",
+      "meta_description": "Ismerd meg az Exercism-öt: a víziónkat, a küldetésünket és a stratégiánkat.",
       "header": {
         "title": "Exercism",
         "slogan": "Egy olyan helyet építünk, ahol bárki ingyen megtanulhat programozni és válhat benne mesterré, anélkül hogy valaha elveszettnek vagy butának érezné magát.",
-        "donate_button": "Adományozz az Exercismnek"
+        "donate_button": "Adományozz az Exercism-nek"
       },
       "purpose_section": {
         "title": "Cél",
@@ -391,7 +391,7 @@
         "description": "Az Exercism fejlesztése a felülről irányított vezetés és az együttműködő közösség keverékén alapul. Hiszünk abban, hogy a legtöbb döntést érdemes időt szánva meghozni, ezért alaposan átgondoljuk, mielőtt cselekszünk.",
         "reflective": {
           "title": "Megfontolt",
-          "description": "Arra összpontosítunk, hogy stratégiát és terméket szem előtt tartó módon dolgozzunk: a hosszú távra tekintünk, nem csak a közvetlen hatásra, és figyelembe vesszük a döntések átfogó hatását. Szorosan együttműködünk a kulcsfontosságú önkéntes közreműködőkkel, hogy feltérképezzük a véleményeket és a tudást, megértsük az erősségeinket és a gyengeségeinket, és naponta próbáljunk jobbítani az Exercismen, közben a hosszú távú víziónkra is összpontosítva."
+          "description": "Arra összpontosítunk, hogy stratégiát és terméket szem előtt tartó módon dolgozzunk: a hosszú távra tekintünk, nem csak a közvetlen hatásra, és figyelembe vesszük a döntések átfogó hatását. Szorosan együttműködünk a kulcsfontosságú önkéntes közreműködőkkel, hogy feltérképezzük a véleményeket és a tudást, megértsük az erősségeinket és a gyengeségeinket, és naponta próbáljunk jobbítani az Exercism-ön, közben a hosszú távú víziónkra is összpontosítva."
         },
         "small_team": {
           "title": "Kis csapat, nagy vízióval",
@@ -405,17 +405,17 @@
       "donate_section": {
         "title": "Segíts, hogy a programozás örömét mindenkihez elvihessük, mindenhová ✨",
         "description": "A küldetésünk eléréséhez nyílt forráskódú közreműködésre és pénzbeli adományokra támaszkodunk. Van egy kis időd vagy pénzed, amivel támogathatnád a küldetésünket?",
-        "donate_button": "Adományozz az Exercismnek",
+        "donate_button": "Adományozz az Exercism-nek",
         "tasks_button": "Nézd meg a segítséget igénylő feladatokat"
       }
     },
     "individual_supporters": {
       "meta_title": "Az Exercism támogatása",
-      "meta_description": "Ezek a csodálatos emberek anyagilag segítették az Exercismet",
+      "meta_description": "Ezek a csodálatos emberek anyagilag segítették az Exercism-öt",
       "header": {
         "title_html": "A %{highlight} egyéni adományozóink",
         "title_highlight": "nagylelkű",
-        "subtitle": "%{count} nagylelkű ember adományozott az Exercismnek"
+        "subtitle": "%{count} nagylelkű ember adományozott az Exercism-nek"
       },
       "cta": {
         "logo_alt": "Exercism logó",
@@ -429,15 +429,15 @@
       },
       "missing": {
         "title": "Miért nem vagyok rajta ezen az oldalon?",
-        "body_html": "Ez az oldal mindazokat az egyéneket igyekszik megjeleníteni, akik anyagilag támogatták az Exercismet. Technikailag mindenkit felsorol, aki megkapta a Támogató jelvényt, és bekapcsolta a(z) „Megjelenjek a támogatók oldalán?” kapcsolót a(z) %{donations_settings_link} oldalon. Ha az Exercism weboldalán keresztül adományozol, automatikusan meg kell kapnod a Támogató jelvényt. Ha viszont egy harmadik fél weboldalán keresztül adományozol (például GitHubon), lehet, hogy e-mailt kell írnod a(z) %{email_link} címre, hogy megkérj minket a jelvény kézi odaítélésére.",
+        "body_html": "Ez az oldal mindazokat az egyéneket igyekszik megjeleníteni, akik anyagilag támogatták az Exercism-öt. Technikailag mindenkit felsorol, aki megkapta a Támogató jelvényt, és bekapcsolta a(z) „Megjelenjek a támogatók oldalán?” kapcsolót a(z) %{donations_settings_link} oldalon. Ha az Exercism weboldalán keresztül adományozol, automatikusan meg kell kapnod a Támogató jelvényt. Ha viszont egy harmadik fél weboldalán keresztül adományozol (például GitHubon), lehet, hogy e-mailt kell írnod a(z) %{email_link} címre, hogy megkérj minket a jelvény kézi odaítélésére.",
         "donations_settings_link_text": "Adományozási beállítások",
         "email_link_text": "donations@exercism.org"
       }
     },
     "testimonials": {
       "meta_title": "Az Exercism ajánlásai",
-      "meta_description": "Olvasd el, mit mondanak a tanulóink és a mentoraink az Exercismen való tanulásról és mentorálásról.",
-      "heading": "Mit mondanak az emberek az Exercismről"
+      "meta_description": "Olvasd el, mit mondanak a tanulóink és a mentoraink az Exercism-ön való tanulásról és mentorálásról.",
+      "heading": "Mit mondanak az emberek az Exercism-ről"
     }
   },
   "communication_preferences": {
@@ -461,10 +461,10 @@
     "email_on_student_finished_discussion_notification": "Értesíts e-mailben, amikor egy tanuló befejezte az általam mentorált beszélgetést",
     "email_on_student_added_iteration_notification": "Értesíts e-mailben, amikor egy tanuló új iterációt ad egy általam mentorált megoldáshoz",
     "email_on_automated_feedback_added_notification": "Értesíts e-mailben, amikor automatikus visszajelzés érkezik a megoldásomhoz",
-    "email_on_nudge_notification": "Értesíts e-mailben tippekről, hogyan hozd ki a legtöbbet az Exercismből",
+    "email_on_nudge_notification": "Értesíts e-mailben tippekről, hogyan hozd ki a legtöbbet az Exercism-ből",
     "email_about_fundraising_campaigns": "Értesíts e-mailben az adománygyűjtő kampányokról",
     "email_about_events": "Értesíts e-mailben az eseményekről (pl. Functional February) vagy interjúkról.",
-    "receive_onboarding_emails": "Értesíts e-mailben tanácsokkal arról, hogyan hozd ki a legtöbbet az Exercismből",
+    "receive_onboarding_emails": "Értesíts e-mailben tanácsokkal arról, hogyan hozd ki a legtöbbet az Exercism-ből",
     "email_about_insiders": "Értesíts e-mailben az Exercism Insiders tagságomról",
     "email_on_general_update_notification": "Értesíts e-mailben a fiókom egyéb, nem lényeges frissítéseiről",
     "email_on_acquired_badge_notification": "Értesíts e-mailben, amikor új jelvényt oldok fel",
@@ -479,7 +479,7 @@
       "required": {
         "exercism_logo_alt": "Az Exercism logója",
         "welcome_check_email_title": "Üdvözlünk! Nézd meg az e-mailjeidet.",
-        "welcome_message": "Üdvözlünk az Exercismen! Küldtünk egy e-mailt, amivel megerősítheted, hogy ember vagy.",
+        "welcome_message": "Üdvözlünk az Exercism-ön! Küldtünk egy e-mailt, amivel megerősítheted, hogy ember vagy.",
         "validation_explanation_message": "Hogy megvédjük magunkat a visszaélésektől, minden e-mail-címet ellenőrzünk, hogy érvényes-e. Ha most megnézed az e-mailjeidet, már ott kell lennie. Ha nem látod, nézd meg a spam mappát, és adj neki 10 percet, hátha lassan mennek a dolgok.",
         "resend_link_message_html": "Ha hamarosan nem érkezik meg, %{resend_link}.",
         "resend_it_link": "újra elküldhetjük"
@@ -506,10 +506,10 @@
     "mailer": {
       "confirmation_instructions": {
         "subject": "Megerősítési útmutató",
-        "welcome_message": "Üdvözlünk az Exercismen!",
-        "confirmation_message": "Hogy ellenőrizzük, valódi ember vagy és nem egy bot, meg kell erősítenünk, hogy ez egy valódi e-mail-cím. Kattints az alábbi gombra a fiókod megerősítéséhez, és kezdd el használni az Exercismet.",
+        "welcome_message": "Üdvözlünk az Exercism-ön!",
+        "confirmation_message": "Hogy ellenőrizzük, valódi ember vagy és nem egy bot, meg kell erősítenünk, hogy ez egy valódi e-mail-cím. Kattints az alábbi gombra a fiókod megerősítéséhez, és kezdd el használni az Exercism-öt.",
         "confirm_account_button": "Fiókod megerősítése",
-        "body_markdown": "Üdvözlünk az Exercismen!\n\nHogy ellenőrizzük, valódi ember vagy és nem egy bot, meg kell erősítenünk, hogy ez egy valódi e-mail-cím.\nKattints az alábbi gombra a fiókod megerősítéséhez, és kezdd el használni az Exercismet.\n\n[Fiókod megerősítése](%{confirmation_url})\n"
+        "body_markdown": "Üdvözlünk az Exercism-ön!\n\nHogy ellenőrizzük, valódi ember vagy és nem egy bot, meg kell erősítenünk, hogy ez egy valódi e-mail-cím.\nKattints az alábbi gombra a fiókod megerősítéséhez, és kezdd el használni az Exercism-öt.\n\n[Fiókod megerősítése](%{confirmation_url})\n"
       },
       "reset_password_instructions": {
         "subject": "Jelszó-visszaállítási útmutató",
@@ -846,7 +846,7 @@
       "1": "A tanulód, <strong>%{student_name}</strong>, beküldött egy új iterációt (#%{iteration_idx}) a(z) <strong>%{exercise_title}</strong> feladathoz készített megoldásához a(z) <strong>%{track_title}</strong> kurzusban\n"
     },
     "added_to_contributors_page": {
-      "1": "Mostantól szerepelsz a közreműködői oldalunkon. Köszönjük, hogy hozzájárulsz az Exercismhez!\n"
+      "1": "Mostantól szerepelsz a közreműködői oldalunkon. Köszönjük, hogy hozzájárulsz az Exercism-höz!\n"
     },
     "automated_feedback_added": {
       "1": "Új visszajelzés érkezett a(z) <strong>%{track_title}</strong> kurzus <strong>%{exercise_title}</strong> feladatához írt megoldásod #%{iteration_idx}. iterációjához. %{emphasis}Javasoljuk, hogy vess rá egy pillantást.\n"
@@ -927,7 +927,7 @@
     "too_many_requests": {
       "title": "Túl sok kérés",
       "description": "Túl sok mindent tettél túl rövid idő alatt.",
-      "rate_limits": "Az Exercismet folyamatosan botok támadják, ezért korlátozzuk a kérések számát, hogy megállítsuk a visszaélést. Kérlek, várj egy percet, majd próbáld újra (megjegyzés: ha folyton az újratöltést nyomogatod, az visszaállítja a várakozási időt...)",
+      "rate_limits": "Az Exercism-öt folyamatosan botok támadják, ezért korlátozzuk a kérések számát, hogy megállítsuk a visszaélést. Kérlek, várj egy percet, majd próbáld újra (megjegyzés: ha folyton az újratöltést nyomogatod, az visszaállítja a várakozási időt...)",
       "forum_html": "Ha ezt gyakran látod, kérlek, jelezd nekünk %{link}!",
       "forum_link": "a fórumon"
     }
@@ -1155,7 +1155,7 @@
         "max_mentoring_slots": "Elérted a maximálisan elérhető mentorálási helyek számát",
         "unlocked_icon_alt": "Feloldva",
         "next_slot_unlocks_at_html": "A következő hely <strong>%{reputation_amount}</strong> reputációnál nyílik fel.",
-        "donate_to_exercism_html": "Vagy <a href=\"%{insiders_path}\" class=\"text-prominentLinkColor font-semibold\">Adományozz az Exercismnek</a>, hogy feloldd az összes mentorálási helyet.\n",
+        "donate_to_exercism_html": "Vagy <a href=\"%{insiders_path}\" class=\"text-prominentLinkColor font-semibold\">Adományozz az Exercism-nek</a>, hogy feloldd az összes mentorálási helyet.\n",
         "learn_more_link": "Tudj meg többet.",
         "mentor_discussion_with": "ezzel a mentorral",
         "your_turn_to_respond": "Te jössz a válasszal",
@@ -1340,8 +1340,8 @@
         }
       },
       "show": {
-        "meta_title": "A(z) %{track_title} hatása és állapota az Exercismen",
-        "meta_description": "Fedezd fel a(z) %{track_title} hatását és állapotát az Exercismen.",
+        "meta_title": "A(z) %{track_title} hatása és állapota az Exercism-ön",
+        "meta_description": "Fedezd fel a(z) %{track_title} hatását és állapotát az Exercism-ön.",
         "track_management_title": "A(z) %{track_title} kurzus kezelése",
         "track_management_description": "Ez az oldal mindazt az információt és eszközt biztosítja az Exercism közösségének, amire a(z) %{track_title} kurzus kezeléséhez szükség van.",
         "students_stat": "Tanulók",
@@ -1489,10 +1489,10 @@
         "read_less_button_text": "Mutass kevesebbet"
       },
       "exercises_section": {
-        "title_html": "<em class=\"c-underline\">%{num_exercises} programozási feladat</em> a(z) %{track_title} kurzushoz az Exercismen.%{range_part}\n",
+        "title_html": "<em class=\"c-underline\">%{num_exercises} programozási feladat</em> a(z) %{track_title} kurzushoz az Exercism-ön.%{range_part}\n",
         "range_part_present": " %{first_exercise_title} és %{last_exercise_title} között.",
-        "subtitle": "Fejleszd programozási tudásodat szórakoztató, jutalmazó programozási feladatokkal, amelyek az Exercismen próbára teszik a fogalmak megértését.",
-        "all_exercises_link": "Nézd meg az összes %{track_title} feladatot az Exercismen"
+        "subtitle": "Fejleszd programozási tudásodat szórakoztató, jutalmazó programozási feladatokkal, amelyek az Exercism-ön próbára teszik a fogalmak megértését.",
+        "all_exercises_link": "Nézd meg az összes %{track_title} feladatot az Exercism-ön"
       },
       "concepts": {
         "title": "Ízelítő a fogalmakból, amelyekkel találkozni fogsz",
@@ -1510,9 +1510,9 @@
         "exercises_section": {
           "title": "Közösség által írt %{track_title} feladatok",
           "paragraph_html": {
-            "one_concept": "A(z) %{track_title} kurzus az Exercismen %{num_concepts} fogalomból és %{track_num_exercises} feladatból áll, amelyek segítenek jobb kódot írni.\n",
-            "many_concepts": "A(z) %{track_title} kurzus az Exercismen %{num_concepts} fogalomból és %{track_num_exercises} feladatból áll, amelyek segítenek jobb kódot írni.\n",
-            "no_concepts": "A(z) %{track_title} kurzus az Exercismen %{track_num_exercises} feladatból áll, amelyek segítenek jobb kódot írni.\n"
+            "one_concept": "A(z) %{track_title} kurzus az Exercism-ön %{num_concepts} fogalomból és %{track_num_exercises} feladatból áll, amelyek segítenek jobb kódot írni.\n",
+            "many_concepts": "A(z) %{track_title} kurzus az Exercism-ön %{num_concepts} fogalomból és %{track_num_exercises} feladatból áll, amelyek segítenek jobb kódot írni.\n",
+            "no_concepts": "A(z) %{track_title} kurzus az Exercism-ön %{track_num_exercises} feladatból áll, amelyek segítenek jobb kódot írni.\n"
           },
           "see_all_exercises": "Nézd meg az összes %{track_title} feladatot"
         },
@@ -1525,8 +1525,8 @@
     },
     "approaches": {
       "show": {
-        "meta_title": "Fedezd fel a(z) „%{approach_title}” megközelítést a(z) %{exercise_title} feladathoz a(z) %{track_title} kurzusban az Exercismen",
-        "meta_description": "Fedezd fel a(z) „%{approach_title}” megközelítést a(z) %{exercise_title} feladathoz a(z) %{track_title} kurzusban az Exercismen. %{approach_blurb}",
+        "meta_title": "Fedezd fel a(z) „%{approach_title}” megközelítést a(z) %{exercise_title} feladathoz a(z) %{track_title} kurzusban az Exercism-ön",
+        "meta_description": "Fedezd fel a(z) „%{approach_title}” megközelítést a(z) %{exercise_title} feladathoz a(z) %{track_title} kurzusban az Exercism-ön. %{approach_blurb}",
         "published_at": "Közzétéve",
         "in_track_mobile": "a(z) %{track_title} kurzusban",
         "in_track_desktop": "a(z) %{track_title} kurzusban",
@@ -1545,8 +1545,8 @@
     },
     "articles": {
       "show": {
-        "meta_title": "Fedezd fel a(z) „%{article_title}” cikket a(z) %{exercise_title} feladathoz a(z) %{track_title} kurzusban az Exercismen",
-        "meta_description": "Fedezd fel a(z) „%{article_title}” cikket a(z) %{exercise_title} feladathoz a(z) %{track_title} kurzusban az Exercismen. %{article_blurb}",
+        "meta_title": "Fedezd fel a(z) „%{article_title}” cikket a(z) %{exercise_title} feladathoz a(z) %{track_title} kurzusban az Exercism-ön",
+        "meta_description": "Fedezd fel a(z) „%{article_title}” cikket a(z) %{exercise_title} feladathoz a(z) %{track_title} kurzusban az Exercism-ön. %{article_blurb}",
         "in_track": "a(z) %{track_title} kurzusban",
         "share_bar": {
           "short_question": "Hasznosnak találod ezt a cikket?",
@@ -1697,8 +1697,8 @@
         }
       },
       "index": {
-        "meta_title": "%{track_title} kulcsfogalmai az Exercismen",
-        "meta_description": "Tanuld meg és sajátítsd el %{num_concepts} kulcsfogalmat a(z) %{track_title} kurzuson az Exercismen.",
+        "meta_title": "%{track_title} kulcsfogalmai az Exercism-ön",
+        "meta_description": "Tanuld meg és sajátítsd el %{num_concepts} kulcsfogalmat a(z) %{track_title} kurzuson az Exercism-ön.",
         "external_cta": {
           "title": "Sajátítsd el %{num_concepts} kulcsfogalmat a(z) %{track_title} kurzuson",
           "description": "Az összes tárgyalt fogalmat a nyelvspecifikus paradigmák és konvenciók kontextusában magyarázzuk el.",
@@ -1719,7 +1719,7 @@
         "recommendation": "Nyomatékosan javasoljuk, hogy először próbálj meg mindent magadtól megoldani, mielőtt megnézed az Áss mélyebbre fület."
       },
       "show": {
-        "meta_title": "Áss mélyebbre a(z) %{exercise_title} feladatba a(z) %{track_title} kurzuson az Exercismen",
+        "meta_title": "Áss mélyebbre a(z) %{exercise_title} feladatba a(z) %{track_title} kurzuson az Exercism-ön",
         "meta_description": "Fedezz fel különböző megközelítéseket és videókat arról, hogyan oldd meg a(z) %{exercise_title} feladatot a(z) %{track_title} kurzusban."
       }
     },
@@ -1913,7 +1913,7 @@
         },
         "action_box_join_exercism": {
           "title": "Készen állsz elkezdeni a(z) %{exercise_title} feladatot?",
-          "description_html": "Iratkozz fel az Exercismre, hogy megtanuld és elsajátítsd a(z) %{track_link} nyelvet %{concept_link}%{exercise_link} segítségével, valódi emberi mentorálással, <strong>mindez ingyen.</strong>",
+          "description_html": "Iratkozz fel az Exercism-re, hogy megtanuld és elsajátítsd a(z) %{track_link} nyelvet %{concept_link}%{exercise_link} segítségével, valódi emberi mentorálással, <strong>mindez ingyen.</strong>",
           "concept_plural": {
             "one": "1 fogalom",
             "other": "%{count} fogalom"
@@ -1923,7 +1923,7 @@
             "other": "%{count} feladat"
           },
           "signup_button": "Iratkozz fel, ingyen van!",
-          "login_button": "Jelentkezz be az Exercismbe"
+          "login_button": "Jelentkezz be az Exercism-be"
         }
       },
       "no_test_runner": {
@@ -1936,15 +1936,15 @@
         "back_to_exercise_button": "Vissza a feladathoz"
       },
       "index": {
-        "meta_title": "%{track_title} feladatok az Exercismen",
-        "meta_description": "Fedezd fel a(z) %{num_exercises} %{track_title} feladatot az Exercismen",
+        "meta_title": "%{track_title} feladatok az Exercism-ön",
+        "meta_description": "Fedezd fel a(z) %{num_exercises} %{track_title} feladatot az Exercism-ön",
         "external_cta": {
           "title": "Gyakorolj %{num_exercises} feladatot a(z) %{track_title} kurzusban",
           "description": "Tanuld és gyakorold a(z) %{track_title} nyelvet %{num_exercises} feladat megoldásával, amelyek különböző fogalmakat és ötleteket mutatnak be.",
           "join_track_button": "Csatlakozz a(z) %{track_title} kurzushoz"
         },
         "page_header": {
-          "title": "Fedezd fel a(z) %{track_title} feladatokat az Exercismen",
+          "title": "Fedezd fel a(z) %{track_title} feladatokat az Exercism-ön",
           "description": "Ahogy haladsz előre, egyre több feladatot oldasz fel. Remek gyakorlás és igazi szórakozás!"
         }
       }
@@ -2056,7 +2056,7 @@
         "no_slots_available": "Nincs több elérhető mentorálási helyed.",
         "get_more_slots_html": "Több mentorálási helyet szerezhetsz, ha %{reputation_link} vagy %{donate_link}.",
         "reputation_link_text": "reputációt szerzel",
-        "donate_link_text": "adományozol az Exercismnek",
+        "donate_link_text": "adományozol az Exercism-nek",
         "go_to_track_link": "Ugrás a kurzushoz"
       }
     },
@@ -2087,7 +2087,7 @@
         "recommendation": "Nyomatékosan javasoljuk, hogy először ne böngészd a közösségi megoldások fület, hanem próbálj meg a legjobbat nyújtani."
       },
       "show": {
-        "meta_title": "%{author_handle} megoldása a(z) %{exercise_title} feladatra a(z) %{track_title} kurzuson az Exercismen",
+        "meta_title": "%{author_handle} megoldása a(z) %{exercise_title} feladatra a(z) %{track_title} kurzuson az Exercism-ön",
         "meta_description": "Nézd meg, hogyan oldotta meg @%{author_handle} a(z) %{exercise_title} feladatot a(z) %{track_title} kurzuson, és meríts ihletet, hogy te is megoldhasd! Az Exercism 100%-ban ingyenes, és remek módja annak, hogy fejleszd a programozási tudásodat több mint 65 nyelven.",
         "breadcrumbs": {
           "tracks": "Kurzusok",
@@ -2137,7 +2137,7 @@
         }
       },
       "index": {
-        "meta_title": "Közösségi megoldások a(z) %{exercise_title} feladathoz a(z) %{track_title} kurzuson az Exercismen",
+        "meta_title": "Közösségi megoldások a(z) %{exercise_title} feladathoz a(z) %{track_title} kurzuson az Exercism-ön",
         "meta_description": "Fedezd fel mások megoldásait a(z) %{exercise_title} feladatra a(z) %{track_title} kurzuson, és tanuld meg, hogyan oldották meg mások ezt a feladatot."
       }
     }
@@ -2235,7 +2235,7 @@
       "form": {
         "get_registered": "Regisztrálj!",
         "sign_up_to_cohort": "Jelentkezz a(z) %{cohort_name} csoportba",
-        "login_or_signup_message": "Ha regisztrálni szeretnél a(z) %{cohort_name} csoportba, jelentkezz be, vagy regisztrálj az Exercismre, majd gyere vissza erre az oldalra.",
+        "login_or_signup_message": "Ha regisztrálni szeretnél a(z) %{cohort_name} csoportba, jelentkezz be, vagy regisztrálj az Exercism-re, majd gyere vissza erre az oldalra.",
         "signup_button": "Regisztrálj ingyen",
         "login_button": "Jelentkezz be",
         "you_are_all_set": "Minden készen áll!",
@@ -2300,7 +2300,7 @@
       "index": {
         "header": {
           "title": "Közösségi interjúk és történetek",
-          "description_p1": "Az Exercismnél szeretjük megismerni, hogyan gondolkodnak az emberek, és ez hogyan hat a programozáshoz való megközelítésükre. Kövesd Jeremyt, ahogy a nyelvalkotók útjait járja be, és Jonathant, ahogy a közösségünk útjait. Ha szeretnél szerepelni egy jövőbeli videóban,",
+          "description_p1": "Az Exercism-nél szeretjük megismerni, hogyan gondolkodnak az emberek, és ez hogyan hat a programozáshoz való megközelítésükre. Kövesd Jeremyt, ahogy a nyelvalkotók útjait járja be, és Jonathant, ahogy a közösségünk útjait. Ha szeretnél szerepelni egy jövőbeli videóban,",
           "get_in_touch_link": "vedd fel velünk a kapcsolatot"
         },
         "subscribe_card": {
@@ -2323,7 +2323,7 @@
     "show": {
       "main_section": {
         "title": "Csatlakozz a közösségünkhöz!",
-        "description_one": "Gyorsítsd fel a tanulásodat az Exercism közösségével. Tegyél fel kérdéseket, fedezz fel ötleteket, és ismerj meg több millió más fejlesztőt, akik az Exercismen fejlesztik a tudásukat.",
+        "description_one": "Gyorsítsd fel a tanulásodat az Exercism közösségével. Tegyél fel kérdéseket, fedezz fel ötleteket, és ismerj meg több millió más fejlesztőt, akik az Exercism-ön fejlesztik a tudásukat.",
         "description_two": "Csatlakozz a Discordunkhoz, hogy beszélgess és támogatást kapj. Használd a Fórumunkat a mélyebb beszélgetésekhez és a hibajelentésekhez.",
         "discord_button": "Csatlakozz a Discord-szerverünkhöz",
         "forum_button": "Fedezd fel a fórumunkat",
@@ -2332,7 +2332,7 @@
       },
       "community_stories": {
         "title": "Hallgasd meg közösségi történeteinket",
-        "description": "Hallgasd meg azoknak a történeteit, akik építették, fejlesztették és tanultak az Exercismből."
+        "description": "Hallgasd meg azoknak a történeteit, akik építették, fejlesztették és tanultak az Exercism-ből."
       },
       "help_us": {
         "title": "Segíts nekünk életeket megváltoztatni",
@@ -2355,7 +2355,7 @@
       },
       "index": {
         "title": "Hallgasd meg a közösségünk történeteit",
-        "description": "Hallgasd meg azoknak a történeteit, akik építették, fejlesztették és tanultak az Exercismből."
+        "description": "Hallgasd meg azoknak a történeteit, akik építették, fejlesztették és tanultak az Exercism-ből."
       }
     },
     "videos": {
@@ -2410,7 +2410,7 @@
           },
           "about": {
             "title": "Rólunk",
-            "about_exercism_link": "Az Exercismről",
+            "about_exercism_link": "Az Exercism-ről",
             "our_team_link": "A csapatunk",
             "contributors_link": "Közreműködők",
             "partners_link": "Partnerek",
@@ -2449,7 +2449,7 @@
         },
         "tracks_section": {
           "title": "Programozási nyelvkurzusaink",
-          "add_language_title": "Szeretnél egy nyelvi kurzust hozzáadni az Exercismhez?",
+          "add_language_title": "Szeretnél egy nyelvi kurzust hozzáadni az Exercism-höz?",
           "add_language_description_html": "Nyiss egy új témát a <a href=\"%{forum_url}\">fórumon</a>, és beszéljük meg.\n"
         },
         "legals": {
@@ -2479,7 +2479,7 @@
       }
     },
     "about_nav": {
-      "about_exercism": "Az Exercismről",
+      "about_exercism": "Az Exercism-ről",
       "our_impact": "A hatásunk",
       "team": "Csapat",
       "supporters": "Támogatók",
@@ -2503,7 +2503,7 @@
     "community_solutions": {
       "share_solution_button": {
         "title": "%{handle} megoldásának megosztása",
-        "share_title": "A megoldás megtekintése az Exercismen"
+        "share_title": "A megoldás megtekintése az Exercism-ön"
       }
     },
     "contributing": {
@@ -2658,7 +2658,7 @@
       "contribute": {
         "getting_started": {
           "title": "Első lépések",
-          "description": "Hogyan segíthetsz az Exercismnek"
+          "description": "Hogyan segíthetsz az Exercism-nek"
         },
         "mentoring": {
           "title": "Mentorálás",
@@ -2683,7 +2683,7 @@
           "description": "Segíts támogatni a küldetésünket"
         },
         "about": {
-          "title": "Az Exercismről",
+          "title": "Az Exercism-ről",
           "description": "Tudj meg többet a szervezetünkről"
         },
         "impact": {
@@ -2860,7 +2860,7 @@
             "improve_content": {
               "title": "Fejlessz egy fogalmat vagy feladatot",
               "tag": "Középhaladó",
-              "description": "Javíts hibákat, és fejleszd a fogalmakat és feladatokat az egész Exercismen. Segíts a tanulóknak a gördülékeny, hibamentes tanulásban."
+              "description": "Javíts hibákat, és fejleszd a fogalmakat és feladatokat az egész Exercism-ön. Segíts a tanulóknak a gördülékeny, hibamentes tanulásban."
             },
             "create_new_content": {
               "title": "Készíts új feladatot vagy fogalmat",
@@ -2956,7 +2956,7 @@
         "badges": {
           "more": "+ %{count} további"
         },
-        "journey_link": "Nézd meg az utadat az Exercismen"
+        "journey_link": "Nézd meg az utadat az Exercism-ön"
       },
       "header_intro": {
         "welcome": "Üdv újra, %{user_handle}!",
@@ -2975,7 +2975,7 @@
         "see_all_link": "Az összes közösségi bejegyzés megtekintése"
       },
       "new_on_exercism": {
-        "title": "Új az Exercismen"
+        "title": "Új az Exercism-ön"
       },
       "live_event": {
         "live_now": "Élőben most"
@@ -3006,7 +3006,7 @@
         "description": "A következő hetekben exkluzív előnyöket mutatunk be a partnereinktől. Insiders-tagként exkluzív bónuszajánlatokat és kedvezményeket kapsz."
       },
       "insiders_title": "Exercism Insiders",
-      "thank_you_message": "Köszönjük, hogy ilyen sikeresé tetted az Exercismet.",
+      "thank_you_message": "Köszönjük, hogy ilyen sikeresé tetted az Exercism-öt.",
       "support_message": "Az Exercism azért létezik, mert a hozzád hasonló emberek összefognak, hogy építsék, finanszírozzák és támogassák. Nagyon köszönjük!",
       "feature_and_video_info_html": "Lentebb információkat találsz azokról a különféle funkciókról, amelyekhez mostantól az Insidersen keresztül férhetsz hozzá, valamint a kulisszák mögötti videókat. Ha ötleteid vannak extra funkciókra vagy további kulisszák mögötti tartalomra, kérünk, írj a Discord #insiders csatornánkra, vagy nyiss egy témát a fórumon.\n",
       "latest_video_prompt": "Miért ne kezdenéd a legújabb kulisszák mögötti Insiders-videóval 👉",
@@ -3026,7 +3026,7 @@
       },
       "dark_theme": {
         "title": "Sötét téma",
-        "description_html": "Összeállítottunk neked egy kedves sötét témát, hogy élvezhesd. Kíméld a szemed éjszakai kódolás közben, és élvezd az Exercismet a legmélyebb sötétségében. A témát a <a href=\"%{user_preferences_link}\">felhasználói beállításaidban</a> válthatod át."
+        "description_html": "Összeállítottunk neked egy kedves sötét témát, hogy élvezhesd. Kíméld a szemed éjszakai kódolás közben, és élvezd az Exercism-öt a legmélyebb sötétségében. A témát a <a href=\"%{user_preferences_link}\">felhasználói beállításaidban</a> válthatod át."
       },
       "chatgpt": {
         "title": "ChatGPT",
@@ -3046,8 +3046,8 @@
       "benefits_heading": "Insider-előnyök",
       "benefits_tagline": "Íme néhány módja annak, ahogy megköszönjük, hogy támogatsz minket.",
       "exclusive_content_heading": "Exkluzív Insiders-tartalom",
-      "exclusive_content_tagline": "Csatlakozz az Insidershez, hogy kulisszák mögötti tartalmakat kapj, miközben fejlődünk és alakítjuk az Exercismet.",
-      "support_exercism_heading": "Segíts támogatni az Exercismet",
+      "exclusive_content_tagline": "Csatlakozz az Insidershez, hogy kulisszák mögötti tartalmakat kapj, miközben fejlődünk és alakítjuk az Exercism-öt.",
+      "support_exercism_heading": "Segíts támogatni az Exercism-öt",
       "donations_needed_html": "Havonta <span class=\"font-medium text-white\">%{amount} adományra</span> van szükségünk ahhoz, hogy fenntarthatóak legyünk.",
       "join_insiders_call_to_action": "Kérünk, segíts eljutni oda azzal, hogy csatlakozol az Insidershez!",
       "monthly_donations": "Havi adományok: %{amount}",
@@ -3083,12 +3083,12 @@
       },
       "faq_reputation": {
         "question": "Hogyan szerzek reputációt?",
-        "answer_html": "A reputációt mentorálással vagy az Exercismhez való közreműködéssel lehet megszerezni. Reputációt a megoldásaid közzétételével is szerezhetsz, de ez nem számít bele az Insiders-hozzáférésbe. Megnézheted, hogy mely műveletekért mennyi reputáció jár, ha fellapozod <a href=\"%{docs_link}\">a dokumentációnkat</a>. Nézd meg <a href=\"%{journey_link}\">az utad oldalt</a>, hogy lásd, hol szerzel reputációt."
+        "answer_html": "A reputációt mentorálással vagy az Exercism-höz való közreműködéssel lehet megszerezni. Reputációt a megoldásaid közzétételével is szerezhetsz, de ez nem számít bele az Insiders-hozzáférésbe. Megnézheted, hogy mely műveletekért mennyi reputáció jár, ha fellapozod <a href=\"%{docs_link}\">a dokumentációnkat</a>. Nézd meg <a href=\"%{journey_link}\">az utad oldalt</a>, hogy lásd, hol szerzel reputációt."
       },
       "insiders_title": "Exercism Insiders",
-      "hero_subtitle_html": "<strong>Adományozz az Exercismnek</strong>, és kapj <span class=\"underline\">bónusz funkciókat</span> és <span class=\"underline\">kulisszák mögötti tartalmakat.</span>",
+      "hero_subtitle_html": "<strong>Adományozz az Exercism-nek</strong>, és kapj <span class=\"underline\">bónusz funkciókat</span> és <span class=\"underline\">kulisszák mögötti tartalmakat.</span>",
       "donations_message_html": "A fennmaradáshoz &amp; a fejlődéshez a <strong>hozzád hasonló emberek</strong> adományaira van szükségünk! Az Insiders a módja annak, hogy megköszönjük a támogatásodat!",
-      "features_summary_html": "Kapj kulisszák mögötti hozzáférést, <strong>sötét módot,</strong> exkluzív jelvényeket, <strong>fejlett GitHub-szinkronizálást és kedvenceket,</strong> ChatGPT-integrációt, <strong>extra mentorálási helyeket,</strong> privát Discord-csatornát, <strong>reklámmentes élményt,</strong> és még sok mást, ha adományozol az Exercismnek 🎉",
+      "features_summary_html": "Kapj kulisszák mögötti hozzáférést, <strong>sötét módot,</strong> exkluzív jelvényeket, <strong>fejlett GitHub-szinkronizálást és kedvenceket,</strong> ChatGPT-integrációt, <strong>extra mentorálási helyeket,</strong> privát Discord-csatornát, <strong>reklámmentes élményt,</strong> és még sok mást, ha adományozol az Exercism-nek 🎉",
       "non_profit_info": "Az Exercism egy független, bejegyzett nonprofit szervezet (UK #11733062), apró csapattal. Minden adományt a platform működtetésére és fejlesztésére fordítunk."
     },
     "payment_pending": {
@@ -3157,7 +3157,7 @@
         "explanation": "Ezt rajtad kívül senki más nem láthatja"
       },
       "title": "Az utad",
-      "subtitle": "Fedezd fel, hogyan töltötted az idődet az Exercismen",
+      "subtitle": "Fedezd fel, hogyan töltötted az idődet az Exercism-ön",
       "more_tracks": "+ %{count} további kurzus"
     }
   },
@@ -3165,8 +3165,8 @@
     "nav": {
       "insiders": {
         "title": "Exercism Insiders",
-        "tagline": "Az Exercismnek szüksége van a segítségedre, hogy fennmaradjon és virágozzon!",
-        "description_html": "Adományozz az Exercismnek, és kulisszák mögötti hozzáférést kapsz, valamint extra funkciókat, például %{strong_text_1}, %{strong_text_2}, %{strong_text_3}, %{strong_text_4} és még sok mást.",
+        "tagline": "Az Exercism-nek szüksége van a segítségedre, hogy fennmaradjon és virágozzon!",
+        "description_html": "Adományozz az Exercism-nek, és kulisszák mögötti hozzáférést kapsz, valamint extra funkciókat, például %{strong_text_1}, %{strong_text_2}, %{strong_text_3}, %{strong_text_4} és még sok mást.",
         "strong_text_1": "Sötét mód",
         "strong_text_2": "ChatGPT-integráció",
         "strong_text_3": "extra mentorálási hely",
@@ -3204,7 +3204,7 @@
       },
       "favorites": {
         "heading": "A kedvenceid",
-        "intro": "Tárold el a kedvenc megoldásaidat az Exercismről, és később tanulj belőlük.",
+        "intro": "Tárold el a kedvenc megoldásaidat az Exercism-ről, és később tanulj belőlük.",
         "empty_state": "Még nem adtál hozzá kedvencet. Kezdd el felfedezni a közösségi megoldásokat, és adj hozzá néhány érdekeset a kedvenceidhez!",
         "get_started_button": "Kezdj hozzá",
         "solution_title": "%{handle} megoldása",
@@ -3213,7 +3213,7 @@
       }
     },
     "mailer": {
-      "aria_label": "E-mail az Exercismtől",
+      "aria_label": "E-mail az Exercism-től",
       "sponsored_by_html": "Ezt az e-mailt a(z) %{partner_name} támogatja. %{mailer_text}",
       "learn_more_link": "Kattints ide",
       "learn_more_suffix": "hogy többet megtudj.",
@@ -3225,7 +3225,7 @@
       "change_notification_settings_link": "módosítsd az értesítési beállításaidat",
       "sent_by": "Az Exercism küldte:",
       "address": "Unit G3; 81 Bournville Lane, Egyesült Királyság",
-      "text_received_because": "Azért kaptad ezt az e-mailt, mert feliratkoztál az Exercismre (%{exercism_url})",
+      "text_received_because": "Azért kaptad ezt az e-mailt, mert feliratkoztál az Exercism-re (%{exercism_url})",
       "text_unsubscribe_line": "Leiratkozás erről az e-mailről: %{unsubscribe_url}",
       "text_change_notification_settings_line": "Értesítési beállításaid módosítása: %{settings_url}",
       "text_sent_by": "Az Exercism küldte: Unit G3; 81 Bournville Lane, Egyesült Királyság"
@@ -3303,7 +3303,7 @@
         "learn_button": "Tanulj Go-t, és kérj mentorálást"
       },
       "mentoring_section": {
-        "heading": "Go mentorálása az Exercismen",
+        "heading": "Go mentorálása az Exercism-ön",
         "subheading_sm": "Támogasd azokat, akik most váltanak Go-ra",
         "subheading_md": "Támogasd azokat a programozókat, akik most váltanak Go-ra",
         "paragraph_1": "Az Exercism több mint 55 programozási nyelv tanulásának, gyakorlásának és mentorálásának a platformja. Nonprofit, és 100%-ban ingyenes.",
@@ -3321,7 +3321,7 @@
       },
       "contributing_section": {
         "heading": "Adj vissza a közösségnek",
-        "subheading": "Járulj hozzá a Go-hoz az Exercismen",
+        "subheading": "Járulj hozzá a Go-hoz az Exercism-ön",
         "mentor_box": {
           "tag": "Mentorálj.",
           "title": "Kezdj el Go-t tanulókat mentorálni"
@@ -3342,7 +3342,7 @@
         "logo_alt": "%{partner_name} logója"
       },
       "lhs": {
-        "support_heading": "Hogyan támogatja a(z) %{partner_name} az Exercismet"
+        "support_heading": "Hogyan támogatja a(z) %{partner_name} az Exercism-öt"
       },
       "rhs": {
         "perk_label": "Exercism-előny",
@@ -3402,11 +3402,11 @@
       }
     },
     "badges": {
-      "meta_title": "%{user_handle} jelvényei az Exercismen",
-      "meta_description": "Fedezd fel %{user_handle} jelvényeit az Exercismen, és nézd meg, melyek hiányoznak még neked",
+      "meta_title": "%{user_handle} jelvényei az Exercism-ön",
+      "meta_description": "Fedezd fel %{user_handle} jelvényeit az Exercism-ön, és nézd meg, melyek hiányoznak még neked",
       "introducer": {
         "title": "Az Exercism tagjai jelvényeket szereznek menő dolgokért",
-        "description": "Az Exercism használata szórakoztató és jutalmazó: spontán módon jelvényeket szerezhetsz tanulás, mentorálás és közreműködés során az Exercismen."
+        "description": "Az Exercism használata szórakoztató és jutalmazó: spontán módon jelvényeket szerezhetsz tanulás, mentorálás és közreműködés során az Exercism-ön."
       },
       "summary": {
         "badges_owned": {
@@ -3416,11 +3416,11 @@
       }
     },
     "contributions": {
-      "meta_title": "%{user_handle} közreműködései az Exercismen",
-      "meta_description": "Nézd meg, hogyan járult hozzá %{user_handle} az Exercismhez",
+      "meta_title": "%{user_handle} közreműködései az Exercism-ön",
+      "meta_description": "Nézd meg, hogyan járult hozzá %{user_handle} az Exercism-höz",
       "introducer": {
-        "title": "Az Exercismet olyan emberek építik, mint %{user_handle} és te",
-        "description": "Nézd meg %{user_handle} közreműködéseit az Exercismen, valamint a különböző kurzusokhoz készített feladatait és fogalmait."
+        "title": "Az Exercism-öt olyan emberek építik, mint %{user_handle} és te",
+        "description": "Nézd meg %{user_handle} közreműködéseit az Exercism-ön, valamint a különböző kurzusokhoz készített feladatait és fogalmait."
       }
     },
     "intro": {
@@ -3432,7 +3432,7 @@
         }
       },
       "top_section": {
-        "title": "Mutasd meg a munkádat az Exercismen",
+        "title": "Mutasd meg a munkádat az Exercism-ön",
         "description_unlocked_html": "A nyilvános profil létrehozása remek módja annak, hogy megmutasd a\nközzétett megoldásaidat, ajánlásaidat és open source\nközreműködéseidet.",
         "description_locked_html": "A nyilvános profil létrehozása remek módja annak, hogy megmutasd a\nközzétett megoldásaidat, ajánlásaidat és open source\nközreműködéseidet. <a href=\"%{reputation_doc_url}\" class=\"text-gradient font-semibold\">Szerezz %{profile_min_reputation} reputációt a profil létrehozásának feloldásához.</a>",
         "create_profile_button": "Nyilvános profil létrehozása"
@@ -3459,24 +3459,24 @@
       }
     },
     "show": {
-      "meta_title": "%{user_handle} profilja az Exercismen",
-      "meta_description": "Fedezd fel, mit tett %{user_handle} az Exercismen. Merülj el a legérdekesebb megoldásaiban, a legjelentősebb közreműködéseiben és a leginspirálóbb ajánlásaiban.",
+      "meta_title": "%{user_handle} profilja az Exercism-ön",
+      "meta_description": "Fedezd fel, mit tett %{user_handle} az Exercism-ön. Merülj el a legérdekesebb megoldásaiban, a legjelentősebb közreműködéseiben és a leginspirálóbb ajánlásaiban.",
       "published_solutions": {
         "title": "Közzétett megoldások",
         "see_all_link": "%{user_name} összes megoldásának megtekintése"
       }
     },
     "solutions": {
-      "meta_title": "%{user_handle} megoldásai az Exercismen",
-      "meta_description": "Fedezd fel %{user_handle} megoldásait az Exercismen, és nézd meg mindazt, amit megtanult.",
+      "meta_title": "%{user_handle} megoldásai az Exercism-ön",
+      "meta_description": "Fedezd fel %{user_handle} megoldásait az Exercism-ön, és nézd meg mindazt, amit megtanult.",
       "introducer": {
         "title": "Kód és fejlesztések bemutatása",
-        "description": "Nézd meg %{user_handle} közzétett megoldásait, amelyeket az Exercismen végzett feladatok során készített. Fedezd fel, hogyan fejlesztette a megoldását az iterációk során."
+        "description": "Nézd meg %{user_handle} közzétett megoldásait, amelyeket az Exercism-ön végzett feladatok során készített. Fedezd fel, hogyan fejlesztette a megoldását az iterációk során."
       }
     },
     "testimonials": {
-      "meta_title": "%{user_handle} ajánlásai az Exercismen",
-      "meta_description": "Fedezd fel azokat az ajánlásokat, amelyeket a tanulók hagytak %{user_handle} számára az Exercismen, és győződj meg róla, milyen csodálatosak!",
+      "meta_title": "%{user_handle} ajánlásai az Exercism-ön",
+      "meta_description": "Fedezd fel azokat az ajánlásokat, amelyeket a tanulók hagytak %{user_handle} számára az Exercism-ön, és győződj meg róla, milyen csodálatosak!",
       "introducer": {
         "title": "Az Exercism mentorai ajánlásokat kapnak kiemelkedő mentorálásért",
         "description": "A tanulók ajánlásokat hagynak azoknak a mentoroknak, akik segítettek nekik a tanulási útjukon. Apró köszönetnyilvánítások, amelyek hatalmas különbséget jelentenek."
@@ -3499,7 +3499,7 @@
       "exercism_insiders": "Exercism Insiders",
       "go_to_dashboard": "Irány az irányítópultod",
       "title": "Sikeres adományozás",
-      "thank_you_message_html": "Nagyon köszönjük, hogy támogatod a munkánkat! Az adományod segít, hogy tovább fejleszthessük az Exercismet, és mindenki számára ingyenesen tarthassuk.",
+      "thank_you_message_html": "Nagyon köszönjük, hogy támogatod a munkánkat! Az adományod segít, hogy tovább fejleszthessük az Exercism-öt, és mindenki számára ingyenesen tarthassuk.",
       "insiders_eligibility_html": "Ha az adományod meghaladta a 9,99 dollárt, azzal jogosulttá váltál a(z) %{link_to_insiders} programra."
     },
     "index": {
@@ -3538,7 +3538,7 @@
           "email_address": "fundraising@exercism.org"
         },
         "social_card": {
-          "title": "Szereted az Exercismet? Mesélj rólunk másoknak!",
+          "title": "Szereted az Exercism-öt? Mesélj rólunk másoknak!",
           "description_html": "Kövess minket a %{twitter_link}, %{github_link} és %{linkedin_link} oldalon, aztán oszd meg a posztjainkat, és készíts sajátokat! Igyekszünk mindent megosztani, amit látunk 🙂"
         }
       }
@@ -3553,13 +3553,13 @@
   },
   "generic_exercises": {
     "approaches": {
-      "meta_title": "Fedezd fel a %{ps_data_title} megoldásának különböző módjait az Exercismen",
+      "meta_title": "Fedezd fel a %{ps_data_title} megoldásának különböző módjait az Exercism-ön",
       "meta_description": "Fedezd fel a %{ps_data_title} megoldásának különböző módjait.",
       "title": "%{exercise_title} megközelítései",
       "back_to_exercise": "← Vissza a feladathoz"
     },
     "show": {
-      "meta_title": "Oldd meg a %{ps_data_title} feladatot az Exercismen",
+      "meta_title": "Oldd meg a %{ps_data_title} feladatot az Exercism-ön",
       "meta_description": "Meg tudod oldani a %{ps_data_title} feladatot? Fejleszd programozási és problémamegoldó készségeidet mentoraink világszínvonalú csapatának támogatásával.",
       "deep_dive_section": {
         "title": "Mélyelemzés: %{exercise_title}!"
@@ -3601,7 +3601,7 @@
   },
   "notifications_mailer": {
     "joined_lifetime_insiders": {
-      "body_markdown": "Szia!\n\nÜdv az [Exercism Insiders](%{insiders_url}) programban!  \nKöszönjük, hogy részese vagy a történetünknek, és segítettél abban, hogy az Exercism ilyen hatalmas sikert érjen el.  \n**Örökös Insiderként** azon kevesek egyike vagy, akik hatalmas hatással voltak a platformra, és olyanná formálták, amilyen ma.  \nTöbb ezer embernek segítettél, és óriási különbséget tettél. Köszönjük.  \nAz Insiders a mi kis módja annak, hogy köszönetet mondjunk mindazért, amit tettél.\n\nHa szeretnéd megtudni, mi van az Insidersben, nézd meg a neki szentelt oldalt, vagy nézd meg az alábbi bemutatkozó videónkat 👇\n\n<p style=\"margin-bottom: 24px\">\n  <a href=\"%{youtube_video_url}\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n    <img src=\"%{youtube_thumbnail_url}\" style=\"width:100%; display:block\" />\n  </a>\n</p>\n\nSzívesen hallanám minden gondolatodat és ötletedet a Discord dedikált [#insiders csatornáján](%{discord_channel_url}).  \nGyere el, és köszönj ránk!\n\nMégegyszer köszönjük, hogy részese vagy az Exercismnek. Izgatottan várom, mi következik! 🙂\n\nJeremy Walker  \nAz Exercism társalapítója és vezérigazgatója\n\n[Látogasd meg az Exercismet](%{root_url})\n"
+      "body_markdown": "Szia!\n\nÜdv az [Exercism Insiders](%{insiders_url}) programban!  \nKöszönjük, hogy részese vagy a történetünknek, és segítettél abban, hogy az Exercism ilyen hatalmas sikert érjen el.  \n**Örökös Insiderként** azon kevesek egyike vagy, akik hatalmas hatással voltak a platformra, és olyanná formálták, amilyen ma.  \nTöbb ezer embernek segítettél, és óriási különbséget tettél. Köszönjük.  \nAz Insiders a mi kis módja annak, hogy köszönetet mondjunk mindazért, amit tettél.\n\nHa szeretnéd megtudni, mi van az Insidersben, nézd meg a neki szentelt oldalt, vagy nézd meg az alábbi bemutatkozó videónkat 👇\n\n<p style=\"margin-bottom: 24px\">\n  <a href=\"%{youtube_video_url}\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n    <img src=\"%{youtube_thumbnail_url}\" style=\"width:100%; display:block\" />\n  </a>\n</p>\n\nSzívesen hallanám minden gondolatodat és ötletedet a Discord dedikált [#insiders csatornáján](%{discord_channel_url}).  \nGyere el, és köszönj ránk!\n\nMégegyszer köszönjük, hogy részese vagy az Exercism-nek. Izgatottan várom, mi következik! 🙂\n\nJeremy Walker  \nAz Exercism társalapítója és vezérigazgatója\n\n[Látogasd meg az Exercism-öt](%{root_url})\n"
     },
     "student_replied_to_discussion": {
       "body_markdown": "Szia %{user_handle}!\n\nA tanulód (%{student_handle}) hozzászólt a(z) %{track_title} kurzuson a(z) %{exercise_title} feladatról folytatott beszélgetésedhez.\n\n[Ugrás a beszélgetésre](%{discussion_url})"
@@ -3616,7 +3616,7 @@
       "body_markdown": "Szia %{user_handle}!\n\nGratulálunk! Új trófeát oldottál fel a(z) %{track_title} kurzuson.\nLátogass el a(z) %{track_title} kurzus oldalára, és nézd meg a trófeagyűjteményt, hogy lásd, mit érdemeltél ki.\n[Mutasd, mit oldottam fel!](%{track_url})\n"
     },
     "eligible_for_lifetime_insiders": {
-      "body_markdown": "Helló!\n\nÖrömmel értesítelek, hogy jogosult vagy az Exercism Insiders programra, a jutalmazási programunkra azoknak, akik közreműködnek, mentorálnak vagy adományoznak az Exercismnek.  \nAz Insiders fiókodat az [Insiders oldalon](%{insiders_url}) aktiválhatod.\n\nAz Insiders néhány extra előnyt kínál:\n\n- Hozzáférés a szexi sötét módhoz\n- ChatGPT-integráció, ha elakadsz a feladatoknál\n- Kulisszák mögötti tartalom. Videókat nézhetsz meg tőlem és a csapattól, hogy képben legyél, miközben az Exercismen dolgozunk.\n- Szorosabb kapcsolat a csapattal és a kulcsfontosságú közösségi tagokkal, a dedikált #insiders Discord-csatornánkon.\n- Extra mentorálási helyek.\n- Exkluzív jelvények\n- És még sok más!\n\nMegadtuk neked a **Lifetime** státuszt, ami azt jelenti, hogy mindig hozzáférsz majd az Insidershez.  \nAz [Insiders oldal](%{insiders_url}) sokkal több részletet tartalmaz, vagy nézd meg az alábbi videót, hogy többet megtudj 👇\n\n<a href=\"https://www.youtube.com/watch?v=iwhahd41h0A\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"https://assets.exercism.org/images/thumbnails/introducing-insiders-with-play-icon.jpg\" style=\"width:100%; display:block\" />\n</a>\n\nNagyon köszönjük, hogy része vagy az Exercism történetének. Remélem, élvezni fogod az Insiderst!\n\nJeremy Walker  \nExercism társalapítója és vezérigazgatója\n\n[Insiders aktiválása](%{insiders_url})"
+      "body_markdown": "Helló!\n\nÖrömmel értesítelek, hogy jogosult vagy az Exercism Insiders programra, a jutalmazási programunkra azoknak, akik közreműködnek, mentorálnak vagy adományoznak az Exercism-nek.  \nAz Insiders fiókodat az [Insiders oldalon](%{insiders_url}) aktiválhatod.\n\nAz Insiders néhány extra előnyt kínál:\n\n- Hozzáférés a szexi sötét módhoz\n- ChatGPT-integráció, ha elakadsz a feladatoknál\n- Kulisszák mögötti tartalom. Videókat nézhetsz meg tőlem és a csapattól, hogy képben legyél, miközben az Exercism-ön dolgozunk.\n- Szorosabb kapcsolat a csapattal és a kulcsfontosságú közösségi tagokkal, a dedikált #insiders Discord-csatornánkon.\n- Extra mentorálási helyek.\n- Exkluzív jelvények\n- És még sok más!\n\nMegadtuk neked a **Lifetime** státuszt, ami azt jelenti, hogy mindig hozzáférsz majd az Insidershez.  \nAz [Insiders oldal](%{insiders_url}) sokkal több részletet tartalmaz, vagy nézd meg az alábbi videót, hogy többet megtudj 👇\n\n<a href=\"https://www.youtube.com/watch?v=iwhahd41h0A\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"https://assets.exercism.org/images/thumbnails/introducing-insiders-with-play-icon.jpg\" style=\"width:100%; display:block\" />\n</a>\n\nNagyon köszönjük, hogy része vagy az Exercism történetének. Remélem, élvezni fogod az Insiderst!\n\nJeremy Walker  \nExercism társalapítója és vezérigazgatója\n\n[Insiders aktiválása](%{insiders_url})"
     },
     "student_timed_out_discussion_student": {
       "body_markdown": "Szia %{user_handle},\n\nLejárt a mentorálási beszélgetés %{discussion_mentor_handle} mentorral a(z) %{exercise_title} feladatra adott megoldásodról a(z) %{track_title} kurzuson.\n\n[Ugrás a mentorálási beszélgetésre](%{discussion_url})\n"
@@ -3625,22 +3625,22 @@
       "body_markdown": "Szia %{user_handle},\n\nBarátságos emlékeztető: a tanulód (%{student_handle}) már %{num_days_waiting} napja várja, hogy válaszolj [a mentorálási beszélgetésben](%{discussion_url}) a(z) %{exercise_title} feladatra adott megoldásáról a(z) %{track_title} kurzuson.\n\nHa nem te jössz, és a tanulóra vársz, kérünk, használd a „A tanuló következik…” gombot a mentorálási felületen.\n\nA mentorálási beszélgetés %{num_days_to_time_out} nap múlva lejár, ha nem válaszolsz.\n\n[Ugrás a mentorálási beszélgetésre](%{discussion_url})"
     },
     "expired_insiders": {
-      "body_markdown": "Helló,\n\nLejárt a hozzáférésed az [Exercism Insidershez](%{insiders_url}).\n\nKöszönjük, hogy támogatod az Exercismet. Több mint 1 millió embernek segítettünk ingyenesen fejleszteni a programozási készségeit, és a hozzád hasonló emberek támogatására támaszkodunk. Szóval nagyon köszönjük, hogy ezt teszed.\n\nHa szeretnéd tovább támogatni munkánkat, az rengeteget jelentene nekünk.\nÚj rendszeres adományt állíthatsz be az [Insiders oldalon](%{insiders_url})\n\nSzép napot!\n\nJeremy Walker\nExercism társalapítója és vezérigazgatója\n\n[Látogasd meg az Exercismet](%{root_url})\n"
+      "body_markdown": "Helló,\n\nLejárt a hozzáférésed az [Exercism Insidershez](%{insiders_url}).\n\nKöszönjük, hogy támogatod az Exercism-öt. Több mint 1 millió embernek segítettünk ingyenesen fejleszteni a programozási készségeit, és a hozzád hasonló emberek támogatására támaszkodunk. Szóval nagyon köszönjük, hogy ezt teszed.\n\nHa szeretnéd tovább támogatni munkánkat, az rengeteget jelentene nekünk.\nÚj rendszeres adományt állíthatsz be az [Insiders oldalon](%{insiders_url})\n\nSzép napot!\n\nJeremy Walker\nExercism társalapítója és vezérigazgatója\n\n[Látogasd meg az Exercism-öt](%{root_url})\n"
     },
     "mentor_timed_out_discussion_student": {
       "body_markdown": "Szia %{user_handle},\n\nLejárt a mentorálási beszélgetés %{mentor_handle} mentorral a(z) %{exercise_title} feladatra adott megoldásodról a(z) %{track_title} kurzuson.\n\n[Ugrás a mentorálási beszélgetésre](%{discussion_url})"
     },
     "onboarding_insiders": {
-      "body_markdown": "Helló,\n\nRemélem, eddig élvezed az [Exercismet](https://exercism.org)!  \nTudtad, hogy **nonprofit szervezet vagyunk?**  \nSzeretnénk, ha mindenki részesülhetne az Exercism előnyeiből, függetlenül attól, mennyi pénze van, ezért a weboldalt 100%-ban ingyenesen tartjuk.\n\nEhhez adományokra támaszkodunk, hogy az Exercism működhessen.  \nRendkívül karcsú szervezet vagyunk, és tekintve, hogy több mint 1,5 millió embert szolgálunk ki, nagyon alacsonyak a költségeink (~250 ezer dollár/év).  \nÖsszeállítottam egy videót, amely többet elmagyaráz 👇\n\n<a href=\"%{video_url}\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923; margin-bottom:16px\">\n  <img src=\"%{video_thumbnail_url}\" style=\"width:100%; display:block\" />\n</a>\n\nHa hasznosnak találod az Exercismet, és megengedheted magadnak, kérünk, támogass minket egy adománnyal.  \nHa viszont nem engedheted meg magadnak, tudd, hogy ez nem követelmény, és a platformunk mindig ingyenesen elérhető lesz számodra.\n\nA támogatásod, akár adományon, akár az Exercism hírének terjesztésén keresztül, kulcsfontosságú abban, hogy elérjük a társadalmi küldetésünket.  \nMinden apró adomány számít, és segít abban, hogy minőségi programozási oktatást vigyünk minél több emberhez világszerte.\n\nKöszönjük, hogy része vagy a közösségünknek, és hogy támogatod a társadalmi küldetésünket.  \nAlig várjuk, hogy lássuk mindazokat a csodálatos dolgokat, amelyeket az Exercismmel elérsz majd.\n\nÜdvözlettel,  \n\nJeremy Walker  \nExercism társalapítója és vezérigazgatója\n\n[Látogasd meg az Exercismet](%{root_url})"
+      "body_markdown": "Helló,\n\nRemélem, eddig élvezed az [Exercism-öt](https://exercism.org)!  \nTudtad, hogy **nonprofit szervezet vagyunk?**  \nSzeretnénk, ha mindenki részesülhetne az Exercism előnyeiből, függetlenül attól, mennyi pénze van, ezért a weboldalt 100%-ban ingyenesen tartjuk.\n\nEhhez adományokra támaszkodunk, hogy az Exercism működhessen.  \nRendkívül karcsú szervezet vagyunk, és tekintve, hogy több mint 1,5 millió embert szolgálunk ki, nagyon alacsonyak a költségeink (~250 ezer dollár/év).  \nÖsszeállítottam egy videót, amely többet elmagyaráz 👇\n\n<a href=\"%{video_url}\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923; margin-bottom:16px\">\n  <img src=\"%{video_thumbnail_url}\" style=\"width:100%; display:block\" />\n</a>\n\nHa hasznosnak találod az Exercism-öt, és megengedheted magadnak, kérünk, támogass minket egy adománnyal.  \nHa viszont nem engedheted meg magadnak, tudd, hogy ez nem követelmény, és a platformunk mindig ingyenesen elérhető lesz számodra.\n\nA támogatásod, akár adományon, akár az Exercism hírének terjesztésén keresztül, kulcsfontosságú abban, hogy elérjük a társadalmi küldetésünket.  \nMinden apró adomány számít, és segít abban, hogy minőségi programozási oktatást vigyünk minél több emberhez világszerte.\n\nKöszönjük, hogy része vagy a közösségünknek, és hogy támogatod a társadalmi küldetésünket.  \nAlig várjuk, hogy lássuk mindazokat a csodálatos dolgokat, amelyeket az Exercism-mel elérsz majd.\n\nÜdvözlettel,  \n\nJeremy Walker  \nExercism társalapítója és vezérigazgatója\n\n[Látogasd meg az Exercism-öt](%{root_url})"
     },
     "acquired_badge": {
-      "body_markdown": "Szia %{user_handle},\n\nGratulálunk! Feloldottál egy új jelvényt az Exercismen.\nLátogasd meg az Exercism Az utad oldalát, hogy megnézd, mit érdemeltél ki.\n\n[Mutasd, mit oldottam fel!](%{journey_url})\n"
+      "body_markdown": "Szia %{user_handle},\n\nGratulálunk! Feloldottál egy új jelvényt az Exercism-ön.\nLátogasd meg az Exercism Az utad oldalát, hogy megnézd, mit érdemeltél ki.\n\n[Mutasd, mit oldottam fel!](%{journey_url})\n"
     },
     "onboarding_community": {
-      "body_markdown": "Helló!\n\nRemélem, jól telnek az első napjaid az [Exercismen](https://exercism.org).  \nAhogy tovább fedezed fel a platformunkat, szeretnék egy pillanatot szánni arra, hogy meséljek a csodálatos közösségünkről.\n\nAz Exercism egy nyílt forráskódú, közösség által működtetett projekt.  \nValójában az egyik legnagyobb nyílt forráskódú szervezet vagyunk a [GitHubon](https://github.com/exercism/), több mint 350 repóval.  \nA közösségünk az empátia, a kedvesség és a befogadás értékei köré épül.  \nNézd meg ezt a videót, vagy olvass tovább alább 👇\n\n<a href=\"%{youtube_video_url}\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"%{youtube_thumbnail_url}\" style=\"width:100%; display:block\" />\n</a>\n\nSzámos közösségi területünk van, amelyeket érdekesnek és élvezetesnek találhatsz:\n\n- A [Discord](https://exercism.org/r/discord) csatornánk az a hely, ahol az Exercism közösségével lóghatsz, csatlakozhatsz közösségi hívásokhoz, és gyors támogatást kaphatsz.\n- A [fórumunk](https://exercism.org/r/forum) remek hely hosszabb kérdések feltevésére, ötletek megosztására és a kódolás iránt szenvedélyes emberekkel való kapcsolatteremtésre.\n- A [YouTube-csatornánk](https://exercism.org/r/youtube) az a hely, ahol a legjobb videós tartalmainkat találod: oktató jellegű végigvezetéseket, Exercism-frissítéseket, közösségi történeteket és iparági szakértőkkel készült interjúkat.\n- A [Twitch](https://exercism.org/r/twitch) csatornán élő adásokat tartunk, amelyeken a közösségünk és a kódolási ökoszisztéma vendégei is szerepelnek.\n\nNagyon örülnénk, ha csatlakoznál, és a közösségünk aktív tagjává válnál.  \nAkár tapasztalt fejlesztő vagy, akár most kezded, itt van hely a számodra.  \nSzóval ne légy félénk, gyere, köszönj, és kapcsolódj be!\n\nÜdvözlettel,  \n\nJeremy Walker  \nExercism társalapítója és vezérigazgatója\n\n[Látogasd meg az Exercismet](%{root_url})"
+      "body_markdown": "Helló!\n\nRemélem, jól telnek az első napjaid az [Exercism-ön](https://exercism.org).  \nAhogy tovább fedezed fel a platformunkat, szeretnék egy pillanatot szánni arra, hogy meséljek a csodálatos közösségünkről.\n\nAz Exercism egy nyílt forráskódú, közösség által működtetett projekt.  \nValójában az egyik legnagyobb nyílt forráskódú szervezet vagyunk a [GitHubon](https://github.com/exercism/), több mint 350 repóval.  \nA közösségünk az empátia, a kedvesség és a befogadás értékei köré épül.  \nNézd meg ezt a videót, vagy olvass tovább alább 👇\n\n<a href=\"%{youtube_video_url}\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"%{youtube_thumbnail_url}\" style=\"width:100%; display:block\" />\n</a>\n\nSzámos közösségi területünk van, amelyeket érdekesnek és élvezetesnek találhatsz:\n\n- A [Discord](https://exercism.org/r/discord) csatornánk az a hely, ahol az Exercism közösségével lóghatsz, csatlakozhatsz közösségi hívásokhoz, és gyors támogatást kaphatsz.\n- A [fórumunk](https://exercism.org/r/forum) remek hely hosszabb kérdések feltevésére, ötletek megosztására és a kódolás iránt szenvedélyes emberekkel való kapcsolatteremtésre.\n- A [YouTube-csatornánk](https://exercism.org/r/youtube) az a hely, ahol a legjobb videós tartalmainkat találod: oktató jellegű végigvezetéseket, Exercism-frissítéseket, közösségi történeteket és iparági szakértőkkel készült interjúkat.\n- A [Twitch](https://exercism.org/r/twitch) csatornán élő adásokat tartunk, amelyeken a közösségünk és a kódolási ökoszisztéma vendégei is szerepelnek.\n\nNagyon örülnénk, ha csatlakoznál, és a közösségünk aktív tagjává válnál.  \nAkár tapasztalt fejlesztő vagy, akár most kezded, itt van hely a számodra.  \nSzóval ne légy félénk, gyere, köszönj, és kapcsolódj be!\n\nÜdvözlettel,  \n\nJeremy Walker  \nExercism társalapítója és vezérigazgatója\n\n[Látogasd meg az Exercism-öt](%{root_url})"
     },
     "onboarding_product": {
-      "body_markdown": "Helló,\n\nNagyjából egy nap telt el azóta, hogy regisztráltál az [Exercismre](https://exercism.org), és szerettem volna megnézni, hogyan boldogulsz eddig?\n\nAz Exercism néha kicsit nyomasztó lehet elsőre. Egyesek kicsit elvesznek, és nem egészen értik a dolgokat.  \nHa elakadsz, nézd meg a [Discord](https://exercism.org/r/discord) vagy a [fórum](https://exercism.org/r/forum) oldalunkat, ahol segítséget kérhetsz.  \nMindig hasznos számunkra tudni, hol akadnak el az emberek, hogy javíthassunk rajta, szóval ne félj megszólalni!\n\nHa még nem kezdtél el felfedezni egy nyelvet sem, több mint 65 közül választhatsz, köztük a legszélesebb körben használt nyelvekkel (pl. Python, JavaScript, C#), a népszerű újoncokkal (pl. Go, Elixir, Rust) és néhány egészen szokatlan és ezoterikus nyelvvel (pl. 8th, COBOL, Prolog).  \nRengeteg tanulnivaló és sok móka vár!\n\nÉs végezetül egy emlékeztető: az Exercism 100%-ban ingyenes, nyílt forráskódú és nonprofit. Jó szórakozást!\n\nÜdvözlettel,  \n\nJeremy Walker  \nExercism társalapítója és vezérigazgatója\n\n[Látogasd meg az Exercismet](%{root_url})"
+      "body_markdown": "Helló,\n\nNagyjából egy nap telt el azóta, hogy regisztráltál az [Exercism-re](https://exercism.org), és szerettem volna megnézni, hogyan boldogulsz eddig?\n\nAz Exercism néha kicsit nyomasztó lehet elsőre. Egyesek kicsit elvesznek, és nem egészen értik a dolgokat.  \nHa elakadsz, nézd meg a [Discord](https://exercism.org/r/discord) vagy a [fórum](https://exercism.org/r/forum) oldalunkat, ahol segítséget kérhetsz.  \nMindig hasznos számunkra tudni, hol akadnak el az emberek, hogy javíthassunk rajta, szóval ne félj megszólalni!\n\nHa még nem kezdtél el felfedezni egy nyelvet sem, több mint 65 közül választhatsz, köztük a legszélesebb körben használt nyelvekkel (pl. Python, JavaScript, C#), a népszerű újoncokkal (pl. Go, Elixir, Rust) és néhány egészen szokatlan és ezoterikus nyelvvel (pl. 8th, COBOL, Prolog).  \nRengeteg tanulnivaló és sok móka vár!\n\nÉs végezetül egy emlékeztető: az Exercism 100%-ban ingyenes, nyílt forráskódú és nonprofit. Jó szórakozást!\n\nÜdvözlettel,  \n\nJeremy Walker  \nExercism társalapítója és vezérigazgatója\n\n[Látogasd meg az Exercism-öt](%{root_url})"
     },
     "mentor_timed_out_discussion_mentor": {
       "body_markdown": "Szia %{user_handle},\n\nLejárt a mentorálási beszélgetés a tanulóddal (%{student_handle}) a(z) %{exercise_title} feladatra adott megoldásáról a(z) %{track_title} kurzuson.\n\n[Ugrás a mentorálási beszélgetésre](%{discussion_url})"
@@ -3655,13 +3655,13 @@
       "body_markdown": "Szia %{user_handle},\n\nÚj visszajelzés érkezett a(z) %{exercise_title} feladatra a(z) %{track_title} kurzuson adott megoldásod iterációjához (#%{iteration_idx}). Azt %{emphasis}javasoljuk, hogy vess egy pillantást rá, és nézd meg, hogyan javíthatod a megoldásodat!\n\nUgrás az iterációra: %{iteration_url}\n"
     },
     "upgraded_to_lifetime_insiders": {
-      "body_markdown": "Helló!\n\nÖrömmel értesítelek, hogy megkaptad a [Exercism Insiders](https://exercism.org/insiders) Lifetime tagságát!\n\nLifetime Insiderként azon kevesek közé tartozol, akik hatalmas hatással voltak a platformra, és olyanná formálták, amilyen ma.  \nTöbb ezer embernek segítettél, és óriási különbséget tettél, köszönjük.  \nAz Insiders a mi apró módja annak, hogy köszönetet mondjunk mindazért, amit tettél.\n\nGratulálunk, hogy elérted a Lifetime küszöböt, és még egyszer köszönjük, hogy része vagy az Exercismnek 🙂\n\nJeremy Walker  \nExercism társalapítója és vezérigazgatója\n\n[Látogasd meg az Exercismet](%{root_url})"
+      "body_markdown": "Helló!\n\nÖrömmel értesítelek, hogy megkaptad a [Exercism Insiders](https://exercism.org/insiders) Lifetime tagságát!\n\nLifetime Insiderként azon kevesek közé tartozol, akik hatalmas hatással voltak a platformra, és olyanná formálták, amilyen ma.  \nTöbb ezer embernek segítettél, és óriási különbséget tettél, köszönjük.  \nAz Insiders a mi apró módja annak, hogy köszönetet mondjunk mindazért, amit tettél.\n\nGratulálunk, hogy elérted a Lifetime küszöböt, és még egyszer köszönjük, hogy része vagy az Exercism-nek 🙂\n\nJeremy Walker  \nExercism társalapítója és vezérigazgatója\n\n[Látogasd meg az Exercism-öt](%{root_url})"
     },
     "nudge_student_to_reply_in_discussion": {
       "body_markdown": "Szia %{user_handle},\n\nBarátságos emlékeztető: a mentorod (%{mentor_handle}) már %{num_days_waiting} napja várja, hogy válaszolj [a mentorálási beszélgetésben](%{discussion_url}) a(z) %{exercise_title} feladatra adott megoldásodról a(z) %{track_title} kurzuson.\n\nHa valójában te vársz a mentorra, kérünk, fűzz megjegyzést a beszélgetéshez, hogy jelezd neki.\n\nA mentorálási beszélgetés %{num_days_to_time_out} nap múlva lejár, ha nem válaszolsz.\n\n[Ugrás a mentorálási beszélgetésre](%{discussion_url})"
     },
     "added_to_contributors_page": {
-      "body_markdown": "Szia %{user_handle},\n\nMostantól szerepelsz az Exercism hivatalos közreműködői listáján, és megjelensz a közreműködői oldalunkon.\n\nNagyon köszönjük, hogy része vagy az Exercismnek, és hogy segítesz ingyenes, világszínvonalú programozási oktatást nyújtani minél több embernek.\n\n[Fedezd fel a közreműködői oldalt](%{contributors_url})\n"
+      "body_markdown": "Szia %{user_handle},\n\nMostantól szerepelsz az Exercism hivatalos közreműködői listáján, és megjelensz a közreműködői oldalunkon.\n\nNagyon köszönjük, hogy része vagy az Exercism-nek, és hogy segítesz ingyenes, világszínvonalú programozási oktatást nyújtani minél több embernek.\n\n[Fedezd fel a közreműködői oldalt](%{contributors_url})\n"
     },
     "mentor_replied_to_discussion": {
       "body_markdown": "Szia %{user_handle},\n\nA mentorod (%{mentor_handle}) hozzászólt a(z) %{exercise_title} feladatról a(z) %{track_title} kurzuson folytatott beszélgetésedhez.\n\n[Ugrás a mentorálási beszélgetésre](%{discussion_url})\n"
@@ -3670,13 +3670,13 @@
       "body_markdown": "Szia %{user_handle},\n\nLejárt a mentorálási beszélgetés a tanulóddal (%{student_handle}) a(z) %{exercise_title} feladatra adott megoldásáról a(z) %{track_title} kurzuson.\n\n[Ugrás a mentorálási beszélgetésre](%{discussion_url})\n"
     },
     "joined_insiders": {
-      "body_markdown": "Helló!\n\nÜdvözlünk az [Exercism Insidersben](https://exercism.org/insiders)!  \nKöszönjük, hogy része vagy a történetünknek, és hogy segítettél az Exercismet azzá a hatalmas sikerré tenni, ami ma.  \nAz Insiders az egyik apró módja annak, hogy köszönetet mondjunk a támogatásodért.\n\nHa szeretnéd megtudni, mi van az Insidersben, nézd meg az [Insiders oldalt](https://exercism.org/insiders),  \nvagy nézd meg a bevezető videónkat alább 👇\n\n<a href=\"%{youtube_video_url}\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"%{youtube_thumbnail_url}\" style=\"width:100%; display:block\" />\n</a>\n\nNagyon kíváncsi vagyok minden gondolatodra és ötletedre a dedikált [#insiders csatornánkon a Discordon](https://discord.com/channels/854117591135027261/1103737555490447460).  \nSzóval gyere, és köszönj!\n\nKöszönjük, hogy része vagy az utunknak. Izgatottan várom, mi jön ezután 🙂\n\nJeremy Walker  \nExercism társalapítója és vezérigazgatója\n\n[Látogasd meg az Exercismet](%{root_url})"
+      "body_markdown": "Helló!\n\nÜdvözlünk az [Exercism Insidersben](https://exercism.org/insiders)!  \nKöszönjük, hogy része vagy a történetünknek, és hogy segítettél az Exercism-öt azzá a hatalmas sikerré tenni, ami ma.  \nAz Insiders az egyik apró módja annak, hogy köszönetet mondjunk a támogatásodért.\n\nHa szeretnéd megtudni, mi van az Insidersben, nézd meg az [Insiders oldalt](https://exercism.org/insiders),  \nvagy nézd meg a bevezető videónkat alább 👇\n\n<a href=\"%{youtube_video_url}\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"%{youtube_thumbnail_url}\" style=\"width:100%; display:block\" />\n</a>\n\nNagyon kíváncsi vagyok minden gondolatodra és ötletedre a dedikált [#insiders csatornánkon a Discordon](https://discord.com/channels/854117591135027261/1103737555490447460).  \nSzóval gyere, és köszönj!\n\nKöszönjük, hogy része vagy az utunknak. Izgatottan várom, mi jön ezután 🙂\n\nJeremy Walker  \nExercism társalapítója és vezérigazgatója\n\n[Látogasd meg az Exercism-öt](%{root_url})"
     },
     "joined_exercism": {
-      "body_markdown": "Helló,\n\nÜdvözlünk az [Exercismen](https://exercism.org)!  \nÖrülünk, hogy a közösségünk tagja vagy, és alig várjuk, hogy segíthessünk neked, ahogy egyre mélyebbre ásol a programozási utadon.\n\nAz Exercismet arra tervezték, hogy segítsen mélyrehatóan megérteni bármelyik nyelvet, amelyet megtanulni választasz.  \nBejegyzett nonprofit szervezet vagyunk, és 100%-ban ingyenes.\n\nÖsszeállítottam ezt a videót (amelyet talán láttál is, amikor regisztráltál), amely végigvezet néhány kulcsfontosságú dolgon 👇\n\n<a href=\"%{youtube_video_url}\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"%{youtube_thumbnail_url}\" style=\"width:100%; display:block\" />\n</a>\n\nHa valaha elakadsz, vagy kérdésed van, ne habozz posztolni [a fórumunkon](https://forum.exercism.org).  \nA közösségünk barátságos és támogató, és mindig szívesen segítünk.  \nHiszünk abban, hogy a tanulás közös erőfeszítés, és hogy mindannyian tanulhatunk egymástól.\n\nVégezetül ne hagyd ki a [YouTube-csatornánkat](https://www.youtube.com/@Exercism_org) sem, ahol érdekes interjúkat, végigvezetéseket és oktatóanyagokat osztunk meg az Exercismről.  \nTalálhatsz néhány tippet és trükköt, amelyek még élvezetesebbé teszik a tanulási utadat.\n\nSzép napot!\n\nJeremy Walker  \nExercism társalapítója és vezérigazgatója\n\n[Látogasd meg az Exercismet](%{root_url})"
+      "body_markdown": "Helló,\n\nÜdvözlünk az [Exercism-ön](https://exercism.org)!  \nÖrülünk, hogy a közösségünk tagja vagy, és alig várjuk, hogy segíthessünk neked, ahogy egyre mélyebbre ásol a programozási utadon.\n\nAz Exercism-öt arra tervezték, hogy segítsen mélyrehatóan megérteni bármelyik nyelvet, amelyet megtanulni választasz.  \nBejegyzett nonprofit szervezet vagyunk, és 100%-ban ingyenes.\n\nÖsszeállítottam ezt a videót (amelyet talán láttál is, amikor regisztráltál), amely végigvezet néhány kulcsfontosságú dolgon 👇\n\n<a href=\"%{youtube_video_url}\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"%{youtube_thumbnail_url}\" style=\"width:100%; display:block\" />\n</a>\n\nHa valaha elakadsz, vagy kérdésed van, ne habozz posztolni [a fórumunkon](https://forum.exercism.org).  \nA közösségünk barátságos és támogató, és mindig szívesen segítünk.  \nHiszünk abban, hogy a tanulás közös erőfeszítés, és hogy mindannyian tanulhatunk egymástól.\n\nVégezetül ne hagyd ki a [YouTube-csatornánkat](https://www.youtube.com/@Exercism_org) sem, ahol érdekes interjúkat, végigvezetéseket és oktatóanyagokat osztunk meg az Exercism-ről.  \nTalálhatsz néhány tippet és trükköt, amelyek még élvezetesebbé teszik a tanulási utadat.\n\nSzép napot!\n\nJeremy Walker  \nExercism társalapítója és vezérigazgatója\n\n[Látogasd meg az Exercism-öt](%{root_url})"
     },
     "eligible_for_insiders": {
-      "body_markdown": "Helló!\n\nÖrömmel értesítelek, hogy jogosult vagy az Exercism Insidersre, a jutalmazási programunkra azoknak, akik közreműködnek, mentorálnak vagy adományoznak az Exercismnek.\nAz Insiders fiókodat az [Insiders oldalon](%{insiders_url}) aktiválhatod.\n\nAz Insiders három fő előnyt kínál:\n1. Ingyenes Exercism Premium. Mostantól hozzáférsz a sötét módhoz, a ChatGPT-integrációhoz, extra mentorálási helyekhez és még sok máshoz.\n2. Kulisszák mögötti tartalom. Videókat nézhetsz meg tőlem és a csapattól, hogy képben legyél, miközben az Exercismen dolgozunk.\n3. Szorosabb kapcsolat a csapattal és a kulcsfontosságú közösségi tagokkal, a dedikált #insiders Discord-csatornánkon.\n\nAz Insiders oldal sokkal több részletet tartalmaz!\nAz Insiders státuszod addig tart, amíg aktívan közreműködsz, mentorálsz vagy adományozol.\nBizonyos küszöbök elérésével Lifetime Insiders státuszt is szerezhetsz.\n\nNagyon köszönjük, hogy része vagy az Exercism történetének. Remélem, élvezni fogod az Insiderst!\n\nJeremy Walker\nExercism társalapítója és vezérigazgatója\n\nInsiders aktiválása: %{insiders_url}\n"
+      "body_markdown": "Helló!\n\nÖrömmel értesítelek, hogy jogosult vagy az Exercism Insidersre, a jutalmazási programunkra azoknak, akik közreműködnek, mentorálnak vagy adományoznak az Exercism-nek.\nAz Insiders fiókodat az [Insiders oldalon](%{insiders_url}) aktiválhatod.\n\nAz Insiders három fő előnyt kínál:\n1. Ingyenes Exercism Premium. Mostantól hozzáférsz a sötét módhoz, a ChatGPT-integrációhoz, extra mentorálási helyekhez és még sok máshoz.\n2. Kulisszák mögötti tartalom. Videókat nézhetsz meg tőlem és a csapattól, hogy képben legyél, miközben az Exercism-ön dolgozunk.\n3. Szorosabb kapcsolat a csapattal és a kulcsfontosságú közösségi tagokkal, a dedikált #insiders Discord-csatornánkon.\n\nAz Insiders oldal sokkal több részletet tartalmaz!\nAz Insiders státuszod addig tart, amíg aktívan közreműködsz, mentorálsz vagy adományozol.\nBizonyos küszöbök elérésével Lifetime Insiders státuszt is szerezhetsz.\n\nNagyon köszönjük, hogy része vagy az Exercism történetének. Remélem, élvezni fogod az Insiderst!\n\nJeremy Walker\nExercism társalapítója és vezérigazgatója\n\nInsiders aktiválása: %{insiders_url}\n"
     },
     "mentor_finished_discussion": {
       "body_markdown": "Szia %{user_handle},\n\nA mentorod (%{mentor_handle}) befejezte a(z) %{exercise_title} feladatra a(z) %{track_title} kurzuson adott megoldásodhoz tartozó mentorálási beszélgetést.\n\n[Ugrás a mentorálási beszélgetésre](%{discussion_url})"
@@ -3684,7 +3684,7 @@
   },
   "premium_mailer": {
     "payment_created": {
-      "body_markdown": "Szia %{user_handle}!\n\nKöszönjük az Exercismnek nyújtott adományodat! Amellett, hogy néhány szórakoztató előnnyel jár, a befizetésed segít abban is, hogy az Exercism alapterméke mindenki számára ingyenes maradjon. Tehát köszönjük.\n\nA Beállítások oldalon láthatod az Exercismnek teljesített összes befizetésedet, és letöltheted a bizonylataidat. Ha kérdésed van a befizetéseddel kapcsolatban, válaszolj erre az e-mailre.\n\nReméljük, élvezni fogod az Exercism Insiderst!\n"
+      "body_markdown": "Szia %{user_handle}!\n\nKöszönjük az Exercism-nek nyújtott adományodat! Amellett, hogy néhány szórakoztató előnnyel jár, a befizetésed segít abban is, hogy az Exercism alapterméke mindenki számára ingyenes maradjon. Tehát köszönjük.\n\nA Beállítások oldalon láthatod az Exercism-nek teljesített összes befizetésedet, és letöltheted a bizonylataidat. Ha kérdésed van a befizetéseddel kapcsolatban, válaszolj erre az e-mailre.\n\nReméljük, élvezni fogod az Exercism Insiderst!\n"
     }
   },
   "mentoring": {
@@ -3790,7 +3790,7 @@
       "no_donations": {
         "heading": "Az adományaid itt jelennek meg",
         "info_1": "Miután adományoztál, itt láthatod majd az összes adományod előzményét.",
-        "info_2_html": "Ha adományoztál az Exercismnek, de nem látod itt az adományaidat, vagy nem kaptad meg a Supporter jelvényt, írj e-mailt <a href=\"%{email_url}\">Jeremynek</a>, és ő elintézi neked.\n"
+        "info_2_html": "Ha adományoztál az Exercism-nek, de nem látod itt az adományaidat, vagy nem kaptad meg a Supporter jelvényt, írj e-mailt <a href=\"%{email_url}\">Jeremynek</a>, és ő elintézi neked.\n"
       }
     },
     "github_syncer": {
@@ -3812,7 +3812,7 @@
         "reputation_link_text": "reputáció",
         "external_link_aria_label": "(új lapon nyílik meg)",
         "linked_info_html": "Az Exercism- és GitHub-fiókod össze van kapcsolva. A GitHubon merge-elt pull requestekért %{reputation_link} jár az Exercism-fiókodra.",
-        "unlinked_info_html": "Ahhoz, hogy %{reputation_link} járjon az Exercismen, amikor pull requestet küldesz be a GitHubon, kapcsold össze a fiókjaidat az alábbi gombbal.",
+        "unlinked_info_html": "Ahhoz, hogy %{reputation_link} járjon az Exercism-ön, amikor pull requestet küldesz be a GitHubon, kapcsold össze a fiókjaidat az alábbi gombbal.",
         "connect_button": "Összekapcsolás a GitHubdal"
       },
       "discord": {
@@ -3863,7 +3863,7 @@
       },
       "completed_mentoring_1": {
         "thank_you_title_html": "Köszönjük, hogy ajánlást hagytál 💙",
-        "testimonial_message_html": "<strong>Feldobtad iHiD napját.</strong> Oszd meg másokkal is a tapasztalataidat az Exercismen.",
+        "testimonial_message_html": "<strong>Feldobtad iHiD napját.</strong> Oszd meg másokkal is a tapasztalataidat az Exercism-ön.",
         "back_to_discussion_button": "Vissza a beszélgetéshez"
       }
     },
@@ -3894,12 +3894,12 @@
       "new": {
         "hero": {
           "title": "Exercism a te nyelveden",
-          "subtitle_html": "Az Exercismet <strong>minden nyelvre</strong> lefordítjuk, és <strong>szükségünk van a segítségedre!</strong>",
-          "description": "Ha szeretnél segíteni lefordítani az Exercismet az általad ismert nyelv(ek)re, töltsd ki az alábbi űrlapot, és néhány héten belül jelentkezünk a részletekkel!"
+          "subtitle_html": "Az Exercism-öt <strong>minden nyelvre</strong> lefordítjuk, és <strong>szükségünk van a segítségedre!</strong>",
+          "description": "Ha szeretnél segíteni lefordítani az Exercism-öt az általad ismert nyelv(ek)re, töltsd ki az alábbi űrlapot, és néhány héten belül jelentkezünk a részletekkel!"
         },
         "call_to_action": {
           "join_team_signed_out": "Csatlakozz a csapathoz!",
-          "login_prompt_html": "Ha segíteni szeretnél a fordítási projektünkben, jelentkezz be az Exercismre (vagy hozz létre egy fiókot, ha még új vagy itt!)",
+          "login_prompt_html": "Ha segíteni szeretnél a fordítási projektünkben, jelentkezz be az Exercism-re (vagy hozz létre egy fiókot, ha még új vagy itt!)",
           "log_in_button": "Bejelentkezés",
           "sign_up_button": "Regisztráció",
           "join_team_signed_in": "Csatlakozz a csapathoz!",
@@ -3928,7 +3928,7 @@
   },
   "donations_mailer": {
     "payment_created": {
-      "body_markdown": "Szia %{user_handle},\n\nKöszönjük az adományodat! Az Exercism azért létezik, hogy a programozás örömét mindenkihez elvigye, mindenhol.  \nAz adományod segít lehetővé tenni mindazt, amit teszünk.\n\nA Beállítások oldalon megnézheted az Exercismnek tett összes adományodat, és letöltheted a bizonylataidat.  \nHa kérdésed van az adományoddal kapcsolatban, válaszolj erre az e-mailre.\n\nMég egyszer köszönjük!\n\n[Adományaid megtekintése](%{donations_url})"
+      "body_markdown": "Szia %{user_handle},\n\nKöszönjük az adományodat! Az Exercism azért létezik, hogy a programozás örömét mindenkihez elvigye, mindenhol.  \nAz adományod segít lehetővé tenni mindazt, amit teszünk.\n\nA Beállítások oldalon megnézheted az Exercism-nek tett összes adományodat, és letöltheted a bizonylataidat.  \nHa kérdésed van az adományoddal kapcsolatban, válaszolj erre az e-mailre.\n\nMég egyszer köszönjük!\n\n[Adományaid megtekintése](%{donations_url})"
     }
   },
   "training_data": {
@@ -3983,14 +3983,14 @@
         "title": "Általános Szerződési Feltételeink",
         "summary": "Összefoglalva, az Általános Szerződési Feltételeink a következőket mondják:",
         "code_of_conduct_html": "Úgy kell viselkedned, hogy az összhangban álljon az Exercism tiszteletre és empátiára épülő értékeivel, a(z) %{code_of_conduct_link} szerint. Ha ezt nem teszed meg, jogunkban áll blokkolni a platform használatát.",
-        "property_license": "Minden, amit beküldesz az oldalra (pl. a megoldásaid, a visszajelzéseid stb.), a tulajdonodban marad, de az Exercismnek örökös licencet adsz arra, hogy tetszésünk szerint használja.",
+        "property_license": "Minden, amit beküldesz az oldalra (pl. a megoldásaid, a visszajelzéseid stb.), a tulajdonodban marad, de az Exercism-nek örökös licencet adsz arra, hogy tetszésünk szerint használja.",
         "licences_html": "A feladatokat (amelyeket az Exercism biztosít) és a megoldásokat (amelyeket a felhasználók készítenek) a(z) %{mit_license_link}, illetve a(z) %{cc_sa_4_license_link} licencnek megfelelően használhatod.",
         "full_terms_html": "Elolvashatod a teljes %{terms_of_service_link}.",
         "accept_terms": "Elfogadom az Exercism Általános Szerződési Feltételeit"
       },
       "privacy_policy_section": {
         "title": "Adatvédelmi szabályzat",
-        "summary_html": "Az Adatvédelmi szabályzatunk szép és egyszerű. Azt mondja ki, hogy <strong>soha nem osztjuk meg az adataidat az Exercismen kívül senkivel,</strong> és hogy nem használunk harmadik féltől származó sütiket, így itt senki sem követ nyomon. Ha szeretnéd, %{privacy_policy_link}.",
+        "summary_html": "Az Adatvédelmi szabályzatunk szép és egyszerű. Azt mondja ki, hogy <strong>soha nem osztjuk meg az adataidat az Exercism-ön kívül senkivel,</strong> és hogy nem használunk harmadik féltől származó sütiket, így itt senki sem követ nyomon. Ha szeretnéd, %{privacy_policy_link}.",
         "accept_privacy_policy": "Elfogadom az Exercism adatvédelmi szabályzatát"
       },
       "save_button": "Mentés & kezdjük el"
@@ -3999,12 +3999,12 @@
   "docs": {
     "index": {
       "meta_title": "Az Exercism dokumentációja",
-      "meta_description": "Dokumentációnk arról, hogyan használd az Exercismet és hogyan járulj hozzá. Minden, az Exercismmel kapcsolatos kérdésedre itt találod a választ.",
+      "meta_description": "Dokumentációnk arról, hogyan használd az Exercism-öt és hogyan járulj hozzá. Minden, az Exercism-mel kapcsolatos kérdésedre itt találod a választ.",
       "welcome_heading": "Üdv az Exercism dokumentációjában 👋",
       "welcome_subtitle": "Tudj meg mindent, amit az Exercism használatáról és a hozzá való hozzájárulásról tudnod kell.",
       "using_exercism": {
         "heading": "Az Exercism használata",
-        "paragraph_html": "Tanuld meg, hogyan hozd ki a legtöbbet az Exercismen töltött idődből. Találd meg a választ minden kérdésedre, értsd meg, hogyan hozd ki a legtöbbet a mentorálásból, és fedezd fel, hogyan lehetsz jó Exercism-polgár.",
+        "paragraph_html": "Tanuld meg, hogyan hozd ki a legtöbbet az Exercism-ön töltött idődből. Találd meg a választ minden kérdésedre, értsd meg, hogyan hozd ki a legtöbbet a mentorálásból, és fedezd fel, hogyan lehetsz jó Exercism-polgár.",
         "get_started_button": "Kezdj bele"
       },
       "building_exercism": {
@@ -4014,7 +4014,7 @@
       },
       "mentoring": {
         "heading": "Mentorálás",
-        "paragraph": "Értsd meg és sajátítsd el a mentorálás művészetét az Exercismen. Dokumentációnk elmagyarázza, hogyan kezdd el az első beszélgetést, hogyan adj hasznos visszajelzést, és hogyan használd a mentorálási felületet.",
+        "paragraph": "Értsd meg és sajátítsd el a mentorálás művészetét az Exercism-ön. Dokumentációnk elmagyarázza, hogyan kezdd el az első beszélgetést, hogyan adj hasznos visszajelzést, és hogyan használd a mentorálási felületet.",
         "learn_more_link": "Tudj meg többet"
       },
       "community": {
@@ -4029,10 +4029,10 @@
     },
     "track_index": {
       "meta_title": "Az Exercism %{track_title} kurzusának dokumentációja",
-      "meta_description": "Minden, amit a(z) %{track_title} Exercismen való használatáról tudnod kell.",
+      "meta_description": "Minden, amit a(z) %{track_title} Exercism-ön való használatáról tudnod kell.",
       "track_title": "%{track_title} dokumentáció",
-      "track_subtitle": "Minden, amit a(z) %{track_title} Exercismen való használatáról tudnod kell.",
-      "explore_docs_paragraph": "Böngészd a(z) %{track_title} dokumentációnkat, és tudj meg mindent, hogy a legtöbbet hozd ki a(z) %{track_title} Exercismen szerzett élményéből: a(z) %{track_title} telepítésétől a tesztek futtatásán át a nyelv megtanulásáig és a hasznos forrásokig."
+      "track_subtitle": "Minden, amit a(z) %{track_title} Exercism-ön való használatáról tudnod kell.",
+      "explore_docs_paragraph": "Böngészd a(z) %{track_title} dokumentációnkat, és tudj meg mindent, hogy a legtöbbet hozd ki a(z) %{track_title} Exercism-ön szerzett élményéből: a(z) %{track_title} telepítésétől a tesztek futtatásán át a nyelv megtanulásáig és a hasznos forrásokig."
     },
     "tracks": {
       "meta_title": "Az Exercism kurzusdokumentációja",
@@ -4044,7 +4044,7 @@
   "favorites": {
     "index": {
       "heading": "A kedvenceid",
-      "intro_html": "Csillagozd a kedvenc megoldásaidat, miközben az Exercismet használod, majd gyere vissza ide, hogy bármikor tanulhass belőlük. Milyen megoldásokat találsz, amelyek %{highlight}",
+      "intro_html": "Csillagozd a kedvenc megoldásaidat, miközben az Exercism-öt használod, majd gyere vissza ide, hogy bármikor tanulhass belőlük. Milyen megoldásokat találsz, amelyek %{highlight}",
       "intro_highlight": "lenyűgöznek, inspirálnak vagy lelkesítenek?",
       "insider_benefit_html": "A kedvencek a(z) %{insiders_link} tagságod egyik előnye.",
       "insiders_link_text": "Exercism Insiders",
@@ -4059,15 +4059,15 @@
     "meta_tags": {
       "default_description": "Tanulj, gyakorolj, és kapj világszínvonalú mentorálást több mint 50 nyelven. 100%-ban ingyenes.",
       "track": {
-        "title": "%{track_title} az Exercismen",
+        "title": "%{track_title} az Exercism-ön",
         "description": "Válj profivá a(z) %{track_title} kurzusban %{num_exercises} feladat megoldásával. Utána pedig fejlődj tovább világszínvonalú csapatunk mentorálásával."
       },
       "concept": {
-        "title": "%{concept_name} a(z) %{track_title} kurzusban az Exercismen",
+        "title": "%{concept_name} a(z) %{track_title} kurzusban az Exercism-ön",
         "description": "Sajátítsd el a(z) %{concept_name} fogalmat a(z) %{track_title} kurzusban %{num_exercises} feladat megoldásával, világszínvonalú csapatunk támogatásával."
       },
       "exercise": {
-        "title": "%{exercise_title} a(z) %{track_title} kurzusban az Exercismen",
+        "title": "%{exercise_title} a(z) %{track_title} kurzusban az Exercism-ön",
         "description": "Meg tudod oldani a(z) %{exercise_title} feladatot a(z) %{track_title} kurzusban? Fejleszd a(z) %{track_title} tudásodat világszínvonalú mentorcsapatunk támogatásával."
       }
     }

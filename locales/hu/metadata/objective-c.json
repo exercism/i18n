@@ -171,5 +171,5 @@
   "doc:resources:title": "Források az Objective-C-hez",
   "doc:resources:blurb": "Néhány hasznos hivatkozás, amit érdemes megnézni, amikor Objective-C kódot írsz",
   "doc:tests:title": "Tesztelés az Objective-C kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan tesztelheted az Objective-C feladataidat az Exercismen"
+  "doc:tests:blurb": "Tanuld meg, hogyan tesztelheted az Objective-C feladataidat az Exercism-ön"
 }

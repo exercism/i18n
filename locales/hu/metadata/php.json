@@ -442,5 +442,5 @@
   "doc:learning:title": "Hogyan tanuld meg a PHP-t",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj nulláról a PHP-vel",
   "doc:tests:title": "Tesztelés a PHP-kurzuson",
-  "doc:tests:blurb": "Tudj meg, hogyan teszteld a PHP-feladataidat az Exercismen"
+  "doc:tests:blurb": "Tudj meg, hogyan teszteld a PHP-feladataidat az Exercism-ön"
 }

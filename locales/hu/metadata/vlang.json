@@ -344,7 +344,7 @@
   "doc:learning:title": "Hogyan tanuld meg a V-t",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj a nulláról a V-vel",
   "doc:tests:title": "Tesztelés a V kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a V feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a V feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos V-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a V-t"
 }

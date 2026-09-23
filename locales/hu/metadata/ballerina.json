@@ -206,7 +206,7 @@
   "doc:learning:title": "Hogyan tanulj Ballerinát",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj hozzá a Ballerinához a nulláról.",
   "doc:tests:title": "Tesztelés a Ballerina-kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Ballerina-feladataidat az Exercismen.",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Ballerina-feladataidat az Exercism-ön.",
   "doc:resources:title": "Hasznos Ballerina-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Ballerinát.",
   "exercise:service-invocation:source": "Ez a feladat a Ballerina HTTP-kliensét mutatja be ",

@@ -261,5 +261,5 @@
   "doc:learning:title": "Hogyan tanulj meg Erlangot",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj el Erlangot tanulni a nulláról.",
   "doc:tests:title": "Tesztelés az Erlang-kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld az Erlang-feladataidat az Exercismen."
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld az Erlang-feladataidat az Exercism-ön."
 }

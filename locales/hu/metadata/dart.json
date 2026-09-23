@@ -270,7 +270,7 @@
   "doc:learning:title": "Hogyan tanulj meg Dartot",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj bele a Dartba a nulláról.",
   "doc:tests:title": "Tesztelés a Dart-kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Dart-feladataidat az Exercismen.",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Dart-feladataidat az Exercism-ön.",
   "doc:resources:title": "Hasznos Dart-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Dartot.",
   "exercise:numbers:blurb": "TODO: rövid leírás hozzáadása",

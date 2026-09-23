@@ -3,7 +3,7 @@
 Ha elakadsz, az alábbi források egyikétől kérhetsz segítséget:
 
 - A [/r/WebAssembly](https://www.reddit.com/r/WebAssembly/) a WebAssembly subredditje.
-- A [Github issue tracker](https://github.com/exercism/wasm/issues) az a hely, ahol a JavaScript-feladatok fejlesztését és karbantartását követjük az Exercismen. De ha a fenti linkek közül egyik sem segít, nyugodtan nyiss itt egy issue-t.
+- A [Github issue tracker](https://github.com/exercism/wasm/issues) az a hely, ahol a JavaScript-feladatok fejlesztését és karbantartását követjük az Exercism-ön. De ha a fenti linkek közül egyik sem segít, nyugodtan nyiss itt egy issue-t.
 
 ## Hogyan debugolj
 

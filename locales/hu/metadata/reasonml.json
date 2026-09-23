@@ -108,7 +108,7 @@
   "doc:learning:title": "Hogyan tanulj meg ReasonML-t",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj nulláról a ReasonML-lel",
   "doc:tests:title": "Tesztelés a ReasonML-kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a ReasonML-feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a ReasonML-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos ReasonML-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye a ReasonML elsajátításához"
 }

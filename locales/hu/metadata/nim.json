@@ -232,7 +232,7 @@
   "doc:learning:title": "Így tanuld meg a Nim-et",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj bele a Nim tanulásába a nulláról",
   "doc:tests:title": "Tesztelés a Nim kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Nim-feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Nim-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Nim-források",
   "doc:resources:blurb": "Válogatott hasznos források, amelyek segítenek elsajátítani a Nim-et"
 }

@@ -184,7 +184,7 @@
   "doc:learning:title": "Hogyan tanulj meg Idrist",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj bele az Idrisbe a nulláról",
   "doc:tests:title": "Tesztelés az Idris-kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld az Idris-feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld az Idris-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Idris-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani az Idrist"
 }

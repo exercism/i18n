@@ -24,7 +24,7 @@ A Wren többek között az alábbi projektekbe ágyazva bukkan fel:
 * [luxe](https://luxeengine.com) - egy többplatformos, gyors fejlesztésű játékmotor játékok készítéséhez.
 * [Wren Console][wren-console] - egy Wren REPL és CLI, nagyrészt magában a Wrenben megírva.
 
-A Wrent akár a saját projektjeidbe is beágyazhatod. Az Exercismnél a használt gazdaalkalmazás a [Wren Console][wren-console] lesz, amivel a terminálból futtathatjuk és tesztelhetjük a Wren-szkriptjeinket.
+A Wrent akár a saját projektjeidbe is beágyazhatod. Az Exercism-nél a használt gazdaalkalmazás a [Wren Console][wren-console] lesz, amivel a terminálból futtathatjuk és tesztelhetjük a Wren-szkriptjeinket.
 
 
 ### Miért a Wren?

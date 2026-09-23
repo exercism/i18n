@@ -365,7 +365,7 @@
   "doc:learning:title": "Hogyan tanuld meg a Wrent",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj nulláról a Wrennel",
   "doc:tests:title": "Tesztelés a Wren-kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Wren-feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Wren-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Wren-források",
   "doc:resources:blurb": "Válogatás hasznos forrásokból, amelyek segítenek elsajátítani a Wrent"
 }

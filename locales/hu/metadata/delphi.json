@@ -238,7 +238,7 @@
   "doc:learning:title": "Hogyan tanulj Delphi Pascalt",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj nulláról a Delphi Pascal nyelvvel",
   "doc:tests:title": "Tesztelés a Delphi Pascal kurzson",
-  "doc:tests:blurb": "Tanuld meg, hogyan tesztelheted a Delphi Pascal feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan tesztelheted a Delphi Pascal feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos források a Delphi Pascalhoz",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Delphi Pascalt"
 }

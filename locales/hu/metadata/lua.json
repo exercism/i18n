@@ -379,7 +379,7 @@
   "doc:learning:title": "Hogyan tanulj Lua-t",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj hozzá a Luához a nulláról",
   "doc:tests:title": "Tesztelés a Lua-kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Lua-feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Lua-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Lua-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Luát"
 }

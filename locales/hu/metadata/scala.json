@@ -307,7 +307,7 @@
   "doc:learning:title": "Hogyan tanulj meg Scalát",
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj el a Scalával a nulláról",
   "doc:tests:title": "Tesztelés a Scala kurzuron",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Scala-feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Scala-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Scala-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Scalát"
 }

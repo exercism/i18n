@@ -131,7 +131,7 @@
   "doc:installation:title": "A Fortran helyi telepítése",
   "doc:installation:blurb": "Tanuld meg, hogyan telepítsd a Fortrant helyben, hogy a saját gépeden oldhasd meg az Exercism feladatait",
   "doc:tests:title": "Tesztelés a Fortran-kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan tesztelheted a Fortran-feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan tesztelheted a Fortran-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Fortran-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Fortrant"
 }

@@ -123,7 +123,7 @@
   "concept:lists:name": "Listák",
   "concept:tuples:name": "Tuple-ök",
   "concept:pattern-matching:name": "Mintailesztés",
-  "exercise:language-list:blurb": "Ismerd meg a listákat, miközben számontartod azokat a programozási nyelveket, amelyeket éppen az Exercismen tanulsz.",
+  "exercise:language-list:blurb": "Ismerd meg a listákat, miközben számontartod azokat a programozási nyelveket, amelyeket éppen az Exercism-ön tanulsz.",
   "exercise:pacman-rules:blurb": "Ismerd meg a Boolean értékeket a Pac-Man játék szabályainak megvalósításával.",
   "exercise:kitchen-calculator:blurb": "Ismerd meg a tuple-öket és a mintaillesztést, miközben gyakori amerikai sütési mértékegységeket váltasz át a metrikus rendszerbe.",
   "exercise:hello-world:blurb": "Az Exercism klasszikus bevezető feladata. Csak mondd azt, hogy „Hello, World!”.",
@@ -367,7 +367,7 @@
   "doc:learning:title": "Hogyan tanulj Haskellt",
   "doc:learning:blurb": "Áttekintés arról, hogyan vágj bele a Haskellbe a nulláról",
   "doc:tests:title": "Tesztelés a Haskell kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Haskell feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Haskell feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Haskell-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Haskellt",
   "concept:pattern-matching:blurb": "Bevezetés a mintaillesztésbe Haskellben."

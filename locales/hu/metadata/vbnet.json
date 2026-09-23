@@ -356,7 +356,7 @@
   "doc:learning:title": "Hogyan tanuld meg a Visual Basicet",
   "doc:learning:blurb": "Áttekintés arról, hogyan vágj bele a Visual Basicbe a nulláról",
   "doc:tests:title": "Tesztelés a Visual Basic kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Visual Basic feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Visual Basic feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Visual Basic-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Visual Basicet"
 }

@@ -481,7 +481,7 @@
   "concept:ternary-operators:name": "Ternáris operátorok",
   "exercise:lasagna:blurb": "Ismerd meg a Java alapjait egy lasagnerecept segítségével.",
   "exercise:annalyns-infiltration:blurb": "Ismerd meg a Boolean-okat, miközben segítesz Annalynnek kiszabadítani a barátját.",
-  "exercise:karls-languages:blurb": "Ismerd meg a listákat, miközben segítesz Karlnak számon tartani, milyen nyelveket szeretne megtanulni az Exercismen.",
+  "exercise:karls-languages:blurb": "Ismerd meg a listákat, miközben segítesz Karlnak számon tartani, milyen nyelveket szeretne megtanulni az Exercism-ön.",
   "exercise:calculator-conundrum:blurb": "Ismerd meg a kivételkezelést egy egyszerű számológép elkészítésével.",
   "exercise:salary-calculator:blurb": "Ismerd meg a ternáris operátorokat fizetések kiszámítása közben.",
   "exercise:tim-from-marketing:blurb": "Ismerd meg a null literált és a nullázható változókat a Javában, névkitűzők nyomtatása közben.",
@@ -521,7 +521,7 @@
   "doc:learning:title": "Hogyan tanulj meg Javát",
   "doc:learning:blurb": "Áttekintés arról, hogyan vágj bele a Javába a nulláról",
   "doc:tests:title": "Tesztelés a Java-kurzuson",
-  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Java-feladataidat az Exercismen",
+  "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Java-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Java-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Javát"
 }

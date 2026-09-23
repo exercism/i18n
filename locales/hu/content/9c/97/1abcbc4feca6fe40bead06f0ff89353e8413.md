@@ -1,7 +1,7 @@
 ## Bevezetés
 Sziasztok! Remélem, mindenki jól van.
 
-Nagyon izgalmas hetek állnak mögöttünk az Exercismnél: elindult az Exercism Premium és az Exercism Insiders. Voltak remek közösségi hívásaink is, és rengeteg fejlesztést telepítettünk az oldalra, továbbiak pedig hamarosan érkeznek. Sok mindennek örülhetünk mostanában, de semmi sem izgalmasabb annál, mint hogy beléptünk a #12in23 hatodik hónapjába! Az S-kifejezések nyara, vagy szebben rövidítve a Summer of Sexps.
+Nagyon izgalmas hetek állnak mögöttünk az Exercism-nél: elindult az Exercism Premium és az Exercism Insiders. Voltak remek közösségi hívásaink is, és rengeteg fejlesztést telepítettünk az oldalra, továbbiak pedig hamarosan érkeznek. Sok mindennek örülhetünk mostanában, de semmi sem izgalmasabb annál, mint hogy beléptünk a #12in23 hatodik hónapjába! Az S-kifejezések nyara, vagy szebben rövidítve a Summer of Sexps.
 
 Szokás szerint a programozás világának bölcs mestere, Erik csatlakozik hozzám.
 
@@ -90,7 +90,7 @@ Ezt a tulajdonságot gyakran úgy foglalják össze, hogy a nyelv a kódot adatk
 - Magát a nyelvet egy kutatási AI Memos-sorozatban mutatták be, amelyeket együttesen Lambda-dolgozatoknak neveznek.
 - Ez volt az első Lisp dialektus, amely lexical scopingot használt (az értékek csak ott vannak scope-ban, ahol definiálták), és az elsők egyike volt, amely támogatta az első osztályú folytatásokat.
 - Hivatalos IEEE szabvány, valamint egy de facto szabvány, a Revised Report on the Algorithmic Language Scheme (RnRS).
-- Számos implementáció létezik: ChezScheme, Guile (mindkettő támogatott az Exercismen), MIT/GNU Scheme és Racket
+- Számos implementáció létezik: ChezScheme, Guile (mindkettő támogatott az Exercism-ön), MIT/GNU Scheme és Racket
 - Nagyon minimális nyelv, kevés szintaxissal, de ez nem szándékos volt.
 - A szerzők valami bonyolultat akartak építeni, végül azonban sokkal egyszerűbbet terveztek, mint szándékoztak
 - Valódi farokrekurzió. Az iteráció idiómás módja a rekurzió.
@@ -205,7 +205,7 @@ Ez nem jelenti azt, hogy mindegyikük interpretált, mivel itt többféle megold
 ## Melyiket próbáld ki
 
 - Ha még sosem próbáltál Lispt, a Scheme és a Racket remek választás, mivel mindkettőnek nagyon minimális a szintaxisa.
-- Ugyanakkor a Common Lispnek és a Clojure-nak is van tanulómódja, így valószínűleg ezek a legjobbak az Exercismen való tanuláshoz.
+- Ugyanakkor a Common Lispnek és a Clojure-nak is van tanulómódja, így valószínűleg ezek a legjobbak az Exercism-ön való tanuláshoz.
 - Ha már használod az Emacst, az Emacs Lisp kézenfekvő választás.
 - Hasonlóképpen, ha JVM-es nyelvet használsz, a Clojure kézenfekvő lehetőség.
 - Az Emacs Lisp (Emacsen keresztül), a Clojure (IntelliJ-n keresztül) és a Racket (DrRacketen keresztül) mind kiváló IDE-támogatással rendelkezik.
