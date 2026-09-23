@@ -1,0 +1,10 @@
+{
+  "exercise:hello-world:name": "Hello World",
+  "exercise:resistor-color-duo:name": "Δύο χρώματα αντίστασης",
+  "exercise:hello-world:blurb": "Η κλασική εισαγωγική άσκηση. Πες απλώς \"Hello, World!\"",
+  "exercise:hello-world:source": "Πρόκειται για μια άσκηση που μυεί τους χρήστες στη χρήση του Exercism",
+  "exercise:resistor-color-duo:blurb": "Μετέτρεψε χρωματικούς κώδικες, όπως αυτούς που χρησιμοποιούνται στις αντιστάσεις, σε μια αριθμητική τιμή.",
+  "exercise:resistor-color-duo:source": "Maud de Vries, Erik Schierboom",
+  "track:blurb": "Στον πυρήνα της, η Solidity είναι μια γλώσσα προγραμματισμού με έντονες επιρροές από C++, Python και JavaScript. Είναι αντικειμενοστρεφής γλώσσα που χρησιμοποιεί την Ethereum Virtual Machine, γνωστή και ως _EVM_. Έχει σύνταξη παρόμοια με ECMAScript, κάνοντάς την οικεία σε κάποιους, ενώ είναι στατικά τυπική, με variadic τύπους επιστροφής.",
+  "exercise:token-transfer:name": "Μεταφορά token"
+}

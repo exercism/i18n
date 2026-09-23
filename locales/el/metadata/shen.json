@@ -1,0 +1,6 @@
+{
+  "exercise:hello-world:name": "Hello World",
+  "exercise:hello-world:blurb": "Η κλασική εισαγωγική άσκηση. Πες απλώς \"Hello, World!\"",
+  "exercise:hello-world:source": "Πρόκειται για μια άσκηση που μυεί τους χρήστες στη χρήση του Exercism",
+  "track:blurb": "Μια Lisp που φιλοξενείται σε άλλες γλώσσες, με αντιστοίχιση προτύπων, Prolog και ένα ισχυρό σύστημα τύπων."
+}

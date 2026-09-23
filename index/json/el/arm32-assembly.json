@@ -1,0 +1,25 @@
+{
+  "kind": "track",
+  "locale": "el",
+  "names": {
+    "docs/INSTALLATION.md": {"el":"Εγκατάσταση του ARM32 Assembly τοπικά","en":"Installing ARM32 Assembly locally"},
+    "docs/LEARNING.md": {"el":"Πώς να μάθεις ARM32 Assembly","en":"How to learn ARM32 Assembly"},
+    "docs/RESOURCES.md": {"el":"Χρήσιμοι πόροι για το ARM32 Assembly","en":"Useful ARM32 Assembly resources"},
+    "docs/TESTS.md": {"el":"Δοκιμές στο track ARM32 Assembly","en":"Testing on the ARM32 Assembly track"},
+    "exercises/practice/hello-world": {"el":"Hello World","en":"Hello World"},
+    "exercises/practice/leap": {"el":"Δίσεκτο έτος","en":"Leap"}
+  },
+  "paths": {
+    "docs/ABOUT.md": ["9864ed00303fd196319f4058cddc6994eaed0a14"],
+    "docs/INSTALLATION.md": ["cd6ce8521d1baba7dc72cdaf56a8a9eb3cb23882"],
+    "docs/LEARNING.md": ["b14434dc01362de2abac1b97d0cc6b759d3a2c8b"],
+    "docs/RESOURCES.md": ["9811f0460410a89cfc315937e9d39dc64e17f016"],
+    "docs/TESTS.md": ["bec9502b8987111c0315223e21e299485767937f"],
+    "exercises/practice/hello-world/.docs/instructions.md": ["c9570e48a9765b083b274c356cbb997754706318"],
+    "exercises/practice/leap/.docs/instructions.md": ["b14f8565d61694d7c20d78e10f966bd3deaaf748"],
+    "exercises/practice/leap/.docs/introduction.md": ["4ffd2da594a51072cb08a32004b217c1c988cfdc"],
+    "exercises/shared/.docs/help.md": ["45aa2d6411fe5d62666ad52d0981ca77f05503cd"],
+    "exercises/shared/.docs/tests.md": ["1f197bf7fc362ce77b023b134ec9d0b7d18a16e0"]
+  },
+  "repo": "arm32-assembly"
+}

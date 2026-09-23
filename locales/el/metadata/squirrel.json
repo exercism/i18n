@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: πρόσθεσε μια σύντομη περιγραφή",
+  "doc:installation:title": "Εγκατάσταση του Squirrel τοπικά",
+  "doc:installation:blurb": "Μάθε πώς να εγκαταστήσεις το Squirrel τοπικά για να λύνεις τις ασκήσεις του Exercism στον υπολογιστή σου.",
+  "doc:learning:title": "Πώς να μάθεις Squirrel",
+  "doc:learning:blurb": "Μια επισκόπηση του πώς να ξεκινήσεις από την αρχή με τη Squirrel.",
+  "doc:tests:title": "Δοκιμές στη διαδρομή Squirrel",
+  "doc:tests:blurb": "Μάθε πώς να δοκιμάζεις τις ασκήσεις σου στη Squirrel στο Exercism.",
+  "doc:resources:title": "Χρήσιμοι πόροι για τη Squirrel",
+  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων που θα σε βοηθήσουν να κατακτήσεις τη Squirrel."
+}
