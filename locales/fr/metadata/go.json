@@ -565,7 +565,7 @@
   "concept:multiple-return-values:blurb": "Les fonctions peuvent renvoyer plusieurs valeurs de retour.",
   "concept:numbers:blurb": "Go possède plusieurs types pour représenter les entiers, les nombres à virgule flottante et même les nombres complexes !",
   "concept:packages:blurb": "Les packages sont l'unité de réutilisation de code en Go.",
-  "concept:range-iteration:blurb": "Go dispose d'une boucle « for range » spéciale pour parcourir facilement des collections de données.",
+  "concept:range-iteration:blurb": "La syntaxe « for range » permet de répéter un bloc de code de différentes manières.",
   "concept:randomness:blurb": "Génère des nombres entiers et des nombres à virgule flottante pseudo-aléatoires.",
   "concept:regular-expressions:blurb": "Une expression régulière est une séquence de caractères qui spécifie un motif de recherche.",
   "concept:runes:blurb": "Les runes représentent les caractères Unicode dans les chaînes de caractères Go."
