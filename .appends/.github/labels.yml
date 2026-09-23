@@ -14,3 +14,7 @@
 - name: "over-cap"
   description: "A translation request too large to run automatically"
   color: "fbca04"
+
+- name: "sweep"
+  description: "The reconciliation sweep's standing summary of what is still untranslated"
+  color: "0e8a16"

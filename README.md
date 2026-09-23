@@ -60,6 +60,7 @@ node scripts/build-english.mjs                # flatten its English into .build/
 node scripts/validate.mjs all                 # the CI gate
 node scripts/coverage.mjs --content-repos=../ruby,../docs
 node scripts/completeness.mjs --source-repo=../ruby --locales=<locale>
+node scripts/sweep.mjs --repos=exercism/ruby,exercism/docs   # the same question of main
 ```
 
 A sibling `../website` checkout is found automatically and read at `origin/main`, whichever
@@ -80,6 +81,22 @@ The loop acts as the Exercism i18n GitHub App. It opens the issues, comments on 
 translations to `main` here and replies on the PR, all as `exercism-i18n[bot]`, with
 short-lived tokens that each job mints for the repos it touches. See "The Exercism i18n app"
 in [source-repo-workflows/README.md](./source-repo-workflows/README.md).
+
+## What the per-PR check cannot catch
+
+`i18n / completeness` is evaluated when it runs, against the world as it is then, and a PR
+merges later. A locale can join `productionTargets` after a PR has gone green, an
+administrator can merge a PR whose check failed, and a PR can predate the check. Each of
+those leaves English on `main` with no translation and nothing reporting it.
+
+`.github/workflows/sweep.yml` runs `scripts/sweep.mjs` every day and asks the question those
+races cannot beat: is each source repo's `main` fully translated for every production
+locale, right now. It is the same `scripts/completeness.mjs`, run with no `--base` so that
+everything at the ref is required rather than only what changed, against every repo the
+registry knows and every track repo in the organisation. It writes one issue, labelled
+`sweep`, and rewrites that issue in place on every run, so it never spams and never turns
+into a thread. Each row names the command in `exercism/translator` that translates that repo
+into that locale.
 
 `.github/workflows/translate-on-issue.yml` sends each new or updated issue to
 [`exercism/translator`](https://github.com/exercism/translator) as a `repository_dispatch`

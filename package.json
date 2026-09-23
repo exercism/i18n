@@ -18,6 +18,7 @@
     "validate": "node scripts/validate.mjs",
     "coverage": "node scripts/coverage.mjs",
     "completeness": "node scripts/completeness.mjs",
+    "sweep": "node scripts/sweep.mjs",
     "no-deletions": "node scripts/no-deletions.mjs",
     "index": "node scripts/build-index.mjs",
     "test": "node scripts/test.mjs",

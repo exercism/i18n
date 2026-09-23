@@ -204,6 +204,7 @@ header comment is its documentation, so read it before changing the script. Ther
 | `build-english.mjs` | Flattens the website's English. Writes `.build/english/{backend,frontend,arrays,source}.json` for a translation pass to read, or with `--content-repos` one `.build/english/metadata/<repo>.json` per repo. The other scripts call the same builder directly and do not read these files. |
 | `validate.mjs` | The checker. Catalogs: unit parity, plural groups, placeholders, tags, whitespace. Content: path shape, UTF-8, JSON, no stamps, copied English, and structure against English when `--content-repos` provides it. Writes stamps with `--stamp`. Exits 1 on an ERROR in a production locale; `--gate=all` and `--complete` widen that. |
 | `completeness.mjs` | The blocking check for one source repo, in full or relative to `--base`. Content is checked by blob id, website and metadata units by presence and stamp, so an edited key or blurb blocks. |
+| `sweep.mjs` | The daily reconciliation: `completeness.mjs` with no `--base` against every source repo's `main`, sharded, merged into one standing summary issue. It answers what the per-PR check cannot, because that check is evaluated before the PR merges. |
 | `english-changes.mjs` | Used by the queue. Turns GitHub's PR file list (paths and blob shas) into the issue's table. For a changed `config.json` or `metadata.toml` it lists the keys whose English changed, using both versions of the file fetched by blob id. With `--push` it reports whether one push to a queued PR changed the PR's English, using the two commits' trees. It reads API responses, never a checkout. |
 | `coverage.mjs` | Per-locale unit counts (website and metadata) and blob coverage for the named repos. Reports only, and always exits 0. |
 | `no-deletions.mjs` | Fails on a removed file or key under `locales/` between two refs. |
@@ -216,6 +217,31 @@ header comment is its documentation, so read it before changing the script. Ther
 - **Errors block; warnings never do.** WARN checks are heuristics and are expected to flag
   some correct text. Read them, and never turn one into an error.
 - **`EXERCISM_I18N_ROOT`** points the scripts at another tree. It exists for `test.mjs`.
+
+## The sweep
+
+`i18n / completeness` is per-PR and is evaluated against the world at check time, so it
+cannot stay true until the PR merges. A locale joining `productionTargets` after a PR goes
+green, an administrator merging past a red check, and a PR that predates the check all leave
+untranslated English on `main` with nothing reporting it. A locale in `targets` but not in
+`productionTargets` is never asked for anything at all, so it rots while English changes.
+
+`.github/workflows/sweep.yml` runs `scripts/sweep.mjs` daily and on demand. It covers every
+repo kind in `scripts/lib/source-repos.mjs` plus every track repo the `exercism-track` topic
+finds, against every locale in `productionTargets`, and it reports rather than queues.
+
+- **It reports into one issue**, labelled `sweep`, rewritten in place on every run. Nothing
+  is ever posted twice and the issue is not a thread. Do not close it.
+- **It opens no translation issues.** The queue's issues are scoped to a pull request
+  (`exercism/translator`'s `run-issue.mjs` derives a run's scope from a PR's diff), and a
+  sweep has no PR. What it finds is a whole-repo pass, which is
+  `node scripts/translate.mjs <source> <locale>` over there and needs no issue. Each row
+  prints that command.
+- **A red run means the sweep is broken, not that there is a backlog.** Outstanding
+  translations are the measurement. `sweep.mjs` exits non-zero only when it could not answer.
+- **It reports its own silence.** The issue carries the date it was last written in its title
+  and its first line, a failed scheduled run mails the repo's admins, and the next run that
+  works compares its timestamp with the one it overwrites and warns when the gap is too long.
 
 ## How the website consumes this repo
 
@@ -237,6 +263,11 @@ serves.
 Working and tested: everything in the Scripts table, against a fixture and (read-only)
 against the real `website`, `ruby`, `docs` and `problem-specifications`; the blobless fetch of
 `exercism/website` and of a real PR's merge ref.
+
+`sweep.mjs` has been run for real over 20 source repos, `website`, `docs`, `blog`,
+`website-copy`, `problem-specifications` and 15 tracks, and found a real gap in
+`exercism/go`. Its workflow has not run in CI yet, so the first scheduled run is the thing to
+watch.
 
 Not done yet:
 
