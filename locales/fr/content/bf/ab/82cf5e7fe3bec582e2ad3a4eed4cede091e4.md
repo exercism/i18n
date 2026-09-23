@@ -1,0 +1,12 @@
+# À propos
+
+Haxe fournit des types énumérés, qui servent à décrire une structure de données :
+
+```haxe
+enum Color {
+  Red;
+  Green;
+  Blue;
+  Rgb(r:Int, g:Int, b:Int);
+}
+```

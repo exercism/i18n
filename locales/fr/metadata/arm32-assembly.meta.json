@@ -1,0 +1,19 @@
+{
+  "stamps": {
+    "doc:installation:blurb": "3fea7e2383333d69ab4e12a92a51045920d46525",
+    "doc:installation:title": "561551042245df0fdcce43a9f1c26b3bd8ccf05d",
+    "doc:learning:blurb": "d33bdac58151bad55c53b362f38eac0e99797ab4",
+    "doc:learning:title": "7f8be7fd0300aebe80747b1b580fc672550ffe6b",
+    "doc:resources:blurb": "19633b0d71bd8b461dede90e0b15d2b9645e03bd",
+    "doc:resources:title": "d8d3db6775185fce86943e6b2689bb5debd57110",
+    "doc:tests:blurb": "ca086cc8ef31d8c01b7f9f54012d4b3202e924f9",
+    "doc:tests:title": "63360ed3471a697f4b0a1b376d8a536006347a42",
+    "exercise:hello-world:blurb": "bd5afc52aebfccdbdc4c5487b65d43cd1b684dab",
+    "exercise:hello-world:name": "5e1c309dae7f45e0f39b1bf3ac3cd9db12e7d689",
+    "exercise:hello-world:source": "b32e4f82d76468385210e7f4fab7f7ac91915f4d",
+    "exercise:leap:blurb": "933dcbd9499b1f273b1fbd127deebf6b232b590e",
+    "exercise:leap:name": "dd38e843ed4d7dc73c6ce77d8a475e9e38c3f769",
+    "exercise:leap:source": "16638aefac352d0a24c0a69bf0b5a6a3aa43484e",
+    "track:blurb": "0db0e592f56b73b8c746d76d294ca4bc3b720b7e"
+  }
+}

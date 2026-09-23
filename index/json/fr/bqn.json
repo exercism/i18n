@@ -1,0 +1,22 @@
+{
+  "kind": "track",
+  "locale": "fr",
+  "names": {
+    "docs/INSTALLATION.md": {"en":"Installing BQN locally","fr":"Installer BQN en local"},
+    "docs/LEARNING.md": {"en":"How to learn BQN","fr":"Comment apprendre BQN"},
+    "docs/RESOURCES.md": {"en":"Useful BQN resources","fr":"Ressources utiles pour BQN"},
+    "docs/TESTS.md": {"en":"Testing on the BQN track","fr":"Tester sur le parcours BQN"},
+    "exercises/practice/hello-world": {"en":"Hello World","fr":"Hello World"}
+  },
+  "paths": {
+    "docs/ABOUT.md": ["9864ed00303fd196319f4058cddc6994eaed0a14"],
+    "docs/INSTALLATION.md": ["cd6ce8521d1baba7dc72cdaf56a8a9eb3cb23882"],
+    "docs/LEARNING.md": ["52177d7c979345ab6683fd5c26f7959ca900b433"],
+    "docs/RESOURCES.md": ["2fbdcbd48d56a73548f69bfe8be1c5320cd26736"],
+    "docs/TESTS.md": ["bec9502b8987111c0315223e21e299485767937f"],
+    "exercises/practice/hello-world/.docs/instructions.md": ["0342bf0a4c5043afa739c8c5a61c1b98fb7ee529"],
+    "exercises/shared/.docs/help.md": ["45aa2d6411fe5d62666ad52d0981ca77f05503cd"],
+    "exercises/shared/.docs/tests.md": ["1f197bf7fc362ce77b023b134ec9d0b7d18a16e0"]
+  },
+  "repo": "bqn"
+}

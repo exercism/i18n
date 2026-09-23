@@ -1,0 +1,10 @@
+{
+  "exercise:hello-world:name": "Hello World",
+  "exercise:resistor-color-duo:name": "Duo de couleurs de résistance",
+  "exercise:hello-world:blurb": "L'exercice d'introduction classique. Dis simplement « Hello, World! »",
+  "exercise:hello-world:source": "Il s'agit d'un exercice pour initier les utilisateurs à Exercism.",
+  "exercise:resistor-color-duo:blurb": "Convertir les codes couleur utilisés sur les résistances en une valeur numérique.",
+  "exercise:resistor-color-duo:source": "Maud de Vries, Erik Schierboom",
+  "track:blurb": "Au fond, Solidity est un langage de programmation fortement influencé par C++, Python et JavaScript. C'est un langage orienté objet qui s'appuie sur l'Ethereum Virtual Machine, aussi appelée _EVM_. Sa syntaxe proche d'ECMAScript le rend familier à certains, alors qu'il est aussi typé statiquement, avec des types de retour variadiques.",
+  "exercise:token-transfer:name": "Transfert de jetons"
+}
