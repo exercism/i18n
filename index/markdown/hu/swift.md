@@ -644,7 +644,8 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 
 ### Santa's Swifty Helper (A Mikulás swifty segédje)
 
-- `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/instructions.md)): [Latest](../../../locales/hu/content/3f/a2/ab5e8ddc7901074b7719bd81a0047a5f4c7d.md)
+- `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/instructions.md)): [Latest](../../../locales/hu/content/94/76/35eee692acb0eb2bcc0fbd62cf07a25062b1.md)
+  - [`3fa2ab5e8d`](../../../locales/hu/content/3f/a2/ab5e8ddc7901074b7719bd81a0047a5f4c7d.md)
 - `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/introduction.md)): [Latest](../../../locales/hu/content/f8/95/8c25ce8c2bfa582c0f9eb0234325bb638e87.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/hints.md)): [Latest](../../../locales/hu/content/02/a6/1bb02901f32857a1a1c89f50145d3b6c6181.md)
 
