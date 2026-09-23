@@ -332,5 +332,7 @@
   "doc:resources:title": "Ressources utiles sur Bash",
   "doc:resources:blurb": "Une sélection de ressources utiles pour t'aider à maîtriser Bash",
   "doc:syllabus:title": "Documents de concepts Bash",
-  "doc:syllabus:blurb": "Les concepts de la programmation Bash qui apparaîtront dans le parcours d'apprentissage"
+  "doc:syllabus:blurb": "Les concepts de la programmation Bash qui apparaîtront dans le parcours d'apprentissage",
+  "exercise:save-the-cow:name": "Sauve la vache",
+  "exercise:save-the-cow:blurb": "Implémenter un jeu de devinettes de mots."
 }
