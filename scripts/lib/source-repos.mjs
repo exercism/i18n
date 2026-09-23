@@ -49,6 +49,35 @@ export function kindForRepo(fullName) {
   return name in REPO_KINDS && name !== "track" ? name : "track";
 }
 
+/**
+ * Whether a track repo is one Exercism still runs, read from its own config.json.
+ *
+ * A track's top-level config.json carries `"active": false` once the site stops
+ * showing it, and that flag is Exercism's own definition of the distinction
+ * (glennj, "FYI: List of inactive track repositories",
+ * https://forum.exercism.org/t/85471). Reading it from the tree at the ref
+ * being processed keeps the answer in the same place as the English it goes
+ * with, and needs no network call, no credential and no list of tracks kept
+ * here. exercism.org's /api/v2/tracks answers the same question, but it sits
+ * behind Cloudflare and returns 403 to a script.
+ *
+ * A config.json that is missing or unreadable counts as active. A half-fetched
+ * repo or a config that moves then makes a caller do more work, which someone
+ * notices, instead of quietly dropping a live track out of a check.
+ *
+ * @param {{path,id}[]} entries  the repo's tree (`git ls-tree`)
+ * @param {(entries) => {path,id,text}[]} read  reads blobs as text
+ */
+export function isActiveTrack(entries, read) {
+  const config = entries.find((entry) => entry.path === "config.json");
+  if (!config) return true;
+  try {
+    return JSON.parse(read([config])[0].text).active !== false;
+  } catch {
+    return true;
+  }
+}
+
 export function repoKind(id) {
   const kind = REPO_KINDS[id];
   if (!kind) fail(`unknown repo kind "${id}". Known: ${REPO_KIND_IDS.join(", ")}`);

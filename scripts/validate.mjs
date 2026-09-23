@@ -50,10 +50,15 @@
 // This covers the two website catalogs, and the metadata catalog of every repo
 // named in `--content-repos` (see scripts/lib/metadata.mjs: a catalog whose
 // repo is not named is shape-checked and reported as `unv`, unverified, never
-// `ok`). This script cannot tell whether a locale holds every content file,
-// because that English is spread over eighty repos and a run has at most a few
-// of them. `scripts/completeness.mjs` answers that for one source repo at a
-// time.
+// `ok`). A track repo whose own config.json says `"active": false` is left out
+// of that requirement, because the website does not show an inactive track and
+// nobody has asked for one to be translated. A locale that holds a catalog for
+// one anyway is still checked against its English: the exemption decides what a
+// locale must hold, never what is checked once it holds it.
+//
+// This script cannot tell whether a locale holds every content file, because
+// that English is spread over eighty repos and a run has at most a few of them.
+// `scripts/completeness.mjs` answers that for one source repo at a time.
 //
 // ## Staleness is counted, never an error
 //
@@ -82,7 +87,7 @@ import path from "node:path";
 import { PRODUCTION_LOCALES, REPO_ROOT, TARGET_LOCALES, assertTargetLocale, fail, productionGateNotice } from "./lib/constants.mjs";
 import { parseArgs } from "./lib/args.mjs";
 import { lsTree, readBlobs, refReader, resolveSha } from "./lib/git.mjs";
-import { defaultRef, parseContentRepos, resolveRepo } from "./lib/source-repos.mjs";
+import { defaultRef, isActiveTrack, parseContentRepos, resolveRepo } from "./lib/source-repos.mjs";
 import { buildWebsiteEnglish } from "./lib/website-english.mjs";
 import { CATALOG_KINDS, DONE, MISSING, STALE, UNSTAMPED, catalogPath, englishUnits, flattenCatalog, readStamps, targetEntries, unitHash, unitState, writeStamps } from "./lib/catalogs.mjs";
 import { CATALOG_TYPE_IDS, CONTENT_EXTENSIONS, CONTENT_TYPE_ID } from "./lib/content-types.mjs";
@@ -153,14 +158,32 @@ function validateCatalog({ locale, kind, english, requireComplete, stamp, stampU
 function validateMetadata({ locale, contentRepos, requireComplete, stamp, stampUnits }) {
   const results = [];
   const repos = new Map(contentRepos.map((repo) => [path.basename(repo.dir), repo]));
-  const names = new Set([...heldMetadataRepos(locale), ...(requireComplete ? [...repos.keys()].filter((name) => METADATA_REPO_KINDS.includes(repos.get(name).kind)) : [])]);
+
+  // Each repo's tree is listed once and shared by the two things that read it:
+  // deciding whether the track is still active, and building its English.
+  const trees = new Map();
+  const treeOf = (repo) => {
+    if (!trees.has(repo)) trees.set(repo, lsTree(repo.dir, repo.ref));
+    return trees.get(repo);
+  };
+
+  // CI passes every repo any locale holds a catalog for, so one locale
+  // translating an inactive track would otherwise require every other locale to
+  // translate it too. `isActiveTrack` reads the track's own config.json at the
+  // ref already being validated.
+  const mustHold = (name) => {
+    const repo = repos.get(name);
+    if (!METADATA_REPO_KINDS.includes(repo.kind)) return false;
+    return repo.kind !== "track" || isActiveTrack(treeOf(repo), refReader(repo.dir, repo.ref).readMany);
+  };
+  const names = new Set([...heldMetadataRepos(locale), ...(requireComplete ? [...repos.keys()].filter(mustHold) : [])]);
 
   for (const name of [...names].sort()) {
     const file = metadataPath(locale, name);
     const type = `metadata/${name}`;
     const repo = repos.get(name);
     if (repo) {
-      const english = buildMetadataEnglish(repo.kind, lsTree(repo.dir, repo.ref), refReader(repo.dir, repo.ref).readMany);
+      const english = buildMetadataEnglish(repo.kind, treeOf(repo), refReader(repo.dir, repo.ref).readMany);
       results.push(validateCatalog({ locale, kind: METADATA_KIND, english, requireComplete, stamp, stampUnits, file, type }));
       continue;
     }
