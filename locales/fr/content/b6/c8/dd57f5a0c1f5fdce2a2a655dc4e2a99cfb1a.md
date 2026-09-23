@@ -1,0 +1,32 @@
+# Introduction
+
+Les `struct` C# sont très proches des `class`.
+Ils possèdent un état et un comportement.
+Ils ont des constructeurs qui prennent des arguments ; les instances peuvent être affectées, comparées pour l'égalité et stockées dans des collections.
+
+```csharp
+enum Unit
+{
+    Kg,
+    Lb
+}
+struct Weight
+{
+    private double count;
+    private Unit unit;
+
+    public Weight(double count, Unit unit)
+    {
+        this.count = count;
+        this.unit = unit;
+    }
+
+    public override string ToString()
+    {
+        return count.ToString() + unit.ToString();
+    }
+}
+
+new Weight(77.5, Unit.Kg).ToString();
+// => "77.6Kg"
+```

@@ -1,0 +1,20 @@
+{
+  "kind": "track",
+  "locale": "fr",
+  "names": {
+    "docs/INSTALLATION.md": {"en":"Installing Triton VM assembly locally","fr":"Installer Triton VM assembly en local"},
+    "docs/LEARNING.md": {"en":"How to learn Triton VM assembly","fr":"Comment apprendre Triton VM assembly"},
+    "docs/RESOURCES.md": {"en":"Useful Triton VM assembly resources","fr":"Ressources utiles pour Triton VM assembly"},
+    "docs/TESTS.md": {"en":"Testing on the Triton VM assembly track","fr":"Tester sur le parcours Triton VM assembly"}
+  },
+  "paths": {
+    "docs/ABOUT.md": ["9864ed00303fd196319f4058cddc6994eaed0a14"],
+    "docs/INSTALLATION.md": ["cd6ce8521d1baba7dc72cdaf56a8a9eb3cb23882"],
+    "docs/LEARNING.md": ["b14434dc01362de2abac1b97d0cc6b759d3a2c8b"],
+    "docs/RESOURCES.md": ["9811f0460410a89cfc315937e9d39dc64e17f016"],
+    "docs/TESTS.md": ["bec9502b8987111c0315223e21e299485767937f"],
+    "exercises/shared/.docs/help.md": ["45aa2d6411fe5d62666ad52d0981ca77f05503cd"],
+    "exercises/shared/.docs/tests.md": ["1f197bf7fc362ce77b023b134ec9d0b7d18a16e0"]
+  },
+  "repo": "tasm"
+}

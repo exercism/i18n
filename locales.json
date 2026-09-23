@@ -27,7 +27,7 @@
     "English is not a target locale and never appears in either list. It is not",
     "stored in this repo. See ENGLISH-SOURCE.md."
   ],
-  "targets": ["hu", "el"],
-  "productionTargets": ["hu", "el"],
+  "targets": ["hu", "fr", "el"],
+  "productionTargets": ["hu", "fr", "el"],
   "plannedTargets": []
 }

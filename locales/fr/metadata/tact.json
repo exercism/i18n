@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO : ajouter une accroche",
+  "doc:installation:title": "Installe Tact en local",
+  "doc:installation:blurb": "Apprends à installer Tact en local pour résoudre les exercices d'Exercism sur ta propre machine",
+  "doc:learning:title": "Comment apprendre Tact",
+  "doc:learning:blurb": "Un aperçu pour bien démarrer de zéro avec Tact",
+  "doc:tests:title": "Teste sur le parcours Tact",
+  "doc:tests:blurb": "Apprends à tester tes exercices Tact sur Exercism",
+  "doc:resources:title": "Ressources utiles pour Tact",
+  "doc:resources:blurb": "Une collection de ressources utiles pour t'aider à maîtriser Tact"
+}

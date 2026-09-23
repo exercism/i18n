@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO : ajouter une accroche",
+  "doc:installation:title": "Installer Dyalog APL en local",
+  "doc:installation:blurb": "Apprends à installer Dyalog APL en local pour résoudre les exercices d'Exercism sur ta propre machine",
+  "doc:learning:title": "Comment apprendre Dyalog APL",
+  "doc:learning:blurb": "Un aperçu de la façon de débuter de zéro avec Dyalog APL",
+  "doc:tests:title": "Tester sur le parcours Dyalog APL",
+  "doc:tests:blurb": "Apprends à tester tes exercices Dyalog APL sur Exercism",
+  "doc:resources:title": "Ressources utiles pour Dyalog APL",
+  "doc:resources:blurb": "Une sélection de ressources utiles pour t'aider à maîtriser Dyalog APL"
+}
