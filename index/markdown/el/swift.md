@@ -518,7 +518,8 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 ### Freelancer Rates (Χρεώσεις ελεύθερου επαγγελματία)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/freelancer-rates/.docs/instructions.md)): [Latest](../../../locales/el/content/60/d3/76a2e8df613e76db64860c011b2365ef36b9.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/freelancer-rates/.docs/introduction.md)): [Latest](../../../locales/el/content/8a/96/744245900be4db98df58663f0d8b388bfd27.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/freelancer-rates/.docs/introduction.md)): [Latest](../../../locales/el/content/ac/9e/0cb9a77720b28e1cd33f917fbd98e1d5f1bc.md)
+  - [`8a96744245`](../../../locales/el/content/8a/96/744245900be4db98df58663f0d8b388bfd27.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/freelancer-rates/.docs/hints.md)): [Latest](../../../locales/el/content/65/e2/2184fb49adbd4a20e90acc616ed393ec814d.md)
 
 ### High Score Board (Πίνακας υψηλών βαθμολογιών)
@@ -530,7 +531,8 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 ### Lasagna Master (Μάστορας λαζάνιας)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/instructions.md)): [Latest](../../../locales/el/content/e7/be/156216e1bfe80505bfd12b3fd32d2216fff1.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/introduction.md)): [Latest](../../../locales/el/content/b1/49/a2de4d26bd3e78a81bb0cdab6658e63b44e2.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/introduction.md)): [Latest](../../../locales/el/content/63/42/75fc1d2535300a0f707f6207f274f7d8c297.md)
+  - [`b149a2de4d`](../../../locales/el/content/b1/49/a2de4d26bd3e78a81bb0cdab6658e63b44e2.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/hints.md)): [Latest](../../../locales/el/content/58/5b/ba325cb63f84fb923ea554b22f1b5ec3c258.md)
 
 ### Layers of Lasagna (Στρώσεις από λαζάνια)
@@ -553,7 +555,8 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 
 ### Santa's Swifty Helper (Ο βοηθός του Άγιου Βασίλη στη Swift)
 
-- `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/instructions.md)): [Latest](../../../locales/el/content/3f/a2/ab5e8ddc7901074b7719bd81a0047a5f4c7d.md)
+- `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/instructions.md)): [Latest](../../../locales/el/content/94/76/35eee692acb0eb2bcc0fbd62cf07a25062b1.md)
+  - [`3fa2ab5e8d`](../../../locales/el/content/3f/a2/ab5e8ddc7901074b7719bd81a0047a5f4c7d.md)
 - `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/introduction.md)): [Latest](../../../locales/el/content/f8/95/8c25ce8c2bfa582c0f9eb0234325bb638e87.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/hints.md)): [Latest](../../../locales/el/content/02/a6/1bb02901f32857a1a1c89f50145d3b6c6181.md)
 
@@ -697,8 +700,10 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 
 ### Inout Parameters (Παράμετροι inout)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/inout-parameters/introduction.md)): [Latest](../../../locales/el/content/59/68/d8d00b4ae1e73e3e6a8150748d0e47b5f768.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/inout-parameters/about.md)): [Latest](../../../locales/el/content/59/68/d8d00b4ae1e73e3e6a8150748d0e47b5f768.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/inout-parameters/introduction.md)): [Latest](../../../locales/el/content/49/32/ac4e005278d61c73d434ec6ca0bc39119c57.md)
+  - [`5968d8d00b`](../../../locales/el/content/59/68/d8d00b4ae1e73e3e6a8150748d0e47b5f768.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/inout-parameters/about.md)): [Latest](../../../locales/el/content/f8/af/f5654d8af547e75e1d9c0b05651e5b3d422a.md)
+  - [`5968d8d00b`](../../../locales/el/content/59/68/d8d00b4ae1e73e3e6a8150748d0e47b5f768.md)
 
 ### Loops (Βρόχοι)
 
@@ -722,8 +727,10 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 
 ### Numbers (Αριθμοί)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/numbers/introduction.md)): [Latest](../../../locales/el/content/8a/96/744245900be4db98df58663f0d8b388bfd27.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/numbers/about.md)): [Latest](../../../locales/el/content/8a/96/744245900be4db98df58663f0d8b388bfd27.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/numbers/introduction.md)): [Latest](../../../locales/el/content/ac/9e/0cb9a77720b28e1cd33f917fbd98e1d5f1bc.md)
+  - [`8a96744245`](../../../locales/el/content/8a/96/744245900be4db98df58663f0d8b388bfd27.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/numbers/about.md)): [Latest](../../../locales/el/content/ac/9e/0cb9a77720b28e1cd33f917fbd98e1d5f1bc.md)
+  - [`8a96744245`](../../../locales/el/content/8a/96/744245900be4db98df58663f0d8b388bfd27.md)
 
 ### Opaque Indices (Αδιαφανείς θέσεις)
 
