@@ -875,7 +875,8 @@
     "howImportant.howImportantIsThis": "Mennyire fontos ez?",
     "automationRules.noGuidance": "Ennek a representernek még nincs útmutatója. Az útmutatókat a karbantartóink írják, hogy elmagyarázzák, milyen normalizálások mennek végbe a reprezentáció során. Ha karbantartó vagy, kérünk, segíts elindítani ennek a representernek az útmutatóját azzal, hogy küldesz egy <0>pull requestet a GitHubon</0>.",
     "automationRules.pleaseReadBeforeGivingFeedback": "Kérünk, olvasd el, mielőtt visszajelzést adsz",
-    "considerations.readThisBeforeGivingFeedback": "Kérünk, az első visszajelzésed előtt <0>olvasd el ezt</0>."
+    "considerations.readThisBeforeGivingFeedback": "Kérünk, az első visszajelzésed előtt <0>olvasd el ezt</0>.",
+    "radioButton.info": "Infó"
   },
   "components/mentoring/representation/right-pane/RadioGroup.tsx": {
     "radioGroup.essential": "Lényeges",
@@ -1275,7 +1276,10 @@
     "dangerZoneSection.failedToDeleteSync": "Nem sikerült törölni a GitHub-szinkronizálást.",
     "dangerZoneSection.unexpectedErrorDeleting": "Hoppá! Váratlan hiba történt a GitHub-szinkronizálás törlése közben.",
     "statusSection.cancel": "Mégse",
-    "statusSection.resumedCodeSync": "A GitHubbal való kódszinkronizálás folytatva."
+    "statusSection.resumedCodeSync": "A GitHubbal való kódszinkronizálás folytatva.",
+    "justConnectedModal.exercismAlt": "Exercism",
+    "justConnectedModal.syncWithAlt": "Szinkronizálás ezzel",
+    "justConnectedModal.githubAlt": "Github"
   },
   "components/settings/github-syncer/sections/ConnectedSection/ManualSyncSection.tsx": {
     "backupATrack": "Kurzus mentése",
