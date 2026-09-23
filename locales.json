@@ -28,6 +28,6 @@
     "stored in this repo. See ENGLISH-SOURCE.md."
   ],
   "targets": ["hu", "fr"],
-  "productionTargets": ["hu"],
+  "productionTargets": ["hu", "fr"],
   "plannedTargets": []
 }
