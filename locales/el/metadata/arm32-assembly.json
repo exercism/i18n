@@ -1,0 +1,17 @@
+{
+  "exercise:hello-world:name": "Hello World",
+  "exercise:leap:name": "Δίσεκτο έτος",
+  "exercise:hello-world:source": "Πρόκειται για μια άσκηση που μυεί τους χρήστες στη χρήση του Exercism",
+  "exercise:leap:blurb": "Προσδιόρισε αν ένα δεδομένο έτος είναι δίσεκτο.",
+  "exercise:leap:source": "CodeRanch Cattle Drive, Assignment 3",
+  "track:blurb": "TODO: πρόσθεσε μια σύντομη περιγραφή",
+  "exercise:hello-world:blurb": "Η κλασική εισαγωγική άσκηση. Απλώς πες \"Hello, World!\".",
+  "doc:installation:title": "Εγκατάσταση του ARM32 Assembly τοπικά",
+  "doc:installation:blurb": "Μάθε πώς να εγκαταστήσεις το ARM32 Assembly τοπικά, για να λύνεις τις ασκήσεις του Exercism στον δικό σου υπολογιστή",
+  "doc:learning:title": "Πώς να μάθεις ARM32 Assembly",
+  "doc:learning:blurb": "Μια επισκόπηση του πώς να ξεκινήσεις από το μηδέν με το ARM32 Assembly",
+  "doc:tests:title": "Δοκιμές στο track ARM32 Assembly",
+  "doc:tests:blurb": "Μάθε πώς να δοκιμάζεις τις ασκήσεις σου σε ARM32 Assembly στο Exercism",
+  "doc:resources:title": "Χρήσιμοι πόροι για το ARM32 Assembly",
+  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων που θα σε βοηθήσουν να κατακτήσεις το ARM32 Assembly"
+}

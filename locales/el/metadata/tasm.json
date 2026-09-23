@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: πρόσθεσε μια σύντομη περιγραφή",
+  "doc:installation:title": "Εγκατάσταση του Triton VM assembly τοπικά",
+  "doc:installation:blurb": "Μάθε πώς να εγκαταστήσεις το Triton VM assembly τοπικά, για να λύνεις τις ασκήσεις του Exercism στον δικό σου υπολογιστή",
+  "doc:learning:title": "Πώς να μάθεις Triton VM assembly",
+  "doc:learning:blurb": "Μια επισκόπηση του πώς να ξεκινήσεις από το μηδέν με το Triton VM assembly",
+  "doc:tests:title": "Δοκιμές στη διαδρομή Triton VM assembly",
+  "doc:tests:blurb": "Μάθε πώς να δοκιμάζεις τις ασκήσεις σου σε Triton VM assembly στο Exercism",
+  "doc:resources:title": "Χρήσιμοι πόροι για το Triton VM assembly",
+  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων που θα σε βοηθήσουν να τελειοποιήσεις το Triton VM assembly"
+}

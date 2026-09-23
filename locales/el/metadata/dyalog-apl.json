@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: πρόσθεσε μια σύντομη περιγραφή",
+  "doc:installation:title": "Τοπική εγκατάσταση του Dyalog APL",
+  "doc:installation:blurb": "Μάθε πώς να εγκαταστήσεις το Dyalog APL τοπικά, για να λύνεις τις ασκήσεις του Exercism στον δικό σου υπολογιστή",
+  "doc:learning:title": "Πώς να μάθεις Dyalog APL",
+  "doc:learning:blurb": "Μια επισκόπηση του πώς να ξεκινήσεις από το μηδέν με το Dyalog APL",
+  "doc:tests:title": "Δοκιμές στη διαδρομή Dyalog APL",
+  "doc:tests:blurb": "Μάθε πώς να δοκιμάζεις τις ασκήσεις σου στο Dyalog APL μέσα στο Exercism",
+  "doc:resources:title": "Χρήσιμοι πόροι για το Dyalog APL",
+  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων που θα σε βοηθήσουν να κατακτήσεις το Dyalog APL"
+}

@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: πρόσθεσε μια σύντομη περιγραφή",
+  "doc:installation:title": "Τοπική εγκατάσταση του Seed7",
+  "doc:installation:blurb": "Μάθε πώς να εγκαταστήσεις το Seed7 τοπικά, για να λύνεις τις ασκήσεις του Exercism στον δικό σου υπολογιστή",
+  "doc:learning:title": "Πώς να μάθεις Seed7",
+  "doc:learning:blurb": "Μια επισκόπηση του πώς να ξεκινήσεις από το μηδέν με το Seed7",
+  "doc:tests:title": "Δοκιμές στη διαδρομή Seed7",
+  "doc:tests:blurb": "Μάθε πώς να δοκιμάζεις τις ασκήσεις σου σε Seed7 στο Exercism",
+  "doc:resources:title": "Χρήσιμοι πόροι για το Seed7",
+  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων που θα σε βοηθήσουν να κατακτήσεις το Seed7"
+}

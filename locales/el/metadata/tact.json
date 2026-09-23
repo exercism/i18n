@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: πρόσθεσε μια σύντομη περιγραφή",
+  "doc:installation:title": "Εγκατάσταση του Tact τοπικά",
+  "doc:installation:blurb": "Μάθε πώς να εγκαταστήσεις το Tact τοπικά για να λύνεις τις ασκήσεις του Exercism στον δικό σου υπολογιστή",
+  "doc:learning:title": "Πώς να μάθεις Tact",
+  "doc:learning:blurb": "Μια επισκόπηση του πώς να ξεκινήσεις από το μηδέν με το Tact",
+  "doc:tests:title": "Δοκιμές στη διαδρομή Tact",
+  "doc:tests:blurb": "Μάθε πώς να δοκιμάζεις τις ασκήσεις σου σε Tact στο Exercism",
+  "doc:resources:title": "Χρήσιμοι πόροι για το Tact",
+  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων που θα σε βοηθήσουν να κατακτήσεις το Tact"
+}

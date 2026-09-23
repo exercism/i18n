@@ -1,0 +1,13 @@
+{
+  "exercise:hello-world:name": "Hello World",
+  "exercise:rna-transcription:name": "Μεταγραφή RNA",
+  "exercise:hello-world:blurb": "Η κλασική εισαγωγική άσκηση. Πες απλώς \"Hello, World!\"",
+  "exercise:hello-world:source": "Πρόκειται για μια άσκηση που μυεί τους χρήστες στη χρήση του Exercism",
+  "exercise:rna-transcription:blurb": "Δεδομένης μιας αλυσίδας DNA, επίστρεψε τη μεταγραφή του συμπληρώματος RNA.",
+  "exercise:rna-transcription:source": "Hyperphysics",
+  "track:blurb": "Το Coq είναι ένας βοηθός αποδείξεων. Χρησιμοποιώντας το Coq, μπορείς να γράψεις τυπικές περιγραφές μαθηματικών ορισμών, αλγορίθμων και θεωρημάτων. Το Coq παρέχει επίσης τακτικές για να αναπτύσσεις διαδραστικά αποδείξεις που ελέγχονται από μηχανή.",
+  "exercise:tautology:name": "Ταυτολογία",
+  "exercise:tautology:blurb": "Ο πρώτος κανόνας της Λέσχης Ταυτολογίας είναι ο πρώτος κανόνας της Λέσχης Ταυτολογίας ",
+  "doc:learning:title": "Πώς να μάθεις το Coq",
+  "doc:learning:blurb": "Μια επισκόπηση για το πώς να ξεκινήσεις από το μηδέν με το Coq"
+}

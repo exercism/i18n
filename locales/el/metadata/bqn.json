@@ -1,0 +1,14 @@
+{
+  "exercise:hello-world:name": "Hello World",
+  "exercise:hello-world:blurb": "Η κλασική εισαγωγική άσκηση. Απλώς πες \"Hello, World!\".",
+  "exercise:hello-world:source": "Πρόκειται για μια άσκηση που μυεί τους χρήστες στη χρήση του Exercism",
+  "track:blurb": "Μια σύγχρονη, ισχυρή γλώσσα χτισμένη γύρω από το παράδειγμα προγραμματισμού με πίνακες του Ken Iverson.",
+  "doc:installation:title": "Εγκατάσταση του BQN τοπικά",
+  "doc:installation:blurb": "Μάθε πώς να εγκαταστήσεις το BQN τοπικά, για να λύνεις τις ασκήσεις του Exercism στον υπολογιστή σου",
+  "doc:learning:title": "Πώς να μάθεις BQN",
+  "doc:learning:blurb": "Μια επισκόπηση του πώς να ξεκινήσεις από το μηδέν με το BQN",
+  "doc:tests:title": "Δοκιμές στη διαδρομή BQN",
+  "doc:tests:blurb": "Μάθε πώς να δοκιμάζεις τις ασκήσεις σου στο BQN στο Exercism",
+  "doc:resources:title": "Χρήσιμοι πόροι για το BQN",
+  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων που θα σε βοηθήσουν να κατακτήσεις το BQN"
+}

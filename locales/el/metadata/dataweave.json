@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: πρόσθεσε μια σύντομη περιγραφή",
+  "doc:installation:title": "Εγκατάσταση της DataWeave τοπικά",
+  "doc:installation:blurb": "Μάθε πώς να εγκαταστήσεις τη DataWeave τοπικά, για να λύνεις τις ασκήσεις του Exercism στον δικό σου υπολογιστή",
+  "doc:learning:title": "Πώς να μάθεις τη DataWeave",
+  "doc:learning:blurb": "Μια επισκόπηση του πώς να ξεκινήσεις από το μηδέν με τη DataWeave",
+  "doc:tests:title": "Δοκιμές στη διαδρομή DataWeave",
+  "doc:tests:blurb": "Μάθε πώς να δοκιμάζεις τις ασκήσεις σου στη DataWeave στο Exercism",
+  "doc:resources:title": "Χρήσιμοι πόροι για τη DataWeave",
+  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων για να σε βοηθήσουν να κατακτήσεις τη DataWeave"
+}

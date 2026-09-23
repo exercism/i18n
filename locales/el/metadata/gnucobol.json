@@ -1,0 +1,6 @@
+{
+  "track:blurb": "TODO: πρόσθεσε μια σύντομη περιγραφή",
+  "exercise:hello-world:name": "Hello World",
+  "exercise:hello-world:blurb": "Η κλασική εισαγωγική άσκηση. Απλώς πες \"Hello, World!\".",
+  "exercise:hello-world:source": "Πρόκειται για μια άσκηση που μυεί τους χρήστες στη χρήση του Exercism"
+}
