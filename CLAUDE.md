@@ -143,6 +143,13 @@ the extraction, the keys and the reasoning.
   `tags` (codes; the words come from `Track::TAGS` in the website's Ruby). Only exercises and
   concepts listed in the track's `config.json` are included, because the website syncs
   nothing else.
+- **A `wip` exercise is left out.** A track's `config.json` gives an exercise entry a `status`
+  of `active`, `beta`, `deprecated` or `wip`, or none at all. Only `wip` is excluded, because
+  the website shows nobody a work-in-progress exercise. A `beta` exercise is live and a
+  `deprecated` one is still served to everyone who has already started it, so both are
+  required like any other. Concept entries carry no `status` and are all required. The
+  exclusion is only for this catalog: the exercise's `.docs/*.md` files are matched by path
+  (`content-types.mjs`) and are still required.
 - **English lives in the source repo**, so `validate` checks `metadata/ruby.json` against
   English only when `--content-repos` names a checkout called `ruby`. Otherwise the catalog is
   shape-checked and reported as `unv` (unverified), never `ok`. CI fetches each repo that some
