@@ -577,8 +577,8 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 ### The 1st Rule of Poetry Club (Ο πρώτος κανόνας της λέσχης ποίησης)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/poetry-club/.docs/instructions.md)): [Latest](../../../locales/el/content/92/47/55bac6400e3b74d39047ea27737535026236.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/poetry-club/.docs/introduction.md)): [Latest](../../../locales/el/content/32/3d/4fcc9b7952ebce6071b2db6a11de394daea6.md)
-  - [`4a52385cc1`](../../../locales/el/content/4a/52/385cc166f34b77e1f45c9f7c4e1613f4cd1a.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/poetry-club/.docs/introduction.md)): [Latest](../../../locales/el/content/4a/52/385cc166f34b77e1f45c9f7c4e1613f4cd1a.md)
+  - [`323d4fcc9b`](../../../locales/el/content/32/3d/4fcc9b7952ebce6071b2db6a11de394daea6.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/poetry-club/.docs/hints.md)): [Latest](../../../locales/el/content/a0/a7/68a9aed1d311ae21fb849eaeecc3e203dae5.md)
 
 ### Vexing Vehicle Purchase (Μπελαλίδικη αγορά οχήματος)
@@ -634,8 +634,10 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 
 ### Classes (Κλάσεις)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/classes/introduction.md)): [Latest](../../../locales/el/content/44/a9/69e4d0c6d8e8b939cc86ee8afe51e17190ff.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/classes/about.md)): [Latest](../../../locales/el/content/44/a9/69e4d0c6d8e8b939cc86ee8afe51e17190ff.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/classes/introduction.md)): [Latest](../../../locales/el/content/05/0f/6ed368fbaa87354e7ca89f5a0e6a7a4c2b7f.md)
+  - [`44a969e4d0`](../../../locales/el/content/44/a9/69e4d0c6d8e8b939cc86ee8afe51e17190ff.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/classes/about.md)): [Latest](../../../locales/el/content/0d/42/f9fb56c4f1b38fcb7795fa08c1613bc16ec1.md)
+  - [`44a969e4d0`](../../../locales/el/content/44/a9/69e4d0c6d8e8b939cc86ee8afe51e17190ff.md)
 
 ### Closures (Κλεισίματα)
 
@@ -787,10 +789,10 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 
 ### String Methods (Μέθοδοι συμβολοσειρών)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/string-methods/introduction.md)): [Latest](../../../locales/el/content/74/89/9dd8a1bfda60d46fd8f047c855b9b3be1d18.md)
-  - [`2c5bfc7e66`](../../../locales/el/content/2c/5b/fc7e66ef82cc229c44645752daaec66a4b43.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/string-methods/about.md)): [Latest](../../../locales/el/content/08/3e/53180e43c5322992410a68d1263239effe8d.md)
-  - [`abd4546b07`](../../../locales/el/content/ab/d4/546b07fff01945b995d53058ea9a19bdd69d.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/string-methods/introduction.md)): [Latest](../../../locales/el/content/2c/5b/fc7e66ef82cc229c44645752daaec66a4b43.md)
+  - [`74899dd8a1`](../../../locales/el/content/74/89/9dd8a1bfda60d46fd8f047c855b9b3be1d18.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/string-methods/about.md)): [Latest](../../../locales/el/content/ab/d4/546b07fff01945b995d53058ea9a19bdd69d.md)
+  - [`083e53180e`](../../../locales/el/content/08/3e/53180e43c5322992410a68d1263239effe8d.md)
 
 ### Strings (Συμβολοσειρές)
 
