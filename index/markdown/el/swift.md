@@ -518,8 +518,8 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 ### Freelancer Rates (Χρεώσεις ελεύθερου επαγγελματία)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/freelancer-rates/.docs/instructions.md)): [Latest](../../../locales/el/content/60/d3/76a2e8df613e76db64860c011b2365ef36b9.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/freelancer-rates/.docs/introduction.md)): [Latest](../../../locales/el/content/17/1c/c68f3162723617d93f362ecd2d22bfb6602b.md)
-  - [`ac9e0cb9a7`](../../../locales/el/content/ac/9e/0cb9a77720b28e1cd33f917fbd98e1d5f1bc.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/freelancer-rates/.docs/introduction.md)): [Latest](../../../locales/el/content/ac/9e/0cb9a77720b28e1cd33f917fbd98e1d5f1bc.md)
+  - [`171cc68f31`](../../../locales/el/content/17/1c/c68f3162723617d93f362ecd2d22bfb6602b.md)
   - [`8a96744245`](../../../locales/el/content/8a/96/744245900be4db98df58663f0d8b388bfd27.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/freelancer-rates/.docs/hints.md)): [Latest](../../../locales/el/content/65/e2/2184fb49adbd4a20e90acc616ed393ec814d.md)
 
@@ -532,8 +532,8 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 ### Lasagna Master (Μάστορας λαζάνιας)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/instructions.md)): [Latest](../../../locales/el/content/e7/be/156216e1bfe80505bfd12b3fd32d2216fff1.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/introduction.md)): [Latest](../../../locales/el/content/63/42/75fc1d2535300a0f707f6207f274f7d8c297.md)
-  - [`b149a2de4d`](../../../locales/el/content/b1/49/a2de4d26bd3e78a81bb0cdab6658e63b44e2.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/introduction.md)): [Latest](../../../locales/el/content/b1/49/a2de4d26bd3e78a81bb0cdab6658e63b44e2.md)
+  - [`634275fc1d`](../../../locales/el/content/63/42/75fc1d2535300a0f707f6207f274f7d8c297.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/hints.md)): [Latest](../../../locales/el/content/58/5b/ba325cb63f84fb923ea554b22f1b5ec3c258.md)
 
 ### Layers of Lasagna (Στρώσεις από λαζάνια)
@@ -551,14 +551,14 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 ### Magician-in-Training (Μαθητευόμενος μάγος)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/magician-in-training/.docs/instructions.md)): [Latest](../../../locales/el/content/f2/3a/75d4fd3585f0ca5afdf30fe28dd6fc6d2f2c.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/magician-in-training/.docs/introduction.md)): [Latest](../../../locales/el/content/0c/51/2f947ff06ff60bffe8e5ab6a6f9f87fde7e0.md)
-  - [`a3287bbbf3`](../../../locales/el/content/a3/28/7bbbf3b5d392a48b47ee44eeb4e83f77c1cf.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/magician-in-training/.docs/introduction.md)): [Latest](../../../locales/el/content/a3/28/7bbbf3b5d392a48b47ee44eeb4e83f77c1cf.md)
+  - [`0c512f947f`](../../../locales/el/content/0c/51/2f947ff06ff60bffe8e5ab6a6f9f87fde7e0.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/magician-in-training/.docs/hints.md)): [Latest](../../../locales/el/content/96/4d/833490d0c1a96201675d5c49d72f50d40de7.md)
 
 ### Santa's Swifty Helper (Ο βοηθός του Άγιου Βασίλη στη Swift)
 
-- `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/instructions.md)): [Latest](../../../locales/el/content/94/76/35eee692acb0eb2bcc0fbd62cf07a25062b1.md)
-  - [`3fa2ab5e8d`](../../../locales/el/content/3f/a2/ab5e8ddc7901074b7719bd81a0047a5f4c7d.md)
+- `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/instructions.md)): [Latest](../../../locales/el/content/3f/a2/ab5e8ddc7901074b7719bd81a0047a5f4c7d.md)
+  - [`947635eee6`](../../../locales/el/content/94/76/35eee692acb0eb2bcc0fbd62cf07a25062b1.md)
 - `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/introduction.md)): [Latest](../../../locales/el/content/f8/95/8c25ce8c2bfa582c0f9eb0234325bb638e87.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/hints.md)): [Latest](../../../locales/el/content/02/a6/1bb02901f32857a1a1c89f50145d3b6c6181.md)
 
@@ -591,8 +591,8 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 ### Windowing System (Σύστημα Παραθύρων)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/windowing-system/.docs/instructions.md)): [Latest](../../../locales/el/content/08/1a/ad1bb0f8e0e539fea48947f937c9f09b710e.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/windowing-system/.docs/introduction.md)): [Latest](../../../locales/el/content/6c/24/fc888bf6cb55a8158deade85c03bf35a91da.md)
-  - [`eba4a06536`](../../../locales/el/content/eb/a4/a065365a671c15b83a6e2d2cdb3fd9deb5a6.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/windowing-system/.docs/introduction.md)): [Latest](../../../locales/el/content/eb/a4/a065365a671c15b83a6e2d2cdb3fd9deb5a6.md)
+  - [`6c24fc888b`](../../../locales/el/content/6c/24/fc888bf6cb55a8158deade85c03bf35a91da.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/windowing-system/.docs/hints.md)): [Latest](../../../locales/el/content/a9/fd/39c6186bfe6f98989d811f8dc1e8930b4064.md)
 
 ### Wings Quest (Αποστολή στα φτερά)
@@ -606,10 +606,10 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 
 ### Arrays (Πίνακες)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/arrays/introduction.md)): [Latest](../../../locales/el/content/0c/51/2f947ff06ff60bffe8e5ab6a6f9f87fde7e0.md)
-  - [`a3287bbbf3`](../../../locales/el/content/a3/28/7bbbf3b5d392a48b47ee44eeb4e83f77c1cf.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/arrays/about.md)): [Latest](../../../locales/el/content/36/26/ec18a395e20776bc55e76e09b63475271650.md)
-  - [`a3287bbbf3`](../../../locales/el/content/a3/28/7bbbf3b5d392a48b47ee44eeb4e83f77c1cf.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/arrays/introduction.md)): [Latest](../../../locales/el/content/a3/28/7bbbf3b5d392a48b47ee44eeb4e83f77c1cf.md)
+  - [`0c512f947f`](../../../locales/el/content/0c/51/2f947ff06ff60bffe8e5ab6a6f9f87fde7e0.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/arrays/about.md)): [Latest](../../../locales/el/content/a3/28/7bbbf3b5d392a48b47ee44eeb4e83f77c1cf.md)
+  - [`3626ec18a3`](../../../locales/el/content/36/26/ec18a395e20776bc55e76e09b63475271650.md)
 
 ### Basics (Τα βασικά)
 
@@ -714,10 +714,10 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 
 ### Inout Parameters (Παράμετροι inout)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/inout-parameters/introduction.md)): [Latest](../../../locales/el/content/49/32/ac4e005278d61c73d434ec6ca0bc39119c57.md)
-  - [`5968d8d00b`](../../../locales/el/content/59/68/d8d00b4ae1e73e3e6a8150748d0e47b5f768.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/inout-parameters/about.md)): [Latest](../../../locales/el/content/f8/af/f5654d8af547e75e1d9c0b05651e5b3d422a.md)
-  - [`5968d8d00b`](../../../locales/el/content/59/68/d8d00b4ae1e73e3e6a8150748d0e47b5f768.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/inout-parameters/introduction.md)): [Latest](../../../locales/el/content/59/68/d8d00b4ae1e73e3e6a8150748d0e47b5f768.md)
+  - [`4932ac4e00`](../../../locales/el/content/49/32/ac4e005278d61c73d434ec6ca0bc39119c57.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/inout-parameters/about.md)): [Latest](../../../locales/el/content/59/68/d8d00b4ae1e73e3e6a8150748d0e47b5f768.md)
+  - [`f8aff5654d`](../../../locales/el/content/f8/af/f5654d8af547e75e1d9c0b05651e5b3d422a.md)
 
 ### Loops (Βρόχοι)
 
@@ -741,19 +741,19 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 
 ### Numbers (Αριθμοί)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/numbers/introduction.md)): [Latest](../../../locales/el/content/17/1c/c68f3162723617d93f362ecd2d22bfb6602b.md)
-  - [`ac9e0cb9a7`](../../../locales/el/content/ac/9e/0cb9a77720b28e1cd33f917fbd98e1d5f1bc.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/numbers/introduction.md)): [Latest](../../../locales/el/content/ac/9e/0cb9a77720b28e1cd33f917fbd98e1d5f1bc.md)
+  - [`171cc68f31`](../../../locales/el/content/17/1c/c68f3162723617d93f362ecd2d22bfb6602b.md)
   - [`8a96744245`](../../../locales/el/content/8a/96/744245900be4db98df58663f0d8b388bfd27.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/numbers/about.md)): [Latest](../../../locales/el/content/ff/38/deca63afc9ed6b66ee0f978025c68318fd88.md)
-  - [`ac9e0cb9a7`](../../../locales/el/content/ac/9e/0cb9a77720b28e1cd33f917fbd98e1d5f1bc.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/numbers/about.md)): [Latest](../../../locales/el/content/ac/9e/0cb9a77720b28e1cd33f917fbd98e1d5f1bc.md)
+  - [`ff38deca63`](../../../locales/el/content/ff/38/deca63afc9ed6b66ee0f978025c68318fd88.md)
   - [`8a96744245`](../../../locales/el/content/8a/96/744245900be4db98df58663f0d8b388bfd27.md)
 
 ### Opaque Indices (Αδιαφανείς θέσεις)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/opaque-indices/introduction.md)): [Latest](../../../locales/el/content/fb/e0/01f6d475861d395fac17450fb2748978ca94.md)
-  - [`bea550ac7a`](../../../locales/el/content/be/a5/50ac7aba7a63caaf3e4c4e31faa40e67c1c3.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/opaque-indices/about.md)): [Latest](../../../locales/el/content/b2/82/f1a956735632b07a6da0885b333b8fec2ea7.md)
-  - [`348fb9c54e`](../../../locales/el/content/34/8f/b9c54ed076d54c051c4bbff5f4bce774bbba.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/opaque-indices/introduction.md)): [Latest](../../../locales/el/content/be/a5/50ac7aba7a63caaf3e4c4e31faa40e67c1c3.md)
+  - [`fbe001f6d4`](../../../locales/el/content/fb/e0/01f6d475861d395fac17450fb2748978ca94.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/opaque-indices/about.md)): [Latest](../../../locales/el/content/34/8f/b9c54ed076d54c051c4bbff5f4bce774bbba.md)
+  - [`b282f1a956`](../../../locales/el/content/b2/82/f1a956735632b07a6da0885b333b8fec2ea7.md)
 
 ### Optionals
 
@@ -772,10 +772,10 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 
 ### Self
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/self/introduction.md)): [Latest](../../../locales/el/content/c0/61/b68974b9ce545ec6292e286acde8dc5abefc.md)
-  - [`4d8299eae0`](../../../locales/el/content/4d/82/99eae0ee48c0c3a97555897cc45260e303e0.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/self/about.md)): [Latest](../../../locales/el/content/b0/33/5994ae98688f8e7f6ef88bed11f866add58c.md)
-  - [`922c132e44`](../../../locales/el/content/92/2c/132e44834c06862dfcb90c6eda34ec4ffe79.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/self/introduction.md)): [Latest](../../../locales/el/content/4d/82/99eae0ee48c0c3a97555897cc45260e303e0.md)
+  - [`c061b68974`](../../../locales/el/content/c0/61/b68974b9ce545ec6292e286acde8dc5abefc.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/self/about.md)): [Latest](../../../locales/el/content/92/2c/132e44834c06862dfcb90c6eda34ec4ffe79.md)
+  - [`b0335994ae`](../../../locales/el/content/b0/33/5994ae98688f8e7f6ef88bed11f866add58c.md)
 
 ### Shorthand arguments (Συντομευμένα ορίσματα)
 
@@ -801,8 +801,10 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 
 ### Strings (Συμβολοσειρές)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/strings/introduction.md)): [Latest](../../../locales/el/content/60/91/a4b04b99f4443c4554fce0f05d39b063e141.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/strings/about.md)): [Latest](../../../locales/el/content/d7/23/b56b4e7498b629d034da8b234e7fc2466c62.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/strings/introduction.md)): [Latest](../../../locales/el/content/06/17/261de17882affadbf7629bcb64ada2e18572.md)
+  - [`6091a4b04b`](../../../locales/el/content/60/91/a4b04b99f4443c4554fce0f05d39b063e141.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/strings/about.md)): [Latest](../../../locales/el/content/19/c3/bdb44aaea748032ffdbc90d4608143d49d7f.md)
+  - [`d723b56b4e`](../../../locales/el/content/d7/23/b56b4e7498b629d034da8b234e7fc2466c62.md)
 
 ### Structs (Δομές)
 
