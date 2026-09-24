@@ -386,7 +386,7 @@
   "concept:numbers:blurb": "A Swiftben a két leggyakrabban használt számtípus az 'Int' és a 'Double'.",
   "concept:opaque-indices:blurb": "Az opaque indexek olyan indexek, amelyeket csak adatok elérésére használunk, és önmagukban nem hordoznak értéket.",
   "concept:optionals:blurb": "Az optionalok segítségével kifejezhető egy érték esetleges hiánya.",
-  "concept:repeat-while:blurb": "A repeat-while ciklusok olyan ciklusok, amelyek addig futtatnak kódot, amíg egy feltétel igaz. Ez a feltétel a ciklus törzsének végrehajtása után értékelődik ki.",
+  "concept:repeat-while:blurb": "A repeat-while ciklusok hasonlóak a while ciklusokhoz, de van egy lényeges különbség: a feltétel ellenőrzése a ciklus törzsének végrehajtása után történik, nem előtte.",
   "concept:ranges:blurb": "A range-ek segítségével értékek sorozatát ábrázolhatjuk.",
   "concept:self:blurb": "A struct-ok és class-ok minden példánya rendelkezik egy implicit, `self` nevű tulajdonsággal, amely magára a példányra hivatkozik.",
   "concept:shorthand-arguments:blurb": "Ha egy closure esetében elhagyjuk a paramétereket, akkor egy speciális rövidített szintaxissal hivatkozhatunk rájuk.",

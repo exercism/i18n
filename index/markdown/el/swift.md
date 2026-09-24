@@ -590,8 +590,8 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 ### Vexing Vehicle Purchase (Μπελαλίδικη αγορά οχήματος)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/vehicle-purchase/.docs/instructions.md)): [Latest](../../../locales/el/content/72/60/5a19df3ad3b3f5457da18c94f1b12af3443f.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/vehicle-purchase/.docs/introduction.md)): [Latest](../../../locales/el/content/73/fe/909cc25fa6b813a7486463b4ace8d7ba7d67.md)
-  - [`650d76790c`](../../../locales/el/content/65/0d/76790c75b30f286d8370ced805c421639570.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/vehicle-purchase/.docs/introduction.md)): [Latest](../../../locales/el/content/65/0d/76790c75b30f286d8370ced805c421639570.md)
+  - [`73fe909cc2`](../../../locales/el/content/73/fe/909cc25fa6b813a7486463b4ace8d7ba7d67.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/vehicle-purchase/.docs/hints.md)): [Latest](../../../locales/el/content/6a/b8/7ae86eab6dc16effafc3306fdfa26efa56d7.md)
 
 ### Windowing System (Σύστημα Παραθύρων)
@@ -657,10 +657,10 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 
 ### Conditionals (Συνθήκες)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals/introduction.md)): [Latest](../../../locales/el/content/ec/52/8da484eb5133859b606af63672b9f4555831.md)
-  - [`3629c53d8d`](../../../locales/el/content/36/29/c53d8dd8953464cf86e47e180b9cda938d42.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals/about.md)): [Latest](../../../locales/el/content/72/96/fd4a991b832f0a828a62c5218ca35e64542f.md)
-  - [`3629c53d8d`](../../../locales/el/content/36/29/c53d8dd8953464cf86e47e180b9cda938d42.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals/introduction.md)): [Latest](../../../locales/el/content/36/29/c53d8dd8953464cf86e47e180b9cda938d42.md)
+  - [`ec528da484`](../../../locales/el/content/ec/52/8da484eb5133859b606af63672b9f4555831.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals/about.md)): [Latest](../../../locales/el/content/36/29/c53d8dd8953464cf86e47e180b9cda938d42.md)
+  - [`7296fd4a99`](../../../locales/el/content/72/96/fd4a991b832f0a828a62c5218ca35e64542f.md)
 
 ### Conditionals Guard (Φρουρός συνθηκών)
 
@@ -781,8 +781,10 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 
 ### repeat while (\`repeat while\`)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/repeat-while/introduction.md)): [Latest](../../../locales/el/content/06/15/7337f41fd498f09cd846b2a646dd333e1e4c.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/repeat-while/about.md)): [Latest](../../../locales/el/content/d8/33/96ba5764d5db28aeae57cb45566cf7aef3e7.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/repeat-while/introduction.md)): [Latest](../../../locales/el/content/7b/58/24346379245cba93fa7d9b55b985cde00192.md)
+  - [`06157337f4`](../../../locales/el/content/06/15/7337f41fd498f09cd846b2a646dd333e1e4c.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/repeat-while/about.md)): [Latest](../../../locales/el/content/ff/ae/94f39ef82bffebf7223e7e434500efd03b0a.md)
+  - [`d83396ba57`](../../../locales/el/content/d8/33/96ba5764d5db28aeae57cb45566cf7aef3e7.md)
 
 ### Self
 

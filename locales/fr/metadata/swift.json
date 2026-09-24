@@ -386,7 +386,7 @@
   "concept:numbers:blurb": "Les deux types de nombres les plus utilisés en Swift sont `Int` et `Double`.",
   "concept:opaque-indices:blurb": "Les indices opaques sont des indices qui servent uniquement à accéder aux données ; ils n'ont aucune valeur en eux-mêmes.",
   "concept:optionals:blurb": "Les optionnels permettent de représenter l'absence éventuelle d'une valeur.",
-  "concept:repeat-while:blurb": "Les boucles _repeat-while_ exécutent du code tant qu'une condition est vraie. Cette condition est évaluée après l'exécution du corps de la boucle.",
+  "concept:repeat-while:blurb": "Les boucles _repeat-while_ sont similaires aux boucles _while_, à une différence près : la condition est vérifiée après l'exécution du corps de la boucle, et non avant.",
   "concept:ranges:blurb": "Les intervalles permettent de représenter une suite de valeurs.",
   "concept:self:blurb": "Les instances de structures et de classes possèdent chacune une valeur implicite nommée `self`, qui désigne l'instance elle-même.",
   "concept:shorthand-arguments:blurb": "Quand on omet les paramètres d'une _closure_, on peut y faire référence à l'aide d'une syntaxe abrégée spéciale.",
