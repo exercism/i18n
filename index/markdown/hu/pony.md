@@ -65,6 +65,13 @@ This page is generated from [the index](../../json/hu/pony.json) by `scripts/bui
 - `introduction.md` ([English](https://github.com/exercism/pony/blob/main/exercises/concept/wibble/.docs/introduction.md)): [Latest](../../../locales/hu/content/e6/9d/e29bb2d1d6434b8b29ae775ad8c2e48c5391.md)
 - `hints.md` ([English](https://github.com/exercism/pony/blob/main/exercises/concept/wibble/.docs/hints.md)): [Latest](../../../locales/hu/content/e6/9d/e29bb2d1d6434b8b29ae775ad8c2e48c5391.md)
 
+## Concepts
+
+### Basics (Alapok)
+
+- `introduction.md` ([English](https://github.com/exercism/pony/blob/main/concepts/basics/introduction.md)): [Latest](../../../locales/hu/content/e6/9d/e29bb2d1d6434b8b29ae775ad8c2e48c5391.md)
+- `about.md` ([English](https://github.com/exercism/pony/blob/main/concepts/basics/about.md)): missing
+
 ## Track docs
 
 ### ABOUT.md

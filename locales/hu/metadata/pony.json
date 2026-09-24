@@ -54,5 +54,7 @@
   "doc:resources:title": "Hasznos Pony-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Pony-t",
   "exercise:wibble:name": "Teszt",
-  "exercise:wibble:blurb": "Teszt"
+  "exercise:wibble:blurb": "Teszt",
+  "concept:basics:name": "Alapok",
+  "concept:basics:blurb": "Ponylang alapjai ismertető"
 }

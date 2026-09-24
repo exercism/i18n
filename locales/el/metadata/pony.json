@@ -54,5 +54,7 @@
   "doc:resources:title": "Χρήσιμοι πόροι για την Pony",
   "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων για να σε βοηθήσουν να κατακτήσεις την Pony",
   "exercise:wibble:name": "test",
-  "exercise:wibble:blurb": "test"
+  "exercise:wibble:blurb": "test",
+  "concept:basics:name": "Τα βασικά",
+  "concept:basics:blurb": "Σύνοψη των βασικών στοιχείων της Ponylang"
 }

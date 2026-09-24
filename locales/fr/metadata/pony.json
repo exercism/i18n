@@ -54,5 +54,7 @@
   "doc:resources:title": "Ressources utiles pour Pony",
   "doc:resources:blurb": "Une sélection de ressources utiles pour t'aider à maîtriser Pony",
   "exercise:wibble:name": "test",
-  "exercise:wibble:blurb": "test"
+  "exercise:wibble:blurb": "test",
+  "concept:basics:name": "Les bases",
+  "concept:basics:blurb": "Présentation des bases de Ponylang."
 }
