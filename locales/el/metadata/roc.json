@@ -379,5 +379,7 @@
   "exercise:prism:source": "FraSanga",
   "exercise:intergalactic-transmission:name": "Διαγαλαξιακή Μετάδοση",
   "exercise:intergalactic-transmission:blurb": "Πρόσθεσε bits ισοτιμίας σε ένα μήνυμα για μετάδοση",
-  "exercise:intergalactic-transmission:source": "Kah Goh"
+  "exercise:intergalactic-transmission:source": "Kah Goh",
+  "exercise:satellite:name": "Δορυφόρος",
+  "exercise:satellite:blurb": "Ανακατασκεύασε δυαδικά δέντρα από προθεματικές και ενδοθεματικές διασχίσεις."
 }

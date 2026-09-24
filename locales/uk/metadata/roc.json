@@ -379,5 +379,7 @@
   "exercise:prism:source": "FraSanga",
   "exercise:intergalactic-transmission:name": "Міжгалактична передача",
   "exercise:intergalactic-transmission:blurb": "Додайте біти парності до повідомлення для передачі",
-  "exercise:intergalactic-transmission:source": "Ка Го"
+  "exercise:intergalactic-transmission:source": "Ка Го",
+  "exercise:satellite:name": "Супутник",
+  "exercise:satellite:blurb": "Відновіть двійкові дерева за прямим і симетричним обходом."
 }
