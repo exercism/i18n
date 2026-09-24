@@ -1,0 +1,20 @@
+{
+  "kind": "track",
+  "locale": "uk",
+  "names": {
+    "docs/INSTALLATION.md": {"en":"Installing Seed7 locally","uk":"Встановлення Seed7 локально"},
+    "docs/LEARNING.md": {"en":"How to learn Seed7","uk":"Як вивчати Seed7"},
+    "docs/RESOURCES.md": {"en":"Useful Seed7 resources","uk":"Корисні ресурси Seed7"},
+    "docs/TESTS.md": {"en":"Testing on the Seed7 track","uk":"Тестування на треку Seed7"}
+  },
+  "paths": {
+    "docs/ABOUT.md": ["9864ed00303fd196319f4058cddc6994eaed0a14"],
+    "docs/INSTALLATION.md": ["cd6ce8521d1baba7dc72cdaf56a8a9eb3cb23882"],
+    "docs/LEARNING.md": ["b14434dc01362de2abac1b97d0cc6b759d3a2c8b"],
+    "docs/RESOURCES.md": ["9811f0460410a89cfc315937e9d39dc64e17f016"],
+    "docs/TESTS.md": ["bec9502b8987111c0315223e21e299485767937f"],
+    "exercises/shared/.docs/help.md": ["45aa2d6411fe5d62666ad52d0981ca77f05503cd"],
+    "exercises/shared/.docs/tests.md": ["1f197bf7fc362ce77b023b134ec9d0b7d18a16e0"]
+  },
+  "repo": "seed7"
+}

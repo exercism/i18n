@@ -1,0 +1,49 @@
+# Вступ
+
+У C# кортеж - це структура даних, яка організовує дані й містить два або більше полів будь-якого типу.
+
+Кортеж зазвичай створюють, розміщуючи 2 або більше виразів, розділених комами, у парі дужок.
+
+```csharp
+string boast = "All you need to know";
+bool success = !string.IsNullOrWhiteSpace(boast);
+(bool, int, string) triple = (success, 42, boast);
+```
+
+Кортеж можна використовувати в операціях присвоєння та ініціалізації, як повернене значення або аргумент методу.
+
+Поля витягуються за допомогою точкового синтаксису. Типово перше поле - `Item1`, друге - `Item2` тощо. Нетипові назви розглянуто нижче.
+
+```csharp
+// initialization
+(int, int, int) vertices = (90, 45, 45);
+
+// assignment
+vertices = (60, 60, 60);
+
+//  return value
+(bool, int) GetSameOrBigger(int num1, int num2)
+{
+    return (num1 == num2, num1 > num2 ? num1 : num2);
+}
+
+// method argument
+int Add((int, int) operands)
+{
+    return operands.Item1 + operands.Item2;
+}
+```
+
+Назви полів `Item1` тощо не роблять код читабельним. Код нижче показує 2 способи назвати поля кортежів. Звернімо увагу також, що в коді нижче `var` можна використовувати з кортежами, а тип виводиться. Це однаково добре працює для кортежів з названими та неназваними полями.
+
+```csharp
+// name items in declaration
+(bool success, string message) results = (true, "well done!");
+bool mySuccess = results.success;
+string myMessage = results.message;
+
+// name items in creating expression
+var results2 = (success: true, message: "well done!");
+bool mySuccess2 = results2.success;
+string myMessage2 = results2.message;
+```

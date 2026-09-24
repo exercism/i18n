@@ -1,0 +1,17 @@
+{
+  "exercise:hello-world:name": "Привіт, світ!",
+  "exercise:leap:name": "Високосний рік",
+  "exercise:hello-world:source": "Ця вправа знайомить користувачів з роботою на Exercism.",
+  "exercise:leap:blurb": "Визначте, чи є заданий рік високосним.",
+  "exercise:leap:source": "CodeRanch Cattle Drive, завдання 3",
+  "track:blurb": "TODO: додати опис",
+  "exercise:hello-world:blurb": "Класична вступна вправа. Просто скажіть «Hello, World!».",
+  "doc:installation:title": "Встановлення ARM32 Assembly локально",
+  "doc:installation:blurb": "Дізнайтеся, як встановити ARM32 Assembly локально, щоб розвʼязувати вправи Exercism на власному компʼютері",
+  "doc:learning:title": "Як вивчати ARM32 Assembly",
+  "doc:learning:blurb": "Огляд того, як почати з нуля працювати з ARM32 Assembly",
+  "doc:tests:title": "Тестування на треку ARM32 Assembly",
+  "doc:tests:blurb": "Дізнайтеся, як тестувати вправи з ARM32 Assembly на Exercism",
+  "doc:resources:title": "Корисні ресурси з ARM32 Assembly",
+  "doc:resources:blurb": "Добірка корисних ресурсів, які допоможуть опанувати ARM32 Assembly"
+}

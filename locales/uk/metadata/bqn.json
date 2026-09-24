@@ -1,0 +1,14 @@
+{
+  "exercise:hello-world:name": "Привіт, світ!",
+  "exercise:hello-world:blurb": "Класична вступна вправа. Просто скажіть «Hello, World!».",
+  "exercise:hello-world:source": "Ця вправа знайомить користувачів з роботою на Exercism.",
+  "track:blurb": "Сучасна потужна мова, побудована на парадигмі масивного програмування Кена Айверсона.",
+  "doc:installation:title": "Встановлення BQN локально",
+  "doc:installation:blurb": "Дізнаймося, як встановити BQN локально, щоб розвʼязувати вправи Exercism на власному компʼютері",
+  "doc:learning:title": "Як вивчати BQN",
+  "doc:learning:blurb": "Огляд того, як почати з нуля з BQN",
+  "doc:tests:title": "Тестування на треку BQN",
+  "doc:tests:blurb": "Дізнаймося, як тестувати свої вправи BQN на Exercism",
+  "doc:resources:title": "Корисні ресурси для BQN",
+  "doc:resources:blurb": "Добірка корисних ресурсів, які допоможуть опанувати BQN"
+}

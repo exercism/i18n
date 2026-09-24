@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: додати опис",
+  "doc:installation:title": "Локальне встановлення C3",
+  "doc:installation:blurb": "Дізнайтеся, як встановити C3 локально, щоб розвʼязувати вправи Exercism на власному компʼютері",
+  "doc:learning:title": "Як вивчати C3",
+  "doc:learning:blurb": "Огляд того, як почати працювати з C3 з нуля",
+  "doc:tests:title": "Тестування на треку C3",
+  "doc:tests:blurb": "Дізнайтеся, як тестувати свої вправи з C3 на Exercism",
+  "doc:resources:title": "Корисні ресурси для C3",
+  "doc:resources:blurb": "Добірка корисних ресурсів, які допоможуть опанувати C3"
+}
