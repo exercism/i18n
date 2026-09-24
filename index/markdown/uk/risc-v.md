@@ -379,12 +379,13 @@ This page is generated from [the index](../../json/uk/risc-v.json) by `scripts/b
 
 ### Installing RISC-V locally (Встановлення RISC-V локально)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/uk/content/6d/47/fa9fc72f34fef0b32f2d6e8d7f754c2f5849.md)
-  - [`cd6ce8521d`](../../../locales/uk/content/cd/6c/e8521d1baba7dc72cdaf56a8a9eb3cb23882.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/uk/content/cd/6c/e8521d1baba7dc72cdaf56a8a9eb3cb23882.md)
+  - [`6d47fa9fc7`](../../../locales/uk/content/6d/47/fa9fc72f34fef0b32f2d6e8d7f754c2f5849.md)
 
 ### Testing on the RISC-V track (Тестування на треку RISC-V)
 
-- `TESTS.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/TESTS.md)): [Latest](../../../locales/uk/content/be/c9/502b8987111c0315223e21e299485767937f.md)
+- `TESTS.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/TESTS.md)): [Latest](../../../locales/uk/content/0e/96/8f7d62ba2e542824a7b33dcb309429cd7fe7.md)
+  - [`bec9502b89`](../../../locales/uk/content/be/c9/502b8987111c0315223e21e299485767937f.md)
 
 ### Useful RISC-V resources (Корисні ресурси з RISC-V)
 

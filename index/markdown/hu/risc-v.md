@@ -383,7 +383,7 @@ This page is generated from [the index](../../json/hu/risc-v.json) by `scripts/b
 
 ### Testing on the RISC-V track
 
-- `TESTS.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/TESTS.md)): missing
+- `TESTS.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/TESTS.md)): [Latest](../../../locales/hu/content/0e/96/8f7d62ba2e542824a7b33dcb309429cd7fe7.md)
 
 ### Useful RISC-V resources
 

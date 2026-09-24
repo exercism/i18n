@@ -89,7 +89,7 @@
     "docs/INSTALLATION.md": ["6d47fa9fc72f34fef0b32f2d6e8d7f754c2f5849"],
     "docs/LEARNING.md": [],
     "docs/RESOURCES.md": [],
-    "docs/TESTS.md": [],
+    "docs/TESTS.md": ["0e968f7d62ba2e542824a7b33dcb309429cd7fe7"],
     "exercises/practice/acronym/.docs/instructions.md": ["133bd2cbb78d186c92e5d2b8ca41cf13f77d6bea"],
     "exercises/practice/affine-cipher/.docs/instructions.md": ["1603dbbce91dee78f8c1520ceb8bc96c6dc9528a"],
     "exercises/practice/all-your-base/.docs/instructions.md": ["1b688b6915eb31f5ee6c3b67d2803024a353806e"],
