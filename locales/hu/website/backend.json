@@ -612,8 +612,11 @@
         "or_divider": "vagy",
         "username_label": "Felhasználónév",
         "username_placeholder": "Válassz egyedi felhasználónevet",
+        "email_label": "E-mail",
         "email_placeholder": "Add meg az e-mail-címedet",
+        "password_label": "Jelszó",
         "password_placeholder": "Válassz jelszót (min. %{minimum_password_length} karakter)",
+        "password_confirmation_label": "Jelszó megerősítése",
         "password_confirmation_placeholder": "Erősítsd meg a jelszavadat",
         "confirm_not_bot_label": "Igazold, hogy nem vagy robot",
         "sign_up_button": "Regisztráció"
@@ -658,7 +661,8 @@
         "heading": "Az Exercism mindenki számára ingyenes, mindenhol",
         "level_up_html": "Fejleszd a programozási tudásodat %{stats} segítségével, és mélyreható beszélgetésekkel elhivatott, barátságos mentorcsapatunkkal.",
         "level_up_stats": "%{exercise_count} feladat %{track_count} nyelven",
-        "free_forever": "Az Exercism örökre 100%-ban ingyenes."
+        "free_forever": "Az Exercism örökre 100%-ban ingyenes.",
+        "more_tracks": "+%{count} további"
       }
     }
   },

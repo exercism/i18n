@@ -1,7 +1,7 @@
 {
   "automation-batch": {
     "components.mentoring.automation.automationIntroducer.initiateFeedbackAutomationBeepBoopBop": "Visszajelzés-automatizálás indítása…Bip búp búp…",
-    "components.mentoring.automation.automationIntroducer.automationIsASpace": "Az automatizálás egy olyan felület, ahol megnézheted a feladatok gyakori megoldásait, és egyszer írhatsz visszajelzést minden tanulónak, aki ugyanazt a megoldást küldte be.",
+    "components.mentoring.automation.automationIntroducer.automationIsASpace": "Az automatizálás egy olyan felület, ahol megnézheted a feladatok gyakori megoldásait, és egyszerre írhatsz visszajelzést minden tanulónak, aki ugyanazt a megoldást küldte be.",
     "components.mentoring.automation.mostPopularTag.mostPopular": "Legnépszerűbb"
   },
   "components/common/exercise-widget": {
@@ -1830,7 +1830,7 @@
     "previousSessions.some_other_other": "Mentorálás: <strong>{{total}}</strong> alkalom, ebből <strong>{{withMentor}}</strong> alkalom tőled.",
     "firstSession": "Ez lesz az <strong>első</strong> mentorálási beszélgetésük",
     "favorited": "Kedvenc",
-    "trackObjectivesTitle": "A kurzus céljai",
+    "trackObjectivesTitle": "Céljaim a kurzussal",
     "unableToLoad": "Nem sikerült betölteni az információkat",
     "locatedInAlt": "Itt található"
   },
