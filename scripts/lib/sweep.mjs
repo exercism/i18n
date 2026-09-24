@@ -94,10 +94,14 @@ export function shardOf(repos, { index, total }) {
  * megabytes between jobs for no reason. Counts and a few examples are enough to
  * decide what to do, and scripts/sweep.mjs `--full=<dir>` keeps the whole thing
  * for anyone who wants it.
+ *
+ * `active` is whether Exercism still runs the repo, which scripts/sweep.mjs
+ * works out (only a track can be inactive). It rides along here because it
+ * decides which half of the summary a repo lands in.
  */
-export function summariseRepo(report, locales) {
+export function summariseRepo(report, locales, { active = true } = {}) {
   const required = Object.values(report.required ?? {}).reduce((total, count) => total + count, 0);
-  const entry = { repo: report.repo, kind: report.kind, head: report.head, required, locales: {} };
+  const entry = { repo: report.repo, kind: report.kind, head: report.head, active, required, locales: {} };
   for (const locale of locales) {
     const lines = report.locales?.[locale] ?? [];
     entry.locales[locale] = { outstanding: lines.length, sample: lines.slice(0, SAMPLE).map((line) => line.what) };
@@ -117,6 +121,19 @@ export function standing(entry, locale) {
   if (entry.required === 0) return "empty";
   if (outstanding === 0) return "complete";
   return outstanding < entry.required ? "started" : "untouched";
+}
+
+/**
+ * Whether a repo's gaps gate anything, which is whether Exercism still runs it.
+ *
+ * An inactive track is one the website no longer shows, so nobody can reach its
+ * English and a missing translation of it is text no user will ever see.
+ * scripts/validate.mjs already stops requiring their metadata catalogs. An
+ * entry that predates the flag (an older shard's JSON) counts as gated, because
+ * treating an unknown as out of scope is the error that hides work.
+ */
+export function gated(entry) {
+  return entry.active !== false;
 }
 
 /** The command in exercism/translator that translates one repo into one locale in full. */
@@ -140,6 +157,34 @@ function table(entries, locales) {
 }
 
 /**
+ * One group of repos sorted into the four answers a repo can give.
+ *
+ * The split between "part translated" and "not started" is the useful one: a
+ * handful of items in an otherwise complete repo is drift, and a whole
+ * untranslated repo is backlog. It applies inside each group rather than across
+ * the report, so an inactive track's backlog never sits next to an active
+ * track's drift.
+ */
+function byStanding(group, locales) {
+  const of = (name) => group.filter((entry) => locales.some((locale) => standing(entry, locale) === name));
+  const started = of("started");
+  return {
+    started,
+    untouched: of("untouched").filter((entry) => !started.includes(entry)),
+    complete: group.filter((entry) => entry.required > 0 && locales.every((locale) => standing(entry, locale) === "complete")),
+    empty: group.filter((entry) => entry.required === 0)
+  };
+}
+
+/** How many translations a group of repos is missing for one locale. */
+const outstandingIn = (group, locale) => group.reduce((sum, entry) => sum + entry.locales[locale].outstanding, 0);
+
+/** One group's outstanding count per locale, as `hu: 4, fr: 0`. */
+function totalsOf(group, locales) {
+  return locales.map((locale) => `${locale}: ${count(outstandingIn(group, locale))}`).join(", ");
+}
+
+/**
  * The summary issue's body.
  *
  * One issue, edited in place on every run, so the sweep can never spam and two
@@ -149,16 +194,23 @@ function table(entries, locales) {
  * answer. A date at the top, and `stale` when that date is old, is what makes a
  * sweep that stopped look different from a sweep that found nothing.
  *
+ * ## Why the headline leaves the inactive tracks out
+ *
+ * A headline is a number somebody acts on. Counting the inactive tracks made it
+ * one nobody would: of the 3,109 outstanding a full run measured on 2026-09-24,
+ * 3,083 were in tracks Exercism no longer shows, and the 26 that anyone would
+ * act on (drift in `go` and `swift`, both otherwise complete) sat in the same
+ * list as `haxe` at 460. So the headline counts the repos whose English a
+ * reader can reach, and the rest keep their own section, with their own counts,
+ * at the end.
+ *
  * @param {object} run  `{ sweptAt, previousSweptAt, runUrl, shards, failures }`
  */
 export function summaryBody({ entries, locales, sweptAt, previousSweptAt = null, runUrl = null, failures = [], incomplete = [] }) {
   const age = freshness(previousSweptAt, sweptAt);
-  const byStanding = (name) => entries.filter((entry) => locales.some((locale) => standing(entry, locale) === name));
-  const started = byStanding("started");
-  const untouched = byStanding("untouched").filter((entry) => !started.includes(entry));
-  const empty = entries.filter((entry) => entry.required === 0);
-  const complete = entries.filter((entry) => entry.required > 0 && locales.every((locale) => standing(entry, locale) === "complete"));
-  const totals = locales.map((locale) => `${locale}: ${count(entries.reduce((sum, entry) => sum + entry.locales[locale].outstanding, 0))}`);
+  const active = entries.filter(gated);
+  const inactive = entries.filter((entry) => !gated(entry));
+  const { started, untouched, complete, empty } = byStanding(active, locales);
 
   const body = [
     `Last swept: ${sweptAt}${runUrl ? ` ([run](${runUrl}))` : ""}`,
@@ -176,11 +228,14 @@ export function summaryBody({ entries, locales, sweptAt, previousSweptAt = null,
   }
 
   body.push(
-    `${count(entries.length)} source repo(s) read at \`main\`, against ${locales.join(", ")}. Outstanding translations, ${totals.join(", ")}.`,
+    `${count(active.length)} active source repo(s) read at \`main\`, against ${locales.join(", ")}. Outstanding translations, ${totalsOf(active, locales)}.`,
     "",
     "Each row is one repo's `main` measured in full, which is `scripts/completeness.mjs` with no `--base`. A PR's `i18n / completeness` check asks the same question of one PR's changes, so anything here is English that is already merged and still untranslated, whatever the checks said at the time.",
     ""
   );
+  if (inactive.length > 0) {
+    body.push(`The sweep also read ${count(inactive.length)} track repo(s) Exercism no longer runs, holding ${totalsOf(inactive, locales)}. That count is deliberately not in the line above: nobody can reach those pages, so the work is not gated and not urgent. It is kept under "Inactive tracks" below.`, "");
+  }
 
   if (started.length > 0) {
     body.push(`## Part translated (${started.length})`, "", "These have translations and are missing some. They are the ones to finish first: the locale already serves these repos, so a gap here is text a user can reach today.", "", table(started, locales), "");
@@ -195,6 +250,25 @@ export function summaryBody({ entries, locales, sweptAt, previousSweptAt = null,
   }
   if (complete.length > 0) body.push(`## Complete (${complete.length})`, "", complete.map((entry) => `\`${entry.repo}\``).join(", "), "");
   if (empty.length > 0) body.push(`## Nothing to translate (${empty.length})`, "", "The registry matches no file in these, so they are repos the topic search finds and the sweep has no question about.", "", empty.map((entry) => `\`${entry.repo}\``).join(", "), "");
+
+  if (inactive.length > 0) {
+    const dormant = byStanding(inactive, locales);
+    body.push(
+      `## Inactive tracks (${inactive.length})`,
+      "",
+      'Each of these tracks says `"active": false` in its own `config.json`, so the website no longer shows it and a reader cannot reach the English. `scripts/validate.mjs` already stops requiring their metadata catalogs. The sweep still reads them, so a track that is switched back on shows up here the next morning rather than whenever somebody thinks to look, and it keeps them out of the headline so the headline is work somebody would do.',
+      "",
+      `Outstanding translations, ${totalsOf(inactive, locales)}.`,
+      "",
+      "<details><summary>Show</summary>",
+      ""
+    );
+    if (dormant.started.length > 0) body.push(`### Part translated (${dormant.started.length})`, "", table(dormant.started, locales), "");
+    if (dormant.untouched.length > 0) body.push(`### Not started (${dormant.untouched.length})`, "", table(dormant.untouched, locales), "");
+    if (dormant.complete.length > 0) body.push(`### Complete (${dormant.complete.length})`, "", dormant.complete.map((entry) => `\`${entry.repo}\``).join(", "), "");
+    if (dormant.empty.length > 0) body.push(`### Nothing to translate (${dormant.empty.length})`, "", dormant.empty.map((entry) => `\`${entry.repo}\``).join(", "), "");
+    body.push("</details>", "");
+  }
 
   return `${body.join("\n").trimEnd()}\n`;
 }
@@ -216,8 +290,15 @@ export function freshness(previous, now, { staleAfterHours = STALE_AFTER_HOURS }
   return { hours, days: Math.round(hours / 24), stale: hours > staleAfterHours };
 }
 
-/** The title, which carries the headline count so a stale sweep shows in a list of issues. */
+/**
+ * The title, which carries the headline count so a stale sweep shows in a list of issues.
+ *
+ * It counts the active repos only, for the reason summaryBody gives, and says
+ * "active" so that the difference from the number the body's last section
+ * carries is on the face of the title rather than a surprise inside it.
+ */
 export function summaryTitle(entries, locales, sweptAt) {
-  const outstanding = entries.reduce((sum, entry) => sum + locales.reduce((count, locale) => count + entry.locales[locale].outstanding, 0), 0);
-  return `Translation sweep: ${count(outstanding)} outstanding across ${entries.length} source repo(s), as of ${sweptAt.slice(0, 10)}`;
+  const active = entries.filter(gated);
+  const total = locales.reduce((sum, locale) => sum + outstandingIn(active, locale), 0);
+  return `Translation sweep: ${count(total)} outstanding across ${active.length} active source repo(s), as of ${sweptAt.slice(0, 10)}`;
 }
