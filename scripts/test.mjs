@@ -180,6 +180,30 @@ await test("a track's metadata is exactly the copy the website shows, keyed by s
   for (const data of ["paradigm", "example.com", "lasagna\"}", "Never synced", "INSTALLATION.md", "e1", "d1"]) assert.ok(!text.includes(data), `extracted data: ${data}`);
 });
 
+await test("a wip exercise is not translatable English; every other status is", () => {
+  const statuses = { active: "Active", beta: "Beta", deprecated: "Deprecated", wip: "Wip", none: "None" };
+  const entries = Object.entries(statuses).map(([status, name]) => ({ uuid: `u-${status}`, slug: status, name, ...(status === "none" ? {} : { status }) }));
+  const config = { ...TRACK_CONFIG, exercises: { concept: [], practice: entries } };
+  const files = { "config.json": JSON.stringify(config) };
+  for (const status of Object.keys(statuses)) files[`exercises/practice/${status}/.meta/config.json`] = JSON.stringify({ blurb: `Blurb for ${status}.`, source: `Source for ${status}.` });
+  const { catalog } = buildMetadataEnglish("track", asTree(files), asReader(files));
+
+  for (const status of ["active", "beta", "deprecated", "none"]) {
+    assert.equal(catalog[`exercise:${status}:name`], statuses[status], `${status} is shown to users, so its name is required`);
+    assert.equal(catalog[`exercise:${status}:blurb`], `Blurb for ${status}.`);
+    assert.equal(catalog[`exercise:${status}:source`], `Source for ${status}.`);
+  }
+  for (const field of ["name", "blurb", "source"]) assert.ok(!(`exercise:wip:${field}` in catalog), `wip is unfinished and unreachable, so its ${field} is not English anyone is waiting for`);
+
+  // The queue reads the track's config.json on its own, so it has to agree.
+  assert.ok(!("exercise:wip:name" in fileCopy("track-metadata", "config.json", JSON.stringify(config))));
+
+  // A concept entry has no status in any track repo, so every one is required.
+  const concepts = { ...TRACK_CONFIG, exercises: { concept: [], practice: [] }, concepts: [{ uuid: "c1", slug: "strings", name: "Strings", status: "wip" }] };
+  const conceptFiles = { "config.json": JSON.stringify(concepts), "concepts/strings/.meta/config.json": JSON.stringify({ blurb: "About strings." }) };
+  assert.equal(buildMetadataEnglish("track", asTree(conceptFiles), asReader(conceptFiles)).catalog["concept:strings:name"], "Strings");
+});
+
 await test("reordering changes no key; a rename is new keys, and the old ones are simply no longer English", () => {
   const files = trackFiles();
   const before = buildMetadataEnglish("track", asTree(files), asReader(files)).catalog;
