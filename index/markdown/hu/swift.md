@@ -591,7 +591,8 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 ### ChessBoard (Sakktábla)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/chessboard/.docs/instructions.md)): [Latest](../../../locales/hu/content/cb/5a/cc863e25f06c909f01efe2652d9d6836dbcc.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/chessboard/.docs/introduction.md)): [Latest](../../../locales/hu/content/a1/c7/ed3db887f49160f13421f41f40992ca1d53e.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/chessboard/.docs/introduction.md)): [Latest](../../../locales/hu/content/e6/30/9215096118f858eefb4af2ba876d01fa8c3e.md)
+  - [`a1c7ed3db8`](../../../locales/hu/content/a1/c7/ed3db887f49160f13421f41f40992ca1d53e.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/chessboard/.docs/hints.md)): [Latest](../../../locales/hu/content/47/a7/1301d8ebee5ae1f661f6baf6cbf9279af50a.md)
 
 ### Double-Null0111: Closures Are Forever (Double-Null0111: A closure-ök örökké élnek)
@@ -829,7 +830,8 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 
 ### Ranges (Tartományok)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/ranges/introduction.md)): [Latest](../../../locales/hu/content/a1/c7/ed3db887f49160f13421f41f40992ca1d53e.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/ranges/introduction.md)): [Latest](../../../locales/hu/content/e6/30/9215096118f858eefb4af2ba876d01fa8c3e.md)
+  - [`a1c7ed3db8`](../../../locales/hu/content/a1/c7/ed3db887f49160f13421f41f40992ca1d53e.md)
 - `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/ranges/about.md)): [Latest](../../../locales/hu/content/b8/8a/6f05de2f673e89445230b9a3ea8fbc3a9e9c.md)
   - [`a1c7ed3db8`](../../../locales/hu/content/a1/c7/ed3db887f49160f13421f41f40992ca1d53e.md)
 
