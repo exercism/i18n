@@ -30,6 +30,7 @@ import { BundleSyntaxError, parseBundle } from "./lib/ts-object.mjs";
 import { PLURAL_SPELLING, requiredCategories } from "./lib/plurals.mjs";
 import { englishUnits, flattenCatalog, stringId, targetEntries, unflattenCatalog, unitHash, unitState, unitTouched } from "./lib/catalogs.mjs";
 import { ERROR, WARN, checkCatalog, checkContentFile, placeholders, tags } from "./lib/checks.mjs";
+import { ALLOWLIST_FILE, allowlistIssues, allowlistPath, allows, collapseUnitIds, renderIdentical, summariseIdentical } from "./lib/identical.mjs";
 import { CONTENT_TYPES, CONTENT_TYPE_IDS, contentRelativePath, parseContentRelativePath, typeForPath } from "./lib/content-types.mjs";
 import { REPO_KINDS, isActiveTrack, kindForRepo } from "./lib/source-repos.mjs";
 import { missingContent, missingUnits, requiredContent, requiredUnits, translatableFiles } from "./lib/completeness.mjs";
@@ -392,6 +393,108 @@ await test("a group's category may use any placeholder the English group has, an
   assert.match(errorsOf(checkCatalog(BACKEND_EN, dropped, { kind: "backend", locale: "hu" }).issues)[0], /dropped placeholder.*%\{count\}/);
   const invented = { ...BACKEND_EN, "slots.filled.one": "%{number} hely" };
   assert.match(errorsOf(checkCatalog(BACKEND_EN, invented, { kind: "backend", locale: "hu" }).issues)[0], /no English category has.*%\{number\}/);
+});
+
+// ------------------------------------------------- byte-identical reporting --
+//
+// One editorial fact reported once per catalog per locale drowned the run: 1695
+// of 1721 warnings were this one check, and eight exercises' `source` fields
+// were most of them. What is checked did not change. The occurrences are
+// grouped by the English string, and a string a reviewer has signed off in
+// identical-english.json is counted and not printed (scripts/lib/identical.mjs).
+
+const AUTHORS = "Christian Willner, Eric Willigers";
+const KATA = "Software Craftsmanship - Coin Change Kata";
+
+// What validate hands the reporting layer: one result per catalog.
+const identicalResult = (locale, type, units, text) => ({
+  locale,
+  type,
+  issues: units.map((unit) => ({ level: WARN, message: `${unit}: byte-identical to English (may be untranslated, may be legitimate)`, unit, identical: { id: stringId(text), text } }))
+});
+
+await test("a byte-identical warning carries the English string and its blob id, so it can be grouped", () => {
+  const english = { "exercise:eliuds-eggs:source": AUTHORS, "exercise:eliuds-eggs:blurb": "Count the eggs in each nest." };
+  const { issues } = checkCatalog(english, { ...english, "exercise:eliuds-eggs:blurb": "Számold meg a tojásokat." }, { kind: "metadata", locale: "hu" });
+  const identical = issues.filter((found) => found.identical);
+  assert.equal(identical.length, 1);
+  assert.deepEqual(identical[0].identical, { id: stringId(AUTHORS), text: AUTHORS });
+  assert.match(identical[0].message, /^exercise:eliuds-eggs:source: byte-identical/);
+});
+
+await test("occurrences of one English string are one group, however many catalogs and unit ids they came from", () => {
+  const results = [
+    identicalResult("hu", "metadata/ruby", ["exercise:resistor-color:source", "exercise:resistor-color-duo:source"], AUTHORS),
+    identicalResult("hu", "metadata/python", ["exercise:resistor-color:source"], AUTHORS),
+    identicalResult("fr", "metadata/ruby", ["exercise:resistor-color:source"], AUTHORS)
+  ];
+  const { groups } = summariseIdentical(results);
+  assert.deepEqual(groups.map((group) => [group.locale, group.catalogs.size, group.occurrences, group.unitId]), [
+    ["hu", 2, 3, "exercise:*:source"],
+    ["fr", 1, 1, "exercise:resistor-color:source"]
+  ]);
+  assert.match(renderIdentical({ groups, allowed: [], unmatched: [] }).join("\n"), /hu\s+2 catalog\(s\)\s+exercise:\*:source\s+"Christian Willner, Eric Willigers"/);
+});
+
+await test("ids that do not line up segment for segment are not collapsed into a star", () => {
+  assert.equal(collapseUnitIds(["exercise:leap:source"]), "exercise:leap:source");
+  assert.equal(collapseUnitIds(["exercise:leap:source", "exercise:grains:source"]), "exercise:*:source");
+  assert.equal(collapseUnitIds(["exercise:leap:source", "nav.home"]), "exercise:leap:source (+1 more)");
+});
+
+await test("a signed-off string is counted and not printed, and editing its English brings it back", () => {
+  const allowlist = new Map([[stringId(AUTHORS), { text: AUTHORS, reason: "Attribution.", added: "2026-09-24", by: "iHiD" }]]);
+  const results = [identicalResult("hu", "metadata/ruby", ["exercise:eliuds-eggs:source"], AUTHORS)];
+  const signed = summariseIdentical(results, allowlist);
+  assert.deepEqual(signed.groups, []);
+  assert.equal(signed.allowed.length, 1);
+  assert.deepEqual(signed.unmatched, []);
+  assert.match(renderIdentical(signed).join("\n"), /1 group\(s\) \(1 occurrence\(s\)\) are signed off/);
+
+  // The same names with a sentence around them are a different string, so a
+  // different blob id, so nothing signed off covers it.
+  const edited = summariseIdentical([identicalResult("hu", "metadata/ruby", ["exercise:eliuds-eggs:source"], `Written by ${AUTHORS}`)], allowlist);
+  assert.equal(edited.groups.length, 1);
+  assert.equal(edited.allowed.length, 0);
+});
+
+await test("an entry covers every locale unless it names some", () => {
+  const entry = { text: KATA, reason: "A kata's title.", added: "2026-09-24", by: "iHiD" };
+  assert.ok(allows(entry, "hu") && allows(entry, "fr"));
+  assert.ok(allows({ ...entry, locales: ["fr"] }, "fr"));
+  assert.ok(!allows({ ...entry, locales: ["fr"] }, "hu"));
+  assert.ok(!allows(undefined, "hu"));
+});
+
+await test("an entry that matched nothing in the run is reported, because it hides nothing", () => {
+  const allowlist = new Map([[stringId(KATA), { text: KATA, reason: "A kata's title.", added: "2026-09-24", by: "iHiD" }]]);
+  const summary = summariseIdentical([identicalResult("hu", "metadata/ruby", ["exercise:eliuds-eggs:source"], AUTHORS)], allowlist);
+  assert.deepEqual(summary.unmatched.map((entry) => entry.text), [KATA]);
+  // A run of one locale or one type has been shown nothing about an entry.
+  assert.doesNotMatch(renderIdentical(summary).join("\n"), /matched nothing/);
+  assert.match(renderIdentical(summary, { reportUnmatched: true }).join("\n"), /1 entry\/entries matched nothing/);
+});
+
+await test("the allowlist's shape is checked, so a hand edit cannot quietly hide a different string", () => {
+  const entry = { text: AUTHORS, reason: "Attribution.", added: "2026-09-24", by: "iHiD" };
+  assert.deepEqual(allowlistIssues({ allowed: { [stringId(AUTHORS)]: entry } }), []);
+  assert.deepEqual(allowlistIssues({ allowed: { [stringId(AUTHORS)]: { ...entry, locales: ["hu"] } } }), []);
+
+  const edited = allowlistIssues({ allowed: { [stringId(AUTHORS)]: { ...entry, text: KATA } } });
+  assert.equal(edited.length, 1);
+  assert.match(edited[0], /the id and the text disagree/);
+  assert.match(allowlistIssues({ allowed: { [stringId(AUTHORS)]: { ...entry, locale: "hu" } } })[0], /unknown field "locale"/);
+  assert.match(allowlistIssues({ allowed: { [stringId(AUTHORS)]: { ...entry, locales: [] } } })[0], /non-empty array of locale codes/);
+  assert.match(allowlistIssues({ allowed: { [stringId(AUTHORS)]: { ...entry, locales: ["xx"] } } })[0], /not a target locale/);
+  assert.match(allowlistIssues({ allowed: { "not-a-blob-id": entry } })[0], /not a blob id/);
+  assert.match(allowlistIssues({ allowed: { [stringId(AUTHORS)]: { ...entry, reason: "  " } } })[0], /"reason" must be a non-empty string/);
+  assert.match(allowlistIssues({ entries: {} })[0], /must have an "allowed" object/);
+});
+
+await test("the allowlist this repo ships is sound", () => {
+  const file = allowlistPath(SCRIPTS_ROOT);
+  if (!fs.existsSync(file)) return;
+  assert.deepEqual(allowlistIssues(JSON.parse(fs.readFileSync(file, "utf8"))), [], ALLOWLIST_FILE);
 });
 
 // ------------------------------------------------------------------- parity --
@@ -1015,6 +1118,58 @@ await test("fixture: a production locale must hold a catalog for an active track
   assert.equal(held.status, 1, held.out);
   assert.match(held.out, /FAIL hu\s+metadata\/dozing/, held.out);
   assert.match(held.out, /ERROR missing: track:blurb/, held.out);
+});
+
+// A source repo syncs one exercise into a hundred-odd tracks, so one author
+// line was reported a hundred-odd times per locale. That is what took a real
+// run to 1695 byte-identical warnings and made the run unreadable.
+await test("fixture: byte-identical warnings are grouped by English string, and a signed-off one is counted and not printed", () => {
+  const authors = "Christian Willner, Eric Willigers";
+  const track = (language, slug, name) => ({
+    "config.json": JSON.stringify({ language, active: true, blurb: `${language} is served.`, exercises: { practice: [{ uuid: slug, slug, name }] } }),
+    [`exercises/practice/${slug}/.meta/config.json`]: JSON.stringify({ blurb: `Solve ${name}.`, source: authors })
+  });
+  const alpha = makeRepo("alpha", track("Alpha", "eliuds-eggs", "Eliud's Eggs"));
+  const beta = makeRepo("beta", track("Beta", "resistor-color", "Resistor Color"));
+  const repos = [`${alpha}:track@HEAD`, `${beta}:track@HEAD`].join(",");
+  const catalog = (language, slug, name) => JSON.stringify({ "track:blurb": `${language}-t kiszolgáljuk.`, [`exercise:${slug}:name`]: name, [`exercise:${slug}:blurb`]: `Oldd meg: ${name}.`, [`exercise:${slug}:source`]: authors }, null, 2);
+  const files = { "locales/hu/metadata/alpha.json": catalog("Alpha", "eliuds-eggs", "Eliud's Eggs"), "locales/hu/metadata/beta.json": catalog("Beta", "resistor-color", "Resistor Color") };
+  writeTree(ROOT, files);
+  const validate = () => run("validate.mjs", ["hu", "--type=metadata", `--content-repos=${repos}`]);
+
+  // Two catalogs, two unit ids, one editorial decision, one line.
+  const grouped = validate();
+  assert.equal(grouped.status, 0, grouped.out);
+  assert.doesNotMatch(grouped.out, /WARN\s+exercise:.*byte-identical/, grouped.out);
+  assert.match(grouped.out, /hu\s+2 catalog\(s\)\s+exercise:\*:source\s+"Christian Willner, Eric Willigers"/, grouped.out);
+
+  const signOff = run("allow-identical.mjs", ["--by=test", "--reason=Attribution: the people who wrote the exercise.", authors]);
+  assert.equal(signOff.status, 0, signOff.out);
+  const quiet = validate();
+  assert.equal(quiet.status, 0, quiet.out);
+  assert.doesNotMatch(quiet.out, /exercise:\*:source/, quiet.out);
+  assert.match(quiet.out, /1 group\(s\) \(2 occurrence\(s\)\) are signed off/, quiet.out);
+
+  // The English is edited, so it has a new blob id, so the sign-off no longer
+  // covers it and the string is reported again.
+  const credited = `Written by ${authors}`;
+  writeTree(alpha, { "exercises/practice/eliuds-eggs/.meta/config.json": JSON.stringify({ blurb: "Solve Eliud's Eggs.", source: credited }) });
+  commitAll(alpha, "credit the authors in a sentence");
+  writeTree(ROOT, { "locales/hu/metadata/alpha.json": catalog("Alpha", "eliuds-eggs", "Eliud's Eggs").replace(authors, credited) });
+  const again = validate();
+  assert.match(again.out, /hu\s+1 catalog\(s\)\s+exercise:eliuds-eggs:source\s+"Written by Christian Willner, Eric Willigers"/, again.out);
+  assert.match(again.out, /1 group\(s\) \(1 occurrence\(s\)\) are signed off/, again.out);
+
+  // An entry that matches nothing hides nothing, and says a decision applies
+  // that no longer does. A whole run is the only one that can tell.
+  const gone = "A string every locale has since translated.";
+  run("allow-identical.mjs", ["--by=test", "--reason=No longer anywhere.", gone]);
+  assert.doesNotMatch(validate().out, /matched nothing/, "a run of one type reported an entry as dead");
+  const whole = run("validate.mjs", ["all", `--content-repos=${repos}`]);
+  assert.match(whole.out, /identical-english\.json: 1 entry\/entries matched nothing in this run/, whole.out);
+  assert.match(whole.out, /"A string every locale has since translated\."/, whole.out);
+
+  for (const file of [...Object.keys(files), "identical-english.json"]) fs.rmSync(path.join(ROOT, file));
 });
 
 await test("fixture: an edit is a new blob and an edited blurb a stale unit, so both block again; --base scopes it to the PR", () => {

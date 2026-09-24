@@ -45,7 +45,7 @@
 // does for production locales and under `--complete`.
 
 import { CATEGORIES, PLURAL_SPELLING, isOptionalCategory, requiredCategories } from "./plurals.mjs";
-import { claimedKeys, englishUnits, targetEntries } from "./catalogs.mjs";
+import { claimedKeys, englishUnits, stringId, targetEntries } from "./catalogs.mjs";
 import { blobId } from "./git.mjs";
 
 export const ERROR = "ERROR";
@@ -146,7 +146,14 @@ export function checkCatalog(flatEnglish, flatTarget, { kind, locale, requireCom
       const value = entries[""];
       if (!checkValue({ kind, where: unit.id, source, value, issues, unitId: unit.id })) continue;
       compareMarkup({ kind, where: unit.id, sources: [source], value, issues, unitId: unit.id });
-      if (value === source && source.length > 24) issues.push(issue(WARN, `${unit.id}: byte-identical to English (may be untranslated, may be legitimate)`, unit.id));
+      // One editorial decision is reported once per catalog per locale: an
+      // author line shared by a hundred-odd tracks warns a hundred-odd times.
+      // So the issue also carries the English string and its blob id, and the
+      // reporting layer groups the occurrences and drops the ones signed off
+      // (scripts/lib/identical.mjs). The check itself is unchanged.
+      if (value === source && source.length > 24) {
+        issues.push({ ...issue(WARN, `${unit.id}: byte-identical to English (may be untranslated, may be legitimate)`, unit.id), identical: { id: stringId(source), text: source } });
+      }
       continue;
     }
 

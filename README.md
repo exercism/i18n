@@ -24,6 +24,8 @@ locales/<locale>/content/<ab>/<cd>/<rest>.<ext>
                                           comments, problem-specifications
 index/json/<locale>/<repo>.json          which blob ids each source path has translations for
 index/markdown/<locale>/<repo>.md        generated from that JSON, for browsing
+identical-english.json                   English strings a translation deliberately leaves
+                                         alone, keyed by the blob id of the string
 ```
 
 Content is keyed by the git blob id of its English file. Editing the English gives it a new

@@ -35,6 +35,7 @@ stubbed" before assuming anything works end to end.
 ```
 locales.json                     targets, productionTargets (hu today)
 website-exclusions.json          website areas that are never translated
+identical-english.json           English strings a translation deliberately leaves alone
 locales/<locale>/
   website/backend.json           Rails strings, nested, no locale root
   website/backend.meta.json      per-unit staleness stamps, written by validate --stamp
@@ -248,10 +249,23 @@ header comment is its documentation, so read it before changing the script. Ther
 | `build-index.mjs` | Generates `index/markdown/` from `index/json/`. With `--check` it writes nothing and fails on a page that differs, an id with no file, or JSON not in canonical form. |
 | `backfill-index.mjs` | Builds one locale's index from the full history of every source checkout (default `../translator/.source`), at `origin/main`. Re-runnable. |
 | `pr-reply.mjs` | The wording of the one reply the loop posts on a source PR ("This PR has been translated 🚀"), and whether a PR already has it. Used by `rerun-source-check.yml`. Posts nothing itself. |
+| `allow-identical.mjs` | Signs off one English string that a translation deliberately leaves as it is, in `identical-english.json`. Takes the text and a `--reason`, and computes the blob id itself. |
 | `test.mjs` | Plain `node:assert`. Unit assertions, then a fixture of real git repos that every script is run against. |
 
 - **Errors block; warnings never do.** WARN checks are heuristics and are expected to flag
   some correct text. Read them, and never turn one into an error.
+- **A warning nobody reads is not a check.** `validate.mjs` prints the byte-identical
+  warnings as one block at the end of the run, grouped by the English string, because one
+  editorial fact was otherwise reported once per catalog per locale: eight exercises'
+  `source` fields were 1255 of the 1695 such warnings a full run printed. Grouping and
+  signing off happen in the reporting layer (`scripts/lib/identical.mjs`), so what is
+  checked, and `--json`, are unchanged.
+- **`identical-english.json` says which identical strings a reviewer has accepted.** Each
+  entry is keyed by the git blob id of the English string, which is what the stamps use, so
+  an entry is tied to exact bytes: edit the English and the warning comes back. An entry
+  covers every locale unless it lists `locales`, because the strings this is for are proper
+  names and titles. Write entries with `scripts/allow-identical.mjs`, never by hand, and
+  delete an entry that a whole run reports as matching nothing.
 - **`EXERCISM_I18N_ROOT`** points the scripts at another tree. It exists for `test.mjs`.
 
 ## The sweep
