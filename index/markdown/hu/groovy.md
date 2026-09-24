@@ -30,8 +30,8 @@ This page is generated from [the index](../../json/hu/groovy.json) by `scripts/b
 
 ### Anagram (Anagramma)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/anagram/.docs/instructions.md)): [Latest](../../../locales/hu/content/dc/a2/4f52627e3ba6b999322fb89d8c686c3ec634.md)
-  - [`a7298485b3`](../../../locales/hu/content/a7/29/8485b3f6ab5fd93ed7426e9e5331dc514e72.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/anagram/.docs/instructions.md)): [Latest](../../../locales/hu/content/a7/29/8485b3f6ab5fd93ed7426e9e5331dc514e72.md)
+  - [`dca24f5262`](../../../locales/hu/content/dc/a2/4f52627e3ba6b999322fb89d8c686c3ec634.md)
 - `instructions.append.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/anagram/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/0f/5c/35b6aedbba133c851ccfb31cfecccaa3e298.md)
 - `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/anagram/.docs/introduction.md)): [Latest](../../../locales/hu/content/1a/cb/df00b059f44fb4ce4c00be743d24eda86d60.md)
 
@@ -42,14 +42,14 @@ This page is generated from [the index](../../json/hu/groovy.json) by `scripts/b
 
 ### Atbash Cipher (Atbash-rejtjel)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/atbash-cipher/.docs/instructions.md)): [Latest](../../../locales/hu/content/1e/76/27b1e5989878f0f1bf735feb1300de7a2664.md)
-  - [`21ca2ce0aa`](../../../locales/hu/content/21/ca/2ce0aa806b97f21182196eebe554c4b984ef.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/atbash-cipher/.docs/instructions.md)): [Latest](../../../locales/hu/content/21/ca/2ce0aa806b97f21182196eebe554c4b984ef.md)
+  - [`1e7627b1e5`](../../../locales/hu/content/1e/76/27b1e5989878f0f1bf735feb1300de7a2664.md)
   - [`2f712b1592`](../../../locales/hu/content/2f/71/2b15926ce38b30169ef840510b3aa4a42741.md)
 
 ### Bank Account (Bankszámla)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/bank-account/.docs/instructions.md)): [Latest](../../../locales/hu/content/73/98/fbea1882dcf62be8957af20bc28779a93cbd.md)
-  - [`0955520bbf`](../../../locales/hu/content/09/55/520bbff199efc461649b5a0a3761b0e760e2.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/bank-account/.docs/instructions.md)): [Latest](../../../locales/hu/content/09/55/520bbff199efc461649b5a0a3761b0e760e2.md)
+  - [`7398fbea18`](../../../locales/hu/content/73/98/fbea1882dcf62be8957af20bc28779a93cbd.md)
 - `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/bank-account/.docs/introduction.md)): [Latest](../../../locales/hu/content/65/0b/5d9c46f00d99296ce5cb86ae7df14e3c1302.md)
 
 ### Binary Search (Bináris keresés)
@@ -69,8 +69,8 @@ This page is generated from [the index](../../json/hu/groovy.json) by `scripts/b
 
 ### Collatz Conjecture (Collatz-sejtés)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/collatz-conjecture/.docs/instructions.md)): [Latest](../../../locales/hu/content/af/33/2a810f0f31aa1233e92bea57721d3025f4e0.md)
-  - [`ba060483e4`](../../../locales/hu/content/ba/06/0483e4d45f77f20a8b048544aa5438022467.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/collatz-conjecture/.docs/instructions.md)): [Latest](../../../locales/hu/content/ba/06/0483e4d45f77f20a8b048544aa5438022467.md)
+  - [`af332a810f`](../../../locales/hu/content/af/33/2a810f0f31aa1233e92bea57721d3025f4e0.md)
   - [`f8c76e7f11`](../../../locales/hu/content/f8/c7/6e7f11ed42a07577ae6ef350d169de59bf76.md)
 - `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/collatz-conjecture/.docs/introduction.md)): [Latest](../../../locales/hu/content/c3/5b/deb67dceef4bf9769dbbf473e841cdd068f2.md)
 
@@ -102,8 +102,8 @@ This page is generated from [the index](../../json/hu/groovy.json) by `scripts/b
 
 ### Flatten Array (Tömb lapítása)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/flatten-array/.docs/instructions.md)): [Latest](../../../locales/hu/content/b5/b8/2713d928a59e350e468d35c4ee92d49316cf.md)
-  - [`89dacfa327`](../../../locales/hu/content/89/da/cfa327af81651d91fd769d2a723244848985.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/flatten-array/.docs/instructions.md)): [Latest](../../../locales/hu/content/89/da/cfa327af81651d91fd769d2a723244848985.md)
+  - [`b5b82713d9`](../../../locales/hu/content/b5/b8/2713d928a59e350e468d35c4ee92d49316cf.md)
   - [`51bea67909`](../../../locales/hu/content/51/be/a67909f879fe54d8ec2ee70c146ee6ba8f61.md)
 - `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/flatten-array/.docs/introduction.md)): [Latest](../../../locales/hu/content/a3/14/857465e75cc95c88b634ddd355f7393888ad.md)
 
@@ -116,15 +116,15 @@ This page is generated from [the index](../../json/hu/groovy.json) by `scripts/b
 
 ### Grains (Gabonaszemek)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/grains/.docs/instructions.md)): [Latest](../../../locales/hu/content/f5/b7/52a81754e88e6e41120237c7d3b24d150e58.md)
-  - [`df479fc0a1`](../../../locales/hu/content/df/47/9fc0a174d105647e79d6c4dcaad6947b460c.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/grains/.docs/instructions.md)): [Latest](../../../locales/hu/content/df/47/9fc0a174d105647e79d6c4dcaad6947b460c.md)
+  - [`f5b752a817`](../../../locales/hu/content/f5/b7/52a81754e88e6e41120237c7d3b24d150e58.md)
   - [`05ee99760c`](../../../locales/hu/content/05/ee/99760ce62aebf11d0659049f1f3fafa1631e.md)
 - `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/grains/.docs/introduction.md)): [Latest](../../../locales/hu/content/0d/f4/f46f726cabcd99719756067e04d6832e52a8.md)
 
 ### Hamming
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/hamming/.docs/instructions.md)): [Latest](../../../locales/hu/content/8f/47/a179e01a680d8d8311f0a54ba239c9982431.md)
-  - [`020fdd02d4`](../../../locales/hu/content/02/0f/dd02d4e000f12cb26a9fc01f5670f4ffdbc5.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/hamming/.docs/instructions.md)): [Latest](../../../locales/hu/content/02/0f/dd02d4e000f12cb26a9fc01f5670f4ffdbc5.md)
+  - [`8f47a179e0`](../../../locales/hu/content/8f/47/a179e01a680d8d8311f0a54ba239c9982431.md)
   - [`56c5696de1`](../../../locales/hu/content/56/c5/696de15a9846b0717c8ca54479fe15aa8672.md)
 - `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/hamming/.docs/introduction.md)): [Latest](../../../locales/hu/content/84/19/bf479e5ef43be61485408c3758b2c7bd16da.md)
 
@@ -170,9 +170,9 @@ This page is generated from [the index](../../json/hu/groovy.json) by `scripts/b
 
 ### Luhn
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/luhn/.docs/instructions.md)): [Latest](../../../locales/hu/content/77/02/c6bbb5f849683e3074163e48ce1154ad2957.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/luhn/.docs/instructions.md)): [Latest](../../../locales/hu/content/8c/be/791fc23118f7b852fd0072136884cfea81e3.md)
+  - [`7702c6bbb5`](../../../locales/hu/content/77/02/c6bbb5f849683e3074163e48ce1154ad2957.md)
   - [`5bbf007b07`](../../../locales/hu/content/5b/bf/007b0754c7a7337b17cfe3923c978b323bd1.md)
-  - [`8cbe791fc2`](../../../locales/hu/content/8c/be/791fc23118f7b852fd0072136884cfea81e3.md)
   - [`c7c7d3e0f1`](../../../locales/hu/content/c7/c7/d3e0f1c36177c4e93db61f99a96e39932fe4.md)
 - `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/luhn/.docs/introduction.md)): [Latest](../../../locales/hu/content/de/e4/8006eddee9458a5414ddc96c4b9d2fc9109f.md)
   - [`ec2bd709d2`](../../../locales/hu/content/ec/2b/d709d2bb2cbfbbcdf3bf6d4e6b6f4a8bf3cd.md)
@@ -218,8 +218,8 @@ This page is generated from [the index](../../json/hu/groovy.json) by `scripts/b
 
 ### Phone Number (Telefonszám)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/phone-number/.docs/instructions.md)): [Latest](../../../locales/hu/content/5d/4d/3739f4563d3f7781a1524df13f11cc8fbc71.md)
-  - [`62ba48e96f`](../../../locales/hu/content/62/ba/48e96fd2a47445a74ab075c7ef7198601815.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/phone-number/.docs/instructions.md)): [Latest](../../../locales/hu/content/62/ba/48e96fd2a47445a74ab075c7ef7198601815.md)
+  - [`5d4d3739f4`](../../../locales/hu/content/5d/4d/3739f4563d3f7781a1524df13f11cc8fbc71.md)
   - [`6e36daefe7`](../../../locales/hu/content/6e/36/daefe7c70ec2893761f126bbe7ba38cf6dd5.md)
 - `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/phone-number/.docs/introduction.md)): [Latest](../../../locales/hu/content/c4/14/2c5af7289f74bf05d04c4563e2968a639cd2.md)
 
@@ -235,9 +235,9 @@ This page is generated from [the index](../../json/hu/groovy.json) by `scripts/b
 
 ### Protein Translation (Fehérjetranszláció)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/protein-translation/.docs/instructions.md)): [Latest](../../../locales/hu/content/35/c9/53b11f9642c30978222e743aff4dc38f1451.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/protein-translation/.docs/instructions.md)): [Latest](../../../locales/hu/content/7d/c3/4d2edfda1f154ed75b7cc6371485d8b0b39d.md)
+  - [`35c953b11f`](../../../locales/hu/content/35/c9/53b11f9642c30978222e743aff4dc38f1451.md)
   - [`44880802c5`](../../../locales/hu/content/44/88/0802c578d25f9638fab6a6bc1389ef45dd65.md)
-  - [`7dc34d2edf`](../../../locales/hu/content/7d/c3/4d2edfda1f154ed75b7cc6371485d8b0b39d.md)
   - [`c211345ed9`](../../../locales/hu/content/c2/11/345ed984d09974f68e37fa0bec90b5e33371.md)
 
 ### Proverb (Közmondás)
@@ -273,8 +273,8 @@ This page is generated from [the index](../../json/hu/groovy.json) by `scripts/b
 
 ### RNA Transcription (RNS-átírás)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/rna-transcription/.docs/instructions.md)): [Latest](../../../locales/hu/content/4d/bf/d3a2719c7dc9a1096d8879e916cc1d55305a.md)
-  - [`36da381f5a`](../../../locales/hu/content/36/da/381f5a7bdd5c45617d92fbd2cbd34d934cc1.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/rna-transcription/.docs/instructions.md)): [Latest](../../../locales/hu/content/36/da/381f5a7bdd5c45617d92fbd2cbd34d934cc1.md)
+  - [`4dbfd3a271`](../../../locales/hu/content/4d/bf/d3a2719c7dc9a1096d8879e916cc1d55305a.md)
 - `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/rna-transcription/.docs/introduction.md)): [Latest](../../../locales/hu/content/6b/3f/44b532d66665ff9c257ca28793f7e4bd1961.md)
 
 ### Robot Name (Robotnév)
@@ -303,8 +303,8 @@ This page is generated from [the index](../../json/hu/groovy.json) by `scripts/b
 
 ### Saddle Points (Nyeregpontok)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/saddle-points/.docs/instructions.md)): [Latest](../../../locales/hu/content/f6/9c/dab9584a340834264ecee97cfd6df709cd21.md)
-  - [`c585568b46`](../../../locales/hu/content/c5/85/568b4623765c3f860779d107521d27e35d34.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/saddle-points/.docs/instructions.md)): [Latest](../../../locales/hu/content/c5/85/568b4623765c3f860779d107521d27e35d34.md)
+  - [`f69cdab958`](../../../locales/hu/content/f6/9c/dab9584a340834264ecee97cfd6df709cd21.md)
   - [`d861388e43`](../../../locales/hu/content/d8/61/388e437835d110767651287a6573a0a51952.md)
 - `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/saddle-points/.docs/introduction.md)): [Latest](../../../locales/hu/content/34/b2/c77e0cfd255425411a905ec311019c2d7375.md)
   - [`b582efbd21`](../../../locales/hu/content/b5/82/efbd21d43f424bb7b186d884732e88e9aa29.md)
@@ -327,8 +327,8 @@ This page is generated from [the index](../../json/hu/groovy.json) by `scripts/b
 
 ### Sieve (Szita)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/sieve/.docs/instructions.md)): [Latest](../../../locales/hu/content/71/29/2e1782dc95e0430ae2b614e1d740dd41639f.md)
-  - [`085c0a57d9`](../../../locales/hu/content/08/5c/0a57d96c7cd846a7948241899ce46778f01d.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/sieve/.docs/instructions.md)): [Latest](../../../locales/hu/content/08/5c/0a57d96c7cd846a7948241899ce46778f01d.md)
+  - [`71292e1782`](../../../locales/hu/content/71/29/2e1782dc95e0430ae2b614e1d740dd41639f.md)
 - `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/sieve/.docs/introduction.md)): [Latest](../../../locales/hu/content/f6/c1/cf79a9d4ccf67f1ed34dabb8ab0a58030358.md)
 
 ### Space Age (Űrkorszak)
@@ -356,8 +356,8 @@ This page is generated from [the index](../../json/hu/groovy.json) by `scripts/b
 
 ### Triangle (Háromszög)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/hu/content/e9/b0/53dcd344e85179041c10dcd48406d735b2f9.md)
-  - [`ac39008726`](../../../locales/hu/content/ac/39/008726d5472b99e1aee556219eadca7fc49d.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/hu/content/ac/39/008726d5472b99e1aee556219eadca7fc49d.md)
+  - [`e9b053dcd3`](../../../locales/hu/content/e9/b0/53dcd344e85179041c10dcd48406d735b2f9.md)
   - [`0a9c68e3b0`](../../../locales/hu/content/0a/9c/68e3b09a420ce304a9dbe387bb2a04b73f48.md)
 
 ### Two Fer
@@ -380,6 +380,10 @@ This page is generated from [the index](../../json/hu/groovy.json) by `scripts/b
 ### ABOUT.md
 
 - `ABOUT.md` ([English](https://github.com/exercism/groovy/blob/main/docs/ABOUT.md)): [Latest](../../../locales/hu/content/fc/44/e0d5fbb76f56e3aa456f4e9d15859376d8b0.md)
+
+### GENERATORS.md
+
+- `GENERATORS.md` ([English](https://github.com/exercism/groovy/blob/main/docs/GENERATORS.md)): [Latest](../../../locales/hu/content/e0/8d/a34327ac0725a17ea0a9071a2fb14b41f31f.md)
 
 ### How to learn Groovy (Hogyan tanulj meg Groovy-t)
 
