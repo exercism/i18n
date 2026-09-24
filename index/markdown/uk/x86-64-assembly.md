@@ -628,7 +628,8 @@ This page is generated from [the index](../../json/uk/x86-64-assembly.json) by `
 
 - `instructions.md` ([English](https://github.com/exercism/x86-64-assembly/blob/main/exercises/concept/poetry-club-door-policy/.docs/instructions.md)): [Latest](../../../locales/uk/content/81/c5/fa82d3a0a9126a4936749cc6d30605eefb17.md)
 - `introduction.md` ([English](https://github.com/exercism/x86-64-assembly/blob/main/exercises/concept/poetry-club-door-policy/.docs/introduction.md)): [Latest](../../../locales/uk/content/2f/ba/52030b202f43881eda7edfe8ee7bd4d74e96.md)
-- `hints.md` ([English](https://github.com/exercism/x86-64-assembly/blob/main/exercises/concept/poetry-club-door-policy/.docs/hints.md)): [Latest](../../../locales/uk/content/1f/e1/bc62e683e7ac42a6163edf1b78cb4f18e0fb.md)
+- `hints.md` ([English](https://github.com/exercism/x86-64-assembly/blob/main/exercises/concept/poetry-club-door-policy/.docs/hints.md)): [Latest](../../../locales/uk/content/b0/bf/344650f4d316126b0e1176f8942c1d875ca7.md)
+  - [`1fe1bc62e6`](../../../locales/uk/content/1f/e1/bc62e683e7ac42a6163edf1b78cb4f18e0fb.md)
 
 ### Production Line (Виробнича лінія)
 
