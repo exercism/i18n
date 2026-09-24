@@ -52,5 +52,7 @@
   "doc:tests:title": "Δοκιμές στη διαδρομή Pony",
   "doc:tests:blurb": "Μάθε πώς να δοκιμάζεις τις ασκήσεις σου σε Pony στο Exercism",
   "doc:resources:title": "Χρήσιμοι πόροι για την Pony",
-  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων για να σε βοηθήσουν να κατακτήσεις την Pony"
+  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων για να σε βοηθήσουν να κατακτήσεις την Pony",
+  "exercise:wibble:name": "test",
+  "exercise:wibble:blurb": "test"
 }

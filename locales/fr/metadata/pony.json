@@ -52,5 +52,7 @@
   "doc:tests:title": "Teste sur le parcours Pony",
   "doc:tests:blurb": "Apprends à tester tes exercices Pony sur Exercism",
   "doc:resources:title": "Ressources utiles pour Pony",
-  "doc:resources:blurb": "Une sélection de ressources utiles pour t'aider à maîtriser Pony"
+  "doc:resources:blurb": "Une sélection de ressources utiles pour t'aider à maîtriser Pony",
+  "exercise:wibble:name": "test",
+  "exercise:wibble:blurb": "test"
 }

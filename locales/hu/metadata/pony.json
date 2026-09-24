@@ -52,5 +52,7 @@
   "doc:tests:title": "Tesztelés a Pony kurzuson",
   "doc:tests:blurb": "Tanuld meg, hogyan tesztelheted a Pony feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Pony-források",
-  "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Pony-t"
+  "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Pony-t",
+  "exercise:wibble:name": "Teszt",
+  "exercise:wibble:blurb": "Teszt"
 }
