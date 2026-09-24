@@ -532,15 +532,15 @@ This page is generated from [the index](../../json/uk/swift.json) by `scripts/bu
 ### Lasagna Master (Майстер лазаньї)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/instructions.md)): [Latest](../../../locales/uk/content/e7/be/156216e1bfe80505bfd12b3fd32d2216fff1.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/introduction.md)): [Latest](../../../locales/uk/content/63/42/75fc1d2535300a0f707f6207f274f7d8c297.md)
-  - [`b149a2de4d`](../../../locales/uk/content/b1/49/a2de4d26bd3e78a81bb0cdab6658e63b44e2.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/introduction.md)): [Latest](../../../locales/uk/content/b1/49/a2de4d26bd3e78a81bb0cdab6658e63b44e2.md)
+  - [`634275fc1d`](../../../locales/uk/content/63/42/75fc1d2535300a0f707f6207f274f7d8c297.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/hints.md)): [Latest](../../../locales/uk/content/58/5b/ba325cb63f84fb923ea554b22f1b5ec3c258.md)
 
 ### Layers of Lasagna (Шари лазаньї)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna/.docs/instructions.md)): [Latest](../../../locales/uk/content/85/b7/f84723a199fa798330f2a925786b8f2d550d.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna/.docs/introduction.md)): [Latest](../../../locales/uk/content/bd/58/0f8d31960155d8fc93b9f25fac5befbdae36.md)
-  - [`5a9f68030d`](../../../locales/uk/content/5a/9f/68030d8b73c6adead66d51325c6f8d3fcf28.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna/.docs/introduction.md)): [Latest](../../../locales/uk/content/5a/9f/68030d8b73c6adead66d51325c6f8d3fcf28.md)
+  - [`bd580f8d31`](../../../locales/uk/content/bd/58/0f8d31960155d8fc93b9f25fac5befbdae36.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna/.docs/hints.md)): [Latest](../../../locales/uk/content/7a/07/6d48f3db8d7f60be3880c0afd4ba7917ff7c.md)
 
 ### Log Lines (Рядки логів)
@@ -557,9 +557,10 @@ This page is generated from [the index](../../json/uk/swift.json) by `scripts/bu
 
 ### Santa's Swifty Helper (Спритний помічник Санти)
 
-- `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/instructions.md)): [Latest](../../../locales/uk/content/94/76/35eee692acb0eb2bcc0fbd62cf07a25062b1.md)
-  - [`3fa2ab5e8d`](../../../locales/uk/content/3f/a2/ab5e8ddc7901074b7719bd81a0047a5f4c7d.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/introduction.md)): [Latest](../../../locales/uk/content/f8/95/8c25ce8c2bfa582c0f9eb0234325bb638e87.md)
+- `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/instructions.md)): [Latest](../../../locales/uk/content/3f/a2/ab5e8ddc7901074b7719bd81a0047a5f4c7d.md)
+  - [`947635eee6`](../../../locales/uk/content/94/76/35eee692acb0eb2bcc0fbd62cf07a25062b1.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/introduction.md)): [Latest](../../../locales/uk/content/23/a4/b650c9632a8196d3f13772c635bd4d7cb94f.md)
+  - [`f8958c25ce`](../../../locales/uk/content/f8/95/8c25ce8c2bfa582c0f9eb0234325bb638e87.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/hints.md)): [Latest](../../../locales/uk/content/02/a6/1bb02901f32857a1a1c89f50145d3b6c6181.md)
 
 ### Secret Agent Double-Null0111 (Таємний агент Double-Null0111)
@@ -607,10 +608,10 @@ This page is generated from [the index](../../json/uk/swift.json) by `scripts/bu
 
 ### Basics (Основи)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/basics/introduction.md)): [Latest](../../../locales/uk/content/bd/58/0f8d31960155d8fc93b9f25fac5befbdae36.md)
-  - [`0167121656`](../../../locales/uk/content/01/67/1216566c25a9bd1154d471f9335c2f6e0087.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/basics/about.md)): [Latest](../../../locales/uk/content/46/86/eec6a50c2e7ad9a08f55f757bb28d640e743.md)
-  - [`4e14e8b1c5`](../../../locales/uk/content/4e/14/e8b1c5d9c3007d08cb96489422cb28419d82.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/basics/introduction.md)): [Latest](../../../locales/uk/content/01/67/1216566c25a9bd1154d471f9335c2f6e0087.md)
+  - [`bd580f8d31`](../../../locales/uk/content/bd/58/0f8d31960155d8fc93b9f25fac5befbdae36.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/basics/about.md)): [Latest](../../../locales/uk/content/4e/14/e8b1c5d9c3007d08cb96489422cb28419d82.md)
+  - [`4686eec6a5`](../../../locales/uk/content/46/86/eec6a50c2e7ad9a08f55f757bb28d640e743.md)
 
 ### Booleans (Булеві значення)
 
@@ -706,10 +707,10 @@ This page is generated from [the index](../../json/uk/swift.json) by `scripts/bu
 
 ### Inout Parameters (Параметри inout)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/inout-parameters/introduction.md)): [Latest](../../../locales/uk/content/49/32/ac4e005278d61c73d434ec6ca0bc39119c57.md)
-  - [`5968d8d00b`](../../../locales/uk/content/59/68/d8d00b4ae1e73e3e6a8150748d0e47b5f768.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/inout-parameters/about.md)): [Latest](../../../locales/uk/content/f8/af/f5654d8af547e75e1d9c0b05651e5b3d422a.md)
-  - [`5968d8d00b`](../../../locales/uk/content/59/68/d8d00b4ae1e73e3e6a8150748d0e47b5f768.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/inout-parameters/introduction.md)): [Latest](../../../locales/uk/content/59/68/d8d00b4ae1e73e3e6a8150748d0e47b5f768.md)
+  - [`4932ac4e00`](../../../locales/uk/content/49/32/ac4e005278d61c73d434ec6ca0bc39119c57.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/inout-parameters/about.md)): [Latest](../../../locales/uk/content/59/68/d8d00b4ae1e73e3e6a8150748d0e47b5f768.md)
+  - [`f8aff5654d`](../../../locales/uk/content/f8/af/f5654d8af547e75e1d9c0b05651e5b3d422a.md)
 
 ### Loops (Цикли)
 
@@ -810,8 +811,10 @@ This page is generated from [the index](../../json/uk/swift.json) by `scripts/bu
 
 ### Tuples (Кортежі)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/tuples/introduction.md)): [Latest](../../../locales/uk/content/f8/95/8c25ce8c2bfa582c0f9eb0234325bb638e87.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/tuples/about.md)): [Latest](../../../locales/uk/content/f8/95/8c25ce8c2bfa582c0f9eb0234325bb638e87.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/tuples/introduction.md)): [Latest](../../../locales/uk/content/23/a4/b650c9632a8196d3f13772c635bd4d7cb94f.md)
+  - [`f8958c25ce`](../../../locales/uk/content/f8/95/8c25ce8c2bfa582c0f9eb0234325bb638e87.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/tuples/about.md)): [Latest](../../../locales/uk/content/c1/aa/234c94bff6fc4694e916b900489231fe8b3d.md)
+  - [`f8958c25ce`](../../../locales/uk/content/f8/95/8c25ce8c2bfa582c0f9eb0234325bb638e87.md)
 
 ### Value and reference types (Типи-значення та типи-посилання)
 
