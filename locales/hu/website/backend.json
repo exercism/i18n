@@ -2622,11 +2622,11 @@
       "learn": {
         "tracks": {
           "title": "Nyelvi kurzusok",
-          "description": "Fejleszd tudásodat 65+ nyelven"
+          "description": "Fejlődj 65+ nyelven"
         },
         "coding_fundamentals": {
-          "title": "Tanulj meg programozni a Jikivel",
-          "description": "Tanulj meg programozni és alkotni az LLM-korszakban."
+          "title": "Tanulj Jikivel",
+          "description": "Tanulj és alkoss az LLM-korban"
         },
         "journey": {
           "title": "Az utad",
@@ -2634,7 +2634,7 @@
         },
         "favorites": {
           "title": "A kedvenceid",
-          "description": "Térj vissza a kedvenc megoldásaidhoz"
+          "description": "Térj vissza a kedvenceidhez"
         }
       },
       "discover": {
