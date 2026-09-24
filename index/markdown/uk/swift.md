@@ -494,8 +494,8 @@ This page is generated from [the index](../../json/uk/swift.json) by `scripts/bu
 ### Cal's Custom Sign Shop (Майстерня вивісок Кела)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/custom-signs/.docs/instructions.md)): [Latest](../../../locales/uk/content/9d/85/6f0aa8809a16ac843e2694859b54a64e0cd0.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/custom-signs/.docs/introduction.md)): [Latest](../../../locales/uk/content/83/8c/df737db94f1b3f12168170b3345747a96f27.md)
-  - [`f2988abf4c`](../../../locales/uk/content/f2/98/8abf4ce8465b90479969621181a37cbed4b1.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/custom-signs/.docs/introduction.md)): [Latest](../../../locales/uk/content/f2/98/8abf4ce8465b90479969621181a37cbed4b1.md)
+  - [`838cdf737d`](../../../locales/uk/content/83/8c/df737db94f1b3f12168170b3345747a96f27.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/custom-signs/.docs/hints.md)): [Latest](../../../locales/uk/content/99/8f/c2d6aa9963472e8f5c84903f004565d65e30.md)
 
 ### ChessBoard (Шахівниця)
@@ -539,7 +539,8 @@ This page is generated from [the index](../../json/uk/swift.json) by `scripts/bu
 ### Layers of Lasagna (Шари лазаньї)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna/.docs/instructions.md)): [Latest](../../../locales/uk/content/85/b7/f84723a199fa798330f2a925786b8f2d550d.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna/.docs/introduction.md)): [Latest](../../../locales/uk/content/5a/9f/68030d8b73c6adead66d51325c6f8d3fcf28.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna/.docs/introduction.md)): [Latest](../../../locales/uk/content/bd/58/0f8d31960155d8fc93b9f25fac5befbdae36.md)
+  - [`5a9f68030d`](../../../locales/uk/content/5a/9f/68030d8b73c6adead66d51325c6f8d3fcf28.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna/.docs/hints.md)): [Latest](../../../locales/uk/content/7a/07/6d48f3db8d7f60be3880c0afd4ba7917ff7c.md)
 
 ### Log Lines (Рядки логів)
@@ -606,8 +607,10 @@ This page is generated from [the index](../../json/uk/swift.json) by `scripts/bu
 
 ### Basics (Основи)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/basics/introduction.md)): [Latest](../../../locales/uk/content/01/67/1216566c25a9bd1154d471f9335c2f6e0087.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/basics/about.md)): [Latest](../../../locales/uk/content/4e/14/e8b1c5d9c3007d08cb96489422cb28419d82.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/basics/introduction.md)): [Latest](../../../locales/uk/content/bd/58/0f8d31960155d8fc93b9f25fac5befbdae36.md)
+  - [`0167121656`](../../../locales/uk/content/01/67/1216566c25a9bd1154d471f9335c2f6e0087.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/basics/about.md)): [Latest](../../../locales/uk/content/46/86/eec6a50c2e7ad9a08f55f757bb28d640e743.md)
+  - [`4e14e8b1c5`](../../../locales/uk/content/4e/14/e8b1c5d9c3007d08cb96489422cb28419d82.md)
 
 ### Booleans (Булеві значення)
 
@@ -621,10 +624,10 @@ This page is generated from [the index](../../json/uk/swift.json) by `scripts/bu
 
 ### Characters and Strings (Символи та рядки тексту)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/characters-and-strings/introduction.md)): [Latest](../../../locales/uk/content/83/8c/df737db94f1b3f12168170b3345747a96f27.md)
-  - [`f2988abf4c`](../../../locales/uk/content/f2/98/8abf4ce8465b90479969621181a37cbed4b1.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/characters-and-strings/about.md)): [Latest](../../../locales/uk/content/14/4a/545ce2e905a169ef590a1d8b5423299cb6e6.md)
-  - [`f2988abf4c`](../../../locales/uk/content/f2/98/8abf4ce8465b90479969621181a37cbed4b1.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/characters-and-strings/introduction.md)): [Latest](../../../locales/uk/content/f2/98/8abf4ce8465b90479969621181a37cbed4b1.md)
+  - [`838cdf737d`](../../../locales/uk/content/83/8c/df737db94f1b3f12168170b3345747a96f27.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/characters-and-strings/about.md)): [Latest](../../../locales/uk/content/f2/98/8abf4ce8465b90479969621181a37cbed4b1.md)
+  - [`144a545ce2`](../../../locales/uk/content/14/4a/545ce2e905a169ef590a1d8b5423299cb6e6.md)
 
 ### Classes (Класи)
 
