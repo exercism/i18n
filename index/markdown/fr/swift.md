@@ -531,8 +531,8 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 ### Lasagna Master (Maître de la lasagne)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/instructions.md)): [Latest](../../../locales/fr/content/e7/be/156216e1bfe80505bfd12b3fd32d2216fff1.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/introduction.md)): [Latest](../../../locales/fr/content/63/42/75fc1d2535300a0f707f6207f274f7d8c297.md)
-  - [`b149a2de4d`](../../../locales/fr/content/b1/49/a2de4d26bd3e78a81bb0cdab6658e63b44e2.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/introduction.md)): [Latest](../../../locales/fr/content/b1/49/a2de4d26bd3e78a81bb0cdab6658e63b44e2.md)
+  - [`634275fc1d`](../../../locales/fr/content/63/42/75fc1d2535300a0f707f6207f274f7d8c297.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/hints.md)): [Latest](../../../locales/fr/content/58/5b/ba325cb63f84fb923ea554b22f1b5ec3c258.md)
 
 ### Layers of Lasagna (Les couches de lasagnes)
@@ -555,8 +555,8 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 
 ### Santa's Swifty Helper (L'assistant Swifty du Père Noël)
 
-- `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/instructions.md)): [Latest](../../../locales/fr/content/94/76/35eee692acb0eb2bcc0fbd62cf07a25062b1.md)
-  - [`3fa2ab5e8d`](../../../locales/fr/content/3f/a2/ab5e8ddc7901074b7719bd81a0047a5f4c7d.md)
+- `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/instructions.md)): [Latest](../../../locales/fr/content/3f/a2/ab5e8ddc7901074b7719bd81a0047a5f4c7d.md)
+  - [`947635eee6`](../../../locales/fr/content/94/76/35eee692acb0eb2bcc0fbd62cf07a25062b1.md)
 - `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/introduction.md)): [Latest](../../../locales/fr/content/f8/95/8c25ce8c2bfa582c0f9eb0234325bb638e87.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/hints.md)): [Latest](../../../locales/fr/content/02/a6/1bb02901f32857a1a1c89f50145d3b6c6181.md)
 
@@ -587,7 +587,8 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 ### Windowing System (Système de fenêtrage)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/windowing-system/.docs/instructions.md)): [Latest](../../../locales/fr/content/08/1a/ad1bb0f8e0e539fea48947f937c9f09b710e.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/windowing-system/.docs/introduction.md)): [Latest](../../../locales/fr/content/eb/a4/a065365a671c15b83a6e2d2cdb3fd9deb5a6.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/windowing-system/.docs/introduction.md)): [Latest](../../../locales/fr/content/6c/24/fc888bf6cb55a8158deade85c03bf35a91da.md)
+  - [`eba4a06536`](../../../locales/fr/content/eb/a4/a065365a671c15b83a6e2d2cdb3fd9deb5a6.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/windowing-system/.docs/hints.md)): [Latest](../../../locales/fr/content/a9/fd/39c6186bfe6f98989d811f8dc1e8930b4064.md)
 
 ### Wings Quest (La quête des ailes)
@@ -700,10 +701,10 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 
 ### Inout Parameters (Paramètres inout)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/inout-parameters/introduction.md)): [Latest](../../../locales/fr/content/49/32/ac4e005278d61c73d434ec6ca0bc39119c57.md)
-  - [`5968d8d00b`](../../../locales/fr/content/59/68/d8d00b4ae1e73e3e6a8150748d0e47b5f768.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/inout-parameters/about.md)): [Latest](../../../locales/fr/content/f8/af/f5654d8af547e75e1d9c0b05651e5b3d422a.md)
-  - [`5968d8d00b`](../../../locales/fr/content/59/68/d8d00b4ae1e73e3e6a8150748d0e47b5f768.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/inout-parameters/introduction.md)): [Latest](../../../locales/fr/content/59/68/d8d00b4ae1e73e3e6a8150748d0e47b5f768.md)
+  - [`4932ac4e00`](../../../locales/fr/content/49/32/ac4e005278d61c73d434ec6ca0bc39119c57.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/inout-parameters/about.md)): [Latest](../../../locales/fr/content/59/68/d8d00b4ae1e73e3e6a8150748d0e47b5f768.md)
+  - [`f8aff5654d`](../../../locales/fr/content/f8/af/f5654d8af547e75e1d9c0b05651e5b3d422a.md)
 
 ### Loops (Boucles)
 
@@ -754,8 +755,10 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 
 ### Self
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/self/introduction.md)): [Latest](../../../locales/fr/content/4d/82/99eae0ee48c0c3a97555897cc45260e303e0.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/self/about.md)): [Latest](../../../locales/fr/content/92/2c/132e44834c06862dfcb90c6eda34ec4ffe79.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/self/introduction.md)): [Latest](../../../locales/fr/content/c0/61/b68974b9ce545ec6292e286acde8dc5abefc.md)
+  - [`4d8299eae0`](../../../locales/fr/content/4d/82/99eae0ee48c0c3a97555897cc45260e303e0.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/self/about.md)): [Latest](../../../locales/fr/content/b0/33/5994ae98688f8e7f6ef88bed11f866add58c.md)
+  - [`922c132e44`](../../../locales/fr/content/92/2c/132e44834c06862dfcb90c6eda34ec4ffe79.md)
 
 ### Shorthand arguments (Arguments abrégés)
 

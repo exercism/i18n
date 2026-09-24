@@ -388,7 +388,7 @@
   "concept:optionals:blurb": "Az optionalok segítségével kifejezhető egy érték esetleges hiánya.",
   "concept:repeat-while:blurb": "A repeat-while ciklusok olyan ciklusok, amelyek addig futtatnak kódot, amíg egy feltétel igaz. Ez a feltétel a ciklus törzsének végrehajtása után értékelődik ki.",
   "concept:ranges:blurb": "A range-ek segítségével értékek sorozatát ábrázolhatjuk.",
-  "concept:self:blurb": "A struct-ok és class-ok példányai mindegyike rendelkezik egy implicit, self nevű értékkel, amely magára a példányra hivatkozik.",
+  "concept:self:blurb": "A struct-ok és class-ok minden példánya rendelkezik egy implicit, `self` nevű tulajdonsággal, amely magára a példányra hivatkozik.",
   "concept:shorthand-arguments:blurb": "Ha egy closure esetében elhagyjuk a paramétereket, akkor egy speciális rövidített szintaxissal hivatkozhatunk rájuk.",
   "concept:stored-properties:blurb": "A struct-ok és class-ok definiálhatnak _tárolt tulajdonságokat_, amelyek úgy jönnek létre és úgy viselkednek, mint a hagyományos konstansok vagy változók, és a struct/class példányának részeként tárolódnak.",
   "concept:string-methods:blurb": "A stringeknek számos metódusuk van, amelyekkel manipulálhatjuk őket.",
