@@ -585,14 +585,15 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 ### Cal's Custom Sign Shop (Cal egyedi táblaboltja)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/custom-signs/.docs/instructions.md)): [Latest](../../../locales/hu/content/9d/85/6f0aa8809a16ac843e2694859b54a64e0cd0.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/custom-signs/.docs/introduction.md)): [Latest](../../../locales/hu/content/f2/98/8abf4ce8465b90479969621181a37cbed4b1.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/custom-signs/.docs/introduction.md)): [Latest](../../../locales/hu/content/83/8c/df737db94f1b3f12168170b3345747a96f27.md)
+  - [`f2988abf4c`](../../../locales/hu/content/f2/98/8abf4ce8465b90479969621181a37cbed4b1.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/custom-signs/.docs/hints.md)): [Latest](../../../locales/hu/content/99/8f/c2d6aa9963472e8f5c84903f004565d65e30.md)
 
 ### ChessBoard (Sakktábla)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/chessboard/.docs/instructions.md)): [Latest](../../../locales/hu/content/cb/5a/cc863e25f06c909f01efe2652d9d6836dbcc.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/chessboard/.docs/introduction.md)): [Latest](../../../locales/hu/content/e6/30/9215096118f858eefb4af2ba876d01fa8c3e.md)
-  - [`a1c7ed3db8`](../../../locales/hu/content/a1/c7/ed3db887f49160f13421f41f40992ca1d53e.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/chessboard/.docs/introduction.md)): [Latest](../../../locales/hu/content/a1/c7/ed3db887f49160f13421f41f40992ca1d53e.md)
+  - [`e630921509`](../../../locales/hu/content/e6/30/9215096118f858eefb4af2ba876d01fa8c3e.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/chessboard/.docs/hints.md)): [Latest](../../../locales/hu/content/47/a7/1301d8ebee5ae1f661f6baf6cbf9279af50a.md)
 
 ### Double-Null0111: Closures Are Forever (Double-Null0111: A closure-ök örökké élnek)
@@ -610,7 +611,8 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 ### Freelancer Rates (Szabadúszói díjak)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/freelancer-rates/.docs/instructions.md)): [Latest](../../../locales/hu/content/60/d3/76a2e8df613e76db64860c011b2365ef36b9.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/freelancer-rates/.docs/introduction.md)): [Latest](../../../locales/hu/content/8a/96/744245900be4db98df58663f0d8b388bfd27.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/freelancer-rates/.docs/introduction.md)): [Latest](../../../locales/hu/content/17/1c/c68f3162723617d93f362ecd2d22bfb6602b.md)
+  - [`8a96744245`](../../../locales/hu/content/8a/96/744245900be4db98df58663f0d8b388bfd27.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/freelancer-rates/.docs/hints.md)): [Latest](../../../locales/hu/content/65/e2/2184fb49adbd4a20e90acc616ed393ec814d.md)
 
 ### High Score Board (Pontszámtábla)
@@ -640,12 +642,14 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 ### Magician-in-Training (Varázslótanonc)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/magician-in-training/.docs/instructions.md)): [Latest](../../../locales/hu/content/f2/3a/75d4fd3585f0ca5afdf30fe28dd6fc6d2f2c.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/magician-in-training/.docs/introduction.md)): [Latest](../../../locales/hu/content/a3/28/7bbbf3b5d392a48b47ee44eeb4e83f77c1cf.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/magician-in-training/.docs/introduction.md)): [Latest](../../../locales/hu/content/0c/51/2f947ff06ff60bffe8e5ab6a6f9f87fde7e0.md)
+  - [`a3287bbbf3`](../../../locales/hu/content/a3/28/7bbbf3b5d392a48b47ee44eeb4e83f77c1cf.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/magician-in-training/.docs/hints.md)): [Latest](../../../locales/hu/content/96/4d/833490d0c1a96201675d5c49d72f50d40de7.md)
 
 ### Santa's Swifty Helper (A Mikulás swifty segédje)
 
-- `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/instructions.md)): [Latest](../../../locales/hu/content/3f/a2/ab5e8ddc7901074b7719bd81a0047a5f4c7d.md)
+- `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/instructions.md)): [Latest](../../../locales/hu/content/94/76/35eee692acb0eb2bcc0fbd62cf07a25062b1.md)
+  - [`3fa2ab5e8d`](../../../locales/hu/content/3f/a2/ab5e8ddc7901074b7719bd81a0047a5f4c7d.md)
 - `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/introduction.md)): [Latest](../../../locales/hu/content/f8/95/8c25ce8c2bfa582c0f9eb0234325bb638e87.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/hints.md)): [Latest](../../../locales/hu/content/02/a6/1bb02901f32857a1a1c89f50145d3b6c6181.md)
 
@@ -676,7 +680,8 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 ### Windowing System (Ablakkezelő rendszer)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/windowing-system/.docs/instructions.md)): [Latest](../../../locales/hu/content/08/1a/ad1bb0f8e0e539fea48947f937c9f09b710e.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/windowing-system/.docs/introduction.md)): [Latest](../../../locales/hu/content/eb/a4/a065365a671c15b83a6e2d2cdb3fd9deb5a6.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/windowing-system/.docs/introduction.md)): [Latest](../../../locales/hu/content/6c/24/fc888bf6cb55a8158deade85c03bf35a91da.md)
+  - [`eba4a06536`](../../../locales/hu/content/eb/a4/a065365a671c15b83a6e2d2cdb3fd9deb5a6.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/windowing-system/.docs/hints.md)): [Latest](../../../locales/hu/content/a9/fd/39c6186bfe6f98989d811f8dc1e8930b4064.md)
 
 ### Wings Quest (Szárnyak küldetése)
@@ -690,8 +695,10 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 
 ### Arrays (Tömbök)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/arrays/introduction.md)): [Latest](../../../locales/hu/content/a3/28/7bbbf3b5d392a48b47ee44eeb4e83f77c1cf.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/arrays/about.md)): [Latest](../../../locales/hu/content/a3/28/7bbbf3b5d392a48b47ee44eeb4e83f77c1cf.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/arrays/introduction.md)): [Latest](../../../locales/hu/content/0c/51/2f947ff06ff60bffe8e5ab6a6f9f87fde7e0.md)
+  - [`a3287bbbf3`](../../../locales/hu/content/a3/28/7bbbf3b5d392a48b47ee44eeb4e83f77c1cf.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/arrays/about.md)): [Latest](../../../locales/hu/content/36/26/ec18a395e20776bc55e76e09b63475271650.md)
+  - [`a3287bbbf3`](../../../locales/hu/content/a3/28/7bbbf3b5d392a48b47ee44eeb4e83f77c1cf.md)
 
 ### Basics (Alapok)
 
@@ -710,8 +717,10 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 
 ### Characters and Strings (Karakterek és stringek)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/characters-and-strings/introduction.md)): [Latest](../../../locales/hu/content/f2/98/8abf4ce8465b90479969621181a37cbed4b1.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/characters-and-strings/about.md)): [Latest](../../../locales/hu/content/f2/98/8abf4ce8465b90479969621181a37cbed4b1.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/characters-and-strings/introduction.md)): [Latest](../../../locales/hu/content/83/8c/df737db94f1b3f12168170b3345747a96f27.md)
+  - [`f2988abf4c`](../../../locales/hu/content/f2/98/8abf4ce8465b90479969621181a37cbed4b1.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/characters-and-strings/about.md)): [Latest](../../../locales/hu/content/14/4a/545ce2e905a169ef590a1d8b5423299cb6e6.md)
+  - [`f2988abf4c`](../../../locales/hu/content/f2/98/8abf4ce8465b90479969621181a37cbed4b1.md)
 
 ### Classes (Osztályok)
 
@@ -815,8 +824,10 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 
 ### Numbers (Számok)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/numbers/introduction.md)): [Latest](../../../locales/hu/content/8a/96/744245900be4db98df58663f0d8b388bfd27.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/numbers/about.md)): [Latest](../../../locales/hu/content/8a/96/744245900be4db98df58663f0d8b388bfd27.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/numbers/introduction.md)): [Latest](../../../locales/hu/content/17/1c/c68f3162723617d93f362ecd2d22bfb6602b.md)
+  - [`8a96744245`](../../../locales/hu/content/8a/96/744245900be4db98df58663f0d8b388bfd27.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/numbers/about.md)): [Latest](../../../locales/hu/content/ff/38/deca63afc9ed6b66ee0f978025c68318fd88.md)
+  - [`8a96744245`](../../../locales/hu/content/8a/96/744245900be4db98df58663f0d8b388bfd27.md)
 
 ### Opaque Indices (Opaque indexek)
 
@@ -830,10 +841,10 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 
 ### Ranges (Tartományok)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/ranges/introduction.md)): [Latest](../../../locales/hu/content/e6/30/9215096118f858eefb4af2ba876d01fa8c3e.md)
-  - [`a1c7ed3db8`](../../../locales/hu/content/a1/c7/ed3db887f49160f13421f41f40992ca1d53e.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/ranges/about.md)): [Latest](../../../locales/hu/content/b8/8a/6f05de2f673e89445230b9a3ea8fbc3a9e9c.md)
-  - [`a1c7ed3db8`](../../../locales/hu/content/a1/c7/ed3db887f49160f13421f41f40992ca1d53e.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/ranges/introduction.md)): [Latest](../../../locales/hu/content/a1/c7/ed3db887f49160f13421f41f40992ca1d53e.md)
+  - [`e630921509`](../../../locales/hu/content/e6/30/9215096118f858eefb4af2ba876d01fa8c3e.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/ranges/about.md)): [Latest](../../../locales/hu/content/a1/c7/ed3db887f49160f13421f41f40992ca1d53e.md)
+  - [`b88a6f05de`](../../../locales/hu/content/b8/8a/6f05de2f673e89445230b9a3ea8fbc3a9e9c.md)
 
 ### repeat while
 
@@ -842,8 +853,10 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 
 ### Self
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/self/introduction.md)): [Latest](../../../locales/hu/content/4d/82/99eae0ee48c0c3a97555897cc45260e303e0.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/self/about.md)): [Latest](../../../locales/hu/content/92/2c/132e44834c06862dfcb90c6eda34ec4ffe79.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/self/introduction.md)): [Latest](../../../locales/hu/content/c0/61/b68974b9ce545ec6292e286acde8dc5abefc.md)
+  - [`4d8299eae0`](../../../locales/hu/content/4d/82/99eae0ee48c0c3a97555897cc45260e303e0.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/self/about.md)): [Latest](../../../locales/hu/content/b0/33/5994ae98688f8e7f6ef88bed11f866add58c.md)
+  - [`922c132e44`](../../../locales/hu/content/92/2c/132e44834c06862dfcb90c6eda34ec4ffe79.md)
 
 ### Shorthand arguments (Rövidített argumentumok)
 

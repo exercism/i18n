@@ -494,7 +494,8 @@ This page is generated from [the index](../../json/uk/swift.json) by `scripts/bu
 ### Cal's Custom Sign Shop (Майстерня вивісок Кела)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/custom-signs/.docs/instructions.md)): [Latest](../../../locales/uk/content/9d/85/6f0aa8809a16ac843e2694859b54a64e0cd0.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/custom-signs/.docs/introduction.md)): [Latest](../../../locales/uk/content/f2/98/8abf4ce8465b90479969621181a37cbed4b1.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/custom-signs/.docs/introduction.md)): [Latest](../../../locales/uk/content/83/8c/df737db94f1b3f12168170b3345747a96f27.md)
+  - [`f2988abf4c`](../../../locales/uk/content/f2/98/8abf4ce8465b90479969621181a37cbed4b1.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/custom-signs/.docs/hints.md)): [Latest](../../../locales/uk/content/99/8f/c2d6aa9963472e8f5c84903f004565d65e30.md)
 
 ### ChessBoard (Шахівниця)
@@ -620,8 +621,10 @@ This page is generated from [the index](../../json/uk/swift.json) by `scripts/bu
 
 ### Characters and Strings (Символи та рядки тексту)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/characters-and-strings/introduction.md)): [Latest](../../../locales/uk/content/f2/98/8abf4ce8465b90479969621181a37cbed4b1.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/characters-and-strings/about.md)): [Latest](../../../locales/uk/content/f2/98/8abf4ce8465b90479969621181a37cbed4b1.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/characters-and-strings/introduction.md)): [Latest](../../../locales/uk/content/83/8c/df737db94f1b3f12168170b3345747a96f27.md)
+  - [`f2988abf4c`](../../../locales/uk/content/f2/98/8abf4ce8465b90479969621181a37cbed4b1.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/characters-and-strings/about.md)): [Latest](../../../locales/uk/content/14/4a/545ce2e905a169ef590a1d8b5423299cb6e6.md)
+  - [`f2988abf4c`](../../../locales/uk/content/f2/98/8abf4ce8465b90479969621181a37cbed4b1.md)
 
 ### Classes (Класи)
 
