@@ -670,14 +670,15 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 ### The 1st Rule of Poetry Club (A versklub első szabálya)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/poetry-club/.docs/instructions.md)): [Latest](../../../locales/hu/content/92/47/55bac6400e3b74d39047ea27737535026236.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/poetry-club/.docs/introduction.md)): [Latest](../../../locales/hu/content/a3/22/9b3b000ada4ef1fa4549eaf5774e2f9e1934.md)
-  - [`4a52385cc1`](../../../locales/hu/content/4a/52/385cc166f34b77e1f45c9f7c4e1613f4cd1a.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/poetry-club/.docs/introduction.md)): [Latest](../../../locales/hu/content/4a/52/385cc166f34b77e1f45c9f7c4e1613f4cd1a.md)
+  - [`a3229b3b00`](../../../locales/hu/content/a3/22/9b3b000ada4ef1fa4549eaf5774e2f9e1934.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/poetry-club/.docs/hints.md)): [Latest](../../../locales/hu/content/a0/a7/68a9aed1d311ae21fb849eaeecc3e203dae5.md)
 
 ### Vexing Vehicle Purchase (Bosszantó járművásárlás)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/vehicle-purchase/.docs/instructions.md)): [Latest](../../../locales/hu/content/72/60/5a19df3ad3b3f5457da18c94f1b12af3443f.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/vehicle-purchase/.docs/introduction.md)): [Latest](../../../locales/hu/content/65/0d/76790c75b30f286d8370ced805c421639570.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/vehicle-purchase/.docs/introduction.md)): [Latest](../../../locales/hu/content/73/fe/909cc25fa6b813a7486463b4ace8d7ba7d67.md)
+  - [`650d76790c`](../../../locales/hu/content/65/0d/76790c75b30f286d8370ced805c421639570.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/vehicle-purchase/.docs/hints.md)): [Latest](../../../locales/hu/content/6a/b8/7ae86eab6dc16effafc3306fdfa26efa56d7.md)
 
 ### Windowing System (Ablakkezelő rendszer)
@@ -690,8 +691,8 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 ### Wings Quest (Szárnyak küldetése)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/wings-quest/.docs/instructions.md)): [Latest](../../../locales/hu/content/a8/9d/dfaae955ffc61319fdb9f08d0eb1d845b854.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/wings-quest/.docs/introduction.md)): [Latest](../../../locales/hu/content/ef/fe/1187809b9b57f1a8523e5f688f3c62890235.md)
-  - [`8819b4dd12`](../../../locales/hu/content/88/19/b4dd12a44ee16303585f3b30e70fc3240018.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/wings-quest/.docs/introduction.md)): [Latest](../../../locales/hu/content/88/19/b4dd12a44ee16303585f3b30e70fc3240018.md)
+  - [`effe118780`](../../../locales/hu/content/ef/fe/1187809b9b57f1a8523e5f688f3c62890235.md)
   - [`186385b6fa`](../../../locales/hu/content/18/63/85b6fab1eb832b9f4b38ef6ba5220c4b8428.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/wings-quest/.docs/hints.md)): [Latest](../../../locales/hu/content/03/45/d3e7e6c4212b902ce5391c4b6a95987d505e.md)
 
@@ -713,10 +714,10 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 
 ### Booleans (Booleanok)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/booleans/introduction.md)): [Latest](../../../locales/hu/content/ef/fe/1187809b9b57f1a8523e5f688f3c62890235.md)
-  - [`186385b6fa`](../../../locales/hu/content/18/63/85b6fab1eb832b9f4b38ef6ba5220c4b8428.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/booleans/about.md)): [Latest](../../../locales/hu/content/38/88/aa058bae88f5a2eca4d12da3ff9f2d480f14.md)
-  - [`186385b6fa`](../../../locales/hu/content/18/63/85b6fab1eb832b9f4b38ef6ba5220c4b8428.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/booleans/introduction.md)): [Latest](../../../locales/hu/content/18/63/85b6fab1eb832b9f4b38ef6ba5220c4b8428.md)
+  - [`effe118780`](../../../locales/hu/content/ef/fe/1187809b9b57f1a8523e5f688f3c62890235.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/booleans/about.md)): [Latest](../../../locales/hu/content/18/63/85b6fab1eb832b9f4b38ef6ba5220c4b8428.md)
+  - [`3888aa058b`](../../../locales/hu/content/38/88/aa058bae88f5a2eca4d12da3ff9f2d480f14.md)
 
 ### Capturing (Elkapás)
 
@@ -742,8 +743,10 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 
 ### Conditionals (Elágazások)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals/introduction.md)): [Latest](../../../locales/hu/content/36/29/c53d8dd8953464cf86e47e180b9cda938d42.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals/about.md)): [Latest](../../../locales/hu/content/36/29/c53d8dd8953464cf86e47e180b9cda938d42.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals/introduction.md)): [Latest](../../../locales/hu/content/ec/52/8da484eb5133859b606af63672b9f4555831.md)
+  - [`3629c53d8d`](../../../locales/hu/content/36/29/c53d8dd8953464cf86e47e180b9cda938d42.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals/about.md)): [Latest](../../../locales/hu/content/72/96/fd4a991b832f0a828a62c5218ca35e64542f.md)
+  - [`3629c53d8d`](../../../locales/hu/content/36/29/c53d8dd8953464cf86e47e180b9cda938d42.md)
 
 ### Conditionals Guard (Feltételes guard)
 
@@ -797,10 +800,10 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 
 ### Importing (Importálás)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/importing/introduction.md)): [Latest](../../../locales/hu/content/c6/df/ebbfab86eb6f61ffe21d36c89a33cd2c8884.md)
-  - [`131e05eb0f`](../../../locales/hu/content/13/1e/05eb0ffac54c8c93102fdb05f4f85d419cde.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/importing/about.md)): [Latest](../../../locales/hu/content/f6/21/0dd23f3ce0440f857242cebf2b763e8f4836.md)
-  - [`6d0e44e0c9`](../../../locales/hu/content/6d/0e/44e0c9f3b1b087efc52e8345bed7da2381f0.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/importing/introduction.md)): [Latest](../../../locales/hu/content/13/1e/05eb0ffac54c8c93102fdb05f4f85d419cde.md)
+  - [`c6dfebbfab`](../../../locales/hu/content/c6/df/ebbfab86eb6f61ffe21d36c89a33cd2c8884.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/importing/about.md)): [Latest](../../../locales/hu/content/6d/0e/44e0c9f3b1b087efc52e8345bed7da2381f0.md)
+  - [`f6210dd23f`](../../../locales/hu/content/f6/21/0dd23f3ce0440f857242cebf2b763e8f4836.md)
 
 ### Initializers (Kezdőértékek)
 
@@ -885,10 +888,10 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 
 ### String Methods (String-metódusok)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/string-methods/introduction.md)): [Latest](../../../locales/hu/content/74/89/9dd8a1bfda60d46fd8f047c855b9b3be1d18.md)
-  - [`2c5bfc7e66`](../../../locales/hu/content/2c/5b/fc7e66ef82cc229c44645752daaec66a4b43.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/string-methods/about.md)): [Latest](../../../locales/hu/content/08/3e/53180e43c5322992410a68d1263239effe8d.md)
-  - [`abd4546b07`](../../../locales/hu/content/ab/d4/546b07fff01945b995d53058ea9a19bdd69d.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/string-methods/introduction.md)): [Latest](../../../locales/hu/content/2c/5b/fc7e66ef82cc229c44645752daaec66a4b43.md)
+  - [`74899dd8a1`](../../../locales/hu/content/74/89/9dd8a1bfda60d46fd8f047c855b9b3be1d18.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/string-methods/about.md)): [Latest](../../../locales/hu/content/ab/d4/546b07fff01945b995d53058ea9a19bdd69d.md)
+  - [`083e53180e`](../../../locales/hu/content/08/3e/53180e43c5322992410a68d1263239effe8d.md)
 
 ### Strings (Stringek)
 

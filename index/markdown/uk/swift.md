@@ -578,14 +578,15 @@ This page is generated from [the index](../../json/uk/swift.json) by `scripts/bu
 ### The 1st Rule of Poetry Club (Перше правило клубу поезії)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/poetry-club/.docs/instructions.md)): [Latest](../../../locales/uk/content/92/47/55bac6400e3b74d39047ea27737535026236.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/poetry-club/.docs/introduction.md)): [Latest](../../../locales/uk/content/a3/22/9b3b000ada4ef1fa4549eaf5774e2f9e1934.md)
-  - [`4a52385cc1`](../../../locales/uk/content/4a/52/385cc166f34b77e1f45c9f7c4e1613f4cd1a.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/poetry-club/.docs/introduction.md)): [Latest](../../../locales/uk/content/4a/52/385cc166f34b77e1f45c9f7c4e1613f4cd1a.md)
+  - [`a3229b3b00`](../../../locales/uk/content/a3/22/9b3b000ada4ef1fa4549eaf5774e2f9e1934.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/poetry-club/.docs/hints.md)): [Latest](../../../locales/uk/content/a0/a7/68a9aed1d311ae21fb849eaeecc3e203dae5.md)
 
 ### Vexing Vehicle Purchase (Морочлива купівля автомобіля)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/vehicle-purchase/.docs/instructions.md)): [Latest](../../../locales/uk/content/72/60/5a19df3ad3b3f5457da18c94f1b12af3443f.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/vehicle-purchase/.docs/introduction.md)): [Latest](../../../locales/uk/content/65/0d/76790c75b30f286d8370ced805c421639570.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/vehicle-purchase/.docs/introduction.md)): [Latest](../../../locales/uk/content/73/fe/909cc25fa6b813a7486463b4ace8d7ba7d67.md)
+  - [`650d76790c`](../../../locales/uk/content/65/0d/76790c75b30f286d8370ced805c421639570.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/vehicle-purchase/.docs/hints.md)): [Latest](../../../locales/uk/content/6a/b8/7ae86eab6dc16effafc3306fdfa26efa56d7.md)
 
 ### Windowing System (Віконна система)
@@ -643,8 +644,10 @@ This page is generated from [the index](../../json/uk/swift.json) by `scripts/bu
 
 ### Conditionals (Умовні конструкції)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals/introduction.md)): [Latest](../../../locales/uk/content/36/29/c53d8dd8953464cf86e47e180b9cda938d42.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals/about.md)): [Latest](../../../locales/uk/content/36/29/c53d8dd8953464cf86e47e180b9cda938d42.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals/introduction.md)): [Latest](../../../locales/uk/content/ec/52/8da484eb5133859b606af63672b9f4555831.md)
+  - [`3629c53d8d`](../../../locales/uk/content/36/29/c53d8dd8953464cf86e47e180b9cda938d42.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals/about.md)): [Latest](../../../locales/uk/content/72/96/fd4a991b832f0a828a62c5218ca35e64542f.md)
+  - [`3629c53d8d`](../../../locales/uk/content/36/29/c53d8dd8953464cf86e47e180b9cda938d42.md)
 
 ### Conditionals Guard (Умовний guard)
 
@@ -698,10 +701,10 @@ This page is generated from [the index](../../json/uk/swift.json) by `scripts/bu
 
 ### Importing (Імпортування)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/importing/introduction.md)): [Latest](../../../locales/uk/content/c6/df/ebbfab86eb6f61ffe21d36c89a33cd2c8884.md)
-  - [`131e05eb0f`](../../../locales/uk/content/13/1e/05eb0ffac54c8c93102fdb05f4f85d419cde.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/importing/about.md)): [Latest](../../../locales/uk/content/f6/21/0dd23f3ce0440f857242cebf2b763e8f4836.md)
-  - [`6d0e44e0c9`](../../../locales/uk/content/6d/0e/44e0c9f3b1b087efc52e8345bed7da2381f0.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/importing/introduction.md)): [Latest](../../../locales/uk/content/13/1e/05eb0ffac54c8c93102fdb05f4f85d419cde.md)
+  - [`c6dfebbfab`](../../../locales/uk/content/c6/df/ebbfab86eb6f61ffe21d36c89a33cd2c8884.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/importing/about.md)): [Latest](../../../locales/uk/content/6d/0e/44e0c9f3b1b087efc52e8345bed7da2381f0.md)
+  - [`f6210dd23f`](../../../locales/uk/content/f6/21/0dd23f3ce0440f857242cebf2b763e8f4836.md)
 
 ### Initializers (Ініціалізатори)
 
