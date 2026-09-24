@@ -379,7 +379,8 @@ This page is generated from [the index](../../json/fr/risc-v.json) by `scripts/b
 
 ### Installing RISC-V locally (Installation de RISC-V en local)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/fr/content/cd/6c/e8521d1baba7dc72cdaf56a8a9eb3cb23882.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/fr/content/6d/47/fa9fc72f34fef0b32f2d6e8d7f754c2f5849.md)
+  - [`cd6ce8521d`](../../../locales/fr/content/cd/6c/e8521d1baba7dc72cdaf56a8a9eb3cb23882.md)
 
 ### Testing on the RISC-V track (Tests sur le parcours RISC-V)
 
