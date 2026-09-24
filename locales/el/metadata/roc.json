@@ -373,5 +373,8 @@
   "doc:tests:title": "Δοκιμές στη διαδρομή Roc",
   "doc:tests:blurb": "Μάθε πώς να δοκιμάζεις τις ασκήσεις σου στη Roc στο Exercism",
   "doc:resources:title": "Χρήσιμοι πόροι για τη Roc",
-  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων που θα σε βοηθήσουν να κατακτήσεις τη Roc"
+  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων που θα σε βοηθήσουν να κατακτήσεις τη Roc",
+  "exercise:prism:name": "Πρίσμα",
+  "exercise:prism:blurb": "Υπολόγισε τη διαδρομή μιας ακτίνας λέιζερ μέσα από διαθλαστικά πρίσματα.",
+  "exercise:prism:source": "FraSanga"
 }

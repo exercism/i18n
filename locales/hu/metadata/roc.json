@@ -373,5 +373,8 @@
   "doc:tests:title": "Tesztelés a Roc kurzuson",
   "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Roc-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Roc-források",
-  "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Rocot"
+  "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Rocot",
+  "exercise:prism:name": "Prizma",
+  "exercise:prism:blurb": "Számítsd ki a lézer útját fénytörő prizmákon keresztül.",
+  "exercise:prism:source": "FraSanga"
 }

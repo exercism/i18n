@@ -373,5 +373,8 @@
   "doc:tests:title": "Tester sur le parcours Roc",
   "doc:tests:blurb": "Apprends à tester tes exercices Roc sur Exercism",
   "doc:resources:title": "Ressources utiles pour Roc",
-  "doc:resources:blurb": "Une collection de ressources utiles pour t'aider à maîtriser Roc"
+  "doc:resources:blurb": "Une collection de ressources utiles pour t'aider à maîtriser Roc",
+  "exercise:prism:name": "Prisme",
+  "exercise:prism:blurb": "Calcule le trajet d'un laser à travers des prismes réfractifs.",
+  "exercise:prism:source": "FraSanga"
 }

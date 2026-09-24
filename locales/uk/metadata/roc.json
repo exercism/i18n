@@ -373,5 +373,8 @@
   "doc:tests:title": "Тестування на треку Roc",
   "doc:tests:blurb": "Дізнаймося, як тестувати свої вправи з Roc на Exercism",
   "doc:resources:title": "Корисні ресурси про Roc",
-  "doc:resources:blurb": "Добірка корисних ресурсів, які допоможуть опанувати Roc"
+  "doc:resources:blurb": "Добірка корисних ресурсів, які допоможуть опанувати Roc",
+  "exercise:prism:name": "Призма",
+  "exercise:prism:blurb": "Обчислити шлях лазера крізь заломлювальні призми.",
+  "exercise:prism:source": "FraSanga"
 }
