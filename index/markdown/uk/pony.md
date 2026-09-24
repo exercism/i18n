@@ -57,6 +57,21 @@ This page is generated from [the index](../../json/uk/pony.json) by `scripts/bui
 - `instructions.md` ([English](https://github.com/exercism/pony/blob/main/exercises/practice/roman-numerals/.docs/instructions.md)): [Latest](../../../locales/uk/content/50/e2/f5bf1c668a66cff143097642a80dae9597d2.md)
 - `introduction.md` ([English](https://github.com/exercism/pony/blob/main/exercises/practice/roman-numerals/.docs/introduction.md)): [Latest](../../../locales/uk/content/6f/d9/42fef30f76ae037294b8fa382471665ffc2a.md)
 
+## Concept exercises
+
+### test
+
+- `instructions.md` ([English](https://github.com/exercism/pony/blob/main/exercises/concept/wibble/.docs/instructions.md)): [Latest](../../../locales/uk/content/e6/9d/e29bb2d1d6434b8b29ae775ad8c2e48c5391.md)
+- `introduction.md` ([English](https://github.com/exercism/pony/blob/main/exercises/concept/wibble/.docs/introduction.md)): [Latest](../../../locales/uk/content/e6/9d/e29bb2d1d6434b8b29ae775ad8c2e48c5391.md)
+- `hints.md` ([English](https://github.com/exercism/pony/blob/main/exercises/concept/wibble/.docs/hints.md)): [Latest](../../../locales/uk/content/e6/9d/e29bb2d1d6434b8b29ae775ad8c2e48c5391.md)
+
+## Concepts
+
+### Basics (Основи)
+
+- `introduction.md` ([English](https://github.com/exercism/pony/blob/main/concepts/basics/introduction.md)): [Latest](../../../locales/uk/content/e6/9d/e29bb2d1d6434b8b29ae775ad8c2e48c5391.md)
+- `about.md` ([English](https://github.com/exercism/pony/blob/main/concepts/basics/about.md)): missing
+
 ## Track docs
 
 ### ABOUT.md

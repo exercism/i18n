@@ -2,6 +2,7 @@
   "kind": "track",
   "locale": "fr",
   "names": {
+    "concepts/basics": {"en":"Basics","fr":"Les bases"},
     "docs/INSTALLATION.md": {"en":"Installing Pony locally","fr":"Installe Pony en local"},
     "docs/LEARNING.md": {"en":"How to learn Pony","fr":"Comment apprendre Pony"},
     "docs/RESOURCES.md": {"en":"Useful Pony resources","fr":"Ressources utiles pour Pony"},
@@ -20,6 +21,8 @@
     "exercises/practice/roman-numerals": {"en":"Roman Numerals","fr":"Chiffres romains"}
   },
   "paths": {
+    "concepts/basics/about.md": [],
+    "concepts/basics/introduction.md": ["e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"],
     "docs/ABOUT.md": ["5cda8ae87d15dd57ce5df3f68b4aa5be172da9ff"],
     "docs/INSTALLATION.md": ["1f9875b9738359ae96cbac716f5001184b24cb3f"],
     "docs/LEARNING.md": ["b88c89709c803cee2ab52670f41a6c7b7d7645b8"],
