@@ -550,7 +550,8 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 ### Magician-in-Training (Μαθητευόμενος μάγος)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/magician-in-training/.docs/instructions.md)): [Latest](../../../locales/el/content/f2/3a/75d4fd3585f0ca5afdf30fe28dd6fc6d2f2c.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/magician-in-training/.docs/introduction.md)): [Latest](../../../locales/el/content/a3/28/7bbbf3b5d392a48b47ee44eeb4e83f77c1cf.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/magician-in-training/.docs/introduction.md)): [Latest](../../../locales/el/content/0c/51/2f947ff06ff60bffe8e5ab6a6f9f87fde7e0.md)
+  - [`a3287bbbf3`](../../../locales/el/content/a3/28/7bbbf3b5d392a48b47ee44eeb4e83f77c1cf.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/magician-in-training/.docs/hints.md)): [Latest](../../../locales/el/content/96/4d/833490d0c1a96201675d5c49d72f50d40de7.md)
 
 ### Santa's Swifty Helper (Ο βοηθός του Άγιου Βασίλη στη Swift)
@@ -587,8 +588,8 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 ### Windowing System (Σύστημα Παραθύρων)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/windowing-system/.docs/instructions.md)): [Latest](../../../locales/el/content/08/1a/ad1bb0f8e0e539fea48947f937c9f09b710e.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/windowing-system/.docs/introduction.md)): [Latest](../../../locales/el/content/6c/24/fc888bf6cb55a8158deade85c03bf35a91da.md)
-  - [`eba4a06536`](../../../locales/el/content/eb/a4/a065365a671c15b83a6e2d2cdb3fd9deb5a6.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/windowing-system/.docs/introduction.md)): [Latest](../../../locales/el/content/eb/a4/a065365a671c15b83a6e2d2cdb3fd9deb5a6.md)
+  - [`6c24fc888b`](../../../locales/el/content/6c/24/fc888bf6cb55a8158deade85c03bf35a91da.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/windowing-system/.docs/hints.md)): [Latest](../../../locales/el/content/a9/fd/39c6186bfe6f98989d811f8dc1e8930b4064.md)
 
 ### Wings Quest (Αποστολή στα φτερά)
@@ -601,8 +602,10 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 
 ### Arrays (Πίνακες)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/arrays/introduction.md)): [Latest](../../../locales/el/content/a3/28/7bbbf3b5d392a48b47ee44eeb4e83f77c1cf.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/arrays/about.md)): [Latest](../../../locales/el/content/a3/28/7bbbf3b5d392a48b47ee44eeb4e83f77c1cf.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/arrays/introduction.md)): [Latest](../../../locales/el/content/0c/51/2f947ff06ff60bffe8e5ab6a6f9f87fde7e0.md)
+  - [`a3287bbbf3`](../../../locales/el/content/a3/28/7bbbf3b5d392a48b47ee44eeb4e83f77c1cf.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/arrays/about.md)): [Latest](../../../locales/el/content/36/26/ec18a395e20776bc55e76e09b63475271650.md)
+  - [`a3287bbbf3`](../../../locales/el/content/a3/28/7bbbf3b5d392a48b47ee44eeb4e83f77c1cf.md)
 
 ### Basics (Τα βασικά)
 
@@ -755,10 +758,10 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 
 ### Self
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/self/introduction.md)): [Latest](../../../locales/el/content/c0/61/b68974b9ce545ec6292e286acde8dc5abefc.md)
-  - [`4d8299eae0`](../../../locales/el/content/4d/82/99eae0ee48c0c3a97555897cc45260e303e0.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/self/about.md)): [Latest](../../../locales/el/content/b0/33/5994ae98688f8e7f6ef88bed11f866add58c.md)
-  - [`922c132e44`](../../../locales/el/content/92/2c/132e44834c06862dfcb90c6eda34ec4ffe79.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/self/introduction.md)): [Latest](../../../locales/el/content/4d/82/99eae0ee48c0c3a97555897cc45260e303e0.md)
+  - [`c061b68974`](../../../locales/el/content/c0/61/b68974b9ce545ec6292e286acde8dc5abefc.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/self/about.md)): [Latest](../../../locales/el/content/92/2c/132e44834c06862dfcb90c6eda34ec4ffe79.md)
+  - [`b0335994ae`](../../../locales/el/content/b0/33/5994ae98688f8e7f6ef88bed11f866add58c.md)
 
 ### Shorthand arguments (Συντομευμένα ορίσματα)
 

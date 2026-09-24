@@ -1,0 +1,166 @@
+# Introduction
+
+[Les tableaux][array] sont l'un des trois principaux types de collections de Swift.
+Un tableau est une liste ordonnée d'éléments.
+Un tableau peut contenir des éléments de n'importe quel type, mais tous les éléments d'un même tableau doivent être du même type.
+Un tableau est mutable lorsqu'il est affecté à une variable : on peut alors ajouter, supprimer ou modifier ses éléments après la création du tableau.
+Lorsqu'il est affecté à une constante, un tableau est immuable, ce qui signifie que son contenu ne peut pas être modifié.
+
+Un littéral de tableau s'écrit comme une liste d'éléments séparés par des virgules et entourés de crochets (`[...]`).
+Swift peut déduire le type du tableau à partir des éléments du littéral.
+
+```swift
+let evenInts = [2, 4, 6, 8, 10, 12]
+var oddInts = [1, 3, 5, 7, 9, 11, 13]
+let greetings = ["Hello!", "Hi!", "¡Hola!"]
+```
+
+On peut aussi préciser le type explicitement.
+Le type d'un tableau peut s'écrire de deux façons : `Array<T>` ou la syntaxe abrégée `[T]`, où `T` est le type des valeurs que contient le tableau.
+
+```swift
+let evenInts: Array<Int> = [2, 4, 6, 8, 10, 12]
+var oddInts: [Int] = [1, 3, 5, 7, 9, 11, 13]
+let greetings: [String] = ["Hello!", "Hi!", "¡Hola!"]
+```
+
+## Taille d'un tableau
+
+On peut déterminer le nombre d'éléments d'un tableau à l'aide de sa propriété [`count`][count] :
+
+```swift
+evenInts.count
+// returns 6
+```
+
+## Tableaux vides
+
+Pour créer un tableau vide, il faut préciser son type.
+On peut le faire avec la syntaxe d'initialisation de tableau ou avec une annotation de type explicite :
+
+```swift
+let emptyArray = [Int]()
+let emptyArray2 = Array<Int>()
+let emptyArray3: [Int] = []
+```
+
+## Tableaux multidimensionnels
+
+On peut imbriquer des tableaux pour créer des tableaux multidimensionnels.
+Lorsque l'on type explicitement un tableau imbriqué, il faut entourer le type des éléments de crochets imbriqués, comme `[[Int]]` ou `Array<Array<Int>>` :
+
+```swift
+let multiDimArray = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+let multiDimArray2: [[Int]] = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+```
+
+## Ajoute un élément à un tableau
+
+On peut ajouter un élément à la fin d'un tableau mutable avec la méthode [`append(_:)`][append] :
+
+```swift
+var oddInts = [1, 3, 5, 7, 9, 11, 13]
+oddInts.append(15)
+// oddInts is now [1, 3, 5, 7, 9, 11, 13, 15]
+```
+
+## Insère un élément dans un tableau
+
+On peut insérer un élément à un indice précis avec la méthode [`insert(_:at:)`][insert].
+Cette méthode prend deux arguments : l'élément à insérer et l'indice auquel l'insérer.
+
+```swift
+var oddInts = [1, 3, 5, 7, 9, 11, 13]
+oddInts.insert(0, at: 0)
+// oddInts is now [0, 1, 3, 5, 7, 9, 11, 13]
+```
+
+## Additionne deux tableaux
+
+On peut combiner deux tableaux en un seul avec l'opérateur `+`.
+L'opérateur `+` crée et renvoie un nouveau tableau ; il ne modifie pas les tableaux d'origine.
+
+```swift
+var oddInts = [1, 3, 5, 7, 9, 11, 13]
+let combined = oddInts + [15, 17, 19]
+// combined is [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
+
+print(oddInts)
+// prints [1, 3, 5, 7, 9, 11, 13]
+```
+
+## Accède aux éléments d'un tableau
+
+On peut accéder à un élément précis d'un tableau en plaçant son indice entre crochets (`[]`), après le nom du tableau.
+Les indices d'un tableau sont des valeurs `Int` indexées à partir de zéro, `0` correspondant au premier élément.
+Accéder à un indice hors de la plage valide provoque une erreur d'exécution et fait planter le programme.
+
+```swift
+let evenInts = [2, 4, 6, 8, 10, 12]
+let oddInts = [1, 3, 5, 7, 9, 11, 13]
+
+evenInts[2]
+// returns 6
+
+oddInts[7]
+// Fatal error: Index out of range
+```
+
+## Modifie les éléments d'un tableau
+
+On peut modifier un élément d'un tableau mutable en affectant une nouvelle valeur à un indice précis.
+Comme pour la lecture des éléments, utiliser un indice hors de la plage valide provoque une erreur d'exécution.
+
+```swift
+var evenInts = [2, 4, 6, 8, 10, 12]
+
+evenInts[2] = 0
+// evenInts is now [2, 4, 0, 8, 10, 12]
+```
+
+## Convertis un tableau en _string_ et inversement
+
+On peut assembler un tableau de _strings_ en une seule _string_ avec la méthode [`joined(separator:)`][joined], qui prend une _string_ servant de séparateur :
+
+```swift
+let evenInts = ["2", "4", "6", "8", "10", "12"]
+let evenIntsString = evenInts.joined(separator: ", ")
+// returns "2, 4, 6, 8, 10, 12"
+```
+
+On peut découper une _string_ en un tableau de sous-chaînes avec la méthode [`split(separator:)`][split], en passant le caractère délimiteur :
+
+```swift
+let evenIntsString = "2, 4, 6, 8, 10, 12"
+let evenInts = evenIntsString.split(separator: ",")
+// returns ["2", " 4", " 6", " 8", " 10", " 12"]
+```
+
+## Supprime un élément d'un tableau
+
+On peut supprimer un élément à un indice donné avec la méthode [`remove(at:)`][remove].
+L'indice doit se trouver dans les limites valides du tableau ; sinon, une erreur d'exécution se produit.
+
+```swift
+var oddInts = [1, 3, 5, 7, 9, 11, 13]
+oddInts.remove(at: 3)
+// oddInts is now [1, 3, 5, 9, 11, 13]
+```
+
+Pour supprimer le dernier élément d'un tableau, utilise la méthode [`removeLast()`][removeLast].
+Appeler `removeLast()` sur un tableau vide provoque une erreur d'exécution.
+
+```swift
+var oddInts = [1, 3, 5, 7, 9, 11, 13]
+oddInts.removeLast()
+// oddInts is now [1, 3, 5, 7, 9, 11]
+```
+
+[array]: https://developer.apple.com/documentation/swift/array
+[count]: https://developer.apple.com/documentation/swift/array/count
+[insert]: https://developer.apple.com/documentation/swift/array/insert(_:at:)-3erb3
+[remove]: https://developer.apple.com/documentation/swift/array/remove(at:)-1p2pj
+[removeLast]: https://developer.apple.com/documentation/swift/array/removelast()
+[append]: https://developer.apple.com/documentation/swift/array/append(_:)-1ytnt
+[joined]: https://developer.apple.com/documentation/swift/array/joined(separator:)-5do1g
+[split]: https://developer.apple.com/documentation/swift/string/2894564-split
