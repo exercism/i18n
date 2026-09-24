@@ -955,7 +955,8 @@ This page is generated from [the index](../../json/fr/factor.json) by `scripts/b
 ### Hash Sets (Ensembles de hachage)
 
 - `introduction.md` ([English](https://github.com/exercism/factor/blob/main/concepts/hash-sets/introduction.md)): [Latest](../../../locales/fr/content/60/bd/58fc99d77d49272bd3cb96bec9d6a58c1bc4.md)
-- `about.md` ([English](https://github.com/exercism/factor/blob/main/concepts/hash-sets/about.md)): [Latest](../../../locales/fr/content/44/25/be12e83632e7cf03a3933c704d7b3d3994fb.md)
+- `about.md` ([English](https://github.com/exercism/factor/blob/main/concepts/hash-sets/about.md)): [Latest](../../../locales/fr/content/2b/97/ea7b4af64701d904fadafaa10a53a7950e25.md)
+  - [`4425be12e8`](../../../locales/fr/content/44/25/be12e83632e7cf03a3933c704d7b3d3994fb.md)
 
 ### Heaps (Tas)
 
