@@ -93,7 +93,10 @@
         "password_placeholder": "Διάλεξε έναν κωδικό πρόσβασης (ελάχ. %{minimum_password_length} χαρακτήρες)",
         "password_confirmation_placeholder": "Επιβεβαίωσε τον κωδικό πρόσβασής σου",
         "confirm_not_bot_label": "Επιβεβαίωσε ότι δεν είσαι bot",
-        "sign_up_button": "Εγγραφή"
+        "sign_up_button": "Εγγραφή",
+        "email_label": "Email",
+        "password_label": "Κωδικός πρόσβασης",
+        "password_confirmation_label": "Επιβεβαίωση κωδικού πρόσβασης"
       },
       "destroyed": "Αντίο! Ο λογαριασμός σου ακυρώθηκε με επιτυχία. Ελπίζουμε να σε δούμε ξανά σύντομα.",
       "signed_up": "Καλώς ήρθες! Η εγγραφή σου ολοκληρώθηκε με επιτυχία.",
@@ -128,7 +131,8 @@
         "heading": "Το Exercism είναι δωρεάν για όλους τους ανθρώπους, παντού",
         "level_up_html": "Ανέβασε επίπεδο τις δεξιότητες προγραμματισμού σου με %{stats} και διαφωτιστικές συζητήσεις με την αφοσιωμένη ομάδα φιλόξενων μέντορων μας.",
         "level_up_stats": "%{exercise_count} ασκήσεις σε %{track_count} γλώσσες",
-        "free_forever": "Το Exercism είναι 100% δωρεάν για πάντα."
+        "free_forever": "Το Exercism είναι 100% δωρεάν για πάντα.",
+        "more_tracks": "+%{count} ακόμα"
       },
       "links": {
         "already_have_account_prompt": "Έχεις ήδη λογαριασμό;",

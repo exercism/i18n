@@ -1291,7 +1291,10 @@
         "password_placeholder": "Виберіть пароль (мін. %{minimum_password_length} символів)",
         "password_confirmation_placeholder": "Підтвердьте пароль",
         "confirm_not_bot_label": "Підтвердьте, що це не бот",
-        "sign_up_button": "Зареєструватися"
+        "sign_up_button": "Зареєструватися",
+        "email_label": "Електронна пошта",
+        "password_label": "Пароль",
+        "password_confirmation_label": "Підтвердження пароля"
       },
       "destroyed": "До побачення! Обліковий запис успішно скасовано. Будемо раді бачити знову!",
       "signed_up": "Вітаємо! Реєстрацію успішно завершено.",
@@ -1326,7 +1329,8 @@
         "heading": "Exercism безкоштовний для всіх людей у всьому світі",
         "level_up_html": "%{stats} і змістовні обговорення з нашою командою привітних наставників допоможуть підвищити навички програмування.",
         "level_up_stats": "%{exercise_count} вправ у %{track_count} мовах",
-        "free_forever": "Exercism на 100% безкоштовний назавжди."
+        "free_forever": "Exercism на 100% безкоштовний назавжди.",
+        "more_tracks": "+%{count} ще"
       },
       "links": {
         "already_have_account_prompt": "Вже маєте акаунт?",

@@ -787,7 +787,10 @@
         "password_placeholder": "Choisis un mot de passe (min %{minimum_password_length} caractères)",
         "password_confirmation_placeholder": "Confirme ton mot de passe",
         "confirm_not_bot_label": "Confirme que tu n'es pas un robot",
-        "sign_up_button": "S'inscrire"
+        "sign_up_button": "S'inscrire",
+        "email_label": "E-mail",
+        "password_label": "Mot de passe",
+        "password_confirmation_label": "Confirmation du mot de passe"
       }
     },
     "sessions": {
@@ -865,7 +868,8 @@
         "heading": "Exercism est gratuit pour tout le monde, partout",
         "level_up_html": "Développe tes compétences en programmation avec %{stats} et des discussions enrichissantes avec notre équipe dévouée de mentors accueillants.",
         "level_up_stats": "%{exercise_count} exercices répartis sur %{track_count} langages",
-        "free_forever": "Exercism est 100 % gratuit, pour toujours."
+        "free_forever": "Exercism est 100 % gratuit, pour toujours.",
+        "more_tracks": "+%{count} de plus"
       },
       "links": {
         "already_have_account_prompt": "Tu as déjà un compte ?",
