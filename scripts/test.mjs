@@ -717,6 +717,24 @@ await test("a content file is checked from its bytes alone, and against English 
   assert.deepEqual(errorsOf(checkContentFile({ id: "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391", extension: ".md", bytes: Buffer.from("\n") })), ["empty file"]);
 });
 
+await test("headings are counted as the renderer sees them: behind a byte order mark, and indented up to three spaces", () => {
+  // phix/docs/ABOUT.md carries a mark its author's editor left there in 2024.
+  const marked = Buffer.from("\uFEFF# About\n\nText.\n\n## More\n\nMore text.\n");
+  const id = blobId(marked);
+  assert.deepEqual(checkContentFile({ id, extension: ".md", bytes: Buffer.from("\uFEFF# À propos\n\nTexte.\n\n## Plus\n\nPlus de texte.\n") }, marked), []);
+  // The translation may carry no mark, or a leading space in place of one, and
+  // still have the two headings the English has.
+  assert.deepEqual(checkContentFile({ id, extension: ".md", bytes: Buffer.from("# À propos\n\nTexte.\n\n## Plus\n\nPlus de texte.\n") }, marked), []);
+  assert.deepEqual(checkContentFile({ id, extension: ".md", bytes: Buffer.from(" # À propos\n\nTexte.\n\n## Plus\n\nPlus de texte.\n") }, marked), []);
+  assert.match(errorsOf(checkContentFile({ id, extension: ".md", bytes: Buffer.from("\uFEFF# À propos\n\nTexte.\n") }, marked))[0], /headings: English has 2, translation has 1/);
+
+  // CommonMark renders a heading indented by up to three spaces, and stops at four.
+  const indented = Buffer.from("# Title\n\n   ## Indented\n\nText.\n");
+  const indentedId = blobId(indented);
+  assert.deepEqual(checkContentFile({ id: indentedId, extension: ".md", bytes: Buffer.from("# Cím\n\n   ## Behúzva\n\nSzöveg.\n") }, indented), []);
+  assert.match(errorsOf(checkContentFile({ id: indentedId, extension: ".md", bytes: Buffer.from("# Cím\n\n    ## Behúzva\n\nSzöveg.\n") }, indented))[0], /headings: English has 2, translation has 1/);
+});
+
 // =================================================================== fixture ==
 //
 // Everything below runs the real scripts, as subprocesses, over real git repos.

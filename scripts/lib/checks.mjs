@@ -279,13 +279,21 @@ export function checkContentFile({ id, extension, bytes }, english = null) {
 
     if (english !== null) {
       const source = english.toString("utf8");
-      const count = (body, pattern) => (body.match(pattern) ?? []).length;
+      // cmark drops a leading byte order mark before it parses, so a heading or
+      // fence on the first line is one the reader sees even behind a mark the
+      // author's editor left there. Both sides need the same treatment: the
+      // translation arrives through TextDecoder, which strips the mark, and the
+      // English through Buffer.toString, which keeps it, so a marked English
+      // file counted one heading fewer than its translation.
+      const count = (body, pattern) => (body.replace(/^\uFEFF/, "").match(pattern) ?? []).length;
       // A difference in either direction is an error. Unlike a catalog, a content
       // file cannot be ahead of English: different English has a different blob
       // id, so this file translates exactly these bytes.
       for (const [what, pattern] of [
         ["fenced code block fences", /^\s*(?:```|~~~)/gm],
-        ["headings", /^#{1,6}\s/gm]
+        // CommonMark lets a heading be indented by up to three spaces, and the
+        // website renders one, so the count follows the renderer.
+        ["headings", /^ {0,3}#{1,6}\s/gm]
       ]) {
         const [en, target] = [count(source, pattern), count(text, pattern)];
         if (en !== target) issues.push(issue(ERROR, `${what}: English has ${en}, translation has ${target}`));
