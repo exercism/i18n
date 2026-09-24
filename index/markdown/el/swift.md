@@ -577,8 +577,8 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 ### The 1st Rule of Poetry Club (Ο πρώτος κανόνας της λέσχης ποίησης)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/poetry-club/.docs/instructions.md)): [Latest](../../../locales/el/content/92/47/55bac6400e3b74d39047ea27737535026236.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/poetry-club/.docs/introduction.md)): [Latest](../../../locales/el/content/06/00/1f82968c3ffd20a3a9438e93cd2f3c2d49b0.md)
-  - [`4a52385cc1`](../../../locales/el/content/4a/52/385cc166f34b77e1f45c9f7c4e1613f4cd1a.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/poetry-club/.docs/introduction.md)): [Latest](../../../locales/el/content/4a/52/385cc166f34b77e1f45c9f7c4e1613f4cd1a.md)
+  - [`06001f8296`](../../../locales/el/content/06/00/1f82968c3ffd20a3a9438e93cd2f3c2d49b0.md)
   - [`323d4fcc9b`](../../../locales/el/content/32/3d/4fcc9b7952ebce6071b2db6a11de394daea6.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/poetry-club/.docs/hints.md)): [Latest](../../../locales/el/content/a0/a7/68a9aed1d311ae21fb849eaeecc3e203dae5.md)
 
@@ -702,10 +702,10 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 
 ### Importing (Εισαγωγή)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/importing/introduction.md)): [Latest](../../../locales/el/content/c6/df/ebbfab86eb6f61ffe21d36c89a33cd2c8884.md)
-  - [`131e05eb0f`](../../../locales/el/content/13/1e/05eb0ffac54c8c93102fdb05f4f85d419cde.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/importing/about.md)): [Latest](../../../locales/el/content/f6/21/0dd23f3ce0440f857242cebf2b763e8f4836.md)
-  - [`6d0e44e0c9`](../../../locales/el/content/6d/0e/44e0c9f3b1b087efc52e8345bed7da2381f0.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/importing/introduction.md)): [Latest](../../../locales/el/content/13/1e/05eb0ffac54c8c93102fdb05f4f85d419cde.md)
+  - [`c6dfebbfab`](../../../locales/el/content/c6/df/ebbfab86eb6f61ffe21d36c89a33cd2c8884.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/importing/about.md)): [Latest](../../../locales/el/content/6d/0e/44e0c9f3b1b087efc52e8345bed7da2381f0.md)
+  - [`f6210dd23f`](../../../locales/el/content/f6/21/0dd23f3ce0440f857242cebf2b763e8f4836.md)
 
 ### Initializers (Αρχικοποιητές)
 
@@ -750,8 +750,10 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 
 ### Opaque Indices (Αδιαφανείς θέσεις)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/opaque-indices/introduction.md)): [Latest](../../../locales/el/content/be/a5/50ac7aba7a63caaf3e4c4e31faa40e67c1c3.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/opaque-indices/about.md)): [Latest](../../../locales/el/content/34/8f/b9c54ed076d54c051c4bbff5f4bce774bbba.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/opaque-indices/introduction.md)): [Latest](../../../locales/el/content/fb/e0/01f6d475861d395fac17450fb2748978ca94.md)
+  - [`bea550ac7a`](../../../locales/el/content/be/a5/50ac7aba7a63caaf3e4c4e31faa40e67c1c3.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/opaque-indices/about.md)): [Latest](../../../locales/el/content/b2/82/f1a956735632b07a6da0885b333b8fec2ea7.md)
+  - [`348fb9c54e`](../../../locales/el/content/34/8f/b9c54ed076d54c051c4bbff5f4bce774bbba.md)
 
 ### Optionals
 
