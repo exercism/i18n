@@ -376,5 +376,8 @@
   "doc:resources:blurb": "Une collection de ressources utiles pour t'aider à maîtriser Roc",
   "exercise:prism:name": "Prisme",
   "exercise:prism:blurb": "Calcule le trajet d'un laser à travers des prismes réfractifs.",
-  "exercise:prism:source": "FraSanga"
+  "exercise:prism:source": "FraSanga",
+  "exercise:intergalactic-transmission:name": "Transmission intergalactique",
+  "exercise:intergalactic-transmission:blurb": "Ajouter des bits de parité à un message pour la transmission.",
+  "exercise:intergalactic-transmission:source": "Kah Goh"
 }

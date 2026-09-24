@@ -376,5 +376,8 @@
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Rocot",
   "exercise:prism:name": "Prizma",
   "exercise:prism:blurb": "Számítsd ki a lézer útját fénytörő prizmákon keresztül.",
-  "exercise:prism:source": "FraSanga"
+  "exercise:prism:source": "FraSanga",
+  "exercise:intergalactic-transmission:name": "Intergalaktikus átvitel",
+  "exercise:intergalactic-transmission:blurb": "Adj paritásbiteket egy üzenethez az átvitelhez",
+  "exercise:intergalactic-transmission:source": "Kah Goh"
 }

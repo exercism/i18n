@@ -376,5 +376,8 @@
   "doc:resources:blurb": "Добірка корисних ресурсів, які допоможуть опанувати Roc",
   "exercise:prism:name": "Призма",
   "exercise:prism:blurb": "Обчислити шлях лазера крізь заломлювальні призми.",
-  "exercise:prism:source": "FraSanga"
+  "exercise:prism:source": "FraSanga",
+  "exercise:intergalactic-transmission:name": "Міжгалактична передача",
+  "exercise:intergalactic-transmission:blurb": "Додайте біти парності до повідомлення для передачі",
+  "exercise:intergalactic-transmission:source": "Ка Го"
 }

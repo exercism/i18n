@@ -376,5 +376,8 @@
   "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων που θα σε βοηθήσουν να κατακτήσεις τη Roc",
   "exercise:prism:name": "Πρίσμα",
   "exercise:prism:blurb": "Υπολόγισε τη διαδρομή μιας ακτίνας λέιζερ μέσα από διαθλαστικά πρίσματα.",
-  "exercise:prism:source": "FraSanga"
+  "exercise:prism:source": "FraSanga",
+  "exercise:intergalactic-transmission:name": "Διαγαλαξιακή Μετάδοση",
+  "exercise:intergalactic-transmission:blurb": "Πρόσθεσε bits ισοτιμίας σε ένα μήνυμα για μετάδοση",
+  "exercise:intergalactic-transmission:source": "Kah Goh"
 }
