@@ -103,7 +103,11 @@ async function main() {
   } else {
     const headEntries = lsTree(repo, head);
     const baseEntries = base ? lsTree(repo, base) : null;
-    content = requiredContent(kind, headEntries, baseEntries);
+    // The reader is what lets a `wip` exercise's files be left out: the track's
+    // config.json is the only place that says an exercise is unfinished. It
+    // costs one blob per ref, which on a track repo is one extra request from
+    // the blobless clone this check runs against.
+    content = requiredContent(kind, headEntries, baseEntries, { read: refReader(repo, head).readMany, baseRead: base ? refReader(repo, base).readMany : null });
     console.log(`  requires ${content.length} content file(s), ${new Set(content.map((file) => file.id)).size} distinct`);
 
 

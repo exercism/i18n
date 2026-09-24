@@ -21,6 +21,7 @@
 // use; see source-repo-workflows/README.md.
 
 import { CONTENT_TYPES, contentRelativePath, typeForPath, typesForKind } from "./content-types.mjs";
+import { wipExerciseDirs } from "./source-repos.mjs";
 import { englishUnits, targetEntries, unitHash } from "./catalogs.mjs";
 import { requiredCategories } from "./plurals.mjs";
 
@@ -29,18 +30,34 @@ const extensionOf = (file) => {
   return dot === -1 ? "" : file.slice(dot);
 };
 
+const EXERCISE_DIR = /^(exercises\/(?:practice|concept)\/[^/]+)\//;
+
 /**
  * The translatable files of one repo kind among some tree entries.
  *
+ * The registry matches a path and opens no config, so it cannot tell a live
+ * exercise from an unfinished one. `read` is what lets this leave a `wip`
+ * exercise's files out, the same exercises whose names and blurbs
+ * scripts/lib/metadata.mjs already leaves out of the catalog: with it, the
+ * track's own config.json (which must be among `entries`) decides; without it,
+ * every matched file is returned. A caller that can read the repo passes it. A
+ * caller that cannot, such as scripts/english-changes.mjs, which sees a PR's
+ * file list and no tree, requires the files anyway, which costs one translation
+ * of text nobody reads and is the safe side of the two.
+ *
  * @param {string} kind  a REPO_KINDS id
  * @param {{path, id}[]} entries  `git ls-tree` output, or a PR's file list
+ * @param {(entries) => {path,id,text}[]} [read]  reads blobs as text
  * @returns {{ type, path, id, extension }[]}
  */
-export function translatableFiles(kind, entries) {
+export function translatableFiles(kind, entries, read = null) {
+  const wip = read && kind === "track" ? wipExerciseDirs(entries, read) : null;
   const out = [];
   for (const entry of entries) {
     const type = typeForPath(kind, entry.path);
-    if (type) out.push({ type, path: entry.path, id: entry.id, extension: extensionOf(entry.path) });
+    if (!type) continue;
+    if (wip?.has(EXERCISE_DIR.exec(entry.path)?.[1])) continue;
+    out.push({ type, path: entry.path, id: entry.id, extension: extensionOf(entry.path) });
   }
   return out;
 }
@@ -58,10 +75,15 @@ export function metadataFiles(kind, entries) {
  * rename requires nothing, a file restored to earlier bytes requires nothing
  * new, and a new track adding two-fer requires nothing if another track's
  * identical instructions were already translated.
+ *
+ * `read` and `baseRead` read blobs at each of the two refs, and each side's
+ * config.json decides which of that side's exercises are `wip`. Both sides are
+ * read, so an exercise that leaves `wip` in this change requires its files:
+ * they were not required at the base, and nobody has translated them.
  */
-export function requiredContent(kind, headEntries, baseEntries = null) {
-  const before = baseEntries === null ? new Set() : new Set(translatableFiles(kind, baseEntries).map((file) => file.id));
-  return translatableFiles(kind, headEntries).filter((file) => !before.has(file.id));
+export function requiredContent(kind, headEntries, baseEntries = null, { read = null, baseRead = null } = {}) {
+  const before = baseEntries === null ? new Set() : new Set(translatableFiles(kind, baseEntries, baseRead).map((file) => file.id));
+  return translatableFiles(kind, headEntries, read).filter((file) => !before.has(file.id));
 }
 
 /**

@@ -59,6 +59,8 @@
 //                                "wip": the website does not show it and nobody
 //                                can read it, so its copy is not English anyone
 //                                is waiting for. Every other status is included.
+//                                `isWipExercise` in source-repos.mjs is the rule,
+//                                shared with the content half.
 //     concepts[].name         -> concepts.name
 //     Not `language`: it becomes tracks.title, and "Ruby" is a proper name.
 //     Not `tags`: they are codes ("paradigm/functional"). The words a user reads
@@ -95,6 +97,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { LOCALES_DIR, fail } from "./constants.mjs";
+import { isWipExercise } from "./source-repos.mjs";
 
 export const METADATA_KIND = "metadata";
 export const METADATA_TYPE_ID = "metadata";
@@ -173,24 +176,6 @@ function put(catalog, key, value) {
   if (typeof value === "string" && value.trim() !== "") catalog[key] = value;
 }
 
-/**
- * Whether a track's config.json entry says the exercise is unfinished.
- *
- * `status` is absent on most entries and is otherwise "active", "beta",
- * "deprecated" or "wip" (all 123 track repos, 2026-09-24). Only "wip" is
- * excluded. A beta exercise is live on the website, and a deprecated one is
- * still served to everyone who has already started it, so skipping either would
- * leave a reader in English with nothing reporting it. A wip exercise is not
- * shown to anyone, and exercism/pony's config.json holds one called "test"
- * whose two keys gated every PR in this repo once uk became a production
- * target.
- *
- * Excluding only this one value is the safe side: a status nobody here has seen
- * is included, which costs one translation, where a wrong exclusion costs a
- * reader English text.
- */
-const isWip = (exercise) => exercise?.status === "wip";
-
 // A slug containing `:` would make a key ambiguous, and an entry with no slug
 // has no stable identity. Text English does not list is never required, so
 // neither is dropped without a note.
@@ -224,7 +209,7 @@ function extractTrack(byPath, read, notes) {
   for (const type of ["concept", "practice"]) {
     for (const exercise of config.exercises?.[type] ?? []) {
       if (!slugOk(exercise?.slug, notes, "config.json exercises")) continue;
-      if (isWip(exercise)) continue;
+      if (isWipExercise(exercise)) continue;
       put(catalog, `exercise:${exercise.slug}:name`, exercise.name);
       wanted.push({ file: `exercises/${type}/${exercise.slug}/.meta/config.json`, prefix: `exercise:${exercise.slug}`, fields: ["blurb", "source"] });
     }

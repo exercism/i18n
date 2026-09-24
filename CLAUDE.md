@@ -109,6 +109,18 @@ id, shared by every track with byte-identical English.
   legitimately identical.
 - **`scripts/lib/content-types.mjs` holds every path pattern.** A type is a pattern within a
   kind of repo, so one entry covers all eighty tracks.
+- **A `wip` exercise's files are not required either.** The registry matches
+  `exercises/practice/two-fer/.docs/instructions.md` by path and opens no config, so it cannot
+  tell a finished exercise from a half-written one. `wipExerciseDirs`
+  (`scripts/lib/source-repos.mjs`) reads the track's own `config.json` at the ref being
+  processed, next to `isActiveTrack` and for the same reasons, and
+  `translatableFiles(kind, entries, read)` leaves those directories out. The same `status`
+  rule decides this and the metadata catalog below, so a wip exercise is absent from both.
+  A caller that passes no `read` gets every matched file, which is what
+  `scripts/english-changes.mjs` does: it sees a PR's file list and no tree, so it cannot ask
+  the config, and requiring the file costs one translation nobody reads where the other
+  mistake costs a reader English text. `scripts/completeness.mjs` makes the final decision, as
+  it does for the metadata half.
 - **The `docs`, `blog` and `website-copy` patterns have been verified** against the real trees
   and against how the website loads each, and the registry records the commit, the match
   counts and what is left out on purpose. `docs` has one type per served section (212 served
@@ -147,9 +159,9 @@ the extraction, the keys and the reasoning.
   of `active`, `beta`, `deprecated` or `wip`, or none at all. Only `wip` is excluded, because
   the website shows nobody a work-in-progress exercise. A `beta` exercise is live and a
   `deprecated` one is still served to everyone who has already started it, so both are
-  required like any other. Concept entries carry no `status` and are all required. The
-  exclusion is only for this catalog: the exercise's `.docs/*.md` files are matched by path
-  (`content-types.mjs`) and are still required.
+  required like any other. Concept entries carry no `status` and are all required. The rule is
+  `isWipExercise` in `scripts/lib/source-repos.mjs`, and it covers the exercise's `.docs/*.md`
+  files too (see "A `wip` exercise's files" above).
 - **English lives in the source repo**, so `validate` checks `metadata/ruby.json` against
   English only when `--content-repos` names a checkout called `ruby`. Otherwise the catalog is
   shape-checked and reported as `unv` (unverified), never `ok`. CI fetches each repo that some
