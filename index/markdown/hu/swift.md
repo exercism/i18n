@@ -666,7 +666,8 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 ### The 1st Rule of Poetry Club (A versklub első szabálya)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/poetry-club/.docs/instructions.md)): [Latest](../../../locales/hu/content/92/47/55bac6400e3b74d39047ea27737535026236.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/poetry-club/.docs/introduction.md)): [Latest](../../../locales/hu/content/4a/52/385cc166f34b77e1f45c9f7c4e1613f4cd1a.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/poetry-club/.docs/introduction.md)): [Latest](../../../locales/hu/content/32/3d/4fcc9b7952ebce6071b2db6a11de394daea6.md)
+  - [`4a52385cc1`](../../../locales/hu/content/4a/52/385cc166f34b77e1f45c9f7c4e1613f4cd1a.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/poetry-club/.docs/hints.md)): [Latest](../../../locales/hu/content/a0/a7/68a9aed1d311ae21fb849eaeecc3e203dae5.md)
 
 ### Vexing Vehicle Purchase (Bosszantó járművásárlás)
@@ -685,8 +686,8 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 ### Wings Quest (Szárnyak küldetése)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/wings-quest/.docs/instructions.md)): [Latest](../../../locales/hu/content/a8/9d/dfaae955ffc61319fdb9f08d0eb1d845b854.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/wings-quest/.docs/introduction.md)): [Latest](../../../locales/hu/content/ef/fe/1187809b9b57f1a8523e5f688f3c62890235.md)
-  - [`8819b4dd12`](../../../locales/hu/content/88/19/b4dd12a44ee16303585f3b30e70fc3240018.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/wings-quest/.docs/introduction.md)): [Latest](../../../locales/hu/content/88/19/b4dd12a44ee16303585f3b30e70fc3240018.md)
+  - [`effe118780`](../../../locales/hu/content/ef/fe/1187809b9b57f1a8523e5f688f3c62890235.md)
   - [`186385b6fa`](../../../locales/hu/content/18/63/85b6fab1eb832b9f4b38ef6ba5220c4b8428.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/wings-quest/.docs/hints.md)): [Latest](../../../locales/hu/content/03/45/d3e7e6c4212b902ce5391c4b6a95987d505e.md)
 
@@ -706,10 +707,10 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 
 ### Booleans (Booleanok)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/booleans/introduction.md)): [Latest](../../../locales/hu/content/ef/fe/1187809b9b57f1a8523e5f688f3c62890235.md)
-  - [`186385b6fa`](../../../locales/hu/content/18/63/85b6fab1eb832b9f4b38ef6ba5220c4b8428.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/booleans/about.md)): [Latest](../../../locales/hu/content/38/88/aa058bae88f5a2eca4d12da3ff9f2d480f14.md)
-  - [`186385b6fa`](../../../locales/hu/content/18/63/85b6fab1eb832b9f4b38ef6ba5220c4b8428.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/booleans/introduction.md)): [Latest](../../../locales/hu/content/18/63/85b6fab1eb832b9f4b38ef6ba5220c4b8428.md)
+  - [`effe118780`](../../../locales/hu/content/ef/fe/1187809b9b57f1a8523e5f688f3c62890235.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/booleans/about.md)): [Latest](../../../locales/hu/content/18/63/85b6fab1eb832b9f4b38ef6ba5220c4b8428.md)
+  - [`3888aa058b`](../../../locales/hu/content/38/88/aa058bae88f5a2eca4d12da3ff9f2d480f14.md)
 
 ### Capturing (Elkapás)
 
@@ -872,8 +873,10 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 
 ### String Methods (String-metódusok)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/string-methods/introduction.md)): [Latest](../../../locales/hu/content/2c/5b/fc7e66ef82cc229c44645752daaec66a4b43.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/string-methods/about.md)): [Latest](../../../locales/hu/content/ab/d4/546b07fff01945b995d53058ea9a19bdd69d.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/string-methods/introduction.md)): [Latest](../../../locales/hu/content/74/89/9dd8a1bfda60d46fd8f047c855b9b3be1d18.md)
+  - [`2c5bfc7e66`](../../../locales/hu/content/2c/5b/fc7e66ef82cc229c44645752daaec66a4b43.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/string-methods/about.md)): [Latest](../../../locales/hu/content/08/3e/53180e43c5322992410a68d1263239effe8d.md)
+  - [`abd4546b07`](../../../locales/hu/content/ab/d4/546b07fff01945b995d53058ea9a19bdd69d.md)
 
 ### Strings (Stringek)
 
