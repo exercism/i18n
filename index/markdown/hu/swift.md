@@ -609,7 +609,8 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 ### Freelancer Rates (Szabadúszói díjak)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/freelancer-rates/.docs/instructions.md)): [Latest](../../../locales/hu/content/60/d3/76a2e8df613e76db64860c011b2365ef36b9.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/freelancer-rates/.docs/introduction.md)): [Latest](../../../locales/hu/content/8a/96/744245900be4db98df58663f0d8b388bfd27.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/freelancer-rates/.docs/introduction.md)): [Latest](../../../locales/hu/content/17/1c/c68f3162723617d93f362ecd2d22bfb6602b.md)
+  - [`8a96744245`](../../../locales/hu/content/8a/96/744245900be4db98df58663f0d8b388bfd27.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/freelancer-rates/.docs/hints.md)): [Latest](../../../locales/hu/content/65/e2/2184fb49adbd4a20e90acc616ed393ec814d.md)
 
 ### High Score Board (Pontszámtábla)
@@ -639,8 +640,8 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 ### Magician-in-Training (Varázslótanonc)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/magician-in-training/.docs/instructions.md)): [Latest](../../../locales/hu/content/f2/3a/75d4fd3585f0ca5afdf30fe28dd6fc6d2f2c.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/magician-in-training/.docs/introduction.md)): [Latest](../../../locales/hu/content/0c/51/2f947ff06ff60bffe8e5ab6a6f9f87fde7e0.md)
-  - [`a3287bbbf3`](../../../locales/hu/content/a3/28/7bbbf3b5d392a48b47ee44eeb4e83f77c1cf.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/magician-in-training/.docs/introduction.md)): [Latest](../../../locales/hu/content/a3/28/7bbbf3b5d392a48b47ee44eeb4e83f77c1cf.md)
+  - [`0c512f947f`](../../../locales/hu/content/0c/51/2f947ff06ff60bffe8e5ab6a6f9f87fde7e0.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/magician-in-training/.docs/hints.md)): [Latest](../../../locales/hu/content/96/4d/833490d0c1a96201675d5c49d72f50d40de7.md)
 
 ### Santa's Swifty Helper (A Mikulás swifty segédje)
@@ -692,10 +693,10 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 
 ### Arrays (Tömbök)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/arrays/introduction.md)): [Latest](../../../locales/hu/content/0c/51/2f947ff06ff60bffe8e5ab6a6f9f87fde7e0.md)
-  - [`a3287bbbf3`](../../../locales/hu/content/a3/28/7bbbf3b5d392a48b47ee44eeb4e83f77c1cf.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/arrays/about.md)): [Latest](../../../locales/hu/content/36/26/ec18a395e20776bc55e76e09b63475271650.md)
-  - [`a3287bbbf3`](../../../locales/hu/content/a3/28/7bbbf3b5d392a48b47ee44eeb4e83f77c1cf.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/arrays/introduction.md)): [Latest](../../../locales/hu/content/a3/28/7bbbf3b5d392a48b47ee44eeb4e83f77c1cf.md)
+  - [`0c512f947f`](../../../locales/hu/content/0c/51/2f947ff06ff60bffe8e5ab6a6f9f87fde7e0.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/arrays/about.md)): [Latest](../../../locales/hu/content/a3/28/7bbbf3b5d392a48b47ee44eeb4e83f77c1cf.md)
+  - [`3626ec18a3`](../../../locales/hu/content/36/26/ec18a395e20776bc55e76e09b63475271650.md)
 
 ### Basics (Alapok)
 
@@ -819,8 +820,10 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 
 ### Numbers (Számok)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/numbers/introduction.md)): [Latest](../../../locales/hu/content/8a/96/744245900be4db98df58663f0d8b388bfd27.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/numbers/about.md)): [Latest](../../../locales/hu/content/8a/96/744245900be4db98df58663f0d8b388bfd27.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/numbers/introduction.md)): [Latest](../../../locales/hu/content/17/1c/c68f3162723617d93f362ecd2d22bfb6602b.md)
+  - [`8a96744245`](../../../locales/hu/content/8a/96/744245900be4db98df58663f0d8b388bfd27.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/numbers/about.md)): [Latest](../../../locales/hu/content/ff/38/deca63afc9ed6b66ee0f978025c68318fd88.md)
+  - [`8a96744245`](../../../locales/hu/content/8a/96/744245900be4db98df58663f0d8b388bfd27.md)
 
 ### Opaque Indices (Opaque indexek)
 

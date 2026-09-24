@@ -518,7 +518,8 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 ### Freelancer Rates (Tarifs d'un freelance)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/freelancer-rates/.docs/instructions.md)): [Latest](../../../locales/fr/content/60/d3/76a2e8df613e76db64860c011b2365ef36b9.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/freelancer-rates/.docs/introduction.md)): [Latest](../../../locales/fr/content/ac/9e/0cb9a77720b28e1cd33f917fbd98e1d5f1bc.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/freelancer-rates/.docs/introduction.md)): [Latest](../../../locales/fr/content/17/1c/c68f3162723617d93f362ecd2d22bfb6602b.md)
+  - [`ac9e0cb9a7`](../../../locales/fr/content/ac/9e/0cb9a77720b28e1cd33f917fbd98e1d5f1bc.md)
   - [`8a96744245`](../../../locales/fr/content/8a/96/744245900be4db98df58663f0d8b388bfd27.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/freelancer-rates/.docs/hints.md)): [Latest](../../../locales/fr/content/65/e2/2184fb49adbd4a20e90acc616ed393ec814d.md)
 
@@ -550,8 +551,8 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 ### Magician-in-Training (Apprenti magicien)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/magician-in-training/.docs/instructions.md)): [Latest](../../../locales/fr/content/f2/3a/75d4fd3585f0ca5afdf30fe28dd6fc6d2f2c.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/magician-in-training/.docs/introduction.md)): [Latest](../../../locales/fr/content/0c/51/2f947ff06ff60bffe8e5ab6a6f9f87fde7e0.md)
-  - [`a3287bbbf3`](../../../locales/fr/content/a3/28/7bbbf3b5d392a48b47ee44eeb4e83f77c1cf.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/magician-in-training/.docs/introduction.md)): [Latest](../../../locales/fr/content/a3/28/7bbbf3b5d392a48b47ee44eeb4e83f77c1cf.md)
+  - [`0c512f947f`](../../../locales/fr/content/0c/51/2f947ff06ff60bffe8e5ab6a6f9f87fde7e0.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/magician-in-training/.docs/hints.md)): [Latest](../../../locales/fr/content/96/4d/833490d0c1a96201675d5c49d72f50d40de7.md)
 
 ### Santa's Swifty Helper (L'assistant Swifty du Père Noël)
@@ -602,10 +603,10 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 
 ### Arrays (Tableaux)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/arrays/introduction.md)): [Latest](../../../locales/fr/content/0c/51/2f947ff06ff60bffe8e5ab6a6f9f87fde7e0.md)
-  - [`a3287bbbf3`](../../../locales/fr/content/a3/28/7bbbf3b5d392a48b47ee44eeb4e83f77c1cf.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/arrays/about.md)): [Latest](../../../locales/fr/content/36/26/ec18a395e20776bc55e76e09b63475271650.md)
-  - [`a3287bbbf3`](../../../locales/fr/content/a3/28/7bbbf3b5d392a48b47ee44eeb4e83f77c1cf.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/arrays/introduction.md)): [Latest](../../../locales/fr/content/a3/28/7bbbf3b5d392a48b47ee44eeb4e83f77c1cf.md)
+  - [`0c512f947f`](../../../locales/fr/content/0c/51/2f947ff06ff60bffe8e5ab6a6f9f87fde7e0.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/arrays/about.md)): [Latest](../../../locales/fr/content/a3/28/7bbbf3b5d392a48b47ee44eeb4e83f77c1cf.md)
+  - [`3626ec18a3`](../../../locales/fr/content/36/26/ec18a395e20776bc55e76e09b63475271650.md)
 
 ### Basics (Les bases)
 
@@ -731,9 +732,11 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 
 ### Numbers (Les nombres)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/numbers/introduction.md)): [Latest](../../../locales/fr/content/ac/9e/0cb9a77720b28e1cd33f917fbd98e1d5f1bc.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/numbers/introduction.md)): [Latest](../../../locales/fr/content/17/1c/c68f3162723617d93f362ecd2d22bfb6602b.md)
+  - [`ac9e0cb9a7`](../../../locales/fr/content/ac/9e/0cb9a77720b28e1cd33f917fbd98e1d5f1bc.md)
   - [`8a96744245`](../../../locales/fr/content/8a/96/744245900be4db98df58663f0d8b388bfd27.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/numbers/about.md)): [Latest](../../../locales/fr/content/ac/9e/0cb9a77720b28e1cd33f917fbd98e1d5f1bc.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/numbers/about.md)): [Latest](../../../locales/fr/content/ff/38/deca63afc9ed6b66ee0f978025c68318fd88.md)
+  - [`ac9e0cb9a7`](../../../locales/fr/content/ac/9e/0cb9a77720b28e1cd33f917fbd98e1d5f1bc.md)
   - [`8a96744245`](../../../locales/fr/content/8a/96/744245900be4db98df58663f0d8b388bfd27.md)
 
 ### Opaque Indices (Indices opaques)
