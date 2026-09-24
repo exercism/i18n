@@ -91,7 +91,7 @@ function main() {
       skipped.push(`${name} (inactive track)`);
       continue;
     }
-    const files = translatableFiles(kind, entries);
+    const files = translatableFiles(kind, entries, read);
     if (files.length === 0) {
       skipped.push(`${name} (nothing translatable)`);
       continue;

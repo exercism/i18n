@@ -98,7 +98,7 @@ async function main() {
     } catch (error) {
       console.error(`note: ${path.basename(repo.dir)}: metadata not measured (${error.message})`);
     }
-    return { ...repo, name: path.basename(repo.dir), files: translatableFiles(repo.kind, entries), metadata };
+    return { ...repo, name: path.basename(repo.dir), files: translatableFiles(repo.kind, entries, refReader(repo.dir, repo.ref).readMany), metadata };
   });
 
   for (const locale of locales) {

@@ -32,7 +32,7 @@ import { englishUnits, flattenCatalog, stringId, targetEntries, unflattenCatalog
 import { ERROR, WARN, checkCatalog, checkContentFile, placeholders, tags } from "./lib/checks.mjs";
 import { CONTENT_TYPES, CONTENT_TYPE_IDS, contentRelativePath, parseContentRelativePath, typeForPath } from "./lib/content-types.mjs";
 import { REPO_KINDS, isActiveTrack, kindForRepo } from "./lib/source-repos.mjs";
-import { missingContent, missingUnits, requiredContent, requiredUnits } from "./lib/completeness.mjs";
+import { missingContent, missingUnits, requiredContent, requiredUnits, translatableFiles } from "./lib/completeness.mjs";
 import { SAMPLE, fixCommand, freshness, lastSweptAt, parseShard, shardOf, singletonRepos, standing, summariseRepo, summaryBody, summaryTitle, sweptRepos } from "./lib/sweep.mjs";
 import { buildMetadataEnglish, changedCopyKeys, fileCopy, readTomlStrings } from "./lib/metadata.mjs";
 import { buildWebsiteEnglish, globToRegExp, isWebsiteEnglishPath, loadExclusions } from "./lib/website-english.mjs";
@@ -202,6 +202,27 @@ await test("a wip exercise is not translatable English; every other status is", 
   const concepts = { ...TRACK_CONFIG, exercises: { concept: [], practice: [] }, concepts: [{ uuid: "c1", slug: "strings", name: "Strings", status: "wip" }] };
   const conceptFiles = { "config.json": JSON.stringify(concepts), "concepts/strings/.meta/config.json": JSON.stringify({ blurb: "About strings." }) };
   assert.equal(buildMetadataEnglish("track", asTree(conceptFiles), asReader(conceptFiles)).catalog["concept:strings:name"], "Strings");
+
+  // The same exercises' whole files, which the registry matches by path.
+  const withDocs = { ...files };
+  for (const status of Object.keys(statuses)) withDocs[`exercises/practice/${status}/.docs/instructions.md`] = `# ${statuses[status]}\n`;
+  const tree = asTree(withDocs);
+  const read = asReader(withDocs);
+  const paths = (found) => found.map((file) => file.path).sort();
+  assert.deepEqual(
+    paths(translatableFiles("track", tree, read)),
+    ["active", "beta", "deprecated", "none"].map((status) => `exercises/practice/${status}/.docs/instructions.md`),
+    "a wip exercise's instructions are as unreachable as its name"
+  );
+  assert.ok(paths(translatableFiles("track", tree)).includes("exercises/practice/wip/.docs/instructions.md"), "with no reader there is no config to ask, so every matched file is required");
+  const unreadable = { ...withDocs, "config.json": "{nope" };
+  assert.ok(paths(translatableFiles("track", asTree(unreadable), asReader(unreadable))).includes("exercises/practice/wip/.docs/instructions.md"), "an unreadable config.json marks nothing as wip");
+
+  // An exercise that leaves wip requires its files: nothing required them before,
+  // so nobody has translated them.
+  const finished = { ...withDocs, "config.json": JSON.stringify({ ...config, exercises: { concept: [], practice: entries.map((entry) => (entry.slug === "wip" ? { ...entry, status: "active" } : entry)) } }) };
+  const required = requiredContent("track", asTree(finished), tree, { read: asReader(finished), baseRead: read });
+  assert.deepEqual(required.map((file) => file.path), ["exercises/practice/wip/.docs/instructions.md"]);
 });
 
 await test("reordering changes no key; a rename is new keys, and the old ones are simply no longer English", () => {

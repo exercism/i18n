@@ -11,6 +11,13 @@
 // There is no list of tracks here, and there should not be one: the website's
 // database decides which tracks exist, and a copy would go out of date as soon
 // as a track launched.
+//
+// Two things a track says about itself are read from its own config.json and
+// live here rather than in the registry: whether the track is still active, and
+// which of its exercises are unfinished. The registry maps a path to a content
+// type and opens no config, so a caller that can read the repo asks here, and a
+// caller that cannot (a PR file list, one file on its own) requires the text
+// anyway.
 
 import fs from "node:fs";
 import path from "node:path";
@@ -76,6 +83,62 @@ export function isActiveTrack(entries, read) {
   } catch {
     return true;
   }
+}
+
+/**
+ * Whether a track's config.json entry says the exercise is unfinished.
+ *
+ * `status` is absent on most entries and is otherwise "active", "beta",
+ * "deprecated" or "wip" (all 123 track repos, 2026-09-24). Only "wip" is
+ * excluded. A beta exercise is live on the website, and a deprecated one is
+ * still served to everyone who has already started it, so skipping either would
+ * leave a reader in English with nothing reporting it. A wip exercise is not
+ * shown to anyone, and exercism/pony's config.json holds one called "test"
+ * whose two keys gated every PR in this repo once uk became a production
+ * target.
+ *
+ * Excluding only this one value is the safe side: a status nobody here has seen
+ * is included, which costs one translation, where a wrong exclusion costs a
+ * reader English text.
+ */
+export const isWipExercise = (exercise) => exercise?.status === "wip";
+
+/**
+ * The exercise directories a track's config.json marks `wip`, as
+ * `exercises/<concept|practice>/<slug>`.
+ *
+ * The exercise's own files say nothing about this: `.docs/instructions.md`
+ * looks the same whether the exercise is live or half-written, and the registry
+ * (content-types.mjs) matches it by path and opens no config. So the track's
+ * config.json is the only place the answer exists, and this reads it from the
+ * tree at the ref being processed, next to `isActiveTrack` and for the same
+ * reasons.
+ *
+ * A config.json that is missing, unreadable or unparseable marks nothing as
+ * wip. The caller then requires an unfinished exercise's files, which costs one
+ * translation, where guessing the other way would leave a reader in English
+ * with nothing reporting it.
+ *
+ * @param {{path,id}[]} entries  the repo's tree (`git ls-tree`)
+ * @param {(entries) => {path,id,text}[]} read  reads blobs as text
+ * @returns {Set<string>}
+ */
+export function wipExerciseDirs(entries, read) {
+  const dirs = new Set();
+  const config = entries.find((entry) => entry.path === "config.json");
+  if (!config) return dirs;
+  let parsed;
+  try {
+    parsed = JSON.parse(read([config])[0].text);
+  } catch {
+    return dirs;
+  }
+  for (const type of ["concept", "practice"]) {
+    for (const exercise of parsed?.exercises?.[type] ?? []) {
+      if (isWipExercise(exercise) && typeof exercise.slug === "string" && exercise.slug !== "") dirs.add(`exercises/${type}/${exercise.slug}`);
+    }
+  }
+  return dirs;
 }
 
 export function repoKind(id) {
