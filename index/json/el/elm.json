@@ -148,7 +148,7 @@
     "exercises/practice/zebra-puzzle": {"el":"Γρίφος της ζέβρας","en":"Zebra Puzzle"}
   },
   "paths": {
-    "concepts/array/about.md": ["309d2044d64e4b4f8b4af27412508632318a3a73"],
+    "concepts/array/about.md": ["15fb1a84cfc629130c16f454b0338dce5432124a","309d2044d64e4b4f8b4af27412508632318a3a73"],
     "concepts/array/introduction.md": ["10d83a8405f25ed176d1a070d65147cf07d1286a"],
     "concepts/basics-1/about.md": ["fb61c6b1166f38fabaf9d9560b735d57f0b406c3"],
     "concepts/basics-1/introduction.md": ["5bff6c4042bf95c814903e0128260cee69310836"],
@@ -271,7 +271,7 @@
     "exercises/concept/secure-treasure-chest/.docs/instructions.md": ["3024edf31f45c066ff57c8a76079de9548021c0f"],
     "exercises/concept/secure-treasure-chest/.docs/introduction.md": ["5617148393aa82fa6ca3189f8273334f30546a43"],
     "exercises/concept/squeaky-clean/.docs/hints.md": ["0102d5aa0e26b8312d2c47524a9580c835a5898a"],
-    "exercises/concept/squeaky-clean/.docs/instructions.md": ["64a0b4dac1b2a0745a92d9f2e3c6f28c72d3482a"],
+    "exercises/concept/squeaky-clean/.docs/instructions.md": ["f5a8bae8bc1c6d0ed177a3f39ccd7a1317147b6c","64a0b4dac1b2a0745a92d9f2e3c6f28c72d3482a"],
     "exercises/concept/squeaky-clean/.docs/introduction.md": ["a26d70ec4542d97864d6d60b03a1d037f2582aed"],
     "exercises/concept/ticket-please/.docs/hints.md": ["5b3ec3147b0d51f1596eeb38280a52b3a16d6e05"],
     "exercises/concept/ticket-please/.docs/instructions.md": ["2548694bc0a0d0148eb39bf2f61d677ebc56ec02"],

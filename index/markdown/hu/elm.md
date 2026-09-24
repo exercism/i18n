@@ -592,7 +592,8 @@ This page is generated from [the index](../../json/hu/elm.json) by `scripts/buil
 
 ### Squeaky Clean (Patyolat tiszta)
 
-- `instructions.md` ([English](https://github.com/exercism/elm/blob/main/exercises/concept/squeaky-clean/.docs/instructions.md)): [Latest](../../../locales/hu/content/64/a0/b4dac1b2a0745a92d9f2e3c6f28c72d3482a.md)
+- `instructions.md` ([English](https://github.com/exercism/elm/blob/main/exercises/concept/squeaky-clean/.docs/instructions.md)): [Latest](../../../locales/hu/content/f5/a8/bae8bc1c6d0ed177a3f39ccd7a1317147b6c.md)
+  - [`64a0b4dac1`](../../../locales/hu/content/64/a0/b4dac1b2a0745a92d9f2e3c6f28c72d3482a.md)
 - `introduction.md` ([English](https://github.com/exercism/elm/blob/main/exercises/concept/squeaky-clean/.docs/introduction.md)): [Latest](../../../locales/hu/content/a2/6d/70ec4542d97864d6d60b03a1d037f2582aed.md)
   - [`f64eeffa32`](../../../locales/hu/content/f6/4e/effa32a8930d4b809b482933511721f173a1.md)
 - `hints.md` ([English](https://github.com/exercism/elm/blob/main/exercises/concept/squeaky-clean/.docs/hints.md)): [Latest](../../../locales/hu/content/01/02/d5aa0e26b8312d2c47524a9580c835a5898a.md)
@@ -646,7 +647,8 @@ This page is generated from [the index](../../json/hu/elm.json) by `scripts/buil
 ### Arrays (Tömbök)
 
 - `introduction.md` ([English](https://github.com/exercism/elm/blob/main/concepts/array/introduction.md)): [Latest](../../../locales/hu/content/10/d8/3a8405f25ed176d1a070d65147cf07d1286a.md)
-- `about.md` ([English](https://github.com/exercism/elm/blob/main/concepts/array/about.md)): [Latest](../../../locales/hu/content/30/9d/2044d64e4b4f8b4af27412508632318a3a73.md)
+- `about.md` ([English](https://github.com/exercism/elm/blob/main/concepts/array/about.md)): [Latest](../../../locales/hu/content/15/fb/1a84cfc629130c16f454b0338dce5432124a.md)
+  - [`309d2044d6`](../../../locales/hu/content/30/9d/2044d64e4b4f8b4af27412508632318a3a73.md)
 
 ### Basics 1 (Alapok 1)
 
