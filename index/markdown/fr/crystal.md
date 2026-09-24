@@ -619,7 +619,8 @@ This page is generated from [the index](../../json/fr/crystal.json) by `scripts/
 ### Interest is Interesting (L'intérêt est intéressant)
 
 - `instructions.md` ([English](https://github.com/exercism/crystal/blob/main/exercises/concept/interest-is-interesting/.docs/instructions.md)): [Latest](../../../locales/fr/content/cc/4e/049b179c21aeb0ea2e9279e0c212d86ccf57.md)
-- `introduction.md` ([English](https://github.com/exercism/crystal/blob/main/exercises/concept/interest-is-interesting/.docs/introduction.md)): [Latest](../../../locales/fr/content/18/4e/fc11744836889f2242a22ae08a24e8fad4fc.md)
+- `introduction.md` ([English](https://github.com/exercism/crystal/blob/main/exercises/concept/interest-is-interesting/.docs/introduction.md)): [Latest](../../../locales/fr/content/b3/0d/f4c3b0d13b5dd02cb5778d5d02eef391b901.md)
+  - [`184efc1174`](../../../locales/fr/content/18/4e/fc11744836889f2242a22ae08a24e8fad4fc.md)
 - `hints.md` ([English](https://github.com/exercism/crystal/blob/main/exercises/concept/interest-is-interesting/.docs/hints.md)): [Latest](../../../locales/fr/content/35/91/4c913d538c5c33654a92aa0eea7d8d850013.md)
 
 ### Johannes' Juice Maker (La machine à jus de Johannes)
@@ -835,8 +836,10 @@ This page is generated from [the index](../../json/fr/crystal.json) by `scripts/
 
 ### While Loops (Boucles \`while\`)
 
-- `introduction.md` ([English](https://github.com/exercism/crystal/blob/main/concepts/while-loops/introduction.md)): [Latest](../../../locales/fr/content/01/e1/fc7ff8045a31e15b722877b8e3b34bbadf65.md)
-- `about.md` ([English](https://github.com/exercism/crystal/blob/main/concepts/while-loops/about.md)): [Latest](../../../locales/fr/content/59/d1/704200f35fdb3664c277f2493088b77abf60.md)
+- `introduction.md` ([English](https://github.com/exercism/crystal/blob/main/concepts/while-loops/introduction.md)): [Latest](../../../locales/fr/content/98/2f/46f474bf957388c7797e7876ebe5617552ce.md)
+  - [`01e1fc7ff8`](../../../locales/fr/content/01/e1/fc7ff8045a31e15b722877b8e3b34bbadf65.md)
+- `about.md` ([English](https://github.com/exercism/crystal/blob/main/concepts/while-loops/about.md)): [Latest](../../../locales/fr/content/9d/0d/4d003f38d4eacb9e1d63ccb28f6cc54577c5.md)
+  - [`59d1704200`](../../../locales/fr/content/59/d1/704200f35fdb3664c277f2493088b77abf60.md)
 
 ## Track docs
 

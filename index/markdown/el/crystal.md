@@ -619,7 +619,7 @@ This page is generated from [the index](../../json/el/crystal.json) by `scripts/
 ### Interest is Interesting (Ο τόκος έχει ενδιαφέρον)
 
 - `instructions.md` ([English](https://github.com/exercism/crystal/blob/main/exercises/concept/interest-is-interesting/.docs/instructions.md)): [Latest](../../../locales/el/content/cc/4e/049b179c21aeb0ea2e9279e0c212d86ccf57.md)
-- `introduction.md` ([English](https://github.com/exercism/crystal/blob/main/exercises/concept/interest-is-interesting/.docs/introduction.md)): missing
+- `introduction.md` ([English](https://github.com/exercism/crystal/blob/main/exercises/concept/interest-is-interesting/.docs/introduction.md)): [Latest](../../../locales/el/content/b3/0d/f4c3b0d13b5dd02cb5778d5d02eef391b901.md)
 - `hints.md` ([English](https://github.com/exercism/crystal/blob/main/exercises/concept/interest-is-interesting/.docs/hints.md)): [Latest](../../../locales/el/content/35/91/4c913d538c5c33654a92aa0eea7d8d850013.md)
 
 ### Johannes' Juice Maker (Ο αποχυμωτής του Johannes)
@@ -835,8 +835,8 @@ This page is generated from [the index](../../json/el/crystal.json) by `scripts/
 
 ### While Loops (\`while\` βρόχοι)
 
-- `introduction.md` ([English](https://github.com/exercism/crystal/blob/main/concepts/while-loops/introduction.md)): missing
-- `about.md` ([English](https://github.com/exercism/crystal/blob/main/concepts/while-loops/about.md)): missing
+- `introduction.md` ([English](https://github.com/exercism/crystal/blob/main/concepts/while-loops/introduction.md)): [Latest](../../../locales/el/content/98/2f/46f474bf957388c7797e7876ebe5617552ce.md)
+- `about.md` ([English](https://github.com/exercism/crystal/blob/main/concepts/while-loops/about.md)): [Latest](../../../locales/el/content/9d/0d/4d003f38d4eacb9e1d63ccb28f6cc54577c5.md)
 
 ## Track docs
 
