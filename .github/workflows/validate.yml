@@ -1,8 +1,15 @@
 # Checks every change to locales/ and to the scripts that check it.
 #
-# CI never stamps. Stamping needs --stamp and is done by the translation pass
-# that wrote the text. A stamp says a translation matches its English, and
-# only that pass should say so.
+# This workflow never writes. It reads the change it is checking and reports,
+# and .github/workflows/stamp.yml is the one that stamps, on push to main.
+#
+# What this run does with stamps is predict them. It makes the same comparison
+# the stamper makes (`--stamp-changed=<base>`, without `--stamp`), so a unit the
+# change wrote and the stamper will stamp is reported as `stampable` and held
+# against nobody. Every other unit with no stamp is an ERROR, because nothing
+# can tie it to any English and completeness.mjs will block a source repo's PR
+# on it, in a repo whose author never sees this run. The two halves are meant to
+# leave no third case: either CI stamps it, or CI says so here.
 #
 # Which English this validates against:
 #
@@ -55,7 +62,11 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
+      # The whole history, because the run compares the change against the base
+      # it is measured from, the same way no-deletions.yml does.
       - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
 
       # Runs before setup-node, whose pnpm cache needs pnpm to find the store
       # path. The version comes from package.json's `packageManager` field.
@@ -109,10 +120,32 @@ jobs:
           done
           echo "list=$REPOS" >> "$GITHUB_OUTPUT"
 
+      # On a PR the range is merge base to head, and on a push to main the push
+      # itself, as in no-deletions.yml. A push whose base this checkout does not
+      # hold (a force push, a new branch) leaves nothing to compare against, and
+      # then nothing is predicted: every unstamped unit is reported as one,
+      # which is the safe direction.
+      - name: What this change is measured against
+        id: base
+        env:
+          BASE_REF: ${{ github.base_ref }}
+          BEFORE: ${{ github.event.before }}
+        run: |
+          set -euo pipefail
+          if [ -n "$BASE_REF" ]; then
+            git fetch --no-tags --quiet origin "+refs/heads/$BASE_REF:refs/remotes/origin/$BASE_REF"
+            echo "sha=$(git merge-base "origin/$BASE_REF" HEAD)" >> "$GITHUB_OUTPUT"
+          elif [ -n "$BEFORE" ] && git rev-parse --verify --quiet "$BEFORE^{commit}" > /dev/null; then
+            echo "sha=$BEFORE" >> "$GITHUB_OUTPUT"
+          else
+            echo "No base to compare against, so no unit is reported as stampable."
+          fi
+
       - name: Validate every locale
         env:
           CONTENT_REPOS: ${{ steps.repos.outputs.list }}
-        run: node scripts/validate.mjs all ${CONTENT_REPOS:+--content-repos="$CONTENT_REPOS"}
+          BASE: ${{ steps.base.outputs.sha }}
+        run: node scripts/validate.mjs all ${BASE:+--stamp-changed="$BASE"} ${CONTENT_REPOS:+--content-repos="$CONTENT_REPOS"}
 
       - name: Coverage
         if: always()

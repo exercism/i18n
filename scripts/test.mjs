@@ -28,7 +28,7 @@ import { SCRIPTS_ROOT, productionLocaleIssue } from "./lib/constants.mjs";
 import { blobId, lsTree, readBlobs, refReader } from "./lib/git.mjs";
 import { BundleSyntaxError, parseBundle } from "./lib/ts-object.mjs";
 import { PLURAL_SPELLING, requiredCategories } from "./lib/plurals.mjs";
-import { englishUnits, flattenCatalog, stringId, targetEntries, unflattenCatalog, unitHash, unitState } from "./lib/catalogs.mjs";
+import { englishUnits, flattenCatalog, stringId, targetEntries, unflattenCatalog, unitHash, unitState, unitTouched } from "./lib/catalogs.mjs";
 import { ERROR, WARN, checkCatalog, checkContentFile, placeholders, tags } from "./lib/checks.mjs";
 import { CONTENT_TYPES, CONTENT_TYPE_IDS, contentRelativePath, parseContentRelativePath, typeForPath } from "./lib/content-types.mjs";
 import { REPO_KINDS, isActiveTrack, kindForRepo } from "./lib/source-repos.mjs";
@@ -461,6 +461,20 @@ await test("a unit's hash is the blob id of its English, so editing English make
   assert.notEqual(unitHash(group), unitHash(edited));
 });
 
+await test("a change touches a unit through the target's own keys, categories English has not included", () => {
+  const units = englishUnits("backend", BACKEND_EN);
+  assert.equal(unitTouched("backend", units.get("nav.home"), new Set(["nav.home"])), true);
+  assert.equal(unitTouched("backend", units.get("nav.home"), new Set(["nav.about"])), false);
+  const group = units.get("slots.filled.*");
+  assert.equal(unitTouched("backend", group, new Set(["slots.filled.other"])), true);
+  // Polish writes a category English does not have, and rewriting it is still
+  // a change to the group.
+  assert.equal(unitTouched("backend", group, new Set(["slots.filled.many"])), true);
+  assert.equal(unitTouched("backend", group, new Set(["slots.filled"])), false);
+  const frontend = englishUnits("frontend", { "ns:items_one": "1 item", "ns:items_other": "{{count}} items" });
+  assert.equal(unitTouched("frontend", frontend.get("ns:items_*"), new Set(["ns:items_many"])), true);
+});
+
 // ------------------------------------------------------------- completeness --
 
 const ID_A = blobId("# Two Fer\n");
@@ -794,9 +808,9 @@ function writeTree(dir, files) {
   }
 }
 
-function commitAll(dir, message) {
+function commitAll(dir, message, { allowEmpty = false } = {}) {
   gitIn(dir, "add", "-A");
-  gitIn(dir, "-c", "user.name=test", "-c", "user.email=test@example.com", "commit", "--quiet", "-m", message);
+  gitIn(dir, "-c", "user.name=test", "-c", "user.email=test@example.com", "commit", "--quiet", ...(allowEmpty ? ["--allow-empty"] : []), "-m", message);
   return gitIn(dir, "rev-parse", "HEAD").trim();
 }
 
@@ -910,7 +924,7 @@ await test("fixture: validate passes a good production locale, and reports (with
   assert.equal(run("validate.mjs", ["all", "--gate=all"]).status, 1);
 });
 
-await test("fixture: CI never stamps, and --stamp stamps exactly the units that passed", () => {
+await test("fixture: a run writes nothing without --stamp, and --stamp stamps exactly the units that passed", () => {
   const meta = path.join(ROOT, "locales/hu/website/backend.meta.json");
   assert.ok(!fs.existsSync(meta), "a plain validate run wrote a stamp file");
   const { status, out } = run("validate.mjs", ["hu", "--stamp"]);
@@ -1047,6 +1061,77 @@ await test("fixture: a stale unit is re-stamped only when the pass names it", ()
   assert.equal(complete.status, 0, complete.out);
 });
 
+// The three occurrences this was written for were all hand edits: text arrived
+// with no stamp, CI was green, and the failure surfaced hours later as a red
+// check on somebody's pull request in another repo.
+await test("fixture: a hand edit stamps the units it wrote, and the ones it did not write are an ERROR", () => {
+  const backend = path.join(ROOT, "locales/hu/website/backend.json");
+  const meta = path.join(ROOT, "locales/hu/website/backend.meta.json");
+  const base = commitAll(ROOT, "before a hand edit");
+
+  // One unit reworded and left unstamped, which is what a person editing a
+  // wording by hand leaves behind, and one unit whose stamp is missing for
+  // reasons this change knows nothing about.
+  const tree = JSON.parse(fs.readFileSync(backend, "utf8"));
+  tree.nav.home = "Kezdőoldal";
+  fs.writeFileSync(backend, JSON.stringify(tree, null, 2));
+  const stamps = JSON.parse(fs.readFileSync(meta, "utf8")).stamps;
+  const [before, untouched] = [stamps["nav.home"], stamps["nav.about"]];
+  delete stamps["nav.home"];
+  delete stamps["nav.about"];
+  fs.writeFileSync(meta, JSON.stringify({ stamps }, null, 2));
+
+  // The pull request: nothing is written, and the unit the change wrote is
+  // reported as one CI will stamp when it lands, so it is held against nobody.
+  const dry = run("validate.mjs", ["hu", "--type=website-backend", `--stamp-changed=${base}`]);
+  assert.equal(dry.status, 1, dry.out);
+  assert.match(dry.out, /unstamped 2.*stampable 1/);
+  assert.match(dry.out, /ERROR 1 unit\(s\) translated but never checked against any English: nav\.about/);
+  assert.doesNotMatch(dry.out, /nav\.home/);
+  assert.equal(JSON.parse(fs.readFileSync(meta, "utf8")).stamps["nav.home"], undefined, "a run without --stamp wrote a stamp");
+
+  // The push to main: the unit the change wrote is stamped, against exactly
+  // the English it was checked against, and the other one is still an error.
+  const stamped = run("validate.mjs", ["hu", "--type=website-backend", "--stamp", `--stamp-changed=${base}`]);
+  assert.equal(stamped.status, 1, stamped.out);
+  assert.match(stamped.out, /stamped 1/);
+  assert.match(stamped.out, /ERROR 1 unit\(s\) translated but never checked against any English: nav\.about/);
+  const written = JSON.parse(fs.readFileSync(meta, "utf8")).stamps;
+  assert.equal(written["nav.home"], before, "the stamp is not the one the English gives");
+  assert.equal(written["nav.about"], undefined, "a unit this change never wrote was stamped anyway");
+
+  // The way out, for a unit nobody can date: check it against English and stamp
+  // it deliberately, which is what iHiD did by hand in b306ed0c5.
+  const deliberate = run("validate.mjs", ["hu", "--type=website-backend", "--stamp"]);
+  assert.equal(deliberate.status, 0, deliberate.out);
+  assert.equal(JSON.parse(fs.readFileSync(meta, "utf8")).stamps["nav.about"], untouched);
+});
+
+// The case that must never be guessed. exercism/website#9693 carried the
+// English for four Hungarian strings dem4ron had already written, so the keys
+// were in this repo and in no English this run can read.
+await test("fixture: a key English has not got is never stamped, and the WARN says who can stamp it", () => {
+  const backend = path.join(ROOT, "locales/hu/website/backend.json");
+  const meta = path.join(ROOT, "locales/hu/website/backend.meta.json");
+  const original = fs.readFileSync(backend, "utf8");
+  const base = commitAll(ROOT, "before a key arrives ahead of its English");
+  const tree = JSON.parse(original);
+  tree.nav.email_label = "E-mail";
+  fs.writeFileSync(backend, JSON.stringify(tree, null, 2));
+
+  const { status, out } = run("validate.mjs", ["hu", "--type=website-backend", "--stamp", `--stamp-changed=${base}`]);
+  assert.equal(status, 0, out);
+  assert.match(out, /WARN\s+key not in English and never stamped: nav\.email_label.*--source-ref=/);
+  assert.equal(JSON.parse(fs.readFileSync(meta, "utf8")).stamps["nav.email_label"], undefined, "a key with no English was stamped anyway");
+  fs.writeFileSync(backend, original);
+});
+
+await test("fixture: --stamp-changed refuses a ref this repository does not hold, rather than comparing against nothing", () => {
+  const { status, out } = run("validate.mjs", ["hu", "--type=website-backend", "--stamp", "--stamp-changed=no-such-ref"]);
+  assert.equal(status, 1, out);
+  assert.match(out, /not a commit this repository holds/);
+});
+
 await test("fixture: coverage reports units and blob coverage, and never gates", () => {
   const { status, out } = run("coverage.mjs", ["all", `--content-repos=${TRACK}:track@HEAD`]);
   assert.equal(status, 0, out);
@@ -1057,7 +1142,9 @@ await test("fixture: coverage reports units and blob coverage, and never gates",
 });
 
 await test("fixture: no-deletions names a removed file and a removed key, and ignores stamp files", () => {
-  const base = commitAll(ROOT, "translations");
+  // Allowed to be empty: the stamping tests above commit the fixture tree, so
+  // there is not always something outstanding to commit here.
+  const base = commitAll(ROOT, "translations", { allowEmpty: true });
   const file = path.join(ROOT, "locales/hu/website/backend.json");
   const tree = JSON.parse(fs.readFileSync(file, "utf8"));
   delete tree.nav.about;
@@ -1214,6 +1301,26 @@ await test("the sweep runs on a schedule, reports whatever its shards did, and q
   assert.equal((text.match(/gh issue create/g) ?? []).length, 1);
   assert.ok(!/gh issue comment/.test(text), "the sweep comments, so a daily run would be a thread");
   assert.ok(!/--label translation/.test(text), "a sweep issue labelled `translation` would reach the queue's machinery");
+});
+
+// A hand edit either stamps itself or fails loudly, and the two halves are in
+// two workflows: one writes, the other reports.
+await test("stamp.yml stamps only what a push wrote, and validate.yml never stamps", () => {
+  const stamp = readWorkflow(WORKFLOWS, "stamp.yml");
+  assert.match(stamp, /^on:\n  push:\n    branches: \[main\]/m, "stamping runs somewhere other than a push to main");
+  assert.match(stamp, /--stamp --stamp-changed="\$BASE"/, "stamp.yml stamps something other than what the push wrote");
+  assert.match(stamp, /^permissions:\n  contents: write$/m);
+  // The app's token would start another run of this workflow with its own
+  // commit. GITHUB_TOKEN cannot, which is what stops it triggering itself.
+  assert.ok(!/create-github-app-token/.test(stamp), "stamp.yml pushes as the app, which retriggers workflows");
+  assert.ok(/grep -v '\\.meta\\.json\$'/.test(stamp), "stamp.yml commits whatever it finds, not only stamps");
+
+  // Comments dropped: the flags a workflow runs with are what matters here,
+  // and both files discuss the ones they do not use.
+  const validate = readWorkflow(WORKFLOWS, "validate.yml").split("\n").filter((line) => !/^\s*#/.test(line)).join("\n");
+  assert.ok(!/--stamp(?![-\w])/.test(validate), "validate.yml writes stamps");
+  assert.match(validate, /--stamp-changed=/, "validate.yml cannot tell a stampable unit from an unstampable one");
+  assert.match(validate, /^permissions:\n  contents: read$/m);
 });
 
 await test("only issues opened by the app are dispatched or replied to", () => {

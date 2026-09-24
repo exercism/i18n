@@ -1,0 +1,180 @@
+# Stamps the translated units a push to main wrote, so that a hand edit either
+# stamps itself or fails loudly, and never lands as text nothing can tie to any
+# English.
+#
+# ## What goes wrong without this
+#
+# Every translated unit carries the git blob id of the English it was checked
+# against, in the catalog's sibling .meta.json. completeness.mjs refuses a unit
+# that has none, because "translated" and "translated from this English" are
+# different claims and only the second one can gate a source repo's PR.
+#
+# A translation pass stamps as it writes, so the only text that arrives
+# unstamped is text a person wrote by hand. Stamping it by hand means running
+# `validate --stamp` with a checkout of exercism/website and the right
+# --source-ref, which is not a reasonable thing to need in order to improve a
+# Hungarian wording. So it was skipped, three times, and each time the failure
+# surfaced hours later as a red check on somebody's pull request in another
+# repo, for a reason that looked nothing like the cause.
+#
+# CI has the English already: validate.yml fetches it on every run. So CI does
+# the stamping.
+#
+# ## Why it stamps only what the push wrote
+#
+# A stamp is a claim that a translation was checked against a particular
+# English. Nobody can make that claim about text whose history is unknown, so
+# stamping every unstamped unit in the tree would be a guess dressed up as a
+# check, which is worse than the gap it closes: a wrong stamp is silent, a
+# missing one is only a delay. The unit a push rewrites is different. Its author
+# wrote it against the English of that moment, which is the English this run
+# resolves, so the diff is the evidence. `validate --stamp-changed=<ref>` reads
+# it, and touches nothing outside it (scripts/lib/catalogs.mjs, "changed
+# units").
+#
+# Three things are therefore never stamped here, whatever else is true of them:
+# a key English does not have (it is not a unit, so there is nothing to hash: it
+# is the "key not in English and never stamped" WARN, and only the source PR
+# that carries that English can stamp it); a unit whose English moved after it
+# was stamped (that is staleness, and only a pass that retranslated the unit may
+# re-stamp it, by naming it in --stamp-units); and a unit with an ERROR of its
+# own.
+#
+# ## On main, not on the branch
+#
+# Stamping on push to main covers every way text arrives: a direct commit,
+# which is how the translation passes and the staff edits land, and a merged
+# pull request, including one from a fork. Pushing a stamp commit to a
+# contributor's branch was the alternative, and it cannot work for a fork: this
+# repo's token has no write access to somebody's fork, and a contributor should
+# not need one. Nothing is asked of them instead. Their pull request reports
+# which units will be stamped when it merges (validate.yml runs the same
+# comparison without --stamp) and stays green.
+#
+# What the pull request does fail on is a unit this cannot stamp, which is what
+# validate.mjs's unstamped ERROR is for. The two halves fit together that way:
+# CI stamps what it can prove, and the error catches the rest, so there is no
+# third case where unstamped text lands quietly.
+#
+# ## The push back
+#
+# GITHUB_TOKEN, deliberately, rather than the Exercism i18n app: a push made
+# with GITHUB_TOKEN starts no further workflow runs, which is what keeps this
+# from triggering itself. The commit adds stamps to locales/**/*.meta.json and
+# nothing else. It removes nothing, so no-deletions has nothing to say about it,
+# and stamp files are exempt there in any case because they are generated.
+#
+# A translation pass can push between this job's checkout and its push. That is
+# a rejected push, not a lost stamp: the job rebases onto the new main and tries
+# again, and if it still cannot, it fails rather than forcing anything. The
+# stamps are recomputable, and the next push recomputes them.
+
+name: Stamp
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "locales/**"
+
+permissions:
+  contents: write
+
+# Two pushes in a row must both be stamped, so a run is never cancelled by the
+# one behind it.
+concurrency:
+  group: stamp-main
+  cancel-in-progress: false
+
+jobs:
+  stamp:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - uses: pnpm/action-setup@v6
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - name: Install
+        run: pnpm install --frozen-lockfile
+
+      # The same fetches validate.yml makes, for the same reason: the English a
+      # unit is stamped against is read from the source repo at main, as git
+      # objects, with no working tree.
+      - name: Fetch English (exercism/website main)
+        run: node scripts/source-checkout.mjs --source=website
+
+      - name: Fetch the repos metadata catalogs translate
+        id: repos
+        run: |
+          set -euo pipefail
+          REPOS=""
+          for name in $(ls locales/*/metadata/*.json 2>/dev/null | grep -v '\.meta\.json$' | xargs -n1 basename 2>/dev/null | sed 's/\.json$//' | sort -u); do
+            [[ "$name" =~ ^[A-Za-z0-9][A-Za-z0-9._-]*$ ]] || continue
+            case "$name" in
+              problem-specifications|docs|blog) node scripts/source-checkout.mjs --source="$name" || continue ;;
+              *) node scripts/source-checkout.mjs --source=track --repo="exercism/$name" || continue ;;
+            esac
+            REPOS="${REPOS:+$REPOS,}.source/$name"
+          done
+          echo "list=$REPOS" >> "$GITHUB_OUTPUT"
+
+      # validate exits 1 when a locale has a gating error, which says nothing
+      # about the stamps it wrote on the way: a unit with an error of its own is
+      # never stamped, and the units that passed are stamped correctly. So the
+      # status is kept and applied at the end, after the stamps are committed.
+      - name: Stamp the units this push wrote
+        id: stamp
+        env:
+          BEFORE: ${{ github.event.before }}
+          CONTENT_REPOS: ${{ steps.repos.outputs.list }}
+        run: |
+          set -uo pipefail
+          BASE="$BEFORE"
+          if [ -z "$BASE" ] || ! git rev-parse --verify --quiet "$BASE^{commit}" > /dev/null; then
+            echo "The pushed range starts at a commit this checkout does not hold, so the push's last commit is used instead."
+            BASE="HEAD^"
+          fi
+          node scripts/validate.mjs all --stamp --stamp-changed="$BASE" ${CONTENT_REPOS:+--content-repos="$CONTENT_REPOS"}
+          echo "status=$?" >> "$GITHUB_OUTPUT"
+
+      - name: Commit the stamps, if there are any
+        run: |
+          set -euo pipefail
+          git add -A -- locales
+          if git diff --cached --quiet; then
+            echo "Every unit this push wrote was already stamped."
+            exit 0
+          fi
+          # validate --stamp writes stamp files and nothing else. Anything else
+          # staged here is a bug in this job, not a stamp, and is not committed.
+          STRAY=$(git diff --cached --name-only | grep -v '\.meta\.json$' || true)
+          if [ -n "$STRAY" ]; then
+            echo "::error::This job wrote files that are not stamps, so nothing was committed:"
+            echo "$STRAY"
+            exit 1
+          fi
+          git diff --cached --name-only
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit --quiet -m "Stamp the translated units ${GITHUB_SHA:0:9} wrote" -m "Each stamp is the git blob id of the English the unit was checked against. Only the units that push wrote were stamped: .github/workflows/stamp.yml says why."
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              echo "Pushed the stamps."
+              exit 0
+            fi
+            echo "main moved while this ran (attempt ${attempt}). Rebasing onto it."
+            git fetch --quiet origin main
+            git rebase origin/main
+          done
+          echo "::error::Could not push the stamps: main keeps moving. Nothing was forced. Re-run this workflow, or stamp locally with: node scripts/validate.mjs all --stamp --stamp-changed=<the pushed range base>"
+          exit 1
+
+      - name: Fail if validate failed
+        run: exit ${{ steps.stamp.outputs.status }}

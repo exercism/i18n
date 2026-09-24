@@ -61,12 +61,14 @@
 //
 // Stamps are written by `validate --stamp`, never by hand. A hand-written stamp
 // looks like a passed check without being one, and models invent plausible
-// hashes.
+// hashes. A translation pass stamps what it wrote as it writes it, and CI
+// stamps what a change wrote when the change lands on main (see "changed
+// units" below, and .github/workflows/stamp.yml).
 
 import fs from "node:fs";
 import path from "node:path";
-import { LOCALES_DIR } from "./constants.mjs";
-import { blobId } from "./git.mjs";
+import { LOCALES_DIR, REPO_ROOT } from "./constants.mjs";
+import { blobId, git, refExists } from "./git.mjs";
 import { CATEGORIES, PLURAL_SPELLING } from "./plurals.mjs";
 
 export const CATALOG_KINDS = ["backend", "frontend"];
@@ -251,6 +253,58 @@ export function readStamps(catalogFile) {
 export function writeStamps(catalogFile, stamps) {
   const sorted = Object.fromEntries(Object.entries(stamps).sort(([a], [b]) => (a < b ? -1 : a > b ? 1 : 0)));
   fs.writeFileSync(metaPath(catalogFile), `${JSON.stringify({ stamps: sorted }, null, 2)}\n`);
+}
+
+// ------------------------------------------------------------ changed units --
+//
+// Which units one change wrote. `validate --stamp-changed=<ref>` stamps only
+// these, so that CI can stamp a hand edit without inventing anything.
+//
+// A stamp says a translation was checked against a particular English. Nobody
+// can say that about text whose history is unknown, so stamping every unstamped
+// unit in the tree would be a guess. The unit a change rewrites is different:
+// its author wrote it against the English of the moment, which is the English
+// the run resolves. So the change itself is the evidence, and the diff is how
+// CI reads it.
+
+/** One catalog as it stood at `ref`, flattened, or null when the ref has no such file. */
+function catalogAtRef(kind, file, ref) {
+  const relative = path.relative(REPO_ROOT, file);
+  // ls-tree first, so a file the ref does not hold is told apart from a git
+  // failure. `git show` reports both as an error.
+  if (git(["ls-tree", "--name-only", ref, "--", relative], REPO_ROOT).trim() === "") return null;
+  return flattenCatalog(kind, JSON.parse(git(["show", `${ref}:${relative}`], REPO_ROOT)));
+}
+
+/**
+ * The flat keys whose translated value this working tree changed since `ref`.
+ *
+ * A catalog the ref does not hold counts as wholly written by the change, which
+ * is what adding a locale or a metadata catalog is. A removed key is left out:
+ * nothing is stamped for text that is no longer there.
+ *
+ * Invalid JSON at either end throws rather than returning a set, because an
+ * unreadable comparison must stop the run and not quietly stamp everything.
+ */
+export function changedCatalogKeys(kind, file, ref) {
+  const now = fs.existsSync(file) ? flattenCatalog(kind, JSON.parse(fs.readFileSync(file, "utf8"))) : {};
+  const before = catalogAtRef(kind, file, ref);
+  if (before === null) return new Set(Object.keys(now));
+  return new Set(Object.keys(now).filter((key) => now[key] !== before[key]));
+}
+
+/**
+ * Did `changed` touch this unit? A plural group is touched when any of the
+ * target's own categories changed, which are not always English's.
+ */
+export function unitTouched(kind, unit, changed) {
+  if (!unit.plural) return changed.has(unit.id);
+  return CATEGORIES.some((category) => changed.has(PLURAL_SPELLING[kind].join(unit.base, category, unit.ordinal)));
+}
+
+/** A `--stamp-changed` ref this repo does not hold is a mistake, never an empty diff. */
+export function assertChangedRef(ref) {
+  if (!refExists(REPO_ROOT, ref)) throw new Error(`--stamp-changed="${ref}" is not a commit this repository holds, so there is nothing to compare against.`);
 }
 
 export const DONE = "done";
