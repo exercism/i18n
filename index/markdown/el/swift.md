@@ -577,7 +577,8 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 ### The 1st Rule of Poetry Club (Ο πρώτος κανόνας της λέσχης ποίησης)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/poetry-club/.docs/instructions.md)): [Latest](../../../locales/el/content/92/47/55bac6400e3b74d39047ea27737535026236.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/poetry-club/.docs/introduction.md)): [Latest](../../../locales/el/content/4a/52/385cc166f34b77e1f45c9f7c4e1613f4cd1a.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/poetry-club/.docs/introduction.md)): [Latest](../../../locales/el/content/06/00/1f82968c3ffd20a3a9438e93cd2f3c2d49b0.md)
+  - [`4a52385cc1`](../../../locales/el/content/4a/52/385cc166f34b77e1f45c9f7c4e1613f4cd1a.md)
   - [`323d4fcc9b`](../../../locales/el/content/32/3d/4fcc9b7952ebce6071b2db6a11de394daea6.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/poetry-club/.docs/hints.md)): [Latest](../../../locales/el/content/a0/a7/68a9aed1d311ae21fb849eaeecc3e203dae5.md)
 
@@ -634,10 +635,10 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 
 ### Classes (Κλάσεις)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/classes/introduction.md)): [Latest](../../../locales/el/content/05/0f/6ed368fbaa87354e7ca89f5a0e6a7a4c2b7f.md)
-  - [`44a969e4d0`](../../../locales/el/content/44/a9/69e4d0c6d8e8b939cc86ee8afe51e17190ff.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/classes/about.md)): [Latest](../../../locales/el/content/0d/42/f9fb56c4f1b38fcb7795fa08c1613bc16ec1.md)
-  - [`44a969e4d0`](../../../locales/el/content/44/a9/69e4d0c6d8e8b939cc86ee8afe51e17190ff.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/classes/introduction.md)): [Latest](../../../locales/el/content/44/a9/69e4d0c6d8e8b939cc86ee8afe51e17190ff.md)
+  - [`050f6ed368`](../../../locales/el/content/05/0f/6ed368fbaa87354e7ca89f5a0e6a7a4c2b7f.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/classes/about.md)): [Latest](../../../locales/el/content/44/a9/69e4d0c6d8e8b939cc86ee8afe51e17190ff.md)
+  - [`0d42f9fb56`](../../../locales/el/content/0d/42/f9fb56c4f1b38fcb7795fa08c1613bc16ec1.md)
 
 ### Closures (Κλεισίματα)
 
@@ -701,8 +702,10 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 
 ### Importing (Εισαγωγή)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/importing/introduction.md)): [Latest](../../../locales/el/content/13/1e/05eb0ffac54c8c93102fdb05f4f85d419cde.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/importing/about.md)): [Latest](../../../locales/el/content/6d/0e/44e0c9f3b1b087efc52e8345bed7da2381f0.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/importing/introduction.md)): [Latest](../../../locales/el/content/c6/df/ebbfab86eb6f61ffe21d36c89a33cd2c8884.md)
+  - [`131e05eb0f`](../../../locales/el/content/13/1e/05eb0ffac54c8c93102fdb05f4f85d419cde.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/importing/about.md)): [Latest](../../../locales/el/content/f6/21/0dd23f3ce0440f857242cebf2b763e8f4836.md)
+  - [`6d0e44e0c9`](../../../locales/el/content/6d/0e/44e0c9f3b1b087efc52e8345bed7da2381f0.md)
 
 ### Initializers (Αρχικοποιητές)
 
