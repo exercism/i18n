@@ -744,10 +744,10 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 
 ### Multiple Return Values (Valeurs de retour multiples)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/multiple-return-values/introduction.md)): [Latest](../../../locales/fr/content/56/93/72460742ff706a400dad0074dac02dca1eb1.md)
-  - [`4d008ea203`](../../../locales/fr/content/4d/00/8ea203586ba91202e29926eea661aa93b223.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/multiple-return-values/about.md)): [Latest](../../../locales/fr/content/d0/84/251577cdeea5b542a50ab98beb49fbecf1d3.md)
-  - [`57baacdd52`](../../../locales/fr/content/57/ba/acdd52876f0791a4c02ec082bd79b18ed59c.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/multiple-return-values/introduction.md)): [Latest](../../../locales/fr/content/4d/00/8ea203586ba91202e29926eea661aa93b223.md)
+  - [`5693724607`](../../../locales/fr/content/56/93/72460742ff706a400dad0074dac02dca1eb1.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/multiple-return-values/about.md)): [Latest](../../../locales/fr/content/57/ba/acdd52876f0791a4c02ec082bd79b18ed59c.md)
+  - [`d084251577`](../../../locales/fr/content/d0/84/251577cdeea5b542a50ab98beb49fbecf1d3.md)
 
 ### Nested Functions (Fonctions imbriquées)
 
@@ -805,8 +805,10 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 
 ### Stored Properties (Propriétés stockées)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/stored-properties/introduction.md)): [Latest](../../../locales/fr/content/76/a3/f985860dd9f64f05be80c8b0d1f847d44ee8.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/stored-properties/about.md)): [Latest](../../../locales/fr/content/76/a3/f985860dd9f64f05be80c8b0d1f847d44ee8.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/stored-properties/introduction.md)): [Latest](../../../locales/fr/content/1d/9b/a634dfa57856f9a98e693936825b7bf64146.md)
+  - [`76a3f98586`](../../../locales/fr/content/76/a3/f985860dd9f64f05be80c8b0d1f847d44ee8.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/stored-properties/about.md)): [Latest](../../../locales/fr/content/e2/d7/82e0b6080e45eb6f7d29d58ad5a5885b9415.md)
+  - [`76a3f98586`](../../../locales/fr/content/76/a3/f985860dd9f64f05be80c8b0d1f847d44ee8.md)
 
 ### String Indexing (Indices des \_strings\_)
 
