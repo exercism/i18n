@@ -12,9 +12,14 @@ This page is generated from [the index](../../json/fr/gdscript.json) by `scripts
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/allergies/.docs/instructions.md)): [Latest](../../../locales/fr/content/da/f8/cfde214667c949800c801fafecaa053efa0e.md)
 
+### Anagram (Anagramme)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/anagram/.docs/instructions.md)): [Latest](../../../locales/fr/content/7d/1c/8283ef9284e827fabb92d8ae88f0cc8428b1.md)
+
 ### Atbash Cipher (Chiffrement Atbash)
 
-- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/atbash-cipher/.docs/instructions.md)): [Latest](../../../locales/fr/content/1e/76/27b1e5989878f0f1bf735feb1300de7a2664.md)
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/atbash-cipher/.docs/instructions.md)): [Latest](../../../locales/fr/content/21/ca/2ce0aa806b97f21182196eebe554c4b984ef.md)
+  - [`1e7627b1e5`](../../../locales/fr/content/1e/76/27b1e5989878f0f1bf735feb1300de7a2664.md)
 
 ### Binary Search (Recherche binaire)
 
@@ -28,11 +33,13 @@ This page is generated from [the index](../../json/fr/gdscript.json) by `scripts
 ### Eliud's Eggs (Les œufs d'Eliud)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/eliuds-eggs/.docs/instructions.md)): [Latest](../../../locales/fr/content/b0/c2/df593c0c15f1f94dfc13bddacffd6b0f5ddc.md)
-- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/eliuds-eggs/.docs/introduction.md)): [Latest](../../../locales/fr/content/2b/2e/5c43d8b2546885ba33bb6c3c8bdc88e3b0dc.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/eliuds-eggs/.docs/introduction.md)): [Latest](../../../locales/fr/content/49/ea/ffd8bc357c737e30533d0b97dce321657843.md)
+  - [`2b2e5c43d8`](../../../locales/fr/content/2b/2e/5c43d8b2546885ba33bb6c3c8bdc88e3b0dc.md)
 
 ### Flatten Array (Aplatis un tableau)
 
-- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/flatten-array/.docs/instructions.md)): [Latest](../../../locales/fr/content/b5/b8/2713d928a59e350e468d35c4ee92d49316cf.md)
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/flatten-array/.docs/instructions.md)): [Latest](../../../locales/fr/content/51/be/a67909f879fe54d8ec2ee70c146ee6ba8f61.md)
+  - [`b5b82713d9`](../../../locales/fr/content/b5/b8/2713d928a59e350e468d35c4ee92d49316cf.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/flatten-array/.docs/introduction.md)): [Latest](../../../locales/fr/content/a3/14/857465e75cc95c88b634ddd355f7393888ad.md)
 
 ### Hello World
@@ -50,17 +57,20 @@ This page is generated from [the index](../../json/fr/gdscript.json) by `scripts
 
 ### Luhn
 
-- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/luhn/.docs/instructions.md)): [Latest](../../../locales/fr/content/77/02/c6bbb5f849683e3074163e48ce1154ad2957.md)
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/luhn/.docs/instructions.md)): [Latest](../../../locales/fr/content/8c/be/791fc23118f7b852fd0072136884cfea81e3.md)
+  - [`7702c6bbb5`](../../../locales/fr/content/77/02/c6bbb5f849683e3074163e48ce1154ad2957.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/luhn/.docs/introduction.md)): [Latest](../../../locales/fr/content/de/e4/8006eddee9458a5414ddc96c4b9d2fc9109f.md)
 
 ### Pangram (Pangramme)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/fr/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
-- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/pangram/.docs/introduction.md)): [Latest](../../../locales/fr/content/32/b6/f1fc3178c36f2677b2d7bbeb35bafd6c786d.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/pangram/.docs/introduction.md)): [Latest](../../../locales/fr/content/d3/8f/a341dfabb9408653c7914552fbd5554c06c1.md)
+  - [`32b6f1fc31`](../../../locales/fr/content/32/b6/f1fc3178c36f2677b2d7bbeb35bafd6c786d.md)
 
 ### Raindrops (Gouttes de pluie)
 
-- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/raindrops/.docs/instructions.md)): [Latest](../../../locales/fr/content/df/64/41075165afbe92ecc878d674f6861777972d.md)
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/raindrops/.docs/instructions.md)): [Latest](../../../locales/fr/content/fc/61/d36e99be48d2d41ea1616c32e5938be9b46e.md)
+  - [`df64410751`](../../../locales/fr/content/df/64/41075165afbe92ecc878d674f6861777972d.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/raindrops/.docs/introduction.md)): [Latest](../../../locales/fr/content/ba/12/100f3b87d51b814910614974e4923fbe5a6e.md)
 
 ### Resistor Color (Couleur de résistance)
@@ -82,7 +92,8 @@ This page is generated from [the index](../../json/fr/gdscript.json) by `scripts
 
 ### Reverse String (Inverse une chaîne de caractères)
 
-- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/reverse-string/.docs/instructions.md)): [Latest](../../../locales/fr/content/0f/f4/198e46ef06331339f8a44292d7e287bdeeec.md)
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/reverse-string/.docs/instructions.md)): [Latest](../../../locales/fr/content/03/9e/e33ae5810838b279d60679d8f995ca286fb7.md)
+  - [`0ff4198e46`](../../../locales/fr/content/0f/f4/198e46ef06331339f8a44292d7e287bdeeec.md)
 - `instructions.append.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/reverse-string/.docs/instructions.append.md)): [Latest](../../../locales/fr/content/73/cd/bb6d193818766f94c10e9074f5a6dc5fe625.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/reverse-string/.docs/introduction.md)): [Latest](../../../locales/fr/content/02/23/3e0755e8aa76ba1fa8d6f7f05ae17ff9cc70.md)
 
@@ -96,41 +107,50 @@ This page is generated from [the index](../../json/fr/gdscript.json) by `scripts
 
 ### Space Age (Ère spatiale)
 
-- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/space-age/.docs/instructions.md)): [Latest](../../../locales/fr/content/f2/3b/5e2c1fee01d8283d5399594d9324bd35e2f4.md)
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/space-age/.docs/instructions.md)): [Latest](../../../locales/fr/content/fe/93/8cc09e11c1849b32719ef1ac955c7d7aebd3.md)
+  - [`f23b5e2c1f`](../../../locales/fr/content/f2/3b/5e2c1fee01d8283d5399594d9324bd35e2f4.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/space-age/.docs/introduction.md)): [Latest](../../../locales/fr/content/01/4d/78857c784d435eefd1b428aab209c2f2d7b1.md)
 
 ### Spiral Matrix (Matrice en spirale)
 
-- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/spiral-matrix/.docs/instructions.md)): [Latest](../../../locales/fr/content/01/e8/a77f808ebf669389df96d5a86ae06cc23f69.md)
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/spiral-matrix/.docs/instructions.md)): [Latest](../../../locales/fr/content/ba/99/e12c731bf4221eef18777ed67a6d134cd2b9.md)
+  - [`01e8a77f80`](../../../locales/fr/content/01/e8/a77f808ebf669389df96d5a86ae06cc23f69.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/spiral-matrix/.docs/introduction.md)): [Latest](../../../locales/fr/content/25/c7/eb595aa020e15f2317920415f225d0ba476f.md)
 
-### Triangle
+### triangle (Triangle)
 
-- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/fr/content/e9/b0/53dcd344e85179041c10dcd48406d735b2f9.md)
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/fr/content/ac/39/008726d5472b99e1aee556219eadca7fc49d.md)
+  - [`e9b053dcd3`](../../../locales/fr/content/e9/b0/53dcd344e85179041c10dcd48406d735b2f9.md)
 
 ### Two Fer
 
-- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/two-fer/.docs/instructions.md)): [Latest](../../../locales/fr/content/ad/c5/3487981faa7797e5099ff92acffd3df180be.md)
-- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/two-fer/.docs/introduction.md)): [Latest](../../../locales/fr/content/59/47/a2230bd8a36f4e653ca80f726386df06ccee.md)
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/two-fer/.docs/instructions.md)): [Latest](../../../locales/fr/content/37/aa/75297ea593a8ba8215ab2fa075cb87fb6dc9.md)
+  - [`adc5348798`](../../../locales/fr/content/ad/c5/3487981faa7797e5099ff92acffd3df180be.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/two-fer/.docs/introduction.md)): [Latest](../../../locales/fr/content/8c/12/4394aacf423f3aba704a131aadeec3a98d12.md)
+  - [`5947a2230b`](../../../locales/fr/content/59/47/a2230bd8a36f4e653ca80f726386df06ccee.md)
 
 ## Track docs
 
 ### ABOUT.md
 
-- `ABOUT.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/ABOUT.md)): [Latest](../../../locales/fr/content/7e/f4/90acc4c3ba3df784aac8b6f84df60e62ad64.md)
+- `ABOUT.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/ABOUT.md)): [Latest](../../../locales/fr/content/98/64/ed00303fd196319f4058cddc6994eaed0a14.md)
+  - [`7ef490acc4`](../../../locales/fr/content/7e/f4/90acc4c3ba3df784aac8b6f84df60e62ad64.md)
 
 ### How to learn GDScript (Comment apprendre GDScript)
 
-- `LEARNING.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/LEARNING.md)): [Latest](../../../locales/fr/content/8b/41/52022fa497c704650fa3031e9872be2f1413.md)
+- `LEARNING.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/LEARNING.md)): [Latest](../../../locales/fr/content/b1/44/34dc01362de2abac1b97d0cc6b759d3a2c8b.md)
+  - [`8b4152022f`](../../../locales/fr/content/8b/41/52022fa497c704650fa3031e9872be2f1413.md)
 
 ### Installing GDScript locally (Installer GDScript en local)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/fr/content/43/5c/67e3c0809614be9bfc28abaa223f1c9ad166.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/fr/content/cd/6c/e8521d1baba7dc72cdaf56a8a9eb3cb23882.md)
+  - [`435c67e3c0`](../../../locales/fr/content/43/5c/67e3c0809614be9bfc28abaa223f1c9ad166.md)
   - [`bc2f38a184`](../../../locales/fr/content/bc/2f/38a184cd5edd21df356dfd78764a7a232520.md)
 
 ### Testing on the GDScript track (Tester sur le parcours GDScript)
 
-- `TESTS.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/TESTS.md)): [Latest](../../../locales/fr/content/a5/22/f64d386d862ae55a118074261dc4a9b47e6f.md)
+- `TESTS.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/TESTS.md)): [Latest](../../../locales/fr/content/be/c9/502b8987111c0315223e21e299485767937f.md)
+  - [`a522f64d38`](../../../locales/fr/content/a5/22/f64d386d862ae55a118074261dc4a9b47e6f.md)
   - [`5ff4b1db45`](../../../locales/fr/content/5f/f4/b1db4517e481e4740ebf7d8fe4970dca4612.md)
 
 ### Useful GDScript resources (Ressources utiles pour GDScript)
@@ -141,8 +161,10 @@ This page is generated from [the index](../../json/fr/gdscript.json) by `scripts
 
 ### help.md
 
-- `help.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/shared/.docs/help.md)): [Latest](../../../locales/fr/content/47/aa/aad6b6f19e63b85a033d622aa9de65240654.md)
+- `help.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/shared/.docs/help.md)): [Latest](../../../locales/fr/content/45/aa/2d6411fe5d62666ad52d0981ca77f05503cd.md)
+  - [`47aaaad6b6`](../../../locales/fr/content/47/aa/aad6b6f19e63b85a033d622aa9de65240654.md)
 
 ### tests.md
 
-- `tests.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/fr/content/a1/5b/fbfd981fb1d7f27ff2b7d36650be1e1e2b11.md)
+- `tests.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/fr/content/1f/19/7bf7fc362ce77b023b134ec9d0b7d18a16e0.md)
+  - [`a15bfbfd98`](../../../locales/fr/content/a1/5b/fbfd981fb1d7f27ff2b7d36650be1e1e2b11.md)

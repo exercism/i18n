@@ -86,5 +86,8 @@
   "doc:tests:title": "Δοκιμές στη διαδρομή GDScript",
   "doc:tests:blurb": "Μάθε πώς να δοκιμάζεις τις ασκήσεις σου σε GDScript στο Exercism",
   "doc:resources:title": "Χρήσιμοι πόροι για την GDScript",
-  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων για να σε βοηθήσουν να κατακτήσεις την GDScript"
+  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων για να σε βοηθήσουν να κατακτήσεις την GDScript",
+  "exercise:anagram:name": "Ανάγραμμα",
+  "exercise:anagram:blurb": "Με δεδομένη μια λέξη και μια λίστα πιθανών αναγραμματισμών, επίλεξε τη σωστή υπολίστα.",
+  "exercise:anagram:source": "Εμπνευσμένο από το παιχνίδι Extreme Startup"
 }

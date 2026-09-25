@@ -86,5 +86,8 @@
   "doc:tests:title": "Tesztelés a GDScript kurzuson",
   "doc:tests:blurb": "Tanuld meg, hogyan teszteld a GDScript feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos források GDScripthez",
-  "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a GDScript-et"
+  "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a GDScript-et",
+  "exercise:anagram:name": "Anagramma",
+  "exercise:anagram:blurb": "Egy szó és a lehetséges anagrammák listája alapján válaszd ki a helyes részlistát.",
+  "exercise:anagram:source": "Az Extreme Startup játék ihlette"
 }

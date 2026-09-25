@@ -86,5 +86,8 @@
   "doc:tests:title": "Тестування на треку GDScript",
   "doc:tests:blurb": "Дізнайтеся, як тестувати свої вправи з GDScript на Exercism",
   "doc:resources:title": "Корисні ресурси з GDScript",
-  "doc:resources:blurb": "Добірка корисних ресурсів, які допоможуть опанувати GDScript"
+  "doc:resources:blurb": "Добірка корисних ресурсів, які допоможуть опанувати GDScript",
+  "exercise:anagram:name": "Анаграма",
+  "exercise:anagram:blurb": "Маючи слово та масив можливих анаграм, виберіть правильний підмасив.",
+  "exercise:anagram:source": "За мотивами гри Extreme Startup"
 }
