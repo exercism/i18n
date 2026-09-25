@@ -56,7 +56,7 @@
   "exercise:isogram:blurb": "Déterminer si une phrase est un isogramme, un mot où aucune lettre ne se répète.",
   "exercise:isogram:source": "Wikipedia",
   "exercise:leap:blurb": "Détermine si une année donnée est bissextile.",
-  "exercise:leap:source": "CodeRanch Cattle Drive, Assignment 3",
+  "exercise:leap:source": "CodeRanch Cattle Drive, exercice 3",
   "exercise:matching-brackets:blurb": "Vérifie que toutes les parenthèses et les accolades correspondent.",
   "exercise:matching-brackets:source": "Ginna Baker",
   "exercise:pangram:blurb": "Détermine si une phrase utilise toutes les lettres de l'alphabet latin.",

@@ -83,7 +83,7 @@
   "exercise:hello-world:blurb": "L'exercice d'introduction classique d'Exercism. Dis simplement « Hello, World! ».",
   "exercise:hello-world:source": "Il s'agit d'un exercice pour initier les utilisateurs à Exercism.",
   "exercise:leap:blurb": "Détermine si une année donnée est bissextile.",
-  "exercise:leap:source": "CodeRanch Cattle Drive, Assignment 3",
+  "exercise:leap:source": "CodeRanch Cattle Drive, exercice 3",
   "exercise:matching-brackets:blurb": "Vérifie que toutes les parenthèses et les accolades correspondent.",
   "exercise:matching-brackets:source": "Ginna Baker",
   "exercise:nucleotide-count:blurb": "À partir d'une chaîne d'ADN, calcule combien de fois chaque nucléotide apparaît dans la chaîne.",

@@ -68,7 +68,7 @@
   "exercise:hello-world:blurb": "Η κλασική εισαγωγική άσκηση του Exercism. Απλώς πες \"Hello, World!\".",
   "exercise:hello-world:source": "Πρόκειται για μια άσκηση που μυεί τους χρήστες στη χρήση του Exercism",
   "exercise:leap:blurb": "Προσδιόρισε αν ένα δεδομένο έτος είναι δίσεκτο.",
-  "exercise:leap:source": "CodeRanch Cattle Drive, Assignment 3",
+  "exercise:leap:source": "CodeRanch Cattle Drive, άσκηση 3",
   "exercise:armstrong-numbers:blurb": "Προσδιόρισε αν ένας αριθμός είναι αριθμός Armstrong.",
   "exercise:armstrong-numbers:source": "Wikipedia",
   "exercise:darts:blurb": "Υπολόγισε τους πόντους σε μία ρίψη ενός παιχνιδιού βελάκια.",

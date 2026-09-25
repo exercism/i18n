@@ -34,7 +34,7 @@
   "exercise:hello-world:blurb": "Η κλασική εισαγωγική άσκηση του Exercism. Απλώς πες \"Hello, World!\".",
   "exercise:hello-world:source": "Πρόκειται για μια άσκηση που μυεί τους χρήστες στη χρήση του Exercism",
   "exercise:leap:blurb": "Προσδιόρισε αν ένα δεδομένο έτος είναι δίσεκτο.",
-  "exercise:leap:source": "CodeRanch Cattle Drive, Assignment 3",
+  "exercise:leap:source": "CodeRanch Cattle Drive, άσκηση 3",
   "exercise:resistor-color:blurb": "Μετέτρεψε το χρώμα μιας λωρίδας αντίστασης στην αριθμητική του αναπαράσταση.",
   "exercise:resistor-color:source": "Maud de Vries, Erik Schierboom",
   "exercise:two-fer:blurb": "Δημιούργησε μια πρόταση της μορφής \"One for X, one for me.\".",

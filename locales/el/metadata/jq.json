@@ -111,7 +111,7 @@
   "exercise:kindergarten-garden:blurb": "Δεδομένου ενός διαγράμματος, προσδιόρισε για ποια φυτά είναι υπεύθυνο κάθε παιδί στην τάξη του νηπιαγωγείου.",
   "exercise:kindergarten-garden:source": "Άσκηση από την ομάδα JumpstartLab για τους σπουδαστές του The Turing School of Software and Design.",
   "exercise:leap:blurb": "Προσδιόρισε αν ένα δεδομένο έτος είναι δίσεκτο.",
-  "exercise:leap:source": "CodeRanch Cattle Drive, Assignment 3",
+  "exercise:leap:source": "CodeRanch Cattle Drive, άσκηση 3",
   "exercise:nucleotide-count:blurb": "Με δεδομένη μια συμβολοσειρά DNA, υπολόγισε πόσες φορές εμφανίζεται κάθε νουκλεοτίδιο στη συμβολοσειρά.",
   "exercise:nucleotide-count:source": "Το πρόβλημα Counting DNA Nucleotides στο Rosalind",
   "exercise:pangram:blurb": "Προσδιόρισε αν μια φράση χρησιμοποιεί κάθε γράμμα του λατινικού αλφαβήτου.",

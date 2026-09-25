@@ -68,7 +68,7 @@
   "exercise:hello-world:blurb": "L'exercice d'introduction classique d'Exercism. Dis simplement « Hello, World! ».",
   "exercise:hello-world:source": "Il s'agit d'un exercice pour initier les utilisateurs à Exercism.",
   "exercise:leap:blurb": "Détermine si une année donnée est bissextile.",
-  "exercise:leap:source": "CodeRanch Cattle Drive, Assignment 3",
+  "exercise:leap:source": "CodeRanch Cattle Drive, exercice 3",
   "exercise:armstrong-numbers:blurb": "Détermine si un nombre est un nombre d'Armstrong.",
   "exercise:armstrong-numbers:source": "Wikipedia",
   "exercise:darts:blurb": "Calcule les points marqués lors d'un lancer dans une partie de fléchettes.",

@@ -14,7 +14,7 @@
   "exercise:raindrops:blurb": "Convertis un nombre en sons de gouttes de pluie correspondants : Pling, Plang et Plong.",
   "exercise:raindrops:source": "Une variante de FizzBuzz, une célèbre question d'entretien technique destinée à écarter les candidats potentiels. Cette question est elle-même dérivée de Fizz Buzz, un jeu pour enfants populaire pour enseigner la division.",
   "exercise:leap:blurb": "Détermine si une année donnée est bissextile.",
-  "exercise:leap:source": "CodeRanch Cattle Drive, Assignment 3",
+  "exercise:leap:source": "CodeRanch Cattle Drive, exercice 3",
   "exercise:acronym:blurb": "Convertis une longue phrase en son acronyme.",
   "exercise:acronym:source": "Julien Vanier",
   "track:blurb": "SNOBOL4, ce sont deux langages en un : un langage de motifs inégalé, et un langage de script doté d'une structure de contrôle unique.",
