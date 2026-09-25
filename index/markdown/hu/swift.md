@@ -723,10 +723,10 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 
 ### Capturing (Elkapás)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/capturing/introduction.md)): [Latest](../../../locales/hu/content/89/28/fafa03af6ff6bb571d2c7d0a50ed0656af27.md)
-  - [`fcf4dd0598`](../../../locales/hu/content/fc/f4/dd0598e67751199d0cc5019206fe49562358.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/capturing/about.md)): [Latest](../../../locales/hu/content/a3/ee/57a5fb146433a3ab2f8ed897a7fa049b2de9.md)
-  - [`f4609d053d`](../../../locales/hu/content/f4/60/9d053d9c3c5523c2d5028dd59b54f32bba5a.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/capturing/introduction.md)): [Latest](../../../locales/hu/content/fc/f4/dd0598e67751199d0cc5019206fe49562358.md)
+  - [`8928fafa03`](../../../locales/hu/content/89/28/fafa03af6ff6bb571d2c7d0a50ed0656af27.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/capturing/about.md)): [Latest](../../../locales/hu/content/f4/60/9d053d9c3c5523c2d5028dd59b54f32bba5a.md)
+  - [`a3ee57a5fb`](../../../locales/hu/content/a3/ee/57a5fb146433a3ab2f8ed897a7fa049b2de9.md)
 
 ### Characters and Strings (Karakterek és stringek)
 
@@ -821,8 +821,10 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 
 ### Loops (Ciklusok)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/loops/introduction.md)): [Latest](../../../locales/hu/content/2f/8f/8889353459fa4637e93e2ebd64855fdaa4c1.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/loops/about.md)): [Latest](../../../locales/hu/content/5c/93/a7a3e81eb9010973c2544380e105b8d7b055.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/loops/introduction.md)): [Latest](../../../locales/hu/content/1e/4c/9757ee1fd0767071fa5db0d581496a60110e.md)
+  - [`2f8f888935`](../../../locales/hu/content/2f/8f/8889353459fa4637e93e2ebd64855fdaa4c1.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/loops/about.md)): [Latest](../../../locales/hu/content/1e/4c/9757ee1fd0767071fa5db0d581496a60110e.md)
+  - [`5c93a7a3e8`](../../../locales/hu/content/5c/93/a7a3e81eb9010973c2544380e105b8d7b055.md)
 
 ### Methods (Metódusok)
 
