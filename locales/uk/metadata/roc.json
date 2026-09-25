@@ -389,5 +389,8 @@
   "exercise:linked-list:source": "Класична тема з інформатики",
   "exercise:baffling-birthdays:name": "Незбагненні дні народження",
   "exercise:baffling-birthdays:blurb": "Оцініть імовірності парадоксу днів народження.",
-  "exercise:baffling-birthdays:source": "Erik Schierboom"
+  "exercise:baffling-birthdays:source": "Erik Schierboom",
+  "exercise:book-store:name": "Книгарня",
+  "exercise:book-store:blurb": "Щоб заохотити продажі різних книжок із популярної серії з пʼяти книг, книгарня вирішила давати знижки на купівлю кількох книжок одночасно.",
+  "exercise:book-store:source": "За мотивами ката harry potter із Cyber-Dojo."
 }

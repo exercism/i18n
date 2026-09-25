@@ -389,5 +389,8 @@
   "exercise:linked-list:source": "Κλασικό θέμα επιστήμης υπολογιστών",
   "exercise:baffling-birthdays:name": "Μπερδεμένα Γενέθλια",
   "exercise:baffling-birthdays:blurb": "Εκτίμησε τις πιθανότητες του παράδοξου των γενεθλίων.",
-  "exercise:baffling-birthdays:source": "Erik Schierboom"
+  "exercise:baffling-birthdays:source": "Erik Schierboom",
+  "exercise:book-store:name": "Βιβλιοπωλείο",
+  "exercise:book-store:blurb": "Για να ενθαρρύνει περισσότερες πωλήσεις διαφορετικών βιβλίων από μια δημοφιλή σειρά 5 βιβλίων, ένα βιβλιοπωλείο αποφάσισε να προσφέρει εκπτώσεις σε αγορές πολλών βιβλίων.",
+  "exercise:book-store:source": "Εμπνευσμένο από το harry potter kata από το Cyber-Dojo."
 }
