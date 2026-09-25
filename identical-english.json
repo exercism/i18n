@@ -1,0 +1,39 @@
+{
+  "$comment": [
+    "English strings a translation deliberately leaves as they are.",
+    "",
+    "Each entry is keyed by the git blob id of the English string, which is what",
+    "the staleness stamps use too. Edit the English and it has a new id, this",
+    "entry stops matching, and validate reports the string again.",
+    "",
+    "An entry covers every locale unless it lists `locales`. Add one with",
+    "scripts/allow-identical.mjs, never by hand: the script computes the id from",
+    "the text, and validate stops the run if an id and its text disagree."
+  ],
+  "allowed": {
+    "b2050cfa40813d79e374377c28a4ff744edddedc": {
+      "text": "Maud de Vries, Erik Schierboom",
+      "reason": "Attribution: the two people who wrote the exercise, shared by resistor-color, resistor-color-duo and resistor-color-trio.",
+      "added": "2026-09-24",
+      "by": "iHiD"
+    },
+    "bcbf234921b229b5bf245b9da40cf2822972bdf7": {
+      "text": "Christian Willner, Eric Willigers",
+      "reason": "Attribution: the two people who wrote the exercise. A name is the same in every language.",
+      "added": "2026-09-24",
+      "by": "iHiD"
+    },
+    "d4e4a75736ba581857fa1597f32641dacd1ab5bb": {
+      "text": "Simon Shine, Erik Schierboom",
+      "reason": "Attribution: the two people who wrote the exercise.",
+      "added": "2026-09-24",
+      "by": "iHiD"
+    },
+    "f9bbd71d7014fa5c6453a08170933c4c936981e9": {
+      "text": "Software Craftsmanship - Coin Change Kata",
+      "reason": "The title of the kata the exercise comes from, which is the name it is known by.",
+      "added": "2026-09-24",
+      "by": "iHiD"
+    }
+  }
+}

@@ -27,6 +27,13 @@
 // calls for a person to read, and never fail the run. Do not turn a WARN into
 // an ERROR. scripts/lib/checks.mjs lists the level of every check and why.
 //
+// A warning a person cannot read is a warning nobody reads, so the
+// byte-identical warnings are not printed against each catalog. They are
+// grouped by the English string into a block at the end of the run, and a
+// string signed off in identical-english.json is counted there and not printed.
+// scripts/lib/identical.mjs holds both halves and the reasoning. `--json` still
+// carries every occurrence.
+//
 // ## Only production locales gate
 //
 // Every locale in scope is checked, printed and counted, but only errors in a
@@ -126,6 +133,7 @@ import { CATALOG_TYPE_IDS, CONTENT_EXTENSIONS, CONTENT_TYPE_ID } from "./lib/con
 import { listContentFiles } from "./lib/content-store.mjs";
 import { METADATA_KIND, METADATA_REPO_KINDS, METADATA_TYPE_ID, buildMetadataEnglish, heldMetadataRepos, metadataPath } from "./lib/metadata.mjs";
 import { ERROR, WARN, checkCatalog, checkContentFile } from "./lib/checks.mjs";
+import { loadAllowlist, renderIdentical, summariseIdentical } from "./lib/identical.mjs";
 
 function parseStampUnits(value) {
   if (typeof value !== "string") return new Set();
@@ -356,21 +364,41 @@ async function main() {
     if (types.includes(CONTENT_TYPE_ID)) results.push(validateContent({ locale, contentRepos }));
   }
 
+  // Grouped and signed off before anything is printed, so the per-catalog
+  // lines, the status letters and the totals all mean the same thing: what a
+  // person is being asked to read.
+  const identical = summariseIdentical(results, loadAllowlist());
+  const shownIdentical = new Set(identical.groups.map((group) => `${group.locale}\u0000${group.id}`));
+
   const totals = { production: { errors: 0, warnings: 0 }, other: { errors: 0, warnings: 0 } };
   for (const result of results) {
     const errors = result.issues.filter((found) => found.level === ERROR);
-    const warnings = result.issues.filter((found) => found.level === WARN);
+    const warnings = result.issues.filter((found) => found.level === WARN && !found.identical);
     const bucket = PRODUCTION_LOCALES.includes(result.locale) ? totals.production : totals.other;
     bucket.errors += errors.length;
     bucket.warnings += warnings.length;
 
-    const status = errors.length > 0 ? "FAIL" : result.absent ? "miss" : result.unverified ? "unv" : warnings.length > 0 ? "warn" : "ok";
+    const grouped = result.issues.some((found) => found.identical && shownIdentical.has(`${result.locale}\u0000${found.identical.id}`));
+    const status = errors.length > 0 ? "FAIL" : result.absent ? "miss" : result.unverified ? "unv" : warnings.length > 0 || grouped ? "warn" : "ok";
     const counts = Object.entries(result.counts).map(([name, value]) => `${name} ${value}`).join(", ");
     console.log(`${status.padEnd(4)} ${result.locale.padEnd(7)} ${result.type.padEnd(16)} ${counts}${result.stamped ? `, stamped ${result.stamped}` : ""}`);
     for (const found of [...errors, ...warnings]) console.log(`       ${found.level.padEnd(5)} ${found.message}`);
   }
 
-  if (typeof flags.json === "string") fs.writeFileSync(path.resolve(flags.json), `${JSON.stringify({ results, totals }, null, 2)}\n`);
+  // An entry that matches nothing is a defect, but only a run that covered
+  // every locale and every type has been shown anything about it.
+  const wholeRun = scope === "all" && typeof flags.type !== "string";
+  for (const line of renderIdentical(identical, { reportUnmatched: wholeRun })) console.log(line);
+  for (const group of identical.groups) {
+    const bucket = PRODUCTION_LOCALES.includes(group.locale) ? totals.production : totals.other;
+    bucket.warnings += 1;
+  }
+
+  if (typeof flags.json === "string") {
+    const plain = (group) => ({ ...group, units: [...group.units], catalogs: [...group.catalogs] });
+    const report = { results, totals, identical: { ...identical, groups: identical.groups.map(plain), allowed: identical.allowed.map(plain) } };
+    fs.writeFileSync(path.resolve(flags.json), `${JSON.stringify(report, null, 2)}\n`);
+  }
 
   const gating = totals.production.errors + (gateAll || complete ? totals.other.errors : 0);
   console.log(
