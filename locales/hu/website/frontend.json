@@ -865,7 +865,14 @@
     "trackSummary.velocityExplanation": "Ez azt méri, hogy milyen gyorsan haladtál végig a kurzuson az elmúlt 6 hónapban",
     "learningOverview.youReThroughSingle": "A csatlakozott kurzusod <em>{{percentage}}%</em> részén már túl vagy. <strong>Csak így tovább!</strong>",
     "learningOverview.youReThroughMultiple": "A csatlakozott kurzusaid <em>{{percentage}}%</em> részén már túl vagy. <strong>Csak így tovább!</strong>",
-    "learningOverview.exercisesCompleted": "{{completed}} / {{total}} feladat teljesítve"
+    "learningOverview.exercisesCompleted": "{{completed}} / {{total}} feladat teljesítve",
+    "trackSummary.mentoringInProgress_one": "<strong>{{count}} mentorálási beszélgetésed</strong> van folyamatban.",
+    "trackSummary.mentoringInProgress_other": "<strong>{{count}} mentorálási beszélgetésed</strong> van folyamatban.",
+    "trackSummary.mentoringQueued_one": "<strong>{{count}} megoldásod</strong> van a mentorálási sorban.",
+    "trackSummary.mentoringQueued_other": "<strong>{{count}} megoldásod</strong> van a mentorálási sorban.",
+    "trackSummary.period.last_12_months": "Elmúlt 12 hónap",
+    "trackSummary.period.last_10_weeks": "Elmúlt 10 hét",
+    "trackSummary.period.last_14_days": "Elmúlt 14 nap"
   },
   "components/mentoring/representation/right-pane": {
     "utilityTabs.information": "Információ",
@@ -1650,7 +1657,33 @@
     "totalReputation.reputation": "reputáció",
     "trackSelect.rep": "rep",
     "categorySummary.noRep": "Nincs rep",
-    "categorySummary.rep": "{{reputation}} rep"
+    "categorySummary.rep": "{{reputation}} rep",
+    "category.publishing": "Közzététel",
+    "category.mentoring": "Mentorálás",
+    "category.authoring": "Szerzői munka",
+    "category.building": "Építés",
+    "category.maintaining": "Karbantartás",
+    "category.other": "Egyéb",
+    "metricFull.publishing_one": "{{count}} közzétett megoldás",
+    "metricFull.publishing_other": "{{count}} közzétett megoldás",
+    "metricFull.mentoring_one": "{{count}} mentorált tanuló",
+    "metricFull.mentoring_other": "{{count}} mentorált tanuló",
+    "metricFull.authoring_one": "{{count}} hozzájárult feladat/cikk",
+    "metricFull.authoring_other": "{{count}} hozzájárult feladat/cikk",
+    "metricFull.building_one": "{{count}} elfogadott PR",
+    "metricFull.building_other": "{{count}} elfogadott PR",
+    "metricFull.maintaining_one": "{{count}} átnézett PR",
+    "metricFull.maintaining_other": "{{count}} átnézett PR",
+    "metricShort.publishing_one": "{{count}} megoldás",
+    "metricShort.publishing_other": "{{count}} megoldás",
+    "metricShort.mentoring_one": "{{count}} tanuló",
+    "metricShort.mentoring_other": "{{count}} tanuló",
+    "metricShort.authoring_one": "{{count}} feladat/cikk",
+    "metricShort.authoring_other": "{{count}} feladat/cikk",
+    "metricShort.building_one": "{{count}} elfogadott PR",
+    "metricShort.building_other": "{{count}} elfogadott PR",
+    "metricShort.maintaining_one": "{{count}} átnézett PR",
+    "metricShort.maintaining_other": "{{count}} átnézett PR"
   },
   "components/profile/testimonials-list": {
     "attribution": "<student>{{student}}</student> ezt mondta <mentor>{{mentor}}</mentor> felhasználóról",
@@ -2528,5 +2561,11 @@
     "monthsAgo_other": "{{count}} hónappal ezelőtt",
     "yearsAgo_one": "{{count}} évvel ezelőtt",
     "yearsAgo_other": "{{count}} évvel ezelőtt"
+  },
+  "components/journey/overview/TrackHeaderSummaryText.tsx": {
+    "trackList.1": "<0></0>.",
+    "trackList.2": "<0></0>, majd <1></1>.",
+    "trackList.3": "<0></0>, majd <1></1> és <2></2>.",
+    "trackList.4": "<0></0>, majd <1></1>, <2></2> és <3></3>."
   }
 }

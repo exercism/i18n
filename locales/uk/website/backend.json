@@ -4238,5 +4238,44 @@
       "solution_on_exercism_track": "на треку",
       "solution_track_title": "%{track_title} на Exercism."
     }
+  },
+  "serializers": {
+    "track_for_select": {
+      "all_tracks": "Усі треки"
+    },
+    "profile_image": {
+      "metric": {
+        "publishing": {
+          "one": "%{count} опубліковане рішення",
+          "few": "%{count} опубліковані рішення",
+          "many": "%{count} опублікованих рішень",
+          "other": "%{count} опублікованого рішення"
+        },
+        "mentoring": {
+          "one": "%{count} учень отримав наставництво",
+          "few": "%{count} учні отримали наставництво",
+          "many": "%{count} учнів отримали наставництво",
+          "other": "%{count} учня отримало наставництво"
+        },
+        "authoring": {
+          "one": "%{count} додана вправа/стаття",
+          "few": "%{count} додані вправи/статті",
+          "many": "%{count} доданих вправ/статей",
+          "other": "%{count} доданої вправи/статті"
+        },
+        "building": {
+          "one": "%{count} прийнятий PR",
+          "few": "%{count} прийняті PR",
+          "many": "%{count} прийнятих PR",
+          "other": "%{count} прийнятого PR"
+        },
+        "maintaining": {
+          "one": "%{count} перевірений PR",
+          "few": "%{count} перевірені PR",
+          "many": "%{count} перевірених PR",
+          "other": "%{count} перевіреного PR"
+        }
+      }
+    }
   }
 }

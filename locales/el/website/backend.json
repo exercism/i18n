@@ -4129,5 +4129,39 @@
       "help_pages": "- Η [τεκμηρίωση της διαδρομής %{track_title}](https://exercism.org/docs/tracks/%{track_slug})\n- Η [κατηγορία προγραμματισμού της διαδρομής %{track_title} στο φόρουμ](https://forum.exercism.org/c/programming/%{track_slug})\n- Η [κατηγορία προγραμματισμού του Exercism στο φόρουμ](https://forum.exercism.org/c/programming/5)\n- Οι [Συχνές Ερωτήσεις](https://exercism.org/docs/using/faqs)",
       "help_submit_incomplete": "Αν αυτοί οι πόροι δεν είναι αρκετοί, μπορείς να υποβάλεις τη (ημιτελή) λύση σου για να ζητήσεις καθοδήγηση."
     }
+  },
+  "serializers": {
+    "track_for_select": {
+      "all_tracks": "Όλες οι διαδρομές"
+    },
+    "profile_image": {
+      "metric": {
+        "publishing": {
+          "zero": "Καμία λύση δε δημοσιεύτηκε",
+          "one": "%{count} λύση δημοσιεύτηκε",
+          "other": "%{count} λύσεις δημοσιεύτηκαν"
+        },
+        "mentoring": {
+          "zero": "Κανένας μαθητής δεν καθοδηγήθηκε",
+          "one": "%{count} μαθητής καθοδηγήθηκε",
+          "other": "%{count} μαθητές καθοδηγήθηκαν"
+        },
+        "authoring": {
+          "zero": "Καμία συνεισφορά σε ασκήσεις/άρθρα",
+          "one": "%{count} συνεισφορά σε άσκηση/άρθρο",
+          "other": "%{count} συνεισφορές σε ασκήσεις/άρθρα"
+        },
+        "building": {
+          "zero": "Κανένα PR δεν έγινε δεκτό",
+          "one": "%{count} PR έγινε δεκτό",
+          "other": "%{count} PR έγιναν δεκτά"
+        },
+        "maintaining": {
+          "zero": "Κανένα PR δεν ελέγχθηκε",
+          "one": "%{count} PR ελέγχθηκε",
+          "other": "%{count} PR ελέγχθηκαν"
+        }
+      }
+    }
   }
 }

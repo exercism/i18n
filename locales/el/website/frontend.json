@@ -416,7 +416,14 @@
     "tracksEnrolledSummary.tracksEnrolled_other": "Εγγραφές σε track",
     "trackSummary.exercisesCompleted": "{{completed}} / {{total}} ({{percent}}%) ολοκληρωμένες ασκήσεις",
     "trackSummary.joinedTrack": "Όταν μπήκες στο track {{title}}",
-    "trackSummary.startedTrackAgo": "Ξεκίνησες να δουλεύεις πάνω στο track {{title}} <strong>{{since}}</strong>."
+    "trackSummary.startedTrackAgo": "Ξεκίνησες να δουλεύεις πάνω στο track {{title}} <strong>{{since}}</strong>.",
+    "trackSummary.mentoringInProgress_one": "Έχεις <strong>{{count}} συζήτηση</strong> σε εξέλιξη.",
+    "trackSummary.mentoringInProgress_other": "Έχεις <strong>{{count}} συζητήσεις</strong> σε εξέλιξη.",
+    "trackSummary.mentoringQueued_one": "Έχεις <strong>{{count}} λύση</strong> στην ουρά.",
+    "trackSummary.mentoringQueued_other": "Έχεις <strong>{{count}} λύσεις</strong> στην ουρά.",
+    "trackSummary.period.last_12_months": "Τους τελευταίους 12 μήνες",
+    "trackSummary.period.last_10_weeks": "Τις τελευταίες 10 εβδομάδες",
+    "trackSummary.period.last_14_days": "Τις τελευταίες 14 ημέρες"
   },
   "components/journey/overview/learning-section/track-summary/TrackProgressBar.tsx": {
     "trackProgressBar.completed": "Ολοκληρωμένο"
@@ -2334,7 +2341,33 @@
     "totalReputation.reputation": "Φήμη",
     "trackSelect.rep": "φήμη",
     "categorySummary.noRep": "Καμία φήμη",
-    "categorySummary.rep": "{{reputation}} φήμη"
+    "categorySummary.rep": "{{reputation}} φήμη",
+    "category.publishing": "Δημοσίευση",
+    "category.mentoring": "Καθοδήγηση",
+    "category.authoring": "Συγγραφή",
+    "category.building": "Ανάπτυξη",
+    "category.maintaining": "Συντήρηση",
+    "category.other": "Άλλα",
+    "metricFull.publishing_one": "{{count}} λύση δημοσιευμένη",
+    "metricFull.publishing_other": "{{count}} λύσεις δημοσιευμένες",
+    "metricFull.mentoring_one": "Καθοδήγηση σε {{count}} μαθητή",
+    "metricFull.mentoring_other": "Καθοδήγηση σε {{count}} μαθητές",
+    "metricFull.authoring_one": "Συνεισφορά: {{count}} άσκηση/άρθρο",
+    "metricFull.authoring_other": "Συνεισφορά: {{count}} ασκήσεις/άρθρα",
+    "metricFull.building_one": "Έγινε δεκτό {{count}} PR",
+    "metricFull.building_other": "Έγιναν δεκτά {{count}} PR",
+    "metricFull.maintaining_one": "Ελέγχθηκε {{count}} PR",
+    "metricFull.maintaining_other": "Ελέγχθηκαν {{count}} PR",
+    "metricShort.publishing_one": "{{count}} λύση",
+    "metricShort.publishing_other": "{{count}} λύσεις",
+    "metricShort.mentoring_one": "{{count}} μαθητής",
+    "metricShort.mentoring_other": "{{count}} μαθητές",
+    "metricShort.authoring_one": "{{count}} άσκηση/άρθρο",
+    "metricShort.authoring_other": "{{count}} ασκήσεις/άρθρα",
+    "metricShort.building_one": "Έγινε δεκτό {{count}} PR",
+    "metricShort.building_other": "Έγιναν δεκτά {{count}} PR",
+    "metricShort.maintaining_one": "Ελέγχθηκε {{count}} PR",
+    "metricShort.maintaining_other": "Ελέγχθηκαν {{count}} PR"
   },
   "components/profile/testimonials-list": {
     "attribution": "<student>{{student}}</student> είπε αυτό για <mentor>{{mentor}}</mentor>",
@@ -2515,5 +2548,11 @@
     "monthsAgo_other": "πριν από {{count}} μήνες",
     "yearsAgo_one": "πριν από {{count}} χρόνο",
     "yearsAgo_other": "πριν από {{count}} χρόνια"
+  },
+  "components/journey/overview/TrackHeaderSummaryText.tsx": {
+    "trackList.1": "<0></0>.",
+    "trackList.2": "<0></0> και μετά <1></1>.",
+    "trackList.3": "<0></0>, και μετά <1></1> και <2></2>.",
+    "trackList.4": "<0></0>, και μετά <1></1>, <2></2> και <3></3>."
   }
 }

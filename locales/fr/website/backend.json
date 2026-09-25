@@ -4184,5 +4184,44 @@
       "subject": "Merci pour ton don",
       "body_markdown": "Bonjour %{user_handle},\n\nMerci pour ton don ! Exercism existe pour apporter la joie de la programmation à tout le monde, partout.  \nTon don nous aide à rendre possible tout ce que nous faisons.\n\nTu peux retrouver tous les dons que tu as faits à Exercism, et télécharger tes reçus, sur la page Paramètres.  \nSi tu as des questions à propos de ton don, réponds simplement à cet email.\n\nMerci encore !\n\n[Voir tes dons](%{donations_url})"
     }
+  },
+  "serializers": {
+    "track_for_select": {
+      "all_tracks": "Tous les parcours"
+    },
+    "profile_image": {
+      "metric": {
+        "publishing": {
+          "zero": "Aucune solution publiée",
+          "one": "%{count} solution publiée",
+          "many": "%{count} solutions publiées",
+          "other": "%{count} solutions publiées"
+        },
+        "mentoring": {
+          "zero": "Aucun apprenant mentoré",
+          "one": "%{count} apprenant mentoré",
+          "many": "%{count} apprenants mentorés",
+          "other": "%{count} apprenants mentorés"
+        },
+        "authoring": {
+          "zero": "Aucun exercice/article contribué",
+          "one": "%{count} exercice/article contribué",
+          "many": "%{count} exercices/articles contribués",
+          "other": "%{count} exercices/articles contribués"
+        },
+        "building": {
+          "zero": "Aucune PR acceptée",
+          "one": "%{count} PR acceptée",
+          "many": "%{count} PR acceptées",
+          "other": "%{count} PR acceptées"
+        },
+        "maintaining": {
+          "zero": "Aucune PR relue",
+          "one": "%{count} PR relue",
+          "many": "%{count} PR relues",
+          "other": "%{count} PR relues"
+        }
+      }
+    }
   }
 }

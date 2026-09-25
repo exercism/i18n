@@ -4128,5 +4128,39 @@
         "description": "Meg tudod oldani a(z) %{exercise_title} feladatot a(z) %{track_title} kurzusban? Fejleszd a(z) %{track_title} tudásodat világszínvonalú mentorcsapatunk támogatásával."
       }
     }
+  },
+  "serializers": {
+    "track_for_select": {
+      "all_tracks": "Minden kurzus"
+    },
+    "profile_image": {
+      "metric": {
+        "publishing": {
+          "zero": "Nincs közzétett megoldás",
+          "one": "%{count} közzétett megoldás",
+          "other": "%{count} közzétett megoldás"
+        },
+        "mentoring": {
+          "zero": "Nincs mentorált tanuló",
+          "one": "%{count} mentorált tanuló",
+          "other": "%{count} mentorált tanuló"
+        },
+        "authoring": {
+          "zero": "Nincs feladat vagy cikk, amiben közreműködtél",
+          "one": "%{count} feladat vagy cikk, amiben közreműködtél",
+          "other": "%{count} feladat vagy cikk, amiben közreműködtél"
+        },
+        "building": {
+          "zero": "Nincs elfogadott PR",
+          "one": "%{count} elfogadott PR",
+          "other": "%{count} elfogadott PR"
+        },
+        "maintaining": {
+          "zero": "Nincs áttekintett PR",
+          "one": "%{count} áttekintett PR",
+          "other": "%{count} áttekintett PR"
+        }
+      }
+    }
   }
 }
