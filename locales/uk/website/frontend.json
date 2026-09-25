@@ -2563,5 +2563,27 @@
     "starButton.numberOfStars": "Кількість зірок",
     "starButton.favorite": "Додати в обране",
     "starButton.favorited": "В обраному"
+  },
+  "utils/date": {
+    "today": "сьогодні",
+    "todayTitleized": "Сьогодні",
+    "yesterday": "вчора",
+    "yesterdayTitleized": "Вчора",
+    "daysAgo_one": "{{count}} день тому",
+    "daysAgo_few": "{{count}} дні тому",
+    "daysAgo_many": "{{count}} днів тому",
+    "daysAgo_other": "{{count}} дня тому",
+    "weeksAgo_one": "{{count}} тиждень тому",
+    "weeksAgo_few": "{{count}} тижні тому",
+    "weeksAgo_many": "{{count}} тижнів тому",
+    "weeksAgo_other": "{{count}} тижня тому",
+    "monthsAgo_one": "{{count}} місяць тому",
+    "monthsAgo_few": "{{count}} місяці тому",
+    "monthsAgo_many": "{{count}} місяців тому",
+    "monthsAgo_other": "{{count}} місяця тому",
+    "yearsAgo_one": "{{count}} рік тому",
+    "yearsAgo_few": "{{count}} роки тому",
+    "yearsAgo_many": "{{count}} років тому",
+    "yearsAgo_other": "{{count}} року тому"
   }
 }

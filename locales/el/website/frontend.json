@@ -2501,5 +2501,19 @@
     "profileForm.midLevelDeveloper": "Προγραμματιστής μεσαίου επιπέδου",
     "profileForm.seniorDeveloper": "Senior προγραμματιστής",
     "profileForm.successAlt": "Επιτυχία"
+  },
+  "utils/date": {
+    "today": "σήμερα",
+    "todayTitleized": "Σήμερα",
+    "yesterday": "χθες",
+    "yesterdayTitleized": "Χθες",
+    "daysAgo_one": "πριν από {{count}} ημέρα",
+    "daysAgo_other": "πριν από {{count}} ημέρες",
+    "weeksAgo_one": "πριν από {{count}} εβδομάδα",
+    "weeksAgo_other": "πριν από {{count}} εβδομάδες",
+    "monthsAgo_one": "πριν από {{count}} μήνα",
+    "monthsAgo_other": "πριν από {{count}} μήνες",
+    "yearsAgo_one": "πριν από {{count}} χρόνο",
+    "yearsAgo_other": "πριν από {{count}} χρόνια"
   }
 }

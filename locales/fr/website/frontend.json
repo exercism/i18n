@@ -2532,5 +2532,23 @@
     "orderSwitcher.sortByUnrevealedFirst": "Trier par non révélés en premier",
     "orderSwitcher.sortByNewestFirst": "Trier par plus récents en premier",
     "orderSwitcher.sortByOldestFirst": "Trier par plus anciens en premier"
+  },
+  "utils/date": {
+    "today": "aujourd'hui",
+    "todayTitleized": "Aujourd'hui",
+    "yesterday": "hier",
+    "yesterdayTitleized": "Hier",
+    "daysAgo_one": "il y a {{count}} jour",
+    "daysAgo_many": "il y a {{count}} de jours",
+    "daysAgo_other": "il y a {{count}} jours",
+    "weeksAgo_one": "il y a {{count}} semaine",
+    "weeksAgo_many": "il y a {{count}} de semaines",
+    "weeksAgo_other": "il y a {{count}} semaines",
+    "monthsAgo_one": "il y a {{count}} mois",
+    "monthsAgo_many": "il y a {{count}} de mois",
+    "monthsAgo_other": "il y a {{count}} mois",
+    "yearsAgo_one": "il y a {{count}} an",
+    "yearsAgo_many": "il y a {{count}} d'ans",
+    "yearsAgo_other": "il y a {{count}} ans"
   }
 }

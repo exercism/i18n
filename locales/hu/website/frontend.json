@@ -2514,5 +2514,19 @@
     "languagePreferenceForm.noMatches": "Nincs a keresésnek megfelelő nyelv",
     "languagePreferenceForm.selected": "Kiválasztva",
     "languagePreferenceForm.description": "Válaszd ki, milyen nyelven szeretnéd használni az Exercism-öt. A választásodat azonnal elmentjük."
+  },
+  "utils/date": {
+    "today": "ma",
+    "todayTitleized": "Ma",
+    "yesterday": "tegnap",
+    "yesterdayTitleized": "Tegnap",
+    "daysAgo_one": "{{count}} nappal ezelőtt",
+    "daysAgo_other": "{{count}} nappal ezelőtt",
+    "weeksAgo_one": "{{count}} héttel ezelőtt",
+    "weeksAgo_other": "{{count}} héttel ezelőtt",
+    "monthsAgo_one": "{{count}} hónappal ezelőtt",
+    "monthsAgo_other": "{{count}} hónappal ezelőtt",
+    "yearsAgo_one": "{{count}} évvel ezelőtt",
+    "yearsAgo_other": "{{count}} évvel ezelőtt"
   }
 }
