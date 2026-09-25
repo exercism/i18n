@@ -249,7 +249,7 @@ header comment is its documentation, so read it before changing the script. Ther
 | `build-index.mjs` | Generates `index/markdown/` from `index/json/`. With `--check` it writes nothing and fails on a page that differs, an id with no file, or JSON not in canonical form. |
 | `backfill-index.mjs` | Builds one locale's index from the full history of every source checkout (default `../translator/.source`), at `origin/main`. Re-runnable. |
 | `pr-reply.mjs` | The wording of the one reply the loop posts on a source PR ("This PR has been translated 🚀"), and whether a PR already has it. Used by `rerun-source-check.yml`. Posts nothing itself. |
-| `allow-identical.mjs` | Signs off one English string that a translation deliberately leaves as it is, in `identical-english.json`. Takes the text and a `--reason`, and computes the blob id itself. |
+| `allow-identical.mjs` | Signs off one English string that a translation deliberately leaves as it is, in `identical-english.json`. Takes the text (or `--file=<a content file>`) and a `--reason`, and computes the blob id itself. |
 | `test.mjs` | Plain `node:assert`. Unit assertions, then a fixture of real git repos that every script is run against. |
 
 - **Errors block; warnings never do.** WARN checks are heuristics and are expected to flag
@@ -266,6 +266,24 @@ header comment is its documentation, so read it before changing the script. Ther
   covers every locale unless it lists `locales`, because the strings this is for are proper
   names and titles. Write entries with `scripts/allow-identical.mjs`, never by hand, and
   delete an entry that a whole run reports as matching nothing.
+- **The same file covers a content file identical to its English**, because a content file
+  is already filed under the blob id of that English, which is what an entry is keyed by. A
+  file of one `%{comment}` placeholder, and a French page whose only line is
+  `# Introduction`, are legitimately identical and warn once per locale for every locale
+  that is ever added. `scripts/allow-identical.mjs --file=<the translated file>` signs one
+  off, and refuses a file that is not identical to its English.
+- **The stamped keys English does not have print as one line per catalog**, not one per key.
+  A catalog is expected to run ahead of English and a locale holds keys English has since
+  renamed, which made 333 of the 351 warning lines a full run printed.
+  `scripts/lib/extra-keys.mjs` groups them by catalog and by the set of keys, naming the
+  locales that share each set, and `--json` still lists every id. **Nothing prunes them**:
+  removing a key is a deletion, and whether the orphans ever go is iHiD's decision. A count
+  that has risen is English having renamed or removed something.
+- **An extra key that has never been stamped is not grouped.** It is the opposite case: rare,
+  and blocking a named PR in another repo until one command is run. That command is built
+  from the key, the locale and the catalog, so grouping it would drop what a reader needs. It
+  keeps its own line, prints in full, and the grouped block says how many did, so the two
+  numbers add up to every extra key the run found.
 - **`EXERCISM_I18N_ROOT`** points the scripts at another tree. It exists for `test.mjs`.
 
 ## The sweep

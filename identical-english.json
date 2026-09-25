@@ -11,10 +11,58 @@
     "the text, and validate stops the run if an id and its text disagree."
   ],
   "allowed": {
+    "04635bbfb0672830f0851f76ddc09f101f1094f9": {
+      "text": "{{numViews}} {{viewLabel}}",
+      "reason": "Two placeholders and a space. The website fills in both, one of them a word that is itself translated elsewhere (solution.views), so there is nothing here to translate.",
+      "added": "2026-09-25",
+      "by": "iHiD"
+    },
+    "23f5b9b810ead401e06a66d8a8f503c238559383": {
+      "text": "%{comment}\n",
+      "reason": "The whole file is one %{comment} placeholder, which the website fills in with an analyzer comment it renders separately. There is nothing to translate, in any language.",
+      "added": "2026-09-25",
+      "by": "iHiD"
+    },
+    "4a3a6b4dc31962db5d2383a2fda2ed4a57b7747a": {
+      "text": "Boyer Moore Majority Vote Algorithm",
+      "reason": "The name of the Boyer Moore majority vote algorithm, which is what it is called in every language. Per content-types/metadata.md, an algorithm's or kata's title stays exactly as written. All four locales left it as it is, independently.",
+      "added": "2026-09-25",
+      "by": "iHiD"
+    },
+    "63fd98ab00ad569b7ee94e616f9214af820ef15d": {
+      "text": "# Instructions\n",
+      "reason": "The file is the heading \"# Instructions\", which is the same word in French.",
+      "added": "2026-09-25",
+      "by": "iHiD",
+      "locales": [
+        "fr"
+      ]
+    },
+    "7a8616edcbfdf3c564611a25fce5ef8f3b51de4a": {
+      "text": "Unit G3; 81 Bournville Lane, United Kingdom",
+      "reason": "Exercism's postal address. A street and a building are delivered to as written, so the line stays in English. hu translated the country name, which is a separate decision and not affected by this entry.",
+      "added": "2026-09-25",
+      "by": "iHiD"
+    },
+    "90837220ad1cadb447b9628be5add16a19d2bbca": {
+      "text": "# Tests\n\n```bash\n$ rebar3 eunit\n```\n",
+      "reason": "The heading \"# Tests\" is the same word in French, and the rest of the file is a shell command in a code block, which is copied byte for byte.",
+      "added": "2026-09-25",
+      "by": "iHiD",
+      "locales": [
+        "fr"
+      ]
+    },
     "b2050cfa40813d79e374377c28a4ff744edddedc": {
       "text": "Maud de Vries, Erik Schierboom",
       "reason": "Attribution: the two people who wrote the exercise, shared by resistor-color, resistor-color-duo and resistor-color-trio.",
       "added": "2026-09-24",
+      "by": "iHiD"
+    },
+    "b89fe126365f1b14dd4516797dc78567bad257f1": {
+      "text": "{{numCommentsEnabled}} / {{numPublished}}",
+      "reason": "Two placeholders and a slash. Both are numbers the website fills in, so there is nothing here to translate.",
+      "added": "2026-09-25",
       "by": "iHiD"
     },
     "bcbf234921b229b5bf245b9da40cf2822972bdf7": {
@@ -23,11 +71,35 @@
       "added": "2026-09-24",
       "by": "iHiD"
     },
+    "cdd72daabfcf4a7c738621bab7123b7181b19cb8": {
+      "text": "# Introduction\n\nTODO\n",
+      "reason": "The heading \"# Introduction\" is the same word in French, and the body is the placeholder TODO the track's maintainers left there.",
+      "added": "2026-09-25",
+      "by": "iHiD",
+      "locales": [
+        "fr"
+      ]
+    },
+    "ceb1e8911d4dfc430f6365e79cc33ca53c81b7f5": {
+      "text": "Tracks on Tracks on Tracks",
+      "reason": "The exercise's name, and a play on the word track that does not carry over. hu and el judged it untranslatable, as all four locales did for Two Fer. fr and uk did translate it, and this entry does not undo that.",
+      "added": "2026-09-25",
+      "by": "iHiD"
+    },
     "d4e4a75736ba581857fa1597f32641dacd1ab5bb": {
       "text": "Simon Shine, Erik Schierboom",
       "reason": "Attribution: the two people who wrote the exercise.",
       "added": "2026-09-24",
       "by": "iHiD"
+    },
+    "e10b99d01382d9c6527dfa7a9cf1b0c81f3d5307": {
+      "text": "# Introduction\n",
+      "reason": "The file is the heading \"# Introduction\", which is the same word in French.",
+      "added": "2026-09-25",
+      "by": "iHiD",
+      "locales": [
+        "fr"
+      ]
     },
     "f9bbd71d7014fa5c6453a08170933c4c936981e9": {
       "text": "Software Craftsmanship - Coin Change Kata",
