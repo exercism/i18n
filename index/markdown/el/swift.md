@@ -534,7 +534,8 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 ### Lasagna Master (Μάστορας λαζάνιας)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/instructions.md)): [Latest](../../../locales/el/content/e7/be/156216e1bfe80505bfd12b3fd32d2216fff1.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/introduction.md)): [Latest](../../../locales/el/content/63/42/75fc1d2535300a0f707f6207f274f7d8c297.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/introduction.md)): [Latest](../../../locales/el/content/23/77/faff0684164dc4fcc00e56ddd9618faca817.md)
+  - [`634275fc1d`](../../../locales/el/content/63/42/75fc1d2535300a0f707f6207f274f7d8c297.md)
   - [`b149a2de4d`](../../../locales/el/content/b1/49/a2de4d26bd3e78a81bb0cdab6658e63b44e2.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/hints.md)): [Latest](../../../locales/el/content/58/5b/ba325cb63f84fb923ea554b22f1b5ec3c258.md)
 
@@ -748,8 +749,10 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 
 ### Nested Functions (Εμφωλευμένες συναρτήσεις)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/nested-functions/introduction.md)): [Latest](../../../locales/el/content/11/dd/51145958b74917615bb81b69e19ac192596b.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/nested-functions/about.md)): [Latest](../../../locales/el/content/11/dd/51145958b74917615bb81b69e19ac192596b.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/nested-functions/introduction.md)): [Latest](../../../locales/el/content/c6/26/3250f7854c3bb6a49e524ce04eb4c5fbf189.md)
+  - [`11dd511459`](../../../locales/el/content/11/dd/51145958b74917615bb81b69e19ac192596b.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/nested-functions/about.md)): [Latest](../../../locales/el/content/bc/da/20f357e78147ce9348e62d44553f08704d51.md)
+  - [`11dd511459`](../../../locales/el/content/11/dd/51145958b74917615bb81b69e19ac192596b.md)
 
 ### Numbers (Αριθμοί)
 
@@ -781,10 +784,10 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 
 ### repeat while (\`repeat while\`)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/repeat-while/introduction.md)): [Latest](../../../locales/el/content/7b/58/24346379245cba93fa7d9b55b985cde00192.md)
-  - [`06157337f4`](../../../locales/el/content/06/15/7337f41fd498f09cd846b2a646dd333e1e4c.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/repeat-while/about.md)): [Latest](../../../locales/el/content/ff/ae/94f39ef82bffebf7223e7e434500efd03b0a.md)
-  - [`d83396ba57`](../../../locales/el/content/d8/33/96ba5764d5db28aeae57cb45566cf7aef3e7.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/repeat-while/introduction.md)): [Latest](../../../locales/el/content/06/15/7337f41fd498f09cd846b2a646dd333e1e4c.md)
+  - [`7b58243463`](../../../locales/el/content/7b/58/24346379245cba93fa7d9b55b985cde00192.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/repeat-while/about.md)): [Latest](../../../locales/el/content/d8/33/96ba5764d5db28aeae57cb45566cf7aef3e7.md)
+  - [`ffae94f39e`](../../../locales/el/content/ff/ae/94f39ef82bffebf7223e7e434500efd03b0a.md)
 
 ### Self
 
