@@ -6,10 +6,12 @@
 // Usage:
 //   node scripts/allow-identical.mjs --reason="<why>" [--locale=<code>] [--by=<name>] <the English text>
 //   node scripts/allow-identical.mjs --reason="<why>" [--locale=<code>] --stdin < file
+//   node scripts/allow-identical.mjs --reason="<why>" [--locale=<code>] --file=<a content file>
 //
 // Examples:
 //   node scripts/allow-identical.mjs --reason="Attribution: the exercise's authors." "Maud de Vries, Erik Schierboom"
 //   node scripts/allow-identical.mjs --reason="A trademark French keeps." --locale=fr "Some Product Name"
+//   node scripts/allow-identical.mjs --reason="One placeholder." --file=locales/fr/content/23/f5/b9b8...md
 //
 // ## Why a script and not a hand-edited file
 //
@@ -24,15 +26,30 @@
 //
 // ## What it will not do
 //
-// It refuses a string of 24 characters or fewer, because the check itself
-// ignores those, so the entry could never match anything. It refuses a text
-// already in the file, unless `--locale` widens an entry that names locales.
+// It refuses a string of 24 characters or fewer, because the catalog check
+// itself ignores those, so the entry could never match anything. It refuses a
+// text already in the file, unless `--locale` widens an entry that names
+// locales.
+//
+// ## Signing off a content file
+//
+// A blob-keyed content file gets the same warning when its own blob id is the
+// id it is filed under, and the same allowlist covers it, because that id is
+// the blob id of the file's bytes, which is what this script computes. So
+// `--file=<the translated file>` signs one off, and it reads the bytes as they
+// are: `--stdin` drops a trailing newline that a shell added, and a file's own
+// trailing newline is part of it. There is no minimum length, because the
+// content check has none, and the file is checked against the path it sits in,
+// so a file that is not identical to its English cannot be signed off by
+// mistake.
 
 import fs from "node:fs";
+import path from "node:path";
 import { execFileSync } from "node:child_process";
 import { REPO_ROOT, TARGET_LOCALES, fail } from "./lib/constants.mjs";
 import { parseArgs } from "./lib/args.mjs";
 import { stringId } from "./lib/catalogs.mjs";
+import { BLOB_ID } from "./lib/git.mjs";
 import { ALLOWLIST_FILE, allowlistIssues, allowlistPath } from "./lib/identical.mjs";
 
 const IDENTICAL_MINIMUM = 25;
@@ -76,13 +93,27 @@ function main() {
   if (reason === "") fail(`--reason="<why this string is deliberately identical>" is required. It is what a future reader has instead of a guess.`);
 
   const fromStdin = Boolean(flags.stdin);
-  if (fromStdin === (positional.length > 0)) fail("give the English text as arguments, or pass --stdin and feed it in, and not both.");
+  const fromFile = typeof flags.file === "string" ? flags.file : null;
+  const sources = [fromStdin, fromFile !== null, positional.length > 0].filter(Boolean).length;
+  if (sources !== 1) fail("give the English text as arguments, or pass --stdin and feed it in, or pass --file=<a content file>. Exactly one of the three.");
+
   // A shell adds a newline that the English string does not have, and one byte
-  // is a different blob id, so the entry would match nothing.
-  const text = fromStdin ? fs.readFileSync(0, "utf8").replace(/\n$/, "") : positional.join(" ");
+  // is a different blob id, so the entry would match nothing. A file's own
+  // trailing newline is part of the file, so --file keeps it.
+  const text = fromFile !== null ? fs.readFileSync(fromFile, "utf8") : fromStdin ? fs.readFileSync(0, "utf8").replace(/\n$/, "") : positional.join(" ");
   if (text.trim() === "") fail("the English text is empty.");
-  if (text.length < IDENTICAL_MINIMUM) {
+  // The catalog check ignores a short string, so an entry for one would match
+  // nothing. The content check has no minimum, so a file is exempt.
+  if (fromFile === null && text.length < IDENTICAL_MINIMUM) {
     fail(`"${text}" is ${text.length} characters, and the check ignores anything shorter than ${IDENTICAL_MINIMUM}, so this entry would never match. Nothing to sign off.`);
+  }
+  // A content file is filed under the blob id of its English, so a file worth
+  // signing off hashes to the id in its own path. One that does not is a
+  // translated file, which the check never reports.
+  if (fromFile !== null) {
+    const filed = path.basename(path.dirname(path.dirname(fromFile))) + path.basename(path.dirname(fromFile)) + path.basename(fromFile).replace(/\.[^.]+$/, "");
+    if (!BLOB_ID.test(filed)) fail(`--file=${fromFile} is not a blob-keyed content path (<ab>/<cd>/<36 hex>.<ext>), so there is nothing for an entry to match.`);
+    if (stringId(text) !== filed) fail(`--file=${fromFile} hashes to ${stringId(text)} and sits under ${filed}, so it is not byte-identical to its English. The check does not report it, and nothing needs signing off.`);
   }
 
   const locale = typeof flags.locale === "string" ? flags.locale : null;

@@ -18,6 +18,16 @@
 //  - A string a reviewer has signed off in identical-english.json is counted
 //    and not printed.
 //
+// ## Content files go through the same two halves
+//
+// A blob-keyed content file gets its own byte-identical warning (checks.mjs
+// `checkContentFile`), and it belongs here for the same reason: a file of one
+// `%{comment}` placeholder, and a heading that reads the same in English and
+// French, are legitimately identical and warn once per locale for every locale
+// that is ever added. An entry keys on the blob id of the file's bytes, which
+// for such a file is the id it is filed under, so no second mechanism and no
+// second file is needed. `scripts/allow-identical.mjs --file=` writes those.
+//
 // ## The allowlist is keyed by the blob id of the English string
 //
 // That is the identifier the stamps already use (scripts/lib/catalogs.mjs
@@ -200,6 +210,11 @@ export function renderIdentical({ groups, allowed, unmatched }, { reportUnmatche
       lines.push(`  ${group.locale.padEnd(6)} ${String(group.catalogs.size).padStart(4)} catalog(s)  ${group.unitId}  ${JSON.stringify(group.text)}`);
     }
     lines.push(`  Legitimate? Sign one off with: node scripts/allow-identical.mjs --reason="..." <the English text>`);
+    // A content group's unit is the file, and a file is signed off by path, so
+    // that its bytes are read as they are.
+    if (groups.some((group) => group.unitId.startsWith("content/"))) {
+      lines.push(`  A content file: node scripts/allow-identical.mjs --reason="..." --file=locales/<locale>/<the path above>`);
+    }
   }
   if (allowed.length > 0) {
     lines.push("", `${allowed.length} group(s) (${total(allowed)} occurrence(s)) are signed off in ${ALLOWLIST_FILE} and were not printed.`);

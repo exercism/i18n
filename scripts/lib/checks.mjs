@@ -108,8 +108,20 @@ function checkValue({ kind, where, source, value, issues, unitId }) {
   // a deliberate leading or trailing space because they are joined in a
   // template. Translations should match English. A mismatch is a WARN, because
   // it is usually harmless but occasionally joins two words together.
-  const edge = (text) => [text.match(/^\s*/)[0], text.match(/\s*$/)[0]].join("|");
-  if (edge(value) !== edge(source)) issues.push(issue(WARN, `${where}: leading or trailing whitespace differs from English`, unitId));
+  //
+  // One mismatch is not a mistake and is not reported: a translation that opens
+  // with a comma or a full stop where English opens with a space. The key is
+  // half a sentence, and the clause the translation starts has to sit against
+  // the word before it, because no language writes "Exercism , amelyet". That
+  // is what hu does with components.contributing.header.intro_after_link.
+  // Only those two marks qualify. French puts a space before a colon, a
+  // semicolon and a question mark, so excusing those would hide a real defect.
+  const lead = (text) => text.match(/^\s*/)[0];
+  const trail = (text) => text.match(/\s*$/)[0];
+  const hugsThePreviousWord = /^[,.]/.test(value) && lead(value) === "" && lead(source) !== "";
+  if ((lead(value) !== lead(source) && !hugsThePreviousWord) || trail(value) !== trail(source)) {
+    issues.push(issue(WARN, `${where}: leading or trailing whitespace differs from English`, unitId));
+  }
   return true;
 }
 
@@ -192,6 +204,12 @@ export function checkCatalog(flatEnglish, flatTarget, { kind, locale, requireCom
   // its English from one left over from old English. A misspelled key is still
   // caught: the key the translator meant is then missing, which is reported
   // above.
+  //
+  // Both warnings carry the key on its own as well, so the reporting layer can
+  // tell them apart from everything else. The stamped one is grouped into a
+  // line per catalog, because there are hundreds of them and the lines they
+  // printed buried every other warning a run had. The unstamped one is not:
+  // see below.
   const claimed = claimedKeys(kind, units);
   const extra = Object.keys(flatTarget).filter((key) => !claimed.has(key));
   const typeFlag = kind === "metadata" ? "metadata" : `website-${kind}`;
@@ -200,15 +218,26 @@ export function checkCatalog(flatEnglish, flatTarget, { kind, locale, requireCom
     // will have: itself, or its group's, once English catches up.
     const parsed = spelling.split(key);
     const stamped = key in stamps || (parsed !== null && spelling.unitId(parsed.base, parsed.ordinal) in stamps);
-    if (stamped) issues.push(issue(WARN, `key not in English: ${key} (fine while English catches up; stale if English never had it)`));
+    // A stamped orphan is a standing fact about hundreds of keys that nobody
+    // acts on key by key, so it carries the key on its own and the reporting
+    // layer prints one line per catalog (scripts/lib/extra-keys.mjs).
+    if (stamped) issues.push({ ...issue(WARN, `key not in English: ${key} (fine while English catches up; stale if English never had it)`), extraKey: key });
     else {
-      issues.push(
-        issue(
+      // An unstamped one is the opposite: rare, actionable, and blocking a
+      // named PR in another repo until one command is run. Grouping it would
+      // throw away the key, the locale and the type that make up that command,
+      // so it keeps its own line and prints in full. `neverStamped` is what
+      // says so, and it is why the grouped block reconciles its total against
+      // these rather than counting them.
+      issues.push({
+        ...issue(
           WARN,
           `key not in English and never stamped: ${key}. Its English is on a branch this run cannot see, so nothing here can hash it, and the source repo's PR that carries it stays blocked until it is: ` +
             `node scripts/validate.mjs ${locale} --type=${typeFlag} --stamp --source-ref=<that PR's head sha>`
-        )
-      );
+        ),
+        extraKey: key,
+        neverStamped: true
+      });
     }
   }
 
@@ -293,7 +322,16 @@ export function checkContentFile({ id, extension, bytes }, english = null) {
   // under is the English file itself. It would pass every structural check, so
   // it gets a check of its own. It is a WARN, because a file with nothing to
   // translate (a page that is one code block) is legitimately identical.
-  if (blobId(bytes) === id) issues.push(issue(WARN, "byte-identical to its English (copied, not translated; legitimate only if there is nothing to translate)"));
+  //
+  // The warning carries the file's text and the id it is filed under, which is
+  // the blob id of that text, so the reporting layer groups it and drops the
+  // ones a reviewer signed off, exactly as it does for a catalog string
+  // (scripts/lib/identical.mjs). `%{comment}` is one file and warns once per
+  // locale, and "# Introduction" is identical in every Latin-script language,
+  // so both recur for every locale that is ever added.
+  if (blobId(bytes) === id) {
+    issues.push({ ...issue(WARN, "byte-identical to its English (copied, not translated; legitimate only if there is nothing to translate)"), identical: { id, text } });
+  }
 
   if (extension === ".json") {
     try {

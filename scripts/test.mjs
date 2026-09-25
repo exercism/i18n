@@ -31,6 +31,7 @@ import { PLURAL_SPELLING, requiredCategories } from "./lib/plurals.mjs";
 import { englishUnits, flattenCatalog, stringId, targetEntries, unflattenCatalog, unitHash, unitState, unitTouched } from "./lib/catalogs.mjs";
 import { ERROR, WARN, checkCatalog, checkContentFile, placeholders, tags } from "./lib/checks.mjs";
 import { ALLOWLIST_FILE, allowlistIssues, allowlistPath, allows, collapseUnitIds, renderIdentical, summariseIdentical } from "./lib/identical.mjs";
+import { countNeverStamped, extraKeyRows, renderExtraKeys, summariseExtraKeys } from "./lib/extra-keys.mjs";
 import { CONTENT_TYPES, CONTENT_TYPE_IDS, contentRelativePath, parseContentRelativePath, typeForPath } from "./lib/content-types.mjs";
 import { REPO_KINDS, isActiveTrack, kindForRepo } from "./lib/source-repos.mjs";
 import { missingContent, missingUnits, requiredContent, requiredUnits, translatableFiles } from "./lib/completeness.mjs";
@@ -489,6 +490,96 @@ await test("the allowlist's shape is checked, so a hand edit cannot quietly hide
   assert.match(allowlistIssues({ allowed: { "not-a-blob-id": entry } })[0], /not a blob id/);
   assert.match(allowlistIssues({ allowed: { [stringId(AUTHORS)]: { ...entry, reason: "  " } } })[0], /"reason" must be a non-empty string/);
   assert.match(allowlistIssues({ entries: {} })[0], /must have an "allowed" object/);
+});
+
+await test("a content file identical to its English carries its own bytes, so the same allowlist covers it", () => {
+  // The file's blob id is the id it is filed under, which is what an allowlist
+  // entry is keyed by, so nothing about the entry's shape changes for a file.
+  const text = "%{comment}\n";
+  const id = blobId(text);
+  const found = checkContentFile({ id, extension: ".md", bytes: Buffer.from(text, "utf8") });
+  const identical = found.filter((one) => one.identical);
+  assert.equal(identical.length, 1);
+  assert.deepEqual(identical[0].identical, { id, text });
+  assert.equal(stringId(text), id);
+
+  // A translated file is not reported at all, so there is nothing to sign off.
+  const translated = Buffer.from("# Utasítások\n", "utf8");
+  assert.deepEqual(checkContentFile({ id: blobId("# Instructions\n"), extension: ".md", bytes: translated }).filter((one) => one.identical), []);
+});
+
+await test("keys English does not have are one line per catalog, with the count as the signal", () => {
+  const extra = (locale, type, keys) => ({ locale, type, issues: keys.map((key) => ({ level: WARN, message: `key not in English: ${key} (…)`, extraKey: key })) });
+  const groups = summariseExtraKeys([
+    extra("hu", "metadata/ruby", ["exercise:lasagna:name"]),
+    extra("fr", "website-frontend", ["a.one", "a.two", "a.three"]),
+    { locale: "el", type: "content", issues: [{ level: WARN, message: "something else" }] }
+  ]);
+  assert.deepEqual(groups.map((group) => [group.locale, group.type, group.keys.length]), [
+    ["fr", "website-frontend", 3],
+    ["hu", "metadata/ruby", 1]
+  ]);
+  const printed = renderExtraKeys(groups).join("\n");
+  assert.match(printed, /Keys not in English: 4 in 2 catalog\(s\) \(fr 3, hu 1\)/);
+  assert.match(printed, /website-frontend\s+3 key\(s\)\s+fr/);
+  assert.doesNotMatch(printed, /exercise:lasagna:name/, "a group printed the ids it was meant to replace");
+  assert.deepEqual(renderExtraKeys([]), []);
+
+  // One upstream rename leaves the same orphans in every locale, so that is one
+  // line naming them, and a locale whose set differs still gets its own.
+  const shared = extraKeyRows(summariseExtraKeys([
+    extra("hu", "metadata/kotlin", ["exercise:lasagna:name", "exercise:lasagna:blurb"]),
+    extra("fr", "metadata/kotlin", ["exercise:lasagna:blurb", "exercise:lasagna:name"]),
+    extra("el", "metadata/kotlin", ["exercise:lasagna:name", "exercise:pacman:name"])
+  ]));
+  assert.deepEqual(shared.map((row) => [row.type, row.count, row.locales]), [
+    ["metadata/kotlin", 2, ["el"]],
+    ["metadata/kotlin", 2, ["fr", "hu"]]
+  ]);
+});
+
+await test("an extra key that has never been stamped is not grouped away, because one command each ends it", () => {
+  // The two cases are opposites: hundreds of stamped orphans nobody acts on key
+  // by key, and the rare one that blocks a PR in another repo until it is
+  // stamped. Grouping the second would drop the key, locale and type its
+  // command is built from.
+  const results = [{
+    locale: "hu",
+    type: "website-backend",
+    issues: [
+      { level: WARN, message: "key not in English: nav.old (…)", extraKey: "nav.old" },
+      { level: WARN, message: "key not in English and never stamped: nav.email_label. … --source-ref=<that PR's head sha>", extraKey: "nav.email_label", neverStamped: true }
+    ]
+  }];
+  const groups = summariseExtraKeys(results);
+  assert.deepEqual(groups.map((group) => group.keys), [["nav.old"]]);
+  assert.equal(countNeverStamped(results), 1);
+
+  // The block says how many printed their own line, so the two numbers add up
+  // to every extra key the run found.
+  const printed = renderExtraKeys(groups, { neverStamped: 1 }).join("\n");
+  assert.match(printed, /Keys not in English: 1 in 1 catalog\(s\) \(hu 1\)/);
+  assert.match(printed, /1 further key\(s\).*never been stamped and one command each ends them/);
+  assert.doesNotMatch(renderExtraKeys(groups).join("\n"), /further key\(s\)/);
+});
+
+await test("a clause that opens with a comma keeps no leading space, and every other whitespace difference is still reported", () => {
+  const english = { "intro.after_link": " built by people from all backgrounds." };
+  const warnings = (value) => checkCatalog(english, { "intro.after_link": value }, { kind: "backend", locale: "hu" }).issues.filter((one) => one.level === WARN).map((one) => one.message);
+
+  // hu's real translation: "Exercism, amelyet …". No language writes "Exercism ,".
+  assert.deepEqual(warnings(", amelyet emberek építenek."), []);
+  assert.deepEqual(warnings(". Emberek építik."), []);
+  // A dropped space before a word joins two words together, which is the defect
+  // the check is for.
+  assert.equal(warnings("amelyet emberek építenek.").length, 1);
+  // A colon and a semicolon are not excused: French puts a space before both.
+  assert.equal(warnings(": construit par des personnes.").length, 1);
+  // A trailing difference is reported whatever the translation opens with, and a
+  // plain space where English has a non-breaking one is a difference.
+  assert.equal(warnings(", amelyet emberek építenek. ").length, 1);
+  const nbsp = { "notice.updated": "This exercise has been updated.\u00a0" };
+  assert.equal(checkCatalog(nbsp, { "notice.updated": "Ez a feladat frissült. " }, { kind: "backend", locale: "hu" }).issues.filter((one) => one.level === WARN).length, 1);
 });
 
 await test("the allowlist this repo ships is sound", () => {
@@ -1170,6 +1261,78 @@ await test("fixture: byte-identical warnings are grouped by English string, and 
   assert.match(whole.out, /"A string every locale has since translated\."/, whole.out);
 
   for (const file of [...Object.keys(files), "identical-english.json"]) fs.rmSync(path.join(ROOT, file));
+});
+
+// A file with nothing to translate warns once per locale, for every locale
+// there will ever be, so it is signed off like a catalog string and by the same
+// file. The allowlist is keyed by the blob id of the English, which for such a
+// file is the id it is already filed under.
+await test("fixture: a content file identical to its English is signed off by path, and one that is not cannot be", () => {
+  const placeholder = "%{comment}\n";
+  const id = blobId(placeholder);
+  const relative = `locales/hu/content/${contentRelativePath(id, ".md")}`;
+  writeTree(ROOT, { [relative]: placeholder });
+
+  const reported = run("validate.mjs", ["hu", "--type=content"]);
+  assert.equal(reported.status, 0, reported.out);
+  assert.match(reported.out, new RegExp(`hu\\s+1 catalog\\(s\\)\\s+content/${contentRelativePath(id, ".md")}`), reported.out);
+  assert.match(reported.out, /--file=locales\/<locale>\/<the path above>/, reported.out);
+
+  const signOff = run("allow-identical.mjs", ["--by=test", "--reason=One placeholder, nothing to translate.", `--file=${path.join(ROOT, relative)}`]);
+  assert.equal(signOff.status, 0, signOff.out);
+  const quiet = run("validate.mjs", ["hu", "--type=content"]);
+  assert.equal(quiet.status, 0, quiet.out);
+  assert.doesNotMatch(quiet.out, /byte-identical/, quiet.out);
+  assert.match(quiet.out, /1 group\(s\) \(1 occurrence\(s\)\) are signed off/, quiet.out);
+
+  // A translated file is not what the warning is about, and an entry for it
+  // would match nothing, so the script refuses it rather than writing a
+  // decision that reads as being in force.
+  const translated = run("allow-identical.mjs", ["--by=test", "--reason=Not identical.", `--file=${path.join(ROOT, "locales/hu/content", contentRelativePath(INSTRUCTIONS_ID, ".md"))}`]);
+  assert.equal(translated.status, 1, translated.out);
+  assert.match(translated.out, /not byte-identical to its English/, translated.out);
+
+  fs.rmSync(path.join(ROOT, relative));
+  fs.rmSync(path.join(ROOT, "identical-english.json"));
+});
+
+// 333 of these in a real run, one line each, burying the eighteen warnings that
+// were about something. The count per catalog is what a person acts on: a rise
+// means English renamed or removed a key.
+await test("fixture: stamped orphans print as one line per catalog, an unstamped one keeps its own, and no key is deleted", () => {
+  const file = path.join(ROOT, "locales/hu/website/backend.json");
+  const meta = path.join(ROOT, "locales/hu/website/backend.meta.json");
+  const original = fs.readFileSync(file, "utf8");
+  const heldMeta = fs.existsSync(meta) ? fs.readFileSync(meta, "utf8") : null;
+  const held = JSON.parse(original);
+  fs.writeFileSync(file, JSON.stringify({ ...held, gone: { first: "Egy", second: "Kettő" }, ahead: { of_english: "Három" } }, null, 2));
+
+  // Every real orphan was stamped while English still had the key, and became an
+  // orphan when English renamed or dropped it, so the two that stand for those
+  // carry the stamp of the string in the catalog. The third has never been
+  // stamped, which is the key-ahead-of-English case.
+  const stamps = heldMeta === null ? { stamps: {} } : JSON.parse(heldMeta);
+  stamps.stamps = { ...stamps.stamps, "gone.first": stringId("Egy"), "gone.second": stringId("Kettő") };
+  fs.writeFileSync(meta, `${JSON.stringify(stamps, null, 2)}\n`);
+
+  const { status, out } = run("validate.mjs", ["hu", "--type=website-backend"]);
+  fs.writeFileSync(file, original);
+  if (heldMeta === null) fs.rmSync(meta);
+  else fs.writeFileSync(meta, heldMeta);
+
+  assert.equal(status, 0, out);
+  assert.doesNotMatch(out, /WARN\s+key not in English: gone\./, out);
+  assert.match(out, /Keys not in English: 2 in 1 catalog\(s\) \(hu 2\)/, out);
+  assert.match(out, /website-backend\s+2 key\(s\)\s+hu/, out);
+  assert.match(out, /Nothing here is deleted/, out);
+
+  // The unstamped one is what a person has to act on, so it is printed in full
+  // with the command that ends it, and the block says it was.
+  assert.match(out, /WARN\s+key not in English and never stamped: ahead\.of_english\..*--source-ref=/, out);
+  assert.match(out, /1 further key\(s\).*never been stamped/, out);
+
+  // Every key is still in the catalog: this is reporting, not a prune.
+  assert.deepEqual(JSON.parse(fs.readFileSync(file, "utf8")), held);
 });
 
 await test("fixture: an edit is a new blob and an edited blurb a stale unit, so both block again; --base scopes it to the PR", () => {
