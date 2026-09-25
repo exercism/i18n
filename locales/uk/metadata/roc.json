@@ -392,5 +392,8 @@
   "exercise:baffling-birthdays:source": "Erik Schierboom",
   "exercise:book-store:name": "Книгарня",
   "exercise:book-store:blurb": "Щоб заохотити продажі різних книжок із популярної серії з пʼяти книг, книгарня вирішила давати знижки на купівлю кількох книжок одночасно.",
-  "exercise:book-store:source": "За мотивами ката harry potter із Cyber-Dojo."
+  "exercise:book-store:source": "За мотивами ката harry potter із Cyber-Dojo.",
+  "exercise:relative-distance:name": "Відносна відстань",
+  "exercise:relative-distance:blurb": "Дано родинне дерево: обчислити ступінь спорідненості.",
+  "exercise:relative-distance:source": "vaeng"
 }

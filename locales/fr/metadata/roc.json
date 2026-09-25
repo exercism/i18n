@@ -392,5 +392,8 @@
   "exercise:baffling-birthdays:source": "Erik Schierboom",
   "exercise:book-store:name": "Librairie",
   "exercise:book-store:blurb": "Pour essayer d'encourager la vente de différents livres d'une série populaire de 5 tomes, une librairie a décidé d'offrir des réductions sur l'achat de plusieurs livres.",
-  "exercise:book-store:source": "Inspiré par le kata harry potter de Cyber-Dojo."
+  "exercise:book-store:source": "Inspiré par le kata harry potter de Cyber-Dojo.",
+  "exercise:relative-distance:name": "Distance relative",
+  "exercise:relative-distance:blurb": "Étant donné un arbre généalogique, calcule le degré de séparation.",
+  "exercise:relative-distance:source": "vaeng"
 }
