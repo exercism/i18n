@@ -18,7 +18,7 @@
 // No dependencies, and no process is run except `git` itself.
 
 import crypto from "node:crypto";
-import { execFileSync } from "node:child_process";
+import { execFile, execFileSync } from "node:child_process";
 
 const MAX_BUFFER = 512 * 1024 * 1024;
 
@@ -30,6 +30,28 @@ export function git(args, cwd, { input, encoding = "utf8", env } = {}) {
     maxBuffer: MAX_BUFFER,
     stdio: ["pipe", "pipe", "pipe"],
     env: env ? { ...process.env, ...env } : process.env
+  });
+}
+
+/**
+ * The same command, awaited instead of blocked on.
+ *
+ * One caller needs this: scripts/lib/fetch-sources.mjs fetches a repo per
+ * metadata catalog, around 124 of them per CI run, and a fetch is almost
+ * entirely time spent waiting for github.com. Run through `git` they would
+ * wait one after another.
+ *
+ * The rejection carries git's stderr on `.stderr`, as execFileSync's does, so
+ * a caller reports the same message whichever it used.
+ */
+export function gitAsync(args, cwd, { input, env } = {}) {
+  return new Promise((resolve, reject) => {
+    const child = execFile("git", args, { cwd, encoding: "utf8", maxBuffer: MAX_BUFFER, env: env ? { ...process.env, ...env } : process.env }, (error, stdout, stderr) => {
+      if (!error) return resolve(stdout);
+      error.stderr = stderr;
+      reject(error);
+    });
+    if (input !== undefined) child.stdin.end(input);
   });
 }
 

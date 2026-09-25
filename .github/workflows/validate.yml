@@ -107,20 +107,24 @@ jobs:
       # a catalog for is fetched too: trees only, plus the few blobs the catalog
       # is built from. If a repo cannot be fetched, its catalogs are reported as
       # `unv` (unverified) and the run does not fail.
+      #
+      # There are around 124 of them and each fetch is almost all round trip, so
+      # source-checkout fetches them several at a time and writes the
+      # --content-repos list for the ones that landed. The shell's job is to
+      # name the repos: it reads them off the catalog filenames, and a name that
+      # is not a plain repo name is dropped here, before it reaches a command
+      # line.
       - name: Fetch the repos metadata catalogs translate
         id: repos
         run: |
           set -euo pipefail
-          REPOS=""
+          NAMES=""
           for name in $(ls locales/*/metadata/*.json 2>/dev/null | grep -v '\.meta\.json$' | xargs -n1 basename 2>/dev/null | sed 's/\.json$//' | sort -u); do
             [[ "$name" =~ ^[A-Za-z0-9][A-Za-z0-9._-]*$ ]] || continue
-            case "$name" in
-              problem-specifications|docs|blog) node scripts/source-checkout.mjs --source="$name" || continue ;;
-              *) node scripts/source-checkout.mjs --source=track --repo="exercism/$name" || continue ;;
-            esac
-            REPOS="${REPOS:+$REPOS,}.source/$name"
+            NAMES="${NAMES:+$NAMES,}$name"
           done
-          echo "list=$REPOS" >> "$GITHUB_OUTPUT"
+          node scripts/source-checkout.mjs --repos="$NAMES" --list="$RUNNER_TEMP/content-repos.txt"
+          echo "list=$(cat "$RUNNER_TEMP/content-repos.txt")" >> "$GITHUB_OUTPUT"
 
       # On a PR the range is merge base to head, and on a push to main the push
       # itself, as in no-deletions.yml. A push whose base this checkout does not
