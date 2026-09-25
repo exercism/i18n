@@ -86,7 +86,8 @@
   },
   "paths": {
     "docs/ABOUT.md": ["9864ed00303fd196319f4058cddc6994eaed0a14"],
-    "docs/INSTALLATION.md": ["cd6ce8521d1baba7dc72cdaf56a8a9eb3cb23882","6d47fa9fc72f34fef0b32f2d6e8d7f754c2f5849"],
+    "docs/CONTRIBUTOR_TOOLS.md": ["1b59632c8ddbb10348bfdbd5a890dd8154583adc"],
+    "docs/INSTALLATION.md": ["6d47fa9fc72f34fef0b32f2d6e8d7f754c2f5849","cd6ce8521d1baba7dc72cdaf56a8a9eb3cb23882"],
     "docs/LEARNING.md": ["b14434dc01362de2abac1b97d0cc6b759d3a2c8b"],
     "docs/RESOURCES.md": ["9811f0460410a89cfc315937e9d39dc64e17f016"],
     "docs/TESTS.md": ["0e968f7d62ba2e542824a7b33dcb309429cd7fe7","bec9502b8987111c0315223e21e299485767937f"],

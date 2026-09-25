@@ -373,6 +373,10 @@ This page is generated from [the index](../../json/hu/risc-v.json) by `scripts/b
 
 - `ABOUT.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/ABOUT.md)): missing
 
+### CONTRIBUTOR\_TOOLS.md
+
+- `CONTRIBUTOR_TOOLS.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/CONTRIBUTOR_TOOLS.md)): [Latest](../../../locales/hu/content/1b/59/632c8ddbb10348bfdbd5a890dd8154583adc.md)
+
 ### How to learn RISC-V
 
 - `LEARNING.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/LEARNING.md)): missing

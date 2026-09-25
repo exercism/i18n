@@ -86,6 +86,7 @@
   },
   "paths": {
     "docs/ABOUT.md": [],
+    "docs/CONTRIBUTOR_TOOLS.md": ["1b59632c8ddbb10348bfdbd5a890dd8154583adc"],
     "docs/INSTALLATION.md": ["6d47fa9fc72f34fef0b32f2d6e8d7f754c2f5849"],
     "docs/LEARNING.md": [],
     "docs/RESOURCES.md": [],

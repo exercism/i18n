@@ -373,14 +373,18 @@ This page is generated from [the index](../../json/el/risc-v.json) by `scripts/b
 
 - `ABOUT.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/ABOUT.md)): [Latest](../../../locales/el/content/98/64/ed00303fd196319f4058cddc6994eaed0a14.md)
 
+### CONTRIBUTOR\_TOOLS.md
+
+- `CONTRIBUTOR_TOOLS.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/CONTRIBUTOR_TOOLS.md)): [Latest](../../../locales/el/content/1b/59/632c8ddbb10348bfdbd5a890dd8154583adc.md)
+
 ### How to learn RISC-V (Πώς να μάθεις RISC-V)
 
 - `LEARNING.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/LEARNING.md)): [Latest](../../../locales/el/content/b1/44/34dc01362de2abac1b97d0cc6b759d3a2c8b.md)
 
 ### Installing RISC-V locally (Τοπική εγκατάσταση της RISC-V)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/el/content/cd/6c/e8521d1baba7dc72cdaf56a8a9eb3cb23882.md)
-  - [`6d47fa9fc7`](../../../locales/el/content/6d/47/fa9fc72f34fef0b32f2d6e8d7f754c2f5849.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/el/content/6d/47/fa9fc72f34fef0b32f2d6e8d7f754c2f5849.md)
+  - [`cd6ce8521d`](../../../locales/el/content/cd/6c/e8521d1baba7dc72cdaf56a8a9eb3cb23882.md)
 
 ### Testing on the RISC-V track (Δοκιμές στη διαδρομή RISC-V)
 
