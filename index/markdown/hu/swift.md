@@ -618,7 +618,8 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 ### High Score Board (Pontszámtábla)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/high-score-board/.docs/instructions.md)): [Latest](../../../locales/hu/content/43/f1/ae5a885c16bd8ed9e6782f0850d31678dccc.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/high-score-board/.docs/introduction.md)): [Latest](../../../locales/hu/content/45/9a/30a5aeabeb024360215871d96aabde04591a.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/high-score-board/.docs/introduction.md)): [Latest](../../../locales/hu/content/f8/e7/30798ee5413f1987cd85ce98dc0e9ee755d1.md)
+  - [`459a30a5ae`](../../../locales/hu/content/45/9a/30a5aeabeb024360215871d96aabde04591a.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/high-score-board/.docs/hints.md)): [Latest](../../../locales/hu/content/06/d9/a9631734df1961e78f2289e6df537a450b8c.md)
 
 ### Lasagna Master (Lasagne-mester)
@@ -774,8 +775,10 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 
 ### Dictionaries (Szótárak)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/dictionaries/introduction.md)): [Latest](../../../locales/hu/content/45/9a/30a5aeabeb024360215871d96aabde04591a.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/dictionaries/about.md)): [Latest](../../../locales/hu/content/61/1a/05063d2df4374b1bc7fbe5c9e346037fa303.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/dictionaries/introduction.md)): [Latest](../../../locales/hu/content/f8/e7/30798ee5413f1987cd85ce98dc0e9ee755d1.md)
+  - [`459a30a5ae`](../../../locales/hu/content/45/9a/30a5aeabeb024360215871d96aabde04591a.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/dictionaries/about.md)): [Latest](../../../locales/hu/content/97/d0/3bffc499f51f4752122b10cade6be1293907.md)
+  - [`611a05063d`](../../../locales/hu/content/61/1a/05063d2df4374b1bc7fbe5c9e346037fa303.md)
 
 ### Enumerations (Felsorolások)
 
@@ -821,10 +824,10 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 
 ### Loops (Ciklusok)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/loops/introduction.md)): [Latest](../../../locales/hu/content/1e/4c/9757ee1fd0767071fa5db0d581496a60110e.md)
-  - [`2f8f888935`](../../../locales/hu/content/2f/8f/8889353459fa4637e93e2ebd64855fdaa4c1.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/loops/about.md)): [Latest](../../../locales/hu/content/1e/4c/9757ee1fd0767071fa5db0d581496a60110e.md)
-  - [`5c93a7a3e8`](../../../locales/hu/content/5c/93/a7a3e81eb9010973c2544380e105b8d7b055.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/loops/introduction.md)): [Latest](../../../locales/hu/content/2f/8f/8889353459fa4637e93e2ebd64855fdaa4c1.md)
+  - [`1e4c9757ee`](../../../locales/hu/content/1e/4c/9757ee1fd0767071fa5db0d581496a60110e.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/loops/about.md)): [Latest](../../../locales/hu/content/5c/93/a7a3e81eb9010973c2544380e105b8d7b055.md)
+  - [`1e4c9757ee`](../../../locales/hu/content/1e/4c/9757ee1fd0767071fa5db0d581496a60110e.md)
 
 ### Methods (Metódusok)
 
