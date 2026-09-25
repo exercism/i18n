@@ -98,7 +98,9 @@ everything at the ref is required rather than only what changed, against every r
 registry knows and every track repo in the organisation. It writes one issue, labelled
 `sweep`, and rewrites that issue in place on every run, so it never spams and never turns
 into a thread. Each row names the command in `exercism/translator` that translates that repo
-into that locale.
+into that locale. The headline counts the repos Exercism still runs; a track that has been
+switched off is swept and reported in its own section, so a reactivated one is still noticed
+and a backlog nobody intends to translate does not drown the drift that matters.
 
 `.github/workflows/translate-on-issue.yml` sends each new or updated issue to
 [`exercism/translator`](https://github.com/exercism/translator) as a `repository_dispatch`

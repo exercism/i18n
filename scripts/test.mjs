@@ -36,7 +36,7 @@ import { CONTENT_TYPES, CONTENT_TYPE_IDS, contentRelativePath, parseContentRelat
 import { REPO_KINDS, checkoutDir, isActiveTrack, kindForRepo } from "./lib/source-repos.mjs";
 import { contentReposList, fetchSource, fetchSources, sourceTarget, targetForName } from "./lib/fetch-sources.mjs";
 import { missingContent, missingUnits, requiredContent, requiredUnits, translatableFiles } from "./lib/completeness.mjs";
-import { SAMPLE, fixCommand, freshness, lastSweptAt, parseShard, shardOf, singletonRepos, standing, summariseRepo, summaryBody, summaryTitle, sweptRepos } from "./lib/sweep.mjs";
+import { SAMPLE, fixCommand, freshness, gated, lastSweptAt, parseShard, shardOf, singletonRepos, standing, summariseRepo, summaryBody, summaryTitle, sweptRepos } from "./lib/sweep.mjs";
 import { buildMetadataEnglish, changedCopyKeys, fileCopy, readTomlStrings } from "./lib/metadata.mjs";
 import { buildWebsiteEnglish, globToRegExp, isWebsiteEnglishPath, loadExclusions } from "./lib/website-english.mjs";
 import { findDeletions } from "./no-deletions.mjs";
@@ -783,7 +783,39 @@ await test("sweep: a run that could not read everything says its counts are a fl
   assert.match(body, /exercism\/nim`: could not fetch/);
   // The title carries the headline, so a summary nobody has rewritten looks old
   // in a list of issues without anyone opening it.
-  assert.match(summaryTitle(entries, ["hu"], SWEPT_AT), /^Translation sweep: 12 outstanding across 1 source repo\(s\), as of 2026-09-23$/);
+  assert.match(summaryTitle(entries, ["hu"], SWEPT_AT), /^Translation sweep: 12 outstanding across 1 active source repo\(s\), as of 2026-09-23$/);
+});
+
+await test("sweep: a track Exercism no longer runs is reported on its own and never added to the headline", () => {
+  // The two numbers this separates are the real ones from 2026-09-24: `go` had
+  // drifted by 4 items in an otherwise complete track, and `haxe`, which the
+  // website stopped showing, had 460 nobody intends to translate. Summing them
+  // gave a headline of 3,089 that nobody could act on.
+  const drift = entryFor("exercism/go", "track", 986, 4, ["concepts/range-iteration/about.md (concept-about)"]);
+  const dormant = { ...entryFor("exercism/haxe", "track", 597, 460), active: false };
+  const entries = [drift, dormant];
+
+  assert.match(summaryTitle(entries, ["hu"], SWEPT_AT), /^Translation sweep: 4 outstanding across 1 active source repo\(s\), as of 2026-09-23$/);
+
+  const body = summaryBody({ entries, locales: ["hu"], sweptAt: SWEPT_AT });
+  assert.match(body, /^1 active source repo\(s\) read at `main`, against hu\. Outstanding translations, hu: 4\.$/m);
+  assert.match(body, /also read 1 track repo\(s\) Exercism no longer runs, holding hu: 460/);
+  assert.ok(!/hu: 464/.test(body), "the two counts are added together somewhere in the body");
+
+  // The part translated / not started split is what tells drift from backlog, so
+  // it applies inside each half rather than across the report.
+  const [active, inactiveSection] = body.split(/^## Inactive tracks \(1\)$/m);
+  assert.match(active, /## Part translated \(1\)[\s\S]*exercism\/go/);
+  assert.ok(!active.includes("exercism/haxe"), "an inactive track is listed among the work that gates");
+  assert.match(inactiveSection, /### Part translated \(1\)[\s\S]*exercism\/haxe/);
+  assert.match(inactiveSection, /node scripts\/translate\.mjs track haxe hu/, "the inactive section drops the command to fix a row");
+
+  // A shard written before the sweep knew about the flag has no `active`, and an
+  // unknown counts as gated: the error that hides work is the one to avoid.
+  assert.equal(gated(drift), true);
+  assert.equal(gated(dormant), false);
+  assert.equal(summariseRepo({ repo: "exercism/go", kind: "track", head: "abc", required: { content: 1 }, locales: { hu: [] } }, ["hu"]).active, true);
+  assert.equal(summariseRepo({ repo: "exercism/haxe", kind: "track", head: "abc", required: { content: 1 }, locales: { hu: [] } }, ["hu"], { active: false }).active, false);
 });
 
 // --------------------------------------------------------------- the queue --

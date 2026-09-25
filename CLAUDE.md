@@ -300,6 +300,12 @@ finds, against every locale in `productionTargets`, and it reports rather than q
 
 - **It reports into one issue**, labelled `sweep`, rewritten in place on every run. Nothing
   is ever posted twice and the issue is not a thread. Do not close it.
+- **The headline counts the active repos only.** A track whose own `config.json` says
+  `"active": false` is one the website no longer shows, so a missing translation of it is
+  text no reader can reach, and `validate.mjs` already stops requiring its metadata catalog.
+  The sweep still reads those tracks, so a reactivated one appears on the next run, and it
+  reports them in their own section with their own counts. On 2026-09-24 that was the
+  difference between a headline of 3,109 and one of 26.
 - **It opens no translation issues.** The queue's issues are scoped to a pull request
   (`exercism/translator`'s `run-issue.mjs` derives a run's scope from a PR's diff), and a
   sweep has no PR. What it finds is a whole-repo pass, which is

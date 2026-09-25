@@ -49,7 +49,8 @@ import path from "node:path";
 import { spawnSync } from "node:child_process";
 import { PRODUCTION_LOCALES, SCRIPTS_ROOT, assertTargetLocale, fail, productionGateNotice } from "./lib/constants.mjs";
 import { parseArgs } from "./lib/args.mjs";
-import { checkoutDir, kindForRepo } from "./lib/source-repos.mjs";
+import { lsTree, refReader } from "./lib/git.mjs";
+import { checkoutDir, isActiveTrack, kindForRepo } from "./lib/source-repos.mjs";
 import { lastSweptAt, parseShard, shardOf, summariseRepo, summaryBody, summaryTitle, sweptRepos } from "./lib/sweep.mjs";
 
 const script = (name) => path.join(SCRIPTS_ROOT, "scripts", name);
@@ -86,6 +87,22 @@ function checkout(repo, mode) {
   return dir;
 }
 
+/**
+ * Whether Exercism still runs this repo, from the track's own config.json.
+ *
+ * Only a track can be inactive. The sweep asks the question rather than
+ * scripts/completeness.mjs, which every source repo runs on every pull request:
+ * whether a repo holds its translations does not change with the track's
+ * status, so the gate is left exactly as it was, and it is the sweep, which has
+ * to decide what goes in a headline, that asks. It costs no extra traffic: a
+ * track's config.json is one of the metadata files, so the run has already
+ * fetched that blob and this read comes out of the local object store.
+ */
+function isActive(repo, dir) {
+  if (repo.kind !== "track") return true;
+  return isActiveTrack(lsTree(dir, "HEAD"), refReader(dir, "HEAD").readMany);
+}
+
 function sweepOne(repo, locales, { fetch, full }) {
   const dir = checkout(repo, fetch);
   const json = path.join(fs.mkdtempSync(path.join(process.env.RUNNER_TEMP ?? "/tmp", "sweep-")), "report.json");
@@ -95,7 +112,7 @@ function sweepOne(repo, locales, { fetch, full }) {
   if (!fs.existsSync(json)) throw new Error(`completeness wrote no report: ${`${result.stdout}${result.stderr}`.trim().split("\n").pop()}`);
   const report = JSON.parse(fs.readFileSync(json, "utf8"));
   if (full) fs.writeFileSync(path.join(full, `${repo.name.split("/").pop()}.json`), `${JSON.stringify(report, null, 2)}\n`);
-  return summariseRepo(report, locales);
+  return summariseRepo(report, locales, { active: isActive(repo, dir) });
 }
 
 function sweep(flags) {
@@ -126,7 +143,7 @@ function sweep(flags) {
       const entry = sweepOne(repo, locales, { fetch, full });
       entries.push(entry);
       const outstanding = locales.map((locale) => `${locale} ${entry.locales[locale].outstanding}`).join(", ");
-      console.log(`  ${position + 1}/${repos.length} ${repo.name}: ${entry.required} required, outstanding ${outstanding || "(nothing asked)"} (${Math.round((Date.now() - started) / 1000)}s)`);
+      console.log(`  ${position + 1}/${repos.length} ${repo.name}${entry.active ? "" : " (inactive)"}: ${entry.required} required, outstanding ${outstanding || "(nothing asked)"} (${Math.round((Date.now() - started) / 1000)}s)`);
     } catch (error) {
       failures.push({ repo: repo.name, error: error.message });
       console.log(`  ${position + 1}/${repos.length} ${repo.name}: FAILED, ${error.message}`);
