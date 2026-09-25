@@ -5,7 +5,7 @@
 // Usage:
 //   node scripts/validate.mjs [<locale|all>] [--type=website-backend|website-frontend|metadata|content]
 //                             [--complete] [--gate=all] [--json=<path>]
-//                             [--stamp] [--stamp-units=<id,id|@file>]
+//                             [--stamp] [--stamp-units=<id,id|@file>] [--stamp-changed=<ref>]
 //                             [--source-repo=<website checkout>] [--source-ref=<ref>]
 //                             [--content-repos=<path[:kind][@ref]>,...]
 //
@@ -14,6 +14,8 @@
 //   node scripts/validate.mjs hu --complete             # is hu ready to serve?
 //   node scripts/validate.mjs hu --type=website-backend --stamp --source-ref=<sha>
 //                                                       # after a pass, against the English it translated
+//   node scripts/validate.mjs all --stamp --stamp-changed=origin/main
+//                                                       # stamp what this change wrote, and nothing else
 //   node scripts/validate.mjs hu --type=content --content-repos=../ruby,../problem-specifications
 //                                                       # also compare structure where the English is findable
 //
@@ -65,6 +67,18 @@
 // See the staleness section in scripts/lib/checks.mjs. Content has no
 // staleness: it is keyed by the blob id of its English.
 //
+// ## An unstamped unit is an error
+//
+// Staleness is counted, and an absent stamp is not. A unit with no stamp is
+// text that nothing can tie to any English, so completeness.mjs refuses it and
+// blocks every source repo PR that touches the same key. That failure surfaces
+// in another repo, hours later, reading like something else entirely, which is
+// exactly how three of these got in. So a unit held to completeness (a
+// production locale, or any locale under `--complete`) that has no stamp is an
+// ERROR here, where the change that caused it can still be seen.
+//
+// The error only fires on a unit CI cannot stamp itself. See below.
+//
 // ## Stamping
 //
 // `--stamp` writes `<catalog>.meta.json`. Without it this script writes
@@ -79,8 +93,26 @@
 // The English a pass translated and the English `--stamp` hashes must be the
 // same bytes. Point both at one commit with `--source-ref=<sha>`.
 //
-// CI never stamps. A stamp says a translation matches its English, and only
-// the pass that wrote the text should say that.
+// ## Stamping what a change wrote, which is what CI does
+//
+// `--stamp-changed=<ref>` narrows stamping to the units whose translated text
+// differs from `<ref>`. It is what makes stamping safe to automate: nobody can
+// say which English an old unstamped unit was written against, but the unit a
+// change rewrites was written against the English of the moment, which is the
+// English this run resolves. So the diff is the evidence, and a unit outside it
+// is never touched. scripts/lib/catalogs.mjs has the full reasoning.
+//
+// With `--stamp` the units are stamped. Without it the run is a dry run: those
+// units are counted as `stampable` and are not held against the change, because
+// .github/workflows/stamp.yml stamps them when it lands on main. Everything
+// else with no stamp is the ERROR above.
+//
+// Nothing is invented. A key English does not have is not a unit at all, so it
+// is never stamped (it is the "key not in English and never stamped" WARN, and
+// only the source repo PR carrying that English can stamp it). A unit whose
+// English moved after it was stamped is stale, and staleness is re-stamped only
+// when a pass names the unit in `--stamp-units`. And a unit with an ERROR of its
+// own is never stamped, whatever else is true of it.
 
 import fs from "node:fs";
 import path from "node:path";
@@ -89,7 +121,7 @@ import { parseArgs } from "./lib/args.mjs";
 import { lsTree, readBlobs, refReader, resolveSha } from "./lib/git.mjs";
 import { defaultRef, isActiveTrack, parseContentRepos, resolveRepo } from "./lib/source-repos.mjs";
 import { buildWebsiteEnglish } from "./lib/website-english.mjs";
-import { CATALOG_KINDS, DONE, MISSING, STALE, UNSTAMPED, catalogPath, englishUnits, flattenCatalog, readStamps, targetEntries, unitHash, unitState, writeStamps } from "./lib/catalogs.mjs";
+import { CATALOG_KINDS, DONE, MISSING, STALE, UNSTAMPED, assertChangedRef, catalogPath, changedCatalogKeys, englishUnits, flattenCatalog, readStamps, targetEntries, unitHash, unitState, unitTouched, writeStamps } from "./lib/catalogs.mjs";
 import { CATALOG_TYPE_IDS, CONTENT_EXTENSIONS, CONTENT_TYPE_ID } from "./lib/content-types.mjs";
 import { listContentFiles } from "./lib/content-store.mjs";
 import { METADATA_KIND, METADATA_REPO_KINDS, METADATA_TYPE_ID, buildMetadataEnglish, heldMetadataRepos, metadataPath } from "./lib/metadata.mjs";
@@ -103,7 +135,7 @@ function parseStampUnits(value) {
   return new Set(list.map((id) => String(id).trim()).filter(Boolean));
 }
 
-function validateCatalog({ locale, kind, english, requireComplete, stamp, stampUnits, file = catalogPath(locale, kind), type = `website-${kind}` }) {
+function validateCatalog({ locale, kind, english, requireComplete, stamp, stampUnits, changedRef = null, file = catalogPath(locale, kind), type = `website-${kind}` }) {
   const units = englishUnits(kind, english.catalog);
   const result = { locale, type, issues: [], counts: { total: units.size, [DONE]: 0, [STALE]: 0, [UNSTAMPED]: 0, [MISSING]: 0, extra: 0 }, stamped: 0 };
 
@@ -123,27 +155,59 @@ function validateCatalog({ locale, kind, english, requireComplete, stamp, stampU
   }
 
   const flatTarget = flattenCatalog(kind, tree);
-  const checked = checkCatalog(english.catalog, flatTarget, { kind, locale, requireComplete });
+  const stamps = readStamps(file);
+  const checked = checkCatalog(english.catalog, flatTarget, { kind, locale, requireComplete, stamps });
   result.issues = checked.issues;
   result.counts.extra = checked.extra.length;
 
   const failedUnits = new Set(checked.issues.filter((found) => found.level === ERROR && found.unit).map((found) => found.unit));
-  const stamps = readStamps(file);
   let changed = false;
+
+  // With --stamp-changed, only the units this change wrote may be stamped, and
+  // the rest are left exactly as they are. See "changed units" in
+  // scripts/lib/catalogs.mjs for why the diff is what makes the stamp true.
+  const changedKeys = changedRef === null ? null : changedCatalogKeys(kind, file, changedRef);
+  const stampable = [];
+  const unstamped = [];
 
   for (const unit of units.values()) {
     const entries = targetEntries(kind, unit, flatTarget);
     let state = unitState(unit, entries, stamps);
-    const eligible = state === UNSTAMPED || (state === STALE && stampUnits.has(unit.id));
-    if (stamp && eligible && !failedUnits.has(unit.id)) {
+    const written = changedKeys === null || unitTouched(kind, unit, changedKeys);
+    const eligible = written && (state === UNSTAMPED || (state === STALE && stampUnits.has(unit.id))) && !failedUnits.has(unit.id);
+    if (stamp && eligible) {
       stamps[unit.id] = unitHash(unit);
       state = DONE;
       changed = true;
       result.stamped += 1;
+    } else if (state === UNSTAMPED) {
+      // Without --stamp this is a dry run: a unit a stamping run would stamp is
+      // reported as stampable and is not held against the change, because CI
+      // stamps it on the way in.
+      (eligible ? stampable : unstamped).push(unit.id);
     }
     result.counts[state] += 1;
   }
   if (changed) writeStamps(file, stamps);
+  if (stampable.length > 0) result.counts.stampable = stampable.length;
+
+  // An unstamped unit is text nothing can tie to any English, so completeness
+  // refuses it and blocks every source repo PR that touches the same key, in a
+  // repo whose author never sees this run. It has to fail here instead.
+  if (requireComplete && unstamped.length > 0) {
+    const shown = unstamped.slice(0, 10).join(", ");
+    const typeFlag = kind === "metadata" ? METADATA_TYPE_ID : `website-${kind}`;
+    const fix =
+      changedRef === null
+        ? `Check that text against English and stamp it: node scripts/validate.mjs ${locale} --type=${typeFlag} --stamp`
+        : `This change did not write that text, so nothing here can say which English it was translated from. Someone has to check it against English and stamp it deliberately: node scripts/validate.mjs ${locale} --type=${typeFlag} --stamp`;
+    result.issues.push({
+      level: ERROR,
+      message:
+        `${unstamped.length} unit(s) translated but never checked against any English: ${shown}${unstamped.length > 10 ? `, and ${unstamped.length - 10} more` : ""}. ` +
+        `A stamp records which English a unit was checked against, and completeness.mjs blocks a source repo's PR on a unit that has none. ${fix}`
+    });
+  }
   return result;
 }
 
@@ -155,7 +219,7 @@ function validateCatalog({ locale, kind, english, requireComplete, stamp, stampU
  * `ruby`. Without one it is still read and shape-checked, and reported as
  * unverified, never `ok`, because this run has not seen its English.
  */
-function validateMetadata({ locale, contentRepos, requireComplete, stamp, stampUnits }) {
+function validateMetadata({ locale, contentRepos, requireComplete, stamp, stampUnits, changedRef }) {
   const results = [];
   const repos = new Map(contentRepos.map((repo) => [path.basename(repo.dir), repo]));
 
@@ -184,7 +248,7 @@ function validateMetadata({ locale, contentRepos, requireComplete, stamp, stampU
     const repo = repos.get(name);
     if (repo) {
       const english = buildMetadataEnglish(repo.kind, treeOf(repo), refReader(repo.dir, repo.ref).readMany);
-      results.push(validateCatalog({ locale, kind: METADATA_KIND, english, requireComplete, stamp, stampUnits, file, type }));
+      results.push(validateCatalog({ locale, kind: METADATA_KIND, english, requireComplete, stamp, stampUnits, changedRef, file, type }));
       continue;
     }
     const result = { locale, type, issues: [], counts: { total: 0, unverified: 0 }, unverified: true };
@@ -255,6 +319,9 @@ async function main() {
   const complete = Boolean(flags.complete);
   const stampUnits = parseStampUnits(flags["stamp-units"]);
   const stamp = Boolean(flags.stamp) || stampUnits.size > 0;
+  const changedRef = typeof flags["stamp-changed"] === "string" ? flags["stamp-changed"] : null;
+  if (flags["stamp-changed"] === true) fail(`--stamp-changed needs a ref to compare against, as --stamp-changed=origin/main.`);
+  if (changedRef !== null) assertChangedRef(changedRef);
   const requiresComplete = (locale) => complete || PRODUCTION_LOCALES.includes(locale);
 
   const notice = productionGateNotice();
@@ -283,9 +350,9 @@ async function main() {
   const results = [];
   for (const locale of locales) {
     for (const kind of english ? kinds : []) {
-      results.push(validateCatalog({ locale, kind, english: english[kind], requireComplete: requiresComplete(locale), stamp, stampUnits }));
+      results.push(validateCatalog({ locale, kind, english: english[kind], requireComplete: requiresComplete(locale), stamp, stampUnits, changedRef }));
     }
-    if (types.includes(METADATA_TYPE_ID)) results.push(...validateMetadata({ locale, contentRepos, requireComplete: requiresComplete(locale), stamp, stampUnits }));
+    if (types.includes(METADATA_TYPE_ID)) results.push(...validateMetadata({ locale, contentRepos, requireComplete: requiresComplete(locale), stamp, stampUnits, changedRef }));
     if (types.includes(CONTENT_TYPE_ID)) results.push(validateContent({ locale, contentRepos }));
   }
 

@@ -19,6 +19,15 @@
 // other way round: English drops a key, and the translation still has it while
 // the old release is being served.
 //
+// An extra key with no stamp is the one worth reading. Its English is on some
+// branch this run cannot see, so nothing here can hash it, and CI cannot stamp
+// it either (validate.mjs, "Stamping what a change wrote"). The PR carrying
+// that English stays blocked until someone stamps the key against that PR's
+// own head. That is what happened to exercism/website#9693, in a repo whose
+// author never saw this run, so the WARN says which command ends it. It stays
+// a WARN: a key ahead of English is legitimate, and the key cannot be removed
+// either (nothing under locales/ is deleted).
+//
 // ## Staleness is counted, and does not block here
 //
 // A unit stamped against older English is neither extra nor missing. In Jiki's
@@ -117,7 +126,7 @@ function checkValue({ kind, where, source, value, issues, unitId }) {
  * @param {boolean} options.requireComplete  a missing unit is an ERROR
  * @returns {{ issues, missing: string[], extra: string[] }}
  */
-export function checkCatalog(flatEnglish, flatTarget, { kind, locale, requireComplete = false }) {
+export function checkCatalog(flatEnglish, flatTarget, { kind, locale, requireComplete = false, stamps = {} }) {
   const issues = [];
   const units = englishUnits(kind, flatEnglish);
   const spelling = PLURAL_SPELLING[kind];
@@ -178,7 +187,23 @@ export function checkCatalog(flatEnglish, flatTarget, { kind, locale, requireCom
   // above.
   const claimed = claimedKeys(kind, units);
   const extra = Object.keys(flatTarget).filter((key) => !claimed.has(key));
-  for (const key of extra) issues.push(issue(WARN, `key not in English: ${key} (fine while English catches up; stale if English never had it)`));
+  const typeFlag = kind === "metadata" ? "metadata" : `website-${kind}`;
+  for (const key of extra) {
+    // A key ahead of English has no unit id, so its stamp is under the id it
+    // will have: itself, or its group's, once English catches up.
+    const parsed = spelling.split(key);
+    const stamped = key in stamps || (parsed !== null && spelling.unitId(parsed.base, parsed.ordinal) in stamps);
+    if (stamped) issues.push(issue(WARN, `key not in English: ${key} (fine while English catches up; stale if English never had it)`));
+    else {
+      issues.push(
+        issue(
+          WARN,
+          `key not in English and never stamped: ${key}. Its English is on a branch this run cannot see, so nothing here can hash it, and the source repo's PR that carries it stays blocked until it is: ` +
+            `node scripts/validate.mjs ${locale} --type=${typeFlag} --stamp --source-ref=<that PR's head sha>`
+        )
+      );
+    }
+  }
 
   return { issues, missing, extra };
 }

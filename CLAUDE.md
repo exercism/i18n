@@ -82,10 +82,27 @@ and translation passes work against those:
   each unit with the hash of the English it was checked against. The states are `done`,
   `stale`, `unstamped` and `missing`. English edits are caught by the source PR's completeness
   check, outside this repo's CI.
+- **An unstamped unit is an ERROR** for a production locale, and under `--complete`.
+  `completeness.mjs` cannot tie such a unit to any English, so it blocks every source repo PR
+  that touches the same key, in a repo whose author never sees this run. That happened three
+  times before the error existed.
 - **Stamps are written by `validate --stamp`, never by hand.** A hand-written stamp looks like
   a passed check without being one, and models invent plausible hashes. `--stamp` stamps
   unstamped units that pass. A stale unit is only re-stamped when it is listed in
   `--stamp-units`, because the script cannot tell a retranslated unit from an untouched one.
+- **CI stamps what a change wrote.** `.github/workflows/stamp.yml` runs
+  `validate --stamp --stamp-changed=<the pushed range>` on every push to `main` and commits
+  the stamps back, so a hand edit stamps itself. `--stamp-changed` narrows stamping to the
+  units whose text the change rewrote: their author wrote them against the English of the
+  moment, which is the English the run resolves, and no such claim can be made about anything
+  else in the tree. A pull request makes the same comparison without `--stamp` and reports
+  those units as `stampable`, so a contributor with no write access is asked for nothing and
+  is never blocked. Everything the stamper cannot resolve is the ERROR above.
+- **A key ahead of English cannot be stamped by CI at all.** Its English is on some source
+  repo's branch, which no run here reads, so an unstamped extra key gets a WARN naming the
+  one command that ends it: `validate --stamp --source-ref=<that PR's head>`. That is
+  exercism/website#9693, and it is why the extra-key WARN now says more than "fine while
+  English catches up".
 - **The website's own `hu:` and `nl:` trees are not migrated.** `config/locales/pages/track.yml`
   holds Hungarian and Dutch beside `en:`. The build reads only the `en:` root. This is
   deliberate: both languages will be translated again from scratch with the current engine,
@@ -221,7 +238,7 @@ header comment is its documentation, so read it before changing the script. Ther
 | Script | What it does |
 | --- | --- |
 | `build-english.mjs` | Flattens the website's English. Writes `.build/english/{backend,frontend,arrays,source}.json` for a translation pass to read, or with `--content-repos` one `.build/english/metadata/<repo>.json` per repo. The other scripts call the same builder directly and do not read these files. |
-| `validate.mjs` | The checker. Catalogs: unit parity, plural groups, placeholders, tags, whitespace. Content: path shape, UTF-8, JSON, no stamps, copied English, and structure against English when `--content-repos` provides it. Writes stamps with `--stamp`. Exits 1 on an ERROR in a production locale; `--gate=all` and `--complete` widen that. |
+| `validate.mjs` | The checker. Catalogs: unit parity, plural groups, placeholders, tags, whitespace. Content: path shape, UTF-8, JSON, no stamps, copied English, and structure against English when `--content-repos` provides it. Writes stamps with `--stamp`, narrowed to what a change wrote by `--stamp-changed=<ref>`. Exits 1 on an ERROR in a production locale; `--gate=all` and `--complete` widen that. |
 | `completeness.mjs` | The blocking check for one source repo, in full or relative to `--base`. Content is checked by blob id, website and metadata units by presence and stamp, so an edited key or blurb blocks. |
 | `sweep.mjs` | The daily reconciliation: `completeness.mjs` with no `--base` against every source repo's `main`, sharded, merged into one standing summary issue. It answers what the per-PR check cannot, because that check is evaluated before the PR merges. |
 | `english-changes.mjs` | Used by the queue. Turns GitHub's PR file list (paths and blob shas) into the issue's table. For a changed `config.json` or `metadata.toml` it lists the keys whose English changed, using both versions of the file fetched by blob id. With `--push` it reports whether one push to a queued PR changed the PR's English, using the two commits' trees. It reads API responses, never a checkout. |
@@ -333,7 +350,7 @@ code it would change.
 
 - **No em dashes** in prose, here or in translated content.
 - Refer to the owner as **iHiD** in code, comments and commit messages.
-- **Never hand-write a stamp.** `validate --stamp` writes them.
+- **Never hand-write a stamp.** `validate --stamp` writes them, and on `main` CI runs it.
 - **Never delete under `locales/`.** Add and update.
 - **Never turn a warning into an error.**
 - **Never store English here**, including as filler for an untranslated key. A missing unit
