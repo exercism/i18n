@@ -16,6 +16,10 @@ This page is generated from [the index](../../json/el/gdscript.json) by `scripts
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/anagram/.docs/instructions.md)): [Latest](../../../locales/el/content/7d/1c/8283ef9284e827fabb92d8ae88f0cc8428b1.md)
 
+### Armstrong Numbers (Αριθμοί Armstrong)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/armstrong-numbers/.docs/instructions.md)): [Latest](../../../locales/el/content/5e/56/bbe4656fc837237e9d778b2d0d614554330b.md)
+
 ### Atbash Cipher (Κρυπτογράφημα Atbash)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/atbash-cipher/.docs/instructions.md)): [Latest](../../../locales/el/content/21/ca/2ce0aa806b97f21182196eebe554c4b984ef.md)

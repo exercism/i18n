@@ -89,5 +89,8 @@
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a GDScript-et",
   "exercise:anagram:name": "Anagramma",
   "exercise:anagram:blurb": "Egy szó és a lehetséges anagrammák listája alapján válaszd ki a helyes részlistát.",
-  "exercise:anagram:source": "Az Extreme Startup játék ihlette"
+  "exercise:anagram:source": "Az Extreme Startup játék ihlette",
+  "exercise:armstrong-numbers:name": "Armstrong-számok",
+  "exercise:armstrong-numbers:blurb": "Állapítsd meg, hogy egy szám Armstrong-szám-e.",
+  "exercise:armstrong-numbers:source": "Wikipedia"
 }

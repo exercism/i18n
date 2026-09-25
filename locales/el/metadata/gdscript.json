@@ -89,5 +89,8 @@
   "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων για να σε βοηθήσουν να κατακτήσεις την GDScript",
   "exercise:anagram:name": "Ανάγραμμα",
   "exercise:anagram:blurb": "Με δεδομένη μια λέξη και μια λίστα πιθανών αναγραμματισμών, επίλεξε τη σωστή υπολίστα.",
-  "exercise:anagram:source": "Εμπνευσμένο από το παιχνίδι Extreme Startup"
+  "exercise:anagram:source": "Εμπνευσμένο από το παιχνίδι Extreme Startup",
+  "exercise:armstrong-numbers:name": "Αριθμοί Armstrong",
+  "exercise:armstrong-numbers:blurb": "Προσδιόρισε αν ένας αριθμός είναι αριθμός Armstrong.",
+  "exercise:armstrong-numbers:source": "Wikipedia"
 }

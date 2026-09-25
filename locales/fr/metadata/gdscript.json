@@ -89,5 +89,8 @@
   "doc:resources:blurb": "Une sélection de ressources utiles pour t'aider à maîtriser GDScript",
   "exercise:anagram:name": "Anagramme",
   "exercise:anagram:blurb": "À partir d'un mot et d'une liste d'anagrammes possibles, sélectionne la bonne sous-liste.",
-  "exercise:anagram:source": "Inspiré du jeu Extreme Startup"
+  "exercise:anagram:source": "Inspiré du jeu Extreme Startup",
+  "exercise:armstrong-numbers:name": "Nombres d'Armstrong",
+  "exercise:armstrong-numbers:blurb": "Détermine si un nombre est un nombre d'Armstrong.",
+  "exercise:armstrong-numbers:source": "Wikipedia"
 }
