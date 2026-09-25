@@ -532,8 +532,8 @@ This page is generated from [the index](../../json/uk/swift.json) by `scripts/bu
 ### Lasagna Master (Майстер лазаньї)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/instructions.md)): [Latest](../../../locales/uk/content/e7/be/156216e1bfe80505bfd12b3fd32d2216fff1.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/introduction.md)): [Latest](../../../locales/uk/content/23/77/faff0684164dc4fcc00e56ddd9618faca817.md)
-  - [`634275fc1d`](../../../locales/uk/content/63/42/75fc1d2535300a0f707f6207f274f7d8c297.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/introduction.md)): [Latest](../../../locales/uk/content/63/42/75fc1d2535300a0f707f6207f274f7d8c297.md)
+  - [`2377faff06`](../../../locales/uk/content/23/77/faff0684164dc4fcc00e56ddd9618faca817.md)
   - [`b149a2de4d`](../../../locales/uk/content/b1/49/a2de4d26bd3e78a81bb0cdab6658e63b44e2.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/hints.md)): [Latest](../../../locales/uk/content/58/5b/ba325cb63f84fb923ea554b22f1b5ec3c258.md)
 
@@ -731,15 +731,17 @@ This page is generated from [the index](../../json/uk/swift.json) by `scripts/bu
 
 ### Multiple Return Values (Кілька повернених значень)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/multiple-return-values/introduction.md)): [Latest](../../../locales/uk/content/4d/00/8ea203586ba91202e29926eea661aa93b223.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/multiple-return-values/about.md)): [Latest](../../../locales/uk/content/57/ba/acdd52876f0791a4c02ec082bd79b18ed59c.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/multiple-return-values/introduction.md)): [Latest](../../../locales/uk/content/56/93/72460742ff706a400dad0074dac02dca1eb1.md)
+  - [`4d008ea203`](../../../locales/uk/content/4d/00/8ea203586ba91202e29926eea661aa93b223.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/multiple-return-values/about.md)): [Latest](../../../locales/uk/content/d0/84/251577cdeea5b542a50ab98beb49fbecf1d3.md)
+  - [`57baacdd52`](../../../locales/uk/content/57/ba/acdd52876f0791a4c02ec082bd79b18ed59c.md)
 
 ### Nested Functions (Вкладені функції)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/nested-functions/introduction.md)): [Latest](../../../locales/uk/content/c6/26/3250f7854c3bb6a49e524ce04eb4c5fbf189.md)
-  - [`11dd511459`](../../../locales/uk/content/11/dd/51145958b74917615bb81b69e19ac192596b.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/nested-functions/about.md)): [Latest](../../../locales/uk/content/bc/da/20f357e78147ce9348e62d44553f08704d51.md)
-  - [`11dd511459`](../../../locales/uk/content/11/dd/51145958b74917615bb81b69e19ac192596b.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/nested-functions/introduction.md)): [Latest](../../../locales/uk/content/11/dd/51145958b74917615bb81b69e19ac192596b.md)
+  - [`c6263250f7`](../../../locales/uk/content/c6/26/3250f7854c3bb6a49e524ce04eb4c5fbf189.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/nested-functions/about.md)): [Latest](../../../locales/uk/content/11/dd/51145958b74917615bb81b69e19ac192596b.md)
+  - [`bcda20f357`](../../../locales/uk/content/bc/da/20f357e78147ce9348e62d44553f08704d51.md)
 
 ### Numbers (Числа)
 

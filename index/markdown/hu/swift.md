@@ -828,15 +828,17 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 
 ### Multiple Return Values (Több visszatérési érték)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/multiple-return-values/introduction.md)): [Latest](../../../locales/hu/content/4d/00/8ea203586ba91202e29926eea661aa93b223.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/multiple-return-values/about.md)): [Latest](../../../locales/hu/content/57/ba/acdd52876f0791a4c02ec082bd79b18ed59c.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/multiple-return-values/introduction.md)): [Latest](../../../locales/hu/content/56/93/72460742ff706a400dad0074dac02dca1eb1.md)
+  - [`4d008ea203`](../../../locales/hu/content/4d/00/8ea203586ba91202e29926eea661aa93b223.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/multiple-return-values/about.md)): [Latest](../../../locales/hu/content/d0/84/251577cdeea5b542a50ab98beb49fbecf1d3.md)
+  - [`57baacdd52`](../../../locales/hu/content/57/ba/acdd52876f0791a4c02ec082bd79b18ed59c.md)
 
 ### Nested Functions (Egymásba ágyazott függvények)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/nested-functions/introduction.md)): [Latest](../../../locales/hu/content/c6/26/3250f7854c3bb6a49e524ce04eb4c5fbf189.md)
-  - [`11dd511459`](../../../locales/hu/content/11/dd/51145958b74917615bb81b69e19ac192596b.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/nested-functions/about.md)): [Latest](../../../locales/hu/content/bc/da/20f357e78147ce9348e62d44553f08704d51.md)
-  - [`11dd511459`](../../../locales/hu/content/11/dd/51145958b74917615bb81b69e19ac192596b.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/nested-functions/introduction.md)): [Latest](../../../locales/hu/content/11/dd/51145958b74917615bb81b69e19ac192596b.md)
+  - [`c6263250f7`](../../../locales/hu/content/c6/26/3250f7854c3bb6a49e524ce04eb4c5fbf189.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/nested-functions/about.md)): [Latest](../../../locales/hu/content/11/dd/51145958b74917615bb81b69e19ac192596b.md)
+  - [`bcda20f357`](../../../locales/hu/content/bc/da/20f357e78147ce9348e62d44553f08704d51.md)
 
 ### Numbers (Számok)
 
