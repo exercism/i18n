@@ -110,6 +110,10 @@ This page is generated from [the index](../../json/el/php.json) by `scripts/buil
 - `instructions.md` ([English](https://github.com/exercism/php/blob/main/exercises/practice/collatz-conjecture/.docs/instructions.md)): [Latest](../../../locales/el/content/af/33/2a810f0f31aa1233e92bea57721d3025f4e0.md)
 - `introduction.md` ([English](https://github.com/exercism/php/blob/main/exercises/practice/collatz-conjecture/.docs/introduction.md)): [Latest](../../../locales/el/content/c3/5b/deb67dceef4bf9769dbbf473e841cdd068f2.md)
 
+### Complex Numbers (Μιγαδικοί αριθμοί)
+
+- `instructions.md` ([English](https://github.com/exercism/php/blob/main/exercises/practice/complex-numbers/.docs/instructions.md)): [Latest](../../../locales/el/content/2b/8a/7a49d824f84448eda21c4281ab2c8213d03a.md)
+
 ### Connect
 
 - `instructions.md` ([English](https://github.com/exercism/php/blob/main/exercises/practice/connect/.docs/instructions.md)): [Latest](../../../locales/el/content/7f/34/bfa817f0d0c1d360892d0cbaaa1d5347b0cd.md)

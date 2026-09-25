@@ -126,6 +126,10 @@ This page is generated from [the index](../../json/hu/php.json) by `scripts/buil
   - [`f8c76e7f11`](../../../locales/hu/content/f8/c7/6e7f11ed42a07577ae6ef350d169de59bf76.md)
 - `introduction.md` ([English](https://github.com/exercism/php/blob/main/exercises/practice/collatz-conjecture/.docs/introduction.md)): [Latest](../../../locales/hu/content/c3/5b/deb67dceef4bf9769dbbf473e841cdd068f2.md)
 
+### Complex Numbers (Komplex számok)
+
+- `instructions.md` ([English](https://github.com/exercism/php/blob/main/exercises/practice/complex-numbers/.docs/instructions.md)): [Latest](../../../locales/hu/content/2b/8a/7a49d824f84448eda21c4281ab2c8213d03a.md)
+
 ### Connect
 
 - `instructions.md` ([English](https://github.com/exercism/php/blob/main/exercises/practice/connect/.docs/instructions.md)): [Latest](../../../locales/hu/content/7f/34/bfa817f0d0c1d360892d0cbaaa1d5347b0cd.md)

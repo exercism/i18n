@@ -442,5 +442,8 @@
   "exercise:language-list:blurb": "Découvre les fonctions et les tableaux !",
   "exercise:city-office:blurb": "Découvre les déclarations de type et la validation de formulaires !",
   "exercise:lucky-numbers:blurb": "Entraîne-toi au jonglage de types en aidant ton ami Kojo avec son site web.",
-  "exercise:ordinal-number:blurb": "Convertis des nombres en ordinaux."
+  "exercise:ordinal-number:blurb": "Convertis des nombres en ordinaux.",
+  "exercise:complex-numbers:name": "Nombres complexes",
+  "exercise:complex-numbers:blurb": "Implémente les nombres complexes.",
+  "exercise:complex-numbers:source": "Wikipedia"
 }

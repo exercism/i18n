@@ -442,5 +442,8 @@
   "doc:learning:title": "Як вивчати PHP",
   "doc:learning:blurb": "Огляд того, як почати працювати з PHP з нуля",
   "doc:tests:title": "Тестування на треку PHP",
-  "doc:tests:blurb": "Дізнайтеся, як тестувати свої вправи з PHP на Exercism"
+  "doc:tests:blurb": "Дізнайтеся, як тестувати свої вправи з PHP на Exercism",
+  "exercise:complex-numbers:name": "Комплексні числа",
+  "exercise:complex-numbers:blurb": "Реалізуйте комплексні числа.",
+  "exercise:complex-numbers:source": "Wikipedia"
 }

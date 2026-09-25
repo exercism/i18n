@@ -442,5 +442,8 @@
   "exercise:annalyns-infiltration:blurb": "Μάθε για παιχνίδια ρόλων και Boolean τιμές!",
   "exercise:windowing-system:blurb": "Μάθε για τις κλάσεις φτιάχνοντας ένα σύστημα παραθύρων!",
   "exercise:language-list:blurb": "Μάθε για τις συναρτήσεις και τους πίνακες!",
-  "exercise:city-office:blurb": "Μάθε για τις δηλώσεις τύπων και την επικύρωση φόρμας!"
+  "exercise:city-office:blurb": "Μάθε για τις δηλώσεις τύπων και την επικύρωση φόρμας!",
+  "exercise:complex-numbers:name": "Μιγαδικοί αριθμοί",
+  "exercise:complex-numbers:blurb": "Υλοποίησε μιγαδικούς αριθμούς.",
+  "exercise:complex-numbers:source": "Wikipedia"
 }
