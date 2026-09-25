@@ -586,7 +586,8 @@ This page is generated from [the index](../../json/uk/swift.json) by `scripts/bu
 ### Vexing Vehicle Purchase (Морочлива купівля автомобіля)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/vehicle-purchase/.docs/instructions.md)): [Latest](../../../locales/uk/content/72/60/5a19df3ad3b3f5457da18c94f1b12af3443f.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/vehicle-purchase/.docs/introduction.md)): [Latest](../../../locales/uk/content/65/0d/76790c75b30f286d8370ced805c421639570.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/vehicle-purchase/.docs/introduction.md)): [Latest](../../../locales/uk/content/b8/69/c5e2591bf5afbf545803784255c306a80876.md)
+  - [`650d76790c`](../../../locales/uk/content/65/0d/76790c75b30f286d8370ced805c421639570.md)
   - [`73fe909cc2`](../../../locales/uk/content/73/fe/909cc25fa6b813a7486463b4ace8d7ba7d67.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/vehicle-purchase/.docs/hints.md)): [Latest](../../../locales/uk/content/6a/b8/7ae86eab6dc16effafc3306fdfa26efa56d7.md)
 
@@ -784,10 +785,10 @@ This page is generated from [the index](../../json/uk/swift.json) by `scripts/bu
 
 ### Stored Properties (Збережені властивості)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/stored-properties/introduction.md)): [Latest](../../../locales/uk/content/1d/9b/a634dfa57856f9a98e693936825b7bf64146.md)
-  - [`76a3f98586`](../../../locales/uk/content/76/a3/f985860dd9f64f05be80c8b0d1f847d44ee8.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/stored-properties/about.md)): [Latest](../../../locales/uk/content/e2/d7/82e0b6080e45eb6f7d29d58ad5a5885b9415.md)
-  - [`76a3f98586`](../../../locales/uk/content/76/a3/f985860dd9f64f05be80c8b0d1f847d44ee8.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/stored-properties/introduction.md)): [Latest](../../../locales/uk/content/76/a3/f985860dd9f64f05be80c8b0d1f847d44ee8.md)
+  - [`1d9ba634df`](../../../locales/uk/content/1d/9b/a634dfa57856f9a98e693936825b7bf64146.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/stored-properties/about.md)): [Latest](../../../locales/uk/content/76/a3/f985860dd9f64f05be80c8b0d1f847d44ee8.md)
+  - [`e2d782e0b6`](../../../locales/uk/content/e2/d7/82e0b6080e45eb6f7d29d58ad5a5885b9415.md)
 
 ### String Indexing (Індексація рядків)
 
@@ -816,8 +817,10 @@ This page is generated from [the index](../../json/uk/swift.json) by `scripts/bu
 
 ### Ternary operator (Тернарний оператор)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/ternary-operator/introduction.md)): [Latest](../../../locales/uk/content/eb/a6/1769f1855c0246ccebf17a827b6e50645674.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/ternary-operator/about.md)): [Latest](../../../locales/uk/content/eb/a6/1769f1855c0246ccebf17a827b6e50645674.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/ternary-operator/introduction.md)): [Latest](../../../locales/uk/content/05/4e/9eed49604bcfa3a643271ef355089d9b2a4e.md)
+  - [`eba61769f1`](../../../locales/uk/content/eb/a6/1769f1855c0246ccebf17a827b6e50645674.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/ternary-operator/about.md)): [Latest](../../../locales/uk/content/0c/24/b8cd7f0f02ab3d421bfe71d1a38767ede05a.md)
+  - [`eba61769f1`](../../../locales/uk/content/eb/a6/1769f1855c0246ccebf17a827b6e50645674.md)
 
 ### Trailing closures (Завершальні замикання)
 
