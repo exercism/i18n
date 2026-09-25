@@ -53,7 +53,7 @@
   "exercise:isogram:blurb": "Détermine si un mot ou une phrase est un isogramme.",
   "exercise:isogram:source": "Wikipedia",
   "exercise:leap:blurb": "Détermine si une année donnée est bissextile.",
-  "exercise:leap:source": "CodeRanch Cattle Drive, Assignment 3",
+  "exercise:leap:source": "CodeRanch Cattle Drive, exercice 3",
   "exercise:pangram:blurb": "Détermine si une phrase est un pangramme.",
   "exercise:pangram:source": "Wikipedia",
   "exercise:phone-number:blurb": "Nettoie les numéros de téléphone saisis par l'utilisateur afin de pouvoir leur envoyer des SMS.",

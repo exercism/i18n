@@ -26,7 +26,7 @@
   "exercise:hello-world:blurb": "Η κλασική εισαγωγική άσκηση. Πες απλώς \"Hello, World!\"",
   "exercise:hello-world:source": "Πρόκειται για μια άσκηση που μυεί τους χρήστες στη χρήση του Exercism",
   "exercise:leap:blurb": "Προσδιόρισε αν ένα δεδομένο έτος είναι δίσεκτο.",
-  "exercise:leap:source": "CodeRanch Cattle Drive, Assignment 3",
+  "exercise:leap:source": "CodeRanch Cattle Drive, άσκηση 3",
   "exercise:pascals-triangle:blurb": "Υπολόγισε το τρίγωνο του Πασκάλ μέχρι έναν δεδομένο αριθμό σειρών.",
   "exercise:pascals-triangle:source": "Το τρίγωνο του Πασκάλ στο Wolfram Math World",
   "exercise:rna-transcription:blurb": "Δεδομένης μιας αλυσίδας DNA, επίστρεψε τη μεταγραφή του συμπληρώματος RNA.",

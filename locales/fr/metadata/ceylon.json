@@ -8,7 +8,7 @@
   "exercise:matching-brackets:name": "Parenthèses équilibrées",
   "exercise:react:name": "React",
   "exercise:leap:blurb": "Détermine si une année donnée est bissextile.",
-  "exercise:leap:source": "CodeRanch Cattle Drive, Assignment 3",
+  "exercise:leap:source": "CodeRanch Cattle Drive, exercice 3",
   "exercise:hamming:blurb": "Calcule la distance de Hamming entre deux brins d'ADN.",
   "exercise:hamming:source": "Le problème Calculating Point Mutations sur Rosalind.",
   "exercise:rna-transcription:blurb": "Étant donné un brin d'ADN, renvoie son complément d'ARN.",

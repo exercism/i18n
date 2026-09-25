@@ -8,7 +8,7 @@
   "exercise:matching-brackets:name": "Αντιστοίχιση αγκυλών",
   "exercise:react:name": "React",
   "exercise:leap:blurb": "Προσδιόρισε αν ένα δεδομένο έτος είναι δίσεκτο.",
-  "exercise:leap:source": "CodeRanch Cattle Drive, Assignment 3",
+  "exercise:leap:source": "CodeRanch Cattle Drive, άσκηση 3",
   "exercise:hamming:blurb": "Υπολόγισε τη διαφορά Hamming ανάμεσα σε δύο αλυσίδες DNA.",
   "exercise:hamming:source": "Το πρόβλημα Calculating Point Mutations στο Rosalind",
   "exercise:rna-transcription:blurb": "Δεδομένης μιας αλυσίδας DNA, επίστρεψε τη μεταγραφή του συμπληρώματος RNA.",

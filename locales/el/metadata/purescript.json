@@ -53,7 +53,7 @@
   "exercise:isogram:blurb": "Προσδιόρισε αν μια λέξη ή φράση είναι ισόγραμμα.",
   "exercise:isogram:source": "Wikipedia",
   "exercise:leap:blurb": "Προσδιόρισε αν ένα δεδομένο έτος είναι δίσεκτο.",
-  "exercise:leap:source": "CodeRanch Cattle Drive, Assignment 3",
+  "exercise:leap:source": "CodeRanch Cattle Drive, άσκηση 3",
   "exercise:pangram:blurb": "Προσδιόρισε αν μια πρόταση είναι παγγράμμα.",
   "exercise:pangram:source": "Wikipedia",
   "exercise:phone-number:blurb": "Καθάρισε τους αριθμούς τηλεφώνου που πληκτρολογεί ο χρήστης, ώστε να μπορούν να σταλούν μηνύματα SMS.",

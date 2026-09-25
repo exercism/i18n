@@ -56,7 +56,7 @@
   "exercise:isogram:blurb": "Προσδιόρισε αν μια φράση είναι ίσογραμμα, μια λέξη χωρίς επαναλαμβανόμενα γράμματα.",
   "exercise:isogram:source": "Wikipedia",
   "exercise:leap:blurb": "Προσδιόρισε αν ένα δεδομένο έτος είναι δίσεκτο.",
-  "exercise:leap:source": "CodeRanch Cattle Drive, Assignment 3",
+  "exercise:leap:source": "CodeRanch Cattle Drive, άσκηση 3",
   "exercise:matching-brackets:blurb": "Βεβαιώσου ότι οι αγκύλες και τα άγκιστρα ταιριάζουν όλα.",
   "exercise:matching-brackets:source": "Ginna Baker",
   "exercise:pangram:blurb": "Προσδιόρισε αν μια φράση χρησιμοποιεί κάθε γράμμα του λατινικού αλφαβήτου.",

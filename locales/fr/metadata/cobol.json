@@ -46,7 +46,7 @@
   "exercise:hello-world:blurb": "L'exercice d'introduction classique d'Exercism. Dis simplement « Hello, World! ».",
   "exercise:hello-world:source": "Il s'agit d'un exercice pour initier les utilisateurs à Exercism.",
   "exercise:leap:blurb": "Détermine si une année donnée est bissextile.",
-  "exercise:leap:source": "CodeRanch Cattle Drive, Assignment 3",
+  "exercise:leap:source": "CodeRanch Cattle Drive, exercice 3",
   "exercise:yacht:blurb": "Calcule le score d'un seul lancer de dés au jeu Yacht.",
   "exercise:yacht:source": "James Kilfiger, à partir de Wikipédia",
   "exercise:pangram:blurb": "Détermine si une phrase est un pangramme.",

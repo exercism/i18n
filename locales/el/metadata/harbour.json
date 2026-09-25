@@ -21,7 +21,7 @@
   "exercise:hello-world:blurb": "Η κλασική εισαγωγική άσκηση. Απλώς πες \"Hello, World!\".",
   "exercise:hello-world:source": "Πρόκειται για μια άσκηση που μυεί τους χρήστες στη χρήση του Exercism",
   "exercise:leap:blurb": "Δεδομένου ενός έτους, ανάφερε αν είναι δίσεκτο.",
-  "exercise:leap:source": "CodeRanch Cattle Drive, Assignment 3",
+  "exercise:leap:source": "CodeRanch Cattle Drive, άσκηση 3",
   "exercise:hamming:blurb": "Υπολόγισε τη διαφορά Hamming ανάμεσα σε δύο αλυσίδες DNA.",
   "exercise:hamming:source": "Το πρόβλημα Calculating Point Mutations στο Rosalind",
   "exercise:acronym:blurb": "Μετέτρεψε μια μεγάλη φράση στο ακρώνυμό της.",

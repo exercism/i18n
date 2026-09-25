@@ -150,7 +150,7 @@
   "exercise:pascals-triangle:blurb": "Υπολόγισε το τρίγωνο του Πασκάλ μέχρι έναν δεδομένο αριθμό σειρών.",
   "exercise:pascals-triangle:source": "Το τρίγωνο του Πασκάλ στο Wolfram Math World",
   "exercise:leap:blurb": "Προσδιόρισε αν ένα δεδομένο έτος είναι δίσεκτο.",
-  "exercise:leap:source": "CodeRanch Cattle Drive, Assignment 3",
+  "exercise:leap:source": "CodeRanch Cattle Drive, άσκηση 3",
   "exercise:darts:blurb": "Υπολόγισε τους πόντους σε μία ρίψη ενός παιχνιδιού βελάκια.",
   "exercise:darts:source": "Εμπνευσμένο από μια άσκηση που δημιούργησε ο καθηγητής Della Paolera στην Αργεντινή",
   "exercise:scrabble-score:blurb": "Με δεδομένη μια λέξη, υπολόγισε τη βαθμολογία της στο Scrabble.",

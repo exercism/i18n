@@ -32,7 +32,7 @@
   "exercise:resistor-color-expert:blurb": "Convertis les codes couleur utilisés sur les résistances à plusieurs bandes en une étiquette lisible par un humain.",
   "exercise:resistor-color-expert:source": "D'après les premiers exercices sur les couleurs de résistances créés par Erik Schierboom et Maud de Vries",
   "exercise:leap:blurb": "Détermine si une année donnée est bissextile.",
-  "exercise:leap:source": "CodeRanch Cattle Drive, Assignment 3",
+  "exercise:leap:source": "CodeRanch Cattle Drive, exercice 3",
   "exercise:resistor-color:blurb": "Convertir la couleur d'une bande de résistance en sa représentation numérique.",
   "exercise:resistor-color:source": "Maud de Vries, Erik Schierboom",
   "exercise:space-age:blurb": "À partir d'un âge en secondes, calcule quel âge aurait une personne en années solaires sur une planète donnée.",

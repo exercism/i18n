@@ -79,7 +79,7 @@
   "exercise:hello-world:blurb": "L'exercice d'introduction classique d'Exercism. Dis simplement « Hello, World! ».",
   "exercise:hello-world:source": "Il s'agit d'un exercice pour initier les utilisateurs à Exercism.",
   "exercise:leap:blurb": "Détermine si une année donnée est bissextile.",
-  "exercise:leap:source": "CodeRanch Cattle Drive, Assignment 3",
+  "exercise:leap:source": "CodeRanch Cattle Drive, exercice 3",
   "exercise:reverse-string:blurb": "Inverser une chaîne de caractères donnée.",
   "exercise:reverse-string:source": "Défi d'introduction pour inverser une chaîne de caractères en entrée",
   "exercise:two-fer:blurb": "Crée une phrase de la forme « One for X, one for me. ».",
