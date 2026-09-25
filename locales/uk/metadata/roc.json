@@ -386,5 +386,8 @@
   "exercise:tree-building:blurb": "Зробіть рефакторинг алгоритму побудови дерева.",
   "exercise:linked-list:name": "Звʼязаний список",
   "exercise:linked-list:blurb": "Реалізуйте двобічно звʼязаний список.",
-  "exercise:linked-list:source": "Класична тема з інформатики"
+  "exercise:linked-list:source": "Класична тема з інформатики",
+  "exercise:baffling-birthdays:name": "Незбагненні дні народження",
+  "exercise:baffling-birthdays:blurb": "Оцініть імовірності парадоксу днів народження.",
+  "exercise:baffling-birthdays:source": "Erik Schierboom"
 }

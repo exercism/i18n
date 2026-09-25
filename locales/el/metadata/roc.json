@@ -386,5 +386,8 @@
   "exercise:tree-building:blurb": "Αναδιαμόρφωσε έναν αλγόριθμο κατασκευής δέντρου.",
   "exercise:linked-list:name": "Συνδεδεμένη λίστα",
   "exercise:linked-list:blurb": "Υλοποίησε μια διπλά συνδεδεμένη λίστα.",
-  "exercise:linked-list:source": "Κλασικό θέμα επιστήμης υπολογιστών"
+  "exercise:linked-list:source": "Κλασικό θέμα επιστήμης υπολογιστών",
+  "exercise:baffling-birthdays:name": "Μπερδεμένα Γενέθλια",
+  "exercise:baffling-birthdays:blurb": "Εκτίμησε τις πιθανότητες του παράδοξου των γενεθλίων.",
+  "exercise:baffling-birthdays:source": "Erik Schierboom"
 }

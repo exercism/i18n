@@ -386,5 +386,8 @@
   "exercise:tree-building:blurb": "Refaktoráld egy faépítő algoritmust.",
   "exercise:linked-list:name": "Láncolt lista",
   "exercise:linked-list:blurb": "Valósíts meg egy kétszeresen láncolt listát.",
-  "exercise:linked-list:source": "Klasszikus számítástudományi téma"
+  "exercise:linked-list:source": "Klasszikus számítástudományi téma",
+  "exercise:baffling-birthdays:name": "Meghökkentő születésnapok",
+  "exercise:baffling-birthdays:blurb": "Becsüld meg a születésnapi paradoxon valószínűségeit.",
+  "exercise:baffling-birthdays:source": "Erik Schierboom"
 }

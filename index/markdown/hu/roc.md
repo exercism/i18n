@@ -50,6 +50,11 @@ This page is generated from [the index](../../json/hu/roc.json) by `scripts/buil
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/atbash-cipher/.docs/instructions.md)): [Latest](../../../locales/hu/content/1e/76/27b1e5989878f0f1bf735feb1300de7a2664.md)
   - [`21ca2ce0aa`](../../../locales/hu/content/21/ca/2ce0aa806b97f21182196eebe554c4b984ef.md)
 
+### Baffling Birthdays (Meghökkentő születésnapok)
+
+- `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/baffling-birthdays/.docs/instructions.md)): [Latest](../../../locales/hu/content/a0/1e/c86796ac6bc6e2873dca01003a8e5f02ee32.md)
+- `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/baffling-birthdays/.docs/introduction.md)): [Latest](../../../locales/hu/content/97/da/bd1e6cfffbcb4a20748b3b328e8cbc284b98.md)
+
 ### Binary (Bináris)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/binary/.docs/instructions.md)): [Latest](../../../locales/hu/content/67/22/637ebb5554c745fe342c4268d9230fb0b561.md)

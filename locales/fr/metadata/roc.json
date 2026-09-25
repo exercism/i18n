@@ -386,5 +386,8 @@
   "exercise:tree-building:blurb": "Réécris un algorithme de construction d'arbre.",
   "exercise:linked-list:name": "Liste chaînée",
   "exercise:linked-list:blurb": "Implémente une liste doublement chaînée.",
-  "exercise:linked-list:source": "Un classique de l'informatique."
+  "exercise:linked-list:source": "Un classique de l'informatique.",
+  "exercise:baffling-birthdays:name": "Anniversaires déroutants",
+  "exercise:baffling-birthdays:blurb": "Estime les probabilités du paradoxe des anniversaires.",
+  "exercise:baffling-birthdays:source": "Erik Schierboom"
 }

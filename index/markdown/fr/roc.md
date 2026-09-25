@@ -47,6 +47,11 @@ This page is generated from [the index](../../json/fr/roc.json) by `scripts/buil
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/atbash-cipher/.docs/instructions.md)): [Latest](../../../locales/fr/content/1e/76/27b1e5989878f0f1bf735feb1300de7a2664.md)
 
+### Baffling Birthdays (Anniversaires déroutants)
+
+- `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/baffling-birthdays/.docs/instructions.md)): [Latest](../../../locales/fr/content/a0/1e/c86796ac6bc6e2873dca01003a8e5f02ee32.md)
+- `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/baffling-birthdays/.docs/introduction.md)): [Latest](../../../locales/fr/content/97/da/bd1e6cfffbcb4a20748b3b328e8cbc284b98.md)
+
 ### Binary (Binaire)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/binary/.docs/instructions.md)): [Latest](../../../locales/fr/content/67/22/637ebb5554c745fe342c4268d9230fb0b561.md)
