@@ -134,6 +134,7 @@ import { listContentFiles } from "./lib/content-store.mjs";
 import { METADATA_KIND, METADATA_REPO_KINDS, METADATA_TYPE_ID, buildMetadataEnglish, heldMetadataRepos, metadataPath } from "./lib/metadata.mjs";
 import { ERROR, WARN, checkCatalog, checkContentFile } from "./lib/checks.mjs";
 import { loadAllowlist, renderIdentical, summariseIdentical } from "./lib/identical.mjs";
+import { countNeverStamped, extraKeyRows, renderExtraKeys, summariseExtraKeys } from "./lib/extra-keys.mjs";
 
 function parseStampUnits(value) {
   if (typeof value !== "string") return new Set();
@@ -277,7 +278,9 @@ function validateMetadata({ locale, contentRepos, requireComplete, stamp, stampU
 function validateContent({ locale, contentRepos }) {
   const files = listContentFiles(locale);
   const result = { locale, type: CONTENT_TYPE_ID, issues: [], counts: { total: files.length, verified: 0, copied: 0 } };
-  const at = (entry, found) => ({ ...found, message: `content/${entry.relative}: ${found.message}` });
+  // `unit` is what the grouping layer names a byte-identical warning by, and for
+  // a content file the file is the unit.
+  const at = (entry, found) => ({ ...found, unit: `content/${entry.relative}`, message: `content/${entry.relative}: ${found.message}` });
 
   // English is looked up by blob id in whichever checkouts the caller passed.
   // No path, repo name or registry is needed, so one `cat-file` per repo finds
@@ -369,16 +372,18 @@ async function main() {
   // person is being asked to read.
   const identical = summariseIdentical(results, loadAllowlist());
   const shownIdentical = new Set(identical.groups.map((group) => `${group.locale}\u0000${group.id}`));
+  const extraKeys = summariseExtraKeys(results);
+  const neverStamped = countNeverStamped(results);
 
   const totals = { production: { errors: 0, warnings: 0 }, other: { errors: 0, warnings: 0 } };
   for (const result of results) {
     const errors = result.issues.filter((found) => found.level === ERROR);
-    const warnings = result.issues.filter((found) => found.level === WARN && !found.identical);
+    const warnings = result.issues.filter((found) => found.level === WARN && !found.identical && (!found.extraKey || found.neverStamped));
     const bucket = PRODUCTION_LOCALES.includes(result.locale) ? totals.production : totals.other;
     bucket.errors += errors.length;
     bucket.warnings += warnings.length;
 
-    const grouped = result.issues.some((found) => found.identical && shownIdentical.has(`${result.locale}\u0000${found.identical.id}`));
+    const grouped = result.issues.some((found) => (found.extraKey !== undefined && !found.neverStamped) || (found.identical && shownIdentical.has(`${result.locale}\u0000${found.identical.id}`)));
     const status = errors.length > 0 ? "FAIL" : result.absent ? "miss" : result.unverified ? "unv" : warnings.length > 0 || grouped ? "warn" : "ok";
     const counts = Object.entries(result.counts).map(([name, value]) => `${name} ${value}`).join(", ");
     console.log(`${status.padEnd(4)} ${result.locale.padEnd(7)} ${result.type.padEnd(16)} ${counts}${result.stamped ? `, stamped ${result.stamped}` : ""}`);
@@ -389,14 +394,23 @@ async function main() {
   // every locale and every type has been shown anything about it.
   const wholeRun = scope === "all" && typeof flags.type !== "string";
   for (const line of renderIdentical(identical, { reportUnmatched: wholeRun })) console.log(line);
+  for (const line of renderExtraKeys(extraKeys, { neverStamped })) console.log(line);
+  // A group is one warning, whatever its weight, which is the point of grouping:
+  // the totals count what a person is asked to read. An extra-key row covers
+  // every locale that holds the same orphans, and it is a production locale's
+  // warning if any of them is one.
   for (const group of identical.groups) {
     const bucket = PRODUCTION_LOCALES.includes(group.locale) ? totals.production : totals.other;
+    bucket.warnings += 1;
+  }
+  for (const row of extraKeyRows(extraKeys)) {
+    const bucket = row.locales.some((locale) => PRODUCTION_LOCALES.includes(locale)) ? totals.production : totals.other;
     bucket.warnings += 1;
   }
 
   if (typeof flags.json === "string") {
     const plain = (group) => ({ ...group, units: [...group.units], catalogs: [...group.catalogs] });
-    const report = { results, totals, identical: { ...identical, groups: identical.groups.map(plain), allowed: identical.allowed.map(plain) } };
+    const report = { results, totals, identical: { ...identical, groups: identical.groups.map(plain), allowed: identical.allowed.map(plain) }, extraKeys };
     fs.writeFileSync(path.resolve(flags.json), `${JSON.stringify(report, null, 2)}\n`);
   }
 

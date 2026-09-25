@@ -307,7 +307,7 @@
     "userTooltip.unableToLoadUser": "Не вдалося завантажити користувача"
   },
   "components/track/activity-ticker": {
-    "publishedSolutionLink.newSolution": "<0>нове рішення</0> для ",
+    "publishedSolutionLink.newSolution": "<0>нове рішення</0> для ",
     "handle.someoneInCountry": "Хтось із країни {{countryName}}",
     "handle.someone": "Хтось",
     "userAvatar.userAvatar": "Аватар {{handle}}",
@@ -2423,7 +2423,7 @@
     "tracksList.somethingWentWrong": "Щось пішло не так"
   },
   "components/student/UpdateExerciseNotice.tsx": {
-    "updateExerciseNotice.exerciseUpdated": "Цю вправу оновлено. Оновіть до найновішої версії та перевірте, чи тести й досі проходять. ",
+    "updateExerciseNotice.exerciseUpdated": "Цю вправу оновлено. Оновіть до найновішої версії та перевірте, чи тести й досі проходять. ",
     "updateExerciseNotice.seeWhatsChanged": "Подивіться, що змінилося…",
     "updateExerciseNotice.docsForNewerVersion": "Ці інструкції стосуються новішої версії вправи. <english>Перейдіть на англійську</english>, щоб побачити свою версію, або <update>оновіть до найновішої версії</update>.",
     "updateExerciseNotice.warning": "Попередження"

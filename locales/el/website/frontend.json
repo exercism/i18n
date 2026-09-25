@@ -1678,7 +1678,7 @@
     "trackFilterList.unableToFetchTracks": "Δεν ήταν δυνατή η ανάκτηση των διαδρομών"
   },
   "components/track/activity-ticker": {
-    "publishedSolutionLink.newSolution": "<0>νέα λύση</0> για ",
+    "publishedSolutionLink.newSolution": "<0>νέα λύση</0> για ",
     "handle.someoneInCountry": "Κάποιος στη χώρα {{countryName}}",
     "handle.someone": "Κάποιος",
     "userAvatar.userAvatar": "avatar του χρήστη {{handle}}",
@@ -2455,7 +2455,7 @@
     "tracksList.somethingWentWrong": "Κάτι πήγε στραβά"
   },
   "components/student/UpdateExerciseNotice.tsx": {
-    "updateExerciseNotice.exerciseUpdated": "Αυτή η άσκηση έχει ενημερωθεί. Κάνε ενημέρωση στην τελευταία έκδοση και δες αν οι δοκιμές σου περνούν ακόμα. ",
+    "updateExerciseNotice.exerciseUpdated": "Αυτή η άσκηση έχει ενημερωθεί. Κάνε ενημέρωση στην τελευταία έκδοση και δες αν οι δοκιμές σου περνούν ακόμα. ",
     "updateExerciseNotice.seeWhatsChanged": "Δες τι άλλαξε…",
     "updateExerciseNotice.docsForNewerVersion": "Αυτές οι οδηγίες αφορούν μια νεότερη έκδοση της άσκησης. <english>Άλλαξε σε αγγλικά</english> για να δεις τη δική σου έκδοση ή <update>Κάνε ενημέρωση στην τελευταία έκδοση</update>.",
     "updateExerciseNotice.warning": "Προειδοποίηση"

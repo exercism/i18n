@@ -65,7 +65,7 @@
   "exercise:difference-of-squares:blurb": "Βρες τη διαφορά ανάμεσα στο τετράγωνο του αθροίσματος και στο άθροισμα των τετραγώνων των πρώτων N φυσικών αριθμών.",
   "exercise:difference-of-squares:source": "Πρόβλημα 6 στο Project Euler",
   "exercise:leap:blurb": "Προσδιόρισε αν ένα δεδομένο έτος είναι δίσεκτο.",
-  "exercise:leap:source": "CodeRanch Cattle Drive, Assignment 3",
+  "exercise:leap:source": "CodeRanch Cattle Drive, άσκηση 3",
   "exercise:raindrops:blurb": "Μετέτρεψε έναν αριθμό στους αντίστοιχους ήχους σταγόνας βροχής: Pling, Plang και Plong.",
   "exercise:raindrops:source": "Μια παραλλαγή του FizzBuzz, μιας διάσημης ερώτησης τεχνικής συνέντευξης που σκοπό έχει να ξεχωρίσει τους υποψήφιους. Αυτή η ερώτηση με τη σειρά της προέρχεται από το Fizz Buzz, ένα δημοφιλές παιδικό παιχνίδι για τη διδασκαλία της διαίρεσης.",
   "exercise:collatz-conjecture:blurb": "Υπολόγισε τον αριθμό των βημάτων για να φτάσεις στο 1 χρησιμοποιώντας την εικασία του Collatz.",
