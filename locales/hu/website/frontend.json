@@ -944,7 +944,7 @@
     "iterationHeader.copyButton.copySolution": "Megoldás másolása"
   },
   "components/mentoring/session/mobile-code-panel/MobileIterationView.tsx": {
-    "mobileIterationView.thisIterationHasBeenDeleted": "Ez az iteráció törölve lett"
+    "mobileIterationView.thisIterationHasBeenDeleted": "Az iteráció törlődött"
   },
   "components/mentoring/session/mobile-code-panel/SessionInfoModal.tsx": {
     "sessionInfoModal.onExerciseInTrack": "a(z) {{exerciseTitle}} feladatról a(z) {{trackTitle}} kurzusban"
@@ -1801,7 +1801,7 @@
     "components.mentoring.session.iterationsList.rightArrow": "Jobb nyíl"
   },
   "session-batch-3": {
-    "components.mentoring.session.iterationView.iterationDeleted": "Ez az iteráció törölve lett",
+    "components.mentoring.session.iterationView.iterationDeleted": "Az iteráció törlődött",
     "components.mentoring.session.linkButton.conversationLinked": "A kódod és a mentorálási beszélgetés jelenleg össze van kapcsolva.",
     "components.mentoring.session.linkButton.conversationLinkedDescription": "Ez azt jelenti, hogy amikor egy másik iterációra lépsz, a mentorálási beszélgetés is követi, és fordítva.",
     "components.mentoring.session.linkButton.clickToUnlink": "Kattints vagy koppints az ikonra a szétválasztáshoz.",
