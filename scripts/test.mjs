@@ -32,7 +32,8 @@ import { englishUnits, flattenCatalog, stringId, targetEntries, unflattenCatalog
 import { ERROR, WARN, checkCatalog, checkContentFile, placeholders, tags } from "./lib/checks.mjs";
 import { ALLOWLIST_FILE, allowlistIssues, allowlistPath, allows, collapseUnitIds, renderIdentical, summariseIdentical } from "./lib/identical.mjs";
 import { CONTENT_TYPES, CONTENT_TYPE_IDS, contentRelativePath, parseContentRelativePath, typeForPath } from "./lib/content-types.mjs";
-import { REPO_KINDS, isActiveTrack, kindForRepo } from "./lib/source-repos.mjs";
+import { REPO_KINDS, checkoutDir, isActiveTrack, kindForRepo } from "./lib/source-repos.mjs";
+import { contentReposList, fetchSource, fetchSources, sourceTarget, targetForName } from "./lib/fetch-sources.mjs";
 import { missingContent, missingUnits, requiredContent, requiredUnits, translatableFiles } from "./lib/completeness.mjs";
 import { SAMPLE, fixCommand, freshness, lastSweptAt, parseShard, shardOf, singletonRepos, standing, summariseRepo, summaryBody, summaryTitle, sweptRepos } from "./lib/sweep.mjs";
 import { buildMetadataEnglish, changedCopyKeys, fileCopy, readTomlStrings } from "./lib/metadata.mjs";
@@ -986,6 +987,57 @@ await test("blobless clone: an unreachable remote is retried, then stops the run
     return true;
   });
   assert.equal(readBlobs(clone, [entry.id], { prefetch: false }).get(entry.id), null);
+});
+
+// ---------------------------------------------------- fetching source repos --
+//
+// CI fetches a repo for every repo some locale holds a metadata catalog for,
+// currently around 124 of them, several at a time. Two things have to hold
+// whatever order the fetches finish in: the same repos always produce the same
+// --content-repos list, and one repo nobody can reach costs that repo's
+// catalogs their check and costs the run nothing else.
+
+await test("source fetch: a bare name is a track under exercism/, and a singleton repo keeps its own kind", () => {
+  assert.deepEqual(targetForName("ruby"), { name: "ruby", kind: "track", repo: "exercism/ruby", remote: "https://github.com/exercism/ruby.git", dir: checkoutDir("ruby") });
+  assert.deepEqual(["docs", "blog", "problem-specifications"].map((name) => targetForName(name).kind), ["docs", "blog", "problem-specifications"]);
+  assert.equal(targetForName("problem-specifications").repo, "exercism/problem-specifications");
+  // The names reach a fetch URL, so a track with no repo and a repo that is not
+  // one are answers, never fetches.
+  assert.match(sourceTarget({ kind: "track", repo: null }).error, /needs --repo=exercism/);
+  assert.match(sourceTarget({ kind: "track", repo: "exercism/ruby;rm -rf /" }).error, /--repo must be <owner>\/<name>/);
+});
+
+await test("source fetch: the --content-repos list is sorted, so the order fetches finish in cannot reach it", () => {
+  const names = ["ruby", "docs", "8th", "blog"];
+  const list = contentReposList(names.map((name) => targetForName(name)));
+  assert.equal(list, ".source/8th,.source/blog,.source/docs,.source/ruby");
+  assert.equal(contentReposList([...names].reverse().map((name) => targetForName(name))), list);
+});
+
+await test("source fetch: many repos at once, one that cannot be fetched skipped, and the results in the order asked", async () => {
+  for (const source of [TRACK, WEBSITE]) gitIn(source, "config", "uploadpack.allowFilter", "true");
+  const targetAt = (name, source) => ({ name, kind: "track", repo: `exercism/${name}`, remote: `file://${source}`, dir: path.join(TMP, "fetched", name) });
+  const targets = [targetAt("ruby", TRACK), targetAt("nowhere", path.join(TMP, "no-such-repo")), targetAt("site", WEBSITE)];
+
+  const seen = [];
+  const results = await fetchSources(targets, { jobs: 3, delays: [0], onResult: (result) => seen.push(result.target.name) });
+  assert.deepEqual(results.map((result) => result.target.name), ["ruby", "nowhere", "site"], "the results are not in the order the targets were given");
+  assert.equal(seen.length, 3, "a target was fetched twice or not at all");
+
+  assert.ok(!results[0].error && !results[2].error, results[0].error ?? results[2].error);
+  assert.match(results[1].error, /could not fetch exercism\/nowhere@main into .*\(2 attempt\(s\)\): /);
+  assert.ok(!fs.existsSync(path.join(targets[1].dir, "FETCH_HEAD")), "a repo that could not be fetched left a checkout behind");
+
+  // What landed is a real checkout, read as git objects like any other.
+  assert.equal(results[0].head, gitIn(TRACK, "rev-parse", "HEAD").trim());
+  assert.ok(lsTree(results[0].target.dir, "HEAD").some((entry) => entry.path.endsWith("instructions.md")));
+  assert.deepEqual(contentReposList(results.filter((result) => !result.error).map((result) => result.target)).split(",").map((dir) => path.basename(dir)), ["ruby", "site"]);
+
+  // A checkout that is already here is reused, so a local run does not refetch
+  // 124 repos to answer one question again.
+  const again = await fetchSource(targets[0], { delays: [0] });
+  assert.equal(again.reused, true);
+  assert.equal(again.head, results[0].head);
 });
 
 let ENGLISH;
