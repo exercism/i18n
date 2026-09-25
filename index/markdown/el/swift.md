@@ -591,8 +591,8 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 ### Vexing Vehicle Purchase (Μπελαλίδικη αγορά οχήματος)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/vehicle-purchase/.docs/instructions.md)): [Latest](../../../locales/el/content/72/60/5a19df3ad3b3f5457da18c94f1b12af3443f.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/vehicle-purchase/.docs/introduction.md)): [Latest](../../../locales/el/content/b8/69/c5e2591bf5afbf545803784255c306a80876.md)
-  - [`650d76790c`](../../../locales/el/content/65/0d/76790c75b30f286d8370ced805c421639570.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/vehicle-purchase/.docs/introduction.md)): [Latest](../../../locales/el/content/65/0d/76790c75b30f286d8370ced805c421639570.md)
+  - [`b869c5e259`](../../../locales/el/content/b8/69/c5e2591bf5afbf545803784255c306a80876.md)
   - [`73fe909cc2`](../../../locales/el/content/73/fe/909cc25fa6b813a7486463b4ace8d7ba7d67.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/vehicle-purchase/.docs/hints.md)): [Latest](../../../locales/el/content/6a/b8/7ae86eab6dc16effafc3306fdfa26efa56d7.md)
 
@@ -635,8 +635,10 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 
 ### Capturing (Σύλληψη)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/capturing/introduction.md)): [Latest](../../../locales/el/content/fc/f4/dd0598e67751199d0cc5019206fe49562358.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/capturing/about.md)): [Latest](../../../locales/el/content/f4/60/9d053d9c3c5523c2d5028dd59b54f32bba5a.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/capturing/introduction.md)): [Latest](../../../locales/el/content/89/28/fafa03af6ff6bb571d2c7d0a50ed0656af27.md)
+  - [`fcf4dd0598`](../../../locales/el/content/fc/f4/dd0598e67751199d0cc5019206fe49562358.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/capturing/about.md)): [Latest](../../../locales/el/content/a3/ee/57a5fb146433a3ab2f8ed897a7fa049b2de9.md)
+  - [`f4609d053d`](../../../locales/el/content/f4/60/9d053d9c3c5523c2d5028dd59b54f32bba5a.md)
 
 ### Characters and Strings (Χαρακτήρες και συμβολοσειρές)
 
@@ -842,10 +844,10 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 
 ### Ternary operator (Τριαδικός τελεστής)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/ternary-operator/introduction.md)): [Latest](../../../locales/el/content/05/4e/9eed49604bcfa3a643271ef355089d9b2a4e.md)
-  - [`eba61769f1`](../../../locales/el/content/eb/a6/1769f1855c0246ccebf17a827b6e50645674.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/ternary-operator/about.md)): [Latest](../../../locales/el/content/0c/24/b8cd7f0f02ab3d421bfe71d1a38767ede05a.md)
-  - [`eba61769f1`](../../../locales/el/content/eb/a6/1769f1855c0246ccebf17a827b6e50645674.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/ternary-operator/introduction.md)): [Latest](../../../locales/el/content/eb/a6/1769f1855c0246ccebf17a827b6e50645674.md)
+  - [`054e9eed49`](../../../locales/el/content/05/4e/9eed49604bcfa3a643271ef355089d9b2a4e.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/ternary-operator/about.md)): [Latest](../../../locales/el/content/eb/a6/1769f1855c0246ccebf17a827b6e50645674.md)
+  - [`0c24b8cd7f`](../../../locales/el/content/0c/24/b8cd7f0f02ab3d421bfe71d1a38767ede05a.md)
 
 ### Trailing closures (Καταληκτικά κλεισίματα)
 
