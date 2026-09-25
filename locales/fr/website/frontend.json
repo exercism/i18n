@@ -1838,7 +1838,7 @@
     "getHelpPanelComponents.getHelpPanelCommunityHelp.communityHelp": "Aide de la communauté"
   },
   "components/track/activity-ticker": {
-    "publishedSolutionLink.newSolution": "<0>nouvelle solution</0> pour ",
+    "publishedSolutionLink.newSolution": "<0>nouvelle solution</0> pour ",
     "handle.someoneInCountry": "Quelqu'un en {{countryName}}",
     "handle.someone": "Quelqu'un",
     "userAvatar.userAvatar": "Avatar de {{handle}}",
@@ -2122,7 +2122,7 @@
     "tracksList.somethingWentWrong": "Une erreur s'est produite"
   },
   "components/student/UpdateExerciseNotice.tsx": {
-    "updateExerciseNotice.exerciseUpdated": "Cet exercice a été mis à jour. Passe à la dernière version et regarde si tes tests passent toujours. ",
+    "updateExerciseNotice.exerciseUpdated": "Cet exercice a été mis à jour. Passe à la dernière version et regarde si tes tests passent toujours. ",
     "updateExerciseNotice.seeWhatsChanged": "Voir ce qui a changé…",
     "updateExerciseNotice.docsForNewerVersion": "Ces instructions correspondent à une version plus récente de l'exercice. <english>Passer en anglais</english> pour voir ta version, ou <update>Passer à la dernière version</update>.",
     "updateExerciseNotice.warning": "Attention"

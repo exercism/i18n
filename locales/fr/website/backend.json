@@ -4158,7 +4158,7 @@
     "index": {
       "header": {
         "title": "Blog de la communauté",
-        "description_prefix": "Vidéos et articles de la ",
+        "description_prefix": "Vidéos et articles de la",
         "description_link": "communauté Exercism"
       },
       "highlighted_post": {

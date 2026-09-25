@@ -1813,7 +1813,7 @@
     "tracksList.somethingWentWrong": "Valami hiba történt"
   },
   "components/student/UpdateExerciseNotice.tsx": {
-    "updateExerciseNotice.exerciseUpdated": "Ez a feladat frissült. Frissíts a legújabb verzióra, és nézd meg, hogy a tesztjeid továbbra is sikeresek-e. ",
+    "updateExerciseNotice.exerciseUpdated": "Ez a feladat frissült. Frissíts a legújabb verzióra, és nézd meg, hogy a tesztjeid továbbra is sikeresek-e. ",
     "updateExerciseNotice.seeWhatsChanged": "Nézd meg, mi változott…",
     "updateExerciseNotice.docsForNewerVersion": "Ezek az utasítások a feladat újabb verziójához tartoznak. <english>Válts angolra</english>, hogy a saját verziódat lásd, vagy <update>Frissíts a legújabb verzióra</update>.",
     "updateExerciseNotice.warning": "Figyelem"
@@ -1903,7 +1903,7 @@
     "summary.workingOn": "Ebben a feladatban a következő a teendőd: {{verb}} {{module}} {{type}}{{trackSuffix}}."
   },
   "components/track/activity-ticker": {
-    "publishedSolutionLink.newSolution": "<0>új megoldás</0> ehhez: ",
+    "publishedSolutionLink.newSolution": "<0>új megoldás</0> ehhez: ",
     "handle.someoneInCountry": "Valaki a(z) {{countryName}} országból",
     "handle.someone": "Valaki",
     "userAvatar.userAvatar": "{{handle}} profilképe",
