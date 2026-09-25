@@ -125,11 +125,13 @@ This page is generated from [the index](../../json/el/gdscript.json) by `scripts
 
 ### Installing GDScript locally (Εγκατάσταση της GDScript τοπικά)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/el/content/bc/2f/38a184cd5edd21df356dfd78764a7a232520.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/el/content/43/5c/67e3c0809614be9bfc28abaa223f1c9ad166.md)
+  - [`bc2f38a184`](../../../locales/el/content/bc/2f/38a184cd5edd21df356dfd78764a7a232520.md)
 
 ### Testing on the GDScript track (Δοκιμές στη διαδρομή GDScript)
 
-- `TESTS.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/TESTS.md)): [Latest](../../../locales/el/content/5f/f4/b1db4517e481e4740ebf7d8fe4970dca4612.md)
+- `TESTS.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/TESTS.md)): [Latest](../../../locales/el/content/a5/22/f64d386d862ae55a118074261dc4a9b47e6f.md)
+  - [`5ff4b1db45`](../../../locales/el/content/5f/f4/b1db4517e481e4740ebf7d8fe4970dca4612.md)
 
 ### Useful GDScript resources (Χρήσιμοι πόροι για την GDScript)
 

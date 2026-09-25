@@ -32,10 +32,10 @@
   },
   "paths": {
     "docs/ABOUT.md": ["7ef490acc4c3ba3df784aac8b6f84df60e62ad64"],
-    "docs/INSTALLATION.md": ["bc2f38a184cd5edd21df356dfd78764a7a232520"],
+    "docs/INSTALLATION.md": ["435c67e3c0809614be9bfc28abaa223f1c9ad166","bc2f38a184cd5edd21df356dfd78764a7a232520"],
     "docs/LEARNING.md": ["8b4152022fa497c704650fa3031e9872be2f1413"],
     "docs/RESOURCES.md": ["d8b3a83b68e75f1f603986998bedb3d5eafd71b8"],
-    "docs/TESTS.md": ["5ff4b1db4517e481e4740ebf7d8fe4970dca4612"],
+    "docs/TESTS.md": ["a522f64d386d862ae55a118074261dc4a9b47e6f","5ff4b1db4517e481e4740ebf7d8fe4970dca4612"],
     "exercises/practice/allergies/.docs/instructions.md": ["daf8cfde214667c949800c801fafecaa053efa0e"],
     "exercises/practice/atbash-cipher/.docs/instructions.md": ["1e7627b1e5989878f0f1bf735feb1300de7a2664"],
     "exercises/practice/binary-search/.docs/instructions.md": ["12f4358ebcd8c63ffc623eca661c55da4419e410"],
