@@ -504,7 +504,8 @@ This page is generated from [the index](../../json/hu/dart.json) by `scripts/bui
 
 ### ABOUT.md
 
-- `ABOUT.md` ([English](https://github.com/exercism/dart/blob/main/docs/ABOUT.md)): [Latest](../../../locales/hu/content/80/ac/a7484ad44c58be98e2d021f7d00ed723c7ce.md)
+- `ABOUT.md` ([English](https://github.com/exercism/dart/blob/main/docs/ABOUT.md)): [Latest](../../../locales/hu/content/8a/0b/268f71b3681e4a4c9cde46e96a2e0395722e.md)
+  - [`80aca7484a`](../../../locales/hu/content/80/ac/a7484ad44c58be98e2d021f7d00ed723c7ce.md)
   - [`c4ba49108d`](../../../locales/hu/content/c4/ba/49108d5baf3bdb6b3a470aff21c25da2a91e.md)
   - [`e69de29bb2`](../../../locales/hu/content/e6/9d/e29bb2d1d6434b8b29ae775ad8c2e48c5391.md)
 
