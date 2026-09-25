@@ -504,22 +504,26 @@ This page is generated from [the index](../../json/hu/dart.json) by `scripts/bui
 
 ### ABOUT.md
 
-- `ABOUT.md` ([English](https://github.com/exercism/dart/blob/main/docs/ABOUT.md)): [Latest](../../../locales/hu/content/c4/ba/49108d5baf3bdb6b3a470aff21c25da2a91e.md)
+- `ABOUT.md` ([English](https://github.com/exercism/dart/blob/main/docs/ABOUT.md)): [Latest](../../../locales/hu/content/80/ac/a7484ad44c58be98e2d021f7d00ed723c7ce.md)
+  - [`c4ba49108d`](../../../locales/hu/content/c4/ba/49108d5baf3bdb6b3a470aff21c25da2a91e.md)
   - [`e69de29bb2`](../../../locales/hu/content/e6/9d/e29bb2d1d6434b8b29ae775ad8c2e48c5391.md)
 
 ### How to learn Dart (Hogyan tanulj meg Dartot)
 
-- `LEARNING.md` ([English](https://github.com/exercism/dart/blob/main/docs/LEARNING.md)): [Latest](../../../locales/hu/content/94/a3/0ab3530255039e41c1cab60f69c4ed3b18c0.md)
+- `LEARNING.md` ([English](https://github.com/exercism/dart/blob/main/docs/LEARNING.md)): [Latest](../../../locales/hu/content/39/87/62363734a537ae92af49b7bfb24a79014f4a.md)
+  - [`94a30ab353`](../../../locales/hu/content/94/a3/0ab3530255039e41c1cab60f69c4ed3b18c0.md)
   - [`e69de29bb2`](../../../locales/hu/content/e6/9d/e29bb2d1d6434b8b29ae775ad8c2e48c5391.md)
 
 ### Installing Dart locally (A Dart telepítése helyben)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/dart/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/hu/content/36/83/4bf943d47c8d6c121bc220d2c8f12530c1ec.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/dart/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/hu/content/11/73/ec3286e2a0dc1ea650e3614b9d526ae04d64.md)
+  - [`36834bf943`](../../../locales/hu/content/36/83/4bf943d47c8d6c121bc220d2c8f12530c1ec.md)
   - [`e69de29bb2`](../../../locales/hu/content/e6/9d/e29bb2d1d6434b8b29ae775ad8c2e48c5391.md)
 
 ### Testing on the Dart track (Tesztelés a Dart-kurzuson)
 
-- `TESTS.md` ([English](https://github.com/exercism/dart/blob/main/docs/TESTS.md)): [Latest](../../../locales/hu/content/a2/da/69af42299f1b41486bc880989425832997de.md)
+- `TESTS.md` ([English](https://github.com/exercism/dart/blob/main/docs/TESTS.md)): [Latest](../../../locales/hu/content/5d/6f/fa99acef4f6122c51e9bf90da10a3de031ad.md)
+  - [`a2da69af42`](../../../locales/hu/content/a2/da/69af42299f1b41486bc880989425832997de.md)
   - [`e69de29bb2`](../../../locales/hu/content/e6/9d/e29bb2d1d6434b8b29ae775ad8c2e48c5391.md)
 
 ### Useful Dart resources (Hasznos Dart-források)

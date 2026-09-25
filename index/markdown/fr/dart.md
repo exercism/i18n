@@ -443,19 +443,23 @@ This page is generated from [the index](../../json/fr/dart.json) by `scripts/bui
 
 ### ABOUT.md
 
-- `ABOUT.md` ([English](https://github.com/exercism/dart/blob/main/docs/ABOUT.md)): [Latest](../../../locales/fr/content/c4/ba/49108d5baf3bdb6b3a470aff21c25da2a91e.md)
+- `ABOUT.md` ([English](https://github.com/exercism/dart/blob/main/docs/ABOUT.md)): [Latest](../../../locales/fr/content/80/ac/a7484ad44c58be98e2d021f7d00ed723c7ce.md)
+  - [`c4ba49108d`](../../../locales/fr/content/c4/ba/49108d5baf3bdb6b3a470aff21c25da2a91e.md)
 
 ### How to learn Dart (Comment apprendre Dart)
 
-- `LEARNING.md` ([English](https://github.com/exercism/dart/blob/main/docs/LEARNING.md)): [Latest](../../../locales/fr/content/94/a3/0ab3530255039e41c1cab60f69c4ed3b18c0.md)
+- `LEARNING.md` ([English](https://github.com/exercism/dart/blob/main/docs/LEARNING.md)): [Latest](../../../locales/fr/content/39/87/62363734a537ae92af49b7bfb24a79014f4a.md)
+  - [`94a30ab353`](../../../locales/fr/content/94/a3/0ab3530255039e41c1cab60f69c4ed3b18c0.md)
 
 ### Installing Dart locally (Installe Dart en local)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/dart/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/fr/content/36/83/4bf943d47c8d6c121bc220d2c8f12530c1ec.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/dart/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/fr/content/11/73/ec3286e2a0dc1ea650e3614b9d526ae04d64.md)
+  - [`36834bf943`](../../../locales/fr/content/36/83/4bf943d47c8d6c121bc220d2c8f12530c1ec.md)
 
 ### Testing on the Dart track (Teste sur le parcours Dart)
 
-- `TESTS.md` ([English](https://github.com/exercism/dart/blob/main/docs/TESTS.md)): [Latest](../../../locales/fr/content/a2/da/69af42299f1b41486bc880989425832997de.md)
+- `TESTS.md` ([English](https://github.com/exercism/dart/blob/main/docs/TESTS.md)): [Latest](../../../locales/fr/content/5d/6f/fa99acef4f6122c51e9bf90da10a3de031ad.md)
+  - [`a2da69af42`](../../../locales/fr/content/a2/da/69af42299f1b41486bc880989425832997de.md)
 
 ### Useful Dart resources (Ressources utiles pour Dart)
 
