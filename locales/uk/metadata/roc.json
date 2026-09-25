@@ -383,5 +383,8 @@
   "exercise:satellite:name": "Супутник",
   "exercise:satellite:blurb": "Відновіть двійкові дерева за прямим і симетричним обходом.",
   "exercise:tree-building:name": "Побудова дерева",
-  "exercise:tree-building:blurb": "Зробіть рефакторинг алгоритму побудови дерева."
+  "exercise:tree-building:blurb": "Зробіть рефакторинг алгоритму побудови дерева.",
+  "exercise:linked-list:name": "Звʼязаний список",
+  "exercise:linked-list:blurb": "Реалізуйте двобічно звʼязаний список.",
+  "exercise:linked-list:source": "Класична тема з інформатики"
 }

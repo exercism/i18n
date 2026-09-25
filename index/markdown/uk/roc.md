@@ -259,6 +259,11 @@ This page is generated from [the index](../../json/uk/roc.json) by `scripts/buil
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/line-up/.docs/instructions.md)): [Latest](../../../locales/uk/content/9e/68/6ecbffbfb01ac8a9b94dbbf187bd640b0335.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/line-up/.docs/introduction.md)): [Latest](../../../locales/uk/content/ea/07/268ae3b85226427933970f198e62717aea5d.md)
 
+### Linked List (Звʼязаний список)
+
+- `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/linked-list/.docs/instructions.md)): [Latest](../../../locales/uk/content/ed/f4/055b38ca35950a3600fa268e267763b69a17.md)
+- `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/linked-list/.docs/introduction.md)): [Latest](../../../locales/uk/content/6e/83/ae7b6e530aec64acc119d995eec9a678f228.md)
+
 ### List Ops (Операції з масивом)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/list-ops/.docs/instructions.md)): [Latest](../../../locales/uk/content/eb/c5/dffed02ecca9b62a12fd9c7327b58dd49bba.md)

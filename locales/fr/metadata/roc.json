@@ -383,5 +383,8 @@
   "exercise:satellite:name": "Satellite",
   "exercise:satellite:blurb": "Reconstruire des arbres binaires à partir des parcours préfixe et infixe.",
   "exercise:tree-building:name": "Construction d'un arbre",
-  "exercise:tree-building:blurb": "Réécris un algorithme de construction d'arbre."
+  "exercise:tree-building:blurb": "Réécris un algorithme de construction d'arbre.",
+  "exercise:linked-list:name": "Liste chaînée",
+  "exercise:linked-list:blurb": "Implémente une liste doublement chaînée.",
+  "exercise:linked-list:source": "Un classique de l'informatique."
 }

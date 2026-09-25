@@ -383,5 +383,8 @@
   "exercise:satellite:name": "Δορυφόρος",
   "exercise:satellite:blurb": "Ανακατασκεύασε δυαδικά δέντρα από προθεματικές και ενδοθεματικές διασχίσεις.",
   "exercise:tree-building:name": "Κατασκευή δέντρου",
-  "exercise:tree-building:blurb": "Αναδιαμόρφωσε έναν αλγόριθμο κατασκευής δέντρου."
+  "exercise:tree-building:blurb": "Αναδιαμόρφωσε έναν αλγόριθμο κατασκευής δέντρου.",
+  "exercise:linked-list:name": "Συνδεδεμένη λίστα",
+  "exercise:linked-list:blurb": "Υλοποίησε μια διπλά συνδεδεμένη λίστα.",
+  "exercise:linked-list:source": "Κλασικό θέμα επιστήμης υπολογιστών"
 }

@@ -383,5 +383,8 @@
   "exercise:satellite:name": "Műhold",
   "exercise:satellite:blurb": "Építsd újra a bináris fákat preorder és inorder bejárásból.",
   "exercise:tree-building:name": "Faépítés",
-  "exercise:tree-building:blurb": "Refaktoráld egy faépítő algoritmust."
+  "exercise:tree-building:blurb": "Refaktoráld egy faépítő algoritmust.",
+  "exercise:linked-list:name": "Láncolt lista",
+  "exercise:linked-list:blurb": "Valósíts meg egy kétszeresen láncolt listát.",
+  "exercise:linked-list:source": "Klasszikus számítástudományi téma"
 }
