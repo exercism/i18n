@@ -381,5 +381,7 @@
   "exercise:intergalactic-transmission:blurb": "Πρόσθεσε bits ισοτιμίας σε ένα μήνυμα για μετάδοση",
   "exercise:intergalactic-transmission:source": "Kah Goh",
   "exercise:satellite:name": "Δορυφόρος",
-  "exercise:satellite:blurb": "Ανακατασκεύασε δυαδικά δέντρα από προθεματικές και ενδοθεματικές διασχίσεις."
+  "exercise:satellite:blurb": "Ανακατασκεύασε δυαδικά δέντρα από προθεματικές και ενδοθεματικές διασχίσεις.",
+  "exercise:tree-building:name": "Κατασκευή δέντρου",
+  "exercise:tree-building:blurb": "Αναδιαμόρφωσε έναν αλγόριθμο κατασκευής δέντρου."
 }

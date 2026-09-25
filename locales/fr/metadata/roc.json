@@ -381,5 +381,7 @@
   "exercise:intergalactic-transmission:blurb": "Ajouter des bits de parité à un message pour la transmission.",
   "exercise:intergalactic-transmission:source": "Kah Goh",
   "exercise:satellite:name": "Satellite",
-  "exercise:satellite:blurb": "Reconstruire des arbres binaires à partir des parcours préfixe et infixe."
+  "exercise:satellite:blurb": "Reconstruire des arbres binaires à partir des parcours préfixe et infixe.",
+  "exercise:tree-building:name": "Construction d'un arbre",
+  "exercise:tree-building:blurb": "Réécris un algorithme de construction d'arbre."
 }

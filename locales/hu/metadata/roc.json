@@ -381,5 +381,7 @@
   "exercise:intergalactic-transmission:blurb": "Adj paritásbiteket egy üzenethez az átvitelhez",
   "exercise:intergalactic-transmission:source": "Kah Goh",
   "exercise:satellite:name": "Műhold",
-  "exercise:satellite:blurb": "Építsd újra a bináris fákat preorder és inorder bejárásból."
+  "exercise:satellite:blurb": "Építsd újra a bináris fákat preorder és inorder bejárásból.",
+  "exercise:tree-building:name": "Faépítés",
+  "exercise:tree-building:blurb": "Refaktoráld egy faépítő algoritmust."
 }

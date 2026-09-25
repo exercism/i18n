@@ -381,5 +381,7 @@
   "exercise:intergalactic-transmission:blurb": "Додайте біти парності до повідомлення для передачі",
   "exercise:intergalactic-transmission:source": "Ка Го",
   "exercise:satellite:name": "Супутник",
-  "exercise:satellite:blurb": "Відновіть двійкові дерева за прямим і симетричним обходом."
+  "exercise:satellite:blurb": "Відновіть двійкові дерева за прямим і симетричним обходом.",
+  "exercise:tree-building:name": "Побудова дерева",
+  "exercise:tree-building:blurb": "Зробіть рефакторинг алгоритму побудови дерева."
 }
