@@ -528,8 +528,8 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 ### High Score Board (Tableau des meilleurs scores)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/high-score-board/.docs/instructions.md)): [Latest](../../../locales/fr/content/43/f1/ae5a885c16bd8ed9e6782f0850d31678dccc.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/high-score-board/.docs/introduction.md)): [Latest](../../../locales/fr/content/f8/e7/30798ee5413f1987cd85ce98dc0e9ee755d1.md)
-  - [`459a30a5ae`](../../../locales/fr/content/45/9a/30a5aeabeb024360215871d96aabde04591a.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/high-score-board/.docs/introduction.md)): [Latest](../../../locales/fr/content/45/9a/30a5aeabeb024360215871d96aabde04591a.md)
+  - [`f8e730798e`](../../../locales/fr/content/f8/e7/30798ee5413f1987cd85ce98dc0e9ee755d1.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/high-score-board/.docs/hints.md)): [Latest](../../../locales/fr/content/06/d9/a9631734df1961e78f2289e6df537a450b8c.md)
 
 ### Lasagna Master (Maître de la lasagne)
@@ -550,7 +550,8 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 ### Log Lines (Lignes de journal)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/log-lines/.docs/instructions.md)): [Latest](../../../locales/fr/content/ac/d3/4a5b3e3eaa553973351eec917886f187e86b.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/log-lines/.docs/introduction.md)): [Latest](../../../locales/fr/content/54/ba/f75e88ab3d00bd3ca623804bff8cd964d652.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/log-lines/.docs/introduction.md)): [Latest](../../../locales/fr/content/9d/17/36c43ea98bc71a93ceefa2a9596ef15f5549.md)
+  - [`54baf75e88`](../../../locales/fr/content/54/ba/f75e88ab3d00bd3ca623804bff8cd964d652.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/log-lines/.docs/hints.md)): [Latest](../../../locales/fr/content/68/c7/3e248749ca96ad15ab14788ca4a610631905.md)
 
 ### Magician-in-Training (Apprenti magicien)
@@ -689,15 +690,17 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 
 ### Dictionaries (Dictionnaires)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/dictionaries/introduction.md)): [Latest](../../../locales/fr/content/f8/e7/30798ee5413f1987cd85ce98dc0e9ee755d1.md)
-  - [`459a30a5ae`](../../../locales/fr/content/45/9a/30a5aeabeb024360215871d96aabde04591a.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/dictionaries/about.md)): [Latest](../../../locales/fr/content/97/d0/3bffc499f51f4752122b10cade6be1293907.md)
-  - [`611a05063d`](../../../locales/fr/content/61/1a/05063d2df4374b1bc7fbe5c9e346037fa303.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/dictionaries/introduction.md)): [Latest](../../../locales/fr/content/45/9a/30a5aeabeb024360215871d96aabde04591a.md)
+  - [`f8e730798e`](../../../locales/fr/content/f8/e7/30798ee5413f1987cd85ce98dc0e9ee755d1.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/dictionaries/about.md)): [Latest](../../../locales/fr/content/61/1a/05063d2df4374b1bc7fbe5c9e346037fa303.md)
+  - [`97d03bffc4`](../../../locales/fr/content/97/d0/3bffc499f51f4752122b10cade6be1293907.md)
 
 ### Enumerations (Énumérations)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/enumerations/introduction.md)): [Latest](../../../locales/fr/content/cd/81/07abf8f96e2adb350b9f30968c49f963e955.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/enumerations/about.md)): [Latest](../../../locales/fr/content/cb/37/a800775f83189238aceecc4b8af508366852.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/enumerations/introduction.md)): [Latest](../../../locales/fr/content/9d/17/36c43ea98bc71a93ceefa2a9596ef15f5549.md)
+  - [`cd8107abf8`](../../../locales/fr/content/cd/81/07abf8f96e2adb350b9f30968c49f963e955.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/enumerations/about.md)): [Latest](../../../locales/fr/content/96/af/0699d2d7bb3897b5c7398f7cb9ec6057f894.md)
+  - [`cb37a80077`](../../../locales/fr/content/cb/37/a800775f83189238aceecc4b8af508366852.md)
 
 ### Escaping functions (Fonctions échappantes)
 
