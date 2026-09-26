@@ -550,8 +550,8 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 ### Log Lines (Lignes de journal)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/log-lines/.docs/instructions.md)): [Latest](../../../locales/fr/content/ac/d3/4a5b3e3eaa553973351eec917886f187e86b.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/log-lines/.docs/introduction.md)): [Latest](../../../locales/fr/content/9d/17/36c43ea98bc71a93ceefa2a9596ef15f5549.md)
-  - [`54baf75e88`](../../../locales/fr/content/54/ba/f75e88ab3d00bd3ca623804bff8cd964d652.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/log-lines/.docs/introduction.md)): [Latest](../../../locales/fr/content/54/ba/f75e88ab3d00bd3ca623804bff8cd964d652.md)
+  - [`9d1736c43e`](../../../locales/fr/content/9d/17/36c43ea98bc71a93ceefa2a9596ef15f5549.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/log-lines/.docs/hints.md)): [Latest](../../../locales/fr/content/68/c7/3e248749ca96ad15ab14788ca4a610631905.md)
 
 ### Magician-in-Training (Apprenti magicien)
@@ -697,15 +697,17 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 
 ### Enumerations (Énumérations)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/enumerations/introduction.md)): [Latest](../../../locales/fr/content/9d/17/36c43ea98bc71a93ceefa2a9596ef15f5549.md)
-  - [`cd8107abf8`](../../../locales/fr/content/cd/81/07abf8f96e2adb350b9f30968c49f963e955.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/enumerations/about.md)): [Latest](../../../locales/fr/content/96/af/0699d2d7bb3897b5c7398f7cb9ec6057f894.md)
-  - [`cb37a80077`](../../../locales/fr/content/cb/37/a800775f83189238aceecc4b8af508366852.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/enumerations/introduction.md)): [Latest](../../../locales/fr/content/cd/81/07abf8f96e2adb350b9f30968c49f963e955.md)
+  - [`9d1736c43e`](../../../locales/fr/content/9d/17/36c43ea98bc71a93ceefa2a9596ef15f5549.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/enumerations/about.md)): [Latest](../../../locales/fr/content/cb/37/a800775f83189238aceecc4b8af508366852.md)
+  - [`96af0699d2`](../../../locales/fr/content/96/af/0699d2d7bb3897b5c7398f7cb9ec6057f894.md)
 
 ### Escaping functions (Fonctions échappantes)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/escaping-functions/introduction.md)): [Latest](../../../locales/fr/content/33/86/ae3088d27d422bef457d48ead11a5757fc9e.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/escaping-functions/about.md)): [Latest](../../../locales/fr/content/3c/20/8d81de068da7cb70b6cc200b7d6261af6603.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/escaping-functions/introduction.md)): [Latest](../../../locales/fr/content/8f/6c/5e6fbb246ba9ca5efcb95b2ff552a7bedf8a.md)
+  - [`3386ae3088`](../../../locales/fr/content/33/86/ae3088d27d422bef457d48ead11a5757fc9e.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/escaping-functions/about.md)): [Latest](../../../locales/fr/content/25/96/429a1640eeeba1107558b9c4326975e3879d.md)
+  - [`3c208d81de`](../../../locales/fr/content/3c/20/8d81de068da7cb70b6cc200b7d6261af6603.md)
 
 ### for loops (Boucles for)
 
