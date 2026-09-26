@@ -404,5 +404,7 @@
   "exercise:intergalactic-transmission:blurb": "为待传输的消息添加奇偶校验位。",
   "exercise:intergalactic-transmission:source": "Kah Goh",
   "exercise:tree-building:name": "构建树",
-  "exercise:tree-building:blurb": "重构一个构建树的算法。"
+  "exercise:tree-building:blurb": "重构一个构建树的算法。",
+  "exercise:satellite:name": "卫星",
+  "exercise:satellite:blurb": "根据前序遍历和中序遍历重建二叉树。"
 }

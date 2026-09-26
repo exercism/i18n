@@ -404,5 +404,7 @@
   "exercise:intergalactic-transmission:blurb": "Adicione bits de paridade a uma mensagem para transmissão",
   "exercise:intergalactic-transmission:source": "Kah Goh",
   "exercise:tree-building:name": "Construção de árvores",
-  "exercise:tree-building:blurb": "Refatore um algoritmo de construção de árvores."
+  "exercise:tree-building:blurb": "Refatore um algoritmo de construção de árvores.",
+  "exercise:satellite:name": "Satélite",
+  "exercise:satellite:blurb": "Reconstrua árvores binárias a partir de percursos em pré-ordem e em ordem."
 }

@@ -404,5 +404,7 @@
   "exercise:intergalactic-transmission:blurb": "संचरण के लिए किसी संदेश में पैरिटी बिट जोड़िए",
   "exercise:intergalactic-transmission:source": "Kah Goh",
   "exercise:tree-building:name": "ट्री निर्माण",
-  "exercise:tree-building:blurb": "ट्री बनाने वाले एल्गोरिदम को रीफैक्टर कीजिए।"
+  "exercise:tree-building:blurb": "ट्री बनाने वाले एल्गोरिदम को रीफैक्टर कीजिए।",
+  "exercise:satellite:name": "उपग्रह",
+  "exercise:satellite:blurb": "प्री-ऑर्डर और इन-ऑर्डर ट्रैवर्सल से बाइनरी ट्री फिर से बनाइए।"
 }
