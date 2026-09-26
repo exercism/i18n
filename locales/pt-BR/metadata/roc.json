@@ -378,5 +378,8 @@
   "exercise:swift-scheduling:blurb": "Converta descrições de datas de entrega em datas de entrega reais.",
   "exercise:swift-scheduling:source": "Erik Schierboom",
   "exercise:react:name": "React",
-  "exercise:react:blurb": "Implemente um sistema reativo básico."
+  "exercise:react:blurb": "Implemente um sistema reativo básico.",
+  "exercise:split-second-stopwatch:name": "Cronômetro de fração de segundo",
+  "exercise:split-second-stopwatch:blurb": "Acompanhe a passagem do tempo com um cronômetro digital.",
+  "exercise:split-second-stopwatch:source": "Erik Schierboom"
 }

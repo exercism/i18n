@@ -378,5 +378,8 @@
   "exercise:swift-scheduling:blurb": "配達日の説明を実際の配達日に変換します。",
   "exercise:swift-scheduling:source": "Erik Schierboom",
   "exercise:react:name": "React",
-  "exercise:react:blurb": "基本的なリアクティブシステムを実装します。"
+  "exercise:react:blurb": "基本的なリアクティブシステムを実装します。",
+  "exercise:split-second-stopwatch:name": "一瞬のストップウォッチ",
+  "exercise:split-second-stopwatch:blurb": "デジタルストップウォッチで時間を記録します。",
+  "exercise:split-second-stopwatch:source": "Erik Schierboom"
 }
