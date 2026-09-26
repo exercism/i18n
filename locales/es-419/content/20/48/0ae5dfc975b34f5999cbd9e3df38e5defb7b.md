@@ -1,0 +1,23 @@
+# Introducción
+
+El desbordamiento aritmético ocurre cuando un cálculo, como una operación aritmética o una conversión de tipos, da como resultado un valor mayor que la capacidad del tipo que lo recibe.
+
+En estas circunstancias, las expresiones de tipo `int` y `long`, y sus equivalentes sin signo, dan la vuelta silenciosamente.
+
+El comportamiento de los cálculos con enteros se puede modificar usando la palabra clave `checked`. Cuando ocurre un desbordamiento dentro de un bloque `checked`, se lanza una instancia de `OverflowException`.
+
+```csharp
+int one = 1;
+checked
+{
+    int expr = int.MaxValue + one;   // OverflowException is thrown
+}
+
+// or
+
+int expr2 = checked(int.MaxValue + one);     // OverflowException is thrown
+```
+
+Las expresiones de tipo `float` y `double` toman un valor especial: el infinito.
+
+Las expresiones de tipo `decimal` lanzan una instancia de `OverflowException`.
