@@ -1,0 +1,55 @@
+# Introdução
+
+Em C#, uma tupla é uma estrutura de dados que organiza dados, comportando dois ou mais campos
+de qualquer tipo.
+
+Normalmente, uma tupla é criada colocando duas ou mais expressões separadas por vírgulas,
+dentro de um par de parênteses.
+
+```csharp
+string boast = "All you need to know";
+bool success = !string.IsNullOrWhiteSpace(boast);
+(bool, int, string) triple = (success, 42, boast);
+```
+
+Uma tupla pode ser usada em operações de atribuição e inicialização, como valor de retorno ou como argumento de um método.
+
+Os campos são extraídos com a sintaxe de ponto. Por padrão, o primeiro campo é `Item1`,
+o segundo é `Item2`, e assim por diante. Os nomes diferentes do padrão são discutidos abaixo.
+
+```csharp
+// initialization
+(int, int, int) vertices = (90, 45, 45);
+
+// assignment
+vertices = (60, 60, 60);
+
+//  return value
+(bool, int) GetSameOrBigger(int num1, int num2)
+{
+    return (num1 == num2, num1 > num2 ? num1 : num2);
+}
+
+// method argument
+int Add((int, int) operands)
+{
+    return operands.Item1 + operands.Item2;
+}
+```
+
+Nomes de campos como `Item1` não deixam o código legível. O código abaixo mostra
+duas formas de nomear os campos de tuplas. Repare também, no código abaixo, que `var` pode ser
+usado com tuplas e o tipo pode ser inferido. Isso funciona igualmente bem para tuplas com campos
+nomeados e não nomeados.
+
+```csharp
+// name items in declaration
+(bool success, string message) results = (true, "well done!");
+bool mySuccess = results.success;
+string myMessage = results.message;
+
+// name items in creating expression
+var results2 = (success: true, message: "well done!");
+bool mySuccess2 = results2.success;
+string myMessage2 = results2.message;
+```

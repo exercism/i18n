@@ -1,0 +1,37 @@
+# Instruções
+
+Calcule a diferença de Hamming entre duas fitas de DNA.
+
+Uma mutação é simplesmente um erro que ocorre durante a criação ou a
+cópia de um ácido nucleico, em particular o DNA. Como os ácidos nucleicos
+são vitais para as funções celulares, as mutações tendem a causar um
+efeito em cascata por toda a célula. Embora as mutações sejam
+tecnicamente erros, uma mutação muito rara pode dotar a célula de uma
+característica benéfica. Na verdade, os efeitos macro da evolução são
+atribuíveis ao resultado acumulado de mutações microscópicas benéficas ao
+longo de muitas gerações.
+
+O tipo mais simples e mais comum de mutação de ácido nucleico é a
+mutação pontual, que substitui uma base por outra em um único
+nucleotídeo.
+
+Ao contar o número de diferenças entre duas fitas de DNA homólogas,
+retiradas de genomas diferentes com um ancestral comum, obtemos uma
+medida do número mínimo de mutações pontuais que podem ter ocorrido no
+caminho evolutivo entre as duas fitas.
+
+Isso é chamado de 'distância de Hamming'
+
+    GAGCCTACTAACGGGAT
+    CATCGTAATGACGGCCT
+    ^ ^ ^  ^ ^    ^^
+
+A distância de Hamming entre essas duas fitas de DNA é 7.
+
+# Notas de implementação
+
+A distância de Hamming só está definida para sequências de comprimento
+igual. Por isso, você pode assumir que apenas sequências de mesmo
+comprimento serão passadas para sua função de distância de Hamming.
+
+**Observação: este problema está obsoleto e foi substituído pelo problema chamado `hamming`.**

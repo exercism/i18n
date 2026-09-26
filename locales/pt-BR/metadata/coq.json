@@ -1,0 +1,13 @@
+{
+  "exercise:hello-world:name": "Olá, Mundo",
+  "exercise:rna-transcription:name": "Transcrição de RNA",
+  "exercise:hello-world:blurb": "O clássico exercício de introdução. Basta dizer \"Hello, World!\"",
+  "exercise:hello-world:source": "Este é um exercício para apresentar o Exercism a novos usuários",
+  "exercise:rna-transcription:blurb": "Dada uma fita de DNA, retorne sua transcrição de RNA complementar.",
+  "exercise:rna-transcription:source": "Hyperphysics",
+  "track:blurb": "Coq é um assistente de provas. Com Coq, você pode escrever descrições formais de definições matemáticas, algoritmos e teoremas. Coq também oferece táticas para desenvolver provas verificadas por máquina de forma interativa.",
+  "exercise:tautology:name": "Tautologia",
+  "exercise:tautology:blurb": "A primeira regra do Clube da Tautologia é a primeira regra do Clube da Tautologia ",
+  "doc:learning:title": "Como aprender Coq",
+  "doc:learning:blurb": "Uma visão geral de como começar do zero com Coq"
+}

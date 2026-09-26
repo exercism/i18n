@@ -1,0 +1,22 @@
+# Instruções
+
+**NOTA: Este exercício foi descontinuado.**
+
+Veja a discussão em [https://github.com/exercism/problem-specifications/issues/80](https://github.com/exercism/problem-specifications/issues/80)
+para mais contexto.
+
+---
+
+Projete uma suíte de testes para uma ferramenta que conta linhas, letras e caracteres.
+
+Este é um exercício especial. Em vez de criar código que funciona com
+uma suíte de testes existente, você é quem define a suíte de testes. Para
+ajudar você, várias variações do código em teste foram fornecidas. Sua
+suíte de testes deve ser capaz de detectar pelo menos os problemas (ou a
+ausência deles) nessas variações.
+
+O sistema em teste deve ser um sistema que conta o
+número de linhas, letras e o total de caracteres em strings fornecidas.
+A ideia é que você execute a operação "add string" várias
+vezes, passando strings, e depois chame as funções "lines",
+"letters" e "characters" para obter os totais.

@@ -1,0 +1,39 @@
+{
+  "kind": "track",
+  "locale": "pt-BR",
+  "names": {
+    "docs/INSTALLATION.md": {"en":"Installing Ceylon locally","pt-BR":"Instalando o Ceylon localmente"},
+    "docs/LEARNING.md": {"en":"How to learn Ceylon","pt-BR":"Como aprender Ceylon"},
+    "docs/RESOURCES.md": {"en":"Useful Ceylon resources","pt-BR":"Recursos úteis de Ceylon"},
+    "docs/TESTS.md": {"en":"Testing on the Ceylon track","pt-BR":"Testes na trilha de Ceylon"},
+    "exercises/practice/anagram": {"en":"Anagram","pt-BR":"Anagrama"},
+    "exercises/practice/hamming": {"en":"Hamming","pt-BR":"Hamming"},
+    "exercises/practice/largest-series-product": {"en":"Largest Series Product","pt-BR":"Maior Produto de uma Série"},
+    "exercises/practice/leap": {"en":"Leap","pt-BR":"Ano Bissexto"},
+    "exercises/practice/matching-brackets": {"en":"Matching Brackets","pt-BR":"Brackets Correspondentes"},
+    "exercises/practice/react": {"en":"React","pt-BR":"React"},
+    "exercises/practice/rna-transcription": {"en":"Rna Transcription","pt-BR":"Transcrição de RNA"},
+    "exercises/practice/sieve": {"en":"Sieve","pt-BR":"Crivo"}
+  },
+  "paths": {
+    "docs/ABOUT.md": ["c0a1a370752748c7b976dbe2cee2d46312d026fa"],
+    "docs/INSTALLATION.md": ["618882e70f6c24b731b9abc470abe6b2171855ee"],
+    "docs/LEARNING.md": ["820dab99a0d9ebc5578784cf72d527fbd98d14bf"],
+    "docs/RESOURCES.md": ["0bdcf263a8c3985a147d4e11c92799d3c34a093b"],
+    "docs/TESTS.md": ["e962cc525106034964d8a8f42d611d692d70ec1c"],
+    "exercises/practice/anagram/.docs/instructions.md": ["a7298485b3f6ab5fd93ed7426e9e5331dc514e72"],
+    "exercises/practice/anagram/.docs/introduction.md": ["1acbdf00b059f44fb4ce4c00be743d24eda86d60"],
+    "exercises/practice/hamming/.docs/instructions.md": ["56c5696de15a9846b0717c8ca54479fe15aa8672"],
+    "exercises/practice/largest-series-product/.docs/instructions.md": ["f297b57f7c48aed917ec935f39efc1cf15e62c1e"],
+    "exercises/practice/largest-series-product/.docs/introduction.md": ["597bb5fa15d6b877bfb4f31cc6aec2b3eb53ec8d"],
+    "exercises/practice/leap/.docs/instructions.md": ["b14f8565d61694d7c20d78e10f966bd3deaaf748"],
+    "exercises/practice/leap/.docs/introduction.md": ["4ffd2da594a51072cb08a32004b217c1c988cfdc"],
+    "exercises/practice/matching-brackets/.docs/instructions.md": ["364ecad2139d04809c743efb6284441aa12705f0"],
+    "exercises/practice/react/.docs/instructions.md": ["5cad8825f051503bbd8e1d090a3bfc2e2f1f88a9"],
+    "exercises/practice/rna-transcription/.docs/instructions.md": ["36da381f5a7bdd5c45617d92fbd2cbd34d934cc1"],
+    "exercises/practice/rna-transcription/.docs/introduction.md": ["6b3f44b532d66665ff9c257ca28793f7e4bd1961"],
+    "exercises/practice/sieve/.docs/instructions.md": ["085c0a57d96c7cd846a7948241899ce46778f01d"],
+    "exercises/practice/sieve/.docs/introduction.md": ["f6c1cf79a9d4ccf67f1ed34dabb8ab0a58030358"]
+  },
+  "repo": "ceylon"
+}
