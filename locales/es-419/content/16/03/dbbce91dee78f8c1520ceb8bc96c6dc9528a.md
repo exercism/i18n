@@ -1,0 +1,74 @@
+# Instrucciones
+
+Crea una implementación del cifrado afín, un antiguo sistema de cifrado creado en Oriente Medio.
+
+El cifrado afín es un tipo de cifrado de sustitución monoalfabético.
+Cada carácter se asigna a su equivalente numérico, se cifra con una función matemática y luego se convierte en la letra correspondiente a su nuevo valor numérico.
+Aunque todos los cifrados monoalfabéticos son débiles, el cifrado afín es mucho más fuerte que el cifrado Atbash, porque tiene muchas más claves.
+
+[//]: # " monoalphabetic as spelled by Merriam-Webster, compare to polyalphabetic "
+
+## Cifrado
+
+La función de cifrado es:
+
+```text
+E(x) = (ai + b) mod m
+```
+
+Donde:
+
+- `i` es el índice de la letra, de `0` a la longitud del alfabeto menos 1.
+- `m` es la longitud del alfabeto.
+  Para el alfabeto latino, `m` es `26`.
+- `a` y `b` son números enteros que conforman la clave de cifrado.
+
+Los valores `a` y `m` deben ser _coprimos_ (o _primos entre sí_) para que el descifrado automático tenga éxito, es decir, deben tener el número `1` como su único factor común (puedes encontrar más información en el [artículo de Wikipedia sobre enteros coprimos][coprime-integers]).
+Si `a` no es coprimo con `m`, tu programa debe indicar que se trata de un error.
+De lo contrario, debe cifrar o descifrar con la clave proporcionada.
+
+Para los fines de este ejercicio, los dígitos son válidos como entrada, pero no se cifran.
+Los espacios y los caracteres de puntuación se excluyen.
+El texto cifrado se escribe en grupos de longitud fija separados por un espacio, siendo el tamaño de grupo tradicional de `5` letras.
+Esto sirve para que sea más difícil adivinar el texto cifrado a partir de los límites de las palabras.
+
+## Descifrado
+
+La función de descifrado es:
+
+```text
+D(y) = (a^-1)(y - b) mod m
+```
+
+Donde:
+
+- `y` es el valor numérico de una letra cifrada, es decir, `y = E(x)`
+- es importante tener en cuenta que `a^-1` es el inverso multiplicativo modular (MMI) de `a mod m`
+- el inverso multiplicativo modular solo existe si `a` y `m` son coprimos.
+
+El MMI de `a` es `x` tal que el residuo de dividir `ax` entre `m` es `1`:
+
+```text
+ax mod m = 1
+```
+
+Puedes encontrar más información sobre cómo hallar un inverso multiplicativo modular y qué significa en el [artículo de Wikipedia relacionado][mmi].
+
+## Ejemplos generales
+
+- Cifrar `"test"` da `"ybty"` con la clave `a = 5`, `b = 7`
+- Descifrar `"ybty"` da `"test"` con la clave `a = 5`, `b = 7`
+- Descifrar `"ybty"` da `"lqul"` con la clave incorrecta `a = 11`, `b = 7`
+- Descifrar `"kqlfd jzvgy tpaet icdhm rtwly kqlon ubstx"` da `"thequickbrownfoxjumpsoverthelazydog"` con la clave `a = 19`, `b = 13`
+- Cifrar `"test"` con la clave `a = 18`, `b = 13` es un error porque `18` y `26` no son coprimos
+
+## Ejemplo de cómo encontrar un inverso multiplicativo modular (MMI)
+
+Encontrar el MMI para `a = 15`:
+
+- `(15 * x) mod 26 = 1`
+- `(15 * 7) mod 26 = 1`, es decir, `105 mod 26 = 1`
+- `7` es el MMI de `15 mod 26`
+
+[mmi]: https://en.wikipedia.org/wiki/Modular_multiplicative_inverse
+[coprime-integers]: https://en.wikipedia.org/wiki/Coprime_integers

@@ -1,0 +1,14 @@
+# Instrucciones
+
+Administra la configuración de fábrica de un robot.
+
+Cuando un robot sale de la fábrica, no tiene nombre.
+
+La primera vez que enciendes un robot, se genera un nombre aleatorio con el formato de dos letras mayúsculas seguidas de tres dígitos, como RX837 o BC811.
+
+De vez en cuando hay que restablecer un robot a su configuración de fábrica, lo que significa que su nombre se borra.
+La próxima vez que lo consultes, ese robot responderá con un nuevo nombre aleatorio.
+
+Los nombres deben ser aleatorios: no deben seguir una secuencia predecible.
+Usar nombres aleatorios implica un riesgo de colisiones.
+Tu solución debe asegurar que cada robot existente tenga un nombre único.

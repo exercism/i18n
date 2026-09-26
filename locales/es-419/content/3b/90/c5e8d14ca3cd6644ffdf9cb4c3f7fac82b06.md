@@ -1,0 +1,31 @@
+# Introducción
+
+## Inicializadores de objetos
+
+Los inicializadores de objetos son una alternativa a los constructores. La sintaxis se ilustra a continuación. Proporcionas una lista de pares de nombre y valor separados por comas y unidos con `=` dentro de llaves:
+
+```csharp
+public class Person
+{
+    public string Name;
+    public string Address;
+}
+
+var person = new Person{Name="The President", Address = "Élysée Palace"};
+```
+
+Las colecciones también se pueden inicializar de esta manera. Por lo general, esto se logra con listas separadas por comas, como se muestra aquí:
+
+```csharp
+IList<Person> people = new List<Person>{ new Person(), new Person{Name="Joe Shmo"}};
+```
+
+Los diccionarios usan la siguiente sintaxis:
+
+```csharp
+IDictionary<int, string> numbers = new Dictionary<int, string>{ [0] = "zero", [1] = "one"...};
+
+// or
+
+IDictionary<int, string> numbers = new Dictionary<int, string>{ {0, "zero" }, {1,  "one"}...};
+```

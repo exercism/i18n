@@ -1,0 +1,166 @@
+# Introducción
+
+Los [arreglos][array] son uno de los tres tipos de colección principales de Swift.
+Un arreglo es una lista ordenada de elementos.
+Los arrays pueden almacenar elementos de cualquier tipo, pero todos los elementos de un mismo array deben compartir el mismo tipo.
+Los arrays son mutables cuando se asignan a una variable, lo que significa que puedes agregar, eliminar o modificar elementos después de crear el array.
+Cuando se asignan a una constante, los arrays son inmutables, es decir, su contenido no se puede cambiar.
+
+Los literales de array se escriben como una lista de elementos separados por comas y encerrados entre corchetes (`[...]`).
+Swift puede inferir el tipo del array a partir de los elementos dentro del literal.
+
+```swift
+let evenInts = [2, 4, 6, 8, 10, 12]
+var oddInts = [1, 3, 5, 7, 9, 11, 13]
+let greetings = ["Hello!", "Hi!", "¡Hola!"]
+```
+
+También puedes especificar el tipo de forma explícita.
+Los tipos de array se pueden escribir de dos maneras: `Array<T>` o la sintaxis abreviada `[T]`, donde `T` es el tipo de los valores que contiene el array.
+
+```swift
+let evenInts: Array<Int> = [2, 4, 6, 8, 10, 12]
+var oddInts: [Int] = [1, 3, 5, 7, 9, 11, 13]
+let greetings: [String] = ["Hello!", "Hi!", "¡Hola!"]
+```
+
+## Tamaño de un array
+
+Puedes obtener el número de elementos de un array usando su propiedad [`count`][count]:
+
+```swift
+evenInts.count
+// returns 6
+```
+
+## Arrays vacíos
+
+Para crear un array vacío, debes especificar su tipo.
+Puedes hacerlo usando la sintaxis de inicialización de arrays o una anotación de tipo explícita:
+
+```swift
+let emptyArray = [Int]()
+let emptyArray2 = Array<Int>()
+let emptyArray3: [Int] = []
+```
+
+## Arrays multidimensionales
+
+Los arrays se pueden anidar para crear arrays multidimensionales.
+Cuando especificas de forma explícita el tipo de un array anidado, encierra el tipo de los elementos entre corchetes anidados, como `[[Int]]` o `Array<Array<Int>>`:
+
+```swift
+let multiDimArray = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+let multiDimArray2: [[Int]] = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+```
+
+## Agregar elementos a un array
+
+Puedes agregar un elemento al final de un array mutable usando el método [`append(_:)`][append]:
+
+```swift
+var oddInts = [1, 3, 5, 7, 9, 11, 13]
+oddInts.append(15)
+// oddInts is now [1, 3, 5, 7, 9, 11, 13, 15]
+```
+
+## Insertar elementos en un array
+
+Puedes insertar un elemento en un índice específico usando el método [`insert(_:at:)`][insert].
+Este método recibe dos argumentos: el elemento que vas a insertar y el índice en el que lo vas a insertar.
+
+```swift
+var oddInts = [1, 3, 5, 7, 9, 11, 13]
+oddInts.insert(0, at: 0)
+// oddInts is now [0, 1, 3, 5, 7, 9, 11, 13]
+```
+
+## Combinar arrays
+
+Puedes combinar dos arrays en un solo array usando el operador `+`.
+El operador `+` crea y devuelve un array nuevo; no modifica los arrays originales.
+
+```swift
+var oddInts = [1, 3, 5, 7, 9, 11, 13]
+let combined = oddInts + [15, 17, 19]
+// combined is [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
+
+print(oddInts)
+// prints [1, 3, 5, 7, 9, 11, 13]
+```
+
+## Acceder a los elementos de un array
+
+Puedes acceder a un elemento individual de un array colocando su índice entre corchetes (`[]`) después del nombre del array.
+Los índices de un array son valores `Int` basados en cero, que empiezan en `0` para el primer elemento.
+Acceder a un índice fuera del rango válido provoca un error en tiempo de ejecución y hace que el programa se bloquee.
+
+```swift
+let evenInts = [2, 4, 6, 8, 10, 12]
+let oddInts = [1, 3, 5, 7, 9, 11, 13]
+
+evenInts[2]
+// returns 6
+
+oddInts[7]
+// Fatal error: Index out of range
+```
+
+## Modificar los elementos de un array
+
+Puedes cambiar un elemento de un array mutable asignando un valor nuevo a un índice específico.
+Igual que al leer elementos, usar un índice fuera del rango válido provoca un error en tiempo de ejecución.
+
+```swift
+var evenInts = [2, 4, 6, 8, 10, 12]
+
+evenInts[2] = 0
+// evenInts is now [2, 4, 0, 8, 10, 12]
+```
+
+## Convertir un array en un string y viceversa
+
+Puedes unir un array de strings en un solo string usando el método [`joined(separator:)`][joined], que recibe un string separador:
+
+```swift
+let evenInts = ["2", "4", "6", "8", "10", "12"]
+let evenIntsString = evenInts.joined(separator: ", ")
+// returns "2, 4, 6, 8, 10, 12"
+```
+
+Puedes dividir un string en un array de substrings usando el método [`split(separator:)`][split], pasando el carácter delimitador:
+
+```swift
+let evenIntsString = "2, 4, 6, 8, 10, 12"
+let evenInts = evenIntsString.split(separator: ",")
+// returns ["2", " 4", " 6", " 8", " 10", " 12"]
+```
+
+## Eliminar elementos de un array
+
+Puedes eliminar un elemento en un índice dado usando el método [`remove(at:)`][remove].
+El índice debe estar dentro de los límites válidos del array; de lo contrario, se produce un error en tiempo de ejecución.
+
+```swift
+var oddInts = [1, 3, 5, 7, 9, 11, 13]
+oddInts.remove(at: 3)
+// oddInts is now [1, 3, 5, 9, 11, 13]
+```
+
+Para eliminar el último elemento de un array, usa el método [`removeLast()`][removeLast].
+Llamar a `removeLast()` en un array vacío provoca un error en tiempo de ejecución.
+
+```swift
+var oddInts = [1, 3, 5, 7, 9, 11, 13]
+oddInts.removeLast()
+// oddInts is now [1, 3, 5, 7, 9, 11]
+```
+
+[array]: https://developer.apple.com/documentation/swift/array
+[count]: https://developer.apple.com/documentation/swift/array/count
+[insert]: https://developer.apple.com/documentation/swift/array/insert(_:at:)-3erb3
+[remove]: https://developer.apple.com/documentation/swift/array/remove(at:)-1p2pj
+[removeLast]: https://developer.apple.com/documentation/swift/array/removelast()
+[append]: https://developer.apple.com/documentation/swift/array/append(_:)-1ytnt
+[joined]: https://developer.apple.com/documentation/swift/array/joined(separator:)-5do1g
+[split]: https://developer.apple.com/documentation/swift/string/2894564-split

@@ -1,0 +1,88 @@
+# Introducción
+
+JavaScript tiene un operador `...` incorporado que facilita trabajar con una cantidad indefinida de elementos. Según el contexto, se le llama _operador rest_ u _operador spread_.
+
+## Operador rest
+
+### Elementos rest
+
+Cuando `...` aparece en el lado izquierdo de una asignación, esos tres puntos se conocen como el operador `rest`. Los tres puntos junto con un nombre de variable se llaman elemento rest. Recolecta cero o más valores y los guarda en un solo array.
+
+```javascript
+const [a, b, ...everythingElse] = [0, 1, 1, 2, 3, 5, 8];
+a;
+// => 0
+b;
+// => 1
+everythingElse;
+// => [1, 2, 3, 5, 8]
+```
+
+Fíjate que en JavaScript, a diferencia de otros lenguajes, un elemento `rest` no puede llevar una coma al final. _Debe_ ser el último elemento de una asignación por desestructuración. El siguiente ejemplo lanza un `SyntaxError`:
+
+```javascript
+const [...items, last] = [2, 4, 8, 16]
+```
+
+### Propiedades rest
+
+De manera similar a los arrays, el operador rest también se puede usar para recolectar una o más propiedades de un objeto y guardarlas en un solo objeto.
+
+```javascript
+const { street, ...address } = {
+  street: 'Platz der Republik 1',
+  postalCode: '11011',
+  city: 'Berlin',
+};
+street;
+// => 'Platz der Republik 1'
+address;
+// => {postalCode: '11011', city: 'Berlin'}
+```
+
+## Parámetros rest
+
+Cuando `...` aparece en la definición de una función junto a su último argumento, ese parámetro se llama _parámetro rest_. Le permite a la función aceptar una cantidad indefinida de argumentos como un array.
+
+```javascript
+function concat(...strings) {
+  return strings.join(' ');
+}
+concat('one');
+// => 'one'
+concat('one', 'two', 'three');
+// => 'one two three'
+```
+
+## Spread
+
+### Elementos spread
+
+Cuando `...` aparece en el lado derecho de una asignación, se conoce como el operador `spread`. Expande un array a una lista de elementos. A diferencia del elemento rest, puede aparecer en cualquier parte de una expresión literal de array, y puede haber más de uno.
+
+```javascript
+const oneToFive = [1, 2, 3, 4, 5];
+const oneToTen = [...oneToFive, 6, 7, 8, 9, 10];
+oneToTen;
+// => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+const woow = ['A', ...oneToFive, 'B', 'C', 'D', 'E', ...oneToFive, 42];
+woow;
+// =>  ["A", 1, 2, 3, 4, 5, "B", "C", "D", "E", 1, 2, 3, 4, 5, 42]
+```
+
+### Propiedades spread
+
+De manera similar a los arrays, el operador spread también se puede usar para copiar propiedades de un objeto a otro.
+
+```javascript
+let address = {
+  postalCode: '11011',
+  city: 'Berlin',
+};
+address = { ...address, country: 'Germany' };
+// => {
+//   postalCode: '11011',
+//   city: 'Berlin',
+//   country: 'Germany',
+// }
+```

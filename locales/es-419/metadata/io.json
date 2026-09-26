@@ -1,0 +1,3 @@
+{
+  "track:blurb": "Io es un lenguaje de programación puro orientado a objetos, inspirado en Smalltalk, Self, Lua, Lisp, Act1 y NewtonScript. Su modelo de objetos se basa en prototipos, similar al de Self y NewtonScript, y no distingue entre instancia y clase. Todo es un objeto y usa tipado dinámico. Gira en torno a la idea de pasar mensajes de un objeto a otro."
+}

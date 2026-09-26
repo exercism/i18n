@@ -1,0 +1,15 @@
+{
+  "kind": "track",
+  "locale": "es-419",
+  "names": {},
+  "paths": {
+    "docs/ABOUT.md": ["79ac4c2a08d84dfaa651abbf3159c569a709b859"],
+    "docs/INSTALLATION.md": ["4026317a86c6bb837560c50310af26357f010d84"],
+    "docs/LEARNING.md": ["c39c2a25bb9b0b7e061e6bad8cbaf294d8c76b6f"],
+    "docs/RESOURCES.md": ["06f84ec57f7ba454000039c95a153a93573d1a8e"],
+    "docs/TESTS.md": ["5932b408973c84d5102d2aa4736db7a372b20bc2"],
+    "exercises/shared/.docs/help.md": ["ac8b876ad5aa40583c8a4913087121c253d57ca1"],
+    "exercises/shared/.docs/tests.md": ["ac8b876ad5aa40583c8a4913087121c253d57ca1"]
+  },
+  "repo": "forth"
+}

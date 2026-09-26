@@ -17,6 +17,12 @@
       "added": "2026-09-25",
       "by": "iHiD"
     },
+    "16638aefac352d0a24c0a69bf0b5a6a3aa43484e": {
+      "text": "CodeRanch Cattle Drive, Assignment 3",
+      "reason": "Attribution: the name of the CodeRanch course and assignment the exercise comes from.",
+      "added": "2026-09-26",
+      "by": "iHiD"
+    },
     "23f5b9b810ead401e06a66d8a8f503c238559383": {
       "text": "%{comment}\n",
       "reason": "The whole file is one %{comment} placeholder, which the website fills in with an analyzer comment it renders separately. There is nothing to translate, in any language.",

@@ -1,0 +1,19 @@
+# Introducción
+
+## File
+
+El módulo `File` proporciona las funciones para trabajar con archivos.
+
+Para leer un archivo completo, usa `File.read/1`. Para escribir en un archivo, usa `File.write/2`.
+
+Cada vez que se escribe en un archivo con `File.write/2`, se abre un descriptor de archivo y se crea un nuevo [proceso][exercism-processes] de Elixir. Por esta razón, debes evitar escribir en un archivo dentro de un bucle con `File.write/2`.
+
+En su lugar, puedes abrir un archivo con `File.open/2`. El segundo argumento de `File.open/2` es una lista de modos, que te permite especificar si quieres abrir el archivo para leer o para escribir.
+
+`File.open/2` devuelve el PID de un proceso que se encarga del archivo. Para leer y escribir en el archivo, usa las funciones del módulo `IO` y pasa este PID como el dispositivo de E/S.
+
+Cuando termines de trabajar con el archivo, ciérralo con `File.close/1`.
+
+Todas las funciones mencionadas del módulo `File` también tienen una variante con `!` que lanza un error en lugar de devolver una tupla de error (por ejemplo, `File.read!/1`). Usa esa variante si no piensas manejar errores como archivos que no existen o falta de permisos.
+
+[exercism-processes]: https://exercism.org/tracks/elixir/concepts/processes
