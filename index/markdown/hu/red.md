@@ -18,7 +18,8 @@ This page is generated from [the index](../../json/hu/red.json) by `scripts/buil
 
 ### Anagram (Anagramma)
 
-- `instructions.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/anagram/.docs/instructions.md)): [Latest](../../../locales/hu/content/a7/29/8485b3f6ab5fd93ed7426e9e5331dc514e72.md)
+- `instructions.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/anagram/.docs/instructions.md)): [Latest](../../../locales/hu/content/dc/a2/4f52627e3ba6b999322fb89d8c686c3ec634.md)
+  - [`a7298485b3`](../../../locales/hu/content/a7/29/8485b3f6ab5fd93ed7426e9e5331dc514e72.md)
 - `instructions.append.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/anagram/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/b1/1c/894efbf15653f7a5c75875a4cfb2c45c0430.md)
 - `introduction.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/anagram/.docs/introduction.md)): [Latest](../../../locales/hu/content/1a/cb/df00b059f44fb4ce4c00be743d24eda86d60.md)
 
@@ -28,7 +29,8 @@ This page is generated from [the index](../../json/hu/red.json) by `scripts/buil
 
 ### Atbash Cipher (Atbash-rejtjel)
 
-- `instructions.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/atbash-cipher/.docs/instructions.md)): [Latest](../../../locales/hu/content/21/ca/2ce0aa806b97f21182196eebe554c4b984ef.md)
+- `instructions.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/atbash-cipher/.docs/instructions.md)): [Latest](../../../locales/hu/content/1e/76/27b1e5989878f0f1bf735feb1300de7a2664.md)
+  - [`21ca2ce0aa`](../../../locales/hu/content/21/ca/2ce0aa806b97f21182196eebe554c4b984ef.md)
 
 ### Binary Search (Bináris keresés)
 
@@ -56,7 +58,9 @@ This page is generated from [the index](../../json/hu/red.json) by `scripts/buil
 
 ### Collatz Conjecture (Collatz-sejtés)
 
-- `instructions.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/collatz-conjecture/.docs/instructions.md)): [Latest](../../../locales/hu/content/ba/06/0483e4d45f77f20a8b048544aa5438022467.md)
+- `instructions.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/collatz-conjecture/.docs/instructions.md)): [Latest](../../../locales/hu/content/af/33/2a810f0f31aa1233e92bea57721d3025f4e0.md)
+  - [`ba060483e4`](../../../locales/hu/content/ba/06/0483e4d45f77f20a8b048544aa5438022467.md)
+- `introduction.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/collatz-conjecture/.docs/introduction.md)): [Latest](../../../locales/hu/content/c3/5b/deb67dceef4bf9769dbbf473e841cdd068f2.md)
 
 ### D&D Character (D&D-karakter)
 
@@ -75,7 +79,8 @@ This page is generated from [the index](../../json/hu/red.json) by `scripts/buil
 ### Eliud's Eggs (Eliud tojásai)
 
 - `instructions.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/eliuds-eggs/.docs/instructions.md)): [Latest](../../../locales/hu/content/b0/c2/df593c0c15f1f94dfc13bddacffd6b0f5ddc.md)
-- `introduction.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/eliuds-eggs/.docs/introduction.md)): [Latest](../../../locales/hu/content/81/98/97480992a58c8ef61fa5c9277d107f57424f.md)
+- `introduction.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/eliuds-eggs/.docs/introduction.md)): [Latest](../../../locales/hu/content/2b/2e/5c43d8b2546885ba33bb6c3c8bdc88e3b0dc.md)
+  - [`8198974809`](../../../locales/hu/content/81/98/97480992a58c8ef61fa5c9277d107f57424f.md)
 
 ### ETL
 
@@ -94,7 +99,9 @@ This page is generated from [the index](../../json/hu/red.json) by `scripts/buil
 
 ### Grains (Gabonaszemek)
 
-- `instructions.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/grains/.docs/instructions.md)): [Latest](../../../locales/hu/content/df/47/9fc0a174d105647e79d6c4dcaad6947b460c.md)
+- `instructions.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/grains/.docs/instructions.md)): [Latest](../../../locales/hu/content/f5/b7/52a81754e88e6e41120237c7d3b24d150e58.md)
+  - [`df479fc0a1`](../../../locales/hu/content/df/47/9fc0a174d105647e79d6c4dcaad6947b460c.md)
+- `introduction.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/grains/.docs/introduction.md)): [Latest](../../../locales/hu/content/0d/f4/f46f726cabcd99719756067e04d6832e52a8.md)
 
 ### Hamming
 
@@ -148,7 +155,9 @@ This page is generated from [the index](../../json/hu/red.json) by `scripts/buil
 
 ### Phone Number (Telefonszám)
 
-- `instructions.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/phone-number/.docs/instructions.md)): [Latest](../../../locales/hu/content/62/ba/48e96fd2a47445a74ab075c7ef7198601815.md)
+- `instructions.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/phone-number/.docs/instructions.md)): [Latest](../../../locales/hu/content/5d/4d/3739f4563d3f7781a1524df13f11cc8fbc71.md)
+  - [`62ba48e96f`](../../../locales/hu/content/62/ba/48e96fd2a47445a74ab075c7ef7198601815.md)
+- `introduction.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/phone-number/.docs/introduction.md)): [Latest](../../../locales/hu/content/c4/14/2c5af7289f74bf05d04c4563e2968a639cd2.md)
 
 ### POV (Nézőpont)
 
@@ -156,7 +165,8 @@ This page is generated from [the index](../../json/hu/red.json) by `scripts/buil
 
 ### Protein Translation (Fehérjetranszláció)
 
-- `instructions.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/protein-translation/.docs/instructions.md)): [Latest](../../../locales/hu/content/44/88/0802c578d25f9638fab6a6bc1389ef45dd65.md)
+- `instructions.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/protein-translation/.docs/instructions.md)): [Latest](../../../locales/hu/content/35/c9/53b11f9642c30978222e743aff4dc38f1451.md)
+  - [`44880802c5`](../../../locales/hu/content/44/88/0802c578d25f9638fab6a6bc1389ef45dd65.md)
   - [`7dc34d2edf`](../../../locales/hu/content/7d/c3/4d2edfda1f154ed75b7cc6371485d8b0b39d.md)
   - [`c211345ed9`](../../../locales/hu/content/c2/11/345ed984d09974f68e37fa0bec90b5e33371.md)
 
@@ -235,7 +245,8 @@ This page is generated from [the index](../../json/hu/red.json) by `scripts/buil
 
 ### Triangle (Háromszög)
 
-- `instructions.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/hu/content/ac/39/008726d5472b99e1aee556219eadca7fc49d.md)
+- `instructions.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/hu/content/e9/b0/53dcd344e85179041c10dcd48406d735b2f9.md)
+  - [`ac39008726`](../../../locales/hu/content/ac/39/008726d5472b99e1aee556219eadca7fc49d.md)
 
 ### Two Fer
 
