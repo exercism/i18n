@@ -494,15 +494,15 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 ### Cal's Custom Sign Shop (La boutique de panneaux personnalisés de Cal)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/custom-signs/.docs/instructions.md)): [Latest](../../../locales/fr/content/9d/85/6f0aa8809a16ac843e2694859b54a64e0cd0.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/custom-signs/.docs/introduction.md)): [Latest](../../../locales/fr/content/83/8c/df737db94f1b3f12168170b3345747a96f27.md)
-  - [`f2988abf4c`](../../../locales/fr/content/f2/98/8abf4ce8465b90479969621181a37cbed4b1.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/custom-signs/.docs/introduction.md)): [Latest](../../../locales/fr/content/f2/98/8abf4ce8465b90479969621181a37cbed4b1.md)
+  - [`838cdf737d`](../../../locales/fr/content/83/8c/df737db94f1b3f12168170b3345747a96f27.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/custom-signs/.docs/hints.md)): [Latest](../../../locales/fr/content/99/8f/c2d6aa9963472e8f5c84903f004565d65e30.md)
 
 ### ChessBoard (Échiquier)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/chessboard/.docs/instructions.md)): [Latest](../../../locales/fr/content/cb/5a/cc863e25f06c909f01efe2652d9d6836dbcc.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/chessboard/.docs/introduction.md)): [Latest](../../../locales/fr/content/e6/30/9215096118f858eefb4af2ba876d01fa8c3e.md)
-  - [`a1c7ed3db8`](../../../locales/fr/content/a1/c7/ed3db887f49160f13421f41f40992ca1d53e.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/chessboard/.docs/introduction.md)): [Latest](../../../locales/fr/content/a1/c7/ed3db887f49160f13421f41f40992ca1d53e.md)
+  - [`e630921509`](../../../locales/fr/content/e6/30/9215096118f858eefb4af2ba876d01fa8c3e.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/chessboard/.docs/hints.md)): [Latest](../../../locales/fr/content/47/a7/1301d8ebee5ae1f661f6baf6cbf9279af50a.md)
 
 ### Double-Null0111: Closures Are Forever (Double-Null0111 : les closures sont éternelles)
@@ -535,16 +535,16 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 ### Lasagna Master (Maître de la lasagne)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/instructions.md)): [Latest](../../../locales/fr/content/e7/be/156216e1bfe80505bfd12b3fd32d2216fff1.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/introduction.md)): [Latest](../../../locales/fr/content/23/77/faff0684164dc4fcc00e56ddd9618faca817.md)
-  - [`634275fc1d`](../../../locales/fr/content/63/42/75fc1d2535300a0f707f6207f274f7d8c297.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/introduction.md)): [Latest](../../../locales/fr/content/63/42/75fc1d2535300a0f707f6207f274f7d8c297.md)
+  - [`2377faff06`](../../../locales/fr/content/23/77/faff0684164dc4fcc00e56ddd9618faca817.md)
   - [`b149a2de4d`](../../../locales/fr/content/b1/49/a2de4d26bd3e78a81bb0cdab6658e63b44e2.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/hints.md)): [Latest](../../../locales/fr/content/58/5b/ba325cb63f84fb923ea554b22f1b5ec3c258.md)
 
 ### Layers of Lasagna (Les couches de lasagnes)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna/.docs/instructions.md)): [Latest](../../../locales/fr/content/85/b7/f84723a199fa798330f2a925786b8f2d550d.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna/.docs/introduction.md)): [Latest](../../../locales/fr/content/bd/58/0f8d31960155d8fc93b9f25fac5befbdae36.md)
-  - [`5a9f68030d`](../../../locales/fr/content/5a/9f/68030d8b73c6adead66d51325c6f8d3fcf28.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna/.docs/introduction.md)): [Latest](../../../locales/fr/content/5a/9f/68030d8b73c6adead66d51325c6f8d3fcf28.md)
+  - [`bd580f8d31`](../../../locales/fr/content/bd/58/0f8d31960155d8fc93b9f25fac5befbdae36.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna/.docs/hints.md)): [Latest](../../../locales/fr/content/7a/07/6d48f3db8d7f60be3880c0afd4ba7917ff7c.md)
 
 ### Log Lines (Lignes de journal)
@@ -565,8 +565,8 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/instructions.md)): [Latest](../../../locales/fr/content/94/76/35eee692acb0eb2bcc0fbd62cf07a25062b1.md)
   - [`3fa2ab5e8d`](../../../locales/fr/content/3f/a2/ab5e8ddc7901074b7719bd81a0047a5f4c7d.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/introduction.md)): [Latest](../../../locales/fr/content/23/a4/b650c9632a8196d3f13772c635bd4d7cb94f.md)
-  - [`f8958c25ce`](../../../locales/fr/content/f8/95/8c25ce8c2bfa582c0f9eb0234325bb638e87.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/introduction.md)): [Latest](../../../locales/fr/content/f8/95/8c25ce8c2bfa582c0f9eb0234325bb638e87.md)
+  - [`23a4b650c9`](../../../locales/fr/content/23/a4/b650c9632a8196d3f13772c635bd4d7cb94f.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/hints.md)): [Latest](../../../locales/fr/content/02/a6/1bb02901f32857a1a1c89f50145d3b6c6181.md)
 
 ### Secret Agent Double-Null0111 (Agent secret Double-Null0111)
@@ -584,8 +584,8 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 ### The 1st Rule of Poetry Club (La première règle du club de poésie)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/poetry-club/.docs/instructions.md)): [Latest](../../../locales/fr/content/92/47/55bac6400e3b74d39047ea27737535026236.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/poetry-club/.docs/introduction.md)): [Latest](../../../locales/fr/content/a3/22/9b3b000ada4ef1fa4549eaf5774e2f9e1934.md)
-  - [`4a52385cc1`](../../../locales/fr/content/4a/52/385cc166f34b77e1f45c9f7c4e1613f4cd1a.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/poetry-club/.docs/introduction.md)): [Latest](../../../locales/fr/content/4a/52/385cc166f34b77e1f45c9f7c4e1613f4cd1a.md)
+  - [`a3229b3b00`](../../../locales/fr/content/a3/22/9b3b000ada4ef1fa4549eaf5774e2f9e1934.md)
   - [`06001f8296`](../../../locales/fr/content/06/00/1f82968c3ffd20a3a9438e93cd2f3c2d49b0.md)
   - [`323d4fcc9b`](../../../locales/fr/content/32/3d/4fcc9b7952ebce6071b2db6a11de394daea6.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/poetry-club/.docs/hints.md)): [Latest](../../../locales/fr/content/a0/a7/68a9aed1d311ae21fb849eaeecc3e203dae5.md)
@@ -593,8 +593,8 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 ### Vexing Vehicle Purchase (L'achat d'un véhicule contrariant)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/vehicle-purchase/.docs/instructions.md)): [Latest](../../../locales/fr/content/72/60/5a19df3ad3b3f5457da18c94f1b12af3443f.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/vehicle-purchase/.docs/introduction.md)): [Latest](../../../locales/fr/content/73/fe/909cc25fa6b813a7486463b4ace8d7ba7d67.md)
-  - [`650d76790c`](../../../locales/fr/content/65/0d/76790c75b30f286d8370ced805c421639570.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/vehicle-purchase/.docs/introduction.md)): [Latest](../../../locales/fr/content/65/0d/76790c75b30f286d8370ced805c421639570.md)
+  - [`73fe909cc2`](../../../locales/fr/content/73/fe/909cc25fa6b813a7486463b4ace8d7ba7d67.md)
   - [`b869c5e259`](../../../locales/fr/content/b8/69/c5e2591bf5afbf545803784255c306a80876.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/vehicle-purchase/.docs/hints.md)): [Latest](../../../locales/fr/content/6a/b8/7ae86eab6dc16effafc3306fdfa26efa56d7.md)
 
@@ -608,8 +608,8 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 ### Wings Quest (La quête des ailes)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/wings-quest/.docs/instructions.md)): [Latest](../../../locales/fr/content/a8/9d/dfaae955ffc61319fdb9f08d0eb1d845b854.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/wings-quest/.docs/introduction.md)): [Latest](../../../locales/fr/content/ef/fe/1187809b9b57f1a8523e5f688f3c62890235.md)
-  - [`8819b4dd12`](../../../locales/fr/content/88/19/b4dd12a44ee16303585f3b30e70fc3240018.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/wings-quest/.docs/introduction.md)): [Latest](../../../locales/fr/content/88/19/b4dd12a44ee16303585f3b30e70fc3240018.md)
+  - [`effe118780`](../../../locales/fr/content/ef/fe/1187809b9b57f1a8523e5f688f3c62890235.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/wings-quest/.docs/hints.md)): [Latest](../../../locales/fr/content/03/45/d3e7e6c4212b902ce5391c4b6a95987d505e.md)
 
 ## Concepts
@@ -623,17 +623,17 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 
 ### Basics (Les bases)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/basics/introduction.md)): [Latest](../../../locales/fr/content/bd/58/0f8d31960155d8fc93b9f25fac5befbdae36.md)
-  - [`0167121656`](../../../locales/fr/content/01/67/1216566c25a9bd1154d471f9335c2f6e0087.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/basics/about.md)): [Latest](../../../locales/fr/content/46/86/eec6a50c2e7ad9a08f55f757bb28d640e743.md)
-  - [`4e14e8b1c5`](../../../locales/fr/content/4e/14/e8b1c5d9c3007d08cb96489422cb28419d82.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/basics/introduction.md)): [Latest](../../../locales/fr/content/01/67/1216566c25a9bd1154d471f9335c2f6e0087.md)
+  - [`bd580f8d31`](../../../locales/fr/content/bd/58/0f8d31960155d8fc93b9f25fac5befbdae36.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/basics/about.md)): [Latest](../../../locales/fr/content/4e/14/e8b1c5d9c3007d08cb96489422cb28419d82.md)
+  - [`4686eec6a5`](../../../locales/fr/content/46/86/eec6a50c2e7ad9a08f55f757bb28d640e743.md)
 
 ### Booleans (Booléens)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/booleans/introduction.md)): [Latest](../../../locales/fr/content/ef/fe/1187809b9b57f1a8523e5f688f3c62890235.md)
-  - [`186385b6fa`](../../../locales/fr/content/18/63/85b6fab1eb832b9f4b38ef6ba5220c4b8428.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/booleans/about.md)): [Latest](../../../locales/fr/content/38/88/aa058bae88f5a2eca4d12da3ff9f2d480f14.md)
-  - [`186385b6fa`](../../../locales/fr/content/18/63/85b6fab1eb832b9f4b38ef6ba5220c4b8428.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/booleans/introduction.md)): [Latest](../../../locales/fr/content/18/63/85b6fab1eb832b9f4b38ef6ba5220c4b8428.md)
+  - [`effe118780`](../../../locales/fr/content/ef/fe/1187809b9b57f1a8523e5f688f3c62890235.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/booleans/about.md)): [Latest](../../../locales/fr/content/18/63/85b6fab1eb832b9f4b38ef6ba5220c4b8428.md)
+  - [`3888aa058b`](../../../locales/fr/content/38/88/aa058bae88f5a2eca4d12da3ff9f2d480f14.md)
 
 ### Capturing (Capture)
 
@@ -644,17 +644,17 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 
 ### Characters and Strings (Caractères et chaînes de caractères)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/characters-and-strings/introduction.md)): [Latest](../../../locales/fr/content/83/8c/df737db94f1b3f12168170b3345747a96f27.md)
-  - [`f2988abf4c`](../../../locales/fr/content/f2/98/8abf4ce8465b90479969621181a37cbed4b1.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/characters-and-strings/about.md)): [Latest](../../../locales/fr/content/14/4a/545ce2e905a169ef590a1d8b5423299cb6e6.md)
-  - [`f2988abf4c`](../../../locales/fr/content/f2/98/8abf4ce8465b90479969621181a37cbed4b1.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/characters-and-strings/introduction.md)): [Latest](../../../locales/fr/content/f2/98/8abf4ce8465b90479969621181a37cbed4b1.md)
+  - [`838cdf737d`](../../../locales/fr/content/83/8c/df737db94f1b3f12168170b3345747a96f27.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/characters-and-strings/about.md)): [Latest](../../../locales/fr/content/f2/98/8abf4ce8465b90479969621181a37cbed4b1.md)
+  - [`144a545ce2`](../../../locales/fr/content/14/4a/545ce2e905a169ef590a1d8b5423299cb6e6.md)
 
 ### Classes
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/classes/introduction.md)): [Latest](../../../locales/fr/content/05/0f/6ed368fbaa87354e7ca89f5a0e6a7a4c2b7f.md)
-  - [`44a969e4d0`](../../../locales/fr/content/44/a9/69e4d0c6d8e8b939cc86ee8afe51e17190ff.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/classes/about.md)): [Latest](../../../locales/fr/content/0d/42/f9fb56c4f1b38fcb7795fa08c1613bc16ec1.md)
-  - [`44a969e4d0`](../../../locales/fr/content/44/a9/69e4d0c6d8e8b939cc86ee8afe51e17190ff.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/classes/introduction.md)): [Latest](../../../locales/fr/content/44/a9/69e4d0c6d8e8b939cc86ee8afe51e17190ff.md)
+  - [`050f6ed368`](../../../locales/fr/content/05/0f/6ed368fbaa87354e7ca89f5a0e6a7a4c2b7f.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/classes/about.md)): [Latest](../../../locales/fr/content/44/a9/69e4d0c6d8e8b939cc86ee8afe51e17190ff.md)
+  - [`0d42f9fb56`](../../../locales/fr/content/0d/42/f9fb56c4f1b38fcb7795fa08c1613bc16ec1.md)
 
 ### Closures (Fermetures)
 
@@ -663,10 +663,10 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 
 ### Conditionals (Conditionnelles)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals/introduction.md)): [Latest](../../../locales/fr/content/ec/52/8da484eb5133859b606af63672b9f4555831.md)
-  - [`3629c53d8d`](../../../locales/fr/content/36/29/c53d8dd8953464cf86e47e180b9cda938d42.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals/about.md)): [Latest](../../../locales/fr/content/72/96/fd4a991b832f0a828a62c5218ca35e64542f.md)
-  - [`3629c53d8d`](../../../locales/fr/content/36/29/c53d8dd8953464cf86e47e180b9cda938d42.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals/introduction.md)): [Latest](../../../locales/fr/content/36/29/c53d8dd8953464cf86e47e180b9cda938d42.md)
+  - [`ec528da484`](../../../locales/fr/content/ec/52/8da484eb5133859b606af63672b9f4555831.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals/about.md)): [Latest](../../../locales/fr/content/36/29/c53d8dd8953464cf86e47e180b9cda938d42.md)
+  - [`7296fd4a99`](../../../locales/fr/content/72/96/fd4a991b832f0a828a62c5218ca35e64542f.md)
 
 ### Conditionals Guard (Garde conditionnelle)
 
@@ -716,8 +716,10 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 
 ### Function Overloading (Surcharge de fonctions)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/function-overloading/introduction.md)): [Latest](../../../locales/fr/content/c9/7d/bae5fe3143117b25d556af0a35b387e914de.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/function-overloading/about.md)): [Latest](../../../locales/fr/content/66/ea/2c05a2e7703633ce75bdcd24c2ba80a84745.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/function-overloading/introduction.md)): [Latest](../../../locales/fr/content/56/c5/3f80300bc9aea310b23a45f7c9c1468e9551.md)
+  - [`c97dbae5fe`](../../../locales/fr/content/c9/7d/bae5fe3143117b25d556af0a35b387e914de.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/function-overloading/about.md)): [Latest](../../../locales/fr/content/56/c5/3f80300bc9aea310b23a45f7c9c1468e9551.md)
+  - [`66ea2c05a2`](../../../locales/fr/content/66/ea/2c05a2e7703633ce75bdcd24c2ba80a84745.md)
 
 ### Higher Order Functions (Fonctions d'ordre supérieur)
 
@@ -726,10 +728,10 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 
 ### Importing (Importation)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/importing/introduction.md)): [Latest](../../../locales/fr/content/c6/df/ebbfab86eb6f61ffe21d36c89a33cd2c8884.md)
-  - [`131e05eb0f`](../../../locales/fr/content/13/1e/05eb0ffac54c8c93102fdb05f4f85d419cde.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/importing/about.md)): [Latest](../../../locales/fr/content/f6/21/0dd23f3ce0440f857242cebf2b763e8f4836.md)
-  - [`6d0e44e0c9`](../../../locales/fr/content/6d/0e/44e0c9f3b1b087efc52e8345bed7da2381f0.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/importing/introduction.md)): [Latest](../../../locales/fr/content/13/1e/05eb0ffac54c8c93102fdb05f4f85d419cde.md)
+  - [`c6dfebbfab`](../../../locales/fr/content/c6/df/ebbfab86eb6f61ffe21d36c89a33cd2c8884.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/importing/about.md)): [Latest](../../../locales/fr/content/6d/0e/44e0c9f3b1b087efc52e8345bed7da2381f0.md)
+  - [`f6210dd23f`](../../../locales/fr/content/f6/21/0dd23f3ce0440f857242cebf2b763e8f4836.md)
 
 ### Initializers (Initialiseurs)
 
@@ -764,10 +766,10 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 
 ### Nested Functions (Fonctions imbriquées)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/nested-functions/introduction.md)): [Latest](../../../locales/fr/content/c6/26/3250f7854c3bb6a49e524ce04eb4c5fbf189.md)
-  - [`11dd511459`](../../../locales/fr/content/11/dd/51145958b74917615bb81b69e19ac192596b.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/nested-functions/about.md)): [Latest](../../../locales/fr/content/bc/da/20f357e78147ce9348e62d44553f08704d51.md)
-  - [`11dd511459`](../../../locales/fr/content/11/dd/51145958b74917615bb81b69e19ac192596b.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/nested-functions/introduction.md)): [Latest](../../../locales/fr/content/11/dd/51145958b74917615bb81b69e19ac192596b.md)
+  - [`c6263250f7`](../../../locales/fr/content/c6/26/3250f7854c3bb6a49e524ce04eb4c5fbf189.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/nested-functions/about.md)): [Latest](../../../locales/fr/content/11/dd/51145958b74917615bb81b69e19ac192596b.md)
+  - [`bcda20f357`](../../../locales/fr/content/bc/da/20f357e78147ce9348e62d44553f08704d51.md)
 
 ### Numbers (Les nombres)
 
@@ -780,10 +782,10 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 
 ### Opaque Indices (Indices opaques)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/opaque-indices/introduction.md)): [Latest](../../../locales/fr/content/fb/e0/01f6d475861d395fac17450fb2748978ca94.md)
-  - [`bea550ac7a`](../../../locales/fr/content/be/a5/50ac7aba7a63caaf3e4c4e31faa40e67c1c3.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/opaque-indices/about.md)): [Latest](../../../locales/fr/content/b2/82/f1a956735632b07a6da0885b333b8fec2ea7.md)
-  - [`348fb9c54e`](../../../locales/fr/content/34/8f/b9c54ed076d54c051c4bbff5f4bce774bbba.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/opaque-indices/introduction.md)): [Latest](../../../locales/fr/content/be/a5/50ac7aba7a63caaf3e4c4e31faa40e67c1c3.md)
+  - [`fbe001f6d4`](../../../locales/fr/content/fb/e0/01f6d475861d395fac17450fb2748978ca94.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/opaque-indices/about.md)): [Latest](../../../locales/fr/content/34/8f/b9c54ed076d54c051c4bbff5f4bce774bbba.md)
+  - [`b282f1a956`](../../../locales/fr/content/b2/82/f1a956735632b07a6da0885b333b8fec2ea7.md)
 
 ### Optionals (Optionnels)
 
@@ -792,17 +794,17 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 
 ### Ranges (Intervalles)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/ranges/introduction.md)): [Latest](../../../locales/fr/content/e6/30/9215096118f858eefb4af2ba876d01fa8c3e.md)
-  - [`a1c7ed3db8`](../../../locales/fr/content/a1/c7/ed3db887f49160f13421f41f40992ca1d53e.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/ranges/about.md)): [Latest](../../../locales/fr/content/b8/8a/6f05de2f673e89445230b9a3ea8fbc3a9e9c.md)
-  - [`a1c7ed3db8`](../../../locales/fr/content/a1/c7/ed3db887f49160f13421f41f40992ca1d53e.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/ranges/introduction.md)): [Latest](../../../locales/fr/content/a1/c7/ed3db887f49160f13421f41f40992ca1d53e.md)
+  - [`e630921509`](../../../locales/fr/content/e6/30/9215096118f858eefb4af2ba876d01fa8c3e.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/ranges/about.md)): [Latest](../../../locales/fr/content/a1/c7/ed3db887f49160f13421f41f40992ca1d53e.md)
+  - [`b88a6f05de`](../../../locales/fr/content/b8/8a/6f05de2f673e89445230b9a3ea8fbc3a9e9c.md)
 
 ### repeat while
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/repeat-while/introduction.md)): [Latest](../../../locales/fr/content/7b/58/24346379245cba93fa7d9b55b985cde00192.md)
-  - [`06157337f4`](../../../locales/fr/content/06/15/7337f41fd498f09cd846b2a646dd333e1e4c.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/repeat-while/about.md)): [Latest](../../../locales/fr/content/ff/ae/94f39ef82bffebf7223e7e434500efd03b0a.md)
-  - [`d83396ba57`](../../../locales/fr/content/d8/33/96ba5764d5db28aeae57cb45566cf7aef3e7.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/repeat-while/introduction.md)): [Latest](../../../locales/fr/content/06/15/7337f41fd498f09cd846b2a646dd333e1e4c.md)
+  - [`7b58243463`](../../../locales/fr/content/7b/58/24346379245cba93fa7d9b55b985cde00192.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/repeat-while/about.md)): [Latest](../../../locales/fr/content/d8/33/96ba5764d5db28aeae57cb45566cf7aef3e7.md)
+  - [`ffae94f39e`](../../../locales/fr/content/ff/ae/94f39ef82bffebf7223e7e434500efd03b0a.md)
 
 ### Self
 
@@ -830,24 +832,24 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 
 ### String Methods (Méthodes de chaînes de caractères)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/string-methods/introduction.md)): [Latest](../../../locales/fr/content/74/89/9dd8a1bfda60d46fd8f047c855b9b3be1d18.md)
-  - [`2c5bfc7e66`](../../../locales/fr/content/2c/5b/fc7e66ef82cc229c44645752daaec66a4b43.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/string-methods/about.md)): [Latest](../../../locales/fr/content/08/3e/53180e43c5322992410a68d1263239effe8d.md)
-  - [`abd4546b07`](../../../locales/fr/content/ab/d4/546b07fff01945b995d53058ea9a19bdd69d.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/string-methods/introduction.md)): [Latest](../../../locales/fr/content/2c/5b/fc7e66ef82cc229c44645752daaec66a4b43.md)
+  - [`74899dd8a1`](../../../locales/fr/content/74/89/9dd8a1bfda60d46fd8f047c855b9b3be1d18.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/string-methods/about.md)): [Latest](../../../locales/fr/content/ab/d4/546b07fff01945b995d53058ea9a19bdd69d.md)
+  - [`083e53180e`](../../../locales/fr/content/08/3e/53180e43c5322992410a68d1263239effe8d.md)
 
 ### Strings (Chaînes de caractères)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/strings/introduction.md)): [Latest](../../../locales/fr/content/06/17/261de17882affadbf7629bcb64ada2e18572.md)
-  - [`6091a4b04b`](../../../locales/fr/content/60/91/a4b04b99f4443c4554fce0f05d39b063e141.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/strings/about.md)): [Latest](../../../locales/fr/content/19/c3/bdb44aaea748032ffdbc90d4608143d49d7f.md)
-  - [`d723b56b4e`](../../../locales/fr/content/d7/23/b56b4e7498b629d034da8b234e7fc2466c62.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/strings/introduction.md)): [Latest](../../../locales/fr/content/60/91/a4b04b99f4443c4554fce0f05d39b063e141.md)
+  - [`0617261de1`](../../../locales/fr/content/06/17/261de17882affadbf7629bcb64ada2e18572.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/strings/about.md)): [Latest](../../../locales/fr/content/d7/23/b56b4e7498b629d034da8b234e7fc2466c62.md)
+  - [`19c3bdb44a`](../../../locales/fr/content/19/c3/bdb44aaea748032ffdbc90d4608143d49d7f.md)
 
 ### Structs (Structures)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/structs/introduction.md)): [Latest](../../../locales/fr/content/e2/10/e4f861e798aa0dc9dfc39f1defc6d1568d72.md)
-  - [`42b5103b68`](../../../locales/fr/content/42/b5/103b68a4a8a3d66aa10d32cd52de3ae9957d.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/structs/about.md)): [Latest](../../../locales/fr/content/a9/e7/68bee10cb3edf1a7528d0c336441fe4f7f9a.md)
-  - [`a21a59ef82`](../../../locales/fr/content/a2/1a/59ef827bf2b48ea4630f34f7ea358e9b91be.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/structs/introduction.md)): [Latest](../../../locales/fr/content/42/b5/103b68a4a8a3d66aa10d32cd52de3ae9957d.md)
+  - [`e210e4f861`](../../../locales/fr/content/e2/10/e4f861e798aa0dc9dfc39f1defc6d1568d72.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/structs/about.md)): [Latest](../../../locales/fr/content/a2/1a/59ef827bf2b48ea4630f34f7ea358e9b91be.md)
+  - [`a9e768bee1`](../../../locales/fr/content/a9/e7/68bee10cb3edf1a7528d0c336441fe4f7f9a.md)
 
 ### Structs And Classes (Structures et classes)
 
@@ -870,10 +872,10 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 
 ### Tuples
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/tuples/introduction.md)): [Latest](../../../locales/fr/content/23/a4/b650c9632a8196d3f13772c635bd4d7cb94f.md)
-  - [`f8958c25ce`](../../../locales/fr/content/f8/95/8c25ce8c2bfa582c0f9eb0234325bb638e87.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/tuples/about.md)): [Latest](../../../locales/fr/content/c1/aa/234c94bff6fc4694e916b900489231fe8b3d.md)
-  - [`f8958c25ce`](../../../locales/fr/content/f8/95/8c25ce8c2bfa582c0f9eb0234325bb638e87.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/tuples/introduction.md)): [Latest](../../../locales/fr/content/f8/95/8c25ce8c2bfa582c0f9eb0234325bb638e87.md)
+  - [`23a4b650c9`](../../../locales/fr/content/23/a4/b650c9632a8196d3f13772c635bd4d7cb94f.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/tuples/about.md)): [Latest](../../../locales/fr/content/f8/95/8c25ce8c2bfa582c0f9eb0234325bb638e87.md)
+  - [`c1aa234c94`](../../../locales/fr/content/c1/aa/234c94bff6fc4694e916b900489231fe8b3d.md)
 
 ### Value and reference types (Types valeur et types référence)
 
