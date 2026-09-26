@@ -394,6 +394,11 @@ This page is generated from [the index](../../json/pt-BR/roc.json) by `scripts/b
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/rectangles/.docs/instructions.md)): [Latest](../../../locales/pt-BR/content/8e/b4/ed470e6582ebdd8d9986eb46255aacd24425.md)
 
+### Relative Distance (Distância relativa)
+
+- `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/relative-distance/.docs/instructions.md)): [Latest](../../../locales/pt-BR/content/64/ca/4e43744fdf4aaf8b64ea34b795b8933a0e3e.md)
+- `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/relative-distance/.docs/introduction.md)): [Latest](../../../locales/pt-BR/content/34/07/3b40ac6e0494777808026c336f21678ba93e.md)
+
 ### Resistor Color (Cores do resistor)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/resistor-color/.docs/instructions.md)): [Latest](../../../locales/pt-BR/content/01/25/e718b455321a3e635d6ca42fc400e1be0d44.md)

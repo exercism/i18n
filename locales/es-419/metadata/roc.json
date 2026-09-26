@@ -384,5 +384,8 @@
   "exercise:split-second-stopwatch:source": "Erik Schierboom",
   "exercise:camicia:name": "Camicia",
   "exercise:camicia:blurb": "Simula el juego de cartas y determina si la partida termina o entra en un bucle infinito.",
-  "exercise:camicia:source": "Beggar-My-Neighbour"
+  "exercise:camicia:source": "Beggar-My-Neighbour",
+  "exercise:relative-distance:name": "Distancia relativa",
+  "exercise:relative-distance:blurb": "Dado un árbol genealógico, calcula el grado de separación.",
+  "exercise:relative-distance:source": "vaeng"
 }

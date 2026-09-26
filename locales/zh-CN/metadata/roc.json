@@ -384,5 +384,8 @@
   "exercise:split-second-stopwatch:source": "Erik Schierboom",
   "exercise:camicia:name": "Camicia",
   "exercise:camicia:blurb": "模拟这个纸牌游戏，判断对局是会结束，还是会陷入无限循环。",
-  "exercise:camicia:source": "Beggar-My-Neighbour"
+  "exercise:camicia:source": "Beggar-My-Neighbour",
+  "exercise:relative-distance:name": "相对距离",
+  "exercise:relative-distance:blurb": "给定一棵家族树，计算两个人之间的亲疏程度。",
+  "exercise:relative-distance:source": "vaeng"
 }

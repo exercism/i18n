@@ -384,5 +384,8 @@
   "exercise:split-second-stopwatch:source": "Erik Schierboom",
   "exercise:camicia:name": "Camicia",
   "exercise:camicia:blurb": "カードゲームをシミュレートして、対戦が決着するか無限ループに入るかを判定します。",
-  "exercise:camicia:source": "Beggar-My-Neighbour"
+  "exercise:camicia:source": "Beggar-My-Neighbour",
+  "exercise:relative-distance:name": "親族間の距離",
+  "exercise:relative-distance:blurb": "家系図が与えられたとき、2人の間の親等を計算します。",
+  "exercise:relative-distance:source": "vaeng"
 }
