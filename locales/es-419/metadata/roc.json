@@ -376,5 +376,7 @@
   "doc:resources:blurb": "Una colección de recursos útiles para ayudarte a dominar Roc",
   "exercise:swift-scheduling:name": "Planificación rápida",
   "exercise:swift-scheduling:blurb": "Convierte descripciones de fechas de entrega en fechas de entrega reales.",
-  "exercise:swift-scheduling:source": "Erik Schierboom"
+  "exercise:swift-scheduling:source": "Erik Schierboom",
+  "exercise:react:name": "React",
+  "exercise:react:blurb": "Implementa un sistema reactivo básico."
 }

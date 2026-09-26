@@ -376,5 +376,7 @@
   "doc:resources:blurb": "Roc को अच्छी तरह सीखने में मदद करने वाले उपयोगी संसाधनों का संग्रह",
   "exercise:swift-scheduling:name": "तेज़ शेड्यूलिंग",
   "exercise:swift-scheduling:blurb": "डिलीवरी तारीख के विवरणों को वास्तविक डिलीवरी तारीखों में बदलिए।",
-  "exercise:swift-scheduling:source": "Erik Schierboom"
+  "exercise:swift-scheduling:source": "Erik Schierboom",
+  "exercise:react:name": "React",
+  "exercise:react:blurb": "एक बुनियादी रिएक्टिव सिस्टम बनाइए।"
 }

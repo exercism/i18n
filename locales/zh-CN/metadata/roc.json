@@ -376,5 +376,7 @@
   "doc:resources:blurb": "一系列实用资源，帮助你精通 Roc",
   "exercise:swift-scheduling:name": "Swift 调度",
   "exercise:swift-scheduling:blurb": "把配送日期描述转换为实际的配送日期。",
-  "exercise:swift-scheduling:source": "Erik Schierboom"
+  "exercise:swift-scheduling:source": "Erik Schierboom",
+  "exercise:react:name": "React",
+  "exercise:react:blurb": "实现一个基本的响应式系统。"
 }

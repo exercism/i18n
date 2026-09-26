@@ -380,6 +380,11 @@ This page is generated from [the index](../../json/zh-CN/roc.json) by `scripts/b
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/rational-numbers/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/f6/4f/c0f28e5f84c9e991e52b275f5eef1ff7ea86.md)
 
+### React
+
+- `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/react/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/1b/9a/175d0bccd4c17985a5b3a4cd81bb19fd0735.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/react/.docs/instructions.append.md)): [Latest](../../../locales/zh-CN/content/17/7e/d2918815bd259d7f2511324184b14b8b0210.md)
+
 ### Rectangles (矩形)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/rectangles/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/8e/b4/ed470e6582ebdd8d9986eb46255aacd24425.md)
