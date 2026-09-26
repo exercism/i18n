@@ -399,5 +399,8 @@
   "exercise:prism:source": "FraSanga",
   "exercise:linked-list:name": "連結リスト",
   "exercise:linked-list:blurb": "双方向連結リストを実装します。",
-  "exercise:linked-list:source": "コンピューターサイエンスの定番のテーマ"
+  "exercise:linked-list:source": "コンピューターサイエンスの定番のテーマ",
+  "exercise:intergalactic-transmission:name": "銀河間通信",
+  "exercise:intergalactic-transmission:blurb": "送信するメッセージにパリティビットを追加します。",
+  "exercise:intergalactic-transmission:source": "Kah Goh"
 }

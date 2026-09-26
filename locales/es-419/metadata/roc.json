@@ -399,5 +399,8 @@
   "exercise:prism:source": "FraSanga",
   "exercise:linked-list:name": "Lista enlazada",
   "exercise:linked-list:blurb": "Implementa una lista doblemente enlazada.",
-  "exercise:linked-list:source": "Tema clásico de las ciencias de la computación"
+  "exercise:linked-list:source": "Tema clásico de las ciencias de la computación",
+  "exercise:intergalactic-transmission:name": "Transmisión intergaláctica",
+  "exercise:intergalactic-transmission:blurb": "Agrega bits de paridad a un mensaje para su transmisión",
+  "exercise:intergalactic-transmission:source": "Kah Goh"
 }

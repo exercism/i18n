@@ -399,5 +399,8 @@
   "exercise:prism:source": "FraSanga",
   "exercise:linked-list:name": "लिंक्ड लिस्ट",
   "exercise:linked-list:blurb": "एक डबल लिंक्ड लिस्ट बनाइए।",
-  "exercise:linked-list:source": "कंप्यूटर विज्ञान का एक क्लासिक विषय"
+  "exercise:linked-list:source": "कंप्यूटर विज्ञान का एक क्लासिक विषय",
+  "exercise:intergalactic-transmission:name": "अंतरागांगिक संचरण",
+  "exercise:intergalactic-transmission:blurb": "संचरण के लिए किसी संदेश में पैरिटी बिट जोड़िए",
+  "exercise:intergalactic-transmission:source": "Kah Goh"
 }
