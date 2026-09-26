@@ -1,0 +1,49 @@
+# はじめに
+
+C#では、タプルはデータを整理するデータ構造で、任意の型のフィールドを2つ以上持ちます。
+
+タプルは通常、2つ以上の式をカンマで区切って、括弧（`()`）の中に並べて作ります。
+
+```csharp
+string boast = "All you need to know";
+bool success = !string.IsNullOrWhiteSpace(boast);
+(bool, int, string) triple = (success, 42, boast);
+```
+
+タプルは、代入や初期化の操作で使えるほか、戻り値やメソッドの入力としても使えます。
+
+フィールドはドット記法で取り出します。既定では、1つ目のフィールドが`Item1`、2つ目が`Item2`、以降も同様です。既定以外の名前については後ほど説明します。
+
+```csharp
+// initialization
+(int, int, int) vertices = (90, 45, 45);
+
+// assignment
+vertices = (60, 60, 60);
+
+//  return value
+(bool, int) GetSameOrBigger(int num1, int num2)
+{
+    return (num1 == num2, num1 > num2 ? num1 : num2);
+}
+
+// method argument
+int Add((int, int) operands)
+{
+    return operands.Item1 + operands.Item2;
+}
+```
+
+`Item1`のようなフィールド名では、読みやすいコードにはなりません。次のコードでは、タプルのフィールドに名前を付ける2つの方法を示します。また、このコードでは`var`がタプルにも使えて、型が推論されることにも注目してください。これは名前付きのフィールドを持つタプルでも、名前のないフィールドを持つタプルでも、同じように機能します。
+
+```csharp
+// name items in declaration
+(bool success, string message) results = (true, "well done!");
+bool mySuccess = results.success;
+string myMessage = results.message;
+
+// name items in creating expression
+var results2 = (success: true, message: "well done!");
+bool mySuccess2 = results2.success;
+string myMessage2 = results2.message;
+```

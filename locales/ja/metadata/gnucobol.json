@@ -1,0 +1,6 @@
+{
+  "track:blurb": "TODO: 説明文を追加",
+  "exercise:hello-world:name": "Hello World",
+  "exercise:hello-world:blurb": "定番の入門演習です。ただ\"Hello, World!\"と出力するだけです。",
+  "exercise:hello-world:source": "Exercismの使い方を紹介するための演習です。"
+}

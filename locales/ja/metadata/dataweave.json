@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: 説明文を追加",
+  "doc:installation:title": "Dataweaveをローカルにインストールする",
+  "doc:installation:blurb": "自分のマシンでExercismの演習を解けるように、Dataweaveをローカルにインストールする方法を学びましょう",
+  "doc:learning:title": "Dataweaveの学び方",
+  "doc:learning:blurb": "Dataweaveをゼロから始めるための概要",
+  "doc:tests:title": "Dataweaveトラックでのテスト",
+  "doc:tests:blurb": "ExercismでDataweaveの演習をテストする方法を学びましょう",
+  "doc:resources:title": "役立つDataweaveリソース",
+  "doc:resources:blurb": "Dataweaveをマスターするのに役立つリソース集"
+}

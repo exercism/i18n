@@ -1,0 +1,31 @@
+# はじめに
+
+## オブジェクト初期化子
+
+オブジェクト初期化子は、コンストラクターに代わる書き方です。構文は次のとおりです。波括弧（`{}`）の中に、`=`で区切った名前と値のペアを、カンマで区切って並べます。
+
+```csharp
+public class Person
+{
+    public string Name;
+    public string Address;
+}
+
+var person = new Person{Name="The President", Address = "Élysée Palace"};
+```
+
+コレクションも同じように初期化できます。通常は、次のようにカンマで区切ったリストを使います。
+
+```csharp
+IList<Person> people = new List<Person>{ new Person(), new Person{Name="Joe Shmo"}};
+```
+
+辞書では、次の構文を使います。
+
+```csharp
+IDictionary<int, string> numbers = new Dictionary<int, string>{ [0] = "zero", [1] = "one"...};
+
+// or
+
+IDictionary<int, string> numbers = new Dictionary<int, string>{ {0, "zero" }, {1,  "one"}...};
+```

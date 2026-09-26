@@ -1,0 +1,16 @@
+# 学習
+
+Tclは、とてもシンプルでありながら強力であることを目指して設計されました。
+そのため、[Tclの基本構文][syntax]を学ぶのはとても簡単です。
+
+実際に手を動かして学べるチュートリアルは、[Learn X in Y minutes: Tcl][X-in-Y]をご覧ください。
+
+さらに詳しく、複数のパートに分かれたチュートリアルなら：
+ - [The Tcl tutorial][tutorial]はTcl 8.5を扱っています（現行の安定版は9.0です）
+ - オブジェクト指向プログラミングのサポートは、バージョン8.6でTclのコアに追加されました。
+   それを網羅した詳しい[OOチュートリアル][oo-tutorial]がMagicsplatにあります。
+
+[syntax]: https://www.tcl-lang.org/man/tcl8.6/TclCmd/Tcl.htm
+[X-in-Y]: https://learnxinyminutes.com/docs/tcl/
+[tutorial]: https://www.tcl-lang.org/man/tcl8.5/tutorial/tcltutorial.html
+[oo-tutorial]: https://www.magicsplat.com/articles/oo.html

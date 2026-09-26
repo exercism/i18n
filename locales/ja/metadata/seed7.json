@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: 説明文を追加",
+  "doc:installation:title": "Seed7のローカルインストール",
+  "doc:installation:blurb": "自分のマシンでExercismの演習を解けるように、Seed7をローカルにインストールする方法を学びましょう",
+  "doc:learning:title": "Seed7の学び方",
+  "doc:learning:blurb": "Seed7をゼロから始めるための概要を紹介します",
+  "doc:tests:title": "Seed7トラックでのテスト",
+  "doc:tests:blurb": "ExercismでSeed7の演習をテストする方法を学びましょう",
+  "doc:resources:title": "Seed7の役立つリソース",
+  "doc:resources:blurb": "Seed7を使いこなすのに役立つリソースをまとめました"
+}
