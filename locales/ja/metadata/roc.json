@@ -373,5 +373,8 @@
   "doc:tests:title": "Rocトラックでのテスト",
   "doc:tests:blurb": "ExercismでRocの演習をテストする方法を学びましょう",
   "doc:resources:title": "役立つRocのリソース",
-  "doc:resources:blurb": "Rocをマスターするのに役立つリソース集"
+  "doc:resources:blurb": "Rocをマスターするのに役立つリソース集",
+  "exercise:swift-scheduling:name": "Swiftの配達スケジュール",
+  "exercise:swift-scheduling:blurb": "配達日の説明を実際の配達日に変換します。",
+  "exercise:swift-scheduling:source": "Erik Schierboom"
 }

@@ -373,5 +373,8 @@
   "doc:tests:title": "Testes na trilha de Roc",
   "doc:tests:blurb": "Aprenda a testar seus exercícios de Roc no Exercism",
   "doc:resources:title": "Recursos úteis de Roc",
-  "doc:resources:blurb": "Uma coleção de recursos úteis para ajudar você a dominar Roc"
+  "doc:resources:blurb": "Uma coleção de recursos úteis para ajudar você a dominar Roc",
+  "exercise:swift-scheduling:name": "Agendamento Swift",
+  "exercise:swift-scheduling:blurb": "Converta descrições de datas de entrega em datas de entrega reais.",
+  "exercise:swift-scheduling:source": "Erik Schierboom"
 }

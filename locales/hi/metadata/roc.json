@@ -373,5 +373,8 @@
   "doc:tests:title": "Roc ट्रैक पर टेस्ट करना",
   "doc:tests:blurb": "Exercism पर अपने Roc अभ्यासों को टेस्ट करने का तरीका सीखिए",
   "doc:resources:title": "उपयोगी Roc संसाधन",
-  "doc:resources:blurb": "Roc को अच्छी तरह सीखने में मदद करने वाले उपयोगी संसाधनों का संग्रह"
+  "doc:resources:blurb": "Roc को अच्छी तरह सीखने में मदद करने वाले उपयोगी संसाधनों का संग्रह",
+  "exercise:swift-scheduling:name": "तेज़ शेड्यूलिंग",
+  "exercise:swift-scheduling:blurb": "डिलीवरी तारीख के विवरणों को वास्तविक डिलीवरी तारीखों में बदलिए।",
+  "exercise:swift-scheduling:source": "Erik Schierboom"
 }
