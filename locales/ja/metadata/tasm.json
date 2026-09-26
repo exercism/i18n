@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: 説明文を追加",
+  "doc:installation:title": "Triton VMアセンブリのローカルインストール",
+  "doc:installation:blurb": "Exercismの演習を自分のマシンで解くために、Triton VMアセンブリをローカルにインストールする方法を学びます",
+  "doc:learning:title": "Triton VMアセンブリの学び方",
+  "doc:learning:blurb": "Triton VMアセンブリをゼロから始める方法の概要です",
+  "doc:tests:title": "Triton VMアセンブリトラックでのテスト",
+  "doc:tests:blurb": "ExercismでTriton VMアセンブリの演習をテストする方法を学びます",
+  "doc:resources:title": "Triton VMアセンブリの役立つリソース",
+  "doc:resources:blurb": "Triton VMアセンブリをマスターするのに役立つリソース集です"
+}

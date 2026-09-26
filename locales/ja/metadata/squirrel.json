@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: 説明文を追加",
+  "doc:installation:title": "Squirrelをローカル環境にインストールする",
+  "doc:installation:blurb": "自分のマシンでExercismの演習を解くために、Squirrelをローカル環境にインストールする方法を学べます",
+  "doc:learning:title": "Squirrelの学び方",
+  "doc:learning:blurb": "Squirrelをゼロから始めるための概要を紹介します",
+  "doc:tests:title": "Squirrelトラックでのテスト",
+  "doc:tests:blurb": "ExercismでSquirrelの演習をテストする方法を学べます",
+  "doc:resources:title": "Squirrelの役に立つリソース",
+  "doc:resources:blurb": "Squirrelの習得に役立つリソースをまとめました"
+}

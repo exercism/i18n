@@ -1,0 +1,17 @@
+{
+  "exercise:hello-world:name": "Hello World",
+  "exercise:leap:name": "うるう年",
+  "exercise:hello-world:source": "Exercismの使い方を紹介するための演習です。",
+  "exercise:leap:blurb": "与えられた年がうるう年かどうかを判定します。",
+  "exercise:leap:source": "CodeRanch Cattle Driveの課題3",
+  "track:blurb": "TODO: 説明文を追加",
+  "exercise:hello-world:blurb": "定番の入門演習です。ただ\"Hello, World!\"と出力するだけです。",
+  "doc:installation:title": "ARM32 Assemblyをローカルにインストールする",
+  "doc:installation:blurb": "自分のマシンでExercismの演習を解けるように、ARM32 Assemblyをローカルにインストールする方法を学びましょう",
+  "doc:learning:title": "ARM32 Assemblyの学び方",
+  "doc:learning:blurb": "ARM32 Assemblyをゼロから始める方法の概要",
+  "doc:tests:title": "ARM32 Assemblyトラックでのテスト",
+  "doc:tests:blurb": "ExercismでARM32 Assemblyの演習をテストする方法を学びましょう",
+  "doc:resources:title": "ARM32 Assemblyの役立つリソース",
+  "doc:resources:blurb": "ARM32 Assemblyの習得に役立つリソース集"
+}

@@ -1,0 +1,17 @@
+# はじめに
+
+主要な算術演算子と比較演算子は、自分で定義したクラスや構造体で使えるようにできます。これを_演算子のオーバーロード_と呼びます。
+
+ほとんどの演算子は次の形をとります。
+
+```csharp
+static <return type> operator <operator symbols>(<parameters>);
+```
+
+キャスト演算子は次の形をとります。
+
+```csharp
+static (explicit|implicit) operator <cast-to-type>(<cast-from-type> <parameter name>);
+```
+
+演算子は、静的メソッドと同じようにふるまいます。メソッドの識別子の代わりに演算子記号を置き、仮引数と戻り値の型を持ちます。仮引数と戻り値の型に関する型のルールは直感に沿っており、詳しい指針はコンパイラーが示してくれます。

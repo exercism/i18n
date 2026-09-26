@@ -1,0 +1,68 @@
+# はじめに
+
+Goの[`Time`][time]は、ある時点を表す型です。日付と時刻の情報には、そのメソッドを通じてアクセスしたり、比較したり、操作したりできますが、`time`パッケージ自体に対して呼び出す関数もいくつかあります。現在の日付と時刻は、[`time.Now`][now]関数で取得できます。
+
+[`time.Parse`][parse]関数は、文字列を`Time`型の値にパースします。Goには、パースするときに期待するレイアウトを定義するための特別な方法があります。この特別なタイムスタンプの値を使って、レイアウトの例を書く必要があります：`Mon Jan 2 15:04:05 -0700 MST 2006`
+
+たとえば、次のように書きます：
+
+```go
+import "time"
+
+func parseTime() time.Time {
+    date := "Tue, 09/22/1995, 13:00"
+    layout := "Mon, 01/02/2006, 15:04"
+
+    t, err := time.Parse(layout,date) // time.Time, error
+}
+
+// => 1995-09-22 13:00:00 +0000 UTC
+```
+
+[`Time.Format()`][format]メソッドは、時刻を表す文字列を返します。`Parse`関数と同じように、対象のレイアウトも、特別なタイムスタンプの値を使った例で定義します。
+
+たとえば、次のようになります：
+
+```go
+import (
+    "fmt"
+    "time"
+)
+
+func main() {
+    t := time.Date(1995,time.September,22,13,0,0,0,time.UTC)
+    formattedTime := t.Format("Mon, 01/02/2006, 15:04") // string
+    fmt.Println(formattedTime)
+}
+
+// => Fri, 09/22/1995, 13:00
+```
+
+## レイアウトのオプション
+
+独自のレイアウトには、これらのオプションを組み合わせて使います。Goでは、あらかじめ定義された日付とタイムスタンプの[フォーマット定数][const]も利用できます。
+
+| 項目        | オプション                                        |
+| ----------- | ---------------------------------------------- |
+| 年        | 2006 ; 06                                      |
+| 月        | Jan ; January ; 01 ; 1                         |
+| 日        | 02 ; 2 ; \_2（先頭に0を付ける場合）                 |
+| 曜日      | Mon ; Monday                                   |
+| 時        | 15（24時間表記）; 3 ; 03（AMまたはPM） |
+| 分        | 04 ; 4                                         |
+| 秒        | 05 ; 5                                         |
+| AM/PMマーク | PM                                             |
+| 通算日    | 002 ; \_\_2                                    |
+
+`time.Time`型には、特定の時刻にアクセスするためのさまざまなメソッドがあります。たとえば、時なら[`Time.Hour()`][hour]、月なら[`Time.Month()`][month]です。詳しい仕組みについては、[公式ドキュメント][time]を参照してください。
+
+[`time`][time]には、経過時間を表すもう一つの型[`Duration`][duration]のほか、ロケーション（タイムゾーン）、タイマー、その他の関連機能のサポートも含まれています。これらは別のコンセプトで扱います。
+
+[time]: https://golang.org/pkg/time/#Time
+[now]: https://golang.org/pkg/time/#Now
+[const]: https://pkg.go.dev/time#pkg-constants
+[format]: https://pkg.go.dev/time#Time.Format
+[hour]: https://pkg.go.dev/time#Time.Hour
+[month]: https://pkg.go.dev/time/#Time.Month
+[duration]: https://pkg.go.dev/time#Duration
+[parse]: https://golang.org/pkg/time/#Parse

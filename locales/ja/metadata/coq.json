@@ -1,0 +1,13 @@
+{
+  "exercise:hello-world:name": "Hello World",
+  "exercise:rna-transcription:name": "RNA転写",
+  "exercise:hello-world:blurb": "定番の入門演習です。ただ\"Hello, World!\"と出力するだけです",
+  "exercise:hello-world:source": "Exercismの使い方を紹介するための演習です。",
+  "exercise:rna-transcription:blurb": "DNA鎖が与えられたとき、その相補的なRNA転写を返します。",
+  "exercise:rna-transcription:source": "Hyperphysics",
+  "track:blurb": "Coqは証明支援系です。Coqを使うと、数学的な定義やアルゴリズム、定理を形式的に記述できます。また、機械的に検証された証明を対話的に開発するためのタクティクも用意されています。",
+  "exercise:tautology:name": "トートロジー",
+  "exercise:tautology:blurb": "トートロジークラブの第一のルールは、トートロジークラブの第一のルールです ",
+  "doc:learning:title": "Coqの学び方",
+  "doc:learning:blurb": "Coqをゼロから始める方法の概要"
+}
