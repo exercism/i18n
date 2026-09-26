@@ -704,10 +704,10 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 
 ### Escaping functions (Fonctions échappantes)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/escaping-functions/introduction.md)): [Latest](../../../locales/fr/content/8f/6c/5e6fbb246ba9ca5efcb95b2ff552a7bedf8a.md)
-  - [`3386ae3088`](../../../locales/fr/content/33/86/ae3088d27d422bef457d48ead11a5757fc9e.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/escaping-functions/about.md)): [Latest](../../../locales/fr/content/25/96/429a1640eeeba1107558b9c4326975e3879d.md)
-  - [`3c208d81de`](../../../locales/fr/content/3c/20/8d81de068da7cb70b6cc200b7d6261af6603.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/escaping-functions/introduction.md)): [Latest](../../../locales/fr/content/33/86/ae3088d27d422bef457d48ead11a5757fc9e.md)
+  - [`8f6c5e6fbb`](../../../locales/fr/content/8f/6c/5e6fbb246ba9ca5efcb95b2ff552a7bedf8a.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/escaping-functions/about.md)): [Latest](../../../locales/fr/content/3c/20/8d81de068da7cb70b6cc200b7d6261af6603.md)
+  - [`2596429a16`](../../../locales/fr/content/25/96/429a1640eeeba1107558b9c4326975e3879d.md)
 
 ### for loops (Boucles for)
 
@@ -849,8 +849,10 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 
 ### Structs And Classes (Structures et classes)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/structs-and-classes/introduction.md)): [Latest](../../../locales/fr/content/16/f0/c0dcb2e7a7258a0352b1877d0fdea1a2fc57.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/structs-and-classes/about.md)): [Latest](../../../locales/fr/content/a6/5a/3b64309d464e54098c42b4af61c9cadef245.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/structs-and-classes/introduction.md)): [Latest](../../../locales/fr/content/a9/0a/7c3eb9e45c5e6d25497c714171e1f6e7b68e.md)
+  - [`16f0c0dcb2`](../../../locales/fr/content/16/f0/c0dcb2e7a7258a0352b1877d0fdea1a2fc57.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/structs-and-classes/about.md)): [Latest](../../../locales/fr/content/df/e2/6a1e01e77e7dad9af253c3e36d405ac07d6b.md)
+  - [`a65a3b6430`](../../../locales/fr/content/a6/5a/3b64309d464e54098c42b4af61c9cadef245.md)
 
 ### Ternary operator (Opérateur ternaire)
 
