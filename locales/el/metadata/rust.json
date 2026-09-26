@@ -332,7 +332,7 @@
   "exercise:decimal:name": "Δεκαδικός",
   "exercise:doubly-linked-list:name": "Διπλά συνδεδεμένη λίστα",
   "concept:string-slices:name": "Τμήματα συμβολοσειράς",
-  "concept:string-vs-str:name": "String εναντίον str",
+  "concept:string-vs-str:name": "String έναντι str",
   "concept:box:name": "Box",
   "concept:collect:name": "Collect",
   "concept:fold:name": "Fold",

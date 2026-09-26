@@ -19,7 +19,7 @@
 
 <br>
 
-Δες αυτές τις δύο ερωτήσεις στο Stack Overflow για μερικά πράγματα που αξίζει να σκεφτείς: [Στοίβες και ουρές βασισμένες σε πίνακα εναντίον βασισμένες σε λίστα][stack overflow: array-based vs list-based stacks and queues] και [Διαφορές ανάμεσα σε στοίβα με πίνακα, στοίβα με συνδεδεμένη λίστα και στοίβα][stack overflow: what is the difference between array stack, linked stack, and stack].
+Δες αυτές τις δύο ερωτήσεις στο Stack Overflow για μερικά πράγματα που αξίζει να σκεφτείς: [Στοίβες και ουρές βασισμένες σε πίνακα έναντι βασισμένες σε λίστα][stack overflow: array-based vs list-based stacks and queues] και [Διαφορές ανάμεσα σε στοίβα με πίνακα, στοίβα με συνδεδεμένη λίστα και στοίβα][stack overflow: what is the difference between array stack, linked stack, and stack].
 Για περισσότερες λεπτομέρειες σχετικά με τις συνδεδεμένες λίστες, τις στοίβες `LIFO` και άλλους αφηρημένους τύπους δεδομένων (`ADT`) στην Python:
 
 - [Baeldung: Δομές δεδομένων συνδεδεμένης λίστας][baeldung linked lists] (_καλύπτει πολλαπλές υλοποιήσεις_)

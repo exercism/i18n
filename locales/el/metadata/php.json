@@ -129,7 +129,7 @@
   "exercise:poker:name": "Πόκερ",
   "exercise:zebra-puzzle:name": "Γρίφος της ζέβρας",
   "concept:basic-syntax:name": "Τα βασικά",
-  "concept:while-loops:name": "`while` βρόχοι",
+  "concept:while-loops:name": "Βρόχοι `while`",
   "concept:for-loops:name": "Βρόχοι for",
   "concept:foreach-loops:name": "Βρόχοι foreach",
   "concept:arrays:name": "Πίνακες",
