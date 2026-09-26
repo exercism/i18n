@@ -390,5 +390,8 @@
   "exercise:relative-distance:source": "vaeng",
   "exercise:book-store:name": "Livraria",
   "exercise:book-store:blurb": "Para tentar incentivar mais vendas de livros diferentes de uma popular série de 5 livros, uma livraria decidiu oferecer descontos em compras de vários livros.",
-  "exercise:book-store:source": "Inspirado no kata harry potter do Cyber-Dojo."
+  "exercise:book-store:source": "Inspirado no kata harry potter do Cyber-Dojo.",
+  "exercise:baffling-birthdays:name": "Aniversários desconcertantes",
+  "exercise:baffling-birthdays:blurb": "Estime as probabilidades do paradoxo do aniversário.",
+  "exercise:baffling-birthdays:source": "Erik Schierboom"
 }

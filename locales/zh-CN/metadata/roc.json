@@ -390,5 +390,8 @@
   "exercise:relative-distance:source": "vaeng",
   "exercise:book-store:name": "书店",
   "exercise:book-store:blurb": "为了促进一套热门 5 卷丛书里各册图书的销量，一家书店决定对多本一起购买的订单提供折扣。",
-  "exercise:book-store:source": "灵感来自 Cyber-Dojo 上的 harry potter kata。"
+  "exercise:book-store:source": "灵感来自 Cyber-Dojo 上的 harry potter kata。",
+  "exercise:baffling-birthdays:name": "令人困惑的生日",
+  "exercise:baffling-birthdays:blurb": "估算生日悖论的概率。",
+  "exercise:baffling-birthdays:source": "Erik Schierboom"
 }

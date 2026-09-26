@@ -390,5 +390,8 @@
   "exercise:relative-distance:source": "vaeng",
   "exercise:book-store:name": "書店",
   "exercise:book-store:blurb": "人気の5冊シリーズの本をもっと売るために、ある書店が複数冊の購入に割引を付けることにしました。",
-  "exercise:book-store:source": "Cyber-Dojoのharry potter kataに着想を得たものです。"
+  "exercise:book-store:source": "Cyber-Dojoのharry potter kataに着想を得たものです。",
+  "exercise:baffling-birthdays:name": "不可解な誕生日",
+  "exercise:baffling-birthdays:blurb": "誕生日のパラドックスの確率を推定してください。",
+  "exercise:baffling-birthdays:source": "Erik Schierboom"
 }
