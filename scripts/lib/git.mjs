@@ -112,16 +112,37 @@ export function lsTree(repo, ref, prefixes = []) {
   return entries;
 }
 
+// Every read of a repo used to start its own `git config` and, in a blobless
+// clone, list the whole object store. A validate run reads the same repos once
+// per locale, so that came to thousands of git processes, and on macOS each one
+// is checked by syspolicyd as it starts, which can stall the whole machine. Both
+// answers are kept for the life of the process instead. The object listing is
+// dropped whenever this process fetches into the repo, because a fetch is the
+// one thing here that changes it.
+const promisorRemotes = new Map();
+const objectListings = new Map();
+
+/** The name of a repo's promisor remote, or null for an ordinary clone. */
+function promisorRemote(repo) {
+  if (!promisorRemotes.has(repo)) {
+    let promisor = "";
+    try {
+      promisor = git(["config", "--get-regexp", "^remote\\..*\\.promisor$"], repo).trim();
+    } catch {
+      promisor = ""; // no promisor remote: an ordinary clone
+    }
+    promisorRemotes.set(repo, promisor ? promisor.split("\n")[0].split(".")[1] : null);
+  }
+  return promisorRemotes.get(repo);
+}
+
 /** Every object id in a promisor (blobless) clone's store, or null for an ordinary clone. */
 function localObjects(repo) {
-  let promisor = "";
-  try {
-    promisor = git(["config", "--get-regexp", "^remote\\..*\\.promisor$"], repo).trim();
-  } catch {
-    return null;
+  if (promisorRemote(repo) === null) return null;
+  if (!objectListings.has(repo)) {
+    objectListings.set(repo, new Set(git(["cat-file", "--batch-all-objects", "--batch-check=%(objectname)", "--unordered"], repo).split("\n")));
   }
-  if (!promisor) return null;
-  return new Set(git(["cat-file", "--batch-all-objects", "--batch-check=%(objectname)", "--unordered"], repo).split("\n"));
+  return objectListings.get(repo);
 }
 
 const pause = (ms) => Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, ms);
@@ -143,26 +164,21 @@ const pause = (ms) => Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 
  * Does nothing in an ordinary clone.
  */
 export function prefetchBlobs(repo, ids, { delays = [2000, 5000, 15000] } = {}) {
-  let promisor = "";
-  try {
-    promisor = git(["config", "--get-regexp", "^remote\\..*\\.promisor$"], repo).trim();
-  } catch {
-    return; // no promisor remote: an ordinary clone, everything is already here
-  }
-  if (!promisor) return;
-  const remote = promisor.split("\n")[0].split(".")[1];
+  const remote = promisorRemote(repo);
+  if (remote === null) return; // an ordinary clone: everything is already here
 
   // List what the object store already holds. Asking about the wanted ids
   // (`--batch-check` on stdin) would trigger the one-at-a-time fetch this
   // function avoids, on any git older than 2.45 (which added GIT_NO_LAZY_FETCH).
   const stillMissing = () => {
-    const local = new Set(git(["cat-file", "--batch-all-objects", "--batch-check=%(objectname)", "--unordered"], repo).split("\n"));
+    const local = localObjects(repo);
     return [...new Set(ids)].filter((id) => !local.has(id));
   };
   let missing = stillMissing();
   let lastError = "";
   for (let attempt = 0; missing.length > 0 && attempt <= delays.length; attempt++) {
     if (attempt > 0) pause(delays[attempt - 1]);
+    objectListings.delete(repo);
     try {
       git(["-c", "fetch.negotiationAlgorithm=noop", "fetch", remote, "--no-tags", "--no-write-fetch-head", "--recurse-submodules=no", "--filter=blob:none", "--stdin"], repo, {
         input: `${missing.join("\n")}\n`

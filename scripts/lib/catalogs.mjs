@@ -267,12 +267,30 @@ export function writeStamps(catalogFile, stamps) {
 // the run resolves. So the change itself is the evidence, and the diff is how
 // CI reads it.
 
-/** One catalog as it stood at `ref`, flattened, or null when the ref has no such file. */
+// Which files under locales/ the ref holds, and which of those differ in this
+// working tree, asked once per ref and kept for the run. Asking per catalog
+// started two git processes for each of a thousand catalogs in a CI run.
+const refFiles = new Map();
+
+function filesAtRef(ref) {
+  if (!refFiles.has(ref)) {
+    const held = new Set(git(["ls-tree", "-r", "--name-only", "-z", ref, "--", "locales"], REPO_ROOT).split("\0").filter(Boolean));
+    const changed = new Set(git(["diff", "--name-only", "-z", "--no-renames", ref, "--", "locales"], REPO_ROOT).split("\0").filter(Boolean));
+    refFiles.set(ref, { held, changed });
+  }
+  return refFiles.get(ref);
+}
+
+/**
+ * One catalog as it stood at `ref`, flattened, or null when the ref has no such
+ * file. A catalog the ref holds and this working tree has not changed is read
+ * from disk, which is the same bytes, without starting git.
+ */
 function catalogAtRef(kind, file, ref) {
-  const relative = path.relative(REPO_ROOT, file);
-  // ls-tree first, so a file the ref does not hold is told apart from a git
-  // failure. `git show` reports both as an error.
-  if (git(["ls-tree", "--name-only", ref, "--", relative], REPO_ROOT).trim() === "") return null;
+  const relative = path.relative(REPO_ROOT, file).split(path.sep).join("/");
+  const { held, changed } = filesAtRef(ref);
+  if (!held.has(relative)) return null;
+  if (!changed.has(relative)) return flattenCatalog(kind, JSON.parse(fs.readFileSync(file, "utf8")));
   return flattenCatalog(kind, JSON.parse(git(["show", `${ref}:${relative}`], REPO_ROOT)));
 }
 
