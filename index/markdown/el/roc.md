@@ -559,6 +559,12 @@ This page is generated from [the index](../../json/el/roc.json) by `scripts/buil
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/sum-of-multiples/.docs/instructions.md)): [Latest](../../../locales/el/content/d6/9f/890e9d6a7e8ef9fa58d43d76032f689b8ff0.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/sum-of-multiples/.docs/introduction.md)): [Latest](../../../locales/el/content/69/ca/beed5abccbe7441644c24d20e0c23af51a79.md)
 
+### Swift Scheduling
+
+- `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/swift-scheduling/.docs/instructions.md)): [Latest](../../../locales/el/content/64/23/a1066b7347cdd50a8f63f70b9293acdc1fa7.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/swift-scheduling/.docs/instructions.append.md)): [Latest](../../../locales/el/content/d2/a1/60e13f9e7cb7a6c0c838332d02acce52bb77.md)
+- `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/swift-scheduling/.docs/introduction.md)): [Latest](../../../locales/el/content/23/22/f813fff1b2d03718b7f2764eed21f7b2d627.md)
+
 ### Tournament (Τουρνουά)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/tournament/.docs/instructions.md)): [Latest](../../../locales/el/content/e5/ca/237385f14c43e5e706eb234dc2b46b193797.md)

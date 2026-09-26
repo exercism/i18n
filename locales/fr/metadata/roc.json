@@ -403,5 +403,8 @@
   "exercise:split-second-stopwatch:blurb": "Garde la trace du temps avec un chronomètre numérique.",
   "exercise:split-second-stopwatch:source": "Erik Schierboom",
   "exercise:react:name": "React",
-  "exercise:react:blurb": "Implémente un système réactif simple."
+  "exercise:react:blurb": "Implémente un système réactif simple.",
+  "exercise:swift-scheduling:name": "Planification express",
+  "exercise:swift-scheduling:blurb": "Convertis des descriptions de dates de livraison en dates de livraison réelles.",
+  "exercise:swift-scheduling:source": "Erik Schierboom"
 }

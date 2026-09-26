@@ -403,5 +403,8 @@
   "exercise:split-second-stopwatch:blurb": "Παρακολούθησε τον χρόνο μέσω ενός ψηφιακού χρονομέτρου.",
   "exercise:split-second-stopwatch:source": "Erik Schierboom",
   "exercise:react:name": "React",
-  "exercise:react:blurb": "Υλοποίησε ένα βασικό αντιδραστικό σύστημα."
+  "exercise:react:blurb": "Υλοποίησε ένα βασικό αντιδραστικό σύστημα.",
+  "exercise:swift-scheduling:name": "Swift Scheduling",
+  "exercise:swift-scheduling:blurb": "Μετέτρεψε περιγραφές ημερομηνίας παράδοσης σε πραγματικές ημερομηνίες παράδοσης.",
+  "exercise:swift-scheduling:source": "Erik Schierboom"
 }

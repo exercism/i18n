@@ -403,5 +403,8 @@
   "exercise:split-second-stopwatch:blurb": "Kövesd nyomon az időt egy digitális stopperórával.",
   "exercise:split-second-stopwatch:source": "Erik Schierboom",
   "exercise:react:name": "React",
-  "exercise:react:blurb": "Valósíts meg egy alapvető reaktív rendszert."
+  "exercise:react:blurb": "Valósíts meg egy alapvető reaktív rendszert.",
+  "exercise:swift-scheduling:name": "Gyors ütemezés",
+  "exercise:swift-scheduling:blurb": "Alakítsd át a szállítási dátum leírásait tényleges szállítási dátumokká.",
+  "exercise:swift-scheduling:source": "Erik Schierboom"
 }

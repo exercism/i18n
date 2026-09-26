@@ -403,5 +403,8 @@
   "exercise:split-second-stopwatch:blurb": "Стежте за часом за допомогою цифрового секундоміра.",
   "exercise:split-second-stopwatch:source": "Erik Schierboom",
   "exercise:react:name": "React",
-  "exercise:react:blurb": "Реалізувати базову реактивну систему."
+  "exercise:react:blurb": "Реалізувати базову реактивну систему.",
+  "exercise:swift-scheduling:name": "Швидке планування",
+  "exercise:swift-scheduling:blurb": "Перетворіть описи дат доставки на конкретні дати доставки.",
+  "exercise:swift-scheduling:source": "Erik Schierboom"
 }
