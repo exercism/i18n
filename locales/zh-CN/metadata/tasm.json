@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO：添加简介",
+  "doc:installation:title": "在本地安装 Triton VM 汇编",
+  "doc:installation:blurb": "学习如何在本地安装 Triton VM 汇编，以便在自己的电脑上完成 Exercism 的练习",
+  "doc:learning:title": "如何学习 Triton VM 汇编",
+  "doc:learning:blurb": "从零开始上手 Triton VM 汇编的入门概述",
+  "doc:tests:title": "在 Triton VM 汇编轨道上测试",
+  "doc:tests:blurb": "学习如何在 Exercism 上测试你的 Triton VM 汇编练习",
+  "doc:resources:title": "实用的 Triton VM 汇编资源",
+  "doc:resources:blurb": "一系列实用资源，帮助你掌握 Triton VM 汇编"
+}

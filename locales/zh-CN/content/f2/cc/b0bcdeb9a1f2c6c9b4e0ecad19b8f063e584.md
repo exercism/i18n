@@ -1,0 +1,62 @@
+# 简介
+
+## 更多枚举方法
+
+在枚举中，你已经接触过 `count`、`any?`、`select`、`all` 和 `map` 这些枚举方法。
+下面复习一下它们，并补充了几个新的：
+
+```ruby
+fibonacci = [0, 1, 1, 2, 3, 5, 8, 13]
+
+fibonacci.count  { |number| number == 1 }   #=> 2
+fibonacci.any?   { |number| number > 20 }   #=> false
+fibonacci.none?  { |number| number > 20 }   #=> true
+fibonacci.select { |number| number.odd? }   #=> [1, 1, 3, 5, 13]
+fibonacci.all?   { |number| number < 20 }   #=> true
+fibonacci.map    { |number| number * 2  }   #=> [0, 2, 2, 4, 6, 10, 16, 26]
+fibonacci.select { |number| number >= 5 }   #=> [5, 8, 13]
+fibonacci.find   { |number| number >= 5 }   #=> 5
+
+# Some methods work with or without a block
+fibonacci.sum  #=> 33
+fibonacci.sum { |number| number * number }  #=> 273
+
+# There are also methods to help with nested arrays:
+animals = [ ['cat', 'bob'], ['horse', 'caris'], ['mouse', 'arya'] ]
+animals.flatten  #=> ["cat", "bob", "horse", "caris", "mouse", "arya"]
+```
+
+## 枚举哈希
+
+枚举 `Hash` 对象和枚举 `Array` 对象完全一样，区别在于代码块会接收两个实参：键和值：
+
+```ruby
+pet_names = {cat: "bob", horse: "caris", mouse: "arya"}
+pet_names.each { |animal, name| ... }
+```
+
+如果你只需要其中的一个值，可以用特殊的 `_` 符号表示某个值用不到。
+这样既能让开发者看得更清楚，也是一种性能优化。
+
+```ruby
+pet_names = {cat: "bob", horse: "caris", mouse: "arya"}
+pet_names.map { |_, name| name }  #=> ["bob, "caris", "arya"]
+```
+
+## 嵌套枚举
+
+你也可以在嵌套的代码块中枚举，并把多个方法一个接一个串起来。
+例如，假设有一个由动物的哈希组成的数组，我们想取出名字较短的动物，可以这样写：
+
+```ruby
+pets = [
+  { animal: "cats", names: ["bob", "fred", "sandra"] },
+  { animal: "horses", names: ["caris", "black beard", "speedy"] },
+  { animal: "mice", names: ["arya", "jerry"] }
+]
+
+pets.map { |pet|
+  pet[:names].select { |name| name.length <= 5 }
+}.flatten.sort
+#=> ["arya", "bob", "caris", "fred", "jerry"]
+```
