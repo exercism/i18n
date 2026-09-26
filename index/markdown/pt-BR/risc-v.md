@@ -380,6 +380,7 @@ This page is generated from [the index](../../json/pt-BR/risc-v.json) by `script
 ### How to learn RISC-V (Como aprender RISC-V)
 
 - `LEARNING.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/LEARNING.md)): [Latest](../../../locales/pt-BR/content/b1/44/34dc01362de2abac1b97d0cc6b759d3a2c8b.md)
+  - [`7ebc4ae6c6`](../../../locales/pt-BR/content/7e/bc/4ae6c6d8b487cc329aab90c8e0e45230ccce.md)
 
 ### Installing RISC-V locally (Instalando o RISC-V localmente)
 
@@ -391,16 +392,17 @@ This page is generated from [the index](../../json/pt-BR/risc-v.json) by `script
 
 ### Useful RISC-V resources (Recursos úteis de RISC-V)
 
-- `RESOURCES.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/pt-BR/content/98/11/f0460410a89cfc315937e9d39dc64e17f016.md)
+- `RESOURCES.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/pt-BR/content/e9/ab/c47d7455c933ffd7e32fc3ae400994ceadc2.md)
+  - [`9811f04604`](../../../locales/pt-BR/content/98/11/f0460410a89cfc315937e9d39dc64e17f016.md)
 
 ## Shared exercise docs
 
 ### help.md
 
-- `help.md` ([English](https://github.com/exercism/risc-v/blob/main/exercises/shared/.docs/help.md)): [Latest](../../../locales/pt-BR/content/9f/be/25e618a89ec2494095c2f06c7142bef62139.md)
-  - [`45aa2d6411`](../../../locales/pt-BR/content/45/aa/2d6411fe5d62666ad52d0981ca77f05503cd.md)
+- `help.md` ([English](https://github.com/exercism/risc-v/blob/main/exercises/shared/.docs/help.md)): [Latest](../../../locales/pt-BR/content/45/aa/2d6411fe5d62666ad52d0981ca77f05503cd.md)
+  - [`9fbe25e618`](../../../locales/pt-BR/content/9f/be/25e618a89ec2494095c2f06c7142bef62139.md)
 
 ### tests.md
 
-- `tests.md` ([English](https://github.com/exercism/risc-v/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/pt-BR/content/b5/0a/596c3fc3c04cc33f0d338f23cf182ff42995.md)
-  - [`1f197bf7fc`](../../../locales/pt-BR/content/1f/19/7bf7fc362ce77b023b134ec9d0b7d18a16e0.md)
+- `tests.md` ([English](https://github.com/exercism/risc-v/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/pt-BR/content/1f/19/7bf7fc362ce77b023b134ec9d0b7d18a16e0.md)
+  - [`b50a596c3f`](../../../locales/pt-BR/content/b5/0a/596c3fc3c04cc33f0d338f23cf182ff42995.md)

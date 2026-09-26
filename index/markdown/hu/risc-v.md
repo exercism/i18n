@@ -380,6 +380,7 @@ This page is generated from [the index](../../json/hu/risc-v.json) by `scripts/b
 ### How to learn RISC-V (Hogyan tanuld meg a RISC-V-et)
 
 - `LEARNING.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/LEARNING.md)): [Latest](../../../locales/hu/content/b1/44/34dc01362de2abac1b97d0cc6b759d3a2c8b.md)
+  - [`7ebc4ae6c6`](../../../locales/hu/content/7e/bc/4ae6c6d8b487cc329aab90c8e0e45230ccce.md)
 
 ### Installing RISC-V locally (A RISC-V telepítése helyben)
 
@@ -392,6 +393,7 @@ This page is generated from [the index](../../json/hu/risc-v.json) by `scripts/b
 ### Useful RISC-V resources (Hasznos RISC-V-források)
 
 - `RESOURCES.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/hu/content/98/11/f0460410a89cfc315937e9d39dc64e17f016.md)
+  - [`e9abc47d74`](../../../locales/hu/content/e9/ab/c47d7455c933ffd7e32fc3ae400994ceadc2.md)
 
 ## Shared exercise docs
 
