@@ -398,5 +398,8 @@
   "exercise:relative-distance:source": "vaeng",
   "exercise:camicia:name": "Camicia",
   "exercise:camicia:blurb": "Змоделюйте карткову гру та визначте, чи партія завершується, чи входить у нескінченний цикл.",
-  "exercise:camicia:source": "Beggar-My-Neighbour"
+  "exercise:camicia:source": "Beggar-My-Neighbour",
+  "exercise:split-second-stopwatch:name": "Секундомір із проміжними часами",
+  "exercise:split-second-stopwatch:blurb": "Стежте за часом за допомогою цифрового секундоміра.",
+  "exercise:split-second-stopwatch:source": "Erik Schierboom"
 }

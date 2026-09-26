@@ -398,5 +398,8 @@
   "exercise:relative-distance:source": "vaeng",
   "exercise:camicia:name": "Camicia",
   "exercise:camicia:blurb": "Προσομοίωσε το παιχνίδι με τράπουλα και προσδιόρισε αν η παρτίδα τελειώνει ή μπαίνει σε ατέρμονο βρόχο.",
-  "exercise:camicia:source": "Beggar-My-Neighbour"
+  "exercise:camicia:source": "Beggar-My-Neighbour",
+  "exercise:split-second-stopwatch:name": "Χρονόμετρο ακριβείας",
+  "exercise:split-second-stopwatch:blurb": "Παρακολούθησε τον χρόνο μέσω ενός ψηφιακού χρονομέτρου.",
+  "exercise:split-second-stopwatch:source": "Erik Schierboom"
 }

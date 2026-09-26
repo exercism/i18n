@@ -526,6 +526,11 @@ This page is generated from [the index](../../json/el/roc.json) by `scripts/buil
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/spiral-matrix/.docs/instructions.md)): [Latest](../../../locales/el/content/01/e8/a77f808ebf669389df96d5a86ae06cc23f69.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/spiral-matrix/.docs/introduction.md)): [Latest](../../../locales/el/content/25/c7/eb595aa020e15f2317920415f225d0ba476f.md)
 
+### Split-Second Stopwatch (Χρονόμετρο ακριβείας)
+
+- `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/split-second-stopwatch/.docs/instructions.md)): [Latest](../../../locales/el/content/30/bd/c988dadd9ef5da03ac87eb44f49313c5d84d.md)
+- `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/split-second-stopwatch/.docs/introduction.md)): [Latest](../../../locales/el/content/a8/43/2247712455ffa459dffa8fc411000905b0ed.md)
+
 ### Square Root (Τετραγωνική ρίζα)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/square-root/.docs/instructions.md)): [Latest](../../../locales/el/content/d2/58/b86876e35a1553677ed6a7cb068f27cf1aba.md)

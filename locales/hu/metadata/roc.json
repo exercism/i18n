@@ -398,5 +398,8 @@
   "exercise:relative-distance:source": "vaeng",
   "exercise:camicia:name": "Camicia",
   "exercise:camicia:blurb": "Szimuláld a kártyajátékot, és állapítsd meg, hogy a játszma véget ér-e, vagy végtelen ciklusba kerül.",
-  "exercise:camicia:source": "Beggar-My-Neighbour"
+  "exercise:camicia:source": "Beggar-My-Neighbour",
+  "exercise:split-second-stopwatch:name": "Törtmásodperces stopperóra",
+  "exercise:split-second-stopwatch:blurb": "Kövesd nyomon az időt egy digitális stopperórával.",
+  "exercise:split-second-stopwatch:source": "Erik Schierboom"
 }
