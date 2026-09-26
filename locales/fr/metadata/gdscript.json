@@ -92,5 +92,8 @@
   "exercise:anagram:source": "Inspiré du jeu Extreme Startup",
   "exercise:armstrong-numbers:name": "Nombres d'Armstrong",
   "exercise:armstrong-numbers:blurb": "Détermine si un nombre est un nombre d'Armstrong.",
-  "exercise:armstrong-numbers:source": "Wikipedia"
+  "exercise:armstrong-numbers:source": "Wikipedia",
+  "exercise:bob:name": "Bob",
+  "exercise:bob:blurb": "Bob est un adolescent nonchalant. En conversation, ses réponses sont très limitées.",
+  "exercise:bob:source": "Inspiré par l'exercice « Deaf Grandma » du tutoriel Learn to Program de Chris Pine."
 }

@@ -92,5 +92,8 @@
   "exercise:anagram:source": "Az Extreme Startup játék ihlette",
   "exercise:armstrong-numbers:name": "Armstrong-számok",
   "exercise:armstrong-numbers:blurb": "Állapítsd meg, hogy egy szám Armstrong-szám-e.",
-  "exercise:armstrong-numbers:source": "Wikipedia"
+  "exercise:armstrong-numbers:source": "Wikipedia",
+  "exercise:bob:name": "Bob",
+  "exercise:bob:blurb": "Bob egy nemtörődöm tinédzser. A beszélgetésekben nagyon korlátozottak a válaszai.",
+  "exercise:bob:source": "Chris Pine Learn to Program oktatóanyagának „Deaf Grandma” feladata ihlette."
 }

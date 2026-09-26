@@ -22,13 +22,18 @@ This page is generated from [the index](../../json/hu/gdscript.json) by `scripts
 
 ### Atbash Cipher (Atbash-rejtjel)
 
-- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/atbash-cipher/.docs/instructions.md)): [Latest](../../../locales/hu/content/21/ca/2ce0aa806b97f21182196eebe554c4b984ef.md)
-  - [`1e7627b1e5`](../../../locales/hu/content/1e/76/27b1e5989878f0f1bf735feb1300de7a2664.md)
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/atbash-cipher/.docs/instructions.md)): [Latest](../../../locales/hu/content/1e/76/27b1e5989878f0f1bf735feb1300de7a2664.md)
+  - [`21ca2ce0aa`](../../../locales/hu/content/21/ca/2ce0aa806b97f21182196eebe554c4b984ef.md)
 
 ### Binary Search (Bináris keresés)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/binary-search/.docs/instructions.md)): [Latest](../../../locales/hu/content/12/f4/358ebcd8c63ffc623eca661c55da4419e410.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/binary-search/.docs/introduction.md)): [Latest](../../../locales/hu/content/03/49/6599e75d565905a3ce892520576b7db35990.md)
+
+### Bob
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/bob/.docs/instructions.md)): [Latest](../../../locales/hu/content/bb/70/2f7bbe91ee7c4f8a095bff0bc6b9c090051b.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/bob/.docs/introduction.md)): [Latest](../../../locales/hu/content/ea/4a/80776b77fc8b547460b80cb4cdca084c0fa3.md)
 
 ### Darts
 
@@ -41,8 +46,8 @@ This page is generated from [the index](../../json/hu/gdscript.json) by `scripts
 
 ### Flatten Array (Tömb lapítása)
 
-- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/flatten-array/.docs/instructions.md)): [Latest](../../../locales/hu/content/51/be/a67909f879fe54d8ec2ee70c146ee6ba8f61.md)
-  - [`b5b82713d9`](../../../locales/hu/content/b5/b8/2713d928a59e350e468d35c4ee92d49316cf.md)
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/flatten-array/.docs/instructions.md)): [Latest](../../../locales/hu/content/b5/b8/2713d928a59e350e468d35c4ee92d49316cf.md)
+  - [`51bea67909`](../../../locales/hu/content/51/be/a67909f879fe54d8ec2ee70c146ee6ba8f61.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/flatten-array/.docs/introduction.md)): [Latest](../../../locales/hu/content/a3/14/857465e75cc95c88b634ddd355f7393888ad.md)
 
 ### Hello World (Helló, világ!)
@@ -60,8 +65,8 @@ This page is generated from [the index](../../json/hu/gdscript.json) by `scripts
 
 ### Luhn
 
-- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/luhn/.docs/instructions.md)): [Latest](../../../locales/hu/content/8c/be/791fc23118f7b852fd0072136884cfea81e3.md)
-  - [`7702c6bbb5`](../../../locales/hu/content/77/02/c6bbb5f849683e3074163e48ce1154ad2957.md)
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/luhn/.docs/instructions.md)): [Latest](../../../locales/hu/content/77/02/c6bbb5f849683e3074163e48ce1154ad2957.md)
+  - [`8cbe791fc2`](../../../locales/hu/content/8c/be/791fc23118f7b852fd0072136884cfea81e3.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/luhn/.docs/introduction.md)): [Latest](../../../locales/hu/content/de/e4/8006eddee9458a5414ddc96c4b9d2fc9109f.md)
 
 ### Pangram
@@ -107,8 +112,8 @@ This page is generated from [the index](../../json/hu/gdscript.json) by `scripts
 
 ### Space Age (Űrkorszak)
 
-- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/space-age/.docs/instructions.md)): [Latest](../../../locales/hu/content/fe/93/8cc09e11c1849b32719ef1ac955c7d7aebd3.md)
-  - [`f23b5e2c1f`](../../../locales/hu/content/f2/3b/5e2c1fee01d8283d5399594d9324bd35e2f4.md)
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/space-age/.docs/instructions.md)): [Latest](../../../locales/hu/content/f2/3b/5e2c1fee01d8283d5399594d9324bd35e2f4.md)
+  - [`fe938cc09e`](../../../locales/hu/content/fe/93/8cc09e11c1849b32719ef1ac955c7d7aebd3.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/space-age/.docs/introduction.md)): [Latest](../../../locales/hu/content/01/4d/78857c784d435eefd1b428aab209c2f2d7b1.md)
 
 ### Spiral Matrix (Spirálmátrix)
@@ -116,10 +121,10 @@ This page is generated from [the index](../../json/hu/gdscript.json) by `scripts
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/spiral-matrix/.docs/instructions.md)): [Latest](../../../locales/hu/content/01/e8/a77f808ebf669389df96d5a86ae06cc23f69.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/spiral-matrix/.docs/introduction.md)): [Latest](../../../locales/hu/content/25/c7/eb595aa020e15f2317920415f225d0ba476f.md)
 
-### triangle (Háromszög)
+### Triangle (Háromszög)
 
-- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/hu/content/ac/39/008726d5472b99e1aee556219eadca7fc49d.md)
-  - [`e9b053dcd3`](../../../locales/hu/content/e9/b0/53dcd344e85179041c10dcd48406d735b2f9.md)
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/hu/content/e9/b0/53dcd344e85179041c10dcd48406d735b2f9.md)
+  - [`ac39008726`](../../../locales/hu/content/ac/39/008726d5472b99e1aee556219eadca7fc49d.md)
 
 ### Two Fer
 

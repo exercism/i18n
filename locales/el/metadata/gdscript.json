@@ -92,5 +92,8 @@
   "exercise:anagram:source": "Εμπνευσμένο από το παιχνίδι Extreme Startup",
   "exercise:armstrong-numbers:name": "Αριθμοί Armstrong",
   "exercise:armstrong-numbers:blurb": "Προσδιόρισε αν ένας αριθμός είναι αριθμός Armstrong.",
-  "exercise:armstrong-numbers:source": "Wikipedia"
+  "exercise:armstrong-numbers:source": "Wikipedia",
+  "exercise:bob:name": "Bob",
+  "exercise:bob:blurb": "Ο Bob είναι ένας νωθρός έφηβος. Στη συζήτηση, οι απαντήσεις του είναι πολύ περιορισμένες.",
+  "exercise:bob:source": "Εμπνευσμένο από την άσκηση 'Deaf Grandma' στο σεμινάριο Learn to Program του Chris Pine."
 }

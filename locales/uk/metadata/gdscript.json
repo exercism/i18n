@@ -92,5 +92,8 @@
   "exercise:anagram:source": "За мотивами гри Extreme Startup",
   "exercise:armstrong-numbers:name": "Числа Армстронга",
   "exercise:armstrong-numbers:blurb": "Визначте, чи є число числом Армстронга.",
-  "exercise:armstrong-numbers:source": "Wikipedia"
+  "exercise:armstrong-numbers:source": "Wikipedia",
+  "exercise:bob:name": "Bob",
+  "exercise:bob:blurb": "Боб - безтурботний підліток. У розмові його відповіді вкрай обмежені.",
+  "exercise:bob:source": "За мотивами вправи «Deaf Grandma» з посібника Кріса Пайна «Learn to Program»."
 }
