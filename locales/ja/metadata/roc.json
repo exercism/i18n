@@ -387,5 +387,8 @@
   "exercise:camicia:source": "Beggar-My-Neighbour",
   "exercise:relative-distance:name": "親族間の距離",
   "exercise:relative-distance:blurb": "家系図が与えられたとき、2人の間の親等を計算します。",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:book-store:name": "書店",
+  "exercise:book-store:blurb": "人気の5冊シリーズの本をもっと売るために、ある書店が複数冊の購入に割引を付けることにしました。",
+  "exercise:book-store:source": "Cyber-Dojoのharry potter kataに着想を得たものです。"
 }

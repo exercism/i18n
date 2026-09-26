@@ -387,5 +387,8 @@
   "exercise:camicia:source": "Beggar-My-Neighbour",
   "exercise:relative-distance:name": "相对距离",
   "exercise:relative-distance:blurb": "给定一棵家族树，计算两个人之间的亲疏程度。",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:book-store:name": "书店",
+  "exercise:book-store:blurb": "为了促进一套热门 5 卷丛书里各册图书的销量，一家书店决定对多本一起购买的订单提供折扣。",
+  "exercise:book-store:source": "灵感来自 Cyber-Dojo 上的 harry potter kata。"
 }

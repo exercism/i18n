@@ -387,5 +387,8 @@
   "exercise:camicia:source": "Beggar-My-Neighbour",
   "exercise:relative-distance:name": "Distância relativa",
   "exercise:relative-distance:blurb": "Dada uma árvore genealógica, calcule o grau de separação.",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:book-store:name": "Livraria",
+  "exercise:book-store:blurb": "Para tentar incentivar mais vendas de livros diferentes de uma popular série de 5 livros, uma livraria decidiu oferecer descontos em compras de vários livros.",
+  "exercise:book-store:source": "Inspirado no kata harry potter do Cyber-Dojo."
 }
