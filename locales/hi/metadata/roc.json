@@ -393,5 +393,8 @@
   "exercise:book-store:source": "Cyber-Dojo के harry potter kata से प्रेरित।",
   "exercise:baffling-birthdays:name": "चौंकाने वाले जन्मदिन",
   "exercise:baffling-birthdays:blurb": "जन्मदिन विरोधाभास की प्रायिकताओं का अनुमान लगाइए।",
-  "exercise:baffling-birthdays:source": "Erik Schierboom"
+  "exercise:baffling-birthdays:source": "Erik Schierboom",
+  "exercise:prism:name": "प्रिज़्म",
+  "exercise:prism:blurb": "अपवर्तक प्रिज़्मों से गुज़रने वाली लेज़र के पथ की गणना कीजिए।",
+  "exercise:prism:source": "FraSanga"
 }

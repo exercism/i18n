@@ -393,5 +393,8 @@
   "exercise:book-store:source": "Cyber-Dojoのharry potter kataに着想を得たものです。",
   "exercise:baffling-birthdays:name": "不可解な誕生日",
   "exercise:baffling-birthdays:blurb": "誕生日のパラドックスの確率を推定してください。",
-  "exercise:baffling-birthdays:source": "Erik Schierboom"
+  "exercise:baffling-birthdays:source": "Erik Schierboom",
+  "exercise:prism:name": "プリズム",
+  "exercise:prism:blurb": "レーザーが屈折プリズムを通る経路を計算します。",
+  "exercise:prism:source": "FraSanga"
 }

@@ -393,5 +393,8 @@
   "exercise:book-store:source": "灵感来自 Cyber-Dojo 上的 harry potter kata。",
   "exercise:baffling-birthdays:name": "令人困惑的生日",
   "exercise:baffling-birthdays:blurb": "估算生日悖论的概率。",
-  "exercise:baffling-birthdays:source": "Erik Schierboom"
+  "exercise:baffling-birthdays:source": "Erik Schierboom",
+  "exercise:prism:name": "棱镜",
+  "exercise:prism:blurb": "计算激光穿过折射棱镜的光路。",
+  "exercise:prism:source": "FraSanga"
 }

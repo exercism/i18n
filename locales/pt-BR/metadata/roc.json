@@ -393,5 +393,8 @@
   "exercise:book-store:source": "Inspirado no kata harry potter do Cyber-Dojo.",
   "exercise:baffling-birthdays:name": "Aniversários desconcertantes",
   "exercise:baffling-birthdays:blurb": "Estime as probabilidades do paradoxo do aniversário.",
-  "exercise:baffling-birthdays:source": "Erik Schierboom"
+  "exercise:baffling-birthdays:source": "Erik Schierboom",
+  "exercise:prism:name": "Prisma",
+  "exercise:prism:blurb": "Calcule o caminho de um laser através de prismas refrativos.",
+  "exercise:prism:source": "FraSanga"
 }
