@@ -85,7 +85,7 @@
     "exercises/practice/zebra-puzzle": {"en":"Zebra Puzzle","uk":"Загадка про зебру"}
   },
   "paths": {
-    "docs/ABOUT.md": ["9864ed00303fd196319f4058cddc6994eaed0a14"],
+    "docs/ABOUT.md": ["a375720da80ae616f4327593b294073d994b79f4","9864ed00303fd196319f4058cddc6994eaed0a14"],
     "docs/CONTRIBUTOR_TOOLS.md": ["1b59632c8ddbb10348bfdbd5a890dd8154583adc"],
     "docs/INSTALLATION.md": ["6d47fa9fc72f34fef0b32f2d6e8d7f754c2f5849","cd6ce8521d1baba7dc72cdaf56a8a9eb3cb23882"],
     "docs/LEARNING.md": ["b14434dc01362de2abac1b97d0cc6b759d3a2c8b","7ebc4ae6c6d8b487cc329aab90c8e0e45230ccce"],

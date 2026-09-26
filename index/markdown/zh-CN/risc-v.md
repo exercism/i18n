@@ -371,7 +371,8 @@ This page is generated from [the index](../../json/zh-CN/risc-v.json) by `script
 
 ### ABOUT.md
 
-- `ABOUT.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/ABOUT.md)): [Latest](../../../locales/zh-CN/content/98/64/ed00303fd196319f4058cddc6994eaed0a14.md)
+- `ABOUT.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/ABOUT.md)): [Latest](../../../locales/zh-CN/content/a3/75/720da80ae616f4327593b294073d994b79f4.md)
+  - [`9864ed0030`](../../../locales/zh-CN/content/98/64/ed00303fd196319f4058cddc6994eaed0a14.md)
 
 ### CONTRIBUTOR\_TOOLS.md
 
