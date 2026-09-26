@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: ब्लर्ब जोड़ें",
+  "doc:installation:title": "Tact को अपने कंप्यूटर पर इंस्टॉल कीजिए",
+  "doc:installation:blurb": "अपने ही कंप्यूटर पर Exercism के अभ्यास हल करने के लिए Tact को इंस्टॉल करना सीखिए",
+  "doc:learning:title": "Tact कैसे सीखें",
+  "doc:learning:blurb": "शुरू से Tact सीखने की शुरुआत कैसे करें, इसका संक्षिप्त परिचय",
+  "doc:tests:title": "Tact ट्रैक पर टेस्ट करना",
+  "doc:tests:blurb": "Exercism पर अपने Tact अभ्यासों को टेस्ट करना सीखिए",
+  "doc:resources:title": "उपयोगी Tact संसाधन",
+  "doc:resources:blurb": "Tact में महारत हासिल करने में मदद करने वाले उपयोगी संसाधनों का संग्रह"
+}

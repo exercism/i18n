@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: ब्लर्ब जोड़ें",
+  "doc:installation:title": "Triton VM assembly को अपनी मशीन पर इंस्टॉल करना",
+  "doc:installation:blurb": "Triton VM assembly को अपनी ही मशीन पर इंस्टॉल करना सीखिए, ताकि आप Exercism के अभ्यास अपने कंप्यूटर पर हल कर सकें।",
+  "doc:learning:title": "Triton VM assembly सीखने का तरीका",
+  "doc:learning:blurb": "Triton VM assembly में बिल्कुल शुरू से शुरुआत करने के तरीके का अवलोकन।",
+  "doc:tests:title": "Triton VM assembly ट्रैक पर टेस्ट करना",
+  "doc:tests:blurb": "Exercism पर अपने Triton VM assembly अभ्यासों का टेस्ट करना सीखिए।",
+  "doc:resources:title": "Triton VM assembly के लिए उपयोगी संसाधन",
+  "doc:resources:blurb": "Triton VM assembly में निपुण होने में आपकी मदद करने वाले उपयोगी संसाधनों का संग्रह।"
+}

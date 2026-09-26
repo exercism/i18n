@@ -1,0 +1,17 @@
+{
+  "exercise:hello-world:name": "हैलो वर्ल्ड",
+  "exercise:leap:name": "अधिवर्ष",
+  "exercise:hello-world:source": "यह अभ्यास उपयोगकर्ताओं को Exercism का उपयोग सिखाने के लिए है",
+  "exercise:leap:blurb": "तय कीजिए कि दिया गया वर्ष अधिवर्ष है या नहीं।",
+  "exercise:leap:source": "CodeRanch Cattle Drive, असाइनमेंट 3",
+  "track:blurb": "TODO: ब्लर्ब जोड़ें",
+  "exercise:hello-world:blurb": "यह परंपरागत परिचयात्मक अभ्यास है। बस \"Hello, World!\" कहिए।",
+  "doc:installation:title": "ARM32 Assembly को स्थानीय रूप से इंस्टॉल करना",
+  "doc:installation:blurb": "Exercism के अभ्यास अपनी मशीन पर हल करने के लिए ARM32 Assembly को स्थानीय रूप से इंस्टॉल करना सीखिए।",
+  "doc:learning:title": "ARM32 Assembly सीखने का तरीका",
+  "doc:learning:blurb": "ARM32 Assembly में बिल्कुल शुरुआत से शुरू करने का संक्षिप्त परिचय।",
+  "doc:tests:title": "ARM32 Assembly ट्रैक पर जाँच करना",
+  "doc:tests:blurb": "Exercism पर अपने ARM32 Assembly अभ्यासों की जाँच करना सीखिए।",
+  "doc:resources:title": "ARM32 Assembly के उपयोगी संसाधन",
+  "doc:resources:blurb": "ARM32 Assembly में निपुण होने में आपकी मदद करने वाले उपयोगी संसाधनों का संग्रह।"
+}

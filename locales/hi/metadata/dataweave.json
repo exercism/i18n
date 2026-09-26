@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: ब्लर्ब जोड़ें",
+  "doc:installation:title": "Dataweave को अपने कंप्यूटर पर इंस्टॉल करना",
+  "doc:installation:blurb": "Exercism के अभ्यास अपनी मशीन पर हल करने के लिए Dataweave को इंस्टॉल करना सीखिए।",
+  "doc:learning:title": "Dataweave सीखने का तरीका",
+  "doc:learning:blurb": "Dataweave में बिल्कुल शून्य से शुरुआत कैसे करें, इसका एक परिचय।",
+  "doc:tests:title": "Dataweave ट्रैक पर जाँच",
+  "doc:tests:blurb": "Exercism पर अपने Dataweave अभ्यासों को जाँचना सीखिए।",
+  "doc:resources:title": "Dataweave के लिए उपयोगी संसाधन",
+  "doc:resources:blurb": "Dataweave में महारत हासिल करने में आपकी मदद करने वाले उपयोगी संसाधनों का संग्रह।"
+}

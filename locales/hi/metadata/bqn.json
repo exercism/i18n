@@ -1,0 +1,14 @@
+{
+  "exercise:hello-world:name": "हैलो वर्ल्ड",
+  "exercise:hello-world:blurb": "यह परंपरागत परिचयात्मक अभ्यास है। बस \"Hello, World!\" कहिए।",
+  "exercise:hello-world:source": "यह अभ्यास उपयोगकर्ताओं को Exercism का उपयोग सिखाने के लिए है",
+  "track:blurb": "आधुनिक और शक्तिशाली भाषा, जो Ken Iverson के ऐरे प्रोग्रामिंग पैराडाइम पर केंद्रित है।",
+  "doc:installation:title": "BQN को अपने कंप्यूटर पर इंस्टॉल करना",
+  "doc:installation:blurb": "BQN को अपने कंप्यूटर पर इंस्टॉल करना सीखिए और Exercism के अभ्यास अपनी मशीन पर हल कीजिए।",
+  "doc:learning:title": "BQN सीखने का तरीका",
+  "doc:learning:blurb": "BQN की शुरुआत बिल्कुल शुरू से कैसे करें, इसका संक्षिप्त परिचय।",
+  "doc:tests:title": "BQN ट्रैक पर टेस्ट करना",
+  "doc:tests:blurb": "Exercism पर अपने BQN अभ्यासों का टेस्ट करना सीखिए।",
+  "doc:resources:title": "BQN के उपयोगी संसाधन",
+  "doc:resources:blurb": "BQN अच्छी तरह सीखने में मदद करने वाले उपयोगी संसाधनों का संग्रह।"
+}

@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: ब्लर्ब जोड़ें",
+  "doc:installation:title": "C3 को स्थानीय रूप से इंस्टॉल कीजिए",
+  "doc:installation:blurb": "अपनी मशीन पर Exercism के अभ्यास हल करने के लिए C3 को स्थानीय रूप से इंस्टॉल करना सीखिए।",
+  "doc:learning:title": "C3 सीखने का तरीका",
+  "doc:learning:blurb": "C3 के साथ बिलकुल शुरू से शुरू करने की संक्षिप्त जानकारी।",
+  "doc:tests:title": "C3 ट्रैक पर टेस्टिंग",
+  "doc:tests:blurb": "Exercism पर अपने C3 अभ्यासों को टेस्ट करना सीखिए।",
+  "doc:resources:title": "उपयोगी C3 संसाधन",
+  "doc:resources:blurb": "C3 में महारत हासिल करने में आपकी मदद के लिए उपयोगी संसाधनों का संग्रह।"
+}

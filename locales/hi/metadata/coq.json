@@ -1,0 +1,13 @@
+{
+  "exercise:hello-world:name": "हैलो वर्ल्ड",
+  "exercise:rna-transcription:name": "RNA ट्रांसक्रिप्शन",
+  "exercise:hello-world:blurb": "यह पारंपरिक प्रारंभिक अभ्यास है। बस \"Hello, World!\" कहिए।",
+  "exercise:hello-world:source": "यह अभ्यास उपयोगकर्ताओं को Exercism का उपयोग सिखाने के लिए है",
+  "exercise:rna-transcription:blurb": "DNA की एक शृंखला दी गई है, तो उसका RNA पूरक प्रतिलेखन लौटाइए।",
+  "exercise:rna-transcription:source": "Hyperphysics",
+  "track:blurb": "Coq एक प्रूफ असिस्टेंट है। Coq की मदद से आप गणितीय परिभाषाओं, एल्गोरिदमों और प्रमेयों का औपचारिक वर्णन लिख सकते हैं। Coq में ऐसी टैक्टिक्स भी मिलती हैं जिनसे आप इंटरैक्टिव तरीके से मशीन से जाँचे गए प्रमाण बना सकते हैं।",
+  "exercise:tautology:name": "टॉटोलॉजी",
+  "exercise:tautology:blurb": "टॉटोलॉजी क्लब का पहला नियम टॉटोलॉजी क्लब का पहला नियम है। ",
+  "doc:learning:title": "Coq कैसे सीखें",
+  "doc:learning:blurb": "Coq के साथ शून्य से शुरुआत करने का संक्षिप्त परिचय।"
+}

@@ -1,0 +1,6 @@
+{
+  "track:blurb": "TODO: ब्लर्ब जोड़ें",
+  "exercise:hello-world:name": "हैलो वर्ल्ड",
+  "exercise:hello-world:blurb": "यह परंपरागत परिचयात्मक अभ्यास है। बस \"Hello, World!\" कहिए।",
+  "exercise:hello-world:source": "यह अभ्यास उपयोगकर्ताओं को Exercism का उपयोग सिखाने के लिए है"
+}

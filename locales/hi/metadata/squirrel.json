@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: ब्लर्ब जोड़ें",
+  "doc:installation:title": "Squirrel को स्थानीय रूप से इंस्टॉल करना",
+  "doc:installation:blurb": "अपनी मशीन पर Exercism के अभ्यास हल करने के लिए Squirrel को स्थानीय रूप से इंस्टॉल करना सीखिए",
+  "doc:learning:title": "Squirrel सीखने का तरीका",
+  "doc:learning:blurb": "शुरू से Squirrel कैसे सीखें, इसका एक संक्षिप्त परिचय",
+  "doc:tests:title": "Squirrel ट्रैक पर टेस्ट करना",
+  "doc:tests:blurb": "Exercism पर अपने Squirrel अभ्यासों को टेस्ट करना सीखिए",
+  "doc:resources:title": "उपयोगी Squirrel संसाधन",
+  "doc:resources:blurb": "Squirrel में निपुणता पाने में आपकी मदद करने वाले उपयोगी संसाधनों का संग्रह"
+}
