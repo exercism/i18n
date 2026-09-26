@@ -392,8 +392,8 @@ This page is generated from [the index](../../json/zh-CN/risc-v.json) by `script
 
 ### Useful RISC-V resources (实用的 RISC-V 资源)
 
-- `RESOURCES.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/zh-CN/content/e9/ab/c47d7455c933ffd7e32fc3ae400994ceadc2.md)
-  - [`9811f04604`](../../../locales/zh-CN/content/98/11/f0460410a89cfc315937e9d39dc64e17f016.md)
+- `RESOURCES.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/zh-CN/content/98/11/f0460410a89cfc315937e9d39dc64e17f016.md)
+  - [`e9abc47d74`](../../../locales/zh-CN/content/e9/ab/c47d7455c933ffd7e32fc3ae400994ceadc2.md)
 
 ## Shared exercise docs
 

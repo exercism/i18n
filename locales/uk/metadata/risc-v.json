@@ -230,5 +230,17 @@
   "doc:tests:title": "Тестування на треку RISC-V",
   "doc:tests:blurb": "Дізнаймося, як тестувати власні вправи з RISC-V на Exercism",
   "doc:resources:title": "Корисні ресурси з RISC-V",
-  "doc:resources:blurb": "Добірка корисних ресурсів, які допоможуть опанувати RISC-V"
+  "doc:resources:blurb": "Добірка корисних ресурсів, які допоможуть опанувати RISC-V",
+  "key_feature:small:title": "Компактна й однорідна",
+  "key_feature:small:content": "Кілька десятків базових інструкцій, побудованих за однаковими простими схемами.",
+  "key_feature:powerful:title": "Як працюють компʼютери",
+  "key_feature:powerful:content": "Працюймо безпосередньо з регістрами та памʼяттю. Між нашим кодом і процесором немає нічого.",
+  "key_feature:community:title": "Вільна й відкрита",
+  "key_feature:community:content": "Будь-хто може прочитати специфікацію та створити чип RISC-V, не сплачуючи ліцензійних зборів.",
+  "key_feature:widely-used:title": "У справжніх пристроях",
+  "key_feature:widely-used:content": "Чипи RISC-V працюють усередині мікроконтролерів, одноплатних компʼютерів, накопичувачів і не тільки.",
+  "key_feature:easy:title": "Створена для навчання",
+  "key_feature:easy:content": "Завдяки чистому дизайну її часто використовують, щоб пояснювати, як працюють процесори.",
+  "key_feature:tooling:title": "Без обладнання",
+  "key_feature:tooling:content": "Розвʼязуйте вправи в онлайн-редакторі або локально за допомогою безкоштовного емулятора."
 }

@@ -230,5 +230,17 @@
   "doc:tests:title": "Tesztelés a RISC-V kurzuson",
   "doc:tests:blurb": "Tanuld meg, hogyan teszteld a RISC-V feladataidat az Exercism-ön.",
   "doc:resources:title": "Hasznos RISC-V-források",
-  "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a RISC-V-et."
+  "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a RISC-V-et.",
+  "key_feature:small:title": "Kicsi és szabályos",
+  "key_feature:small:content": "Néhány tucat alaputasítás, amelyek mind ugyanazokat az egyszerű mintákat követik.",
+  "key_feature:powerful:title": "Így működnek a számítógépek",
+  "key_feature:powerful:content": "Közvetlenül a regiszterekkel és a memóriával dolgozol. A kódod és a processzor között semmi sem áll.",
+  "key_feature:community:title": "Szabad és nyílt",
+  "key_feature:community:content": "Bárki elolvashatja a specifikációt, és licencdíj nélkül építhet RISC-V chipet.",
+  "key_feature:widely-used:title": "Megtalálható valódi eszközökben",
+  "key_feature:widely-used:content": "A RISC-V chipek mikrokontrollerekben, egylapkás számítógépekben, tárolómeghajtókban és még sok másban futnak.",
+  "key_feature:easy:title": "Tanulásra tervezve",
+  "key_feature:easy:content": "Letisztult felépítése miatt népszerű választás annak tanítására, hogyan működnek a processzorok.",
+  "key_feature:tooling:title": "Nem kell hardver",
+  "key_feature:tooling:content": "A feladatokat az online szerkesztőben oldhatod meg, vagy helyben, egy ingyenes emulátorral."
 }

@@ -230,5 +230,17 @@
   "doc:tests:title": "Pruebas en la ruta de RISC-V",
   "doc:tests:blurb": "Aprende a probar tus ejercicios de RISC-V en Exercism",
   "doc:resources:title": "Recursos útiles de RISC-V",
-  "doc:resources:blurb": "Una colección de recursos útiles para ayudarte a dominar RISC-V"
+  "doc:resources:blurb": "Una colección de recursos útiles para ayudarte a dominar RISC-V",
+  "key_feature:small:title": "Pequeño y uniforme",
+  "key_feature:small:content": "Unas pocas docenas de instrucciones principales que siguen los mismos patrones sencillos.",
+  "key_feature:powerful:title": "Mira cómo funcionan las computadoras",
+  "key_feature:powerful:content": "Trabaja directamente con registros y memoria. Nada se interpone entre tu código y el procesador.",
+  "key_feature:community:title": "Libre y abierto",
+  "key_feature:community:content": "Cualquiera puede leer la especificación y construir un chip RISC-V, sin pagar tarifas de licencia.",
+  "key_feature:widely-used:title": "En dispositivos reales",
+  "key_feature:widely-used:content": "Los chips RISC-V se ejecutan dentro de microcontroladores, computadoras de placa única, unidades de almacenamiento y más.",
+  "key_feature:easy:title": "Hecho para aprender",
+  "key_feature:easy:content": "Su diseño ordenado lo hace una opción popular para enseñar cómo funcionan los procesadores.",
+  "key_feature:tooling:title": "Sin hardware",
+  "key_feature:tooling:content": "Resuelve los ejercicios en el editor en línea, o localmente con un emulador gratuito."
 }

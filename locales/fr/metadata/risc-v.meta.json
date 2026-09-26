@@ -231,6 +231,18 @@
     "exercise:zebra-puzzle:blurb": "17204e8ba6963791a7fcc26c892bfdc7f765f21d",
     "exercise:zebra-puzzle:name": "cdbfaf3d2a457b4481f9d5d379089a842a9c0dd5",
     "exercise:zebra-puzzle:source": "121eab03772e6fb6cc03880c3424ffdee4b03df5",
+    "key_feature:community:content": "1ce72a9e42ffcd35b3277779003eb2984b709696",
+    "key_feature:community:title": "d58e7c314707f8ecd784a78ad0d5c3f3481ef67e",
+    "key_feature:easy:content": "87fc09823083d5057220f1fcecdb4b98c8bc3671",
+    "key_feature:easy:title": "a618ddb3c695f1f393747506e6b6c88a7734a832",
+    "key_feature:powerful:content": "24009c19b675771fd7b9c2cd2a228e3e1df00af2",
+    "key_feature:powerful:title": "e36a4e4a6f9c141f0d7a320c4b29750d8b991626",
+    "key_feature:small:content": "0bbbd967699162dda20a9eb9e985f8c5e8a7540a",
+    "key_feature:small:title": "f6e6aa5480e7678e639a659cb571e99d7d1fe312",
+    "key_feature:tooling:content": "33802a613dafbe8e160f36be8808084b2e5d4559",
+    "key_feature:tooling:title": "4bb78370addb9151b12acc23526df8d7bc96751f",
+    "key_feature:widely-used:content": "6f0cb41d9bc56f291c845bef76f23d907acfd924",
+    "key_feature:widely-used:title": "3f6fa4612fc6340f22e69345179fd3488e084a10",
     "track:blurb": "33f1a702163cdc395826af4e9f12c78a3f54b9dc"
   }
 }

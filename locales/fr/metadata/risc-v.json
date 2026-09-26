@@ -230,5 +230,17 @@
   "doc:tests:title": "Tests sur le parcours RISC-V",
   "doc:tests:blurb": "Apprends à tester tes exercices RISC-V sur Exercism.",
   "doc:resources:title": "Ressources utiles pour RISC-V",
-  "doc:resources:blurb": "Une collection de ressources utiles pour t'aider à maîtriser RISC-V."
+  "doc:resources:blurb": "Une collection de ressources utiles pour t'aider à maîtriser RISC-V.",
+  "key_feature:small:title": "Petit et régulier",
+  "key_feature:small:content": "Quelques dizaines d'instructions de base qui suivent toutes les mêmes schémas simples.",
+  "key_feature:powerful:title": "Vois comment fonctionnent les ordinateurs",
+  "key_feature:powerful:content": "Travaille directement avec les registres et la mémoire. Rien ne s'interpose entre ton code et le processeur.",
+  "key_feature:community:title": "Libre et ouvert",
+  "key_feature:community:content": "Tout le monde peut lire la spécification et fabriquer une puce RISC-V, sans payer de frais de licence.",
+  "key_feature:widely-used:title": "Présent dans de vrais appareils",
+  "key_feature:widely-used:content": "Les puces RISC-V équipent des microcontrôleurs, des ordinateurs monocartes, des unités de stockage, et bien plus encore.",
+  "key_feature:easy:title": "Conçu pour apprendre",
+  "key_feature:easy:content": "Sa conception épurée en fait un choix populaire pour enseigner le fonctionnement des processeurs.",
+  "key_feature:tooling:title": "Aucun matériel nécessaire",
+  "key_feature:tooling:content": "Résous les exercices dans l'éditeur en ligne, ou en local avec un émulateur gratuit."
 }

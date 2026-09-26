@@ -230,5 +230,17 @@
   "doc:tests:title": "在 RISC-V 赛道上测试",
   "doc:tests:blurb": "了解如何在 Exercism 上测试你的 RISC-V 练习",
   "doc:resources:title": "实用的 RISC-V 资源",
-  "doc:resources:blurb": "帮助你掌握 RISC-V 的一系列实用资源"
+  "doc:resources:blurb": "帮助你掌握 RISC-V 的一系列实用资源",
+  "key_feature:small:title": "小巧且规整",
+  "key_feature:small:content": "几十条核心指令，全部遵循同样简单的模式。",
+  "key_feature:powerful:title": "了解计算机如何工作",
+  "key_feature:powerful:content": "直接操作寄存器和内存。你的代码和处理器之间没有任何中间层。",
+  "key_feature:community:title": "免费且开放",
+  "key_feature:community:content": "任何人都可以阅读规范并构建 RISC-V 芯片，无需支付许可费。",
+  "key_feature:widely-used:title": "真实设备中常见",
+  "key_feature:widely-used:content": "RISC-V 芯片运行在微控制器、单板计算机、存储驱动器等设备中。",
+  "key_feature:easy:title": "为学习而设计",
+  "key_feature:easy:content": "它简洁的设计使其成为讲解处理器如何工作时的热门选择。",
+  "key_feature:tooling:title": "无需硬件",
+  "key_feature:tooling:content": "可以在在线编辑器里做练习，也可以用免费的模拟器在本地运行。"
 }
