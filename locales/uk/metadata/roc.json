@@ -401,5 +401,7 @@
   "exercise:camicia:source": "Beggar-My-Neighbour",
   "exercise:split-second-stopwatch:name": "Секундомір із проміжними часами",
   "exercise:split-second-stopwatch:blurb": "Стежте за часом за допомогою цифрового секундоміра.",
-  "exercise:split-second-stopwatch:source": "Erik Schierboom"
+  "exercise:split-second-stopwatch:source": "Erik Schierboom",
+  "exercise:react:name": "React",
+  "exercise:react:blurb": "Реалізувати базову реактивну систему."
 }

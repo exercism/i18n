@@ -401,5 +401,7 @@
   "exercise:camicia:source": "Beggar-My-Neighbour",
   "exercise:split-second-stopwatch:name": "Törtmásodperces stopperóra",
   "exercise:split-second-stopwatch:blurb": "Kövesd nyomon az időt egy digitális stopperórával.",
-  "exercise:split-second-stopwatch:source": "Erik Schierboom"
+  "exercise:split-second-stopwatch:source": "Erik Schierboom",
+  "exercise:react:name": "React",
+  "exercise:react:blurb": "Valósíts meg egy alapvető reaktív rendszert."
 }

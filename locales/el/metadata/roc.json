@@ -401,5 +401,7 @@
   "exercise:camicia:source": "Beggar-My-Neighbour",
   "exercise:split-second-stopwatch:name": "Χρονόμετρο ακριβείας",
   "exercise:split-second-stopwatch:blurb": "Παρακολούθησε τον χρόνο μέσω ενός ψηφιακού χρονομέτρου.",
-  "exercise:split-second-stopwatch:source": "Erik Schierboom"
+  "exercise:split-second-stopwatch:source": "Erik Schierboom",
+  "exercise:react:name": "React",
+  "exercise:react:blurb": "Υλοποίησε ένα βασικό αντιδραστικό σύστημα."
 }

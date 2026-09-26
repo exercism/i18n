@@ -401,5 +401,7 @@
   "exercise:camicia:source": "Beggar-My-Neighbour",
   "exercise:split-second-stopwatch:name": "Chronomètre de précision",
   "exercise:split-second-stopwatch:blurb": "Garde la trace du temps avec un chronomètre numérique.",
-  "exercise:split-second-stopwatch:source": "Erik Schierboom"
+  "exercise:split-second-stopwatch:source": "Erik Schierboom",
+  "exercise:react:name": "React",
+  "exercise:react:blurb": "Implémente un système réactif simple."
 }
