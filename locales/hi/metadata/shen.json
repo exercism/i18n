@@ -1,0 +1,6 @@
+{
+  "exercise:hello-world:name": "हैलो वर्ल्ड",
+  "exercise:hello-world:blurb": "यह पारंपरिक प्रारंभिक अभ्यास है। बस \"Hello, World!\" कहिए।",
+  "exercise:hello-world:source": "यह अभ्यास उपयोगकर्ताओं को Exercism का उपयोग सिखाने के लिए है",
+  "track:blurb": "एक होस्टेड Lisp जिसमें पैटर्न मैचिंग, Prolog और एक शक्तिशाली टाइप सिस्टम है।"
+}

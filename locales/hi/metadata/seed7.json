@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: ब्लर्ब जोड़ें",
+  "doc:installation:title": "Seed7 को अपने कंप्यूटर पर इंस्टॉल कीजिए",
+  "doc:installation:blurb": "अपने कंप्यूटर पर Exercism के अभ्यास हल करने के लिए Seed7 इंस्टॉल करना सीखिए।",
+  "doc:learning:title": "Seed7 कैसे सीखें",
+  "doc:learning:blurb": "बिल्कुल शुरू से Seed7 सीखना कहाँ से शुरू करें, इसका संक्षिप्त परिचय।",
+  "doc:tests:title": "Seed7 ट्रैक पर टेस्टिंग",
+  "doc:tests:blurb": "Exercism पर अपने Seed7 अभ्यासों को टेस्ट करना सीखिए।",
+  "doc:resources:title": "उपयोगी Seed7 संसाधन",
+  "doc:resources:blurb": "Seed7 अच्छी तरह सीखने में मदद के लिए उपयोगी संसाधनों का संग्रह।"
+}
