@@ -1,0 +1,199 @@
+# Introdução
+
+`Complex numbers` não são complicados.
+Só precisam de um nome menos assustador.
+
+São tão úteis, especialmente na engenharia e na ciência, que Julia inclui números complexos como tipos numéricos padrão, junto com inteiros e números de ponto flutuante.
+
+## Noções básicas
+
+Um valor `complex` em Julia é essencialmente um par de números: normalmente, mas nem sempre, de ponto flutuante.
+Essas partes são chamadas de "real" e "imaginária", por razões históricas infelizes.
+Mais uma vez, é melhor focar na simplicidade por trás disso e não nos nomes estranhos.
+
+Para criar números complexos a partir de dois números reais, basta adicionar o sufixo `im` à parte imaginária.
+
+```julia-repl
+julia> z = 1.2 + 3.4im
+1.2 + 3.4im
+
+julia> typeof(z)
+ComplexF64 (alias for Complex{Float64})
+
+julia> zi = 1 + 2im
+1 + 2im
+
+julia> typeof(zi)
+Complex{Int64}
+```
+
+Assim, existem vários tipos `Complex`, derivados do tipo inteiro ou de ponto flutuante correspondente.
+
+Para criar um número complexo a partir de variáveis reais, a sintaxe acima não funciona.
+Escrever `a + bim` confunde o parser, que passa a achar que `bim` é um nome de variável (inexistente).
+
+Escrever `b*im` é possível, mas o método preferido usa a função `complex()`, que contorna as operações de multiplicação e adição.
+
+```julia-repl
+julia> a = 1.2; b = 3.4; complex(a, b)
+1.2 + 3.4im
+```
+
+Para acessar as partes de um número complexo individualmente:
+
+```julia-repl
+julia> z = 1.2 + 3.4im
+1.2 + 3.4im
+
+julia> real(z)
+1.2
+
+julia> imag(z)
+3.4
+```
+
+Ou as duas juntas:
+
+```julia-repl
+julia> reim(z)
+(1.2, 3.4)
+```
+
+Qualquer uma das partes pode ser zero, e os matemáticos podem então dizer que o número é "totalmente real" ou "totalmente imaginário".
+No entanto, ele continua sendo um número complexo em Julia.
+
+```julia-repl
+julia> zr = 1.2 + 0im
+1.2 + 0.0im
+
+julia> typeof(zr)
+ComplexF64 (alias for Complex{Float64})
+
+julia> zi = 3.4im
+0.0 + 3.4im
+
+julia> typeof(zi)
+ComplexF64 (alias for Complex{Float64})
+```
+
+Você pode ter ouvido que "`i` (ou `j`) é a raiz quadrada de -1".
+
+Por enquanto, tudo o que isso significa é que a parte imaginária, _por definição_, satisfaz a seguinte igualdade:
+
+```julia-repl
+julia> 1im * 1im == -1
+true
+```
+
+É uma ideia simples, mas leva a consequências interessantes.
+
+## Aritmética
+
+Todos os `operators` matemáticos padrão e as funções elementares usados com números de ponto flutuante e inteiros também funcionam com números complexos. Uma pequena amostra:
+
+```julia-repl
+julia> z1 = 1.5 + 2im
+1.5 + 2.0im
+
+julia> z2 = 2 + 1.5im
+2.0 + 1.5im
+
+julia> z1 + z2  # addition
+3.5 + 3.5im
+
+julia> z1 * z2  # multiplication
+0.0 + 6.25im
+
+julia> z1 / z2  # division
+0.96 + 0.28im
+
+julia> z1^2  # exponentiation
+-1.75 + 6.0im
+
+julia> 2^z1  # another exponentiation
+0.5188946835878313 + 2.7804223253571183im
+```
+
+## Funções
+
+Existem várias funções, além de `real()` e `imag()`, com relevância especial para números complexos.
+
+- `conj()` simplesmente inverte o sinal da parte imaginária de um número complexo (_de + para - ou vice-versa_).
+    - Por causa de como a multiplicação de números complexos funciona, isso é mais útil do que você imagina.
+- `abs(<complex number>)` tem a garantia de retornar um número real sem parte imaginária.
+- `abs2(<complex number>)` retorna o quadrado de `abs(<complex number>)`: mais rápido de calcular que `abs()` e, muitas vezes, é o que um cálculo precisa.
+- `angle(<complex number>)` retorna o ângulo de fase em radianos.
+
+```julia-repl
+julia> z1
+1.5 + 2.0im
+
+julia> conj(z1)
+1.5 - 2.0im
+
+julia> abs(z1)
+2.5
+
+julia> abs2(z1)
+6.25
+
+julia> angle(z1)
+0.9272952180016122
+```
+Uma explicação parcial, para quem gosta de matemática:
+
+- A representação `(real, imag)` de `z1` usa, na prática, coordenadas cartesianas no plano complexo.
+- O mesmo número complexo pode ser representado na notação `(r, θ)`, usando coordenadas polares.
+- Aqui, `r` e `θ` são dados por `abs(z1)` e `angle(z1)`, respectivamente.
+
+Aqui está um exemplo usando algumas constantes:
+
+```julia-repl
+julia> euler = exp(1im * π)
+-1.0 + 1.2246467991473532e-16im
+
+julia> real(euler)
+-1.0
+
+julia> round(imag(euler), digits=15)  # round to 15 decimal places
+0.0
+```
+
+A notação polar `(r, θ)` é tão útil que existem funções embutidas `cis` (abreviação de `cos(x) + isin(x)`) e `cispi` (abreviação de `cos(πx) + isin(πx)`), que ajudam a construí-la com mais eficiência.
+
+A utilidade da notação polar aparece na elegante fórmula de Euler, `ℯ^(iθ) = cos(θ) + isin(θ) = x + iy`, em que `|x + iy| = 1`.
+Com `|x + iy| = r`, temos a forma polar mais geral `r * ℯ^(iθ) = r * (cos(θ) + isin(θ)) = x + iy`.
+Repare que a forma exponencial, em particular, é compacta e fácil de manipular.
+
+```julia-repl
+julia> exp(1im * π) ≈ cis(π) ≈ cispi(1)
+true
+```
+
+A igualdade aproximada acima acontece porque as funções `cis` e `cispi` podem dar resultados numéricos mais agradáveis, com `cispi` em especial ao lidar com argumentos que são fatores arbitrários de π (por exemplo, radianos!).
+
+```julia-repl
+julia> cis(π)
+-1.0 + 0.0im
+
+julia> cispi(1)
+-1.0 + 0.0im
+
+julia> θ = π/2;
+julia> exp(im*θ)
+6.123233995736766e-17 + 1.0im
+
+julia> cis(θ)
+6.123233995736766e-17 + 1.0im
+
+julia> cispi(θ / π)  # θ/π == 1/2
+0.0 + 1.0im
+```
+
+Aliás, isso torna os números complexos muito úteis para realizar rotações e deslocamentos radiais em 2D.
+
+Para rotações, o número complexo `z = x + iy` pode ser girado um ângulo `θ` em torno da origem com uma simples multiplicação: `z * ℯ^(iθ)`.
+Repare que `x` e `y` aqui são apenas as coordenadas usuais no plano cartesiano 2D real, e um ângulo positivo resulta em uma rotação *anti-horária*, enquanto um ângulo negativo resulta em uma rotação *horária*.
+
+De forma igualmente simples, um deslocamento radial `Δr` pode ser feito somando-o à magnitude `r` de um número complexo na forma polar (por exemplo, `z = r * ℯ^(iθ)` -> `z' = (r + Δr) * ℯ^(iθ)`).
+Repare como a parte angular permanece a mesma e apenas a magnitude, `r`, varia, como esperado.

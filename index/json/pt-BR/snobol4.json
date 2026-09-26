@@ -1,0 +1,35 @@
+{
+  "kind": "track",
+  "locale": "pt-BR",
+  "names": {
+    "docs/INSTALLATION.md": {"en":"Installing SNOBOL4 locally","pt-BR":"Instalando o SNOBOL4 localmente"},
+    "docs/LEARNING.md": {"en":"How to learn SNOBOL4","pt-BR":"Como aprender SNOBOL4"},
+    "docs/RESOURCES.md": {"en":"Useful SNOBOL4 resources","pt-BR":"Recursos úteis de SNOBOL4"},
+    "docs/TESTS.md": {"en":"Testing on the SNOBOL4 track","pt-BR":"Testes na trilha de SNOBOL4"},
+    "exercises/practice/acronym": {"en":"Acronym","pt-BR":"Acrônimo"},
+    "exercises/practice/hello-world": {"en":"Hello World","pt-BR":"Olá, Mundo"},
+    "exercises/practice/isogram": {"en":"Isogram","pt-BR":"Isograma"},
+    "exercises/practice/leap": {"en":"Leap","pt-BR":"Ano Bissexto"},
+    "exercises/practice/pangram": {"en":"Pangram","pt-BR":"Pangrama"},
+    "exercises/practice/raindrops": {"en":"Raindrops","pt-BR":"Gotas de chuva"}
+  },
+  "paths": {
+    "docs/ABOUT.md": ["9864ed00303fd196319f4058cddc6994eaed0a14"],
+    "docs/INSTALLATION.md": ["cd6ce8521d1baba7dc72cdaf56a8a9eb3cb23882"],
+    "docs/LEARNING.md": ["b14434dc01362de2abac1b97d0cc6b759d3a2c8b"],
+    "docs/RESOURCES.md": ["9811f0460410a89cfc315937e9d39dc64e17f016"],
+    "docs/TESTS.md": ["bec9502b8987111c0315223e21e299485767937f"],
+    "exercises/practice/acronym/.docs/instructions.md": ["133bd2cbb78d186c92e5d2b8ca41cf13f77d6bea"],
+    "exercises/practice/hello-world/.docs/instructions.md": ["c9570e48a9765b083b274c356cbb997754706318"],
+    "exercises/practice/isogram/.docs/instructions.md": ["2e8df851a99beccd161344d687e5b90ec194f954"],
+    "exercises/practice/leap/.docs/instructions.md": ["b14f8565d61694d7c20d78e10f966bd3deaaf748"],
+    "exercises/practice/leap/.docs/introduction.md": ["4ffd2da594a51072cb08a32004b217c1c988cfdc"],
+    "exercises/practice/pangram/.docs/instructions.md": ["817c872d90714d0a0ec02f76def55091630f7ff5"],
+    "exercises/practice/pangram/.docs/introduction.md": ["32b6f1fc3178c36f2677b2d7bbeb35bafd6c786d"],
+    "exercises/practice/raindrops/.docs/instructions.md": ["df6441075165afbe92ecc878d674f6861777972d"],
+    "exercises/practice/raindrops/.docs/introduction.md": ["ba12100f3b87d51b814910614974e4923fbe5a6e"],
+    "exercises/shared/.docs/help.md": ["45aa2d6411fe5d62666ad52d0981ca77f05503cd"],
+    "exercises/shared/.docs/tests.md": ["1f197bf7fc362ce77b023b134ec9d0b7d18a16e0"]
+  },
+  "repo": "snobol4"
+}

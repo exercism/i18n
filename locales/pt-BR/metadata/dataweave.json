@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: adicionar descrição",
+  "doc:installation:title": "Instalando o Dataweave localmente",
+  "doc:installation:blurb": "Aprenda a instalar o Dataweave localmente para resolver os exercícios do Exercism na sua própria máquina",
+  "doc:learning:title": "Como aprender Dataweave",
+  "doc:learning:blurb": "Uma visão geral de como começar do zero com Dataweave",
+  "doc:tests:title": "Testes na trilha de Dataweave",
+  "doc:tests:blurb": "Aprenda a testar seus exercícios de Dataweave no Exercism",
+  "doc:resources:title": "Recursos úteis de Dataweave",
+  "doc:resources:blurb": "Uma coleção de recursos úteis para ajudar você a dominar o Dataweave"
+}

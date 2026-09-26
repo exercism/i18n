@@ -1,0 +1,29 @@
+# Introdução
+
+Go oferece um pacote embutido chamado `fmt` (pacote de formatação), que traz várias funções para manipular o formato da entrada e da saída.
+A função mais usada é `Sprintf`, que usa _verbos_ como `%s` para interpolar valores em uma string e retorna essa string.
+
+```go
+import "fmt"
+
+food := "taco"
+fmt.Sprintf("Bring me a %s", food)
+// Returns: Bring me a taco
+```
+
+Em Go, números de ponto flutuante são formatados de forma prática com os verbos de Sprintf: `%g` (representação compacta), `%e` (expoente) ou `%f` (sem expoente).
+Os três verbos permitem controlar a largura do campo e a posição numérica.
+
+```go
+import "fmt"
+
+number := 4.3242
+fmt.Sprintf("%.2f", number)
+// Returns: 4.32
+```
+
+Você encontra a lista completa dos verbos disponíveis na [documentação do pacote de formatação][fmt-docs].
+
+O `fmt` tem outras funções para trabalhar com strings, como `Println`, que simplesmente imprime no console os argumentos que recebe, e `Printf`, que formata a entrada do mesmo jeito que `Sprintf` antes de imprimi-la.
+
+[fmt-docs]: https://pkg.go.dev/fmt

@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: adicionar descrição",
+  "doc:installation:title": "Instalando o Dyalog APL localmente",
+  "doc:installation:blurb": "Aprenda a instalar o Dyalog APL localmente para resolver os exercícios do Exercism na sua própria máquina",
+  "doc:learning:title": "Como aprender Dyalog APL",
+  "doc:learning:blurb": "Uma visão geral de como começar do zero com o Dyalog APL",
+  "doc:tests:title": "Testes na trilha de Dyalog APL",
+  "doc:tests:blurb": "Aprenda a testar seus exercícios de Dyalog APL no Exercism",
+  "doc:resources:title": "Recursos úteis de Dyalog APL",
+  "doc:resources:blurb": "Uma coleção de recursos úteis para ajudar você a dominar o Dyalog APL"
+}

@@ -1,0 +1,15 @@
+{
+  "kind": "track",
+  "locale": "pt-BR",
+  "names": {},
+  "paths": {
+    "docs/ABOUT.md": ["782b1168e50df3c76f3e0065a147591e2abc7c6b"],
+    "docs/INSTALLATION.md": ["4026317a86c6bb837560c50310af26357f010d84"],
+    "docs/LEARNING.md": ["c39c2a25bb9b0b7e061e6bad8cbaf294d8c76b6f"],
+    "docs/RESOURCES.md": ["06f84ec57f7ba454000039c95a153a93573d1a8e"],
+    "docs/TESTS.md": ["5932b408973c84d5102d2aa4736db7a372b20bc2"],
+    "exercises/shared/.docs/help.md": ["2b26f49428754c2b6257458bfd74a775d6231cfc"],
+    "exercises/shared/.docs/tests.md": ["2b26f49428754c2b6257458bfd74a775d6231cfc"]
+  },
+  "repo": "system-verilog"
+}

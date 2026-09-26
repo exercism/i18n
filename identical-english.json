@@ -35,6 +35,15 @@
       "added": "2026-09-25",
       "by": "iHiD"
     },
+    "5896e1b0aab4a8aa649f7ef2124fc7c509b8a3f3": {
+      "text": "Status: <span style={{ color: textColor }}>{{status}}</span>",
+      "reason": "Status is standard Brazilian Portuguese for this label.",
+      "added": "2026-09-26",
+      "by": "iHiD",
+      "locales": [
+        "pt-BR"
+      ]
+    },
     "63fd98ab00ad569b7ee94e616f9214af820ef15d": {
       "text": "# Instructions\n",
       "reason": "The file is the heading \"# Instructions\", which is the same word in French.",
