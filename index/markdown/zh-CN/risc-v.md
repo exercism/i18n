@@ -379,8 +379,8 @@ This page is generated from [the index](../../json/zh-CN/risc-v.json) by `script
 
 ### How to learn RISC-V (如何学习 RISC-V)
 
-- `LEARNING.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/LEARNING.md)): [Latest](../../../locales/zh-CN/content/7e/bc/4ae6c6d8b487cc329aab90c8e0e45230ccce.md)
-  - [`b14434dc01`](../../../locales/zh-CN/content/b1/44/34dc01362de2abac1b97d0cc6b759d3a2c8b.md)
+- `LEARNING.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/LEARNING.md)): [Latest](../../../locales/zh-CN/content/b1/44/34dc01362de2abac1b97d0cc6b759d3a2c8b.md)
+  - [`7ebc4ae6c6`](../../../locales/zh-CN/content/7e/bc/4ae6c6d8b487cc329aab90c8e0e45230ccce.md)
 
 ### Installing RISC-V locally (在本地安装 RISC-V)
 
@@ -392,7 +392,8 @@ This page is generated from [the index](../../json/zh-CN/risc-v.json) by `script
 
 ### Useful RISC-V resources (实用的 RISC-V 资源)
 
-- `RESOURCES.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/zh-CN/content/98/11/f0460410a89cfc315937e9d39dc64e17f016.md)
+- `RESOURCES.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/zh-CN/content/e9/ab/c47d7455c933ffd7e32fc3ae400994ceadc2.md)
+  - [`9811f04604`](../../../locales/zh-CN/content/98/11/f0460410a89cfc315937e9d39dc64e17f016.md)
 
 ## Shared exercise docs
 

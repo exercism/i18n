@@ -391,7 +391,7 @@ This page is generated from [the index](../../json/hu/risc-v.json) by `scripts/b
 
 ### Useful RISC-V resources
 
-- `RESOURCES.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/RESOURCES.md)): missing
+- `RESOURCES.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/hu/content/e9/ab/c47d7455c933ffd7e32fc3ae400994ceadc2.md)
 
 ## Shared exercise docs
 
