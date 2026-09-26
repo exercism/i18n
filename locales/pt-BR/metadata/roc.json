@@ -381,5 +381,8 @@
   "exercise:react:blurb": "Implemente um sistema reativo básico.",
   "exercise:split-second-stopwatch:name": "Cronômetro de fração de segundo",
   "exercise:split-second-stopwatch:blurb": "Acompanhe a passagem do tempo com um cronômetro digital.",
-  "exercise:split-second-stopwatch:source": "Erik Schierboom"
+  "exercise:split-second-stopwatch:source": "Erik Schierboom",
+  "exercise:camicia:name": "Camicia",
+  "exercise:camicia:blurb": "Simule o jogo de cartas e determine se a partida termina ou entra em um laço infinito.",
+  "exercise:camicia:source": "Beggar-My-Neighbour"
 }

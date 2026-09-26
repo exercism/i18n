@@ -381,5 +381,8 @@
   "exercise:react:blurb": "Implementa un sistema reactivo básico.",
   "exercise:split-second-stopwatch:name": "Cronómetro de precisión",
   "exercise:split-second-stopwatch:blurb": "Lleva la cuenta del tiempo con un cronómetro digital.",
-  "exercise:split-second-stopwatch:source": "Erik Schierboom"
+  "exercise:split-second-stopwatch:source": "Erik Schierboom",
+  "exercise:camicia:name": "Camicia",
+  "exercise:camicia:blurb": "Simula el juego de cartas y determina si la partida termina o entra en un bucle infinito.",
+  "exercise:camicia:source": "Beggar-My-Neighbour"
 }

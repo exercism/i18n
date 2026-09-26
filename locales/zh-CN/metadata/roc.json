@@ -381,5 +381,8 @@
   "exercise:react:blurb": "实现一个基本的响应式系统。",
   "exercise:split-second-stopwatch:name": "分段计时秒表",
   "exercise:split-second-stopwatch:blurb": "通过数字秒表记录时间。",
-  "exercise:split-second-stopwatch:source": "Erik Schierboom"
+  "exercise:split-second-stopwatch:source": "Erik Schierboom",
+  "exercise:camicia:name": "Camicia",
+  "exercise:camicia:blurb": "模拟这个纸牌游戏，判断对局是会结束，还是会陷入无限循环。",
+  "exercise:camicia:source": "Beggar-My-Neighbour"
 }
