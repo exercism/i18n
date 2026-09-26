@@ -159,7 +159,7 @@
   "exercise:high-scores:source": "Присвята аркадній грі Frogger з 80-х",
   "exercise:micro-blog:blurb": "Дано вхідний рядок тексту (англ. string); обріжте його до 5 символів.",
   "exercise:nucleotide-count:blurb": "Порахуйте, скільки разів кожен нуклеотид трапляється в заданому рядку тексту (англ. string) ДНК.",
-  "exercise:nucleotide-count:source": "Задача «Calculating DNA Nucleotides» на Rosalind",
+  "exercise:nucleotide-count:source": "Задача «Counting DNA Nucleotides» на Rosalind",
   "exercise:pangram:blurb": "Визначте, чи використовує фраза кожну літеру латинського алфавіту.",
   "exercise:pangram:source": "Wikipedia",
   "exercise:resistor-color:blurb": "Перетворіть колір смуги резистора на його числове представлення.",

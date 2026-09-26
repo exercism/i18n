@@ -159,7 +159,7 @@
   "exercise:high-scores:source": "Tiszteletadás a nyolcvanas évek Frogger játéktermi játéka előtt",
   "exercise:micro-blog:blurb": "Egy bemeneti string alapján vágd le 5 karakterre.",
   "exercise:nucleotide-count:blurb": "Adott egy DNS-string, számold ki, hogy az egyes nukleotidok hányszor fordulnak elő benne.",
-  "exercise:nucleotide-count:source": "A Calculating DNA Nucleotides probléma a Rosalindon",
+  "exercise:nucleotide-count:source": "A Counting DNA Nucleotides feladat a Rosalindon",
   "exercise:pangram:blurb": "Állapítsd meg, hogy egy kifejezés a latin ábécé minden betűjét használja-e.",
   "exercise:pangram:source": "Wikipedia",
   "exercise:resistor-color:blurb": "Alakítsd át egy ellenállássáv színét számszerű megfelelőjévé.",

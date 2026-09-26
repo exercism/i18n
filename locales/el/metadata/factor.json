@@ -159,7 +159,7 @@
   "exercise:high-scores:source": "Φόρος τιμής στο arcade παιχνίδι Frogger της δεκαετίας του '80",
   "exercise:micro-blog:blurb": "Με δεδομένη μια συμβολοσειρά εισόδου, περιόρισέ τη σε 5 χαρακτήρες.",
   "exercise:nucleotide-count:blurb": "Με δεδομένη μια συμβολοσειρά DNA, υπολόγισε πόσες φορές εμφανίζεται κάθε νουκλεοτίδιο στη συμβολοσειρά.",
-  "exercise:nucleotide-count:source": "Το Calculating DNA Nucleotides_problem στη Rosalind",
+  "exercise:nucleotide-count:source": "Το πρόβλημα Counting DNA Nucleotides στο Rosalind",
   "exercise:pangram:blurb": "Προσδιόρισε αν μια φράση χρησιμοποιεί κάθε γράμμα του λατινικού αλφαβήτου.",
   "exercise:pangram:source": "Wikipedia",
   "exercise:resistor-color:blurb": "Μετέτρεψε το χρώμα μιας λωρίδας αντίστασης στην αριθμητική του αναπαράσταση.",

@@ -158,7 +158,7 @@
   "exercise:high-scores:source": "Hommage au jeu d'arcade des années 80 Frogger.",
   "exercise:micro-blog:blurb": "Étant donné une chaîne de caractères en entrée, tronque-la à 5 caractères.",
   "exercise:nucleotide-count:blurb": "À partir d'une chaîne d'ADN, calcule combien de fois chaque nucléotide apparaît dans la chaîne.",
-  "exercise:nucleotide-count:source": "Le problème Calculating DNA Nucleotides_problem sur Rosalind",
+  "exercise:nucleotide-count:source": "Le problème Counting DNA Nucleotides sur Rosalind",
   "exercise:pangram:blurb": "Détermine si une phrase utilise toutes les lettres de l'alphabet latin.",
   "exercise:pangram:source": "Wikipedia",
   "exercise:resistor-color:blurb": "Convertir la couleur d'une bande de résistance en sa représentation numérique.",
