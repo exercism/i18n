@@ -228,17 +228,29 @@ function validateCatalog({ locale, kind, english, requireComplete, stamp, stampU
  * `ruby`. Without one it is still read and shape-checked, and reported as
  * unverified, never `ok`, because this run has not seen its English.
  */
+// A run over every locale reads the same source repos once per locale, and each
+// read starts git processes. On macOS every process start is checked by
+// syspolicyd, and thousands of them can stall the machine. So each repo's tree,
+// whether it is an active track, its metadata English, and the content blobs
+// already looked for are all kept for the whole run. The repos are read at a
+// fixed ref, so the answers cannot change during a run.
+const repoTrees = new Map();
+const activeTracks = new Map();
+const metadataEnglish = new Map();
+const contentEnglish = new Map();
+const blobsAskedFor = new Map();
+
+const repoKey = (repo) => `${repo.dir}\u0000${repo.ref}`;
+
+function treeOf(repo) {
+  const key = repoKey(repo);
+  if (!repoTrees.has(key)) repoTrees.set(key, lsTree(repo.dir, repo.ref));
+  return repoTrees.get(key);
+}
+
 function validateMetadata({ locale, contentRepos, requireComplete, stamp, stampUnits, changedRef }) {
   const results = [];
   const repos = new Map(contentRepos.map((repo) => [path.basename(repo.dir), repo]));
-
-  // Each repo's tree is listed once and shared by the two things that read it:
-  // deciding whether the track is still active, and building its English.
-  const trees = new Map();
-  const treeOf = (repo) => {
-    if (!trees.has(repo)) trees.set(repo, lsTree(repo.dir, repo.ref));
-    return trees.get(repo);
-  };
 
   // CI passes every repo any locale holds a catalog for, so one locale
   // translating an inactive track would otherwise require every other locale to
@@ -247,7 +259,10 @@ function validateMetadata({ locale, contentRepos, requireComplete, stamp, stampU
   const mustHold = (name) => {
     const repo = repos.get(name);
     if (!METADATA_REPO_KINDS.includes(repo.kind)) return false;
-    return repo.kind !== "track" || isActiveTrack(treeOf(repo), refReader(repo.dir, repo.ref).readMany);
+    if (repo.kind !== "track") return true;
+    const key = repoKey(repo);
+    if (!activeTracks.has(key)) activeTracks.set(key, isActiveTrack(treeOf(repo), refReader(repo.dir, repo.ref).readMany));
+    return activeTracks.get(key);
   };
   const names = new Set([...heldMetadataRepos(locale), ...(requireComplete ? [...repos.keys()].filter(mustHold) : [])]);
 
@@ -256,7 +271,9 @@ function validateMetadata({ locale, contentRepos, requireComplete, stamp, stampU
     const type = `metadata/${name}`;
     const repo = repos.get(name);
     if (repo) {
-      const english = buildMetadataEnglish(repo.kind, treeOf(repo), refReader(repo.dir, repo.ref).readMany);
+      const key = repoKey(repo);
+      if (!metadataEnglish.has(key)) metadataEnglish.set(key, buildMetadataEnglish(repo.kind, treeOf(repo), refReader(repo.dir, repo.ref).readMany));
+      const english = metadataEnglish.get(key);
       results.push(validateCatalog({ locale, kind: METADATA_KIND, english, requireComplete, stamp, stampUnits, changedRef, file, type }));
       continue;
     }
@@ -284,10 +301,16 @@ function validateContent({ locale, contentRepos }) {
 
   // English is looked up by blob id in whichever checkouts the caller passed.
   // No path, repo name or registry is needed, so one `cat-file` per repo finds
-  // all of it.
-  const english = new Map();
+  // all of it. Locales mostly hold the same ids, so a repo is only asked about
+  // ids no earlier locale has already asked it about.
+  const english = contentEnglish;
   for (const repo of contentRepos) {
-    const wanted = files.filter((entry) => entry.id && !english.has(entry.id)).map((entry) => entry.id);
+    const key = repoKey(repo);
+    if (!blobsAskedFor.has(key)) blobsAskedFor.set(key, new Set());
+    const asked = blobsAskedFor.get(key);
+    const wanted = [...new Set(files.filter((entry) => entry.id && !english.has(entry.id) && !asked.has(entry.id)).map((entry) => entry.id))];
+    if (wanted.length === 0) continue;
+    for (const id of wanted) asked.add(id);
     for (const [id, bytes] of readBlobs(repo.dir, wanted, { prefetch: false })) if (bytes !== null) english.set(id, bytes);
   }
 
