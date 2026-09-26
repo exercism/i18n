@@ -219,8 +219,8 @@
     "exercises/practice/zebra-puzzle/.docs/instructions.append.md": ["74032fbd23b07e504c5383b15e0710958de75bf3"],
     "exercises/practice/zebra-puzzle/.docs/instructions.md": ["aedce9b25e7ed65c8f05d32cdae4cbd12adbb245"],
     "exercises/practice/zebra-puzzle/.docs/introduction.md": ["bbcaa6fd203b1287d74439822b072473408e4799"],
-    "exercises/shared/.docs/help.md": ["45aa2d6411fe5d62666ad52d0981ca77f05503cd"],
-    "exercises/shared/.docs/tests.md": ["1f197bf7fc362ce77b023b134ec9d0b7d18a16e0"]
+    "exercises/shared/.docs/help.md": ["9fbe25e618a89ec2494095c2f06c7142bef62139","45aa2d6411fe5d62666ad52d0981ca77f05503cd"],
+    "exercises/shared/.docs/tests.md": ["b50a596c3fc3c04cc33f0d338f23cf182ff42995","1f197bf7fc362ce77b023b134ec9d0b7d18a16e0"]
   },
   "repo": "risc-v"
 }

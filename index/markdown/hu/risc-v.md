@@ -397,8 +397,8 @@ This page is generated from [the index](../../json/hu/risc-v.json) by `scripts/b
 
 ### help.md
 
-- `help.md` ([English](https://github.com/exercism/risc-v/blob/main/exercises/shared/.docs/help.md)): missing
+- `help.md` ([English](https://github.com/exercism/risc-v/blob/main/exercises/shared/.docs/help.md)): [Latest](../../../locales/hu/content/9f/be/25e618a89ec2494095c2f06c7142bef62139.md)
 
 ### tests.md
 
-- `tests.md` ([English](https://github.com/exercism/risc-v/blob/main/exercises/shared/.docs/tests.md)): missing
+- `tests.md` ([English](https://github.com/exercism/risc-v/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/hu/content/b5/0a/596c3fc3c04cc33f0d338f23cf182ff42995.md)
