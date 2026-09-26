@@ -230,5 +230,17 @@
   "doc:tests:title": "RISC-Vトラックでのテスト",
   "doc:tests:blurb": "ExercismでRISC-Vの演習をテストする方法を学びます",
   "doc:resources:title": "役立つRISC-Vのリソース",
-  "doc:resources:blurb": "RISC-Vをマスターするのに役立つリソースを集めました"
+  "doc:resources:blurb": "RISC-Vをマスターするのに役立つリソースを集めました",
+  "key_feature:small:title": "小さくて規則的",
+  "key_feature:small:content": "数十個の基本命令が、どれも同じ単純なパターンに従います。",
+  "key_feature:powerful:title": "コンピューターの仕組みが見える",
+  "key_feature:powerful:content": "レジスタとメモリを直接操作します。コードとプロセッサーの間には、何も挟まりません。",
+  "key_feature:community:title": "自由でオープン",
+  "key_feature:community:content": "誰でも仕様を読んで、ライセンス料を払わずにRISC-Vチップを作ることができます。",
+  "key_feature:widely-used:title": "実製品に搭載",
+  "key_feature:widely-used:content": "RISC-Vチップは、マイコン、シングルボードコンピューター、ストレージドライブなどの中で動いています。",
+  "key_feature:easy:title": "学習向け",
+  "key_feature:easy:content": "すっきりとした設計で、プロセッサーの仕組みを教える教材として人気があります。",
+  "key_feature:tooling:title": "ハードウェア不要",
+  "key_feature:tooling:content": "演習はオンラインエディターで、または無料のエミュレーターを使ってローカルで解けます。"
 }

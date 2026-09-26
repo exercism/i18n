@@ -88,8 +88,8 @@
     "docs/ABOUT.md": ["9864ed00303fd196319f4058cddc6994eaed0a14"],
     "docs/CONTRIBUTOR_TOOLS.md": ["1b59632c8ddbb10348bfdbd5a890dd8154583adc"],
     "docs/INSTALLATION.md": ["6d47fa9fc72f34fef0b32f2d6e8d7f754c2f5849"],
-    "docs/LEARNING.md": ["b14434dc01362de2abac1b97d0cc6b759d3a2c8b"],
-    "docs/RESOURCES.md": ["9811f0460410a89cfc315937e9d39dc64e17f016"],
+    "docs/LEARNING.md": ["7ebc4ae6c6d8b487cc329aab90c8e0e45230ccce","b14434dc01362de2abac1b97d0cc6b759d3a2c8b"],
+    "docs/RESOURCES.md": ["e9abc47d7455c933ffd7e32fc3ae400994ceadc2","9811f0460410a89cfc315937e9d39dc64e17f016"],
     "docs/TESTS.md": ["0e968f7d62ba2e542824a7b33dcb309429cd7fe7"],
     "exercises/practice/acronym/.docs/instructions.md": ["133bd2cbb78d186c92e5d2b8ca41cf13f77d6bea"],
     "exercises/practice/affine-cipher/.docs/instructions.md": ["1603dbbce91dee78f8c1520ceb8bc96c6dc9528a"],
@@ -219,8 +219,8 @@
     "exercises/practice/zebra-puzzle/.docs/instructions.append.md": ["74032fbd23b07e504c5383b15e0710958de75bf3"],
     "exercises/practice/zebra-puzzle/.docs/instructions.md": ["aedce9b25e7ed65c8f05d32cdae4cbd12adbb245"],
     "exercises/practice/zebra-puzzle/.docs/introduction.md": ["bbcaa6fd203b1287d74439822b072473408e4799"],
-    "exercises/shared/.docs/help.md": ["45aa2d6411fe5d62666ad52d0981ca77f05503cd"],
-    "exercises/shared/.docs/tests.md": ["1f197bf7fc362ce77b023b134ec9d0b7d18a16e0"]
+    "exercises/shared/.docs/help.md": ["9fbe25e618a89ec2494095c2f06c7142bef62139","45aa2d6411fe5d62666ad52d0981ca77f05503cd"],
+    "exercises/shared/.docs/tests.md": ["b50a596c3fc3c04cc33f0d338f23cf182ff42995","1f197bf7fc362ce77b023b134ec9d0b7d18a16e0"]
   },
   "repo": "risc-v"
 }
