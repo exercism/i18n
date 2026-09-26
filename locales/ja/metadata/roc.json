@@ -396,5 +396,8 @@
   "exercise:baffling-birthdays:source": "Erik Schierboom",
   "exercise:prism:name": "プリズム",
   "exercise:prism:blurb": "レーザーが屈折プリズムを通る経路を計算します。",
-  "exercise:prism:source": "FraSanga"
+  "exercise:prism:source": "FraSanga",
+  "exercise:linked-list:name": "連結リスト",
+  "exercise:linked-list:blurb": "双方向連結リストを実装します。",
+  "exercise:linked-list:source": "コンピューターサイエンスの定番のテーマ"
 }

@@ -396,5 +396,8 @@
   "exercise:baffling-birthdays:source": "Erik Schierboom",
   "exercise:prism:name": "प्रिज़्म",
   "exercise:prism:blurb": "अपवर्तक प्रिज़्मों से गुज़रने वाली लेज़र के पथ की गणना कीजिए।",
-  "exercise:prism:source": "FraSanga"
+  "exercise:prism:source": "FraSanga",
+  "exercise:linked-list:name": "लिंक्ड लिस्ट",
+  "exercise:linked-list:blurb": "एक डबल लिंक्ड लिस्ट बनाइए।",
+  "exercise:linked-list:source": "कंप्यूटर विज्ञान का एक क्लासिक विषय"
 }

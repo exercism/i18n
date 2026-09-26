@@ -396,5 +396,8 @@
   "exercise:baffling-birthdays:source": "Erik Schierboom",
   "exercise:prism:name": "Prisma",
   "exercise:prism:blurb": "Calcule o caminho de um laser através de prismas refrativos.",
-  "exercise:prism:source": "FraSanga"
+  "exercise:prism:source": "FraSanga",
+  "exercise:linked-list:name": "Lista Encadeada",
+  "exercise:linked-list:blurb": "Implemente uma lista duplamente encadeada.",
+  "exercise:linked-list:source": "Tópico clássico da ciência da computação"
 }

@@ -396,5 +396,8 @@
   "exercise:baffling-birthdays:source": "Erik Schierboom",
   "exercise:prism:name": "Prisma",
   "exercise:prism:blurb": "Calcula la trayectoria de un láser a través de prismas refractivos.",
-  "exercise:prism:source": "FraSanga"
+  "exercise:prism:source": "FraSanga",
+  "exercise:linked-list:name": "Lista enlazada",
+  "exercise:linked-list:blurb": "Implementa una lista doblemente enlazada.",
+  "exercise:linked-list:source": "Tema clásico de las ciencias de la computación"
 }

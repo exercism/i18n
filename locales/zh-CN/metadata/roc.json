@@ -396,5 +396,8 @@
   "exercise:baffling-birthdays:source": "Erik Schierboom",
   "exercise:prism:name": "棱镜",
   "exercise:prism:blurb": "计算激光穿过折射棱镜的光路。",
-  "exercise:prism:source": "FraSanga"
+  "exercise:prism:source": "FraSanga",
+  "exercise:linked-list:name": "链表",
+  "exercise:linked-list:blurb": "实现一个双向链表。",
+  "exercise:linked-list:source": "经典的计算机科学主题"
 }
