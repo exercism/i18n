@@ -1,0 +1,10 @@
+{
+  "exercise:hello-world:name": "你好，世界",
+  "exercise:resistor-color-duo:name": "电阻色环二重奏",
+  "exercise:hello-world:blurb": "经典的入门练习。只需说出“Hello, World!”。",
+  "exercise:hello-world:source": "这是一道向用户介绍如何使用 Exercism 的练习。",
+  "exercise:resistor-color-duo:blurb": "把电阻上使用的色码转换成数值。",
+  "exercise:resistor-color-duo:source": "Maud de Vries, Erik Schierboom",
+  "track:blurb": "从本质上讲，Solidity 是一门深受 C++、Python 和 JavaScript 影响的编程语言。它是一门面向对象的语言，使用以太坊虚拟机，也就是 _EVM_。它的语法与 ECMAScript 类似，因此有些人会觉得似曾相识；同时它又是静态类型的，并支持可变返回类型。",
+  "exercise:token-transfer:name": "代币转账"
+}

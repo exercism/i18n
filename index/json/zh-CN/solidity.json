@@ -1,0 +1,20 @@
+{
+  "kind": "track",
+  "locale": "zh-CN",
+  "names": {
+    "exercises/practice/hello-world": {"en":"Hello World","zh-CN":"你好，世界"},
+    "exercises/practice/resistor-color-duo": {"en":"Resistor Color Duo","zh-CN":"电阻色环二重奏"}
+  },
+  "paths": {
+    "docs/ABOUT.md": ["79ac4c2a08d84dfaa651abbf3159c569a709b859"],
+    "docs/INSTALLATION.md": ["4026317a86c6bb837560c50310af26357f010d84"],
+    "docs/LEARNING.md": ["c39c2a25bb9b0b7e061e6bad8cbaf294d8c76b6f"],
+    "docs/RESOURCES.md": ["06f84ec57f7ba454000039c95a153a93573d1a8e"],
+    "docs/TESTS.md": ["5932b408973c84d5102d2aa4736db7a372b20bc2"],
+    "exercises/practice/hello-world/.docs/instructions.md": ["6e08ebba535b4523f69eaf89d50d387ff926daf0"],
+    "exercises/practice/resistor-color-duo/.docs/instructions.md": ["4ae694da025b329a9e51e07c741aa41925253b1a"],
+    "exercises/shared/.docs/help.md": ["e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"],
+    "exercises/shared/.docs/tests.md": ["e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"]
+  },
+  "repo": "solidity"
+}

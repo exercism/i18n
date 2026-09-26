@@ -1,0 +1,46 @@
+# 简介
+
+## 函数
+
+在 Common Lisp 中定义全局函数要使用`defun`表达式。
+这个表达式的第一个参数是形参列表（空列表表示该函数没有形参）。
+其后是一个可选的文档字符串（见下文），然后是零个或多个表达式，它们构成函数的“函数体”。
+
+函数可以有零个或多个形参。
+
+```lisp
+(defun no-args () (+ 1 1))
+
+(defun add-one (x) (1+ x))
+
+(defun add-nums (x y) (+ x y))
+```
+
+调用函数的方式是求值一个表达式：以指定该函数的符号作为表达式的第一个元素，其余元素则是传给该函数的实参（如果有的话）。
+
+函数求值得到的值，就是函数体中被求值的最后一个表达式的值。
+所有函数都会求值得到一个值。
+
+```lisp
+(add-nums 2 2) ;; => 4
+```
+
+函数还可以选择性地带一个文档字符串（也叫 “docstring”）。
+如果提供了它，它位于形参列表之后、函数体之前。
+文档字符串可以通过`documentation`获取。
+
+```lisp
+(defun add-nums (x y) "Add X and Y together" (+ x y))
+
+(documentation 'add-nums 'function) ;; => "Add X and Y together"
+
+;; Note that if one provides a docstring but fails to provide a body
+;; then the docstring is interpreted by Common Lisp as the body, not
+;; the docstring
+(defun no-body ())
+(no-body) ;; => NIL
+
+(defun mistake () "This is not a docstring")
+(mistake) ;; => "This is not a docstring"
+(documentation 'mistake 'function) ;; => NIL
+```

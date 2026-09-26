@@ -1,0 +1,14 @@
+{
+  "exercise:hello-world:name": "你好，世界",
+  "exercise:hello-world:blurb": "经典的入门练习。只需说出 \"Hello, World!\"。",
+  "exercise:hello-world:source": "这是一道向用户介绍如何使用 Exercism 的练习。",
+  "track:blurb": "一门现代而强大的语言，以 Ken Iverson 的数组编程范式为核心。",
+  "doc:installation:title": "在本地安装 BQN",
+  "doc:installation:blurb": "了解如何在本地安装 BQN，在自己的电脑上完成 Exercism 的练习",
+  "doc:learning:title": "如何学习 BQN",
+  "doc:learning:blurb": "从零开始学习 BQN 的入门概览",
+  "doc:tests:title": "在 BQN 轨道上测试",
+  "doc:tests:blurb": "了解如何在 Exercism 上测试你的 BQN 练习",
+  "doc:resources:title": "实用的 BQN 资源",
+  "doc:resources:blurb": "帮助你掌握 BQN 的一系列实用资源"
+}

@@ -1,0 +1,3 @@
+{
+  "track:blurb": "Io 是一门纯面向对象编程语言，灵感来自 Smalltalk、Self、Lua、Lisp、Act1 和 NewtonScript。Io 的对象模型和 Self、NewtonScript 类似，都是基于原型的，因此不再区分实例与类。它把一切皆视为对象，并采用动态类型。它的核心思想是对象之间互相传递消息。"
+}

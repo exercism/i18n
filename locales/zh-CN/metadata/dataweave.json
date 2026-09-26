@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO：添加简介",
+  "doc:installation:title": "在本地安装 Dataweave",
+  "doc:installation:blurb": "了解如何在本地安装 Dataweave，以便在自己的电脑上完成 Exercism 的练习",
+  "doc:learning:title": "如何学习 Dataweave",
+  "doc:learning:blurb": "从零开始上手 Dataweave 的入门概览",
+  "doc:tests:title": "在 Dataweave 轨道上测试",
+  "doc:tests:blurb": "了解如何在 Exercism 上测试你的 Dataweave 练习",
+  "doc:resources:title": "实用的 Dataweave 资源",
+  "doc:resources:blurb": "帮助你精通 Dataweave 的实用资源合集"
+}

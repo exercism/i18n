@@ -1,0 +1,4101 @@
+{
+  "api": {
+    "errors": {
+      "not_onboarded": "你还没有在网站上完成新手引导",
+      "not_supermentor": "你没有超级导师权限",
+      "not_automator": "你没有该学习轨道的自动化权限",
+      "not_trainer": "你没有该学习轨道的培训师权限",
+      "not_maintainer": "你没有维护者权限",
+      "duplicate_submission": "与上次提交相比，你提交的文件没有任何改动",
+      "duplicate_video": "这个视频已经被其他人提交过了",
+      "exercise_locked": "这个练习已锁定",
+      "exercise_not_found": "找不到你指定的练习",
+      "invalid_auth_token": "提供的身份验证令牌无效",
+      "invalid_mentor_student_relationship": "你和这名学生之间不存在有效的指导关系",
+      "iteration_not_found": "你指定的迭代不存在",
+      "profile_not_found": "找不到这个个人资料",
+      "resource_not_found": "无法识别这个 URL",
+      "solution_not_found": "找不到这份提交的解答",
+      "solution_not_accessible": "你没有权限查看这份提交的解答",
+      "solution_not_unlocked": "你还没有解锁这个练习",
+      "solution_comments_not_allowed": "无法获取或发布这份提交的解答的评论",
+      "solution_comment_not_found": "找不到这条关于提交的解答的评论",
+      "solution_without_iterations": "这份提交的解答没有任何迭代",
+      "solution_unlock_help_not_accessible": "你没有权限为这份提交的解答解锁帮助",
+      "solution_comment_not_accessible": "无法访问这条评论",
+      "submission_not_found": "找不到这次提交",
+      "submission_not_accessible": "你没有权限查看这次提交",
+      "user_not_found": "找不到这个用户",
+      "trophy_not_found": "找不到这个奖杯",
+      "trophy_not_accessible": "你没有权限访问这个奖杯",
+      "representation_not_found": "找不到这个表示形式",
+      "team_not_found": "找不到这个团队",
+      "track_ambiguous": "请指定学习轨道 ID",
+      "track_not_found": "你指定的学习轨道不存在",
+      "track_not_joined": "你还没有加入这个学习轨道",
+      "file_not_found": "找不到这个文件",
+      "file_too_large": "提交的文件太大",
+      "too_many_requests": "已触发速率限制",
+      "sample_not_found": "找不到这个示例",
+      "invalid_captcha": "验证码验证失败",
+      "invalid_signature": "无法验证消息签名",
+      "assistant_conversation_not_accessible": "你已经用掉了免费的 AI 对话额度。加入 Exercism Insiders，即可无限次对话。",
+      "mentor_request_not_found": "找不到这个指导请求",
+      "mentor_request_locked": "这个导师请求已被他人锁定。",
+      "mentor_testimonial_not_found": "未找到该导师评价",
+      "mentor_discussion_not_found": "未找到该讨论",
+      "mentor_discussion_not_accessible": "你没有权限查看这个讨论",
+      "mentor_discussion_post_not_found": "无法找到该帖子",
+      "mentor_discussion_post_not_deleted": "无法删除该帖子",
+      "mentor_discussion_post_not_accessible": "你没有权限查看这个讨论帖子",
+      "student_cannot_mentor_themselves": "你不能指导自己提交的解答。",
+      "permission_denied": "你无权访问此资源",
+      "failed_validations": "无法保存该资源",
+      "scratchpad_page_not_found": "无法找到草稿页面",
+      "incorrect_password": "密码不正确",
+      "passwords_dont_match": "密码不一致",
+      "invalid_locale": "我们暂不支持这门语言",
+      "no_iterations_submitted_yet": "你还没有提交过任何迭代。",
+      "no_mentoring_slots_available": "你没有可用的指导名额",
+      "profile_criteria_not_fulfilled": "你需要至少 5 点声望才能创建个人资料",
+      "invalid_community_video_url": "我们找不到与此 URL 匹配的 YouTube 或 Vimeo 视频",
+      "invalid_discussion_status": "讨论状态无效",
+      "training_data_code_tags_sample_locked": "这个训练数据代码标签样本已被他人锁定。",
+      "could_not_generate_coupon_code": "无法生成优惠码"
+    }
+  },
+  "devise": {
+    "sessions": {
+      "signed_out": "已成功退出登录。",
+      "already_signed_out": "已成功退出登录。",
+      "invalid_hash": "你的账户没有密码，请使用 OAuth。",
+      "csrf_failure": "你的登录会话已过期，请重试。",
+      "new": {
+        "exercism_logo_alt": "Exercism 的标志",
+        "tagline": "面向所有人的代码练习与导师指导",
+        "log_in_with_github": "使用 GitHub 登录",
+        "or_divider": "或",
+        "email_placeholder": "输入你的邮箱地址",
+        "password_placeholder": "输入你的密码",
+        "forgot_your_password_link": "忘记密码了？",
+        "log_in_button": "登录"
+      },
+      "signed_in": "登录成功。"
+    },
+    "unlocks": {
+      "send_instructions": "你将在几分钟内收到一封邮件，内含如何解锁账户的说明。",
+      "send_paranoid_instructions": "如果你的账户存在，你将在几分钟内收到一封邮件，内含如何解锁账户的说明。",
+      "unlocked": "你的账户已成功解锁。请登录以继续。",
+      "new": {
+        "resend_unlock_instructions": "重新发送解锁说明"
+      }
+    },
+    "passwords": {
+      "edit": {
+        "change_my_password_button": "修改我的密码",
+        "change_your_password": {
+          "title": "更改你的密码",
+          "description": "使用下面的表单选择你的新密码。如果你不做任何操作，你的密码将保持不变。"
+        },
+        "new_password_label": "新密码",
+        "new_password_placeholder": "输入新密码（至少 %{minimum_password_length} 个字符）",
+        "confirm_new_password_label": "确认新密码",
+        "confirm_new_password_placeholder": "再次输入你的新密码"
+      },
+      "new": {
+        "forgot_your_password": {
+          "title": "忘记密码了？",
+          "description": "如果你忘记了密码，可以使用下面的表单申请一个修改链接。很多人以为自己忘记了密码，其实最初是用 GitHub 登录的，你也可以先试试这种方式。"
+        },
+        "email_placeholder": "输入你的邮箱地址",
+        "send_instructions_button": "发送说明"
+      },
+      "no_token": "如果你不是通过密码重置邮件进入的，就无法访问此页面。如果你确实是通过密码重置邮件进入的，请确保你使用了邮件中提供的完整 URL。",
+      "send_instructions": "几分钟后，你会收到一封邮件，说明如何重置密码。",
+      "send_paranoid_instructions": "如果你的邮箱地址存在于我们的数据库中，你会在几分钟后收到一封发送到该邮箱的密码找回链接。",
+      "updated": "你的密码已成功修改。你现在已登录。",
+      "updated_not_active": "你的密码已成功修改。"
+    },
+    "registrations": {
+      "edit": {
+        "edit_resource": "编辑 %{resource_name}",
+        "pending_confirmation_message": "当前等待确认：%{unconfirmed_email}",
+        "password_hint": "（不想修改就留空）",
+        "password_minimum_characters": {
+          "other": "至少 %{count} 个字符"
+        },
+        "current_password_hint": "（我们需要你当前的密码来确认修改）",
+        "update_button": "更新",
+        "cancel_account_title": "注销我的账号",
+        "unhappy_prompt": "不满意？",
+        "cancel_my_account_button": "注销我的账号",
+        "cancel_account_confirm": "确定吗？",
+        "back_link": "返回"
+      },
+      "new": {
+        "exercism_logo_alt": "Exercism 的标志",
+        "tagline": "面向所有人的代码练习与导师指导",
+        "sign_up_with_github": "使用 GitHub 注册",
+        "or_divider": "或",
+        "username_label": "用户名",
+        "username_placeholder": "选择一个唯一的用户名",
+        "email_label": "邮箱",
+        "email_placeholder": "输入你的邮箱地址",
+        "password_label": "密码",
+        "password_placeholder": "设置一个密码（至少 %{minimum_password_length} 个字符）",
+        "password_confirmation_label": "密码确认",
+        "password_confirmation_placeholder": "确认你的密码",
+        "confirm_not_bot_label": "确认你不是机器人",
+        "sign_up_button": "注册"
+      },
+      "destroyed": "再见！你的账户已成功注销。期待很快再次见到你。",
+      "signed_up": "欢迎！你已成功注册。",
+      "signed_up_but_inactive": "你已成功注册。不过，由于你的账户尚未激活，我们无法让你登录。",
+      "signed_up_but_locked": "你已成功注册。不过，由于你的账户已被锁定，我们无法让你登录。",
+      "signed_up_but_unconfirmed": "一封包含确认链接的邮件已发送到你的邮箱地址。请点击该链接激活你的账户。",
+      "update_needs_confirmation": "你已成功更新账户，但我们需要验证你的新邮箱地址。请查收邮件，并点击确认链接来确认你的新邮箱地址。",
+      "updated": "你的账户已成功更新。",
+      "updated_but_not_signed_in": "你的账户已成功更新，但由于密码已更改，你需要重新登录",
+      "captcha_verification_failed": "验证码验证失败。请重试。",
+      "csrf_failure": "你的会话已过期。请重试。"
+    },
+    "shared": {
+      "information": {
+        "heading": "Exercism 对所有人免费，无论身在何处",
+        "level_up_html": "通过 %{stats} 提升你的编程技能，并与我们这支热情友善的专属导师团队进行富有见地的讨论。",
+        "level_up_stats": "%{track_count} 门语言，共 %{exercise_count} 个练习",
+        "free_forever": "Exercism 永远 100% 免费。",
+        "more_tracks": "+%{count} 个"
+      },
+      "links": {
+        "already_have_account_prompt": "已经有账号了？",
+        "log_in_link": "登录",
+        "no_account_yet_prompt": "还没有账号？",
+        "sign_up_link": "免费注册。",
+        "didnt_receive_confirmation_email_prompt": "没收到确认邮件？",
+        "resend_it_link": "重新发送。",
+        "didnt_receive_unlock_instructions_link": "没收到解锁说明？"
+      }
+    },
+    "confirmations": {
+      "confirmed": "你的邮箱地址已成功确认。请在下方登录。",
+      "send_instructions": "几分钟后，你会收到一封邮件，说明如何确认你的邮箱地址。",
+      "send_paranoid_instructions": "如果你的邮箱地址存在于我们的数据库中，你会在几分钟后收到一封邮件，说明如何确认你的邮箱地址。",
+      "csrf_failure": "你的会话已过期。请重试。",
+      "new": {
+        "resend_confirmation_instructions_button": "重新发送确认邮件",
+        "exercism_logo_alt": "Exercism 的标志",
+        "resend_confirmation_instructions_title": "重新发送确认说明",
+        "resend_confirmation_instructions_message": "没有收到确认邮件？填写下面的表单，我们会再给你发一封。",
+        "email_placeholder": "输入你的邮箱地址"
+      },
+      "required": {
+        "exercism_logo_alt": "Exercism 的标志",
+        "welcome_check_email_title": "欢迎！请查看你的邮箱。",
+        "welcome_message": "欢迎来到 Exercism。我们给你发了一封邮件，用来确认你是真人。",
+        "validation_explanation_message": "为了防止滥用，我们会验证所有邮箱地址是否有效。你现在查看邮箱，邮件应该已经到了。如果没看到，先看看垃圾邮件，然后再等 10 分钟，以防系统运行缓慢。",
+        "resend_link_message_html": "如果邮件迟迟没来，%{resend_link}。",
+        "resend_it_link": "我们可以重新发送"
+      }
+    },
+    "failure": {
+      "already_authenticated": "你已经登录。",
+      "inactive": "你的账户尚未激活。",
+      "invalid": "%{authentication_keys} 或密码无效。",
+      "locked": "你的账户已被锁定。",
+      "last_attempt": "在账户被锁定之前，你还有一次尝试机会。",
+      "not_found_in_database": "%{authentication_keys} 或密码无效。",
+      "timeout": "你的会话已过期。请重新登录以继续。",
+      "unauthenticated": "你需要先登录或注册才能继续。",
+      "unconfirmed": "你需要先确认邮箱地址才能继续。"
+    },
+    "omniauth_callbacks": {
+      "failure": "抱歉，我们无法通过 %{kind} 验证你的身份。",
+      "success": "已成功通过 %{kind} 账户验证身份。"
+    },
+    "mailer": {
+      "unlock_instructions": {
+        "subject": "解锁说明",
+        "greeting": "你好 %{email}！",
+        "locked_account_message": "由于登录失败次数过多，你的账号已被锁定。",
+        "unlock_link_prompt": "点击下面的链接解锁你的账号：",
+        "unlock_my_account_link": "解锁我的账号",
+        "body_markdown": "你好 %{email}！\n\n由于登录失败次数过多，你的账号已被锁定。\n\n点击下面的链接解锁你的账号：\n\n[解锁我的账号](%{unlock_url})\n"
+      },
+      "reset_password_instructions": {
+        "title": "重置你的 Exercism 密码",
+        "subject": "重置密码请求",
+        "greeting": "你好，",
+        "password_reset_request_message": "有人请求获取更改密码的链接。你可以通过下面的链接完成操作。",
+        "change_my_password_button": "更改我的密码",
+        "ignore_email_message": "如果这不是你发起的请求，请忽略这封邮件。",
+        "password_unchanged_message": "在你访问上面的链接并设置新密码之前，你的密码不会改变。",
+        "body_markdown": "你好，\n\n有人请求获取更改密码的链接。你可以通过下面的链接完成操作。\n\n[更改我的密码](%{edit_password_url})\n\n如果这不是你发起的请求，请忽略这封邮件。\n\n在你访问上面的链接并设置新密码之前，你的密码不会改变。\n"
+      },
+      "password_change": {
+        "title": "你的密码已更改",
+        "subject": "你的密码已更改",
+        "greeting": "你好 @%{user_handle}，",
+        "password_changed_notification": "我们联系你是为了通知你，你的密码已更改。",
+        "contact_support_message": "如果这不是你本人操作，请立即发送邮件至 %{support_link}。",
+        "body_markdown": "你好 @%{user_handle}，\n\n我们联系你是为了通知你，你的密码已更改。\n\n如果这不是你本人操作，请立即发送邮件至 [support@exercism.io](mailto:support@exercism.io)。\n"
+      },
+      "confirmation_instructions": {
+        "title": "确认你的新 Exercism 账号",
+        "subject": "确认你的账号",
+        "welcome_message": "欢迎来到 Exercism！",
+        "confirmation_message": "为了确认你是真人而非机器人，我们需要验证这是一个真实的邮箱地址。点击下面的按钮确认你的账号，开始使用 Exercism。",
+        "confirm_account_button": "确认你的账号",
+        "body_markdown": "欢迎来到 Exercism！\n\n为了确认你是真人而非机器人，我们需要验证这是一个真实的邮箱地址。\n点击下面的按钮确认你的账号，开始使用 Exercism。\n\n[确认你的账号](%{confirmation_url})\n"
+      },
+      "email_changed": {
+        "title": "你的邮箱地址正在更改",
+        "subject": "你的邮箱地址正在更改",
+        "greeting": "你好 @%{user_handle}，",
+        "email_change_pending_notification": "我们联系你是为了通知你，你的邮箱正在更改为 %{unconfirmed_email}。你会收到一封发送到新地址的确认邮件，以完成整个流程。",
+        "email_change_pending_contact_support": "如果这不是你发起的操作，请立即发送邮件至 %{support_link}。",
+        "email_changed_notification": "我们联系你是为了通知你，你的邮箱已更改为 %{email}。",
+        "body_markdown": "你好 @%{user_handle}，\n\n%{unconfirmed_email}\n  我们联系你是为了通知你，你的邮箱正在更改为 %{resource_unconfirmed_email}。\n  你会收到一封发送到新地址的确认邮件，以完成整个流程。\n\n  如果这不是你发起的操作，请立即发送邮件至 [support@exercism.io](mailto:support@exercism.io)。\n%{unconfirmed_email}\n  我们联系你是为了通知你，你的邮箱已更改为 %{resource_email}。\n"
+      }
+    }
+  },
+  "errors": {
+    "messages": {
+      "already_confirmed": "已确认过了，请尝试登录。",
+      "confirmation_period_expired": "需要在 %{period} 内确认，请重新申请一个",
+      "expired": "已过期，请重新申请一个",
+      "not_found": "未找到",
+      "not_locked": "未被锁定",
+      "not_saved": {
+        "other": "%{count} 个错误导致此 %{resource} 无法保存："
+      }
+    },
+    "error": {
+      "title": "发生错误",
+      "description": "发生了错误，抱歉！",
+      "instructions": "请尝试刷新页面；如果还是不行，请等几分钟后再试。"
+    },
+    "not_found": {
+      "title": "页面未找到",
+      "description": "看来我们找不到这个页面。抱歉！"
+    },
+    "too_many_requests": {
+      "title": "请求过多",
+      "description": "你在太短的时间内做了太多操作。",
+      "rate_limits": "Exercism 经常遭到机器人攻击，因此我们设置了速率限制来防止滥用。请等一分钟后再试（注意：不停地刷新会重置超时时间……）",
+      "forum_html": "如果你经常看到这个提示，请%{link}告诉我们！",
+      "forum_link": "在论坛上"
+    }
+  },
+  "activerecord": {
+    "attributes": {
+      "doorkeeper/application": {
+        "name": "名称",
+        "redirect_uri": "重定向 URI"
+      }
+    },
+    "errors": {
+      "models": {
+        "doorkeeper/application": {
+          "attributes": {
+            "redirect_uri": {
+              "fragment_present": "不能包含片段。",
+              "invalid_uri": "必须是有效的 URI。",
+              "unspecified_scheme": "必须指定协议。",
+              "relative_uri": "必须是绝对 URI。",
+              "secured_uri": "必须是 HTTPS/SSL URI。",
+              "forbidden_uri": "被服务器禁止。"
+            },
+            "scopes": {
+              "not_match_configured": "与服务器上配置的不匹配。"
+            }
+          }
+        }
+      }
+    }
+  },
+  "doorkeeper": {
+    "applications": {
+      "confirmations": {
+        "destroy": "你确定吗？"
+      },
+      "buttons": {
+        "edit": "编辑",
+        "destroy": "删除",
+        "submit": "提交",
+        "cancel": "取消",
+        "authorize": "授权"
+      },
+      "form": {
+        "error": "哎呀！请检查表单，看看有没有错误"
+      },
+      "help": {
+        "confidential": "应用将用于客户端密钥可以保密的场景。原生移动应用和单页应用被视为非保密。",
+        "redirect_uri": "每个 URI 占一行",
+        "blank_redirect_uri": "如果你的提供商配置为使用 Client Credentials、Resource Owner Password Credentials 或任何其他不需要重定向 URI 的授权类型，请留空。",
+        "scopes": "用空格分隔作用域。留空则使用默认作用域。"
+      },
+      "edit": {
+        "title": "编辑应用"
+      },
+      "index": {
+        "title": "你的应用",
+        "new": "新建应用",
+        "name": "名称",
+        "callback_url": "回调 URL",
+        "confidential": "保密？",
+        "actions": "操作",
+        "confidentiality": {
+          "yes": "是",
+          "no": "否"
+        }
+      },
+      "new": {
+        "title": "新建应用"
+      },
+      "show": {
+        "title": "应用：%{name}",
+        "application_id": "UID：",
+        "secret": "密钥：",
+        "secret_hashed": "密钥已哈希",
+        "scopes": "作用域：",
+        "confidential": "保密：",
+        "callback_urls": "回调 URL：",
+        "actions": "操作",
+        "not_defined": "未定义"
+      }
+    },
+    "authorizations": {
+      "buttons": {
+        "authorize": "授权",
+        "deny": "拒绝"
+      },
+      "error": {
+        "title": "发生错误"
+      },
+      "new": {
+        "title": "需要授权",
+        "prompt": "允许 %{client_name} 使用你的账户？",
+        "able_to": "此应用将能够："
+      },
+      "show": {
+        "title": "授权码："
+      },
+      "form_post": {
+        "title": "提交此表单"
+      }
+    },
+    "authorized_applications": {
+      "confirmations": {
+        "revoke": "你确定吗？"
+      },
+      "buttons": {
+        "revoke": "撤销"
+      },
+      "index": {
+        "title": "你授权的应用",
+        "application": "应用",
+        "created_at": "创建时间",
+        "date_format": "%Y-%m-%d %H:%M:%S"
+      }
+    },
+    "pre_authorization": {
+      "status": "预授权"
+    },
+    "errors": {
+      "messages": {
+        "invalid_request": {
+          "unknown": "请求缺少必需的参数、包含不支持的参数值，或者格式有误。",
+          "missing_param": "缺少必需的参数：%{value}。",
+          "request_not_authorized": "请求需要授权。用于授权该请求的必需参数缺失或无效。",
+          "invalid_code_challenge": "必须提供 code challenge。"
+        },
+        "invalid_redirect_uri": "请求的重定向 URI 格式有误，或者与客户端的重定向 URI 不匹配。",
+        "unauthorized_client": "客户端无权使用此方法执行该请求。",
+        "access_denied": "资源所有者或授权服务器拒绝了该请求。",
+        "invalid_scope": "请求的作用域无效、未知或格式有误。",
+        "invalid_code_challenge_method": {
+          "other": "code_challenge_method 必须是 %{challenge_methods} 之一。"
+        },
+        "server_error": "授权服务器遇到意外情况，无法完成该请求。",
+        "temporarily_unavailable": "由于服务器暂时过载或正在维护，授权服务器目前无法处理该请求。",
+        "credential_flow_not_configured": "由于 Doorkeeper.configure.resource_owner_from_credentials 未配置，资源所有者密码凭证流程失败。",
+        "resource_owner_authenticator_not_configured": "由于 Doorkeeper.configure.resource_owner_authenticator 未配置，查找资源所有者失败。",
+        "admin_authenticator_not_configured": "由于 Doorkeeper.configure.admin_authenticator 未配置，禁止访问管理面板。",
+        "unsupported_response_type": "授权服务器不支持此响应类型。",
+        "unsupported_response_mode": "授权服务器不支持此响应模式。",
+        "invalid_client": "客户端身份验证失败，原因可能是客户端未知、未包含客户端身份验证信息，或使用了不支持的身份验证方式。",
+        "invalid_grant": "所提供的授权许可无效、已过期、已被撤销、与授权请求中使用的重定向 URI 不匹配，或者被签发给了另一个客户端。",
+        "unsupported_grant_type": "授权服务器不支持该授权许可类型。",
+        "invalid_token": {
+          "revoked": "访问令牌已被撤销",
+          "expired": "访问令牌已过期",
+          "unknown": "访问令牌无效"
+        },
+        "revoke": {
+          "unauthorized": "你无权撤销此令牌"
+        },
+        "forbidden_token": {
+          "missing_scope": "访问此资源需要“%{oauth_scopes}”作用域。"
+        }
+      }
+    },
+    "flash": {
+      "applications": {
+        "create": {
+          "notice": "应用已创建。"
+        },
+        "destroy": {
+          "notice": "应用已删除。"
+        },
+        "update": {
+          "notice": "应用已更新。"
+        }
+      },
+      "authorized_applications": {
+        "destroy": {
+          "notice": "应用已撤销。"
+        }
+      }
+    },
+    "layouts": {
+      "admin": {
+        "title": "Doorkeeper",
+        "nav": {
+          "oauth2_provider": "OAuth2 提供方",
+          "applications": "应用",
+          "home": "首页"
+        }
+      },
+      "application": {
+        "title": "需要 OAuth 授权"
+      }
+    }
+  },
+  "communication_preferences": {
+    "receive_product_updates": "当 Exercism 有重大更新时给我发邮件（频率：每年 4 至 12 次）",
+    "email_on_new_discussion_post": "当导师评论我提交的解答时给我发邮件",
+    "email_on_solution_approved": "当导师通过我提交的解答时给我发邮件",
+    "email_on_new_solution_comment_for_solution_user": "当有人评论我已发布的解答时给我发邮件",
+    "email_on_new_solution_comment_for_other_commenter": "当有人回复我在已发布解答下发表的评论时给我发邮件",
+    "email_on_new_discussion_post_for_mentor": "当学生评论我正在指导的解答时给我发邮件",
+    "email_on_new_iteration_for_mentor": "当学生向我在指导的解答提交新的迭代时给我发邮件",
+    "email_on_remind_mentor": "当我即将在某个解答上超时时给我发邮件",
+    "email_on_mentor_heartbeat": "每周给我发送导师总结邮件",
+    "email_on_mentor_started_discussion_notification": "当导师开始指导我提交的解答时给我发邮件",
+    "email_on_mentor_finished_discussion_notification": "当导师结束对我提交的解答的讨论时给我发邮件",
+    "email_on_mentor_replied_to_discussion_notification": "当导师回复我提交的解答上的讨论时给我发邮件",
+    "email_on_nudge_student_to_reply_in_discussion_notification": "当导师在等我回复我提交的解答上的讨论时给我发邮件",
+    "email_on_nudge_mentor_to_reply_in_discussion_notification": "当学生在等我回复我提交的解答上的讨论时给我发邮件",
+    "email_on_student_timed_out_discussion_notification": "当讨论因学生未回复而超时时给我发邮件",
+    "email_on_mentor_timed_out_discussion_notification": "当讨论因导师未回复而超时时给我发邮件",
+    "email_on_student_replied_to_discussion_notification": "当学生回复我正在指导的讨论时给我发邮件",
+    "email_on_student_finished_discussion_notification": "当学生结束我正在指导的讨论时给我发邮件",
+    "email_on_student_added_iteration_notification": "当学生向我在指导的解答添加迭代时给我发邮件",
+    "email_on_automated_feedback_added_notification": "当我的提交的解答收到自动反馈时，给我发邮件",
+    "email_on_nudge_notification": "给我发邮件，提醒我如何充分利用 Exercism",
+    "email_about_fundraising_campaigns": "给我发邮件，介绍筹款活动",
+    "email_about_events": "给我发邮件，介绍各种活动（例如 Functional February）或访谈。",
+    "receive_onboarding_emails": "给我发邮件，分享如何充分利用 Exercism 的小技巧",
+    "email_about_insiders": "给我发邮件，介绍我的 Exercism Insiders 会员资格",
+    "email_on_general_update_notification": "给我发邮件，介绍我账户的其他非必要更新",
+    "email_on_acquired_badge_notification": "当我解锁新徽章时，给我发邮件",
+    "email_on_acquired_trophy_notification": "当我解锁新奖杯时，给我发邮件"
+  },
+  "layouts": {
+    "mailer": {
+      "unsubscribe_link": "退订此邮件",
+      "or": "或",
+      "change_notification_settings_link": "更改你的通知设置",
+      "sent_by": "由 Exercism 发送：",
+      "address": "Unit G3; 81 Bournville Lane, United Kingdom",
+      "text_received_because": "你收到这封邮件，是因为你注册了 Exercism（%{exercism_url}）",
+      "text_unsubscribe_line": "退订此邮件：%{unsubscribe_url}",
+      "text_change_notification_settings_line": "更改你的通知设置：%{settings_url}",
+      "text_sent_by": "由 Exercism 发送：Unit G3; 81 Bournville Lane, United Kingdom",
+      "aria_label": "一封来自 Exercism 的邮件",
+      "sponsored_by_html": "本邮件由 %{partner_name} 慷慨赞助。%{mailer_text}",
+      "learn_more_link": "点击这里",
+      "learn_more_suffix": "了解更多。",
+      "received_because_html": "你收到这封邮件，是因为你注册了 %{exercism_link}。",
+      "exercism_link": "Exercism",
+      "you_can": "你可以"
+    },
+    "meta_tags": {
+      "rss_blog_title": "Exercism 博客"
+    },
+    "nav": {
+      "insiders": {
+        "title": "Exercism Insiders",
+        "tagline": "Exercism 需要你的帮助，才能生存和发展！",
+        "description_html": "为 Exercism 捐款，即可获得幕后内容以及各种附加功能，例如 %{strong_text_1}、%{strong_text_2}、%{strong_text_3}、%{strong_text_4} 等。",
+        "strong_text_1": "深色模式",
+        "strong_text_2": "ChatGPT 集成",
+        "strong_text_3": "额外的指导名额",
+        "strong_text_4": "专属徽章",
+        "learn_more_button": "了解更多",
+        "non_profit_info": "Exercism 是一家注册的非营利组织。所有捐款都用于运营和改进这个平台。"
+      },
+      "challenge_48in24": {
+        "title": "#48in24 挑战",
+        "subtitle": "2024 年每周一个不同的编程挑战，由我们精心策划并提供指导！",
+        "description_p1": "每周进步一点，提升你的编程技能。",
+        "description_p2": "加入我们的社区，每周探索一个不同的练习，深入了解如何用不同的语言和范式来解决它。",
+        "explore_button": "探索 #48in24",
+        "feature_info": "每周我们都会挑选一个不同的练习作为重点，并配上解题思路、讲解、视频等。"
+      },
+      "tracks": {
+        "your_recent_tracks": "你最近参与的轨道",
+        "see_all_button": "查看全部",
+        "last_touched": "上次接触于 %{time_ago}"
+      },
+      "favorites": {
+        "heading": "你的收藏",
+        "intro": "收藏 Exercism 上你喜欢的解答，以后慢慢学习。",
+        "empty_state": "你还没有添加任何收藏。去探索社区解答，把感兴趣的加入收藏吧！",
+        "get_started_button": "立即开始",
+        "solution_title": "%{handle} 的解答",
+        "solution_subtitle": "针对 %{track} 中的 %{exercise}",
+        "view_all_button": "查看全部"
+      },
+      "journey": {
+        "reputation_label": "声望",
+        "badges_label": "徽章",
+        "history_label": "历史记录",
+        "and_more_label": "以及更多…"
+      },
+      "coding_fundamentals": {
+        "title": "Jiki",
+        "bubble": "刚刚上线！",
+        "subtitle": "在 LLM 时代学习编程与构建。",
+        "description_p1_html": "编程已经改变，学习方式也需要改变。Jiki 是一个全新的平台，帮助你在 LLM 时代学习编程与构建。专为<strong>初学者、初级开发者和 vibe coder 打造。</strong>",
+        "strong_text_1": "完全零基础？",
+        "strong_text_2": "陷入教程地狱？",
+        "explore_button": "开始吧，完全免费！"
+      }
+    }
+  },
+  "tracks": {
+    "build": {
+      "show_syllabus": {
+        "concepts_taught_summary": "%{count} 个正在教授的概念",
+        "num_students_learnt": "%{count} 人已学过",
+        "active_learning_exercises_summary": "%{count} 个活跃的学习练习",
+        "started_label": "已开始",
+        "attempts_label": "尝试次数",
+        "completions_label": "完成次数",
+        "mentoring_requests_label": "指导请求",
+        "attempts_value": "%{num_submitted}（平均 %{num_submitted_average}）",
+        "deprecated_learning_exercises_summary": "%{count} 个已弃用的学习练习",
+        "syllabus_heading": "%{track_title} 教学大纲",
+        "learn_more_button": "了解更多",
+        "syllabus_description": "帮助创建轨道教学大纲：它由一系列概念和学习练习组成，用来教授这门编程语言的基础内容。",
+        "next_goal_create_syllabus": "下一个目标：创建一个至少包含 %{num_active_target} 个概念的完整教学大纲。",
+        "find_out_more_button": "了解更多。"
+      },
+      "index_analyzer": {
+        "analyzer_heading": "分析器",
+        "learn_more_button": "了解更多",
+        "analyzer_description": "为 %{track_title} 构建分析器：Exercism 的分析器会自动评估学生提交的解答，并提供导师式的点评。",
+        "next_goal_build_analyzer": "下一个目标：构建分析器。",
+        "find_out_more_button": "查看详情。",
+        "current_version_label": "当前版本：",
+        "deploy_time_notice": "（在所有服务器上部署新版本可能需要几分钟）。",
+        "total_analyzer_runs_label": "分析器运行总次数",
+        "total_analysis_comments_made_label": "分析评论总数",
+        "feedback_given_frequency_label": "提供反馈的频率"
+      },
+      "index_representer": {
+        "representer_heading": "表示器",
+        "learn_more_button": "了解更多",
+        "representer_description": "构建表示器：一小段代码，它唯一的职责就是接收一份解答并返回该解答的规范化表示。",
+        "next_goal_build_representer": "下一个目标：构建表示器。",
+        "find_out_more_button": "查看详情。",
+        "current_version_label": "当前版本：",
+        "deploy_time_notice": "（在所有服务器上部署新版本可能需要几分钟）。",
+        "total_representer_runs_label": "表示器运行总次数",
+        "total_representation_comments_made_label": "表示评论总数",
+        "feedback_given_frequency_label": "提供反馈的频率"
+      },
+      "show_representer": {
+        "representer_heading": "表示器",
+        "learn_more_button": "了解更多",
+        "representer_description": "构建表示器：一小段代码，它唯一的职责就是接收一份解答并返回该解答的规范化表示。\n",
+        "next_goal_build_representer": "下一个目标：构建表示器。",
+        "find_out_more_button": "查看详情。",
+        "current_version_label": "当前版本：",
+        "deploy_time_notice_short": "（部署最多需要 10 分钟）",
+        "total_representer_runs_label": "表示器运行总次数",
+        "total_representation_comments_made_label": "表示评论总数",
+        "feedback_given_frequency_label": "提供反馈的频率"
+      },
+      "show_test_runner": {
+        "test_runner_heading": "测试运行器",
+        "learn_more_button": "了解更多",
+        "test_runner_description": "创建只承担单一职责的测试运行器：接收一份解答、运行所有测试，并返回标准化的输出。",
+        "next_goal_build_test_runner": "下一个目标：构建一个测试运行器。",
+        "find_out_more_button": "进一步了解。",
+        "current_version_label": "当前版本：",
+        "deploy_time_notice_short": "（部署最多需要 10 分钟）",
+        "next_goal_get_test_runners": "下一个目标：把测试运行器升级到版本 %{version_target}。%{track_title} 目前使用的是版本 %{version} 的测试运行器。",
+        "total_test_runner_runs_label": "测试运行器运行总次数",
+        "test_run_pass_rate_label": "测试运行通过率",
+        "test_run_fail_rate_label": "测试运行失败率",
+        "test_run_error_rate_label": "测试运行错误率"
+      },
+      "index_practice_exercises": {
+        "find_out_more_link": "了解更多。",
+        "active_exercises_summary": {
+          "other": "%{count} 个有效的实践练习"
+        },
+        "started_label": "已开始",
+        "attempts_label": "尝试次数",
+        "completions_label": "完成次数",
+        "mentoring_requests_label": "指导请求",
+        "attempts_value": "%{num_submitted}（平均 %{num_submitted_average}）",
+        "deprecated_exercises_summary": {
+          "other": "%{count} 个已弃用的实践练习"
+        },
+        "unimplemented_exercises_summary": {
+          "other": "%{count} 个未实现的实践练习"
+        },
+        "view_data_link": "查看数据",
+        "foregone_exercises_summary": {
+          "other": "%{count} 个已放弃的实践练习"
+        },
+        "practice_exercises_title": "练习",
+        "learn_more_button": "了解更多",
+        "practice_exercises_description": "练习旨在让学生解决各种问题，并运用他们目前学到的概念。",
+        "synced_primary_repo_label": "已同步的主代码仓库：",
+        "updates_instant_message": "（更新应该是即时的）",
+        "next_goal_message": "下一个目标：实现 %{include_at_least}%{count} 个练习。"
+      },
+      "show": {
+        "meta_title": "%{track_title} 在 Exercism 上的影响与状态",
+        "meta_description": "了解 %{track_title} 在 Exercism 上的影响与状态。",
+        "track_management_title": "%{track_title} 轨道管理",
+        "track_management_description": "本页面为 Exercism 社区提供管理 %{track_title} 轨道所需的信息和工具。",
+        "students_stat": "学员",
+        "submissions_stat": "提交",
+        "mentoring_discussions_stat": "指导讨论",
+        "track_status_title": "%{track_title} 轨道",
+        "tooling_status_building": "构建中",
+        "aria_label_syllabus": "%{track_title} 的教学大纲状态",
+        "aria_label_test_runner": "%{track_title} 的测试运行器状态",
+        "aria_label_analyzer": "%{track_title} 的分析器状态",
+        "aria_label_representer": "%{track_title} 的表示器状态",
+        "aria_label_practice_exercises": "%{track_title} 的实践练习状态",
+        "volunteers_label": {
+          "other": "%{count} 位志愿者"
+        },
+        "more_volunteers_link": "+ 还有 %{count} 位",
+        "love_volunteers_title": "我们 💙 我们的志愿者",
+        "love_volunteers_description": "Exercism 依靠开源的志愿者来构建我们的语言轨道并指导学员。",
+        "become_volunteer_link": "成为 Exercism 志愿者"
+      },
+      "practice_exercises_tooltip": {
+        "practice_exercises_tooltip_title": "%{track_title} 的实践练习",
+        "practice_exercises_tooltip_exemplar": "已出色地实现了 %{count} 个实践练习！",
+        "practice_exercises_tooltip_healthy": "已实现 %{count} 个实践练习。",
+        "practice_exercises_tooltip_needs_attention": {
+          "other": "还需要实现 %{count} 个实践练习。"
+        },
+        "practice_exercises_tooltip_missing": "尚未实现任何实践练习。"
+      },
+      "analyzer_tooltip": {
+        "comments_made": {
+          "other": "已留下 %{count} 条评论。"
+        },
+        "analyzer_heading": "%{track_title} 分析器",
+        "feedback_exemplar": "为 %{display_rate_percentage}% 的已提交解答提供反馈！",
+        "feedback_healthy": "为 %{display_rate_percentage}% 的已提交解答提供反馈。",
+        "feedback_needs_attention": "尚未提供任何反馈。",
+        "feedback_missing": "分析器尚未实现。",
+        "analyzer_title": "%{track_title} 分析器",
+        "feedback": {
+          "exemplar": "为 %{display_rate_percentage}% 的已提交迭代提供反馈！",
+          "healthy": "为 %{display_rate_percentage}% 的已提交迭代提供反馈。",
+          "needs_attention": "还没有提供任何反馈。",
+          "missing": "该分析器尚未实现。"
+        }
+      },
+      "syllabus_tooltip": {
+        "syllabus_title": "%{track_title} 教学大纲",
+        "feedback": {
+          "exemplar": "已经教授了 %{count} 个概念，令人印象深刻！",
+          "healthy": "已经教授了 %{count} 个概念，表现不错。",
+          "needs_attention": {
+            "other": "还应该再多实现 %{count} 个概念。"
+          },
+          "missing": "尚未实现任何概念。"
+        },
+        "syllabus_heading": "%{track_title} 教学大纲",
+        "syllabus_exemplar": "已经教授了 %{count} 个概念，令人印象深刻！",
+        "syllabus_healthy": "已经教授了 %{count} 个概念，表现不错。",
+        "syllabus_needs_attention": {
+          "other": "还应该再多实现 %{count} 个概念。"
+        },
+        "syllabus_missing": "尚未实现任何概念。"
+      },
+      "representer_tooltip": {
+        "representer_title": "%{track_title} 表示器",
+        "feedback": {
+          "exemplar": "运行效果出色！",
+          "healthy": "运行良好。",
+          "needs_attention": "尚未通过任何表示提供反馈。",
+          "missing": "表示器尚未实现。"
+        },
+        "comments_made": {
+          "other": "已留下 %{count} 条评论。"
+        },
+        "representer_heading": "%{track_title} 表示器",
+        "representer_exemplar": "运行效果出色！",
+        "representer_healthy": "运行良好。",
+        "representer_needs_attention": "尚未通过任何表示提供反馈。",
+        "representer_missing": "表示器尚未实现。"
+      },
+      "show_analyzer": {
+        "analyzer_heading": "分析器",
+        "learn_more_button": "了解更多",
+        "analyzer_description": "为 %{track_title} 构建分析器：Exercism 的分析器会自动评估学员的提交，并提供导师式的点评。",
+        "missing_analyzer_next_goal": "下一个目标：构建分析器。",
+        "find_out_more_button": "了解更多。",
+        "current_version_label": "当前版本：",
+        "deploy_time_notice": "（部署最多需要 10 分钟）",
+        "total_analyzer_runs_label": "分析器运行总次数",
+        "total_analysis_comments_made_label": "分析评论总数",
+        "feedback_given_frequency_label": "给出反馈的频率"
+      },
+      "show_practice_exercises": {
+        "practice_exercises_heading": "练习题",
+        "learn_more_button": "了解更多",
+        "practice_exercises_description": "练习题的目的是让学员去解决一个任意的问题，并借此运用他们到目前为止学到的概念。",
+        "synced_repo_label": "已同步的主代码仓库：",
+        "updates_instant_notice": "（更新应该是即时的）",
+        "next_goal_implement_exercises": "下一个目标：实现 %{additional_text}%{count} 个练习。",
+        "find_out_more_button": "了解详情。",
+        "active_exercises_summary": "%{count} 个活跃的练习",
+        "started_column": "已开始",
+        "attempts_column": "尝试次数",
+        "completions_column": "完成次数",
+        "mentoring_requests_column": "指导请求",
+        "attempts_value": "%{num_submitted}（平均 %{avg_submitted}）",
+        "deprecated_exercises_summary": "%{count} 个已弃用的练习",
+        "unimplemented_exercises_summary": {
+          "other": "%{count} 个未实现的练习"
+        },
+        "view_data_link": "查看数据",
+        "foregone_exercises_summary": {
+          "other": "%{count} 个已放弃的练习"
+        }
+      },
+      "index_test_runner": {
+        "test_runner_heading": "测试运行器",
+        "learn_more_button": "了解更多",
+        "test_runner_description": "创建只承担单一职责的测试运行器：接收一份解答、运行所有测试，并返回标准化的输出。",
+        "next_goal_build_test_runner": "下一个目标：构建一个测试运行器。",
+        "find_out_more_button": "进一步了解。",
+        "current_version_label": "当前版本：",
+        "deploy_time_notice": "（在所有服务器上部署新版本可能需要几分钟）。",
+        "next_goal_get_test_runners": "下一个目标：把测试运行器升级到版本 %{version_target}。%{track_title} 目前使用的是版本 %{version} 的测试运行器。",
+        "total_test_runner_runs_label": "测试运行器运行总次数",
+        "test_run_pass_rate_label": "测试运行通过率",
+        "test_run_fail_rate_label": "测试运行失败率",
+        "test_run_error_rate_label": "测试运行错误率"
+      },
+      "index_syllabus": {
+        "syllabus_heading": "%{track_title} 教学大纲",
+        "learn_more_button": "了解更多",
+        "syllabus_description": "帮助创建轨道的教学大纲：教学大纲是一组概念和学习练习，旨在教授这门编程语言的基础内容。",
+        "next_goal_syllabus_concepts": "下一个目标：创建一份完整的教学大纲，至少包含 %{count} 个概念。",
+        "find_out_more_button": "了解详情。",
+        "concepts_being_taught_summary": "%{count} 个正在教授的概念",
+        "students_learnt_count": "%{count} 人已学会",
+        "active_learning_exercises_summary": "%{count} 个活跃的学习练习",
+        "started_column": "已开始",
+        "attempts_column": "尝试次数",
+        "completions_column": "完成次数",
+        "mentoring_requests_column": "指导请求",
+        "attempts_value": "%{num_submitted}（平均 %{avg_submitted}）",
+        "deprecated_learning_exercises_summary": "%{count} 个已弃用的学习练习"
+      },
+      "test_runner_tooltip": {
+        "test_runner_heading": "%{track_title} 测试运行器",
+        "health_exemplar": "实现了规范的最新版本。",
+        "health_healthy": "可以从版本 %{current_version} 升级到 %{target_version}。",
+        "health_needs_attention": "应当从版本 %{current_version} 升级到 %{target_version}。",
+        "health_missing": "测试运行器尚未实现。",
+        "iterations_tested": {
+          "other": "%{count} 次迭代已测试。"
+        }
+      }
+    },
+    "show": {
+      "mentoring_article": {
+        "mentoring_slot_locked": "指导名额已锁定",
+        "learn_more_about_mentored_link": "进一步了解如何获得指导",
+        "mentoring_locked_icon_alt": "指导已锁定",
+        "unlock_mentoring": "完成“Hello, World!”并开始一个新的练习，即可解锁 %{track_title} 的指导",
+        "your_mentoring_slots": {
+          "title": "你的指导名额",
+          "filled": {
+            "other": "已使用 %{count} 个指导名额"
+          }
+        },
+        "current_reputation": {
+          "title": "你当前的声誉是"
+        },
+        "max_mentoring_slots": "你已拥有全部可用的指导名额",
+        "unlocked_icon_alt": "已解锁",
+        "next_slot_unlocks_at_html": "声誉达到<strong>%{reputation_amount}</strong>时解锁下一个名额。",
+        "donate_to_exercism_html": "或者<a href=\"%{insiders_path}\" class=\"text-prominentLinkColor font-semibold\">向 Exercism 捐赠</a>，即可解锁全部指导名额。\n",
+        "learn_more_link": "了解更多。",
+        "mentor_discussion_with": "与",
+        "your_turn_to_respond": "轮到你回复了",
+        "review_your_mentor": "评价你的导师",
+        "comments_count": {
+          "other": "%{count} 条评论"
+        },
+        "waiting_on_mentor": "等待导师回复…"
+      },
+      "contributors_section": {
+        "title": "%{track_title} 贡献者",
+        "top_contributors_aria_label": "主要贡献者",
+        "view_profile_aria_label": "查看 %{contributor_handle} 的个人资料",
+        "other_contributors_aria_label": "其他重要贡献者",
+        "see_all_link": "查看全部",
+        "see_all_contributors_aria_label": "查看此轨道的所有贡献者",
+        "cta": {
+          "we_love_contributors_html": "我们<span aria-label=\"love\">💙</span>我们的贡献者\n",
+          "exercism_relies_on_open_source": "Exercism 依靠开源贡献者来构建语言轨道，并指导学员。",
+          "contribute_link": "为 %{track_title} 轨道做贡献 ->"
+        }
+      },
+      "start_track_section": {
+        "introduce_yourself_html": "完成<strong>“Hello, World!”</strong>，向 %{track_title} 的世界介绍你自己",
+        "familiarize_yourself": "通过完成“Hello, World!”教程练习，熟悉 Exercism 的运作方式，并在平台上提交你的第一段代码。",
+        "go_to_hello_world_exercise_link": "前往“Hello, World!”练习"
+      },
+      "stats_box_completed_exercises": {
+        "exercises_completed": {
+          "other": "已完成的练习"
+        }
+      },
+      "activities_zero_state_section": {
+        "activity_zero_state_message": "当你开始完成练习后，你在该轨道上的活动就会显示在这里"
+      },
+      "stats_box_learnt_concepts": {
+        "concepts_learnt": {
+          "other": "已掌握的概念"
+        }
+      },
+      "ticker": {
+        "live_on_track": "%{track_title} 轨道上的实时动态…"
+      },
+      "summary_article": {
+        "progress_chart": {
+          "just_started_track": "你才刚刚开始 %{track_title} 轨道。<strong>祝你好运，冒险者！</strong>",
+          "track_completed": "太棒了，你完成了整个轨道！！<strong>了不起的成就！👏</strong>",
+          "through_track_html": "你已经完成了 %{track_title} 轨道的 <em>%{completed_percentage}%</em>。",
+          "completed_icon_alt": "已完成",
+          "status": {
+            "completed": "已完成",
+            "in_progress": "进行中",
+            "available": "可开始",
+            "locked": "已锁定",
+            "total_exercises": "练习总数"
+          },
+          "title": {
+            "just_started": "你刚刚开始了 %{track_title} 轨道。",
+            "good_luck": "祝你好运，冒险家！",
+            "completed_100_percent": "太棒了，你已经完成了整个轨道！！",
+            "achievement": "真是了不起的成就！👏",
+            "in_progress": "你已经完成了 %{track_title} 轨道的 %{percentage}%。"
+          },
+          "progress_bar": {
+            "completed_icon_alt": "已完成"
+          },
+          "key": {
+            "completed": "已完成",
+            "in_progress": "进行中",
+            "available": "可用",
+            "locked": "已锁定",
+            "total_exercises": "练习总数"
+          }
+        },
+        "trophy_cabinet": {
+          "subtitle_html": "随着你在轨道上不断前进，解锁各项成就。 %{learn_more_link}",
+          "title": "%{track_title} 奖杯陈列柜",
+          "description": "随着你在轨道中不断前进，逐步解锁各项成就。",
+          "learn_more": "了解更多"
+        },
+        "intro_video": {
+          "title": "%{track_title} 简介",
+          "description": "和 Erik 一起深入探索 %{track_title}，了解它的主要功能，并解决一道有趣的练习。"
+        },
+        "forum_section": {
+          "title": "来自论坛…",
+          "latest_by": "最新帖子来自 %{poster_username}",
+          "explore_forum_link": "探索 %{track_title} 论坛"
+        },
+        "docs_section": {
+          "title": "卡住了？看看我们的文档…"
+        },
+        "momentum_section": {
+          "title": "你的势头",
+          "description": "坚持是进步的关键。给自己设定一个每周努力去实现的现实目标，然后在这里查看你最近 8 周的表现。",
+          "avg_exercises_completed_per_week": "每周平均完成的练习数"
+        },
+        "rhs": {
+          "intro_video": {
+            "description": "和 Erik 一起深入了解 %{track_title}：他会带你探索它的主要功能，并解决一道有趣的练习。",
+            "title": "%{track_title} 简介"
+          },
+          "forum": {
+            "title": "来自论坛…",
+            "latest_by": "最新来自 %{username}",
+            "explore_forum": "探索 %{track_title} 论坛"
+          },
+          "docs": {
+            "title": "卡住了？浏览我们的文档…"
+          },
+          "momentum": {
+            "title": "你的学习势头",
+            "description": "坚持是进步的关键。给自己设定一个切合实际的每周目标，努力去达成，然后在这里记录你最近 8 周的表现。",
+            "avg_exercises_completed": "平均每周完成的练习数"
+          }
+        },
+        "user_track_completed_percentage_text": {
+          "range_0_10": "继续保持，做得很棒！🚀",
+          "range_10_20": "开局很棒！🚀",
+          "range_20_30": "速度提起来了！🚀",
+          "range_30_40": "你已经渐入佳境！🚀",
+          "range_40_50": "快到一半了！🚀",
+          "range_50_60": "已经过半了！🚀",
+          "range_60_70": "照这个速度，你一定能完成！🚀",
+          "range_70_80": "哇，继续加油！🚀",
+          "range_80_90": "就快到了！🚀",
+          "range_90_100": "已经能看到终点线了！🚀",
+          "invalid_percentage": "百分比无效。"
+        }
+      },
+      "updates_section": {
+        "whats_going_on": "%{track_title} 有什么新动态",
+        "title": "%{track_title} 有什么新动态"
+      },
+      "stats_box_mastered_concepts": {
+        "concepts_mastered": {
+          "other": "已掌握的概念"
+        }
+      },
+      "stats_box_available_exercises": {
+        "exercises_available": {
+          "other": "可参加的练习"
+        }
+      },
+      "stats_box_locked_exercises": {
+        "exercises_locked": {
+          "other": "已锁定的练习"
+        }
+      },
+      "stats_box_in_progress_exercises": {
+        "exercises_in_progress": {
+          "other": "进行中的练习"
+        }
+      }
+    },
+    "mentor_discussions": {
+      "previous_discussions": {
+        "no_discussions_message": "你还没有以往的代码评审会话",
+        "discussion_ended": "%{time_ago} 前结束",
+        "status_ended": "已结束"
+      },
+      "index": {
+        "personal_mentoring": {
+          "locked_message_html": "你目前正在接受指导。请先结束现有的讨论，再与其他人开始新的指导会话。",
+          "heading": "想让朋友来指导你吗？",
+          "body": "如果你希望由朋友、老师、同事等人来指导你，而不是接受社区指导，就把下面的链接发给他们，他们就能直接指导你。",
+          "link_heading": "直接指导邀请链接",
+          "prominent_link": "了解直接指导的更多信息"
+        }
+      },
+      "mentoring_finished": {
+        "heading": "想换一位导师试试吗？",
+        "body_html": "想让另一位导师看看你提交的解答？你可以重新申请指导，就 <strong>%{exercise_title}</strong> 的解答提出新的问题，也可以在下方查看你以往的指导会话。",
+        "button": "申请更多指导"
+      },
+      "tooltip_locked": {
+        "heading": "这道练习让你犯难了吗？",
+        "body": "只有提交了这道练习的解答，才能获得指导。如果遇到困难，可以试试浏览 Community Solutions 或 Dig Deeper。",
+        "recommendation": "我们强烈建议你先尽力自己解决，不要急着看 Community Solutions 或 Dig Deeper。"
+      },
+      "mentoring_requested": {
+        "heading": "你已申请指导",
+        "waiting_text": "正在等待导师……",
+        "view_request_button": "查看你的申请"
+      },
+      "introduction": {
+        "header": {
+          "title": "让你的解答更上一层楼",
+          "subtitle_html": "让 %{track_title} 导师为你在 <strong>%{exercise_title}</strong> 上的解答提供反馈，发现解决问题的新思路，拓展并加深你的 %{track_title} 知识。",
+          "submit_button": "提交以获取代码审查",
+          "free_text": "完全免费！😲"
+        },
+        "why": {
+          "heading": "为什么要获得反馈？",
+          "points": {
+            "fluency": {
+              "heading": "真正熟练掌握 %{track_title}",
+              "body_html": "学习一门语言不只是会用，还要能用它<strong>思考</strong>。我们的导师会帮你培养这种感觉。"
+            },
+            "unknown": {
+              "heading": "你不知道自己不知道什么",
+              "body": "如果不知道自己缺什么，就很难进步。我们的导师会帮你发现自己在 %{track_title} 知识上的空白。"
+            },
+            "questions": {
+              "heading": "让你的疑问得到解答",
+              "body": "无论你有什么疑问，我们的导师都能帮你。申请导师时，一定要把心里的疑问都写出来。"
+            },
+            "push": {
+              "heading": "逼自己一把",
+              "body": "无论你对 %{track_title} 多有信心，总有更多值得学习的东西。借助 Exercism 导师，把自己推得更远。"
+            }
+          }
+        },
+        "how": {
+          "heading": "它是如何运作的？",
+          "points": {
+            "submit": {
+              "heading": "提交以获取代码审查",
+              "body": "向 Exercism 社区发送申请。告诉我们你想学什么，这样合适的导师就能与你搭档。"
+            },
+            "feedback": {
+              "heading": "获得反馈",
+              "body": "导师接受你的申请后，会查看你的解答和申请，并给出第一条反馈。"
+            },
+            "iterate": {
+              "heading": "迭代与学习",
+              "body": "与导师交流，参考他们的建议，继续编写并提交新的迭代。"
+            },
+            "end_celebrate": {
+              "heading_html": "结束 &amp; 庆祝 🎉",
+              "body": "对最终的解答满意后，结束讨论，并为导师留下一段评价。"
+            }
+          }
+        }
+      },
+      "mentoring_in_progress": {
+        "mentor_info_html": "指导你的是&nbsp;<strong>%{mentor_handle}</strong>",
+        "status": {
+          "review_mentor": "评价你的导师",
+          "waiting_mentor": "等待导师",
+          "your_turn": "轮到你回复了"
+        },
+        "comments_count": {
+          "other": "%{count} 条评论"
+        },
+        "in_progress_label": "进行中",
+        "open_discussion_button": "打开讨论"
+      }
+    },
+    "mentor_requests": {
+      "no_slots_remaining": {
+        "whoops": "哎呀！",
+        "no_slots_available": "你已没有可用的指导名额。",
+        "replenish_slots": "成功完成进行中的会话，就能补充你的指导名额。",
+        "go_to_track_link": "前往学习路径"
+      },
+      "get_more_slots": {
+        "whoops": "哎呀！",
+        "no_slots_available": "你已没有可用的指导名额。",
+        "get_more_slots_html": "你可以通过%{reputation_link}或%{donate_link}获得更多指导名额。",
+        "reputation_link_text": "赚取声誉",
+        "donate_link_text": "向 Exercism 捐赠",
+        "go_to_track_link": "前往学习路径"
+      }
+    },
+    "shared": {
+      "learn_more": "了解更多",
+      "find_out_more": "进一步了解。",
+      "started": "已开始",
+      "attempts": "尝试次数",
+      "completions": "完成次数",
+      "mentoring_requests": "指导请求",
+      "attempts_value": "%{num_submitted}（平均 %{avg_submitted}）"
+    },
+    "community_solutions": {
+      "tooltip_locked": {
+        "struggling_question": "这道练习让你犯难了吗？",
+        "unlock_community_solutions": "解锁社区解答，看看社区是如何着手并解答 %{exercise_title} 的。",
+        "attempt_exercise_first": "只有至少尝试过一次这道练习，才能查看社区解答标签页。",
+        "recommendation": "我们强烈建议你先尽力自己尝试，不要一开始就去看社区解答标签页。"
+      },
+      "show": {
+        "meta_title": "%{author_handle} 在 Exercism 上对 %{track_title} 中 %{exercise_title} 的解答",
+        "meta_description": "看看 @%{author_handle} 是如何解答 %{track_title} 中的 %{exercise_title} 的，从中获得灵感，想想你可以怎么解！Exercism 完全免费，是用 65 种以上编程语言提升编程技能的好方法。",
+        "breadcrumbs": {
+          "tracks": "轨道",
+          "exercises": "练习",
+          "community_solutions": "社区解答",
+          "your_solution": "你提交的解答",
+          "authors_solution": "%{author_handle} 提交的解答"
+        },
+        "solution_heading": {
+          "your_solution": "你提交的解答",
+          "authors_solution": "%{author_handle} 提交的解答",
+          "to": "针对",
+          "in": "所属"
+        },
+        "comments_button": {
+          "alt_text": "评论数"
+        },
+        "mentoring": {
+          "mentored_by": "指导者",
+          "what_is_this": "这是什么？"
+        },
+        "about_solution": {
+          "title": "关于这份提交的解答",
+          "description": "我们会自动把相似的提交的解答归为一组，并统计它们的受欢迎程度。",
+          "submissions": {
+            "other": "提交次数"
+          },
+          "first_submitted_ago": "%{time}前",
+          "first_submitted": "首次提交",
+          "reputation_alt_text": "声望",
+          "max_track_rep": "轨道最高声望"
+        },
+        "solution_approach": {
+          "title": "这份提交的解答的思路",
+          "description": "在社区撰写的深度解析中，了解这种思路的优缺点……",
+          "used_by": "%{num_solutions} 人使用。"
+        },
+        "about_exercise": {
+          "title": "关于这道",
+          "exercise_label": "练习"
+        },
+        "other_solutions": {
+          "title": "其他提交的解答",
+          "in_label": "所属",
+          "explore_link": "浏览这道练习的其他提交的解答"
+        }
+      },
+      "index": {
+        "meta_title": "Exercism 上 %{track_title} 中 %{exercise_title} 的社区解答",
+        "meta_description": "浏览他人在 %{track_title} 中针对 %{exercise_title} 提交的解答，了解别人是怎么解决这道练习的。"
+      }
+    },
+    "exercises": {
+      "show": {
+        "action_box_dig_deeper_mentoring": {
+          "code_review_in_progress": {
+            "go_to_code_review_link": "前往代码审查",
+            "your_turn_description_html": "<strong class='font-semibold'>轮到你回复了。</strong>和你的导师交流，提出问题，不断改进你的代码。记得感谢他们抽出时间来帮助你。",
+            "go_to_code_review_button": "前往代码审查",
+            "title": "代码审查进行中",
+            "mentor_finished_description": "你与 @%{mentor_handle} 的对话已经结束。请花点时间给对方留下评价。",
+            "finish_discussion_button": "结束讨论",
+            "awaiting_mentor_description": "你提交的解答正在由 @%{mentor_handle} 审查。对方下次回复时会通知你。"
+          },
+          "code_review_requested": {
+            "title": "已请求代码审查",
+            "description": "你提交的解答已发送给我们的导师审查。它正在队列中，很快就会有导师接手，并和你展开交流。",
+            "view_mentoring_request_link": "查看指导请求"
+          },
+          "request_code_review": {
+            "title": "请求代码审查",
+            "description": "让真正的导师帮你找出知识盲区。完全免费。",
+            "button": "请求代码审查"
+          },
+          "code_review_finished": {
+            "title": "代码审查已完成",
+            "description_html": "你与 @%{mentor_handle} 的指导讨论已经结束。你可以在 %{link} 上查看这次讨论，或者发起新的讨论。",
+            "link_text": "代码审查标签页"
+          }
+        },
+        "action_box_dig_deeper_practice_exercise": {
+          "title": "深入了解",
+          "description": "完成练习只是提升的第一步。现在该向他人学习了。这些步骤是可选的，但会大大拓展你的知识。"
+        },
+        "action_box_completed": {
+          "exercise_published": {
+            "title": "练习已发布",
+            "description": "你已经发布了练习，供他人学习。谢谢！你可以在下方查看和管理你发布的解答。你可以",
+            "change_published_iteration_button": "更换已发布的版本",
+            "or_text": "或",
+            "unpublish_solution_button": "取消发布你的解答。"
+          },
+          "exercise_completed": {
+            "title": "练习已完成",
+            "description": "你已将此练习标记为完成。"
+          },
+          "publish_exercise": {
+            "title": "发布你的练习",
+            "description": "发布你的练习可以赢得声望，也能帮助他人发现新的技巧和窍门。"
+          }
+        },
+        "action_box_dig_deeper_approaches": {
+          "viewed_approach": {
+            "title": "已查看的解题思路",
+            "description_html": "在我们的 %{link} 中探索这道练习的各种常见解题思路。",
+            "link_text": "深入了解板块"
+          },
+          "discover_approaches": {
+            "title": "探索不同的解题思路",
+            "description_html": "在我们的 %{link} 中探索这道练习的各种常见解题思路。",
+            "link_text": "深入了解板块"
+          }
+        },
+        "action_box_dig_deeper_youtube_video": {
+          "title": "观看我们的深度解析"
+        },
+        "action_box_locked_by_hello_world": {
+          "unlock_title": "解锁 %{exercise_title}",
+          "unlock_description_html": "这道练习目前还不能开始。完成<strong>Hello, World!</strong>即可解锁这道练习。"
+        },
+        "instructions": {
+          "introduction_heading": "简介",
+          "hello_world_intro_html": "“Hello, World!” 会带你写一些 %{track_title} 代码，并让你熟悉 Exercism 的工作流。<strong>完成它就能解锁 %{track_title} 学习路线的其余内容。</strong>",
+          "watch_video_prompt": "观看我们的“Hello, World”入门视频，开始学习 👇",
+          "instructions_heading": "说明",
+          "source_heading": "来源",
+          "explore_source_html": "查看<a href=\"%{source_url}\" target=\"_blank\" rel=\"noopener noreferrer\">这道练习的来源</a>。\n",
+          "edit_via_github": "通过 GitHub 编辑",
+          "new_window_icon_alt": "链接将在新窗口或新标签页中打开"
+        },
+        "action_box_complete": {
+          "tutorial": {
+            "title": "完成练习",
+            "paragraph_1": "完成练习后，把它标记为已完成。你也可以在完成练习时发布你的解答，与他人分享。",
+            "paragraph_2": "把 Hello World 标记为已完成，就能解锁该学习路线中的第一批练习。"
+          },
+          "concept_exercise": {
+            "title": "练习完成了吗？",
+            "paragraph_1": "觉得自己已经理解这个练习所教的概念了吗？把它标记为已完成，继续前进。"
+          },
+          "general": {
+            "title": "练习完成了吗？",
+            "paragraph": "这个练习已经做到你想要的程度了吗？把它从清单上勾掉，也可以选择发布你的解答，供社区学习。"
+          }
+        },
+        "view_track_documentation": "查看学习路径文档",
+        "action_box_solve_locked": {
+          "title": "解答这道练习"
+        },
+        "concepts_section": {
+          "learning_goals_title": "练习学习目标",
+          "learning_goals_description_html": "这个学习练习让你对 %{concepts} 的理解更进一步。",
+          "unlocked_concepts": {
+            "title": "你已解锁",
+            "count": {
+              "other": "%{count} 个概念"
+            }
+          },
+          "unlocked_exercises": {
+            "title": "你已解锁",
+            "count": {
+              "other": "%{count} 个练习"
+            }
+          }
+        },
+        "external": {
+          "deep_dive_title": "深入探索 %{exercise_title}！"
+        },
+        "uncompleted_concepts_section": {
+          "learning_goals_title": "练习学习目标",
+          "learning_goals_description": "在完成 %{exercise_title} 的过程中，你将学到",
+          "concept_plural": {
+            "other": "%{count} 个概念"
+          }
+        },
+        "action_box_join_exercism": {
+          "title": "准备好开始 %{exercise_title} 了吗？",
+          "description_html": "注册 Exercism，借助 %{concept_link}%{exercise_link} 和真人导师指导，学习并掌握 %{track_link}，<strong>全部免费。</strong>",
+          "concept_plural": {
+            "other": "%{count} 个概念"
+          },
+          "exercise_plural": {
+            "other": "%{count} 个练习"
+          },
+          "signup_button": "注册吧，完全免费！",
+          "login_button": "登录 Exercism"
+        },
+        "action_box_locked": {
+          "title": "解锁 %{exercise_title}",
+          "description_html": "这个练习目前还无法开始。完成以下练习即可解锁<span class=\"font-semibold\">%{exercise_title}</span>，或者 %{activate_practice_mode}。\n",
+          "activate_practice_mode_text": "禁用学习模式"
+        },
+        "action_box_publish_locked": {
+          "title": "发布你提交的解答"
+        },
+        "action_solve_locked": {
+          "title": "解答这个练习"
+        },
+        "action_box_solve": {
+          "solve_button": "解答",
+          "start_button": "开始",
+          "continue_work": "继续完成这个练习。",
+          "available_to_start": "这个练习现在可以开始了。",
+          "solve_description": "你可以通过 Exercism 的浏览器内置编辑器解答，也可以在自己的环境中本地解答，用我们的 CLI 下载并提交。",
+          "via_editor_heading": "通过 Exercism 编辑器",
+          "start_in_editor_button": "在编辑器中开始",
+          "work_locally_heading": "在本地完成（通过 CLI）",
+          "learn_more_link": "详细了解如何在本地解答练习"
+        },
+        "action_box_dig_deeper_community_solutions": {
+          "explored_community_solutions": "已浏览的社区解答",
+          "explore_community_solutions": "浏览社区解答",
+          "explore_text": "了解其他人是如何解答这个练习的，并在我们的",
+          "community_solutions_link": "社区解答"
+        },
+        "action_box_solved": {
+          "title": "练习已完成",
+          "description_html": "你已经为这个练习提交了 %{link}。随着你不断积累知识，或者想尝试新的想法，你还可以提交更多迭代。",
+          "iteration_word": {
+            "other": "次迭代"
+          }
+        },
+        "action_box_dig_deeper_concept_exercise": {
+          "title": "深入探索",
+          "description": "解答我们的学习练习并没有太多正确的方式，但看看别人是如何解答这个练习的，仍然很有帮助。"
+        },
+        "action_box_dig_deeper_locked": {
+          "title": "深入探索"
+        },
+        "action_box_join_track": {
+          "title": "准备好开始 %{exercise_title} 了吗？",
+          "description_html": "加入 %{track_title} 轨道，%{links_html} 等你来探索！",
+          "description_with_two_links_html": "加入 %{track_title} 轨道，%{concepts_link} 和 %{exercises_link} 等你来探索！",
+          "description_with_one_link_html": "加入 %{track_title} 轨道，%{exercises_link} 等你来探索！",
+          "concept_plural": {
+            "other": "%{count} 个概念"
+          },
+          "exercise_plural": {
+            "other": "%{count} 个练习"
+          },
+          "join_track_button": "加入 %{track_title} 轨道",
+          "see_all_exercises_button": "查看所有 %{track_title} 练习"
+        },
+        "action_box_complete_locked": {
+          "title": "完成你提交的解答"
+        }
+      },
+      "no_test_runner": {
+        "editor_unavailable_title": "编辑器不可用。",
+        "test_runner_not_working_title": "这条学习路径无法使用 Exercism 编辑器完成",
+        "test_runner_not_working_description_html": "这条学习路径还没有可用的测试运行器，因此编辑器已停用。我们正在努力解决这个问题。如果你想帮忙，请查看 %{github_link} 上的 Issues。",
+        "github_repo_link_text": "GitHub 代码仓库",
+        "editor_unsupported_title": "抱歉，这个练习无法在编辑器中完成。",
+        "editor_unsupported_description": "这很可能是因为这个练习的测试运行时间太长。请使用本地编辑器完成，然后通过 CLI 上传。",
+        "back_to_exercise_button": "返回练习"
+      },
+      "index": {
+        "meta_title": "Exercism 上的 %{track_title} 练习",
+        "meta_description": "探索 Exercism 上 %{num_exercises} 个 %{track_title} 练习",
+        "external_cta": {
+          "title": "在 %{track_title} 中练习 %{num_exercises} 个练习",
+          "description": "在 %{track_title} 中学习并练习，完成 %{num_exercises} 个探索不同概念和想法的练习。",
+          "join_track_button": "加入 %{track_title} 学习路径"
+        },
+        "page_header": {
+          "title": "探索 Exercism 上的 %{track_title} 练习",
+          "description": "随着不断进步，你会解锁更多练习。它们既能让你充分练习，又充满乐趣！"
+        }
+      }
+    },
+    "iterations": {
+      "index": {
+        "zero_state": {
+          "editor_button": "在编辑器中开始",
+          "cli_heading": "在本地练习（通过 CLI）",
+          "prominent_link": "进一步了解如何在本地完成练习",
+          "heading": "你还没有提交过任何迭代。",
+          "body": "提交解答后，你就能看到所有迭代以及测试结果和自动反馈。",
+          "editor_heading": "通过 Exercism 编辑器"
+        }
+      }
+    },
+    "concepts": {
+      "tooltip": {
+        "info": {
+          "mastered": "你已经掌握了 %{concept_name}！",
+          "learnt": "你已经学会 %{concept_name}。",
+          "available": "%{concept_name} 已经可以学习了。",
+          "locked": {
+            "prerequisite": "学习 %{prerequisite_names}，解锁这个概念。",
+            "hello_world": "完成“Hello, World!”即可解锁概念。"
+          },
+          "mastered_message": "你已经掌握了 %{concept_name}！",
+          "learnt_message": "你已经学会 %{concept_name}。",
+          "available_message": "%{concept_name} 已经可以学习了。",
+          "locked_prerequisite": "学习 %{prerequisite_names} 即可解锁这个概念。",
+          "locked_tutorial": "完成“Hello, World!”即可解锁各个概念。"
+        },
+        "explore_button": "探索概念",
+        "header": {
+          "summary": {
+            "title": {
+              "in_text": "属于"
+            },
+            "num_exercises": {
+              "locked": {
+                "other": "%{count} 个练习"
+              },
+              "completed": "%{num_completed}/%{count} 已完成"
+            }
+          },
+          "status_tag": {
+            "locked": "已锁定",
+            "mastered": "已掌握"
+          }
+        },
+        "explore_concept_button": "探索概念",
+        "summary": {
+          "in": "所属",
+          "exercises_locked": {
+            "other": "%{count} 个练习"
+          },
+          "exercises_completed": "已完成 %{count} 个（%{num_completed}/%{num_total}）"
+        },
+        "status_tag": {
+          "locked": "未解锁",
+          "mastered": "已掌握"
+        }
+      },
+      "show": {
+        "header": {
+          "breadcrumbs": {
+            "tracks": "学习路径",
+            "syllabus": "教学大纲"
+          },
+          "concept_info": {
+            "in": "属于",
+            "exercises_count": {
+              "other": "%{count} 个练习"
+            }
+          }
+        },
+        "mastered_heading": {
+          "text": "你已经在 %{track_title} 中掌握了 %{concept_name}。",
+          "explore_link": "探索更多概念"
+        },
+        "about": {
+          "title": "关于 %{concept_name}",
+          "learn_more_links": {
+            "title": "了解更多",
+            "external_link_aria_label": "（外部链接）"
+          }
+        },
+        "extra_info": {
+          "edit_via_github": "通过 GitHub 编辑",
+          "github_link_aria_label": "该链接会在新窗口或标签页中打开"
+        },
+        "learnt": {
+          "learnt_concept_message": "你已经学会 %{concept_name}！",
+          "mastered_concept_message": "你已经掌握了 %{concept_name}！",
+          "practice_concept_message": "练习 %{concept_name}"
+        },
+        "learn": {
+          "learn_concept_message": "学习 %{concept_name}",
+          "practice_locked_bar_aria_label": "练习已锁定",
+          "unlock_practice_exercises": {
+            "other": "再解锁 %{count} 个练习即可练习 %{concept_name}"
+          }
+        }
+      },
+      "index": {
+        "meta_title": "Exercism 上 %{track_title} 的核心概念",
+        "meta_description": "在 Exercism 上学习和掌握 %{track_title} 的 %{num_concepts} 个核心概念。",
+        "external_cta": {
+          "title": "掌握 %{track_title} 的 %{num_concepts} 个核心概念",
+          "description": "所有涉及的概念都会结合该语言特有的范式和约定来讲解。",
+          "button": "加入 %{track_title} 轨道",
+          "join_button": "加入 %{track_title} 轨道"
+        },
+        "page_header": {
+          "title": "你的 %{track_title} 之旅",
+          "description": "学习并掌握各种概念，在 %{track_title} 中做到游刃有余。"
+        }
+      }
+    },
+    "dig_deeper": {
+      "tooltip_locked": {
+        "title": "这道练习让你犯难了吗？",
+        "unlock_dig_deeper": "解锁“深入了解”标签页，看看社区是如何着手并解决 %{exercise_title} 的。",
+        "attempt_exercise_first": "只有至少尝试过一次这道练习，才能查看它的“深入了解”标签页。",
+        "recommendation": "我们强烈建议你先尽力自己尝试，不要一开始就翻开“深入了解”标签页。"
+      },
+      "show": {
+        "meta_title": "在 Exercism 上深入了解 %{track_title} 中的 %{exercise_title}",
+        "meta_description": "探索 %{track_title} 中 %{exercise_title} 的各种解题思路和视频。"
+      }
+    },
+    "index": {
+      "header": {
+        "title": "%{num_tracks} 门语言等你精通",
+        "description_html": "通过完成由我们 %{contributors_link} 打造的学习路径，熟练掌握你所选的编程语言",
+        "contributors_link_text": "出色的贡献者团队"
+      }
+    },
+    "exercise_header": {
+      "breadcrumbs": {
+        "tracks": "轨道",
+        "exercises": "练习"
+      },
+      "completed_heading": {
+        "text": "你已完成 %{exercise_title}。",
+        "discover_more_link": "探索更多练习"
+      },
+      "completed_icon_alt": "练习已完成",
+      "exercise_type_tag": {
+        "tutorial": "教程练习",
+        "learning": "学习练习"
+      },
+      "difficulty_tag": {
+        "easy": "简单",
+        "medium": "中等",
+        "hard": "困难"
+      }
+    },
+    "header": {
+      "students": {
+        "other": "学生"
+      },
+      "contributors": {
+        "other": "%{count} 位贡献者"
+      },
+      "mentors": {
+        "other": "%{count} 位导师"
+      }
+    },
+    "about": {
+      "header": {
+        "title": "想学习并精通 %{track_title} 吗？",
+        "subtitle_html": "加入 Exercism 的 %{track_title} 轨道，即可获得\n<em class=\"c-underline\"><strong>%{num_exercises} 个练习</strong></em>\n%{concepts_clause}\n还会自动分析\n你的代码，并提供\n<em class=\"c-underline\"><strong>个性化指导</strong></em>，\n而且全部<em class=\"c-underline\"><strong>100% 免费</strong></em>。\n",
+        "concepts_part_course": "分成 %{num_concepts} 个 %{track_title} 概念，",
+        "join_track_button": "加入 %{track_title} 轨道",
+        "explore_concepts_button": "探索概念",
+        "explore_exercises_button": "探索练习",
+        "gobridge_platform_html": "⭐ <span class=\"text-gradient\">Exercism 是 GoBridge &amp; GDN 的官方指导平台。</span>\n",
+        "learn_more_link_text": "了解更多。"
+      },
+      "about_section": {
+        "title": "关于 %{track_title}",
+        "read_more_button_text": "阅读更多 %{track_title} 的内容",
+        "read_less_button_text": "收起"
+      },
+      "exercises_section": {
+        "title_html": "<em class=\"c-underline\">%{num_exercises} 个编程练习</em>，尽在 Exercism 的 %{track_title}。%{range_part}\n",
+        "range_part_present": " 从 %{first_exercise_title} 到 %{last_exercise_title}。",
+        "subtitle": "借助有趣又有收获的编程练习提升编程水平，在 Exercism 上检验你对概念的理解。",
+        "all_exercises_link": "查看 Exercism 上所有 %{track_title} 练习"
+      },
+      "concepts": {
+        "title": "你将学到的概念一览",
+        "see_all_concepts": "查看 %{track_title} 的所有概念"
+      },
+      "key_features": {
+        "title": "%{track_title} 的主要功能"
+      },
+      "upsell": {
+        "mentoring_section": {
+          "title": "以 %{track_title} 的方式接受指导",
+          "paragraph_html": "每种语言都有自己的做事方式，%{track_title} 也不例外。我们的导师会帮助你学会像 %{track_title} 开发者那样思考，并教你如何写出地道的 %{track_title} 代码。解完一道练习后，把它提交给我们由志愿者组成的团队，他们会给你提示、想法和反馈，帮你写出更接近 %{track_title} 中常见风格的代码，还会帮你发现那些你并不知道自己不知道的东西。\n",
+          "learn_more": "了解更多关于指导的内容"
+        },
+        "exercises_section": {
+          "title": "由社区贡献的 %{track_title} 练习",
+          "paragraph_html": {
+            "one_concept": "Exercism 上的 %{track_title} 轨道有 %{num_concepts} 个概念和 %{track_num_exercises} 个练习，帮你写出更好的代码。\n",
+            "many_concepts": "Exercism 上的 %{track_title} 轨道有 %{num_concepts} 个概念和 %{track_num_exercises} 个练习，帮你写出更好的代码。\n",
+            "no_concepts": "Exercism 上的 %{track_title} 轨道有 %{track_num_exercises} 个练习，帮你写出更好的代码。\n"
+          },
+          "see_all_exercises": "查看 %{track_title} 的全部练习"
+        },
+        "cta": {
+          "title": "开始学习 %{track_title} 轨道",
+          "description": "最棒的是，它对所有人 100% 免费。",
+          "join_button": "加入 %{track_title} 轨道"
+        }
+      }
+    },
+    "approaches": {
+      "show": {
+        "meta_title": "在 Exercism 上探索 %{track_title} 中 %{exercise_title} 的“%{approach_title}”解法",
+        "meta_description": "在 Exercism 上探索 %{track_title} 中 %{exercise_title} 的“%{approach_title}”解法。%{approach_blurb}",
+        "published_at": "发布于",
+        "in_track_mobile": "在 %{track_title} 中",
+        "in_track_desktop": "在 %{track_title} 中",
+        "share_bar": {
+          "title_mobile": "觉得这个解法有用吗？",
+          "subtitle_mobile": "分享给更多人吧！",
+          "title_desktop": "觉得这个解法有趣或有帮助？",
+          "subtitle_desktop": "分享出去，也让别人受益吧！"
+        },
+        "useful_question": "觉得有用？",
+        "other_approaches": {
+          "title": "%{track_title} 中 %{exercise_title} 的其他解法",
+          "subtitle": "社区解决这道练习的其他方式"
+        }
+      }
+    },
+    "articles": {
+      "show": {
+        "meta_title": "在 Exercism 上探索 %{track_title} 中 %{exercise_title} 的“%{article_title}”文章",
+        "meta_description": "在 Exercism 上探索 %{track_title} 中 %{exercise_title} 的“%{article_title}”文章。%{article_blurb}",
+        "in_track": "在 %{track_title} 中",
+        "share_bar": {
+          "short_question": "觉得这篇文章有用吗？",
+          "short_action": "分享给更多人吧！",
+          "long_question": "觉得这篇文章有趣或有帮助？",
+          "long_action": "分享出去，也让别人受益吧！"
+        },
+        "useful_question": "觉得有用？",
+        "other_articles": {
+          "title": "%{exercise_title} 的其他文章",
+          "description": "探索关于这道练习的更多想法"
+        }
+      }
+    }
+  },
+  "components": {
+    "nav_submenus": {
+      "learn": {
+        "journey": {
+          "description": "探索你的 Exercism 学习历程",
+          "title": "你的旅程"
+        },
+        "favorites": {
+          "title": "你的收藏",
+          "description": "重温你最喜欢的解答"
+        },
+        "tracks": {
+          "title": "语言学习路径",
+          "description": "在 65 多种语言中提升技能"
+        },
+        "coding_fundamentals": {
+          "title": "跟着 Jiki 学编程",
+          "description": "在 LLM 时代学习编程与构建。"
+        }
+      },
+      "discover": {
+        "perks": {
+          "title": "Exercism 福利",
+          "description": "来自合作伙伴的优惠和折扣"
+        },
+        "community_content": {
+          "title": "社区视频",
+          "description": "直播、讲解视频及更多内容"
+        },
+        "brief_introductions": {
+          "title": "简明介绍系列",
+          "description": "编程语言的简短概览"
+        },
+        "interviews": {
+          "title": "访谈与故事",
+          "description": "从他人的故事中汲取灵感"
+        },
+        "discord": {
+          "title": "Discord",
+          "description": "与社区聊天互动"
+        },
+        "forum": {
+          "title": "论坛",
+          "description": "深入探讨话题"
+        }
+      },
+      "contribute": {
+        "getting_started": {
+          "title": "快速上手",
+          "description": "你可以如何帮助 Exercism"
+        },
+        "mentoring": {
+          "title": "导师指导",
+          "description": "在他人学习的过程中提供帮助"
+        },
+        "docs": {
+          "title": "文档",
+          "description": "提供帮助所需的一切资料"
+        },
+        "contributors": {
+          "title": "贡献者",
+          "description": "认识 Exercism 背后的成员"
+        },
+        "translators": {
+          "title": "译者",
+          "description": "支持我们的本地化项目"
+        }
+      },
+      "more": {
+        "donate": {
+          "title": "捐赠",
+          "description": "帮助支持我们的使命"
+        },
+        "about": {
+          "title": "关于 Exercism",
+          "description": "了解我们的组织"
+        },
+        "impact": {
+          "title": "我们的影响力",
+          "description": "探索我们取得的成就"
+        },
+        "github_syncer": {
+          "title": "GitHub 同步器",
+          "description": "将你的解答备份到 GitHub"
+        },
+        "insiders": {
+          "title": "Insiders",
+          "description": "我们表达感谢的方式"
+        }
+      },
+      "views": {
+        "mentoring_details": "指导详情"
+      }
+    },
+    "perk": {
+      "logo_alt_text": "%{partner_name} 的徽标",
+      "learn_more_button": "了解更多"
+    },
+    "reputation": {
+      "aria_label": "%{reputation} 声誉",
+      "icon_alt": "声誉"
+    },
+    "about_nav": {
+      "about_exercism": "关于 Exercism",
+      "our_impact": "我们的影响力",
+      "team": "团队",
+      "supporters": "支持者",
+      "partners": "合作伙伴"
+    },
+    "handle_with_flair": {
+      "titles": {
+        "founder": "创始人",
+        "staff": "团队成员",
+        "insider": "Exercism Insider",
+        "lifetime_insider": "终身 Insider"
+      },
+      "icon_alt": "%{title} 的标识"
+    },
+    "impact": {
+      "chart": {
+        "milestones": {
+          "reached_1m_users": "用户数突破 100 万！",
+          "exercism_v3": "Exercism v3",
+          "automated_feedback": "自动化反馈！",
+          "exercism_v2": "Exercism v2",
+          "exercism_launched": "Exercism 上线"
+        }
+      }
+    },
+    "language_switcher": {
+      "label": "选择你的语言",
+      "coming_soon": "即将推出",
+      "coming_soon_badge": "即将"
+    },
+    "locale_banner": {
+      "pre": "本页面为%{current}。",
+      "link": "查看%{offered}版本",
+      "dismiss": "关闭"
+    },
+    "mentor": {
+      "header": {
+        "title": "指导",
+        "guides_link": "指导手册",
+        "locked_tab_aria_label": "此标签页已锁定",
+        "stats": {
+          "discussions_completed": "已完成 %{count} 个讨论",
+          "satisfaction": "满意度 %{percentage}%"
+        },
+        "tabs": {
+          "workspace": "你的工作区",
+          "queue": "队列",
+          "testimonials": "学员评价",
+          "automation": "自动化"
+        }
+      }
+    },
+    "mentoring": {
+      "inbox": {
+        "sort_options": {
+          "recent_first": "按最近优先排序",
+          "oldest_first": "按最早优先排序",
+          "exercise": "按练习排序",
+          "student": "按学员排序"
+        }
+      },
+      "queue": {
+        "sort_options": {
+          "oldest_first": "按最早优先排序",
+          "recent_first": "按最近优先排序"
+        }
+      },
+      "representations": {
+        "sort_options": {
+          "highest_occurrence": "按出现次数最多排序",
+          "recent_first": "按最近优先排序",
+          "most_recent_feedback": "最新反馈",
+          "least_recent_feedback": "最早反馈"
+        }
+      },
+      "try_mentoring_button": {
+        "default_text": "立即开始指导"
+      }
+    },
+    "nav_helpers": {
+      "nav_dropdown_helper": {
+        "new_badge": "新",
+        "external_link": "链接将在新窗口或标签页中打开"
+      }
+    },
+    "track": {
+      "exercise_header": {
+        "tabs": {
+          "community_solutions": "社区解答",
+          "code_review": "代码审查",
+          "overview": "概览",
+          "your_iterations": "你的迭代",
+          "dig_deeper": "深入了解"
+        },
+        "locked_tab_aria_label": "此标签页已锁定"
+      },
+      "exercise_status_tag": {
+        "work_in_progress": "开发中",
+        "available": "可用",
+        "locked": "已锁定",
+        "in_progress": "进行中",
+        "completed": "已完成",
+        "published": "已发布"
+      },
+      "header": {
+        "practice_mode": "练习模式",
+        "overview": "概览",
+        "about": "关于 %{track_title}",
+        "learn": "学习",
+        "practice": "练习",
+        "build_status": "构建状态"
+      },
+      "build": {
+        "health": {
+          "verb": {
+            "singular": "是",
+            "plural": "是"
+          },
+          "exemplar": "%{verb} exemplar ✨",
+          "healthy": "%{verb}健康 ✅",
+          "needs_attention": "需要关注 ⚠️",
+          "missing": "%{verb}缺失 ❓"
+        }
+      }
+    },
+    "user_activities": {
+      "completed_exercise": {
+        "time_ago": "%{time_ago}前"
+      },
+      "started_exercise": {
+        "time_ago": "%{time_ago}前"
+      },
+      "submitted_iteration": {
+        "time_ago": "%{time_ago}前"
+      }
+    },
+    "user_menu": {
+      "button_label": "打开个人资料菜单的按钮",
+      "profile_menu_icon": "个人资料菜单",
+      "avatar_alt": "你上传的头像",
+      "open_public_profile": "打开公开的个人资料",
+      "items": {
+        "dashboard": "仪表盘",
+        "tracks": "学习路径",
+        "mentoring": "指导",
+        "community": "社区",
+        "insiders": "Insiders 💜",
+        "donate": "捐赠",
+        "public_profile": "公开的个人资料",
+        "your_journey": "你的旅程",
+        "settings": "设置",
+        "maintaining": "维护",
+        "sign_out": "退出登录"
+      }
+    },
+    "settings_nav": {
+      "account_settings": "账号设置",
+      "api_cli": "API / CLI",
+      "integrations": "集成",
+      "github_syncer": "GitHub 同步",
+      "preferences": "偏好设置",
+      "communication_preferences": "通信偏好设置",
+      "donations": "捐赠",
+      "insiders": "Insiders"
+    },
+    "site_header": {
+      "announcement_bar": {
+        "downtime": "服务器升级：未来 24 小时内我们将进行基础设施更新。",
+        "downtime_link_text": "了解更多……",
+        "coding_fundamentals": "想学编程？看看我们全新的初学者专属平台：",
+        "coding_fundamentals_link_text": "Jiki！",
+        "donation_ask": "喜欢 Exercism 吗？我们需要你的帮助才能继续运营……",
+        "donation_ask_link_text": "如果可以，请捐赠！"
+      },
+      "nav": {
+        "learn": "学习",
+        "discover": "发现",
+        "contribute": "贡献",
+        "more": "更多",
+        "insiders": "Insiders"
+      },
+      "auth_buttons": {
+        "sign_up": "注册",
+        "log_in": "登录"
+      },
+      "explore_menu": {
+        "button_label": "打开导航菜单的按钮",
+        "button_text": "探索",
+        "home": "首页",
+        "language_tracks": "语言轨道",
+        "community": "社区",
+        "mentoring": "指导",
+        "insiders": "Insiders 💜",
+        "donate": "捐赠"
+      },
+      "docs_search": {
+        "placeholder": "搜索 Exercism 文档……"
+      }
+    },
+    "student": {
+      "mentoring_session": {
+        "videos": {
+          "making_the_most_title": "如何充分利用导师指导"
+        }
+      }
+    },
+    "footer": {
+      "shared": {
+        "site_links": {
+          "editions": {
+            "research_link": "Exercism 研究",
+            "title": "系列",
+            "exercism_link": "Exercism",
+            "learn_to_code_link": "学习编程",
+            "with": "搭配",
+            "jiki_link": "Jiki",
+            "bootcamp_link": "Exercism 训练营",
+            "teams_link": "Exercism 团队版"
+          },
+          "about": {
+            "title": "关于",
+            "about_exercism_link": "关于 Exercism",
+            "our_team_link": "我们的团队",
+            "contributors_link": "贡献者",
+            "partners_link": "合作伙伴",
+            "individual_supporters_link": "个人支持者"
+          },
+          "get_involved": {
+            "title": "参与其中",
+            "exercism_insiders_link": "Exercism Insiders",
+            "contribute_link": "贡献",
+            "mentor_link": "成为导师",
+            "donate_link": "捐赠"
+          },
+          "legal_and_policies": {
+            "title": "法律与政策",
+            "terms_of_usage_link": "使用条款",
+            "privacy_policy_link": "隐私政策",
+            "cookie_policy_link": "Cookie 政策",
+            "code_of_conduct_link": "行为准则",
+            "accessibility_statement_link": "无障碍声明"
+          },
+          "keep_in_touch": {
+            "title": "保持联系",
+            "blog_link": "Exercism 博客",
+            "github_link": "在 GitHub 上讨论",
+            "contact_us_link": "联系我们",
+            "report_abuse_link": "举报滥用"
+          },
+          "get_help": {
+            "title": "获取帮助",
+            "docs_link": "Exercism 文档",
+            "getting_started_link": "快速上手",
+            "faqs_link": "常见问题",
+            "installing_cli_link": "安装 CLI",
+            "cli_walkthrough_link": "交互式 CLI 演练"
+          }
+        },
+        "tracks_section": {
+          "title": "我们的编程语言",
+          "add_language_title": "想为 Exercism 添加一门编程语言吗？",
+          "add_language_description_html": "在<a href=\"%{forum_url}\">论坛</a>里发起一个新话题，我们一起讨论吧。\n"
+        },
+        "legals": {
+          "company_info_html": "Exercism 是一家非营利组织，%{company_link_open}在英国注册%{company_link_close}。其理事为 %{katrina_owen_link}、%{jeremy_walker_link} 和 %{erik_schierboom_link}。"
+        },
+        "nfp_section": {
+          "title": "帮我们让 Exercism 对每个人、每个地方都保持免费。",
+          "subtitle": "Exercism 是开源的，并且 100% 免费。",
+          "description": "帮助我们通过代码练习和指导，让各种背景的人提升编程技能，为他们创造机会。"
+        }
+      },
+      "external": {
+        "title": "面向所有人的代码练习与指导",
+        "description": "通过我们独有的学习、练习与指导方式，熟练掌握 %{num_active_tracks} 门编程语言。Exercism 既有趣又有效，而且永远 100% 免费。",
+        "signup_button": "免费注册",
+        "explore_languages_button": "探索语言"
+      }
+    },
+    "advert": {
+      "tag_text": "福利",
+      "cta_text": "领取你的折扣"
+    },
+    "blog_post": {
+      "new_label": "新",
+      "published_time": "%{time_ago} 前",
+      "share_title": "分享这篇博客文章"
+    },
+    "community": {
+      "stories": {
+        "video_length": {
+          "label": "时长",
+          "hours": {
+            "other": "小时"
+          },
+          "minutes": {
+            "other": "分钟"
+          }
+        }
+      }
+    },
+    "community_solutions": {
+      "share_solution_button": {
+        "title": "分享 %{handle} 提交的解答",
+        "share_title": "在 Exercism 上查看这份提交的解答"
+      }
+    },
+    "contributing": {
+      "header": {
+        "title": "让我们一起打造最好的编程教育平台",
+        "intro_before_link": "Exercism 是一个 ",
+        "intro_link": "开源的非营利项目",
+        "intro_after_link": " 由来自各种背景的人共同构建。我们有一百多位专注的维护者和数千名贡献者，目标是打造网上最好的免费代码学习平台。",
+        "contributing_help": "贡献帮助",
+        "getting_started": "入门",
+        "explore_tasks": "探索任务",
+        "contributors": "贡献者"
+      }
+    },
+    "docs_main_nav": {
+      "home": "文档首页",
+      "using": "使用 Exercism",
+      "building": "构建 Exercism",
+      "mentoring": "指导",
+      "community": "社区",
+      "tracks": "特定轨道"
+    },
+    "docs_track_list": {
+      "doc_count": {
+        "other": "%{count} 篇文档"
+      }
+    },
+    "donate_with_crypto": {
+      "label": "使用加密货币捐赠"
+    },
+    "exercise": {
+      "unlock_on_complete_sentence": {
+        "with_concepts_html": "将 %{exercise_title} 标记为完成后，你将解锁 %{concepts}（%{concept_names}）和 %{exercises}。",
+        "without_concepts_html": "将 %{exercise_title} 标记为完成后，你将解锁 %{exercises}。",
+        "concept_count": {
+          "other": "%{count} 个概念"
+        },
+        "exercise_count": {
+          "other": "%{count} 个新练习"
+        }
+      }
+    }
+  },
+  "docs": {
+    "index": {
+      "meta_title": "Exercism 文档",
+      "meta_description": "我们关于如何使用和贡献 Exercism 的文档。所有与 Exercism 相关的问题都能在这里找到答案。",
+      "welcome_heading": "欢迎来到 Exercism 文档 👋",
+      "welcome_subtitle": "了解使用和贡献 Exercism 所需的一切。",
+      "using_exercism": {
+        "heading": "使用 Exercism",
+        "paragraph_html": "了解如何充分利用你在 Exercism 上的时间。找到所有问题的答案，明白如何充分利用指导，并学会做一个优秀的 Exercism 社区成员。",
+        "get_started_button": "开始使用"
+      },
+      "building_exercism": {
+        "heading": "构建 Exercism",
+        "paragraph": "我们关于构建 Exercism 的详尽文档。了解为轨道做贡献所需的一切，包括指南、规范和说明。",
+        "learn_more_link": "了解更多"
+      },
+      "mentoring": {
+        "heading": "指导",
+        "paragraph": "理解并掌握在 Exercism 上做指导的艺术。我们的文档会说明如何开始第一次指导、如何给出优质的反馈，以及如何使用指导界面。",
+        "learn_more_link": "了解更多"
+      },
+      "community": {
+        "heading": "社区",
+        "paragraph": "了解我们的社区如何运作、人们有哪些不同角色，以及你可以如何加入。学会做个积极的贡献者和优秀的社区成员。",
+        "learn_more_link": "了解更多"
+      },
+      "track_specific_docs_heading": "当然，还有各轨道专属文档"
+    },
+    "show": {
+      "meta_title": "%{doc_title} | Exercism 文档"
+    },
+    "track_index": {
+      "meta_title": "Exercism 的 %{track_title} 轨道文档",
+      "meta_description": "在 Exercism 上使用 %{track_title} 所需了解的一切。",
+      "track_title": "%{track_title} 文档",
+      "track_subtitle": "在 Exercism 上使用 %{track_title} 所需了解的一切。",
+      "explore_docs_paragraph": "浏览我们的 %{track_title} 文档，了解在 Exercism 上充分利用 %{track_title} 所需的一切，从安装 %{track_title}、运行测试，到学习这门语言和实用资源。"
+    },
+    "tracks": {
+      "meta_title": "Exercism 轨道文档",
+      "meta_description": "关于如何配合 Exercism 使用某门语言的轨道专属文档",
+      "heading": "轨道专属文档",
+      "subtitle": "浏览你正在学习、指导或参与建设的轨道的文档。"
+    }
+  },
+  "donations": {
+    "alternatives": {
+      "heading": "想找其他支付服务商？",
+      "text_html": "我们目前支持 Paypal 和 GitHub Sponsors 作为替代支付服务商。如果你觉得还有别的服务商值得我们加入，请联系 <a href=\"%{jeremy_url}\">Jeremy</a>。\n",
+      "jeremy": "Jeremy",
+      "paypal_button": "使用 Paypal 捐款",
+      "github_sponsors_button": "通过 GitHub Sponsors 捐款"
+    },
+    "donated": {
+      "title": "捐赠成功",
+      "thank_you_message_html": "非常感谢你支持我们的工作！你的捐赠将帮助我们不断改进 Exercism，并让它对所有人保持免费。",
+      "insiders_eligibility_html": "如果你的捐赠金额超过 $9.99，你就有资格获得 %{link_to_insiders}。",
+      "exercism_insiders": "Exercism Insiders",
+      "go_to_dashboard": "前往你的仪表盘"
+    },
+    "index": {
+      "header": {
+        "strong_text": "支持我们的目标：",
+        "heading": "让每个人都有平等的机会学习和精通编程。✨",
+        "paragraph_html": "如果你也和我们一样，希望让世界变得更美好 &amp; 更公平，请支持我们。<br><span class=\"font-medium\">你可以进一步了解我们的%{mission_link}、%{impact_link}和%{team_link}。</span>",
+        "mission": "使命",
+        "impact": "影响力",
+        "team": "团队"
+      },
+      "progress_bar": {
+        "monthly_donations": "每月捐赠：",
+        "sustainable_at": "达到可持续运营所需：",
+        "target_amount": "$25,000"
+      },
+      "logged_out_form": {
+        "heading": "请登录后使用借记卡或信用卡捐赠。",
+        "paragraph_html": "由于机器人不断发起攻击，现在使用借记卡或信用卡捐赠之前，我们要求每个人都先%{login_link}或%{signup_link}。你仍然可以使用下面的其他捐赠方式。对由此带来的不便，我们深表歉意！",
+        "log_in": "登录",
+        "sign_up": "注册"
+      },
+      "info_section": {
+        "heading_one": "关于捐赠，你需要了解的一切",
+        "paragraph_one": "为什么我们需要捐赠？运营 Exercism 需要多少成本？我们如何使用捐赠？观看 Jeremy 的讲解视频👇",
+        "heading_two": "以下是你可以支持我们的方式。",
+        "donate_card": {
+          "title": "捐赠",
+          "description_right_html": "使用右侧的捐赠框，在经济上支持我们。%{tail}\n",
+          "description_above_html": "使用上方的捐赠框，在经济上支持我们。%{tail}\n",
+          "tail_html": "每一美元都能帮助我们保持独立、无广告并不断成长，所以如果可以，请支持我们！💜\n"
+        },
+        "company_card": {
+          "title": "让你的公司参与进来",
+          "description_html": "你的公司会支持非营利组织或慈善机构吗？你的工作单位有配捐计划吗？我们很乐意和你聊聊，看看你的公司可以如何支持我们。请发邮件到%{email_link}，我们会进一步探讨！",
+          "email_address": "fundraising@exercism.org"
+        },
+        "social_card": {
+          "title": "喜欢 Exercism 吗？把我们介绍给更多人吧！",
+          "description_html": "在%{twitter_link}、%{github_link}和%{linkedin_link}上关注我们，然后分享我们的帖子，也可以创作你自己的内容！我们会尽量分享我们看到的一切🙂"
+        }
+      }
+    }
+  },
+  "community": {
+    "interviews": {
+      "index": {
+        "language_creators": {
+          "title": "与语言创造者的访谈",
+          "description": "和 Jeremy 一起，对话你喜爱的语言的创造者和维护者。"
+        },
+        "community_stories": {
+          "title": "社区故事",
+          "description": "和 Jonathan 一起，与我们的社区畅聊，探索他们作为程序员的故事和历程。"
+        },
+        "header": {
+          "title": "社区访谈与故事",
+          "description_p1": "在 Exercism，我们热衷于了解人们如何思考，以及这如何影响他们编程的方式。跟着 Jeremy 探索语言创造者的历程，跟着 Jonathan 了解我们社区成员的历程。如果你想出现在未来的视频中，",
+          "get_in_touch_link": "联系我们"
+        },
+        "subscribe_card": {
+          "title": "订阅获取更多内容",
+          "description": "别错过未来的节目。在 YouTube 和 Spotify 上订阅。",
+          "community_stories_youtube": "社区故事（YouTube）",
+          "language_creator_youtube": "语言创造者访谈（YouTube）",
+          "podcast_spotify": "播客（Spotify）"
+        }
+      }
+    },
+    "show": {
+      "main_section": {
+        "title": "加入我们的社区！",
+        "description_one": "借助 Exercism 社区加速你的学习。提出问题、探索想法，结识数百万正在 Exercism 上提升技能的其他开发者。",
+        "description_two": "加入我们的 Discord，进行交流并获得帮助。想深入讨论或报告 bug，请使用我们的论坛。",
+        "discord_button": "加入我们的 Discord 服务器",
+        "forum_button": "浏览我们的论坛",
+        "recent_forum_topics": "最近的论坛话题",
+        "latest_post_by": "%{poster_username} 的最新帖子"
+      },
+      "community_stories": {
+        "title": "倾听我们的社区故事",
+        "description": "倾听那些构建了 Exercism、为它做出贡献、并从中学习的人的故事。"
+      },
+      "help_us": {
+        "title": "帮助我们改变人生",
+        "description_one": "我们由社区驱动，也由社区资助。我们依靠像你这样的人的捐赠才能生存和发展。",
+        "description_two": "只有 1% 的人选择支持我们。请你也成为其中之一。",
+        "button": "了解你能如何提供帮助"
+      },
+      "contributors": {
+        "title": "贡献者"
+      }
+    },
+    "stories": {
+      "show": {
+        "back_to_community": "返回社区",
+        "watch_on_youtube": "在 Youtube 上观看",
+        "more_stories": {
+          "title": "来自我们社区的更多故事",
+          "description": "倾听、学习，并从我们的社区成员那里获得启发。"
+        }
+      },
+      "index": {
+        "title": "倾听我们社区的故事",
+        "description": "倾听那些构建了 Exercism、为它做出贡献、并从中学习的人的故事。"
+      }
+    },
+    "videos": {
+      "rhs": {
+        "live_event": {
+          "status": "正在直播"
+        },
+        "watch_on_one_html": "在 %{twitch_link} 观看",
+        "watch_on_both_html": "在 %{twitch_link} 或 %{youtube_link} 观看",
+        "featured_event": {
+          "status": "即将开始",
+          "live_at": "直播时间",
+          "save_date": "记下这个日期！"
+        },
+        "scheduled_events": {
+          "title": "即将开始的直播日程",
+          "description_one": "本日程会定期更新。所有活动都会在我们的",
+          "twitch_channel": "Twitch 频道",
+          "description_two": "订阅，别错过！",
+          "description_three": "所有时间均为 UTC。"
+        }
+      }
+    },
+    "brief_introductions": {
+      "index": {
+        "title": "简介系列",
+        "description_one": "通过我们的“简介”系列探索新的编程语言。跟着 Erik 一起了解一门语言的历史和基础知识，并动手解决一道练习。",
+        "description_two": "看看右侧他的最新视频，或者浏览下方的完整系列。"
+      }
+    }
+  },
+  "profiles": {
+    "intro": {
+      "locked": {
+        "reputation": {
+          "how_it_works": "这是怎么运作的？",
+          "unlock_message_html": "创建个人主页的功能在获得 <a href=\"%{reputation_doc_url}\" class=\"text-gradient !font-semibold\">%{profile_min_reputation} 声望</a> 后解锁",
+          "label": "你当前的声望是"
+        }
+      },
+      "top_section": {
+        "title": "在 Exercism 上展示你的作品",
+        "description_unlocked_html": "创建公开个人主页是展示你\n已发布的解答、评价和开源\n贡献的好方法。",
+        "description_locked_html": "创建公开个人主页是展示你\n已发布的解答、评价和开源\n贡献的好方法。 <a href=\"%{reputation_doc_url}\" class=\"text-gradient font-semibold\">获得 %{profile_min_reputation} 声望即可解锁个人主页创建。</a>",
+        "create_profile_button": "创建公开个人主页"
+      },
+      "reasons_section": {
+        "title": "为什么要创建公开个人主页？",
+        "improve_cv": {
+          "title": "让简历更出色",
+          "description": "在评估候选人简历时，很多雇主会青睐有开源贡献和开源活动的人"
+        },
+        "community_awareness": {
+          "title": "让社区认识你",
+          "description": "有了公开个人主页，别人就能更多地了解你，了解你是谁、你最近在做什么"
+        },
+        "help_awareness": {
+          "title": "帮助他人发现和学习",
+          "description": "你可以在个人主页上展示自己的精彩解答，供他人阅读、分析并从中学习"
+        }
+      }
+    },
+    "new": {
+      "header": {
+        "title": "创建你的公开个人主页"
+      }
+    },
+    "show": {
+      "meta_title": "%{user_handle} 在 Exercism 上的个人主页",
+      "meta_description": "看看 %{user_handle} 在 Exercism 上都做过什么。深入了解他们最有趣的解答、最出色的贡献和最鼓舞人心的评价。",
+      "published_solutions": {
+        "title": "已发布的解答",
+        "see_all_link": "查看 %{user_name} 的全部解答"
+      }
+    },
+    "solutions": {
+      "meta_title": "%{user_handle} 在 Exercism 上的解答",
+      "meta_description": "浏览 %{user_handle} 在 Exercism 上的解答，看看他们学到了什么。",
+      "introducer": {
+        "title": "展示代码与改进",
+        "description": "看看 %{user_handle} 完成 Exercism 上的练习后发布的解答，了解他们是如何在一次又一次的迭代中改进解答的。"
+      }
+    },
+    "testimonials": {
+      "meta_title": "%{user_handle} 在 Exercism 上收到的评价",
+      "meta_description": "浏览学员们在 Exercism 上留给 %{user_handle} 的评价，看看他们有多棒！",
+      "introducer": {
+        "title": "Exercism 导师会因出色的指导而收到评价",
+        "description": "学员会为在学习路上帮助过自己的导师留下评价。这些小小的感谢，意义却很大。"
+      },
+      "stats": {
+        "solutions_mentored": "指导过的解答",
+        "students_helped": {
+          "other": "帮助过的学员"
+        },
+        "testimonials_received": "收到的评价"
+      }
+    },
+    "tooltip": {
+      "location_label": "所在地"
+    },
+    "header": {
+      "details": {
+        "location_label": "所在地",
+        "pronouns_label": "代词",
+        "joined_at": "加入于 %{date}"
+      },
+      "bio": {
+        "read_more": "展开",
+        "read_less": "收起"
+      },
+      "badges": {
+        "count": {
+          "other": "已收集 %{count} 个徽章"
+        },
+        "see_all": "查看全部",
+        "badge_name": "徽章：%{name}"
+      },
+      "tags": {
+        "exercism_founder": "Exercism 创始人",
+        "staff": "Exercism 团队成员",
+        "maintainer": "维护者",
+        "insider": "Insider"
+      },
+      "tabs": {
+        "summary": "概览",
+        "contributions": "贡献",
+        "published_solutions": "已发布的解答",
+        "testimonials": "学员感言",
+        "badges": "徽章"
+      },
+      "external_links": {
+        "external_link_title": "这是一个外部链接"
+      }
+    },
+    "badges": {
+      "meta_title": "%{user_handle} 在 Exercism 上获得的徽章",
+      "meta_description": "浏览 %{user_handle} 在 Exercism 上获得的徽章，看看你自己还缺哪些",
+      "introducer": {
+        "title": "Exercism 成员通过做各种有趣的事情获得徽章",
+        "description": "使用 Exercism 既有趣又有收获：在学习、指导和贡献的过程中，你会自然而然地获得徽章。"
+      },
+      "summary": {
+        "badges_owned": {
+          "other": "已拥有的徽章"
+        }
+      }
+    },
+    "contributions": {
+      "meta_title": "%{user_handle} 对 Exercism 的贡献",
+      "meta_description": "看看 %{user_handle} 为 Exercism 做出了哪些贡献",
+      "introducer": {
+        "title": "Exercism 由 %{user_handle} 和你这样的人共同构建",
+        "description": "查看 %{user_handle} 对 Exercism 的贡献，以及他们为各个学习路径编写的练习和概念。"
+      }
+    }
+  },
+  "settings": {
+    "api_cli": {
+      "api_cli_settings": {
+        "heading": "API 与 CLI 设置"
+      }
+    },
+    "communication_preferences": {
+      "communication_preferences": {
+        "heading": "通信偏好"
+      }
+    },
+    "donations": {
+      "heading": "捐赠",
+      "monthly_supporter": {
+        "heading": "成为 Exercism 的月度支持者",
+        "info_html": "Exercism 是一家非营利组织，依靠社区的捐赠来发展。支持 %{mission_link}，帮助每个人在编程上不断进步。",
+        "mission_link_text": "我们的使命",
+        "find_out_more_button": "了解更多"
+      },
+      "summary": {
+        "total_donated": "累计捐赠",
+        "from_recurring": "来自定期捐赠",
+        "from_one_time": "来自一次性捐赠"
+      },
+      "payments_table": {
+        "date_header": "日期",
+        "amount_header": "捐款金额",
+        "type_header": "类型",
+        "via_header": "渠道",
+        "recurring_donation": "定期捐款",
+        "one_time_donation": "单次捐款",
+        "view_receipt_button": "查看收据"
+      },
+      "no_donations": {
+        "heading": "你的捐款会显示在这里",
+        "info_1": "捐款之后，你就能在这里看到所有捐款的记录。",
+        "info_2_html": "如果你已经给 Exercism 捐过款，但在这里看不到捐款记录，或者没有获得支持者徽章，请发邮件给<a href=\"%{email_url}\">Jeremy</a>，他会帮你处理。\n"
+      }
+    },
+    "github_syncer": {
+      "show": {
+        "github_syncer": {
+          "heading": "GitHub 同步器"
+        }
+      }
+    },
+    "insiders": {
+      "insiders": {
+        "heading": "Insiders"
+      }
+    },
+    "integrations": {
+      "heading": "集成",
+      "github": {
+        "heading": "GitHub",
+        "reputation_link_text": "声望",
+        "external_link_aria_label": "（在新标签页中打开）",
+        "linked_info_html": "你的 Exercism 和 GitHub 账号已关联。在 GitHub 上合并的任何拉取请求，都会为你的 Exercism 账号赢得%{reputation_link}。",
+        "unlinked_info_html": "如果你想在 GitHub 上提交拉取请求时，在 Exercism 上获得%{reputation_link}，请使用下面的按钮关联你的账号。",
+        "connect_button": "关联 GitHub"
+      },
+      "discord": {
+        "heading": "Discord",
+        "forum_link_text": "论坛",
+        "linked_info_html": "你的 Exercism 和 Discord 账号已关联。你应该会在 Discord 上获得正确的身份组。如果没有，请在%{forum_link}上发帖反馈。",
+        "disconnect_button": "断开与 Discord 的关联",
+        "unlinked_info": "为了在 Discord 上获得正确的身份组，请关联你的 Exercism 和 Discord 账号。",
+        "connect_button": "关联 Discord"
+      }
+    },
+    "show": {
+      "account_settings": {
+        "heading": "账号设置",
+        "confirmation_email_sent": "我们已向 %{email} 发送了一封确认邮件",
+        "resend_email_button": "重新发送邮件",
+        "reset_account": {
+          "heading": "重置账号",
+          "info_html": "重置账号将<strong>重置你在所有学习路径上的进度，</strong>重置所有练习，并移除你对之前所有导师指导的访问权限。"
+        },
+        "delete_account": {
+          "heading": "删除账号",
+          "info_strong": "此选项会彻底删除你的账号以及所有数据。",
+          "info_text": "你会有机会确认自己的选择。"
+        }
+      }
+    },
+    "user_preferences": {
+      "general_preferences": {
+        "heading": "通用偏好设置"
+      }
+    }
+  },
+  "training_data": {
+    "external": {
+      "locked": {
+        "unlock_info_html": "在单条赛道中获得 <a href=\"%{reputation_link}\" class=\"text-gradient !font-semibold\">%{track_min_reputation} 声望</a>后，就能解锁使用训练中心的功能",
+        "max_reputation_html": "你目前在某个轨道中的最高声望是",
+        "no_reputation": "你还没有在任何轨道中赢得声望。",
+        "how_it_works": "这是怎么运作的？"
+      },
+      "index": {
+        "title": "帮助我们打造更智能的 Exercism",
+        "description": "我们正在用机器学习提升 Exercism 理解人们提交的代码的能力，这既依靠我们自己的数据，也依靠众包的力量。",
+        "bonus_reputation": "额外奖励：帮助我们还能获得声望！",
+        "become_trainer": "成为训练师 →",
+        "sign_up_to_help": "注册来帮助我们",
+        "log_in": "登录"
+      }
+    },
+    "header": {
+      "title": "训练数据",
+      "tagging_guides": "标签指南",
+      "tags": "标签"
+    }
+  },
+  "unsubscribe": {
+    "show": {
+      "title": "管理你的通信偏好",
+      "single_email_unsubscribe": {
+        "heading": "退订这封邮件",
+        "button": "退订邮件"
+      },
+      "all_emails_unsubscribe": {
+        "heading": "退订所有邮件",
+        "button": "退订所有邮件"
+      },
+      "manage_notifications": {
+        "heading_signed_in": "管理你的所有通知",
+        "heading_signed_out": "管理你的所有通知",
+        "login_prompt": "请登录以管理每一项通信偏好",
+        "login_link": "登录"
+      }
+    }
+  },
+  "user_onboarding": {
+    "show": {
+      "header": {
+        "title": "就在你开始之前…… 📝",
+        "subtitle_html": "非常高兴你能来到这里，希望 Exercism 能为你带来有价值又充满乐趣的体验。<strong>为了确保你能获得预期的体验，也为了保护我们的社区，我们需要先快速处理几个法律方面的小事项。</strong>"
+      },
+      "terms_section": {
+        "title": "我们的服务条款",
+        "summary": "概括来说，我们的服务条款规定：",
+        "code_of_conduct_html": "依据我们的 %{code_of_conduct_link}，你的行为必须符合 Exercism 尊重与共情的价值观。如果你违反了，我们有权封禁你对平台的使用。",
+        "property_license": "你提交到网站的任何内容（例如你的解答、反馈等）仍然归你所有，但你授予 Exercism 永久按我们的意愿使用它的许可。",
+        "licences_html": "你可以分别依照 %{mit_license_link} 和 %{cc_sa_4_license_link} 许可，使用练习（由 Exercism 提供）和解答（由用户创建）。",
+        "full_terms_html": "你可以阅读完整的 %{terms_of_service_link}。",
+        "code_of_conduct_link_text": "行为准则",
+        "terms_of_service_link_text": "服务条款",
+        "accept_terms": "我接受 Exercism 的服务条款"
+      },
+      "privacy_policy_section": {
+        "title": "隐私政策",
+        "summary_html": "我们的隐私政策既友好又简单。它规定：<strong>我们绝不会把你的个人信息分享给 Exercism 以外的任何人，</strong>我们也不使用第三方 cookie，所以在这里没有人会追踪你。你可以 %{privacy_policy_link}。",
+        "privacy_policy_link_text": "在这里阅读全文",
+        "accept_privacy_policy": "我接受 Exercism 的隐私政策"
+      },
+      "save_button": "保存并开始"
+    }
+  },
+  "dashboard": {
+    "tracks_section": {
+      "view_all_tracks_link": "查看你的全部学习路径",
+      "discover_more_tracks_link": "发现更多学习路径",
+      "title": "你的轨道",
+      "track_count_aria_label": {
+        "other": "%{count} 个轨道"
+      },
+      "exercises_completed": "已完成 %{completed} / %{total} 个练习"
+    },
+    "tracks_zero_section": {
+      "title": "你还没有加入任何学习路径。",
+      "description_part_1": "从超过",
+      "description_part_2": "%{num_tracks} 种语言的学习路径中挑选，",
+      "description_part_3": "从日常常见到稀奇古怪的都有，现在就开始你的代码练习吧。",
+      "browse_tracks_link": "浏览 %{num_tracks} 种语言的学习路径"
+    },
+    "show": {
+      "summary_bar": {
+        "badges": {
+          "more": "+ %{count} 个"
+        },
+        "journey_link": "查看你在 Exercism 上的学习历程"
+      },
+      "header_intro": {
+        "welcome": "欢迎回来，%{user_handle}！",
+        "welcome_message": "完成编程练习，接受导师指导，逐步熟练掌握你所选的编程语言。",
+        "exercism_status": "Exercism 是开源的，也是非营利性的。"
+      },
+      "where_to_start": "从哪里开始…",
+      "actions": {
+        "continue_learning": "在你的学习路径上继续学习",
+        "try_mentoring": "试一试做导师",
+        "get_involved": "参与到社区中来",
+        "donate": "捐款，帮助我们持续成长"
+      },
+      "community_posts": {
+        "title": "社区帖子",
+        "see_all_link": "查看全部社区帖子"
+      },
+      "new_on_exercism": {
+        "title": "Exercism 上的新内容"
+      },
+      "live_event": {
+        "live_now": "正在直播"
+      },
+      "watch_on_one_html": "在 %{twitch_link} 上观看",
+      "watch_on_both_html": "在 %{twitch_link} 或 %{youtube_link} 上观看",
+      "featured_event": {
+        "coming_soon": "即将开始",
+        "live_at": "直播时间",
+        "save_the_date": "记住这个日子！"
+      },
+      "scheduled_events": {
+        "title": "即将开始的直播日程",
+        "full_message_html": "这份日程会定期更新，所有活动都会在我们的 %{twitch_channel_link} 上直播，记得订阅，以免错过！",
+        "twitch_channel": "Twitch 频道",
+        "all_times_utc": "所有时间均为 UTC。"
+      }
+    },
+    "48in24": {
+      "week_of_challenge": "#48in24 第 %{week} 周",
+      "featuring_exercise": "本期推荐 %{exercise_title}",
+      "watch_deep_dive": "👇 观看我们与 Erik 和 Jeremy 的深度解析！",
+      "explore_all_link": "浏览 #48in24 的全部内容"
+    },
+    "mentoring_completed": {
+      "title": "指导讨论已全部完成",
+      "description": "看来你的工作区和队列都已经清空了。太棒了！"
+    },
+    "mentoring_inbox": {
+      "title": "指导",
+      "discussion_aria_label": "查看 %{student_handle} 的个人资料",
+      "exercise_on": "在 %{exercise_title} 中",
+      "time_ago": "%{time_ago}前",
+      "see_all_mentoring_link": "查看你正在指导的所有人"
+    },
+    "mentoring_queue": {
+      "title": "你的工作区已清空。",
+      "description": "你有时间再指导一些学生吗？",
+      "link": "查看指导队列"
+    },
+    "mentoring_zero": {
+      "title": "成为导师",
+      "description": "指导是巩固自己学习成果的好方法，也能帮助学生学习和发现他们不了解的东西。",
+      "try_mentoring_now_link": "立即开始指导",
+      "learn_more_link": "了解更多"
+    }
+  },
+  "jiki": {
+    "scrolling_testimonials": {
+      "testimonials": {
+        "bootcamp_pure_gold": "“这个训练营含金量十足。”",
+        "wonderful_learning_experience": "“绝妙的学习体验”",
+        "proper_hands_on_learning": "“真正的动手实践学习”",
+        "knowledge_didnt_think_needed": "“那些你没想到自己需要的知识”",
+        "recommended": "“100% 推荐！”",
+        "so_glad_stumbled": "“很庆幸我偶然发现了这个”",
+        "great_way_learn": "“很棒的学习方式！”",
+        "fun_exercises_clear_explanations_cool_hats": "“有趣的练习、清晰的讲解、超酷的帽子”",
+        "exceptional_course_outstanding": "“卓越的课程，真的出类拔萃”",
+        "addictive_good_way": "“让人上瘾，不过是好的那种”",
+        "amazing_fun": "“超级好玩”",
+        "fantastic_community": "“很棒的社区”",
+        "zero_coding_experience_required": "“无需任何编程经验”",
+        "fun_inspiring": "“有趣又鼓舞人心”",
+        "changed_way_think": "“它改变了我对学习的看法”",
+        "rewarding_journey": "“一段收获满满的旅程”",
+        "insane_value": "“超值的体验”",
+        "opportunity_learn_master": "“向真正的大师学习的机会”",
+        "amazing_lovely_thing": "“这真的是一件既惊艳又美好的事”",
+        "best_investment": "“今年我在自己身上做的最好的投资”",
+        "increased_confidence_motivation": "“它极大地提升了我的信心和动力”",
+        "supportive_community": "“非常互帮互助的社区！”",
+        "even_prior_programmer_transformative": "“即使我以前就是个程序员，它依然带来了脱胎换骨的改变！”",
+        "challenge_fun": "“挑战与乐趣的完美结合”",
+        "amazing_value": "“超值”",
+        "best_time_investment": "“多年来最值得的时间投入”",
+        "incredibly_fun": "“太好玩了！”",
+        "transformative": "“它带来了脱胎换骨的改变！”",
+        "will_learn_code": "“你*一定*能学会编程”",
+        "learning_as_should_be": "“学习本该如此！”",
+        "best_course_done": "“我上过的最好的课程”",
+        "made_learning_joy": "“让学习重新变成一件乐事”"
+      }
+    },
+    "testimonials": {
+      "heading": "我们的学生怎么说？",
+      "subheading_html": "这些是我们的测试用户说过的一些话的节选。%{link_to_read_more}",
+      "subheading_link": "在这里阅读完整版！",
+      "primary_quote_text": "看到这门课程倾注了如此多的心血、思考，甚至爱，能在这里当学生真是一种享受。每一段讲解、每一个练习，都让这门课程成为一件杰作。我非常喜欢。",
+      "primary_quote_description": "编程新手"
+    }
+  },
+  "journey": {
+    "hero": {
+      "privacy": {
+        "private": "私密",
+        "explanation": "除了你，没有其他人能看到"
+      },
+      "title": "你的旅程",
+      "subtitle": "回顾你在 Exercism 上的时光",
+      "more_tracks": "+ 还有 %{count} 个"
+    }
+  },
+  "about": {
+    "team": {
+      "staff_team": {
+        "aron_demeter": {
+          "image_alt": "Aron Demeter 的图片",
+          "handle": "前端开发者",
+          "bio_html": "Áron 是一名自学成才的开发者，热衷于发现事物之间的相互联系。他拥有古典钢琴演奏硕士学位。闲暇时，他喜欢陪伴家人、在 Exercism 上学习新的语言，或者听歌剧。"
+        },
+        "title": "员工",
+        "description": "我们的员工负责管理网站、CLI 以及 Exercism 的运营事务，确保我们为所有使用 Exercism 的人提供安全可靠的体验。",
+        "erik_schierboom": {
+          "image_alt": "Erik Schierboom 的照片",
+          "handle": "开源负责人",
+          "bio_html": "Erik 是一位热爱学习新语言的多语言开发者。他构建了支撑平台开源部分的软件和基础设施，确保每条学习路径都能带来愉快的体验。在转为全职之前，他曾是 Exercism 的顶尖志愿者。",
+          "personal_site_link": "Erik 的个人网站"
+        }
+      },
+      "alumni_team": {
+        "title": "往届成员",
+        "description": "这些成员曾在 Exercism 全职工作，后来踏上了新的旅程。我们心怀感激地铭记他们留下的贡献！",
+        "nicole_chalmers": {
+          "image_alt": "Nicole Chalmers 的图片",
+          "bio_html": "Nicole 是 %{kaido_link} 的产品负责人。她在 Exercism 担任产品负责人两年，带领我们从 v1 走到 v2，并帮助确立了至今仍推动着 Exercism 发展的原则和理念。",
+          "kaido_link_text": "Kaido"
+        },
+        "charles_care": {
+          "image_alt": "Charles Care 的图片",
+          "bio": "Charles 是构建 Exercism v2 的团队成员之一，主要负责服务端代码和基础设施。他参与搭建了自动化指导平台的第一版，以及 Github 集成。"
+        },
+        "karlo_soriano": {
+          "image_alt": "Karlo Soriano 的图片",
+          "bio": "Karlo 负责 Exercism 网站部分的工作。他为 v3 打造了网站大部分的交互式前端，并为 Rails 后端平台做出了大量贡献。"
+        },
+        "taiyab_raja": {
+          "image_alt": "Taiyab Raja 的图片",
+          "bio": "Taiyab 是 Exercism v3 精美视觉和用户体验背后的设计师。他热爱初创公司、设计和创业的一切。"
+        },
+        "loretta_murray": {
+          "image_alt": "Loretta Murray 的图片",
+          "bio": "Loretta 曾在 2022 至 2023 年间担任 Exercism 的募资负责人。她深受募资所带来的变革力量激励，同时也是一名持证商业教练，热衷于培养募资人员的技能。"
+        },
+        "jonathan_middleton": {
+          "image_alt": "Jonathan Middleton 的图片",
+          "bio": "Jonathan 曾在 2022 至 2023 年间担任 Exercism 的社区经理。他喜欢与人交流，乐于倾听人们如何走到今天的故事。他求知欲强，一直在慢慢地学习编程。"
+        }
+      },
+      "community_teams": {
+        "maintainers": {
+          "title": "轨道维护者",
+          "description": "我们的维护者是 Exercism 上语言轨道和练习的关键支柱。他们为我们 %{num_lang} 门语言分别创建和整理练习，并协助我们确保 Exercism 以尽可能地道的方式教学员。",
+          "link_text": "查看所有 Exercism 维护者"
+        },
+        "mentors": {
+          "title": "导师",
+          "description": "我们的导师是 Exercism 背后的人性化力量，为学员提交的解答提供富有同理心的反馈。他们是让 Exercism 焕发生机的魔力所在。",
+          "link_text": "查看所有 Exercism 导师"
+        },
+        "contributors": {
+          "title": "开源贡献者",
+          "description": "Exercism 之所以能取得今天的成功，离不开两千多名志愿者贡献者的付出。他们以各种方式创造价值，从编写工具到创建你解答的练习。",
+          "link_text": "查看所有贡献者"
+        }
+      },
+      "meta_title": "Exercism 团队",
+      "meta_description": "了解谁在运营 Exercism，认识我们的理事、领导层和全职团队。",
+      "our_team": "我们的团队",
+      "built_by_people_worldwide": "Exercism 由来自世界各地的人们共同打造 🙌",
+      "stats": {
+        "contributors": "超过 %{count} 位贡献者",
+        "countries": "%{count} 个国家",
+        "github_repos": "%{count} 个 GitHub 代码仓库"
+      },
+      "map_alt_text": "一张世界地图，上面标有 Exercism 贡献者的头像",
+      "info_box": {
+        "title": "数千人支持了我们的愿景，并帮助打造了 Exercism。",
+        "description": "Exercism 依靠领导团队和员工，一支由约一百名维护者和核心贡献者组成的更大团队，以及数千人点点滴滴的贡献。除了对产品的这些贡献之外，我们社区还有数万名成员通过提供反馈、帮助他人作出了贡献。"
+      },
+      "leadership_team": {
+        "title": "领导团队",
+        "description": "我们的领导团队负责 Exercism 的战略和组织事务。他们负责践行我们的使命宣言，并维护我们的价值观。",
+        "katrina_owen": {
+          "image_alt": "Katrina 的照片",
+          "handle": "联合创始人兼董事",
+          "bio_html": "Katrina 是 Exercism 的创始人。她是 %{book_link} 的合著者。她是一位多语言开发者，曾获 Ruby Hero 奖，拥有分子生物学学位。她非常关心开源，并在 Exercism 之外的多个项目中有所贡献。",
+          "book_link_text": "99 Bottles of OOP",
+          "personal_site_link": "Katrina 的个人网站"
+        },
+        "jeremy_walker": {
+          "image_alt": "Jeremy Walker 的照片",
+          "handle": "联合创始人兼 CEO",
+          "bio_html": "Jeremy 是一位企业家和软件开发者，对平等与机会充满热情。他联合创办了多家机构，包括 Meducation、Wondr Medical 和 %{kaido_link}，并持有一项用于心脏手术的人工智能专利。",
+          "personal_site_link": "Jeremy 的个人网站",
+          "kaido_link_text": "Kaido"
+        }
+      }
+    },
+    "hiring": {
+      "meta_title": "Exercism 正在招聘！",
+      "meta_description": "加入这个充满热情的团队，一起让编程教育变得有趣又高效。以下是我们正在招聘的一些职位。",
+      "header": {
+        "title": "我们目前没有招聘。",
+        "description": "请日后再来看看有没有新的职位！"
+      }
+    },
+    "show": {
+      "meta_title": "关于 Exercism",
+      "meta_description": "了解 Exercism：我们的愿景、使命和战略。",
+      "header": {
+        "title": "Exercism",
+        "slogan": "我们正在打造一个地方，让任何人都能免费学习和精通编程，而且永远不会感到迷茫或觉得自己很笨。",
+        "donate_button": "向 Exercism 捐款"
+      },
+      "purpose_section": {
+        "title": "宗旨",
+        "description": "我们的目标是帮助每个人真正精通编程，无论他们来自什么背景。我们希望分享对编程的热爱，帮助人们提升技能，实现向上的社会流动。"
+      },
+      "goals_section": {
+        "goal_1": {
+          "title": "达到精通",
+          "description": "我们希望人们体验到编程的快乐，那种成为熟练程序员后带来的深深满足感。"
+        },
+        "goal_2": {
+          "title": "享受乐趣",
+          "description": "培养编程技能应该让人感到充实又有趣，而不是充满竞争、令人沮丧或压力重重。"
+        },
+        "goal_3": {
+          "title": "社会流动性",
+          "description": "我们希望每一个人，尤其是经济困难的人，都能通过学习编程实现向上流动。"
+        }
+      },
+      "principles_section": {
+        "title": "原则",
+        "principle_1": "Exercism 应该有趣、有挑战性、有价值。",
+        "principle_2": "Exercism 应该鼓励成长型思维、清晰而富有同理心的沟通，并强调共同学习的价值。",
+        "principle_3": "Exercism 应该让人感到安全、被关怀。",
+        "principle_4": "Exercism 关注的是学习的过程，而不是终点。学习的过程和其中的乐趣，比绝对的事实正确更重要。"
+      },
+      "leadership_section": {
+        "title": "Exercism 如何运作",
+        "description": "Exercism 的发展，既依靠自上而下的领导，也依靠社区的共同协作。我们相信大多数决定都值得花时间慢慢做，所以在行动之前我们会认真思考。",
+        "reflective": {
+          "title": "善于反思",
+          "description": "我们注重战略驱动和产品驱动，着眼长期，而不只是眼前的影响，并考虑决定带来的整体影响。我们与关键的志愿者贡献者紧密合作，广泛收集意见和知识，认清自身的优势与不足，努力让 Exercism 每天都变得更好，同时始终专注于我们的长期愿景。"
+        },
+        "small_team": {
+          "title": "小团队，大愿景",
+          "description": "我们也非常重视质量。我们希望自己做的事情是好的：运行良好、对所有人无障碍、富有创新。我们有一个很小的核心团队，负责确保 Exercism 按照它的愿景成长和演进。依靠社区的捐赠、慈善家和慈善基金会的支持，我们正以可持续且负责任的方式扩大团队。我们设有资金里程碑，对外公布并以此筹款，让我们能够雇用更多人来继续开发。"
+        },
+        "ethics": {
+          "title": "以道德为根基",
+          "description": "我们力求公平地支付报酬，既尊重并考虑员工的时间与价值，也尊重捐赠者的慷慨。作为一家公司和雇主，我们行事合乎道德：尊重团队，绝不要求他们做我们自己不会做的事，也不使用我们不愿被用在自己身上的技术或手段。"
+        }
+      },
+      "donate_section": {
+        "title": "帮助我们把编程的乐趣带给世界各地的每一个人 ✨",
+        "description": "我们依靠开源贡献和现金捐赠来实现我们的使命。你能否抽出一些时间或金钱来支持我们的使命？",
+        "donate_button": "捐赠给 Exercism",
+        "tasks_button": "查看需要帮助的任务"
+      }
+    },
+    "testimonials": {
+      "meta_title": "Exercism 用户感言",
+      "meta_description": "看看我们的学员和导师如何评价在 Exercism 上的学习和指导。",
+      "heading": "大家眼中的 Exercism"
+    },
+    "impact": {
+      "meta_title": "Exercism 影响力报告",
+      "meta_description": "我们已经为超过 100 万人提供了超过 3.1 亿分钟的免费学习。想了解更多，请看我们的影响力报告！",
+      "header": {
+        "title": "Exercism 影响力报告",
+        "provided_text_html": "我们已经提供了 %{highlight_open}%{count}%{highlight_close} %{highlight_unit_open}分钟%{highlight_unit_close}的免费教育。\n",
+        "daily_minutes_provided": "而且我们每天还会再提供约 285,340 分钟！",
+        "funding_info": "这一切都建立在一个免费的开源项目上，由像你这样的人资助。"
+      },
+      "stats": {
+        "students": "学员",
+        "exercise_submissions": "练习提交",
+        "mentoring_discussions": "指导讨论"
+      },
+      "languages_taught": "Exercism 采用学习、练习与指导相结合的独特方式，教授从 %{first_language} 到 %{last_language} 的 %{num_languages} 门编程语言。",
+      "everything_is_free": "Exercism 上的一切都 100% 免费。",
+      "live_activity": "Exercism 上的实时动态",
+      "testimonials": {
+        "dapritchard_html": "%{twitter_handle} 真的太棒了。我提交的解答一直通不过测试……我请求指导帮我理清问题，结果不到 15 分钟就有人给我留言，解释我的错误。",
+        "zippkode_html": "……我在 %{twitter_handle} 上做了 Ruby 的字符串练习，这个平台逼着我慢下来，真正用逻辑去解决问题……",
+        "alebaffa_html": "我一直很喜欢 %{twitter_handle}，因为在这里学到的不仅是一门语言的语法，还有它的开发环境：如何配置测试、打包和构建。超棒的资源！"
+      },
+      "volunteers_section": {
+        "title": "Exercism 由一支庞大的优秀志愿者团队驱动。",
+        "mentors_label": "导师",
+        "code_contributors_label": "代码贡献者",
+        "full_time_staff_label": "全职员工"
+      },
+      "support_section": {
+        "emoji_aria_label": "鼓掌",
+        "call_to_action_title": "Exercism 有没有帮你成为更出色的开发者？",
+        "call_to_action_paragraph_one": "如果 Exercism 帮助你改善了职业前景，或者给你带来了快乐，请考虑在经济上支持我们。",
+        "call_to_action_paragraph_two": "使用 Exercism 的人中，只有 1% 会支持我们。希望你能成为其中之一。",
+        "support_button": "看看你可以怎样支持我们"
+      },
+      "partners_section": {
+        "title": "特别感谢这些机构……",
+        "donors_sentence_html": "还有超过 <a href=\"%{donors_url}\" class=\"underline hover:text-lightBlue\">700 位个人捐赠者！</a>\n"
+      },
+      "growth_section": {
+        "title": "我们完全依靠口口相传，发展到了超过 %{num_users} 名学员。",
+        "description": "我们与社区紧密合作，了解如何让 Exercism 不断进化，成为最好的样子；他们则通过分享给朋友来回报我们。"
+      },
+      "mission_cta": {
+        "jeremy_walker_photo_alt": "Jeremy Walker 的照片",
+        "title": "成为我们使命的火箭燃料",
+        "description": "我们用不到 50 万美元建起了这一切。想象一下，如果资金更多，我们能做成什么！你愿意成为促成这件事的人吗？",
+        "organization_support_title": "有兴趣以机构身份支持 Exercism 吗？",
+        "contact_prefix": "请联系",
+        "contact_suffix": "联合创始人兼 CEO"
+      },
+      "testimonials_section": {
+        "title": "超过 85,000 名学员留下了感言，感谢自己的导师。"
+      }
+    },
+    "individual_supporters": {
+      "meta_title": "支持 Exercism",
+      "meta_description": "这些了不起的人在经济上帮助支持了 Exercism",
+      "header": {
+        "title_html": "我们的 %{highlight} 位个人捐赠者",
+        "title_highlight": "慷慨的",
+        "subtitle": "%{count} 位慷慨的人已向 Exercism 捐款"
+      },
+      "cta": {
+        "logo_alt": "Exercism 徽标",
+        "title": "帮助我们让每个人、每个地方都能享受编程的乐趣！",
+        "description": "你愿意帮助支持 Exercism 吗？一点一滴都很重要。",
+        "button": "立即捐款"
+      },
+      "donor": {
+        "avatar_alt": "%{name} 上传的头像",
+        "first_supported": "首次支持于 %{time_ago} 前"
+      },
+      "missing": {
+        "title": "为什么我不在这个页面上？",
+        "body_html": "这个页面旨在展示所有曾为 Exercism 提供资金支持的个人。严格来说，它列出的是所有被授予支持者徽章、并在其%{donations_settings_link}中开启了“出现在支持者页面上？”开关的人。通过 Exercism 网站捐款，系统会自动授予你支持者徽章。但如果是通过第三方网站（例如 GitHub）捐款，你可能需要发邮件到 %{email_link}，请我们手动授予徽章。",
+        "donations_settings_link_text": "捐款设置",
+        "email_link_text": "donations@exercism.org"
+      }
+    },
+    "partners": {
+      "index": {
+        "supporters_section": {
+          "mozilla": {
+            "description": "<strong>%{mozilla}</strong>支持我们打造了自动分析器。他们资助了产品设计、原型和分析器基础设施，为导师节省了数千小时的时间，并大幅缩短了学生的等待时间。",
+            "alt": "Mozilla"
+          },
+          "learn_more": "了解更多",
+          "title": "我们的支持者",
+          "chicago": {
+            "alt": "芝加哥大学",
+            "university_of_chicago_text": "芝加哥大学",
+            "the_sloan_foundation_text": "斯隆基金会",
+            "description": "<strong>%{university_of_chicago}</strong>与<strong>%{the_sloan_foundation}</strong>合作，资助了 Exercism v3 的创建。这是一项更广泛研究项目的一部分，研究人们如何跨多种编程语言发展和积累编程技能与知识。"
+          }
+        },
+        "individual_supporters": {
+          "alt": "个人支持者",
+          "title": "Exercism 还得到了 %{num_individual_supporters} 位慷慨人士的支持",
+          "link_label": "查看所有个人支持者"
+        },
+        "meta": {
+          "title": "支持 Exercism",
+          "description": "你的机构能帮助 Exercism 成长吗？成为推动我们使命的火箭燃料！"
+        },
+        "header": {
+          "title": "成为我们使命的<strong>火箭燃料</strong>",
+          "description": "与我们合作或捐款，支持我们为全世界带来免费代码学习与练习的使命。"
+        },
+        "cta": {
+          "jeremy_walker_photo_alt": "Jeremy Walker 的照片",
+          "title": "想聊聊你能如何帮助 Exercism 吗？",
+          "description": "联系<strong>Jeremy Walker</strong>，Exercism 的首席执行官。",
+          "email_label": "jeremy@exercism.org"
+        },
+        "support_goals": {
+          "title": "来自资助方的支持对实现 Exercism 的目标至关重要",
+          "paragraph1": "虽然 Exercism 的许多工作由我们的志愿者社区承担，但网站和核心基础设施由一个全职团队管理。",
+          "paragraph2": "我们还会开展一些规模较大的特定项目，比如开发自动分析器。这些项目需要一支专注的团队在一段固定时间内更密集地投入其中。",
+          "paragraph3": "为了给这个核心团队和这些产品提供资金，我们依靠来自公司或机构的资助，它们愿意为我们让每个人都能获得免费编程教育的愿景贡献力量。"
+        },
+        "areas_of_collaboration": {
+          "title": "机构迄今为止支持过我们的领域",
+          "fundraising": "筹款",
+          "research_projects": "研究项目",
+          "track_development": "轨道开发",
+          "developing_automation": "开发自动化",
+          "community_building": "社区建设",
+          "servers_and_infrastructure": "服务器与基础设施"
+        }
+      },
+      "packt": {
+        "see_all_supporters": "查看我们的所有支持者",
+        "supported_by_prefix": "Exercism 由以下机构支持",
+        "org_supports_exercism": "%{org_name} 支持 Exercism",
+        "packt_partnership_description": "Packt Publishing 是 Exercism 的核心合作伙伴，帮助我们发展平台的筹款和内容业务。他们赞助了我们新设立的筹款岗位，目前我们正在深化这一合作，并将在 2022 年初正式推出。",
+        "about_packt_publishing": "关于 Packt Publishing",
+        "packt_about_p1": "Packt 是一家专注于技术实际应用的科技出版商。Packt 的作者大多是奋战在一线的开发者，他们的工作就是在源源不断的新技术中厘清哪些真正管用、怎样才能把事情做成。Packt 的读者和用户是忙于构建解决方案和应用的工程师，他们想知道一项技术在实践中表现如何，以及是否值得使用。",
+        "packt_about_p2": "Packt 支持 Exercism 的使命，让通往多语言精通之路更顺畅。我们与 Exercism 有着共同的价值观：不依附于任何单一平台或语言，并相信工程师们希望作为一个同行社区彼此支持、互相帮助。Packt 的图书和出版业务旨在提供一套结构化的实用知识，与 Exercism 这样出色的平台相互补充。我们双方都为经验丰富的专业人士提供了与更广泛的科技社区分享知识和经验的途径。"
+      },
+      "gobridge": {
+        "see_all_supporters": "查看我们的所有支持者",
+        "supported_by": "Exercism 由以下机构支持",
+        "gobridge_alt": "GoBridge",
+        "how_gobridge_supports_exercism": "GoBridge 如何支持 Exercism",
+        "support_description": "2021 年，GoBridge 捐出一大笔款项，支持 Exercism Teams 的开发，特别是让我们得以在新的 Exercism 编辑器中为学生与导师的互动打下基础。",
+        "about_gobridge_title": "关于 GoBridge",
+        "about_gobridge_description": "<strong>%{gobridge_text}</strong>的使命是让科技行业的少数群体能够将 Go 作为学习和教授编程的工具，并最终赋能科技行业中代表性不足的群体，帮助提升 Go 社区的多样性。这与我们通过编程教育提供机会的使命完美契合，所以我们非常高兴能够启动这项合作。<strong>%{gobridge_text}</strong>和<strong>%{go_developer_network_text}</strong>将在各自的网络中推广 Exercism，我们也期待有大量 Go 导师和学生加入。",
+        "go_developer_network_text": "Go Developer Network"
+      }
+    },
+    "organisation_supporters": {
+      "supporters_section": {
+        "chicago": {
+          "description": "<strong>%{university_of_chicago}</strong>与<strong>%{the_sloan_foundation}</strong>合作，资助了 Exercism v3 的创建。这是一项更广泛研究项目的一部分，研究人们如何跨多种编程语言发展和积累编程技能与知识。",
+          "alt": "University of Chicago",
+          "university_of_chicago_text": "University of Chicago",
+          "the_sloan_foundation_text": "The Sloan Foundation"
+        },
+        "mozilla": {
+          "alt": "Mozilla",
+          "description": "<strong>%{mozilla}</strong>支持我们创建了自动分析器。他们资助了产品设计、原型和分析器基础设施，节省了导师数千小时的时间，并大幅缩短了学生的等待时间。"
+        },
+        "learn_more": "了解更多",
+        "title": "我们的支持者",
+        "packt": {
+          "alt": "Packt Publishing",
+          "description": "<strong>%{packt_publishing}</strong>是 Exercism 的核心合作伙伴，帮助我们在筹款和平台内容两方面发展。他们赞助了我们新设的筹款岗位，目前我们正在深化合作，并将在 2022 年初正式启动。"
+        },
+        "gobridge": {
+          "alt": "GoBridge",
+          "description": "2021 年，我们成为<strong>%{gobridge}</strong>和<strong>%{go_developer_network}</strong>的官方指导平台。作为合作的一部分，他们慷慨地捐出了一笔可观的资金，支持 Exercism Teams 的开发。",
+          "go_developer_network_text": "Go Developer Network"
+        }
+      },
+      "individual_supporters": {
+        "alt": "个人支持者",
+        "title": "Exercism 也得到了慷慨的个人支持",
+        "link_label": "查看我们的全部 %{num_individual_supporters} 位个人支持者"
+      },
+      "meta": {
+        "title": "支持 Exercism",
+        "description": "你的机构能帮助 Exercism 成长吗？成为我们使命的火箭燃料吧！"
+      },
+      "header": {
+        "title": "成为我们使命的<strong>火箭燃料</strong>",
+        "description": "与我们合作，或者捐款支持我们的使命：把免费的代码学习与练习带给全世界。"
+      },
+      "cta": {
+        "jeremy_walker_photo_alt": "Jeremy Walker 的照片",
+        "title": "想聊聊你能怎样帮助 Exercism 吗？",
+        "description": "联系<strong>Jeremy Walker</strong>，他是 Exercism 的 CEO。",
+        "email_label": "jeremy@exercism.org"
+      },
+      "support_goals": {
+        "title": "资助方的支持对实现 Exercism 的目标至关重要",
+        "paragraph1": "虽然 Exercism 的许多部分由我们的志愿者社区运营，但网站和核心基础设施由一个全职团队管理。",
+        "paragraph2": "我们还会开展一些规模较大的专项项目，比如开发自动化分析器。这类项目需要一支专注的团队在一段固定的时间内更密集地投入其中。",
+        "paragraph3": "为了给这支核心团队和这些产品提供资金，我们依靠那些愿意为我们愿景出力的公司或机构提供资助，帮助为每个人提供免费的编程教育。"
+      },
+      "areas_of_collaboration": {
+        "title": "机构迄今为止支持过我们的领域",
+        "fundraising": "筹款",
+        "research_projects": "研究项目",
+        "track_development": "学习赛道开发",
+        "developing_automation": "开发自动化",
+        "community_building": "社区建设",
+        "servers_and_infrastructure": "服务器与基础设施"
+      }
+    }
+  },
+  "blog_posts": {
+    "show": {
+      "share_bar": {
+        "useful_short_question": "觉得这篇文章有用吗？",
+        "useful_short_prompt": "分享出去吧！",
+        "useful_long_question": "觉得这篇文章有趣或有帮助吗？",
+        "useful_long_prompt": "分享出去，让更多人受益！"
+      },
+      "content": {
+        "useful_cta": "觉得有用吗？"
+      },
+      "byline": {
+        "published_by": "作者："
+      },
+      "other_posts": {
+        "more_from_blog": "更多博客文章",
+        "community_posts": "其他社区文章",
+        "view_all": "查看全部社区博客文章"
+      }
+    },
+    "index": {
+      "header": {
+        "title": "社区博客",
+        "description_prefix": "这些视频和文章来自",
+        "description_link": "Exercism 社区"
+      },
+      "highlighted_post": {
+        "view_more": "查看更多",
+        "read_more": "阅读更多"
+      },
+      "other_posts": {
+        "title": "更多社区文章"
+      },
+      "rss": {
+        "title": "Exercism 博客",
+        "description": "了解 Exercism 的最新动态，认识我们的社区，并第一时间掌握即将推出的新功能！"
+      }
+    },
+    "info_bar": {
+      "time_ago": "%{time_ago_value}前",
+      "video_label": "视频"
+    }
+  },
+  "cohorts": {
+    "show": {
+      "closed_for_applications": "本期同期小组已经开始，报名通道已关闭。",
+      "gohort_aug_22": {
+        "intro_cohort": "认识一下 %{cohort_name}",
+        "gohort_intro": "当几位认真的学习者互相鼓励、互相帮助，一起走在学习之路上时，会发生什么？我们发明了 Gohort 来找出答案！（就是“Go cohort”的谐音，看出来了吗？😉）",
+        "tell_me_more": "了解更多！",
+        "what_is_gohort": "Gohort 是什么？",
+        "gohort_description": "Gohort 很简单。我们会为你和其他一群学习者提供一个共同学习的空间，请来我们最优秀的导师和 Exercism 专家，并在你们用 30 天一起学完 Exercism Go 教学大纲的过程中提供支持。",
+        "free_access": "100% 免费",
+        "start_date": "8 月 8 日开始，持续 30 天。",
+        "own_time": "自主安排时间，学完这条学习路径",
+        "pair_or_individual": "可以结对学习，也可以独自学习",
+        "commit_sharing": "承诺分享你的学习历程，并支持他人",
+        "notes_programming_experience": "注意：需要具备一定的编程经验（只要你能用任意一门语言写出 “Hello World”，就足够了）。",
+        "sign_up_below": "请在下方报名！",
+        "gain_fluency": "熟练运用 Go",
+        "taste_of_what_youll_learn": "先预览一下你将学到的内容！",
+        "track_description": "Exercism 上的 Go 学习路径包含 %{num_concepts} 个概念，以及 %{num_exercises} 道编程练习供你完成。这是学习 Go 特有概念和工作方式的好方法。",
+        "mentoring_benefit": "更棒的是，你还能获得资深 Go 开发者的指导，发现自己的知识盲区，并深入理解这门语言。",
+        "explore_track": "探索 Go 学习路径"
+      },
+      "form": {
+        "get_registered": "立即报名！",
+        "sign_up_to_cohort": "报名参加 %{cohort_name}",
+        "login_or_signup_message": "要报名参加 %{cohort_name}，请先登录或注册 Exercism，然后再回到本页面。",
+        "signup_button": "免费注册",
+        "login_button": "登录",
+        "you_are_all_set": "一切就绪！",
+        "enrolled_message": "恭喜，一切就绪！我们的团队成员会尽快给你发邮件，欢迎你加入 %{cohort_name}，并告诉你如何开始！",
+        "you_are_on_waiting_list": "你已进入等候名单",
+        "waiting_list_message": "很抱歉，%{cohort_name} 在你赶来之前就已经满员了！你目前在等候名单中排在第 %{position} 位。如果有名额空出，我们会通知你；否则，我们会在今年晚些时候就下一期 %{cohort_name} 与你联系。",
+        "registration_easy": "报名参加 %{cohort_name} 很简单，只需填写下方表单即可。",
+        "introduce_yourself_label": "自我介绍",
+        "introduction_placeholder": "向你的社区团队简单介绍一下你自己，以及你希望通过参加 %{cohort_name} 获得什么。",
+        "commit_to_participating": "我承诺积极参与 %{cohort_name}。",
+        "register_button": "报名"
+      },
+      "gohort": {
+        "intro_cohort": "认识一下 %{cohort_name}",
+        "gohort_intro_large": "当 100 位认真的学习者互相鼓励、互相帮助，一起走在学习之路上时，会发生什么？我们发明了 %{cohort_name} 来找出答案！（就是“Go cohort”的谐音，看出来了吗？😉）",
+        "tell_me_more": "了解更多！",
+        "what_is_gohort": "%{cohort_name} 是什么？",
+        "gohort_description_large": "%{cohort_name} 很简单。我们会为你和另外 99 位学习者提供一个共同学习的空间，请来我们最优秀的导师和 Exercism 专家，并在你们用 30 天一起学完 Exercism Go 教学大纲的过程中提供支持。",
+        "free_access": "100% 免费",
+        "start_date_july": "7 月 1 日开始，持续 30 天。",
+        "own_time": "按自己的节奏走完这条学习路径",
+        "pair_or_individual": "两两结对，或者各自独立学习",
+        "commit_sharing": "承诺分享你的学习历程，并支持他人",
+        "notes_programming_experience": "注意：需要一定的编程经验（只要你能用任意语言写出 “Hello World”，就足够了）。",
+        "sign_up_below": "在下方报名！",
+        "gain_fluency": "熟练掌握 Go",
+        "taste_of_what_youll_learn": "先来一睹你将学到的内容！",
+        "track_description": "Exercism 上的 Go 学习路径有 %{num_concepts} 个概念要学，还有 %{num_exercises} 道编程练习等你完成。这是学习 Go 特有概念和工作方式的好方法。",
+        "mentoring_benefit": "更棒的是，你还能获得资深 Go 开发者的指导，发现自己的知识盲区，并深入理解这门语言。",
+        "explore_track": "探索 Go 学习路径"
+      },
+      "exhort_aug_22": {
+        "intro_cohort": "为你介绍 %{cohort_name}",
+        "exhort_intro": "当一群认真的学习者结伴同行，在学习的路上互相鼓励、互相帮助，会发生什么？为了找到答案，我们发明了 Exhort！（“Elixir cohort”，看出来我们玩的花样了吗？😉）",
+        "tell_me_more": "了解更多！",
+        "what_is_exhort": "Exhort 是什么？",
+        "exhort_description": "Exhort 很简单。我们会给你和其他一群学习者提供一个共同学习的空间，邀请我们最优秀的导师和 Exercism 专家加入，并在你们用 30 天一起学完 Exercism Elixir 教学大纲的过程中提供支持。",
+        "free_access": "100% 免费",
+        "start_date": "8 月 8 日开始，持续 30 天。",
+        "own_time": "按自己的节奏走完这条学习路径",
+        "pair_or_individual": "两两结对，或者各自独立学习",
+        "commit_sharing": "承诺分享你的学习历程，并支持他人",
+        "notes_programming_experience": "注意：需要一定的编程经验（只要你能用任意语言写出 “Hello World”，就足够了）。",
+        "sign_up_below": "在下方报名！",
+        "gain_fluency_elixir": "熟练掌握 Elixir",
+        "taste_of_what_youll_learn": "先来一睹你将学到的内容！",
+        "elixir_track_description": "Exercism 上的 Elixir 学习路径有 %{num_concepts} 个概念要学，还有 %{num_exercises} 道编程练习等你完成。这是学习 Elixir 特有概念和工作方式的好方法。",
+        "mentoring_benefit_elixir": "更棒的是，你还能获得资深 Elixir 开发者的指导，发现自己的知识盲区，并深入理解这门语言。",
+        "explore_elixir_track": "探索 Elixir 学习路径"
+      }
+    }
+  },
+  "partners": {
+    "show": {
+      "header": {
+        "all_perks_link": "查看全部 Exercism 福利",
+        "logo_alt": "%{partner_name} 的徽标"
+      },
+      "lhs": {
+        "support_heading": "%{partner_name} 如何支持 Exercism"
+      },
+      "rhs": {
+        "perk_label": "Exercism 福利",
+        "learn_more_heading": "想进一步了解 %{partner_name} 吗？",
+        "learn_more_paragraph": "访问 %{website_domain} 了解更多，看看 %{partner_name} 能为你提供哪些帮助。",
+        "visit_button": "访问 %{website_domain}"
+      }
+    },
+    "gobridge": {
+      "header": {
+        "title": "Go 的官方指导平台",
+        "subtitle": "Exercism 是 GoBridge 和 Go Developer Network 的官方指导平台。",
+        "mentor_button": "指导 Go 学员",
+        "learn_button": "学习 Go 并接受指导"
+      },
+      "mentoring_section": {
+        "heading": "在 Exercism 上指导 Go",
+        "subheading_sm": "帮助他人转向 Go",
+        "subheading_md": "帮助其他程序员转向 Go",
+        "paragraph_1": "Exercism 是一个学习、练习和指导超过 55 门编程语言的平台。它非营利，而且 100% 免费。",
+        "paragraph_2": "当学员完成编程练习时，我们的志愿者导师会针对他们的代码给出反馈，帮助他们发现知识盲区，加深理解。",
+        "paragraph_3_html": "指导他人是扩展自己知识的好方法，同时也能帮助别人发现 Go 的强大与乐趣。",
+        "button": "成为 Go 导师",
+        "video_title": "成为 Exercism 导师"
+      },
+      "learning_section": {
+        "heading": "熟练运用 Go",
+        "subheading": "学习 Go 特有的概念和惯用法，并接受指导",
+        "paragraph_1_html": "Exercism 上的 Go 学习路径有<em>%{num_concepts} 个概念</em>可以学习，还有<em>%{num_exercises} 道编程练习</em>等你完成。这是了解 Go 特有概念和工作方式的好方法。",
+        "paragraph_2_html": "更棒的是，你还能得到资深 Go 开发者的指导，发现自己的知识盲区，深入理解这门语言。",
+        "button": "探索 Go 学习路径"
+      },
+      "contributing_section": {
+        "heading": "回馈",
+        "subheading": "为 Exercism 上的 Go 做贡献",
+        "mentor_box": {
+          "tag": "指导。",
+          "title": "开始指导 Go 学员"
+        },
+        "build_box": {
+          "tag": "开发。",
+          "title": "Golang 有 %{num_tasks} 项任务可供你着手处理"
+        },
+        "donate_box": {
+          "tag": "捐赠。",
+          "title": "捐赠，帮助我们改进 Go 学习路径"
+        }
+      }
+    }
+  },
+  "perks": {
+    "claim_modal": {
+      "continue_button_label": "继续前往 %{partner_website_domain}",
+      "close_button_label": "关闭"
+    },
+    "index": {
+      "header": {
+        "title": "Exercism 福利",
+        "subtitle_html": "从支持 Exercism 使命（让每个人都能平等地获得教育和机会）的机构那里获取折扣和免费试用。%{insiders_link} 可享受更丰富的福利。",
+        "insiders_link_text": "Exercism Insiders"
+      }
+    }
+  },
+  "contributing": {
+    "contributors": {
+      "index": {
+        "featured_contributor": {
+          "title": "精选贡献者"
+        },
+        "new_contributor": {
+          "new_label": "新",
+          "title": "新贡献者"
+        }
+      }
+    },
+    "dashboard": {
+      "show": {
+        "methods_section": {
+          "header": {
+            "title": "你可以如何帮助我们打造 Exercism"
+          },
+          "method": {
+            "proofread_and_update": {
+              "title": "校对并更新",
+              "tag": "入门",
+              "description": "从没为开源项目做过贡献？那就试试这个。我们会帮你提交第一个 pull request。"
+            },
+            "improve_content": {
+              "title": "改进概念或练习",
+              "tag": "中级",
+              "description": "修复 bug，改进 Exercism 上的各种概念和练习。帮助学生获得顺畅、无错误的体验。"
+            },
+            "create_new_content": {
+              "title": "创建新的练习或概念",
+              "tag": "高级",
+              "description": "根据轨道的路线图，构建一个新的练习或概念。制作数百万人都会使用的互动内容，乐在其中吧。"
+            },
+            "develop_test_runner": {
+              "title": "开发测试运行器",
+              "tag": "项目",
+              "description": "测试运行器为我们的在线编辑器提供支持。所有轨道都有基础的测试运行器，但许多还需要添加更高级的功能。"
+            },
+            "develop_analyzer": {
+              "title": "开发分析器",
+              "tag": "项目",
+              "description": "分析器通过 AST 分析为学生提供自动反馈。这些软件很复杂，开发起来也很有意思。"
+            },
+            "develop_representer": {
+              "title": "开发表示器",
+              "tag": "项目",
+              "description": "表示器帮助我们找出相同的解答，以便复用反馈。它比分析器简单，但研究起来既有趣又引人入胜。"
+            }
+          }
+        }
+      },
+      "tasks_section": {
+        "issues_needed_help": {
+          "other": "%{count} 个问题需要帮助"
+        },
+        "tracks_list": {
+          "more_tracks": "+ 还有 %{count} 个",
+          "needs_help": "需要帮助"
+        },
+        "explore_issues": {
+          "other": "浏览 %{count} 个问题"
+        }
+      }
+    }
+  },
+  "images": {
+    "solution": {
+      "solution_track_title": "%{track_title} 轨道。",
+      "solution_by_handle": "%{handle}的",
+      "solution_to": "解答：",
+      "solution_on_exercism_track": "来自 Exercism 的"
+    },
+    "profile": {
+      "badge_icon_alt": "徽章：%{badge_name}",
+      "founder_title": "Exercism 创始人"
+    }
+  },
+  "insiders": {
+    "external": {
+      "insiders_title": "Exercism Insiders",
+      "hero_subtitle_html": "<strong>为 Exercism 捐款</strong>，就能获得<span class=\"underline\">额外功能</span>和<span class=\"underline\">幕后内容</span>。",
+      "donations_message_html": "我们依靠<strong>像你这样的人</strong>的捐款来生存&amp;成长！Insiders 就是我们感谢你支持我们的方式！",
+      "features_summary_html": "为 Exercism 捐款，就能获得幕后内容访问权限、<strong>深色模式、</strong>专属徽章、<strong>进阶版 GitHub Sync 和收藏、</strong>ChatGPT 集成、<strong>额外的指导名额、</strong>私密 Discord 频道、<strong>无广告体验</strong>等等 🎉",
+      "non_profit_info": "Exercism 是一家独立注册的非营利组织（英国注册号 #11733062），团队规模很小。所有捐款都用于运营和改进这个平台。",
+      "benefits_heading": "Insider 权益",
+      "benefits_tagline": "以下是我们感谢你支持我们的一些方式。",
+      "exclusive_content_heading": "Insider 专属内容",
+      "exclusive_content_tagline": "加入 Insiders，在 Exercism 不断成长和演进的过程中获取幕后内容。",
+      "support_exercism_heading": "帮助支持 Exercism",
+      "donations_needed_html": "我们每月需要<span class=\"font-medium text-white\">%{amount} 的捐款</span>才能实现可持续运营。",
+      "join_insiders_call_to_action": "请加入 Insiders，帮我们达成目标！",
+      "monthly_donations": "每月捐款：%{amount}",
+      "sustainable_goal": "达到 %{amount} 即可持续运营",
+      "faqs_heading": "具体细节与常见问题",
+      "faq_access": {
+        "question": "访问 Insiders 的唯一方式就是捐款吗？",
+        "answer_part1_html": "获取 Insiders 权限最常见的方式是定期捐款。定期贡献者可以免费获得 Insiders 权限，重大的捐款或贡献也有可能获得终身 Insiders 会员资格。你可以在<a href=\"%{codebase_link}\">我们的代码库</a>中查看确切的算法，这里也复述了一份。",
+        "lifetime_access_intro": "要获得终身权限，你需要满足以下条件之一：",
+        "lifetime_criterion_founder": "身为创始人或团队成员",
+        "lifetime_criterion_supermentor": "身为 supermentor（在某条轨道上指导 100 份以上解答，且好评率达到 95%）",
+        "lifetime_criterion_reputation": "声誉达到或超过 1,000",
+        "lifetime_criterion_donation": "累计捐款 $499（一次性或分多次均可）",
+        "temporary_access_intro": "如果你没有终身权限，那么要获得权限，需要满足以下条件之一：",
+        "temporary_criterion_monthly_donation": "每月定期捐款 $10 或更多。",
+        "temporary_criterion_maintainer": "身为维护者",
+        "temporary_criterion_recent_reputation": "在过去 30 天内获得 30 点声誉，或在过去 365 天内获得 200 点声誉（不包括发布解答所获得的声誉）",
+        "temporary_criterion_legacy_donation": "在 Insiders 上线时（2023 年 5 月 30 日）已在进行定期捐款，且该捐款仍然有效。",
+        "temporary_criterion_one_off_donation": "对于在 Insiders 上线之前完成的捐款，每捐 $9.99，就能从 Insiders 上线之日起获得一个月 Insiders 权限，再额外加赠一个月。所以，如果你在 Insiders 上线前捐了 $35，就能获得从 2023 年 6 月到 9 月的 Insiders 权限。",
+        "support_html": "如果你认为自己符合这些条件却没有权限，请<a href=\"%{forum_issue_link}\">在论坛上发帖</a>，会有人帮你解决！如果你通过 Paypal 或 GitHub Sponsors 捐过款却没有权限，请看下一个问题。"
+      },
+      "faq_paypal_github": {
+        "question": "我通过 Paypal 或 GitHub Sponsors 捐了款，却没有权限。",
+        "answer_html": "有时技术会出故障，我们收不到来自 GitHub 或 Paypal 的 webhook 通知。如果你遇到问题，请<a href=\"%{forum_issue_link}\">在论坛上发帖</a>，会有人帮你解决！"
+      },
+      "faq_cost": {
+        "question": "Insiders 要花多少钱？",
+        "answer": "Insiders 不是一个可以购买的产品，而是我们向做出贡献、参与指导或捐款的人表达感谢的方式。获得 Insiders 权限最简单的方法，是设置每月 $10 或更多的定期捐款。"
+      },
+      "faq_premium": {
+        "question": "Insiders 和 Premium 是一回事吗？",
+        "answer": "Exercism Premium 已于 2023 年 8 月停止服务。所有 Premium 会员都被迁移为 Exercism Insiders 身份，他们的月付款也转为定期捐款。"
+      },
+      "faq_reputation": {
+        "question": "我如何获得声誉？",
+        "answer_html": "声誉通过指导或为 Exercism 做贡献来获得。你也可以通过发布自己的解答来获得声誉，但这不计入 Insiders 权限。你可以查阅<a href=\"%{docs_link}\">我们的文档</a>，了解哪些操作会带来多少声誉。查看你的<a href=\"%{journey_link}\">历程页面</a>，看看你的声誉来自哪里。"
+      }
+    },
+    "join": {
+      "title": "成为 Insider",
+      "message_html": "Exercism 靠捐款维持运营。你每月捐出的<strong>$10</strong>能让 Exercism 对所有人保持免费，并解锁 AI 助手、深色模式、无广告体验等更多功能。"
+    },
+    "payment_pending": {
+      "insiders_title": "Exercism Insiders",
+      "payment_pending_message": "正在等待你的支付服务商确认。"
+    },
+    "paypal_cancelled": {
+      "insiders_title": "Exercism Insiders",
+      "paypal_cancelled_message": "你的 Paypal 付款已取消。请重试。",
+      "return_to_insiders": "返回 Insiders"
+    },
+    "show": {
+      "insiders_title": "Exercism Insiders",
+      "thank_you_message": "感谢你让 Exercism 取得今天的成就。",
+      "support_message": "Exercism 之所以存在，是因为有像你这样的人聚在一起，共同构建它、资助它、支持它。非常感谢！",
+      "feature_and_video_info_html": "下面你可以了解现在通过 Insiders 可以使用的各项功能，以及一些幕后视频。如果你对额外的功能或更多幕后内容有想法，欢迎在 Discord 的 #insiders 频道发帖，或者在论坛上开一个讨论串。\n",
+      "latest_video_prompt": "不妨先从最新的 Insiders 幕后视频开始 👉",
+      "behind_the_scenes_videos_heading": "幕后视频",
+      "your_insider_benefits_heading": "你的 Insiders 权益",
+      "exclusive_content": {
+        "title": "独家内容",
+        "description": "通过 Insiders 私享直播、视频博客和技术深度解析，随时了解我们正在规划和构建的内容。看看上面的视频吧。有新的内容时，我们会给你发邮件。"
+      },
+      "private_discord_channel": {
+        "title": "私密 Discord 频道",
+        "description_html": "你现在应该可以访问一个专属的<a href=\"%{insiders_channel_link}\">Discord 上的 #insiders 频道</a>，在那里与我和其他员工及 Insiders 一起交流。如果看不到它，请查看<a href=\"%{integrations_page_link}\">集成页面</a>。"
+      },
+      "contribute_on_community_calls": {
+        "title": "参与社区通话",
+        "description_html": "我们的社区通话任何人都可以观看，但只有 Insiders 能加入对话。上台来，让大家听到你的声音。下一场通话的时间请在 <a href=\"%{discord_events_link}\">Discord</a> 的活动里查看。"
+      },
+      "dark_theme": {
+        "title": "深色主题",
+        "description_html": "我们为你精心准备了一款漂亮的深色主题。夜里写代码时让眼睛休息一下，尽情享受最暗黑风格的 Exercism。你可以在<a href=\"%{user_preferences_link}\">用户偏好设置</a>中切换主题。"
+      },
+      "chatgpt": {
+        "title": "ChatGPT",
+        "description": "我们的 ChatGPT 集成可以直接在在线编辑器里帮你摆脱卡壳。每个自然月，你可以获得 3 倍的 v4.0 请求额度和 30 倍的 v3.5 请求额度。用得怎么样，欢迎告诉我们！"
+      },
+      "name_tag_flair_and_badges": {
+        "title": "名牌装饰与徽章",
+        "description_html": "现在网站上各处都会在你名字旁边显示一个闪亮的小 %{icon}，<a href=\"%{profile_link}\">你的公开资料</a>上也会多一个新标签。不久之后，我们还会让你自定义想要的图标！",
+        "icon_alt_text": "表示 Insiders 身份的紫色爱心图标"
+      },
+      "extra_mentoring_slots": {
+        "title": "更多指导名额",
+        "description": "现在你在每条学习路径上都拥有同时进行的指导名额上限。在学习路径页面向下滚到一半的位置，可以查看你进行中的会话。"
+      },
+      "exclusive_badges": {
+        "title": "专属徽章",
+        "description_html": "你还应该获得了一枚（或两枚！）非常专属的新徽章。到<a href=\"%{my_journey_link}\">我的旅程</a>里查看你的徽章，把它们揭晓吧。此外还有一些新的隐藏徽章，等你完成练习时解锁。"
+      },
+      "exclusive_perks": {
+        "title": "专属福利",
+        "description": "接下来几周，我们会陆续公布来自合作伙伴的专属福利。作为 Insiders 成员，你将获得专属的额外优惠和折扣。"
+      }
+    }
+  },
+  "temp": {
+    "modals": {
+      "badge": {
+        "new_badge_earned": "获得新徽章",
+        "badge_name": "2020 Winter Markathon",
+        "badge_rarity": "终极",
+        "badge_reason": "因参与 2020 Winter Markathon 而获得",
+        "badge_earned_at": "获得于 %{date}"
+      },
+      "donation_confirmation": {
+        "thank_you_title_html": "你已成功捐款 %{amount}，谢谢你 💙",
+        "thank_you_message": "我们衷心感谢你的支持。没有像你这样出色的贡献者，就不会有 Exercism。你很快会收到一封邮件，里面有你的捐款确认和收据。",
+        "badge_earned_html": "你获得了<strong>支持者</strong>徽章！",
+        "done_button": "很高兴能帮上忙！我就到这里啦 👍"
+      },
+      "completed_mentoring_1": {
+        "thank_you_title_html": "感谢你留下评价 💙",
+        "testimonial_message_html": "<strong>你让 iHiD 的一天变得美好。</strong>别忘了把你的 Exercism 经历分享给其他人。",
+        "back_to_discussion_button": "返回讨论"
+      }
+    },
+    "user_deletions": {
+      "show": {
+        "account_deleted": "账户已删除"
+      }
+    },
+    "user_resets": {
+      "show": {
+        "account_reset": "账户已重置"
+      }
+    },
+    "user_tracks": {
+      "reset": {
+        "track_reset_message": "轨道已重置"
+      },
+      "leave": {
+        "track_left_message": "你已退出该轨道"
+      },
+      "practice_mode": {
+        "practice_mode_message": "处于练习模式"
+      }
+    }
+  },
+  "user_reputation_tokens": {
+    "automation_feedback_author": {
+      "1": "你为<strong>%{exercise_title}</strong>写了自动化反馈\n"
+    },
+    "automation_feedback_editor": {
+      "1": "你编辑了<strong>%{exercise_title}</strong>的自动化反馈\n"
+    },
+    "exercise_author": {
+      "1": "你创作了<strong>%{exercise_title}</strong>\n"
+    },
+    "exercise_contribution": {
+      "1": "你为<strong>%{exercise_title}</strong>做出了贡献\n"
+    },
+    "concept_author": {
+      "1": "你创作了<strong>%{concept_name}</strong>\n"
+    },
+    "concept_contribution": {
+      "1": "你为<strong>%{concept_name}</strong>做出了贡献\n"
+    },
+    "exercise_article_author": {
+      "1": "你为<strong>%{exercise_title}</strong>创作了<strong>%{article_title}</strong>文章\n"
+    },
+    "exercise_article_contribution": {
+      "1": "你为<strong>%{exercise_title}</strong>的<strong>%{article_title}</strong>文章做出了贡献\n"
+    },
+    "exercise_approach_author": {
+      "1": "你为<strong>%{exercise_title}</strong>创作了<strong>%{approach_title}</strong>解题思路\n"
+    },
+    "exercise_approach_contribution": {
+      "1": "你为<strong>%{exercise_title}</strong>的<strong>%{approach_title}</strong>解题思路做出了贡献\n"
+    },
+    "exercise_approach_introduction_author": {
+      "1": "你为<strong>%{exercise_title}</strong>创作了解题思路\n"
+    },
+    "exercise_approach_introduction_contribution": {
+      "1": "你为<strong>%{exercise_title}</strong>的解题思路做出了贡献\n"
+    },
+    "code_contribution": {
+      "1": "你在<strong>%{repo}</strong>上创建了<strong>PR#%{pr_number}</strong>：%{pr_title}\n"
+    },
+    "code_review": {
+      "1": "你审查了<strong>%{repo}</strong>上的<strong>PR#%{pr_number}</strong>：%{pr_title}\n"
+    },
+    "code_merge": {
+      "1": "你合并了<strong>%{repo}</strong>上的<strong>PR#%{pr_number}</strong>：%{pr_title}\n"
+    },
+    "mentored": {
+      "1": "你在<strong>%{track_title}</strong>中指导<strong>%{student_handle}</strong>完成了<strong>%{exercise_title}</strong>\n"
+    },
+    "published_solution": {
+      "1": "你发布了<strong>%{track_title}</strong>中<strong>%{exercise_title}</strong>的解答\n"
+    },
+    "issue_author": {
+      "1": "你在<strong>%{repo}</strong>上提交了<strong>issue#%{issue_number}</strong>：%{issue_title}\n"
+    },
+    "arbitrary": {
+      "1": "%{reason}\n"
+    }
+  },
+  "mentoring": {
+    "external": {
+      "show": {
+        "challenge_knowledge_heading": "挑战你的知识",
+        "challenge_knowledge_description": "教学是巩固自己知识的最佳方式之一，能帮你发现自己的薄弱之处，看到自己从未想过的创新想法。",
+        "provide_opportunity_heading": "为他人创造机会",
+        "provide_opportunity_description": "导师可以对学生的学习产生巨大影响，迅速提升他们的技能。成为他人生命中带来改变的催化剂吧。",
+        "develop_soft_skills_heading": "培养你的“软技能”",
+        "develop_soft_skills_description": "沟通能力、接受反馈的能力等软技能，对于在任何领域或职业中取得进步都至关重要。",
+        "share_knowledge_heading": "把你的知识分享给他人",
+        "share_knowledge_description": "指导是一种有趣又有收获的方式，既能巩固你自己的学习，又能帮助他人学习、发现他们不知道的东西。",
+        "earns_reputation": "指导还能获得信誉。",
+        "unsure_mentor": "不确定自己能不能有效地指导别人？我们最优秀的一些导师当初也有同样的担心。",
+        "signup_button": "注册并尝试指导",
+        "login_button": "登录",
+        "video_title": "成为 Exercism 导师",
+        "why_mentor_heading": "为什么要成为导师？"
+      },
+      "locked": {
+        "current_reputation": "你当前的信誉是",
+        "how_it_works": "这是怎么运作的？",
+        "unlock_reputation_html": "达到<a href=\"%{reputation_url}\" class=\"text-gradient !font-semibold\">%{reputation} 信誉</a>即可解锁指导能力"
+      }
+    },
+    "external_requests": {
+      "exercise_tag": {
+        "track_title_html": "在 %{track_title} 中"
+      },
+      "show_logged_out": {
+        "heading": "想指导 %{user_handle} 吗？",
+        "description": "Exercism 让你可以指导他人，帮助他们改进代码。",
+        "signup_button": "免费注册",
+        "login_button": "登录",
+        "registration_note": "注册之后，你可能需要回到这个链接。"
+      },
+      "show": {
+        "heading": "想指导 %{user_handle} 吗？",
+        "description": "%{user_handle} 给你发了一封私密邀请，邀请你指导其提交的解答。",
+        "accept_button": "接受邀请",
+        "decline_button": "拒绝"
+      },
+      "show_not_mentor": {
+        "heading": "想指导 %{user_handle} 吗？",
+        "description": "你需要先注册成为导师才能开始。",
+        "register_mentor_button": "注册成为导师",
+        "learn_more_button": "了解更多"
+      }
+    },
+    "requests": {
+      "unavailable": {
+        "unavailable": "抱歉，该指导会话已不再可用",
+        "back_to_list": "返回列表"
+      }
+    },
+    "automation": {
+      "tooltip_locked": {
+        "requirements_html": "需要在某个学习轨道上完成<strong>%{min_finished_mentoring_sessions}</strong>次指导会话，并且总体满意度达到 %{min_satisfaction_percentage}%%（当前为 %{satisfaction_percentage}%%）",
+        "finished_sessions_info": {
+          "other": "%{count}/%{min}（%{track_title} 学习轨道）"
+        },
+        "what_is_automation_heading": "什么是自动化？",
+        "automation_description": "自动化让你可以针对提交的代码，提交标准化回复，这些回复会作为解答自动反馈的一部分分享出去。",
+        "find_out_more_button": "进一步了解自动化"
+      }
+    }
+  },
+  "pages": {
+    "index": {
+      "header": {
+        "title_html": "变得<strong>真正</strong>擅长编程。",
+        "subtitle_html": "通过我们独特的学习、练习与指导相结合的方式，流利掌握 <em>%{num_tracks}门编程语言</em>。Exercism 有趣、有效，而且<strong>100%永久免费。</strong>",
+        "signup_button": "免费注册",
+        "explore_button": "探索语言",
+        "organisation_description": "是一个独立、由社区资助的非营利组织。",
+        "learn_more_link": "了解更多"
+      },
+      "tracks_section": {
+        "title_html": "探索并<strong>流利掌握</strong><br>%{num_tracks} 门编程语言",
+        "students_count": {
+          "other": "%{count} 名学生"
+        },
+        "all_tracks_link": "查看全部 %{num_tracks} 个语言轨道"
+      },
+      "exercises_section": {
+        "showcase": {
+          "allergies": {
+            "title": "过敏",
+            "blurb": "给定一个人的过敏评分，判断他是否对某个特定物品过敏，并给出他完整的过敏清单。"
+          },
+          "queen_attack": {
+            "title": "皇后攻击",
+            "blurb": "给定棋盘上两个皇后的位置，判断它们的摆放是否能让它们互相攻击"
+          },
+          "zebra_puzzle": {
+            "title": "斑马谜题",
+            "blurb": "哪位居民喝水？谁养了斑马？你能用代码解开斑马谜题吗？"
+          }
+        },
+        "title_html": "超过<strong>%{count}道编程练习。</strong><br>从“过敏”到“斑马谜题”。",
+        "subtitle": "在实践中学习。通过有趣的编程练习加深对概念的理解，提升编程能力。",
+        "more_tracks": "另有 %{count} 个",
+        "features": {
+          "local_title": "在你自己的空间里本地写代码",
+          "local_description": "Exercism 主要是一款以 CLI 为核心的工具。你可以直接在终端里下载并提交练习。",
+          "editor_title": "使用 Exercism 的浏览器内编辑器",
+          "editor_description": "别为了试用一门语言就花几个小时在本地安装它。我们的浏览器内编辑器支持全部 %{num_tracks} 门编程语言。",
+          "analysis_title": "获得对你代码的自动分析",
+          "analysis_description": "不太确定自己做得怎么样？我们会自动分析你提交的解答，快速给出反馈和改进要点。"
+        }
+      },
+      "mentoring_section": {
+        "title_html": "借助真人指导深化你的知识，<strong>完全免费</strong>。",
+        "subtitle": "在练习中接受指导，发现解决它的全新而有趣的方式。更深入地熟悉某门编程语言的约定、惯用法和观点。",
+        "why_mentoring_title": "为什么需要指导？",
+        "features": {
+          "knowledge_gaps_title": "你不知道自己不知道什么",
+          "knowledge_gaps_description": "学一门新语言时，最难的地方在于意识不到自己知识上的盲区。我们的导师看一眼你的代码，就能立刻看出你还不熟悉的概念，帮你解锁新知识，实现进阶。",
+          "conventions_title": "学习特定语言的约定",
+          "conventions_description": "精通一门语言，不只是能用它写代码，还要能用它思考。我们的导师会引导你调整思维方式，写出地道的代码。",
+          "learning_fun_title": "和别人一起学习很有趣",
+          "learning_fun_description": "从真人那里获得反馈，是一种格外令人兴奋的学习方式。而自己成为导师、给出反馈，更是向前迈出的一大步。所以，让这个循环完整起来吧：接受指导，也去指导别人 🎉"
+        }
+      }
+    }
+  },
+  "serializers": {
+    "track_for_select": {
+      "all_tracks": "所有轨道"
+    },
+    "profile_image": {
+      "metric": {
+        "publishing": {
+          "other": "已发布 %{count} 个解答"
+        },
+        "mentoring": {
+          "other": "指导过 %{count} 名学员"
+        },
+        "authoring": {
+          "other": "贡献了 %{count} 个练习或文章"
+        },
+        "building": {
+          "other": "%{count} 个 PR 被接受"
+        },
+        "maintaining": {
+          "other": "审查了 %{count} 个 PR"
+        }
+      }
+    }
+  },
+  "site_updates": {
+    "new_exercise": {
+      "1": "<em>%{maker_handles}</em>发布了一个新练习：<a href=\"%{exercise_url}\">%{exercise_title}</a>\n"
+    },
+    "new_concept": {
+      "1": "<em>%{maker_handles}</em>发布了一个新概念：<a href=\"%{concept_url}\">%{concept_name}</a>\n"
+    },
+    "arbitrary": {
+      "1": "<em>%{author_handle}</em>发布了一条新动态。\n"
+    }
+  },
+  "user_activities": {
+    "started_exercise": {
+      "1": "你开始了<strong>%{exercise_title}</strong>\n"
+    },
+    "submitted_iteration": {
+      "1": "你提交了<strong>迭代 %{iteration_idx}</strong>\n"
+    },
+    "completed_exercise": {
+      "1": "你完成了<strong>%{exercise_title}</strong>\n"
+    },
+    "published_exercise": {
+      "1": "你发布了<strong>%{exercise_title}</strong>\n"
+    }
+  },
+  "user_preferences": {
+    "auto_update_exercises": "如果我的解答通过了练习最新版本的测试，就自动将其更新到该练习的最新版本",
+    "allow_comments_on_published_solutions": "允许他人评论我今后发布的解答"
+  },
+  "notifications": {
+    "student_finished_discussion": {
+      "1": "%{student_name} 已经结束了关于你在 %{track_title}：%{exercise_title} 中指导的解答的讨论\n"
+    },
+    "mentor_finished_discussion": {
+      "1": "%{mentor_name} 已经结束了关于你在 %{track_title}：%{exercise_title} 中的解答的讨论\n"
+    },
+    "nudge_student_to_reply_in_discussion": {
+      "1": "<strong>%{mentor_name}</strong>正在等待你在<strong>%{track_title}</strong>中<strong>%{exercise_title}</strong>解答的讨论中回复\n"
+    },
+    "nudge_mentor_to_reply_in_discussion": {
+      "1": "<strong>%{student_name}</strong>正在等待你在他们<strong>%{track_title}</strong>中<strong>%{exercise_title}</strong>解答的讨论中回复\n"
+    },
+    "mentor_timed_out_discussion_mentor": {
+      "1": "你针对<strong>%{student_name}</strong>在<strong>%{track_title}</strong>中<strong>%{exercise_title}</strong>解答的指导会话已超时\n"
+    },
+    "mentor_timed_out_discussion_student": {
+      "1": "你在<strong>%{track_title}</strong>中<strong>%{exercise_title}</strong>解答的讨论已超时\n"
+    },
+    "student_timed_out_discussion_mentor": {
+      "1": "你针对<strong>%{student_name}</strong>在<strong>%{track_title}</strong>中<strong>%{exercise_title}</strong>解答的指导会话已超时\n"
+    },
+    "student_timed_out_discussion_student": {
+      "1": "你在<strong>%{track_title}</strong>中<strong>%{exercise_title}</strong>解答的讨论已超时\n"
+    },
+    "eligible_for_insiders": {
+      "1": "加入 Exercism Insiders！\n"
+    },
+    "eligible_for_lifetime_insiders": {
+      "1": "加入 Exercism Lifetime Insiders！\n"
+    },
+    "expired_insiders": {
+      "1": "你的 Exercism Insiders 会员资格已过期。\n"
+    },
+    "upgraded_to_lifetime_insiders": {
+      "1": "你已升级为 Exercism Lifetime Insiders！\n"
+    },
+    "acquired_trophy": {
+      "1": "你在 %{track_title} 轨道上获得了 %{trophy_name} 奖杯\n"
+    },
+    "expired_premium": {
+      "1": "你的 Exercism Premium 会员资格已过期。\n"
+    },
+    "mentor_started_discussion": {
+      "1": "<strong>%{mentor_name}</strong>已开始指导你在<strong>%{track_title}</strong>中的<strong>%{exercise_title}</strong>解答\n"
+    },
+    "mentor_replied_to_discussion": {
+      "1": "<strong>%{mentor_name}</strong>已在<strong>%{track_title}</strong>中的<strong>%{exercise_title}</strong>解答下添加了一条新评论\n"
+    },
+    "student_replied_to_discussion": {
+      "1": "<strong>%{student_name}</strong>已在你指导的<strong>%{track_title}</strong>中的<strong>%{exercise_title}</strong>解答下添加了一条新评论\n"
+    },
+    "student_added_iteration": {
+      "1": "你的学生<strong>%{student_name}</strong>为其在<strong>%{track_title}</strong>中的<strong>%{exercise_title}</strong>解答提交了一次新迭代（#%{iteration_idx}）\n"
+    },
+    "added_to_contributors_page": {
+      "1": "你现在出现在我们的贡献者页面上了。感谢你为 Exercism 做出贡献！\n"
+    },
+    "automated_feedback_added": {
+      "1": "你在<strong>%{track_title}</strong>中的<strong>%{exercise_title}</strong>解答的迭代（#%{iteration_idx}）收到了新反馈。我们%{emphasis}建议你去看一看。\n"
+    },
+    "onboarding_community": {
+      "1": "社区是 Exercism 的核心。加入我们的论坛和 Discord 服务器，关注我们的 YouTube 和 Twitch 频道，还可以获得导师指导。了解更多……\n"
+    },
+    "onboarding_insiders": {
+      "1": "Exercism Insiders 是我们为所有支持我们使命的人设立的奖励计划，我们的使命是在科技行业创造平等的机会。在 Insiders 页面了解更多。\n"
+    },
+    "nudge_to_request_mentoring": {
+      "1": "<strong>是时候接受导师指导了！</strong>和我们的导师一起学习是提升知识水平的绝佳方式，而且完全免费。选一份你提交的解答开始吧。\n"
+    }
+  },
+  "favorites": {
+    "index": {
+      "heading": "你的收藏",
+      "intro_html": "在使用 Exercism 的过程中，给你最喜欢的解答加上星标，之后随时回到这里向它们学习。你能找到哪些%{highlight}",
+      "intro_highlight": "让你印象深刻、给你启发或让你兴奋的解答？",
+      "insider_benefit_html": "收藏是你%{insiders_link}会员权益之一。",
+      "insiders_link_text": "Exercism Insiders",
+      "upgrade_prompt_html": "用%{insiders_link}解锁完整的收藏功能。%{upgrade_link}，即可保存超过 10 个收藏，并添加搜索和筛选功能！",
+      "upgrade_link_text": "升级你的账户"
+    }
+  },
+  "generic_exercises": {
+    "approaches": {
+      "meta_title": "在 Exercism 上探索解决%{ps_data_title}的各种解法",
+      "meta_description": "探索解决%{ps_data_title}的各种解法。",
+      "title": "%{exercise_title}的解法",
+      "back_to_exercise": "← 返回练习"
+    },
+    "show": {
+      "meta_title": "在 Exercism 上解决%{ps_data_title}",
+      "meta_description": "你能解决%{ps_data_title}吗？在我们世界一流导师团队的支持下，提升你的编程和解决问题的能力。",
+      "deep_dive_section": {
+        "title": "深入探索%{exercise_title}！"
+      },
+      "instructions_section": {
+        "title": "说明",
+        "intro_video_text": "观看我们的“Hello, World 入门”视频，开始上手 👇"
+      },
+      "source_section": {
+        "title": "来源",
+        "explore_source_html": "查看<a href=\"%{source_url}\" target=\"_blank\" rel=\"noopener noreferrer\">这个练习的来源</a>。\n"
+      },
+      "featured_in_2024_section": {
+        "challenge_title": "#48in24 的一部分",
+        "challenge_text_html": "%{exercise_title}是%{challenge_link}的精选练习。用%{languages}完成它，即可赢得金牌。",
+        "challenge_link_text": "#48in24 挑战"
+      },
+      "track_variants_section": {
+        "title": "用%{size}种不同的语言试试%{exercise_title}……",
+        "completed_languages": {
+          "other": "到目前为止，你已在%{count}种语言中完成了它。"
+        },
+        "not_yet_completed": "你还没有在任何语言中完成过它。"
+      }
+    }
+  },
+  "helpers": {
+    "links": {
+      "opens_in_new_window": "链接会在新窗口或新标签页中打开"
+    },
+    "meta_tags": {
+      "default_description": "用超过 50 种语言学习、练习，并获得世界一流的指导。100% 免费。",
+      "track": {
+        "title": "Exercism 上的%{track_title}",
+        "description": "通过完成%{num_exercises}个练习，熟练掌握%{track_title}。然后借助我们世界一流团队的指导，进一步提升。"
+      },
+      "concept": {
+        "title": "Exercism 上%{track_title}中的%{concept_name}",
+        "description": "通过完成%{num_exercises}个练习，掌握%{track_title}中的%{concept_name}，并得到我们世界一流团队的支持。"
+      },
+      "exercise": {
+        "title": "Exercism 上%{track_title}中的%{exercise_title}",
+        "description": "你能在%{track_title}中解决%{exercise_title}吗？在我们世界一流导师团队的支持下，提升你的%{track_title}技能。"
+      }
+    }
+  },
+  "notifications_mailer": {
+    "expired_insiders": {
+      "subject": "Exercism Insiders 会员资格已过期",
+      "body_markdown": "你好，\n\n你对 [Exercism Insiders](%{insiders_url}) 的访问权限现在已经到期。\n\n感谢你支持 Exercism。我们已经帮助超过 100 万人免费提升编程技能，而我们正是依靠像你这样的人来支持我们。所以非常感谢你的付出。\n\n如果你愿意继续支持我们，那对我们意义重大。\n你可以在 [Insiders 页面](%{insiders_url}) 上设置新的定期捐款。\n\n祝你今天愉快！\n\nJeremy Walker\nExercism 联合创始人兼 CEO\n\n[访问 Exercism](%{root_url})\n"
+    },
+    "mentor_timed_out_discussion_student": {
+      "title": "你的讨论已超时",
+      "subject": "你关于 %{track_title}/%{exercise_title} 提交的解答的讨论已超时",
+      "body_markdown": "你好 %{user_handle}，\n\n你和 %{mentor_handle} 关于你在 %{track_title} 赛道上对 %{exercise_title} 提交的解答的讨论已超时。\n\n[前往讨论](%{discussion_url})"
+    },
+    "onboarding_insiders": {
+      "subject": "你知道我们是一家非营利组织吗？",
+      "body_markdown": "你好，\n\n希望到目前为止你在 [Exercism](https://exercism.org) 玩得开心！  \n你知道吗，**我们其实是一家非营利组织**？  \n我们希望每个人都能从 Exercism 中受益，无论他们有多少钱，所以网站一直 100% 免费。\n\n为此，我们依靠捐款来维持 Exercism 的运转。  \n我们的运营非常精简，考虑到我们要服务超过 150 万人，我们的成本非常低（每年约 25 万美元）。  \n我录了一个视频，里面有更多解释 👇\n\n<a href=\"%{video_url}\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923; margin-bottom:16px\">\n  <img src=\"%{video_thumbnail_url}\" style=\"width:100%; display:block\" />\n</a>\n\n如果你觉得 Exercism 对你有用，并且你有能力的话，请通过捐款来支持我们。  \n不过，如果你负担不起，也请放心，这并不是必须的，我们的平台会一直免费向你开放。\n\n你的支持，无论是捐款还是单纯地把 Exercism 分享给更多人，都对我们实现社会使命至关重要。  \n每一份心意都很重要，能帮助我们为世界各地更多人带来高质量的编程教育。\n\n感谢你成为我们社区的一员，也感谢你支持我们的社会使命。  \n期待看到你在 Exercism 上取得各种了不起的成就。\n\n此致，  \n\nJeremy Walker  \nExercism 联合创始人兼 CEO\n\n[访问 Exercism](%{root_url})"
+    },
+    "acquired_badge": {
+      "title": "有一枚新徽章等你来揭晓！",
+      "subject": "你解锁了一枚新徽章",
+      "body_markdown": "你好 %{user_handle}，\n\n恭喜！你在 Exercism 解锁了一枚新徽章。\n访问你的 Exercism 旅程页面，看看你获得了什么。\n\n[看看我解锁了什么！](%{journey_url})\n"
+    },
+    "onboarding_community": {
+      "subject": "你在 Discord 或我们的论坛上打过招呼了吗？",
+      "body_markdown": "你好！\n\n希望你在 [Exercism](https://exercism.org) 的头几天过得愉快。  \n在你继续探索我们的平台时，我想花点时间跟你聊聊我们出色的社区。\n\nExercism 是一个开源、由社区驱动的项目。  \n事实上，我们是 [GitHub](https://github.com/exercism/) 上最大的开源组织之一，拥有超过 350 个代码仓库。  \n我们的社区以共情、友善和包容的价值观为核心。  \n看看这个视频，或继续往下读 👇\n\n<a href=\"%{youtube_video_url}\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"%{youtube_thumbnail_url}\" style=\"width:100%; display:block\" />\n</a>\n\n我们有几个社区空间，你可能会觉得有趣又好用：\n\n- 我们的 [Discord](https://exercism.org/r/discord) 频道是跟 Exercism 社区一起交流、参加社区通话、获得快速帮助的好地方。\n- 我们的[论坛](https://exercism.org/r/forum)很适合提一些需要详细展开的问题、分享想法，并结识其他热爱编程的人。\n- 我们的 [YouTube 频道](https://exercism.org/r/youtube)汇集了我们最优质的视频内容：教学讲解、Exercism 动态、社区故事，以及行业专家的访谈。\n- 在 [Twitch](https://exercism.org/r/twitch) 上，我们会直播社区成员和编程生态圈嘉宾的节目。\n\n我们很希望你能加入进来，成为社区的活跃一员。  \n无论你是经验丰富的开发者，还是刚刚起步，这里都有属于你的位置。  \n所以别害羞，来打个招呼，参与进来吧！\n\n此致，  \n\nJeremy Walker  \nExercism 联合创始人兼 CEO\n\n[访问 Exercism](%{root_url})"
+    },
+    "onboarding_product": {
+      "subject": "你在 Exercism 上进展如何？",
+      "body_markdown": "你好，\n\n你注册 [Exercism](https://exercism.org) 已经有一天左右了，我想问问你目前感觉怎么样？\n\n有时候 Exercism 一开始会让人有点不知所措。有些人会有点迷茫，觉得很多东西不太明白。  \n如果你遇到困难，可以去我们的 [Discord](https://exercism.org/r/discord) 或[论坛](https://exercism.org/r/forum)寻求帮助。  \n知道大家在哪些地方卡住，对我们改进很有帮助，所以请大胆说出来！\n\n如果你还没开始探索某门编程语言，我们有 65 门以上可供选择，包括最常用的语言（如 Python、JavaScript、C#）、备受欢迎的新秀（如 Go、Elixir、Rust），以及一些相当冷门、小众的语言（如 8th、COBOL、Prolog）。  \n有太多东西可学，也有很多乐趣！\n\n最后再提醒一句：Exercism 100% 免费、开源，且是非营利性的。祝你玩得开心！\n\n此致，  \n\nJeremy Walker  \nExercism 联合创始人兼 CEO\n\n[访问 Exercism](%{root_url})"
+    },
+    "mentor_timed_out_discussion_mentor": {
+      "title": "你的指导会话已超时",
+      "subject": "由于你未回复，你的指导会话已超时。",
+      "body_markdown": "你好 %{user_handle}，\n\n你与学生（%{student_handle}）关于他在 %{track_title} 赛道上对 %{exercise_title} 提交的解答的讨论已超时。\n\n[前往讨论](%{discussion_url})"
+    },
+    "mentor_started_discussion": {
+      "title": "你的解答正在接受指导",
+      "subject": "%{mentor_handle} 已开始在 %{track_title}/%{exercise_title} 上指导你",
+      "body_markdown": "你好 %{user_handle}，\n\n一位导师（%{mentor_handle}）已开始指导你在 %{track_title} 赛道上对 %{exercise_title} 提交的解答。\n\n[前往讨论](%{discussion_url})"
+    },
+    "student_finished_discussion": {
+      "title": "你的学生已结束讨论",
+      "subject": "%{student_handle} 已结束你在 %{track_title}/%{exercise_title} 上的讨论",
+      "body_markdown": "你好 %{user_handle}，\n\n你的学生（%{student_handle}）已结束你在 %{track_title} 赛道上为 %{exercise_title} 指导的讨论。\n\n[前往讨论](%{discussion_url})"
+    },
+    "automated_feedback_added": {
+      "title": "有新的自动反馈",
+      "subject": "你在 %{track_title}/%{exercise_title} 提交的解答有了新反馈",
+      "body_markdown": "你好 %{user_handle}，\n\n你在 %{track_title} 赛道上对 %{exercise_title} 提交的解答的最新一次迭代（#%{iteration_idx}）收到了新反馈。我们 %{emphasis}建议你去看一看，想想怎么改进自己的解答！\n\n前往这次迭代：%{iteration_url}\n"
+    },
+    "upgraded_to_lifetime_insiders": {
+      "subject": "你已升级为 Exercism 终身 Insiders 会员",
+      "body_markdown": "你好！\n\n很高兴告诉你，你已升级为 [Exercism Insiders](https://exercism.org/insiders) 的终身会员！\n\n作为终身 Insider，你是极少数对平台产生巨大影响、并把它塑造成今天这个样子的成员之一。  \n你帮助了成千上万的人，带来了巨大的改变，谢谢你。  \nInsiders 是我们对你所做一切的一点小小感谢。\n\n恭喜你达到终身会员的门槛，也再次感谢你成为 Exercism 的一员 🙂\n\nJeremy Walker  \nExercism 联合创始人兼 CEO\n\n[访问 Exercism](%{root_url})"
+    },
+    "nudge_student_to_reply_in_discussion": {
+      "title": "你的导师已经等你回复 %{num_days_waiting} 天了",
+      "subject": "你的导师已经等你回复 %{num_days_waiting} 天了。",
+      "body_markdown": "你好 %{user_handle}，\n\n温馨提醒：你的导师（%{mentor_handle}）已经等了 %{num_days_waiting} 天，希望你能在[讨论](%{discussion_url})中回复。该讨论关于你在 %{track_title} 赛道上对 %{exercise_title} 提交的解答。\n\n如果你实际上是在等导师，请在讨论中留言告诉他。\n\n如果你不回复，讨论将在 %{num_days_to_time_out} 天后超时。\n\n[前往讨论](%{discussion_url})"
+    },
+    "added_to_contributors_page": {
+      "title": "你正式成为 Exercism 贡献者了！",
+      "subject": "你已被添加到 Exercism 的贡献者页面",
+      "body_markdown": "你好 %{user_handle}，\n\n你现在已被加入 Exercism 的官方贡献者名单，并出现在我们的贡献者页面上。\n\n非常感谢你成为 Exercism 的一员，帮助我们为尽可能多的人提供免费、世界一流的编程教育。\n\n[浏览贡献者页面](%{contributors_url})\n"
+    },
+    "mentor_replied_to_discussion": {
+      "title": "你的导师回复了",
+      "subject": "%{mentor_handle} 在你关于 %{track_title}/%{exercise_title} 的讨论中发表了评论",
+      "body_markdown": "你好 %{user_handle}，\n\n你的导师（%{mentor_handle}）在你关于 %{track_title} 赛道上 %{exercise_title} 的讨论中发表了评论。\n\n[前往讨论](%{discussion_url})\n"
+    },
+    "student_timed_out_discussion_mentor": {
+      "title": "你的学生的讨论已超时",
+      "subject": "由于学生没有回复，你的指导会话已超时。",
+      "body_markdown": "你好 %{user_handle}，\n\n你与学生（%{student_handle}）关于他在 %{track_title} 赛道上对 %{exercise_title} 提交的解答的讨论已超时。\n\n[前往讨论](%{discussion_url})\n"
+    },
+    "joined_insiders": {
+      "subject": "欢迎加入 Exercism Insiders",
+      "body_markdown": "嘿！\n\n欢迎加入[Exercism Insiders](https://exercism.org/insiders)！  \n感谢你参与我们的故事，帮助 Exercism 取得今天这样的巨大成功。  \nInsiders 是我们对你支持的一点小小感谢。\n\n想了解 Insiders 里都有什么，请看看[Insiders 页面](https://exercism.org/insiders)，  \n或者观看下面的介绍视频 👇\n\n<a href=\"%{youtube_video_url}\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"%{youtube_thumbnail_url}\" style=\"width:100%; display:block\" />\n</a>\n\n欢迎到我们专属的[#insiders Discord 频道](https://discord.com/channels/854117591135027261/1103737555490447460)分享你的想法和建议。  \n来吧，跟大家打个招呼！\n\n感谢你成为我们旅程的一部分。我对接下来的事情充满期待 🙂\n\nJeremy Walker  \nExercism 联合创始人兼 CEO\n\n[访问 Exercism](%{root_url})"
+    },
+    "joined_exercism": {
+      "subject": "欢迎加入 Exercism",
+      "body_markdown": "你好，\n\n欢迎加入[Exercism](https://exercism.org)！  \n很高兴你能成为我们社区的一员，我们期待在你深入编程学习之旅时一路帮助你。\n\nExercism 的设计初衷，是帮你真正深入地理解你所选择学习的语言。  \n我们是一家注册的非营利组织，100% 免费。\n\n我录制了下面这个视频（你注册时可能已经看过），它会带你了解几个关键要点 👇\n\n<a href=\"%{youtube_video_url}\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"%{youtube_thumbnail_url}\" style=\"width:100%; display:block\" />\n</a>\n\n如果你遇到困难或有疑问，随时到[我们的论坛](https://forum.exercism.org)发帖。  \n我们的社区友好又热心，我们随时乐意帮忙。  \n我们相信学习是共同努力的过程，大家可以互相学习。\n\n最后，别忘了关注我们的[YouTube 频道](https://www.youtube.com/@Exercism_org)，我们在那里分享关于 Exercism 的有趣访谈、演练和教程。  \n你也许能找到一些技巧和方法，让你的学习之旅更加愉快。\n\n祝你今天过得开心！\n\nJeremy Walker  \nExercism 联合创始人兼 CEO\n\n[访问 Exercism](%{root_url})"
+    },
+    "eligible_for_insiders": {
+      "subject": "你有资格加入 Exercism Insiders",
+      "body_markdown": "嘿！\n\n很高兴告诉你，你已符合 Exercism Insiders 的资格。Insiders 是我们为那些为 Exercism 做贡献、提供指导或捐款的人准备的奖励计划。\n你可以在[Insiders 页面](%{insiders_url})激活你的 Insiders 账户。\n\nInsiders 为你提供三大好处：\n1. 免费获得 Exercism Premium。你现在可以使用深色模式、ChatGPT 集成、更多指导名额等等。\n2. 幕后内容。你可以观看我和团队制作的视频，随时了解我们开发 Exercism 的进展。\n3. 更近距离地接触团队和社区核心成员，还有我们专属的 #insiders Discord 频道。\n\nInsiders 页面里还有更多详细信息！\n只要你在积极贡献、提供指导或捐款，你的 Insiders 身份就会一直保留。\n达到一定标准后，你还能获得终身 Insiders 身份。\n\n非常感谢你参与 Exercism 的故事。真心希望你享受 Insiders！\n\nJeremy Walker\nExercism 联合创始人兼 CEO\n\n激活 Insiders：%{insiders_url}\n"
+    },
+    "mentor_finished_discussion": {
+      "title": "你的导师已结束讨论",
+      "subject": "%{mentor_handle} 已结束你在 %{track_title}/%{exercise_title} 上的讨论",
+      "body_markdown": "你好 %{user_handle}，\n\n你的导师（%{mentor_handle}）已经结束了你在 %{track_title} 学习轨道上 %{exercise_title} 解答的讨论。\n\n[前往讨论](%{discussion_url})"
+    },
+    "joined_lifetime_insiders": {
+      "subject": "欢迎加入 Exercism 终身 Insiders",
+      "body_markdown": "嘿！\n\n欢迎加入[Exercism Insiders](%{insiders_url})！  \n感谢你参与我们的故事，帮助 Exercism 取得今天这样的巨大成功。  \n作为**终身 Insider**，你是极少数对平台产生过巨大影响、并把它塑造成今天这个样子的人之一。  \n你帮助了成千上万的人，带来了巨大的改变，谢谢你。  \nInsiders 只是我们对你所做一切的一点小小感谢。\n\n想了解 Insiders 里都有什么，请查看那个专属页面，或者观看下面的介绍视频 👇\n\n<p style=\"margin-bottom: 24px\">\n  <a href=\"%{youtube_video_url}\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n    <img src=\"%{youtube_thumbnail_url}\" style=\"width:100%; display:block\" />\n  </a>\n</p>\n\n欢迎到我们专属的[#insiders Discord 频道](%{discord_channel_url})分享你的想法和建议。  \n来吧，跟大家打个招呼！\n\n再次感谢你参与 Exercism。我对接下来的事情充满期待！ 🙂\n\nJeremy Walker  \nExercism 联合创始人兼 CEO\n\n[访问 Exercism](%{root_url})\n"
+    },
+    "student_replied_to_discussion": {
+      "title": "你的学生已回复",
+      "subject": "%{student_handle} 在你关于 %{track_title}/%{exercise_title} 的讨论中发表了评论",
+      "body_markdown": "你好 %{user_handle}，\n\n你的学生（%{student_handle}）在你关于 %{track_title} 学习轨道上 %{exercise_title} 的讨论中发表了评论。\n\n[前往讨论](%{discussion_url})"
+    },
+    "nudge_to_request_mentoring": {
+      "title": "借助导师的反馈提升实力！",
+      "subject": "借助导师的反馈提升实力",
+      "body_markdown": "你好 %{user_handle}，\n\n你已经完成了一些练习（干得漂亮！），但还没有为你的任何解答申请过指导。\n\n从导师那里获得反馈，是发现自己的知识盲区、提升技能的绝佳方式。这是 Exercism 最有价值的功能之一，而且和 Exercism 的其他一切一样，完全免费！\n\n挑一个你觉得最需要改进的解答，申请一位导师来看看。他们大概会在一天左右回复你，并给出一些想法！\n\n[选择一个解答 →](%{notification_url})\n"
+    },
+    "student_added_iteration": {
+      "title": "你的学生提交了新的迭代",
+      "subject": "%{student_handle} 在你指导的 %{track_title}/%{exercise_title} 解答上提交了新的迭代",
+      "body_markdown": "你好 %{user_handle}，\n\n你的学生（%{student_handle}）在你关于 %{track_title} 学习轨道上 %{exercise_title} 的讨论中提交了新的迭代（%{iteration_number}）。\n\n[前往讨论](%{discussion_url})"
+    },
+    "acquired_trophy": {
+      "title": "有一个新奖杯等着你去揭晓！",
+      "subject": "你解锁了一个新奖杯",
+      "body_markdown": "你好 %{user_handle}，\n\n恭喜！你在 %{track_title} 学习轨道上解锁了一个新奖杯。\n访问 %{track_title} 学习轨道页面，查看奖杯陈列柜，看看你获得了什么。\n[让我看看我解锁了什么！](%{track_url})\n"
+    },
+    "eligible_for_lifetime_insiders": {
+      "subject": "你符合 Exercism Insiders 的资格",
+      "body_markdown": "嗨！\n\n很高兴告诉你，你符合 Exercism Insiders 的资格，这是我们的奖励计划，面向为 Exercism 做贡献、提供指导或捐赠的人。  \n你可以在 [Insiders 页面](%{insiders_url}) 激活你的 Insiders 账号。\n\nInsiders 会给你带来一些额外福利：\n\n- 使用我们超酷的深色模式\n- 当你卡在练习上时的 ChatGPT 集成\n- 幕后内容。你可以观看我和团队的视频，随时了解我们在 Exercism 上的工作进展。\n- 通过我们专属的 #insiders Discord 频道，更近距离地接触团队和核心社区成员。\n- 额外的指导名额。\n- 专属徽章\n- 还有更多！\n\n我们已为你授予 **Lifetime** 状态，这意味着你将永远可以使用 Insiders。  \n[Insiders 页面](%{insiders_url}) 有更多详情，也可以观看下方视频了解更多 👇\n\n<a href=\"https://www.youtube.com/watch?v=iwhahd41h0A\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"https://assets.exercism.org/images/thumbnails/introducing-insiders-with-play-icon.jpg\" style=\"width:100%; display:block\" />\n</a>\n\n非常感谢你成为 Exercism 故事的一部分。真心希望你喜欢 Insiders！\n\nJeremy Walker  \nExercism 联合创始人兼 CEO\n\n[激活 Insiders](%{insiders_url})"
+    },
+    "student_timed_out_discussion_student": {
+      "title": "你的讨论已超时",
+      "subject": "你在 %{track_title}/%{exercise_title} 上的指导讨论已超时",
+      "body_markdown": "你好 %{user_handle}，\n\n你在 %{track_title} 赛道上 %{exercise_title} 的解答，与 %{discussion_mentor_handle} 的讨论已超时。\n\n[前往讨论](%{discussion_url})\n"
+    },
+    "nudge_mentor_to_reply_in_discussion": {
+      "title": "你的学生已经等了 %{num_days_waiting} 天，还在等你的回复",
+      "subject": "%{student_handle} 正在等你回复（%{num_days_waiting} 天提醒）",
+      "body_markdown": "你好 %{user_handle}，\n\n友情提醒：在 %{track_title} 赛道上，你的学生（%{student_handle}）已经在关于 %{exercise_title} 的[讨论](%{discussion_url})中等了你 %{num_days_waiting} 天，盼你回复。\n\n如果现在不该你回复，而是在等学生，请使用指导界面中的“轮到学生了……”按钮。\n\n如果你不回复，讨论将在 %{num_days_to_time_out} 天后超时。\n\n[前往讨论](%{discussion_url})"
+    }
+  },
+  "premium_mailer": {
+    "payment_created": {
+      "body_markdown": "你好 %{user_handle}，\n\n感谢你向 Exercism 捐款！你的付款不仅为你带来了一些有趣的权益，也让 Exercism 的核心产品对所有人保持免费。所以，谢谢你。\n\n你可以在设置页面查看你向 Exercism 支付的所有款项，并下载收据。如果你对付款有任何疑问，请回复这封邮件。\n\n希望你喜欢 Exercism Insiders！\n"
+    }
+  },
+  "localization": {
+    "translators": {
+      "new": {
+        "hero": {
+          "title": "你的语言版 Exercism",
+          "subtitle_html": "我们正在把 Exercism 翻译成<strong>所有语言</strong>，而且我们<strong>需要你的帮助！</strong>",
+          "description": "如果你想帮忙把 Exercism 翻译成你熟悉的语言，请填写下面的表单，我们会在接下来几周内联系你并告知详情！"
+        },
+        "call_to_action": {
+          "join_team_signed_out": "加入团队！",
+          "login_prompt_html": "要参与我们的翻译项目，请登录 Exercism（如果你是新手，也可以先创建一个账号！）",
+          "log_in_button": "登录",
+          "sign_up_button": "注册",
+          "join_team_signed_in": "加入团队！",
+          "choose_languages_description": "最多选择 5 种你想帮忙翻译的语言。"
+        },
+        "form": {
+          "signed_up_title": "你已报名成为译者！",
+          "signed_up_description_html": "<strong>谢谢你！我们会尽快联系你！</strong> 以下是你已报名要将 Exercism 翻译成的语言。",
+          "select_language_prompt_first": "请至少选择一种语言……",
+          "update_languages_button": "更新你的语言",
+          "become_translator_button": "成为译者！"
+        },
+        "faq": {
+          "title": "常见问题",
+          "what_it_involves_question": "译者需要做些什么？",
+          "what_it_involves_answer": "译者会帮助我们把 Exercism 网站、文档以及其他内容翻译成自己所选择的语言。这包括翻译文本、审校译文，并确保内容符合当地文化且准确无误。我们会先生成机器翻译，然后请译者审阅并加以改进。",
+          "time_commitment_question": "需要投入多少时间？",
+          "time_commitment_answer": "你可以按自己的意愿为项目投入任意多的时间。我们希望为每种语言组建庞大的译者团队，让大家协力快速交出一个出色的初版。",
+          "payment_reward_question": "有报酬或奖励吗？",
+          "payment_reward_answer_html": "Exercism 的所有内容都由志愿者创作，他们抽出时间来帮助他人。和网站的其他部分一样，参与帮忙没有金钱回报，但你会<strong>获得 Exercism 声望</strong>，这能提升你的公开个人资料！",
+          "when_start_question": "我们什么时候开始？",
+          "when_start_answer": "很快！我们正在收尾你将使用的界面，并制作最初的机器翻译。我们希望能在九月初为你准备好！"
+        }
+      }
+    }
+  },
+  "donations_mailer": {
+    "payment_created": {
+      "title": "非常感谢！",
+      "subject": "感谢你的捐赠",
+      "body_markdown": "你好 %{user_handle}，\n\n感谢你的捐赠！Exercism 的使命是把编程的乐趣带给世界各地的每一个人。  \n你的捐赠让我们所做的一切成为可能。\n\n你可以在设置页面查看你向 Exercism 做出的全部捐赠，并下载收据。  \n如果你对捐赠有任何疑问，请直接回复这封邮件。\n\n再次感谢你！\n\n[查看你的捐赠](%{donations_url})"
+    }
+  },
+  "exercises": {
+    "documents": {
+      "welcome": "欢迎来到 Exercism %{track_title} 轨道中的 %{exercise_title}。",
+      "help_reference": "如果你在运行测试或提交代码时需要帮助，请查看`HELP.md`。",
+      "hints_reference": "如果你在练习中卡住了，请查看`HINTS.md`，不过先试着自己解决，不要急着看提示 :)",
+      "tests_header": "运行测试",
+      "submitting_solution_header": "提交你的解答",
+      "submitting_solution": "你可以使用`exercism submit %{solution_file_paths}`命令提交你的解答。\n这个命令会把你的解答上传到 Exercism 网站，并打印出解答页面的 URL。\n\n你也可以提交一个不完整的解答，这样可以：\n\n- 看看别人是如何完成这道练习的\n- 向导师寻求帮助",
+      "help_header": "需要帮助吗？",
+      "help_intro": "如果你在解这道练习时需要帮助，请查看以下页面：",
+      "help_check_pages": "如果这些资源还不够，请查看以下页面：",
+      "help_pages": "- [%{track_title} 轨道文档](https://exercism.org/docs/tracks/%{track_slug})\n- [%{track_title} 轨道在论坛上的编程版块](https://forum.exercism.org/c/programming/%{track_slug})\n- [Exercism 在论坛上的编程版块](https://forum.exercism.org/c/programming/5)\n- [常见问题解答](https://exercism.org/docs/using/faqs)",
+      "help_submit_incomplete": "如果这些资源还不够，你也可以提交（不完整的）解答，以申请导师指导。"
+    }
+  }
+}

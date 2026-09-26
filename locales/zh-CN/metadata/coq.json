@@ -1,0 +1,13 @@
+{
+  "exercise:hello-world:name": "你好，世界",
+  "exercise:rna-transcription:name": "RNA 转录",
+  "exercise:hello-world:blurb": "经典的入门练习。只需说出“Hello, World!”。",
+  "exercise:hello-world:source": "这是一道向用户介绍如何使用 Exercism 的练习。",
+  "exercise:rna-transcription:blurb": "给定一条 DNA 链，返回其 RNA 互补转录。",
+  "exercise:rna-transcription:source": "Hyperphysics",
+  "track:blurb": "Coq 是一款证明助手。使用 Coq，你可以为数学定义、算法和定理编写形式化的描述。Coq 还提供各种策略，让你能以交互方式开发经机器验证的证明。",
+  "exercise:tautology:name": "重言式",
+  "exercise:tautology:blurb": "重言式俱乐部的第一条规则就是重言式俱乐部的第一条规则 ",
+  "doc:learning:title": "如何学习 Coq",
+  "doc:learning:blurb": "从零开始学习 Coq 的入门概览"
+}
