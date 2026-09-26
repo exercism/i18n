@@ -395,5 +395,8 @@
   "exercise:book-store:source": "A Cyber-Dojo harry potter kata ihlette.",
   "exercise:relative-distance:name": "Relatív távolság",
   "exercise:relative-distance:blurb": "Adott egy családfa, számítsd ki a rokonsági fokot.",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:camicia:name": "Camicia",
+  "exercise:camicia:blurb": "Szimuláld a kártyajátékot, és állapítsd meg, hogy a játszma véget ér-e, vagy végtelen ciklusba kerül.",
+  "exercise:camicia:source": "Beggar-My-Neighbour"
 }

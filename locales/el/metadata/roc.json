@@ -395,5 +395,8 @@
   "exercise:book-store:source": "Εμπνευσμένο από το harry potter kata από το Cyber-Dojo.",
   "exercise:relative-distance:name": "Σχετική απόσταση",
   "exercise:relative-distance:blurb": "Δεδομένου ενός γενεαλογικού δέντρου, υπολόγισε τον βαθμό συγγένειας.",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:camicia:name": "Camicia",
+  "exercise:camicia:blurb": "Προσομοίωσε το παιχνίδι με τράπουλα και προσδιόρισε αν η παρτίδα τελειώνει ή μπαίνει σε ατέρμονο βρόχο.",
+  "exercise:camicia:source": "Beggar-My-Neighbour"
 }

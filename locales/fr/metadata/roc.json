@@ -395,5 +395,8 @@
   "exercise:book-store:source": "Inspiré par le kata harry potter de Cyber-Dojo.",
   "exercise:relative-distance:name": "Distance relative",
   "exercise:relative-distance:blurb": "Étant donné un arbre généalogique, calcule le degré de séparation.",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:camicia:name": "Camicia",
+  "exercise:camicia:blurb": "Simule le jeu de cartes et détermine si la partie se termine ou entre dans une boucle infinie.",
+  "exercise:camicia:source": "Beggar-My-Neighbour"
 }

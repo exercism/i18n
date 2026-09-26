@@ -82,6 +82,11 @@ This page is generated from [the index](../../json/el/roc.json) by `scripts/buil
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/bowling/.docs/instructions.md)): [Latest](../../../locales/el/content/60/cc/ad1b612b070ce573c890c8945b3e20f7eeaf.md)
 
+### Camicia
+
+- `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/camicia/.docs/instructions.md)): [Latest](../../../locales/el/content/db/62/fcef27d59da1ecd8287b36edfede272b9197.md)
+- `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/camicia/.docs/introduction.md)): [Latest](../../../locales/el/content/76/1d/8a82c502ac4117787d8314c74fcf79dc5159.md)
+
 ### Change (Ρέστα)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/change/.docs/instructions.md)): [Latest](../../../locales/el/content/58/87/f4cb6937d20d8dfc81f7fe369959cb0dd129.md)

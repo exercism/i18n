@@ -395,5 +395,8 @@
   "exercise:book-store:source": "За мотивами ката harry potter із Cyber-Dojo.",
   "exercise:relative-distance:name": "Відносна відстань",
   "exercise:relative-distance:blurb": "Дано родинне дерево: обчислити ступінь спорідненості.",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:camicia:name": "Camicia",
+  "exercise:camicia:blurb": "Змоделюйте карткову гру та визначте, чи партія завершується, чи входить у нескінченний цикл.",
+  "exercise:camicia:source": "Beggar-My-Neighbour"
 }
