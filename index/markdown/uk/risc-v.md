@@ -399,8 +399,10 @@ This page is generated from [the index](../../json/uk/risc-v.json) by `scripts/b
 
 ### help.md
 
-- `help.md` ([English](https://github.com/exercism/risc-v/blob/main/exercises/shared/.docs/help.md)): [Latest](../../../locales/uk/content/45/aa/2d6411fe5d62666ad52d0981ca77f05503cd.md)
+- `help.md` ([English](https://github.com/exercism/risc-v/blob/main/exercises/shared/.docs/help.md)): [Latest](../../../locales/uk/content/9f/be/25e618a89ec2494095c2f06c7142bef62139.md)
+  - [`45aa2d6411`](../../../locales/uk/content/45/aa/2d6411fe5d62666ad52d0981ca77f05503cd.md)
 
 ### tests.md
 
-- `tests.md` ([English](https://github.com/exercism/risc-v/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/uk/content/1f/19/7bf7fc362ce77b023b134ec9d0b7d18a16e0.md)
+- `tests.md` ([English](https://github.com/exercism/risc-v/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/uk/content/b5/0a/596c3fc3c04cc33f0d338f23cf182ff42995.md)
+  - [`1f197bf7fc`](../../../locales/uk/content/1f/19/7bf7fc362ce77b023b134ec9d0b7d18a16e0.md)
