@@ -402,5 +402,7 @@
   "exercise:linked-list:source": "经典的计算机科学主题",
   "exercise:intergalactic-transmission:name": "星际传输",
   "exercise:intergalactic-transmission:blurb": "为待传输的消息添加奇偶校验位。",
-  "exercise:intergalactic-transmission:source": "Kah Goh"
+  "exercise:intergalactic-transmission:source": "Kah Goh",
+  "exercise:tree-building:name": "构建树",
+  "exercise:tree-building:blurb": "重构一个构建树的算法。"
 }

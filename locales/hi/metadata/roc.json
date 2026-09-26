@@ -402,5 +402,7 @@
   "exercise:linked-list:source": "कंप्यूटर विज्ञान का एक क्लासिक विषय",
   "exercise:intergalactic-transmission:name": "अंतरागांगिक संचरण",
   "exercise:intergalactic-transmission:blurb": "संचरण के लिए किसी संदेश में पैरिटी बिट जोड़िए",
-  "exercise:intergalactic-transmission:source": "Kah Goh"
+  "exercise:intergalactic-transmission:source": "Kah Goh",
+  "exercise:tree-building:name": "ट्री निर्माण",
+  "exercise:tree-building:blurb": "ट्री बनाने वाले एल्गोरिदम को रीफैक्टर कीजिए।"
 }

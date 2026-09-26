@@ -402,5 +402,7 @@
   "exercise:linked-list:source": "Tema clásico de las ciencias de la computación",
   "exercise:intergalactic-transmission:name": "Transmisión intergaláctica",
   "exercise:intergalactic-transmission:blurb": "Agrega bits de paridad a un mensaje para su transmisión",
-  "exercise:intergalactic-transmission:source": "Kah Goh"
+  "exercise:intergalactic-transmission:source": "Kah Goh",
+  "exercise:tree-building:name": "Construcción de árboles",
+  "exercise:tree-building:blurb": "Refactoriza un algoritmo de construcción de árboles."
 }
