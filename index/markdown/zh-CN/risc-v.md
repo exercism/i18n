@@ -379,7 +379,8 @@ This page is generated from [the index](../../json/zh-CN/risc-v.json) by `script
 
 ### How to learn RISC-V (如何学习 RISC-V)
 
-- `LEARNING.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/LEARNING.md)): [Latest](../../../locales/zh-CN/content/b1/44/34dc01362de2abac1b97d0cc6b759d3a2c8b.md)
+- `LEARNING.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/LEARNING.md)): [Latest](../../../locales/zh-CN/content/7e/bc/4ae6c6d8b487cc329aab90c8e0e45230ccce.md)
+  - [`b14434dc01`](../../../locales/zh-CN/content/b1/44/34dc01362de2abac1b97d0cc6b759d3a2c8b.md)
 
 ### Installing RISC-V locally (在本地安装 RISC-V)
 
@@ -397,10 +398,10 @@ This page is generated from [the index](../../json/zh-CN/risc-v.json) by `script
 
 ### help.md
 
-- `help.md` ([English](https://github.com/exercism/risc-v/blob/main/exercises/shared/.docs/help.md)): [Latest](../../../locales/zh-CN/content/9f/be/25e618a89ec2494095c2f06c7142bef62139.md)
-  - [`45aa2d6411`](../../../locales/zh-CN/content/45/aa/2d6411fe5d62666ad52d0981ca77f05503cd.md)
+- `help.md` ([English](https://github.com/exercism/risc-v/blob/main/exercises/shared/.docs/help.md)): [Latest](../../../locales/zh-CN/content/45/aa/2d6411fe5d62666ad52d0981ca77f05503cd.md)
+  - [`9fbe25e618`](../../../locales/zh-CN/content/9f/be/25e618a89ec2494095c2f06c7142bef62139.md)
 
 ### tests.md
 
-- `tests.md` ([English](https://github.com/exercism/risc-v/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/zh-CN/content/b5/0a/596c3fc3c04cc33f0d338f23cf182ff42995.md)
-  - [`1f197bf7fc`](../../../locales/zh-CN/content/1f/19/7bf7fc362ce77b023b134ec9d0b7d18a16e0.md)
+- `tests.md` ([English](https://github.com/exercism/risc-v/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/zh-CN/content/1f/19/7bf7fc362ce77b023b134ec9d0b7d18a16e0.md)
+  - [`b50a596c3f`](../../../locales/zh-CN/content/b5/0a/596c3fc3c04cc33f0d338f23cf182ff42995.md)

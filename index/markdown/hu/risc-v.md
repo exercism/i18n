@@ -379,7 +379,7 @@ This page is generated from [the index](../../json/hu/risc-v.json) by `scripts/b
 
 ### How to learn RISC-V
 
-- `LEARNING.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/LEARNING.md)): missing
+- `LEARNING.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/LEARNING.md)): [Latest](../../../locales/hu/content/7e/bc/4ae6c6d8b487cc329aab90c8e0e45230ccce.md)
 
 ### Installing RISC-V locally
 
