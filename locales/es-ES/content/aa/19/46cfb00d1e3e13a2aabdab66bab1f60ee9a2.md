@@ -1,0 +1,29 @@
+# Instrucciones
+
+Tu tarea es implementar un algoritmo de búsqueda binaria.
+
+Un algoritmo de búsqueda binaria encuentra un elemento en un array dividiéndolo repetidamente por la mitad y conservando solo la mitad que contiene el elemento que buscamos.
+Nos permite acotar rápidamente las posibles ubicaciones de nuestro elemento hasta que lo encontramos, o hasta que hemos descartado todas las posibles ubicaciones.
+
+~~~~exercism/caution
+La búsqueda binaria solo funciona cuando un array está ordenado.
+~~~~
+
+El algoritmo funciona así:
+
+- Busca el elemento central de un array *ordenado* y compáralo con el elemento que buscamos.
+- Si el elemento central es nuestro elemento, ¡ya hemos terminado!
+- Si el elemento central es mayor que nuestro elemento, podemos eliminar ese elemento y todos los elementos **posteriores** a él.
+- Si el elemento central es menor que nuestro elemento, podemos eliminar ese elemento y todos los elementos **anteriores** a él.
+- Si se ha eliminado cada elemento del array, entonces el elemento no está en el array.
+- En caso contrario, repite el proceso en la parte del array que no se ha eliminado.
+
+Aquí tienes un ejemplo:
+
+Supongamos que buscamos el número 23 en el siguiente array ordenado: `[4, 8, 12, 16, 23, 28, 32]`.
+
+- Empezamos comparando 23 con el elemento central, 16.
+- Como 23 es mayor que 16, podemos eliminar la mitad izquierda del array, y nos queda `[23, 28, 32]`.
+- A continuación comparamos 23 con el nuevo elemento central, 28.
+- Como 23 es menor que 28, podemos eliminar la mitad derecha del array: `[23]`.
+- Hemos encontrado nuestro elemento.

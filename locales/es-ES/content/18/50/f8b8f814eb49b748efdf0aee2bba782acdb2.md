@@ -1,0 +1,5 @@
+# Anexo a las instrucciones
+
+## El crate time
+
+Si no tienes claro qué operaciones puedes realizar con `PrimitiveDateTime`, echa un vistazo al [crate time](https://docs.rs/time), que figura como dependencia en el archivo `Cargo.toml` de este ejercicio.

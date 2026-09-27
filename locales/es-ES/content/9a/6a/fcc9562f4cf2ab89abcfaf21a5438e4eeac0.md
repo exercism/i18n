@@ -1,0 +1,3 @@
+# Acerca de
+
+TODO: añadir información sobre el concepto de recursión
