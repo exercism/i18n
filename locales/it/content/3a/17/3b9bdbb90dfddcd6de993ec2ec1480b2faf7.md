@@ -1,0 +1,124 @@
+# Introduzione
+
+## Terminologia
+
+Hai già usato e scritto funzioni C++ in un paio di concetti.
+È il momento di affrontare la parte tecnica.
+Lo snippet di codice qui sotto mostra i termini più comuni, per una consultazione rapida.
+Dato che C++ ignora gli spazi bianchi, la formattazione è stata modificata per mettere ogni elemento su una singola riga.
+
+```cpp
+// Function declaration:
+bool                                              // Return type
+admin_detected(string user, string password)      // Type signature
+;                                                 // Don't forget the ';' for the declaration
+
+// Function definition:
+bool                                              // Return type
+admin_detected                                    // Function name
+(string user, string password)                    // Parameter list
+{ return user == "admin" && password == "1234"; } // Function body
+```
+~~~~exercism/advanced
+La dichiarazione funziona come una nota per il compilatore: esiste una funzione con quel nome, quel tipo restituito e quella lista di parametri.
+Il codice non funzionerà se manca la definizione.
+Le dichiarazioni sono facoltative, servono se usi la funzione prima della sua definizione.
+Le dichiarazioni possono risolvere problemi come i riferimenti ciclici e possono essere usate per separare l'interfaccia dall'implementazione.
+~~~~
+
+## Il qualificatore const
+
+A volte vuoi assicurarti che i valori non possano essere modificati dopo essere stati inizializzati.
+C++ usa la parola chiave `const` come qualificatore per le costanti.
+
+```cpp
+const int number_of_dragon_balls{7};
+number_of_dragon_balls--; // compilation error
+```
+
+~~~~exercism/note
+Spesso vedrai le costanti scritte in _UPPER_SNAKE_CASE_.
+Si consiglia di riservare questa scrittura alle macro, se non esiste un'altra convenzione.
+~~~~
+
+Se provi a modificare una variabile costante dopo che è stata impostata, il codice non verrà compilato.
+Questo aiuta a evitare modifiche indesiderate, ma apre anche possibilità di ottimizzazione per il compilatore.
+Per una persona è anche più facile ragionare sul codice, se sai che certe parti non saranno modificate.
+
+Puoi anche usare `const` come qualificatore per i parametri di una funzione.
+
+```cpp
+string guess_number(const int& secret, const int& guess) {
+    if (secret < guess) return "lower.";
+    if (secret > guess) return "higher.";
+    return "exact!";
+}
+```
+
+Quando passi un riferimento `const` alla funzione, puoi essere certo che rimarrà invariato.
+Spesso vedrai riferimenti `const` per oggetti che potrebbero essere costosi da copiare, come stringhe lunghe.
+Un terzo caso d'uso del qualificatore `const` sono le funzioni membro che non modificano l'istanza di una classe.
+
+```cpp
+class Stubborn {
+    public:
+    Stubborn(string reply) {
+        response = reply;
+    }
+    string answer(const string& question) const {
+        if (question.length() == 0) { return ""; }
+        return response;
+    }
+    private:
+    string response{};
+};
+```
+
+La funzione membro `answer` di `Stubborn` usa un riferimento `const string&` come parametro.
+Così si evita una copia dall'oggetto originale che è stato passato alla funzione.
+
+## L'overloading delle funzioni
+
+Più funzioni possono avere lo stesso nome se la lista dei parametri è diversa.
+Questo si chiama overloading delle funzioni, e di solito si fa quando queste funzioni svolgono compiti molto simili.
+
+L'intestazione della funzione senza il tipo restituito è la sua __firma del tipo__.
+Un cambiamento nella firma del tipo dà origine a una nuova funzione.
+
+L'esempio di `play_sound` ha sei overload diversi per coprire scenari diversi:
+
+```cpp
+// different argument types:
+void play_sound(char note);         // C, D, E, ..., B
+void play_sound(string solfege);    // do, re, mi, ..., ti
+void play_sound(int jianpu);        // 1, 2, 3, ..., 7
+
+// different number of arguments:
+void play_sound(string solfege, double duration);
+
+// different qualifiers:
+void play_sound(vector<string>& solfege);
+void play_sound(const vector<string>& solfege);
+```
+
+~~~~exercism/advanced
+La firma del tipo è definita dal nome della funzione, dal numero di parametri, dai loro tipi e dai loro qualificatori (ma non dai loro nomi).
+Il tipo restituito non fa esplicitamente parte della firma del tipo, e otterrai errori di compilazione se hai due funzioni che differiscono solo per il tipo restituito.
+Il compilatore si lamenterà, perché non è chiaro quale delle due debba essere usata.
+~~~~
+
+## Gli argomenti predefiniti
+
+Alcune funzioni possono diventare molto lunghe, e molte delle loro chiamate potrebbero usare gli stessi valori per la maggior parte dei parametri.
+La ripetizione in quelle chiamate si può evitare con gli argomenti predefiniti.
+
+```cpp
+void record_new_horse_birth(string name, int weight, string color="brown-ish", string dam="Alruccaba", string sire="Poseidon");
+
+record_new_horse_birth("Urban Sea", 130); // color will be brown, dam "Alruccabam", sire "Poseidon"
+record_new_horse_birth("Highclere", 175, "off-white", "Fall Aspen");   // sire will be "Poseidon"
+```
+
+Dato che la dichiarazione della funzione viene spesso letta prima della definizione, è il posto migliore per impostare gli argomenti predefiniti.
+Se un parametro ha una dichiarazione predefinita, anche tutti i parametri alla sua destra devono averne una.
+A volte overloading complicati di funzioni si possono riorganizzare in meno funzioni con argomenti predefiniti, per migliorare la manutenibilità.

@@ -1,0 +1,17 @@
+{
+  "exercise:hello-world:name": "Hello World",
+  "exercise:leap:name": "Anno bisestile",
+  "exercise:hello-world:source": "Questo è un esercizio per introdurre gli utenti all'uso di Exercism",
+  "exercise:leap:blurb": "Determina se un dato anno è un anno bisestile.",
+  "exercise:leap:source": "CodeRanch Cattle Drive, Assignment 3",
+  "track:blurb": "TODO: aggiungere una descrizione",
+  "exercise:hello-world:blurb": "Il classico esercizio introduttivo. Di' semplicemente \"Hello, World!\".",
+  "doc:installation:title": "Installare ARM32 Assembly in locale",
+  "doc:installation:blurb": "Scopri come installare ARM32 Assembly in locale per risolvere gli esercizi di Exercism sul tuo computer",
+  "doc:learning:title": "Come imparare ARM32 Assembly",
+  "doc:learning:blurb": "Una panoramica su come iniziare da zero con ARM32 Assembly",
+  "doc:tests:title": "Come testare su ARM32 Assembly",
+  "doc:tests:blurb": "Scopri come testare i tuoi esercizi di ARM32 Assembly su Exercism",
+  "doc:resources:title": "Risorse utili per ARM32 Assembly",
+  "doc:resources:blurb": "Una raccolta di risorse utili per aiutarti a padroneggiare ARM32 Assembly"
+}

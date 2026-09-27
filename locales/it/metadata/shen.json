@@ -1,0 +1,6 @@
+{
+  "exercise:hello-world:name": "Hello World",
+  "exercise:hello-world:blurb": "Il classico esercizio introduttivo. Di' semplicemente \"Hello, World!\"",
+  "exercise:hello-world:source": "Questo è un esercizio per introdurre gli utenti all'uso di Exercism",
+  "track:blurb": "Un Lisp ospitato con pattern matching, Prolog e un potente sistema di tipi."
+}
