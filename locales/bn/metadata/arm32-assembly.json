@@ -1,0 +1,17 @@
+{
+  "exercise:hello-world:name": "Hello World",
+  "exercise:leap:name": "অধিবর্ষ",
+  "exercise:hello-world:source": "এটি Exercism ব্যবহারের সাথে ব্যবহারকারীদের পরিচয় করিয়ে দেওয়ার একটি অনুশীলনী",
+  "exercise:leap:blurb": "একটি বছর অধিবর্ষ কি না, তা নির্ণয় করুন।",
+  "exercise:leap:source": "CodeRanch Cattle Drive, অ্যাসাইনমেন্ট ৩",
+  "track:blurb": "TODO: বিবরণ যোগ করুন",
+  "exercise:hello-world:blurb": "চিরায়ত পরিচিতিমূলক অনুশীলনী। শুধু \"Hello, World!\" বলুন।",
+  "doc:installation:title": "স্থানীয়ভাবে ARM32 Assembly ইনস্টল করা",
+  "doc:installation:blurb": "নিজের মেশিনে Exercism-এর অনুশীলনীগুলো সমাধান করতে স্থানীয়ভাবে ARM32 Assembly ইনস্টল করা শিখুন",
+  "doc:learning:title": "কীভাবে ARM32 Assembly শিখবেন",
+  "doc:learning:blurb": "একেবারে শূন্য থেকে ARM32 Assembly শুরু করার একটি সংক্ষিপ্ত পরিচিতি",
+  "doc:tests:title": "ARM32 Assembly ট্র্যাকে টেস্ট করা",
+  "doc:tests:blurb": "Exercism-এ আপনার ARM32 Assembly অনুশীলনীগুলো টেস্ট করা শিখুন",
+  "doc:resources:title": "উপকারী ARM32 Assembly রিসোর্স",
+  "doc:resources:blurb": "ARM32 Assembly-এ দক্ষতা অর্জনে সহায়ক দরকারি রিসোর্সের সংগ্রহ"
+}
