@@ -540,6 +540,7 @@ This page is generated from [the index](../../json/zh-CN/roc.json) by `scripts/b
 ### Split-Second Stopwatch (分段计时秒表)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/split-second-stopwatch/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/30/bd/c988dadd9ef5da03ac87eb44f49313c5d84d.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/split-second-stopwatch/.docs/instructions.append.md)): [Latest](../../../locales/zh-CN/content/87/79/0ec57eda5a9edbd54c52a0254649e8b68c3b.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/split-second-stopwatch/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/a8/43/2247712455ffa459dffa8fc411000905b0ed.md)
 
 ### Square Root (平方根)
