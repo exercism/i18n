@@ -1,0 +1,10 @@
+{
+  "exercise:hello-world:name": "مرحبًا بالعالم",
+  "exercise:resistor-color-duo:name": "ثنائي ألوان المقاومة",
+  "exercise:hello-world:blurb": "التمرين التمهيدي الكلاسيكي. قل فقط \"Hello, World!\"",
+  "exercise:hello-world:source": "هذا تمرين لتعريف المستخدمين بكيفية استخدام Exercism",
+  "exercise:resistor-color-duo:blurb": "حوّل رموز الألوان المستخدمة في المقاومات إلى قيمة عددية.",
+  "exercise:resistor-color-duo:source": "Maud de Vries, Erik Schierboom",
+  "track:blurb": "في جوهرها، Solidity لغة برمجة تأثرت بقوة بـ C++ وPython وJavaScript. وهي لغة كائنية التوجه تعمل على Ethereum Virtual Machine، المعروفة أيضًا باسم _EVM_. لها صياغة شبيهة بـ ECMAScript، ما يجعلها تبدو مألوفة لدى البعض، وهي في الوقت نفسه ذات أنواع ساكنة، مع أنواع إرجاع متغيرة العدد.",
+  "exercise:token-transfer:name": "نقل الرموز"
+}

@@ -1,0 +1,6 @@
+{
+  "exercise:hello-world:name": "مرحبًا بالعالم",
+  "exercise:hello-world:blurb": "التمرين التمهيدي الكلاسيكي. قل فقط \"Hello, World!\"",
+  "exercise:hello-world:source": "هذا تمرين لتعريف المستخدمين بكيفية استخدام Exercism",
+  "track:blurb": "لغة Lisp مستضافة تتميز بمطابقة الأنماط وProlog ونظام أنواع قوي."
+}

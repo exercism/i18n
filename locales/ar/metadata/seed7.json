@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: أضف نبذة",
+  "doc:installation:title": "تثبيت Seed7 محليًا",
+  "doc:installation:blurb": "تعرّف على كيفية تثبيت Seed7 محليًا لحل تمارين Exercism على جهازك الخاص",
+  "doc:learning:title": "كيفية تعلّم Seed7",
+  "doc:learning:blurb": "نظرة عامة على كيفية البدء مع Seed7 من الصفر",
+  "doc:tests:title": "الاختبار على مسار Seed7",
+  "doc:tests:blurb": "تعرّف على كيفية اختبار تمارين Seed7 الخاصة بك على Exercism",
+  "doc:resources:title": "مصادر مفيدة حول Seed7",
+  "doc:resources:blurb": "مجموعة من المصادر المفيدة التي تساعدك على إتقان Seed7"
+}

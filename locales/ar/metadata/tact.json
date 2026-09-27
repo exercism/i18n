@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: أضف نبذة",
+  "doc:installation:title": "تثبيت Tact محليًا",
+  "doc:installation:blurb": "تعلّم كيفية تثبيت Tact محليًا لحل تمارين Exercism على جهازك",
+  "doc:learning:title": "كيفية تعلّم Tact",
+  "doc:learning:blurb": "نظرة عامة على كيفية البدء من الصفر مع Tact",
+  "doc:tests:title": "الاختبار في مسار Tact",
+  "doc:tests:blurb": "تعلّم كيفية اختبار تمارين Tact على Exercism",
+  "doc:resources:title": "مصادر مفيدة عن Tact",
+  "doc:resources:blurb": "مجموعة من المصادر المفيدة لمساعدتك على إتقان Tact"
+}

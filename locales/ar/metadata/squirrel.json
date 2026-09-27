@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: أضف نبذة",
+  "doc:installation:title": "تثبيت Squirrel محليًا",
+  "doc:installation:blurb": "تعرّف على كيفية تثبيت Squirrel محليًا لحل تمارين Exercism على جهازك",
+  "doc:learning:title": "كيفية تعلّم Squirrel",
+  "doc:learning:blurb": "نظرة عامة على كيفية البدء مع Squirrel من الصفر",
+  "doc:tests:title": "الاختبار في مسار Squirrel",
+  "doc:tests:blurb": "تعرّف على كيفية اختبار تمارين Squirrel على Exercism",
+  "doc:resources:title": "مصادر مفيدة عن Squirrel",
+  "doc:resources:blurb": "مجموعة من المصادر المفيدة لمساعدتك على إتقان Squirrel"
+}

@@ -1,0 +1,16 @@
+{
+  "stamps": {
+    "doc:installation:blurb": "51ae3450ac145586fdfc5c8fd5765e415f924747",
+    "doc:installation:title": "15abd52e5539cb0ab4862db66f6e2edd0252a6ab",
+    "doc:learning:blurb": "85d1c44ae21068dee786bff27dfd524a4a3a21d8",
+    "doc:learning:title": "ebef451bfcfced2cba47a6b3eb07ff3f5d246438",
+    "doc:resources:blurb": "511f7ebab607b69c1284f75624894a4fa3a92993",
+    "doc:resources:title": "09a43ebdb7a59695b33c93c83227009ec1a83062",
+    "doc:tests:blurb": "cf7e30cb486ffd3735b0510bf00e222b1e5b48a9",
+    "doc:tests:title": "b532ed87d9521219c7737ea668ad5c3f88e23679",
+    "exercise:hello-world:blurb": "bd5afc52aebfccdbdc4c5487b65d43cd1b684dab",
+    "exercise:hello-world:name": "5e1c309dae7f45e0f39b1bf3ac3cd9db12e7d689",
+    "exercise:hello-world:source": "b32e4f82d76468385210e7f4fab7f7ac91915f4d",
+    "track:blurb": "1c0190b82c5cc0e0133d8c8ef7a21b84aecea203"
+  }
+}

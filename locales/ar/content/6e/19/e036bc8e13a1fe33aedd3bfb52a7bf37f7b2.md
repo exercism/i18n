@@ -1,0 +1,48 @@
+# مقدمة
+
+## الخيارات
+
+يُستخدم نوع `Option` لتمثيل القيم التي يمكن أن تكون غائبة أو موجودة.
+
+وهو معرَّف في وحدة `gleam/option` كما يلي:
+
+```gleam
+type Option(a) {
+  Some(a)
+  None
+}
+```
+
+تُستخدم البانية `Some` لتغليف قيمة عندما تكون موجودة، وتُستخدم البانية `None` لتمثيل غياب القيمة.
+
+غالبًا ما يتم الوصول إلى محتوى `Option` عبر مطابقة الأنماط.
+
+```gleam
+import gleam/option.{type Option, None, Some}
+
+pub fn say_hello(person: Option(String)) -> String {
+  case person {
+    Some(name) -> "Hello, " <> name <> "!"
+    None -> "Hello, Friend!"
+  }
+}
+```
+
+```gleam
+say_hello(Some("Matthieu"))
+// -> "Hello, Matthieu!"
+
+say_hello(None)
+// -> "Hello, Friend!"
+```
+
+كما تُعرّف وحدة `gleam/option` عددًا من الدوال المفيدة للتعامل مع أنواع `Option`، مثل `unwrap`، التي تُرجع محتوى `Option` أو قيمة افتراضية إذا كانت `None`.
+
+```gleam
+import gleam/option.{type Option}
+
+pub fn say_hello_again(person: Option(String)) -> String {
+  let name = option.unwrap(person, "Friend")
+  "Hello, " <> name <> "!"
+}
+```
