@@ -85,6 +85,7 @@ This page is generated from [the index](../../json/zh-CN/roc.json) by `scripts/b
 ### Camicia
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/camicia/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/db/62/fcef27d59da1ecd8287b36edfede272b9197.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/camicia/.docs/instructions.append.md)): [Latest](../../../locales/zh-CN/content/be/8f/8de6f29011b2fc9e8d54ba4920c3e688cfe6.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/camicia/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/76/1d/8a82c502ac4117787d8314c74fcf79dc5159.md)
 
 ### Change (找零)

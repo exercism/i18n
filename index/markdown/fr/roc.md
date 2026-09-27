@@ -85,6 +85,7 @@ This page is generated from [the index](../../json/fr/roc.json) by `scripts/buil
 ### Camicia
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/camicia/.docs/instructions.md)): [Latest](../../../locales/fr/content/db/62/fcef27d59da1ecd8287b36edfede272b9197.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/camicia/.docs/instructions.append.md)): [Latest](../../../locales/fr/content/be/8f/8de6f29011b2fc9e8d54ba4920c3e688cfe6.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/camicia/.docs/introduction.md)): [Latest](../../../locales/fr/content/76/1d/8a82c502ac4117787d8314c74fcf79dc5159.md)
 
 ### Change (Rendu de monnaie)
