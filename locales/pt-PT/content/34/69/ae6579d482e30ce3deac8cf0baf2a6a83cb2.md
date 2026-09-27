@@ -1,0 +1,29 @@
+# Instruções
+
+Implementa as operações `keep` e `discard` sobre coleções.
+Dada uma coleção e um predicado sobre os elementos dessa coleção, `keep` devolve uma nova coleção com os elementos para os quais o predicado é verdadeiro, enquanto `discard` devolve uma nova coleção com os elementos para os quais o predicado é falso.
+
+Por exemplo, dada a coleção de números:
+
+- 1, 2, 3, 4, 5
+
+E o predicado:
+
+- o número é par?
+
+Então a tua operação keep deve produzir:
+
+- 2, 4
+
+E a tua operação discard deve produzir:
+
+- 1, 3, 5
+
+Repara que a união de keep e discard contém todos os elementos.
+
+As funções podem chamar-se `keep` e `discard` ou podem precisar de nomes diferentes para não colidirem com funções ou conceitos que já existem na tua linguagem.
+
+## Restrições
+
+Não uses a funcionalidade de filter/reject, ou lá como se chame, que a tua biblioteca padrão oferece!
+Resolve isto por ti, recorrendo a outras ferramentas básicas.

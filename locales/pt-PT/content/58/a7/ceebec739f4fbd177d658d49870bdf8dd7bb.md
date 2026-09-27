@@ -1,0 +1,36 @@
+# Instruções
+
+Calcula a diferença de Hamming entre duas cadeias de ADN.
+
+Uma mutação é simplesmente um erro que ocorre durante a criação ou a
+cópia de um ácido nucleico, em particular do ADN. Como os ácidos
+nucleicos são vitais para as funções celulares, as mutações tendem a
+provocar um efeito em cascata em toda a célula. Embora as mutações sejam,
+tecnicamente, erros, uma mutação muito rara pode dotar a célula de uma
+característica benéfica. De facto, os macroefeitos da evolução devem-se ao
+resultado acumulado de mutações microscópicas benéficas ao longo de muitas
+gerações.
+
+O tipo mais simples e mais comum de mutação de ácido nucleico é a mutação
+pontual, que substitui uma base por outra num único nucleótido.
+
+Ao contar o número de diferenças entre duas cadeias de ADN homólogas
+provenientes de genomas diferentes com um antepassado comum, obtemos uma
+medida do número mínimo de mutações pontuais que podem ter ocorrido no
+percurso evolutivo entre as duas cadeias.
+
+A isto chama-se a 'distância de Hamming'
+
+    GAGCCTACTAACGGGAT
+    CATCGTAATGACGGCCT
+    ^ ^ ^  ^ ^    ^^
+
+A distância de Hamming entre estas duas cadeias de ADN é 7.
+
+# Notas de implementação
+
+A distância de Hamming só está definida para sequências de igual
+comprimento. Por isso, podes assumir que só serão passadas sequências de
+igual comprimento à tua função de distância de Hamming.
+
+**Nota: este problema está obsoleto e foi substituído pelo que se chama `hamming`.**

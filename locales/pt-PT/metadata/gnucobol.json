@@ -1,0 +1,6 @@
+{
+  "track:blurb": "TODO: adicionar sinopse",
+  "exercise:hello-world:name": "Olá, mundo",
+  "exercise:hello-world:blurb": "O exercício introdutório clássico. Diz apenas \"Hello, World!\".",
+  "exercise:hello-world:source": "Este é um exercício para apresentar o Exercism aos utilizadores"
+}

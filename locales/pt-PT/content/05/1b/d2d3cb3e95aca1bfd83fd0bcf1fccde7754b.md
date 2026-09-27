@@ -1,0 +1,93 @@
+# Compreender a recursividade em JavaScript
+
+A recursividade é um conceito poderoso em programação que envolve uma função a chamar-se a si própria.
+Pode ser um pouco difícil de compreender ao início, mas depois de perceberes os fundamentos, torna-se uma ferramenta valiosa para resolver problemas complexos.
+Vamos explorar a recursividade em JavaScript com exemplos fáceis de entender.
+
+## O que é a recursividade?
+
+A recursividade acontece quando uma função se chama a si própria, direta ou indiretamente.
+É semelhante a um ciclo, mas pode envolver a divisão de um problema em subproblemas mais pequenos e mais fáceis de gerir.
+
+### Exemplo 1: contagem decrescente
+
+Vamos começar com um exemplo simples: uma função de contagem decrescente.
+
+```javascript
+function countdown(num) {
+  // Base case
+  if (num <= 0) {
+    console.log('Blastoff!');
+    return;
+  }
+
+  // Recursive case
+  console.log(num);
+  countdown(num - 1);
+}
+
+// Call the function
+countdown(5);
+```
+
+Neste exemplo:
+
+- **Caso base**: quando `num` fica menor ou igual a 0, a função imprime "Blastoff!" e deixa de se chamar a si própria.
+- **Caso recursivo**: a função imprime o `num` atual e chama-se a si própria com `num - 1`.
+
+### Exemplo 2: fatorial
+
+Agora, vamos ver um exemplo clássico de recursividade: calcular o fatorial de um número.
+
+```javascript
+function factorial(n) {
+  // Base case
+  if (n === 0 || n === 1) {
+    return 1;
+  }
+
+  // Recursive case
+  return n * factorial(n - 1);
+}
+
+// Test the function
+console.log(factorial(5)); // Output: 120
+```
+
+Neste exemplo:
+
+- **Caso base**: quando `n` é 0 ou 1, a função devolve 1.
+- **Caso recursivo**: a função multiplica `n` pelo fatorial de `n - 1`.
+
+## Conceitos-chave
+
+### Caso base
+
+Cada função recursiva deve ter pelo menos um caso base, uma condição em que a função deixa de se chamar a si própria.
+Sem um caso base, a recursividade continuaria indefinidamente e acabaria por provocar um transbordo da pilha.
+
+### Caso recursivo
+
+O caso recursivo define como a função se chama a si própria com uma versão mais pequena ou mais simples do problema.
+
+## Vantagens e desvantagens da recursividade
+
+**Vantagens:**
+
+- Solução elegante para certos problemas.
+- Imita o conceito de indução matemática.
+
+**Desvantagens:**
+
+- Pode ser menos eficiente do que as soluções iterativas.
+- Pode levar a um transbordo da pilha quando a recursividade é profunda.
+
+## Conclusão
+
+A recursividade é uma técnica valiosa que simplifica problemas complexos, dividindo-os em subproblemas mais pequenos e mais fáceis de gerir.
+Compreender os casos base e os casos recursivos é essencial para implementar soluções recursivas eficazes em JavaScript.
+
+**Saber mais:**
+
+- [MDN: recursividade em JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#recursion)
+- [Eloquent JavaScript: Capítulo 3 - Funções](https://eloquentjavascript.net/03_functions.html)
