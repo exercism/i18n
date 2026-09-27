@@ -1,0 +1,25 @@
+# Istruzioni
+
+In questo esercizio scriverai codice per analizzare la produzione di una catena di montaggio in una fabbrica di automobili.
+La velocità della catena di montaggio può variare da `0` (spenta) a `10` (massima).
+
+Alla sua velocità più bassa (`1`), vengono prodotte `221` automobili ogni ora.
+La produzione aumenta in modo lineare con la velocità.
+Quindi, con la velocità impostata a `4`, dovrebbe produrre `4 * 221 = 884` automobili all'ora.
+Tuttavia, velocità più alte aumentano la probabilità che vengano prodotte automobili difettose, che poi devono essere scartate.
+La tabella seguente mostra come la velocità influisce sul tasso di successo:
+
+- Da `1` a `4`: tasso di successo del 100%.
+- Da `5` a `8`: tasso di successo del 90%.
+- `9`: tasso di successo dell'80%.
+- `10`: tasso di successo del 77%.
+
+Hai due compiti.
+
+## 1. Calcola il tasso di produzione all'ora
+
+Calcola il tasso di produzione orario della catena di montaggio, tenendo conto del suo tasso di successo.
+
+## 2. Calcola il numero di pezzi funzionanti prodotti al minuto
+
+Calcola quante **automobili complete e funzionanti** vengono prodotte al minuto.

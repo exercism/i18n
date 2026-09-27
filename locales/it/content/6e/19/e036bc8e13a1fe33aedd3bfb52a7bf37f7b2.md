@@ -1,0 +1,48 @@
+# Introduzione
+
+## Opzioni
+
+Il tipo `Option` si usa per rappresentare valori che possono essere assenti o presenti.
+
+È definito nel modulo `gleam/option` come segue:
+
+```gleam
+type Option(a) {
+  Some(a)
+  None
+}
+```
+
+Il costruttore `Some` viene usato per avvolgere un valore quando è presente, mentre il costruttore `None` rappresenta l'assenza di un valore.
+
+Spesso si accede al contenuto di un `Option` tramite il pattern matching.
+
+```gleam
+import gleam/option.{type Option, None, Some}
+
+pub fn say_hello(person: Option(String)) -> String {
+  case person {
+    Some(name) -> "Hello, " <> name <> "!"
+    None -> "Hello, Friend!"
+  }
+}
+```
+
+```gleam
+say_hello(Some("Matthieu"))
+// -> "Hello, Matthieu!"
+
+say_hello(None)
+// -> "Hello, Friend!"
+```
+
+Il modulo `gleam/option` definisce anche diverse funzioni utili per lavorare con i tipi `Option`, come `unwrap`, che restituisce il contenuto di un `Option` oppure un valore predefinito se questo è `None`.
+
+```gleam
+import gleam/option.{type Option}
+
+pub fn say_hello_again(person: Option(String)) -> String {
+  let name = option.unwrap(person, "Friend")
+  "Hello, " <> name <> "!"
+}
+```

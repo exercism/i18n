@@ -23,6 +23,15 @@
       "added": "2026-09-26",
       "by": "iHiD"
     },
+    "22254fbef9873d5af88fb9f1181ee345e4c43511": {
+      "text": "<exercise>{{exercise}}</exercise> in <track>{{track}}</track>",
+      "reason": "\"in\" is also Italian; the rest is placeholders and tags.",
+      "added": "2026-09-27",
+      "by": "iHiD",
+      "locales": [
+        "it"
+      ]
+    },
     "23f5b9b810ead401e06a66d8a8f503c238559383": {
       "text": "%{comment}\n",
       "reason": "The whole file is one %{comment} placeholder, which the website fills in with an analyzer comment it renders separately. There is nothing to translate, in any language.",
@@ -42,6 +51,15 @@
       "by": "iHiD",
       "locales": [
         "pt-BR"
+      ]
+    },
+    "625c3995d2fdc6bd33cf02f40cb52516a12fa6ce": {
+      "text": "in {{trackTitle}} (#{{id}})",
+      "reason": "\"in\" is also Italian; the rest is placeholders.",
+      "added": "2026-09-27",
+      "by": "iHiD",
+      "locales": [
+        "it"
       ]
     },
     "63fd98ab00ad569b7ee94e616f9214af820ef15d": {
@@ -66,6 +84,15 @@
       "by": "iHiD",
       "locales": [
         "fr"
+      ]
+    },
+    "99893d56eb8fd329dd98011a7aafc3a2fbd48bbf": {
+      "text": "in <0/> <1>{{trackTitle}}</1>",
+      "reason": "\"in\" is also Italian; the rest is placeholders and tags.",
+      "added": "2026-09-27",
+      "by": "iHiD",
+      "locales": [
+        "it"
       ]
     },
     "b2050cfa40813d79e374377c28a4ff744edddedc": {
