@@ -1,0 +1,6 @@
+{
+  "track:blurb": "TODO: افزودن توضیح کوتاه",
+  "exercise:hello-world:name": "سلام دنیا",
+  "exercise:hello-world:blurb": "تمرین مقدماتی کلاسیک. فقط بگویید «Hello, World!».",
+  "exercise:hello-world:source": "این تمرینی است که کاربران را با استفاده از Exercism آشنا می‌کند"
+}

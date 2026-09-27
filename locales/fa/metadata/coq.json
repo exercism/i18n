@@ -1,0 +1,13 @@
+{
+  "exercise:hello-world:name": "سلام دنیا",
+  "exercise:rna-transcription:name": "رونویسی RNA",
+  "exercise:hello-world:blurb": "تمرین مقدماتی کلاسیک. کافی است بگویید \"Hello, World!\"",
+  "exercise:hello-world:source": "این تمرینی است که کاربران را با استفاده از Exercism آشنا می‌کند",
+  "exercise:rna-transcription:blurb": "با گرفتن یک رشته‌ی DNA، رونویسی مکمل RNA آن را برگردانید.",
+  "exercise:rna-transcription:source": "Hyperphysics",
+  "track:blurb": "Coq یک دستیار اثبات است. با Coq می‌توانید توصیف‌های صوری از تعریف‌های ریاضی، الگوریتم‌ها و قضیه‌ها بنویسید. Coq همچنین تاکتیک‌هایی فراهم می‌کند که با آن‌ها می‌توان به‌صورت تعاملی اثبات‌های بررسی‌شده با ماشین را توسعه داد.",
+  "exercise:tautology:name": "همان‌گویی",
+  "exercise:tautology:blurb": "قانون اول باشگاه همان‌گویی، قانون اول باشگاه همان‌گویی است ",
+  "doc:learning:title": "چگونه Coq را یاد بگیریم",
+  "doc:learning:blurb": "مروری بر اینکه چگونه از صفر با Coq شروع کنید"
+}

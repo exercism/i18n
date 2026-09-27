@@ -1,0 +1,10 @@
+{
+  "exercise:hello-world:name": "سلام دنیا",
+  "exercise:resistor-color-duo:name": "رنگ مقاومت دوگانه",
+  "exercise:hello-world:blurb": "تمرین مقدماتی کلاسیک. کافی است بگویید \"Hello, World!\"",
+  "exercise:hello-world:source": "این تمرینی است که کاربران را با استفاده از Exercism آشنا می‌کند",
+  "exercise:resistor-color-duo:blurb": "کدهای رنگی مورد استفاده در مقاومت‌ها را به یک مقدار عددی تبدیل کنید.",
+  "exercise:resistor-color-duo:source": "Maud de Vries, Erik Schierboom",
+  "track:blurb": "در هسته‌ی خود، Solidity یک زبان برنامه‌نویسی است که به‌شدت از C++، Python و JavaScript تأثیر گرفته است. این زبان شیءگرا است و از ماشین مجازی اتریوم، که با نام _EVM_ هم شناخته می‌شود، استفاده می‌کند. نحوه‌ی نگارش آن شبیه ECMAScript است، به همین دلیل برای برخی آشنا به نظر می‌رسد؛ همچنین به‌صورت ایستا نوع‌دهی شده است و انواع بازگشتی متغیر دارد.",
+  "exercise:token-transfer:name": "انتقال توکن"
+}
