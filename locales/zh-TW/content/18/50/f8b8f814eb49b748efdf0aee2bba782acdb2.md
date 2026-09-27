@@ -1,0 +1,5 @@
+# 指示附加
+
+## time crate
+
+如果你不確定可以對`PrimitiveDateTime`執行哪些操作，可以參考 [time crate](https://docs.rs/time)，它被列為這個練習的`Cargo.toml`檔案中的依賴項。

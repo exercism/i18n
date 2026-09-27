@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO：新增簡介",
+  "doc:installation:title": "在本機安裝 Triton VM assembly",
+  "doc:installation:blurb": "學習如何在本機安裝 Triton VM assembly，讓你可以在自己的電腦上解 Exercism 的練習。",
+  "doc:learning:title": "如何學習 Triton VM assembly",
+  "doc:learning:blurb": "從零開始學習 Triton VM assembly 的入門概觀。",
+  "doc:tests:title": "Triton VM assembly track 的測試",
+  "doc:tests:blurb": "了解如何在 Exercism 上測試你的 Triton VM assembly 練習。",
+  "doc:resources:title": "實用的 Triton VM assembly 資源",
+  "doc:resources:blurb": "一系列實用資源，幫助你精通 Triton VM assembly。"
+}

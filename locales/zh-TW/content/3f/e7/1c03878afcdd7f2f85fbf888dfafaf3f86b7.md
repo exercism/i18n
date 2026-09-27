@@ -1,0 +1,47 @@
+# 關於 Wren
+
+Wren 是一門小巧、快速、以類別為基礎的並行腳本語言。想像把 Smalltalk 裝進 Lua 大小的包裝裡，再加一點 Erlang 的調味，外頭裹著熟悉又現代的語法。
+
+- **小巧。** 虛擬機器的程式碼不到 4,000 個分號，是可讀、註解用心的 C。
+
+- **快速。** 聰明的一次編譯器能產生精簡、高效率的位元組碼。
+
+- **以類別為基礎。** 類別和物件是絕對的主角。
+
+- **並行。** 輕量的 fiber 直接內建在語言裡。
+
+- **腳本。** 可嵌入、沒有相依性、標準函式庫小巧，還有容易上手的 C API。
+
+
+### 虛擬機器
+
+Wren 的心臟就是虛擬機器。Wren 虛擬機器是這門語言的核心，負責執行所有 Wren 原始碼。它只是一個函式庫，不是獨立的應用程式，設計上就是要嵌入更大的宿主應用程式裡。
+
+你可以在這些專案中看到嵌入的 Wren：
+
+* [TIC-80](https://tic80.com) - 一台用來製作、遊玩和分享小遊戲的幻想電腦（類似 PICO8）。
+* [DOME](https://domeengine.com) - 用來製作遊戲的跨平台框架。
+* [luxe](https://luxeengine.com) - 跨平台、快速開發的遊戲引擎，用來製作遊戲。
+* [Wren Console][wren-console] - 一個 Wren REPL 和 CLI，大部分是用 Wren 自己寫成的。
+
+你甚至可以把 Wren 嵌入自己的專案裡。就 Exercism 來說，我們要用的宿主應用程式是 [Wren Console][wren-console]，這樣就能在終端機執行並測試我們的 Wren 腳本。
+
+
+### 為什麼選擇 Wren？
+
+Wren 最初是由 [Bob Nystrom](http://journal.stuffwithstuff.com) 創造的，他因為 [Crafting Interpreters](http://craftinginterpreters.com) 而聲名大噪。他開發過的語言可不只一兩門，而他特別說明了當初是什麼促成了 Wren 的誕生：
+
+> 用來嵌入應用程式的腳本語言有幾種。Lua 是主流。TCL 曾經也是。還有 Guile，JavaScript 用得越來越多，有些應用程式則嵌入 Python。我當過遊戲開發者，所以講到「腳本」，我通常會想到「遊戲腳本」。
+
+> Lua 很好：小巧、簡單又快速。但（我不是在批評）如果你習慣了 C++ 和 Java 這類語言，也會覺得它有點怪。語法不一樣。語意，尤其是物件模型，很不尋常。以 1 為起始的索引誰都能習慣，但像 metatable 這種東西，真的會讓人看出物件是事後才硬裝到 Lua 上的。
+
+> 我認為，可以有一門像 Lua 這麼簡單、但對有物件導向背景的人來說很自然的語言。Wren 就是我的嘗試。
+
+### 試試看
+
+你可以直接在瀏覽器裡[快速試用一下][try-it]（完全不用安裝任何東西）。如果你想在漂亮的介面裡玩玩看 Wren，不妨看看 [Wren Playground][wren-playground]。
+
+[wren]: https://wren.io
+[wren-console]: https://github.com/joshgoebel/wren-console
+[wren-playground]: https://github.com/ninjascl/wren-playground
+[try-it]: https://wren.io/try/

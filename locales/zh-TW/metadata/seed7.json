@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO：新增簡介",
+  "doc:installation:title": "在本機安裝 Seed7",
+  "doc:installation:blurb": "了解如何在本機安裝 Seed7，讓你能在自己的電腦上解 Exercism 的練習",
+  "doc:learning:title": "如何學習 Seed7",
+  "doc:learning:blurb": "從零開始入門 Seed7 的概觀",
+  "doc:tests:title": "在 Seed7 軌道上測試",
+  "doc:tests:blurb": "了解如何在 Exercism 上測試你的 Seed7 練習",
+  "doc:resources:title": "實用的 Seed7 資源",
+  "doc:resources:blurb": "精選實用資源，幫助你精通 Seed7"
+}

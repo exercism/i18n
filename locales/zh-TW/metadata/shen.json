@@ -1,0 +1,6 @@
+{
+  "exercise:hello-world:name": "哈囉，世界",
+  "exercise:hello-world:blurb": "經典的入門練習。只要說出「Hello, World!」",
+  "exercise:hello-world:source": "這是一個向使用者介紹如何使用 Exercism 的練習",
+  "track:blurb": "一門建構在宿主語言上的 Lisp，具備模式比對、Prolog 以及強大的型別系統。"
+}

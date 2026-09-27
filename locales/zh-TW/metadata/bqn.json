@@ -1,0 +1,14 @@
+{
+  "exercise:hello-world:name": "哈囉，世界",
+  "exercise:hello-world:blurb": "經典的入門練習。只要說出 \"Hello, World!\" 就好。",
+  "exercise:hello-world:source": "這是一個向使用者介紹如何使用 Exercism 的練習",
+  "track:blurb": "現代且強大的語言，以 Ken Iverson 的陣列程式設計範式為核心。",
+  "doc:installation:title": "在本機安裝 BQN",
+  "doc:installation:blurb": "了解如何在本機安裝 BQN，在自己的電腦上解 Exercism 的練習",
+  "doc:learning:title": "如何學習 BQN",
+  "doc:learning:blurb": "帶你概觀如何從零開始入門 BQN",
+  "doc:tests:title": "測試你的 BQN 練習",
+  "doc:tests:blurb": "了解如何在 Exercism 上測試你的 BQN 練習",
+  "doc:resources:title": "實用的 BQN 資源",
+  "doc:resources:blurb": "一系列實用資源，幫助你精通 BQN"
+}

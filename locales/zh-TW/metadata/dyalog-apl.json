@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO：新增簡介",
+  "doc:installation:title": "在本機安裝 Dyalog APL",
+  "doc:installation:blurb": "了解如何在本機安裝 Dyalog APL，讓你可以在自己的電腦上解 Exercism 的練習。",
+  "doc:learning:title": "如何學習 Dyalog APL",
+  "doc:learning:blurb": "從零開始上手 Dyalog APL 的概覽。",
+  "doc:tests:title": "在 Dyalog APL track 上測試",
+  "doc:tests:blurb": "了解如何在 Exercism 上測試你的 Dyalog APL 練習。",
+  "doc:resources:title": "實用的 Dyalog APL 資源",
+  "doc:resources:blurb": "收錄各種實用資源，幫助你精通 Dyalog APL。"
+}
