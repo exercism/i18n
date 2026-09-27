@@ -408,5 +408,7 @@
   "exercise:satellite:name": "人工衛星",
   "exercise:satellite:blurb": "行きがけ順と通りがけ順の走査から、二分木を再構築します。",
   "exercise:ledger:name": "帳簿",
-  "exercise:ledger:blurb": "帳簿のプリンターをリファクタリングします。"
+  "exercise:ledger:blurb": "帳簿のプリンターをリファクタリングします。",
+  "exercise:lens-person:name": "レンズ使い",
+  "exercise:lens-person:blurb": "レンズを使って、入れ子になったレコードを更新します（イミュータブルなデータを持つ言語向け）。"
 }

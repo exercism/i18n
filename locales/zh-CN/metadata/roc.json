@@ -408,5 +408,7 @@
   "exercise:satellite:name": "卫星",
   "exercise:satellite:blurb": "根据前序遍历和中序遍历重建二叉树。",
   "exercise:ledger:name": "账本",
-  "exercise:ledger:blurb": "重构一个账本打印程序。"
+  "exercise:ledger:blurb": "重构一个账本打印程序。",
+  "exercise:lens-person:name": "透镜人",
+  "exercise:lens-person:blurb": "使用透镜更新嵌套记录（仅适用于具有不可变数据的语言）。"
 }

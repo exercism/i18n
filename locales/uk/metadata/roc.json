@@ -408,5 +408,7 @@
   "exercise:swift-scheduling:blurb": "Перетворіть описи дат доставки на конкретні дати доставки.",
   "exercise:swift-scheduling:source": "Erik Schierboom",
   "exercise:ledger:name": "Бухгалтерська книга",
-  "exercise:ledger:blurb": "Відрефакторте друкарку бухгалтерської книги."
+  "exercise:ledger:blurb": "Відрефакторте друкарку бухгалтерської книги.",
+  "exercise:lens-person:name": "Людина з лінзами",
+  "exercise:lens-person:blurb": "Використайте лінзи, щоб оновлювати вкладені записи (актуально для мов із незмінними даними)."
 }

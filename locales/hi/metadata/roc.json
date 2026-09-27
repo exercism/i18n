@@ -408,5 +408,7 @@
   "exercise:satellite:name": "उपग्रह",
   "exercise:satellite:blurb": "प्री-ऑर्डर और इन-ऑर्डर ट्रैवर्सल से बाइनरी ट्री फिर से बनाइए।",
   "exercise:ledger:name": "लेजर",
-  "exercise:ledger:blurb": "एक लेजर प्रिंटर को रीफैक्टर कीजिए।"
+  "exercise:ledger:blurb": "एक लेजर प्रिंटर को रीफैक्टर कीजिए।",
+  "exercise:lens-person:name": "लेंस व्यक्ति",
+  "exercise:lens-person:blurb": "नेस्टेड रिकॉर्ड बदलने के लिए लेंस का इस्तेमाल कीजिए (यह उन भाषाओं के लिए है जिनमें डेटा अपरिवर्तनीय होता है)।"
 }

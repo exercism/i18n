@@ -408,5 +408,7 @@
   "exercise:swift-scheduling:blurb": "Convertis des descriptions de dates de livraison en dates de livraison réelles.",
   "exercise:swift-scheduling:source": "Erik Schierboom",
   "exercise:ledger:name": "Grand livre",
-  "exercise:ledger:blurb": "Réécris un imprimeur de grand livre."
+  "exercise:ledger:blurb": "Réécris un imprimeur de grand livre.",
+  "exercise:lens-person:name": "Personne à lentilles",
+  "exercise:lens-person:blurb": "Utilise des lentilles pour mettre à jour des enregistrements imbriqués (spécifique aux langages avec des données immuables)."
 }

@@ -408,5 +408,7 @@
   "exercise:swift-scheduling:blurb": "Alakítsd át a szállítási dátum leírásait tényleges szállítási dátumokká.",
   "exercise:swift-scheduling:source": "Erik Schierboom",
   "exercise:ledger:name": "Főkönyv",
-  "exercise:ledger:blurb": "Refaktorálj egy főkönyvnyomtatót."
+  "exercise:ledger:blurb": "Refaktorálj egy főkönyvnyomtatót.",
+  "exercise:lens-person:name": "Lencsés személy",
+  "exercise:lens-person:blurb": "Használj lencséket egymásba ágyazott rekordok frissítéséhez (az immutable adatokat használó nyelvekre jellemző)."
 }

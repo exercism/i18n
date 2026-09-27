@@ -408,5 +408,7 @@
   "exercise:swift-scheduling:blurb": "Μετέτρεψε περιγραφές ημερομηνίας παράδοσης σε πραγματικές ημερομηνίες παράδοσης.",
   "exercise:swift-scheduling:source": "Erik Schierboom",
   "exercise:ledger:name": "Καθολικό",
-  "exercise:ledger:blurb": "Κάνε refactor σε έναν εκτυπωτή καθολικού."
+  "exercise:ledger:blurb": "Κάνε refactor σε έναν εκτυπωτή καθολικού.",
+  "exercise:lens-person:name": "Άνθρωπος με φακό",
+  "exercise:lens-person:blurb": "Χρησιμοποίησε φακούς για να ενημερώσεις εμφωλευμένες καταγραφές (ειδικά για γλώσσες με αμετάβλητα δεδομένα)."
 }

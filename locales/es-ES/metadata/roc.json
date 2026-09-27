@@ -373,5 +373,7 @@
   "doc:tests:title": "Probar en el track de Roc",
   "doc:tests:blurb": "Aprende a probar tus ejercicios de Roc en Exercism",
   "doc:resources:title": "Recursos útiles de Roc",
-  "doc:resources:blurb": "Una colección de recursos útiles para ayudarte a dominar Roc"
+  "doc:resources:blurb": "Una colección de recursos útiles para ayudarte a dominar Roc",
+  "exercise:lens-person:name": "Persona con lentes",
+  "exercise:lens-person:blurb": "Usa lentes para actualizar registros anidados (específico de lenguajes con datos inmutables)."
 }

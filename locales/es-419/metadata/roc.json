@@ -408,5 +408,7 @@
   "exercise:satellite:name": "Satélite",
   "exercise:satellite:blurb": "Reconstruir árboles binarios a partir de recorridos en preorden e inorden.",
   "exercise:ledger:name": "Libro mayor",
-  "exercise:ledger:blurb": "Refactoriza un programa que imprime un libro mayor."
+  "exercise:ledger:blurb": "Refactoriza un programa que imprime un libro mayor.",
+  "exercise:lens-person:name": "Persona lente",
+  "exercise:lens-person:blurb": "Usa lentes para actualizar registros anidados (específico para lenguajes con datos inmutables)."
 }

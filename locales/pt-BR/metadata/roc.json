@@ -408,5 +408,7 @@
   "exercise:satellite:name": "Satélite",
   "exercise:satellite:blurb": "Reconstrua árvores binárias a partir de percursos em pré-ordem e em ordem.",
   "exercise:ledger:name": "Livro-Razão",
-  "exercise:ledger:blurb": "Refatore um programa que imprime um livro-razão."
+  "exercise:ledger:blurb": "Refatore um programa que imprime um livro-razão.",
+  "exercise:lens-person:name": "Pessoa com Lentes",
+  "exercise:lens-person:blurb": "Use lentes para atualizar registros aninhados (específico para linguagens com dados imutáveis)."
 }
