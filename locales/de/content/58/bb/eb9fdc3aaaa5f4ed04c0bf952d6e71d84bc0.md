@@ -1,0 +1,39 @@
+# Einführung
+
+Das Paket `math/rand` unterstützt dich beim Generieren von Pseudozufallszahlen.
+
+So generierst du eine zufällige Ganzzahl zwischen `0` und `99`:
+
+```go
+import "math/rand"
+
+n := rand.Intn(100) // n is a random int, 0 <= n < 100
+```
+
+Die Funktion `rand.Float64` gibt eine zufällige Gleitkommazahl zwischen `0.0` und `1.0` zurück:
+
+```go
+f := rand.Float64() // f is a random float64, 0.0 <= f < 1.0
+```
+
+Außerdem kannst du ein Slice (oder andere Datenstrukturen) mischen:
+
+```go
+x := []string{"a", "b", "c", "d", "e"}
+// shuffling the slice put its elements into a random order
+rand.Shuffle(len(x), func(i, j int) {
+	x[i], x[j] = x[j], x[i]
+})
+```
+
+## Seeds
+
+Die Zahlenfolgen, die das Paket `math/rand` erzeugt, sind nicht wirklich zufällig. Bei einem bestimmten „Seed“-Wert sind die Ergebnisse vollständig deterministisch.
+
+In Go 1.20+ wird der Seed automatisch zufällig gewählt, sodass du bei jedem Programmlauf eine andere Folge von Zufallszahlen siehst.
+
+In früheren Versionen von Go war der Seed standardmäßig `1`. Um für verschiedene Programmläufe unterschiedliche Folgen zu bekommen, musstest du den Zufallszahlengenerator deshalb vor dem Abrufen von Zufallszahlen manuell mit einem Seed versehen, zum Beispiel mit der aktuellen Uhrzeit.
+
+```go
+rand.Seed(time.Now().UnixNano())
+```

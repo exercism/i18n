@@ -1,0 +1,31 @@
+{
+  "stamps": {
+    "doc:installation:blurb": "720988929abb34927f106be4defd3c9156f35ba6",
+    "doc:installation:title": "d7ba6ebafd5206e04a672f57dc0e87286d07258b",
+    "doc:learning:blurb": "a0e882ccf9eb60955ab0730f48093944132003b0",
+    "doc:learning:title": "bbd85dd6b1401fb0e9145552ff9a6d208def6384",
+    "doc:resources:blurb": "00461fd6e24239fc748828854283b86fbfe39d50",
+    "doc:resources:title": "ea94d101ea9880623d2f668be14bc7d833133ecc",
+    "doc:tests:blurb": "7ec58cc38562d46753b40dfcbe6b5f965a08267f",
+    "doc:tests:title": "f321703382c277fe4e7ba0e13fc0591ff9d8faa5",
+    "exercise:acronym:blurb": "452d043b81c02c9d2ba243b0b34de014a8bb82e4",
+    "exercise:acronym:name": "4cd022909b2a5fed5edb92ec9173e57e131312dd",
+    "exercise:acronym:source": "2a8b52ccc7f636b6435f75964c0b379fcff60cf5",
+    "exercise:hello-world:blurb": "0c78f85f77db1e7ba2f9e8e1fcdbf6122c6d7d39",
+    "exercise:hello-world:name": "5e1c309dae7f45e0f39b1bf3ac3cd9db12e7d689",
+    "exercise:hello-world:source": "b32e4f82d76468385210e7f4fab7f7ac91915f4d",
+    "exercise:isogram:blurb": "b75fa2f085049be46e7a1bdb027126b905a2e2e8",
+    "exercise:isogram:name": "0d610a0ecec069ee12f75eb8591ee0f7bd99752b",
+    "exercise:isogram:source": "121eab03772e6fb6cc03880c3424ffdee4b03df5",
+    "exercise:leap:blurb": "933dcbd9499b1f273b1fbd127deebf6b232b590e",
+    "exercise:leap:name": "dd38e843ed4d7dc73c6ce77d8a475e9e38c3f769",
+    "exercise:leap:source": "16638aefac352d0a24c0a69bf0b5a6a3aa43484e",
+    "exercise:pangram:blurb": "5682cd461323c19928421323c3403630c30d6c10",
+    "exercise:pangram:name": "8a838910ea8f27f0934c889f74ca4fe9d67605b5",
+    "exercise:pangram:source": "121eab03772e6fb6cc03880c3424ffdee4b03df5",
+    "exercise:raindrops:blurb": "ccc93024b89a2d0675e417879f435305cb630255",
+    "exercise:raindrops:name": "1ea83c3f1989a3ad33836ac106ff591830f70cae",
+    "exercise:raindrops:source": "0cc41c5f1ce15c3c7c16409854e1517060f8c080",
+    "track:blurb": "5bff6e9c359252ffb58eb7cf2d98c1405fd34a6f"
+  }
+}

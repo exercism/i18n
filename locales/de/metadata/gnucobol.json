@@ -1,0 +1,6 @@
+{
+  "track:blurb": "TODO: Kurzbeschreibung hinzufügen",
+  "exercise:hello-world:name": "Hello World",
+  "exercise:hello-world:blurb": "Die klassische Einstiegsübung. Sag einfach „Hello, World!“.",
+  "exercise:hello-world:source": "Dies ist eine Übung, um Nutzer an die Verwendung von Exercism heranzuführen"
+}

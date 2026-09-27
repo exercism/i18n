@@ -29,6 +29,7 @@
       "added": "2026-09-27",
       "by": "iHiD",
       "locales": [
+        "de",
         "it"
       ]
     },
@@ -50,6 +51,7 @@
       "added": "2026-09-26",
       "by": "iHiD",
       "locales": [
+        "de",
         "pt-BR"
       ]
     },
@@ -59,6 +61,7 @@
       "added": "2026-09-27",
       "by": "iHiD",
       "locales": [
+        "de",
         "it"
       ]
     },
@@ -83,6 +86,7 @@
       "added": "2026-09-25",
       "by": "iHiD",
       "locales": [
+        "de",
         "fr"
       ]
     },
@@ -92,7 +96,17 @@
       "added": "2026-09-27",
       "by": "iHiD",
       "locales": [
+        "de",
         "it"
+      ]
+    },
+    "b01880d3fab78e50409f048b0b45075a677346cd": {
+      "text": "{{exerciseTitle}} in {{trackTitle}}",
+      "reason": "The German is the same as the English: \"in\" and \"Status\" are German words, and the rest is placeholders and tags.",
+      "added": "2026-09-27",
+      "by": "iHiD",
+      "locales": [
+        "de"
       ]
     },
     "b2050cfa40813d79e374377c28a4ff744edddedc": {

@@ -1,0 +1,49 @@
+# Einführung
+
+In C# ist ein Tupel eine Datenstruktur, die Daten organisiert und zwei oder mehr Felder beliebigen Typs enthält.
+
+Ein Tupel erstellst du üblicherweise, indem du zwei oder mehr durch Kommas getrennte Ausdrücke in runde Klammern setzt.
+
+```csharp
+string boast = "All you need to know";
+bool success = !string.IsNullOrWhiteSpace(boast);
+(bool, int, string) triple = (success, 42, boast);
+```
+
+Ein Tupel kannst du bei Zuweisungen und Initialisierungen verwenden, als Rückgabewert oder als Argument einer Methode.
+
+Die Felder liest du über die Punktnotation aus. Standardmäßig heißt das erste Feld `Item1`, das zweite `Item2` und so weiter. Namen, die davon abweichen, besprechen wir weiter unten.
+
+```csharp
+// initialization
+(int, int, int) vertices = (90, 45, 45);
+
+// assignment
+vertices = (60, 60, 60);
+
+//  return value
+(bool, int) GetSameOrBigger(int num1, int num2)
+{
+    return (num1 == num2, num1 > num2 ? num1 : num2);
+}
+
+// method argument
+int Add((int, int) operands)
+{
+    return operands.Item1 + operands.Item2;
+}
+```
+
+Feldnamen wie `Item1` machen den Code nicht gerade lesbar. Der folgende Code zeigt zwei Möglichkeiten, die Felder von Tupeln zu benennen. Beachte außerdem, dass du `var` bei Tupeln verwenden und den Typ ableiten lassen kannst. Das funktioniert genauso gut bei Tupeln mit benannten und unbenannten Feldern.
+
+```csharp
+// name items in declaration
+(bool success, string message) results = (true, "well done!");
+bool mySuccess = results.success;
+string myMessage = results.message;
+
+// name items in creating expression
+var results2 = (success: true, message: "well done!");
+bool mySuccess2 = results2.success;
+string myMessage2 = results2.message;
+```
