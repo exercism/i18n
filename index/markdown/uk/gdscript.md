@@ -62,6 +62,11 @@ This page is generated from [the index](../../json/uk/gdscript.json) by `scripts
   - [`51bea67909`](../../../locales/uk/content/51/be/a67909f879fe54d8ec2ee70c146ee6ba8f61.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/flatten-array/.docs/introduction.md)): [Latest](../../../locales/uk/content/a3/14/857465e75cc95c88b634ddd355f7393888ad.md)
 
+### Hamming
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/hamming/.docs/instructions.md)): [Latest](../../../locales/uk/content/8f/47/a179e01a680d8d8311f0a54ba239c9982431.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/hamming/.docs/introduction.md)): [Latest](../../../locales/uk/content/84/19/bf479e5ef43be61485408c3758b2c7bd16da.md)
+
 ### Hello World (Привіт, світ!)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/hello-world/.docs/instructions.md)): [Latest](../../../locales/uk/content/c9/57/0e48a9765b083b274c356cbb997754706318.md)

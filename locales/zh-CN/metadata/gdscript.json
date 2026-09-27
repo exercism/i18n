@@ -101,5 +101,8 @@
   "exercise:collatz-conjecture:source": "Wikipedia",
   "exercise:difference-of-squares:name": "平方差",
   "exercise:difference-of-squares:blurb": "求前 N 个自然数之和的平方，与它们的平方和之间的差。",
-  "exercise:difference-of-squares:source": "Project Euler 第 6 题"
+  "exercise:difference-of-squares:source": "Project Euler 第 6 题",
+  "exercise:hamming:name": "汉明",
+  "exercise:hamming:blurb": "计算两条 DNA 链之间的汉明距离。",
+  "exercise:hamming:source": "Rosalind 上的 The Calculating Point Mutations 问题"
 }

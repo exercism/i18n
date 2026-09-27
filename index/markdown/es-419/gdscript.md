@@ -59,6 +59,11 @@ This page is generated from [the index](../../json/es-419/gdscript.json) by `scr
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/flatten-array/.docs/instructions.md)): [Latest](../../../locales/es-419/content/b5/b8/2713d928a59e350e468d35c4ee92d49316cf.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/flatten-array/.docs/introduction.md)): [Latest](../../../locales/es-419/content/a3/14/857465e75cc95c88b634ddd355f7393888ad.md)
 
+### Hamming
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/hamming/.docs/instructions.md)): [Latest](../../../locales/es-419/content/8f/47/a179e01a680d8d8311f0a54ba239c9982431.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/hamming/.docs/introduction.md)): [Latest](../../../locales/es-419/content/84/19/bf479e5ef43be61485408c3758b2c7bd16da.md)
+
 ### Hello World (Hola, mundo)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/hello-world/.docs/instructions.md)): [Latest](../../../locales/es-419/content/c9/57/0e48a9765b083b274c356cbb997754706318.md)

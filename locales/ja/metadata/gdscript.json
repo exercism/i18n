@@ -101,5 +101,8 @@
   "exercise:collatz-conjecture:source": "Wikipedia",
   "exercise:difference-of-squares:name": "平方数の差",
   "exercise:difference-of-squares:blurb": "最初のN個の自然数について、和の2乗と2乗の和との差を求めます。",
-  "exercise:difference-of-squares:source": "Project EulerのProblem 6"
+  "exercise:difference-of-squares:source": "Project EulerのProblem 6",
+  "exercise:hamming:name": "ハミング",
+  "exercise:hamming:blurb": "2本のDNA鎖の間のハミング距離を計算します。",
+  "exercise:hamming:source": "RosalindのCalculating Point Mutations問題"
 }

@@ -59,6 +59,11 @@ This page is generated from [the index](../../json/zh-CN/gdscript.json) by `scri
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/flatten-array/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/b5/b8/2713d928a59e350e468d35c4ee92d49316cf.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/flatten-array/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/a3/14/857465e75cc95c88b634ddd355f7393888ad.md)
 
+### Hamming (汉明)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/hamming/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/8f/47/a179e01a680d8d8311f0a54ba239c9982431.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/hamming/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/84/19/bf479e5ef43be61485408c3758b2c7bd16da.md)
+
 ### Hello World (你好，世界)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/hello-world/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/c9/57/0e48a9765b083b274c356cbb997754706318.md)

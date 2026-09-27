@@ -101,5 +101,8 @@
   "exercise:collatz-conjecture:blurb": "콜라츠 추측을 이용해 1에 도달할 때까지 걸리는 단계 수를 계산해요.",
   "exercise:collatz-conjecture:source": "Wikipedia",
   "exercise:difference-of-squares:blurb": "처음 N개의 자연수에 대해, 합의 제곱과 제곱의 합 사이의 차이를 구해요.",
-  "exercise:difference-of-squares:source": "Project Euler의 6번 문제"
+  "exercise:difference-of-squares:source": "Project Euler의 6번 문제",
+  "exercise:hamming:name": "Hamming",
+  "exercise:hamming:blurb": "두 DNA 가닥 사이의 해밍 거리를 계산해요.",
+  "exercise:hamming:source": "Rosalind의 Calculating Point Mutations 문제"
 }

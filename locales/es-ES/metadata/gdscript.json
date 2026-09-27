@@ -101,5 +101,8 @@
   "exercise:collatz-conjecture:blurb": "Calcula el número de pasos necesarios para llegar a 1 usando la conjetura de Collatz.",
   "exercise:collatz-conjecture:source": "Wikipedia",
   "exercise:difference-of-squares:blurb": "Encuentra la diferencia entre el cuadrado de la suma y la suma de los cuadrados de los primeros N números naturales.",
-  "exercise:difference-of-squares:source": "Problema 6 en Project Euler"
+  "exercise:difference-of-squares:source": "Problema 6 en Project Euler",
+  "exercise:hamming:name": "Hamming",
+  "exercise:hamming:blurb": "Calcula la distancia de Hamming entre dos hebras de ADN.",
+  "exercise:hamming:source": "El problema Calculating Point Mutations de Rosalind"
 }

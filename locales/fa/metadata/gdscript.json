@@ -101,5 +101,8 @@
   "doc:tests:title": "تست در مسیر GDScript",
   "doc:tests:blurb": "بیاموزید چطور تمرین‌های GDScript خود را در Exercism تست کنید.",
   "doc:resources:title": "منابع مفید GDScript",
-  "doc:resources:blurb": "مجموعه‌ای از منابع مفید برای کمک به تسلط شما بر GDScript."
+  "doc:resources:blurb": "مجموعه‌ای از منابع مفید برای کمک به تسلط شما بر GDScript.",
+  "exercise:hamming:name": "Hamming",
+  "exercise:hamming:blurb": "فاصله‌ی همینگ بین دو رشته‌ی DNA را محاسبه کنید.",
+  "exercise:hamming:source": "مسئله‌ی Calculating Point Mutations در Rosalind"
 }

@@ -101,5 +101,8 @@
   "doc:tests:title": "GDScript ট্র্যাকে টেস্ট করা",
   "doc:tests:blurb": "Exercism-এ আপনার GDScript অনুশীলনীগুলো টেস্ট করা শিখুন",
   "doc:resources:title": "GDScript-এর দরকারি রিসোর্স",
-  "doc:resources:blurb": "GDScript-এ দক্ষ হতে সাহায্য করবে এমন দরকারি রিসোর্সের সংগ্রহ"
+  "doc:resources:blurb": "GDScript-এ দক্ষ হতে সাহায্য করবে এমন দরকারি রিসোর্সের সংগ্রহ",
+  "exercise:hamming:name": "Hamming",
+  "exercise:hamming:blurb": "দুটি DNA স্ট্র্যান্ডের মধ্যে হ্যামিং দূরত্ব গণনা করুন।",
+  "exercise:hamming:source": "Rosalind-এর The Calculating Point Mutations সমস্যাটি"
 }

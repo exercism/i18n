@@ -101,5 +101,8 @@
   "exercise:collatz-conjecture:source": "Wikipedia",
   "exercise:difference-of-squares:name": "Diferença de quadrados",
   "exercise:difference-of-squares:blurb": "Encontre a diferença entre o quadrado da soma e a soma dos quadrados dos N primeiros números naturais.",
-  "exercise:difference-of-squares:source": "Problema 6 do Project Euler"
+  "exercise:difference-of-squares:source": "Problema 6 do Project Euler",
+  "exercise:hamming:name": "Hamming",
+  "exercise:hamming:blurb": "Calcule a distância de Hamming entre duas fitas de DNA.",
+  "exercise:hamming:source": "O problema Calculating Point Mutations no Rosalind"
 }

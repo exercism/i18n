@@ -101,5 +101,8 @@
   "exercise:collatz-conjecture:source": "Wikipedia",
   "exercise:difference-of-squares:name": "Négyzetek különbsége",
   "exercise:difference-of-squares:blurb": "Találd meg a különbséget az első N természetes szám összegének négyzete és négyzetösszege között.",
-  "exercise:difference-of-squares:source": "A Project Euler 6. feladata"
+  "exercise:difference-of-squares:source": "A Project Euler 6. feladata",
+  "exercise:hamming:name": "Hamming",
+  "exercise:hamming:blurb": "Számítsd ki két DNS-szál Hamming-távolságát.",
+  "exercise:hamming:source": "A Calculating Point Mutations feladat a Rosalind oldalon"
 }

@@ -101,5 +101,8 @@
   "doc:tests:title": "Testare nel track GDScript",
   "doc:tests:blurb": "Scopri come testare gli esercizi GDScript su Exercism",
   "doc:resources:title": "Risorse utili su GDScript",
-  "doc:resources:blurb": "Una raccolta di risorse utili per aiutarti a padroneggiare GDScript"
+  "doc:resources:blurb": "Una raccolta di risorse utili per aiutarti a padroneggiare GDScript",
+  "exercise:hamming:name": "Hamming",
+  "exercise:hamming:blurb": "Calcola la distanza di Hamming tra due filamenti di DNA.",
+  "exercise:hamming:source": "Il problema Calculating Point Mutations su Rosalind"
 }

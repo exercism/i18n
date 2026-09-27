@@ -101,5 +101,8 @@
   "exercise:collatz-conjecture:source": "Wikipedia",
   "exercise:difference-of-squares:name": "Différence de carrés",
   "exercise:difference-of-squares:blurb": "Trouve la différence entre le carré de la somme et la somme des carrés des N premiers entiers naturels.",
-  "exercise:difference-of-squares:source": "Problème 6 sur Project Euler"
+  "exercise:difference-of-squares:source": "Problème 6 sur Project Euler",
+  "exercise:hamming:name": "Hamming",
+  "exercise:hamming:blurb": "Calculer la distance de Hamming entre deux brins d'ADN.",
+  "exercise:hamming:source": "Le problème Calculating Point Mutations sur Rosalind."
 }

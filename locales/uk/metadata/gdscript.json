@@ -101,5 +101,8 @@
   "exercise:collatz-conjecture:source": "Wikipedia",
   "exercise:difference-of-squares:name": "Різниця квадратів",
   "exercise:difference-of-squares:blurb": "Знайдіть різницю між квадратом суми та сумою квадратів перших N натуральних чисел.",
-  "exercise:difference-of-squares:source": "Задача 6 на Project Euler"
+  "exercise:difference-of-squares:source": "Задача 6 на Project Euler",
+  "exercise:hamming:name": "Hamming",
+  "exercise:hamming:blurb": "Порахуйте відстань Геммінга між двома ланцюгами ДНК.",
+  "exercise:hamming:source": "Задача Calculating Point Mutations на Rosalind"
 }
