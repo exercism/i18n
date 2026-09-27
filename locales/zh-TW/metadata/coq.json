@@ -1,0 +1,13 @@
+{
+  "exercise:hello-world:name": "哈囉，世界",
+  "exercise:rna-transcription:name": "RNA 轉錄",
+  "exercise:hello-world:blurb": "經典的入門練習。只要說出「Hello, World!」",
+  "exercise:hello-world:source": "這是一個向使用者介紹如何使用 Exercism 的練習",
+  "exercise:rna-transcription:blurb": "給定一條 DNA 鏈，回傳其 RNA 互補轉錄。",
+  "exercise:rna-transcription:source": "Hyperphysics",
+  "track:blurb": "Coq 是一套證明助理。使用 Coq，你可以撰寫數學定義、演算法與定理的形式化描述。Coq 也提供策略，讓你以互動方式逐步發展經機器驗證的證明。",
+  "exercise:tautology:name": "恆真式",
+  "exercise:tautology:blurb": "恆真式俱樂部的第一條規則就是恆真式俱樂部的第一條規則。 ",
+  "doc:learning:title": "如何學習 Coq",
+  "doc:learning:blurb": "從零開始使用 Coq 的入門概覽"
+}

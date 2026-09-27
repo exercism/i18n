@@ -1,0 +1,4102 @@
+{
+  "api": {
+    "errors": {
+      "not_onboarded": "你還沒有在網站上完成新手引導",
+      "not_supermentor": "你沒有 supermentor 權限",
+      "not_automator": "你沒有這個軌道的 automator 權限",
+      "not_trainer": "你沒有這個軌道的 trainer 權限",
+      "not_maintainer": "你沒有維護者權限",
+      "duplicate_submission": "和上次提交相比，你這次提交的檔案沒有任何變更",
+      "duplicate_video": "這支影片已經有人提交過了",
+      "exercise_locked": "這個練習已鎖定",
+      "exercise_not_found": "找不到你指定的練習",
+      "invalid_auth_token": "提供的認證權杖無效",
+      "invalid_mentor_student_relationship": "你和這位學生之間沒有有效的師生關係",
+      "iteration_not_found": "你指定的疊代不存在",
+      "profile_not_found": "找不到這個個人檔案",
+      "resource_not_found": "無法辨識這個 URL",
+      "solution_not_found": "找不到這個解法",
+      "solution_not_accessible": "你沒有檢視這個解法的權限",
+      "solution_not_unlocked": "你還沒有解鎖這個練習",
+      "solution_comments_not_allowed": "無法在這個解法上取得或發表留言",
+      "solution_comment_not_found": "找不到這則解法留言",
+      "solution_without_iterations": "這個解法沒有任何疊代",
+      "solution_unlock_help_not_accessible": "你沒有為這個解法解鎖協助的權限",
+      "solution_comment_not_accessible": "無法存取這則留言",
+      "submission_not_found": "找不到這份提交",
+      "submission_not_accessible": "你沒有檢視這份提交的權限",
+      "user_not_found": "找不到這個使用者",
+      "trophy_not_found": "找不到這個獎盃",
+      "trophy_not_accessible": "你沒有存取這個獎盃的權限",
+      "representation_not_found": "找不到這個 representation",
+      "team_not_found": "找不到這個團隊",
+      "track_ambiguous": "請指定軌道 ID",
+      "track_not_found": "你指定的軌道不存在",
+      "track_not_joined": "你還沒有加入這個軌道",
+      "file_not_found": "找不到這個檔案",
+      "file_too_large": "提交的檔案太大",
+      "too_many_requests": "已達到速率限制",
+      "sample_not_found": "找不到這個範例",
+      "invalid_captcha": "無法確認驗證碼",
+      "invalid_signature": "無法驗證訊息簽章",
+      "assistant_conversation_not_accessible": "你已經用完免費的 AI 對話次數。加入 Exercism Insiders，即可享有無限次對話。",
+      "mentor_request_not_found": "找不到這則導師請求",
+      "mentor_request_locked": "這個導師請求已被其他人鎖定。",
+      "mentor_testimonial_not_found": "找不到該導師評價",
+      "mentor_discussion_not_found": "找不到該討論",
+      "mentor_discussion_not_accessible": "你沒有權限查看這個討論",
+      "mentor_discussion_post_not_found": "找不到該貼文",
+      "mentor_discussion_post_not_deleted": "無法刪除該貼文",
+      "mentor_discussion_post_not_accessible": "你沒有權限查看這則討論貼文",
+      "student_cannot_mentor_themselves": "你無法引導自己的解答。",
+      "permission_denied": "你沒有權限存取這個資源",
+      "failed_validations": "無法儲存這個資源",
+      "scratchpad_page_not_found": "找不到該草稿頁",
+      "incorrect_password": "密碼不正確",
+      "passwords_dont_match": "密碼不一致",
+      "invalid_locale": "我們沒有提供這個語言",
+      "no_iterations_submitted_yet": "你還沒有提交任何疊代。",
+      "no_mentoring_slots_available": "你目前沒有可用的引導名額",
+      "profile_criteria_not_fulfilled": "你需要至少 5 點聲譽才能建立個人檔案",
+      "invalid_community_video_url": "我們找不到符合這個 URL 的 YouTube 或 Vimeo 影片",
+      "invalid_discussion_status": "討論狀態無效",
+      "training_data_code_tags_sample_locked": "這份訓練資料程式碼標籤樣本已被其他人鎖定。",
+      "could_not_generate_coupon_code": "無法產生優惠券代碼"
+    }
+  },
+  "tracks": {
+    "build": {
+      "show_syllabus": {
+        "concepts_taught_summary": "%{count} 個正在教授的概念",
+        "num_students_learnt": "%{count} 人已學習",
+        "active_learning_exercises_summary": "%{count} 個啟用中的學習練習",
+        "started_label": "已開始",
+        "attempts_label": "嘗試次數",
+        "completions_label": "完成次數",
+        "mentoring_requests_label": "引導請求",
+        "attempts_value": "%{num_submitted}（平均 %{num_submitted_average}）",
+        "deprecated_learning_exercises_summary": "%{count} 個已棄用的學習練習",
+        "syllabus_heading": "%{track_title} 課程大綱",
+        "learn_more_button": "了解更多",
+        "syllabus_description": "協助建立軌道的課程大綱：課程大綱是一組概念與學習練習的集合，用來教授這門程式語言的基礎要素。",
+        "next_goal_create_syllabus": "下一個目標：建立一份完整的課程大綱，至少包含 %{num_active_target} 個概念。",
+        "find_out_more_button": "了解更多。"
+      },
+      "index_analyzer": {
+        "analyzer_heading": "Analyzer",
+        "learn_more_button": "進一步瞭解",
+        "analyzer_description": "為 %{track_title} 打造 Analyzer：Exercism 的 Analyzer 會自動評估學員的提交內容，並提供導師風格的回饋。",
+        "next_goal_build_analyzer": "下一個目標：打造 Analyzer。",
+        "find_out_more_button": "進一步瞭解。",
+        "current_version_label": "目前版本：",
+        "deploy_time_notice": "（在所有伺服器上部署新版本可能需要幾分鐘）",
+        "total_analyzer_runs_label": "Analyzer 執行總次數",
+        "total_analysis_comments_made_label": "分析評論總數",
+        "feedback_given_frequency_label": "回饋頻率"
+      },
+      "index_representer": {
+        "representer_heading": "Representer",
+        "learn_more_button": "進一步瞭解",
+        "representer_description": "打造 Representer：一小段程式碼，唯一的職責就是接收解決方案並回傳其正規化表示法。",
+        "next_goal_build_representer": "下一個目標：打造 Representer。",
+        "find_out_more_button": "進一步瞭解。",
+        "current_version_label": "目前版本：",
+        "deploy_time_notice": "（在所有伺服器上部署新版本可能需要幾分鐘）",
+        "total_representer_runs_label": "Representer 執行總次數",
+        "total_representation_comments_made_label": "表示法評論總數",
+        "feedback_given_frequency_label": "回饋頻率"
+      },
+      "show_representer": {
+        "representer_heading": "Representer",
+        "learn_more_button": "進一步瞭解",
+        "representer_description": "打造 Representer：一小段程式碼，唯一的職責就是接收解決方案並回傳其正規化表示法。\n",
+        "next_goal_build_representer": "下一個目標：打造 Representer。",
+        "find_out_more_button": "進一步瞭解。",
+        "current_version_label": "目前版本：",
+        "deploy_time_notice_short": "（部署最多需要 10 分鐘）",
+        "total_representer_runs_label": "Representer 執行總次數",
+        "total_representation_comments_made_label": "表示法評論總數",
+        "feedback_given_frequency_label": "回饋頻率"
+      },
+      "show_test_runner": {
+        "test_runner_heading": "Test Runner",
+        "learn_more_button": "瞭解更多",
+        "test_runner_description": "建立測試執行器，讓它只負責接收解答、執行所有測試，並回傳標準化的輸出。",
+        "next_goal_build_test_runner": "下一個目標：建立測試執行器。",
+        "find_out_more_button": "深入瞭解。",
+        "current_version_label": "目前版本：",
+        "deploy_time_notice_short": "（部署最多需要 10 分鐘）",
+        "next_goal_get_test_runners": "下一個目標：將測試執行器升級到版本 %{version_target}。%{track_title} 目前使用的是版本 %{version} 的測試執行器。",
+        "total_test_runner_runs_label": "測試執行器總執行次數",
+        "test_run_pass_rate_label": "測試執行通過率",
+        "test_run_fail_rate_label": "測試執行失敗率",
+        "test_run_error_rate_label": "測試執行錯誤率"
+      },
+      "show_practice_exercises": {
+        "synced_repo_label": "已同步的主要儲存庫：",
+        "updates_instant_notice": "（更新應該是即時的）",
+        "next_goal_implement_exercises": "下一個目標：實作 %{additional_text}%{count} 個練習題。",
+        "find_out_more_button": "瞭解更多。",
+        "active_exercises_summary": "%{count} 個啟用中的練習題",
+        "started_column": "已開始",
+        "attempts_column": "嘗試次數",
+        "completions_column": "完成次數",
+        "mentoring_requests_column": "引導請求",
+        "attempts_value": "%{num_submitted}（平均 %{avg_submitted}）",
+        "deprecated_exercises_summary": "%{count} 個已棄用的練習題",
+        "unimplemented_exercises_summary": {
+          "other": "%{count} 個尚未實作的練習題"
+        },
+        "view_data_link": "檢視資料",
+        "foregone_exercises_summary": {
+          "other": "%{count} 個已略過的練習題"
+        },
+        "practice_exercises_heading": "練習題",
+        "learn_more_button": "了解更多",
+        "practice_exercises_description": "練習題是為了讓學生解決任意問題而設計的練習，目標是讓他們運用目前為止學到的概念。"
+      },
+      "index_syllabus": {
+        "syllabus_heading": "%{track_title} 課程大綱",
+        "learn_more_button": "瞭解更多",
+        "syllabus_description": "協助建立學習路徑的課程大綱：課程大綱是為了教授程式語言基礎要素而集結起來的一組概念與學習練習。",
+        "next_goal_syllabus_concepts": "下一個目標：建立包含至少 %{count} 個概念的完整課程大綱。",
+        "find_out_more_button": "瞭解更多。",
+        "concepts_being_taught_summary": "%{count} 個正在教授的概念",
+        "students_learnt_count": "%{count} 個已學會",
+        "active_learning_exercises_summary": "%{count} 個啟用中的學習練習",
+        "started_column": "已開始",
+        "attempts_column": "嘗試次數",
+        "completions_column": "完成次數",
+        "mentoring_requests_column": "引導請求",
+        "attempts_value": "%{num_submitted}（平均 %{avg_submitted}）",
+        "deprecated_learning_exercises_summary": "%{count} 個已棄用的學習練習"
+      },
+      "test_runner_tooltip": {
+        "test_runner_heading": "%{track_title} 測試執行器",
+        "health_exemplar": "實作了最新版的規格。",
+        "health_healthy": "可以從版本 %{current_version} 升級到 %{target_version}。",
+        "health_needs_attention": "應該從版本 %{current_version} 升級到 %{target_version}。",
+        "health_missing": "測試執行器尚未實作。",
+        "iterations_tested": {
+          "other": "已測試 %{count} 個疊代。"
+        }
+      },
+      "index_practice_exercises": {
+        "practice_exercises_title": "練習題",
+        "learn_more_button": "瞭解更多",
+        "practice_exercises_description": "練習題是設計來讓學生解決任意問題的練習，目的是讓他們運用目前為止學到的概念。",
+        "synced_primary_repo_label": "已同步的主要儲存庫：",
+        "updates_instant_message": "（更新應該是即時的）",
+        "next_goal_message": "下一個目標：實作 %{include_at_least}%{count} 個練習題。",
+        "find_out_more_link": "了解更多。",
+        "active_exercises_summary": {
+          "other": "%{count} 個使用中的練習"
+        },
+        "started_label": "已開始",
+        "attempts_label": "嘗試次數",
+        "completions_label": "完成次數",
+        "mentoring_requests_label": "引導請求",
+        "attempts_value": "%{num_submitted}（平均 %{num_submitted_average}）",
+        "deprecated_exercises_summary": {
+          "other": "%{count} 個已棄用的練習"
+        },
+        "unimplemented_exercises_summary": {
+          "other": "%{count} 個尚未實作的練習"
+        },
+        "view_data_link": "查看資料",
+        "foregone_exercises_summary": {
+          "other": "%{count} 個已放棄的練習"
+        }
+      },
+      "show": {
+        "meta_title": "%{track_title} 在 Exercism 上的影響力與狀態",
+        "meta_description": "探索 %{track_title} 在 Exercism 上的影響力與狀態。",
+        "track_management_title": "%{track_title} 軌道管理",
+        "track_management_description": "這個頁面提供 Exercism 社群管理 %{track_title} 軌道所需的資訊與工具。",
+        "students_stat": "學生",
+        "submissions_stat": "提交",
+        "mentoring_discussions_stat": "引導討論",
+        "track_status_title": "%{track_title} 軌道",
+        "tooling_status_building": "建置中",
+        "aria_label_syllabus": "%{track_title} 的課程大綱狀態",
+        "aria_label_test_runner": "%{track_title} 的測試執行器狀態",
+        "aria_label_analyzer": "%{track_title} 的分析器狀態",
+        "aria_label_representer": "%{track_title} 的呈現器狀態",
+        "aria_label_practice_exercises": "%{track_title} 的練習狀態",
+        "volunteers_label": {
+          "other": "%{count} 位志工"
+        },
+        "more_volunteers_link": "+ %{count} 位",
+        "love_volunteers_title": "我們愛我們的志工 💙",
+        "love_volunteers_description": "Exercism 依靠開源志工來建置我們的語言軌道，並引導學生。",
+        "become_volunteer_link": "成為 Exercism 志工"
+      },
+      "practice_exercises_tooltip": {
+        "practice_exercises_tooltip_title": "%{track_title} 的練習",
+        "practice_exercises_tooltip_exemplar": "已實作了出色的 %{count} 個練習！",
+        "practice_exercises_tooltip_healthy": "已實作 %{count} 個練習。",
+        "practice_exercises_tooltip_needs_attention": {
+          "other": "還需要再實作 %{count} 個練習。"
+        },
+        "practice_exercises_tooltip_missing": "尚未實作任何練習。"
+      },
+      "analyzer_tooltip": {
+        "comments_made": {
+          "other": "已留下 %{count} 則評論。"
+        },
+        "analyzer_heading": "%{track_title} 分析器",
+        "feedback_exemplar": "為 %{display_rate_percentage}% 的已提交疊代提供回饋！",
+        "feedback_healthy": "為 %{display_rate_percentage}% 的已提交疊代提供回饋。",
+        "feedback_needs_attention": "尚未提供任何回饋。",
+        "feedback_missing": "分析器尚未實作。",
+        "analyzer_title": "%{track_title} 分析器",
+        "feedback": {
+          "exemplar": "會對 %{display_rate_percentage}% 已提交的疊代提供回饋！",
+          "healthy": "會對 %{display_rate_percentage}% 已提交的疊代提供回饋。",
+          "needs_attention": "目前還沒有提供任何回饋。",
+          "missing": "分析器尚未實作。"
+        }
+      },
+      "syllabus_tooltip": {
+        "syllabus_title": "%{track_title} 課程大綱",
+        "feedback": {
+          "exemplar": "教了令人驚豔的 %{count} 個概念！",
+          "healthy": "教了還不錯的 %{count} 個概念。",
+          "needs_attention": {
+            "other": "應該還要再實作 %{count} 個概念。"
+          },
+          "missing": "尚未實作任何概念。"
+        },
+        "syllabus_heading": "%{track_title} 課程大綱",
+        "syllabus_exemplar": "教了令人驚豔的 %{count} 個概念！",
+        "syllabus_healthy": "教了還不錯的 %{count} 個概念。",
+        "syllabus_needs_attention": {
+          "other": "應該還要再實作 %{count} 個概念。"
+        },
+        "syllabus_missing": "尚未實作任何概念。"
+      },
+      "representer_tooltip": {
+        "representer_title": "%{track_title} 表徵器",
+        "feedback": {
+          "exemplar": "運作得非常出色！",
+          "healthy": "運作良好。",
+          "needs_attention": "尚未透過任何表徵提供回饋。",
+          "missing": "表徵器尚未實作。"
+        },
+        "comments_made": {
+          "other": "已留下 %{count} 則評論。"
+        },
+        "representer_heading": "%{track_title} 表徵器",
+        "representer_exemplar": "運作得非常出色！",
+        "representer_healthy": "運作良好。",
+        "representer_needs_attention": "尚未透過任何表徵提供回饋。",
+        "representer_missing": "表徵器尚未實作。"
+      },
+      "show_analyzer": {
+        "analyzer_heading": "分析器",
+        "learn_more_button": "了解更多",
+        "analyzer_description": "為 %{track_title} 打造分析器：Exercism 的分析器會自動評估學生的提交內容，並提供導師風格的評論。",
+        "missing_analyzer_next_goal": "下一個目標：打造分析器。",
+        "find_out_more_button": "進一步了解。",
+        "current_version_label": "目前版本：",
+        "deploy_time_notice": "（部署最多需要 10 分鐘）",
+        "total_analyzer_runs_label": "分析器執行總次數",
+        "total_analysis_comments_made_label": "分析評論總數",
+        "feedback_given_frequency_label": "提供回饋的頻率"
+      },
+      "index_test_runner": {
+        "test_runner_heading": "測試執行器",
+        "learn_more_button": "瞭解更多",
+        "test_runner_description": "建立測試執行器，讓它只負責接收解答、執行所有測試，並回傳標準化的輸出。",
+        "next_goal_build_test_runner": "下一個目標：建立測試執行器。",
+        "find_out_more_button": "深入瞭解。",
+        "current_version_label": "目前版本：",
+        "deploy_time_notice": "（在所有伺服器上部署新版本可能需要幾分鐘）。",
+        "next_goal_get_test_runners": "下一個目標：將測試執行器升級到版本 %{version_target}。%{track_title} 目前使用的是版本 %{version} 的測試執行器。",
+        "total_test_runner_runs_label": "測試執行器總執行次數",
+        "test_run_pass_rate_label": "測試執行通過率",
+        "test_run_fail_rate_label": "測試執行失敗率",
+        "test_run_error_rate_label": "測試執行錯誤率"
+      }
+    },
+    "concepts": {
+      "tooltip": {
+        "info": {
+          "mastered": "你已經精通 %{concept_name} 了！",
+          "learnt": "你已經學會 %{concept_name} 了。",
+          "available": "你已經可以學習 %{concept_name} 了。",
+          "locked": {
+            "prerequisite": "學習 %{prerequisite_names} 即可解鎖這個概念。",
+            "hello_world": "完成「Hello, World!」即可解鎖概念。"
+          },
+          "mastered_message": "你已經精通 %{concept_name} 了！",
+          "learnt_message": "你已經學會 %{concept_name} 了。",
+          "available_message": "你已經可以學習 %{concept_name} 了。",
+          "locked_prerequisite": "學習 %{prerequisite_names} 即可解鎖這個概念。",
+          "locked_tutorial": "完成「Hello, World!」即可解鎖概念。"
+        },
+        "explore_button": "探索概念",
+        "header": {
+          "summary": {
+            "title": {
+              "in_text": "在"
+            },
+            "num_exercises": {
+              "locked": {
+                "other": "%{count} 個練習"
+              },
+              "completed": "%{num_completed}/%{count} 已完成"
+            }
+          },
+          "status_tag": {
+            "locked": "已鎖定",
+            "mastered": "已精通"
+          }
+        },
+        "explore_concept_button": "探索概念",
+        "summary": {
+          "in": "在",
+          "exercises_locked": {
+            "other": "%{count} 個練習"
+          },
+          "exercises_completed": "%{count} 個已完成（%{num_completed}/%{num_total}）"
+        },
+        "status_tag": {
+          "locked": "已鎖定",
+          "mastered": "已精通"
+        }
+      },
+      "show": {
+        "header": {
+          "breadcrumbs": {
+            "tracks": "軌道",
+            "syllabus": "課程大綱"
+          },
+          "concept_info": {
+            "in": "在",
+            "exercises_count": {
+              "other": "%{count} 個練習"
+            }
+          }
+        },
+        "mastered_heading": {
+          "text": "你已經精通 %{track_title} 裡的 %{concept_name} 了。",
+          "explore_link": "探索更多概念"
+        },
+        "about": {
+          "title": "關於 %{concept_name}",
+          "learn_more_links": {
+            "title": "了解更多",
+            "external_link_aria_label": "（外部連結）"
+          }
+        },
+        "extra_info": {
+          "edit_via_github": "透過 GitHub 編輯",
+          "github_link_aria_label": "連結會在新視窗或分頁中開啟"
+        },
+        "learnt": {
+          "learnt_concept_message": "你已經學會 %{concept_name} 了！",
+          "mastered_concept_message": "你已經精通 %{concept_name} 了！",
+          "practice_concept_message": "練習 %{concept_name}"
+        },
+        "learn": {
+          "learn_concept_message": "學習 %{concept_name}",
+          "practice_locked_bar_aria_label": "練習已鎖定",
+          "unlock_practice_exercises": {
+            "other": "再解鎖 %{count} 個練習，就能練習 %{concept_name}"
+          }
+        }
+      },
+      "index": {
+        "meta_title": "Exercism 上 %{track_title} 的關鍵概念",
+        "meta_description": "在 Exercism 上學習並精通 %{track_title} 的 %{num_concepts} 個關鍵概念。",
+        "external_cta": {
+          "title": "精通 %{track_title} 的 %{num_concepts} 個關鍵概念",
+          "description": "所有涵蓋的概念都會結合該語言的典範與慣例來說明。",
+          "button": "加入 %{track_title} 軌道",
+          "join_button": "加入 %{track_title} 軌道"
+        },
+        "page_header": {
+          "title": "你的 %{track_title} 學習旅程",
+          "description": "學習並精通各種概念，讓你在 %{track_title} 中游刃有餘。"
+        }
+      }
+    },
+    "dig_deeper": {
+      "tooltip_locked": {
+        "title": "這個練習卡關了嗎？",
+        "unlock_dig_deeper": "解鎖「深入探索」分頁，看看社群如何思考並解決 %{exercise_title}。",
+        "attempt_exercise_first": "你必須至少嘗試過這個練習一次，才能查看它的「深入探索」分頁。",
+        "recommendation": "我們強烈建議你先盡力自己嘗試，再去看「深入探索」分頁。"
+      },
+      "show": {
+        "meta_title": "在 Exercism 上深入探索 %{track_title} 的 %{exercise_title}",
+        "meta_description": "探索在 %{track_title} 中解決 %{exercise_title} 的各種方法與影片。"
+      }
+    },
+    "exercises": {
+      "show": {
+        "view_track_documentation": "查看軌道文件",
+        "action_box_solve_locked": {
+          "title": "解開這個練習"
+        },
+        "action_box_dig_deeper_mentoring": {
+          "code_review_in_progress": {
+            "go_to_code_review_link": "前往程式碼審查",
+            "your_turn_description_html": "<strong class='font-semibold'>輪到你回應了。</strong>與你的導師互動、提出問題，並持續疊代你的程式碼。記得感謝他們撥空協助你。",
+            "go_to_code_review_button": "前往程式碼審查",
+            "title": "程式碼審查進行中",
+            "mentor_finished_description": "你與 @%{mentor_handle} 的對話已經結束。請花點時間留給他們一則評價。",
+            "finish_discussion_button": "結束討論",
+            "awaiting_mentor_description": "你的解答正由 @%{mentor_handle} 審查中。他們下次回覆時，你會收到通知。"
+          },
+          "code_review_requested": {
+            "title": "已申請程式碼審查",
+            "description": "你的解答已送給我們的導師審查。它正在佇列中，很快就會有其中一位導師接手，並與你展開對話。",
+            "view_mentoring_request_link": "查看引導請求"
+          },
+          "request_code_review": {
+            "title": "申請程式碼審查",
+            "description": "讓真正的導師協助你找出知識缺口。完全免費。",
+            "button": "申請程式碼審查"
+          },
+          "code_review_finished": {
+            "title": "程式碼審查已完成",
+            "description_html": "你與 @%{mentor_handle} 的引導討論已經結束。你可以查看這場討論，或在 %{link} 開始新的討論。",
+            "link_text": "程式碼審查分頁"
+          }
+        },
+        "action_box_dig_deeper_practice_exercise": {
+          "title": "深入探索",
+          "description": "解完練習只是進步的第一步。現在是向他人學習的時候了。這些步驟是選用的，但會大幅增進你的知識。"
+        },
+        "action_box_completed": {
+          "exercise_published": {
+            "title": "練習已發布",
+            "description": "你已發布你的練習，讓其他人可以從中學習。謝謝你！你可以在下方查看並管理你已發布的解答。你可以",
+            "change_published_iteration_button": "變更已發布的疊代",
+            "or_text": "或",
+            "unpublish_solution_button": "取消發布你的解答。"
+          },
+          "exercise_completed": {
+            "title": "練習已完成",
+            "description": "你已將這道練習標記為完成。"
+          },
+          "publish_exercise": {
+            "title": "發布你的練習",
+            "description": "發布你的練習來賺取聲望，並幫助其他人發現新的技巧與訣竅。"
+          }
+        },
+        "action_box_dig_deeper_approaches": {
+          "viewed_approach": {
+            "title": "已檢視的解法",
+            "description_html": "在我們的 %{link} 中探索這道練習的各種常見解法。",
+            "link_text": "深入探索區塊"
+          },
+          "discover_approaches": {
+            "title": "探索不同的解法",
+            "description_html": "在我們的 %{link} 中探索這道練習的各種常見解法。",
+            "link_text": "深入探索區塊"
+          }
+        },
+        "action_box_dig_deeper_youtube_video": {
+          "title": "觀看我們的深入解析"
+        },
+        "action_box_locked_by_hello_world": {
+          "unlock_title": "解鎖 %{exercise_title}",
+          "unlock_description_html": "這道練習目前尚未開放給你開始。完成<strong>Hello, World!</strong>即可解鎖這道練習。"
+        },
+        "instructions": {
+          "introduction_heading": "簡介",
+          "hello_world_intro_html": "「Hello, World!」會帶你開始寫一些 %{track_title}，並讓你熟悉 Exercism 的工作流。<strong>完成後即可解鎖 %{track_title} 軌道的其餘內容。</strong>",
+          "watch_video_prompt": "觀看我們的「Hello, World 簡介」影片，開始動手吧 👇",
+          "instructions_heading": "說明",
+          "source_heading": "出處",
+          "explore_source_html": "探索<a href=\"%{source_url}\" target=\"_blank\" rel=\"noopener noreferrer\">這道練習的來源</a>。\n",
+          "edit_via_github": "透過 GitHub 編輯",
+          "new_window_icon_alt": "連結會在新視窗或分頁中開啟"
+        },
+        "action_box_complete": {
+          "tutorial": {
+            "title": "完成這道練習",
+            "paragraph_1": "完成一道練習後，請將它標記為已完成。你也可以在完成練習時發布你的解答，與其他人分享。",
+            "paragraph_2": "將 Hello World 標記為完成後，即可解鎖該軌道中的前幾個練習。"
+          },
+          "concept_exercise": {
+            "title": "練習做完了嗎？",
+            "paragraph_1": "覺得自己已經懂了這個練習教的概念嗎？把它標記為完成，就能繼續前進。"
+          },
+          "general": {
+            "title": "練習做完了嗎？",
+            "paragraph": "這個練習已經做到你想達到的程度了嗎？把它從清單上打勾，也可以選擇公開你的解答，讓社群從中學習。"
+          }
+        },
+        "concepts_section": {
+          "learning_goals_title": "練習學習目標",
+          "learning_goals_description_html": "這個學習練習讓你對 %{concepts} 的認識更上一層樓。",
+          "unlocked_concepts": {
+            "title": "你已解鎖",
+            "count": {
+              "other": "%{count} 個概念"
+            }
+          },
+          "unlocked_exercises": {
+            "title": "你已解鎖",
+            "count": {
+              "other": "%{count} 個練習"
+            }
+          }
+        },
+        "external": {
+          "deep_dive_title": "深入探索 %{exercise_title}！"
+        },
+        "uncompleted_concepts_section": {
+          "learning_goals_title": "練習學習目標",
+          "learning_goals_description": "在完成 %{exercise_title} 的過程中，你會學到",
+          "concept_plural": {
+            "other": "%{count} 個概念"
+          }
+        },
+        "action_box_join_exercism": {
+          "title": "準備好開始 %{exercise_title} 了嗎？",
+          "description_html": "註冊 Exercism，透過 %{concept_link}%{exercise_link} 和真人引導來學習並精通 %{track_link}，<strong>全部免費。</strong>",
+          "concept_plural": {
+            "other": "%{count} 個概念"
+          },
+          "exercise_plural": {
+            "other": "%{count} 個練習"
+          },
+          "signup_button": "註冊吧，免費喔！",
+          "login_button": "登入 Exercism"
+        },
+        "action_box_locked": {
+          "title": "解鎖 %{exercise_title}",
+          "description_html": "這個練習目前還無法開始。完成下列練習來解鎖 <span class=\"font-semibold\">%{exercise_title}</span>，或 %{activate_practice_mode}。\n",
+          "activate_practice_mode_text": "停用學習模式"
+        },
+        "action_box_publish_locked": {
+          "title": "發佈你的解答"
+        },
+        "action_solve_locked": {
+          "title": "解開這個練習"
+        },
+        "action_box_solve": {
+          "solve_button": "解題",
+          "start_button": "開始",
+          "continue_work": "繼續進行這個練習。",
+          "available_to_start": "這個練習已經可以開始了。",
+          "solve_description": "你可以透過 Exercism 的瀏覽器內編輯器解題，或在自己的環境中解題，並使用我們的 CLI 下載並提交。",
+          "via_editor_heading": "透過 Exercism 編輯器",
+          "start_in_editor_button": "在編輯器中開始",
+          "work_locally_heading": "在本機工作（透過 CLI）",
+          "learn_more_link": "進一步瞭解如何在本機解題"
+        },
+        "action_box_dig_deeper_community_solutions": {
+          "explored_community_solutions": "已探索社群解答",
+          "explore_community_solutions": "探索社群解答",
+          "explore_text": "探索其他人如何解開這個練習，並透過我們的",
+          "community_solutions_link": "社群解答"
+        },
+        "action_box_solved": {
+          "title": "練習已解開",
+          "description_html": "你已經為這個練習提交了 %{link}。當你的知識持續成長，或想嘗試新想法時，你可以再提交更多次疊代。",
+          "iteration_word": {
+            "other": "疊代"
+          }
+        },
+        "action_box_dig_deeper_concept_exercise": {
+          "title": "深入探索",
+          "description": "學習練習通常沒有太多正確的解法，但看看其他人如何解開這個練習還是很有幫助。"
+        },
+        "action_box_dig_deeper_locked": {
+          "title": "深入探索"
+        },
+        "action_box_join_track": {
+          "title": "準備好開始 %{exercise_title} 了嗎？",
+          "description_html": "加入 %{track_title} 軌道，%{links_html} 正等著你深入探索！",
+          "description_with_two_links_html": "加入 %{track_title} 軌道，%{concepts_link} 和 %{exercises_link} 正等著你深入探索！",
+          "description_with_one_link_html": "加入 %{track_title} 軌道，%{exercises_link} 正等著你深入探索！",
+          "concept_plural": {
+            "other": "%{count} 個概念"
+          },
+          "exercise_plural": {
+            "other": "%{count} 個練習"
+          },
+          "join_track_button": "加入 %{track_title} 軌道",
+          "see_all_exercises_button": "查看所有 %{track_title} 練習"
+        },
+        "action_box_complete_locked": {
+          "title": "完成你的解答"
+        }
+      },
+      "no_test_runner": {
+        "editor_unavailable_title": "編輯器無法使用。",
+        "test_runner_not_working_title": "這個學習軌道無法用 Exercism 編輯器解題",
+        "test_runner_not_working_description_html": "這個學習軌道還沒有可用的測試執行器，所以編輯器目前停用。我們正在設法解決這個問題。如果你願意幫忙，請看看 %{github_link} 上的 Issues。",
+        "github_repo_link_text": "GitHub 儲存庫",
+        "editor_unsupported_title": "抱歉，這個練習無法在編輯器裡解題。",
+        "editor_unsupported_description": "這可能是因為這個練習的測試要跑很久。請用你本地的編輯器解題，再透過我們的 CLI 上傳。",
+        "back_to_exercise_button": "回到練習"
+      },
+      "index": {
+        "meta_title": "Exercism 上的 %{track_title} 練習",
+        "meta_description": "探索 Exercism 上 %{num_exercises} 個 %{track_title} 練習",
+        "external_cta": {
+          "title": "練習 %{num_exercises} 個 %{track_title} 練習",
+          "description": "完成 %{num_exercises} 個探索不同概念與想法的練習，學習並精進 %{track_title}。",
+          "join_track_button": "加入 %{track_title} 學習軌道"
+        },
+        "page_header": {
+          "title": "探索 Exercism 上的 %{track_title} 練習",
+          "description": "隨著你持續進步，會解鎖更多練習。它們既是很棒的練習，也充滿樂趣喔！"
+        }
+      }
+    },
+    "mentor_discussions": {
+      "previous_discussions": {
+        "no_discussions_message": "你還沒有過去的程式碼審閱紀錄",
+        "discussion_ended": "已於 %{time_ago} 前結束",
+        "status_ended": "已結束"
+      },
+      "index": {
+        "personal_mentoring": {
+          "locked_message_html": "你目前正在接受引導。在與其他人開始新的引導討論之前，請先結束現有的討論。",
+          "heading": "想改由朋友來引導你嗎？",
+          "body": "如果你想由朋友、老師、同事等人來引導，而不是接受社群引導，把下面的連結傳給他們，他們就能直接引導你。",
+          "link_heading": "直接引導邀請連結",
+          "prominent_link": "進一步了解直接引導"
+        }
+      },
+      "mentoring_finished": {
+        "heading": "想換一位導師試試看嗎？",
+        "body_html": "想聽聽其他導師對你解法的看法嗎？你可以重新申請引導，針對<strong>%{exercise_title}</strong>的解法提出新問題，或是在下方瀏覽你之前的引導討論。",
+        "button": "申請更多引導"
+      },
+      "tooltip_locked": {
+        "heading": "卡在這個練習了嗎？",
+        "body": "只有已提交這個練習的解答，才能接受引導。如果卡住了，可以試著看看社群解答或深入探索。",
+        "recommendation": "我們強烈建議你先盡力嘗試，再去看社群解答或深入探索。"
+      },
+      "mentoring_requested": {
+        "heading": "你已申請引導",
+        "waiting_text": "正在等待導師…",
+        "view_request_button": "查看你的申請"
+      },
+      "introduction": {
+        "header": {
+          "title": "讓你的解答更上一層樓",
+          "subtitle_html": "讓 %{track_title} 導師為你對 <strong>%{exercise_title}</strong> 的解答提供回饋，發掘解決問題的新方法，並拓展、深化你的 %{track_title} 知識。",
+          "submit_button": "提交程式碼審查",
+          "free_text": "完全免費喔！😲"
+        },
+        "why": {
+          "heading": "為什麼要取得回饋？",
+          "points": {
+            "fluency": {
+              "heading": "真正精通 %{track_title}",
+              "body_html": "學習一門語言不只是會用它，而是能用它<strong>思考</strong>。我們的導師會幫助你培養這種感知。"
+            },
+            "unknown": {
+              "heading": "你不知道自己不知道什麼",
+              "body": "當你不知道自己缺什麼時，很難進步。我們的導師會幫你找出 %{track_title} 知識中的盲點。"
+            },
+            "questions": {
+              "heading": "讓你的問題得到解答",
+              "body": "無論你有什麼問題，我們的導師都能幫助你。申請導師時，記得把心裡的疑問提出來。"
+            },
+            "push": {
+              "heading": "挑戰自己",
+              "body": "無論你對 %{track_title} 多有信心，永遠都有更多東西可以學。讓 Exercism 導師陪你更上一層樓。"
+            }
+          }
+        },
+        "how": {
+          "heading": "運作方式是什麼？",
+          "points": {
+            "submit": {
+              "heading": "提交程式碼審查",
+              "body": "向 Exercism 社群送出申請。告訴我們你想學什麼，好讓合適的導師與你配對。"
+            },
+            "feedback": {
+              "heading": "取得回饋",
+              "body": "導師接受你的申請後，會審閱你的解答與申請，並給你第一份回饋。"
+            },
+            "iterate": {
+              "heading": "反覆疊代與學習",
+              "body": "與導師交流，並參考他們的建議，繼續撰寫並提交更多疊代。"
+            },
+            "end_celebrate": {
+              "heading_html": "結束 &amp; 慶祝 🎉",
+              "body": "當你對最終解答滿意時，結束討論並為導師留下評價。"
+            }
+          }
+        }
+      },
+      "mentoring_in_progress": {
+        "mentor_info_html": "你正接受&nbsp;<strong>%{mentor_handle}</strong>的引導",
+        "status": {
+          "review_mentor": "評價你的導師",
+          "waiting_mentor": "等待導師",
+          "your_turn": "輪到你回覆"
+        },
+        "comments_count": {
+          "other": "%{count} 則留言"
+        },
+        "in_progress_label": "進行中",
+        "open_discussion_button": "開啟討論"
+      }
+    },
+    "mentor_requests": {
+      "no_slots_remaining": {
+        "whoops": "哎呀！",
+        "no_slots_available": "你已經沒有可用的引導名額了。",
+        "replenish_slots": "順利完成進行中的討論，就能補充你的引導名額。",
+        "go_to_track_link": "前往軌道"
+      },
+      "get_more_slots": {
+        "whoops": "哎呀！",
+        "no_slots_available": "你已經沒有可用的引導名額了。",
+        "get_more_slots_html": "你可以透過%{reputation_link}或%{donate_link}來獲得更多引導名額。",
+        "reputation_link_text": "賺取聲望",
+        "donate_link_text": "捐款給 Exercism",
+        "go_to_track_link": "前往軌道"
+      }
+    },
+    "show": {
+      "updates_section": {
+        "whats_going_on": "%{track_title} 有什麼新消息",
+        "title": "%{track_title} 有什麼新消息"
+      },
+      "stats_box_mastered_concepts": {
+        "concepts_mastered": {
+          "other": "已精通的概念"
+        }
+      },
+      "stats_box_available_exercises": {
+        "exercises_available": {
+          "other": "可用的練習"
+        }
+      },
+      "stats_box_locked_exercises": {
+        "exercises_locked": {
+          "other": "已鎖定的練習"
+        }
+      },
+      "stats_box_in_progress_exercises": {
+        "exercises_in_progress": {
+          "other": "進行中的練習"
+        }
+      },
+      "mentoring_article": {
+        "mentoring_locked_icon_alt": "引導已鎖定",
+        "unlock_mentoring": "完成「Hello, World!」並開始新的練習，就能解鎖 %{track_title} 的引導",
+        "your_mentoring_slots": {
+          "title": "你的引導名額",
+          "filled": {
+            "other": "%{count} 個引導名額已使用"
+          }
+        },
+        "current_reputation": {
+          "title": "你目前的聲望是"
+        },
+        "max_mentoring_slots": "你的引導名額已達上限",
+        "unlocked_icon_alt": "已解鎖",
+        "next_slot_unlocks_at_html": "下一個名額會在聲望達到<strong>%{reputation_amount}</strong>時解鎖。",
+        "donate_to_exercism_html": "或者<a href=\"%{insiders_path}\" class=\"text-prominentLinkColor font-semibold\">捐款給 Exercism</a>，解鎖所有引導名額。\n",
+        "learn_more_link": "進一步了解。",
+        "mentor_discussion_with": "與",
+        "your_turn_to_respond": "輪到你回覆了",
+        "review_your_mentor": "評價你的導師",
+        "comments_count": {
+          "other": "%{count} 則留言"
+        },
+        "waiting_on_mentor": "等待導師回覆…",
+        "mentoring_slot_locked": "引導時段已鎖定",
+        "learn_more_about_mentored_link": "進一步了解如何接受引導"
+      },
+      "summary_article": {
+        "progress_chart": {
+          "title": {
+            "just_started": "你才剛開始 %{track_title} 學習軌道。",
+            "good_luck": "祝你好運，冒險者！",
+            "completed_100_percent": "太厲害了，你已經完成這條學習軌道了！！",
+            "achievement": "真是了不起的成就！👏",
+            "in_progress": "你已經完成 %{track_title} 學習軌道的 %{percentage}%。"
+          },
+          "progress_bar": {
+            "completed_icon_alt": "已完成"
+          },
+          "key": {
+            "completed": "已完成",
+            "in_progress": "進行中",
+            "available": "可開始",
+            "locked": "已鎖定",
+            "total_exercises": "練習總數"
+          },
+          "just_started_track": "你才剛開始 %{track_title} 軌道。<strong>祝你好運，冒險者！</strong>",
+          "track_completed": "太厲害了，你完成了整條軌道！！<strong>真是了不起的成就！👏</strong>",
+          "through_track_html": "你已經完成 %{track_title} 軌道的<em>%{completed_percentage}%</em>。",
+          "completed_icon_alt": "已完成",
+          "status": {
+            "completed": "已完成",
+            "in_progress": "進行中",
+            "available": "可開始",
+            "locked": "已鎖定",
+            "total_exercises": "練習總數"
+          }
+        },
+        "user_track_completed_percentage_text": {
+          "range_0_10": "繼續保持喔！🚀",
+          "range_10_20": "很棒的開始喔！🚀",
+          "range_20_30": "開始加速了喔！🚀",
+          "range_30_40": "你真的漸入佳境了喔！🚀",
+          "range_40_50": "快到一半了喔！🚀",
+          "range_50_60": "已經過半了喔！🚀",
+          "range_60_70": "照這個步調，你一定能完成！🚀",
+          "range_70_80": "哇，繼續加油！🚀",
+          "range_80_90": "就快到了喔！🚀",
+          "range_90_100": "終點線就在眼前了喔！🚀",
+          "invalid_percentage": "百分比無效。"
+        },
+        "trophy_cabinet": {
+          "title": "%{track_title} 獎盃櫃",
+          "description": "隨著你在學習軌道中不斷前進，解鎖一項項成就。",
+          "learn_more": "了解更多",
+          "subtitle_html": "隨著你在軌道上持續前進，就能解鎖各種成就。 %{learn_more_link}"
+        },
+        "rhs": {
+          "intro_video": {
+            "title": "%{track_title} 簡介",
+            "description": "跟著 Erik 一起深入探索 %{track_title}，看他介紹主要功能，並解一道有趣的練習。"
+          },
+          "forum": {
+            "title": "來自論壇……",
+            "latest_by": "最新貼文：%{username}",
+            "explore_forum": "探索 %{track_title} 論壇"
+          },
+          "docs": {
+            "title": "卡住了嗎？來看看我們的文件……"
+          },
+          "momentum": {
+            "title": "你的學習動能",
+            "description": "持之以恆是進步的關鍵。為自己設定一個切合實際的每週目標，然後在這裡追蹤你最近 8 週的進度。",
+            "avg_exercises_completed": "每週平均完成的練習數"
+          }
+        },
+        "intro_video": {
+          "title": "%{track_title} 簡介",
+          "description": "跟著 Erik 一起深入探索 %{track_title}，他會帶你認識主要功能，並解開一道有趣的練習。"
+        },
+        "forum_section": {
+          "title": "來自論壇…",
+          "latest_by": "最新由 %{poster_username} 發表",
+          "explore_forum_link": "探索 %{track_title} 論壇"
+        },
+        "docs_section": {
+          "title": "卡住了嗎？來看看我們的文件…"
+        },
+        "momentum_section": {
+          "title": "你的學習動能",
+          "description": "持之以恆是進步的關鍵。為自己設定一個每週實際可行的目標，然後在這裡追蹤你最近 8 週的紀錄。",
+          "avg_exercises_completed_per_week": "每週平均完成的練習數"
+        }
+      },
+      "contributors_section": {
+        "title": "%{track_title} 的貢獻者",
+        "top_contributors_aria_label": "主要貢獻者",
+        "view_profile_aria_label": "檢視 %{contributor_handle} 的個人檔案",
+        "other_contributors_aria_label": "其他重要貢獻者",
+        "see_all_link": "查看全部",
+        "see_all_contributors_aria_label": "查看這條軌道的所有貢獻者",
+        "cta": {
+          "we_love_contributors_html": "我們 <span aria-label=\"love\">💙</span> 我們的貢獻者\n",
+          "exercism_relies_on_open_source": "Exercism 依靠開源貢獻者打造各種語言軌道，並引導學員。",
+          "contribute_link": "為 %{track_title} 軌道盡一份心力 ->"
+        }
+      },
+      "start_track_section": {
+        "introduce_yourself_html": "完成<strong>「Hello, World!」</strong>，向 %{track_title} 的世界打聲招呼吧",
+        "familiarize_yourself": "完成「Hello, World!」這個教學練習，熟悉 Exercism 的運作方式，並在平台上提交你的第一段程式碼。",
+        "go_to_hello_world_exercise_link": "前往「Hello, World!」練習"
+      },
+      "stats_box_completed_exercises": {
+        "exercises_completed": {
+          "other": "完成的練習"
+        }
+      },
+      "activities_zero_state_section": {
+        "activity_zero_state_message": "當你開始完成練習後，你在這條軌道上的活動紀錄就會顯示在這裡"
+      },
+      "stats_box_learnt_concepts": {
+        "concepts_learnt": {
+          "other": "已學會的概念"
+        }
+      },
+      "ticker": {
+        "live_on_track": "%{track_title} 軌道上的即時動態…"
+      }
+    },
+    "iterations": {
+      "index": {
+        "zero_state": {
+          "editor_button": "在編輯器中開始",
+          "cli_heading": "在本機工作（透過 CLI）",
+          "prominent_link": "進一步了解如何在本機解練習",
+          "heading": "你還沒提交任何疊代。",
+          "body": "提交解答後，你就能看到自己所有的疊代，以及測試結果和自動化回饋。",
+          "editor_heading": "透過 Exercism 編輯器"
+        }
+      }
+    },
+    "shared": {
+      "learn_more": "瞭解更多",
+      "find_out_more": "深入瞭解。",
+      "started": "已開始",
+      "attempts": "嘗試次數",
+      "completions": "完成次數",
+      "mentoring_requests": "引導請求",
+      "attempts_value": "%{num_submitted}（平均 %{avg_submitted}）"
+    },
+    "community_solutions": {
+      "tooltip_locked": {
+        "struggling_question": "這個練習讓你卡關了嗎？",
+        "unlock_community_solutions": "解鎖社群解答，看看社群是如何思考並解出 %{exercise_title} 的。",
+        "attempt_exercise_first": "你必須至少嘗試過這個練習一次，才能檢視社群解答分頁。",
+        "recommendation": "我們強烈建議你先盡力自己嘗試，先不要去看社群解答分頁。"
+      },
+      "show": {
+        "meta_title": "%{author_handle} 在 Exercism 上 %{track_title} 的 %{exercise_title} 解答",
+        "meta_description": "看看 @%{author_handle} 如何解出 %{track_title} 中的 %{exercise_title}，從中獲得靈感，想想自己也可以怎麼解！Exercism 完全免費，是想用超過 65 種程式語言提升程式設計能力的好方法。",
+        "breadcrumbs": {
+          "tracks": "軌道",
+          "exercises": "練習",
+          "community_solutions": "社群解答",
+          "your_solution": "你的解答",
+          "authors_solution": "%{author_handle} 的解答"
+        },
+        "solution_heading": {
+          "your_solution": "你的解答",
+          "authors_solution": "%{author_handle} 的解答",
+          "to": "對",
+          "in": "在"
+        },
+        "comments_button": {
+          "alt_text": "留言數量"
+        },
+        "mentoring": {
+          "mentored_by": "由導師引導",
+          "what_is_this": "這是什麼？"
+        },
+        "about_solution": {
+          "title": "關於這份解答",
+          "description": "我們會自動將相似的解答分組，並統計它們的熱門程度。",
+          "submissions": {
+            "other": "提交"
+          },
+          "first_submitted_ago": "%{time}前",
+          "first_submitted": "首次提交",
+          "reputation_alt_text": "聲望",
+          "max_track_rep": "軌道聲望上限"
+        },
+        "solution_approach": {
+          "title": "這份解答的思路",
+          "description": "在社群撰寫的深入解析中，探索這個思路的優缺點…",
+          "used_by": "已有 %{num_solutions} 人使用。"
+        },
+        "about_exercise": {
+          "title": "關於",
+          "exercise_label": "練習"
+        },
+        "other_solutions": {
+          "title": "其他解答：",
+          "in_label": "在",
+          "explore_link": "探索這個練習的其他解答"
+        }
+      },
+      "index": {
+        "meta_title": "Exercism 上 %{track_title} 中 %{exercise_title} 的社群解答",
+        "meta_description": "探索別人在 %{track_title} 中對 %{exercise_title} 的解答，看看其他人如何解決這個練習。"
+      }
+    },
+    "about": {
+      "concepts": {
+        "see_all_concepts": "查看 %{track_title} 的所有概念",
+        "title": "搶先一窺你將學到的概念"
+      },
+      "key_features": {
+        "title": "%{track_title} 的核心功能"
+      },
+      "upsell": {
+        "mentoring_section": {
+          "title": "以 %{track_title} 的方式獲得引導",
+          "paragraph_html": "每種語言都有自己做事的方式。%{track_title}\n也不例外。我們的導師會幫助你學會像\n%{track_title} 開發者那樣思考，以及如何寫出\n道地的 %{track_title} 程式碼。解完一個練習後，把它提交給我們的\n志工團隊，他們會給你提示、想法和回饋，告訴你\n怎麼寫得更像你在\n%{track_title} 中平常會看到的樣子。他們也會幫助你發現那些\n你不知道自己不知道的事。\n",
+          "learn_more": "進一步了解引導"
+        },
+        "exercises_section": {
+          "title": "由社群提供的 %{track_title} 練習",
+          "paragraph_html": {
+            "one_concept": "Exercism 上的 %{track_title} 學習軌道有 %{num_concepts} 個概念和 %{track_num_exercises} 個練習，幫助你寫出更好的程式碼。\n",
+            "many_concepts": "Exercism 上的 %{track_title} 學習軌道有 %{num_concepts} 個概念以及 %{track_num_exercises} 個練習，幫助你寫出更好的程式碼。\n",
+            "no_concepts": "Exercism 上的 %{track_title} 學習軌道有 %{track_num_exercises} 個練習，幫助你寫出更好的程式碼。\n"
+          },
+          "see_all_exercises": "查看所有 %{track_title} 練習"
+        },
+        "cta": {
+          "title": "開始使用 %{track_title} 學習軌道",
+          "description": "最棒的是，它對所有人 100% 免費。",
+          "join_button": "加入 %{track_title} 學習軌道"
+        }
+      },
+      "header": {
+        "title": "想學習並精通 %{track_title} 嗎？",
+        "subtitle_html": "加入 Exercism 的 %{track_title} 學習軌道，即可獲得\n<em class=\"c-underline\"><strong>%{num_exercises} 個練習</strong></em>\n%{concepts_clause}\n並享有程式碼自動分析\n以及\n<em class=\"c-underline\"><strong>個人導師引導</strong></em>，\n全部<em class=\"c-underline\"><strong>100% 免費</strong></em>。\n",
+        "concepts_part_course": "分成 %{num_concepts} 個 %{track_title} 概念，",
+        "join_track_button": "加入 %{track_title} 學習軌道",
+        "explore_concepts_button": "探索概念",
+        "explore_exercises_button": "探索練習",
+        "gobridge_platform_html": "⭐ <span class=\"text-gradient\">Exercism 是 GoBridge &amp; GDN 的官方導師平台。</span>\n",
+        "learn_more_link_text": "深入了解。"
+      },
+      "about_section": {
+        "title": "關於 %{track_title}",
+        "read_more_button_text": "閱讀更多關於 %{track_title} 的內容",
+        "read_less_button_text": "顯示較少"
+      },
+      "exercises_section": {
+        "title_html": "在 Exercism 上，%{track_title} 共有<em class=\"c-underline\">%{num_exercises} 個程式設計練習</em>。%{range_part}\n",
+        "range_part_present": " 從 %{first_exercise_title} 到 %{last_exercise_title}。",
+        "subtitle": "透過 Exercism 上有趣又有成就感的程式設計練習，測試你對各種概念的理解，讓你的程式設計能力更上一層樓。",
+        "all_exercises_link": "查看 Exercism 上所有 %{track_title} 練習"
+      }
+    },
+    "approaches": {
+      "show": {
+        "meta_title": "在 Exercism 上探索 %{track_title} 中 %{exercise_title} 的「%{approach_title}」解法",
+        "meta_description": "在 Exercism 上探索 %{track_title} 中 %{exercise_title} 的「%{approach_title}」解法。%{approach_blurb}",
+        "published_at": "發佈於",
+        "in_track_mobile": "在 %{track_title} 中",
+        "in_track_desktop": "在 %{track_title} 中",
+        "share_bar": {
+          "title_mobile": "覺得這個解法有幫助嗎？",
+          "subtitle_mobile": "分享給大家吧！",
+          "title_desktop": "覺得這個解法有趣或有幫助嗎？",
+          "subtitle_desktop": "分享出去，讓其他人也能受益吧！"
+        },
+        "useful_question": "覺得有幫助嗎？",
+        "other_approaches": {
+          "title": "%{track_title} 中 %{exercise_title} 的其他解法",
+          "subtitle": "我們社群解決這個練習的其他方式"
+        }
+      }
+    },
+    "articles": {
+      "show": {
+        "meta_title": "在 Exercism 上探索 %{track_title} 中 %{exercise_title} 的「%{article_title}」文章",
+        "meta_description": "在 Exercism 上探索 %{track_title} 中 %{exercise_title} 的「%{article_title}」文章。%{article_blurb}",
+        "in_track": "在 %{track_title} 中",
+        "share_bar": {
+          "short_question": "覺得這篇文章有幫助嗎？",
+          "short_action": "分享給大家吧！",
+          "long_question": "覺得這篇文章有趣或有幫助嗎？",
+          "long_action": "分享出去，讓其他人也能受益吧！"
+        },
+        "useful_question": "覺得有幫助嗎？",
+        "other_articles": {
+          "title": "%{exercise_title} 的其他文章",
+          "description": "探索更多關於這個練習的想法"
+        }
+      }
+    },
+    "index": {
+      "header": {
+        "title": "%{num_tracks} 種程式語言，等你精通",
+        "description_html": "完成這些由我們 %{contributors_link} 打造的學習軌道，讓你選擇的程式語言說得流利",
+        "contributors_link_text": "超棒的貢獻者團隊"
+      }
+    },
+    "exercise_header": {
+      "breadcrumbs": {
+        "tracks": "學習軌道",
+        "exercises": "練習"
+      },
+      "completed_heading": {
+        "text": "你完成了 %{exercise_title}。",
+        "discover_more_link": "探索更多練習"
+      },
+      "completed_icon_alt": "練習已完成",
+      "exercise_type_tag": {
+        "tutorial": "教學練習",
+        "learning": "學習練習"
+      },
+      "difficulty_tag": {
+        "easy": "簡單",
+        "medium": "中等",
+        "hard": "困難"
+      }
+    },
+    "header": {
+      "students": {
+        "other": "學生"
+      },
+      "contributors": {
+        "other": "%{count} 位貢獻者"
+      },
+      "mentors": {
+        "other": "%{count} 位導師"
+      }
+    }
+  },
+  "community": {
+    "interviews": {
+      "index": {
+        "language_creators": {
+          "title": "語言創作者訪談",
+          "description": "跟著 Jeremy 一起聽他與你喜愛的程式語言的創作者及維護者對談。"
+        },
+        "community_stories": {
+          "title": "社群故事",
+          "description": "跟著 Jonathan 一起與我們的社群聊聊，探索他們作為程式設計師的故事與歷程。"
+        },
+        "header": {
+          "title": "社群訪談與故事",
+          "description_p1": "在 Exercism，我們喜歡了解人們如何思考，以及這如何影響他們寫程式的方式。跟著 Jeremy 探索程式語言創作者的旅程，跟著 Jonathan 探索我們社群的旅程。如果你想在未來的影片中露面，",
+          "get_in_touch_link": "和我們聯絡"
+        },
+        "subscribe_card": {
+          "title": "訂閱看更多",
+          "description": "別錯過未來的節目。在 YouTube 和 Spotify 上訂閱。",
+          "community_stories_youtube": "社群故事（YouTube）",
+          "language_creator_youtube": "程式語言創作者訪談（YouTube）",
+          "podcast_spotify": "Podcast（Spotify）"
+        }
+      }
+    },
+    "show": {
+      "main_section": {
+        "title": "加入我們的社群吧！",
+        "description_one": "透過 Exercism 的社群加速你的學習。提出問題、探索想法，並認識數百萬位在 Exercism 上精進技能的其他開發者。",
+        "description_two": "加入我們的 Discord 進行社交聊天並獲得支援。在我們的論壇進行更深入的討論和回報 bug。",
+        "discord_button": "加入我們的 Discord 伺服器",
+        "forum_button": "探索我們的論壇",
+        "recent_forum_topics": "最近的論壇主題",
+        "latest_post_by": "最新貼文來自 %{poster_username}"
+      },
+      "community_stories": {
+        "title": "聽聽我們的社群故事",
+        "description": "聆聽那些參與建構、貢獻並從 Exercism 學習的人的故事。"
+      },
+      "help_us": {
+        "title": "幫助我們改變人生",
+        "description_one": "我們由社群驅動、由社群資助。我們仰賴像你這樣的人的捐款，才能夠存在與茁壯。",
+        "description_two": "只有 1% 的人選擇支持我們。希望你能成為其中之一。",
+        "button": "看看你能如何幫忙"
+      },
+      "contributors": {
+        "title": "貢獻者"
+      }
+    },
+    "stories": {
+      "show": {
+        "back_to_community": "返回社群",
+        "watch_on_youtube": "在 Youtube 上觀看",
+        "more_stories": {
+          "title": "更多來自我們社群的故事",
+          "description": "聆聽、學習，並從我們的社群成員身上獲得啟發。"
+        }
+      },
+      "index": {
+        "title": "聽聽我們社群的故事",
+        "description": "聆聽那些參與建構、貢獻並從 Exercism 學習的人的故事。"
+      }
+    },
+    "videos": {
+      "rhs": {
+        "live_event": {
+          "status": "正在直播"
+        },
+        "watch_on_one_html": "在 %{twitch_link} 上觀看",
+        "watch_on_both_html": "在 %{twitch_link} 或 %{youtube_link} 上觀看",
+        "featured_event": {
+          "status": "即將開始",
+          "live_at": "直播於",
+          "save_date": "記下這個日期！"
+        },
+        "scheduled_events": {
+          "title": "即將到來的直播時程",
+          "description_one": "這份時程會定期更新。所有活動都會在我們的",
+          "twitch_channel": "Twitch 頻道",
+          "description_two": "訂閱，別錯過！",
+          "description_three": "所有時間皆為 UTC。"
+        }
+      }
+    },
+    "brief_introductions": {
+      "index": {
+        "title": "簡介系列",
+        "description_one": "透過我們的「簡介」系列探索新的程式語言。跟著 Erik 一起了解一門語言的歷史與基礎，並用它解一道練習。",
+        "description_two": "看看右側他的最新影片，或瀏覽下方的完整系列。"
+      }
+    }
+  },
+  "components": {
+    "about_nav": {
+      "about_exercism": "關於 Exercism",
+      "our_impact": "我們的影響力",
+      "team": "團隊",
+      "supporters": "支持者",
+      "partners": "合作夥伴"
+    },
+    "nav_submenus": {
+      "learn": {
+        "journey": {
+          "description": "探索你的 Exercism 學習歷程",
+          "title": "你的學習歷程"
+        },
+        "favorites": {
+          "title": "你的收藏",
+          "description": "重溫你最喜歡的解法"
+        },
+        "tracks": {
+          "title": "語言學習路徑",
+          "description": "在 65 種以上的語言中精進技能"
+        },
+        "coding_fundamentals": {
+          "title": "用 Jiki 學習寫程式",
+          "description": "在 LLM 時代學習寫程式並打造作品。"
+        }
+      },
+      "discover": {
+        "perks": {
+          "title": "Exercism 專屬優惠",
+          "description": "來自合作夥伴的優惠與折扣"
+        },
+        "community_content": {
+          "title": "社群影片",
+          "description": "直播、導覽與更多內容"
+        },
+        "brief_introductions": {
+          "title": "簡介系列",
+          "description": "各種語言的簡短概覽"
+        },
+        "interviews": {
+          "title": "訪談與故事",
+          "description": "從他人的故事中獲得啟發"
+        },
+        "discord": {
+          "title": "Discord",
+          "description": "與社群聊天交流"
+        },
+        "forum": {
+          "title": "論壇",
+          "description": "深入探索各種主題"
+        }
+      },
+      "contribute": {
+        "getting_started": {
+          "title": "開始入門",
+          "description": "你可以如何幫助 Exercism"
+        },
+        "mentoring": {
+          "title": "引導",
+          "description": "在他人學習的過程中給予支持"
+        },
+        "docs": {
+          "title": "文件",
+          "description": "協助所需的一切資源"
+        },
+        "contributors": {
+          "title": "貢獻者",
+          "description": "認識 Exercism 背後的人"
+        },
+        "translators": {
+          "title": "翻譯者",
+          "description": "支援我們的在地化專案"
+        }
+      },
+      "more": {
+        "donate": {
+          "title": "捐款",
+          "description": "協助支持我們的使命"
+        },
+        "about": {
+          "title": "關於 Exercism",
+          "description": "認識我們的組織"
+        },
+        "impact": {
+          "title": "我們的影響力",
+          "description": "探索我們所達成的成果"
+        },
+        "github_syncer": {
+          "title": "GitHub Syncer",
+          "description": "將你的解法備份到 GitHub"
+        },
+        "insiders": {
+          "title": "Insiders",
+          "description": "我們表達感謝的方式"
+        }
+      },
+      "views": {
+        "mentoring_details": "引導詳情"
+      }
+    },
+    "perk": {
+      "logo_alt_text": "%{partner_name} 的標誌",
+      "learn_more_button": "瞭解更多"
+    },
+    "reputation": {
+      "aria_label": "%{reputation} 聲望",
+      "icon_alt": "聲望"
+    },
+    "handle_with_flair": {
+      "titles": {
+        "founder": "創辦人",
+        "staff": "團隊成員",
+        "insider": "Exercism Insider",
+        "lifetime_insider": "終身 Insider"
+      },
+      "icon_alt": "%{title} 的個人標記"
+    },
+    "impact": {
+      "chart": {
+        "milestones": {
+          "reached_1m_users": "使用者突破 100 萬！",
+          "exercism_v3": "Exercism v3",
+          "automated_feedback": "自動化回饋！",
+          "exercism_v2": "Exercism v2",
+          "exercism_launched": "Exercism 正式上線"
+        }
+      }
+    },
+    "language_switcher": {
+      "label": "選擇你的語言",
+      "coming_soon": "即將推出",
+      "coming_soon_badge": "即將"
+    },
+    "locale_banner": {
+      "pre": "這個頁面目前的語言是 %{current}。",
+      "link": "以 %{offered} 檢視",
+      "dismiss": "關閉"
+    },
+    "mentor": {
+      "header": {
+        "title": "引導",
+        "guides_link": "引導指南",
+        "locked_tab_aria_label": "這個分頁已鎖定",
+        "stats": {
+          "discussions_completed": "已完成 %{count} 場討論",
+          "satisfaction": "%{percentage}% 滿意度"
+        },
+        "tabs": {
+          "workspace": "你的工作區",
+          "queue": "佇列",
+          "testimonials": "學員評價",
+          "automation": "自動化"
+        }
+      }
+    },
+    "mentoring": {
+      "inbox": {
+        "sort_options": {
+          "recent_first": "依最新排序",
+          "oldest_first": "依最舊排序",
+          "exercise": "依練習排序",
+          "student": "依學員排序"
+        }
+      },
+      "queue": {
+        "sort_options": {
+          "oldest_first": "依最舊排序",
+          "recent_first": "依最新排序"
+        }
+      },
+      "representations": {
+        "sort_options": {
+          "highest_occurrence": "依出現次數排序",
+          "recent_first": "依最新排序",
+          "most_recent_feedback": "最新的回饋",
+          "least_recent_feedback": "最舊的回饋"
+        }
+      },
+      "try_mentoring_button": {
+        "default_text": "立即試著引導看看"
+      }
+    },
+    "nav_helpers": {
+      "nav_dropdown_helper": {
+        "new_badge": "新",
+        "external_link": "這個連結會在新視窗或分頁中開啟"
+      }
+    },
+    "footer": {
+      "shared": {
+        "site_links": {
+          "editions": {
+            "research_link": "Exercism Research",
+            "title": "版本",
+            "exercism_link": "Exercism",
+            "learn_to_code_link": "學習寫程式",
+            "with": "搭配",
+            "jiki_link": "Jiki",
+            "bootcamp_link": "Exercism Bootcamp",
+            "teams_link": "Exercism for Teams"
+          },
+          "about": {
+            "title": "關於",
+            "about_exercism_link": "關於 Exercism",
+            "our_team_link": "我們的團隊",
+            "contributors_link": "貢獻者",
+            "partners_link": "合作夥伴",
+            "individual_supporters_link": "個人支持者"
+          },
+          "get_involved": {
+            "title": "參與其中",
+            "exercism_insiders_link": "Exercism Insiders",
+            "contribute_link": "貢獻",
+            "mentor_link": "擔任導師",
+            "donate_link": "捐款"
+          },
+          "legal_and_policies": {
+            "title": "法律與政策",
+            "terms_of_usage_link": "使用條款",
+            "privacy_policy_link": "隱私權政策",
+            "cookie_policy_link": "Cookie 政策",
+            "code_of_conduct_link": "行為準則",
+            "accessibility_statement_link": "無障礙聲明"
+          },
+          "keep_in_touch": {
+            "title": "保持聯繫",
+            "blog_link": "Exercism 部落格",
+            "github_link": "在 GitHub 上討論",
+            "contact_us_link": "聯絡我們",
+            "report_abuse_link": "檢舉濫用"
+          },
+          "get_help": {
+            "title": "取得協助",
+            "docs_link": "Exercism 文件",
+            "getting_started_link": "新手入門",
+            "faqs_link": "常見問題",
+            "installing_cli_link": "安裝 CLI",
+            "cli_walkthrough_link": "互動式 CLI 導覽"
+          }
+        },
+        "tracks_section": {
+          "title": "我們的程式語言學習軌",
+          "add_language_title": "想在 Exercism 上新增語言學習軌嗎？",
+          "add_language_description_html": "到<a href=\"%{forum_url}\">論壇</a>發起一個新主題，一起討論吧。\n"
+        },
+        "legals": {
+          "company_info_html": "Exercism 是一個%{company_link_open}在英國註冊%{company_link_close}的非營利組織。其受託人為 %{katrina_owen_link}、%{jeremy_walker_link} 和 %{erik_schierboom_link}。"
+        },
+        "nfp_section": {
+          "title": "幫助我們讓 Exercism 永遠免費，讓所有人都能使用。",
+          "subtitle": "Exercism 是開放原始碼，而且 100% 免費。",
+          "description": "幫助我們為來自各種背景的人提供機會，透過程式練習與引導，協助他們發展程式設計技能。"
+        }
+      },
+      "external": {
+        "title": "適合所有人的程式碼練習與引導",
+        "description": "透過我們獨特的學習、練習與引導組合，在 %{num_active_tracks} 種程式語言中培養流暢度。Exercism 有趣、有效，而且 100% 免費，永久免費。",
+        "signup_button": "免費註冊",
+        "explore_languages_button": "探索程式語言"
+      }
+    },
+    "track": {
+      "exercise_header": {
+        "tabs": {
+          "community_solutions": "社群解法",
+          "code_review": "程式碼審查",
+          "overview": "總覽",
+          "your_iterations": "你的疊代",
+          "dig_deeper": "深入探索"
+        },
+        "locked_tab_aria_label": "這個分頁已鎖定"
+      },
+      "exercise_status_tag": {
+        "work_in_progress": "正在進行",
+        "available": "可使用",
+        "locked": "已鎖定",
+        "in_progress": "進行中",
+        "completed": "已完成",
+        "published": "已發布"
+      },
+      "header": {
+        "practice_mode": "練習模式",
+        "overview": "概觀",
+        "about": "關於 %{track_title}",
+        "learn": "學習",
+        "practice": "練習",
+        "build_status": "建置狀態"
+      },
+      "build": {
+        "health": {
+          "verb": {
+            "singular": "狀態",
+            "plural": "狀態"
+          },
+          "exemplar": "%{verb}典範 ✨",
+          "healthy": "%{verb}健康 ✅",
+          "needs_attention": "需要關注 ⚠️",
+          "missing": "%{verb}缺少 ❓"
+        }
+      }
+    },
+    "user_activities": {
+      "completed_exercise": {
+        "time_ago": "%{time_ago} 前"
+      },
+      "started_exercise": {
+        "time_ago": "%{time_ago} 前"
+      },
+      "submitted_iteration": {
+        "time_ago": "%{time_ago} 前"
+      }
+    },
+    "user_menu": {
+      "button_label": "開啟個人檔案選單的按鈕",
+      "profile_menu_icon": "個人檔案選單",
+      "avatar_alt": "你上傳的頭像",
+      "open_public_profile": "開啟公開個人檔案",
+      "items": {
+        "dashboard": "儀表板",
+        "tracks": "軌道",
+        "mentoring": "引導",
+        "community": "社群",
+        "insiders": "Insiders 💜",
+        "donate": "捐款",
+        "public_profile": "公開個人檔案",
+        "your_journey": "你的歷程",
+        "settings": "設定",
+        "maintaining": "維護",
+        "sign_out": "登出"
+      }
+    },
+    "advert": {
+      "tag_text": "優惠",
+      "cta_text": "領取你的折扣"
+    },
+    "blog_post": {
+      "new_label": "新",
+      "published_time": "%{time_ago}前",
+      "share_title": "分享這篇部落格文章"
+    },
+    "community": {
+      "stories": {
+        "video_length": {
+          "label": "長度",
+          "hours": {
+            "other": "小時"
+          },
+          "minutes": {
+            "other": "分鐘"
+          }
+        }
+      }
+    },
+    "community_solutions": {
+      "share_solution_button": {
+        "title": "分享 %{handle} 的解答",
+        "share_title": "在 Exercism 上查看這份解答"
+      }
+    },
+    "contributing": {
+      "header": {
+        "title": "讓我們一起打造最棒的程式設計教育平台吧",
+        "intro_before_link": "Exercism 是一個 ",
+        "intro_link": "開放原始碼的非營利專案",
+        "intro_after_link": " 由來自各種背景的人共同打造。我們有超過一百位盡心盡力的維護者，以及數千位貢獻者，目標是打造網路上最優質、免費的程式學習平台。",
+        "contributing_help": "貢獻說明",
+        "getting_started": "開始入門",
+        "explore_tasks": "探索任務",
+        "contributors": "貢獻者"
+      }
+    },
+    "docs_main_nav": {
+      "home": "文件首頁",
+      "using": "使用 Exercism",
+      "building": "打造 Exercism",
+      "mentoring": "引導",
+      "community": "社群",
+      "tracks": "特定 track"
+    },
+    "docs_track_list": {
+      "doc_count": {
+        "other": "%{count} 份文件"
+      }
+    },
+    "donate_with_crypto": {
+      "label": "用加密貨幣捐款"
+    },
+    "exercise": {
+      "unlock_on_complete_sentence": {
+        "with_concepts_html": "將 %{exercise_title} 標記為完成後，你就能解鎖 %{concepts}（%{concept_names}）和 %{exercises}。",
+        "without_concepts_html": "將 %{exercise_title} 標記為完成後，你就能解鎖 %{exercises}。",
+        "concept_count": {
+          "other": "%{count} 個概念"
+        },
+        "exercise_count": {
+          "other": "%{count} 個新練習"
+        }
+      }
+    },
+    "settings_nav": {
+      "account_settings": "帳號設定",
+      "api_cli": "API / CLI",
+      "integrations": "整合",
+      "github_syncer": "GitHub 同步器",
+      "preferences": "偏好設定",
+      "communication_preferences": "通訊偏好設定",
+      "donations": "捐款",
+      "insiders": "Insiders"
+    },
+    "site_header": {
+      "announcement_bar": {
+        "downtime": "伺服器升級：我們會在接下來 24 小時內進行基礎架構更新。",
+        "downtime_link_text": "閱讀更多……",
+        "coding_fundamentals": "想學寫程式嗎？來看看我們全新的初學者專屬平台 -",
+        "coding_fundamentals_link_text": "Jiki！",
+        "donation_ask": "喜歡 Exercism 嗎？我們需要你的幫助才能生存下去……",
+        "donation_ask_link_text": "如果可以，請捐款支持我們！"
+      },
+      "nav": {
+        "learn": "學習",
+        "discover": "探索",
+        "contribute": "貢獻",
+        "more": "更多",
+        "insiders": "Insiders"
+      },
+      "auth_buttons": {
+        "sign_up": "註冊",
+        "log_in": "登入"
+      },
+      "explore_menu": {
+        "button_label": "開啟導覽選單的按鈕",
+        "button_text": "探索",
+        "home": "首頁",
+        "language_tracks": "程式語言軌道",
+        "community": "社群",
+        "mentoring": "引導",
+        "insiders": "Insiders 💜",
+        "donate": "捐款"
+      },
+      "docs_search": {
+        "placeholder": "搜尋 Exercism 的文件……"
+      }
+    },
+    "student": {
+      "mentoring_session": {
+        "videos": {
+          "making_the_most_title": "如何充分利用導師引導"
+        }
+      }
+    }
+  },
+  "devise": {
+    "passwords": {
+      "edit": {
+        "change_my_password_button": "變更我的密碼",
+        "change_your_password": {
+          "title": "變更你的密碼",
+          "description": "使用下方的表單選擇你的新密碼。如果你沒有進行任何操作，你的密碼將維持不變。"
+        },
+        "new_password_label": "新密碼",
+        "new_password_placeholder": "輸入新密碼（至少 %{minimum_password_length} 個字元）",
+        "confirm_new_password_label": "確認新密碼",
+        "confirm_new_password_placeholder": "再次輸入你的新密碼"
+      },
+      "new": {
+        "forgot_your_password": {
+          "title": "忘記密碼了嗎？",
+          "description": "如果你忘記了密碼，請使用下方的表單申請變更密碼的連結。很多人以為自己忘記了密碼，其實當初是用 GitHub 登入的，你也可以試試看。"
+        },
+        "email_placeholder": "輸入你的電子郵件地址",
+        "send_instructions_button": "傳送說明"
+      },
+      "no_token": "你必須從密碼重設電子郵件進入，才能存取這個頁面。如果你是從密碼重設電子郵件進來的，請確認你使用了信中提供的完整網址。",
+      "send_instructions": "你會在幾分鐘內收到一封電子郵件，說明如何重設你的密碼。",
+      "send_paranoid_instructions": "如果你的電子郵件地址存在於我們的資料庫中，你會在幾分鐘內於該電子郵件地址收到密碼復原連結。",
+      "updated": "你的密碼已成功變更。你現在已登入。",
+      "updated_not_active": "你的密碼已成功變更。"
+    },
+    "registrations": {
+      "edit": {
+        "edit_resource": "編輯 %{resource_name}",
+        "pending_confirmation_message": "目前等待確認的電子郵件：%{unconfirmed_email}",
+        "password_hint": "（如果不想變更，請留空）",
+        "password_minimum_characters": {
+          "other": "最少 %{count} 個字元"
+        },
+        "current_password_hint": "（我們需要你目前的密碼來確認變更）",
+        "update_button": "更新",
+        "cancel_account_title": "取消我的帳號",
+        "unhappy_prompt": "不滿意嗎？",
+        "cancel_my_account_button": "取消我的帳號",
+        "cancel_account_confirm": "你確定嗎？",
+        "back_link": "返回"
+      },
+      "new": {
+        "exercism_logo_alt": "Exercism 的標誌",
+        "tagline": "適合所有人的程式碼練習與導師指導",
+        "sign_up_with_github": "使用 GitHub 註冊",
+        "or_divider": "或",
+        "username_label": "使用者名稱",
+        "username_placeholder": "選擇一個獨一無二的使用者名稱",
+        "email_label": "電子郵件",
+        "email_placeholder": "輸入你的電子郵件地址",
+        "password_label": "密碼",
+        "password_placeholder": "選擇密碼（至少 %{minimum_password_length} 個字元）",
+        "password_confirmation_label": "確認密碼",
+        "password_confirmation_placeholder": "確認你的密碼",
+        "confirm_not_bot_label": "確認你不是機器人",
+        "sign_up_button": "註冊"
+      },
+      "destroyed": "再見！你的帳號已成功取消。希望很快能再見到你喔。",
+      "signed_up": "歡迎！你已成功註冊。",
+      "signed_up_but_inactive": "你已成功註冊。不過，由於你的帳號尚未啟用，我們無法讓你登入。",
+      "signed_up_but_locked": "你已成功註冊。不過，由於你的帳號已被鎖定，我們無法讓你登入。",
+      "signed_up_but_unconfirmed": "內含確認連結的訊息已寄到你的電子郵件地址。請點擊連結以啟用你的帳號。",
+      "update_needs_confirmation": "你的帳號已成功更新，但我們需要驗證你的新電子郵件地址。請查看你的電子郵件，並點擊確認連結以確認你的新電子郵件地址。",
+      "updated": "你的帳號已成功更新。",
+      "updated_but_not_signed_in": "你的帳號已成功更新，但由於你的密碼已變更，你需要重新登入",
+      "captcha_verification_failed": "驗證碼驗證失敗。請再試一次。",
+      "csrf_failure": "你的工作階段已過期。請再試一次。"
+    },
+    "sessions": {
+      "new": {
+        "exercism_logo_alt": "Exercism 的標誌",
+        "tagline": "適合所有人的程式碼練習與導師指導",
+        "log_in_with_github": "使用 GitHub 登入",
+        "or_divider": "或",
+        "email_placeholder": "輸入你的電子郵件地址",
+        "password_placeholder": "輸入你的密碼",
+        "forgot_your_password_link": "忘記密碼了嗎？",
+        "log_in_button": "登入"
+      },
+      "signed_out": "已成功登出。",
+      "already_signed_out": "已成功登出。",
+      "invalid_hash": "你的帳號沒有密碼。請使用 OAuth。",
+      "csrf_failure": "你的登入工作階段已過期。請再試一次。",
+      "signed_in": "已成功登入。"
+    },
+    "shared": {
+      "information": {
+        "heading": "Exercism 對世界上所有人都是免費的",
+        "level_up_html": "透過 %{stats}，以及與我們熱心導師團隊的深入討論，提升你的程式設計能力。",
+        "level_up_stats": "%{exercise_count} 個練習，橫跨 %{track_count} 種程式語言",
+        "free_forever": "Exercism 永遠 100% 免費。",
+        "more_tracks": "還有 %{count} 個"
+      },
+      "links": {
+        "already_have_account_prompt": "已經有帳號了嗎？",
+        "log_in_link": "登入",
+        "no_account_yet_prompt": "還沒有帳號嗎？",
+        "sign_up_link": "免費註冊。",
+        "didnt_receive_confirmation_email_prompt": "沒收到確認電子郵件嗎？",
+        "resend_it_link": "重新寄送。",
+        "didnt_receive_unlock_instructions_link": "沒收到解鎖說明嗎？"
+      }
+    },
+    "unlocks": {
+      "send_instructions": "你會在幾分鐘內收到一封電子郵件，說明如何解鎖你的帳號。",
+      "send_paranoid_instructions": "如果你的帳號存在，你會在幾分鐘內收到一封電子郵件，說明如何解鎖它。",
+      "unlocked": "你的帳號已成功解鎖。請登入以繼續。",
+      "new": {
+        "resend_unlock_instructions": "重新寄送解鎖說明"
+      }
+    },
+    "confirmations": {
+      "confirmed": "你的電子郵件地址已成功確認。請在下方登入。",
+      "send_instructions": "你會在幾分鐘內收到一封電子郵件，說明如何確認你的電子郵件地址。",
+      "send_paranoid_instructions": "如果你的電子郵件地址存在於我們的資料庫中，你會在幾分鐘內收到一封電子郵件，說明如何確認你的電子郵件地址。",
+      "csrf_failure": "你的工作階段已過期。請再試一次。",
+      "new": {
+        "resend_confirmation_instructions_button": "重新寄送確認信",
+        "exercism_logo_alt": "Exercism 的標誌",
+        "resend_confirmation_instructions_title": "重新寄送確認信",
+        "resend_confirmation_instructions_message": "沒收到確認信嗎？填寫下方的表單，我們會再寄一封給你。",
+        "email_placeholder": "輸入你的電子郵件地址"
+      },
+      "required": {
+        "exercism_logo_alt": "Exercism 的標誌",
+        "welcome_check_email_title": "歡迎！請查看你的電子郵件。",
+        "welcome_message": "歡迎來到 Exercism。我們已寄出一封電子郵件給你，確認你是真人。",
+        "validation_explanation_message": "為了防止濫用，我們會驗證所有電子郵件地址是否有效。如果你現在查看信箱，應該已經收到了。如果沒看到，請檢查垃圾郵件，然後再等 10 分鐘，也許是系統處理得比較慢。",
+        "resend_link_message_html": "如果一直沒收到，%{resend_link}。",
+        "resend_it_link": "我們可以重新寄送"
+      }
+    },
+    "failure": {
+      "already_authenticated": "你已經登入了。",
+      "inactive": "你的帳號尚未啟用。",
+      "invalid": "%{authentication_keys} 或密碼無效。",
+      "locked": "你的帳號已被鎖定。",
+      "last_attempt": "你的帳號被鎖定前，還剩最後一次嘗試機會。",
+      "not_found_in_database": "%{authentication_keys} 或密碼無效。",
+      "timeout": "你的工作階段已過期。請重新登入以繼續。",
+      "unauthenticated": "你必須先登入或註冊才能繼續。",
+      "unconfirmed": "你必須先確認電子郵件地址才能繼續。"
+    },
+    "omniauth_callbacks": {
+      "failure": "抱歉，我們無法透過 %{kind} 驗證你的身分。",
+      "success": "已成功透過 %{kind} 帳號驗證身分。"
+    },
+    "mailer": {
+      "unlock_instructions": {
+        "subject": "解鎖說明",
+        "greeting": "你好 %{email}！",
+        "locked_account_message": "由於失敗的登入嘗試次數過多，你的帳號已被鎖定。",
+        "unlock_link_prompt": "點擊下方連結來解鎖你的帳號：",
+        "unlock_my_account_link": "解鎖我的帳號",
+        "body_markdown": "你好 %{email}！\n\n由於失敗的登入嘗試次數過多，你的帳號已被鎖定。\n\n點擊下方連結來解鎖你的帳號：\n\n[解鎖我的帳號](%{unlock_url})\n"
+      },
+      "reset_password_instructions": {
+        "title": "重設你的 Exercism 密碼",
+        "subject": "重設密碼要求",
+        "greeting": "你好，",
+        "password_reset_request_message": "有人要求取得變更密碼的連結。你可以透過下方的連結來完成。",
+        "change_my_password_button": "變更我的密碼",
+        "ignore_email_message": "如果這不是你要求的，請忽略這封電子郵件。",
+        "password_unchanged_message": "在你點擊上方連結並建立新密碼之前，你的密碼不會變更。",
+        "body_markdown": "你好，\n\n有人要求取得變更密碼的連結。你可以透過下方的連結來完成。\n\n[變更我的密碼](%{edit_password_url})\n\n如果這不是你要求的，請忽略這封電子郵件。\n\n在你點擊上方連結並建立新密碼之前，你的密碼不會變更。\n"
+      },
+      "password_change": {
+        "title": "你的密碼已變更",
+        "subject": "你的密碼已變更",
+        "greeting": "嗨 @%{user_handle}，",
+        "password_changed_notification": "我們寄這封信是要通知你，你的密碼已變更。",
+        "contact_support_message": "如果這不是你做的，請立即寄信到 %{support_link} 與我們聯絡。",
+        "body_markdown": "嗨 @%{user_handle}，\n\n我們寄這封信是要通知你，你的密碼已變更。\n\n如果這不是你做的，請立即寄信到 [support@exercism.io](mailto:support@exercism.io) 與我們聯絡。\n"
+      },
+      "confirmation_instructions": {
+        "title": "確認你的新 Exercism 帳號",
+        "subject": "確認你的帳號",
+        "welcome_message": "歡迎使用 Exercism！",
+        "confirmation_message": "為了確認你是真人而非機器人，我們需要驗證這是一個真實的電子郵件地址。點擊下方的按鈕來確認你的帳號，並開始使用 Exercism。",
+        "confirm_account_button": "確認你的帳號",
+        "body_markdown": "歡迎使用 Exercism！\n\n為了確認你是真人而非機器人，我們需要驗證這是一個真實的電子郵件地址。\n點擊下方的按鈕來確認你的帳號，並開始使用 Exercism。\n\n[確認你的帳號](%{confirmation_url})\n"
+      },
+      "email_changed": {
+        "title": "你的電子郵件地址正在變更",
+        "subject": "你的電子郵件地址正在變更",
+        "greeting": "嗨 @%{user_handle}，",
+        "email_change_pending_notification": "我們寄這封信是要通知你，你的電子郵件正在變更為 %{unconfirmed_email}。你會收到一封寄到新地址的確認信，以完成這個流程。",
+        "email_change_pending_contact_support": "如果這個流程不是你發起的，請立即寄信到 %{support_link} 與我們聯絡。",
+        "email_changed_notification": "我們寄這封信是要通知你，你的電子郵件已變更為 %{email}。",
+        "body_markdown": "嗨 @%{user_handle}，\n\n%{unconfirmed_email}\n  我們寄這封信是要通知你，你的電子郵件正在變更為 %{resource_unconfirmed_email}。\n  你會收到一封寄到新地址的確認信，以完成這個流程。\n\n  如果這個流程不是你發起的，請立即寄信到 [support@exercism.io](mailto:support@exercism.io) 與我們聯絡。\n%{unconfirmed_email}\n  我們寄這封信是要通知你，你的電子郵件已變更為 %{resource_email}。\n"
+      }
+    }
+  },
+  "errors": {
+    "messages": {
+      "already_confirmed": "已經確認過了，請試著登入。",
+      "confirmation_period_expired": "必須在 %{period} 內完成確認，請重新申請一個",
+      "expired": "已過期，請重新申請一個",
+      "not_found": "找不到",
+      "not_locked": "未被鎖定",
+      "not_saved": {
+        "other": "有 %{count} 個錯誤，導致這個 %{resource} 無法儲存："
+      }
+    },
+    "error": {
+      "title": "發生錯誤",
+      "description": "發生了錯誤，很抱歉！",
+      "instructions": "請試著重新整理，如果還是不行，請等幾分鐘後再試一次。"
+    },
+    "not_found": {
+      "title": "找不到頁面",
+      "description": "看來我們找不到那個頁面。很抱歉！"
+    },
+    "too_many_requests": {
+      "title": "請求次數過多",
+      "description": "你在太短的時間內做了太多事情。",
+      "rate_limits": "Exercism 經常遭到機器人攻擊，所以我們設有速率限制來防止濫用。請等一分鐘後再試一次（注意：狂按重新整理會讓等待時間重新計算……）",
+      "forum_html": "如果你經常看到這個訊息，請%{link}告訴我們！",
+      "forum_link": "在論壇上"
+    }
+  },
+  "activerecord": {
+    "attributes": {
+      "doorkeeper/application": {
+        "name": "名稱",
+        "redirect_uri": "重新導向 URI"
+      }
+    },
+    "errors": {
+      "models": {
+        "doorkeeper/application": {
+          "attributes": {
+            "redirect_uri": {
+              "fragment_present": "不能包含片段。",
+              "invalid_uri": "必須是有效的 URI。",
+              "unspecified_scheme": "必須指定配置。",
+              "relative_uri": "必須是絕對 URI。",
+              "secured_uri": "必須是 HTTPS/SSL URI。",
+              "forbidden_uri": "被伺服器禁止。"
+            },
+            "scopes": {
+              "not_match_configured": "與伺服器上設定的範圍不符。"
+            }
+          }
+        }
+      }
+    }
+  },
+  "doorkeeper": {
+    "applications": {
+      "confirmations": {
+        "destroy": "你確定嗎？"
+      },
+      "buttons": {
+        "edit": "編輯",
+        "destroy": "刪除",
+        "submit": "送出",
+        "cancel": "取消",
+        "authorize": "授權"
+      },
+      "form": {
+        "error": "哎呀！請檢查表單是否有錯誤"
+      },
+      "help": {
+        "confidential": "此應用程式將用於用戶端金鑰可保持機密的情境。原生行動應用程式與單頁應用程式視為非機密。",
+        "redirect_uri": "每個 URI 一行",
+        "blank_redirect_uri": "如果你已將提供者設定為使用用戶端憑證、資源擁有者密碼憑證，或任何其他不需要重新導向 URI 的授權類型，請留空。",
+        "scopes": "請用空格分隔範圍。留空則使用預設範圍。"
+      },
+      "edit": {
+        "title": "編輯應用程式"
+      },
+      "index": {
+        "title": "你的應用程式",
+        "new": "新增應用程式",
+        "name": "名稱",
+        "callback_url": "回呼 URL",
+        "confidential": "機密？",
+        "actions": "操作",
+        "confidentiality": {
+          "yes": "是",
+          "no": "否"
+        }
+      },
+      "new": {
+        "title": "新增應用程式"
+      },
+      "show": {
+        "title": "應用程式：%{name}",
+        "application_id": "UID：",
+        "secret": "密鑰：",
+        "secret_hashed": "密鑰已雜湊",
+        "scopes": "範圍：",
+        "confidential": "機密：",
+        "callback_urls": "回呼網址：",
+        "actions": "操作",
+        "not_defined": "未定義"
+      }
+    },
+    "authorizations": {
+      "buttons": {
+        "authorize": "授權",
+        "deny": "拒絕"
+      },
+      "error": {
+        "title": "發生錯誤"
+      },
+      "new": {
+        "title": "需要授權",
+        "prompt": "要授權 %{client_name} 使用你的帳號嗎？",
+        "able_to": "這個應用程式將可以："
+      },
+      "show": {
+        "title": "授權碼："
+      },
+      "form_post": {
+        "title": "送出此表單"
+      }
+    },
+    "authorized_applications": {
+      "confirmations": {
+        "revoke": "你確定嗎？"
+      },
+      "buttons": {
+        "revoke": "撤銷"
+      },
+      "index": {
+        "title": "你已授權的應用程式",
+        "application": "應用程式",
+        "created_at": "建立時間",
+        "date_format": "%Y-%m-%d %H:%M:%S"
+      }
+    },
+    "pre_authorization": {
+      "status": "預先授權"
+    },
+    "errors": {
+      "messages": {
+        "invalid_request": {
+          "unknown": "這個請求缺少必填參數、包含不支援的參數值，或格式有誤。",
+          "missing_param": "缺少必填參數：%{value}。",
+          "request_not_authorized": "這個請求需要授權。用於授權請求的必填參數缺少或無效。",
+          "invalid_code_challenge": "必須提供 code challenge。"
+        },
+        "invalid_redirect_uri": "要求的重新導向 URI 格式有誤，或與用戶端的重新導向 URI 不符。",
+        "unauthorized_client": "用戶端未獲授權以此方法執行這個請求。",
+        "access_denied": "資源擁有者或授權伺服器拒絕了這個請求。",
+        "invalid_scope": "要求的範圍無效、未知或格式有誤。",
+        "invalid_code_challenge_method": {
+          "zero": "授權伺服器不支援 PKCE，因為沒有任何可接受的 code_challenge_method 值。",
+          "other": "code_challenge_method 必須是 %{challenge_methods} 其中之一。"
+        },
+        "server_error": "授權伺服器發生非預期的狀況，無法完成這個請求。",
+        "temporarily_unavailable": "由於伺服器暫時過載或維護中，授權伺服器目前無法處理這個請求。",
+        "credential_flow_not_configured": "由於未設定 Doorkeeper.configure.resource_owner_from_credentials，Resource Owner Password Credentials 流程失敗。",
+        "resource_owner_authenticator_not_configured": "由於未設定 Doorkeeper.configure.resource_owner_authenticator，尋找資源擁有者失敗。",
+        "admin_authenticator_not_configured": "由於未設定 Doorkeeper.configure.admin_authenticator，因此禁止存取管理面板。",
+        "unsupported_response_type": "授權伺服器不支援這種回應類型。",
+        "unsupported_response_mode": "授權伺服器不支援這種回應模式。",
+        "invalid_client": "用戶端驗證失敗，原因可能是未知的用戶端、未包含用戶端驗證，或是不支援的驗證方法。",
+        "invalid_grant": "提供的授權授予無效、已過期、已撤銷、與授權請求中使用的重新導向 URI 不符，或是發給其他用戶端。",
+        "unsupported_grant_type": "授權伺服器不支援這種授權授予類型。",
+        "invalid_token": {
+          "revoked": "存取權杖已撤銷",
+          "expired": "存取權杖已過期",
+          "unknown": "存取權杖無效"
+        },
+        "revoke": {
+          "unauthorized": "你無權撤銷這個權杖"
+        },
+        "forbidden_token": {
+          "missing_scope": "存取這項資源需要範圍「%{oauth_scopes}」。"
+        }
+      }
+    },
+    "flash": {
+      "applications": {
+        "create": {
+          "notice": "應用程式已建立。"
+        },
+        "destroy": {
+          "notice": "應用程式已刪除。"
+        },
+        "update": {
+          "notice": "應用程式已更新。"
+        }
+      },
+      "authorized_applications": {
+        "destroy": {
+          "notice": "應用程式已撤銷。"
+        }
+      }
+    },
+    "layouts": {
+      "admin": {
+        "title": "Doorkeeper",
+        "nav": {
+          "oauth2_provider": "OAuth2 提供者",
+          "applications": "應用程式",
+          "home": "首頁"
+        }
+      },
+      "application": {
+        "title": "需要 OAuth 授權"
+      }
+    }
+  },
+  "communication_preferences": {
+    "email_on_automated_feedback_added_notification": "當我的解決方案收到自動化回饋時，寄電子郵件通知我",
+    "email_on_nudge_notification": "寄電子郵件給我，提示如何充分利用 Exercism",
+    "email_about_fundraising_campaigns": "寄電子郵件給我，告知募款活動的資訊",
+    "email_about_events": "寄電子郵件給我，告知活動（例如 Functional February）或訪談的資訊。",
+    "receive_onboarding_emails": "寄電子郵件給我，提供如何充分利用 Exercism 的訣竅",
+    "email_about_insiders": "寄電子郵件給我，告知我的 Exercism Insiders 會員相關資訊",
+    "email_on_general_update_notification": "寄電子郵件給我，告知我帳號的其他非必要更新",
+    "email_on_acquired_badge_notification": "當我解鎖新徽章時，寄電子郵件通知我",
+    "email_on_acquired_trophy_notification": "當我解鎖新獎盃時，寄電子郵件通知我",
+    "receive_product_updates": "以電子郵件通知我 Exercism 的重大更新（頻率：每年 4 到 12 次）",
+    "email_on_new_discussion_post": "當導師對我的解答留言時，寄電子郵件通知我",
+    "email_on_solution_approved": "當導師核准我的解答時，寄電子郵件通知我",
+    "email_on_new_solution_comment_for_solution_user": "當有人對我已發表的解答留言時，寄電子郵件通知我",
+    "email_on_new_solution_comment_for_other_commenter": "當有人回覆我在已發表解答上的留言時，寄電子郵件通知我",
+    "email_on_new_discussion_post_for_mentor": "當學生在我引導的解答上留言時，寄電子郵件通知我",
+    "email_on_new_iteration_for_mentor": "當學生在我引導的解答張貼新的疊代時，寄電子郵件通知我",
+    "email_on_remind_mentor": "當我即將從某個解答逾時退出時，寄電子郵件通知我",
+    "email_on_mentor_heartbeat": "每週寄電子郵件給我導師摘要",
+    "email_on_mentor_started_discussion_notification": "當導師開始引導我的解答時，寄電子郵件通知我",
+    "email_on_mentor_finished_discussion_notification": "當導師完成我解答上的討論時，寄電子郵件通知我",
+    "email_on_mentor_replied_to_discussion_notification": "當導師回覆我解答上的討論時，寄電子郵件通知我",
+    "email_on_nudge_student_to_reply_in_discussion_notification": "當導師等待我回覆我解答上的討論時，寄電子郵件通知我",
+    "email_on_nudge_mentor_to_reply_in_discussion_notification": "當學生等待我回覆我解答上的討論時，寄電子郵件通知我",
+    "email_on_student_timed_out_discussion_notification": "當討論因學生未回覆而逾時，寄電子郵件通知我",
+    "email_on_mentor_timed_out_discussion_notification": "當討論因導師未回覆而逾時，寄電子郵件通知我",
+    "email_on_student_replied_to_discussion_notification": "當學生回覆我引導的討論時，寄電子郵件通知我",
+    "email_on_student_finished_discussion_notification": "當學生完成我引導的討論時，寄電子郵件通知我",
+    "email_on_student_added_iteration_notification": "當學生在我引導的解答中新增疊代時，寄電子郵件通知我"
+  },
+  "jiki": {
+    "scrolling_testimonials": {
+      "testimonials": {
+        "bootcamp_pure_gold": "「這個訓練營簡直是無價之寶。」",
+        "wonderful_learning_experience": "「美妙的學習體驗」",
+        "proper_hands_on_learning": "「扎實的實作學習」",
+        "knowledge_didnt_think_needed": "「你原本以為不需要的知識」",
+        "recommended": "「100% 推薦！」",
+        "so_glad_stumbled": "「很慶幸我偶然發現了這個」",
+        "great_way_learn": "「很棒的學習方式！」",
+        "fun_exercises_clear_explanations_cool_hats": "「有趣的練習、清楚的解說、酷炫的帽子」",
+        "exceptional_course_outstanding": "「出色的課程，真正卓越」",
+        "addictive_good_way": "「讓人上癮，而且是好的那種」",
+        "amazing_fun": "「超級好玩」",
+        "fantastic_community": "「很棒的社群」",
+        "zero_coding_experience_required": "「完全不需要任何程式設計經驗」",
+        "fun_inspiring": "「有趣又激勵人心」",
+        "changed_way_think": "「它改變了我對學習的看法」",
+        "rewarding_journey": "「一趟收穫滿滿的旅程」",
+        "insane_value": "「超值到不可思議」",
+        "opportunity_learn_master": "「向真正的大師學習的機會」",
+        "amazing_lovely_thing": "「這真的是一件美好又令人驚豔的事」",
+        "best_investment": "「今年我對自己最好的投資」",
+        "increased_confidence_motivation": "「它大幅提升了我的自信和動力」",
+        "supportive_community": "「社群非常支持人！」",
+        "even_prior_programmer_transformative": "「即使我本來就寫過程式，它還是帶來徹底的改變！」",
+        "challenge_fun": "「挑戰與樂趣的完美結合」",
+        "amazing_value": "「物超所值」",
+        "best_time_investment": "「這幾年來我最值得的時間投資」",
+        "incredibly_fun": "「超級好玩！」",
+        "transformative": "「這帶來了徹底的改變！」",
+        "will_learn_code": "「你*一定*會學會寫程式」",
+        "learning_as_should_be": "「學習，就該如此！」",
+        "best_course_done": "「我上過最棒的課程」",
+        "made_learning_joy": "「讓學習重新變得有趣」"
+      }
+    },
+    "testimonials": {
+      "heading": "我們的學生怎麼說？",
+      "subheading_html": "這些是我們 beta 使用者心得的部分節錄。%{link_to_read_more}",
+      "subheading_link": "在這裡閱讀完整內容！",
+      "primary_quote_text": "看到這門課程投入了多少心力、巧思，甚至愛，能在這裡當學生真是莫大的榮幸。每一個解說、每一道練習，都讓這門課程成為一件傑作。我非常享受。",
+      "primary_quote_description": "程式新手"
+    }
+  },
+  "journey": {
+    "hero": {
+      "privacy": {
+        "private": "私人",
+        "explanation": "除了你，沒有其他人看得到"
+      },
+      "title": "你的旅程",
+      "subtitle": "回顧你在 Exercism 上的時光",
+      "more_tracks": "+ 還有 %{count} 個"
+    }
+  },
+  "layouts": {
+    "mailer": {
+      "aria_label": "來自 Exercism 的電子郵件",
+      "sponsored_by_html": "這封電子郵件由 %{partner_name} 熱心贊助。%{mailer_text}",
+      "learn_more_link": "點這裡",
+      "learn_more_suffix": "了解更多。",
+      "received_because_html": "你會收到這封電子郵件，是因為你註冊了 %{exercism_link}。",
+      "exercism_link": "Exercism",
+      "you_can": "你可以",
+      "unsubscribe_link": "取消訂閱這封電子郵件",
+      "or": "或",
+      "change_notification_settings_link": "變更你的通知設定",
+      "sent_by": "由 Exercism 寄送：",
+      "address": "Unit G3; 81 Bournville Lane, United Kingdom",
+      "text_received_because": "你會收到這封電子郵件，是因為你註冊了 Exercism（%{exercism_url}）",
+      "text_unsubscribe_line": "取消訂閱這封電子郵件：%{unsubscribe_url}",
+      "text_change_notification_settings_line": "變更你的通知設定：%{settings_url}",
+      "text_sent_by": "由 Exercism 寄送：Unit G3; 81 Bournville Lane, United Kingdom"
+    },
+    "meta_tags": {
+      "rss_blog_title": "Exercism 的部落格"
+    },
+    "nav": {
+      "insiders": {
+        "title": "Exercism Insiders",
+        "tagline": "Exercism 需要你的幫助才能生存與茁壯！",
+        "description_html": "捐款給 Exercism，即可獲得幕後獨家內容，以及 %{strong_text_1}、%{strong_text_2}、%{strong_text_3}、%{strong_text_4} 等更多額外功能。",
+        "strong_text_1": "深色模式",
+        "strong_text_2": "ChatGPT 整合",
+        "strong_text_3": "額外的引導名額",
+        "strong_text_4": "專屬徽章",
+        "learn_more_button": "了解更多",
+        "non_profit_info": "Exercism 是註冊登記的非營利組織。所有捐款都用於營運與改善這個平台。"
+      },
+      "challenge_48in24": {
+        "title": "#48in24 挑戰",
+        "subtitle": "2024 年每週推出不同的程式設計挑戰，由我們精心規劃與引導！",
+        "description_p1": "每週一點一滴，精進你的程式設計能力。",
+        "description_p2": "加入我們的社群，每週一起探索不同的練習，深入了解如何用不同的程式語言與範式解決它。",
+        "explore_button": "探索 #48in24",
+        "feature_info": "我們每週都挑選一個不同的練習作為主題，並附上解題方法、逐步導覽、影片等豐富內容。"
+      },
+      "tracks": {
+        "your_recent_tracks": "你最近造訪的軌道",
+        "see_all_button": "查看全部",
+        "last_touched": "上次造訪 %{time_ago}"
+      },
+      "favorites": {
+        "heading": "你的收藏",
+        "intro": "收藏 Exercism 上你喜歡的解答，之後再回來向它們學習。",
+        "empty_state": "你還沒有新增任何收藏。開始探索社群解答，把你覺得有趣的解答加入收藏吧！",
+        "get_started_button": "開始使用",
+        "solution_title": "%{handle} 的解答",
+        "solution_subtitle": "%{track} 中的 %{exercise}",
+        "view_all_button": "查看全部"
+      },
+      "journey": {
+        "reputation_label": "聲譽",
+        "badges_label": "徽章",
+        "history_label": "歷史紀錄",
+        "and_more_label": "還有更多…"
+      },
+      "coding_fundamentals": {
+        "title": "Jiki",
+        "bubble": "全新登場！",
+        "subtitle": "在 LLM 時代學習寫程式與打造作品。",
+        "description_p1_html": "寫程式這件事已經改變了，你的學習方式也得跟著改變。Jiki 是全新的平台，幫助你在 LLM 時代學會寫程式並打造作品。專為<strong>初學者、初階開發者和 vibe coder 打造。</strong>",
+        "strong_text_1": "完全是新手？",
+        "strong_text_2": "卡在教學地獄？",
+        "explore_button": "馬上開始，完全免費！"
+      }
+    }
+  },
+  "docs": {
+    "index": {
+      "meta_title": "Exercism 的文件",
+      "meta_description": "我們的文件說明如何使用 Exercism、如何為它做出貢獻。你在 Exercism 遇到的各種問題，都能在這裡找到解答。",
+      "welcome_heading": "歡迎來到 Exercism 的文件 👋",
+      "welcome_subtitle": "了解使用 Exercism 與為它做出貢獻所需知道的一切。",
+      "using_exercism": {
+        "heading": "使用 Exercism",
+        "paragraph_html": "了解如何充分利用你在 Exercism 的時光。在這裡找到所有問題的解答、了解如何充分發揮引導的價值，並發掘如何成為一位優秀的 Exercism 公民。",
+        "get_started_button": "開始使用"
+      },
+      "building_exercism": {
+        "heading": "打造 Exercism",
+        "paragraph": "我們完整的 Exercism 建置文件。了解為 track 做出貢獻所需知道的一切，包括指南、規格與說明。",
+        "learn_more_link": "了解更多"
+      },
+      "mentoring": {
+        "heading": "引導",
+        "paragraph": "理解並精通 Exercism 的引導藝術。我們的文件會說明如何開始你的第一次引導、如何給出優質的回饋，以及如何使用引導介面。",
+        "learn_more_link": "了解更多"
+      },
+      "community": {
+        "heading": "社群",
+        "paragraph": "了解我們的社群如何運作、人們扮演哪些不同的角色，以及你可以如何加入。學習如何成為一位正向的貢獻者與優秀的社群成員。",
+        "learn_more_link": "了解更多"
+      },
+      "track_specific_docs_heading": "當然，還有各 track 專屬的文件"
+    },
+    "show": {
+      "meta_title": "%{doc_title} | Exercism 的文件"
+    },
+    "track_index": {
+      "meta_title": "Exercism 的 %{track_title} track 文件",
+      "meta_description": "在 Exercism 上使用 %{track_title} 所需知道的一切。",
+      "track_title": "%{track_title} 文件",
+      "track_subtitle": "在 Exercism 上使用 %{track_title} 所需知道的一切。",
+      "explore_docs_paragraph": "探索我們的 %{track_title} 文件，了解如何在 Exercism 充分體驗 %{track_title}，從安裝 %{track_title}、執行測試、學習這門語言，到實用的資源，應有盡有。"
+    },
+    "tracks": {
+      "meta_title": "Exercism 的 track 文件",
+      "meta_description": "各 track 專屬的文件，說明如何搭配 Exercism 使用該程式語言",
+      "heading": "各 track 專屬的文件",
+      "subtitle": "探索你正在學習、引導或協助建置的 track 文件。"
+    }
+  },
+  "donations": {
+    "alternatives": {
+      "heading": "想找其他的付款服務商嗎？",
+      "text_html": "我們目前支援 Paypal 和 GitHub Sponsors 作為其他的付款服務商。如果你覺得還有其他我們應該加入的服務商，請聯絡 <a href=\"%{jeremy_url}\">Jeremy</a>。\n",
+      "jeremy": "Jeremy",
+      "paypal_button": "用 Paypal 捐款",
+      "github_sponsors_button": "透過 GitHub Sponsors 捐款"
+    },
+    "donated": {
+      "title": "捐款成功",
+      "thank_you_message_html": "非常感謝你支持我們的工作！你的捐款將幫助我們持續改進 Exercism，並讓它對所有人保持免費。",
+      "insiders_eligibility_html": "如果你的捐款超過 $9.99，即符合 %{link_to_insiders} 的資格。",
+      "exercism_insiders": "Exercism Insiders",
+      "go_to_dashboard": "前往你的儀表板"
+    },
+    "index": {
+      "header": {
+        "strong_text": "支持我們的目標：",
+        "heading": "讓每個人都有平等的機會學習並精通程式設計。✨",
+        "paragraph_html": "如果你和我們一樣，希望讓世界變得更美好、更公平，請支持我們。<br><span class=\"font-medium\">你可以在我們的 %{mission_link}、%{impact_link} 和 %{team_link} 中了解更多。</span>",
+        "mission": "使命",
+        "impact": "影響",
+        "team": "團隊"
+      },
+      "progress_bar": {
+        "monthly_donations": "每月捐款：",
+        "sustainable_at": "永續經營門檻：",
+        "target_amount": "$25,000"
+      },
+      "logged_out_form": {
+        "heading": "請登入以使用金融卡或信用卡捐款。",
+        "paragraph_html": "由於機器人持續不斷的攻擊，我們現在要求所有人在使用金融卡或信用卡捐款前，都必須先 %{login_link} 或 %{signup_link}。你仍然可以使用下方的其他捐款方式。造成不便，敬請見諒！",
+        "log_in": "登入",
+        "sign_up": "註冊"
+      },
+      "info_section": {
+        "heading_one": "關於捐款，你需要知道的一切",
+        "paragraph_one": "我們為什麼需要捐款？經營 Exercism 需要多少成本？我們如何使用捐款？觀看 Jeremy 的說明影片 👇",
+        "heading_two": "以下是你能為我們提供的支持。",
+        "donate_card": {
+          "title": "捐款",
+          "description_right_html": "使用右側的捐款框，從財務上支持我們。 %{tail}\n",
+          "description_above_html": "使用上方的捐款框，從財務上支持我們。 %{tail}\n",
+          "tail_html": "每一塊錢都能幫助我們維持獨立、無廣告並持續成長，所以如果可以，請支持我們！💜\n"
+        },
+        "company_card": {
+          "title": "讓你的公司一起參與",
+          "description_html": "你的公司是否支持非營利組織或慈善機構？你們公司有相對捐贈方案嗎？我們很樂意與你聊聊，了解你的公司可以如何支持我們。請寄電子郵件到 %{email_link}，我們會進一步討論！",
+          "email_address": "fundraising@exercism.org"
+        },
+        "social_card": {
+          "title": "喜歡 Exercism 嗎？向其他人介紹我們吧！",
+          "description_html": "在 %{twitter_link}、%{github_link} 和 %{linkedin_link} 上追蹤我們，分享我們的貼文，也創作你自己的內容！我們會盡量分享看到的一切 🙂"
+        }
+      }
+    }
+  },
+  "cohorts": {
+    "show": {
+      "gohort": {
+        "free_access": "100% 免費",
+        "start_date_july": "7 月 1 日開始，為期 30 天。",
+        "own_time": "按照自己的步調完成軌道",
+        "pair_or_individual": "和夥伴配對合作，或獨自完成",
+        "commit_sharing": "承諾分享你的旅程，並支持其他人",
+        "notes_programming_experience": "注意：需要一些程式設計經驗（只要你能用任何語言寫出「Hello World」，就夠了）。",
+        "sign_up_below": "在下方報名吧！",
+        "gain_fluency": "流暢掌握 Go",
+        "taste_of_what_youll_learn": "搶先看看你會學到什麼！",
+        "track_description": "Exercism 上的 Go 軌道有 %{num_concepts} 個概念要學，還有 %{num_exercises} 道程式練習等你完成。這是認識 Go 特有概念與工作方式的好方法。",
+        "mentoring_benefit": "更棒的是，你還可以獲得資深 Go 開發者的引導，找出自己的知識盲點，並深入理解這門語言。",
+        "explore_track": "探索 Go 軌道",
+        "intro_cohort": "為你介紹 %{cohort_name}",
+        "gohort_intro_large": "當 100 位認真的學習者互相鼓勵、互相扶持，一起走在學習旅程上，會發生什麼事呢？我們發明了 %{cohort_name} 來找出答案！（也就是「Go cohort」，看出我們的巧思了嗎？😉）",
+        "tell_me_more": "我想了解更多！",
+        "what_is_gohort": "%{cohort_name} 是什麼？",
+        "gohort_description_large": "%{cohort_name} 很簡單。我們會給你和其他 99 位學習者一個一起學習的空間，加入我們最優秀的導師和 Exercism 專家，並在你們用 30 天的時間一起完成 Exercism Go 課程大綱的過程中一路支持你們。"
+      },
+      "exhort_aug_22": {
+        "intro_cohort": "為你介紹 %{cohort_name}",
+        "exhort_intro": "當幾位認真的學習者在學習旅程中互相鼓勵、彼此幫助，會發生什麼事呢？我們發明了 Exhort 來找出答案！（「Elixir cohort」，看出我們的巧思了嗎？😉）",
+        "tell_me_more": "我想了解更多！",
+        "what_is_exhort": "Exhort 是什麼？",
+        "exhort_description": "Exhort 很簡單。我們會給你和一群學習者一個一起學習的空間，加入我們最優秀的導師和 Exercism 專家，並在你們一起用 30 天完成 Exercism Elixir 課程大綱的過程中支持你們。",
+        "free_access": "100% 免費",
+        "start_date": "8 月 8 日開始，為期 30 天。",
+        "own_time": "按照自己的步調完成軌道",
+        "pair_or_individual": "和夥伴配對合作，或獨自完成",
+        "commit_sharing": "承諾分享你的旅程，並支持其他人",
+        "notes_programming_experience": "注意：需要一些程式設計經驗（只要你能用任何語言寫出「Hello World」，就夠了）。",
+        "sign_up_below": "在下方報名吧！",
+        "gain_fluency_elixir": "流暢掌握 Elixir",
+        "taste_of_what_youll_learn": "搶先看看你會學到什麼！",
+        "elixir_track_description": "Exercism 上的 Elixir 軌道有 %{num_concepts} 個概念要學，還有 %{num_exercises} 道程式練習等你完成。這是認識 Elixir 特有概念與工作方式的好方法。",
+        "mentoring_benefit_elixir": "更棒的是，你還可以獲得資深 Elixir 開發者的引導，找出自己的知識盲點，並深入理解這門語言。",
+        "explore_elixir_track": "探索 Elixir 軌道"
+      },
+      "closed_for_applications": "這個梯次已經開始，報名已經截止。",
+      "gohort_aug_22": {
+        "intro_cohort": "為你介紹 %{cohort_name}",
+        "gohort_intro": "當幾位認真的學習者互相鼓勵、互相扶持，一起走在學習旅程上，會發生什麼事呢？我們發明了 Gohort 來找出答案！（也就是「Go cohort」，看出我們的巧思了嗎？😉）",
+        "tell_me_more": "我想了解更多！",
+        "what_is_gohort": "Gohort 是什麼？",
+        "gohort_description": "Gohort 很簡單。我們會給你和其他一群學習者一個一起學習的空間，加入我們最優秀的導師和 Exercism 專家，並在你們用 30 天的時間一起完成 Exercism Go 課程大綱的過程中一路支持你們。",
+        "free_access": "100% 免費",
+        "start_date": "8 月 8 日開始，為期 30 天。",
+        "own_time": "依照自己的步調完成學習路徑",
+        "pair_or_individual": "可以兩兩結伴，也可以獨自學習",
+        "commit_sharing": "承諾分享你的學習旅程，並支持其他人",
+        "notes_programming_experience": "注意：需要一些程式設計經驗（只要你能用任何語言寫出「Hello World」，就夠了）。",
+        "sign_up_below": "在下方報名吧！",
+        "gain_fluency": "精通 Go",
+        "taste_of_what_youll_learn": "先來看看你會學到什麼吧！",
+        "track_description": "Exercism 的 Go 學習路徑有 %{num_concepts} 個概念要學，還有 %{num_exercises} 道程式練習等著你完成。這是學習 Go 特有概念和工作方式的好方法。",
+        "mentoring_benefit": "更棒的是，你還可以接受資深 Go 開發者的引導，找出自己的知識盲點，並深入理解這門語言。",
+        "explore_track": "探索 Go 學習路徑"
+      },
+      "form": {
+        "get_registered": "立即報名！",
+        "sign_up_to_cohort": "報名參加 %{cohort_name}",
+        "login_or_signup_message": "如要報名 %{cohort_name}，請先登入或註冊 Exercism，然後再回到這個頁面。",
+        "signup_button": "免費註冊",
+        "login_button": "登入",
+        "you_are_all_set": "一切就緒！",
+        "enrolled_message": "恭喜，一切就緒！我們的團隊成員很快就會寄電子郵件給你，歡迎你加入 %{cohort_name}，並告訴你該怎麼開始！",
+        "you_are_on_waiting_list": "你目前在候補名單中",
+        "waiting_list_message": "很抱歉，%{cohort_name} 在你來之前就額滿了！你目前在候補名單上的第 %{position} 位。如果有名額空出來，我們會通知你。否則，我們會在今年稍晚跟你分享下一個 %{cohort_name} 的消息。",
+        "registration_easy": "報名 %{cohort_name} 很簡單，只要填寫下方的表單即可。",
+        "introduce_yourself_label": "自我介紹",
+        "introduction_placeholder": "跟你的社群團隊簡單介紹一下你自己，以及你希望從參與 %{cohort_name} 中獲得什麼。",
+        "commit_to_participating": "我承諾會積極參與 %{cohort_name}。",
+        "register_button": "報名"
+      }
+    }
+  },
+  "settings": {
+    "donations": {
+      "payments_table": {
+        "date_header": "日期",
+        "amount_header": "捐款金額",
+        "type_header": "類型",
+        "via_header": "透過",
+        "recurring_donation": "定期捐款",
+        "one_time_donation": "單筆捐款",
+        "view_receipt_button": "查看收據"
+      },
+      "no_donations": {
+        "heading": "你的捐款會顯示在這裡",
+        "info_1": "捐款之後，你就能在這裡看到所有捐款的紀錄。",
+        "info_2_html": "如果你曾捐款給 Exercism，卻沒有在這裡看到你的捐款，或是尚未獲得支持者徽章，請寄電子郵件給<a href=\"%{email_url}\">Jeremy</a>，他會幫你處理。\n"
+      },
+      "heading": "捐款",
+      "monthly_supporter": {
+        "heading": "成為 Exercism 的每月支持者",
+        "info_html": "Exercism 是一個非營利組織，依靠社群捐款來成長。支持%{mission_link}，幫助每個人提升程式設計能力。",
+        "mission_link_text": "我們的使命",
+        "find_out_more_button": "了解更多"
+      },
+      "summary": {
+        "total_donated": "捐款總額",
+        "from_recurring": "來自定期定額",
+        "from_one_time": "來自單次捐款"
+      }
+    },
+    "github_syncer": {
+      "show": {
+        "github_syncer": {
+          "heading": "GitHub 同步器"
+        }
+      }
+    },
+    "insiders": {
+      "insiders": {
+        "heading": "Insiders"
+      }
+    },
+    "integrations": {
+      "heading": "整合",
+      "github": {
+        "heading": "GitHub",
+        "reputation_link_text": "聲譽",
+        "external_link_aria_label": "（會在新分頁中開啟）",
+        "linked_info_html": "你的 Exercism 和 GitHub 帳號已經連結。任何在 GitHub 上被合併的 pull request，都應該會在你的 Exercism 帳號上為你贏得%{reputation_link}。",
+        "unlinked_info_html": "如果想在 GitHub 提交 pull request 時，在 Exercism 上獲得%{reputation_link}，請使用下方的按鈕連結你的帳號。",
+        "connect_button": "連結 GitHub"
+      },
+      "discord": {
+        "heading": "Discord",
+        "forum_link_text": "論壇",
+        "linked_info_html": "你的 Exercism 和 Discord 帳號已經連結。你應該會在 Discord 上取得正確的身分組。如果沒有的話，請在%{forum_link}上提出問題。",
+        "disconnect_button": "中斷與 Discord 的連結",
+        "unlinked_info": "若要取得 Discord 上正確的身分組，請連結你的 Exercism 和 Discord 帳號。",
+        "connect_button": "連結 Discord"
+      }
+    },
+    "show": {
+      "account_settings": {
+        "heading": "帳號設定",
+        "confirmation_email_sent": "我們已將確認電子郵件寄至 %{email}",
+        "resend_email_button": "重新寄送電子郵件",
+        "reset_account": {
+          "heading": "重設帳號",
+          "info_html": "重設帳號會<strong>重設你在所有軌道上的進度，</strong>重設所有練習，並移除你先前所有引導的存取權。"
+        },
+        "delete_account": {
+          "heading": "刪除帳號",
+          "info_strong": "這個選項會徹底刪除你的帳號與所有資料。",
+          "info_text": "你將有機會確認自己的選擇。"
+        }
+      }
+    },
+    "user_preferences": {
+      "general_preferences": {
+        "heading": "一般偏好設定"
+      }
+    },
+    "api_cli": {
+      "api_cli_settings": {
+        "heading": "API 與 CLI 設定"
+      }
+    },
+    "communication_preferences": {
+      "communication_preferences": {
+        "heading": "通訊偏好設定"
+      }
+    }
+  },
+  "temp": {
+    "modals": {
+      "badge": {
+        "new_badge_earned": "獲得新徽章",
+        "badge_name": "2020 Winter Markathon",
+        "badge_rarity": "終極",
+        "badge_reason": "因參與 2020 Winter Markathon 而獲得",
+        "badge_earned_at": "於 %{date} 獲得"
+      },
+      "donation_confirmation": {
+        "thank_you_title_html": "你已成功捐款 %{amount}，謝謝你 💙",
+        "thank_you_message": "我們由衷感謝你的支持。沒有像你這樣優秀的貢獻者，就沒有今天的 Exercism。我們很快就會寄一封電子郵件給你，內含捐款確認與收據。",
+        "badge_earned_html": "你獲得了<strong>Supporter</strong>徽章！",
+        "done_button": "很樂意幫忙！我在這裡完成了 👍"
+      },
+      "completed_mentoring_1": {
+        "thank_you_title_html": "謝謝你留下評價 💙",
+        "testimonial_message_html": "<strong>你讓 iHiD 的一天變得更美好。</strong> 記得和其他人分享你在 Exercism 上的經驗。",
+        "back_to_discussion_button": "回到討論"
+      }
+    },
+    "user_deletions": {
+      "show": {
+        "account_deleted": "帳號已刪除"
+      }
+    },
+    "user_resets": {
+      "show": {
+        "account_reset": "帳號已重設"
+      }
+    },
+    "user_tracks": {
+      "reset": {
+        "track_reset_message": "學習軌道已重設"
+      },
+      "leave": {
+        "track_left_message": "你已離開該學習軌道"
+      },
+      "practice_mode": {
+        "practice_mode_message": "練習模式中"
+      }
+    }
+  },
+  "contributing": {
+    "contributors": {
+      "index": {
+        "featured_contributor": {
+          "title": "精選貢獻者"
+        },
+        "new_contributor": {
+          "new_label": "新",
+          "title": "新貢獻者"
+        }
+      }
+    },
+    "dashboard": {
+      "show": {
+        "methods_section": {
+          "header": {
+            "title": "你可以如何協助我們打造 Exercism"
+          },
+          "method": {
+            "proofread_and_update": {
+              "title": "校對與更新",
+              "tag": "初學者",
+              "description": "從來沒參與過開源專案嗎？試試看吧。我們會協助你送出第一個 pull request。"
+            },
+            "improve_content": {
+              "title": "改善概念或練習",
+              "tag": "中階",
+              "description": "修正 bug，並改善 Exercism 上各種概念與練習，幫助學生獲得順暢且零錯誤的體驗。"
+            },
+            "create_new_content": {
+              "title": "建立新的練習或概念",
+              "tag": "進階",
+              "description": "依照軌道的路線圖打造新的練習或概念。製作數百萬人會使用的互動內容，享受其中的樂趣。"
+            },
+            "develop_test_runner": {
+              "title": "開發測試執行器",
+              "tag": "專案",
+              "description": "測試執行器是我們線上編輯器的動力來源。所有軌道都有基本的測試執行器，但許多軌道還需要加入更進階的功能與特性。"
+            },
+            "develop_analyzer": {
+              "title": "開發分析器",
+              "tag": "專案",
+              "description": "分析器透過 AST 分析，為學生提供自動化回饋。這些軟體既複雜又非常有趣，很值得動手開發。"
+            },
+            "develop_representer": {
+              "title": "開發呈現器",
+              "tag": "專案",
+              "description": "呈現器能幫助我們找出相同的解法，讓我們可以重複使用回饋。它比分析器簡單，但思考起來很有趣。"
+            }
+          }
+        }
+      },
+      "tasks_section": {
+        "issues_needed_help": {
+          "other": "%{count} 個問題需要協助"
+        },
+        "tracks_list": {
+          "more_tracks": "+ 還有 %{count} 個",
+          "needs_help": "需要協助"
+        },
+        "explore_issues": {
+          "other": "探索 %{count} 個問題"
+        }
+      }
+    }
+  },
+  "dashboard": {
+    "48in24": {
+      "week_of_challenge": "#48in24 第 %{week} 週",
+      "featuring_exercise": "我們特別推薦 %{exercise_title}",
+      "watch_deep_dive": "👇 快來看我們與 Erik & Jeremy 的 Deep Dive！",
+      "explore_all_link": "探索 #48in24 的全部內容"
+    },
+    "mentoring_completed": {
+      "title": "沒有未處理的引導討論了",
+      "description": "看起來你的工作區和佇列都清空了。太棒了！"
+    },
+    "mentoring_inbox": {
+      "title": "引導",
+      "discussion_aria_label": "檢視 %{student_handle} 的個人檔案",
+      "exercise_on": "在 %{exercise_title} 上",
+      "time_ago": "%{time_ago}前",
+      "see_all_mentoring_link": "查看所有你正在引導的學生"
+    },
+    "mentoring_queue": {
+      "title": "你的工作區已清空。",
+      "description": "你有時間開始引導更多學生嗎？",
+      "link": "查看引導佇列"
+    },
+    "mentoring_zero": {
+      "title": "成為導師",
+      "description": "引導是強化自己學習的好方法，也能幫助學生學習並探索自己不了解的事物。",
+      "try_mentoring_now_link": "馬上試試引導",
+      "learn_more_link": "了解更多"
+    },
+    "tracks_section": {
+      "title": "你的軌道",
+      "track_count_aria_label": {
+        "other": "%{count} 個軌道"
+      },
+      "exercises_completed": "已完成 %{completed} / %{total} 個練習",
+      "view_all_tracks_link": "查看你所有的學習軌道",
+      "discover_more_tracks_link": "探索更多學習軌道"
+    },
+    "tracks_zero_section": {
+      "title": "你還沒加入任何學習軌道。",
+      "description_part_1": "從超過",
+      "description_part_2": "%{num_tracks} 種程式語言學習軌道，",
+      "description_part_3": "從日常實用到稀奇古怪都有，現在就開始你的程式練習吧。",
+      "browse_tracks_link": "瀏覽 %{num_tracks} 種程式語言學習軌道"
+    },
+    "show": {
+      "summary_bar": {
+        "badges": {
+          "more": "+ %{count} 個"
+        },
+        "journey_link": "在 Exercism 上查看你的學習歷程"
+      },
+      "header_intro": {
+        "welcome": "歡迎回來，%{user_handle}！",
+        "welcome_message": "解程式練習題並接受導師引導，在你選擇的程式語言中培養流利度。",
+        "exercism_status": "Exercism 是開源且非營利的。"
+      },
+      "where_to_start": "從哪裡開始……",
+      "actions": {
+        "continue_learning": "在你的學習軌道上繼續學習",
+        "try_mentoring": "試試引導別人",
+        "get_involved": "參與社群",
+        "donate": "捐款幫助我們永續成長"
+      },
+      "community_posts": {
+        "title": "社群貼文",
+        "see_all_link": "查看所有社群貼文"
+      },
+      "new_on_exercism": {
+        "title": "Exercism 新訊"
+      },
+      "live_event": {
+        "live_now": "直播中"
+      },
+      "watch_on_one_html": "在 %{twitch_link} 上觀看",
+      "watch_on_both_html": "在 %{twitch_link} 或 %{youtube_link} 上觀看",
+      "featured_event": {
+        "coming_soon": "即將登場",
+        "live_at": "直播時間",
+        "save_the_date": "先把時間記下來！"
+      },
+      "scheduled_events": {
+        "title": "近期直播時程",
+        "full_message_html": "這份時程會定期更新，所有活動都會在我們的 %{twitch_channel_link} 直播。訂閱才不會錯過喔！",
+        "twitch_channel": "Twitch 頻道",
+        "all_times_utc": "所有時間皆為 UTC。"
+      }
+    }
+  },
+  "partners": {
+    "show": {
+      "header": {
+        "all_perks_link": "查看所有 Exercism Perks",
+        "logo_alt": "%{partner_name} 的標誌"
+      },
+      "lhs": {
+        "support_heading": "%{partner_name} 如何支援 Exercism"
+      },
+      "rhs": {
+        "perk_label": "Exercism Perk",
+        "learn_more_heading": "想更了解 %{partner_name} 嗎？",
+        "learn_more_paragraph": "前往 %{website_domain} 了解更多，並看看 %{partner_name} 能如何幫助你。",
+        "visit_button": "造訪 %{website_domain}"
+      }
+    },
+    "gobridge": {
+      "header": {
+        "title": "官方 Go 引導平台",
+        "subtitle": "Exercism 是 GoBridge 和 Go Developer Network 的官方引導平台。",
+        "mentor_button": "在 Go 中引導學生",
+        "learn_button": "學習 Go 並接受引導"
+      },
+      "mentoring_section": {
+        "heading": "在 Exercism 上引導 Go",
+        "subheading_sm": "支持其他人轉換到 Go",
+        "subheading_md": "支持其他程式設計師轉換到 Go",
+        "paragraph_1": "Exercism 是學習、練習和引導超過 55 種程式語言的平台。它是非營利組織，而且 100% 免費。",
+        "paragraph_2": "當學生完成程式設計練習時，我們的志工導師會針對他們的程式碼提供回饋，幫助他們發現知識缺口並加深理解。",
+        "paragraph_3_html": "引導別人是很棒的方式，能擴展你自己的知識，同時幫助他人發掘 Go 的威力與樂趣。",
+        "button": "成為 Go 導師",
+        "video_title": "成為 Exercism 導師"
+      },
+      "learning_section": {
+        "heading": "流利掌握 Go",
+        "subheading": "學習並接受 Go 專屬概念與慣用寫法的引導",
+        "paragraph_1_html": "Exercism 上的 Go 軌道有 <em>%{num_concepts} 個概念</em>可以學習，還有 <em>%{num_exercises} 道程式設計練習</em>等你完成。這是學會 Go 專屬概念和工作方式的好方法。",
+        "paragraph_2_html": "更棒的是，你可以接受資深 Go 開發者的引導，找出自己的知識缺口，並深入理解這門語言。",
+        "button": "探索 Go 軌道"
+      },
+      "contributing_section": {
+        "heading": "回饋社群",
+        "subheading": "為 Exercism 上的 Go 貢獻心力",
+        "mentor_box": {
+          "tag": "引導。",
+          "title": "開始引導 Go 學生"
+        },
+        "build_box": {
+          "tag": "打造。",
+          "title": "Golang 有 %{num_tasks} 項任務可以參與"
+        },
+        "donate_box": {
+          "tag": "捐款。",
+          "title": "捐款幫助我們改進 Go 軌道"
+        }
+      }
+    }
+  },
+  "perks": {
+    "claim_modal": {
+      "continue_button_label": "繼續前往 %{partner_website_domain}",
+      "close_button_label": "關閉"
+    },
+    "index": {
+      "header": {
+        "title": "Exercism Perks",
+        "subtitle_html": "向支持 Exercism 推動教育與機會平等使命的組織，取得折扣與免費試用。%{insiders_link} 可享有升級版的 Perks。",
+        "insiders_link_text": "Exercism Insiders"
+      }
+    }
+  },
+  "profiles": {
+    "header": {
+      "details": {
+        "location_label": "所在地",
+        "pronouns_label": "代名詞",
+        "joined_at": "加入於 %{date}"
+      },
+      "bio": {
+        "read_more": "閱讀更多",
+        "read_less": "閱讀更少"
+      },
+      "badges": {
+        "count": {
+          "other": "已收集 %{count} 枚徽章"
+        },
+        "see_all": "查看全部",
+        "badge_name": "徽章：%{name}"
+      },
+      "tags": {
+        "exercism_founder": "Exercism 創辦人",
+        "staff": "Exercism 團隊成員",
+        "maintainer": "維護者",
+        "insider": "Insider"
+      },
+      "tabs": {
+        "summary": "摘要",
+        "contributions": "貢獻",
+        "published_solutions": "已發佈的解答",
+        "testimonials": "推薦",
+        "badges": "徽章"
+      },
+      "external_links": {
+        "external_link_title": "這是外部連結"
+      }
+    },
+    "badges": {
+      "meta_title": "%{user_handle} 在 Exercism 的徽章",
+      "meta_description": "探索 %{user_handle} 在 Exercism 上的徽章，看看自己還缺哪些",
+      "introducer": {
+        "title": "Exercism 會員透過做很酷的事來獲得徽章",
+        "description": "使用 Exercism 既有趣又有收穫，在學習、引導與貢獻的過程中，你會自然而然地獲得徽章。"
+      },
+      "summary": {
+        "badges_owned": {
+          "other": "已擁有的徽章"
+        }
+      }
+    },
+    "contributions": {
+      "meta_title": "%{user_handle} 對 Exercism 的貢獻",
+      "meta_description": "看看 %{user_handle} 如何為 Exercism 做出貢獻",
+      "introducer": {
+        "title": "Exercism 是由像 %{user_handle} 和你這樣的人共同打造的",
+        "description": "看看 %{user_handle} 對 Exercism 的貢獻，以及他們為各個學習軌道撰寫的練習與概念。"
+      }
+    },
+    "intro": {
+      "locked": {
+        "reputation": {
+          "label": "你目前的聲譽是",
+          "how_it_works": "這是怎麼運作的？",
+          "unlock_message_html": "建立個人檔案的功能會在<a href=\"%{reputation_doc_url}\" class=\"text-gradient !font-semibold\">%{profile_min_reputation} 聲譽</a>時解鎖"
+        }
+      },
+      "top_section": {
+        "title": "在 Exercism 上展示你的成果",
+        "description_unlocked_html": "建立公開個人檔案，是展示你\n已發表的解答、推薦和開源\n貢獻的好方法。",
+        "description_locked_html": "建立公開個人檔案，是展示你\n已發表的解答、推薦和開源\n貢獻的好方法。 <a href=\"%{reputation_doc_url}\" class=\"text-gradient font-semibold\">取得 %{profile_min_reputation} 聲譽，解鎖建立個人檔案的功能。</a>",
+        "create_profile_button": "建立公開個人檔案"
+      },
+      "reasons_section": {
+        "title": "為什麼要建立公開個人檔案？",
+        "improve_cv": {
+          "title": "讓你的履歷更亮眼",
+          "description": "許多雇主在評估求職者的履歷時，會特別看重開源貢獻與相關活動紀錄"
+        },
+        "community_awareness": {
+          "title": "在社群中建立知名度",
+          "description": "有了公開個人檔案，其他人就能更了解你、認識你是什麼樣的人，以及你最近在做些什麼"
+        },
+        "help_awareness": {
+          "title": "幫助他人探索與學習",
+          "description": "你可以在個人檔案上展示自己出色的解答，讓其他人閱讀、分析並從中學習"
+        }
+      }
+    },
+    "new": {
+      "header": {
+        "title": "建立你的公開個人檔案"
+      }
+    },
+    "show": {
+      "meta_title": "%{user_handle} 在 Exercism 的個人檔案",
+      "meta_description": "探索 %{user_handle} 在 Exercism 上的成果，深入了解他們最有趣的解答、最傑出的貢獻，以及最激勵人心的推薦。",
+      "published_solutions": {
+        "title": "已發表的解答",
+        "see_all_link": "查看 %{user_name} 的所有解答"
+      }
+    },
+    "solutions": {
+      "meta_title": "%{user_handle} 在 Exercism 上的解答",
+      "meta_description": "探索 %{user_handle} 在 Exercism 上的解答，看看他們學到了哪些東西。",
+      "introducer": {
+        "title": "展示程式碼與改進歷程",
+        "description": "看看 %{user_handle} 在 Exercism 完成練習後發表的解答，了解他們如何透過一次次疊代改進自己的解答。"
+      }
+    },
+    "testimonials": {
+      "meta_title": "%{user_handle} 在 Exercism 上收到的推薦",
+      "meta_description": "看看學員在 Exercism 上留給 %{user_handle} 的推薦，了解他們有多麼優秀！",
+      "introducer": {
+        "title": "Exercism 導師會因為出色的引導而收到推薦",
+        "description": "學員會為在學習路上幫助過自己的導師留下推薦。這些小小的感謝，卻能帶來很大的不同。"
+      },
+      "stats": {
+        "solutions_mentored": "已引導的解答",
+        "students_helped": {
+          "other": "幫助過的學員"
+        },
+        "testimonials_received": "收到的推薦"
+      }
+    },
+    "tooltip": {
+      "location_label": "所在地"
+    }
+  },
+  "user_reputation_tokens": {
+    "automation_feedback_author": {
+      "1": "你為 <strong>%{exercise_title}</strong> 撰寫了自動化回饋\n"
+    },
+    "automation_feedback_editor": {
+      "1": "你編輯了 <strong>%{exercise_title}</strong> 的自動化回饋\n"
+    },
+    "exercise_author": {
+      "1": "你撰寫了<strong>%{exercise_title}</strong>\n"
+    },
+    "exercise_contribution": {
+      "1": "你貢獻了<strong>%{exercise_title}</strong>\n"
+    },
+    "concept_author": {
+      "1": "你撰寫了<strong>%{concept_name}</strong>\n"
+    },
+    "concept_contribution": {
+      "1": "你貢獻了<strong>%{concept_name}</strong>\n"
+    },
+    "exercise_article_author": {
+      "1": "你為<strong>%{exercise_title}</strong>撰寫了<strong>%{article_title}</strong>這篇文章\n"
+    },
+    "exercise_article_contribution": {
+      "1": "你為<strong>%{exercise_title}</strong>的<strong>%{article_title}</strong>文章貢獻了一份心力\n"
+    },
+    "exercise_approach_author": {
+      "1": "你撰寫了<strong>%{exercise_title}</strong>的<strong>%{approach_title}</strong>解法\n"
+    },
+    "exercise_approach_contribution": {
+      "1": "你為<strong>%{exercise_title}</strong>的<strong>%{approach_title}</strong>解法貢獻了一份心力\n"
+    },
+    "exercise_approach_introduction_author": {
+      "1": "你撰寫了<strong>%{exercise_title}</strong>的解法\n"
+    },
+    "exercise_approach_introduction_contribution": {
+      "1": "你為<strong>%{exercise_title}</strong>的解法貢獻了一份心力\n"
+    },
+    "code_contribution": {
+      "1": "你在<strong>%{repo}</strong>開立了<strong>PR#%{pr_number}</strong>：%{pr_title}\n"
+    },
+    "code_review": {
+      "1": "你在<strong>%{repo}</strong>審查了<strong>PR#%{pr_number}</strong>：%{pr_title}\n"
+    },
+    "code_merge": {
+      "1": "你在<strong>%{repo}</strong>合併了<strong>PR#%{pr_number}</strong>：%{pr_title}\n"
+    },
+    "mentored": {
+      "1": "你在<strong>%{track_title}</strong>的<strong>%{exercise_title}</strong>中引導了<strong>%{student_handle}</strong>\n"
+    },
+    "published_solution": {
+      "1": "你發表了<strong>%{track_title}</strong>中<strong>%{exercise_title}</strong>的解答\n"
+    },
+    "issue_author": {
+      "1": "你在<strong>%{repo}</strong>開立了<strong>issue#%{issue_number}</strong>：%{issue_title}\n"
+    },
+    "arbitrary": {
+      "1": "%{reason}\n"
+    }
+  },
+  "about": {
+    "impact": {
+      "meta_title": "Exercism 的影響力報告",
+      "meta_description": "我們已經為超過 100 萬人提供逾 3.1 億分鐘的免費學習。想看更多，請見我們的影響力報告！",
+      "header": {
+        "title": "Exercism 影響力報告",
+        "provided_text_html": "我們已提供 %{highlight_open}%{count}%{highlight_close} %{highlight_unit_open}分鐘%{highlight_unit_close}的免費教育。\n",
+        "daily_minutes_provided": "而且我們每天還會再提供約 285,340 分鐘！",
+        "funding_info": "這一切都來自一個免費的開源專案，由像你這樣的人所資助。"
+      },
+      "stats": {
+        "students": "學生",
+        "exercise_submissions": "練習提交數",
+        "mentoring_discussions": "引導討論"
+      },
+      "languages_taught": "Exercism 以學習、練習與引導的獨特組合，教授從 %{first_language} 到 %{last_language} 共 %{num_languages} 種程式語言。",
+      "everything_is_free": "Exercism 上的一切都是 100% 免費的。",
+      "live_activity": "Exercism 上的即時動態",
+      "testimonials": {
+        "dapritchard_html": "%{twitter_handle} 真的很了不起。我提交的解答一直無法通過測試……我請求引導協助釐清問題，結果 15 分鐘內就有人傳訊息向我解釋我的錯誤。",
+        "zippkode_html": "……我在 %{twitter_handle} 上做了 Ruby 字串的練習。這個平台讓我不得不放慢腳步，真正用邏輯解決問題……",
+        "alebaffa_html": "我一直很喜歡 %{twitter_handle}，因為你學到的不只是語言的語法，還有它的開發環境：如何設定測試、打包與建置。很棒的資源！"
+      },
+      "volunteers_section": {
+        "title": "Exercism 由一支龐大而出色的志工團隊所驅動。",
+        "mentors_label": "導師",
+        "code_contributors_label": "程式碼貢獻者",
+        "full_time_staff_label": "全職員工"
+      },
+      "support_section": {
+        "emoji_aria_label": "鼓掌",
+        "call_to_action_title": "Exercism 有幫助你成為更優秀的開發者嗎？",
+        "call_to_action_paragraph_one": "如果 Exercism 幫助了你的職涯發展，或曾經帶給你快樂，請考慮以金錢支持我們。",
+        "call_to_action_paragraph_two": "使用 Exercism 的人當中，只有 1% 支持我們。希望你能成為其中一員。",
+        "support_button": "看看你可以如何支持我們"
+      },
+      "partners_section": {
+        "title": "特別感謝這些組織……",
+        "donors_sentence_html": "以及超過 <a href=\"%{donors_url}\" class=\"underline hover:text-lightBlue\">700 位個人捐款者！</a>\n"
+      },
+      "growth_section": {
+        "title": "我們完全靠口碑成長到超過 %{num_users} 位學生。",
+        "description": "我們與社群緊密合作，了解如何讓 Exercism 不斷進化成最好的樣子，而他們也以與朋友分享來回報我們。"
+      },
+      "mission_cta": {
+        "jeremy_walker_photo_alt": "Jeremy Walker 的照片",
+        "title": "成為我們使命的火箭燃料",
+        "description": "我們用不到 50 萬美元打造了這一切。想像一下，如果有更可觀的資金，我們能做到什麼！你願意成為促成這一切的人嗎？",
+        "organization_support_title": "想以組織的身分支持 Exercism 嗎？",
+        "contact_prefix": "歡迎聯絡",
+        "contact_suffix": "共同創辦人暨執行長"
+      },
+      "testimonials_section": {
+        "title": "超過 85,000 位學生留下評價，感謝他們的導師。"
+      }
+    },
+    "individual_supporters": {
+      "meta_title": "支持 Exercism",
+      "meta_description": "這些很棒的人為 Exercism 提供了財務支持",
+      "header": {
+        "title_html": "我們的 %{highlight} 位個人捐款者",
+        "title_highlight": "慷慨",
+        "subtitle": "已有 %{count} 位慷慨的人捐款支持 Exercism"
+      },
+      "cta": {
+        "logo_alt": "Exercism 標誌",
+        "title": "幫助我們把程式設計的樂趣帶給世界各地的每一個人吧！",
+        "description": "你願意協助支持 Exercism 嗎？一點一滴都有幫助喔。",
+        "button": "立即捐款"
+      },
+      "donor": {
+        "avatar_alt": "由 %{name} 上傳的大頭貼",
+        "first_supported": "首次支持於 %{time_ago}前"
+      },
+      "missing": {
+        "title": "為什麼我沒有出現在這個頁面上？",
+        "body_html": "這個頁面旨在顯示所有曾以財務支持 Exercism 的人。技術上來說，它會列出所有獲頒 Supporter 徽章、並在自己的 %{donations_settings_link} 中開啟「在支持者頁面上顯示？」選項的人。透過 Exercism 網站捐款時，應該會自動頒發 Supporter 徽章給你。不過，透過第三方網站（例如 GitHub）捐款時，可能需要你寄信到 %{email_link}，請我們手動頒發徽章。",
+        "donations_settings_link_text": "捐款設定",
+        "email_link_text": "donations@exercism.org"
+      }
+    },
+    "partners": {
+      "index": {
+        "supporters_section": {
+          "mozilla": {
+            "description": "<strong>%{mozilla}</strong>在我們建立自動化分析器的過程中支持了我們。他們資助了產品設計、原型以及分析器的基礎架構，省下導師數千小時的時間，也大幅縮短了學生的等待時間。",
+            "alt": "Mozilla"
+          },
+          "learn_more": "瞭解更多",
+          "title": "我們的支持者",
+          "chicago": {
+            "alt": "芝加哥大學",
+            "university_of_chicago_text": "芝加哥大學",
+            "the_sloan_foundation_text": "斯隆基金會",
+            "description": "<strong>%{university_of_chicago}</strong>與<strong>%{the_sloan_foundation}</strong>合作，資助了 Exercism v3 的創建，這是更廣泛研究計畫的一部分，探討人們如何在不同程式語言之間發展程式設計技能與知識。"
+          }
+        },
+        "individual_supporters": {
+          "alt": "個人支持者",
+          "title": "Exercism 也受到 %{num_individual_supporters} 位慷慨的個人支持者支持",
+          "link_label": "查看我們所有的個人支持者"
+        },
+        "meta": {
+          "title": "支持 Exercism",
+          "description": "你的組織能幫助 Exercism 成長嗎？成為我們使命的火箭燃料吧！"
+        },
+        "header": {
+          "title": "成為我們使命的<strong>火箭燃料</strong>",
+          "description": "與我們合作或捐款，支持我們把免費的程式學習與練習帶給全世界的使命。"
+        },
+        "cta": {
+          "jeremy_walker_photo_alt": "Jeremy Walker 的照片",
+          "title": "想聊聊你能如何幫助 Exercism 嗎？",
+          "description": "歡迎聯絡 Exercism 的執行長<strong>Jeremy Walker</strong>。",
+          "email_label": "jeremy@exercism.org"
+        },
+        "support_goals": {
+          "title": "來自資助者的支持，是達成 Exercism 目標的關鍵",
+          "paragraph1": "雖然 Exercism 的許多部分是由我們的志工社群經營，網站與核心基礎架構則由全職團隊管理。",
+          "paragraph2": "我們也會進行特定的大型專案，例如開發自動化分析器，這類專案需要一個全心投入的團隊，在一段固定時間內更密集地專注投入。",
+          "paragraph3": "為了資助這個核心團隊與這些產品，我們仰賴願意支持我們願景的公司或組織提供補助經費，而我們的願景是為每個人提供免費的程式設計教育。"
+        },
+        "areas_of_collaboration": {
+          "title": "目前各組織支持過我們的領域",
+          "fundraising": "募款",
+          "research_projects": "研究計畫",
+          "track_development": "學習軌道開發",
+          "developing_automation": "開發自動化",
+          "community_building": "社群建立",
+          "servers_and_infrastructure": "伺服器與基礎架構"
+        }
+      },
+      "packt": {
+        "see_all_supporters": "查看我們所有的支持者",
+        "supported_by_prefix": "Exercism 的支持者包括",
+        "org_supports_exercism": "%{org_name} 支持 Exercism",
+        "packt_partnership_description": "Packt Publishing 是 Exercism 的核心合作夥伴，協助我們發展平台的募款與內容兩方面。他們贊助了我們新設的募款職位，我們目前也正在發展更深度的合作關係，預計在 2022 年初推出。",
+        "about_packt_publishing": "關於 Packt Publishing",
+        "packt_about_p1": "Packt 是一家專注於科技實際應用的出版社。Packt 的作者大多是仍在第一線工作的開發者，他們的工作就是在源源不絕的新科技中，釐清哪些真正可行、又該如何把事情完成。Packt 的讀者與使用者是忙於打造各種解決方案與應用程式的工程師，他們想知道一項科技在實務上如何運作，以及是否值得採用。",
+        "packt_about_p2": "Packt 支持 Exercism 的使命，也就是讓學習各種程式語言的路更加順暢。我們認同 Exercism 的價值：不依附任何單一平台或語言，並相信工程師們會以同儕社群的方式互相支持與幫助。Packt 的書籍與出版品希望提供一套有系統的實務知識，來搭配像 Exercism 這樣出色的平台。我們雙方都為經驗豐富的專業人士提供管道，讓他們能與更廣大的科技社群分享知識與經驗。"
+      },
+      "gobridge": {
+        "see_all_supporters": "查看我們所有的支持者",
+        "supported_by": "Exercism 由以下單位支持",
+        "gobridge_alt": "GoBridge",
+        "how_gobridge_supports_exercism": "GoBridge 如何支持 Exercism",
+        "support_description": "2021 年，GoBridge 捐出一筆可觀的款項，支持 Exercism Teams 的開發，特別是讓我們得以在全新的 Exercism 編輯器中奠定學生與導師互動的基礎。",
+        "about_gobridge_title": "關於 GoBridge",
+        "about_gobridge_description": "<strong>%{gobridge_text}</strong>的使命是讓科技業中的少數族群能運用 Go 來學習與教學程式設計，最終賦權科技業中代表性不足的群體，協助提升 Go 社群的多樣性。這與我們透過程式設計發展來提供機會的使命完美契合，因此我們非常興奮能啟動這項合作。<strong>%{gobridge_text}</strong>與<strong>%{go_developer_network_text}</strong>將在各自的社群網絡中推廣 Exercism，我們也期待能看到大量 Go 導師與學生加入。",
+        "go_developer_network_text": "Go Developer Network"
+      }
+    },
+    "team": {
+      "meta_title": "Exercism 團隊",
+      "meta_description": "認識經營 Exercism 的人：我們的受託人、領導團隊與全職成員。",
+      "our_team": "我們的團隊",
+      "built_by_people_worldwide": "Exercism 由來自世界各地的人共同打造 🙌",
+      "stats": {
+        "contributors": "超過 %{count} 位貢獻者",
+        "countries": "%{count} 個國家",
+        "github_repos": "%{count} 個 GitHub 儲存庫"
+      },
+      "map_alt_text": "一張世界地圖，上面有 Exercism 貢獻者的頭像",
+      "info_box": {
+        "title": "數以千計的人支持我們的願景，並協助打造 Exercism。",
+        "description": "Exercism 仰賴領導團隊與員工、約一百位維護者與核心貢獻者組成的更大團隊，以及數千名個人點滴的貢獻。除了這些對產品的貢獻之外，我們社群中還有數萬名成員透過提供意見回饋與協助他人來參與。"
+      },
+      "leadership_team": {
+        "title": "領導團隊",
+        "description": "我們的領導團隊負責 Exercism 的策略與組織事務。他們負責實踐我們的使命宣言，並維護我們的價值。",
+        "katrina_owen": {
+          "image_alt": "Katrina 的照片",
+          "handle": "共同創辦人暨董事",
+          "bio_html": "Katrina 是 Exercism 的原創者。她是 %{book_link} 的共同作者。她是一位精通多種語言的開發者，也是 Ruby Hero 獎得主，擁有分子生物學學位。她非常關心開源，並在 Exercism 之外參與了數個專案。",
+          "book_link_text": "99 Bottles of OOP",
+          "personal_site_link": "Katrina 的個人網站"
+        },
+        "jeremy_walker": {
+          "image_alt": "Jeremy Walker 的照片",
+          "handle": "共同創辦人暨執行長",
+          "bio_html": "Jeremy 是一位創業家與軟體開發者，對平等與機會充滿熱情。他共同創辦了多家組織，包括 Meducation、Wondr Medical 和 %{kaido_link}，並持有一項用於心臟手術的人工智慧專利。",
+          "personal_site_link": "Jeremy 的個人網站",
+          "kaido_link_text": "Kaido"
+        }
+      },
+      "staff_team": {
+        "title": "員工",
+        "description": "我們的員工負責管理網站、CLI 以及 Exercism 的營運事務，確保我們為每位使用 Exercism 的人提供安全可靠的體驗。",
+        "erik_schierboom": {
+          "image_alt": "Erik Schierboom 的照片",
+          "handle": "開源負責人",
+          "bio_html": "Erik 是一位熱愛學習新語言的多語言開發者。他打造支撐平台開源部分的軟體與基礎架構，確保每個學習軌都能帶來愉快的使用體驗。他在全職加入之前，曾是 Exercism 的頂尖志工。",
+          "personal_site_link": "Erik 的個人網站"
+        },
+        "aron_demeter": {
+          "image_alt": "Aron Demeter 的圖片",
+          "handle": "前端開發者",
+          "bio_html": "Áron 是一位自學出身的開發者，對於發掘事物之間的相互關聯總是充滿熱情。他擁有古典鋼琴演奏的碩士學位。閒暇時，他喜歡陪伴家人、在 Exercism 上學習新語言，或是聽聽歌劇。"
+        }
+      },
+      "alumni_team": {
+        "title": "歷屆成員",
+        "description": "曾在 Exercism 全職工作，之後踏上新旅程的人們。我們心懷感激，永遠記得他們留下的成果！",
+        "nicole_chalmers": {
+          "image_alt": "Nicole Chalmers 的圖片",
+          "bio_html": "Nicole 是 %{kaido_link} 的產品負責人。她曾在 Exercism 擔任產品負責人兩年，帶領我們從 v1 走向 v2，並協助奠定至今仍驅動著 Exercism 的原則與理念。",
+          "kaido_link_text": "Kaido"
+        },
+        "charles_care": {
+          "image_alt": "Charles Care 的圖片",
+          "bio": "Charles 是打造 Exercism v2 團隊的一員，主要負責伺服器端的程式碼與基礎架構。他協助建構了我們自動化引導平台的第一個版本，以及 Github 整合。"
+        },
+        "karlo_soriano": {
+          "image_alt": "Karlo Soriano 的圖片",
+          "bio": "Karlo 負責 Exercism 網站的部分。他打造了 v3 網站大部分的互動式前端，並為 Rails 後端平台的許多部分做出貢獻。"
+        },
+        "taiyab_raja": {
+          "image_alt": "Taiyab Raja 的圖片",
+          "bio": "Taiyab 是 Exercism v3 精美視覺與使用者體驗的設計師。他熱愛新創、設計與創業的一切。"
+        },
+        "loretta_murray": {
+          "image_alt": "Loretta Murray 的圖片",
+          "bio": "Loretta 於 2022 至 2023 年間擔任 Exercism 的募款負責人。她受到募款所帶來的轉變力量激勵，同時是一位合格的商業教練，熱衷於培養募款人員的技能。"
+        },
+        "jonathan_middleton": {
+          "image_alt": "Jonathan Middleton 的圖片",
+          "bio": "Jonathan 於 2022 至 2023 年間擔任 Exercism 的社群經理。他喜歡與人交流，也喜愛聆聽人們如何走到人生現階段的故事。他充滿好奇、熱愛學習，並正慢慢熟悉程式設計。"
+        }
+      },
+      "community_teams": {
+        "maintainers": {
+          "title": "Track 維護者",
+          "description": "我們的維護者是 Exercism 上各個語言 Track 與練習的重要支柱。他們為我們的 %{num_lang} 種語言建立並整理練習，並協助引導我們，確保 Exercism 以最道地的方式教導學員。",
+          "link_text": "查看所有 Exercism 維護者"
+        },
+        "mentors": {
+          "title": "導師",
+          "description": "我們的導師是 Exercism 背後的人性元素，為學員的解答提供富有同理心的回饋。他們是讓 Exercism 活起來的魔法。",
+          "link_text": "查看所有 Exercism 導師"
+        },
+        "contributors": {
+          "title": "開源貢獻者",
+          "description": "如果沒有超過 2,000 名志工貢獻者的付出，Exercism 不會有今天的成功。他們以各種方式創造價值，從撰寫工具到設計你解題的練習。",
+          "link_text": "查看所有貢獻者"
+        }
+      }
+    },
+    "show": {
+      "goals_section": {
+        "goal_2": {
+          "title": "玩得開心",
+          "description": "培養程式設計技能應該讓人充滿力量、感到有趣，而不是充滿競爭、令人挫折或壓力沉重。"
+        },
+        "goal_3": {
+          "title": "社會流動",
+          "description": "我們希望每個人，尤其是經濟弱勢的人，都能透過學習寫程式來向上流動。"
+        },
+        "goal_1": {
+          "title": "達到精通",
+          "description": "我們希望人們能體驗程式設計的喜悅，那種成為嫻熟程式設計師所帶來的深刻滿足感。"
+        }
+      },
+      "principles_section": {
+        "title": "原則",
+        "principle_1": "Exercism 應該是有趣、有挑戰性且充滿價值的。",
+        "principle_2": "Exercism 應該鼓勵成長心態、清晰且富同理心的溝通，並強調一起學習的價值。",
+        "principle_3": "Exercism 應該讓人感到安全、受到用心栽培。",
+        "principle_4": "Exercism 著重的是學習的旅程，而不是終點。學習的過程與樂趣，比絕對的知識正確性更重要。"
+      },
+      "leadership_section": {
+        "title": "Exercism 如何運作",
+        "description": "Exercism 的發展，來自由上而下的領導與協作社群的結合。我們相信大多數決定都值得花時間斟酌，所以我們在行動前會深思熟慮。",
+        "reflective": {
+          "title": "反思",
+          "description": "我們專注於策略驅動與產品驅動，放眼長期，而不只看眼前的影響，並考量決策帶來的整體影響。我們與關鍵的志工貢獻者密切合作，廣泛蒐集意見與知識，了解自身的優勢與劣勢，努力讓 Exercism 每天都更好，同時也緊盯著我們的長期願景。"
+        },
+        "small_team": {
+          "title": "小而懷抱大願景的團隊",
+          "description": "我們也非常重視品質。我們希望自己做的事是好的：運作良好、人人都能使用，並且具有創新性。我們有一個精簡的核心團隊，負責確保 Exercism 依照願景成長與演進。透過社群、慈善家與公益基金會的捐款，我們以永續且負責的方式擴編團隊。我們設有並對外公布募款里程碑，並朝著這些目標募款，讓我們能聘請更多人持續開發。"
+        },
+        "ethics": {
+          "title": "以倫理為本",
+          "description": "我們盡力給予公平的報酬，同時尊重並考量員工的時間與價值，以及捐款人的慷慨。我們以合乎倫理的方式經營公司、扮演雇主，尊重我們的團隊，絕不要求他們做我們自己不會做的事，也不使用我們不希望被用在自己身上的技術或科技。"
+        }
+      },
+      "donate_section": {
+        "title": "幫助我們把程式設計的樂趣帶給世界上的每一個人吧 ✨",
+        "description": "我們仰賴開源貢獻與金錢捐款來實現使命。你願意撥出一些時間或金錢，支持我們的使命嗎？",
+        "donate_button": "捐款支持 Exercism",
+        "tasks_button": "查看需要協助的任務"
+      },
+      "meta_title": "關於 Exercism",
+      "meta_description": "認識 Exercism：我們的願景、使命與策略。",
+      "header": {
+        "title": "Exercism",
+        "slogan": "我們正在打造一個地方，讓每個人都能免費學習並精通程式設計，永遠不會感到迷惘，也不會覺得自己很笨。",
+        "donate_button": "捐款給 Exercism"
+      },
+      "purpose_section": {
+        "title": "宗旨",
+        "description": "我們的使命是幫助每個人真正精通程式設計，不論他們的背景為何。我們想分享對程式設計的熱愛，並幫助人們提升技能，成為他們向上流動的一部分。"
+      }
+    },
+    "testimonials": {
+      "meta_title": "Exercism 的學員見證",
+      "meta_description": "看看我們的學生與導師怎麼說他們在 Exercism 上學習與引導的經驗。",
+      "heading": "大家怎麼說 Exercism"
+    },
+    "hiring": {
+      "meta_title": "Exercism 正在招募！",
+      "meta_description": "加入我們充滿熱情的團隊，一起讓程式設計教育變得有趣又有效。以下是我們正在招募的幾個職位。",
+      "header": {
+        "title": "我們目前沒有在招募。",
+        "description": "歡迎日後再回來看看新的職缺！"
+      }
+    },
+    "organisation_supporters": {
+      "supporters_section": {
+        "chicago": {
+          "description": "<strong>%{university_of_chicago}</strong>與<strong>%{the_sloan_foundation}</strong>合作，資助了 Exercism v3 的創建，這是更廣泛研究計畫的一部分，探討人們如何在不同程式語言之間發展程式設計技能與知識。",
+          "alt": "University of Chicago",
+          "university_of_chicago_text": "University of Chicago",
+          "the_sloan_foundation_text": "The Sloan Foundation"
+        },
+        "mozilla": {
+          "alt": "Mozilla",
+          "description": "<strong>%{mozilla}</strong>支持我們打造自動化分析器。他們資助了產品設計、原型與分析器基礎架構，省下數千小時的導師時間，也大幅縮短了學生的等待時間。"
+        },
+        "learn_more": "了解更多",
+        "title": "我們的支持者",
+        "packt": {
+          "alt": "Packt Publishing",
+          "description": "<strong>%{packt_publishing}</strong>是 Exercism 的核心合作夥伴，協助我們發展平台的募款與內容面向。他們贊助了我們新設的募款職位，我們目前也正在發展更深度的合作關係，預計於 2022 年初推出。"
+        },
+        "gobridge": {
+          "alt": "GoBridge",
+          "description": "2021 年，我們成為<strong>%{gobridge}</strong>與<strong>%{go_developer_network}</strong>的官方引導平台，他們也因此慷慨地捐出一筆可觀的款項，支持 Exercism Teams 的開發。",
+          "go_developer_network_text": "Go Developer Network"
+        }
+      },
+      "individual_supporters": {
+        "alt": "個人支持者",
+        "title": "Exercism 也受到許多慷慨個人的支持",
+        "link_label": "查看全部 %{num_individual_supporters} 位個人支持者"
+      },
+      "meta": {
+        "title": "支持 Exercism",
+        "description": "你的組織能幫助 Exercism 成長嗎？成為我們使命的火箭燃料吧！"
+      },
+      "header": {
+        "title": "成為我們使命的<strong>火箭燃料</strong>",
+        "description": "與我們合作，或捐款支持我們的使命：把免費的程式碼學習與練習帶給全世界。"
+      },
+      "cta": {
+        "jeremy_walker_photo_alt": "Jeremy Walker 的照片",
+        "title": "想聊聊你可以如何幫助 Exercism 嗎？",
+        "description": "歡迎聯絡<strong>Jeremy Walker</strong>，Exercism 的執行長。",
+        "email_label": "jeremy@exercism.org"
+      },
+      "support_goals": {
+        "title": "資助者的支持對達成 Exercism 的目標至關重要",
+        "paragraph1": "雖然 Exercism 的許多部分是由我們的志工社群運作，但網站與核心基礎設施是由全職團隊管理。",
+        "paragraph2": "我們也會進行一些特定的大型專案，例如開發自動化分析器；這類專案需要一個全心投入的團隊，在一段固定時間內更密集地專注於某件事。",
+        "paragraph3": "為了資助這個核心團隊與這些產品，我們仰賴認同我們願景的公司或組織提供補助金。我們的願景是為每個人提供免費的程式設計教育。"
+      },
+      "areas_of_collaboration": {
+        "title": "目前各組織支持我們的領域",
+        "fundraising": "募款",
+        "research_projects": "研究專案",
+        "track_development": "賽道開發",
+        "developing_automation": "開發自動化",
+        "community_building": "社群建立",
+        "servers_and_infrastructure": "伺服器與基礎設施"
+      }
+    }
+  },
+  "pages": {
+    "index": {
+      "exercises_section": {
+        "features": {
+          "local_title": "在自己的空間裡，在本機寫程式碼",
+          "local_description": "Exercism 主要是一款以 CLI 為優先的工具。你可以直接在終端機下載並提交練習。",
+          "editor_title": "使用 Exercism 的瀏覽器編輯器",
+          "editor_description": "別只為了試玩一下，就花好幾個小時在本機安裝一門語言。我們的瀏覽器編輯器支援全部 %{num_tracks} 種程式語言。",
+          "analysis_title": "取得程式碼的自動化分析",
+          "analysis_description": "不太確定自己寫得怎麼樣嗎？我們會自動分析你的解答，快速給你回饋和改進的方向。"
+        },
+        "showcase": {
+          "allergies": {
+            "title": "過敏",
+            "blurb": "根據一個人的過敏分數，判斷他們是否對特定項目過敏，並列出他們全部的過敏項目。"
+          },
+          "queen_attack": {
+            "title": "皇后攻擊",
+            "blurb": "給定棋盤上兩個皇后的位置，判斷她們是否位於能互相攻擊的位置"
+          },
+          "zebra_puzzle": {
+            "title": "斑馬謎題",
+            "blurb": "哪位居民喝水？誰養斑馬？你能用程式碼解開斑馬謎題嗎？"
+          }
+        },
+        "title_html": "超過<strong>%{count} 個程式練習。</strong> <br> 從「過敏」到「斑馬謎題」。",
+        "subtitle": "從做中學。透過有趣的程式練習精進程式設計能力，加深你對各種概念的理解。",
+        "more_tracks": "+%{count} 個"
+      },
+      "mentoring_section": {
+        "title_html": "透過真人引導深化你的知識，<strong>完全免費。</strong>",
+        "subtitle": "在接受引導的過程中，發掘各種令人興奮的新方式來解一道練習。更熟悉某門程式語言的慣例、慣用寫法和觀點。",
+        "why_mentoring_title": "為什麼要引導？",
+        "features": {
+          "knowledge_gaps_title": "你不知道自己不知道什麼",
+          "knowledge_gaps_description": "學習一門新語言時，最難的部分就是察覺不到自己知識上的缺口。我們的導師能看看你的程式碼，馬上看出你還不熟悉的概念，幫你解鎖新知識、向上提升一個等級。",
+          "conventions_title": "學習特定語言的慣例",
+          "conventions_description": "精通一門語言，不只是能用它寫程式碼，而是能用那個語言思考。我們的導師會引導你重新調整思考方式，寫出符合慣用寫法的程式碼。",
+          "learning_fun_title": "和別人一起學習很有趣",
+          "learning_fun_description": "從真人身上獲得回饋，是超級令人興奮的學習方式。而自己成為導師、給出回饋，更是往前跨了一大步。所以，把這個循環補齊吧：接受引導，也引導別人 🎉"
+        }
+      },
+      "header": {
+        "title_html": "讓自己<strong>真正</strong>擅長程式設計。",
+        "subtitle_html": "透過我們獨特的學習、練習與引導組合，在<em>%{num_tracks} 種程式語言</em>中培養流利度。Exercism 有趣、有效，而且<strong>永遠 100% 免費。</strong>",
+        "signup_button": "免費註冊",
+        "explore_button": "探索程式語言",
+        "organisation_description": "是一個獨立、由社群資助的非營利組織。",
+        "learn_more_link": "深入瞭解"
+      },
+      "tracks_section": {
+        "title_html": "探索並<strong>精通</strong> <br> %{num_tracks} 種程式語言",
+        "students_count": {
+          "other": "%{count} 位學生"
+        },
+        "all_tracks_link": "查看全部 %{num_tracks} 個語言軌道"
+      }
+    }
+  },
+  "insiders": {
+    "payment_pending": {
+      "insiders_title": "Exercism Insiders",
+      "payment_pending_message": "正在等待你的付款服務供應商確認。"
+    },
+    "paypal_cancelled": {
+      "insiders_title": "Exercism Insiders",
+      "paypal_cancelled_message": "你的 PayPal 付款已取消，請再試一次。",
+      "return_to_insiders": "返回 Insiders"
+    },
+    "show": {
+      "insiders_title": "Exercism Insiders",
+      "thank_you_message": "感謝你讓 Exercism 有今天的成就。",
+      "support_message": "Exercism 之所以存在，是因為有像你這樣的人聚在一起打造它、資助它、支持它。非常感謝你！",
+      "feature_and_video_info_html": "下面你會看到你現在能透過 Insiders 使用的各項功能，以及幕後影片的相關資訊。如果你對額外功能或更多幕後內容有想法，歡迎在 Discord 的 #insiders 頻道發文，或在論壇開一個討論串。\n",
+      "latest_video_prompt": "不如就從最新的 Insiders 幕後影片開始吧 👉",
+      "behind_the_scenes_videos_heading": "幕後影片",
+      "your_insider_benefits_heading": "你的 Insider 專屬福利",
+      "exclusive_content": {
+        "title": "獨家內容",
+        "description": "透過 Insiders 專屬的直播、Vlog 和技術深度解析，隨時掌握我們正在規劃和打造的東西。看看上面的影片吧。有新影片時，我們會寄電子郵件通知你。"
+      },
+      "private_discord_channel": {
+        "title": "私人 Discord 頻道",
+        "description_html": "你現在應該可以進入專屬的<a href=\"%{insiders_channel_link}\">Discord #insiders 頻道</a>，在那裡你可以和我、其他員工以及 Insiders 一起交流。如果沒看到，請查看<a href=\"%{integrations_page_link}\">整合頁面</a>。"
+      },
+      "contribute_on_community_calls": {
+        "title": "在社群通話中貢獻",
+        "description_html": "我們的社群通話任何人都能觀看，但只有 Insiders 能加入對話。跳上講台，讓大家聽見你的聲音。下一場通話的時間請在 <a href=\"%{discord_events_link}\">Discord</a> 的活動中查看。"
+      },
+      "dark_theme": {
+        "title": "深色主題",
+        "description_html": "我們精心打造了漂亮的深色主題，讓你盡情享受。晚上寫程式時讓眼睛休息一下，用最深邃的姿態享受 Exercism。你可以在<a href=\"%{user_preferences_link}\">使用者偏好設定</a>中切換主題。"
+      },
+      "chatgpt": {
+        "title": "ChatGPT",
+        "description": "我們的 ChatGPT 整合功能可以幫助你在我們的線上編輯器中直接突破卡關。每個日曆月你可以獲得 3 倍的 v4.0 請求數和 30 倍的 v3.5 請求數。跟我們說說你的使用心得吧！"
+      },
+      "name_tag_flair_and_badges": {
+        "title": "名稱標籤裝飾與徽章",
+        "description_html": "現在你在網站各處的名字旁邊都會看到一個閃亮的小 %{icon}，而<a href=\"%{profile_link}\">你的公開個人檔案</a>上也會有一個新標籤。不久之後，我們會讓你自訂想要的圖示！",
+        "icon_alt_text": "代表 Insiders 的紫色愛心圖示"
+      },
+      "extra_mentoring_slots": {
+        "title": "額外的導師指導名額",
+        "description": "你現在在每個學習軌都有最多的同步導師指導名額。在學習軌頁面往下滑到一半的位置，就能查看你進行中的指導時段。"
+      },
+      "exclusive_badges": {
+        "title": "獨家徽章",
+        "description_html": "你應該也拿到了一個（或兩個！）非常獨家的新徽章。到<a href=\"%{my_journey_link}\">我的旅程</a>的徽章區查看，就能揭曉它們。另外還有新的隱藏徽章，等你解練習時解鎖。"
+      },
+      "exclusive_perks": {
+        "title": "獨家福利",
+        "description": "接下來幾週，我們會陸續公開來自合作夥伴的獨家福利。身為 Insider，你將獲得專屬的額外優惠和折扣。"
+      }
+    },
+    "external": {
+      "insiders_title": "Exercism Insiders",
+      "hero_subtitle_html": "<strong>捐款給 Exercism</strong>，就能獲得<span class=\"underline\">額外功能</span>和<span class=\"underline\">幕後內容。</span>",
+      "donations_message_html": "我們依靠<strong>像你這樣的人</strong>的捐款才能生存並成長！Insiders 就是我們感謝你支持我們的方式！",
+      "features_summary_html": "只要捐款給 Exercism，就能獲得幕後內容、<strong>深色模式，</strong>專屬徽章、<strong>進階 GitHub 同步與收藏，</strong>ChatGPT 整合、<strong>額外的導師名額，</strong>私人 Discord 頻道、<strong>無廣告體驗，</strong>以及更多好康 🎉",
+      "non_profit_info": "Exercism 是一個獨立註冊的非營利組織（英國編號 #11733062），團隊規模很小。所有捐款都用於營運與改善平台。",
+      "benefits_heading": "Insider 福利",
+      "benefits_tagline": "以下是我們感謝你支持我們的一些方式。",
+      "exclusive_content_heading": "Insider 專屬內容",
+      "exclusive_content_tagline": "加入 Insiders，就能在 Exercism 成長與演進的過程中，獲得幕後內容。",
+      "support_exercism_heading": "幫助支持 Exercism",
+      "donations_needed_html": "我們每個月需要<span class=\"font-medium text-white\">%{amount} 的捐款</span>才能永續經營。",
+      "join_insiders_call_to_action": "請加入 Insiders，幫助我們達成目標！",
+      "monthly_donations": "每月捐款：%{amount}",
+      "sustainable_goal": "達到 %{amount} 即可永續經營",
+      "faqs_heading": "細節與常見問題",
+      "faq_access": {
+        "question": "只能透過捐款才能取得 Insiders 資格嗎？",
+        "answer_part1_html": "最常見取得 Insiders 資格的方式是定期捐款。定期貢獻者可以免費獲得 Insiders 資格，重大的捐款或貢獻也有機會獲得終身 Insiders 會員資格。你可以在<a href=\"%{codebase_link}\">我們的程式碼庫</a>查看確切的演算法，不過這裡也重製了一份。",
+        "lifetime_access_intro": "想獲得終身資格，你需要符合下列其中一項：",
+        "lifetime_criterion_founder": "身為創辦人或員工",
+        "lifetime_criterion_supermentor": "身為 supermentor（在某個學習路徑上引導超過 100 份解答，且好評率達 95%）",
+        "lifetime_criterion_reputation": "聲譽值達到或超過 1,000",
+        "lifetime_criterion_donation": "累計捐款達 $499（一次付清或分多次）",
+        "temporary_access_intro": "沒有終身資格的人，則需要符合下列其中一項才能取得資格：",
+        "temporary_criterion_monthly_donation": "每月定期捐款 $10 以上。",
+        "temporary_criterion_maintainer": "身為 maintainer",
+        "temporary_criterion_recent_reputation": "在過去 30 天內賺得 30 點聲譽，或在過去 365 天內賺得 200 點聲譽（不包含發佈解答所獲得的聲譽）",
+        "temporary_criterion_legacy_donation": "在 Insiders 推出時（2023 年 5 月 30 日）已有定期捐款，且該捐款目前仍持續進行。",
+        "temporary_criterion_one_off_donation": "對於我們推出 Insiders 之前的捐款，從 Insiders 推出當天起算，每捐款 $9.99 就能獲得一個月的 Insiders 資格，另外再加送一個月。因此，如果你在 Insiders 推出前捐了 $35，你的 Insiders 資格將可使用到 2023 年 6 月、7 月、8 月和 9 月。",
+        "support_html": "如果你認為自己符合這些條件卻沒有取得資格，請<a href=\"%{forum_issue_link}\">在論壇開一個 issue</a>，會有人協助你！如果你是透過 Paypal 或 GitHub Sponsors 捐款卻沒有取得資格，請看下一題。"
+      },
+      "faq_paypal_github": {
+        "question": "我已經透過 Paypal 或 GitHub Sponsors 捐款，卻沒有取得資格。",
+        "answer_html": "有時候技術就是會出狀況，導致我們沒收到 GitHub 或 Paypal 的 webhook 通知。如果你遇到問題，請<a href=\"%{forum_issue_link}\">在論壇開一個 issue</a>，會有人協助你！"
+      },
+      "faq_cost": {
+        "question": "Insiders 要多少錢？",
+        "answer": "Insiders 不是可以用錢購買的產品，而是我們向貢獻、引導或捐款的人表達感謝的方式。取得 Insiders 資格最簡單的方法，就是設定每月固定捐款 $10 以上。"
+      },
+      "faq_premium": {
+        "question": "Insiders 和 Premium 是一樣的嗎？",
+        "answer": "Exercism Premium 已於 2023 年 8 月停止服務。所有 Premium 會員都已轉為 Exercism Insider 身分，每月的付款也轉為定期捐款。"
+      },
+      "faq_reputation": {
+        "question": "我要怎麼賺取聲譽？",
+        "answer_html": "聲譽可以透過引導他人或對 Exercism 做出貢獻來獲得。發佈你的解答也能賺取聲譽，但這不計入 Insiders 資格。你可以查閱<a href=\"%{docs_link}\">我們的文件</a>，了解哪些行為會獲得多少聲譽。查看你的<a href=\"%{journey_link}\">歷程頁面</a>，就能看到你在哪裡賺到聲譽。"
+      }
+    },
+    "join": {
+      "title": "成為 Insider",
+      "message_html": "Exercism 的營運資金來自捐款。你每月捐的<strong>$10</strong>，能讓 Exercism 繼續免費開放給所有人，並解鎖 AI 助理、深色模式、無廣告體驗等更多功能。"
+    }
+  },
+  "blog_posts": {
+    "show": {
+      "share_bar": {
+        "useful_short_question": "覺得這篇文章有幫助嗎？",
+        "useful_short_prompt": "分享出去吧！",
+        "useful_long_question": "覺得這篇文章有趣或有幫助嗎？",
+        "useful_long_prompt": "分享出去，讓其他人也能受益吧！"
+      },
+      "content": {
+        "useful_cta": "覺得有幫助嗎？"
+      },
+      "byline": {
+        "published_by": "發佈者"
+      },
+      "other_posts": {
+        "more_from_blog": "更多部落格文章",
+        "community_posts": "其他社群文章",
+        "view_all": "查看所有社群部落格文章"
+      }
+    },
+    "index": {
+      "header": {
+        "title": "社群部落格",
+        "description_prefix": "影片與文章，來自",
+        "description_link": "Exercism 社群"
+      },
+      "highlighted_post": {
+        "view_more": "查看更多",
+        "read_more": "閱讀更多"
+      },
+      "other_posts": {
+        "title": "更多社群文章"
+      },
+      "rss": {
+        "title": "Exercism 的部落格",
+        "description": "隨時掌握 Exercism 的最新動態、認識我們的社群，並搶先了解即將推出的新功能！"
+      }
+    },
+    "info_bar": {
+      "time_ago": "%{time_ago_value}前",
+      "video_label": "影片"
+    }
+  },
+  "mentoring": {
+    "external": {
+      "show": {
+        "challenge_knowledge_heading": "挑戰你的知識",
+        "challenge_knowledge_description": "教學是鞏固自己知識最好的方式之一，能讓你發現自己的弱點，還能看見你從未想過的創新想法。",
+        "provide_opportunity_heading": "為他人提供機會",
+        "provide_opportunity_description": "導師能對學生的學習帶來巨大的影響，快速提升他們的技能。成為他人生命中改變的催化劑吧。",
+        "develop_soft_skills_heading": "培養你的「軟實力」",
+        "develop_soft_skills_description": "溝通、接受回饋等軟實力，是在任何領域或職業中成長的關鍵。",
+        "share_knowledge_heading": "與他人分享你的知識",
+        "share_knowledge_description": "引導是既有趣又有收穫的方式，既能強化你自己的學習，也能幫助別人學習、發現他們還不知道的東西。",
+        "earns_reputation": "引導也能獲得聲望。",
+        "unsure_mentor": "不確定自己能不能有效引導嗎？我們一些最優秀的導師也曾經擔心過。",
+        "signup_button": "註冊試試引導",
+        "login_button": "登入",
+        "video_title": "成為 Exercism 導師",
+        "why_mentor_heading": "為什麼要成為導師？"
+      },
+      "locked": {
+        "current_reputation": "你目前的聲望是",
+        "how_it_works": "這是怎麼運作的？",
+        "unlock_reputation_html": "達到 <a href=\"%{reputation_url}\" class=\"text-gradient !font-semibold\">%{reputation} 聲望</a> 即可解鎖引導功能"
+      }
+    },
+    "external_requests": {
+      "exercise_tag": {
+        "track_title_html": "在 %{track_title} 中"
+      },
+      "show_logged_out": {
+        "heading": "想引導 %{user_handle} 嗎？",
+        "description": "Exercism 讓你引導他人，幫助他們改進程式碼。",
+        "signup_button": "免費註冊",
+        "login_button": "登入",
+        "registration_note": "註冊之後，你可能需要回到這個連結。"
+      },
+      "show": {
+        "heading": "想引導 %{user_handle} 嗎？",
+        "description": "%{user_handle} 寄了私人邀請給你，請你引導他們的解法。",
+        "accept_button": "接受邀請",
+        "decline_button": "拒絕"
+      },
+      "show_not_mentor": {
+        "heading": "想引導 %{user_handle} 嗎？",
+        "description": "你需要先註冊成為導師，才能開始。",
+        "register_mentor_button": "註冊為導師",
+        "learn_more_button": "深入瞭解"
+      }
+    },
+    "requests": {
+      "unavailable": {
+        "unavailable": "很抱歉，這場引導已不再提供",
+        "back_to_list": "返回列表"
+      }
+    },
+    "automation": {
+      "tooltip_locked": {
+        "requirements_html": "需要在一個賽道上完成 <strong>%{min_finished_mentoring_sessions}</strong> 場引導，且整體滿意度評分達到 %{min_satisfaction_percentage}%%（目前為 %{satisfaction_percentage}%%）",
+        "finished_sessions_info": {
+          "other": "%{count}/%{min}（%{track_title} 賽道）"
+        },
+        "what_is_automation_heading": "什麼是自動化？",
+        "automation_description": "自動化讓你針對程式碼提交送出標準化的回覆，這些回覆會作為解答自動化回饋的一部分分享出去。",
+        "find_out_more_button": "進一步了解自動化"
+      }
+    }
+  },
+  "notifications": {
+    "student_finished_discussion": {
+      "1": "%{student_name} 已經結束了你在 %{track_title}：%{exercise_title} 中解法的引導討論\n"
+    },
+    "mentor_finished_discussion": {
+      "1": "%{mentor_name} 已經結束了關於你在 %{track_title}：%{exercise_title} 解法的討論\n"
+    },
+    "nudge_student_to_reply_in_discussion": {
+      "1": "<strong>%{mentor_name}</strong>正在等你回覆你針對<strong>%{track_title}</strong>中<strong>%{exercise_title}</strong>解法的討論\n"
+    },
+    "nudge_mentor_to_reply_in_discussion": {
+      "1": "<strong>%{student_name}</strong>正在等你回覆他們針對<strong>%{track_title}</strong>中<strong>%{exercise_title}</strong>解法的討論\n"
+    },
+    "mentor_timed_out_discussion_mentor": {
+      "1": "你針對<strong>%{student_name}</strong>在<strong>%{track_title}</strong>中<strong>%{exercise_title}</strong>解法的引導討論已逾時\n"
+    },
+    "mentor_timed_out_discussion_student": {
+      "1": "你在<strong>%{track_title}</strong>中<strong>%{exercise_title}</strong>解法的討論已逾時\n"
+    },
+    "student_timed_out_discussion_mentor": {
+      "1": "你針對<strong>%{student_name}</strong>在<strong>%{track_title}</strong>中<strong>%{exercise_title}</strong>解法的引導討論已逾時\n"
+    },
+    "student_timed_out_discussion_student": {
+      "1": "你在<strong>%{track_title}</strong>中<strong>%{exercise_title}</strong>解法的討論已逾時\n"
+    },
+    "eligible_for_insiders": {
+      "1": "加入 Exercism Insiders！\n"
+    },
+    "eligible_for_lifetime_insiders": {
+      "1": "加入 Exercism Lifetime Insiders！\n"
+    },
+    "expired_insiders": {
+      "1": "你的 Exercism Insiders 會員資格已到期。\n"
+    },
+    "upgraded_to_lifetime_insiders": {
+      "1": "你已升級為 Exercism Lifetime Insiders！\n"
+    },
+    "acquired_trophy": {
+      "1": "你在 %{track_title} 學習軌道獲得了 %{trophy_name} 獎盃\n"
+    },
+    "expired_premium": {
+      "1": "你的 Exercism Premium 會員資格已到期。\n"
+    },
+    "mentor_started_discussion": {
+      "1": "<strong>%{mentor_name}</strong>開始引導你對<strong>%{track_title}</strong>中<strong>%{exercise_title}</strong>的解答\n"
+    },
+    "mentor_replied_to_discussion": {
+      "1": "<strong>%{mentor_name}</strong>在你對<strong>%{track_title}</strong>中<strong>%{exercise_title}</strong>的解答上新增了一則留言\n"
+    },
+    "student_replied_to_discussion": {
+      "1": "<strong>%{student_name}</strong>在你正在引導的<strong>%{track_title}</strong>中<strong>%{exercise_title}</strong>解答上新增了一則留言\n"
+    },
+    "student_added_iteration": {
+      "1": "你的學生<strong>%{student_name}</strong>提交了對<strong>%{track_title}</strong>中<strong>%{exercise_title}</strong>解答的新疊代（#%{iteration_idx}）\n"
+    },
+    "added_to_contributors_page": {
+      "1": "你現在已經出現在我們的貢獻者頁面上。感謝你為 Exercism 貢獻！\n"
+    },
+    "automated_feedback_added": {
+      "1": "你對<strong>%{track_title}</strong>中<strong>%{exercise_title}</strong>解答的新疊代（#%{iteration_idx}）收到了新的回饋。我們 %{emphasis}建議你去看一看。\n"
+    },
+    "onboarding_community": {
+      "1": "社群是 Exercism 的核心。加入我們的論壇和 Discord 伺服器，享受我們的 YouTube 和 Twitch 頻道，並接受引導。了解更多…\n"
+    },
+    "onboarding_insiders": {
+      "1": "Exercism Insiders 是我們的獎勵計畫，獻給每一位支持我們在科技業創造平等機會這項使命的人。想了解更多，請參閱 Insiders 頁面。\n"
+    },
+    "nudge_to_request_mentoring": {
+      "1": "<strong>該找人引導你了！</strong>和我們的導師一起學習，是提升知識的絕佳方式，而且 100% 免費。選一個你的解答開始吧。\n"
+    }
+  },
+  "training_data": {
+    "external": {
+      "locked": {
+        "unlock_info_html": "當你在單一軌道中達到 <a href=\"%{reputation_link}\" class=\"text-gradient !font-semibold\">%{track_min_reputation} 聲望</a> 時，就能解鎖使用 Training Hub 的功能",
+        "max_reputation_html": "你目前在單一軌道中的最高聲望是",
+        "no_reputation": "你還沒有在任何軌道中獲得聲望。",
+        "how_it_works": "這是怎麼運作的？"
+      },
+      "index": {
+        "title": "幫助我們打造更聰明的 Exercism",
+        "description": "我們正在運用機器學習，透過結合自家資料與群眾外包的力量，提升 Exercism 理解使用者提交程式碼的能力。",
+        "bonus_reputation": "額外好處：幫助我們還能賺取聲望！",
+        "become_trainer": "成為訓練員 →",
+        "sign_up_to_help": "註冊來幫我們一把",
+        "log_in": "登入"
+      }
+    },
+    "header": {
+      "title": "訓練資料",
+      "tagging_guides": "標記指南",
+      "tags": "標籤"
+    }
+  },
+  "unsubscribe": {
+    "show": {
+      "title": "管理你的通訊偏好設定",
+      "single_email_unsubscribe": {
+        "heading": "取消訂閱這封電子郵件",
+        "button": "取消訂閱電子郵件"
+      },
+      "all_emails_unsubscribe": {
+        "heading": "取消訂閱所有電子郵件",
+        "button": "取消訂閱所有電子郵件"
+      },
+      "manage_notifications": {
+        "heading_signed_in": "管理你所有的通知",
+        "heading_signed_out": "管理你所有的通知",
+        "login_prompt": "請登入以管理個別的通訊偏好設定",
+        "login_link": "登入"
+      }
+    }
+  },
+  "user_onboarding": {
+    "show": {
+      "header": {
+        "title": "在你開始之前……📝",
+        "subtitle_html": "我們非常開心你能來到這裡，也希望 Exercism 能為你帶來充實又充滿樂趣的體驗。<strong>我們需要先快速處理幾項法律事項，確保你能獲得期待的體驗，同時保護我們的社群。</strong>"
+      },
+      "terms_section": {
+        "title": "我們的服務條款",
+        "summary": "簡單來說，我們的服務條款規定：",
+        "code_of_conduct_html": "你必須依照我們的 %{code_of_conduct_link}，以符合 Exercism 尊重與同理價值觀的方式行事。若你未遵守，我們有權封鎖你使用本平台。",
+        "property_license": "你提交到網站上的任何內容（例如你的解法、回饋等）仍屬於你的財產，但你授予 Exercism 永久且可自由使用的授權。",
+        "licences_html": "你可以依據 %{mit_license_link} 與 %{cc_sa_4_license_link}，分別使用練習（由 Exercism 提供）與解法（由使用者創作）。",
+        "full_terms_html": "你可以閱讀我們完整的 %{terms_of_service_link}。",
+        "code_of_conduct_link_text": "行為準則",
+        "terms_of_service_link_text": "服務條款",
+        "accept_terms": "我接受 Exercism 的服務條款"
+      },
+      "privacy_policy_section": {
+        "title": "隱私權政策",
+        "summary_html": "我們的隱私權政策簡單明瞭：<strong>我們絕不會把你的個人資料分享給 Exercism 以外的任何人，</strong>而且我們不使用第三方 cookie，所以不會有人在這裡追蹤你。你可以 %{privacy_policy_link}。",
+        "privacy_policy_link_text": "在這裡閱讀完整內容",
+        "accept_privacy_policy": "我接受 Exercism 的隱私權政策"
+      },
+      "save_button": "儲存並開始"
+    }
+  },
+  "serializers": {
+    "track_for_select": {
+      "all_tracks": "所有 Track"
+    },
+    "profile_image": {
+      "metric": {
+        "publishing": {
+          "other": "已發表 %{count} 個解答"
+        },
+        "mentoring": {
+          "other": "已引導 %{count} 位學生"
+        },
+        "authoring": {
+          "other": "已貢獻 %{count} 個練習／文章"
+        },
+        "building": {
+          "other": "已接受 %{count} 個 PR"
+        },
+        "maintaining": {
+          "other": "已審查 %{count} 個 PR"
+        }
+      }
+    }
+  },
+  "site_updates": {
+    "new_exercise": {
+      "1": "<em>%{maker_handles}</em>發表了新的練習：<a href=\"%{exercise_url}\">%{exercise_title}</a>\n"
+    },
+    "new_concept": {
+      "1": "<em>%{maker_handles}</em>發表了新的概念：<a href=\"%{concept_url}\">%{concept_name}</a>\n"
+    },
+    "arbitrary": {
+      "1": "<em>%{author_handle}</em>發表了一則新消息。\n"
+    }
+  },
+  "user_activities": {
+    "started_exercise": {
+      "1": "你開始了<strong>%{exercise_title}</strong>\n"
+    },
+    "submitted_iteration": {
+      "1": "你提交了<strong>第 %{iteration_idx} 次疊代</strong>\n"
+    },
+    "completed_exercise": {
+      "1": "你完成了<strong>%{exercise_title}</strong>\n"
+    },
+    "published_exercise": {
+      "1": "你發表了<strong>%{exercise_title}</strong>\n"
+    }
+  },
+  "user_preferences": {
+    "auto_update_exercises": "如果我的解答能通過練習最新版本的測試，就自動將解答更新到最新版本",
+    "allow_comments_on_published_solutions": "允許其他人對我日後發表的解答留言"
+  },
+  "images": {
+    "solution": {
+      "solution_track_title": "%{track_title} 學習路徑。",
+      "solution_by_handle": "%{handle}",
+      "solution_to": "的解法：",
+      "solution_on_exercism_track": "在 Exercism 的"
+    },
+    "profile": {
+      "badge_icon_alt": "徽章：%{badge_name}",
+      "founder_title": "Exercism 創辦人"
+    }
+  },
+  "localization": {
+    "translators": {
+      "new": {
+        "hero": {
+          "title": "用你的語言學 Exercism",
+          "subtitle_html": "我們正在把 Exercism 翻譯成<strong>所有語言</strong>，而且我們<strong>需要你的幫忙！</strong>",
+          "description": "如果你想幫忙把 Exercism 翻譯成你會的語言，請填寫下方的表單，我們會在接下來幾週內與你聯繫，告訴你詳細資訊！"
+        },
+        "call_to_action": {
+          "join_team_signed_out": "加入團隊！",
+          "login_prompt_html": "想參與我們的翻譯專案，請登入 Exercism（如果你是新來的，也可以建立一個帳號！）",
+          "log_in_button": "登入",
+          "sign_up_button": "註冊",
+          "join_team_signed_in": "加入團隊！",
+          "choose_languages_description": "選擇最多 5 個你想協助翻譯的語言。"
+        },
+        "form": {
+          "signed_up_title": "你已經報名成為翻譯志工了！",
+          "signed_up_description_html": "<strong>謝謝你！我們很快就會與你聯繫！</strong>這些是你報名協助翻譯 Exercism 的語言。",
+          "select_language_prompt_first": "請至少選擇一種語言……",
+          "update_languages_button": "更新你的語言",
+          "become_translator_button": "成為翻譯志工！"
+        },
+        "faq": {
+          "title": "常見問題",
+          "what_it_involves_question": "當翻譯志工需要做什麼？",
+          "what_it_involves_answer": "翻譯志工會協助我們把 Exercism 網站、文件和其他內容翻譯成自己選擇的語言。工作內容包括翻譯文字、審閱翻譯，並確保內容符合當地文化且正確無誤。我們會先產生機器翻譯，再請翻譯志工審閱並改善。",
+          "time_commitment_question": "需要花多少時間？",
+          "time_commitment_answer": "你可以依自己願意投入的時間來參與。我們希望為每種語言組成大型的翻譯團隊，讓大家可以一起合作，快速為我們交出很棒的初版翻譯。",
+          "payment_reward_question": "有酬勞或回饋嗎？",
+          "payment_reward_answer_html": "Exercism 的所有內容都是由願意付出時間幫助他人的志工所建立的。和網站其他部分一樣，協助翻譯沒有金錢報酬，但你會<strong>獲得 Exercism 聲望值</strong>，讓你的公開個人檔案更亮眼！",
+          "when_start_question": "什麼時候開始？",
+          "when_start_answer": "很快！我們目前正在完成你之後會用到的介面，並建立最初的機器翻譯。我們希望在九月初就能為你準備好！"
+        }
+      }
+    }
+  },
+  "donations_mailer": {
+    "payment_created": {
+      "title": "非常感謝你！",
+      "subject": "感謝你的捐款",
+      "body_markdown": "%{user_handle} 你好：\n\n謝謝你的捐款！Exercism 的存在，就是為了把寫程式的樂趣帶給世界上的每一個人。  \n你的捐款讓我們所做的每一件事都能實現。\n\n你可以在設定頁面查看你對 Exercism 的所有捐款，並下載收據。  \n如果你對捐款有任何疑問，請直接回覆這封郵件。\n\n再次感謝你！\n\n[查看你的捐款](%{donations_url})"
+    }
+  },
+  "notifications_mailer": {
+    "eligible_for_lifetime_insiders": {
+      "subject": "你符合 Exercism Insiders 的資格",
+      "body_markdown": "嘿！\n\n很高興告訴你，你符合 Exercism Insiders 的資格。Insiders 是我們為貢獻、引導或捐款給 Exercism 的人所設的回饋方案。  \n你可以在[Insiders 頁面](%{insiders_url})啟用你的 Insiders 帳號。\n\nInsiders 會給你一些額外好處：\n\n- 可以使用超性感的深色模式\n- 整合 ChatGPT，在你卡在練習題時幫上一把\n- 幕後內容。你可以觀看我和團隊的影片，在我們開發 Exercism 的過程中隨時掌握最新動態。\n- 更貼近團隊與關鍵社群成員，還有專屬的 #insiders Discord 頻道。\n- 額外的引導名額。\n- 專屬徽章\n- 還有更多！\n\n我們已經授予你**終身**資格，也就是說你可以永遠使用 Insiders。  \n[Insiders 頁面](%{insiders_url})裡有更多詳細資訊，或者觀看下方影片了解更多 👇\n\n<a href=\"https://www.youtube.com/watch?v=iwhahd41h0A\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"https://assets.exercism.org/images/thumbnails/introducing-insiders-with-play-icon.jpg\" style=\"width:100%; display:block\" />\n</a>\n\n非常感謝你參與 Exercism 的故事。真心希望你會喜歡 Insiders！\n\nJeremy Walker  \nExercism 共同創辦人暨執行長\n\n[啟用 Insiders](%{insiders_url})"
+    },
+    "student_timed_out_discussion_student": {
+      "title": "你的討論已逾時",
+      "subject": "你在 %{track_title}/%{exercise_title} 的引導討論已逾時",
+      "body_markdown": "%{user_handle} 你好：\n\n你與 %{discussion_mentor_handle} 針對你在 %{track_title} 上 %{exercise_title} 的解答所進行的討論已經逾時。\n\n[前往討論](%{discussion_url})\n"
+    },
+    "nudge_mentor_to_reply_in_discussion": {
+      "title": "你的學生已經等你回覆 %{num_days_waiting} 天了",
+      "subject": "%{student_handle} 正在等你回覆（%{num_days_waiting} 天提醒）",
+      "body_markdown": "%{user_handle} 你好：\n\n這是一封溫馨提醒：你的學生（%{student_handle}）在[這個討論](%{discussion_url})裡等你回覆他對 %{track_title} 上 %{exercise_title} 的解答，已經等了 %{num_days_waiting} 天。\n\n如果還沒輪到你，而是你在等學生，請使用引導介面中的「輪到學生了…」按鈕。\n\n如果你沒有回覆，討論將在 %{num_days_to_time_out} 天後逾時。\n\n[前往討論](%{discussion_url})"
+    },
+    "joined_insiders": {
+      "subject": "歡迎加入 Exercism Insiders",
+      "body_markdown": "嗨！\n\n歡迎加入 [Exercism Insiders](https://exercism.org/insiders)！  \n謝謝你成為我們故事的一部分，幫助 Exercism 成為今天如此成功的平台。  \nInsiders 是我們感謝你支持的一點小心意。\n\n想了解 Insiders 裡有什麼，請看看 [Insiders 頁面](https://exercism.org/insiders)，  \n或觀看下方我們的介紹影片 👇\n\n<a href=\"%{youtube_video_url}\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"%{youtube_thumbnail_url}\" style=\"width:100%; display:block\" />\n</a>\n\n我很想在我們專屬的 Discord [#insiders 頻道](https://discord.com/channels/854117591135027261/1103737555490447460) 聽聽你所有的想法和點子。  \n所以來打聲招呼吧！\n\n謝謝你參與我們的旅程。我很期待接下來的一切 🙂\n\nJeremy Walker  \nExercism 的共同創辦人兼執行長\n\n[造訪 Exercism](%{root_url})"
+    },
+    "joined_exercism": {
+      "subject": "歡迎加入 Exercism",
+      "body_markdown": "嗨，\n\n歡迎加入 [Exercism](https://exercism.org)！  \n很開心你能成為我們社群的一員，也期待在你更深入程式設計旅程時一路幫助你。\n\nExercism 的設計目的，是幫助你深入了解你選擇學習的任何程式語言。  \n我們是註冊的非營利組織，而且完全免費。\n\n我準備了這支影片（你註冊時可能看過），帶你了解幾個重點 👇\n\n<a href=\"%{youtube_video_url}\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"%{youtube_thumbnail_url}\" style=\"width:100%; display:block\" />\n</a>\n\n如果你卡住了或有任何問題，歡迎到[我們的論壇](https://forum.exercism.org)發問。  \n我們的社群友善又樂於助人，我們隨時都很樂意幫忙。  \n我們相信學習是彼此合作的事，大家都能互相學習。\n\n最後，別錯過我們的 [YouTube 頻道](https://www.youtube.com/@Exercism_org)，我們在那裡分享關於 Exercism 的有趣訪談、實作導覽和教學。  \n也許你會找到一些讓學習旅程更有趣的小技巧。\n\n祝你今天愉快！\n\nJeremy Walker  \nExercism 的共同創辦人兼執行長\n\n[造訪 Exercism](%{root_url})"
+    },
+    "eligible_for_insiders": {
+      "subject": "你符合 Exercism Insiders 的資格",
+      "body_markdown": "嗨！\n\n很開心地通知你，你符合 Exercism Insiders 的資格，這是我們為貢獻、引導或捐款給 Exercism 的人所準備的回饋方案。\n你可以在 [Insiders 頁面](%{insiders_url})啟用你的 Insiders 帳號。\n\nInsiders 給你三大好處：\n1. 免費享有 Exercism Premium。你現在可以使用深色模式、ChatGPT 整合、更多引導名額等等。\n2. 幕後內容。你可以觀看我和團隊的影片，在我們開發 Exercism 的過程中隨時掌握最新消息。\n3. 更貼近團隊與社群核心成員，還有專屬的 Discord #insiders 頻道。\n\nInsiders 頁面裡有更多詳細資訊！\n只要你持續貢獻、引導或捐款，你的 Insiders 資格就會一直保留。\n達到特定門檻後，你還可以獲得終身 Insiders 資格。\n\n非常謝謝你參與 Exercism 的故事。真心希望你喜歡 Insiders！\n\nJeremy Walker\nExercism 的共同創辦人兼執行長\n\n啟用 Insiders：%{insiders_url}\n"
+    },
+    "mentor_finished_discussion": {
+      "title": "你的導師已結束討論",
+      "subject": "%{mentor_handle} 已結束你在 %{track_title}/%{exercise_title} 的討論",
+      "body_markdown": "嗨 %{user_handle}，\n\n你的導師（%{mentor_handle}）已經結束你在 %{track_title} 賽道 %{exercise_title} 練習解答的討論。\n\n[前往討論](%{discussion_url})"
+    },
+    "joined_lifetime_insiders": {
+      "subject": "歡迎加入 Exercism 終身 Insiders",
+      "body_markdown": "嗨！\n\n歡迎加入 [Exercism Insiders](%{insiders_url})！  \n謝謝你成為我們故事的一部分，幫助 Exercism 成為今天如此成功的平台。  \n身為 **終身 Insider**，你是少數對這個平台有巨大影響、把它塑造成今天樣子的人之一。  \n你幫助了成千上萬的人，帶來了巨大的改變，謝謝你。  \nInsiders 是我們感謝你付出的一點微薄心意。\n\n想了解 Insiders 裡有什麼，請看看專屬頁面，或觀看下方我們的介紹影片 👇\n\n<p style=\"margin-bottom: 24px\">\n  <a href=\"%{youtube_video_url}\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n    <img src=\"%{youtube_thumbnail_url}\" style=\"width:100%; display:block\" />\n  </a>\n</p>\n\n我很想在我們專屬的 Discord [#insiders 頻道](%{discord_channel_url}) 聽聽你所有的想法和點子。  \n所以來打聲招呼吧！\n\n再次謝謝你參與 Exercism。我很期待接下來的一切！🙂\n\nJeremy Walker  \nExercism 的共同創辦人兼執行長\n\n[造訪 Exercism](%{root_url})\n"
+    },
+    "student_replied_to_discussion": {
+      "title": "你的學生回覆了",
+      "subject": "%{student_handle} 在你在 %{track_title}/%{exercise_title} 的討論中留言了",
+      "body_markdown": "嗨 %{user_handle}，\n\n你的學生（%{student_handle}）在你於 %{track_title} 賽道 %{exercise_title} 練習的討論中留言了。\n\n[前往討論](%{discussion_url})"
+    },
+    "nudge_to_request_mentoring": {
+      "title": "用導師的回饋讓自己更上一層樓！",
+      "subject": "用導師的回饋讓自己更上一層樓",
+      "body_markdown": "嗨 %{user_handle}，\n\n你已經完成了幾個練習（做得好！），但還沒有為任何一個解答申請引導。\n\n接受導師的回饋，是發現自己知識缺口、讓技能更上一層樓的好方法。這是 Exercism 最有價值的功能之一，而且和 Exercism 的一切一樣，完全免費！\n\n挑一個你覺得最有進步空間的解答，請導師看看。他們應該會在一天左右回覆你一些想法！\n\n[選擇一個解答 →](%{notification_url})\n"
+    },
+    "student_added_iteration": {
+      "title": "你的學生提交了新的疊代",
+      "subject": "%{student_handle} 在你於 %{track_title}/%{exercise_title} 引導的解答上提交了新的疊代",
+      "body_markdown": "嗨 %{user_handle}，\n\n你的學生（%{student_handle}）在你於 %{track_title} 賽道 %{exercise_title} 練習的討論中提交了新的疊代（%{iteration_number}）。\n\n[前往討論](%{discussion_url})"
+    },
+    "acquired_trophy": {
+      "title": "有個新獎盃等著你來揭曉！",
+      "subject": "你解鎖了一個新獎盃",
+      "body_markdown": "嗨 %{user_handle}，\n\n恭喜！你在 %{track_title} 賽道解鎖了一個新獎盃。\n前往 %{track_title} 賽道頁面，看看獎盃櫃裡你贏得了什麼。\n[讓我看看我解鎖了什麼！](%{track_url})\n"
+    },
+    "expired_insiders": {
+      "subject": "Exercism Insiders 會籍已到期",
+      "body_markdown": "嗨，\n\n你對 [Exercism Insiders](%{insiders_url}) 的存取權限已經到期。\n\n謝謝你支持 Exercism。我們已經幫助超過 100 萬人免費提升程式設計能力，而我們正是靠像你這樣的人來支持我們。真的很謝謝你願意這麼做。\n\n如果你想繼續支持我們，那對我們意義重大。\n你可以在 [Insiders 頁面](%{insiders_url}) 設定新的定期捐款。\n\n祝你今天過得愉快！\n\nJeremy Walker\nExercism 共同創辦人暨執行長\n\n[造訪 Exercism](%{root_url})\n"
+    },
+    "mentor_timed_out_discussion_student": {
+      "title": "你的討論已逾時",
+      "subject": "你在 %{track_title}/%{exercise_title} 的解答討論已逾時",
+      "body_markdown": "嗨，%{user_handle}：\n\n你和 %{mentor_handle} 在 %{track_title} 學習軌道上針對 %{exercise_title} 解答的討論已逾時。\n\n[前往討論](%{discussion_url})"
+    },
+    "onboarding_insiders": {
+      "subject": "你知道我們是非營利組織嗎？",
+      "body_markdown": "嗨，\n\n希望到目前為止你喜歡 [Exercism](https://exercism.org)！  \n你知道**我們是非營利組織**嗎？  \n我們希望每個人都能從 Exercism 受益，不論他們有多少錢，所以我們讓網站完全免費。\n\n為了做到這件事，我們靠捐款來維持 Exercism 運作。  \n我們的營運非常精簡，而且考量到我們服務超過 150 萬人，我們的花費非常低（每年約 25 萬美元）。  \n我錄了一段影片，說明更多細節 👇\n\n<a href=\"%{video_url}\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923; margin-bottom:16px\">\n  <img src=\"%{video_thumbnail_url}\" style=\"width:100%; display:block\" />\n</a>\n\n如果你覺得 Exercism 對你有幫助，而且負擔得起，請透過捐款支持我們。  \n不過，如果你負擔不起，請知道這不是必要條件，我們的平台永遠免費為你開放。\n\n你的支持，無論是捐款或單純幫 Exercism 宣傳，都對我們達成社會使命至關重要。  \n每一分心力都很重要，能幫助我們把優質的程式設計教育帶給全世界更多人。\n\n謝謝你成為我們社群的一份子，也謝謝你支持我們的社會使命。  \n期待看到你用 Exercism 達成所有了不起的成就。\n\n祝好，  \n\nJeremy Walker  \nExercism 共同創辦人暨執行長\n\n[造訪 Exercism](%{root_url})"
+    },
+    "acquired_badge": {
+      "title": "有新的徽章等著你來揭曉！",
+      "subject": "你解鎖了新徽章",
+      "body_markdown": "嗨，%{user_handle}：\n\n恭喜！你在 Exercism 解鎖了新徽章。\n前往你的 Exercism 旅程頁面，看看你獲得了什麼。\n\n[看看我解鎖了什麼！](%{journey_url})\n"
+    },
+    "onboarding_community": {
+      "subject": "你在 Discord 或我們的論壇打過招呼了嗎？",
+      "body_markdown": "嗨！\n\n希望你在 [Exercism](https://exercism.org) 的頭幾天過得愉快。  \n在你繼續探索我們平台的同時，我想花點時間跟你介紹我們很棒的社群。\n\nExercism 是一個開源、由社群驅動的專案。  \n事實上，我們是 [GitHub](https://github.com/exercism/) 上最大的開源組織之一，擁有超過 350 個儲存庫。  \n我們的社群以同理心、善意與包容這些價值為核心。  \n看看這段影片，或繼續往下讀 👇\n\n<a href=\"%{youtube_video_url}\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"%{youtube_thumbnail_url}\" style=\"width:100%; display:block\" />\n</a>\n\n我們有幾個社群空間，你可能會覺得有趣又好玩：\n\n- 我們的 [Discord](https://exercism.org/r/discord) 頻道是跟 Exercism 社群交流、參加社群通話，以及快速取得支援的好地方。\n- 我們的 [論壇](https://exercism.org/r/forum) 很適合提出需要長篇回答的問題、分享想法，以及和其他熱愛寫程式的人交流。\n- 我們的 [YouTube 頻道](https://exercism.org/r/youtube) 集結了我們最棒的影片內容，包括教學導覽、Exercism 最新消息、社群故事，以及與業界專家的訪談。\n- 在 [Twitch](https://exercism.org/r/twitch) 上，我們會直播社群成員與程式生態圈嘉賓的節目。\n\n我們很希望你能加入，成為我們社群的活躍成員。  \n無論你是經驗豐富的開發者，還是剛起步，這裡都有你的位置。  \n所以別害羞，來打聲招呼、一起參與吧！\n\n祝好，  \n\nJeremy Walker  \nExercism 共同創辦人暨執行長\n\n[造訪 Exercism](%{root_url})"
+    },
+    "onboarding_product": {
+      "subject": "你在 Exercism 過得如何？",
+      "body_markdown": "嗨，\n\n距離你註冊 [Exercism](https://exercism.org) 大約過了一天，我想問問你目前適應得如何？\n\n有時候 Exercism 一開始會讓人有點招架不住。有些人會有點迷失，覺得很多東西不太能理解。  \n如果你卡住了，可以到我們的 [Discord](https://exercism.org/r/discord) 或 [論壇](https://exercism.org/r/forum) 求助。  \n知道大家在哪些地方卡關，對我們來說很有幫助，這樣我們才能修正，所以請不要害怕開口！\n\n如果你還沒開始探索任何程式語言，我們有超過 65 種可以選，包括最廣泛使用的語言（例如 Python、JavaScript、C#）、當紅的後起之秀（例如 Go、Elixir、Rust），以及一些相當特別、冷門的語言（例如 8th、COBOL、Prolog）。  \n這裡有好多東西可以學，也充滿樂趣！\n\n最後再提醒一次，Exercism 是 100% 免費、開源，而且是非營利組織。好好享受吧！\n\n祝好，  \n\nJeremy Walker  \nExercism 共同創辦人暨執行長\n\n[造訪 Exercism](%{root_url})"
+    },
+    "mentor_timed_out_discussion_mentor": {
+      "title": "你的引導時段已逾時",
+      "subject": "由於你未回覆，你的引導時段已逾時。",
+      "body_markdown": "嗨，%{user_handle}：\n\n你和學員（%{student_handle}）在 %{track_title} 學習軌道上針對他對 %{exercise_title} 的解答所進行的討論已逾時。\n\n[前往討論](%{discussion_url})"
+    },
+    "mentor_started_discussion": {
+      "title": "你的解答正在接受引導",
+      "subject": "%{mentor_handle} 已開始在 %{track_title}/%{exercise_title} 引導你",
+      "body_markdown": "嗨，%{user_handle}：\n\n有位導師（%{mentor_handle}）已開始引導你在 %{track_title} 學習軌道上 %{exercise_title} 的解答。\n\n[前往討論](%{discussion_url})"
+    },
+    "student_finished_discussion": {
+      "title": "你的學員已結束討論",
+      "subject": "%{student_handle} 已結束你在 %{track_title}/%{exercise_title} 的討論",
+      "body_markdown": "嗨，%{user_handle}：\n\n你的學員（%{student_handle}）已結束你在 %{track_title} 學習軌道上為 %{exercise_title} 引導的討論。\n\n[前往討論](%{discussion_url})"
+    },
+    "automated_feedback_added": {
+      "title": "有新的自動化回饋",
+      "subject": "你在 %{track_title}/%{exercise_title} 的解答有新的回饋",
+      "body_markdown": "嗨，%{user_handle}：\n\n你在 %{track_title} 學習軌道上 %{exercise_title} 的解答，其疊代（#%{iteration_idx}）有新的回饋。我們%{emphasis}建議你來看看，想想怎麼改善你的解答！\n\n前往該疊代：%{iteration_url}\n"
+    },
+    "upgraded_to_lifetime_insiders": {
+      "subject": "你已升級為 Exercism 終身 Insiders 會員",
+      "body_markdown": "嗨！\n\n我很開心地通知你，你已升級為 [Exercism Insiders](https://exercism.org/insiders) 的終身會員！\n\n身為終身 Insider，你是少數對這個平台帶來巨大影響、把它塑造成今天這個樣子的人。  \n你幫助了成千上萬的人，帶來巨大的改變，謝謝你。  \nInsiders 是我們對你所做一切表達感謝的一點小心意。\n\n恭喜你達到終身會員的門檻，也再次謝謝你成為 Exercism 的一份子 🙂\n\nJeremy Walker  \nExercism 共同創辦人暨執行長\n\n[造訪 Exercism](%{root_url})"
+    },
+    "nudge_student_to_reply_in_discussion": {
+      "title": "你的導師已經等你回覆 %{num_days_waiting} 天了",
+      "subject": "你的導師已經等你回覆 %{num_days_waiting} 天了。",
+      "body_markdown": "嗨，%{user_handle}：\n\n這是一則溫馨提醒：你的導師（%{mentor_handle}）已經等你 %{num_days_waiting} 天了，等你在[討論](%{discussion_url})中回覆你在 %{track_title} 學習軌道上 %{exercise_title} 的解答。\n\n如果你其實是在等導師回覆，請在討論中留言讓他知道。\n\n如果你沒有回覆，討論將在 %{num_days_to_time_out} 天後逾時。\n\n[前往討論](%{discussion_url})"
+    },
+    "added_to_contributors_page": {
+      "title": "你正式成為 Exercism 的貢獻者了！",
+      "subject": "你已被加入 Exercism 的貢獻者頁面",
+      "body_markdown": "嗨，%{user_handle}：\n\n你現在已被加入 Exercism 的官方貢獻者名單，並出現在我們的貢獻者頁面上。\n\n非常謝謝你成為 Exercism 的一份子，協助我們盡可能為更多人提供免費、世界級的程式設計教育。\n\n[探索貢獻者頁面](%{contributors_url})\n"
+    },
+    "mentor_replied_to_discussion": {
+      "title": "你的導師回覆了",
+      "subject": "%{mentor_handle} 在你的 %{track_title}/%{exercise_title} 討論中留言了",
+      "body_markdown": "嗨，%{user_handle}：\n\n你的導師（%{mentor_handle}）在你有關 %{track_title} 學習軌道上 %{exercise_title} 的討論中留言了。\n\n[前往討論](%{discussion_url})\n"
+    },
+    "student_timed_out_discussion_mentor": {
+      "title": "你學員的討論已逾時",
+      "subject": "由於學員未回覆，你的引導時段已逾時。",
+      "body_markdown": "嗨，%{user_handle}：\n\n你和學員（%{student_handle}）在 %{track_title} 學習軌道上針對他對 %{exercise_title} 的解答所進行的討論已逾時。\n\n[前往討論](%{discussion_url})\n"
+    }
+  },
+  "premium_mailer": {
+    "payment_created": {
+      "body_markdown": "嗨 %{user_handle}，\n\n謝謝你捐款給 Exercism！你的付款除了讓你獲得一些有趣的福利，也讓 Exercism 的核心產品能繼續免費提供給所有人。所以，謝謝你。\n\n你可以在設定頁面查看你付給 Exercism 的所有款項，並下載收據。如果你對付款有任何問題，請直接回覆這封電子郵件。\n\n希望你喜歡 Exercism Insiders！\n"
+    }
+  },
+  "exercises": {
+    "documents": {
+      "welcome": "歡迎來到 Exercism %{track_title} 賽道上的 %{exercise_title}。",
+      "help_reference": "如果你在執行測試或提交程式碼時需要協助，請參閱`HELP.md`。",
+      "hints_reference": "如果你卡在這個練習上，可以參閱`HINTS.md`，不過先試著不要用它，自己解解看 :)",
+      "tests_header": "執行測試",
+      "submitting_solution_header": "提交你的解答",
+      "submitting_solution": "你可以使用`exercism submit %{solution_file_paths}`指令提交你的解答。\n這個指令會把你的解答上傳到 Exercism 網站，並印出解答頁面的網址。\n\n你也可以提交尚未完成的解答，這麼做可以讓你：\n\n- 看看其他人如何完成這個練習\n- 向導師尋求協助",
+      "help_header": "需要協助嗎？",
+      "help_intro": "如果你想找人幫忙解這個練習，請看看下列頁面：",
+      "help_check_pages": "如果這些資源還不夠，請看看下列頁面：",
+      "help_pages": "- [%{track_title} 賽道的說明文件](https://exercism.org/docs/tracks/%{track_slug})\n- [論壇上 %{track_title} 賽道的程式設計分類](https://forum.exercism.org/c/programming/%{track_slug})\n- [論壇上 Exercism 的程式設計分類](https://forum.exercism.org/c/programming/5)\n- [常見問題](https://exercism.org/docs/using/faqs)",
+      "help_submit_incomplete": "如果這些資源還不夠，你也可以提交（尚未完成的）解答來請求引導。"
+    }
+  },
+  "favorites": {
+    "index": {
+      "heading": "你的收藏",
+      "intro_html": "在使用 Exercism 的過程中，把你最喜歡的解法加上星號，之後隨時回到這裡向它們學習。你能找到哪些%{highlight}",
+      "intro_highlight": "讓你印象深刻、啟發你或讓你興奮的解法？",
+      "insider_benefit_html": "收藏是 %{insiders_link} 會員的專屬福利之一。",
+      "insiders_link_text": "Exercism Insiders",
+      "upgrade_prompt_html": "透過 %{insiders_link} 解鎖完整的收藏功能。%{upgrade_link}就能儲存超過 10 個收藏，並加入搜尋與篩選功能！",
+      "upgrade_link_text": "升級你的帳號"
+    }
+  },
+  "generic_exercises": {
+    "approaches": {
+      "meta_title": "在 Exercism 上探索 %{ps_data_title} 的各種解法",
+      "meta_description": "探索 %{ps_data_title} 的各種解法。",
+      "title": "%{exercise_title} 的各種解法",
+      "back_to_exercise": "← 回到練習"
+    },
+    "show": {
+      "meta_title": "在 Exercism 上解開 %{ps_data_title}",
+      "meta_description": "你能解開 %{ps_data_title} 嗎？在我們世界級導師團隊的支持下，提升你的程式設計與解題能力。",
+      "deep_dive_section": {
+        "title": "深入探索 %{exercise_title}！"
+      },
+      "instructions_section": {
+        "title": "說明",
+        "intro_video_text": "觀看我們的「Introduction to Hello, World」影片，開始動手吧 👇"
+      },
+      "source_section": {
+        "title": "來源",
+        "explore_source_html": "探索<a href=\"%{source_url}\" target=\"_blank\" rel=\"noopener noreferrer\">這個練習的來源</a>。\n"
+      },
+      "featured_in_2024_section": {
+        "challenge_title": "是 #48in24 的一部分",
+        "challenge_text_html": "%{exercise_title} 是 %{challenge_link} 的精選練習之一。在 %{languages} 中解開它，就能獲得金牌獎。",
+        "challenge_link_text": "#48in24 挑戰"
+      },
+      "track_variants_section": {
+        "title": "試試用 %{size} 種不同語言解開 %{exercise_title}……",
+        "completed_languages": {
+          "other": "到目前為止，你已經用 %{count} 種語言完成它了。"
+        },
+        "not_yet_completed": "你還沒有用任何語言完成它。"
+      }
+    }
+  },
+  "helpers": {
+    "links": {
+      "opens_in_new_window": "連結會在新視窗或分頁中開啟"
+    },
+    "meta_tags": {
+      "default_description": "用超過 50 種語言學習、練習，並獲得世界級的引導。100% 免費。",
+      "track": {
+        "title": "Exercism 上的 %{track_title}",
+        "description": "透過解開 %{num_exercises} 個練習，讓你精通 %{track_title}。接著再透過我們世界級團隊的引導更上一層樓。"
+      },
+      "concept": {
+        "title": "Exercism 上 %{track_title} 裡的 %{concept_name}",
+        "description": "在我們世界級團隊的支持下，透過解開 %{num_exercises} 個練習，精通 %{track_title} 裡的 %{concept_name}。"
+      },
+      "exercise": {
+        "title": "Exercism 上 %{track_title} 裡的 %{exercise_title}",
+        "description": "你能解開 %{track_title} 裡的 %{exercise_title} 嗎？在我們世界級導師團隊的支持下，提升你的 %{track_title} 技巧。"
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "track:blurb": "TODO：新增簡介",
+  "exercise:hello-world:name": "哈囉，世界",
+  "exercise:hello-world:blurb": "經典的入門練習。只要說出 \"Hello, World!\" 就好。",
+  "exercise:hello-world:source": "這是一個向使用者介紹如何使用 Exercism 的練習"
+}
