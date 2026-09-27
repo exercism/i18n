@@ -564,7 +564,7 @@
   "concept:multiple-return-values:blurb": "A függvények több visszatérési értéket is visszaadhatnak.",
   "concept:numbers:blurb": "A Go-ban több típus is szolgál egész számok, lebegőpontos és akár komplex számok ábrázolására!",
   "concept:packages:blurb": "A csomagok a kód újrafelhasználásának egységei Go-ban.",
-  "concept:range-iteration:blurb": "A Go-nak van egy speciális „for range” ciklusa, amellyel könnyedén bejárhatók az adatgyűjtemények.",
+  "concept:range-iteration:blurb": "A „for range” szintaxis többféleképpen is megismételhet egy kódblokkot.",
   "concept:randomness:blurb": "Generálj álvéletlen egész és lebegőpontos számokat.",
   "concept:regular-expressions:blurb": "A reguláris kifejezés olyan karaktersorozat, amely egy keresési mintát ír le.",
   "concept:runes:blurb": "A rune-ok képviselik a Unicode-karaktereket a Go stringjeiben.",

@@ -802,7 +802,8 @@ This page is generated from [the index](../../json/hu/go.json) by `scripts/build
 ### Airport Robot (Repülőtéri robot)
 
 - `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/airport-robot/.docs/instructions.md)): [Latest](../../../locales/hu/content/5b/0b/8bbdbd9432f10e9186fe8dab790a971466b2.md)
-- `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/airport-robot/.docs/introduction.md)): [Latest](../../../locales/hu/content/cc/ec/73a8275b7d395d9da607c3207f861befaa46.md)
+- `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/airport-robot/.docs/introduction.md)): [Latest](../../../locales/hu/content/e0/ee/cf5f7b558bf10ec634f7f9546ab7a1bdb31f.md)
+  - [`ccec73a827`](../../../locales/hu/content/cc/ec/73a8275b7d395d9da607c3207f861befaa46.md)
 - `hints.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/airport-robot/.docs/hints.md)): [Latest](../../../locales/hu/content/0b/8a/7587e8d35f53b237d9cd86ff952ddf3f3ba7.md)
 
 ### Animal Magic (Állati varázslat)
@@ -1088,8 +1089,10 @@ This page is generated from [the index](../../json/hu/go.json) by `scripts/build
 
 ### Range Iteration (Range iteráció)
 
-- `introduction.md` ([English](https://github.com/exercism/go/blob/main/concepts/range-iteration/introduction.md)): [Latest](../../../locales/hu/content/14/f8/ed2f847654027fd2135711d2a84844336a35.md)
-- `about.md` ([English](https://github.com/exercism/go/blob/main/concepts/range-iteration/about.md)): [Latest](../../../locales/hu/content/f4/b9/fde129f7a017feb7018fa61b37f48768a516.md)
+- `introduction.md` ([English](https://github.com/exercism/go/blob/main/concepts/range-iteration/introduction.md)): [Latest](../../../locales/hu/content/be/0b/86713fb4db648bc8e6a03be937938162cdc9.md)
+  - [`14f8ed2f84`](../../../locales/hu/content/14/f8/ed2f847654027fd2135711d2a84844336a35.md)
+- `about.md` ([English](https://github.com/exercism/go/blob/main/concepts/range-iteration/about.md)): [Latest](../../../locales/hu/content/28/e2/9d377db56c694aa6c3639636a0a989ccce21.md)
+  - [`f4b9fde129`](../../../locales/hu/content/f4/b9/fde129f7a017feb7018fa61b37f48768a516.md)
 
 ### Regular Expressions (Reguláris kifejezések)
 
