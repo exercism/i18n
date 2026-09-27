@@ -98,5 +98,8 @@
   "doc:resources:blurb": "GDScriptをマスターするのに役立つリソース集",
   "exercise:collatz-conjecture:name": "コラッツ予想",
   "exercise:collatz-conjecture:blurb": "コラッツ予想を使って、1に到達するまでのステップ数を計算します。",
-  "exercise:collatz-conjecture:source": "Wikipedia"
+  "exercise:collatz-conjecture:source": "Wikipedia",
+  "exercise:difference-of-squares:name": "平方数の差",
+  "exercise:difference-of-squares:blurb": "最初のN個の自然数について、和の2乗と2乗の和との差を求めます。",
+  "exercise:difference-of-squares:source": "Project EulerのProblem 6"
 }

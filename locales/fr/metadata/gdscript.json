@@ -98,5 +98,8 @@
   "exercise:bob:source": "Inspiré par l'exercice « Deaf Grandma » du tutoriel Learn to Program de Chris Pine.",
   "exercise:collatz-conjecture:name": "Conjecture de Collatz",
   "exercise:collatz-conjecture:blurb": "Calcule le nombre d'étapes pour atteindre 1 en utilisant la conjecture de Collatz.",
-  "exercise:collatz-conjecture:source": "Wikipedia"
+  "exercise:collatz-conjecture:source": "Wikipedia",
+  "exercise:difference-of-squares:name": "Différence de carrés",
+  "exercise:difference-of-squares:blurb": "Trouve la différence entre le carré de la somme et la somme des carrés des N premiers entiers naturels.",
+  "exercise:difference-of-squares:source": "Problème 6 sur Project Euler"
 }

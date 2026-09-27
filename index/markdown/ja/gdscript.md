@@ -14,8 +14,8 @@ This page is generated from [the index](../../json/ja/gdscript.json) by `scripts
 
 ### Anagram (アナグラム)
 
-- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/anagram/.docs/instructions.md)): [Latest](../../../locales/ja/content/7d/1c/8283ef9284e827fabb92d8ae88f0cc8428b1.md)
-  - [`dca24f5262`](../../../locales/ja/content/dc/a2/4f52627e3ba6b999322fb89d8c686c3ec634.md)
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/anagram/.docs/instructions.md)): [Latest](../../../locales/ja/content/dc/a2/4f52627e3ba6b999322fb89d8c686c3ec634.md)
+  - [`7d1c8283ef`](../../../locales/ja/content/7d/1c/8283ef9284e827fabb92d8ae88f0cc8428b1.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/anagram/.docs/introduction.md)): [Latest](../../../locales/ja/content/1a/cb/df00b059f44fb4ce4c00be743d24eda86d60.md)
 
 ### Armstrong Numbers (アームストロング数)
@@ -44,6 +44,10 @@ This page is generated from [the index](../../json/ja/gdscript.json) by `scripts
 ### Darts (ダーツ)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/darts/.docs/instructions.md)): [Latest](../../../locales/ja/content/65/18/201c77f96397a5b3e5e572de5a6778136ee0.md)
+
+### Difference of Squares (平方数の差)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/difference-of-squares/.docs/instructions.md)): [Latest](../../../locales/ja/content/39/c3/8b5094a948fd87e8349a64d545ca847b3e89.md)
 
 ### Eliud's Eggs (エリウドの卵)
 

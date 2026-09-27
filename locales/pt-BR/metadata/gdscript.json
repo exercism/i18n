@@ -98,5 +98,8 @@
   "doc:resources:blurb": "Uma coleção de recursos úteis para ajudar você a dominar o GDScript",
   "exercise:collatz-conjecture:name": "Conjectura de Collatz",
   "exercise:collatz-conjecture:blurb": "Calcule o número de passos para chegar a 1 usando a conjectura de Collatz.",
-  "exercise:collatz-conjecture:source": "Wikipedia"
+  "exercise:collatz-conjecture:source": "Wikipedia",
+  "exercise:difference-of-squares:name": "Diferença de quadrados",
+  "exercise:difference-of-squares:blurb": "Encontre a diferença entre o quadrado da soma e a soma dos quadrados dos N primeiros números naturais.",
+  "exercise:difference-of-squares:source": "Problema 6 do Project Euler"
 }

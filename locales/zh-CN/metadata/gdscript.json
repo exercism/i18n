@@ -98,5 +98,8 @@
   "doc:resources:blurb": "一系列实用资源，帮助你精通 GDScript",
   "exercise:collatz-conjecture:name": "考拉兹猜想",
   "exercise:collatz-conjecture:blurb": "用考拉兹猜想计算到达 1 所需的步数。",
-  "exercise:collatz-conjecture:source": "Wikipedia"
+  "exercise:collatz-conjecture:source": "Wikipedia",
+  "exercise:difference-of-squares:name": "平方差",
+  "exercise:difference-of-squares:blurb": "求前 N 个自然数之和的平方，与它们的平方和之间的差。",
+  "exercise:difference-of-squares:source": "Project Euler 第 6 题"
 }

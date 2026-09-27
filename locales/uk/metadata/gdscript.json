@@ -98,5 +98,8 @@
   "exercise:bob:source": "За мотивами вправи «Deaf Grandma» з посібника Кріса Пайна «Learn to Program».",
   "exercise:collatz-conjecture:name": "Гіпотеза Коллатца",
   "exercise:collatz-conjecture:blurb": "Обчисліть кількість кроків до досягнення 1 за допомогою гіпотези Коллатца.",
-  "exercise:collatz-conjecture:source": "Wikipedia"
+  "exercise:collatz-conjecture:source": "Wikipedia",
+  "exercise:difference-of-squares:name": "Різниця квадратів",
+  "exercise:difference-of-squares:blurb": "Знайдіть різницю між квадратом суми та сумою квадратів перших N натуральних чисел.",
+  "exercise:difference-of-squares:source": "Задача 6 на Project Euler"
 }

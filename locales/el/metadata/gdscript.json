@@ -98,5 +98,8 @@
   "exercise:bob:source": "Εμπνευσμένο από την άσκηση 'Deaf Grandma' στο σεμινάριο Learn to Program του Chris Pine.",
   "exercise:collatz-conjecture:name": "Εικασία του Collatz",
   "exercise:collatz-conjecture:blurb": "Υπολόγισε τον αριθμό των βημάτων για να φτάσεις στο 1 χρησιμοποιώντας την εικασία του Collatz.",
-  "exercise:collatz-conjecture:source": "Wikipedia"
+  "exercise:collatz-conjecture:source": "Wikipedia",
+  "exercise:difference-of-squares:name": "Διαφορά Τετραγώνων",
+  "exercise:difference-of-squares:blurb": "Βρες τη διαφορά ανάμεσα στο τετράγωνο του αθροίσματος και στο άθροισμα των τετραγώνων των πρώτων N φυσικών αριθμών.",
+  "exercise:difference-of-squares:source": "Πρόβλημα 6 στο Project Euler"
 }
