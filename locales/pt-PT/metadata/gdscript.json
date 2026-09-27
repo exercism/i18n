@@ -104,5 +104,8 @@
   "doc:resources:blurb": "Uma coleção de recursos úteis para te ajudar a dominar o GDScript",
   "exercise:hamming:name": "Hamming",
   "exercise:hamming:blurb": "Calcula a distância de Hamming entre duas cadeias de ADN.",
-  "exercise:hamming:source": "O problema Calculating Point Mutations no Rosalind"
+  "exercise:hamming:source": "O problema Calculating Point Mutations no Rosalind",
+  "exercise:etl:name": "ETL",
+  "exercise:etl:blurb": "Altera o formato de dados para pontuar um jogo, de forma a ser mais fácil adicionar outras linguagens.",
+  "exercise:etl:source": "Baseado num exercício da equipa do JumpstartLab para alunos da The Turing School of Software and Design."
 }

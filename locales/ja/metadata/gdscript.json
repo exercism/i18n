@@ -104,5 +104,8 @@
   "exercise:difference-of-squares:source": "Project EulerのProblem 6",
   "exercise:hamming:name": "ハミング",
   "exercise:hamming:blurb": "2本のDNA鎖の間のハミング距離を計算します。",
-  "exercise:hamming:source": "RosalindのCalculating Point Mutations問題"
+  "exercise:hamming:source": "RosalindのCalculating Point Mutations問題",
+  "exercise:etl:name": "ETL",
+  "exercise:etl:blurb": "ゲームの得点計算に使うデータ形式を変更して、ほかの言語をより簡単に追加できるようにします。",
+  "exercise:etl:source": "The Turing School of Software and Designの学生向けにJumpstartLabチームが作成した演習をもとにしています。"
 }

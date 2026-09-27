@@ -104,5 +104,8 @@
   "exercise:difference-of-squares:source": "Problème 6 sur Project Euler",
   "exercise:hamming:name": "Hamming",
   "exercise:hamming:blurb": "Calculer la distance de Hamming entre deux brins d'ADN.",
-  "exercise:hamming:source": "Le problème Calculating Point Mutations sur Rosalind."
+  "exercise:hamming:source": "Le problème Calculating Point Mutations sur Rosalind.",
+  "exercise:etl:name": "ETL",
+  "exercise:etl:blurb": "Change le format des données servant à calculer les scores d'un jeu pour pouvoir ajouter d'autres langues plus facilement.",
+  "exercise:etl:source": "D'après un exercice de l'équipe JumpstartLab pour les étudiants de la Turing School of Software and Design."
 }

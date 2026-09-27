@@ -104,5 +104,8 @@
   "exercise:difference-of-squares:source": "A Project Euler 6. feladata",
   "exercise:hamming:name": "Hamming",
   "exercise:hamming:blurb": "Számítsd ki két DNS-szál Hamming-távolságát.",
-  "exercise:hamming:source": "A Calculating Point Mutations feladat a Rosalind oldalon"
+  "exercise:hamming:source": "A Calculating Point Mutations feladat a Rosalind oldalon",
+  "exercise:etl:name": "ETL",
+  "exercise:etl:blurb": "Változtasd meg a játék pontozásának adatformátumát, hogy könnyebben hozzáadhass más nyelveket.",
+  "exercise:etl:source": "A JumpstartLab csapatának feladatán alapul, amelyet a The Turing School of Software and Design tanulói számára készítettek."
 }

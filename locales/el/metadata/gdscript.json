@@ -104,5 +104,8 @@
   "exercise:difference-of-squares:source": "Πρόβλημα 6 στο Project Euler",
   "exercise:hamming:name": "Hamming",
   "exercise:hamming:blurb": "Υπολόγισε την απόσταση Hamming ανάμεσα σε δύο κλώνους DNA.",
-  "exercise:hamming:source": "Το πρόβλημα Calculating Point Mutations στο Rosalind"
+  "exercise:hamming:source": "Το πρόβλημα Calculating Point Mutations στο Rosalind",
+  "exercise:etl:name": "ETL",
+  "exercise:etl:blurb": "Άλλαξε τη μορφή δεδομένων για τη βαθμολόγηση ενός παιχνιδιού, ώστε να είναι πιο εύκολο να προστεθούν άλλες γλώσσες.",
+  "exercise:etl:source": "Βασισμένο σε μια άσκηση της ομάδας JumpstartLab για σπουδαστές στη The Turing School of Software and Design."
 }

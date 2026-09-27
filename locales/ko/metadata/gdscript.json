@@ -104,5 +104,8 @@
   "exercise:difference-of-squares:source": "Project Euler의 6번 문제",
   "exercise:hamming:name": "Hamming",
   "exercise:hamming:blurb": "두 DNA 가닥 사이의 해밍 거리를 계산해요.",
-  "exercise:hamming:source": "Rosalind의 Calculating Point Mutations 문제"
+  "exercise:hamming:source": "Rosalind의 Calculating Point Mutations 문제",
+  "exercise:etl:name": "ETL",
+  "exercise:etl:blurb": "게임 점수를 매기기 위한 데이터 형식을 바꿔서, 다른 언어를 더 쉽게 추가할 수 있게 해요.",
+  "exercise:etl:source": "JumpstartLab 팀이 The Turing School of Software and Design의 학생들을 위해 만든 연습 문제를 바탕으로 했어요."
 }

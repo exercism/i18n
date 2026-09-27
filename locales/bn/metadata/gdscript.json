@@ -104,5 +104,8 @@
   "doc:resources:blurb": "GDScript-এ দক্ষ হতে সাহায্য করবে এমন দরকারি রিসোর্সের সংগ্রহ",
   "exercise:hamming:name": "Hamming",
   "exercise:hamming:blurb": "দুটি DNA স্ট্র্যান্ডের মধ্যে হ্যামিং দূরত্ব গণনা করুন।",
-  "exercise:hamming:source": "Rosalind-এর The Calculating Point Mutations সমস্যাটি"
+  "exercise:hamming:source": "Rosalind-এর The Calculating Point Mutations সমস্যাটি",
+  "exercise:etl:name": "ETL",
+  "exercise:etl:blurb": "অন্য ভাষা সহজে যোগ করা যায় এমনভাবে গেমের স্কোরিংয়ের ডেটা ফরম্যাট বদলে দিন।",
+  "exercise:etl:source": "The Turing School of Software and Design-এর শিক্ষার্থীদের জন্য JumpstartLab টিমের তৈরি একটি অনুশীলনীর উপর ভিত্তি করে।"
 }

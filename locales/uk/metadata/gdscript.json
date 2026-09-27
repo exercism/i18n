@@ -104,5 +104,8 @@
   "exercise:difference-of-squares:source": "Задача 6 на Project Euler",
   "exercise:hamming:name": "Hamming",
   "exercise:hamming:blurb": "Порахуйте відстань Геммінга між двома ланцюгами ДНК.",
-  "exercise:hamming:source": "Задача Calculating Point Mutations на Rosalind"
+  "exercise:hamming:source": "Задача Calculating Point Mutations на Rosalind",
+  "exercise:etl:name": "ETL",
+  "exercise:etl:blurb": "Змініть формат даних для підрахунку очок у грі, щоб було легше додавати інші мови.",
+  "exercise:etl:source": "На основі вправи команди JumpstartLab для студентів The Turing School of Software and Design."
 }

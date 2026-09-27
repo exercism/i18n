@@ -104,5 +104,8 @@
   "exercise:difference-of-squares:source": "Project Euler पर समस्या 6",
   "exercise:hamming:name": "Hamming",
   "exercise:hamming:blurb": "दो DNA स्ट्रैंड के बीच Hamming दूरी निकालिए।",
-  "exercise:hamming:source": "Rosalind पर The Calculating Point Mutations समस्या"
+  "exercise:hamming:source": "Rosalind पर The Calculating Point Mutations समस्या",
+  "exercise:etl:name": "ETL",
+  "exercise:etl:blurb": "खेल के स्कोरिंग का डेटा फॉर्मैट ऐसा बदलिए कि दूसरी भाषाएँ जोड़ना ज़्यादा आसान हो जाए।",
+  "exercise:etl:source": "The Turing School of Software and Design के छात्रों के लिए JumpstartLab टीम द्वारा बनाए गए एक अभ्यास पर आधारित।"
 }

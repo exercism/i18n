@@ -53,6 +53,11 @@ This page is generated from [the index](../../json/it/gdscript.json) by `scripts
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/eliuds-eggs/.docs/instructions.md)): [Latest](../../../locales/it/content/b0/c2/df593c0c15f1f94dfc13bddacffd6b0f5ddc.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/eliuds-eggs/.docs/introduction.md)): [Latest](../../../locales/it/content/2b/2e/5c43d8b2546885ba33bb6c3c8bdc88e3b0dc.md)
 
+### ETL
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/etl/.docs/instructions.md)): [Latest](../../../locales/it/content/80/28/63b5405bcf80186009792ed7c54ccb8d797e.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/etl/.docs/introduction.md)): [Latest](../../../locales/it/content/5b/e6/5147d7f5170564e32b582966d522ed9f4ce8.md)
+
 ### Flatten Array (Appiattisci un array)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/flatten-array/.docs/instructions.md)): [Latest](../../../locales/it/content/b5/b8/2713d928a59e350e468d35c4ee92d49316cf.md)

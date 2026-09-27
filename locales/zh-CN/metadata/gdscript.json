@@ -104,5 +104,8 @@
   "exercise:difference-of-squares:source": "Project Euler 第 6 题",
   "exercise:hamming:name": "汉明",
   "exercise:hamming:blurb": "计算两条 DNA 链之间的汉明距离。",
-  "exercise:hamming:source": "Rosalind 上的 The Calculating Point Mutations 问题"
+  "exercise:hamming:source": "Rosalind 上的 The Calculating Point Mutations 问题",
+  "exercise:etl:name": "ETL",
+  "exercise:etl:blurb": "改变游戏计分的数据格式，以便更轻松地添加其他语言。",
+  "exercise:etl:source": "基于 JumpstartLab 团队为 The Turing School of Software and Design 的学生编写的一道练习。"
 }
