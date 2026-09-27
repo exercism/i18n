@@ -107,5 +107,8 @@
   "exercise:hamming:source": "Il problema Calculating Point Mutations su Rosalind",
   "exercise:etl:name": "ETL",
   "exercise:etl:blurb": "Cambia il formato dei dati per il punteggio di un gioco, per aggiungere più facilmente altri linguaggi.",
-  "exercise:etl:source": "Basato su un esercizio del team JumpstartLab per gli studenti della Turing School of Software and Design."
+  "exercise:etl:source": "Basato su un esercizio del team JumpstartLab per gli studenti della Turing School of Software and Design.",
+  "exercise:matching-brackets:name": "Parentesi corrispondenti",
+  "exercise:matching-brackets:blurb": "Assicurati che le parentesi e le graffe siano tutte corrispondenti.",
+  "exercise:matching-brackets:source": "Ginna Baker"
 }

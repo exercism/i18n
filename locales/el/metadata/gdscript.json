@@ -107,5 +107,8 @@
   "exercise:hamming:source": "Το πρόβλημα Calculating Point Mutations στο Rosalind",
   "exercise:etl:name": "ETL",
   "exercise:etl:blurb": "Άλλαξε τη μορφή δεδομένων για τη βαθμολόγηση ενός παιχνιδιού, ώστε να είναι πιο εύκολο να προστεθούν άλλες γλώσσες.",
-  "exercise:etl:source": "Βασισμένο σε μια άσκηση της ομάδας JumpstartLab για σπουδαστές στη The Turing School of Software and Design."
+  "exercise:etl:source": "Βασισμένο σε μια άσκηση της ομάδας JumpstartLab για σπουδαστές στη The Turing School of Software and Design.",
+  "exercise:matching-brackets:name": "Αντιστοίχιση αγκυλών",
+  "exercise:matching-brackets:blurb": "Βεβαιώσου ότι οι αγκύλες και τα άγκιστρα ταιριάζουν όλα.",
+  "exercise:matching-brackets:source": "Ginna Baker"
 }

@@ -107,5 +107,8 @@
   "exercise:hamming:source": "Rosalind의 Calculating Point Mutations 문제",
   "exercise:etl:name": "ETL",
   "exercise:etl:blurb": "게임 점수를 매기기 위한 데이터 형식을 바꿔서, 다른 언어를 더 쉽게 추가할 수 있게 해요.",
-  "exercise:etl:source": "JumpstartLab 팀이 The Turing School of Software and Design의 학생들을 위해 만든 연습 문제를 바탕으로 했어요."
+  "exercise:etl:source": "JumpstartLab 팀이 The Turing School of Software and Design의 학생들을 위해 만든 연습 문제를 바탕으로 했어요.",
+  "exercise:matching-brackets:name": "괄호 짝 맞추기",
+  "exercise:matching-brackets:blurb": "괄호와 중괄호가 모두 짝을 이루도록 해요.",
+  "exercise:matching-brackets:source": "Ginna Baker"
 }

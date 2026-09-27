@@ -107,5 +107,8 @@
   "exercise:hamming:source": "RosalindのCalculating Point Mutations問題",
   "exercise:etl:name": "ETL",
   "exercise:etl:blurb": "ゲームの得点計算に使うデータ形式を変更して、ほかの言語をより簡単に追加できるようにします。",
-  "exercise:etl:source": "The Turing School of Software and Designの学生向けにJumpstartLabチームが作成した演習をもとにしています。"
+  "exercise:etl:source": "The Turing School of Software and Designの学生向けにJumpstartLabチームが作成した演習をもとにしています。",
+  "exercise:matching-brackets:name": "括弧の対応",
+  "exercise:matching-brackets:blurb": "括弧と波括弧がすべて対応しているか確認します。",
+  "exercise:matching-brackets:source": "Ginna Baker"
 }

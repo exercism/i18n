@@ -107,5 +107,8 @@
   "exercise:hamming:source": "Rosalind 上的 The Calculating Point Mutations 问题",
   "exercise:etl:name": "ETL",
   "exercise:etl:blurb": "改变游戏计分的数据格式，以便更轻松地添加其他语言。",
-  "exercise:etl:source": "基于 JumpstartLab 团队为 The Turing School of Software and Design 的学生编写的一道练习。"
+  "exercise:etl:source": "基于 JumpstartLab 团队为 The Turing School of Software and Design 的学生编写的一道练习。",
+  "exercise:matching-brackets:name": "匹配括号",
+  "exercise:matching-brackets:blurb": "确保括号和大括号都能正确匹配。",
+  "exercise:matching-brackets:source": "Ginna Baker"
 }

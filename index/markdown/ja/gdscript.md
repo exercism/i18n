@@ -87,6 +87,11 @@ This page is generated from [the index](../../json/ja/gdscript.json) by `scripts
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/luhn/.docs/instructions.md)): [Latest](../../../locales/ja/content/77/02/c6bbb5f849683e3074163e48ce1154ad2957.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/luhn/.docs/introduction.md)): [Latest](../../../locales/ja/content/de/e4/8006eddee9458a5414ddc96c4b9d2fc9109f.md)
 
+### Matching Brackets (括弧の対応)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/matching-brackets/.docs/instructions.md)): [Latest](../../../locales/ja/content/ea/17/0842326b8639a4d921462397a601ec5c9f4c.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/matching-brackets/.docs/introduction.md)): [Latest](../../../locales/ja/content/06/18/221b21efeaba2463792b44635639e410ddd8.md)
+
 ### Pangram (パングラム)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/ja/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)

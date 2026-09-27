@@ -91,6 +91,11 @@ This page is generated from [the index](../../json/uk/gdscript.json) by `scripts
   - [`8cbe791fc2`](../../../locales/uk/content/8c/be/791fc23118f7b852fd0072136884cfea81e3.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/luhn/.docs/introduction.md)): [Latest](../../../locales/uk/content/de/e4/8006eddee9458a5414ddc96c4b9d2fc9109f.md)
 
+### Matching Brackets (Збіг дужок)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/matching-brackets/.docs/instructions.md)): [Latest](../../../locales/uk/content/ea/17/0842326b8639a4d921462397a601ec5c9f4c.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/matching-brackets/.docs/introduction.md)): [Latest](../../../locales/uk/content/06/18/221b21efeaba2463792b44635639e410ddd8.md)
+
 ### Pangram (Панграма)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/uk/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)

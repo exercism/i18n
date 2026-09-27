@@ -107,5 +107,8 @@
   "exercise:hamming:source": "A Calculating Point Mutations feladat a Rosalind oldalon",
   "exercise:etl:name": "ETL",
   "exercise:etl:blurb": "Változtasd meg a játék pontozásának adatformátumát, hogy könnyebben hozzáadhass más nyelveket.",
-  "exercise:etl:source": "A JumpstartLab csapatának feladatán alapul, amelyet a The Turing School of Software and Design tanulói számára készítettek."
+  "exercise:etl:source": "A JumpstartLab csapatának feladatán alapul, amelyet a The Turing School of Software and Design tanulói számára készítettek.",
+  "exercise:matching-brackets:name": "Zárójelpárosítás",
+  "exercise:matching-brackets:blurb": "Ügyelj rá, hogy minden zárójel és kapcsos zárójel párosuljon.",
+  "exercise:matching-brackets:source": "Ginna Baker"
 }

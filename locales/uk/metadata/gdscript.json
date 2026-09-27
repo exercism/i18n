@@ -107,5 +107,8 @@
   "exercise:hamming:source": "Задача Calculating Point Mutations на Rosalind",
   "exercise:etl:name": "ETL",
   "exercise:etl:blurb": "Змініть формат даних для підрахунку очок у грі, щоб було легше додавати інші мови.",
-  "exercise:etl:source": "На основі вправи команди JumpstartLab для студентів The Turing School of Software and Design."
+  "exercise:etl:source": "На основі вправи команди JumpstartLab для студентів The Turing School of Software and Design.",
+  "exercise:matching-brackets:name": "Збіг дужок",
+  "exercise:matching-brackets:blurb": "Переконайтеся, що дужки та фігурні дужки збігаються.",
+  "exercise:matching-brackets:source": "Ginna Baker"
 }

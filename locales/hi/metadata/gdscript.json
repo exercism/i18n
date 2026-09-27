@@ -107,5 +107,8 @@
   "exercise:hamming:source": "Rosalind पर The Calculating Point Mutations समस्या",
   "exercise:etl:name": "ETL",
   "exercise:etl:blurb": "खेल के स्कोरिंग का डेटा फॉर्मैट ऐसा बदलिए कि दूसरी भाषाएँ जोड़ना ज़्यादा आसान हो जाए।",
-  "exercise:etl:source": "The Turing School of Software and Design के छात्रों के लिए JumpstartLab टीम द्वारा बनाए गए एक अभ्यास पर आधारित।"
+  "exercise:etl:source": "The Turing School of Software and Design के छात्रों के लिए JumpstartLab टीम द्वारा बनाए गए एक अभ्यास पर आधारित।",
+  "exercise:matching-brackets:name": "ब्रैकेट का मिलान",
+  "exercise:matching-brackets:blurb": "ध्यान रखिए कि सारे ब्रैकेट और ब्रेस आपस में मेल खाएँ।",
+  "exercise:matching-brackets:source": "Ginna Baker"
 }

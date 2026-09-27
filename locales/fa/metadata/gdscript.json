@@ -107,5 +107,8 @@
   "exercise:hamming:source": "مسئله‌ی Calculating Point Mutations در Rosalind",
   "exercise:etl:name": "ETL",
   "exercise:etl:blurb": "قالب داده‌ی امتیازدهی یک بازی را تغییر دهید تا افزودن زبان‌های دیگر آسان‌تر شود.",
-  "exercise:etl:source": "برگرفته از تمرینی از تیم JumpstartLab برای دانشجویان The Turing School of Software and Design."
+  "exercise:etl:source": "برگرفته از تمرینی از تیم JumpstartLab برای دانشجویان The Turing School of Software and Design.",
+  "exercise:matching-brackets:name": "تطبیق پرانتزها",
+  "exercise:matching-brackets:blurb": "مطمئن شوید که پرانتزها و آکولادها همه با هم جفت می‌شوند.",
+  "exercise:matching-brackets:source": "Ginna Baker"
 }
