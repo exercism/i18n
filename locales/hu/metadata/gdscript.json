@@ -95,5 +95,8 @@
   "exercise:armstrong-numbers:source": "Wikipedia",
   "exercise:bob:name": "Bob",
   "exercise:bob:blurb": "Bob egy nemtörődöm tinédzser. A beszélgetésekben nagyon korlátozottak a válaszai.",
-  "exercise:bob:source": "Chris Pine Learn to Program oktatóanyagának „Deaf Grandma” feladata ihlette."
+  "exercise:bob:source": "Chris Pine Learn to Program oktatóanyagának „Deaf Grandma” feladata ihlette.",
+  "exercise:collatz-conjecture:name": "Collatz-sejtés",
+  "exercise:collatz-conjecture:blurb": "Számold ki, hány lépés kell az 1 eléréséhez a Collatz-sejtés szerint.",
+  "exercise:collatz-conjecture:source": "Wikipedia"
 }

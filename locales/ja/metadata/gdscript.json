@@ -95,5 +95,8 @@
   "doc:tests:title": "GDScriptトラックのテスト",
   "doc:tests:blurb": "ExercismでGDScriptの演習をテストする方法を学びます",
   "doc:resources:title": "役立つGDScriptのリソース",
-  "doc:resources:blurb": "GDScriptをマスターするのに役立つリソース集"
+  "doc:resources:blurb": "GDScriptをマスターするのに役立つリソース集",
+  "exercise:collatz-conjecture:name": "コラッツ予想",
+  "exercise:collatz-conjecture:blurb": "コラッツ予想を使って、1に到達するまでのステップ数を計算します。",
+  "exercise:collatz-conjecture:source": "Wikipedia"
 }

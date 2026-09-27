@@ -14,7 +14,8 @@ This page is generated from [the index](../../json/ja/gdscript.json) by `scripts
 
 ### Anagram (アナグラム)
 
-- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/anagram/.docs/instructions.md)): [Latest](../../../locales/ja/content/dc/a2/4f52627e3ba6b999322fb89d8c686c3ec634.md)
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/anagram/.docs/instructions.md)): [Latest](../../../locales/ja/content/7d/1c/8283ef9284e827fabb92d8ae88f0cc8428b1.md)
+  - [`dca24f5262`](../../../locales/ja/content/dc/a2/4f52627e3ba6b999322fb89d8c686c3ec634.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/anagram/.docs/introduction.md)): [Latest](../../../locales/ja/content/1a/cb/df00b059f44fb4ce4c00be743d24eda86d60.md)
 
 ### Armstrong Numbers (アームストロング数)
@@ -34,6 +35,11 @@ This page is generated from [the index](../../json/ja/gdscript.json) by `scripts
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/bob/.docs/instructions.md)): [Latest](../../../locales/ja/content/bb/70/2f7bbe91ee7c4f8a095bff0bc6b9c090051b.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/bob/.docs/introduction.md)): [Latest](../../../locales/ja/content/ea/4a/80776b77fc8b547460b80cb4cdca084c0fa3.md)
+
+### Collatz Conjecture (コラッツ予想)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/collatz-conjecture/.docs/instructions.md)): [Latest](../../../locales/ja/content/af/33/2a810f0f31aa1233e92bea57721d3025f4e0.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/collatz-conjecture/.docs/introduction.md)): [Latest](../../../locales/ja/content/c3/5b/deb67dceef4bf9769dbbf473e841cdd068f2.md)
 
 ### Darts (ダーツ)
 

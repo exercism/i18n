@@ -95,5 +95,8 @@
   "doc:tests:title": "GDScript ट्रैक पर टेस्टिंग",
   "doc:tests:blurb": "Exercism पर अपने GDScript अभ्यासों की टेस्टिंग कैसे करें, यह सीखिए",
   "doc:resources:title": "उपयोगी GDScript संसाधन",
-  "doc:resources:blurb": "GDScript में महारत हासिल करने में मदद करने वाले उपयोगी संसाधनों का संग्रह"
+  "doc:resources:blurb": "GDScript में महारत हासिल करने में मदद करने वाले उपयोगी संसाधनों का संग्रह",
+  "exercise:collatz-conjecture:name": "Collatz अनुमान",
+  "exercise:collatz-conjecture:blurb": "Collatz अनुमान का उपयोग करके 1 तक पहुँचने के लिए ज़रूरी चरणों की संख्या निकालिए।",
+  "exercise:collatz-conjecture:source": "Wikipedia"
 }

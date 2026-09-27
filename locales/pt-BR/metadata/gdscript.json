@@ -95,5 +95,8 @@
   "doc:tests:title": "Testes na trilha de GDScript",
   "doc:tests:blurb": "Aprenda a testar seus exercícios de GDScript no Exercism",
   "doc:resources:title": "Recursos úteis de GDScript",
-  "doc:resources:blurb": "Uma coleção de recursos úteis para ajudar você a dominar o GDScript"
+  "doc:resources:blurb": "Uma coleção de recursos úteis para ajudar você a dominar o GDScript",
+  "exercise:collatz-conjecture:name": "Conjectura de Collatz",
+  "exercise:collatz-conjecture:blurb": "Calcule o número de passos para chegar a 1 usando a conjectura de Collatz.",
+  "exercise:collatz-conjecture:source": "Wikipedia"
 }

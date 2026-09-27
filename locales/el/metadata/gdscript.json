@@ -95,5 +95,8 @@
   "exercise:armstrong-numbers:source": "Wikipedia",
   "exercise:bob:name": "Bob",
   "exercise:bob:blurb": "Ο Bob είναι ένας νωθρός έφηβος. Στη συζήτηση, οι απαντήσεις του είναι πολύ περιορισμένες.",
-  "exercise:bob:source": "Εμπνευσμένο από την άσκηση 'Deaf Grandma' στο σεμινάριο Learn to Program του Chris Pine."
+  "exercise:bob:source": "Εμπνευσμένο από την άσκηση 'Deaf Grandma' στο σεμινάριο Learn to Program του Chris Pine.",
+  "exercise:collatz-conjecture:name": "Εικασία του Collatz",
+  "exercise:collatz-conjecture:blurb": "Υπολόγισε τον αριθμό των βημάτων για να φτάσεις στο 1 χρησιμοποιώντας την εικασία του Collatz.",
+  "exercise:collatz-conjecture:source": "Wikipedia"
 }

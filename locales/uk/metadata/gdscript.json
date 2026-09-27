@@ -95,5 +95,8 @@
   "exercise:armstrong-numbers:source": "Wikipedia",
   "exercise:bob:name": "Bob",
   "exercise:bob:blurb": "Боб - безтурботний підліток. У розмові його відповіді вкрай обмежені.",
-  "exercise:bob:source": "За мотивами вправи «Deaf Grandma» з посібника Кріса Пайна «Learn to Program»."
+  "exercise:bob:source": "За мотивами вправи «Deaf Grandma» з посібника Кріса Пайна «Learn to Program».",
+  "exercise:collatz-conjecture:name": "Гіпотеза Коллатца",
+  "exercise:collatz-conjecture:blurb": "Обчисліть кількість кроків до досягнення 1 за допомогою гіпотези Коллатца.",
+  "exercise:collatz-conjecture:source": "Wikipedia"
 }
