@@ -1,0 +1,4106 @@
+{
+  "api": {
+    "errors": {
+      "not_onboarded": "아직 웹사이트에서 온보딩을 완료하지 않았어요",
+      "not_supermentor": "슈퍼멘토 권한이 없어요",
+      "not_automator": "이 트랙에 대한 오토메이터 권한이 없어요",
+      "not_trainer": "이 트랙에 대한 트레이너 권한이 없어요",
+      "not_maintainer": "메인테이너 권한이 없어요",
+      "duplicate_submission": "마지막 제출 이후 변경된 파일이 없어요",
+      "duplicate_video": "다른 사람이 이미 이 영상을 제출했어요",
+      "exercise_locked": "이 연습 문제는 잠겨 있어요",
+      "exercise_not_found": "지정한 연습 문제를 찾을 수 없어요",
+      "invalid_auth_token": "제공된 인증 토큰이 유효하지 않아요",
+      "invalid_mentor_student_relationship": "나와 이 학생 사이에 유효한 관계가 없어요",
+      "iteration_not_found": "지정한 이터레이션이 존재하지 않아요",
+      "profile_not_found": "이 프로필을 찾을 수 없어요",
+      "resource_not_found": "이 URL을 인식할 수 없어요",
+      "solution_not_found": "이 솔루션을 찾을 수 없어요",
+      "solution_not_accessible": "이 솔루션을 볼 권한이 없어요",
+      "solution_not_unlocked": "이 연습 문제의 잠금을 해제하지 않았어요",
+      "solution_comments_not_allowed": "이 솔루션에서는 댓글을 가져오거나 작성할 수 없어요",
+      "solution_comment_not_found": "이 솔루션 댓글을 찾을 수 없어요",
+      "solution_without_iterations": "이 솔루션에는 이터레이션이 없어요",
+      "solution_unlock_help_not_accessible": "이 솔루션의 도움말 잠금을 해제할 권한이 없어요",
+      "solution_comment_not_accessible": "이 댓글에 접근할 수 없어요",
+      "submission_not_found": "이 제출물을 찾을 수 없어요",
+      "submission_not_accessible": "이 제출물을 볼 권한이 없어요",
+      "user_not_found": "이 사용자를 찾을 수 없어요",
+      "trophy_not_found": "이 트로피를 찾을 수 없어요",
+      "trophy_not_accessible": "이 트로피에 접근할 권한이 없어요",
+      "representation_not_found": "이 리프리젠테이션을 찾을 수 없어요",
+      "team_not_found": "팀을 찾을 수 없어요",
+      "track_ambiguous": "트랙 ID를 지정해 주세요",
+      "track_not_found": "지정한 트랙이 존재하지 않아요",
+      "track_not_joined": "이 트랙에 참여하지 않았어요",
+      "file_not_found": "파일을 찾을 수 없어요",
+      "file_too_large": "제출한 파일이 너무 커요",
+      "too_many_requests": "요청 한도에 도달했어요",
+      "sample_not_found": "샘플을 찾을 수 없어요",
+      "invalid_captcha": "캡차를 확인할 수 없어요",
+      "invalid_signature": "메시지 서명을 확인할 수 없어요",
+      "assistant_conversation_not_accessible": "무료 AI 대화를 모두 사용했어요. 대화를 무제한으로 이용하려면 Exercism Insiders에 가입해요.",
+      "mentor_request_not_found": "멘토 요청을 찾을 수 없어요",
+      "mentor_request_locked": "이 멘토 요청은 다른 사람이 이미 잠가 두었어요",
+      "mentor_testimonial_not_found": "멘토 후기를 찾을 수 없어요",
+      "mentor_discussion_not_found": "토론을 찾을 수 없어요",
+      "mentor_discussion_not_accessible": "이 토론을 볼 권한이 없어요",
+      "mentor_discussion_post_not_found": "게시물을 찾을 수 없어요",
+      "mentor_discussion_post_not_deleted": "게시물을 삭제할 수 없어요",
+      "mentor_discussion_post_not_accessible": "이 토론 게시물을 볼 권한이 없어요",
+      "student_cannot_mentor_themselves": "자신의 풀이는 멘토링할 수 없어요",
+      "permission_denied": "이 리소스에 접근할 수 없어요",
+      "failed_validations": "리소스를 저장할 수 없어요",
+      "scratchpad_page_not_found": "스크래치패드 페이지를 찾을 수 없어요",
+      "incorrect_password": "비밀번호가 올바르지 않아요",
+      "passwords_dont_match": "비밀번호가 일치하지 않아요",
+      "invalid_locale": "지원하지 않는 언어예요",
+      "no_iterations_submitted_yet": "아직 이터레이션을 제출하지 않았어요",
+      "no_mentoring_slots_available": "사용할 수 있는 멘토링 슬롯이 없어요",
+      "profile_criteria_not_fulfilled": "프로필을 만들려면 평판이 5 이상이어야 해요",
+      "invalid_community_video_url": "이 URL과 일치하는 YouTube 또는 Vimeo 영상을 찾을 수 없어요",
+      "invalid_discussion_status": "토론 상태가 올바르지 않아요",
+      "training_data_code_tags_sample_locked": "이 훈련 데이터 코드 태그 샘플은 다른 사람이 이미 잠가 두었어요",
+      "could_not_generate_coupon_code": "쿠폰 코드를 생성할 수 없어요"
+    }
+  },
+  "components": {
+    "footer": {
+      "shared": {
+        "site_links": {
+          "editions": {
+            "research_link": "Exercism Research",
+            "title": "에디션",
+            "exercism_link": "Exercism",
+            "learn_to_code_link": "코딩 배우기",
+            "with": "함께",
+            "jiki_link": "Jiki",
+            "bootcamp_link": "Exercism 부트캠프",
+            "teams_link": "팀을 위한 Exercism"
+          },
+          "about": {
+            "title": "소개",
+            "about_exercism_link": "Exercism 소개",
+            "our_team_link": "우리 팀",
+            "contributors_link": "기여자",
+            "partners_link": "파트너",
+            "individual_supporters_link": "개인 후원자"
+          },
+          "get_involved": {
+            "title": "참여하기",
+            "exercism_insiders_link": "Exercism Insiders",
+            "contribute_link": "기여하기",
+            "mentor_link": "멘토 되기",
+            "donate_link": "후원하기"
+          },
+          "legal_and_policies": {
+            "title": "법적 고지 및 정책",
+            "terms_of_usage_link": "이용 약관",
+            "privacy_policy_link": "개인정보 처리방침",
+            "cookie_policy_link": "쿠키 정책",
+            "code_of_conduct_link": "행동 강령",
+            "accessibility_statement_link": "접근성 안내"
+          },
+          "keep_in_touch": {
+            "title": "소식 받기",
+            "blog_link": "Exercism 블로그",
+            "github_link": "GitHub에서 토론하기",
+            "contact_us_link": "문의하기",
+            "report_abuse_link": "신고하기"
+          },
+          "get_help": {
+            "title": "도움말",
+            "docs_link": "Exercism 문서",
+            "getting_started_link": "시작하기",
+            "faqs_link": "자주 묻는 질문",
+            "installing_cli_link": "CLI 설치하기",
+            "cli_walkthrough_link": "대화형 CLI 안내"
+          }
+        },
+        "tracks_section": {
+          "title": "프로그래밍 언어 트랙",
+          "add_language_title": "Exercism에 언어 트랙을 추가하고 싶으세요?",
+          "add_language_description_html": "<a href=\"%{forum_url}\">포럼</a>에서 새 주제를 열고 함께 이야기해봐요.\n"
+        },
+        "legals": {
+          "company_info_html": "Exercism은 %{company_link_open}영국에 등록된%{company_link_close} 비영리 단체예요. 이사는 %{katrina_owen_link}, %{jeremy_walker_link}, %{erik_schierboom_link}예요."
+        },
+        "nfp_section": {
+          "title": "누구나, 어디서나 Exercism을 무료로 이용할 수 있도록 도와주세요.",
+          "subtitle": "Exercism은 오픈 소스이고 100% 무료예요.",
+          "description": "다양한 배경을 가진 사람들이 코드 연습과 멘토링을 통해 프로그래밍 실력을 키울 수 있도록, 기회를 만들어 주세요."
+        }
+      },
+      "external": {
+        "title": "누구나 할 수 있는 코딩 연습과 멘토링",
+        "description": "학습과 연습, 멘토링을 독특하게 버무린 Exercism만의 방식으로 %{num_active_tracks}개 프로그래밍 언어를 유창하게 다뤄봐요. Exercism은 재미있고 효과적이며 언제나 100% 무료예요.",
+        "signup_button": "무료로 가입하기",
+        "explore_languages_button": "언어 둘러보기"
+      }
+    },
+    "handle_with_flair": {
+      "icon_alt": "%{title}님의 플레어",
+      "titles": {
+        "insider": "Exercism Insider",
+        "lifetime_insider": "평생 Insider",
+        "founder": "창립자",
+        "staff": "스태프"
+      }
+    },
+    "track": {
+      "exercise_header": {
+        "tabs": {
+          "community_solutions": "커뮤니티 풀이",
+          "code_review": "코드 리뷰",
+          "overview": "개요",
+          "your_iterations": "내 제출 기록",
+          "dig_deeper": "심화 학습"
+        },
+        "locked_tab_aria_label": "이 탭은 잠겨 있어요"
+      },
+      "exercise_status_tag": {
+        "work_in_progress": "작업 중",
+        "available": "이용 가능",
+        "locked": "잠김",
+        "in_progress": "진행 중",
+        "completed": "완료",
+        "published": "게시됨"
+      },
+      "header": {
+        "practice_mode": "연습 모드",
+        "overview": "개요",
+        "about": "%{track_title} 소개",
+        "learn": "배우기",
+        "practice": "연습",
+        "build_status": "빌드 상태"
+      },
+      "build": {
+        "health": {
+          "verb": {
+            "singular": "이에요",
+            "plural": "이에요"
+          },
+          "exemplar": "모범 답안%{verb} ✨",
+          "healthy": "정상%{verb} ✅",
+          "needs_attention": "확인 필요 ⚠️",
+          "missing": "누락%{verb} ❓"
+        }
+      }
+    },
+    "user_activities": {
+      "completed_exercise": {
+        "time_ago": "%{time_ago} 전"
+      },
+      "started_exercise": {
+        "time_ago": "%{time_ago} 전"
+      },
+      "submitted_iteration": {
+        "time_ago": "%{time_ago} 전"
+      }
+    },
+    "user_menu": {
+      "button_label": "프로필 메뉴를 여는 버튼",
+      "profile_menu_icon": "프로필 메뉴",
+      "avatar_alt": "업로드한 아바타",
+      "open_public_profile": "공개 프로필 열기",
+      "items": {
+        "dashboard": "대시보드",
+        "tracks": "트랙",
+        "mentoring": "멘토링",
+        "community": "커뮤니티",
+        "insiders": "Insiders 💜",
+        "donate": "후원",
+        "public_profile": "공개 프로필",
+        "your_journey": "나의 여정",
+        "settings": "설정",
+        "maintaining": "관리 중",
+        "sign_out": "로그아웃"
+      }
+    },
+    "nav_submenus": {
+      "learn": {
+        "journey": {
+          "description": "Exercism 여정을 살펴봐요",
+          "title": "내 여정"
+        },
+        "favorites": {
+          "title": "내 즐겨찾기",
+          "description": "즐겨찾기한 풀이를 다시 만나봐요"
+        },
+        "tracks": {
+          "title": "언어 트랙",
+          "description": "65개 이상의 언어로 실력을 키워보세요"
+        },
+        "coding_fundamentals": {
+          "title": "Jiki와 함께 코딩 배우기",
+          "description": "LLM 시대에 코딩을 배우고 직접 만들어 봐요."
+        }
+      },
+      "discover": {
+        "perks": {
+          "title": "Exercism 혜택",
+          "description": "파트너가 제공하는 혜택과 할인"
+        },
+        "community_content": {
+          "title": "커뮤니티 영상",
+          "description": "스트리밍과 해설 영상 등"
+        },
+        "brief_introductions": {
+          "title": "간단 소개 시리즈",
+          "description": "언어별 간단 소개"
+        },
+        "interviews": {
+          "title": "인터뷰와 이야기",
+          "description": "사람들의 이야기에서 영감을 얻어봐요"
+        },
+        "discord": {
+          "title": "Discord",
+          "description": "커뮤니티와 대화하고 어울려요"
+        },
+        "forum": {
+          "title": "포럼",
+          "description": "주제를 더 깊이 파고들어요"
+        }
+      },
+      "contribute": {
+        "getting_started": {
+          "title": "시작하기",
+          "description": "Exercism을 도울 수 있는 방법"
+        },
+        "mentoring": {
+          "title": "멘토링",
+          "description": "다른 사람의 학습을 도와줘요"
+        },
+        "docs": {
+          "title": "문서",
+          "description": "도움을 주는 데 필요한 모든 것"
+        },
+        "contributors": {
+          "title": "기여자",
+          "description": "Exercism을 만드는 사람들을 만나봐요"
+        },
+        "translators": {
+          "title": "번역가",
+          "description": "현지화 프로젝트를 지원해요"
+        }
+      },
+      "more": {
+        "donate": {
+          "title": "후원하기",
+          "description": "우리의 사명을 함께 지지해요"
+        },
+        "about": {
+          "title": "Exercism 소개",
+          "description": "우리 단체에 대해 알아봐요"
+        },
+        "impact": {
+          "title": "우리의 영향력",
+          "description": "우리가 이뤄낸 것들을 살펴봐요"
+        },
+        "github_syncer": {
+          "title": "GitHub 동기화",
+          "description": "풀이를 GitHub에 백업해요"
+        },
+        "insiders": {
+          "title": "Insiders",
+          "description": "고마운 마음을 전하는 방법"
+        }
+      },
+      "views": {
+        "mentoring_details": "멘토링 상세 정보"
+      }
+    },
+    "perk": {
+      "logo_alt_text": "%{partner_name}의 로고",
+      "learn_more_button": "자세히 알아보기"
+    },
+    "reputation": {
+      "aria_label": "%{reputation} 평판",
+      "icon_alt": "평판"
+    },
+    "about_nav": {
+      "about_exercism": "Exercism 소개",
+      "our_impact": "우리의 영향",
+      "team": "팀",
+      "supporters": "후원자",
+      "partners": "파트너"
+    },
+    "settings_nav": {
+      "account_settings": "계정 설정",
+      "api_cli": "API / CLI",
+      "integrations": "연동",
+      "github_syncer": "GitHub 동기화",
+      "preferences": "환경설정",
+      "communication_preferences": "커뮤니케이션 환경설정",
+      "donations": "기부",
+      "insiders": "Insiders"
+    },
+    "site_header": {
+      "announcement_bar": {
+        "downtime": "서버 업그레이드: 앞으로 24시간 동안 인프라 업데이트를 진행할 예정이에요.",
+        "downtime_link_text": "더 보기...",
+        "coding_fundamentals": "코딩을 배우고 있나요? 초보자를 위한 새로운 전용 플랫폼을 확인해 보세요 -",
+        "coding_fundamentals_link_text": "Jiki!",
+        "donation_ask": "Exercism을 즐기고 있나요? 계속 운영하려면 여러분의 도움이 필요해요…",
+        "donation_ask_link_text": "가능하다면 기부해 주세요!"
+      },
+      "nav": {
+        "learn": "배우기",
+        "discover": "둘러보기",
+        "contribute": "기여하기",
+        "more": "더보기",
+        "insiders": "Insiders"
+      },
+      "auth_buttons": {
+        "sign_up": "회원가입",
+        "log_in": "로그인"
+      },
+      "explore_menu": {
+        "button_label": "탐색 메뉴를 여는 버튼",
+        "button_text": "탐색",
+        "home": "홈",
+        "language_tracks": "언어 트랙",
+        "community": "커뮤니티",
+        "mentoring": "멘토링",
+        "insiders": "Insiders 💜",
+        "donate": "기부"
+      },
+      "docs_search": {
+        "placeholder": "Exercism 문서 검색..."
+      }
+    },
+    "student": {
+      "mentoring_session": {
+        "videos": {
+          "making_the_most_title": "멘토링을 최대한 활용하는 방법"
+        }
+      }
+    },
+    "advert": {
+      "tag_text": "혜택",
+      "cta_text": "할인 혜택 받기"
+    },
+    "blog_post": {
+      "new_label": "새 글",
+      "published_time": "%{time_ago} 전",
+      "share_title": "이 블로그 글 공유하기"
+    },
+    "community": {
+      "stories": {
+        "video_length": {
+          "label": "길이",
+          "hours": {
+            "other": "시간"
+          },
+          "minutes": {
+            "other": "분"
+          }
+        }
+      }
+    },
+    "community_solutions": {
+      "share_solution_button": {
+        "title": "%{handle}님의 풀이 공유하기",
+        "share_title": "Exercism에서 이 풀이 보기"
+      }
+    },
+    "contributing": {
+      "header": {
+        "title": "함께 최고의 코딩 교육 플랫폼을 만들어봐요",
+        "intro_before_link": "Exercism은 ",
+        "intro_link": "오픈 소스 비영리 프로젝트",
+        "intro_after_link": " 이에요. 다양한 배경을 가진 사람들이 함께 만들어요. 백 명이 넘는 헌신적인 메인테이너와 수천 명의 기여자가 모여, 웹에서 최고의 무료 코딩 학습 플랫폼을 만드는 것이 우리의 목표예요.",
+        "contributing_help": "기여 도움말",
+        "getting_started": "시작하기",
+        "explore_tasks": "작업 살펴보기",
+        "contributors": "기여자"
+      }
+    },
+    "docs_main_nav": {
+      "home": "문서 홈",
+      "using": "Exercism 사용하기",
+      "building": "Exercism 만들기",
+      "mentoring": "멘토링",
+      "community": "커뮤니티",
+      "tracks": "트랙별"
+    },
+    "docs_track_list": {
+      "doc_count": {
+        "other": "문서 %{count}개"
+      }
+    },
+    "donate_with_crypto": {
+      "label": "암호화폐로 후원하기"
+    },
+    "exercise": {
+      "unlock_on_complete_sentence": {
+        "with_concepts_html": "%{exercise_title} 문제를 완료로 표시하면 %{concepts}(%{concept_names})와 %{exercises}의 잠금이 해제돼요.",
+        "without_concepts_html": "%{exercise_title} 문제를 완료로 표시하면 %{exercises}의 잠금이 해제돼요.",
+        "concept_count": {
+          "other": "개념 %{count}개"
+        },
+        "exercise_count": {
+          "other": "새 연습 문제 %{count}개"
+        }
+      }
+    },
+    "impact": {
+      "chart": {
+        "milestones": {
+          "reached_1m_users": "사용자 100만 명 달성!",
+          "exercism_v3": "Exercism v3",
+          "automated_feedback": "자동화된 피드백!",
+          "exercism_v2": "Exercism v2",
+          "exercism_launched": "Exercism 출시"
+        }
+      }
+    },
+    "language_switcher": {
+      "label": "언어 선택",
+      "coming_soon": "곧 출시 예정",
+      "coming_soon_badge": "곧"
+    },
+    "locale_banner": {
+      "pre": "이 페이지는 %{current} 버전이에요.",
+      "link": "%{offered} 버전 보기",
+      "dismiss": "닫기"
+    },
+    "mentor": {
+      "header": {
+        "title": "멘토링",
+        "guides_link": "멘토링 가이드",
+        "locked_tab_aria_label": "이 탭은 잠겨 있어요",
+        "stats": {
+          "discussions_completed": "토론 %{count}개 완료",
+          "satisfaction": "만족도 %{percentage}%"
+        },
+        "tabs": {
+          "workspace": "내 워크스페이스",
+          "queue": "대기열",
+          "testimonials": "추천사",
+          "automation": "자동화"
+        }
+      }
+    },
+    "mentoring": {
+      "inbox": {
+        "sort_options": {
+          "recent_first": "최신순 정렬",
+          "oldest_first": "오래된순 정렬",
+          "exercise": "연습 문제순 정렬",
+          "student": "학생순 정렬"
+        }
+      },
+      "queue": {
+        "sort_options": {
+          "oldest_first": "오래된순 정렬",
+          "recent_first": "최신순 정렬"
+        }
+      },
+      "representations": {
+        "sort_options": {
+          "highest_occurrence": "발생 횟수 많은 순",
+          "recent_first": "최신순 정렬",
+          "most_recent_feedback": "최근 피드백 순",
+          "least_recent_feedback": "오래된 피드백 순"
+        }
+      },
+      "try_mentoring_button": {
+        "default_text": "지금 멘토링 시작하기"
+      }
+    },
+    "nav_helpers": {
+      "nav_dropdown_helper": {
+        "new_badge": "신규",
+        "external_link": "링크가 새 창이나 탭에서 열려요"
+      }
+    }
+  },
+  "tracks": {
+    "build": {
+      "show_practice_exercises": {
+        "synced_repo_label": "동기화된 기본 저장소:",
+        "updates_instant_notice": "(업데이트는 즉시 반영돼요)",
+        "next_goal_implement_exercises": "다음 목표: 연습 문제 %{additional_text}%{count}개를 구현해요.",
+        "find_out_more_button": "더 알아보기.",
+        "active_exercises_summary": "활성 연습 문제 %{count}개",
+        "started_column": "시작함",
+        "attempts_column": "시도",
+        "completions_column": "완료",
+        "mentoring_requests_column": "멘토링 요청",
+        "attempts_value": "%{num_submitted} (평균 %{avg_submitted})",
+        "deprecated_exercises_summary": "지원 중단된 연습 문제 %{count}개",
+        "unimplemented_exercises_summary": {
+          "other": "구현되지 않은 연습 문제 %{count}개"
+        },
+        "view_data_link": "데이터 보기",
+        "foregone_exercises_summary": {
+          "other": "제외된 연습 문제 %{count}개"
+        },
+        "practice_exercises_heading": "연습 문제",
+        "learn_more_button": "더 알아보기",
+        "practice_exercises_description": "연습 문제는 학생이 지금까지 배운 개념을 활용하는 것을 목표로, 임의의 문제를 풀 수 있게 설계된 문제예요."
+      },
+      "index_syllabus": {
+        "syllabus_heading": "%{track_title} 실러버스",
+        "learn_more_button": "더 알아보기",
+        "syllabus_description": "트랙 실러버스 제작을 도와주세요. 실러버스는 프로그래밍 언어의 기초 요소를 가르치기 위해 개념과 학습 연습 문제를 함께 모아 놓은 거예요.",
+        "next_goal_syllabus_concepts": "다음 목표: 최소 %{count}개의 개념을 담은 완전한 실러버스를 만들어요.",
+        "find_out_more_button": "더 알아보기.",
+        "concepts_being_taught_summary": "가르치는 중인 개념 %{count}개",
+        "students_learnt_count": "%{count}개 학습 완료",
+        "active_learning_exercises_summary": "활성 학습 연습 문제 %{count}개",
+        "started_column": "시작함",
+        "attempts_column": "시도",
+        "completions_column": "완료",
+        "mentoring_requests_column": "멘토링 요청",
+        "attempts_value": "%{num_submitted} (평균 %{avg_submitted})",
+        "deprecated_learning_exercises_summary": "지원 중단된 학습 연습 문제 %{count}개"
+      },
+      "test_runner_tooltip": {
+        "test_runner_heading": "%{track_title} 테스트 러너",
+        "health_exemplar": "최신 버전의 명세를 구현했어요.",
+        "health_healthy": "버전 %{current_version}에서 %{target_version}으로 업그레이드할 수 있어요.",
+        "health_needs_attention": "버전 %{current_version}에서 %{target_version}으로 업그레이드해야 해요.",
+        "health_missing": "테스트 러너가 아직 구현되지 않았어요.",
+        "iterations_tested": {
+          "other": "이터레이션 %{count}개가 테스트되었어요."
+        }
+      },
+      "index_practice_exercises": {
+        "practice_exercises_title": "연습 문제",
+        "learn_more_button": "더 알아보기",
+        "practice_exercises_description": "연습 문제는 학생들이 지금까지 배운 개념을 활용해 임의의 문제를 풀 수 있도록 설계된 문제예요.",
+        "synced_primary_repo_label": "동기화된 기본 저장소:",
+        "updates_instant_message": "(업데이트는 즉시 반영돼요)",
+        "next_goal_message": "다음 목표: 연습 문제 %{include_at_least}%{count}개를 구현해요.",
+        "find_out_more_link": "자세히 알아보기.",
+        "active_exercises_summary": {
+          "other": "%{count}개의 활성 연습 문제"
+        },
+        "started_label": "시작",
+        "attempts_label": "시도",
+        "completions_label": "완료",
+        "mentoring_requests_label": "멘토링 요청",
+        "attempts_value": "%{num_submitted} (평균 %{num_submitted_average})",
+        "deprecated_exercises_summary": {
+          "other": "%{count}개의 지원 중단된 연습 문제"
+        },
+        "unimplemented_exercises_summary": {
+          "other": "%{count}개의 미구현 연습 문제"
+        },
+        "view_data_link": "데이터 보기",
+        "foregone_exercises_summary": {
+          "other": "%{count}개의 포기한 연습 문제"
+        }
+      },
+      "show_syllabus": {
+        "concepts_taught_summary": "%{count}개 개념 교육 중",
+        "num_students_learnt": "%{count}명 학습 완료",
+        "active_learning_exercises_summary": "%{count}개 활성 학습 연습 문제",
+        "started_label": "시작",
+        "attempts_label": "시도",
+        "completions_label": "완료",
+        "mentoring_requests_label": "멘토링 요청",
+        "attempts_value": "%{num_submitted} (평균 %{num_submitted_average})",
+        "deprecated_learning_exercises_summary": "%{count}개 사용 중단된 학습 연습 문제",
+        "syllabus_heading": "%{track_title} 실라버스",
+        "learn_more_button": "더 알아보기",
+        "syllabus_description": "트랙 실라버스 만들기를 도와주세요. 실라버스는 프로그래밍 언어의 기초 요소를 가르치기 위해 개념과 연습 문제를 모아 놓은 것이에요.",
+        "next_goal_create_syllabus": "다음 목표: 개념을 최소 %{num_active_target}개 포함한 완성된 실라버스를 만들어요.",
+        "find_out_more_button": "자세히 알아보기."
+      },
+      "index_analyzer": {
+        "analyzer_heading": "Analyzer",
+        "learn_more_button": "더 알아보기",
+        "analyzer_description": "%{track_title}용 Analyzer를 만들어 봐요: Exercism의 Analyzer는 학생의 제출물을 자동으로 평가하고 멘토 스타일의 코멘트를 제공해요.",
+        "next_goal_build_analyzer": "다음 목표: Analyzer 만들기.",
+        "find_out_more_button": "자세히 알아보기.",
+        "current_version_label": "현재 버전:",
+        "deploy_time_notice": "(모든 서버에 새 버전을 배포하는 데 몇 분 정도 걸릴 수 있어요).",
+        "total_analyzer_runs_label": "총 Analyzer 실행 횟수",
+        "total_analysis_comments_made_label": "총 분석 코멘트 수",
+        "feedback_given_frequency_label": "피드백 제공 빈도"
+      },
+      "index_representer": {
+        "representer_heading": "Representer",
+        "learn_more_button": "더 알아보기",
+        "representer_description": "Representer를 만들어 봐요: 풀이를 받아 정규화된 표현을 반환하는, 단 하나의 책임만 가진 작은 코드예요.",
+        "next_goal_build_representer": "다음 목표: Representer 만들기.",
+        "find_out_more_button": "자세히 알아보기.",
+        "current_version_label": "현재 버전:",
+        "deploy_time_notice": "(모든 서버에 새 버전을 배포하는 데 몇 분 정도 걸릴 수 있어요).",
+        "total_representer_runs_label": "총 Representer 실행 횟수",
+        "total_representation_comments_made_label": "총 표현 코멘트 수",
+        "feedback_given_frequency_label": "피드백 제공 빈도"
+      },
+      "show_representer": {
+        "representer_heading": "Representer",
+        "learn_more_button": "더 알아보기",
+        "representer_description": "Representer를 만들어 봐요: 풀이를 받아 정규화된 표현을 반환하는, 단 하나의 책임만 가진 작은 코드예요.\n",
+        "next_goal_build_representer": "다음 목표: Representer 만들기.",
+        "find_out_more_button": "자세히 알아보기.",
+        "current_version_label": "현재 버전:",
+        "deploy_time_notice_short": "(배포하는 데 최대 10분이 걸려요)",
+        "total_representer_runs_label": "총 Representer 실행 횟수",
+        "total_representation_comments_made_label": "총 표현 코멘트 수",
+        "feedback_given_frequency_label": "피드백 제공 빈도"
+      },
+      "show_test_runner": {
+        "test_runner_heading": "Test Runner",
+        "learn_more_button": "더 알아보기",
+        "test_runner_description": "솔루션을 받아 모든 테스트를 실행하고 표준화된 출력을 반환하는 단일 책임을 가진 Test Runner를 만들어요.",
+        "next_goal_build_test_runner": "다음 목표: Test Runner 만들기.",
+        "find_out_more_button": "자세히 알아보기.",
+        "current_version_label": "현재 버전:",
+        "deploy_time_notice_short": "(배포에 최대 10분이 걸려요)",
+        "next_goal_get_test_runners": "다음 목표: Test Runner를 %{version_target} 버전으로 올리기. %{track_title} 트랙은 현재 %{version} 버전 Test Runner를 사용하고 있어요.",
+        "total_test_runner_runs_label": "전체 Test Runner 실행 횟수",
+        "test_run_pass_rate_label": "테스트 실행 통과율",
+        "test_run_fail_rate_label": "테스트 실행 실패율",
+        "test_run_error_rate_label": "테스트 실행 오류율"
+      },
+      "index_test_runner": {
+        "test_runner_heading": "Test Runner",
+        "learn_more_button": "더 알아보기",
+        "test_runner_description": "솔루션을 받아 모든 테스트를 실행하고 표준화된 출력을 반환하는 단일 책임을 가진 Test Runner를 만들어요.",
+        "next_goal_build_test_runner": "다음 목표: Test Runner 만들기.",
+        "find_out_more_button": "자세히 알아보기.",
+        "current_version_label": "현재 버전:",
+        "deploy_time_notice": "(모든 서버에 새 버전을 배포하는 데 몇 분 정도 걸릴 수 있어요).",
+        "next_goal_get_test_runners": "다음 목표: Test Runner를 %{version_target} 버전으로 올리기. %{track_title} 트랙은 현재 %{version} 버전 Test Runner를 사용하고 있어요.",
+        "total_test_runner_runs_label": "전체 Test Runner 실행 횟수",
+        "test_run_pass_rate_label": "테스트 실행 통과율",
+        "test_run_fail_rate_label": "테스트 실행 실패율",
+        "test_run_error_rate_label": "테스트 실행 오류율"
+      },
+      "analyzer_tooltip": {
+        "analyzer_title": "%{track_title} 분석기",
+        "feedback": {
+          "exemplar": "제출된 풀이 중 %{display_rate_percentage}%에 피드백을 제공해요!",
+          "healthy": "제출된 풀이 중 %{display_rate_percentage}%에 피드백을 제공해요.",
+          "needs_attention": "아직 피드백이 제공되지 않았어요.",
+          "missing": "아직 분석기가 구현되지 않았어요."
+        },
+        "comments_made": {
+          "other": "%{count}개의 댓글이 달렸어요."
+        },
+        "analyzer_heading": "%{track_title} 분석기",
+        "feedback_exemplar": "제출된 풀이의 %{display_rate_percentage}%에 피드백을 줘요!",
+        "feedback_healthy": "제출된 풀이의 %{display_rate_percentage}%에 피드백을 줘요.",
+        "feedback_needs_attention": "아직 피드백이 없어요.",
+        "feedback_missing": "분석기가 아직 구현되지 않았어요."
+      },
+      "syllabus_tooltip": {
+        "syllabus_title": "%{track_title} 실러버스",
+        "feedback": {
+          "exemplar": "무려 %{count}개의 개념을 가르치고 있어요!",
+          "healthy": "제법 %{count}개의 개념을 가르치고 있어요.",
+          "needs_attention": {
+            "other": "개념을 %{count}개 더 구현해야 해요."
+          },
+          "missing": "구현된 개념이 없어요."
+        },
+        "syllabus_heading": "%{track_title} 실러버스",
+        "syllabus_exemplar": "무려 %{count}개의 개념을 가르치고 있어요!",
+        "syllabus_healthy": "제법 %{count}개의 개념을 가르치고 있어요.",
+        "syllabus_needs_attention": {
+          "other": "개념을 %{count}개 더 구현해야 해요."
+        },
+        "syllabus_missing": "구현된 개념이 없어요."
+      },
+      "representer_tooltip": {
+        "representer_title": "%{track_title} 리프리젠터",
+        "feedback": {
+          "exemplar": "훌륭하게 동작해요!",
+          "healthy": "잘 동작해요.",
+          "needs_attention": "어떤 리프리젠테이션에서도 피드백이 제공되지 않았어요.",
+          "missing": "리프리젠터가 아직 구현되지 않았어요."
+        },
+        "comments_made": {
+          "other": "%{count}개의 댓글이 달렸어요."
+        },
+        "representer_heading": "%{track_title} 리프리젠터",
+        "representer_exemplar": "훌륭하게 동작해요!",
+        "representer_healthy": "잘 동작해요.",
+        "representer_needs_attention": "어떤 리프리젠테이션에서도 피드백이 제공되지 않았어요.",
+        "representer_missing": "리프리젠터가 아직 구현되지 않았어요."
+      },
+      "show_analyzer": {
+        "analyzer_heading": "분석기",
+        "learn_more_button": "더 알아보기",
+        "analyzer_description": "%{track_title} 분석기 만들기: Exercism의 분석기는 제출된 풀이를 자동으로 평가하고 멘토와 같은 코멘트를 제공해요.",
+        "missing_analyzer_next_goal": "다음 목표: 분석기 만들기.",
+        "find_out_more_button": "더 알아보기.",
+        "current_version_label": "현재 버전:",
+        "deploy_time_notice": "(배포하는 데 최대 10분이 걸려요)",
+        "total_analyzer_runs_label": "총 분석기 실행 횟수",
+        "total_analysis_comments_made_label": "총 분석 코멘트 수",
+        "feedback_given_frequency_label": "피드백 제공 빈도"
+      },
+      "show": {
+        "meta_title": "Exercism에서 %{track_title} 트랙의 영향력과 현황",
+        "meta_description": "Exercism에서 %{track_title} 트랙의 영향력과 현황을 살펴보세요.",
+        "track_management_title": "%{track_title} 트랙 관리",
+        "track_management_description": "이 페이지는 Exercism 커뮤니티가 %{track_title} 트랙을 관리하는 데 필요한 정보와 도구를 제공해요.",
+        "students_stat": "학생",
+        "submissions_stat": "제출",
+        "mentoring_discussions_stat": "멘토링 토론",
+        "track_status_title": "%{track_title} 트랙",
+        "tooling_status_building": "구축 중",
+        "aria_label_syllabus": "%{track_title} 트랙의 실라버스 상태",
+        "aria_label_test_runner": "%{track_title} 트랙의 테스트 러너 상태",
+        "aria_label_analyzer": "%{track_title} 트랙의 분석기 상태",
+        "aria_label_representer": "%{track_title} 트랙의 리프리젠터 상태",
+        "aria_label_practice_exercises": "%{track_title} 트랙의 연습 문제 상태",
+        "volunteers_label": {
+          "other": "%{count}명의 자원봉사자"
+        },
+        "more_volunteers_link": "+ %{count}명 더",
+        "love_volunteers_title": "우리는 자원봉사자를 💙합니다",
+        "love_volunteers_description": "Exercism은 언어 트랙을 만들고 학생들을 멘토링하는 오픈소스 자원봉사자들의 도움을 받고 있어요.",
+        "become_volunteer_link": "Exercism 자원봉사자가 되어 보세요"
+      },
+      "practice_exercises_tooltip": {
+        "practice_exercises_tooltip_title": "%{track_title} 트랙의 연습 문제",
+        "practice_exercises_tooltip_exemplar": "훌륭한 연습 문제 %{count}개를 구현했어요!",
+        "practice_exercises_tooltip_healthy": "연습 문제 %{count}개를 구현했어요.",
+        "practice_exercises_tooltip_needs_attention": {
+          "other": "연습 문제 %{count}개를 더 구현해야 해요."
+        },
+        "practice_exercises_tooltip_missing": "아직 구현된 연습 문제가 없어요."
+      }
+    },
+    "shared": {
+      "learn_more": "더 알아보기",
+      "find_out_more": "자세히 알아보기.",
+      "started": "시작함",
+      "attempts": "시도",
+      "completions": "완료",
+      "mentoring_requests": "멘토링 요청",
+      "attempts_value": "%{num_submitted} (평균 %{avg_submitted})"
+    },
+    "community_solutions": {
+      "tooltip_locked": {
+        "struggling_question": "이 연습 문제가 어려워요?",
+        "unlock_community_solutions": "커뮤니티 솔루션의 잠금을 해제하면 커뮤니티가 %{exercise_title} 문제에 어떻게 접근하고 풀었는지 볼 수 있어요.",
+        "attempt_exercise_first": "이 연습 문제를 한 번 이상 시도해야 커뮤니티 솔루션 탭을 볼 수 있어요.",
+        "recommendation": "커뮤니티 솔루션 탭을 먼저 보지 않고 스스로 최선을 다해 풀어 보는 걸 적극 추천해요."
+      },
+      "show": {
+        "meta_title": "Exercism에서 %{track_title}의 %{exercise_title} 문제를 푼 %{author_handle}님의 솔루션",
+        "meta_description": "@%{author_handle}님이 %{track_title}의 %{exercise_title} 문제를 어떻게 풀었는지 보고, 여러분도 어떻게 풀 수 있을지 영감을 받아 보세요! Exercism은 100% 무료이고, 65개 이상의 언어로 프로그래밍 실력을 키우는 좋은 방법이에요.",
+        "breadcrumbs": {
+          "tracks": "트랙",
+          "exercises": "연습 문제",
+          "community_solutions": "커뮤니티 솔루션",
+          "your_solution": "내 솔루션",
+          "authors_solution": "%{author_handle}님의 풀이"
+        },
+        "solution_heading": {
+          "your_solution": "내 풀이",
+          "authors_solution": "%{author_handle}님의 풀이",
+          "to": "에 대한",
+          "in": "의"
+        },
+        "comments_button": {
+          "alt_text": "댓글 수"
+        },
+        "mentoring": {
+          "mentored_by": "멘토링한 사람",
+          "what_is_this": "이게 뭐예요?"
+        },
+        "about_solution": {
+          "title": "이 풀이 정보",
+          "description": "비슷한 풀이를 자동으로 모아서 인기가 얼마나 많은지에 대한 통계를 만들어요.",
+          "submissions": {
+            "other": "제출"
+          },
+          "first_submitted_ago": "%{time} 전",
+          "first_submitted": "최초 제출",
+          "reputation_alt_text": "평판",
+          "max_track_rep": "트랙 최대 평판"
+        },
+        "solution_approach": {
+          "title": "이 풀이의 접근 방식",
+          "description": "커뮤니티가 작성한 심층 분석에서 이 접근 방식의 장단점을 살펴보세요…",
+          "used_by": "%{num_solutions}명이 사용했어요."
+        },
+        "about_exercise": {
+          "title": "소개:",
+          "exercise_label": "연습 문제"
+        },
+        "other_solutions": {
+          "title": "다른 풀이:",
+          "in_label": "의",
+          "explore_link": "이 연습 문제에 대한 다른 풀이 살펴보기"
+        }
+      },
+      "index": {
+        "meta_title": "Exercism의 %{track_title} %{exercise_title} 커뮤니티 풀이",
+        "meta_description": "%{track_title}의 %{exercise_title}에 대한 다른 사람들의 풀이를 살펴보고, 다른 사람들이 이 연습 문제를 어떻게 풀었는지 배워 보세요."
+      }
+    },
+    "about": {
+      "concepts": {
+        "see_all_concepts": "%{track_title}의 모든 개념 보기",
+        "title": "배우게 될 개념 미리 보기"
+      },
+      "key_features": {
+        "title": "%{track_title}의 주요 기능"
+      },
+      "upsell": {
+        "mentoring_section": {
+          "title": "%{track_title} 방식으로 멘토링 받기",
+          "paragraph_html": "모든 언어에는 저마다의 방식이 있어요. %{track_title}도 마찬가지예요. 멘토가 %{track_title} 개발자처럼 생각하는 법과 %{track_title}다운 코드를 작성하는 법을 익히도록 도와줘요. 연습 문제를 하나 풀면 자원봉사 팀에 제출해 보세요. 그러면 힌트와 아이디어, 그리고 %{track_title}에서 흔히 볼 수 있는 코드에 더 가깝게 다듬는 방법에 대한 피드백을 받을 수 있어요. 스스로는 알지 못한다는 사실조차 몰랐던 것들을 발견하도록 도와주는 거예요.\n",
+          "learn_more": "멘토링에 대해 더 알아보기"
+        },
+        "exercises_section": {
+          "title": "커뮤니티가 함께 만든 %{track_title} 연습 문제",
+          "paragraph_html": {
+            "one_concept": "Exercism의 %{track_title} 트랙에는 더 나은 코드를 작성하는 데 도움이 되는 %{num_concepts}개의 개념과 %{track_num_exercises}개의 연습 문제가 있어요.\n",
+            "many_concepts": "Exercism의 %{track_title} 트랙에는 더 나은 코드를 작성하는 데 도움이 되는 %{num_concepts}개의 개념과 %{track_num_exercises}개의 연습 문제가 있어요.\n",
+            "no_concepts": "Exercism의 %{track_title} 트랙에는 더 나은 코드를 작성하는 데 도움이 되는 %{track_num_exercises}개의 연습 문제가 있어요.\n"
+          },
+          "see_all_exercises": "%{track_title} 연습 문제 모두 보기"
+        },
+        "cta": {
+          "title": "%{track_title} 트랙 시작하기",
+          "description": "가장 좋은 점은, 누구에게나 100% 무료라는 거예요.",
+          "join_button": "%{track_title} 트랙 참여하기"
+        }
+      },
+      "header": {
+        "title": "%{track_title} 트랙을 배우고 제대로 익혀 볼까요?",
+        "subtitle_html": "Exercism의 %{track_title} 트랙에 참여해서\n<em class=\"c-underline\"><strong>%{num_exercises}개의 연습 문제</strong></em>와\n%{concepts_clause}\n코드 자동 분석,\n그리고\n<em class=\"c-underline\"><strong>개인 멘토링</strong></em>까지\n모두 <em class=\"c-underline\"><strong>100% 무료</strong></em>로 이용할 수 있어요.\n",
+        "concepts_part_course": "%{num_concepts}개의 %{track_title} 개념으로 묶여 있고,",
+        "join_track_button": "%{track_title} 트랙 참여하기",
+        "explore_concepts_button": "개념 살펴보기",
+        "explore_exercises_button": "연습 문제 살펴보기",
+        "gobridge_platform_html": "⭐ <span class=\"text-gradient\">Exercism은 GoBridge &amp; GDN의 공식 멘토링 플랫폼이에요.</span>\n",
+        "learn_more_link_text": "자세히 알아보기."
+      },
+      "about_section": {
+        "title": "%{track_title} 소개",
+        "read_more_button_text": "%{track_title}에 대해 더 알아보기",
+        "read_less_button_text": "접기"
+      },
+      "exercises_section": {
+        "title_html": "Exercism의 %{track_title} 트랙을 위한 <em class=\"c-underline\">%{num_exercises}개의 코딩 연습 문제</em>%{range_part}\n",
+        "range_part_present": " %{first_exercise_title}부터 %{last_exercise_title}까지.",
+        "subtitle": "Exercism에서 재미있고 보람찬 코딩 연습 문제로 개념에 대한 이해를 확인하며 프로그래밍 실력을 키워 보세요.",
+        "all_exercises_link": "Exercism에서 %{track_title} 연습 문제 모두 보기"
+      }
+    },
+    "approaches": {
+      "show": {
+        "meta_title": "Exercism에서 %{track_title}의 %{exercise_title}에 대한 '%{approach_title}' 접근법 살펴보기",
+        "meta_description": "Exercism에서 %{track_title}의 %{exercise_title}에 대한 '%{approach_title}' 접근법 살펴보기. %{approach_blurb}",
+        "published_at": "게시일",
+        "in_track_mobile": "%{track_title}에서",
+        "in_track_desktop": "%{track_title}에서",
+        "share_bar": {
+          "title_mobile": "이 접근법이 유용했나요?",
+          "subtitle_mobile": "주변에 공유해 보세요!",
+          "title_desktop": "이 접근법이 흥미롭거나 유용했나요?",
+          "subtitle_desktop": "주변에 공유해서 다른 사람들도 도움을 받게 해주세요!"
+        },
+        "useful_question": "유용했나요?",
+        "other_approaches": {
+          "title": "%{track_title}의 %{exercise_title}에 대한 다른 접근법",
+          "subtitle": "우리 커뮤니티가 이 연습 문제를 해결한 다른 방법"
+        }
+      }
+    },
+    "articles": {
+      "show": {
+        "meta_title": "Exercism에서 %{track_title}의 %{exercise_title}에 대한 '%{article_title}' 아티클 살펴보기",
+        "meta_description": "Exercism에서 %{track_title}의 %{exercise_title}에 대한 '%{article_title}' 아티클 살펴보기. %{article_blurb}",
+        "in_track": "%{track_title}에서",
+        "share_bar": {
+          "short_question": "이 아티클이 유용했나요?",
+          "short_action": "주변에 공유해 보세요!",
+          "long_question": "이 아티클이 흥미롭거나 유용했나요?",
+          "long_action": "주변에 공유해서 다른 사람들도 도움을 받게 해주세요!"
+        },
+        "useful_question": "유용했나요?",
+        "other_articles": {
+          "title": "%{exercise_title}에 대한 다른 아티클",
+          "description": "이 연습 문제에 대한 더 많은 아이디어 살펴보기"
+        }
+      }
+    },
+    "show": {
+      "mentoring_article": {
+        "mentoring_slot_locked": "멘토링 슬롯 잠김",
+        "learn_more_about_mentored_link": "멘토링 받기에 대해 더 알아보기",
+        "mentoring_locked_icon_alt": "멘토링이 잠겨 있어요",
+        "unlock_mentoring": "%{track_title}의 멘토링은 ”Hello, World!”를 완료하고 새 연습 문제를 시작하면 잠금이 해제돼요",
+        "your_mentoring_slots": {
+          "title": "내 멘토링 슬롯",
+          "filled": {
+            "other": "멘토링 슬롯 %{count}개 사용 중"
+          }
+        },
+        "current_reputation": {
+          "title": "현재 평판은"
+        },
+        "max_mentoring_slots": "사용할 수 있는 멘토링 슬롯이 최대예요",
+        "unlocked_icon_alt": "잠금 해제됨",
+        "next_slot_unlocks_at_html": "다음 슬롯은 평판 <strong>%{reputation_amount}</strong>가 되면 잠금이 해제돼요.",
+        "donate_to_exercism_html": "또는 <a href=\"%{insiders_path}\" class=\"text-prominentLinkColor font-semibold\">Exercism에 후원</a>해서 모든 멘토링 슬롯의 잠금을 해제할 수 있어요.\n",
+        "learn_more_link": "더 알아보기.",
+        "mentor_discussion_with": "함께",
+        "your_turn_to_respond": "이제 답할 차례예요",
+        "review_your_mentor": "멘토 평가하기",
+        "comments_count": {
+          "other": "댓글 %{count}개"
+        },
+        "waiting_on_mentor": "멘토를 기다리는 중…"
+      },
+      "contributors_section": {
+        "title": "%{track_title} 기여자",
+        "top_contributors_aria_label": "주요 기여자",
+        "view_profile_aria_label": "%{contributor_handle}님의 프로필 보기",
+        "other_contributors_aria_label": "그 외 주요 기여자",
+        "see_all_link": "모두 보기",
+        "see_all_contributors_aria_label": "이 트랙의 모든 기여자 보기",
+        "cta": {
+          "we_love_contributors_html": "우리 기여자들을 <span aria-label=\"love\">💙</span> 사랑해요\n",
+          "exercism_relies_on_open_source": "Exercism은 오픈소스 기여자들의 도움으로 언어 트랙을 만들고 학생들을 멘토링해요.",
+          "contribute_link": "%{track_title} 트랙에 기여하기 ->"
+        }
+      },
+      "start_track_section": {
+        "introduce_yourself_html": "<strong>”Hello, World!”</strong>를 완료하면서 %{track_title} 세계에 자신을 소개해 봐요",
+        "familiarize_yourself": "“Hello, World!” 튜토리얼 연습 문제를 완료하면서 Exercism이 어떻게 동작하는지 익히고, 플랫폼에 첫 코드를 제출해 봐요.",
+        "go_to_hello_world_exercise_link": "“Hello, World!” 연습 문제로 가기"
+      },
+      "stats_box_completed_exercises": {
+        "exercises_completed": {
+          "other": "완료한 연습 문제"
+        }
+      },
+      "activities_zero_state_section": {
+        "activity_zero_state_message": "연습 문제를 풀기 시작하면 이곳에 트랙에서의 활동이 표시돼요"
+      },
+      "stats_box_learnt_concepts": {
+        "concepts_learnt": {
+          "other": "배운 개념"
+        }
+      },
+      "ticker": {
+        "live_on_track": "%{track_title} 트랙에서 진행 중…"
+      },
+      "summary_article": {
+        "progress_chart": {
+          "just_started_track": "%{track_title} 트랙을 막 시작했어요. <strong>행운을 빌어요, 모험가님!</strong>",
+          "track_completed": "대단해요, 트랙을 완료했어요!! <strong>정말 대단한 성취예요! 👏</strong>",
+          "through_track_html": "%{track_title} 트랙을 <em>%{completed_percentage}%</em> 진행했어요.",
+          "completed_icon_alt": "완료",
+          "status": {
+            "completed": "완료",
+            "in_progress": "진행 중",
+            "available": "사용 가능",
+            "locked": "잠김",
+            "total_exercises": "전체 연습 문제"
+          },
+          "title": {
+            "just_started": "%{track_title} 트랙을 막 시작했어요.",
+            "good_luck": "행운을 빌어요, 모험가님!",
+            "completed_100_percent": "대단해요! 트랙을 완주했어요!!",
+            "achievement": "정말 대단한 성과예요! 👏",
+            "in_progress": "%{track_title} 트랙을 %{percentage}% 진행했어요."
+          },
+          "progress_bar": {
+            "completed_icon_alt": "완료"
+          },
+          "key": {
+            "completed": "완료",
+            "in_progress": "진행 중",
+            "available": "학습 가능",
+            "locked": "잠김",
+            "total_exercises": "전체 연습 문제"
+          }
+        },
+        "trophy_cabinet": {
+          "subtitle_html": "트랙을 진행하면서 업적을 하나씩 잠금 해제해요. %{learn_more_link}",
+          "title": "%{track_title} 트로피 진열장",
+          "description": "트랙을 진행하면서 업적을 달성하면 트로피를 잠금 해제할 수 있어요.",
+          "learn_more": "자세히 알아보기"
+        },
+        "intro_video": {
+          "title": "%{track_title} 간단 소개",
+          "description": "Erik과 함께 %{track_title}의 주요 기능을 살펴보고 흥미로운 연습 문제도 풀어봐요."
+        },
+        "forum_section": {
+          "title": "포럼에서…",
+          "latest_by": "%{poster_username}님의 최신 글",
+          "explore_forum_link": "%{track_title} 포럼 둘러보기"
+        },
+        "docs_section": {
+          "title": "막혔나요? 문서를 살펴봐요…"
+        },
+        "momentum_section": {
+          "title": "나의 학습 흐름",
+          "description": "꾸준함이 성장의 열쇠예요. 매주 달성할 수 있는 현실적인 목표를 정하고, 여기에서 최근 8주간의 기록을 확인해 봐요.",
+          "avg_exercises_completed_per_week": "주당 평균 완료한 연습 문제"
+        },
+        "user_track_completed_percentage_text": {
+          "range_0_10": "지금처럼 잘해봐요! 🚀",
+          "range_10_20": "정말 좋은 시작이에요! 🚀",
+          "range_20_30": "이제 속도가 붙고 있어요! 🚀",
+          "range_30_40": "정말 잘 나아가고 있어요! 🚀",
+          "range_40_50": "거의 절반에 도달했어요! 🚀",
+          "range_50_60": "절반을 넘었어요! 🚀",
+          "range_60_70": "이 속도라면 완주할 수 있어요! 🚀",
+          "range_70_80": "와, 계속 나아가요! 🚀",
+          "range_80_90": "정말 거의 다 왔어요! 🚀",
+          "range_90_100": "이제 결승선이 보여요! 🚀",
+          "invalid_percentage": "잘못된 퍼센트예요."
+        },
+        "rhs": {
+          "intro_video": {
+            "title": "%{track_title} 간단 소개",
+            "description": "Erik과 함께 %{track_title}의 주요 기능을 살펴보고 흥미로운 연습 문제를 풀어봐요."
+          },
+          "forum": {
+            "title": "포럼에서…",
+            "latest_by": "%{username}님의 최신 글",
+            "explore_forum": "%{track_title} 포럼을 둘러봐요"
+          },
+          "docs": {
+            "title": "막혔나요? 문서를 살펴봐요…"
+          },
+          "momentum": {
+            "title": "나의 꾸준함",
+            "description": "꾸준함이 발전의 열쇠예요. 매주 달성할 현실적인 목표를 정하고, 여기에서 지난 8주간의 기록을 확인해 봐요.",
+            "avg_exercises_completed": "주당 평균 완료한 연습 문제"
+          }
+        }
+      },
+      "updates_section": {
+        "whats_going_on": "%{track_title}의 최신 소식",
+        "title": "%{track_title}의 최신 소식"
+      },
+      "stats_box_mastered_concepts": {
+        "concepts_mastered": {
+          "other": "습득한 개념"
+        }
+      },
+      "stats_box_available_exercises": {
+        "exercises_available": {
+          "other": "풀 수 있는 문제"
+        }
+      },
+      "stats_box_locked_exercises": {
+        "exercises_locked": {
+          "other": "잠긴 문제"
+        }
+      },
+      "stats_box_in_progress_exercises": {
+        "exercises_in_progress": {
+          "other": "진행 중인 문제"
+        }
+      }
+    },
+    "mentor_discussions": {
+      "previous_discussions": {
+        "no_discussions_message": "지난 코드 리뷰 세션이 없어요",
+        "discussion_ended": "%{time_ago} 전에 종료됨",
+        "status_ended": "종료됨"
+      },
+      "index": {
+        "personal_mentoring": {
+          "locked_message_html": "현재 멘토링을 받고 있어요. 다른 사람과 새로운 멘토링 세션을 시작하려면 기존 대화를 먼저 끝내 주세요.",
+          "heading": "대신 친구에게 멘토링을 받고 싶나요?",
+          "body": "커뮤니티 멘토링 대신 친구나 선생님, 동료 등에게 멘토링을 받고 싶다면 아래 링크를 보내 주세요. 그러면 그 사람이 직접 멘토링을 해줄 수 있어요.",
+          "link_heading": "직접 멘토링 초대 링크",
+          "prominent_link": "직접 멘토링에 대해 더 알아보기"
+        }
+      },
+      "mentoring_finished": {
+        "heading": "다른 멘토에게 받아볼까요?",
+        "body_html": "다른 멘토의 의견을 듣고 싶나요? 멘토링을 다시 요청해서 <strong>%{exercise_title}</strong> 풀이에 대해 새로 질문할 수도 있고, 아래에서 이전 멘토링 세션을 살펴볼 수도 있어요.",
+        "button": "멘토링 더 요청하기"
+      },
+      "tooltip_locked": {
+        "heading": "이 연습 문제가 어려운가요?",
+        "body": "이 연습 문제에 풀이를 제출한 경우에만 멘토링을 받을 수 있어요. 어려움을 겪고 있다면 커뮤니티 풀이와 더 깊이 알아보기를 살펴보세요.",
+        "recommendation": "먼저 커뮤니티 풀이와 더 깊이 알아보기를 보지 않고 스스로 최선을 다해 보는 것을 적극 추천해요."
+      },
+      "mentoring_requested": {
+        "heading": "멘토링을 요청했어요",
+        "waiting_text": "멘토를 기다리는 중…",
+        "view_request_button": "요청 보기"
+      },
+      "introduction": {
+        "header": {
+          "title": "풀이를 한 단계 더 발전시켜 보세요",
+          "subtitle_html": "%{track_title} 멘토에게 <strong>%{exercise_title}</strong> 풀이에 대한 피드백을 받고, 문제에 접근하는 새로운 방법을 발견하면서 %{track_title} 지식을 더 넓고 깊게 만들어 보세요.",
+          "submit_button": "코드 리뷰를 위해 제출하기",
+          "free_text": "완전 무료예요! 😲"
+        },
+        "why": {
+          "heading": "왜 피드백을 받아야 할까요?",
+          "points": {
+            "fluency": {
+              "heading": "%{track_title}에 진짜 유창해지기",
+              "body_html": "언어를 배우는 것은 단순히 사용할 수 있는 것을 넘어, 그 언어로 <strong>생각</strong>할 수 있는 것이에요. 멘토들이 여러분의 인식을 키워 줘요."
+            },
+            "unknown": {
+              "heading": "무엇을 모르는지도 모를 때가 있어요",
+              "body": "무엇이 빠져 있는지 모르면 발전하기 어려워요. 멘토들이 %{track_title} 지식에서 빠진 부분을 찾아내도록 도와줘요."
+            },
+            "questions": {
+              "heading": "질문에 대한 답을 얻어요",
+              "body": "어떤 질문이든 멘토들이 도와줄 수 있어요. 멘토를 요청할 때는 마음속에 있는 궁금증을 꼭 물어보세요."
+            },
+            "push": {
+              "heading": "스스로를 밀어붙이기",
+              "body": "%{track_title}에 아무리 자신감이 있어도 배울 것은 항상 더 많아요. Exercism 멘토와 함께 더 나아가 보세요."
+            }
+          }
+        },
+        "how": {
+          "heading": "어떻게 진행되나요?",
+          "points": {
+            "submit": {
+              "heading": "코드 리뷰를 위해 제출하기",
+              "body": "Exercism 커뮤니티에 요청을 보내세요. 무엇을 배우고 싶은지 알려주시면 알맞은 멘토와 연결해 줘요."
+            },
+            "feedback": {
+              "heading": "피드백 받기",
+              "body": "멘토가 요청을 수락하면, 풀이와 요청을 검토하고 첫 피드백을 줘요."
+            },
+            "iterate": {
+              "heading": "반복하며 배우기",
+              "body": "멘토와 이야기하고, 조언을 반영해 계속해서 다음 버전을 작성하고 제출해 보세요."
+            },
+            "end_celebrate": {
+              "heading_html": "끝내고 &amp; 축하하기 🎉",
+              "body": "최종 풀이에 만족하면, 토론을 끝내고 멘토에게 추천사를 남겨 주세요."
+            }
+          }
+        }
+      },
+      "mentoring_in_progress": {
+        "mentor_info_html": "지금&nbsp;<strong>%{mentor_handle}</strong> 님의 멘토링을 받고 있어요",
+        "status": {
+          "review_mentor": "멘토 평가하기",
+          "waiting_mentor": "멘토를 기다리는 중",
+          "your_turn": "답변할 차례예요"
+        },
+        "comments_count": {
+          "other": "댓글 %{count}개"
+        },
+        "in_progress_label": "진행 중",
+        "open_discussion_button": "토론 열기"
+      }
+    },
+    "mentor_requests": {
+      "no_slots_remaining": {
+        "whoops": "이런!",
+        "no_slots_available": "사용할 수 있는 멘토링 슬롯이 더 이상 없어요.",
+        "replenish_slots": "진행 중인 세션을 성공적으로 완료하면 멘토링 슬롯을 다시 채울 수 있어요.",
+        "go_to_track_link": "트랙으로 가기"
+      },
+      "get_more_slots": {
+        "whoops": "이런!",
+        "no_slots_available": "사용할 수 있는 멘토링 슬롯이 더 이상 없어요.",
+        "get_more_slots_html": "%{reputation_link} 또는 %{donate_link}를 통해 멘토링 슬롯을 더 받을 수 있어요.",
+        "reputation_link_text": "평판 쌓기",
+        "donate_link_text": "Exercism에 후원하기",
+        "go_to_track_link": "트랙으로 가기"
+      }
+    },
+    "exercise_header": {
+      "breadcrumbs": {
+        "tracks": "트랙",
+        "exercises": "연습 문제"
+      },
+      "completed_heading": {
+        "text": "%{exercise_title} 문제를 완료했어요.",
+        "discover_more_link": "더 많은 연습 문제 둘러보기"
+      },
+      "completed_icon_alt": "연습 문제 완료됨",
+      "exercise_type_tag": {
+        "tutorial": "튜토리얼 연습 문제",
+        "learning": "학습 연습 문제"
+      },
+      "difficulty_tag": {
+        "easy": "쉬움",
+        "medium": "보통",
+        "hard": "어려움"
+      }
+    },
+    "header": {
+      "students": {
+        "other": "학생"
+      },
+      "contributors": {
+        "other": "기여자 %{count}명"
+      },
+      "mentors": {
+        "other": "멘토 %{count}명"
+      }
+    },
+    "iterations": {
+      "index": {
+        "zero_state": {
+          "editor_button": "에디터에서 시작하기",
+          "cli_heading": "로컬에서 작업하기 (CLI 사용)",
+          "prominent_link": "로컬에서 연습 문제를 푸는 방법 더 알아보기",
+          "heading": "아직 제출한 버전이 없어요.",
+          "body": "풀이를 제출하면 테스트 결과와 자동 피드백과 함께 모든 버전을 볼 수 있어요.",
+          "editor_heading": "Exercism 에디터 사용"
+        }
+      }
+    },
+    "exercises": {
+      "show": {
+        "action_box_complete": {
+          "concept_exercise": {
+            "title": "연습 문제를 다 끝냈어요?",
+            "paragraph_1": "이 연습 문제에서 다루는 개념이 잘 이해됐나요? 그렇다면 완료로 표시하고 다음으로 넘어가 봐요."
+          },
+          "general": {
+            "title": "연습 문제를 다 끝냈어요?",
+            "paragraph": "이 연습 문제를 원하는 만큼 해봤나요? 목록에서 완료로 표시하고, 원한다면 커뮤니티가 배울 수 있도록 풀이를 공개해도 좋아요."
+          },
+          "tutorial": {
+            "title": "연습 문제 완료하기",
+            "paragraph_1": "연습 문제를 다 풀고 나면 완료로 표시해요. 문제를 완료할 때 풀이를 게시해서 다른 사람들과 공유할 수도 있어요.",
+            "paragraph_2": "Hello World를 완료로 표시하면 트랙의 첫 번째 연습 문제들이 잠금 해제돼요."
+          }
+        },
+        "concepts_section": {
+          "learning_goals_title": "연습 문제 학습 목표",
+          "learning_goals_description_html": "이 학습 연습 문제는 %{concepts}에 대한 지식을 넓히는 데 도움이 됐어요.",
+          "unlocked_concepts": {
+            "title": "새로 열린 항목",
+            "count": {
+              "other": "개념 %{count}개"
+            }
+          },
+          "unlocked_exercises": {
+            "title": "새로 열린 항목",
+            "count": {
+              "other": "연습 문제 %{count}개"
+            }
+          }
+        },
+        "external": {
+          "deep_dive_title": "%{exercise_title} 깊이 살펴보기!"
+        },
+        "uncompleted_concepts_section": {
+          "learning_goals_title": "연습 문제 학습 목표",
+          "learning_goals_description": "%{exercise_title} 연습 문제를 완료하면서 배우게 될 내용",
+          "concept_plural": {
+            "other": "개념 %{count}개"
+          }
+        },
+        "action_box_join_exercism": {
+          "title": "%{exercise_title} 문제를 시작해 볼 준비가 됐나요?",
+          "description_html": "Exercism에 가입하고 %{track_link} 트랙을 %{concept_link}%{exercise_link}, 그리고 실제 사람의 멘토링과 함께 배우고 익혀 보세요. <strong>모두 무료예요.</strong>",
+          "concept_plural": {
+            "other": "개념 %{count}개"
+          },
+          "exercise_plural": {
+            "other": "연습 문제 %{count}개"
+          },
+          "signup_button": "가입하세요, 무료예요!",
+          "login_button": "Exercism에 로그인"
+        },
+        "action_box_dig_deeper_mentoring": {
+          "code_review_in_progress": {
+            "go_to_code_review_link": "코드 리뷰로 이동",
+            "your_turn_description_html": "<strong class='font-semibold'>이제 답할 차례예요.</strong> 멘토와 소통하고, 질문도 하면서 코드를 계속 다듬어 나가요. 시간을 내어 도와주는 멘토에게 감사 인사를 전하는 것도 잊지 마세요.",
+            "go_to_code_review_button": "코드 리뷰로 이동",
+            "title": "코드 리뷰 진행 중",
+            "mentor_finished_description": "@%{mentor_handle}님과의 대화가 끝났어요. 시간을 내어 리뷰를 남겨주세요.",
+            "finish_discussion_button": "대화 마치기",
+            "awaiting_mentor_description": "@%{mentor_handle}님이 풀이를 리뷰하고 있어요. 다음 답장이 오면 알려드릴게요."
+          },
+          "code_review_requested": {
+            "title": "코드 리뷰 요청됨",
+            "description": "풀이가 저희 멘토들에게 리뷰를 위해 전송되었어요. 대기열에 들어가 있고, 곧 멘토 중 한 분이 맡아서 대화를 시작할 거예요.",
+            "view_mentoring_request_link": "멘토링 요청 보기"
+          },
+          "request_code_review": {
+            "title": "코드 리뷰 요청하기",
+            "description": "지식의 빈틈을 짚어 주는 실제 멘토에게 도움을 받아 보세요. 100% 무료예요.",
+            "button": "코드 리뷰 요청하기"
+          },
+          "code_review_finished": {
+            "title": "코드 리뷰 완료",
+            "description_html": "@%{mentor_handle}님과의 멘토링 대화가 끝났어요. %{link}에서 대화를 확인하거나 새 대화를 시작할 수 있어요.",
+            "link_text": "코드 리뷰 탭"
+          }
+        },
+        "action_box_dig_deeper_practice_exercise": {
+          "title": "더 깊이 파고들기",
+          "description": "연습 문제를 푸는 것은 성장을 위한 첫걸음일 뿐이에요. 이제 다른 사람들에게 배울 차례예요. 이런 단계는 선택 사항이지만, 지식을 훨씬 넓혀 줄 거예요."
+        },
+        "action_box_completed": {
+          "exercise_published": {
+            "title": "연습 문제 게시됨",
+            "description": "다른 사람들이 배울 수 있도록 연습 문제를 게시했어요. 감사해요! 아래에서 게시한 풀이를 확인하고 관리할 수 있어요. 다음 작업을 할 수 있어요:",
+            "change_published_iteration_button": "게시된 버전 변경하기",
+            "or_text": "또는",
+            "unpublish_solution_button": "풀이 게시 취소하기."
+          },
+          "exercise_completed": {
+            "title": "연습 문제 완료됨",
+            "description": "이 연습 문제를 완료로 표시했어요."
+          },
+          "publish_exercise": {
+            "title": "연습 문제 게시하기",
+            "description": "연습 문제를 게시해서 평판을 쌓고, 다른 사람들이 새로운 팁과 요령을 발견하도록 도와줘요."
+          }
+        },
+        "action_box_dig_deeper_approaches": {
+          "viewed_approach": {
+            "title": "살펴본 접근법",
+            "description_html": "%{link}에서 이 연습 문제에 대한 다양한 자주 쓰이는 접근법을 살펴보세요.",
+            "link_text": "더 깊이 파고들기 섹션"
+          },
+          "discover_approaches": {
+            "title": "다양한 접근법 알아보기",
+            "description_html": "%{link}에서 이 연습 문제에 대한 다양한 자주 쓰이는 접근법을 살펴보세요.",
+            "link_text": "더 깊이 파고들기 섹션"
+          }
+        },
+        "action_box_dig_deeper_youtube_video": {
+          "title": "심층 분석 영상 보기"
+        },
+        "action_box_locked_by_hello_world": {
+          "unlock_title": "%{exercise_title} 잠금 해제",
+          "unlock_description_html": "지금은 이 연습 문제를 시작할 수 없어요. <strong>Hello, World!</strong>를 완료하면 이 연습 문제의 잠금이 해제돼요."
+        },
+        "instructions": {
+          "introduction_heading": "소개",
+          "hello_world_intro_html": "“Hello, World!”를 풀면서 %{track_title} 코드를 작성해 보고, Exercism의 진행 방식도 익힐 수 있어요. <strong>이 연습 문제를 완료하면 %{track_title} 트랙의 나머지 문제가 잠금 해제돼요.</strong>",
+          "watch_video_prompt": "시작하려면 \"Hello, World 소개\" 영상을 봐요 👇",
+          "instructions_heading": "지침",
+          "source_heading": "출처",
+          "explore_source_html": "<a href=\"%{source_url}\" target=\"_blank\" rel=\"noopener noreferrer\">이 연습 문제의 출처</a>를 살펴보세요.\n",
+          "edit_via_github": "GitHub에서 편집",
+          "new_window_icon_alt": "링크가 새 창이나 탭에서 열려요"
+        },
+        "action_box_locked": {
+          "title": "%{exercise_title} 잠금 해제",
+          "description_html": "지금은 이 연습 문제를 시작할 수 없어요. 다음 연습 문제를 완료해 <span class=\"font-semibold\">%{exercise_title}</span>의 잠금을 풀거나 %{activate_practice_mode}.\n",
+          "activate_practice_mode_text": "학습 모드 끄기"
+        },
+        "action_box_publish_locked": {
+          "title": "풀이 공개하기"
+        },
+        "action_solve_locked": {
+          "title": "연습 문제 풀기"
+        },
+        "action_box_solve": {
+          "solve_button": "풀기",
+          "start_button": "시작",
+          "continue_work": "이 연습 문제를 계속 풀어봐요.",
+          "available_to_start": "지금 이 연습 문제를 시작할 수 있어요.",
+          "solve_description": "Exercism의 브라우저 에디터에서 풀거나, CLI로 내려받아 제출하면서 내 환경에서 로컬로 풀 수 있어요.",
+          "via_editor_heading": "Exercism 에디터로 풀기",
+          "start_in_editor_button": "에디터에서 시작",
+          "work_locally_heading": "로컬에서 작업하기(CLI 사용)",
+          "learn_more_link": "연습 문제를 로컬에서 푸는 방법 자세히 알아보기"
+        },
+        "action_box_dig_deeper_community_solutions": {
+          "explored_community_solutions": "커뮤니티 풀이 살펴봄",
+          "explore_community_solutions": "커뮤니티 풀이 살펴보기",
+          "explore_text": "다른 사람들이 이 연습 문제를 어떻게 풀었는지 살펴보고 새로운 아이디어도 얻어봐요. 바로",
+          "community_solutions_link": "커뮤니티 풀이"
+        },
+        "action_box_solved": {
+          "title": "연습 문제 풀이 완료",
+          "description_html": "이 연습 문제에 %{link} 제출을 완료했어요. 지식을 계속 넓혀가거나 새로운 아이디어를 실험해 보고 싶다면 더 많은 반복을 제출할 수 있어요.",
+          "iteration_word": {
+            "other": "반복"
+          }
+        },
+        "action_box_dig_deeper_concept_exercise": {
+          "title": "더 깊이 알아보기",
+          "description": "학습용 연습 문제는 푸는 방법이 그렇게 많지는 않아요. 그래도 다른 사람들이 이 연습 문제를 어떻게 접근하는지 살펴보는 건 도움이 돼요."
+        },
+        "action_box_dig_deeper_locked": {
+          "title": "더 깊이 알아보기"
+        },
+        "action_box_join_track": {
+          "title": "%{exercise_title}, 시작할 준비가 되었어요?",
+          "description_html": "%{track_title} 트랙에 참여하면 %{links_html}도 바로 살펴볼 수 있어요!",
+          "description_with_two_links_html": "%{track_title} 트랙에 참여하면 %{concepts_link} 그리고 %{exercises_link}도 바로 살펴볼 수 있어요!",
+          "description_with_one_link_html": "%{track_title} 트랙에 참여하면 %{exercises_link}도 바로 살펴볼 수 있어요!",
+          "concept_plural": {
+            "other": "%{count}개의 개념"
+          },
+          "exercise_plural": {
+            "other": "%{count}개의 연습 문제"
+          },
+          "join_track_button": "%{track_title} 트랙 참여하기",
+          "see_all_exercises_button": "%{track_title} 연습 문제 모두 보기"
+        },
+        "action_box_complete_locked": {
+          "title": "풀이 완성하기"
+        },
+        "view_track_documentation": "트랙 문서 보기",
+        "action_box_solve_locked": {
+          "title": "연습 문제 풀기"
+        }
+      },
+      "no_test_runner": {
+        "editor_unavailable_title": "에디터를 사용할 수 없어요.",
+        "test_runner_not_working_title": "이 트랙은 Exercism 에디터로 풀 수 없어요",
+        "test_runner_not_working_description_html": "이 트랙에는 아직 작동하는 테스트 러너가 없어서 에디터가 비활성화되어 있어요. 지금 이 문제를 해결하기 위해 작업 중이에요. 도와주고 싶다면 %{github_link}의 이슈를 확인해 주세요.",
+        "github_repo_link_text": "GitHub 저장소",
+        "editor_unsupported_title": "죄송해요, 이 연습 문제는 에디터에서 풀 수 없어요.",
+        "editor_unsupported_description": "아마 이 연습 문제의 테스트를 실행하는 데 시간이 너무 오래 걸리기 때문일 거예요. 로컬 에디터에서 풀고 CLI로 업로드해 주세요.",
+        "back_to_exercise_button": "연습 문제로 돌아가기"
+      },
+      "index": {
+        "meta_title": "Exercism의 %{track_title} 연습 문제",
+        "meta_description": "Exercism에서 %{num_exercises}개의 %{track_title} 연습 문제를 살펴보세요",
+        "external_cta": {
+          "title": "%{track_title}에서 연습 문제 %{num_exercises}개를 연습해 보세요",
+          "description": "다양한 개념과 아이디어를 다루는 연습 문제 %{num_exercises}개를 풀면서 %{track_title} 트랙을 배우고 연습해 보세요.",
+          "join_track_button": "%{track_title} 트랙에 참여하기"
+        },
+        "page_header": {
+          "title": "Exercism에서 %{track_title} 연습 문제 살펴보기",
+          "description": "앞으로 나아갈수록 더 많은 연습 문제가 열려요. 좋은 연습이 되고 재미도 있어요!"
+        }
+      }
+    },
+    "index": {
+      "header": {
+        "title": "익혀 볼 수 있는 %{num_tracks}개의 언어",
+        "description_html": "직접 고른 프로그래밍 언어를 유창하게 구사하고 싶다면, %{contributors_link}가 만든 이 트랙들을 완료해 보세요",
+        "contributors_link_text": "멋진 기여자 팀"
+      }
+    },
+    "concepts": {
+      "index": {
+        "meta_title": "Exercism의 %{track_title} 핵심 개념",
+        "meta_description": "Exercism에서 %{track_title}의 핵심 개념 %{num_concepts}개를 배우고 익혀 보세요.",
+        "external_cta": {
+          "title": "%{track_title}의 핵심 개념 %{num_concepts}개 익히기",
+          "description": "다루는 모든 개념을 각 언어의 패러다임과 관례에 맞춰 설명해요.",
+          "button": "%{track_title} 트랙 시작하기",
+          "join_button": "%{track_title} 트랙 시작하기"
+        },
+        "page_header": {
+          "title": "%{track_title} 여정",
+          "description": "%{track_title}에 능숙해지도록 개념을 배우고 익혀요."
+        }
+      },
+      "tooltip": {
+        "summary": {
+          "in": "의",
+          "exercises_locked": {
+            "other": "연습 문제 %{count}개"
+          },
+          "exercises_completed": "%{num_completed}/%{num_total} %{count}개 완료"
+        },
+        "status_tag": {
+          "locked": "잠김",
+          "mastered": "숙달됨"
+        },
+        "info": {
+          "locked_prerequisite": "이 개념을 잠금 해제하려면 %{prerequisite_names}부터 배워야 해요.",
+          "locked_tutorial": "개념을 잠금 해제하려면 \"Hello, World!\" 연습 문제를 완료해야 해요.",
+          "mastered": "%{concept_name} 개념을 완전히 익히셨어요!",
+          "learnt": "%{concept_name} 개념을 배우셨어요.",
+          "available": "%{concept_name} 개념을 배울 수 있어요.",
+          "locked": {
+            "prerequisite": "이 개념의 잠금을 해제하려면 %{prerequisite_names} 개념을 먼저 배워야 해요.",
+            "hello_world": "\"Hello, World!\"를 완료하면 개념들의 잠금이 해제돼요."
+          },
+          "mastered_message": "%{concept_name} 개념을 마스터했어요!",
+          "learnt_message": "%{concept_name} 개념을 배웠어요.",
+          "available_message": "%{concept_name} 개념을 배울 수 있어요."
+        },
+        "explore_button": "개념 살펴보기",
+        "header": {
+          "summary": {
+            "title": {
+              "in_text": "에서"
+            },
+            "num_exercises": {
+              "locked": {
+                "other": "%{count}개의 연습 문제"
+              },
+              "completed": "%{num_completed}/%{count} 완료"
+            }
+          },
+          "status_tag": {
+            "locked": "잠김",
+            "mastered": "마스터"
+          }
+        },
+        "explore_concept_button": "개념 살펴보기"
+      },
+      "show": {
+        "header": {
+          "breadcrumbs": {
+            "tracks": "트랙",
+            "syllabus": "학습 과정"
+          },
+          "concept_info": {
+            "in": "에서",
+            "exercises_count": {
+              "other": "%{count}개의 연습 문제"
+            }
+          }
+        },
+        "mastered_heading": {
+          "text": "%{track_title}에서 %{concept_name} 개념을 마스터했어요.",
+          "explore_link": "더 많은 개념 살펴보기"
+        },
+        "about": {
+          "title": "%{concept_name} 소개",
+          "learn_more_links": {
+            "title": "더 알아보기",
+            "external_link_aria_label": "(외부 링크)"
+          }
+        },
+        "extra_info": {
+          "edit_via_github": "GitHub에서 편집",
+          "github_link_aria_label": "링크가 새 창이나 탭에서 열려요"
+        },
+        "learnt": {
+          "learnt_concept_message": "%{concept_name} 개념을 배웠어요!",
+          "mastered_concept_message": "%{concept_name} 개념을 마스터했어요!",
+          "practice_concept_message": "%{concept_name} 연습하기"
+        },
+        "learn": {
+          "learn_concept_message": "%{concept_name} 배우기",
+          "practice_locked_bar_aria_label": "연습이 잠겨 있어요",
+          "unlock_practice_exercises": {
+            "other": "%{concept_name} 개념을 연습하려면 연습 문제 %{count}개를 더 잠금 해제해요"
+          }
+        }
+      }
+    },
+    "dig_deeper": {
+      "tooltip_locked": {
+        "title": "이 연습 문제가 어려운가요?",
+        "unlock_dig_deeper": "커뮤니티가 %{exercise_title} 문제에 어떻게 접근하고 해결했는지 보려면 Dig Deeper 탭을 잠금 해제해요.",
+        "attempt_exercise_first": "이 연습 문제를 한 번 이상 시도해야 Dig Deeper 탭을 볼 수 있어요.",
+        "recommendation": "Dig Deeper 탭을 먼저 보지 않고 스스로 최선을 다해 풀어 보는 것을 추천해요."
+      },
+      "show": {
+        "meta_title": "Exercism에서 %{track_title}의 %{exercise_title} 자세히 알아보기",
+        "meta_description": "%{track_title}의 %{exercise_title} 문제를 푸는 다양한 접근법과 영상을 살펴보세요."
+      }
+    }
+  },
+  "contributing": {
+    "contributors": {
+      "index": {
+        "featured_contributor": {
+          "title": "추천 기여자"
+        },
+        "new_contributor": {
+          "new_label": "신규",
+          "title": "신규 기여자"
+        }
+      }
+    },
+    "dashboard": {
+      "show": {
+        "methods_section": {
+          "header": {
+            "title": "Exercism을 함께 만드는 방법"
+          },
+          "method": {
+            "proofread_and_update": {
+              "title": "교정 및 업데이트",
+              "tag": "초급",
+              "description": "오픈 소스 프로젝트에 한 번도 기여해 본 적이 없나요? 한번 도전해 봐요. 첫 풀 리퀘스트를 제출하도록 도와드릴게요."
+            },
+            "improve_content": {
+              "title": "개념 또는 연습 문제 개선하기",
+              "tag": "중급",
+              "description": "Exercism 전반의 개념과 연습 문제를 개선하고 Bug를 고쳐요. 학생들이 오류 없이 매끄럽게 학습할 수 있도록 도와줘요."
+            },
+            "create_new_content": {
+              "title": "새로운 연습 문제 또는 개념 만들기",
+              "tag": "고급",
+              "description": "트랙의 로드맵을 바탕으로 새로운 연습 문제나 개념을 만들어요. 수백만 명이 사용할 인터랙티브 콘텐츠를 만들며 즐거움을 느껴 봐요."
+            },
+            "develop_test_runner": {
+              "title": "테스트 러너 개발하기",
+              "tag": "프로젝트",
+              "description": "온라인 에디터는 테스트 러너 덕분에 동작해요. 모든 트랙에 기본 테스트 러너가 있지만, 많은 트랙에서는 더 고급 기능과 동작을 추가해야 해요."
+            },
+            "develop_analyzer": {
+              "title": "애널라이저 개발하기",
+              "tag": "프로젝트",
+              "description": "애널라이저는 AST 분석을 통해 학생들에게 자동 피드백을 줘요. 개발하기에 복잡하면서도 무척 흥미로운 소프트웨어예요."
+            },
+            "develop_representer": {
+              "title": "리프리젠터 개발하기",
+              "tag": "프로젝트",
+              "description": "리프리젠터는 동일한 풀이를 찾아내 피드백을 재사용할 수 있게 해줘요. 애널라이저보다 단순하지만, 그만큼 고민해 볼 재미가 있어요."
+            }
+          }
+        }
+      },
+      "tasks_section": {
+        "issues_needed_help": {
+          "other": "%{count}개의 이슈에 도움이 필요해요"
+        },
+        "tracks_list": {
+          "more_tracks": "+ %{count}개 더",
+          "needs_help": "도움이 필요해요"
+        },
+        "explore_issues": {
+          "other": "%{count}개의 이슈 살펴보기"
+        }
+      }
+    }
+  },
+  "doorkeeper": {
+    "applications": {
+      "index": {
+        "confidentiality": {
+          "yes": "예",
+          "no": "아니요"
+        },
+        "title": "내 애플리케이션",
+        "new": "새 애플리케이션",
+        "name": "이름",
+        "callback_url": "콜백 URL",
+        "confidential": "기밀 여부",
+        "actions": "작업"
+      },
+      "new": {
+        "title": "새 애플리케이션"
+      },
+      "show": {
+        "title": "애플리케이션: %{name}",
+        "application_id": "UID:",
+        "secret": "시크릿:",
+        "secret_hashed": "시크릿 해시됨",
+        "scopes": "스코프:",
+        "confidential": "기밀:",
+        "callback_urls": "콜백 URL:",
+        "actions": "작업",
+        "not_defined": "정의되지 않음"
+      },
+      "confirmations": {
+        "destroy": "정말이에요?"
+      },
+      "buttons": {
+        "edit": "수정",
+        "destroy": "삭제",
+        "submit": "제출",
+        "cancel": "취소",
+        "authorize": "허용"
+      },
+      "form": {
+        "error": "이런! 양식에 오류가 없는지 확인해 주세요"
+      },
+      "help": {
+        "confidential": "클라이언트 시크릿을 기밀로 유지할 수 있는 환경에서 사용할 애플리케이션이에요. 네이티브 모바일 앱과 단일 페이지 앱은 기밀로 취급하지 않아요.",
+        "redirect_uri": "URI마다 한 줄씩 입력해요.",
+        "blank_redirect_uri": "제공자가 클라이언트 자격 증명, 리소스 소유자 비밀번호 자격 증명 또는 리디렉션 URI가 필요 없는 다른 부여 유형을 사용하도록 설정되어 있다면 비워 두세요.",
+        "scopes": "범위는 공백으로 구분해요. 기본 범위를 사용하려면 비워 두세요."
+      },
+      "edit": {
+        "title": "애플리케이션 수정"
+      }
+    },
+    "authorizations": {
+      "buttons": {
+        "authorize": "승인",
+        "deny": "거부"
+      },
+      "error": {
+        "title": "오류가 발생했어요"
+      },
+      "new": {
+        "title": "승인이 필요해요",
+        "prompt": "%{client_name} 애플리케이션이 계정을 사용하도록 승인할까요?",
+        "able_to": "이 애플리케이션은 다음을 할 수 있어요:"
+      },
+      "show": {
+        "title": "승인 코드:"
+      },
+      "form_post": {
+        "title": "이 양식 제출하기"
+      }
+    },
+    "authorized_applications": {
+      "confirmations": {
+        "revoke": "정말 할까요?"
+      },
+      "buttons": {
+        "revoke": "해제"
+      },
+      "index": {
+        "title": "승인한 애플리케이션",
+        "application": "애플리케이션",
+        "created_at": "생성 시각",
+        "date_format": "%Y-%m-%d %H:%M:%S"
+      }
+    },
+    "pre_authorization": {
+      "status": "사전 승인"
+    },
+    "errors": {
+      "messages": {
+        "invalid_request": {
+          "unknown": "요청에 필수 매개변수가 없거나, 지원하지 않는 매개변수 값이 포함되어 있거나, 그 밖에 형식이 잘못되었어요.",
+          "missing_param": "필수 매개변수가 없어요: %{value}.",
+          "request_not_authorized": "요청을 승인해야 해요. 요청을 승인하기 위한 필수 매개변수가 없거나 잘못되었어요.",
+          "invalid_code_challenge": "코드 챌린지가 필요해요."
+        },
+        "invalid_redirect_uri": "요청한 리디렉션 URI의 형식이 잘못되었거나 클라이언트 리디렉션 URI와 일치하지 않아요.",
+        "unauthorized_client": "클라이언트가 이 방식으로 이 요청을 수행하도록 승인되지 않았어요.",
+        "access_denied": "리소스 소유자 또는 승인 서버가 요청을 거부했어요.",
+        "invalid_scope": "요청한 스코프가 유효하지 않거나, 알 수 없거나, 형식이 잘못되었어요.",
+        "invalid_code_challenge_method": {
+          "other": "code_challenge_method는 %{challenge_methods} 중 하나여야 해요."
+        },
+        "server_error": "승인 서버가 예기치 않은 상황을 만나 요청을 처리하지 못했어요.",
+        "temporarily_unavailable": "승인 서버의 일시적인 과부하나 점검으로 인해 현재 요청을 처리할 수 없어요.",
+        "credential_flow_not_configured": "Doorkeeper.configure.resource_owner_from_credentials가 설정되지 않아 Resource Owner Password Credentials 흐름이 실패했어요.",
+        "resource_owner_authenticator_not_configured": "Doorkeeper.configure.resource_owner_authenticator가 설정되지 않아 리소스 소유자를 찾지 못했어요.",
+        "admin_authenticator_not_configured": "Doorkeeper.configure.admin_authenticator 설정이 없어 관리자 패널에 접근할 수 없어요.",
+        "unsupported_response_type": "인가 서버가 이 응답 유형을 지원하지 않아요.",
+        "unsupported_response_mode": "인가 서버가 이 응답 모드를 지원하지 않아요.",
+        "invalid_client": "알 수 없는 클라이언트, 클라이언트 인증 정보 누락, 또는 지원되지 않는 인증 방식 때문에 클라이언트 인증에 실패했어요.",
+        "invalid_grant": "제공된 인가 그랜트가 유효하지 않거나, 만료되었거나, 취소되었거나, 인가 요청에 사용된 리디렉션 URI와 일치하지 않거나, 다른 클라이언트에 발급된 경우예요.",
+        "unsupported_grant_type": "인가 서버가 이 인가 그랜트 유형을 지원하지 않아요.",
+        "invalid_token": {
+          "revoked": "액세스 토큰이 취소되었어요",
+          "expired": "액세스 토큰이 만료되었어요",
+          "unknown": "액세스 토큰이 유효하지 않아요"
+        },
+        "revoke": {
+          "unauthorized": "이 토큰을 취소할 권한이 없어요"
+        },
+        "forbidden_token": {
+          "missing_scope": "이 리소스에 접근하려면 \"%{oauth_scopes}\" 범위가 필요해요."
+        }
+      }
+    },
+    "flash": {
+      "applications": {
+        "create": {
+          "notice": "애플리케이션을 만들었어요."
+        },
+        "destroy": {
+          "notice": "애플리케이션을 삭제했어요."
+        },
+        "update": {
+          "notice": "애플리케이션을 업데이트했어요."
+        }
+      },
+      "authorized_applications": {
+        "destroy": {
+          "notice": "애플리케이션을 취소했어요."
+        }
+      }
+    },
+    "layouts": {
+      "admin": {
+        "title": "Doorkeeper",
+        "nav": {
+          "oauth2_provider": "OAuth2 제공자",
+          "applications": "애플리케이션",
+          "home": "홈"
+        }
+      },
+      "application": {
+        "title": "OAuth 인가가 필요해요"
+      }
+    }
+  },
+  "devise": {
+    "confirmations": {
+      "new": {
+        "resend_confirmation_instructions_button": "확인 안내 다시 보내기",
+        "exercism_logo_alt": "Exercism 로고",
+        "resend_confirmation_instructions_title": "확인 안내 다시 보내기",
+        "resend_confirmation_instructions_message": "확인 이메일을 받지 못했나요? 아래 양식을 사용하면 다시 보내드릴게요.",
+        "email_placeholder": "이메일 주소를 입력해주세요"
+      },
+      "confirmed": "이메일 주소가 확인되었어요. 아래에서 로그인해 주세요.",
+      "send_instructions": "몇 분 안에 이메일 주소를 확인하는 방법을 안내하는 이메일을 받게 돼요.",
+      "send_paranoid_instructions": "입력한 이메일 주소가 저희 데이터베이스에 있다면, 몇 분 안에 이메일 주소를 확인하는 방법을 안내하는 이메일을 받게 돼요.",
+      "csrf_failure": "세션이 만료되었어요. 다시 시도해 주세요.",
+      "required": {
+        "exercism_logo_alt": "Exercism 로고",
+        "welcome_check_email_title": "환영해요! 이메일을 확인해주세요.",
+        "welcome_message": "Exercism에 오신 것을 환영해요. 사람인지 확인하기 위해 이메일을 보냈어요.",
+        "validation_explanation_message": "악용을 막기 위해 모든 이메일 주소가 유효한지 확인해요. 지금 이메일을 확인해보면 메일이 이미 도착해 있을 거예요. 보이지 않는다면 스팸함을 확인해보고, 혹시 처리가 느릴 수 있으니 10분 정도 기다려봐요.",
+        "resend_link_message_html": "곧 도착하지 않으면 %{resend_link}.",
+        "resend_it_link": "다시 보내드릴 수 있어요"
+      }
+    },
+    "mailer": {
+      "unlock_instructions": {
+        "subject": "잠금 해제 안내",
+        "greeting": "%{email}님, 안녕하세요!",
+        "locked_account_message": "로그인 시도가 너무 여러 번 실패해서 계정이 잠겼어요.",
+        "unlock_link_prompt": "아래 링크를 클릭하면 계정 잠금을 해제할 수 있어요:",
+        "unlock_my_account_link": "내 계정 잠금 해제하기",
+        "body_markdown": "%{email}님, 안녕하세요!\n\n로그인 시도가 너무 여러 번 실패해서 계정이 잠겼어요.\n\n아래 링크를 클릭하면 계정 잠금을 해제할 수 있어요:\n\n[내 계정 잠금 해제하기](%{unlock_url})\n"
+      },
+      "reset_password_instructions": {
+        "title": "Exercism 비밀번호 재설정",
+        "subject": "비밀번호 재설정 요청",
+        "greeting": "안녕하세요,",
+        "password_reset_request_message": "누군가 비밀번호를 변경할 수 있는 링크를 요청했어요. 아래 링크를 통해 변경할 수 있어요.",
+        "change_my_password_button": "내 비밀번호 변경하기",
+        "ignore_email_message": "요청한 적이 없다면 이 메일은 무시해 주세요.",
+        "password_unchanged_message": "위 링크에 접속해 새 비밀번호를 만들기 전까지는 비밀번호가 바뀌지 않아요.",
+        "body_markdown": "안녕하세요,\n\n누군가 비밀번호를 변경할 수 있는 링크를 요청했어요. 아래 링크를 통해 변경할 수 있어요.\n\n[내 비밀번호 변경하기](%{edit_password_url})\n\n요청한 적이 없다면 이 메일은 무시해 주세요.\n\n위 링크에 접속해 새 비밀번호를 만들기 전까지는 비밀번호가 바뀌지 않아요.\n"
+      },
+      "password_change": {
+        "title": "비밀번호가 변경되었어요",
+        "subject": "비밀번호가 변경되었어요",
+        "greeting": "@%{user_handle}님, 안녕하세요,",
+        "password_changed_notification": "비밀번호가 변경되었다는 사실을 알려드리려고 연락드려요.",
+        "contact_support_message": "직접 하지 않았다면 즉시 %{support_link} 주소로 이메일을 보내 주세요.",
+        "body_markdown": "@%{user_handle}님, 안녕하세요,\n\n비밀번호가 변경되었다는 사실을 알려드리려고 연락드려요.\n\n직접 하지 않았다면 즉시 [support@exercism.io](mailto:support@exercism.io) 주소로 이메일을 보내 주세요.\n"
+      },
+      "confirmation_instructions": {
+        "title": "새 Exercism 계정 확인",
+        "subject": "계정을 확인해 주세요",
+        "welcome_message": "Exercism에 오신 것을 환영해요!",
+        "confirmation_message": "실제 사람인지, 봇이 아닌지 확인하기 위해 이 이메일 주소가 실제로 존재하는지 확인해야 해요. 아래 버튼을 클릭해 계정을 확인하고 Exercism을 시작해 보세요.",
+        "confirm_account_button": "계정 확인하기",
+        "body_markdown": "Exercism에 오신 것을 환영해요!\n\n실제 사람인지, 봇이 아닌지 확인하기 위해 이 이메일 주소가 실제로 존재하는지 확인해야 해요.\n아래 버튼을 클릭해 계정을 확인하고 Exercism을 시작해 보세요.\n\n[계정 확인하기](%{confirmation_url})\n"
+      },
+      "email_changed": {
+        "title": "이메일 주소가 변경되고 있어요",
+        "subject": "이메일 주소가 변경되고 있어요",
+        "greeting": "@%{user_handle}님, 안녕하세요,",
+        "email_change_pending_notification": "이메일 주소가 %{unconfirmed_email} 주소로 변경되고 있다는 사실을 알려드리려고 연락드려요. 절차를 마치려면 새 주소로 확인 메일이 발송돼요.",
+        "email_change_pending_contact_support": "이 과정을 시작하지 않았다면 즉시 %{support_link} 주소로 이메일을 보내 주세요.",
+        "email_changed_notification": "이메일 주소가 %{email} 주소로 변경되었다는 사실을 알려드리려고 연락드려요.",
+        "body_markdown": "@%{user_handle}님, 안녕하세요,\n\n%{unconfirmed_email}\n  이메일 주소가 %{resource_unconfirmed_email} 주소로 변경되고 있다는 사실을 알려드리려고 연락드려요.\n  절차를 마치려면 새 주소로 확인 메일이 발송돼요.\n\n  이 과정을 시작하지 않았다면 즉시 [support@exercism.io](mailto:support@exercism.io) 주소로 이메일을 보내 주세요.\n%{unconfirmed_email}\n  이메일 주소가 %{resource_email} 주소로 변경되었다는 사실을 알려드리려고 연락드려요.\n"
+      }
+    },
+    "passwords": {
+      "edit": {
+        "change_your_password": {
+          "title": "비밀번호 변경",
+          "description": "아래 양식에서 새 비밀번호를 정해 주세요. 아무것도 하지 않으면 비밀번호는 그대로 유지돼요."
+        },
+        "new_password_label": "새 비밀번호",
+        "new_password_placeholder": "새 비밀번호를 입력해 주세요 (최소 %{minimum_password_length}자)",
+        "confirm_new_password_label": "새 비밀번호 확인",
+        "confirm_new_password_placeholder": "새 비밀번호를 다시 입력해 주세요",
+        "change_my_password_button": "비밀번호 변경"
+      },
+      "new": {
+        "forgot_your_password": {
+          "title": "비밀번호를 잊으셨나요?",
+          "description": "비밀번호를 잊으셨다면, 아래 양식에서 비밀번호를 변경할 수 있는 링크를 요청해 보세요. 비밀번호를 잊었다고 생각하는 많은 사람들이 사실은 처음에 GitHub로 로그인했으니, 그것도 한번 시도해 보면 좋아요."
+        },
+        "email_placeholder": "이메일 주소를 입력하세요",
+        "send_instructions_button": "안내 보내기"
+      },
+      "no_token": "비밀번호 재설정 이메일을 거치지 않으면 이 페이지에 접근할 수 없어요. 비밀번호 재설정 이메일을 통해 접속했다면, 안내된 전체 URL을 사용했는지 확인해 주세요.",
+      "send_instructions": "몇 분 안에 비밀번호를 재설정하는 방법을 안내하는 이메일을 받게 돼요.",
+      "send_paranoid_instructions": "입력한 이메일 주소가 저희 데이터베이스에 있다면, 몇 분 안에 해당 이메일 주소로 비밀번호 재설정 링크를 받게 돼요.",
+      "updated": "비밀번호가 변경되었어요. 이제 로그인된 상태예요.",
+      "updated_not_active": "비밀번호가 변경되었어요."
+    },
+    "registrations": {
+      "edit": {
+        "edit_resource": "%{resource_name} 편집",
+        "pending_confirmation_message": "현재 확인 대기 중: %{unconfirmed_email}",
+        "password_hint": "(변경하지 않으려면 비워 두세요)",
+        "password_minimum_characters": {
+          "other": "%{count}자 이상"
+        },
+        "current_password_hint": "(변경 사항을 확인하려면 현재 비밀번호가 필요해요)",
+        "update_button": "업데이트",
+        "cancel_account_title": "내 계정 삭제",
+        "unhappy_prompt": "불만이 있으신가요?",
+        "cancel_my_account_button": "내 계정 삭제",
+        "cancel_account_confirm": "정말 하시겠어요?",
+        "back_link": "뒤로"
+      },
+      "new": {
+        "exercism_logo_alt": "Exercism 로고",
+        "tagline": "모두를 위한 코딩 연습과 멘토링",
+        "sign_up_with_github": "GitHub로 가입하기",
+        "or_divider": "또는",
+        "username_label": "사용자 이름",
+        "username_placeholder": "중복되지 않는 사용자 이름을 선택하세요",
+        "email_label": "이메일",
+        "email_placeholder": "이메일 주소를 입력하세요",
+        "password_label": "비밀번호",
+        "password_placeholder": "비밀번호를 선택하세요 (최소 %{minimum_password_length}자)",
+        "password_confirmation_label": "비밀번호 확인",
+        "password_confirmation_placeholder": "비밀번호를 다시 입력하세요",
+        "confirm_not_bot_label": "로봇이 아님을 확인해 주세요",
+        "sign_up_button": "가입하기"
+      },
+      "destroyed": "안녕히 가세요! 계정이 성공적으로 해지되었어요. 곧 다시 만나기를 바라요.",
+      "signed_up": "환영해요! 가입이 완료되었어요.",
+      "signed_up_but_inactive": "가입이 완료되었어요. 하지만 아직 계정이 활성화되지 않아서 로그인할 수 없었어요.",
+      "signed_up_but_locked": "가입이 완료되었어요. 하지만 계정이 잠겨 있어서 로그인할 수 없었어요.",
+      "signed_up_but_unconfirmed": "이메일 주소로 확인 링크가 담긴 메일을 보냈어요. 링크를 눌러 계정을 활성화해 주세요.",
+      "update_needs_confirmation": "계정이 업데이트되었어요. 다만 새 이메일 주소를 확인해야 해요. 이메일을 확인하고 확인 링크를 눌러 새 이메일 주소를 인증해 주세요.",
+      "updated": "계정이 업데이트되었어요.",
+      "updated_but_not_signed_in": "계정이 업데이트되었어요. 다만 비밀번호가 변경되었으므로 다시 로그인해야 해요",
+      "captcha_verification_failed": "캡차 인증에 실패했어요. 다시 시도해 주세요.",
+      "csrf_failure": "세션이 만료되었어요. 다시 시도해 주세요."
+    },
+    "sessions": {
+      "new": {
+        "exercism_logo_alt": "Exercism 로고",
+        "tagline": "모두를 위한 코딩 연습과 멘토링",
+        "log_in_with_github": "GitHub로 로그인",
+        "or_divider": "또는",
+        "email_placeholder": "이메일 주소를 입력하세요",
+        "password_placeholder": "비밀번호를 입력하세요",
+        "forgot_your_password_link": "비밀번호를 잊으셨나요?",
+        "log_in_button": "로그인"
+      },
+      "signed_in": "로그인되었어요.",
+      "signed_out": "성공적으로 로그아웃했어요.",
+      "already_signed_out": "성공적으로 로그아웃했어요.",
+      "invalid_hash": "계정에 비밀번호가 없어요. OAuth를 사용해 주세요.",
+      "csrf_failure": "로그인 세션이 만료되었어요. 다시 시도해 주세요."
+    },
+    "shared": {
+      "information": {
+        "heading": "Exercism은 어디서나 모든 사람에게 무료예요",
+        "level_up_html": "%{stats}와 함께, 그리고 따뜻하게 맞이해 주는 멘토 팀과 나누는 깊이 있는 토론을 통해 프로그래밍 실력을 한 단계 높여 보세요.",
+        "level_up_stats": "%{track_count}개 언어에 걸친 연습 문제 %{exercise_count}개",
+        "free_forever": "Exercism은 영원히 100% 무료예요.",
+        "more_tracks": "+%{count}개 더"
+      },
+      "links": {
+        "already_have_account_prompt": "이미 계정이 있나요?",
+        "log_in_link": "로그인",
+        "no_account_yet_prompt": "아직 계정이 없나요?",
+        "sign_up_link": "무료로 가입하세요.",
+        "didnt_receive_confirmation_email_prompt": "확인 이메일을 받지 못했나요?",
+        "resend_it_link": "다시 보내기.",
+        "didnt_receive_unlock_instructions_link": "잠금 해제 안내를 받지 못했나요?"
+      }
+    },
+    "failure": {
+      "already_authenticated": "이미 로그인되어 있어요.",
+      "inactive": "아직 계정이 활성화되지 않았어요.",
+      "invalid": "%{authentication_keys} 또는 비밀번호가 올바르지 않아요.",
+      "locked": "계정이 잠겨 있어요.",
+      "last_attempt": "계정이 잠기기까지 한 번 더 시도할 수 있어요.",
+      "not_found_in_database": "%{authentication_keys} 또는 비밀번호가 올바르지 않아요.",
+      "timeout": "세션이 만료되었어요. 계속하려면 다시 로그인해 주세요.",
+      "unauthenticated": "계속하려면 로그인하거나 가입해야 해요.",
+      "unconfirmed": "계속하려면 이메일 주소를 확인해야 해요."
+    },
+    "omniauth_callbacks": {
+      "failure": "죄송해요, %{kind} 계정으로 인증할 수 없었어요.",
+      "success": "%{kind} 계정으로 인증되었어요."
+    },
+    "unlocks": {
+      "send_instructions": "몇 분 안에 계정 잠금을 해제하는 방법을 안내하는 이메일을 받게 될 거예요.",
+      "send_paranoid_instructions": "계정이 있다면, 몇 분 안에 잠금을 해제하는 방법을 안내하는 이메일을 받게 될 거예요.",
+      "unlocked": "계정 잠금이 해제되었어요. 계속하려면 로그인해 주세요.",
+      "new": {
+        "resend_unlock_instructions": "잠금 해제 안내 다시 보내기"
+      }
+    }
+  },
+  "settings": {
+    "donations": {
+      "payments_table": {
+        "date_header": "날짜",
+        "amount_header": "후원 금액",
+        "type_header": "유형",
+        "via_header": "경로",
+        "recurring_donation": "정기 후원",
+        "one_time_donation": "일시 후원",
+        "view_receipt_button": "영수증 보기"
+      },
+      "no_donations": {
+        "heading": "후원 내역이 여기에 표시돼요",
+        "info_1": "후원하면 모든 후원 내역을 여기에서 확인할 수 있어요.",
+        "info_2_html": "Exercism에 후원했는데 후원 내역이 여기에 보이지 않거나 서포터 배지를 받지 못했다면 <a href=\"%{email_url}\">Jeremy</a>에게 이메일을 보내 주세요. 그러면 해결해 줄 거예요.\n"
+      },
+      "heading": "후원",
+      "monthly_supporter": {
+        "heading": "Exercism의 월간 후원자가 되어 봐요",
+        "info_html": "Exercism은 커뮤니티 후원에 힘입어 성장하는 비영리 단체예요. 모두가 프로그래밍을 더 잘하게 되도록 %{mission_link}을 후원해 주세요.",
+        "mission_link_text": "우리의 사명",
+        "find_out_more_button": "자세히 알아보기"
+      },
+      "summary": {
+        "total_donated": "총 후원 금액",
+        "from_recurring": "정기 후원",
+        "from_one_time": "일시 후원"
+      }
+    },
+    "github_syncer": {
+      "show": {
+        "github_syncer": {
+          "heading": "GitHub 동기화"
+        }
+      }
+    },
+    "insiders": {
+      "insiders": {
+        "heading": "Insiders"
+      }
+    },
+    "integrations": {
+      "heading": "연동",
+      "github": {
+        "heading": "GitHub",
+        "reputation_link_text": "평판",
+        "external_link_aria_label": "(새 탭에서 열림)",
+        "linked_info_html": "Exercism과 GitHub 계정이 연동되어 있어요. GitHub에서 병합된 풀 리퀘스트는 Exercism 계정에 %{reputation_link}을 부여해요.",
+        "unlinked_info_html": "GitHub에서 풀 리퀘스트를 제출할 때 Exercism에서 %{reputation_link}을 받으려면 아래 버튼으로 계정을 연동해 주세요.",
+        "connect_button": "GitHub와 연결"
+      },
+      "discord": {
+        "heading": "Discord",
+        "forum_link_text": "포럼",
+        "linked_info_html": "Exercism과 Discord 계정이 연동되어 있어요. Discord에서 올바른 역할을 받아야 하는데, 받지 못했다면 %{forum_link}에 이슈를 열어 주세요.",
+        "disconnect_button": "Discord 연동 해제",
+        "unlinked_info": "Discord에서 올바른 역할을 부여받으려면 Exercism과 Discord 계정을 연동해 주세요.",
+        "connect_button": "Discord와 연결"
+      }
+    },
+    "show": {
+      "account_settings": {
+        "heading": "계정 설정",
+        "confirmation_email_sent": "%{email} 주소로 확인 이메일을 보냈어요",
+        "resend_email_button": "이메일 다시 보내기",
+        "reset_account": {
+          "heading": "계정 초기화",
+          "info_html": "계정을 초기화하면 <strong>모든 트랙의 진행 상황이 초기화되고,</strong> 모든 연습 문제가 초기화되며, 이전 멘토링에 대한 접근 권한도 사라져요."
+        },
+        "delete_account": {
+          "heading": "계정 삭제",
+          "info_strong": "이 옵션을 선택하면 계정과 모든 데이터가 완전히 삭제돼요.",
+          "info_text": "선택을 확인할 기회가 주어져요."
+        }
+      }
+    },
+    "user_preferences": {
+      "general_preferences": {
+        "heading": "일반 설정"
+      }
+    },
+    "api_cli": {
+      "api_cli_settings": {
+        "heading": "API 및 CLI 설정"
+      }
+    },
+    "communication_preferences": {
+      "communication_preferences": {
+        "heading": "커뮤니케이션 설정"
+      }
+    }
+  },
+  "temp": {
+    "modals": {
+      "badge": {
+        "new_badge_earned": "새 배지 획득",
+        "badge_name": "2020 Winter Markathon",
+        "badge_rarity": "최상위",
+        "badge_reason": "2020 Winter Markathon 참여에 대한 배지",
+        "badge_earned_at": "%{date}에 획득"
+      },
+      "donation_confirmation": {
+        "thank_you_title_html": "%{amount} 후원을 완료했어요. 감사합니다 💙",
+        "thank_you_message": "응원해 주셔서 진심으로 감사해요. 여러분 같은 멋진 기여자가 없었다면 Exercism은 존재할 수 없었을 거예요. 곧 기부 확인서와 영수증이 담긴 이메일을 보내드릴게요.",
+        "badge_earned_html": "<strong>서포터</strong> 배지를 받았어요!",
+        "done_button": "도움이 되어 기뻐요! 여기까지 할게요 👍"
+      },
+      "completed_mentoring_1": {
+        "thank_you_title_html": "후기를 남겨 주셔서 감사해요 💙",
+        "testimonial_message_html": "<strong>여러분 덕분에 iHiD가 기뻐했어요.</strong> Exercism에서의 경험을 다른 사람들과도 꼭 나눠 주세요.",
+        "back_to_discussion_button": "토론으로 돌아가기"
+      }
+    },
+    "user_deletions": {
+      "show": {
+        "account_deleted": "계정이 삭제되었어요"
+      }
+    },
+    "user_resets": {
+      "show": {
+        "account_reset": "계정이 초기화되었어요"
+      }
+    },
+    "user_tracks": {
+      "reset": {
+        "track_reset_message": "트랙이 초기화되었어요"
+      },
+      "leave": {
+        "track_left_message": "트랙에서 나왔어요"
+      },
+      "practice_mode": {
+        "practice_mode_message": "연습 모드예요"
+      }
+    }
+  },
+  "communication_preferences": {
+    "receive_product_updates": "Exercism의 주요 업데이트를 이메일로 받아요 (빈도: 연 4~12회)",
+    "email_on_new_discussion_post": "멘토가 내 풀이에 댓글을 남기면 이메일로 받기",
+    "email_on_solution_approved": "멘토가 내 풀이를 승인하면 이메일로 받기",
+    "email_on_new_solution_comment_for_solution_user": "누군가 내가 공개한 풀이에 댓글을 남기면 이메일로 받기",
+    "email_on_new_solution_comment_for_other_commenter": "누군가 내가 공개한 풀이에 남긴 댓글에 답글을 달면 이메일로 받기",
+    "email_on_new_discussion_post_for_mentor": "내가 멘토링하는 풀이에 학생이 댓글을 남기면 이메일로 받기",
+    "email_on_new_iteration_for_mentor": "내가 멘토링하는 풀이에 학생이 새 이터레이션을 올리면 이메일로 받기",
+    "email_on_remind_mentor": "내가 맡은 풀이에서 시간 초과로 제외되기 전에 이메일로 받기",
+    "email_on_mentor_heartbeat": "매주 멘토 요약을 이메일로 받기",
+    "email_on_mentor_started_discussion_notification": "멘토가 내 풀이 멘토링을 시작하면 이메일로 받기",
+    "email_on_mentor_finished_discussion_notification": "멘토가 내 풀이에 대한 토론을 끝내면 이메일로 받기",
+    "email_on_mentor_replied_to_discussion_notification": "멘토가 내 풀이에 대한 토론에 답글을 달면 이메일로 받기",
+    "email_on_nudge_student_to_reply_in_discussion_notification": "멘토가 내 풀이 토론에서 내 답변을 기다리면 이메일로 받기",
+    "email_on_nudge_mentor_to_reply_in_discussion_notification": "내가 멘토링하는 토론에서 학생이 내 답변을 기다리면 이메일로 받기",
+    "email_on_student_timed_out_discussion_notification": "학생이 답변하지 않아 토론이 시간 초과로 끝나면 이메일로 받기",
+    "email_on_mentor_timed_out_discussion_notification": "멘토가 답변하지 않아 토론이 시간 초과로 끝나면 이메일로 받기",
+    "email_on_student_replied_to_discussion_notification": "내가 멘토링하는 토론에 학생이 답글을 달면 이메일로 받기",
+    "email_on_student_finished_discussion_notification": "내가 멘토링하는 토론을 학생이 끝내면 이메일로 받기",
+    "email_on_student_added_iteration_notification": "내가 멘토링하는 풀이에 학생이 이터레이션을 추가하면 이메일로 받기",
+    "email_on_automated_feedback_added_notification": "제 풀이에 자동 피드백이 추가되면 이메일로 알려주세요",
+    "email_on_nudge_notification": "Exercism을 최대한 활용하는 방법에 대한 안내를 이메일로 보내주세요",
+    "email_about_fundraising_campaigns": "모금 캠페인에 대해 이메일로 알려주세요",
+    "email_about_events": "이벤트(예: Functional February)나 인터뷰에 대해 이메일로 알려주세요.",
+    "receive_onboarding_emails": "Exercism을 최대한 활용하는 방법에 대한 팁을 이메일로 보내주세요",
+    "email_about_insiders": "제 Exercism Insiders 멤버십에 대해 이메일로 알려주세요",
+    "email_on_general_update_notification": "계정의 기타 중요하지 않은 업데이트에 대해 이메일로 알려주세요",
+    "email_on_acquired_badge_notification": "새 배지를 획득하면 이메일로 알려주세요",
+    "email_on_acquired_trophy_notification": "새 트로피를 획득하면 이메일로 알려주세요"
+  },
+  "layouts": {
+    "mailer": {
+      "unsubscribe_link": "이 이메일 수신 거부하기",
+      "or": "또는",
+      "change_notification_settings_link": "알림 설정 변경하기",
+      "sent_by": "Exercism이 보냄:",
+      "address": "Unit G3; 81 Bournville Lane, 영국",
+      "text_received_because": "Exercism(%{exercism_url})에 가입했기 때문에 이 이메일을 받았어요.",
+      "text_unsubscribe_line": "이 이메일 수신 거부: %{unsubscribe_url}",
+      "text_change_notification_settings_line": "알림 설정 변경: %{settings_url}",
+      "text_sent_by": "Exercism이 보냄: Unit G3; 81 Bournville Lane, 영국",
+      "aria_label": "Exercism에서 보낸 이메일",
+      "sponsored_by_html": "이 이메일은 %{partner_name}의 후원으로 발송되었어요. %{mailer_text}",
+      "learn_more_link": "여기를 클릭하면",
+      "learn_more_suffix": "더 자세히 알아볼 수 있어요.",
+      "received_because_html": "이 이메일은 %{exercism_link}에 가입했기 때문에 받게 되었어요.",
+      "exercism_link": "Exercism",
+      "you_can": "다음과 같이 할 수 있어요"
+    },
+    "meta_tags": {
+      "rss_blog_title": "Exercism 블로그"
+    },
+    "nav": {
+      "insiders": {
+        "title": "Exercism Insiders",
+        "tagline": "Exercism이 살아남아 더 나아가려면 여러분의 도움이 필요해요!",
+        "description_html": "Exercism에 후원하면 %{strong_text_1}, %{strong_text_2}, %{strong_text_3}, %{strong_text_4} 등 비하인드 콘텐츠와 보너스 기능을 이용할 수 있어요.",
+        "strong_text_1": "다크 모드",
+        "strong_text_2": "ChatGPT 연동",
+        "strong_text_3": "추가 멘토링 슬롯",
+        "strong_text_4": "전용 배지",
+        "learn_more_button": "자세히 알아보기",
+        "non_profit_info": "Exercism은 등록된 비영리 단체예요. 모든 후원금은 플랫폼을 운영하고 개선하는 데 사용돼요."
+      },
+      "challenge_48in24": {
+        "title": "#48in24 챌린지",
+        "subtitle": "2024년 한 해 동안 매주 색다른 프로그래밍 챌린지를 저희가 직접 골라 안내해 드려요!",
+        "description_p1": "일주일에 하나씩, 프로그래밍 실력을 키워봐요.",
+        "description_p2": "우리 커뮤니티와 함께, 매주 색다른 연습 문제를 살펴보며 여러 언어와 패러다임으로 어떻게 풀어낼 수 있는지 파고들어요.",
+        "explore_button": "#48in24 살펴보기",
+        "feature_info": "매주 색다른 연습 문제를 하나씩 골라 접근법, 풀이 과정, 영상 등 다양한 내용을 함께 소개해요."
+      },
+      "tracks": {
+        "your_recent_tracks": "최근 트랙",
+        "see_all_button": "전체 보기",
+        "last_touched": "%{time_ago}에 마지막으로 활동했어요"
+      },
+      "favorites": {
+        "heading": "내 즐겨찾기",
+        "intro": "Exercism 곳곳에서 마음에 드는 풀이를 저장하고 나중에 다시 배워봐요.",
+        "empty_state": "아직 즐겨찾기에 추가한 풀이가 없어요. 커뮤니티 풀이를 둘러보고 마음에 드는 풀이를 즐겨찾기에 추가해 봐요!",
+        "get_started_button": "시작하기",
+        "solution_title": "%{handle}님의 풀이",
+        "solution_subtitle": "%{track}의 %{exercise}",
+        "view_all_button": "모두 보기"
+      },
+      "journey": {
+        "reputation_label": "평판",
+        "badges_label": "배지",
+        "history_label": "기록",
+        "and_more_label": "그 외에도 더…"
+      },
+      "coding_fundamentals": {
+        "title": "Jiki",
+        "bubble": "새로 출시됐어요!",
+        "subtitle": "LLM 시대에 코딩을 배우고 만들어 봐요.",
+        "description_p1_html": "코딩은 달라졌어요. 배우는 방식도 달라져야 해요. Jiki는 LLM 시대에 코딩을 배우고 만들어 볼 수 있도록 설계된 완전히 새로운 플랫폼이에요. <strong>초보자, 주니어, 바이브 코더</strong>를 위해 만들었어요.",
+        "strong_text_1": "완전히 처음이에요?",
+        "strong_text_2": "튜토리얼 지옥에 빠졌어요?",
+        "explore_button": "지금 시작해요 - 무료예요!"
+      }
+    }
+  },
+  "errors": {
+    "messages": {
+      "already_confirmed": "이미 확인되었어요. 로그인을 시도해 주세요.",
+      "confirmation_period_expired": "%{period} 안에 확인해야 해요. 새로 요청해 주세요.",
+      "expired": "만료되었어요. 새로 요청해 주세요.",
+      "not_found": "찾을 수 없어요",
+      "not_locked": "잠겨 있지 않아요",
+      "not_saved": {
+        "other": "%{count}개의 오류 때문에 %{resource} 저장에 실패했어요:"
+      }
+    },
+    "error": {
+      "title": "오류가 발생했어요",
+      "description": "오류가 발생했어요. 죄송해요!",
+      "instructions": "새로고침을 해보고, 그래도 안 되면 몇 분 기다렸다가 다시 시도해 주세요."
+    },
+    "not_found": {
+      "title": "페이지를 찾을 수 없어요",
+      "description": "페이지를 찾을 수 없는 것 같아요. 죄송해요!"
+    },
+    "too_many_requests": {
+      "title": "요청이 너무 많아요",
+      "description": "너무 짧은 시간에 너무 많은 작업을 했어요.",
+      "rate_limits": "Exercism은 봇의 공격을 끊임없이 받아서 악용을 막으려고 요청 제한을 두고 있어요. 1분 정도 기다린 뒤 다시 시도해 주세요. (참고: 새로고침을 계속 누르면 대기 시간이 다시 시작돼요...)",
+      "forum_html": "이 메시지가 자주 보인다면 %{link} 알려주세요!",
+      "forum_link": "포럼에서"
+    }
+  },
+  "activerecord": {
+    "attributes": {
+      "doorkeeper/application": {
+        "name": "이름",
+        "redirect_uri": "리디렉션 URI"
+      }
+    },
+    "errors": {
+      "models": {
+        "doorkeeper/application": {
+          "attributes": {
+            "redirect_uri": {
+              "fragment_present": "프래그먼트를 포함할 수 없어요.",
+              "invalid_uri": "유효한 URI여야 해요.",
+              "unspecified_scheme": "스킴을 지정해야 해요.",
+              "relative_uri": "절대 URI여야 해요.",
+              "secured_uri": "HTTPS/SSL URI여야 해요.",
+              "forbidden_uri": "서버에서 허용하지 않아요."
+            },
+            "scopes": {
+              "not_match_configured": "서버에 설정된 범위와 일치하지 않아요."
+            }
+          }
+        }
+      }
+    }
+  },
+  "dashboard": {
+    "tracks_section": {
+      "view_all_tracks_link": "내 트랙 모두 보기",
+      "discover_more_tracks_link": "더 많은 트랙 둘러보기",
+      "title": "내 트랙",
+      "track_count_aria_label": {
+        "other": "트랙 %{count}개"
+      },
+      "exercises_completed": "연습 문제 %{completed}개 / %{total}개 완료"
+    },
+    "tracks_zero_section": {
+      "title": "아직 트랙에 참여하지 않았어요.",
+      "description_part_1": "다음 중에서 골라보세요:",
+      "description_part_2": "%{num_tracks}개 언어 트랙,",
+      "description_part_3": "익숙한 것부터 아주 색다른 것까지, 지금 바로 코딩 연습을 시작해요.",
+      "browse_tracks_link": "%{num_tracks}개 언어 트랙 둘러보기"
+    },
+    "show": {
+      "summary_bar": {
+        "badges": {
+          "more": "+ %{count}개 더"
+        },
+        "journey_link": "Exercism에서 나의 여정 보기"
+      },
+      "header_intro": {
+        "welcome": "다시 오신 것을 환영해요, %{user_handle}님!",
+        "welcome_message": "코딩 연습 문제를 풀고 멘토링을 받으면서 선택한 프로그래밍 언어를 유창하게 익혀봐요.",
+        "exercism_status": "Exercism은 오픈 소스이며 비영리로 운영돼요."
+      },
+      "where_to_start": "어디서부터 시작할까요…",
+      "actions": {
+        "continue_learning": "트랙에서 학습 이어가기",
+        "try_mentoring": "멘토링에 도전해보기",
+        "get_involved": "커뮤니티에 참여하기",
+        "donate": "지속 가능한 성장을 위해 후원하기"
+      },
+      "community_posts": {
+        "title": "커뮤니티 게시글",
+        "see_all_link": "커뮤니티 게시글 모두 보기"
+      },
+      "new_on_exercism": {
+        "title": "Exercism의 새로운 소식"
+      },
+      "live_event": {
+        "live_now": "지금 방송 중"
+      },
+      "watch_on_one_html": "%{twitch_link}에서 시청하기",
+      "watch_on_both_html": "%{twitch_link} 또는 %{youtube_link}에서 시청하기",
+      "featured_event": {
+        "coming_soon": "공개 예정",
+        "live_at": "방송 시각",
+        "save_the_date": "날짜를 기억해두세요!"
+      },
+      "scheduled_events": {
+        "title": "다가오는 방송 일정",
+        "full_message_html": "이 일정은 꾸준히 업데이트되며, 모든 이벤트는 %{twitch_channel_link}에서 생방송돼요. 놓치지 않으려면 구독해두세요!",
+        "twitch_channel": "Twitch 채널",
+        "all_times_utc": "모든 시간은 UTC 기준이에요."
+      }
+    },
+    "48in24": {
+      "week_of_challenge": "#48in24 %{week}주차",
+      "featuring_exercise": "%{exercise_title} 연습 문제를 소개해요",
+      "watch_deep_dive": "👇 Erik & Jeremy와 함께하는 Deep Dive를 시청해 봐요!",
+      "explore_all_link": "#48in24 전체 살펴보기"
+    },
+    "mentoring_completed": {
+      "title": "남은 멘토링 대화가 없어요",
+      "description": "작업 공간과 대기열이 모두 정리된 것 같아요. 우와!"
+    },
+    "mentoring_inbox": {
+      "title": "멘토링",
+      "discussion_aria_label": "%{student_handle}님의 프로필 보기",
+      "exercise_on": "%{exercise_title} 연습 문제",
+      "time_ago": "%{time_ago} 전",
+      "see_all_mentoring_link": "멘토링하고 있는 모든 학생 보기"
+    },
+    "mentoring_queue": {
+      "title": "작업 공간이 비어 있어요.",
+      "description": "학생 몇 명을 더 멘토링할 시간이 있나요?",
+      "link": "멘토링 대기열 보기"
+    },
+    "mentoring_zero": {
+      "title": "멘토가 되어 봐요",
+      "description": "멘토링은 스스로의 학습을 다지는 좋은 방법이에요. 학생들이 몰랐던 것들을 배우고 발견하도록 도와줄 수 있어요.",
+      "try_mentoring_now_link": "지금 멘토링 시작해 봐요",
+      "learn_more_link": "더 알아보기"
+    }
+  },
+  "about": {
+    "partners": {
+      "index": {
+        "supporters_section": {
+          "mozilla": {
+            "description": "<strong>%{mozilla}</strong>의 후원으로 우리는 자동 분석기를 만들 수 있었어요. 제품 디자인과 프로토타입, 분석기 인프라에 자금을 대 주었고, 그 덕분에 멘토들의 시간을 수천 시간 아끼고 학생들이 기다리는 시간도 크게 줄일 수 있었어요.",
+            "alt": "Mozilla"
+          },
+          "learn_more": "더 알아보기",
+          "title": "저희 후원자",
+          "chicago": {
+            "alt": "University of Chicago",
+            "university_of_chicago_text": "University of Chicago",
+            "the_sloan_foundation_text": "The Sloan Foundation",
+            "description": "<strong>%{university_of_chicago}</strong>는 <strong>%{the_sloan_foundation}</strong>과 협력하여, 사람들이 여러 언어에 걸쳐 프로그래밍 기술과 지식을 어떻게 발전시켜 나가는지 연구하는 더 큰 프로젝트의 일환으로 Exercism v3 개발을 후원했어요."
+          }
+        },
+        "individual_supporters": {
+          "alt": "개인 후원자",
+          "title": "Exercism은 %{num_individual_supporters}명의 아낌없는 개인 후원자의 후원도 받고 있어요",
+          "link_label": "개인 후원자 모두 보기"
+        },
+        "meta": {
+          "title": "Exercism 후원하기",
+          "description": "여러분의 단체가 Exercism의 성장을 도울 수 있을까요? 저희의 사명에 로켓 연료가 되어주세요!"
+        },
+        "header": {
+          "title": "저희의 사명을 위한 <strong>로켓 연료</strong>가 되어주세요",
+          "description": "전 세계에 무료 코딩 학습과 연습을 제공하겠다는 저희의 사명을 함께하고 싶다면, 저희와 파트너가 되어주시거나 후원해 주세요."
+        },
+        "cta": {
+          "jeremy_walker_photo_alt": "Jeremy Walker의 사진",
+          "title": "Exercism을 어떻게 도울 수 있을지 이야기해 보고 싶으세요?",
+          "description": "Exercism의 CEO <strong>Jeremy Walker</strong>에게 연락해 보세요.",
+          "email_label": "jeremy@exercism.org"
+        },
+        "support_goals": {
+          "title": "Exercism의 목표를 이루려면 후원자들의 지원이 꼭 필요해요",
+          "paragraph1": "Exercism의 많은 부분은 자원봉사 커뮤니티가 운영하지만, 웹사이트와 핵심 인프라는 전임 팀이 관리하고 있어요.",
+          "paragraph2": "저희는 자동 분석기 개발처럼 특정한 대규모 프로젝트도 진행하는데, 이런 프로젝트에는 정해진 기간 동안 한 가지 일에 더 집중해서 몰두하는 헌신적인 팀이 필요해요.",
+          "paragraph3": "이 핵심 팀과 제품에 자금을 대기 위해, 저희는 모든 사람에게 무료 프로그래밍 교육을 제공하겠다는 비전에 함께하고자 하는 기업이나 단체의 지원금에 의지하고 있어요."
+        },
+        "areas_of_collaboration": {
+          "title": "지금까지 여러 단체가 저희를 지원해 온 분야",
+          "fundraising": "모금",
+          "research_projects": "연구 프로젝트",
+          "track_development": "트랙 개발",
+          "developing_automation": "자동화 개발",
+          "community_building": "커뮤니티 구축",
+          "servers_and_infrastructure": "서버와 인프라"
+        }
+      },
+      "packt": {
+        "see_all_supporters": "모든 후원자 보기",
+        "supported_by_prefix": "Exercism을 후원하는 곳",
+        "org_supports_exercism": "Exercism은 %{org_name}의 후원을 받아요",
+        "packt_partnership_description": "Packt Publishing은 Exercism의 핵심 파트너로, 플랫폼의 모금과 콘텐츠 양쪽을 개발하는 데 힘을 보태 주고 있어요. 새로운 모금 담당 역할을 후원해 주었고, 지금은 2022년 초에 선보일 더 깊은 파트너십을 준비하고 있어요.",
+        "about_packt_publishing": "Packt Publishing 소개",
+        "packt_about_p1": "Packt은 기술의 실제 활용에 초점을 맞춘 IT 출판사예요. Packt의 저자들은 대부분 현업 개발자로, 끝없이 쏟아지는 새로운 기술 가운데 무엇이 실제로 통하는지, 어떻게 일을 처리할 수 있는지 가려내는 일을 해요. Packt의 독자와 사용자는 솔루션과 애플리케이션을 만드는 바쁜 현업 엔지니어로, 어떤 기술이 실제로 어떻게 작동하는지, 쓸 만한 가치가 있는지를 알고 싶어 해요.",
+        "packt_about_p2": "Packt은 여러 언어에 능숙해지는 길을 더 쉽게 만든다는 Exercism의 사명을 후원해요. 우리는 특정 플랫폼이나 언어로부터 독립한다는 Exercism의 가치, 그리고 엔지니어들이 동료 커뮤니티로서 서로 돕고자 한다는 믿음을 함께 나눠요. Packt의 도서와 출판은 Exercism 같은 훌륭한 플랫폼을 보완하는 체계적인 실무 지식의 집합을 제공하는 것을 목표로 해요. 우리 둘 모두 경험 많은 전문가가 IT 업계의 더 넓은 커뮤니티와 지식과 경험을 나눌 수 있는 길을 제공해요."
+      },
+      "gobridge": {
+        "see_all_supporters": "모든 후원자 보기",
+        "supported_by": "Exercism을 후원하는 곳",
+        "gobridge_alt": "GoBridge",
+        "how_gobridge_supports_exercism": "GoBridge가 Exercism을 지원하는 방법",
+        "support_description": "2021년에 GoBridge는 Exercism Teams 개발을 후원하기 위해 큰 기부를 해주었어요. 특히 새 Exercism 에디터 안에서 학생과 멘토가 소통할 수 있는 기반을 다질 수 있게 해주었죠.",
+        "about_gobridge_title": "GoBridge 소개",
+        "about_gobridge_description": "<strong>%{gobridge_text}</strong>의 사명은 IT 업계의 소수자가 Go를 프로그래밍을 배우고 가르치는 도구로 활용할 수 있게 하고, 궁극적으로는 IT 업계에서 소외된 집단이 힘을 키워 Go 커뮤니티의 다양성을 높이는 데 기여하도록 돕는 것이에요. 이는 프로그래밍 교육을 통해 기회를 제공한다는 저희의 사명과도 완벽하게 맞닿아 있죠. 그래서 이 파트너십을 시작할 수 있게 되어 정말 기뻐요. <strong>%{gobridge_text}</strong> 및 <strong>%{go_developer_network_text}</strong> 두 곳은 각자의 네트워크에서 Exercism을 알릴 예정이고, 저희는 많은 Go 멘토와 학생이 함께해 주기를 기대하고 있어요.",
+        "go_developer_network_text": "Go Developer Network"
+      }
+    },
+    "team": {
+      "meta_title": "Exercism 팀",
+      "meta_description": "Exercism을 운영하는 사람들, 이사진, 리더십 팀과 정직원을 소개해요.",
+      "our_team": "우리 팀",
+      "built_by_people_worldwide": "Exercism은 전 세계 사람들이 함께 만들어요 🙌",
+      "stats": {
+        "contributors": "%{count}명이 넘는 기여자",
+        "countries": "%{count}개국",
+        "github_repos": "%{count}개의 GitHub 저장소"
+      },
+      "map_alt_text": "Exercism 기여자들의 아바타가 표시된 세계 지도",
+      "info_box": {
+        "title": "수천 명의 사람들이 우리의 비전을 지지하고 Exercism을 함께 만들어 왔어요.",
+        "description": "Exercism은 리더십 팀과 정직원, 약 100명의 유지보수자와 핵심 기여자로 이루어진 더 넓은 팀, 그리고 수천 명의 개인이 보내 준 작은 기여에 힘입고 있어요. 이런 제품 기여 외에도, 수만 명의 커뮤니티 구성원이 피드백을 주고 다른 사람을 도우며 기여해 왔어요."
+      },
+      "leadership_team": {
+        "title": "리더십 팀",
+        "description": "우리 리더십 팀은 Exercism의 전략과 조직 운영을 맡고 있어요. 우리의 사명 선언문을 실현하고 가치를 지키는 책임을 지고 있어요.",
+        "katrina_owen": {
+          "image_alt": "Katrina의 사진",
+          "handle": "공동 창업자 겸 이사",
+          "bio_html": "Katrina는 Exercism의 최초 창시자예요. %{book_link}의 공동 저자이기도 해요. 여러 언어를 다루는 개발자이며 Ruby Hero 상을 받았고, 분자생물학 학위를 가지고 있어요. 오픈 소스를 깊이 아끼며 Exercism 밖의 여러 프로젝트에도 기여하고 있어요.",
+          "book_link_text": "99 Bottles of OOP",
+          "personal_site_link": "Katrina의 개인 사이트"
+        },
+        "jeremy_walker": {
+          "image_alt": "Jeremy Walker의 사진",
+          "handle": "공동 창업자 겸 CEO",
+          "bio_html": "Jeremy는 평등과 기회에 열정을 가진 기업가이자 소프트웨어 개발자예요. Meducation, Wondr Medical, %{kaido_link} 등 여러 조직을 공동 창업했고, 심장 수술에 사용되는 AI 관련 특허를 보유하고 있어요.",
+          "personal_site_link": "Jeremy의 개인 사이트",
+          "kaido_link_text": "Kaido"
+        }
+      },
+      "staff_team": {
+        "title": "정직원",
+        "description": "우리 정직원은 웹사이트와 CLI, Exercism의 운영을 담당하며, Exercism을 이용하는 모든 사람에게 안전하고 믿을 수 있는 경험을 제공해요.",
+        "erik_schierboom": {
+          "image_alt": "Erik Schierboom의 사진",
+          "handle": "오픈 소스 책임자",
+          "bio_html": "Erik은 새로운 언어 배우기를 좋아하는 여러 언어를 다루는 개발자예요. 플랫폼의 오픈 소스 요소를 뒷받침하는 소프트웨어와 인프라를 만들어, 모든 트랙을 즐겁게 다룰 수 있도록 해요. 정식 합류하기 전에는 Exercism에서 가장 활발한 자원봉사자였어요.",
+          "personal_site_link": "Erik의 개인 사이트"
+        },
+        "aron_demeter": {
+          "image_alt": "Aron Demeter의 사진",
+          "handle": "Front-end 개발자",
+          "bio_html": "Áron은 스스로 개발을 익힌 개발자로, 사물 사이의 상호 관계를 발견하는 데 흥미를 느껴요. 클래식 피아노 연주로 석사 학위를 받았어요. 여가 시간에는 가족과 함께 시간을 보내거나, Exercism에서 새로운 언어를 배우거나, 오페라를 듣는 것을 즐겨요."
+        }
+      },
+      "alumni_team": {
+        "title": "역대 팀원",
+        "description": "예전에 Exercism에서 풀타임으로 일했고, 이후 새로운 여정을 떠난 분들이에요. 그들이 남긴 발자취를 감사한 마음으로 기억해요!",
+        "nicole_chalmers": {
+          "image_alt": "Nicole Chalmers의 사진",
+          "bio_html": "Nicole은 %{kaido_link}의 프로덕트 책임자예요. Exercism에서 2년 동안 프로덕트 책임자로 일하며 v1에서 v2로 나아가는 길을 이끌었고, 오늘날까지 Exercism을 움직이는 원칙과 아이디어를 세우는 데 힘을 보탰어요.",
+          "kaido_link_text": "Kaido"
+        },
+        "charles_care": {
+          "image_alt": "Charles Care의 사진",
+          "bio": "Charles는 Exercism v2를 만든 팀의 일원으로, 특히 서버 측 코드와 인프라를 담당했어요. 자동 멘토링 플랫폼의 첫 버전과 Github 연동을 만드는 데도 힘을 보탰어요."
+        },
+        "karlo_soriano": {
+          "image_alt": "Karlo Soriano의 사진",
+          "bio": "Karlo는 Exercism의 웹사이트 부분을 작업했어요. v3를 위한 웹사이트의 인터랙티브 frontend 대부분을 만들었고, Rails backend 플랫폼의 상당 부분에도 기여했어요."
+        },
+        "taiyab_raja": {
+          "image_alt": "Taiyab Raja의 사진",
+          "bio": "Taiyab은 Exercism v3의 아름다운 비주얼과 UX를 만든 디자이너예요. 스타트업, 디자인, 창업에 관한 모든 것을 좋아해요."
+        },
+        "loretta_murray": {
+          "image_alt": "Loretta Murray의 사진",
+          "bio": "Loretta는 2022-2023년에 Exercism의 모금 책임자였어요. 모금이 가져오는 변화의 힘에서 동기를 얻으며, 모금 담당자들의 역량을 키우는 일에 열정을 가진 공인 비즈니스 코치예요."
+        },
+        "jonathan_middleton": {
+          "image_alt": "Jonathan Middleton의 사진",
+          "bio": "Jonathan은 2022-2023년에 Exercism의 커뮤니티 매니저였어요. 사람들과 연결되고, 각자가 인생에서 어떤 자리에 있는지에 대한 이야기를 듣는 것을 좋아해요. 배우는 데 호기심이 많고, 프로그래밍도 천천히 익혀 가고 있어요."
+        }
+      },
+      "community_teams": {
+        "maintainers": {
+          "title": "트랙 메인테이너",
+          "description": "우리 메인테이너들은 Exercism의 언어 트랙과 연습 문제를 떠받치는 핵심이에요. %{num_lang}개 언어 각각의 연습 문제를 만들고 정리하며, Exercism이 학습자에게 가능한 한 가장 관용적인 방식으로 가르칠 수 있도록 우리를 이끌어 줘요.",
+          "link_text": "모든 Exercism 메인테이너 보기"
+        },
+        "mentors": {
+          "title": "멘토",
+          "description": "우리 멘토들은 Exercism을 떠받치는 사람 요소로, 학습자의 풀이에 공감 어린 피드백을 제공해요. Exercism을 살아 숨 쉬게 만드는 마법 같은 존재죠.",
+          "link_text": "모든 Exercism 멘토 보기"
+        },
+        "contributors": {
+          "title": "오픈 소스 기여자",
+          "description": "Exercism은 2,000명이 넘는 자원봉사자들의 기여 없이는 지금의 성공을 이루지 못했을 거예요. 이들은 도구를 작성하는 것부터 여러분이 푸는 연습 문제를 만드는 것까지 다양한 방식으로 가치를 더해요.",
+          "link_text": "모든 기여자 보기"
+        }
+      }
+    },
+    "hiring": {
+      "meta_title": "Exercism 채용 안내",
+      "meta_description": "프로그래밍 교육을 재미있고 효과적으로 만드는 열정 넘치는 팀에 함께해요. 현재 채용 중인 몇 가지 포지션을 소개해요.",
+      "header": {
+        "title": "지금은 채용을 진행하고 있지 않아요.",
+        "description": "새로운 포지션이 나오면 나중에 다시 확인해 주세요!"
+      }
+    },
+    "show": {
+      "meta_title": "Exercism 소개",
+      "meta_description": "Exercism의 비전, 미션, 전략을 알아봐요.",
+      "header": {
+        "title": "Exercism",
+        "slogan": "누구나 무료로 프로그래밍을 배우고 익힐 수 있는 곳, 그 과정에서 길을 잃거나 자신이 멍청하다고 느끼지 않아도 되는 곳을 만들고 있어요.",
+        "donate_button": "Exercism에 후원하기"
+      },
+      "purpose_section": {
+        "title": "목적",
+        "description": "우리는 배경과 상관없이 누구나 프로그래밍을 정말 잘하게 되도록 돕기 위해 여기에 있어요. 프로그래밍에 대한 사랑을 나누고, 사람들이 사회적으로 더 나아가는 과정에서 실력을 키울 수 있도록 돕고 싶어요."
+      },
+      "goals_section": {
+        "goal_1": {
+          "title": "숙달하기",
+          "description": "우리는 사람들이 프로그래밍의 기쁨을, 능숙한 프로그래머가 되었을 때 느끼는 깊은 만족을 경험하기를 바라요."
+        },
+        "goal_2": {
+          "title": "즐거움",
+          "description": "프로그래밍 실력을 키우는 일은 경쟁심을 부추기거나 좌절과 스트레스를 주는 것이 아니라, 자신감을 북돋우고 즐거워야 해요."
+        },
+        "goal_3": {
+          "title": "사회적 이동성",
+          "description": "우리는 경제적으로 어려운 사람을 포함한 모든 사람이 코딩을 배워 사회적으로 더 높이 올라갈 수 있기를 바라요."
+        }
+      },
+      "principles_section": {
+        "title": "원칙",
+        "principle_1": "Exercism은 즐겁고 도전적이며 가치 있는 곳이어야 해요.",
+        "principle_2": "Exercism은 성장 마인드셋과 명확하고 공감 가는 소통을 장려하고, 함께 배우는 가치를 강조해야 해요.",
+        "principle_3": "Exercism은 안전하고 따뜻하게 느껴져야 해요.",
+        "principle_4": "Exercism은 목적지가 아니라 배움의 여정에 집중해요. 배우는 과정과 그 즐거움이 사실관계의 완벽한 정확성보다 중요해요."
+      },
+      "leadership_section": {
+        "title": "Exercism의 운영 방식",
+        "description": "Exercism은 리더십의 방향 제시와 커뮤니티의 협업이 어우러져 만들어져요. 우리는 대부분의 결정에 시간을 들일 가치가 있다고 믿고, 그래서 행동하기 전에 깊이 고민해요.",
+        "reflective": {
+          "title": "성찰",
+          "description": "우리는 전략과 제품을 중심에 두고, 당장의 영향만이 아니라 장기적인 관점에서 결정이 갖는 총체적인 영향을 살펴봐요. 핵심 자원봉사 기여자들과 긴밀히 협력해 의견과 지식을 모으고, 우리의 강점과 약점을 파악하며 매일 Exercism을 개선하려고 노력하는 동시에 장기적인 비전에도 계속 집중해요."
+        },
+        "small_team": {
+          "title": "큰 비전을 가진 작은 팀",
+          "description": "우리는 품질도 매우 중요하게 생각해요. 하는 일이 좋은 것이길 바라는데, 제대로 작동하고, 누구나 접근할 수 있으며, 혁신적이어야 해요. Exercism이 비전에 맞게 성장하고 발전하도록 책임지는 아주 작은 핵심 팀이 있어요. 커뮤니티와 후원자, 자선 재단의 기부를 통해 우리는 지속 가능하고 책임 있는 방식으로 팀을 키워 나가고 있어요. 공개적으로 알리고 모금 목표로 삼는 펀딩 마일스톤이 있고, 이를 통해 더 많은 사람을 채용해 한층 더 발전시킬 수 있어요."
+        },
+        "ethics": {
+          "title": "윤리적 토대",
+          "description": "우리는 공정하게 대가를 지불하려고 노력하며, 직원의 시간과 가치, 그리고 후원자들의 너그러움을 모두 존중하고 고려해요. 우리는 기업이자 고용주로서 윤리적으로 행동하고, 팀을 존중하며, 우리 자신이라면 하지 않을 일을 팀에게 요구하지 않고, 우리에게 쓰이길 원하지 않는 기법이나 기술을 사용하지 않아요."
+        }
+      },
+      "donate_section": {
+        "title": "모든 사람, 모든 곳에 프로그래밍의 즐거움을 전할 수 있도록 도와주세요 ✨",
+        "description": "우리는 사명을 이루기 위해 오픈 소스 기여와 금전적 후원에 의존해요. 우리의 사명을 함께할 시간이나 후원금을 조금 내어 주실 수 있나요?",
+        "donate_button": "Exercism에 후원하기",
+        "tasks_button": "도움이 필요한 작업 보기"
+      }
+    },
+    "organisation_supporters": {
+      "supporters_section": {
+        "chicago": {
+          "description": "<strong>%{university_of_chicago}</strong>는 <strong>%{the_sloan_foundation}</strong>과 협력하여, 사람들이 여러 언어에 걸쳐 프로그래밍 기술과 지식을 어떻게 발전시켜 나가는지 연구하는 더 큰 프로젝트의 일환으로 Exercism v3 개발을 후원했어요.",
+          "alt": "University of Chicago",
+          "university_of_chicago_text": "University of Chicago",
+          "the_sloan_foundation_text": "The Sloan Foundation"
+        },
+        "mozilla": {
+          "alt": "Mozilla",
+          "description": "<strong>%{mozilla}</strong>는 저희가 자동 분석기를 만드는 일을 후원해 주었어요. 제품 디자인과 프로토타입, 분석기 인프라에 자금을 대주어 멘토들의 수천 시간을 아껴 주었고, 학생들이 기다리는 시간도 크게 줄여 주었어요."
+        },
+        "learn_more": "더 알아보기",
+        "title": "우리 후원자",
+        "packt": {
+          "alt": "Packt Publishing",
+          "description": "<strong>%{packt_publishing}</strong>는 Exercism의 핵심 파트너로, 플랫폼의 모금과 콘텐츠 측면을 개발하는 데 도움을 주고 있어요. 그들은 우리의 새로운 모금 역할을 후원했으며, 우리는 현재 2022년 초에 출시할 더 깊은 파트너십을 개발하고 있어요."
+        },
+        "gobridge": {
+          "alt": "GoBridge",
+          "description": "2021년에 우리는 <strong>%{gobridge}</strong>와 <strong>%{go_developer_network}</strong>의 공식 멘토링 플랫폼이 되었으며, 그 일환으로 그들은 Exercism Teams의 개발을 지원하기 위해 상당한 후원을 해주셨어요.",
+          "go_developer_network_text": "Go Developer Network"
+        }
+      },
+      "individual_supporters": {
+        "alt": "개인 후원자",
+        "title": "Exercism은 너그러운 개인 후원자들의 지원도 받고 있어요",
+        "link_label": "개인 후원자 %{num_individual_supporters}명 모두 보기"
+      },
+      "meta": {
+        "title": "Exercism 후원하기",
+        "description": "귀하의 조직이 Exercism의 성장을 도울 수 있나요? 우리의 미션에 로켓 연료가 되어주세요!"
+      },
+      "header": {
+        "title": "우리의 미션을 위한 <strong>로켓 연료</strong>가 되어주세요",
+        "description": "우리와 파트너가 되거나 후원해서, 전 세계에 무료 코딩 학습과 연습을 제공하려는 우리의 미션을 지원해 주세요."
+      },
+      "cta": {
+        "jeremy_walker_photo_alt": "Jeremy Walker의 사진",
+        "title": "Exercism을 어떻게 도울 수 있는지 이야기해 보고 싶으세요?",
+        "description": "Exercism의 CEO인 <strong>Jeremy Walker</strong>에게 연락해 보세요.",
+        "email_label": "jeremy@exercism.org"
+      },
+      "support_goals": {
+        "title": "후원자들의 지원은 Exercism의 목표를 달성하는 데 매우 중요해요",
+        "paragraph1": "Exercism의 많은 부분이 자원봉사 커뮤니티에 의해 운영되지만, 웹사이트와 핵심 인프라는 전임 팀이 관리해요.",
+        "paragraph2": "우리는 또한 자동화 분석기 개발과 같은 특정 대규모 프로젝트를 수행하는데, 이는 일정 기간 동안 더 집중적으로 작업하는 헌신적인 팀이 필요해요.",
+        "paragraph3": "이 핵심 팀과 제품에 자금을 지원하기 위해, 우리는 모든 사람에게 무료 프로그래밍 교육을 제공한다는 비전에 기여하고자 하는 기업이나 조직의 지원금에 의존해요."
+      },
+      "areas_of_collaboration": {
+        "title": "지금까지 조직들이 우리를 지원해 온 분야",
+        "fundraising": "모금",
+        "research_projects": "연구 프로젝트",
+        "track_development": "트랙 개발",
+        "developing_automation": "자동화 개발",
+        "community_building": "커뮤니티 구축",
+        "servers_and_infrastructure": "서버와 인프라"
+      }
+    },
+    "individual_supporters": {
+      "header": {
+        "title_highlight": "너그러운",
+        "subtitle": "%{count}명의 너그러운 분들이 Exercism에 후원해 주셨어요",
+        "title_html": "우리의 %{highlight} 개인 후원자들"
+      },
+      "cta": {
+        "logo_alt": "Exercism 로고",
+        "title": "모두에게, 어디서나 프로그래밍의 즐거움을 전할 수 있도록 도와주세요!",
+        "description": "Exercism을 후원해 주실 수 있나요? 작은 도움도 큰 힘이 돼요.",
+        "button": "지금 후원하기"
+      },
+      "donor": {
+        "avatar_alt": "%{name}님이 업로드한 아바타",
+        "first_supported": "%{time_ago} 전에 처음 후원했어요"
+      },
+      "missing": {
+        "title": "왜 이 페이지에 제가 없나요?",
+        "body_html": "이 페이지는 Exercism을 재정적으로 후원한 모든 개인을 보여주는 것을 목표로 해요. 기술적으로는 후원자 배지를 받고 %{donations_settings_link}에서 \"후원자 페이지에 표시할까요?\" 토글을 활성화한 모든 사람을 나열해요. Exercism 웹사이트를 통해 후원하면 자동으로 후원자 배지가 부여돼요. 하지만 제3자 웹사이트(예: GitHub)를 통해 후원하는 경우 %{email_link}으로 이메일을 보내 배지를 수동으로 부여해 달라고 요청해야 할 수도 있어요.",
+        "donations_settings_link_text": "후원 설정",
+        "email_link_text": "donations@exercism.org"
+      },
+      "meta_title": "Exercism 후원하기",
+      "meta_description": "이 멋진 분들이 Exercism을 재정적으로 후원해 주었어요"
+    },
+    "testimonials": {
+      "meta_title": "Exercism 후기",
+      "meta_description": "Exercism에서 배우고 멘토링한 경험에 대해 학생과 멘토가 남긴 이야기를 읽어보세요.",
+      "heading": "사람들이 말하는 Exercism"
+    },
+    "impact": {
+      "meta_title": "Exercism 임팩트 리포트",
+      "meta_description": "우리는 백만 명이 넘는 사람들에게 3억 1천만 분이 넘는 무료 학습을 제공했어요. 임팩트 리포트에서 더 자세히 알아봐요!",
+      "header": {
+        "title": "Exercism 임팩트 리포트",
+        "provided_text_html": "무료 교육을 %{highlight_open}%{count}%{highlight_close}%{highlight_unit_open}분%{highlight_unit_close} 제공했어요.\n",
+        "daily_minutes_provided": "그리고 매일 약 285,340분을 더 제공하고 있어요!",
+        "funding_info": "이 모든 것은 여러분 같은 분들이 후원하는 무료 오픈 소스 프로젝트 덕분이에요."
+      },
+      "stats": {
+        "students": "학생",
+        "exercise_submissions": "연습 문제 제출",
+        "mentoring_discussions": "멘토링 대화"
+      },
+      "languages_taught": "Exercism은 %{first_language}부터 %{last_language}까지 %{num_languages}개의 프로그래밍 언어를 가르쳐요. 학습과 연습, 멘토링을 독특하게 버무린 방식으로요.",
+      "everything_is_free": "Exercism의 모든 것은 100% 무료예요.",
+      "live_activity": "Exercism의 실시간 활동",
+      "testimonials": {
+        "dapritchard_html": "%{twitter_handle} 계정은 정말 대단해요. 제가 제출한 풀이가 테스트를 통과하지 못하고 있었어요… 문제를 바로잡는 데 도움을 받으려고 멘토링을 요청했더니, 15분 만에 누군가 제 오류를 설명해 주는 메시지를 보내 줬어요.",
+        "zippkode_html": "…저는 %{twitter_handle}에서 Ruby 문자열 연습 문제를 풀었어요. 이 플랫폼은 제가 속도를 늦추고 문제를 정말 논리적으로 해결하도록 만들어요…",
+        "alebaffa_html": "저는 %{twitter_handle} 계정을 예전부터 정말 좋아했어요. 언어의 문법뿐만 아니라 개발 환경, 그러니까 테스트 설정과 패키징, 빌드 방법까지 배울 수 있거든요. 정말 훌륭한 자료예요!"
+      },
+      "volunteers_section": {
+        "title": "Exercism은 수많은 멋진 자원봉사자들의 힘으로 운영돼요.",
+        "mentors_label": "멘토",
+        "code_contributors_label": "코드 기여자",
+        "full_time_staff_label": "상근 직원"
+      },
+      "support_section": {
+        "emoji_aria_label": "박수 치는 손",
+        "call_to_action_title": "Exercism이 더 나은 개발자가 되는 데 도움이 되었나요?",
+        "call_to_action_paragraph_one": "Exercism이 커리어 전망에 도움이 되었거나 즐거움을 주었다면, 재정적 후원을 고려해 주세요.",
+        "call_to_action_paragraph_two": "Exercism을 사용하는 사람들 중 단 1%만이 저희를 후원해요. 그 1%가 되어 주세요.",
+        "support_button": "후원 방법 알아보기"
+      },
+      "partners_section": {
+        "title": "이 단체들께 특별한 감사를 전해요…",
+        "donors_sentence_html": "그리고 <a href=\"%{donors_url}\" class=\"underline hover:text-lightBlue\">700명이 넘는 개인 후원자들!</a>\n"
+      },
+      "growth_section": {
+        "title": "우리는 오직 입소문만으로 %{num_users}명이 넘는 학생으로 성장했어요.",
+        "description": "우리는 Exercism이 최고의 모습으로 발전할 방법을 알아내기 위해 커뮤니티와 긴밀하게 협력해요. 커뮤니티는 친구들에게 Exercism을 알려 주는 것으로 우리에게 보답해 주고요."
+      },
+      "mission_cta": {
+        "jeremy_walker_photo_alt": "Jeremy Walker의 사진",
+        "title": "우리 미션의 로켓 연료가 되어 주세요",
+        "description": "우리는 50만 달러도 안 되는 돈으로 이 모든 것을 만들었어요. 더 큰 후원이 있다면 무엇을 할 수 있을지 상상해 봐요! 그 일을 현실로 만들어 줄 사람이 되어 주실래요?",
+        "organization_support_title": "단체로서 Exercism을 후원하는 데 관심이 있나요?",
+        "contact_prefix": "연락하기",
+        "contact_suffix": "공동 창립자 겸 CEO"
+      },
+      "testimonials_section": {
+        "title": "8만 5천 명이 넘는 학생이 멘토에게 감사를 전하는 후기를 남겼어요."
+      }
+    }
+  },
+  "training_data": {
+    "external": {
+      "locked": {
+        "max_reputation_html": "지금까지 트랙에서 얻은 최고 평판은",
+        "no_reputation": "아직 어떤 트랙에서도 평판을 얻지 못했어요.",
+        "how_it_works": "어떻게 동작하나요?",
+        "unlock_info_html": "Training Hub를 사용할 수 있는 기능은 한 트랙에서 <a href=\"%{reputation_link}\" class=\"text-gradient !font-semibold\">평판 %{track_min_reputation}</a>에 도달하면 잠금이 해제돼요"
+      },
+      "index": {
+        "title": "더 똑똑한 Exercism을 만드는 데 힘을 보태주세요",
+        "description": "우리는 머신러닝을 활용해 사람들이 제출한 코드를 Exercism이 더 잘 이해할 수 있도록 돕고 있어요. 여기에는 우리 데이터와 크라우드소싱으로 모은 노력이 함께 쓰여요.",
+        "bonus_reputation": "보너스: 도와주면 평판을 받아요!",
+        "become_trainer": "트레이너가 되어보세요 →",
+        "sign_up_to_help": "가입하고 도와주세요",
+        "log_in": "로그인"
+      }
+    },
+    "header": {
+      "title": "Training Data",
+      "tagging_guides": "태깅 가이드",
+      "tags": "태그"
+    }
+  },
+  "pages": {
+    "index": {
+      "exercises_section": {
+        "features": {
+          "local_title": "내 공간에서 로컬로 코드를 작성해요",
+          "local_description": "Exercism은 기본적으로 CLI 우선 도구로 만들어졌어요. 터미널에서 바로 연습 문제를 내려받고 제출해요.",
+          "editor_title": "Exercism 브라우저 편집기를 사용해요",
+          "editor_description": "언어를 한번 써보려고 로컬에 설치하느라 몇 시간씩 보낼 필요가 없어요. 브라우저 편집기에서 %{num_tracks}개의 프로그래밍 언어를 모두 지원해요.",
+          "analysis_title": "코드에 대한 자동 분석을 받아봐요",
+          "analysis_description": "내가 얼마나 잘했는지 확신이 서지 않나요? 제출한 풀이를 자동으로 분석해서 빠른 피드백과 개선할 점을 알려줘요."
+        },
+        "showcase": {
+          "allergies": {
+            "title": "알레르기",
+            "blurb": "어떤 사람의 알레르기 점수가 주어졌을 때, 특정 항목에 알레르기가 있는지 없는지와 그 사람의 전체 알레르기 목록을 알아내요."
+          },
+          "queen_attack": {
+            "title": "퀸 공격",
+            "blurb": "체스판 위에 놓인 두 퀸의 위치가 주어졌을 때, 서로 공격할 수 있는 위치에 있는지 아닌지를 판별해요"
+          },
+          "zebra_puzzle": {
+            "title": "얼룩말 퍼즐",
+            "blurb": "주민 중 누가 물을 마실까요? 얼룩말은 누구의 것일까요? 코드로 얼룩말 퍼즐을 풀 수 있을까요?"
+          }
+        },
+        "title_html": "<strong>%{count}개 이상의 코딩 연습 문제.</strong> <br> \"알레르기\"부터 \"얼룩말 퍼즐\"까지.",
+        "subtitle": "직접 해보면서 배워요. 개념에 대한 이해를 키워 주는 재미있는 코딩 연습 문제로 프로그래밍 실력을 길러 봐요.",
+        "more_tracks": "+%{count}개 더"
+      },
+      "mentoring_section": {
+        "title_html": "사람 멘토링으로 지식을 더 깊게 쌓아봐요, <strong>무료로.</strong>",
+        "subtitle": "연습 문제에 대해 멘토링을 받으면서 문제에 접근하는 새롭고 흥미로운 방법을 발견해요. 특정 프로그래밍 언어의 관례와 관용구, 그리고 의견에 더 익숙해져요.",
+        "why_mentoring_title": "왜 멘토링일까요?",
+        "features": {
+          "knowledge_gaps_title": "무엇을 모르는지조차 몰라요",
+          "knowledge_gaps_description": "새로운 언어를 배울 때 가장 어려운 점은 내 지식에 어떤 빈틈이 있는지 알아차리지 못한다는 거예요. 멘토는 코드를 보면 익숙하지 않은 개념을 곧바로 알아보고, 새로운 지식을 열어 주면서 한 단계 성장시켜 줘요.",
+          "conventions_title": "언어별 관례를 배워요",
+          "conventions_description": "언어를 유창하게 쓰는 건 그 언어로 코드를 작성할 수 있는 것 이상이에요. 그 언어로 생각할 수 있어야 하죠. 멘토가 생각을 바꿔서 관용적인 코드를 작성할 수 있도록 안내해 줘요.",
+          "learning_fun_title": "다른 사람과 함께 배우면 더 즐거워요",
+          "learning_fun_description": "실제 사람에게 피드백을 받는 건 정말 신나는 학습 방법이에요. 직접 멘토가 되어 피드백을 주는 건 그보다 더 큰 도약이고요. 그러니 이 순환을 완성해 봐요. 멘토링을 받고, 또 멘토가 되어 봐요 🎉"
+        }
+      },
+      "header": {
+        "title_html": "프로그래밍을 <strong>정말</strong> 잘하게 되어 봐요.",
+        "subtitle_html": "학습, 연습, 멘토링이 어우러진 Exercism만의 방식으로 <em>%{num_tracks}개의 프로그래밍 언어</em>를 유창하게 익혀 봐요. Exercism은 재미있고 효과적이며 <strong>영원히 100% 무료예요.</strong>",
+        "signup_button": "무료로 가입하기",
+        "explore_button": "언어 둘러보기",
+        "organisation_description": "는 독립적이고 커뮤니티의 후원으로 운영되는 비영리 단체예요.",
+        "learn_more_link": "더 알아보기"
+      },
+      "tracks_section": {
+        "title_html": "%{num_tracks}개의 프로그래밍 언어를 살펴보고 <br> <strong>유창해져</strong> 봐요",
+        "students_count": {
+          "other": "%{count}명의 학생"
+        },
+        "all_tracks_link": "전체 %{num_tracks}개 언어 트랙 보기"
+      }
+    }
+  },
+  "partners": {
+    "gobridge": {
+      "header": {
+        "title": "공식 Go 멘토링 플랫폼",
+        "subtitle": "Exercism은 GoBridge와 Go Developer Network의 공식 멘토링 플랫폼이에요.",
+        "mentor_button": "Go로 학생을 멘토링하기",
+        "learn_button": "Go 배우고 멘토링 받기"
+      },
+      "mentoring_section": {
+        "heading": "Exercism에서 Go 멘토링",
+        "subheading_sm": "Go로 전환하는 사람들을 도와줘요",
+        "subheading_md": "Go로 전환하는 다른 프로그래머들을 도와줘요",
+        "paragraph_1": "Exercism은 55개가 넘는 프로그래밍 언어를 배우고, 연습하고, 멘토링하는 플랫폼이에요. 비영리이며 100% 무료예요.",
+        "paragraph_2": "학생이 코딩 연습 문제를 완료하면, 자원봉사 멘토가 코드에 대한 피드백을 제공해서 지식의 빈틈을 발견하고 이해를 넓힐 수 있도록 도와줘요.",
+        "paragraph_3_html": "멘토링은 다른 사람이 Go의 힘과 즐거움을 발견하도록 도우면서 자신의 지식도 넓히는 좋은 방법이에요.",
+        "button": "Go 멘토가 되어 봐요",
+        "video_title": "Exercism 멘토가 되어 봐요"
+      },
+      "learning_section": {
+        "heading": "Go에 능숙해져요",
+        "subheading": "Go만의 개념과 관용구를 배우고 멘토링을 받아요",
+        "paragraph_1_html": "Exercism의 Go 트랙에는 배울 수 있는 <em>%{num_concepts}개의 개념</em>과 함께 완료할 <em>%{num_exercises}개의 코딩 연습 문제</em>가 있어요. Go만의 개념과 작업 방식을 익히기에 좋은 방법이에요.",
+        "paragraph_2_html": "게다가 Go 시니어 개발자에게 멘토링을 받아 지식의 빈틈을 발견하고 언어에 대한 깊은 이해를 쌓을 수 있어요.",
+        "button": "Go 트랙 살펴보기"
+      },
+      "contributing_section": {
+        "heading": "되돌려주기",
+        "subheading": "Exercism의 Go에 기여해요",
+        "mentor_box": {
+          "tag": "멘토링.",
+          "title": "Go 학생 멘토링 시작하기"
+        },
+        "build_box": {
+          "tag": "개발.",
+          "title": "Golang에는 작업할 수 있는 %{num_tasks}개의 태스크가 있어요"
+        },
+        "donate_box": {
+          "tag": "후원.",
+          "title": "Go 트랙을 개선할 수 있도록 후원해 주세요"
+        }
+      }
+    },
+    "show": {
+      "header": {
+        "all_perks_link": "Exercism 혜택 모두 보기",
+        "logo_alt": "%{partner_name} 로고"
+      },
+      "lhs": {
+        "support_heading": "%{partner_name}의 Exercism 지원"
+      },
+      "rhs": {
+        "perk_label": "Exercism 혜택",
+        "learn_more_heading": "%{partner_name}에 대해 더 알아볼까요?",
+        "learn_more_paragraph": "%{website_domain}에서 더 알아보고, %{partner_name}의 도움을 어떻게 받을 수 있는지 살펴봐요.",
+        "visit_button": "%{website_domain} 방문하기"
+      }
+    }
+  },
+  "jiki": {
+    "scrolling_testimonials": {
+      "testimonials": {
+        "bootcamp_pure_gold": "“이 부트캠프는 정말 최고예요.”",
+        "wonderful_learning_experience": "“멋진 학습 경험”",
+        "proper_hands_on_learning": "“제대로 된 실습 학습”",
+        "knowledge_didnt_think_needed": "“필요하다고 생각하지 못했던 지식”",
+        "recommended": "“100% 추천해요!”",
+        "so_glad_stumbled": "“이걸 우연히 발견해서 정말 다행이에요”",
+        "great_way_learn": "“배우는 훌륭한 방법이에요!”",
+        "fun_exercises_clear_explanations_cool_hats": "“재미있는 연습 문제, 명확한 설명, 멋진 모자”",
+        "exceptional_course_outstanding": "“뛰어난 강의, 정말 훌륭해요”",
+        "addictive_good_way": "“좋은 의미에서 중독성 있어요”",
+        "amazing_fun": "“엄청 재미있어요”",
+        "fantastic_community": "“훌륭한 커뮤니티”",
+        "zero_coding_experience_required": "“코딩 경험 전혀 필요 없어요”",
+        "fun_inspiring": "“재미있고 영감을 줘요”",
+        "changed_way_think": "“학습에 대한 제 생각이 바뀌었어요”",
+        "rewarding_journey": "“정말 보람찬 여정”",
+        "insane_value": "“엄청난 가성비”",
+        "opportunity_learn_master": "“진짜 고수에게 배울 수 있는 기회”",
+        "amazing_lovely_thing": "“정말 놀랍고 멋진 것이에요”",
+        "best_investment": "“올해 제 자신에게 한 최고의 투자”",
+        "increased_confidence_motivation": "“자신감과 의욕이 엄청나게 높아졌어요”",
+        "supportive_community": "“정말 든든한 커뮤니티예요!”",
+        "even_prior_programmer_transformative": "“이미 프로그래머였던 사람에게도 놀라운 변화를 줘요!”",
+        "challenge_fun": "“도전과 재미의 완벽한 조화”",
+        "amazing_value": "“놀라운 가성비”",
+        "best_time_investment": "“몇 년 만에 최고의 시간 투자”",
+        "incredibly_fun": "“정말 재미있어요!”",
+        "transformative": "“삶이 달라졌어요!”",
+        "will_learn_code": "“코딩을 *반드시* 배우게 될 거예요”",
+        "learning_as_should_be": "“학습, 이래야 하는 거죠!”",
+        "best_course_done": "“내가 해본 최고의 강의”",
+        "made_learning_joy": "“다시 배움을 즐겁게 만들어 줬어요”"
+      }
+    },
+    "testimonials": {
+      "heading": "수강생들은 어떻게 생각할까요?",
+      "subheading_html": "베타 사용자들이 남긴 이야기 중 일부를 발췌했어요. %{link_to_read_more}",
+      "subheading_link": "전체 내용은 여기에서 읽어보세요!",
+      "primary_quote_text": "이 강의에 얼마나 많은 노력과 고민, 그리고 사랑이 담겼는지 보면, 여기서 공부할 수 있다는 게 정말 기뻐요. 모든 설명과 연습 문제 하나하나가 이 강의를 걸작으로 만들어요. 정말 즐겁게 하고 있어요.",
+      "primary_quote_description": "코딩 초보"
+    }
+  },
+  "journey": {
+    "hero": {
+      "privacy": {
+        "private": "비공개",
+        "explanation": "본인 외에는 아무도 볼 수 없어요"
+      },
+      "title": "나의 여정",
+      "subtitle": "Exercism에서 보낸 시간을 살펴봐요",
+      "more_tracks": "+ %{count}개 더"
+    }
+  },
+  "community": {
+    "interviews": {
+      "index": {
+        "language_creators": {
+          "title": "언어 창시자 인터뷰",
+          "description": "제러미가 여러분이 좋아하는 언어의 창시자, 관리자와 이야기를 나누는 자리에 함께해요."
+        },
+        "community_stories": {
+          "title": "커뮤니티 이야기",
+          "description": "조너선이 커뮤니티와 이야기를 나누며 프로그래머로서의 이야기와 여정을 들여다보는 자리에 함께해요."
+        },
+        "header": {
+          "title": "커뮤니티 인터뷰와 이야기",
+          "description_p1": "Exercism에서는 사람들이 어떻게 생각하고, 그것이 코딩 방식에 어떤 영향을 미치는지 알아보는 것을 정말 좋아해요. Jeremy와 함께 언어 창시자들의 여정을, Jonathan과 함께 저희 커뮤니티의 여정을 살펴봐요. 앞으로의 영상에 함께하고 싶다면,",
+          "get_in_touch_link": "연락해 주세요"
+        },
+        "subscribe_card": {
+          "title": "더 많은 콘텐츠 구독하기",
+          "description": "앞으로 올라올 에피소드를 놓치지 마세요. YouTube와 Spotify에서 구독해요.",
+          "community_stories_youtube": "커뮤니티 이야기 (YouTube)",
+          "language_creator_youtube": "언어 창시자 인터뷰 (YouTube)",
+          "podcast_spotify": "팟캐스트 (Spotify)"
+        }
+      }
+    },
+    "show": {
+      "main_section": {
+        "title": "커뮤니티에 참여해요!",
+        "description_one": "Exercism 커뮤니티와 함께 학습 속도를 높여봐요. 질문을 하고, 아이디어를 나누고, Exercism에서 실력을 키우는 수많은 다른 개발자들을 만나봐요.",
+        "description_two": "가벼운 대화와 지원을 받으려면 Discord에 참여해요. 더 깊은 논의와 버그 제보는 포럼을 이용해요.",
+        "discord_button": "Discord 서버 참여하기",
+        "forum_button": "포럼 둘러보기",
+        "recent_forum_topics": "최근 포럼 주제",
+        "latest_post_by": "최근 게시글 작성자: %{poster_username}"
+      },
+      "community_stories": {
+        "title": "커뮤니티의 이야기를 들어봐요",
+        "description": "Exercism을 만들고, 기여하고, 배운 사람들의 이야기를 들어봐요."
+      },
+      "help_us": {
+        "title": "삶을 바꾸는 일에 함께해요",
+        "description_one": "Exercism은 커뮤니티의 참여와 후원으로 운영돼요. 여러분과 같은 분들의 기부가 있어야 존재하고 성장할 수 있어요.",
+        "description_two": "단 1%의 사람들만이 저희를 후원하기로 선택해요. 그중 한 사람이 되어주세요.",
+        "button": "도울 수 있는 방법 알아보기"
+      },
+      "contributors": {
+        "title": "기여자"
+      }
+    },
+    "stories": {
+      "show": {
+        "back_to_community": "커뮤니티로 돌아가기",
+        "watch_on_youtube": "Youtube에서 시청하기",
+        "more_stories": {
+          "title": "커뮤니티의 더 많은 이야기",
+          "description": "커뮤니티 멤버들의 이야기를 듣고 배우며 영감을 받아봐요."
+        }
+      },
+      "index": {
+        "title": "커뮤니티의 이야기를 들어봐요",
+        "description": "Exercism을 만들고, 기여하고, 배운 사람들의 이야기를 들어봐요."
+      }
+    },
+    "videos": {
+      "rhs": {
+        "live_event": {
+          "status": "지금 생방송 중"
+        },
+        "watch_on_one_html": "%{twitch_link}에서 시청하기",
+        "watch_on_both_html": "%{twitch_link} 또는 %{youtube_link}에서 시청하기",
+        "featured_event": {
+          "status": "곧 시작",
+          "live_at": "생방송 시작",
+          "save_date": "일정을 꼭 저장해두세요!"
+        },
+        "scheduled_events": {
+          "title": "다가오는 방송 일정",
+          "description_one": "이 일정은 정기적으로 업데이트돼요. 모든 이벤트는 다음 채널에서 생방송돼요:",
+          "twitch_channel": "Twitch 채널",
+          "description_two": "구독하고 놓치지 마세요!",
+          "description_three": "모든 시간은 UTC 기준이에요."
+        }
+      }
+    },
+    "brief_introductions": {
+      "index": {
+        "title": "간단 소개 시리즈",
+        "description_one": "저희의 \"간단 소개\" 시리즈로 새로운 언어를 만나봐요. Erik과 함께 언어의 역사와 기본 원리를 살펴보고, 그 언어로 연습 문제를 하나 풀어봐요.",
+        "description_two": "오른쪽에서 Erik의 최신 영상을 확인하거나, 아래에서 전체 시리즈를 살펴봐요."
+      }
+    }
+  },
+  "donations": {
+    "alternatives": {
+      "jeremy": "Jeremy",
+      "paypal_button": "Paypal로 기부하기",
+      "github_sponsors_button": "GitHub Sponsors를 통해 기부하기",
+      "heading": "다른 결제 서비스 제공자를 찾고 있나요?",
+      "text_html": "현재 대체 결제 서비스 제공자로 Paypal과 GitHub Sponsors를 지원하고 있어요. 추가했으면 하는 다른 제공자가 있다면 <a href=\"%{jeremy_url}\">Jeremy</a>에게 연락해 주세요.\n"
+    },
+    "donated": {
+      "title": "기부가 완료됐어요",
+      "thank_you_message_html": "저희 활동을 후원해 주셔서 정말 감사해요! 보내주신 기부금은 저희가 Exercism을 계속 발전시키고 모두에게 무료로 제공하는 데 큰 힘이 돼요.",
+      "insiders_eligibility_html": "기부 금액이 $9.99를 넘었다면 %{link_to_insiders} 자격이 주어졌어요.",
+      "exercism_insiders": "Exercism Insiders",
+      "go_to_dashboard": "대시보드로 이동"
+    },
+    "index": {
+      "header": {
+        "strong_text": "저희 목표를 함께해 주세요:",
+        "heading": "모두에게 프로그래밍을 배우고 익힐 수 있는 평등한 기회를 주세요. ✨",
+        "paragraph_html": "더 나은 &amp; 더 공정한 세상을 만들고 싶은 저희의 바람에 공감하신다면 후원해 주세요.<br><span class=\"font-medium\">저희의 %{mission_link}, %{impact_link}, %{team_link}에 대해 더 자세히 알아볼 수 있어요.</span>",
+        "mission": "미션",
+        "impact": "임팩트",
+        "team": "팀"
+      },
+      "progress_bar": {
+        "monthly_donations": "월 기부금:",
+        "sustainable_at": "지속 가능 기준:",
+        "target_amount": "$25,000"
+      },
+      "logged_out_form": {
+        "heading": "직불카드나 신용카드로 기부하려면 로그인해 주세요.",
+        "paragraph_html": "봇의 지속적인 공격 때문에 이제는 직불카드나 신용카드로 기부하기 전에 모든 분이 %{login_link} 또는 %{signup_link}을 해야 해요. 아래에서 다른 방법으로도 기부하실 수 있어요. 불편을 드려 죄송해요!",
+        "log_in": "로그인",
+        "sign_up": "가입"
+      },
+      "info_section": {
+        "heading_one": "기부에 대해 알아야 할 모든 것",
+        "paragraph_one": "왜 기부가 필요할까요? Exercism을 운영하는 데는 얼마가 들까요? 기부금은 어떻게 사용할까요? Jeremy의 설명 영상을 확인해 보세요 👇",
+        "heading_two": "저희를 후원할 수 있는 방법은 다음과 같아요.",
+        "donate_card": {
+          "title": "기부하기",
+          "description_right_html": "오른쪽 기부 박스를 통해 저희를 재정적으로 후원해 주세요. %{tail}\n",
+          "description_above_html": "위쪽 기부 박스를 통해 저희를 재정적으로 후원해 주세요. %{tail}\n",
+          "tail_html": "1달러 하나하나가 저희가 독립적이고 광고 없이 성장할 수 있도록 도와줘요. 힘이 닿는다면 꼭 후원해 주세요! 💜\n"
+        },
+        "company_card": {
+          "title": "회사의 참여를 이끌어내 보세요",
+          "description_html": "회사가 비영리 단체나 자선 단체를 지원하나요? 직장에 매칭 기부 제도가 있나요? 회사가 저희를 어떻게 후원할 수 있을지 함께 이야기 나누고 싶어요. %{email_link}으로 이메일을 보내주시면 더 자세히 알아볼게요!",
+          "email_address": "fundraising@exercism.org"
+        },
+        "social_card": {
+          "title": "Exercism이 좋으신가요? 주변에 알려주세요!",
+          "description_html": "%{twitter_link}, %{github_link}, %{linkedin_link}에서 저희를 팔로우한 뒤 게시물을 공유하고, 직접 만들어 보세요! 저희가 보는 모든 것을 공유하려고 노력하고 있어요 🙂"
+        }
+      }
+    }
+  },
+  "mentoring": {
+    "external": {
+      "show": {
+        "challenge_knowledge_heading": "지식에 도전해 봐요",
+        "challenge_knowledge_description": "가르치는 일은 자신의 지식을 더 단단하게 만들고, 약한 부분을 발견하고, 미처 생각하지 못했던 참신한 아이디어를 만날 수 있는 가장 좋은 방법 중 하나예요.",
+        "provide_opportunity_heading": "다른 사람에게 기회를 제공해요",
+        "provide_opportunity_description": "멘토는 학생의 학습에 엄청난 영향을 미치고, 실력을 빠르게 끌어올려 줄 수 있어요. 다른 사람의 인생에서 변화를 만드는 촉매가 되어 봐요.",
+        "develop_soft_skills_heading": "\"소프트 스킬\"을 키워 봐요",
+        "develop_soft_skills_description": "의사소통 능력이나 피드백을 받아들이는 힘 같은 소프트 스킬은 어떤 분야에서든, 어떤 직업에서든 성장하는 데 가장 중요해요.",
+        "share_knowledge_heading": "다른 사람과 지식을 나눠요",
+        "share_knowledge_description": "멘토링은 자신의 학습을 탄탄하게 다지는 재미있고 보람찬 방법이에요. 동시에 다른 사람이 배우고 자신도 몰랐던 것을 발견하도록 도와줘요.",
+        "earns_reputation": "멘토링을 하면 평판도 쌓여요.",
+        "unsure_mentor": "멘토링을 잘할 수 있을지 걱정되나요? 최고의 멘토들도 똑같이 걱정했어요.",
+        "signup_button": "가입하고 멘토링 체험하기",
+        "login_button": "로그인",
+        "video_title": "Exercism 멘토 되기",
+        "why_mentor_heading": "왜 멘토가 되어야 할까요?"
+      },
+      "locked": {
+        "current_reputation": "현재 평판은",
+        "how_it_works": "어떻게 작동하나요?",
+        "unlock_reputation_html": "멘토링 자격은 <a href=\"%{reputation_url}\" class=\"text-gradient !font-semibold\">평판 %{reputation}</a>부터 열려요"
+      }
+    },
+    "external_requests": {
+      "exercise_tag": {
+        "track_title_html": "%{track_title} 트랙에서"
+      },
+      "show_logged_out": {
+        "heading": "%{user_handle}님을 멘토링하고 싶나요?",
+        "description": "Exercism에서는 다른 사람을 멘토링하고, 그들이 코드를 더 좋게 만들도록 도울 수 있어요.",
+        "signup_button": "무료로 가입하기",
+        "login_button": "로그인",
+        "registration_note": "가입을 마친 뒤에는 이 링크로 다시 돌아와야 할 수도 있어요."
+      },
+      "show": {
+        "heading": "%{user_handle}님을 멘토링하고 싶나요?",
+        "description": "%{user_handle}님이 자신의 풀이를 멘토링해 달라며 비공개 초대를 보냈어요.",
+        "accept_button": "초대 수락하기",
+        "decline_button": "거절"
+      },
+      "show_not_mentor": {
+        "heading": "%{user_handle}님을 멘토링하고 싶나요?",
+        "description": "시작하려면 먼저 멘토로 등록해야 해요.",
+        "register_mentor_button": "멘토로 등록하기",
+        "learn_more_button": "더 알아보기"
+      }
+    },
+    "requests": {
+      "unavailable": {
+        "unavailable": "죄송해요, 이 멘토링 세션은 더 이상 이용할 수 없어요",
+        "back_to_list": "목록으로 돌아가기"
+      }
+    },
+    "automation": {
+      "tooltip_locked": {
+        "requirements_html": "트랙에서 멘토링 세션을 <strong>%{min_finished_mentoring_sessions}</strong>회 완료하고 전체 만족도 평점 %{min_satisfaction_percentage}%%를 받아야 해요 (현재 %{satisfaction_percentage}%%)",
+        "finished_sessions_info": {
+          "other": "%{count}/%{min} %{track_title}"
+        },
+        "what_is_automation_heading": "자동화란 무엇인가요?",
+        "automation_description": "자동화를 이용하면 코드 제출물에 표준화된 답변을 남길 수 있어요. 이 답변은 풀이에 대한 자동 피드백의 일부로 공유돼요.",
+        "find_out_more_button": "자동화에 대해 더 알아보기"
+      }
+    }
+  },
+  "blog_posts": {
+    "index": {
+      "rss": {
+        "description": "Exercism의 변화를 계속 지켜보고, 커뮤니티를 알아가고, 앞으로 나올 새로운 기능들도 확인해 봐요!",
+        "title": "Exercism 블로그"
+      },
+      "header": {
+        "title": "커뮤니티 블로그",
+        "description_prefix": "동영상과 글을 만나 보세요:",
+        "description_link": "Exercism 커뮤니티"
+      },
+      "highlighted_post": {
+        "view_more": "더 보기",
+        "read_more": "더 읽기"
+      },
+      "other_posts": {
+        "title": "커뮤니티의 더 많은 글"
+      }
+    },
+    "info_bar": {
+      "time_ago": "%{time_ago_value} 전",
+      "video_label": "동영상"
+    },
+    "show": {
+      "share_bar": {
+        "useful_short_question": "이 글이 유용했나요?",
+        "useful_short_prompt": "주변에 공유해 주세요!",
+        "useful_long_question": "이 글이 흥미롭거나 유용했나요?",
+        "useful_long_prompt": "주변에 공유해서 다른 사람들도 도움을 받도록 해요!"
+      },
+      "content": {
+        "useful_cta": "유용했나요?"
+      },
+      "byline": {
+        "published_by": "게시자"
+      },
+      "other_posts": {
+        "more_from_blog": "블로그에서 더 보기",
+        "community_posts": "커뮤니티의 다른 글",
+        "view_all": "커뮤니티 블로그 글 모두 보기"
+      }
+    }
+  },
+  "cohorts": {
+    "show": {
+      "closed_for_applications": "이 코호트는 이제 시작했고 신청이 마감됐어요.",
+      "gohort_aug_22": {
+        "intro_cohort": "%{cohort_name} 코호트를 소개해요",
+        "gohort_intro": "몇 명의 열정적인 학습자가 서로를 격려하고 도우며 함께 배움의 여정을 걸어가면 어떤 일이 일어날까요? 그 답을 찾기 위해 우리는 Gohort를 만들었어요! (Go cohort, 눈치챘나요? 😉)",
+        "tell_me_more": "더 알려주세요!",
+        "what_is_gohort": "Gohort는 무엇일까요?",
+        "gohort_description": "Gohort는 간단해요. 여러분과 여러 다른 학습자가 함께 배울 수 있는 공간을 만들어 주고, 우리의 최고 멘토들과 Exercism 전문가들을 더해, 30일 동안 Exercism Go 실러버스를 함께 공부하는 여러분을 응원해요.",
+        "free_access": "100% 무료",
+        "start_date": "8월 8일에 시작해요. 30일 동안 진행돼요.",
+        "own_time": "자기만의 속도로 트랙을 진행해요",
+        "pair_or_individual": "서로 짝을 이뤄도 좋고, 혼자서 진행해도 좋아요",
+        "commit_sharing": "자신의 여정을 공유하고 다른 사람을 돕기로 다짐해요",
+        "notes_programming_experience": "참고: 어느 정도 프로그래밍 경험이 필요해요(어떤 언어로든 \"Hello World\"를 작성할 수 있다면 충분해요).",
+        "sign_up_below": "아래에서 신청해요!",
+        "gain_fluency": "Go에 능숙해져요",
+        "taste_of_what_youll_learn": "앞으로 배울 내용을 미리 맛볼 수 있어요!",
+        "track_description": "Exercism의 Go 트랙에는 배울 수 있는 %{num_concepts}개의 개념과 함께, 완료해야 할 %{num_exercises}개의 코딩 연습 문제가 있어요. Go만의 개념과 작업 방식을 익히기에 아주 좋은 방법이에요.",
+        "mentoring_benefit": "게다가 시니어 Go 개발자에게 멘토링을 받아 지식의 빈틈을 발견하고, 언어에 대한 깊은 이해를 쌓을 수 있어요.",
+        "explore_track": "Go 트랙 둘러보기"
+      },
+      "form": {
+        "get_registered": "등록해요!",
+        "sign_up_to_cohort": "%{cohort_name} 코호트 신청하기",
+        "login_or_signup_message": "%{cohort_name} 코호트에 등록하려면 로그인하거나 Exercism에 가입한 뒤, 이 페이지로 다시 돌아와 주세요.",
+        "signup_button": "무료로 가입하기",
+        "login_button": "로그인",
+        "you_are_all_set": "모든 준비가 끝났어요!",
+        "enrolled_message": "축하해요, 준비가 모두 끝났어요! 곧 우리 팀에서 %{cohort_name} 코호트에 오신 것을 환영하고, 시작하는 방법을 알려드리는 이메일을 보내드릴게요!",
+        "you_are_on_waiting_list": "대기자 명단에 올랐어요",
+        "waiting_list_message": "죄송해요, %{cohort_name} 코호트가 오시기 전에 정원이 다 찼어요! 지금 대기자 명단에서 %{position}번째 순서예요. 자리가 나면 알려드릴게요. 그렇지 않으면 올해 후반에 다음 %{cohort_name} 코호트에 대해 안내해 드릴게요.",
+        "registration_easy": "%{cohort_name} 코호트 등록은 간단해요. 아래 양식을 작성하기만 하면 돼요.",
+        "introduce_yourself_label": "자기소개",
+        "introduction_placeholder": "커뮤니티 팀에게 자신에 대해 간단히 소개하고, %{cohort_name} 코호트 참여를 통해 무엇을 얻고 싶은지 알려주세요.",
+        "commit_to_participating": "%{cohort_name} 코호트에 적극적으로 참여할 것을 약속해요.",
+        "register_button": "등록하기"
+      },
+      "gohort": {
+        "intro_cohort": "%{cohort_name} 코호트를 소개해요",
+        "gohort_intro_large": "100명의 열정적인 학습자가 서로를 격려하고 도우며 함께 배움의 여정을 걸어가면 어떤 일이 일어날까요? 그 답을 찾기 위해 우리는 %{cohort_name} 코호트를 만들었어요! (Go cohort, 눈치챘나요? 😉)",
+        "tell_me_more": "더 알려주세요!",
+        "what_is_gohort": "%{cohort_name} 코호트는 무엇일까요?",
+        "gohort_description_large": "%{cohort_name} 코호트는 간단해요. 여러분과 99명의 다른 학습자에게 함께 배울 수 있는 공간을 만들어 주고, 우리의 최고 멘토들과 Exercism 전문가들을 더해, 30일 동안 Exercism Go 실러버스를 함께 공부하는 여러분을 응원해요.",
+        "free_access": "100% 무료",
+        "start_date_july": "7월 1일에 시작해요. 30일 동안 진행돼요.",
+        "own_time": "원하는 시간에 자신만의 속도로 트랙을 학습해요",
+        "pair_or_individual": "서로 짝을 이뤄 하거나 각자 학습해요",
+        "commit_sharing": "자신의 여정을 공유하고 다른 사람을 응원하기로 약속해요",
+        "notes_programming_experience": "참고: 어느 정도 프로그래밍 경험이 필요해요 (어떤 언어로든 \"Hello World\"를 작성할 수 있다면 충분해요).",
+        "sign_up_below": "아래에서 신청해요!",
+        "gain_fluency": "Go에 능숙해지기",
+        "taste_of_what_youll_learn": "배우게 될 내용을 미리 맛볼 수 있어요!",
+        "track_description": "Exercism의 Go 트랙에는 배울 수 있는 개념이 %{num_concepts}개 있고, 완료해야 할 코딩 연습 문제가 %{num_exercises}개 있어요. Go만의 개념과 작업 방식을 익히기에 아주 좋은 방법이에요.",
+        "mentoring_benefit": "게다가 시니어 Go 개발자에게 멘토링을 받아 지식의 빈틈을 발견하고 언어를 깊이 이해할 수 있어요.",
+        "explore_track": "Go 트랙 살펴보기"
+      },
+      "exhort_aug_22": {
+        "intro_cohort": "%{cohort_name} 여러분을 소개해요",
+        "exhort_intro": "몇 명의 열의 있는 학습자가 서로 격려하고 도우며 배움의 여정을 함께 걸어가면 어떤 일이 벌어질까요? 그 답을 찾기 위해 저희가 Exhort를 만들었어요! (\"Elixir cohort\", 눈치채셨나요? 😉)",
+        "tell_me_more": "더 알아보기",
+        "what_is_exhort": "Exhort란 무엇일까요?",
+        "exhort_description": "Exhort는 단순해요. 여러분과 여러 학습자에게 함께 배울 수 있는 공간을 마련해 드리고, 저희 최고의 멘토들과 Exercism 전문가들을 함께 투입해, 30일 동안 Exercism Elixir 실라버스를 함께 공부하도록 응원해 드려요.",
+        "free_access": "100% 무료",
+        "start_date": "8월 8일에 시작해요. 30일 동안 진행돼요.",
+        "own_time": "원하는 시간에 자신만의 속도로 트랙을 학습해요",
+        "pair_or_individual": "서로 짝을 이뤄 하거나 각자 학습해요",
+        "commit_sharing": "자신의 여정을 공유하고 다른 사람을 응원하기로 약속해요",
+        "notes_programming_experience": "참고: 어느 정도 프로그래밍 경험이 필요해요 (어떤 언어로든 \"Hello World\"를 작성할 수 있다면 충분해요).",
+        "sign_up_below": "아래에서 신청해요!",
+        "gain_fluency_elixir": "Elixir에 능숙해지기",
+        "taste_of_what_youll_learn": "배우게 될 내용을 미리 맛볼 수 있어요!",
+        "elixir_track_description": "Exercism의 Elixir 트랙에는 배울 수 있는 개념이 %{num_concepts}개 있고, 완료해야 할 코딩 연습 문제가 %{num_exercises}개 있어요. Elixir만의 개념과 작업 방식을 익히기에 아주 좋은 방법이에요.",
+        "mentoring_benefit_elixir": "게다가 시니어 Elixir 개발자에게 멘토링을 받아 지식의 빈틈을 발견하고 언어를 깊이 이해할 수 있어요.",
+        "explore_elixir_track": "Elixir 트랙 살펴보기"
+      }
+    }
+  },
+  "favorites": {
+    "index": {
+      "heading": "내 즐겨찾기",
+      "intro_html": "Exercism을 쓰다가 마음에 드는 풀이에 별을 눌러 표시해 두고, 언제든 여기로 돌아와 그 풀이에서 배워봐요. 어떤 풀이가 %{highlight}",
+      "intro_highlight": "마음을 사로잡거나, 영감을 주거나, 흥미를 불러일으키나요?",
+      "insider_benefit_html": "즐겨찾기는 %{insiders_link} 멤버십 혜택 중 하나예요.",
+      "insiders_link_text": "Exercism Insiders",
+      "upgrade_prompt_html": "%{insiders_link}로 즐겨찾기 기능을 모두 이용해 봐요. %{upgrade_link}하면 즐겨찾기를 10개 넘게 저장하고 검색과 필터링도 쓸 수 있어요!",
+      "upgrade_link_text": "계정을 업그레이드"
+    }
+  },
+  "generic_exercises": {
+    "approaches": {
+      "meta_title": "Exercism에서 %{ps_data_title} 문제를 푸는 다양한 접근법 살펴보기",
+      "meta_description": "Exercism에서 %{ps_data_title} 문제를 푸는 다양한 접근법을 살펴봐요.",
+      "title": "%{exercise_title} 접근법",
+      "back_to_exercise": "← 연습 문제로 돌아가기"
+    },
+    "show": {
+      "meta_title": "Exercism에서 %{ps_data_title} 문제 풀기",
+      "meta_description": "Exercism에서 %{ps_data_title} 문제를 풀 수 있나요? 세계 최고 수준의 멘토 팀의 도움을 받으며 프로그래밍과 문제 해결 실력을 키워봐요.",
+      "deep_dive_section": {
+        "title": "%{exercise_title} 깊이 파고들기!"
+      },
+      "instructions_section": {
+        "title": "지시 사항",
+        "intro_video_text": "시작하려면 \"Hello, World 입문\" 영상을 봐요 👇"
+      },
+      "source_section": {
+        "title": "출처",
+        "explore_source_html": "<a href=\"%{source_url}\" target=\"_blank\" rel=\"noopener noreferrer\">이 연습 문제의 출처</a>를 살펴봐요.\n"
+      },
+      "featured_in_2024_section": {
+        "challenge_title": "#48in24 챌린지에 포함",
+        "challenge_text_html": "%{exercise_title} 문제가 %{challenge_link}의 일부로 소개되었어요. %{languages}에서 풀면 금상을 받을 수 있어요.",
+        "challenge_link_text": "#48in24 챌린지"
+      },
+      "track_variants_section": {
+        "title": "%{exercise_title} 문제를 %{size}개의 다른 언어로 풀어봐요…",
+        "completed_languages": {
+          "other": "지금까지 %{count}개의 언어로 완료했어요."
+        },
+        "not_yet_completed": "아직 어떤 언어로도 완료하지 않았어요."
+      }
+    }
+  },
+  "helpers": {
+    "links": {
+      "opens_in_new_window": "링크가 새 창이나 탭에서 열려요"
+    },
+    "meta_tags": {
+      "default_description": "50개 이상의 언어로 배우고 연습하고 세계 최고 수준의 멘토링을 받아봐요. 100% 무료예요.",
+      "track": {
+        "title": "Exercism의 %{track_title}",
+        "description": "%{num_exercises}개의 연습 문제를 풀면서 %{track_title}에 능숙해져 봐요. 그다음에는 세계 최고 수준의 팀에게 멘토링을 받으며 한 단계 더 성장해요."
+      },
+      "concept": {
+        "title": "Exercism %{track_title}의 %{concept_name}",
+        "description": "%{num_exercises}개의 연습 문제를 풀면서 %{track_title}에서 %{concept_name} 개념을 완벽히 익혀봐요. 세계 최고 수준의 팀이 도와드려요."
+      },
+      "exercise": {
+        "title": "Exercism %{track_title}의 %{exercise_title}",
+        "description": "%{track_title}에서 %{exercise_title} 문제를 풀 수 있나요? 세계 최고 수준의 멘토 팀의 도움을 받으며 %{track_title} 실력을 키워봐요."
+      }
+    }
+  },
+  "images": {
+    "profile": {
+      "badge_icon_alt": "배지: %{badge_name}",
+      "founder_title": "Exercism 창립자"
+    },
+    "solution": {
+      "solution_by_handle": "%{handle}님의",
+      "solution_to": "풀이:",
+      "solution_on_exercism_track": "Exercism의",
+      "solution_track_title": "%{track_title} 트랙."
+    }
+  },
+  "notifications": {
+    "student_finished_discussion": {
+      "1": "%{student_name} 님이 멘토링하고 있는 %{track_title}:%{exercise_title} 풀이에 대한 토론을 마쳤어요.\n"
+    },
+    "mentor_finished_discussion": {
+      "1": "%{mentor_name} 님이 %{track_title}:%{exercise_title} 풀이에 대한 토론을 마쳤어요.\n"
+    },
+    "nudge_student_to_reply_in_discussion": {
+      "1": "<strong>%{mentor_name}</strong> 님이 <strong>%{track_title}</strong>의 <strong>%{exercise_title}</strong> 풀이에 대한 토론에서 답변을 기다리고 있어요.\n"
+    },
+    "nudge_mentor_to_reply_in_discussion": {
+      "1": "<strong>%{student_name}</strong> 님이 <strong>%{track_title}</strong>의 <strong>%{exercise_title}</strong> 풀이에 대한 토론에서 답변을 기다리고 있어요.\n"
+    },
+    "mentor_timed_out_discussion_mentor": {
+      "1": "<strong>%{student_name}</strong> 님의 <strong>%{track_title}</strong> <strong>%{exercise_title}</strong> 풀이에 대한 멘토링 세션이 시간 초과되었어요.\n"
+    },
+    "mentor_timed_out_discussion_student": {
+      "1": "<strong>%{track_title}</strong>의 <strong>%{exercise_title}</strong> 풀이에 대한 토론이 시간 초과되었어요.\n"
+    },
+    "student_timed_out_discussion_mentor": {
+      "1": "<strong>%{student_name}</strong> 님의 <strong>%{track_title}</strong> <strong>%{exercise_title}</strong> 풀이에 대한 멘토링 세션이 시간 초과되었어요.\n"
+    },
+    "student_timed_out_discussion_student": {
+      "1": "<strong>%{track_title}</strong>의 <strong>%{exercise_title}</strong> 풀이에 대한 토론이 시간 초과되었어요.\n"
+    },
+    "eligible_for_insiders": {
+      "1": "Exercism Insiders에 가입해요!\n"
+    },
+    "eligible_for_lifetime_insiders": {
+      "1": "Exercism Lifetime Insiders에 가입해요!\n"
+    },
+    "expired_insiders": {
+      "1": "Exercism Insiders 멤버십이 만료되었어요.\n"
+    },
+    "upgraded_to_lifetime_insiders": {
+      "1": "Exercism Lifetime Insiders으로 업그레이드되었어요!\n"
+    },
+    "acquired_trophy": {
+      "1": "%{track_title} 트랙에서 %{trophy_name} 트로피를 받았어요.\n"
+    },
+    "expired_premium": {
+      "1": "Exercism Premium 멤버십이 만료되었어요.\n"
+    },
+    "mentor_started_discussion": {
+      "1": "<strong>%{mentor_name}</strong> 님이 <strong>%{track_title}</strong>의 <strong>%{exercise_title}</strong> 풀이에 대한 멘토링을 시작했어요\n"
+    },
+    "mentor_replied_to_discussion": {
+      "1": "<strong>%{mentor_name}</strong> 님이 <strong>%{track_title}</strong>의 <strong>%{exercise_title}</strong> 풀이에 새 댓글을 남겼어요\n"
+    },
+    "student_replied_to_discussion": {
+      "1": "<strong>%{student_name}</strong> 님이 멘토링하고 있는 <strong>%{track_title}</strong>의 <strong>%{exercise_title}</strong> 풀이에 새 댓글을 남겼어요\n"
+    },
+    "student_added_iteration": {
+      "1": "학생인 <strong>%{student_name}</strong> 님이 <strong>%{track_title}</strong>의 <strong>%{exercise_title}</strong> 풀이에 새 이터레이션(#%{iteration_idx})을 제출했어요\n"
+    },
+    "added_to_contributors_page": {
+      "1": "이제 기여자 페이지에 표시되었어요. Exercism에 기여해 주셔서 감사해요!\n"
+    },
+    "automated_feedback_added": {
+      "1": "<strong>%{track_title}</strong>의 <strong>%{exercise_title}</strong> 풀이에 대한 이터레이션(#%{iteration_idx})에 새 피드백이 추가되었어요. %{emphasis}한번 확인해 보시길 권해요.\n"
+    },
+    "onboarding_community": {
+      "1": "Exercism의 중심에는 커뮤니티가 있어요. 포럼과 Discord 서버에 참여하고, YouTube와 Twitch 채널을 즐기고, 멘토링도 받아봐요. 더 알아보기…\n"
+    },
+    "onboarding_insiders": {
+      "1": "Exercism Insiders는 IT 분야에서 평등한 기회를 만든다는 우리의 미션을 지지하는 모든 분을 위한 보상 프로그램이에요. Insiders 페이지에서 더 알아봐요.\n"
+    },
+    "nudge_to_request_mentoring": {
+      "1": "<strong>이제 멘토링을 받아볼 시간이에요!</strong> 멘토와 함께 공부하는 것은 지식을 한 단계 끌어올리는 멋진 방법이고, 100% 무료예요. 시작할 풀이를 하나 골라 봐요.\n"
+    }
+  },
+  "exercises": {
+    "documents": {
+      "welcome": "Exercism의 %{track_title} 트랙에 있는 %{exercise_title}에 오신 것을 환영해요.",
+      "help_reference": "테스트를 실행하거나 코드를 제출하는 데 도움이 필요하면 `HELP.md`를 확인해 봐요.",
+      "hints_reference": "연습 문제를 풀다가 막히면 `HINTS.md`를 확인해 봐요. 그래도 먼저 그 내용 없이 풀어보도록 해요 :)",
+      "tests_header": "테스트 실행하기",
+      "submitting_solution_header": "풀이 제출하기",
+      "submitting_solution": "`exercism submit %{solution_file_paths}` 명령어로 풀이를 제출할 수 있어요.\n이 명령어는 풀이를 Exercism 웹사이트에 업로드하고 풀이 페이지의 URL을 출력해요.\n\n완성되지 않은 풀이도 제출할 수 있는데, 그러면 다음과 같은 것들이 가능해요:\n\n- 다른 사람들이 이 연습 문제를 어떻게 완성했는지 볼 수 있어요\n- 멘토에게 도움을 요청할 수 있어요",
+      "help_header": "도움이 필요하세요?",
+      "help_intro": "연습 문제를 푸는 데 도움이 필요하면 다음 페이지를 확인해 봐요:",
+      "help_check_pages": "그래도 충분하지 않다면 다음 페이지를 확인해 봐요:",
+      "help_pages": "- [%{track_title} 트랙 문서](https://exercism.org/docs/tracks/%{track_slug})\n- [포럼의 %{track_title} 트랙 프로그래밍 카테고리](https://forum.exercism.org/c/programming/%{track_slug})\n- [포럼의 Exercism 프로그래밍 카테고리](https://forum.exercism.org/c/programming/5)\n- [자주 묻는 질문](https://exercism.org/docs/using/faqs)",
+      "help_submit_incomplete": "그래도 충분하지 않다면 (완성되지 않은) 풀이를 제출해서 멘토링을 요청할 수 있어요."
+    }
+  },
+  "insiders": {
+    "external": {
+      "insiders_title": "Exercism Insiders",
+      "hero_subtitle_html": "<strong>Exercism에 후원하고</strong> <span class=\"underline\">보너스 기능</span>과 <span class=\"underline\">비하인드 콘텐츠</span>를 받아보세요.",
+      "donations_message_html": "저희가 계속 운영되고 &amp; 성장하려면 <strong>여러분 같은 분들</strong>의 후원이 필요해요! Insiders는 저희를 응원해 주시는 분들께 감사드리는 방법이에요!",
+      "features_summary_html": "Exercism에 후원하면 비하인드 콘텐츠 열람, <strong>다크 모드,</strong> 전용 배지, <strong>고급 GitHub Sync와 즐겨찾기,</strong> ChatGPT 연동, <strong>추가 멘토링 슬롯,</strong> 비공개 Discord 채널, <strong>광고 없는 환경,</strong> 그리고 더 많은 혜택을 누릴 수 있어요 🎉",
+      "non_profit_info": "Exercism은 소규모 팀이 운영하는 독립적인 비영리 단체예요(영국 등록 번호 #11733062). 모든 후원금은 플랫폼을 운영하고 개선하는 데 쓰여요.",
+      "benefits_heading": "Insider 혜택",
+      "benefits_tagline": "저희를 응원해 주신 분들께 감사를 전하는 몇 가지 방법을 소개해요.",
+      "exclusive_content_heading": "Insiders 전용 콘텐츠",
+      "exclusive_content_tagline": "Insiders에 참여하면 Exercism이 성장하고 발전하는 과정을 담은 비하인드 콘텐츠를 볼 수 있어요.",
+      "support_exercism_heading": "Exercism 후원에 함께해 주세요",
+      "donations_needed_html": "지속 가능한 운영을 위해 매달 <span class=\"font-medium text-white\">%{amount}의 후원</span>이 필요해요.",
+      "join_insiders_call_to_action": "목표를 이룰 수 있도록 Insiders에 참여해 주세요!",
+      "monthly_donations": "월 후원금: %{amount}",
+      "sustainable_goal": "지속 가능 목표 금액: %{amount}",
+      "faqs_heading": "자세한 내용과 자주 묻는 질문",
+      "faq_access": {
+        "question": "Insiders를 이용하는 유일한 방법이 후원인가요?",
+        "answer_part1_html": "Insiders를 이용하는 가장 일반적인 방법은 정기 후원이에요. 정기 기여자에게는 Insiders 이용 권한이 무료로 주어지고, 큰 금액을 후원하거나 크게 기여하면 평생 Insiders 멤버십을 받을 수도 있어요. 정확한 기준은 <a href=\"%{codebase_link}\">저희 코드베이스</a>에서 확인할 수 있고, 여기에도 정리되어 있어요.",
+        "lifetime_access_intro": "평생 이용 권한을 받으려면 다음 중 하나가 필요해요:",
+        "lifetime_criterion_founder": "창립자이거나 직원인 경우",
+        "lifetime_criterion_supermentor": "슈퍼멘토인 경우(한 트랙에서 95%의 긍정 평가를 받으며 풀이 100개 이상을 멘토링한 경우)",
+        "lifetime_criterion_reputation": "평판이 1,000 이상인 경우",
+        "lifetime_criterion_donation": "499달러를 후원한 경우(한 번에 또는 여러 번 나누어)",
+        "temporary_access_intro": "평생 권한이 없는 분이 이용 권한을 받으려면 다음 중 하나가 필요해요:",
+        "temporary_criterion_monthly_donation": "매달 10달러 이상을 정기 후원하는 경우",
+        "temporary_criterion_maintainer": "메인테이너인 경우",
+        "temporary_criterion_recent_reputation": "지난 30일 동안 평판 30을 얻었거나, 지난 365일 동안 평판 200을 얻은 경우(풀이를 공개해서 얻은 평판은 제외)",
+        "temporary_criterion_legacy_donation": "Insiders가 출시된 시점(2023년 5월 30일)에 정기 후원을 하고 있었고, 지금도 그 후원이 이어지고 있는 경우",
+        "temporary_criterion_one_off_donation": "Insiders 출시 전에 한 후원은 9.99달러를 후원할 때마다 Insiders 출시일부터 한 달씩 이용할 수 있고, 보너스로 한 달을 더 드려요. 그래서 Insiders 출시 전에 35달러를 후원했다면 2023년 6월, 7월, 8월, 9월까지 Insiders를 이용할 수 있어요.",
+        "support_html": "이 기준을 충족한다고 생각하는데 이용 권한이 없다면 <a href=\"%{forum_issue_link}\">포럼에 이슈를 남겨 주세요</a>. 그러면 누군가 도와드릴 거예요! Paypal이나 GitHub Sponsors를 통해 후원했는데 이용 권한이 없다면 다음 질문을 확인해 보세요."
+      },
+      "faq_paypal_github": {
+        "question": "Paypal이나 GitHub Sponsors를 통해 후원했는데 이용 권한이 없어요.",
+        "answer_html": "가끔 시스템 오류로 GitHub나 Paypal의 웹훅 알림을 받지 못할 때가 있어요. 문제가 있다면 <a href=\"%{forum_issue_link}\">포럼에 이슈를 남겨 주세요</a>. 그러면 누군가 도와드릴 거예요!"
+      },
+      "faq_cost": {
+        "question": "Insiders는 비용이 얼마인가요?",
+        "answer": "Insiders는 돈을 주고 살 수 있는 상품이 아니에요. 기여하거나 멘토링하거나 후원하는 분들께 감사하는 저희만의 방법이에요. Insiders 이용 권한을 얻는 가장 쉬운 방법은 매달 10달러 이상 정기 후원을 설정하는 거예요."
+      },
+      "faq_premium": {
+        "question": "Insiders는 Premium과 같은 건가요?",
+        "answer": "Exercism Premium은 2023년 8월에 종료됐어요. 모든 Premium 멤버는 Exercism Insider 자격으로 전환되었고, 매달 내던 결제금은 정기 후원으로 바뀌었어요."
+      },
+      "faq_reputation": {
+        "question": "평판은 어떻게 얻나요?",
+        "answer_html": "평판은 Exercism에서 멘토링하거나 기여하면 얻을 수 있어요. 풀이를 공개해도 평판을 얻을 수 있지만, 이 평판은 Insiders 이용 권한에는 반영되지 않아요. 어떤 활동으로 평판을 얼마나 얻는지는 <a href=\"%{docs_link}\">문서</a>에서 확인할 수 있어요. <a href=\"%{journey_link}\">여정 페이지</a>에서 어디서 평판을 얻고 있는지 확인해 봐요."
+      }
+    },
+    "join": {
+      "title": "Insider가 되어 보세요",
+      "message_html": "Exercism은 후원으로 운영돼요. 매달 <strong>10달러</strong>의 후원이 Exercism을 모두에게 무료로 유지해 주고, AI 어시스턴트, 다크 모드, 광고 없는 환경 등 다양한 혜택을 열어줘요."
+    },
+    "payment_pending": {
+      "insiders_title": "Exercism Insiders",
+      "payment_pending_message": "결제 제공업체의 확인을 기다리고 있어요."
+    },
+    "paypal_cancelled": {
+      "insiders_title": "Exercism Insiders",
+      "paypal_cancelled_message": "Paypal 결제가 취소되었어요. 다시 시도해 주세요.",
+      "return_to_insiders": "Insiders로 돌아가기"
+    },
+    "show": {
+      "insiders_title": "Exercism Insiders",
+      "thank_you_message": "Exercism이 지금의 성공을 이룰 수 있게 해 주셔서 감사해요.",
+      "support_message": "Exercism은 여러분 같은 사람들이 함께 만들고, 후원하고, 응원해 주기 때문에 존재해요. 정말 감사해요!",
+      "feature_and_video_info_html": "아래에서 Insiders를 통해 새롭게 이용할 수 있는 다양한 기능에 대한 안내와 비하인드 영상을 확인할 수 있어요. 더 많은 기능이나 비하인드 콘텐츠에 대한 아이디어가 있다면 Discord의 #insiders 채널에 글을 올리거나 포럼에 스레드를 열어 주세요.\n",
+      "latest_video_prompt": "가장 최근에 올라온 Insiders 비하인드 영상부터 시작해 보는 건 어때요? 👉",
+      "behind_the_scenes_videos_heading": "비하인드 영상",
+      "your_insider_benefits_heading": "Insider 혜택",
+      "exclusive_content": {
+        "title": "독점 콘텐츠",
+        "description": "비공개 Insiders 라이브 방송, 브이로그, 기술 심층 분석을 통해 우리가 무엇을 계획하고 만들고 있는지 최신 소식을 받아볼 수 있어요. 위에 있는 영상도 확인해 보세요. 새 영상이 올라오면 이메일로 알려드릴게요."
+      },
+      "private_discord_channel": {
+        "title": "비공개 Discord 채널",
+        "description_html": "이제 저와 다른 스태프, Insiders들과 어울릴 수 있는 <a href=\"%{insiders_channel_link}\">Discord의 #insiders 채널</a>에 접근할 수 있을 거예요. 채널이 보이지 않는다면 <a href=\"%{integrations_page_link}\">연동 페이지</a>를 확인해 보세요."
+      },
+      "contribute_on_community_calls": {
+        "title": "커뮤니티 콜에 참여하기",
+        "description_html": "커뮤니티 콜은 누구나 시청할 수 있지만, 대화에 참여하는 건 Insiders뿐이에요. 무대에 올라와 여러분의 목소리를 내보세요. 다음 콜 일정은 <a href=\"%{discord_events_link}\">Discord</a>의 이벤트에서 확인해 보세요."
+      },
+      "dark_theme": {
+        "title": "다크 테마",
+        "description_html": "즐겁게 사용할 수 있도록 멋진 다크 테마를 준비했어요. 밤에 코딩할 때 눈을 쉬게 해 주고, 가장 어두운 매력 속에서 Exercism을 즐겨 보세요. 테마는 <a href=\"%{user_preferences_link}\">사용자 환경설정</a>에서 바꿀 수 있어요."
+      },
+      "chatgpt": {
+        "title": "ChatGPT",
+        "description": "ChatGPT 연동 기능은 온라인 에디터에서 바로 막힌 부분을 풀도록 도와줘요. 매달 v4.0 요청 3회, v3.5 요청 30회를 사용할 수 있어요. 어떻게 활용하고 있는지 알려 주세요!"
+      },
+      "name_tag_flair_and_badges": {
+        "title": "이름표 장식과 배지",
+        "description_html": "이제 사이트 곳곳에서 이름 옆에 반짝이는 작은 %{icon} 아이콘이 보이고, <a href=\"%{profile_link}\">공개 프로필</a>에는 새 태그가 붙어요. 곧 원하는 아이콘을 직접 고를 수 있게 해드릴 예정이에요!",
+        "icon_alt_text": "Insiders를 나타내는 보라색 하트 아이콘"
+      },
+      "extra_mentoring_slots": {
+        "title": "추가 멘토링 슬롯",
+        "description": "이제 트랙마다 동시에 진행할 수 있는 최대 멘토링 슬롯이 열렸어요. 진행 중인 세션은 트랙 페이지 중간쯤에서 확인할 수 있어요."
+      },
+      "exclusive_badges": {
+        "title": "독점 배지",
+        "description_html": "아주 특별한 새 배지도 하나(어쩌면 둘!) 받았을 거예요. <a href=\"%{my_journey_link}\">My Journey</a>의 배지에서 확인해 보세요. 연습 문제를 풀면서 잠금 해제할 수 있는 숨겨진 새 배지도 있어요."
+      },
+      "exclusive_perks": {
+        "title": "독점 특전",
+        "description": "앞으로 몇 주 안에 파트너사가 제공하는 독점 특전을 공개할 예정이에요. Insider라면 특별 보너스 제안과 할인을 받을 수 있어요."
+      }
+    }
+  },
+  "profiles": {
+    "intro": {
+      "locked": {
+        "reputation": {
+          "how_it_works": "어떻게 작동하나요?",
+          "unlock_message_html": "<a href=\"%{reputation_doc_url}\" class=\"text-gradient !font-semibold\">평판 %{profile_min_reputation}</a>에 도달하면 프로필을 만들 수 있어요",
+          "label": "현재 평판은"
+        }
+      },
+      "top_section": {
+        "title": "Exercism에서 작업물을 선보여요",
+        "description_unlocked_html": "공개 프로필을 만들면 공개한 풀이,\n추천사, 오픈 소스 기여를\n선보일 수 있는 좋은 방법이에요.",
+        "description_locked_html": "공개 프로필을 만들면 공개한 풀이,\n추천사, 오픈 소스 기여를\n선보일 수 있는 좋은 방법이에요. <a href=\"%{reputation_doc_url}\" class=\"text-gradient font-semibold\">프로필을 만들려면 평판 %{profile_min_reputation}이 필요해요.</a>",
+        "create_profile_button": "공개 프로필 만들기"
+      },
+      "reasons_section": {
+        "title": "공개 프로필을 만들면 뭐가 좋을까요?",
+        "improve_cv": {
+          "title": "이력서를 돋보이게 만들기",
+          "description": "많은 고용주는 지원자의 이력서를 평가할 때 오픈 소스 기여와 활동을 긍정적으로 봐요"
+        },
+        "community_awareness": {
+          "title": "커뮤니티에서 알려지기",
+          "description": "공개 프로필이 있으면 다른 사람들이 나에 대해, 내가 어떤 사람인지, 무엇을 해 왔는지 더 많이 알 수 있어요"
+        },
+        "help_awareness": {
+          "title": "다른 사람이 발견하고 배우도록 돕기",
+          "description": "프로필에 멋진 풀이를 선보일 수 있고, 다른 사람들이 그 풀이를 읽고 분석하며 배울 수 있어요"
+        }
+      }
+    },
+    "new": {
+      "header": {
+        "title": "공개 프로필 만들기"
+      }
+    },
+    "show": {
+      "meta_title": "Exercism에서 %{user_handle}님의 프로필",
+      "meta_description": "Exercism에서 %{user_handle}님이 무엇을 해 왔는지 살펴봐요. 가장 흥미로운 풀이와 뛰어난 기여, 가장 감동적인 추천사를 자세히 들여다봐요.",
+      "published_solutions": {
+        "title": "공개한 풀이",
+        "see_all_link": "%{user_name}님의 풀이 전체 보기"
+      }
+    },
+    "solutions": {
+      "meta_title": "%{user_handle}님의 Exercism 풀이",
+      "meta_description": "Exercism에서 %{user_handle}님의 풀이를 살펴보고, 그동안 배운 모든 것을 확인해 봐요.",
+      "introducer": {
+        "title": "코드와 개선 과정을 선보이기",
+        "description": "Exercism에서 연습 문제를 완료하며 공개한 %{user_handle}님의 풀이를 볼 수 있어요. 여러 차례 반복하면서 풀이를 어떻게 개선했는지도 살펴봐요."
+      }
+    },
+    "testimonials": {
+      "meta_title": "Exercism에서 %{user_handle}님이 받은 추천사",
+      "meta_description": "Exercism에서 학생들이 %{user_handle}님에게 남긴 추천사를 살펴보고, 얼마나 멋진지 직접 확인해 봐요!",
+      "introducer": {
+        "title": "Exercism의 멘토는 뛰어난 멘토링에 대한 추천사를 받아요",
+        "description": "학생들은 학습 여정에서 도움을 준 멘토에게 추천사를 남겨요. 작은 감사의 표시지만 큰 차이를 만들어요."
+      },
+      "stats": {
+        "solutions_mentored": "멘토링한 풀이",
+        "students_helped": {
+          "other": "도움을 준 학생"
+        },
+        "testimonials_received": "받은 추천사"
+      }
+    },
+    "tooltip": {
+      "location_label": "위치"
+    },
+    "header": {
+      "details": {
+        "location_label": "위치",
+        "pronouns_label": "대명사",
+        "joined_at": "%{date} 가입"
+      },
+      "bio": {
+        "read_more": "더 보기",
+        "read_less": "접기"
+      },
+      "badges": {
+        "count": {
+          "other": "%{count}개의 배지 획득"
+        },
+        "see_all": "모두 보기",
+        "badge_name": "배지: %{name}"
+      },
+      "tags": {
+        "exercism_founder": "Exercism 창립자",
+        "staff": "Exercism 직원",
+        "maintainer": "메인테이너",
+        "insider": "Insider"
+      },
+      "tabs": {
+        "summary": "요약",
+        "contributions": "기여",
+        "published_solutions": "게시한 풀이",
+        "testimonials": "추천사",
+        "badges": "배지"
+      },
+      "external_links": {
+        "external_link_title": "외부 링크예요"
+      }
+    },
+    "badges": {
+      "meta_title": "%{user_handle}님의 Exercism 배지",
+      "meta_description": "Exercism에서 %{user_handle}님이 받은 배지를 살펴보고, 아직 받지 못한 배지가 무엇인지 직접 확인해 보세요.",
+      "introducer": {
+        "title": "Exercism 회원은 멋진 일을 하면 배지를 받아요",
+        "description": "Exercism을 사용하는 건 재미있고 보람 있어요. Exercism에서 학습하고 멘토링하고 기여하는 동안 자연스럽게 배지를 받을 수 있어요."
+      },
+      "summary": {
+        "badges_owned": {
+          "other": "보유한 배지"
+        }
+      }
+    },
+    "contributions": {
+      "meta_title": "%{user_handle}님의 Exercism 기여",
+      "meta_description": "%{user_handle}님이 Exercism에 어떻게 기여했는지 확인해 보세요",
+      "introducer": {
+        "title": "Exercism은 %{user_handle}님과 여러분 같은 사람들이 만들어요",
+        "description": "%{user_handle}님이 Exercism에 기여한 내용과, 여러 트랙을 위해 직접 만든 연습 문제와 개념을 확인해 보세요."
+      }
+    }
+  },
+  "perks": {
+    "claim_modal": {
+      "continue_button_label": "%{partner_website_domain} 페이지로 계속하기",
+      "close_button_label": "닫기"
+    },
+    "index": {
+      "header": {
+        "title": "Exercism 혜택",
+        "subtitle_html": "교육과 기회에 대한 평등한 접근을 위한 Exercism의 사명을 지지하는 기관에서 할인과 무료 체험을 받아보세요. %{insiders_link} 회원은 한층 강화된 혜택을 받아요.",
+        "insiders_link_text": "Exercism Insiders"
+      }
+    }
+  },
+  "notifications_mailer": {
+    "expired_insiders": {
+      "subject": "Exercism Insiders 멤버십이 만료되었어요",
+      "body_markdown": "안녕하세요,\n\n[Exercism Insiders](%{insiders_url})에 대한 접근 권한이 만료되었어요.\n\nExercism을 후원해 주셔서 감사해요. 저희는 100만 명이 넘는 사람이 무료로 프로그래밍 실력을 키울 수 있도록 도왔고, 여러분 같은 분들의 후원에 기대고 있어요. 정말 감사드려요.\n\n계속 저희를 후원해 주신다면 정말 큰 힘이 될 거예요.\n[Insiders 페이지](%{insiders_url})에서 새로운 정기 후원을 설정할 수 있어요.\n\n좋은 하루 보내세요!\n\nJeremy Walker\nExercism 공동 창업자 겸 CEO\n\n[Exercism 방문하기](%{root_url})\n"
+    },
+    "mentor_timed_out_discussion_student": {
+      "title": "토론 시간이 초과되었어요",
+      "subject": "%{track_title}/%{exercise_title} 풀이에 대한 토론이 시간 초과되었어요",
+      "body_markdown": "안녕하세요 %{user_handle}님,\n\n%{track_title} 트랙의 %{exercise_title}에 대한 풀이에서 %{mentor_handle}님과 진행한 토론이 시간 초과되었어요.\n\n[토론으로 이동하기](%{discussion_url})"
+    },
+    "onboarding_insiders": {
+      "subject": "저희가 비영리 단체라는 사실, 알고 계셨어요?",
+      "body_markdown": "안녕하세요,\n\n[Exercism](https://exercism.org)을 즐기고 계신가요?  \n**저희가 비영리 단체**라는 사실, 알고 계셨어요?  \n돈이 얼마나 있든 누구나 Exercism의 혜택을 누릴 수 있으면 좋겠어요. 그래서 사이트는 100% 무료로 운영해요.\n\n그러려면 Exercism을 계속 운영할 후원이 필요해요.  \n저희는 아주 간소하게 운영하고 있고, 150만 명이 넘는 사람에게 서비스를 제공하는 걸 생각하면 비용은 매우 낮은 편이에요(연간 약 25만 달러).  \n자세한 내용을 담은 영상을 준비했어요 👇\n\n<a href=\"%{video_url}\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923; margin-bottom:16px\">\n  <img src=\"%{video_thumbnail_url}\" style=\"width:100%; display:block\" />\n</a>\n\nExercism이 유용하다고 느끼시고 여유가 된다면, 후원으로 저희를 도와주세요.  \n여유가 안 되더라도, 그건 필수가 아니며 저희 플랫폼은 언제나 무료로 이용할 수 있다는 점을 기억해 주세요.\n\n후원이든, 아니면 Exercism을 주변에 알리는 것이든, 여러분의 지지는 저희가 사회적 사명을 이루는 데 꼭 필요해요.  \n작은 도움 하나하나가 전 세계 더 많은 사람에게 양질의 프로그래밍 교육을 전하는 힘이 돼요.\n\n저희 커뮤니티의 일원이 되어 주시고 사회적 사명을 지지해 주셔서 감사해요.  \nExercism과 함께 이루실 멋진 일들이 기대돼요.\n\n감사합니다,  \n\nJeremy Walker  \nExercism 공동 창업자 겸 CEO\n\n[Exercism 방문하기](%{root_url})"
+    },
+    "acquired_badge": {
+      "title": "새로운 배지가 여러분의 확인을 기다리고 있어요!",
+      "subject": "새로운 배지의 잠금을 해제했어요",
+      "body_markdown": "안녕하세요 %{user_handle}님,\n\n축하해요! Exercism에서 새로운 배지의 잠금을 해제했어요.\nExercism 여정 페이지에서 무엇을 얻었는지 확인해 보세요.\n\n[무엇을 얻었는지 보여주기!](%{journey_url})\n"
+    },
+    "onboarding_community": {
+      "subject": "Discord나 저희 포럼에서 인사는 나누셨나요?",
+      "body_markdown": "안녕하세요!\n\n[Exercism](https://exercism.org)에서 보내는 첫 며칠을 즐기고 계신가요?  \n플랫폼을 둘러보시면서, 저희의 멋진 커뮤니티를 잠깐 소개해 드리고 싶었어요.\n\nExercism은 오픈 소스이자 커뮤니티가 함께 만드는 프로젝트예요.  \n실제로 350개가 넘는 저장소를 가진 [GitHub](https://github.com/exercism/)에서 가장 큰 오픈 소스 조직 중 하나죠.  \n저희 커뮤니티는 공감, 친절, 포용이라는 가치를 중심으로 해요.  \n이 영상을 보시거나 아래에서 더 읽어 보세요 👇\n\n<a href=\"%{youtube_video_url}\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"%{youtube_thumbnail_url}\" style=\"width:100%; display:block\" />\n</a>\n\n흥미롭고 즐거울 만한 커뮤니티 공간이 몇 가지 있어요:\n\n- [Discord](https://exercism.org/r/discord) 채널에서는 Exercism 커뮤니티와 어울리고, 커뮤니티 콜에 참여하고, 빠른 지원을 받을 수 있어요.\n- [포럼](https://exercism.org/r/forum)은 길게 질문을 남기고, 아이디어를 나누고, 코딩에 열정적인 사람들과 연결되기 좋은 곳이에요.\n- [YouTube 채널](https://exercism.org/r/youtube)에서는 교육용 해설, Exercism 소식, 커뮤니티 이야기, 업계 전문가 인터뷰 등 최고의 영상 콘텐츠를 만날 수 있어요.\n- [Twitch](https://exercism.org/r/twitch)에서는 커뮤니티와 코딩 생태계의 게스트가 함께하는 라이브 방송을 진행해요.\n\n여러분도 함께 참여해 커뮤니티의 활발한 일원이 되면 좋겠어요.  \n오래된 개발자든 이제 막 시작한 분이든, 여기에는 모두를 위한 자리가 있어요.  \n그러니 부끄러워하지 말고 인사하러 오셔서 함께해 봐요!\n\n감사합니다,  \n\nJeremy Walker  \nExercism 공동 창업자 겸 CEO\n\n[Exercism 방문하기](%{root_url})"
+    },
+    "onboarding_product": {
+      "subject": "Exercism은 잘 활용하고 계신가요?",
+      "body_markdown": "안녕하세요,\n\n[Exercism](https://exercism.org)에 가입하신 지 하루쯤 지났는데, 그동안 어떻게 지내고 계신지 궁금했어요.\n\n처음에는 Exercism이 조금 벅차게 느껴질 수 있어요. 어떤 분들은 조금 헤매기도 하고, 이해가 잘 안 되는 부분도 있죠.  \n막히면 [Discord](https://exercism.org/r/discord)나 [포럼](https://exercism.org/r/forum)에서 도움을 요청해 보세요.  \n사람들이 어디에서 막히는지 알면 고치기에 항상 도움이 되니, 부담 없이 이야기해 주세요!\n\n아직 언어를 살펴보기 시작하지 않으셨다면, 65개가 넘는 언어 중에서 고를 수 있어요. 가장 널리 쓰이는 언어(Python, JavaScript, C# 등)부터 요즘 떠오르는 인기 언어(Go, Elixir, Rust 등), 그리고 꽤 특이하고 난해한 언어(8th, COBOL, Prolog 등)까지 다양하죠.  \n배울 것도, 즐길 것도 정말 많아요!\n\n마지막으로 다시 한번, Exercism은 100% 무료이고 오픈 소스이며 비영리예요. 마음껏 즐기세요!\n\n감사합니다,  \n\nJeremy Walker  \nExercism 공동 창업자 겸 CEO\n\n[Exercism 방문하기](%{root_url})"
+    },
+    "mentor_timed_out_discussion_mentor": {
+      "title": "멘토링 세션이 시간 초과되었어요",
+      "subject": "답변이 없어 멘토링 세션이 시간 초과되었어요.",
+      "body_markdown": "안녕하세요 %{user_handle}님,\n\n%{track_title} 트랙의 %{exercise_title}에 대한 학생(%{student_handle})님의 풀이에서 진행한 토론이 시간 초과되었어요.\n\n[토론으로 이동하기](%{discussion_url})"
+    },
+    "mentor_started_discussion": {
+      "title": "풀이가 멘토링되고 있어요",
+      "subject": "%{mentor_handle}님이 %{track_title}/%{exercise_title} 풀이 멘토링을 시작했어요",
+      "body_markdown": "안녕하세요 %{user_handle}님,\n\n멘토(%{mentor_handle})님이 %{track_title} 트랙의 %{exercise_title} 풀이에 대한 멘토링을 시작했어요.\n\n[토론으로 이동하기](%{discussion_url})"
+    },
+    "student_finished_discussion": {
+      "title": "학생이 토론을 마쳤어요",
+      "subject": "%{student_handle}님이 %{track_title}/%{exercise_title} 토론을 종료했어요",
+      "body_markdown": "안녕하세요 %{user_handle}님,\n\n학생(%{student_handle})님이 %{track_title} 트랙의 %{exercise_title}에서 멘토링하고 있던 토론을 마쳤어요.\n\n[토론으로 이동하기](%{discussion_url})"
+    },
+    "automated_feedback_added": {
+      "title": "새로운 자동 피드백이 도착했어요",
+      "subject": "%{track_title}/%{exercise_title} 풀이에 새로운 피드백이 있어요",
+      "body_markdown": "안녕하세요 %{user_handle}님,\n\n%{track_title} 트랙의 %{exercise_title} 풀이 중 #%{iteration_idx}번째 제출물에 새로운 피드백이 추가되었어요. 한번 살펴보고 풀이를 어떻게 개선할 수 있을지 확인해 보시길 %{emphasis}추천해요!\n\n제출물 보러 가기: %{iteration_url}\n"
+    },
+    "upgraded_to_lifetime_insiders": {
+      "subject": "Exercism Lifetime Insiders로 업그레이드되었어요",
+      "body_markdown": "안녕하세요!\n\n[Exercism Insiders](https://exercism.org/insiders) 평생 멤버십으로 업그레이드되셨다는 기쁜 소식을 전해 드려요!\n\n평생 Insider로서, 플랫폼에 큰 영향을 주고 오늘의 모습을 만드는 데 기여한 몇 안 되는 분 중 한 명이에요.  \n수천 명의 사람을 도와 큰 변화를 만들어 주셨으니, 정말 감사해요.  \nInsiders는 그동안 해 주신 모든 일에 감사를 전하는 저희의 작은 방법이에요.\n\n평생 멤버십 기준에 도달하신 것을 축하드리고, Exercism의 일원이 되어 주셔서 다시 한번 감사해요 🙂\n\nJeremy Walker  \nExercism 공동 창업자 겸 CEO\n\n[Exercism 방문하기](%{root_url})"
+    },
+    "nudge_student_to_reply_in_discussion": {
+      "title": "멘토가 답장을 %{num_days_waiting}일째 기다리고 있어요",
+      "subject": "멘토가 답장을 %{num_days_waiting}일째 기다리고 있어요.",
+      "body_markdown": "안녕하세요 %{user_handle}님,\n\n%{track_title} 트랙의 %{exercise_title} 풀이에 대한 [토론](%{discussion_url})에서 멘토(%{mentor_handle})님이 답장을 %{num_days_waiting}일째 기다리고 있다는 알림을 드려요.\n\n사실은 멘토를 기다리고 있는 상황이라면, 토론에 댓글을 남겨 멘토에게 알려 주세요.\n\n답장하지 않으면 %{num_days_to_time_out}일 뒤에 토론이 시간 초과돼요.\n\n[토론으로 이동하기](%{discussion_url})"
+    },
+    "added_to_contributors_page": {
+      "title": "이제 공식 Exercism 기여자예요!",
+      "subject": "Exercism 기여자 페이지에 등록되었어요",
+      "body_markdown": "안녕하세요 %{user_handle}님,\n\nExercism 공식 기여자 명단에 등록되어 기여자 페이지에 표시되었어요.\n\nExercism의 일원이 되어 주시고, 최대한 많은 사람에게 무료로 세계적인 수준의 프로그래밍 교육을 제공할 수 있도록 도와주셔서 정말 감사해요.\n\n[기여자 페이지 둘러보기](%{contributors_url})\n"
+    },
+    "mentor_replied_to_discussion": {
+      "title": "멘토가 답장했어요",
+      "subject": "%{mentor_handle}님이 %{track_title}/%{exercise_title} 토론에 댓글을 남겼어요",
+      "body_markdown": "안녕하세요 %{user_handle}님,\n\n멘토(%{mentor_handle})님이 %{track_title} 트랙의 %{exercise_title}에 대한 토론에 댓글을 남겼어요.\n\n[토론으로 이동하기](%{discussion_url})\n"
+    },
+    "student_timed_out_discussion_mentor": {
+      "title": "학생의 토론이 시간 초과되었어요",
+      "subject": "학생의 답변이 없어 멘토링 세션이 시간 초과되었어요.",
+      "body_markdown": "안녕하세요 %{user_handle}님,\n\n%{track_title} 트랙의 %{exercise_title}에 대한 학생(%{student_handle})님의 풀이 토론이 시간 초과되었어요.\n\n[토론으로 이동하기](%{discussion_url})\n"
+    },
+    "eligible_for_lifetime_insiders": {
+      "subject": "Exercism Insiders를 이용할 자격이 생겼어요",
+      "body_markdown": "안녕하세요!\n\nExercism Insiders를 이용할 자격이 생겼다는 소식을 전하게 되어 기뻐요. Insiders는 Exercism에 기여하거나 멘토링하거나 후원하는 분들을 위한 보상 프로그램이에요.  \n[Insiders 페이지](%{insiders_url})에서 Insiders 계정을 활성화할 수 있어요.\n\nInsiders에서는 몇 가지 추가 혜택을 받을 수 있어요:\n\n- 감각적인 다크 모드 이용\n- 연습 문제에서 막혔을 때 쓸 수 있는 ChatGPT 연동\n- 비하인드 콘텐츠. 우리가 Exercism을 만들어 가는 과정을 담은 저와 팀의 영상을 보면서 계속 소식을 받아볼 수 있어요.\n- 전용 #insiders Discord 채널을 통해 팀과 주요 커뮤니티 멤버에게 더 가까이 다가갈 수 있어요.\n- 추가 멘토링 슬롯.\n- 독점 배지\n- 그리고 더 많은 혜택이 있어요!\n\n**Lifetime** 상태를 부여해 드렸어요. 즉, 언제나 Insiders를 이용할 수 있어요.  \n자세한 내용은 [Insiders 페이지](%{insiders_url})에 가득하니, 아래 영상을 보고 더 알아봐요 👇\n\n<a href=\"https://www.youtube.com/watch?v=iwhahd41h0A\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"https://assets.exercism.org/images/thumbnails/introducing-insiders-with-play-icon.jpg\" style=\"width:100%; display:block\" />\n</a>\n\nExercism의 이야기에 함께해 주셔서 정말 감사합니다. Insiders를 마음껏 즐기시길 바라요!\n\nJeremy Walker  \nExercism의 공동 창업자 겸 CEO\n\n[Insiders 활성화하기](%{insiders_url})"
+    },
+    "student_timed_out_discussion_student": {
+      "title": "대화 시간이 초과됐어요",
+      "subject": "%{track_title}/%{exercise_title} 멘토링 대화 시간이 초과됐어요",
+      "body_markdown": "안녕하세요 %{user_handle}님,\n\n%{track_title} 트랙의 %{exercise_title} 문제에 대한 풀이를 두고 %{discussion_mentor_handle}님과 나눈 대화가 시간 초과됐어요.\n\n[대화 보러 가기](%{discussion_url})\n"
+    },
+    "nudge_mentor_to_reply_in_discussion": {
+      "title": "학생이 %{num_days_waiting}일째 답장을 기다리고 있어요",
+      "subject": "%{student_handle}님이 답장을 기다리고 있어요 (%{num_days_waiting}일 알림)",
+      "body_markdown": "안녕하세요 %{user_handle}님,\n\n잊지 않도록 알려드릴게요. 학생(%{student_handle})이 %{track_title} 트랙의 %{exercise_title} 문제 풀이에 대해 [대화](%{discussion_url})에서 답장을 %{num_days_waiting}일째 기다리고 있어요.\n\n아직 답할 차례가 아니어서 학생을 기다리는 중이라면, 멘토링 UI에서 \"학생 차례예요…\" 버튼을 사용해 주세요.\n\n답장하지 않으면 %{num_days_to_time_out}일 뒤에 대화 시간이 초과돼요.\n\n[대화 보러 가기](%{discussion_url})"
+    },
+    "joined_insiders": {
+      "subject": "Exercism Insiders에 오신 것을 환영해요",
+      "body_markdown": "안녕하세요!\n\n[Exercism Insiders](https://exercism.org/insiders)에 오신 것을 환영해요!  \n우리의 이야기에 함께해 주시고 Exercism이 지금의 큰 성공을 이루도록 도와주셔서 감사해요.  \nInsiders는 후원에 감사하는 마음을 전하는 작은 방법이에요.\n\nInsiders에 무엇이 있는지 알아보려면 [Insiders 페이지](https://exercism.org/insiders)를 확인하거나,  \n아래 소개 영상을 봐 주세요 👇\n\n<a href=\"%{youtube_video_url}\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"%{youtube_thumbnail_url}\" style=\"width:100%; display:block\" />\n</a>\n\nDiscord의 전용 [#insiders 채널](https://discord.com/channels/854117591135027261/1103737555490447460)에서 생각과 아이디어를 들려주시면 좋겠어요.  \n그러니 들러서 인사해 주세요!\n\n우리의 여정에 함께해 주셔서 감사해요. 앞으로가 기대돼요 🙂\n\nJeremy Walker  \nExercism의 공동 창립자 겸 CEO\n\n[Exercism 방문하기](%{root_url})"
+    },
+    "joined_exercism": {
+      "subject": "Exercism에 오신 것을 환영해요",
+      "body_markdown": "안녕하세요,\n\n[Exercism](https://exercism.org)에 오신 것을 환영해요!  \n커뮤니티의 일원이 되어 주셔서 기쁘고, 프로그래밍 여정을 더 깊이 나아가도록 돕게 되어 기대돼요.\n\nExercism은 어떤 언어를 배우기로 선택하든 그 언어를 깊이 이해하도록 돕기 위해 만들어졌어요.  \n우리는 등록된 비영리 단체이며, 100% 무료예요.\n\n가입할 때 보셨을 수도 있는 이 영상에서 몇 가지 핵심 내용을 안내해 드려요 👇\n\n<a href=\"%{youtube_video_url}\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"%{youtube_thumbnail_url}\" style=\"width:100%; display:block\" />\n</a>\n\n막히거나 궁금한 점이 있다면 [우리 포럼](https://forum.exercism.org)에 주저 없이 글을 남겨 주세요.  \n우리 커뮤니티는 친절하고 서로를 잘 도와주며, 언제든 기꺼이 도움을 드릴 준비가 되어 있어요.  \n배움은 함께 하는 것이고, 우리 모두 서로에게서 배울 수 있다고 믿어요.\n\n마지막으로, Exercism에 관한 흥미로운 인터뷰와 설명, 튜토리얼을 공유하는 [YouTube 채널](https://www.youtube.com/@Exercism_org)도 놓치지 마세요.  \n학습 여정을 더 즐겁게 만들어 줄 팁과 노하우를 찾을 수도 있어요.\n\n좋은 하루 보내세요!\n\nJeremy Walker  \nExercism의 공동 창립자 겸 CEO\n\n[Exercism 방문하기](%{root_url})"
+    },
+    "eligible_for_insiders": {
+      "subject": "Exercism Insiders를 이용할 자격이 생겼어요",
+      "body_markdown": "안녕하세요!\n\nExercism Insiders에 참여할 자격이 있다는 소식을 전하게 되어 기뻐요. Insiders는 Exercism에 기여하거나 멘토링하거나 후원하는 분들을 위한 보상 프로그램이에요.\n[Insiders 페이지](%{insiders_url})에서 Insiders 계정을 활성화할 수 있어요.\n\nInsiders에서는 세 가지 주요 혜택을 드려요.\n1. Exercism Premium 무료 이용. 다크 모드, ChatGPT 통합, 추가 멘토링 슬롯 등 다양한 기능을 사용할 수 있어요.\n2. 비하인드 콘텐츠. 저와 팀이 Exercism을 만들어가는 과정을 담은 영상을 보며 계속 소식을 접할 수 있어요.\n3. 팀과 주요 커뮤니티 멤버에게 더 가까이 다가갈 수 있어요. 전용 #insiders Discord 채널도 있어요.\n\nInsiders 페이지에 훨씬 더 자세한 내용이 담겨 있어요!\nInsiders 자격은 기여, 멘토링 또는 후원을 활발히 이어가는 동안 계속 유지돼요.\n일정 기준을 달성하면 평생 Insiders 자격을 얻을 수도 있어요.\n\nExercism의 이야기에 함께해 주셔서 정말 감사해요. Insiders를 마음껏 즐기시길 바라요!\n\nJeremy Walker\nExercism 공동 창립자 겸 CEO\n\nInsiders 활성화: %{insiders_url}\n"
+    },
+    "mentor_finished_discussion": {
+      "title": "멘토가 토론을 마쳤어요",
+      "subject": "%{mentor_handle}님이 %{track_title}/%{exercise_title}에 대한 토론을 끝냈어요",
+      "body_markdown": "안녕하세요 %{user_handle}님,\n\n%{track_title} 트랙의 %{exercise_title} 문제 풀이에 대한 토론을 멘토(%{mentor_handle})가 마쳤어요.\n\n[토론으로 이동하기](%{discussion_url})"
+    },
+    "joined_lifetime_insiders": {
+      "subject": "Exercism 평생 Insiders에 오신 것을 환영해요",
+      "body_markdown": "안녕하세요!\n\n[Exercism Insiders](%{insiders_url})에 오신 것을 환영해요!  \n우리의 이야기에 함께해 주시고 Exercism이 지금의 큰 성공을 이루도록 도와주셔서 감사해요.  \n**평생 Insider**로서, 플랫폼에 큰 영향을 주고 오늘날의 모습을 만들어 온 몇 안 되는 사람 중 한 명이에요.  \n수천 명의 사람을 도우며 큰 변화를 만들어 주셨으니, 정말 감사해요.  \nInsiders는 해주신 모든 일에 감사를 전하는 아주 작은 방법이에요.\n\nInsiders에 무엇이 있는지 알아보려면 전용 페이지를 확인하거나, 아래 소개 영상을 봐주세요 👇\n\n<p style=\"margin-bottom: 24px\">\n  <a href=\"%{youtube_video_url}\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n    <img src=\"%{youtube_thumbnail_url}\" style=\"width:100%; display:block\" />\n  </a>\n</p>\n\n전용 [#insiders Discord 채널](%{discord_channel_url})에서 여러분의 생각과 아이디어를 듣고 싶어요.  \n그럼 놀러 와서 인사해 주세요!\n\nExercism의 일원이 되어 주셔서 다시 한번 감사해요. 앞으로가 더 기대돼요! 🙂\n\nJeremy Walker  \nExercism 공동 창립자 겸 CEO\n\n[Exercism 방문하기](%{root_url})\n"
+    },
+    "student_replied_to_discussion": {
+      "title": "학생이 답글을 남겼어요",
+      "subject": "%{student_handle}님이 %{track_title}/%{exercise_title}에 대한 토론에 댓글을 남겼어요",
+      "body_markdown": "안녕하세요 %{user_handle}님,\n\n%{track_title} 트랙의 %{exercise_title} 문제에 대한 토론에 학생(%{student_handle})이 댓글을 남겼어요.\n\n[토론으로 이동하기](%{discussion_url})"
+    },
+    "nudge_to_request_mentoring": {
+      "title": "멘토의 피드백으로 한 단계 더 성장해요!",
+      "subject": "멘토의 피드백으로 한 단계 더 성장해요",
+      "body_markdown": "안녕하세요 %{user_handle}님,\n\n지금까지 연습 문제 몇 개를 완료했지만(잘하셨어요!) 아직 어떤 풀이에도 멘토링을 요청하지 않았어요.\n\n멘토의 피드백을 받는 것은 자신의 지식에서 빠진 부분을 발견하고 실력을 한 단계 높이는 멋진 방법이에요. Exercism의 가장 값진 기능 중 하나이고, Exercism의 모든 것과 마찬가지로 완전히 무료예요!\n\n가장 개선할 부분이 많다고 느껴지는 풀이를 골라 멘토에게 살펴봐 달라고 요청해 보세요. 하루 안에 몇 가지 아이디어와 함께 답을 받을 수 있을 거예요!\n\n[풀이 선택하기 →](%{notification_url})\n"
+    },
+    "student_added_iteration": {
+      "title": "학생이 새 버전을 제출했어요",
+      "subject": "%{student_handle}님이 멘토링 중인 %{track_title}/%{exercise_title} 풀이에 새 버전을 제출했어요",
+      "body_markdown": "안녕하세요 %{user_handle}님,\n\n%{track_title} 트랙의 %{exercise_title} 문제에 대한 토론에 학생(%{student_handle})이 새 버전(%{iteration_number})을 제출했어요.\n\n[토론으로 이동하기](%{discussion_url})"
+    },
+    "acquired_trophy": {
+      "title": "공개를 기다리는 새 트로피가 있어요!",
+      "subject": "새 트로피를 획득했어요",
+      "body_markdown": "안녕하세요 %{user_handle}님,\n\n축하해요! %{track_title} 트랙에서 새 트로피를 획득했어요.\n%{track_title} 트랙 페이지를 방문해 트로피 진열장에서 무엇을 받았는지 확인해 보세요.\n[내가 획득한 트로피를 확인해 봐요!](%{track_url})\n"
+    }
+  },
+  "serializers": {
+    "track_for_select": {
+      "all_tracks": "모든 트랙"
+    },
+    "profile_image": {
+      "metric": {
+        "publishing": {
+          "zero": "게시한 풀이 없음",
+          "other": "게시한 풀이 %{count}개"
+        },
+        "mentoring": {
+          "zero": "멘토링한 학생 없음",
+          "other": "멘토링한 학생 %{count}명"
+        },
+        "authoring": {
+          "zero": "기여한 연습 문제/글 없음",
+          "other": "기여한 연습 문제/글 %{count}개"
+        },
+        "building": {
+          "zero": "승인된 PR 없음",
+          "other": "승인된 PR %{count}개"
+        },
+        "maintaining": {
+          "zero": "리뷰한 PR 없음",
+          "other": "리뷰한 PR %{count}개"
+        }
+      }
+    }
+  },
+  "site_updates": {
+    "new_exercise": {
+      "1": "<em>%{maker_handles}</em>님이 새로운 연습 문제를 게시했어요: <a href=\"%{exercise_url}\">%{exercise_title}</a>\n"
+    },
+    "new_concept": {
+      "1": "<em>%{maker_handles}</em>님이 새로운 개념을 게시했어요: <a href=\"%{concept_url}\">%{concept_name}</a>\n"
+    },
+    "arbitrary": {
+      "1": "<em>%{author_handle}</em>님이 새 소식을 게시했어요.\n"
+    }
+  },
+  "user_activities": {
+    "started_exercise": {
+      "1": "<strong>%{exercise_title}</strong> 문제를 시작했어요\n"
+    },
+    "submitted_iteration": {
+      "1": "<strong>%{iteration_idx}번째 제출</strong>을 완료했어요\n"
+    },
+    "completed_exercise": {
+      "1": "<strong>%{exercise_title}</strong> 문제를 완료했어요\n"
+    },
+    "published_exercise": {
+      "1": "<strong>%{exercise_title}</strong> 문제 풀이를 게시했어요\n"
+    }
+  },
+  "user_preferences": {
+    "auto_update_exercises": "내 풀이가 최신 버전의 테스트를 통과하면 자동으로 연습 문제의 최신 버전으로 업데이트해요",
+    "allow_comments_on_published_solutions": "앞으로 게시하는 내 풀이에 댓글을 달 수 있도록 허용해요"
+  },
+  "user_reputation_tokens": {
+    "exercise_author": {
+      "1": "<strong>%{exercise_title}</strong> 연습 문제를 제작했어요\n"
+    },
+    "exercise_contribution": {
+      "1": "<strong>%{exercise_title}</strong> 연습 문제에 기여했어요\n"
+    },
+    "concept_author": {
+      "1": "<strong>%{concept_name}</strong> 개념을 제작했어요\n"
+    },
+    "concept_contribution": {
+      "1": "<strong>%{concept_name}</strong> 개념에 기여했어요\n"
+    },
+    "exercise_article_author": {
+      "1": "<strong>%{exercise_title}</strong>의 <strong>%{article_title}</strong> 글을 작성했어요\n"
+    },
+    "exercise_article_contribution": {
+      "1": "<strong>%{exercise_title}</strong>의 <strong>%{article_title}</strong> 글에 기여했어요\n"
+    },
+    "exercise_approach_author": {
+      "1": "<strong>%{exercise_title}</strong>의 <strong>%{approach_title}</strong> 접근법을 작성했어요\n"
+    },
+    "exercise_approach_contribution": {
+      "1": "<strong>%{exercise_title}</strong>의 <strong>%{approach_title}</strong> 접근법에 기여했어요\n"
+    },
+    "exercise_approach_introduction_author": {
+      "1": "<strong>%{exercise_title}</strong>의 접근법을 작성했어요\n"
+    },
+    "exercise_approach_introduction_contribution": {
+      "1": "<strong>%{exercise_title}</strong>의 접근법에 기여했어요\n"
+    },
+    "code_contribution": {
+      "1": "<strong>%{repo}</strong>에 <strong>PR#%{pr_number}</strong> 만들었어요: %{pr_title}\n"
+    },
+    "code_review": {
+      "1": "<strong>%{repo}</strong>의 <strong>PR#%{pr_number}</strong> 리뷰했어요: %{pr_title}\n"
+    },
+    "code_merge": {
+      "1": "<strong>%{repo}</strong>의 <strong>PR#%{pr_number}</strong> 병합했어요: %{pr_title}\n"
+    },
+    "mentored": {
+      "1": "<strong>%{track_title}</strong>의 <strong>%{exercise_title}</strong> 문제에서 <strong>%{student_handle}</strong>님을 멘토링했어요\n"
+    },
+    "published_solution": {
+      "1": "<strong>%{track_title}</strong>의 <strong>%{exercise_title}</strong> 문제 풀이를 게시했어요\n"
+    },
+    "issue_author": {
+      "1": "<strong>%{repo}</strong>에 <strong>issue#%{issue_number}</strong> 열었어요: %{issue_title}\n"
+    },
+    "arbitrary": {
+      "1": "%{reason}\n"
+    },
+    "automation_feedback_author": {
+      "1": "<strong>%{exercise_title}</strong>에 대한 자동화 피드백을 작성하셨어요\n"
+    },
+    "automation_feedback_editor": {
+      "1": "<strong>%{exercise_title}</strong>에 대한 자동화 피드백을 수정하셨어요\n"
+    }
+  },
+  "localization": {
+    "translators": {
+      "new": {
+        "hero": {
+          "title": "여러분의 언어로 만나는 Exercism",
+          "subtitle_html": "우리는 Exercism을 <strong>모든 언어</strong>로 번역하고 있어요. 그리고 <strong>여러분의 도움이 필요해요!</strong>",
+          "description": "아는 언어로 Exercism을 번역하는 일을 돕고 싶다면 아래 양식을 작성해 주세요. 그러면 앞으로 몇 주 안에 자세한 내용을 담아 연락드릴게요!"
+        },
+        "call_to_action": {
+          "join_team_signed_out": "팀에 참여해요!",
+          "login_prompt_html": "번역 프로젝트를 돕기 위해 Exercism에 로그인해 주세요. (이곳이 처음이라면 계정을 만들어 주세요!)",
+          "log_in_button": "로그인",
+          "sign_up_button": "회원가입",
+          "join_team_signed_in": "팀에 참여해요!",
+          "choose_languages_description": "번역을 돕고 싶은 언어를 최대 다섯 개까지 선택해 주세요."
+        },
+        "form": {
+          "signed_up_title": "번역가로 등록됐어요!",
+          "signed_up_description_html": "<strong>감사합니다! 곧 연락드릴게요!</strong> 다음은 Exercism을 번역하겠다고 등록한 언어들이에요.",
+          "select_language_prompt_first": "언어를 하나 이상 선택해 주세요...",
+          "update_languages_button": "언어 설정 변경하기",
+          "become_translator_button": "번역가가 되어 보세요!"
+        },
+        "faq": {
+          "title": "자주 묻는 질문",
+          "what_it_involves_question": "번역가가 되면 어떤 일을 하나요?",
+          "what_it_involves_answer": "번역가는 Exercism 웹사이트와 문서, 기타 콘텐츠를 자신이 선택한 언어로 번역하는 일을 도와요. 텍스트를 번역하고, 번역을 검토하고, 콘텐츠가 문화적으로 적절하고 정확한지 확인하는 작업이 포함돼요. 우리는 먼저 기계 번역을 만든 다음, 번역가에게 검토하고 개선해 달라고 요청해요.",
+          "time_commitment_question": "시간이 얼마나 걸려요?",
+          "time_commitment_answer": "프로젝트에 기꺼이 쏟을 수 있는 만큼 시간을 들이면 돼요. 언어마다 큰 번역가 팀을 만들어 함께 힘을 모아 멋진 첫 버전을 빠르게 만들어 내는 것이 목표예요.",
+          "payment_reward_question": "보수나 보상이 있나요?",
+          "payment_reward_answer_html": "Exercism의 모든 콘텐츠는 다른 사람을 돕기 위해 시간을 내는 자원봉사자들이 만들어요. 사이트의 다른 부분과 마찬가지로 돕는 대가로 금전적인 보상은 없어요. 대신 공개 프로필을 높여 주는 <strong>Exercism 평판</strong>을 받게 돼요!",
+          "when_start_question": "언제 시작하나요?",
+          "when_start_answer": "곧 시작해요! 지금은 여러분이 사용할 UI를 완성하고 첫 기계 번역을 만들고 있어요. 9월 초쯤에는 준비가 다 될 거예요!"
+        }
+      }
+    }
+  },
+  "donations_mailer": {
+    "payment_created": {
+      "title": "정말 감사합니다!",
+      "subject": "후원해 주셔서 감사합니다",
+      "body_markdown": "안녕하세요 %{user_handle}님,\n\n후원해 주셔서 감사합니다! Exercism은 모든 사람, 모든 곳에 프로그래밍의 즐거움을 전하기 위해 존재해요.  \n여러분의 후원이 우리가 하는 모든 일을 가능하게 해요.\n\n설정 페이지에서 Exercism에 후원한 모든 내역을 보고 영수증을 내려받을 수 있어요.  \n후원에 대해 궁금한 점이 있으면 이 이메일에 답장해 주세요.\n\n다시 한 번 감사드려요!\n\n[후원 내역 보기](%{donations_url})"
+    }
+  },
+  "docs": {
+    "index": {
+      "meta_title": "Exercism 문서",
+      "meta_description": "Exercism을 사용하고 기여하는 방법에 관한 문서예요. Exercism과 관련된 모든 궁금증은 여기에서 해결할 수 있어요.",
+      "welcome_heading": "Exercism 문서에 오신 것을 환영해요 👋",
+      "welcome_subtitle": "Exercism을 사용하고 기여하는 데 필요한 모든 것을 알아봐요.",
+      "using_exercism": {
+        "heading": "Exercism 사용하기",
+        "paragraph_html": "Exercism에서 보내는 시간을 최대한 활용하는 방법을 배워봐요. 모든 궁금증에 대한 답을 찾고, 멘토링을 최대한 활용하는 방법을 이해하고, 훌륭한 Exercism 시민이 되는 방법도 알아봐요.",
+        "get_started_button": "시작하기"
+      },
+      "building_exercism": {
+        "heading": "Exercism 만들기",
+        "paragraph": "Exercism을 만드는 방법에 관한 종합 문서예요. 트랙에 기여하는 방법에 대해 알아야 할 모든 것을 가이드, 명세, 설명과 함께 확인할 수 있어요.",
+        "learn_more_link": "더 알아보기"
+      },
+      "mentoring": {
+        "heading": "멘토링",
+        "paragraph": "Exercism에서 멘토링하는 기술을 이해하고 익혀봐요. 첫 세션을 시작하는 방법, 좋은 피드백을 주는 방법, 멘토링 인터페이스를 사용하는 방법을 문서에서 설명해요.",
+        "learn_more_link": "더 알아보기"
+      },
+      "community": {
+        "heading": "커뮤니티",
+        "paragraph": "우리 커뮤니티가 어떻게 돌아가는지, 사람들이 맡은 다양한 역할과 참여하는 방법을 알아봐요. 긍정적인 기여자이자 훌륭한 커뮤니티 구성원이 되는 방법도 배워봐요.",
+        "learn_more_link": "더 알아보기"
+      },
+      "track_specific_docs_heading": "그리고 물론, 트랙별 문서도 있어요"
+    },
+    "show": {
+      "meta_title": "%{doc_title} | Exercism 문서"
+    },
+    "track_index": {
+      "meta_title": "Exercism의 %{track_title} 트랙 문서",
+      "meta_description": "Exercism에서 %{track_title} 트랙을 사용하는 데 필요한 모든 것을 알려드려요.",
+      "track_title": "%{track_title} 문서",
+      "track_subtitle": "Exercism에서 %{track_title} 트랙을 사용하는 데 필요한 모든 것을 알려드려요.",
+      "explore_docs_paragraph": "%{track_title} 문서를 살펴보고, Exercism에서 %{track_title} 트랙을 최대한 활용하는 데 필요한 모든 것을 알아봐요. %{track_title} 설치부터 테스트 실행, 언어 학습, 유용한 자료까지 다뤄요."
+    },
+    "tracks": {
+      "meta_title": "Exercism 트랙 문서",
+      "meta_description": "Exercism과 함께 그 언어를 사용하는 방법에 관한 트랙별 문서",
+      "heading": "트랙별 문서",
+      "subtitle": "지금 배우고 있거나, 멘토링하고 있거나, 함께 만들고 있는 트랙의 문서를 살펴봐요."
+    }
+  },
+  "unsubscribe": {
+    "show": {
+      "title": "수신 설정 관리",
+      "single_email_unsubscribe": {
+        "heading": "이 이메일 구독 취소",
+        "button": "이메일 구독 취소"
+      },
+      "all_emails_unsubscribe": {
+        "heading": "모든 이메일 구독 취소",
+        "button": "모든 이메일 구독 취소"
+      },
+      "manage_notifications": {
+        "heading_signed_in": "모든 알림 관리",
+        "heading_signed_out": "모든 알림 관리",
+        "login_prompt": "개별 수신 설정을 관리하려면 로그인해 주세요",
+        "login_link": "로그인"
+      }
+    }
+  },
+  "user_onboarding": {
+    "show": {
+      "header": {
+        "title": "시작하기 전에 잠깐… 📝",
+        "subtitle_html": "여기 함께하게 되어 정말 기뻐요. Exercism이 여러분에게 값지고 즐거운 경험이 되길 바라요. <strong>기대하는 경험을 누릴 수 있도록, 그리고 우리 커뮤니티를 지키기 위해 꼭 짚고 넘어가야 할 약관이 몇 가지 있어요.</strong>"
+      },
+      "terms_section": {
+        "title": "서비스 약관",
+        "summary": "요약하면, 서비스 약관은 다음과 같아요:",
+        "code_of_conduct_html": "우리의 %{code_of_conduct_link}에 따라, Exercism이 추구하는 존중과 공감의 가치에 맞게 행동해 주셔야 해요. 그렇지 않으면 플랫폼 이용을 차단할 권리가 우리에게 있어요.",
+        "property_license": "사이트에 제출하는 모든 것(예: 풀이, 피드백 등)은 계속 여러분의 소유로 남지만, Exercism이 이를 영구적으로 원하는 방식으로 사용할 수 있는 라이선스를 부여하게 돼요.",
+        "licences_html": "연습 문제(Exercism이 제공)와 풀이(사용자가 작성)는 각각 %{mit_license_link}와 %{cc_sa_4_license_link} 라이선스에 따라 사용할 수 있어요.",
+        "full_terms_html": "%{terms_of_service_link}에서 전문을 읽어볼 수 있어요.",
+        "code_of_conduct_link_text": "행동 강령",
+        "terms_of_service_link_text": "서비스 약관",
+        "accept_terms": "Exercism의 서비스 약관에 동의해요"
+      },
+      "privacy_policy_section": {
+        "title": "개인정보 처리방침",
+        "summary_html": "우리의 개인정보 처리방침은 아주 간단해요. <strong>여러분의 정보를 Exercism 외부의 누구와도 절대 공유하지 않으며,</strong> 제3자 쿠키를 사용하지 않기 때문에 여기에서 아무도 여러분을 추적하지 않아요. %{privacy_policy_link}",
+        "privacy_policy_link_text": "여기에서 전문을 읽어보세요",
+        "accept_privacy_policy": "Exercism의 개인정보 처리방침에 동의해요"
+      },
+      "save_button": "저장하고 시작하기"
+    }
+  },
+  "premium_mailer": {
+    "payment_created": {
+      "body_markdown": "안녕하세요 %{user_handle}님,\n\nExercism에 후원해 주셔서 감사해요! 후원금은 재미있는 혜택을 드리는 것은 물론, Exercism의 핵심 제품을 모두에게 무료로 유지하는 데에도 쓰여요. 다시 한번 감사드려요.\n\n설정 페이지에서 지금까지 Exercism에 한 모든 결제 내역을 확인하고 영수증을 내려받을 수 있어요. 결제에 대해 궁금한 점이 있으면 이 이메일에 답장해 주세요.\n\nExercism Insiders를 즐기시길 바라요!\n"
+    }
+  }
+}

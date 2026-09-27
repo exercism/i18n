@@ -1,0 +1,45 @@
+# 소개
+
+일반적으로 함수는 정해진 개수의 인자만 받아요.
+하지만 마지막 매개변수의 타입 앞에 `...`을 붙이면, 함수는 뒤따르는 인자를 원하는 만큼 받을 수 있어요.
+이렇게 하면 마지막 매개변수가 _가변 매개변수_가 돼요.
+
+```go
+func sum(nums ...int) int {
+    total := 0
+    for _, n := range nums {
+        total += n
+    }
+    return total
+}
+```
+
+함수 안에서 가변 매개변수는 슬라이스예요.
+
+```go
+sum(1, 2, 3)    // nums is []int{1, 2, 3}
+sum(1, 2, 3, 4) // nums is []int{1, 2, 3, 4}
+sum()           // nums is []int{}
+```
+
+함수는 가변 매개변수 앞에 가변이 아닌 매개변수를 둘 수 있어요.
+함수는 가변 매개변수를 최대 하나만 가질 수 있고, 그것은 반드시 마지막 매개변수여야 해요.
+
+```go
+func greet(greeting string, names ...string) {
+    for _, name := range names {
+        fmt.Printf("%s, %s!\n", greeting, name)
+    }
+}
+```
+
+## 슬라이스 펼치기
+
+슬라이스를 가변 매개변수로 전달하려면, 슬라이스 뒤에 `...`을 붙여요.
+
+```go
+nums := []int{1, 2, 3}
+sum(nums...) // equivalent to sum(1, 2, 3)
+```
+
+`...`은 슬라이스를 가변 매개변수로 전달할 때만 쓸 수 있어요.
