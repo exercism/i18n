@@ -50,6 +50,7 @@ This page is generated from [the index](../../json/hi/roc.json) by `scripts/buil
 ### Baffling Birthdays (चौंकाने वाले जन्मदिन)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/baffling-birthdays/.docs/instructions.md)): [Latest](../../../locales/hi/content/a0/1e/c86796ac6bc6e2873dca01003a8e5f02ee32.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/baffling-birthdays/.docs/instructions.append.md)): [Latest](../../../locales/hi/content/81/e6/4513ae3c8973789ada4177ae86df2e29a970.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/baffling-birthdays/.docs/introduction.md)): [Latest](../../../locales/hi/content/97/da/bd1e6cfffbcb4a20748b3b328e8cbc284b98.md)
 
 ### Binary (बाइनरी)
