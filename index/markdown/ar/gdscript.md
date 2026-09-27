@@ -53,10 +53,20 @@ This page is generated from [the index](../../json/ar/gdscript.json) by `scripts
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/eliuds-eggs/.docs/instructions.md)): [Latest](../../../locales/ar/content/b0/c2/df593c0c15f1f94dfc13bddacffd6b0f5ddc.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/eliuds-eggs/.docs/introduction.md)): [Latest](../../../locales/ar/content/2b/2e/5c43d8b2546885ba33bb6c3c8bdc88e3b0dc.md)
 
+### ETL
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/etl/.docs/instructions.md)): [Latest](../../../locales/ar/content/80/28/63b5405bcf80186009792ed7c54ccb8d797e.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/etl/.docs/introduction.md)): [Latest](../../../locales/ar/content/5b/e6/5147d7f5170564e32b582966d522ed9f4ce8.md)
+
 ### Flatten Array (تسطيح المصفوفة)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/flatten-array/.docs/instructions.md)): [Latest](../../../locales/ar/content/b5/b8/2713d928a59e350e468d35c4ee92d49316cf.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/flatten-array/.docs/introduction.md)): [Latest](../../../locales/ar/content/a3/14/857465e75cc95c88b634ddd355f7393888ad.md)
+
+### Hamming
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/hamming/.docs/instructions.md)): [Latest](../../../locales/ar/content/8f/47/a179e01a680d8d8311f0a54ba239c9982431.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/hamming/.docs/introduction.md)): [Latest](../../../locales/ar/content/84/19/bf479e5ef43be61485408c3758b2c7bd16da.md)
 
 ### Hello World (مرحبًا بالعالم)
 
@@ -75,6 +85,11 @@ This page is generated from [the index](../../json/ar/gdscript.json) by `scripts
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/luhn/.docs/instructions.md)): [Latest](../../../locales/ar/content/77/02/c6bbb5f849683e3074163e48ce1154ad2957.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/luhn/.docs/introduction.md)): [Latest](../../../locales/ar/content/de/e4/8006eddee9458a5414ddc96c4b9d2fc9109f.md)
+
+### Matching Brackets (الأقواس المتطابقة)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/matching-brackets/.docs/instructions.md)): [Latest](../../../locales/ar/content/ea/17/0842326b8639a4d921462397a601ec5c9f4c.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/matching-brackets/.docs/introduction.md)): [Latest](../../../locales/ar/content/06/18/221b21efeaba2463792b44635639e410ddd8.md)
 
 ### Pangram (بانغرام)
 

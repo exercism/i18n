@@ -101,5 +101,14 @@
   "doc:tests:title": "الاختبار في مسار GDScript",
   "doc:tests:blurb": "تعرّف على كيفية اختبار تمارين GDScript الخاصة بك على Exercism",
   "doc:resources:title": "مصادر مفيدة عن GDScript",
-  "doc:resources:blurb": "مجموعة من المصادر المفيدة لمساعدتك على إتقان GDScript"
+  "doc:resources:blurb": "مجموعة من المصادر المفيدة لمساعدتك على إتقان GDScript",
+  "exercise:etl:name": "ETL",
+  "exercise:hamming:name": "Hamming",
+  "exercise:matching-brackets:name": "الأقواس المتطابقة",
+  "exercise:etl:blurb": "غيّر صيغة بيانات تسجيل النقاط في لعبة لتسهيل إضافة لغات أخرى.",
+  "exercise:etl:source": "مبني على تمرين من إعداد فريق JumpstartLab لطلاب The Turing School of Software and Design.",
+  "exercise:hamming:blurb": "احسب مسافة Hamming بين خيطَي DNA.",
+  "exercise:hamming:source": "مسألة Calculating Point Mutations على Rosalind",
+  "exercise:matching-brackets:blurb": "تأكد من تطابق كل الأقواس والأقواس المعقوفة.",
+  "exercise:matching-brackets:source": "Ginna Baker"
 }
