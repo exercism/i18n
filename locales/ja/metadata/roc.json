@@ -406,5 +406,7 @@
   "exercise:tree-building:name": "木の構築",
   "exercise:tree-building:blurb": "木を構築するアルゴリズムをリファクタリングします。",
   "exercise:satellite:name": "人工衛星",
-  "exercise:satellite:blurb": "行きがけ順と通りがけ順の走査から、二分木を再構築します。"
+  "exercise:satellite:blurb": "行きがけ順と通りがけ順の走査から、二分木を再構築します。",
+  "exercise:ledger:name": "帳簿",
+  "exercise:ledger:blurb": "帳簿のプリンターをリファクタリングします。"
 }

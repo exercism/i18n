@@ -406,5 +406,7 @@
   "exercise:react:blurb": "Υλοποίησε ένα βασικό αντιδραστικό σύστημα.",
   "exercise:swift-scheduling:name": "Swift Scheduling",
   "exercise:swift-scheduling:blurb": "Μετέτρεψε περιγραφές ημερομηνίας παράδοσης σε πραγματικές ημερομηνίες παράδοσης.",
-  "exercise:swift-scheduling:source": "Erik Schierboom"
+  "exercise:swift-scheduling:source": "Erik Schierboom",
+  "exercise:ledger:name": "Καθολικό",
+  "exercise:ledger:blurb": "Κάνε refactor σε έναν εκτυπωτή καθολικού."
 }

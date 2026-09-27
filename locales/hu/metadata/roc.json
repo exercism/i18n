@@ -406,5 +406,7 @@
   "exercise:react:blurb": "Valósíts meg egy alapvető reaktív rendszert.",
   "exercise:swift-scheduling:name": "Gyors ütemezés",
   "exercise:swift-scheduling:blurb": "Alakítsd át a szállítási dátum leírásait tényleges szállítási dátumokká.",
-  "exercise:swift-scheduling:source": "Erik Schierboom"
+  "exercise:swift-scheduling:source": "Erik Schierboom",
+  "exercise:ledger:name": "Főkönyv",
+  "exercise:ledger:blurb": "Refaktorálj egy főkönyvnyomtatót."
 }

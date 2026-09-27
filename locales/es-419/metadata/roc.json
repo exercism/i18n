@@ -406,5 +406,7 @@
   "exercise:tree-building:name": "Construcción de árboles",
   "exercise:tree-building:blurb": "Refactoriza un algoritmo de construcción de árboles.",
   "exercise:satellite:name": "Satélite",
-  "exercise:satellite:blurb": "Reconstruir árboles binarios a partir de recorridos en preorden e inorden."
+  "exercise:satellite:blurb": "Reconstruir árboles binarios a partir de recorridos en preorden e inorden.",
+  "exercise:ledger:name": "Libro mayor",
+  "exercise:ledger:blurb": "Refactoriza un programa que imprime un libro mayor."
 }

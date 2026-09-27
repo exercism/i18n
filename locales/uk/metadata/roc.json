@@ -406,5 +406,7 @@
   "exercise:react:blurb": "Реалізувати базову реактивну систему.",
   "exercise:swift-scheduling:name": "Швидке планування",
   "exercise:swift-scheduling:blurb": "Перетворіть описи дат доставки на конкретні дати доставки.",
-  "exercise:swift-scheduling:source": "Erik Schierboom"
+  "exercise:swift-scheduling:source": "Erik Schierboom",
+  "exercise:ledger:name": "Бухгалтерська книга",
+  "exercise:ledger:blurb": "Відрефакторте друкарку бухгалтерської книги."
 }

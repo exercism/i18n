@@ -406,5 +406,7 @@
   "exercise:react:blurb": "Implémente un système réactif simple.",
   "exercise:swift-scheduling:name": "Planification express",
   "exercise:swift-scheduling:blurb": "Convertis des descriptions de dates de livraison en dates de livraison réelles.",
-  "exercise:swift-scheduling:source": "Erik Schierboom"
+  "exercise:swift-scheduling:source": "Erik Schierboom",
+  "exercise:ledger:name": "Grand livre",
+  "exercise:ledger:blurb": "Réécris un imprimeur de grand livre."
 }

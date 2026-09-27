@@ -406,5 +406,7 @@
   "exercise:tree-building:name": "构建树",
   "exercise:tree-building:blurb": "重构一个构建树的算法。",
   "exercise:satellite:name": "卫星",
-  "exercise:satellite:blurb": "根据前序遍历和中序遍历重建二叉树。"
+  "exercise:satellite:blurb": "根据前序遍历和中序遍历重建二叉树。",
+  "exercise:ledger:name": "账本",
+  "exercise:ledger:blurb": "重构一个账本打印程序。"
 }
