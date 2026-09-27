@@ -1,0 +1,3 @@
+# Einführung
+
+Wörterbücher in Cairo bieten eine Möglichkeit, Schlüssel-Wert-Paare zu speichern und abzurufen, ähnlich wie Hash Maps oder Wörterbücher in anderen Sprachen. Da Cairo jedoch ein einzigartiges Speichermodell hat und eine wichtige Rolle beim Erzeugen von Beweisen für Berechnungen spielt, arbeiten sie unter der Haube ganz anders: Sie bieten Operationen mit $O(n)$-Komplexität und eine automatische Validierung durch einen Prozess namens „Squashing“. Zu verstehen, wie sich Wörterbücher in Cairo von ihren Gegenstücken in anderen Sprachen unterscheiden, ist entscheidend für das Schreiben effizienter Cairo-Programme.

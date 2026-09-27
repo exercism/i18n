@@ -1,0 +1,47 @@
+# Über Wren
+
+Wren ist eine kleine, schnelle, klassenbasierte, nebenläufige Skriptsprache. Stell dir Smalltalk vor, in einem Paket von der Größe von Lua, mit einer Prise Erlang, verpackt in eine vertraute, moderne Syntax.
+
+- **Klein.** Die VM besteht aus weniger als 4.000 Semikolons lesbarem und liebevoll kommentiertem C.
+
+- **Schnell.** Ein intelligenter Single-Pass-Compiler erzeugt kompakten, effizienten Bytecode.
+
+- **Klassenbasiert.** Klassen und Objekte stehen im Mittelpunkt.
+
+- **Nebenläufig.** Leichtgewichtige Fibers sind in die Sprache eingebaut.
+
+- **Skripting.** Einbettbar, keine Abhängigkeiten, eine kleine Standardbibliothek und eine einfach zu nutzende C-API.
+
+
+### Die VM
+
+Das Herz von Wren ist die VM. Die Wren Virtual Machine ist der Kern der Sprache und führt den gesamten Wren-Quellcode aus. Sie ist nur eine Bibliothek, keine eigenständige Anwendung. Sie ist darauf ausgelegt, in eine größere Host-Anwendung eingebettet zu werden.
+
+Du findest Wren eingebettet in Projekten wie:
+
+* [TIC-80](https://tic80.com) – ein Fantasiecomputer, mit dem du winzige Spiele erstellen, spielen und teilen kannst (ähnlich wie PICO8).
+* [DOME](https://domeengine.com) – ein plattformübergreifendes Framework zum Erstellen von Spielen.
+* [luxe](https://luxeengine.com) – eine plattformübergreifende Game-Engine für die schnelle Spieleentwicklung.
+* [Wren Console][wren-console] – eine Wren-REPL und Kommandozeile, die größtenteils in Wren selbst geschrieben ist.
+
+Du kannst Wren sogar in deine eigenen Projekte einbetten. Für Exercism verwenden wir als Host-Anwendung [Wren Console][wren-console] – damit können wir unsere Wren-Skripte vom Terminal aus ausführen und testen.
+
+
+### Warum Wren?
+
+Wren wurde ursprünglich von [Bob Nystrom](http://journal.stuffwithstuff.com) entwickelt, der durch [Crafting Interpreters](http://craftinginterpreters.com) bekannt wurde. Er hat schon so einige Sprachen hinter sich, aber er erklärt genau, was zur Entstehung von Wren geführt hat:
+
+> Es gibt ein paar Skriptsprachen, die man zum Einbetten in Anwendungen verwendet. Lua ist die wichtigste. TCL war es früher. Es gibt auch Guile, zunehmend JavaScript, und manche Anwendungen betten Python ein. Ich bin ein ehemaliger Spieleentwickler, deshalb denke ich bei „Skripting" eher an „Spiel-Skripting".
+
+> Lua ist schön: klein, einfach und schnell. Aber (und das soll keine Kritik sein) sie ist auch seltsam, wenn man an Sprachen wie C++ und Java gewöhnt ist. Die Syntax ist anders. Die Semantik, besonders das Objektmodell, ist ungewöhnlich. An 1-basierte Indizierung kann man sich gewöhnen, aber Dinge wie Metatabellen zeigen wirklich, dass Objekte nachträglich an Lua drangeschraubt wurden.
+
+> Ich denke, es gibt Raum für eine Sprache, die so einfach ist wie Lua, sich aber für jemanden mit objektorientiertem Hintergrund natürlich anfühlt. Wren ist mein Versuch, genau das zu schaffen.
+
+### Ausprobieren
+
+Du kannst es [schnell in deinem Webbrowser ausprobieren][try-it] (ohne etwas zu installieren). Wenn du mit Wren in einer schicken UI experimentieren möchtest, wirf einen Blick auf den [Wren Playground][wren-playground].
+
+[wren]: https://wren.io
+[wren-console]: https://github.com/joshgoebel/wren-console
+[wren-playground]: https://github.com/ninjascl/wren-playground
+[try-it]: https://wren.io/try/

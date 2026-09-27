@@ -1,0 +1,14 @@
+{
+  "exercise:hello-world:name": "Hello World",
+  "exercise:hello-world:blurb": "Die klassische Einstiegsübung. Sag einfach „Hello, World!“.",
+  "exercise:hello-world:source": "Dies ist eine Übung, um Nutzer an die Verwendung von Exercism heranzuführen",
+  "track:blurb": "Eine moderne, mächtige Sprache, die auf Ken Iversons Array-Programmierparadigma basiert.",
+  "doc:installation:title": "BQN lokal installieren",
+  "doc:installation:blurb": "Lerne, wie du BQN lokal installierst, um die Übungen von Exercism auf deinem eigenen Rechner zu lösen",
+  "doc:learning:title": "Wie du BQN lernst",
+  "doc:learning:blurb": "Ein Überblick, wie du von Grund auf mit BQN beginnst",
+  "doc:tests:title": "Testen im BQN-Track",
+  "doc:tests:blurb": "Lerne, wie du deine BQN-Übungen auf Exercism testest",
+  "doc:resources:title": "Nützliche BQN-Ressourcen",
+  "doc:resources:blurb": "Eine Sammlung nützlicher Ressourcen, die dir helfen, BQN zu meistern"
+}

@@ -1,0 +1,76 @@
+# Einleitung
+
+Ein [`Time`][time] in Go ist ein Typ, der einen Zeitpunkt beschreibt.
+Über seine Methoden kannst du auf die Datums- und Zeitinformationen zugreifen, sie vergleichen und verändern. Es gibt aber auch einige Funktionen, die du direkt im Paket `time` aufrufst.
+Das aktuelle Datum und die aktuelle Uhrzeit bekommst du mit der Funktion [`time.Now`][now].
+
+Die Funktion [`time.Parse`][parse] wandelt Strings in Werte vom Typ `Time` um.
+Go hat eine besondere Art, wie du das Layout angibst, das du beim Parsen erwartest.
+Du schreibst ein Beispiel für das Layout und verwendest dabei die Werte aus diesem besonderen Zeitstempel:
+`Mon Jan 2 15:04:05 -0700 MST 2006`.
+
+Zum Beispiel:
+
+```go
+import "time"
+
+func parseTime() time.Time {
+    date := "Tue, 09/22/1995, 13:00"
+    layout := "Mon, 01/02/2006, 15:04"
+
+    t, err := time.Parse(layout,date) // time.Time, error
+}
+
+// => 1995-09-22 13:00:00 +0000 UTC
+```
+
+Die Methode [`Time.Format()`][format] gibt eine String-Darstellung der Zeit zurück.
+Genau wie bei der Funktion `Parse` wird auch hier das Ziel-Layout über ein Beispiel definiert, das die Werte aus dem besonderen Zeitstempel verwendet.
+
+Zum Beispiel:
+
+```go
+import (
+    "fmt"
+    "time"
+)
+
+func main() {
+    t := time.Date(1995,time.September,22,13,0,0,0,time.UTC)
+    formattedTime := t.Format("Mon, 01/02/2006, 15:04") // string
+    fmt.Println(formattedTime)
+}
+
+// => Fri, 09/22/1995, 13:00
+```
+
+## Layout-Optionen
+
+Für ein eigenes Layout kombinierst du diese Optionen.
+In Go gibt es außerdem vordefinierte [Formatkonstanten][const] für Datum und Zeitstempel.
+
+| Zeit        | Optionen                                       |
+| ----------- | ---------------------------------------------- |
+| Jahr        | 2006 ; 06                                      |
+| Monat       | Jan ; January ; 01 ; 1                         |
+| Tag         | 02 ; 2 ; \_2 (für führende Null)               |
+| Wochentag   | Mon ; Monday                                   |
+| Stunde      | 15 ( 24-Stunden-Format ) ; 3 ; 03 (AM oder PM) |
+| Minute      | 04 ; 4                                         |
+| Sekunde     | 05 ; 5                                         |
+| AM/PM-Kennzeichen | PM                                       |
+| Tag des Jahres | 002 ; \_\_2                                 |
+
+Der Typ `time.Time` hat verschiedene Methoden, um auf einen bestimmten Zeitanteil zuzugreifen, z. B. Stunde: [`Time.Hour()`][hour], Monat: [`Time.Month()`][month].
+Mehr dazu, wie das funktioniert, findest du in der [offiziellen Dokumentation][time].
+
+Das Paket [`time`][time] enthält einen weiteren Typ, [`Duration`][duration], der eine verstrichene Zeitspanne darstellt. Außerdem unterstützt es Orte/Zeitzonen, Timer und weitere verwandte Funktionen, die in einem anderen Konzept behandelt werden.
+
+[time]: https://golang.org/pkg/time/#Time
+[now]: https://golang.org/pkg/time/#Now
+[const]: https://pkg.go.dev/time#pkg-constants
+[format]: https://pkg.go.dev/time#Time.Format
+[hour]: https://pkg.go.dev/time#Time.Hour
+[month]: https://pkg.go.dev/time/#Time.Month
+[duration]: https://pkg.go.dev/time#Duration
+[parse]: https://golang.org/pkg/time/#Parse

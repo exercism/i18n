@@ -1,0 +1,17 @@
+{
+  "exercise:hello-world:name": "Hello World",
+  "exercise:leap:name": "Schaltjahr",
+  "exercise:hello-world:source": "Dies ist eine Übung, um Nutzer an die Verwendung von Exercism heranzuführen",
+  "exercise:leap:blurb": "Bestimme, ob ein gegebenes Jahr ein Schaltjahr ist.",
+  "exercise:leap:source": "CodeRanch Cattle Drive, Aufgabe 3",
+  "track:blurb": "TODO: Kurzbeschreibung hinzufügen",
+  "exercise:hello-world:blurb": "Die klassische Einstiegsübung. Sag einfach „Hello, World!“.",
+  "doc:installation:title": "ARM32 Assembly lokal installieren",
+  "doc:installation:blurb": "Erfahre, wie du ARM32 Assembly lokal installierst, um Exercism-Übungen auf deinem eigenen Rechner zu lösen",
+  "doc:learning:title": "Wie du ARM32 Assembly lernst",
+  "doc:learning:blurb": "Ein Überblick, wie du mit ARM32 Assembly von Grund auf startest",
+  "doc:tests:title": "Testen im ARM32-Assembly-Track",
+  "doc:tests:blurb": "Erfahre, wie du deine ARM32-Assembly-Übungen auf Exercism testest",
+  "doc:resources:title": "Nützliche Ressourcen für ARM32 Assembly",
+  "doc:resources:blurb": "Eine Sammlung nützlicher Ressourcen, mit denen du ARM32 Assembly meistern kannst"
+}
