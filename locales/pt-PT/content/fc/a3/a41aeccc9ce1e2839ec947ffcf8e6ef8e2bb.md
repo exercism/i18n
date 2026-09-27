@@ -1,0 +1,14 @@
+# Instruções
+
+Gere as configurações de fábrica dos robôs.
+
+Quando um robô sai da linha de montagem, não tem nome.
+
+Da primeira vez que ligas um robô, é gerado um nome aleatório no formato de duas letras maiúsculas seguidas de três algarismos, como RX837 ou BC811.
+
+De vez em quando, é preciso repor um robô nas configurações de fábrica. Isso faz com que o nome seja apagado.
+Da próxima vez que perguntas, o robô responde com um novo nome aleatório.
+
+Os nomes têm de ser aleatórios: não devem seguir uma sequência previsível.
+Usar nomes aleatórios implica um risco de colisões.
+A tua solução tem de garantir que todos os robôs existentes têm um nome único.
