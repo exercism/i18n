@@ -1,0 +1,10 @@
+{
+  "exercise:hello-world:name": "Hello World",
+  "exercise:resistor-color-duo:name": "저항 색상 듀오",
+  "exercise:hello-world:blurb": "고전적인 입문 연습 문제예요. \"Hello, World!\"라고 출력해 봐요",
+  "exercise:hello-world:source": "사용자에게 Exercism 사용법을 소개하기 위한 연습 문제",
+  "exercise:resistor-color-duo:blurb": "저항기에 사용되는 색상 코드를 숫자 값으로 변환해요.",
+  "exercise:resistor-color-duo:source": "Maud de Vries, Erik Schierboom",
+  "track:blurb": "Solidity는 C++, Python, JavaScript의 영향을 크게 받은 프로그래밍 언어예요. _EVM_이라고도 하는 이더리움 가상 머신을 사용하는 객체 지향 언어이고, ECMAScript와 비슷한 문법을 갖고 있어서 누군가에게는 익숙하게 보이지만 정적 타입 언어이며 반환 타입의 개수가 가변적이에요.",
+  "exercise:token-transfer:name": "토큰 전송"
+}

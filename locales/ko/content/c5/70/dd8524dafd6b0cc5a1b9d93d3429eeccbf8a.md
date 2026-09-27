@@ -1,0 +1,17 @@
+# 소개
+
+주요 산술 연산자와 비교 연산자는 직접 만든 클래스와 구조체에서도 사용할 수 있도록 바꿀 수 있어요. 이것을 _연산자 오버로딩_이라고 해요.
+
+대부분의 연산자는 다음과 같은 형태예요:
+
+```csharp
+static <return type> operator <operator symbols>(<parameters>);
+```
+
+캐스트 연산자는 다음과 같은 형태예요:
+
+```csharp
+static (explicit|implicit) operator <cast-to-type>(<cast-from-type> <parameter name>);
+```
+
+연산자는 정적 메서드와 같은 방식으로 동작해요. 연산자 기호는 메서드 식별자를 대신하고, 연산자에도 매개변수와 반환 타입이 있어요. 매개변수와 반환 타입에 적용되는 타입 규칙은 직관적으로 이해할 수 있고, 자세한 안내는 컴파일러가 해줘요.

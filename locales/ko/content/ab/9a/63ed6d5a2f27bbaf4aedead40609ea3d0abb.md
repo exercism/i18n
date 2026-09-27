@@ -1,0 +1,62 @@
+# 개요
+
+## _if-then_ 문
+
+Java에서 가장 기본적인 제어문은 [_if-then_ 문][if-statement]이에요.
+이 문은 특정 조건이 `true`일 때에만 코드의 일부를 실행할 때 사용해요.
+_if-then_ 문은 `if` 절을 사용해 정의해요:
+
+```java
+class Car {
+    void drive() {
+        // the "if" clause: the car needs to have fuel left to drive
+        if (fuel > 0) {
+            // the "then" clause: the car drives, consuming fuel
+            fuel--;
+        }
+    }
+}
+```
+
+위 예제에서 자동차에 연료가 없으면, `Car.drive` 메서드를 호출해도 아무 일도 일어나지 않아요.
+
+## _if-then-else_ 문
+
+_if-then-else_ 문은 `if` 절의 조건이 `false`로 평가될 때 실행할 다른 경로를 제공해요.
+이 대체 실행 경로는 `if` 절 뒤에 오며, `else` 절을 사용해 정의해요:
+
+```java
+class Car {
+    void drive() {
+        if (fuel > 0) {
+            fuel--;
+        } else {
+            stop();
+        }
+    }
+}
+```
+
+위 예제에서 자동차에 연료가 없으면, `Car.drive` 메서드를 호출할 때 자동차를 멈추는 다른 메서드가 호출돼요.
+
+_if-then-else_ 문은 `else if` 절을 사용해 여러 조건을 지원하기도 해요:
+
+```java
+class Car {
+    void drive() {
+        if (fuel > 5) {
+            fuel--;
+        } else if (fuel > 0) {
+            turnOnFuelLight();
+            fuel--;
+        } else {
+            stop();
+        }
+    }
+}
+```
+
+위 예제에서 연료가 `5` 이하일 때 자동차를 운전하면 자동차는 계속 움직이지만, 연료 경고등이 켜져요.
+연료가 `0`이 되면 자동차는 더 이상 움직이지 않아요.
+
+[if-statement]: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/if.html

@@ -1,0 +1,6 @@
+{
+  "track:blurb": "TODO: 소개 문구 추가",
+  "exercise:hello-world:name": "Hello World",
+  "exercise:hello-world:blurb": "고전적인 입문 연습 문제예요. \"Hello, World!\"라고 말해 봐요.",
+  "exercise:hello-world:source": "사용자에게 Exercism 사용법을 소개하기 위한 연습 문제"
+}

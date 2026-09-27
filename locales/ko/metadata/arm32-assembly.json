@@ -1,0 +1,17 @@
+{
+  "exercise:hello-world:name": "Hello World",
+  "exercise:leap:name": "윤년",
+  "exercise:hello-world:source": "사용자에게 Exercism 사용법을 소개하기 위한 연습 문제",
+  "exercise:leap:blurb": "주어진 연도가 윤년인지 판별해요.",
+  "exercise:leap:source": "CodeRanch Cattle Drive, Assignment 3",
+  "track:blurb": "TODO: 소개 문구 추가",
+  "exercise:hello-world:blurb": "고전적인 입문 연습 문제예요. \"Hello, World!\"라고 말해 봐요.",
+  "doc:installation:title": "로컬에 ARM32 Assembly 설치하기",
+  "doc:installation:blurb": "내 컴퓨터에 ARM32 Assembly를 설치해서 Exercism의 연습 문제를 푸는 방법을 알아봐요",
+  "doc:learning:title": "ARM32 Assembly 학습 방법",
+  "doc:learning:blurb": "ARM32 Assembly를 처음부터 시작하는 방법을 살펴봐요",
+  "doc:tests:title": "ARM32 Assembly 트랙에서 테스트하기",
+  "doc:tests:blurb": "Exercism에서 ARM32 Assembly 연습 문제를 테스트하는 방법을 알아봐요",
+  "doc:resources:title": "유용한 ARM32 Assembly 자료",
+  "doc:resources:blurb": "ARM32 Assembly를 익히는 데 도움이 되는 유용한 자료 모음"
+}
