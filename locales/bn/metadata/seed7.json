@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: বিবরণ যোগ করুন",
+  "doc:installation:title": "স্থানীয়ভাবে Seed7 ইনস্টল করা",
+  "doc:installation:blurb": "নিজের কম্পিউটারে Exercism-এর অনুশীলনী সমাধান করতে স্থানীয়ভাবে Seed7 ইনস্টল করা শিখুন।",
+  "doc:learning:title": "কীভাবে Seed7 শিখবেন",
+  "doc:learning:blurb": "একেবারে শুরু থেকে Seed7 শুরু করার একটি পরিচিতি।",
+  "doc:tests:title": "Seed7 ট্র্যাকে টেস্ট করা",
+  "doc:tests:blurb": "Exercism-এ আপনার Seed7 অনুশীলনীগুলো কীভাবে টেস্ট করবেন তা শিখুন।",
+  "doc:resources:title": "কাজের Seed7 রিসোর্স",
+  "doc:resources:blurb": "Seed7-এ দক্ষতা অর্জনে সহায়ক কাজের রিসোর্সের একটি সংগ্রহ।"
+}

@@ -1,0 +1,10 @@
+{
+  "exercise:hello-world:name": "Hello World",
+  "exercise:resistor-color-duo:name": "রেজিস্টর কালার ডুও",
+  "exercise:hello-world:blurb": "চিরায়ত সূচনা অনুশীলনী। শুধু বলুন \"Hello, World!\"",
+  "exercise:hello-world:source": "এটি Exercism ব্যবহারের সাথে ব্যবহারকারীদের পরিচয় করিয়ে দেওয়ার একটি অনুশীলনী",
+  "exercise:resistor-color-duo:blurb": "রেজিস্টরে যেভাবে ব্যবহৃত হয়, সেই কালার কোডগুলোকে একটি সংখ্যাগত মানে রূপান্তর করুন।",
+  "exercise:resistor-color-duo:source": "Maud de Vries, Erik Schierboom",
+  "track:blurb": "মূলত Solidity একটি প্রোগ্রামিং ভাষা, যা C++, Python এবং JavaScript দ্বারা গভীরভাবে প্রভাবিত। এটি একটি অবজেক্ট-ওরিয়েন্টেড ভাষা, যা Ethereum Virtual Machine তথা _EVM_ ব্যবহার করে। এর ECMAScript-এর মতো সিনট্যাক্স থাকায় কিছু মানুষের কাছে পরিচিত মনে হয়, আবার এটি স্ট্যাটিক টাইপড, এবং এতে ভ্যারিয়েডিক রিটার্ন টাইপ রয়েছে।",
+  "exercise:token-transfer:name": "টোকেন ট্রান্সফার"
+}

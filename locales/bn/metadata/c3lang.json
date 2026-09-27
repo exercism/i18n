@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: বিবরণ যোগ করুন",
+  "doc:installation:title": "নিজের কম্পিউটারে C3 ইনস্টল করা",
+  "doc:installation:blurb": "নিজের কম্পিউটারে Exercism-এর অনুশীলনী সমাধান করতে C3 কীভাবে ইনস্টল করবেন, তা শিখুন।",
+  "doc:learning:title": "C3 কীভাবে শিখবেন",
+  "doc:learning:blurb": "একেবারে শুরু থেকে C3 কীভাবে শুরু করবেন, তার একটি সংক্ষিপ্ত পরিচিতি।",
+  "doc:tests:title": "C3 ট্র্যাকে টেস্টিং",
+  "doc:tests:blurb": "Exercism-এ আপনার C3 অনুশীলনীগুলো কীভাবে টেস্ট করবেন, তা শিখুন।",
+  "doc:resources:title": "উপকারী C3 রিসোর্স",
+  "doc:resources:blurb": "C3-এ দক্ষতা অর্জনে সহায়ক উপকারী রিসোর্সের একটি সংগ্রহ।"
+}

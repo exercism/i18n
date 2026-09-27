@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: বিবরণ যোগ করুন",
+  "doc:installation:title": "নিজের কম্পিউটারে Dataweave ইনস্টল করা",
+  "doc:installation:blurb": "নিজের মেশিনে Exercism-এর অনুশীলনীগুলো সমাধান করতে Dataweave কীভাবে স্থানীয়ভাবে ইনস্টল করবেন, তা শিখুন।",
+  "doc:learning:title": "Dataweave শেখার উপায়",
+  "doc:learning:blurb": "শূন্য থেকে Dataweave শুরু করার বিষয়ে একটি সংক্ষিপ্ত পরিচিতি।",
+  "doc:tests:title": "Dataweave ট্র্যাকে টেস্ট করা",
+  "doc:tests:blurb": "Exercism-এ আপনার Dataweave অনুশীলনীগুলো কীভাবে টেস্ট করবেন, তা শিখুন।",
+  "doc:resources:title": "Dataweave-এর দরকারি রিসোর্স",
+  "doc:resources:blurb": "Dataweave-এ দক্ষ হয়ে উঠতে সহায়ক দরকারি রিসোর্সের একটি সংগ্রহ।"
+}

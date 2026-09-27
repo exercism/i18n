@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: বিবরণ যোগ করুন",
+  "doc:installation:title": "Triton VM assembly স্থানীয়ভাবে ইনস্টল করা",
+  "doc:installation:blurb": "Exercism-এর অনুশীলনীগুলো আপনার নিজের মেশিনে সমাধান করার জন্য স্থানীয়ভাবে Triton VM assembly ইনস্টল করার পদ্ধতি শিখুন।",
+  "doc:learning:title": "Triton VM assembly শেখার উপায়",
+  "doc:learning:blurb": "Triton VM assembly একদম শুরু থেকে শেখার একটি সংক্ষিপ্ত বিবরণ",
+  "doc:tests:title": "Triton VM assembly ট্র্যাকে টেস্টিং",
+  "doc:tests:blurb": "Exercism-এ আপনার Triton VM assembly অনুশীলনীগুলো কীভাবে টেস্ট করবেন তা শিখুন।",
+  "doc:resources:title": "Triton VM assembly-এর দরকারি রিসোর্স",
+  "doc:resources:blurb": "Triton VM assembly-এ দক্ষতা অর্জন করতে সহায়ক দরকারি রিসোর্সের একটি সংগ্রহ"
+}

@@ -1,0 +1,14 @@
+{
+  "exercise:hello-world:name": "Hello World",
+  "exercise:hello-world:blurb": "চিরায়ত পরিচিতিমূলক অনুশীলনী। শুধু \"Hello, World!\" বলুন।",
+  "exercise:hello-world:source": "এটি Exercism ব্যবহারের সাথে ব্যবহারকারীদের পরিচয় করিয়ে দেওয়ার একটি অনুশীলনী",
+  "track:blurb": "আধুনিক, শক্তিশালী ভাষা, যা কেন আইভারসনের অ্যারে প্রোগ্রামিং প্যারাডাইমকে কেন্দ্র করে গড়ে উঠেছে।",
+  "doc:installation:title": "স্থানীয়ভাবে BQN ইনস্টল করা",
+  "doc:installation:blurb": "নিজের মেশিনে Exercism-এর অনুশীলনী সমাধান করতে স্থানীয়ভাবে BQN ইনস্টল করার পদ্ধতি শিখুন",
+  "doc:learning:title": "BQN শেখার উপায়",
+  "doc:learning:blurb": "একেবারে শুরু থেকে BQN শুরু করার একটি সংক্ষিপ্ত বিবরণ",
+  "doc:tests:title": "BQN ট্র্যাকে টেস্টিং",
+  "doc:tests:blurb": "Exercism-এ আপনার BQN অনুশীলনীগুলো টেস্ট করার পদ্ধতি শিখুন",
+  "doc:resources:title": "উপকারী BQN রিসোর্স",
+  "doc:resources:blurb": "BQN-এ দক্ষতা অর্জনে সহায়ক উপকারী রিসোর্সের সংগ্রহ"
+}

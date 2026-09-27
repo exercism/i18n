@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: বিবরণ যোগ করুন",
+  "doc:installation:title": "Dyalog APL স্থানীয়ভাবে ইনস্টল করা",
+  "doc:installation:blurb": "নিজের মেশিনে Exercism-এর অনুশীলনীগুলো সমাধান করতে Dyalog APL কীভাবে স্থানীয়ভাবে ইনস্টল করবেন, তা শিখুন",
+  "doc:learning:title": "Dyalog APL কীভাবে শিখবেন",
+  "doc:learning:blurb": "Dyalog APL দিয়ে শূন্য থেকে যেভাবে শুরু করবেন তার সংক্ষিপ্ত পরিচয়",
+  "doc:tests:title": "Dyalog APL ট্র্যাকে টেস্ট করা",
+  "doc:tests:blurb": "Exercism-এ আপনার Dyalog APL অনুশীলনীগুলো কীভাবে টেস্ট করবেন, তা শিখুন",
+  "doc:resources:title": "Dyalog APL-এর দরকারি রিসোর্স",
+  "doc:resources:blurb": "Dyalog APL-এ দক্ষ হয়ে উঠতে সাহায্য করবে এমন দরকারি রিসোর্সের একটি সংগ্রহ"
+}

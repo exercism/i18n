@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: বিবরণ যোগ করুন",
+  "doc:installation:title": "নিজের মেশিনে Tact ইনস্টল করা",
+  "doc:installation:blurb": "Exercism-এর অনুশীলনী নিজের মেশিনে সমাধান করতে Tact কীভাবে ইনস্টল করবেন, তা শিখুন।",
+  "doc:learning:title": "Tact শেখার উপায়",
+  "doc:learning:blurb": "একেবারে শুরু থেকে কীভাবে Tact শুরু করবেন, তার একটি পরিচিতি।",
+  "doc:tests:title": "Tact ট্র্যাকে টেস্টিং",
+  "doc:tests:blurb": "Exercism-এ আপনার Tact অনুশীলনী কীভাবে টেস্ট করবেন, তা শিখুন।",
+  "doc:resources:title": "Tact-এর দরকারি রিসোর্স",
+  "doc:resources:blurb": "Tact-এ দক্ষতা অর্জনে সহায়ক দরকারি রিসোর্সের একটি সংগ্রহ।"
+}

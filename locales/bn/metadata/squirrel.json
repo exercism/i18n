@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: বিবরণ যোগ করুন",
+  "doc:installation:title": "নিজের কম্পিউটারে Squirrel ইনস্টল করা",
+  "doc:installation:blurb": "নিজের মেশিনে Exercism-এর অনুশীলনীগুলো সমাধান করতে Squirrel স্থানীয়ভাবে ইনস্টল করা শিখুন।",
+  "doc:learning:title": "Squirrel শেখার উপায়",
+  "doc:learning:blurb": "একেবারে শূন্য থেকে Squirrel শুরু করার একটি সংক্ষিপ্ত পরিচিতি।",
+  "doc:tests:title": "Squirrel ট্র্যাকের টেস্টিং",
+  "doc:tests:blurb": "Exercism-এ আপনার Squirrel অনুশীলনীগুলো কীভাবে টেস্ট করবেন তা শিখুন।",
+  "doc:resources:title": "দরকারি Squirrel রিসোর্স",
+  "doc:resources:blurb": "Squirrel-এ দক্ষ হয়ে উঠতে সাহায্য করবে এমন দরকারি রিসোর্সের একটি সংগ্রহ।"
+}
