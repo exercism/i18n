@@ -1,0 +1,15 @@
+# یادگیری
+
+Tcl با این هدف طراحی شد که بسیار ساده و در عین حال قدرتمند باشد. به همین دلیل، یادگیری [نحوه‌ی نگارش پایه‌ی Tcl][syntax] نسبتاً آسان است.
+
+برای یک آموزش عملی، به [Learn X in Y minutes: Tcl][X-in-Y] مراجعه کنید.
+
+برای یک آموزش جامع و چندبخشی:
+ - [The Tcl tutorial][tutorial] نسخه‌ی ۸٫۵ را پوشش می‌دهد (نسخه‌ی پایدار کنونی ۹٫۰ است)
+ - پشتیبانی از برنامه‌نویسی شیء‌گرا در نسخه‌ی ۸٫۶ به هسته‌ی Tcl افزوده شد.
+   Magicsplat [آموزش کامل شیء‌گرایی][oo-tutorial] دارد که همین موضوع را پوشش می‌دهد.
+
+[syntax]: https://www.tcl-lang.org/man/tcl8.6/TclCmd/Tcl.htm
+[X-in-Y]: https://learnxinyminutes.com/docs/tcl/
+[tutorial]: https://www.tcl-lang.org/man/tcl8.5/tutorial/tcltutorial.html
+[oo-tutorial]: https://www.magicsplat.com/articles/oo.html

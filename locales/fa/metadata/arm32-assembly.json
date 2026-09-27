@@ -1,0 +1,17 @@
+{
+  "exercise:hello-world:name": "سلام دنیا",
+  "exercise:leap:name": "سال کبیسه",
+  "exercise:hello-world:source": "این تمرینی است که کاربران را با استفاده از Exercism آشنا می‌کند",
+  "exercise:leap:blurb": "مشخص کنید که آیا سال داده‌شده کبیسه است یا نه.",
+  "exercise:leap:source": "CodeRanch Cattle Drive، تکلیف ۳",
+  "track:blurb": "TODO: افزودن توضیح کوتاه",
+  "exercise:hello-world:blurb": "تمرین مقدماتی کلاسیک. فقط بگویید «Hello, World!».",
+  "doc:installation:title": "نصب محلی ARM32 Assembly",
+  "doc:installation:blurb": "بیاموزید چگونه ARM32 Assembly را به‌صورت محلی نصب کنید تا تمرین‌های Exercism را روی دستگاه خودتان حل کنید.",
+  "doc:learning:title": "چگونه ARM32 Assembly را یاد بگیریم",
+  "doc:learning:blurb": "مروری بر چگونگی شروع کار از صفر با ARM32 Assembly",
+  "doc:tests:title": "آزمایش در مسیر ARM32 Assembly",
+  "doc:tests:blurb": "بیاموزید چگونه تمرین‌های ARM32 Assembly خود را در Exercism آزمایش کنید.",
+  "doc:resources:title": "منابع مفید ARM32 Assembly",
+  "doc:resources:blurb": "مجموعه‌ای از منابع مفید که به شما کمک می‌کند بر ARM32 Assembly تسلط پیدا کنید."
+}

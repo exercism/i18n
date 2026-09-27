@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: افزودن توضیح کوتاه",
+  "doc:installation:title": "نصب C3 به‌صورت محلی",
+  "doc:installation:blurb": "بیاموزید چگونه C3 را به‌صورت محلی نصب کنید تا تمرین‌های Exercism را روی دستگاه خودتان حل کنید",
+  "doc:learning:title": "چگونه C3 را یاد بگیریم",
+  "doc:learning:blurb": "مروری بر اینکه چگونه C3 را از صفر شروع کنید",
+  "doc:tests:title": "تست کردن در مسیر C3",
+  "doc:tests:blurb": "بیاموزید چگونه تمرین‌های C3 خود را در Exercism تست کنید",
+  "doc:resources:title": "منابع مفید C3",
+  "doc:resources:blurb": "مجموعه‌ای از منابع مفید که به شما کمک می‌کند بر C3 مسلط شوید"
+}

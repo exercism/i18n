@@ -1,0 +1,14 @@
+{
+  "exercise:hello-world:name": "سلام دنیا",
+  "exercise:hello-world:blurb": "تمرین مقدماتی کلاسیک. فقط بگویید «Hello, World!».",
+  "exercise:hello-world:source": "این تمرینی است که کاربران را با استفاده از Exercism آشنا می‌کند",
+  "track:blurb": "زبانی مدرن و قدرتمند که بر پارادایم برنامه‌نویسی آرایه‌ای کن آیورسون استوار است.",
+  "doc:installation:title": "نصب BQN به‌صورت محلی",
+  "doc:installation:blurb": "یاد بگیرید چطور BQN را به‌صورت محلی نصب کنید تا تمرین‌های Exercism را روی دستگاه خودتان حل کنید",
+  "doc:learning:title": "چگونه BQN را یاد بگیریم",
+  "doc:learning:blurb": "مروری بر اینکه چطور از صفر با BQN شروع کنید",
+  "doc:tests:title": "تست در مسیر BQN",
+  "doc:tests:blurb": "یاد بگیرید چطور تمرین‌های BQN خود را در Exercism تست کنید",
+  "doc:resources:title": "منابع مفید BQN",
+  "doc:resources:blurb": "مجموعه‌ای از منابع مفید که به شما کمک می‌کند در BQN مسلط شوید"
+}

@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: افزودن توضیح کوتاه",
+  "doc:installation:title": "نصب Triton VM assembly به‌صورت محلی",
+  "doc:installation:blurb": "یاد بگیرید چگونه Triton VM assembly را به‌صورت محلی نصب کنید تا تمرین‌های Exercism را روی سیستم خودتان حل کنید",
+  "doc:learning:title": "چگونه Triton VM assembly را یاد بگیریم",
+  "doc:learning:blurb": "مروری بر اینکه چگونه از صفر با Triton VM assembly شروع کنید",
+  "doc:tests:title": "تست در مسیر Triton VM assembly",
+  "doc:tests:blurb": "یاد بگیرید چگونه تمرین‌های Triton VM assembly خود را در Exercism تست کنید",
+  "doc:resources:title": "منابع مفید Triton VM assembly",
+  "doc:resources:blurb": "مجموعه‌ای از منابع مفید که به شما کمک می‌کند بر Triton VM assembly مسلط شوید"
+}
