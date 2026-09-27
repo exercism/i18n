@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: أضف نبذة",
+  "doc:installation:title": "تثبيت Dyalog APL محليًا",
+  "doc:installation:blurb": "تعلّم كيفية تثبيت Dyalog APL محليًا لحل تمارين Exercism على جهازك الخاص",
+  "doc:learning:title": "كيفية تعلّم Dyalog APL",
+  "doc:learning:blurb": "نظرة عامة على كيفية البدء من الصفر مع Dyalog APL",
+  "doc:tests:title": "الاختبار في مسار Dyalog APL",
+  "doc:tests:blurb": "تعلّم كيفية اختبار تمارينك في Dyalog APL على Exercism",
+  "doc:resources:title": "موارد مفيدة عن Dyalog APL",
+  "doc:resources:blurb": "مجموعة من الموارد المفيدة لمساعدتك على إتقان Dyalog APL"
+}

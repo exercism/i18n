@@ -1,0 +1,11 @@
+{
+  "track:blurb": "TODO: أضف نبذة",
+  "doc:installation:title": "تثبيت لغة تجميع Triton VM محليًا",
+  "doc:installation:blurb": "تعلّم كيفية تثبيت لغة تجميع Triton VM محليًا لحل تمارين Exercism على جهازك",
+  "doc:learning:title": "كيف تتعلم لغة تجميع Triton VM",
+  "doc:learning:blurb": "نظرة عامة على كيفية البدء من الصفر مع لغة تجميع Triton VM",
+  "doc:tests:title": "الاختبار في مسار لغة تجميع Triton VM",
+  "doc:tests:blurb": "تعلّم كيفية اختبار تمارين لغة تجميع Triton VM على Exercism",
+  "doc:resources:title": "مصادر مفيدة للغة تجميع Triton VM",
+  "doc:resources:blurb": "مجموعة من المصادر المفيدة لمساعدتك على إتقان لغة تجميع Triton VM"
+}

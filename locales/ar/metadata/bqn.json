@@ -1,0 +1,14 @@
+{
+  "exercise:hello-world:name": "مرحبًا بالعالم",
+  "exercise:hello-world:blurb": "تمرين المقدمة الكلاسيكي. قل فقط \"Hello, World!\".",
+  "exercise:hello-world:source": "هذا تمرين لتعريف المستخدمين بكيفية استخدام Exercism",
+  "track:blurb": "لغة حديثة وقوية تتمحور حول نموذج كين إيفرسون للبرمجة بالمصفوفات.",
+  "doc:installation:title": "تثبيت BQN محليًا",
+  "doc:installation:blurb": "تعلّم كيف تثبّت BQN محليًا لحل تمارين Exercism على جهازك.",
+  "doc:learning:title": "كيف تتعلم BQN",
+  "doc:learning:blurb": "نظرة عامة على كيفية البدء مع BQN من الصفر.",
+  "doc:tests:title": "الاختبار في مسار BQN",
+  "doc:tests:blurb": "تعلّم كيف تختبر تمارين BQN على Exercism.",
+  "doc:resources:title": "مصادر مفيدة لتعلّم BQN",
+  "doc:resources:blurb": "مجموعة من المصادر المفيدة التي تساعدك على إتقان BQN."
+}

@@ -1,0 +1,13 @@
+{
+  "exercise:hello-world:name": "مرحبًا بالعالم",
+  "exercise:rna-transcription:name": "نسخ RNA",
+  "exercise:hello-world:blurb": "التمرين التمهيدي الكلاسيكي. قل فقط \"Hello, World!\"",
+  "exercise:hello-world:source": "هذا تمرين لتعريف المستخدمين بكيفية استخدام Exercism",
+  "exercise:rna-transcription:blurb": "بالنظر إلى سلسلة DNA، أرجع نسخها التكميلي من RNA.",
+  "exercise:rna-transcription:source": "Hyperphysics",
+  "track:blurb": "Coq هو مساعد إثبات. باستخدام Coq، يمكنك كتابة أوصاف صورية للتعريفات الرياضية والخوارزميات والمبرهنات. كما يوفر Coq تكتيكات لتطوير براهين مُتحقَّق منها آليًا بطريقة تفاعلية.",
+  "exercise:tautology:name": "التحصيل الحاصل",
+  "exercise:tautology:blurb": "القاعدة الأولى لنادي التحصيل الحاصل هي القاعدة الأولى لنادي التحصيل الحاصل ",
+  "doc:learning:title": "كيف تتعلم Coq",
+  "doc:learning:blurb": "نظرة عامة على كيفية البدء من الصفر مع Coq"
+}

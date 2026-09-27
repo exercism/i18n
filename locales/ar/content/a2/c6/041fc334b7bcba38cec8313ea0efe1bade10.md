@@ -1,0 +1,46 @@
+# مقدمة
+
+## الدوال
+
+لتعريف دالة عامة في Common Lisp، تستخدم تعبير `defun`.
+يأخذ هذا التعبير كوسيطه الأول قائمة من المعاملات (القائمة الفارغة تعني أن الدالة ليس لها معاملات).
+ويأتي بعد ذلك سلسلة نصية للتوثيق اختيارية (انظر أدناه)، ثم صفر أو أكثر من التعبيرات التي تكوّن "جسم" الدالة.
+
+قد لا يكون للدالة أي معامل، وقد يكون لها معامل واحد أو أكثر.
+
+```lisp
+(defun no-args () (+ 1 1))
+
+(defun add-one (x) (1+ x))
+
+(defun add-nums (x y) (+ x y))
+```
+
+يتم استدعاء الدالة بتقييم تعبير يكون فيه الرمز الدالّ على الدالة هو العنصر الأول من التعبير، وتكون وسائط الدالة (إن وُجدت) هي العناصر المتبقية فيه.
+
+القيمة التي تُقيّم إليها الدالة هي قيمة آخر تعبير جرى تقييمه في جسم الدالة. 
+وكل الدوال تُقيّم إلى قيمة.
+
+```lisp
+(add-nums 2 2) ;; => 4
+```
+
+ويمكن أن يكون للدالة أيضًا، بشكل اختياري، سلسلة نصية للتوثيق (تُسمّى أيضًا "docstring").
+وإذا وُجدت فإنها تأتي بعد قائمة الوسائط وقبل جسم الدالة.
+ويمكن الوصول إلى سلسلة التوثيق النصية عبر `documentation`.
+
+```lisp
+(defun add-nums (x y) "Add X and Y together" (+ x y))
+
+(documentation 'add-nums 'function) ;; => "Add X and Y together"
+
+;; Note that if one provides a docstring but fails to provide a body
+;; then the docstring is interpreted by Common Lisp as the body, not
+;; the docstring
+(defun no-body ())
+(no-body) ;; => NIL
+
+(defun mistake () "This is not a docstring")
+(mistake) ;; => "This is not a docstring"
+(documentation 'mistake 'function) ;; => NIL
+```

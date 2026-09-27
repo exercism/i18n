@@ -1,0 +1,74 @@
+# نبذة
+
+عندما تحمل إحدى صيغ النوع المخصص بيانات، فإنها تُسمى سجلاً، وتقع كل قيمة يحتويها في _حقل_.
+
+```gleam
+pub type Rectangle {
+  Rectangle(
+    Float, // The first field
+    Float, // The second field
+  )
+}
+```
+
+لتسهيل القراءة، يسمح Gleam بتسمية الحقول باسم.
+
+```gleam
+pub type Rectangle {
+  Rectangle(
+    width: Float,
+    height: Float,
+  )
+}
+```
+
+يمكن استخدام التسميات لتمرير الوسائط إلى منشئ السجل بأي ترتيب.
+
+```gleam
+let a = Rectangle(height: 10.0, width: 20.0)
+let b = Rectangle(width: 20.0, height: 10.0)
+
+a == b
+// -> True
+```
+
+عندما يكون للنوع المخصص صيغة واحدة فقط، يمكن استخدام صيغة الوصول `.label` للحصول على حقول السجل.
+
+```gleam
+let rect = Rectangle(height: 10.0, width: 20.0)
+
+rect.height // -> 10.0
+rect.width  // -> 20.0
+```
+
+يمكن استخدام صيغة تحديث السجل عندما يكون للنوع المخصص صيغة واحدة، لإنشاء سجل جديد من سجل موجود، مع استبدال بعض الحقول بقيم جديدة.
+
+```gleam
+let rect = Rectangle(height: 10.0, width: 20.0)
+let tall_rect = Rectangle(..rect, height: 50.0)
+
+tall_rect.height // -> 50.0
+tall_rect.width  // -> 20.0
+```
+
+يمكن أيضًا استخدام التسميات عند مطابقة الأنماط لاستخراج القيم من السجلات.
+
+```gleam
+pub fn is_tall(rect: Rectangle) {
+  case rect {
+    Rectangle(height: h, width: _) if h > 20.0 -> True
+    _ -> False
+  }
+}
+```
+
+إذا أردنا المطابقة على بعض الحقول فقط، يمكننا استخدام عامل النشر `..` لتجاهل بقية الحقول.
+
+```gleam
+pub fn is_tall(rect: Rectangle) {
+  case rect {
+    Rectangle(height: h, ..) if h > 20.0 -> True
+    _ -> False
+  }
+}
+```

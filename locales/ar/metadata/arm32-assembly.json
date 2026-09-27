@@ -1,0 +1,17 @@
+{
+  "exercise:hello-world:name": "مرحبًا بالعالم",
+  "exercise:leap:name": "السنة الكبيسة",
+  "exercise:hello-world:source": "هذا تمرين لتعريف المستخدمين بكيفية استخدام Exercism",
+  "exercise:leap:blurb": "حدّد ما إذا كانت سنة معطاة سنة كبيسة.",
+  "exercise:leap:source": "CodeRanch Cattle Drive، التكليف 3",
+  "track:blurb": "TODO: أضف نبذة",
+  "exercise:hello-world:blurb": "تمرين المقدمة الكلاسيكي. قل فقط \"Hello, World!\".",
+  "doc:installation:title": "تثبيت ARM32 Assembly محليًا",
+  "doc:installation:blurb": "تعلّم كيفية تثبيت ARM32 Assembly محليًا لحل تمارين Exercism على جهازك",
+  "doc:learning:title": "كيف تتعلّم ARM32 Assembly",
+  "doc:learning:blurb": "نظرة عامة على كيفية البدء من الصفر مع ARM32 Assembly",
+  "doc:tests:title": "الاختبار في مسار ARM32 Assembly",
+  "doc:tests:blurb": "تعلّم كيفية اختبار تمارين ARM32 Assembly على Exercism",
+  "doc:resources:title": "مصادر مفيدة عن ARM32 Assembly",
+  "doc:resources:blurb": "مجموعة من المصادر المفيدة لمساعدتك على إتقان ARM32 Assembly"
+}

@@ -1,0 +1,49 @@
+# مقدمة
+
+في C#، الصف بنية بيانات تنظّم البيانات، ويحمل حقلين أو أكثر من أي نوع.
+
+يُنشأ الصف عادةً بوضع تعبيرين أو أكثر تفصل بينها فواصل، داخل زوج من الأقواس الهلالية.
+
+```csharp
+string boast = "All you need to know";
+bool success = !string.IsNullOrWhiteSpace(boast);
+(bool, int, string) triple = (success, 42, boast);
+```
+
+يمكن استخدام الصف في عمليات الإسناد والتهيئة، وكقيمة إرجاع أو كوسيط دالة.
+
+تُستخرج الحقول باستخدام صيغة النقطة. افتراضيًا، يكون الحقل الأول `Item1`، والثاني `Item2`، وهكذا. وسنناقش الأسماء غير الافتراضية أدناه.
+
+```csharp
+// initialization
+(int, int, int) vertices = (90, 45, 45);
+
+// assignment
+vertices = (60, 60, 60);
+
+//  return value
+(bool, int) GetSameOrBigger(int num1, int num2)
+{
+    return (num1 == num2, num1 > num2 ? num1 : num2);
+}
+
+// method argument
+int Add((int, int) operands)
+{
+    return operands.Item1 + operands.Item2;
+}
+```
+
+أسماء الحقول مثل `Item1` وما شابهها لا تجعل الكود سهل القراءة. يوضّح الكود التالي أسلوبين لتسمية حقول الصفوف. لاحظ أيضًا، في الكود التالي، أنه يمكن استخدام `var` مع الصفوف واستنتاج النوع. وهذا ينطبق بالقدر نفسه على الصفوف ذات الحقول المسماة وغير المسماة.
+
+```csharp
+// name items in declaration
+(bool success, string message) results = (true, "well done!");
+bool mySuccess = results.success;
+string myMessage = results.message;
+
+// name items in creating expression
+var results2 = (success: true, message: "well done!");
+bool mySuccess2 = results2.success;
+string myMessage2 = results2.message;
+```
