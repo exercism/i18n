@@ -242,5 +242,7 @@
   "key_feature:easy:title": "Tanulásra tervezve",
   "key_feature:easy:content": "Letisztult felépítése miatt népszerű választás annak tanítására, hogyan működnek a processzorok.",
   "key_feature:tooling:title": "Nem kell hardver",
-  "key_feature:tooling:content": "A feladatokat az online szerkesztőben oldhatod meg, vagy helyben, egy ingyenes emulátorral."
+  "key_feature:tooling:content": "A feladatokat az online szerkesztőben oldhatod meg, vagy helyben, egy ingyenes emulátorral.",
+  "doc:example:title": "Egy RISC-V függvény példája",
+  "doc:example:blurb": "Egy példafüggvény, amely bemutatja a direktívákat, és elmenti a visszatérési címet"
 }

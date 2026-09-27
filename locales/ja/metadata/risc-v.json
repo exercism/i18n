@@ -242,5 +242,7 @@
   "key_feature:easy:title": "学習向け",
   "key_feature:easy:content": "すっきりとした設計で、プロセッサーの仕組みを教える教材として人気があります。",
   "key_feature:tooling:title": "ハードウェア不要",
-  "key_feature:tooling:content": "演習はオンラインエディターで、または無料のエミュレーターを使ってローカルで解けます。"
+  "key_feature:tooling:content": "演習はオンラインエディターで、または無料のエミュレーターを使ってローカルで解けます。",
+  "doc:example:title": "RISC-V関数の例",
+  "doc:example:blurb": "ディレクティブと戻りアドレスの保存方法を示す関数の例です。"
 }

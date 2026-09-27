@@ -242,5 +242,7 @@
   "doc:tests:title": "Test در مسیر RISC-V",
   "doc:tests:blurb": "بیاموزید چطور تمرین‌های RISC-V خود را در Exercism Test کنید.",
   "doc:resources:title": "منابع مفید RISC-V",
-  "doc:resources:blurb": "مجموعه‌ای از منابع مفید برای کمک به تسلط شما بر RISC-V."
+  "doc:resources:blurb": "مجموعه‌ای از منابع مفید برای کمک به تسلط شما بر RISC-V.",
+  "doc:example:title": "یک تابع نمونه در RISC-V",
+  "doc:example:blurb": "یک تابع نمونه که دستورالعمل‌های اسمبلی را نشان می‌دهد و آدرس بازگشت را ذخیره می‌کند"
 }

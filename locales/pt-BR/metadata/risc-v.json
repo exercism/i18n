@@ -242,5 +242,7 @@
   "key_feature:easy:title": "Feito para aprender",
   "key_feature:easy:content": "Seu design limpo faz dele uma escolha popular para ensinar como os processadores funcionam.",
   "key_feature:tooling:title": "Sem hardware",
-  "key_feature:tooling:content": "Resolva exercícios no editor online, ou localmente com um emulador gratuito."
+  "key_feature:tooling:content": "Resolva exercícios no editor online, ou localmente com um emulador gratuito.",
+  "doc:example:title": "Exemplo de função RISC-V",
+  "doc:example:blurb": "Uma função de exemplo que mostra diretivas e salva o endereço de retorno."
 }

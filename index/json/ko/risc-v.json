@@ -2,6 +2,7 @@
   "kind": "track",
   "locale": "ko",
   "names": {
+    "docs/EXAMPLE.md": {"en":"An example RISC-V function","ko":"RISC-V 함수 예시"},
     "docs/INSTALLATION.md": {"en":"Installing RISC-V locally","ko":"RISC-V를 로컬에 설치하기"},
     "docs/LEARNING.md": {"en":"How to learn RISC-V","ko":"RISC-V를 배우는 방법"},
     "docs/RESOURCES.md": {"en":"Useful RISC-V resources","ko":"유용한 RISC-V 자료"},
@@ -85,8 +86,9 @@
     "exercises/practice/zebra-puzzle": {"en":"Zebra Puzzle","ko":"얼룩말 퍼즐"}
   },
   "paths": {
-    "docs/ABOUT.md": ["a375720da80ae616f4327593b294073d994b79f4","9864ed00303fd196319f4058cddc6994eaed0a14"],
+    "docs/ABOUT.md": ["9725e125bd6a0d0ebc0ed2445dca4b843889a3e1","a375720da80ae616f4327593b294073d994b79f4","9864ed00303fd196319f4058cddc6994eaed0a14"],
     "docs/CONTRIBUTOR_TOOLS.md": ["1b59632c8ddbb10348bfdbd5a890dd8154583adc"],
+    "docs/EXAMPLE.md": ["e0f80d0631ca05ee992f39360e56b2a04249cc3b"],
     "docs/INSTALLATION.md": ["6d47fa9fc72f34fef0b32f2d6e8d7f754c2f5849"],
     "docs/LEARNING.md": ["7ebc4ae6c6d8b487cc329aab90c8e0e45230ccce"],
     "docs/RESOURCES.md": ["e9abc47d7455c933ffd7e32fc3ae400994ceadc2"],

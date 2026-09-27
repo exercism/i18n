@@ -371,8 +371,13 @@ This page is generated from [the index](../../json/es-ES/risc-v.json) by `script
 
 ### ABOUT.md
 
-- `ABOUT.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/ABOUT.md)): [Latest](../../../locales/es-ES/content/a3/75/720da80ae616f4327593b294073d994b79f4.md)
+- `ABOUT.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/ABOUT.md)): [Latest](../../../locales/es-ES/content/97/25/e125bd6a0d0ebc0ed2445dca4b843889a3e1.md)
+  - [`a375720da8`](../../../locales/es-ES/content/a3/75/720da80ae616f4327593b294073d994b79f4.md)
   - [`9864ed0030`](../../../locales/es-ES/content/98/64/ed00303fd196319f4058cddc6994eaed0a14.md)
+
+### An example RISC-V function (Una función RISC-V de ejemplo)
+
+- `EXAMPLE.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/EXAMPLE.md)): [Latest](../../../locales/es-ES/content/e0/f8/0d0631ca05ee992f39360e56b2a04249cc3b.md)
 
 ### CONTRIBUTOR\_TOOLS.md
 

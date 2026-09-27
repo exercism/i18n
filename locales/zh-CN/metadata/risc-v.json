@@ -242,5 +242,7 @@
   "key_feature:easy:title": "为学习而设计",
   "key_feature:easy:content": "它简洁的设计使其成为讲解处理器如何工作时的热门选择。",
   "key_feature:tooling:title": "无需硬件",
-  "key_feature:tooling:content": "可以在在线编辑器里做练习，也可以用免费的模拟器在本地运行。"
+  "key_feature:tooling:content": "可以在在线编辑器里做练习，也可以用免费的模拟器在本地运行。",
+  "doc:example:title": "一个 RISC-V 函数示例",
+  "doc:example:blurb": "一个示例函数，展示指示符并保存返回地址。"
 }

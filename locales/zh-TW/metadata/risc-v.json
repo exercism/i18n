@@ -242,5 +242,7 @@
   "doc:tests:title": "在 RISC-V 軌道上測試",
   "doc:tests:blurb": "了解如何在 Exercism 上測試你的 RISC-V 練習。",
   "doc:resources:title": "實用的 RISC-V 資源",
-  "doc:resources:blurb": "一系列實用資源，幫助你精通 RISC-V。"
+  "doc:resources:blurb": "一系列實用資源，幫助你精通 RISC-V。",
+  "doc:example:title": "RISC-V 函式範例",
+  "doc:example:blurb": "一個範例函式，示範指示詞與儲存返回位址。"
 }

@@ -242,5 +242,7 @@
   "doc:tests:title": "الاختبار على مسار RISC-V",
   "doc:tests:blurb": "تعرّف على كيفية اختبار تمارين RISC-V على Exercism",
   "doc:resources:title": "مصادر مفيدة عن RISC-V",
-  "doc:resources:blurb": "مجموعة من المصادر المفيدة لمساعدتك على إتقان RISC-V"
+  "doc:resources:blurb": "مجموعة من المصادر المفيدة لمساعدتك على إتقان RISC-V",
+  "doc:example:title": "مثال على دالة RISC-V",
+  "doc:example:blurb": "دالة مثال توضح التوجيهات وتحفظ عنوان الإرجاع"
 }

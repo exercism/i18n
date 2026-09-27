@@ -242,5 +242,7 @@
   "doc:tests:title": "Testar no percurso de RISC-V",
   "doc:tests:blurb": "Aprende a testar os teus exercícios de RISC-V no Exercism",
   "doc:resources:title": "Recursos úteis sobre RISC-V",
-  "doc:resources:blurb": "Uma coleção de recursos úteis para te ajudar a dominar RISC-V"
+  "doc:resources:blurb": "Uma coleção de recursos úteis para te ajudar a dominar RISC-V",
+  "doc:example:title": "Uma função RISC-V de exemplo",
+  "doc:example:blurb": "Uma função de exemplo, que mostra diretivas e guarda o endereço de retorno"
 }

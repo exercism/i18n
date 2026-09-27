@@ -242,5 +242,7 @@
   "doc:tests:title": "RISC-V ট্র্যাকে টেস্ট করা",
   "doc:tests:blurb": "Exercism-এ আপনার RISC-V অনুশীলনীগুলো কীভাবে টেস্ট করবেন তা শিখুন",
   "doc:resources:title": "RISC-V-এর দরকারি রিসোর্স",
-  "doc:resources:blurb": "RISC-V-এ দক্ষ হয়ে উঠতে সাহায্য করবে এমন দরকারি রিসোর্সের সংগ্রহ"
+  "doc:resources:blurb": "RISC-V-এ দক্ষ হয়ে উঠতে সাহায্য করবে এমন দরকারি রিসোর্সের সংগ্রহ",
+  "doc:example:title": "একটি উদাহরণ RISC-V ফাংশন",
+  "doc:example:blurb": "একটি উদাহরণ ফাংশন, যা ডিরেক্টিভ দেখায় এবং রিটার্ন অ্যাড্রেস সংরক্ষণ করে।"
 }

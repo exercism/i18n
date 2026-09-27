@@ -2,6 +2,7 @@
   "kind": "track",
   "locale": "bn",
   "names": {
+    "docs/EXAMPLE.md": {"bn":"একটি উদাহরণ RISC-V ফাংশন","en":"An example RISC-V function"},
     "docs/INSTALLATION.md": {"bn":"নিজের মেশিনে RISC-V ইনস্টল করা","en":"Installing RISC-V locally"},
     "docs/LEARNING.md": {"bn":"কীভাবে RISC-V শিখবেন","en":"How to learn RISC-V"},
     "docs/RESOURCES.md": {"bn":"RISC-V-এর দরকারি রিসোর্স","en":"Useful RISC-V resources"},
@@ -85,8 +86,9 @@
     "exercises/practice/zebra-puzzle": {"bn":"জেব্রা ধাঁধা","en":"Zebra Puzzle"}
   },
   "paths": {
-    "docs/ABOUT.md": ["a375720da80ae616f4327593b294073d994b79f4"],
+    "docs/ABOUT.md": ["9725e125bd6a0d0ebc0ed2445dca4b843889a3e1","a375720da80ae616f4327593b294073d994b79f4"],
     "docs/CONTRIBUTOR_TOOLS.md": ["1b59632c8ddbb10348bfdbd5a890dd8154583adc"],
+    "docs/EXAMPLE.md": ["e0f80d0631ca05ee992f39360e56b2a04249cc3b"],
     "docs/INSTALLATION.md": ["6d47fa9fc72f34fef0b32f2d6e8d7f754c2f5849"],
     "docs/LEARNING.md": ["7ebc4ae6c6d8b487cc329aab90c8e0e45230ccce"],
     "docs/RESOURCES.md": ["e9abc47d7455c933ffd7e32fc3ae400994ceadc2"],

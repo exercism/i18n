@@ -242,5 +242,7 @@
   "doc:tests:title": "RISC-V 트랙에서 테스트하기",
   "doc:tests:blurb": "Exercism에서 RISC-V 연습 문제를 테스트하는 방법을 알아봐요",
   "doc:resources:title": "유용한 RISC-V 자료",
-  "doc:resources:blurb": "RISC-V를 익히는 데 도움이 되는 유용한 자료 모음이에요"
+  "doc:resources:blurb": "RISC-V를 익히는 데 도움이 되는 유용한 자료 모음이에요",
+  "doc:example:title": "RISC-V 함수 예시",
+  "doc:example:blurb": "지시어를 사용하고 복귀 주소를 저장하는 방법을 보여 주는 예시 함수"
 }

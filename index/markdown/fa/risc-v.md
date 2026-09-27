@@ -371,7 +371,12 @@ This page is generated from [the index](../../json/fa/risc-v.json) by `scripts/b
 
 ### ABOUT.md
 
-- `ABOUT.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/ABOUT.md)): [Latest](../../../locales/fa/content/a3/75/720da80ae616f4327593b294073d994b79f4.md)
+- `ABOUT.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/ABOUT.md)): [Latest](../../../locales/fa/content/97/25/e125bd6a0d0ebc0ed2445dca4b843889a3e1.md)
+  - [`a375720da8`](../../../locales/fa/content/a3/75/720da80ae616f4327593b294073d994b79f4.md)
+
+### An example RISC-V function (یک تابع نمونه در RISC-V)
+
+- `EXAMPLE.md` ([English](https://github.com/exercism/risc-v/blob/main/docs/EXAMPLE.md)): [Latest](../../../locales/fa/content/e0/f8/0d0631ca05ee992f39360e56b2a04249cc3b.md)
 
 ### CONTRIBUTOR\_TOOLS.md
 

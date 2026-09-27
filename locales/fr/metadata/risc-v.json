@@ -242,5 +242,7 @@
   "key_feature:easy:title": "Conçu pour apprendre",
   "key_feature:easy:content": "Sa conception épurée en fait un choix populaire pour enseigner le fonctionnement des processeurs.",
   "key_feature:tooling:title": "Aucun matériel nécessaire",
-  "key_feature:tooling:content": "Résous les exercices dans l'éditeur en ligne, ou en local avec un émulateur gratuit."
+  "key_feature:tooling:content": "Résous les exercices dans l'éditeur en ligne, ou en local avec un émulateur gratuit.",
+  "doc:example:title": "Un exemple de fonction RISC-V",
+  "doc:example:blurb": "Une fonction d'exemple, qui montre des directives et sauvegarde l'adresse de retour"
 }
