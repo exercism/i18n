@@ -197,5 +197,8 @@
   "concept:maps:blurb": "قيد الإنجاز",
   "exercise:camicia:name": "Camicia",
   "exercise:camicia:blurb": "حاكِ لعبة الورق وحدّد ما إذا كانت المباراة تنتهي أم تدخل في حلقة لا نهائية.",
-  "exercise:camicia:source": "Beggar-My-Neighbour"
+  "exercise:camicia:source": "Beggar-My-Neighbour",
+  "exercise:game-of-life:name": "لعبة الحياة لـ Conway",
+  "exercise:game-of-life:blurb": "نفّذ لعبة الحياة لـ Conway.",
+  "exercise:game-of-life:source": "ويكيبيديا"
 }

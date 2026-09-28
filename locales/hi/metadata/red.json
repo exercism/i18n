@@ -197,5 +197,8 @@
   "concept:maps:blurb": "TODO",
   "exercise:camicia:name": "Camicia",
   "exercise:camicia:blurb": "ताश का यह खेल सिम्युलेट कीजिए और पता लगाइए कि मुकाबला खत्म होता है या अनंत लूप में चला जाता है।",
-  "exercise:camicia:source": "Beggar-My-Neighbour"
+  "exercise:camicia:source": "Beggar-My-Neighbour",
+  "exercise:game-of-life:name": "Conway's Game of Life",
+  "exercise:game-of-life:blurb": "Conway's Game of Life लागू कीजिए।",
+  "exercise:game-of-life:source": "Wikipedia"
 }

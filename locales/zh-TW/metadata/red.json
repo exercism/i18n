@@ -197,5 +197,8 @@
   "concept:maps:blurb": "TODO",
   "exercise:camicia:name": "Camicia",
   "exercise:camicia:blurb": "模擬這款紙牌遊戲，並判斷對局會結束還是陷入無限迴圈。",
-  "exercise:camicia:source": "Beggar-My-Neighbour"
+  "exercise:camicia:source": "Beggar-My-Neighbour",
+  "exercise:game-of-life:name": "康威生命遊戲",
+  "exercise:game-of-life:blurb": "實作康威生命遊戲。",
+  "exercise:game-of-life:source": "Wikipedia"
 }

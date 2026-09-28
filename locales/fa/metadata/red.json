@@ -197,5 +197,8 @@
   "concept:maps:blurb": "TODO",
   "exercise:camicia:name": "Camicia",
   "exercise:camicia:blurb": "بازی با ورق را شبیه‌سازی کنید و مشخص کنید که مسابقه پایان می‌یابد یا به یک حلقه‌ی بی‌پایان می‌رسد.",
-  "exercise:camicia:source": "Beggar-My-Neighbour"
+  "exercise:camicia:source": "Beggar-My-Neighbour",
+  "exercise:game-of-life:name": "بازی زندگی کانوی",
+  "exercise:game-of-life:blurb": "بازی زندگی کانوی را پیاده‌سازی کنید.",
+  "exercise:game-of-life:source": "Wikipedia"
 }

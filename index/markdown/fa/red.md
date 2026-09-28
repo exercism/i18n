@@ -62,6 +62,11 @@ This page is generated from [the index](../../json/fa/red.json) by `scripts/buil
 - `instructions.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/collatz-conjecture/.docs/instructions.md)): [Latest](../../../locales/fa/content/af/33/2a810f0f31aa1233e92bea57721d3025f4e0.md)
 - `introduction.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/collatz-conjecture/.docs/introduction.md)): [Latest](../../../locales/fa/content/c3/5b/deb67dceef4bf9769dbbf473e841cdd068f2.md)
 
+### Conway's Game of Life (بازی زندگی کانوی)
+
+- `instructions.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/game-of-life/.docs/instructions.md)): [Latest](../../../locales/fa/content/49/53/1406489df7cb6954979f2bf223729a268e22.md)
+- `introduction.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/game-of-life/.docs/introduction.md)): [Latest](../../../locales/fa/content/23/47/b936e442ec74936e574d83b9e845d8068f33.md)
+
 ### D&D Character (شخصیت D&D)
 
 - `instructions.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/dnd-character/.docs/instructions.md)): [Latest](../../../locales/fa/content/e1/4e/7949d60df15f34f13fb04f45f77d59eaf9f7.md)

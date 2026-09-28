@@ -197,5 +197,8 @@
   "concept:maps:blurb": "TODO",
   "exercise:camicia:name": "Camicia",
   "exercise:camicia:blurb": "Змоделюйте карткову гру та визначте, чи партія завершується, чи входить у нескінченний цикл.",
-  "exercise:camicia:source": "Beggar-My-Neighbour"
+  "exercise:camicia:source": "Beggar-My-Neighbour",
+  "exercise:game-of-life:name": "Гра життя Конвея",
+  "exercise:game-of-life:blurb": "Реалізуйте гру життя Конвея.",
+  "exercise:game-of-life:source": "Wikipedia"
 }

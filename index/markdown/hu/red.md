@@ -67,6 +67,11 @@ This page is generated from [the index](../../json/hu/red.json) by `scripts/buil
   - [`ba060483e4`](../../../locales/hu/content/ba/06/0483e4d45f77f20a8b048544aa5438022467.md)
 - `introduction.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/collatz-conjecture/.docs/introduction.md)): [Latest](../../../locales/hu/content/c3/5b/deb67dceef4bf9769dbbf473e841cdd068f2.md)
 
+### Conway's Game of Life (Conway életjátéka)
+
+- `instructions.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/game-of-life/.docs/instructions.md)): [Latest](../../../locales/hu/content/49/53/1406489df7cb6954979f2bf223729a268e22.md)
+- `introduction.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/game-of-life/.docs/introduction.md)): [Latest](../../../locales/hu/content/23/47/b936e442ec74936e574d83b9e845d8068f33.md)
+
 ### D&D Character (D&D-karakter)
 
 - `instructions.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/dnd-character/.docs/instructions.md)): [Latest](../../../locales/hu/content/e1/4e/7949d60df15f34f13fb04f45f77d59eaf9f7.md)

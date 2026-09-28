@@ -197,5 +197,8 @@
   "concept:maps:blurb": "TODO",
   "exercise:camicia:name": "Camicia",
   "exercise:camicia:blurb": "カードゲームをシミュレートして、対戦が決着するか無限ループに入るかを判定します。",
-  "exercise:camicia:source": "Beggar-My-Neighbour"
+  "exercise:camicia:source": "Beggar-My-Neighbour",
+  "exercise:game-of-life:name": "コンウェイのライフゲーム",
+  "exercise:game-of-life:blurb": "コンウェイのライフゲームを実装します。",
+  "exercise:game-of-life:source": "Wikipedia"
 }

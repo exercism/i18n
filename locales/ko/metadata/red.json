@@ -197,5 +197,8 @@
   "concept:maps:blurb": "TODO",
   "exercise:camicia:name": "Camicia",
   "exercise:camicia:blurb": "카드 게임을 시뮬레이션하고, 승부가 끝나는지 아니면 무한 루프에 빠지는지 판단해요.",
-  "exercise:camicia:source": "Beggar-My-Neighbour"
+  "exercise:camicia:source": "Beggar-My-Neighbour",
+  "exercise:game-of-life:name": "콘웨이의 생명 게임",
+  "exercise:game-of-life:blurb": "콘웨이의 생명 게임을 구현해요.",
+  "exercise:game-of-life:source": "Wikipedia"
 }

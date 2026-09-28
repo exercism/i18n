@@ -197,5 +197,8 @@
   "concept:maps:blurb": "TODO",
   "exercise:camicia:name": "Camicia",
   "exercise:camicia:blurb": "Simule o jogo de cartas e determine se a partida termina ou entra em um laço infinito.",
-  "exercise:camicia:source": "Beggar-My-Neighbour"
+  "exercise:camicia:source": "Beggar-My-Neighbour",
+  "exercise:game-of-life:name": "O Jogo da Vida de Conway",
+  "exercise:game-of-life:blurb": "Implemente o Jogo da Vida de Conway.",
+  "exercise:game-of-life:source": "Wikipedia"
 }
