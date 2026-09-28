@@ -18,3 +18,7 @@
 - name: "sweep"
   description: "The reconciliation sweep's standing summary of what is still untranslated"
   color: "0e8a16"
+
+- name: "needs-website-changes"
+  description: "A bug traced to exercism/website that translation alone cannot fix"
+  color: "5319e7"
