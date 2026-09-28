@@ -2246,7 +2246,11 @@
     "contribution.generic": "일반",
     "unrevealedBadge.unrevealed": "미공개",
     "unrevealedBadge.clickTapToReveal": "클릭하거나 탭해서 확인해요",
-    "contribution.in": "에서"
+    "contribution.in": "에서",
+    "tabs.overview": "개요",
+    "tabs.solutions": "풀이",
+    "tabs.reputation": "평판",
+    "tabs.badges": "배지"
   },
   "components/journey/badges-list": {
     "orderSwitcher.sortByUnrevealedFirst": "미공개 항목 먼저 정렬",

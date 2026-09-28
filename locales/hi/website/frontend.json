@@ -2083,7 +2083,11 @@
     "contribution.generic": "सामान्य",
     "unrevealedBadge.unrevealed": "छिपा हुआ",
     "unrevealedBadge.clickTapToReveal": "दिखाने के लिए क्लिक/टैप करें",
-    "contribution.in": "में"
+    "contribution.in": "में",
+    "tabs.overview": "अवलोकन",
+    "tabs.solutions": "हल",
+    "tabs.reputation": "प्रतिष्ठा",
+    "tabs.badges": "बैज"
   },
   "components/journey/badges-list": {
     "orderSwitcher.sortByUnrevealedFirst": "क्रमबद्ध करें: छिपे हुए पहले",

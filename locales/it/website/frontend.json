@@ -1987,7 +1987,11 @@
     "contribution.generic": "Generico",
     "unrevealedBadge.unrevealed": "Non rivelato",
     "unrevealedBadge.clickTapToReveal": "Clicca o tocca per rivelare",
-    "contribution.in": "in"
+    "contribution.in": "in",
+    "tabs.overview": "Panoramica",
+    "tabs.solutions": "Soluzioni",
+    "tabs.reputation": "Reputazione",
+    "tabs.badges": "Distintivi"
   },
   "components/journey/badges-list": {
     "orderSwitcher.sortByUnrevealedFirst": "Ordina prima i non rivelati",

@@ -488,7 +488,11 @@
     "contribution.generic": "عمومی",
     "unrevealedBadge.unrevealed": "آشکارنشده",
     "unrevealedBadge.clickTapToReveal": "برای آشکارسازی کلیک کنید یا ضربه بزنید",
-    "contribution.in": "در"
+    "contribution.in": "در",
+    "tabs.overview": "نمای کلی",
+    "tabs.solutions": "راه‌حل‌ها",
+    "tabs.reputation": "اعتبار",
+    "tabs.badges": "نشان‌ها"
   },
   "components/journey/badges-list": {
     "orderSwitcher.sortByUnrevealedFirst": "مرتب‌سازی بر اساس آشکارنشده‌ها در ابتدا",

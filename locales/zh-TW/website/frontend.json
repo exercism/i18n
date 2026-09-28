@@ -386,7 +386,11 @@
     "contribution.generic": "一般",
     "unrevealedBadge.unrevealed": "尚未揭曉",
     "unrevealedBadge.clickTapToReveal": "點擊或輕觸即可揭曉",
-    "contribution.in": "在"
+    "contribution.in": "在",
+    "tabs.overview": "總覽",
+    "tabs.solutions": "解答",
+    "tabs.reputation": "聲望",
+    "tabs.badges": "徽章"
   },
   "components/journey/badges-list": {
     "orderSwitcher.sortByUnrevealedFirst": "依未揭曉優先排序",

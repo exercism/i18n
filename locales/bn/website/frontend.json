@@ -2443,7 +2443,11 @@
     "contribution.generic": "সাধারণ",
     "unrevealedBadge.unrevealed": "অপ্রকাশিত",
     "unrevealedBadge.clickTapToReveal": "প্রকাশ করতে ক্লিক/ট্যাপ করুন",
-    "contribution.in": "-এ"
+    "contribution.in": "-এ",
+    "tabs.overview": "সারসংক্ষেপ",
+    "tabs.solutions": "সমাধান",
+    "tabs.reputation": "রেপুটেশন",
+    "tabs.badges": "ব্যাজ"
   },
   "components/journey/badges-list": {
     "orderSwitcher.sortByUnrevealedFirst": "অপ্রকাশিতগুলো আগে সাজান",

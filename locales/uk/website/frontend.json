@@ -1479,7 +1479,11 @@
     "contribution.generic": "Загальний",
     "unrevealedBadge.unrevealed": "Нерозкритий",
     "unrevealedBadge.clickTapToReveal": "Натисніть, щоб розкрити",
-    "contribution.in": "у"
+    "contribution.in": "у",
+    "tabs.overview": "Огляд",
+    "tabs.solutions": "Рішення",
+    "tabs.reputation": "Репутація",
+    "tabs.badges": "Значки"
   },
   "components/journey/badges-list": {
     "orderSwitcher.sortByUnrevealedFirst": "Спочатку нерозкриті",

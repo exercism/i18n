@@ -1347,7 +1347,11 @@
     "contribution.generic": "عام",
     "unrevealedBadge.unrevealed": "غير مكشوفة",
     "unrevealedBadge.clickTapToReveal": "انقر/اضغط للكشف",
-    "contribution.in": "في"
+    "contribution.in": "في",
+    "tabs.overview": "نظرة عامة",
+    "tabs.solutions": "الحلول",
+    "tabs.reputation": "السمعة",
+    "tabs.badges": "الشارات"
   },
   "components/journey/badges-list": {
     "orderSwitcher.sortByUnrevealedFirst": "الترتيب حسب غير المكشوف أولًا",

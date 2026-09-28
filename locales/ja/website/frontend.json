@@ -1968,7 +1968,11 @@
     "contribution.generic": "汎用",
     "unrevealedBadge.unrevealed": "未公開",
     "unrevealedBadge.clickTapToReveal": "クリックまたはタップで公開",
-    "contribution.in": "で"
+    "contribution.in": "で",
+    "tabs.overview": "概要",
+    "tabs.solutions": "解答",
+    "tabs.reputation": "評判",
+    "tabs.badges": "バッジ"
   },
   "components/journey/badges-list": {
     "orderSwitcher.sortByUnrevealedFirst": "未公開を先頭に並べ替え",

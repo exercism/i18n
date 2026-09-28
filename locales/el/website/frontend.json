@@ -1277,7 +1277,11 @@
     "contribution.generic": "Γενική",
     "unrevealedBadge.unrevealed": "Μη αποκαλυμμένο",
     "unrevealedBadge.clickTapToReveal": "Κάνε κλικ/πάτησε για αποκάλυψη",
-    "contribution.in": "σε"
+    "contribution.in": "σε",
+    "tabs.overview": "Επισκόπηση",
+    "tabs.solutions": "Λύσεις",
+    "tabs.reputation": "Φήμη",
+    "tabs.badges": "Σήματα"
   },
   "components/journey/badges-list": {
     "orderSwitcher.sortByUnrevealedFirst": "Ταξινόμηση με τα μη αποκαλυμμένα πρώτα",

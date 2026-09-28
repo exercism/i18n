@@ -591,7 +591,11 @@
     "contribution.in": "em",
     "solution.iterations_one": "{{count}} iteração",
     "solution.iterations_many": "{{count}} iterações",
-    "solution.iterations_other": "{{count}} iterações"
+    "solution.iterations_other": "{{count}} iterações",
+    "tabs.overview": "Visão geral",
+    "tabs.solutions": "Soluções",
+    "tabs.reputation": "Reputação",
+    "tabs.badges": "Distintivos"
   },
   "components/journey/badges-list": {
     "orderSwitcher.sortByUnrevealedFirst": "Ordenar primeiro os por revelar",

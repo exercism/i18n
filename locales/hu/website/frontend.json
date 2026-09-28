@@ -429,7 +429,11 @@
     "contribution.generic": "Általános",
     "unrevealedBadge.unrevealed": "Felfedetlen",
     "unrevealedBadge.clickTapToReveal": "Kattints/bökj ide a felfedéshez",
-    "contribution.in": "itt:"
+    "contribution.in": "itt:",
+    "tabs.overview": "Áttekintés",
+    "tabs.solutions": "Megoldások",
+    "tabs.reputation": "Reputáció",
+    "tabs.badges": "Jelvények"
   },
   "components/journey/badges-list": {
     "orderSwitcher.sortByUnrevealedFirst": "Felfedetlenek elölre",

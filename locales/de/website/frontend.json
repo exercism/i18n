@@ -1311,7 +1311,11 @@
     "contribution.generic": "Allgemein",
     "unrevealedBadge.unrevealed": "Nicht aufgedeckt",
     "unrevealedBadge.clickTapToReveal": "Klicken/Tippen zum Aufdecken",
-    "contribution.in": "in"
+    "contribution.in": "in",
+    "tabs.overview": "Übersicht",
+    "tabs.solutions": "Lösungen",
+    "tabs.reputation": "Reputation",
+    "tabs.badges": "Abzeichen"
   },
   "components/journey/badges-list": {
     "orderSwitcher.sortByUnrevealedFirst": "Nicht aufgedeckte zuerst",

@@ -1203,7 +1203,11 @@
     "contribution.generic": "通用",
     "unrevealedBadge.unrevealed": "未揭晓",
     "unrevealedBadge.clickTapToReveal": "点击/轻触以揭晓",
-    "contribution.in": "在"
+    "contribution.in": "在",
+    "tabs.overview": "概览",
+    "tabs.solutions": "提交的解答",
+    "tabs.reputation": "声望",
+    "tabs.badges": "徽章"
   },
   "components/journey/badges-list": {
     "orderSwitcher.sortByUnrevealedFirst": "按未揭晓优先排序",

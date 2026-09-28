@@ -499,7 +499,11 @@
     "contribution.generic": "Genérica",
     "unrevealedBadge.unrevealed": "Sin revelar",
     "unrevealedBadge.clickTapToReveal": "Haz clic o toca para revelar",
-    "contribution.in": "en"
+    "contribution.in": "en",
+    "tabs.overview": "Resumen",
+    "tabs.solutions": "Soluciones",
+    "tabs.reputation": "Reputación",
+    "tabs.badges": "Insignias"
   },
   "components/journey/badges-list": {
     "orderSwitcher.sortByUnrevealedFirst": "Ordenar por las no reveladas primero",
