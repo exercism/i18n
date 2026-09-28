@@ -47,6 +47,12 @@ This page is generated from [the index](../../json/ar/roc.json) by `scripts/buil
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/atbash-cipher/.docs/instructions.md)): [Latest](../../../locales/ar/content/1e/76/27b1e5989878f0f1bf735feb1300de7a2664.md)
 
+### Bank Account (حساب بنكي)
+
+- `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/bank-account/.docs/instructions.md)): [Latest](../../../locales/ar/content/73/98/fbea1882dcf62be8957af20bc28779a93cbd.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/bank-account/.docs/instructions.append.md)): [Latest](../../../locales/ar/content/22/2d/c560b587fb93fd283ff4e1993b763db25911.md)
+- `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/bank-account/.docs/introduction.md)): [Latest](../../../locales/ar/content/65/0b/5d9c46f00d99296ce5cb86ae7df14e3c1302.md)
+
 ### Binary (الثنائي)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/binary/.docs/instructions.md)): [Latest](../../../locales/ar/content/67/22/637ebb5554c745fe342c4268d9230fb0b561.md)

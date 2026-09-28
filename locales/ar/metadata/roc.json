@@ -373,5 +373,7 @@
   "doc:tests:title": "الاختبار في مسار Roc",
   "doc:tests:blurb": "تعلّم كيف تختبر تمارين Roc على Exercism",
   "doc:resources:title": "مصادر مفيدة عن Roc",
-  "doc:resources:blurb": "مجموعة من المصادر المفيدة التي تساعدك على إتقان Roc"
+  "doc:resources:blurb": "مجموعة من المصادر المفيدة التي تساعدك على إتقان Roc",
+  "exercise:bank-account:name": "حساب بنكي",
+  "exercise:bank-account:blurb": "حاكِ حسابًا بنكيًا يدعم الفتح والإغلاق وسحب الأموال وإيداعها. احترس من المعاملات المتزامنة!"
 }

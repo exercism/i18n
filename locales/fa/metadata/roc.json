@@ -373,5 +373,7 @@
   "doc:tests:title": "تست در مسیر Roc",
   "doc:tests:blurb": "یاد بگیرید چطور تمرین‌های Roc خود را در Exercism تست کنید",
   "doc:resources:title": "منابع مفید Roc",
-  "doc:resources:blurb": "مجموعه‌ای از منابع مفید برای کمک به تسلط شما بر Roc"
+  "doc:resources:blurb": "مجموعه‌ای از منابع مفید برای کمک به تسلط شما بر Roc",
+  "exercise:bank-account:name": "حساب بانکی",
+  "exercise:bank-account:blurb": "حساب بانکی‌ای را شبیه‌سازی کنید که باز کردن و بستن، برداشت و واریز پول را پشتیبانی می‌کند. مراقب تراکنش‌های همزمان باشید!"
 }

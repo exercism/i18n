@@ -373,5 +373,7 @@
   "doc:tests:title": "Testar no track Roc",
   "doc:tests:blurb": "Aprende a testar os teus exercícios de Roc no Exercism",
   "doc:resources:title": "Recursos úteis sobre Roc",
-  "doc:resources:blurb": "Uma coleção de recursos úteis para te ajudar a dominar o Roc"
+  "doc:resources:blurb": "Uma coleção de recursos úteis para te ajudar a dominar o Roc",
+  "exercise:bank-account:name": "Conta bancária",
+  "exercise:bank-account:blurb": "Simula uma conta bancária com abertura e fecho, levantamentos e depósitos de dinheiro. Atenção às transações concorrentes!"
 }

@@ -410,5 +410,7 @@
   "exercise:ledger:name": "Főkönyv",
   "exercise:ledger:blurb": "Refaktorálj egy főkönyvnyomtatót.",
   "exercise:lens-person:name": "Lencsés személy",
-  "exercise:lens-person:blurb": "Használj lencséket egymásba ágyazott rekordok frissítéséhez (az immutable adatokat használó nyelvekre jellemző)."
+  "exercise:lens-person:blurb": "Használj lencséket egymásba ágyazott rekordok frissítéséhez (az immutable adatokat használó nyelvekre jellemző).",
+  "exercise:bank-account:name": "Bankszámla",
+  "exercise:bank-account:blurb": "Szimulálj egy banki számlát, amely támogatja a nyitást/zárást, a pénzfelvételt és a befizetést. Vigyázz a párhuzamos tranzakciókra!"
 }

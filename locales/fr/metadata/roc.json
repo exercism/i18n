@@ -410,5 +410,7 @@
   "exercise:ledger:name": "Grand livre",
   "exercise:ledger:blurb": "Réécris un imprimeur de grand livre.",
   "exercise:lens-person:name": "Personne à lentilles",
-  "exercise:lens-person:blurb": "Utilise des lentilles pour mettre à jour des enregistrements imbriqués (spécifique aux langages avec des données immuables)."
+  "exercise:lens-person:blurb": "Utilise des lentilles pour mettre à jour des enregistrements imbriqués (spécifique aux langages avec des données immuables).",
+  "exercise:bank-account:name": "Compte bancaire",
+  "exercise:bank-account:blurb": "Simule un compte bancaire prenant en charge l'ouverture, la fermeture, les retraits et les dépôts d'argent. Attention aux transactions concurrentes !"
 }

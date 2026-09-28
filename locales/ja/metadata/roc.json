@@ -410,5 +410,7 @@
   "exercise:ledger:name": "帳簿",
   "exercise:ledger:blurb": "帳簿のプリンターをリファクタリングします。",
   "exercise:lens-person:name": "レンズ使い",
-  "exercise:lens-person:blurb": "レンズを使って、入れ子になったレコードを更新します（イミュータブルなデータを持つ言語向け）。"
+  "exercise:lens-person:blurb": "レンズを使って、入れ子になったレコードを更新します（イミュータブルなデータを持つ言語向け）。",
+  "exercise:bank-account:name": "銀行口座",
+  "exercise:bank-account:blurb": "開設・閉鎖、引き出し、入金をサポートする銀行口座をシミュレートしてください。同時トランザクションに注意してください！"
 }

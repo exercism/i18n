@@ -375,5 +375,7 @@
   "doc:resources:title": "Recursos útiles de Roc",
   "doc:resources:blurb": "Una colección de recursos útiles para ayudarte a dominar Roc",
   "exercise:lens-person:name": "Persona con lentes",
-  "exercise:lens-person:blurb": "Usa lentes para actualizar registros anidados (específico de lenguajes con datos inmutables)."
+  "exercise:lens-person:blurb": "Usa lentes para actualizar registros anidados (específico de lenguajes con datos inmutables).",
+  "exercise:bank-account:name": "Cuenta bancaria",
+  "exercise:bank-account:blurb": "Simula una cuenta bancaria que permita abrirla y cerrarla, retirar y depositar dinero. ¡Cuidado con las transacciones concurrentes!"
 }

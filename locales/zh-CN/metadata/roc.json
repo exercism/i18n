@@ -410,5 +410,7 @@
   "exercise:ledger:name": "账本",
   "exercise:ledger:blurb": "重构一个账本打印程序。",
   "exercise:lens-person:name": "透镜人",
-  "exercise:lens-person:blurb": "使用透镜更新嵌套记录（仅适用于具有不可变数据的语言）。"
+  "exercise:lens-person:blurb": "使用透镜更新嵌套记录（仅适用于具有不可变数据的语言）。",
+  "exercise:bank-account:name": "银行账户",
+  "exercise:bank-account:blurb": "模拟一个支持开户/销户、取款和存款的银行账户。小心并发事务！"
 }

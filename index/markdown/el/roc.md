@@ -53,6 +53,12 @@ This page is generated from [the index](../../json/el/roc.json) by `scripts/buil
 - `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/baffling-birthdays/.docs/instructions.append.md)): [Latest](../../../locales/el/content/81/e6/4513ae3c8973789ada4177ae86df2e29a970.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/baffling-birthdays/.docs/introduction.md)): [Latest](../../../locales/el/content/97/da/bd1e6cfffbcb4a20748b3b328e8cbc284b98.md)
 
+### Bank Account (Τραπεζικός Λογαριασμός)
+
+- `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/bank-account/.docs/instructions.md)): [Latest](../../../locales/el/content/73/98/fbea1882dcf62be8957af20bc28779a93cbd.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/bank-account/.docs/instructions.append.md)): [Latest](../../../locales/el/content/22/2d/c560b587fb93fd283ff4e1993b763db25911.md)
+- `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/bank-account/.docs/introduction.md)): [Latest](../../../locales/el/content/65/0b/5d9c46f00d99296ce5cb86ae7df14e3c1302.md)
+
 ### Binary (Δυαδικό)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/binary/.docs/instructions.md)): [Latest](../../../locales/el/content/67/22/637ebb5554c745fe342c4268d9230fb0b561.md)
