@@ -587,11 +587,13 @@ This page is generated from [the index](../../json/ko/ruby.json) by `scripts/bui
 
 ### Last Will (유언장)
 
-- `instructions.md` ([English](https://github.com/exercism/ruby/blob/main/exercises/concept/last-will/.docs/instructions.md)): [Latest](../../../locales/ko/content/0b/40/137dad31a97c75779425c8b55cb926e434a6.md)
+- `instructions.md` ([English](https://github.com/exercism/ruby/blob/main/exercises/concept/last-will/.docs/instructions.md)): [Latest](../../../locales/ko/content/87/2b/0dc64dec950564d8a4ffebe9ab1350ec168e.md)
+  - [`0b40137dad`](../../../locales/ko/content/0b/40/137dad31a97c75779425c8b55cb926e434a6.md)
   - [`ef5339f266`](../../../locales/ko/content/ef/53/39f266e1a6368690d5ba1c2d156a51ecf2e5.md)
 - `introduction.md` ([English](https://github.com/exercism/ruby/blob/main/exercises/concept/last-will/.docs/introduction.md)): [Latest](../../../locales/ko/content/0a/8d/ac5894fc08cd675ec19ae811dc8b7fd5de76.md)
   - [`7037f6380f`](../../../locales/ko/content/70/37/f6380f052dd22d9ad6d92cab9a6322bc9752.md)
-- `hints.md` ([English](https://github.com/exercism/ruby/blob/main/exercises/concept/last-will/.docs/hints.md)): [Latest](../../../locales/ko/content/4c/c4/1e6ab8b471ad4735297f43393b6cf0b33992.md)
+- `hints.md` ([English](https://github.com/exercism/ruby/blob/main/exercises/concept/last-will/.docs/hints.md)): [Latest](../../../locales/ko/content/3b/ce/67ebb0fffafb7a25f36443e637f76e30a8f3.md)
+  - [`4cc41e6ab8`](../../../locales/ko/content/4c/c4/1e6ab8b471ad4735297f43393b6cf0b33992.md)
 
 ### Locomotive Engineer (기관사)
 
