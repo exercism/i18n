@@ -4162,5 +4162,14 @@
         }
       }
     }
+  },
+  "views": {
+    "pagination": {
+      "first": "&laquo; Első",
+      "last": "Utolsó &raquo;",
+      "previous": "&lsaquo; Előző",
+      "next": "Következő &rsaquo;",
+      "truncate": "&hellip;"
+    }
   }
 }

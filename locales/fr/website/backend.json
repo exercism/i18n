@@ -4223,5 +4223,14 @@
         }
       }
     }
+  },
+  "views": {
+    "pagination": {
+      "first": "&laquo;&nbsp;Première",
+      "last": "Dernière&nbsp;&raquo;",
+      "previous": "&lsaquo;&nbsp;Précédent",
+      "next": "Suivant&nbsp;&rsaquo;",
+      "truncate": "&hellip;"
+    }
   }
 }

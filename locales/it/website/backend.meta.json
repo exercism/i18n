@@ -2314,6 +2314,11 @@
     "user_reputation_tokens.exercise_contribution.1": "e61591bb8f06df8edbae677356768522fb3cf797",
     "user_reputation_tokens.issue_author.1": "802948355c62c015487d417c6fdccaa286a5707b",
     "user_reputation_tokens.mentored.1": "6b9d4aa91b3abe84a78a1b37ef5e4661339ad259",
-    "user_reputation_tokens.published_solution.1": "730927626d2040fafb727deced6ede8881631821"
+    "user_reputation_tokens.published_solution.1": "730927626d2040fafb727deced6ede8881631821",
+    "views.pagination.first": "05936b4301b7c434e0705bf31384f340adf093ff",
+    "views.pagination.last": "c2f4412dc8e5243f7371392a2f12c02d1ccc444c",
+    "views.pagination.next": "3dec149fc7dc0a74ddca1bc3bedd0e92b8adbae4",
+    "views.pagination.previous": "60185f16d38b6bfd926141002c7695a0f3eb5ea7",
+    "views.pagination.truncate": "6eaa2da86e18b78848313bd86ac2fd3e039cf9ff"
   }
 }

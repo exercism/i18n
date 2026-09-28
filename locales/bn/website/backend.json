@@ -4162,5 +4162,14 @@
       "heading": "ট্র্যাকভিত্তিক ডকস",
       "subtitle": "আপনি যেসব ট্র্যাক শিখছেন, মেন্টর করছেন বা তৈরি করতে সাহায্য করছেন, সেগুলোর ডকস ঘুরে দেখুন।"
     }
+  },
+  "views": {
+    "pagination": {
+      "first": "&laquo; প্রথম",
+      "last": "শেষ &raquo;",
+      "previous": "&lsaquo; আগের",
+      "next": "পরের &rsaquo;",
+      "truncate": "&hellip;"
+    }
   }
 }

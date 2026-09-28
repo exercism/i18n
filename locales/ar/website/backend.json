@@ -4397,5 +4397,14 @@
   "user_preferences": {
     "auto_update_exercises": "حدّث حلولي تلقائيًا إلى أحدث إصدار من التمارين إذا اجتازت اختبارات أحدث إصدار",
     "allow_comments_on_published_solutions": "اسمح للآخرين بالتعليق على الحلول التي أنشرها مستقبلًا"
+  },
+  "views": {
+    "pagination": {
+      "first": "&laquo; الأولى",
+      "last": "الأخيرة &raquo;",
+      "previous": "&lsaquo; السابقة",
+      "next": "التالية &rsaquo;",
+      "truncate": "&hellip;"
+    }
   }
 }

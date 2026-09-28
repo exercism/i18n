@@ -4097,5 +4097,14 @@
       "help_pages": "- [%{track_title} 轨道文档](https://exercism.org/docs/tracks/%{track_slug})\n- [%{track_title} 轨道在论坛上的编程版块](https://forum.exercism.org/c/programming/%{track_slug})\n- [Exercism 在论坛上的编程版块](https://forum.exercism.org/c/programming/5)\n- [常见问题解答](https://exercism.org/docs/using/faqs)",
       "help_submit_incomplete": "如果这些资源还不够，你也可以提交（不完整的）解答，以申请导师指导。"
     }
+  },
+  "views": {
+    "pagination": {
+      "first": "&laquo; 首页",
+      "last": "末页 &raquo;",
+      "previous": "&lsaquo; 上一页",
+      "next": "下一页 &rsaquo;",
+      "truncate": "&hellip;"
+    }
   }
 }

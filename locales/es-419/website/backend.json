@@ -4223,5 +4223,14 @@
         "description": "¿Puedes resolver %{exercise_title} en %{track_title}? Mejora tus habilidades en %{track_title} con el apoyo de nuestro equipo de mentores de primer nivel."
       }
     }
+  },
+  "views": {
+    "pagination": {
+      "first": "&laquo; Primera",
+      "last": "Última &raquo;",
+      "previous": "&lsaquo; Anterior",
+      "next": "Siguiente &rsaquo;",
+      "truncate": "&hellip;"
+    }
   }
 }

@@ -4222,5 +4222,14 @@
     "payment_created": {
       "body_markdown": "Hola %{user_handle}:\n\n¡Gracias por tu donación a Exercism! Además de darte algunas ventajas divertidas, tu pago también mantiene gratis para todo el mundo el producto principal de Exercism. Así que gracias.\n\nPuedes ver todos los pagos que has hecho a Exercism y descargar tus recibos en la página de configuración. Si tienes alguna pregunta sobre tu pago, responde a este correo.\n\n¡Esperamos que disfrutes de Exercism Insiders!\n"
     }
+  },
+  "views": {
+    "pagination": {
+      "first": "&laquo; Primero",
+      "last": "Último &raquo;",
+      "previous": "&lsaquo; Anterior",
+      "next": "Siguiente &rsaquo;",
+      "truncate": "&hellip;"
+    }
   }
 }

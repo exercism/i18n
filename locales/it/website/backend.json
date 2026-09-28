@@ -4222,5 +4222,14 @@
         "insiders_link_text": "Exercism Insiders"
       }
     }
+  },
+  "views": {
+    "pagination": {
+      "first": "&laquo; Prima",
+      "last": "Ultima &raquo;",
+      "previous": "&lsaquo; Precedente",
+      "next": "Successiva &rsaquo;",
+      "truncate": "&hellip;"
+    }
   }
 }

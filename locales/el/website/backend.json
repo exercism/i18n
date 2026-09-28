@@ -4163,5 +4163,14 @@
         }
       }
     }
+  },
+  "views": {
+    "pagination": {
+      "first": "&laquo; Πρώτη",
+      "last": "Τελευταία &raquo;",
+      "previous": "&lsaquo; Προηγούμενη",
+      "next": "Επόμενη &rsaquo;",
+      "truncate": "&hellip;"
+    }
   }
 }

@@ -4223,5 +4223,14 @@
       "subject": "Obrigado pela sua doação",
       "body_markdown": "Oi %{user_handle},\n\nObrigado pela sua doação! O Exercism existe para levar a alegria da programação a todas as pessoas, em todos os lugares.  \nSua doação ajuda a tornar possível tudo o que fazemos.\n\nVocê pode ver todas as doações que já fez ao Exercism e baixar seus recibos na página de Configurações.  \nSe tiver alguma dúvida sobre a sua doação, é só responder a este e-mail.\n\nObrigado mais uma vez!\n\n[Ver suas doações](%{donations_url})"
     }
+  },
+  "views": {
+    "pagination": {
+      "first": "&laquo; Primeiro",
+      "last": "Último &raquo;",
+      "previous": "&lsaquo; Anterior",
+      "next": "Próximo &rsaquo;",
+      "truncate": "&hellip;"
+    }
   }
 }
