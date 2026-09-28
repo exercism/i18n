@@ -194,5 +194,8 @@
   "doc:tests:blurb": "Μάθε πώς να δοκιμάζεις τις ασκήσεις σου στη Red στο Exercism",
   "doc:resources:title": "Χρήσιμοι πόροι για τη Red",
   "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων για να σε βοηθήσουν να κατακτήσεις τη Red",
-  "concept:maps:blurb": "TODO"
+  "concept:maps:blurb": "TODO",
+  "exercise:camicia:name": "Camicia",
+  "exercise:camicia:blurb": "Προσομοίωσε το παιχνίδι με τράπουλα και προσδιόρισε αν η παρτίδα τελειώνει ή μπαίνει σε ατέρμονο βρόχο.",
+  "exercise:camicia:source": "Beggar-My-Neighbour"
 }

@@ -194,5 +194,8 @@
   "doc:tests:blurb": "تعرّف على كيفية اختبار تمارين Red على Exercism",
   "doc:resources:title": "موارد مفيدة عن Red",
   "doc:resources:blurb": "مجموعة من الموارد المفيدة التي تساعدك على إتقان Red",
-  "concept:maps:blurb": "قيد الإنجاز"
+  "concept:maps:blurb": "قيد الإنجاز",
+  "exercise:camicia:name": "Camicia",
+  "exercise:camicia:blurb": "حاكِ لعبة الورق وحدّد ما إذا كانت المباراة تنتهي أم تدخل في حلقة لا نهائية.",
+  "exercise:camicia:source": "Beggar-My-Neighbour"
 }

@@ -194,5 +194,8 @@
   "doc:tests:blurb": "Exercism पर अपने Red अभ्यासों को टेस्ट करना सीखिए",
   "doc:resources:title": "उपयोगी Red संसाधन",
   "doc:resources:blurb": "Red में महारत हासिल करने में आपकी मदद करने के लिए उपयोगी संसाधनों का संग्रह",
-  "concept:maps:blurb": "TODO"
+  "concept:maps:blurb": "TODO",
+  "exercise:camicia:name": "Camicia",
+  "exercise:camicia:blurb": "ताश का यह खेल सिम्युलेट कीजिए और पता लगाइए कि मुकाबला खत्म होता है या अनंत लूप में चला जाता है।",
+  "exercise:camicia:source": "Beggar-My-Neighbour"
 }

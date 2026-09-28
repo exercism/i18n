@@ -194,5 +194,8 @@
   "doc:tests:blurb": "Apprends à tester tes exercices Red sur Exercism.",
   "doc:resources:title": "Ressources utiles pour Red",
   "doc:resources:blurb": "Une collection de ressources utiles pour t'aider à maîtriser Red",
-  "concept:maps:blurb": "À faire"
+  "concept:maps:blurb": "À faire",
+  "exercise:camicia:name": "Camicia",
+  "exercise:camicia:blurb": "Simule le jeu de cartes et détermine si la partie se termine ou entre dans une boucle infinie.",
+  "exercise:camicia:source": "Beggar-My-Neighbour"
 }

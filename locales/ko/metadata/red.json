@@ -194,5 +194,8 @@
   "doc:tests:blurb": "Exercism에서 Red 연습 문제를 테스트하는 방법을 알아봐요",
   "doc:resources:title": "유용한 Red 자료",
   "doc:resources:blurb": "Red를 마스터하는 데 유용한 자료 모음",
-  "concept:maps:blurb": "TODO"
+  "concept:maps:blurb": "TODO",
+  "exercise:camicia:name": "Camicia",
+  "exercise:camicia:blurb": "카드 게임을 시뮬레이션하고, 승부가 끝나는지 아니면 무한 루프에 빠지는지 판단해요.",
+  "exercise:camicia:source": "Beggar-My-Neighbour"
 }

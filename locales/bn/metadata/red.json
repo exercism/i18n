@@ -194,5 +194,8 @@
   "doc:tests:blurb": "Exercism-এ আপনার Red অনুশীলনীগুলো কীভাবে টেস্ট করবেন তা শিখুন",
   "doc:resources:title": "দরকারি Red রিসোর্স",
   "doc:resources:blurb": "Red-এ দক্ষ হয়ে উঠতে সাহায্য করবে এমন দরকারি রিসোর্সের সংগ্রহ।",
-  "concept:maps:blurb": "TODO"
+  "concept:maps:blurb": "TODO",
+  "exercise:camicia:name": "Camicia",
+  "exercise:camicia:blurb": "কার্ড গেমটি সিমুলেট করুন এবং ম্যাচটি শেষ হয় নাকি অসীম লুপে ঢুকে পড়ে তা নির্ধারণ করুন।",
+  "exercise:camicia:source": "Beggar-My-Neighbour"
 }

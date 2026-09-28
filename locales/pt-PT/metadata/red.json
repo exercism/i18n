@@ -194,5 +194,8 @@
   "doc:tests:blurb": "Aprende a testar os teus exercícios de Red no Exercism",
   "doc:resources:title": "Recursos úteis de Red",
   "doc:resources:blurb": "Uma coleção de recursos úteis para te ajudar a dominar Red",
-  "concept:maps:blurb": "TODO"
+  "concept:maps:blurb": "TODO",
+  "exercise:camicia:name": "Camicia",
+  "exercise:camicia:blurb": "Simula o jogo de cartas e determina se a partida termina ou entra num ciclo infinito.",
+  "exercise:camicia:source": "Beggar-My-Neighbour"
 }

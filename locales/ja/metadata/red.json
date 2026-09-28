@@ -194,5 +194,8 @@
   "doc:tests:blurb": "ExercismでRedの演習をテストする方法を学びます。",
   "doc:resources:title": "役に立つRedのリソース",
   "doc:resources:blurb": "Redを使いこなすのに役立つリソースを集めました。",
-  "concept:maps:blurb": "TODO"
+  "concept:maps:blurb": "TODO",
+  "exercise:camicia:name": "Camicia",
+  "exercise:camicia:blurb": "カードゲームをシミュレートして、対戦が決着するか無限ループに入るかを判定します。",
+  "exercise:camicia:source": "Beggar-My-Neighbour"
 }

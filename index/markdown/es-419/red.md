@@ -50,6 +50,11 @@ This page is generated from [the index](../../json/es-419/red.json) by `scripts/
 
 - `instructions.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/bowling/.docs/instructions.md)): [Latest](../../../locales/es-419/content/60/cc/ad1b612b070ce573c890c8945b3e20f7eeaf.md)
 
+### Camicia
+
+- `instructions.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/camicia/.docs/instructions.md)): [Latest](../../../locales/es-419/content/db/62/fcef27d59da1ecd8287b36edfede272b9197.md)
+- `introduction.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/camicia/.docs/introduction.md)): [Latest](../../../locales/es-419/content/76/1d/8a82c502ac4117787d8314c74fcf79dc5159.md)
+
 ### Circular Buffer (Búfer circular)
 
 - `instructions.md` ([English](https://github.com/exercism/red/blob/main/exercises/practice/circular-buffer/.docs/instructions.md)): [Latest](../../../locales/es-419/content/2b/a1/fda2aa73e920e1ae0b25441be2f00fd3dd12.md)
