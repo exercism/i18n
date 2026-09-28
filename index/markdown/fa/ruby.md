@@ -587,8 +587,10 @@ This page is generated from [the index](../../json/fa/ruby.json) by `scripts/bui
 
 ### Last Will (وصیت‌نامه)
 
-- `instructions.md` ([English](https://github.com/exercism/ruby/blob/main/exercises/concept/last-will/.docs/instructions.md)): [Latest](../../../locales/fa/content/ef/53/39f266e1a6368690d5ba1c2d156a51ecf2e5.md)
-- `introduction.md` ([English](https://github.com/exercism/ruby/blob/main/exercises/concept/last-will/.docs/introduction.md)): [Latest](../../../locales/fa/content/70/37/f6380f052dd22d9ad6d92cab9a6322bc9752.md)
+- `instructions.md` ([English](https://github.com/exercism/ruby/blob/main/exercises/concept/last-will/.docs/instructions.md)): [Latest](../../../locales/fa/content/0b/40/137dad31a97c75779425c8b55cb926e434a6.md)
+  - [`ef5339f266`](../../../locales/fa/content/ef/53/39f266e1a6368690d5ba1c2d156a51ecf2e5.md)
+- `introduction.md` ([English](https://github.com/exercism/ruby/blob/main/exercises/concept/last-will/.docs/introduction.md)): [Latest](../../../locales/fa/content/0a/8d/ac5894fc08cd675ec19ae811dc8b7fd5de76.md)
+  - [`7037f6380f`](../../../locales/fa/content/70/37/f6380f052dd22d9ad6d92cab9a6322bc9752.md)
 - `hints.md` ([English](https://github.com/exercism/ruby/blob/main/exercises/concept/last-will/.docs/hints.md)): [Latest](../../../locales/fa/content/4c/c4/1e6ab8b471ad4735297f43393b6cf0b33992.md)
 
 ### Locomotive Engineer (راهبر لکوموتیو)
@@ -696,8 +698,10 @@ This page is generated from [the index](../../json/fa/ruby.json) by `scripts/bui
 
 ### Namespaces (فضای نام)
 
-- `introduction.md` ([English](https://github.com/exercism/ruby/blob/main/concepts/namespaces/introduction.md)): [Latest](../../../locales/fa/content/70/37/f6380f052dd22d9ad6d92cab9a6322bc9752.md)
-- `about.md` ([English](https://github.com/exercism/ruby/blob/main/concepts/namespaces/about.md)): [Latest](../../../locales/fa/content/70/37/f6380f052dd22d9ad6d92cab9a6322bc9752.md)
+- `introduction.md` ([English](https://github.com/exercism/ruby/blob/main/concepts/namespaces/introduction.md)): [Latest](../../../locales/fa/content/0a/8d/ac5894fc08cd675ec19ae811dc8b7fd5de76.md)
+  - [`7037f6380f`](../../../locales/fa/content/70/37/f6380f052dd22d9ad6d92cab9a6322bc9752.md)
+- `about.md` ([English](https://github.com/exercism/ruby/blob/main/concepts/namespaces/about.md)): [Latest](../../../locales/fa/content/0a/8d/ac5894fc08cd675ec19ae811dc8b7fd5de76.md)
+  - [`7037f6380f`](../../../locales/fa/content/70/37/f6380f052dd22d9ad6d92cab9a6322bc9752.md)
 
 ### Nil
 
