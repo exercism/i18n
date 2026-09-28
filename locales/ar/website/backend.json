@@ -4406,5 +4406,66 @@
       "next": "التالية &rsaquo;",
       "truncate": "&hellip;"
     }
+  },
+  "track_tags": {
+    "categories": {
+      "paradigm": "النمط البرمجي",
+      "typing": "نظام الأنواع",
+      "execution_mode": "وضع التنفيذ",
+      "platform": "المنصة",
+      "runtime": "بيئة التشغيل",
+      "used_for": "الاستخدامات"
+    },
+    "tags": {
+      "paradigm": {
+        "declarative": "تصريحي",
+        "functional": "وظيفي",
+        "imperative": "أمري",
+        "logic": "منطقي",
+        "object_oriented": "كائني التوجه",
+        "procedural": "إجرائي"
+      },
+      "typing": {
+        "static": "ساكن",
+        "dynamic": "ديناميكي",
+        "gradual": "تدريجي",
+        "strong": "قوي",
+        "weak": "ضعيف"
+      },
+      "execution_mode": {
+        "compiled": "مُترجَم",
+        "interpreted": "مُفسَّر"
+      },
+      "platform": {
+        "windows": "Windows",
+        "mac": "macOS",
+        "linux": "Linux",
+        "ios": "iOS",
+        "android": "Android",
+        "web": "متصفح الويب"
+      },
+      "runtime": {
+        "standalone_executable": "ملف تنفيذي مستقل",
+        "language_specific": "بيئة تشغيل خاصة باللغة",
+        "clr": "Common Language Runtime (.NET)",
+        "jvm": "JVM (Java)",
+        "beam": "BEAM (Erlang)"
+      },
+      "used_for": {
+        "artificial_intelligence": "الذكاء الاصطناعي",
+        "backends": "Backends",
+        "cross_platform_development": "التطوير عبر المنصات",
+        "embedded_systems": "الأنظمة المدمجة",
+        "financial_systems": "الأنظمة المالية",
+        "frontends": "Frontends",
+        "games": "الألعاب",
+        "guis": "واجهات المستخدم الرسومية",
+        "mobile": "الهواتف المحمولة",
+        "robotics": "الروبوتات",
+        "scientific_calculations": "الحسابات العلمية",
+        "scripts": "نصوص برمجية",
+        "web_development": "تطوير الويب"
+      }
+    }
   }
 }

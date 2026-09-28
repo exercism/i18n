@@ -4106,5 +4106,66 @@
       "next": "次へ&rsaquo;",
       "truncate": "&hellip;"
     }
+  },
+  "track_tags": {
+    "categories": {
+      "paradigm": "パラダイム",
+      "typing": "型付け",
+      "execution_mode": "実行方式",
+      "platform": "プラットフォーム",
+      "runtime": "ランタイム",
+      "used_for": "用途"
+    },
+    "tags": {
+      "paradigm": {
+        "declarative": "宣言型",
+        "functional": "関数型",
+        "imperative": "命令型",
+        "logic": "論理型",
+        "object_oriented": "オブジェクト指向",
+        "procedural": "手続き型"
+      },
+      "typing": {
+        "static": "静的",
+        "dynamic": "動的",
+        "gradual": "漸進的",
+        "strong": "強い",
+        "weak": "弱い"
+      },
+      "execution_mode": {
+        "compiled": "コンパイル型",
+        "interpreted": "インタプリター型"
+      },
+      "platform": {
+        "windows": "Windows",
+        "mac": "macOS",
+        "linux": "Linux",
+        "ios": "iOS",
+        "android": "Android",
+        "web": "Webブラウザ"
+      },
+      "runtime": {
+        "standalone_executable": "スタンドアロン実行ファイル",
+        "language_specific": "言語固有のランタイム",
+        "clr": "Common Language Runtime (.NET)",
+        "jvm": "JVM (Java)",
+        "beam": "BEAM (Erlang)"
+      },
+      "used_for": {
+        "artificial_intelligence": "人工知能",
+        "backends": "バックエンド",
+        "cross_platform_development": "クロスプラットフォーム開発",
+        "embedded_systems": "組み込みシステム",
+        "financial_systems": "金融システム",
+        "frontends": "フロントエンド",
+        "games": "ゲーム",
+        "guis": "GUI",
+        "mobile": "モバイル",
+        "robotics": "ロボティクス",
+        "scientific_calculations": "科学的な計算",
+        "scripts": "スクリプト",
+        "web_development": "Web開発"
+      }
+    }
   }
 }

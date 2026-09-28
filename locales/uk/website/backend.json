@@ -4286,5 +4286,66 @@
       "next": "Наступна &rsaquo;",
       "truncate": "&hellip;"
     }
+  },
+  "track_tags": {
+    "categories": {
+      "paradigm": "Парадигма",
+      "typing": "Типізація",
+      "execution_mode": "Режим виконання",
+      "platform": "Платформа",
+      "runtime": "Середовище виконання",
+      "used_for": "Сфери застосування"
+    },
+    "tags": {
+      "paradigm": {
+        "declarative": "Декларативна",
+        "functional": "Функціональна",
+        "imperative": "Імперативна",
+        "logic": "Логічна",
+        "object_oriented": "Обʼєктно-орієнтована",
+        "procedural": "Процедурна"
+      },
+      "typing": {
+        "static": "Статична",
+        "dynamic": "Динамічна",
+        "gradual": "Поступова",
+        "strong": "Сильна",
+        "weak": "Слабка"
+      },
+      "execution_mode": {
+        "compiled": "Компільований",
+        "interpreted": "Інтерпретований"
+      },
+      "platform": {
+        "windows": "Windows",
+        "mac": "macOS",
+        "linux": "Linux",
+        "ios": "iOS",
+        "android": "Android",
+        "web": "Веббраузер"
+      },
+      "runtime": {
+        "standalone_executable": "Автономний виконуваний файл",
+        "language_specific": "Середовище виконання, специфічне для мови",
+        "clr": "Common Language Runtime (.NET)",
+        "jvm": "JVM (Java)",
+        "beam": "BEAM (Erlang)"
+      },
+      "used_for": {
+        "artificial_intelligence": "Штучний інтелект",
+        "backends": "Backends",
+        "cross_platform_development": "Кросплатформна розробка",
+        "embedded_systems": "Вбудовані системи",
+        "financial_systems": "Фінансові системи",
+        "frontends": "Frontends",
+        "games": "Ігри",
+        "guis": "Графічні інтерфейси",
+        "mobile": "Мобільні застосунки",
+        "robotics": "Робототехніка",
+        "scientific_calculations": "Наукові обчислення",
+        "scripts": "Скрипти",
+        "web_development": "Веброзробка"
+      }
+    }
   }
 }

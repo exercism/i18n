@@ -4171,5 +4171,66 @@
       "next": "পরের &rsaquo;",
       "truncate": "&hellip;"
     }
+  },
+  "track_tags": {
+    "categories": {
+      "paradigm": "প্যারাডাইম",
+      "typing": "টাইপিং",
+      "execution_mode": "এক্সিকিউশন মোড",
+      "platform": "প্ল্যাটফর্ম",
+      "runtime": "রানটাইম",
+      "used_for": "ব্যবহারের ক্ষেত্র"
+    },
+    "tags": {
+      "paradigm": {
+        "declarative": "ডিক্লারেটিভ",
+        "functional": "ফাংশনাল",
+        "imperative": "ইম্পারেটিভ",
+        "logic": "লজিক",
+        "object_oriented": "অবজেক্ট-ওরিয়েন্টেড",
+        "procedural": "প্রোসিডিউরাল"
+      },
+      "typing": {
+        "static": "স্ট্যাটিক",
+        "dynamic": "ডাইনামিক",
+        "gradual": "গ্র্যাজুয়াল",
+        "strong": "স্ট্রং",
+        "weak": "উইক"
+      },
+      "execution_mode": {
+        "compiled": "কম্পাইলড",
+        "interpreted": "ইন্টারপ্রেটেড"
+      },
+      "platform": {
+        "windows": "Windows",
+        "mac": "macOS",
+        "linux": "Linux",
+        "ios": "iOS",
+        "android": "Android",
+        "web": "ওয়েব ব্রাউজার"
+      },
+      "runtime": {
+        "standalone_executable": "স্ট্যান্ডঅ্যালোন এক্সিকিউটেবল",
+        "language_specific": "ভাষা-নির্দিষ্ট রানটাইম",
+        "clr": "Common Language Runtime (.NET)",
+        "jvm": "JVM (Java)",
+        "beam": "BEAM (Erlang)"
+      },
+      "used_for": {
+        "artificial_intelligence": "কৃত্রিম বুদ্ধিমত্তা",
+        "backends": "Backends",
+        "cross_platform_development": "ক্রস-প্ল্যাটফর্ম ডেভেলপমেন্ট",
+        "embedded_systems": "এমবেডেড সিস্টেম",
+        "financial_systems": "আর্থিক সিস্টেম",
+        "frontends": "Frontends",
+        "games": "গেম",
+        "guis": "GUIs",
+        "mobile": "মোবাইল",
+        "robotics": "রোবোটিকস",
+        "scientific_calculations": "বৈজ্ঞানিক গণনা",
+        "scripts": "স্ক্রিপ্ট",
+        "web_development": "ওয়েব ডেভেলপমেন্ট"
+      }
+    }
   }
 }

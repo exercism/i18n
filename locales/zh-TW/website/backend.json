@@ -4107,5 +4107,66 @@
       "next": "下一頁 &rsaquo;",
       "truncate": "&hellip;"
     }
+  },
+  "track_tags": {
+    "categories": {
+      "paradigm": "程式設計範式",
+      "typing": "型別",
+      "execution_mode": "執行模式",
+      "platform": "平台",
+      "runtime": "執行環境",
+      "used_for": "用途"
+    },
+    "tags": {
+      "paradigm": {
+        "declarative": "宣告式",
+        "functional": "函式",
+        "imperative": "命令式",
+        "logic": "邏輯",
+        "object_oriented": "物件導向",
+        "procedural": "程序式"
+      },
+      "typing": {
+        "static": "靜態",
+        "dynamic": "動態",
+        "gradual": "漸進式",
+        "strong": "強型別",
+        "weak": "弱型別"
+      },
+      "execution_mode": {
+        "compiled": "編譯式",
+        "interpreted": "直譯式"
+      },
+      "platform": {
+        "windows": "Windows",
+        "mac": "macOS",
+        "linux": "Linux",
+        "ios": "iOS",
+        "android": "Android",
+        "web": "網頁瀏覽器"
+      },
+      "runtime": {
+        "standalone_executable": "獨立執行檔",
+        "language_specific": "特定語言的執行環境",
+        "clr": "Common Language Runtime (.NET)",
+        "jvm": "JVM (Java)",
+        "beam": "BEAM (Erlang)"
+      },
+      "used_for": {
+        "artificial_intelligence": "人工智慧",
+        "backends": "後端",
+        "cross_platform_development": "跨平台開發",
+        "embedded_systems": "嵌入式系統",
+        "financial_systems": "金融系統",
+        "frontends": "前端",
+        "games": "遊戲",
+        "guis": "圖形使用者介面",
+        "mobile": "行動裝置",
+        "robotics": "機器人技術",
+        "scientific_calculations": "科學計算",
+        "scripts": "指令碼",
+        "web_development": "網頁開發"
+      }
+    }
   }
 }

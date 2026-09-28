@@ -4111,5 +4111,66 @@
       "next": "다음 &rsaquo;",
       "truncate": "&hellip;"
     }
+  },
+  "track_tags": {
+    "categories": {
+      "paradigm": "패러다임",
+      "typing": "타입",
+      "execution_mode": "실행 방식",
+      "platform": "플랫폼",
+      "runtime": "런타임",
+      "used_for": "사용 분야"
+    },
+    "tags": {
+      "paradigm": {
+        "declarative": "선언형",
+        "functional": "함수형",
+        "imperative": "명령형",
+        "logic": "논리형",
+        "object_oriented": "객체 지향",
+        "procedural": "절차형"
+      },
+      "typing": {
+        "static": "정적",
+        "dynamic": "동적",
+        "gradual": "점진적",
+        "strong": "강한",
+        "weak": "약한"
+      },
+      "execution_mode": {
+        "compiled": "컴파일",
+        "interpreted": "인터프리터"
+      },
+      "platform": {
+        "windows": "Windows",
+        "mac": "macOS",
+        "linux": "Linux",
+        "ios": "iOS",
+        "android": "Android",
+        "web": "웹 브라우저"
+      },
+      "runtime": {
+        "standalone_executable": "독립 실행 파일",
+        "language_specific": "언어별 런타임",
+        "clr": "Common Language Runtime (.NET)",
+        "jvm": "JVM (Java)",
+        "beam": "BEAM (Erlang)"
+      },
+      "used_for": {
+        "artificial_intelligence": "인공지능",
+        "backends": "백엔드",
+        "cross_platform_development": "크로스 플랫폼 개발",
+        "embedded_systems": "임베디드 시스템",
+        "financial_systems": "금융 시스템",
+        "frontends": "프론트엔드",
+        "games": "게임",
+        "guis": "GUI",
+        "mobile": "모바일",
+        "robotics": "로보틱스",
+        "scientific_calculations": "과학 계산",
+        "scripts": "스크립트",
+        "web_development": "웹 개발"
+      }
+    }
   }
 }

@@ -4172,5 +4172,66 @@
       "next": "Επόμενη &rsaquo;",
       "truncate": "&hellip;"
     }
+  },
+  "track_tags": {
+    "categories": {
+      "paradigm": "Παράδειγμα προγραμματισμού",
+      "typing": "Τυποποίηση",
+      "execution_mode": "Τρόπος εκτέλεσης",
+      "platform": "Πλατφόρμα",
+      "runtime": "Περιβάλλον εκτέλεσης",
+      "used_for": "Χρήσεις"
+    },
+    "tags": {
+      "paradigm": {
+        "declarative": "Δηλωτικό",
+        "functional": "Συναρτησιακό",
+        "imperative": "Προστακτικό",
+        "logic": "Λογικό",
+        "object_oriented": "Αντικειμενοστρεφές",
+        "procedural": "Διαδικαστικό"
+      },
+      "typing": {
+        "static": "Στατική",
+        "dynamic": "Δυναμική",
+        "gradual": "Βαθμιαία",
+        "strong": "Ισχυρή",
+        "weak": "Αδύναμη"
+      },
+      "execution_mode": {
+        "compiled": "Μεταγλωττισμένος",
+        "interpreted": "Διερμηνευόμενος"
+      },
+      "platform": {
+        "windows": "Windows",
+        "mac": "macOS",
+        "linux": "Linux",
+        "ios": "iOS",
+        "android": "Android",
+        "web": "Περιηγητής ιστού"
+      },
+      "runtime": {
+        "standalone_executable": "Αυτόνομο εκτελέσιμο",
+        "language_specific": "Περιβάλλον εκτέλεσης ειδικό για τη γλώσσα",
+        "clr": "Common Language Runtime (.NET)",
+        "jvm": "JVM (Java)",
+        "beam": "BEAM (Erlang)"
+      },
+      "used_for": {
+        "artificial_intelligence": "Τεχνητή νοημοσύνη",
+        "backends": "Backends",
+        "cross_platform_development": "Ανάπτυξη πολλαπλών πλατφορμών",
+        "embedded_systems": "Ενσωματωμένα συστήματα",
+        "financial_systems": "Χρηματοοικονομικά συστήματα",
+        "frontends": "Frontends",
+        "games": "Παιχνίδια",
+        "guis": "Γραφικά περιβάλλοντα χρήστη",
+        "mobile": "Κινητές συσκευές",
+        "robotics": "Ρομποτική",
+        "scientific_calculations": "Επιστημονικοί υπολογισμοί",
+        "scripts": "Σενάρια",
+        "web_development": "Ανάπτυξη ιστού"
+      }
+    }
   }
 }

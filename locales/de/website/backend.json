@@ -4172,5 +4172,66 @@
       "next": "Weiter &rsaquo;",
       "truncate": "&hellip;"
     }
+  },
+  "track_tags": {
+    "categories": {
+      "paradigm": "Paradigma",
+      "typing": "Typisierung",
+      "execution_mode": "Ausführungsmodus",
+      "platform": "Plattform",
+      "runtime": "Laufzeitumgebung",
+      "used_for": "Verwendet für"
+    },
+    "tags": {
+      "paradigm": {
+        "declarative": "Deklarativ",
+        "functional": "Funktional",
+        "imperative": "Imperativ",
+        "logic": "Logik",
+        "object_oriented": "Objektorientiert",
+        "procedural": "Prozedural"
+      },
+      "typing": {
+        "static": "Statisch",
+        "dynamic": "Dynamisch",
+        "gradual": "Graduell",
+        "strong": "Stark",
+        "weak": "Schwach"
+      },
+      "execution_mode": {
+        "compiled": "Kompiliert",
+        "interpreted": "Interpretiert"
+      },
+      "platform": {
+        "windows": "Windows",
+        "mac": "macOS",
+        "linux": "Linux",
+        "ios": "iOS",
+        "android": "Android",
+        "web": "Webbrowser"
+      },
+      "runtime": {
+        "standalone_executable": "Eigenständig ausführbare Datei",
+        "language_specific": "Sprachspezifische Laufzeitumgebung",
+        "clr": "Common Language Runtime (.NET)",
+        "jvm": "JVM (Java)",
+        "beam": "BEAM (Erlang)"
+      },
+      "used_for": {
+        "artificial_intelligence": "Künstliche Intelligenz",
+        "backends": "Backends",
+        "cross_platform_development": "Plattformübergreifende Entwicklung",
+        "embedded_systems": "Eingebettete Systeme",
+        "financial_systems": "Finanzsysteme",
+        "frontends": "Frontends",
+        "games": "Spiele",
+        "guis": "GUIs",
+        "mobile": "Mobile Geräte",
+        "robotics": "Robotik",
+        "scientific_calculations": "Wissenschaftliche Berechnungen",
+        "scripts": "Skripte",
+        "web_development": "Webentwicklung"
+      }
+    }
   }
 }

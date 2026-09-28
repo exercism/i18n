@@ -4171,5 +4171,66 @@
       "next": "Következő &rsaquo;",
       "truncate": "&hellip;"
     }
+  },
+  "track_tags": {
+    "categories": {
+      "paradigm": "Paradigma",
+      "typing": "Típusozás",
+      "execution_mode": "Végrehajtási mód",
+      "platform": "Platform",
+      "runtime": "Futtatókörnyezet",
+      "used_for": "Felhasználási terület"
+    },
+    "tags": {
+      "paradigm": {
+        "declarative": "deklaratív",
+        "functional": "funkcionális",
+        "imperative": "imperatív",
+        "logic": "logikai",
+        "object_oriented": "objektumorientált",
+        "procedural": "procedurális"
+      },
+      "typing": {
+        "static": "statikus",
+        "dynamic": "dinamikus",
+        "gradual": "fokozatos",
+        "strong": "erős",
+        "weak": "gyenge"
+      },
+      "execution_mode": {
+        "compiled": "fordított",
+        "interpreted": "értelmezett"
+      },
+      "platform": {
+        "windows": "Windows",
+        "mac": "macOS",
+        "linux": "Linux",
+        "ios": "iOS",
+        "android": "Android",
+        "web": "Webes böngésző"
+      },
+      "runtime": {
+        "standalone_executable": "Önálló futtatható fájl",
+        "language_specific": "Nyelvspecifikus futtatókörnyezet",
+        "clr": "Common Language Runtime (.NET)",
+        "jvm": "JVM (Java)",
+        "beam": "BEAM (Erlang)"
+      },
+      "used_for": {
+        "artificial_intelligence": "Mesterséges intelligencia",
+        "backends": "Backend",
+        "cross_platform_development": "Platformfüggetlen fejlesztés",
+        "embedded_systems": "Beágyazott rendszerek",
+        "financial_systems": "Pénzügyi rendszerek",
+        "frontends": "Frontend",
+        "games": "Játékok",
+        "guis": "Grafikus felületek",
+        "mobile": "Mobil",
+        "robotics": "Robotika",
+        "scientific_calculations": "Tudományos számítások",
+        "scripts": "Szkriptek",
+        "web_development": "Webfejlesztés"
+      }
+    }
   }
 }

@@ -4106,5 +4106,66 @@
       "next": "下一页 &rsaquo;",
       "truncate": "&hellip;"
     }
+  },
+  "track_tags": {
+    "categories": {
+      "paradigm": "编程范式",
+      "typing": "类型系统",
+      "execution_mode": "执行方式",
+      "platform": "平台",
+      "runtime": "运行时",
+      "used_for": "用途"
+    },
+    "tags": {
+      "paradigm": {
+        "declarative": "声明式",
+        "functional": "函数式",
+        "imperative": "命令式",
+        "logic": "逻辑式",
+        "object_oriented": "面向对象",
+        "procedural": "过程式"
+      },
+      "typing": {
+        "static": "静态",
+        "dynamic": "动态",
+        "gradual": "渐进式",
+        "strong": "强类型",
+        "weak": "弱类型"
+      },
+      "execution_mode": {
+        "compiled": "编译型",
+        "interpreted": "解释型"
+      },
+      "platform": {
+        "windows": "Windows",
+        "mac": "macOS",
+        "linux": "Linux",
+        "ios": "iOS",
+        "android": "Android",
+        "web": "网页浏览器"
+      },
+      "runtime": {
+        "standalone_executable": "独立可执行文件",
+        "language_specific": "特定语言的运行时",
+        "clr": "Common Language Runtime (.NET)",
+        "jvm": "JVM (Java)",
+        "beam": "BEAM (Erlang)"
+      },
+      "used_for": {
+        "artificial_intelligence": "人工智能",
+        "backends": "后端",
+        "cross_platform_development": "跨平台开发",
+        "embedded_systems": "嵌入式系统",
+        "financial_systems": "金融系统",
+        "frontends": "前端",
+        "games": "游戏",
+        "guis": "图形用户界面",
+        "mobile": "移动端",
+        "robotics": "机器人技术",
+        "scientific_calculations": "科学计算",
+        "scripts": "脚本",
+        "web_development": "Web 开发"
+      }
+    }
   }
 }

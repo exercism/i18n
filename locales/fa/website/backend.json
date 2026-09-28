@@ -4172,5 +4172,66 @@
       "next": "بعدی &rsaquo;",
       "truncate": "&hellip;"
     }
+  },
+  "track_tags": {
+    "categories": {
+      "paradigm": "پارادایم",
+      "typing": "نوع‌دهی",
+      "execution_mode": "حالت اجرا",
+      "platform": "پلتفرم",
+      "runtime": "محیط اجرا",
+      "used_for": "کاربرد"
+    },
+    "tags": {
+      "paradigm": {
+        "declarative": "اعلامی",
+        "functional": "تابعی",
+        "imperative": "امری",
+        "logic": "منطق‌گرا",
+        "object_oriented": "شیءگرا",
+        "procedural": "رویه‌ای"
+      },
+      "typing": {
+        "static": "ایستا",
+        "dynamic": "پویا",
+        "gradual": "تدریجی",
+        "strong": "قوی",
+        "weak": "ضعیف"
+      },
+      "execution_mode": {
+        "compiled": "کامپایل‌شده",
+        "interpreted": "تفسیرشده"
+      },
+      "platform": {
+        "windows": "Windows",
+        "mac": "macOS",
+        "linux": "Linux",
+        "ios": "iOS",
+        "android": "Android",
+        "web": "مرورگر وب"
+      },
+      "runtime": {
+        "standalone_executable": "فایل اجرایی مستقل",
+        "language_specific": "محیط اجرای مخصوص زبان",
+        "clr": "Common Language Runtime (.NET)",
+        "jvm": "JVM (Java)",
+        "beam": "BEAM (Erlang)"
+      },
+      "used_for": {
+        "artificial_intelligence": "هوش مصنوعی",
+        "backends": "Backends",
+        "cross_platform_development": "توسعه‌ی چندسکویی",
+        "embedded_systems": "سیستم‌های توکار",
+        "financial_systems": "سیستم‌های مالی",
+        "frontends": "Frontends",
+        "games": "بازی",
+        "guis": "رابط کاربری گرافیکی",
+        "mobile": "موبایل",
+        "robotics": "رباتیک",
+        "scientific_calculations": "محاسبات علمی",
+        "scripts": "اسکریپت‌ها",
+        "web_development": "توسعه وب"
+      }
+    }
   }
 }

@@ -4232,5 +4232,66 @@
       "next": "Seguinte &rsaquo;",
       "truncate": "&hellip;"
     }
+  },
+  "track_tags": {
+    "categories": {
+      "paradigm": "Paradigma",
+      "typing": "Tipagem",
+      "execution_mode": "Modo de execução",
+      "platform": "Plataforma",
+      "runtime": "Ambiente de execução",
+      "used_for": "Utilizado para"
+    },
+    "tags": {
+      "paradigm": {
+        "declarative": "Declarativo",
+        "functional": "Funcional",
+        "imperative": "Imperativo",
+        "logic": "Lógico",
+        "object_oriented": "Orientado a objetos",
+        "procedural": "Procedural"
+      },
+      "typing": {
+        "static": "Estática",
+        "dynamic": "Dinâmica",
+        "gradual": "Gradual",
+        "strong": "Forte",
+        "weak": "Fraca"
+      },
+      "execution_mode": {
+        "compiled": "Compilado",
+        "interpreted": "Interpretado"
+      },
+      "platform": {
+        "windows": "Windows",
+        "mac": "macOS",
+        "linux": "Linux",
+        "ios": "iOS",
+        "android": "Android",
+        "web": "Navegador web"
+      },
+      "runtime": {
+        "standalone_executable": "Executável autónomo",
+        "language_specific": "Ambiente de execução específico da linguagem",
+        "clr": "Common Language Runtime (.NET)",
+        "jvm": "JVM (Java)",
+        "beam": "BEAM (Erlang)"
+      },
+      "used_for": {
+        "artificial_intelligence": "Inteligência Artificial",
+        "backends": "Backends",
+        "cross_platform_development": "Desenvolvimento multiplataforma",
+        "embedded_systems": "Sistemas embebidos",
+        "financial_systems": "Sistemas financeiros",
+        "frontends": "Frontends",
+        "games": "Jogos",
+        "guis": "GUIs",
+        "mobile": "Mobile",
+        "robotics": "Robótica",
+        "scientific_calculations": "Cálculos científicos",
+        "scripts": "Scripts",
+        "web_development": "Desenvolvimento web"
+      }
+    }
   }
 }
