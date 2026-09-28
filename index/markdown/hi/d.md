@@ -431,11 +431,13 @@ This page is generated from [the index](../../json/hi/d.json) by `scripts/build-
 
 ### ABOUT.md
 
-- `ABOUT.md` ([English](https://github.com/exercism/d/blob/main/docs/ABOUT.md)): [Latest](../../../locales/hi/content/58/8f/0817bf335e0912e837ecccc1b6ffeda554bd.md)
+- `ABOUT.md` ([English](https://github.com/exercism/d/blob/main/docs/ABOUT.md)): [Latest](../../../locales/hi/content/bd/f4/cf53cee69d36ef0f2765e646f693c4bac61a.md)
+  - [`588f0817bf`](../../../locales/hi/content/58/8f/0817bf335e0912e837ecccc1b6ffeda554bd.md)
 
 ### How to learn D (D सीखने का तरीका)
 
-- `LEARNING.md` ([English](https://github.com/exercism/d/blob/main/docs/LEARNING.md)): [Latest](../../../locales/hi/content/7f/24/9cb300ce127c22388866fc84ff3d21adbc21.md)
+- `LEARNING.md` ([English](https://github.com/exercism/d/blob/main/docs/LEARNING.md)): [Latest](../../../locales/hi/content/d1/47/c92349aefc808518e45b64179fc43573a2ad.md)
+  - [`7f249cb300`](../../../locales/hi/content/7f/24/9cb300ce127c22388866fc84ff3d21adbc21.md)
 
 ### Installing D locally (D को अपने कंप्यूटर पर इंस्टॉल करना)
 
@@ -447,7 +449,8 @@ This page is generated from [the index](../../json/hi/d.json) by `scripts/build-
 
 ### Useful D resources (काम के D संसाधन)
 
-- `RESOURCES.md` ([English](https://github.com/exercism/d/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/hi/content/07/9c/e21a2753aa522d4b9d253530f618a4b6f1ce.md)
+- `RESOURCES.md` ([English](https://github.com/exercism/d/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/hi/content/4f/fe/c32e89e2e2104719ea33cf76856d742392ba.md)
+  - [`079ce21a27`](../../../locales/hi/content/07/9c/e21a2753aa522d4b9d253530f618a4b6f1ce.md)
 
 ## Shared exercise docs
 

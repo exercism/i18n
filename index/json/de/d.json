@@ -101,10 +101,10 @@
     "exercises/practice/zebra-puzzle": {"de":"Zebrarätsel","en":"Zebra Puzzle"}
   },
   "paths": {
-    "docs/ABOUT.md": ["588f0817bf335e0912e837ecccc1b6ffeda554bd"],
+    "docs/ABOUT.md": ["bdf4cf53cee69d36ef0f2765e646f693c4bac61a","588f0817bf335e0912e837ecccc1b6ffeda554bd"],
     "docs/INSTALLATION.md": ["adaad47a1353456bf49d1d003652ab30f9a82483"],
-    "docs/LEARNING.md": ["7f249cb300ce127c22388866fc84ff3d21adbc21"],
-    "docs/RESOURCES.md": ["079ce21a2753aa522d4b9d253530f618a4b6f1ce"],
+    "docs/LEARNING.md": ["d147c92349aefc808518e45b64179fc43573a2ad","7f249cb300ce127c22388866fc84ff3d21adbc21"],
+    "docs/RESOURCES.md": ["4ffec32e89e2e2104719ea33cf76856d742392ba","079ce21a2753aa522d4b9d253530f618a4b6f1ce"],
     "docs/TESTS.md": ["754771ad647716bc1fd5fcb374b9852534e4e891"],
     "exercises/practice/acronym/.docs/instructions.md": ["133bd2cbb78d186c92e5d2b8ca41cf13f77d6bea"],
     "exercises/practice/affine-cipher/.docs/instructions.md": ["1603dbbce91dee78f8c1520ceb8bc96c6dc9528a"],
