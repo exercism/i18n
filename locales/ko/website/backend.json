@@ -2210,7 +2210,7 @@
         "tagline": "Exercism이 살아남아 더 나아가려면 여러분의 도움이 필요해요!",
         "description_html": "Exercism에 후원하면 %{strong_text_1}, %{strong_text_2}, %{strong_text_3}, %{strong_text_4} 등 비하인드 콘텐츠와 보너스 기능을 이용할 수 있어요.",
         "strong_text_1": "다크 모드",
-        "strong_text_2": "ChatGPT 연동",
+        "strong_text_2": "Exercism AI",
         "strong_text_3": "추가 멘토링 슬롯",
         "strong_text_4": "전용 배지",
         "learn_more_button": "자세히 알아보기",
@@ -3476,7 +3476,7 @@
       "insiders_title": "Exercism Insiders",
       "hero_subtitle_html": "<strong>Exercism에 후원하고</strong> <span class=\"underline\">보너스 기능</span>과 <span class=\"underline\">비하인드 콘텐츠</span>를 받아보세요.",
       "donations_message_html": "저희가 계속 운영되고 &amp; 성장하려면 <strong>여러분 같은 분들</strong>의 후원이 필요해요! Insiders는 저희를 응원해 주시는 분들께 감사드리는 방법이에요!",
-      "features_summary_html": "Exercism에 후원하면 비하인드 콘텐츠 열람, <strong>다크 모드,</strong> 전용 배지, <strong>고급 GitHub Sync와 즐겨찾기,</strong> ChatGPT 연동, <strong>추가 멘토링 슬롯,</strong> 비공개 Discord 채널, <strong>광고 없는 환경,</strong> 그리고 더 많은 혜택을 누릴 수 있어요 🎉",
+      "features_summary_html": "Exercism에 후원하면 비하인드 콘텐츠 열람, <strong>다크 모드,</strong> 전용 배지, <strong>고급 GitHub Sync와 즐겨찾기,</strong> Exercism AI, <strong>추가 멘토링 슬롯,</strong> 비공개 Discord 채널, <strong>광고 없는 환경,</strong> 그리고 더 많은 혜택을 누릴 수 있어요 🎉",
       "non_profit_info": "Exercism은 소규모 팀이 운영하는 독립적인 비영리 단체예요(영국 등록 번호 #11733062). 모든 후원금은 플랫폼을 운영하고 개선하는 데 쓰여요.",
       "benefits_heading": "Insider 혜택",
       "benefits_tagline": "저희를 응원해 주신 분들께 감사를 전하는 몇 가지 방법을 소개해요.",
@@ -3559,8 +3559,8 @@
         "description_html": "즐겁게 사용할 수 있도록 멋진 다크 테마를 준비했어요. 밤에 코딩할 때 눈을 쉬게 해 주고, 가장 어두운 매력 속에서 Exercism을 즐겨 보세요. 테마는 <a href=\"%{user_preferences_link}\">사용자 환경설정</a>에서 바꿀 수 있어요."
       },
       "chatgpt": {
-        "title": "ChatGPT",
-        "description": "ChatGPT 연동 기능은 온라인 에디터에서 바로 막힌 부분을 풀도록 도와줘요. 매달 v4.0 요청 3회, v3.5 요청 30회를 사용할 수 있어요. 어떻게 활용하고 있는지 알려 주세요!"
+        "title": "Exercism AI",
+        "description": "Exercism AI는 온라인 에디터에서 바로 막힌 부분을 풀도록 도와줘요. 모든 연습 문제에서 대화 횟수 제한 없이 사용할 수 있어요. 답을 그냥 알려 주기보다는 스스로 답에 이르도록 이끌어 줘요. 어떻게 활용하고 있는지 알려 주세요!"
       },
       "name_tag_flair_and_badges": {
         "title": "이름표 장식과 배지",
@@ -3793,7 +3793,7 @@
     },
     "eligible_for_lifetime_insiders": {
       "subject": "Exercism Insiders를 이용할 자격이 생겼어요",
-      "body_markdown": "안녕하세요!\n\nExercism Insiders를 이용할 자격이 생겼다는 소식을 전하게 되어 기뻐요. Insiders는 Exercism에 기여하거나 멘토링하거나 후원하는 분들을 위한 보상 프로그램이에요.  \n[Insiders 페이지](%{insiders_url})에서 Insiders 계정을 활성화할 수 있어요.\n\nInsiders에서는 몇 가지 추가 혜택을 받을 수 있어요:\n\n- 감각적인 다크 모드 이용\n- 연습 문제에서 막혔을 때 쓸 수 있는 ChatGPT 연동\n- 비하인드 콘텐츠. 우리가 Exercism을 만들어 가는 과정을 담은 저와 팀의 영상을 보면서 계속 소식을 받아볼 수 있어요.\n- 전용 #insiders Discord 채널을 통해 팀과 주요 커뮤니티 멤버에게 더 가까이 다가갈 수 있어요.\n- 추가 멘토링 슬롯.\n- 독점 배지\n- 그리고 더 많은 혜택이 있어요!\n\n**Lifetime** 상태를 부여해 드렸어요. 즉, 언제나 Insiders를 이용할 수 있어요.  \n자세한 내용은 [Insiders 페이지](%{insiders_url})에 가득하니, 아래 영상을 보고 더 알아봐요 👇\n\n<a href=\"https://www.youtube.com/watch?v=iwhahd41h0A\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"https://assets.exercism.org/images/thumbnails/introducing-insiders-with-play-icon.jpg\" style=\"width:100%; display:block\" />\n</a>\n\nExercism의 이야기에 함께해 주셔서 정말 감사합니다. Insiders를 마음껏 즐기시길 바라요!\n\nJeremy Walker  \nExercism의 공동 창업자 겸 CEO\n\n[Insiders 활성화하기](%{insiders_url})"
+      "body_markdown": "안녕하세요!\n\nExercism Insiders를 이용할 자격이 생겼다는 소식을 전하게 되어 기뻐요. Insiders는 Exercism에 기여하거나 멘토링하거나 후원하는 분들을 위한 보상 프로그램이에요.  \n[Insiders 페이지](%{insiders_url})에서 Insiders 계정을 활성화할 수 있어요.\n\nInsiders에서는 몇 가지 추가 혜택을 받을 수 있어요:\n\n- 감각적인 다크 모드 이용\n- 연습 문제에서 막혔을 때 쓸 수 있는 Exercism AI\n- 비하인드 콘텐츠. 우리가 Exercism을 만들어 가는 과정을 담은 저와 팀의 영상을 보면서 계속 소식을 받아볼 수 있어요.\n- 전용 #insiders Discord 채널을 통해 팀과 주요 커뮤니티 멤버에게 더 가까이 다가갈 수 있어요.\n- 추가 멘토링 슬롯.\n- 독점 배지\n- 그리고 더 많은 혜택이 있어요!\n\n**Lifetime** 상태를 부여해 드렸어요. 즉, 언제나 Insiders를 이용할 수 있어요.  \n자세한 내용은 [Insiders 페이지](%{insiders_url})에 가득하니, 아래 영상을 보고 더 알아봐요 👇\n\n<a href=\"https://www.youtube.com/watch?v=iwhahd41h0A\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"https://assets.exercism.org/images/thumbnails/introducing-insiders-with-play-icon.jpg\" style=\"width:100%; display:block\" />\n</a>\n\nExercism의 이야기에 함께해 주셔서 정말 감사합니다. Insiders를 마음껏 즐기시길 바라요!\n\nJeremy Walker  \nExercism의 공동 창업자 겸 CEO\n\n[Insiders 활성화하기](%{insiders_url})"
     },
     "student_timed_out_discussion_student": {
       "title": "대화 시간이 초과됐어요",
@@ -3815,7 +3815,7 @@
     },
     "eligible_for_insiders": {
       "subject": "Exercism Insiders를 이용할 자격이 생겼어요",
-      "body_markdown": "안녕하세요!\n\nExercism Insiders에 참여할 자격이 있다는 소식을 전하게 되어 기뻐요. Insiders는 Exercism에 기여하거나 멘토링하거나 후원하는 분들을 위한 보상 프로그램이에요.\n[Insiders 페이지](%{insiders_url})에서 Insiders 계정을 활성화할 수 있어요.\n\nInsiders에서는 세 가지 주요 혜택을 드려요.\n1. Exercism Premium 무료 이용. 다크 모드, ChatGPT 통합, 추가 멘토링 슬롯 등 다양한 기능을 사용할 수 있어요.\n2. 비하인드 콘텐츠. 저와 팀이 Exercism을 만들어가는 과정을 담은 영상을 보며 계속 소식을 접할 수 있어요.\n3. 팀과 주요 커뮤니티 멤버에게 더 가까이 다가갈 수 있어요. 전용 #insiders Discord 채널도 있어요.\n\nInsiders 페이지에 훨씬 더 자세한 내용이 담겨 있어요!\nInsiders 자격은 기여, 멘토링 또는 후원을 활발히 이어가는 동안 계속 유지돼요.\n일정 기준을 달성하면 평생 Insiders 자격을 얻을 수도 있어요.\n\nExercism의 이야기에 함께해 주셔서 정말 감사해요. Insiders를 마음껏 즐기시길 바라요!\n\nJeremy Walker\nExercism 공동 창립자 겸 CEO\n\nInsiders 활성화: %{insiders_url}\n"
+      "body_markdown": "안녕하세요!\n\nExercism Insiders에 참여할 자격이 있다는 소식을 전하게 되어 기뻐요. Insiders는 Exercism에 기여하거나 멘토링하거나 후원하는 분들을 위한 보상 프로그램이에요.\n[Insiders 페이지](%{insiders_url})에서 Insiders 계정을 활성화할 수 있어요.\n\nInsiders에서는 세 가지 주요 혜택을 드려요.\n1. Exercism Premium 무료 이용. 이제 다크 모드, Exercism AI, 추가 멘토링 슬롯 등 다양한 기능을 사용할 수 있어요.\n2. 비하인드 콘텐츠. 저와 팀이 Exercism을 만들어가는 과정을 담은 영상을 보며 계속 소식을 접할 수 있어요.\n3. 팀과 주요 커뮤니티 멤버에게 더 가까이 다가갈 수 있어요. 전용 #insiders Discord 채널도 있어요.\n\nInsiders 페이지에 훨씬 더 자세한 내용이 담겨 있어요!\nInsiders 자격은 기여, 멘토링 또는 후원을 활발히 이어가는 동안 계속 유지돼요.\n일정 기준을 달성하면 평생 Insiders 자격을 얻을 수도 있어요.\n\nExercism의 이야기에 함께해 주셔서 정말 감사해요. Insiders를 마음껏 즐기시길 바라요!\n\nJeremy Walker\nExercism 공동 창립자 겸 CEO\n\nInsiders 활성화: %{insiders_url}\n"
     },
     "mentor_finished_discussion": {
       "title": "멘토가 토론을 마쳤어요",

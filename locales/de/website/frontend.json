@@ -483,14 +483,14 @@
   },
   "components/modals/WelcomeToInsidersModal.tsx": {
     "welcomeToInsidersModal.title": "Willkommen bei Insiders! 💙",
-    "welcomeToInsidersModal.accessToFeatures": "Du hast jetzt Zugriff auf den Dark Mode, die ChatGPT-Integration, zusätzliche Mentoring-Plätze sowie Videos hinter den Kulissen, neue Badges und mehr!",
+    "welcomeToInsidersModal.accessToFeatures": "Du hast jetzt Zugriff auf den Dark Mode, Exercism AI, zusätzliche Mentoring-Plätze sowie Videos hinter den Kulissen, neue Badges und mehr!",
     "welcomeToInsidersModal.thanksForBeingPartOfOurStory": "Danke, dass du Teil unserer Geschichte bist!",
     "welcomeToInsidersModal.exercismReliesOnPeople": "Exercism ist auf Menschen wie dich angewiesen, die ihre Zeit und ihr Geld opfern, um anderen zu helfen. Ohne dich hätten wir nicht so vielen Menschen helfen können. Unsere Reise beginnt gerade erst, und wir freuen uns sehr, dass du dabei bist. Vielen Dank, dass du Exercism möglich machst 💙",
     "welcomeToInsidersModal.weHopeInsidersIsFun": "Wir hoffen, dass Insiders dir Spaß macht. Schau dir am besten das Video rechts an, um einen Überblick darüber zu bekommen, wie sich dein Konto verändert hat. Wirf auch einen Blick auf die Insiders-Seite hinter diesem Modal, um all die Funktionen zu sehen, die du freigeschaltet hast.",
     "welcomeToInsidersModal.greatLetsGo": "Super. Los geht's!",
     "welcomeToInsidersModal.startWithOurWelcomeVideo": "Starte mit unserem Willkommensvideo 👇🏽",
     "welcomeToInsidersModal.whatShouldIDoNext": "Was soll ich als Nächstes tun?",
-    "welcomeToInsidersModal.exploreDarkMode": "Entdecke den Dark Mode (wir haben ihn standardmäßig aktiviert). Wirf einen Blick auf deine neuen Badges. Probiere ChatGPT im Online-Editor aus. Nutze einen deiner neuen Mentoring-Plätze. Sag Hallo im #insiders-Kanal auf Discord. Oder schau dir ein paar der Videos hinter den Kulissen an 🎉",
+    "welcomeToInsidersModal.exploreDarkMode": "Entdecke den Dark Mode (wir haben ihn standardmäßig aktiviert). Wirf einen Blick auf deine neuen Badges. Probiere Exercism AI im Online-Editor aus. Nutze einen deiner neuen Mentoring-Plätze. Sag Hallo im #insiders-Kanal auf Discord. Oder schau dir ein paar der Videos hinter den Kulissen an 🎉",
     "welcomeToInsidersModal.videoTitle": "Willkommen bei Exercism Insiders!"
   },
   "components/notifications/": {
@@ -2155,7 +2155,7 @@
     "insiderBenefits.thanksForBeingInsider": "Danke, dass du ein Exercism Insider bist! Hier sind einige zusätzliche Einstellungen nur für dich.",
     "insiderBenefits.eligibleToJoin": "Du kannst Insiders beitreten. <link>Leg hier los.</link>",
     "insiderBenefits.exclusiveOptions": "Das sind exklusive Optionen für Exercism Insiders.",
-    "insiderBenefits.donateToExercism": "<0>Spende an Exercism</0>  und werde ein Insider, um Vorteile wie Dark Mode, ChatGPT-Integration, ein werbefreies Erlebnis und mehr zu erhalten.",
+    "insiderBenefits.donateToExercism": "<0>Spende an Exercism</0>  und werde ein Insider, um Vorteile wie Dark Mode, Exercism AI, ein werbefreies Erlebnis und mehr zu erhalten.",
     "insiderBenefits.successAlt": "Erfolg"
   },
   "components/settings/PasswordForm.tsx": {
@@ -2419,7 +2419,7 @@
   "components/settings/theme-preference-form": {
     "infoMessage.insiderAccessToDarkMode": "Als Exercism Insider hast du Zugriff auf den Dark Mode. Wähle zwischen hell, dunkel oder automatischer Anpassung an deine Systemeinstellungen. Viel Spaß! 💎",
     "infoMessage.eligibleToJoinInsiders": "Du kannst Insiders beitreten. <0>Starte hier.</0>",
-    "infoMessage.darkModeOnlyAvailableToInsiders": "Der Dark Mode ist nur für Exercism Insiders verfügbar. <0>Spende an Exercism</0> und werde Insider, um Zugriff auf den Dark Mode, die ChatGPT-Integration und mehr zu erhalten.",
+    "infoMessage.darkModeOnlyAvailableToInsiders": "Der Dark Mode ist nur für Exercism Insiders verfügbar. <0>Spende an Exercism</0> und werde Insider, um Zugriff auf den Dark Mode, Exercism AI und mehr zu erhalten.",
     "disabledTooltip.mustBeExercismInsider": "Du musst ein <0>Exercism Insider <1/></0> sein, um dieses Design freizuschalten."
   },
   "components/settings/ThemePreferenceForm.tsx": {

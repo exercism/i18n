@@ -2743,7 +2743,7 @@
         "tagline": "¡Exercism necesita tu ayuda para sobrevivir y prosperar!",
         "description_html": "Dona a Exercism y consigue acceso entre bastidores y funcionalidades extra como %{strong_text_1}, %{strong_text_2}, %{strong_text_3}, %{strong_text_4} y mucho más.",
         "strong_text_1": "Modo oscuro",
-        "strong_text_2": "integración con ChatGPT",
+        "strong_text_2": "Exercism AI",
         "strong_text_3": "plazas de mentoría adicionales",
         "strong_text_4": "insignias exclusivas",
         "learn_more_button": "Más información",
@@ -3320,8 +3320,8 @@
         "description_html": "Hemos creado un bonito tema oscuro para que lo disfrutes. Da un respiro a tus ojos mientras programas de noche y disfruta de Exercism en su máximo esplendor oscuro. Puedes cambiar el tema en tus <a href=\"%{user_preferences_link}\">preferencias de usuario</a>."
       },
       "chatgpt": {
-        "title": "ChatGPT",
-        "description": "Nuestra integración con ChatGPT te ayudará a desatascarte directamente en nuestro editor en línea. Tienes 3 veces más solicitudes de v4.0 y 30 veces más de v3.5 por mes natural. ¡Cuéntanos qué tal te va!"
+        "title": "Exercism AI",
+        "description": "Exercism AI te ayuda a desatascarte directamente en nuestro editor en línea, con conversaciones ilimitadas en todos los ejercicios. Te guía hacia la respuesta en lugar de darte la solución directamente. ¡Cuéntanos qué tal te va!"
       },
       "name_tag_flair_and_badges": {
         "title": "Adorno en la etiqueta de nombre e insignias",
@@ -3345,7 +3345,7 @@
       "insiders_title": "Exercism Insiders",
       "hero_subtitle_html": "<strong>Dona a Exercism</strong> y consigue <span class=\"underline\">funcionalidades extra</span> y <span class=\"underline\">contenido entre bastidores.</span>",
       "donations_message_html": "¡Dependemos de las donaciones de <strong>personas como tú</strong> para sobrevivir y crecer! Insiders es nuestra forma de darte las gracias por apoyarnos.",
-      "features_summary_html": "Consigue acceso entre bastidores, <strong>modo oscuro,</strong> insignias exclusivas, <strong>sincronización avanzada con GitHub y favoritos,</strong> integración con ChatGPT, <strong>más plazas de mentoría,</strong> canal privado de Discord, <strong>una experiencia sin anuncios,</strong> y mucho más cuando donas a Exercism 🎉",
+      "features_summary_html": "Consigue acceso entre bastidores, <strong>modo oscuro,</strong> insignias exclusivas, <strong>sincronización avanzada con GitHub y favoritos,</strong> Exercism AI, <strong>más plazas de mentoría,</strong> canal privado de Discord, <strong>una experiencia sin anuncios,</strong> y mucho más cuando donas a Exercism 🎉",
       "non_profit_info": "Exercism es una organización sin ánimo de lucro independiente y registrada (UK #11733062) con un equipo muy pequeño. Todas las donaciones se destinan a mantener y mejorar la plataforma.",
       "benefits_heading": "Ventajas de ser Insider",
       "benefits_tagline": "Estas son algunas de las formas en que te damos las gracias por apoyarnos.",
@@ -4014,7 +4014,7 @@
   "notifications_mailer": {
     "eligible_for_lifetime_insiders": {
       "subject": "Puedes optar a Exercism Insiders",
-      "body_markdown": "¡Hola!\n\nMe hace mucha ilusión contarte que puedes optar a Exercism Insiders, nuestro programa de recompensas para quienes contribuyen, hacen mentoría o donan a Exercism.  \nPuedes activar tu cuenta de Insiders en la [página de Insiders](%{insiders_url}).\n\nInsiders te da algunos beneficios extra:\n\n- Acceso a nuestro atractivo modo oscuro\n- Integración con ChatGPT para cuando te atasques en los ejercicios\n- Contenido entre bastidores. Puedes ver vídeos míos y del equipo, que te mantienen al día mientras trabajamos en Exercism.\n- Acceso más cercano al equipo y a miembros destacados de la comunidad, con nuestro canal dedicado de Discord #insiders.\n- Sesiones de mentoría extra.\n- Insignias exclusivas\n- ¡Y mucho más!\n\nTe hemos concedido el estatus **de por vida**, lo que significa que siempre tendrás acceso a Insiders.  \nLa [página de Insiders](%{insiders_url}) contiene muchos más detalles, o mira el vídeo de abajo para saber más 👇\n\n<a href=\"https://www.youtube.com/watch?v=iwhahd41h0A\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"https://assets.exercism.org/images/thumbnails/introducing-insiders-with-play-icon.jpg\" style=\"width:100%; display:block\" />\n</a>\n\nMuchas gracias por formar parte de la historia de Exercism. ¡Espero de verdad que disfrutes de Insiders!\n\nJeremy Walker  \nCofundador y CEO de Exercism\n\n[Activar Insiders](%{insiders_url})"
+      "body_markdown": "¡Hola!\n\nMe hace mucha ilusión contarte que puedes optar a Exercism Insiders, nuestro programa de recompensas para quienes contribuyen, hacen mentoría o donan a Exercism.  \nPuedes activar tu cuenta de Insiders en la [página de Insiders](%{insiders_url}).\n\nInsiders te da algunos beneficios extra:\n\n- Acceso a nuestro atractivo modo oscuro\n- Exercism AI para cuando te atasques en los ejercicios\n- Contenido entre bastidores. Puedes ver vídeos míos y del equipo, que te mantienen al día mientras trabajamos en Exercism.\n- Acceso más cercano al equipo y a miembros destacados de la comunidad, con nuestro canal dedicado de Discord #insiders.\n- Sesiones de mentoría extra.\n- Insignias exclusivas\n- ¡Y mucho más!\n\nTe hemos concedido el estatus **de por vida**, lo que significa que siempre tendrás acceso a Insiders.  \nLa [página de Insiders](%{insiders_url}) contiene muchos más detalles, o mira el vídeo de abajo para saber más 👇\n\n<a href=\"https://www.youtube.com/watch?v=iwhahd41h0A\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"https://assets.exercism.org/images/thumbnails/introducing-insiders-with-play-icon.jpg\" style=\"width:100%; display:block\" />\n</a>\n\nMuchas gracias por formar parte de la historia de Exercism. ¡Espero de verdad que disfrutes de Insiders!\n\nJeremy Walker  \nCofundador y CEO de Exercism\n\n[Activar Insiders](%{insiders_url})"
     },
     "student_timed_out_discussion_student": {
       "title": "Tu conversación ha caducado",
@@ -4106,7 +4106,7 @@
     },
     "eligible_for_insiders": {
       "subject": "Cumples los requisitos para Exercism Insiders",
-      "body_markdown": "¡Hola!\n\nMe hace mucha ilusión comunicarte que cumples los requisitos para Exercism Insiders, nuestro programa de recompensas para quienes contribuyen, mentorizan o donan a Exercism.\nPuedes activar tu cuenta de Insiders en la [página de Insiders](%{insiders_url}).\n\nInsiders te ofrece tres ventajas principales:\n1. Exercism Premium gratis. Ahora tienes acceso al modo oscuro, la integración con ChatGPT, más plazas de mentoría y mucho más.\n2. Contenido entre bastidores. Puedes ver vídeos míos y del equipo que te mantienen al día mientras trabajamos en Exercism.\n3. Un acceso más cercano al equipo y a miembros clave de la comunidad, con nuestro canal dedicado #insiders en Discord.\n\n¡La página de Insiders contiene muchos más detalles!\nTu estatus de Insider se mantendrá mientras sigas contribuyendo, mentorizando o donando.\nTambién puedes conseguir el estatus de Insider de por vida si alcanzas ciertos umbrales.\n\nMuchas gracias por formar parte de la historia de Exercism. ¡Espero de verdad que disfrutes de Insiders!\n\nJeremy Walker\nCofundador y CEO de Exercism\n\nActiva Insiders: %{insiders_url}\n"
+      "body_markdown": "¡Hola!\n\nMe hace mucha ilusión comunicarte que cumples los requisitos para Exercism Insiders, nuestro programa de recompensas para quienes contribuyen, mentorizan o donan a Exercism.\nPuedes activar tu cuenta de Insiders en la [página de Insiders](%{insiders_url}).\n\nInsiders te ofrece tres ventajas principales:\n1. Exercism Premium gratis. Ahora tienes acceso al modo oscuro, Exercism AI, más plazas de mentoría y mucho más.\n2. Contenido entre bastidores. Puedes ver vídeos míos y del equipo que te mantienen al día mientras trabajamos en Exercism.\n3. Un acceso más cercano al equipo y a miembros clave de la comunidad, con nuestro canal dedicado #insiders en Discord.\n\n¡La página de Insiders contiene muchos más detalles!\nTu estatus de Insider se mantendrá mientras sigas contribuyendo, mentorizando o donando.\nTambién puedes conseguir el estatus de Insider de por vida si alcanzas ciertos umbrales.\n\nMuchas gracias por formar parte de la historia de Exercism. ¡Espero de verdad que disfrutes de Insiders!\n\nJeremy Walker\nCofundador y CEO de Exercism\n\nActiva Insiders: %{insiders_url}\n"
     },
     "mentor_finished_discussion": {
       "title": "Tu mentor ha terminado la conversación",

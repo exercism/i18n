@@ -2213,7 +2213,7 @@
         "tagline": "Exercism 需要你的幫助才能生存與茁壯！",
         "description_html": "捐款給 Exercism，即可獲得幕後獨家內容，以及 %{strong_text_1}、%{strong_text_2}、%{strong_text_3}、%{strong_text_4} 等更多額外功能。",
         "strong_text_1": "深色模式",
-        "strong_text_2": "ChatGPT 整合",
+        "strong_text_2": "Exercism AI",
         "strong_text_3": "額外的引導名額",
         "strong_text_4": "專屬徽章",
         "learn_more_button": "了解更多",
@@ -3454,8 +3454,8 @@
         "description_html": "我們精心打造了漂亮的深色主題，讓你盡情享受。晚上寫程式時讓眼睛休息一下，用最深邃的姿態享受 Exercism。你可以在<a href=\"%{user_preferences_link}\">使用者偏好設定</a>中切換主題。"
       },
       "chatgpt": {
-        "title": "ChatGPT",
-        "description": "我們的 ChatGPT 整合功能可以幫助你在我們的線上編輯器中直接突破卡關。每個日曆月你可以獲得 3 倍的 v4.0 請求數和 30 倍的 v3.5 請求數。跟我們說說你的使用心得吧！"
+        "title": "Exercism AI",
+        "description": "Exercism AI 能讓你在我們的線上編輯器中直接突破卡關，每道練習都有無限的對話次數。它會引導你找出答案，而不是直接把答案告訴你。跟我們說說你的使用心得吧！"
       },
       "name_tag_flair_and_badges": {
         "title": "名稱標籤裝飾與徽章",
@@ -3479,7 +3479,7 @@
       "insiders_title": "Exercism Insiders",
       "hero_subtitle_html": "<strong>捐款給 Exercism</strong>，就能獲得<span class=\"underline\">額外功能</span>和<span class=\"underline\">幕後內容。</span>",
       "donations_message_html": "我們依靠<strong>像你這樣的人</strong>的捐款才能生存並成長！Insiders 就是我們感謝你支持我們的方式！",
-      "features_summary_html": "只要捐款給 Exercism，就能獲得幕後內容、<strong>深色模式，</strong>專屬徽章、<strong>進階 GitHub 同步與收藏，</strong>ChatGPT 整合、<strong>額外的導師名額，</strong>私人 Discord 頻道、<strong>無廣告體驗，</strong>以及更多好康 🎉",
+      "features_summary_html": "只要捐款給 Exercism，就能獲得幕後內容、<strong>深色模式，</strong>專屬徽章、<strong>進階 GitHub 同步與收藏，</strong>Exercism AI、<strong>額外的導師名額，</strong>私人 Discord 頻道、<strong>無廣告體驗，</strong>以及更多好康 🎉",
       "non_profit_info": "Exercism 是一個獨立註冊的非營利組織（英國編號 #11733062），團隊規模很小。所有捐款都用於營運與改善平台。",
       "benefits_heading": "Insider 福利",
       "benefits_tagline": "以下是我們感謝你支持我們的一些方式。",
@@ -3889,7 +3889,7 @@
   "notifications_mailer": {
     "eligible_for_lifetime_insiders": {
       "subject": "你符合 Exercism Insiders 的資格",
-      "body_markdown": "嘿！\n\n很高興告訴你，你符合 Exercism Insiders 的資格。Insiders 是我們為貢獻、引導或捐款給 Exercism 的人所設的回饋方案。  \n你可以在[Insiders 頁面](%{insiders_url})啟用你的 Insiders 帳號。\n\nInsiders 會給你一些額外好處：\n\n- 可以使用超性感的深色模式\n- 整合 ChatGPT，在你卡在練習題時幫上一把\n- 幕後內容。你可以觀看我和團隊的影片，在我們開發 Exercism 的過程中隨時掌握最新動態。\n- 更貼近團隊與關鍵社群成員，還有專屬的 #insiders Discord 頻道。\n- 額外的引導名額。\n- 專屬徽章\n- 還有更多！\n\n我們已經授予你**終身**資格，也就是說你可以永遠使用 Insiders。  \n[Insiders 頁面](%{insiders_url})裡有更多詳細資訊，或者觀看下方影片了解更多 👇\n\n<a href=\"https://www.youtube.com/watch?v=iwhahd41h0A\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"https://assets.exercism.org/images/thumbnails/introducing-insiders-with-play-icon.jpg\" style=\"width:100%; display:block\" />\n</a>\n\n非常感謝你參與 Exercism 的故事。真心希望你會喜歡 Insiders！\n\nJeremy Walker  \nExercism 共同創辦人暨執行長\n\n[啟用 Insiders](%{insiders_url})"
+      "body_markdown": "嘿！\n\n很高興告訴你，你符合 Exercism Insiders 的資格。Insiders 是我們為貢獻、引導或捐款給 Exercism 的人所設的回饋方案。  \n你可以在[Insiders 頁面](%{insiders_url})啟用你的 Insiders 帳號。\n\nInsiders 會給你一些額外好處：\n\n- 可以使用超性感的深色模式\n- Exercism AI，在你卡在練習題時幫上一把\n- 幕後內容。你可以觀看我和團隊的影片，在我們開發 Exercism 的過程中隨時掌握最新動態。\n- 更貼近團隊與關鍵社群成員，還有專屬的 #insiders Discord 頻道。\n- 額外的引導名額。\n- 專屬徽章\n- 還有更多！\n\n我們已經授予你**終身**資格，也就是說你可以永遠使用 Insiders。  \n[Insiders 頁面](%{insiders_url})裡有更多詳細資訊，或者觀看下方影片了解更多 👇\n\n<a href=\"https://www.youtube.com/watch?v=iwhahd41h0A\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"https://assets.exercism.org/images/thumbnails/introducing-insiders-with-play-icon.jpg\" style=\"width:100%; display:block\" />\n</a>\n\n非常感謝你參與 Exercism 的故事。真心希望你會喜歡 Insiders！\n\nJeremy Walker  \nExercism 共同創辦人暨執行長\n\n[啟用 Insiders](%{insiders_url})"
     },
     "student_timed_out_discussion_student": {
       "title": "你的討論已逾時",
@@ -3911,7 +3911,7 @@
     },
     "eligible_for_insiders": {
       "subject": "你符合 Exercism Insiders 的資格",
-      "body_markdown": "嗨！\n\n很開心地通知你，你符合 Exercism Insiders 的資格，這是我們為貢獻、引導或捐款給 Exercism 的人所準備的回饋方案。\n你可以在 [Insiders 頁面](%{insiders_url})啟用你的 Insiders 帳號。\n\nInsiders 給你三大好處：\n1. 免費享有 Exercism Premium。你現在可以使用深色模式、ChatGPT 整合、更多引導名額等等。\n2. 幕後內容。你可以觀看我和團隊的影片，在我們開發 Exercism 的過程中隨時掌握最新消息。\n3. 更貼近團隊與社群核心成員，還有專屬的 Discord #insiders 頻道。\n\nInsiders 頁面裡有更多詳細資訊！\n只要你持續貢獻、引導或捐款，你的 Insiders 資格就會一直保留。\n達到特定門檻後，你還可以獲得終身 Insiders 資格。\n\n非常謝謝你參與 Exercism 的故事。真心希望你喜歡 Insiders！\n\nJeremy Walker\nExercism 的共同創辦人兼執行長\n\n啟用 Insiders：%{insiders_url}\n"
+      "body_markdown": "嗨！\n\n很開心地通知你，你符合 Exercism Insiders 的資格，這是我們為貢獻、引導或捐款給 Exercism 的人所準備的回饋方案。\n你可以在 [Insiders 頁面](%{insiders_url})啟用你的 Insiders 帳號。\n\nInsiders 給你三大好處：\n1. 免費享有 Exercism Premium。你現在可以使用深色模式、Exercism AI、更多引導名額等等。\n2. 幕後內容。你可以觀看我和團隊的影片，在我們開發 Exercism 的過程中隨時掌握最新消息。\n3. 更貼近團隊與社群核心成員，還有專屬的 Discord #insiders 頻道。\n\nInsiders 頁面裡有更多詳細資訊！\n只要你持續貢獻、引導或捐款，你的 Insiders 資格就會一直保留。\n達到特定門檻後，你還可以獲得終身 Insiders 資格。\n\n非常謝謝你參與 Exercism 的故事。真心希望你喜歡 Insiders！\n\nJeremy Walker\nExercism 的共同創辦人兼執行長\n\n啟用 Insiders：%{insiders_url}\n"
     },
     "mentor_finished_discussion": {
       "title": "你的導師已結束討論",

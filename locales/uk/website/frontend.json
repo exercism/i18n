@@ -976,7 +976,7 @@
     "insiderBenefits.thanksForBeingInsider": "Дякуємо за підтримку Exercism як Insider! Ось кілька додаткових налаштувань виключно для Insiders.",
     "insiderBenefits.eligibleToJoin": "Є можливість долучитися до Insiders. <link>Почніть тут.</link>",
     "insiderBenefits.exclusiveOptions": "Це ексклюзивні налаштування для Exercism Insiders.",
-    "insiderBenefits.donateToExercism": "<0>Задонатьте Exercism</0>  і станьте Insider, щоб отримати доступ до таких переваг, як темна тема, інтеграція з ChatGPT, перегляд без реклами та багато іншого.",
+    "insiderBenefits.donateToExercism": "<0>Задонатьте Exercism</0>  і станьте Insider, щоб отримати доступ до таких переваг, як темний режим, Exercism AI, перегляд без реклами та багато іншого.",
     "insiderBenefits.successAlt": "Успіх"
   },
   "components/settings/PasswordForm.tsx": {
@@ -1948,14 +1948,14 @@
   },
   "components/modals/WelcomeToInsidersModal.tsx": {
     "welcomeToInsidersModal.title": "Вітаємо в Insiders! 💙",
-    "welcomeToInsidersModal.accessToFeatures": "Тепер доступні темний режим, інтеграція з ChatGPT, додаткові слоти наставництва, а також відео з-за лаштунків, нові значки та багато іншого!",
+    "welcomeToInsidersModal.accessToFeatures": "Тепер доступні темний режим, Exercism AI, додаткові слоти наставництва, а також відео з-за лаштунків, нові значки та багато іншого!",
     "welcomeToInsidersModal.thanksForBeingPartOfOurStory": "Дякуємо, що стали частиною нашої історії!",
     "welcomeToInsidersModal.exercismReliesOnPeople": "Exercism тримається на людях, які віддають свій час і гроші, щоб допомагати іншим. Без цієї підтримки ми не допомогли б стільком людям. Наша подорож ще тільки починається, і ми дуже раді йти нею разом. Щиро дякуємо всім, завдяки кому Exercism стає можливим 💙",
     "welcomeToInsidersModal.weHopeInsidersIsFun": "Сподіваємося, що Insiders стане приємним досвідом. Радимо подивитися відео праворуч, щоб дізнатися, як тепер змінився акаунт, а також зазирнути на сторінку Insiders за цим модальним вікном, щоб побачити всі можливості, які стали доступними.",
     "welcomeToInsidersModal.greatLetsGo": "Чудово. Рушаймо!",
     "welcomeToInsidersModal.startWithOurWelcomeVideo": "Почніть із нашого вітального відео 👇🏽",
     "welcomeToInsidersModal.whatShouldIDoNext": "Що робити далі?",
-    "welcomeToInsidersModal.exploreDarkMode": "Спробуйте темний режим (ми ввімкнули його типово). Погляньте на свої нові значки. Випробуйте ChatGPT в онлайн-редакторі. Скористайтеся одним зі своїх нових слотів наставництва. Завітайте привітатися на канал #insiders у Discord. Або подивіться кілька відео з-за лаштунків 🎉",
+    "welcomeToInsidersModal.exploreDarkMode": "Спробуйте темний режим (ми ввімкнули його типово). Погляньте на свої нові значки. Випробуйте Exercism AI в онлайн-редакторі. Скористайтеся одним зі своїх нових слотів наставництва. Завітайте привітатися на канал #insiders у Discord. Або подивіться кілька відео з-за лаштунків 🎉",
     "welcomeToInsidersModal.videoTitle": "Вітаємо в Exercism Insiders!"
   },
   "components/notifications/": {
@@ -2110,7 +2110,7 @@
   "components/settings/theme-preference-form": {
     "infoMessage.insiderAccessToDarkMode": "Учасники Exercism Insiders мають доступ до темної теми. Можна обрати світлу, темну тему або автоматичне оновлення відповідно до налаштувань системи. Приємного користування! 💎",
     "infoMessage.eligibleToJoinInsiders": "Можна долучитися до Insiders. <0>Почати тут.</0>",
-    "infoMessage.darkModeOnlyAvailableToInsiders": "Темна тема доступна лише учасникам Exercism Insiders. <0>Підтримати Exercism</0>, щоб стати учасником Insiders і отримати доступ до темної теми, інтеграції з ChatGPT та іншого.",
+    "infoMessage.darkModeOnlyAvailableToInsiders": "Темний режим доступний лише учасникам Exercism Insiders. <0>Підтримати Exercism</0>, щоб стати учасником Insiders і отримати доступ до темного режиму, Exercism AI та іншого.",
     "disabledTooltip.mustBeExercismInsider": "Щоб розблокувати цю тему, потрібно бути <0>учасником Exercism Insiders <1/></0>."
   },
   "components/settings/ThemePreferenceForm.tsx": {

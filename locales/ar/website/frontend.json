@@ -411,7 +411,7 @@
     "insiderBenefits.thanksForBeingInsider": "شكرًا لأنك من Insiders في Exercism! إليك بعض الإعدادات الإضافية المخصّصة لك وحدك.",
     "insiderBenefits.eligibleToJoin": "أنت مؤهّل للانضمام إلى Insiders. <link>ابدأ من هنا.</link>",
     "insiderBenefits.exclusiveOptions": "هذه خيارات حصرية لأعضاء Insiders في Exercism.",
-    "insiderBenefits.donateToExercism": "<0>تبرّع لـ Exercism</0>  لتصبح من Insiders وتحصل على مزايا مثل الوضع الداكن، وتكامل ChatGPT، وتجربة بلا إعلانات، والمزيد.",
+    "insiderBenefits.donateToExercism": "<0>تبرّع لـ Exercism</0>  لتصبح من Insiders وتحصل على مزايا مثل الوضع الداكن، وExercism AI، وتجربة بلا إعلانات، والمزيد.",
     "insiderBenefits.successAlt": "تمّ بنجاح"
   },
   "components/settings/PasswordForm.tsx": {
@@ -1815,7 +1815,7 @@
   "components/settings/theme-preference-form": {
     "infoMessage.insiderAccessToDarkMode": "بصفتك أحد أعضاء Insiders في Exercism، يمكنك استخدام الوضع الداكن. اختر بين الوضع الفاتح أو الداكن، أو التحديث التلقائي وفقًا لتفضيلات نظامك. استمتع! 💎",
     "infoMessage.eligibleToJoinInsiders": "أنت مؤهل للانضمام إلى Insiders. <0>ابدأ من هنا.</0>",
-    "infoMessage.darkModeOnlyAvailableToInsiders": "الوضع الداكن متاح لأعضاء Insiders في Exercism فقط. <0>تبرّع لـ Exercism</0> وكن أحد أعضاء Insiders للوصول إلى الوضع الداكن وتكامل ChatGPT والمزيد.",
+    "infoMessage.darkModeOnlyAvailableToInsiders": "الوضع الداكن متاح لأعضاء Insiders في Exercism فقط. <0>تبرّع لـ Exercism</0> وكن أحد أعضاء Insiders للوصول إلى الوضع الداكن وExercism AI والمزيد.",
     "disabledTooltip.mustBeExercismInsider": "يجب أن تكون أحد <0>أعضاء Insiders في Exercism <1/></0> لفتح هذا المظهر."
   },
   "components/settings/ThemePreferenceForm.tsx": {
@@ -2698,14 +2698,14 @@
   },
   "components/modals/WelcomeToInsidersModal.tsx": {
     "welcomeToInsidersModal.title": "مرحبًا بك في Insiders! 💙",
-    "welcomeToInsidersModal.accessToFeatures": "أصبح لديك الآن إمكانية الوصول إلى الوضع الداكن، وتكامل ChatGPT، وفتحات إرشاد إضافية، إلى جانب فيديوهات الكواليس، وشارات جديدة، والمزيد!",
+    "welcomeToInsidersModal.accessToFeatures": "أصبح لديك الآن إمكانية الوصول إلى الوضع الداكن، وExercism AI، وفتحات إرشاد إضافية، إلى جانب فيديوهات الكواليس، وشارات جديدة، والمزيد!",
     "welcomeToInsidersModal.thanksForBeingPartOfOurStory": "شكرًا لأنك جزء من قصتنا!",
     "welcomeToInsidersModal.exercismReliesOnPeople": "يعتمد Exercism على أشخاص مثلك يمنحون وقتهم ومالهم لمساعدة الآخرين. لولاك لما استطعنا مساعدة هذا العدد الكبير من الناس. رحلتنا ما زالت في بدايتها فقط، ويسعدنا جدًا أنك معنا. شكرًا جزيلًا لأنك تجعل Exercism ممكنًا 💙",
     "welcomeToInsidersModal.weHopeInsidersIsFun": "نأمل أن تكون تجربة Insiders ممتعة. ننصحك بمشاهدة الفيديو على اليمين للحصول على نظرة عامة على كيفية تغيّر حسابك الآن، وكذلك الاطّلاع على صفحة Insiders خلف هذه النافذة المنبثقة لرؤية كل المزايا التي فتحتها.",
     "welcomeToInsidersModal.greatLetsGo": "رائع. لننطلق!",
     "welcomeToInsidersModal.startWithOurWelcomeVideo": "ابدأ بفيديو الترحيب الخاص بنا 👇🏽",
     "welcomeToInsidersModal.whatShouldIDoNext": "ما الذي ينبغي أن أفعله بعد ذلك؟",
-    "welcomeToInsidersModal.exploreDarkMode": "استكشف الوضع الداكن (فعّلناه افتراضيًا). اطّلع على شاراتك الجديدة. جرّب ChatGPT في المحرر الإلكتروني. استخدم إحدى فتحات الإرشاد الجديدة. مرّ وألقِ التحية في قناة #insiders على Discord. أو شاهد بعض فيديوهات الكواليس 🎉",
+    "welcomeToInsidersModal.exploreDarkMode": "استكشف الوضع الداكن (فعّلناه افتراضيًا). اطّلع على شاراتك الجديدة. جرّب Exercism AI في المحرر الإلكتروني. استخدم إحدى فتحات الإرشاد الجديدة. مرّ وألقِ التحية في قناة #insiders على Discord. أو شاهد بعض فيديوهات الكواليس 🎉",
     "welcomeToInsidersModal.videoTitle": "مرحبًا بك في Exercism Insiders!"
   },
   "components/notifications/": {

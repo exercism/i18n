@@ -1180,14 +1180,14 @@
   },
   "components/modals/WelcomeToInsidersModal.tsx": {
     "welcomeToInsidersModal.title": "Üdv az Insidersben! 💙",
-    "welcomeToInsidersModal.accessToFeatures": "Mostantól hozzáférsz a Dark Mode-hoz, a ChatGPT-integrációhoz, extra mentorálási helyekhez, valamint kulisszák mögötti videókhoz, új jelvényekhez és még sok máshoz!",
+    "welcomeToInsidersModal.accessToFeatures": "Mostantól hozzáférsz a sötét módhoz, az Exercism AI-hoz, extra mentorálási helyekhez, valamint kulisszák mögötti videókhoz, új jelvényekhez és még sok máshoz!",
     "welcomeToInsidersModal.thanksForBeingPartOfOurStory": "Köszönjük, hogy a történetünk része vagy!",
     "welcomeToInsidersModal.exercismReliesOnPeople": "Az Exercism olyan emberekre támaszkodik, mint te, akik az idejüket és a pénzüket adják, hogy másokon segítsenek. Nélküled nem tudtunk volna ennyi embernek segíteni. Az utunk még csak most kezdődik, és nagyon örülünk, hogy velünk vagy. Köszönjük szépen, hogy lehetővé teszed az Exercism-öt 💙",
     "welcomeToInsidersModal.weHopeInsidersIsFun": "Reméljük, hogy az Insiders szórakoztató élmény. Javasoljuk, hogy nézd meg a jobb oldali videót, hogy áttekintést kapj arról, hogyan változott meg a fiókod, és vess egy pillantást az ablak mögötti Insiders oldalra is, hogy lásd az összes feloldott funkciót.",
     "welcomeToInsidersModal.greatLetsGo": "Remek. Gyerünk!",
     "welcomeToInsidersModal.startWithOurWelcomeVideo": "Kezdd az üdvözlővideónkkal 👇🏽",
     "welcomeToInsidersModal.whatShouldIDoNext": "Mit tegyek most?",
-    "welcomeToInsidersModal.exploreDarkMode": "Próbáld ki a Dark Mode-ot (alapértelmezés szerint be van kapcsolva). Nézd meg az új jelvényeidet. Próbáld ki a ChatGPT-t az online szerkesztőben. Használd az egyik új mentorálási helyedet. Gyere és köszönj a Discord #insiders csatornáján. Vagy nézz meg néhány kulisszák mögötti videót 🎉",
+    "welcomeToInsidersModal.exploreDarkMode": "Próbáld ki a sötét módot (alapértelmezés szerint be van kapcsolva). Nézd meg az új jelvényeidet. Próbáld ki az Exercism AI-t az online szerkesztőben. Használd az egyik új mentorálási helyedet. Gyere és köszönj a Discord #insiders csatornáján. Vagy nézz meg néhány kulisszák mögötti videót 🎉",
     "welcomeToInsidersModal.videoTitle": "Üdv az Exercism Insiders programban!"
   },
   "components/notifications/": {
@@ -1361,7 +1361,7 @@
     "insiderBenefits.thanksForBeingInsider": "Köszönjük, hogy Exercism Insider vagy! Íme néhány extra beállítás, kizárólag neked.",
     "insiderBenefits.eligibleToJoin": "Jogosult vagy csatlakozni az Insidershez. <link>Kezdj hozzá itt.</link>",
     "insiderBenefits.exclusiveOptions": "Ezek kizárólagos lehetőségek az Exercism Insiderek számára.",
-    "insiderBenefits.donateToExercism": "<0>Adományozz az Exercism-nek</0>  hogy Insider legyél, és hozzáférj olyan előnyökhöz, mint a sötét mód, a ChatGPT-integráció, a reklámmentes élmény és még sok más.",
+    "insiderBenefits.donateToExercism": "<0>Adományozz az Exercism-nek</0>  hogy Insider legyél, és hozzáférj olyan előnyökhöz, mint a sötét mód, az Exercism AI, a reklámmentes élmény és még sok más.",
     "insiderBenefits.successAlt": "Siker"
   },
   "components/settings/PasswordForm.tsx": {
@@ -1438,7 +1438,7 @@
   "components/settings/theme-preference-form": {
     "infoMessage.insiderAccessToDarkMode": "Exercism Insiderként hozzáférsz a sötét módhoz. Válassz világos, sötét vagy a rendszerbeállításaid alapján automatikusan frissülő megjelenés közül. Jó szórakozást! 💎",
     "infoMessage.eligibleToJoinInsiders": "Jogosult vagy csatlakozni az Insiders programhoz. <0>Kezdj hozzá itt.</0>",
-    "infoMessage.darkModeOnlyAvailableToInsiders": "A sötét mód csak az Exercism Insiders tagjai számára érhető el. <0>Támogasd az Exercism-öt</0>, és válj Insiders-taggá, hogy hozzáférj a sötét módhoz, a ChatGPT-integrációhoz és további funkciókhoz.",
+    "infoMessage.darkModeOnlyAvailableToInsiders": "A sötét mód csak az Exercism Insiders tagjai számára érhető el. <0>Támogasd az Exercism-öt</0>, és válj Insiders-taggá, hogy hozzáférj a sötét módhoz, az Exercism AI-hoz és további funkciókhoz.",
     "disabledTooltip.mustBeExercismInsider": "Ahhoz, hogy feloldd ezt a témát, <0>Exercism Insider <1/></0> kell lenned."
   },
   "components/settings/ThemePreferenceForm.tsx": {

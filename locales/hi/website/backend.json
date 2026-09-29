@@ -3138,7 +3138,7 @@
         "tagline": "Exercism को टिके रहने और आगे बढ़ने के लिए आपकी मदद चाहिए!",
         "description_html": "Exercism को दान कीजिए और पर्दे के पीछे की झलक तथा %{strong_text_1}, %{strong_text_2}, %{strong_text_3}, %{strong_text_4} जैसे बोनस फीचर और भी बहुत कुछ पाइए।",
         "strong_text_1": "डार्क मोड",
-        "strong_text_2": "ChatGPT इंटीग्रेशन",
+        "strong_text_2": "Exercism AI",
         "strong_text_3": "अतिरिक्त मेंटरिंग स्लॉट",
         "strong_text_4": "खास बैज",
         "learn_more_button": "और जानें",
@@ -3882,7 +3882,7 @@
       "insiders_title": "Exercism Insiders",
       "hero_subtitle_html": "<strong>Exercism को दान कीजिए</strong> और पाइए <span class=\"underline\">बोनस फीचर</span> तथा <span class=\"underline\">पर्दे के पीछे की सामग्री।</span>",
       "donations_message_html": "टिके रहने और आगे बढ़ने के लिए हम <strong>आप जैसे लोगों</strong> के दान पर निर्भर हैं! हमारा साथ देने के लिए आपको धन्यवाद कहने का हमारा तरीका है Insiders!",
-      "features_summary_html": "जब आप Exercism को दान करते हैं, तो आपको मिलता है पर्दे के पीछे की सामग्री तक पहुँच, <strong>डार्क मोड,</strong> खास बैज, <strong>बेहतर GitHub सिंक और पसंदीदा,</strong> ChatGPT इंटीग्रेशन, <strong>मेंटर के अतिरिक्त स्लॉट,</strong> निजी Discord चैनल, <strong>विज्ञापन-रहित अनुभव,</strong> और बहुत कुछ 🎉",
+      "features_summary_html": "जब आप Exercism को दान करते हैं, तो आपको मिलता है पर्दे के पीछे की सामग्री तक पहुँच, <strong>डार्क मोड,</strong> खास बैज, <strong>बेहतर GitHub सिंक और पसंदीदा,</strong> Exercism AI, <strong>मेंटर के अतिरिक्त स्लॉट,</strong> निजी Discord चैनल, <strong>विज्ञापन-रहित अनुभव,</strong> और बहुत कुछ 🎉",
       "non_profit_info": "Exercism एक स्वतंत्र, पंजीकृत गैर-लाभकारी संस्था है (यूके #11733062), जिसकी टीम बहुत छोटी है। सारा दान प्लेटफॉर्म को चलाने और बेहतर बनाने में लगता है।",
       "benefits_heading": "Insider के फायदे",
       "benefits_tagline": "हमारा साथ देने के लिए हम आपको धन्यवाद कहने के कुछ तरीके ये हैं।",
@@ -3965,8 +3965,8 @@
         "description_html": "आपके लिए हमने एक बहुत प्यारा डार्क थीम बनाया है। रात में कोडिंग करते समय अपनी आँखों को आराम दीजिए और Exercism का सबसे गहरा रूप आनंद से देखिए। आप अपनी थीम <a href=\"%{user_preferences_link}\">उपयोगकर्ता प्राथमिकताएँ</a> में टॉगल कर सकते हैं।"
       },
       "chatgpt": {
-        "title": "ChatGPT",
-        "description": "हमारा ChatGPT इंटीग्रेशन आपको सीधे हमारे ऑनलाइन एडिटर में ही अटकाव से निकलने में मदद करेगा। हर कैलेंडर महीने में आपको v4.0 की 3 गुना और v3.5 की 30 गुना रिक्वेस्ट मिलती हैं। बताइए, यह आपको कैसा लगा!"
+        "title": "Exercism AI",
+        "description": "Exercism AI आपको सीधे हमारे ऑनलाइन एडिटर में ही अटकाव से निकलने में मदद करता है, और हर अभ्यास पर आप जितनी चाहें उतनी बातचीत कर सकते हैं। यह आपको जवाब देने के बजाय उस तक खुद पहुँचने का रास्ता दिखाता है। बताइए, यह आपको कैसा लगा!"
       },
       "name_tag_flair_and_badges": {
         "title": "नाम टैग फ्लेयर और बैज",
@@ -3998,7 +3998,7 @@
     },
     "eligible_for_insiders": {
       "subject": "आप Exercism Insiders के लिए पात्र हैं",
-      "body_markdown": "नमस्ते!\n\nमुझे आपको यह बताते हुए खुशी है कि आप Exercism Insiders के लिए पात्र हैं। यह हमारा रिवॉर्ड्स प्रोग्राम है, उन लोगों के लिए जो Exercism में योगदान देते हैं, मेंटरिंग करते हैं या दान करते हैं।\nआप अपना Insiders अकाउंट [Insiders पेज](%{insiders_url}) पर सक्रिय कर सकते हैं।\n\nInsiders आपको तीन मुख्य फायदे देता है:\n1. Exercism Premium मुफ्त में। अब आपके पास Dark Mode, ChatGPT Integration, अतिरिक्त मेंटरिंग स्लॉट और बहुत कुछ का एक्सेस है।\n2. पर्दे के पीछे की सामग्री। जब हम Exercism पर काम कर रहे होते हैं, तो आप मेरे और टीम के वीडियो देख सकते हैं और हर अपडेट से जुड़े रह सकते हैं।\n3. टीम और समुदाय के प्रमुख सदस्यों तक ज़्यादा करीबी पहुँच, हमारे खास #insiders Discord चैनल के जरिए।\n\nInsiders पेज पर बहुत और जानकारी है!\nजब तक आप सक्रिय रूप से योगदान देते हैं, मेंटरिंग करते हैं या दान करते हैं, तब तक आपका Insiders स्टेटस बना रहेगा।\nकुछ सीमाएँ पार करके आप Lifetime Insiders का स्टेटस भी कमा सकते हैं।\n\nExercism की कहानी का हिस्सा बनने के लिए बहुत-बहुत धन्यवाद। मुझे उम्मीद है कि आपको Insiders बहुत पसंद आएगा!\n\nJeremy Walker\nExercism के सह-संस्थापक और CEO\n\nInsiders सक्रिय कीजिए: %{insiders_url}\n"
+      "body_markdown": "नमस्ते!\n\nमुझे आपको यह बताते हुए खुशी है कि आप Exercism Insiders के लिए पात्र हैं। यह हमारा रिवॉर्ड्स प्रोग्राम है, उन लोगों के लिए जो Exercism में योगदान देते हैं, मेंटरिंग करते हैं या दान करते हैं।\nआप अपना Insiders अकाउंट [Insiders पेज](%{insiders_url}) पर सक्रिय कर सकते हैं।\n\nInsiders आपको तीन मुख्य फायदे देता है:\n1. Exercism Premium मुफ्त में। अब आपके पास Dark Mode, Exercism AI, अतिरिक्त मेंटरिंग स्लॉट और बहुत कुछ का एक्सेस है।\n2. पर्दे के पीछे की सामग्री। जब हम Exercism पर काम कर रहे होते हैं, तो आप मेरे और टीम के वीडियो देख सकते हैं और हर अपडेट से जुड़े रह सकते हैं।\n3. टीम और समुदाय के प्रमुख सदस्यों तक ज़्यादा करीबी पहुँच, हमारे खास #insiders Discord चैनल के जरिए।\n\nInsiders पेज पर बहुत और जानकारी है!\nजब तक आप सक्रिय रूप से योगदान देते हैं, मेंटरिंग करते हैं या दान करते हैं, तब तक आपका Insiders स्टेटस बना रहेगा।\nकुछ सीमाएँ पार करके आप Lifetime Insiders का स्टेटस भी कमा सकते हैं।\n\nExercism की कहानी का हिस्सा बनने के लिए बहुत-बहुत धन्यवाद। मुझे उम्मीद है कि आपको Insiders बहुत पसंद आएगा!\n\nJeremy Walker\nExercism के सह-संस्थापक और CEO\n\nInsiders सक्रिय कीजिए: %{insiders_url}\n"
     },
     "mentor_finished_discussion": {
       "title": "आपके मेंटर ने चर्चा पूरी कर ली है",
@@ -4101,7 +4101,7 @@
     },
     "eligible_for_lifetime_insiders": {
       "subject": "आप Exercism Insiders के लिए पात्र हैं",
-      "body_markdown": "नमस्ते!\n\nमुझे यह बताते हुए खुशी है कि आप Exercism Insiders के लिए पात्र हैं। यह हमारा रिवॉर्ड्स प्रोग्राम है, उन लोगों के लिए जो Exercism में योगदान देते हैं, मेंटरिंग करते हैं या दान देते हैं।  \nआप अपना Insiders खाता [Insiders पेज](%{insiders_url}) पर चालू कर सकते हैं।\n\nInsiders से आपको कुछ अतिरिक्त फायदे मिलते हैं:\n\n- हमारे शानदार Dark Mode तक पहुँच\n- ChatGPT इंटीग्रेशन, ताकि अभ्यासों में अटकने पर आपको मदद मिले\n- पर्दे के पीछे की सामग्री। जब हम Exercism पर काम करते हैं, तो आप मेरे और टीम के वीडियो देख सकते हैं और हर अपडेट से जुड़े रह सकते हैं।\n- टीम और अहम कम्युनिटी सदस्यों तक ज़्यादा पहुँच, हमारे खास #insiders Discord चैनल के ज़रिए।\n- मेंटरिंग के अतिरिक्त स्लॉट।\n- खास बैज\n- और भी बहुत कुछ!\n\nहमने आपको **Lifetime** स्टेटस दिया है, यानी आपके पास हमेशा Insiders तक पहुँच रहेगी।  \n[Insiders पेज](%{insiders_url}) पर इसकी बहुत और जानकारी है, या ज़्यादा जानने के लिए नीचे दिया वीडियो देखिए 👇\n\n<a href=\"https://www.youtube.com/watch?v=iwhahd41h0A\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"https://assets.exercism.org/images/thumbnails/introducing-insiders-with-play-icon.jpg\" style=\"width:100%; display:block\" />\n</a>\n\nExercism की कहानी का हिस्सा बनने के लिए बहुत-बहुत धन्यवाद। मुझे उम्मीद है कि आपको Insiders बहुत पसंद आएगा!\n\nJeremy Walker  \nExercism के सह-संस्थापक और CEO\n\n[Insiders चालू कीजिए](%{insiders_url})"
+      "body_markdown": "नमस्ते!\n\nमुझे यह बताते हुए खुशी है कि आप Exercism Insiders के लिए पात्र हैं। यह हमारा रिवॉर्ड्स प्रोग्राम है, उन लोगों के लिए जो Exercism में योगदान देते हैं, मेंटरिंग करते हैं या दान देते हैं।  \nआप अपना Insiders खाता [Insiders पेज](%{insiders_url}) पर चालू कर सकते हैं।\n\nInsiders से आपको कुछ अतिरिक्त फायदे मिलते हैं:\n\n- हमारे शानदार Dark Mode तक पहुँच\n- Exercism AI, ताकि अभ्यासों में अटकने पर आपको मदद मिले\n- पर्दे के पीछे की सामग्री। जब हम Exercism पर काम करते हैं, तो आप मेरे और टीम के वीडियो देख सकते हैं और हर अपडेट से जुड़े रह सकते हैं।\n- टीम और अहम कम्युनिटी सदस्यों तक ज़्यादा पहुँच, हमारे खास #insiders Discord चैनल के ज़रिए।\n- मेंटरिंग के अतिरिक्त स्लॉट।\n- खास बैज\n- और भी बहुत कुछ!\n\nहमने आपको **Lifetime** स्टेटस दिया है, यानी आपके पास हमेशा Insiders तक पहुँच रहेगी।  \n[Insiders पेज](%{insiders_url}) पर इसकी बहुत और जानकारी है, या ज़्यादा जानने के लिए नीचे दिया वीडियो देखिए 👇\n\n<a href=\"https://www.youtube.com/watch?v=iwhahd41h0A\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"https://assets.exercism.org/images/thumbnails/introducing-insiders-with-play-icon.jpg\" style=\"width:100%; display:block\" />\n</a>\n\nExercism की कहानी का हिस्सा बनने के लिए बहुत-बहुत धन्यवाद। मुझे उम्मीद है कि आपको Insiders बहुत पसंद आएगा!\n\nJeremy Walker  \nExercism के सह-संस्थापक और CEO\n\n[Insiders चालू कीजिए](%{insiders_url})"
     },
     "student_timed_out_discussion_student": {
       "title": "आपकी चर्चा का समय समाप्त हो गया है",

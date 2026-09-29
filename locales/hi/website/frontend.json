@@ -955,7 +955,7 @@
     "insiderBenefits.thanksForBeingInsider": "Exercism Insider होने के लिए धन्यवाद! यहाँ कुछ खास सेटिंग हैं, जो सिर्फ आपके लिए हैं।",
     "insiderBenefits.eligibleToJoin": "आप Insiders में शामिल हो सकते हैं। <link>यहाँ से शुरू कीजिए।</link>",
     "insiderBenefits.exclusiveOptions": "ये खास विकल्प सिर्फ Exercism Insiders के लिए हैं।",
-    "insiderBenefits.donateToExercism": "<0>Exercism को दान दीजिए</0>  और Insider बन जाइए, ताकि आपको Dark Mode, ChatGPT इंटीग्रेशन, बिना विज्ञापन का अनुभव जैसे लाभ और भी बहुत कुछ मिल सकें।",
+    "insiderBenefits.donateToExercism": "<0>Exercism को दान दीजिए</0>  और Insider बन जाइए, ताकि आपको Dark Mode, Exercism AI, बिना विज्ञापन का अनुभव जैसे लाभ और भी बहुत कुछ मिल सकें।",
     "insiderBenefits.successAlt": "सफलता"
   },
   "components/settings/PasswordForm.tsx": {
@@ -1888,14 +1888,14 @@
   },
   "components/modals/WelcomeToInsidersModal.tsx": {
     "welcomeToInsidersModal.title": "Insiders में आपका स्वागत है! 💙",
-    "welcomeToInsidersModal.accessToFeatures": "अब आपके पास Dark Mode, ChatGPT Integration, अतिरिक्त मेंटरिंग स्लॉट, पर्दे के पीछे के वीडियो, नए बैज और बहुत कुछ तक पहुँच है!",
+    "welcomeToInsidersModal.accessToFeatures": "अब आपके पास Dark Mode, Exercism AI, अतिरिक्त मेंटरिंग स्लॉट, पर्दे के पीछे के वीडियो, नए बैज और बहुत कुछ तक पहुँच है!",
     "welcomeToInsidersModal.thanksForBeingPartOfOurStory": "हमारी कहानी का हिस्सा बनने के लिए धन्यवाद!",
     "welcomeToInsidersModal.exercismReliesOnPeople": "Exercism उन लोगों पर निर्भर है जो आपके जैसे हैं और दूसरों की मदद करने के लिए अपना समय और पैसा देते हैं। आपके बिना हम उतने लोगों की मदद नहीं कर पाते जितने लोगों की हमने की है। हमारा सफर अभी बस शुरू हुआ है और हमें बहुत खुशी है कि आप हमारे साथ हैं। Exercism को संभव बनाने के लिए आपका बहुत-बहुत धन्यवाद 💙",
     "welcomeToInsidersModal.weHopeInsidersIsFun": "हमें उम्मीद है कि Insiders एक मजेदार अनुभव है। हम सुझाव देते हैं कि दाईं ओर का वीडियो देखिए, जिससे आपको पता चलेगा कि आपका अकाउंट अब कैसे बदल गया है। इस मोडल के पीछे वाला Insiders पेज भी देखिए, ताकि आप वे सारे फीचर देख सकें जो आपने अनलॉक किए हैं।",
     "welcomeToInsidersModal.greatLetsGo": "बढ़िया। चलिए!",
     "welcomeToInsidersModal.startWithOurWelcomeVideo": "हमारे स्वागत वीडियो से शुरू कीजिए 👇🏽",
     "welcomeToInsidersModal.whatShouldIDoNext": "अब मुझे आगे क्या करना चाहिए?",
-    "welcomeToInsidersModal.exploreDarkMode": "Dark Mode को आज़माइए (हमने इसे डिफॉल्ट रूप से चालू कर दिया है)। अपने नए बैज देखिए। ऑनलाइन एडिटर में ChatGPT आज़माइए। अपने नए मेंटरिंग स्लॉट में से एक इस्तेमाल कीजिए। Discord के #insiders चैनल पर आकर हैलो कहिए। या पर्दे के पीछे के कुछ वीडियो देखिए 🎉",
+    "welcomeToInsidersModal.exploreDarkMode": "Dark Mode को आज़माइए (हमने इसे डिफॉल्ट रूप से चालू कर दिया है)। अपने नए बैज देखिए। ऑनलाइन एडिटर में Exercism AI आज़माइए। अपने नए मेंटरिंग स्लॉट में से एक इस्तेमाल कीजिए। Discord के #insiders चैनल पर आकर हैलो कहिए। या पर्दे के पीछे के कुछ वीडियो देखिए 🎉",
     "welcomeToInsidersModal.videoTitle": "Exercism Insiders में आपका स्वागत है!"
   },
   "components/notifications/": {
@@ -2215,7 +2215,7 @@
   "components/settings/theme-preference-form": {
     "infoMessage.insiderAccessToDarkMode": "Exercism Insider होने के नाते आपके पास डार्क मोड की सुविधा है। लाइट, डार्क, या अपने सिस्टम की प्राथमिकताओं के अनुसार अपने आप बदलने के बीच चुनिए। आनंद लीजिए! 💎",
     "infoMessage.eligibleToJoinInsiders": "आप Insiders में शामिल होने के योग्य हैं। <0>यहाँ से शुरू करें।</0>",
-    "infoMessage.darkModeOnlyAvailableToInsiders": "डार्क मोड केवल Exercism Insiders के लिए उपलब्ध है। डार्क मोड, ChatGPT इंटीग्रेशन और बहुत कुछ इस्तेमाल करने के लिए <0>Exercism को दान करें</0> और Insider बन जाएँ।",
+    "infoMessage.darkModeOnlyAvailableToInsiders": "डार्क मोड केवल Exercism Insiders के लिए उपलब्ध है। डार्क मोड, Exercism AI और बहुत कुछ इस्तेमाल करने के लिए <0>Exercism को दान करें</0> और Insider बन जाएँ।",
     "disabledTooltip.mustBeExercismInsider": "इस थीम को अनलॉक करने के लिए आपको <0>Exercism Insider <1/></0> होना चाहिए।"
   },
   "components/settings/ThemePreferenceForm.tsx": {

@@ -444,14 +444,14 @@
   },
   "components/modals/WelcomeToInsidersModal.tsx": {
     "welcomeToInsidersModal.title": "歡迎加入 Insiders！💙",
-    "welcomeToInsidersModal.accessToFeatures": "你現在可以使用深色模式、ChatGPT 整合、額外的引導名額，還有幕後影片、全新徽章等更多內容！",
+    "welcomeToInsidersModal.accessToFeatures": "你現在可以使用深色模式、Exercism AI、額外的引導名額，還有幕後影片、全新徽章等更多內容！",
     "welcomeToInsidersModal.thanksForBeingPartOfOurStory": "感謝你成為我們故事的一部分！",
     "welcomeToInsidersModal.exercismReliesOnPeople": "Exercism 依靠像你這樣的人付出時間與金錢來幫助他人。沒有你，我們無法幫助這麼多人。我們的旅程才正要開始，很高興有你和我們同行。非常感謝你讓 Exercism 得以實現 💙",
     "welcomeToInsidersModal.weHopeInsidersIsFun": "希望 Insiders 能帶給你愉快的體驗。我們建議你觀看右側的影片，了解你的帳號現在有哪些改變，也可以看看這個彈出視窗後方的 Insiders 頁面，認識你解鎖的所有功能。",
     "welcomeToInsidersModal.greatLetsGo": "太好了，我們走吧！",
     "welcomeToInsidersModal.startWithOurWelcomeVideo": "就從我們的歡迎影片開始吧 👇🏽",
     "welcomeToInsidersModal.whatShouldIDoNext": "接下來我該做什麼？",
-    "welcomeToInsidersModal.exploreDarkMode": "探索深色模式（我們已預設開啟）。看看你的新徽章。在線上編輯器裡試用 ChatGPT。使用一個新的引導名額。到 Discord 的 #insiders 頻道跟我們打聲招呼。或是看看一些幕後影片 🎉",
+    "welcomeToInsidersModal.exploreDarkMode": "探索深色模式（我們已預設開啟）。看看你的新徽章。在線上編輯器裡試用 Exercism AI。使用一個新的引導名額。到 Discord 的 #insiders 頻道跟我們打聲招呼。或是看看一些幕後影片 🎉",
     "welcomeToInsidersModal.videoTitle": "歡迎加入 Exercism Insiders！"
   },
   "components/notifications/": {
@@ -960,7 +960,7 @@
     "insiderBenefits.thanksForBeingInsider": "感謝你成為 Exercism Insider！這裡有一些專屬於你的額外設定。",
     "insiderBenefits.eligibleToJoin": "你符合加入 Insiders 的資格。<link>從這裡開始。</link>",
     "insiderBenefits.exclusiveOptions": "這些是 Exercism Insiders 的專屬選項。",
-    "insiderBenefits.donateToExercism": "<0>捐款給 Exercism</0>  就能成為 Insider，享有深色模式、ChatGPT 整合、無廣告體驗等福利。",
+    "insiderBenefits.donateToExercism": "<0>捐款給 Exercism</0>  就能成為 Insider，享有深色模式、Exercism AI、無廣告體驗等福利。",
     "insiderBenefits.successAlt": "成功"
   },
   "components/settings/PasswordForm.tsx": {
@@ -1863,7 +1863,7 @@
   "components/settings/theme-preference-form": {
     "infoMessage.insiderAccessToDarkMode": "身為 Exercism Insider，你可以使用深色模式。你可以選擇淺色、深色，或依照系統偏好自動切換。好好享受吧！💎",
     "infoMessage.eligibleToJoinInsiders": "你符合加入 Insiders 的資格。<0>從這裡開始。</0>",
-    "infoMessage.darkModeOnlyAvailableToInsiders": "深色模式僅開放給 Exercism Insiders 使用。<0>捐款支持 Exercism</0>，成為 Insider 就能使用深色模式、ChatGPT 整合等更多功能。",
+    "infoMessage.darkModeOnlyAvailableToInsiders": "深色模式僅開放給 Exercism Insiders 使用。<0>捐款支持 Exercism</0>，成為 Insider 就能使用深色模式、Exercism AI 等更多功能。",
     "disabledTooltip.mustBeExercismInsider": "你必須是 <0>Exercism Insider <1/></0> 才能解鎖這個主題。"
   },
   "components/settings/ThemePreferenceForm.tsx": {

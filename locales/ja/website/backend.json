@@ -3512,7 +3512,7 @@
         "tagline": "Exercismが存続し、成長し続けるためには、みなさんの助けが必要です！",
         "description_html": "Exercismに寄付すると、舞台裏へのアクセスや、%{strong_text_1}、%{strong_text_2}、%{strong_text_3}、%{strong_text_4}といった特典を利用できます。",
         "strong_text_1": "ダークモード",
-        "strong_text_2": "ChatGPT連携",
+        "strong_text_2": "Exercism AI",
         "strong_text_3": "追加のメンタリング枠",
         "strong_text_4": "限定バッジ",
         "learn_more_button": "詳しく見る",
@@ -3642,7 +3642,7 @@
       "insiders_title": "Exercism Insiders",
       "hero_subtitle_html": "<strong>Exercismに寄付して</strong>、<span class=\"underline\">特典機能</span>と<span class=\"underline\">舞台裏のコンテンツ</span>を手に入れましょう。",
       "donations_message_html": "Exercismは、生き残り、成長していくために、<strong>みなさんのような方々</strong>からの寄付に支えられています！Insidersは、私たちを支えてくださる皆さんへの感謝の気持ちのかたちです！",
-      "features_summary_html": "Exercismに寄付すると、舞台裏へのアクセス、<strong>ダークモード、</strong>限定バッジ、<strong>高度なGitHub Syncとお気に入り、</strong>ChatGPT連携、<strong>メンタリング枠の追加、</strong>非公開のDiscordチャンネル、<strong>広告なしの体験、</strong>などが利用できるようになります 🎉",
+      "features_summary_html": "Exercismに寄付すると、舞台裏へのアクセス、<strong>ダークモード、</strong>限定バッジ、<strong>高度なGitHub Syncとお気に入り、</strong>Exercism AI、<strong>メンタリング枠の追加、</strong>非公開のDiscordチャンネル、<strong>広告なしの体験、</strong>などが利用できるようになります 🎉",
       "non_profit_info": "Exercismは、小さなチームで運営されている独立した登録非営利団体です（英国 #11733062）。寄付はすべて、プラットフォームの運営と改善に使われます。",
       "benefits_heading": "Insiderの特典",
       "benefits_tagline": "ここでは、私たちを支えてくださる皆さんに感謝を伝える方法の一部をご紹介します。",
@@ -3725,8 +3725,8 @@
         "description_html": "素敵なダークテーマを用意しました。夜にコードを書くときは目を休めながら、Exercismをとことん暗い世界でお楽しみください。<a href=\"%{user_preferences_link}\">ユーザー設定</a>でテーマを切り替えられます。"
       },
       "chatgpt": {
-        "title": "ChatGPT",
-        "description": "ChatGPT連携を使うと、オンラインエディター上で行き詰まりを解消できます。1か月あたり、v4.0のリクエストを3回、v3.5のリクエストを30回利用できます。使ってみた感想をぜひ教えてください！"
+        "title": "Exercism AI",
+        "description": "Exercism AIを使うと、オンラインエディター上で行き詰まりを解消できます。どの演習でも会話は無制限です。答えを教えるのではなく、答えにたどり着けるように導いてくれます。使ってみた感想をぜひ教えてください！"
       },
       "name_tag_flair_and_badges": {
         "title": "ネームタグの装飾とバッジ",
@@ -3903,7 +3903,7 @@
   "notifications_mailer": {
     "eligible_for_lifetime_insiders": {
       "subject": "Exercism Insidersの対象になりました",
-      "body_markdown": "やあ！\n\nうれしいお知らせです。Exercism Insidersの対象になりました。これは、Exercismに貢献したり、メンタリングしたり、寄付したりしてくれる人のための報酬プログラムです。  \nInsidersアカウントは[Insidersページ](%{insiders_url})で有効化できます。\n\nInsidersでは、いくつかの特典が得られます。\n\n- セクシーなダークモードへのアクセス\n- 演習で行き詰まったときのためのChatGPT連携\n- 舞台裏のコンテンツ。私とチームの動画を見ることができ、Exercismでの作業の様子を常に知ることができます。\n- 専用の#insiders Discordチャンネルを通じて、チームや主要なコミュニティメンバーに近い距離でアクセスできます。\n- 追加のメンタリング枠。\n- 限定バッジ\n- などなど！\n\n**Lifetime**ステータスを付与しました。これは、いつでもInsidersにアクセスできるという意味です。  \n詳しくは[Insidersページ](%{insiders_url})にたくさん載っています。下の動画でもっと詳しく知ることもできます👇\n\n<a href=\"https://www.youtube.com/watch?v=iwhahd41h0A\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"https://assets.exercism.org/images/thumbnails/introducing-insiders-with-play-icon.jpg\" style=\"width:100%; display:block\" />\n</a>\n\nExercismのストーリーの一部になってくれて、本当にありがとうございます。Insidersを楽しんでいただけると嬉しいです！\n\nJeremy Walker  \nExercismの共同創業者兼CEO\n\n[Insidersを有効化する](%{insiders_url})"
+      "body_markdown": "やあ！\n\nうれしいお知らせです。Exercism Insidersの対象になりました。これは、Exercismに貢献したり、メンタリングしたり、寄付したりしてくれる人のための報酬プログラムです。  \nInsidersアカウントは[Insidersページ](%{insiders_url})で有効化できます。\n\nInsidersでは、いくつかの特典が得られます。\n\n- セクシーなダークモードへのアクセス\n- 演習で行き詰まったときのためのExercism AI\n- 舞台裏のコンテンツ。私とチームの動画を見ることができ、Exercismでの作業の様子を常に知ることができます。\n- 専用の#insiders Discordチャンネルを通じて、チームや主要なコミュニティメンバーに近い距離でアクセスできます。\n- 追加のメンタリング枠。\n- 限定バッジ\n- などなど！\n\n**Lifetime**ステータスを付与しました。これは、いつでもInsidersにアクセスできるという意味です。  \n詳しくは[Insidersページ](%{insiders_url})にたくさん載っています。下の動画でもっと詳しく知ることもできます👇\n\n<a href=\"https://www.youtube.com/watch?v=iwhahd41h0A\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"https://assets.exercism.org/images/thumbnails/introducing-insiders-with-play-icon.jpg\" style=\"width:100%; display:block\" />\n</a>\n\nExercismのストーリーの一部になってくれて、本当にありがとうございます。Insidersを楽しんでいただけると嬉しいです！\n\nJeremy Walker  \nExercismの共同創業者兼CEO\n\n[Insidersを有効化する](%{insiders_url})"
     },
     "student_timed_out_discussion_student": {
       "title": "ディスカッションの期限が切れました",
@@ -3925,7 +3925,7 @@
     },
     "eligible_for_insiders": {
       "subject": "Exercism Insidersの対象になりました",
-      "body_markdown": "こんにちは！\n\n嬉しいお知らせです。あなたはExercism Insidersの対象になりました。これは、Exercismに貢献したり、メンタリングをしたり、寄付をしてくださる方のための特典プログラムです。\nInsidersアカウントは、[Insidersページ](%{insiders_url})で有効にできます。\n\nInsidersでは、主に次の3つの特典が得られます。\n1. Exercism Premiumが無料で使えます。ダークモード、ChatGPT連携、メンタリング枠の追加などが利用できるようになりました。\n2. 舞台裏のコンテンツ。私とチームがExercismに取り組む様子を動画で見られ、常に最新の情報を知ることができます。\n3. チームや主要なコミュニティメンバーとの距離が近づく、専用の#insiders Discordチャンネル。\n\n詳しい内容はInsidersページにたくさん載っています！\nInsidersステータスは、積極的に貢献したり、メンタリングしたり、寄付したりしている間は続きます。\n一定の基準を満たすと、Lifetime Insidersステータスを獲得することもできます。\n\nExercismの歩みに加わってくれて、本当にありがとうございます。Insidersを楽しんでいただけたら嬉しいです！\n\nJeremy Walker\nExercismの共同創業者兼CEO\n\nInsidersを有効にする: %{insiders_url}\n"
+      "body_markdown": "こんにちは！\n\n嬉しいお知らせです。あなたはExercism Insidersの対象になりました。これは、Exercismに貢献したり、メンタリングをしたり、寄付をしてくださる方のための特典プログラムです。\nInsidersアカウントは、[Insidersページ](%{insiders_url})で有効にできます。\n\nInsidersでは、主に次の3つの特典が得られます。\n1. Exercism Premiumが無料で使えます。ダークモード、Exercism AI、メンタリング枠の追加などが利用できるようになりました。\n2. 舞台裏のコンテンツ。私とチームがExercismに取り組む様子を動画で見られ、常に最新の情報を知ることができます。\n3. チームや主要なコミュニティメンバーとの距離が近づく、専用の#insiders Discordチャンネル。\n\n詳しい内容はInsidersページにたくさん載っています！\nInsidersステータスは、積極的に貢献したり、メンタリングしたり、寄付したりしている間は続きます。\n一定の基準を満たすと、Lifetime Insidersステータスを獲得することもできます。\n\nExercismの歩みに加わってくれて、本当にありがとうございます。Insidersを楽しんでいただけたら嬉しいです！\n\nJeremy Walker\nExercismの共同創業者兼CEO\n\nInsidersを有効にする: %{insiders_url}\n"
     },
     "mentor_finished_discussion": {
       "title": "メンターがディスカッションを終了しました",

@@ -3037,8 +3037,8 @@
         "description_html": "Összeállítottunk neked egy kedves sötét témát, hogy élvezhesd. Kíméld a szemed éjszakai kódolás közben, és élvezd az Exercism-öt a legmélyebb sötétségében. A témát a <a href=\"%{user_preferences_link}\">felhasználói beállításaidban</a> válthatod át."
       },
       "chatgpt": {
-        "title": "ChatGPT",
-        "description": "A ChatGPT-integrációnk segít, ha elakadsz, közvetlenül az online szerkesztőnkben. Naptári hónaponként 3x v4.0-s és 30x v3.5-ös kérésed van. Írd meg, hogy sikerült!"
+        "title": "Exercism AI",
+        "description": "Az Exercism AI segít, ha elakadsz, közvetlenül az online szerkesztőnkben, minden feladatnál korlátlan beszélgetéssel. A megoldás felé vezet, ahelyett hogy odaadná. Írd meg, hogy sikerült!"
       },
       "name_tag_flair_and_badges": {
         "title": "Névcímke-kitűző és jelvények",
@@ -3096,7 +3096,7 @@
       "insiders_title": "Exercism Insiders",
       "hero_subtitle_html": "<strong>Adományozz az Exercism-nek</strong>, és kapj <span class=\"underline\">bónusz funkciókat</span> és <span class=\"underline\">kulisszák mögötti tartalmakat.</span>",
       "donations_message_html": "A fennmaradáshoz &amp; a fejlődéshez a <strong>hozzád hasonló emberek</strong> adományaira van szükségünk! Az Insiders a módja annak, hogy megköszönjük a támogatásodat!",
-      "features_summary_html": "Kapj kulisszák mögötti hozzáférést, <strong>sötét módot,</strong> exkluzív jelvényeket, <strong>fejlett GitHub-szinkronizálást és kedvenceket,</strong> ChatGPT-integrációt, <strong>extra mentorálási helyeket,</strong> privát Discord-csatornát, <strong>reklámmentes élményt,</strong> és még sok mást, ha adományozol az Exercism-nek 🎉",
+      "features_summary_html": "Kapj kulisszák mögötti hozzáférést, <strong>sötét módot,</strong> exkluzív jelvényeket, <strong>fejlett GitHub-szinkronizálást és kedvenceket,</strong> Exercism AI-t, <strong>extra mentorálási helyeket,</strong> privát Discord-csatornát, <strong>reklámmentes élményt,</strong> és még sok mást, ha adományozol az Exercism-nek 🎉",
       "non_profit_info": "Az Exercism egy független, bejegyzett nonprofit szervezet (UK #11733062), apró csapattal. Minden adományt a platform működtetésére és fejlesztésére fordítunk."
     },
     "payment_pending": {
@@ -3176,7 +3176,7 @@
         "tagline": "Az Exercism-nek szüksége van a segítségedre, hogy fennmaradjon és virágozzon!",
         "description_html": "Adományozz az Exercism-nek, és kulisszák mögötti hozzáférést kapsz, valamint extra funkciókat, például %{strong_text_1}, %{strong_text_2}, %{strong_text_3}, %{strong_text_4} és még sok mást.",
         "strong_text_1": "Sötét mód",
-        "strong_text_2": "ChatGPT-integráció",
+        "strong_text_2": "Exercism AI",
         "strong_text_3": "extra mentorálási hely",
         "strong_text_4": "exkluzív jelvények",
         "learn_more_button": "Tudj meg többet",
@@ -3633,7 +3633,7 @@
       "subject": "Feloldottál egy új trófeát"
     },
     "eligible_for_lifetime_insiders": {
-      "body_markdown": "Helló!\n\nÖrömmel értesítelek, hogy jogosult vagy az Exercism Insiders programra, a jutalmazási programunkra azoknak, akik közreműködnek, mentorálnak vagy adományoznak az Exercism-nek.  \nAz Insiders fiókodat az [Insiders oldalon](%{insiders_url}) aktiválhatod.\n\nAz Insiders néhány extra előnyt kínál:\n\n- Hozzáférés a szexi sötét módhoz\n- ChatGPT-integráció, ha elakadsz a feladatoknál\n- Kulisszák mögötti tartalom. Videókat nézhetsz meg tőlem és a csapattól, hogy képben legyél, miközben az Exercism-ön dolgozunk.\n- Szorosabb kapcsolat a csapattal és a kulcsfontosságú közösségi tagokkal, a dedikált #insiders Discord-csatornánkon.\n- Extra mentorálási helyek.\n- Exkluzív jelvények\n- És még sok más!\n\nMegadtuk neked a **Lifetime** státuszt, ami azt jelenti, hogy mindig hozzáférsz majd az Insidershez.  \nAz [Insiders oldal](%{insiders_url}) sokkal több részletet tartalmaz, vagy nézd meg az alábbi videót, hogy többet megtudj 👇\n\n<a href=\"https://www.youtube.com/watch?v=iwhahd41h0A\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"https://assets.exercism.org/images/thumbnails/introducing-insiders-with-play-icon.jpg\" style=\"width:100%; display:block\" />\n</a>\n\nNagyon köszönjük, hogy része vagy az Exercism történetének. Remélem, élvezni fogod az Insiderst!\n\nJeremy Walker  \nExercism társalapítója és vezérigazgatója\n\n[Insiders aktiválása](%{insiders_url})",
+      "body_markdown": "Helló!\n\nÖrömmel értesítelek, hogy jogosult vagy az Exercism Insiders programra, a jutalmazási programunkra azoknak, akik közreműködnek, mentorálnak vagy adományoznak az Exercism-nek.  \nAz Insiders fiókodat az [Insiders oldalon](%{insiders_url}) aktiválhatod.\n\nAz Insiders néhány extra előnyt kínál:\n\n- Hozzáférés a szexi sötét módhoz\n- Exercism AI, ha elakadsz a feladatoknál\n- Kulisszák mögötti tartalom. Videókat nézhetsz meg tőlem és a csapattól, hogy képben legyél, miközben az Exercism-ön dolgozunk.\n- Szorosabb kapcsolat a csapattal és a kulcsfontosságú közösségi tagokkal, a dedikált #insiders Discord-csatornánkon.\n- Extra mentorálási helyek.\n- Exkluzív jelvények\n- És még sok más!\n\nMegadtuk neked a **Lifetime** státuszt, ami azt jelenti, hogy mindig hozzáférsz majd az Insidershez.  \nAz [Insiders oldal](%{insiders_url}) sokkal több részletet tartalmaz, vagy nézd meg az alábbi videót, hogy többet megtudj 👇\n\n<a href=\"https://www.youtube.com/watch?v=iwhahd41h0A\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"https://assets.exercism.org/images/thumbnails/introducing-insiders-with-play-icon.jpg\" style=\"width:100%; display:block\" />\n</a>\n\nNagyon köszönjük, hogy része vagy az Exercism történetének. Remélem, élvezni fogod az Insiderst!\n\nJeremy Walker  \nExercism társalapítója és vezérigazgatója\n\n[Insiders aktiválása](%{insiders_url})",
       "subject": "Jogosult vagy az Exercism Insiders programra"
     },
     "student_timed_out_discussion_student": {
@@ -3725,7 +3725,7 @@
       "subject": "Üdvözlünk az Exercism-nél"
     },
     "eligible_for_insiders": {
-      "body_markdown": "Helló!\n\nÖrömmel értesítelek, hogy jogosult vagy az Exercism Insidersre, a jutalmazási programunkra azoknak, akik közreműködnek, mentorálnak vagy adományoznak az Exercism-nek.\nAz Insiders fiókodat az [Insiders oldalon](%{insiders_url}) aktiválhatod.\n\nAz Insiders három fő előnyt kínál:\n1. Ingyenes Exercism Premium. Mostantól hozzáférsz a sötét módhoz, a ChatGPT-integrációhoz, extra mentorálási helyekhez és még sok máshoz.\n2. Kulisszák mögötti tartalom. Videókat nézhetsz meg tőlem és a csapattól, hogy képben legyél, miközben az Exercism-ön dolgozunk.\n3. Szorosabb kapcsolat a csapattal és a kulcsfontosságú közösségi tagokkal, a dedikált #insiders Discord-csatornánkon.\n\nAz Insiders oldal sokkal több részletet tartalmaz!\nAz Insiders státuszod addig tart, amíg aktívan közreműködsz, mentorálsz vagy adományozol.\nBizonyos küszöbök elérésével Lifetime Insiders státuszt is szerezhetsz.\n\nNagyon köszönjük, hogy része vagy az Exercism történetének. Remélem, élvezni fogod az Insiderst!\n\nJeremy Walker\nExercism társalapítója és vezérigazgatója\n\nInsiders aktiválása: %{insiders_url}\n",
+      "body_markdown": "Helló!\n\nÖrömmel értesítelek, hogy jogosult vagy az Exercism Insidersre, a jutalmazási programunkra azoknak, akik közreműködnek, mentorálnak vagy adományoznak az Exercism-nek.\nAz Insiders fiókodat az [Insiders oldalon](%{insiders_url}) aktiválhatod.\n\nAz Insiders három fő előnyt kínál:\n1. Ingyenes Exercism Premium. Mostantól hozzáférsz a sötét módhoz, az Exercism AI-hoz, extra mentorálási helyekhez és még sok máshoz.\n2. Kulisszák mögötti tartalom. Videókat nézhetsz meg tőlem és a csapattól, hogy képben legyél, miközben az Exercism-ön dolgozunk.\n3. Szorosabb kapcsolat a csapattal és a kulcsfontosságú közösségi tagokkal, a dedikált #insiders Discord-csatornánkon.\n\nAz Insiders oldal sokkal több részletet tartalmaz!\nAz Insiders státuszod addig tart, amíg aktívan közreműködsz, mentorálsz vagy adományozol.\nBizonyos küszöbök elérésével Lifetime Insiders státuszt is szerezhetsz.\n\nNagyon köszönjük, hogy része vagy az Exercism történetének. Remélem, élvezni fogod az Insiderst!\n\nJeremy Walker\nExercism társalapítója és vezérigazgatója\n\nInsiders aktiválása: %{insiders_url}\n",
       "subject": "Jogosult vagy az Exercism Insiders programra"
     },
     "mentor_finished_discussion": {

@@ -1297,7 +1297,7 @@
   "components/settings/theme-preference-form": {
     "infoMessage.insiderAccessToDarkMode": "En tant qu'Insider d'Exercism, tu as accès au mode sombre. Choisis entre clair, sombre, ou une mise à jour automatique selon les préférences de ton système. Profite bien ! 💎",
     "infoMessage.eligibleToJoinInsiders": "Tu peux rejoindre les Insiders. <0>Commence ici.</0>",
-    "infoMessage.darkModeOnlyAvailableToInsiders": "Le mode sombre n'est disponible que pour les Insiders d'Exercism. <0>Fais un don à Exercism</0> et deviens Insider pour accéder au mode sombre, à l'intégration ChatGPT et plus encore.",
+    "infoMessage.darkModeOnlyAvailableToInsiders": "Le mode sombre n'est disponible que pour les Insiders d'Exercism. <0>Fais un don à Exercism</0> et deviens Insider pour accéder au mode sombre, à Exercism AI et plus encore.",
     "disabledTooltip.mustBeExercismInsider": "Tu dois être un <0>Insider d'Exercism <1/></0> pour débloquer ce thème."
   },
   "components/settings/ThemePreferenceForm.tsx": {
@@ -2086,7 +2086,7 @@
     "insiderBenefits.thanksForBeingInsider": "Merci de faire partie des Insiders d'Exercism ! Voici quelques réglages supplémentaires rien que pour toi.",
     "insiderBenefits.eligibleToJoin": "Tu peux rejoindre les Insiders. <link>Commence ici.</link>",
     "insiderBenefits.exclusiveOptions": "Ces options sont réservées aux Insiders d'Exercism.",
-    "insiderBenefits.donateToExercism": "<0>Fais un don à Exercism</0>  pour devenir Insider et accéder à des avantages tels que le mode sombre, l'intégration de ChatGPT, une expérience sans publicité, et bien plus encore.",
+    "insiderBenefits.donateToExercism": "<0>Fais un don à Exercism</0>  pour devenir Insider et accéder à des avantages tels que le mode sombre, Exercism AI, une expérience sans publicité, et bien plus encore.",
     "insiderBenefits.successAlt": "Succès"
   },
   "components/settings/PasswordForm.tsx": {
@@ -2537,14 +2537,14 @@
   },
   "components/modals/WelcomeToInsidersModal.tsx": {
     "welcomeToInsidersModal.title": "Bienvenue chez les Insiders ! 💙",
-    "welcomeToInsidersModal.accessToFeatures": "Tu as maintenant accès au mode sombre, à l'intégration ChatGPT, à des créneaux de mentorat supplémentaires, ainsi qu'à des vidéos dans les coulisses, de nouveaux badges, et bien plus encore !",
+    "welcomeToInsidersModal.accessToFeatures": "Tu as maintenant accès au mode sombre, à Exercism AI, à des créneaux de mentorat supplémentaires, ainsi qu'à des vidéos dans les coulisses, de nouveaux badges, et bien plus encore !",
     "welcomeToInsidersModal.thanksForBeingPartOfOurStory": "Merci de faire partie de notre histoire !",
     "welcomeToInsidersModal.exercismReliesOnPeople": "Exercism repose sur des personnes comme toi qui donnent de leur temps et de leur argent pour aider les autres. Sans toi, nous n'aurions pas pu aider toutes les personnes que nous avons aidées. Notre aventure ne fait que commencer et nous sommes vraiment ravis de t'avoir à nos côtés. Merci infiniment de rendre Exercism possible 💙",
     "welcomeToInsidersModal.weHopeInsidersIsFun": "Nous espérons qu'Insiders est une expérience amusante. Nous te recommandons de regarder la vidéo à droite pour avoir un aperçu de la façon dont ton compte a changé, et aussi d'aller voir la page Insiders derrière cette fenêtre modale pour découvrir toutes les fonctionnalités que tu as débloquées.",
     "welcomeToInsidersModal.greatLetsGo": "Parfait. C'est parti !",
     "welcomeToInsidersModal.startWithOurWelcomeVideo": "Commence par notre vidéo de bienvenue 👇🏽",
     "welcomeToInsidersModal.whatShouldIDoNext": "Que faire ensuite ?",
-    "welcomeToInsidersModal.exploreDarkMode": "Explore le mode sombre (nous l'avons activé par défaut). Jette un œil à tes nouveaux badges. Essaie ChatGPT dans l'éditeur en ligne. Utilise l'un de tes nouveaux créneaux de mentorat. Viens dire bonjour sur le canal #insiders sur Discord. Ou regarde quelques vidéos dans les coulisses 🎉",
+    "welcomeToInsidersModal.exploreDarkMode": "Explore le mode sombre (nous l'avons activé par défaut). Jette un œil à tes nouveaux badges. Essaie Exercism AI dans l'éditeur en ligne. Utilise l'un de tes nouveaux créneaux de mentorat. Viens dire bonjour sur le canal #insiders sur Discord. Ou regarde quelques vidéos dans les coulisses 🎉",
     "welcomeToInsidersModal.videoTitle": "Bienvenue chez Exercism Insiders !"
   },
   "components/journey": {

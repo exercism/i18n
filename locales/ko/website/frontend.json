@@ -76,7 +76,7 @@
     "insiderBenefits.thanksForBeingInsider": "Exercism Insider가 되어주셔서 감사해요! 여기 Insider만을 위한 특별한 설정이 있어요.",
     "insiderBenefits.eligibleToJoin": "Insiders에 참여할 수 있어요. <link>여기서 시작해보세요.</link>",
     "insiderBenefits.exclusiveOptions": "Exercism Insiders만을 위한 전용 옵션이에요.",
-    "insiderBenefits.donateToExercism": "<0>Exercism에 후원하기</0>를 하고 Insider가 되면 다크 모드, ChatGPT 연동, 광고 없는 환경 등 다양한 혜택을 이용할 수 있어요.",
+    "insiderBenefits.donateToExercism": "<0>Exercism에 후원하기</0>를 하고 Insider가 되면 다크 모드, Exercism AI, 광고 없는 환경 등 다양한 혜택을 이용할 수 있어요.",
     "insiderBenefits.successAlt": "성공"
   },
   "components/settings/PasswordForm.tsx": {
@@ -1005,14 +1005,14 @@
   },
   "components/modals/WelcomeToInsidersModal.tsx": {
     "welcomeToInsidersModal.title": "Insiders에 오신 것을 환영해요! 💙",
-    "welcomeToInsidersModal.accessToFeatures": "이제 다크 모드, ChatGPT 연동, 추가 멘토링 슬롯은 물론 비하인드 영상, 새로운 배지 등도 이용할 수 있어요!",
+    "welcomeToInsidersModal.accessToFeatures": "이제 다크 모드, Exercism AI, 추가 멘토링 슬롯은 물론 비하인드 영상, 새로운 배지 등도 이용할 수 있어요!",
     "welcomeToInsidersModal.thanksForBeingPartOfOurStory": "우리의 이야기에 함께해 주셔서 감사해요!",
     "welcomeToInsidersModal.exercismReliesOnPeople": "Exercism은 시간과 돈을 내어 다른 사람을 돕는 여러분 같은 사람들 덕분에 운영돼요. 여러분이 없었다면 우리가 지금까지 도운 수많은 사람들을 도울 수 없었을 거예요. 우리의 여정은 이제 막 시작됐을 뿐이고, 함께해 주셔서 정말 기뻐요. Exercism을 가능하게 해 주셔서 정말 감사해요 💙",
     "welcomeToInsidersModal.weHopeInsidersIsFun": "Insiders가 즐거운 경험이 되길 바라요. 오른쪽 영상을 보면서 계정이 어떻게 달라졌는지 전체적으로 살펴보고, 이 모달 뒤에 있는 Insiders 페이지에서 새로 사용할 수 있게 된 기능도 모두 확인해 봐요.",
     "welcomeToInsidersModal.greatLetsGo": "좋아요. 시작해 볼까요!",
     "welcomeToInsidersModal.startWithOurWelcomeVideo": "환영 영상부터 시작해요 👇🏽",
     "welcomeToInsidersModal.whatShouldIDoNext": "이제 무엇을 하면 좋을까요?",
-    "welcomeToInsidersModal.exploreDarkMode": "다크 모드를 살펴봐요(기본으로 켜져 있어요). 새로 받은 배지도 확인해 봐요. 온라인 에디터에서 ChatGPT를 사용해 봐요. 새 멘토링 슬롯도 하나 써 봐요. Discord의 #insiders 채널에 와서 인사해요. 아니면 비하인드 영상도 몇 편 봐요 🎉",
+    "welcomeToInsidersModal.exploreDarkMode": "다크 모드를 살펴봐요(기본으로 켜져 있어요). 새로 받은 배지도 확인해 봐요. 온라인 에디터에서 Exercism AI를 사용해 봐요. 새 멘토링 슬롯도 하나 써 봐요. Discord의 #insiders 채널에 와서 인사해요. 아니면 비하인드 영상도 몇 편 봐요 🎉",
     "welcomeToInsidersModal.videoTitle": "Exercism Insiders에 오신 것을 환영해요!"
   },
   "components/notifications/": {
@@ -2050,7 +2050,7 @@
   "components/settings/theme-preference-form": {
     "infoMessage.insiderAccessToDarkMode": "Exercism Insider라면 다크 모드를 사용할 수 있어요. 라이트와 다크 중에서 고르거나, 시스템 설정에 따라 자동으로 바뀌게 할 수 있어요. 마음껏 즐겨요! 💎",
     "infoMessage.eligibleToJoinInsiders": "Insiders에 참여할 자격이 있어요. <0>여기에서 시작해요.</0>",
-    "infoMessage.darkModeOnlyAvailableToInsiders": "다크 모드는 Exercism Insiders만 사용할 수 있어요. <0>Exercism에 후원</0>하고 Insider가 되어 다크 모드와 ChatGPT 연동 등 다양한 기능을 이용해 봐요.",
+    "infoMessage.darkModeOnlyAvailableToInsiders": "다크 모드는 Exercism Insiders만 사용할 수 있어요. <0>Exercism에 후원</0>하고 Insider가 되어 다크 모드와 Exercism AI 등 다양한 기능을 이용해 봐요.",
     "disabledTooltip.mustBeExercismInsider": "이 테마를 사용하려면 <0>Exercism Insider <1/></0> 자격이 필요해요."
   },
   "components/settings/ThemePreferenceForm.tsx": {

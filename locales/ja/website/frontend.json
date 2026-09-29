@@ -382,7 +382,7 @@
     "insiderBenefits.thanksForBeingInsider": "Exercism Insiderをご利用いただきありがとうございます！　ここには、Insiderの方だけが使える追加設定がそろっています。",
     "insiderBenefits.eligibleToJoin": "Insidersに参加できます。<link>こちらから始めましょう。</link>",
     "insiderBenefits.exclusiveOptions": "これらはExercism Insiders限定のオプションです。",
-    "insiderBenefits.donateToExercism": "<0>Exercismに寄付する</0>とInsiderになり、ダークモードやChatGPT連携、広告のない体験など、さまざまな特典を利用できます。",
+    "insiderBenefits.donateToExercism": "<0>Exercismに寄付する</0>とInsiderになり、ダークモードやExercism AI、広告のない体験など、さまざまな特典を利用できます。",
     "insiderBenefits.successAlt": "成功しました"
   },
   "components/settings/PasswordForm.tsx": {
@@ -2009,7 +2009,7 @@
   "components/settings/theme-preference-form": {
     "infoMessage.insiderAccessToDarkMode": "Exercism Insiderはダークモードを利用できます。ライト、ダーク、またはシステムの設定に合わせて自動で切り替わるものから選べます。ぜひお楽しみください！ 💎",
     "infoMessage.eligibleToJoinInsiders": "Insidersに参加する資格があります。<0>こちらから始めましょう。</0>",
-    "infoMessage.darkModeOnlyAvailableToInsiders": "ダークモードはExercism Insiderだけが利用できます。<0>Exercismに寄付して</0>Insiderになると、ダークモードやChatGPT連携などが使えるようになります。",
+    "infoMessage.darkModeOnlyAvailableToInsiders": "ダークモードはExercism Insiderだけが利用できます。<0>Exercismに寄付して</0>Insiderになると、ダークモードやExercism AIなどが使えるようになります。",
     "disabledTooltip.mustBeExercismInsider": "このテーマを使うには、<0>Exercism Insider <1/></0>である必要があります。"
   },
   "components/settings/ThemePreferenceForm.tsx": {
@@ -2142,14 +2142,14 @@
   },
   "components/modals/WelcomeToInsidersModal.tsx": {
     "welcomeToInsidersModal.title": "Insidersへようこそ！ 💙",
-    "welcomeToInsidersModal.accessToFeatures": "ダークモード、ChatGPT連携、追加のメンタリング枠、舞台裏の動画、新しいバッジなどが使えるようになりました！",
+    "welcomeToInsidersModal.accessToFeatures": "ダークモード、Exercism AI、追加のメンタリング枠、舞台裏の動画、新しいバッジなどが使えるようになりました！",
     "welcomeToInsidersModal.thanksForBeingPartOfOurStory": "Exercismの物語の一部になってくれてありがとうございます！",
     "welcomeToInsidersModal.exercismReliesOnPeople": "Exercismは、時間やお金を費やして他の人を助けてくれる人たちに支えられています。みなさんがいなければ、これほど多くの人を助けることはできませんでした。旅はまだ始まったばかりで、一緒に歩んでくれることをとても嬉しく思います。Exercismを可能にしてくださり、本当にありがとうございます 💙",
     "welcomeToInsidersModal.weHopeInsidersIsFun": "Insidersが楽しい体験になることを願っています。右側の動画を見て、アカウントがどのように変わったかの概要をつかむことをおすすめします。このモーダルの後ろにあるInsidersページもぜひ見て、解放されたすべての機能を確認してみてください。",
     "welcomeToInsidersModal.greatLetsGo": "では、始めましょう！",
     "welcomeToInsidersModal.startWithOurWelcomeVideo": "まずはウェルカム動画から 👇🏽",
     "welcomeToInsidersModal.whatShouldIDoNext": "次は何をすればいいですか？",
-    "welcomeToInsidersModal.exploreDarkMode": "ダークモードを試してみましょう（デフォルトで有効になっています）。新しいバッジをチェックしましょう。オンラインエディターでChatGPTを試してみましょう。新しいメンタリング枠を1つ使ってみましょう。Discordの#insidersチャンネルに挨拶しに来てください。舞台裏の動画を見るのもいいですね 🎉",
+    "welcomeToInsidersModal.exploreDarkMode": "ダークモードを試してみましょう（デフォルトで有効になっています）。新しいバッジをチェックしましょう。オンラインエディターでExercism AIを試してみましょう。新しいメンタリング枠を1つ使ってみましょう。Discordの#insidersチャンネルに挨拶しに来てください。舞台裏の動画を見るのもいいですね 🎉",
     "welcomeToInsidersModal.videoTitle": "Exercism Insidersへようこそ！"
   },
   "components/notifications/": {

@@ -1200,7 +1200,7 @@
     "insiderBenefits.thanksForBeingInsider": "Obrigado por seres um Insider do Exercism! Aqui tens algumas definições extra exclusivas para ti.",
     "insiderBenefits.eligibleToJoin": "Tens direito a aderir aos Insiders. <link>Começa aqui.</link>",
     "insiderBenefits.exclusiveOptions": "Estas são opções exclusivas para Insiders do Exercism.",
-    "insiderBenefits.donateToExercism": "<0>Doa ao Exercism</0>  para te tornares Insider e acederes a benefícios como o Modo Escuro, a integração com o ChatGPT, uma experiência sem anúncios e muito mais.",
+    "insiderBenefits.donateToExercism": "<0>Doa ao Exercism</0>  para te tornares Insider e acederes a benefícios como o Modo Escuro, o Exercism AI, uma experiência sem anúncios e muito mais.",
     "insiderBenefits.successAlt": "Sucesso"
   },
   "components/settings/PasswordForm.tsx": {
@@ -1455,14 +1455,14 @@
   },
   "components/modals/WelcomeToInsidersModal.tsx": {
     "welcomeToInsidersModal.title": "Bem-vindo aos Insiders! 💙",
-    "welcomeToInsidersModal.accessToFeatures": "Agora tens acesso ao modo escuro, à integração do ChatGPT e a vagas de mentoria extra, além de vídeos dos bastidores, novos distintivos e muito mais!",
+    "welcomeToInsidersModal.accessToFeatures": "Agora tens acesso ao modo escuro, ao Exercism AI e a vagas de mentoria extra, além de vídeos dos bastidores, novos distintivos e muito mais!",
     "welcomeToInsidersModal.thanksForBeingPartOfOurStory": "Obrigado por fazeres parte da nossa história!",
     "welcomeToInsidersModal.exercismReliesOnPeople": "O Exercism depende de pessoas como tu, que dão o seu tempo e o seu dinheiro para ajudar os outros. Sem ti, não teríamos ajudado tantas pessoas como ajudámos. A nossa viagem está ainda só a começar e estamos muito contentes por te ter connosco. Muito obrigado por tornares o Exercism possível 💙",
     "welcomeToInsidersModal.weHopeInsidersIsFun": "Esperamos que os Insiders sejam uma experiência divertida. Recomendamos que vejas o vídeo à direita para ficares com uma ideia geral de como a tua conta mudou, e também que dês uma vista de olhos à página dos Insiders por trás desta janela modal para veres todas as funcionalidades que desbloqueaste.",
     "welcomeToInsidersModal.greatLetsGo": "Ótimo. Vamos a isso!",
     "welcomeToInsidersModal.startWithOurWelcomeVideo": "Começa pelo nosso vídeo de boas-vindas 👇🏽",
     "welcomeToInsidersModal.whatShouldIDoNext": "O que devo fazer a seguir?",
-    "welcomeToInsidersModal.exploreDarkMode": "Explora o modo escuro (ativámo-lo por predefinição). Vê os teus novos distintivos. Experimenta o ChatGPT no editor online. Usa uma das tuas novas vagas de mentoria. Vem dizer olá no canal #insiders do Discord. Ou vê alguns dos vídeos dos bastidores 🎉",
+    "welcomeToInsidersModal.exploreDarkMode": "Explora o modo escuro (ativámo-lo por predefinição). Vê os teus novos distintivos. Experimenta o Exercism AI no editor online. Usa uma das tuas novas vagas de mentoria. Vem dizer olá no canal #insiders do Discord. Ou vê alguns dos vídeos dos bastidores 🎉",
     "welcomeToInsidersModal.videoTitle": "Bem-vindo aos Insiders do Exercism!"
   },
   "components/notifications/": {
@@ -2581,7 +2581,7 @@
   "components/settings/theme-preference-form": {
     "infoMessage.insiderAccessToDarkMode": "Enquanto Insider do Exercism, tens acesso ao Modo Escuro. Escolhe entre claro, escuro ou atualização automática com base nas preferências do teu sistema. Aproveita! 💎",
     "infoMessage.eligibleToJoinInsiders": "Podes aderir aos Insiders. <0>Começa aqui.</0>",
-    "infoMessage.darkModeOnlyAvailableToInsiders": "O Modo Escuro só está disponível para os Insiders do Exercism. <0>Faz um donativo ao Exercism</0> e torna-te Insider para acederes ao Modo Escuro, à integração com o ChatGPT e muito mais.",
+    "infoMessage.darkModeOnlyAvailableToInsiders": "O Modo Escuro só está disponível para os Insiders do Exercism. <0>Faz um donativo ao Exercism</0> e torna-te Insider para acederes ao Modo Escuro, ao Exercism AI e muito mais.",
     "disabledTooltip.mustBeExercismInsider": "Tens de ser um <0>Exercism Insider <1/></0> para desbloquear este tema."
   },
   "components/settings/ThemePreferenceForm.tsx": {

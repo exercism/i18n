@@ -348,7 +348,7 @@
     "insiderBenefits.thanksForBeingInsider": "ممنون که یکی از Insidersهای Exercism هستید! اینجا چند تنظیمات اضافی مخصوص شماست.",
     "insiderBenefits.eligibleToJoin": "شما واجد شرایط پیوستن به Insiders هستید. <link>از اینجا شروع کنید.</link>",
     "insiderBenefits.exclusiveOptions": "این‌ها گزینه‌های اختصاصی برای Insidersهای Exercism هستند.",
-    "insiderBenefits.donateToExercism": "<0>به Exercism کمک مالی کنید</0>  تا Insider شوید و به مزایایی مثل حالت تاریک، یکپارچه‌سازی ChatGPT، تجربه‌ای بدون تبلیغ و موارد بیشتر دسترسی پیدا کنید.",
+    "insiderBenefits.donateToExercism": "<0>به Exercism کمک مالی کنید</0>  تا Insider شوید و به مزایایی مثل حالت تاریک، Exercism AI، تجربه‌ای بدون تبلیغ و موارد بیشتر دسترسی پیدا کنید.",
     "insiderBenefits.successAlt": "موفقیت"
   },
   "components/settings/PasswordForm.tsx": {
@@ -2284,7 +2284,7 @@
   "components/settings/theme-preference-form": {
     "infoMessage.insiderAccessToDarkMode": "به‌عنوان یکی از اعضای Insiders در Exercism، به حالت تاریک دسترسی دارید. بین حالت روشن، حالت تاریک، یا به‌روزرسانی خودکار بر اساس تنظیمات سیستم خود یکی را انتخاب کنید. لذت ببرید! 💎",
     "infoMessage.eligibleToJoinInsiders": "شما واجد شرایط پیوستن به Insiders هستید. <0>از اینجا شروع کنید.</0>",
-    "infoMessage.darkModeOnlyAvailableToInsiders": "حالت تاریک فقط برای اعضای Insiders در Exercism در دسترس است. <0>به Exercism کمک مالی کنید</0> و به یک Insider تبدیل شوید تا به حالت تاریک، ادغام ChatGPT و امکانات بیشتر دسترسی داشته باشید.",
+    "infoMessage.darkModeOnlyAvailableToInsiders": "حالت تاریک فقط برای اعضای Insiders در Exercism در دسترس است. <0>به Exercism کمک مالی کنید</0> و به یک Insider تبدیل شوید تا به حالت تاریک، Exercism AI و امکانات بیشتر دسترسی داشته باشید.",
     "disabledTooltip.mustBeExercismInsider": "برای باز کردن این پوسته باید یک <0>Exercism Insider <1/></0> باشید."
   },
   "components/settings/ThemePreferenceForm.tsx": {
@@ -2386,14 +2386,14 @@
   },
   "components/modals/WelcomeToInsidersModal.tsx": {
     "welcomeToInsidersModal.title": "به Insiders خوش آمدید! 💙",
-    "welcomeToInsidersModal.accessToFeatures": "از این پس به حالت تیره، ادغام ChatGPT، جایگاه‌های منتورینگ بیشتر، همراه با ویدیوهای پشت‌صحنه، نشان‌های جدید و موارد بیشتر دسترسی دارید!",
+    "welcomeToInsidersModal.accessToFeatures": "از این پس به حالت تیره، Exercism AI، جایگاه‌های منتورینگ بیشتر، همراه با ویدیوهای پشت‌صحنه، نشان‌های جدید و موارد بیشتر دسترسی دارید!",
     "welcomeToInsidersModal.thanksForBeingPartOfOurStory": "ممنون که بخشی از داستان ما هستید!",
     "welcomeToInsidersModal.exercismReliesOnPeople": "Exercism به افرادی مثل شما تکیه دارد که وقت و پول خود را برای کمک به دیگران می‌بخشند. بدون شما نمی‌توانستیم به این همه آدم کمک کنیم. سفر ما تازه آغاز شده و بسیار خوشحالیم که شما همراه ما هستید. خیلی ممنون که Exercism را ممکن می‌سازید 💙",
     "welcomeToInsidersModal.weHopeInsidersIsFun": "امیدواریم Insiders تجربه‌ی لذت‌بخشی باشد. توصیه می‌کنیم ویدیوی سمت راست را تماشا کنید تا نمای کلی از تغییرات حساب کاربری‌تان به دست آورید و همچنین صفحه‌ی Insiders را که پشت این پنجره قرار دارد ببینید تا همه‌ی قابلیت‌هایی را که باز کرده‌اید مشاهده کنید.",
     "welcomeToInsidersModal.greatLetsGo": "عالی. بیایید برویم!",
     "welcomeToInsidersModal.startWithOurWelcomeVideo": "با ویدیوی خوش‌آمد ما شروع کنید 👇🏽",
     "welcomeToInsidersModal.whatShouldIDoNext": "حالا چه کاری باید انجام دهم؟",
-    "welcomeToInsidersModal.exploreDarkMode": "حالت تیره را کشف کنید (آن را به‌صورت پیش‌فرض فعال کرده‌ایم). نشان(های) جدیدتان را ببینید. ChatGPT را در ویرایشگر آنلاین امتحان کنید. از یکی از جایگاه‌های منتورینگ جدیدتان استفاده کنید. در کانال #insiders در Discord بیایید و سلام کنید. یا چند ویدیوی پشت‌صحنه تماشا کنید 🎉",
+    "welcomeToInsidersModal.exploreDarkMode": "حالت تیره را کشف کنید (آن را به‌صورت پیش‌فرض فعال کرده‌ایم). نشان(های) جدیدتان را ببینید. Exercism AI را در ویرایشگر آنلاین امتحان کنید. از یکی از جایگاه‌های منتورینگ جدیدتان استفاده کنید. در کانال #insiders در Discord بیایید و سلام کنید. یا چند ویدیوی پشت‌صحنه تماشا کنید 🎉",
     "welcomeToInsidersModal.videoTitle": "به Exercism Insiders خوش آمدید!"
   },
   "components/notifications/": {

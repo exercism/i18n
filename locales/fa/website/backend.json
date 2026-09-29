@@ -148,7 +148,7 @@
         "tagline": "Exercism برای بقا و رشد به کمک شما نیاز دارد!",
         "description_html": "به Exercism کمک مالی کنید و به دسترسی‌های پشت‌صحنه و امکانات ویژه‌ای مثل %{strong_text_1}، %{strong_text_2}، %{strong_text_3}، %{strong_text_4} و موارد دیگر دست پیدا کنید.",
         "strong_text_1": "حالت تاریک",
-        "strong_text_2": "یکپارچه‌سازی با ChatGPT",
+        "strong_text_2": "Exercism AI",
         "strong_text_3": "جایگاه‌های بیشتر برای منتورینگ",
         "strong_text_4": "نشان‌های اختصاصی",
         "learn_more_button": "بیشتر بدانید",
@@ -3279,8 +3279,8 @@
         "description_html": "یک پوسته‌ی تیره‌ی دل‌نشین برایتان آماده کرده‌ایم تا از آن لذت ببرید. هنگام کدنویسی در شب به چشمانتان استراحت دهید و Exercism را در تاریک‌ترین شکوهش ببینید. می‌توانید پوسته‌ی خود را در <a href=\"%{user_preferences_link}\">تنظیمات کاربری</a> تغییر دهید."
       },
       "chatgpt": {
-        "title": "ChatGPT",
-        "description": "یکپارچه‌سازی ChatGPT ما به شما کمک می‌کند تا مستقیماً در ویرایشگر آنلاین ما از بن‌بست خارج شوید. در هر ماه تقویمی ۳ برابر درخواست v4.0 و ۳۰ برابر درخواست v3.5 دریافت می‌کنید. خبر دهید که چطور پیش رفت!"
+        "title": "Exercism AI",
+        "description": "Exercism AI کمک می‌کند تا مستقیماً در ویرایشگر آنلاین ما از بن‌بست خارج شوید و در هر تمرین گفتگوهای نامحدود داشته باشید. این ابزار شما را به سمت پاسخ هدایت می‌کند، نه اینکه آن را لو بدهد. خبر دهید که چطور پیش رفت!"
       },
       "name_tag_flair_and_badges": {
         "title": "تزئین کنار اسم و نشان‌ها",
@@ -3304,7 +3304,7 @@
       "insiders_title": "Exercism Insiders",
       "hero_subtitle_html": "<strong>به Exercism کمک مالی کنید</strong> و <span class=\"underline\">امکانات ویژه</span> و <span class=\"underline\">محتوای پشت‌صحنه</span> را دریافت کنید.",
       "donations_message_html": "ما برای بقا &amp; رشد به کمک‌های مالی <strong>افرادی مثل شما</strong> وابسته‌ایم! Insiders روش ما برای تشکر از حمایت شماست!",
-      "features_summary_html": "با کمک مالی به Exercism به محتوای پشت‌صحنه، <strong>حالت تاریک،</strong> نشان‌های ویژه، <strong>همگام‌سازی پیشرفته‌ی GitHub و علاقه‌مندی‌ها،</strong> یکپارچگی با ChatGPT، <strong>جایگاه‌های بیشتر برای مربی‌گری،</strong> کانال خصوصی Discord، <strong>تجربه‌ای بدون تبلیغات</strong> و موارد دیگر دسترسی پیدا می‌کنید 🎉",
+      "features_summary_html": "با کمک مالی به Exercism به محتوای پشت‌صحنه، <strong>حالت تاریک،</strong> نشان‌های ویژه، <strong>همگام‌سازی پیشرفته‌ی GitHub و علاقه‌مندی‌ها،</strong> Exercism AI، <strong>جایگاه‌های بیشتر برای مربی‌گری،</strong> کانال خصوصی Discord، <strong>تجربه‌ای بدون تبلیغات</strong> و موارد دیگر دسترسی پیدا می‌کنید 🎉",
       "non_profit_info": "Exercism یک سازمان غیرانتفاعی مستقل و ثبت‌شده (شماره‌ی ثبت در بریتانیا ۱۱۷۳۳۰۶۲) با تیمی کوچک است. همه‌ی کمک‌های مالی صرف اداره و بهبود این پلتفرم می‌شود.",
       "benefits_heading": "مزایای Insiders",
       "benefits_tagline": "در ادامه چند مورد از راه‌هایی را می‌بینید که با آن‌ها از حمایتتان تشکر می‌کنیم.",
@@ -3734,7 +3734,7 @@
   "notifications_mailer": {
     "eligible_for_lifetime_insiders": {
       "subject": "شما واجد شرایط Exercism Insiders هستید",
-      "body_markdown": "سلام!\n\nبا هیجان به شما اطلاع می‌دهم که واجد شرایط Exercism Insiders هستید، برنامه‌ی پاداش ما برای کسانی که به Exercism مشارکت می‌کنند، مربی‌گری می‌کنند یا کمک مالی می‌کنند.  \nمی‌توانید حساب Insiders خود را در [صفحه‌ی Insiders](%{insiders_url}) فعال کنید.\n\nInsiders چند مزیت اضافه به شما می‌دهد:\n\n- دسترسی به حالت تاریک جذاب ما\n- یکپارچه‌سازی ChatGPT برای وقتی که در تمرین‌ها گیر می‌کنید\n- محتوای پشت‌صحنه. می‌توانید ویدیوهایی از من و تیم را تماشا کنید و در جریان کارهای Exercism قرار بگیرید.\n- دسترسی نزدیک‌تر به تیم و اعضای کلیدی جامعه، با کانال اختصاصی #insiders در Discord.\n- جایگاه‌های بیشتر برای مربی‌گری.\n- نشان‌های ویژه\n- و بیشتر!\n\nما به شما وضعیت **مادام‌العمر** اعطا کرده‌ایم، یعنی همیشه به Insiders دسترسی خواهید داشت.  \n[صفحه‌ی Insiders](%{insiders_url}) جزئیات بیشتری دارد، یا ویدیوی زیر را تماشا کنید تا بیشتر بدانید 👇\n\n<a href=\"https://www.youtube.com/watch?v=iwhahd41h0A\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"https://assets.exercism.org/images/thumbnails/introducing-insiders-with-play-icon.jpg\" style=\"width:100%; display:block\" />\n</a>\n\nبسیار سپاسگزاریم که بخشی از داستان Exercism هستید. امیدوارم از Insiders لذت ببرید!\n\nJeremy Walker  \nهم‌بنیان‌گذار و مدیرعامل Exercism\n\n[فعال‌سازی Insiders](%{insiders_url})"
+      "body_markdown": "سلام!\n\nبا هیجان به شما اطلاع می‌دهم که واجد شرایط Exercism Insiders هستید، برنامه‌ی پاداش ما برای کسانی که به Exercism مشارکت می‌کنند، مربی‌گری می‌کنند یا کمک مالی می‌کنند.  \nمی‌توانید حساب Insiders خود را در [صفحه‌ی Insiders](%{insiders_url}) فعال کنید.\n\nInsiders چند مزیت اضافه به شما می‌دهد:\n\n- دسترسی به حالت تاریک جذاب ما\n- Exercism AI برای وقتی که در تمرین‌ها گیر می‌کنید\n- محتوای پشت‌صحنه. می‌توانید ویدیوهایی از من و تیم را تماشا کنید و در جریان کارهای Exercism قرار بگیرید.\n- دسترسی نزدیک‌تر به تیم و اعضای کلیدی جامعه، با کانال اختصاصی #insiders در Discord.\n- جایگاه‌های بیشتر برای مربی‌گری.\n- نشان‌های ویژه\n- و بیشتر!\n\nما به شما وضعیت **مادام‌العمر** اعطا کرده‌ایم، یعنی همیشه به Insiders دسترسی خواهید داشت.  \n[صفحه‌ی Insiders](%{insiders_url}) جزئیات بیشتری دارد، یا ویدیوی زیر را تماشا کنید تا بیشتر بدانید 👇\n\n<a href=\"https://www.youtube.com/watch?v=iwhahd41h0A\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"https://assets.exercism.org/images/thumbnails/introducing-insiders-with-play-icon.jpg\" style=\"width:100%; display:block\" />\n</a>\n\nبسیار سپاسگزاریم که بخشی از داستان Exercism هستید. امیدوارم از Insiders لذت ببرید!\n\nJeremy Walker  \nهم‌بنیان‌گذار و مدیرعامل Exercism\n\n[فعال‌سازی Insiders](%{insiders_url})"
     },
     "student_timed_out_discussion_student": {
       "title": "زمان گفتگوی شما به پایان رسیده است",
@@ -3826,7 +3826,7 @@
     },
     "eligible_for_insiders": {
       "subject": "شما واجد شرایط Exercism Insiders هستید",
-      "body_markdown": "سلام!\n\nهیجان‌زده‌ام که به شما بگویم واجد شرایط Exercism Insiders هستید؛ برنامه‌ی پاداش ما برای کسانی که به Exercism مشارکت می‌کنند، منتور می‌شوند یا کمک مالی می‌کنند.\nمی‌توانید حساب Insiders خود را در [صفحه‌ی Insiders](%{insiders_url}) فعال کنید.\n\nInsiders سه مزیت اصلی برای شما دارد:\n1. Exercism Premium به‌صورت رایگان. اکنون به حالت تاریک، یکپارچگی با ChatGPT، جایگاه‌های منتورینگ بیشتر و موارد دیگر دسترسی دارید.\n2. محتوای پشت‌صحنه. می‌توانید ویدیوهایی از من و تیم را تماشا کنید و در جریان کارهایی که روی Exercism انجام می‌دهیم بمانید.\n3. دسترسی نزدیک‌تر به تیم و اعضای کلیدی جامعه، با کانال اختصاصی #insiders ما در Discord.\n\nصفحه‌ی Insiders جزئیات بسیار بیشتری دارد!\nوضعیت Insiders شما تا زمانی که فعالانه مشارکت می‌کنید، منتورینگ می‌کنید یا کمک مالی می‌کنید ادامه خواهد داشت.\nهمچنین می‌توانید با رسیدن به آستانه‌های مشخص، وضعیت Insiders مادام‌العمر را به دست آورید.\n\nخیلی ممنون که بخشی از داستان Exercism هستید. امیدوارم از Insiders لذت ببرید!\n\nJeremy Walker\nهم‌بنیان‌گذار و مدیرعامل Exercism\n\nفعال‌سازی Insiders: %{insiders_url}\n"
+      "body_markdown": "سلام!\n\nهیجان‌زده‌ام که به شما بگویم واجد شرایط Exercism Insiders هستید؛ برنامه‌ی پاداش ما برای کسانی که به Exercism مشارکت می‌کنند، منتور می‌شوند یا کمک مالی می‌کنند.\nمی‌توانید حساب Insiders خود را در [صفحه‌ی Insiders](%{insiders_url}) فعال کنید.\n\nInsiders سه مزیت اصلی برای شما دارد:\n1. Exercism Premium به‌صورت رایگان. اکنون به حالت تاریک، Exercism AI، جایگاه‌های منتورینگ بیشتر و موارد دیگر دسترسی دارید.\n2. محتوای پشت‌صحنه. می‌توانید ویدیوهایی از من و تیم را تماشا کنید و در جریان کارهایی که روی Exercism انجام می‌دهیم بمانید.\n3. دسترسی نزدیک‌تر به تیم و اعضای کلیدی جامعه، با کانال اختصاصی #insiders ما در Discord.\n\nصفحه‌ی Insiders جزئیات بسیار بیشتری دارد!\nوضعیت Insiders شما تا زمانی که فعالانه مشارکت می‌کنید، منتورینگ می‌کنید یا کمک مالی می‌کنید ادامه خواهد داشت.\nهمچنین می‌توانید با رسیدن به آستانه‌های مشخص، وضعیت Insiders مادام‌العمر را به دست آورید.\n\nخیلی ممنون که بخشی از داستان Exercism هستید. امیدوارم از Insiders لذت ببرید!\n\nJeremy Walker\nهم‌بنیان‌گذار و مدیرعامل Exercism\n\nفعال‌سازی Insiders: %{insiders_url}\n"
     },
     "mentor_finished_discussion": {
       "title": "منتور شما گفتگو را به پایان رسانده است",

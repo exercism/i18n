@@ -530,7 +530,7 @@
         "tagline": "Exercism 需要你的帮助，才能生存和发展！",
         "description_html": "为 Exercism 捐款，即可获得幕后内容以及各种附加功能，例如 %{strong_text_1}、%{strong_text_2}、%{strong_text_3}、%{strong_text_4} 等。",
         "strong_text_1": "深色模式",
-        "strong_text_2": "ChatGPT 集成",
+        "strong_text_2": "Exercism AI",
         "strong_text_3": "额外的指导名额",
         "strong_text_4": "专属徽章",
         "learn_more_button": "了解更多",
@@ -3385,7 +3385,7 @@
       "insiders_title": "Exercism Insiders",
       "hero_subtitle_html": "<strong>为 Exercism 捐款</strong>，就能获得<span class=\"underline\">额外功能</span>和<span class=\"underline\">幕后内容</span>。",
       "donations_message_html": "我们依靠<strong>像你这样的人</strong>的捐款来生存&amp;成长！Insiders 就是我们感谢你支持我们的方式！",
-      "features_summary_html": "为 Exercism 捐款，就能获得幕后内容访问权限、<strong>深色模式、</strong>专属徽章、<strong>进阶版 GitHub Sync 和收藏、</strong>ChatGPT 集成、<strong>额外的指导名额、</strong>私密 Discord 频道、<strong>无广告体验</strong>等等 🎉",
+      "features_summary_html": "为 Exercism 捐款，就能获得幕后内容访问权限、<strong>深色模式、</strong>专属徽章、<strong>进阶版 GitHub Sync 和收藏、</strong>Exercism AI、<strong>额外的指导名额、</strong>私密 Discord 频道、<strong>无广告体验</strong>等等 🎉",
       "non_profit_info": "Exercism 是一家独立注册的非营利组织（英国注册号 #11733062），团队规模很小。所有捐款都用于运营和改进这个平台。",
       "benefits_heading": "Insider 权益",
       "benefits_tagline": "以下是我们感谢你支持我们的一些方式。",
@@ -3468,8 +3468,8 @@
         "description_html": "我们为你精心准备了一款漂亮的深色主题。夜里写代码时让眼睛休息一下，尽情享受最暗黑风格的 Exercism。你可以在<a href=\"%{user_preferences_link}\">用户偏好设置</a>中切换主题。"
       },
       "chatgpt": {
-        "title": "ChatGPT",
-        "description": "我们的 ChatGPT 集成可以直接在在线编辑器里帮你摆脱卡壳。每个自然月，你可以获得 3 倍的 v4.0 请求额度和 30 倍的 v3.5 请求额度。用得怎么样，欢迎告诉我们！"
+        "title": "Exercism AI",
+        "description": "Exercism AI 可以直接在在线编辑器里帮你摆脱卡壳，而且每道练习都能无限次对话。它会引导你自己找到答案，而不是直接给出答案。用得怎么样，欢迎告诉我们！"
       },
       "name_tag_flair_and_badges": {
         "title": "名牌装饰与徽章",
@@ -3988,7 +3988,7 @@
     },
     "eligible_for_insiders": {
       "subject": "你有资格加入 Exercism Insiders",
-      "body_markdown": "嘿！\n\n很高兴告诉你，你已符合 Exercism Insiders 的资格。Insiders 是我们为那些为 Exercism 做贡献、提供指导或捐款的人准备的奖励计划。\n你可以在[Insiders 页面](%{insiders_url})激活你的 Insiders 账户。\n\nInsiders 为你提供三大好处：\n1. 免费获得 Exercism Premium。你现在可以使用深色模式、ChatGPT 集成、更多指导名额等等。\n2. 幕后内容。你可以观看我和团队制作的视频，随时了解我们开发 Exercism 的进展。\n3. 更近距离地接触团队和社区核心成员，还有我们专属的 #insiders Discord 频道。\n\nInsiders 页面里还有更多详细信息！\n只要你在积极贡献、提供指导或捐款，你的 Insiders 身份就会一直保留。\n达到一定标准后，你还能获得终身 Insiders 身份。\n\n非常感谢你参与 Exercism 的故事。真心希望你享受 Insiders！\n\nJeremy Walker\nExercism 联合创始人兼 CEO\n\n激活 Insiders：%{insiders_url}\n"
+      "body_markdown": "嘿！\n\n很高兴告诉你，你已符合 Exercism Insiders 的资格。Insiders 是我们为那些为 Exercism 做贡献、提供指导或捐款的人准备的奖励计划。\n你可以在[Insiders 页面](%{insiders_url})激活你的 Insiders 账户。\n\nInsiders 为你提供三大好处：\n1. 免费获得 Exercism Premium。你现在可以使用深色模式、Exercism AI、更多指导名额等等。\n2. 幕后内容。你可以观看我和团队制作的视频，随时了解我们开发 Exercism 的进展。\n3. 更近距离地接触团队和社区核心成员，还有我们专属的 #insiders Discord 频道。\n\nInsiders 页面里还有更多详细信息！\n只要你在积极贡献、提供指导或捐款，你的 Insiders 身份就会一直保留。\n达到一定标准后，你还能获得终身 Insiders 身份。\n\n非常感谢你参与 Exercism 的故事。真心希望你享受 Insiders！\n\nJeremy Walker\nExercism 联合创始人兼 CEO\n\n激活 Insiders：%{insiders_url}\n"
     },
     "mentor_finished_discussion": {
       "title": "你的导师已结束讨论",
@@ -4021,7 +4021,7 @@
     },
     "eligible_for_lifetime_insiders": {
       "subject": "你符合 Exercism Insiders 的资格",
-      "body_markdown": "嗨！\n\n很高兴告诉你，你符合 Exercism Insiders 的资格，这是我们的奖励计划，面向为 Exercism 做贡献、提供指导或捐赠的人。  \n你可以在 [Insiders 页面](%{insiders_url}) 激活你的 Insiders 账号。\n\nInsiders 会给你带来一些额外福利：\n\n- 使用我们超酷的深色模式\n- 当你卡在练习上时的 ChatGPT 集成\n- 幕后内容。你可以观看我和团队的视频，随时了解我们在 Exercism 上的工作进展。\n- 通过我们专属的 #insiders Discord 频道，更近距离地接触团队和核心社区成员。\n- 额外的指导名额。\n- 专属徽章\n- 还有更多！\n\n我们已为你授予 **Lifetime** 状态，这意味着你将永远可以使用 Insiders。  \n[Insiders 页面](%{insiders_url}) 有更多详情，也可以观看下方视频了解更多 👇\n\n<a href=\"https://www.youtube.com/watch?v=iwhahd41h0A\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"https://assets.exercism.org/images/thumbnails/introducing-insiders-with-play-icon.jpg\" style=\"width:100%; display:block\" />\n</a>\n\n非常感谢你成为 Exercism 故事的一部分。真心希望你喜欢 Insiders！\n\nJeremy Walker  \nExercism 联合创始人兼 CEO\n\n[激活 Insiders](%{insiders_url})"
+      "body_markdown": "嗨！\n\n很高兴告诉你，你符合 Exercism Insiders 的资格，这是我们的奖励计划，面向为 Exercism 做贡献、提供指导或捐赠的人。  \n你可以在 [Insiders 页面](%{insiders_url}) 激活你的 Insiders 账号。\n\nInsiders 会给你带来一些额外福利：\n\n- 使用我们超酷的深色模式\n- 当你卡在练习上时可以用的 Exercism AI\n- 幕后内容。你可以观看我和团队的视频，随时了解我们在 Exercism 上的工作进展。\n- 通过我们专属的 #insiders Discord 频道，更近距离地接触团队和核心社区成员。\n- 额外的指导名额。\n- 专属徽章\n- 还有更多！\n\n我们已为你授予 **Lifetime** 状态，这意味着你将永远可以使用 Insiders。  \n[Insiders 页面](%{insiders_url}) 有更多详情，也可以观看下方视频了解更多 👇\n\n<a href=\"https://www.youtube.com/watch?v=iwhahd41h0A\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"https://assets.exercism.org/images/thumbnails/introducing-insiders-with-play-icon.jpg\" style=\"width:100%; display:block\" />\n</a>\n\n非常感谢你成为 Exercism 故事的一部分。真心希望你喜欢 Insiders！\n\nJeremy Walker  \nExercism 联合创始人兼 CEO\n\n[激活 Insiders](%{insiders_url})"
     },
     "student_timed_out_discussion_student": {
       "title": "你的讨论已超时",

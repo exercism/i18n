@@ -2143,7 +2143,7 @@
   "components/settings/theme-preference-form": {
     "infoMessage.insiderAccessToDarkMode": "Como Insider de Exercism, tienes acceso al modo oscuro. Elige entre claro, oscuro o actualización automática según las preferencias de tu sistema. ¡Disfrútalo! 💎",
     "infoMessage.eligibleToJoinInsiders": "Eres elegible para unirte a Insiders. <0>Empieza aquí.</0>",
-    "infoMessage.darkModeOnlyAvailableToInsiders": "El modo oscuro solo está disponible para los Insiders de Exercism. <0>Dona a Exercism</0> y conviértete en Insider para acceder al modo oscuro, la integración con ChatGPT y mucho más.",
+    "infoMessage.darkModeOnlyAvailableToInsiders": "El modo oscuro solo está disponible para los Insiders de Exercism. <0>Dona a Exercism</0> y conviértete en Insider para acceder al modo oscuro, Exercism AI y mucho más.",
     "disabledTooltip.mustBeExercismInsider": "Debes ser <0>Insider de Exercism <1/></0> para desbloquear este tema."
   },
   "components/settings/ThemePreferenceForm.tsx": {
@@ -2346,14 +2346,14 @@
   },
   "components/modals/WelcomeToInsidersModal.tsx": {
     "welcomeToInsidersModal.title": "¡Te damos la bienvenida a Insiders! 💙",
-    "welcomeToInsidersModal.accessToFeatures": "Ahora tienes acceso al modo oscuro, a la integración con ChatGPT, a espacios de mentoría extra, además de videos detrás de cámaras, nuevas insignias y mucho más.",
+    "welcomeToInsidersModal.accessToFeatures": "Ahora tienes acceso al modo oscuro, a Exercism AI, a espacios de mentoría extra, además de videos detrás de cámaras, nuevas insignias y mucho más.",
     "welcomeToInsidersModal.thanksForBeingPartOfOurStory": "¡Gracias por ser parte de nuestra historia!",
     "welcomeToInsidersModal.exercismReliesOnPeople": "Exercism depende de personas como tú que donan su tiempo y su dinero para ayudar a los demás. Sin ti no habríamos ayudado a la gran cantidad de personas a las que hemos ayudado. Nuestro camino apenas comienza y nos alegra mucho tenerte con nosotros. ¡Muchas gracias por hacer posible Exercism! 💙",
     "welcomeToInsidersModal.weHopeInsidersIsFun": "Esperamos que Insiders sea una experiencia divertida. Te recomendamos ver el video de la derecha para conocer cómo cambió tu cuenta, y también visitar la página de Insiders que está detrás de esta ventana modal para ver todas las funcionalidades que desbloqueaste.",
     "welcomeToInsidersModal.greatLetsGo": "Genial. ¡Vamos!",
     "welcomeToInsidersModal.startWithOurWelcomeVideo": "Empieza con nuestro video de bienvenida 👇🏽",
     "welcomeToInsidersModal.whatShouldIDoNext": "¿Qué debería hacer ahora?",
-    "welcomeToInsidersModal.exploreDarkMode": "Explora el modo oscuro (lo activamos de forma predeterminada). Mira tus nuevas insignias. Prueba ChatGPT en el editor en línea. Usa uno de tus nuevos espacios de mentoría. Pásate a saludar en el canal #insiders de Discord. O mira algunos de los videos detrás de cámaras 🎉",
+    "welcomeToInsidersModal.exploreDarkMode": "Explora el modo oscuro (lo activamos de forma predeterminada). Mira tus nuevas insignias. Prueba Exercism AI en el editor en línea. Usa uno de tus nuevos espacios de mentoría. Pásate a saludar en el canal #insiders de Discord. O mira algunos de los videos detrás de cámaras 🎉",
     "welcomeToInsidersModal.videoTitle": "¡Te damos la bienvenida a Exercism Insiders!"
   },
   "components/notifications/": {
@@ -2420,7 +2420,7 @@
     "insiderBenefits.thanksForBeingInsider": "¡Gracias por ser Insider de Exercism! Aquí tienes algunas configuraciones adicionales exclusivas para ti.",
     "insiderBenefits.eligibleToJoin": "Puedes unirte a Insiders. <link>Empieza aquí.</link>",
     "insiderBenefits.exclusiveOptions": "Estas son opciones exclusivas para los Insiders de Exercism.",
-    "insiderBenefits.donateToExercism": "<0>Dona a Exercism</0>  para convertirte en Insider y acceder a beneficios como el modo oscuro, la integración con ChatGPT, una experiencia sin anuncios y mucho más.",
+    "insiderBenefits.donateToExercism": "<0>Dona a Exercism</0>  para convertirte en Insider y acceder a beneficios como el modo oscuro, Exercism AI, una experiencia sin anuncios y mucho más.",
     "insiderBenefits.successAlt": "Éxito"
   },
   "components/settings/PasswordForm.tsx": {

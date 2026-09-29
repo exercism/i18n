@@ -1016,7 +1016,7 @@
   "components/settings/theme-preference-form": {
     "infoMessage.insiderAccessToDarkMode": "Como Insider do Exercism, você tem acesso ao Modo Escuro. Escolha entre claro, escuro ou atualização automática conforme as preferências do seu sistema. Aproveite! 💎",
     "infoMessage.eligibleToJoinInsiders": "Você pode entrar para os Insiders. <0>Comece por aqui.</0>",
-    "infoMessage.darkModeOnlyAvailableToInsiders": "O Modo Escuro só está disponível para os Insiders do Exercism. <0>Faça uma doação ao Exercism</0> e torne-se um Insider para ter acesso ao Modo Escuro, à integração com o ChatGPT e muito mais.",
+    "infoMessage.darkModeOnlyAvailableToInsiders": "O Modo Escuro só está disponível para os Insiders do Exercism. <0>Faça uma doação ao Exercism</0> e torne-se um Insider para ter acesso ao Modo Escuro, ao Exercism AI e muito mais.",
     "disabledTooltip.mustBeExercismInsider": "Você precisa ser um <0>Insider do Exercism <1/></0> para desbloquear este tema."
   },
   "components/settings/ThemePreferenceForm.tsx": {
@@ -1188,7 +1188,7 @@
     "insiderBenefits.thanksForBeingInsider": "Que bom ter você como Insider do Exercism! Aqui estão algumas configurações extras exclusivas para você.",
     "insiderBenefits.eligibleToJoin": "Você pode entrar para os Insiders. <link>Comece por aqui.</link>",
     "insiderBenefits.exclusiveOptions": "Estas são opções exclusivas para os Insiders do Exercism.",
-    "insiderBenefits.donateToExercism": "<0>Faça uma doação ao Exercism</0>  para se tornar um Insider e ter acesso a benefícios como Modo Escuro, integração com ChatGPT, uma experiência sem anúncios e muito mais.",
+    "insiderBenefits.donateToExercism": "<0>Faça uma doação ao Exercism</0>  para se tornar um Insider e ter acesso a benefícios como Modo Escuro, Exercism AI, uma experiência sem anúncios e muito mais.",
     "insiderBenefits.successAlt": "Sucesso"
   },
   "components/settings/PasswordForm.tsx": {
@@ -2270,14 +2270,14 @@
   },
   "components/modals/WelcomeToInsidersModal.tsx": {
     "welcomeToInsidersModal.title": "Bem-vindo ao Insiders! 💙",
-    "welcomeToInsidersModal.accessToFeatures": "Agora você tem acesso ao Modo escuro, à integração com o ChatGPT, a slots extras de mentoria, além de vídeos de bastidores, novos selos e muito mais!",
+    "welcomeToInsidersModal.accessToFeatures": "Agora você tem acesso ao Modo escuro, ao Exercism AI, a slots extras de mentoria, além de vídeos de bastidores, novos selos e muito mais!",
     "welcomeToInsidersModal.thanksForBeingPartOfOurStory": "Obrigado por fazer parte da nossa história!",
     "welcomeToInsidersModal.exercismReliesOnPeople": "O Exercism depende de pessoas como você, que abrem mão do seu tempo e do seu dinheiro para ajudar os outros. Sem você, não teríamos ajudado a multidão de pessoas que ajudamos. Nossa jornada ainda está só começando e ficamos muito felizes por ter você com a gente. Muito obrigado por tornar o Exercism possível 💙",
     "welcomeToInsidersModal.weHopeInsidersIsFun": "Esperamos que o Insiders seja uma experiência divertida. Recomendamos que você assista ao vídeo à direita para ter uma visão geral de como a sua conta mudou, e também que dê uma olhada na página do Insiders atrás deste modal para ver todos os recursos que você desbloqueou.",
     "welcomeToInsidersModal.greatLetsGo": "Ótimo. Vamos lá!",
     "welcomeToInsidersModal.startWithOurWelcomeVideo": "Comece com nosso vídeo de boas-vindas 👇🏽",
     "welcomeToInsidersModal.whatShouldIDoNext": "O que devo fazer agora?",
-    "welcomeToInsidersModal.exploreDarkMode": "Explore o Modo escuro (já o ativamos por padrão). Confira seus novos selos. Experimente o ChatGPT no editor online. Use um dos seus novos slots de mentoria. Apareça para dar um oi no canal #insiders do Discord. Ou assista a alguns vídeos de bastidores 🎉",
+    "welcomeToInsidersModal.exploreDarkMode": "Explore o Modo escuro (já o ativamos por padrão). Confira seus novos selos. Experimente o Exercism AI no editor online. Use um dos seus novos slots de mentoria. Apareça para dar um oi no canal #insiders do Discord. Ou assista a alguns vídeos de bastidores 🎉",
     "welcomeToInsidersModal.videoTitle": "Bem-vindo ao Exercism Insiders!"
   },
   "components/notifications/": {

@@ -1390,7 +1390,7 @@
     "insiderBenefits.thanksForBeingInsider": "感谢你成为 Exercism Insider！这里有一些专为你准备的额外设置。",
     "insiderBenefits.eligibleToJoin": "你符合加入 Insiders 的条件。<link>从这里开始。</link>",
     "insiderBenefits.exclusiveOptions": "这些是 Exercism Insiders 专属的选项。",
-    "insiderBenefits.donateToExercism": "<0>向 Exercism 捐款</0>  成为 Insider，即可享受深色模式、ChatGPT 集成、无广告体验等权益。",
+    "insiderBenefits.donateToExercism": "<0>向 Exercism 捐款</0>  成为 Insider，即可享受深色模式、Exercism AI、无广告体验等权益。",
     "insiderBenefits.successAlt": "成功"
   },
   "components/settings/PasswordForm.tsx": {
@@ -1753,7 +1753,7 @@
   "components/settings/theme-preference-form": {
     "infoMessage.insiderAccessToDarkMode": "作为 Exercism Insider，你可以使用深色模式。你可以在浅色、深色之间选择，或根据系统偏好自动切换。尽情享受！💎",
     "infoMessage.eligibleToJoinInsiders": "你有资格加入 Insiders。<0>从这里开始。</0>",
-    "infoMessage.darkModeOnlyAvailableToInsiders": "深色模式仅对 Exercism Insiders 开放。<0>向 Exercism 捐款</0>，成为 Insider，即可使用深色模式、ChatGPT 集成和更多功能。",
+    "infoMessage.darkModeOnlyAvailableToInsiders": "深色模式仅对 Exercism Insiders 开放。<0>向 Exercism 捐款</0>，成为 Insider，即可使用深色模式、Exercism AI 和更多功能。",
     "disabledTooltip.mustBeExercismInsider": "你必须成为<0>Exercism Insider <1/></0>，才能解锁这个主题。"
   },
   "components/settings/ThemePreferenceForm.tsx": {
@@ -2235,14 +2235,14 @@
   },
   "components/modals/WelcomeToInsidersModal.tsx": {
     "welcomeToInsidersModal.title": "欢迎加入 Insiders！💙",
-    "welcomeToInsidersModal.accessToFeatures": "现在你可以使用深色模式、ChatGPT 集成、额外的导师指导名额，还有幕后视频、新徽章等更多内容！",
+    "welcomeToInsidersModal.accessToFeatures": "现在你可以使用深色模式、Exercism AI、额外的导师指导名额，还有幕后视频、新徽章等更多内容！",
     "welcomeToInsidersModal.thanksForBeingPartOfOurStory": "感谢你成为我们故事的一部分！",
     "welcomeToInsidersModal.exercismReliesOnPeople": "Exercism 依靠像你这样的人付出时间和金钱来帮助他人。没有你，我们就无法帮助到这么多的人。我们的旅程才刚刚开始，很高兴有你同行。非常感谢你让 Exercism 成为可能 💙",
     "welcomeToInsidersModal.weHopeInsidersIsFun": "我们希望 Insiders 能给你带来愉快的体验。我们建议你观看右侧的视频，了解你的账号现在发生了哪些变化，也去看看这个弹窗背后的 Insiders 页面，看看你解锁的所有功能。",
     "welcomeToInsidersModal.greatLetsGo": "太好了，我们出发吧！",
     "welcomeToInsidersModal.startWithOurWelcomeVideo": "先看我们的欢迎视频 👇🏽",
     "welcomeToInsidersModal.whatShouldIDoNext": "接下来该做什么？",
-    "welcomeToInsidersModal.exploreDarkMode": "探索深色模式（我们已默认开启）。看看你的新徽章。在在线编辑器中试用 ChatGPT。使用一个新增的导师指导名额。来 Discord 的 #insiders 频道打个招呼。或者看几段幕后视频 🎉",
+    "welcomeToInsidersModal.exploreDarkMode": "探索深色模式（我们已默认开启）。看看你的新徽章。在在线编辑器中试用 Exercism AI。使用一个新增的导师指导名额。来 Discord 的 #insiders 频道打个招呼。或者看几段幕后视频 🎉",
     "welcomeToInsidersModal.videoTitle": "欢迎来到 Exercism Insiders！"
   },
   "components/notifications/": {

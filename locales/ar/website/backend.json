@@ -1162,7 +1162,7 @@
         "tagline": "يحتاج Exercism إلى مساعدتك ليستمر ويزدهر!",
         "description_html": "تبرّع إلى Exercism واحصل على وصول إلى ما يجري خلف الكواليس وميزات إضافية مثل %{strong_text_1}، %{strong_text_2}، %{strong_text_3}، %{strong_text_4} والمزيد.",
         "strong_text_1": "الوضع الداكن",
-        "strong_text_2": "تكامل ChatGPT",
+        "strong_text_2": "Exercism AI",
         "strong_text_3": "جلسات إرشاد إضافية",
         "strong_text_4": "شارات حصرية",
         "learn_more_button": "اعرف المزيد",
@@ -3667,8 +3667,8 @@
         "description_html": "أعددنا لك مظهرًا داكنًا جميلًا لتستمتع به. أرح عينيك أثناء البرمجة ليلًا واستمتع بـ Exercism في أبهى حُلله الداكنة. يمكنك تبديل المظهر من <a href=\"%{user_preferences_link}\">تفضيلات المستخدم</a>."
       },
       "chatgpt": {
-        "title": "ChatGPT",
-        "description": "يساعدك تكامل ChatGPT لدينا على تجاوز العقبات مباشرةً في محررنا الإلكتروني. تحصل على 3 أضعاف طلبات v4.0 و30 ضعفًا لطلبات v3.5 لكل شهر ميلادي. أخبرنا كيف تسير الأمور معك!"
+        "title": "Exercism AI",
+        "description": "يساعدك Exercism AI على تجاوز العقبات مباشرةً في محررنا الإلكتروني، مع محادثات غير محدودة في كل تمرين. يوجّهك نحو الإجابة بدلًا من إعطائها لك مباشرة. أخبرنا كيف تسير الأمور معك!"
       },
       "name_tag_flair_and_badges": {
         "title": "زخرفة بطاقة الاسم والشارات",
@@ -3692,7 +3692,7 @@
       "insiders_title": "Exercism Insiders",
       "hero_subtitle_html": "<strong>تبرّع لـ Exercism</strong> واحصل على <span class=\"underline\">مزايا إضافية</span> و<span class=\"underline\">محتوى من كواليس العمل.</span>",
       "donations_message_html": "بقاؤنا ونموّنا يعتمدان على تبرّعات <strong>أشخاص مثلك</strong> &amp; ونحن نقدّر دعمك لنا! Insiders هي طريقتنا لشكرك على دعمك لنا!",
-      "features_summary_html": "احصل على وصول إلى كواليس العمل، و<strong>الوضع الداكن،</strong> وشارات حصرية، و<strong>مزامنة GitHub المتقدمة والمفضلة،</strong> وتكامل ChatGPT، و<strong>خانات إرشاد إضافية،</strong> وقناة Discord خاصة، و<strong>تجربة بلا إعلانات،</strong> والمزيد عند تبرّعك لـ Exercism 🎉",
+      "features_summary_html": "احصل على وصول إلى كواليس العمل، و<strong>الوضع الداكن،</strong> وشارات حصرية، و<strong>مزامنة GitHub المتقدمة والمفضلة،</strong> وExercism AI، و<strong>خانات إرشاد إضافية،</strong> وقناة Discord خاصة، و<strong>تجربة بلا إعلانات،</strong> والمزيد عند تبرّعك لـ Exercism 🎉",
       "non_profit_info": "‏Exercism منظمة مستقلة غير ربحية ومسجّلة (رقم التسجيل في المملكة المتحدة: 11733062) ويعمل بها فريق صغير جدًا. وتُستخدم كل التبرّعات لتشغيل المنصة وتحسينها.",
       "benefits_heading": "مزايا Insiders",
       "benefits_tagline": "إليك بعض الطرق التي نشكرك بها على دعمك لنا.",
@@ -4191,7 +4191,7 @@
   "notifications_mailer": {
     "eligible_for_lifetime_insiders": {
       "subject": "أنت مؤهل للانضمام إلى Exercism Insiders",
-      "body_markdown": "مرحبًا!\n\nيسعدني أن أخبرك بأنك مؤهل للانضمام إلى Exercism Insiders، وهو برنامج المكافآت لدينا لمن يساهمون في Exercism أو يقدمون فيه الإرشاد أو يتبرعون له.  \nيمكنك تنشيط حسابك في Insiders من [صفحة Insiders](%{insiders_url}).\n\nيمنحك Insiders بعض المزايا الإضافية:\n\n- الوصول إلى الوضع الداكن الرائع\n- تكامل ChatGPT عندما تتعثر في التمارين\n- محتوى من كواليس العمل. يمكنك مشاهدة فيديوهات مني ومن الفريق تُبقيك على اطلاع دائم بينما نعمل على Exercism.\n- وصول أقرب إلى الفريق وأعضاء المجتمع المهمين عبر قناة #insiders المخصصة على Discord.\n- فتحات إرشاد إضافية.\n- شارات حصرية\n- والمزيد!\n\nلقد منحناك حالة **Lifetime**، ما يعني أنك ستحصل دائمًا على الوصول إلى Insiders.  \nتحتوي [صفحة Insiders](%{insiders_url}) على تفاصيل أكثر بكثير، أو شاهد الفيديو أدناه لمعرفة المزيد 👇\n\n<a href=\"https://www.youtube.com/watch?v=iwhahd41h0A\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"https://assets.exercism.org/images/thumbnails/introducing-insiders-with-play-icon.jpg\" style=\"width:100%; display:block\" />\n</a>\n\nشكرًا جزيلًا لأنك جزء من قصة Exercism. أتمنى حقًا أن تستمتع بـ Insiders!\n\nJeremy Walker  \nالمؤسس المشارك والرئيس التنفيذي لـ Exercism\n\n[تفعيل Insiders](%{insiders_url})"
+      "body_markdown": "مرحبًا!\n\nيسعدني أن أخبرك بأنك مؤهل للانضمام إلى Exercism Insiders، وهو برنامج المكافآت لدينا لمن يساهمون في Exercism أو يقدمون فيه الإرشاد أو يتبرعون له.  \nيمكنك تنشيط حسابك في Insiders من [صفحة Insiders](%{insiders_url}).\n\nيمنحك Insiders بعض المزايا الإضافية:\n\n- الوصول إلى الوضع الداكن الرائع\n- Exercism AI عندما تتعثر في التمارين\n- محتوى من كواليس العمل. يمكنك مشاهدة فيديوهات مني ومن الفريق تُبقيك على اطلاع دائم بينما نعمل على Exercism.\n- وصول أقرب إلى الفريق وأعضاء المجتمع المهمين عبر قناة #insiders المخصصة على Discord.\n- فتحات إرشاد إضافية.\n- شارات حصرية\n- والمزيد!\n\nلقد منحناك حالة **Lifetime**، ما يعني أنك ستحصل دائمًا على الوصول إلى Insiders.  \nتحتوي [صفحة Insiders](%{insiders_url}) على تفاصيل أكثر بكثير، أو شاهد الفيديو أدناه لمعرفة المزيد 👇\n\n<a href=\"https://www.youtube.com/watch?v=iwhahd41h0A\" style=\"display:block; box-shadow: 0px 2px 4px #0F0923\">\n  <img src=\"https://assets.exercism.org/images/thumbnails/introducing-insiders-with-play-icon.jpg\" style=\"width:100%; display:block\" />\n</a>\n\nشكرًا جزيلًا لأنك جزء من قصة Exercism. أتمنى حقًا أن تستمتع بـ Insiders!\n\nJeremy Walker  \nالمؤسس المشارك والرئيس التنفيذي لـ Exercism\n\n[تفعيل Insiders](%{insiders_url})"
     },
     "student_timed_out_discussion_student": {
       "title": "انتهت مهلة نقاشك",
@@ -4213,7 +4213,7 @@
     },
     "eligible_for_insiders": {
       "subject": "أنت مؤهل لـ Exercism Insiders",
-      "body_markdown": "مرحبًا!\n\nيسعدني أن أخبرك أنك مؤهل لـ Exercism Insiders، برنامج المكافآت الذي نقدّمه لمن يساهمون في Exercism أو يرشدون فيه أو يتبرعون له.\nيمكنك تفعيل حسابك في Insiders من [صفحة Insiders](%{insiders_url}).\n\nيمنحك Insiders ثلاث مزايا رئيسية:\n1. اشتراك Exercism Premium مجانًا. أصبح بإمكانك الآن استخدام الوضع الليلي وتكامل ChatGPT وفتحات إرشاد إضافية والمزيد.\n2. محتوى من خلف الكواليس. يمكنك مشاهدة فيديوهات مني ومن الفريق لتبقى على اطلاع بما نعمل عليه في Exercism.\n3. تواصل أقرب مع الفريق وأعضاء المجتمع البارزين، عبر قناة #insiders المخصصة على Discord.\n\nتحتوي صفحة Insiders على الكثير من التفاصيل!\nستستمر صفة Insider لديك ما دمت تساهم أو ترشد أو تتبرع بفعالية.\nيمكنك أيضًا الحصول على صفة Insider مدى الحياة عند بلوغ حدود معيّنة.\n\nشكرًا جزيلًا لأنك جزء من قصة Exercism. أتمنى حقًا أن تستمتع بـ Insiders!\n\nJeremy Walker\nالمؤسس المشارك والرئيس التنفيذي لـ Exercism\n\nتفعيل Insiders: %{insiders_url}\n"
+      "body_markdown": "مرحبًا!\n\nيسعدني أن أخبرك أنك مؤهل لـ Exercism Insiders، برنامج المكافآت الذي نقدّمه لمن يساهمون في Exercism أو يرشدون فيه أو يتبرعون له.\nيمكنك تفعيل حسابك في Insiders من [صفحة Insiders](%{insiders_url}).\n\nيمنحك Insiders ثلاث مزايا رئيسية:\n1. اشتراك Exercism Premium مجانًا. أصبح بإمكانك الآن استخدام الوضع الليلي وExercism AI وفتحات إرشاد إضافية والمزيد.\n2. محتوى من خلف الكواليس. يمكنك مشاهدة فيديوهات مني ومن الفريق لتبقى على اطلاع بما نعمل عليه في Exercism.\n3. تواصل أقرب مع الفريق وأعضاء المجتمع البارزين، عبر قناة #insiders المخصصة على Discord.\n\nتحتوي صفحة Insiders على الكثير من التفاصيل!\nستستمر صفة Insider لديك ما دمت تساهم أو ترشد أو تتبرع بفعالية.\nيمكنك أيضًا الحصول على صفة Insider مدى الحياة عند بلوغ حدود معيّنة.\n\nشكرًا جزيلًا لأنك جزء من قصة Exercism. أتمنى حقًا أن تستمتع بـ Insiders!\n\nJeremy Walker\nالمؤسس المشارك والرئيس التنفيذي لـ Exercism\n\nتفعيل Insiders: %{insiders_url}\n"
     },
     "mentor_finished_discussion": {
       "title": "أنهى مُرشدك المناقشة",

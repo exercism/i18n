@@ -112,7 +112,7 @@
     "insiderBenefits.thanksForBeingInsider": "Ευχαριστούμε που είσαι Exercism Insider! Ορίστε μερικές επιπλέον ρυθμίσεις αποκλειστικά για σένα.",
     "insiderBenefits.eligibleToJoin": "Δικαιούσαι να γίνεις Insider. <link>Ξεκίνα εδώ.</link>",
     "insiderBenefits.exclusiveOptions": "Αυτές είναι αποκλειστικές επιλογές για τους Exercism Insiders.",
-    "insiderBenefits.donateToExercism": "<0>Κάνε δωρεά στο Exercism</0>  για να γίνεις Insider και να αποκτήσεις πρόσβαση σε οφέλη όπως η σκοτεινή λειτουργία, η ενσωμάτωση ChatGPT, μια εμπειρία χωρίς διαφημίσεις και άλλα.",
+    "insiderBenefits.donateToExercism": "<0>Κάνε δωρεά στο Exercism</0>  για να γίνεις Insider και να αποκτήσεις πρόσβαση σε οφέλη όπως η σκοτεινή λειτουργία, το Exercism AI, μια εμπειρία χωρίς διαφημίσεις και άλλα.",
     "insiderBenefits.successAlt": "Επιτυχία"
   },
   "components/settings/PasswordForm.tsx": {
@@ -1162,7 +1162,7 @@
   "components/settings/theme-preference-form": {
     "infoMessage.insiderAccessToDarkMode": "Ως Insider στο Exercism, έχεις πρόσβαση στη Σκοτεινή Λειτουργία. Διάλεξε ανάμεσα σε φωτεινή, σκοτεινή ή αυτόματη ενημέρωση με βάση τις προτιμήσεις του συστήματός σου. Απόλαυσέ το! 💎",
     "infoMessage.eligibleToJoinInsiders": "Μπορείς να γίνεις Insider. <0>Ξεκίνα εδώ.</0>",
-    "infoMessage.darkModeOnlyAvailableToInsiders": "Η Σκοτεινή Λειτουργία είναι διαθέσιμη μόνο στους Insiders του Exercism. <0>Κάνε δωρεά στο Exercism</0> και γίνε Insider για να αποκτήσεις πρόσβαση στη Σκοτεινή Λειτουργία, την ενσωμάτωση ChatGPT και άλλα πολλά.",
+    "infoMessage.darkModeOnlyAvailableToInsiders": "Η Σκοτεινή Λειτουργία είναι διαθέσιμη μόνο στους Insiders του Exercism. <0>Κάνε δωρεά στο Exercism</0> και γίνε Insider για να αποκτήσεις πρόσβαση στη Σκοτεινή Λειτουργία, το Exercism AI και άλλα πολλά.",
     "disabledTooltip.mustBeExercismInsider": "Πρέπει να είσαι <0>Exercism Insider <1/></0> για να ξεκλειδώσεις αυτό το θέμα."
   },
   "components/settings/ThemePreferenceForm.tsx": {
@@ -1863,14 +1863,14 @@
   },
   "components/modals/WelcomeToInsidersModal.tsx": {
     "welcomeToInsidersModal.title": "Καλώς όρισες στους Insiders! 💙",
-    "welcomeToInsidersModal.accessToFeatures": "Τώρα έχεις πρόσβαση στη σκοτεινή λειτουργία, στην ενσωμάτωση ChatGPT, σε επιπλέον θέσεις για mentoring, καθώς και σε βίντεο από τα παρασκήνια, νέα σήματα και άλλα πολλά!",
+    "welcomeToInsidersModal.accessToFeatures": "Τώρα έχεις πρόσβαση στη σκοτεινή λειτουργία, στο Exercism AI, σε επιπλέον θέσεις για mentoring, καθώς και σε βίντεο από τα παρασκήνια, νέα σήματα και άλλα πολλά!",
     "welcomeToInsidersModal.thanksForBeingPartOfOurStory": "Ευχαριστούμε που είσαι μέρος της ιστορίας μας!",
     "welcomeToInsidersModal.exercismReliesOnPeople": "Το Exercism στηρίζεται σε ανθρώπους σαν εσένα που προσφέρουν τον χρόνο και τα χρήματά τους για να βοηθήσουν άλλους. Χωρίς εσένα δεν θα είχαμε βοηθήσει τόσους πολλούς ανθρώπους. Το ταξίδι μας μόλις ξεκινά και είμαστε πραγματικά χαρούμενοι που είσαι μαζί μας. Σε ευχαριστούμε πολύ που κάνεις το Exercism δυνατό 💙",
     "welcomeToInsidersModal.weHopeInsidersIsFun": "Ελπίζουμε οι Insiders να είναι μια διασκεδαστική εμπειρία. Σου προτείνουμε να δεις το βίντεο στα δεξιά για να πάρεις μια εικόνα του πώς άλλαξε ο λογαριασμός σου, αλλά και να ρίξεις μια ματιά στη σελίδα των Insiders πίσω από αυτό το παράθυρο για να δεις όλες τις λειτουργίες που ξεκλείδωσες.",
     "welcomeToInsidersModal.greatLetsGo": "Τέλεια. Πάμε!",
     "welcomeToInsidersModal.startWithOurWelcomeVideo": "Ξεκίνα με το βίντεο καλωσορίσματός μας 👇🏽",
     "welcomeToInsidersModal.whatShouldIDoNext": "Τι να κάνω μετά;",
-    "welcomeToInsidersModal.exploreDarkMode": "Εξερεύνησε τη σκοτεινή λειτουργία (την έχουμε ενεργοποιήσει από προεπιλογή). Δες τα νέα σου σήματα. Δοκίμασε το ChatGPT στον online editor. Χρησιμοποίησε μία από τις νέες θέσεις για mentoring. Έλα να πεις ένα γεια στο κανάλι #insiders στο Discord. Ή δες μερικά από τα βίντεο από τα παρασκήνια 🎉",
+    "welcomeToInsidersModal.exploreDarkMode": "Εξερεύνησε τη σκοτεινή λειτουργία (την έχουμε ενεργοποιήσει από προεπιλογή). Δες τα νέα σου σήματα. Δοκίμασε το Exercism AI στον online editor. Χρησιμοποίησε μία από τις νέες θέσεις για mentoring. Έλα να πεις ένα γεια στο κανάλι #insiders στο Discord. Ή δες μερικά από τα βίντεο από τα παρασκήνια 🎉",
     "welcomeToInsidersModal.videoTitle": "Καλώς όρισες στους Exercism Insiders!"
   },
   "components/notifications/": {
