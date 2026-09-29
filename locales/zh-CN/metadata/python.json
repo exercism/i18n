@@ -590,5 +590,10 @@
   "doc:resources:blurb": "帮助你掌握 Python 的一组实用资源。",
   "doc:tools:title": "本地开发的实用工具",
   "doc:tools:blurb": "一些实用工具，帮助你在自己的机器上开发 Exercism 的 Python 代码。",
-  "concept:function-arguments:blurb": "Python 支持位置实参、关键字实参、可变位置实参、可变关键字实参和默认实参。实参类型可以是任何有效的 Python 对象，包括其他函数或类。这样在程序中定义和调用函数时，就有很多选择。"
+  "concept:function-arguments:blurb": "Python 支持位置实参、关键字实参、可变位置实参、可变关键字实参和默认实参。实参类型可以是任何有效的 Python 对象，包括其他函数或类。这样在程序中定义和调用函数时，就有很多选择。",
+  "exercise:nucleotide-count:name": "核苷酸计数",
+  "exercise:parallel-letter-frequency:name": "并行字母频率",
+  "exercise:nucleotide-count:blurb": "给定一个 DNA 字符串，统计字符串中每种核苷酸出现的次数。",
+  "exercise:nucleotide-count:source": "出自 Rosalind 的 The Calculating DNA Nucleotides_problem",
+  "exercise:parallel-letter-frequency:blurb": "使用并行计算统计文本中字母出现的频率。"
 }

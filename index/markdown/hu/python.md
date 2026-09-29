@@ -419,6 +419,10 @@ This page is generated from [the index](../../json/hu/python.json) by `scripts/b
   - [`30a75216fd`](../../../locales/hu/content/30/a7/5216fd5395e4b31a69b3bf00c2e4d4acb189.md)
 - `instructions.append.md` ([English](https://github.com/exercism/python/blob/main/exercises/practice/nth-prime/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/60/e0/b74b7a74b2cfb8145dd6e9bdaeb3f3dba309.md)
 
+### Nucleotide Count (Nukleotidszámlálás)
+
+- `instructions.md` ([English](https://github.com/exercism/python/blob/main/exercises/practice/nucleotide-count/.docs/instructions.md)): [Latest](../../../locales/hu/content/54/8d/9ba5a5ee79a79fc4ff3e1d942c6c7f7c68af.md)
+
 ### OCR Numbers (OCR-számok)
 
 - `instructions.md` ([English](https://github.com/exercism/python/blob/main/exercises/practice/ocr-numbers/.docs/instructions.md)): [Latest](../../../locales/hu/content/8a/39/1ce4f6e1c32cd61c2140ed3e0e2e24299efd.md)
@@ -447,6 +451,10 @@ This page is generated from [the index](../../json/hu/python.json) by `scripts/b
 - `instructions.md` ([English](https://github.com/exercism/python/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
   - [`d5698bc2a2`](../../../locales/hu/content/d5/69/8bc2a292baf2fb128de3543b748165088c4f.md)
 - `introduction.md` ([English](https://github.com/exercism/python/blob/main/exercises/practice/pangram/.docs/introduction.md)): [Latest](../../../locales/hu/content/32/b6/f1fc3178c36f2677b2d7bbeb35bafd6c786d.md)
+
+### Parallel Letter Frequency (Párhuzamos betűgyakoriság)
+
+- `instructions.md` ([English](https://github.com/exercism/python/blob/main/exercises/practice/parallel-letter-frequency/.docs/instructions.md)): [Latest](../../../locales/hu/content/85/ab/cf86a42efcaa40f3f66d7e482d8902758a99.md)
 
 ### Pascal's Triangle (Pascal-háromszög)
 

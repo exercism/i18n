@@ -353,6 +353,10 @@ This page is generated from [the index](../../json/ja/python.json) by `scripts/b
 - `instructions.md` ([English](https://github.com/exercism/python/blob/main/exercises/practice/nth-prime/.docs/instructions.md)): [Latest](../../../locales/ja/content/06/5e/323ab2ca1bcfdd97c52d8051605b4872f94a.md)
 - `instructions.append.md` ([English](https://github.com/exercism/python/blob/main/exercises/practice/nth-prime/.docs/instructions.append.md)): [Latest](../../../locales/ja/content/60/e0/b74b7a74b2cfb8145dd6e9bdaeb3f3dba309.md)
 
+### Nucleotide Count (ヌクレオチドの数)
+
+- `instructions.md` ([English](https://github.com/exercism/python/blob/main/exercises/practice/nucleotide-count/.docs/instructions.md)): [Latest](../../../locales/ja/content/54/8d/9ba5a5ee79a79fc4ff3e1d942c6c7f7c68af.md)
+
 ### OCR Numbers (OCR数字)
 
 - `instructions.md` ([English](https://github.com/exercism/python/blob/main/exercises/practice/ocr-numbers/.docs/instructions.md)): [Latest](../../../locales/ja/content/8a/39/1ce4f6e1c32cd61c2140ed3e0e2e24299efd.md)
@@ -376,6 +380,10 @@ This page is generated from [the index](../../json/ja/python.json) by `scripts/b
 
 - `instructions.md` ([English](https://github.com/exercism/python/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/ja/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
 - `introduction.md` ([English](https://github.com/exercism/python/blob/main/exercises/practice/pangram/.docs/introduction.md)): [Latest](../../../locales/ja/content/32/b6/f1fc3178c36f2677b2d7bbeb35bafd6c786d.md)
+
+### Parallel Letter Frequency (並列文字頻度)
+
+- `instructions.md` ([English](https://github.com/exercism/python/blob/main/exercises/practice/parallel-letter-frequency/.docs/instructions.md)): [Latest](../../../locales/ja/content/85/ab/cf86a42efcaa40f3f66d7e482d8902758a99.md)
 
 ### Pascal's Triangle (パスカルの三角形)
 

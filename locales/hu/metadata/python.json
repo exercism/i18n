@@ -596,5 +596,10 @@
   "doc:resources:title": "Hasznos Python-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Pythont.",
   "doc:tools:title": "Hasznos eszközök a helyi fejlesztéshez",
-  "doc:tools:blurb": "Hasznos eszközök, amelyek segítenek a Python Exercism-kód fejlesztésében a saját gépeden."
+  "doc:tools:blurb": "Hasznos eszközök, amelyek segítenek a Python Exercism-kód fejlesztésében a saját gépeden.",
+  "exercise:nucleotide-count:name": "Nukleotidszámlálás",
+  "exercise:parallel-letter-frequency:name": "Párhuzamos betűgyakoriság",
+  "exercise:nucleotide-count:blurb": "Adott egy DNS-string, számold ki, hogy az egyes nukleotidok hányszor fordulnak elő benne.",
+  "exercise:nucleotide-count:source": "A Calculating DNA Nucleotides probléma a Rosalindon",
+  "exercise:parallel-letter-frequency:blurb": "Számold meg a betűk gyakoriságát szövegekben párhuzamos számítással."
 }

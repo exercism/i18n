@@ -590,5 +590,10 @@
   "doc:resources:title": "Recursos útiles de Python",
   "doc:resources:blurb": "Una colección de recursos útiles para ayudarte a dominar Python.",
   "doc:tools:title": "Herramientas útiles para el desarrollo local",
-  "doc:tools:blurb": "Herramientas útiles que te pueden ayudar a desarrollar código de Python para Exercism en tu propia computadora."
+  "doc:tools:blurb": "Herramientas útiles que te pueden ayudar a desarrollar código de Python para Exercism en tu propia computadora.",
+  "exercise:nucleotide-count:name": "Recuento de nucleótidos",
+  "exercise:parallel-letter-frequency:name": "Frecuencia de letras en paralelo",
+  "exercise:nucleotide-count:blurb": "Dado un string de ADN, calcula cuántas veces aparece cada nucleótido en el string.",
+  "exercise:nucleotide-count:source": "El problema Calculating DNA Nucleotides_problem en Rosalind",
+  "exercise:parallel-letter-frequency:blurb": "Cuenta la frecuencia de las letras en textos usando computación en paralelo."
 }

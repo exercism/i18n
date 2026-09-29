@@ -596,5 +596,10 @@
   "doc:resources:title": "Корисні ресурси з Python",
   "doc:resources:blurb": "Добірка корисних ресурсів, які допоможуть опанувати Python.",
   "doc:tools:title": "Корисні інструменти для локальної розробки",
-  "doc:tools:blurb": "Корисні інструменти, які допоможуть розробляти код Python для Exercism на власному компʼютері."
+  "doc:tools:blurb": "Корисні інструменти, які допоможуть розробляти код Python для Exercism на власному компʼютері.",
+  "exercise:nucleotide-count:name": "Підрахунок нуклеотидів",
+  "exercise:parallel-letter-frequency:name": "Паралельний підрахунок частоти літер",
+  "exercise:nucleotide-count:blurb": "Порахуйте, скільки разів кожен нуклеотид трапляється в заданому рядку тексту (англ. string) ДНК.",
+  "exercise:nucleotide-count:source": "Задача «Calculating DNA Nucleotides» на Rosalind",
+  "exercise:parallel-letter-frequency:blurb": "Порахуйте частоту літер у текстах, використовуючи паралельні обчислення."
 }

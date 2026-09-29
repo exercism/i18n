@@ -590,5 +590,10 @@
   "doc:resources:title": "Python के उपयोगी संसाधन",
   "doc:resources:blurb": "Python में महारत हासिल करने में मदद करने वाले उपयोगी संसाधनों का संग्रह।",
   "doc:tools:title": "लोकल डेवलपमेंट के लिए उपयोगी टूल",
-  "doc:tools:blurb": "कुछ उपयोगी टूल, जो आपकी अपनी मशीन पर Exercism के Python कोड को डेवलप करने में मदद कर सकते हैं।"
+  "doc:tools:blurb": "कुछ उपयोगी टूल, जो आपकी अपनी मशीन पर Exercism के Python कोड को डेवलप करने में मदद कर सकते हैं।",
+  "exercise:nucleotide-count:name": "न्यूक्लियोटाइड गणना",
+  "exercise:parallel-letter-frequency:name": "समानांतर अक्षर आवृत्ति",
+  "exercise:nucleotide-count:blurb": "एक DNA स्ट्रिंग दी गई है; पता कीजिए कि उसमें हर न्यूक्लियोटाइड कितनी बार आता है।",
+  "exercise:nucleotide-count:source": "Rosalind पर The Calculating DNA Nucleotides_problem",
+  "exercise:parallel-letter-frequency:blurb": "समानांतर गणना का इस्तेमाल करके टेक्स्टों में अक्षरों की आवृत्ति गिनिए।"
 }

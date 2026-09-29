@@ -590,5 +590,10 @@
   "doc:resources:title": "উপযোগী Python রিসোর্স",
   "doc:resources:blurb": "Python-এ দক্ষতা অর্জনে সাহায্য করবে এমন উপযোগী রিসোর্সের একটি সংগ্রহ।",
   "doc:tools:title": "স্থানীয় ডেভেলপমেন্টের জন্য উপযোগী টুল",
-  "doc:tools:blurb": "নিজের মেশিনে Exercism-এর Python কোড ডেভেলপ করতে সাহায্য করবে এমন উপযোগী টুল।"
+  "doc:tools:blurb": "নিজের মেশিনে Exercism-এর Python কোড ডেভেলপ করতে সাহায্য করবে এমন উপযোগী টুল।",
+  "exercise:nucleotide-count:name": "নিউক্লিওটাইড গণনা",
+  "exercise:parallel-letter-frequency:name": "প্যারালাল অক্ষর ফ্রিকোয়েন্সি",
+  "exercise:nucleotide-count:blurb": "একটি DNA স্ট্রিং দেওয়া হলে, স্ট্রিংটিতে প্রতিটি নিউক্লিওটাইড কতবার আছে তা গণনা করুন।",
+  "exercise:nucleotide-count:source": "Rosalind-এ The Calculating DNA Nucleotides_problem",
+  "exercise:parallel-letter-frequency:blurb": "প্যারালাল কম্পিউটেশন ব্যবহার করে টেক্সটে অক্ষরগুলোর ফ্রিকোয়েন্সি গণনা করুন।"
 }

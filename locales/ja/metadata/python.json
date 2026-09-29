@@ -590,5 +590,10 @@
   "concept:dicts:blurb": "辞書（`dict`）は、ハッシュ可能なキーを値に関連付けるデータ構造で、他のプログラミング言語ではハッシュテーブルやハッシュマップと呼ばれます。ほとんどのコレクションと同様に、辞書はあらゆるデータ型（複数のデータ型でも可）への参照を保持でき、他の辞書を入れることもできます。辞書を使うと、キーさえわかっていれば一定時間で値を取り出せます。",
   "concept:enums:blurb": "Enumは、それぞれ固有の*定数*値に束縛された一意な名前の集合で、一度定義すると変更できません。Enumは`Enum`クラスを継承して定義します。組み込みのEnum型は`enum`モジュールで利用でき、`Enum`クラスは`from enum import Enum`という構文でインポートできます。",
   "concept:function-arguments:blurb": "Pythonは、位置引数、キーワード引数、可変長位置引数、可変長キーワード引数、デフォルト引数に対応しています。引数には、他の関数やクラスを含め、任意の有効なPythonオブジェクトを渡せます。これにより、プログラムで関数を定義して呼び出すときの選択肢が大きく広がります。",
-  "concept:functions:blurb": "関数とは、関数呼び出しの操作を適用できるPythonオブジェクトのことです。関数は、他の関数やクラスを含め、任意の有効なPythonオブジェクトを0個以上の引数として受け取れます。関数の本体には1つ以上の文が含まれ、呼び出し元に何らかの値を返します。明示的な戻り値がない関数は、`None`を返します。"
+  "concept:functions:blurb": "関数とは、関数呼び出しの操作を適用できるPythonオブジェクトのことです。関数は、他の関数やクラスを含め、任意の有効なPythonオブジェクトを0個以上の引数として受け取れます。関数の本体には1つ以上の文が含まれ、呼び出し元に何らかの値を返します。明示的な戻り値がない関数は、`None`を返します。",
+  "exercise:nucleotide-count:name": "ヌクレオチドの数",
+  "exercise:parallel-letter-frequency:name": "並列文字頻度",
+  "exercise:nucleotide-count:blurb": "DNAの文字列が与えられたとき、その文字列の中に各ヌクレオチドが何回現れるかを数えます。",
+  "exercise:nucleotide-count:source": "RosalindのCalculating DNA Nucleotides問題",
+  "exercise:parallel-letter-frequency:blurb": "並列計算を使って、テキスト中の文字の出現頻度を数えます。"
 }

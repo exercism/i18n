@@ -590,5 +590,10 @@
   "concept:dict-methods:blurb": "A classe dict do Python oferece muitos métodos úteis para trabalhar com dicionários. Alguns são apresentados no conceito de dicionários. Este conceito aborda mais alguns, juntamente com algumas técnicas para iterar e manipular dicionários.",
   "concept:dicts:blurb": "Um dicionário (\"dict\") é uma estrutura de dados que associa chaves que suportam hash a valores, conhecida noutras linguagens de programação como tabela de hash ou hashmap. Tal como a maioria das coleções, os dicionários podem conter referências a qualquer tipo de dados ou a vários tipos, incluindo outros dicionários. Os \"dicts\" permitem obter um valor em tempo constante, dada a chave.",
   "concept:enums:blurb": "Um enum é um conjunto de nomes únicos associados a valores únicos e *constantes* e que, a partir daí, são imutáveis. Os enums definem-se por herança de uma classe \"Enum\". Os tipos enum incorporados estão disponíveis no módulo \"enum\" e a classe \"Enum\" pode ser importada com a sintaxe \"from enum import Enum\".",
-  "concept:function-arguments:blurb": "O Python suporta argumentos de função posicionais, nomeados, variádicos posicionais, variádicos nomeados e com valores predefinidos. Os tipos de argumento podem ser qualquer objeto válido do Python, incluindo outras funções ou classes. Isto permite uma grande variedade de opções ao definir e chamar funções num programa."
+  "concept:function-arguments:blurb": "O Python suporta argumentos de função posicionais, nomeados, variádicos posicionais, variádicos nomeados e com valores predefinidos. Os tipos de argumento podem ser qualquer objeto válido do Python, incluindo outras funções ou classes. Isto permite uma grande variedade de opções ao definir e chamar funções num programa.",
+  "exercise:nucleotide-count:name": "Contagem de nucleótidos",
+  "exercise:parallel-letter-frequency:name": "Frequência de letras em paralelo",
+  "exercise:nucleotide-count:blurb": "Dada uma string de ADN, calcula quantas vezes cada nucleótido ocorre na string.",
+  "exercise:nucleotide-count:source": "O problema Calculating DNA Nucleotides na Rosalind",
+  "exercise:parallel-letter-frequency:blurb": "Conta a frequência das letras em textos recorrendo a computação paralela."
 }

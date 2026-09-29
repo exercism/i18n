@@ -590,5 +590,10 @@
   "concept:generators:name": "المولّدات",
   "concept:itertools:name": "Itertools",
   "concept:list-methods:name": "طُرق المصفوفات",
-  "concept:memoryview:name": "Memoryview"
+  "concept:memoryview:name": "Memoryview",
+  "exercise:nucleotide-count:name": "عدّ النوكليوتيدات",
+  "exercise:parallel-letter-frequency:name": "تكرار الحروف بالتوازي",
+  "exercise:nucleotide-count:blurb": "بالنظر إلى سلسلة نصية من DNA، احسب عدد مرات ظهور كل نوكليوتيدة فيها.",
+  "exercise:nucleotide-count:source": "The Calculating DNA Nucleotides_problem في Rosalind",
+  "exercise:parallel-letter-frequency:blurb": "احسب تكرار الحروف في النصوص باستخدام الحوسبة المتوازية."
 }

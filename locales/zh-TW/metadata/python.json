@@ -590,5 +590,10 @@
   "doc:resources:title": "實用的 Python 資源",
   "doc:resources:blurb": "一系列實用資源，幫助你精通 Python。",
   "doc:tools:title": "本機開發的實用工具",
-  "doc:tools:blurb": "能在自己的電腦上開發 Python Exercism 程式碼的實用工具。"
+  "doc:tools:blurb": "能在自己的電腦上開發 Python Exercism 程式碼的實用工具。",
+  "exercise:nucleotide-count:name": "核苷酸計數",
+  "exercise:parallel-letter-frequency:name": "平行字母頻率",
+  "exercise:nucleotide-count:blurb": "給定一段 DNA 字串，計算每個核苷酸在字串中出現的次數。",
+  "exercise:nucleotide-count:source": "Rosalind 上的 The Calculating DNA Nucleotides 問題",
+  "exercise:parallel-letter-frequency:blurb": "使用平行運算計算文本中字母出現的頻率。"
 }
