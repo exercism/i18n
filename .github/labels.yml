@@ -192,3 +192,7 @@
 - name: "sweep"
   description: "The reconciliation sweep's standing summary of what is still untranslated"
   color: "0e8a16"
+
+- name: "catch-up"
+  description: "A source repo the hourly catch-up could not finish translating"
+  color: "d93f0b"
