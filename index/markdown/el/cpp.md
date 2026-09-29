@@ -515,8 +515,10 @@ This page is generated from [the index](../../json/el/cpp.json) by `scripts/buil
 
 ### Classes (Κλάσεις)
 
-- `introduction.md` ([English](https://github.com/exercism/cpp/blob/main/concepts/classes/introduction.md)): [Latest](../../../locales/el/content/e9/a9/57bc5bd36a70927fed00848174dd4302e2da.md)
-- `about.md` ([English](https://github.com/exercism/cpp/blob/main/concepts/classes/about.md)): [Latest](../../../locales/el/content/bb/94/b03344f31403c841c5935ab894881e188be0.md)
+- `introduction.md` ([English](https://github.com/exercism/cpp/blob/main/concepts/classes/introduction.md)): [Latest](../../../locales/el/content/f8/5c/9ea43cea3d1363350fbc1098afe9b13c2457.md)
+  - [`e9a957bc5b`](../../../locales/el/content/e9/a9/57bc5bd36a70927fed00848174dd4302e2da.md)
+- `about.md` ([English](https://github.com/exercism/cpp/blob/main/concepts/classes/about.md)): [Latest](../../../locales/el/content/a9/55/f486c4d296c0601002297b103ff558df9664.md)
+  - [`bb94b03344`](../../../locales/el/content/bb/94/b03344f31403c841c5935ab894881e188be0.md)
 
 ### Comparisons (Συγκρίσεις)
 
