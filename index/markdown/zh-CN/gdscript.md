@@ -156,11 +156,13 @@ This page is generated from [the index](../../json/zh-CN/gdscript.json) by `scri
 
 ### ABOUT.md
 
-- `ABOUT.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/ABOUT.md)): [Latest](../../../locales/zh-CN/content/7e/f4/90acc4c3ba3df784aac8b6f84df60e62ad64.md)
+- `ABOUT.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/ABOUT.md)): [Latest](../../../locales/zh-CN/content/49/3d/25b877124188e890c2d1e5fc212d6084d341.md)
+  - [`7ef490acc4`](../../../locales/zh-CN/content/7e/f4/90acc4c3ba3df784aac8b6f84df60e62ad64.md)
 
 ### How to learn GDScript (如何学习 GDScript)
 
-- `LEARNING.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/LEARNING.md)): [Latest](../../../locales/zh-CN/content/8b/41/52022fa497c704650fa3031e9872be2f1413.md)
+- `LEARNING.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/LEARNING.md)): [Latest](../../../locales/zh-CN/content/a5/93/e01a01683db43e36cba712d2d2e4ec9b5d29.md)
+  - [`8b4152022f`](../../../locales/zh-CN/content/8b/41/52022fa497c704650fa3031e9872be2f1413.md)
 
 ### Installing GDScript locally (在本地安装 GDScript)
 
@@ -172,7 +174,8 @@ This page is generated from [the index](../../json/zh-CN/gdscript.json) by `scri
 
 ### Useful GDScript resources (实用的 GDScript 资源)
 
-- `RESOURCES.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/zh-CN/content/d8/b3/a83b68e75f1f603986998bedb3d5eafd71b8.md)
+- `RESOURCES.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/zh-CN/content/b0/27/66018521635221aea3514ddfeeebc98744fa.md)
+  - [`d8b3a83b68`](../../../locales/zh-CN/content/d8/b3/a83b68e75f1f603986998bedb3d5eafd71b8.md)
 
 ## Shared exercise docs
 
