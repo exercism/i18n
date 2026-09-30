@@ -440,7 +440,8 @@ This page is generated from [the index](../../json/fa/cpp.json) by `scripts/buil
 ### lasagna-master (استاد لازانیا)
 
 - `instructions.md` ([English](https://github.com/exercism/cpp/blob/main/exercises/concept/lasagna-master/.docs/instructions.md)): [Latest](../../../locales/fa/content/9d/2e/08a22d14a9a9784a078ccebea5a97a929d8b.md)
-- `introduction.md` ([English](https://github.com/exercism/cpp/blob/main/exercises/concept/lasagna-master/.docs/introduction.md)): [Latest](../../../locales/fa/content/76/d7/b31752868186e183178aff9ce05547e6a28c.md)
+- `introduction.md` ([English](https://github.com/exercism/cpp/blob/main/exercises/concept/lasagna-master/.docs/introduction.md)): [Latest](../../../locales/fa/content/c1/d0/ce4abd16597cd0cc2f0a9683654cb92f1684.md)
+  - [`76d7b31752`](../../../locales/fa/content/76/d7/b31752868186e183178aff9ce05547e6a28c.md)
 - `hints.md` ([English](https://github.com/exercism/cpp/blob/main/exercises/concept/lasagna-master/.docs/hints.md)): [Latest](../../../locales/fa/content/c6/d7/fc7ee18a17acb3bd48e5a554533ac351d1f5.md)
 
 ### Last Will (وصیت‌نامه)
@@ -457,7 +458,8 @@ This page is generated from [the index](../../json/fa/cpp.json) by `scripts/buil
 
 ### Making the Grade (نمره گرفتن)
 
-- `instructions.md` ([English](https://github.com/exercism/cpp/blob/main/exercises/concept/making-the-grade/.docs/instructions.md)): [Latest](../../../locales/fa/content/05/86/89ac9726f1cce62a6c1b9113d7d6a46cd92d.md)
+- `instructions.md` ([English](https://github.com/exercism/cpp/blob/main/exercises/concept/making-the-grade/.docs/instructions.md)): [Latest](../../../locales/fa/content/87/09/09f0ff335ad8271487edb1bcc96e7424386c.md)
+  - [`058689ac97`](../../../locales/fa/content/05/86/89ac9726f1cce62a6c1b9113d7d6a46cd92d.md)
 - `introduction.md` ([English](https://github.com/exercism/cpp/blob/main/exercises/concept/making-the-grade/.docs/introduction.md)): [Latest](../../../locales/fa/content/ca/b5/3d3f1e03f5e48bbe367f0e5136e728bc4e4a.md)
 - `hints.md` ([English](https://github.com/exercism/cpp/blob/main/exercises/concept/making-the-grade/.docs/hints.md)): [Latest](../../../locales/fa/content/08/cc/bebe9104097d6d5436e9dc37a2c1d181ea84.md)
 
