@@ -1,0 +1,19 @@
+# Installazione
+
+Il [Godot Engine][godot-engine] viene usato per eseguire codice GDScript.
+Il Godot Engine funziona su Windows, Linux, macOS ed Android.
+
+
+
+## Installare Godot Engine
+
+Il Godot Engine può essere scaricato direttamente dal [sito di Godot Engine][godot-engine].
+Il download contiene un singolo eseguibile, il cui nome riporta la versione di Godot Engine.
+Questo file deve essere rinominato `godot` e collocato in una delle directory di `$PATH`.
+Dopo aver completato l'installazione, puoi verificare che la CLI sia stata installata correttamente eseguendo questo comando in un terminale:
+
+```bash
+godot --version
+```
+
+Questo track usa Godot versione 4.7.2.

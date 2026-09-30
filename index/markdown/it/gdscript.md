@@ -155,26 +155,28 @@ This page is generated from [the index](../../json/it/gdscript.json) by `scripts
 
 ### ABOUT.md
 
-- `ABOUT.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/ABOUT.md)): [Latest](../../../locales/it/content/49/3d/25b877124188e890c2d1e5fc212d6084d341.md)
-  - [`7ef490acc4`](../../../locales/it/content/7e/f4/90acc4c3ba3df784aac8b6f84df60e62ad64.md)
+- `ABOUT.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/ABOUT.md)): [Latest](../../../locales/it/content/7e/f4/90acc4c3ba3df784aac8b6f84df60e62ad64.md)
+  - [`493d25b877`](../../../locales/it/content/49/3d/25b877124188e890c2d1e5fc212d6084d341.md)
 
 ### How to learn GDScript (Come imparare GDScript)
 
-- `LEARNING.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/LEARNING.md)): [Latest](../../../locales/it/content/a5/93/e01a01683db43e36cba712d2d2e4ec9b5d29.md)
-  - [`8b4152022f`](../../../locales/it/content/8b/41/52022fa497c704650fa3031e9872be2f1413.md)
+- `LEARNING.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/LEARNING.md)): [Latest](../../../locales/it/content/8b/41/52022fa497c704650fa3031e9872be2f1413.md)
+  - [`a593e01a01`](../../../locales/it/content/a5/93/e01a01683db43e36cba712d2d2e4ec9b5d29.md)
 
 ### Installing GDScript locally (Installare GDScript in locale)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/it/content/43/5c/67e3c0809614be9bfc28abaa223f1c9ad166.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/it/content/a9/2c/ec1dd35597abd59eeb4a43e313bc4a0c3fbe.md)
+  - [`435c67e3c0`](../../../locales/it/content/43/5c/67e3c0809614be9bfc28abaa223f1c9ad166.md)
 
 ### Testing on the GDScript track (Testare nel track GDScript)
 
-- `TESTS.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/TESTS.md)): [Latest](../../../locales/it/content/a5/22/f64d386d862ae55a118074261dc4a9b47e6f.md)
+- `TESTS.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/TESTS.md)): [Latest](../../../locales/it/content/9e/68/c6bc998299fd489c694fb879f535acab6d3f.md)
+  - [`a522f64d38`](../../../locales/it/content/a5/22/f64d386d862ae55a118074261dc4a9b47e6f.md)
 
 ### Useful GDScript resources (Risorse utili su GDScript)
 
-- `RESOURCES.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/it/content/b0/27/66018521635221aea3514ddfeeebc98744fa.md)
-  - [`d8b3a83b68`](../../../locales/it/content/d8/b3/a83b68e75f1f603986998bedb3d5eafd71b8.md)
+- `RESOURCES.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/it/content/d8/b3/a83b68e75f1f603986998bedb3d5eafd71b8.md)
+  - [`b027660185`](../../../locales/it/content/b0/27/66018521635221aea3514ddfeeebc98744fa.md)
 
 ## Shared exercise docs
 

@@ -155,26 +155,28 @@ This page is generated from [the index](../../json/ko/gdscript.json) by `scripts
 
 ### ABOUT.md
 
-- `ABOUT.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/ABOUT.md)): [Latest](../../../locales/ko/content/49/3d/25b877124188e890c2d1e5fc212d6084d341.md)
-  - [`7ef490acc4`](../../../locales/ko/content/7e/f4/90acc4c3ba3df784aac8b6f84df60e62ad64.md)
+- `ABOUT.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/ABOUT.md)): [Latest](../../../locales/ko/content/7e/f4/90acc4c3ba3df784aac8b6f84df60e62ad64.md)
+  - [`493d25b877`](../../../locales/ko/content/49/3d/25b877124188e890c2d1e5fc212d6084d341.md)
 
 ### How to learn GDScript (GDScript 학습 방법)
 
-- `LEARNING.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/LEARNING.md)): [Latest](../../../locales/ko/content/a5/93/e01a01683db43e36cba712d2d2e4ec9b5d29.md)
-  - [`8b4152022f`](../../../locales/ko/content/8b/41/52022fa497c704650fa3031e9872be2f1413.md)
+- `LEARNING.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/LEARNING.md)): [Latest](../../../locales/ko/content/8b/41/52022fa497c704650fa3031e9872be2f1413.md)
+  - [`a593e01a01`](../../../locales/ko/content/a5/93/e01a01683db43e36cba712d2d2e4ec9b5d29.md)
 
 ### Installing GDScript locally (GDScript 로컬 설치)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/ko/content/43/5c/67e3c0809614be9bfc28abaa223f1c9ad166.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/ko/content/a9/2c/ec1dd35597abd59eeb4a43e313bc4a0c3fbe.md)
+  - [`435c67e3c0`](../../../locales/ko/content/43/5c/67e3c0809614be9bfc28abaa223f1c9ad166.md)
 
 ### Testing on the GDScript track (GDScript 트랙에서 테스트하기)
 
-- `TESTS.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/TESTS.md)): [Latest](../../../locales/ko/content/a5/22/f64d386d862ae55a118074261dc4a9b47e6f.md)
+- `TESTS.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/TESTS.md)): [Latest](../../../locales/ko/content/9e/68/c6bc998299fd489c694fb879f535acab6d3f.md)
+  - [`a522f64d38`](../../../locales/ko/content/a5/22/f64d386d862ae55a118074261dc4a9b47e6f.md)
 
 ### Useful GDScript resources (유용한 GDScript 자료)
 
-- `RESOURCES.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/ko/content/b0/27/66018521635221aea3514ddfeeebc98744fa.md)
-  - [`d8b3a83b68`](../../../locales/ko/content/d8/b3/a83b68e75f1f603986998bedb3d5eafd71b8.md)
+- `RESOURCES.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/ko/content/d8/b3/a83b68e75f1f603986998bedb3d5eafd71b8.md)
+  - [`b027660185`](../../../locales/ko/content/b0/27/66018521635221aea3514ddfeeebc98744fa.md)
 
 ## Shared exercise docs
 

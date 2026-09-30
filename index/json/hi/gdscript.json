@@ -39,11 +39,11 @@
     "exercises/practice/two-fer": {"en":"Two Fer","hi":"Two Fer"}
   },
   "paths": {
-    "docs/ABOUT.md": ["493d25b877124188e890c2d1e5fc212d6084d341","7ef490acc4c3ba3df784aac8b6f84df60e62ad64"],
-    "docs/INSTALLATION.md": ["435c67e3c0809614be9bfc28abaa223f1c9ad166"],
-    "docs/LEARNING.md": ["a593e01a01683db43e36cba712d2d2e4ec9b5d29","8b4152022fa497c704650fa3031e9872be2f1413"],
-    "docs/RESOURCES.md": ["b02766018521635221aea3514ddfeeebc98744fa","d8b3a83b68e75f1f603986998bedb3d5eafd71b8"],
-    "docs/TESTS.md": ["a522f64d386d862ae55a118074261dc4a9b47e6f"],
+    "docs/ABOUT.md": ["7ef490acc4c3ba3df784aac8b6f84df60e62ad64","493d25b877124188e890c2d1e5fc212d6084d341"],
+    "docs/INSTALLATION.md": ["a92cec1dd35597abd59eeb4a43e313bc4a0c3fbe","435c67e3c0809614be9bfc28abaa223f1c9ad166"],
+    "docs/LEARNING.md": ["8b4152022fa497c704650fa3031e9872be2f1413","a593e01a01683db43e36cba712d2d2e4ec9b5d29"],
+    "docs/RESOURCES.md": ["d8b3a83b68e75f1f603986998bedb3d5eafd71b8","b02766018521635221aea3514ddfeeebc98744fa"],
+    "docs/TESTS.md": ["9e68c6bc998299fd489c694fb879f535acab6d3f","a522f64d386d862ae55a118074261dc4a9b47e6f"],
     "exercises/practice/allergies/.docs/instructions.md": ["daf8cfde214667c949800c801fafecaa053efa0e"],
     "exercises/practice/anagram/.docs/instructions.md": ["dca24f52627e3ba6b999322fb89d8c686c3ec634","7d1c8283ef9284e827fabb92d8ae88f0cc8428b1"],
     "exercises/practice/anagram/.docs/introduction.md": ["1acbdf00b059f44fb4ce4c00be743d24eda86d60"],

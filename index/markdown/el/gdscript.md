@@ -168,32 +168,34 @@ This page is generated from [the index](../../json/el/gdscript.json) by `scripts
 
 ### ABOUT.md
 
-- `ABOUT.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/ABOUT.md)): [Latest](../../../locales/el/content/49/3d/25b877124188e890c2d1e5fc212d6084d341.md)
-  - [`7ef490acc4`](../../../locales/el/content/7e/f4/90acc4c3ba3df784aac8b6f84df60e62ad64.md)
+- `ABOUT.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/ABOUT.md)): [Latest](../../../locales/el/content/7e/f4/90acc4c3ba3df784aac8b6f84df60e62ad64.md)
+  - [`493d25b877`](../../../locales/el/content/49/3d/25b877124188e890c2d1e5fc212d6084d341.md)
   - [`9864ed0030`](../../../locales/el/content/98/64/ed00303fd196319f4058cddc6994eaed0a14.md)
 
 ### How to learn GDScript (Πώς να μάθεις GDScript)
 
-- `LEARNING.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/LEARNING.md)): [Latest](../../../locales/el/content/a5/93/e01a01683db43e36cba712d2d2e4ec9b5d29.md)
-  - [`8b4152022f`](../../../locales/el/content/8b/41/52022fa497c704650fa3031e9872be2f1413.md)
+- `LEARNING.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/LEARNING.md)): [Latest](../../../locales/el/content/8b/41/52022fa497c704650fa3031e9872be2f1413.md)
+  - [`a593e01a01`](../../../locales/el/content/a5/93/e01a01683db43e36cba712d2d2e4ec9b5d29.md)
   - [`b14434dc01`](../../../locales/el/content/b1/44/34dc01362de2abac1b97d0cc6b759d3a2c8b.md)
 
 ### Installing GDScript locally (Εγκατάσταση της GDScript τοπικά)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/el/content/43/5c/67e3c0809614be9bfc28abaa223f1c9ad166.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/el/content/a9/2c/ec1dd35597abd59eeb4a43e313bc4a0c3fbe.md)
+  - [`435c67e3c0`](../../../locales/el/content/43/5c/67e3c0809614be9bfc28abaa223f1c9ad166.md)
   - [`cd6ce8521d`](../../../locales/el/content/cd/6c/e8521d1baba7dc72cdaf56a8a9eb3cb23882.md)
   - [`bc2f38a184`](../../../locales/el/content/bc/2f/38a184cd5edd21df356dfd78764a7a232520.md)
 
 ### Testing on the GDScript track (Δοκιμές στη διαδρομή GDScript)
 
-- `TESTS.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/TESTS.md)): [Latest](../../../locales/el/content/a5/22/f64d386d862ae55a118074261dc4a9b47e6f.md)
+- `TESTS.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/TESTS.md)): [Latest](../../../locales/el/content/9e/68/c6bc998299fd489c694fb879f535acab6d3f.md)
+  - [`a522f64d38`](../../../locales/el/content/a5/22/f64d386d862ae55a118074261dc4a9b47e6f.md)
   - [`bec9502b89`](../../../locales/el/content/be/c9/502b8987111c0315223e21e299485767937f.md)
   - [`5ff4b1db45`](../../../locales/el/content/5f/f4/b1db4517e481e4740ebf7d8fe4970dca4612.md)
 
 ### Useful GDScript resources (Χρήσιμοι πόροι για την GDScript)
 
-- `RESOURCES.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/el/content/b0/27/66018521635221aea3514ddfeeebc98744fa.md)
-  - [`d8b3a83b68`](../../../locales/el/content/d8/b3/a83b68e75f1f603986998bedb3d5eafd71b8.md)
+- `RESOURCES.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/el/content/d8/b3/a83b68e75f1f603986998bedb3d5eafd71b8.md)
+  - [`b027660185`](../../../locales/el/content/b0/27/66018521635221aea3514ddfeeebc98744fa.md)
 
 ## Shared exercise docs
 

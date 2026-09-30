@@ -1,0 +1,19 @@
+# 설치
+
+[Godot Engine][godot-engine]은 GDScript 코드를 실행하는 데 사용돼요.
+Windows, Linux, macOS, Android에서 실행돼요.
+
+
+
+## Godot Engine 설치하기
+
+[Godot Engine 웹사이트][godot-engine]에서 바로 내려받을 수 있어요.
+내려받은 파일에는 이름에 Godot Engine 버전이 들어간 실행 파일 하나가 들어 있어요.
+이 파일의 이름을 `godot`로 바꾸고, `$PATH` 디렉터리 중 하나에 넣어야 해요.
+설치를 마친 뒤에는 터미널에서 다음 명령을 실행해 CLI가 제대로 설치됐는지 확인할 수 있어요.
+
+```bash
+godot --version
+```
+
+이 트랙은 Godot 4.7.2 버전을 사용해요.
