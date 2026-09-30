@@ -156,13 +156,13 @@ This page is generated from [the index](../../json/hi/gdscript.json) by `scripts
 
 ### ABOUT.md
 
-- `ABOUT.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/ABOUT.md)): [Latest](../../../locales/hi/content/7e/f4/90acc4c3ba3df784aac8b6f84df60e62ad64.md)
-  - [`493d25b877`](../../../locales/hi/content/49/3d/25b877124188e890c2d1e5fc212d6084d341.md)
+- `ABOUT.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/ABOUT.md)): [Latest](../../../locales/hi/content/49/3d/25b877124188e890c2d1e5fc212d6084d341.md)
+  - [`7ef490acc4`](../../../locales/hi/content/7e/f4/90acc4c3ba3df784aac8b6f84df60e62ad64.md)
 
 ### How to learn GDScript (GDScript सीखने का तरीका)
 
-- `LEARNING.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/LEARNING.md)): [Latest](../../../locales/hi/content/8b/41/52022fa497c704650fa3031e9872be2f1413.md)
-  - [`a593e01a01`](../../../locales/hi/content/a5/93/e01a01683db43e36cba712d2d2e4ec9b5d29.md)
+- `LEARNING.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/LEARNING.md)): [Latest](../../../locales/hi/content/a5/93/e01a01683db43e36cba712d2d2e4ec9b5d29.md)
+  - [`8b4152022f`](../../../locales/hi/content/8b/41/52022fa497c704650fa3031e9872be2f1413.md)
 
 ### Installing GDScript locally (GDScript को अपने कंप्यूटर पर इंस्टॉल कीजिए)
 
@@ -171,13 +171,14 @@ This page is generated from [the index](../../json/hi/gdscript.json) by `scripts
 
 ### Testing on the GDScript track (GDScript ट्रैक पर टेस्टिंग)
 
-- `TESTS.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/TESTS.md)): [Latest](../../../locales/hi/content/9e/68/c6bc998299fd489c694fb879f535acab6d3f.md)
+- `TESTS.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/TESTS.md)): [Latest](../../../locales/hi/content/00/3b/b93b0415040f7159740cd51811517e19852d.md)
+  - [`9e68c6bc99`](../../../locales/hi/content/9e/68/c6bc998299fd489c694fb879f535acab6d3f.md)
   - [`a522f64d38`](../../../locales/hi/content/a5/22/f64d386d862ae55a118074261dc4a9b47e6f.md)
 
 ### Useful GDScript resources (उपयोगी GDScript संसाधन)
 
-- `RESOURCES.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/hi/content/d8/b3/a83b68e75f1f603986998bedb3d5eafd71b8.md)
-  - [`b027660185`](../../../locales/hi/content/b0/27/66018521635221aea3514ddfeeebc98744fa.md)
+- `RESOURCES.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/hi/content/b0/27/66018521635221aea3514ddfeeebc98744fa.md)
+  - [`d8b3a83b68`](../../../locales/hi/content/d8/b3/a83b68e75f1f603986998bedb3d5eafd71b8.md)
 
 ## Shared exercise docs
 
