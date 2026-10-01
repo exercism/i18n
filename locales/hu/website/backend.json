@@ -4274,8 +4274,8 @@
           "other": "%{formatted_count} PR átnézve és/vagy mergelve"
         },
         "authoring": {
-          "one": "%{formatted_count} feladat-hozzájárulás",
-          "other": "%{formatted_count} feladat-hozzájárulás"
+          "one": "%{formatted_count} feladat-közreműködés",
+          "other": "%{formatted_count} feladat-közreműködés"
         },
         "mentoring": {
           "one": "%{formatted_count} mentorált megoldás",
