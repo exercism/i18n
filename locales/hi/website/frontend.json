@@ -1173,7 +1173,7 @@
     "conceptsLearntSummary.conceptsLearnt": "कॉन्सेप्ट सीखे",
     "headerSummary.youVeProgressed": "आपने सबसे ज़्यादा प्रगति की है ",
     "learningStats.didYouKnow": "क्या आप जानते हैं?",
-    "learningStats.linesOfCodeStat": "आपने <link>{{solutions}}</link> में <strong>{{lines}}</strong> कोड लिखा है।",
+    "learningStats.linesOfCodeStat": "आपने <link>{{numSolutions}} {{solutionLabel}}</link> में <strong>{{numLines}} {{lineLabel}}</strong> कोड लिखा है।",
     "learningStats.aesopFact": "यह लगभग एक <fableLink>ईसप की कहानी</fableLink> की लंबाई के बराबर है!",
     "tracksEnrolledSummary.tracksEnrolled_one": "ट्रैक जॉइन किया",
     "tracksEnrolledSummary.tracksEnrolled_other": "ट्रैक जॉइन किए",
@@ -2197,7 +2197,7 @@
     "userTooltip.unableToLoadUser": "उपयोगकर्ता लोड नहीं हो सका"
   },
   "components/track/activity-ticker": {
-    "publishedSolutionLink.newSolution": "<0>नया हल</0>",
+    "publishedSolutionLink.newSolution": "<0>नया हल</0> के लिए ",
     "handle.someoneInCountry": "{{countryName}} में कोई",
     "handle.someone": "कोई",
     "userAvatar.userAvatar": "{{handle}} का अवतार",
@@ -2551,7 +2551,7 @@
     "testRunSummaryByStatusHeaderMessage.testFailure": "टेस्ट फेल हुआ",
     "testRunSummaryByStatusHeaderMessage.testFailures": "टेस्ट फेल हुए",
     "testRunSummaryByStatusHeaderMessage.testsFailed": "टेस्ट फेल हुए",
-    "testsGroupedByTaskList.task": "कार्य {{id}}",
+    "testsGroupedByTaskList.task": "कार्य",
     "testsGroupedByTaskList.jumpToInstructions": "निर्देशों पर जाएँ",
     "testSummary.passed": "पास",
     "testSummary.failed": "फेल",

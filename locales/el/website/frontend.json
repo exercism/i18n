@@ -245,7 +245,7 @@
     "testRunSummaryByStatusHeaderMessage.testFailure": "αποτυχία δοκιμής",
     "testRunSummaryByStatusHeaderMessage.testFailures": "αποτυχίες δοκιμών",
     "testRunSummaryByStatusHeaderMessage.testsFailed": "Οι δοκιμές απέτυχαν",
-    "testsGroupedByTaskList.task": "Εργασία {{id}}",
+    "testsGroupedByTaskList.task": "Εργασία",
     "testsGroupedByTaskList.jumpToInstructions": "Μετάβαση στις οδηγίες",
     "testSummary.passed": "Επιτυχία",
     "testSummary.failed": "Αποτυχία",
@@ -416,7 +416,7 @@
     "conceptsLearntSummary.conceptsLearnt": "Έννοιες που έμαθες",
     "headerSummary.youVeProgressed": "Έχεις προχωρήσει περισσότερο σε ",
     "learningStats.didYouKnow": "Το ήξερες;",
-    "learningStats.linesOfCodeStat": "Έχεις γράψει <strong>{{lines}}</strong> κώδικα σε <link>{{solutions}}</link>.",
+    "learningStats.linesOfCodeStat": "Έχεις γράψει <strong>{{numLines}} {{lineLabel}}</strong> κώδικα σε <link>{{numSolutions}} {{solutionLabel}}</link>.",
     "learningStats.aesopFact": "Αυτό είναι περίπου όσο το μήκος ενός <fableLink>Μύθου του Αισώπου!</fableLink>",
     "tracksEnrolledSummary.tracksEnrolled_one": "Εγγραφή σε track",
     "tracksEnrolledSummary.tracksEnrolled_other": "Εγγραφές σε track",
@@ -1727,7 +1727,7 @@
     "trackFilterList.unableToFetchTracks": "Δεν ήταν δυνατή η ανάκτηση των διαδρομών"
   },
   "components/track/activity-ticker": {
-    "publishedSolutionLink.newSolution": "<0>νέα λύση</0>",
+    "publishedSolutionLink.newSolution": "<0>νέα λύση</0> για ",
     "handle.someoneInCountry": "Κάποιος στη χώρα {{countryName}}",
     "handle.someone": "Κάποιος",
     "userAvatar.userAvatar": "avatar του χρήστη {{handle}}",

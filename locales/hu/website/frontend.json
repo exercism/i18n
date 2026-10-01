@@ -358,7 +358,7 @@
     "testRunSummaryByStatusHeaderMessage.testFailure": "sikertelen teszt",
     "testRunSummaryByStatusHeaderMessage.testFailures": "sikertelen teszt",
     "testRunSummaryByStatusHeaderMessage.testsFailed": "Sikertelen tesztek",
-    "testsGroupedByTaskList.task": "{{id}}. részfeladat",
+    "testsGroupedByTaskList.task": "Részfeladat",
     "testsGroupedByTaskList.jumpToInstructions": "Ugrás az utasításokhoz",
     "testSummary.passed": "Sikeres",
     "testSummary.failed": "Sikertelen",
@@ -872,7 +872,7 @@
     "conceptsLearntSummary.conceptsLearnt": "Megtanult fogalmak",
     "headerSummary.youVeProgressed": "A legmesszebbre a következőben jutottál: ",
     "learningStats.didYouKnow": "Tudtad?",
-    "learningStats.linesOfCodeStat": "Összesen <strong>{{lines}}</strong> kódot írtál <link>{{solutions}}</link> során.",
+    "learningStats.linesOfCodeStat": "Összesen <strong>{{numLines}} {{lineLabel}}</strong> kódot írtál <link>{{numSolutions}} {{solutionLabel}}</link> során.",
     "learningStats.aesopFact": "Ez nagyjából egy <fableLink>Aiszóposz-mese</fableLink> hosszának felel meg!",
     "tracksEnrolledSummary.tracksEnrolled_one": "Csatlakozott kurzus",
     "tracksEnrolledSummary.tracksEnrolled_other": "Csatlakozott kurzusok",
@@ -1985,7 +1985,7 @@
     "summary.workingOn": "Ebben a feladatban a következő a teendőd: {{verb}} {{module}} {{type}}{{trackSuffix}}."
   },
   "components/track/activity-ticker": {
-    "publishedSolutionLink.newSolution": "<0>új megoldás</0>",
+    "publishedSolutionLink.newSolution": "<0>új megoldás</0>: ",
     "handle.someoneInCountry": "Valaki a(z) {{countryName}} országból",
     "handle.someone": "Valaki",
     "userAvatar.userAvatar": "{{handle}} profilképe",

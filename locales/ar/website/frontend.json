@@ -363,7 +363,7 @@
     "userTooltip.unableToLoadUser": "تعذّر تحميل المستخدم"
   },
   "components/track/activity-ticker": {
-    "publishedSolutionLink.newSolution": "<0>حل جديد</0>",
+    "publishedSolutionLink.newSolution": "<0>حل جديد</0> لـ ",
     "handle.someoneInCountry": "شخص ما في {{countryName}}",
     "handle.someone": "شخص ما",
     "userAvatar.userAvatar": "صورة {{handle}} الرمزية",
@@ -1505,7 +1505,7 @@
     "testRunSummaryByStatusHeaderMessage.testFailure": "فشل اختبار",
     "testRunSummaryByStatusHeaderMessage.testFailures": "اختبارات فاشلة",
     "testRunSummaryByStatusHeaderMessage.testsFailed": "فشلت الاختبارات",
-    "testsGroupedByTaskList.task": "مهمة {{id}}",
+    "testsGroupedByTaskList.task": "مهمة",
     "testsGroupedByTaskList.jumpToInstructions": "الانتقال إلى التعليمات",
     "testSummary.passed": "ناجح",
     "testSummary.failed": "فاشل",
@@ -1844,7 +1844,7 @@
     "conceptsLearntSummary.conceptsLearnt": "مفاهيم متعلَّمة",
     "headerSummary.youVeProgressed": "لقد أحرزت أكبر تقدّم في ",
     "learningStats.didYouKnow": "هل تعلم؟",
-    "learningStats.linesOfCodeStat": "لقد كتبت <strong>{{lines}}</strong> من الكود في <link>{{solutions}}</link>.",
+    "learningStats.linesOfCodeStat": "لقد كتبت <strong>{{numLines}} {{lineLabel}}</strong> من الكود في <link>{{numSolutions}} {{solutionLabel}}</link>.",
     "learningStats.aesopFact": "وهذا يعادل تقريبًا طول <fableLink>إحدى خرافات إيسوب!</fableLink>",
     "trackSummary.exercisesCompleted": "تم إكمال {{completed}} / {{total}} ({{percent}}%) من التمارين",
     "trackSummary.joinedTrack": "عندما انضممت إلى مسار {{title}}",

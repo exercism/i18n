@@ -1442,7 +1442,7 @@
     "conceptsLearntSummary.conceptsLearnt": "已學會的概念",
     "headerSummary.youVeProgressed": "你進步最多的是 ",
     "learningStats.didYouKnow": "你知道嗎？",
-    "learningStats.linesOfCodeStat": "你已經在<link>{{solutions}}</link>中寫了<strong>{{lines}}</strong>的程式碼。",
+    "learningStats.linesOfCodeStat": "你已經在<link>{{numSolutions}} {{solutionLabel}}</link>中寫了<strong>{{numLines}} {{lineLabel}}</strong>的程式碼。",
     "learningStats.aesopFact": "這大約相當於一篇<fableLink>伊索寓言</fableLink>的長度！",
     "tracksEnrolledSummary.tracksEnrolled_other": "已加入的軌道",
     "trackSummary.exercisesCompleted": "已完成 {{completed}} / {{total}}（{{percent}}%）的練習",
@@ -1843,7 +1843,7 @@
     "testRunSummaryByStatusHeaderMessage.testFailure": "測試失敗",
     "testRunSummaryByStatusHeaderMessage.testFailures": "測試失敗",
     "testRunSummaryByStatusHeaderMessage.testsFailed": "測試失敗",
-    "testsGroupedByTaskList.task": "任務 {{id}}",
+    "testsGroupedByTaskList.task": "任務",
     "testsGroupedByTaskList.jumpToInstructions": "跳至說明",
     "testSummary.passed": "通過",
     "testSummary.failed": "失敗",
@@ -2331,7 +2331,7 @@
     "userTooltip.unableToLoadUser": "無法載入使用者"
   },
   "components/track/activity-ticker": {
-    "publishedSolutionLink.newSolution": "<0>新的解法</0>",
+    "publishedSolutionLink.newSolution": "<0>新的解法</0>，適用於 ",
     "handle.someoneInCountry": "來自 {{countryName}} 的某個人",
     "handle.someone": "某個人",
     "userAvatar.userAvatar": "{{handle}} 的頭像",

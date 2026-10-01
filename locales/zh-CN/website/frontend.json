@@ -952,7 +952,7 @@
     "testRunSummaryByStatusHeaderMessage.testFailure": "测试失败",
     "testRunSummaryByStatusHeaderMessage.testFailures": "测试失败",
     "testRunSummaryByStatusHeaderMessage.testsFailed": "测试失败",
-    "testsGroupedByTaskList.task": "任务 {{id}}",
+    "testsGroupedByTaskList.task": "任务",
     "testsGroupedByTaskList.jumpToInstructions": "跳转到说明",
     "testSummary.passed": "通过",
     "testSummary.failed": "失败",
@@ -1167,7 +1167,7 @@
     "userTooltip.unableToLoadUser": "无法加载用户"
   },
   "components/track/activity-ticker": {
-    "publishedSolutionLink.newSolution": "<0>新提交的解答</0>",
+    "publishedSolutionLink.newSolution": "<0>新提交的解答</0>，属于 ",
     "handle.someoneInCountry": "来自{{countryName}}的某人",
     "handle.someone": "某人",
     "userAvatar.userAvatar": "{{handle}} 的头像",
@@ -1346,7 +1346,7 @@
     "conceptsLearntSummary.conceptsLearnt": "已学概念",
     "headerSummary.youVeProgressed": "你进步最大的是 ",
     "learningStats.didYouKnow": "你知道吗？",
-    "learningStats.linesOfCodeStat": "你在<link>{{solutions}}</link>中一共写了<strong>{{lines}}</strong>代码。",
+    "learningStats.linesOfCodeStat": "你在<link>{{numSolutions}} {{solutionLabel}}</link>中一共写了<strong>{{numLines}} {{lineLabel}}</strong>代码。",
     "learningStats.aesopFact": "这大约相当于一篇<fableLink>《伊索寓言》</fableLink>的长度！",
     "tracksEnrolledSummary.tracksEnrolled_other": "已加入的轨道",
     "trackSummary.exercisesCompleted": "已完成 {{completed}} / {{total}} 个练习（{{percent}}%）",
