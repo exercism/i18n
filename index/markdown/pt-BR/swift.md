@@ -517,7 +517,8 @@ This page is generated from [the index](../../json/pt-BR/swift.json) by `scripts
 
 ### Freelancer Rates (Tarifas de freelancer)
 
-- `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/freelancer-rates/.docs/instructions.md)): [Latest](../../../locales/pt-BR/content/60/d3/76a2e8df613e76db64860c011b2365ef36b9.md)
+- `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/freelancer-rates/.docs/instructions.md)): [Latest](../../../locales/pt-BR/content/52/1d/ab65184e5d7df59106394da804bc2edb86eb.md)
+  - [`60d376a2e8`](../../../locales/pt-BR/content/60/d3/76a2e8df613e76db64860c011b2365ef36b9.md)
 - `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/freelancer-rates/.docs/introduction.md)): [Latest](../../../locales/pt-BR/content/17/1c/c68f3162723617d93f362ecd2d22bfb6602b.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/freelancer-rates/.docs/hints.md)): [Latest](../../../locales/pt-BR/content/65/e2/2184fb49adbd4a20e90acc616ed393ec814d.md)
 
@@ -530,8 +531,8 @@ This page is generated from [the index](../../json/pt-BR/swift.json) by `scripts
 ### Lasagna Master (Mestre da lasanha)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/instructions.md)): [Latest](../../../locales/pt-BR/content/e7/be/156216e1bfe80505bfd12b3fd32d2216fff1.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/introduction.md)): [Latest](../../../locales/pt-BR/content/b7/6d/05faa716fdcf89ea70a93ed0944f5e6cacd6.md)
-  - [`2377faff06`](../../../locales/pt-BR/content/23/77/faff0684164dc4fcc00e56ddd9618faca817.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/introduction.md)): [Latest](../../../locales/pt-BR/content/23/77/faff0684164dc4fcc00e56ddd9618faca817.md)
+  - [`b76d05faa7`](../../../locales/pt-BR/content/b7/6d/05faa716fdcf89ea70a93ed0944f5e6cacd6.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/hints.md)): [Latest](../../../locales/pt-BR/content/58/5b/ba325cb63f84fb923ea554b22f1b5ec3c258.md)
 
 ### Layers of Lasagna (Camadas de Lasanha)
@@ -808,10 +809,10 @@ This page is generated from [the index](../../json/pt-BR/swift.json) by `scripts
 
 ### Variadic Parameters (Parâmetros variádicos)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/variadic-parameters/introduction.md)): [Latest](../../../locales/pt-BR/content/43/e9/afc725c0ada9e1f509b3c413b0814f4204c1.md)
-  - [`4bf66df021`](../../../locales/pt-BR/content/4b/f6/6df021d251fbfac633098de5d8247ce01f3c.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/variadic-parameters/about.md)): [Latest](../../../locales/pt-BR/content/18/30/641f6d0b3aa3e7b4bcdcab335d4eb1085e7b.md)
-  - [`565928b4c6`](../../../locales/pt-BR/content/56/59/28b4c6f664adc4ca19d84edee7e3b9c4bb35.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/variadic-parameters/introduction.md)): [Latest](../../../locales/pt-BR/content/4b/f6/6df021d251fbfac633098de5d8247ce01f3c.md)
+  - [`43e9afc725`](../../../locales/pt-BR/content/43/e9/afc725c0ada9e1f509b3c413b0814f4204c1.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/variadic-parameters/about.md)): [Latest](../../../locales/pt-BR/content/56/59/28b4c6f664adc4ca19d84edee7e3b9c4bb35.md)
+  - [`1830641f6d`](../../../locales/pt-BR/content/18/30/641f6d0b3aa3e7b4bcdcab335d4eb1085e7b.md)
 
 ### While and repeat loops (Laços while e repeat)
 
