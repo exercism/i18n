@@ -2957,7 +2957,7 @@
         "one": "1 kurzus",
         "other": "%{count} kurzus"
       },
-      "exercises_completed": "%{completed} / %{total} feladat elkészítve",
+      "exercises_completed": "%{completed} / %{total} feladat teljesítve",
       "view_all_tracks_link": "Az összes kurzusod megtekintése",
       "discover_more_tracks_link": "Fedezz fel több kurzust"
     },
