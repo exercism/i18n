@@ -752,7 +752,7 @@
     "conceptsLearntSummary.conceptsLearnt": "Konzepte gelernt",
     "headerSummary.youVeProgressed": "Du bist am weitesten fortgeschritten in ",
     "learningStats.didYouKnow": "Schon gewusst?",
-    "learningStats.linesOfCodeStat": "Du hast <strong>{{numLines}} {{lineLabel}}</strong> Code in <link>{{numSolutions}} {{solutionLabel}}</link> geschrieben.",
+    "learningStats.linesOfCodeStat": "Du hast <strong>{{lines}}</strong> Code in <link>{{solutions}}</link> geschrieben.",
     "learningStats.aesopFact": "Das entspricht ungefähr der Länge einer <fableLink>Äsop-Fabel!</fableLink>",
     "tracksEnrolledSummary.tracksEnrolled_one": "Eingeschriebener Track",
     "tracksEnrolledSummary.tracksEnrolled_other": "Eingeschriebene Tracks",
@@ -1211,7 +1211,7 @@
     "userTooltip.unableToLoadUser": "Benutzer kann nicht geladen werden"
   },
   "components/track/activity-ticker": {
-    "publishedSolutionLink.newSolution": "<0>neue Lösung</0> für ",
+    "publishedSolutionLink.newSolution": "<0>neue Lösung</0>",
     "handle.someoneInCountry": "Jemand in {{countryName}}",
     "handle.someone": "Jemand",
     "userAvatar.userAvatar": "Avatar von {{handle}}",
@@ -1830,7 +1830,7 @@
     "testRunSummaryByStatusHeaderMessage.testFailure": "fehlgeschlagener Test",
     "testRunSummaryByStatusHeaderMessage.testFailures": "fehlgeschlagene Tests",
     "testRunSummaryByStatusHeaderMessage.testsFailed": "Tests fehlgeschlagen",
-    "testsGroupedByTaskList.task": "Aufgabe",
+    "testsGroupedByTaskList.task": "Aufgabe {{id}}",
     "testsGroupedByTaskList.jumpToInstructions": "Zu den Anweisungen springen",
     "testSummary.passed": "Bestanden",
     "testSummary.failed": "Fehlgeschlagen",

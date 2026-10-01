@@ -840,7 +840,7 @@
     "conceptsLearntSummary.conceptsLearnt": "学習した概念",
     "headerSummary.youVeProgressed": "最も先に進んでいるのは、 ",
     "learningStats.didYouKnow": "知っていましたか？",
-    "learningStats.linesOfCodeStat": "<link>{{numSolutions}} {{solutionLabel}}</link>にわたって、<strong>{{numLines}} {{lineLabel}}</strong>のコードを書きました。",
+    "learningStats.linesOfCodeStat": "<link>{{solutions}}</link>にわたって、<strong>{{lines}}</strong>のコードを書きました。",
     "learningStats.aesopFact": "これはほぼ、<fableLink>イソップ寓話</fableLink>1編分の長さに相当します！",
     "tracksEnrolledSummary.tracksEnrolled_other": "参加したトラック",
     "trackSummary.exercisesCompleted": "{{completed}} / {{total}}（{{percent}}%）の演習を完了",
@@ -1509,7 +1509,7 @@
     "testRunSummaryByStatusHeaderMessage.testFailure": "テスト失敗",
     "testRunSummaryByStatusHeaderMessage.testFailures": "テスト失敗",
     "testRunSummaryByStatusHeaderMessage.testsFailed": "テストに失敗しました",
-    "testsGroupedByTaskList.task": "タスク",
+    "testsGroupedByTaskList.task": "タスク{{id}}",
     "testsGroupedByTaskList.jumpToInstructions": "説明に移動",
     "testSummary.passed": "合格",
     "testSummary.failed": "失敗",
@@ -2065,7 +2065,7 @@
     "userTooltip.unableToLoadUser": "ユーザーを読み込めません"
   },
   "components/track/activity-ticker": {
-    "publishedSolutionLink.newSolution": "<0>新しい解答</0>の ",
+    "publishedSolutionLink.newSolution": "<0>新しい解答</0>",
     "handle.someoneInCountry": "{{countryName}}の誰か",
     "handle.someone": "誰か",
     "userAvatar.userAvatar": "{{handle}}のアバター",

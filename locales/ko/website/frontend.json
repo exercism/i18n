@@ -1314,7 +1314,7 @@
     "conceptsLearntSummary.conceptsLearnt": "학습한 개념",
     "headerSummary.youVeProgressed": "가장 많이 진행한 트랙은 ",
     "learningStats.didYouKnow": "알고 있었어요?",
-    "learningStats.linesOfCodeStat": "지금까지 <link>{{numSolutions}} {{solutionLabel}}</link>에 걸쳐 <strong>{{numLines}} {{lineLabel}}</strong>의 코드를 작성했어요.",
+    "learningStats.linesOfCodeStat": "지금까지 <link>{{solutions}}</link>에 걸쳐 <strong>{{lines}}</strong>의 코드를 작성했어요.",
     "learningStats.aesopFact": "대략 <fableLink>이솝 우화</fableLink> 한 편 정도의 길이에요!",
     "tracksEnrolledSummary.tracksEnrolled_other": "참여한 트랙",
     "trackSummary.exercisesCompleted": "{{completed}} / {{total}} ({{percent}}%) 연습 문제 완료",
@@ -2002,7 +2002,7 @@
     "userTooltip.unableToLoadUser": "사용자를 불러올 수 없어요"
   },
   "components/track/activity-ticker": {
-    "publishedSolutionLink.newSolution": "<0>새 풀이</0>: ",
+    "publishedSolutionLink.newSolution": "<0>새 풀이</0>",
     "handle.someoneInCountry": "{{countryName}}에 있는 누군가",
     "handle.someone": "누군가",
     "userAvatar.userAvatar": "{{handle}}의 아바타",
@@ -2533,7 +2533,7 @@
     "testRunSummaryByStatusHeaderMessage.testFailure": "테스트 실패",
     "testRunSummaryByStatusHeaderMessage.testFailures": "테스트 실패",
     "testRunSummaryByStatusHeaderMessage.testsFailed": "테스트 실패",
-    "testsGroupedByTaskList.task": "작업",
+    "testsGroupedByTaskList.task": "작업 {{id}}",
     "testsGroupedByTaskList.jumpToInstructions": "문제 설명으로 이동",
     "testSummary.passed": "통과",
     "testSummary.failed": "실패",

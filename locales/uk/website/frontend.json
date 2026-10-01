@@ -315,7 +315,7 @@
     "userTooltip.unableToLoadUser": "Не вдалося завантажити користувача"
   },
   "components/track/activity-ticker": {
-    "publishedSolutionLink.newSolution": "<0>нове рішення</0> для ",
+    "publishedSolutionLink.newSolution": "<0>нове рішення</0>",
     "handle.someoneInCountry": "Хтось із країни {{countryName}}",
     "handle.someone": "Хтось",
     "userAvatar.userAvatar": "Аватар {{handle}}",
@@ -357,7 +357,7 @@
     "testRunSummaryByStatusHeaderMessage.testFailure": "збій тесту",
     "testRunSummaryByStatusHeaderMessage.testFailures": "збої тестів",
     "testRunSummaryByStatusHeaderMessage.testsFailed": "Тести не пройдено",
-    "testsGroupedByTaskList.task": "Завдання",
+    "testsGroupedByTaskList.task": "Завдання {{id}}",
     "testsGroupedByTaskList.jumpToInstructions": "Перейти до вказівок",
     "testSummary.passed": "Пройдено",
     "testSummary.failed": "Не пройдено",
@@ -1658,7 +1658,7 @@
     "conceptsLearntSummary.conceptsLearnt": "Засвоєні концепції",
     "headerSummary.youVeProgressed": "Найбільший прогрес у треку ",
     "learningStats.didYouKnow": "А чи знали?",
-    "learningStats.linesOfCodeStat": "У нас <strong>{{numLines}} {{lineLabel}}</strong> коду і <link>{{numSolutions}} {{solutionLabel}}</link>.",
+    "learningStats.linesOfCodeStat": "Ми написали <strong>{{lines}}</strong> коду в <link>{{solutions}}</link>.",
     "learningStats.aesopFact": "Це приблизно дорівнює довжині <fableLink>байки Езопа!</fableLink>",
     "tracksEnrolledSummary.tracksEnrolled_one": "Приєднаний трек",
     "tracksEnrolledSummary.tracksEnrolled_few": "Приєднані треки",

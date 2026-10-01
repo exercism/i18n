@@ -1367,7 +1367,7 @@
     "conceptsLearntSummary.conceptsLearnt": "مفاهیم آموخته‌شده",
     "headerSummary.youVeProgressed": "شما بیشترین پیشرفت را در ",
     "learningStats.didYouKnow": "می‌دانستید؟",
-    "learningStats.linesOfCodeStat": "شما <strong>{{numLines}} {{lineLabel}}</strong> کد را در <link>{{numSolutions}} {{solutionLabel}}</link> نوشته‌اید.",
+    "learningStats.linesOfCodeStat": "شما <strong>{{lines}}</strong> خط کد را در <link>{{solutions}}</link> نوشته‌اید.",
     "learningStats.aesopFact": "این تقریباً هم‌ارز طول <fableLink>افسانه‌ی ازوپ!</fableLink> است",
     "tracksEnrolledSummary.tracksEnrolled_one": "مسیر ثبت‌نام‌شده",
     "tracksEnrolledSummary.tracksEnrolled_other": "مسیرهای ثبت‌نام‌شده",
@@ -2165,7 +2165,7 @@
     "testRunSummaryByStatusHeaderMessage.testFailure": "test ناموفق",
     "testRunSummaryByStatusHeaderMessage.testFailures": "testهای ناموفق",
     "testRunSummaryByStatusHeaderMessage.testsFailed": "testها ناموفق بودند",
-    "testsGroupedByTaskList.task": "کار",
+    "testsGroupedByTaskList.task": "کار {{id}}",
     "testsGroupedByTaskList.jumpToInstructions": "پرش به دستورالعمل‌ها",
     "testSummary.passed": "موفق",
     "testSummary.failed": "ناموفق",
@@ -2261,7 +2261,7 @@
     "userTooltip.unableToLoadUser": "امکان بارگذاری کاربر وجود ندارد"
   },
   "components/track/activity-ticker": {
-    "publishedSolutionLink.newSolution": "<0>راه‌حل جدید</0> برای ",
+    "publishedSolutionLink.newSolution": "<0>راه‌حل جدید</0>",
     "handle.someoneInCountry": "یک نفر در {{countryName}}",
     "handle.someone": "یک نفر",
     "userAvatar.userAvatar": "آواتار {{handle}}",

@@ -337,7 +337,7 @@
     "testRunSummaryByStatusHeaderMessage.testFailure": "échec de test",
     "testRunSummaryByStatusHeaderMessage.testFailures": "échecs de test",
     "testRunSummaryByStatusHeaderMessage.testsFailed": "Tests échoués",
-    "testsGroupedByTaskList.task": "Tâche",
+    "testsGroupedByTaskList.task": "Tâche {{id}}",
     "testsGroupedByTaskList.jumpToInstructions": "Va aux instructions",
     "testSummary.passed": "Réussi",
     "testSummary.failed": "Échoué",
@@ -1263,7 +1263,7 @@
     "conceptsLearntSummary.conceptsLearnt": "Concepts appris",
     "headerSummary.youVeProgressed": "Tu as le plus progressé dans ",
     "learningStats.didYouKnow": "Le savais-tu ?",
-    "learningStats.linesOfCodeStat": "Tu as écrit <strong>{{numLines}} {{lineLabel}}</strong> de code dans <link>{{numSolutions}} {{solutionLabel}}</link>.",
+    "learningStats.linesOfCodeStat": "Tu as écrit <strong>{{lines}}</strong> de code dans <link>{{solutions}}</link>.",
     "learningStats.aesopFact": "C'est à peu près l'équivalent de la longueur d'une <fableLink>fable d'Ésope !</fableLink>",
     "tracksEnrolledSummary.tracksEnrolled_one": "Parcours rejoint",
     "tracksEnrolledSummary.tracksEnrolled_many": "Parcours rejoints",
@@ -1897,7 +1897,7 @@
     "getHelpPanelComponents.getHelpPanelCommunityHelp.communityHelp": "Aide de la communauté"
   },
   "components/track/activity-ticker": {
-    "publishedSolutionLink.newSolution": "<0>nouvelle solution</0> pour ",
+    "publishedSolutionLink.newSolution": "<0>nouvelle solution</0>",
     "handle.someoneInCountry": "Quelqu'un en {{countryName}}",
     "handle.someone": "Quelqu'un",
     "userAvatar.userAvatar": "Avatar de {{handle}}",

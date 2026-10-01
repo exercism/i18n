@@ -714,7 +714,7 @@
     "testRunSummaryByStatusHeaderMessage.testFailure": "টেস্ট ব্যর্থতা",
     "testRunSummaryByStatusHeaderMessage.testFailures": "টেস্ট ব্যর্থতাগুলি",
     "testRunSummaryByStatusHeaderMessage.testsFailed": "টেস্ট ফেল করেছে",
-    "testsGroupedByTaskList.task": "টাস্ক",
+    "testsGroupedByTaskList.task": "টাস্ক {{id}}",
     "testsGroupedByTaskList.jumpToInstructions": "নির্দেশাবলিতে যান",
     "testSummary.passed": "পাস",
     "testSummary.failed": "ফেল",
@@ -759,7 +759,7 @@
     "conceptsLearntSummary.conceptsLearnt": "কনসেপ্ট শেখা",
     "headerSummary.youVeProgressed": "আপনি সবচেয়ে বেশি এগিয়ে গেছেন ",
     "learningStats.didYouKnow": "আপনি কি জানেন?",
-    "learningStats.linesOfCodeStat": "আপনি <link>{{numSolutions}} {{solutionLabel}}</link> জুড়ে <strong>{{numLines}} {{lineLabel}}</strong> কোড লিখেছেন।",
+    "learningStats.linesOfCodeStat": "আপনি <link>{{solutions}}</link> জুড়ে <strong>{{lines}}</strong> কোড লিখেছেন।",
     "learningStats.aesopFact": "এটি প্রায় <fableLink>Aesop's Fable!</fableLink> নামের রচনার দৈর্ঘ্যের সমান!",
     "tracksEnrolledSummary.tracksEnrolled_one": "ভর্তি হওয়া ট্র্যাক",
     "tracksEnrolledSummary.tracksEnrolled_other": "ভর্তি হওয়া ট্র্যাক",
@@ -2063,7 +2063,7 @@
     "userTooltip.unableToLoadUser": "ইউজার লোড করা যায়নি"
   },
   "components/track/activity-ticker": {
-    "publishedSolutionLink.newSolution": "<0>নতুন সমাধান</0> এর জন্য ",
+    "publishedSolutionLink.newSolution": "<0>নতুন সমাধান</0>",
     "handle.someoneInCountry": "{{countryName}} দেশে একজন",
     "handle.someone": "একজন",
     "userAvatar.userAvatar": "{{handle}} ইউজারের অ্যাভাটার",

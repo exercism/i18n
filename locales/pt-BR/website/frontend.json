@@ -1561,7 +1561,7 @@
     "testRunSummaryByStatusHeaderMessage.testFailure": "falha de teste",
     "testRunSummaryByStatusHeaderMessage.testFailures": "falhas de teste",
     "testRunSummaryByStatusHeaderMessage.testsFailed": "Testes falharam",
-    "testsGroupedByTaskList.task": "Tarefa",
+    "testsGroupedByTaskList.task": "Tarefa {{id}}",
     "testsGroupedByTaskList.jumpToInstructions": "Ir para as instruções",
     "testSummary.passed": "Passou",
     "testSummary.failed": "Falhou",
@@ -1601,7 +1601,7 @@
     "conceptsLearntSummary.conceptsLearnt": "Conceitos aprendidos",
     "headerSummary.youVeProgressed": "Você avançou mais em ",
     "learningStats.didYouKnow": "Você sabia?",
-    "learningStats.linesOfCodeStat": "Você escreveu <strong>{{numLines}} {{lineLabel}}</strong> de código em <link>{{numSolutions}} {{solutionLabel}}</link>.",
+    "learningStats.linesOfCodeStat": "Você escreveu <strong>{{lines}}</strong> de código em <link>{{solutions}}</link>.",
     "learningStats.aesopFact": "Isso equivale aproximadamente ao comprimento de uma <fableLink>Fábula de Esopo!</fableLink>",
     "tracksEnrolledSummary.tracksEnrolled_one": "Trilha inscrita",
     "tracksEnrolledSummary.tracksEnrolled_many": "Trilhas inscritas",
@@ -1906,7 +1906,7 @@
     "userTooltip.unableToLoadUser": "Não foi possível carregar o usuário"
   },
   "components/track/activity-ticker": {
-    "publishedSolutionLink.newSolution": "<0>nova solução</0> para ",
+    "publishedSolutionLink.newSolution": "<0>nova solução</0>",
     "handle.someoneInCountry": "Alguém em {{countryName}}",
     "handle.someone": "Alguém",
     "userAvatar.userAvatar": "Avatar de {{handle}}",
