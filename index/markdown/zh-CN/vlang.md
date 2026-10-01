@@ -19,6 +19,7 @@ This page is generated from [the index](../../json/zh-CN/vlang.json) by `scripts
 ### Affine Cipher (仿射密码)
 
 - `instructions.md` ([English](https://github.com/exercism/vlang/blob/main/exercises/practice/affine-cipher/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
+- `instructions.append.md` ([English](https://github.com/exercism/vlang/blob/main/exercises/practice/affine-cipher/.docs/instructions.append.md)): [Latest](../../../locales/zh-CN/content/0f/9b/d83ff47ed365b4367a46f3adde33fe7deeef.md)
 
 ### All Your Base
 
@@ -530,11 +531,13 @@ This page is generated from [the index](../../json/zh-CN/vlang.json) by `scripts
 
 ### Installing V locally (在本地安装 V)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/vlang/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/zh-CN/content/41/ba/6b179571c11da59ed22f838913337ede4b1f.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/vlang/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/zh-CN/content/ae/2b/925bfacc41f5f7482f6675083abbdfb836b2.md)
+  - [`41ba6b1795`](../../../locales/zh-CN/content/41/ba/6b179571c11da59ed22f838913337ede4b1f.md)
 
 ### Testing on the V track (在 V 赛道上测试)
 
-- `TESTS.md` ([English](https://github.com/exercism/vlang/blob/main/docs/TESTS.md)): [Latest](../../../locales/zh-CN/content/3c/67/d9c3d5e3dafb9121567dc7b47413bbcfdf9a.md)
+- `TESTS.md` ([English](https://github.com/exercism/vlang/blob/main/docs/TESTS.md)): [Latest](../../../locales/zh-CN/content/2d/d9/8e6bfd821dcb8fa3615d04cc2be3f8a9e83d.md)
+  - [`3c67d9c3d5`](../../../locales/zh-CN/content/3c/67/d9c3d5e3dafb9121567dc7b47413bbcfdf9a.md)
 
 ### Useful V resources (实用的 V 资源)
 
@@ -548,4 +551,5 @@ This page is generated from [the index](../../json/zh-CN/vlang.json) by `scripts
 
 ### tests.md
 
-- `tests.md` ([English](https://github.com/exercism/vlang/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/zh-CN/content/92/75/fb5ef1d113271e98ea0a85c5694848ac6020.md)
+- `tests.md` ([English](https://github.com/exercism/vlang/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/zh-CN/content/83/40/d100b50da9940528ea8d41b4e75bc13050ff.md)
+  - [`9275fb5ef1`](../../../locales/zh-CN/content/92/75/fb5ef1d113271e98ea0a85c5694848ac6020.md)

@@ -123,12 +123,13 @@
   },
   "paths": {
     "docs/ABOUT.md": ["ae95c08e1f1bf186965560aaef6d9bb4741319d2"],
-    "docs/INSTALLATION.md": ["41ba6b179571c11da59ed22f838913337ede4b1f"],
+    "docs/INSTALLATION.md": ["ae2b925bfacc41f5f7482f6675083abbdfb836b2","41ba6b179571c11da59ed22f838913337ede4b1f"],
     "docs/LEARNING.md": ["c2deacfa33e68b9780708e05d9b881ce921c7d22"],
     "docs/RESOURCES.md": ["2d3a34fe6cddbec5b61ff0445b45f23f804257b0"],
-    "docs/TESTS.md": ["3c67d9c3d5e3dafb9121567dc7b47413bbcfdf9a"],
+    "docs/TESTS.md": ["2dd98e6bfd821dcb8fa3615d04cc2be3f8a9e83d","3c67d9c3d5e3dafb9121567dc7b47413bbcfdf9a"],
     "exercises/practice/accumulate/.docs/instructions.md": ["c25a03fab188a59dda0ae9d9d30d1add28585ea0"],
     "exercises/practice/acronym/.docs/instructions.md": ["133bd2cbb78d186c92e5d2b8ca41cf13f77d6bea"],
+    "exercises/practice/affine-cipher/.docs/instructions.append.md": ["0f9bd83ff47ed365b4367a46f3adde33fe7deeef"],
     "exercises/practice/affine-cipher/.docs/instructions.md": ["1603dbbce91dee78f8c1520ceb8bc96c6dc9528a","f6329db93698c3acd110ab970d9db0221e13ceb4","4eff918de78a6802897690f4044259301d140dfa"],
     "exercises/practice/all-your-base/.docs/instructions.md": ["1b688b6915eb31f5ee6c3b67d2803024a353806e"],
     "exercises/practice/all-your-base/.docs/introduction.md": ["68aaffbed953c276623458752955558a09819203"],
@@ -296,7 +297,7 @@
     "exercises/practice/zebra-puzzle/.docs/instructions.md": ["aedce9b25e7ed65c8f05d32cdae4cbd12adbb245","c666e33cb3f096af6a0e307501da8da591499a8d"],
     "exercises/practice/zebra-puzzle/.docs/introduction.md": ["bbcaa6fd203b1287d74439822b072473408e4799","33d688fd51bb908204d0d51e3ca7e918a30c1088"],
     "exercises/shared/.docs/help.md": ["a9806daf2ed5bad3de4f0cc222dc008b68ac8a8f"],
-    "exercises/shared/.docs/tests.md": ["9275fb5ef1d113271e98ea0a85c5694848ac6020"]
+    "exercises/shared/.docs/tests.md": ["8340d100b50da9940528ea8d41b4e75bc13050ff","9275fb5ef1d113271e98ea0a85c5694848ac6020"]
   },
   "repo": "vlang"
 }
