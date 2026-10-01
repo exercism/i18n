@@ -1405,7 +1405,8 @@
         "new_password_placeholder": "Введіть новий пароль (щонайменше %{minimum_password_length} символів)",
         "confirm_new_password_label": "Підтвердьте новий пароль",
         "confirm_new_password_placeholder": "Введіть новий пароль ще раз",
-        "change_my_password_button": "Змінити мій пароль"
+        "change_my_password_button": "Змінити мій пароль",
+        "exercism_logo_alt": "Логотип Exercism"
       },
       "new": {
         "forgot_your_password": {
@@ -1413,7 +1414,8 @@
           "description": "Якщо ви забули пароль, скористайтеся формою нижче, щоб отримати посилання для його зміни. Багато людей, яким здається, що вони забули пароль, насправді реєструвалися через GitHub, тож варто спробувати й цей варіант."
         },
         "email_placeholder": "Введіть свою електронну адресу",
-        "send_instructions_button": "Надіслати вказівки"
+        "send_instructions_button": "Надіслати вказівки",
+        "exercism_logo_alt": "Логотип Exercism"
       },
       "no_token": "Доступ до цієї сторінки можливий лише за посиланням із листа для відновлення пароля. Якщо перехід відбувся саме з такого листа, переконайтеся, що використано повне надане посилання.",
       "send_instructions": "За кілька хвилин надійде лист з інструкціями, як відновити пароль.",
@@ -3695,6 +3697,15 @@
     },
     "arbitrary": {
       "1": "Нове оновлення від <em>%{author_handle}</em>.\n"
+    },
+    "maker_handles": {
+      "we": "Ми",
+      "with_others": {
+        "one": "%{first}, %{second} та ще %{count} учасник",
+        "few": "%{first}, %{second} та ще %{count} учасники",
+        "many": "%{first}, %{second} та ще %{count} учасників",
+        "other": "%{first}, %{second} та ще %{count} учасника"
+      }
     }
   },
   "user_activities": {
@@ -4225,6 +4236,10 @@
         "title": "%{exercise_title} у %{track_title} на Exercism",
         "description": "Чи під силу розвʼязати %{exercise_title} у %{track_title}? Розвиньмо навички %{track_title} за підтримки нашої команди наставників світового рівня."
       }
+    },
+    "images": {
+      "avatar_alt": "Завантажений аватар користувача %{handle}",
+      "profile_link_title": "Посилання на профіль користувача %{handle}"
     }
   },
   "images": {
@@ -4276,6 +4291,21 @@
           "other": "%{count} перевіреного PR"
         }
       }
+    },
+    "exercise_approach_for_sharing": {
+      "title": "Поділитися цим підходом"
+    },
+    "exercise_article_for_sharing": {
+      "title": "Поділитися цією статтею"
+    },
+    "mentor_requests": {
+      "first_timer": "Новачок"
+    },
+    "student": {
+      "anonymous_name": "Користувач в анонімному режимі"
+    },
+    "submission_test_run": {
+      "unknown_error": "Сталася невідома помилка"
     }
   },
   "views": {
@@ -4345,6 +4375,43 @@
         "scientific_calculations": "Наукові обчислення",
         "scripts": "Скрипти",
         "web_development": "Веброзробка"
+      }
+    }
+  },
+  "commands": {
+    "user_reputation_token": {
+      "contextual_data": {
+        "separator": " • ",
+        "building": {
+          "one": "Створено %{formatted_count} PR",
+          "few": "Створено %{formatted_count} PR",
+          "many": "Створено %{formatted_count} PR",
+          "other": "Створено %{formatted_count} PR"
+        },
+        "maintaining": {
+          "one": "Переглянуто та/або злито %{formatted_count} PR",
+          "few": "Переглянуто та/або злито %{formatted_count} PR",
+          "many": "Переглянуто та/або злито %{formatted_count} PR",
+          "other": "Переглянуто та/або злито %{formatted_count} PR"
+        },
+        "authoring": {
+          "one": "Зроблено %{formatted_count} внесок у вправи",
+          "few": "Зроблено %{formatted_count} внески у вправи",
+          "many": "Зроблено %{formatted_count} внесків у вправи",
+          "other": "Зроблено %{formatted_count} внеску у вправи"
+        },
+        "mentoring": {
+          "one": "Проведено наставництво для %{formatted_count} рішення",
+          "few": "Проведено наставництво для %{formatted_count} рішень",
+          "many": "Проведено наставництво для %{formatted_count} рішень",
+          "other": "Проведено наставництво для %{formatted_count} рішення"
+        },
+        "publishing": {
+          "one": "Опубліковано %{formatted_count} рішення",
+          "few": "Опубліковано %{formatted_count} рішення",
+          "many": "Опубліковано %{formatted_count} рішень",
+          "other": "Опубліковано %{formatted_count} рішення"
+        }
       }
     }
   }

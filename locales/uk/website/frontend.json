@@ -133,7 +133,15 @@
     "tasksList.typeSwitcher.docsDescription": "Допомогти створити документацію Exercism",
     "tasksList.typeSwitcher.ciDescription": "Автоматизація та безперервна інтеграція",
     "tasksList.typeSwitcher.dockerDescription": "Допомогти покращити наші Dockerfile",
-    "tasksList.typeSwitcher.codingDescription": "Писати продакшн-код"
+    "tasksList.typeSwitcher.codingDescription": "Писати продакшн-код",
+    "tasksList.showingTasks_one": "Показано {{count}} завдання",
+    "tasksList.showingTasks_few": "Показано {{count}} завдання",
+    "tasksList.showingTasks_many": "Показано {{count}} завдань",
+    "tasksList.showingTasks_other": "Показано {{count}} завдання",
+    "tasksList.outOfPossibleTasks_one": "з {{count}} можливого завдання",
+    "tasksList.outOfPossibleTasks_few": "з {{count}} можливих завдань",
+    "tasksList.outOfPossibleTasks_many": "з {{count}} можливих завдань",
+    "tasksList.outOfPossibleTasks_other": "з {{count}} можливого завдання"
   },
   "components/settings/LanguagePreferenceForm.tsx": {
     "languagePreferenceForm.language": "Мова",
@@ -307,11 +315,17 @@
     "userTooltip.unableToLoadUser": "Не вдалося завантажити користувача"
   },
   "components/track/activity-ticker": {
-    "publishedSolutionLink.newSolution": "<0>нове рішення</0> для ",
+    "publishedSolutionLink.newSolution": "<0>нове рішення</0>",
     "handle.someoneInCountry": "Хтось із країни {{countryName}}",
     "handle.someone": "Хтось",
     "userAvatar.userAvatar": "Аватар {{handle}}",
-    "pullRequestLink.pullRequest": "Pull Request"
+    "pullRequestLink.pullRequest": "Pull Request",
+    "sentence.publish_solution_metric": "<0/> опублікував <1/> до <3/>",
+    "sentence.open_pull_request_metric": "<0/> відкрив <2/>",
+    "sentence.merge_pull_request_metric": "<0/> обʼєднав <2/>",
+    "sentence.complete_solution_metric": "<0/> завершив <3/>",
+    "sentence.start_solution_metric": "<0/> розпочав <3/>",
+    "sentence.submit_submission_metric": "<0/> спробував <3/>"
   },
   "components/editor/testComponents": {
     "testRunSummary.trackNotSupportTests": "Цей трек не підтримує автоматичний запуск тестів вправи.",
@@ -343,7 +357,7 @@
     "testRunSummaryByStatusHeaderMessage.testFailure": "збій тесту",
     "testRunSummaryByStatusHeaderMessage.testFailures": "збої тестів",
     "testRunSummaryByStatusHeaderMessage.testsFailed": "Тести не пройдено",
-    "testsGroupedByTaskList.task": "Завдання",
+    "testsGroupedByTaskList.task": "Завдання {{id}}",
     "testsGroupedByTaskList.jumpToInstructions": "Перейти до вказівок",
     "testSummary.passed": "Пройдено",
     "testSummary.failed": "Не пройдено",
@@ -355,7 +369,11 @@
     "testContentWrapper.fileNotFound": "Файл не знайдено",
     "jumpToInstructionButton.jumpToInstructions": "Перейти до вказівок",
     "testRunSummary.noTestResults": "Немає результатів тестів",
-    "testsList.details": "назва: {{name}}, статус: {{status}}, вихідні дані: {{output}}"
+    "testsList.details": "назва: {{name}}, статус: {{status}}, вихідні дані: {{output}}",
+    "testRunSummaryByStatusHeaderMessage.testFailure_one": "{{count}} невдалий тест",
+    "testRunSummaryByStatusHeaderMessage.testFailure_few": "{{count}} невдалі тести",
+    "testRunSummaryByStatusHeaderMessage.testFailure_many": "{{count}} невдалих тестів",
+    "testRunSummaryByStatusHeaderMessage.testFailure_other": "{{count}} невдалого тесту"
   },
   "components/favorites-list": {
     "index.filteringRestricted": "Фільтрування доступне лише для Insiders",
@@ -523,7 +541,10 @@
   "components/profile/contributions-list": {
     "otherContributionsList.generic": "Загальне",
     "maintainingContributionsList.generic": "Загальне",
-    "buildingContributionsList.generic": "Загальне"
+    "buildingContributionsList.generic": "Загальне",
+    "buildingContributionsList.inTrack": "у треку <0/><1>{{track}}</1>",
+    "maintainingContributionsList.inTrack": "у треку <0/><1>{{track}}</1>",
+    "otherContributionsList.inTrack": "у треку <0/><1>{{track}}</1>"
   },
   "components/profile/contributions-summary": {
     "totalReputation.addressHas": "{{handle}} має",
@@ -632,7 +653,11 @@
     "selectedTracks_other": "{{count}} треків вибрано",
     "trackCheckbox.trackSelected": "Трек вибрано",
     "tracksList.noTracksFound": "Треків не знайдено",
-    "continueButton.continue": "Продовжити"
+    "continueButton.continue": "Продовжити",
+    "trackCheckbox.solutionsQueued_one": "{{count}} рішення в черзі",
+    "trackCheckbox.solutionsQueued_few": "{{count}} рішення в черзі",
+    "trackCheckbox.solutionsQueued_many": "{{count}} рішень у черзі",
+    "trackCheckbox.solutionsQueued_other": "{{count}} рішення в черзі"
   },
   "components/modals/BadgeModal.tsx": {
     "badgeModal.newBadgeEarned": "Отримано новий значок",
@@ -722,7 +747,11 @@
     "components.mentoring.session.mentorNotes.improveNotes": "Покращити ці нотатки",
     "components.mentoring.session.mentorNotes.communityNotes": "Ці нотатки створила наша спільнота. Будь ласка, допоможіть покращити їх, надіславши <0>Pull Request на GitHub</0>.",
     "components.mentoring.session.previousSessionsLink.opensInModal": "Відкривається в модальному вікні",
-    "components.mentoring.session.previousSessionsLink.seePreviousSessions": "Переглянути {{numPrevious}} попередніх {{sessions}}"
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions": "Переглянути {{numPrevious}} попередніх {{sessions}}",
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions_one": "Переглянути {{count}} попередній сеанс",
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions_few": "Переглянути {{count}} попередні сеанси",
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions_many": "Переглянути {{count}} попередніх сеансів",
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions_other": "Переглянути {{count}} попередніх сеансів"
   },
   "components/student/open-editor-button": {
     "startExerciseButton.startInEditor": "Почати в редакторі"
@@ -1483,7 +1512,24 @@
     "tabs.overview": "Огляд",
     "tabs.solutions": "Рішення",
     "tabs.reputation": "Репутація",
-    "tabs.badges": "Значки"
+    "tabs.badges": "Значки",
+    "contributionResults.showingContributions_one": "Показано {{count}} внесок",
+    "contributionResults.showingContributions_few": "Показано {{count}} внески",
+    "contributionResults.showingContributions_many": "Показано {{count}} внесків",
+    "contributionResults.showingContributions_other": "Показано {{count}} внеску",
+    "badgeResults.showingBadges_one": "Показано {{count}} бейдж",
+    "badgeResults.showingBadges_few": "Показано {{count}} бейджі",
+    "badgeResults.showingBadges_many": "Показано {{count}} бейджів",
+    "badgeResults.showingBadges_other": "Показано {{count}} бейджа",
+    "solution.views_one": "{{count}} перегляд",
+    "solution.views_few": "{{count}} перегляди",
+    "solution.views_many": "{{count}} переглядів",
+    "solution.views_other": "{{count}} перегляду",
+    "solutionsList.showingSolutions_one": "Показано {{count}} рішення",
+    "solutionsList.showingSolutions_few": "Показано {{count}} рішення",
+    "solutionsList.showingSolutions_many": "Показано {{count}} рішень",
+    "solutionsList.showingSolutions_other": "Показано {{count}} рішення",
+    "contribution.inTrack": "у треку <0/><1>{{track}}</1>"
   },
   "components/journey/badges-list": {
     "orderSwitcher.sortByUnrevealedFirst": "Спочатку нерозкриті",
@@ -1612,7 +1658,7 @@
     "conceptsLearntSummary.conceptsLearnt": "Засвоєні концепції",
     "headerSummary.youVeProgressed": "Найбільший прогрес у треку ",
     "learningStats.didYouKnow": "А чи знали?",
-    "learningStats.linesOfCodeStat": "У нас <link>{{numSolutions}} {{solutionLabel}}</link> і <strong>{{numLines}} {{lineLabel}}</strong> коду.",
+    "learningStats.linesOfCodeStat": "У нас <link>{{solutions}}</link> і <strong>{{lines}}</strong> коду.",
     "learningStats.aesopFact": "Це приблизно дорівнює довжині <fableLink>байки Езопа!</fableLink>",
     "tracksEnrolledSummary.tracksEnrolled_one": "Приєднаний трек",
     "tracksEnrolledSummary.tracksEnrolled_few": "Приєднані треки",
@@ -1636,7 +1682,15 @@
     "trackSummary.mentoringQueued_other": "<strong>{{count}} рішення</strong> у черзі.",
     "trackSummary.period.last_12_months": "Останні 12 місяців",
     "trackSummary.period.last_10_weeks": "Останні 10 тижнів",
-    "trackSummary.period.last_14_days": "Останні 14 днів"
+    "trackSummary.period.last_14_days": "Останні 14 днів",
+    "learningStats.lineCount_one": "{{formattedCount}} рядок",
+    "learningStats.lineCount_few": "{{formattedCount}} рядки",
+    "learningStats.lineCount_many": "{{formattedCount}} рядків",
+    "learningStats.lineCount_other": "{{formattedCount}} рядка",
+    "learningStats.solutionCount_one": "{{count}} рішення",
+    "learningStats.solutionCount_few": "{{count}} рішення",
+    "learningStats.solutionCount_many": "{{count}} рішень",
+    "learningStats.solutionCount_other": "{{count}} рішення"
   },
   "components/journey/overview/learning-section/track-summary/TrackProgressBar.tsx": {
     "trackProgressBar.completed": "Виконано"
@@ -1927,7 +1981,8 @@
     "rateMentorStep.yourDiscussionTimedOut": "Час обговорення вичерпано",
     "rateMentorStep.mentorFinishedMentoring": "{{mentorHandle}} завершив наставництво над вами на",
     "rateMentorStep.feedbackRequest": "Щоб ми та наші наставники бачили, як добре ми працюємо, нам дуже важливий відгук про обговорення з {{mentorHandle}}. Хороші наставники відповідають на запитання, знайомлять з новими ідеями та спонукають спробувати щось нове.",
-    "rateMentorStep.howWasDiscussion": "Як минуло обговорення з {{mentorHandle}}?"
+    "rateMentorStep.howWasDiscussion": "Як минуло обговорення з {{mentorHandle}}?",
+    "rateMentorStep.exerciseInTrack": "<0>{{exercise}}</0> у треку {{track}}"
   },
   "components/modals/TaskHintsModal.tsx": {
     "taskHintsModal.hintsAndTips": "Підказки та поради"
@@ -2056,7 +2111,11 @@
     "previewFooter.submit": "Надіслати",
     "previewFooter.example": "Приклад",
     "previewFeedbackComment.gaveThisFeedback": "Цей зворотний звʼязок залишено <0>{{mentorName}}</0> на рішення, ідентичне цьому:",
-    "previewFeedbackComment.commentedOn": "Коментар від {{date}}"
+    "previewFeedbackComment.commentedOn": "Коментар від {{date}}",
+    "previewFooter.solutionCount_one": "{{count}} рішення",
+    "previewFooter.solutionCount_few": "{{count}} рішення",
+    "previewFooter.solutionCount_many": "{{count}} рішень",
+    "previewFooter.solutionCount_other": "{{count}} рішення"
   },
   "components/mentoring/representation/right-pane": {
     "automationRules.noGuidance": "У цього репрезентера ще немає настанов. Настанови пишуть наші мейнтейнери, щоб пояснити, які нормалізації відбуваються під час репрезентації. Мейнтейнери можуть започаткувати їх для цього репрезентера, надіславши <0>Pull Request на GitHub</0>.",
@@ -2111,7 +2170,12 @@
     "infoMessage.insiderAccessToDarkMode": "Учасники Exercism Insiders мають доступ до темної теми. Можна обрати світлу, темну тему або автоматичне оновлення відповідно до налаштувань системи. Приємного користування! 💎",
     "infoMessage.eligibleToJoinInsiders": "Можна долучитися до Insiders. <0>Почати тут.</0>",
     "infoMessage.darkModeOnlyAvailableToInsiders": "Темний режим доступний лише учасникам Exercism Insiders. <0>Підтримати Exercism</0>, щоб стати учасником Insiders і отримати доступ до темного режиму, Exercism AI та іншого.",
-    "disabledTooltip.mustBeExercismInsider": "Щоб розблокувати цю тему, потрібно бути <0>учасником Exercism Insiders <1/></0>."
+    "disabledTooltip.mustBeExercismInsider": "Щоб розблокувати цю тему, потрібно бути <0>учасником Exercism Insiders <1/></0>.",
+    "themeButton.themes.light": "Світла",
+    "themeButton.themes.dark": "Темна",
+    "themeButton.themes.system": "Системна",
+    "themeButton.themes.sepia": "Низький контраст",
+    "themeButton.themes.accessibility-dark": "Темна для доступності"
   },
   "components/settings/ThemePreferenceForm.tsx": {
     "themePreferenceForm.theme": "Тема"
@@ -2143,7 +2207,12 @@
     "available": "Доступні",
     "locked": "Заблоковані",
     "searchByTitle": "Пошук за назвою",
-    "noExercisesFound": "Вправ не знайдено"
+    "noExercisesFound": "Вправ не знайдено",
+    "statusFilters.allExercises": "Усі вправи",
+    "statusFilters.completed": "Завершені",
+    "statusFilters.inProgress": "У процесі",
+    "statusFilters.available": "Доступні",
+    "statusFilters.locked": "Заблоковані"
   },
   "components/student/ExerciseStatusChart.tsx": {
     "exerciseStatusChart.invalidStatus": "Некоректний статус"
@@ -2351,7 +2420,15 @@
     "automationListElement.shownTimes": "Показано {{number}} разів",
     "automationListElement.occurenceTime": "зафіксовано {{number}} раз",
     "automationListElement.occurenceTimes": "зафіксовано {{number}} разів",
-    "automationListElement.inTrackId": "у {{trackTitle}} (#{{id}})"
+    "automationListElement.inTrackId": "у {{trackTitle}} (#{{id}})",
+    "automationListElement.shownTimes_one": "Показано {{count}} раз",
+    "automationListElement.shownTimes_few": "Показано {{count}} рази",
+    "automationListElement.shownTimes_many": "Показано {{count}} разів",
+    "automationListElement.shownTimes_other": "Показано {{count}} разу",
+    "automationListElement.occurenceTimes_one": "траплялося {{count}} раз",
+    "automationListElement.occurenceTimes_few": "траплялося {{count}} рази",
+    "automationListElement.occurenceTimes_many": "траплялося {{count}} разів",
+    "automationListElement.occurenceTimes_other": "траплялося {{count}} разу"
   },
   "components/mentoring/automation/Representation.tsx": {
     "needFeedback": "Потрібен відгук",
@@ -2369,7 +2446,15 @@
   "components/mentoring/automation/TrackFilterList.tsx": {
     "trackFilterList.unableToFetchTracks": "Не вдалося завантажити треки",
     "trackFilterList.openTheTrackFilter": "Відкрити фільтр треків",
-    "trackFilterList.clickToChange": "Натисніть, щоб змінити"
+    "trackFilterList.clickToChange": "Натисніть, щоб змінити",
+    "trackFilterList.submissionCount_one": "{{count}} подання",
+    "trackFilterList.submissionCount_few": "{{count}} подання",
+    "trackFilterList.submissionCount_many": "{{count}} подань",
+    "trackFilterList.submissionCount_other": "{{count}} подання",
+    "trackFilterList.representationCount_one": "{{count}} репрезентація",
+    "trackFilterList.representationCount_few": "{{count}} репрезентації",
+    "trackFilterList.representationCount_many": "{{count}} репрезентацій",
+    "trackFilterList.representationCount_other": "{{count}} репрезентації"
   },
   "components/mentoring/discussion/discussion-post": {
     "discussionPostView.edit": "Редагувати"
@@ -2623,7 +2708,11 @@
     "commentsList.header.writeAComment": "Написати коментар",
     "starButton.numberOfStars": "Кількість зірок",
     "starButton.favorite": "Додати в обране",
-    "starButton.favorited": "В обраному"
+    "starButton.favorited": "В обраному",
+    "commentsList.count.numberOfComments_one": "{{count}} коментар",
+    "commentsList.count.numberOfComments_few": "{{count}} коментарі",
+    "commentsList.count.numberOfComments_many": "{{count}} коментарів",
+    "commentsList.count.numberOfComments_other": "{{count}} коментаря"
   },
   "utils/date": {
     "today": "сьогодні",
@@ -2652,5 +2741,58 @@
     "trackList.2": "<0></0>, далі <1></1>.",
     "trackList.3": "<0></0>, далі <1></1> та <2></2>.",
     "trackList.4": "<0></0>, далі <1></1>, <2></2> та <3></3>."
+  },
+  "components/common/Credits.tsx": {
+    "byHandle": "Від {{handle}}",
+    "labels.author_one": "{{count}} автор",
+    "labels.author_few": "{{count}} автори",
+    "labels.author_many": "{{count}} авторів",
+    "labels.author_other": "{{count}} автора",
+    "labels.contributor_one": "{{count}} контрибʼютор",
+    "labels.contributor_few": "{{count}} контрибʼютори",
+    "labels.contributor_many": "{{count}} контрибʼюторів",
+    "labels.contributor_other": "{{count}} контрибʼютора"
+  },
+  "components/common/ExerciseIcon.tsx": {
+    "iconForExercise": "Іконка для вправи «{{title}}»"
+  },
+  "components/common/TrackIcon.tsx": {
+    "iconForTrack": "іконка для треку «{{title}}»"
+  },
+  "components/donations/stripe-form/useStripeForm.ts": {
+    "paymentFailedWithError": "Оплата не вдалася з помилкою: {{error}}",
+    "paymentFailedBankMessage": "Оплата не вдалася. Повідомлення, яке ми отримали від банку: «{{message}}»",
+    "cardElementNotFound": "Елемент картки не знайдено"
+  },
+  "components/dropdowns/notifications": {
+    "notificationsIcon.youHaveNotifications_one": "{{count}} сповіщення",
+    "notificationsIcon.youHaveNotifications_few": "{{count}} сповіщення",
+    "notificationsIcon.youHaveNotifications_many": "{{count}} сповіщень",
+    "notificationsIcon.youHaveNotifications_other": "{{count}} сповіщення"
+  },
+  "components/editor/AssistantChat/useTurnstile.ts": {
+    "verifyHeading": "Будь ласка, підтвердьте, що ви не бот",
+    "verifyDescription": "Нас постійно атакують боти (схоже, їм дуже кортить зайнятися програмуванням!). Будь ласка, поставте позначку в полі нижче, щоб підтвердити, що ви людина."
+  },
+  "components/ErrorBoundary.tsx": {
+    "errorFallback.somethingWentWrong": "Щось пішло не так. Будь ласка, спробуйте ще раз."
+  },
+  "components/track": {
+    "exerciseMakersButton.authors_one": "{{count}} автор",
+    "exerciseMakersButton.authors_few": "{{count}} автори",
+    "exerciseMakersButton.authors_many": "{{count}} авторів",
+    "exerciseMakersButton.authors_other": "{{count}} автора",
+    "exerciseMakersButton.contributors_one": "{{count}} контрибʼютор",
+    "exerciseMakersButton.contributors_few": "{{count}} контрибʼютори",
+    "exerciseMakersButton.contributors_many": "{{count}} контрибʼюторів",
+    "exerciseMakersButton.contributors_other": "{{count}} контрибʼютора",
+    "conceptMakersButton.authors_one": "{{count}} автор",
+    "conceptMakersButton.authors_few": "{{count}} автори",
+    "conceptMakersButton.authors_many": "{{count}} авторів",
+    "conceptMakersButton.authors_other": "{{count}} автора",
+    "conceptMakersButton.contributors_one": "{{count}} контрибʼютор",
+    "conceptMakersButton.contributors_few": "{{count}} контрибʼютори",
+    "conceptMakersButton.contributors_many": "{{count}} контрибʼюторів",
+    "conceptMakersButton.contributors_other": "{{count}} контрибʼютора"
   }
 }

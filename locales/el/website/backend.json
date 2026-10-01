@@ -199,7 +199,8 @@
         "new_password_placeholder": "Βάλε έναν νέο κωδικό (τουλάχιστον %{minimum_password_length} χαρακτήρες)",
         "confirm_new_password_label": "Επιβεβαίωσε τον νέο κωδικό",
         "confirm_new_password_placeholder": "Βάλε ξανά τον νέο σου κωδικό",
-        "change_my_password_button": "Άλλαξε τον κωδικό μου"
+        "change_my_password_button": "Άλλαξε τον κωδικό μου",
+        "exercism_logo_alt": "Το λογότυπο του Exercism"
       },
       "new": {
         "forgot_your_password": {
@@ -207,7 +208,8 @@
           "description": "Αν ξέχασες τον κωδικό σου, χρησιμοποίησε την παρακάτω φόρμα για να ζητήσεις έναν σύνδεσμο για να τον αλλάξεις. Πολλοί που νομίζουν ότι ξέχασαν τον κωδικό τους είχαν συνδεθεί αρχικά μέσω GitHub, οπότε μπορείς να το δοκιμάσεις κι αυτό."
         },
         "email_placeholder": "Βάλε τη διεύθυνση email σου",
-        "send_instructions_button": "Στείλε οδηγίες"
+        "send_instructions_button": "Στείλε οδηγίες",
+        "exercism_logo_alt": "Το λογότυπο του Exercism"
       },
       "no_token": "Δεν μπορείς να αποκτήσεις πρόσβαση σε αυτή τη σελίδα αν δεν έρχεσαι από email επαναφοράς κωδικού πρόσβασης. Αν όντως έρχεσαι από email επαναφοράς κωδικού πρόσβασης, βεβαιώσου ότι χρησιμοποίησες το πλήρες URL που σου δόθηκε.",
       "send_instructions": "Θα λάβεις ένα email με οδηγίες για το πώς να επαναφέρεις τον κωδικό πρόσβασής σου σε λίγα λεπτά.",
@@ -3945,6 +3947,13 @@
     },
     "arbitrary": {
       "1": "<em>%{author_handle}</em> δημοσίευσε μια νέα ενημέρωση.\n"
+    },
+    "maker_handles": {
+      "we": "Εμείς",
+      "with_others": {
+        "one": "%{first}, %{second} και %{count} ακόμη",
+        "other": "%{first}, %{second} και %{count} ακόμη"
+      }
     }
   },
   "user_activities": {
@@ -4101,6 +4110,10 @@
         "title": "Η άσκηση %{exercise_title} στη γλώσσα %{track_title} στο Exercism",
         "description": "Μπορείς να λύσεις την άσκηση %{exercise_title} στη γλώσσα %{track_title}; Βελτίωσε τις δεξιότητές σου στη γλώσσα %{track_title} με την υποστήριξη της ομάδας μας από μέντορες παγκόσμιας κλάσης."
       }
+    },
+    "images": {
+      "avatar_alt": "Το ανεβασμένο άβαταρ του χρήστη %{handle}",
+      "profile_link_title": "Σύνδεσμος στο προφίλ του χρήστη %{handle}"
     }
   },
   "images": {
@@ -4162,6 +4175,21 @@
           "other": "%{count} PR ελέγχθηκαν"
         }
       }
+    },
+    "exercise_approach_for_sharing": {
+      "title": "Μοιράσου αυτή την προσέγγιση"
+    },
+    "exercise_article_for_sharing": {
+      "title": "Μοιράσου αυτό το άρθρο"
+    },
+    "mentor_requests": {
+      "first_timer": "Πρωτάρης"
+    },
+    "student": {
+      "anonymous_name": "Χρήστης σε ανώνυμη λειτουργία"
+    },
+    "submission_test_run": {
+      "unknown_error": "Παρουσιάστηκε άγνωστο σφάλμα"
     }
   },
   "views": {
@@ -4231,6 +4259,33 @@
         "scientific_calculations": "Επιστημονικοί υπολογισμοί",
         "scripts": "Σενάρια",
         "web_development": "Ανάπτυξη ιστού"
+      }
+    }
+  },
+  "commands": {
+    "user_reputation_token": {
+      "contextual_data": {
+        "separator": " • ",
+        "building": {
+          "one": "%{formatted_count} PR δημιουργήθηκε",
+          "other": "%{formatted_count} PR δημιουργήθηκαν"
+        },
+        "maintaining": {
+          "one": "%{formatted_count} PR ελέγχθηκε και/ή συγχωνεύτηκε",
+          "other": "%{formatted_count} PR ελέγχθηκαν και/ή συγχωνεύτηκαν"
+        },
+        "authoring": {
+          "one": "%{formatted_count} συνεισφορά σε άσκηση",
+          "other": "%{formatted_count} συνεισφορές σε ασκήσεις"
+        },
+        "mentoring": {
+          "one": "%{formatted_count} λύση καθοδηγήθηκε",
+          "other": "%{formatted_count} λύσεις καθοδηγήθηκαν"
+        },
+        "publishing": {
+          "one": "%{formatted_count} λύση δημοσιεύτηκε",
+          "other": "%{formatted_count} λύσεις δημοσιεύτηκαν"
+        }
       }
     }
   }

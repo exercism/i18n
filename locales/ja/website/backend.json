@@ -886,7 +886,8 @@
         "new_password_label": "新しいパスワード",
         "new_password_placeholder": "新しいパスワードを入力してください（%{minimum_password_length}文字以上）",
         "confirm_new_password_label": "新しいパスワードの確認",
-        "confirm_new_password_placeholder": "新しいパスワードをもう一度入力してください"
+        "confirm_new_password_placeholder": "新しいパスワードをもう一度入力してください",
+        "exercism_logo_alt": "Exercismのロゴ"
       },
       "new": {
         "forgot_your_password": {
@@ -894,7 +895,8 @@
           "description": "パスワードをお忘れの場合は、下のフォームから変更用のリンクをリクエストしてください。パスワードを忘れたと思っていたけれど、もともとはGitHubでサインインしていたという人も多いので、そちらも試してみるとよいかもしれません。"
         },
         "email_placeholder": "メールアドレスを入力してください",
-        "send_instructions_button": "案内を送信する"
+        "send_instructions_button": "案内を送信する",
+        "exercism_logo_alt": "Exercismのロゴ"
       },
       "no_token": "パスワード再設定メールからアクセスしないと、このページは開けません。パスワード再設定メールからアクセスした場合は、記載されている完全なURLを使用したかご確認ください。",
       "send_instructions": "数分以内に、パスワードの再設定方法を説明したメールが届きます。",
@@ -2204,6 +2206,21 @@
           "other": "%{count}件のPRをレビュー"
         }
       }
+    },
+    "exercise_approach_for_sharing": {
+      "title": "このアプローチを共有"
+    },
+    "exercise_article_for_sharing": {
+      "title": "この記事を共有"
+    },
+    "mentor_requests": {
+      "first_timer": "はじめての方"
+    },
+    "student": {
+      "anonymous_name": "匿名モードのユーザー"
+    },
+    "submission_test_run": {
+      "unknown_error": "不明なエラーが発生しました"
     }
   },
   "site_updates": {
@@ -2215,6 +2232,12 @@
     },
     "arbitrary": {
       "1": "<em>%{author_handle}</em> が新しい更新を公開しました。\n"
+    },
+    "maker_handles": {
+      "we": "私たち",
+      "with_others": {
+        "other": "%{first}、%{second}、他%{count}名"
+      }
     }
   },
   "user_activities": {
@@ -4091,6 +4114,10 @@
         "title": "Exercismの%{track_title}の%{exercise_title}",
         "description": "%{track_title}で%{exercise_title}を解けますか？　世界トップクラスのメンターチームのサポートを受けながら、%{track_title}のスキルを高めましょう。"
       }
+    },
+    "images": {
+      "avatar_alt": "%{handle}がアップロードしたアバター",
+      "profile_link_title": "%{handle}のプロフィールへのリンク"
     }
   },
   "premium_mailer": {
@@ -4165,6 +4192,28 @@
         "scientific_calculations": "科学的な計算",
         "scripts": "スクリプト",
         "web_development": "Web開発"
+      }
+    }
+  },
+  "commands": {
+    "user_reputation_token": {
+      "contextual_data": {
+        "separator": " • ",
+        "building": {
+          "other": "PRを%{formatted_count}件作成"
+        },
+        "maintaining": {
+          "other": "PRを%{formatted_count}件レビューまたはマージ"
+        },
+        "authoring": {
+          "other": "演習への貢献%{formatted_count}件"
+        },
+        "mentoring": {
+          "other": "解答を%{formatted_count}件メンタリング"
+        },
+        "publishing": {
+          "other": "解答を%{formatted_count}件公開"
+        }
       }
     }
   }

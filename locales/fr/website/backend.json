@@ -737,7 +737,8 @@
         "new_password_placeholder": "Saisis un nouveau mot de passe (min. %{minimum_password_length} caractères)",
         "confirm_new_password_label": "Confirme le nouveau mot de passe",
         "confirm_new_password_placeholder": "Saisis à nouveau ton nouveau mot de passe",
-        "change_my_password_button": "Changer mon mot de passe"
+        "change_my_password_button": "Changer mon mot de passe",
+        "exercism_logo_alt": "Logo d'Exercism"
       },
       "new": {
         "forgot_your_password": {
@@ -745,7 +746,8 @@
           "description": "Si tu as oublié ton mot de passe, utilise le formulaire ci-dessous pour demander un lien qui te permettra de le changer. Beaucoup de personnes qui pensent avoir oublié leur mot de passe s'étaient en fait connectées avec GitHub au départ, tu peux donc aussi essayer cette option."
         },
         "email_placeholder": "Saisis ton adresse e-mail",
-        "send_instructions_button": "Envoyer les instructions"
+        "send_instructions_button": "Envoyer les instructions",
+        "exercism_logo_alt": "Logo d'Exercism"
       }
     },
     "registrations": {
@@ -3398,6 +3400,10 @@
         "title": "%{exercise_title} dans le parcours %{track_title} sur Exercism",
         "description": "Sauras-tu résoudre %{exercise_title} dans le parcours %{track_title} ? Améliore tes compétences en %{track_title} grâce au soutien de notre équipe de mentors de classe mondiale."
       }
+    },
+    "images": {
+      "avatar_alt": "Avatar importé de %{handle}",
+      "profile_link_title": "Lien vers le profil de %{handle}"
     }
   },
   "images": {
@@ -3818,6 +3824,14 @@
     },
     "arbitrary": {
       "1": "<em>%{author_handle}</em> a publié une nouvelle mise à jour.\n"
+    },
+    "maker_handles": {
+      "we": "Nous",
+      "with_others": {
+        "one": "%{first}, %{second} et %{count} autre",
+        "many": "%{first}, %{second} et %{count} autres",
+        "other": "%{first}, %{second} et %{count} autres"
+      }
     }
   },
   "user_activities": {
@@ -4222,6 +4236,21 @@
           "other": "%{count} PR relues"
         }
       }
+    },
+    "exercise_approach_for_sharing": {
+      "title": "Partage cette approche"
+    },
+    "exercise_article_for_sharing": {
+      "title": "Partage cet article"
+    },
+    "mentor_requests": {
+      "first_timer": "Première fois"
+    },
+    "student": {
+      "anonymous_name": "Utilisateur en mode anonyme"
+    },
+    "submission_test_run": {
+      "unknown_error": "Une erreur inconnue s'est produite"
     }
   },
   "views": {
@@ -4291,6 +4320,38 @@
         "scientific_calculations": "Calculs scientifiques",
         "scripts": "Scripts",
         "web_development": "Développement web"
+      }
+    }
+  },
+  "commands": {
+    "user_reputation_token": {
+      "contextual_data": {
+        "separator": " • ",
+        "building": {
+          "one": "%{formatted_count} PR créée",
+          "many": "%{formatted_count} PRs créées",
+          "other": "%{formatted_count} PRs créées"
+        },
+        "maintaining": {
+          "one": "%{formatted_count} PR relue et/ou fusionnée",
+          "many": "%{formatted_count} PRs relues et/ou fusionnées",
+          "other": "%{formatted_count} PRs relues et/ou fusionnées"
+        },
+        "authoring": {
+          "one": "%{formatted_count} contribution à un exercice",
+          "many": "%{formatted_count} contributions à des exercices",
+          "other": "%{formatted_count} contributions à des exercices"
+        },
+        "mentoring": {
+          "one": "%{formatted_count} solution mentorée",
+          "many": "%{formatted_count} solutions mentorées",
+          "other": "%{formatted_count} solutions mentorées"
+        },
+        "publishing": {
+          "one": "%{formatted_count} solution publiée",
+          "many": "%{formatted_count} solutions publiées",
+          "other": "%{formatted_count} solutions publiées"
+        }
       }
     }
   }

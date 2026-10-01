@@ -75,7 +75,8 @@
         "new_password_label": "नया पासवर्ड",
         "new_password_placeholder": "नया पासवर्ड डालिए (कम से कम %{minimum_password_length} अक्षर)",
         "confirm_new_password_label": "नए पासवर्ड की पुष्टि करें",
-        "confirm_new_password_placeholder": "अपना नया पासवर्ड दोबारा डालिए"
+        "confirm_new_password_placeholder": "अपना नया पासवर्ड दोबारा डालिए",
+        "exercism_logo_alt": "Exercism का लोगो"
       },
       "new": {
         "forgot_your_password": {
@@ -83,7 +84,8 @@
           "description": "अगर आप अपना पासवर्ड भूल गए हैं, तो इसे बदलने का लिंक माँगने के लिए नीचे दिया गया फॉर्म भरें। बहुत से लोगों को लगता है कि वे अपना पासवर्ड भूल गए हैं, जबकि उन्होंने शुरू में GitHub से साइन इन किया था, इसलिए आप भी वह तरीका आज़माकर देख सकते हैं।"
         },
         "email_placeholder": "अपना ईमेल पता दर्ज करें",
-        "send_instructions_button": "निर्देश भेजें"
+        "send_instructions_button": "निर्देश भेजें",
+        "exercism_logo_alt": "Exercism का लोगो"
       },
       "no_token": "पासवर्ड रीसेट ईमेल से आए बिना आप इस पेज तक नहीं पहुँच सकते। अगर आप पासवर्ड रीसेट ईमेल से आए हैं, तो कृपया ध्यान रखें कि आपने दिया गया पूरा URL इस्तेमाल किया है।",
       "send_instructions": "कुछ मिनटों में आपको एक ईमेल मिलेगा, जिसमें आपका पासवर्ड रीसेट करने के निर्देश होंगे।",
@@ -2198,6 +2200,10 @@
         "title": "Exercism पर %{track_title} में %{exercise_title}",
         "description": "क्या आप %{track_title} में %{exercise_title} हल कर सकते हैं? हमारी विश्व-स्तरीय मेंटर टीम के सहयोग से अपने %{track_title} कौशल सुधारिए।"
       }
+    },
+    "images": {
+      "avatar_alt": "%{handle} का अपलोड किया गया अवतार",
+      "profile_link_title": "%{handle} की प्रोफाइल का लिंक"
     }
   },
   "images": {
@@ -3598,6 +3604,21 @@
           "other": "%{count} PR की समीक्षा की"
         }
       }
+    },
+    "exercise_approach_for_sharing": {
+      "title": "इस अप्रोच को साझा करें"
+    },
+    "exercise_article_for_sharing": {
+      "title": "इस आर्टिकल को साझा करें"
+    },
+    "mentor_requests": {
+      "first_timer": "पहली बार"
+    },
+    "student": {
+      "anonymous_name": "अनाम मोड में उपयोगकर्ता"
+    },
+    "submission_test_run": {
+      "unknown_error": "एक अज्ञात एरर आई।"
     }
   },
   "site_updates": {
@@ -3609,6 +3630,13 @@
     },
     "arbitrary": {
       "1": "<em>%{author_handle}</em> ने एक नया अपडेट प्रकाशित किया।\n"
+    },
+    "maker_handles": {
+      "we": "हम",
+      "with_others": {
+        "one": "%{first}, %{second} और %{count} अन्य",
+        "other": "%{first}, %{second} और %{count} अन्य"
+      }
     }
   },
   "user_activities": {
@@ -4230,6 +4258,33 @@
         "scientific_calculations": "वैज्ञानिक गणनाएँ",
         "scripts": "स्क्रिप्ट",
         "web_development": "वेब डेवलपमेंट"
+      }
+    }
+  },
+  "commands": {
+    "user_reputation_token": {
+      "contextual_data": {
+        "separator": " • ",
+        "building": {
+          "one": "%{formatted_count} PR बनाया गया",
+          "other": "%{formatted_count} PR बनाए गए"
+        },
+        "maintaining": {
+          "one": "%{formatted_count} PR की समीक्षा और/या मर्ज",
+          "other": "%{formatted_count} PR की समीक्षा और/या मर्ज"
+        },
+        "authoring": {
+          "one": "%{formatted_count} अभ्यास में योगदान",
+          "other": "%{formatted_count} अभ्यासों में योगदान"
+        },
+        "mentoring": {
+          "one": "%{formatted_count} हल की मेंटरिंग",
+          "other": "%{formatted_count} हलों की मेंटरिंग"
+        },
+        "publishing": {
+          "one": "%{formatted_count} हल प्रकाशित किया गया",
+          "other": "%{formatted_count} हल प्रकाशित किए गए"
+        }
       }
     }
   }

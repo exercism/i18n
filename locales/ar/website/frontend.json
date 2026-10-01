@@ -135,7 +135,19 @@
     "tasksList.typeSwitcher.docsDescription": "ساعد في بناء توثيق Exercism",
     "tasksList.typeSwitcher.ciDescription": "الأتمتة والتكامل المستمر",
     "tasksList.sizeSwitcher.extraSmall": "صغير جدًا",
-    "tasksList.sizeSwitcher.label": "الحجم"
+    "tasksList.sizeSwitcher.label": "الحجم",
+    "tasksList.showingTasks_zero": "لا مهام",
+    "tasksList.showingTasks_one": "عرض مهمة واحدة",
+    "tasksList.showingTasks_two": "عرض مهمتان",
+    "tasksList.showingTasks_few": "عرض {{count}} مهام",
+    "tasksList.showingTasks_many": "عرض {{count}} مهمة",
+    "tasksList.showingTasks_other": "عرض {{count}} مهمة",
+    "tasksList.outOfPossibleTasks_zero": "من أصل {{count}} مهمة ممكنة",
+    "tasksList.outOfPossibleTasks_one": "من أصل مهمة ممكنة واحدة",
+    "tasksList.outOfPossibleTasks_two": "من أصل مهمتين ممكنتين",
+    "tasksList.outOfPossibleTasks_few": "من أصل {{count}} مهام ممكنة",
+    "tasksList.outOfPossibleTasks_many": "من أصل {{count}} مهمة ممكنة",
+    "tasksList.outOfPossibleTasks_other": "من أصل {{count}} مهمة ممكنة"
   },
   "components/journey/overview/TrackHeaderSummaryText.tsx": {
     "trackList.4": "<0></0>، وبعد ذلك <1></1>، <2></2> و<3></3>.",
@@ -351,11 +363,17 @@
     "userTooltip.unableToLoadUser": "تعذّر تحميل المستخدم"
   },
   "components/track/activity-ticker": {
-    "publishedSolutionLink.newSolution": "<0>حل جديد</0> لـ ",
+    "publishedSolutionLink.newSolution": "<0>حل جديد</0>",
     "handle.someoneInCountry": "شخص ما في {{countryName}}",
     "handle.someone": "شخص ما",
     "userAvatar.userAvatar": "صورة {{handle}} الرمزية",
-    "pullRequestLink.pullRequest": "طلب سحب"
+    "pullRequestLink.pullRequest": "طلب سحب",
+    "sentence.publish_solution_metric": "<0/> نشر <1/> لـ <3/>",
+    "sentence.open_pull_request_metric": "<0/> فتح <2/>",
+    "sentence.merge_pull_request_metric": "<0/> دمج <2/>",
+    "sentence.complete_solution_metric": "<0/> أكمل <3/>",
+    "sentence.start_solution_metric": "<0/> بدأ <3/>",
+    "sentence.submit_submission_metric": "<0/> حاول <3/>"
   },
   "components/track/dig-deeper-components": {
     "deepDiveVideo.deepDiveInto": "تعمّق في {{exerciseTitle}}!",
@@ -670,7 +688,10 @@
   "components/profile/contributions-list": {
     "otherContributionsList.generic": "عام",
     "maintainingContributionsList.generic": "عام",
-    "buildingContributionsList.generic": "عام"
+    "buildingContributionsList.generic": "عام",
+    "buildingContributionsList.inTrack": "في <0/><1>{{track}}</1>",
+    "maintainingContributionsList.inTrack": "في <0/><1>{{track}}</1>",
+    "otherContributionsList.inTrack": "في <0/><1>{{track}}</1>"
   },
   "components/modals/BegModal.tsx": {
     "begModal.weNeedYourHelp": "نحتاج إلى مساعدتك!",
@@ -797,7 +818,8 @@
     "reportStep.back": "رجوع",
     "reportStep.finish": "إنهاء",
     "rateMentorStep.reviewDiscussion": "حان وقت مراجعة هذا النقاش",
-    "rateMentorStep.yourDiscussionTimedOut": "انتهت مدة نقاشك"
+    "rateMentorStep.yourDiscussionTimedOut": "انتهت مدة نقاشك",
+    "rateMentorStep.exerciseInTrack": "<0>{{exercise}}</0> في {{track}}"
   },
   "components/settings/github-syncer/sections/ConnectedSection/ManualSyncSection.tsx": {
     "notePleaseUseThisSparingForExampleWhenYouWantToBootstrapANewRepoThisIsNotDesignedToBePartOfYourNormalWorkflow": "<strong>ملاحظة:</strong> استخدم هذا باعتدال، مثلاً عندما تريد تهيئة مستودع جديد. هذا ليس مصمّمًا ليكون جزءًا من سير عملك المعتاد.",
@@ -1188,7 +1210,12 @@
     "available": "متاح",
     "locked": "مقفل",
     "searchByTitle": "ابحث بالعنوان",
-    "noExercisesFound": "لم يُعثر على أي تمارين"
+    "noExercisesFound": "لم يُعثر على أي تمارين",
+    "statusFilters.allExercises": "كل التمارين",
+    "statusFilters.completed": "مكتمل",
+    "statusFilters.inProgress": "قيد التقدم",
+    "statusFilters.available": "متاح",
+    "statusFilters.locked": "مقفل"
   },
   "components/student/ExerciseStatusChart.tsx": {
     "exerciseStatusChart.invalidStatus": "حالة غير صالحة"
@@ -1351,7 +1378,32 @@
     "tabs.overview": "نظرة عامة",
     "tabs.solutions": "الحلول",
     "tabs.reputation": "السمعة",
-    "tabs.badges": "الشارات"
+    "tabs.badges": "الشارات",
+    "contributionResults.showingContributions_zero": "لا مساهمات",
+    "contributionResults.showingContributions_one": "عرض مساهمة واحدة",
+    "contributionResults.showingContributions_two": "عرض مساهمتان",
+    "contributionResults.showingContributions_few": "عرض {{count}} مساهمات",
+    "contributionResults.showingContributions_many": "عرض {{count}} مساهمة",
+    "contributionResults.showingContributions_other": "عرض {{count}} مساهمة",
+    "badgeResults.showingBadges_zero": "لا شارات",
+    "badgeResults.showingBadges_one": "عرض شارة واحدة",
+    "badgeResults.showingBadges_two": "عرض شارتان",
+    "badgeResults.showingBadges_few": "عرض {{count}} شارات",
+    "badgeResults.showingBadges_many": "عرض {{count}} شارة",
+    "badgeResults.showingBadges_other": "عرض {{count}} شارة",
+    "solution.views_zero": "لا مشاهدات",
+    "solution.views_one": "مشاهدة واحدة",
+    "solution.views_two": "مشاهدتان",
+    "solution.views_few": "{{count}} مشاهدات",
+    "solution.views_many": "{{count}} مشاهدة",
+    "solution.views_other": "{{count}} مشاهدة",
+    "solutionsList.showingSolutions_zero": "لا حلول",
+    "solutionsList.showingSolutions_one": "عرض حل واحد",
+    "solutionsList.showingSolutions_two": "عرض حلان",
+    "solutionsList.showingSolutions_few": "عرض {{count}} حلول",
+    "solutionsList.showingSolutions_many": "عرض {{count}} حلًا",
+    "solutionsList.showingSolutions_other": "عرض {{count}} حل",
+    "contribution.inTrack": "في <0/><1>{{track}}</1>"
   },
   "components/journey/badges-list": {
     "orderSwitcher.sortByUnrevealedFirst": "الترتيب حسب غير المكشوف أولًا",
@@ -1453,7 +1505,7 @@
     "testRunSummaryByStatusHeaderMessage.testFailure": "فشل اختبار",
     "testRunSummaryByStatusHeaderMessage.testFailures": "اختبارات فاشلة",
     "testRunSummaryByStatusHeaderMessage.testsFailed": "فشلت الاختبارات",
-    "testsGroupedByTaskList.task": "مهمة",
+    "testsGroupedByTaskList.task": "مهمة {{id}}",
     "testsGroupedByTaskList.jumpToInstructions": "الانتقال إلى التعليمات",
     "testSummary.passed": "ناجح",
     "testSummary.failed": "فاشل",
@@ -1463,7 +1515,13 @@
     "testSummary.testError": "خطأ اختبار",
     "testSummary.yourOutput": "مخرجاتك",
     "testContentWrapper.fileNotFound": "الملف غير موجود",
-    "jumpToInstructionButton.jumpToInstructions": "الانتقال إلى التعليمات"
+    "jumpToInstructionButton.jumpToInstructions": "الانتقال إلى التعليمات",
+    "testRunSummaryByStatusHeaderMessage.testFailure_zero": "لم يفشل أي اختبار",
+    "testRunSummaryByStatusHeaderMessage.testFailure_one": "فشل اختبار واحد",
+    "testRunSummaryByStatusHeaderMessage.testFailure_two": "فشل اختباران",
+    "testRunSummaryByStatusHeaderMessage.testFailure_few": "فشلت {{count}} اختبارات",
+    "testRunSummaryByStatusHeaderMessage.testFailure_many": "فشل {{count}} اختبارًا",
+    "testRunSummaryByStatusHeaderMessage.testFailure_other": "فشل {{count}} اختبار"
   },
   "components/editor/GetHelp": {
     "getHelpPanelComponents.getHelpPanelTrackHelp.trackHelp": "مساعدة مسار {{trackTitle}}",
@@ -1552,7 +1610,19 @@
     "automationListElement.shownTimes": "عُرض {{number}} مرات",
     "automationListElement.occurenceTime": "الظهور {{number}} مرة",
     "automationListElement.occurenceTimes": "الظهور {{number}} مرات",
-    "automationListElement.inTrackId": "في مسار {{trackTitle}} (#{{id}})"
+    "automationListElement.inTrackId": "في مسار {{trackTitle}} (#{{id}})",
+    "automationListElement.shownTimes_zero": "لم تُعرض مطلقًا",
+    "automationListElement.shownTimes_one": "عُرضت مرة واحدة",
+    "automationListElement.shownTimes_two": "عُرضت مرتين",
+    "automationListElement.shownTimes_few": "عُرضت {{count}} مرات",
+    "automationListElement.shownTimes_many": "عُرضت {{count}} مرة",
+    "automationListElement.shownTimes_other": "عُرضت {{count}} مرة",
+    "automationListElement.occurenceTimes_zero": "لم تتكرر",
+    "automationListElement.occurenceTimes_one": "تكررت مرة واحدة",
+    "automationListElement.occurenceTimes_two": "تكررت مرتين",
+    "automationListElement.occurenceTimes_few": "تكررت {{count}} مرات",
+    "automationListElement.occurenceTimes_many": "تكررت {{count}} مرة",
+    "automationListElement.occurenceTimes_other": "تكررت {{count}} مرة"
   },
   "components/mentoring/automation/Representation.tsx": {
     "needFeedback": "بحاجة إلى ملاحظات",
@@ -1570,7 +1640,19 @@
   "components/mentoring/automation/TrackFilterList.tsx": {
     "trackFilterList.unableToFetchTracks": "تعذّر جلب المسارات",
     "trackFilterList.openTheTrackFilter": "افتح عامل تصفية المسارات",
-    "trackFilterList.clickToChange": "انقر للتغيير"
+    "trackFilterList.clickToChange": "انقر للتغيير",
+    "trackFilterList.submissionCount_zero": "لا إرسالات",
+    "trackFilterList.submissionCount_one": "إرسال واحد",
+    "trackFilterList.submissionCount_two": "إرسالان",
+    "trackFilterList.submissionCount_few": "{{count}} إرسالات",
+    "trackFilterList.submissionCount_many": "{{count}} إرسالًا",
+    "trackFilterList.submissionCount_other": "{{count}} إرسال",
+    "trackFilterList.representationCount_zero": "لا تمثيلات",
+    "trackFilterList.representationCount_one": "تمثيل واحد",
+    "trackFilterList.representationCount_two": "تمثيلان",
+    "trackFilterList.representationCount_few": "{{count}} تمثيلات",
+    "trackFilterList.representationCount_many": "{{count}} تمثيلًا",
+    "trackFilterList.representationCount_other": "{{count}} تمثيل"
   },
   "components/mentoring/discussion/discussion-post": {
     "discussionPostView.edit": "تعديل"
@@ -1626,7 +1708,13 @@
     "components.mentoring.session.mentorNotes.improveNotes": "حسّن هذه الملاحظات",
     "components.mentoring.session.mentorNotes.communityNotes": "هذه الملاحظات من كتابة مجتمعنا. ساعدنا في تحسينها عبر إرسال <0>Pull Request على GitHub</0>.",
     "components.mentoring.session.previousSessionsLink.opensInModal": "يُفتح في نافذة منبثقة",
-    "components.mentoring.session.previousSessionsLink.seePreviousSessions": "شاهد {{numPrevious}} من {{sessions}} السابقة"
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions": "شاهد {{numPrevious}} من {{sessions}} السابقة",
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions_zero": "اعرض {{count}} جلسات سابقة",
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions_one": "اعرض {{count}} جلسة سابقة",
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions_two": "اعرض {{count}} جلستين سابقتين",
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions_few": "اعرض {{count}} جلسات سابقة",
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions_many": "اعرض {{count}} جلسة سابقة",
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions_other": "اعرض {{count}} جلسة سابقة"
   },
   "components/common/HandleWithFlair.tsx": {
     "flair.insider": "عضو في Insiders",
@@ -1756,7 +1844,7 @@
     "conceptsLearntSummary.conceptsLearnt": "مفاهيم متعلَّمة",
     "headerSummary.youVeProgressed": "لقد أحرزت أكبر تقدّم في ",
     "learningStats.didYouKnow": "هل تعلم؟",
-    "learningStats.linesOfCodeStat": "لقد كتبت <strong>{{numLines}} {{lineLabel}}</strong> من الكود في <link>{{numSolutions}} {{solutionLabel}}</link>.",
+    "learningStats.linesOfCodeStat": "لقد كتبت <strong>{{lines}}</strong> من الكود في <link>{{solutions}}</link>.",
     "learningStats.aesopFact": "وهذا يعادل تقريبًا طول <fableLink>إحدى خرافات إيسوب!</fableLink>",
     "trackSummary.exercisesCompleted": "تم إكمال {{completed}} / {{total}} ({{percent}}%) من التمارين",
     "trackSummary.joinedTrack": "عندما انضممت إلى مسار {{title}}",
@@ -1766,7 +1854,19 @@
     "tracksEnrolledSummary.tracksEnrolled_two": "مساران مسجّلان",
     "tracksEnrolledSummary.tracksEnrolled_few": "مسارات مسجّلة",
     "tracksEnrolledSummary.tracksEnrolled_many": "مسارًا مسجّلًا",
-    "tracksEnrolledSummary.tracksEnrolled_other": "مسار مسجّل"
+    "tracksEnrolledSummary.tracksEnrolled_other": "مسار مسجّل",
+    "learningStats.lineCount_zero": "لا أسطر",
+    "learningStats.lineCount_one": "سطر واحد",
+    "learningStats.lineCount_two": "سطران",
+    "learningStats.lineCount_few": "{{formattedCount}} أسطر",
+    "learningStats.lineCount_many": "{{formattedCount}} سطرًا",
+    "learningStats.lineCount_other": "{{formattedCount}} سطر",
+    "learningStats.solutionCount_zero": "لا حلول",
+    "learningStats.solutionCount_one": "حل واحد",
+    "learningStats.solutionCount_two": "حلان",
+    "learningStats.solutionCount_few": "{{count}} حلول",
+    "learningStats.solutionCount_many": "{{count}} حلًا",
+    "learningStats.solutionCount_other": "{{count}} حل"
   },
   "components/journey/overview/learning-section/track-summary/TrackProgressBar.tsx": {
     "trackProgressBar.completed": "مكتمل"
@@ -1816,7 +1916,12 @@
     "infoMessage.insiderAccessToDarkMode": "بصفتك أحد أعضاء Insiders في Exercism، يمكنك استخدام الوضع الداكن. اختر بين الوضع الفاتح أو الداكن، أو التحديث التلقائي وفقًا لتفضيلات نظامك. استمتع! 💎",
     "infoMessage.eligibleToJoinInsiders": "أنت مؤهل للانضمام إلى Insiders. <0>ابدأ من هنا.</0>",
     "infoMessage.darkModeOnlyAvailableToInsiders": "الوضع الداكن متاح لأعضاء Insiders في Exercism فقط. <0>تبرّع لـ Exercism</0> وكن أحد أعضاء Insiders للوصول إلى الوضع الداكن وExercism AI والمزيد.",
-    "disabledTooltip.mustBeExercismInsider": "يجب أن تكون أحد <0>أعضاء Insiders في Exercism <1/></0> لفتح هذا المظهر."
+    "disabledTooltip.mustBeExercismInsider": "يجب أن تكون أحد <0>أعضاء Insiders في Exercism <1/></0> لفتح هذا المظهر.",
+    "themeButton.themes.light": "فاتح",
+    "themeButton.themes.dark": "داكن",
+    "themeButton.themes.system": "النظام",
+    "themeButton.themes.sepia": "تباين منخفض",
+    "themeButton.themes.accessibility-dark": "داكن لسهولة الوصول"
   },
   "components/settings/ThemePreferenceForm.tsx": {
     "themePreferenceForm.theme": "المظهر"
@@ -2234,7 +2339,13 @@
     "commentsList.header.writeAComment": "اكتب تعليقًا",
     "starButton.numberOfStars": "عدد النجوم",
     "starButton.favorite": "أضف إلى المفضلة",
-    "starButton.favorited": "في المفضلة"
+    "starButton.favorited": "في المفضلة",
+    "commentsList.count.numberOfComments_zero": "لا تعليقات",
+    "commentsList.count.numberOfComments_one": "تعليق واحد",
+    "commentsList.count.numberOfComments_two": "تعليقان",
+    "commentsList.count.numberOfComments_few": "{{count}} تعليقات",
+    "commentsList.count.numberOfComments_many": "{{count}} تعليقًا",
+    "commentsList.count.numberOfComments_other": "{{count}} تعليق"
   },
   "components/donations/subscription-form": {
     "formOptions.initializedOption.changeAmount": "تغيير المبلغ",
@@ -2457,7 +2568,13 @@
     "previewFooter.submit": "إرسال",
     "previewFooter.example": "مثال",
     "previewFeedbackComment.gaveThisFeedback": "قدّم <0>{{mentorName}}</0> هذه الملاحظات على حل مطابق لحلّك تمامًا:",
-    "previewFeedbackComment.commentedOn": "علّق في {{date}}"
+    "previewFeedbackComment.commentedOn": "علّق في {{date}}",
+    "previewFooter.solutionCount_zero": "لا حلول",
+    "previewFooter.solutionCount_one": "حل واحد",
+    "previewFooter.solutionCount_two": "حلان",
+    "previewFooter.solutionCount_few": "{{count}} حلول",
+    "previewFooter.solutionCount_many": "{{count}} حلًا",
+    "previewFooter.solutionCount_other": "{{count}} حل"
   },
   "components/mentoring/representation/right-pane": {
     "automationRules.noGuidance": "لا يمتلك هذا الممثِّل أي توجيهات بعد. يكتب مشرفونا ملاحظات التوجيه لشرح عمليات التطبيع التي تحدث أثناء عملية التمثيل. إذا كنت مشرفًا، فيرجى مساعدتنا في البدء بها لهذا الممثِّل عبر إرسال <0>طلب سحب على GitHub</0>.",
@@ -2590,7 +2707,13 @@
     "selectedTracks_other": "تم تحديد {{count}} مسار",
     "trackCheckbox.trackSelected": "تم تحديد المسار",
     "tracksList.noTracksFound": "لم يتم العثور على مسارات",
-    "continueButton.continue": "متابعة"
+    "continueButton.continue": "متابعة",
+    "trackCheckbox.solutionsQueued_zero": "لا حلول في الانتظار",
+    "trackCheckbox.solutionsQueued_one": "حل واحد في قائمة الانتظار",
+    "trackCheckbox.solutionsQueued_two": "حلان في قائمة الانتظار",
+    "trackCheckbox.solutionsQueued_few": "{{count}} حلول في قائمة الانتظار",
+    "trackCheckbox.solutionsQueued_many": "{{count}} حلًا في قائمة الانتظار",
+    "trackCheckbox.solutionsQueued_other": "{{count}} حل في قائمة الانتظار"
   },
   "components/modals/BadgeModal.tsx": {
     "badgeModal.newBadgeEarned": "حصلت على شارة جديدة",
@@ -2732,5 +2855,72 @@
     "perksExternalModalButton.exercismIsNonProfit": "Exercism منظمة غير ربحية. نحن نقدّم تعليمًا عالمي المستوى، ومجتمعًا رائعًا، ومزايا من شركائنا. انضم إلى Exercism اليوم. إنه مجاني!",
     "perksExternalModalButton.signUp": "سجّل الآن",
     "perksExternalModalButton.logIn": "سجّل الدخول"
+  },
+  "components/common/Credits.tsx": {
+    "byHandle": "بواسطة {{handle}}",
+    "labels.author_zero": "لا مؤلفين",
+    "labels.author_one": "مؤلف واحد",
+    "labels.author_two": "مؤلفان",
+    "labels.author_few": "{{count}} مؤلفين",
+    "labels.author_many": "{{count}} مؤلفًا",
+    "labels.author_other": "{{count}} مؤلف",
+    "labels.contributor_zero": "لا مساهمين",
+    "labels.contributor_one": "مساهم واحد",
+    "labels.contributor_two": "مساهمان",
+    "labels.contributor_few": "{{count}} مساهمين",
+    "labels.contributor_many": "{{count}} مساهمًا",
+    "labels.contributor_other": "{{count}} مساهم"
+  },
+  "components/common/ExerciseIcon.tsx": {
+    "iconForExercise": "أيقونة التمرين المسمّى {{title}}"
+  },
+  "components/common/TrackIcon.tsx": {
+    "iconForTrack": "أيقونة مسار {{title}}"
+  },
+  "components/donations/stripe-form/useStripeForm.ts": {
+    "paymentFailedWithError": "فشل الدفع بسبب الخطأ: {{error}}",
+    "paymentFailedBankMessage": "فشل الدفع. الرسالة التي تلقيناها من مصرفك هي \"{{message}}\"",
+    "cardElementNotFound": "لم يتم العثور على عنصر البطاقة"
+  },
+  "components/dropdowns/notifications": {
+    "notificationsIcon.youHaveNotifications_zero": "ليس لديك إشعارات",
+    "notificationsIcon.youHaveNotifications_one": "لديك إشعار واحد",
+    "notificationsIcon.youHaveNotifications_two": "لديك إشعاران",
+    "notificationsIcon.youHaveNotifications_few": "لديك {{count}} إشعارات",
+    "notificationsIcon.youHaveNotifications_many": "لديك {{count}} إشعارًا",
+    "notificationsIcon.youHaveNotifications_other": "لديك {{count}} إشعار"
+  },
+  "components/editor/AssistantChat/useTurnstile.ts": {
+    "verifyHeading": "يرجى التحقق من أنك لست روبوتًا",
+    "verifyDescription": "تتعرض منصتنا باستمرار لهجمات من الروبوتات (ويبدو أنها متحمسة جدًا لدخول عالم البرمجة!). يرجى تحديد المربع أدناه لتأكيد أنك إنسان."
+  },
+  "components/ErrorBoundary.tsx": {
+    "errorFallback.somethingWentWrong": "حدث خطأ ما. يرجى المحاولة مرة أخرى."
+  },
+  "components/track": {
+    "exerciseMakersButton.authors_zero": "{{count}} مؤلفين",
+    "exerciseMakersButton.authors_one": "{{count}} مؤلف",
+    "exerciseMakersButton.authors_two": "{{count}} مؤلفان",
+    "exerciseMakersButton.authors_few": "{{count}} مؤلفين",
+    "exerciseMakersButton.authors_many": "{{count}} مؤلفًا",
+    "exerciseMakersButton.authors_other": "{{count}} مؤلف",
+    "exerciseMakersButton.contributors_zero": "{{count}} مساهمين",
+    "exerciseMakersButton.contributors_one": "{{count}} مساهم",
+    "exerciseMakersButton.contributors_two": "{{count}} مساهمان",
+    "exerciseMakersButton.contributors_few": "{{count}} مساهمين",
+    "exerciseMakersButton.contributors_many": "{{count}} مساهمًا",
+    "exerciseMakersButton.contributors_other": "{{count}} مساهم",
+    "conceptMakersButton.authors_zero": "{{count}} مؤلفين",
+    "conceptMakersButton.authors_one": "{{count}} مؤلف",
+    "conceptMakersButton.authors_two": "{{count}} مؤلفان",
+    "conceptMakersButton.authors_few": "{{count}} مؤلفين",
+    "conceptMakersButton.authors_many": "{{count}} مؤلفًا",
+    "conceptMakersButton.authors_other": "{{count}} مؤلف",
+    "conceptMakersButton.contributors_zero": "{{count}} مساهمين",
+    "conceptMakersButton.contributors_one": "{{count}} مساهم",
+    "conceptMakersButton.contributors_two": "{{count}} مساهمان",
+    "conceptMakersButton.contributors_few": "{{count}} مساهمين",
+    "conceptMakersButton.contributors_many": "{{count}} مساهمًا",
+    "conceptMakersButton.contributors_other": "{{count}} مساهم"
   }
 }

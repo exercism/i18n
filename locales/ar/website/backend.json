@@ -694,7 +694,8 @@
         "new_password_placeholder": "أدخل كلمة مرور جديدة (بحد أدنى %{minimum_password_length} حرفًا)",
         "confirm_new_password_label": "تأكيد كلمة المرور الجديدة",
         "confirm_new_password_placeholder": "أدخل كلمة مرورك الجديدة مرة أخرى",
-        "change_my_password_button": "تغيير كلمة المرور"
+        "change_my_password_button": "تغيير كلمة المرور",
+        "exercism_logo_alt": "شعار Exercism"
       },
       "no_token": "لا يمكنك الوصول إلى هذه الصفحة دون الوصول إليها من رسالة إعادة تعيين كلمة المرور. إذا وصلت إليها من رسالة إعادة تعيين كلمة المرور، فيرجى التأكد من استخدام الرابط الكامل المرفق.",
       "send_instructions": "ستتلقى رسالة بريد إلكتروني تحتوي على تعليمات حول كيفية إعادة تعيين كلمة المرور خلال بضع دقائق.",
@@ -707,7 +708,8 @@
           "description": "إذا نسيت كلمة المرور، فاستخدم النموذج أدناه لطلب رابط لتغييرها. كثير من الأشخاص الذين يظنون أنهم نسوا كلمة المرور كانوا قد سجّلوا الدخول أصلًا باستخدام GitHub، لذا قد يجدر بك تجربة ذلك أيضًا."
         },
         "email_placeholder": "أدخل بريدك الإلكتروني",
-        "send_instructions_button": "إرسال التعليمات"
+        "send_instructions_button": "إرسال التعليمات",
+        "exercism_logo_alt": "شعار Exercism"
       }
     },
     "failure": {
@@ -4142,6 +4144,10 @@
         "title": "%{exercise_title} في %{track_title} على Exercism",
         "description": "هل يمكنك حل %{exercise_title} في %{track_title}؟ طوّر مهاراتك في %{track_title} بدعم من فريقنا العالمي من المرشدين."
       }
+    },
+    "images": {
+      "avatar_alt": "الصورة الرمزية المرفوعة لـ %{handle}",
+      "profile_link_title": "رابط إلى الملف الشخصي لـ %{handle}"
     }
   },
   "localization": {
@@ -4367,6 +4373,21 @@
           "other": "تمت مراجعة %{count} طلب سحب"
         }
       }
+    },
+    "exercise_approach_for_sharing": {
+      "title": "شارك هذا الأسلوب"
+    },
+    "exercise_article_for_sharing": {
+      "title": "شارك هذا المقال"
+    },
+    "mentor_requests": {
+      "first_timer": "مستخدم لأول مرة"
+    },
+    "student": {
+      "anonymous_name": "مستخدم في الوضع المجهول"
+    },
+    "submission_test_run": {
+      "unknown_error": "حدث خطأ غير معروف"
     }
   },
   "site_updates": {
@@ -4378,6 +4399,17 @@
     },
     "arbitrary": {
       "1": "<em>%{author_handle}</em> نشر تحديثًا جديدًا.\n"
+    },
+    "maker_handles": {
+      "we": "نحن",
+      "with_others": {
+        "zero": "%{first}، %{second}",
+        "one": "%{first}، %{second}، و%{count} آخر",
+        "two": "%{first}، %{second}، و%{count} آخران",
+        "few": "%{first}، %{second}، و%{count} آخرون",
+        "many": "%{first}، %{second}، و%{count} آخر",
+        "other": "%{first}، %{second}، و%{count} آخر"
+      }
     }
   },
   "user_activities": {
@@ -4465,6 +4497,53 @@
         "scientific_calculations": "الحسابات العلمية",
         "scripts": "نصوص برمجية",
         "web_development": "تطوير الويب"
+      }
+    }
+  },
+  "commands": {
+    "user_reputation_token": {
+      "contextual_data": {
+        "separator": " • ",
+        "building": {
+          "zero": "لم يُنشأ أي طلب سحب",
+          "one": "إنشاء %{formatted_count} طلب سحب",
+          "two": "إنشاء %{formatted_count} طلبَي سحب",
+          "few": "إنشاء %{formatted_count} طلبات سحب",
+          "many": "إنشاء %{formatted_count} طلب سحب",
+          "other": "إنشاء %{formatted_count} طلب سحب"
+        },
+        "maintaining": {
+          "zero": "لم تتم مراجعة أو دمج أي طلب سحب",
+          "one": "مراجعة و/أو دمج %{formatted_count} طلب سحب",
+          "two": "مراجعة و/أو دمج %{formatted_count} طلبَي سحب",
+          "few": "مراجعة و/أو دمج %{formatted_count} طلبات سحب",
+          "many": "مراجعة و/أو دمج %{formatted_count} طلب سحب",
+          "other": "مراجعة و/أو دمج %{formatted_count} طلب سحب"
+        },
+        "authoring": {
+          "zero": "لم تكن هناك أي مساهمة في التمارين",
+          "one": "%{formatted_count} مساهمة في التمارين",
+          "two": "%{formatted_count} مساهمتان في التمارين",
+          "few": "%{formatted_count} مساهمات في التمارين",
+          "many": "%{formatted_count} مساهمة في التمارين",
+          "other": "%{formatted_count} مساهمة في التمارين"
+        },
+        "mentoring": {
+          "zero": "لم يتم إرشاد أي حل",
+          "one": "إرشاد %{formatted_count} حل",
+          "two": "إرشاد %{formatted_count} حلّين",
+          "few": "إرشاد %{formatted_count} حلول",
+          "many": "إرشاد %{formatted_count} حل",
+          "other": "إرشاد %{formatted_count} حل"
+        },
+        "publishing": {
+          "zero": "لم يتم نشر أي حل",
+          "one": "نشر %{formatted_count} حل",
+          "two": "نشر %{formatted_count} حلّين",
+          "few": "نشر %{formatted_count} حلول",
+          "many": "نشر %{formatted_count} حل",
+          "other": "نشر %{formatted_count} حل"
+        }
       }
     }
   }

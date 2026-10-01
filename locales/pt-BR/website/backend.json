@@ -622,6 +622,10 @@
         "title": "%{exercise_title} em %{track_title} no Exercism",
         "description": "Você consegue resolver %{exercise_title} em %{track_title}? Melhore suas habilidades em %{track_title} com o apoio do nosso time de mentores de nível mundial."
       }
+    },
+    "images": {
+      "avatar_alt": "Avatar enviado por %{handle}",
+      "profile_link_title": "Link para o perfil de %{handle}"
     }
   },
   "images": {
@@ -2000,7 +2004,8 @@
         "new_password_placeholder": "Digite uma nova senha (mín. %{minimum_password_length} caracteres)",
         "confirm_new_password_label": "Confirme a nova senha",
         "confirm_new_password_placeholder": "Digite sua nova senha novamente",
-        "change_my_password_button": "Alterar minha senha"
+        "change_my_password_button": "Alterar minha senha",
+        "exercism_logo_alt": "Logotipo do Exercism"
       },
       "new": {
         "forgot_your_password": {
@@ -2008,7 +2013,8 @@
           "description": "Se você esqueceu sua senha, use o formulário abaixo para solicitar um link para alterá-la. Muitas pessoas que acham que esqueceram a senha entraram originalmente pelo GitHub, então pode valer a pena tentar isso também."
         },
         "email_placeholder": "Digite seu endereço de e-mail",
-        "send_instructions_button": "Enviar instruções"
+        "send_instructions_button": "Enviar instruções",
+        "exercism_logo_alt": "Logotipo do Exercism"
       },
       "no_token": "Você não pode acessar esta página sem ter vindo de um email de redefinição de senha. Se você veio de um email de redefinição de senha, verifique se usou a URL completa fornecida.",
       "send_instructions": "Você vai receber um email com instruções sobre como redefinir sua senha em alguns minutos.",
@@ -3936,6 +3942,21 @@
           "other": "%{count} PRs revisados"
         }
       }
+    },
+    "exercise_approach_for_sharing": {
+      "title": "Compartilhe esta abordagem"
+    },
+    "exercise_article_for_sharing": {
+      "title": "Compartilhe este artigo"
+    },
+    "mentor_requests": {
+      "first_timer": "Estreante"
+    },
+    "student": {
+      "anonymous_name": "Usuário no modo anônimo"
+    },
+    "submission_test_run": {
+      "unknown_error": "Ocorreu um erro desconhecido"
     }
   },
   "site_updates": {
@@ -3947,6 +3968,14 @@
     },
     "arbitrary": {
       "1": "<em>%{author_handle}</em> publicou uma nova atualização.\n"
+    },
+    "maker_handles": {
+      "we": "Nós",
+      "with_others": {
+        "one": "%{first}, %{second} e %{count} outro",
+        "many": "%{first}, %{second} e %{count} outros",
+        "other": "%{first}, %{second} e %{count} outros"
+      }
     }
   },
   "user_activities": {
@@ -4291,6 +4320,38 @@
         "scientific_calculations": "Cálculos científicos",
         "scripts": "Scripts",
         "web_development": "Desenvolvimento web"
+      }
+    }
+  },
+  "commands": {
+    "user_reputation_token": {
+      "contextual_data": {
+        "separator": " • ",
+        "building": {
+          "one": "%{formatted_count} PR criado",
+          "many": "%{formatted_count} PRs criados",
+          "other": "%{formatted_count} PRs criados"
+        },
+        "maintaining": {
+          "one": "%{formatted_count} PR revisado e/ou mesclado",
+          "many": "%{formatted_count} PRs revisados e/ou mesclados",
+          "other": "%{formatted_count} PRs revisados e/ou mesclados"
+        },
+        "authoring": {
+          "one": "%{formatted_count} contribuição de exercício",
+          "many": "%{formatted_count} contribuições de exercício",
+          "other": "%{formatted_count} contribuições de exercício"
+        },
+        "mentoring": {
+          "one": "%{formatted_count} solução mentorada",
+          "many": "%{formatted_count} soluções mentoradas",
+          "other": "%{formatted_count} soluções mentoradas"
+        },
+        "publishing": {
+          "one": "%{formatted_count} solução publicada",
+          "many": "%{formatted_count} soluções publicadas",
+          "other": "%{formatted_count} soluções publicadas"
+        }
       }
     }
   }

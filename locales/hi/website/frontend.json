@@ -137,7 +137,11 @@
     "tasksList.typeSwitcher.docsDescription": "Exercism के डॉक्स बनाने में मदद करना",
     "tasksList.typeSwitcher.ciDescription": "ऑटोमेशन और कंटिन्यूअस इंटीग्रेशन",
     "tasksList.sizeSwitcher.extraSmall": "बहुत छोटा",
-    "tasksList.sizeSwitcher.label": "साइज़"
+    "tasksList.sizeSwitcher.label": "साइज़",
+    "tasksList.showingTasks_one": "{{count}} कार्य दिखाया जा रहा है",
+    "tasksList.showingTasks_other": "{{count}} कार्य दिखाए जा रहे हैं",
+    "tasksList.outOfPossibleTasks_one": "{{count}} संभावित कार्य में से",
+    "tasksList.outOfPossibleTasks_other": "{{count}} संभावित कार्यों में से"
   },
   "components/settings/CommunicationPreferencesForm.tsx": {
     "successMessage.updatedPreferences": "आपकी प्राथमिकताएँ अपडेट कर दी गई हैं",
@@ -326,7 +330,9 @@
     "commentsList.header.writeAComment": "टिप्पणी लिखें",
     "starButton.numberOfStars": "स्टारों की संख्या",
     "starButton.favorite": "पसंदीदा",
-    "starButton.favorited": "पसंदीदा में जोड़ा गया"
+    "starButton.favorited": "पसंदीदा में जोड़ा गया",
+    "commentsList.count.numberOfComments_one": "{{count}} टिप्पणी",
+    "commentsList.count.numberOfComments_other": "{{count}} टिप्पणियाँ"
   },
   "components/concept-map": {
     "exerciseStatusBar.exerciseStatusDotTooltip": "अभ्यास स्थिति बिंदु का टूलटिप",
@@ -1066,7 +1072,12 @@
     "available": "उपलब्ध",
     "locked": "लॉक",
     "searchByTitle": "शीर्षक से खोजें",
-    "noExercisesFound": "कोई अभ्यास नहीं मिला"
+    "noExercisesFound": "कोई अभ्यास नहीं मिला",
+    "statusFilters.allExercises": "सभी अभ्यास",
+    "statusFilters.completed": "पूरे हुए",
+    "statusFilters.inProgress": "प्रगति पर",
+    "statusFilters.available": "उपलब्ध",
+    "statusFilters.locked": "लॉक"
   },
   "components/student/ExerciseStatusChart.tsx": {
     "exerciseStatusChart.invalidStatus": "अमान्य स्टेटस"
@@ -1162,7 +1173,7 @@
     "conceptsLearntSummary.conceptsLearnt": "कॉन्सेप्ट सीखे",
     "headerSummary.youVeProgressed": "आपने सबसे ज़्यादा प्रगति की है ",
     "learningStats.didYouKnow": "क्या आप जानते हैं?",
-    "learningStats.linesOfCodeStat": "आपने <link>{{numSolutions}} {{solutionLabel}}</link> में <strong>{{numLines}} {{lineLabel}}</strong> कोड लिखा है।",
+    "learningStats.linesOfCodeStat": "आपने <link>{{solutions}}</link> में <strong>{{lines}}</strong> कोड लिखा है।",
     "learningStats.aesopFact": "यह लगभग एक <fableLink>ईसप की कहानी</fableLink> की लंबाई के बराबर है!",
     "tracksEnrolledSummary.tracksEnrolled_one": "ट्रैक जॉइन किया",
     "tracksEnrolledSummary.tracksEnrolled_other": "ट्रैक जॉइन किए",
@@ -1183,7 +1194,11 @@
     "trackSummary.velocityExplanation": "यह बताता है कि पिछले 6 महीनों में आपने ट्रैक में कितनी तेज़ी से प्रगति की है।",
     "learningOverview.youReThroughSingle": "आप अपने नामांकित ट्रैक का <em>{{percentage}}%</em> पूरा कर चुके हैं। <strong>ऐसे ही आगे बढ़ते रहिए!</strong>",
     "learningOverview.youReThroughMultiple": "आप अपने नामांकित ट्रैक का <em>{{percentage}}%</em> पूरा कर चुके हैं। <strong>ऐसे ही आगे बढ़ते रहिए!</strong>",
-    "learningOverview.exercisesCompleted": "{{completed}} / {{total}} अभ्यास पूरे हुए"
+    "learningOverview.exercisesCompleted": "{{completed}} / {{total}} अभ्यास पूरे हुए",
+    "learningStats.lineCount_one": "{{formattedCount}} लाइन",
+    "learningStats.lineCount_other": "{{formattedCount}} लाइन",
+    "learningStats.solutionCount_one": "{{count}} हल",
+    "learningStats.solutionCount_other": "{{count}} हल"
   },
   "components/settings/github-syncer/sections/ConnectedSection/SyncBehaviourSection.tsx": {
     "syncBehaviour.syncBehaviour": "सिंक व्यवहार",
@@ -1397,7 +1412,9 @@
     "previewFooter.submit": "जमा करें",
     "previewFooter.example": "उदाहरण",
     "previewFeedbackComment.gaveThisFeedback": "<0>{{mentorName}}</0> ने ठीक आपके जैसे हल पर यह फीडबैक दिया:",
-    "previewFeedbackComment.commentedOn": "{{date}} को टिप्पणी की"
+    "previewFeedbackComment.commentedOn": "{{date}} को टिप्पणी की",
+    "previewFooter.solutionCount_one": "{{count}} हल",
+    "previewFooter.solutionCount_other": "{{count}} हल"
   },
   "components/mentoring/representation/right-pane": {
     "automationRules.noGuidance": "इस रिप्रेज़ेंटर के लिए अभी कोई मार्गदर्शन नहीं है। मार्गदर्शन नोट्स हमारे मेंटेनर लिखते हैं, ताकि यह समझाया जा सके कि रिप्रेज़ेंटेशन की प्रक्रिया में कौन-कौन से नॉर्मलाइज़ेशन होते हैं। अगर आप मेंटेनर हैं, तो कृपया <0>GitHub पर पुल रिक्वेस्ट</0> भेजकर इस रिप्रेज़ेंटर की शुरुआत करने में मदद कीजिए।",
@@ -1503,7 +1520,8 @@
     "reportStep.back": "वापस",
     "reportStep.finish": "पूरा करें",
     "rateMentorStep.reviewDiscussion": "अब इस चर्चा की समीक्षा करने का समय है",
-    "rateMentorStep.yourDiscussionTimedOut": "आपकी चर्चा का समय समाप्त हो गया"
+    "rateMentorStep.yourDiscussionTimedOut": "आपकी चर्चा का समय समाप्त हो गया",
+    "rateMentorStep.exerciseInTrack": "{{track}} में <0>{{exercise}}</0>"
   },
   "components/modals/TaskHintsModal.tsx": {
     "taskHintsModal.hintsAndTips": "संकेत और सुझाव"
@@ -1581,7 +1599,10 @@
   "components/profile/contributions-list": {
     "otherContributionsList.generic": "सामान्य",
     "maintainingContributionsList.generic": "सामान्य",
-    "buildingContributionsList.generic": "सामान्य"
+    "buildingContributionsList.generic": "सामान्य",
+    "buildingContributionsList.inTrack": "<0/><1>{{track}}</1> में",
+    "maintainingContributionsList.inTrack": "<0/><1>{{track}}</1> में",
+    "otherContributionsList.inTrack": "<0/><1>{{track}}</1> में"
   },
   "components/student/mentoring-dropdown": {
     "discussionList.codeReviewSessions": "कोड समीक्षा सेशन",
@@ -1791,7 +1812,9 @@
     "selectedTracks_other": "{{count}} ट्रैक चुने गए",
     "trackCheckbox.trackSelected": "ट्रैक चुना गया",
     "tracksList.noTracksFound": "कोई ट्रैक नहीं मिला",
-    "continueButton.continue": "जारी रखें"
+    "continueButton.continue": "जारी रखें",
+    "trackCheckbox.solutionsQueued_one": "{{count}} हल कतार में है",
+    "trackCheckbox.solutionsQueued_other": "{{count}} हल कतार में हैं"
   },
   "components/modals/BadgeModal.tsx": {
     "badgeModal.newBadgeEarned": "नया बैज मिला",
@@ -1957,7 +1980,9 @@
     "components.mentoring.session.mentorNotes.improveNotes": "इन नोट को बेहतर बनाएँ",
     "components.mentoring.session.mentorNotes.communityNotes": "ये नोट हमारे समुदाय के लोग लिखते हैं। कृपया इन्हें बेहतर बनाने में मदद कीजिए और <0>GitHub पर Pull Request</0> भेजिए।",
     "components.mentoring.session.previousSessionsLink.opensInModal": "मॉडल में खुलता है",
-    "components.mentoring.session.previousSessionsLink.seePreviousSessions": "{{numPrevious}} पिछले {{sessions}} देखें"
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions": "{{numPrevious}} पिछले {{sessions}} देखें",
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions_one": "{{count}} पिछला सेशन देखें",
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions_other": "{{count}} पिछले सेशन देखें"
   },
   "components/common/HandleWithFlair.tsx": {
     "flair.insider": "एक Insider",
@@ -2087,7 +2112,16 @@
     "tabs.overview": "अवलोकन",
     "tabs.solutions": "हल",
     "tabs.reputation": "प्रतिष्ठा",
-    "tabs.badges": "बैज"
+    "tabs.badges": "बैज",
+    "contributionResults.showingContributions_one": "{{count}} योगदान दिखाया जा रहा है",
+    "contributionResults.showingContributions_other": "{{count}} योगदान दिखाए जा रहे हैं",
+    "badgeResults.showingBadges_one": "{{count}} बैज दिखाया जा रहा है",
+    "badgeResults.showingBadges_other": "{{count}} बैज दिखाए जा रहे हैं",
+    "solution.views_one": "{{count}} व्यू",
+    "solution.views_other": "{{count}} व्यू",
+    "solutionsList.showingSolutions_one": "{{count}} हल दिखाया जा रहा है",
+    "solutionsList.showingSolutions_other": "{{count}} हल दिखाए जा रहे हैं",
+    "contribution.inTrack": "<0/><1>{{track}}</1> में"
   },
   "components/journey/badges-list": {
     "orderSwitcher.sortByUnrevealedFirst": "क्रमबद्ध करें: छिपे हुए पहले",
@@ -2163,11 +2197,17 @@
     "userTooltip.unableToLoadUser": "उपयोगकर्ता लोड नहीं हो सका"
   },
   "components/track/activity-ticker": {
-    "publishedSolutionLink.newSolution": "<0>नया हल</0> के लिए ",
+    "publishedSolutionLink.newSolution": "<0>नया हल</0>",
     "handle.someoneInCountry": "{{countryName}} में कोई",
     "handle.someone": "कोई",
     "userAvatar.userAvatar": "{{handle}} का अवतार",
-    "pullRequestLink.pullRequest": "पुल रिक्वेस्ट"
+    "pullRequestLink.pullRequest": "पुल रिक्वेस्ट",
+    "sentence.publish_solution_metric": "<0/> ने <3/> के लिए एक <1/> प्रकाशित किया",
+    "sentence.open_pull_request_metric": "<0/> ने एक <2/> खोला",
+    "sentence.merge_pull_request_metric": "<0/> ने एक <2/> मर्ज किया",
+    "sentence.complete_solution_metric": "<0/> ने <3/> पूरा किया",
+    "sentence.start_solution_metric": "<0/> ने <3/> शुरू किया",
+    "sentence.submit_submission_metric": "<0/> ने <3/> को हल करने की कोशिश की"
   },
   "components/track/dig-deeper-components": {
     "deepDiveVideo.deepDiveInto": "{{exerciseTitle}} में गहराई से उतरिए!",
@@ -2216,7 +2256,12 @@
     "infoMessage.insiderAccessToDarkMode": "Exercism Insider होने के नाते आपके पास डार्क मोड की सुविधा है। लाइट, डार्क, या अपने सिस्टम की प्राथमिकताओं के अनुसार अपने आप बदलने के बीच चुनिए। आनंद लीजिए! 💎",
     "infoMessage.eligibleToJoinInsiders": "आप Insiders में शामिल होने के योग्य हैं। <0>यहाँ से शुरू करें।</0>",
     "infoMessage.darkModeOnlyAvailableToInsiders": "डार्क मोड केवल Exercism Insiders के लिए उपलब्ध है। डार्क मोड, Exercism AI और बहुत कुछ इस्तेमाल करने के लिए <0>Exercism को दान करें</0> और Insider बन जाएँ।",
-    "disabledTooltip.mustBeExercismInsider": "इस थीम को अनलॉक करने के लिए आपको <0>Exercism Insider <1/></0> होना चाहिए।"
+    "disabledTooltip.mustBeExercismInsider": "इस थीम को अनलॉक करने के लिए आपको <0>Exercism Insider <1/></0> होना चाहिए।",
+    "themeButton.themes.light": "हल्का",
+    "themeButton.themes.dark": "गहरा",
+    "themeButton.themes.system": "सिस्टम",
+    "themeButton.themes.sepia": "कम कंट्रास्ट",
+    "themeButton.themes.accessibility-dark": "एक्सेसिबिलिटी गहरा"
   },
   "components/settings/ThemePreferenceForm.tsx": {
     "themePreferenceForm.theme": "थीम"
@@ -2309,7 +2354,11 @@
     "automationListElement.shownTimes": "{{number}} बार दिखाया गया",
     "automationListElement.occurenceTime": "{{number}} बार हुआ",
     "automationListElement.occurenceTimes": "{{number}} बार हुआ",
-    "automationListElement.inTrackId": "{{trackTitle}} (#{{id}}) में"
+    "automationListElement.inTrackId": "{{trackTitle}} (#{{id}}) में",
+    "automationListElement.shownTimes_one": "{{count}} बार दिखाया गया",
+    "automationListElement.shownTimes_other": "{{count}} बार दिखाया गया",
+    "automationListElement.occurenceTimes_one": "{{count}} बार हुआ",
+    "automationListElement.occurenceTimes_other": "{{count}} बार हुआ"
   },
   "components/mentoring/automation/Representation.tsx": {
     "needFeedback": "फीडबैक चाहिए",
@@ -2327,7 +2376,11 @@
   "components/mentoring/automation/TrackFilterList.tsx": {
     "trackFilterList.unableToFetchTracks": "ट्रैक लाए नहीं जा सके",
     "trackFilterList.openTheTrackFilter": "ट्रैक फिल्टर खोलें",
-    "trackFilterList.clickToChange": "बदलने के लिए क्लिक करें"
+    "trackFilterList.clickToChange": "बदलने के लिए क्लिक करें",
+    "trackFilterList.submissionCount_one": "{{count}} सबमिशन",
+    "trackFilterList.submissionCount_other": "{{count}} सबमिशन",
+    "trackFilterList.representationCount_one": "{{count}} रेप्रेज़ेंटेशन",
+    "trackFilterList.representationCount_other": "{{count}} रेप्रेज़ेंटेशन"
   },
   "components/mentoring/discussion/discussion-post": {
     "discussionPostView.edit": "संपादित करें"
@@ -2498,7 +2551,7 @@
     "testRunSummaryByStatusHeaderMessage.testFailure": "टेस्ट फेल हुआ",
     "testRunSummaryByStatusHeaderMessage.testFailures": "टेस्ट फेल हुए",
     "testRunSummaryByStatusHeaderMessage.testsFailed": "टेस्ट फेल हुए",
-    "testsGroupedByTaskList.task": "कार्य",
+    "testsGroupedByTaskList.task": "कार्य {{id}}",
     "testsGroupedByTaskList.jumpToInstructions": "निर्देशों पर जाएँ",
     "testSummary.passed": "पास",
     "testSummary.failed": "फेल",
@@ -2508,7 +2561,9 @@
     "testSummary.testError": "टेस्ट एरर",
     "testSummary.yourOutput": "आपका आउटपुट",
     "testContentWrapper.fileNotFound": "फाइल नहीं मिली",
-    "jumpToInstructionButton.jumpToInstructions": "निर्देशों पर जाएँ"
+    "jumpToInstructionButton.jumpToInstructions": "निर्देशों पर जाएँ",
+    "testRunSummaryByStatusHeaderMessage.testFailure_one": "{{count}} टेस्ट विफलता",
+    "testRunSummaryByStatusHeaderMessage.testFailure_other": "{{count}} टेस्ट विफलताएँ"
   },
   "components/track/UnlockHelpButton.tsx": {
     "unlockHelpButton.unlockThisTab": "इस टैब को अनलॉक करें",
@@ -2552,5 +2607,44 @@
     "components.mentoring.session.cancelledRequestModal.closeThisModal": "यह मोडल बंद करें",
     "components.mentoring.session.filePanel.instructions": "निर्देश",
     "components.mentoring.session.filePanel.tests": "टेस्ट"
+  },
+  "components/common/Credits.tsx": {
+    "byHandle": "{{handle}} द्वारा",
+    "labels.author_one": "{{count}} लेखक",
+    "labels.author_other": "{{count}} लेखक",
+    "labels.contributor_one": "{{count}} योगदानकर्ता",
+    "labels.contributor_other": "{{count}} योगदानकर्ता"
+  },
+  "components/common/ExerciseIcon.tsx": {
+    "iconForExercise": "{{title}} नाम के अभ्यास का आइकन"
+  },
+  "components/common/TrackIcon.tsx": {
+    "iconForTrack": "{{title}} ट्रैक का आइकन"
+  },
+  "components/donations/stripe-form/useStripeForm.ts": {
+    "paymentFailedWithError": "भुगतान एरर के साथ विफल रहा: {{error}}",
+    "paymentFailedBankMessage": "आपका भुगतान विफल रहा। आपके बैंक से जो संदेश मिला, वह यह था: \"{{message}}\"",
+    "cardElementNotFound": "कार्ड एलिमेंट नहीं मिला"
+  },
+  "components/dropdowns/notifications": {
+    "notificationsIcon.youHaveNotifications_one": "आपके पास {{count}} नोटिफिकेशन है",
+    "notificationsIcon.youHaveNotifications_other": "आपके पास {{count}} नोटिफिकेशन हैं"
+  },
+  "components/editor/AssistantChat/useTurnstile.ts": {
+    "verifyHeading": "कृपया पुष्टि कीजिए कि आप बॉट नहीं हैं",
+    "verifyDescription": "हम पर लगातार बॉट हमला करते रहते हैं (लगता है उन्हें कोडिंग में बहुत दिलचस्पी है!)। नीचे दिए बॉक्स पर टिक कीजिए और पुष्टि कीजिए कि आप इंसान हैं।"
+  },
+  "components/ErrorBoundary.tsx": {
+    "errorFallback.somethingWentWrong": "कुछ गड़बड़ हो गई। कृपया फिर से कोशिश कीजिए।"
+  },
+  "components/track": {
+    "exerciseMakersButton.authors_one": "{{count}} लेखक",
+    "exerciseMakersButton.authors_other": "{{count}} लेखक",
+    "exerciseMakersButton.contributors_one": "{{count}} योगदानकर्ता",
+    "exerciseMakersButton.contributors_other": "{{count}} योगदानकर्ता",
+    "conceptMakersButton.authors_one": "{{count}} लेखक",
+    "conceptMakersButton.authors_other": "{{count}} लेखक",
+    "conceptMakersButton.contributors_one": "{{count}} योगदानकर्ता",
+    "conceptMakersButton.contributors_other": "{{count}} योगदानकर्ता"
   }
 }

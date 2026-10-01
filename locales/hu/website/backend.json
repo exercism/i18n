@@ -567,7 +567,8 @@
         "new_password_placeholder": "Adj meg egy új jelszót (legalább %{minimum_password_length} karakter)",
         "confirm_new_password_label": "Új jelszó megerősítése",
         "confirm_new_password_placeholder": "Add meg újra az új jelszavadat",
-        "change_my_password_button": "Jelszavam megváltoztatása"
+        "change_my_password_button": "Jelszavam megváltoztatása",
+        "exercism_logo_alt": "Az Exercism logója"
       },
       "new": {
         "forgot_your_password": {
@@ -575,7 +576,8 @@
           "description": "Ha elfelejtetted a jelszavadat, kérj az alábbi űrlapon egy linket a megváltoztatásához. Sokan, akik azt hiszik, elfelejtették a jelszavukat, eredetileg GitHubbal jelentkeztek be, szóval érdemes lehet ezt is kipróbálnod."
         },
         "email_placeholder": "Add meg az e-mail-címedet",
-        "send_instructions_button": "Utasítások küldése"
+        "send_instructions_button": "Utasítások küldése",
+        "exercism_logo_alt": "Az Exercism logója"
       }
     },
     "registrations": {
@@ -2159,6 +2161,13 @@
     },
     "arbitrary": {
       "1": "<em>%{author_handle}</em> közzétett egy új bejegyzést.\n"
+    },
+    "maker_handles": {
+      "we": "Mi",
+      "with_others": {
+        "one": "%{first}, %{second} és még %{count} közreműködő",
+        "other": "%{first}, %{second} és még %{count} közreműködő"
+      }
     }
   },
   "user_activities": {
@@ -4127,6 +4136,10 @@
         "title": "%{exercise_title} a(z) %{track_title} kurzusban az Exercism-ön",
         "description": "Meg tudod oldani a(z) %{exercise_title} feladatot a(z) %{track_title} kurzusban? Fejleszd a(z) %{track_title} tudásodat világszínvonalú mentorcsapatunk támogatásával."
       }
+    },
+    "images": {
+      "avatar_alt": "%{handle} feltöltött avatarja",
+      "profile_link_title": "Hivatkozás %{handle} profiljára"
     }
   },
   "serializers": {
@@ -4161,6 +4174,21 @@
           "other": "%{count} áttekintett PR"
         }
       }
+    },
+    "exercise_approach_for_sharing": {
+      "title": "Oszd meg ezt a megközelítést"
+    },
+    "exercise_article_for_sharing": {
+      "title": "Oszd meg ezt a cikket"
+    },
+    "mentor_requests": {
+      "first_timer": "Első mentorálási kérés"
+    },
+    "student": {
+      "anonymous_name": "Névtelen módban lévő felhasználó"
+    },
+    "submission_test_run": {
+      "unknown_error": "Ismeretlen hiba történt"
     }
   },
   "views": {
@@ -4230,6 +4258,33 @@
         "scientific_calculations": "Tudományos számítások",
         "scripts": "Szkriptek",
         "web_development": "Webfejlesztés"
+      }
+    }
+  },
+  "commands": {
+    "user_reputation_token": {
+      "contextual_data": {
+        "separator": " • ",
+        "building": {
+          "one": "%{formatted_count} PR létrehozva",
+          "other": "%{formatted_count} PR létrehozva"
+        },
+        "maintaining": {
+          "one": "%{formatted_count} PR átnézve és/vagy mergelve",
+          "other": "%{formatted_count} PR átnézve és/vagy mergelve"
+        },
+        "authoring": {
+          "one": "%{formatted_count} feladat-hozzájárulás",
+          "other": "%{formatted_count} feladat-hozzájárulás"
+        },
+        "mentoring": {
+          "one": "%{formatted_count} mentorált megoldás",
+          "other": "%{formatted_count} mentorált megoldás"
+        },
+        "publishing": {
+          "one": "%{formatted_count} közzétett megoldás",
+          "other": "%{formatted_count} közzétett megoldás"
+        }
       }
     }
   }

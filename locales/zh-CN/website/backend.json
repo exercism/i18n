@@ -100,7 +100,8 @@
         "new_password_label": "新密码",
         "new_password_placeholder": "输入新密码（至少 %{minimum_password_length} 个字符）",
         "confirm_new_password_label": "确认新密码",
-        "confirm_new_password_placeholder": "再次输入你的新密码"
+        "confirm_new_password_placeholder": "再次输入你的新密码",
+        "exercism_logo_alt": "Exercism 的标志"
       },
       "new": {
         "forgot_your_password": {
@@ -108,7 +109,8 @@
           "description": "如果你忘记了密码，可以使用下面的表单申请一个修改链接。很多人以为自己忘记了密码，其实最初是用 GitHub 登录的，你也可以先试试这种方式。"
         },
         "email_placeholder": "输入你的邮箱地址",
-        "send_instructions_button": "发送说明"
+        "send_instructions_button": "发送说明",
+        "exercism_logo_alt": "Exercism 的标志"
       },
       "no_token": "如果你不是通过密码重置邮件进入的，就无法访问此页面。如果你确实是通过密码重置邮件进入的，请确保你使用了邮件中提供的完整 URL。",
       "send_instructions": "几分钟后，你会收到一封邮件，说明如何重置密码。",
@@ -3739,6 +3741,21 @@
           "other": "审查了 %{count} 个 PR"
         }
       }
+    },
+    "exercise_approach_for_sharing": {
+      "title": "分享这个解题思路"
+    },
+    "exercise_article_for_sharing": {
+      "title": "分享这篇文章"
+    },
+    "mentor_requests": {
+      "first_timer": "首次提交者"
+    },
+    "student": {
+      "anonymous_name": "处于匿名模式的用户"
+    },
+    "submission_test_run": {
+      "unknown_error": "发生了未知错误"
     }
   },
   "site_updates": {
@@ -3750,6 +3767,12 @@
     },
     "arbitrary": {
       "1": "<em>%{author_handle}</em>发布了一条新动态。\n"
+    },
+    "maker_handles": {
+      "we": "我们",
+      "with_others": {
+        "other": "%{first}、%{second} 以及其他 %{count} 人"
+      }
     }
   },
   "user_activities": {
@@ -3905,6 +3928,10 @@
         "title": "Exercism 上%{track_title}中的%{exercise_title}",
         "description": "你能在%{track_title}中解决%{exercise_title}吗？在我们世界一流导师团队的支持下，提升你的%{track_title}技能。"
       }
+    },
+    "images": {
+      "avatar_alt": "%{handle} 上传的头像",
+      "profile_link_title": "链接到 %{handle} 的个人资料"
     }
   },
   "notifications_mailer": {
@@ -4165,6 +4192,28 @@
         "scientific_calculations": "科学计算",
         "scripts": "脚本",
         "web_development": "Web 开发"
+      }
+    }
+  },
+  "commands": {
+    "user_reputation_token": {
+      "contextual_data": {
+        "separator": " • ",
+        "building": {
+          "other": "创建了 %{formatted_count} 个 PR"
+        },
+        "maintaining": {
+          "other": "审查和/或合并了 %{formatted_count} 个 PR"
+        },
+        "authoring": {
+          "other": "贡献了 %{formatted_count} 个练习"
+        },
+        "mentoring": {
+          "other": "指导了 %{formatted_count} 份提交的解答"
+        },
+        "publishing": {
+          "other": "发布了 %{formatted_count} 份提交的解答"
+        }
       }
     }
   }

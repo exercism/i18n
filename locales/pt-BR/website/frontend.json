@@ -346,7 +346,12 @@
     "available": "Disponível",
     "locked": "Bloqueado",
     "searchByTitle": "Buscar por título",
-    "noExercisesFound": "Nenhum exercício encontrado"
+    "noExercisesFound": "Nenhum exercício encontrado",
+    "statusFilters.allExercises": "Todos os exercícios",
+    "statusFilters.completed": "Concluído",
+    "statusFilters.inProgress": "Em andamento",
+    "statusFilters.available": "Disponível",
+    "statusFilters.locked": "Bloqueado"
   },
   "components/student/ExerciseStatusChart.tsx": {
     "exerciseStatusChart.invalidStatus": "Status inválido"
@@ -496,7 +501,13 @@
     "tasksList.sizeSwitcher.large.description": "Uma grande quantidade de trabalho",
     "tasksList.sizeSwitcher.massive.title": "Enorme",
     "tasksList.sizeSwitcher.massive.description": "Uma quantidade enorme de trabalho",
-    "tasksList.sizeSwitcher.multiple": "Vários"
+    "tasksList.sizeSwitcher.multiple": "Vários",
+    "tasksList.showingTasks_one": "Mostrando {{count}} tarefa",
+    "tasksList.showingTasks_many": "Mostrando {{count}} tarefas",
+    "tasksList.showingTasks_other": "Mostrando {{count}} tarefas",
+    "tasksList.outOfPossibleTasks_one": "de {{count}} tarefa possível",
+    "tasksList.outOfPossibleTasks_many": "de {{count}} tarefas possíveis",
+    "tasksList.outOfPossibleTasks_other": "de {{count}} tarefas possíveis"
   },
   "components/settings/github-syncer/sections/ConnectedSection/ManualSyncSection.tsx": {
     "notePleaseUseThisSparingForExampleWhenYouWantToBootstrapANewRepoThisIsNotDesignedToBePartOfYourNormalWorkflow": "<strong>Observação:</strong> Use isso com moderação, por exemplo quando você quiser criar um repositório novo do zero. Isso não foi pensado para fazer parte do seu fluxo de trabalho normal.",
@@ -661,7 +672,8 @@
     "addTestimonialStep.back": "Voltar",
     "addTestimonialStep.skip": "Pular",
     "addTestimonialStep.finish": "Concluir",
-    "celebrationStep.thankYouForTestimonial": "Agradecemos por deixar um depoimento 💙"
+    "celebrationStep.thankYouForTestimonial": "Agradecemos por deixar um depoimento 💙",
+    "rateMentorStep.exerciseInTrack": "<0>{{exercise}}</0> em {{track}}"
   },
   "components/favorites-list": {
     "index.searchPlaceholder": "Buscar por nome do autor",
@@ -1017,7 +1029,12 @@
     "infoMessage.insiderAccessToDarkMode": "Como Insider do Exercism, você tem acesso ao Modo Escuro. Escolha entre claro, escuro ou atualização automática conforme as preferências do seu sistema. Aproveite! 💎",
     "infoMessage.eligibleToJoinInsiders": "Você pode entrar para os Insiders. <0>Comece por aqui.</0>",
     "infoMessage.darkModeOnlyAvailableToInsiders": "O Modo Escuro só está disponível para os Insiders do Exercism. <0>Faça uma doação ao Exercism</0> e torne-se um Insider para ter acesso ao Modo Escuro, ao Exercism AI e muito mais.",
-    "disabledTooltip.mustBeExercismInsider": "Você precisa ser um <0>Insider do Exercism <1/></0> para desbloquear este tema."
+    "disabledTooltip.mustBeExercismInsider": "Você precisa ser um <0>Insider do Exercism <1/></0> para desbloquear este tema.",
+    "themeButton.themes.light": "Claro",
+    "themeButton.themes.dark": "Escuro",
+    "themeButton.themes.system": "Sistema",
+    "themeButton.themes.sepia": "Baixo contraste",
+    "themeButton.themes.accessibility-dark": "Escuro para acessibilidade"
   },
   "components/settings/ThemePreferenceForm.tsx": {
     "themePreferenceForm.theme": "Tema"
@@ -1544,7 +1561,7 @@
     "testRunSummaryByStatusHeaderMessage.testFailure": "falha de teste",
     "testRunSummaryByStatusHeaderMessage.testFailures": "falhas de teste",
     "testRunSummaryByStatusHeaderMessage.testsFailed": "Testes falharam",
-    "testsGroupedByTaskList.task": "Tarefa",
+    "testsGroupedByTaskList.task": "Tarefa {{id}}",
     "testsGroupedByTaskList.jumpToInstructions": "Ir para as instruções",
     "testSummary.passed": "Passou",
     "testSummary.failed": "Falhou",
@@ -1554,7 +1571,10 @@
     "testSummary.testError": "Erro no teste",
     "testSummary.yourOutput": "Sua saída",
     "testContentWrapper.fileNotFound": "Arquivo não encontrado",
-    "jumpToInstructionButton.jumpToInstructions": "Ir para as instruções"
+    "jumpToInstructionButton.jumpToInstructions": "Ir para as instruções",
+    "testRunSummaryByStatusHeaderMessage.testFailure_one": "{{count}} teste com falha",
+    "testRunSummaryByStatusHeaderMessage.testFailure_many": "{{count}} testes com falha",
+    "testRunSummaryByStatusHeaderMessage.testFailure_other": "{{count}} testes com falha"
   },
   "components/journey/overview/learning-section": {
     "trackSummary.mentoringSessionsCompleted_one": "Sessão de mentoria concluída",
@@ -1581,14 +1601,20 @@
     "conceptsLearntSummary.conceptsLearnt": "Conceitos aprendidos",
     "headerSummary.youVeProgressed": "Você avançou mais em ",
     "learningStats.didYouKnow": "Você sabia?",
-    "learningStats.linesOfCodeStat": "Você escreveu <strong>{{numLines}} {{lineLabel}}</strong> de código em <link>{{numSolutions}} {{solutionLabel}}</link>.",
+    "learningStats.linesOfCodeStat": "Você escreveu <strong>{{lines}}</strong> de código em <link>{{solutions}}</link>.",
     "learningStats.aesopFact": "Isso equivale aproximadamente ao comprimento de uma <fableLink>Fábula de Esopo!</fableLink>",
     "tracksEnrolledSummary.tracksEnrolled_one": "Trilha inscrita",
     "tracksEnrolledSummary.tracksEnrolled_many": "Trilhas inscritas",
     "tracksEnrolledSummary.tracksEnrolled_other": "Trilhas inscritas",
     "trackSummary.exercisesCompleted": "{{completed}} / {{total}} ({{percent}}%) exercícios concluídos",
     "trackSummary.joinedTrack": "Quando você entrou na trilha {{title}}",
-    "trackSummary.startedTrackAgo": "Você começou a fazer a trilha {{title}} <strong>{{since}}</strong>."
+    "trackSummary.startedTrackAgo": "Você começou a fazer a trilha {{title}} <strong>{{since}}</strong>.",
+    "learningStats.lineCount_one": "{{formattedCount}} linha",
+    "learningStats.lineCount_many": "{{formattedCount}} linhas",
+    "learningStats.lineCount_other": "{{formattedCount}} linhas",
+    "learningStats.solutionCount_one": "{{count}} solução",
+    "learningStats.solutionCount_many": "{{count}} soluções",
+    "learningStats.solutionCount_other": "{{count}} soluções"
   },
   "components/journey/overview/learning-section/track-summary/TrackProgressBar.tsx": {
     "trackProgressBar.completed": "Concluída"
@@ -1734,7 +1760,10 @@
     "selectedTracks_other": "{{count}} trilhas selecionadas",
     "trackCheckbox.trackSelected": "Trilha selecionada",
     "tracksList.noTracksFound": "Nenhuma trilha encontrada",
-    "continueButton.continue": "Continuar"
+    "continueButton.continue": "Continuar",
+    "trackCheckbox.solutionsQueued_one": "{{count}} solução na fila",
+    "trackCheckbox.solutionsQueued_many": "{{count}} soluções na fila",
+    "trackCheckbox.solutionsQueued_other": "{{count}} soluções na fila"
   },
   "components/modals/BadgeModal.tsx": {
     "badgeModal.newBadgeEarned": "Nova medalha conquistada",
@@ -1877,11 +1906,17 @@
     "userTooltip.unableToLoadUser": "Não foi possível carregar o usuário"
   },
   "components/track/activity-ticker": {
-    "publishedSolutionLink.newSolution": "<0>nova solução</0> para ",
+    "publishedSolutionLink.newSolution": "<0>nova solução</0>",
     "handle.someoneInCountry": "Alguém em {{countryName}}",
     "handle.someone": "Alguém",
     "userAvatar.userAvatar": "Avatar de {{handle}}",
-    "pullRequestLink.pullRequest": "Pull Request"
+    "pullRequestLink.pullRequest": "Pull Request",
+    "sentence.publish_solution_metric": "<0/> publicou uma <1/> para <3/>",
+    "sentence.open_pull_request_metric": "<0/> abriu um <2/>",
+    "sentence.merge_pull_request_metric": "<0/> fez merge de um <2/>",
+    "sentence.complete_solution_metric": "<0/> concluiu <3/>",
+    "sentence.start_solution_metric": "<0/> começou <3/>",
+    "sentence.submit_submission_metric": "<0/> tentou <3/>"
   },
   "components/track/dig-deeper-components": {
     "deepDiveVideo.deepDiveInto": "Mergulho profundo em {{exerciseTitle}}!",
@@ -1978,7 +2013,10 @@
     "components.mentoring.session.mentorNotes.improveNotes": "Melhorar estas notas",
     "components.mentoring.session.mentorNotes.communityNotes": "Estas notas são escritas pela nossa comunidade. Ajude a melhorá-las enviando um <0>Pull Request no GitHub</0>.",
     "components.mentoring.session.previousSessionsLink.opensInModal": "Abre em uma janela modal",
-    "components.mentoring.session.previousSessionsLink.seePreviousSessions": "Ver {{numPrevious}} {{sessions}} anteriores"
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions": "Ver {{numPrevious}} {{sessions}} anteriores",
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions_one": "Ver {{count}} sessão anterior",
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions_many": "Ver {{count}} sessões anteriores",
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions_other": "Ver {{count}} sessões anteriores"
   },
   "components/common/HandleWithFlair.tsx": {
     "flair.insider": "Insider",
@@ -2048,7 +2086,13 @@
     "automationListElement.shownTimes": "Exibida {{number}} vezes",
     "automationListElement.occurenceTime": "ocorrência {{number}} vez",
     "automationListElement.occurenceTimes": "ocorrência {{number}} vezes",
-    "automationListElement.inTrackId": "em {{trackTitle}} (#{{id}})"
+    "automationListElement.inTrackId": "em {{trackTitle}} (#{{id}})",
+    "automationListElement.shownTimes_one": "Exibido {{count}} vez",
+    "automationListElement.shownTimes_many": "Exibido {{count}} vezes",
+    "automationListElement.shownTimes_other": "Exibido {{count}} vezes",
+    "automationListElement.occurenceTimes_one": "ocorrência {{count}} vez",
+    "automationListElement.occurenceTimes_many": "ocorrência {{count}} vezes",
+    "automationListElement.occurenceTimes_other": "ocorrência {{count}} vezes"
   },
   "components/mentoring/automation/Representation.tsx": {
     "needFeedback": "Precisa de feedback",
@@ -2066,7 +2110,13 @@
   "components/mentoring/automation/TrackFilterList.tsx": {
     "trackFilterList.unableToFetchTracks": "Não foi possível carregar as trilhas",
     "trackFilterList.openTheTrackFilter": "Abrir o filtro de trilhas",
-    "trackFilterList.clickToChange": "Clique para mudar"
+    "trackFilterList.clickToChange": "Clique para mudar",
+    "trackFilterList.submissionCount_one": "{{count}} submissão",
+    "trackFilterList.submissionCount_many": "{{count}} submissões",
+    "trackFilterList.submissionCount_other": "{{count}} submissões",
+    "trackFilterList.representationCount_one": "{{count}} representação",
+    "trackFilterList.representationCount_many": "{{count}} representações",
+    "trackFilterList.representationCount_other": "{{count}} representações"
   },
   "components/mentoring/discussion/discussion-post": {
     "discussionPostView.edit": "Editar"
@@ -2101,7 +2151,10 @@
   "components/profile/contributions-list": {
     "buildingContributionsList.generic": "Genérico",
     "otherContributionsList.generic": "Genérico",
-    "maintainingContributionsList.generic": "Genérico"
+    "maintainingContributionsList.generic": "Genérico",
+    "buildingContributionsList.inTrack": "em <0/><1>{{track}}</1>",
+    "maintainingContributionsList.inTrack": "em <0/><1>{{track}}</1>",
+    "otherContributionsList.inTrack": "em <0/><1>{{track}}</1>"
   },
   "components/profile/contributions-summary": {
     "totalReputation.addressHas": "{{handle}} tem",
@@ -2255,7 +2308,20 @@
     "tabs.overview": "Visão geral",
     "tabs.solutions": "Soluções",
     "tabs.reputation": "Reputação",
-    "tabs.badges": "Distintivos"
+    "tabs.badges": "Distintivos",
+    "contributionResults.showingContributions_one": "Mostrando {{count}} contribuição",
+    "contributionResults.showingContributions_many": "Mostrando {{count}} contribuições",
+    "contributionResults.showingContributions_other": "Mostrando {{count}} contribuições",
+    "badgeResults.showingBadges_one": "Mostrando {{count}} medalha",
+    "badgeResults.showingBadges_many": "Mostrando {{count}} medalhas",
+    "badgeResults.showingBadges_other": "Mostrando {{count}} medalhas",
+    "solution.views_one": "{{count}} visualização",
+    "solution.views_many": "{{count}} visualizações",
+    "solution.views_other": "{{count}} visualizações",
+    "solutionsList.showingSolutions_one": "Mostrando {{count}} solução",
+    "solutionsList.showingSolutions_many": "Mostrando {{count}} soluções",
+    "solutionsList.showingSolutions_other": "Mostrando {{count}} soluções",
+    "contribution.inTrack": "em <0/><1>{{track}}</1>"
   },
   "components/journey/badges-list": {
     "orderSwitcher.sortByUnrevealedFirst": "Ordenar pelas não reveladas primeiro",
@@ -2364,7 +2430,10 @@
     "previewFooter.submit": "Enviar",
     "previewFooter.example": "Exemplo",
     "previewFeedbackComment.gaveThisFeedback": "<0>{{mentorName}}</0> deu este feedback em uma solução exatamente igual à sua:",
-    "previewFeedbackComment.commentedOn": "Comentado em {{date}}"
+    "previewFeedbackComment.commentedOn": "Comentado em {{date}}",
+    "previewFooter.solutionCount_one": "{{count}} solução",
+    "previewFooter.solutionCount_many": "{{count}} soluções",
+    "previewFooter.solutionCount_other": "{{count}} soluções"
   },
   "components/modals/Modal.tsx": {
     "modal.closeModal": "Fechar modal"
@@ -2573,7 +2642,10 @@
     "commentsList.header.writeAComment": "Escreva um comentário",
     "starButton.numberOfStars": "Número de estrelas",
     "starButton.favorite": "Favoritar",
-    "starButton.favorited": "Favoritado"
+    "starButton.favorited": "Favoritado",
+    "commentsList.count.numberOfComments_one": "{{count}} comentário",
+    "commentsList.count.numberOfComments_many": "{{count}} comentários",
+    "commentsList.count.numberOfComments_other": "{{count}} comentários"
   },
   "components/donations/subscription-form": {
     "formOptions.initializedOption.changeAmount": "Alterar valor",
@@ -2607,5 +2679,51 @@
     "reputationMenu.seeHowYouEarned": "Veja como você ganhou toda a sua reputação",
     "reputationIcon.reputationAriaLabel": "{{reputation}} de reputação",
     "reputationIcon.reputationAlt": "Reputação"
+  },
+  "components/common/Credits.tsx": {
+    "byHandle": "Por {{handle}}",
+    "labels.author_one": "{{count}} autor",
+    "labels.author_many": "{{count}} autores",
+    "labels.author_other": "{{count}} autores",
+    "labels.contributor_one": "{{count}} contribuidor",
+    "labels.contributor_many": "{{count}} contribuidores",
+    "labels.contributor_other": "{{count}} contribuidores"
+  },
+  "components/common/ExerciseIcon.tsx": {
+    "iconForExercise": "Ícone do exercício chamado {{title}}"
+  },
+  "components/common/TrackIcon.tsx": {
+    "iconForTrack": "ícone da trilha {{title}}"
+  },
+  "components/donations/stripe-form/useStripeForm.ts": {
+    "paymentFailedWithError": "Falha no pagamento com o erro: {{error}}",
+    "paymentFailedBankMessage": "Seu pagamento falhou. A mensagem que recebemos do seu banco foi \"{{message}}\"",
+    "cardElementNotFound": "Elemento do cartão não encontrado"
+  },
+  "components/dropdowns/notifications": {
+    "notificationsIcon.youHaveNotifications_one": "Você tem {{count}} notificação",
+    "notificationsIcon.youHaveNotifications_many": "Você tem {{count}} notificações",
+    "notificationsIcon.youHaveNotifications_other": "Você tem {{count}} notificações"
+  },
+  "components/editor/AssistantChat/useTurnstile.ts": {
+    "verifyHeading": "Confirme que você não é um robô",
+    "verifyDescription": "Somos constantemente atacados por bots (aparentemente eles estão muito animados para começar a programar!). Marque a caixa abaixo para confirmar que você é humano."
+  },
+  "components/ErrorBoundary.tsx": {
+    "errorFallback.somethingWentWrong": "Algo deu errado. Tente novamente."
+  },
+  "components/track": {
+    "exerciseMakersButton.authors_one": "{{count}} autor",
+    "exerciseMakersButton.authors_many": "{{count}} autores",
+    "exerciseMakersButton.authors_other": "{{count}} autores",
+    "exerciseMakersButton.contributors_one": "{{count}} contribuidor",
+    "exerciseMakersButton.contributors_many": "{{count}} contribuidores",
+    "exerciseMakersButton.contributors_other": "{{count}} contribuidores",
+    "conceptMakersButton.authors_one": "{{count}} autor",
+    "conceptMakersButton.authors_many": "{{count}} autores",
+    "conceptMakersButton.authors_other": "{{count}} autores",
+    "conceptMakersButton.contributors_one": "{{count}} contribuidor",
+    "conceptMakersButton.contributors_many": "{{count}} contribuidores",
+    "conceptMakersButton.contributors_other": "{{count}} contribuidores"
   }
 }

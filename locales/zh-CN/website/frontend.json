@@ -136,7 +136,9 @@
     "tasksList.typeSwitcher.docsDescription": "帮助构建 Exercism 的文档",
     "tasksList.typeSwitcher.ciDescription": "自动化与持续集成",
     "tasksList.sizeSwitcher.extraSmall": "特小",
-    "tasksList.sizeSwitcher.label": "尺寸"
+    "tasksList.sizeSwitcher.label": "尺寸",
+    "tasksList.showingTasks_other": "显示 {{count}} 个任务",
+    "tasksList.outOfPossibleTasks_other": "共 {{count}} 个可能任务"
   },
   "components/concept-map": {
     "concept.availableConcept": "可用概念：",
@@ -308,7 +310,8 @@
     "satisfiedStep.yesPlease": "好的",
     "reasonSelect.codeOfConductViolation": "违反行为准则",
     "reasonSelect.wrongOrMisleadingInformation": "错误或误导性信息",
-    "reasonSelect.other": "其他"
+    "reasonSelect.other": "其他",
+    "rateMentorStep.exerciseInTrack": "{{track}} 的<0>{{exercise}}</0>"
   },
   "components/editor/FeedbackPanel": {
     "feedbackPanelRequestMentoring.free": "100% 免费！😲",
@@ -486,7 +489,10 @@
   "components/profile/contributions-list": {
     "otherContributionsList.generic": "通用",
     "maintainingContributionsList.generic": "通用",
-    "buildingContributionsList.generic": "通用"
+    "buildingContributionsList.generic": "通用",
+    "buildingContributionsList.inTrack": "在<0/><1>{{track}}</1>中",
+    "maintainingContributionsList.inTrack": "在<0/><1>{{track}}</1>中",
+    "otherContributionsList.inTrack": "在<0/><1>{{track}}</1>中"
   },
   "components/student/iterations-list": {
     "deleteIterationModal.unableToDeleteIteration": "无法删除迭代",
@@ -610,7 +616,8 @@
     "components.mentoring.session.mentorNotes.improveNotes": "改进这些笔记",
     "components.mentoring.session.mentorNotes.communityNotes": "这些笔记由我们的社区撰写。请通过发送<0>Pull Request on GitHub</0>来帮助改进它们。",
     "components.mentoring.session.previousSessionsLink.opensInModal": "在模态框中打开",
-    "components.mentoring.session.previousSessionsLink.seePreviousSessions": "查看 {{numPrevious}} 个之前的{{sessions}}"
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions": "查看 {{numPrevious}} 个之前的{{sessions}}",
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions_other": "查看之前的 {{count}} 个会话"
   },
   "components/common/HandleWithFlair.tsx": {
     "flair.insider": "一位 Insider",
@@ -945,7 +952,7 @@
     "testRunSummaryByStatusHeaderMessage.testFailure": "测试失败",
     "testRunSummaryByStatusHeaderMessage.testFailures": "测试失败",
     "testRunSummaryByStatusHeaderMessage.testsFailed": "测试失败",
-    "testsGroupedByTaskList.task": "任务",
+    "testsGroupedByTaskList.task": "任务 {{id}}",
     "testsGroupedByTaskList.jumpToInstructions": "跳转到说明",
     "testSummary.passed": "通过",
     "testSummary.failed": "失败",
@@ -955,7 +962,8 @@
     "testSummary.testError": "测试错误",
     "testSummary.yourOutput": "你的输出",
     "testContentWrapper.fileNotFound": "找不到文件",
-    "jumpToInstructionButton.jumpToInstructions": "跳转到说明"
+    "jumpToInstructionButton.jumpToInstructions": "跳转到说明",
+    "testRunSummaryByStatusHeaderMessage.testFailure_other": "{{count}} 个测试失败"
   },
   "components/favorites-list": {
     "index.filteringRestricted": "筛选功能仅限 Insiders 使用",
@@ -1159,11 +1167,17 @@
     "userTooltip.unableToLoadUser": "无法加载用户"
   },
   "components/track/activity-ticker": {
-    "publishedSolutionLink.newSolution": "<0>新提交的解答</0>，用于 ",
+    "publishedSolutionLink.newSolution": "<0>新提交的解答</0>",
     "handle.someoneInCountry": "来自{{countryName}}的某人",
     "handle.someone": "某人",
     "userAvatar.userAvatar": "{{handle}} 的头像",
-    "pullRequestLink.pullRequest": "拉取请求"
+    "pullRequestLink.pullRequest": "拉取请求",
+    "sentence.publish_solution_metric": "<0/> 发布了 <1/>，用于 <3/>",
+    "sentence.open_pull_request_metric": "<0/> 发起了 <2/>",
+    "sentence.merge_pull_request_metric": "<0/> 合并了 <2/>",
+    "sentence.complete_solution_metric": "<0/> 完成了 <3/>",
+    "sentence.start_solution_metric": "<0/> 开始了 <3/>",
+    "sentence.submit_submission_metric": "<0/> 尝试了 <3/>"
   },
   "components/track/dig-deeper-components": {
     "deepDiveVideo.deepDiveInto": "深入探索{{exerciseTitle}}！",
@@ -1207,7 +1221,12 @@
     "tabs.overview": "概览",
     "tabs.solutions": "提交的解答",
     "tabs.reputation": "声望",
-    "tabs.badges": "徽章"
+    "tabs.badges": "徽章",
+    "contributionResults.showingContributions_other": "显示 {{count}} 条贡献",
+    "badgeResults.showingBadges_other": "显示 {{count}} 枚徽章",
+    "solution.views_other": "{{count}} 次浏览",
+    "solutionsList.showingSolutions_other": "显示 {{count}} 份解答",
+    "contribution.inTrack": "在<0/><1>{{track}}</1>中"
   },
   "components/journey/badges-list": {
     "orderSwitcher.sortByUnrevealedFirst": "按未揭晓优先排序",
@@ -1327,12 +1346,14 @@
     "conceptsLearntSummary.conceptsLearnt": "已学概念",
     "headerSummary.youVeProgressed": "你进步最大的是 ",
     "learningStats.didYouKnow": "你知道吗？",
-    "learningStats.linesOfCodeStat": "你在<link>{{numSolutions}} {{solutionLabel}}</link>中一共写了<strong>{{numLines}} {{lineLabel}}</strong>代码。",
+    "learningStats.linesOfCodeStat": "你在<link>{{solutions}}</link>中一共写了<strong>{{lines}}</strong>代码。",
     "learningStats.aesopFact": "这大约相当于一篇<fableLink>《伊索寓言》</fableLink>的长度！",
     "tracksEnrolledSummary.tracksEnrolled_other": "已加入的轨道",
     "trackSummary.exercisesCompleted": "已完成 {{completed}} / {{total}} 个练习（{{percent}}%）",
     "trackSummary.joinedTrack": "你加入 {{title}} 轨道的时间",
-    "trackSummary.startedTrackAgo": "你从<strong>{{since}}</strong>开始学习 {{title}} 轨道。"
+    "trackSummary.startedTrackAgo": "你从<strong>{{since}}</strong>开始学习 {{title}} 轨道。",
+    "learningStats.lineCount_other": "{{formattedCount}} 行",
+    "learningStats.solutionCount_other": "{{count}} 份解答"
   },
   "components/journey/overview/learning-section/track-summary/TrackProgressBar.tsx": {
     "trackProgressBar.completed": "已完成"
@@ -1480,7 +1501,8 @@
     "commentsList.header.writeAComment": "写评论",
     "starButton.numberOfStars": "星标数量",
     "starButton.favorite": "收藏",
-    "starButton.favorited": "已收藏"
+    "starButton.favorited": "已收藏",
+    "commentsList.count.numberOfComments_other": "{{count}} 条评论"
   },
   "components/student/CompleteExerciseButton.tsx": {
     "markAsComplete": "标记为已完成"
@@ -1492,7 +1514,12 @@
     "available": "可开始",
     "locked": "已锁定",
     "searchByTitle": "按标题搜索",
-    "noExercisesFound": "未找到练习"
+    "noExercisesFound": "未找到练习",
+    "statusFilters.allExercises": "全部练习",
+    "statusFilters.completed": "已完成",
+    "statusFilters.inProgress": "进行中",
+    "statusFilters.available": "可用",
+    "statusFilters.locked": "已锁定"
   },
   "components/student/ExerciseStatusChart.tsx": {
     "exerciseStatusChart.invalidStatus": "状态无效"
@@ -1754,7 +1781,12 @@
     "infoMessage.insiderAccessToDarkMode": "作为 Exercism Insider，你可以使用深色模式。你可以在浅色、深色之间选择，或根据系统偏好自动切换。尽情享受！💎",
     "infoMessage.eligibleToJoinInsiders": "你有资格加入 Insiders。<0>从这里开始。</0>",
     "infoMessage.darkModeOnlyAvailableToInsiders": "深色模式仅对 Exercism Insiders 开放。<0>向 Exercism 捐款</0>，成为 Insider，即可使用深色模式、Exercism AI 和更多功能。",
-    "disabledTooltip.mustBeExercismInsider": "你必须成为<0>Exercism Insider <1/></0>，才能解锁这个主题。"
+    "disabledTooltip.mustBeExercismInsider": "你必须成为<0>Exercism Insider <1/></0>，才能解锁这个主题。",
+    "themeButton.themes.light": "浅色",
+    "themeButton.themes.dark": "深色",
+    "themeButton.themes.system": "跟随系统",
+    "themeButton.themes.sepia": "低对比度",
+    "themeButton.themes.accessibility-dark": "无障碍深色"
   },
   "components/settings/ThemePreferenceForm.tsx": {
     "themePreferenceForm.theme": "主题"
@@ -2110,7 +2142,8 @@
     "selectedTracks_other": "已选择 {{count}} 个学习路径",
     "trackCheckbox.trackSelected": "已选择学习路径",
     "tracksList.noTracksFound": "未找到学习路径",
-    "continueButton.continue": "继续"
+    "continueButton.continue": "继续",
+    "trackCheckbox.solutionsQueued_other": "{{count}} 份解答已排队"
   },
   "components/modals/BadgeModal.tsx": {
     "badgeModal.newBadgeEarned": "获得新徽章",
@@ -2148,7 +2181,8 @@
     "previewFooter.submit": "提交",
     "previewFooter.example": "示例",
     "previewFeedbackComment.gaveThisFeedback": "<0>{{mentorName}}</0>在一份与你完全相同的提交的解答上给出了这条反馈：",
-    "previewFeedbackComment.commentedOn": "评论于 {{date}}"
+    "previewFeedbackComment.commentedOn": "评论于 {{date}}",
+    "previewFooter.solutionCount_other": "{{count}} 份解答"
   },
   "components/mentoring/representation/right-pane": {
     "automationRules.noGuidance": "这个表示器还没有任何指南。指南由我们的维护者撰写，用来解释表示过程中会发生哪些归一化。如果你是维护者，请通过提交<0>GitHub 上的 Pull Request</0>来帮这个表示器把指南写起来。",
@@ -2282,7 +2316,9 @@
     "automationListElement.shownTimes": "已显示 {{number}} 次",
     "automationListElement.occurenceTime": "出现 {{number}} 次",
     "automationListElement.occurenceTimes": "出现 {{number}} 次",
-    "automationListElement.inTrackId": "在 {{trackTitle}}（#{{id}}）中"
+    "automationListElement.inTrackId": "在 {{trackTitle}}（#{{id}}）中",
+    "automationListElement.shownTimes_other": "已显示 {{count}} 次",
+    "automationListElement.occurenceTimes_other": "出现 {{count}} 次"
   },
   "components/mentoring/automation/Representation.tsx": {
     "needFeedback": "需要反馈",
@@ -2300,7 +2336,9 @@
   "components/mentoring/automation/TrackFilterList.tsx": {
     "trackFilterList.unableToFetchTracks": "无法获取轨道",
     "trackFilterList.openTheTrackFilter": "打开轨道筛选器",
-    "trackFilterList.clickToChange": "点击更改"
+    "trackFilterList.clickToChange": "点击更改",
+    "trackFilterList.submissionCount_other": "{{count}} 份提交",
+    "trackFilterList.representationCount_other": "{{count}} 个表示"
   },
   "components/mentoring/discussion/discussion-post": {
     "discussionPostView.edit": "编辑"
@@ -2507,5 +2545,37 @@
   "components/modals/realtime-feedback-modal/feedback-content": {
     "deepDiveVideoContent.digDeeperInto": "深入探索 {{exerciseTitle}}！",
     "deepDiveVideoContent.continue": "继续"
+  },
+  "components/track": {
+    "exerciseMakersButton.authors_other": "{{count}} 位作者",
+    "exerciseMakersButton.contributors_other": "{{count}} 位贡献者",
+    "conceptMakersButton.authors_other": "{{count}} 位作者",
+    "conceptMakersButton.contributors_other": "{{count}} 位贡献者"
+  },
+  "components/common/Credits.tsx": {
+    "byHandle": "由 {{handle}}",
+    "labels.author_other": "{{count}} 位作者",
+    "labels.contributor_other": "{{count}} 位贡献者"
+  },
+  "components/common/ExerciseIcon.tsx": {
+    "iconForExercise": "名为 {{title}} 的练习图标"
+  },
+  "components/common/TrackIcon.tsx": {
+    "iconForTrack": "{{title}} 赛道的图标"
+  },
+  "components/donations/stripe-form/useStripeForm.ts": {
+    "paymentFailedWithError": "支付失败，错误：{{error}}",
+    "paymentFailedBankMessage": "你的支付失败了。银行返回给我们的信息是“{{message}}”",
+    "cardElementNotFound": "未找到卡元素"
+  },
+  "components/dropdowns/notifications": {
+    "notificationsIcon.youHaveNotifications_other": "你有 {{count}} 条通知"
+  },
+  "components/editor/AssistantChat/useTurnstile.ts": {
+    "verifyHeading": "请验证你不是机器人",
+    "verifyDescription": "我们经常遭到机器人攻击（看来它们非常想学编程！）。请勾选下面的方框，确认你是真人。"
+  },
+  "components/ErrorBoundary.tsx": {
+    "errorFallback.somethingWentWrong": "出了点问题。请再试一次。"
   }
 }

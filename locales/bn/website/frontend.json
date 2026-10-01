@@ -297,7 +297,11 @@
     "tasksList.typeSwitcher.docsDescription": "Exercism-এর ডকস তৈরি করতে সাহায্য করুন",
     "tasksList.typeSwitcher.ciDescription": "অটোমেশন ও কন্টিনিউয়াস ইন্টিগ্রেশন",
     "tasksList.sizeSwitcher.extraSmall": "অতি ছোট",
-    "tasksList.sizeSwitcher.label": "আকার"
+    "tasksList.sizeSwitcher.label": "আকার",
+    "tasksList.showingTasks_one": "{{count}}টি টাস্ক দেখানো হচ্ছে",
+    "tasksList.showingTasks_other": "{{count}}টি টাস্ক দেখানো হচ্ছে",
+    "tasksList.outOfPossibleTasks_one": "সম্ভাব্য {{count}}টি টাস্কের মধ্যে",
+    "tasksList.outOfPossibleTasks_other": "সম্ভাব্য {{count}}টি টাস্কের মধ্যে"
   },
   "components/settings/CommunicationPreferencesForm.tsx": {
     "successMessage.updatedPreferences": "আপনার পছন্দসমূহ আপডেট করা হয়েছে",
@@ -710,7 +714,7 @@
     "testRunSummaryByStatusHeaderMessage.testFailure": "টেস্ট ব্যর্থতা",
     "testRunSummaryByStatusHeaderMessage.testFailures": "টেস্ট ব্যর্থতাগুলি",
     "testRunSummaryByStatusHeaderMessage.testsFailed": "টেস্ট ফেল করেছে",
-    "testsGroupedByTaskList.task": "টাস্ক",
+    "testsGroupedByTaskList.task": "টাস্ক {{id}}",
     "testsGroupedByTaskList.jumpToInstructions": "নির্দেশাবলিতে যান",
     "testSummary.passed": "পাস",
     "testSummary.failed": "ফেল",
@@ -720,7 +724,9 @@
     "testSummary.testError": "টেস্ট এরর",
     "testSummary.yourOutput": "আপনার আউটপুট",
     "testContentWrapper.fileNotFound": "ফাইল পাওয়া যায়নি",
-    "jumpToInstructionButton.jumpToInstructions": "নির্দেশাবলিতে যান"
+    "jumpToInstructionButton.jumpToInstructions": "নির্দেশাবলিতে যান",
+    "testRunSummaryByStatusHeaderMessage.testFailure_one": "{{count}}টি টেস্ট ব্যর্থতা",
+    "testRunSummaryByStatusHeaderMessage.testFailure_other": "{{count}}টি টেস্ট ব্যর্থতা"
   },
   "components/favorites-list": {
     "index.filteringRestricted": "ফিল্টার করা কেবল Insiders-এর জন্যই সীমাবদ্ধ",
@@ -753,13 +759,17 @@
     "conceptsLearntSummary.conceptsLearnt": "কনসেপ্ট শেখা",
     "headerSummary.youVeProgressed": "আপনি সবচেয়ে বেশি এগিয়ে গেছেন ",
     "learningStats.didYouKnow": "আপনি কি জানেন?",
-    "learningStats.linesOfCodeStat": "আপনি <link>{{numSolutions}} {{solutionLabel}}</link> জুড়ে <strong>{{numLines}} {{lineLabel}}</strong> কোড লিখেছেন।",
+    "learningStats.linesOfCodeStat": "আপনি <link>{{solutions}}</link> জুড়ে <strong>{{lines}}</strong> কোড লিখেছেন।",
     "learningStats.aesopFact": "এটি প্রায় <fableLink>Aesop's Fable!</fableLink> নামের রচনার দৈর্ঘ্যের সমান!",
     "tracksEnrolledSummary.tracksEnrolled_one": "ভর্তি হওয়া ট্র্যাক",
     "tracksEnrolledSummary.tracksEnrolled_other": "ভর্তি হওয়া ট্র্যাক",
     "trackSummary.exercisesCompleted": "{{completed}} / {{total}} ({{percent}}%) অনুশীলনী সম্পন্ন",
     "trackSummary.joinedTrack": "আপনি যখন {{title}} ট্র্যাকে যোগ দিয়েছিলেন",
-    "trackSummary.startedTrackAgo": "আপনি <strong>{{since}}</strong> {{title}} ট্র্যাকের কাজ শুরু করেছিলেন।"
+    "trackSummary.startedTrackAgo": "আপনি <strong>{{since}}</strong> {{title}} ট্র্যাকের কাজ শুরু করেছিলেন।",
+    "learningStats.lineCount_one": "{{formattedCount}}টি লাইন",
+    "learningStats.lineCount_other": "{{formattedCount}}টি লাইন",
+    "learningStats.solutionCount_one": "{{count}}টি সলিউশন",
+    "learningStats.solutionCount_other": "{{count}}টি সলিউশন"
   },
   "components/journey/overview/learning-section/track-summary/TrackProgressBar.tsx": {
     "trackProgressBar.completed": "সম্পন্ন"
@@ -869,7 +879,10 @@
   "components/profile/contributions-list": {
     "otherContributionsList.generic": "সাধারণ",
     "maintainingContributionsList.generic": "সাধারণ",
-    "buildingContributionsList.generic": "সাধারণ"
+    "buildingContributionsList.generic": "সাধারণ",
+    "buildingContributionsList.inTrack": "<0/><1>{{track}}</1> ট্র্যাকে",
+    "maintainingContributionsList.inTrack": "<0/><1>{{track}}</1> ট্র্যাকে",
+    "otherContributionsList.inTrack": "<0/><1>{{track}}</1> ট্র্যাকে"
   },
   "components/modals/student/finish-mentor-discussion-modal": {
     "rateMentorStep.mentorFinishedMentoring": "{{mentorHandle}} আপনার মেন্টরিং শেষ করেছেন",
@@ -933,7 +946,8 @@
     "donationStep.whyWeNeedDonations": "কেন আমাদের ডোনেশন দরকার এবং আমরা সেগুলো কীভাবে ব্যবহার করি, তা ব্যাখ্যা করে একটি ছোট ভিডিও বানিয়েছি 👇",
     "donationStep.continueWithoutDonating": "ডোনেশন ছাড়াই চালিয়ে যান",
     "donationStep.lessThanOnePercentDonate": "Exercism যারা ব্যবহার করেন, তাদের ১%-ও কম মানুষ ডোনেট করতে বেছে নেন। আপনি যদি সামর্থ্য রাখেন, তাহলে অনুগ্রহ করে তাদের একজন হয়ে উঠুন।",
-    "reportStep.reportPlaceholder": "আপনি কেন এই রিপোর্ট করছেন তা নির্দিষ্টভাবে জানান এবং কী ঘটেছে আমাদের বলুন।"
+    "reportStep.reportPlaceholder": "আপনি কেন এই রিপোর্ট করছেন তা নির্দিষ্টভাবে জানান এবং কী ঘটেছে আমাদের বলুন।",
+    "rateMentorStep.exerciseInTrack": "{{track}} ট্র্যাকে <0>{{exercise}}</0>"
   },
   "components/student/mentoring-session/mentoring-request": {
     "mentoringRequestForm.learnMore": "আরও জানুন",
@@ -1204,7 +1218,9 @@
     "commentsList.header.writeAComment": "একটি কমেন্ট লিখুন",
     "starButton.numberOfStars": "স্টারের সংখ্যা",
     "starButton.favorite": "ফেভারিট",
-    "starButton.favorited": "ফেভারিট করা হয়েছে"
+    "starButton.favorited": "ফেভারিট করা হয়েছে",
+    "commentsList.count.numberOfComments_one": "{{count}}টি মন্তব্য",
+    "commentsList.count.numberOfComments_other": "{{count}}টি মন্তব্য"
   },
   "components/github-syncer-widget": {
     "miniAdvert.backupYourSolutionsToGitHub": "আপনার সলিউশন GitHub-এ ব্যাকআপ করুন",
@@ -1983,7 +1999,12 @@
     "available": "উপলব্ধ",
     "locked": "লক করা",
     "searchByTitle": "শিরোনাম দিয়ে খুঁজুন",
-    "noExercisesFound": "কোনো অনুশীলনী পাওয়া যায়নি"
+    "noExercisesFound": "কোনো অনুশীলনী পাওয়া যায়নি",
+    "statusFilters.allExercises": "সব অনুশীলনী",
+    "statusFilters.completed": "সম্পন্ন",
+    "statusFilters.inProgress": "চলমান",
+    "statusFilters.available": "উপলব্ধ",
+    "statusFilters.locked": "লক করা"
   },
   "components/student/ExerciseStatusChart.tsx": {
     "exerciseStatusChart.invalidStatus": "অবৈধ স্ট্যাটাস"
@@ -2022,7 +2043,9 @@
     "components.mentoring.session.mentorNotes.improveNotes": "এই নোটগুলো উন্নত করুন",
     "components.mentoring.session.mentorNotes.communityNotes": "এই নোটগুলো আমাদের কমিউনিটি লেখে। অনুগ্রহ করে <0>GitHub-এ একটি Pull Request</0> পাঠিয়ে এগুলো উন্নত করতে সাহায্য করুন।",
     "components.mentoring.session.previousSessionsLink.opensInModal": "মডালে খোলে",
-    "components.mentoring.session.previousSessionsLink.seePreviousSessions": "{{numPrevious}}টি আগের {{sessions}} দেখুন"
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions": "{{numPrevious}}টি আগের {{sessions}} দেখুন",
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions_one": "{{count}}টি আগের সেশন দেখুন",
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions_other": "{{count}}টি আগের সেশন দেখুন"
   },
   "components/common/HandleWithFlair.tsx": {
     "flair.insider": "একজন Insider",
@@ -2040,11 +2063,17 @@
     "userTooltip.unableToLoadUser": "ইউজার লোড করা যায়নি"
   },
   "components/track/activity-ticker": {
-    "publishedSolutionLink.newSolution": "<0>নতুন সমাধান</0> এর জন্য ",
+    "publishedSolutionLink.newSolution": "<0>নতুন সমাধান</0>",
     "handle.someoneInCountry": "{{countryName}} দেশে একজন",
     "handle.someone": "একজন",
     "userAvatar.userAvatar": "{{handle}} ইউজারের অ্যাভাটার",
-    "pullRequestLink.pullRequest": "পুল রিকোয়েস্ট"
+    "pullRequestLink.pullRequest": "পুল রিকোয়েস্ট",
+    "sentence.publish_solution_metric": "<0/> <3/> এর জন্য একটি <1/> প্রকাশ করেছেন",
+    "sentence.open_pull_request_metric": "<0/> একটি <2/> খুলেছেন",
+    "sentence.merge_pull_request_metric": "<0/> একটি <2/> মার্জ করেছেন",
+    "sentence.complete_solution_metric": "<0/> <3/> সম্পন্ন করেছেন",
+    "sentence.start_solution_metric": "<0/> <3/> শুরু করেছেন",
+    "sentence.submit_submission_metric": "<0/> <3/> চেষ্টা করেছেন"
   },
   "components/track/dig-deeper-components": {
     "deepDiveVideo.deepDiveInto": "{{exerciseTitle}} অনুশীলনীর গভীরে ডুব!",
@@ -2133,7 +2162,9 @@
     "selectedTracks_other": "{{count}}টি ট্র্যাক নির্বাচিত",
     "trackCheckbox.trackSelected": "ট্র্যাক নির্বাচিত",
     "tracksList.noTracksFound": "কোনো ট্র্যাক পাওয়া যায়নি",
-    "continueButton.continue": "চালিয়ে যান"
+    "continueButton.continue": "চালিয়ে যান",
+    "trackCheckbox.solutionsQueued_one": "{{count}}টি সলিউশন কিউতে আছে",
+    "trackCheckbox.solutionsQueued_other": "{{count}}টি সলিউশন কিউতে আছে"
   },
   "components/modals/BadgeModal.tsx": {
     "badgeModal.newBadgeEarned": "নতুন ব্যাজ অর্জিত",
@@ -2294,7 +2325,11 @@
     "automationListElement.shownTimes": "{{number}} বার দেখানো হয়েছে",
     "automationListElement.occurenceTime": "সংঘটন {{number}} বার",
     "automationListElement.occurenceTimes": "সংঘটন {{number}} বার",
-    "automationListElement.inTrackId": "{{trackTitle}} ট্র্যাকে (#{{id}})"
+    "automationListElement.inTrackId": "{{trackTitle}} ট্র্যাকে (#{{id}})",
+    "automationListElement.shownTimes_one": "{{count}} বার দেখানো হয়েছে",
+    "automationListElement.shownTimes_other": "{{count}} বার দেখানো হয়েছে",
+    "automationListElement.occurenceTimes_one": "{{count}} বার ঘটেছে",
+    "automationListElement.occurenceTimes_other": "{{count}} বার ঘটেছে"
   },
   "components/mentoring/automation/Representation.tsx": {
     "needFeedback": "ফিডব্যাক প্রয়োজন",
@@ -2312,7 +2347,11 @@
   "components/mentoring/automation/TrackFilterList.tsx": {
     "trackFilterList.unableToFetchTracks": "ট্র্যাক আনা যায়নি",
     "trackFilterList.openTheTrackFilter": "ট্র্যাক ফিল্টার খুলুন",
-    "trackFilterList.clickToChange": "পরিবর্তন করতে ক্লিক করুন"
+    "trackFilterList.clickToChange": "পরিবর্তন করতে ক্লিক করুন",
+    "trackFilterList.submissionCount_one": "{{count}}টি সাবমিশন",
+    "trackFilterList.submissionCount_other": "{{count}}টি সাবমিশন",
+    "trackFilterList.representationCount_one": "{{count}}টি রেপ্রেজেন্টেশন",
+    "trackFilterList.representationCount_other": "{{count}}টি রেপ্রেজেন্টেশন"
   },
   "components/mentoring/discussion/discussion-post": {
     "discussionPostView.edit": "সম্পাদনা করুন"
@@ -2447,7 +2486,16 @@
     "tabs.overview": "সারসংক্ষেপ",
     "tabs.solutions": "সমাধান",
     "tabs.reputation": "রেপুটেশন",
-    "tabs.badges": "ব্যাজ"
+    "tabs.badges": "ব্যাজ",
+    "contributionResults.showingContributions_one": "{{count}}টি অবদান দেখানো হচ্ছে",
+    "contributionResults.showingContributions_other": "{{count}}টি অবদান দেখানো হচ্ছে",
+    "badgeResults.showingBadges_one": "{{count}}টি ব্যাজ দেখানো হচ্ছে",
+    "badgeResults.showingBadges_other": "{{count}}টি ব্যাজ দেখানো হচ্ছে",
+    "solution.views_one": "{{count}}টি ভিউ",
+    "solution.views_other": "{{count}}টি ভিউ",
+    "solutionsList.showingSolutions_one": "{{count}}টি সলিউশন দেখানো হচ্ছে",
+    "solutionsList.showingSolutions_other": "{{count}}টি সলিউশন দেখানো হচ্ছে",
+    "contribution.inTrack": "<0/><1>{{track}}</1> ট্র্যাকে"
   },
   "components/journey/badges-list": {
     "orderSwitcher.sortByUnrevealedFirst": "অপ্রকাশিতগুলো আগে সাজান",
@@ -2485,7 +2533,12 @@
     "infoMessage.insiderAccessToDarkMode": "একজন Exercism Insider হিসেবে আপনার কাছে ডার্ক মোডের অ্যাক্সেস আছে। লাইট, ডার্ক, অথবা আপনার সিস্টেম পছন্দ অনুসারে স্বয়ংক্রিয়ভাবে আপডেটের মধ্যে বেছে নিন। উপভোগ করুন! 💎",
     "infoMessage.eligibleToJoinInsiders": "আপনি Insiders-এ যোগ দেওয়ার যোগ্য। <0>এখান থেকে শুরু করুন।</0>",
     "infoMessage.darkModeOnlyAvailableToInsiders": "ডার্ক মোড কেবল Exercism Insider-দের জন্যই উপলব্ধ। ডার্ক মোড, Exercism AI ও আরও অনেক কিছু পেতে <0>Exercism-এ দান করুন</0> এবং Insider হয়ে উঠুন।",
-    "disabledTooltip.mustBeExercismInsider": "এই থিম আনলক করতে আপনাকে <0>Exercism Insider <1/></0> হতে হবে।"
+    "disabledTooltip.mustBeExercismInsider": "এই থিম আনলক করতে আপনাকে <0>Exercism Insider <1/></0> হতে হবে।",
+    "themeButton.themes.light": "লাইট",
+    "themeButton.themes.dark": "ডার্ক",
+    "themeButton.themes.system": "সিস্টেম",
+    "themeButton.themes.sepia": "কম কনট্রাস্ট",
+    "themeButton.themes.accessibility-dark": "অ্যাক্সেসিবিলিটি ডার্ক"
   },
   "components/settings/ThemePreferenceForm.tsx": {
     "themePreferenceForm.theme": "থিম"
@@ -2537,7 +2590,9 @@
     "previewFooter.submit": "জমা দিন",
     "previewFooter.example": "উদাহরণ",
     "previewFeedbackComment.gaveThisFeedback": "<0>{{mentorName}}</0> আপনার মতোই একটি সলিউশনে এই ফিডব্যাক দিয়েছেন:",
-    "previewFeedbackComment.commentedOn": "{{date}} তারিখে মন্তব্য করেছেন"
+    "previewFeedbackComment.commentedOn": "{{date}} তারিখে মন্তব্য করেছেন",
+    "previewFooter.solutionCount_one": "{{count}}টি সলিউশন",
+    "previewFooter.solutionCount_other": "{{count}}টি সলিউশন"
   },
   "components/mentoring/representation/right-pane": {
     "automationRules.noGuidance": "এই রিপ্রেজেন্টারের এখনো কোনো গাইডেন্স নেই। রিপ্রেজেন্টেশন প্রক্রিয়ার সময় কোন নরমালাইজেশন হয়, তা ব্যাখ্যা করতে আমাদের মেইনটেইনাররা গাইডেন্স নোট লেখেন। আপনি যদি মেইনটেইনার হন, তাহলে <0>GitHub-এ একটি Pull Request</0> পাঠিয়ে এই রিপ্রেজেন্টারের গাইডেন্স শুরু করতে সাহায্য করুন।",
@@ -2552,5 +2607,44 @@
   },
   "components/mentoring/representation/right-pane/MentoringConversation.tsx": {
     "mentoringConversation.loading": "লোড হচ্ছে.."
+  },
+  "components/common/Credits.tsx": {
+    "byHandle": "{{handle}} লিখেছেন",
+    "labels.author_one": "{{count}} জন লেখক",
+    "labels.author_other": "{{count}} জন লেখক",
+    "labels.contributor_one": "{{count}} জন অবদানকারী",
+    "labels.contributor_other": "{{count}} জন অবদানকারী"
+  },
+  "components/common/ExerciseIcon.tsx": {
+    "iconForExercise": "{{title}} নামের অনুশীলনীর আইকন"
+  },
+  "components/common/TrackIcon.tsx": {
+    "iconForTrack": "{{title}} ট্র্যাকের আইকন"
+  },
+  "components/donations/stripe-form/useStripeForm.ts": {
+    "paymentFailedWithError": "পেমেন্ট ব্যর্থ হয়েছে। এরর: {{error}}",
+    "paymentFailedBankMessage": "আপনার পেমেন্ট ব্যর্থ হয়েছে। আপনার ব্যাংক থেকে আমরা যে বার্তা পেয়েছি তা হলো \"{{message}}\"",
+    "cardElementNotFound": "কার্ড এলিমেন্ট পাওয়া যায়নি"
+  },
+  "components/dropdowns/notifications": {
+    "notificationsIcon.youHaveNotifications_one": "আপনার {{count}}টি নোটিফিকেশন আছে",
+    "notificationsIcon.youHaveNotifications_other": "আপনার {{count}}টি নোটিফিকেশন আছে"
+  },
+  "components/editor/AssistantChat/useTurnstile.ts": {
+    "verifyHeading": "আপনি যে কোনো বট নন, তা যাচাই করুন",
+    "verifyDescription": "আমাদের উপর সব সময় বট হামলা চালায় (দেখে মনে হয়, কোডিং শিখতে ওদের খুব আগ্রহ!)। আপনি মানুষ কি না নিশ্চিত করতে অনুগ্রহ করে নিচের বাক্সে টিক দিন।"
+  },
+  "components/ErrorBoundary.tsx": {
+    "errorFallback.somethingWentWrong": "কিছু একটা ভুল হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন।"
+  },
+  "components/track": {
+    "exerciseMakersButton.authors_one": "{{count}} জন লেখক",
+    "exerciseMakersButton.authors_other": "{{count}} জন লেখক",
+    "exerciseMakersButton.contributors_one": "{{count}} জন কন্ট্রিবিউটর",
+    "exerciseMakersButton.contributors_other": "{{count}} জন কন্ট্রিবিউটর",
+    "conceptMakersButton.authors_one": "{{count}} জন লেখক",
+    "conceptMakersButton.authors_other": "{{count}} জন লেখক",
+    "conceptMakersButton.contributors_one": "{{count}} জন কন্ট্রিবিউটর",
+    "conceptMakersButton.contributors_other": "{{count}} জন কন্ট্রিবিউটর"
   }
 }

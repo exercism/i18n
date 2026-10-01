@@ -137,7 +137,11 @@
     "tasksList.typeSwitcher.multiple": "چند مورد",
     "tasksList.typeSwitcher.label": "نوع",
     "tasksList.typeSwitcher.docsDescription": "به ساخت مستندات Exercism کمک کنید",
-    "tasksList.typeSwitcher.ciDescription": "خودکارسازی و یکپارچه‌سازی مستمر"
+    "tasksList.typeSwitcher.ciDescription": "خودکارسازی و یکپارچه‌سازی مستمر",
+    "tasksList.showingTasks_one": "نمایش {{count}} کار",
+    "tasksList.showingTasks_other": "نمایش {{count}} کار",
+    "tasksList.outOfPossibleTasks_one": "از میان {{count}} کار ممکن",
+    "tasksList.outOfPossibleTasks_other": "از میان {{count}} کار ممکن"
   },
   "components/settings/CommunicationPreferencesForm.tsx": {
     "successMessage.updatedPreferences": "ترجیحات شما به‌روزرسانی شد",
@@ -329,7 +333,10 @@
   "components/profile/contributions-list": {
     "otherContributionsList.generic": "عمومی",
     "maintainingContributionsList.generic": "عمومی",
-    "buildingContributionsList.generic": "عمومی"
+    "buildingContributionsList.generic": "عمومی",
+    "buildingContributionsList.inTrack": "در <0/><1>{{track}}</1>",
+    "maintainingContributionsList.inTrack": "در <0/><1>{{track}}</1>",
+    "otherContributionsList.inTrack": "در <0/><1>{{track}}</1>"
   },
   "components/settings/HandleForm.tsx": {
     "handleForm.confirmYourPassword": "تأیید رمز عبور",
@@ -492,7 +499,16 @@
     "tabs.overview": "نمای کلی",
     "tabs.solutions": "راه‌حل‌ها",
     "tabs.reputation": "اعتبار",
-    "tabs.badges": "نشان‌ها"
+    "tabs.badges": "نشان‌ها",
+    "contributionResults.showingContributions_one": "نمایش {{count}} مشارکت",
+    "contributionResults.showingContributions_other": "نمایش {{count}} مشارکت",
+    "badgeResults.showingBadges_one": "نمایش {{count}} نشان",
+    "badgeResults.showingBadges_other": "نمایش {{count}} نشان",
+    "solution.views_one": "{{count}} بازدید",
+    "solution.views_other": "{{count}} بازدید",
+    "solutionsList.showingSolutions_one": "نمایش {{count}} راه‌حل",
+    "solutionsList.showingSolutions_other": "نمایش {{count}} راه‌حل",
+    "contribution.inTrack": "در <0/><1>{{track}}</1>"
   },
   "components/journey/badges-list": {
     "orderSwitcher.sortByUnrevealedFirst": "مرتب‌سازی بر اساس آشکارنشده‌ها در ابتدا",
@@ -642,7 +658,9 @@
     "commentsList.header.writeAComment": "نوشتن نظر",
     "starButton.numberOfStars": "تعداد ستاره‌ها",
     "starButton.favorite": "محبوب",
-    "starButton.favorited": "محبوب‌شده"
+    "starButton.favorited": "محبوب‌شده",
+    "commentsList.count.numberOfComments_one": "{{count}} نظر",
+    "commentsList.count.numberOfComments_other": "{{count}} نظر"
   },
   "components/concept-map": {
     "exerciseStatusBar.exerciseStatusDotTooltip": "راهنمای نقطه‌ی وضعیت تمرین",
@@ -1130,7 +1148,8 @@
     "donationStep.whyWeNeedDonations": "یک ویدیوی کوتاه آماده کرده‌ام که توضیح می‌دهد چرا به کمک‌های مالی نیاز داریم و چگونه از آن‌ها استفاده می‌کنیم 👇",
     "donationStep.continueWithoutDonating": "بدون کمک مالی ادامه دهید",
     "donationStep.lessThanOnePercentDonate": "کمتر از ۱٪ از کسانی که از Exercism استفاده می‌کنند، تصمیم می‌گیرند کمک مالی کنند. اگر توان مالی دارید، لطفاً شما هم یکی از آن‌ها باشید.",
-    "reportStep.reportPlaceholder": "لطفاً دقیقاً بنویسید چرا این گزارش را ثبت می‌کنید و برایمان توضیح دهید چه اتفاقی افتاد."
+    "reportStep.reportPlaceholder": "لطفاً دقیقاً بنویسید چرا این گزارش را ثبت می‌کنید و برایمان توضیح دهید چه اتفاقی افتاد.",
+    "rateMentorStep.exerciseInTrack": "<0>{{exercise}}</0> در {{track}}"
   },
   "components/student/iterations-list": {
     "deleteIterationModal.unableToDeleteIteration": "حذف تکرار ممکن نیست",
@@ -1292,7 +1311,12 @@
     "available": "در دسترس",
     "locked": "قفل‌شده",
     "searchByTitle": "جست‌وجو بر اساس عنوان",
-    "noExercisesFound": "هیچ تمرینی پیدا نشد"
+    "noExercisesFound": "هیچ تمرینی پیدا نشد",
+    "statusFilters.allExercises": "همه‌ی تمرین‌ها",
+    "statusFilters.completed": "تکمیل‌شده",
+    "statusFilters.inProgress": "در حال انجام",
+    "statusFilters.available": "در دسترس",
+    "statusFilters.locked": "قفل‌شده"
   },
   "components/student/ExerciseStatusChart.tsx": {
     "exerciseStatusChart.invalidStatus": "وضعیت نامعتبر"
@@ -1343,7 +1367,7 @@
     "conceptsLearntSummary.conceptsLearnt": "مفاهیم آموخته‌شده",
     "headerSummary.youVeProgressed": "شما بیشترین پیشرفت را در ",
     "learningStats.didYouKnow": "می‌دانستید؟",
-    "learningStats.linesOfCodeStat": "شما <strong>{{numLines}} {{lineLabel}}</strong> کد را در <link>{{numSolutions}} {{solutionLabel}}</link> نوشته‌اید.",
+    "learningStats.linesOfCodeStat": "شما <strong>{{lines}}</strong> کد را در <link>{{solutions}}</link> نوشته‌اید.",
     "learningStats.aesopFact": "این تقریباً هم‌ارز طول <fableLink>افسانه‌ی ازوپ!</fableLink> است",
     "tracksEnrolledSummary.tracksEnrolled_one": "مسیر ثبت‌نام‌شده",
     "tracksEnrolledSummary.tracksEnrolled_other": "مسیرهای ثبت‌نام‌شده",
@@ -1364,7 +1388,11 @@
     "trackSummary.velocityExplanation": "این معیاری است که نشان می‌دهد در ۶ ماه گذشته با چه سرعتی در مسیر پیش رفته‌اید",
     "learningOverview.youReThroughSingle": "شما <em>{{percentage}}%</em> از مسیر ثبت‌نام‌شده‌تان را گذرانده‌اید. <strong>ادامه دهید!</strong>",
     "learningOverview.youReThroughMultiple": "شما <em>{{percentage}}%</em> از مسیرهای ثبت‌نام‌شده‌تان را گذرانده‌اید. <strong>ادامه دهید!</strong>",
-    "learningOverview.exercisesCompleted": "{{completed}} / {{total}} تمرین تکمیل‌شده"
+    "learningOverview.exercisesCompleted": "{{completed}} / {{total}} تمرین تکمیل‌شده",
+    "learningStats.lineCount_one": "{{formattedCount}} خط",
+    "learningStats.lineCount_other": "{{formattedCount}} خط",
+    "learningStats.solutionCount_one": "{{count}} راه‌حل",
+    "learningStats.solutionCount_other": "{{count}} راه‌حل"
   },
   "components/journey/solutions-list": {
     "testsStatusSelect.errored": "دارای خطا",
@@ -1414,7 +1442,11 @@
     "automationListElement.shownTimes": "{{number}} بار نمایش داده شده",
     "automationListElement.occurenceTime": "{{number}} بار رخداد",
     "automationListElement.occurenceTimes": "{{number}} بار رخداد",
-    "automationListElement.inTrackId": "در {{trackTitle}} (#{{id}})"
+    "automationListElement.inTrackId": "در {{trackTitle}} (#{{id}})",
+    "automationListElement.shownTimes_one": "{{count}} بار نمایش داده شده",
+    "automationListElement.shownTimes_other": "{{count}} بار نمایش داده شده",
+    "automationListElement.occurenceTimes_one": "{{count}} بار رخ داده",
+    "automationListElement.occurenceTimes_other": "{{count}} بار رخ داده"
   },
   "components/mentoring/automation/Representation.tsx": {
     "needFeedback": "نیازمند بازخورد",
@@ -1432,7 +1464,11 @@
   "components/mentoring/automation/TrackFilterList.tsx": {
     "trackFilterList.unableToFetchTracks": "امکان دریافت مسیرها وجود ندارد",
     "trackFilterList.openTheTrackFilter": "فیلتر مسیرها را باز کنید",
-    "trackFilterList.clickToChange": "برای تغییر کلیک کنید"
+    "trackFilterList.clickToChange": "برای تغییر کلیک کنید",
+    "trackFilterList.submissionCount_one": "{{count}} ارسال",
+    "trackFilterList.submissionCount_other": "{{count}} ارسال",
+    "trackFilterList.representationCount_one": "{{count}} بازنمایی",
+    "trackFilterList.representationCount_other": "{{count}} بازنمایی"
   },
   "components/mentoring/discussion/discussion-post": {
     "discussionPostView.edit": "ویرایش"
@@ -1994,7 +2030,9 @@
     "components.mentoring.session.mentorNotes.improveNotes": "این یادداشت‌ها را بهبود دهید",
     "components.mentoring.session.mentorNotes.communityNotes": "این یادداشت‌ها را جامعه‌ی ما می‌نویسد. لطفاً با ارسال یک <0>Pull Request در GitHub</0> به بهبود آن‌ها کمک کنید.",
     "components.mentoring.session.previousSessionsLink.opensInModal": "در پنجره‌ی مودال باز می‌شود",
-    "components.mentoring.session.previousSessionsLink.seePreviousSessions": "{{numPrevious}} {{sessions}} قبلی را ببینید"
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions": "{{numPrevious}} {{sessions}} قبلی را ببینید",
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions_one": "{{count}} جلسه‌ی پیشین را ببینید",
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions_other": "{{count}} جلسه‌ی پیشین را ببینید"
   },
   "components/common/HandleWithFlair.tsx": {
     "flair.insider": "یک Insider",
@@ -2127,7 +2165,7 @@
     "testRunSummaryByStatusHeaderMessage.testFailure": "test ناموفق",
     "testRunSummaryByStatusHeaderMessage.testFailures": "testهای ناموفق",
     "testRunSummaryByStatusHeaderMessage.testsFailed": "testها ناموفق بودند",
-    "testsGroupedByTaskList.task": "کار",
+    "testsGroupedByTaskList.task": "کار {{id}}",
     "testsGroupedByTaskList.jumpToInstructions": "پرش به دستورالعمل‌ها",
     "testSummary.passed": "موفق",
     "testSummary.failed": "ناموفق",
@@ -2137,7 +2175,9 @@
     "testSummary.testError": "خطای test",
     "testSummary.yourOutput": "خروجی شما",
     "testContentWrapper.fileNotFound": "فایل پیدا نشد",
-    "jumpToInstructionButton.jumpToInstructions": "پرش به دستورالعمل‌ها"
+    "jumpToInstructionButton.jumpToInstructions": "پرش به دستورالعمل‌ها",
+    "testRunSummaryByStatusHeaderMessage.testFailure_one": "{{count}} تست ناموفق",
+    "testRunSummaryByStatusHeaderMessage.testFailure_other": "{{count}} تست ناموفق"
   },
   "components/mentoring/session/iteration-view": {
     "iterationHeader.downloadButton.downloadSolution": "دانلود راه‌حل",
@@ -2201,7 +2241,9 @@
     "selectedTracks_other": "{{count}} مسیر انتخاب شده‌اند",
     "trackCheckbox.trackSelected": "مسیر انتخاب شده است",
     "tracksList.noTracksFound": "مسیری یافت نشد",
-    "continueButton.continue": "ادامه"
+    "continueButton.continue": "ادامه",
+    "trackCheckbox.solutionsQueued_one": "{{count}} راه‌حل در صف",
+    "trackCheckbox.solutionsQueued_other": "{{count}} راه‌حل در صف"
   },
   "components/modals/BadgeModal.tsx": {
     "badgeModal.newBadgeEarned": "نشان جدیدی کسب کردید",
@@ -2219,11 +2261,17 @@
     "userTooltip.unableToLoadUser": "امکان بارگذاری کاربر وجود ندارد"
   },
   "components/track/activity-ticker": {
-    "publishedSolutionLink.newSolution": "<0>راه‌حل جدید</0> برای ",
+    "publishedSolutionLink.newSolution": "<0>راه‌حل جدید</0>",
     "handle.someoneInCountry": "یک نفر در {{countryName}}",
     "handle.someone": "یک نفر",
     "userAvatar.userAvatar": "آواتار {{handle}}",
-    "pullRequestLink.pullRequest": "درخواست ادغام"
+    "pullRequestLink.pullRequest": "درخواست ادغام",
+    "sentence.publish_solution_metric": "<0/> یک <1/> برای <3/> منتشر کرد",
+    "sentence.open_pull_request_metric": "<0/> یک <2/> باز کرد",
+    "sentence.merge_pull_request_metric": "<0/> یک <2/> ادغام کرد",
+    "sentence.complete_solution_metric": "<0/> <3/> را تکمیل کرد",
+    "sentence.start_solution_metric": "<0/> <3/> را شروع کرد",
+    "sentence.submit_submission_metric": "<0/> <3/> را امتحان کرد"
   },
   "components/track/dig-deeper-components": {
     "deepDiveVideo.deepDiveInto": "بررسی عمیق {{exerciseTitle}}!",
@@ -2285,7 +2333,12 @@
     "infoMessage.insiderAccessToDarkMode": "به‌عنوان یکی از اعضای Insiders در Exercism، به حالت تاریک دسترسی دارید. بین حالت روشن، حالت تاریک، یا به‌روزرسانی خودکار بر اساس تنظیمات سیستم خود یکی را انتخاب کنید. لذت ببرید! 💎",
     "infoMessage.eligibleToJoinInsiders": "شما واجد شرایط پیوستن به Insiders هستید. <0>از اینجا شروع کنید.</0>",
     "infoMessage.darkModeOnlyAvailableToInsiders": "حالت تاریک فقط برای اعضای Insiders در Exercism در دسترس است. <0>به Exercism کمک مالی کنید</0> و به یک Insider تبدیل شوید تا به حالت تاریک، Exercism AI و امکانات بیشتر دسترسی داشته باشید.",
-    "disabledTooltip.mustBeExercismInsider": "برای باز کردن این پوسته باید یک <0>Exercism Insider <1/></0> باشید."
+    "disabledTooltip.mustBeExercismInsider": "برای باز کردن این پوسته باید یک <0>Exercism Insider <1/></0> باشید.",
+    "themeButton.themes.light": "روشن",
+    "themeButton.themes.dark": "تیره",
+    "themeButton.themes.system": "سیستم",
+    "themeButton.themes.sepia": "کنتراست کم",
+    "themeButton.themes.accessibility-dark": "تیره‌ی دسترس‌پذیری"
   },
   "components/settings/ThemePreferenceForm.tsx": {
     "themePreferenceForm.theme": "پوسته"
@@ -2537,7 +2590,9 @@
     "previewFooter.submit": "ارسال",
     "previewFooter.example": "نمونه",
     "previewFeedbackComment.gaveThisFeedback": "<0>{{mentorName}}</0> این بازخورد را روی راه‌حلی دقیقاً مانند راه‌حل شما داده است:",
-    "previewFeedbackComment.commentedOn": "نظر داده در {{date}}"
+    "previewFeedbackComment.commentedOn": "نظر داده در {{date}}",
+    "previewFooter.solutionCount_one": "{{count}} راه‌حل",
+    "previewFooter.solutionCount_other": "{{count}} راه‌حل"
   },
   "components/mentoring/representation/right-pane": {
     "automationRules.noGuidance": "این بازنما هنوز هیچ راهنمایی‌ای ندارد. یادداشت‌های راهنمایی را نگهدارندگان ما می‌نویسند تا توضیح دهند در فرایند بازنمایی چه نرمال‌سازی‌هایی انجام می‌شود. اگر شما نگهدارنده هستید، لطفاً با فرستادن یک <0>Pull Request در GitHub</0> به راه‌اندازی آن‌ها برای این بازنما کمک کنید.",
@@ -2552,5 +2607,44 @@
   },
   "components/mentoring/representation/right-pane/MentoringConversation.tsx": {
     "mentoringConversation.loading": "در حال بارگذاری.."
+  },
+  "components/common/Credits.tsx": {
+    "byHandle": "توسط {{handle}}",
+    "labels.author_one": "{{count}} نویسنده",
+    "labels.author_other": "{{count}} نویسنده",
+    "labels.contributor_one": "{{count}} مشارکت‌کننده",
+    "labels.contributor_other": "{{count}} مشارکت‌کننده"
+  },
+  "components/common/ExerciseIcon.tsx": {
+    "iconForExercise": "آیکون تمرین به اسم {{title}}"
+  },
+  "components/common/TrackIcon.tsx": {
+    "iconForTrack": "آیکون مسیر {{title}}"
+  },
+  "components/donations/stripe-form/useStripeForm.ts": {
+    "paymentFailedWithError": "پرداخت با خطا ناموفق بود: {{error}}",
+    "paymentFailedBankMessage": "پرداخت شما ناموفق بود. پیامی که از بانک شما دریافت کردیم این بود: «{{message}}»",
+    "cardElementNotFound": "عنصر کارت پیدا نشد"
+  },
+  "components/dropdowns/notifications": {
+    "notificationsIcon.youHaveNotifications_one": "{{count}} اعلان دارید",
+    "notificationsIcon.youHaveNotifications_other": "{{count}} اعلان دارید"
+  },
+  "components/editor/AssistantChat/useTurnstile.ts": {
+    "verifyHeading": "لطفاً تأیید کنید که ربات نیستید",
+    "verifyDescription": "ربات‌ها مدام به ما حمله می‌کنند (ظاهراً خیلی مشتاق‌اند وارد برنامه‌نویسی شوند!). لطفاً برای تأیید اینکه انسان هستید، کادر زیر را تیک بزنید."
+  },
+  "components/ErrorBoundary.tsx": {
+    "errorFallback.somethingWentWrong": "مشکلی پیش آمد. لطفاً دوباره تلاش کنید."
+  },
+  "components/track": {
+    "exerciseMakersButton.authors_one": "{{count}} نویسنده",
+    "exerciseMakersButton.authors_other": "{{count}} نویسنده",
+    "exerciseMakersButton.contributors_one": "{{count}} مشارکت‌کننده",
+    "exerciseMakersButton.contributors_other": "{{count}} مشارکت‌کننده",
+    "conceptMakersButton.authors_one": "{{count}} نویسنده",
+    "conceptMakersButton.authors_other": "{{count}} نویسنده",
+    "conceptMakersButton.contributors_one": "{{count}} مشارکت‌کننده",
+    "conceptMakersButton.contributors_other": "{{count}} مشارکت‌کننده"
   }
 }

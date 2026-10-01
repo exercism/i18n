@@ -136,7 +136,9 @@
     "tasksList.typeSwitcher.docsDescription": "Exercismのドキュメント作りを手伝います",
     "tasksList.typeSwitcher.ciDescription": "自動化と継続的インテグレーション",
     "tasksList.sizeSwitcher.extraSmall": "極小",
-    "tasksList.sizeSwitcher.label": "サイズ"
+    "tasksList.sizeSwitcher.label": "サイズ",
+    "tasksList.showingTasks_other": "{{count}}件のタスクを表示中",
+    "tasksList.outOfPossibleTasks_other": "全{{count}}件中"
   },
   "components/settings/CommunicationPreferencesForm.tsx": {
     "successMessage.updatedPreferences": "設定を更新しました",
@@ -487,7 +489,9 @@
     "automationListElement.shownTimes": "{{number}}回表示",
     "automationListElement.occurenceTime": "{{number}}回目の発生",
     "automationListElement.occurenceTimes": "{{number}}回目の発生",
-    "automationListElement.inTrackId": "{{trackTitle}}（#{{id}}）にて"
+    "automationListElement.inTrackId": "{{trackTitle}}（#{{id}}）にて",
+    "automationListElement.shownTimes_other": "{{count}}回表示",
+    "automationListElement.occurenceTimes_other": "{{count}}回の出現"
   },
   "components/mentoring/automation/Representation.tsx": {
     "needFeedback": "フィードバックが必要",
@@ -505,7 +509,9 @@
   "components/mentoring/automation/TrackFilterList.tsx": {
     "trackFilterList.unableToFetchTracks": "トラックを取得できません",
     "trackFilterList.openTheTrackFilter": "トラックフィルターを開く",
-    "trackFilterList.clickToChange": "クリックして変更"
+    "trackFilterList.clickToChange": "クリックして変更",
+    "trackFilterList.submissionCount_other": "{{count}}件の提出",
+    "trackFilterList.representationCount_other": "{{count}}件の表現"
   },
   "components/mentoring/discussion/discussion-post": {
     "discussionPostView.edit": "編集"
@@ -631,7 +637,10 @@
   "components/profile/contributions-list": {
     "otherContributionsList.generic": "一般",
     "maintainingContributionsList.generic": "一般",
-    "buildingContributionsList.generic": "一般"
+    "buildingContributionsList.generic": "一般",
+    "buildingContributionsList.inTrack": "<0/><1>{{track}}</1>にて",
+    "maintainingContributionsList.inTrack": "<0/><1>{{track}}</1>にて",
+    "otherContributionsList.inTrack": "<0/><1>{{track}}</1>にて"
   },
   "session-batch-2": {
     "components.mentoring.session.guidance.howYouSolvedExercise": "演習の解き方",
@@ -667,7 +676,8 @@
     "components.mentoring.session.mentorNotes.improveNotes": "このノートを改善する",
     "components.mentoring.session.mentorNotes.communityNotes": "このノートはコミュニティが書いています。<0>GitHubでプルリクエスト</0>を送って、改善を手伝ってください。",
     "components.mentoring.session.previousSessionsLink.opensInModal": "モーダルで開く",
-    "components.mentoring.session.previousSessionsLink.seePreviousSessions": "過去の{{sessions}}を{{numPrevious}}件見る"
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions": "過去の{{sessions}}を{{numPrevious}}件見る",
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions_other": "過去のセッション{{count}}件を見る"
   },
   "components/common/HandleWithFlair.tsx": {
     "flair.insider": "Insider",
@@ -830,12 +840,14 @@
     "conceptsLearntSummary.conceptsLearnt": "学習した概念",
     "headerSummary.youVeProgressed": "最も先に進んでいるのは、 ",
     "learningStats.didYouKnow": "知っていましたか？",
-    "learningStats.linesOfCodeStat": "<link>{{numSolutions}} {{solutionLabel}}</link>にわたって、<strong>{{numLines}} {{lineLabel}}</strong>のコードを書きました。",
+    "learningStats.linesOfCodeStat": "<link>{{solutions}}</link>にわたって、<strong>{{lines}}</strong>のコードを書きました。",
     "learningStats.aesopFact": "これはほぼ、<fableLink>イソップ寓話</fableLink>1編分の長さに相当します！",
     "tracksEnrolledSummary.tracksEnrolled_other": "参加したトラック",
     "trackSummary.exercisesCompleted": "{{completed}} / {{total}}（{{percent}}%）の演習を完了",
     "trackSummary.joinedTrack": "{{title}}トラックに参加したとき",
-    "trackSummary.startedTrackAgo": "{{title}}トラックに取り組み始めたのは<strong>{{since}}</strong>です。"
+    "trackSummary.startedTrackAgo": "{{title}}トラックに取り組み始めたのは<strong>{{since}}</strong>です。",
+    "learningStats.lineCount_other": "{{formattedCount}}行",
+    "learningStats.solutionCount_other": "{{count}}件の解答"
   },
   "components/journey/overview/learning-section/track-summary/TrackProgressBar.tsx": {
     "trackProgressBar.completed": "完了"
@@ -1241,7 +1253,8 @@
     "satisfiedStep.yesPlease": "はい、お願いします",
     "reasonSelect.codeOfConductViolation": "行動規範の違反",
     "reasonSelect.wrongOrMisleadingInformation": "誤った情報、または誤解を招く情報",
-    "reasonSelect.other": "その他"
+    "reasonSelect.other": "その他",
+    "rateMentorStep.exerciseInTrack": "{{track}}の<0>{{exercise}}</0>"
   },
   "components/modals/TaskHintsModal.tsx": {
     "taskHintsModal.hintsAndTips": "ヒントとコツ"
@@ -1496,7 +1509,7 @@
     "testRunSummaryByStatusHeaderMessage.testFailure": "テスト失敗",
     "testRunSummaryByStatusHeaderMessage.testFailures": "テスト失敗",
     "testRunSummaryByStatusHeaderMessage.testsFailed": "テストに失敗しました",
-    "testsGroupedByTaskList.task": "タスク",
+    "testsGroupedByTaskList.task": "タスク{{id}}",
     "testsGroupedByTaskList.jumpToInstructions": "説明に移動",
     "testSummary.passed": "合格",
     "testSummary.failed": "失敗",
@@ -1506,7 +1519,8 @@
     "testSummary.testError": "テストエラー",
     "testSummary.yourOutput": "出力結果",
     "testContentWrapper.fileNotFound": "ファイルが見つかりません",
-    "jumpToInstructionButton.jumpToInstructions": "説明に移動"
+    "jumpToInstructionButton.jumpToInstructions": "説明に移動",
+    "testRunSummaryByStatusHeaderMessage.testFailure_other": "{{count}}件のテスト失敗"
   },
   "components/favorites-list": {
     "index.filteringRestricted": "絞り込みはInsiders限定です",
@@ -1972,7 +1986,12 @@
     "tabs.overview": "概要",
     "tabs.solutions": "解答",
     "tabs.reputation": "評判",
-    "tabs.badges": "バッジ"
+    "tabs.badges": "バッジ",
+    "contributionResults.showingContributions_other": "{{count}}件のコントリビューションを表示中",
+    "badgeResults.showingBadges_other": "{{count}}個のバッジを表示中",
+    "solution.views_other": "{{count}}回の閲覧",
+    "solutionsList.showingSolutions_other": "{{count}}件の解答を表示中",
+    "contribution.inTrack": "<0/><1>{{track}}</1>にて"
   },
   "components/journey/badges-list": {
     "orderSwitcher.sortByUnrevealedFirst": "未公開を先頭に並べ替え",
@@ -2010,7 +2029,12 @@
     "infoMessage.insiderAccessToDarkMode": "Exercism Insiderはダークモードを利用できます。ライト、ダーク、またはシステムの設定に合わせて自動で切り替わるものから選べます。ぜひお楽しみください！ 💎",
     "infoMessage.eligibleToJoinInsiders": "Insidersに参加する資格があります。<0>こちらから始めましょう。</0>",
     "infoMessage.darkModeOnlyAvailableToInsiders": "ダークモードはExercism Insiderだけが利用できます。<0>Exercismに寄付して</0>Insiderになると、ダークモードやExercism AIなどが使えるようになります。",
-    "disabledTooltip.mustBeExercismInsider": "このテーマを使うには、<0>Exercism Insider <1/></0>である必要があります。"
+    "disabledTooltip.mustBeExercismInsider": "このテーマを使うには、<0>Exercism Insider <1/></0>である必要があります。",
+    "themeButton.themes.light": "ライト",
+    "themeButton.themes.dark": "ダーク",
+    "themeButton.themes.system": "システム",
+    "themeButton.themes.sepia": "低コントラスト",
+    "themeButton.themes.accessibility-dark": "アクセシビリティ（ダーク）"
   },
   "components/settings/ThemePreferenceForm.tsx": {
     "themePreferenceForm.theme": "テーマ"
@@ -2041,11 +2065,17 @@
     "userTooltip.unableToLoadUser": "ユーザーを読み込めません"
   },
   "components/track/activity-ticker": {
-    "publishedSolutionLink.newSolution": "<0>新しい解答</0>： ",
+    "publishedSolutionLink.newSolution": "<0>新しい解答</0>",
     "handle.someoneInCountry": "{{countryName}}の誰か",
     "handle.someone": "誰か",
     "userAvatar.userAvatar": "{{handle}}のアバター",
-    "pullRequestLink.pullRequest": "プルリクエスト"
+    "pullRequestLink.pullRequest": "プルリクエスト",
+    "sentence.publish_solution_metric": "<0/>が<3/>の<1/>を公開しました",
+    "sentence.open_pull_request_metric": "<0/>が<2/>を作成しました",
+    "sentence.merge_pull_request_metric": "<0/>が<2/>をマージしました",
+    "sentence.complete_solution_metric": "<0/>が<3/>を完了しました",
+    "sentence.start_solution_metric": "<0/>が<3/>を開始しました",
+    "sentence.submit_submission_metric": "<0/>が<3/>に挑戦しました"
   },
   "components/track/dig-deeper-components": {
     "deepDiveVideo.deepDiveInto": "{{exerciseTitle}}を深掘り！",
@@ -2093,7 +2123,8 @@
     "previewFooter.submit": "送信",
     "previewFooter.example": "例",
     "previewFeedbackComment.gaveThisFeedback": "<0>{{mentorName}}</0>が、ご自身の解答とまったく同じ解答に、このフィードバックを送りました：",
-    "previewFeedbackComment.commentedOn": "{{date}}にコメントしました"
+    "previewFeedbackComment.commentedOn": "{{date}}にコメントしました",
+    "previewFooter.solutionCount_other": "{{count}}件の解答"
   },
   "components/mentoring/representation/right-pane": {
     "automationRules.noGuidance": "このリプレゼンターにはまだガイダンスがありません。ガイダンスは、表現処理の過程でどのような正規化が行われるかを説明するために、メンテナーが書くものです。メンテナーの方は、<0>GitHubでプルリクエストを送って</0>、このリプレゼンターのガイダンス作成にご協力ください。",
@@ -2135,7 +2166,12 @@
     "available": "利用可能",
     "locked": "ロック中",
     "searchByTitle": "タイトルで検索",
-    "noExercisesFound": "演習が見つかりません"
+    "noExercisesFound": "演習が見つかりません",
+    "statusFilters.allExercises": "すべての演習",
+    "statusFilters.completed": "完了",
+    "statusFilters.inProgress": "進行中",
+    "statusFilters.available": "利用可能",
+    "statusFilters.locked": "ロック中"
   },
   "components/student/ExerciseStatusChart.tsx": {
     "exerciseStatusChart.invalidStatus": "無効なステータス"
@@ -2446,7 +2482,8 @@
     "selectedTracks_other": "{{count}}件のトラックが選択されています",
     "trackCheckbox.trackSelected": "トラック選択済み",
     "tracksList.noTracksFound": "トラックが見つかりません",
-    "continueButton.continue": "続ける"
+    "continueButton.continue": "続ける",
+    "trackCheckbox.solutionsQueued_other": "{{count}}件の解答が待機中"
   },
   "components/modals/BadgeModal.tsx": {
     "badgeModal.newBadgeEarned": "新しいバッジを獲得しました",
@@ -2506,6 +2543,39 @@
     "commentsList.header.writeAComment": "コメントを書く",
     "starButton.numberOfStars": "スターの数",
     "starButton.favorite": "お気に入り",
-    "starButton.favorited": "お気に入り登録済み"
+    "starButton.favorited": "お気に入り登録済み",
+    "commentsList.count.numberOfComments_other": "{{count}}件のコメント"
+  },
+  "components/common/Credits.tsx": {
+    "byHandle": "{{handle}}作",
+    "labels.author_other": "{{count}}人の作者",
+    "labels.contributor_other": "{{count}}人のコントリビューター"
+  },
+  "components/common/ExerciseIcon.tsx": {
+    "iconForExercise": "{{title}}という演習のアイコン"
+  },
+  "components/common/TrackIcon.tsx": {
+    "iconForTrack": "{{title}}トラックのアイコン"
+  },
+  "components/donations/stripe-form/useStripeForm.ts": {
+    "paymentFailedWithError": "支払いに失敗しました。エラー：{{error}}",
+    "paymentFailedBankMessage": "支払いに失敗しました。銀行から返ってきたメッセージは「{{message}}」です",
+    "cardElementNotFound": "カード要素が見つかりません"
+  },
+  "components/dropdowns/notifications": {
+    "notificationsIcon.youHaveNotifications_other": "{{count}}件の通知があります"
+  },
+  "components/editor/AssistantChat/useTurnstile.ts": {
+    "verifyHeading": "ロボットではないことの確認をお願いします",
+    "verifyDescription": "常にボットからの攻撃を受けています（どうやら彼らはプログラミングに非常に熱心なようです！）。人間であることを確認するには、下のチェックボックスにチェックを入れてください。"
+  },
+  "components/ErrorBoundary.tsx": {
+    "errorFallback.somethingWentWrong": "問題が発生しました。もう一度お試しください。"
+  },
+  "components/track": {
+    "exerciseMakersButton.authors_other": "作者{{count}}人",
+    "exerciseMakersButton.contributors_other": "コントリビューター{{count}}人",
+    "conceptMakersButton.authors_other": "作者{{count}}人",
+    "conceptMakersButton.contributors_other": "コントリビューター{{count}}人"
   }
 }

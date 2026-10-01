@@ -729,7 +729,8 @@
         "new_password_label": "گذرواژه‌ی جدید",
         "new_password_placeholder": "یک گذرواژه‌ی جدید وارد کنید (حداقل %{minimum_password_length} کاراکتر)",
         "confirm_new_password_label": "تأیید گذرواژه‌ی جدید",
-        "confirm_new_password_placeholder": "گذرواژه‌ی جدید خود را دوباره وارد کنید"
+        "confirm_new_password_placeholder": "گذرواژه‌ی جدید خود را دوباره وارد کنید",
+        "exercism_logo_alt": "لوگوی Exercism"
       },
       "new": {
         "forgot_your_password": {
@@ -737,7 +738,8 @@
           "description": "اگر رمز عبورتان را فراموش کرده‌اید، از فرم زیر استفاده کنید تا لینکی برای تغییر آن درخواست کنید. بسیاری از کسانی که فکر می‌کنند رمز عبورشان را فراموش کرده‌اند، در ابتدا با GitHub وارد شده بودند؛ شاید شما هم بخواهید آن را امتحان کنید."
         },
         "email_placeholder": "نشانی ایمیل خود را وارد کنید",
-        "send_instructions_button": "ارسال دستورالعمل‌ها"
+        "send_instructions_button": "ارسال دستورالعمل‌ها",
+        "exercism_logo_alt": "لوگوی Exercism"
       },
       "no_token": "بدون مراجعه از طریق ایمیل بازنشانی رمز عبور نمی‌توانید به این صفحه دسترسی داشته باشید. اگر از طریق ایمیل بازنشانی رمز عبور آمده‌اید، لطفاً مطمئن شوید که از URL کامل ارائه‌شده استفاده کرده‌اید.",
       "send_instructions": "تا چند دقیقه‌ی دیگر ایمیلی حاوی دستورالعمل‌های بازنشانی رمز عبورتان دریافت خواهید کرد.",
@@ -4049,6 +4051,21 @@
           "other": "%{count} PR بررسی شده"
         }
       }
+    },
+    "exercise_approach_for_sharing": {
+      "title": "این رویکرد را به اشتراک بگذارید"
+    },
+    "exercise_article_for_sharing": {
+      "title": "این مقاله را به اشتراک بگذارید"
+    },
+    "mentor_requests": {
+      "first_timer": "تازه‌وارد"
+    },
+    "student": {
+      "anonymous_name": "کاربر در حالت ناشناس"
+    },
+    "submission_test_run": {
+      "unknown_error": "خطای ناشناخته‌ای رخ داد"
     }
   },
   "site_updates": {
@@ -4060,6 +4077,13 @@
     },
     "arbitrary": {
       "1": "<em>%{author_handle}</em> یک به‌روزرسانی جدید منتشر کرد.\n"
+    },
+    "maker_handles": {
+      "we": "ما",
+      "with_others": {
+        "one": "%{first}، %{second} و %{count} نفر دیگر",
+        "other": "%{first}، %{second} و %{count} نفر دیگر"
+      }
     }
   },
   "user_activities": {
@@ -4157,6 +4181,10 @@
         "title": "%{exercise_title} در %{track_title} در Exercism",
         "description": "می‌توانید %{exercise_title} را در %{track_title} حل کنید؟ مهارت‌های %{track_title} خود را با پشتیبانی تیم مربیان درجه‌یک ما بهبود دهید."
       }
+    },
+    "images": {
+      "avatar_alt": "آواتار آپلودشده‌ی %{handle}",
+      "profile_link_title": "پیوند به پروفایل %{handle}"
     }
   },
   "premium_mailer": {
@@ -4231,6 +4259,33 @@
         "scientific_calculations": "محاسبات علمی",
         "scripts": "اسکریپت‌ها",
         "web_development": "توسعه وب"
+      }
+    }
+  },
+  "commands": {
+    "user_reputation_token": {
+      "contextual_data": {
+        "separator": " • ",
+        "building": {
+          "one": "%{formatted_count} PR ایجادشده",
+          "other": "%{formatted_count} PR ایجادشده"
+        },
+        "maintaining": {
+          "one": "%{formatted_count} PR بازبینی‌شده و/یا ادغام‌شده",
+          "other": "%{formatted_count} PR بازبینی‌شده و/یا ادغام‌شده"
+        },
+        "authoring": {
+          "one": "%{formatted_count} مشارکت در تمرین",
+          "other": "%{formatted_count} مشارکت در تمرین"
+        },
+        "mentoring": {
+          "one": "%{formatted_count} راه‌حل راهنمایی‌شده",
+          "other": "%{formatted_count} راه‌حل راهنمایی‌شده"
+        },
+        "publishing": {
+          "one": "%{formatted_count} راه‌حل منتشرشده",
+          "other": "%{formatted_count} راه‌حل منتشرشده"
+        }
       }
     }
   }

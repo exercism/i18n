@@ -1899,7 +1899,8 @@
         "new_password_placeholder": "새 비밀번호를 입력해 주세요 (최소 %{minimum_password_length}자)",
         "confirm_new_password_label": "새 비밀번호 확인",
         "confirm_new_password_placeholder": "새 비밀번호를 다시 입력해 주세요",
-        "change_my_password_button": "비밀번호 변경"
+        "change_my_password_button": "비밀번호 변경",
+        "exercism_logo_alt": "Exercism 로고"
       },
       "new": {
         "forgot_your_password": {
@@ -1907,7 +1908,8 @@
           "description": "비밀번호를 잊으셨다면, 아래 양식에서 비밀번호를 변경할 수 있는 링크를 요청해 보세요. 비밀번호를 잊었다고 생각하는 많은 사람들이 사실은 처음에 GitHub로 로그인했으니, 그것도 한번 시도해 보면 좋아요."
         },
         "email_placeholder": "이메일 주소를 입력하세요",
-        "send_instructions_button": "안내 보내기"
+        "send_instructions_button": "안내 보내기",
+        "exercism_logo_alt": "Exercism 로고"
       },
       "no_token": "비밀번호 재설정 이메일을 거치지 않으면 이 페이지에 접근할 수 없어요. 비밀번호 재설정 이메일을 통해 접속했다면, 안내된 전체 URL을 사용했는지 확인해 주세요.",
       "send_instructions": "몇 분 안에 비밀번호를 재설정하는 방법을 안내하는 이메일을 받게 돼요.",
@@ -3371,6 +3373,10 @@
         "title": "Exercism %{track_title}의 %{exercise_title}",
         "description": "%{track_title}에서 %{exercise_title} 문제를 풀 수 있나요? 세계 최고 수준의 멘토 팀의 도움을 받으며 %{track_title} 실력을 키워봐요."
       }
+    },
+    "images": {
+      "avatar_alt": "%{handle}님이 업로드한 아바타",
+      "profile_link_title": "%{handle}님의 프로필 링크"
     }
   },
   "images": {
@@ -3874,6 +3880,21 @@
           "other": "리뷰한 PR %{count}개"
         }
       }
+    },
+    "exercise_approach_for_sharing": {
+      "title": "이 접근법 공유하기"
+    },
+    "exercise_article_for_sharing": {
+      "title": "이 글 공유하기"
+    },
+    "mentor_requests": {
+      "first_timer": "첫 참여자"
+    },
+    "student": {
+      "anonymous_name": "익명 모드의 사용자"
+    },
+    "submission_test_run": {
+      "unknown_error": "알 수 없는 오류가 발생했어요"
     }
   },
   "site_updates": {
@@ -3885,6 +3906,12 @@
     },
     "arbitrary": {
       "1": "<em>%{author_handle}</em>님이 새 소식을 게시했어요.\n"
+    },
+    "maker_handles": {
+      "we": "우리",
+      "with_others": {
+        "other": "%{first}, %{second} 외 %{count}명"
+      }
     }
   },
   "user_activities": {
@@ -4170,6 +4197,28 @@
         "scientific_calculations": "과학 계산",
         "scripts": "스크립트",
         "web_development": "웹 개발"
+      }
+    }
+  },
+  "commands": {
+    "user_reputation_token": {
+      "contextual_data": {
+        "separator": " • ",
+        "building": {
+          "other": "PR %{formatted_count}개 생성"
+        },
+        "maintaining": {
+          "other": "PR %{formatted_count}개 리뷰 및/또는 병합"
+        },
+        "authoring": {
+          "other": "연습 문제 %{formatted_count}개 기여"
+        },
+        "mentoring": {
+          "other": "솔루션 %{formatted_count}개 멘토링"
+        },
+        "publishing": {
+          "other": "솔루션 %{formatted_count}개 게시"
+        }
       }
     }
   }

@@ -227,7 +227,9 @@
     "automationListElement.shownTimes": "{{number}}번 표시됨",
     "automationListElement.occurenceTime": "{{number}}번 발생",
     "automationListElement.occurenceTimes": "{{number}}번 발생",
-    "automationListElement.inTrackId": "{{trackTitle}}에서 (#{{id}})"
+    "automationListElement.inTrackId": "{{trackTitle}}에서 (#{{id}})",
+    "automationListElement.shownTimes_other": "{{count}}번 표시됨",
+    "automationListElement.occurenceTimes_other": "{{count}}번 발생"
   },
   "components/mentoring/automation/Representation.tsx": {
     "needFeedback": "피드백 필요",
@@ -245,7 +247,9 @@
   "components/mentoring/automation/TrackFilterList.tsx": {
     "trackFilterList.unableToFetchTracks": "트랙을 불러올 수 없어요",
     "trackFilterList.openTheTrackFilter": "트랙 필터 열기",
-    "trackFilterList.clickToChange": "클릭해서 변경해요"
+    "trackFilterList.clickToChange": "클릭해서 변경해요",
+    "trackFilterList.submissionCount_other": "제출 {{count}}개",
+    "trackFilterList.representationCount_other": "표현 {{count}}개"
   },
   "components/mentoring/discussion/discussion-post": {
     "discussionPostView.edit": "수정"
@@ -419,7 +423,12 @@
     "available": "이용 가능",
     "locked": "잠김",
     "searchByTitle": "제목으로 검색",
-    "noExercisesFound": "연습 문제를 찾을 수 없어요"
+    "noExercisesFound": "연습 문제를 찾을 수 없어요",
+    "statusFilters.allExercises": "모든 연습 문제",
+    "statusFilters.completed": "완료",
+    "statusFilters.inProgress": "진행 중",
+    "statusFilters.available": "이용 가능",
+    "statusFilters.locked": "잠김"
   },
   "components/student/ExerciseStatusChart.tsx": {
     "exerciseStatusChart.invalidStatus": "잘못된 상태"
@@ -545,7 +554,9 @@
     "tasksList.sizeSwitcher.large.description": "많은 양의 작업",
     "tasksList.sizeSwitcher.massive.title": "아주 큼",
     "tasksList.sizeSwitcher.massive.description": "아주 많은 양의 작업",
-    "tasksList.sizeSwitcher.multiple": "여러 개"
+    "tasksList.sizeSwitcher.multiple": "여러 개",
+    "tasksList.showingTasks_other": "작업 {{count}}개 표시 중",
+    "tasksList.outOfPossibleTasks_other": "가능한 작업 {{count}}개 중"
   },
   "components/settings/github-syncer/sections/ConnectedSection/ManualSyncSection.tsx": {
     "notePleaseUseThisSparingForExampleWhenYouWantToBootstrapANewRepoThisIsNotDesignedToBePartOfYourNormalWorkflow": "<strong>참고:</strong> 새 저장소를 처음 만들 때처럼 꼭 필요한 경우에만 사용해요. 일상적인 작업 흐름에 포함되도록 만들어진 기능이 아니에요.",
@@ -873,7 +884,8 @@
     "donationStep.whyWeNeedDonations": "왜 기부가 필요한지, 기부금을 어떻게 쓰는지 설명하는 짧은 영상을 준비했어요 👇",
     "donationStep.continueWithoutDonating": "기부하지 않고 계속하기",
     "donationStep.lessThanOnePercentDonate": "Exercism을 이용하는 사람 중 기부를 선택하는 비율은 1%도 되지 않아요. 여유가 된다면 그중 한 명이 되어 주세요.",
-    "reportStep.reportPlaceholder": "신고하는 이유를 구체적으로 적어 주시고, 무슨 일이 있었는지도 알려 주세요."
+    "reportStep.reportPlaceholder": "신고하는 이유를 구체적으로 적어 주시고, 무슨 일이 있었는지도 알려 주세요.",
+    "rateMentorStep.exerciseInTrack": "{{track}}의 <0>{{exercise}}</0>"
   },
   "components/modals/realtime-feedback-modal/feedback-content/no-automated-feedback": {
     "index.noImmediateFeedback": "즉각적인 피드백이 없어요",
@@ -1302,12 +1314,14 @@
     "conceptsLearntSummary.conceptsLearnt": "학습한 개념",
     "headerSummary.youVeProgressed": "가장 많이 진행한 트랙은 ",
     "learningStats.didYouKnow": "알고 있었어요?",
-    "learningStats.linesOfCodeStat": "지금까지 <link>{{numSolutions}}개의 {{solutionLabel}}</link>에 걸쳐 <strong>{{numLines}} {{lineLabel}}</strong>의 코드를 작성했어요.",
+    "learningStats.linesOfCodeStat": "지금까지 <link>{{solutions}}</link>에 걸쳐 <strong>{{lines}}</strong>의 코드를 작성했어요.",
     "learningStats.aesopFact": "대략 <fableLink>이솝 우화</fableLink> 한 편 정도의 길이에요!",
     "tracksEnrolledSummary.tracksEnrolled_other": "참여한 트랙",
     "trackSummary.exercisesCompleted": "{{completed}} / {{total}} ({{percent}}%) 연습 문제 완료",
     "trackSummary.joinedTrack": "{{title}} 트랙에 참여한 시점",
-    "trackSummary.startedTrackAgo": "{{title}} 트랙을 <strong>{{since}}</strong>부터 시작했어요."
+    "trackSummary.startedTrackAgo": "{{title}} 트랙을 <strong>{{since}}</strong>부터 시작했어요.",
+    "learningStats.lineCount_other": "{{formattedCount}}줄",
+    "learningStats.solutionCount_other": "풀이 {{count}}개"
   },
   "components/journey/overview/learning-section/track-summary/TrackProgressBar.tsx": {
     "trackProgressBar.completed": "완료"
@@ -1855,7 +1869,8 @@
     "previewFooter.submit": "제출",
     "previewFooter.example": "예시",
     "previewFeedbackComment.gaveThisFeedback": "<0>{{mentorName}}</0>님이 내 솔루션과 똑같은 솔루션에 이 피드백을 남겼어요:",
-    "previewFeedbackComment.commentedOn": "{{date}}에 댓글을 남겼어요"
+    "previewFeedbackComment.commentedOn": "{{date}}에 댓글을 남겼어요",
+    "previewFooter.solutionCount_other": "풀이 {{count}}개"
   },
   "components/mentoring/representation/right-pane": {
     "automationRules.noGuidance": "이 representer에는 아직 안내가 없어요. 안내 노트는 representation 과정에서 어떤 정규화가 일어나는지 설명하기 위해 메인테이너가 작성해요. 메인테이너라면 <0>GitHub에 Pull Request를 보내서</0> 이 representer의 안내 작성을 도와주세요.",
@@ -1885,7 +1900,8 @@
     "components.mentoring.session.mentorNotes.improveNotes": "이 노트 개선하기",
     "components.mentoring.session.mentorNotes.communityNotes": "이 노트는 커뮤니티에서 작성했어요. <0>GitHub에서 풀 리퀘스트</0>를 보내 개선에 도움을 주세요.",
     "components.mentoring.session.previousSessionsLink.opensInModal": "모달에서 열려요",
-    "components.mentoring.session.previousSessionsLink.seePreviousSessions": "이전 {{sessions}} {{numPrevious}}개 보기"
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions": "이전 {{sessions}} {{numPrevious}}개 보기",
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions_other": "이전 세션 {{count}}개 보기"
   },
   "components/common/HandleWithFlair.tsx": {
     "flair.insider": "Insider",
@@ -1947,7 +1963,8 @@
     "selectedTracks_other": "트랙 {{count}}개 선택됨",
     "trackCheckbox.trackSelected": "트랙 선택됨",
     "tracksList.noTracksFound": "트랙을 찾을 수 없어요",
-    "continueButton.continue": "계속"
+    "continueButton.continue": "계속",
+    "trackCheckbox.solutionsQueued_other": "풀이 {{count}}개 대기 중"
   },
   "components/modals/BadgeModal.tsx": {
     "badgeModal.newBadgeEarned": "새 배지 획득",
@@ -1985,11 +2002,17 @@
     "userTooltip.unableToLoadUser": "사용자를 불러올 수 없어요"
   },
   "components/track/activity-ticker": {
-    "publishedSolutionLink.newSolution": "<0>새 풀이</0>: ",
+    "publishedSolutionLink.newSolution": "<0>새 풀이</0>",
     "handle.someoneInCountry": "{{countryName}}에 있는 누군가",
     "handle.someone": "누군가",
     "userAvatar.userAvatar": "{{handle}}의 아바타",
-    "pullRequestLink.pullRequest": "풀 리퀘스트"
+    "pullRequestLink.pullRequest": "풀 리퀘스트",
+    "sentence.publish_solution_metric": "<0/>님이 <3/> 연습 문제에 <1/>를 게시했어요",
+    "sentence.open_pull_request_metric": "<0/>님이 <2/>를 열었어요",
+    "sentence.merge_pull_request_metric": "<0/>님이 <2/>를 병합했어요",
+    "sentence.complete_solution_metric": "<0/>님이 <3/> 연습 문제를 완료했어요",
+    "sentence.start_solution_metric": "<0/>님이 <3/> 연습 문제를 시작했어요",
+    "sentence.submit_submission_metric": "<0/>님이 <3/> 연습 문제를 시도했어요"
   },
   "components/track/dig-deeper-components": {
     "deepDiveVideo.deepDiveInto": "{{exerciseTitle}} 깊이 파고들기!",
@@ -2051,7 +2074,12 @@
     "infoMessage.insiderAccessToDarkMode": "Exercism Insider라면 다크 모드를 사용할 수 있어요. 라이트와 다크 중에서 고르거나, 시스템 설정에 따라 자동으로 바뀌게 할 수 있어요. 마음껏 즐겨요! 💎",
     "infoMessage.eligibleToJoinInsiders": "Insiders에 참여할 자격이 있어요. <0>여기에서 시작해요.</0>",
     "infoMessage.darkModeOnlyAvailableToInsiders": "다크 모드는 Exercism Insiders만 사용할 수 있어요. <0>Exercism에 후원</0>하고 Insider가 되어 다크 모드와 Exercism AI 등 다양한 기능을 이용해 봐요.",
-    "disabledTooltip.mustBeExercismInsider": "이 테마를 사용하려면 <0>Exercism Insider <1/></0> 자격이 필요해요."
+    "disabledTooltip.mustBeExercismInsider": "이 테마를 사용하려면 <0>Exercism Insider <1/></0> 자격이 필요해요.",
+    "themeButton.themes.light": "라이트",
+    "themeButton.themes.dark": "다크",
+    "themeButton.themes.system": "시스템",
+    "themeButton.themes.sepia": "낮은 대비",
+    "themeButton.themes.accessibility-dark": "접근성 다크"
   },
   "components/settings/ThemePreferenceForm.tsx": {
     "themePreferenceForm.theme": "테마"
@@ -2168,7 +2196,10 @@
   "components/profile/contributions-list": {
     "otherContributionsList.generic": "일반",
     "maintainingContributionsList.generic": "일반",
-    "buildingContributionsList.generic": "일반"
+    "buildingContributionsList.generic": "일반",
+    "buildingContributionsList.inTrack": "<0/><1>{{track}}</1>에서",
+    "maintainingContributionsList.inTrack": "<0/><1>{{track}}</1>에서",
+    "otherContributionsList.inTrack": "<0/><1>{{track}}</1>에서"
   },
   "components/common/share-panel": {
     "platformButton.devToButton.devTo": "DEV.to",
@@ -2222,7 +2253,8 @@
     "commentsList.header.writeAComment": "댓글 작성하기",
     "starButton.numberOfStars": "별 개수",
     "starButton.favorite": "즐겨찾기",
-    "starButton.favorited": "즐겨찾기함"
+    "starButton.favorited": "즐겨찾기함",
+    "commentsList.count.numberOfComments_other": "댓글 {{count}}개"
   },
   "components/journey": {
     "contributionResults.showingContributions": "{{totalCount}}개의 {{contributionLabel}} 표시 중",
@@ -2250,7 +2282,12 @@
     "tabs.overview": "개요",
     "tabs.solutions": "풀이",
     "tabs.reputation": "평판",
-    "tabs.badges": "배지"
+    "tabs.badges": "배지",
+    "contributionResults.showingContributions_other": "기여 {{count}}개 표시 중",
+    "badgeResults.showingBadges_other": "배지 {{count}}개 표시 중",
+    "solution.views_other": "조회 {{count}}회",
+    "solutionsList.showingSolutions_other": "풀이 {{count}}개 표시 중",
+    "contribution.inTrack": "<0/><1>{{track}}</1>에서"
   },
   "components/journey/badges-list": {
     "orderSwitcher.sortByUnrevealedFirst": "미공개 항목 먼저 정렬",
@@ -2496,7 +2533,7 @@
     "testRunSummaryByStatusHeaderMessage.testFailure": "테스트 실패",
     "testRunSummaryByStatusHeaderMessage.testFailures": "테스트 실패",
     "testRunSummaryByStatusHeaderMessage.testsFailed": "테스트 실패",
-    "testsGroupedByTaskList.task": "작업",
+    "testsGroupedByTaskList.task": "작업 {{id}}",
     "testsGroupedByTaskList.jumpToInstructions": "문제 설명으로 이동",
     "testSummary.passed": "통과",
     "testSummary.failed": "실패",
@@ -2506,6 +2543,39 @@
     "testSummary.testError": "테스트 오류",
     "testSummary.yourOutput": "출력 결과",
     "testContentWrapper.fileNotFound": "파일을 찾을 수 없어요",
-    "jumpToInstructionButton.jumpToInstructions": "문제 설명으로 이동"
+    "jumpToInstructionButton.jumpToInstructions": "문제 설명으로 이동",
+    "testRunSummaryByStatusHeaderMessage.testFailure_other": "테스트 실패 {{count}}개"
+  },
+  "components/common/Credits.tsx": {
+    "byHandle": "{{handle}} 작성",
+    "labels.author_other": "작성자 {{count}}명",
+    "labels.contributor_other": "기여자 {{count}}명"
+  },
+  "components/common/ExerciseIcon.tsx": {
+    "iconForExercise": "{{title}} 연습 문제의 아이콘"
+  },
+  "components/common/TrackIcon.tsx": {
+    "iconForTrack": "{{title}} 트랙 아이콘"
+  },
+  "components/donations/stripe-form/useStripeForm.ts": {
+    "paymentFailedWithError": "결제가 오류로 실패했어요: {{error}}",
+    "paymentFailedBankMessage": "결제에 실패했어요. 은행에서 받은 메시지는 \"{{message}}\"였어요.",
+    "cardElementNotFound": "카드 요소를 찾을 수 없어요"
+  },
+  "components/dropdowns/notifications": {
+    "notificationsIcon.youHaveNotifications_other": "알림이 {{count}}개 있어요"
+  },
+  "components/editor/AssistantChat/useTurnstile.ts": {
+    "verifyHeading": "로봇이 아닌지 확인해 주세요",
+    "verifyDescription": "봇의 공격을 끊임없이 받고 있어요 (아무래도 코딩에 아주 관심이 많은가 봐요!). 아래 체크박스를 선택해서 사람인지 확인해 주세요."
+  },
+  "components/ErrorBoundary.tsx": {
+    "errorFallback.somethingWentWrong": "문제가 발생했어요. 다시 시도해 주세요."
+  },
+  "components/track": {
+    "exerciseMakersButton.authors_other": "작성자 {{count}}명",
+    "exerciseMakersButton.contributors_other": "기여자 {{count}}명",
+    "conceptMakersButton.authors_other": "작성자 {{count}}명",
+    "conceptMakersButton.contributors_other": "기여자 {{count}}명"
   }
 }

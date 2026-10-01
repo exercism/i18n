@@ -144,7 +144,9 @@
     "tasksList.sizeSwitcher.massive.description": "份量極大的工作",
     "tasksList.sizeSwitcher.multiple": "多個",
     "tasksList.sizeSwitcher.extraSmall": "超小",
-    "tasksList.sizeSwitcher.label": "尺寸"
+    "tasksList.sizeSwitcher.label": "尺寸",
+    "tasksList.showingTasks_other": "顯示 {{count}} 項任務",
+    "tasksList.outOfPossibleTasks_other": "，共 {{count}} 項任務"
   },
   "components/editor/AssistantChat": {
     "insidersUpsellModal.receiptInYourInbox": "我們很快就會把收據寄到你的信箱。",
@@ -344,7 +346,8 @@
     "satisfiedStep.yesPlease": "好的，麻煩了",
     "reasonSelect.codeOfConductViolation": "違反行為準則",
     "reasonSelect.wrongOrMisleadingInformation": "錯誤或誤導性的資訊",
-    "reasonSelect.other": "其他"
+    "reasonSelect.other": "其他",
+    "rateMentorStep.exerciseInTrack": "{{track}} 的 <0>{{exercise}}</0>"
   },
   "components/insiders": {
     "insidersStatus.chooseMonthlyDonation": "1. 選擇你的每月捐款：",
@@ -390,7 +393,12 @@
     "tabs.overview": "總覽",
     "tabs.solutions": "解答",
     "tabs.reputation": "聲望",
-    "tabs.badges": "徽章"
+    "tabs.badges": "徽章",
+    "contributionResults.showingContributions_other": "顯示 {{count}} 項貢獻",
+    "badgeResults.showingBadges_other": "顯示 {{count}} 個徽章",
+    "solution.views_other": "{{count}} 次瀏覽",
+    "solutionsList.showingSolutions_other": "顯示 {{count}} 個解答",
+    "contribution.inTrack": "在 <0/><1>{{track}}</1> 中"
   },
   "components/journey/badges-list": {
     "orderSwitcher.sortByUnrevealedFirst": "依未揭曉優先排序",
@@ -706,7 +714,9 @@
     "automationListElement.shownTimes": "已顯示 {{number}} 次",
     "automationListElement.occurenceTime": "發生 {{number}} 次",
     "automationListElement.occurenceTimes": "發生 {{number}} 次",
-    "automationListElement.inTrackId": "在 {{trackTitle}}（#{{id}}）"
+    "automationListElement.inTrackId": "在 {{trackTitle}}（#{{id}}）",
+    "automationListElement.shownTimes_other": "顯示 {{count}} 次",
+    "automationListElement.occurenceTimes_other": "出現 {{count}} 次"
   },
   "components/mentoring/automation/Representation.tsx": {
     "needFeedback": "需要回饋",
@@ -724,7 +734,9 @@
   "components/mentoring/automation/TrackFilterList.tsx": {
     "trackFilterList.unableToFetchTracks": "無法取得學習軌道",
     "trackFilterList.openTheTrackFilter": "開啟學習軌道篩選",
-    "trackFilterList.clickToChange": "點擊以變更"
+    "trackFilterList.clickToChange": "點擊以變更",
+    "trackFilterList.submissionCount_other": "{{count}} 個提交",
+    "trackFilterList.representationCount_other": "{{count}} 個呈現"
   },
   "components/mentoring/discussion/discussion-post": {
     "discussionPostView.edit": "編輯"
@@ -1430,7 +1442,7 @@
     "conceptsLearntSummary.conceptsLearnt": "已學會的概念",
     "headerSummary.youVeProgressed": "你進步最多的是 ",
     "learningStats.didYouKnow": "你知道嗎？",
-    "learningStats.linesOfCodeStat": "你已經在<link>{{numSolutions}} {{solutionLabel}}</link>中寫了<strong>{{numLines}} {{lineLabel}}</strong>的程式碼。",
+    "learningStats.linesOfCodeStat": "你已經在<link>{{solutions}}</link>中寫了<strong>{{lines}}</strong>的程式碼。",
     "learningStats.aesopFact": "這大約相當於一篇<fableLink>伊索寓言</fableLink>的長度！",
     "tracksEnrolledSummary.tracksEnrolled_other": "已加入的軌道",
     "trackSummary.exercisesCompleted": "已完成 {{completed}} / {{total}}（{{percent}}%）的練習",
@@ -1447,7 +1459,9 @@
     "trackSummary.velocityExplanation": "這代表你在過去 6 個月內完成學習軌道的速度。",
     "learningOverview.youReThroughSingle": "你已完成所註冊學習軌道的<em>{{percentage}}%</em>。<strong>繼續保持！</strong>",
     "learningOverview.youReThroughMultiple": "你已完成所註冊多個學習軌道的<em>{{percentage}}%</em>。<strong>繼續保持！</strong>",
-    "learningOverview.exercisesCompleted": "已完成 {{completed}} / {{total}} 個練習"
+    "learningOverview.exercisesCompleted": "已完成 {{completed}} / {{total}} 個練習",
+    "learningStats.lineCount_other": "{{formattedCount}} 行",
+    "learningStats.solutionCount_other": "{{count}} 個解答"
   },
   "components/modals/realtime-feedback-modal/feedback-content/no-automated-feedback": {
     "index.noImmediateFeedback": "沒有即時回饋",
@@ -1495,7 +1509,12 @@
     "available": "可開始",
     "locked": "已鎖定",
     "searchByTitle": "依標題搜尋",
-    "noExercisesFound": "找不到練習"
+    "noExercisesFound": "找不到練習",
+    "statusFilters.allExercises": "所有練習",
+    "statusFilters.completed": "已完成",
+    "statusFilters.inProgress": "進行中",
+    "statusFilters.available": "可開始",
+    "statusFilters.locked": "已鎖定"
   },
   "components/student/ExerciseStatusChart.tsx": {
     "exerciseStatusChart.invalidStatus": "無效的狀態"
@@ -1790,7 +1809,10 @@
   "components/profile/contributions-list": {
     "otherContributionsList.generic": "一般",
     "maintainingContributionsList.generic": "一般",
-    "buildingContributionsList.generic": "一般"
+    "buildingContributionsList.generic": "一般",
+    "buildingContributionsList.inTrack": "在 <0/><1>{{track}}</1> 中",
+    "maintainingContributionsList.inTrack": "在 <0/><1>{{track}}</1> 中",
+    "otherContributionsList.inTrack": "在 <0/><1>{{track}}</1> 中"
   },
   "components/editor/testComponents": {
     "testsList.details": "名稱：{{name}}，狀態：{{status}}，輸出：{{output}}",
@@ -1821,7 +1843,7 @@
     "testRunSummaryByStatusHeaderMessage.testFailure": "測試失敗",
     "testRunSummaryByStatusHeaderMessage.testFailures": "測試失敗",
     "testRunSummaryByStatusHeaderMessage.testsFailed": "測試失敗",
-    "testsGroupedByTaskList.task": "任務",
+    "testsGroupedByTaskList.task": "任務 {{id}}",
     "testsGroupedByTaskList.jumpToInstructions": "跳至說明",
     "testSummary.passed": "通過",
     "testSummary.failed": "失敗",
@@ -1831,7 +1853,8 @@
     "testSummary.testError": "測試錯誤",
     "testSummary.yourOutput": "你的輸出",
     "testContentWrapper.fileNotFound": "找不到檔案",
-    "jumpToInstructionButton.jumpToInstructions": "跳至說明"
+    "jumpToInstructionButton.jumpToInstructions": "跳至說明",
+    "testRunSummaryByStatusHeaderMessage.testFailure_other": "{{count}} 個測試失敗"
   },
   "components/settings/PronounsForm.tsx": {
     "pronounsForm.howWouldYouLikeToBeAddressedOptional": "你希望別人怎麼稱呼你？（選填）",
@@ -1864,7 +1887,12 @@
     "infoMessage.insiderAccessToDarkMode": "身為 Exercism Insider，你可以使用深色模式。你可以選擇淺色、深色，或依照系統偏好自動切換。好好享受吧！💎",
     "infoMessage.eligibleToJoinInsiders": "你符合加入 Insiders 的資格。<0>從這裡開始。</0>",
     "infoMessage.darkModeOnlyAvailableToInsiders": "深色模式僅開放給 Exercism Insiders 使用。<0>捐款支持 Exercism</0>，成為 Insider 就能使用深色模式、Exercism AI 等更多功能。",
-    "disabledTooltip.mustBeExercismInsider": "你必須是 <0>Exercism Insider <1/></0> 才能解鎖這個主題。"
+    "disabledTooltip.mustBeExercismInsider": "你必須是 <0>Exercism Insider <1/></0> 才能解鎖這個主題。",
+    "themeButton.themes.light": "淺色",
+    "themeButton.themes.dark": "深色",
+    "themeButton.themes.system": "跟隨系統",
+    "themeButton.themes.sepia": "低對比",
+    "themeButton.themes.accessibility-dark": "無障礙深色"
   },
   "components/settings/ThemePreferenceForm.tsx": {
     "themePreferenceForm.theme": "主題"
@@ -1981,7 +2009,8 @@
     "previewFooter.submit": "提交",
     "previewFooter.example": "範例",
     "previewFeedbackComment.gaveThisFeedback": "<0>{{mentorName}}</0> 在與你完全相同的解答上給了這段回饋：",
-    "previewFeedbackComment.commentedOn": "留言於 {{date}}"
+    "previewFeedbackComment.commentedOn": "留言於 {{date}}",
+    "previewFooter.solutionCount_other": "{{count}} 個解答"
   },
   "components/mentoring/representation/right-pane": {
     "automationRules.noGuidance": "這個 representer 目前還沒有任何指引。指引說明由我們的維護者撰寫，用來解釋 representation 過程中會進行哪些正規化處理。如果你是維護者，歡迎<0>在 GitHub 上送出 Pull Request</0>，協助為這個 representer 建立這些指引。",
@@ -2074,7 +2103,8 @@
     "components.mentoring.session.mentorNotes.improveNotes": "改善這些筆記",
     "components.mentoring.session.mentorNotes.communityNotes": "這些筆記由我們的社群撰寫。請在<0>GitHub 上送出 Pull Request</0>，協助改善這些筆記。",
     "components.mentoring.session.previousSessionsLink.opensInModal": "以彈出視窗開啟",
-    "components.mentoring.session.previousSessionsLink.seePreviousSessions": "查看先前的 {{numPrevious}} 個 {{sessions}}"
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions": "查看先前的 {{numPrevious}} 個 {{sessions}}",
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions_other": "查看先前的 {{count}} 場引導"
   },
   "components/common/HandleWithFlair.tsx": {
     "flair.insider": "Insider 會員",
@@ -2301,11 +2331,17 @@
     "userTooltip.unableToLoadUser": "無法載入使用者"
   },
   "components/track/activity-ticker": {
-    "publishedSolutionLink.newSolution": "<0>新的解法</0>，適用於 ",
+    "publishedSolutionLink.newSolution": "<0>新的解法</0>",
     "handle.someoneInCountry": "來自 {{countryName}} 的某個人",
     "handle.someone": "某個人",
     "userAvatar.userAvatar": "{{handle}} 的頭像",
-    "pullRequestLink.pullRequest": "提取要求"
+    "pullRequestLink.pullRequest": "提取要求",
+    "sentence.publish_solution_metric": "<0/>發布了<1/>，適用於<3/>",
+    "sentence.open_pull_request_metric": "<0/>開啟了<2/>",
+    "sentence.merge_pull_request_metric": "<0/>合併了<2/>",
+    "sentence.complete_solution_metric": "<0/>完成了<3/>",
+    "sentence.start_solution_metric": "<0/>開始了<3/>",
+    "sentence.submit_submission_metric": "<0/>嘗試了<3/>"
   },
   "components/track/dig-deeper-components": {
     "deepDiveVideo.deepDiveInto": "深入探索 {{exerciseTitle}}！",
@@ -2446,7 +2482,8 @@
     "selectedTracks_other": "已選取 {{count}} 個軌道",
     "trackCheckbox.trackSelected": "已選取軌道",
     "tracksList.noTracksFound": "找不到任何軌道",
-    "continueButton.continue": "繼續"
+    "continueButton.continue": "繼續",
+    "trackCheckbox.solutionsQueued_other": "{{count}} 個解答已排入佇列"
   },
   "components/modals/BadgeModal.tsx": {
     "badgeModal.newBadgeEarned": "獲得新徽章",
@@ -2506,6 +2543,39 @@
     "commentsList.header.writeAComment": "撰寫留言",
     "starButton.numberOfStars": "星星數量",
     "starButton.favorite": "收藏",
-    "starButton.favorited": "已收藏"
+    "starButton.favorited": "已收藏",
+    "commentsList.count.numberOfComments_other": "{{count}} 則留言"
+  },
+  "components/common/Credits.tsx": {
+    "byHandle": "由 {{handle}}",
+    "labels.author_other": "{{count}} 位作者",
+    "labels.contributor_other": "{{count}} 位貢獻者"
+  },
+  "components/common/ExerciseIcon.tsx": {
+    "iconForExercise": "名為 {{title}} 的練習圖示"
+  },
+  "components/common/TrackIcon.tsx": {
+    "iconForTrack": "{{title}} 軌道的圖示"
+  },
+  "components/donations/stripe-form/useStripeForm.ts": {
+    "paymentFailedWithError": "付款失敗，錯誤：{{error}}",
+    "paymentFailedBankMessage": "你的付款失敗了。銀行回傳的訊息是「{{message}}」",
+    "cardElementNotFound": "找不到卡片元素"
+  },
+  "components/dropdowns/notifications": {
+    "notificationsIcon.youHaveNotifications_other": "你有 {{count}} 則通知"
+  },
+  "components/editor/AssistantChat/useTurnstile.ts": {
+    "verifyHeading": "請確認你不是機器人",
+    "verifyDescription": "我們經常受到機器人攻擊（看來它們非常想加入寫程式的行列！）。請勾選下方的方塊，確認你是真人。"
+  },
+  "components/ErrorBoundary.tsx": {
+    "errorFallback.somethingWentWrong": "出了點問題。請再試一次。"
+  },
+  "components/track": {
+    "exerciseMakersButton.authors_other": "{{count}} 位作者",
+    "exerciseMakersButton.contributors_other": "{{count}} 位貢獻者",
+    "conceptMakersButton.authors_other": "{{count}} 位作者",
+    "conceptMakersButton.contributors_other": "{{count}} 位貢獻者"
   }
 }

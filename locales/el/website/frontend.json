@@ -201,7 +201,11 @@
     "tasksList.typeSwitcher.docsDescription": "Βοήθησε στη δημιουργία της τεκμηρίωσης του Exercism",
     "tasksList.typeSwitcher.ciDescription": "Αυτοματοποίηση και συνεχής ενσωμάτωση",
     "tasksList.sizeSwitcher.extraSmall": "Πολύ μικρό",
-    "tasksList.sizeSwitcher.label": "Μέγεθος"
+    "tasksList.sizeSwitcher.label": "Μέγεθος",
+    "tasksList.showingTasks_one": "Εμφανίζεται {{count}} εργασία",
+    "tasksList.showingTasks_other": "Εμφανίζονται {{count}} εργασίες",
+    "tasksList.outOfPossibleTasks_one": "από {{count}} πιθανή εργασία",
+    "tasksList.outOfPossibleTasks_other": "από {{count}} πιθανές εργασίες"
   },
   "components/concept-map": {
     "concept.availableConcept": "Διαθέσιμη έννοια:",
@@ -241,7 +245,7 @@
     "testRunSummaryByStatusHeaderMessage.testFailure": "αποτυχία δοκιμής",
     "testRunSummaryByStatusHeaderMessage.testFailures": "αποτυχίες δοκιμών",
     "testRunSummaryByStatusHeaderMessage.testsFailed": "Οι δοκιμές απέτυχαν",
-    "testsGroupedByTaskList.task": "Εργασία",
+    "testsGroupedByTaskList.task": "Εργασία {{id}}",
     "testsGroupedByTaskList.jumpToInstructions": "Μετάβαση στις οδηγίες",
     "testSummary.passed": "Επιτυχία",
     "testSummary.failed": "Αποτυχία",
@@ -251,7 +255,9 @@
     "testSummary.testError": "Σφάλμα δοκιμής",
     "testSummary.yourOutput": "Η έξοδός σου",
     "testContentWrapper.fileNotFound": "Το αρχείο δεν βρέθηκε",
-    "jumpToInstructionButton.jumpToInstructions": "Μετάβαση στις οδηγίες"
+    "jumpToInstructionButton.jumpToInstructions": "Μετάβαση στις οδηγίες",
+    "testRunSummaryByStatusHeaderMessage.testFailure_one": "{{count}} αποτυχία test",
+    "testRunSummaryByStatusHeaderMessage.testFailure_other": "{{count}} αποτυχίες test"
   },
   "components/favorites-list": {
     "index.filteringRestricted": "Το φιλτράρισμα είναι διαθέσιμο μόνο στους Insiders",
@@ -410,7 +416,7 @@
     "conceptsLearntSummary.conceptsLearnt": "Έννοιες που έμαθες",
     "headerSummary.youVeProgressed": "Έχεις προχωρήσει περισσότερο σε ",
     "learningStats.didYouKnow": "Το ήξερες;",
-    "learningStats.linesOfCodeStat": "Έχεις γράψει <strong>{{numLines}} {{lineLabel}}</strong> κώδικα σε <link>{{numSolutions}} {{solutionLabel}}</link>.",
+    "learningStats.linesOfCodeStat": "Έχεις γράψει <strong>{{lines}}</strong> κώδικα σε <link>{{solutions}}</link>.",
     "learningStats.aesopFact": "Αυτό είναι περίπου όσο το μήκος ενός <fableLink>Μύθου του Αισώπου!</fableLink>",
     "tracksEnrolledSummary.tracksEnrolled_one": "Εγγραφή σε track",
     "tracksEnrolledSummary.tracksEnrolled_other": "Εγγραφές σε track",
@@ -423,7 +429,11 @@
     "trackSummary.mentoringQueued_other": "Έχεις <strong>{{count}} λύσεις</strong> στην ουρά.",
     "trackSummary.period.last_12_months": "Τους τελευταίους 12 μήνες",
     "trackSummary.period.last_10_weeks": "Τις τελευταίες 10 εβδομάδες",
-    "trackSummary.period.last_14_days": "Τις τελευταίες 14 ημέρες"
+    "trackSummary.period.last_14_days": "Τις τελευταίες 14 ημέρες",
+    "learningStats.lineCount_one": "{{formattedCount}} γραμμή",
+    "learningStats.lineCount_other": "{{formattedCount}} γραμμές",
+    "learningStats.solutionCount_one": "{{count}} λύση",
+    "learningStats.solutionCount_other": "{{count}} λύσεις"
   },
   "components/journey/overview/learning-section/track-summary/TrackProgressBar.tsx": {
     "trackProgressBar.completed": "Ολοκληρωμένο"
@@ -667,7 +677,10 @@
   "components/profile/contributions-list": {
     "otherContributionsList.generic": "Γενικά",
     "maintainingContributionsList.generic": "Γενικά",
-    "buildingContributionsList.generic": "Γενικά"
+    "buildingContributionsList.generic": "Γενικά",
+    "buildingContributionsList.inTrack": "στη διαδρομή <0/><1>{{track}}</1>",
+    "maintainingContributionsList.inTrack": "στη διαδρομή <0/><1>{{track}}</1>",
+    "otherContributionsList.inTrack": "στη διαδρομή <0/><1>{{track}}</1>"
   },
   "components/journey/UnrevealedBadge.tsx": {
     "unrevealedBadge.unrevealed": "Μη αποκαλυμμένο",
@@ -681,7 +694,11 @@
     "automationListElement.shownTimes": "Εμφανίστηκε {{number}} φορές",
     "automationListElement.occurenceTime": "εμφάνιση {{number}} φορά",
     "automationListElement.occurenceTimes": "εμφάνιση {{number}} φορές",
-    "automationListElement.inTrackId": "στο track {{trackTitle}} (#{{id}})"
+    "automationListElement.inTrackId": "στο track {{trackTitle}} (#{{id}})",
+    "automationListElement.shownTimes_one": "Εμφανίστηκε {{count}} φορά",
+    "automationListElement.shownTimes_other": "Εμφανίστηκε {{count}} φορές",
+    "automationListElement.occurenceTimes_one": "εμφάνιση {{count}} φορά",
+    "automationListElement.occurenceTimes_other": "εμφάνιση {{count}} φορές"
   },
   "components/mentoring/automation/Representation.tsx": {
     "needFeedback": "Χρειάζεται ανατροφοδότηση",
@@ -699,7 +716,11 @@
   "components/mentoring/automation/TrackFilterList.tsx": {
     "trackFilterList.unableToFetchTracks": "Δεν ήταν δυνατή η ανάκτηση των track",
     "trackFilterList.openTheTrackFilter": "Άνοιξε το φίλτρο track",
-    "trackFilterList.clickToChange": "Κάνε κλικ για αλλαγή"
+    "trackFilterList.clickToChange": "Κάνε κλικ για αλλαγή",
+    "trackFilterList.submissionCount_one": "{{count}} υποβολή",
+    "trackFilterList.submissionCount_other": "{{count}} υποβολές",
+    "trackFilterList.representationCount_one": "{{count}} αναπαράσταση",
+    "trackFilterList.representationCount_other": "{{count}} αναπαραστάσεις"
   },
   "components/mentoring/discussion/discussion-post": {
     "discussionPostView.edit": "Επεξεργασία"
@@ -785,7 +806,8 @@
     "donationStep.whyWeNeedDonations": "Έφτιαξα ένα σύντομο βίντεο που εξηγεί γιατί χρειαζόμαστε δωρεές και πώς τις χρησιμοποιούμε 👇",
     "donationStep.continueWithoutDonating": "Συνέχισε χωρίς δωρεά",
     "donationStep.lessThanOnePercentDonate": "Λιγότερο από το 1% όσων χρησιμοποιούν το Exercism επιλέγουν να κάνουν δωρεά. Αν έχεις την οικονομική δυνατότητα, γίνε κι εσύ ένας από αυτούς.",
-    "reportStep.reportPlaceholder": "Εξήγησε με ακρίβεια τον λόγο για τον οποίο κάνεις αυτή την αναφορά και πες μας τι συνέβη."
+    "reportStep.reportPlaceholder": "Εξήγησε με ακρίβεια τον λόγο για τον οποίο κάνεις αυτή την αναφορά και πες μας τι συνέβη.",
+    "rateMentorStep.exerciseInTrack": "<0>{{exercise}}</0> στη διαδρομή {{track}}"
   },
   "components/settings/FormMessage.tsx": {
     "formMessage.error": "Σφάλμα"
@@ -987,7 +1009,9 @@
     "components.mentoring.session.previousSessionsLink.seePreviousSessions": "Δες {{numPrevious}} προηγούμενες {{sessions}}",
     "components.mentoring.session.iterationView.iterationDeleted": "Αυτή η επανάληψη έχει διαγραφεί",
     "components.mentoring.session.linkButton.conversationLinked": "Ο κώδικάς σου και η συζήτηση καθοδήγησης είναι αυτή τη στιγμή συνδεδεμένα.",
-    "components.mentoring.session.linkButton.conversationLinkedDescription": "Αυτό σημαίνει ότι, καθώς μεταβαίνεις σε άλλη επανάληψη, η συζήτηση καθοδήγησης θα σε ακολουθεί, και το αντίστροφο."
+    "components.mentoring.session.linkButton.conversationLinkedDescription": "Αυτό σημαίνει ότι, καθώς μεταβαίνεις σε άλλη επανάληψη, η συζήτηση καθοδήγησης θα σε ακολουθεί, και το αντίστροφο.",
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions_one": "Δες {{count}} προηγούμενη συνεδρία",
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions_other": "Δες {{count}} προηγούμενες συνεδρίες"
   },
   "components/common/HandleWithFlair.tsx": {
     "flair.insider": "Insider",
@@ -1107,7 +1131,9 @@
     "selectedTracks_other": "Επιλέχθηκαν {{count}} διαδρομές",
     "trackCheckbox.trackSelected": "Η διαδρομή επιλέχθηκε",
     "tracksList.noTracksFound": "Δεν βρέθηκαν διαδρομές",
-    "continueButton.continue": "Συνέχεια"
+    "continueButton.continue": "Συνέχεια",
+    "trackCheckbox.solutionsQueued_one": "{{count}} λύση σε αναμονή",
+    "trackCheckbox.solutionsQueued_other": "{{count}} λύσεις σε αναμονή"
   },
   "components/modals/BadgeModal.tsx": {
     "badgeModal.newBadgeEarned": "Κέρδισες ένα νέο σήμα",
@@ -1163,7 +1189,12 @@
     "infoMessage.insiderAccessToDarkMode": "Ως Insider στο Exercism, έχεις πρόσβαση στη Σκοτεινή Λειτουργία. Διάλεξε ανάμεσα σε φωτεινή, σκοτεινή ή αυτόματη ενημέρωση με βάση τις προτιμήσεις του συστήματός σου. Απόλαυσέ το! 💎",
     "infoMessage.eligibleToJoinInsiders": "Μπορείς να γίνεις Insider. <0>Ξεκίνα εδώ.</0>",
     "infoMessage.darkModeOnlyAvailableToInsiders": "Η Σκοτεινή Λειτουργία είναι διαθέσιμη μόνο στους Insiders του Exercism. <0>Κάνε δωρεά στο Exercism</0> και γίνε Insider για να αποκτήσεις πρόσβαση στη Σκοτεινή Λειτουργία, το Exercism AI και άλλα πολλά.",
-    "disabledTooltip.mustBeExercismInsider": "Πρέπει να είσαι <0>Exercism Insider <1/></0> για να ξεκλειδώσεις αυτό το θέμα."
+    "disabledTooltip.mustBeExercismInsider": "Πρέπει να είσαι <0>Exercism Insider <1/></0> για να ξεκλειδώσεις αυτό το θέμα.",
+    "themeButton.themes.light": "Φωτεινό",
+    "themeButton.themes.dark": "Σκούρο",
+    "themeButton.themes.system": "Σύστημα",
+    "themeButton.themes.sepia": "Χαμηλή αντίθεση",
+    "themeButton.themes.accessibility-dark": "Σκούρο για προσβασιμότητα"
   },
   "components/settings/ThemePreferenceForm.tsx": {
     "themePreferenceForm.theme": "Θέμα"
@@ -1195,7 +1226,12 @@
     "available": "Διαθέσιμες",
     "locked": "Κλειδωμένες",
     "searchByTitle": "Αναζήτηση με τίτλο",
-    "noExercisesFound": "Δεν βρέθηκαν ασκήσεις"
+    "noExercisesFound": "Δεν βρέθηκαν ασκήσεις",
+    "statusFilters.allExercises": "Όλες οι ασκήσεις",
+    "statusFilters.completed": "Ολοκληρωμένες",
+    "statusFilters.inProgress": "Σε εξέλιξη",
+    "statusFilters.available": "Διαθέσιμες",
+    "statusFilters.locked": "Κλειδωμένες"
   },
   "components/student/ExerciseStatusChart.tsx": {
     "exerciseStatusChart.invalidStatus": "Μη έγκυρη κατάσταση"
@@ -1281,7 +1317,16 @@
     "tabs.overview": "Επισκόπηση",
     "tabs.solutions": "Λύσεις",
     "tabs.reputation": "Φήμη",
-    "tabs.badges": "Σήματα"
+    "tabs.badges": "Σήματα",
+    "contributionResults.showingContributions_one": "Εμφανίζεται {{count}} συνεισφορά",
+    "contributionResults.showingContributions_other": "Εμφανίζονται {{count}} συνεισφορές",
+    "badgeResults.showingBadges_one": "Εμφανίζεται {{count}} σήμα",
+    "badgeResults.showingBadges_other": "Εμφανίζονται {{count}} σήματα",
+    "solution.views_one": "{{count}} προβολή",
+    "solution.views_other": "{{count}} προβολές",
+    "solutionsList.showingSolutions_one": "Εμφανίζεται {{count}} λύση",
+    "solutionsList.showingSolutions_other": "Εμφανίζονται {{count}} λύσεις",
+    "contribution.inTrack": "στη διαδρομή <0/><1>{{track}}</1>"
   },
   "components/journey/badges-list": {
     "orderSwitcher.sortByUnrevealedFirst": "Ταξινόμηση με τα μη αποκαλυμμένα πρώτα",
@@ -1682,11 +1727,17 @@
     "trackFilterList.unableToFetchTracks": "Δεν ήταν δυνατή η ανάκτηση των διαδρομών"
   },
   "components/track/activity-ticker": {
-    "publishedSolutionLink.newSolution": "<0>νέα λύση</0> για ",
+    "publishedSolutionLink.newSolution": "<0>νέα λύση</0>",
     "handle.someoneInCountry": "Κάποιος στη χώρα {{countryName}}",
     "handle.someone": "Κάποιος",
     "userAvatar.userAvatar": "avatar του χρήστη {{handle}}",
-    "pullRequestLink.pullRequest": "Pull Request"
+    "pullRequestLink.pullRequest": "Pull Request",
+    "sentence.publish_solution_metric": "<0/> δημοσίευσε <1/> για <3/>",
+    "sentence.open_pull_request_metric": "<0/> άνοιξε <2/>",
+    "sentence.merge_pull_request_metric": "<0/> συγχώνευσε <2/>",
+    "sentence.complete_solution_metric": "<0/> ολοκλήρωσε <3/>",
+    "sentence.start_solution_metric": "<0/> ξεκίνησε <3/>",
+    "sentence.submit_submission_metric": "<0/> δοκίμασε <3/>"
   },
   "components/track/dig-deeper-components": {
     "deepDiveVideo.deepDiveInto": "Πιο βαθιά στην άσκηση {{exerciseTitle}}!",
@@ -2023,7 +2074,9 @@
     "commentsList.header.writeAComment": "Γράψε ένα σχόλιο",
     "starButton.numberOfStars": "Αριθμός αστεριών",
     "starButton.favorite": "Προσθήκη στα αγαπημένα",
-    "starButton.favorited": "Προστέθηκε στα αγαπημένα"
+    "starButton.favorited": "Προστέθηκε στα αγαπημένα",
+    "commentsList.count.numberOfComments_one": "{{count}} σχόλιο",
+    "commentsList.count.numberOfComments_other": "{{count}} σχόλια"
   },
   "components/track/ExerciseCommunitySolutionsList.tsx": {
     "exerciseCommunitySolutions.exploreSolutions": "Δες πώς έλυσαν οι άλλοι αυτή την άσκηση",
@@ -2140,7 +2193,9 @@
     "previewFooter.submit": "Υποβολή",
     "previewFooter.example": "Παράδειγμα",
     "previewFeedbackComment.gaveThisFeedback": "<0>{{mentorName}}</0> έδωσε αυτή την ανατροφοδότηση σε μια λύση ακριβώς σαν τη δική σου:",
-    "previewFeedbackComment.commentedOn": "Σχολιάστηκε: {{date}}"
+    "previewFeedbackComment.commentedOn": "Σχολιάστηκε: {{date}}",
+    "previewFooter.solutionCount_one": "{{count}} λύση",
+    "previewFooter.solutionCount_other": "{{count}} λύσεις"
   },
   "components/mentoring/representation/right-pane": {
     "automationRules.noGuidance": "Ο representer δεν έχει ακόμα καθοδήγηση. Οι σημειώσεις καθοδήγησης γράφονται από τους maintainers μας για να εξηγήσουν ποιες κανονικοποιήσεις γίνονται κατά τη διαδικασία της representation. Αν είσαι maintainer, βοήθησε να ξεκινήσουν για αυτόν τον representer στέλνοντας ένα <0>Pull Request στο GitHub</0>.",
@@ -2558,5 +2613,44 @@
     "trackList.2": "<0></0> και μετά <1></1>.",
     "trackList.3": "<0></0>, και μετά <1></1> και <2></2>.",
     "trackList.4": "<0></0>, και μετά <1></1>, <2></2> και <3></3>."
+  },
+  "components/common/Credits.tsx": {
+    "byHandle": "Από {{handle}}",
+    "labels.author_one": "{{count}} συντάκτης",
+    "labels.author_other": "{{count}} συντάκτες",
+    "labels.contributor_one": "{{count}} συνεισφέρων",
+    "labels.contributor_other": "{{count}} συνεισφέροντες"
+  },
+  "components/common/ExerciseIcon.tsx": {
+    "iconForExercise": "Εικονίδιο για την άσκηση με τίτλο {{title}}"
+  },
+  "components/common/TrackIcon.tsx": {
+    "iconForTrack": "εικονίδιο για τη διαδρομή {{title}}"
+  },
+  "components/donations/stripe-form/useStripeForm.ts": {
+    "paymentFailedWithError": "Η πληρωμή απέτυχε με το σφάλμα: {{error}}",
+    "paymentFailedBankMessage": "Η πληρωμή σου απέτυχε. Το μήνυμα που λάβαμε από την τράπεζά σου ήταν \"{{message}}\"",
+    "cardElementNotFound": "Το στοιχείο κάρτας δεν βρέθηκε"
+  },
+  "components/dropdowns/notifications": {
+    "notificationsIcon.youHaveNotifications_one": "Έχεις {{count}} ειδοποίηση",
+    "notificationsIcon.youHaveNotifications_other": "Έχεις {{count}} ειδοποιήσεις"
+  },
+  "components/editor/AssistantChat/useTurnstile.ts": {
+    "verifyHeading": "Επιβεβαίωσε ότι δεν είσαι bot",
+    "verifyDescription": "Δεχόμαστε συνεχώς επιθέσεις από bots (προφανώς θέλουν πολύ να ασχοληθούν με τον προγραμματισμό!). Τσέκαρε το κουτάκι παρακάτω για να επιβεβαιώσεις ότι είσαι άνθρωπος."
+  },
+  "components/ErrorBoundary.tsx": {
+    "errorFallback.somethingWentWrong": "Κάτι πήγε στραβά. Δοκίμασε ξανά."
+  },
+  "components/track": {
+    "exerciseMakersButton.authors_one": "{{count}} συγγραφέας",
+    "exerciseMakersButton.authors_other": "{{count}} συγγραφείς",
+    "exerciseMakersButton.contributors_one": "{{count}} συνεισφέρων",
+    "exerciseMakersButton.contributors_other": "{{count}} συνεισφέροντες",
+    "conceptMakersButton.authors_one": "{{count}} συγγραφέας",
+    "conceptMakersButton.authors_other": "{{count}} συγγραφείς",
+    "conceptMakersButton.contributors_one": "{{count}} συνεισφέρων",
+    "conceptMakersButton.contributors_other": "{{count}} συνεισφέροντες"
   }
 }

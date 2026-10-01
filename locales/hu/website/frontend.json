@@ -127,7 +127,9 @@
     "commentsList.header.writeAComment": "Hozzászólás írása",
     "starButton.numberOfStars": "Csillagok száma",
     "starButton.favorite": "Kedvenc",
-    "starButton.favorited": "Kedvencnek jelölve"
+    "starButton.favorited": "Kedvencnek jelölve",
+    "commentsList.count.numberOfComments_one": "{{count}} hozzászólás",
+    "commentsList.count.numberOfComments_other": "{{count}} hozzászólás"
   },
   "components/concept-map": {
     "exerciseStatusBar.exerciseStatusDotTooltip": "A feladat állapotát jelző pont súgója",
@@ -214,7 +216,11 @@
     "tasksList.knowledgeSwitcher.intermediateDescription": "Meglehetősen sok Exercism-tudás szükséges",
     "tasksList.knowledgeSwitcher.advancedDescription": "Átfogó Exercism-tudás szükséges",
     "tasksList.moduleSwitcher.label": "Modul",
-    "tasksList.sizeSwitcher.label": "Méret"
+    "tasksList.sizeSwitcher.label": "Méret",
+    "tasksList.showingTasks_one": "{{count}} feladat megjelenítése",
+    "tasksList.showingTasks_other": "{{count}} feladat megjelenítése",
+    "tasksList.outOfPossibleTasks_one": "{{count}} lehetséges feladatból",
+    "tasksList.outOfPossibleTasks_other": "{{count}} lehetséges feladatból"
   },
   "components/donations": {
     "stripeForm.defaultError": "Nem sikerült lekérni az előfizetés adatait",
@@ -352,13 +358,15 @@
     "testRunSummaryByStatusHeaderMessage.testFailure": "sikertelen teszt",
     "testRunSummaryByStatusHeaderMessage.testFailures": "sikertelen teszt",
     "testRunSummaryByStatusHeaderMessage.testsFailed": "Sikertelen tesztek",
-    "testsGroupedByTaskList.task": "Részfeladat",
+    "testsGroupedByTaskList.task": "{{id}}. részfeladat",
     "testsGroupedByTaskList.jumpToInstructions": "Ugrás az utasításokhoz",
     "testSummary.passed": "Sikeres",
     "testSummary.failed": "Sikertelen",
     "testSummary.test": "Teszt",
     "testSummary.codeRun": "Kódfuttatás",
-    "jumpToInstructionButton.jumpToInstructions": "Ugrás az utasításokhoz"
+    "jumpToInstructionButton.jumpToInstructions": "Ugrás az utasításokhoz",
+    "testRunSummaryByStatusHeaderMessage.testFailure_one": "{{count}} sikertelen teszt",
+    "testRunSummaryByStatusHeaderMessage.testFailure_other": "{{count}} sikertelen teszt"
   },
   "components/github-syncer-widget": {
     "miniAdvert.backupYourSolutionsToGitHub": "Készíts biztonsági mentést a megoldásaidról a GitHubra",
@@ -433,7 +441,16 @@
     "tabs.overview": "Áttekintés",
     "tabs.solutions": "Megoldások",
     "tabs.reputation": "Reputáció",
-    "tabs.badges": "Jelvények"
+    "tabs.badges": "Jelvények",
+    "contributionResults.showingContributions_one": "{{count}} közreműködés megjelenítése",
+    "contributionResults.showingContributions_other": "{{count}} közreműködés megjelenítése",
+    "badgeResults.showingBadges_one": "{{count}} jelvény megjelenítése",
+    "badgeResults.showingBadges_other": "{{count}} jelvény megjelenítése",
+    "solution.views_one": "{{count}} megtekintés",
+    "solution.views_other": "{{count}} megtekintés",
+    "solutionsList.showingSolutions_one": "{{count}} megoldás megjelenítése",
+    "solutionsList.showingSolutions_other": "{{count}} megoldás megjelenítése",
+    "contribution.inTrack": "<0/><1>{{track}}</1> kurzusban"
   },
   "components/journey/badges-list": {
     "orderSwitcher.sortByUnrevealedFirst": "Felfedetlenek elölre",
@@ -560,7 +577,11 @@
     "automationListElement.shownTimes": "{{number}} alkalommal megjelenítve",
     "automationListElement.occurenceTime": "{{number}} előfordulás",
     "automationListElement.occurenceTimes": "{{number}} előfordulás",
-    "automationListElement.inTrackId": "a(z) {{trackTitle}} kurzusban (#{{id}})"
+    "automationListElement.inTrackId": "a(z) {{trackTitle}} kurzusban (#{{id}})",
+    "automationListElement.shownTimes_one": "{{count}} alkalommal megjelenítve",
+    "automationListElement.shownTimes_other": "{{count}} alkalommal megjelenítve",
+    "automationListElement.occurenceTimes_one": "{{count}} előfordulás",
+    "automationListElement.occurenceTimes_other": "{{count}} előfordulás"
   },
   "components/mentoring/automation/Representation.tsx": {
     "needFeedback": "Visszajelzésre vár",
@@ -662,7 +683,9 @@
     "selectedTracks_other": "{{count}} kurzus kijelölve",
     "trackCheckbox.trackSelected": "Kurzus kijelölve",
     "tracksList.noTracksFound": "Nem található kurzus",
-    "continueButton.continue": "Folytatás"
+    "continueButton.continue": "Folytatás",
+    "trackCheckbox.solutionsQueued_one": "{{count}} megoldás a sorban",
+    "trackCheckbox.solutionsQueued_other": "{{count}} megoldás a sorban"
   },
   "components/modals/BadgeModal.tsx": {
     "badgeModal.newBadgeEarned": "Új jelvényt szereztél",
@@ -849,7 +872,7 @@
     "conceptsLearntSummary.conceptsLearnt": "Megtanult fogalmak",
     "headerSummary.youVeProgressed": "A legmesszebbre a következőben jutottál: ",
     "learningStats.didYouKnow": "Tudtad?",
-    "learningStats.linesOfCodeStat": "Összesen <strong>{{numLines}} {{lineLabel}}</strong> kódot írtál <link>{{numSolutions}} {{solutionLabel}}</link> során.",
+    "learningStats.linesOfCodeStat": "Összesen <strong>{{lines}}</strong> kódot írtál <link>{{solutions}}</link> során.",
     "learningStats.aesopFact": "Ez nagyjából egy <fableLink>Aiszóposz-mese</fableLink> hosszának felel meg!",
     "tracksEnrolledSummary.tracksEnrolled_one": "Csatlakozott kurzus",
     "tracksEnrolledSummary.tracksEnrolled_other": "Csatlakozott kurzusok",
@@ -876,7 +899,11 @@
     "trackSummary.mentoringQueued_other": "<strong>{{count}} megoldásod</strong> van a mentorálási sorban.",
     "trackSummary.period.last_12_months": "Elmúlt 12 hónap",
     "trackSummary.period.last_10_weeks": "Elmúlt 10 hét",
-    "trackSummary.period.last_14_days": "Elmúlt 14 nap"
+    "trackSummary.period.last_14_days": "Elmúlt 14 nap",
+    "learningStats.lineCount_one": "{{formattedCount}} sor",
+    "learningStats.lineCount_other": "{{formattedCount}} sor",
+    "learningStats.solutionCount_one": "{{count}} megoldás",
+    "learningStats.solutionCount_other": "{{count}} megoldás"
   },
   "components/mentoring/representation/right-pane": {
     "utilityTabs.information": "Információ",
@@ -1037,7 +1064,9 @@
     "previewFooter.submit": "Beküldés",
     "previewFooter.example": "Példa",
     "previewFeedbackComment.gaveThisFeedback": "<0>{{mentorName}}</0> ezt a visszajelzést adta egy pontosan olyan megoldásra, mint a tiéd:",
-    "previewFeedbackComment.commentedOn": "Hozzászólás dátuma: {{date}}"
+    "previewFeedbackComment.commentedOn": "Hozzászólás dátuma: {{date}}",
+    "previewFooter.solutionCount_one": "{{count}} megoldás",
+    "previewFooter.solutionCount_other": "{{count}} megoldás"
   },
   "components/modals/student": {
     "confirmFinishMentorDiscussionModal.feelLikeMentoringReachedConclusion": "Amikor úgy érzed, hogy a mentorálás eljutott a természetes végéhez, vagy egyszerűen nem szeretnéd tovább folytatni, itt az idő, hogy lezárd a beszélgetést.",
@@ -1111,7 +1140,8 @@
     "donationStep.whyWeNeedDonations": "Készítettem egy rövid videót, amely elmagyarázza, miért van szükségünk adományokra, és hogyan használjuk fel őket 👇",
     "donationStep.continueWithoutDonating": "Folytatás adományozás nélkül",
     "donationStep.lessThanOnePercentDonate": "Az Exercism-öt használók kevesebb mint 1%-a dönt úgy, hogy adományoz. Ha megengedheted magadnak, kérünk, légy te is köztük.",
-    "reportStep.reportPlaceholder": "Írd le pontosan, miért készíted ezt a bejelentést, és mondd el, mi történt."
+    "reportStep.reportPlaceholder": "Írd le pontosan, miért készíted ezt a bejelentést, és mondd el, mi történt.",
+    "rateMentorStep.exerciseInTrack": "<0>{{exercise}}</0> a(z) {{track}} kurzusban"
   },
   "components/modals/UnpublishSolutionModal.tsx": {
     "unpublishSolutionModal.body": "Ha visszavonod a megoldás közzétételét, az többé nem jelenik meg a profilodon, és a Közösségi megoldások között sem lesz látható. Minden csillag és hozzászólás elveszik, a kapcsolódó reputáció pedig törlődik.",
@@ -1439,7 +1469,12 @@
     "infoMessage.insiderAccessToDarkMode": "Exercism Insiderként hozzáférsz a sötét módhoz. Válassz világos, sötét vagy a rendszerbeállításaid alapján automatikusan frissülő megjelenés közül. Jó szórakozást! 💎",
     "infoMessage.eligibleToJoinInsiders": "Jogosult vagy csatlakozni az Insiders programhoz. <0>Kezdj hozzá itt.</0>",
     "infoMessage.darkModeOnlyAvailableToInsiders": "A sötét mód csak az Exercism Insiders tagjai számára érhető el. <0>Támogasd az Exercism-öt</0>, és válj Insiders-taggá, hogy hozzáférj a sötét módhoz, az Exercism AI-hoz és további funkciókhoz.",
-    "disabledTooltip.mustBeExercismInsider": "Ahhoz, hogy feloldd ezt a témát, <0>Exercism Insider <1/></0> kell lenned."
+    "disabledTooltip.mustBeExercismInsider": "Ahhoz, hogy feloldd ezt a témát, <0>Exercism Insider <1/></0> kell lenned.",
+    "themeButton.themes.light": "Világos",
+    "themeButton.themes.dark": "Sötét",
+    "themeButton.themes.system": "Rendszer",
+    "themeButton.themes.sepia": "Alacsony kontraszt",
+    "themeButton.themes.accessibility-dark": "Akadálymentes sötét"
   },
   "components/settings/ThemePreferenceForm.tsx": {
     "themePreferenceForm.theme": "Téma"
@@ -1471,7 +1506,12 @@
     "available": "Elérhető",
     "locked": "Zárolva",
     "searchByTitle": "Keresés cím szerint",
-    "noExercisesFound": "Nem található feladat"
+    "noExercisesFound": "Nem található feladat",
+    "statusFilters.allExercises": "Minden feladat",
+    "statusFilters.completed": "Elkészült",
+    "statusFilters.inProgress": "Folyamatban",
+    "statusFilters.available": "Elérhető",
+    "statusFilters.locked": "Zárolva"
   },
   "components/student/ExerciseStatusChart.tsx": {
     "exerciseStatusChart.invalidStatus": "Érvénytelen állapot"
@@ -1653,7 +1693,10 @@
   "components/profile/contributions-list": {
     "otherContributionsList.generic": "Általános",
     "maintainingContributionsList.generic": "Általános",
-    "buildingContributionsList.generic": "Általános"
+    "buildingContributionsList.generic": "Általános",
+    "buildingContributionsList.inTrack": "<0/><1>{{track}}</1> kurzusban",
+    "maintainingContributionsList.inTrack": "<0/><1>{{track}}</1> kurzusban",
+    "otherContributionsList.inTrack": "<0/><1>{{track}}</1> kurzusban"
   },
   "components/profile/contributions-summary": {
     "totalReputation.addressHas": "{{handle}} felhasználónak",
@@ -1818,7 +1861,9 @@
     "components.mentoring.session.mentorNotes.communityNotes": "Ezeket a megjegyzéseket a közösségünk írja. Segíts javítani rajtuk azzal, hogy beküldesz egy <0>Pull Requestet a GitHubon</0>.",
     "components.mentoring.session.previousSessionsLink.opensInModal": "Modális ablakban nyílik meg",
     "components.mentoring.session.previousSessionsLink.seePreviousSessions": "{{numPrevious}} korábbi {{sessions}} megtekintése",
-    "components.mentoring.session.linkButton.linkConversation": "Beszélgetés összekapcsolása"
+    "components.mentoring.session.linkButton.linkConversation": "Beszélgetés összekapcsolása",
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions_one": "{{count}} korábbi mentorálási beszélgetés megtekintése",
+    "components.mentoring.session.previousSessionsLink.seePreviousSessions_other": "{{count}} korábbi mentorálási beszélgetés megtekintése"
   },
   "components/student/tracks-list": {
     "orderSelect.sortByLastTouched": "Rendezés legutóbbi érintés szerint",
@@ -1940,11 +1985,17 @@
     "summary.workingOn": "Ebben a feladatban a következő a teendőd: {{verb}} {{module}} {{type}}{{trackSuffix}}."
   },
   "components/track/activity-ticker": {
-    "publishedSolutionLink.newSolution": "<0>új megoldás</0> ehhez: ",
+    "publishedSolutionLink.newSolution": "<0>új megoldás</0>",
     "handle.someoneInCountry": "Valaki a(z) {{countryName}} országból",
     "handle.someone": "Valaki",
     "userAvatar.userAvatar": "{{handle}} profilképe",
-    "pullRequestLink.pullRequest": "Pull Request"
+    "pullRequestLink.pullRequest": "Pull Request",
+    "sentence.publish_solution_metric": "<0/> közzétett egy <1/>-t a <3/> feladathoz",
+    "sentence.open_pull_request_metric": "<0/> megnyitott egy <2/>-t",
+    "sentence.merge_pull_request_metric": "<0/> egyesített egy <2/>-t",
+    "sentence.complete_solution_metric": "<0/> teljesítette a <3/> feladatot",
+    "sentence.start_solution_metric": "<0/> elkezdte a <3/> feladatot",
+    "sentence.submit_submission_metric": "<0/> megpróbálta a <3/> feladatot"
   },
   "components/track/dig-deeper-components": {
     "deepDiveVideo.deepDiveInto": "Mélyelemzés: {{exerciseTitle}}!",
@@ -2444,7 +2495,11 @@
   "components/mentoring/automation/TrackFilterList.tsx": {
     "trackFilterList.unableToFetchTracks": "Nem sikerült lekérni a kurzusokat",
     "trackFilterList.openTheTrackFilter": "Nyisd meg a kurzusszűrőt",
-    "trackFilterList.clickToChange": "Kattints a módosításhoz"
+    "trackFilterList.clickToChange": "Kattints a módosításhoz",
+    "trackFilterList.submissionCount_one": "{{count}} beküldés",
+    "trackFilterList.submissionCount_other": "{{count}} beküldés",
+    "trackFilterList.representationCount_one": "{{count}} reprezentáció",
+    "trackFilterList.representationCount_other": "{{count}} reprezentáció"
   },
   "components/mentoring/discussion/DiscussionDetails.tsx": {
     "discussionDetails.discussionTimedOut": "Ez a beszélgetés lejárt",
@@ -2571,5 +2626,44 @@
     "trackList.2": "<0></0>, majd <1></1>.",
     "trackList.3": "<0></0>, majd <1></1> és <2></2>.",
     "trackList.4": "<0></0>, majd <1></1>, <2></2> és <3></3>."
+  },
+  "components/common/Credits.tsx": {
+    "byHandle": "Készítette: {{handle}}",
+    "labels.author_one": "{{count}} szerző",
+    "labels.author_other": "{{count}} szerző",
+    "labels.contributor_one": "{{count}} közreműködő",
+    "labels.contributor_other": "{{count}} közreműködő"
+  },
+  "components/common/ExerciseIcon.tsx": {
+    "iconForExercise": "A(z) {{title}} nevű feladat ikonja"
+  },
+  "components/common/TrackIcon.tsx": {
+    "iconForTrack": "a(z) {{title}} kurzus ikonja"
+  },
+  "components/donations/stripe-form/useStripeForm.ts": {
+    "paymentFailedWithError": "A fizetés a következő hibával hiúsult meg: {{error}}",
+    "paymentFailedBankMessage": "A fizetésed nem sikerült. A bankunktól kapott üzenet a következő volt: „{{message}}”",
+    "cardElementNotFound": "A kártyaelem nem található"
+  },
+  "components/dropdowns/notifications": {
+    "notificationsIcon.youHaveNotifications_one": "{{count}} értesítésed van",
+    "notificationsIcon.youHaveNotifications_other": "{{count}} értesítésed van"
+  },
+  "components/editor/AssistantChat/useTurnstile.ts": {
+    "verifyHeading": "Kérjük, igazold, hogy nem vagy bot",
+    "verifyDescription": "Folyamatosan botok támadnak minket (láthatóan nagyon szeretnének bekerülni a programozásba!). Kérjük, jelöld be az alábbi négyzetet, hogy megerősítsd, ember vagy."
+  },
+  "components/ErrorBoundary.tsx": {
+    "errorFallback.somethingWentWrong": "Valami hiba történt. Kérjük, próbáld újra."
+  },
+  "components/track": {
+    "exerciseMakersButton.authors_one": "{{count}} szerző",
+    "exerciseMakersButton.authors_other": "{{count}} szerző",
+    "exerciseMakersButton.contributors_one": "{{count}} közreműködő",
+    "exerciseMakersButton.contributors_other": "{{count}} közreműködő",
+    "conceptMakersButton.authors_one": "{{count}} szerző",
+    "conceptMakersButton.authors_other": "{{count}} szerző",
+    "conceptMakersButton.contributors_one": "{{count}} közreműködő",
+    "conceptMakersButton.contributors_other": "{{count}} közreműködő"
   }
 }

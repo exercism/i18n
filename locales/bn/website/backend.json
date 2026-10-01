@@ -305,7 +305,8 @@
         "new_password_label": "নতুন পাসওয়ার্ড",
         "new_password_placeholder": "একটি নতুন পাসওয়ার্ড লিখুন (কমপক্ষে %{minimum_password_length} অক্ষর)",
         "confirm_new_password_label": "নতুন পাসওয়ার্ড নিশ্চিত করুন",
-        "confirm_new_password_placeholder": "আপনার নতুন পাসওয়ার্ড আবার লিখুন"
+        "confirm_new_password_placeholder": "আপনার নতুন পাসওয়ার্ড আবার লিখুন",
+        "exercism_logo_alt": "Exercism-এর লোগো"
       },
       "new": {
         "forgot_your_password": {
@@ -313,7 +314,8 @@
           "description": "আপনি যদি পাসওয়ার্ড ভুলে গিয়ে থাকেন, তবে এটি পরিবর্তনের লিঙ্ক চেয়ে নিতে নিচের ফর্মটি ব্যবহার করুন। অনেকেই মনে করেন তাঁরা পাসওয়ার্ড ভুলে গেছেন, অথচ তাঁরা শুরুতে GitHub দিয়ে সাইন ইন করেছিলেন। তাই আপনিও GitHub দিয়ে একবার চেষ্টা করে দেখতে পারেন।"
         },
         "email_placeholder": "আপনার ইমেইল লিখুন",
-        "send_instructions_button": "নির্দেশনা পাঠান"
+        "send_instructions_button": "নির্দেশনা পাঠান",
+        "exercism_logo_alt": "Exercism-এর লোগো"
       }
     },
     "registrations": {
@@ -3596,6 +3598,21 @@
           "other": "%{count}টি PR রিভিউ করা হয়েছে"
         }
       }
+    },
+    "exercise_approach_for_sharing": {
+      "title": "এই অ্যাপ্রোচ শেয়ার করুন"
+    },
+    "exercise_article_for_sharing": {
+      "title": "এই আর্টিকেল শেয়ার করুন"
+    },
+    "mentor_requests": {
+      "first_timer": "প্রথমবার অংশগ্রহণকারী"
+    },
+    "student": {
+      "anonymous_name": "অ্যানোনিমাস মোডে ব্যবহারকারী"
+    },
+    "submission_test_run": {
+      "unknown_error": "একটি অজানা এরর ঘটেছে"
     }
   },
   "site_updates": {
@@ -3607,6 +3624,13 @@
     },
     "arbitrary": {
       "1": "<em>%{author_handle}</em> একটি নতুন আপডেট প্রকাশ করেছেন।\n"
+    },
+    "maker_handles": {
+      "we": "আমরা",
+      "with_others": {
+        "one": "%{first}, %{second} এবং আরও %{count} জন",
+        "other": "%{first}, %{second} এবং আরও %{count} জন"
+      }
     }
   },
   "user_activities": {
@@ -4116,6 +4140,10 @@
         "title": "Exercism-এ %{track_title} ট্র্যাকে %{exercise_title}",
         "description": "আপনি কি %{track_title} ট্র্যাকে %{exercise_title} সমাধান করতে পারবেন? আমাদের বিশ্বমানের মেন্টর দলের সহায়তায় %{track_title} ট্র্যাকে আপনার দক্ষতা বাড়ান।"
       }
+    },
+    "images": {
+      "avatar_alt": "%{handle} নামের ব্যবহারকারীর আপলোড করা অ্যাভাটার",
+      "profile_link_title": "%{handle} নামের ব্যবহারকারীর প্রোফাইলের লিংক"
     }
   },
   "docs": {
@@ -4230,6 +4258,33 @@
         "scientific_calculations": "বৈজ্ঞানিক গণনা",
         "scripts": "স্ক্রিপ্ট",
         "web_development": "ওয়েব ডেভেলপমেন্ট"
+      }
+    }
+  },
+  "commands": {
+    "user_reputation_token": {
+      "contextual_data": {
+        "separator": " • ",
+        "building": {
+          "one": "%{formatted_count}টি PR তৈরি হয়েছে",
+          "other": "%{formatted_count}টি PR তৈরি হয়েছে"
+        },
+        "maintaining": {
+          "one": "%{formatted_count}টি PR রিভিউ এবং/অথবা মার্জ করা হয়েছে",
+          "other": "%{formatted_count}টি PR রিভিউ এবং/অথবা মার্জ করা হয়েছে"
+        },
+        "authoring": {
+          "one": "%{formatted_count}টি অনুশীলনীতে অবদান",
+          "other": "%{formatted_count}টি অনুশীলনীতে অবদান"
+        },
+        "mentoring": {
+          "one": "%{formatted_count}টি সলিউশন মেন্টর করা হয়েছে",
+          "other": "%{formatted_count}টি সলিউশন মেন্টর করা হয়েছে"
+        },
+        "publishing": {
+          "one": "%{formatted_count}টি সলিউশন পাবলিশ করা হয়েছে",
+          "other": "%{formatted_count}টি সলিউশন পাবলিশ করা হয়েছে"
+        }
       }
     }
   }

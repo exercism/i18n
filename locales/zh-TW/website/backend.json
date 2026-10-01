@@ -1701,7 +1701,8 @@
         "new_password_label": "新密碼",
         "new_password_placeholder": "輸入新密碼（至少 %{minimum_password_length} 個字元）",
         "confirm_new_password_label": "確認新密碼",
-        "confirm_new_password_placeholder": "再次輸入你的新密碼"
+        "confirm_new_password_placeholder": "再次輸入你的新密碼",
+        "exercism_logo_alt": "Exercism 的標誌"
       },
       "new": {
         "forgot_your_password": {
@@ -1709,7 +1710,8 @@
           "description": "如果你忘記了密碼，請使用下方的表單申請變更密碼的連結。很多人以為自己忘記了密碼，其實當初是用 GitHub 登入的，你也可以試試看。"
         },
         "email_placeholder": "輸入你的電子郵件地址",
-        "send_instructions_button": "傳送說明"
+        "send_instructions_button": "傳送說明",
+        "exercism_logo_alt": "Exercism 的標誌"
       },
       "no_token": "你必須從密碼重設電子郵件進入，才能存取這個頁面。如果你是從密碼重設電子郵件進來的，請確認你使用了信中提供的完整網址。",
       "send_instructions": "你會在幾分鐘內收到一封電子郵件，說明如何重設你的密碼。",
@@ -3799,6 +3801,21 @@
           "other": "已審查 %{count} 個 PR"
         }
       }
+    },
+    "exercise_approach_for_sharing": {
+      "title": "分享這個做法"
+    },
+    "exercise_article_for_sharing": {
+      "title": "分享這篇文章"
+    },
+    "mentor_requests": {
+      "first_timer": "首次"
+    },
+    "student": {
+      "anonymous_name": "匿名模式的使用者"
+    },
+    "submission_test_run": {
+      "unknown_error": "發生未知的錯誤"
     }
   },
   "site_updates": {
@@ -3810,6 +3827,12 @@
     },
     "arbitrary": {
       "1": "<em>%{author_handle}</em>發表了一則新消息。\n"
+    },
+    "maker_handles": {
+      "we": "我們",
+      "with_others": {
+        "other": "%{first}、%{second} 以及另外 %{count} 人"
+      }
     }
   },
   "user_activities": {
@@ -4097,6 +4120,10 @@
         "title": "Exercism 上 %{track_title} 裡的 %{exercise_title}",
         "description": "你能解開 %{track_title} 裡的 %{exercise_title} 嗎？在我們世界級導師團隊的支持下，提升你的 %{track_title} 技巧。"
       }
+    },
+    "images": {
+      "avatar_alt": "%{handle} 上傳的大頭貼",
+      "profile_link_title": "連結至 %{handle} 的個人檔案"
     }
   },
   "views": {
@@ -4166,6 +4193,28 @@
         "scientific_calculations": "科學計算",
         "scripts": "指令碼",
         "web_development": "網頁開發"
+      }
+    }
+  },
+  "commands": {
+    "user_reputation_token": {
+      "contextual_data": {
+        "separator": " • ",
+        "building": {
+          "other": "建立了 %{formatted_count} 個 PR"
+        },
+        "maintaining": {
+          "other": "審閱及/或合併了 %{formatted_count} 個 PR"
+        },
+        "authoring": {
+          "other": "貢獻了 %{formatted_count} 個練習"
+        },
+        "mentoring": {
+          "other": "引導了 %{formatted_count} 個解決方案"
+        },
+        "publishing": {
+          "other": "發佈了 %{formatted_count} 個解決方案"
+        }
       }
     }
   }
