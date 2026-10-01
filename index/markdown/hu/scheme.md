@@ -20,12 +20,14 @@ This page is generated from [the index](../../json/hu/scheme.json) by `scripts/b
 
 ### Affine Cipher (Affin-rejtjel)
 
-- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/affine-cipher/.docs/instructions.md)): [Latest](../../../locales/hu/content/f6/32/9db93698c3acd110ab970d9db0221e13ceb4.md)
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/affine-cipher/.docs/instructions.md)): [Latest](../../../locales/hu/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
+  - [`f6329db936`](../../../locales/hu/content/f6/32/9db93698c3acd110ab970d9db0221e13ceb4.md)
   - [`4eff918de7`](../../../locales/hu/content/4e/ff/918de78a6802897690f4044259301d140dfa.md)
 
 ### Anagram (Anagramma)
 
-- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/anagram/.docs/instructions.md)): [Latest](../../../locales/hu/content/a7/29/8485b3f6ab5fd93ed7426e9e5331dc514e72.md)
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/anagram/.docs/instructions.md)): [Latest](../../../locales/hu/content/dc/a2/4f52627e3ba6b999322fb89d8c686c3ec634.md)
+  - [`a7298485b3`](../../../locales/hu/content/a7/29/8485b3f6ab5fd93ed7426e9e5331dc514e72.md)
 - `instructions.append.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/anagram/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/b7/d2/a0bad87ca401a78c3bca91ea7d1d2b1875aa.md)
 - `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/anagram/.docs/introduction.md)): [Latest](../../../locales/hu/content/1a/cb/df00b059f44fb4ce4c00be743d24eda86d60.md)
 
@@ -79,9 +81,11 @@ This page is generated from [the index](../../json/hu/scheme.json) by `scripts/b
 
 ### Grains (Gabonaszemek)
 
-- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/grains/.docs/instructions.md)): [Latest](../../../locales/hu/content/df/47/9fc0a174d105647e79d6c4dcaad6947b460c.md)
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/grains/.docs/instructions.md)): [Latest](../../../locales/hu/content/f5/b7/52a81754e88e6e41120237c7d3b24d150e58.md)
+  - [`df479fc0a1`](../../../locales/hu/content/df/47/9fc0a174d105647e79d6c4dcaad6947b460c.md)
   - [`05ee99760c`](../../../locales/hu/content/05/ee/99760ce62aebf11d0659049f1f3fafa1631e.md)
 - `instructions.append.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/grains/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/7f/37/166617e87b930683d44029d24e9e2956d94d.md)
+- `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/grains/.docs/introduction.md)): [Latest](../../../locales/hu/content/0d/f4/f46f726cabcd99719756067e04d6832e52a8.md)
 
 ### Hamming
 
@@ -144,7 +148,8 @@ This page is generated from [the index](../../json/hu/scheme.json) by `scripts/b
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/pascals-triangle/.docs/instructions.md)): [Latest](../../../locales/hu/content/0f/58/f0069688bc7dfd1a2705cc4382f27a0609dd.md)
   - [`f556785931`](../../../locales/hu/content/f5/56/785931c3674ec43dd8f4e47e202fa6523c5f.md)
   - [`7109334fbd`](../../../locales/hu/content/71/09/334fbdec440cec98d7570f54536a39d7e7d8.md)
-- `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/pascals-triangle/.docs/introduction.md)): [Latest](../../../locales/hu/content/60/b8/ec30dc8dc60f313c8ec911007aed15c3df45.md)
+- `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/pascals-triangle/.docs/introduction.md)): [Latest](../../../locales/hu/content/ea/b4/54e5a6995c899f852bcd23d9af558ca9e7bd.md)
+  - [`60b8ec30dc`](../../../locales/hu/content/60/b8/ec30dc8dc60f313c8ec911007aed15c3df45.md)
 
 ### Perfect Numbers (Tökéletes számok)
 
@@ -153,7 +158,8 @@ This page is generated from [the index](../../json/hu/scheme.json) by `scripts/b
 
 ### Phone Number (Telefonszám)
 
-- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/phone-number/.docs/instructions.md)): [Latest](../../../locales/hu/content/62/ba/48e96fd2a47445a74ab075c7ef7198601815.md)
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/phone-number/.docs/instructions.md)): [Latest](../../../locales/hu/content/5d/4d/3739f4563d3f7781a1524df13f11cc8fbc71.md)
+  - [`62ba48e96f`](../../../locales/hu/content/62/ba/48e96fd2a47445a74ab075c7ef7198601815.md)
   - [`6e36daefe7`](../../../locales/hu/content/6e/36/daefe7c70ec2893761f126bbe7ba38cf6dd5.md)
 - `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/phone-number/.docs/introduction.md)): [Latest](../../../locales/hu/content/c4/14/2c5af7289f74bf05d04c4563e2968a639cd2.md)
 
@@ -200,7 +206,8 @@ This page is generated from [the index](../../json/hu/scheme.json) by `scripts/b
 
 ### Sieve (Szita)
 
-- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/sieve/.docs/instructions.md)): [Latest](../../../locales/hu/content/08/5c/0a57d96c7cd846a7948241899ce46778f01d.md)
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/sieve/.docs/instructions.md)): [Latest](../../../locales/hu/content/71/29/2e1782dc95e0430ae2b614e1d740dd41639f.md)
+  - [`085c0a57d9`](../../../locales/hu/content/08/5c/0a57d96c7cd846a7948241899ce46778f01d.md)
 - `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/sieve/.docs/introduction.md)): [Latest](../../../locales/hu/content/f6/c1/cf79a9d4ccf67f1ed34dabb8ab0a58030358.md)
 
 ### Strain (Szűrés)
@@ -221,7 +228,8 @@ This page is generated from [the index](../../json/hu/scheme.json) by `scripts/b
 
 ### Triangle (Háromszög)
 
-- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/hu/content/ac/39/008726d5472b99e1aee556219eadca7fc49d.md)
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/hu/content/e9/b0/53dcd344e85179041c10dcd48406d735b2f9.md)
+  - [`ac39008726`](../../../locales/hu/content/ac/39/008726d5472b99e1aee556219eadca7fc49d.md)
   - [`0a9c68e3b0`](../../../locales/hu/content/0a/9c/68e3b09a420ce304a9dbe387bb2a04b73f48.md)
 
 ### Trinary (Hármas)
