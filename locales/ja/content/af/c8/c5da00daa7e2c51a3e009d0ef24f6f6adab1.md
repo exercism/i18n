@@ -1,0 +1,20 @@
+# テスト
+
+テストランナーを使うには、[Godotを正しくインストール][installation]しておく必要があります。
+
+## テストを実行する
+
+[テストランナー][test runner]は、解答を読み込んでテストするために使います。
+演習をローカルにダウンロードすると、テストランナーのコピーと、それを呼び出すためのシェルスクリプトが一緒に含まれています。
+
+演習を実行するには、演習ディレクトリにある`./run_tests`スクリプトを実行するだけです。
+
+たとえば、
+
+```bash
+cd "$(exercism workspace)/gdscript/hello-world"
+./run_tests
+```
+
+[installation]: https://exercism.org/docs/tracks/gdscript/installation
+[test runner]: https://raw.githubusercontent.com/exercism/gdscript-test-runner/refs/heads/main/bin/test_runner.gd

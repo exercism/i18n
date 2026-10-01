@@ -1,0 +1,20 @@
+# টেস্ট
+
+টেস্ট রানার ব্যবহার করতে হলে আপনার [Godot সঠিকভাবে ইনস্টল করা][installation] থাকা দরকার।
+
+## টেস্ট চালানো
+
+সলুশন লোড ও টেস্ট করতে [টেস্ট রানারটি][test runner] ব্যবহার করা হয়।
+কোনো অনুশীলনী স্থানীয়ভাবে ডাউনলোড করলে তার সঙ্গে টেস্ট রানারের একটি কপি এবং সেটি চালানোর জন্য একটি শেল স্ক্রিপ্টও পাওয়া যায়।
+
+অনুশীলনীটি চালাতে হলে, অনুশীলনী ডিরেক্টরিতে শুধু `./run_tests` স্ক্রিপ্টটি রান করুন।
+
+যেমন,
+
+```bash
+cd "$(exercism workspace)/gdscript/hello-world"
+./run_tests
+```
+
+[installation]: https://exercism.org/docs/tracks/gdscript/installation
+[test runner]: https://raw.githubusercontent.com/exercism/gdscript-test-runner/refs/heads/main/bin/test_runner.gd

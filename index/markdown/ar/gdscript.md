@@ -165,12 +165,14 @@ This page is generated from [the index](../../json/ar/gdscript.json) by `scripts
 
 ### Installing GDScript locally (تثبيت GDScript محليًا)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/ar/content/a9/2c/ec1dd35597abd59eeb4a43e313bc4a0c3fbe.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/ar/content/79/86/e4d227a47082a0ade5c587a32bb46b99dabd.md)
+  - [`a92cec1dd3`](../../../locales/ar/content/a9/2c/ec1dd35597abd59eeb4a43e313bc4a0c3fbe.md)
   - [`435c67e3c0`](../../../locales/ar/content/43/5c/67e3c0809614be9bfc28abaa223f1c9ad166.md)
 
 ### Testing on the GDScript track (الاختبار في مسار GDScript)
 
-- `TESTS.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/TESTS.md)): [Latest](../../../locales/ar/content/00/3b/b93b0415040f7159740cd51811517e19852d.md)
+- `TESTS.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/TESTS.md)): [Latest](../../../locales/ar/content/af/c8/c5da00daa7e2c51a3e009d0ef24f6f6adab1.md)
+  - [`003bb93b04`](../../../locales/ar/content/00/3b/b93b0415040f7159740cd51811517e19852d.md)
   - [`9e68c6bc99`](../../../locales/ar/content/9e/68/c6bc998299fd489c694fb879f535acab6d3f.md)
   - [`a522f64d38`](../../../locales/ar/content/a5/22/f64d386d862ae55a118074261dc4a9b47e6f.md)
 

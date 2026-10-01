@@ -180,14 +180,16 @@ This page is generated from [the index](../../json/uk/gdscript.json) by `scripts
 
 ### Installing GDScript locally (Локальне встановлення GDScript)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/uk/content/a9/2c/ec1dd35597abd59eeb4a43e313bc4a0c3fbe.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/uk/content/79/86/e4d227a47082a0ade5c587a32bb46b99dabd.md)
+  - [`a92cec1dd3`](../../../locales/uk/content/a9/2c/ec1dd35597abd59eeb4a43e313bc4a0c3fbe.md)
   - [`435c67e3c0`](../../../locales/uk/content/43/5c/67e3c0809614be9bfc28abaa223f1c9ad166.md)
   - [`cd6ce8521d`](../../../locales/uk/content/cd/6c/e8521d1baba7dc72cdaf56a8a9eb3cb23882.md)
   - [`bc2f38a184`](../../../locales/uk/content/bc/2f/38a184cd5edd21df356dfd78764a7a232520.md)
 
 ### Testing on the GDScript track (Тестування на треку GDScript)
 
-- `TESTS.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/TESTS.md)): [Latest](../../../locales/uk/content/00/3b/b93b0415040f7159740cd51811517e19852d.md)
+- `TESTS.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/TESTS.md)): [Latest](../../../locales/uk/content/af/c8/c5da00daa7e2c51a3e009d0ef24f6f6adab1.md)
+  - [`003bb93b04`](../../../locales/uk/content/00/3b/b93b0415040f7159740cd51811517e19852d.md)
   - [`9e68c6bc99`](../../../locales/uk/content/9e/68/c6bc998299fd489c694fb879f535acab6d3f.md)
   - [`a522f64d38`](../../../locales/uk/content/a5/22/f64d386d862ae55a118074261dc4a9b47e6f.md)
   - [`bec9502b89`](../../../locales/uk/content/be/c9/502b8987111c0315223e21e299485767937f.md)

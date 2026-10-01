@@ -1,0 +1,20 @@
+# 테스트
+
+테스트 러너를 사용하려면 [Godot이 제대로 설치되어 있어야 해요][installation].
+
+## 테스트 실행하기
+
+[테스트 러너][test runner]는 풀이를 불러오고 테스트하는 데 사용해요.
+연습 문제를 로컬에 내려받으면 테스트 러너 사본과 이를 실행하는 셸 스크립트가 함께 포함되어 있어요.
+
+연습 문제를 실행하려면 해당 문제 디렉터리에서 `./run_tests` 스크립트를 실행하면 돼요.
+
+예를 들어,
+
+```bash
+cd "$(exercism workspace)/gdscript/hello-world"
+./run_tests
+```
+
+[installation]: https://exercism.org/docs/tracks/gdscript/installation
+[test runner]: https://raw.githubusercontent.com/exercism/gdscript-test-runner/refs/heads/main/bin/test_runner.gd

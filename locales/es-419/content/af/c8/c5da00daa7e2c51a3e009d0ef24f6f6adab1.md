@@ -1,0 +1,20 @@
+# Pruebas
+
+Necesitarás tener [Godot instalado][installation] correctamente para usar el ejecutor de pruebas.
+
+## Ejecución de las pruebas
+
+El [ejecutor de pruebas][test runner] se usa para cargar y probar soluciones.
+Cuando descargas un ejercicio localmente, se incluye una copia del ejecutor de pruebas junto con un script de shell para invocarlo.
+
+Para ejecutar el ejercicio, simplemente ejecuta el script `./run_tests` en el directorio del ejercicio.
+
+Por ejemplo,
+
+```bash
+cd "$(exercism workspace)/gdscript/hello-world"
+./run_tests
+```
+
+[installation]: https://exercism.org/docs/tracks/gdscript/installation
+[test runner]: https://raw.githubusercontent.com/exercism/gdscript-test-runner/refs/heads/main/bin/test_runner.gd
