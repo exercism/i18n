@@ -425,7 +425,7 @@
       },
       "donor": {
         "avatar_alt": "A(z) %{name} felhasználó által feltöltött avatar",
-        "first_supported": "Először %{time_ago} ezelőtt támogatott"
+        "first_supported": "Először %{time_ago} támogatott"
       },
       "missing": {
         "title": "Miért nem vagyok rajta ezen az oldalon?",
@@ -2126,7 +2126,7 @@
             "one": "Beküldés",
             "other": "Beküldés"
           },
-          "first_submitted_ago": "%{time} ezelőtt",
+          "first_submitted_ago": "%{time}",
           "first_submitted": "Először beküldve",
           "reputation_alt_text": "Reputáció",
           "max_track_rep": "Max. kurzusreputáció"
@@ -2223,7 +2223,7 @@
       }
     },
     "info_bar": {
-      "time_ago": "%{time_ago_value} ezelőtt",
+      "time_ago": "%{time_ago_value}",
       "video_label": "Videó"
     }
   },
@@ -2404,7 +2404,7 @@
     },
     "blog_post": {
       "new_label": "új",
-      "published_time": "%{time_ago} ezelőtt",
+      "published_time": "%{time_ago}",
       "share_title": "Oszd meg ezt a blogbejegyzést"
     },
     "footer": {
@@ -2486,13 +2486,13 @@
     },
     "user_activities": {
       "completed_exercise": {
-        "time_ago": "%{time_ago} ezelőtt"
+        "time_ago": "%{time_ago}"
       },
       "started_exercise": {
-        "time_ago": "%{time_ago} ezelőtt"
+        "time_ago": "%{time_ago}"
       },
       "submitted_iteration": {
-        "time_ago": "%{time_ago} ezelőtt"
+        "time_ago": "%{time_ago}"
       }
     },
     "about_nav": {
@@ -2937,7 +2937,7 @@
       "title": "Mentorálás",
       "discussion_aria_label": "%{student_handle} profiljának megtekintése",
       "exercise_on": "a(z) %{exercise_title} feladaton",
-      "time_ago": "%{time_ago} ezelőtt",
+      "time_ago": "%{time_ago}",
       "see_all_mentoring_link": "Nézd meg mindazokat, akiket mentorálsz"
     },
     "mentoring_queue": {
@@ -4274,8 +4274,8 @@
           "other": "%{formatted_count} PR átnézve és/vagy mergelve"
         },
         "authoring": {
-          "one": "%{formatted_count} feladat-hozzájárulás",
-          "other": "%{formatted_count} feladat-hozzájárulás"
+          "one": "%{formatted_count} feladat-közreműködés",
+          "other": "%{formatted_count} feladat-közreműködés"
         },
         "mentoring": {
           "one": "%{formatted_count} mentorált megoldás",
