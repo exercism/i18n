@@ -119,5 +119,8 @@
   "exercise:series:source": "زیرمجموعه‌ای از مسئله‌ی ۸ در Project Euler",
   "exercise:grains:name": "دانه",
   "exercise:grains:blurb": "تعداد دانه‌های گندم روی صفحه‌ی شطرنج را محاسبه کنید، با این فرض که تعداد دانه‌ها در هر خانه دو برابر می‌شود.",
-  "exercise:grains:source": "The CodeRanch Cattle Drive، تمرین ۶"
+  "exercise:grains:source": "The CodeRanch Cattle Drive، تمرین ۶",
+  "exercise:phone-number:name": "شماره تلفن",
+  "exercise:phone-number:blurb": "شماره‌های تلفنی را که کاربر وارد کرده است پاک‌سازی کنید تا بتوان برایشان پیامک فرستاد.",
+  "exercise:phone-number:source": "تمرینی از تیم JumpstartLab برای دانشجویان The Turing School of Software and Design."
 }

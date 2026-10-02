@@ -119,5 +119,8 @@
   "exercise:series:source": "Eine Teilmenge von Problem 8 bei Project Euler",
   "exercise:grains:name": "Weizenkörner",
   "exercise:grains:blurb": "Berechne die Anzahl der Weizenkörner auf einem Schachbrett, wenn sich die Anzahl auf jedem Feld verdoppelt.",
-  "exercise:grains:source": "The CodeRanch Cattle Drive, Assignment 6"
+  "exercise:grains:source": "The CodeRanch Cattle Drive, Assignment 6",
+  "exercise:phone-number:name": "Telefonnummer",
+  "exercise:phone-number:blurb": "Bereinige vom Nutzer eingegebene Telefonnummern, damit du ihnen SMS-Nachrichten senden kannst.",
+  "exercise:phone-number:source": "Übung des JumpstartLab-Teams für Studierende der Turing School of Software and Design."
 }

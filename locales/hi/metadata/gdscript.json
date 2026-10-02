@@ -119,5 +119,8 @@
   "exercise:series:source": "Project Euler पर Problem 8 का एक उपसमूह",
   "exercise:grains:name": "दाने",
   "exercise:grains:blurb": "शतरंज के बोर्ड पर गेहूँ के दानों की संख्या निकालिए, जहाँ हर खाने पर दानों की संख्या दोगुनी होती जाती है।",
-  "exercise:grains:source": "The CodeRanch Cattle Drive, Assignment 6"
+  "exercise:grains:source": "The CodeRanch Cattle Drive, Assignment 6",
+  "exercise:phone-number:name": "फोन नंबर",
+  "exercise:phone-number:blurb": "उपयोगकर्ता द्वारा डाले गए फोन नंबर साफ़ कीजिए ताकि उन्हें SMS भेजे जा सकें।",
+  "exercise:phone-number:source": "JumpstartLab टीम द्वारा The Turing School of Software and Design के छात्रों के लिए बनाया गया अभ्यास।"
 }

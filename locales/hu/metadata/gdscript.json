@@ -119,5 +119,8 @@
   "exercise:series:source": "A Project Euler 8. feladatának egy részhalmaza",
   "exercise:grains:name": "Gabonaszemek",
   "exercise:grains:blurb": "Számítsd ki a sakktáblán lévő búzaszemek számát, feltéve, hogy a mezőkön lévő szemek száma megduplázódik.",
-  "exercise:grains:source": "A CodeRanch Cattle Drive, 6. feladat"
+  "exercise:grains:source": "A CodeRanch Cattle Drive, 6. feladat",
+  "exercise:phone-number:name": "Telefonszám",
+  "exercise:phone-number:blurb": "Tisztítsd meg a felhasználó által megadott telefonszámokat, hogy SMS-üzeneteket lehessen rájuk küldeni.",
+  "exercise:phone-number:source": "Feladat a JumpstartLab csapatától a The Turing School of Software and Design tanulóinak."
 }

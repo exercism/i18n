@@ -119,5 +119,8 @@
   "exercise:series:source": "Підмножина задачі 8 з Project Euler",
   "exercise:grains:name": "Зернята",
   "exercise:grains:blurb": "Порахуйте кількість зерен пшениці на шахівниці, якщо кількість зерен на кожній клітинці подвоюється.",
-  "exercise:grains:source": "The CodeRanch Cattle Drive, завдання 6"
+  "exercise:grains:source": "The CodeRanch Cattle Drive, завдання 6",
+  "exercise:phone-number:name": "Номер телефону",
+  "exercise:phone-number:blurb": "Очистьте номери телефонів, які ввів користувач, щоб на них можна було надсилати SMS-повідомлення.",
+  "exercise:phone-number:source": "Вправа від команди JumpstartLab для студентів The Turing School of Software and Design."
 }

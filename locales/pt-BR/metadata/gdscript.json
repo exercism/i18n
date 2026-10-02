@@ -119,5 +119,8 @@
   "exercise:series:source": "Um subconjunto do Problema 8 do Project Euler",
   "exercise:grains:name": "Grãos",
   "exercise:grains:blurb": "Calcule o número de grãos de trigo em um tabuleiro de xadrez, sabendo que a quantidade em cada casa dobra.",
-  "exercise:grains:source": "The CodeRanch Cattle Drive, Tarefa 6"
+  "exercise:grains:source": "The CodeRanch Cattle Drive, Tarefa 6",
+  "exercise:phone-number:name": "Número de Telefone",
+  "exercise:phone-number:blurb": "Limpe números de telefone inseridos pelo usuário para que possam receber mensagens SMS.",
+  "exercise:phone-number:source": "Exercício da equipe JumpstartLab para estudantes da Turing School of Software and Design."
 }

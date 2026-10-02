@@ -119,5 +119,8 @@
   "exercise:series:source": "Project EulerのProblem 8の一部",
   "exercise:grains:name": "穀物",
   "exercise:grains:blurb": "それぞれのマス目の数が2倍になっていくとして、チェス盤上の小麦の粒の数を計算します。",
-  "exercise:grains:source": "CodeRanchのCattle Drive、課題6"
+  "exercise:grains:source": "CodeRanchのCattle Drive、課題6",
+  "exercise:phone-number:name": "電話番号",
+  "exercise:phone-number:blurb": "ユーザーが入力した電話番号を、SMSメッセージを送れるように整形します。",
+  "exercise:phone-number:source": "JumpstartLabチームによる、The Turing School of Software and Designの学生向けの演習"
 }

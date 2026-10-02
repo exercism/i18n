@@ -119,5 +119,8 @@
   "exercise:series:source": "Project Euler-এর Problem 8-এর একটি উপসেট।",
   "exercise:grains:name": "দানা",
   "exercise:grains:blurb": "দাবা বোর্ডের প্রতিটি ঘরের সংখ্যা দ্বিগুণ হয় ধরে নিয়ে বোর্ডে গমের দানার সংখ্যা গণনা করুন।",
-  "exercise:grains:source": "The CodeRanch Cattle Drive, অ্যাসাইনমেন্ট ৬"
+  "exercise:grains:source": "The CodeRanch Cattle Drive, অ্যাসাইনমেন্ট ৬",
+  "exercise:phone-number:name": "ফোন নম্বর",
+  "exercise:phone-number:blurb": "ব্যবহারকারীর দেওয়া ফোন নম্বরগুলো পরিষ্কার করুন, যাতে সেগুলোতে SMS পাঠানো যায়।",
+  "exercise:phone-number:source": "The Turing School of Software and Design-এর শিক্ষার্থীদের জন্য JumpstartLab দলের তৈরি অনুশীলনী।"
 }

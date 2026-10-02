@@ -106,6 +106,11 @@ This page is generated from [the index](../../json/ko/gdscript.json) by `scripts
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/ko/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/pangram/.docs/introduction.md)): [Latest](../../../locales/ko/content/32/b6/f1fc3178c36f2677b2d7bbeb35bafd6c786d.md)
 
+### Phone Number (전화번호)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/phone-number/.docs/instructions.md)): [Latest](../../../locales/ko/content/5d/4d/3739f4563d3f7781a1524df13f11cc8fbc71.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/phone-number/.docs/introduction.md)): [Latest](../../../locales/ko/content/c4/14/2c5af7289f74bf05d04c4563e2968a639cd2.md)
+
 ### Raindrops (빗방울)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/raindrops/.docs/instructions.md)): [Latest](../../../locales/ko/content/df/64/41075165afbe92ecc878d674f6861777972d.md)

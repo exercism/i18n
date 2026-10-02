@@ -119,5 +119,8 @@
   "exercise:series:source": "Ένα υποσύνολο του Προβλήματος 8 στο Project Euler",
   "exercise:grains:name": "Κόκκοι",
   "exercise:grains:blurb": "Υπολόγισε τον αριθμό των κόκκων σιταριού σε μια σκακιέρα, δεδομένου ότι ο αριθμός σε κάθε τετράγωνο διπλασιάζεται.",
-  "exercise:grains:source": "The CodeRanch Cattle Drive, άσκηση 6"
+  "exercise:grains:source": "The CodeRanch Cattle Drive, άσκηση 6",
+  "exercise:phone-number:name": "Αριθμός τηλεφώνου",
+  "exercise:phone-number:blurb": "Καθάρισε τους αριθμούς τηλεφώνου που πληκτρολογεί ο χρήστης, ώστε να μπορούν να σταλούν μηνύματα SMS.",
+  "exercise:phone-number:source": "Άσκηση από την ομάδα JumpstartLab για τους σπουδαστές του The Turing School of Software and Design."
 }

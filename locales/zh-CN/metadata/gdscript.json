@@ -119,5 +119,8 @@
   "exercise:series:source": "Project Euler 第 8 题的一个子集",
   "exercise:grains:name": "麦粒",
   "exercise:grains:blurb": "计算棋盘上的麦粒总数，已知每个方格里的麦粒数都会翻倍。",
-  "exercise:grains:source": "The CodeRanch Cattle Drive 的第 6 次作业"
+  "exercise:grains:source": "The CodeRanch Cattle Drive 的第 6 次作业",
+  "exercise:phone-number:name": "电话号码",
+  "exercise:phone-number:blurb": "清理用户输入的电话号码，以便能向这些号码发送短信。",
+  "exercise:phone-number:source": "由 JumpstartLab 团队为 The Turing School of Software and Design 的学生编写的练习。"
 }

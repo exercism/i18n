@@ -119,5 +119,8 @@
   "exercise:series:source": "Un sottoinsieme del Problema 8 di Project Euler",
   "exercise:grains:name": "Chicchi di grano",
   "exercise:grains:blurb": "Calcola il numero di chicchi di grano su una scacchiera, sapendo che il numero su ogni casella raddoppia.",
-  "exercise:grains:source": "The CodeRanch Cattle Drive, Assignment 6"
+  "exercise:grains:source": "The CodeRanch Cattle Drive, Assignment 6",
+  "exercise:phone-number:name": "Numero di telefono",
+  "exercise:phone-number:blurb": "Ripulisci i numeri di telefono inseriti dall'utente in modo che sia possibile inviare loro messaggi SMS.",
+  "exercise:phone-number:source": "Esercizio del team di JumpstartLab per gli studenti della Turing School of Software and Design."
 }

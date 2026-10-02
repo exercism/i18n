@@ -112,6 +112,11 @@ This page is generated from [the index](../../json/fr/gdscript.json) by `scripts
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/pangram/.docs/introduction.md)): [Latest](../../../locales/fr/content/32/b6/f1fc3178c36f2677b2d7bbeb35bafd6c786d.md)
   - [`d38fa341df`](../../../locales/fr/content/d3/8f/a341dfabb9408653c7914552fbd5554c06c1.md)
 
+### Phone Number (Numéro de téléphone)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/phone-number/.docs/instructions.md)): [Latest](../../../locales/fr/content/5d/4d/3739f4563d3f7781a1524df13f11cc8fbc71.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/phone-number/.docs/introduction.md)): [Latest](../../../locales/fr/content/c4/14/2c5af7289f74bf05d04c4563e2968a639cd2.md)
+
 ### Raindrops (Gouttes de pluie)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/raindrops/.docs/instructions.md)): [Latest](../../../locales/fr/content/df/64/41075165afbe92ecc878d674f6861777972d.md)
