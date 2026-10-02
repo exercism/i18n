@@ -116,5 +116,8 @@
   "exercise:food-chain:source": "Wikipedia",
   "exercise:series:name": "数列",
   "exercise:series:blurb": "给定一个由数字组成的字符串，输出其中所有长度为`n`的连续子串。",
-  "exercise:series:source": "Project Euler 第 8 题的一个子集"
+  "exercise:series:source": "Project Euler 第 8 题的一个子集",
+  "exercise:grains:name": "麦粒",
+  "exercise:grains:blurb": "计算棋盘上的麦粒总数，已知每个方格里的麦粒数都会翻倍。",
+  "exercise:grains:source": "The CodeRanch Cattle Drive 的第 6 次作业"
 }

@@ -116,5 +116,8 @@
   "exercise:food-chain:source": "Wikipedia",
   "exercise:series:name": "Serie",
   "exercise:series:blurb": "Data una stringa di cifre, dai in output tutte le sottostringhe contigue di lunghezza `n` presenti in quella stringa.",
-  "exercise:series:source": "Un sottoinsieme del Problema 8 di Project Euler"
+  "exercise:series:source": "Un sottoinsieme del Problema 8 di Project Euler",
+  "exercise:grains:name": "Chicchi di grano",
+  "exercise:grains:blurb": "Calcola il numero di chicchi di grano su una scacchiera, sapendo che il numero su ogni casella raddoppia.",
+  "exercise:grains:source": "The CodeRanch Cattle Drive, Assignment 6"
 }

@@ -116,5 +116,8 @@
   "exercise:food-chain:source": "Wikipedia",
   "exercise:series:name": "連続部分文字列",
   "exercise:series:blurb": "数字の文字列が与えられたとき、その文字列にある長さ`n`の連続した部分文字列をすべて出力します。",
-  "exercise:series:source": "Project EulerのProblem 8の一部"
+  "exercise:series:source": "Project EulerのProblem 8の一部",
+  "exercise:grains:name": "穀物",
+  "exercise:grains:blurb": "それぞれのマス目の数が2倍になっていくとして、チェス盤上の小麦の粒の数を計算します。",
+  "exercise:grains:source": "CodeRanchのCattle Drive、課題6"
 }

@@ -116,5 +116,8 @@
   "exercise:food-chain:source": "Wikipedia",
   "exercise:series:name": "Послідовність",
   "exercise:series:blurb": "Дано рядок тексту (англ. string) з цифр, виведіть усі суміжні підрядки довжиною `n` у ньому.",
-  "exercise:series:source": "Підмножина задачі 8 з Project Euler"
+  "exercise:series:source": "Підмножина задачі 8 з Project Euler",
+  "exercise:grains:name": "Зернята",
+  "exercise:grains:blurb": "Порахуйте кількість зерен пшениці на шахівниці, якщо кількість зерен на кожній клітинці подвоюється.",
+  "exercise:grains:source": "The CodeRanch Cattle Drive, завдання 6"
 }

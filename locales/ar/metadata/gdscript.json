@@ -116,5 +116,8 @@
   "exercise:food-chain:source": "ويكيبيديا",
   "exercise:series:name": "المتسلسلة",
   "exercise:series:blurb": "بمعلومية سلسلة نصية من الأرقام، أخرج جميع السلاسل النصية الفرعية المتلاصقة ذات الطول `n` في تلك السلسلة النصية.",
-  "exercise:series:source": "مجموعة فرعية من المسألة 8 في Project Euler"
+  "exercise:series:source": "مجموعة فرعية من المسألة 8 في Project Euler",
+  "exercise:grains:name": "الحبوب",
+  "exercise:grains:blurb": "احسب عدد حبوب القمح على رقعة شطرنج حيث يتضاعف العدد في كل خانة.",
+  "exercise:grains:source": "The CodeRanch Cattle Drive، التكليف 6"
 }

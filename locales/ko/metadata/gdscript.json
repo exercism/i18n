@@ -116,5 +116,8 @@
   "exercise:food-chain:source": "Wikipedia",
   "exercise:series:name": "수열",
   "exercise:series:blurb": "숫자 문자열이 주어지면, 그 문자열에서 길이가 `n`인 모든 연속 부분 문자열을 출력해요.",
-  "exercise:series:source": "Project Euler Problem 8의 일부"
+  "exercise:series:source": "Project Euler Problem 8의 일부",
+  "exercise:grains:name": "밀알",
+  "exercise:grains:blurb": "각 칸의 밀알 수가 두 배씩 늘어난다고 할 때, 체스판 위의 밀알 개수를 계산해요.",
+  "exercise:grains:source": "CodeRanch Cattle Drive, 과제 6"
 }

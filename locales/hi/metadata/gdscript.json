@@ -116,5 +116,8 @@
   "exercise:food-chain:source": "Wikipedia",
   "exercise:series:name": "श्रेणी",
   "exercise:series:blurb": "अंकों की एक स्ट्रिंग दी गई है; उसमें लंबाई `n` वाले सभी क्रमागत सबस्ट्रिंग आउटपुट कीजिए।",
-  "exercise:series:source": "Project Euler पर Problem 8 का एक उपसमूह"
+  "exercise:series:source": "Project Euler पर Problem 8 का एक उपसमूह",
+  "exercise:grains:name": "दाने",
+  "exercise:grains:blurb": "शतरंज के बोर्ड पर गेहूँ के दानों की संख्या निकालिए, जहाँ हर खाने पर दानों की संख्या दोगुनी होती जाती है।",
+  "exercise:grains:source": "The CodeRanch Cattle Drive, Assignment 6"
 }

@@ -68,6 +68,12 @@ This page is generated from [the index](../../json/ja/gdscript.json) by `scripts
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/food-chain/.docs/instructions.md)): [Latest](../../../locales/ja/content/12/58/20e321bd07292c3a17dc8b57a7a2cff09245.md)
 
+### Grains (穀物)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/grains/.docs/instructions.md)): [Latest](../../../locales/ja/content/f5/b7/52a81754e88e6e41120237c7d3b24d150e58.md)
+- `instructions.append.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/grains/.docs/instructions.append.md)): [Latest](../../../locales/ja/content/8c/a5/13f232fba7ae7ab77e85b4649ed1c813d0bc.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/grains/.docs/introduction.md)): [Latest](../../../locales/ja/content/0d/f4/f46f726cabcd99719756067e04d6832e52a8.md)
+
 ### Hamming (ハミング)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/hamming/.docs/instructions.md)): [Latest](../../../locales/ja/content/8f/47/a179e01a680d8d8311f0a54ba239c9982431.md)

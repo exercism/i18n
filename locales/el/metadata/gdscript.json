@@ -116,5 +116,8 @@
   "exercise:food-chain:source": "Wikipedia",
   "exercise:series:name": "Σειρές",
   "exercise:series:blurb": "Με δεδομένη μια συμβολοσειρά ψηφίων, δώσε όλες τις συνεχόμενες υποσυμβολοσειρές μήκους `n` μέσα σε αυτή τη συμβολοσειρά.",
-  "exercise:series:source": "Ένα υποσύνολο του Προβλήματος 8 στο Project Euler"
+  "exercise:series:source": "Ένα υποσύνολο του Προβλήματος 8 στο Project Euler",
+  "exercise:grains:name": "Κόκκοι",
+  "exercise:grains:blurb": "Υπολόγισε τον αριθμό των κόκκων σιταριού σε μια σκακιέρα, δεδομένου ότι ο αριθμός σε κάθε τετράγωνο διπλασιάζεται.",
+  "exercise:grains:source": "The CodeRanch Cattle Drive, άσκηση 6"
 }

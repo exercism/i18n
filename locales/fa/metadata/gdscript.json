@@ -116,5 +116,8 @@
   "exercise:food-chain:source": "Wikipedia",
   "exercise:series:name": "دنباله",
   "exercise:series:blurb": "اگر رشته‌ای از رقم‌ها داده شود، همه‌ی زیررشته‌های به‌هم‌پیوسته با طول `n` را در آن رشته خروجی بدهید.",
-  "exercise:series:source": "زیرمجموعه‌ای از مسئله‌ی ۸ در Project Euler"
+  "exercise:series:source": "زیرمجموعه‌ای از مسئله‌ی ۸ در Project Euler",
+  "exercise:grains:name": "دانه",
+  "exercise:grains:blurb": "تعداد دانه‌های گندم روی صفحه‌ی شطرنج را محاسبه کنید، با این فرض که تعداد دانه‌ها در هر خانه دو برابر می‌شود.",
+  "exercise:grains:source": "The CodeRanch Cattle Drive، تمرین ۶"
 }

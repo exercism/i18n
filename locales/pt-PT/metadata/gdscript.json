@@ -116,5 +116,8 @@
   "exercise:food-chain:source": "Wikipedia",
   "exercise:series:name": "Série",
   "exercise:series:blurb": "Dada uma string de dígitos, devolve todas as substrings contíguas de comprimento `n` dessa string.",
-  "exercise:series:source": "Um subconjunto do Problema 8 do Project Euler"
+  "exercise:series:source": "Um subconjunto do Problema 8 do Project Euler",
+  "exercise:grains:name": "Grãos",
+  "exercise:grains:blurb": "Calcula o número de grãos de trigo num tabuleiro de xadrez, sabendo que o número de cada casa duplica.",
+  "exercise:grains:source": "The CodeRanch Cattle Drive, Tarefa 6"
 }

@@ -116,5 +116,8 @@
   "exercise:food-chain:source": "Wikipedia",
   "exercise:series:name": "Series",
   "exercise:series:blurb": "Dado un string de dígitos, devuelve todas las subcadenas contiguas de longitud `n` en ese string.",
-  "exercise:series:source": "Un subconjunto del Problema 8 de Project Euler"
+  "exercise:series:source": "Un subconjunto del Problema 8 de Project Euler",
+  "exercise:grains:name": "Granos",
+  "exercise:grains:blurb": "Calcula la cantidad de granos de trigo en un tablero de ajedrez sabiendo que la cantidad en cada casilla se duplica.",
+  "exercise:grains:source": "The CodeRanch Cattle Drive, Tarea 6"
 }

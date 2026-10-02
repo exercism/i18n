@@ -116,5 +116,8 @@
   "exercise:food-chain:source": "Wikipedia",
   "exercise:series:name": "序列",
   "exercise:series:blurb": "給定一串數字，輸出該字串中所有長度為`n`的連續子字串。",
-  "exercise:series:source": "Project Euler 第 8 題的子集。"
+  "exercise:series:source": "Project Euler 第 8 題的子集。",
+  "exercise:grains:name": "麥粒",
+  "exercise:grains:blurb": "計算西洋棋盤上的麥粒總數，已知每一格的數量都是前一格的兩倍。",
+  "exercise:grains:source": "CodeRanch 的 Cattle Drive，作業 6"
 }

@@ -116,5 +116,8 @@
   "exercise:food-chain:source": "Wikipedia",
   "exercise:series:name": "Serien",
   "exercise:series:blurb": "Gib für einen String aus Ziffern alle zusammenhängenden Teilstrings der Länge `n` aus.",
-  "exercise:series:source": "Eine Teilmenge von Problem 8 bei Project Euler"
+  "exercise:series:source": "Eine Teilmenge von Problem 8 bei Project Euler",
+  "exercise:grains:name": "Weizenkörner",
+  "exercise:grains:blurb": "Berechne die Anzahl der Weizenkörner auf einem Schachbrett, wenn sich die Anzahl auf jedem Feld verdoppelt.",
+  "exercise:grains:source": "The CodeRanch Cattle Drive, Assignment 6"
 }
