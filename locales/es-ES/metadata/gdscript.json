@@ -125,5 +125,8 @@
   "exercise:phone-number:source": "Ejercicio del equipo de JumpstartLab para estudiantes de The Turing School of Software and Design.",
   "exercise:perfect-numbers:name": "Números perfectos",
   "exercise:perfect-numbers:blurb": "Determina si un número es perfecto, abundante o deficiente según el esquema de clasificación de Nicómaco (60 - 120 d. C.) para los números enteros positivos.",
-  "exercise:perfect-numbers:source": "Tomado del capítulo 2 de Functional Thinking, de Neal Ford."
+  "exercise:perfect-numbers:source": "Tomado del capítulo 2 de Functional Thinking, de Neal Ford.",
+  "exercise:scrabble-score:name": "Puntuación de Scrabble",
+  "exercise:scrabble-score:blurb": "Dada una palabra, calcula la puntuación de Scrabble de esa palabra.",
+  "exercise:scrabble-score:source": "Inspirado en el juego Extreme Startup"
 }

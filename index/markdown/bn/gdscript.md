@@ -151,6 +151,11 @@ This page is generated from [the index](../../json/bn/gdscript.json) by `scripts
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/scale-generator/.docs/instructions.md)): [Latest](../../../locales/bn/content/eb/b7/debc7636b1656892b7cd9783e4fd91775c26.md)
 
+### Scrabble Score (স্ক্র্যাবল স্কোর)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/scrabble-score/.docs/instructions.md)): [Latest](../../../locales/bn/content/73/8f/928c5b64a1453fe44d29b22efbf90479500b.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/scrabble-score/.docs/introduction.md)): [Latest](../../../locales/bn/content/88/21/f240ba979311248c51b5cad4ab93c6ac5df1.md)
+
 ### Series (সিরিজ)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/series/.docs/instructions.md)): [Latest](../../../locales/bn/content/fd/97/a6706a66b377147ae91d1495db35a1b291e8.md)

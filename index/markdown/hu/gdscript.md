@@ -155,6 +155,11 @@ This page is generated from [the index](../../json/hu/gdscript.json) by `scripts
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/scale-generator/.docs/instructions.md)): [Latest](../../../locales/hu/content/eb/b7/debc7636b1656892b7cd9783e4fd91775c26.md)
 
+### Scrabble Score (Scrabble-pontszám)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/scrabble-score/.docs/instructions.md)): [Latest](../../../locales/hu/content/73/8f/928c5b64a1453fe44d29b22efbf90479500b.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/scrabble-score/.docs/introduction.md)): [Latest](../../../locales/hu/content/88/21/f240ba979311248c51b5cad4ab93c6ac5df1.md)
+
 ### Series (Sorozat)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/series/.docs/instructions.md)): [Latest](../../../locales/hu/content/fd/97/a6706a66b377147ae91d1495db35a1b291e8.md)

@@ -125,5 +125,8 @@
   "exercise:phone-number:source": "Вправа від команди JumpstartLab для студентів The Turing School of Software and Design.",
   "exercise:perfect-numbers:name": "Досконалі числа",
   "exercise:perfect-numbers:blurb": "Визначте, чи є число досконалим, надлишковим або недостатнім, за схемою класифікації Нікомаха (60-120 рр. н. е.) для додатних цілих чисел.",
-  "exercise:perfect-numbers:source": "Взято з розділу 2 книжки «Functional Thinking» авторства Neal Ford."
+  "exercise:perfect-numbers:source": "Взято з розділу 2 книжки «Functional Thinking» авторства Neal Ford.",
+  "exercise:scrabble-score:name": "Рахунок у Scrabble",
+  "exercise:scrabble-score:blurb": "Дано слово, обчисліть його рахунок у Scrabble.",
+  "exercise:scrabble-score:source": "За мотивами гри Extreme Startup"
 }

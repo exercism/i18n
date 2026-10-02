@@ -125,5 +125,8 @@
   "exercise:phone-number:source": "تمرینی از تیم JumpstartLab برای دانشجویان The Turing School of Software and Design.",
   "exercise:perfect-numbers:name": "اعداد تام",
   "exercise:perfect-numbers:blurb": "بر اساس طرح دسته‌بندی نیکوماخوس (۶۰ تا ۱۲۰ میلادی) برای اعداد صحیح مثبت تعیین کنید که یک عدد تام است، فراوان است یا ناقص.",
-  "exercise:perfect-numbers:source": "برگرفته از فصل ۲ کتاب Functional Thinking نوشته‌ی Neal Ford."
+  "exercise:perfect-numbers:source": "برگرفته از فصل ۲ کتاب Functional Thinking نوشته‌ی Neal Ford.",
+  "exercise:scrabble-score:name": "امتیاز Scrabble",
+  "exercise:scrabble-score:blurb": "اگر یک کلمه داده شود، امتیاز Scrabble آن را محاسبه کنید.",
+  "exercise:scrabble-score:source": "با الهام از بازی Extreme Startup"
 }

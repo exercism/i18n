@@ -125,5 +125,8 @@
   "exercise:phone-number:source": "JumpstartLabチームによる、The Turing School of Software and Designの学生向けの演習",
   "exercise:perfect-numbers:name": "完全数",
   "exercise:perfect-numbers:blurb": "ニコマコス（紀元60年〜120年）が正の整数について考案した分類に基づいて、ある数がperfect、abundant、deficientのどれにあたるかを判定します。",
-  "exercise:perfect-numbers:source": "Neal Ford著『Functional Thinking』の第2章より"
+  "exercise:perfect-numbers:source": "Neal Ford著『Functional Thinking』の第2章より",
+  "exercise:scrabble-score:name": "スクラブルスコア",
+  "exercise:scrabble-score:blurb": "単語が与えられたとき、その単語のスクラブルスコアを計算します。",
+  "exercise:scrabble-score:source": "Extreme Startupゲームに着想を得たもの"
 }

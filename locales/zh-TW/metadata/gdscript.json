@@ -125,5 +125,8 @@
   "exercise:phone-number:source": "由 JumpstartLab 團隊為 The Turing School of Software and Design 的學生所設計的練習。",
   "exercise:perfect-numbers:name": "完全數",
   "exercise:perfect-numbers:blurb": "根據 Nicomachus（公元 60 至 120 年）對正整數的分類法，判斷一個數字是完全數、過剩數還是不足數。",
-  "exercise:perfect-numbers:source": "摘自 Neal Ford 所著《Functional Thinking》第 2 章。"
+  "exercise:perfect-numbers:source": "摘自 Neal Ford 所著《Functional Thinking》第 2 章。",
+  "exercise:scrabble-score:name": "Scrabble 分數",
+  "exercise:scrabble-score:blurb": "給定一個單字，計算該單字的 Scrabble 分數。",
+  "exercise:scrabble-score:source": "靈感來自 Extreme Startup 這款遊戲"
 }

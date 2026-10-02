@@ -125,5 +125,8 @@
   "exercise:phone-number:source": "تمرين من فريق JumpstartLab لطلاب The Turing School of Software and Design.",
   "exercise:perfect-numbers:name": "الأعداد التامة",
   "exercise:perfect-numbers:blurb": "حدّد ما إذا كان العدد تامًا أم زائدًا أم ناقصًا وفق مخطط نيقوماخوس (60 - 120 م) لتصنيف الأعداد الصحيحة الموجبة.",
-  "exercise:perfect-numbers:source": "مأخوذ من الفصل 2 من كتاب Functional Thinking للكاتب Neal Ford."
+  "exercise:perfect-numbers:source": "مأخوذ من الفصل 2 من كتاب Functional Thinking للكاتب Neal Ford.",
+  "exercise:scrabble-score:name": "نقاط Scrabble",
+  "exercise:scrabble-score:blurb": "بمعلومية كلمة، احسب نقاط Scrabble لتلك الكلمة.",
+  "exercise:scrabble-score:source": "مستوحى من لعبة Extreme Startup"
 }

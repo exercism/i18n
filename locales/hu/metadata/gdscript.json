@@ -125,5 +125,8 @@
   "exercise:phone-number:source": "Feladat a JumpstartLab csapatától a The Turing School of Software and Design tanulóinak.",
   "exercise:perfect-numbers:name": "Tökéletes számok",
   "exercise:perfect-numbers:blurb": "Határozd meg, hogy egy szám tökéletes, bővelkedő vagy hiányos-e, Nikomakhosz (i. sz. 60-120) pozitív egész számokra vonatkozó osztályozása alapján.",
-  "exercise:perfect-numbers:source": "Neal Ford Functional Thinking című könyvének 2. fejezetéből."
+  "exercise:perfect-numbers:source": "Neal Ford Functional Thinking című könyvének 2. fejezetéből.",
+  "exercise:scrabble-score:name": "Scrabble-pontszám",
+  "exercise:scrabble-score:blurb": "Adott egy szó; számítsd ki a Scrabble-pontszámát.",
+  "exercise:scrabble-score:source": "Az Extreme Startup játék ihlette"
 }

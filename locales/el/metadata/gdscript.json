@@ -125,5 +125,8 @@
   "exercise:phone-number:source": "Άσκηση από την ομάδα JumpstartLab για τους σπουδαστές του The Turing School of Software and Design.",
   "exercise:perfect-numbers:name": "Τέλειοι αριθμοί",
   "exercise:perfect-numbers:blurb": "Προσδιόρισε αν ένας αριθμός είναι τέλειος, υπερτέλειος ή ελλιπής, με βάση το σύστημα ταξινόμησης του Νικόμαχου (60 - 120 μ.Χ.) για τους θετικούς ακέραιους.",
-  "exercise:perfect-numbers:source": "Παρμένο από το Κεφάλαιο 2 του Functional Thinking του Neal Ford."
+  "exercise:perfect-numbers:source": "Παρμένο από το Κεφάλαιο 2 του Functional Thinking του Neal Ford.",
+  "exercise:scrabble-score:name": "Βαθμολογία στο Scrabble",
+  "exercise:scrabble-score:blurb": "Με δεδομένη μια λέξη, υπολόγισε τη βαθμολογία της στο Scrabble.",
+  "exercise:scrabble-score:source": "Εμπνευσμένο από το παιχνίδι Extreme Startup"
 }

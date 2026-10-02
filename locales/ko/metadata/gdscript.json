@@ -125,5 +125,8 @@
   "exercise:phone-number:source": "JumpstartLab 팀이 The Turing School of Software and Design 학생들을 위해 만든 연습 문제예요.",
   "exercise:perfect-numbers:name": "완전수",
   "exercise:perfect-numbers:blurb": "니코마코스(서기 60~120년)의 양의 정수 분류 체계에 따라 어떤 수가 완전수인지, 과잉수인지, 부족수인지 판별해요.",
-  "exercise:perfect-numbers:source": "Neal Ford의 Functional Thinking 2장에서 가져왔어요."
+  "exercise:perfect-numbers:source": "Neal Ford의 Functional Thinking 2장에서 가져왔어요.",
+  "exercise:scrabble-score:name": "스크래블 점수",
+  "exercise:scrabble-score:blurb": "단어가 주어지면, 그 단어의 스크래블 점수를 계산해요.",
+  "exercise:scrabble-score:source": "Extreme Startup 게임에서 영감을 받았어요."
 }

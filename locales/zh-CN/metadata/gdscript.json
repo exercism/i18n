@@ -125,5 +125,8 @@
   "exercise:phone-number:source": "由 JumpstartLab 团队为 The Turing School of Software and Design 的学生编写的练习。",
   "exercise:perfect-numbers:name": "完全数",
   "exercise:perfect-numbers:blurb": "根据尼科马库斯（公元 60 - 120 年）对正整数的分类方法，判断一个数是完全数、过剩数还是不足数。",
-  "exercise:perfect-numbers:source": "摘自 Neal Ford 所著《Functional Thinking》第 2 章。"
+  "exercise:perfect-numbers:source": "摘自 Neal Ford 所著《Functional Thinking》第 2 章。",
+  "exercise:scrabble-score:name": "Scrabble 得分",
+  "exercise:scrabble-score:blurb": "给定一个单词，计算该单词的 Scrabble 得分。",
+  "exercise:scrabble-score:source": "灵感来自 Extreme Startup 游戏"
 }
