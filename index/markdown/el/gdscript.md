@@ -112,6 +112,10 @@ This page is generated from [the index](../../json/el/gdscript.json) by `scripts
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/pangram/.docs/introduction.md)): [Latest](../../../locales/el/content/32/b6/f1fc3178c36f2677b2d7bbeb35bafd6c786d.md)
   - [`d38fa341df`](../../../locales/el/content/d3/8f/a341dfabb9408653c7914552fbd5554c06c1.md)
 
+### Perfect Numbers (Τέλειοι αριθμοί)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/perfect-numbers/.docs/instructions.md)): [Latest](../../../locales/el/content/b2/bc/82ca3e9110b4fd7c2c7501f5bca0f5214cd2.md)
+
 ### Phone Number (Αριθμός τηλεφώνου)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/phone-number/.docs/instructions.md)): [Latest](../../../locales/el/content/5d/4d/3739f4563d3f7781a1524df13f11cc8fbc71.md)

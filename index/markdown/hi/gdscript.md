@@ -107,6 +107,10 @@ This page is generated from [the index](../../json/hi/gdscript.json) by `scripts
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hi/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/pangram/.docs/introduction.md)): [Latest](../../../locales/hi/content/32/b6/f1fc3178c36f2677b2d7bbeb35bafd6c786d.md)
 
+### Perfect Numbers (पूर्ण संख्याएँ)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/perfect-numbers/.docs/instructions.md)): [Latest](../../../locales/hi/content/b2/bc/82ca3e9110b4fd7c2c7501f5bca0f5214cd2.md)
+
 ### Phone Number (फोन नंबर)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/phone-number/.docs/instructions.md)): [Latest](../../../locales/hi/content/5d/4d/3739f4563d3f7781a1524df13f11cc8fbc71.md)

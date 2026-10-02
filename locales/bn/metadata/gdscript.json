@@ -122,5 +122,8 @@
   "exercise:grains:source": "The CodeRanch Cattle Drive, অ্যাসাইনমেন্ট ৬",
   "exercise:phone-number:name": "ফোন নম্বর",
   "exercise:phone-number:blurb": "ব্যবহারকারীর দেওয়া ফোন নম্বরগুলো পরিষ্কার করুন, যাতে সেগুলোতে SMS পাঠানো যায়।",
-  "exercise:phone-number:source": "The Turing School of Software and Design-এর শিক্ষার্থীদের জন্য JumpstartLab দলের তৈরি অনুশীলনী।"
+  "exercise:phone-number:source": "The Turing School of Software and Design-এর শিক্ষার্থীদের জন্য JumpstartLab দলের তৈরি অনুশীলনী।",
+  "exercise:perfect-numbers:name": "নিখুঁত সংখ্যা",
+  "exercise:perfect-numbers:blurb": "Nicomachus-এর (৬০ - ১২০ খ্রিস্টাব্দ) ধনাত্মক পূর্ণসংখ্যার শ্রেণিবিন্যাস পদ্ধতি অনুসারে একটি সংখ্যা নিখুঁত, আধিক্যসম্পন্ন, নাকি ঘাটতিসম্পন্ন তা নির্ণয় করুন।",
+  "exercise:perfect-numbers:source": "Neal Ford-এর Functional Thinking বইয়ের দ্বিতীয় অধ্যায় থেকে নেওয়া।"
 }

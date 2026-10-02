@@ -122,5 +122,8 @@
   "exercise:grains:source": "The CodeRanch Cattle Drive، التكليف 6",
   "exercise:phone-number:name": "رقم الهاتف",
   "exercise:phone-number:blurb": "نظّف أرقام الهاتف التي يُدخلها المستخدم حتى يمكن إرسال رسائل نصية إليها.",
-  "exercise:phone-number:source": "تمرين من فريق JumpstartLab لطلاب The Turing School of Software and Design."
+  "exercise:phone-number:source": "تمرين من فريق JumpstartLab لطلاب The Turing School of Software and Design.",
+  "exercise:perfect-numbers:name": "الأعداد التامة",
+  "exercise:perfect-numbers:blurb": "حدّد ما إذا كان العدد تامًا أم زائدًا أم ناقصًا وفق مخطط نيقوماخوس (60 - 120 م) لتصنيف الأعداد الصحيحة الموجبة.",
+  "exercise:perfect-numbers:source": "مأخوذ من الفصل 2 من كتاب Functional Thinking للكاتب Neal Ford."
 }

@@ -122,5 +122,8 @@
   "exercise:grains:source": "Le CodeRanch Cattle Drive, exercice 6",
   "exercise:phone-number:name": "Numéro de téléphone",
   "exercise:phone-number:blurb": "Nettoie les numéros de téléphone saisis par l'utilisateur afin de pouvoir leur envoyer des SMS.",
-  "exercise:phone-number:source": "Exercice proposé par l'équipe JumpstartLab pour les étudiants de The Turing School of Software and Design."
+  "exercise:phone-number:source": "Exercice proposé par l'équipe JumpstartLab pour les étudiants de The Turing School of Software and Design.",
+  "exercise:perfect-numbers:name": "Nombres parfaits",
+  "exercise:perfect-numbers:blurb": "Détermine si un nombre est parfait, abondant ou déficient, d'après la classification de Nicomachus (60 - 120 apr. J.-C.) pour les entiers positifs.",
+  "exercise:perfect-numbers:source": "Tiré du chapitre 2 de Functional Thinking de Neal Ford."
 }

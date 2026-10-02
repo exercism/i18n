@@ -122,5 +122,8 @@
   "exercise:grains:source": "The CodeRanch Cattle Drive, Assignment 6",
   "exercise:phone-number:name": "फोन नंबर",
   "exercise:phone-number:blurb": "उपयोगकर्ता द्वारा डाले गए फोन नंबर साफ़ कीजिए ताकि उन्हें SMS भेजे जा सकें।",
-  "exercise:phone-number:source": "JumpstartLab टीम द्वारा The Turing School of Software and Design के छात्रों के लिए बनाया गया अभ्यास।"
+  "exercise:phone-number:source": "JumpstartLab टीम द्वारा The Turing School of Software and Design के छात्रों के लिए बनाया गया अभ्यास।",
+  "exercise:perfect-numbers:name": "पूर्ण संख्याएँ",
+  "exercise:perfect-numbers:blurb": "निकोमैकस (60 - 120 ई.) की धनात्मक पूर्णांकों के वर्गीकरण की योजना के आधार पर बताइए कि कोई संख्या पूर्ण, आधिक्य या न्यून है।",
+  "exercise:perfect-numbers:source": "Neal Ford की पुस्तक Functional Thinking के अध्याय 2 से लिया गया।"
 }

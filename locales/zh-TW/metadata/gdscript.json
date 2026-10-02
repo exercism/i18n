@@ -122,5 +122,8 @@
   "exercise:grains:source": "CodeRanch 的 Cattle Drive，作業 6",
   "exercise:phone-number:name": "電話號碼",
   "exercise:phone-number:blurb": "清理使用者輸入的電話號碼，讓這些號碼可以用來傳送簡訊。",
-  "exercise:phone-number:source": "由 JumpstartLab 團隊為 The Turing School of Software and Design 的學生所設計的練習。"
+  "exercise:phone-number:source": "由 JumpstartLab 團隊為 The Turing School of Software and Design 的學生所設計的練習。",
+  "exercise:perfect-numbers:name": "完全數",
+  "exercise:perfect-numbers:blurb": "根據 Nicomachus（公元 60 至 120 年）對正整數的分類法，判斷一個數字是完全數、過剩數還是不足數。",
+  "exercise:perfect-numbers:source": "摘自 Neal Ford 所著《Functional Thinking》第 2 章。"
 }

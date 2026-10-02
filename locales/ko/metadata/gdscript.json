@@ -122,5 +122,8 @@
   "exercise:grains:source": "CodeRanch Cattle Drive, 과제 6",
   "exercise:phone-number:name": "전화번호",
   "exercise:phone-number:blurb": "사용자가 입력한 전화번호를 정리해서 SMS 메시지를 보낼 수 있게 해요.",
-  "exercise:phone-number:source": "JumpstartLab 팀이 The Turing School of Software and Design 학생들을 위해 만든 연습 문제예요."
+  "exercise:phone-number:source": "JumpstartLab 팀이 The Turing School of Software and Design 학생들을 위해 만든 연습 문제예요.",
+  "exercise:perfect-numbers:name": "완전수",
+  "exercise:perfect-numbers:blurb": "니코마코스(서기 60~120년)의 양의 정수 분류 체계에 따라 어떤 수가 완전수인지, 과잉수인지, 부족수인지 판별해요.",
+  "exercise:perfect-numbers:source": "Neal Ford의 Functional Thinking 2장에서 가져왔어요."
 }

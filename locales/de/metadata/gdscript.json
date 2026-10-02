@@ -122,5 +122,8 @@
   "exercise:grains:source": "The CodeRanch Cattle Drive, Assignment 6",
   "exercise:phone-number:name": "Telefonnummer",
   "exercise:phone-number:blurb": "Bereinige vom Nutzer eingegebene Telefonnummern, damit du ihnen SMS-Nachrichten senden kannst.",
-  "exercise:phone-number:source": "Übung des JumpstartLab-Teams für Studierende der Turing School of Software and Design."
+  "exercise:phone-number:source": "Übung des JumpstartLab-Teams für Studierende der Turing School of Software and Design.",
+  "exercise:perfect-numbers:name": "Vollkommene Zahlen",
+  "exercise:perfect-numbers:blurb": "Bestimme, ob eine Zahl vollkommen, abundant oder defizient ist, basierend auf Nicomachus' (60 - 120 n. Chr.) Klassifikationsschema für positive Ganzzahlen.",
+  "exercise:perfect-numbers:source": "Entnommen aus Kapitel 2 von Functional Thinking von Neal Ford."
 }

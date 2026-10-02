@@ -122,5 +122,8 @@
   "exercise:grains:source": "The CodeRanch Cattle Drive, άσκηση 6",
   "exercise:phone-number:name": "Αριθμός τηλεφώνου",
   "exercise:phone-number:blurb": "Καθάρισε τους αριθμούς τηλεφώνου που πληκτρολογεί ο χρήστης, ώστε να μπορούν να σταλούν μηνύματα SMS.",
-  "exercise:phone-number:source": "Άσκηση από την ομάδα JumpstartLab για τους σπουδαστές του The Turing School of Software and Design."
+  "exercise:phone-number:source": "Άσκηση από την ομάδα JumpstartLab για τους σπουδαστές του The Turing School of Software and Design.",
+  "exercise:perfect-numbers:name": "Τέλειοι αριθμοί",
+  "exercise:perfect-numbers:blurb": "Προσδιόρισε αν ένας αριθμός είναι τέλειος, υπερτέλειος ή ελλιπής, με βάση το σύστημα ταξινόμησης του Νικόμαχου (60 - 120 μ.Χ.) για τους θετικούς ακέραιους.",
+  "exercise:perfect-numbers:source": "Παρμένο από το Κεφάλαιο 2 του Functional Thinking του Neal Ford."
 }

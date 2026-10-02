@@ -122,5 +122,8 @@
   "exercise:grains:source": "The CodeRanch Cattle Drive, завдання 6",
   "exercise:phone-number:name": "Номер телефону",
   "exercise:phone-number:blurb": "Очистьте номери телефонів, які ввів користувач, щоб на них можна було надсилати SMS-повідомлення.",
-  "exercise:phone-number:source": "Вправа від команди JumpstartLab для студентів The Turing School of Software and Design."
+  "exercise:phone-number:source": "Вправа від команди JumpstartLab для студентів The Turing School of Software and Design.",
+  "exercise:perfect-numbers:name": "Досконалі числа",
+  "exercise:perfect-numbers:blurb": "Визначте, чи є число досконалим, надлишковим або недостатнім, за схемою класифікації Нікомаха (60-120 рр. н. е.) для додатних цілих чисел.",
+  "exercise:perfect-numbers:source": "Взято з розділу 2 книжки «Functional Thinking» авторства Neal Ford."
 }

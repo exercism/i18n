@@ -122,5 +122,8 @@
   "exercise:grains:source": "CodeRanchのCattle Drive、課題6",
   "exercise:phone-number:name": "電話番号",
   "exercise:phone-number:blurb": "ユーザーが入力した電話番号を、SMSメッセージを送れるように整形します。",
-  "exercise:phone-number:source": "JumpstartLabチームによる、The Turing School of Software and Designの学生向けの演習"
+  "exercise:phone-number:source": "JumpstartLabチームによる、The Turing School of Software and Designの学生向けの演習",
+  "exercise:perfect-numbers:name": "完全数",
+  "exercise:perfect-numbers:blurb": "ニコマコス（紀元60年〜120年）が正の整数について考案した分類に基づいて、ある数がperfect、abundant、deficientのどれにあたるかを判定します。",
+  "exercise:perfect-numbers:source": "Neal Ford著『Functional Thinking』の第2章より"
 }

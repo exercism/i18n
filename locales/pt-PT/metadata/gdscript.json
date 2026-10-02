@@ -122,5 +122,8 @@
   "exercise:grains:source": "The CodeRanch Cattle Drive, Tarefa 6",
   "exercise:phone-number:name": "Número de telefone",
   "exercise:phone-number:blurb": "Limpa os números de telefone introduzidos pelo utilizador para que lhes possam ser enviadas mensagens SMS.",
-  "exercise:phone-number:source": "Exercício da equipa do JumpstartLab para estudantes da The Turing School of Software and Design."
+  "exercise:phone-number:source": "Exercício da equipa do JumpstartLab para estudantes da The Turing School of Software and Design.",
+  "exercise:perfect-numbers:name": "Números perfeitos",
+  "exercise:perfect-numbers:blurb": "Determina se um número é perfeito, abundante ou deficiente, com base no esquema de classificação de Nicómaco (60 - 120 d.C.) para os números inteiros positivos.",
+  "exercise:perfect-numbers:source": "Retirado do Capítulo 2 de Functional Thinking, de Neal Ford."
 }
