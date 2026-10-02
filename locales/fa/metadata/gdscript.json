@@ -113,5 +113,8 @@
   "exercise:matching-brackets:source": "Ginna Baker",
   "exercise:food-chain:name": "زنجیره‌ی غذایی",
   "exercise:food-chain:blurb": "متن ترانه‌ی «I Know an Old Lady Who Swallowed a Fly» را تولید کنید.",
-  "exercise:food-chain:source": "Wikipedia"
+  "exercise:food-chain:source": "Wikipedia",
+  "exercise:series:name": "دنباله",
+  "exercise:series:blurb": "اگر رشته‌ای از رقم‌ها داده شود، همه‌ی زیررشته‌های به‌هم‌پیوسته با طول `n` را در آن رشته خروجی بدهید.",
+  "exercise:series:source": "زیرمجموعه‌ای از مسئله‌ی ۸ در Project Euler"
 }

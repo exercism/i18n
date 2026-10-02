@@ -113,5 +113,8 @@
   "doc:resources:blurb": "Eine Sammlung nützlicher Ressourcen, mit denen du GDScript meistern kannst",
   "exercise:food-chain:name": "Nahrungskette",
   "exercise:food-chain:blurb": "Erzeuge den Liedtext des Songs „I Know an Old Lady Who Swallowed a Fly“.",
-  "exercise:food-chain:source": "Wikipedia"
+  "exercise:food-chain:source": "Wikipedia",
+  "exercise:series:name": "Serien",
+  "exercise:series:blurb": "Gib für einen String aus Ziffern alle zusammenhängenden Teilstrings der Länge `n` aus.",
+  "exercise:series:source": "Eine Teilmenge von Problem 8 bei Project Euler"
 }

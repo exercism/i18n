@@ -113,5 +113,8 @@
   "exercise:matching-brackets:source": "Ginna Baker",
   "exercise:food-chain:name": "Tápláléklánc",
   "exercise:food-chain:blurb": "Generáld az „I Know an Old Lady Who Swallowed a Fly” dal szövegét.",
-  "exercise:food-chain:source": "Wikipedia"
+  "exercise:food-chain:source": "Wikipedia",
+  "exercise:series:name": "Sorozat",
+  "exercise:series:blurb": "Egy számjegyekből álló string esetén add ki az összes `n` hosszú, összefüggő részstringet.",
+  "exercise:series:source": "A Project Euler 8. feladatának egy részhalmaza"
 }

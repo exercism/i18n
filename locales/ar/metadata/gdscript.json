@@ -113,5 +113,8 @@
   "exercise:matching-brackets:source": "Ginna Baker",
   "exercise:food-chain:name": "السلسلة الغذائية",
   "exercise:food-chain:blurb": "ولّد كلمات أغنية 'I Know an Old Lady Who Swallowed a Fly'.",
-  "exercise:food-chain:source": "ويكيبيديا"
+  "exercise:food-chain:source": "ويكيبيديا",
+  "exercise:series:name": "المتسلسلة",
+  "exercise:series:blurb": "بمعلومية سلسلة نصية من الأرقام، أخرج جميع السلاسل النصية الفرعية المتلاصقة ذات الطول `n` في تلك السلسلة النصية.",
+  "exercise:series:source": "مجموعة فرعية من المسألة 8 في Project Euler"
 }

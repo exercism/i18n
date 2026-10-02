@@ -113,5 +113,8 @@
   "doc:resources:blurb": "一系列實用資源，幫助你精通 GDScript",
   "exercise:food-chain:name": "食物鏈",
   "exercise:food-chain:blurb": "生成歌曲「I Know an Old Lady Who Swallowed a Fly」的歌詞。",
-  "exercise:food-chain:source": "Wikipedia"
+  "exercise:food-chain:source": "Wikipedia",
+  "exercise:series:name": "序列",
+  "exercise:series:blurb": "給定一串數字，輸出該字串中所有長度為`n`的連續子字串。",
+  "exercise:series:source": "Project Euler 第 8 題的子集。"
 }

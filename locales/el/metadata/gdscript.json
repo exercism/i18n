@@ -113,5 +113,8 @@
   "exercise:matching-brackets:source": "Ginna Baker",
   "exercise:food-chain:name": "Τροφική Αλυσίδα",
   "exercise:food-chain:blurb": "Δημιούργησε τους στίχους του τραγουδιού \"I Know an Old Lady Who Swallowed a Fly\".",
-  "exercise:food-chain:source": "Wikipedia"
+  "exercise:food-chain:source": "Wikipedia",
+  "exercise:series:name": "Σειρές",
+  "exercise:series:blurb": "Με δεδομένη μια συμβολοσειρά ψηφίων, δώσε όλες τις συνεχόμενες υποσυμβολοσειρές μήκους `n` μέσα σε αυτή τη συμβολοσειρά.",
+  "exercise:series:source": "Ένα υποσύνολο του Προβλήματος 8 στο Project Euler"
 }

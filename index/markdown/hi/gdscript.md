@@ -137,6 +137,10 @@ This page is generated from [the index](../../json/hi/gdscript.json) by `scripts
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/scale-generator/.docs/instructions.md)): [Latest](../../../locales/hi/content/eb/b7/debc7636b1656892b7cd9783e4fd91775c26.md)
 
+### Series (श्रेणी)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/series/.docs/instructions.md)): [Latest](../../../locales/hi/content/fd/97/a6706a66b377147ae91d1495db35a1b291e8.md)
+
 ### Space Age (अंतरिक्ष युग)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/space-age/.docs/instructions.md)): [Latest](../../../locales/hi/content/f2/3b/5e2c1fee01d8283d5399594d9324bd35e2f4.md)

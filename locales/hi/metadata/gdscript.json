@@ -113,5 +113,8 @@
   "exercise:matching-brackets:source": "Ginna Baker",
   "exercise:food-chain:name": "खाद्य श्रृंखला",
   "exercise:food-chain:blurb": "गीत 'I Know an Old Lady Who Swallowed a Fly' के बोल बनाइए।",
-  "exercise:food-chain:source": "Wikipedia"
+  "exercise:food-chain:source": "Wikipedia",
+  "exercise:series:name": "श्रेणी",
+  "exercise:series:blurb": "अंकों की एक स्ट्रिंग दी गई है; उसमें लंबाई `n` वाले सभी क्रमागत सबस्ट्रिंग आउटपुट कीजिए।",
+  "exercise:series:source": "Project Euler पर Problem 8 का एक उपसमूह"
 }

@@ -113,5 +113,8 @@
   "exercise:matching-brackets:source": "Ginna Baker",
   "exercise:food-chain:name": "খাদ্য শৃঙ্খল",
   "exercise:food-chain:blurb": "'I Know an Old Lady Who Swallowed a Fly' গানটির লিরিক তৈরি করুন।",
-  "exercise:food-chain:source": "Wikipedia"
+  "exercise:food-chain:source": "Wikipedia",
+  "exercise:series:name": "সিরিজ",
+  "exercise:series:blurb": "সংখ্যার একটি স্ট্রিং দেওয়া থাকলে সেই স্ট্রিংয়ের ভেতরে `n` দৈর্ঘ্যের সব সংলগ্ন সাবস্ট্রিং আউটপুট দিন।",
+  "exercise:series:source": "Project Euler-এর Problem 8-এর একটি উপসেট।"
 }

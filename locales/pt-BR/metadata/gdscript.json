@@ -113,5 +113,8 @@
   "exercise:matching-brackets:source": "Ginna Baker",
   "exercise:food-chain:name": "Cadeia alimentar",
   "exercise:food-chain:blurb": "Gere a letra da música 'I Know an Old Lady Who Swallowed a Fly'.",
-  "exercise:food-chain:source": "Wikipedia"
+  "exercise:food-chain:source": "Wikipedia",
+  "exercise:series:name": "Séries",
+  "exercise:series:blurb": "Dada uma string de dígitos, retorne todas as substrings contíguas de comprimento `n` nessa string.",
+  "exercise:series:source": "Um subconjunto do Problema 8 do Project Euler"
 }

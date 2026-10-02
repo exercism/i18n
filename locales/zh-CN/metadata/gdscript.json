@@ -113,5 +113,8 @@
   "exercise:matching-brackets:source": "Ginna Baker",
   "exercise:food-chain:name": "食物链",
   "exercise:food-chain:blurb": "生成歌曲《I Know an Old Lady Who Swallowed a Fly》的歌词。",
-  "exercise:food-chain:source": "Wikipedia"
+  "exercise:food-chain:source": "Wikipedia",
+  "exercise:series:name": "数列",
+  "exercise:series:blurb": "给定一个由数字组成的字符串，输出其中所有长度为`n`的连续子串。",
+  "exercise:series:source": "Project Euler 第 8 题的一个子集"
 }

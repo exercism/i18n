@@ -113,5 +113,8 @@
   "exercise:matching-brackets:source": "Ginna Baker",
   "exercise:food-chain:name": "먹이 사슬",
   "exercise:food-chain:blurb": "'I Know an Old Lady Who Swallowed a Fly'라는 노래의 가사를 만들어요.",
-  "exercise:food-chain:source": "Wikipedia"
+  "exercise:food-chain:source": "Wikipedia",
+  "exercise:series:name": "수열",
+  "exercise:series:blurb": "숫자 문자열이 주어지면, 그 문자열에서 길이가 `n`인 모든 연속 부분 문자열을 출력해요.",
+  "exercise:series:source": "Project Euler Problem 8의 일부"
 }
