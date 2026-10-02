@@ -755,7 +755,8 @@ This page is generated from [the index](../../json/el/go.json) by `scripts/build
 ### Chessboard (Σκακιέρα)
 
 - `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/chessboard/.docs/instructions.md)): [Latest](../../../locales/el/content/76/01/2e7b710b9cdbd764ebfd776d21bb248f8213.md)
-- `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/chessboard/.docs/introduction.md)): [Latest](../../../locales/el/content/d9/a2/36e95f4f9c6c5a51215e09d3e0e445a525e3.md)
+- `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/chessboard/.docs/introduction.md)): [Latest](../../../locales/el/content/95/8e/3657803bbf9ca5d7349f5315a4c7911d562a.md)
+  - [`d9a236e95f`](../../../locales/el/content/d9/a2/36e95f4f9c6c5a51215e09d3e0e445a525e3.md)
 - `hints.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/chessboard/.docs/hints.md)): [Latest](../../../locales/el/content/96/db/287d310080c466b89978c2ab6ec043e2cc01.md)
 
 ### Deep Thought (Βαθιά Σκέψη)
@@ -1048,8 +1049,10 @@ This page is generated from [the index](../../json/el/go.json) by `scripts/build
 
 ### Type Definitions (Ορισμοί τύπων)
 
-- `introduction.md` ([English](https://github.com/exercism/go/blob/main/concepts/type-definitions/introduction.md)): [Latest](../../../locales/el/content/a3/0f/8ae4f2bded5b68600c439c7e0fc008a263b6.md)
-- `about.md` ([English](https://github.com/exercism/go/blob/main/concepts/type-definitions/about.md)): [Latest](../../../locales/el/content/ec/ec/2f654ba3f2b4e3ac118c2783c1f5b777aca9.md)
+- `introduction.md` ([English](https://github.com/exercism/go/blob/main/concepts/type-definitions/introduction.md)): [Latest](../../../locales/el/content/9c/5b/d9d5611422fd7b62b34501cb3a37123bae1a.md)
+  - [`a30f8ae4f2`](../../../locales/el/content/a3/0f/8ae4f2bded5b68600c439c7e0fc008a263b6.md)
+- `about.md` ([English](https://github.com/exercism/go/blob/main/concepts/type-definitions/about.md)): [Latest](../../../locales/el/content/65/de/8473f1291a3b7d3b7ea352be3df55e26124b.md)
+  - [`ecec2f654b`](../../../locales/el/content/ec/ec/2f654ba3f2b4e3ac118c2783c1f5b777aca9.md)
 
 ### Variables (Μεταβλητές)
 

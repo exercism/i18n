@@ -510,7 +510,7 @@
   "concept:time:blurb": "تعلّم كيفية التعامل مع الأوقات والتواريخ في Go.",
   "concept:type-assertion:blurb": "استخدم تأكيدات النوع للوصول إلى القيمة الملموسة الكامنة في قيمة الواجهة.",
   "concept:type-conversion:blurb": "يتطلب Go تحويلًا صريحًا بين الأنواع المختلفة.",
-  "concept:type-definitions:blurb": "يسمح لك Go بتعريف أنواع مخصصة.",
+  "concept:type-definitions:blurb": "عرّف أنواعًا جديدة مسمّاة وأسماء بديلة للأنواع.",
   "concept:zero-values:blurb": "تستخدم المتغيرات المعرّفة بدون إسناد القيمة الصفرية لنوعها.",
   "concept:comparison:blurb": "قارن القيم باستخدام عوامل المساواة والترتيب في Go.",
   "concept:pointers:blurb": "تحتفظ المؤشرات بعنوان الذاكرة الخاص بقيمة ما.",

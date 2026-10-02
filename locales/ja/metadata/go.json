@@ -510,7 +510,7 @@
   "concept:time:blurb": "Goで時刻と日付を扱う方法を学びます。",
   "concept:type-assertion:blurb": "型アサーションを使うと、インターフェース値の背後にある具体的な値にアクセスできます。",
   "concept:type-conversion:blurb": "Goでは、異なる型の間で明示的な変換が必要です。",
-  "concept:type-definitions:blurb": "Goでは、独自の型を定義できます。",
+  "concept:type-definitions:blurb": "新しい名前付き型と型エイリアスを定義します。",
   "concept:zero-values:blurb": "代入せずに宣言された変数は、その型のゼロ値になります。",
   "concept:comparison:blurb": "Goの等価演算子と順序演算子を使って値を比較します。",
   "concept:pointers:blurb": "ポインターは、値のメモリアドレスを保持します。",

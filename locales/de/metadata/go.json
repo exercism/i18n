@@ -510,7 +510,7 @@
   "concept:time:blurb": "Lerne, wie du in Go mit Uhrzeiten und Datumsangaben arbeitest.",
   "concept:type-assertion:blurb": "Mit Type Assertions greifst du auf den zugrunde liegenden konkreten Wert eines Interface-Werts zu.",
   "concept:type-conversion:blurb": "Go erfordert eine explizite Konvertierung zwischen verschiedenen Typen.",
-  "concept:type-definitions:blurb": "Go ermöglicht es dir, eigene Typen zu definieren.",
+  "concept:type-definitions:blurb": "Definiere neue benannte Typen und Typaliase.",
   "concept:zero-values:blurb": "Variablen, die ohne Zuweisung deklariert werden, verwenden den Nullwert ihres Typs.",
   "concept:comparison:blurb": "Vergleiche Werte mit den Gleichheits- und Ordnungsoperatoren von Go.",
   "concept:pointers:blurb": "Pointer speichern die Speicheradresse eines Werts.",

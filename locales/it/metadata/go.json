@@ -510,7 +510,7 @@
   "concept:time:blurb": "Impara a lavorare con orari e date in Go.",
   "concept:type-assertion:blurb": "Usa le type assertion per accedere al valore concreto sottostante di un valore di interfaccia.",
   "concept:type-conversion:blurb": "Go richiede una conversione esplicita tra tipi diversi.",
-  "concept:type-definitions:blurb": "Go permette di definire tipi personalizzati.",
+  "concept:type-definitions:blurb": "Definisci nuovi tipi denominati e alias di tipo.",
   "concept:zero-values:blurb": "Le variabili dichiarate senza un'assegnazione usano il valore zero del loro tipo.",
   "concept:comparison:blurb": "Confronta i valori usando gli operatori di uguaglianza e di ordinamento di Go.",
   "concept:pointers:blurb": "I puntatori contengono l'indirizzo di memoria di un valore.",

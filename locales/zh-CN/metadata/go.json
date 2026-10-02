@@ -550,7 +550,7 @@
   "concept:time:blurb": "学习如何在 Go 中处理时间和日期。",
   "concept:type-assertion:blurb": "使用类型断言访问接口值的底层具体值。",
   "concept:type-conversion:blurb": "Go 要求在不同类型之间进行显式转换。",
-  "concept:type-definitions:blurb": "Go 允许你定义自定义类型。",
+  "concept:type-definitions:blurb": "定义新的具名类型和类型别名。",
   "concept:zero-values:blurb": "声明时未赋值的变量会使用其类型的零值。",
   "concept:comparison:blurb": "使用 Go 的相等和排序运算符来比较值。",
   "concept:pointers:blurb": "指针保存着值的内存地址。",

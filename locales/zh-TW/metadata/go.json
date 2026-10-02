@@ -510,7 +510,7 @@
   "concept:time:blurb": "學習如何在 Go 中處理時間與日期。",
   "concept:type-assertion:blurb": "使用型別斷言存取介面值底層的具體值。",
   "concept:type-conversion:blurb": "Go 要求在不同型別之間進行明確的轉換。",
-  "concept:type-definitions:blurb": "Go 允許你定義自訂型別。",
+  "concept:type-definitions:blurb": "定義新的具名型別與型別別名。",
   "concept:zero-values:blurb": "未經賦值就宣告的變數會使用其型別的零值。",
   "concept:comparison:blurb": "使用 Go 的相等與順序運算子來比較值。",
   "concept:pointers:blurb": "指標會保存某個值的記憶體位址。",

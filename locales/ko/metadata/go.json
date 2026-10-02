@@ -510,7 +510,7 @@
   "concept:time:blurb": "Go에서 시간과 날짜를 다루는 방법을 배워요.",
   "concept:type-assertion:blurb": "타입 단언을 사용하면 인터페이스 값의 실제 구체 값에 접근할 수 있어요.",
   "concept:type-conversion:blurb": "Go에서는 서로 다른 타입 사이의 변환을 명시적으로 해야 해요.",
-  "concept:type-definitions:blurb": "Go에서는 사용자 정의 타입을 정의할 수 있어요.",
+  "concept:type-definitions:blurb": "새로운 이름의 타입과 타입 별칭을 정의해요.",
   "concept:zero-values:blurb": "값을 할당하지 않고 선언한 변수는 해당 타입의 제로 값을 가져요.",
   "concept:comparison:blurb": "Go의 동등 연산자와 순서 연산자를 사용해 값을 비교해요.",
   "concept:pointers:blurb": "포인터는 값의 메모리 주소를 담고 있어요.",

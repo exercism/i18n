@@ -512,7 +512,7 @@
   "concept:time:blurb": "Tanuld meg, hogyan dolgozhatsz az időkkel és a dátumokkal Go-ban.",
   "concept:type-assertion:blurb": "Típus-állításokkal férhetsz hozzá egy interfészérték mögöttes konkrét értékéhez.",
   "concept:type-conversion:blurb": "A Go megköveteli a különböző típusok közötti explicit átalakítást.",
-  "concept:type-definitions:blurb": "A Go-ban saját típusokat definiálhatsz.",
+  "concept:type-definitions:blurb": "Definiálj új elnevezett típusokat és típusaliasokat.",
   "concept:zero-values:blurb": "Az értékadás nélkül deklarált változók a típusuk nullaértékét kapják.",
   "concept:comparison:blurb": "Hasonlítsd össze az értékeket a Go egyenlőség- és relációs operátoraival.",
   "concept:pointers:blurb": "A pointerek egy érték memóriacímét tárolják.",
