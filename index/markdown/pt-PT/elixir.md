@@ -703,7 +703,8 @@ This page is generated from [the index](../../json/pt-PT/elixir.json) by `script
 
 ### Freelancer Rates (Tarifas de freelancer)
 
-- `instructions.md` ([English](https://github.com/exercism/elixir/blob/main/exercises/concept/freelancer-rates/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/bf/ef/e79a53ffe07b8b10c0c7d8f8df147f6ca9a6.md)
+- `instructions.md` ([English](https://github.com/exercism/elixir/blob/main/exercises/concept/freelancer-rates/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/88/9f/691149f9e0a35aae497fa4580c908e25c9c3.md)
+  - [`bfefe79a53`](../../../locales/pt-PT/content/bf/ef/e79a53ffe07b8b10c0c7d8f8df147f6ca9a6.md)
 - `introduction.md` ([English](https://github.com/exercism/elixir/blob/main/exercises/concept/freelancer-rates/.docs/introduction.md)): [Latest](../../../locales/pt-PT/content/81/4f/a4591937d044995d3d60b80477090aaa85c0.md)
 - `hints.md` ([English](https://github.com/exercism/elixir/blob/main/exercises/concept/freelancer-rates/.docs/hints.md)): [Latest](../../../locales/pt-PT/content/f8/6d/948557060353e4febfafb8745834098c1913.md)
 
