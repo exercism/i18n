@@ -110,5 +110,8 @@
   "exercise:etl:source": "Basado en un ejercicio del equipo de JumpstartLab para estudiantes de The Turing School of Software and Design.",
   "exercise:matching-brackets:name": "Paréntesis balanceados",
   "exercise:matching-brackets:blurb": "Asegúrate de que los paréntesis y las llaves coincidan.",
-  "exercise:matching-brackets:source": "Ginna Baker"
+  "exercise:matching-brackets:source": "Ginna Baker",
+  "exercise:food-chain:name": "Cadena alimenticia",
+  "exercise:food-chain:blurb": "Genera la letra de la canción «I Know an Old Lady Who Swallowed a Fly».",
+  "exercise:food-chain:source": "Wikipedia"
 }

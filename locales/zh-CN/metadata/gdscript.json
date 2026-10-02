@@ -110,5 +110,8 @@
   "exercise:etl:source": "基于 JumpstartLab 团队为 The Turing School of Software and Design 的学生编写的一道练习。",
   "exercise:matching-brackets:name": "匹配括号",
   "exercise:matching-brackets:blurb": "确保括号和大括号都能正确匹配。",
-  "exercise:matching-brackets:source": "Ginna Baker"
+  "exercise:matching-brackets:source": "Ginna Baker",
+  "exercise:food-chain:name": "食物链",
+  "exercise:food-chain:blurb": "生成歌曲《I Know an Old Lady Who Swallowed a Fly》的歌词。",
+  "exercise:food-chain:source": "Wikipedia"
 }

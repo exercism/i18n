@@ -110,5 +110,8 @@
   "doc:tests:title": "Tests auf dem GDScript-Track",
   "doc:tests:blurb": "Lerne, wie du deine GDScript-Übungen auf Exercism testest",
   "doc:resources:title": "Nützliche GDScript-Ressourcen",
-  "doc:resources:blurb": "Eine Sammlung nützlicher Ressourcen, mit denen du GDScript meistern kannst"
+  "doc:resources:blurb": "Eine Sammlung nützlicher Ressourcen, mit denen du GDScript meistern kannst",
+  "exercise:food-chain:name": "Nahrungskette",
+  "exercise:food-chain:blurb": "Erzeuge den Liedtext des Songs „I Know an Old Lady Who Swallowed a Fly“.",
+  "exercise:food-chain:source": "Wikipedia"
 }

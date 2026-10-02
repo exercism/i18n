@@ -110,5 +110,8 @@
   "exercise:etl:source": "A JumpstartLab csapatának feladatán alapul, amelyet a The Turing School of Software and Design tanulói számára készítettek.",
   "exercise:matching-brackets:name": "Zárójelpárosítás",
   "exercise:matching-brackets:blurb": "Ügyelj rá, hogy minden zárójel és kapcsos zárójel párosuljon.",
-  "exercise:matching-brackets:source": "Ginna Baker"
+  "exercise:matching-brackets:source": "Ginna Baker",
+  "exercise:food-chain:name": "Tápláléklánc",
+  "exercise:food-chain:blurb": "Generáld az „I Know an Old Lady Who Swallowed a Fly” dal szövegét.",
+  "exercise:food-chain:source": "Wikipedia"
 }

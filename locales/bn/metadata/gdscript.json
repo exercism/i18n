@@ -110,5 +110,8 @@
   "exercise:etl:source": "The Turing School of Software and Design-এর শিক্ষার্থীদের জন্য JumpstartLab টিমের তৈরি একটি অনুশীলনীর উপর ভিত্তি করে।",
   "exercise:matching-brackets:name": "বন্ধনী মেলানো",
   "exercise:matching-brackets:blurb": "বন্ধনী ও ব্রেস সব ঠিকঠাক মিলছে কি না, তা নিশ্চিত করুন।",
-  "exercise:matching-brackets:source": "Ginna Baker"
+  "exercise:matching-brackets:source": "Ginna Baker",
+  "exercise:food-chain:name": "খাদ্য শৃঙ্খল",
+  "exercise:food-chain:blurb": "'I Know an Old Lady Who Swallowed a Fly' গানটির লিরিক তৈরি করুন।",
+  "exercise:food-chain:source": "Wikipedia"
 }

@@ -110,5 +110,8 @@
   "exercise:etl:source": "Basato su un esercizio del team JumpstartLab per gli studenti della Turing School of Software and Design.",
   "exercise:matching-brackets:name": "Parentesi corrispondenti",
   "exercise:matching-brackets:blurb": "Assicurati che le parentesi e le graffe siano tutte corrispondenti.",
-  "exercise:matching-brackets:source": "Ginna Baker"
+  "exercise:matching-brackets:source": "Ginna Baker",
+  "exercise:food-chain:name": "Catena alimentare",
+  "exercise:food-chain:blurb": "Genera il testo della canzone «I Know an Old Lady Who Swallowed a Fly».",
+  "exercise:food-chain:source": "Wikipedia"
 }

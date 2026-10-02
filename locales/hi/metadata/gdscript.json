@@ -110,5 +110,8 @@
   "exercise:etl:source": "The Turing School of Software and Design के छात्रों के लिए JumpstartLab टीम द्वारा बनाए गए एक अभ्यास पर आधारित।",
   "exercise:matching-brackets:name": "ब्रैकेट का मिलान",
   "exercise:matching-brackets:blurb": "ध्यान रखिए कि सारे ब्रैकेट और ब्रेस आपस में मेल खाएँ।",
-  "exercise:matching-brackets:source": "Ginna Baker"
+  "exercise:matching-brackets:source": "Ginna Baker",
+  "exercise:food-chain:name": "खाद्य श्रृंखला",
+  "exercise:food-chain:blurb": "गीत 'I Know an Old Lady Who Swallowed a Fly' के बोल बनाइए।",
+  "exercise:food-chain:source": "Wikipedia"
 }

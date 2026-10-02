@@ -63,6 +63,10 @@ This page is generated from [the index](../../json/es-ES/gdscript.json) by `scri
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/flatten-array/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/b5/b8/2713d928a59e350e468d35c4ee92d49316cf.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/flatten-array/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/a3/14/857465e75cc95c88b634ddd355f7393888ad.md)
 
+### Food Chain (Cadena alimentaria)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/food-chain/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/12/58/20e321bd07292c3a17dc8b57a7a2cff09245.md)
+
 ### Hamming
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/hamming/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/8f/47/a179e01a680d8d8311f0a54ba239c9982431.md)

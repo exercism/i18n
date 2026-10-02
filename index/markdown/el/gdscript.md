@@ -67,6 +67,10 @@ This page is generated from [the index](../../json/el/gdscript.json) by `scripts
   - [`51bea67909`](../../../locales/el/content/51/be/a67909f879fe54d8ec2ee70c146ee6ba8f61.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/flatten-array/.docs/introduction.md)): [Latest](../../../locales/el/content/a3/14/857465e75cc95c88b634ddd355f7393888ad.md)
 
+### Food Chain (Τροφική Αλυσίδα)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/food-chain/.docs/instructions.md)): [Latest](../../../locales/el/content/12/58/20e321bd07292c3a17dc8b57a7a2cff09245.md)
+
 ### Hamming
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/hamming/.docs/instructions.md)): [Latest](../../../locales/el/content/8f/47/a179e01a680d8d8311f0a54ba239c9982431.md)

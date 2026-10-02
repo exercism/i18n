@@ -110,5 +110,8 @@
   "exercise:etl:source": "The Turing School of Software and Designの学生向けにJumpstartLabチームが作成した演習をもとにしています。",
   "exercise:matching-brackets:name": "括弧の対応",
   "exercise:matching-brackets:blurb": "括弧と波括弧がすべて対応しているか確認します。",
-  "exercise:matching-brackets:source": "Ginna Baker"
+  "exercise:matching-brackets:source": "Ginna Baker",
+  "exercise:food-chain:name": "食物連鎖",
+  "exercise:food-chain:blurb": "『I Know an Old Lady Who Swallowed a Fly』という歌の歌詞を生成します。",
+  "exercise:food-chain:source": "Wikipedia"
 }

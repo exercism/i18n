@@ -110,5 +110,8 @@
   "exercise:etl:source": "Baseado em um exercício da equipe JumpstartLab para estudantes da The Turing School of Software and Design.",
   "exercise:matching-brackets:name": "Brackets Correspondentes",
   "exercise:matching-brackets:blurb": "Certifique-se de que todos os brackets e chaves formem pares.",
-  "exercise:matching-brackets:source": "Ginna Baker"
+  "exercise:matching-brackets:source": "Ginna Baker",
+  "exercise:food-chain:name": "Cadeia alimentar",
+  "exercise:food-chain:blurb": "Gere a letra da música 'I Know an Old Lady Who Swallowed a Fly'.",
+  "exercise:food-chain:source": "Wikipedia"
 }

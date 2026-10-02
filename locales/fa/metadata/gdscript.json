@@ -110,5 +110,8 @@
   "exercise:etl:source": "برگرفته از تمرینی از تیم JumpstartLab برای دانشجویان The Turing School of Software and Design.",
   "exercise:matching-brackets:name": "تطبیق پرانتزها",
   "exercise:matching-brackets:blurb": "مطمئن شوید که پرانتزها و آکولادها همه با هم جفت می‌شوند.",
-  "exercise:matching-brackets:source": "Ginna Baker"
+  "exercise:matching-brackets:source": "Ginna Baker",
+  "exercise:food-chain:name": "زنجیره‌ی غذایی",
+  "exercise:food-chain:blurb": "متن ترانه‌ی «I Know an Old Lady Who Swallowed a Fly» را تولید کنید.",
+  "exercise:food-chain:source": "Wikipedia"
 }

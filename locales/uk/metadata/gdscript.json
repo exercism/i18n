@@ -110,5 +110,8 @@
   "exercise:etl:source": "На основі вправи команди JumpstartLab для студентів The Turing School of Software and Design.",
   "exercise:matching-brackets:name": "Збіг дужок",
   "exercise:matching-brackets:blurb": "Переконайтеся, що дужки та фігурні дужки збігаються.",
-  "exercise:matching-brackets:source": "Ginna Baker"
+  "exercise:matching-brackets:source": "Ginna Baker",
+  "exercise:food-chain:name": "Харчовий ланцюг",
+  "exercise:food-chain:blurb": "Згенеруйте слова пісні «I Know an Old Lady Who Swallowed a Fly».",
+  "exercise:food-chain:source": "Wikipedia"
 }
