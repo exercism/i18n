@@ -50,10 +50,10 @@
   },
   "paths": {
     "docs/ABOUT.md": ["d1aa51def39e63dd7f98e42b98342255cb52ac8f","e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"],
-    "docs/INSTALLATION.md": ["071042c67819a198e0c2a85aefe2f0cce37076bc","e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"],
-    "docs/LEARNING.md": ["1c9b5171194b8a212005879b391d23acb9d8b7f8"],
+    "docs/INSTALLATION.md": ["795bfef932bb939ca816ea351628fcdc48a23516","071042c67819a198e0c2a85aefe2f0cce37076bc","e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"],
+    "docs/LEARNING.md": ["f5283a8dcab3b9cf4f038666211058563e281d8e","1c9b5171194b8a212005879b391d23acb9d8b7f8"],
     "docs/RESOURCES.md": ["ad326d3585de712df1348dd657eb36b7bb0e624a","e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"],
-    "docs/TESTS.md": ["fd79c0c90470a018e9b9800744763322abb88136","e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"],
+    "docs/TESTS.md": ["dfafd5de694afb068d05aba4761ad2027ee0b6d6","fd79c0c90470a018e9b9800744763322abb88136","e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"],
     "exercises/practice/accumulate/.docs/instructions.md": ["c25a03fab188a59dda0ae9d9d30d1add28585ea0","435e0b3246950084d4940bdf4bd741259dce3165"],
     "exercises/practice/acronym/.docs/instructions.md": ["133bd2cbb78d186c92e5d2b8ca41cf13f77d6bea","e0515b4d1d8a82e331ca4a3439ce1494b58fee1e"],
     "exercises/practice/affine-cipher/.docs/instructions.md": ["1603dbbce91dee78f8c1520ceb8bc96c6dc9528a","f6329db93698c3acd110ab970d9db0221e13ceb4","4eff918de78a6802897690f4044259301d140dfa"],
@@ -129,7 +129,7 @@
     "exercises/practice/word-count/.docs/instructions.md": ["064393c8a0f68810d215d0bec650f9cab19953b5"],
     "exercises/practice/word-count/.docs/introduction.md": ["1654508e79dc91420825d8a1a9818089e4167f70"],
     "exercises/shared/.docs/help.md": ["6200e2960701107e903f056aa77673fe9695cb27"],
-    "exercises/shared/.docs/tests.md": ["50d5d042ae7f81f8cec3bb6c6485e362d0797fc1"]
+    "exercises/shared/.docs/tests.md": ["7d86ee99f8bc43b9ba373999607efd84a343b171","50d5d042ae7f81f8cec3bb6c6485e362d0797fc1"]
   },
   "repo": "scheme"
 }

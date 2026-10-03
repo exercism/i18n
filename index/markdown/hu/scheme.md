@@ -257,16 +257,19 @@ This page is generated from [the index](../../json/hu/scheme.json) by `scripts/b
 
 ### How to learn Scheme (Hogyan tanulj Scheme-et?)
 
-- `LEARNING.md` ([English](https://github.com/exercism/scheme/blob/main/docs/LEARNING.md)): [Latest](../../../locales/hu/content/1c/9b/5171194b8a212005879b391d23acb9d8b7f8.md)
+- `LEARNING.md` ([English](https://github.com/exercism/scheme/blob/main/docs/LEARNING.md)): [Latest](../../../locales/hu/content/f5/28/3a8dcab3b9cf4f038666211058563e281d8e.md)
+  - [`1c9b517119`](../../../locales/hu/content/1c/9b/5171194b8a212005879b391d23acb9d8b7f8.md)
 
 ### Installing Scheme locally (A Scheme telepítése helyben)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/scheme/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/hu/content/07/10/42c67819a198e0c2a85aefe2f0cce37076bc.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/scheme/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/hu/content/79/5b/fef932bb939ca816ea351628fcdc48a23516.md)
+  - [`071042c678`](../../../locales/hu/content/07/10/42c67819a198e0c2a85aefe2f0cce37076bc.md)
   - [`e69de29bb2`](../../../locales/hu/content/e6/9d/e29bb2d1d6434b8b29ae775ad8c2e48c5391.md)
 
 ### Testing on the Scheme track (Tesztelés a Scheme-kurzuson)
 
-- `TESTS.md` ([English](https://github.com/exercism/scheme/blob/main/docs/TESTS.md)): [Latest](../../../locales/hu/content/fd/79/c0c90470a018e9b9800744763322abb88136.md)
+- `TESTS.md` ([English](https://github.com/exercism/scheme/blob/main/docs/TESTS.md)): [Latest](../../../locales/hu/content/df/af/d5de694afb068d05aba4761ad2027ee0b6d6.md)
+  - [`fd79c0c904`](../../../locales/hu/content/fd/79/c0c90470a018e9b9800744763322abb88136.md)
   - [`e69de29bb2`](../../../locales/hu/content/e6/9d/e29bb2d1d6434b8b29ae775ad8c2e48c5391.md)
 
 ### Useful Scheme resources (Hasznos Scheme-források)
@@ -282,4 +285,5 @@ This page is generated from [the index](../../json/hu/scheme.json) by `scripts/b
 
 ### tests.md
 
-- `tests.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/hu/content/50/d5/d042ae7f81f8cec3bb6c6485e362d0797fc1.md)
+- `tests.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/hu/content/7d/86/ee99f8bc43b9ba373999607efd84a343b171.md)
+  - [`50d5d042ae`](../../../locales/hu/content/50/d5/d042ae7f81f8cec3bb6c6485e362d0797fc1.md)

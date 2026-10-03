@@ -220,15 +220,18 @@ This page is generated from [the index](../../json/es-ES/scheme.json) by `script
 
 ### How to learn Scheme (Cómo aprender Scheme)
 
-- `LEARNING.md` ([English](https://github.com/exercism/scheme/blob/main/docs/LEARNING.md)): [Latest](../../../locales/es-ES/content/1c/9b/5171194b8a212005879b391d23acb9d8b7f8.md)
+- `LEARNING.md` ([English](https://github.com/exercism/scheme/blob/main/docs/LEARNING.md)): [Latest](../../../locales/es-ES/content/f5/28/3a8dcab3b9cf4f038666211058563e281d8e.md)
+  - [`1c9b517119`](../../../locales/es-ES/content/1c/9b/5171194b8a212005879b391d23acb9d8b7f8.md)
 
 ### Installing Scheme locally (Instalar Scheme en tu ordenador)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/scheme/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/es-ES/content/07/10/42c67819a198e0c2a85aefe2f0cce37076bc.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/scheme/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/es-ES/content/79/5b/fef932bb939ca816ea351628fcdc48a23516.md)
+  - [`071042c678`](../../../locales/es-ES/content/07/10/42c67819a198e0c2a85aefe2f0cce37076bc.md)
 
 ### Testing on the Scheme track (Cómo hacer tests en la pista de Scheme)
 
-- `TESTS.md` ([English](https://github.com/exercism/scheme/blob/main/docs/TESTS.md)): [Latest](../../../locales/es-ES/content/fd/79/c0c90470a018e9b9800744763322abb88136.md)
+- `TESTS.md` ([English](https://github.com/exercism/scheme/blob/main/docs/TESTS.md)): [Latest](../../../locales/es-ES/content/df/af/d5de694afb068d05aba4761ad2027ee0b6d6.md)
+  - [`fd79c0c904`](../../../locales/es-ES/content/fd/79/c0c90470a018e9b9800744763322abb88136.md)
 
 ### Useful Scheme resources (Recursos útiles para Scheme)
 
@@ -242,4 +245,5 @@ This page is generated from [the index](../../json/es-ES/scheme.json) by `script
 
 ### tests.md
 
-- `tests.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/es-ES/content/50/d5/d042ae7f81f8cec3bb6c6485e362d0797fc1.md)
+- `tests.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/es-ES/content/7d/86/ee99f8bc43b9ba373999607efd84a343b171.md)
+  - [`50d5d042ae`](../../../locales/es-ES/content/50/d5/d042ae7f81f8cec3bb6c6485e362d0797fc1.md)

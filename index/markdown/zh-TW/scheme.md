@@ -220,15 +220,18 @@ This page is generated from [the index](../../json/zh-TW/scheme.json) by `script
 
 ### How to learn Scheme (如何學習 Scheme)
 
-- `LEARNING.md` ([English](https://github.com/exercism/scheme/blob/main/docs/LEARNING.md)): [Latest](../../../locales/zh-TW/content/1c/9b/5171194b8a212005879b391d23acb9d8b7f8.md)
+- `LEARNING.md` ([English](https://github.com/exercism/scheme/blob/main/docs/LEARNING.md)): [Latest](../../../locales/zh-TW/content/f5/28/3a8dcab3b9cf4f038666211058563e281d8e.md)
+  - [`1c9b517119`](../../../locales/zh-TW/content/1c/9b/5171194b8a212005879b391d23acb9d8b7f8.md)
 
 ### Installing Scheme locally (在本機安裝 Scheme)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/scheme/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/zh-TW/content/07/10/42c67819a198e0c2a85aefe2f0cce37076bc.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/scheme/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/zh-TW/content/79/5b/fef932bb939ca816ea351628fcdc48a23516.md)
+  - [`071042c678`](../../../locales/zh-TW/content/07/10/42c67819a198e0c2a85aefe2f0cce37076bc.md)
 
 ### Testing on the Scheme track (Scheme 軌道上的測試)
 
-- `TESTS.md` ([English](https://github.com/exercism/scheme/blob/main/docs/TESTS.md)): [Latest](../../../locales/zh-TW/content/fd/79/c0c90470a018e9b9800744763322abb88136.md)
+- `TESTS.md` ([English](https://github.com/exercism/scheme/blob/main/docs/TESTS.md)): [Latest](../../../locales/zh-TW/content/df/af/d5de694afb068d05aba4761ad2027ee0b6d6.md)
+  - [`fd79c0c904`](../../../locales/zh-TW/content/fd/79/c0c90470a018e9b9800744763322abb88136.md)
 
 ### Useful Scheme resources (實用的 Scheme 資源)
 
@@ -242,4 +245,5 @@ This page is generated from [the index](../../json/zh-TW/scheme.json) by `script
 
 ### tests.md
 
-- `tests.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/zh-TW/content/50/d5/d042ae7f81f8cec3bb6c6485e362d0797fc1.md)
+- `tests.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/zh-TW/content/7d/86/ee99f8bc43b9ba373999607efd84a343b171.md)
+  - [`50d5d042ae`](../../../locales/zh-TW/content/50/d5/d042ae7f81f8cec3bb6c6485e362d0797fc1.md)
