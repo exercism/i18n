@@ -375,5 +375,7 @@
   "doc:resources:title": "Risorse utili su Roc",
   "doc:resources:blurb": "Una raccolta di risorse utili per aiutarti a padroneggiare Roc",
   "exercise:bank-account:name": "Conto bancario",
-  "exercise:bank-account:blurb": "Simula un conto bancario che supporta aperture e chiusure, prelievi e depositi di denaro. Attenzione alle transazioni concorrenti!"
+  "exercise:bank-account:blurb": "Simula un conto bancario che supporta aperture e chiusure, prelievi e depositi di denaro. Attenzione alle transazioni concorrenti!",
+  "exercise:satellite:name": "Satellite",
+  "exercise:satellite:blurb": "Ricostruisci alberi binari dalle visite in pre-ordine e in ordine."
 }

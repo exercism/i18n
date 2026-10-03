@@ -442,6 +442,10 @@ This page is generated from [the index](../../json/fa/roc.json) by `scripts/buil
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/saddle-points/.docs/instructions.md)): [Latest](../../../locales/fa/content/f6/9c/dab9584a340834264ecee97cfd6df709cd21.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/saddle-points/.docs/introduction.md)): [Latest](../../../locales/fa/content/34/b2/c77e0cfd255425411a905ec311019c2d7375.md)
 
+### Satellite (ماهواره)
+
+- `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/satellite/.docs/instructions.md)): [Latest](../../../locales/fa/content/fb/bf/14f439558fa6451f8ebfac7253e0c9e12189.md)
+
 ### Save the Cow (گاو را نجات دهید)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/save-the-cow/.docs/instructions.md)): [Latest](../../../locales/fa/content/1e/c9/8a43a4245d184d048235e6b2792b0fcf8d59.md)

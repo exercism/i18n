@@ -375,5 +375,7 @@
   "doc:resources:title": "Nützliche Roc-Ressourcen",
   "doc:resources:blurb": "Eine Sammlung nützlicher Ressourcen, die dir helfen, Roc zu meistern",
   "exercise:bank-account:name": "Bankkonto",
-  "exercise:bank-account:blurb": "Simuliere ein Bankkonto, das Öffnen und Schließen, Abhebungen und Einzahlungen unterstützt. Vorsicht vor gleichzeitigen Transaktionen!"
+  "exercise:bank-account:blurb": "Simuliere ein Bankkonto, das Öffnen und Schließen, Abhebungen und Einzahlungen unterstützt. Vorsicht vor gleichzeitigen Transaktionen!",
+  "exercise:satellite:name": "Satellit",
+  "exercise:satellite:blurb": "Rekonstruiere Binärbäume aus Preorder- und Inorder-Durchläufen."
 }

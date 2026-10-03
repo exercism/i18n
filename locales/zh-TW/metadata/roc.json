@@ -375,5 +375,7 @@
   "doc:resources:title": "實用的 Roc 資源",
   "doc:resources:blurb": "一系列實用資源，幫助你精通 Roc",
   "exercise:bank-account:name": "銀行帳戶",
-  "exercise:bank-account:blurb": "模擬一個銀行帳戶，支援開戶／關戶、提款和存款。小心並行交易！"
+  "exercise:bank-account:blurb": "模擬一個銀行帳戶，支援開戶／關戶、提款和存款。小心並行交易！",
+  "exercise:satellite:name": "衛星",
+  "exercise:satellite:blurb": "根據前序與中序遍歷重建二元樹。"
 }

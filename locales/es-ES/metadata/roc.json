@@ -377,5 +377,7 @@
   "exercise:lens-person:name": "Persona con lentes",
   "exercise:lens-person:blurb": "Usa lentes para actualizar registros anidados (específico de lenguajes con datos inmutables).",
   "exercise:bank-account:name": "Cuenta bancaria",
-  "exercise:bank-account:blurb": "Simula una cuenta bancaria que permita abrirla y cerrarla, retirar y depositar dinero. ¡Cuidado con las transacciones concurrentes!"
+  "exercise:bank-account:blurb": "Simula una cuenta bancaria que permita abrirla y cerrarla, retirar y depositar dinero. ¡Cuidado con las transacciones concurrentes!",
+  "exercise:satellite:name": "Satélite",
+  "exercise:satellite:blurb": "Reconstruye árboles binarios a partir de recorridos en preorden y en inorden."
 }
