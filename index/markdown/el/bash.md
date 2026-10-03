@@ -558,7 +558,8 @@ This page is generated from [the index](../../json/el/bash.json) by `scripts/bui
 
 ### Useful Bash resources (Χρήσιμοι πόροι για τη Bash)
 
-- `RESOURCES.md` ([English](https://github.com/exercism/bash/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/el/content/69/28/4bd422f9e7357960f2592f5812a381db20a0.md)
+- `RESOURCES.md` ([English](https://github.com/exercism/bash/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/el/content/9c/63/ab9380e34ba74717b64d193216203eb9dbc8.md)
+  - [`69284bd422`](../../../locales/el/content/69/28/4bd422f9e7357960f2592f5812a381db20a0.md)
 
 ## Shared exercise docs
 

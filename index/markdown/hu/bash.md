@@ -646,7 +646,8 @@ This page is generated from [the index](../../json/hu/bash.json) by `scripts/bui
 
 ### Useful Bash resources (Hasznos Bash-források)
 
-- `RESOURCES.md` ([English](https://github.com/exercism/bash/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/hu/content/69/28/4bd422f9e7357960f2592f5812a381db20a0.md)
+- `RESOURCES.md` ([English](https://github.com/exercism/bash/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/hu/content/9c/63/ab9380e34ba74717b64d193216203eb9dbc8.md)
+  - [`69284bd422`](../../../locales/hu/content/69/28/4bd422f9e7357960f2592f5812a381db20a0.md)
 
 ## Shared exercise docs
 
