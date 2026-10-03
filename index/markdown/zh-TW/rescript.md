@@ -174,7 +174,8 @@ This page is generated from [the index](../../json/zh-TW/rescript.json) by `scri
 
 ### Testing on the ReScript track (ReScript 軌道上的測試)
 
-- `TESTS.md` ([English](https://github.com/exercism/rescript/blob/main/docs/TESTS.md)): [Latest](../../../locales/zh-TW/content/e5/bc/c6943226f080327275e576300df64b08dcb2.md)
+- `TESTS.md` ([English](https://github.com/exercism/rescript/blob/main/docs/TESTS.md)): [Latest](../../../locales/zh-TW/content/bd/24/b5558598547ef74c0ff86de446046f5b98c6.md)
+  - [`e5bcc69432`](../../../locales/zh-TW/content/e5/bc/c6943226f080327275e576300df64b08dcb2.md)
 
 ### Useful ReScript resources (實用的 ReScript 資源)
 
@@ -188,4 +189,5 @@ This page is generated from [the index](../../json/zh-TW/rescript.json) by `scri
 
 ### tests.md
 
-- `tests.md` ([English](https://github.com/exercism/rescript/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/zh-TW/content/95/d2/4c8ecad3e42fe929b431865aa86d21fed41b.md)
+- `tests.md` ([English](https://github.com/exercism/rescript/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/zh-TW/content/f2/ae/10994efad95989ab3018437fe638685f3911.md)
+  - [`95d24c8eca`](../../../locales/zh-TW/content/95/d2/4c8ecad3e42fe929b431865aa86d21fed41b.md)

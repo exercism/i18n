@@ -45,7 +45,7 @@
     "docs/INSTALLATION.md": ["1433248a7b978ce16a1e9c5b1fd54ae3cf950d6f"],
     "docs/LEARNING.md": ["00162b904496c3e5c811ac0718495be9d1418d0d"],
     "docs/RESOURCES.md": ["691770e70dd69213e61d42c2981af6659f4e4f84"],
-    "docs/TESTS.md": ["e5bcc6943226f080327275e576300df64b08dcb2"],
+    "docs/TESTS.md": ["bd24b5558598547ef74c0ff86de446046f5b98c6","e5bcc6943226f080327275e576300df64b08dcb2"],
     "exercises/practice/acronym/.docs/instructions.md": ["133bd2cbb78d186c92e5d2b8ca41cf13f77d6bea"],
     "exercises/practice/all-your-base/.docs/instructions.md": ["1b688b6915eb31f5ee6c3b67d2803024a353806e"],
     "exercises/practice/all-your-base/.docs/introduction.md": ["68aaffbed953c276623458752955558a09819203"],
@@ -98,7 +98,7 @@
     "exercises/practice/word-count/.docs/instructions.md": ["064393c8a0f68810d215d0bec650f9cab19953b5"],
     "exercises/practice/word-count/.docs/introduction.md": ["1654508e79dc91420825d8a1a9818089e4167f70"],
     "exercises/shared/.docs/help.md": ["85a2c9c42593c3bc91e201f8850b850ef73ce43e"],
-    "exercises/shared/.docs/tests.md": ["95d24c8ecad3e42fe929b431865aa86d21fed41b"]
+    "exercises/shared/.docs/tests.md": ["f2ae10994efad95989ab3018437fe638685f3911","95d24c8ecad3e42fe929b431865aa86d21fed41b"]
   },
   "repo": "rescript"
 }

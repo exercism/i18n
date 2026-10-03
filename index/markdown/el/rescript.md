@@ -174,7 +174,8 @@ This page is generated from [the index](../../json/el/rescript.json) by `scripts
 
 ### Testing on the ReScript track (Δοκιμές στη διαδρομή ReScript)
 
-- `TESTS.md` ([English](https://github.com/exercism/rescript/blob/main/docs/TESTS.md)): [Latest](../../../locales/el/content/e5/bc/c6943226f080327275e576300df64b08dcb2.md)
+- `TESTS.md` ([English](https://github.com/exercism/rescript/blob/main/docs/TESTS.md)): [Latest](../../../locales/el/content/bd/24/b5558598547ef74c0ff86de446046f5b98c6.md)
+  - [`e5bcc69432`](../../../locales/el/content/e5/bc/c6943226f080327275e576300df64b08dcb2.md)
 
 ### Useful ReScript resources (Χρήσιμοι πόροι για τη ReScript)
 
@@ -188,4 +189,5 @@ This page is generated from [the index](../../json/el/rescript.json) by `scripts
 
 ### tests.md
 
-- `tests.md` ([English](https://github.com/exercism/rescript/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/el/content/95/d2/4c8ecad3e42fe929b431865aa86d21fed41b.md)
+- `tests.md` ([English](https://github.com/exercism/rescript/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/el/content/f2/ae/10994efad95989ab3018437fe638685f3911.md)
+  - [`95d24c8eca`](../../../locales/el/content/95/d2/4c8ecad3e42fe929b431865aa86d21fed41b.md)
