@@ -567,7 +567,8 @@ This page is generated from [the index](../../json/pt-PT/wren.json) by `scripts/
 
 ### About Wren (Sobre o Wren)
 
-- `ABOUT.md` ([English](https://github.com/exercism/wren/blob/main/docs/ABOUT.md)): [Latest](../../../locales/pt-PT/content/3f/e7/1c03878afcdd7f2f85fbf888dfafaf3f86b7.md)
+- `ABOUT.md` ([English](https://github.com/exercism/wren/blob/main/docs/ABOUT.md)): [Latest](../../../locales/pt-PT/content/da/02/ae67765208f281284d0242f634c7991e8e6e.md)
+  - [`3fe71c0387`](../../../locales/pt-PT/content/3f/e7/1c03878afcdd7f2f85fbf888dfafaf3f86b7.md)
 
 ### How to learn Wren (Como aprender Wren)
 

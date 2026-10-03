@@ -623,7 +623,8 @@ This page is generated from [the index](../../json/hu/wren.json) by `scripts/bui
 
 ### About Wren (A Wrenről)
 
-- `ABOUT.md` ([English](https://github.com/exercism/wren/blob/main/docs/ABOUT.md)): [Latest](../../../locales/hu/content/3f/e7/1c03878afcdd7f2f85fbf888dfafaf3f86b7.md)
+- `ABOUT.md` ([English](https://github.com/exercism/wren/blob/main/docs/ABOUT.md)): [Latest](../../../locales/hu/content/da/02/ae67765208f281284d0242f634c7991e8e6e.md)
+  - [`3fe71c0387`](../../../locales/hu/content/3f/e7/1c03878afcdd7f2f85fbf888dfafaf3f86b7.md)
   - [`e69de29bb2`](../../../locales/hu/content/e6/9d/e29bb2d1d6434b8b29ae775ad8c2e48c5391.md)
 
 ### How to learn Wren (Hogyan tanuld meg a Wrent)

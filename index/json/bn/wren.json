@@ -130,7 +130,7 @@
     "exercises/practice/zebra-puzzle": {"bn":"জেব্রা ধাঁধা","en":"Zebra Puzzle"}
   },
   "paths": {
-    "docs/ABOUT.md": ["3fe71c03878afcdd7f2f85fbf888dfafaf3f86b7"],
+    "docs/ABOUT.md": ["da02ae67765208f281284d0242f634c7991e8e6e","3fe71c03878afcdd7f2f85fbf888dfafaf3f86b7"],
     "docs/INSTALLATION.md": ["26493674afc83a47b6d075dc4dde9b433d942b21"],
     "docs/LEARNING.md": ["4fdbe2cfb41c5bcce52ed3ca43b7fbb574b0b735"],
     "docs/RESOURCES.md": ["dc20dd59df0e541ec6f96177890897e95d11ab21"],
