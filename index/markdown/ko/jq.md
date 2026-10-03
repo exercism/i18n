@@ -470,7 +470,8 @@ This page is generated from [the index](../../json/ko/jq.json) by `scripts/build
 
 ### Useful jq resources (유용한 jq 자료)
 
-- `RESOURCES.md` ([English](https://github.com/exercism/jq/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/ko/content/97/ef/d5a9ff1195b346083cc8e91389f597e566ef.md)
+- `RESOURCES.md` ([English](https://github.com/exercism/jq/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/ko/content/ef/59/ed3282eb3a34645d49bceb3360459e8ce978.md)
+  - [`97efd5a9ff`](../../../locales/ko/content/97/ef/d5a9ff1195b346083cc8e91389f597e566ef.md)
 
 ## Shared exercise docs
 

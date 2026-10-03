@@ -126,7 +126,7 @@
     "docs/DEBUGGING.md": ["8bfc7ff72476f97de22b8deb0bdd152d5e623326"],
     "docs/INSTALLATION.md": ["e0941fae5dc396c71ee20421f28f045980d7d03a"],
     "docs/LEARNING.md": ["3ad451cd907e1f54745dceeca57713fa370c4c83"],
-    "docs/RESOURCES.md": ["97efd5a9ff1195b346083cc8e91389f597e566ef"],
+    "docs/RESOURCES.md": ["ef59ed3282eb3a34645d49bceb3360459e8ce978","97efd5a9ff1195b346083cc8e91389f597e566ef"],
     "docs/TESTS.md": ["842610a249084a9247f152f1726c006eced3b1d4","cd0f4d94fa76c02e33950e5ac303ddff5e7f6b7d"],
     "exercises/concept/assembly-line/.docs/hints.md": ["46a35f5178c795964ca0f8a64c3feea8e82d37e4"],
     "exercises/concept/assembly-line/.docs/instructions.md": ["b20468dac4c7a0f8febda3fc040bb0b00286e2fa"],
