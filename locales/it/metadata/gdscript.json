@@ -134,5 +134,8 @@
   "exercise:sum-of-multiples:source": "Una variazione sul Problema 1 di Project Euler",
   "exercise:sieve:name": "Crivello",
   "exercise:sieve:blurb": "Usa il crivello di Eratostene per trovare tutti i numeri primi da 2 fino a un numero dato.",
-  "exercise:sieve:source": "Crivello di Eratostene su Wikipedia"
+  "exercise:sieve:source": "Crivello di Eratostene su Wikipedia",
+  "exercise:secret-handshake:name": "Stretta di mano segreta",
+  "exercise:secret-handshake:blurb": "Dato un numero decimale, convertilo nella sequenza appropriata di eventi per una stretta di mano segreta.",
+  "exercise:secret-handshake:source": "Bert, in Mary Poppins"
 }

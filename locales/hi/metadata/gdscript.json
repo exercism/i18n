@@ -134,5 +134,8 @@
   "exercise:sum-of-multiples:source": "Project Euler पर Problem 1 का एक रूपांतर।",
   "exercise:sieve:name": "छलनी",
   "exercise:sieve:blurb": "2 से लेकर दी गई संख्या तक सभी अभाज्य संख्याएँ खोजने के लिए एराटोस्थनीज़ की छलनी का इस्तेमाल कीजिए।",
-  "exercise:sieve:source": "Wikipedia पर एराटोस्थनीज़ की छलनी"
+  "exercise:sieve:source": "Wikipedia पर एराटोस्थनीज़ की छलनी",
+  "exercise:secret-handshake:name": "गुप्त हाथ मिलाना",
+  "exercise:secret-handshake:blurb": "एक दशमलव संख्या दी गई है; उसे गुप्त हाथ मिलाने की घटनाओं के उचित क्रम में बदलिए।",
+  "exercise:secret-handshake:source": "Mary Poppins में Bert"
 }

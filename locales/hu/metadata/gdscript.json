@@ -134,5 +134,8 @@
   "exercise:sum-of-multiples:source": "A Project Euler 1. feladatának egy változata",
   "exercise:sieve:name": "Szita",
   "exercise:sieve:blurb": "Az Eratoszthenész szitájával keresd meg az összes prímszámot 2-től egy adott számig.",
-  "exercise:sieve:source": "Eratoszthenész szitája a Wikipédián"
+  "exercise:sieve:source": "Eratoszthenész szitája a Wikipédián",
+  "exercise:secret-handshake:name": "Titkos kézfogás",
+  "exercise:secret-handshake:blurb": "Adott egy tízes számrendszerbeli szám; alakítsd át egy titkos kézfogás megfelelő eseménysorozatává.",
+  "exercise:secret-handshake:source": "Bert a Mary Poppinsból"
 }

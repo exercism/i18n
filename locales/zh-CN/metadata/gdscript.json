@@ -134,5 +134,8 @@
   "exercise:sum-of-multiples:source": "Project Euler 第 1 题的变体",
   "exercise:sieve:name": "筛法",
   "exercise:sieve:blurb": "使用埃拉托斯特尼筛法查找从 2 到给定数字之间的所有质数。",
-  "exercise:sieve:source": "Wikipedia 上的埃拉托斯特尼筛法"
+  "exercise:sieve:source": "Wikipedia 上的埃拉托斯特尼筛法",
+  "exercise:secret-handshake:name": "秘密握手",
+  "exercise:secret-handshake:blurb": "给定一个十进制数，把它转换成秘密握手对应的动作序列。",
+  "exercise:secret-handshake:source": "Mary Poppins 中的 Bert"
 }

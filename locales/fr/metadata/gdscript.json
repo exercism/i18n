@@ -134,5 +134,8 @@
   "exercise:sum-of-multiples:source": "Une variation sur le problème 1 de Project Euler",
   "exercise:sieve:name": "Crible",
   "exercise:sieve:blurb": "Utilise le crible d'Ératosthène pour trouver tous les nombres premiers de 2 jusqu'à un nombre donné.",
-  "exercise:sieve:source": "Crible d'Ératosthène sur Wikipedia"
+  "exercise:sieve:source": "Crible d'Ératosthène sur Wikipedia",
+  "exercise:secret-handshake:name": "Poignée de main secrète",
+  "exercise:secret-handshake:blurb": "À partir d'un nombre décimal, convertis-le en la séquence d'événements appropriée pour une poignée de main secrète.",
+  "exercise:secret-handshake:source": "Bert, dans Mary Poppins"
 }

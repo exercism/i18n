@@ -134,5 +134,8 @@
   "exercise:sum-of-multiples:source": "Project Euler의 1번 문제를 변형한 것입니다.",
   "exercise:sieve:name": "체",
   "exercise:sieve:blurb": "에라토스테네스의 체를 사용해 주어진 수까지의 모든 소수를 찾아요.",
-  "exercise:sieve:source": "Wikipedia의 에라토스테네스의 체"
+  "exercise:sieve:source": "Wikipedia의 에라토스테네스의 체",
+  "exercise:secret-handshake:name": "비밀 악수",
+  "exercise:secret-handshake:blurb": "십진수가 주어지면, 비밀 악수에 해당하는 일련의 동작으로 변환해요.",
+  "exercise:secret-handshake:source": "Mary Poppins의 Bert"
 }

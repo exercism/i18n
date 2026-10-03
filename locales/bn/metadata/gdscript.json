@@ -134,5 +134,8 @@
   "exercise:sum-of-multiples:source": "Project Euler-এর Problem 1-এর একটি ভিন্ন রূপ",
   "exercise:sieve:name": "চালনি",
   "exercise:sieve:blurb": "২ থেকে শুরু করে একটি নির্দিষ্ট সংখ্যা পর্যন্ত সব মৌলিক সংখ্যা খুঁজে বের করতে এরাটোস্থেনিসের চালনি ব্যবহার করুন।",
-  "exercise:sieve:source": "Wikipedia-তে এরাটোস্থেনিসের চালনি।"
+  "exercise:sieve:source": "Wikipedia-তে এরাটোস্থেনিসের চালনি।",
+  "exercise:secret-handshake:name": "গোপন হ্যান্ডশেক",
+  "exercise:secret-handshake:blurb": "একটি দশমিক সংখ্যা দেওয়া থাকলে সেটিকে গোপন হ্যান্ডশেকের উপযুক্ত ঘটনাক্রমে রূপান্তর করুন।",
+  "exercise:secret-handshake:source": "Mary Poppins-এর Bert."
 }

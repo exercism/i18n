@@ -134,5 +134,8 @@
   "exercise:sum-of-multiples:source": "Μια παραλλαγή του Problem 1 στο Project Euler",
   "exercise:sieve:name": "Κόσκινο",
   "exercise:sieve:blurb": "Χρησιμοποίησε το Κόσκινο του Ερατοσθένη για να βρεις όλους τους πρώτους αριθμούς από το 2 μέχρι έναν δεδομένο αριθμό.",
-  "exercise:sieve:source": "Κόσκινο του Ερατοσθένη στη Wikipedia"
+  "exercise:sieve:source": "Κόσκινο του Ερατοσθένη στη Wikipedia",
+  "exercise:secret-handshake:name": "Μυστική χειραψία",
+  "exercise:secret-handshake:blurb": "Με δεδομένο έναν δεκαδικό αριθμό, μετέτρεψέ τον στην κατάλληλη ακολουθία γεγονότων για μια μυστική χειραψία.",
+  "exercise:secret-handshake:source": "Ο Bert, στη Mary Poppins"
 }

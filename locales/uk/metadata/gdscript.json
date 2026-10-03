@@ -134,5 +134,8 @@
   "exercise:sum-of-multiples:source": "Варіація задачі 1 з Project Euler",
   "exercise:sieve:name": "Решето",
   "exercise:sieve:blurb": "Скористайтеся решетом Ератосфена, щоб знайти всі прості числа від 2 до заданого числа.",
-  "exercise:sieve:source": "Решето Ератосфена у Wikipedia"
+  "exercise:sieve:source": "Решето Ератосфена у Wikipedia",
+  "exercise:secret-handshake:name": "Таємне рукостискання",
+  "exercise:secret-handshake:blurb": "Дано десяткове число, перетворіть його на відповідну послідовність подій для таємного рукостискання.",
+  "exercise:secret-handshake:source": "Берт, у Mary Poppins"
 }

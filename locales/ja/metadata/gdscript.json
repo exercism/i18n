@@ -134,5 +134,8 @@
   "exercise:sum-of-multiples:source": "Project EulerのProblem 1のバリエーション",
   "exercise:sieve:name": "ふるい",
   "exercise:sieve:blurb": "エラトステネスのふるいを使って、2から与えられた数までの素数をすべて求めます。",
-  "exercise:sieve:source": "Wikipediaのエラトステネスのふるい"
+  "exercise:sieve:source": "Wikipediaのエラトステネスのふるい",
+  "exercise:secret-handshake:name": "秘密の握手",
+  "exercise:secret-handshake:blurb": "10進数が与えられたとき、それを秘密の握手のための適切なイベントの並びに変換します。",
+  "exercise:secret-handshake:source": "Mary PoppinsのBert"
 }

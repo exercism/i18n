@@ -134,5 +134,8 @@
   "exercise:sum-of-multiples:source": "Uma variação do Problema 1 do Project Euler",
   "exercise:sieve:name": "Crivo",
   "exercise:sieve:blurb": "Usa o Crivo de Eratóstenes para encontrar todos os números primos de 2 até um determinado número.",
-  "exercise:sieve:source": "Crivo de Eratóstenes na Wikipedia"
+  "exercise:sieve:source": "Crivo de Eratóstenes na Wikipedia",
+  "exercise:secret-handshake:name": "Aperto de mão secreto",
+  "exercise:secret-handshake:blurb": "Dado um número decimal, converte-o na sequência de eventos adequada para um aperto de mão secreto.",
+  "exercise:secret-handshake:source": "Bert, em Mary Poppins"
 }

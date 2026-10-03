@@ -134,5 +134,8 @@
   "exercise:sum-of-multiples:source": "تنويع على المسألة 1 في Project Euler",
   "exercise:sieve:name": "الغربال",
   "exercise:sieve:blurb": "استخدم غربال إراتوستينس لإيجاد جميع الأعداد الأولية من 2 حتى عدد معطى.",
-  "exercise:sieve:source": "غربال إراتوستينس في Wikipedia"
+  "exercise:sieve:source": "غربال إراتوستينس في Wikipedia",
+  "exercise:secret-handshake:name": "المصافحة السرية",
+  "exercise:secret-handshake:blurb": "بمعلومية عدد عشري، حوّله إلى تتابع الأحداث المناسب لمصافحة سرية.",
+  "exercise:secret-handshake:source": "Bert، في Mary Poppins"
 }

@@ -134,5 +134,8 @@
   "exercise:sum-of-multiples:source": "گونه‌ای از مسئله‌ی ۱ در Project Euler",
   "exercise:sieve:name": "غربال",
   "exercise:sieve:blurb": "با استفاده از غربال اراتوستن، همه‌ی اعداد اول را از ۲ تا عدد داده‌شده پیدا کنید.",
-  "exercise:sieve:source": "غربال اراتوستن در Wikipedia"
+  "exercise:sieve:source": "غربال اراتوستن در Wikipedia",
+  "exercise:secret-handshake:name": "دست‌دادن مخفی",
+  "exercise:secret-handshake:blurb": "اگر یک عدد دهدهی داده شود، آن را به دنباله‌ی مناسب رویدادها برای یک دست‌دادن مخفی تبدیل کنید.",
+  "exercise:secret-handshake:source": "Bert، در Mary Poppins"
 }

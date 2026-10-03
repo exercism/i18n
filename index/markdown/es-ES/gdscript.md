@@ -156,6 +156,11 @@ This page is generated from [the index](../../json/es-ES/gdscript.json) by `scri
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/scrabble-score/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/73/8f/928c5b64a1453fe44d29b22efbf90479500b.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/scrabble-score/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/88/21/f240ba979311248c51b5cad4ab93c6ac5df1.md)
 
+### Secret Handshake (Apretón de manos secreto)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/secret-handshake/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/d2/12/0b9bf2e57109955caddbfc1646b9fcc8070e.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/secret-handshake/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/17/6b/92e8cf395ab6d07a5d8ae60f86c73e4da085.md)
+
 ### Series
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/series/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/fd/97/a6706a66b377147ae91d1495db35a1b291e8.md)
