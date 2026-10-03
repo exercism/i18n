@@ -128,5 +128,8 @@
   "exercise:perfect-numbers:source": "Neal Ford की पुस्तक Functional Thinking के अध्याय 2 से लिया गया।",
   "exercise:scrabble-score:name": "Scrabble स्कोर",
   "exercise:scrabble-score:blurb": "एक शब्द दिया गया है; उस शब्द का Scrabble स्कोर निकालिए।",
-  "exercise:scrabble-score:source": "Extreme Startup गेम से प्रेरित"
+  "exercise:scrabble-score:source": "Extreme Startup गेम से प्रेरित",
+  "exercise:sum-of-multiples:name": "गुणजों का योग",
+  "exercise:sum-of-multiples:blurb": "एक संख्या दी गई है; उससे छोटे, कुछ विशेष संख्याओं के सभी गुणजों का योग निकालिए।",
+  "exercise:sum-of-multiples:source": "Project Euler पर Problem 1 का एक रूपांतर।"
 }

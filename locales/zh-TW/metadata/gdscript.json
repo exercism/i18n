@@ -128,5 +128,8 @@
   "exercise:perfect-numbers:source": "摘自 Neal Ford 所著《Functional Thinking》第 2 章。",
   "exercise:scrabble-score:name": "Scrabble 分數",
   "exercise:scrabble-score:blurb": "給定一個單字，計算該單字的 Scrabble 分數。",
-  "exercise:scrabble-score:source": "靈感來自 Extreme Startup 這款遊戲"
+  "exercise:scrabble-score:source": "靈感來自 Extreme Startup 這款遊戲",
+  "exercise:sum-of-multiples:name": "倍數之和",
+  "exercise:sum-of-multiples:blurb": "給定一個數字，求出指定數字的所有倍數之和，範圍到該數字為止但不含該數字。",
+  "exercise:sum-of-multiples:source": "Project Euler 第 1 題的變體"
 }

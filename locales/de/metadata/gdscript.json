@@ -128,5 +128,8 @@
   "exercise:perfect-numbers:source": "Entnommen aus Kapitel 2 von Functional Thinking von Neal Ford.",
   "exercise:scrabble-score:name": "Scrabble-Punktzahl",
   "exercise:scrabble-score:blurb": "Berechne zu einem Wort die Scrabble-Punktzahl.",
-  "exercise:scrabble-score:source": "Inspiriert vom Spiel Extreme Startup"
+  "exercise:scrabble-score:source": "Inspiriert vom Spiel Extreme Startup",
+  "exercise:sum-of-multiples:name": "Summe der Vielfachen",
+  "exercise:sum-of-multiples:blurb": "Finde zu einer gegebenen Zahl die Summe aller Vielfachen bestimmter Zahlen bis ausschließlich dieser Zahl.",
+  "exercise:sum-of-multiples:source": "Eine Variation von Problem 1 bei Project Euler"
 }

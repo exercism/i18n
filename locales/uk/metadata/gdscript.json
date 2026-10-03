@@ -128,5 +128,8 @@
   "exercise:perfect-numbers:source": "Взято з розділу 2 книжки «Functional Thinking» авторства Neal Ford.",
   "exercise:scrabble-score:name": "Рахунок у Scrabble",
   "exercise:scrabble-score:blurb": "Дано слово, обчисліть його рахунок у Scrabble.",
-  "exercise:scrabble-score:source": "За мотивами гри Extreme Startup"
+  "exercise:scrabble-score:source": "За мотивами гри Extreme Startup",
+  "exercise:sum-of-multiples:name": "Сума кратних",
+  "exercise:sum-of-multiples:blurb": "Дано число, знайдіть суму всіх кратних заданих чисел до цього числа, не включаючи його.",
+  "exercise:sum-of-multiples:source": "Варіація задачі 1 з Project Euler"
 }

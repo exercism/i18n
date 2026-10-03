@@ -128,5 +128,8 @@
   "exercise:perfect-numbers:source": "Neal Ford Functional Thinking című könyvének 2. fejezetéből.",
   "exercise:scrabble-score:name": "Scrabble-pontszám",
   "exercise:scrabble-score:blurb": "Adott egy szó; számítsd ki a Scrabble-pontszámát.",
-  "exercise:scrabble-score:source": "Az Extreme Startup játék ihlette"
+  "exercise:scrabble-score:source": "Az Extreme Startup játék ihlette",
+  "exercise:sum-of-multiples:name": "Többszörösök összege",
+  "exercise:sum-of-multiples:blurb": "Adott egy szám; add meg a megadott számok összes többszörösének összegét a számig, de magát a számot nem beleértve.",
+  "exercise:sum-of-multiples:source": "A Project Euler 1. feladatának egy változata"
 }

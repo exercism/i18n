@@ -128,5 +128,8 @@
   "exercise:perfect-numbers:source": "Παρμένο από το Κεφάλαιο 2 του Functional Thinking του Neal Ford.",
   "exercise:scrabble-score:name": "Βαθμολογία στο Scrabble",
   "exercise:scrabble-score:blurb": "Με δεδομένη μια λέξη, υπολόγισε τη βαθμολογία της στο Scrabble.",
-  "exercise:scrabble-score:source": "Εμπνευσμένο από το παιχνίδι Extreme Startup"
+  "exercise:scrabble-score:source": "Εμπνευσμένο από το παιχνίδι Extreme Startup",
+  "exercise:sum-of-multiples:name": "Άθροισμα πολλαπλασίων",
+  "exercise:sum-of-multiples:blurb": "Με δεδομένο έναν αριθμό, βρες το άθροισμα όλων των πολλαπλασίων συγκεκριμένων αριθμών μέχρι τον αριθμό αυτό, χωρίς να τον συμπεριλαμβάνεις.",
+  "exercise:sum-of-multiples:source": "Μια παραλλαγή του Problem 1 στο Project Euler"
 }

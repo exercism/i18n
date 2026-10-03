@@ -128,5 +128,8 @@
   "exercise:perfect-numbers:source": "Neal Ford의 Functional Thinking 2장에서 가져왔어요.",
   "exercise:scrabble-score:name": "스크래블 점수",
   "exercise:scrabble-score:blurb": "단어가 주어지면, 그 단어의 스크래블 점수를 계산해요.",
-  "exercise:scrabble-score:source": "Extreme Startup 게임에서 영감을 받았어요."
+  "exercise:scrabble-score:source": "Extreme Startup 게임에서 영감을 받았어요.",
+  "exercise:sum-of-multiples:name": "배수의 합",
+  "exercise:sum-of-multiples:blurb": "어떤 수가 주어졌을 때, 특정 수들의 배수 가운데 그 수 미만인 모든 배수의 합을 구해요.",
+  "exercise:sum-of-multiples:source": "Project Euler의 1번 문제를 변형한 것입니다."
 }

@@ -128,5 +128,8 @@
   "exercise:perfect-numbers:source": "Neal Ford著『Functional Thinking』の第2章より",
   "exercise:scrabble-score:name": "スクラブルスコア",
   "exercise:scrabble-score:blurb": "単語が与えられたとき、その単語のスクラブルスコアを計算します。",
-  "exercise:scrabble-score:source": "Extreme Startupゲームに着想を得たもの"
+  "exercise:scrabble-score:source": "Extreme Startupゲームに着想を得たもの",
+  "exercise:sum-of-multiples:name": "倍数の和",
+  "exercise:sum-of-multiples:blurb": "ある数が与えられたとき、その数を含まない範囲にある、特定のいくつかの数の倍数をすべて足し合わせた和を求めます。",
+  "exercise:sum-of-multiples:source": "Project EulerのProblem 1のバリエーション"
 }

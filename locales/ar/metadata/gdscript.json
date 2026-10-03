@@ -128,5 +128,8 @@
   "exercise:perfect-numbers:source": "مأخوذ من الفصل 2 من كتاب Functional Thinking للكاتب Neal Ford.",
   "exercise:scrabble-score:name": "نقاط Scrabble",
   "exercise:scrabble-score:blurb": "بمعلومية كلمة، احسب نقاط Scrabble لتلك الكلمة.",
-  "exercise:scrabble-score:source": "مستوحى من لعبة Extreme Startup"
+  "exercise:scrabble-score:source": "مستوحى من لعبة Extreme Startup",
+  "exercise:sum-of-multiples:name": "مجموع المضاعفات",
+  "exercise:sum-of-multiples:blurb": "إذا أُعطيت عددًا، فأوجد مجموع كل مضاعفات أعداد معيّنة حتى هذا العدد دون أن تشمله نفسه.",
+  "exercise:sum-of-multiples:source": "تنويع على المسألة 1 في Project Euler"
 }

@@ -41,6 +41,7 @@
     "exercises/practice/series": {"en":"Series","es-419":"Series"},
     "exercises/practice/space-age": {"en":"Space Age","es-419":"Era espacial"},
     "exercises/practice/spiral-matrix": {"en":"Spiral Matrix","es-419":"Matriz en espiral"},
+    "exercises/practice/sum-of-multiples": {"en":"Sum of Multiples","es-419":"Suma de múltiplos"},
     "exercises/practice/triangle": {"en":"Triangle","es-419":"Triángulo"},
     "exercises/practice/two-fer": {"en":"Two Fer","es-419":"Two Fer"}
   },
@@ -107,6 +108,8 @@
     "exercises/practice/space-age/.docs/introduction.md": ["014d78857c784d435eefd1b428aab209c2f2d7b1"],
     "exercises/practice/spiral-matrix/.docs/instructions.md": ["01e8a77f808ebf669389df96d5a86ae06cc23f69"],
     "exercises/practice/spiral-matrix/.docs/introduction.md": ["25c7eb595aa020e15f2317920415f225d0ba476f"],
+    "exercises/practice/sum-of-multiples/.docs/instructions.md": ["d69f890e9d6a7e8ef9fa58d43d76032f689b8ff0"],
+    "exercises/practice/sum-of-multiples/.docs/introduction.md": ["69cabeed5abccbe7441644c24d20e0c23af51a79"],
     "exercises/practice/triangle/.docs/instructions.md": ["e9b053dcd344e85179041c10dcd48406d735b2f9"],
     "exercises/practice/two-fer/.docs/instructions.md": ["adc53487981faa7797e5099ff92acffd3df180be"],
     "exercises/practice/two-fer/.docs/introduction.md": ["5947a2230bd8a36f4e653ca80f726386df06ccee"],

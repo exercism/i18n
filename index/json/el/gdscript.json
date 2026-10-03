@@ -41,6 +41,7 @@
     "exercises/practice/series": {"el":"Σειρές","en":"Series"},
     "exercises/practice/space-age": {"el":"Διαστημική εποχή","en":"Space Age"},
     "exercises/practice/spiral-matrix": {"el":"Σπειροειδής πίνακας","en":"Spiral Matrix"},
+    "exercises/practice/sum-of-multiples": {"el":"Άθροισμα πολλαπλασίων","en":"Sum of Multiples"},
     "exercises/practice/triangle": {"el":"Τρίγωνο","en":"Triangle"},
     "exercises/practice/two-fer": {"el":"Two Fer","en":"Two Fer"}
   },
@@ -107,6 +108,8 @@
     "exercises/practice/space-age/.docs/introduction.md": ["014d78857c784d435eefd1b428aab209c2f2d7b1"],
     "exercises/practice/spiral-matrix/.docs/instructions.md": ["01e8a77f808ebf669389df96d5a86ae06cc23f69","ba99e12c731bf4221eef18777ed67a6d134cd2b9"],
     "exercises/practice/spiral-matrix/.docs/introduction.md": ["25c7eb595aa020e15f2317920415f225d0ba476f"],
+    "exercises/practice/sum-of-multiples/.docs/instructions.md": ["d69f890e9d6a7e8ef9fa58d43d76032f689b8ff0"],
+    "exercises/practice/sum-of-multiples/.docs/introduction.md": ["69cabeed5abccbe7441644c24d20e0c23af51a79"],
     "exercises/practice/triangle/.docs/instructions.md": ["e9b053dcd344e85179041c10dcd48406d735b2f9","ac39008726d5472b99e1aee556219eadca7fc49d"],
     "exercises/practice/two-fer/.docs/instructions.md": ["adc53487981faa7797e5099ff92acffd3df180be","37aa75297ea593a8ba8215ab2fa075cb87fb6dc9"],
     "exercises/practice/two-fer/.docs/introduction.md": ["5947a2230bd8a36f4e653ca80f726386df06ccee","8c124394aacf423f3aba704a131aadeec3a98d12"],

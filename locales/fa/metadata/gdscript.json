@@ -128,5 +128,8 @@
   "exercise:perfect-numbers:source": "برگرفته از فصل ۲ کتاب Functional Thinking نوشته‌ی Neal Ford.",
   "exercise:scrabble-score:name": "امتیاز Scrabble",
   "exercise:scrabble-score:blurb": "اگر یک کلمه داده شود، امتیاز Scrabble آن را محاسبه کنید.",
-  "exercise:scrabble-score:source": "با الهام از بازی Extreme Startup"
+  "exercise:scrabble-score:source": "با الهام از بازی Extreme Startup",
+  "exercise:sum-of-multiples:name": "جمع مضارب",
+  "exercise:sum-of-multiples:blurb": "با داشتن یک عدد، مجموع همه‌ی مضارب اعداد مشخصی را تا پیش از خود آن عدد پیدا کنید.",
+  "exercise:sum-of-multiples:source": "گونه‌ای از مسئله‌ی ۱ در Project Euler"
 }

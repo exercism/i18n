@@ -180,6 +180,11 @@ This page is generated from [the index](../../json/el/gdscript.json) by `scripts
   - [`ba99e12c73`](../../../locales/el/content/ba/99/e12c731bf4221eef18777ed67a6d134cd2b9.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/spiral-matrix/.docs/introduction.md)): [Latest](../../../locales/el/content/25/c7/eb595aa020e15f2317920415f225d0ba476f.md)
 
+### Sum of Multiples (Άθροισμα πολλαπλασίων)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/sum-of-multiples/.docs/instructions.md)): [Latest](../../../locales/el/content/d6/9f/890e9d6a7e8ef9fa58d43d76032f689b8ff0.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/sum-of-multiples/.docs/introduction.md)): [Latest](../../../locales/el/content/69/ca/beed5abccbe7441644c24d20e0c23af51a79.md)
+
 ### Triangle (Τρίγωνο)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/el/content/e9/b0/53dcd344e85179041c10dcd48406d735b2f9.md)

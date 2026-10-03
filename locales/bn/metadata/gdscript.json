@@ -128,5 +128,8 @@
   "exercise:perfect-numbers:source": "Neal Ford-এর Functional Thinking বইয়ের দ্বিতীয় অধ্যায় থেকে নেওয়া।",
   "exercise:scrabble-score:name": "স্ক্র্যাবল স্কোর",
   "exercise:scrabble-score:blurb": "একটি শব্দ দেওয়া থাকলে সেই শব্দের স্ক্র্যাবল স্কোর গণনা করুন।",
-  "exercise:scrabble-score:source": "Extreme Startup গেম থেকে অনুপ্রাণিত"
+  "exercise:scrabble-score:source": "Extreme Startup গেম থেকে অনুপ্রাণিত",
+  "exercise:sum-of-multiples:name": "গুণিতকের যোগফল",
+  "exercise:sum-of-multiples:blurb": "একটি সংখ্যা দেওয়া হলে, সেই সংখ্যাটি পর্যন্ত কিন্তু তা ছাড়া নির্দিষ্ট কিছু সংখ্যার সব গুণিতকের যোগফল বের করুন।",
+  "exercise:sum-of-multiples:source": "Project Euler-এর Problem 1-এর একটি ভিন্ন রূপ"
 }

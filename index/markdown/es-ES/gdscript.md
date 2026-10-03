@@ -170,6 +170,11 @@ This page is generated from [the index](../../json/es-ES/gdscript.json) by `scri
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/spiral-matrix/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/01/e8/a77f808ebf669389df96d5a86ae06cc23f69.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/spiral-matrix/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/25/c7/eb595aa020e15f2317920415f225d0ba476f.md)
 
+### Sum of Multiples (Suma de múltiplos)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/sum-of-multiples/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/d6/9f/890e9d6a7e8ef9fa58d43d76032f689b8ff0.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/sum-of-multiples/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/69/ca/beed5abccbe7441644c24d20e0c23af51a79.md)
+
 ### Triangle (Triángulo)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/e9/b0/53dcd344e85179041c10dcd48406d735b2f9.md)

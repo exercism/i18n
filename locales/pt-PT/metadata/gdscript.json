@@ -128,5 +128,8 @@
   "exercise:perfect-numbers:source": "Retirado do Capítulo 2 de Functional Thinking, de Neal Ford.",
   "exercise:scrabble-score:name": "Pontuação de Scrabble",
   "exercise:scrabble-score:blurb": "Dada uma palavra, calcula a pontuação de Scrabble dessa palavra.",
-  "exercise:scrabble-score:source": "Inspirado no jogo Extreme Startup"
+  "exercise:scrabble-score:source": "Inspirado no jogo Extreme Startup",
+  "exercise:sum-of-multiples:name": "Soma de Múltiplos",
+  "exercise:sum-of-multiples:blurb": "Dado um número, determina a soma de todos os múltiplos de determinados números até esse número, sem o incluir.",
+  "exercise:sum-of-multiples:source": "Uma variação do Problema 1 do Project Euler"
 }
