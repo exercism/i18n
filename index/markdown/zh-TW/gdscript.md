@@ -160,6 +160,11 @@ This page is generated from [the index](../../json/zh-TW/gdscript.json) by `scri
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/series/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/fd/97/a6706a66b377147ae91d1495db35a1b291e8.md)
 
+### Sieve (篩法)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/sieve/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/71/29/2e1782dc95e0430ae2b614e1d740dd41639f.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/sieve/.docs/introduction.md)): [Latest](../../../locales/zh-TW/content/f6/c1/cf79a9d4ccf67f1ed34dabb8ab0a58030358.md)
+
 ### Space Age (太空時代)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/space-age/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/f2/3b/5e2c1fee01d8283d5399594d9324bd35e2f4.md)

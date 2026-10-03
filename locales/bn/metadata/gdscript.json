@@ -131,5 +131,8 @@
   "exercise:scrabble-score:source": "Extreme Startup গেম থেকে অনুপ্রাণিত",
   "exercise:sum-of-multiples:name": "গুণিতকের যোগফল",
   "exercise:sum-of-multiples:blurb": "একটি সংখ্যা দেওয়া হলে, সেই সংখ্যাটি পর্যন্ত কিন্তু তা ছাড়া নির্দিষ্ট কিছু সংখ্যার সব গুণিতকের যোগফল বের করুন।",
-  "exercise:sum-of-multiples:source": "Project Euler-এর Problem 1-এর একটি ভিন্ন রূপ"
+  "exercise:sum-of-multiples:source": "Project Euler-এর Problem 1-এর একটি ভিন্ন রূপ",
+  "exercise:sieve:name": "চালনি",
+  "exercise:sieve:blurb": "২ থেকে শুরু করে একটি নির্দিষ্ট সংখ্যা পর্যন্ত সব মৌলিক সংখ্যা খুঁজে বের করতে এরাটোস্থেনিসের চালনি ব্যবহার করুন।",
+  "exercise:sieve:source": "Wikipedia-তে এরাটোস্থেনিসের চালনি।"
 }

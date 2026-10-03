@@ -131,5 +131,8 @@
   "exercise:scrabble-score:source": "Az Extreme Startup játék ihlette",
   "exercise:sum-of-multiples:name": "Többszörösök összege",
   "exercise:sum-of-multiples:blurb": "Adott egy szám; add meg a megadott számok összes többszörösének összegét a számig, de magát a számot nem beleértve.",
-  "exercise:sum-of-multiples:source": "A Project Euler 1. feladatának egy változata"
+  "exercise:sum-of-multiples:source": "A Project Euler 1. feladatának egy változata",
+  "exercise:sieve:name": "Szita",
+  "exercise:sieve:blurb": "Az Eratoszthenész szitájával keresd meg az összes prímszámot 2-től egy adott számig.",
+  "exercise:sieve:source": "Eratoszthenész szitája a Wikipédián"
 }

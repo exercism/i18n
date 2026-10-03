@@ -131,5 +131,8 @@
   "exercise:scrabble-score:source": "Inspiriert vom Spiel Extreme Startup",
   "exercise:sum-of-multiples:name": "Summe der Vielfachen",
   "exercise:sum-of-multiples:blurb": "Finde zu einer gegebenen Zahl die Summe aller Vielfachen bestimmter Zahlen bis ausschließlich dieser Zahl.",
-  "exercise:sum-of-multiples:source": "Eine Variation von Problem 1 bei Project Euler"
+  "exercise:sum-of-multiples:source": "Eine Variation von Problem 1 bei Project Euler",
+  "exercise:sieve:name": "Sieb",
+  "exercise:sieve:blurb": "Nutze das Sieb des Eratosthenes, um alle Primzahlen von 2 bis zu einer gegebenen Zahl zu finden.",
+  "exercise:sieve:source": "Sieb des Eratosthenes bei Wikipedia"
 }

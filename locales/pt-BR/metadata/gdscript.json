@@ -131,5 +131,8 @@
   "exercise:scrabble-score:source": "Inspirado no jogo Extreme Startup",
   "exercise:sum-of-multiples:name": "Soma dos múltiplos",
   "exercise:sum-of-multiples:blurb": "Dado um número, encontre a soma de todos os múltiplos de determinados números até, mas sem incluir, esse número.",
-  "exercise:sum-of-multiples:source": "Uma variação do Problema 1 do Project Euler"
+  "exercise:sum-of-multiples:source": "Uma variação do Problema 1 do Project Euler",
+  "exercise:sieve:name": "Crivo",
+  "exercise:sieve:blurb": "Use o Crivo de Eratóstenes para encontrar todos os primos de 2 até um número dado.",
+  "exercise:sieve:source": "Crivo de Eratóstenes na Wikipedia"
 }

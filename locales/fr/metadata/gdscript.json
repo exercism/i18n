@@ -131,5 +131,8 @@
   "exercise:scrabble-score:source": "Inspiré du jeu Extreme Startup",
   "exercise:sum-of-multiples:name": "Somme des multiples",
   "exercise:sum-of-multiples:blurb": "Étant donné un nombre, trouve la somme de tous les multiples de certains nombres jusqu'à ce nombre, sans l'inclure.",
-  "exercise:sum-of-multiples:source": "Une variation sur le problème 1 de Project Euler"
+  "exercise:sum-of-multiples:source": "Une variation sur le problème 1 de Project Euler",
+  "exercise:sieve:name": "Crible",
+  "exercise:sieve:blurb": "Utilise le crible d'Ératosthène pour trouver tous les nombres premiers de 2 jusqu'à un nombre donné.",
+  "exercise:sieve:source": "Crible d'Ératosthène sur Wikipedia"
 }

@@ -131,5 +131,8 @@
   "exercise:scrabble-score:source": "Extreme Startup 게임에서 영감을 받았어요.",
   "exercise:sum-of-multiples:name": "배수의 합",
   "exercise:sum-of-multiples:blurb": "어떤 수가 주어졌을 때, 특정 수들의 배수 가운데 그 수 미만인 모든 배수의 합을 구해요.",
-  "exercise:sum-of-multiples:source": "Project Euler의 1번 문제를 변형한 것입니다."
+  "exercise:sum-of-multiples:source": "Project Euler의 1번 문제를 변형한 것입니다.",
+  "exercise:sieve:name": "체",
+  "exercise:sieve:blurb": "에라토스테네스의 체를 사용해 주어진 수까지의 모든 소수를 찾아요.",
+  "exercise:sieve:source": "Wikipedia의 에라토스테네스의 체"
 }

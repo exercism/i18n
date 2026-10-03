@@ -131,5 +131,8 @@
   "exercise:scrabble-score:source": "Ispirato al gioco Extreme Startup",
   "exercise:sum-of-multiples:name": "Somma dei multipli",
   "exercise:sum-of-multiples:blurb": "Dato un numero, trova la somma di tutti i multipli di determinati numeri fino a quel numero, escluso.",
-  "exercise:sum-of-multiples:source": "Una variazione sul Problema 1 di Project Euler"
+  "exercise:sum-of-multiples:source": "Una variazione sul Problema 1 di Project Euler",
+  "exercise:sieve:name": "Crivello",
+  "exercise:sieve:blurb": "Usa il crivello di Eratostene per trovare tutti i numeri primi da 2 fino a un numero dato.",
+  "exercise:sieve:source": "Crivello di Eratostene su Wikipedia"
 }

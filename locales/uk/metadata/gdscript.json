@@ -131,5 +131,8 @@
   "exercise:scrabble-score:source": "За мотивами гри Extreme Startup",
   "exercise:sum-of-multiples:name": "Сума кратних",
   "exercise:sum-of-multiples:blurb": "Дано число, знайдіть суму всіх кратних заданих чисел до цього числа, не включаючи його.",
-  "exercise:sum-of-multiples:source": "Варіація задачі 1 з Project Euler"
+  "exercise:sum-of-multiples:source": "Варіація задачі 1 з Project Euler",
+  "exercise:sieve:name": "Решето",
+  "exercise:sieve:blurb": "Скористайтеся решетом Ератосфена, щоб знайти всі прості числа від 2 до заданого числа.",
+  "exercise:sieve:source": "Решето Ератосфена у Wikipedia"
 }

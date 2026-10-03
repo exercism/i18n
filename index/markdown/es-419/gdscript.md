@@ -161,6 +161,11 @@ This page is generated from [the index](../../json/es-419/gdscript.json) by `scr
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/series/.docs/instructions.md)): [Latest](../../../locales/es-419/content/fd/97/a6706a66b377147ae91d1495db35a1b291e8.md)
 
+### Sieve (Criba)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/sieve/.docs/instructions.md)): [Latest](../../../locales/es-419/content/71/29/2e1782dc95e0430ae2b614e1d740dd41639f.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/sieve/.docs/introduction.md)): [Latest](../../../locales/es-419/content/f6/c1/cf79a9d4ccf67f1ed34dabb8ab0a58030358.md)
+
 ### Space Age (Era espacial)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/space-age/.docs/instructions.md)): [Latest](../../../locales/es-419/content/f2/3b/5e2c1fee01d8283d5399594d9324bd35e2f4.md)

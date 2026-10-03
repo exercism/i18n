@@ -131,5 +131,8 @@
   "exercise:scrabble-score:source": "با الهام از بازی Extreme Startup",
   "exercise:sum-of-multiples:name": "جمع مضارب",
   "exercise:sum-of-multiples:blurb": "با داشتن یک عدد، مجموع همه‌ی مضارب اعداد مشخصی را تا پیش از خود آن عدد پیدا کنید.",
-  "exercise:sum-of-multiples:source": "گونه‌ای از مسئله‌ی ۱ در Project Euler"
+  "exercise:sum-of-multiples:source": "گونه‌ای از مسئله‌ی ۱ در Project Euler",
+  "exercise:sieve:name": "غربال",
+  "exercise:sieve:blurb": "با استفاده از غربال اراتوستن، همه‌ی اعداد اول را از ۲ تا عدد داده‌شده پیدا کنید.",
+  "exercise:sieve:source": "غربال اراتوستن در Wikipedia"
 }

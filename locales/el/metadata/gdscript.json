@@ -131,5 +131,8 @@
   "exercise:scrabble-score:source": "Εμπνευσμένο από το παιχνίδι Extreme Startup",
   "exercise:sum-of-multiples:name": "Άθροισμα πολλαπλασίων",
   "exercise:sum-of-multiples:blurb": "Με δεδομένο έναν αριθμό, βρες το άθροισμα όλων των πολλαπλασίων συγκεκριμένων αριθμών μέχρι τον αριθμό αυτό, χωρίς να τον συμπεριλαμβάνεις.",
-  "exercise:sum-of-multiples:source": "Μια παραλλαγή του Problem 1 στο Project Euler"
+  "exercise:sum-of-multiples:source": "Μια παραλλαγή του Problem 1 στο Project Euler",
+  "exercise:sieve:name": "Κόσκινο",
+  "exercise:sieve:blurb": "Χρησιμοποίησε το Κόσκινο του Ερατοσθένη για να βρεις όλους τους πρώτους αριθμούς από το 2 μέχρι έναν δεδομένο αριθμό.",
+  "exercise:sieve:source": "Κόσκινο του Ερατοσθένη στη Wikipedia"
 }

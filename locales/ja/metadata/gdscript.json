@@ -131,5 +131,8 @@
   "exercise:scrabble-score:source": "Extreme Startupゲームに着想を得たもの",
   "exercise:sum-of-multiples:name": "倍数の和",
   "exercise:sum-of-multiples:blurb": "ある数が与えられたとき、その数を含まない範囲にある、特定のいくつかの数の倍数をすべて足し合わせた和を求めます。",
-  "exercise:sum-of-multiples:source": "Project EulerのProblem 1のバリエーション"
+  "exercise:sum-of-multiples:source": "Project EulerのProblem 1のバリエーション",
+  "exercise:sieve:name": "ふるい",
+  "exercise:sieve:blurb": "エラトステネスのふるいを使って、2から与えられた数までの素数をすべて求めます。",
+  "exercise:sieve:source": "Wikipediaのエラトステネスのふるい"
 }
