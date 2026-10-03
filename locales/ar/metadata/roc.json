@@ -377,5 +377,8 @@
   "exercise:bank-account:name": "حساب بنكي",
   "exercise:bank-account:blurb": "حاكِ حسابًا بنكيًا يدعم الفتح والإغلاق وسحب الأموال وإيداعها. احترس من المعاملات المتزامنة!",
   "exercise:satellite:name": "القمر الصناعي",
-  "exercise:satellite:blurb": "أعد بناء الأشجار الثنائية من الاجتياز المسبق والاجتياز الداخلي."
+  "exercise:satellite:blurb": "أعد بناء الأشجار الثنائية من الاجتياز المسبق والاجتياز الداخلي.",
+  "exercise:intergalactic-transmission:name": "الإرسال بين المجرات",
+  "exercise:intergalactic-transmission:blurb": "أضف بتّات التكافؤ إلى رسالة بغرض الإرسال",
+  "exercise:intergalactic-transmission:source": "Kah Goh"
 }

@@ -379,5 +379,8 @@
   "exercise:bank-account:name": "은행 계좌",
   "exercise:bank-account:blurb": "개설/해지, 출금, 입금을 지원하는 은행 계좌를 시뮬레이션해요. 동시 트랜잭션에 주의해요!",
   "exercise:satellite:name": "위성",
-  "exercise:satellite:blurb": "전위 순회와 중위 순회로 이진 트리를 재구성해요."
+  "exercise:satellite:blurb": "전위 순회와 중위 순회로 이진 트리를 재구성해요.",
+  "exercise:intergalactic-transmission:name": "은하 간 전송",
+  "exercise:intergalactic-transmission:blurb": "전송을 위해 메시지에 패리티 비트를 추가해요.",
+  "exercise:intergalactic-transmission:source": "Kah Goh"
 }

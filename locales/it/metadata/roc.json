@@ -377,5 +377,8 @@
   "exercise:bank-account:name": "Conto bancario",
   "exercise:bank-account:blurb": "Simula un conto bancario che supporta aperture e chiusure, prelievi e depositi di denaro. Attenzione alle transazioni concorrenti!",
   "exercise:satellite:name": "Satellite",
-  "exercise:satellite:blurb": "Ricostruisci alberi binari dalle visite in pre-ordine e in ordine."
+  "exercise:satellite:blurb": "Ricostruisci alberi binari dalle visite in pre-ordine e in ordine.",
+  "exercise:intergalactic-transmission:name": "Trasmissione intergalattica",
+  "exercise:intergalactic-transmission:blurb": "Aggiungi bit di parità a un messaggio per la trasmissione",
+  "exercise:intergalactic-transmission:source": "Kah Goh"
 }

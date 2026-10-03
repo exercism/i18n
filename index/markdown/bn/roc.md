@@ -223,6 +223,11 @@ This page is generated from [the index](../../json/bn/roc.json) by `scripts/buil
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/house/.docs/instructions.md)): [Latest](../../../locales/bn/content/88/92/8c5fa22b95a2e911e44cb398811b860de52a.md)
 
+### Intergalactic Transmission (আন্তঃগ্যালাক্টিক ট্রান্সমিশন)
+
+- `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/intergalactic-transmission/.docs/instructions.md)): [Latest](../../../locales/bn/content/54/97/088176af7a635f7378966725130623109749.md)
+- `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/intergalactic-transmission/.docs/introduction.md)): [Latest](../../../locales/bn/content/f1/9d/ffbead7bcf8578a86e3311749fead73f9a93.md)
+
 ### ISBN Verifier (ISBN ভেরিফায়ার)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/isbn-verifier/.docs/instructions.md)): [Latest](../../../locales/bn/content/4a/02/44e5523ff60ecfaa72771545a75a25190617.md)

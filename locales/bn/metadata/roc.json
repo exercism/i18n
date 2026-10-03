@@ -377,5 +377,8 @@
   "exercise:bank-account:name": "ব্যাংক অ্যাকাউন্ট",
   "exercise:bank-account:blurb": "খোলা/বন্ধ করা, টাকা তোলা ও জমা সমর্থন করে এমন একটি ব্যাংক অ্যাকাউন্ট সিমুলেট করুন। একসাথে চলতে থাকা লেনদেন সম্পর্কে সাবধান থাকুন!",
   "exercise:satellite:name": "স্যাটেলাইট",
-  "exercise:satellite:blurb": "প্রি-অর্ডার ও ইন-অর্ডার ট্রাভার্সাল থেকে বাইনারি ট্রি পুনর্গঠন করুন।"
+  "exercise:satellite:blurb": "প্রি-অর্ডার ও ইন-অর্ডার ট্রাভার্সাল থেকে বাইনারি ট্রি পুনর্গঠন করুন।",
+  "exercise:intergalactic-transmission:name": "আন্তঃগ্যালাক্টিক ট্রান্সমিশন",
+  "exercise:intergalactic-transmission:blurb": "প্রেরণের জন্য একটি মেসেজে প্যারিটি বিট যোগ করুন",
+  "exercise:intergalactic-transmission:source": "Kah Goh"
 }

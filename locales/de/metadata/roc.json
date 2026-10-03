@@ -377,5 +377,8 @@
   "exercise:bank-account:name": "Bankkonto",
   "exercise:bank-account:blurb": "Simuliere ein Bankkonto, das Öffnen und Schließen, Abhebungen und Einzahlungen unterstützt. Vorsicht vor gleichzeitigen Transaktionen!",
   "exercise:satellite:name": "Satellit",
-  "exercise:satellite:blurb": "Rekonstruiere Binärbäume aus Preorder- und Inorder-Durchläufen."
+  "exercise:satellite:blurb": "Rekonstruiere Binärbäume aus Preorder- und Inorder-Durchläufen.",
+  "exercise:intergalactic-transmission:name": "Intergalaktische Übertragung",
+  "exercise:intergalactic-transmission:blurb": "Füge einer Nachricht Paritätsbits für die Übertragung hinzu",
+  "exercise:intergalactic-transmission:source": "Kah Goh"
 }

@@ -377,5 +377,8 @@
   "exercise:bank-account:name": "銀行帳戶",
   "exercise:bank-account:blurb": "模擬一個銀行帳戶，支援開戶／關戶、提款和存款。小心並行交易！",
   "exercise:satellite:name": "衛星",
-  "exercise:satellite:blurb": "根據前序與中序遍歷重建二元樹。"
+  "exercise:satellite:blurb": "根據前序與中序遍歷重建二元樹。",
+  "exercise:intergalactic-transmission:name": "星際傳輸",
+  "exercise:intergalactic-transmission:blurb": "為訊息加入同位位元以供傳輸",
+  "exercise:intergalactic-transmission:source": "Kah Goh"
 }

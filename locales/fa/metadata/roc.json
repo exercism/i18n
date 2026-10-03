@@ -377,5 +377,8 @@
   "exercise:bank-account:name": "حساب بانکی",
   "exercise:bank-account:blurb": "حساب بانکی‌ای را شبیه‌سازی کنید که باز کردن و بستن، برداشت و واریز پول را پشتیبانی می‌کند. مراقب تراکنش‌های همزمان باشید!",
   "exercise:satellite:name": "ماهواره",
-  "exercise:satellite:blurb": "درخت‌های دودویی را از پیمایش‌های پیش‌ترتیب و میان‌ترتیب بازسازی کنید."
+  "exercise:satellite:blurb": "درخت‌های دودویی را از پیمایش‌های پیش‌ترتیب و میان‌ترتیب بازسازی کنید.",
+  "exercise:intergalactic-transmission:name": "انتقال بین‌کهکشانی",
+  "exercise:intergalactic-transmission:blurb": "بیت‌های توازن را برای انتقال به یک پیام اضافه کنید",
+  "exercise:intergalactic-transmission:source": "Kah Goh"
 }
