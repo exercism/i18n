@@ -380,5 +380,11 @@
   "exercise:satellite:blurb": "Ricostruisci alberi binari dalle visite in pre-ordine e in ordine.",
   "exercise:intergalactic-transmission:name": "Trasmissione intergalattica",
   "exercise:intergalactic-transmission:blurb": "Aggiungi bit di parità a un messaggio per la trasmissione",
-  "exercise:intergalactic-transmission:source": "Kah Goh"
+  "exercise:intergalactic-transmission:source": "Kah Goh",
+  "exercise:linked-list:name": "Lista concatenata",
+  "exercise:prism:name": "Prisma",
+  "exercise:linked-list:blurb": "Implementa una lista doppiamente concatenata.",
+  "exercise:linked-list:source": "Argomento classico dell'informatica",
+  "exercise:prism:blurb": "Calcola il percorso di un laser attraverso prismi rifrangenti.",
+  "exercise:prism:source": "FraSanga"
 }

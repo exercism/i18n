@@ -380,5 +380,11 @@
   "exercise:satellite:blurb": "প্রি-অর্ডার ও ইন-অর্ডার ট্রাভার্সাল থেকে বাইনারি ট্রি পুনর্গঠন করুন।",
   "exercise:intergalactic-transmission:name": "আন্তঃগ্যালাক্টিক ট্রান্সমিশন",
   "exercise:intergalactic-transmission:blurb": "প্রেরণের জন্য একটি মেসেজে প্যারিটি বিট যোগ করুন",
-  "exercise:intergalactic-transmission:source": "Kah Goh"
+  "exercise:intergalactic-transmission:source": "Kah Goh",
+  "exercise:linked-list:name": "লিংকড লিস্ট",
+  "exercise:prism:name": "প্রিজম",
+  "exercise:linked-list:blurb": "একটি ডাবলি লিংকড লিস্ট বাস্তবায়ন করুন।",
+  "exercise:linked-list:source": "কম্পিউটার সায়েন্সের একটি চিরায়ত বিষয়",
+  "exercise:prism:blurb": "প্রতিসারক প্রিজমের মধ্য দিয়ে একটি লেজারের পথ গণনা করুন।",
+  "exercise:prism:source": "FraSanga"
 }

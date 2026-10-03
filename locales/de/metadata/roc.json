@@ -380,5 +380,11 @@
   "exercise:satellite:blurb": "Rekonstruiere Binärbäume aus Preorder- und Inorder-Durchläufen.",
   "exercise:intergalactic-transmission:name": "Intergalaktische Übertragung",
   "exercise:intergalactic-transmission:blurb": "Füge einer Nachricht Paritätsbits für die Übertragung hinzu",
-  "exercise:intergalactic-transmission:source": "Kah Goh"
+  "exercise:intergalactic-transmission:source": "Kah Goh",
+  "exercise:linked-list:name": "Verkettete Liste",
+  "exercise:prism:name": "Prisma",
+  "exercise:linked-list:blurb": "Implementiere eine doppelt verkettete Liste.",
+  "exercise:linked-list:source": "Klassisches Thema der Informatik",
+  "exercise:prism:blurb": "Berechne den Weg eines Lasers durch brechende Prismen.",
+  "exercise:prism:source": "FraSanga"
 }

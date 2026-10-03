@@ -382,5 +382,11 @@
   "exercise:satellite:blurb": "전위 순회와 중위 순회로 이진 트리를 재구성해요.",
   "exercise:intergalactic-transmission:name": "은하 간 전송",
   "exercise:intergalactic-transmission:blurb": "전송을 위해 메시지에 패리티 비트를 추가해요.",
-  "exercise:intergalactic-transmission:source": "Kah Goh"
+  "exercise:intergalactic-transmission:source": "Kah Goh",
+  "exercise:linked-list:name": "연결 리스트",
+  "exercise:prism:name": "프리즘",
+  "exercise:linked-list:blurb": "이중 연결 리스트를 구현해요.",
+  "exercise:linked-list:source": "고전적인 컴퓨터 과학 주제",
+  "exercise:prism:blurb": "굴절 프리즘을 통과하는 레이저의 경로를 계산해요.",
+  "exercise:prism:source": "FraSanga"
 }

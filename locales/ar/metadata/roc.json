@@ -380,5 +380,11 @@
   "exercise:satellite:blurb": "أعد بناء الأشجار الثنائية من الاجتياز المسبق والاجتياز الداخلي.",
   "exercise:intergalactic-transmission:name": "الإرسال بين المجرات",
   "exercise:intergalactic-transmission:blurb": "أضف بتّات التكافؤ إلى رسالة بغرض الإرسال",
-  "exercise:intergalactic-transmission:source": "Kah Goh"
+  "exercise:intergalactic-transmission:source": "Kah Goh",
+  "exercise:linked-list:name": "القائمة المترابطة",
+  "exercise:prism:name": "المنشور",
+  "exercise:linked-list:blurb": "نفّذ قائمة مترابطة مزدوجة.",
+  "exercise:linked-list:source": "موضوع كلاسيكي في علوم الحاسوب",
+  "exercise:prism:blurb": "احسب مسار شعاع ليزر عبر مناشير كاسرة للضوء.",
+  "exercise:prism:source": "FraSanga"
 }

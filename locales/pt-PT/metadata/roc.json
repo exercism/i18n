@@ -380,5 +380,11 @@
   "exercise:satellite:blurb": "Reconstrói árvores binárias a partir de percursos em pré-ordem e em ordem.",
   "exercise:intergalactic-transmission:name": "Transmissão intergaláctica",
   "exercise:intergalactic-transmission:blurb": "Adiciona bits de paridade a uma mensagem para transmissão",
-  "exercise:intergalactic-transmission:source": "Kah Goh"
+  "exercise:intergalactic-transmission:source": "Kah Goh",
+  "exercise:linked-list:name": "Lista ligada",
+  "exercise:prism:name": "Prisma",
+  "exercise:linked-list:blurb": "Implementa uma lista duplamente ligada.",
+  "exercise:linked-list:source": "Tópico clássico da informática",
+  "exercise:prism:blurb": "Calcula o percurso de um laser através de prismas refrativos.",
+  "exercise:prism:source": "FraSanga"
 }

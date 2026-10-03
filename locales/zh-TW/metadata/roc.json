@@ -380,5 +380,11 @@
   "exercise:satellite:blurb": "根據前序與中序遍歷重建二元樹。",
   "exercise:intergalactic-transmission:name": "星際傳輸",
   "exercise:intergalactic-transmission:blurb": "為訊息加入同位位元以供傳輸",
-  "exercise:intergalactic-transmission:source": "Kah Goh"
+  "exercise:intergalactic-transmission:source": "Kah Goh",
+  "exercise:linked-list:name": "連結串列",
+  "exercise:prism:name": "稜鏡",
+  "exercise:linked-list:blurb": "實作一個雙向連結串列。",
+  "exercise:linked-list:source": "經典的電腦科學主題",
+  "exercise:prism:blurb": "計算雷射光穿過折射稜鏡的路徑。",
+  "exercise:prism:source": "FraSanga"
 }
