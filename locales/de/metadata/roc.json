@@ -389,5 +389,7 @@
   "exercise:prism:source": "FraSanga",
   "exercise:baffling-birthdays:name": "Verblüffende Geburtstage",
   "exercise:baffling-birthdays:blurb": "Schätze die Wahrscheinlichkeiten des Geburtstagsparadoxons.",
-  "exercise:baffling-birthdays:source": "Erik Schierboom"
+  "exercise:baffling-birthdays:source": "Erik Schierboom",
+  "exercise:ledger:name": "Hauptbuch",
+  "exercise:ledger:blurb": "Refaktoriere einen Hauptbuch-Drucker."
 }

@@ -389,5 +389,7 @@
   "exercise:prism:source": "FraSanga",
   "exercise:baffling-birthdays:name": "أعياد ميلاد محيّرة",
   "exercise:baffling-birthdays:blurb": "قدّر احتمالات مفارقة أعياد الميلاد.",
-  "exercise:baffling-birthdays:source": "Erik Schierboom"
+  "exercise:baffling-birthdays:source": "Erik Schierboom",
+  "exercise:ledger:name": "دفتر الحسابات",
+  "exercise:ledger:blurb": "أعد هيكلة طابعة دفتر الحسابات."
 }

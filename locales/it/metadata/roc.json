@@ -389,5 +389,7 @@
   "exercise:prism:source": "FraSanga",
   "exercise:baffling-birthdays:name": "Compleanni sconcertanti",
   "exercise:baffling-birthdays:blurb": "Stima le probabilità del paradosso del compleanno.",
-  "exercise:baffling-birthdays:source": "Erik Schierboom"
+  "exercise:baffling-birthdays:source": "Erik Schierboom",
+  "exercise:ledger:name": "Registro",
+  "exercise:ledger:blurb": "Riorganizza una stampante di registri."
 }

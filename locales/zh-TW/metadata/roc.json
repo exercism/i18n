@@ -389,5 +389,7 @@
   "exercise:prism:source": "FraSanga",
   "exercise:baffling-birthdays:name": "令人費解的生日",
   "exercise:baffling-birthdays:blurb": "估算生日悖論的機率。",
-  "exercise:baffling-birthdays:source": "Erik Schierboom"
+  "exercise:baffling-birthdays:source": "Erik Schierboom",
+  "exercise:ledger:name": "帳本",
+  "exercise:ledger:blurb": "重構一個帳本列印程式。"
 }

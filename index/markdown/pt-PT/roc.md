@@ -266,6 +266,11 @@ This page is generated from [the index](../../json/pt-PT/roc.json) by `scripts/b
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/leap/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/b1/4f/8565d61694d7c20d78e10f966bd3deaaf748.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/leap/.docs/introduction.md)): [Latest](../../../locales/pt-PT/content/4f/fd/2da594a51072cb08a32004b217c1c988cfdc.md)
 
+### Ledger (Livro-razão)
+
+- `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/ledger/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/a5/3e/5c15e3e6f5f6a62a8ea6be82e3072477baae.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/ledger/.docs/instructions.append.md)): [Latest](../../../locales/pt-PT/content/8a/90/ca181bfbfee68ca492f6f28613a034f2e528.md)
+
 ### Line Up (Fila)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/line-up/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/9e/68/6ecbffbfb01ac8a9b94dbbf187bd640b0335.md)

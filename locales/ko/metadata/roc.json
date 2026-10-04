@@ -391,5 +391,7 @@
   "exercise:prism:source": "FraSanga",
   "exercise:baffling-birthdays:name": "놀라운 생일",
   "exercise:baffling-birthdays:blurb": "생일 역설의 확률을 추정해요.",
-  "exercise:baffling-birthdays:source": "Erik Schierboom"
+  "exercise:baffling-birthdays:source": "Erik Schierboom",
+  "exercise:ledger:name": "원장",
+  "exercise:ledger:blurb": "원장 프린터를 리팩터링해요."
 }

@@ -389,5 +389,7 @@
   "exercise:prism:source": "FraSanga",
   "exercise:baffling-birthdays:name": "হতবুদ্ধিকর জন্মদিন",
   "exercise:baffling-birthdays:blurb": "জন্মদিন প্যারাডক্সের সম্ভাব্যতা অনুমান করুন।",
-  "exercise:baffling-birthdays:source": "Erik Schierboom"
+  "exercise:baffling-birthdays:source": "Erik Schierboom",
+  "exercise:ledger:name": "খতিয়ান",
+  "exercise:ledger:blurb": "একটি খতিয়ান প্রিন্টার রিফ্যাক্টর করুন।"
 }
