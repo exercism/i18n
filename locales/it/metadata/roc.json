@@ -404,5 +404,7 @@
   "exercise:split-second-stopwatch:source": "Erik Schierboom",
   "exercise:swift-scheduling:name": "Pianificazione Swift",
   "exercise:swift-scheduling:blurb": "Converti le descrizioni delle date di consegna in date di consegna effettive.",
-  "exercise:swift-scheduling:source": "Erik Schierboom"
+  "exercise:swift-scheduling:source": "Erik Schierboom",
+  "exercise:tree-building:name": "Costruzione di un albero",
+  "exercise:tree-building:blurb": "Riorganizza un algoritmo di costruzione di un albero."
 }

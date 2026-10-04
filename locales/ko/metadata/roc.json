@@ -404,5 +404,7 @@
   "exercise:split-second-stopwatch:source": "Erik Schierboom",
   "exercise:swift-scheduling:name": "신속한 일정 관리",
   "exercise:swift-scheduling:blurb": "배송 날짜 설명을 실제 배송 날짜로 변환해요.",
-  "exercise:swift-scheduling:source": "Erik Schierboom"
+  "exercise:swift-scheduling:source": "Erik Schierboom",
+  "exercise:tree-building:name": "트리 구성",
+  "exercise:tree-building:blurb": "트리 구성 알고리즘을 리팩터링해요."
 }

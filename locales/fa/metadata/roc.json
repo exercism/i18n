@@ -404,5 +404,7 @@
   "exercise:split-second-stopwatch:source": "Erik Schierboom",
   "exercise:swift-scheduling:name": "زمان‌بندی سریع",
   "exercise:swift-scheduling:blurb": "توصیف‌های تاریخ تحویل را به تاریخ‌های واقعی تحویل تبدیل کنید.",
-  "exercise:swift-scheduling:source": "Erik Schierboom"
+  "exercise:swift-scheduling:source": "Erik Schierboom",
+  "exercise:tree-building:name": "ساخت درخت",
+  "exercise:tree-building:blurb": "یک الگوریتم ساخت درخت را بازآرایی کنید."
 }

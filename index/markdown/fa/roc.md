@@ -582,6 +582,10 @@ This page is generated from [the index](../../json/fa/roc.json) by `scripts/buil
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/transpose/.docs/instructions.md)): [Latest](../../../locales/fa/content/60/33/af745f45f5dcedcd87af4c3a6d692c2a0640.md)
 
+### Tree Building (ساخت درخت)
+
+- `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/tree-building/.docs/instructions.md)): [Latest](../../../locales/fa/content/01/48/e8a010e1e0b4dd42d17963abb313398e1873.md)
+
 ### Triangle (مثلث)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/fa/content/e9/b0/53dcd344e85179041c10dcd48406d735b2f9.md)

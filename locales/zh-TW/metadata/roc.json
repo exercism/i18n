@@ -404,5 +404,7 @@
   "exercise:split-second-stopwatch:source": "Erik Schierboom",
   "exercise:swift-scheduling:name": "快速排程",
   "exercise:swift-scheduling:blurb": "將交貨日期的描述轉換成實際的交貨日期。",
-  "exercise:swift-scheduling:source": "Erik Schierboom"
+  "exercise:swift-scheduling:source": "Erik Schierboom",
+  "exercise:tree-building:name": "建立樹狀結構",
+  "exercise:tree-building:blurb": "重構一個建立樹狀結構的演算法。"
 }

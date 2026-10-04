@@ -404,5 +404,7 @@
   "exercise:split-second-stopwatch:source": "Erik Schierboom",
   "exercise:swift-scheduling:name": "Swift-Terminplanung",
   "exercise:swift-scheduling:blurb": "Wandle Beschreibungen von Lieferdaten in tatsächliche Lieferdaten um.",
-  "exercise:swift-scheduling:source": "Erik Schierboom"
+  "exercise:swift-scheduling:source": "Erik Schierboom",
+  "exercise:tree-building:name": "Baumaufbau",
+  "exercise:tree-building:blurb": "Refaktoriere einen Algorithmus zum Aufbau eines Baums."
 }

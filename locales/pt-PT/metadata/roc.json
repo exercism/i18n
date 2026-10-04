@@ -404,5 +404,7 @@
   "exercise:split-second-stopwatch:source": "Erik Schierboom",
   "exercise:swift-scheduling:name": "Agendamento Rápido",
   "exercise:swift-scheduling:blurb": "Converte descrições de datas de entrega em datas de entrega reais.",
-  "exercise:swift-scheduling:source": "Erik Schierboom"
+  "exercise:swift-scheduling:source": "Erik Schierboom",
+  "exercise:tree-building:name": "Construção de Árvores",
+  "exercise:tree-building:blurb": "Refatora um algoritmo de construção de árvores."
 }

@@ -404,5 +404,7 @@
   "exercise:split-second-stopwatch:source": "Erik Schierboom",
   "exercise:swift-scheduling:name": "দ্রুত সময়সূচি",
   "exercise:swift-scheduling:blurb": "ডেলিভারির তারিখের বর্ণনাকে প্রকৃত ডেলিভারির তারিখে রূপান্তর করুন।",
-  "exercise:swift-scheduling:source": "Erik Schierboom"
+  "exercise:swift-scheduling:source": "Erik Schierboom",
+  "exercise:tree-building:name": "ট্রি বিল্ডিং",
+  "exercise:tree-building:blurb": "একটি ট্রি বিল্ডিং অ্যালগরিদম রিফ্যাক্টর করুন।"
 }
