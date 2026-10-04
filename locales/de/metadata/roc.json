@@ -395,5 +395,8 @@
   "exercise:lens-person:name": "Lens Person",
   "exercise:lens-person:blurb": "Verwende Lenses, um verschachtelte Records zu aktualisieren (spezifisch für Sprachen mit unveränderlichen Daten).",
   "exercise:react:name": "React",
-  "exercise:react:blurb": "Implementiere ein einfaches reaktives System."
+  "exercise:react:blurb": "Implementiere ein einfaches reaktives System.",
+  "exercise:relative-distance:name": "Verwandtschaftsabstand",
+  "exercise:relative-distance:blurb": "Berechne für einen Stammbaum den Verwandtschaftsgrad.",
+  "exercise:relative-distance:source": "vaeng"
 }

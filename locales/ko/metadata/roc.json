@@ -395,5 +395,8 @@
   "exercise:ledger:name": "원장",
   "exercise:ledger:blurb": "원장 프린터를 리팩터링해요.",
   "exercise:react:name": "React",
-  "exercise:react:blurb": "기본적인 반응형 시스템을 구현해요."
+  "exercise:react:blurb": "기본적인 반응형 시스템을 구현해요.",
+  "exercise:relative-distance:name": "친척 간의 거리",
+  "exercise:relative-distance:blurb": "가계도를 보고 촌수를 계산해요.",
+  "exercise:relative-distance:source": "vaeng"
 }

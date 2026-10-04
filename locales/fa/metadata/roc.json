@@ -395,5 +395,8 @@
   "exercise:lens-person:name": "فرد لنز",
   "exercise:lens-person:blurb": "با لنزها رکوردهای تودرتو را به‌روزرسانی کنید (مخصوص زبان‌هایی با داده‌های تغییرناپذیر).",
   "exercise:react:name": "React",
-  "exercise:react:blurb": "یک سامانه‌ی واکنشی پایه پیاده‌سازی کنید."
+  "exercise:react:blurb": "یک سامانه‌ی واکنشی پایه پیاده‌سازی کنید.",
+  "exercise:relative-distance:name": "فاصله‌ی نسبی",
+  "exercise:relative-distance:blurb": "با داشتن یک شجره‌نامه، درجه‌ی خویشاوندی را محاسبه کنید.",
+  "exercise:relative-distance:source": "vaeng"
 }

@@ -395,5 +395,8 @@
   "exercise:lens-person:name": "透鏡人",
   "exercise:lens-person:blurb": "使用透鏡更新巢狀記錄（適用於具有不可變資料的語言）。",
   "exercise:react:name": "React",
-  "exercise:react:blurb": "實作一個基本的反應式系統。"
+  "exercise:react:blurb": "實作一個基本的反應式系統。",
+  "exercise:relative-distance:name": "相對距離",
+  "exercise:relative-distance:blurb": "給定一棵家族樹，計算兩人之間的親等。",
+  "exercise:relative-distance:source": "vaeng"
 }

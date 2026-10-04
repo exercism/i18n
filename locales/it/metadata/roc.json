@@ -395,5 +395,8 @@
   "exercise:lens-person:name": "Persona con le lenti",
   "exercise:lens-person:blurb": "Usa le lenti per aggiornare record annidati (specifico dei linguaggi con dati immutabili).",
   "exercise:react:name": "React",
-  "exercise:react:blurb": "Implementa un semplice sistema reattivo."
+  "exercise:react:blurb": "Implementa un semplice sistema reattivo.",
+  "exercise:relative-distance:name": "Distanza relativa",
+  "exercise:relative-distance:blurb": "Dato un albero genealogico, calcola il grado di separazione.",
+  "exercise:relative-distance:source": "vaeng"
 }

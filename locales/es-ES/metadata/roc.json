@@ -395,5 +395,8 @@
   "exercise:ledger:name": "Libro mayor",
   "exercise:ledger:blurb": "Refactoriza una impresora de libro mayor.",
   "exercise:react:name": "React",
-  "exercise:react:blurb": "Implementa un sistema reactivo básico."
+  "exercise:react:blurb": "Implementa un sistema reactivo básico.",
+  "exercise:relative-distance:name": "Distancia relativa",
+  "exercise:relative-distance:blurb": "Dado un árbol genealógico, calcula el grado de separación.",
+  "exercise:relative-distance:source": "vaeng"
 }

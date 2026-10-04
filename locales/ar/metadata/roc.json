@@ -395,5 +395,8 @@
   "exercise:lens-person:name": "شخص بالعدسات",
   "exercise:lens-person:blurb": "استخدم العدسات لتحديث السجلات المتداخلة (خاص باللغات ذات البيانات غير القابلة للتغيير).",
   "exercise:react:name": "React",
-  "exercise:react:blurb": "نفّذ نظامًا تفاعليًا أساسيًا."
+  "exercise:react:blurb": "نفّذ نظامًا تفاعليًا أساسيًا.",
+  "exercise:relative-distance:name": "المسافة النسبية",
+  "exercise:relative-distance:blurb": "بمعلومية شجرة عائلة، احسب درجة القرابة.",
+  "exercise:relative-distance:source": "vaeng"
 }

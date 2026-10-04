@@ -395,5 +395,8 @@
   "exercise:lens-person:name": "লেন্স ব্যক্তি",
   "exercise:lens-person:blurb": "নেস্টেড রেকর্ড আপডেট করতে লেন্স ব্যবহার করুন (ইমিউটেবল ডেটা আছে এমন ভাষার জন্য প্রযোজ্য)।",
   "exercise:react:name": "React",
-  "exercise:react:blurb": "একটি মৌলিক রিঅ্যাকটিভ সিস্টেম বাস্তবায়ন করুন।"
+  "exercise:react:blurb": "একটি মৌলিক রিঅ্যাকটিভ সিস্টেম বাস্তবায়ন করুন।",
+  "exercise:relative-distance:name": "আপেক্ষিক দূরত্ব",
+  "exercise:relative-distance:blurb": "একটি বংশতালিকা দেওয়া থাকলে, সম্পর্কের দূরত্ব নির্ণয় করুন।",
+  "exercise:relative-distance:source": "vaeng"
 }

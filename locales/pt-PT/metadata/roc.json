@@ -395,5 +395,8 @@
   "exercise:lens-person:name": "Pessoa com lentes",
   "exercise:lens-person:blurb": "Usa lentes para atualizar registos aninhados (específico para linguagens com dados imutáveis).",
   "exercise:react:name": "React",
-  "exercise:react:blurb": "Implementa um sistema reativo básico."
+  "exercise:react:blurb": "Implementa um sistema reativo básico.",
+  "exercise:relative-distance:name": "Distância relativa",
+  "exercise:relative-distance:blurb": "Dada uma árvore genealógica, calcula o grau de parentesco.",
+  "exercise:relative-distance:source": "vaeng"
 }
