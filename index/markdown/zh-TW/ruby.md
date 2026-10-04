@@ -733,7 +733,8 @@ This page is generated from [the index](../../json/zh-TW/ruby.json) by `scripts/
 ### Strings (字串)
 
 - `introduction.md` ([English](https://github.com/exercism/ruby/blob/main/concepts/strings/introduction.md)): [Latest](../../../locales/zh-TW/content/e3/89/a71c715a0b673387bd41cc3f526cde377be9.md)
-- `about.md` ([English](https://github.com/exercism/ruby/blob/main/concepts/strings/about.md)): [Latest](../../../locales/zh-TW/content/99/24/4bc77539094a171b0c7be474cae126e70d3a.md)
+- `about.md` ([English](https://github.com/exercism/ruby/blob/main/concepts/strings/about.md)): [Latest](../../../locales/zh-TW/content/56/74/eb551864098e0d80da37b57cdc00476e27d4.md)
+  - [`99244bc775`](../../../locales/zh-TW/content/99/24/4bc77539094a171b0c7be474cae126e70d3a.md)
 
 ### Symbols (符號)
 
@@ -757,7 +758,8 @@ This page is generated from [the index](../../json/zh-TW/ruby.json) by `scripts/
 
 ### How to learn Ruby (如何學習 Ruby)
 
-- `LEARNING.md` ([English](https://github.com/exercism/ruby/blob/main/docs/LEARNING.md)): [Latest](../../../locales/zh-TW/content/71/f7/9f31c56678a6de5d1604925d645a11572e75.md)
+- `LEARNING.md` ([English](https://github.com/exercism/ruby/blob/main/docs/LEARNING.md)): [Latest](../../../locales/zh-TW/content/b1/b5/a7ad363bb709e51787374d146778b11f9250.md)
+  - [`71f79f31c5`](../../../locales/zh-TW/content/71/f7/9f31c56678a6de5d1604925d645a11572e75.md)
 
 ### Installing Ruby locally (在本機安裝 Ruby)
 
@@ -769,7 +771,8 @@ This page is generated from [the index](../../json/zh-TW/ruby.json) by `scripts/
 
 ### Useful Ruby resources (實用的 Ruby 資源)
 
-- `RESOURCES.md` ([English](https://github.com/exercism/ruby/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/zh-TW/content/36/10/e39e5270aff648da1a8d43567384eb965539.md)
+- `RESOURCES.md` ([English](https://github.com/exercism/ruby/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/zh-TW/content/0b/11/3d0c0eabc80ac0e097762d032489f013a07a.md)
+  - [`3610e39e52`](../../../locales/zh-TW/content/36/10/e39e5270aff648da1a8d43567384eb965539.md)
 
 ## Shared exercise docs
 
