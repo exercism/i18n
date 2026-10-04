@@ -271,6 +271,11 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/ledger/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/a5/3e/5c15e3e6f5f6a62a8ea6be82e3072477baae.md)
 - `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/ledger/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/8a/90/ca181bfbfee68ca492f6f28613a034f2e528.md)
 
+### Lens Person (透鏡人)
+
+- `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/lens-person/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/c7/c7/07e249dc11476b1c4a2ed23179e26701715d.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/lens-person/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/63/81/a5496fa5121887ba25ee07f6cfaab40abb45.md)
+
 ### Line Up (排隊)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/line-up/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/9e/68/6ecbffbfb01ac8a9b94dbbf187bd640b0335.md)

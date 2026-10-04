@@ -391,5 +391,7 @@
   "exercise:baffling-birthdays:blurb": "قدّر احتمالات مفارقة أعياد الميلاد.",
   "exercise:baffling-birthdays:source": "Erik Schierboom",
   "exercise:ledger:name": "دفتر الحسابات",
-  "exercise:ledger:blurb": "أعد هيكلة طابعة دفتر الحسابات."
+  "exercise:ledger:blurb": "أعد هيكلة طابعة دفتر الحسابات.",
+  "exercise:lens-person:name": "شخص بالعدسات",
+  "exercise:lens-person:blurb": "استخدم العدسات لتحديث السجلات المتداخلة (خاص باللغات ذات البيانات غير القابلة للتغيير)."
 }

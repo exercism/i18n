@@ -391,5 +391,7 @@
   "exercise:baffling-birthdays:blurb": "Schätze die Wahrscheinlichkeiten des Geburtstagsparadoxons.",
   "exercise:baffling-birthdays:source": "Erik Schierboom",
   "exercise:ledger:name": "Hauptbuch",
-  "exercise:ledger:blurb": "Refaktoriere einen Hauptbuch-Drucker."
+  "exercise:ledger:blurb": "Refaktoriere einen Hauptbuch-Drucker.",
+  "exercise:lens-person:name": "Lens Person",
+  "exercise:lens-person:blurb": "Verwende Lenses, um verschachtelte Records zu aktualisieren (spezifisch für Sprachen mit unveränderlichen Daten)."
 }

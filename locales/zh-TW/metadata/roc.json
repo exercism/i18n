@@ -391,5 +391,7 @@
   "exercise:baffling-birthdays:blurb": "估算生日悖論的機率。",
   "exercise:baffling-birthdays:source": "Erik Schierboom",
   "exercise:ledger:name": "帳本",
-  "exercise:ledger:blurb": "重構一個帳本列印程式。"
+  "exercise:ledger:blurb": "重構一個帳本列印程式。",
+  "exercise:lens-person:name": "透鏡人",
+  "exercise:lens-person:blurb": "使用透鏡更新巢狀記錄（適用於具有不可變資料的語言）。"
 }
