@@ -101,6 +101,7 @@
     "exercises/practice/reverse-string/.docs/instructions.append.md": ["73cdbb6d193818766f94c10e9074f5a6dc5fe625"],
     "exercises/practice/reverse-string/.docs/instructions.md": ["0ff4198e46ef06331339f8a44292d7e287bdeeec","039ee33ae5810838b279d60679d8f995ca286fb7"],
     "exercises/practice/reverse-string/.docs/introduction.md": ["02233e0755e8aa76ba1fa8d6f7f05ae17ff9cc70"],
+    "exercises/practice/robot-simulator/.docs/instructions.append.md": ["5d8822108fdcc43785dce923827252a7cd5cc87c"],
     "exercises/practice/robot-simulator/.docs/instructions.md": ["0ac96ce0bdfd660ca416dd86b21f64517fa33eb9"],
     "exercises/practice/scale-generator/.docs/instructions.md": ["ebb7debc7636b1656892b7cd9783e4fd91775c26"],
     "exercises/practice/scrabble-score/.docs/instructions.md": ["738f928c5b64a1453fe44d29b22efbf90479500b"],

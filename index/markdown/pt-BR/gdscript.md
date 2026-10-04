@@ -147,6 +147,7 @@ This page is generated from [the index](../../json/pt-BR/gdscript.json) by `scri
 ### Robot Simulator (Simulador de robô)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/robot-simulator/.docs/instructions.md)): [Latest](../../../locales/pt-BR/content/0a/c9/6ce0bdfd660ca416dd86b21f64517fa33eb9.md)
+- `instructions.append.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/robot-simulator/.docs/instructions.append.md)): [Latest](../../../locales/pt-BR/content/5d/88/22108fdcc43785dce923827252a7cd5cc87c.md)
 
 ### Scale Generator (Gerador de escalas)
 

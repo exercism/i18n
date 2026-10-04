@@ -146,6 +146,7 @@ This page is generated from [the index](../../json/zh-TW/gdscript.json) by `scri
 ### Robot Simulator (機器人模擬器)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/robot-simulator/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/0a/c9/6ce0bdfd660ca416dd86b21f64517fa33eb9.md)
+- `instructions.append.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/robot-simulator/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/5d/88/22108fdcc43785dce923827252a7cd5cc87c.md)
 
 ### Scale Generator (音階產生器)
 
