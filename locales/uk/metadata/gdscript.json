@@ -137,5 +137,8 @@
   "exercise:sieve:source": "Решето Ератосфена у Wikipedia",
   "exercise:secret-handshake:name": "Таємне рукостискання",
   "exercise:secret-handshake:blurb": "Дано десяткове число, перетворіть його на відповідну послідовність подій для таємного рукостискання.",
-  "exercise:secret-handshake:source": "Берт, у Mary Poppins"
+  "exercise:secret-handshake:source": "Берт, у Mary Poppins",
+  "exercise:prime-factors:name": "Прості множники",
+  "exercise:prime-factors:blurb": "Обчислити прості множники заданого натурального числа.",
+  "exercise:prime-factors:source": "The Prime Factors Kata від Uncle Bob"
 }

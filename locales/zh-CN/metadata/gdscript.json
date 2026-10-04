@@ -137,5 +137,8 @@
   "exercise:sieve:source": "Wikipedia 上的埃拉托斯特尼筛法",
   "exercise:secret-handshake:name": "秘密握手",
   "exercise:secret-handshake:blurb": "给定一个十进制数，把它转换成秘密握手对应的动作序列。",
-  "exercise:secret-handshake:source": "Mary Poppins 中的 Bert"
+  "exercise:secret-handshake:source": "Mary Poppins 中的 Bert",
+  "exercise:prime-factors:name": "质因数",
+  "exercise:prime-factors:blurb": "计算给定自然数的质因数。",
+  "exercise:prime-factors:source": "由 Uncle Bob 编写的 The Prime Factors Kata"
 }

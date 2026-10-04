@@ -137,5 +137,8 @@
   "exercise:sieve:source": "Wikipedia पर एराटोस्थनीज़ की छलनी",
   "exercise:secret-handshake:name": "गुप्त हाथ मिलाना",
   "exercise:secret-handshake:blurb": "एक दशमलव संख्या दी गई है; उसे गुप्त हाथ मिलाने की घटनाओं के उचित क्रम में बदलिए।",
-  "exercise:secret-handshake:source": "Mary Poppins में Bert"
+  "exercise:secret-handshake:source": "Mary Poppins में Bert",
+  "exercise:prime-factors:name": "अभाज्य गुणनखंड",
+  "exercise:prime-factors:blurb": "दी गई प्राकृत संख्या के अभाज्य गुणनखंड निकालिए।",
+  "exercise:prime-factors:source": "Uncle Bob का Prime Factors Kata"
 }

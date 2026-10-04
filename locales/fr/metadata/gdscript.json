@@ -137,5 +137,8 @@
   "exercise:sieve:source": "Crible d'Ératosthène sur Wikipedia",
   "exercise:secret-handshake:name": "Poignée de main secrète",
   "exercise:secret-handshake:blurb": "À partir d'un nombre décimal, convertis-le en la séquence d'événements appropriée pour une poignée de main secrète.",
-  "exercise:secret-handshake:source": "Bert, dans Mary Poppins"
+  "exercise:secret-handshake:source": "Bert, dans Mary Poppins",
+  "exercise:prime-factors:name": "Facteurs premiers",
+  "exercise:prime-factors:blurb": "Calcule les facteurs premiers d'un nombre naturel donné.",
+  "exercise:prime-factors:source": "Le kata Prime Factors d'Uncle Bob"
 }

@@ -137,5 +137,8 @@
   "exercise:sieve:source": "Sieb des Eratosthenes bei Wikipedia",
   "exercise:secret-handshake:name": "Geheimer Handschlag",
   "exercise:secret-handshake:blurb": "Wandle eine Dezimalzahl in die passende Abfolge von Ereignissen für einen geheimen Handschlag um.",
-  "exercise:secret-handshake:source": "Bert, in Mary Poppins"
+  "exercise:secret-handshake:source": "Bert, in Mary Poppins",
+  "exercise:prime-factors:name": "Primfaktoren",
+  "exercise:prime-factors:blurb": "Berechne die Primfaktoren einer gegebenen natürlichen Zahl.",
+  "exercise:prime-factors:source": "Die Prime Factors Kata von Uncle Bob"
 }

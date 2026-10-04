@@ -137,5 +137,8 @@
   "exercise:sieve:source": "Criba de Eratóstenes en Wikipedia",
   "exercise:secret-handshake:name": "Apretón de manos secreto",
   "exercise:secret-handshake:blurb": "Dado un número decimal, conviértelo en la secuencia de eventos adecuada para un apretón de manos secreto.",
-  "exercise:secret-handshake:source": "Bert, en Mary Poppins"
+  "exercise:secret-handshake:source": "Bert, en Mary Poppins",
+  "exercise:prime-factors:name": "Factores primos",
+  "exercise:prime-factors:blurb": "Calcula los factores primos de un número natural dado.",
+  "exercise:prime-factors:source": "La kata Prime Factors, de Uncle Bob"
 }

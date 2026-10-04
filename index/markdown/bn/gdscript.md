@@ -115,6 +115,10 @@ This page is generated from [the index](../../json/bn/gdscript.json) by `scripts
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/phone-number/.docs/instructions.md)): [Latest](../../../locales/bn/content/5d/4d/3739f4563d3f7781a1524df13f11cc8fbc71.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/phone-number/.docs/introduction.md)): [Latest](../../../locales/bn/content/c4/14/2c5af7289f74bf05d04c4563e2968a639cd2.md)
 
+### Prime Factors (মৌলিক গুণনীয়ক)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/prime-factors/.docs/instructions.md)): [Latest](../../../locales/bn/content/25/2c/c8ee1853f4d7f7721273eee09e988a2f7421.md)
+
 ### Raindrops (বৃষ্টির ফোঁটা)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/raindrops/.docs/instructions.md)): [Latest](../../../locales/bn/content/df/64/41075165afbe92ecc878d674f6861777972d.md)

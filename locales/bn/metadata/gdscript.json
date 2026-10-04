@@ -137,5 +137,8 @@
   "exercise:sieve:source": "Wikipedia-তে এরাটোস্থেনিসের চালনি।",
   "exercise:secret-handshake:name": "গোপন হ্যান্ডশেক",
   "exercise:secret-handshake:blurb": "একটি দশমিক সংখ্যা দেওয়া থাকলে সেটিকে গোপন হ্যান্ডশেকের উপযুক্ত ঘটনাক্রমে রূপান্তর করুন।",
-  "exercise:secret-handshake:source": "Mary Poppins-এর Bert."
+  "exercise:secret-handshake:source": "Mary Poppins-এর Bert.",
+  "exercise:prime-factors:name": "মৌলিক গুণনীয়ক",
+  "exercise:prime-factors:blurb": "প্রদত্ত একটি স্বাভাবিক সংখ্যার মৌলিক গুণনীয়ক নির্ণয় করুন।",
+  "exercise:prime-factors:source": "Uncle Bob-এর The Prime Factors Kata"
 }

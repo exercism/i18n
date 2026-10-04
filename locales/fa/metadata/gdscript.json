@@ -137,5 +137,8 @@
   "exercise:sieve:source": "غربال اراتوستن در Wikipedia",
   "exercise:secret-handshake:name": "دست‌دادن مخفی",
   "exercise:secret-handshake:blurb": "اگر یک عدد دهدهی داده شود، آن را به دنباله‌ی مناسب رویدادها برای یک دست‌دادن مخفی تبدیل کنید.",
-  "exercise:secret-handshake:source": "Bert، در Mary Poppins"
+  "exercise:secret-handshake:source": "Bert، در Mary Poppins",
+  "exercise:prime-factors:name": "عوامل اول",
+  "exercise:prime-factors:blurb": "عوامل اول یک عدد طبیعی داده‌شده را محاسبه کنید.",
+  "exercise:prime-factors:source": "کاتای عوامل اول از Uncle Bob"
 }

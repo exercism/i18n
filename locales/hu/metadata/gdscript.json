@@ -137,5 +137,8 @@
   "exercise:sieve:source": "Eratoszthenész szitája a Wikipédián",
   "exercise:secret-handshake:name": "Titkos kézfogás",
   "exercise:secret-handshake:blurb": "Adott egy tízes számrendszerbeli szám; alakítsd át egy titkos kézfogás megfelelő eseménysorozatává.",
-  "exercise:secret-handshake:source": "Bert a Mary Poppinsból"
+  "exercise:secret-handshake:source": "Bert a Mary Poppinsból",
+  "exercise:prime-factors:name": "Prímtényezők",
+  "exercise:prime-factors:blurb": "Számítsd ki egy adott természetes szám prímtényezőit.",
+  "exercise:prime-factors:source": "The Prime Factors Kata, Uncle Bob tollából."
 }

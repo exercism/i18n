@@ -137,5 +137,8 @@
   "exercise:sieve:source": "Wikipediaのエラトステネスのふるい",
   "exercise:secret-handshake:name": "秘密の握手",
   "exercise:secret-handshake:blurb": "10進数が与えられたとき、それを秘密の握手のための適切なイベントの並びに変換します。",
-  "exercise:secret-handshake:source": "Mary PoppinsのBert"
+  "exercise:secret-handshake:source": "Mary PoppinsのBert",
+  "exercise:prime-factors:name": "素因数",
+  "exercise:prime-factors:blurb": "与えられた自然数の素因数を計算します。",
+  "exercise:prime-factors:source": "Uncle BobによるThe Prime Factors Kata"
 }

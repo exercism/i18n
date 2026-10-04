@@ -137,5 +137,8 @@
   "exercise:sieve:source": "غربال إراتوستينس في Wikipedia",
   "exercise:secret-handshake:name": "المصافحة السرية",
   "exercise:secret-handshake:blurb": "بمعلومية عدد عشري، حوّله إلى تتابع الأحداث المناسب لمصافحة سرية.",
-  "exercise:secret-handshake:source": "Bert، في Mary Poppins"
+  "exercise:secret-handshake:source": "Bert، في Mary Poppins",
+  "exercise:prime-factors:name": "العوامل الأولية",
+  "exercise:prime-factors:blurb": "احسب العوامل الأولية لعدد طبيعي معطى.",
+  "exercise:prime-factors:source": "كاتا العوامل الأولية بقلم Uncle Bob"
 }

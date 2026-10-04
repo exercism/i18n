@@ -137,5 +137,8 @@
   "exercise:sieve:source": "Κόσκινο του Ερατοσθένη στη Wikipedia",
   "exercise:secret-handshake:name": "Μυστική χειραψία",
   "exercise:secret-handshake:blurb": "Με δεδομένο έναν δεκαδικό αριθμό, μετέτρεψέ τον στην κατάλληλη ακολουθία γεγονότων για μια μυστική χειραψία.",
-  "exercise:secret-handshake:source": "Ο Bert, στη Mary Poppins"
+  "exercise:secret-handshake:source": "Ο Bert, στη Mary Poppins",
+  "exercise:prime-factors:name": "Πρώτοι παράγοντες",
+  "exercise:prime-factors:blurb": "Υπολόγισε τους πρώτους παράγοντες ενός δεδομένου φυσικού αριθμού.",
+  "exercise:prime-factors:source": "The Prime Factors Kata από τον Uncle Bob"
 }
