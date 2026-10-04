@@ -151,5 +151,8 @@
   "exercise:camicia:source": "Beggar-My-Neighbour",
   "exercise:variable-length-quantity:name": "Változó hosszúságú mennyiség",
   "exercise:variable-length-quantity:blurb": "Valósítsd meg a változó hosszúságú mennyiség kódolását és dekódolását.",
-  "exercise:variable-length-quantity:source": "Egy szegény Splice-fejlesztő, akinek MIDI-kódolást/dekódolást kellett megvalósítania."
+  "exercise:variable-length-quantity:source": "Egy szegény Splice-fejlesztő, akinek MIDI-kódolást/dekódolást kellett megvalósítania.",
+  "exercise:two-bucket:name": "Két vödör",
+  "exercise:two-bucket:blurb": "Adott két különböző méretű vödör, mutasd meg, hogyan mérhetsz ki pontosan egy adott számú litert.",
+  "exercise:two-bucket:source": "Water Pouring Problem"
 }

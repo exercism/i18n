@@ -151,5 +151,8 @@
   "exercise:camicia:source": "Beggar-My-Neighbour",
   "exercise:variable-length-quantity:name": "ভ্যারিয়েবল লেংথ কোয়ান্টিটি",
   "exercise:variable-length-quantity:blurb": "ভ্যারিয়েবল লেংথ কোয়ান্টিটি এনকোডিং ও ডিকোডিং বাস্তবায়ন করুন।",
-  "exercise:variable-length-quantity:source": "একজন বেচারা Splice ডেভেলপার, যাকে MIDI এনকোডিং/ডিকোডিং বাস্তবায়ন করতে হয়েছিল।"
+  "exercise:variable-length-quantity:source": "একজন বেচারা Splice ডেভেলপার, যাকে MIDI এনকোডিং/ডিকোডিং বাস্তবায়ন করতে হয়েছিল।",
+  "exercise:two-bucket:name": "দুই বালতি",
+  "exercise:two-bucket:blurb": "ভিন্ন আকারের দুটি বালতি দিয়ে নির্দিষ্ট পরিমাণ লিটার কীভাবে মাপা যায় তা দেখান।",
+  "exercise:two-bucket:source": "Water Pouring Problem"
 }

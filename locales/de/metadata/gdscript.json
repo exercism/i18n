@@ -151,5 +151,8 @@
   "exercise:camicia:source": "Beggar-My-Neighbour",
   "exercise:variable-length-quantity:name": "Zahlen variabler Länge",
   "exercise:variable-length-quantity:blurb": "Implementiere die Kodierung und Dekodierung von Zahlen variabler Länge.",
-  "exercise:variable-length-quantity:source": "Ein armer Splice-Entwickler, der MIDI-Kodierung/-Dekodierung implementieren musste."
+  "exercise:variable-length-quantity:source": "Ein armer Splice-Entwickler, der MIDI-Kodierung/-Dekodierung implementieren musste.",
+  "exercise:two-bucket:name": "Zwei Eimer",
+  "exercise:two-bucket:blurb": "Zeige mit zwei unterschiedlich großen Eimern, wie man eine exakte Anzahl Liter abmisst.",
+  "exercise:two-bucket:source": "Water Pouring Problem"
 }

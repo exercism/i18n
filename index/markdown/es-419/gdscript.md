@@ -209,6 +209,10 @@ This page is generated from [the index](../../json/es-419/gdscript.json) by `scr
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/es-419/content/e9/b0/53dcd344e85179041c10dcd48406d735b2f9.md)
 
+### Two Bucket (Dos baldes)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/two-bucket/.docs/instructions.md)): [Latest](../../../locales/es-419/content/30/d7/79aa9225cde761d6e21a3b8cae231d24e087.md)
+
 ### Two Fer
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/two-fer/.docs/instructions.md)): [Latest](../../../locales/es-419/content/ad/c5/3487981faa7797e5099ff92acffd3df180be.md)

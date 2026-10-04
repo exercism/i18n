@@ -151,5 +151,8 @@
   "exercise:camicia:source": "Beggar-My-Neighbour",
   "exercise:variable-length-quantity:name": "Quantidade de Comprimento Variável",
   "exercise:variable-length-quantity:blurb": "Implementa a codificação e a descodificação de quantidades de comprimento variável.",
-  "exercise:variable-length-quantity:source": "Um pobre programador da Splice que teve de implementar a codificação e a descodificação MIDI."
+  "exercise:variable-length-quantity:source": "Um pobre programador da Splice que teve de implementar a codificação e a descodificação MIDI.",
+  "exercise:two-bucket:name": "Dois Baldes",
+  "exercise:two-bucket:blurb": "Dados dois baldes de tamanhos diferentes, demonstra como medir uma quantidade exata de litros.",
+  "exercise:two-bucket:source": "Problema de Verter Água"
 }

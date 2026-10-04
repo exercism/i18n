@@ -151,5 +151,8 @@
   "exercise:camicia:source": "Beggar-My-Neighbour",
   "exercise:variable-length-quantity:name": "可変長数量",
   "exercise:variable-length-quantity:blurb": "可変長数量のエンコードとデコードを実装します。",
-  "exercise:variable-length-quantity:source": "MIDIのエンコードとデコードを実装することになった、かわいそうなSpliceのエンジニア"
+  "exercise:variable-length-quantity:source": "MIDIのエンコードとデコードを実装することになった、かわいそうなSpliceのエンジニア",
+  "exercise:two-bucket:name": "2つのバケツ",
+  "exercise:two-bucket:blurb": "大きさの異なる2つのバケツを使い、決まった量の水を正確に量る方法を示します。",
+  "exercise:two-bucket:source": "水差し問題"
 }

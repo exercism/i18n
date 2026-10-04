@@ -49,6 +49,7 @@
     "exercises/practice/sublist": {"en":"Sublist","fa":"زیرلیست"},
     "exercises/practice/sum-of-multiples": {"en":"Sum of Multiples","fa":"جمع مضارب"},
     "exercises/practice/triangle": {"en":"Triangle","fa":"مثلث"},
+    "exercises/practice/two-bucket": {"en":"Two Bucket","fa":"دو سطل"},
     "exercises/practice/two-fer": {"en":"Two Fer","fa":"Two Fer"},
     "exercises/practice/variable-length-quantity": {"en":"Variable Length Quantity","fa":"کمیت با طول متغیر"}
   },
@@ -129,6 +130,7 @@
     "exercises/practice/sum-of-multiples/.docs/instructions.md": ["d69f890e9d6a7e8ef9fa58d43d76032f689b8ff0"],
     "exercises/practice/sum-of-multiples/.docs/introduction.md": ["69cabeed5abccbe7441644c24d20e0c23af51a79"],
     "exercises/practice/triangle/.docs/instructions.md": ["e9b053dcd344e85179041c10dcd48406d735b2f9"],
+    "exercises/practice/two-bucket/.docs/instructions.md": ["30d779aa9225cde761d6e21a3b8cae231d24e087"],
     "exercises/practice/two-fer/.docs/instructions.md": ["adc53487981faa7797e5099ff92acffd3df180be"],
     "exercises/practice/two-fer/.docs/introduction.md": ["5947a2230bd8a36f4e653ca80f726386df06ccee"],
     "exercises/practice/variable-length-quantity/.docs/instructions.md": ["5012548268111bd52081b3774efc2a51a0271fd3"],

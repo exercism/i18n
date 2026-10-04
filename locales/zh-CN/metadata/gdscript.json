@@ -151,5 +151,8 @@
   "exercise:camicia:source": "Beggar-My-Neighbour",
   "exercise:variable-length-quantity:name": "可变长度数量",
   "exercise:variable-length-quantity:blurb": "实现可变长度数量的编码和解码。",
-  "exercise:variable-length-quantity:source": "出自一位可怜的 Splice 开发者，他不得不实现 MIDI 的编码和解码。"
+  "exercise:variable-length-quantity:source": "出自一位可怜的 Splice 开发者，他不得不实现 MIDI 的编码和解码。",
+  "exercise:two-bucket:name": "两个水桶",
+  "exercise:two-bucket:blurb": "给定两个容量不同的水桶，演示如何量出精确的升数。",
+  "exercise:two-bucket:source": "倒水问题"
 }

@@ -151,5 +151,8 @@
   "exercise:camicia:source": "Beggar-My-Neighbour",
   "exercise:variable-length-quantity:name": "가변 길이 수량",
   "exercise:variable-length-quantity:blurb": "가변 길이 수량 인코딩과 디코딩을 구현해요.",
-  "exercise:variable-length-quantity:source": "MIDI 인코딩/디코딩을 구현해야 했던 Splice의 가여운 개발자."
+  "exercise:variable-length-quantity:source": "MIDI 인코딩/디코딩을 구현해야 했던 Splice의 가여운 개발자.",
+  "exercise:two-bucket:name": "두 개의 양동이",
+  "exercise:two-bucket:blurb": "크기가 다른 양동이 두 개가 주어졌을 때, 정확한 리터 수를 재는 방법을 보여줘요.",
+  "exercise:two-bucket:source": "물 붓기 문제"
 }

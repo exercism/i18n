@@ -151,5 +151,8 @@
   "exercise:camicia:source": "Beggar-My-Neighbour",
   "exercise:variable-length-quantity:name": "کمیت با طول متغیر",
   "exercise:variable-length-quantity:blurb": "رمزگذاری و رمزگشایی کمیت با طول متغیر را پیاده‌سازی کنید.",
-  "exercise:variable-length-quantity:source": "یک توسعه‌دهنده‌ی بیچاره در Splice که مجبور شده رمزگذاری و رمزگشایی MIDI را پیاده‌سازی کند."
+  "exercise:variable-length-quantity:source": "یک توسعه‌دهنده‌ی بیچاره در Splice که مجبور شده رمزگذاری و رمزگشایی MIDI را پیاده‌سازی کند.",
+  "exercise:two-bucket:name": "دو سطل",
+  "exercise:two-bucket:blurb": "با داشتن دو سطل با اندازه‌های متفاوت، نشان دهید چگونه می‌توان مقدار دقیقی بر حسب لیتر اندازه گرفت.",
+  "exercise:two-bucket:source": "مسئله‌ی ریختن آب"
 }

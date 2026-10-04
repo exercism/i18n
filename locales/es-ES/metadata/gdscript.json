@@ -151,5 +151,8 @@
   "exercise:camicia:source": "Beggar-My-Neighbour",
   "exercise:variable-length-quantity:name": "Cantidad de longitud variable",
   "exercise:variable-length-quantity:blurb": "Implementa la codificación y decodificación de cantidad de longitud variable.",
-  "exercise:variable-length-quantity:source": "Un pobre desarrollador de Splice que tuvo que implementar la codificación y decodificación MIDI."
+  "exercise:variable-length-quantity:source": "Un pobre desarrollador de Splice que tuvo que implementar la codificación y decodificación MIDI.",
+  "exercise:two-bucket:name": "Dos cubos",
+  "exercise:two-bucket:blurb": "Dados dos cubos de distinto tamaño, demuestra cómo medir una cantidad exacta de litros.",
+  "exercise:two-bucket:source": "Problema del vertido de agua"
 }

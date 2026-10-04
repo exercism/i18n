@@ -151,5 +151,8 @@
   "exercise:camicia:source": "Beggar-My-Neighbour",
   "exercise:variable-length-quantity:name": "Величина змінної довжини",
   "exercise:variable-length-quantity:blurb": "Реалізуйте кодування та декодування величин змінної довжини.",
-  "exercise:variable-length-quantity:source": "Бідолашний розробник зі Splice, якому довелося реалізувати кодування й декодування MIDI."
+  "exercise:variable-length-quantity:source": "Бідолашний розробник зі Splice, якому довелося реалізувати кодування й декодування MIDI.",
+  "exercise:two-bucket:name": "Два відра",
+  "exercise:two-bucket:blurb": "Маючи два відра різного розміру, покажіть, як відміряти точну кількість літрів.",
+  "exercise:two-bucket:source": "Задача про переливання води"
 }
