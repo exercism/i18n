@@ -409,5 +409,8 @@
   "exercise:tree-building:blurb": "یک الگوریتم ساخت درخت را بازآرایی کنید.",
   "exercise:book-store:name": "کتاب‌فروشی",
   "exercise:book-store:blurb": "برای تشویق فروش بیشتر کتاب‌های مختلف از یک مجموعه‌ی محبوب ۵ جلدی، یک کتاب‌فروشی تصمیم گرفته است برای خرید چند کتاب به‌طور همزمان تخفیف ارائه دهد.",
-  "exercise:book-store:source": "الهام‌گرفته از کاتای harry potter از Cyber-Dojo."
+  "exercise:book-store:source": "الهام‌گرفته از کاتای harry potter از Cyber-Dojo.",
+  "exercise:camicia:name": "Camicia",
+  "exercise:camicia:blurb": "بازی با ورق را شبیه‌سازی کنید و مشخص کنید که مسابقه پایان می‌یابد یا به یک حلقه‌ی بی‌پایان می‌رسد.",
+  "exercise:camicia:source": "Beggar-My-Neighbour"
 }

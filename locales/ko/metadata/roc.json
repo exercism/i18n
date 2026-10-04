@@ -409,5 +409,8 @@
   "exercise:tree-building:blurb": "트리 구성 알고리즘을 리팩터링해요.",
   "exercise:book-store:name": "서점",
   "exercise:book-store:blurb": "인기 있는 5권 시리즈의 여러 책을 더 많이 팔려고, 어느 서점이 여러 권을 구매하면 할인을 제공하기로 했어요.",
-  "exercise:book-store:source": "Cyber-Dojo의 harry potter kata에서 영감을 받았어요."
+  "exercise:book-store:source": "Cyber-Dojo의 harry potter kata에서 영감을 받았어요.",
+  "exercise:camicia:name": "Camicia",
+  "exercise:camicia:blurb": "카드 게임을 시뮬레이션하고, 승부가 끝나는지 아니면 무한 루프에 빠지는지 판단해요.",
+  "exercise:camicia:source": "Beggar-My-Neighbour"
 }

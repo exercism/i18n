@@ -409,5 +409,8 @@
   "exercise:tree-building:blurb": "أعد هيكلة خوارزمية بناء شجرة.",
   "exercise:book-store:name": "متجر الكتب",
   "exercise:book-store:blurb": "سعيًا إلى تشجيع بيع المزيد من النسخ المختلفة من مجموعة شائعة مؤلفة من خمسة كتب، قرر متجر كتب أن يقدّم خصومات على شراء عدة كتب في المرة الواحدة.",
-  "exercise:book-store:source": "مستوحى من harry potter kata من Cyber-Dojo."
+  "exercise:book-store:source": "مستوحى من harry potter kata من Cyber-Dojo.",
+  "exercise:camicia:name": "Camicia",
+  "exercise:camicia:blurb": "حاكِ لعبة الورق وحدّد ما إذا كانت المباراة تنتهي أم تدخل في حلقة لا نهائية.",
+  "exercise:camicia:source": "Beggar-My-Neighbour"
 }

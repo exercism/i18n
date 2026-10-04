@@ -409,5 +409,8 @@
   "exercise:tree-building:blurb": "重構一個建立樹狀結構的演算法。",
   "exercise:book-store:name": "書店",
   "exercise:book-store:blurb": "為了刺激一套熱門系列中 5 本不同書籍的銷量，一家書店決定對一次購買多本書提供折扣。",
-  "exercise:book-store:source": "靈感來自 Cyber-Dojo 的 harry potter kata。"
+  "exercise:book-store:source": "靈感來自 Cyber-Dojo 的 harry potter kata。",
+  "exercise:camicia:name": "Camicia",
+  "exercise:camicia:blurb": "模擬這款紙牌遊戲，並判斷對局會結束還是陷入無限迴圈。",
+  "exercise:camicia:source": "Beggar-My-Neighbour"
 }

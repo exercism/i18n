@@ -409,5 +409,8 @@
   "exercise:tree-building:blurb": "একটি ট্রি বিল্ডিং অ্যালগরিদম রিফ্যাক্টর করুন।",
   "exercise:book-store:name": "বইয়ের দোকান",
   "exercise:book-store:blurb": "একটি জনপ্রিয় ৫-বইয়ের সিরিজের বিভিন্ন বইয়ের বিক্রি বাড়ানোর চেষ্টায় একটি বইয়ের দোকান একাধিক বই কেনার উপর ছাড় দেওয়ার সিদ্ধান্ত নিয়েছে।",
-  "exercise:book-store:source": "Cyber-Dojo-এর harry potter kata থেকে অনুপ্রাণিত।"
+  "exercise:book-store:source": "Cyber-Dojo-এর harry potter kata থেকে অনুপ্রাণিত।",
+  "exercise:camicia:name": "Camicia",
+  "exercise:camicia:blurb": "কার্ড গেমটি সিমুলেট করুন এবং ম্যাচটি শেষ হয় নাকি অসীম লুপে ঢুকে পড়ে তা নির্ধারণ করুন।",
+  "exercise:camicia:source": "Beggar-My-Neighbour"
 }
