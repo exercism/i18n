@@ -346,5 +346,7 @@
   "doc:tests:title": "Teste sur le parcours V",
   "doc:tests:blurb": "Apprends à tester tes exercices V sur Exercism",
   "doc:resources:title": "Ressources utiles pour V",
-  "doc:resources:blurb": "Une sélection de ressources utiles pour t'aider à maîtriser V"
+  "doc:resources:blurb": "Une sélection de ressources utiles pour t'aider à maîtriser V",
+  "exercise:save-the-cow:name": "Sauve la vache",
+  "exercise:save-the-cow:blurb": "Implémenter un jeu de devinettes de mots."
 }

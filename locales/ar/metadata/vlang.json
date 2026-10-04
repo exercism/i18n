@@ -346,5 +346,7 @@
   "doc:tests:title": "الاختبار في مسار V",
   "doc:tests:blurb": "تعلّم كيفية اختبار تمارين V الخاصة بك على Exercism",
   "doc:resources:title": "مصادر مفيدة لـ V",
-  "doc:resources:blurb": "مجموعة من المصادر المفيدة لمساعدتك على إتقان V"
+  "doc:resources:blurb": "مجموعة من المصادر المفيدة لمساعدتك على إتقان V",
+  "exercise:save-the-cow:name": "أنقذ البقرة",
+  "exercise:save-the-cow:blurb": "نفّذ لعبة تخمين الكلمات."
 }

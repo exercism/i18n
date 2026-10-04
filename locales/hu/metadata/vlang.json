@@ -346,5 +346,7 @@
   "doc:tests:title": "Tesztelés a V kurzuson",
   "doc:tests:blurb": "Tanuld meg, hogyan teszteld a V feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos V-források",
-  "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a V-t"
+  "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a V-t",
+  "exercise:save-the-cow:name": "Mentsd meg a tehenet",
+  "exercise:save-the-cow:blurb": "Valósíts meg egy szókitaláló játékot."
 }

@@ -346,5 +346,7 @@
   "doc:tests:title": "V 賽道上的測試",
   "doc:tests:blurb": "學習如何在 Exercism 上測試你的 V 練習",
   "doc:resources:title": "實用的 V 資源",
-  "doc:resources:blurb": "一系列實用資源，幫助你精通 V"
+  "doc:resources:blurb": "一系列實用資源，幫助你精通 V",
+  "exercise:save-the-cow:name": "拯救乳牛",
+  "exercise:save-the-cow:blurb": "實作一個猜字遊戲。"
 }

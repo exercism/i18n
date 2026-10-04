@@ -346,5 +346,7 @@
   "doc:tests:title": "V 트랙에서 테스트하기",
   "doc:tests:blurb": "Exercism에서 V 연습 문제를 테스트하는 방법을 배워요",
   "doc:resources:title": "유용한 V 자료",
-  "doc:resources:blurb": "V를 마스터하는 데 도움이 되는 유용한 자료 모음"
+  "doc:resources:blurb": "V를 마스터하는 데 도움이 되는 유용한 자료 모음",
+  "exercise:save-the-cow:name": "소를 구해요",
+  "exercise:save-the-cow:blurb": "단어 맞히기 게임을 구현해요."
 }

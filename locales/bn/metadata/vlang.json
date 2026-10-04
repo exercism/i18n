@@ -346,5 +346,7 @@
   "doc:tests:title": "V ট্র্যাকে টেস্টিং",
   "doc:tests:blurb": "Exercism-এ আপনার V অনুশীলনী কীভাবে টেস্ট করবেন তা শিখুন",
   "doc:resources:title": "উপকারী V রিসোর্স",
-  "doc:resources:blurb": "V-এ দক্ষতা অর্জনে সহায়ক দরকারি রিসোর্সের সংগ্রহ"
+  "doc:resources:blurb": "V-এ দক্ষতা অর্জনে সহায়ক দরকারি রিসোর্সের সংগ্রহ",
+  "exercise:save-the-cow:name": "গরুকে বাঁচান",
+  "exercise:save-the-cow:blurb": "একটি শব্দ-অনুমান গেম ইমপ্লিমেন্ট করুন।"
 }

@@ -346,5 +346,7 @@
   "doc:tests:title": "تست کردن در مسیر V",
   "doc:tests:blurb": "بیاموزید چطور تمرین‌های V خود را در Exercism تست کنید",
   "doc:resources:title": "منابع مفید V",
-  "doc:resources:blurb": "مجموعه‌ای از منابع مفید برای کمک به تسلط شما بر V"
+  "doc:resources:blurb": "مجموعه‌ای از منابع مفید برای کمک به تسلط شما بر V",
+  "exercise:save-the-cow:name": "گاو را نجات دهید",
+  "exercise:save-the-cow:blurb": "یک بازی حدس کلمه پیاده‌سازی کنید."
 }

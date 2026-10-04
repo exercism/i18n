@@ -401,6 +401,11 @@ This page is generated from [the index](../../json/zh-TW/vlang.json) by `scripts
 
 - `instructions.md` ([English](https://github.com/exercism/vlang/blob/main/exercises/practice/satellite/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/fb/bf/14f439558fa6451f8ebfac7253e0c9e12189.md)
 
+### Save the Cow (拯救乳牛)
+
+- `instructions.md` ([English](https://github.com/exercism/vlang/blob/main/exercises/practice/save-the-cow/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/1e/c9/8a43a4245d184d048235e6b2792b0fcf8d59.md)
+- `introduction.md` ([English](https://github.com/exercism/vlang/blob/main/exercises/practice/save-the-cow/.docs/introduction.md)): [Latest](../../../locales/zh-TW/content/c8/7a/7fa92873b675ba6dd90749e1af7958b0d4bf.md)
+
 ### Say (說出來)
 
 - `instructions.md` ([English](https://github.com/exercism/vlang/blob/main/exercises/practice/say/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/32/51/c519acefd3c98f5ecf6edf4cb11db4290468.md)

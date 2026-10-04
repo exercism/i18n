@@ -346,5 +346,7 @@
   "doc:tests:title": "Vトラックでのテスト",
   "doc:tests:blurb": "ExercismでVの演習をテストする方法を学びましょう",
   "doc:resources:title": "役立つVのリソース",
-  "doc:resources:blurb": "Vの習得に役立つリソース集"
+  "doc:resources:blurb": "Vの習得に役立つリソース集",
+  "exercise:save-the-cow:name": "牛を救え",
+  "exercise:save-the-cow:blurb": "単語当てゲームを実装します。"
 }

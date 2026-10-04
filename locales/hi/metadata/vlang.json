@@ -346,5 +346,7 @@
   "doc:tests:title": "V ट्रैक पर टेस्टिंग",
   "doc:tests:blurb": "Exercism पर अपने V अभ्यासों के टेस्ट चलाना सीखिए",
   "doc:resources:title": "उपयोगी V संसाधन",
-  "doc:resources:blurb": "V में महारत हासिल करने में आपकी मदद करने वाले उपयोगी संसाधनों का संग्रह"
+  "doc:resources:blurb": "V में महारत हासिल करने में आपकी मदद करने वाले उपयोगी संसाधनों का संग्रह",
+  "exercise:save-the-cow:name": "गाय को बचाइए",
+  "exercise:save-the-cow:blurb": "शब्द का अनुमान लगाने वाला खेल बनाइए।"
 }

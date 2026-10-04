@@ -346,5 +346,7 @@
   "doc:tests:title": "Тестування на треку V",
   "doc:tests:blurb": "Дізнаймося, як тестувати свої вправи з V на Exercism",
   "doc:resources:title": "Корисні ресурси з V",
-  "doc:resources:blurb": "Добірка корисних ресурсів, які допоможуть опанувати V"
+  "doc:resources:blurb": "Добірка корисних ресурсів, які допоможуть опанувати V",
+  "exercise:save-the-cow:name": "Врятуйте корову",
+  "exercise:save-the-cow:blurb": "Реалізуйте гру з угадування слів."
 }

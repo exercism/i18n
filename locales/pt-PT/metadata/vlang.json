@@ -346,5 +346,7 @@
   "doc:tests:title": "Testar no track do V",
   "doc:tests:blurb": "Aprende a testar os teus exercícios de V no Exercism",
   "doc:resources:title": "Recursos úteis sobre V",
-  "doc:resources:blurb": "Uma coleção de recursos úteis para te ajudar a dominar o V"
+  "doc:resources:blurb": "Uma coleção de recursos úteis para te ajudar a dominar o V",
+  "exercise:save-the-cow:name": "Salva a vaca",
+  "exercise:save-the-cow:blurb": "Implementa um jogo de adivinhação de palavras."
 }

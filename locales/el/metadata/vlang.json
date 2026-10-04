@@ -346,5 +346,7 @@
   "doc:tests:title": "Δοκιμές στη διαδρομή V",
   "doc:tests:blurb": "Μάθε πώς να δοκιμάζεις τις ασκήσεις σου σε V στο Exercism",
   "doc:resources:title": "Χρήσιμοι πόροι για τη V",
-  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων για να κατακτήσεις τη V"
+  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων για να κατακτήσεις τη V",
+  "exercise:save-the-cow:name": "Σώσε την αγελάδα",
+  "exercise:save-the-cow:blurb": "Υλοποίησε ένα παιχνίδι μαντέματος λέξεων."
 }
