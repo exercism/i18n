@@ -142,5 +142,8 @@
   "exercise:prime-factors:blurb": "احسب العوامل الأولية لعدد طبيعي معطى.",
   "exercise:prime-factors:source": "كاتا العوامل الأولية بقلم Uncle Bob",
   "exercise:sublist:name": "المصفوفة الفرعية",
-  "exercise:sublist:blurb": "حدّد ما إذا كانت مصفوفة ما مصفوفة فرعية من مصفوفة أخرى."
+  "exercise:sublist:blurb": "حدّد ما إذا كانت مصفوفة ما مصفوفة فرعية من مصفوفة أخرى.",
+  "exercise:prism:name": "المنشور",
+  "exercise:prism:blurb": "احسب مسار شعاع ليزر عبر مناشير كاسرة للضوء.",
+  "exercise:prism:source": "FraSanga"
 }

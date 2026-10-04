@@ -142,5 +142,8 @@
   "exercise:prime-factors:blurb": "Обчислити прості множники заданого натурального числа.",
   "exercise:prime-factors:source": "The Prime Factors Kata від Uncle Bob",
   "exercise:sublist:name": "Підмасив",
-  "exercise:sublist:blurb": "Визначте, чи є масив підмасивом іншого масиву."
+  "exercise:sublist:blurb": "Визначте, чи є масив підмасивом іншого масиву.",
+  "exercise:prism:name": "Призма",
+  "exercise:prism:blurb": "Обчислити шлях лазера крізь заломлювальні призми.",
+  "exercise:prism:source": "FraSanga"
 }

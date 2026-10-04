@@ -142,5 +142,8 @@
   "exercise:prime-factors:blurb": "Υπολόγισε τους πρώτους παράγοντες ενός δεδομένου φυσικού αριθμού.",
   "exercise:prime-factors:source": "The Prime Factors Kata από τον Uncle Bob",
   "exercise:sublist:name": "Υπολίστα",
-  "exercise:sublist:blurb": "Προσδιόρισε αν μια λίστα είναι υπολίστα μιας άλλης λίστας."
+  "exercise:sublist:blurb": "Προσδιόρισε αν μια λίστα είναι υπολίστα μιας άλλης λίστας.",
+  "exercise:prism:name": "Πρίσμα",
+  "exercise:prism:blurb": "Υπολόγισε τη διαδρομή μιας ακτίνας λέιζερ μέσα από διαθλαστικά πρίσματα.",
+  "exercise:prism:source": "FraSanga"
 }

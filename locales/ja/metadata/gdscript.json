@@ -142,5 +142,8 @@
   "exercise:prime-factors:blurb": "与えられた自然数の素因数を計算します。",
   "exercise:prime-factors:source": "Uncle BobによるThe Prime Factors Kata",
   "exercise:sublist:name": "サブリスト",
-  "exercise:sublist:blurb": "あるリストが別のリストのサブリストかどうかを判定します。"
+  "exercise:sublist:blurb": "あるリストが別のリストのサブリストかどうかを判定します。",
+  "exercise:prism:name": "プリズム",
+  "exercise:prism:blurb": "レーザーが屈折プリズムを通る経路を計算します。",
+  "exercise:prism:source": "FraSanga"
 }

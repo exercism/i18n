@@ -142,5 +142,8 @@
   "exercise:prime-factors:blurb": "주어진 자연수의 소인수를 구해요.",
   "exercise:prime-factors:source": "Uncle Bob의 Prime Factors Kata",
   "exercise:sublist:name": "부분 배열",
-  "exercise:sublist:blurb": "어떤 배열이 다른 배열의 부분 배열인지 판별해요."
+  "exercise:sublist:blurb": "어떤 배열이 다른 배열의 부분 배열인지 판별해요.",
+  "exercise:prism:name": "프리즘",
+  "exercise:prism:blurb": "굴절 프리즘을 통과하는 레이저의 경로를 계산해요.",
+  "exercise:prism:source": "FraSanga"
 }

@@ -142,5 +142,8 @@
   "exercise:prime-factors:blurb": "Számítsd ki egy adott természetes szám prímtényezőit.",
   "exercise:prime-factors:source": "The Prime Factors Kata, Uncle Bob tollából.",
   "exercise:sublist:name": "Részlista",
-  "exercise:sublist:blurb": "Határozd meg, hogy egy lista egy másik lista részlistája-e."
+  "exercise:sublist:blurb": "Határozd meg, hogy egy lista egy másik lista részlistája-e.",
+  "exercise:prism:name": "Prizma",
+  "exercise:prism:blurb": "Számítsd ki a lézer útját fénytörő prizmákon keresztül.",
+  "exercise:prism:source": "FraSanga"
 }

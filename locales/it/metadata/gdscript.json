@@ -142,5 +142,8 @@
   "exercise:prime-factors:blurb": "Calcola i fattori primi di un numero naturale dato.",
   "exercise:prime-factors:source": "The Prime Factors Kata di Uncle Bob",
   "exercise:sublist:name": "Subarray",
-  "exercise:sublist:blurb": "Determina se un array è un subarray di un altro array."
+  "exercise:sublist:blurb": "Determina se un array è un subarray di un altro array.",
+  "exercise:prism:name": "Prisma",
+  "exercise:prism:blurb": "Calcola il percorso di un laser attraverso prismi rifrangenti.",
+  "exercise:prism:source": "FraSanga"
 }

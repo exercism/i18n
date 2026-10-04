@@ -119,6 +119,11 @@ This page is generated from [the index](../../json/ar/gdscript.json) by `scripts
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/prime-factors/.docs/instructions.md)): [Latest](../../../locales/ar/content/25/2c/c8ee1853f4d7f7721273eee09e988a2f7421.md)
 
+### Prism (المنشور)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/prism/.docs/instructions.md)): [Latest](../../../locales/ar/content/13/ce/fae8c50b049c89d60b4cb12f8ecabb126706.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/prism/.docs/introduction.md)): [Latest](../../../locales/ar/content/bf/a7/ed72e4055b24b3c9c2b69a32d8fd5b95c27f.md)
+
 ### Raindrops (قطرات المطر)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/raindrops/.docs/instructions.md)): [Latest](../../../locales/ar/content/df/64/41075165afbe92ecc878d674f6861777972d.md)

@@ -142,5 +142,8 @@
   "exercise:prime-factors:blurb": "Calcula os fatores primos de um número natural dado.",
   "exercise:prime-factors:source": "O Prime Factors Kata de Uncle Bob",
   "exercise:sublist:name": "Sublista",
-  "exercise:sublist:blurb": "Determina se uma lista é sublista de outra lista."
+  "exercise:sublist:blurb": "Determina se uma lista é sublista de outra lista.",
+  "exercise:prism:name": "Prisma",
+  "exercise:prism:blurb": "Calcula o percurso de um laser através de prismas refrativos.",
+  "exercise:prism:source": "FraSanga"
 }

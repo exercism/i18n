@@ -142,5 +142,8 @@
   "exercise:prime-factors:blurb": "計算指定自然數的質因數。",
   "exercise:prime-factors:source": "出自 Uncle Bob 的 The Prime Factors Kata。",
   "exercise:sublist:name": "子陣列",
-  "exercise:sublist:blurb": "判斷某個陣列是否為另一個陣列的子陣列。"
+  "exercise:sublist:blurb": "判斷某個陣列是否為另一個陣列的子陣列。",
+  "exercise:prism:name": "稜鏡",
+  "exercise:prism:blurb": "計算雷射光穿過折射稜鏡的路徑。",
+  "exercise:prism:source": "FraSanga"
 }

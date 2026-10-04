@@ -142,5 +142,8 @@
   "exercise:prime-factors:blurb": "প্রদত্ত একটি স্বাভাবিক সংখ্যার মৌলিক গুণনীয়ক নির্ণয় করুন।",
   "exercise:prime-factors:source": "Uncle Bob-এর The Prime Factors Kata",
   "exercise:sublist:name": "সাবলিস্ট",
-  "exercise:sublist:blurb": "একটি লিস্ট অন্য একটি লিস্টের সাবলিস্ট কি না তা নির্ধারণ করুন।"
+  "exercise:sublist:blurb": "একটি লিস্ট অন্য একটি লিস্টের সাবলিস্ট কি না তা নির্ধারণ করুন।",
+  "exercise:prism:name": "প্রিজম",
+  "exercise:prism:blurb": "প্রতিসারক প্রিজমের মধ্য দিয়ে একটি লেজারের পথ গণনা করুন।",
+  "exercise:prism:source": "FraSanga"
 }
