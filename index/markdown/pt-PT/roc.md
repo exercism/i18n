@@ -77,6 +77,10 @@ This page is generated from [the index](../../json/pt-PT/roc.json) by `scripts/b
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/bob/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/bb/70/2f7bbe91ee7c4f8a095bff0bc6b9c090051b.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/bob/.docs/introduction.md)): [Latest](../../../locales/pt-PT/content/ea/4a/80776b77fc8b547460b80cb4cdca084c0fa3.md)
 
+### Book Store (Livraria)
+
+- `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/book-store/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/54/40/3f17bf5c35e9b5d6c20503e87e02c232e1a7.md)
+
 ### Bottle Song (Canção das Garrafas)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/bottle-song/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/fe/bd/fc86395a2e95f0a9254013f526c70caf8903.md)

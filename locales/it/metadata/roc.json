@@ -406,5 +406,8 @@
   "exercise:swift-scheduling:blurb": "Converti le descrizioni delle date di consegna in date di consegna effettive.",
   "exercise:swift-scheduling:source": "Erik Schierboom",
   "exercise:tree-building:name": "Costruzione di un albero",
-  "exercise:tree-building:blurb": "Riorganizza un algoritmo di costruzione di un albero."
+  "exercise:tree-building:blurb": "Riorganizza un algoritmo di costruzione di un albero.",
+  "exercise:book-store:name": "Libreria",
+  "exercise:book-store:blurb": "Per provare a incoraggiare le vendite dei diversi libri di una popolare serie di 5 volumi, una libreria ha deciso di offrire sconti sugli acquisti di più libri.",
+  "exercise:book-store:source": "Ispirato al kata harry potter di Cyber-Dojo."
 }

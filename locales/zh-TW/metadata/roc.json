@@ -406,5 +406,8 @@
   "exercise:swift-scheduling:blurb": "將交貨日期的描述轉換成實際的交貨日期。",
   "exercise:swift-scheduling:source": "Erik Schierboom",
   "exercise:tree-building:name": "建立樹狀結構",
-  "exercise:tree-building:blurb": "重構一個建立樹狀結構的演算法。"
+  "exercise:tree-building:blurb": "重構一個建立樹狀結構的演算法。",
+  "exercise:book-store:name": "書店",
+  "exercise:book-store:blurb": "為了刺激一套熱門系列中 5 本不同書籍的銷量，一家書店決定對一次購買多本書提供折扣。",
+  "exercise:book-store:source": "靈感來自 Cyber-Dojo 的 harry potter kata。"
 }

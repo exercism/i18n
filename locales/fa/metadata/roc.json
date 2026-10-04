@@ -406,5 +406,8 @@
   "exercise:swift-scheduling:blurb": "توصیف‌های تاریخ تحویل را به تاریخ‌های واقعی تحویل تبدیل کنید.",
   "exercise:swift-scheduling:source": "Erik Schierboom",
   "exercise:tree-building:name": "ساخت درخت",
-  "exercise:tree-building:blurb": "یک الگوریتم ساخت درخت را بازآرایی کنید."
+  "exercise:tree-building:blurb": "یک الگوریتم ساخت درخت را بازآرایی کنید.",
+  "exercise:book-store:name": "کتاب‌فروشی",
+  "exercise:book-store:blurb": "برای تشویق فروش بیشتر کتاب‌های مختلف از یک مجموعه‌ی محبوب ۵ جلدی، یک کتاب‌فروشی تصمیم گرفته است برای خرید چند کتاب به‌طور همزمان تخفیف ارائه دهد.",
+  "exercise:book-store:source": "الهام‌گرفته از کاتای harry potter از Cyber-Dojo."
 }

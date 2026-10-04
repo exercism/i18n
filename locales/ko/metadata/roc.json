@@ -406,5 +406,8 @@
   "exercise:swift-scheduling:blurb": "배송 날짜 설명을 실제 배송 날짜로 변환해요.",
   "exercise:swift-scheduling:source": "Erik Schierboom",
   "exercise:tree-building:name": "트리 구성",
-  "exercise:tree-building:blurb": "트리 구성 알고리즘을 리팩터링해요."
+  "exercise:tree-building:blurb": "트리 구성 알고리즘을 리팩터링해요.",
+  "exercise:book-store:name": "서점",
+  "exercise:book-store:blurb": "인기 있는 5권 시리즈의 여러 책을 더 많이 팔려고, 어느 서점이 여러 권을 구매하면 할인을 제공하기로 했어요.",
+  "exercise:book-store:source": "Cyber-Dojo의 harry potter kata에서 영감을 받았어요."
 }

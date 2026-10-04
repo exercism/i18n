@@ -406,5 +406,8 @@
   "exercise:swift-scheduling:blurb": "حوّل أوصاف موعد التسليم إلى مواعيد تسليم فعلية.",
   "exercise:swift-scheduling:source": "Erik Schierboom",
   "exercise:tree-building:name": "بناء الشجرة",
-  "exercise:tree-building:blurb": "أعد هيكلة خوارزمية بناء شجرة."
+  "exercise:tree-building:blurb": "أعد هيكلة خوارزمية بناء شجرة.",
+  "exercise:book-store:name": "متجر الكتب",
+  "exercise:book-store:blurb": "سعيًا إلى تشجيع بيع المزيد من النسخ المختلفة من مجموعة شائعة مؤلفة من خمسة كتب، قرر متجر كتب أن يقدّم خصومات على شراء عدة كتب في المرة الواحدة.",
+  "exercise:book-store:source": "مستوحى من harry potter kata من Cyber-Dojo."
 }
