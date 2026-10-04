@@ -140,5 +140,7 @@
   "exercise:secret-handshake:source": "Bert a Mary Poppinsból",
   "exercise:prime-factors:name": "Prímtényezők",
   "exercise:prime-factors:blurb": "Számítsd ki egy adott természetes szám prímtényezőit.",
-  "exercise:prime-factors:source": "The Prime Factors Kata, Uncle Bob tollából."
+  "exercise:prime-factors:source": "The Prime Factors Kata, Uncle Bob tollából.",
+  "exercise:sublist:name": "Részlista",
+  "exercise:sublist:blurb": "Határozd meg, hogy egy lista egy másik lista részlistája-e."
 }

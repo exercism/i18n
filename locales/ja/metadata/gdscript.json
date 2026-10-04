@@ -140,5 +140,7 @@
   "exercise:secret-handshake:source": "Mary PoppinsのBert",
   "exercise:prime-factors:name": "素因数",
   "exercise:prime-factors:blurb": "与えられた自然数の素因数を計算します。",
-  "exercise:prime-factors:source": "Uncle BobによるThe Prime Factors Kata"
+  "exercise:prime-factors:source": "Uncle BobによるThe Prime Factors Kata",
+  "exercise:sublist:name": "サブリスト",
+  "exercise:sublist:blurb": "あるリストが別のリストのサブリストかどうかを判定します。"
 }

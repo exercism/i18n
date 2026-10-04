@@ -140,5 +140,7 @@
   "exercise:secret-handshake:source": "Bert، در Mary Poppins",
   "exercise:prime-factors:name": "عوامل اول",
   "exercise:prime-factors:blurb": "عوامل اول یک عدد طبیعی داده‌شده را محاسبه کنید.",
-  "exercise:prime-factors:source": "کاتای عوامل اول از Uncle Bob"
+  "exercise:prime-factors:source": "کاتای عوامل اول از Uncle Bob",
+  "exercise:sublist:name": "زیرلیست",
+  "exercise:sublist:blurb": "تعیین کنید که آیا یک لیست زیرلیست لیست دیگری است یا نه."
 }

@@ -140,5 +140,7 @@
   "exercise:secret-handshake:source": "Берт, у Mary Poppins",
   "exercise:prime-factors:name": "Прості множники",
   "exercise:prime-factors:blurb": "Обчислити прості множники заданого натурального числа.",
-  "exercise:prime-factors:source": "The Prime Factors Kata від Uncle Bob"
+  "exercise:prime-factors:source": "The Prime Factors Kata від Uncle Bob",
+  "exercise:sublist:name": "Підмасив",
+  "exercise:sublist:blurb": "Визначте, чи є масив підмасивом іншого масиву."
 }

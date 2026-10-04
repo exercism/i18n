@@ -140,5 +140,7 @@
   "exercise:secret-handshake:source": "Mary Poppins में Bert",
   "exercise:prime-factors:name": "अभाज्य गुणनखंड",
   "exercise:prime-factors:blurb": "दी गई प्राकृत संख्या के अभाज्य गुणनखंड निकालिए।",
-  "exercise:prime-factors:source": "Uncle Bob का Prime Factors Kata"
+  "exercise:prime-factors:source": "Uncle Bob का Prime Factors Kata",
+  "exercise:sublist:name": "सबलिस्ट",
+  "exercise:sublist:blurb": "तय कीजिए कि कोई ऐरे किसी दूसरे ऐरे की सबलिस्ट है या नहीं।"
 }

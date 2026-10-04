@@ -140,5 +140,7 @@
   "exercise:secret-handshake:source": "Bert، في Mary Poppins",
   "exercise:prime-factors:name": "العوامل الأولية",
   "exercise:prime-factors:blurb": "احسب العوامل الأولية لعدد طبيعي معطى.",
-  "exercise:prime-factors:source": "كاتا العوامل الأولية بقلم Uncle Bob"
+  "exercise:prime-factors:source": "كاتا العوامل الأولية بقلم Uncle Bob",
+  "exercise:sublist:name": "المصفوفة الفرعية",
+  "exercise:sublist:blurb": "حدّد ما إذا كانت مصفوفة ما مصفوفة فرعية من مصفوفة أخرى."
 }

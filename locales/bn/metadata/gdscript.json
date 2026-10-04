@@ -140,5 +140,7 @@
   "exercise:secret-handshake:source": "Mary Poppins-এর Bert.",
   "exercise:prime-factors:name": "মৌলিক গুণনীয়ক",
   "exercise:prime-factors:blurb": "প্রদত্ত একটি স্বাভাবিক সংখ্যার মৌলিক গুণনীয়ক নির্ণয় করুন।",
-  "exercise:prime-factors:source": "Uncle Bob-এর The Prime Factors Kata"
+  "exercise:prime-factors:source": "Uncle Bob-এর The Prime Factors Kata",
+  "exercise:sublist:name": "সাবলিস্ট",
+  "exercise:sublist:blurb": "একটি লিস্ট অন্য একটি লিস্টের সাবলিস্ট কি না তা নির্ধারণ করুন।"
 }

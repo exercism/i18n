@@ -140,5 +140,7 @@
   "exercise:secret-handshake:source": "Mary Poppins 中的 Bert",
   "exercise:prime-factors:name": "质因数",
   "exercise:prime-factors:blurb": "计算给定自然数的质因数。",
-  "exercise:prime-factors:source": "由 Uncle Bob 编写的 The Prime Factors Kata"
+  "exercise:prime-factors:source": "由 Uncle Bob 编写的 The Prime Factors Kata",
+  "exercise:sublist:name": "子数组",
+  "exercise:sublist:blurb": "判断一个数组是否是另一个数组的子数组。"
 }

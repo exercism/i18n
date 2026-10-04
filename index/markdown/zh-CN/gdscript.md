@@ -186,6 +186,10 @@ This page is generated from [the index](../../json/zh-CN/gdscript.json) by `scri
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/spiral-matrix/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/01/e8/a77f808ebf669389df96d5a86ae06cc23f69.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/spiral-matrix/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/25/c7/eb595aa020e15f2317920415f225d0ba476f.md)
 
+### Sublist (子数组)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/sublist/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/82/28/edc6ce2f1aa9fd7171fa9d482b1fb5a50a62.md)
+
 ### Sum of Multiples (倍数之和)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/sum-of-multiples/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/d6/9f/890e9d6a7e8ef9fa58d43d76032f689b8ff0.md)

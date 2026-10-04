@@ -140,5 +140,7 @@
   "exercise:secret-handshake:source": "Bert, em Mary Poppins",
   "exercise:prime-factors:name": "Fatores primos",
   "exercise:prime-factors:blurb": "Calcule os fatores primos de um número natural dado.",
-  "exercise:prime-factors:source": "The Prime Factors Kata, de Uncle Bob"
+  "exercise:prime-factors:source": "The Prime Factors Kata, de Uncle Bob",
+  "exercise:sublist:name": "Sublista",
+  "exercise:sublist:blurb": "Determine se uma lista é sublista de outra lista."
 }
