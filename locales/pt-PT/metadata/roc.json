@@ -398,5 +398,8 @@
   "exercise:react:blurb": "Implementa um sistema reativo básico.",
   "exercise:relative-distance:name": "Distância relativa",
   "exercise:relative-distance:blurb": "Dada uma árvore genealógica, calcula o grau de parentesco.",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:split-second-stopwatch:name": "Cronómetro de tempos parciais",
+  "exercise:split-second-stopwatch:blurb": "Acompanha o tempo através de um cronómetro digital.",
+  "exercise:split-second-stopwatch:source": "Erik Schierboom"
 }

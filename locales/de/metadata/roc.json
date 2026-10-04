@@ -398,5 +398,8 @@
   "exercise:react:blurb": "Implementiere ein einfaches reaktives System.",
   "exercise:relative-distance:name": "Verwandtschaftsabstand",
   "exercise:relative-distance:blurb": "Berechne für einen Stammbaum den Verwandtschaftsgrad.",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:split-second-stopwatch:name": "Stoppuhr mit Sekundenbruchteilen",
+  "exercise:split-second-stopwatch:blurb": "Behalte die Zeit mit einer digitalen Stoppuhr im Blick.",
+  "exercise:split-second-stopwatch:source": "Erik Schierboom"
 }

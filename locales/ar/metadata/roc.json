@@ -398,5 +398,8 @@
   "exercise:react:blurb": "نفّذ نظامًا تفاعليًا أساسيًا.",
   "exercise:relative-distance:name": "المسافة النسبية",
   "exercise:relative-distance:blurb": "بمعلومية شجرة عائلة، احسب درجة القرابة.",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:split-second-stopwatch:name": "ساعة الإيقاف اللحظية",
+  "exercise:split-second-stopwatch:blurb": "تتبّع الوقت عبر ساعة إيقاف رقمية.",
+  "exercise:split-second-stopwatch:source": "Erik Schierboom"
 }

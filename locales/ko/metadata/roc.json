@@ -398,5 +398,8 @@
   "exercise:react:blurb": "기본적인 반응형 시스템을 구현해요.",
   "exercise:relative-distance:name": "친척 간의 거리",
   "exercise:relative-distance:blurb": "가계도를 보고 촌수를 계산해요.",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:split-second-stopwatch:name": "정밀 스톱워치",
+  "exercise:split-second-stopwatch:blurb": "디지털 스톱워치로 시간을 기록해요.",
+  "exercise:split-second-stopwatch:source": "Erik Schierboom"
 }

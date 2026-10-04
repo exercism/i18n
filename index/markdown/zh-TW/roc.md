@@ -539,6 +539,12 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/spiral-matrix/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/01/e8/a77f808ebf669389df96d5a86ae06cc23f69.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/spiral-matrix/.docs/introduction.md)): [Latest](../../../locales/zh-TW/content/25/c7/eb595aa020e15f2317920415f225d0ba476f.md)
 
+### Split-Second Stopwatch (分秒計時碼表)
+
+- `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/split-second-stopwatch/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/30/bd/c988dadd9ef5da03ac87eb44f49313c5d84d.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/split-second-stopwatch/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/87/79/0ec57eda5a9edbd54c52a0254649e8b68c3b.md)
+- `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/split-second-stopwatch/.docs/introduction.md)): [Latest](../../../locales/zh-TW/content/a8/43/2247712455ffa459dffa8fc411000905b0ed.md)
+
 ### Square Root (平方根)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/square-root/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/d2/58/b86876e35a1553677ed6a7cb068f27cf1aba.md)

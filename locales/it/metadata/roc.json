@@ -398,5 +398,8 @@
   "exercise:react:blurb": "Implementa un semplice sistema reattivo.",
   "exercise:relative-distance:name": "Distanza relativa",
   "exercise:relative-distance:blurb": "Dato un albero genealogico, calcola il grado di separazione.",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:split-second-stopwatch:name": "Cronometro di precisione",
+  "exercise:split-second-stopwatch:blurb": "Tieni traccia del tempo con un cronometro digitale.",
+  "exercise:split-second-stopwatch:source": "Erik Schierboom"
 }

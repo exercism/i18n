@@ -398,5 +398,8 @@
   "exercise:react:blurb": "একটি মৌলিক রিঅ্যাকটিভ সিস্টেম বাস্তবায়ন করুন।",
   "exercise:relative-distance:name": "আপেক্ষিক দূরত্ব",
   "exercise:relative-distance:blurb": "একটি বংশতালিকা দেওয়া থাকলে, সম্পর্কের দূরত্ব নির্ণয় করুন।",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:split-second-stopwatch:name": "স্প্লিট-সেকেন্ড স্টপওয়াচ",
+  "exercise:split-second-stopwatch:blurb": "একটি ডিজিটাল স্টপওয়াচের মাধ্যমে সময়ের হিসাব রাখুন।",
+  "exercise:split-second-stopwatch:source": "Erik Schierboom"
 }

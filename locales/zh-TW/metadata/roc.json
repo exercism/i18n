@@ -398,5 +398,8 @@
   "exercise:react:blurb": "實作一個基本的反應式系統。",
   "exercise:relative-distance:name": "相對距離",
   "exercise:relative-distance:blurb": "給定一棵家族樹，計算兩人之間的親等。",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:split-second-stopwatch:name": "分秒計時碼表",
+  "exercise:split-second-stopwatch:blurb": "用數位碼表記錄時間。",
+  "exercise:split-second-stopwatch:source": "Erik Schierboom"
 }
