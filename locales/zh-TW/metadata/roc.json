@@ -401,5 +401,8 @@
   "exercise:relative-distance:source": "vaeng",
   "exercise:split-second-stopwatch:name": "分秒計時碼表",
   "exercise:split-second-stopwatch:blurb": "用數位碼表記錄時間。",
-  "exercise:split-second-stopwatch:source": "Erik Schierboom"
+  "exercise:split-second-stopwatch:source": "Erik Schierboom",
+  "exercise:swift-scheduling:name": "快速排程",
+  "exercise:swift-scheduling:blurb": "將交貨日期的描述轉換成實際的交貨日期。",
+  "exercise:swift-scheduling:source": "Erik Schierboom"
 }

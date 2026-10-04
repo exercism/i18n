@@ -401,5 +401,8 @@
   "exercise:relative-distance:source": "vaeng",
   "exercise:split-second-stopwatch:name": "স্প্লিট-সেকেন্ড স্টপওয়াচ",
   "exercise:split-second-stopwatch:blurb": "একটি ডিজিটাল স্টপওয়াচের মাধ্যমে সময়ের হিসাব রাখুন।",
-  "exercise:split-second-stopwatch:source": "Erik Schierboom"
+  "exercise:split-second-stopwatch:source": "Erik Schierboom",
+  "exercise:swift-scheduling:name": "দ্রুত সময়সূচি",
+  "exercise:swift-scheduling:blurb": "ডেলিভারির তারিখের বর্ণনাকে প্রকৃত ডেলিভারির তারিখে রূপান্তর করুন।",
+  "exercise:swift-scheduling:source": "Erik Schierboom"
 }

@@ -401,5 +401,8 @@
   "exercise:relative-distance:source": "vaeng",
   "exercise:split-second-stopwatch:name": "Stoppuhr mit Sekundenbruchteilen",
   "exercise:split-second-stopwatch:blurb": "Behalte die Zeit mit einer digitalen Stoppuhr im Blick.",
-  "exercise:split-second-stopwatch:source": "Erik Schierboom"
+  "exercise:split-second-stopwatch:source": "Erik Schierboom",
+  "exercise:swift-scheduling:name": "Swift-Terminplanung",
+  "exercise:swift-scheduling:blurb": "Wandle Beschreibungen von Lieferdaten in tatsächliche Lieferdaten um.",
+  "exercise:swift-scheduling:source": "Erik Schierboom"
 }

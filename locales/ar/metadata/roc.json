@@ -401,5 +401,8 @@
   "exercise:relative-distance:source": "vaeng",
   "exercise:split-second-stopwatch:name": "ساعة الإيقاف اللحظية",
   "exercise:split-second-stopwatch:blurb": "تتبّع الوقت عبر ساعة إيقاف رقمية.",
-  "exercise:split-second-stopwatch:source": "Erik Schierboom"
+  "exercise:split-second-stopwatch:source": "Erik Schierboom",
+  "exercise:swift-scheduling:name": "الجدولة السريعة",
+  "exercise:swift-scheduling:blurb": "حوّل أوصاف موعد التسليم إلى مواعيد تسليم فعلية.",
+  "exercise:swift-scheduling:source": "Erik Schierboom"
 }

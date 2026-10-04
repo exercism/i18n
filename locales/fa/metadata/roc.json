@@ -401,5 +401,8 @@
   "exercise:relative-distance:source": "vaeng",
   "exercise:split-second-stopwatch:name": "کرنومتر دقیق",
   "exercise:split-second-stopwatch:blurb": "زمان را با یک کرنومتر دیجیتال پیگیری کنید.",
-  "exercise:split-second-stopwatch:source": "Erik Schierboom"
+  "exercise:split-second-stopwatch:source": "Erik Schierboom",
+  "exercise:swift-scheduling:name": "زمان‌بندی سریع",
+  "exercise:swift-scheduling:blurb": "توصیف‌های تاریخ تحویل را به تاریخ‌های واقعی تحویل تبدیل کنید.",
+  "exercise:swift-scheduling:source": "Erik Schierboom"
 }

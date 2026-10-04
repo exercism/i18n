@@ -401,5 +401,8 @@
   "exercise:relative-distance:source": "vaeng",
   "exercise:split-second-stopwatch:name": "Cronómetro de precisión",
   "exercise:split-second-stopwatch:blurb": "Lleva un registro del tiempo con un cronómetro digital.",
-  "exercise:split-second-stopwatch:source": "Erik Schierboom"
+  "exercise:split-second-stopwatch:source": "Erik Schierboom",
+  "exercise:swift-scheduling:name": "Planificación de Swift",
+  "exercise:swift-scheduling:blurb": "Convierte descripciones de fechas de entrega en fechas de entrega reales.",
+  "exercise:swift-scheduling:source": "Erik Schierboom"
 }
