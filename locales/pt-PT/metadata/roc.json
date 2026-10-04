@@ -386,5 +386,8 @@
   "exercise:linked-list:blurb": "Implementa uma lista duplamente ligada.",
   "exercise:linked-list:source": "Tópico clássico da informática",
   "exercise:prism:blurb": "Calcula o percurso de um laser através de prismas refrativos.",
-  "exercise:prism:source": "FraSanga"
+  "exercise:prism:source": "FraSanga",
+  "exercise:baffling-birthdays:name": "Aniversários desconcertantes",
+  "exercise:baffling-birthdays:blurb": "Estima as probabilidades do paradoxo dos aniversários.",
+  "exercise:baffling-birthdays:source": "Erik Schierboom"
 }

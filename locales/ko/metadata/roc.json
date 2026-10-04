@@ -388,5 +388,8 @@
   "exercise:linked-list:blurb": "이중 연결 리스트를 구현해요.",
   "exercise:linked-list:source": "고전적인 컴퓨터 과학 주제",
   "exercise:prism:blurb": "굴절 프리즘을 통과하는 레이저의 경로를 계산해요.",
-  "exercise:prism:source": "FraSanga"
+  "exercise:prism:source": "FraSanga",
+  "exercise:baffling-birthdays:name": "놀라운 생일",
+  "exercise:baffling-birthdays:blurb": "생일 역설의 확률을 추정해요.",
+  "exercise:baffling-birthdays:source": "Erik Schierboom"
 }

@@ -386,5 +386,8 @@
   "exercise:linked-list:blurb": "Implementiere eine doppelt verkettete Liste.",
   "exercise:linked-list:source": "Klassisches Thema der Informatik",
   "exercise:prism:blurb": "Berechne den Weg eines Lasers durch brechende Prismen.",
-  "exercise:prism:source": "FraSanga"
+  "exercise:prism:source": "FraSanga",
+  "exercise:baffling-birthdays:name": "Verblüffende Geburtstage",
+  "exercise:baffling-birthdays:blurb": "Schätze die Wahrscheinlichkeiten des Geburtstagsparadoxons.",
+  "exercise:baffling-birthdays:source": "Erik Schierboom"
 }

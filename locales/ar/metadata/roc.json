@@ -386,5 +386,8 @@
   "exercise:linked-list:blurb": "نفّذ قائمة مترابطة مزدوجة.",
   "exercise:linked-list:source": "موضوع كلاسيكي في علوم الحاسوب",
   "exercise:prism:blurb": "احسب مسار شعاع ليزر عبر مناشير كاسرة للضوء.",
-  "exercise:prism:source": "FraSanga"
+  "exercise:prism:source": "FraSanga",
+  "exercise:baffling-birthdays:name": "أعياد ميلاد محيّرة",
+  "exercise:baffling-birthdays:blurb": "قدّر احتمالات مفارقة أعياد الميلاد.",
+  "exercise:baffling-birthdays:source": "Erik Schierboom"
 }

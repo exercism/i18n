@@ -47,6 +47,12 @@ This page is generated from [the index](../../json/pt-PT/roc.json) by `scripts/b
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/atbash-cipher/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/1e/76/27b1e5989878f0f1bf735feb1300de7a2664.md)
 
+### Baffling Birthdays (Aniversários desconcertantes)
+
+- `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/baffling-birthdays/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/a0/1e/c86796ac6bc6e2873dca01003a8e5f02ee32.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/baffling-birthdays/.docs/instructions.append.md)): [Latest](../../../locales/pt-PT/content/81/e6/4513ae3c8973789ada4177ae86df2e29a970.md)
+- `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/baffling-birthdays/.docs/introduction.md)): [Latest](../../../locales/pt-PT/content/97/da/bd1e6cfffbcb4a20748b3b328e8cbc284b98.md)
+
 ### Bank Account (Conta bancária)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/bank-account/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/73/98/fbea1882dcf62be8957af20bc28779a93cbd.md)

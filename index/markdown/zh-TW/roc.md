@@ -47,6 +47,12 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/atbash-cipher/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/1e/76/27b1e5989878f0f1bf735feb1300de7a2664.md)
 
+### Baffling Birthdays (令人費解的生日)
+
+- `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/baffling-birthdays/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/a0/1e/c86796ac6bc6e2873dca01003a8e5f02ee32.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/baffling-birthdays/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/81/e6/4513ae3c8973789ada4177ae86df2e29a970.md)
+- `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/baffling-birthdays/.docs/introduction.md)): [Latest](../../../locales/zh-TW/content/97/da/bd1e6cfffbcb4a20748b3b328e8cbc284b98.md)
+
 ### Bank Account (銀行帳戶)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/bank-account/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/73/98/fbea1882dcf62be8957af20bc28779a93cbd.md)

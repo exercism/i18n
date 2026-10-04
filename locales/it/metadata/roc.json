@@ -386,5 +386,8 @@
   "exercise:linked-list:blurb": "Implementa una lista doppiamente concatenata.",
   "exercise:linked-list:source": "Argomento classico dell'informatica",
   "exercise:prism:blurb": "Calcola il percorso di un laser attraverso prismi rifrangenti.",
-  "exercise:prism:source": "FraSanga"
+  "exercise:prism:source": "FraSanga",
+  "exercise:baffling-birthdays:name": "Compleanni sconcertanti",
+  "exercise:baffling-birthdays:blurb": "Stima le probabilità del paradosso del compleanno.",
+  "exercise:baffling-birthdays:source": "Erik Schierboom"
 }

@@ -386,5 +386,8 @@
   "exercise:linked-list:blurb": "實作一個雙向連結串列。",
   "exercise:linked-list:source": "經典的電腦科學主題",
   "exercise:prism:blurb": "計算雷射光穿過折射稜鏡的路徑。",
-  "exercise:prism:source": "FraSanga"
+  "exercise:prism:source": "FraSanga",
+  "exercise:baffling-birthdays:name": "令人費解的生日",
+  "exercise:baffling-birthdays:blurb": "估算生日悖論的機率。",
+  "exercise:baffling-birthdays:source": "Erik Schierboom"
 }

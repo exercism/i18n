@@ -386,5 +386,8 @@
   "exercise:linked-list:blurb": "একটি ডাবলি লিংকড লিস্ট বাস্তবায়ন করুন।",
   "exercise:linked-list:source": "কম্পিউটার সায়েন্সের একটি চিরায়ত বিষয়",
   "exercise:prism:blurb": "প্রতিসারক প্রিজমের মধ্য দিয়ে একটি লেজারের পথ গণনা করুন।",
-  "exercise:prism:source": "FraSanga"
+  "exercise:prism:source": "FraSanga",
+  "exercise:baffling-birthdays:name": "হতবুদ্ধিকর জন্মদিন",
+  "exercise:baffling-birthdays:blurb": "জন্মদিন প্যারাডক্সের সম্ভাব্যতা অনুমান করুন।",
+  "exercise:baffling-birthdays:source": "Erik Schierboom"
 }

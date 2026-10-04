@@ -386,5 +386,8 @@
   "exercise:linked-list:blurb": "یک لیست پیوندی دوطرفه پیاده‌سازی کنید.",
   "exercise:linked-list:source": "موضوعی کلاسیک در علوم کامپیوتر",
   "exercise:prism:blurb": "مسیر پرتو لیزر را از میان منشورهای شکست‌دهنده محاسبه کنید.",
-  "exercise:prism:source": "FraSanga"
+  "exercise:prism:source": "FraSanga",
+  "exercise:baffling-birthdays:name": "تولدهای گیج‌کننده",
+  "exercise:baffling-birthdays:blurb": "احتمال‌های پارادوکس تولد را تخمین بزنید.",
+  "exercise:baffling-birthdays:source": "Erik Schierboom"
 }
