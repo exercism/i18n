@@ -145,5 +145,8 @@
   "exercise:sublist:blurb": "あるリストが別のリストのサブリストかどうかを判定します。",
   "exercise:prism:name": "プリズム",
   "exercise:prism:blurb": "レーザーが屈折プリズムを通る経路を計算します。",
-  "exercise:prism:source": "FraSanga"
+  "exercise:prism:source": "FraSanga",
+  "exercise:camicia:name": "Camicia",
+  "exercise:camicia:blurb": "カードゲームをシミュレートして、対戦が決着するか無限ループに入るかを判定します。",
+  "exercise:camicia:source": "Beggar-My-Neighbour"
 }

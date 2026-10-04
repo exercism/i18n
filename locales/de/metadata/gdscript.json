@@ -145,5 +145,8 @@
   "exercise:sublist:blurb": "Bestimme, ob eine Liste eine Teilliste einer anderen Liste ist.",
   "exercise:prism:name": "Prisma",
   "exercise:prism:blurb": "Berechne den Weg eines Lasers durch brechende Prismen.",
-  "exercise:prism:source": "FraSanga"
+  "exercise:prism:source": "FraSanga",
+  "exercise:camicia:name": "Camicia",
+  "exercise:camicia:blurb": "Simuliere das Kartenspiel und finde heraus, ob die Partie endet oder in eine Endlosschleife gerät.",
+  "exercise:camicia:source": "Beggar-My-Neighbour"
 }

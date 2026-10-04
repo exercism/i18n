@@ -145,5 +145,8 @@
   "exercise:sublist:blurb": "একটি লিস্ট অন্য একটি লিস্টের সাবলিস্ট কি না তা নির্ধারণ করুন।",
   "exercise:prism:name": "প্রিজম",
   "exercise:prism:blurb": "প্রতিসারক প্রিজমের মধ্য দিয়ে একটি লেজারের পথ গণনা করুন।",
-  "exercise:prism:source": "FraSanga"
+  "exercise:prism:source": "FraSanga",
+  "exercise:camicia:name": "Camicia",
+  "exercise:camicia:blurb": "কার্ড গেমটি সিমুলেট করুন এবং ম্যাচটি শেষ হয় নাকি অসীম লুপে ঢুকে পড়ে তা নির্ধারণ করুন।",
+  "exercise:camicia:source": "Beggar-My-Neighbour"
 }

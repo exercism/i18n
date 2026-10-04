@@ -145,5 +145,8 @@
   "exercise:sublist:blurb": "어떤 배열이 다른 배열의 부분 배열인지 판별해요.",
   "exercise:prism:name": "프리즘",
   "exercise:prism:blurb": "굴절 프리즘을 통과하는 레이저의 경로를 계산해요.",
-  "exercise:prism:source": "FraSanga"
+  "exercise:prism:source": "FraSanga",
+  "exercise:camicia:name": "Camicia",
+  "exercise:camicia:blurb": "카드 게임을 시뮬레이션하고, 승부가 끝나는지 아니면 무한 루프에 빠지는지 판단해요.",
+  "exercise:camicia:source": "Beggar-My-Neighbour"
 }

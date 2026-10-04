@@ -35,6 +35,11 @@ This page is generated from [the index](../../json/es-ES/gdscript.json) by `scri
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/bob/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/bb/70/2f7bbe91ee7c4f8a095bff0bc6b9c090051b.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/bob/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/ea/4a/80776b77fc8b547460b80cb4cdca084c0fa3.md)
 
+### Camicia
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/camicia/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/db/62/fcef27d59da1ecd8287b36edfede272b9197.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/camicia/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/76/1d/8a82c502ac4117787d8314c74fcf79dc5159.md)
+
 ### Collatz Conjecture (Conjetura de Collatz)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/collatz-conjecture/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/af/33/2a810f0f31aa1233e92bea57721d3025f4e0.md)

@@ -145,5 +145,8 @@
   "exercise:sublist:blurb": "तय कीजिए कि कोई ऐरे किसी दूसरे ऐरे की सबलिस्ट है या नहीं।",
   "exercise:prism:name": "प्रिज़्म",
   "exercise:prism:blurb": "अपवर्तक प्रिज़्मों से गुज़रने वाली लेज़र के पथ की गणना कीजिए।",
-  "exercise:prism:source": "FraSanga"
+  "exercise:prism:source": "FraSanga",
+  "exercise:camicia:name": "Camicia",
+  "exercise:camicia:blurb": "ताश का यह खेल सिम्युलेट कीजिए और पता लगाइए कि मुकाबला खत्म होता है या अनंत लूप में चला जाता है।",
+  "exercise:camicia:source": "Beggar-My-Neighbour"
 }

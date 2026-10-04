@@ -145,5 +145,8 @@
   "exercise:sublist:blurb": "判斷某個陣列是否為另一個陣列的子陣列。",
   "exercise:prism:name": "稜鏡",
   "exercise:prism:blurb": "計算雷射光穿過折射稜鏡的路徑。",
-  "exercise:prism:source": "FraSanga"
+  "exercise:prism:source": "FraSanga",
+  "exercise:camicia:name": "Camicia",
+  "exercise:camicia:blurb": "模擬這款紙牌遊戲，並判斷對局會結束還是陷入無限迴圈。",
+  "exercise:camicia:source": "Beggar-My-Neighbour"
 }

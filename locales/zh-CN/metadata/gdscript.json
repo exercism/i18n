@@ -145,5 +145,8 @@
   "exercise:sublist:blurb": "判断一个数组是否是另一个数组的子数组。",
   "exercise:prism:name": "棱镜",
   "exercise:prism:blurb": "计算激光穿过折射棱镜的光路。",
-  "exercise:prism:source": "FraSanga"
+  "exercise:prism:source": "FraSanga",
+  "exercise:camicia:name": "Camicia",
+  "exercise:camicia:blurb": "模拟这个纸牌游戏，判断对局是会结束，还是会陷入无限循环。",
+  "exercise:camicia:source": "Beggar-My-Neighbour"
 }

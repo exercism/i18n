@@ -145,5 +145,8 @@
   "exercise:sublist:blurb": "Determina se un array è un subarray di un altro array.",
   "exercise:prism:name": "Prisma",
   "exercise:prism:blurb": "Calcola il percorso di un laser attraverso prismi rifrangenti.",
-  "exercise:prism:source": "FraSanga"
+  "exercise:prism:source": "FraSanga",
+  "exercise:camicia:name": "Camicia",
+  "exercise:camicia:blurb": "Simula il gioco di carte e determina se la partita finisce o entra in un ciclo infinito.",
+  "exercise:camicia:source": "Beggar-My-Neighbour"
 }

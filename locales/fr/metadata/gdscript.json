@@ -145,5 +145,8 @@
   "exercise:sublist:blurb": "Détermine si une liste est une sous-liste d'une autre liste.",
   "exercise:prism:name": "Prisme",
   "exercise:prism:blurb": "Calcule le trajet d'un laser à travers des prismes réfractifs.",
-  "exercise:prism:source": "FraSanga"
+  "exercise:prism:source": "FraSanga",
+  "exercise:camicia:name": "Camicia",
+  "exercise:camicia:blurb": "Simule le jeu de cartes et détermine si la partie se termine ou entre dans une boucle infinie.",
+  "exercise:camicia:source": "Beggar-My-Neighbour"
 }

@@ -145,5 +145,8 @@
   "exercise:sublist:blurb": "Határozd meg, hogy egy lista egy másik lista részlistája-e.",
   "exercise:prism:name": "Prizma",
   "exercise:prism:blurb": "Számítsd ki a lézer útját fénytörő prizmákon keresztül.",
-  "exercise:prism:source": "FraSanga"
+  "exercise:prism:source": "FraSanga",
+  "exercise:camicia:name": "Camicia",
+  "exercise:camicia:blurb": "Szimuláld a kártyajátékot, és állapítsd meg, hogy a játszma véget ér-e, vagy végtelen ciklusba kerül.",
+  "exercise:camicia:source": "Beggar-My-Neighbour"
 }
