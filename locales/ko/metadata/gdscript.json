@@ -148,5 +148,8 @@
   "exercise:prism:source": "FraSanga",
   "exercise:camicia:name": "Camicia",
   "exercise:camicia:blurb": "카드 게임을 시뮬레이션하고, 승부가 끝나는지 아니면 무한 루프에 빠지는지 판단해요.",
-  "exercise:camicia:source": "Beggar-My-Neighbour"
+  "exercise:camicia:source": "Beggar-My-Neighbour",
+  "exercise:variable-length-quantity:name": "가변 길이 수량",
+  "exercise:variable-length-quantity:blurb": "가변 길이 수량 인코딩과 디코딩을 구현해요.",
+  "exercise:variable-length-quantity:source": "MIDI 인코딩/디코딩을 구현해야 했던 Splice의 가여운 개발자."
 }

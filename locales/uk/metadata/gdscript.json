@@ -148,5 +148,8 @@
   "exercise:prism:source": "FraSanga",
   "exercise:camicia:name": "Camicia",
   "exercise:camicia:blurb": "Змоделюйте карткову гру та визначте, чи партія завершується, чи входить у нескінченний цикл.",
-  "exercise:camicia:source": "Beggar-My-Neighbour"
+  "exercise:camicia:source": "Beggar-My-Neighbour",
+  "exercise:variable-length-quantity:name": "Величина змінної довжини",
+  "exercise:variable-length-quantity:blurb": "Реалізуйте кодування та декодування величин змінної довжини.",
+  "exercise:variable-length-quantity:source": "Бідолашний розробник зі Splice, якому довелося реалізувати кодування й декодування MIDI."
 }

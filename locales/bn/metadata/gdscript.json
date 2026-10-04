@@ -148,5 +148,8 @@
   "exercise:prism:source": "FraSanga",
   "exercise:camicia:name": "Camicia",
   "exercise:camicia:blurb": "কার্ড গেমটি সিমুলেট করুন এবং ম্যাচটি শেষ হয় নাকি অসীম লুপে ঢুকে পড়ে তা নির্ধারণ করুন।",
-  "exercise:camicia:source": "Beggar-My-Neighbour"
+  "exercise:camicia:source": "Beggar-My-Neighbour",
+  "exercise:variable-length-quantity:name": "ভ্যারিয়েবল লেংথ কোয়ান্টিটি",
+  "exercise:variable-length-quantity:blurb": "ভ্যারিয়েবল লেংথ কোয়ান্টিটি এনকোডিং ও ডিকোডিং বাস্তবায়ন করুন।",
+  "exercise:variable-length-quantity:source": "একজন বেচারা Splice ডেভেলপার, যাকে MIDI এনকোডিং/ডিকোডিং বাস্তবায়ন করতে হয়েছিল।"
 }

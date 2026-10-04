@@ -49,7 +49,8 @@
     "exercises/practice/sublist": {"en":"Sublist","es-419":"Sublista"},
     "exercises/practice/sum-of-multiples": {"en":"Sum of Multiples","es-419":"Suma de múltiplos"},
     "exercises/practice/triangle": {"en":"Triangle","es-419":"Triángulo"},
-    "exercises/practice/two-fer": {"en":"Two Fer","es-419":"Two Fer"}
+    "exercises/practice/two-fer": {"en":"Two Fer","es-419":"Two Fer"},
+    "exercises/practice/variable-length-quantity": {"en":"Variable Length Quantity","es-419":"Cantidad de longitud variable"}
   },
   "paths": {
     "docs/ABOUT.md": ["493d25b877124188e890c2d1e5fc212d6084d341","7ef490acc4c3ba3df784aac8b6f84df60e62ad64"],
@@ -130,6 +131,7 @@
     "exercises/practice/triangle/.docs/instructions.md": ["e9b053dcd344e85179041c10dcd48406d735b2f9"],
     "exercises/practice/two-fer/.docs/instructions.md": ["adc53487981faa7797e5099ff92acffd3df180be"],
     "exercises/practice/two-fer/.docs/introduction.md": ["5947a2230bd8a36f4e653ca80f726386df06ccee"],
+    "exercises/practice/variable-length-quantity/.docs/instructions.md": ["5012548268111bd52081b3774efc2a51a0271fd3"],
     "exercises/shared/.docs/help.md": ["47aaaad6b6f19e63b85a033d622aa9de65240654"],
     "exercises/shared/.docs/tests.md": ["a15bfbfd981fb1d7f27ff2b7d36650be1e1e2b11"]
   },

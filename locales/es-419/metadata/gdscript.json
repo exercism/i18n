@@ -148,5 +148,8 @@
   "exercise:prism:source": "FraSanga",
   "exercise:camicia:name": "Camicia",
   "exercise:camicia:blurb": "Simula el juego de cartas y determina si la partida termina o entra en un bucle infinito.",
-  "exercise:camicia:source": "Beggar-My-Neighbour"
+  "exercise:camicia:source": "Beggar-My-Neighbour",
+  "exercise:variable-length-quantity:name": "Cantidad de longitud variable",
+  "exercise:variable-length-quantity:blurb": "Implementa la codificación y decodificación de cantidad de longitud variable.",
+  "exercise:variable-length-quantity:source": "Un pobre desarrollador de Splice que tuvo que implementar la codificación y decodificación de MIDI."
 }

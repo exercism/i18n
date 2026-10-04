@@ -226,6 +226,10 @@ This page is generated from [the index](../../json/uk/gdscript.json) by `scripts
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/two-fer/.docs/introduction.md)): [Latest](../../../locales/uk/content/59/47/a2230bd8a36f4e653ca80f726386df06ccee.md)
   - [`8c124394aa`](../../../locales/uk/content/8c/12/4394aacf423f3aba704a131aadeec3a98d12.md)
 
+### Variable Length Quantity (Величина змінної довжини)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/variable-length-quantity/.docs/instructions.md)): [Latest](../../../locales/uk/content/50/12/548268111bd52081b3774efc2a51a0271fd3.md)
+
 ## Track docs
 
 ### ABOUT.md

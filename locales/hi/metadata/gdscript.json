@@ -148,5 +148,8 @@
   "exercise:prism:source": "FraSanga",
   "exercise:camicia:name": "Camicia",
   "exercise:camicia:blurb": "ताश का यह खेल सिम्युलेट कीजिए और पता लगाइए कि मुकाबला खत्म होता है या अनंत लूप में चला जाता है।",
-  "exercise:camicia:source": "Beggar-My-Neighbour"
+  "exercise:camicia:source": "Beggar-My-Neighbour",
+  "exercise:variable-length-quantity:name": "वेरिएबल लंबाई की मात्रा",
+  "exercise:variable-length-quantity:blurb": "वेरिएबल लंबाई की मात्रा की एन्कोडिंग और डिकोडिंग लागू कीजिए।",
+  "exercise:variable-length-quantity:source": "एक बेचारा Splice डेवलपर, जिसे MIDI की एन्कोडिंग/डिकोडिंग लागू करनी पड़ी।"
 }

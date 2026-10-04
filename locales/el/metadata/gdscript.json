@@ -148,5 +148,8 @@
   "exercise:prism:source": "FraSanga",
   "exercise:camicia:name": "Camicia",
   "exercise:camicia:blurb": "Προσομοίωσε το παιχνίδι με τράπουλα και προσδιόρισε αν η παρτίδα τελειώνει ή μπαίνει σε ατέρμονο βρόχο.",
-  "exercise:camicia:source": "Beggar-My-Neighbour"
+  "exercise:camicia:source": "Beggar-My-Neighbour",
+  "exercise:variable-length-quantity:name": "Ποσότητα μεταβλητού μήκους",
+  "exercise:variable-length-quantity:blurb": "Υλοποίησε κωδικοποίηση και αποκωδικοποίηση ποσότητας μεταβλητού μήκους.",
+  "exercise:variable-length-quantity:source": "Ένας καημένος προγραμματιστής της Splice που έπρεπε να υλοποιήσει κωδικοποίηση/αποκωδικοποίηση MIDI."
 }

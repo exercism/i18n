@@ -148,5 +148,8 @@
   "exercise:prism:source": "FraSanga",
   "exercise:camicia:name": "Camicia",
   "exercise:camicia:blurb": "حاكِ لعبة الورق وحدّد ما إذا كانت المباراة تنتهي أم تدخل في حلقة لا نهائية.",
-  "exercise:camicia:source": "Beggar-My-Neighbour"
+  "exercise:camicia:source": "Beggar-My-Neighbour",
+  "exercise:variable-length-quantity:name": "الكمية متغيرة الطول",
+  "exercise:variable-length-quantity:blurb": "نفّذ ترميز الكمية متغيرة الطول وفك ترميزها.",
+  "exercise:variable-length-quantity:source": "مطوّر مسكين في Splice اضطر إلى تنفيذ ترميز MIDI وفك ترميزه."
 }

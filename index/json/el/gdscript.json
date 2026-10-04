@@ -49,7 +49,8 @@
     "exercises/practice/sublist": {"el":"Υπολίστα","en":"Sublist"},
     "exercises/practice/sum-of-multiples": {"el":"Άθροισμα πολλαπλασίων","en":"Sum of Multiples"},
     "exercises/practice/triangle": {"el":"Τρίγωνο","en":"Triangle"},
-    "exercises/practice/two-fer": {"el":"Two Fer","en":"Two Fer"}
+    "exercises/practice/two-fer": {"el":"Two Fer","en":"Two Fer"},
+    "exercises/practice/variable-length-quantity": {"el":"Ποσότητα μεταβλητού μήκους","en":"Variable Length Quantity"}
   },
   "paths": {
     "docs/ABOUT.md": ["493d25b877124188e890c2d1e5fc212d6084d341","7ef490acc4c3ba3df784aac8b6f84df60e62ad64","9864ed00303fd196319f4058cddc6994eaed0a14"],
@@ -130,6 +131,7 @@
     "exercises/practice/triangle/.docs/instructions.md": ["e9b053dcd344e85179041c10dcd48406d735b2f9","ac39008726d5472b99e1aee556219eadca7fc49d"],
     "exercises/practice/two-fer/.docs/instructions.md": ["adc53487981faa7797e5099ff92acffd3df180be","37aa75297ea593a8ba8215ab2fa075cb87fb6dc9"],
     "exercises/practice/two-fer/.docs/introduction.md": ["5947a2230bd8a36f4e653ca80f726386df06ccee","8c124394aacf423f3aba704a131aadeec3a98d12"],
+    "exercises/practice/variable-length-quantity/.docs/instructions.md": ["5012548268111bd52081b3774efc2a51a0271fd3"],
     "exercises/shared/.docs/help.md": ["47aaaad6b6f19e63b85a033d622aa9de65240654","45aa2d6411fe5d62666ad52d0981ca77f05503cd"],
     "exercises/shared/.docs/tests.md": ["a15bfbfd981fb1d7f27ff2b7d36650be1e1e2b11","1f197bf7fc362ce77b023b134ec9d0b7d18a16e0"]
   },

@@ -148,5 +148,8 @@
   "exercise:prism:source": "FraSanga",
   "exercise:camicia:name": "Camicia",
   "exercise:camicia:blurb": "模拟这个纸牌游戏，判断对局是会结束，还是会陷入无限循环。",
-  "exercise:camicia:source": "Beggar-My-Neighbour"
+  "exercise:camicia:source": "Beggar-My-Neighbour",
+  "exercise:variable-length-quantity:name": "可变长度数量",
+  "exercise:variable-length-quantity:blurb": "实现可变长度数量的编码和解码。",
+  "exercise:variable-length-quantity:source": "出自一位可怜的 Splice 开发者，他不得不实现 MIDI 的编码和解码。"
 }

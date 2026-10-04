@@ -213,6 +213,10 @@ This page is generated from [the index](../../json/es-ES/gdscript.json) by `scri
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/two-fer/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/ad/c5/3487981faa7797e5099ff92acffd3df180be.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/two-fer/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/59/47/a2230bd8a36f4e653ca80f726386df06ccee.md)
 
+### Variable Length Quantity (Cantidad de longitud variable)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/variable-length-quantity/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/50/12/548268111bd52081b3774efc2a51a0271fd3.md)
+
 ## Track docs
 
 ### ABOUT.md

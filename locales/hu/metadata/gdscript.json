@@ -148,5 +148,8 @@
   "exercise:prism:source": "FraSanga",
   "exercise:camicia:name": "Camicia",
   "exercise:camicia:blurb": "Szimuláld a kártyajátékot, és állapítsd meg, hogy a játszma véget ér-e, vagy végtelen ciklusba kerül.",
-  "exercise:camicia:source": "Beggar-My-Neighbour"
+  "exercise:camicia:source": "Beggar-My-Neighbour",
+  "exercise:variable-length-quantity:name": "Változó hosszúságú mennyiség",
+  "exercise:variable-length-quantity:blurb": "Valósítsd meg a változó hosszúságú mennyiség kódolását és dekódolását.",
+  "exercise:variable-length-quantity:source": "Egy szegény Splice-fejlesztő, akinek MIDI-kódolást/dekódolást kellett megvalósítania."
 }

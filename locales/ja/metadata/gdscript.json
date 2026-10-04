@@ -148,5 +148,8 @@
   "exercise:prism:source": "FraSanga",
   "exercise:camicia:name": "Camicia",
   "exercise:camicia:blurb": "カードゲームをシミュレートして、対戦が決着するか無限ループに入るかを判定します。",
-  "exercise:camicia:source": "Beggar-My-Neighbour"
+  "exercise:camicia:source": "Beggar-My-Neighbour",
+  "exercise:variable-length-quantity:name": "可変長数量",
+  "exercise:variable-length-quantity:blurb": "可変長数量のエンコードとデコードを実装します。",
+  "exercise:variable-length-quantity:source": "MIDIのエンコードとデコードを実装することになった、かわいそうなSpliceのエンジニア"
 }
