@@ -393,5 +393,7 @@
   "exercise:baffling-birthdays:blurb": "Estima las probabilidades de la paradoja del cumpleaños.",
   "exercise:baffling-birthdays:source": "Erik Schierboom",
   "exercise:ledger:name": "Libro mayor",
-  "exercise:ledger:blurb": "Refactoriza una impresora de libro mayor."
+  "exercise:ledger:blurb": "Refactoriza una impresora de libro mayor.",
+  "exercise:react:name": "React",
+  "exercise:react:blurb": "Implementa un sistema reactivo básico."
 }

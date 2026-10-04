@@ -393,5 +393,7 @@
   "exercise:baffling-birthdays:blurb": "생일 역설의 확률을 추정해요.",
   "exercise:baffling-birthdays:source": "Erik Schierboom",
   "exercise:ledger:name": "원장",
-  "exercise:ledger:blurb": "원장 프린터를 리팩터링해요."
+  "exercise:ledger:blurb": "원장 프린터를 리팩터링해요.",
+  "exercise:react:name": "React",
+  "exercise:react:blurb": "기본적인 반응형 시스템을 구현해요."
 }

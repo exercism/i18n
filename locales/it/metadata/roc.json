@@ -393,5 +393,7 @@
   "exercise:ledger:name": "Registro",
   "exercise:ledger:blurb": "Riorganizza una stampante di registri.",
   "exercise:lens-person:name": "Persona con le lenti",
-  "exercise:lens-person:blurb": "Usa le lenti per aggiornare record annidati (specifico dei linguaggi con dati immutabili)."
+  "exercise:lens-person:blurb": "Usa le lenti per aggiornare record annidati (specifico dei linguaggi con dati immutabili).",
+  "exercise:react:name": "React",
+  "exercise:react:blurb": "Implementa un semplice sistema reattivo."
 }

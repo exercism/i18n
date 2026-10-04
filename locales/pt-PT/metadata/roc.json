@@ -393,5 +393,7 @@
   "exercise:ledger:name": "Livro-razão",
   "exercise:ledger:blurb": "Refatoriza um programa que imprime um livro-razão.",
   "exercise:lens-person:name": "Pessoa com lentes",
-  "exercise:lens-person:blurb": "Usa lentes para atualizar registos aninhados (específico para linguagens com dados imutáveis)."
+  "exercise:lens-person:blurb": "Usa lentes para atualizar registos aninhados (específico para linguagens com dados imutáveis).",
+  "exercise:react:name": "React",
+  "exercise:react:blurb": "Implementa um sistema reativo básico."
 }

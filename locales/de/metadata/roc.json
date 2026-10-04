@@ -393,5 +393,7 @@
   "exercise:ledger:name": "Hauptbuch",
   "exercise:ledger:blurb": "Refaktoriere einen Hauptbuch-Drucker.",
   "exercise:lens-person:name": "Lens Person",
-  "exercise:lens-person:blurb": "Verwende Lenses, um verschachtelte Records zu aktualisieren (spezifisch für Sprachen mit unveränderlichen Daten)."
+  "exercise:lens-person:blurb": "Verwende Lenses, um verschachtelte Records zu aktualisieren (spezifisch für Sprachen mit unveränderlichen Daten).",
+  "exercise:react:name": "React",
+  "exercise:react:blurb": "Implementiere ein einfaches reaktives System."
 }

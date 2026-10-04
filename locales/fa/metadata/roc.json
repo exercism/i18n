@@ -393,5 +393,7 @@
   "exercise:ledger:name": "دفتر کل",
   "exercise:ledger:blurb": "یک چاپگر دفتر کل را بازآرایی کنید.",
   "exercise:lens-person:name": "فرد لنز",
-  "exercise:lens-person:blurb": "با لنزها رکوردهای تودرتو را به‌روزرسانی کنید (مخصوص زبان‌هایی با داده‌های تغییرناپذیر)."
+  "exercise:lens-person:blurb": "با لنزها رکوردهای تودرتو را به‌روزرسانی کنید (مخصوص زبان‌هایی با داده‌های تغییرناپذیر).",
+  "exercise:react:name": "React",
+  "exercise:react:blurb": "یک سامانه‌ی واکنشی پایه پیاده‌سازی کنید."
 }

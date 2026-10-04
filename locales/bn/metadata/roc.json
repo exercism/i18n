@@ -393,5 +393,7 @@
   "exercise:ledger:name": "খতিয়ান",
   "exercise:ledger:blurb": "একটি খতিয়ান প্রিন্টার রিফ্যাক্টর করুন।",
   "exercise:lens-person:name": "লেন্স ব্যক্তি",
-  "exercise:lens-person:blurb": "নেস্টেড রেকর্ড আপডেট করতে লেন্স ব্যবহার করুন (ইমিউটেবল ডেটা আছে এমন ভাষার জন্য প্রযোজ্য)।"
+  "exercise:lens-person:blurb": "নেস্টেড রেকর্ড আপডেট করতে লেন্স ব্যবহার করুন (ইমিউটেবল ডেটা আছে এমন ভাষার জন্য প্রযোজ্য)।",
+  "exercise:react:name": "React",
+  "exercise:react:blurb": "একটি মৌলিক রিঅ্যাকটিভ সিস্টেম বাস্তবায়ন করুন।"
 }
