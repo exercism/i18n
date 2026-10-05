@@ -241,7 +241,8 @@ This page is generated from [the index](../../json/es-ES/gdscript.json) by `scri
 
 ### Testing on the GDScript track (Cómo probar en el track de GDScript)
 
-- `TESTS.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/TESTS.md)): [Latest](../../../locales/es-ES/content/af/c8/c5da00daa7e2c51a3e009d0ef24f6f6adab1.md)
+- `TESTS.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/TESTS.md)): [Latest](../../../locales/es-ES/content/22/81/2d0cca7aaafc6ff4e6e64222411b1432ca3a.md)
+  - [`afc8c5da00`](../../../locales/es-ES/content/af/c8/c5da00daa7e2c51a3e009d0ef24f6f6adab1.md)
   - [`003bb93b04`](../../../locales/es-ES/content/00/3b/b93b0415040f7159740cd51811517e19852d.md)
   - [`9e68c6bc99`](../../../locales/es-ES/content/9e/68/c6bc998299fd489c694fb879f535acab6d3f.md)
   - [`a522f64d38`](../../../locales/es-ES/content/a5/22/f64d386d862ae55a118074261dc4a9b47e6f.md)

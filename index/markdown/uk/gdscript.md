@@ -258,12 +258,12 @@ This page is generated from [the index](../../json/uk/gdscript.json) by `scripts
 
 ### Testing on the GDScript track (Тестування на треку GDScript)
 
-- `TESTS.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/TESTS.md)): [Latest](../../../locales/uk/content/af/c8/c5da00daa7e2c51a3e009d0ef24f6f6adab1.md)
+- `TESTS.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/TESTS.md)): [Latest](../../../locales/uk/content/22/81/2d0cca7aaafc6ff4e6e64222411b1432ca3a.md)
+  - [`afc8c5da00`](../../../locales/uk/content/af/c8/c5da00daa7e2c51a3e009d0ef24f6f6adab1.md)
   - [`003bb93b04`](../../../locales/uk/content/00/3b/b93b0415040f7159740cd51811517e19852d.md)
   - [`9e68c6bc99`](../../../locales/uk/content/9e/68/c6bc998299fd489c694fb879f535acab6d3f.md)
   - [`a522f64d38`](../../../locales/uk/content/a5/22/f64d386d862ae55a118074261dc4a9b47e6f.md)
   - [`bec9502b89`](../../../locales/uk/content/be/c9/502b8987111c0315223e21e299485767937f.md)
-  - [`5ff4b1db45`](../../../locales/uk/content/5f/f4/b1db4517e481e4740ebf7d8fe4970dca4612.md)
 
 ### Useful GDScript resources (Корисні ресурси з GDScript)
 
