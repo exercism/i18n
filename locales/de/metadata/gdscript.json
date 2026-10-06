@@ -154,5 +154,8 @@
   "exercise:variable-length-quantity:source": "Ein armer Splice-Entwickler, der MIDI-Kodierung/-Dekodierung implementieren musste.",
   "exercise:two-bucket:name": "Zwei Eimer",
   "exercise:two-bucket:blurb": "Zeige mit zwei unterschiedlich großen Eimern, wie man eine exakte Anzahl Liter abmisst.",
-  "exercise:two-bucket:source": "Water Pouring Problem"
+  "exercise:two-bucket:source": "Water Pouring Problem",
+  "exercise:rational-numbers:name": "Rationale Zahlen",
+  "exercise:rational-numbers:blurb": "Implementiere rationale Zahlen.",
+  "exercise:rational-numbers:source": "Wikipedia"
 }

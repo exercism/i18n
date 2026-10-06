@@ -154,5 +154,8 @@
   "exercise:variable-length-quantity:source": "MIDIのエンコードとデコードを実装することになった、かわいそうなSpliceのエンジニア",
   "exercise:two-bucket:name": "2つのバケツ",
   "exercise:two-bucket:blurb": "大きさの異なる2つのバケツを使い、決まった量の水を正確に量る方法を示します。",
-  "exercise:two-bucket:source": "水差し問題"
+  "exercise:two-bucket:source": "水差し問題",
+  "exercise:rational-numbers:name": "有理数",
+  "exercise:rational-numbers:blurb": "有理数を実装します。",
+  "exercise:rational-numbers:source": "Wikipedia"
 }

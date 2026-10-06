@@ -154,5 +154,8 @@
   "exercise:variable-length-quantity:source": "مطوّر مسكين في Splice اضطر إلى تنفيذ ترميز MIDI وفك ترميزه.",
   "exercise:two-bucket:name": "الدلوان",
   "exercise:two-bucket:blurb": "إذا كان لديك دلوان مختلفان في الحجم، فأوضح كيفية قياس عدد دقيق من اللترات.",
-  "exercise:two-bucket:source": "مسألة صب الماء"
+  "exercise:two-bucket:source": "مسألة صب الماء",
+  "exercise:rational-numbers:name": "الأعداد النسبية",
+  "exercise:rational-numbers:blurb": "نفّذ الأعداد النسبية.",
+  "exercise:rational-numbers:source": "ويكيبيديا"
 }

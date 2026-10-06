@@ -154,5 +154,8 @@
   "exercise:variable-length-quantity:source": "Un pauvre développeur de Splice obligé d'implémenter l'encodage et le décodage MIDI.",
   "exercise:two-bucket:name": "Deux seaux",
   "exercise:two-bucket:blurb": "Étant donné deux seaux de tailles différentes, montre comment mesurer une quantité exacte de litres.",
-  "exercise:two-bucket:source": "Problème de transvasement d'eau"
+  "exercise:two-bucket:source": "Problème de transvasement d'eau",
+  "exercise:rational-numbers:name": "Nombres rationnels",
+  "exercise:rational-numbers:blurb": "Implémente les nombres rationnels.",
+  "exercise:rational-numbers:source": "Wikipedia"
 }

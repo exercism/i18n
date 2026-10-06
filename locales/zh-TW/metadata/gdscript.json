@@ -154,5 +154,8 @@
   "exercise:variable-length-quantity:source": "一位可憐的 Splice 開發者不得不實作 MIDI 編碼／解碼。",
   "exercise:two-bucket:name": "兩個水桶",
   "exercise:two-bucket:blurb": "給定兩個大小不同的水桶，示範如何量出確切公升數的水。",
-  "exercise:two-bucket:source": "倒水問題"
+  "exercise:two-bucket:source": "倒水問題",
+  "exercise:rational-numbers:name": "有理數",
+  "exercise:rational-numbers:blurb": "實作有理數。",
+  "exercise:rational-numbers:source": "Wikipedia"
 }

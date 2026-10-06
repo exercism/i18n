@@ -154,5 +154,8 @@
   "exercise:variable-length-quantity:source": "Un povero sviluppatore di Splice costretto a implementare la codifica e la decodifica MIDI.",
   "exercise:two-bucket:name": "Due secchi",
   "exercise:two-bucket:blurb": "Dati due secchi di dimensioni diverse, dimostra come misurare un numero esatto di litri.",
-  "exercise:two-bucket:source": "Il problema del travaso dell'acqua"
+  "exercise:two-bucket:source": "Il problema del travaso dell'acqua",
+  "exercise:rational-numbers:name": "Numeri razionali",
+  "exercise:rational-numbers:blurb": "Implementa i numeri razionali.",
+  "exercise:rational-numbers:source": "Wikipedia"
 }

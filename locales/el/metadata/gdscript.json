@@ -154,5 +154,8 @@
   "exercise:variable-length-quantity:source": "Ένας καημένος προγραμματιστής της Splice που έπρεπε να υλοποιήσει κωδικοποίηση/αποκωδικοποίηση MIDI.",
   "exercise:two-bucket:name": "Δύο κουβάδες",
   "exercise:two-bucket:blurb": "Με δεδομένους δύο κουβάδες διαφορετικού μεγέθους, δείξε πώς να μετρήσεις μια ακριβή ποσότητα λίτρων.",
-  "exercise:two-bucket:source": "Πρόβλημα έκχυσης νερού"
+  "exercise:two-bucket:source": "Πρόβλημα έκχυσης νερού",
+  "exercise:rational-numbers:name": "Ρητοί αριθμοί",
+  "exercise:rational-numbers:blurb": "Υλοποίησε ρητούς αριθμούς.",
+  "exercise:rational-numbers:source": "Wikipedia"
 }

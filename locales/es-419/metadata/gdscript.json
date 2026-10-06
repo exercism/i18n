@@ -154,5 +154,8 @@
   "exercise:variable-length-quantity:source": "Un pobre desarrollador de Splice que tuvo que implementar la codificación y decodificación de MIDI.",
   "exercise:two-bucket:name": "Dos baldes",
   "exercise:two-bucket:blurb": "Dados dos baldes de distinto tamaño, demuestra cómo medir una cantidad exacta de litros.",
-  "exercise:two-bucket:source": "Problema del vertido de agua"
+  "exercise:two-bucket:source": "Problema del vertido de agua",
+  "exercise:rational-numbers:name": "Números racionales",
+  "exercise:rational-numbers:blurb": "Implementa los números racionales.",
+  "exercise:rational-numbers:source": "Wikipedia"
 }

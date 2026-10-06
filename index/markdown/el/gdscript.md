@@ -141,6 +141,10 @@ This page is generated from [the index](../../json/el/gdscript.json) by `scripts
   - [`fc61d36e99`](../../../locales/el/content/fc/61/d36e99be48d2d41ea1616c32e5938be9b46e.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/raindrops/.docs/introduction.md)): [Latest](../../../locales/el/content/ba/12/100f3b87d51b814910614974e4923fbe5a6e.md)
 
+### Rational Numbers (Ρητοί αριθμοί)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/rational-numbers/.docs/instructions.md)): [Latest](../../../locales/el/content/f6/4f/c0f28e5f84c9e991e52b275f5eef1ff7ea86.md)
+
 ### Resistor Color (Χρώματα αντίστασης)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/resistor-color/.docs/instructions.md)): [Latest](../../../locales/el/content/01/25/e718b455321a3e635d6ca42fc400e1be0d44.md)

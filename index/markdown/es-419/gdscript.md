@@ -135,6 +135,10 @@ This page is generated from [the index](../../json/es-419/gdscript.json) by `scr
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/raindrops/.docs/instructions.md)): [Latest](../../../locales/es-419/content/df/64/41075165afbe92ecc878d674f6861777972d.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/raindrops/.docs/introduction.md)): [Latest](../../../locales/es-419/content/ba/12/100f3b87d51b814910614974e4923fbe5a6e.md)
 
+### Rational Numbers (Números racionales)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/rational-numbers/.docs/instructions.md)): [Latest](../../../locales/es-419/content/f6/4f/c0f28e5f84c9e991e52b275f5eef1ff7ea86.md)
+
 ### Resistor Color (Colores de resistencia)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/resistor-color/.docs/instructions.md)): [Latest](../../../locales/es-419/content/01/25/e718b455321a3e635d6ca42fc400e1be0d44.md)

@@ -135,6 +135,10 @@ This page is generated from [the index](../../json/zh-CN/gdscript.json) by `scri
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/raindrops/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/df/64/41075165afbe92ecc878d674f6861777972d.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/raindrops/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/ba/12/100f3b87d51b814910614974e4923fbe5a6e.md)
 
+### Rational Numbers (有理数)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/rational-numbers/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/f6/4f/c0f28e5f84c9e991e52b275f5eef1ff7ea86.md)
+
 ### Resistor Color (电阻色环)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/resistor-color/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/01/25/e718b455321a3e635d6ca42fc400e1be0d44.md)

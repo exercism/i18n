@@ -154,5 +154,8 @@
   "exercise:variable-length-quantity:source": "یک توسعه‌دهنده‌ی بیچاره در Splice که مجبور شده رمزگذاری و رمزگشایی MIDI را پیاده‌سازی کند.",
   "exercise:two-bucket:name": "دو سطل",
   "exercise:two-bucket:blurb": "با داشتن دو سطل با اندازه‌های متفاوت، نشان دهید چگونه می‌توان مقدار دقیقی بر حسب لیتر اندازه گرفت.",
-  "exercise:two-bucket:source": "مسئله‌ی ریختن آب"
+  "exercise:two-bucket:source": "مسئله‌ی ریختن آب",
+  "exercise:rational-numbers:name": "اعداد گویا",
+  "exercise:rational-numbers:blurb": "اعداد گویا را پیاده‌سازی کنید.",
+  "exercise:rational-numbers:source": "Wikipedia"
 }

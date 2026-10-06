@@ -154,5 +154,8 @@
   "exercise:variable-length-quantity:source": "एक बेचारा Splice डेवलपर, जिसे MIDI की एन्कोडिंग/डिकोडिंग लागू करनी पड़ी।",
   "exercise:two-bucket:name": "दो बाल्टियाँ",
   "exercise:two-bucket:blurb": "अलग-अलग आकार की दो बाल्टियाँ दी गई हैं। दिखाइए कि लीटर की एक ठीक संख्या कैसे मापी जाए।",
-  "exercise:two-bucket:source": "पानी डालने की समस्या"
+  "exercise:two-bucket:source": "पानी डालने की समस्या",
+  "exercise:rational-numbers:name": "परिमेय संख्याएँ",
+  "exercise:rational-numbers:blurb": "परिमेय संख्याएँ बनाइए।",
+  "exercise:rational-numbers:source": "Wikipedia"
 }

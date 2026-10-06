@@ -154,5 +154,8 @@
   "exercise:variable-length-quantity:source": "একজন বেচারা Splice ডেভেলপার, যাকে MIDI এনকোডিং/ডিকোডিং বাস্তবায়ন করতে হয়েছিল।",
   "exercise:two-bucket:name": "দুই বালতি",
   "exercise:two-bucket:blurb": "ভিন্ন আকারের দুটি বালতি দিয়ে নির্দিষ্ট পরিমাণ লিটার কীভাবে মাপা যায় তা দেখান।",
-  "exercise:two-bucket:source": "Water Pouring Problem"
+  "exercise:two-bucket:source": "Water Pouring Problem",
+  "exercise:rational-numbers:name": "মূলদ সংখ্যা",
+  "exercise:rational-numbers:blurb": "মূলদ সংখ্যা বাস্তবায়ন করুন।",
+  "exercise:rational-numbers:source": "Wikipedia"
 }

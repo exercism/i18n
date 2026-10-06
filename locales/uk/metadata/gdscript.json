@@ -154,5 +154,8 @@
   "exercise:variable-length-quantity:source": "Бідолашний розробник зі Splice, якому довелося реалізувати кодування й декодування MIDI.",
   "exercise:two-bucket:name": "Два відра",
   "exercise:two-bucket:blurb": "Маючи два відра різного розміру, покажіть, як відміряти точну кількість літрів.",
-  "exercise:two-bucket:source": "Задача про переливання води"
+  "exercise:two-bucket:source": "Задача про переливання води",
+  "exercise:rational-numbers:name": "Раціональні числа",
+  "exercise:rational-numbers:blurb": "Реалізувати раціональні числа.",
+  "exercise:rational-numbers:source": "Wikipedia"
 }
