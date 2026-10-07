@@ -536,7 +536,8 @@ This page is generated from [the index](../../json/uk/swift.json) by `scripts/bu
 ### Lasagna Master (Майстер лазаньї)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/instructions.md)): [Latest](../../../locales/uk/content/e7/be/156216e1bfe80505bfd12b3fd32d2216fff1.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/introduction.md)): [Latest](../../../locales/uk/content/23/77/faff0684164dc4fcc00e56ddd9618faca817.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/introduction.md)): [Latest](../../../locales/uk/content/42/56/a5cf42e8c50052ed7626a3827fc66e2f54bb.md)
+  - [`2377faff06`](../../../locales/uk/content/23/77/faff0684164dc4fcc00e56ddd9618faca817.md)
   - [`b76d05faa7`](../../../locales/uk/content/b7/6d/05faa716fdcf89ea70a93ed0944f5e6cacd6.md)
   - [`634275fc1d`](../../../locales/uk/content/63/42/75fc1d2535300a0f707f6207f274f7d8c297.md)
   - [`b149a2de4d`](../../../locales/uk/content/b1/49/a2de4d26bd3e78a81bb0cdab6658e63b44e2.md)
@@ -885,10 +886,10 @@ This page is generated from [the index](../../json/uk/swift.json) by `scripts/bu
 
 ### Variadic Parameters (Варіативні параметри)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/variadic-parameters/introduction.md)): [Latest](../../../locales/uk/content/4b/f6/6df021d251fbfac633098de5d8247ce01f3c.md)
-  - [`43e9afc725`](../../../locales/uk/content/43/e9/afc725c0ada9e1f509b3c413b0814f4204c1.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/variadic-parameters/about.md)): [Latest](../../../locales/uk/content/56/59/28b4c6f664adc4ca19d84edee7e3b9c4bb35.md)
-  - [`1830641f6d`](../../../locales/uk/content/18/30/641f6d0b3aa3e7b4bcdcab335d4eb1085e7b.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/variadic-parameters/introduction.md)): [Latest](../../../locales/uk/content/43/e9/afc725c0ada9e1f509b3c413b0814f4204c1.md)
+  - [`4bf66df021`](../../../locales/uk/content/4b/f6/6df021d251fbfac633098de5d8247ce01f3c.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/variadic-parameters/about.md)): [Latest](../../../locales/uk/content/18/30/641f6d0b3aa3e7b4bcdcab335d4eb1085e7b.md)
+  - [`565928b4c6`](../../../locales/uk/content/56/59/28b4c6f664adc4ca19d84edee7e3b9c4bb35.md)
 
 ### While and repeat loops (Цикли while і repeat)
 
