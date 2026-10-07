@@ -42,6 +42,7 @@ This page is generated from [the index](../../json/hu/ruby.json) by `scripts/bui
 
 - `instructions.md` ([English](https://github.com/exercism/ruby/blob/main/exercises/practice/anagram/.docs/instructions.md)): [Latest](../../../locales/hu/content/dc/a2/4f52627e3ba6b999322fb89d8c686c3ec634.md)
   - [`a7298485b3`](../../../locales/hu/content/a7/29/8485b3f6ab5fd93ed7426e9e5331dc514e72.md)
+  - [`7d1c8283ef`](../../../locales/hu/content/7d/1c/8283ef9284e827fabb92d8ae88f0cc8428b1.md)
 - `instructions.append.md` ([English](https://github.com/exercism/ruby/blob/main/exercises/practice/anagram/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/0f/5c/35b6aedbba133c851ccfb31cfecccaa3e298.md)
 - `introduction.md` ([English](https://github.com/exercism/ruby/blob/main/exercises/practice/anagram/.docs/introduction.md)): [Latest](../../../locales/hu/content/1a/cb/df00b059f44fb4ce4c00be743d24eda86d60.md)
 
@@ -790,7 +791,8 @@ This page is generated from [the index](../../json/hu/ruby.json) by `scripts/bui
 ### Instance Variables (Példányváltozók)
 
 - `introduction.md` ([English](https://github.com/exercism/ruby/blob/main/concepts/instance-variables/introduction.md)): [Latest](../../../locales/hu/content/3c/0b/4e4f3e598a20c7cc7a9db917ad5fd9f7eaf8.md)
-- `about.md` ([English](https://github.com/exercism/ruby/blob/main/concepts/instance-variables/about.md)): [Latest](../../../locales/hu/content/cb/22/5a401d90fbf03cd9b2846e84e510c155ddc4.md)
+- `about.md` ([English](https://github.com/exercism/ruby/blob/main/concepts/instance-variables/about.md)): [Latest](../../../locales/hu/content/a3/8a/a4c19a6e04114ba3a59300ebfd55423f25a5.md)
+  - [`cb225a401d`](../../../locales/hu/content/cb/22/5a401d90fbf03cd9b2846e84e510c155ddc4.md)
 
 ### Loops (Ciklusok)
 
