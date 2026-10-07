@@ -159,7 +159,8 @@ This page is generated from [the index](../../json/ko/roc.json) by `scripts/buil
 ### DOT DSL
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/dot-dsl/.docs/instructions.md)): [Latest](../../../locales/ko/content/5e/65/ebef9436c86ec75a54714ffddc6da381c8ac.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/dot-dsl/.docs/instructions.append.md)): [Latest](../../../locales/ko/content/6d/3a/b4642d7601e242e2679520804e069b757338.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/dot-dsl/.docs/instructions.append.md)): [Latest](../../../locales/ko/content/c8/e3/115a948e9ff70660d04ad8d36300a48b181f.md)
+  - [`6d3ab4642d`](../../../locales/ko/content/6d/3a/b4642d7601e242e2679520804e069b757338.md)
 
 ### Eliud's Eggs (Eliud의 달걀)
 
@@ -524,6 +525,7 @@ This page is generated from [the index](../../json/ko/roc.json) by `scripts/buil
 ### SGF Parsing (SGF 파싱)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/sgf-parsing/.docs/instructions.md)): [Latest](../../../locales/ko/content/ed/c8/d6b1888156a7c9480c8a16222c3a0e76c32b.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/sgf-parsing/.docs/instructions.append.md)): [Latest](../../../locales/ko/content/91/cb/b74fe7fc7564818914b76a6cdb981c2bf641.md)
 
 ### Sieve (체)
 
