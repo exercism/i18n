@@ -412,5 +412,7 @@
   "exercise:book-store:source": "Inspiriert von der Harry-Potter-Kata von Cyber-Dojo.",
   "exercise:camicia:name": "Camicia",
   "exercise:camicia:blurb": "Simuliere das Kartenspiel und finde heraus, ob die Partie endet oder in eine Endlosschleife gerät.",
-  "exercise:camicia:source": "Beggar-My-Neighbour"
+  "exercise:camicia:source": "Beggar-My-Neighbour",
+  "exercise:parallel-letter-frequency:name": "Parallele Buchstabenhäufigkeit",
+  "exercise:parallel-letter-frequency:blurb": "Zähle die Häufigkeit von Buchstaben in Texten mithilfe paralleler Berechnung."
 }

@@ -412,5 +412,7 @@
   "exercise:book-store:source": "靈感來自 Cyber-Dojo 的 harry potter kata。",
   "exercise:camicia:name": "Camicia",
   "exercise:camicia:blurb": "模擬這款紙牌遊戲，並判斷對局會結束還是陷入無限迴圈。",
-  "exercise:camicia:source": "Beggar-My-Neighbour"
+  "exercise:camicia:source": "Beggar-My-Neighbour",
+  "exercise:parallel-letter-frequency:name": "平行字母頻率",
+  "exercise:parallel-letter-frequency:blurb": "使用平行運算計算文本中字母出現的頻率。"
 }

@@ -412,5 +412,7 @@
   "exercise:lens-person:name": "Persona lente",
   "exercise:lens-person:blurb": "Usa lentes para actualizar registros anidados (específico para lenguajes con datos inmutables).",
   "exercise:bank-account:name": "Cuenta bancaria",
-  "exercise:bank-account:blurb": "Simula una cuenta bancaria que permita abrirla y cerrarla, hacer retiros y depósitos de dinero. ¡Ten cuidado con las transacciones concurrentes!"
+  "exercise:bank-account:blurb": "Simula una cuenta bancaria que permita abrirla y cerrarla, hacer retiros y depósitos de dinero. ¡Ten cuidado con las transacciones concurrentes!",
+  "exercise:parallel-letter-frequency:name": "Frecuencia de letras en paralelo",
+  "exercise:parallel-letter-frequency:blurb": "Cuenta la frecuencia de las letras en textos usando computación en paralelo."
 }

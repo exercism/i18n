@@ -412,5 +412,7 @@
   "exercise:lens-person:name": "透镜人",
   "exercise:lens-person:blurb": "使用透镜更新嵌套记录（仅适用于具有不可变数据的语言）。",
   "exercise:bank-account:name": "银行账户",
-  "exercise:bank-account:blurb": "模拟一个支持开户/销户、取款和存款的银行账户。小心并发事务！"
+  "exercise:bank-account:blurb": "模拟一个支持开户/销户、取款和存款的银行账户。小心并发事务！",
+  "exercise:parallel-letter-frequency:name": "并行字母频率",
+  "exercise:parallel-letter-frequency:blurb": "使用并行计算统计文本中字母出现的频率。"
 }

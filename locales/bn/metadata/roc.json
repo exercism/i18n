@@ -412,5 +412,7 @@
   "exercise:book-store:source": "Cyber-Dojo-এর harry potter kata থেকে অনুপ্রাণিত।",
   "exercise:camicia:name": "Camicia",
   "exercise:camicia:blurb": "কার্ড গেমটি সিমুলেট করুন এবং ম্যাচটি শেষ হয় নাকি অসীম লুপে ঢুকে পড়ে তা নির্ধারণ করুন।",
-  "exercise:camicia:source": "Beggar-My-Neighbour"
+  "exercise:camicia:source": "Beggar-My-Neighbour",
+  "exercise:parallel-letter-frequency:name": "প্যারালাল অক্ষর ফ্রিকোয়েন্সি",
+  "exercise:parallel-letter-frequency:blurb": "প্যারালাল কম্পিউটেশন ব্যবহার করে টেক্সটে অক্ষরগুলোর ফ্রিকোয়েন্সি গণনা করুন।"
 }

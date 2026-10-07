@@ -356,6 +356,11 @@ This page is generated from [the index](../../json/es-ES/roc.json) by `scripts/b
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/pangram/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/32/b6/f1fc3178c36f2677b2d7bbeb35bafd6c786d.md)
 
+### Parallel Letter Frequency (Frecuencia de letras en paralelo)
+
+- `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/parallel-letter-frequency/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/61/47/b90af7ffabb5b826dc5a6d0a6439859335c7.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/parallel-letter-frequency/.docs/instructions.append.md)): [Latest](../../../locales/es-ES/content/e3/c1/dbce6bed611eaa7fadeb8a9a784bda568a85.md)
+
 ### Pascal's Triangle (Triángulo de Pascal)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/pascals-triangle/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/0f/58/f0069688bc7dfd1a2705cc4382f27a0609dd.md)

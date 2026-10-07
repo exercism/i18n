@@ -412,5 +412,7 @@
   "exercise:book-store:source": "Inspirado no harry potter kata do Cyber-Dojo.",
   "exercise:camicia:name": "Camicia",
   "exercise:camicia:blurb": "Simula o jogo de cartas e determina se a partida termina ou entra num ciclo infinito.",
-  "exercise:camicia:source": "Beggar-My-Neighbour"
+  "exercise:camicia:source": "Beggar-My-Neighbour",
+  "exercise:parallel-letter-frequency:name": "Frequência de letras em paralelo",
+  "exercise:parallel-letter-frequency:blurb": "Conta a frequência das letras em textos recorrendo a computação paralela."
 }

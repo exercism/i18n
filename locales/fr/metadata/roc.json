@@ -412,5 +412,7 @@
   "exercise:lens-person:name": "Personne à lentilles",
   "exercise:lens-person:blurb": "Utilise des lentilles pour mettre à jour des enregistrements imbriqués (spécifique aux langages avec des données immuables).",
   "exercise:bank-account:name": "Compte bancaire",
-  "exercise:bank-account:blurb": "Simule un compte bancaire prenant en charge l'ouverture, la fermeture, les retraits et les dépôts d'argent. Attention aux transactions concurrentes !"
+  "exercise:bank-account:blurb": "Simule un compte bancaire prenant en charge l'ouverture, la fermeture, les retraits et les dépôts d'argent. Attention aux transactions concurrentes !",
+  "exercise:parallel-letter-frequency:name": "Fréquence des lettres en parallèle",
+  "exercise:parallel-letter-frequency:blurb": "Compte la fréquence des lettres dans des textes en utilisant le calcul parallèle."
 }
