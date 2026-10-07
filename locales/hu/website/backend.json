@@ -2072,7 +2072,7 @@
     },
     "index": {
       "header": {
-        "title": "%{num_tracks} nyelv, amit elsajátíthatsz",
+        "title": "%{num_tracks} kurzus, amit elsajátíthatsz",
         "description_html": "Teljesítsd a(z) %{contributors_link} által létrehozott kurzusokat, és válj folyékonyan beszélővé a választott programozási nyelvekben",
         "contributors_link_text": "nagyszerű közreműködői csapat"
       }
