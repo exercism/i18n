@@ -25,13 +25,15 @@ This page is generated from [the index](../../json/hu/zig.json) by `scripts/buil
 ### Allergies (Allergiák)
 
 - `instructions.md` ([English](https://github.com/exercism/zig/blob/main/exercises/practice/allergies/.docs/instructions.md)): [Latest](../../../locales/hu/content/da/f8/cfde214667c949800c801fafecaa053efa0e.md)
-- `instructions.append.md` ([English](https://github.com/exercism/zig/blob/main/exercises/practice/allergies/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/8d/0e/5c29f70ed511f7fdf0789d33918abfd6b7a9.md)
+- `instructions.append.md` ([English](https://github.com/exercism/zig/blob/main/exercises/practice/allergies/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/5e/76/e5dc24c38ad8b0445f3b3c5a9a0b68b5d84d.md)
+  - [`8d0e5c29f7`](../../../locales/hu/content/8d/0e/5c29f70ed511f7fdf0789d33918abfd6b7a9.md)
 
 ### Anagram (Anagramma)
 
 - `instructions.md` ([English](https://github.com/exercism/zig/blob/main/exercises/practice/anagram/.docs/instructions.md)): [Latest](../../../locales/hu/content/dc/a2/4f52627e3ba6b999322fb89d8c686c3ec634.md)
   - [`a7298485b3`](../../../locales/hu/content/a7/29/8485b3f6ab5fd93ed7426e9e5331dc514e72.md)
-- `instructions.append.md` ([English](https://github.com/exercism/zig/blob/main/exercises/practice/anagram/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/f6/e5/ba3856983ae8caa89b56aa5e103556dbba12.md)
+- `instructions.append.md` ([English](https://github.com/exercism/zig/blob/main/exercises/practice/anagram/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/08/7a/88f7a66a5aa987f003ff247856eb80ba30e0.md)
+  - [`f6e5ba3856`](../../../locales/hu/content/f6/e5/ba3856983ae8caa89b56aa5e103556dbba12.md)
 - `introduction.md` ([English](https://github.com/exercism/zig/blob/main/exercises/practice/anagram/.docs/introduction.md)): [Latest](../../../locales/hu/content/1a/cb/df00b059f44fb4ce4c00be743d24eda86d60.md)
 
 ### Armstrong Numbers (Armstrong-számok)
@@ -107,7 +109,8 @@ This page is generated from [the index](../../json/hu/zig.json) by `scripts/buil
 ### D&D Character (D&D-karakter)
 
 - `instructions.md` ([English](https://github.com/exercism/zig/blob/main/exercises/practice/dnd-character/.docs/instructions.md)): [Latest](../../../locales/hu/content/e1/4e/7949d60df15f34f13fb04f45f77d59eaf9f7.md)
-- `instructions.append.md` ([English](https://github.com/exercism/zig/blob/main/exercises/practice/dnd-character/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/fc/54/b46cbacc47836d25c1ac5470673104b812ca.md)
+- `instructions.append.md` ([English](https://github.com/exercism/zig/blob/main/exercises/practice/dnd-character/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/ed/10/4f4694fbfdf47a8b2000dfa8864b0c3b5c9b.md)
+  - [`fc54b46cba`](../../../locales/hu/content/fc/54/b46cbacc47836d25c1ac5470673104b812ca.md)
 - `introduction.md` ([English](https://github.com/exercism/zig/blob/main/exercises/practice/dnd-character/.docs/introduction.md)): [Latest](../../../locales/hu/content/53/01/f61829de5444f758a53845f0c366a00aacdc.md)
 
 ### Darts
@@ -296,7 +299,8 @@ This page is generated from [the index](../../json/hu/zig.json) by `scripts/buil
 ### Perfect Numbers (Tökéletes számok)
 
 - `instructions.md` ([English](https://github.com/exercism/zig/blob/main/exercises/practice/perfect-numbers/.docs/instructions.md)): [Latest](../../../locales/hu/content/b2/bc/82ca3e9110b4fd7c2c7501f5bca0f5214cd2.md)
-- `instructions.append.md` ([English](https://github.com/exercism/zig/blob/main/exercises/practice/perfect-numbers/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/e9/96/96799c9391b97317a32ff4fc591e7583339e.md)
+- `instructions.append.md` ([English](https://github.com/exercism/zig/blob/main/exercises/practice/perfect-numbers/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/e7/23/3b6247087576463e9dec5b7fc8422a443dbb.md)
+  - [`e99696799c`](../../../locales/hu/content/e9/96/96799c9391b97317a32ff4fc591e7583339e.md)
 
 ### Phone Number (Telefonszám)
 
@@ -536,7 +540,8 @@ This page is generated from [the index](../../json/hu/zig.json) by `scripts/buil
 
 ### Installing Zig locally (A Zig helyi telepítése)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/zig/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/hu/content/10/f1/08e8a73915ad44494fc29cf9e599bd324d51.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/zig/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/hu/content/4c/4c/28a5688c5cead32a992d28de8476eef1b0a4.md)
+  - [`10f108e8a7`](../../../locales/hu/content/10/f1/08e8a73915ad44494fc29cf9e599bd324d51.md)
   - [`e69de29bb2`](../../../locales/hu/content/e6/9d/e29bb2d1d6434b8b29ae775ad8c2e48c5391.md)
 
 ### Testing on the Zig track (Tesztelés a Zig kurzuson)
