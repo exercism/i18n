@@ -161,7 +161,8 @@ This page is generated from [the index](../../json/el/rust.json) by `scripts/bui
 ### Gigasecond (Γιγαδευτερόλεπτο)
 
 - `instructions.md` ([English](https://github.com/exercism/rust/blob/main/exercises/practice/gigasecond/.docs/instructions.md)): [Latest](../../../locales/el/content/1e/20/f0022e47d16c84030db24f4c83f00b60652d.md)
-- `instructions.append.md` ([English](https://github.com/exercism/rust/blob/main/exercises/practice/gigasecond/.docs/instructions.append.md)): [Latest](../../../locales/el/content/18/50/f8b8f814eb49b748efdf0aee2bba782acdb2.md)
+- `instructions.append.md` ([English](https://github.com/exercism/rust/blob/main/exercises/practice/gigasecond/.docs/instructions.append.md)): [Latest](../../../locales/el/content/c4/4c/ba0742116a5b771258b58630ac94dcd9da19.md)
+  - [`1850f8b8f8`](../../../locales/el/content/18/50/f8b8f814eb49b748efdf0aee2bba782acdb2.md)
 - `introduction.md` ([English](https://github.com/exercism/rust/blob/main/exercises/practice/gigasecond/.docs/introduction.md)): [Latest](../../../locales/el/content/18/a3/dc2005835723646b6cd216c36ae4dfc7550f.md)
 
 ### Grade School (Δημοτικό Σχολείο)
@@ -686,7 +687,7 @@ This page is generated from [the index](../../json/el/rust.json) by `scripts/bui
 - `introduction.md` ([English](https://github.com/exercism/rust/blob/main/concepts/string-slices/introduction.md)): [Latest](../../../locales/el/content/cd/d7/2daabfcf4a7c738621bab7123b7181b19cb8.md)
 - `about.md` ([English](https://github.com/exercism/rust/blob/main/concepts/string-slices/about.md)): [Latest](../../../locales/el/content/37/ac/69976e7faa1dfa1cfb5c7e8970fe0b5a705f.md)
 
-### String vs str (String εναντίον str)
+### String vs str (String έναντι str)
 
 - `introduction.md` ([English](https://github.com/exercism/rust/blob/main/concepts/string-vs-str/introduction.md)): [Latest](../../../locales/el/content/aa/37/b613ffbe11037249aa06350779d2551a5cb6.md)
 - `about.md` ([English](https://github.com/exercism/rust/blob/main/concepts/string-vs-str/about.md)): [Latest](../../../locales/el/content/ab/ef/a71d34cb17459b0473849970c76a24741d07.md)

@@ -185,7 +185,8 @@ This page is generated from [the index](../../json/hu/rust.json) by `scripts/bui
 
 - `instructions.md` ([English](https://github.com/exercism/rust/blob/main/exercises/practice/gigasecond/.docs/instructions.md)): [Latest](../../../locales/hu/content/1e/20/f0022e47d16c84030db24f4c83f00b60652d.md)
   - [`680870f3a8`](../../../locales/hu/content/68/08/70f3a819b42543f8de62b1d8023bcd7e3db5.md)
-- `instructions.append.md` ([English](https://github.com/exercism/rust/blob/main/exercises/practice/gigasecond/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/18/50/f8b8f814eb49b748efdf0aee2bba782acdb2.md)
+- `instructions.append.md` ([English](https://github.com/exercism/rust/blob/main/exercises/practice/gigasecond/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/c4/4c/ba0742116a5b771258b58630ac94dcd9da19.md)
+  - [`1850f8b8f8`](../../../locales/hu/content/18/50/f8b8f814eb49b748efdf0aee2bba782acdb2.md)
 - `introduction.md` ([English](https://github.com/exercism/rust/blob/main/exercises/practice/gigasecond/.docs/introduction.md)): [Latest](../../../locales/hu/content/18/a3/dc2005835723646b6cd216c36ae4dfc7550f.md)
 
 ### Grade School (Általános iskola)
