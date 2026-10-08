@@ -161,8 +161,8 @@ This page is generated from [the index](../../json/fa/rust.json) by `scripts/bui
 ### Gigasecond (گیگاثانیه)
 
 - `instructions.md` ([English](https://github.com/exercism/rust/blob/main/exercises/practice/gigasecond/.docs/instructions.md)): [Latest](../../../locales/fa/content/1e/20/f0022e47d16c84030db24f4c83f00b60652d.md)
-- `instructions.append.md` ([English](https://github.com/exercism/rust/blob/main/exercises/practice/gigasecond/.docs/instructions.append.md)): [Latest](../../../locales/fa/content/c4/4c/ba0742116a5b771258b58630ac94dcd9da19.md)
-  - [`1850f8b8f8`](../../../locales/fa/content/18/50/f8b8f814eb49b748efdf0aee2bba782acdb2.md)
+- `instructions.append.md` ([English](https://github.com/exercism/rust/blob/main/exercises/practice/gigasecond/.docs/instructions.append.md)): [Latest](../../../locales/fa/content/18/50/f8b8f814eb49b748efdf0aee2bba782acdb2.md)
+  - [`c44cba0742`](../../../locales/fa/content/c4/4c/ba0742116a5b771258b58630ac94dcd9da19.md)
 - `introduction.md` ([English](https://github.com/exercism/rust/blob/main/exercises/practice/gigasecond/.docs/introduction.md)): [Latest](../../../locales/fa/content/18/a3/dc2005835723646b6cd216c36ae4dfc7550f.md)
 
 ### Grade School (دبستان)
@@ -326,7 +326,8 @@ This page is generated from [the index](../../json/fa/rust.json) by `scripts/bui
 ### Poker (پوکر)
 
 - `instructions.md` ([English](https://github.com/exercism/rust/blob/main/exercises/practice/poker/.docs/instructions.md)): [Latest](../../../locales/fa/content/10/7c/d49d66b4b7af782f61584c8b5cd91f5d8737.md)
-- `hints.md` ([English](https://github.com/exercism/rust/blob/main/exercises/practice/poker/.docs/hints.md)): [Latest](../../../locales/fa/content/03/12/531ccf9bb470aa831631d743536b443bb456.md)
+- `hints.md` ([English](https://github.com/exercism/rust/blob/main/exercises/practice/poker/.docs/hints.md)): [Latest](../../../locales/fa/content/6a/c9/8c58f6ab172078547d4fb9f7bf8cc5ed824c.md)
+  - [`0312531ccf`](../../../locales/fa/content/03/12/531ccf9bb470aa831631d743536b443bb456.md)
 
 ### POV (زاویه‌ی دید)
 

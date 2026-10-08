@@ -185,8 +185,8 @@ This page is generated from [the index](../../json/hu/rust.json) by `scripts/bui
 
 - `instructions.md` ([English](https://github.com/exercism/rust/blob/main/exercises/practice/gigasecond/.docs/instructions.md)): [Latest](../../../locales/hu/content/1e/20/f0022e47d16c84030db24f4c83f00b60652d.md)
   - [`680870f3a8`](../../../locales/hu/content/68/08/70f3a819b42543f8de62b1d8023bcd7e3db5.md)
-- `instructions.append.md` ([English](https://github.com/exercism/rust/blob/main/exercises/practice/gigasecond/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/c4/4c/ba0742116a5b771258b58630ac94dcd9da19.md)
-  - [`1850f8b8f8`](../../../locales/hu/content/18/50/f8b8f814eb49b748efdf0aee2bba782acdb2.md)
+- `instructions.append.md` ([English](https://github.com/exercism/rust/blob/main/exercises/practice/gigasecond/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/18/50/f8b8f814eb49b748efdf0aee2bba782acdb2.md)
+  - [`c44cba0742`](../../../locales/hu/content/c4/4c/ba0742116a5b771258b58630ac94dcd9da19.md)
 - `introduction.md` ([English](https://github.com/exercism/rust/blob/main/exercises/practice/gigasecond/.docs/introduction.md)): [Latest](../../../locales/hu/content/18/a3/dc2005835723646b6cd216c36ae4dfc7550f.md)
 
 ### Grade School (Általános iskola)
@@ -384,7 +384,8 @@ This page is generated from [the index](../../json/hu/rust.json) by `scripts/bui
 
 - `instructions.md` ([English](https://github.com/exercism/rust/blob/main/exercises/practice/poker/.docs/instructions.md)): [Latest](../../../locales/hu/content/10/7c/d49d66b4b7af782f61584c8b5cd91f5d8737.md)
   - [`6a38cf4bc7`](../../../locales/hu/content/6a/38/cf4bc74b43a2e9a8975d0eaa1c30eb9275c0.md)
-- `hints.md` ([English](https://github.com/exercism/rust/blob/main/exercises/practice/poker/.docs/hints.md)): [Latest](../../../locales/hu/content/03/12/531ccf9bb470aa831631d743536b443bb456.md)
+- `hints.md` ([English](https://github.com/exercism/rust/blob/main/exercises/practice/poker/.docs/hints.md)): [Latest](../../../locales/hu/content/6a/c9/8c58f6ab172078547d4fb9f7bf8cc5ed824c.md)
+  - [`0312531ccf`](../../../locales/hu/content/03/12/531ccf9bb470aa831631d743536b443bb456.md)
 
 ### POV (Nézőpont)
 
