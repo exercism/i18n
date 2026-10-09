@@ -876,8 +876,8 @@ This page is generated from [the index](../../json/fa/go.json) by `scripts/build
 ### Bird Watcher (پرنده‌نگر)
 
 - `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/bird-watcher/.docs/instructions.md)): [Latest](../../../locales/fa/content/74/b6/edcc699b8f966e36cd999a82292f14410620.md)
-- `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/bird-watcher/.docs/introduction.md)): [Latest](../../../locales/fa/content/94/14/f94856c6be28f36b92d7bb8277ca85a105bf.md)
-  - [`e5ae5d287c`](../../../locales/fa/content/e5/ae/5d287cba59b175ed20e7cbaaec023b51881d.md)
+- `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/bird-watcher/.docs/introduction.md)): [Latest](../../../locales/fa/content/e5/ae/5d287cba59b175ed20e7cbaaec023b51881d.md)
+  - [`9414f94856`](../../../locales/fa/content/94/14/f94856c6be28f36b92d7bb8277ca85a105bf.md)
 - `hints.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/bird-watcher/.docs/hints.md)): [Latest](../../../locales/fa/content/dc/de/6ddc32033f6e2abc9b25ad24d50cb797d663.md)
 
 ### Blackjack (بلک‌جک)
@@ -1240,7 +1240,8 @@ This page is generated from [the index](../../json/fa/go.json) by `scripts/build
 
 ### Installing Go locally (نصب محلی Go)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/go/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/fa/content/c9/54/6bffcfcee1e487543c89e58325ade36d405f.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/go/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/fa/content/cc/66/5ad03b384bab34f7453289255c59fcb4bb38.md)
+  - [`c9546bffcf`](../../../locales/fa/content/c9/54/6bffcfcee1e487543c89e58325ade36d405f.md)
 
 ### Roadmap & Concept List (نقشه‌ی راه و فهرست مفهوم‌ها)
 

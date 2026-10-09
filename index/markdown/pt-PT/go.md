@@ -1078,7 +1078,8 @@ This page is generated from [the index](../../json/pt-PT/go.json) by `scripts/bu
 
 ### Installing Go locally (Instalar o Go localmente)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/go/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/pt-PT/content/c9/54/6bffcfcee1e487543c89e58325ade36d405f.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/go/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/pt-PT/content/cc/66/5ad03b384bab34f7453289255c59fcb4bb38.md)
+  - [`c9546bffcf`](../../../locales/pt-PT/content/c9/54/6bffcfcee1e487543c89e58325ade36d405f.md)
 
 ### Roadmap & Concept List (Roteiro e lista de conceitos)
 

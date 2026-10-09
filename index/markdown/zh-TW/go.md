@@ -1078,7 +1078,8 @@ This page is generated from [the index](../../json/zh-TW/go.json) by `scripts/bu
 
 ### Installing Go locally (在本機安裝 Go)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/go/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/zh-TW/content/c9/54/6bffcfcee1e487543c89e58325ade36d405f.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/go/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/zh-TW/content/cc/66/5ad03b384bab34f7453289255c59fcb4bb38.md)
+  - [`c9546bffcf`](../../../locales/zh-TW/content/c9/54/6bffcfcee1e487543c89e58325ade36d405f.md)
 
 ### Roadmap & Concept List (發展藍圖與概念清單)
 

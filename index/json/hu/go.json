@@ -301,7 +301,7 @@
     "concepts/zero-values/about.md": ["9ca3cbcce0e9d6d513eb67d034caf1f3ede4a032"],
     "concepts/zero-values/introduction.md": ["9c3dddade700fad991138a599214c819af051ed5","3710b3511e14f8513a619506da9b51bc05e037e9"],
     "docs/ABOUT.md": ["40b6c942563d726ea3b37fe8a14b26fdef5ee4af"],
-    "docs/INSTALLATION.md": ["c9546bffcfcee1e487543c89e58325ade36d405f"],
+    "docs/INSTALLATION.md": ["cc665ad03b384bab34f7453289255c59fcb4bb38","c9546bffcfcee1e487543c89e58325ade36d405f"],
     "docs/LEARNING.md": ["f7c798f9fd52a4f2ebe93a246c83347583176d01"],
     "docs/RESOURCES.md": ["a498f2652c954812342cd41f3a2e9d74b5e28bc4","e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"],
     "docs/ROADMAP.md": ["984c9e9c914866649d20888ab6815817a865ff8a"],

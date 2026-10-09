@@ -1078,7 +1078,8 @@ This page is generated from [the index](../../json/hi/go.json) by `scripts/build
 
 ### Installing Go locally (Go को अपने कंप्यूटर पर इंस्टॉल करना)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/go/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/hi/content/c9/54/6bffcfcee1e487543c89e58325ade36d405f.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/go/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/hi/content/cc/66/5ad03b384bab34f7453289255c59fcb4bb38.md)
+  - [`c9546bffcf`](../../../locales/hi/content/c9/54/6bffcfcee1e487543c89e58325ade36d405f.md)
 
 ### Roadmap & Concept List (रोडमैप और कॉन्सेप्ट की सूची)
 
