@@ -655,11 +655,13 @@ This page is generated from [the index](../../json/es-419/tcl.json) by `scripts/
 
 ### How to learn Tcl (Cómo aprender Tcl)
 
-- `LEARNING.md` ([English](https://github.com/exercism/tcl/blob/main/docs/LEARNING.md)): [Latest](../../../locales/es-419/content/5d/c9/98be9ede0eff5f3f63da530d5d6f9e9cca0a.md)
+- `LEARNING.md` ([English](https://github.com/exercism/tcl/blob/main/docs/LEARNING.md)): [Latest](../../../locales/es-419/content/78/23/f78775cfd323faf174e4192e63c8cd1bf676.md)
+  - [`5dc998be9e`](../../../locales/es-419/content/5d/c9/98be9ede0eff5f3f63da530d5d6f9e9cca0a.md)
 
 ### Installing Tcl locally (Instalar Tcl localmente)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/tcl/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/es-419/content/2f/e9/67060a2f25c59017b0096a5f87f8fe717314.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/tcl/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/es-419/content/c2/37/8416defacd72a54ab5114435783ef362a980.md)
+  - [`2fe967060a`](../../../locales/es-419/content/2f/e9/67060a2f25c59017b0096a5f87f8fe717314.md)
 
 ### Testing on the Tcl track (Pruebas en la pista de Tcl)
 

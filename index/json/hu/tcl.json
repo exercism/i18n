@@ -149,8 +149,8 @@
   },
   "paths": {
     "docs/ABOUT.md": ["6baa819b0d0b450517c1614365e8025d1d4789e2","e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"],
-    "docs/INSTALLATION.md": ["2fe967060a2f25c59017b0096a5f87f8fe717314","e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"],
-    "docs/LEARNING.md": ["5dc998be9ede0eff5f3f63da530d5d6f9e9cca0a","e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"],
+    "docs/INSTALLATION.md": ["c2378416defacd72a54ab5114435783ef362a980","2fe967060a2f25c59017b0096a5f87f8fe717314","e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"],
+    "docs/LEARNING.md": ["7823f78775cfd323faf174e4192e63c8cd1bf676","5dc998be9ede0eff5f3f63da530d5d6f9e9cca0a","e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"],
     "docs/RESOURCES.md": ["59a9e1b37e0da4f6f5c62d74f7b56367824fb8d4","e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"],
     "docs/TESTS.md": ["726a680e188f29f62c2d9340a96d11cda9fe8d5c","e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"],
     "exercises/practice/accumulate/.docs/instructions.append.md": ["07cd640c098256b210f379e60a5ebfdbb053fb67"],

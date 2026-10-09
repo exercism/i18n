@@ -655,11 +655,13 @@ This page is generated from [the index](../../json/ko/tcl.json) by `scripts/buil
 
 ### How to learn Tcl (Tcl 배우는 방법)
 
-- `LEARNING.md` ([English](https://github.com/exercism/tcl/blob/main/docs/LEARNING.md)): [Latest](../../../locales/ko/content/5d/c9/98be9ede0eff5f3f63da530d5d6f9e9cca0a.md)
+- `LEARNING.md` ([English](https://github.com/exercism/tcl/blob/main/docs/LEARNING.md)): [Latest](../../../locales/ko/content/78/23/f78775cfd323faf174e4192e63c8cd1bf676.md)
+  - [`5dc998be9e`](../../../locales/ko/content/5d/c9/98be9ede0eff5f3f63da530d5d6f9e9cca0a.md)
 
 ### Installing Tcl locally (로컬에 Tcl 설치하기)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/tcl/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/ko/content/2f/e9/67060a2f25c59017b0096a5f87f8fe717314.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/tcl/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/ko/content/c2/37/8416defacd72a54ab5114435783ef362a980.md)
+  - [`2fe967060a`](../../../locales/ko/content/2f/e9/67060a2f25c59017b0096a5f87f8fe717314.md)
 
 ### Testing on the Tcl track (Tcl 트랙에서의 테스트)
 
