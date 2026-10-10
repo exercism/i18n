@@ -131,7 +131,7 @@
   "key_feature:scientific:content": "Το Scheme υποστηρίζει ακριβείς και προσεγγιστικούς αριθμούς.",
   "key_feature:extensible:title": "Υγιεινές μακροεντολές",
   "key_feature:extensible:content": "Το Scheme υποστηρίζει υγιεινές μακροεντολές, επιτρέποντας την αξιόπιστη επέκταση της σύνταξης.",
-  "exercise:list-ops:blurb": "Υλοποίησε βασικές λειτουργίες λιστών",
+  "exercise:list-ops:blurb": "Υλοποίησε βασικές λειτουργίες λίστας.",
   "doc:installation:title": "Εγκατάσταση του Scheme τοπικά",
   "doc:installation:blurb": "Μάθε πώς να εγκαταστήσεις το Scheme τοπικά για να λύνεις τις ασκήσεις του Exercism στον δικό σου υπολογιστή",
   "doc:learning:title": "Πώς να μάθεις Scheme",

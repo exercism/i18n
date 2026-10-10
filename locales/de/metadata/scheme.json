@@ -131,7 +131,7 @@
   "key_feature:scientific:content": "Scheme unterstützt exakte und inexakte Zahlen.",
   "key_feature:extensible:title": "Hygienische Makros",
   "key_feature:extensible:content": "Scheme unterstützt hygienische Makros, mit denen sich die Syntax zuverlässig erweitern lässt.",
-  "exercise:list-ops:blurb": "Implementiere grundlegende Listenoperationen",
+  "exercise:list-ops:blurb": "Implementiere grundlegende Listenoperationen.",
   "doc:installation:title": "Scheme lokal installieren",
   "doc:installation:blurb": "Lerne, wie du Scheme lokal installierst, um die Übungen von Exercism auf deinem eigenen Rechner zu lösen",
   "doc:learning:title": "Wie du Scheme lernst",

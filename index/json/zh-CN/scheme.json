@@ -89,7 +89,7 @@
     "exercises/practice/knapsack/.docs/introduction.md": ["9ac9df596b629552e1f89f828a734f99ebc769c7"],
     "exercises/practice/leap/.docs/instructions.md": ["b14f8565d61694d7c20d78e10f966bd3deaaf748"],
     "exercises/practice/leap/.docs/introduction.md": ["4ffd2da594a51072cb08a32004b217c1c988cfdc"],
-    "exercises/practice/list-ops/.docs/instructions.md": ["b5b20ff20a2012f9680c917abae1e2869d5ab2f3"],
+    "exercises/practice/list-ops/.docs/instructions.md": ["ebc5dffed02ecca9b62a12fd9c7327b58dd49bba","b5b20ff20a2012f9680c917abae1e2869d5ab2f3"],
     "exercises/practice/matching-brackets/.docs/instructions.md": ["ea170842326b8639a4d921462397a601ec5c9f4c"],
     "exercises/practice/matching-brackets/.docs/introduction.md": ["0618221b21efeaba2463792b44635639e410ddd8"],
     "exercises/practice/nucleotide-count/.docs/instructions.md": ["548d9ba5a5ee79a79fc4ff3e1d942c6c7f7c68af"],

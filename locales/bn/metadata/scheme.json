@@ -131,7 +131,7 @@
   "key_feature:scientific:content": "Scheme এক্স্যাক্ট ও ইনএক্স্যাক্ট সংখ্যা সাপোর্ট করে।",
   "key_feature:extensible:title": "হাইজেনিক ম্যাক্রো",
   "key_feature:extensible:content": "Scheme হাইজেনিক ম্যাক্রো সাপোর্ট করে, যার ফলে সিনট্যাক্স নির্ভরযোগ্যভাবে বাড়িয়ে নেওয়া যায়।",
-  "exercise:list-ops:blurb": "সাধারণ অ্যারের অপারেশনগুলো ইমপ্লিমেন্ট করুন",
+  "exercise:list-ops:blurb": "সাধারণ অ্যারে অপারেশন বাস্তবায়ন করুন।",
   "doc:installation:title": "স্থানীয়ভাবে Scheme ইনস্টল করা",
   "doc:installation:blurb": "নিজের মেশিনে Exercism-এর অনুশীলনীগুলো সমাধান করতে স্থানীয়ভাবে Scheme ইনস্টল করা শিখুন",
   "doc:learning:title": "কীভাবে Scheme শিখবেন",

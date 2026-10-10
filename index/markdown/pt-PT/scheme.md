@@ -99,7 +99,8 @@ This page is generated from [the index](../../json/pt-PT/scheme.json) by `script
 
 ### List Ops (Operações com listas)
 
-- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/list-ops/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/b5/b2/0ff20a2012f9680c917abae1e2869d5ab2f3.md)
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/list-ops/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/eb/c5/dffed02ecca9b62a12fd9c7327b58dd49bba.md)
+  - [`b5b20ff20a`](../../../locales/pt-PT/content/b5/b2/0ff20a2012f9680c917abae1e2869d5ab2f3.md)
 
 ### Matching Brackets (Parênteses correspondentes)
 

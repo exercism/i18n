@@ -131,7 +131,7 @@
   "key_feature:scientific:content": "Scheme सटीक और असटीक संख्याओं का समर्थन करता है।",
   "key_feature:extensible:title": "हाइजीनिक मैक्रो",
   "key_feature:extensible:content": "Scheme हाइजीनिक मैक्रो का समर्थन करता है, जिससे सिंटैक्स को भरोसेमंद ढंग से बढ़ाया जा सकता है।",
-  "exercise:list-ops:blurb": "बुनियादी ऐरे ऑपरेशन लागू कीजिए।",
+  "exercise:list-ops:blurb": "ऐरे के बुनियादी ऑपरेशन बनाइए।",
   "doc:installation:title": "Scheme को स्थानीय रूप से इंस्टॉल करना",
   "doc:installation:blurb": "Exercism के अभ्यास अपनी ही मशीन पर हल करने के लिए Scheme को स्थानीय रूप से इंस्टॉल करना सीखिए।",
   "doc:learning:title": "Scheme सीखने का तरीका",

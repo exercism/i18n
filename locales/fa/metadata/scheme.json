@@ -131,7 +131,7 @@
   "key_feature:scientific:content": "Scheme از اعداد دقیق و غیردقیق پشتیبانی می‌کند.",
   "key_feature:extensible:title": "ماکروهای هایژنیک",
   "key_feature:extensible:content": "Scheme از ماکروهای هایژنیک پشتیبانی می‌کند و این امکان را می‌دهد که نحوه‌ی نگارش به‌شکل قابل‌اعتمادی گسترش یابد.",
-  "exercise:list-ops:blurb": "عملیات پایه‌ای فهرست را پیاده‌سازی کنید",
+  "exercise:list-ops:blurb": "عملیات پایه‌ای لیست را پیاده‌سازی کنید.",
   "doc:installation:title": "نصب محلی Scheme",
   "doc:installation:blurb": "بیاموزید چگونه Scheme را به‌صورت محلی نصب کنید تا تمرین‌های Exercism را روی دستگاه خودتان حل کنید",
   "doc:learning:title": "چگونه Scheme را یاد بگیریم",

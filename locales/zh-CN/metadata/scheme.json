@@ -131,7 +131,7 @@
   "key_feature:scientific:content": "Scheme 支持精确数和不精确数。",
   "key_feature:extensible:title": "卫生宏",
   "key_feature:extensible:content": "Scheme 支持卫生宏，让你能够可靠地扩展语法。",
-  "exercise:list-ops:blurb": "实现基本的数组操作",
+  "exercise:list-ops:blurb": "实现基本的数组操作。",
   "doc:installation:title": "在本地安装 Scheme",
   "doc:installation:blurb": "了解如何在本地安装 Scheme，以便在自己的电脑上完成 Exercism 的练习",
   "doc:learning:title": "如何学习 Scheme",

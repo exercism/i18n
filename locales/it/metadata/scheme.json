@@ -131,7 +131,7 @@
   "key_feature:scientific:content": "Scheme supporta i numeri esatti e inesatti.",
   "key_feature:extensible:title": "Macro igieniche",
   "key_feature:extensible:content": "Scheme supporta le macro igieniche, che permettono di estendere la sintassi in modo affidabile.",
-  "exercise:list-ops:blurb": "Implementa le operazioni di base sugli array",
+  "exercise:list-ops:blurb": "Implementa le operazioni di base sugli array.",
   "doc:installation:title": "Installare Scheme in locale",
   "doc:installation:blurb": "Scopri come installare Scheme in locale per risolvere gli esercizi di Exercism sulla tua macchina",
   "doc:learning:title": "Come imparare Scheme",

@@ -131,7 +131,7 @@
   "key_feature:scientific:content": "تدعم Scheme الأعداد الدقيقة وغير الدقيقة.",
   "key_feature:extensible:title": "وحدات الماكرو الصحية",
   "key_feature:extensible:content": "تدعم Scheme وحدات الماكرو الصحية، مما يسمح بتوسيع الصيغة النحوية بشكل موثوق.",
-  "exercise:list-ops:blurb": "نفّذ عمليات المصفوفة الأساسية",
+  "exercise:list-ops:blurb": "نفّذ عمليات أساسية على القوائم.",
   "doc:installation:title": "تثبيت Scheme محليًا",
   "doc:installation:blurb": "تعلّم كيفية تثبيت Scheme محليًا لحل تمارين Exercism على جهازك الخاص",
   "doc:learning:title": "كيف تتعلّم Scheme",

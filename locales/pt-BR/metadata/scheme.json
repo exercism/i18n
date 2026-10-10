@@ -131,7 +131,7 @@
   "key_feature:scientific:content": "Scheme dá suporte a números exatos e inexatos.",
   "key_feature:extensible:title": "Macros higiênicas",
   "key_feature:extensible:content": "Scheme dá suporte a macros higiênicas, o que permite estender a sintaxe de forma confiável.",
-  "exercise:list-ops:blurb": "Implemente operações básicas com listas",
+  "exercise:list-ops:blurb": "Implemente operações básicas com listas.",
   "doc:installation:title": "Instalando Scheme localmente",
   "doc:installation:blurb": "Aprenda a instalar Scheme localmente para resolver os exercícios do Exercism na sua própria máquina",
   "doc:learning:title": "Como aprender Scheme",

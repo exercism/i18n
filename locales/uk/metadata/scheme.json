@@ -131,7 +131,7 @@
   "key_feature:scientific:content": "Scheme підтримує точні й неточні числа.",
   "key_feature:extensible:title": "Гігієнічні макроси",
   "key_feature:extensible:content": "Scheme підтримує гігієнічні макроси, що дає змогу надійно розширювати синтаксис.",
-  "exercise:list-ops:blurb": "Реалізуйте базові операції з масивами",
+  "exercise:list-ops:blurb": "Реалізуйте базові операції з масивом.",
   "doc:installation:title": "Встановлення Scheme локально",
   "doc:installation:blurb": "Дізнайтеся, як встановити Scheme локально, щоб розвʼязувати вправи Exercism на власному компʼютері",
   "doc:learning:title": "Як вивчати Scheme",

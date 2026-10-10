@@ -131,7 +131,7 @@
   "key_feature:scientific:content": "Schemeは、正確な数と不正確な数をサポートしています。",
   "key_feature:extensible:title": "衛生的マクロ",
   "key_feature:extensible:content": "Schemeは衛生的マクロをサポートしており、構文を安心して拡張できます。",
-  "exercise:list-ops:blurb": "配列の基本的な操作を実装します",
+  "exercise:list-ops:blurb": "基本的な配列の操作を実装します。",
   "doc:installation:title": "Schemeをローカル環境にインストールする",
   "doc:installation:blurb": "自分のマシンでExercismの演習を解けるように、Schemeをローカル環境にインストールする方法を学びます",
   "doc:learning:title": "Schemeの学び方",

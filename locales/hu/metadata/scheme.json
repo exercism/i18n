@@ -131,7 +131,7 @@
   "key_feature:scientific:content": "A Scheme támogatja a pontos és a közelítő számokat.",
   "key_feature:extensible:title": "Higiéniás makrók",
   "key_feature:extensible:content": "A Scheme támogatja a higiéniás makrókat, így a szintaxis megbízhatóan bővíthető.",
-  "exercise:list-ops:blurb": "Valósítsd meg az alapvető listaműveleteket",
+  "exercise:list-ops:blurb": "Valósítsd meg a lista alapvető műveleteit.",
   "doc:installation:title": "A Scheme telepítése helyben",
   "doc:installation:blurb": "Tanuld meg, hogyan telepítheted helyben a Scheme-et, hogy a saját gépeden oldhasd meg az Exercism feladatait",
   "doc:learning:title": "Hogyan tanulj Scheme-et?",
