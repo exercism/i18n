@@ -348,5 +348,8 @@
   "doc:resources:title": "उपयोगी V संसाधन",
   "doc:resources:blurb": "V में महारत हासिल करने में आपकी मदद करने वाले उपयोगी संसाधनों का संग्रह",
   "exercise:save-the-cow:name": "गाय को बचाइए",
-  "exercise:save-the-cow:blurb": "शब्द का अनुमान लगाने वाला खेल बनाइए।"
+  "exercise:save-the-cow:blurb": "शब्द का अनुमान लगाने वाला खेल बनाइए।",
+  "exercise:relative-distance:name": "सापेक्ष दूरी",
+  "exercise:relative-distance:blurb": "दिए गए वंशवृक्ष से अलगाव की दूरी निकालिए।",
+  "exercise:relative-distance:source": "vaeng"
 }

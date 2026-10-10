@@ -348,5 +348,8 @@
   "doc:resources:title": "Hasznos V-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a V-t",
   "exercise:save-the-cow:name": "Mentsd meg a tehenet",
-  "exercise:save-the-cow:blurb": "Valósíts meg egy szókitaláló játékot."
+  "exercise:save-the-cow:blurb": "Valósíts meg egy szókitaláló játékot.",
+  "exercise:relative-distance:name": "Relatív távolság",
+  "exercise:relative-distance:blurb": "Adott egy családfa, számítsd ki a rokonsági fokot.",
+  "exercise:relative-distance:source": "vaeng"
 }

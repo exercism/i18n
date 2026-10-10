@@ -348,5 +348,8 @@
   "doc:resources:title": "实用的 V 资源",
   "doc:resources:blurb": "一系列实用资源，帮助你精通 V",
   "exercise:save-the-cow:name": "拯救奶牛",
-  "exercise:save-the-cow:blurb": "实现一个猜词游戏。"
+  "exercise:save-the-cow:blurb": "实现一个猜词游戏。",
+  "exercise:relative-distance:name": "相对距离",
+  "exercise:relative-distance:blurb": "给定一棵家族树，计算两个人之间的亲疏程度。",
+  "exercise:relative-distance:source": "vaeng"
 }

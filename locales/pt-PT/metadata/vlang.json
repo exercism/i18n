@@ -348,5 +348,8 @@
   "doc:resources:title": "Recursos úteis sobre V",
   "doc:resources:blurb": "Uma coleção de recursos úteis para te ajudar a dominar o V",
   "exercise:save-the-cow:name": "Salva a vaca",
-  "exercise:save-the-cow:blurb": "Implementa um jogo de adivinhação de palavras."
+  "exercise:save-the-cow:blurb": "Implementa um jogo de adivinhação de palavras.",
+  "exercise:relative-distance:name": "Distância relativa",
+  "exercise:relative-distance:blurb": "Dada uma árvore genealógica, calcula o grau de parentesco.",
+  "exercise:relative-distance:source": "vaeng"
 }

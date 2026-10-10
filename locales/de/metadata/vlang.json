@@ -348,5 +348,8 @@
   "doc:resources:title": "Nützliche V-Ressourcen",
   "doc:resources:blurb": "Eine Sammlung nützlicher Ressourcen, die dir helfen, V zu meistern",
   "exercise:save-the-cow:name": "Rette die Kuh",
-  "exercise:save-the-cow:blurb": "Implementiere ein Wortratespiel."
+  "exercise:save-the-cow:blurb": "Implementiere ein Wortratespiel.",
+  "exercise:relative-distance:name": "Verwandtschaftsabstand",
+  "exercise:relative-distance:blurb": "Berechne für einen Stammbaum den Verwandtschaftsgrad.",
+  "exercise:relative-distance:source": "vaeng"
 }

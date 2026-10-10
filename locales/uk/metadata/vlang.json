@@ -348,5 +348,8 @@
   "doc:resources:title": "Корисні ресурси з V",
   "doc:resources:blurb": "Добірка корисних ресурсів, які допоможуть опанувати V",
   "exercise:save-the-cow:name": "Врятуйте корову",
-  "exercise:save-the-cow:blurb": "Реалізуйте гру з угадування слів."
+  "exercise:save-the-cow:blurb": "Реалізуйте гру з угадування слів.",
+  "exercise:relative-distance:name": "Відносна відстань",
+  "exercise:relative-distance:blurb": "Дано родинне дерево: обчислити ступінь спорідненості.",
+  "exercise:relative-distance:source": "vaeng"
 }

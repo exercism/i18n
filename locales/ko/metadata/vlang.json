@@ -348,5 +348,8 @@
   "doc:resources:title": "유용한 V 자료",
   "doc:resources:blurb": "V를 마스터하는 데 도움이 되는 유용한 자료 모음",
   "exercise:save-the-cow:name": "소를 구해요",
-  "exercise:save-the-cow:blurb": "단어 맞히기 게임을 구현해요."
+  "exercise:save-the-cow:blurb": "단어 맞히기 게임을 구현해요.",
+  "exercise:relative-distance:name": "친척 간의 거리",
+  "exercise:relative-distance:blurb": "가계도를 보고 촌수를 계산해요.",
+  "exercise:relative-distance:source": "vaeng"
 }

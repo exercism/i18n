@@ -348,5 +348,8 @@
   "doc:resources:title": "مصادر مفيدة لـ V",
   "doc:resources:blurb": "مجموعة من المصادر المفيدة لمساعدتك على إتقان V",
   "exercise:save-the-cow:name": "أنقذ البقرة",
-  "exercise:save-the-cow:blurb": "نفّذ لعبة تخمين الكلمات."
+  "exercise:save-the-cow:blurb": "نفّذ لعبة تخمين الكلمات.",
+  "exercise:relative-distance:name": "المسافة النسبية",
+  "exercise:relative-distance:blurb": "بمعلومية شجرة عائلة، احسب درجة القرابة.",
+  "exercise:relative-distance:source": "vaeng"
 }

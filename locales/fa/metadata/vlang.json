@@ -348,5 +348,8 @@
   "doc:resources:title": "منابع مفید V",
   "doc:resources:blurb": "مجموعه‌ای از منابع مفید برای کمک به تسلط شما بر V",
   "exercise:save-the-cow:name": "گاو را نجات دهید",
-  "exercise:save-the-cow:blurb": "یک بازی حدس کلمه پیاده‌سازی کنید."
+  "exercise:save-the-cow:blurb": "یک بازی حدس کلمه پیاده‌سازی کنید.",
+  "exercise:relative-distance:name": "فاصله‌ی نسبی",
+  "exercise:relative-distance:blurb": "با داشتن یک شجره‌نامه، درجه‌ی خویشاوندی را محاسبه کنید.",
+  "exercise:relative-distance:source": "vaeng"
 }

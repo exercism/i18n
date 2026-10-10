@@ -348,5 +348,8 @@
   "doc:resources:title": "Χρήσιμοι πόροι για τη V",
   "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων για να κατακτήσεις τη V",
   "exercise:save-the-cow:name": "Σώσε την αγελάδα",
-  "exercise:save-the-cow:blurb": "Υλοποίησε ένα παιχνίδι μαντέματος λέξεων."
+  "exercise:save-the-cow:blurb": "Υλοποίησε ένα παιχνίδι μαντέματος λέξεων.",
+  "exercise:relative-distance:name": "Σχετική απόσταση",
+  "exercise:relative-distance:blurb": "Δεδομένου ενός γενεαλογικού δέντρου, υπολόγισε τον βαθμό συγγένειας.",
+  "exercise:relative-distance:source": "vaeng"
 }
