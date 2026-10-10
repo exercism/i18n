@@ -80,7 +80,7 @@
   "exercise:hamming:blurb": "দুটি DNA স্ট্র্যান্ডের মধ্যে হ্যামিং দূরত্ব গণনা করুন।",
   "exercise:hamming:source": "Rosalind-এর The Calculating Point Mutations সমস্যাটি",
   "exercise:nucleotide-count:blurb": "একটি DNA স্ট্রিং দেওয়া হলে, স্ট্রিংটিতে প্রতিটি নিউক্লিওটাইড কতবার আছে তা গণনা করুন।",
-  "exercise:nucleotide-count:source": "Rosalind-এ The Calculating DNA Nucleotides_problem",
+  "exercise:nucleotide-count:source": "Rosalind-এর Counting DNA Nucleotides সমস্যা।",
   "exercise:raindrops:blurb": "একটি সংখ্যাকে তার সংশ্লিষ্ট বৃষ্টির ফোঁটার শব্দে রূপান্তর করুন: Pling, Plang এবং Plong।",
   "exercise:raindrops:source": "FizzBuzz-এর একটি ভিন্ন রূপ, যা একটি বিখ্যাত টেকনিক্যাল ইন্টারভিউ প্রশ্ন এবং সম্ভাব্য প্রার্থীদের বাদ দেওয়ার উদ্দেশ্যে করা হয়। ওই প্রশ্নটি আবার Fizz Buzz থেকে এসেছে, যা ভাগ শেখানোর জন্য একটি জনপ্রিয় শিশুদের গেম।",
   "exercise:reverse-string:blurb": "প্রদত্ত একটি স্ট্রিং উল্টে দিন।",

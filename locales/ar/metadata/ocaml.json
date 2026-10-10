@@ -80,7 +80,7 @@
   "exercise:hamming:blurb": "احسب مسافة Hamming بين خيطَي DNA.",
   "exercise:hamming:source": "مسألة Calculating Point Mutations على Rosalind",
   "exercise:nucleotide-count:blurb": "بالنظر إلى سلسلة نصية من DNA، احسب عدد مرات ظهور كل نوكليوتيدة فيها.",
-  "exercise:nucleotide-count:source": "The Calculating DNA Nucleotides_problem في Rosalind",
+  "exercise:nucleotide-count:source": "مسألة عدّ نوكليوتيدات DNA في Rosalind",
   "exercise:raindrops:blurb": "حوّل عددًا إلى أصوات قطرات المطر المقابلة له، وهي Pling وPlang وPlong.",
   "exercise:raindrops:source": "تنويعة على FizzBuzz، وهو سؤال مقابلة تقنية شهير يُقصد به استبعاد المرشحين المحتملين. والسؤال نفسه مشتق من Fizz Buzz، وهي لعبة أطفال شائعة لتعليم القسمة.",
   "exercise:reverse-string:blurb": "اعكس سلسلة نصية معطاة.",

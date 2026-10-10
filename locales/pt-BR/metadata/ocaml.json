@@ -80,7 +80,7 @@
   "exercise:hamming:blurb": "Calcule a distância de Hamming entre duas fitas de DNA.",
   "exercise:hamming:source": "O problema Calculating Point Mutations no Rosalind",
   "exercise:nucleotide-count:blurb": "Dada uma string de DNA, calcule quantas vezes cada nucleotídeo aparece nela.",
-  "exercise:nucleotide-count:source": "The Calculating DNA Nucleotides_problem em Rosalind",
+  "exercise:nucleotide-count:source": "O problema Counting DNA Nucleotides no Rosalind",
   "exercise:raindrops:blurb": "Converta um número nos sons de gota de chuva correspondentes: Pling, Plang e Plong.",
   "exercise:raindrops:source": "Uma variação do FizzBuzz, uma famosa pergunta de entrevista técnica que serve para eliminar candidatos em potencial. Essa pergunta, por sua vez, deriva do Fizz Buzz, um jogo infantil popular para ensinar divisão.",
   "exercise:reverse-string:blurb": "Inverta uma string fornecida.",

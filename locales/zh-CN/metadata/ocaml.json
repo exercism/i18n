@@ -80,7 +80,7 @@
   "exercise:hamming:blurb": "计算两条 DNA 链之间的汉明距离。",
   "exercise:hamming:source": "Rosalind 上的 The Calculating Point Mutations 问题",
   "exercise:nucleotide-count:blurb": "给定一个 DNA 字符串，统计字符串中每种核苷酸出现的次数。",
-  "exercise:nucleotide-count:source": "出自 Rosalind 的 The Calculating DNA Nucleotides_problem",
+  "exercise:nucleotide-count:source": "Rosalind 上的 Counting DNA Nucleotides 问题",
   "exercise:raindrops:blurb": "将一个数字转换为其对应的雨滴声：Pling、Plang 和 Plong。",
   "exercise:raindrops:source": "FizzBuzz 的变体。FizzBuzz 是一道著名的技术面试题，用来筛掉不合适的候选人。这道题本身又源自 Fizz Buzz，一个用来教除法的流行儿童游戏。",
   "exercise:reverse-string:blurb": "反转给定的字符串。",

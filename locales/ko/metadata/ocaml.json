@@ -78,7 +78,7 @@
   "exercise:hamming:blurb": "두 DNA 가닥 사이의 해밍 거리를 계산해요.",
   "exercise:hamming:source": "Rosalind의 Calculating Point Mutations 문제",
   "exercise:nucleotide-count:blurb": "DNA 문자열이 주어졌을 때, 각 뉴클레오타이드가 그 문자열에서 몇 번 나타나는지 세어요.",
-  "exercise:nucleotide-count:source": "Rosalind의 Calculating DNA Nucleotides_problem",
+  "exercise:nucleotide-count:source": "Rosalind의 Counting DNA Nucleotides 문제",
   "exercise:raindrops:blurb": "숫자를 그에 해당하는 빗방울 소리인 Pling, Plang, Plong으로 변환해요.",
   "exercise:raindrops:source": "잠재적인 지원자를 걸러 내기 위해 만든 유명한 기술 면접 질문인 FizzBuzz를 변형한 것이에요. 그 질문 자체는 나눗셈을 가르칠 때 쓰는 인기 있는 어린이 게임인 Fizz Buzz에서 비롯했어요.",
   "exercise:reverse-string:blurb": "주어진 문자열을 뒤집어요.",

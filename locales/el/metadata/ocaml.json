@@ -80,7 +80,7 @@
   "exercise:hamming:blurb": "Υπολόγισε την απόσταση Hamming ανάμεσα σε δύο κλώνους DNA.",
   "exercise:hamming:source": "Το πρόβλημα Calculating Point Mutations στο Rosalind",
   "exercise:nucleotide-count:blurb": "Με δεδομένη μια συμβολοσειρά DNA, υπολόγισε πόσες φορές εμφανίζεται κάθε νουκλεοτίδιο στη συμβολοσειρά.",
-  "exercise:nucleotide-count:source": "Το Calculating DNA Nucleotides_problem στη Rosalind",
+  "exercise:nucleotide-count:source": "Το πρόβλημα Counting DNA Nucleotides στο Rosalind",
   "exercise:raindrops:blurb": "Μετέτρεψε έναν αριθμό στους αντίστοιχους ήχους σταγόνας βροχής: Pling, Plang και Plong.",
   "exercise:raindrops:source": "Μια παραλλαγή του FizzBuzz, μιας διάσημης ερώτησης τεχνικής συνέντευξης που σκοπό έχει να ξεχωρίσει τους υποψήφιους. Αυτή η ερώτηση με τη σειρά της προέρχεται από το Fizz Buzz, ένα δημοφιλές παιδικό παιχνίδι για τη διδασκαλία της διαίρεσης.",
   "exercise:reverse-string:blurb": "Αντιστρέψε μια δεδομένη συμβολοσειρά.",
