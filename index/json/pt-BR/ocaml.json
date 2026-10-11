@@ -71,7 +71,7 @@
   },
   "paths": {
     "docs/ABOUT.md": ["29937551ce252b8f40be41bbd9482ed0b375f9b4"],
-    "docs/INSTALLATION.md": ["7849041533aed58f80262c17953e64a22cbe1605"],
+    "docs/INSTALLATION.md": ["0282a17186e84b44ca4a0baf21fcea492a997c1b","7849041533aed58f80262c17953e64a22cbe1605"],
     "docs/LEARNING.md": ["3d5e04b0e435e332785f874183832ce82f4126db"],
     "docs/RESOURCES.md": ["f162327c506f402df104bed388ee0b56a966eb35"],
     "docs/TESTS.md": ["891be6f24fa3b97258772120a2088d004e5f7c27"],

@@ -346,7 +346,8 @@ This page is generated from [the index](../../json/hu/ocaml.json) by `scripts/bu
 
 ### Installing OCaml locally (Az OCaml helyi telepítése)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/ocaml/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/hu/content/78/49/041533aed58f80262c17953e64a22cbe1605.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/ocaml/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/hu/content/02/82/a17186e84b44ca4a0baf21fcea492a997c1b.md)
+  - [`7849041533`](../../../locales/hu/content/78/49/041533aed58f80262c17953e64a22cbe1605.md)
 
 ### Testing on the OCaml track (Tesztelés az OCaml-kurzuson)
 

@@ -302,7 +302,8 @@ This page is generated from [the index](../../json/it/ocaml.json) by `scripts/bu
 
 ### Installing OCaml locally (Installare OCaml localmente)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/ocaml/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/it/content/78/49/041533aed58f80262c17953e64a22cbe1605.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/ocaml/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/it/content/02/82/a17186e84b44ca4a0baf21fcea492a997c1b.md)
+  - [`7849041533`](../../../locales/it/content/78/49/041533aed58f80262c17953e64a22cbe1605.md)
 
 ### Testing on the OCaml track (Testare sul track OCaml)
 
