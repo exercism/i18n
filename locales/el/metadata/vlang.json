@@ -351,5 +351,7 @@
   "exercise:save-the-cow:blurb": "Υλοποίησε ένα παιχνίδι μαντέματος λέξεων.",
   "exercise:relative-distance:name": "Σχετική απόσταση",
   "exercise:relative-distance:blurb": "Δεδομένου ενός γενεαλογικού δέντρου, υπολόγισε τον βαθμό συγγένειας.",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:alphametics:name": "Αλφαριθμητικά",
+  "exercise:alphametics:blurb": "Δεδομένου ενός αλφαριθμητικού γρίφου, βρες τη σωστή λύση."
 }

@@ -351,5 +351,7 @@
   "exercise:save-the-cow:blurb": "Implementa un juego de adivinanza de palabras.",
   "exercise:relative-distance:name": "Distancia relativa",
   "exercise:relative-distance:blurb": "Dado un árbol genealógico, calcula el grado de separación.",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:alphametics:name": "Alfamética",
+  "exercise:alphametics:blurb": "Dado un puzle de alfamética, encuentra la solución correcta."
 }

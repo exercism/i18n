@@ -351,5 +351,7 @@
   "exercise:save-the-cow:blurb": "단어 맞히기 게임을 구현해요.",
   "exercise:relative-distance:name": "친척 간의 거리",
   "exercise:relative-distance:blurb": "가계도를 보고 촌수를 계산해요.",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:alphametics:name": "알파메틱스",
+  "exercise:alphametics:blurb": "알파메틱스 퍼즐이 주어지면 올바른 해답을 찾아요."
 }

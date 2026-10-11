@@ -351,5 +351,7 @@
   "exercise:save-the-cow:blurb": "Implémenter un jeu de devinettes de mots.",
   "exercise:relative-distance:name": "Distance relative",
   "exercise:relative-distance:blurb": "Étant donné un arbre généalogique, calcule le degré de séparation.",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:alphametics:name": "Alphamétique",
+  "exercise:alphametics:blurb": "Étant donné une énigme alphamétique, trouve la solution correcte."
 }

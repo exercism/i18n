@@ -351,5 +351,7 @@
   "exercise:save-the-cow:blurb": "Valósíts meg egy szókitaláló játékot.",
   "exercise:relative-distance:name": "Relatív távolság",
   "exercise:relative-distance:blurb": "Adott egy családfa, számítsd ki a rokonsági fokot.",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:alphametics:name": "Alfametika",
+  "exercise:alphametics:blurb": "Adott egy alphametics rejtvény, keresd meg a helyes megoldást."
 }

@@ -351,5 +351,7 @@
   "exercise:save-the-cow:blurb": "实现一个猜词游戏。",
   "exercise:relative-distance:name": "相对距离",
   "exercise:relative-distance:blurb": "给定一棵家族树，计算两个人之间的亲疏程度。",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:alphametics:name": "字母算术",
+  "exercise:alphametics:blurb": "给定一道字母算术谜题，找出正确的答案。"
 }

@@ -351,5 +351,7 @@
   "exercise:save-the-cow:blurb": "نفّذ لعبة تخمين الكلمات.",
   "exercise:relative-distance:name": "المسافة النسبية",
   "exercise:relative-distance:blurb": "بمعلومية شجرة عائلة، احسب درجة القرابة.",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:alphametics:name": "Alphametics",
+  "exercise:alphametics:blurb": "بالنظر إلى لغز Alphametics، ابحث عن الحل الصحيح."
 }

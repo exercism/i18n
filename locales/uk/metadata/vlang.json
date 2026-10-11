@@ -351,5 +351,7 @@
   "exercise:save-the-cow:blurb": "Реалізуйте гру з угадування слів.",
   "exercise:relative-distance:name": "Відносна відстань",
   "exercise:relative-distance:blurb": "Дано родинне дерево: обчислити ступінь спорідненості.",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:alphametics:name": "Алфаметика",
+  "exercise:alphametics:blurb": "За заданою алфаметичною головоломкою знайдіть правильний розвʼязок."
 }

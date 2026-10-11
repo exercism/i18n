@@ -351,5 +351,7 @@
   "exercise:save-the-cow:blurb": "Implementiere ein Wortratespiel.",
   "exercise:relative-distance:name": "Verwandtschaftsabstand",
   "exercise:relative-distance:blurb": "Berechne für einen Stammbaum den Verwandtschaftsgrad.",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:alphametics:name": "Alphametik",
+  "exercise:alphametics:blurb": "Finde die richtige Lösung für ein Alphametik-Rätsel."
 }

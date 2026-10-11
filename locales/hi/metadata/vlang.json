@@ -351,5 +351,7 @@
   "exercise:save-the-cow:blurb": "शब्द का अनुमान लगाने वाला खेल बनाइए।",
   "exercise:relative-distance:name": "सापेक्ष दूरी",
   "exercise:relative-distance:blurb": "दिए गए वंशवृक्ष से अलगाव की दूरी निकालिए।",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:alphametics:name": "अल्फामेटिक्स",
+  "exercise:alphametics:blurb": "दी गई अल्फामेटिक्स पहेली का सही हल निकालिए।"
 }

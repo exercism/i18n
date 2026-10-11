@@ -351,5 +351,7 @@
   "exercise:save-the-cow:blurb": "একটি শব্দ-অনুমান গেম ইমপ্লিমেন্ট করুন।",
   "exercise:relative-distance:name": "আপেক্ষিক দূরত্ব",
   "exercise:relative-distance:blurb": "একটি বংশতালিকা দেওয়া থাকলে, সম্পর্কের দূরত্ব নির্ণয় করুন।",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:alphametics:name": "অ্যালফামেটিকস",
+  "exercise:alphametics:blurb": "একটি অ্যালফামেটিকস ধাঁধা দেওয়া হলে সঠিক সমাধান খুঁজে বের করুন।"
 }

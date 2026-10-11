@@ -30,6 +30,10 @@ This page is generated from [the index](../../json/pt-BR/vlang.json) by `scripts
 
 - `instructions.md` ([English](https://github.com/exercism/vlang/blob/main/exercises/practice/allergies/.docs/instructions.md)): [Latest](../../../locales/pt-BR/content/da/f8/cfde214667c949800c801fafecaa053efa0e.md)
 
+### Alphametics
+
+- `instructions.md` ([English](https://github.com/exercism/vlang/blob/main/exercises/practice/alphametics/.docs/instructions.md)): [Latest](../../../locales/pt-BR/content/ef/2c/bb4a71296cd830b1bc59eb7a63c9074e95a8.md)
+
 ### Anagram (Anagrama)
 
 - `instructions.md` ([English](https://github.com/exercism/vlang/blob/main/exercises/practice/anagram/.docs/instructions.md)): [Latest](../../../locales/pt-BR/content/dc/a2/4f52627e3ba6b999322fb89d8c686c3ec634.md)
