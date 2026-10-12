@@ -157,5 +157,8 @@
   "exercise:two-bucket:source": "倒水問題",
   "exercise:rational-numbers:name": "有理數",
   "exercise:rational-numbers:blurb": "實作有理數。",
-  "exercise:rational-numbers:source": "Wikipedia"
+  "exercise:rational-numbers:source": "Wikipedia",
+  "exercise:word-count:name": "單字計數",
+  "exercise:word-count:blurb": "給定一個詞組，計算該詞組中每個單字出現的次數。",
+  "exercise:word-count:source": "這是個經典的玩具問題，但我們是在 Go Tour 中看到它才想起來的。"
 }

@@ -157,5 +157,8 @@
   "exercise:two-bucket:source": "Water Pouring Problem",
   "exercise:rational-numbers:name": "Rationale Zahlen",
   "exercise:rational-numbers:blurb": "Implementiere rationale Zahlen.",
-  "exercise:rational-numbers:source": "Wikipedia"
+  "exercise:rational-numbers:source": "Wikipedia",
+  "exercise:word-count:name": "Wortzählung",
+  "exercise:word-count:blurb": "Zähle in einem gegebenen Satz die Vorkommen jedes Wortes.",
+  "exercise:word-count:source": "Dies ist ein klassisches Beispielproblem, aber wir wurden daran erinnert, als wir es in der Go-Tour sahen."
 }

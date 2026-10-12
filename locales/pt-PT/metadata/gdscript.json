@@ -157,5 +157,8 @@
   "exercise:two-bucket:source": "Problema de Verter Água",
   "exercise:rational-numbers:name": "Números racionais",
   "exercise:rational-numbers:blurb": "Implementa números racionais.",
-  "exercise:rational-numbers:source": "Wikipedia"
+  "exercise:rational-numbers:source": "Wikipedia",
+  "exercise:word-count:name": "Contagem de Palavras",
+  "exercise:word-count:blurb": "Dada uma frase, conta as ocorrências de cada palavra dessa frase.",
+  "exercise:word-count:source": "Este é um clássico problema académico, mas lembrámo-nos dele ao vê-lo no Go Tour."
 }

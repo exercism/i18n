@@ -157,5 +157,8 @@
   "exercise:two-bucket:source": "Задача про переливання води",
   "exercise:rational-numbers:name": "Раціональні числа",
   "exercise:rational-numbers:blurb": "Реалізувати раціональні числа.",
-  "exercise:rational-numbers:source": "Wikipedia"
+  "exercise:rational-numbers:source": "Wikipedia",
+  "exercise:word-count:name": "Підрахунок слів",
+  "exercise:word-count:blurb": "Маючи фразу, підрахуйте, скільки разів у ній трапляється кожне слово.",
+  "exercise:word-count:source": "Це класична навчальна задача, але ми згадали про неї, побачивши її в Go Tour."
 }

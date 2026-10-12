@@ -157,5 +157,8 @@
   "exercise:two-bucket:source": "Il problema del travaso dell'acqua",
   "exercise:rational-numbers:name": "Numeri razionali",
   "exercise:rational-numbers:blurb": "Implementa i numeri razionali.",
-  "exercise:rational-numbers:source": "Wikipedia"
+  "exercise:rational-numbers:source": "Wikipedia",
+  "exercise:word-count:name": "Conteggio delle parole",
+  "exercise:word-count:blurb": "Data una frase, conta le occorrenze di ogni parola che contiene.",
+  "exercise:word-count:source": "Questo è un classico problema giocattolo, ma ce lo siamo ricordati vedendolo nel Go Tour."
 }

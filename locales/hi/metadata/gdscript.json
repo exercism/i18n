@@ -157,5 +157,8 @@
   "exercise:two-bucket:source": "पानी डालने की समस्या",
   "exercise:rational-numbers:name": "परिमेय संख्याएँ",
   "exercise:rational-numbers:blurb": "परिमेय संख्याएँ बनाइए।",
-  "exercise:rational-numbers:source": "Wikipedia"
+  "exercise:rational-numbers:source": "Wikipedia",
+  "exercise:word-count:name": "शब्दों की गिनती",
+  "exercise:word-count:blurb": "एक वाक्यांश दिया गया है; उसमें हर शब्द कितनी बार आता है, यह गिनिए।",
+  "exercise:word-count:source": "यह एक पुरानी, आसान-सी अभ्यास समस्या है, पर Go Tour में इसे देखकर हमें इसकी याद आई।"
 }

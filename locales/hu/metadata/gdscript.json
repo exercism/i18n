@@ -157,5 +157,8 @@
   "exercise:two-bucket:source": "Water Pouring Problem",
   "exercise:rational-numbers:name": "Racionális számok",
   "exercise:rational-numbers:blurb": "Valósítsd meg a racionális számokat.",
-  "exercise:rational-numbers:source": "Wikipedia"
+  "exercise:rational-numbers:source": "Wikipedia",
+  "exercise:word-count:name": "Szószámlálás",
+  "exercise:word-count:blurb": "Adott egy kifejezés; számold meg benne az egyes szavak előfordulásait.",
+  "exercise:word-count:source": "Ez egy klasszikus gyakorlófeladat, de a Go Tourban látva újra eszünkbe jutott."
 }

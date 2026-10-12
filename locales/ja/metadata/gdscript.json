@@ -157,5 +157,8 @@
   "exercise:two-bucket:source": "水差し問題",
   "exercise:rational-numbers:name": "有理数",
   "exercise:rational-numbers:blurb": "有理数を実装します。",
-  "exercise:rational-numbers:source": "Wikipedia"
+  "exercise:rational-numbers:source": "Wikipedia",
+  "exercise:word-count:name": "単語数",
+  "exercise:word-count:blurb": "あるフレーズが与えられたとき、そのフレーズに含まれる各単語の出現回数を数えます。",
+  "exercise:word-count:source": "古典的な定番の問題ですが、Go Tourで見かけたことで思い出しました。"
 }

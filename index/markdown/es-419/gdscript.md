@@ -226,6 +226,11 @@ This page is generated from [the index](../../json/es-419/gdscript.json) by `scr
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/variable-length-quantity/.docs/instructions.md)): [Latest](../../../locales/es-419/content/50/12/548268111bd52081b3774efc2a51a0271fd3.md)
 
+### Word Count (Conteo de palabras)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/word-count/.docs/instructions.md)): [Latest](../../../locales/es-419/content/06/43/93c8a0f68810d215d0bec650f9cab19953b5.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/word-count/.docs/introduction.md)): [Latest](../../../locales/es-419/content/16/54/508e79dc91420825d8a1a9818089e4167f70.md)
+
 ## Track docs
 
 ### ABOUT.md

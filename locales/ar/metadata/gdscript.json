@@ -157,5 +157,8 @@
   "exercise:two-bucket:source": "مسألة صب الماء",
   "exercise:rational-numbers:name": "الأعداد النسبية",
   "exercise:rational-numbers:blurb": "نفّذ الأعداد النسبية.",
-  "exercise:rational-numbers:source": "ويكيبيديا"
+  "exercise:rational-numbers:source": "ويكيبيديا",
+  "exercise:word-count:name": "عدّ الكلمات",
+  "exercise:word-count:blurb": "إذا أُعطيت عبارة، فاحسب عدد مرات ظهور كل كلمة فيها.",
+  "exercise:word-count:source": "هذه مسألة تدريبية كلاسيكية، لكننا تذكّرناها عندما رأيناها في Go Tour."
 }

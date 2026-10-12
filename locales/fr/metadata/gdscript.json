@@ -157,5 +157,8 @@
   "exercise:two-bucket:source": "Problème de transvasement d'eau",
   "exercise:rational-numbers:name": "Nombres rationnels",
   "exercise:rational-numbers:blurb": "Implémente les nombres rationnels.",
-  "exercise:rational-numbers:source": "Wikipedia"
+  "exercise:rational-numbers:source": "Wikipedia",
+  "exercise:word-count:name": "Comptage de mots",
+  "exercise:word-count:blurb": "Étant donné une phrase, compte les occurrences de chaque mot de cette phrase.",
+  "exercise:word-count:source": "C'est un problème jouet classique, mais on s'en est souvenu en le voyant dans le Go Tour."
 }

@@ -157,5 +157,8 @@
   "exercise:two-bucket:source": "Problema dos baldes de água",
   "exercise:rational-numbers:name": "Números racionais",
   "exercise:rational-numbers:blurb": "Implemente números racionais.",
-  "exercise:rational-numbers:source": "Wikipedia"
+  "exercise:rational-numbers:source": "Wikipedia",
+  "exercise:word-count:name": "Contagem de palavras",
+  "exercise:word-count:blurb": "Dada uma frase, conte as ocorrências de cada palavra nessa frase.",
+  "exercise:word-count:source": "Este é um problema clássico de treino, mas nos lembramos dele ao vê-lo no Tour of Go."
 }

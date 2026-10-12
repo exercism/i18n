@@ -157,5 +157,8 @@
   "exercise:two-bucket:source": "물 붓기 문제",
   "exercise:rational-numbers:name": "유리수",
   "exercise:rational-numbers:blurb": "유리수를 구현해요.",
-  "exercise:rational-numbers:source": "Wikipedia"
+  "exercise:rational-numbers:source": "Wikipedia",
+  "exercise:word-count:name": "단어 세기",
+  "exercise:word-count:blurb": "문구가 주어졌을 때, 그 문구에 나오는 각 단어의 등장 횟수를 세요.",
+  "exercise:word-count:source": "고전적인 장난감 문제지만, Go Tour에서 보고 다시 떠올렸어요."
 }

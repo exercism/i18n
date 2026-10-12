@@ -157,5 +157,8 @@
   "exercise:two-bucket:source": "Problema del vertido de agua",
   "exercise:rational-numbers:name": "Números racionales",
   "exercise:rational-numbers:blurb": "Implementa los números racionales.",
-  "exercise:rational-numbers:source": "Wikipedia"
+  "exercise:rational-numbers:source": "Wikipedia",
+  "exercise:word-count:name": "Recuento de palabras",
+  "exercise:word-count:blurb": "Dada una frase, cuenta las apariciones de cada palabra en esa frase.",
+  "exercise:word-count:source": "Este es un problema de juguete clásico, pero nos lo recordó verlo en el Go Tour."
 }

@@ -157,5 +157,8 @@
   "exercise:two-bucket:source": "Πρόβλημα έκχυσης νερού",
   "exercise:rational-numbers:name": "Ρητοί αριθμοί",
   "exercise:rational-numbers:blurb": "Υλοποίησε ρητούς αριθμούς.",
-  "exercise:rational-numbers:source": "Wikipedia"
+  "exercise:rational-numbers:source": "Wikipedia",
+  "exercise:word-count:name": "Μέτρηση λέξεων",
+  "exercise:word-count:blurb": "Με δεδομένη μια φράση, μέτρησε τις εμφανίσεις κάθε λέξης σε αυτή τη φράση.",
+  "exercise:word-count:source": "Αυτό είναι ένα κλασικό προβληματάκι, αλλά μας το θύμισε το Go Tour."
 }
