@@ -139,5 +139,8 @@
   "doc:tests:title": "Schemeトラックでのテスト",
   "doc:tests:blurb": "ExercismでSchemeの演習をテストする方法を学びます",
   "doc:resources:title": "役立つSchemeのリソース",
-  "doc:resources:blurb": "Schemeをマスターするのに役立つリソースを集めました"
+  "doc:resources:blurb": "Schemeをマスターするのに役立つリソースを集めました",
+  "exercise:isbn-verifier:name": "ISBN検証",
+  "exercise:isbn-verifier:blurb": "与えられた文字列が有効なISBN-10かどうかを判定します。",
+  "exercise:isbn-verifier:source": "文字列を数値に変換することと、身近な実例を使った基本的な処理を題材にしています。"
 }

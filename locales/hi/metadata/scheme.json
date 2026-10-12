@@ -139,5 +139,8 @@
   "doc:tests:title": "Scheme ट्रैक पर परीक्षण",
   "doc:tests:blurb": "Exercism पर अपने Scheme अभ्यासों की जाँच करना सीखिए।",
   "doc:resources:title": "उपयोगी Scheme संसाधन",
-  "doc:resources:blurb": "Scheme में महारत हासिल करने में मदद के लिए उपयोगी संसाधनों का संग्रह।"
+  "doc:resources:blurb": "Scheme में महारत हासिल करने में मदद के लिए उपयोगी संसाधनों का संग्रह।",
+  "exercise:isbn-verifier:name": "ISBN सत्यापनकर्ता",
+  "exercise:isbn-verifier:blurb": "जाँचिए कि दी गई स्ट्रिंग एक मान्य ISBN-10 संख्या है या नहीं।",
+  "exercise:isbn-verifier:source": "एक स्ट्रिंग को संख्या में बदलना और जाने-पहचाने वास्तविक दुनिया के उदाहरण का उपयोग करके कुछ बुनियादी प्रोसेसिंग।"
 }

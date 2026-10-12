@@ -139,5 +139,8 @@
   "doc:tests:title": "Scheme 트랙에서 테스트하기",
   "doc:tests:blurb": "Exercism에서 Scheme 연습 문제를 테스트하는 방법을 알아봐요.",
   "doc:resources:title": "유용한 Scheme 자료",
-  "doc:resources:blurb": "Scheme을 익히는 데 도움이 되는 유용한 자료 모음"
+  "doc:resources:blurb": "Scheme을 익히는 데 도움이 되는 유용한 자료 모음",
+  "exercise:isbn-verifier:name": "ISBN 검증기",
+  "exercise:isbn-verifier:blurb": "주어진 문자열이 유효한 ISBN-10 번호인지 확인해요.",
+  "exercise:isbn-verifier:source": "문자열을 숫자로 변환하고, 친숙한 실제 사례를 활용한 기본 처리"
 }

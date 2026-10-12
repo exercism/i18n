@@ -139,5 +139,8 @@
   "doc:tests:title": "الاختبار في مسار Scheme",
   "doc:tests:blurb": "تعلّم كيفية اختبار تمارين Scheme على Exercism",
   "doc:resources:title": "مصادر مفيدة عن Scheme",
-  "doc:resources:blurb": "مجموعة من المصادر المفيدة التي تساعدك على إتقان Scheme"
+  "doc:resources:blurb": "مجموعة من المصادر المفيدة التي تساعدك على إتقان Scheme",
+  "exercise:isbn-verifier:name": "مُدقّق ISBN",
+  "exercise:isbn-verifier:blurb": "تحقّق مما إذا كانت سلسلة نصية معطاة تمثّل رقم ISBN-10 صالحًا.",
+  "exercise:isbn-verifier:source": "تحويل سلسلة نصية إلى عدد وبعض المعالجة الأساسية باستخدام مثال واقعي مألوف."
 }

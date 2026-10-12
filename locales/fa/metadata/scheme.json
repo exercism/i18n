@@ -139,5 +139,8 @@
   "doc:tests:title": "آزمایش کردن در مسیر Scheme",
   "doc:tests:blurb": "بیاموزید چگونه تمرین‌های Scheme خود را در Exercism آزمایش کنید",
   "doc:resources:title": "منابع مفید Scheme",
-  "doc:resources:blurb": "مجموعه‌ای از منابع مفید برای کمک به تسلط شما بر Scheme"
+  "doc:resources:blurb": "مجموعه‌ای از منابع مفید برای کمک به تسلط شما بر Scheme",
+  "exercise:isbn-verifier:name": "اعتبارسنج ISBN",
+  "exercise:isbn-verifier:blurb": "بررسی کنید که آیا رشته‌ی داده‌شده یک شماره‌ی معتبر ISBN-10 است یا نه.",
+  "exercise:isbn-verifier:source": "تبدیل یک رشته به عدد و مقداری پردازش ساده، با بهره‌گیری از یک مثال ملموس از دنیای واقعی."
 }

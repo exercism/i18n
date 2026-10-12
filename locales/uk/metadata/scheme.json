@@ -139,5 +139,8 @@
   "doc:tests:title": "Тестування на треку Scheme",
   "doc:tests:blurb": "Дізнайтеся, як тестувати свої вправи з Scheme на Exercism",
   "doc:resources:title": "Корисні ресурси зі Scheme",
-  "doc:resources:blurb": "Добірка корисних ресурсів, які допоможуть опанувати Scheme"
+  "doc:resources:blurb": "Добірка корисних ресурсів, які допоможуть опанувати Scheme",
+  "exercise:isbn-verifier:name": "Перевірка ISBN",
+  "exercise:isbn-verifier:blurb": "Перевірте, чи поданий рядок тексту є коректним номером ISBN-10.",
+  "exercise:isbn-verifier:source": "Перетворення рядка тексту в число та деяке базове опрацювання на зрозумілому прикладі з реального життя."
 }

@@ -86,6 +86,10 @@ This page is generated from [the index](../../json/fa/scheme.json) by `scripts/b
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/hello-world/.docs/instructions.md)): [Latest](../../../locales/fa/content/c9/57/0e48a9765b083b274c356cbb997754706318.md)
 - `instructions.append.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/hello-world/.docs/instructions.append.md)): [Latest](../../../locales/fa/content/7e/53/1ed895b13aedaed407f05d5dbc50035ab225.md)
 
+### ISBN Verifier (اعتبارسنج ISBN)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/isbn-verifier/.docs/instructions.md)): [Latest](../../../locales/fa/content/4a/02/44e5523ff60ecfaa72771545a75a25190617.md)
+
 ### Knapsack (کوله‌پشتی)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/knapsack/.docs/instructions.md)): [Latest](../../../locales/fa/content/0e/bf/7914c5505c5fe376d5466c5c12dcff37f14c.md)

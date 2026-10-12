@@ -139,5 +139,8 @@
   "doc:tests:title": "Scheme ট্র্যাকের টেস্টিং",
   "doc:tests:blurb": "Exercism-এ আপনার Scheme অনুশীলনীগুলো কীভাবে টেস্ট করবেন তা শিখুন",
   "doc:resources:title": "দরকারি Scheme রিসোর্স",
-  "doc:resources:blurb": "Scheme-এ দক্ষতা অর্জনে সহায়ক দরকারি রিসোর্সের সংগ্রহ"
+  "doc:resources:blurb": "Scheme-এ দক্ষতা অর্জনে সহায়ক দরকারি রিসোর্সের সংগ্রহ",
+  "exercise:isbn-verifier:name": "ISBN ভেরিফায়ার",
+  "exercise:isbn-verifier:blurb": "প্রদত্ত স্ট্রিংটি একটি বৈধ ISBN-10 নম্বর কি না তা যাচাই করুন।",
+  "exercise:isbn-verifier:source": "একটি স্ট্রিংকে সংখ্যায় রূপান্তর এবং বাস্তব জগতের একটি পরিচিত উদাহরণ ব্যবহার করে কিছু মৌলিক প্রক্রিয়াকরণ।"
 }

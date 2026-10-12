@@ -139,5 +139,8 @@
   "doc:tests:title": "Tesztelés a Scheme-kurzuson",
   "doc:tests:blurb": "Tanuld meg, hogyan tesztelheted a Scheme-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Scheme-források",
-  "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Scheme-et"
+  "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Scheme-et",
+  "exercise:isbn-verifier:name": "ISBN-ellenőrző",
+  "exercise:isbn-verifier:blurb": "Ellenőrizd, hogy egy adott string érvényes ISBN-10 szám-e.",
+  "exercise:isbn-verifier:source": "Egy string számmá alakítása és némi alapvető feldolgozás egy hétköznapi, könnyen átérezhető példán keresztül."
 }

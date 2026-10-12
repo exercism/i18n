@@ -139,5 +139,8 @@
   "doc:tests:title": "Teste sur le parcours Scheme",
   "doc:tests:blurb": "Apprends à tester tes exercices Scheme sur Exercism.",
   "doc:resources:title": "Ressources utiles pour Scheme",
-  "doc:resources:blurb": "Une collection de ressources utiles pour t'aider à maîtriser Scheme."
+  "doc:resources:blurb": "Une collection de ressources utiles pour t'aider à maîtriser Scheme.",
+  "exercise:isbn-verifier:name": "Vérificateur d'ISBN",
+  "exercise:isbn-verifier:blurb": "Vérifier si une chaîne de caractères donnée est un numéro ISBN-10 valide.",
+  "exercise:isbn-verifier:source": "Convertir une chaîne de caractères en nombre, avec quelques traitements de base s'appuyant sur un exemple concret du monde réel."
 }

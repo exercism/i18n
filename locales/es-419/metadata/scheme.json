@@ -139,5 +139,8 @@
   "doc:tests:title": "Cómo hacer pruebas en el track de Scheme",
   "doc:tests:blurb": "Aprende a probar tus ejercicios de Scheme en Exercism",
   "doc:resources:title": "Recursos útiles de Scheme",
-  "doc:resources:blurb": "Una colección de recursos útiles para ayudarte a dominar Scheme"
+  "doc:resources:blurb": "Una colección de recursos útiles para ayudarte a dominar Scheme",
+  "exercise:isbn-verifier:name": "Verificador de ISBN",
+  "exercise:isbn-verifier:blurb": "Verifica si un string dado es un número ISBN-10 válido.",
+  "exercise:isbn-verifier:source": "Convertir un string en un número y hacer un procesamiento básico usando un ejemplo cercano del mundo real."
 }
