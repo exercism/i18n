@@ -3595,10 +3595,10 @@
         "challenge_link_text": "#48in24 kihívás"
       },
       "track_variants_section": {
-        "title": "Próbáld ki a %{exercise_title} feladatot %{size} különböző nyelven…",
+        "title": "Próbáld ki a %{exercise_title} feladatot %{size} különböző kurzusban…",
         "completed_languages": {
-          "one": "Eddig 1 nyelven teljesítetted.",
-          "other": "Eddig %{count} nyelven teljesítetted."
+          "one": "Eddig 1 kurzusban teljesítetted.",
+          "other": "Eddig %{count} kurzusban teljesítetted."
         },
         "not_yet_completed": "Még egyetlen nyelven sem teljesítetted."
       }
