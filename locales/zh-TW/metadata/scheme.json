@@ -142,5 +142,8 @@
   "doc:resources:blurb": "一系列實用資源，幫助你精通 Scheme",
   "exercise:isbn-verifier:name": "ISBN 驗證器",
   "exercise:isbn-verifier:blurb": "檢查給定的字串是否為有效的 ISBN-10 號碼。",
-  "exercise:isbn-verifier:source": "將字串轉換成數字，並透過一個貼近現實生活的例子進行一些基本處理。"
+  "exercise:isbn-verifier:source": "將字串轉換成數字，並透過一個貼近現實生活的例子進行一些基本處理。",
+  "exercise:largest-series-product:name": "最大連續乘積",
+  "exercise:largest-series-product:blurb": "給定一串數字，計算長度為 n 的連續數字子字串所能得到的最大乘積。",
+  "exercise:largest-series-product:source": "改編自 Project Euler 的第 8 題"
 }

@@ -142,5 +142,8 @@
   "doc:resources:blurb": "Schemeをマスターするのに役立つリソースを集めました",
   "exercise:isbn-verifier:name": "ISBN検証",
   "exercise:isbn-verifier:blurb": "与えられた文字列が有効なISBN-10かどうかを判定します。",
-  "exercise:isbn-verifier:source": "文字列を数値に変換することと、身近な実例を使った基本的な処理を題材にしています。"
+  "exercise:isbn-verifier:source": "文字列を数値に変換することと、身近な実例を使った基本的な処理を題材にしています。",
+  "exercise:largest-series-product:name": "最大の連続積",
+  "exercise:largest-series-product:blurb": "数字の文字列が与えられたとき、長さnの連続する部分文字列について積の最大値を計算します。",
+  "exercise:largest-series-product:source": "Project EulerのProblem 8のバリエーション"
 }

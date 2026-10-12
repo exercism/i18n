@@ -142,5 +142,8 @@
   "doc:resources:blurb": "مجموعه‌ای از منابع مفید برای کمک به تسلط شما بر Scheme",
   "exercise:isbn-verifier:name": "اعتبارسنج ISBN",
   "exercise:isbn-verifier:blurb": "بررسی کنید که آیا رشته‌ی داده‌شده یک شماره‌ی معتبر ISBN-10 است یا نه.",
-  "exercise:isbn-verifier:source": "تبدیل یک رشته به عدد و مقداری پردازش ساده، با بهره‌گیری از یک مثال ملموس از دنیای واقعی."
+  "exercise:isbn-verifier:source": "تبدیل یک رشته به عدد و مقداری پردازش ساده، با بهره‌گیری از یک مثال ملموس از دنیای واقعی.",
+  "exercise:largest-series-product:name": "بزرگ‌ترین حاصل‌ضرب دنباله",
+  "exercise:largest-series-product:blurb": "با داشتن رشته‌ای از ارقام، بزرگ‌ترین حاصل‌ضرب را برای زیررشته‌ای پیوسته از ارقام به طول `n` محاسبه کنید.",
+  "exercise:largest-series-product:source": "گونه‌ای از مسئله ۸ در Project Euler"
 }

@@ -142,5 +142,8 @@
   "doc:resources:blurb": "Uma coleção de recursos úteis para ajudar você a dominar Scheme",
   "exercise:isbn-verifier:name": "Verificador de ISBN",
   "exercise:isbn-verifier:blurb": "Verifique se uma string é um número ISBN-10 válido.",
-  "exercise:isbn-verifier:source": "Converter uma string em um número e fazer um processamento básico com um exemplo do mundo real fácil de entender."
+  "exercise:isbn-verifier:source": "Converter uma string em um número e fazer um processamento básico com um exemplo do mundo real fácil de entender.",
+  "exercise:largest-series-product:name": "Maior Produto de uma Série",
+  "exercise:largest-series-product:blurb": "Dada uma string de dígitos, calcule o maior produto de uma substring contígua de dígitos de comprimento n.",
+  "exercise:largest-series-product:source": "Uma variação do Problema 8 do Project Euler"
 }

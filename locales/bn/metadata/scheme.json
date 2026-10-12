@@ -142,5 +142,8 @@
   "doc:resources:blurb": "Scheme-এ দক্ষতা অর্জনে সহায়ক দরকারি রিসোর্সের সংগ্রহ",
   "exercise:isbn-verifier:name": "ISBN ভেরিফায়ার",
   "exercise:isbn-verifier:blurb": "প্রদত্ত স্ট্রিংটি একটি বৈধ ISBN-10 নম্বর কি না তা যাচাই করুন।",
-  "exercise:isbn-verifier:source": "একটি স্ট্রিংকে সংখ্যায় রূপান্তর এবং বাস্তব জগতের একটি পরিচিত উদাহরণ ব্যবহার করে কিছু মৌলিক প্রক্রিয়াকরণ।"
+  "exercise:isbn-verifier:source": "একটি স্ট্রিংকে সংখ্যায় রূপান্তর এবং বাস্তব জগতের একটি পরিচিত উদাহরণ ব্যবহার করে কিছু মৌলিক প্রক্রিয়াকরণ।",
+  "exercise:largest-series-product:name": "সর্ববৃহৎ সিরিজ গুণফল",
+  "exercise:largest-series-product:blurb": "অঙ্কের একটি স্ট্রিং দেওয়া আছে; দৈর্ঘ্য n-এর পরপর থাকা অঙ্কের সাবস্ট্রিংয়ের জন্য বৃহত্তম গুণফল নির্ণয় করুন।",
+  "exercise:largest-series-product:source": "Project Euler-এর ৮ নম্বর সমস্যার একটি ভিন্ন রূপ"
 }

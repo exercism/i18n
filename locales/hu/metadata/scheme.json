@@ -142,5 +142,8 @@
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Scheme-et",
   "exercise:isbn-verifier:name": "ISBN-ellenőrző",
   "exercise:isbn-verifier:blurb": "Ellenőrizd, hogy egy adott string érvényes ISBN-10 szám-e.",
-  "exercise:isbn-verifier:source": "Egy string számmá alakítása és némi alapvető feldolgozás egy hétköznapi, könnyen átérezhető példán keresztül."
+  "exercise:isbn-verifier:source": "Egy string számmá alakítása és némi alapvető feldolgozás egy hétköznapi, könnyen átérezhető példán keresztül.",
+  "exercise:largest-series-product:name": "Legnagyobb sorozatszorzat",
+  "exercise:largest-series-product:blurb": "Egy számjegyekből álló string esetén számítsd ki a legnagyobb szorzatot egy n hosszúságú, összefüggő számjegysorozatra.",
+  "exercise:largest-series-product:source": "A Project Euler 8. feladatának egy változata"
 }

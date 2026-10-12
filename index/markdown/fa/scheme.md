@@ -96,6 +96,11 @@ This page is generated from [the index](../../json/fa/scheme.json) by `scripts/b
 - `instructions.append.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/knapsack/.docs/instructions.append.md)): [Latest](../../../locales/fa/content/b8/51/26ea2b554a246d013ac6c3b9044791a4fde2.md)
 - `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/knapsack/.docs/introduction.md)): [Latest](../../../locales/fa/content/9a/c9/df596b629552e1f89f828a734f99ebc769c7.md)
 
+### Largest Series Product (بزرگ‌ترین حاصل‌ضرب دنباله)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/largest-series-product/.docs/instructions.md)): [Latest](../../../locales/fa/content/f2/97/b57f7c48aed917ec935f39efc1cf15e62c1e.md)
+- `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/largest-series-product/.docs/introduction.md)): [Latest](../../../locales/fa/content/59/7b/b5fa15d6b877bfb4f31cc6aec2b3eb53ec8d.md)
+
 ### Leap (سال کبیسه)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/leap/.docs/instructions.md)): [Latest](../../../locales/fa/content/b1/4f/8565d61694d7c20d78e10f966bd3deaaf748.md)

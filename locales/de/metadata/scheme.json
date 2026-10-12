@@ -142,5 +142,8 @@
   "doc:resources:blurb": "Eine Sammlung nützlicher Ressourcen, mit denen du Scheme meistern kannst.",
   "exercise:isbn-verifier:name": "ISBN-Prüfer",
   "exercise:isbn-verifier:blurb": "Prüfe, ob ein gegebener String eine gültige ISBN-10-Nummer ist.",
-  "exercise:isbn-verifier:source": "Umwandlung eines Strings in eine Zahl und etwas grundlegende Verarbeitung anhand eines anschaulichen Beispiels aus der realen Welt."
+  "exercise:isbn-verifier:source": "Umwandlung eines Strings in eine Zahl und etwas grundlegende Verarbeitung anhand eines anschaulichen Beispiels aus der realen Welt.",
+  "exercise:largest-series-product:name": "Größtes Serienprodukt",
+  "exercise:largest-series-product:blurb": "Berechne für einen String aus Ziffern das größte Produkt eines zusammenhängenden Teilstrings der Länge n.",
+  "exercise:largest-series-product:source": "Eine Variante von Problem 8 bei Project Euler"
 }

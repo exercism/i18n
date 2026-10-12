@@ -114,6 +114,11 @@ This page is generated from [the index](../../json/hu/scheme.json) by `scripts/b
 - `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/knapsack/.docs/introduction.md)): [Latest](../../../locales/hu/content/9a/c9/df596b629552e1f89f828a734f99ebc769c7.md)
   - [`9b2bed8b4e`](../../../locales/hu/content/9b/2b/ed8b4e9bf51cbbdfcceee9d323749ee77e0e.md)
 
+### Largest Series Product (Legnagyobb sorozatszorzat)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/largest-series-product/.docs/instructions.md)): [Latest](../../../locales/hu/content/f2/97/b57f7c48aed917ec935f39efc1cf15e62c1e.md)
+- `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/largest-series-product/.docs/introduction.md)): [Latest](../../../locales/hu/content/59/7b/b5fa15d6b877bfb4f31cc6aec2b3eb53ec8d.md)
+
 ### Leap (Szökőév)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/leap/.docs/instructions.md)): [Latest](../../../locales/hu/content/b1/4f/8565d61694d7c20d78e10f966bd3deaaf748.md)
