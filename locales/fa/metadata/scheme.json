@@ -148,5 +148,8 @@
   "exercise:largest-series-product:source": "گونه‌ای از مسئله ۸ در Project Euler",
   "exercise:luhn:name": "Luhn",
   "exercise:luhn:blurb": "با داشتن یک عدد، مشخص کنید که آیا بر پایه‌ی فرمول Luhn معتبر است یا نه.",
-  "exercise:luhn:source": "الگوریتم Luhn در Wikipedia"
+  "exercise:luhn:source": "الگوریتم Luhn در Wikipedia",
+  "exercise:nth-prime:name": "عدد اولِ n",
+  "exercise:nth-prime:blurb": "با داشتن عدد n تعیین کنید که nاُمین عدد اول کدام است.",
+  "exercise:nth-prime:source": "گونه‌ای از مسئله‌ی ۷ در Project Euler"
 }

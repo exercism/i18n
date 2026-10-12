@@ -148,5 +148,8 @@
   "exercise:largest-series-product:source": "Варіація на тему задачі 8 з Project Euler",
   "exercise:luhn:name": "Luhn",
   "exercise:luhn:blurb": "Дано число; визначте, чи воно чинне за формулою Луна.",
-  "exercise:luhn:source": "The Luhn Algorithm на Вікіпедії"
+  "exercise:luhn:source": "The Luhn Algorithm на Вікіпедії",
+  "exercise:nth-prime:name": "N-те просте число",
+  "exercise:nth-prime:blurb": "За заданим числом n визначте n-те просте число.",
+  "exercise:nth-prime:source": "Варіація на задачу 7 з Project Euler"
 }

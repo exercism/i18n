@@ -148,5 +148,8 @@
   "exercise:largest-series-product:source": "Eine Variante von Problem 8 bei Project Euler",
   "exercise:luhn:name": "Luhn",
   "exercise:luhn:blurb": "Bestimme für eine Zahl, ob sie nach der Luhn-Formel gültig ist.",
-  "exercise:luhn:source": "Der Luhn-Algorithmus auf Wikipedia"
+  "exercise:luhn:source": "Der Luhn-Algorithmus auf Wikipedia",
+  "exercise:nth-prime:name": "n-te Primzahl",
+  "exercise:nth-prime:blurb": "Bestimme für eine Zahl n, welche die n-te Primzahl ist.",
+  "exercise:nth-prime:source": "Eine Variation von Problem 7 bei Project Euler"
 }

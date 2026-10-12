@@ -148,5 +148,8 @@
   "exercise:largest-series-product:source": "改編自 Project Euler 的第 8 題",
   "exercise:luhn:name": "Luhn",
   "exercise:luhn:blurb": "給定一個數字，判斷它是否符合 Luhn 公式。",
-  "exercise:luhn:source": "Wikipedia 上的 Luhn 演算法"
+  "exercise:luhn:source": "Wikipedia 上的 Luhn 演算法",
+  "exercise:nth-prime:name": "第 n 個質數",
+  "exercise:nth-prime:blurb": "給定一個數字 n，判斷第 n 個質數是多少。",
+  "exercise:nth-prime:source": "Project Euler 第 7 題的變體"
 }

@@ -148,5 +148,8 @@
   "exercise:largest-series-product:source": "Project EulerのProblem 8のバリエーション",
   "exercise:luhn:name": "Luhn",
   "exercise:luhn:blurb": "与えられた数値がLuhnの公式に従って有効かどうかを判定します。",
-  "exercise:luhn:source": "WikipediaのLuhnアルゴリズム"
+  "exercise:luhn:source": "WikipediaのLuhnアルゴリズム",
+  "exercise:nth-prime:name": "N番目の素数",
+  "exercise:nth-prime:blurb": "数値nが与えられたとき、n番目の素数を求めます。",
+  "exercise:nth-prime:source": "Project EulerのProblem 7をアレンジしたもの"
 }

@@ -148,5 +148,8 @@
   "exercise:largest-series-product:source": "Project Euler की समस्या 8 का एक रूपांतर",
   "exercise:luhn:name": "Luhn",
   "exercise:luhn:blurb": "एक संख्या दी गई है; तय कीजिए कि वह Luhn फॉर्मूले के अनुसार मान्य है या नहीं।",
-  "exercise:luhn:source": "Wikipedia पर Luhn एल्गोरिदम"
+  "exercise:luhn:source": "Wikipedia पर Luhn एल्गोरिदम",
+  "exercise:nth-prime:name": "nवाँ अभाज्य",
+  "exercise:nth-prime:blurb": "एक संख्या n दी गई है; पता कीजिए कि nवाँ अभाज्य कौन-सा है।",
+  "exercise:nth-prime:source": "Project Euler पर Problem 7 का एक रूपांतर"
 }

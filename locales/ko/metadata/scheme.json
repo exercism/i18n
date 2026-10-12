@@ -148,5 +148,8 @@
   "exercise:largest-series-product:source": "Project Euler의 8번 문제를 변형한 문제",
   "exercise:luhn:name": "Luhn",
   "exercise:luhn:blurb": "숫자가 주어졌을 때 Luhn 공식에 따라 유효한지 판별해요.",
-  "exercise:luhn:source": "Wikipedia의 Luhn 알고리즘"
+  "exercise:luhn:source": "Wikipedia의 Luhn 알고리즘",
+  "exercise:nth-prime:name": "N번째 소수",
+  "exercise:nth-prime:blurb": "숫자 n이 주어졌을 때, n번째 소수가 무엇인지 알아내요.",
+  "exercise:nth-prime:source": "Project Euler의 Problem 7을 변형한 문제"
 }

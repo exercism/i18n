@@ -148,5 +148,8 @@
   "exercise:largest-series-product:source": "تنويعة على المسألة 8 في Project Euler",
   "exercise:luhn:name": "Luhn",
   "exercise:luhn:blurb": "بمعطى عدد، حدّد ما إذا كان صالحًا وفق صيغة Luhn.",
-  "exercise:luhn:source": "خوارزمية Luhn على Wikipedia"
+  "exercise:luhn:source": "خوارزمية Luhn على Wikipedia",
+  "exercise:nth-prime:name": "العدد الأولي رقم `n`",
+  "exercise:nth-prime:blurb": "إذا أُعطيت العدد `n`، فحدّد ما هو العدد الأولي ذو الرتبة `n`.",
+  "exercise:nth-prime:source": "تنويع على المسألة 7 في Project Euler"
 }

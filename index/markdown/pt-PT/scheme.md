@@ -121,6 +121,10 @@ This page is generated from [the index](../../json/pt-PT/scheme.json) by `script
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/matching-brackets/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/ea/17/0842326b8639a4d921462397a601ec5c9f4c.md)
 - `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/matching-brackets/.docs/introduction.md)): [Latest](../../../locales/pt-PT/content/06/18/221b21efeaba2463792b44635639e410ddd8.md)
 
+### Nth Prime (N-ésimo primo)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/nth-prime/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/06/5e/323ab2ca1bcfdd97c52d8051605b4872f94a.md)
+
 ### Nucleotide Count (Contagem de nucleótidos)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/nucleotide-count/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/54/8d/9ba5a5ee79a79fc4ff3e1d942c6c7f7c68af.md)

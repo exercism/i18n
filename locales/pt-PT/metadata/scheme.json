@@ -148,5 +148,8 @@
   "exercise:largest-series-product:source": "Uma variação do Problema 8 do Project Euler",
   "exercise:luhn:name": "Luhn",
   "exercise:luhn:blurb": "Dado um número, determina se é válido de acordo com a fórmula de Luhn.",
-  "exercise:luhn:source": "O algoritmo de Luhn na Wikipedia"
+  "exercise:luhn:source": "O algoritmo de Luhn na Wikipedia",
+  "exercise:nth-prime:name": "N-ésimo primo",
+  "exercise:nth-prime:blurb": "Dado um número n, determina qual é o n-ésimo número primo.",
+  "exercise:nth-prime:source": "Uma variação do Problema 7 do Project Euler"
 }

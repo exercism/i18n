@@ -148,5 +148,8 @@
   "exercise:largest-series-product:source": "A Project Euler 8. feladatának egy változata",
   "exercise:luhn:name": "Luhn",
   "exercise:luhn:blurb": "Adott egy szám; állapítsd meg, hogy érvényes-e a Luhn-formula szerint.",
-  "exercise:luhn:source": "A Luhn-algoritmus a Wikipédián"
+  "exercise:luhn:source": "A Luhn-algoritmus a Wikipédián",
+  "exercise:nth-prime:name": "N-edik prímszám",
+  "exercise:nth-prime:blurb": "Adott egy n szám, határozd meg, mi az n-edik prímszám.",
+  "exercise:nth-prime:source": "A Project Euler 7. feladatának egy változata"
 }

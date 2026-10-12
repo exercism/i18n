@@ -148,5 +148,8 @@
   "exercise:largest-series-product:source": "Μια παραλλαγή του προβλήματος 8 στο Project Euler",
   "exercise:luhn:name": "Luhn",
   "exercise:luhn:blurb": "Με δεδομένο έναν αριθμό, προσδιόρισε αν είναι έγκυρος σύμφωνα με τον τύπο Luhn.",
-  "exercise:luhn:source": "Ο αλγόριθμος Luhn στη Wikipedia"
+  "exercise:luhn:source": "Ο αλγόριθμος Luhn στη Wikipedia",
+  "exercise:nth-prime:name": "Νιοστός πρώτος αριθμός",
+  "exercise:nth-prime:blurb": "Με δεδομένο έναν αριθμό n, προσδιόρισε ποιος είναι ο νιοστός πρώτος αριθμός.",
+  "exercise:nth-prime:source": "Μια παραλλαγή του προβλήματος 7 στο Project Euler"
 }
