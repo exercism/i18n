@@ -290,6 +290,7 @@ This page is generated from [the index](../../json/ko/zig.json) by `scripts/buil
 ### Piecing It Together (퍼즐 맞추기)
 
 - `instructions.md` ([English](https://github.com/exercism/zig/blob/main/exercises/practice/piecing-it-together/.docs/instructions.md)): [Latest](../../../locales/ko/content/8a/27/81d9940a88c49e714173b7e930e687650b90.md)
+- `instructions.append.md` ([English](https://github.com/exercism/zig/blob/main/exercises/practice/piecing-it-together/.docs/instructions.append.md)): [Latest](../../../locales/ko/content/17/b7/66e207fcf38914b8894c6818b820bcce9fab.md)
 - `introduction.md` ([English](https://github.com/exercism/zig/blob/main/exercises/practice/piecing-it-together/.docs/introduction.md)): [Latest](../../../locales/ko/content/2f/a2/0f6c5c0ac43ce432b6f518b599d7d4c473f6.md)
 
 ### Pig Latin

@@ -290,6 +290,7 @@ This page is generated from [the index](../../json/zh-CN/zig.json) by `scripts/b
 ### Piecing It Together (拼凑起来)
 
 - `instructions.md` ([English](https://github.com/exercism/zig/blob/main/exercises/practice/piecing-it-together/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/8a/27/81d9940a88c49e714173b7e930e687650b90.md)
+- `instructions.append.md` ([English](https://github.com/exercism/zig/blob/main/exercises/practice/piecing-it-together/.docs/instructions.append.md)): [Latest](../../../locales/zh-CN/content/17/b7/66e207fcf38914b8894c6818b820bcce9fab.md)
 - `introduction.md` ([English](https://github.com/exercism/zig/blob/main/exercises/practice/piecing-it-together/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/2f/a2/0f6c5c0ac43ce432b6f518b599d7d4c473f6.md)
 
 ### Pig Latin (猪拉丁)
