@@ -145,5 +145,8 @@
   "exercise:isbn-verifier:source": "একটি স্ট্রিংকে সংখ্যায় রূপান্তর এবং বাস্তব জগতের একটি পরিচিত উদাহরণ ব্যবহার করে কিছু মৌলিক প্রক্রিয়াকরণ।",
   "exercise:largest-series-product:name": "সর্ববৃহৎ সিরিজ গুণফল",
   "exercise:largest-series-product:blurb": "অঙ্কের একটি স্ট্রিং দেওয়া আছে; দৈর্ঘ্য n-এর পরপর থাকা অঙ্কের সাবস্ট্রিংয়ের জন্য বৃহত্তম গুণফল নির্ণয় করুন।",
-  "exercise:largest-series-product:source": "Project Euler-এর ৮ নম্বর সমস্যার একটি ভিন্ন রূপ"
+  "exercise:largest-series-product:source": "Project Euler-এর ৮ নম্বর সমস্যার একটি ভিন্ন রূপ",
+  "exercise:luhn:name": "Luhn",
+  "exercise:luhn:blurb": "একটি সংখ্যা দেওয়া হলে Luhn ফর্মুলা অনুযায়ী তা বৈধ কি না, তা নির্ণয় করুন।",
+  "exercise:luhn:source": "উইকিপিডিয়ায় The Luhn Algorithm"
 }

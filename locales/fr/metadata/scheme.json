@@ -145,5 +145,8 @@
   "exercise:isbn-verifier:source": "Convertir une chaîne de caractères en nombre, avec quelques traitements de base s'appuyant sur un exemple concret du monde réel.",
   "exercise:largest-series-product:name": "Le plus grand produit d'une série",
   "exercise:largest-series-product:blurb": "Étant donné une chaîne de chiffres, calcule le plus grand produit d'une sous-chaîne contiguë de n chiffres.",
-  "exercise:largest-series-product:source": "Une variation du problème 8 de Project Euler"
+  "exercise:largest-series-product:source": "Une variation du problème 8 de Project Euler",
+  "exercise:luhn:name": "Luhn",
+  "exercise:luhn:blurb": "Étant donné un nombre, détermine s'il est valide ou non selon la formule de Luhn.",
+  "exercise:luhn:source": "L'algorithme de Luhn sur Wikipédia"
 }

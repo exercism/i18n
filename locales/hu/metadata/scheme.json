@@ -145,5 +145,8 @@
   "exercise:isbn-verifier:source": "Egy string számmá alakítása és némi alapvető feldolgozás egy hétköznapi, könnyen átérezhető példán keresztül.",
   "exercise:largest-series-product:name": "Legnagyobb sorozatszorzat",
   "exercise:largest-series-product:blurb": "Egy számjegyekből álló string esetén számítsd ki a legnagyobb szorzatot egy n hosszúságú, összefüggő számjegysorozatra.",
-  "exercise:largest-series-product:source": "A Project Euler 8. feladatának egy változata"
+  "exercise:largest-series-product:source": "A Project Euler 8. feladatának egy változata",
+  "exercise:luhn:name": "Luhn",
+  "exercise:luhn:blurb": "Adott egy szám; állapítsd meg, hogy érvényes-e a Luhn-formula szerint.",
+  "exercise:luhn:source": "A Luhn-algoritmus a Wikipédián"
 }

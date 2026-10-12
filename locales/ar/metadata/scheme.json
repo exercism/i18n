@@ -145,5 +145,8 @@
   "exercise:isbn-verifier:source": "تحويل سلسلة نصية إلى عدد وبعض المعالجة الأساسية باستخدام مثال واقعي مألوف.",
   "exercise:largest-series-product:name": "أكبر جداء لمتتالية أرقام",
   "exercise:largest-series-product:blurb": "بمعطى سلسلة نصية من الأرقام، احسب أكبر جداء لمقطع متجاور من الأرقام طوله n.",
-  "exercise:largest-series-product:source": "تنويعة على المسألة 8 في Project Euler"
+  "exercise:largest-series-product:source": "تنويعة على المسألة 8 في Project Euler",
+  "exercise:luhn:name": "Luhn",
+  "exercise:luhn:blurb": "بمعطى عدد، حدّد ما إذا كان صالحًا وفق صيغة Luhn.",
+  "exercise:luhn:source": "خوارزمية Luhn على Wikipedia"
 }

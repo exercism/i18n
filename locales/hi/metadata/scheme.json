@@ -145,5 +145,8 @@
   "exercise:isbn-verifier:source": "एक स्ट्रिंग को संख्या में बदलना और जाने-पहचाने वास्तविक दुनिया के उदाहरण का उपयोग करके कुछ बुनियादी प्रोसेसिंग।",
   "exercise:largest-series-product:name": "सबसे बड़ा श्रृंखला गुणनफल",
   "exercise:largest-series-product:blurb": "अंकों की एक स्ट्रिंग दी गई है; n लंबाई की अंकों की एक लगातार उपस्ट्रिंग का सबसे बड़ा गुणनफल निकालिए।",
-  "exercise:largest-series-product:source": "Project Euler की समस्या 8 का एक रूपांतर"
+  "exercise:largest-series-product:source": "Project Euler की समस्या 8 का एक रूपांतर",
+  "exercise:luhn:name": "Luhn",
+  "exercise:luhn:blurb": "एक संख्या दी गई है; तय कीजिए कि वह Luhn फॉर्मूले के अनुसार मान्य है या नहीं।",
+  "exercise:luhn:source": "Wikipedia पर Luhn एल्गोरिदम"
 }

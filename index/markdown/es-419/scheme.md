@@ -111,6 +111,11 @@ This page is generated from [the index](../../json/es-419/scheme.json) by `scrip
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/list-ops/.docs/instructions.md)): [Latest](../../../locales/es-419/content/eb/c5/dffed02ecca9b62a12fd9c7327b58dd49bba.md)
   - [`b5b20ff20a`](../../../locales/es-419/content/b5/b2/0ff20a2012f9680c917abae1e2869d5ab2f3.md)
 
+### Luhn
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/luhn/.docs/instructions.md)): [Latest](../../../locales/es-419/content/77/02/c6bbb5f849683e3074163e48ce1154ad2957.md)
+- `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/luhn/.docs/introduction.md)): [Latest](../../../locales/es-419/content/de/e4/8006eddee9458a5414ddc96c4b9d2fc9109f.md)
+
 ### Matching Brackets (Paréntesis balanceados)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/matching-brackets/.docs/instructions.md)): [Latest](../../../locales/es-419/content/ea/17/0842326b8639a4d921462397a601ec5c9f4c.md)

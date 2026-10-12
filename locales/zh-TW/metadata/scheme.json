@@ -145,5 +145,8 @@
   "exercise:isbn-verifier:source": "將字串轉換成數字，並透過一個貼近現實生活的例子進行一些基本處理。",
   "exercise:largest-series-product:name": "最大連續乘積",
   "exercise:largest-series-product:blurb": "給定一串數字，計算長度為 n 的連續數字子字串所能得到的最大乘積。",
-  "exercise:largest-series-product:source": "改編自 Project Euler 的第 8 題"
+  "exercise:largest-series-product:source": "改編自 Project Euler 的第 8 題",
+  "exercise:luhn:name": "Luhn",
+  "exercise:luhn:blurb": "給定一個數字，判斷它是否符合 Luhn 公式。",
+  "exercise:luhn:source": "Wikipedia 上的 Luhn 演算法"
 }

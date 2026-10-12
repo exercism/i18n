@@ -145,5 +145,8 @@
   "exercise:isbn-verifier:source": "Converter uma string em um número e fazer um processamento básico com um exemplo do mundo real fácil de entender.",
   "exercise:largest-series-product:name": "Maior Produto de uma Série",
   "exercise:largest-series-product:blurb": "Dada uma string de dígitos, calcule o maior produto de uma substring contígua de dígitos de comprimento n.",
-  "exercise:largest-series-product:source": "Uma variação do Problema 8 do Project Euler"
+  "exercise:largest-series-product:source": "Uma variação do Problema 8 do Project Euler",
+  "exercise:luhn:name": "Luhn",
+  "exercise:luhn:blurb": "Dado um número, determine se ele é válido ou não de acordo com a fórmula de Luhn.",
+  "exercise:luhn:source": "O algoritmo de Luhn na Wikipédia"
 }

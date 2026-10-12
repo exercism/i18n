@@ -145,5 +145,8 @@
   "exercise:isbn-verifier:source": "문자열을 숫자로 변환하고, 친숙한 실제 사례를 활용한 기본 처리",
   "exercise:largest-series-product:name": "가장 큰 연속 곱",
   "exercise:largest-series-product:blurb": "숫자로 이루어진 문자열이 주어졌을 때, 길이가 n인 연속된 부분 문자열의 숫자들로 만들 수 있는 가장 큰 곱을 계산해요.",
-  "exercise:largest-series-product:source": "Project Euler의 8번 문제를 변형한 문제"
+  "exercise:largest-series-product:source": "Project Euler의 8번 문제를 변형한 문제",
+  "exercise:luhn:name": "Luhn",
+  "exercise:luhn:blurb": "숫자가 주어졌을 때 Luhn 공식에 따라 유효한지 판별해요.",
+  "exercise:luhn:source": "Wikipedia의 Luhn 알고리즘"
 }

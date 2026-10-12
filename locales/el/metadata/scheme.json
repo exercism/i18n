@@ -145,5 +145,8 @@
   "exercise:isbn-verifier:source": "Μετατροπή μιας συμβολοσειράς σε αριθμό και κάποια βασική επεξεργασία με τη χρήση ενός οικείου παραδείγματος από τον πραγματικό κόσμο.",
   "exercise:largest-series-product:name": "Μεγαλύτερο γινόμενο σειράς",
   "exercise:largest-series-product:blurb": "Με δεδομένη μια συμβολοσειρά ψηφίων, υπολόγισε το μεγαλύτερο γινόμενο για μια συνεχόμενη υποσυμβολοσειρά ψηφίων μήκους n.",
-  "exercise:largest-series-product:source": "Μια παραλλαγή του προβλήματος 8 στο Project Euler"
+  "exercise:largest-series-product:source": "Μια παραλλαγή του προβλήματος 8 στο Project Euler",
+  "exercise:luhn:name": "Luhn",
+  "exercise:luhn:blurb": "Με δεδομένο έναν αριθμό, προσδιόρισε αν είναι έγκυρος σύμφωνα με τον τύπο Luhn.",
+  "exercise:luhn:source": "Ο αλγόριθμος Luhn στη Wikipedia"
 }

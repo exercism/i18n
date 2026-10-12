@@ -145,5 +145,8 @@
   "exercise:isbn-verifier:source": "Umwandlung eines Strings in eine Zahl und etwas grundlegende Verarbeitung anhand eines anschaulichen Beispiels aus der realen Welt.",
   "exercise:largest-series-product:name": "Größtes Serienprodukt",
   "exercise:largest-series-product:blurb": "Berechne für einen String aus Ziffern das größte Produkt eines zusammenhängenden Teilstrings der Länge n.",
-  "exercise:largest-series-product:source": "Eine Variante von Problem 8 bei Project Euler"
+  "exercise:largest-series-product:source": "Eine Variante von Problem 8 bei Project Euler",
+  "exercise:luhn:name": "Luhn",
+  "exercise:luhn:blurb": "Bestimme für eine Zahl, ob sie nach der Luhn-Formel gültig ist.",
+  "exercise:luhn:source": "Der Luhn-Algorithmus auf Wikipedia"
 }

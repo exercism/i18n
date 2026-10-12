@@ -145,5 +145,8 @@
   "exercise:isbn-verifier:source": "Перетворення рядка тексту в число та деяке базове опрацювання на зрозумілому прикладі з реального життя.",
   "exercise:largest-series-product:name": "Найбільший добуток у послідовності",
   "exercise:largest-series-product:blurb": "Дано рядок тексту (англ. string) із цифр; обчисліть найбільший добуток для неперервного підрядка цифр довжиною n.",
-  "exercise:largest-series-product:source": "Варіація на тему задачі 8 з Project Euler"
+  "exercise:largest-series-product:source": "Варіація на тему задачі 8 з Project Euler",
+  "exercise:luhn:name": "Luhn",
+  "exercise:luhn:blurb": "Дано число; визначте, чи воно чинне за формулою Луна.",
+  "exercise:luhn:source": "The Luhn Algorithm на Вікіпедії"
 }

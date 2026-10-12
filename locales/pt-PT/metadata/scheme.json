@@ -145,5 +145,8 @@
   "exercise:isbn-verifier:source": "Converter uma string num número e fazer algum processamento básico, recorrendo a um exemplo do mundo real com que te identificas.",
   "exercise:largest-series-product:name": "Maior produto de uma série",
   "exercise:largest-series-product:blurb": "Dada uma string de algarismos, calcula o maior produto de uma substring contígua de algarismos de comprimento n.",
-  "exercise:largest-series-product:source": "Uma variação do Problema 8 do Project Euler"
+  "exercise:largest-series-product:source": "Uma variação do Problema 8 do Project Euler",
+  "exercise:luhn:name": "Luhn",
+  "exercise:luhn:blurb": "Dado um número, determina se é válido de acordo com a fórmula de Luhn.",
+  "exercise:luhn:source": "O algoritmo de Luhn na Wikipedia"
 }

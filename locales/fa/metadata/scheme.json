@@ -145,5 +145,8 @@
   "exercise:isbn-verifier:source": "تبدیل یک رشته به عدد و مقداری پردازش ساده، با بهره‌گیری از یک مثال ملموس از دنیای واقعی.",
   "exercise:largest-series-product:name": "بزرگ‌ترین حاصل‌ضرب دنباله",
   "exercise:largest-series-product:blurb": "با داشتن رشته‌ای از ارقام، بزرگ‌ترین حاصل‌ضرب را برای زیررشته‌ای پیوسته از ارقام به طول `n` محاسبه کنید.",
-  "exercise:largest-series-product:source": "گونه‌ای از مسئله ۸ در Project Euler"
+  "exercise:largest-series-product:source": "گونه‌ای از مسئله ۸ در Project Euler",
+  "exercise:luhn:name": "Luhn",
+  "exercise:luhn:blurb": "با داشتن یک عدد، مشخص کنید که آیا بر پایه‌ی فرمول Luhn معتبر است یا نه.",
+  "exercise:luhn:source": "الگوریتم Luhn در Wikipedia"
 }
