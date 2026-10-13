@@ -93,7 +93,8 @@ This page is generated from [the index](../../json/es-ES/scheme.json) by `script
 ### Knapsack (La mochila)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/knapsack/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/0e/bf/7914c5505c5fe376d5466c5c12dcff37f14c.md)
-- `instructions.append.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/knapsack/.docs/instructions.append.md)): [Latest](../../../locales/es-ES/content/b8/51/26ea2b554a246d013ac6c3b9044791a4fde2.md)
+- `instructions.append.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/knapsack/.docs/instructions.append.md)): [Latest](../../../locales/es-ES/content/44/02/48f1a0eba9567871b8792250bff13692611e.md)
+  - [`b85126ea2b`](../../../locales/es-ES/content/b8/51/26ea2b554a246d013ac6c3b9044791a4fde2.md)
 - `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/knapsack/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/9a/c9/df596b629552e1f89f828a734f99ebc769c7.md)
 
 ### Largest Series Product (Mayor producto de una serie)

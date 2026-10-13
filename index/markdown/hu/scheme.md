@@ -110,7 +110,8 @@ This page is generated from [the index](../../json/hu/scheme.json) by `scripts/b
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/knapsack/.docs/instructions.md)): [Latest](../../../locales/hu/content/0e/bf/7914c5505c5fe376d5466c5c12dcff37f14c.md)
   - [`3411db9886`](../../../locales/hu/content/34/11/db9886a8b0e72f88fe4c4399fb965942a3d7.md)
-- `instructions.append.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/knapsack/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/b8/51/26ea2b554a246d013ac6c3b9044791a4fde2.md)
+- `instructions.append.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/knapsack/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/44/02/48f1a0eba9567871b8792250bff13692611e.md)
+  - [`b85126ea2b`](../../../locales/hu/content/b8/51/26ea2b554a246d013ac6c3b9044791a4fde2.md)
 - `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/knapsack/.docs/introduction.md)): [Latest](../../../locales/hu/content/9a/c9/df596b629552e1f89f828a734f99ebc769c7.md)
   - [`9b2bed8b4e`](../../../locales/hu/content/9b/2b/ed8b4e9bf51cbbdfcceee9d323749ee77e0e.md)
 
