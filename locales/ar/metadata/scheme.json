@@ -154,5 +154,8 @@
   "exercise:nth-prime:source": "تنويع على المسألة 7 في Project Euler",
   "exercise:run-length-encoding:name": "ترميز طول التسلسل",
   "exercise:run-length-encoding:blurb": "نفّذ ترميز طول التسلسل وفك الترميز.",
-  "exercise:run-length-encoding:source": "ويكيبيديا"
+  "exercise:run-length-encoding:source": "ويكيبيديا",
+  "exercise:series:name": "المتسلسلة",
+  "exercise:series:blurb": "بمعلومية سلسلة نصية من الأرقام، أخرج جميع السلاسل النصية الفرعية المتلاصقة ذات الطول `n` في تلك السلسلة النصية.",
+  "exercise:series:source": "مجموعة فرعية من المسألة 8 في Project Euler"
 }

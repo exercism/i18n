@@ -154,5 +154,8 @@
   "exercise:nth-prime:source": "Une variante du problème 7 de Project Euler",
   "exercise:run-length-encoding:name": "Codage par plages",
   "exercise:run-length-encoding:blurb": "Implémenter le codage par plages et son décodage.",
-  "exercise:run-length-encoding:source": "Wikipedia"
+  "exercise:run-length-encoding:source": "Wikipedia",
+  "exercise:series:name": "Séries",
+  "exercise:series:blurb": "À partir d'une _string_ de chiffres, renvoie toutes les sous-chaînes contiguës de longueur `n` qu'elle contient.",
+  "exercise:series:source": "Un sous-ensemble du problème 8 de Project Euler"
 }

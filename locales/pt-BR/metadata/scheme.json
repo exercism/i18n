@@ -154,5 +154,8 @@
   "exercise:nth-prime:source": "Uma variação do Problema 7 do Project Euler",
   "exercise:run-length-encoding:name": "Codificação run-length",
   "exercise:run-length-encoding:blurb": "Implemente a codificação e a decodificação run-length.",
-  "exercise:run-length-encoding:source": "Wikipedia"
+  "exercise:run-length-encoding:source": "Wikipedia",
+  "exercise:series:name": "Séries",
+  "exercise:series:blurb": "Dada uma string de dígitos, retorne todas as substrings contíguas de comprimento `n` nessa string.",
+  "exercise:series:source": "Um subconjunto do Problema 8 do Project Euler"
 }

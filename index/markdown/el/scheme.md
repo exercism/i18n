@@ -196,6 +196,10 @@ This page is generated from [the index](../../json/el/scheme.json) by `scripts/b
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/scrabble-score/.docs/instructions.md)): [Latest](../../../locales/el/content/73/8f/928c5b64a1453fe44d29b22efbf90479500b.md)
 - `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/scrabble-score/.docs/introduction.md)): [Latest](../../../locales/el/content/88/21/f240ba979311248c51b5cad4ab93c6ac5df1.md)
 
+### Series (Σειρές)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/series/.docs/instructions.md)): [Latest](../../../locales/el/content/fd/97/a6706a66b377147ae91d1495db35a1b291e8.md)
+
 ### Sieve (Κόσκινο)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/sieve/.docs/instructions.md)): [Latest](../../../locales/el/content/71/29/2e1782dc95e0430ae2b614e1d740dd41639f.md)

@@ -154,5 +154,8 @@
   "exercise:nth-prime:source": "Μια παραλλαγή του προβλήματος 7 στο Project Euler",
   "exercise:run-length-encoding:name": "Κωδικοποίηση μήκους σειράς",
   "exercise:run-length-encoding:blurb": "Υλοποίησε την κωδικοποίηση και την αποκωδικοποίηση μήκους σειράς.",
-  "exercise:run-length-encoding:source": "Wikipedia"
+  "exercise:run-length-encoding:source": "Wikipedia",
+  "exercise:series:name": "Σειρές",
+  "exercise:series:blurb": "Με δεδομένη μια συμβολοσειρά ψηφίων, δώσε όλες τις συνεχόμενες υποσυμβολοσειρές μήκους `n` μέσα σε αυτή τη συμβολοσειρά.",
+  "exercise:series:source": "Ένα υποσύνολο του Προβλήματος 8 στο Project Euler"
 }

@@ -154,5 +154,8 @@
   "exercise:nth-prime:source": "Варіація на задачу 7 з Project Euler",
   "exercise:run-length-encoding:name": "Кодування довжин серій",
   "exercise:run-length-encoding:blurb": "Реалізуйте кодування та декодування довжин серій.",
-  "exercise:run-length-encoding:source": "Wikipedia"
+  "exercise:run-length-encoding:source": "Wikipedia",
+  "exercise:series:name": "Послідовність",
+  "exercise:series:blurb": "Дано рядок тексту (англ. string) з цифр, виведіть усі суміжні підрядки довжиною `n` у ньому.",
+  "exercise:series:source": "Підмножина задачі 8 з Project Euler"
 }

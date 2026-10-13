@@ -154,5 +154,8 @@
   "exercise:nth-prime:source": "Project Euler의 Problem 7을 변형한 문제",
   "exercise:run-length-encoding:name": "런 렝스 인코딩",
   "exercise:run-length-encoding:blurb": "런 렝스 인코딩과 디코딩을 구현해요.",
-  "exercise:run-length-encoding:source": "Wikipedia"
+  "exercise:run-length-encoding:source": "Wikipedia",
+  "exercise:series:name": "수열",
+  "exercise:series:blurb": "숫자 문자열이 주어지면, 그 문자열에서 길이가 `n`인 모든 연속 부분 문자열을 출력해요.",
+  "exercise:series:source": "Project Euler Problem 8의 일부"
 }

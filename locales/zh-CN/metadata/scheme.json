@@ -154,5 +154,8 @@
   "exercise:nth-prime:source": "Project Euler 第 7 题的变体",
   "exercise:run-length-encoding:name": "游程编码",
   "exercise:run-length-encoding:blurb": "实现游程编码和解码。",
-  "exercise:run-length-encoding:source": "Wikipedia"
+  "exercise:run-length-encoding:source": "Wikipedia",
+  "exercise:series:name": "数列",
+  "exercise:series:blurb": "给定一个由数字组成的字符串，输出其中所有长度为`n`的连续子串。",
+  "exercise:series:source": "Project Euler 第 8 题的一个子集"
 }

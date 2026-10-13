@@ -154,5 +154,8 @@
   "exercise:nth-prime:source": "Una variación del problema 7 en Project Euler",
   "exercise:run-length-encoding:name": "Codificación por longitud de racha",
   "exercise:run-length-encoding:blurb": "Implementa la codificación y la decodificación por longitud de racha.",
-  "exercise:run-length-encoding:source": "Wikipedia"
+  "exercise:run-length-encoding:source": "Wikipedia",
+  "exercise:series:name": "Series",
+  "exercise:series:blurb": "Dado un string de dígitos, muestra todas las subcadenas contiguas de longitud `n` de ese string.",
+  "exercise:series:source": "Un subconjunto del Problema 8 de Project Euler"
 }

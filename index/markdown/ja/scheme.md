@@ -196,6 +196,10 @@ This page is generated from [the index](../../json/ja/scheme.json) by `scripts/b
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/scrabble-score/.docs/instructions.md)): [Latest](../../../locales/ja/content/73/8f/928c5b64a1453fe44d29b22efbf90479500b.md)
 - `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/scrabble-score/.docs/introduction.md)): [Latest](../../../locales/ja/content/88/21/f240ba979311248c51b5cad4ab93c6ac5df1.md)
 
+### Series (連続部分文字列)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/series/.docs/instructions.md)): [Latest](../../../locales/ja/content/fd/97/a6706a66b377147ae91d1495db35a1b291e8.md)
+
 ### Sieve (ふるい)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/sieve/.docs/instructions.md)): [Latest](../../../locales/ja/content/71/29/2e1782dc95e0430ae2b614e1d740dd41639f.md)

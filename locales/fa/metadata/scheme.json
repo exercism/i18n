@@ -154,5 +154,8 @@
   "exercise:nth-prime:source": "گونه‌ای از مسئله‌ی ۷ در Project Euler",
   "exercise:run-length-encoding:name": "کدگذاری طول اجرا",
   "exercise:run-length-encoding:blurb": "کدگذاری و کدگشایی طول اجرا را پیاده‌سازی کنید.",
-  "exercise:run-length-encoding:source": "Wikipedia"
+  "exercise:run-length-encoding:source": "Wikipedia",
+  "exercise:series:name": "دنباله",
+  "exercise:series:blurb": "اگر رشته‌ای از رقم‌ها داده شود، همه‌ی زیررشته‌های به‌هم‌پیوسته با طول `n` را در آن رشته خروجی بدهید.",
+  "exercise:series:source": "زیرمجموعه‌ای از مسئله‌ی ۸ در Project Euler"
 }

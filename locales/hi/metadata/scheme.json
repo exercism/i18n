@@ -154,5 +154,8 @@
   "exercise:nth-prime:source": "Project Euler पर Problem 7 का एक रूपांतर",
   "exercise:run-length-encoding:name": "रन-लेंथ एन्कोडिंग",
   "exercise:run-length-encoding:blurb": "रन-लेंथ एन्कोडिंग और डिकोडिंग लागू कीजिए।",
-  "exercise:run-length-encoding:source": "Wikipedia"
+  "exercise:run-length-encoding:source": "Wikipedia",
+  "exercise:series:name": "श्रेणी",
+  "exercise:series:blurb": "अंकों की एक स्ट्रिंग दी गई है; उसमें लंबाई `n` वाले सभी क्रमागत सबस्ट्रिंग आउटपुट कीजिए।",
+  "exercise:series:source": "Project Euler पर Problem 8 का एक उपसमूह"
 }
