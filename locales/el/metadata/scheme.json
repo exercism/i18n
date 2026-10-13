@@ -151,5 +151,8 @@
   "exercise:luhn:source": "Ο αλγόριθμος Luhn στη Wikipedia",
   "exercise:nth-prime:name": "Νιοστός πρώτος αριθμός",
   "exercise:nth-prime:blurb": "Με δεδομένο έναν αριθμό n, προσδιόρισε ποιος είναι ο νιοστός πρώτος αριθμός.",
-  "exercise:nth-prime:source": "Μια παραλλαγή του προβλήματος 7 στο Project Euler"
+  "exercise:nth-prime:source": "Μια παραλλαγή του προβλήματος 7 στο Project Euler",
+  "exercise:run-length-encoding:name": "Κωδικοποίηση μήκους σειράς",
+  "exercise:run-length-encoding:blurb": "Υλοποίησε την κωδικοποίηση και την αποκωδικοποίηση μήκους σειράς.",
+  "exercise:run-length-encoding:source": "Wikipedia"
 }

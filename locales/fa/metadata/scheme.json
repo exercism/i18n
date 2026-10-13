@@ -151,5 +151,8 @@
   "exercise:luhn:source": "الگوریتم Luhn در Wikipedia",
   "exercise:nth-prime:name": "عدد اولِ n",
   "exercise:nth-prime:blurb": "با داشتن عدد n تعیین کنید که nاُمین عدد اول کدام است.",
-  "exercise:nth-prime:source": "گونه‌ای از مسئله‌ی ۷ در Project Euler"
+  "exercise:nth-prime:source": "گونه‌ای از مسئله‌ی ۷ در Project Euler",
+  "exercise:run-length-encoding:name": "کدگذاری طول اجرا",
+  "exercise:run-length-encoding:blurb": "کدگذاری و کدگشایی طول اجرا را پیاده‌سازی کنید.",
+  "exercise:run-length-encoding:source": "Wikipedia"
 }

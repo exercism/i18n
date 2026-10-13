@@ -151,5 +151,8 @@
   "exercise:luhn:source": "O algoritmo de Luhn na Wikipedia",
   "exercise:nth-prime:name": "N-ésimo primo",
   "exercise:nth-prime:blurb": "Dado um número n, determina qual é o n-ésimo número primo.",
-  "exercise:nth-prime:source": "Uma variação do Problema 7 do Project Euler"
+  "exercise:nth-prime:source": "Uma variação do Problema 7 do Project Euler",
+  "exercise:run-length-encoding:name": "Codificação run-length",
+  "exercise:run-length-encoding:blurb": "Implementa a codificação e a descodificação run-length.",
+  "exercise:run-length-encoding:source": "Wikipedia"
 }

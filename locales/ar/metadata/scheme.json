@@ -151,5 +151,8 @@
   "exercise:luhn:source": "خوارزمية Luhn على Wikipedia",
   "exercise:nth-prime:name": "العدد الأولي رقم `n`",
   "exercise:nth-prime:blurb": "إذا أُعطيت العدد `n`، فحدّد ما هو العدد الأولي ذو الرتبة `n`.",
-  "exercise:nth-prime:source": "تنويع على المسألة 7 في Project Euler"
+  "exercise:nth-prime:source": "تنويع على المسألة 7 في Project Euler",
+  "exercise:run-length-encoding:name": "ترميز طول التسلسل",
+  "exercise:run-length-encoding:blurb": "نفّذ ترميز طول التسلسل وفك الترميز.",
+  "exercise:run-length-encoding:source": "ويكيبيديا"
 }

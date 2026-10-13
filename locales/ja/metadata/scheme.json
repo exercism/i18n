@@ -151,5 +151,8 @@
   "exercise:luhn:source": "WikipediaのLuhnアルゴリズム",
   "exercise:nth-prime:name": "N番目の素数",
   "exercise:nth-prime:blurb": "数値nが与えられたとき、n番目の素数を求めます。",
-  "exercise:nth-prime:source": "Project EulerのProblem 7をアレンジしたもの"
+  "exercise:nth-prime:source": "Project EulerのProblem 7をアレンジしたもの",
+  "exercise:run-length-encoding:name": "ランレングス符号化",
+  "exercise:run-length-encoding:blurb": "ランレングス符号化と復号を実装します。",
+  "exercise:run-length-encoding:source": "Wikipedia"
 }

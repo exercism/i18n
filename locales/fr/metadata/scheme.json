@@ -151,5 +151,8 @@
   "exercise:luhn:source": "L'algorithme de Luhn sur Wikipédia",
   "exercise:nth-prime:name": "N-ième nombre premier",
   "exercise:nth-prime:blurb": "Étant donné un nombre n, détermine quel est le n-ième nombre premier.",
-  "exercise:nth-prime:source": "Une variante du problème 7 de Project Euler"
+  "exercise:nth-prime:source": "Une variante du problème 7 de Project Euler",
+  "exercise:run-length-encoding:name": "Codage par plages",
+  "exercise:run-length-encoding:blurb": "Implémenter le codage par plages et son décodage.",
+  "exercise:run-length-encoding:source": "Wikipedia"
 }

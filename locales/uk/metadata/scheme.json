@@ -151,5 +151,8 @@
   "exercise:luhn:source": "The Luhn Algorithm на Вікіпедії",
   "exercise:nth-prime:name": "N-те просте число",
   "exercise:nth-prime:blurb": "За заданим числом n визначте n-те просте число.",
-  "exercise:nth-prime:source": "Варіація на задачу 7 з Project Euler"
+  "exercise:nth-prime:source": "Варіація на задачу 7 з Project Euler",
+  "exercise:run-length-encoding:name": "Кодування довжин серій",
+  "exercise:run-length-encoding:blurb": "Реалізуйте кодування та декодування довжин серій.",
+  "exercise:run-length-encoding:source": "Wikipedia"
 }

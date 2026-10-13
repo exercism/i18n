@@ -151,5 +151,8 @@
   "exercise:luhn:source": "Wikipedia पर Luhn एल्गोरिदम",
   "exercise:nth-prime:name": "nवाँ अभाज्य",
   "exercise:nth-prime:blurb": "एक संख्या n दी गई है; पता कीजिए कि nवाँ अभाज्य कौन-सा है।",
-  "exercise:nth-prime:source": "Project Euler पर Problem 7 का एक रूपांतर"
+  "exercise:nth-prime:source": "Project Euler पर Problem 7 का एक रूपांतर",
+  "exercise:run-length-encoding:name": "रन-लेंथ एन्कोडिंग",
+  "exercise:run-length-encoding:blurb": "रन-लेंथ एन्कोडिंग और डिकोडिंग लागू कीजिए।",
+  "exercise:run-length-encoding:source": "Wikipedia"
 }

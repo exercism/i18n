@@ -218,6 +218,10 @@ This page is generated from [the index](../../json/hu/scheme.json) by `scripts/b
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/rotational-cipher/.docs/instructions.md)): [Latest](../../../locales/hu/content/4b/f6/4ca1d358d2d07e3c8c06c3b686e06170d73d.md)
   - [`dbf6276f37`](../../../locales/hu/content/db/f6/276f379a116ae87268f3cbb1e8554aae2bfe.md)
 
+### Run-Length Encoding (Futáshossz-kódolás)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/run-length-encoding/.docs/instructions.md)): [Latest](../../../locales/hu/content/fc/8c/e0569424400fd47414d998ffd7278103431f.md)
+
 ### Scrabble Score (Scrabble-pontszám)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/scrabble-score/.docs/instructions.md)): [Latest](../../../locales/hu/content/73/8f/928c5b64a1453fe44d29b22efbf90479500b.md)

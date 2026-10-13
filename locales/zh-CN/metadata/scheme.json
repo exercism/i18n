@@ -151,5 +151,8 @@
   "exercise:luhn:source": "维基百科上的 Luhn 算法",
   "exercise:nth-prime:name": "第 N 个质数",
   "exercise:nth-prime:blurb": "给定一个数字 n，确定第 n 个质数是多少。",
-  "exercise:nth-prime:source": "Project Euler 第 7 题的变体"
+  "exercise:nth-prime:source": "Project Euler 第 7 题的变体",
+  "exercise:run-length-encoding:name": "游程编码",
+  "exercise:run-length-encoding:blurb": "实现游程编码和解码。",
+  "exercise:run-length-encoding:source": "Wikipedia"
 }

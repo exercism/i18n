@@ -151,5 +151,8 @@
   "exercise:luhn:source": "Der Luhn-Algorithmus auf Wikipedia",
   "exercise:nth-prime:name": "n-te Primzahl",
   "exercise:nth-prime:blurb": "Bestimme für eine Zahl n, welche die n-te Primzahl ist.",
-  "exercise:nth-prime:source": "Eine Variation von Problem 7 bei Project Euler"
+  "exercise:nth-prime:source": "Eine Variation von Problem 7 bei Project Euler",
+  "exercise:run-length-encoding:name": "Lauflängenkodierung",
+  "exercise:run-length-encoding:blurb": "Implementiere die Lauflängenkodierung und die dazugehörige Dekodierung.",
+  "exercise:run-length-encoding:source": "Wikipedia"
 }
