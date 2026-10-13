@@ -46,7 +46,7 @@
     "exerciseStatusTag.available": "Διαθέσιμη",
     "exerciseStatusTag.locked": "Κλειδωμένη",
     "difficulty.easy": "Εύκολη",
-    "difficulty.medium": "Μέτρια",
+    "difficulty.medium": "Μέση",
     "difficulty.hard": "Δύσκολη",
     "exerciseTypeTag.learningExercise": "Άσκηση Εκμάθησης",
     "exerciseTypeTag.tutorialExercise": "Άσκηση Οδηγός",
@@ -224,7 +224,7 @@
     "testRunSummary.usuallyTakes": "Αυτό συνήθως παίρνει {{averageTestDuration}}-{{averageTestDurationMultiplied}} δευτερόλεπτα.",
     "testRunSummary.tasksCompleted": "{{completedTasks}} / {{totalTasks}} ολοκληρωμένες εργασίες",
     "testRunSummary.allTasksPassed": "Όλες οι εργασίες πέρασαν",
-    "testRunSummary.allTestsPassed": "Όλες οι δοκιμές πέρασαν",
+    "testRunSummary.allTestsPassed": "Όλα τα τεστ πέρασαν",
     "testRunSummary.anErrorOccurred": "Παρουσιάστηκε σφάλμα",
     "testRunSummary.yourTestsTimedOut": "Οι δοκιμές σου ξεπέρασαν το χρονικό όριο",
     "testRunSummary.sweetLooksLike": "Τέλεια. Φαίνεται ότι έλυσες την άσκηση!",
@@ -244,7 +244,7 @@
     "testsGroupedByStatusList.failed": "απέτυχαν",
     "testRunSummaryByStatusHeaderMessage.testFailure": "αποτυχία δοκιμής",
     "testRunSummaryByStatusHeaderMessage.testFailures": "αποτυχίες δοκιμών",
-    "testRunSummaryByStatusHeaderMessage.testsFailed": "Οι δοκιμές απέτυχαν",
+    "testRunSummaryByStatusHeaderMessage.testsFailed": "Τα τεστ απέτυχαν",
     "testsGroupedByTaskList.task": "Εργασία {{id}}",
     "testsGroupedByTaskList.jumpToInstructions": "Μετάβαση στις οδηγίες",
     "testSummary.passed": "Επιτυχία",
@@ -685,7 +685,7 @@
   "components/journey/UnrevealedBadge.tsx": {
     "unrevealedBadge.unrevealed": "Μη αποκαλυμμένο",
     "unrevealedBadge.clickTapToReveal": "Κάνε κλικ/πάτησε για αποκάλυψη",
-    "unrevealedBadge.unableToRevealBadge": "Δεν είναι δυνατή η αποκάλυψη του σήματος"
+    "unrevealedBadge.unableToRevealBadge": "Δεν είναι δυνατή η αποκάλυψη του μεταλλίου"
   },
   "components/mentoring/automation/AutomationListElement.tsx": {
     "adminTab.lastShown": "Τελευταία εμφάνιση",
@@ -752,7 +752,7 @@
     "rateMentorStep.itWasGood": "Ήταν καλή!",
     "successfulDonationStep.youveDonatedSuccessfully": "Η δωρεά σου ύψους {{amount}} ολοκληρώθηκε με επιτυχία, ευχαριστούμε 💙",
     "successfulDonationStep.trulyAppreciateSupport": "Εκτιμούμε πραγματικά την υποστήριξή σου. Το Exercism δεν θα ήταν δυνατό χωρίς υπέροχους συνεισφέροντες σαν εσένα. Σύντομα θα λάβεις ένα email με την επιβεβαίωση της δωρεάς σου και την απόδειξη.",
-    "successfulDonationStep.youVeEarnedTheBadge": "Κέρδισες το σήμα <0>Υποστηρικτής</0>!",
+    "successfulDonationStep.youVeEarnedTheBadge": "Κέρδισες το μετάλλιο <0>Υποστηρικτής</0>!",
     "successfulDonationStep.continueToExercise": "Συνέχισε στην άσκηση",
     "requeuedStep.solutionRequeued": "Η λύση σου μπήκε ξανά στην ουρά.",
     "requeuedStep.requedExplanation": "Η λύση σου μπήκε ξανά στην ουρά και ελπίζουμε ένας άλλος μέντορας να την αναλάβει σύντομα. Ελπίζουμε την επόμενη φορά να έχεις μια θετική συνεδρία καθοδήγησης πάνω σε αυτή τη λύση!",
@@ -956,7 +956,7 @@
   "components/modals/profile": {
     "firstTimeModal.havePublicProfile": "Τώρα έχεις δημόσιο προφίλ!",
     "firstTimeModal.goodJob": "Μπράβο!",
-    "firstTimeModal.seeSolutions": "Τώρα θα βλέπεις τις δημοσιευμένες λύσεις σου, τις μαρτυρίες καθοδήγησης, τις συνεισφορές και τα σήματά σου στο δημόσιο προφίλ σου.",
+    "firstTimeModal.seeSolutions": "Τώρα θα βλέπεις τις δημοσιευμένες λύσεις σου, τις μαρτυρίες καθοδήγησης, τις συνεισφορές και τα μετάλλιά σου στο δημόσιο προφίλ σου.",
     "firstTimeModal.shareProfile": "Μπορείς να μοιραστείς το προφίλ σου και με άλλους!"
   },
   "components/modals/PublishSolutionModal.tsx": {
@@ -1136,10 +1136,10 @@
     "trackCheckbox.solutionsQueued_other": "{{count}} λύσεις σε αναμονή"
   },
   "components/modals/BadgeModal.tsx": {
-    "badgeModal.newBadgeEarned": "Κέρδισες ένα νέο σήμα",
+    "badgeModal.newBadgeEarned": "Κέρδισες ένα νέο μετάλλιο",
     "badgeModal.earnedOn": "Κέρδισες στις ",
-    "badgeModal.membersHaveEarned_one": "<0>{{count}}</0> μέλος έχει κερδίσει αυτό το σήμα.",
-    "badgeModal.membersHaveEarned_other": "<0>{{count}}</0> μέλη έχουν κερδίσει αυτό το σήμα.",
+    "badgeModal.membersHaveEarned_one": "<0>{{count}}</0> μέλος έχει κερδίσει αυτό το μετάλλιο.",
+    "badgeModal.membersHaveEarned_other": "<0>{{count}}</0> μέλη έχουν κερδίσει αυτό το μετάλλιο.",
     "badgeModal.percentageOfUsers": "Αυτό είναι το {{percentage}}% όλων των χρηστών στο Exercism"
   },
   "components/modals/BegModal.tsx": {
@@ -1292,7 +1292,7 @@
   },
   "components/journey": {
     "contributionResults.showingContributions": "Εμφάνιση {{totalCount}} {{contributionLabel}}",
-    "badgesList.searchByBadgeNameOrDescription": "Αναζήτηση με όνομα ή περιγραφή σήματος",
+    "badgesList.searchByBadgeNameOrDescription": "Αναζήτηση με όνομα ή περιγραφή μεταλλίου",
     "badgeResults.showingBadges": "Εμφάνιση {{totalCount}} {{badgeLabel}}",
     "solution.completed": "Ολοκληρωμένη",
     "solution.published": "Δημοσιευμένη",
@@ -1320,8 +1320,8 @@
     "tabs.badges": "Σήματα",
     "contributionResults.showingContributions_one": "Εμφανίζεται {{count}} συνεισφορά",
     "contributionResults.showingContributions_other": "Εμφανίζονται {{count}} συνεισφορές",
-    "badgeResults.showingBadges_one": "Εμφανίζεται {{count}} σήμα",
-    "badgeResults.showingBadges_other": "Εμφανίζονται {{count}} σήματα",
+    "badgeResults.showingBadges_one": "Εμφανίζεται {{count}} μετάλλιο",
+    "badgeResults.showingBadges_other": "Εμφανίζονται {{count}} μετάλλια",
     "solution.views_one": "{{count}} προβολή",
     "solution.views_other": "{{count}} προβολές",
     "solutionsList.showingSolutions_one": "Εμφανίζεται {{count}} λύση",
@@ -1495,7 +1495,7 @@
     "stripeForm.attackInfo": "Λόγω των συχνών <0>επιθέσεων δοκιμής καρτών</0>, πρέπει να επιβεβαιώσουμε ότι δεν είσαι bot πριν μπορέσουμε να δεχτούμε μια δωρεά.",
     "formWithModal.youVeDonatedSuccessfullyThankYou": "Δώρισες {{amount}} με επιτυχία - ευχαριστούμε 💙",
     "formWithModal.weTrulyAppreciateYourSupportExercismWouldNotBePossibleWithoutAwesomeContributorsLikeYourselfYouLlBeSentAnEmailShortlyWithYourDonationConfirmationAndReceipt": "Εκτιμούμε πραγματικά την υποστήριξή σου. Το Exercism δεν θα ήταν εφικτό χωρίς υπέροχους συνεισφέροντες σαν κι εσένα. Σε λίγο θα λάβεις ένα email με την επιβεβαίωση της δωρεάς και την απόδειξή σου.",
-    "formWithModal.youVeEarnedTheBadge": "Κέρδισες το σήμα <0>Υποστηρικτής</0>!",
+    "formWithModal.youVeEarnedTheBadge": "Κέρδισες το μετάλλιο <0>Υποστηρικτής</0>!",
     "formWithModal.happyToHelpImDoneHere": "Χαρά μου που βοήθησα! Τελείωσα εδώ 👍",
     "footerForm.customAmount": "Προσαρμοσμένο ποσό",
     "footerForm.continue": "Συνέχεια",
@@ -1569,7 +1569,7 @@
     "resetTrackModal.listItem3": "Τη φήμη που έχεις κερδίσει για τη δημοσίευση λύσεων στη διαδρομή {{trackTitle}}",
     "resetTrackModal.however": "Ωστόσο:",
     "resetTrackModal.listItem4": "Οι τοπικές εκδόσεις των λύσεων που είναι αποθηκευμένες στον υπολογιστή σου δε θα επηρεαστούν",
-    "resetTrackModal.listItem5": "Θα διατηρήσεις όποια σήματα έχεις κερδίσει από τη δουλειά σου στη διαδρομή {{trackTitle}}",
+    "resetTrackModal.listItem5": "Θα διατηρήσεις όποια μετάλλια έχεις κερδίσει από τη δουλειά σου στη διαδρομή {{trackTitle}}",
     "resetTrackModal.confirmationLabel": "Για επιβεβαίωση, γράψε {{confirmation}} στο πεδίο παρακάτω:",
     "resetTrackModal.cancel": "Άκυρο",
     "resetTrackModal.resetTrack": "Μηδενισμός διαδρομής",
@@ -1914,14 +1914,14 @@
   },
   "components/modals/WelcomeToInsidersModal.tsx": {
     "welcomeToInsidersModal.title": "Καλώς όρισες στους Insiders! 💙",
-    "welcomeToInsidersModal.accessToFeatures": "Τώρα έχεις πρόσβαση στη σκοτεινή λειτουργία, στο Exercism AI, σε επιπλέον θέσεις για mentoring, καθώς και σε βίντεο από τα παρασκήνια, νέα σήματα και άλλα πολλά!",
+    "welcomeToInsidersModal.accessToFeatures": "Τώρα έχεις πρόσβαση στη σκοτεινή λειτουργία, στο Exercism AI, σε επιπλέον θέσεις για mentoring, καθώς και σε βίντεο από τα παρασκήνια, νέα μετάλλια και άλλα πολλά!",
     "welcomeToInsidersModal.thanksForBeingPartOfOurStory": "Ευχαριστούμε που είσαι μέρος της ιστορίας μας!",
     "welcomeToInsidersModal.exercismReliesOnPeople": "Το Exercism στηρίζεται σε ανθρώπους σαν εσένα που προσφέρουν τον χρόνο και τα χρήματά τους για να βοηθήσουν άλλους. Χωρίς εσένα δεν θα είχαμε βοηθήσει τόσους πολλούς ανθρώπους. Το ταξίδι μας μόλις ξεκινά και είμαστε πραγματικά χαρούμενοι που είσαι μαζί μας. Σε ευχαριστούμε πολύ που κάνεις το Exercism δυνατό 💙",
     "welcomeToInsidersModal.weHopeInsidersIsFun": "Ελπίζουμε οι Insiders να είναι μια διασκεδαστική εμπειρία. Σου προτείνουμε να δεις το βίντεο στα δεξιά για να πάρεις μια εικόνα του πώς άλλαξε ο λογαριασμός σου, αλλά και να ρίξεις μια ματιά στη σελίδα των Insiders πίσω από αυτό το παράθυρο για να δεις όλες τις λειτουργίες που ξεκλείδωσες.",
     "welcomeToInsidersModal.greatLetsGo": "Τέλεια. Πάμε!",
     "welcomeToInsidersModal.startWithOurWelcomeVideo": "Ξεκίνα με το βίντεο καλωσορίσματός μας 👇🏽",
     "welcomeToInsidersModal.whatShouldIDoNext": "Τι να κάνω μετά;",
-    "welcomeToInsidersModal.exploreDarkMode": "Εξερεύνησε τη σκοτεινή λειτουργία (την έχουμε ενεργοποιήσει από προεπιλογή). Δες τα νέα σου σήματα. Δοκίμασε το Exercism AI στον online editor. Χρησιμοποίησε μία από τις νέες θέσεις για mentoring. Έλα να πεις ένα γεια στο κανάλι #insiders στο Discord. Ή δες μερικά από τα βίντεο από τα παρασκήνια 🎉",
+    "welcomeToInsidersModal.exploreDarkMode": "Εξερεύνησε τη σκοτεινή λειτουργία (την έχουμε ενεργοποιήσει από προεπιλογή). Δες τα νέα σου μετάλλια. Δοκίμασε το Exercism AI στον online editor. Χρησιμοποίησε μία από τις νέες θέσεις για mentoring. Έλα να πεις ένα γεια στο κανάλι #insiders στο Discord. Ή δες μερικά από τα βίντεο από τα παρασκήνια 🎉",
     "welcomeToInsidersModal.videoTitle": "Καλώς όρισες στους Exercism Insiders!"
   },
   "components/notifications/": {
@@ -2268,8 +2268,8 @@
     "header.weveAnalysedYourSolutionAndHaveComments_other": "Αναλύσαμε τη λύση σου και έχουμε {{comments}}. Μπορείς είτε να συνεχίσεις είτε να ασχοληθείς πρώτα με τις {{count}} συστάσεις, όπως προτιμάς!",
     "header.weSuggestAddressingTheRecommendations_one": "Προτείνουμε να ασχοληθείς με τη σύσταση πριν συνεχίσεις.",
     "header.weSuggestAddressingTheRecommendations_other": "Προτείνουμε να ασχοληθείς με τις {{count}} συστάσεις πριν συνεχίσεις.",
-    "status.testsPassed": "Οι δοκιμές πέρασαν",
-    "status.testsFailed": "Οι δοκιμές απέτυχαν",
+    "status.testsPassed": "Τα τεστ πέρασαν",
+    "status.testsFailed": "Τα τεστ απέτυχαν",
     "comments.essentialImprovements_one": "{{count}} ουσιαστική βελτίωση",
     "comments.essentialImprovements_other": "{{count}} ουσιαστικές βελτιώσεις",
     "comments.recommendations_one": "{{count}} σύσταση",
@@ -2375,20 +2375,20 @@
     "mentoringSection.youHaventMentoredAnyone": "Δεν έχεις καθοδηγήσει ακόμα κανέναν",
     "mentoringSection.tryMentoring": "Δοκίμασε την καθοδήγηση",
     "mentoringSection.yourMentoring": "Η καθοδήγησή σου",
-    "badgesSection.aGlimpseOfBadges": "Μια ματιά στη συλλογή σου από σήματα",
-    "badgesSection.seeEntireBadgeCollection": "Δες ολόκληρη τη συλλογή σου από σήματα"
+    "badgesSection.aGlimpseOfBadges": "Μια ματιά στη συλλογή σου από μετάλλια",
+    "badgesSection.seeEntireBadgeCollection": "Δες ολόκληρη τη συλλογή σου από μετάλλια"
   },
   "components/journey/overview/badges-section": {
-    "badgeSummary.none": "Δεν έχεις κανένα σήμα.",
+    "badgeSummary.none": "Δεν έχεις κανένα μετάλλιο.",
     "badgeSummary.summary": "Έχεις {{list}}.",
-    "badgeSummary.rarity.legendary_one": "{{count}} θρυλικό σήμα",
-    "badgeSummary.rarity.legendary_other": "{{count}} θρυλικά σήματα",
-    "badgeSummary.rarity.ultimate_one": "{{count}} απόλυτο σήμα",
-    "badgeSummary.rarity.ultimate_other": "{{count}} απόλυτα σήματα",
-    "badgeSummary.rarity.rare_one": "{{count}} σπάνιο σήμα",
-    "badgeSummary.rarity.rare_other": "{{count}} σπάνια σήματα",
-    "badgeSummary.rarity.common_one": "{{count}} κοινό σήμα",
-    "badgeSummary.rarity.common_other": "{{count}} κοινά σήματα"
+    "badgeSummary.rarity.legendary_one": "{{count}} θρυλικό μετάλλιο",
+    "badgeSummary.rarity.legendary_other": "{{count}} θρυλικά μετάλλια",
+    "badgeSummary.rarity.ultimate_one": "{{count}} απόλυτο μετάλλιο",
+    "badgeSummary.rarity.ultimate_other": "{{count}} απόλυτα μετάλλια",
+    "badgeSummary.rarity.rare_one": "{{count}} σπάνιο μετάλλιο",
+    "badgeSummary.rarity.rare_other": "{{count}} σπάνια μετάλλια",
+    "badgeSummary.rarity.common_one": "{{count}} κοινό μετάλλιο",
+    "badgeSummary.rarity.common_other": "{{count}} κοινά μετάλλια"
   },
   "components/journey/overview/contributing-section": {
     "headerSummary.youHaveContributedMostTo": "Έχεις συνεισφέρει περισσότερο σε ",
