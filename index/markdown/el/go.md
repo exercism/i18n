@@ -917,8 +917,10 @@ This page is generated from [the index](../../json/el/go.json) by `scripts/build
 
 ### Error Wrapping (Περιτύλιξη σφαλμάτων)
 
-- `introduction.md` ([English](https://github.com/exercism/go/blob/main/concepts/error-wrapping/introduction.md)): [Latest](../../../locales/el/content/7c/0c/25e61dc8488aa02db221e4af749f35ba3d43.md)
-- `about.md` ([English](https://github.com/exercism/go/blob/main/concepts/error-wrapping/about.md)): [Latest](../../../locales/el/content/aa/17/4fe4c8694a89f3946468459696db3de46dba.md)
+- `introduction.md` ([English](https://github.com/exercism/go/blob/main/concepts/error-wrapping/introduction.md)): [Latest](../../../locales/el/content/44/49/1fefd08056465d9f6368e1ad21a350194b39.md)
+  - [`7c0c25e61d`](../../../locales/el/content/7c/0c/25e61dc8488aa02db221e4af749f35ba3d43.md)
+- `about.md` ([English](https://github.com/exercism/go/blob/main/concepts/error-wrapping/about.md)): [Latest](../../../locales/el/content/69/67/0235bb4e112728016eabefc39503cb78cf72.md)
+  - [`aa174fe4c8`](../../../locales/el/content/aa/17/4fe4c8694a89f3946468459696db3de46dba.md)
 
 ### Errors (Σφάλματα)
 
@@ -943,12 +945,15 @@ This page is generated from [the index](../../json/el/go.json) by `scripts/build
 ### Functions (Συναρτήσεις)
 
 - `introduction.md` ([English](https://github.com/exercism/go/blob/main/concepts/functions/introduction.md)): [Latest](../../../locales/el/content/cf/7e/44724388d83cc5bfd53244ae2293d25ad201.md)
-- `about.md` ([English](https://github.com/exercism/go/blob/main/concepts/functions/about.md)): [Latest](../../../locales/el/content/7a/9b/7664d83479c9c58a1b2864221522a727fc02.md)
+- `about.md` ([English](https://github.com/exercism/go/blob/main/concepts/functions/about.md)): [Latest](../../../locales/el/content/68/c5/db48629b799641d0056b56e990b952fa1627.md)
+  - [`7a9b7664d8`](../../../locales/el/content/7a/9b/7664d83479c9c58a1b2864221522a727fc02.md)
 
 ### Interfaces (Διεπαφές)
 
-- `introduction.md` ([English](https://github.com/exercism/go/blob/main/concepts/interfaces/introduction.md)): [Latest](../../../locales/el/content/a8/2d/9b80beda4ba38b9eccde36b66c265678b01d.md)
-- `about.md` ([English](https://github.com/exercism/go/blob/main/concepts/interfaces/about.md)): [Latest](../../../locales/el/content/80/bf/71988e874a243058101d98d42d489d46a455.md)
+- `introduction.md` ([English](https://github.com/exercism/go/blob/main/concepts/interfaces/introduction.md)): [Latest](../../../locales/el/content/53/b9/d1bce93ec81d0adbf57297abd3ae9a50696c.md)
+  - [`a82d9b80be`](../../../locales/el/content/a8/2d/9b80beda4ba38b9eccde36b66c265678b01d.md)
+- `about.md` ([English](https://github.com/exercism/go/blob/main/concepts/interfaces/about.md)): [Latest](../../../locales/el/content/9b/84/a9fcb5ed088a26379fd267bb656d096c69c5.md)
+  - [`80bf71988e`](../../../locales/el/content/80/bf/71988e874a243058101d98d42d489d46a455.md)
 
 ### Maps (Χάρτες)
 
@@ -1077,11 +1082,13 @@ This page is generated from [the index](../../json/el/go.json) by `scripts/build
 
 ### How to learn Go (Πώς να μάθεις Go)
 
-- `LEARNING.md` ([English](https://github.com/exercism/go/blob/main/docs/LEARNING.md)): [Latest](../../../locales/el/content/f7/c7/98f9fd52a4f2ebe93a246c83347583176d01.md)
+- `LEARNING.md` ([English](https://github.com/exercism/go/blob/main/docs/LEARNING.md)): [Latest](../../../locales/el/content/9f/c7/9200e732488ef78639d2fdb025f9df3350b9.md)
+  - [`f7c798f9fd`](../../../locales/el/content/f7/c7/98f9fd52a4f2ebe93a246c83347583176d01.md)
 
 ### Installing Go locally (Εγκατάσταση της Go τοπικά)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/go/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/el/content/cc/66/5ad03b384bab34f7453289255c59fcb4bb38.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/go/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/el/content/01/4b/eaf0bb29db110aba6212e71339d95f21a01d.md)
+  - [`cc665ad03b`](../../../locales/el/content/cc/66/5ad03b384bab34f7453289255c59fcb4bb38.md)
   - [`c9546bffcf`](../../../locales/el/content/c9/54/6bffcfcee1e487543c89e58325ade36d405f.md)
 
 ### Roadmap & Concept List (Οδικός χάρτης και λίστα εννοιών)
@@ -1090,7 +1097,8 @@ This page is generated from [the index](../../json/el/go.json) by `scripts/build
 
 ### Testing on the Go track (Δοκιμές στο track της Go)
 
-- `TESTS.md` ([English](https://github.com/exercism/go/blob/main/docs/TESTS.md)): [Latest](../../../locales/el/content/29/47/0eb866a82da60df65340995b7ad8e94019c5.md)
+- `TESTS.md` ([English](https://github.com/exercism/go/blob/main/docs/TESTS.md)): [Latest](../../../locales/el/content/c1/f4/39cc6be8e805e08293950adc7855e23c3a43.md)
+  - [`29470eb866`](../../../locales/el/content/29/47/0eb866a82da60df65340995b7ad8e94019c5.md)
 
 ### Useful Go resources (Χρήσιμοι πόροι για τη Go)
 
