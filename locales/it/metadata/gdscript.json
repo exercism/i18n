@@ -160,5 +160,8 @@
   "exercise:rational-numbers:source": "Wikipedia",
   "exercise:word-count:name": "Conteggio delle parole",
   "exercise:word-count:blurb": "Data una frase, conta le occorrenze di ogni parola che contiene.",
-  "exercise:word-count:source": "Questo è un classico problema giocattolo, ma ce lo siamo ricordati vedendolo nel Go Tour."
+  "exercise:word-count:source": "Questo è un classico problema giocattolo, ma ce lo siamo ricordati vedendolo nel Go Tour.",
+  "exercise:swift-scheduling:name": "Pianificazione Swift",
+  "exercise:swift-scheduling:blurb": "Converti le descrizioni delle date di consegna in date di consegna effettive.",
+  "exercise:swift-scheduling:source": "Erik Schierboom"
 }

@@ -160,5 +160,8 @@
   "exercise:rational-numbers:source": "Wikipedia",
   "exercise:word-count:name": "Szószámlálás",
   "exercise:word-count:blurb": "Adott egy kifejezés; számold meg benne az egyes szavak előfordulásait.",
-  "exercise:word-count:source": "Ez egy klasszikus gyakorlófeladat, de a Go Tourban látva újra eszünkbe jutott."
+  "exercise:word-count:source": "Ez egy klasszikus gyakorlófeladat, de a Go Tourban látva újra eszünkbe jutott.",
+  "exercise:swift-scheduling:name": "Gyors ütemezés",
+  "exercise:swift-scheduling:blurb": "Alakítsd át a szállítási dátum leírásait tényleges szállítási dátumokká.",
+  "exercise:swift-scheduling:source": "Erik Schierboom"
 }

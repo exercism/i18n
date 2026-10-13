@@ -160,5 +160,8 @@
   "exercise:rational-numbers:source": "Wikipedia",
   "exercise:word-count:name": "単語数",
   "exercise:word-count:blurb": "あるフレーズが与えられたとき、そのフレーズに含まれる各単語の出現回数を数えます。",
-  "exercise:word-count:source": "古典的な定番の問題ですが、Go Tourで見かけたことで思い出しました。"
+  "exercise:word-count:source": "古典的な定番の問題ですが、Go Tourで見かけたことで思い出しました。",
+  "exercise:swift-scheduling:name": "Swiftの配達スケジュール",
+  "exercise:swift-scheduling:blurb": "配達日の説明を実際の配達日に変換します。",
+  "exercise:swift-scheduling:source": "Erik Schierboom"
 }

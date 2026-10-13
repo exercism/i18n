@@ -218,6 +218,11 @@ This page is generated from [the index](../../json/uk/gdscript.json) by `scripts
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/sum-of-multiples/.docs/instructions.md)): [Latest](../../../locales/uk/content/d6/9f/890e9d6a7e8ef9fa58d43d76032f689b8ff0.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/sum-of-multiples/.docs/introduction.md)): [Latest](../../../locales/uk/content/69/ca/beed5abccbe7441644c24d20e0c23af51a79.md)
 
+### Swift Scheduling (Швидке планування)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/swift-scheduling/.docs/instructions.md)): [Latest](../../../locales/uk/content/64/23/a1066b7347cdd50a8f63f70b9293acdc1fa7.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/swift-scheduling/.docs/introduction.md)): [Latest](../../../locales/uk/content/23/22/f813fff1b2d03718b7f2764eed21f7b2d627.md)
+
 ### Triangle (Трикутник)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/uk/content/e9/b0/53dcd344e85179041c10dcd48406d735b2f9.md)

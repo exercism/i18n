@@ -160,5 +160,8 @@
   "exercise:rational-numbers:source": "Wikipedia",
   "exercise:word-count:name": "单词计数",
   "exercise:word-count:blurb": "给定一个短语，统计其中每个单词出现的次数。",
-  "exercise:word-count:source": "这是一个经典的玩具问题，不过我们是在 Go Tour 中看到它后才想起来的。"
+  "exercise:word-count:source": "这是一个经典的玩具问题，不过我们是在 Go Tour 中看到它后才想起来的。",
+  "exercise:swift-scheduling:name": "Swift 调度",
+  "exercise:swift-scheduling:blurb": "把配送日期描述转换为实际的配送日期。",
+  "exercise:swift-scheduling:source": "Erik Schierboom"
 }

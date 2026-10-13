@@ -160,5 +160,8 @@
   "exercise:rational-numbers:source": "Wikipedia",
   "exercise:word-count:name": "Підрахунок слів",
   "exercise:word-count:blurb": "Маючи фразу, підрахуйте, скільки разів у ній трапляється кожне слово.",
-  "exercise:word-count:source": "Це класична навчальна задача, але ми згадали про неї, побачивши її в Go Tour."
+  "exercise:word-count:source": "Це класична навчальна задача, але ми згадали про неї, побачивши її в Go Tour.",
+  "exercise:swift-scheduling:name": "Швидке планування",
+  "exercise:swift-scheduling:blurb": "Перетворіть описи дат доставки на конкретні дати доставки.",
+  "exercise:swift-scheduling:source": "Erik Schierboom"
 }

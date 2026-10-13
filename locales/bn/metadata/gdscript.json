@@ -160,5 +160,8 @@
   "exercise:rational-numbers:source": "Wikipedia",
   "exercise:word-count:name": "শব্দ গণনা",
   "exercise:word-count:blurb": "একটি বাক্যাংশ দেওয়া হলে, সেই বাক্যাংশে প্রতিটি শব্দ কতবার এসেছে তা গণনা করুন।",
-  "exercise:word-count:source": "এটি একটি ক্লাসিক সহজ সমস্যা, তবে Go Tour-তে এটি দেখে আমাদের মনে পড়ে যায়।"
+  "exercise:word-count:source": "এটি একটি ক্লাসিক সহজ সমস্যা, তবে Go Tour-তে এটি দেখে আমাদের মনে পড়ে যায়।",
+  "exercise:swift-scheduling:name": "দ্রুত সময়সূচি",
+  "exercise:swift-scheduling:blurb": "ডেলিভারির তারিখের বর্ণনাকে প্রকৃত ডেলিভারির তারিখে রূপান্তর করুন।",
+  "exercise:swift-scheduling:source": "Erik Schierboom"
 }

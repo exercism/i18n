@@ -160,5 +160,8 @@
   "exercise:rational-numbers:source": "Wikipedia",
   "exercise:word-count:name": "Contagem de palavras",
   "exercise:word-count:blurb": "Dada uma frase, conte as ocorrências de cada palavra nessa frase.",
-  "exercise:word-count:source": "Este é um problema clássico de treino, mas nos lembramos dele ao vê-lo no Tour of Go."
+  "exercise:word-count:source": "Este é um problema clássico de treino, mas nos lembramos dele ao vê-lo no Tour of Go.",
+  "exercise:swift-scheduling:name": "Agendamento Swift",
+  "exercise:swift-scheduling:blurb": "Converta descrições de datas de entrega em datas de entrega reais.",
+  "exercise:swift-scheduling:source": "Erik Schierboom"
 }

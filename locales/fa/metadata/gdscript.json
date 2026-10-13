@@ -160,5 +160,8 @@
   "exercise:rational-numbers:source": "Wikipedia",
   "exercise:word-count:name": "شمارش کلمات",
   "exercise:word-count:blurb": "با داشتن یک عبارت، تعداد تکرار هر کلمه در آن عبارت را بشمارید.",
-  "exercise:word-count:source": "این یک مسئله‌ی تمرینی کلاسیک است، اما دیدن آن در Go Tour آن را به یادمان آورد."
+  "exercise:word-count:source": "این یک مسئله‌ی تمرینی کلاسیک است، اما دیدن آن در Go Tour آن را به یادمان آورد.",
+  "exercise:swift-scheduling:name": "زمان‌بندی سریع",
+  "exercise:swift-scheduling:blurb": "توصیف‌های تاریخ تحویل را به تاریخ‌های واقعی تحویل تبدیل کنید.",
+  "exercise:swift-scheduling:source": "Erik Schierboom"
 }

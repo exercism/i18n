@@ -160,5 +160,8 @@
   "exercise:rational-numbers:source": "Wikipedia",
   "exercise:word-count:name": "Comptage de mots",
   "exercise:word-count:blurb": "Étant donné une phrase, compte les occurrences de chaque mot de cette phrase.",
-  "exercise:word-count:source": "C'est un problème jouet classique, mais on s'en est souvenu en le voyant dans le Go Tour."
+  "exercise:word-count:source": "C'est un problème jouet classique, mais on s'en est souvenu en le voyant dans le Go Tour.",
+  "exercise:swift-scheduling:name": "Planification express",
+  "exercise:swift-scheduling:blurb": "Convertis des descriptions de dates de livraison en dates de livraison réelles.",
+  "exercise:swift-scheduling:source": "Erik Schierboom"
 }

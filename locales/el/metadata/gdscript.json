@@ -160,5 +160,8 @@
   "exercise:rational-numbers:source": "Wikipedia",
   "exercise:word-count:name": "Μέτρηση λέξεων",
   "exercise:word-count:blurb": "Με δεδομένη μια φράση, μέτρησε τις εμφανίσεις κάθε λέξης σε αυτή τη φράση.",
-  "exercise:word-count:source": "Αυτό είναι ένα κλασικό προβληματάκι, αλλά μας το θύμισε το Go Tour."
+  "exercise:word-count:source": "Αυτό είναι ένα κλασικό προβληματάκι, αλλά μας το θύμισε το Go Tour.",
+  "exercise:swift-scheduling:name": "Swift Scheduling",
+  "exercise:swift-scheduling:blurb": "Μετέτρεψε περιγραφές ημερομηνίας παράδοσης σε πραγματικές ημερομηνίες παράδοσης.",
+  "exercise:swift-scheduling:source": "Erik Schierboom"
 }
