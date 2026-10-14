@@ -160,5 +160,8 @@
   "exercise:series:source": "Ένα υποσύνολο του Προβλήματος 8 στο Project Euler",
   "exercise:kindergarten-garden:name": "Κήπος Νηπιαγωγείου",
   "exercise:kindergarten-garden:blurb": "Δεδομένου ενός διαγράμματος, προσδιόρισε για ποια φυτά είναι υπεύθυνο κάθε παιδί στην τάξη του νηπιαγωγείου.",
-  "exercise:kindergarten-garden:source": "Άσκηση από την ομάδα JumpstartLab για τους σπουδαστές του The Turing School of Software and Design."
+  "exercise:kindergarten-garden:source": "Άσκηση από την ομάδα JumpstartLab για τους σπουδαστές του The Turing School of Software and Design.",
+  "exercise:square-root:name": "Τετραγωνική ρίζα",
+  "exercise:square-root:blurb": "Με δεδομένη μια φυσική υπόρριζη ποσότητα, επέστρεψε την τετραγωνική της ρίζα.",
+  "exercise:square-root:source": "wolf99"
 }

@@ -160,5 +160,8 @@
   "exercise:series:source": "مجموعة فرعية من المسألة 8 في Project Euler",
   "exercise:kindergarten-garden:name": "حديقة الروضة",
   "exercise:kindergarten-garden:blurb": "بمعلومية مخطط، حدّد النباتات التي يكون كل طفل في صف الروضة مسؤولًا عنها.",
-  "exercise:kindergarten-garden:source": "تمرين من فريق JumpstartLab لطلاب The Turing School of Software and Design."
+  "exercise:kindergarten-garden:source": "تمرين من فريق JumpstartLab لطلاب The Turing School of Software and Design.",
+  "exercise:square-root:name": "الجذر التربيعي",
+  "exercise:square-root:blurb": "بمعلومية عدد طبيعي تحت الجذر، أرجِع جذره التربيعي.",
+  "exercise:square-root:source": "wolf99"
 }

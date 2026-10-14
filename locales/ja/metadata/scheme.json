@@ -160,5 +160,8 @@
   "exercise:series:source": "Project EulerのProblem 8の一部",
   "exercise:kindergarten-garden:name": "幼稚園の庭",
   "exercise:kindergarten-garden:blurb": "図が与えられたとき、幼稚園のクラスのそれぞれの子どもがどの植物を担当するのかを判定します。",
-  "exercise:kindergarten-garden:source": "JumpstartLabチームによる、The Turing School of Software and Designの学生向けの演習"
+  "exercise:kindergarten-garden:source": "JumpstartLabチームによる、The Turing School of Software and Designの学生向けの演習",
+  "exercise:square-root:name": "平方根",
+  "exercise:square-root:blurb": "自然数の被開方数が与えられたとき、その平方根を返します。",
+  "exercise:square-root:source": "wolf99"
 }

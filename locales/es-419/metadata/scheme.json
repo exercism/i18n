@@ -160,5 +160,8 @@
   "exercise:series:source": "Un subconjunto del Problema 8 de Project Euler",
   "exercise:kindergarten-garden:name": "Jardín de infantes",
   "exercise:kindergarten-garden:blurb": "Dado un diagrama, determina de qué plantas es responsable cada niño de la clase de jardín de infantes.",
-  "exercise:kindergarten-garden:source": "Ejercicio del equipo de JumpstartLab para estudiantes de The Turing School of Software and Design."
+  "exercise:kindergarten-garden:source": "Ejercicio del equipo de JumpstartLab para estudiantes de The Turing School of Software and Design.",
+  "exercise:square-root:name": "Raíz cuadrada",
+  "exercise:square-root:blurb": "Dado un radicando natural, devuelve su raíz cuadrada.",
+  "exercise:square-root:source": "wolf99"
 }

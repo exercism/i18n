@@ -160,5 +160,8 @@
   "exercise:series:source": "Project Euler पर Problem 8 का एक उपसमूह",
   "exercise:kindergarten-garden:name": "किंडरगार्टन बगीचा",
   "exercise:kindergarten-garden:blurb": "एक आरेख दिया गया हो, तो पता कीजिए कि किंडरगार्टन कक्षा का हर बच्चा किन पौधों के लिए ज़िम्मेदार है।",
-  "exercise:kindergarten-garden:source": "JumpstartLab टीम द्वारा The Turing School of Software and Design के छात्रों के लिए बनाया गया अभ्यास।"
+  "exercise:kindergarten-garden:source": "JumpstartLab टीम द्वारा The Turing School of Software and Design के छात्रों के लिए बनाया गया अभ्यास।",
+  "exercise:square-root:name": "वर्गमूल",
+  "exercise:square-root:blurb": "प्राकृतिक रैडिकैंड का वर्गमूल लौटाइए।",
+  "exercise:square-root:source": "wolf99"
 }

@@ -160,5 +160,8 @@
   "exercise:series:source": "Project Euler-এর Problem 8-এর একটি উপসেট।",
   "exercise:kindergarten-garden:name": "কিংডারগার্টেন বাগান",
   "exercise:kindergarten-garden:blurb": "একটি ডায়াগ্রাম দেওয়া থাকলে, কিংডারগার্টেন ক্লাসের প্রতিটি শিশু কোন কোন গাছের দায়িত্বে আছে তা নির্ধারণ করুন।",
-  "exercise:kindergarten-garden:source": "The Turing School of Software and Design-এর শিক্ষার্থীদের জন্য JumpstartLab দলের তৈরি অনুশীলনী।"
+  "exercise:kindergarten-garden:source": "The Turing School of Software and Design-এর শিক্ষার্থীদের জন্য JumpstartLab দলের তৈরি অনুশীলনী।",
+  "exercise:square-root:name": "বর্গমূল",
+  "exercise:square-root:blurb": "একটি স্বাভাবিক র্যাডিক্যান্ড দেওয়া থাকলে তার বর্গমূল রিটার্ন করুন।",
+  "exercise:square-root:source": "wolf99"
 }

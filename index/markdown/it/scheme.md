@@ -212,6 +212,11 @@ This page is generated from [the index](../../json/it/scheme.json) by `scripts/b
   - [`085c0a57d9`](../../../locales/it/content/08/5c/0a57d96c7cd846a7948241899ce46778f01d.md)
 - `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/sieve/.docs/introduction.md)): [Latest](../../../locales/it/content/f6/c1/cf79a9d4ccf67f1ed34dabb8ab0a58030358.md)
 
+### Square Root (Radice quadrata)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/square-root/.docs/instructions.md)): [Latest](../../../locales/it/content/d2/58/b86876e35a1553677ed6a7cb068f27cf1aba.md)
+- `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/square-root/.docs/introduction.md)): [Latest](../../../locales/it/content/1d/69/2934f280a866528bcb54cd3044d7e8a5eeeb.md)
+
 ### Strain
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/strain/.docs/instructions.md)): [Latest](../../../locales/it/content/34/69/ae6579d482e30ce3deac8cf0baf2a6a83cb2.md)
