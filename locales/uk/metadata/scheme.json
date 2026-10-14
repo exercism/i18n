@@ -163,5 +163,8 @@
   "exercise:kindergarten-garden:source": "Вправа від команди JumpstartLab для студентів The Turing School of Software and Design.",
   "exercise:square-root:name": "Квадратний корінь",
   "exercise:square-root:blurb": "Дано натуральне підкореневе число, поверніть його квадратний корінь.",
-  "exercise:square-root:source": "wolf99"
+  "exercise:square-root:source": "wolf99",
+  "exercise:line-up:name": "Шикування",
+  "exercise:line-up:blurb": "Допоможіть вишикувати покупців у делі Якуба.",
+  "exercise:line-up:source": "mk-mxp, на основі попередньої роботи учасників Exercism codedge та neenjaw"
 }

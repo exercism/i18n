@@ -163,5 +163,8 @@
   "exercise:kindergarten-garden:source": "تمرين من فريق JumpstartLab لطلاب The Turing School of Software and Design.",
   "exercise:square-root:name": "الجذر التربيعي",
   "exercise:square-root:blurb": "بمعلومية عدد طبيعي تحت الجذر، أرجِع جذره التربيعي.",
-  "exercise:square-root:source": "wolf99"
+  "exercise:square-root:source": "wolf99",
+  "exercise:line-up:name": "الاصطفاف",
+  "exercise:line-up:blurb": "ساعد في اصطفاف العملاء في Yaʻqūb's Deli.",
+  "exercise:line-up:source": "mk-mxp، بناءً على عمل سابق من مساهمي Exercism وهما codedge و neenjaw"
 }

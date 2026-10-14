@@ -163,5 +163,8 @@
   "exercise:kindergarten-garden:source": "JumpstartLab 팀이 The Turing School of Software and Design 학생들을 위해 만든 연습 문제예요.",
   "exercise:square-root:name": "제곱근",
   "exercise:square-root:blurb": "자연수 피제곱근이 주어지면, 그 제곱근을 반환해요.",
-  "exercise:square-root:source": "wolf99"
+  "exercise:square-root:source": "wolf99",
+  "exercise:line-up:name": "줄 세우기",
+  "exercise:line-up:blurb": "Yaʻqūb의 델리 가게에서 손님들을 줄 세우는 걸 도와줘요.",
+  "exercise:line-up:source": "mk-mxp, Exercism 기여자 codedge와 neenjaw의 이전 작업을 바탕으로 함"
 }

@@ -163,5 +163,8 @@
   "exercise:kindergarten-garden:source": "تمرینی از تیم JumpstartLab برای دانشجویان The Turing School of Software and Design.",
   "exercise:square-root:name": "جذر",
   "exercise:square-root:blurb": "اگر عددی طبیعی زیر رادیکال داده شود، جذر آن را برگردانید.",
-  "exercise:square-root:source": "wolf99"
+  "exercise:square-root:source": "wolf99",
+  "exercise:line-up:name": "صف‌بندی",
+  "exercise:line-up:blurb": "به صف کردن مشتری‌ها در Yaʻqūb's Deli کمک کنید.",
+  "exercise:line-up:source": "mk-mxp، بر پایه‌ی کار پیشین مشارکت‌کنندگان Exercism، codedge و neenjaw"
 }

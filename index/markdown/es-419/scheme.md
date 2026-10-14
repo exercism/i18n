@@ -112,6 +112,11 @@ This page is generated from [the index](../../json/es-419/scheme.json) by `scrip
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/leap/.docs/instructions.md)): [Latest](../../../locales/es-419/content/b1/4f/8565d61694d7c20d78e10f966bd3deaaf748.md)
 - `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/leap/.docs/introduction.md)): [Latest](../../../locales/es-419/content/4f/fd/2da594a51072cb08a32004b217c1c988cfdc.md)
 
+### Line Up (Formar fila)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/line-up/.docs/instructions.md)): [Latest](../../../locales/es-419/content/9e/68/6ecbffbfb01ac8a9b94dbbf187bd640b0335.md)
+- `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/line-up/.docs/introduction.md)): [Latest](../../../locales/es-419/content/ea/07/268ae3b85226427933970f198e62717aea5d.md)
+
 ### List Ops (Operaciones con arrays)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/list-ops/.docs/instructions.md)): [Latest](../../../locales/es-419/content/eb/c5/dffed02ecca9b62a12fd9c7327b58dd49bba.md)

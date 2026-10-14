@@ -163,5 +163,8 @@
   "exercise:kindergarten-garden:source": "JumpstartLabチームによる、The Turing School of Software and Designの学生向けの演習",
   "exercise:square-root:name": "平方根",
   "exercise:square-root:blurb": "自然数の被開方数が与えられたとき、その平方根を返します。",
-  "exercise:square-root:source": "wolf99"
+  "exercise:square-root:source": "wolf99",
+  "exercise:line-up:name": "整列",
+  "exercise:line-up:blurb": "Yaʻqūb's Deliでお客さんを並べるのを手伝います。",
+  "exercise:line-up:source": "mk-mxpが、Exercismのコントリビューターであるcodedgeとneenjawの以前の取り組みをもとに作成しました。"
 }

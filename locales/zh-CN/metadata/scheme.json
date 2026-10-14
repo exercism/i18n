@@ -163,5 +163,8 @@
   "exercise:kindergarten-garden:source": "由 JumpstartLab 团队为 The Turing School of Software and Design 的学生编写的练习。",
   "exercise:square-root:name": "平方根",
   "exercise:square-root:blurb": "给定一个自然数作为被开方数，返回它的平方根。",
-  "exercise:square-root:source": "wolf99"
+  "exercise:square-root:source": "wolf99",
+  "exercise:line-up:name": "排队",
+  "exercise:line-up:blurb": "帮忙让顾客在 Yaʻqūb's Deli 排队。",
+  "exercise:line-up:source": "mk-mxp，基于 Exercism 贡献者 codedge 和 neenjaw 之前的作品"
 }

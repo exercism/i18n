@@ -163,5 +163,8 @@
   "exercise:kindergarten-garden:source": "Άσκηση από την ομάδα JumpstartLab για τους σπουδαστές του The Turing School of Software and Design.",
   "exercise:square-root:name": "Τετραγωνική ρίζα",
   "exercise:square-root:blurb": "Με δεδομένη μια φυσική υπόρριζη ποσότητα, επέστρεψε την τετραγωνική της ρίζα.",
-  "exercise:square-root:source": "wolf99"
+  "exercise:square-root:source": "wolf99",
+  "exercise:line-up:name": "Στην ουρά",
+  "exercise:line-up:blurb": "Βοήθησε τους πελάτες να σχηματίσουν ουρά στο ντελικατέσεν του Yaʻqūb.",
+  "exercise:line-up:source": "mk-mxp, βασισμένο σε προηγούμενη δουλειά των συντελεστών του Exercism codedge και neenjaw"
 }

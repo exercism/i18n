@@ -163,5 +163,8 @@
   "exercise:kindergarten-garden:source": "Feladat a JumpstartLab csapatától a The Turing School of Software and Design tanulóinak.",
   "exercise:square-root:name": "Négyzetgyök",
   "exercise:square-root:blurb": "Adott egy természetes szám a gyökjel alatt, add vissza a négyzetgyökét.",
-  "exercise:square-root:source": "wolf99"
+  "exercise:square-root:source": "wolf99",
+  "exercise:line-up:name": "Sorakozó",
+  "exercise:line-up:blurb": "Segíts sorba állítani a vásárlókat Yaʻqūb delijében.",
+  "exercise:line-up:source": "mk-mxp, codedge és neenjaw Exercism-közreműködők korábbi munkája alapján"
 }

@@ -163,5 +163,8 @@
   "exercise:kindergarten-garden:source": "Esercizio del team di JumpstartLab per gli studenti della Turing School of Software and Design.",
   "exercise:square-root:name": "Radice quadrata",
   "exercise:square-root:blurb": "Dato un radicando naturale, restituisci la sua radice quadrata.",
-  "exercise:square-root:source": "wolf99"
+  "exercise:square-root:source": "wolf99",
+  "exercise:line-up:name": "In fila",
+  "exercise:line-up:blurb": "Aiuta a mettere in fila i clienti al Deli di Yaʻqūb.",
+  "exercise:line-up:source": "mk-mxp, basato su un lavoro precedente dei collaboratori di Exercism codedge e neenjaw"
 }

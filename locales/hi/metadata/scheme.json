@@ -163,5 +163,8 @@
   "exercise:kindergarten-garden:source": "JumpstartLab टीम द्वारा The Turing School of Software and Design के छात्रों के लिए बनाया गया अभ्यास।",
   "exercise:square-root:name": "वर्गमूल",
   "exercise:square-root:blurb": "प्राकृतिक रैडिकैंड का वर्गमूल लौटाइए।",
-  "exercise:square-root:source": "wolf99"
+  "exercise:square-root:source": "wolf99",
+  "exercise:line-up:name": "कतार में लगाइए",
+  "exercise:line-up:blurb": "Yaʻqūb की दुकान में ग्राहकों को कतार में लगाने में मदद कीजिए।",
+  "exercise:line-up:source": "mk-mxp, Exercism के योगदानकर्ताओं codedge और neenjaw के पिछले काम पर आधारित"
 }

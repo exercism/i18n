@@ -163,5 +163,8 @@
   "exercise:kindergarten-garden:source": "Übung des JumpstartLab-Teams für Studierende der Turing School of Software and Design.",
   "exercise:square-root:name": "Quadratwurzel",
   "exercise:square-root:blurb": "Gib für einen natürlichen Radikanden seine Quadratwurzel zurück.",
-  "exercise:square-root:source": "wolf99"
+  "exercise:square-root:source": "wolf99",
+  "exercise:line-up:name": "Anstellen",
+  "exercise:line-up:blurb": "Hilf mit, die Kunden bei Yaʻqūb's Deli anzustellen.",
+  "exercise:line-up:source": "mk-mxp, basierend auf früherer Arbeit der Exercism-Mitwirkenden codedge und neenjaw"
 }
