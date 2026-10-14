@@ -166,5 +166,8 @@
   "exercise:square-root:source": "wolf99",
   "exercise:line-up:name": "صف‌بندی",
   "exercise:line-up:blurb": "به صف کردن مشتری‌ها در Yaʻqūb's Deli کمک کنید.",
-  "exercise:line-up:source": "mk-mxp، بر پایه‌ی کار پیشین مشارکت‌کنندگان Exercism، codedge و neenjaw"
+  "exercise:line-up:source": "mk-mxp، بر پایه‌ی کار پیشین مشارکت‌کنندگان Exercism، codedge و neenjaw",
+  "exercise:yacht:name": "Yacht",
+  "exercise:yacht:blurb": "یک پرتاب تاس در بازی Yacht را امتیازدهی کنید.",
+  "exercise:yacht:source": "James Kilfiger، با استفاده از Wikipedia"
 }

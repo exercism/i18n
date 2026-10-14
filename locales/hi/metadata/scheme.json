@@ -166,5 +166,8 @@
   "exercise:square-root:source": "wolf99",
   "exercise:line-up:name": "कतार में लगाइए",
   "exercise:line-up:blurb": "Yaʻqūb की दुकान में ग्राहकों को कतार में लगाने में मदद कीजिए।",
-  "exercise:line-up:source": "mk-mxp, Exercism के योगदानकर्ताओं codedge और neenjaw के पिछले काम पर आधारित"
+  "exercise:line-up:source": "mk-mxp, Exercism के योगदानकर्ताओं codedge और neenjaw के पिछले काम पर आधारित",
+  "exercise:yacht:name": "Yacht",
+  "exercise:yacht:blurb": "Yacht गेम में पासों के एक थ्रो का स्कोर निकालिए।",
+  "exercise:yacht:source": "James Kilfiger, विकिपीडिया का उपयोग करके।"
 }

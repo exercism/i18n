@@ -166,5 +166,8 @@
   "exercise:square-root:source": "wolf99",
   "exercise:line-up:name": "Sorakozó",
   "exercise:line-up:blurb": "Segíts sorba állítani a vásárlókat Yaʻqūb delijében.",
-  "exercise:line-up:source": "mk-mxp, codedge és neenjaw Exercism-közreműködők korábbi munkája alapján"
+  "exercise:line-up:source": "mk-mxp, codedge és neenjaw Exercism-közreműködők korábbi munkája alapján",
+  "exercise:yacht:name": "Jacht",
+  "exercise:yacht:blurb": "Számítsd ki a Yacht játékban egyetlen kockadobás pontszámát.",
+  "exercise:yacht:source": "James Kilfiger, a Wikipédiát használva"
 }

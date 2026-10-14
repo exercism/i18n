@@ -166,5 +166,8 @@
   "exercise:square-root:source": "wolf99",
   "exercise:line-up:name": "排队",
   "exercise:line-up:blurb": "帮忙让顾客在 Yaʻqūb's Deli 排队。",
-  "exercise:line-up:source": "mk-mxp，基于 Exercism 贡献者 codedge 和 neenjaw 之前的作品"
+  "exercise:line-up:source": "mk-mxp，基于 Exercism 贡献者 codedge 和 neenjaw 之前的作品",
+  "exercise:yacht:name": "快艇",
+  "exercise:yacht:blurb": "为快艇游戏中的一次掷骰计算得分。",
+  "exercise:yacht:source": "James Kilfiger，资料来自 Wikipedia"
 }

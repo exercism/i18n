@@ -166,5 +166,8 @@
   "exercise:square-root:source": "wolf99",
   "exercise:line-up:name": "Шикування",
   "exercise:line-up:blurb": "Допоможіть вишикувати покупців у делі Якуба.",
-  "exercise:line-up:source": "mk-mxp, на основі попередньої роботи учасників Exercism codedge та neenjaw"
+  "exercise:line-up:source": "mk-mxp, на основі попередньої роботи учасників Exercism codedge та neenjaw",
+  "exercise:yacht:name": "Яхта",
+  "exercise:yacht:blurb": "Підрахуйте очки за один кидок кубиків у грі «Яхта».",
+  "exercise:yacht:source": "James Kilfiger, за матеріалами Wikipedia"
 }

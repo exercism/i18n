@@ -166,5 +166,8 @@
   "exercise:square-root:source": "wolf99",
   "exercise:line-up:name": "排隊",
   "exercise:line-up:blurb": "協助 Yaʻqūb 熟食店的顧客排隊。",
-  "exercise:line-up:source": "mk-mxp，改編自 Exercism 貢獻者 codedge 與 neenjaw 先前的作品"
+  "exercise:line-up:source": "mk-mxp，改編自 Exercism 貢獻者 codedge 與 neenjaw 先前的作品",
+  "exercise:yacht:name": "快艇骰子",
+  "exercise:yacht:blurb": "為快艇骰子遊戲中的單次擲骰計分。",
+  "exercise:yacht:source": "James Kilfiger，參考 Wikipedia"
 }

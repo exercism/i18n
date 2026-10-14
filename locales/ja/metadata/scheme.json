@@ -166,5 +166,8 @@
   "exercise:square-root:source": "wolf99",
   "exercise:line-up:name": "整列",
   "exercise:line-up:blurb": "Yaʻqūb's Deliでお客さんを並べるのを手伝います。",
-  "exercise:line-up:source": "mk-mxpが、Exercismのコントリビューターであるcodedgeとneenjawの以前の取り組みをもとに作成しました。"
+  "exercise:line-up:source": "mk-mxpが、Exercismのコントリビューターであるcodedgeとneenjawの以前の取り組みをもとに作成しました。",
+  "exercise:yacht:name": "ヨット",
+  "exercise:yacht:blurb": "ゲーム『ヨット』でサイコロを1回振った結果を採点します。",
+  "exercise:yacht:source": "James Kilfiger（Wikipediaより）"
 }

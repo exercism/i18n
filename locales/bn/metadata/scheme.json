@@ -166,5 +166,8 @@
   "exercise:square-root:source": "wolf99",
   "exercise:line-up:name": "লাইন আপ",
   "exercise:line-up:blurb": "Yaʻqūb's Deli-তে ক্রেতাদের লাইনে দাঁড় করাতে সাহায্য করুন।",
-  "exercise:line-up:source": "mk-mxp, Exercism কনট্রিবিউটর codedge ও neenjaw-এর পূর্ববর্তী কাজের ভিত্তিতে"
+  "exercise:line-up:source": "mk-mxp, Exercism কনট্রিবিউটর codedge ও neenjaw-এর পূর্ববর্তী কাজের ভিত্তিতে",
+  "exercise:yacht:name": "ইয়ট",
+  "exercise:yacht:blurb": "ইয়ট গেমে পাশার একবার ছোড়ার স্কোর হিসাব করুন।",
+  "exercise:yacht:source": "James Kilfiger, Wikipedia ব্যবহার করে"
 }

@@ -166,5 +166,8 @@
   "exercise:square-root:source": "wolf99",
   "exercise:line-up:name": "Formar fila",
   "exercise:line-up:blurb": "Ayuda a poner en fila a los clientes en Yaʻqūb's Deli.",
-  "exercise:line-up:source": "mk-mxp, basado en el trabajo previo de los colaboradores de Exercism codedge y neenjaw"
+  "exercise:line-up:source": "mk-mxp, basado en el trabajo previo de los colaboradores de Exercism codedge y neenjaw",
+  "exercise:yacht:name": "Yacht",
+  "exercise:yacht:blurb": "Puntúa una sola tirada de dados en el juego Yacht.",
+  "exercise:yacht:source": "James Kilfiger, usando Wikipedia"
 }

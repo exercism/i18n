@@ -55,7 +55,8 @@
     "exercises/practice/triangle": {"en":"Triangle","ko":"삼각형"},
     "exercises/practice/trinary": {"en":"Trinary","ko":"삼진법"},
     "exercises/practice/two-fer": {"en":"Two Fer","ko":"Two Fer"},
-    "exercises/practice/word-count": {"en":"Word Count","ko":"단어 세기"}
+    "exercises/practice/word-count": {"en":"Word Count","ko":"단어 세기"},
+    "exercises/practice/yacht": {"en":"Yacht","ko":"Yacht"}
   },
   "paths": {
     "docs/ABOUT.md": ["d1aa51def39e63dd7f98e42b98342255cb52ac8f"],
@@ -151,6 +152,9 @@
     "exercises/practice/two-fer/.docs/introduction.md": ["5947a2230bd8a36f4e653ca80f726386df06ccee"],
     "exercises/practice/word-count/.docs/instructions.md": ["064393c8a0f68810d215d0bec650f9cab19953b5"],
     "exercises/practice/word-count/.docs/introduction.md": ["1654508e79dc91420825d8a1a9818089e4167f70"],
+    "exercises/practice/yacht/.docs/instructions.append.md": ["ad3d244ed049b1093a194053adc6007a72695aa1"],
+    "exercises/practice/yacht/.docs/instructions.md": ["519b7a68b876e58fc845cccc10ae1d28519db33a"],
+    "exercises/practice/yacht/.docs/introduction.md": ["5b541f5625ce0d5916f9545a824de17a55d433f1"],
     "exercises/shared/.docs/help.md": ["6200e2960701107e903f056aa77673fe9695cb27"],
     "exercises/shared/.docs/tests.md": ["7d86ee99f8bc43b9ba373999607efd84a343b171","50d5d042ae7f81f8cec3bb6c6485e362d0797fc1"]
   },
