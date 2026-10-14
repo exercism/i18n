@@ -157,5 +157,8 @@
   "exercise:run-length-encoding:source": "Wikipedia",
   "exercise:series:name": "Послідовність",
   "exercise:series:blurb": "Дано рядок тексту (англ. string) з цифр, виведіть усі суміжні підрядки довжиною `n` у ньому.",
-  "exercise:series:source": "Підмножина задачі 8 з Project Euler"
+  "exercise:series:source": "Підмножина задачі 8 з Project Euler",
+  "exercise:kindergarten-garden:name": "Город у дитячому садку",
+  "exercise:kindergarten-garden:blurb": "За поданою схемою визначте, за які рослини відповідає кожна дитина в групі дитячого садка.",
+  "exercise:kindergarten-garden:source": "Вправа від команди JumpstartLab для студентів The Turing School of Software and Design."
 }

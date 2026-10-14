@@ -157,5 +157,8 @@
   "exercise:run-length-encoding:source": "ويكيبيديا",
   "exercise:series:name": "المتسلسلة",
   "exercise:series:blurb": "بمعلومية سلسلة نصية من الأرقام، أخرج جميع السلاسل النصية الفرعية المتلاصقة ذات الطول `n` في تلك السلسلة النصية.",
-  "exercise:series:source": "مجموعة فرعية من المسألة 8 في Project Euler"
+  "exercise:series:source": "مجموعة فرعية من المسألة 8 في Project Euler",
+  "exercise:kindergarten-garden:name": "حديقة الروضة",
+  "exercise:kindergarten-garden:blurb": "بمعلومية مخطط، حدّد النباتات التي يكون كل طفل في صف الروضة مسؤولًا عنها.",
+  "exercise:kindergarten-garden:source": "تمرين من فريق JumpstartLab لطلاب The Turing School of Software and Design."
 }

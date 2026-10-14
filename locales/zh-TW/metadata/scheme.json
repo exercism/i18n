@@ -157,5 +157,8 @@
   "exercise:run-length-encoding:source": "Wikipedia",
   "exercise:series:name": "序列",
   "exercise:series:blurb": "給定一串數字，輸出該字串中所有長度為`n`的連續子字串。",
-  "exercise:series:source": "Project Euler 第 8 題的子集。"
+  "exercise:series:source": "Project Euler 第 8 題的子集。",
+  "exercise:kindergarten-garden:name": "幼兒園花園",
+  "exercise:kindergarten-garden:blurb": "根據一張圖，判斷幼兒園班上的每個小朋友負責照顧哪些植物。",
+  "exercise:kindergarten-garden:source": "由 JumpstartLab 團隊為 The Turing School of Software and Design 的學生所設計的練習。"
 }

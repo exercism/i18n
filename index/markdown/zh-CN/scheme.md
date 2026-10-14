@@ -90,6 +90,11 @@ This page is generated from [the index](../../json/zh-CN/scheme.json) by `script
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/isbn-verifier/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/4a/02/44e5523ff60ecfaa72771545a75a25190617.md)
 
+### Kindergarten Garden (幼儿园花园)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/kindergarten-garden/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/6f/e1/1a58cec2888895b2a6ba323fc36010645b3e.md)
+- `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/kindergarten-garden/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/5a/d9/7d23eccdf15809e63df8ccf48471126095d0.md)
+
 ### Knapsack (背包问题)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/knapsack/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/0e/bf/7914c5505c5fe376d5466c5c12dcff37f14c.md)

@@ -157,5 +157,8 @@
   "exercise:run-length-encoding:source": "Wikipedia",
   "exercise:series:name": "Series",
   "exercise:series:blurb": "Dado un string de dígitos, muestra todas las subcadenas contiguas de longitud `n` de ese string.",
-  "exercise:series:source": "Un subconjunto del Problema 8 de Project Euler"
+  "exercise:series:source": "Un subconjunto del Problema 8 de Project Euler",
+  "exercise:kindergarten-garden:name": "Jardín de infantil",
+  "exercise:kindergarten-garden:blurb": "Dado un diagrama, determina qué plantas debe cuidar cada niño de la clase de infantil.",
+  "exercise:kindergarten-garden:source": "Ejercicio del equipo de JumpstartLab para estudiantes de The Turing School of Software and Design."
 }

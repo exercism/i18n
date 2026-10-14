@@ -157,5 +157,8 @@
   "exercise:run-length-encoding:source": "Wikipedia",
   "exercise:series:name": "Série",
   "exercise:series:blurb": "Dada uma string de dígitos, devolve todas as substrings contíguas de comprimento `n` dessa string.",
-  "exercise:series:source": "Um subconjunto do Problema 8 do Project Euler"
+  "exercise:series:source": "Um subconjunto do Problema 8 do Project Euler",
+  "exercise:kindergarten-garden:name": "Jardim de infância",
+  "exercise:kindergarten-garden:blurb": "Dado um diagrama, determina de que plantas cada criança do jardim de infância é responsável.",
+  "exercise:kindergarten-garden:source": "Exercício da equipa do JumpstartLab para estudantes da The Turing School of Software and Design."
 }

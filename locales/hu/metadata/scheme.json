@@ -157,5 +157,8 @@
   "exercise:run-length-encoding:source": "Wikipedia",
   "exercise:series:name": "Sorozat",
   "exercise:series:blurb": "Egy számjegyekből álló string esetén add ki az összes `n` hosszú, összefüggő részstringet.",
-  "exercise:series:source": "A Project Euler 8. feladatának egy részhalmaza"
+  "exercise:series:source": "A Project Euler 8. feladatának egy részhalmaza",
+  "exercise:kindergarten-garden:name": "Óvodakert",
+  "exercise:kindergarten-garden:blurb": "Egy ábra alapján állapítsd meg, hogy az óvodai csoport melyik gyermeke melyik növényért felelős.",
+  "exercise:kindergarten-garden:source": "Feladat a JumpstartLab csapatától a The Turing School of Software and Design tanulóinak."
 }

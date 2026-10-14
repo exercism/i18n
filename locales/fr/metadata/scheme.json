@@ -157,5 +157,8 @@
   "exercise:run-length-encoding:source": "Wikipedia",
   "exercise:series:name": "Séries",
   "exercise:series:blurb": "À partir d'une _string_ de chiffres, renvoie toutes les sous-chaînes contiguës de longueur `n` qu'elle contient.",
-  "exercise:series:source": "Un sous-ensemble du problème 8 de Project Euler"
+  "exercise:series:source": "Un sous-ensemble du problème 8 de Project Euler",
+  "exercise:kindergarten-garden:name": "Jardin de maternelle",
+  "exercise:kindergarten-garden:blurb": "À partir d'un diagramme, déterminer quelles plantes chaque enfant de la classe de maternelle doit entretenir.",
+  "exercise:kindergarten-garden:source": "Exercice proposé par l'équipe JumpstartLab pour les étudiants de The Turing School of Software and Design."
 }

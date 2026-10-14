@@ -157,5 +157,8 @@
   "exercise:run-length-encoding:source": "Wikipedia",
   "exercise:series:name": "دنباله",
   "exercise:series:blurb": "اگر رشته‌ای از رقم‌ها داده شود، همه‌ی زیررشته‌های به‌هم‌پیوسته با طول `n` را در آن رشته خروجی بدهید.",
-  "exercise:series:source": "زیرمجموعه‌ای از مسئله‌ی ۸ در Project Euler"
+  "exercise:series:source": "زیرمجموعه‌ای از مسئله‌ی ۸ در Project Euler",
+  "exercise:kindergarten-garden:name": "باغ کودکستان",
+  "exercise:kindergarten-garden:blurb": "با داشتن یک نمودار، مشخص کنید که هر کودک در کلاس کودکستان مسئول کدام گیاهان است.",
+  "exercise:kindergarten-garden:source": "تمرینی از تیم JumpstartLab برای دانشجویان The Turing School of Software and Design."
 }

@@ -157,5 +157,8 @@
   "exercise:run-length-encoding:source": "Wikipedia",
   "exercise:series:name": "Serie",
   "exercise:series:blurb": "Data una stringa di cifre, dai in output tutte le sottostringhe contigue di lunghezza `n` presenti in quella stringa.",
-  "exercise:series:source": "Un sottoinsieme del Problema 8 di Project Euler"
+  "exercise:series:source": "Un sottoinsieme del Problema 8 di Project Euler",
+  "exercise:kindergarten-garden:name": "Il giardino della scuola materna",
+  "exercise:kindergarten-garden:blurb": "Dato un diagramma, determina di quali piante è responsabile ogni bambino della classe della scuola materna.",
+  "exercise:kindergarten-garden:source": "Esercizio del team di JumpstartLab per gli studenti della Turing School of Software and Design."
 }

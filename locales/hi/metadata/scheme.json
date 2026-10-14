@@ -157,5 +157,8 @@
   "exercise:run-length-encoding:source": "Wikipedia",
   "exercise:series:name": "श्रेणी",
   "exercise:series:blurb": "अंकों की एक स्ट्रिंग दी गई है; उसमें लंबाई `n` वाले सभी क्रमागत सबस्ट्रिंग आउटपुट कीजिए।",
-  "exercise:series:source": "Project Euler पर Problem 8 का एक उपसमूह"
+  "exercise:series:source": "Project Euler पर Problem 8 का एक उपसमूह",
+  "exercise:kindergarten-garden:name": "किंडरगार्टन बगीचा",
+  "exercise:kindergarten-garden:blurb": "एक आरेख दिया गया हो, तो पता कीजिए कि किंडरगार्टन कक्षा का हर बच्चा किन पौधों के लिए ज़िम्मेदार है।",
+  "exercise:kindergarten-garden:source": "JumpstartLab टीम द्वारा The Turing School of Software and Design के छात्रों के लिए बनाया गया अभ्यास।"
 }

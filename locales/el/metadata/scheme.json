@@ -157,5 +157,8 @@
   "exercise:run-length-encoding:source": "Wikipedia",
   "exercise:series:name": "Σειρές",
   "exercise:series:blurb": "Με δεδομένη μια συμβολοσειρά ψηφίων, δώσε όλες τις συνεχόμενες υποσυμβολοσειρές μήκους `n` μέσα σε αυτή τη συμβολοσειρά.",
-  "exercise:series:source": "Ένα υποσύνολο του Προβλήματος 8 στο Project Euler"
+  "exercise:series:source": "Ένα υποσύνολο του Προβλήματος 8 στο Project Euler",
+  "exercise:kindergarten-garden:name": "Κήπος Νηπιαγωγείου",
+  "exercise:kindergarten-garden:blurb": "Δεδομένου ενός διαγράμματος, προσδιόρισε για ποια φυτά είναι υπεύθυνο κάθε παιδί στην τάξη του νηπιαγωγείου.",
+  "exercise:kindergarten-garden:source": "Άσκηση από την ομάδα JumpstartLab για τους σπουδαστές του The Turing School of Software and Design."
 }
