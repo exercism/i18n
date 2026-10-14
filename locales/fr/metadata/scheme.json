@@ -169,5 +169,8 @@
   "exercise:line-up:source": "mk-mxp, à partir d'un travail antérieur des contributeurs Exercism codedge et neenjaw",
   "exercise:yacht:name": "Yacht",
   "exercise:yacht:blurb": "Calcule le score d'un seul lancer de dés au jeu Yacht.",
-  "exercise:yacht:source": "James Kilfiger, à partir de Wikipédia"
+  "exercise:yacht:source": "James Kilfiger, à partir de Wikipédia",
+  "exercise:palindrome-products:name": "Produits palindromes",
+  "exercise:palindrome-products:blurb": "Détecte les produits palindromes dans un intervalle donné.",
+  "exercise:palindrome-products:source": "Problème 4 de Project Euler"
 }

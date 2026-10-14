@@ -169,5 +169,8 @@
   "exercise:line-up:source": "mk-mxp, Exercism 기여자 codedge와 neenjaw의 이전 작업을 바탕으로 함",
   "exercise:yacht:name": "Yacht",
   "exercise:yacht:blurb": "Yacht 게임에서 주사위를 한 번 던진 결과를 채점해요.",
-  "exercise:yacht:source": "James Kilfiger, Wikipedia 참고"
+  "exercise:yacht:source": "James Kilfiger, Wikipedia 참고",
+  "exercise:palindrome-products:name": "회문 곱",
+  "exercise:palindrome-products:blurb": "주어진 범위에서 회문이 되는 곱을 찾아내요.",
+  "exercise:palindrome-products:source": "Project Euler의 Problem 4"
 }

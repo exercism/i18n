@@ -169,5 +169,8 @@
   "exercise:line-up:source": "mk-mxp, Exercism কনট্রিবিউটর codedge ও neenjaw-এর পূর্ববর্তী কাজের ভিত্তিতে",
   "exercise:yacht:name": "ইয়ট",
   "exercise:yacht:blurb": "ইয়ট গেমে পাশার একবার ছোড়ার স্কোর হিসাব করুন।",
-  "exercise:yacht:source": "James Kilfiger, Wikipedia ব্যবহার করে"
+  "exercise:yacht:source": "James Kilfiger, Wikipedia ব্যবহার করে",
+  "exercise:palindrome-products:name": "প্যালিনড্রোম গুণফল",
+  "exercise:palindrome-products:blurb": "প্রদত্ত একটি পরিসরে প্যালিনড্রোম গুণফল শনাক্ত করুন।",
+  "exercise:palindrome-products:source": "Project Euler-এর Problem 4।"
 }

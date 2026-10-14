@@ -169,5 +169,8 @@
   "exercise:line-up:source": "mk-mxpが、Exercismのコントリビューターであるcodedgeとneenjawの以前の取り組みをもとに作成しました。",
   "exercise:yacht:name": "ヨット",
   "exercise:yacht:blurb": "ゲーム『ヨット』でサイコロを1回振った結果を採点します。",
-  "exercise:yacht:source": "James Kilfiger（Wikipediaより）"
+  "exercise:yacht:source": "James Kilfiger（Wikipediaより）",
+  "exercise:palindrome-products:name": "回文の積",
+  "exercise:palindrome-products:blurb": "与えられた範囲の中から、回文になる積を見つけます。",
+  "exercise:palindrome-products:source": "Project EulerのProblem 4"
 }

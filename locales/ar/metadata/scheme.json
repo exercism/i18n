@@ -169,5 +169,8 @@
   "exercise:line-up:source": "mk-mxp، بناءً على عمل سابق من مساهمي Exercism وهما codedge و neenjaw",
   "exercise:yacht:name": "Yacht",
   "exercise:yacht:blurb": "احسب نقاط رمية نرد واحدة في لعبة Yacht.",
-  "exercise:yacht:source": "James Kilfiger، بالاستعانة بـ Wikipedia"
+  "exercise:yacht:source": "James Kilfiger، بالاستعانة بـ Wikipedia",
+  "exercise:palindrome-products:name": "حاصلات ضرب متناظرة",
+  "exercise:palindrome-products:blurb": "اكتشف حاصلات الضرب المتناظرة ضمن نطاق معطى.",
+  "exercise:palindrome-products:source": "المسألة 4 في Project Euler"
 }

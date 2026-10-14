@@ -169,5 +169,8 @@
   "exercise:line-up:source": "mk-mxp, codedge és neenjaw Exercism-közreműködők korábbi munkája alapján",
   "exercise:yacht:name": "Jacht",
   "exercise:yacht:blurb": "Számítsd ki a Yacht játékban egyetlen kockadobás pontszámát.",
-  "exercise:yacht:source": "James Kilfiger, a Wikipédiát használva"
+  "exercise:yacht:source": "James Kilfiger, a Wikipédiát használva",
+  "exercise:palindrome-products:name": "Palindrom szorzatok",
+  "exercise:palindrome-products:blurb": "Keresd meg a palindrom szorzatokat egy adott tartományban.",
+  "exercise:palindrome-products:source": "A Project Euler 4. feladata"
 }

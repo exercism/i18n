@@ -169,5 +169,8 @@
   "exercise:line-up:source": "mk-mxp, com base em trabalhos anteriores dos contribuidores do Exercism codedge e neenjaw",
   "exercise:yacht:name": "Yacht",
   "exercise:yacht:blurb": "Calcule a pontuação de uma única jogada de dados no jogo Yacht.",
-  "exercise:yacht:source": "James Kilfiger, usando a Wikipédia"
+  "exercise:yacht:source": "James Kilfiger, usando a Wikipédia",
+  "exercise:palindrome-products:name": "Produtos Palíndromos",
+  "exercise:palindrome-products:blurb": "Detecte produtos palíndromos em um determinado intervalo.",
+  "exercise:palindrome-products:source": "Problema 4 do Project Euler"
 }

@@ -169,5 +169,8 @@
   "exercise:line-up:source": "mk-mxp, Exercism के योगदानकर्ताओं codedge और neenjaw के पिछले काम पर आधारित",
   "exercise:yacht:name": "Yacht",
   "exercise:yacht:blurb": "Yacht गेम में पासों के एक थ्रो का स्कोर निकालिए।",
-  "exercise:yacht:source": "James Kilfiger, विकिपीडिया का उपयोग करके।"
+  "exercise:yacht:source": "James Kilfiger, विकिपीडिया का उपयोग करके।",
+  "exercise:palindrome-products:name": "पैलिंड्रोम गुणनफल",
+  "exercise:palindrome-products:blurb": "दी गई रेंज में पैलिंड्रोम गुणनफल ढूँढिए।",
+  "exercise:palindrome-products:source": "Project Euler पर Problem 4"
 }

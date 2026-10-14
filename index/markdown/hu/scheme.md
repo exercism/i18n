@@ -166,6 +166,11 @@ This page is generated from [the index](../../json/hu/scheme.json) by `scripts/b
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/octal/.docs/instructions.md)): [Latest](../../../locales/hu/content/00/74/560343bb394f941f4da6cc2b40a6c81fbf0d.md)
   - [`81f108384b`](../../../locales/hu/content/81/f1/08384b0543da2b7993895aa8fc6a6172beab.md)
 
+### Palindrome Products (Palindrom szorzatok)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/palindrome-products/.docs/instructions.md)): [Latest](../../../locales/hu/content/aa/c6/6521ce736be8ce737ea709a5b1eed507cbb8.md)
+- `instructions.append.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/palindrome-products/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/0a/82/6bd3815e1c0f14a0aafe888c4d56c1a6782d.md)
+
 ### Pangram
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)

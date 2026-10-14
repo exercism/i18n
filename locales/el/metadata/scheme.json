@@ -169,5 +169,8 @@
   "exercise:line-up:source": "mk-mxp, βασισμένο σε προηγούμενη δουλειά των συντελεστών του Exercism codedge και neenjaw",
   "exercise:yacht:name": "Yacht",
   "exercise:yacht:blurb": "Βαθμολόγησε μια μόνο ρίψη ζαριών στο παιχνίδι Yacht.",
-  "exercise:yacht:source": "James Kilfiger, χρησιμοποιώντας τη Βικιπαίδεια"
+  "exercise:yacht:source": "James Kilfiger, χρησιμοποιώντας τη Βικιπαίδεια",
+  "exercise:palindrome-products:name": "Παλίνδρομα γινόμενα",
+  "exercise:palindrome-products:blurb": "Εντόπισε παλίνδρομα γινόμενα σε ένα δεδομένο εύρος.",
+  "exercise:palindrome-products:source": "Το πρόβλημα 4 στο Project Euler"
 }

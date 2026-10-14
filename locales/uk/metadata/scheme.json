@@ -169,5 +169,8 @@
   "exercise:line-up:source": "mk-mxp, на основі попередньої роботи учасників Exercism codedge та neenjaw",
   "exercise:yacht:name": "Яхта",
   "exercise:yacht:blurb": "Підрахуйте очки за один кидок кубиків у грі «Яхта».",
-  "exercise:yacht:source": "James Kilfiger, за матеріалами Wikipedia"
+  "exercise:yacht:source": "James Kilfiger, за матеріалами Wikipedia",
+  "exercise:palindrome-products:name": "Паліндромні добутки",
+  "exercise:palindrome-products:blurb": "Знайдіть паліндромні добутки в заданому діапазоні.",
+  "exercise:palindrome-products:source": "Задача 4 з Project Euler"
 }

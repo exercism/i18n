@@ -144,6 +144,11 @@ This page is generated from [the index](../../json/bn/scheme.json) by `scripts/b
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/octal/.docs/instructions.md)): [Latest](../../../locales/bn/content/00/74/560343bb394f941f4da6cc2b40a6c81fbf0d.md)
 
+### Palindrome Products (প্যালিনড্রোম গুণফল)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/palindrome-products/.docs/instructions.md)): [Latest](../../../locales/bn/content/aa/c6/6521ce736be8ce737ea709a5b1eed507cbb8.md)
+- `instructions.append.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/palindrome-products/.docs/instructions.append.md)): [Latest](../../../locales/bn/content/0a/82/6bd3815e1c0f14a0aafe888c4d56c1a6782d.md)
+
 ### Pangram (প্যানগ্রাম)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/bn/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)

@@ -169,5 +169,8 @@
   "exercise:line-up:source": "mk-mxp, basato su un lavoro precedente dei collaboratori di Exercism codedge e neenjaw",
   "exercise:yacht:name": "Yacht",
   "exercise:yacht:blurb": "Assegna il punteggio a un singolo lancio di dadi nel gioco Yacht.",
-  "exercise:yacht:source": "James Kilfiger, usando Wikipedia"
+  "exercise:yacht:source": "James Kilfiger, usando Wikipedia",
+  "exercise:palindrome-products:name": "Prodotti palindromi",
+  "exercise:palindrome-products:blurb": "Individua i prodotti palindromi in un intervallo dato.",
+  "exercise:palindrome-products:source": "Problema 4 di Project Euler"
 }

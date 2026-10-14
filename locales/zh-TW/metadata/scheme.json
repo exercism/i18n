@@ -169,5 +169,8 @@
   "exercise:line-up:source": "mk-mxp，改編自 Exercism 貢獻者 codedge 與 neenjaw 先前的作品",
   "exercise:yacht:name": "快艇骰子",
   "exercise:yacht:blurb": "為快艇骰子遊戲中的單次擲骰計分。",
-  "exercise:yacht:source": "James Kilfiger，參考 Wikipedia"
+  "exercise:yacht:source": "James Kilfiger，參考 Wikipedia",
+  "exercise:palindrome-products:name": "迴文乘積",
+  "exercise:palindrome-products:blurb": "找出給定範圍內的迴文乘積。",
+  "exercise:palindrome-products:source": "Project Euler 第 4 題"
 }

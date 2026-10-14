@@ -169,5 +169,8 @@
   "exercise:line-up:source": "mk-mxp، بر پایه‌ی کار پیشین مشارکت‌کنندگان Exercism، codedge و neenjaw",
   "exercise:yacht:name": "Yacht",
   "exercise:yacht:blurb": "یک پرتاب تاس در بازی Yacht را امتیازدهی کنید.",
-  "exercise:yacht:source": "James Kilfiger، با استفاده از Wikipedia"
+  "exercise:yacht:source": "James Kilfiger، با استفاده از Wikipedia",
+  "exercise:palindrome-products:name": "حاصل‌ضرب‌های پالیندروم",
+  "exercise:palindrome-products:blurb": "حاصل‌ضرب‌های پالیندروم را در یک بازه‌ی داده‌شده تشخیص دهید.",
+  "exercise:palindrome-products:source": "مسئله‌ی ۴ در Project Euler"
 }

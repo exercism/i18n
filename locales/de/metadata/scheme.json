@@ -169,5 +169,8 @@
   "exercise:line-up:source": "mk-mxp, basierend auf früherer Arbeit der Exercism-Mitwirkenden codedge und neenjaw",
   "exercise:yacht:name": "Yacht",
   "exercise:yacht:blurb": "Bewerte einen einzelnen Würfelwurf im Spiel Yacht.",
-  "exercise:yacht:source": "James Kilfiger, unter Verwendung von Wikipedia"
+  "exercise:yacht:source": "James Kilfiger, unter Verwendung von Wikipedia",
+  "exercise:palindrome-products:name": "Palindromprodukte",
+  "exercise:palindrome-products:blurb": "Finde Palindromprodukte in einem gegebenen Bereich.",
+  "exercise:palindrome-products:source": "Problem 4 bei Project Euler"
 }

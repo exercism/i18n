@@ -169,5 +169,8 @@
   "exercise:line-up:source": "mk-mxp，基于 Exercism 贡献者 codedge 和 neenjaw 之前的作品",
   "exercise:yacht:name": "快艇",
   "exercise:yacht:blurb": "为快艇游戏中的一次掷骰计算得分。",
-  "exercise:yacht:source": "James Kilfiger，资料来自 Wikipedia"
+  "exercise:yacht:source": "James Kilfiger，资料来自 Wikipedia",
+  "exercise:palindrome-products:name": "回文乘积",
+  "exercise:palindrome-products:blurb": "在给定范围内找出回文乘积。",
+  "exercise:palindrome-products:source": "Project Euler 第 4 题"
 }
