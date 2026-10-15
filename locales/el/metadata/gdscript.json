@@ -163,5 +163,8 @@
   "exercise:word-count:source": "Αυτό είναι ένα κλασικό προβληματάκι, αλλά μας το θύμισε το Go Tour.",
   "exercise:swift-scheduling:name": "Swift Scheduling",
   "exercise:swift-scheduling:blurb": "Μετέτρεψε περιγραφές ημερομηνίας παράδοσης σε πραγματικές ημερομηνίες παράδοσης.",
-  "exercise:swift-scheduling:source": "Erik Schierboom"
+  "exercise:swift-scheduling:source": "Erik Schierboom",
+  "exercise:simple-cipher:name": "Απλό κρυπτοσύστημα",
+  "exercise:simple-cipher:blurb": "Υλοποίησε το κρυπτοσύστημα Vigenère, ένα απλό κρυπτοσύστημα αντικατάστασης.",
+  "exercise:simple-cipher:source": "Κρυπτοσύστημα αντικατάστασης στη Wikipedia"
 }

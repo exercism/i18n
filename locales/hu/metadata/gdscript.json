@@ -163,5 +163,8 @@
   "exercise:word-count:source": "Ez egy klasszikus gyakorlófeladat, de a Go Tourban látva újra eszünkbe jutott.",
   "exercise:swift-scheduling:name": "Gyors ütemezés",
   "exercise:swift-scheduling:blurb": "Alakítsd át a szállítási dátum leírásait tényleges szállítási dátumokká.",
-  "exercise:swift-scheduling:source": "Erik Schierboom"
+  "exercise:swift-scheduling:source": "Erik Schierboom",
+  "exercise:simple-cipher:name": "Egyszerű rejtjel",
+  "exercise:simple-cipher:blurb": "Valósítsd meg a Vigenère-rejtjelet, egy egyszerű helyettesítő rejtjelet.",
+  "exercise:simple-cipher:source": "Substitution Cipher a Wikipédián"
 }

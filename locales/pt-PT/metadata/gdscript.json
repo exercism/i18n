@@ -163,5 +163,8 @@
   "exercise:word-count:source": "Este é um clássico problema académico, mas lembrámo-nos dele ao vê-lo no Go Tour.",
   "exercise:swift-scheduling:name": "Agendamento Rápido",
   "exercise:swift-scheduling:blurb": "Converte descrições de datas de entrega em datas de entrega reais.",
-  "exercise:swift-scheduling:source": "Erik Schierboom"
+  "exercise:swift-scheduling:source": "Erik Schierboom",
+  "exercise:simple-cipher:name": "Cifra simples",
+  "exercise:simple-cipher:blurb": "Implementa a cifra de Vigenère, uma cifra de substituição simples.",
+  "exercise:simple-cipher:source": "Cifra de substituição na Wikipedia"
 }

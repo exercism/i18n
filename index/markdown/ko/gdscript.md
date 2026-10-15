@@ -189,6 +189,10 @@ This page is generated from [the index](../../json/ko/gdscript.json) by `scripts
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/sieve/.docs/instructions.md)): [Latest](../../../locales/ko/content/71/29/2e1782dc95e0430ae2b614e1d740dd41639f.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/sieve/.docs/introduction.md)): [Latest](../../../locales/ko/content/f6/c1/cf79a9d4ccf67f1ed34dabb8ab0a58030358.md)
 
+### Simple Cipher (간단한 암호)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/simple-cipher/.docs/instructions.md)): [Latest](../../../locales/ko/content/af/d0/b57da930f59595d830df56eb0c9e891e83f4.md)
+
 ### Space Age (우주 시대)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/space-age/.docs/instructions.md)): [Latest](../../../locales/ko/content/f2/3b/5e2c1fee01d8283d5399594d9324bd35e2f4.md)

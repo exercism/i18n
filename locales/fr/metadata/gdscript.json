@@ -163,5 +163,8 @@
   "exercise:word-count:source": "C'est un problème jouet classique, mais on s'en est souvenu en le voyant dans le Go Tour.",
   "exercise:swift-scheduling:name": "Planification express",
   "exercise:swift-scheduling:blurb": "Convertis des descriptions de dates de livraison en dates de livraison réelles.",
-  "exercise:swift-scheduling:source": "Erik Schierboom"
+  "exercise:swift-scheduling:source": "Erik Schierboom",
+  "exercise:simple-cipher:name": "Chiffrement simple",
+  "exercise:simple-cipher:blurb": "Implémente le chiffrement de Vigenère, un chiffrement par substitution simple.",
+  "exercise:simple-cipher:source": "Chiffrement par substitution sur Wikipedia"
 }

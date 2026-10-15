@@ -163,5 +163,8 @@
   "exercise:word-count:source": "古典的な定番の問題ですが、Go Tourで見かけたことで思い出しました。",
   "exercise:swift-scheduling:name": "Swiftの配達スケジュール",
   "exercise:swift-scheduling:blurb": "配達日の説明を実際の配達日に変換します。",
-  "exercise:swift-scheduling:source": "Erik Schierboom"
+  "exercise:swift-scheduling:source": "Erik Schierboom",
+  "exercise:simple-cipher:name": "単純な暗号",
+  "exercise:simple-cipher:blurb": "単純な換字式暗号であるヴィジュネル暗号を実装します。",
+  "exercise:simple-cipher:source": "Wikipediaの換字式暗号"
 }

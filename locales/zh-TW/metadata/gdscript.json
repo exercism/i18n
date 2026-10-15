@@ -163,5 +163,8 @@
   "exercise:word-count:source": "這是個經典的玩具問題，但我們是在 Go Tour 中看到它才想起來的。",
   "exercise:swift-scheduling:name": "快速排程",
   "exercise:swift-scheduling:blurb": "將交貨日期的描述轉換成實際的交貨日期。",
-  "exercise:swift-scheduling:source": "Erik Schierboom"
+  "exercise:swift-scheduling:source": "Erik Schierboom",
+  "exercise:simple-cipher:name": "簡易加密法",
+  "exercise:simple-cipher:blurb": "實作維吉尼亞密碼，一種簡單的替換式密碼。",
+  "exercise:simple-cipher:source": "Wikipedia 上的替換式密碼。"
 }

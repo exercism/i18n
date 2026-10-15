@@ -163,5 +163,8 @@
   "exercise:word-count:source": "এটি একটি ক্লাসিক সহজ সমস্যা, তবে Go Tour-তে এটি দেখে আমাদের মনে পড়ে যায়।",
   "exercise:swift-scheduling:name": "দ্রুত সময়সূচি",
   "exercise:swift-scheduling:blurb": "ডেলিভারির তারিখের বর্ণনাকে প্রকৃত ডেলিভারির তারিখে রূপান্তর করুন।",
-  "exercise:swift-scheduling:source": "Erik Schierboom"
+  "exercise:swift-scheduling:source": "Erik Schierboom",
+  "exercise:simple-cipher:name": "সরল সাইফার",
+  "exercise:simple-cipher:blurb": "ভিজেনের সাইফার বাস্তবায়ন করুন, যা একটি সরল প্রতিস্থাপন সাইফার।",
+  "exercise:simple-cipher:source": "Wikipedia-তে প্রতিস্থাপন সাইফার।"
 }

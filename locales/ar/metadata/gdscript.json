@@ -163,5 +163,8 @@
   "exercise:word-count:source": "هذه مسألة تدريبية كلاسيكية، لكننا تذكّرناها عندما رأيناها في Go Tour.",
   "exercise:swift-scheduling:name": "الجدولة السريعة",
   "exercise:swift-scheduling:blurb": "حوّل أوصاف موعد التسليم إلى مواعيد تسليم فعلية.",
-  "exercise:swift-scheduling:source": "Erik Schierboom"
+  "exercise:swift-scheduling:source": "Erik Schierboom",
+  "exercise:simple-cipher:name": "الشيفرة البسيطة",
+  "exercise:simple-cipher:blurb": "نفّذ شيفرة فيجنير، وهي شيفرة استبدالية بسيطة.",
+  "exercise:simple-cipher:source": "شيفرة استبدالية في Wikipedia"
 }

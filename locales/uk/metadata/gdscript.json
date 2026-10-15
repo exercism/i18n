@@ -163,5 +163,8 @@
   "exercise:word-count:source": "Це класична навчальна задача, але ми згадали про неї, побачивши її в Go Tour.",
   "exercise:swift-scheduling:name": "Швидке планування",
   "exercise:swift-scheduling:blurb": "Перетворіть описи дат доставки на конкретні дати доставки.",
-  "exercise:swift-scheduling:source": "Erik Schierboom"
+  "exercise:swift-scheduling:source": "Erik Schierboom",
+  "exercise:simple-cipher:name": "Простий шифр",
+  "exercise:simple-cipher:blurb": "Реалізуйте шифр Віженера, простий шифр підстановки.",
+  "exercise:simple-cipher:source": "Шифр підстановки у Wikipedia"
 }

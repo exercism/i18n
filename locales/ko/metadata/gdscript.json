@@ -163,5 +163,8 @@
   "exercise:word-count:source": "고전적인 장난감 문제지만, Go Tour에서 보고 다시 떠올렸어요.",
   "exercise:swift-scheduling:name": "신속한 일정 관리",
   "exercise:swift-scheduling:blurb": "배송 날짜 설명을 실제 배송 날짜로 변환해요.",
-  "exercise:swift-scheduling:source": "Erik Schierboom"
+  "exercise:swift-scheduling:source": "Erik Schierboom",
+  "exercise:simple-cipher:name": "간단한 암호",
+  "exercise:simple-cipher:blurb": "간단한 치환 암호인 비즈네르 암호를 구현해요.",
+  "exercise:simple-cipher:source": "Wikipedia의 치환 암호"
 }

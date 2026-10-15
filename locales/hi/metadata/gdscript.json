@@ -163,5 +163,8 @@
   "exercise:word-count:source": "यह एक पुरानी, आसान-सी अभ्यास समस्या है, पर Go Tour में इसे देखकर हमें इसकी याद आई।",
   "exercise:swift-scheduling:name": "तेज़ शेड्यूलिंग",
   "exercise:swift-scheduling:blurb": "डिलीवरी तारीख के विवरणों को वास्तविक डिलीवरी तारीखों में बदलिए।",
-  "exercise:swift-scheduling:source": "Erik Schierboom"
+  "exercise:swift-scheduling:source": "Erik Schierboom",
+  "exercise:simple-cipher:name": "सरल सिफर",
+  "exercise:simple-cipher:blurb": "Vigenère सिफर लागू कीजिए, जो एक सरल प्रतिस्थापन सिफर है।",
+  "exercise:simple-cipher:source": "Wikipedia पर प्रतिस्थापन सिफर"
 }

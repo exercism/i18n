@@ -163,5 +163,8 @@
   "exercise:word-count:source": "Questo è un classico problema giocattolo, ma ce lo siamo ricordati vedendolo nel Go Tour.",
   "exercise:swift-scheduling:name": "Pianificazione Swift",
   "exercise:swift-scheduling:blurb": "Converti le descrizioni delle date di consegna in date di consegna effettive.",
-  "exercise:swift-scheduling:source": "Erik Schierboom"
+  "exercise:swift-scheduling:source": "Erik Schierboom",
+  "exercise:simple-cipher:name": "Cifrario semplice",
+  "exercise:simple-cipher:blurb": "Implementa il cifrario di Vigenère, un semplice cifrario a sostituzione.",
+  "exercise:simple-cipher:source": "Cifrario a sostituzione su Wikipedia"
 }

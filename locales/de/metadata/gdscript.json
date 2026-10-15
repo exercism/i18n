@@ -163,5 +163,8 @@
   "exercise:word-count:source": "Dies ist ein klassisches Beispielproblem, aber wir wurden daran erinnert, als wir es in der Go-Tour sahen.",
   "exercise:swift-scheduling:name": "Swift-Terminplanung",
   "exercise:swift-scheduling:blurb": "Wandle Beschreibungen von Lieferdaten in tatsächliche Lieferdaten um.",
-  "exercise:swift-scheduling:source": "Erik Schierboom"
+  "exercise:swift-scheduling:source": "Erik Schierboom",
+  "exercise:simple-cipher:name": "Einfache Chiffre",
+  "exercise:simple-cipher:blurb": "Implementiere die Vigenère-Chiffre, eine einfache Substitutionschiffre.",
+  "exercise:simple-cipher:source": "Substitutionschiffre bei Wikipedia"
 }
