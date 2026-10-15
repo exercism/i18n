@@ -130,7 +130,8 @@ This page is generated from [the index](../../json/hu/yamlscript.json) by `scrip
 
 ### Luhn
 
-- `instructions.md` ([English](https://github.com/exercism/yamlscript/blob/main/exercises/practice/luhn/.docs/instructions.md)): [Latest](../../../locales/hu/content/df/2e/304a39b4b4be81dbfc5ae8127f004f9143fa.md)
+- `instructions.md` ([English](https://github.com/exercism/yamlscript/blob/main/exercises/practice/luhn/.docs/instructions.md)): [Latest](../../../locales/hu/content/77/02/c6bbb5f849683e3074163e48ce1154ad2957.md)
+  - [`df2e304a39`](../../../locales/hu/content/df/2e/304a39b4b4be81dbfc5ae8127f004f9143fa.md)
   - [`5bbf007b07`](../../../locales/hu/content/5b/bf/007b0754c7a7337b17cfe3923c978b323bd1.md)
   - [`49934c1064`](../../../locales/hu/content/49/93/4c10646b3753256c6a6290f2ad11a8ae11a4.md)
 - `introduction.md` ([English](https://github.com/exercism/yamlscript/blob/main/exercises/practice/luhn/.docs/introduction.md)): [Latest](../../../locales/hu/content/de/e4/8006eddee9458a5414ddc96c4b9d2fc9109f.md)
@@ -186,7 +187,8 @@ This page is generated from [the index](../../json/hu/yamlscript.json) by `scrip
 
 ### Protein Translation (Fehérjetranszláció)
 
-- `instructions.md` ([English](https://github.com/exercism/yamlscript/blob/main/exercises/practice/protein-translation/.docs/instructions.md)): [Latest](../../../locales/hu/content/44/88/0802c578d25f9638fab6a6bc1389ef45dd65.md)
+- `instructions.md` ([English](https://github.com/exercism/yamlscript/blob/main/exercises/practice/protein-translation/.docs/instructions.md)): [Latest](../../../locales/hu/content/35/c9/53b11f9642c30978222e743aff4dc38f1451.md)
+  - [`44880802c5`](../../../locales/hu/content/44/88/0802c578d25f9638fab6a6bc1389ef45dd65.md)
   - [`7dc34d2edf`](../../../locales/hu/content/7d/c3/4d2edfda1f154ed75b7cc6371485d8b0b39d.md)
 
 ### Queen Attack (Királynőtámadás)
@@ -276,7 +278,8 @@ This page is generated from [the index](../../json/hu/yamlscript.json) by `scrip
 
 ### Triangle (Háromszög)
 
-- `instructions.md` ([English](https://github.com/exercism/yamlscript/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/hu/content/ac/39/008726d5472b99e1aee556219eadca7fc49d.md)
+- `instructions.md` ([English](https://github.com/exercism/yamlscript/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/hu/content/e9/b0/53dcd344e85179041c10dcd48406d735b2f9.md)
+  - [`ac39008726`](../../../locales/hu/content/ac/39/008726d5472b99e1aee556219eadca7fc49d.md)
 
 ### Two Bucket (Két vödör)
 

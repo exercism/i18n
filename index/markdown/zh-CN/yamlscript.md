@@ -123,7 +123,8 @@ This page is generated from [the index](../../json/zh-CN/yamlscript.json) by `sc
 
 ### Luhn
 
-- `instructions.md` ([English](https://github.com/exercism/yamlscript/blob/main/exercises/practice/luhn/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/df/2e/304a39b4b4be81dbfc5ae8127f004f9143fa.md)
+- `instructions.md` ([English](https://github.com/exercism/yamlscript/blob/main/exercises/practice/luhn/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/77/02/c6bbb5f849683e3074163e48ce1154ad2957.md)
+  - [`df2e304a39`](../../../locales/zh-CN/content/df/2e/304a39b4b4be81dbfc5ae8127f004f9143fa.md)
 - `introduction.md` ([English](https://github.com/exercism/yamlscript/blob/main/exercises/practice/luhn/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/de/e4/8006eddee9458a5414ddc96c4b9d2fc9109f.md)
 
 ### Matching Brackets (匹配括号)
@@ -174,7 +175,8 @@ This page is generated from [the index](../../json/zh-CN/yamlscript.json) by `sc
 
 ### Protein Translation (蛋白质翻译)
 
-- `instructions.md` ([English](https://github.com/exercism/yamlscript/blob/main/exercises/practice/protein-translation/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/44/88/0802c578d25f9638fab6a6bc1389ef45dd65.md)
+- `instructions.md` ([English](https://github.com/exercism/yamlscript/blob/main/exercises/practice/protein-translation/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/35/c9/53b11f9642c30978222e743aff4dc38f1451.md)
+  - [`44880802c5`](../../../locales/zh-CN/content/44/88/0802c578d25f9638fab6a6bc1389ef45dd65.md)
 
 ### Queen Attack (皇后攻击)
 
@@ -261,7 +263,8 @@ This page is generated from [the index](../../json/zh-CN/yamlscript.json) by `sc
 
 ### Triangle (三角形)
 
-- `instructions.md` ([English](https://github.com/exercism/yamlscript/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/ac/39/008726d5472b99e1aee556219eadca7fc49d.md)
+- `instructions.md` ([English](https://github.com/exercism/yamlscript/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/e9/b0/53dcd344e85179041c10dcd48406d735b2f9.md)
+  - [`ac39008726`](../../../locales/zh-CN/content/ac/39/008726d5472b99e1aee556219eadca7fc49d.md)
 
 ### Two Bucket (两个水桶)
 
