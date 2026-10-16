@@ -542,15 +542,18 @@ This page is generated from [the index](../../json/zh-TW/bash.json) by `scripts/
 
 ### How to learn Bash (如何學習 Bash)
 
-- `LEARNING.md` ([English](https://github.com/exercism/bash/blob/main/docs/LEARNING.md)): [Latest](../../../locales/zh-TW/content/e8/a3/4aa6dc33f21300009dcc75d5202f0a87c3a9.md)
+- `LEARNING.md` ([English](https://github.com/exercism/bash/blob/main/docs/LEARNING.md)): [Latest](../../../locales/zh-TW/content/81/8f/6fd2d6114a52b5c5a8cf1d0270bd61703f02.md)
+  - [`e8a34aa6dc`](../../../locales/zh-TW/content/e8/a3/4aa6dc33f21300009dcc75d5202f0a87c3a9.md)
 
 ### Installing Bash locally (在本機安裝 Bash)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/bash/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/zh-TW/content/5f/2e/3bd89e44e2a45a017568961b1311176e1a92.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/bash/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/zh-TW/content/15/49/867dc1b2c7c1fbbfd2e16e9cd947e84afa82.md)
+  - [`5f2e3bd89e`](../../../locales/zh-TW/content/5f/2e/3bd89e44e2a45a017568961b1311176e1a92.md)
 
 ### MAINTAINING.md
 
-- `MAINTAINING.md` ([English](https://github.com/exercism/bash/blob/main/docs/MAINTAINING.md)): [Latest](../../../locales/zh-TW/content/03/1a/507f827467f93a96b3eec32b0b66757c3834.md)
+- `MAINTAINING.md` ([English](https://github.com/exercism/bash/blob/main/docs/MAINTAINING.md)): [Latest](../../../locales/zh-TW/content/c0/f4/c55d05b8f05b4b57ca963491af3bd1c9f7cb.md)
+  - [`031a507f82`](../../../locales/zh-TW/content/03/1a/507f827467f93a96b3eec32b0b66757c3834.md)
 
 ### Testing on the Bash track (在 Bash 軌道上測試)
 
@@ -558,7 +561,8 @@ This page is generated from [the index](../../json/zh-TW/bash.json) by `scripts/
 
 ### Useful Bash resources (實用的 Bash 資源)
 
-- `RESOURCES.md` ([English](https://github.com/exercism/bash/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/zh-TW/content/9c/63/ab9380e34ba74717b64d193216203eb9dbc8.md)
+- `RESOURCES.md` ([English](https://github.com/exercism/bash/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/zh-TW/content/b0/3c/ddeb57946a54b5dd5ea555a9eaa6f3ac106b.md)
+  - [`9c63ab9380`](../../../locales/zh-TW/content/9c/63/ab9380e34ba74717b64d193216203eb9dbc8.md)
   - [`69284bd422`](../../../locales/zh-TW/content/69/28/4bd422f9e7357960f2592f5812a381db20a0.md)
 
 ## Shared exercise docs
