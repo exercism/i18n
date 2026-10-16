@@ -437,5 +437,8 @@
   "exercise:zebra-puzzle:deep_dive_blurb": "Fedezz fel 8 különböző módot arra, hogy megtaláld a Zebra-rejtvény megoldását 24 milliárd lehetséges megoldás közül, beleértve az érvénytelen permutációk mielőbbi figyelmen kívül hagyását, az AC-3 algoritmust, egy nagyon tömör, logikaalapú megoldást, sőt egy genetikus algoritmust is!",
   "exercise:minesweeper:deep_dive_blurb": "Felfedezzük az egymásba ágyazott for-ciklusokat, a min/max ügyes használatát a határellenőrzés egyszerűsítésére, a funkcionális pipeline-okat és a kétdimenziós mátrixok használatát.",
   "exercise:split-second-stopwatch:source": "Erik Schierboom",
-  "exercise:swift-scheduling:source": "Erik Schierboom"
+  "exercise:swift-scheduling:source": "Erik Schierboom",
+  "exercise:resistor-color-tolerance:blurb": "Alakítsd át az ellenállásokon különböző sávokkal használt színkódokat ember számára olvasható címkévé.",
+  "exercise:resistor-color-tolerance:title": "Ellenállás színtűrése",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

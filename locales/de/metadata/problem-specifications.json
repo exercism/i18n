@@ -437,5 +437,8 @@
   "exercise:swift-scheduling:source": "Erik Schierboom",
   "exercise:trinary:source": "All of Computer Science",
   "exercise:twelve-days:source": "Wikipedia",
-  "exercise:zebra-puzzle:source": "Wikipedia"
+  "exercise:zebra-puzzle:source": "Wikipedia",
+  "exercise:resistor-color-tolerance:blurb": "Wandle Farbcodes, wie sie bei Widerständen mit unterschiedlichen Ringen verwendet werden, in eine für Menschen lesbare Bezeichnung um.",
+  "exercise:resistor-color-tolerance:title": "Farbtoleranz von Widerständen",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

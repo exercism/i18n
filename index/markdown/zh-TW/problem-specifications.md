@@ -473,6 +473,10 @@ This page is generated from [the index](../../json/zh-TW/problem-specifications.
 
 - `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/resistor-color-duo/description.md)): [Latest](../../../locales/zh-TW/content/4a/e6/94da025b329a9e51e07c741aa41925253b1a.md)
 
+### Resistor Color Tolerance (電阻色碼容差)
+
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/resistor-color-tolerance/description.md)): [Latest](../../../locales/zh-TW/content/d4/7c/b16ab41d77f14012aa04003f1f94b1c276c4.md)
+
 ### Resistor Color Trio (電阻色碼三色環)
 
 - `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/resistor-color-trio/description.md)): [Latest](../../../locales/zh-TW/content/1a/c5/cf5e9fe0b7e589bf6cba0c31c2c8a0e98d7e.md)

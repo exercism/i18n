@@ -437,5 +437,8 @@
   "exercise:swift-scheduling:source": "Erik Schierboom",
   "exercise:trinary:source": "All of Computer Science",
   "exercise:twelve-days:source": "Wikipedia",
-  "exercise:zebra-puzzle:source": "Wikipedia"
+  "exercise:zebra-puzzle:source": "Wikipedia",
+  "exercise:resistor-color-tolerance:blurb": "Перетворіть кольорові коди, які використовують на резисторах із різною кількістю смуг, у зрозумілу для людини позначку.",
+  "exercise:resistor-color-tolerance:title": "Кольоровий допуск резистора",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

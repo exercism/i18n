@@ -437,5 +437,8 @@
   "exercise:swift-scheduling:source": "Erik Schierboom",
   "exercise:trinary:source": "All of Computer Science",
   "exercise:twelve-days:source": "Wikipedia",
-  "exercise:zebra-puzzle:source": "Wikipedia"
+  "exercise:zebra-puzzle:source": "Wikipedia",
+  "exercise:resistor-color-tolerance:blurb": "বিভিন্ন ব্যান্ডযুক্ত রেজিস্টরে ব্যবহৃত রঙের কোডকে মানুষের পড়ার উপযোগী লেবেলে রূপান্তর করুন।",
+  "exercise:resistor-color-tolerance:title": "রেজিস্টর কালার টলারেন্স",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

@@ -437,5 +437,8 @@
   "exercise:say:source": "Una variación de la tarea 4 del JavaRanch CattleDrive",
   "exercise:scale-generator:title": "Generador de escalas",
   "exercise:resistor-color-trio:source": "Maud de Vries, Erik Schierboom",
-  "exercise:resistor-color:source": "Maud de Vries, Erik Schierboom"
+  "exercise:resistor-color:source": "Maud de Vries, Erik Schierboom",
+  "exercise:resistor-color-tolerance:blurb": "Convierte los códigos de color usados en resistencias con diferentes bandas en una etiqueta legible para humanos.",
+  "exercise:resistor-color-tolerance:title": "Tolerancia de color de las resistencias",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

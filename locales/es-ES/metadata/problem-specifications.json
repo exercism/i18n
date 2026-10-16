@@ -437,5 +437,8 @@
   "exercise:swift-scheduling:source": "Erik Schierboom",
   "exercise:trinary:source": "All of Computer Science",
   "exercise:twelve-days:source": "Wikipedia",
-  "exercise:zebra-puzzle:source": "Wikipedia"
+  "exercise:zebra-puzzle:source": "Wikipedia",
+  "exercise:resistor-color-tolerance:blurb": "Convierte los códigos de color que se usan en las resistencias con distintas bandas en una etiqueta legible para las personas.",
+  "exercise:resistor-color-tolerance:title": "Tolerancia de color de la resistencia",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

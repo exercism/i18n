@@ -489,6 +489,10 @@ This page is generated from [the index](../../json/hu/problem-specifications.jso
 
 - `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/resistor-color-duo/description.md)): [Latest](../../../locales/hu/content/4a/e6/94da025b329a9e51e07c741aa41925253b1a.md)
 
+### Resistor Color Tolerance (Ellenállás színtűrése)
+
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/resistor-color-tolerance/description.md)): [Latest](../../../locales/hu/content/d4/7c/b16ab41d77f14012aa04003f1f94b1c276c4.md)
+
 ### Resistor Color Trio (Ellenállás színkódja: trió)
 
 - `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/resistor-color-trio/description.md)): [Latest](../../../locales/hu/content/1a/c5/cf5e9fe0b7e589bf6cba0c31c2c8a0e98d7e.md)

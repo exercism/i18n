@@ -437,5 +437,8 @@
   "exercise:swift-scheduling:source": "Erik Schierboom",
   "exercise:trinary:source": "All of Computer Science",
   "exercise:twelve-days:source": "ويكيبيديا",
-  "exercise:zebra-puzzle:source": "ويكيبيديا"
+  "exercise:zebra-puzzle:source": "ويكيبيديا",
+  "exercise:resistor-color-tolerance:blurb": "حوّل أكواد الألوان المستخدمة في المقاومات ذات الأشرطة المختلفة إلى تسمية يمكن للبشر قراءتها.",
+  "exercise:resistor-color-tolerance:title": "سماحية ألوان المقاومة",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

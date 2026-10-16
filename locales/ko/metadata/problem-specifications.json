@@ -437,5 +437,8 @@
   "exercise:swift-scheduling:source": "Erik Schierboom",
   "exercise:trinary:source": "All of Computer Science",
   "exercise:twelve-days:source": "Wikipedia",
-  "exercise:zebra-puzzle:source": "Wikipedia"
+  "exercise:zebra-puzzle:source": "Wikipedia",
+  "exercise:resistor-color-tolerance:blurb": "여러 띠가 있는 저항기에 사용되는 색상 코드를 사람이 읽을 수 있는 레이블로 변환해요.",
+  "exercise:resistor-color-tolerance:title": "저항 색 허용 오차",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

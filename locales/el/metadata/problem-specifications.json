@@ -437,5 +437,8 @@
   "exercise:swift-scheduling:source": "Erik Schierboom",
   "exercise:trinary:source": "All of Computer Science",
   "exercise:twelve-days:source": "Wikipedia",
-  "exercise:zebra-puzzle:source": "Wikipedia"
+  "exercise:zebra-puzzle:source": "Wikipedia",
+  "exercise:resistor-color-tolerance:blurb": "Μετάτρεψε τους χρωματικούς κωδικούς που χρησιμοποιούνται σε αντιστάσεις με διαφορετικές ζώνες σε μια ευανάγνωστη ετικέτα.",
+  "exercise:resistor-color-tolerance:title": "Ανοχή Χρώματος Αντίστασης",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

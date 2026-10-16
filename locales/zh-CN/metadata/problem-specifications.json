@@ -437,5 +437,8 @@
   "exercise:swift-scheduling:source": "Erik Schierboom",
   "exercise:trinary:source": "All of Computer Science",
   "exercise:twelve-days:source": "Wikipedia",
-  "exercise:zebra-puzzle:source": "Wikipedia"
+  "exercise:zebra-puzzle:source": "Wikipedia",
+  "exercise:resistor-color-tolerance:blurb": "把电阻上不同色环所用的色码转换成人类可读的标签。",
+  "exercise:resistor-color-tolerance:title": "电阻色环容差",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

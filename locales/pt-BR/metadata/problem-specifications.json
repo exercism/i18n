@@ -437,5 +437,8 @@
   "exercise:gigasecond:title": "Gigassegundo",
   "exercise:gigasecond:blurb": "Dado um instante, determine o instante que ocorre depois de passar um gigassegundo.",
   "exercise:gigasecond:source": "Capítulo 9 do tutorial online Learn to Program, de Chris Pine.",
-  "exercise:minesweeper:deep_dive_blurb": "Vamos explorar laços for aninhados, o uso inteligente de min/max para simplificar a verificação de limites, pipelines funcionais e o uso de matrizes bidimensionais."
+  "exercise:minesweeper:deep_dive_blurb": "Vamos explorar laços for aninhados, o uso inteligente de min/max para simplificar a verificação de limites, pipelines funcionais e o uso de matrizes bidimensionais.",
+  "exercise:resistor-color-tolerance:blurb": "Converta códigos de cores, como os usados em resistores com diferentes faixas, para um rótulo legível para humanos.",
+  "exercise:resistor-color-tolerance:title": "Tolerância de cores de resistores",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

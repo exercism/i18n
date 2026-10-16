@@ -437,5 +437,8 @@
   "exercise:swift-scheduling:source": "Erik Schierboom",
   "exercise:trinary:source": "All of Computer Science",
   "exercise:twelve-days:source": "Wikipedia",
-  "exercise:zebra-puzzle:source": "Wikipedia"
+  "exercise:zebra-puzzle:source": "Wikipedia",
+  "exercise:resistor-color-tolerance:blurb": "異なるバンドを持つ抵抗器で使われるカラーコードを、人が読めるラベルに変換します。",
+  "exercise:resistor-color-tolerance:title": "抵抗器のカラーコードの許容差",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }
