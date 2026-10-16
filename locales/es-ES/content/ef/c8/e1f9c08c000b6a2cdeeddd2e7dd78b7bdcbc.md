@@ -1,0 +1,85 @@
+# Descripción
+
+En este ejercicio vas a crear un programa que te resultará útil para no tener que recordar los valores de las bandas.
+El programa recibirá 1, 4 o 5 colores como entrada y devolverá el valor correcto en ohmios.
+Las bandas de color se codifican del siguiente modo:
+
+| Color  | Valor |
+| ------ | ----- |
+| Black  | 0     |
+| Brown  | 1     |
+| Red    | 2     |
+| Orange | 3     |
+| Yellow | 4     |
+| Green  | 5     |
+| Blue   | 6     |
+| Violet | 7     |
+| Gray   | 8     |
+| White  | 9     |
+
+En [`Resistor Color Trio`][resistor-color-trio-exercise] descifraste las tres primeras bandas de color.
+Por ejemplo: orange-orange-brown se traduce al valor principal `330`.
+En este ejercicio tendrás que añadir también la _tolerancia_.
+La tolerancia es la cantidad máxima que un valor puede estar por encima o por debajo del valor principal.
+Por ejemplo, si la última banda es green, la tolerancia máxima será `±0.5%`.
+
+La banda de tolerancia tendrá uno de estos valores:
+
+| Color  | Tolerancia |
+| ------ | --------: |
+| Grey   |    ±0.05% |
+| Violet |    ±0.10% |
+| Blue   |    ±0.25% |
+| Green  |    ±0.50% |
+| Brown  |    ±1.00% |
+| Red    |    ±2.00% |
+| Gold   |    ±5.00% |
+| Silver |   ±10.00% |
+
+La resistencia de cuatro bandas se compone así:
+
+| Banda_1 | Banda_2 | Banda_3    | Banda_4   |
+| ------- | ------- | ---------- | --------- |
+| Valor_1 | Valor_2 | Multiplicador | Tolerancia |
+
+Ejemplos:
+
+- orange-orange-brown-green sería `330` ohmios con una tolerancia de `±0.5%`.
+- orange-orange-red-grey sería `3300` ohmios con una tolerancia de `±0.05%`.
+
+La diferencia entre una resistencia de cuatro bandas y una de cinco es que la de cinco bandas tiene una banda adicional que indica un valor más preciso.
+
+| Banda_1 | Banda_2 | Banda_3 | Banda_4    | Banda_5   |
+| ------- | ------- | ------- | ---------- | --------- |
+| Valor_1 | Valor_2 | Valor_3 | Multiplicador | Tolerancia |
+
+Ejemplos:
+
+- orange-orange-orange-black-green sería `333` ohmios con una tolerancia de `±0.5%`.
+- orange-red-orange-blue-violet sería `323 million` ohmios con una tolerancia de `±0.1%`.
+
+También existen resistencias de una sola banda.
+Las resistencias de una sola banda solo tienen el color black con un valor de 0.
+
+Tu programa debe convertir una `list` de entrada con los colores de las bandas de resistencia en una etiqueta:
+
+«... ohms ±...%»
+
+Así, una `list` de entrada `["orange", "orange", "black", "green"]` debería devolver:
+
+«33 ohms ±0.5%»
+
+Cuando hay miles de ohmios, decimos «kiloohms».
+Es parecido a decir «kilometer» para 1000 metros y «kilograms» para 1000 gramos.
+
+Así, una `list` de entrada `["orange", "orange", "orange", "grey"]` debería devolver:
+
+«33 kiloohms ±0.05%»
+
+Cuando hay millones de ohmios, decimos «megaohms».
+
+Así, una `list` de entrada `["orange", "orange", "blue", "red"]` debería devolver:
+
+«33 megaohms ±2%»
+
+[resistor-color-trio-exercise]: https://exercism.org/tracks/python/exercises/resistor-color-trio

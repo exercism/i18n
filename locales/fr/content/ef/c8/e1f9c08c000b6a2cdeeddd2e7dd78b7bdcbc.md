@@ -1,0 +1,85 @@
+# Description
+
+Dans cet exercice, tu vas créer un programme bien pratique pour ne plus avoir à te souvenir des valeurs des bandes.
+Le programme prendra en entrée 1, 4 ou 5 couleurs et renverra la valeur correcte en ohms.
+Les bandes de couleur sont encodées comme suit :
+
+| Couleur | Valeur |
+| ------- | ------ |
+| Black   | 0      |
+| Brown   | 1      |
+| Red     | 2      |
+| Orange  | 3      |
+| Yellow  | 4      |
+| Green   | 5      |
+| Blue    | 6      |
+| Violet  | 7      |
+| Gray    | 8      |
+| White   | 9      |
+
+Dans [`Resistor Color Trio`][resistor-color-trio-exercise], tu as décodé les trois premières bandes de couleur.
+Par exemple : orange-orange-brown correspond à la valeur principale `330`.
+Dans cet exercice, tu vas devoir ajouter la _tolérance_ à tout ça.
+La tolérance est l'écart maximal dont une valeur peut s'écarter au-dessus ou en dessous de la valeur principale.
+Par exemple, si la dernière bande est green, la tolérance maximale sera de `±0.5%`.
+
+La bande de tolérance aura l'une de ces valeurs :
+
+| Couleur | Tolérance |
+| ------- | --------: |
+| Grey    |    ±0.05% |
+| Violet  |    ±0.10% |
+| Blue    |    ±0.25% |
+| Green   |    ±0.50% |
+| Brown   |    ±1.00% |
+| Red     |    ±2.00% |
+| Gold    |    ±5.00% |
+| Silver  |   ±10.00% |
+
+La résistance à quatre bandes se compose ainsi :
+
+| Bande_1  | Bande_2  | Bande_3        | Bande_4   |
+| -------- | -------- | -------------- | --------- |
+| Valeur_1 | Valeur_2 | Multiplicateur | Tolérance |
+
+Exemples :
+
+- orange-orange-brown-green donnerait `330` ohms avec une tolérance de `±0.5%`.
+- orange-orange-red-grey donnerait `3300` ohms avec une tolérance de `±0.05%`.
+
+La différence entre une résistance à quatre bandes et une résistance à cinq bandes, c'est que la résistance à cinq bandes possède une bande supplémentaire qui indique une valeur plus précise.
+
+| Bande_1  | Bande_2  | Bande_3  | Bande_4        | Bande_5   |
+| -------- | -------- | -------- | -------------- | --------- |
+| Valeur_1 | Valeur_2 | Valeur_3 | Multiplicateur | Tolérance |
+
+Exemples :
+
+- orange-orange-orange-black-green donnerait `333` ohms avec une tolérance de `±0.5%`.
+- orange-red-orange-blue-violet donnerait `323 million` ohms avec une tolérance de `±0.1%`.
+
+Il existe aussi des résistances à une seule bande.
+Les résistances à une bande n'ont que la couleur black, avec une valeur de 0.
+
+Ton programme doit prendre en entrée une `list` de couleurs de bandes de résistance et la convertir en une étiquette :
+
+« ... ohms ±...% »
+
+Ainsi, une `list` en entrée `["orange", "orange", "black", "green"]` doit renvoyer :
+
+« 33 ohms ±0.5% »
+
+Quand il y a des milliers d'ohms, on dit « kiloohms ».
+C'est un peu comme dire « kilomètre » pour 1000 mètres et « kilogramme » pour 1000 grammes.
+
+Ainsi, une `list` en entrée `["orange", "orange", "orange", "grey"]` doit renvoyer :
+
+« 33 kiloohms ±0.05% »
+
+Quand il y a des millions d'ohms, on dit « megaohms ».
+
+Ainsi, une `list` en entrée `["orange", "orange", "blue", "red"]` doit renvoyer :
+
+« 33 megaohms ±2% »
+
+[resistor-color-trio-exercise]: https://exercism.org/tracks/python/exercises/resistor-color-trio

@@ -475,7 +475,8 @@ This page is generated from [the index](../../json/fr/problem-specifications.jso
 
 ### Resistor Color Tolerance (Tolérance des couleurs de résistance)
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/resistor-color-tolerance/description.md)): [Latest](../../../locales/fr/content/d4/7c/b16ab41d77f14012aa04003f1f94b1c276c4.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/resistor-color-tolerance/description.md)): [Latest](../../../locales/fr/content/ef/c8/e1f9c08c000b6a2cdeeddd2e7dd78b7bdcbc.md)
+  - [`d47cb16ab4`](../../../locales/fr/content/d4/7c/b16ab41d77f14012aa04003f1f94b1c276c4.md)
 
 ### Resistor Color Trio (Trio de couleurs de résistance)
 

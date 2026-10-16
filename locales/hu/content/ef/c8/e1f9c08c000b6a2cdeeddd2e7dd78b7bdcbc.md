@@ -1,0 +1,85 @@
+# Leírás
+
+Ebben a feladatban egy hasznos programot készítesz, hogy ne kelljen megjegyezned a színsávok értékeit.
+A program bemenetként 1, 4 vagy 5 színt kap, és a helyes értéket adja ki ohmban.
+A színsávok kódolása a következő:
+
+| Szín     | Érték |
+|----------|-------|
+| Black    | 0     |
+| Brown    | 1     |
+| Red      | 2     |
+| Orange   | 3     |
+| Yellow   | 4     |
+| Green    | 5     |
+| Blue     | 6     |
+| Violet   | 7     |
+| Gray     | 8     |
+| White    | 9     |
+
+A [`Resistor Color Trio`][resistor-color-trio-exercise] feladatban az első három színsávot dekódoltad.
+Például az orange-orange-brown a `330` alaperedményt adja.
+Ebben a feladatban a _tűrést_ is figyelembe kell venned.
+A tűrés azt mutatja meg, hogy egy érték legfeljebb mennyivel lehet az alaperedmény fölött vagy alatt.
+Például ha az utolsó sáv a green, akkor a maximális tűrés `±0.5%`.
+
+A tűréssáv a következő értékek egyikét veszi fel:
+
+| Szín   | Tűrés     |
+|--------|----------:|
+| Grey   | ±0.05%    |
+| Violet | ±0.10%    |
+| Blue   | ±0.25%    |
+| Green  | ±0.50%    |
+| Brown  | ±1.00%    |
+| Red    | ±2.00%    |
+| Gold   | ±5.00%    |
+| Silver | ±10.00%   |
+
+A négysávos ellenállás felépítése a következő:
+
+| 1. sáv   | 2. sáv   | 3. sáv | 4. sáv |
+| -------- | -------- | ------ | ------ |
+| 1. érték | 2. érték | Szorzó | Tűrés  |
+
+Példák:
+
+- az orange-orange-brown-green `330` ohmot jelent `±0.5%` tűréssel.
+- az orange-orange-red-grey `3300` ohmot jelent `±0.05%` tűréssel.
+
+A négy- és az ötsávos ellenállás között az a különbség, hogy az ötsávoson van egy plusz sáv, amellyel pontosabb értéket lehet jelezni.
+
+| 1. sáv   | 2. sáv   | 3. sáv   | 4. sáv | 5. sáv |
+| -------- | -------- | -------- | ------ | ------ |
+| 1. érték | 2. érték | 3. érték | Szorzó | Tűrés  |
+
+Példák:
+
+- az orange-orange-orange-black-green `333` ohmot jelent `±0.5%` tűréssel.
+- az orange-red-orange-blue-violet `323 million` ohmot jelent `±0.1%` tűréssel.
+
+Léteznek egysávos ellenállások is.
+Az egysávos ellenállásokon csak a black szín található, értéke 0.
+
+A programodnak az ellenállás színsávjait tartalmazó bemeneti `list`-et egy ilyen címkévé kell alakítania:
+
+„... ohms ±...%”
+
+Tehát a `["orange", "orange", "black", "green"]` bemeneti `list` esetén ezt kell visszaadnia:
+
+„33 ohms ±0.5%”
+
+Amikor az érték több ezer ohm, „kiloohms”-nak mondjuk.
+Ez ahhoz hasonló, mint amikor 1000 métert „kilométer”-nek, 1000 grammot pedig „kilogramm”-nak mondunk.
+
+Tehát a `["orange", "orange", "orange", "grey"]` bemeneti `list` esetén ezt kell visszaadnia:
+
+„33 kiloohms ±0.05%”
+
+Amikor az érték több millió ohm, „megaohms”-nak mondjuk.
+
+Tehát a `["orange", "orange", "blue", "red"]` bemeneti `list` esetén ezt kell visszaadnia:
+
+„33 megaohms ±2%”
+
+[resistor-color-trio-exercise]: https://exercism.org/tracks/python/exercises/resistor-color-trio

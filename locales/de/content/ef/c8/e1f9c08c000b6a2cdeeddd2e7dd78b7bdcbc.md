@@ -1,0 +1,85 @@
+# Beschreibung
+
+In dieser Übung erstellst du ein hilfreiches Programm, damit du dir die Werte der Farbringe nicht merken musst.
+Das Programm nimmt 1, 4 oder 5 Farben als Eingabe und gibt den korrekten Wert in ohms aus.
+Die Farbringe sind wie folgt codiert:
+
+| Farbe  | Wert |
+| ------ | ---- |
+| Black  | 0    |
+| Brown  | 1    |
+| Red    | 2    |
+| Orange | 3    |
+| Yellow | 4    |
+| Green  | 5    |
+| Blue   | 6    |
+| Violet | 7    |
+| Gray   | 8    |
+| White  | 9    |
+
+In [`Resistor Color Trio`][resistor-color-trio-exercise] hast du die ersten drei Farbringe entschlüsselt.
+Zum Beispiel: orange-orange-brown ergibt den Hauptwert `330`.
+In dieser Übung musst du dem Ganzen noch die _Toleranz_ hinzufügen.
+Die Toleranz ist der maximale Betrag, um den ein Wert über oder unter dem Hauptwert liegen kann.
+Wenn der letzte Ring zum Beispiel green ist, beträgt die maximale Toleranz `±0.5%`.
+
+Der Toleranzring hat einen der folgenden Werte:
+
+| Farbe  | Toleranz |
+| ------ | -------: |
+| Grey   |    ±0.05% |
+| Violet |    ±0.10% |
+| Blue   |    ±0.25% |
+| Green  |    ±0.50% |
+| Brown  |    ±1.00% |
+| Red    |    ±2.00% |
+| Gold   |    ±5.00% |
+| Silver |   ±10.00% |
+
+Ein Widerstand mit vier Ringen ist so aufgebaut:
+
+| Ring_1  | Ring_2  | Ring_3        | Ring_4    |
+| ------- | ------- | ------------- | --------- |
+| Wert_1  | Wert_2  | Multiplikator | Toleranz  |
+
+Beispiele:
+
+- orange-orange-brown-green ergibt `330` ohms mit einer Toleranz von `±0.5%`.
+- orange-orange-red-grey ergibt `3300` ohms mit einer Toleranz von `±0.05%`.
+
+Der Unterschied zwischen einem Widerstand mit vier und einem mit fünf Ringen besteht darin, dass der Widerstand mit fünf Ringen einen zusätzlichen Ring hat, um einen genaueren Wert anzugeben.
+
+| Ring_1  | Ring_2  | Ring_3  | Ring_4        | Ring_5    |
+| ------- | ------- | ------- | ------------- | --------- |
+| Wert_1  | Wert_2  | Wert_3  | Multiplikator | Toleranz  |
+
+Beispiele:
+
+- orange-orange-orange-black-green ergibt `333` ohms mit einer Toleranz von `±0.5%`.
+- orange-red-orange-blue-violet ergibt `323 million` ohms mit einer Toleranz von `±0.1%`.
+
+Es gibt auch Widerstände mit nur einem Ring.
+Widerstände mit nur einem Ring haben nur die Farbe black mit dem Wert 0.
+
+Dein Programm soll eine `list` mit den Farben der Widerstandsringe als Eingabe in ein Label umwandeln:
+
+„... ohms ±...%“
+
+Eine `list` mit `["orange", "orange", "black", "green"]` als Eingabe sollte also Folgendes zurückgeben:
+
+„33 ohms ±0.5%“
+
+Wenn es Tausende von ohms sind, sagen wir „kiloohms“.
+Das ist so ähnlich, wie man „Kilometer“ für 1000 Meter und „Kilogramm“ für 1000 Gramm sagt.
+
+Eine `list` mit `["orange", "orange", "orange", "grey"]` als Eingabe sollte also Folgendes zurückgeben:
+
+„33 kiloohms ±0.05%“
+
+Wenn es Millionen von ohms sind, sagen wir „megaohms“.
+
+Eine `list` mit `["orange", "orange", "blue", "red"]` als Eingabe sollte also Folgendes zurückgeben:
+
+„33 megaohms ±2%“
+
+[resistor-color-trio-exercise]: https://exercism.org/tracks/python/exercises/resistor-color-trio
