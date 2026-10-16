@@ -1099,7 +1099,8 @@ This page is generated from [the index](../../json/pt-BR/factor.json) by `script
 
 ### Installing Factor locally (Instalando o Factor localmente)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/factor/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/pt-BR/content/b6/cd/d3c0d9482f32dbeb72cc334ec44e8c32b201.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/factor/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/pt-BR/content/ef/3e/2331bbb8a145710361d12774f2574e70a342.md)
+  - [`b6cdd3c0d9`](../../../locales/pt-BR/content/b6/cd/d3c0d9482f32dbeb72cc334ec44e8c32b201.md)
 
 ### Testing on the Factor track (Testes na trilha de Factor)
 
@@ -1113,8 +1114,10 @@ This page is generated from [the index](../../json/pt-BR/factor.json) by `script
 
 ### help.md
 
-- `help.md` ([English](https://github.com/exercism/factor/blob/main/exercises/shared/.docs/help.md)): [Latest](../../../locales/pt-BR/content/13/2e/b4c4d5f765cf335762ecd5ffe7f0e4d5e2e0.md)
+- `help.md` ([English](https://github.com/exercism/factor/blob/main/exercises/shared/.docs/help.md)): [Latest](../../../locales/pt-BR/content/5d/c7/69e9e34181148c9b3d0978b8a442d0a4ba11.md)
+  - [`132eb4c4d5`](../../../locales/pt-BR/content/13/2e/b4c4d5f765cf335762ecd5ffe7f0e4d5e2e0.md)
 
 ### tests.md
 
-- `tests.md` ([English](https://github.com/exercism/factor/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/pt-BR/content/45/9b/dca8dbf9b07b929d431e26787b214c5201a3.md)
+- `tests.md` ([English](https://github.com/exercism/factor/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/pt-BR/content/71/50/0091172498d0936bf6dddf701f900a875b7a.md)
+  - [`459bdca8db`](../../../locales/pt-BR/content/45/9b/dca8dbf9b07b929d431e26787b214c5201a3.md)

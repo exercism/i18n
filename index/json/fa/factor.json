@@ -315,7 +315,7 @@
     "concepts/words/about.md": ["b32421469ebaa155d574dc8e82c41bc548e445a9"],
     "concepts/words/introduction.md": ["3e5757d67d8ba05cdeac07808294cd32dca2b367"],
     "docs/ABOUT.md": ["1002818fe861b511dd62c1799c0aa736ebc7f88f"],
-    "docs/INSTALLATION.md": ["b6cdd3c0d9482f32dbeb72cc334ec44e8c32b201"],
+    "docs/INSTALLATION.md": ["ef3e2331bbb8a145710361d12774f2574e70a342","b6cdd3c0d9482f32dbeb72cc334ec44e8c32b201"],
     "docs/LEARNING.md": ["0359d38a3af1b6cb7c0cf13d619d17691a040a79"],
     "docs/RESOURCES.md": ["b6a5c1f87709111c3b58d48db4e42aac05b5eab0"],
     "docs/TESTS.md": ["8e6bd64d989ea21757063d91bba88b688d49ebc4"],
@@ -664,8 +664,8 @@
     "exercises/practice/yacht/.docs/introduction.md": ["5b541f5625ce0d5916f9545a824de17a55d433f1"],
     "exercises/practice/zebra-puzzle/.docs/instructions.md": ["aedce9b25e7ed65c8f05d32cdae4cbd12adbb245"],
     "exercises/practice/zebra-puzzle/.docs/introduction.md": ["bbcaa6fd203b1287d74439822b072473408e4799"],
-    "exercises/shared/.docs/help.md": ["132eb4c4d5f765cf335762ecd5ffe7f0e4d5e2e0"],
-    "exercises/shared/.docs/tests.md": ["459bdca8dbf9b07b929d431e26787b214c5201a3"]
+    "exercises/shared/.docs/help.md": ["5dc769e9e34181148c9b3d0978b8a442d0a4ba11","132eb4c4d5f765cf335762ecd5ffe7f0e4d5e2e0"],
+    "exercises/shared/.docs/tests.md": ["71500091172498d0936bf6dddf701f900a875b7a","459bdca8dbf9b07b929d431e26787b214c5201a3"]
   },
   "repo": "factor"
 }
