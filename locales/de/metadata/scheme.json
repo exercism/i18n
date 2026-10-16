@@ -172,5 +172,7 @@
   "exercise:yacht:source": "James Kilfiger, unter Verwendung von Wikipedia",
   "exercise:palindrome-products:name": "Palindromprodukte",
   "exercise:palindrome-products:blurb": "Finde Palindromprodukte in einem gegebenen Bereich.",
-  "exercise:palindrome-products:source": "Problem 4 bei Project Euler"
+  "exercise:palindrome-products:source": "Problem 4 bei Project Euler",
+  "exercise:all-your-base:name": "All Your Base",
+  "exercise:all-your-base:blurb": "Wandle eine Zahl, die als Ziffernfolge in einer Basis dargestellt ist, in eine beliebige andere Basis um."
 }

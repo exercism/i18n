@@ -172,5 +172,7 @@
   "exercise:yacht:source": "James Kilfiger, Wikipedia 참고",
   "exercise:palindrome-products:name": "회문 곱",
   "exercise:palindrome-products:blurb": "주어진 범위에서 회문이 되는 곱을 찾아내요.",
-  "exercise:palindrome-products:source": "Project Euler의 Problem 4"
+  "exercise:palindrome-products:source": "Project Euler의 Problem 4",
+  "exercise:all-your-base:name": "All Your Base",
+  "exercise:all-your-base:blurb": "어떤 진법에서 숫자 열로 표현된 수를 다른 진법으로 변환해요."
 }

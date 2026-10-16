@@ -172,5 +172,7 @@
   "exercise:yacht:source": "James Kilfiger, за матеріалами Wikipedia",
   "exercise:palindrome-products:name": "Паліндромні добутки",
   "exercise:palindrome-products:blurb": "Знайдіть паліндромні добутки в заданому діапазоні.",
-  "exercise:palindrome-products:source": "Задача 4 з Project Euler"
+  "exercise:palindrome-products:source": "Задача 4 з Project Euler",
+  "exercise:all-your-base:name": "All Your Base",
+  "exercise:all-your-base:blurb": "Перетворіть число, подане як послідовність цифр в одній основі, на будь-яку іншу основу."
 }

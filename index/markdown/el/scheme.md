@@ -21,6 +21,11 @@ This page is generated from [the index](../../json/el/scheme.json) by `scripts/b
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/affine-cipher/.docs/instructions.md)): [Latest](../../../locales/el/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
   - [`f6329db936`](../../../locales/el/content/f6/32/9db93698c3acd110ab970d9db0221e13ceb4.md)
 
+### All Your Base
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/all-your-base/.docs/instructions.md)): [Latest](../../../locales/el/content/1b/68/8b6915eb31f5ee6c3b67d2803024a353806e.md)
+- `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/all-your-base/.docs/introduction.md)): [Latest](../../../locales/el/content/68/aa/ffbed953c276623458752955558a09819203.md)
+
 ### Anagram (Ανάγραμμα)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/anagram/.docs/instructions.md)): [Latest](../../../locales/el/content/dc/a2/4f52627e3ba6b999322fb89d8c686c3ec634.md)

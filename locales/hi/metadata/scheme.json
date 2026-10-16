@@ -172,5 +172,7 @@
   "exercise:yacht:source": "James Kilfiger, विकिपीडिया का उपयोग करके।",
   "exercise:palindrome-products:name": "पैलिंड्रोम गुणनफल",
   "exercise:palindrome-products:blurb": "दी गई रेंज में पैलिंड्रोम गुणनफल ढूँढिए।",
-  "exercise:palindrome-products:source": "Project Euler पर Problem 4"
+  "exercise:palindrome-products:source": "Project Euler पर Problem 4",
+  "exercise:all-your-base:name": "All Your Base",
+  "exercise:all-your-base:blurb": "एक आधार में अंकों के क्रम के रूप में दी गई संख्या को किसी भी दूसरे आधार में बदलिए।"
 }

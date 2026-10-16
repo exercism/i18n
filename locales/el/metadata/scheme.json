@@ -172,5 +172,7 @@
   "exercise:yacht:source": "James Kilfiger, χρησιμοποιώντας τη Βικιπαίδεια",
   "exercise:palindrome-products:name": "Παλίνδρομα γινόμενα",
   "exercise:palindrome-products:blurb": "Εντόπισε παλίνδρομα γινόμενα σε ένα δεδομένο εύρος.",
-  "exercise:palindrome-products:source": "Το πρόβλημα 4 στο Project Euler"
+  "exercise:palindrome-products:source": "Το πρόβλημα 4 στο Project Euler",
+  "exercise:all-your-base:name": "All Your Base",
+  "exercise:all-your-base:blurb": "Μετέτρεψε έναν αριθμό, που αναπαρίσταται ως ακολουθία ψηφίων σε μια βάση, σε οποιαδήποτε άλλη βάση."
 }

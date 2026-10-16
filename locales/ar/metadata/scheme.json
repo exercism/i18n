@@ -172,5 +172,7 @@
   "exercise:yacht:source": "James Kilfiger، بالاستعانة بـ Wikipedia",
   "exercise:palindrome-products:name": "حاصلات ضرب متناظرة",
   "exercise:palindrome-products:blurb": "اكتشف حاصلات الضرب المتناظرة ضمن نطاق معطى.",
-  "exercise:palindrome-products:source": "المسألة 4 في Project Euler"
+  "exercise:palindrome-products:source": "المسألة 4 في Project Euler",
+  "exercise:all-your-base:name": "All Your Base",
+  "exercise:all-your-base:blurb": "حوّل عددًا، ممثَّلًا كتسلسل من الأرقام في أساس ما، إلى أي أساس آخر."
 }

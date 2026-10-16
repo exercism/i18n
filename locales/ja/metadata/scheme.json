@@ -172,5 +172,7 @@
   "exercise:yacht:source": "James Kilfiger（Wikipediaより）",
   "exercise:palindrome-products:name": "回文の積",
   "exercise:palindrome-products:blurb": "与えられた範囲の中から、回文になる積を見つけます。",
-  "exercise:palindrome-products:source": "Project EulerのProblem 4"
+  "exercise:palindrome-products:source": "Project EulerのProblem 4",
+  "exercise:all-your-base:name": "All Your Base",
+  "exercise:all-your-base:blurb": "ある基数の桁の並びとして表された数値を、別の基数に変換してください。"
 }

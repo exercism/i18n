@@ -172,5 +172,7 @@
   "exercise:yacht:source": "James Kilfiger, Wikipedia ব্যবহার করে",
   "exercise:palindrome-products:name": "প্যালিনড্রোম গুণফল",
   "exercise:palindrome-products:blurb": "প্রদত্ত একটি পরিসরে প্যালিনড্রোম গুণফল শনাক্ত করুন।",
-  "exercise:palindrome-products:source": "Project Euler-এর Problem 4।"
+  "exercise:palindrome-products:source": "Project Euler-এর Problem 4।",
+  "exercise:all-your-base:name": "অল ইওর বেস",
+  "exercise:all-your-base:blurb": "একটি বেসে অঙ্কের ক্রম হিসেবে লেখা একটি সংখ্যাকে যেকোনো অন্য বেসে রূপান্তর করুন।"
 }

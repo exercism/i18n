@@ -172,5 +172,7 @@
   "exercise:yacht:source": "James Kilfiger, com base na Wikipédia",
   "exercise:palindrome-products:name": "Produtos palíndromos",
   "exercise:palindrome-products:blurb": "Deteta produtos palíndromos num determinado intervalo.",
-  "exercise:palindrome-products:source": "Problema 4 do Project Euler"
+  "exercise:palindrome-products:source": "Problema 4 do Project Euler",
+  "exercise:all-your-base:name": "All Your Base",
+  "exercise:all-your-base:blurb": "Converte um número, representado como uma sequência de algarismos numa base, para qualquer outra base."
 }

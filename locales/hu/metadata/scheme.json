@@ -172,5 +172,7 @@
   "exercise:yacht:source": "James Kilfiger, a Wikipédiát használva",
   "exercise:palindrome-products:name": "Palindrom szorzatok",
   "exercise:palindrome-products:blurb": "Keresd meg a palindrom szorzatokat egy adott tartományban.",
-  "exercise:palindrome-products:source": "A Project Euler 4. feladata"
+  "exercise:palindrome-products:source": "A Project Euler 4. feladata",
+  "exercise:all-your-base:name": "All Your Base",
+  "exercise:all-your-base:blurb": "Alakíts át egy számot, amely egy adott számrendszer számjegyeinek sorozataként áll elő, bármely más számrendszerbe."
 }
