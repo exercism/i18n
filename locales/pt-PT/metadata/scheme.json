@@ -186,5 +186,8 @@
   "exercise:variable-length-quantity:source": "Um pobre programador da Splice que teve de implementar a codificação e a descodificação MIDI.",
   "exercise:book-store:name": "Livraria",
   "exercise:book-store:blurb": "Para tentar aumentar as vendas dos diferentes livros de uma popular série de 5 livros, uma livraria decidiu oferecer descontos na compra de vários livros.",
-  "exercise:book-store:source": "Inspirado no harry potter kata do Cyber-Dojo."
+  "exercise:book-store:source": "Inspirado no harry potter kata do Cyber-Dojo.",
+  "exercise:pythagorean-triplet:name": "Terno pitagórico",
+  "exercise:pythagorean-triplet:blurb": "Dado um número inteiro N, encontra todos os ternos pitagóricos para os quais a + b + c = N.",
+  "exercise:pythagorean-triplet:source": "Uma variação do Problema 9 do Project Euler"
 }

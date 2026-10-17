@@ -186,5 +186,8 @@
   "exercise:variable-length-quantity:source": "একজন বেচারা Splice ডেভেলপার, যাকে MIDI এনকোডিং/ডিকোডিং বাস্তবায়ন করতে হয়েছিল।",
   "exercise:book-store:name": "বইয়ের দোকান",
   "exercise:book-store:blurb": "একটি জনপ্রিয় ৫-বইয়ের সিরিজের বিভিন্ন বইয়ের বিক্রি বাড়ানোর চেষ্টায় একটি বইয়ের দোকান একাধিক বই কেনার উপর ছাড় দেওয়ার সিদ্ধান্ত নিয়েছে।",
-  "exercise:book-store:source": "Cyber-Dojo-এর harry potter kata থেকে অনুপ্রাণিত।"
+  "exercise:book-store:source": "Cyber-Dojo-এর harry potter kata থেকে অনুপ্রাণিত।",
+  "exercise:pythagorean-triplet:name": "পিথাগোরীয় ত্রয়ী",
+  "exercise:pythagorean-triplet:blurb": "একটি পূর্ণসংখ্যা N দেওয়া থাকলে, যেসব পিথাগোরীয় ত্রয়ীর জন্য a + b + c = N, সেগুলো খুঁজে বের করুন।",
+  "exercise:pythagorean-triplet:source": "Project Euler-এর Problem 9-এর একটি ভিন্ন রূপ"
 }

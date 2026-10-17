@@ -186,5 +186,8 @@
   "exercise:variable-length-quantity:source": "出自一位可怜的 Splice 开发者，他不得不实现 MIDI 的编码和解码。",
   "exercise:book-store:name": "书店",
   "exercise:book-store:blurb": "为了促进一套热门 5 卷丛书里各册图书的销量，一家书店决定对多本一起购买的订单提供折扣。",
-  "exercise:book-store:source": "灵感来自 Cyber-Dojo 上的 harry potter kata。"
+  "exercise:book-store:source": "灵感来自 Cyber-Dojo 上的 harry potter kata。",
+  "exercise:pythagorean-triplet:name": "毕达哥拉斯三元组",
+  "exercise:pythagorean-triplet:blurb": "给定整数 N，找出所有满足 a + b + c = N 的毕达哥拉斯三元组。",
+  "exercise:pythagorean-triplet:source": "Project Euler 第 9 题的变体"
 }

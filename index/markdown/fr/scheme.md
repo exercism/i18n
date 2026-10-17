@@ -194,6 +194,11 @@ This page is generated from [the index](../../json/fr/scheme.json) by `scripts/b
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/protein-translation/.docs/instructions.md)): [Latest](../../../locales/fr/content/35/c9/53b11f9642c30978222e743aff4dc38f1451.md)
 - `instructions.append.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/protein-translation/.docs/instructions.append.md)): [Latest](../../../locales/fr/content/ca/cd/31bfbf7fcbc87c864d235f9b567a6dfc934c.md)
 
+### Pythagorean Triplet (Triplet pythagoricien)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/pythagorean-triplet/.docs/instructions.md)): [Latest](../../../locales/fr/content/ce/d8/33d7a5b09a55ae68cc498c1997700bbcb45c.md)
+- `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/pythagorean-triplet/.docs/introduction.md)): [Latest](../../../locales/fr/content/34/53/c6ed48f511c52467f009f5483cd0664caea2.md)
+
 ### Queen Attack (Attaque de la dame)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/queen-attack/.docs/instructions.md)): [Latest](../../../locales/fr/content/97/f2/2a0aee13f74801df153121aeb04104f68dbd.md)

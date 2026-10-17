@@ -186,5 +186,8 @@
   "exercise:variable-length-quantity:source": "یک توسعه‌دهنده‌ی بیچاره در Splice که مجبور شده رمزگذاری و رمزگشایی MIDI را پیاده‌سازی کند.",
   "exercise:book-store:name": "کتاب‌فروشی",
   "exercise:book-store:blurb": "برای تشویق فروش بیشتر کتاب‌های مختلف از یک مجموعه‌ی محبوب ۵ جلدی، یک کتاب‌فروشی تصمیم گرفته است برای خرید چند کتاب به‌طور همزمان تخفیف ارائه دهد.",
-  "exercise:book-store:source": "الهام‌گرفته از کاتای harry potter از Cyber-Dojo."
+  "exercise:book-store:source": "الهام‌گرفته از کاتای harry potter از Cyber-Dojo.",
+  "exercise:pythagorean-triplet:name": "سه‌گانه‌ی فیثاغورسی",
+  "exercise:pythagorean-triplet:blurb": "با داشتن عدد صحیح N، همه‌ی سه‌گانه‌های فیثاغورسی را بیابید که در آن‌ها a + b + c = N باشد.",
+  "exercise:pythagorean-triplet:source": "گونه‌ای از مسئله‌ی ۹ در Project Euler"
 }

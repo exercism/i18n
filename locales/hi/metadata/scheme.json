@@ -186,5 +186,8 @@
   "exercise:variable-length-quantity:source": "एक बेचारा Splice डेवलपर, जिसे MIDI की एन्कोडिंग/डिकोडिंग लागू करनी पड़ी।",
   "exercise:book-store:name": "किताबों की दुकान",
   "exercise:book-store:blurb": "एक लोकप्रिय 5 किताबों की सीरीज़ की अलग-अलग किताबों की बिक्री बढ़ाने के लिए एक किताबों की दुकान ने एक साथ कई किताबें खरीदने पर छूट देने का फैसला किया है।",
-  "exercise:book-store:source": "Cyber-Dojo के harry potter kata से प्रेरित।"
+  "exercise:book-store:source": "Cyber-Dojo के harry potter kata से प्रेरित।",
+  "exercise:pythagorean-triplet:name": "पाइथागोरस त्रिक",
+  "exercise:pythagorean-triplet:blurb": "पूर्णांक N दिया है; ऐसे सभी पाइथागोरस त्रिक खोजिए जिनके लिए a + b + c = N हो।",
+  "exercise:pythagorean-triplet:source": "Project Euler की समस्या 9 का एक रूपांतर"
 }

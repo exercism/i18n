@@ -186,5 +186,8 @@
   "exercise:variable-length-quantity:source": "MIDI 인코딩/디코딩을 구현해야 했던 Splice의 가여운 개발자.",
   "exercise:book-store:name": "서점",
   "exercise:book-store:blurb": "인기 있는 5권 시리즈의 여러 책을 더 많이 팔려고, 어느 서점이 여러 권을 구매하면 할인을 제공하기로 했어요.",
-  "exercise:book-store:source": "Cyber-Dojo의 harry potter kata에서 영감을 받았어요."
+  "exercise:book-store:source": "Cyber-Dojo의 harry potter kata에서 영감을 받았어요.",
+  "exercise:pythagorean-triplet:name": "피타고라스 삼조",
+  "exercise:pythagorean-triplet:blurb": "정수 N이 주어졌을 때, a + b + c = N을 만족하는 모든 피타고라스 삼조를 찾아요.",
+  "exercise:pythagorean-triplet:source": "Project Euler의 9번 문제를 변형한 것이에요."
 }

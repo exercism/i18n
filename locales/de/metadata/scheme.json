@@ -186,5 +186,8 @@
   "exercise:variable-length-quantity:source": "Ein armer Splice-Entwickler, der MIDI-Kodierung/-Dekodierung implementieren musste.",
   "exercise:book-store:name": "Buchladen",
   "exercise:book-store:blurb": "Um den Verkauf verschiedener Bücher aus einer beliebten fünfbändigen Reihe anzukurbeln, hat ein Buchladen beschlossen, Rabatte beim Kauf mehrerer Bücher anzubieten.",
-  "exercise:book-store:source": "Inspiriert von der Harry-Potter-Kata von Cyber-Dojo."
+  "exercise:book-store:source": "Inspiriert von der Harry-Potter-Kata von Cyber-Dojo.",
+  "exercise:pythagorean-triplet:name": "Pythagoreisches Tripel",
+  "exercise:pythagorean-triplet:blurb": "Finde zu einer gegebenen Ganzzahl N alle pythagoreischen Tripel, für die a + b + c = N gilt.",
+  "exercise:pythagorean-triplet:source": "Eine Variation von Problem 9 aus Project Euler"
 }

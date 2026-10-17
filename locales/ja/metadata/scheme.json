@@ -186,5 +186,8 @@
   "exercise:variable-length-quantity:source": "MIDIのエンコードとデコードを実装することになった、かわいそうなSpliceのエンジニア",
   "exercise:book-store:name": "書店",
   "exercise:book-store:blurb": "人気の5冊シリーズの本をもっと売るために、ある書店が複数冊の購入に割引を付けることにしました。",
-  "exercise:book-store:source": "Cyber-Dojoのharry potter kataに着想を得たものです。"
+  "exercise:book-store:source": "Cyber-Dojoのharry potter kataに着想を得たものです。",
+  "exercise:pythagorean-triplet:name": "ピタゴラスの三つ組",
+  "exercise:pythagorean-triplet:blurb": "整数Nが与えられたとき、a + b + c = Nを満たすピタゴラスの三つ組をすべて求めます。",
+  "exercise:pythagorean-triplet:source": "Project EulerのProblem 9のバリエーションです。"
 }
