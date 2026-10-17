@@ -203,6 +203,11 @@ This page is generated from [the index](../../json/hu/scheme.json) by `scripts/b
   - [`6e36daefe7`](../../../locales/hu/content/6e/36/daefe7c70ec2893761f126bbe7ba38cf6dd5.md)
 - `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/phone-number/.docs/introduction.md)): [Latest](../../../locales/hu/content/c4/14/2c5af7289f74bf05d04c4563e2968a639cd2.md)
 
+### Pig Latin (Malaclatin)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/pig-latin/.docs/instructions.md)): [Latest](../../../locales/hu/content/a9/64/5ac236fe312760f0c7f6a3e5c8137114c92f.md)
+- `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/pig-latin/.docs/introduction.md)): [Latest](../../../locales/hu/content/04/ba/a47586f616a397cd8973490a67937af067cd.md)
+
 ### Prime Factors (Prímtényezők)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/prime-factors/.docs/instructions.md)): [Latest](../../../locales/hu/content/25/2c/c8ee1853f4d7f7721273eee09e988a2f7421.md)

@@ -177,5 +177,8 @@
   "exercise:all-your-base:blurb": "एक आधार में अंकों के क्रम के रूप में दी गई संख्या को किसी भी दूसरे आधार में बदलिए।",
   "exercise:protein-translation:name": "प्रोटीन अनुवाद",
   "exercise:protein-translation:blurb": "RNA अनुक्रमों का प्रोटीन में अनुवाद कीजिए।",
-  "exercise:protein-translation:source": "Tyler Long"
+  "exercise:protein-translation:source": "Tyler Long",
+  "exercise:pig-latin:name": "पिग लैटिन",
+  "exercise:pig-latin:blurb": "ऐसा प्रोग्राम बनाइए जो अंग्रेज़ी से पिग लैटिन में अनुवाद करे।",
+  "exercise:pig-latin:source": "Test First Teaching पर Ultrasaurus का पिग लैटिन अभ्यास"
 }

@@ -177,5 +177,8 @@
   "exercise:all-your-base:blurb": "Wandle eine Zahl, die als Ziffernfolge in einer Basis dargestellt ist, in eine beliebige andere Basis um.",
   "exercise:protein-translation:name": "Protein-Translation",
   "exercise:protein-translation:blurb": "Übersetze RNA-Sequenzen in Proteine.",
-  "exercise:protein-translation:source": "Tyler Long"
+  "exercise:protein-translation:source": "Tyler Long",
+  "exercise:pig-latin:name": "Pig Latin",
+  "exercise:pig-latin:blurb": "Schreibe ein Programm, das Englisch in Pig Latin übersetzt.",
+  "exercise:pig-latin:source": "Die Pig-Latin-Übung bei Test First Teaching von Ultrasaurus"
 }

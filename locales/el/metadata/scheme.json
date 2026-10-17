@@ -177,5 +177,8 @@
   "exercise:all-your-base:blurb": "Μετέτρεψε έναν αριθμό, που αναπαρίσταται ως ακολουθία ψηφίων σε μια βάση, σε οποιαδήποτε άλλη βάση.",
   "exercise:protein-translation:name": "Μετάφραση πρωτεϊνών",
   "exercise:protein-translation:blurb": "Μετάφρασε αλληλουχίες RNA σε πρωτεΐνες.",
-  "exercise:protein-translation:source": "Tyler Long"
+  "exercise:protein-translation:source": "Tyler Long",
+  "exercise:pig-latin:name": "Pig Latin",
+  "exercise:pig-latin:blurb": "Υλοποίησε ένα πρόγραμμα που μεταφράζει από τα αγγλικά σε Pig Latin.",
+  "exercise:pig-latin:source": "Η άσκηση Pig Latin στο Test First Teaching του Ultrasaurus"
 }

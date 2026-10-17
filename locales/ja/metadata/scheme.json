@@ -177,5 +177,8 @@
   "exercise:all-your-base:blurb": "ある基数の桁の並びとして表された数値を、別の基数に変換してください。",
   "exercise:protein-translation:name": "タンパク質の翻訳",
   "exercise:protein-translation:blurb": "RNAの配列をタンパク質に翻訳します。",
-  "exercise:protein-translation:source": "Tyler Long"
+  "exercise:protein-translation:source": "Tyler Long",
+  "exercise:pig-latin:name": "ピッグ・ラテン",
+  "exercise:pig-latin:blurb": "英語からピッグ・ラテンへ変換するプログラムを実装します。",
+  "exercise:pig-latin:source": "UltrasaurusによるTest First Teachingのピッグ・ラテン演習"
 }

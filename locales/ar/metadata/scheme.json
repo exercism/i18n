@@ -177,5 +177,8 @@
   "exercise:all-your-base:blurb": "حوّل عددًا، ممثَّلًا كتسلسل من الأرقام في أساس ما، إلى أي أساس آخر.",
   "exercise:protein-translation:name": "ترجمة البروتين",
   "exercise:protein-translation:blurb": "ترجم تسلسلات RNA إلى بروتينات.",
-  "exercise:protein-translation:source": "Tyler Long"
+  "exercise:protein-translation:source": "Tyler Long",
+  "exercise:pig-latin:name": "Pig Latin",
+  "exercise:pig-latin:blurb": "نفّذ برنامجًا يترجم من الإنجليزية إلى Pig Latin.",
+  "exercise:pig-latin:source": "تمرين Pig Latin في Test First Teaching من Ultrasaurus"
 }

@@ -177,5 +177,8 @@
   "exercise:all-your-base:blurb": "Alakíts át egy számot, amely egy adott számrendszer számjegyeinek sorozataként áll elő, bármely más számrendszerbe.",
   "exercise:protein-translation:name": "Fehérjetranszláció",
   "exercise:protein-translation:blurb": "Fordítsd le az RNS-szekvenciákat fehérjékké.",
-  "exercise:protein-translation:source": "Tyler Long"
+  "exercise:protein-translation:source": "Tyler Long",
+  "exercise:pig-latin:name": "Malaclatin",
+  "exercise:pig-latin:blurb": "Írj egy programot, amely angolról Pig Latinra fordít.",
+  "exercise:pig-latin:source": "A Pig Latin feladat a Test First Teaching anyagából, Ultrasaurustól"
 }

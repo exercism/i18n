@@ -177,5 +177,8 @@
   "exercise:all-your-base:blurb": "عددی را که به‌صورت دنباله‌ای از رقم‌ها در یک پایه نمایش داده می‌شود، به هر پایه‌ی دیگری تبدیل کنید.",
   "exercise:protein-translation:name": "ترجمه‌ی پروتئین",
   "exercise:protein-translation:blurb": "توالی‌های RNA را به پروتئین ترجمه کنید.",
-  "exercise:protein-translation:source": "Tyler Long"
+  "exercise:protein-translation:source": "Tyler Long",
+  "exercise:pig-latin:name": "پیگ لاتین",
+  "exercise:pig-latin:blurb": "برنامه‌ای بنویسید که از انگلیسی به پیگ لاتین ترجمه کند.",
+  "exercise:pig-latin:source": "تمرین پیگ لاتین در Test First Teaching نوشته‌ی Ultrasaurus"
 }

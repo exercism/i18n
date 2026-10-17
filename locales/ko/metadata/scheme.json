@@ -177,5 +177,8 @@
   "exercise:all-your-base:blurb": "어떤 진법에서 숫자 열로 표현된 수를 다른 진법으로 변환해요.",
   "exercise:protein-translation:name": "단백질 번역",
   "exercise:protein-translation:blurb": "RNA 서열을 단백질로 번역해요.",
-  "exercise:protein-translation:source": "Tyler Long"
+  "exercise:protein-translation:source": "Tyler Long",
+  "exercise:pig-latin:name": "Pig Latin",
+  "exercise:pig-latin:blurb": "영어를 Pig Latin으로 번역하는 프로그램을 만들어요.",
+  "exercise:pig-latin:source": "Ultrasaurus의 Test First Teaching에 있는 Pig Latin 연습 문제"
 }

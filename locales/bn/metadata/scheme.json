@@ -177,5 +177,8 @@
   "exercise:all-your-base:blurb": "একটি বেসে অঙ্কের ক্রম হিসেবে লেখা একটি সংখ্যাকে যেকোনো অন্য বেসে রূপান্তর করুন।",
   "exercise:protein-translation:name": "প্রোটিন ট্রান্সলেশন",
   "exercise:protein-translation:blurb": "RNA সিকোয়েন্সকে প্রোটিনে রূপান্তর করুন।",
-  "exercise:protein-translation:source": "Tyler Long"
+  "exercise:protein-translation:source": "Tyler Long",
+  "exercise:pig-latin:name": "পিগ ল্যাটিন",
+  "exercise:pig-latin:blurb": "ইংরেজি থেকে পিগ ল্যাটিনে অনুবাদ করে এমন একটি প্রোগ্রাম বাস্তবায়ন করুন।",
+  "exercise:pig-latin:source": "Ultrasaurus-এর Test First Teaching-এর পিগ ল্যাটিন অনুশীলনী।"
 }

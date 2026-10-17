@@ -177,5 +177,8 @@
   "exercise:all-your-base:blurb": "Перетворіть число, подане як послідовність цифр в одній основі, на будь-яку іншу основу.",
   "exercise:protein-translation:name": "Трансляція білків",
   "exercise:protein-translation:blurb": "Перекласти послідовності РНК у білки.",
-  "exercise:protein-translation:source": "Tyler Long"
+  "exercise:protein-translation:source": "Tyler Long",
+  "exercise:pig-latin:name": "Поросяча латина",
+  "exercise:pig-latin:blurb": "Реалізуйте програму, яка перекладає з англійської на поросячу латину.",
+  "exercise:pig-latin:source": "Вправа «Pig Latin» з Test First Teaching авторства Ultrasaurus"
 }

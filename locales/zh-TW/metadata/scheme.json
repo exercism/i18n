@@ -177,5 +177,8 @@
   "exercise:all-your-base:blurb": "將以某個進位的一串數字所表示的數，轉換成任意其他進位。",
   "exercise:protein-translation:name": "蛋白質轉譯",
   "exercise:protein-translation:blurb": "將 RNA 序列轉譯成蛋白質。",
-  "exercise:protein-translation:source": "Tyler Long"
+  "exercise:protein-translation:source": "Tyler Long",
+  "exercise:pig-latin:name": "兒童黑話",
+  "exercise:pig-latin:blurb": "實作一個能將英文翻譯成兒童黑話的程式。",
+  "exercise:pig-latin:source": "出自 Ultrasaurus 的 Test First Teaching 的 Pig Latin 練習"
 }
