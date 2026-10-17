@@ -59,6 +59,7 @@
     "exercises/practice/triangle": {"ar":"المثلث","en":"Triangle"},
     "exercises/practice/trinary": {"ar":"الثلاثي","en":"Trinary"},
     "exercises/practice/two-fer": {"ar":"Two Fer","en":"Two Fer"},
+    "exercises/practice/variable-length-quantity": {"ar":"الكمية متغيرة الطول","en":"Variable Length Quantity"},
     "exercises/practice/word-count": {"ar":"عدّ الكلمات","en":"Word Count"},
     "exercises/practice/yacht": {"ar":"Yacht","en":"Yacht"}
   },
@@ -162,6 +163,7 @@
     "exercises/practice/two-fer/.docs/instructions.append.md": ["f1eea8c46566471bd2f0cd0aca3567cf570c68f5"],
     "exercises/practice/two-fer/.docs/instructions.md": ["adc53487981faa7797e5099ff92acffd3df180be"],
     "exercises/practice/two-fer/.docs/introduction.md": ["5947a2230bd8a36f4e653ca80f726386df06ccee"],
+    "exercises/practice/variable-length-quantity/.docs/instructions.md": ["5012548268111bd52081b3774efc2a51a0271fd3"],
     "exercises/practice/word-count/.docs/instructions.md": ["064393c8a0f68810d215d0bec650f9cab19953b5"],
     "exercises/practice/word-count/.docs/introduction.md": ["1654508e79dc91420825d8a1a9818089e4167f70"],
     "exercises/practice/yacht/.docs/instructions.append.md": ["ad3d244ed049b1093a194053adc6007a72695aa1"],

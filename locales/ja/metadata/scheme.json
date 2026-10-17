@@ -180,5 +180,8 @@
   "exercise:protein-translation:source": "Tyler Long",
   "exercise:pig-latin:name": "ピッグ・ラテン",
   "exercise:pig-latin:blurb": "英語からピッグ・ラテンへ変換するプログラムを実装します。",
-  "exercise:pig-latin:source": "UltrasaurusによるTest First Teachingのピッグ・ラテン演習"
+  "exercise:pig-latin:source": "UltrasaurusによるTest First Teachingのピッグ・ラテン演習",
+  "exercise:variable-length-quantity:name": "可変長数量",
+  "exercise:variable-length-quantity:blurb": "可変長数量のエンコードとデコードを実装します。",
+  "exercise:variable-length-quantity:source": "MIDIのエンコードとデコードを実装することになった、かわいそうなSpliceのエンジニア"
 }

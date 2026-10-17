@@ -180,5 +180,8 @@
   "exercise:protein-translation:source": "Tyler Long",
   "exercise:pig-latin:name": "Pig Latin",
   "exercise:pig-latin:blurb": "Implémente un programme qui traduit de l'anglais vers le Pig Latin.",
-  "exercise:pig-latin:source": "L'exercice Pig Latin de Test First Teaching par Ultrasaurus"
+  "exercise:pig-latin:source": "L'exercice Pig Latin de Test First Teaching par Ultrasaurus",
+  "exercise:variable-length-quantity:name": "Quantité de longueur variable",
+  "exercise:variable-length-quantity:blurb": "Implémente l'encodage et le décodage de quantités de longueur variable.",
+  "exercise:variable-length-quantity:source": "Un pauvre développeur de Splice obligé d'implémenter l'encodage et le décodage MIDI."
 }

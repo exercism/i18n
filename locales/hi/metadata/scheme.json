@@ -180,5 +180,8 @@
   "exercise:protein-translation:source": "Tyler Long",
   "exercise:pig-latin:name": "पिग लैटिन",
   "exercise:pig-latin:blurb": "ऐसा प्रोग्राम बनाइए जो अंग्रेज़ी से पिग लैटिन में अनुवाद करे।",
-  "exercise:pig-latin:source": "Test First Teaching पर Ultrasaurus का पिग लैटिन अभ्यास"
+  "exercise:pig-latin:source": "Test First Teaching पर Ultrasaurus का पिग लैटिन अभ्यास",
+  "exercise:variable-length-quantity:name": "वेरिएबल लंबाई की मात्रा",
+  "exercise:variable-length-quantity:blurb": "वेरिएबल लंबाई की मात्रा की एन्कोडिंग और डिकोडिंग लागू कीजिए।",
+  "exercise:variable-length-quantity:source": "एक बेचारा Splice डेवलपर, जिसे MIDI की एन्कोडिंग/डिकोडिंग लागू करनी पड़ी।"
 }

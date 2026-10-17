@@ -180,5 +180,8 @@
   "exercise:protein-translation:source": "Tyler Long",
   "exercise:pig-latin:name": "Pig Latin",
   "exercise:pig-latin:blurb": "Υλοποίησε ένα πρόγραμμα που μεταφράζει από τα αγγλικά σε Pig Latin.",
-  "exercise:pig-latin:source": "Η άσκηση Pig Latin στο Test First Teaching του Ultrasaurus"
+  "exercise:pig-latin:source": "Η άσκηση Pig Latin στο Test First Teaching του Ultrasaurus",
+  "exercise:variable-length-quantity:name": "Ποσότητα μεταβλητού μήκους",
+  "exercise:variable-length-quantity:blurb": "Υλοποίησε κωδικοποίηση και αποκωδικοποίηση ποσότητας μεταβλητού μήκους.",
+  "exercise:variable-length-quantity:source": "Ένας καημένος προγραμματιστής της Splice που έπρεπε να υλοποιήσει κωδικοποίηση/αποκωδικοποίηση MIDI."
 }

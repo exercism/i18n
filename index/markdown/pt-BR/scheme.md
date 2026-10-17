@@ -270,6 +270,10 @@ This page is generated from [the index](../../json/pt-BR/scheme.json) by `script
 - `instructions.append.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/two-fer/.docs/instructions.append.md)): [Latest](../../../locales/pt-BR/content/f1/ee/a8c46566471bd2f0cd0aca3567cf570c68f5.md)
 - `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/two-fer/.docs/introduction.md)): [Latest](../../../locales/pt-BR/content/59/47/a2230bd8a36f4e653ca80f726386df06ccee.md)
 
+### Variable Length Quantity (Quantidade de comprimento variável)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/variable-length-quantity/.docs/instructions.md)): [Latest](../../../locales/pt-BR/content/50/12/548268111bd52081b3774efc2a51a0271fd3.md)
+
 ### Word Count (Contagem de palavras)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/word-count/.docs/instructions.md)): [Latest](../../../locales/pt-BR/content/06/43/93c8a0f68810d215d0bec650f9cab19953b5.md)

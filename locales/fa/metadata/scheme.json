@@ -180,5 +180,8 @@
   "exercise:protein-translation:source": "Tyler Long",
   "exercise:pig-latin:name": "پیگ لاتین",
   "exercise:pig-latin:blurb": "برنامه‌ای بنویسید که از انگلیسی به پیگ لاتین ترجمه کند.",
-  "exercise:pig-latin:source": "تمرین پیگ لاتین در Test First Teaching نوشته‌ی Ultrasaurus"
+  "exercise:pig-latin:source": "تمرین پیگ لاتین در Test First Teaching نوشته‌ی Ultrasaurus",
+  "exercise:variable-length-quantity:name": "کمیت با طول متغیر",
+  "exercise:variable-length-quantity:blurb": "رمزگذاری و رمزگشایی کمیت با طول متغیر را پیاده‌سازی کنید.",
+  "exercise:variable-length-quantity:source": "یک توسعه‌دهنده‌ی بیچاره در Splice که مجبور شده رمزگذاری و رمزگشایی MIDI را پیاده‌سازی کند."
 }

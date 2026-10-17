@@ -180,5 +180,8 @@
   "exercise:protein-translation:source": "Tyler Long",
   "exercise:pig-latin:name": "兒童黑話",
   "exercise:pig-latin:blurb": "實作一個能將英文翻譯成兒童黑話的程式。",
-  "exercise:pig-latin:source": "出自 Ultrasaurus 的 Test First Teaching 的 Pig Latin 練習"
+  "exercise:pig-latin:source": "出自 Ultrasaurus 的 Test First Teaching 的 Pig Latin 練習",
+  "exercise:variable-length-quantity:name": "可變長度數量",
+  "exercise:variable-length-quantity:blurb": "實作可變長度數量的編碼與解碼。",
+  "exercise:variable-length-quantity:source": "一位可憐的 Splice 開發者不得不實作 MIDI 編碼／解碼。"
 }

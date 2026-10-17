@@ -180,5 +180,8 @@
   "exercise:protein-translation:source": "Tyler Long",
   "exercise:pig-latin:name": "পিগ ল্যাটিন",
   "exercise:pig-latin:blurb": "ইংরেজি থেকে পিগ ল্যাটিনে অনুবাদ করে এমন একটি প্রোগ্রাম বাস্তবায়ন করুন।",
-  "exercise:pig-latin:source": "Ultrasaurus-এর Test First Teaching-এর পিগ ল্যাটিন অনুশীলনী।"
+  "exercise:pig-latin:source": "Ultrasaurus-এর Test First Teaching-এর পিগ ল্যাটিন অনুশীলনী।",
+  "exercise:variable-length-quantity:name": "ভ্যারিয়েবল লেংথ কোয়ান্টিটি",
+  "exercise:variable-length-quantity:blurb": "ভ্যারিয়েবল লেংথ কোয়ান্টিটি এনকোডিং ও ডিকোডিং বাস্তবায়ন করুন।",
+  "exercise:variable-length-quantity:source": "একজন বেচারা Splice ডেভেলপার, যাকে MIDI এনকোডিং/ডিকোডিং বাস্তবায়ন করতে হয়েছিল।"
 }

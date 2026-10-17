@@ -180,5 +180,8 @@
   "exercise:protein-translation:source": "Tyler Long",
   "exercise:pig-latin:name": "Поросяча латина",
   "exercise:pig-latin:blurb": "Реалізуйте програму, яка перекладає з англійської на поросячу латину.",
-  "exercise:pig-latin:source": "Вправа «Pig Latin» з Test First Teaching авторства Ultrasaurus"
+  "exercise:pig-latin:source": "Вправа «Pig Latin» з Test First Teaching авторства Ultrasaurus",
+  "exercise:variable-length-quantity:name": "Величина змінної довжини",
+  "exercise:variable-length-quantity:blurb": "Реалізуйте кодування та декодування величин змінної довжини.",
+  "exercise:variable-length-quantity:source": "Бідолашний розробник зі Splice, якому довелося реалізувати кодування й декодування MIDI."
 }

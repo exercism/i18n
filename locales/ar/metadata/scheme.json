@@ -180,5 +180,8 @@
   "exercise:protein-translation:source": "Tyler Long",
   "exercise:pig-latin:name": "Pig Latin",
   "exercise:pig-latin:blurb": "نفّذ برنامجًا يترجم من الإنجليزية إلى Pig Latin.",
-  "exercise:pig-latin:source": "تمرين Pig Latin في Test First Teaching من Ultrasaurus"
+  "exercise:pig-latin:source": "تمرين Pig Latin في Test First Teaching من Ultrasaurus",
+  "exercise:variable-length-quantity:name": "الكمية متغيرة الطول",
+  "exercise:variable-length-quantity:blurb": "نفّذ ترميز الكمية متغيرة الطول وفك ترميزها.",
+  "exercise:variable-length-quantity:source": "مطوّر مسكين في Splice اضطر إلى تنفيذ ترميز MIDI وفك ترميزه."
 }

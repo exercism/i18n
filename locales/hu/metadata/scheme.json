@@ -180,5 +180,8 @@
   "exercise:protein-translation:source": "Tyler Long",
   "exercise:pig-latin:name": "Malaclatin",
   "exercise:pig-latin:blurb": "Írj egy programot, amely angolról Pig Latinra fordít.",
-  "exercise:pig-latin:source": "A Pig Latin feladat a Test First Teaching anyagából, Ultrasaurustól"
+  "exercise:pig-latin:source": "A Pig Latin feladat a Test First Teaching anyagából, Ultrasaurustól",
+  "exercise:variable-length-quantity:name": "Változó hosszúságú mennyiség",
+  "exercise:variable-length-quantity:blurb": "Valósítsd meg a változó hosszúságú mennyiség kódolását és dekódolását.",
+  "exercise:variable-length-quantity:source": "Egy szegény Splice-fejlesztő, akinek MIDI-kódolást/dekódolást kellett megvalósítania."
 }
