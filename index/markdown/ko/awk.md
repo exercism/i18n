@@ -477,11 +477,13 @@ This page is generated from [the index](../../json/ko/awk.json) by `scripts/buil
 
 ### How to learn AWK (AWK 배우는 방법)
 
-- `LEARNING.md` ([English](https://github.com/exercism/awk/blob/main/docs/LEARNING.md)): [Latest](../../../locales/ko/content/c4/9d/9ae6f6b950bd7d4eb648a08eae4f307a40c4.md)
+- `LEARNING.md` ([English](https://github.com/exercism/awk/blob/main/docs/LEARNING.md)): [Latest](../../../locales/ko/content/8f/d4/a7826b65ebe41fa9a8ed4337e60279acc96d.md)
+  - [`c49d9ae6f6`](../../../locales/ko/content/c4/9d/9ae6f6b950bd7d4eb648a08eae4f307a40c4.md)
 
 ### Installing AWK locally (AWK를 로컬에 설치하기)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/awk/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/ko/content/0f/48/f34b07df1ca1c789704f379a52d4fbd752b5.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/awk/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/ko/content/8b/d8/e8f238cc70b58313675ec872bb55617ee81f.md)
+  - [`0f48f34b07`](../../../locales/ko/content/0f/48/f34b07df1ca1c789704f379a52d4fbd752b5.md)
 
 ### Testing on the AWK track (AWK 트랙에서 테스트하기)
 
@@ -489,7 +491,8 @@ This page is generated from [the index](../../json/ko/awk.json) by `scripts/buil
 
 ### Useful AWK resources (유용한 AWK 자료)
 
-- `RESOURCES.md` ([English](https://github.com/exercism/awk/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/ko/content/1c/52/97ba9ddf5bc2d4f77f19e531ae79dce0316e.md)
+- `RESOURCES.md` ([English](https://github.com/exercism/awk/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/ko/content/1a/4f/ca781d3ef68f770c3e519f8911e9fbd91be6.md)
+  - [`1c5297ba9d`](../../../locales/ko/content/1c/52/97ba9ddf5bc2d4f77f19e531ae79dce0316e.md)
 
 ## Shared exercise docs
 

@@ -477,11 +477,13 @@ This page is generated from [the index](../../json/bn/awk.json) by `scripts/buil
 
 ### How to learn AWK (কীভাবে AWK শিখবেন)
 
-- `LEARNING.md` ([English](https://github.com/exercism/awk/blob/main/docs/LEARNING.md)): [Latest](../../../locales/bn/content/c4/9d/9ae6f6b950bd7d4eb648a08eae4f307a40c4.md)
+- `LEARNING.md` ([English](https://github.com/exercism/awk/blob/main/docs/LEARNING.md)): [Latest](../../../locales/bn/content/8f/d4/a7826b65ebe41fa9a8ed4337e60279acc96d.md)
+  - [`c49d9ae6f6`](../../../locales/bn/content/c4/9d/9ae6f6b950bd7d4eb648a08eae4f307a40c4.md)
 
 ### Installing AWK locally (স্থানীয়ভাবে AWK ইনস্টল করা)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/awk/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/bn/content/0f/48/f34b07df1ca1c789704f379a52d4fbd752b5.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/awk/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/bn/content/8b/d8/e8f238cc70b58313675ec872bb55617ee81f.md)
+  - [`0f48f34b07`](../../../locales/bn/content/0f/48/f34b07df1ca1c789704f379a52d4fbd752b5.md)
 
 ### Testing on the AWK track (AWK ট্র্যাক-এ টেস্টিং)
 
@@ -489,7 +491,8 @@ This page is generated from [the index](../../json/bn/awk.json) by `scripts/buil
 
 ### Useful AWK resources (উপকারী AWK রিসোর্স)
 
-- `RESOURCES.md` ([English](https://github.com/exercism/awk/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/bn/content/1c/52/97ba9ddf5bc2d4f77f19e531ae79dce0316e.md)
+- `RESOURCES.md` ([English](https://github.com/exercism/awk/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/bn/content/1a/4f/ca781d3ef68f770c3e519f8911e9fbd91be6.md)
+  - [`1c5297ba9d`](../../../locales/bn/content/1c/52/97ba9ddf5bc2d4f77f19e531ae79dce0316e.md)
 
 ## Shared exercise docs
 
