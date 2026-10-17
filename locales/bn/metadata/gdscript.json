@@ -166,5 +166,8 @@
   "exercise:swift-scheduling:source": "Erik Schierboom",
   "exercise:simple-cipher:name": "সরল সাইফার",
   "exercise:simple-cipher:blurb": "ভিজেনের সাইফার বাস্তবায়ন করুন, যা একটি সরল প্রতিস্থাপন সাইফার।",
-  "exercise:simple-cipher:source": "Wikipedia-তে প্রতিস্থাপন সাইফার।"
+  "exercise:simple-cipher:source": "Wikipedia-তে প্রতিস্থাপন সাইফার।",
+  "exercise:square-root:name": "বর্গমূল",
+  "exercise:square-root:blurb": "একটি স্বাভাবিক র্যাডিক্যান্ড দেওয়া থাকলে তার বর্গমূল রিটার্ন করুন।",
+  "exercise:square-root:source": "wolf99"
 }

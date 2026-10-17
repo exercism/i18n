@@ -166,5 +166,8 @@
   "exercise:swift-scheduling:source": "Erik Schierboom",
   "exercise:simple-cipher:name": "간단한 암호",
   "exercise:simple-cipher:blurb": "간단한 치환 암호인 비즈네르 암호를 구현해요.",
-  "exercise:simple-cipher:source": "Wikipedia의 치환 암호"
+  "exercise:simple-cipher:source": "Wikipedia의 치환 암호",
+  "exercise:square-root:name": "제곱근",
+  "exercise:square-root:blurb": "자연수 피제곱근이 주어지면, 그 제곱근을 반환해요.",
+  "exercise:square-root:source": "wolf99"
 }

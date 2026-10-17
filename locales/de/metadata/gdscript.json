@@ -166,5 +166,8 @@
   "exercise:swift-scheduling:source": "Erik Schierboom",
   "exercise:simple-cipher:name": "Einfache Chiffre",
   "exercise:simple-cipher:blurb": "Implementiere die Vigenère-Chiffre, eine einfache Substitutionschiffre.",
-  "exercise:simple-cipher:source": "Substitutionschiffre bei Wikipedia"
+  "exercise:simple-cipher:source": "Substitutionschiffre bei Wikipedia",
+  "exercise:square-root:name": "Quadratwurzel",
+  "exercise:square-root:blurb": "Gib für einen natürlichen Radikanden seine Quadratwurzel zurück.",
+  "exercise:square-root:source": "wolf99"
 }

@@ -213,6 +213,11 @@ This page is generated from [the index](../../json/uk/gdscript.json) by `scripts
   - [`ba99e12c73`](../../../locales/uk/content/ba/99/e12c731bf4221eef18777ed67a6d134cd2b9.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/spiral-matrix/.docs/introduction.md)): [Latest](../../../locales/uk/content/25/c7/eb595aa020e15f2317920415f225d0ba476f.md)
 
+### Square Root (Квадратний корінь)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/square-root/.docs/instructions.md)): [Latest](../../../locales/uk/content/d2/58/b86876e35a1553677ed6a7cb068f27cf1aba.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/square-root/.docs/introduction.md)): [Latest](../../../locales/uk/content/1d/69/2934f280a866528bcb54cd3044d7e8a5eeeb.md)
+
 ### Sublist (Підмасив)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/sublist/.docs/instructions.md)): [Latest](../../../locales/uk/content/82/28/edc6ce2f1aa9fd7171fa9d482b1fb5a50a62.md)

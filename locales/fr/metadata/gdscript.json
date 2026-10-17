@@ -166,5 +166,8 @@
   "exercise:swift-scheduling:source": "Erik Schierboom",
   "exercise:simple-cipher:name": "Chiffrement simple",
   "exercise:simple-cipher:blurb": "Implémente le chiffrement de Vigenère, un chiffrement par substitution simple.",
-  "exercise:simple-cipher:source": "Chiffrement par substitution sur Wikipedia"
+  "exercise:simple-cipher:source": "Chiffrement par substitution sur Wikipedia",
+  "exercise:square-root:name": "Racine carrée",
+  "exercise:square-root:blurb": "À partir d'un radicande naturel, renvoie sa racine carrée.",
+  "exercise:square-root:source": "wolf99"
 }

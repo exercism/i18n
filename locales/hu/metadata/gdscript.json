@@ -166,5 +166,8 @@
   "exercise:swift-scheduling:source": "Erik Schierboom",
   "exercise:simple-cipher:name": "Egyszerű rejtjel",
   "exercise:simple-cipher:blurb": "Valósítsd meg a Vigenère-rejtjelet, egy egyszerű helyettesítő rejtjelet.",
-  "exercise:simple-cipher:source": "Substitution Cipher a Wikipédián"
+  "exercise:simple-cipher:source": "Substitution Cipher a Wikipédián",
+  "exercise:square-root:name": "Négyzetgyök",
+  "exercise:square-root:blurb": "Adott egy természetes szám a gyökjel alatt, add vissza a négyzetgyökét.",
+  "exercise:square-root:source": "wolf99"
 }

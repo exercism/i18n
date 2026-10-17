@@ -166,5 +166,8 @@
   "exercise:swift-scheduling:source": "Erik Schierboom",
   "exercise:simple-cipher:name": "رمز ساده",
   "exercise:simple-cipher:blurb": "رمز ویژنر را که یک رمز جانشینی ساده است، پیاده‌سازی کنید.",
-  "exercise:simple-cipher:source": "رمز جانشینی در Wikipedia"
+  "exercise:simple-cipher:source": "رمز جانشینی در Wikipedia",
+  "exercise:square-root:name": "جذر",
+  "exercise:square-root:blurb": "اگر عددی طبیعی زیر رادیکال داده شود، جذر آن را برگردانید.",
+  "exercise:square-root:source": "wolf99"
 }

@@ -166,5 +166,8 @@
   "exercise:swift-scheduling:source": "Erik Schierboom",
   "exercise:simple-cipher:name": "सरल सिफर",
   "exercise:simple-cipher:blurb": "Vigenère सिफर लागू कीजिए, जो एक सरल प्रतिस्थापन सिफर है।",
-  "exercise:simple-cipher:source": "Wikipedia पर प्रतिस्थापन सिफर"
+  "exercise:simple-cipher:source": "Wikipedia पर प्रतिस्थापन सिफर",
+  "exercise:square-root:name": "वर्गमूल",
+  "exercise:square-root:blurb": "प्राकृतिक रैडिकैंड का वर्गमूल लौटाइए।",
+  "exercise:square-root:source": "wolf99"
 }

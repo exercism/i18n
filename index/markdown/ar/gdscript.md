@@ -203,6 +203,11 @@ This page is generated from [the index](../../json/ar/gdscript.json) by `scripts
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/spiral-matrix/.docs/instructions.md)): [Latest](../../../locales/ar/content/01/e8/a77f808ebf669389df96d5a86ae06cc23f69.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/spiral-matrix/.docs/introduction.md)): [Latest](../../../locales/ar/content/25/c7/eb595aa020e15f2317920415f225d0ba476f.md)
 
+### Square Root (الجذر التربيعي)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/square-root/.docs/instructions.md)): [Latest](../../../locales/ar/content/d2/58/b86876e35a1553677ed6a7cb068f27cf1aba.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/square-root/.docs/introduction.md)): [Latest](../../../locales/ar/content/1d/69/2934f280a866528bcb54cd3044d7e8a5eeeb.md)
+
 ### Sublist (المصفوفة الفرعية)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/sublist/.docs/instructions.md)): [Latest](../../../locales/ar/content/82/28/edc6ce2f1aa9fd7171fa9d482b1fb5a50a62.md)

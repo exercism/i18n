@@ -166,5 +166,8 @@
   "exercise:swift-scheduling:source": "Erik Schierboom",
   "exercise:simple-cipher:name": "Простий шифр",
   "exercise:simple-cipher:blurb": "Реалізуйте шифр Віженера, простий шифр підстановки.",
-  "exercise:simple-cipher:source": "Шифр підстановки у Wikipedia"
+  "exercise:simple-cipher:source": "Шифр підстановки у Wikipedia",
+  "exercise:square-root:name": "Квадратний корінь",
+  "exercise:square-root:blurb": "Дано натуральне підкореневе число, поверніть його квадратний корінь.",
+  "exercise:square-root:source": "wolf99"
 }

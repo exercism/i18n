@@ -166,5 +166,8 @@
   "exercise:swift-scheduling:source": "Erik Schierboom",
   "exercise:simple-cipher:name": "Απλό κρυπτοσύστημα",
   "exercise:simple-cipher:blurb": "Υλοποίησε το κρυπτοσύστημα Vigenère, ένα απλό κρυπτοσύστημα αντικατάστασης.",
-  "exercise:simple-cipher:source": "Κρυπτοσύστημα αντικατάστασης στη Wikipedia"
+  "exercise:simple-cipher:source": "Κρυπτοσύστημα αντικατάστασης στη Wikipedia",
+  "exercise:square-root:name": "Τετραγωνική ρίζα",
+  "exercise:square-root:blurb": "Με δεδομένη μια φυσική υπόρριζη ποσότητα, επέστρεψε την τετραγωνική της ρίζα.",
+  "exercise:square-root:source": "wolf99"
 }

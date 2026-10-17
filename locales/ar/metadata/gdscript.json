@@ -166,5 +166,8 @@
   "exercise:swift-scheduling:source": "Erik Schierboom",
   "exercise:simple-cipher:name": "الشيفرة البسيطة",
   "exercise:simple-cipher:blurb": "نفّذ شيفرة فيجنير، وهي شيفرة استبدالية بسيطة.",
-  "exercise:simple-cipher:source": "شيفرة استبدالية في Wikipedia"
+  "exercise:simple-cipher:source": "شيفرة استبدالية في Wikipedia",
+  "exercise:square-root:name": "الجذر التربيعي",
+  "exercise:square-root:blurb": "بمعلومية عدد طبيعي تحت الجذر، أرجِع جذره التربيعي.",
+  "exercise:square-root:source": "wolf99"
 }

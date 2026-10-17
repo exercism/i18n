@@ -166,5 +166,8 @@
   "exercise:swift-scheduling:source": "Erik Schierboom",
   "exercise:simple-cipher:name": "Cifra simples",
   "exercise:simple-cipher:blurb": "Implemente a cifra de Vigenère, uma cifra de substituição simples.",
-  "exercise:simple-cipher:source": "Cifra de substituição na Wikipedia"
+  "exercise:simple-cipher:source": "Cifra de substituição na Wikipedia",
+  "exercise:square-root:name": "Raiz quadrada",
+  "exercise:square-root:blurb": "Dado um radicando natural, retorne sua raiz quadrada.",
+  "exercise:square-root:source": "wolf99"
 }

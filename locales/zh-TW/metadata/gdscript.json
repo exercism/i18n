@@ -166,5 +166,8 @@
   "exercise:swift-scheduling:source": "Erik Schierboom",
   "exercise:simple-cipher:name": "簡易加密法",
   "exercise:simple-cipher:blurb": "實作維吉尼亞密碼，一種簡單的替換式密碼。",
-  "exercise:simple-cipher:source": "Wikipedia 上的替換式密碼。"
+  "exercise:simple-cipher:source": "Wikipedia 上的替換式密碼。",
+  "exercise:square-root:name": "平方根",
+  "exercise:square-root:blurb": "給定自然數的被開方數，回傳它的平方根。",
+  "exercise:square-root:source": "wolf99"
 }
