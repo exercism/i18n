@@ -183,5 +183,8 @@
   "exercise:pig-latin:source": "O exercício Pig Latin de Test First Teaching, por Ultrasaurus",
   "exercise:variable-length-quantity:name": "Quantidade de Comprimento Variável",
   "exercise:variable-length-quantity:blurb": "Implementa a codificação e a descodificação de quantidades de comprimento variável.",
-  "exercise:variable-length-quantity:source": "Um pobre programador da Splice que teve de implementar a codificação e a descodificação MIDI."
+  "exercise:variable-length-quantity:source": "Um pobre programador da Splice que teve de implementar a codificação e a descodificação MIDI.",
+  "exercise:book-store:name": "Livraria",
+  "exercise:book-store:blurb": "Para tentar aumentar as vendas dos diferentes livros de uma popular série de 5 livros, uma livraria decidiu oferecer descontos na compra de vários livros.",
+  "exercise:book-store:source": "Inspirado no harry potter kata do Cyber-Dojo."
 }

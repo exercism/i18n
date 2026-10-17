@@ -53,6 +53,10 @@ This page is generated from [the index](../../json/es-ES/scheme.json) by `script
 - `instructions.append.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/bob/.docs/instructions.append.md)): [Latest](../../../locales/es-ES/content/c6/b1/068c75979f3b5d8f4049e7848073aca13c80.md)
 - `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/bob/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/ea/4a/80776b77fc8b547460b80cb4cdca084c0fa3.md)
 
+### Book Store (Librería)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/book-store/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/54/40/3f17bf5c35e9b5d6c20503e87e02c232e1a7.md)
+
 ### Change (Cambio)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/change/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/58/87/f4cb6937d20d8dfc81f7fe369959cb0dd129.md)

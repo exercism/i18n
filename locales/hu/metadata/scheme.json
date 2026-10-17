@@ -183,5 +183,8 @@
   "exercise:pig-latin:source": "A Pig Latin feladat a Test First Teaching anyagából, Ultrasaurustól",
   "exercise:variable-length-quantity:name": "Változó hosszúságú mennyiség",
   "exercise:variable-length-quantity:blurb": "Valósítsd meg a változó hosszúságú mennyiség kódolását és dekódolását.",
-  "exercise:variable-length-quantity:source": "Egy szegény Splice-fejlesztő, akinek MIDI-kódolást/dekódolást kellett megvalósítania."
+  "exercise:variable-length-quantity:source": "Egy szegény Splice-fejlesztő, akinek MIDI-kódolást/dekódolást kellett megvalósítania.",
+  "exercise:book-store:name": "Könyvesbolt",
+  "exercise:book-store:blurb": "Hogy egy népszerű, öt részből álló könyvsorozat különböző köteteinek eladásait növelje, egy könyvesbolt úgy döntött, hogy kedvezményt ad a több könyv együttes vásárlására.",
+  "exercise:book-store:source": "A Cyber-Dojo harry potter kata ihlette."
 }

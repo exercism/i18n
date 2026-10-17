@@ -183,5 +183,8 @@
   "exercise:pig-latin:source": "L'esercizio Pig Latin in Test First Teaching di Ultrasaurus.",
   "exercise:variable-length-quantity:name": "Quantità a lunghezza variabile",
   "exercise:variable-length-quantity:blurb": "Implementa la codifica e la decodifica delle quantità a lunghezza variabile.",
-  "exercise:variable-length-quantity:source": "Un povero sviluppatore di Splice costretto a implementare la codifica e la decodifica MIDI."
+  "exercise:variable-length-quantity:source": "Un povero sviluppatore di Splice costretto a implementare la codifica e la decodifica MIDI.",
+  "exercise:book-store:name": "Libreria",
+  "exercise:book-store:blurb": "Per provare a incoraggiare le vendite dei diversi libri di una popolare serie di 5 volumi, una libreria ha deciso di offrire sconti sugli acquisti di più libri.",
+  "exercise:book-store:source": "Ispirato al kata harry potter di Cyber-Dojo."
 }

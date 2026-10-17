@@ -183,5 +183,8 @@
   "exercise:pig-latin:source": "Ultrasaurus 在 Test First Teaching 上的猪拉丁练习",
   "exercise:variable-length-quantity:name": "可变长度数量",
   "exercise:variable-length-quantity:blurb": "实现可变长度数量的编码和解码。",
-  "exercise:variable-length-quantity:source": "出自一位可怜的 Splice 开发者，他不得不实现 MIDI 的编码和解码。"
+  "exercise:variable-length-quantity:source": "出自一位可怜的 Splice 开发者，他不得不实现 MIDI 的编码和解码。",
+  "exercise:book-store:name": "书店",
+  "exercise:book-store:blurb": "为了促进一套热门 5 卷丛书里各册图书的销量，一家书店决定对多本一起购买的订单提供折扣。",
+  "exercise:book-store:source": "灵感来自 Cyber-Dojo 上的 harry potter kata。"
 }

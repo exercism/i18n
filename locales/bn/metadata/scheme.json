@@ -183,5 +183,8 @@
   "exercise:pig-latin:source": "Ultrasaurus-এর Test First Teaching-এর পিগ ল্যাটিন অনুশীলনী।",
   "exercise:variable-length-quantity:name": "ভ্যারিয়েবল লেংথ কোয়ান্টিটি",
   "exercise:variable-length-quantity:blurb": "ভ্যারিয়েবল লেংথ কোয়ান্টিটি এনকোডিং ও ডিকোডিং বাস্তবায়ন করুন।",
-  "exercise:variable-length-quantity:source": "একজন বেচারা Splice ডেভেলপার, যাকে MIDI এনকোডিং/ডিকোডিং বাস্তবায়ন করতে হয়েছিল।"
+  "exercise:variable-length-quantity:source": "একজন বেচারা Splice ডেভেলপার, যাকে MIDI এনকোডিং/ডিকোডিং বাস্তবায়ন করতে হয়েছিল।",
+  "exercise:book-store:name": "বইয়ের দোকান",
+  "exercise:book-store:blurb": "একটি জনপ্রিয় ৫-বইয়ের সিরিজের বিভিন্ন বইয়ের বিক্রি বাড়ানোর চেষ্টায় একটি বইয়ের দোকান একাধিক বই কেনার উপর ছাড় দেওয়ার সিদ্ধান্ত নিয়েছে।",
+  "exercise:book-store:source": "Cyber-Dojo-এর harry potter kata থেকে অনুপ্রাণিত।"
 }

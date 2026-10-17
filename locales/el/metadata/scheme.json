@@ -183,5 +183,8 @@
   "exercise:pig-latin:source": "Η άσκηση Pig Latin στο Test First Teaching του Ultrasaurus",
   "exercise:variable-length-quantity:name": "Ποσότητα μεταβλητού μήκους",
   "exercise:variable-length-quantity:blurb": "Υλοποίησε κωδικοποίηση και αποκωδικοποίηση ποσότητας μεταβλητού μήκους.",
-  "exercise:variable-length-quantity:source": "Ένας καημένος προγραμματιστής της Splice που έπρεπε να υλοποιήσει κωδικοποίηση/αποκωδικοποίηση MIDI."
+  "exercise:variable-length-quantity:source": "Ένας καημένος προγραμματιστής της Splice που έπρεπε να υλοποιήσει κωδικοποίηση/αποκωδικοποίηση MIDI.",
+  "exercise:book-store:name": "Βιβλιοπωλείο",
+  "exercise:book-store:blurb": "Για να ενθαρρύνει περισσότερες πωλήσεις διαφορετικών βιβλίων από μια δημοφιλή σειρά 5 βιβλίων, ένα βιβλιοπωλείο αποφάσισε να προσφέρει εκπτώσεις σε αγορές πολλών βιβλίων.",
+  "exercise:book-store:source": "Εμπνευσμένο από το harry potter kata από το Cyber-Dojo."
 }

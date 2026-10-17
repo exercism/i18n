@@ -183,5 +183,8 @@
   "exercise:pig-latin:source": "出自 Ultrasaurus 的 Test First Teaching 的 Pig Latin 練習",
   "exercise:variable-length-quantity:name": "可變長度數量",
   "exercise:variable-length-quantity:blurb": "實作可變長度數量的編碼與解碼。",
-  "exercise:variable-length-quantity:source": "一位可憐的 Splice 開發者不得不實作 MIDI 編碼／解碼。"
+  "exercise:variable-length-quantity:source": "一位可憐的 Splice 開發者不得不實作 MIDI 編碼／解碼。",
+  "exercise:book-store:name": "書店",
+  "exercise:book-store:blurb": "為了刺激一套熱門系列中 5 本不同書籍的銷量，一家書店決定對一次購買多本書提供折扣。",
+  "exercise:book-store:source": "靈感來自 Cyber-Dojo 的 harry potter kata。"
 }

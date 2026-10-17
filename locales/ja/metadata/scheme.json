@@ -183,5 +183,8 @@
   "exercise:pig-latin:source": "UltrasaurusによるTest First Teachingのピッグ・ラテン演習",
   "exercise:variable-length-quantity:name": "可変長数量",
   "exercise:variable-length-quantity:blurb": "可変長数量のエンコードとデコードを実装します。",
-  "exercise:variable-length-quantity:source": "MIDIのエンコードとデコードを実装することになった、かわいそうなSpliceのエンジニア"
+  "exercise:variable-length-quantity:source": "MIDIのエンコードとデコードを実装することになった、かわいそうなSpliceのエンジニア",
+  "exercise:book-store:name": "書店",
+  "exercise:book-store:blurb": "人気の5冊シリーズの本をもっと売るために、ある書店が複数冊の購入に割引を付けることにしました。",
+  "exercise:book-store:source": "Cyber-Dojoのharry potter kataに着想を得たものです。"
 }

@@ -183,5 +183,8 @@
   "exercise:pig-latin:source": "Ultrasaurus의 Test First Teaching에 있는 Pig Latin 연습 문제",
   "exercise:variable-length-quantity:name": "가변 길이 수량",
   "exercise:variable-length-quantity:blurb": "가변 길이 수량 인코딩과 디코딩을 구현해요.",
-  "exercise:variable-length-quantity:source": "MIDI 인코딩/디코딩을 구현해야 했던 Splice의 가여운 개발자."
+  "exercise:variable-length-quantity:source": "MIDI 인코딩/디코딩을 구현해야 했던 Splice의 가여운 개발자.",
+  "exercise:book-store:name": "서점",
+  "exercise:book-store:blurb": "인기 있는 5권 시리즈의 여러 책을 더 많이 팔려고, 어느 서점이 여러 권을 구매하면 할인을 제공하기로 했어요.",
+  "exercise:book-store:source": "Cyber-Dojo의 harry potter kata에서 영감을 받았어요."
 }
