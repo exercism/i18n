@@ -174,5 +174,8 @@
   "exercise:palindrome-products:blurb": "在给定范围内找出回文乘积。",
   "exercise:palindrome-products:source": "Project Euler 第 4 题",
   "exercise:all-your-base:name": "All Your Base",
-  "exercise:all-your-base:blurb": "把一个用某种进制的数字序列表示的数转换成任意其他进制。"
+  "exercise:all-your-base:blurb": "把一个用某种进制的数字序列表示的数转换成任意其他进制。",
+  "exercise:protein-translation:name": "蛋白质翻译",
+  "exercise:protein-translation:blurb": "将 RNA 序列翻译成蛋白质。",
+  "exercise:protein-translation:source": "Tyler Long"
 }

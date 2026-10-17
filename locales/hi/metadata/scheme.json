@@ -174,5 +174,8 @@
   "exercise:palindrome-products:blurb": "दी गई रेंज में पैलिंड्रोम गुणनफल ढूँढिए।",
   "exercise:palindrome-products:source": "Project Euler पर Problem 4",
   "exercise:all-your-base:name": "All Your Base",
-  "exercise:all-your-base:blurb": "एक आधार में अंकों के क्रम के रूप में दी गई संख्या को किसी भी दूसरे आधार में बदलिए।"
+  "exercise:all-your-base:blurb": "एक आधार में अंकों के क्रम के रूप में दी गई संख्या को किसी भी दूसरे आधार में बदलिए।",
+  "exercise:protein-translation:name": "प्रोटीन अनुवाद",
+  "exercise:protein-translation:blurb": "RNA अनुक्रमों का प्रोटीन में अनुवाद कीजिए।",
+  "exercise:protein-translation:source": "Tyler Long"
 }

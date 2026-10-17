@@ -174,5 +174,8 @@
   "exercise:palindrome-products:blurb": "حاصل‌ضرب‌های پالیندروم را در یک بازه‌ی داده‌شده تشخیص دهید.",
   "exercise:palindrome-products:source": "مسئله‌ی ۴ در Project Euler",
   "exercise:all-your-base:name": "All Your Base",
-  "exercise:all-your-base:blurb": "عددی را که به‌صورت دنباله‌ای از رقم‌ها در یک پایه نمایش داده می‌شود، به هر پایه‌ی دیگری تبدیل کنید."
+  "exercise:all-your-base:blurb": "عددی را که به‌صورت دنباله‌ای از رقم‌ها در یک پایه نمایش داده می‌شود، به هر پایه‌ی دیگری تبدیل کنید.",
+  "exercise:protein-translation:name": "ترجمه‌ی پروتئین",
+  "exercise:protein-translation:blurb": "توالی‌های RNA را به پروتئین ترجمه کنید.",
+  "exercise:protein-translation:source": "Tyler Long"
 }

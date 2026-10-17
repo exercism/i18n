@@ -174,5 +174,8 @@
   "exercise:palindrome-products:blurb": "Detecta productos palíndromos en un rango dado.",
   "exercise:palindrome-products:source": "Problema 4 en Project Euler",
   "exercise:all-your-base:name": "All Your Base",
-  "exercise:all-your-base:blurb": "Convierte un número, representado como una secuencia de dígitos en una base, a cualquier otra base."
+  "exercise:all-your-base:blurb": "Convierte un número, representado como una secuencia de dígitos en una base, a cualquier otra base.",
+  "exercise:protein-translation:name": "Traducción de proteínas",
+  "exercise:protein-translation:blurb": "Traduce secuencias de ARN en proteínas.",
+  "exercise:protein-translation:source": "Tyler Long"
 }

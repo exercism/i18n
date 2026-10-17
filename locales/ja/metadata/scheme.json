@@ -174,5 +174,8 @@
   "exercise:palindrome-products:blurb": "与えられた範囲の中から、回文になる積を見つけます。",
   "exercise:palindrome-products:source": "Project EulerのProblem 4",
   "exercise:all-your-base:name": "All Your Base",
-  "exercise:all-your-base:blurb": "ある基数の桁の並びとして表された数値を、別の基数に変換してください。"
+  "exercise:all-your-base:blurb": "ある基数の桁の並びとして表された数値を、別の基数に変換してください。",
+  "exercise:protein-translation:name": "タンパク質の翻訳",
+  "exercise:protein-translation:blurb": "RNAの配列をタンパク質に翻訳します。",
+  "exercise:protein-translation:source": "Tyler Long"
 }

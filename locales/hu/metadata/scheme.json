@@ -174,5 +174,8 @@
   "exercise:palindrome-products:blurb": "Keresd meg a palindrom szorzatokat egy adott tartományban.",
   "exercise:palindrome-products:source": "A Project Euler 4. feladata",
   "exercise:all-your-base:name": "All Your Base",
-  "exercise:all-your-base:blurb": "Alakíts át egy számot, amely egy adott számrendszer számjegyeinek sorozataként áll elő, bármely más számrendszerbe."
+  "exercise:all-your-base:blurb": "Alakíts át egy számot, amely egy adott számrendszer számjegyeinek sorozataként áll elő, bármely más számrendszerbe.",
+  "exercise:protein-translation:name": "Fehérjetranszláció",
+  "exercise:protein-translation:blurb": "Fordítsd le az RNS-szekvenciákat fehérjékké.",
+  "exercise:protein-translation:source": "Tyler Long"
 }

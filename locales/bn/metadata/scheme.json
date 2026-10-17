@@ -174,5 +174,8 @@
   "exercise:palindrome-products:blurb": "প্রদত্ত একটি পরিসরে প্যালিনড্রোম গুণফল শনাক্ত করুন।",
   "exercise:palindrome-products:source": "Project Euler-এর Problem 4।",
   "exercise:all-your-base:name": "অল ইওর বেস",
-  "exercise:all-your-base:blurb": "একটি বেসে অঙ্কের ক্রম হিসেবে লেখা একটি সংখ্যাকে যেকোনো অন্য বেসে রূপান্তর করুন।"
+  "exercise:all-your-base:blurb": "একটি বেসে অঙ্কের ক্রম হিসেবে লেখা একটি সংখ্যাকে যেকোনো অন্য বেসে রূপান্তর করুন।",
+  "exercise:protein-translation:name": "প্রোটিন ট্রান্সলেশন",
+  "exercise:protein-translation:blurb": "RNA সিকোয়েন্সকে প্রোটিনে রূপান্তর করুন।",
+  "exercise:protein-translation:source": "Tyler Long"
 }

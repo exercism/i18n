@@ -174,5 +174,8 @@
   "exercise:palindrome-products:blurb": "找出給定範圍內的迴文乘積。",
   "exercise:palindrome-products:source": "Project Euler 第 4 題",
   "exercise:all-your-base:name": "All Your Base",
-  "exercise:all-your-base:blurb": "將以某個進位的一串數字所表示的數，轉換成任意其他進位。"
+  "exercise:all-your-base:blurb": "將以某個進位的一串數字所表示的數，轉換成任意其他進位。",
+  "exercise:protein-translation:name": "蛋白質轉譯",
+  "exercise:protein-translation:blurb": "將 RNA 序列轉譯成蛋白質。",
+  "exercise:protein-translation:source": "Tyler Long"
 }

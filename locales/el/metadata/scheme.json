@@ -174,5 +174,8 @@
   "exercise:palindrome-products:blurb": "Εντόπισε παλίνδρομα γινόμενα σε ένα δεδομένο εύρος.",
   "exercise:palindrome-products:source": "Το πρόβλημα 4 στο Project Euler",
   "exercise:all-your-base:name": "All Your Base",
-  "exercise:all-your-base:blurb": "Μετέτρεψε έναν αριθμό, που αναπαρίσταται ως ακολουθία ψηφίων σε μια βάση, σε οποιαδήποτε άλλη βάση."
+  "exercise:all-your-base:blurb": "Μετέτρεψε έναν αριθμό, που αναπαρίσταται ως ακολουθία ψηφίων σε μια βάση, σε οποιαδήποτε άλλη βάση.",
+  "exercise:protein-translation:name": "Μετάφραση πρωτεϊνών",
+  "exercise:protein-translation:blurb": "Μετάφρασε αλληλουχίες RNA σε πρωτεΐνες.",
+  "exercise:protein-translation:source": "Tyler Long"
 }

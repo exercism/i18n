@@ -180,6 +180,11 @@ This page is generated from [the index](../../json/es-419/scheme.json) by `scrip
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/prime-factors/.docs/instructions.md)): [Latest](../../../locales/es-419/content/25/2c/c8ee1853f4d7f7721273eee09e988a2f7421.md)
 
+### Protein Translation (Traducción de proteínas)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/protein-translation/.docs/instructions.md)): [Latest](../../../locales/es-419/content/35/c9/53b11f9642c30978222e743aff4dc38f1451.md)
+- `instructions.append.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/protein-translation/.docs/instructions.append.md)): [Latest](../../../locales/es-419/content/ca/cd/31bfbf7fcbc87c864d235f9b567a6dfc934c.md)
+
 ### Queen Attack (Ataque de la reina)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/queen-attack/.docs/instructions.md)): [Latest](../../../locales/es-419/content/97/f2/2a0aee13f74801df153121aeb04104f68dbd.md)
