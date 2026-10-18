@@ -122,7 +122,8 @@ This page is generated from [the index](../../json/hu/purescript.json) by `scrip
 
 ### Meetup (Találkozó)
 
-- `instructions.md` ([English](https://github.com/exercism/purescript/blob/main/exercises/practice/meetup/.docs/instructions.md)): [Latest](../../../locales/hu/content/00/0d/e2fd127be27c80571538cdcbbef5de8761f1.md)
+- `instructions.md` ([English](https://github.com/exercism/purescript/blob/main/exercises/practice/meetup/.docs/instructions.md)): [Latest](../../../locales/hu/content/8b/1b/da5eb4c26f8eaa3fc25d659cc05589b6f127.md)
+  - [`000de2fd12`](../../../locales/hu/content/00/0d/e2fd127be27c80571538cdcbbef5de8761f1.md)
 - `introduction.md` ([English](https://github.com/exercism/purescript/blob/main/exercises/practice/meetup/.docs/introduction.md)): [Latest](../../../locales/hu/content/29/17/0ef1fda6839c4c8b51f1fd0af663ab860023.md)
 
 ### Pangram
@@ -141,7 +142,8 @@ This page is generated from [the index](../../json/hu/purescript.json) by `scrip
 
 ### Phone Number (Telefonszám)
 
-- `instructions.md` ([English](https://github.com/exercism/purescript/blob/main/exercises/practice/phone-number/.docs/instructions.md)): [Latest](../../../locales/hu/content/62/ba/48e96fd2a47445a74ab075c7ef7198601815.md)
+- `instructions.md` ([English](https://github.com/exercism/purescript/blob/main/exercises/practice/phone-number/.docs/instructions.md)): [Latest](../../../locales/hu/content/5d/4d/3739f4563d3f7781a1524df13f11cc8fbc71.md)
+  - [`62ba48e96f`](../../../locales/hu/content/62/ba/48e96fd2a47445a74ab075c7ef7198601815.md)
   - [`6e36daefe7`](../../../locales/hu/content/6e/36/daefe7c70ec2893761f126bbe7ba38cf6dd5.md)
 - `introduction.md` ([English](https://github.com/exercism/purescript/blob/main/exercises/practice/phone-number/.docs/introduction.md)): [Latest](../../../locales/hu/content/c4/14/2c5af7289f74bf05d04c4563e2968a639cd2.md)
 
@@ -174,7 +176,8 @@ This page is generated from [the index](../../json/hu/purescript.json) by `scrip
 
 ### Triangle (Háromszög)
 
-- `instructions.md` ([English](https://github.com/exercism/purescript/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/hu/content/ac/39/008726d5472b99e1aee556219eadca7fc49d.md)
+- `instructions.md` ([English](https://github.com/exercism/purescript/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/hu/content/e9/b0/53dcd344e85179041c10dcd48406d735b2f9.md)
+  - [`ac39008726`](../../../locales/hu/content/ac/39/008726d5472b99e1aee556219eadca7fc49d.md)
   - [`0a9c68e3b0`](../../../locales/hu/content/0a/9c/68e3b09a420ce304a9dbe387bb2a04b73f48.md)
 
 ### Word Count (Szószámlálás)

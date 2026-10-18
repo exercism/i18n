@@ -102,7 +102,8 @@ This page is generated from [the index](../../json/fr/purescript.json) by `scrip
 
 ### Meetup (Rencontre)
 
-- `instructions.md` ([English](https://github.com/exercism/purescript/blob/main/exercises/practice/meetup/.docs/instructions.md)): [Latest](../../../locales/fr/content/00/0d/e2fd127be27c80571538cdcbbef5de8761f1.md)
+- `instructions.md` ([English](https://github.com/exercism/purescript/blob/main/exercises/practice/meetup/.docs/instructions.md)): [Latest](../../../locales/fr/content/8b/1b/da5eb4c26f8eaa3fc25d659cc05589b6f127.md)
+  - [`000de2fd12`](../../../locales/fr/content/00/0d/e2fd127be27c80571538cdcbbef5de8761f1.md)
 - `introduction.md` ([English](https://github.com/exercism/purescript/blob/main/exercises/practice/meetup/.docs/introduction.md)): [Latest](../../../locales/fr/content/29/17/0ef1fda6839c4c8b51f1fd0af663ab860023.md)
 
 ### Pangram (Pangramme)
@@ -117,7 +118,8 @@ This page is generated from [the index](../../json/fr/purescript.json) by `scrip
 
 ### Phone Number (Numéro de téléphone)
 
-- `instructions.md` ([English](https://github.com/exercism/purescript/blob/main/exercises/practice/phone-number/.docs/instructions.md)): [Latest](../../../locales/fr/content/62/ba/48e96fd2a47445a74ab075c7ef7198601815.md)
+- `instructions.md` ([English](https://github.com/exercism/purescript/blob/main/exercises/practice/phone-number/.docs/instructions.md)): [Latest](../../../locales/fr/content/5d/4d/3739f4563d3f7781a1524df13f11cc8fbc71.md)
+  - [`62ba48e96f`](../../../locales/fr/content/62/ba/48e96fd2a47445a74ab075c7ef7198601815.md)
 - `introduction.md` ([English](https://github.com/exercism/purescript/blob/main/exercises/practice/phone-number/.docs/introduction.md)): [Latest](../../../locales/fr/content/c4/14/2c5af7289f74bf05d04c4563e2968a639cd2.md)
 
 ### Raindrops (Gouttes de pluie)
@@ -147,7 +149,8 @@ This page is generated from [the index](../../json/fr/purescript.json) by `scrip
 
 ### Triangle
 
-- `instructions.md` ([English](https://github.com/exercism/purescript/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/fr/content/ac/39/008726d5472b99e1aee556219eadca7fc49d.md)
+- `instructions.md` ([English](https://github.com/exercism/purescript/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/fr/content/e9/b0/53dcd344e85179041c10dcd48406d735b2f9.md)
+  - [`ac39008726`](../../../locales/fr/content/ac/39/008726d5472b99e1aee556219eadca7fc49d.md)
 
 ### Word Count (Comptage de mots)
 
