@@ -169,5 +169,8 @@
   "exercise:simple-cipher:source": "Cifrado por sustitución en Wikipedia",
   "exercise:square-root:name": "Raíz cuadrada",
   "exercise:square-root:blurb": "Dado un radicando natural, devuelve su raíz cuadrada.",
-  "exercise:square-root:source": "wolf99"
+  "exercise:square-root:source": "wolf99",
+  "exercise:saddle-points:name": "Puntos de silla",
+  "exercise:saddle-points:blurb": "Detecta los puntos de silla en una matriz.",
+  "exercise:saddle-points:source": "Problemas de práctica de programación de J Dalbey"
 }

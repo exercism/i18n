@@ -169,5 +169,8 @@
   "exercise:simple-cipher:source": "Substitution Cipher a Wikipédián",
   "exercise:square-root:name": "Négyzetgyök",
   "exercise:square-root:blurb": "Adott egy természetes szám a gyökjel alatt, add vissza a négyzetgyökét.",
-  "exercise:square-root:source": "wolf99"
+  "exercise:square-root:source": "wolf99",
+  "exercise:saddle-points:name": "Nyeregpontok",
+  "exercise:saddle-points:blurb": "Keresd meg a nyeregpontokat egy mátrixban.",
+  "exercise:saddle-points:source": "J Dalbey Programming Practice feladatai"
 }

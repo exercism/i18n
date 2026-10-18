@@ -169,5 +169,8 @@
   "exercise:simple-cipher:source": "رمز جانشینی در Wikipedia",
   "exercise:square-root:name": "جذر",
   "exercise:square-root:blurb": "اگر عددی طبیعی زیر رادیکال داده شود، جذر آن را برگردانید.",
-  "exercise:square-root:source": "wolf99"
+  "exercise:square-root:source": "wolf99",
+  "exercise:saddle-points:name": "نقاط زینی",
+  "exercise:saddle-points:blurb": "نقاط زینی را در یک ماتریس تشخیص دهید.",
+  "exercise:saddle-points:source": "مسائل Programming Practice از J Dalbey"
 }

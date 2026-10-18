@@ -169,5 +169,8 @@
   "exercise:simple-cipher:source": "Wikipedia पर प्रतिस्थापन सिफर",
   "exercise:square-root:name": "वर्गमूल",
   "exercise:square-root:blurb": "प्राकृतिक रैडिकैंड का वर्गमूल लौटाइए।",
-  "exercise:square-root:source": "wolf99"
+  "exercise:square-root:source": "wolf99",
+  "exercise:saddle-points:name": "सैडल पॉइंट",
+  "exercise:saddle-points:blurb": "मैट्रिक्स में सैडल पॉइंट पहचानिए।",
+  "exercise:saddle-points:source": "J Dalbey की प्रोग्रामिंग अभ्यास की समस्याएँ"
 }

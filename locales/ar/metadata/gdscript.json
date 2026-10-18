@@ -169,5 +169,8 @@
   "exercise:simple-cipher:source": "شيفرة استبدالية في Wikipedia",
   "exercise:square-root:name": "الجذر التربيعي",
   "exercise:square-root:blurb": "بمعلومية عدد طبيعي تحت الجذر، أرجِع جذره التربيعي.",
-  "exercise:square-root:source": "wolf99"
+  "exercise:square-root:source": "wolf99",
+  "exercise:saddle-points:name": "نقاط السرج",
+  "exercise:saddle-points:blurb": "اكتشف نقاط السرج في مصفوفة.",
+  "exercise:saddle-points:source": "مسائل Programming Practice لـ J Dalbey"
 }

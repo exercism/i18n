@@ -169,5 +169,8 @@
   "exercise:simple-cipher:source": "Cifrario a sostituzione su Wikipedia",
   "exercise:square-root:name": "Radice quadrata",
   "exercise:square-root:blurb": "Dato un radicando naturale, restituisci la sua radice quadrata.",
-  "exercise:square-root:source": "wolf99"
+  "exercise:square-root:source": "wolf99",
+  "exercise:saddle-points:name": "Punti di sella",
+  "exercise:saddle-points:blurb": "Individua i punti di sella in una matrice.",
+  "exercise:saddle-points:source": "Problemi di Programming Practice di J Dalbey"
 }

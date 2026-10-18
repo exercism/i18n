@@ -169,5 +169,8 @@
   "exercise:simple-cipher:source": "Wikipediaの換字式暗号",
   "exercise:square-root:name": "平方根",
   "exercise:square-root:blurb": "自然数の被開方数が与えられたとき、その平方根を返します。",
-  "exercise:square-root:source": "wolf99"
+  "exercise:square-root:source": "wolf99",
+  "exercise:saddle-points:name": "鞍点",
+  "exercise:saddle-points:blurb": "行列の中の鞍点を検出します。",
+  "exercise:saddle-points:source": "J DalbeyのProgramming Practiceの問題集"
 }

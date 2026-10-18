@@ -169,5 +169,8 @@
   "exercise:simple-cipher:source": "Chiffrement par substitution sur Wikipedia",
   "exercise:square-root:name": "Racine carrée",
   "exercise:square-root:blurb": "À partir d'un radicande naturel, renvoie sa racine carrée.",
-  "exercise:square-root:source": "wolf99"
+  "exercise:square-root:source": "wolf99",
+  "exercise:saddle-points:name": "Points de selle",
+  "exercise:saddle-points:blurb": "Détecter les points de selle dans une matrice.",
+  "exercise:saddle-points:source": "Les problèmes de Programming Practice de J Dalbey"
 }

@@ -169,5 +169,8 @@
   "exercise:simple-cipher:source": "Wikipedia 上的替換式密碼。",
   "exercise:square-root:name": "平方根",
   "exercise:square-root:blurb": "給定自然數的被開方數，回傳它的平方根。",
-  "exercise:square-root:source": "wolf99"
+  "exercise:square-root:source": "wolf99",
+  "exercise:saddle-points:name": "鞍點",
+  "exercise:saddle-points:blurb": "找出矩陣中的鞍點。",
+  "exercise:saddle-points:source": "J Dalbey's Programming Practice problems"
 }

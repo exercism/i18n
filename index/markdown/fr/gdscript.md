@@ -174,6 +174,11 @@ This page is generated from [the index](../../json/fr/gdscript.json) by `scripts
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/robot-simulator/.docs/instructions.md)): [Latest](../../../locales/fr/content/0a/c9/6ce0bdfd660ca416dd86b21f64517fa33eb9.md)
 - `instructions.append.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/robot-simulator/.docs/instructions.append.md)): [Latest](../../../locales/fr/content/5d/88/22108fdcc43785dce923827252a7cd5cc87c.md)
 
+### Saddle Points (Points de selle)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/saddle-points/.docs/instructions.md)): [Latest](../../../locales/fr/content/f6/9c/dab9584a340834264ecee97cfd6df709cd21.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/saddle-points/.docs/introduction.md)): [Latest](../../../locales/fr/content/34/b2/c77e0cfd255425411a905ec311019c2d7375.md)
+
 ### Scale Generator (Générateur de gammes)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/scale-generator/.docs/instructions.md)): [Latest](../../../locales/fr/content/eb/b7/debc7636b1656892b7cd9783e4fd91775c26.md)

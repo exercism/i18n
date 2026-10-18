@@ -169,5 +169,8 @@
   "exercise:simple-cipher:source": "Шифр підстановки у Wikipedia",
   "exercise:square-root:name": "Квадратний корінь",
   "exercise:square-root:blurb": "Дано натуральне підкореневе число, поверніть його квадратний корінь.",
-  "exercise:square-root:source": "wolf99"
+  "exercise:square-root:source": "wolf99",
+  "exercise:saddle-points:name": "Сідлові точки",
+  "exercise:saddle-points:blurb": "Знайдіть сідлові точки в матриці.",
+  "exercise:saddle-points:source": "Задачі з Programming Practice від J Dalbey"
 }

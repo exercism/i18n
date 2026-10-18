@@ -169,5 +169,8 @@
   "exercise:simple-cipher:source": "Wikipedia의 치환 암호",
   "exercise:square-root:name": "제곱근",
   "exercise:square-root:blurb": "자연수 피제곱근이 주어지면, 그 제곱근을 반환해요.",
-  "exercise:square-root:source": "wolf99"
+  "exercise:square-root:source": "wolf99",
+  "exercise:saddle-points:name": "안장점",
+  "exercise:saddle-points:blurb": "행렬에서 안장점을 찾아요.",
+  "exercise:saddle-points:source": "J Dalbey의 Programming Practice problems"
 }

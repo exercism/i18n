@@ -169,5 +169,8 @@
   "exercise:simple-cipher:source": "Substitutionschiffre bei Wikipedia",
   "exercise:square-root:name": "Quadratwurzel",
   "exercise:square-root:blurb": "Gib für einen natürlichen Radikanden seine Quadratwurzel zurück.",
-  "exercise:square-root:source": "wolf99"
+  "exercise:square-root:source": "wolf99",
+  "exercise:saddle-points:name": "Sattelpunkte",
+  "exercise:saddle-points:blurb": "Finde Sattelpunkte in einer Matrix.",
+  "exercise:saddle-points:source": "Programmierübungsaufgaben von J Dalbey"
 }
