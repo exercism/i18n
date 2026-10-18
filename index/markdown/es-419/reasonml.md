@@ -146,7 +146,8 @@ This page is generated from [the index](../../json/es-419/reasonml.json) by `scr
 
 ### Triangle (Triángulo)
 
-- `instructions.md` ([English](https://github.com/exercism/reasonml/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/es-419/content/ac/39/008726d5472b99e1aee556219eadca7fc49d.md)
+- `instructions.md` ([English](https://github.com/exercism/reasonml/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/es-419/content/e9/b0/53dcd344e85179041c10dcd48406d735b2f9.md)
+  - [`ac39008726`](../../../locales/es-419/content/ac/39/008726d5472b99e1aee556219eadca7fc49d.md)
 
 ### Two Fer
 

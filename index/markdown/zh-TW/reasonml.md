@@ -146,7 +146,8 @@ This page is generated from [the index](../../json/zh-TW/reasonml.json) by `scri
 
 ### Triangle (三角形)
 
-- `instructions.md` ([English](https://github.com/exercism/reasonml/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/ac/39/008726d5472b99e1aee556219eadca7fc49d.md)
+- `instructions.md` ([English](https://github.com/exercism/reasonml/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/e9/b0/53dcd344e85179041c10dcd48406d735b2f9.md)
+  - [`ac39008726`](../../../locales/zh-TW/content/ac/39/008726d5472b99e1aee556219eadca7fc49d.md)
 
 ### Two Fer
 

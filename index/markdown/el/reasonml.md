@@ -146,7 +146,8 @@ This page is generated from [the index](../../json/el/reasonml.json) by `scripts
 
 ### Triangle (Τρίγωνο)
 
-- `instructions.md` ([English](https://github.com/exercism/reasonml/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/el/content/ac/39/008726d5472b99e1aee556219eadca7fc49d.md)
+- `instructions.md` ([English](https://github.com/exercism/reasonml/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/el/content/e9/b0/53dcd344e85179041c10dcd48406d735b2f9.md)
+  - [`ac39008726`](../../../locales/el/content/ac/39/008726d5472b99e1aee556219eadca7fc49d.md)
 
 ### Two Fer
 
