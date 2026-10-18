@@ -189,5 +189,8 @@
   "exercise:book-store:source": "Cyber-Dojo के harry potter kata से प्रेरित।",
   "exercise:pythagorean-triplet:name": "पाइथागोरस त्रिक",
   "exercise:pythagorean-triplet:blurb": "पूर्णांक N दिया है; ऐसे सभी पाइथागोरस त्रिक खोजिए जिनके लिए a + b + c = N हो।",
-  "exercise:pythagorean-triplet:source": "Project Euler की समस्या 9 का एक रूपांतर"
+  "exercise:pythagorean-triplet:source": "Project Euler की समस्या 9 का एक रूपांतर",
+  "exercise:intergalactic-transmission:name": "अंतरागांगिक संचरण",
+  "exercise:intergalactic-transmission:blurb": "संचरण के लिए किसी संदेश में पैरिटी बिट जोड़िए",
+  "exercise:intergalactic-transmission:source": "Kah Goh"
 }

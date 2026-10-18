@@ -111,6 +111,11 @@ This page is generated from [the index](../../json/hu/scheme.json) by `scripts/b
   - [`6e08ebba53`](../../../locales/hu/content/6e/08/ebba535b4523f69eaf89d50d387ff926daf0.md)
 - `instructions.append.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/hello-world/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/7e/53/1ed895b13aedaed407f05d5dbc50035ab225.md)
 
+### Intergalactic Transmission (Intergalaktikus átvitel)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/intergalactic-transmission/.docs/instructions.md)): [Latest](../../../locales/hu/content/54/97/088176af7a635f7378966725130623109749.md)
+- `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/intergalactic-transmission/.docs/introduction.md)): [Latest](../../../locales/hu/content/f1/9d/ffbead7bcf8578a86e3311749fead73f9a93.md)
+
 ### ISBN Verifier (ISBN-ellenőrző)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/isbn-verifier/.docs/instructions.md)): [Latest](../../../locales/hu/content/4a/02/44e5523ff60ecfaa72771545a75a25190617.md)

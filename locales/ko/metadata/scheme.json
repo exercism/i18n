@@ -189,5 +189,8 @@
   "exercise:book-store:source": "Cyber-Dojo의 harry potter kata에서 영감을 받았어요.",
   "exercise:pythagorean-triplet:name": "피타고라스 삼조",
   "exercise:pythagorean-triplet:blurb": "정수 N이 주어졌을 때, a + b + c = N을 만족하는 모든 피타고라스 삼조를 찾아요.",
-  "exercise:pythagorean-triplet:source": "Project Euler의 9번 문제를 변형한 것이에요."
+  "exercise:pythagorean-triplet:source": "Project Euler의 9번 문제를 변형한 것이에요.",
+  "exercise:intergalactic-transmission:name": "은하 간 전송",
+  "exercise:intergalactic-transmission:blurb": "전송을 위해 메시지에 패리티 비트를 추가해요.",
+  "exercise:intergalactic-transmission:source": "Kah Goh"
 }

@@ -95,6 +95,11 @@ This page is generated from [the index](../../json/ko/scheme.json) by `scripts/b
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/hello-world/.docs/instructions.md)): [Latest](../../../locales/ko/content/c9/57/0e48a9765b083b274c356cbb997754706318.md)
 - `instructions.append.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/hello-world/.docs/instructions.append.md)): [Latest](../../../locales/ko/content/7e/53/1ed895b13aedaed407f05d5dbc50035ab225.md)
 
+### Intergalactic Transmission (은하 간 전송)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/intergalactic-transmission/.docs/instructions.md)): [Latest](../../../locales/ko/content/54/97/088176af7a635f7378966725130623109749.md)
+- `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/intergalactic-transmission/.docs/introduction.md)): [Latest](../../../locales/ko/content/f1/9d/ffbead7bcf8578a86e3311749fead73f9a93.md)
+
 ### ISBN Verifier (ISBN 검증기)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/isbn-verifier/.docs/instructions.md)): [Latest](../../../locales/ko/content/4a/02/44e5523ff60ecfaa72771545a75a25190617.md)

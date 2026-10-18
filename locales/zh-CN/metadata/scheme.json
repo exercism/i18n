@@ -189,5 +189,8 @@
   "exercise:book-store:source": "灵感来自 Cyber-Dojo 上的 harry potter kata。",
   "exercise:pythagorean-triplet:name": "毕达哥拉斯三元组",
   "exercise:pythagorean-triplet:blurb": "给定整数 N，找出所有满足 a + b + c = N 的毕达哥拉斯三元组。",
-  "exercise:pythagorean-triplet:source": "Project Euler 第 9 题的变体"
+  "exercise:pythagorean-triplet:source": "Project Euler 第 9 题的变体",
+  "exercise:intergalactic-transmission:name": "星际传输",
+  "exercise:intergalactic-transmission:blurb": "为待传输的消息添加奇偶校验位。",
+  "exercise:intergalactic-transmission:source": "Kah Goh"
 }

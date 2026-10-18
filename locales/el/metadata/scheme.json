@@ -189,5 +189,8 @@
   "exercise:book-store:source": "Εμπνευσμένο από το harry potter kata από το Cyber-Dojo.",
   "exercise:pythagorean-triplet:name": "Πυθαγόρεια τριάδα",
   "exercise:pythagorean-triplet:blurb": "Δεδομένου ενός ακέραιου N, βρες όλες τις πυθαγόρειες τριάδες για τις οποίες a + b + c = N.",
-  "exercise:pythagorean-triplet:source": "Μια παραλλαγή του προβλήματος 9 από το Project Euler"
+  "exercise:pythagorean-triplet:source": "Μια παραλλαγή του προβλήματος 9 από το Project Euler",
+  "exercise:intergalactic-transmission:name": "Διαγαλαξιακή Μετάδοση",
+  "exercise:intergalactic-transmission:blurb": "Πρόσθεσε bits ισοτιμίας σε ένα μήνυμα για μετάδοση",
+  "exercise:intergalactic-transmission:source": "Kah Goh"
 }

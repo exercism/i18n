@@ -189,5 +189,8 @@
   "exercise:book-store:source": "靈感來自 Cyber-Dojo 的 harry potter kata。",
   "exercise:pythagorean-triplet:name": "畢氏三元組",
   "exercise:pythagorean-triplet:blurb": "給定整數 N，找出所有滿足 a + b + c = N 的畢氏三元組。",
-  "exercise:pythagorean-triplet:source": "Project Euler 第 9 題的變體。"
+  "exercise:pythagorean-triplet:source": "Project Euler 第 9 題的變體。",
+  "exercise:intergalactic-transmission:name": "星際傳輸",
+  "exercise:intergalactic-transmission:blurb": "為訊息加入同位位元以供傳輸",
+  "exercise:intergalactic-transmission:source": "Kah Goh"
 }

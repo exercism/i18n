@@ -189,5 +189,8 @@
   "exercise:book-store:source": "A Cyber-Dojo harry potter kata ihlette.",
   "exercise:pythagorean-triplet:name": "Pitagoraszi számhármas",
   "exercise:pythagorean-triplet:blurb": "Adott egy N egész szám, keresd meg az összes pitagoraszi számhármast, amelyre a + b + c = N.",
-  "exercise:pythagorean-triplet:source": "A Project Euler 9. feladatának egy változata"
+  "exercise:pythagorean-triplet:source": "A Project Euler 9. feladatának egy változata",
+  "exercise:intergalactic-transmission:name": "Intergalaktikus átvitel",
+  "exercise:intergalactic-transmission:blurb": "Adj paritásbiteket egy üzenethez az átvitelhez",
+  "exercise:intergalactic-transmission:source": "Kah Goh"
 }

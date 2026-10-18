@@ -189,5 +189,8 @@
   "exercise:book-store:source": "Inspirado en la harry potter kata de Cyber-Dojo.",
   "exercise:pythagorean-triplet:name": "Terna pitagórica",
   "exercise:pythagorean-triplet:blurb": "Dado un número entero N, encuentra todas las ternas pitagóricas para las que a + b + c = N.",
-  "exercise:pythagorean-triplet:source": "Una variación del problema 9 de Project Euler"
+  "exercise:pythagorean-triplet:source": "Una variación del problema 9 de Project Euler",
+  "exercise:intergalactic-transmission:name": "Transmisión intergaláctica",
+  "exercise:intergalactic-transmission:blurb": "Añade bits de paridad a un mensaje para su transmisión",
+  "exercise:intergalactic-transmission:source": "Kah Goh"
 }
