@@ -566,5 +566,8 @@
   "concept:regular-expressions:blurb": "正規表現とは、検索パターンを指定する文字の並びです。",
   "concept:runes:blurb": "ルーンは、Goの文字列内のUnicode文字を表します。",
   "concept:slices:blurb": "スライスは、同じ型の要素を並べたものです。",
-  "concept:strings:blurb": "Goの文字列は不変のバイト列で、必ずしも文字を表すとは限りません。"
+  "concept:strings:blurb": "Goの文字列は不変のバイト列で、必ずしも文字を表すとは限りません。",
+  "exercise:resistor-color-tolerance:name": "抵抗器のカラーコードの許容差",
+  "exercise:resistor-color-tolerance:blurb": "異なるバンドを持つ抵抗器で使われるカラーコードを、人が読めるラベルに変換します。",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

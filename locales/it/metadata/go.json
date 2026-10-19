@@ -566,5 +566,8 @@
   "concept:regular-expressions:blurb": "Un'espressione regolare è una sequenza di caratteri che definisce un modello di ricerca.",
   "concept:runes:blurb": "Le rune rappresentano i caratteri Unicode nelle stringhe di Go.",
   "concept:slices:blurb": "Le slice sono array di elementi dello stesso tipo.",
-  "concept:strings:blurb": "In Go, una stringa è una sequenza immutabile di byte, che non rappresentano necessariamente dei caratteri."
+  "concept:strings:blurb": "In Go, una stringa è una sequenza immutabile di byte, che non rappresentano necessariamente dei caratteri.",
+  "exercise:resistor-color-tolerance:name": "Tolleranza del colore della resistenza",
+  "exercise:resistor-color-tolerance:blurb": "Converti i codici colore usati sulle resistenze con diverse bande in un'etichetta leggibile da una persona.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

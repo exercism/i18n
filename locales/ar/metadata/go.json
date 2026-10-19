@@ -566,5 +566,8 @@
   "concept:regular-expressions:blurb": "التعبير النمطي تسلسل من الأحرف يحدد نمط بحث.",
   "concept:runes:blurb": "تمثّل الرونات أحرف يونيكود في السلاسل النصية في Go.",
   "concept:slices:blurb": "الشرائح مصفوفات لعناصر من النوع نفسه.",
-  "concept:strings:blurb": "السلسلة النصية في Go تسلسل ثابت من البايتات، وقد لا تمثّل هذه البايتات أحرفًا بالضرورة."
+  "concept:strings:blurb": "السلسلة النصية في Go تسلسل ثابت من البايتات، وقد لا تمثّل هذه البايتات أحرفًا بالضرورة.",
+  "exercise:resistor-color-tolerance:name": "سماحية ألوان المقاومة",
+  "exercise:resistor-color-tolerance:blurb": "حوّل أكواد الألوان المستخدمة في المقاومات ذات الأشرطة المختلفة إلى تسمية يمكن للبشر قراءتها.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

@@ -568,5 +568,8 @@
   "concept:randomness:blurb": "Παράγαγε ψευδοτυχαίους ακέραιους αριθμούς και αριθμούς κινητής υποδιαστολής.",
   "concept:regular-expressions:blurb": "Μια κανονική έκφραση είναι μια ακολουθία χαρακτήρων που καθορίζει ένα μοτίβο αναζήτησης.",
   "concept:runes:blurb": "Τα runes αναπαριστούν τους χαρακτήρες Unicode στις συμβολοσειρές της Go.",
-  "concept:slices:blurb": "Τα slices είναι λίστες στοιχείων του ίδιου τύπου."
+  "concept:slices:blurb": "Τα slices είναι λίστες στοιχείων του ίδιου τύπου.",
+  "exercise:resistor-color-tolerance:name": "Ανοχή Χρώματος Αντίστασης",
+  "exercise:resistor-color-tolerance:blurb": "Μετάτρεψε τους χρωματικούς κωδικούς που χρησιμοποιούνται σε αντιστάσεις με διαφορετικές ζώνες σε μια ευανάγνωστη ετικέτα.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

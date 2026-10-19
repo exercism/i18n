@@ -568,5 +568,8 @@
   "concept:range-iteration:blurb": "La syntaxe « for range » permet de répéter un bloc de code de différentes manières.",
   "concept:randomness:blurb": "Génère des nombres entiers et des nombres à virgule flottante pseudo-aléatoires.",
   "concept:regular-expressions:blurb": "Une expression régulière est une séquence de caractères qui spécifie un motif de recherche.",
-  "concept:runes:blurb": "Les runes représentent les caractères Unicode dans les chaînes de caractères Go."
+  "concept:runes:blurb": "Les runes représentent les caractères Unicode dans les chaînes de caractères Go.",
+  "exercise:resistor-color-tolerance:name": "Tolérance des couleurs de résistance",
+  "exercise:resistor-color-tolerance:blurb": "Convertis les codes couleur utilisés sur les résistances à plusieurs bandes en une étiquette lisible par un humain.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

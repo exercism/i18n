@@ -566,5 +566,8 @@
   "concept:regular-expressions:blurb": "عبارت باقاعده دنباله‌ای از کاراکترها است که یک الگوی جست‌وجو را مشخص می‌کند.",
   "concept:runes:blurb": "رون‌ها کاراکترهای یونیکد را در رشته‌های Go نمایش می‌دهند.",
   "concept:slices:blurb": "برش‌ها فهرست‌هایی از عناصر هم‌نوع هستند.",
-  "concept:strings:blurb": "رشته در Go دنباله‌ای تغییرناپذیر از بایت است که لزوماً نیازی نیست کاراکترها را نمایش دهد."
+  "concept:strings:blurb": "رشته در Go دنباله‌ای تغییرناپذیر از بایت است که لزوماً نیازی نیست کاراکترها را نمایش دهد.",
+  "exercise:resistor-color-tolerance:name": "تلورانس رنگ مقاومت",
+  "exercise:resistor-color-tolerance:blurb": "کدهای رنگی به‌کاررفته روی مقاومت‌هایی با نوارهای مختلف را به برچسبی خوانا برای انسان تبدیل کنید.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

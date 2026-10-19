@@ -487,6 +487,10 @@ This page is generated from [the index](../../json/pt-PT/go.json) by `scripts/bu
 
 - `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/resistor-color-duo/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/4a/e6/94da025b329a9e51e07c741aa41925253b1a.md)
 
+### Resistor Color Tolerance (Tolerância da cor da resistência)
+
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/resistor-color-tolerance/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/f4/79/50f0140496ad1b9a967379766d8a7583b002.md)
+
 ### Resistor Color Trio (Trio de cores de resistência)
 
 - `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/resistor-color-trio/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/1a/c5/cf5e9fe0b7e589bf6cba0c31c2c8a0e98d7e.md)

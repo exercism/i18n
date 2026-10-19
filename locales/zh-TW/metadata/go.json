@@ -566,5 +566,8 @@
   "concept:regular-expressions:blurb": "正規表示式是一串字元，用來指定搜尋模式。",
   "concept:runes:blurb": "rune 代表 Go 字串中的 Unicode 字元。",
   "concept:slices:blurb": "切片是由相同型別項目構成的陣列。",
-  "concept:strings:blurb": "Go 中的字串是不可變的位元組序列，這些位元組不一定代表字元。"
+  "concept:strings:blurb": "Go 中的字串是不可變的位元組序列，這些位元組不一定代表字元。",
+  "exercise:resistor-color-tolerance:name": "電阻色碼容差",
+  "exercise:resistor-color-tolerance:blurb": "將電阻器上不同色帶所用的色碼轉換成人類可讀的標籤。",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

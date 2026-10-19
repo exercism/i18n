@@ -566,5 +566,8 @@
   "concept:regular-expressions:blurb": "Ein regulärer Ausdruck ist eine Zeichenfolge, die ein Suchmuster beschreibt.",
   "concept:runes:blurb": "Runes repräsentieren die Unicode-Zeichen in Go-Strings.",
   "concept:slices:blurb": "Slices sind Listen von Elementen desselben Typs.",
-  "concept:strings:blurb": "Ein String in Go ist eine unveränderliche Folge von Bytes, die nicht unbedingt Zeichen darstellen müssen."
+  "concept:strings:blurb": "Ein String in Go ist eine unveränderliche Folge von Bytes, die nicht unbedingt Zeichen darstellen müssen.",
+  "exercise:resistor-color-tolerance:name": "Farbtoleranz von Widerständen",
+  "exercise:resistor-color-tolerance:blurb": "Wandle Farbcodes, wie sie bei Widerständen mit unterschiedlichen Ringen verwendet werden, in eine für Menschen lesbare Bezeichnung um.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

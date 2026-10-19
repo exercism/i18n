@@ -566,5 +566,8 @@
   "doc:resources:title": "实用的 Go 资源",
   "doc:resources:blurb": "帮助你精通 Go 的实用资源合集",
   "doc:roadmap:title": "路线图与概念列表",
-  "doc:roadmap:blurb": "Go 赛道未来开发的优先事项"
+  "doc:roadmap:blurb": "Go 赛道未来开发的优先事项",
+  "exercise:resistor-color-tolerance:name": "电阻色环容差",
+  "exercise:resistor-color-tolerance:blurb": "把电阻上不同色环所用的色码转换成人类可读的标签。",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

@@ -566,5 +566,8 @@
   "concept:regular-expressions:blurb": "रेगुलर एक्सप्रेशन अक्षरों का एक क्रम होता है जो खोज का पैटर्न बताता है।",
   "concept:runes:blurb": "रून Go स्ट्रिंग में यूनिकोड अक्षरों को दर्शाते हैं।",
   "concept:slices:blurb": "स्लाइस एक ही टाइप की चीज़ों की सूची होते हैं।",
-  "concept:strings:blurb": "Go में स्ट्रिंग बाइट्स का एक अपरिवर्तनीय क्रम होती है, और यह ज़रूरी नहीं कि वह अक्षरों को दर्शाए।"
+  "concept:strings:blurb": "Go में स्ट्रिंग बाइट्स का एक अपरिवर्तनीय क्रम होती है, और यह ज़रूरी नहीं कि वह अक्षरों को दर्शाए।",
+  "exercise:resistor-color-tolerance:name": "प्रतिरोधक रंग सहनशीलता",
+  "exercise:resistor-color-tolerance:blurb": "रेज़िस्टरों पर अलग-अलग बैंडों के साथ इस्तेमाल होने वाले रंग कोडों को मनुष्य के पढ़ने लायक लेबल में बदलिए।",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

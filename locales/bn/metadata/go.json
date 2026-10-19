@@ -566,5 +566,8 @@
   "concept:regular-expressions:blurb": "রেগুলার এক্সপ্রেশন হলো ক্যারেক্টারের একটি ক্রম, যা একটি সার্চ প্যাটার্ন নির্দিষ্ট করে।",
   "concept:runes:blurb": "রুন Go স্ট্রিংয়ের Unicode ক্যারেক্টারগুলোকে প্রকাশ করে।",
   "concept:slices:blurb": "স্লাইস হলো একই টাইপের এলিমেন্টের তালিকা।",
-  "concept:strings:blurb": "Go-তে স্ট্রিং হলো বাইটের একটি অপরিবর্তনীয় ক্রম, যেগুলো সবসময় ক্যারেক্টার প্রকাশ করে না।"
+  "concept:strings:blurb": "Go-তে স্ট্রিং হলো বাইটের একটি অপরিবর্তনীয় ক্রম, যেগুলো সবসময় ক্যারেক্টার প্রকাশ করে না।",
+  "exercise:resistor-color-tolerance:name": "রেজিস্টর কালার টলারেন্স",
+  "exercise:resistor-color-tolerance:blurb": "বিভিন্ন ব্যান্ডযুক্ত রেজিস্টরে ব্যবহৃত রঙের কোডকে মানুষের পড়ার উপযোগী লেবেলে রূপান্তর করুন।",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

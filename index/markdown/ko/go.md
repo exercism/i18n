@@ -487,6 +487,10 @@ This page is generated from [the index](../../json/ko/go.json) by `scripts/build
 
 - `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/resistor-color-duo/.docs/instructions.md)): [Latest](../../../locales/ko/content/4a/e6/94da025b329a9e51e07c741aa41925253b1a.md)
 
+### Resistor Color Tolerance (저항 색 허용 오차)
+
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/resistor-color-tolerance/.docs/instructions.md)): [Latest](../../../locales/ko/content/f4/79/50f0140496ad1b9a967379766d8a7583b002.md)
+
 ### Resistor Color Trio (저항 색상 트리오)
 
 - `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/resistor-color-trio/.docs/instructions.md)): [Latest](../../../locales/ko/content/1a/c5/cf5e9fe0b7e589bf6cba0c31c2c8a0e98d7e.md)

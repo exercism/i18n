@@ -568,5 +568,8 @@
   "concept:range-iteration:blurb": "Синтаксис «for range» дає змогу повторювати блок коду різними способами.",
   "concept:randomness:blurb": "Генеруйте псевдовипадкові цілі числа та числа з плаваючою комою.",
   "concept:regular-expressions:blurb": "Регулярний вираз - це послідовність символів, яка задає шаблон пошуку.",
-  "concept:runes:blurb": "Руни представляють символи Unicode у рядках Go."
+  "concept:runes:blurb": "Руни представляють символи Unicode у рядках Go.",
+  "exercise:resistor-color-tolerance:name": "Кольоровий допуск резистора",
+  "exercise:resistor-color-tolerance:blurb": "Перетворіть кольорові коди, які використовують на резисторах із різною кількістю смуг, у зрозумілу для людини позначку.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

@@ -568,5 +568,8 @@
   "concept:randomness:blurb": "Generálj álvéletlen egész és lebegőpontos számokat.",
   "concept:regular-expressions:blurb": "A reguláris kifejezés olyan karaktersorozat, amely egy keresési mintát ír le.",
   "concept:runes:blurb": "A rune-ok képviselik a Unicode-karaktereket a Go stringjeiben.",
-  "concept:slices:blurb": "A szeletek azonos típusú elemek listái."
+  "concept:slices:blurb": "A szeletek azonos típusú elemek listái.",
+  "exercise:resistor-color-tolerance:name": "Ellenállás színtűrése",
+  "exercise:resistor-color-tolerance:blurb": "Alakítsd át az ellenállásokon különböző sávokkal használt színkódokat ember számára olvasható címkévé.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }
