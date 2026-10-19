@@ -198,5 +198,8 @@
   "exercise:rail-fence-cipher:source": "Wikipedia",
   "exercise:crypto-square:name": "مربع رمزنگاری",
   "exercise:crypto-square:blurb": "روش کلاسیک ساختن پیام‌های محرمانه که «رمز مربعی» نامیده می‌شود را پیاده‌سازی کنید.",
-  "exercise:crypto-square:source": "مسائل Programming Practice از J Dalbey"
+  "exercise:crypto-square:source": "مسائل Programming Practice از J Dalbey",
+  "exercise:eliuds-eggs:name": "تخم‌های الیود",
+  "exercise:eliuds-eggs:blurb": "به الیود کمک کنید تا با شمردن تعداد بیت‌های ۱ در نمایش دودویی، تعداد تخم‌مرغ‌های مرغدانی‌اش را بشمارد.",
+  "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers"
 }

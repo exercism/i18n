@@ -198,5 +198,8 @@
   "exercise:rail-fence-cipher:source": "Wikipedia",
   "exercise:crypto-square:name": "密码方阵",
   "exercise:crypto-square:blurb": "实现这种叫作方阵密码的经典密文编写方法。",
-  "exercise:crypto-square:source": "J Dalbey 的 Programming Practice 习题"
+  "exercise:crypto-square:source": "J Dalbey 的 Programming Practice 习题",
+  "exercise:eliuds-eggs:name": "Eliud 的蛋",
+  "exercise:eliuds-eggs:blurb": "帮助 Eliud 统计二进制表示中 1 的个数，数出她鸡舍里有多少个鸡蛋。",
+  "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers"
 }

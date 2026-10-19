@@ -198,5 +198,8 @@
   "exercise:rail-fence-cipher:source": "Wikipedia",
   "exercise:crypto-square:name": "Carré cryptographique",
   "exercise:crypto-square:blurb": "Implémente la méthode classique pour composer des messages secrets appelée code carré.",
-  "exercise:crypto-square:source": "Les problèmes de Programming Practice de J Dalbey"
+  "exercise:crypto-square:source": "Les problèmes de Programming Practice de J Dalbey",
+  "exercise:eliuds-eggs:name": "Les œufs d'Eliud",
+  "exercise:eliuds-eggs:blurb": "Aide Eliud à compter le nombre d'œufs dans son poulailler en comptant le nombre de bits à 1 dans une représentation binaire.",
+  "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers"
 }

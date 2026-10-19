@@ -87,6 +87,11 @@ This page is generated from [the index](../../json/hu/scheme.json) by `scripts/b
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/difference-of-squares/.docs/instructions.md)): [Latest](../../../locales/hu/content/39/c3/8b5094a948fd87e8349a64d545ca847b3e89.md)
   - [`c3999e86ab`](../../../locales/hu/content/c3/99/9e86ab7c64a85c9e048f7b93e31aafe789e4.md)
 
+### Eliud's Eggs (Eliud tojásai)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/eliuds-eggs/.docs/instructions.md)): [Latest](../../../locales/hu/content/b0/c2/df593c0c15f1f94dfc13bddacffd6b0f5ddc.md)
+- `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/eliuds-eggs/.docs/introduction.md)): [Latest](../../../locales/hu/content/2b/2e/5c43d8b2546885ba33bb6c3c8bdc88e3b0dc.md)
+
 ### Forth
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/forth/.docs/instructions.md)): [Latest](../../../locales/hu/content/91/ad/26e6e9cbd2d45e452071e2daf79156cd7186.md)

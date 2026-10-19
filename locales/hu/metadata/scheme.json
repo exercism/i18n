@@ -198,5 +198,8 @@
   "exercise:rail-fence-cipher:source": "Wikipedia",
   "exercise:crypto-square:name": "Kriptonégyzet",
   "exercise:crypto-square:blurb": "Valósítsd meg a titkos üzenetek összeállításának klasszikus módszerét, amelyet négyzetkódnak neveznek.",
-  "exercise:crypto-square:source": "J Dalbey Programming Practice feladatai"
+  "exercise:crypto-square:source": "J Dalbey Programming Practice feladatai",
+  "exercise:eliuds-eggs:name": "Eliud tojásai",
+  "exercise:eliuds-eggs:blurb": "Segíts Eliudnak megszámolni a tyúkólban lévő tojásokat azáltal, hogy megszámolod az 1-es biteket a bináris ábrázolásban.",
+  "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers"
 }

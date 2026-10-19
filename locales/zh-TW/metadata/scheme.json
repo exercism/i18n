@@ -198,5 +198,8 @@
   "exercise:rail-fence-cipher:source": "Wikipedia",
   "exercise:crypto-square:name": "加密方陣",
   "exercise:crypto-square:blurb": "實作這種稱為方陣密碼、用來撰寫秘密訊息的經典方法。",
-  "exercise:crypto-square:source": "J Dalbey's Programming Practice problems"
+  "exercise:crypto-square:source": "J Dalbey's Programming Practice problems",
+  "exercise:eliuds-eggs:name": "艾利烏的蛋",
+  "exercise:eliuds-eggs:blurb": "透過計算二進位表示中 1 的個數，幫艾利烏數出她的雞舍裡有幾顆蛋。",
+  "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers"
 }

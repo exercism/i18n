@@ -76,6 +76,11 @@ This page is generated from [the index](../../json/el/scheme.json) by `scripts/b
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/difference-of-squares/.docs/instructions.md)): [Latest](../../../locales/el/content/39/c3/8b5094a948fd87e8349a64d545ca847b3e89.md)
 
+### Eliud's Eggs (Τα Αυγά του Eliud)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/eliuds-eggs/.docs/instructions.md)): [Latest](../../../locales/el/content/b0/c2/df593c0c15f1f94dfc13bddacffd6b0f5ddc.md)
+- `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/eliuds-eggs/.docs/introduction.md)): [Latest](../../../locales/el/content/2b/2e/5c43d8b2546885ba33bb6c3c8bdc88e3b0dc.md)
+
 ### Forth
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/forth/.docs/instructions.md)): [Latest](../../../locales/el/content/91/ad/26e6e9cbd2d45e452071e2daf79156cd7186.md)

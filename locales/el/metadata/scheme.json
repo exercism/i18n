@@ -198,5 +198,8 @@
   "exercise:rail-fence-cipher:source": "Wikipedia",
   "exercise:crypto-square:name": "Κρυπτογραφικό τετράγωνο",
   "exercise:crypto-square:blurb": "Υλοποίησε την κλασική μέθοδο σύνθεσης μυστικών μηνυμάτων που ονομάζεται τετράγωνος κώδικας.",
-  "exercise:crypto-square:source": "Οι ασκήσεις Programming Practice του J Dalbey"
+  "exercise:crypto-square:source": "Οι ασκήσεις Programming Practice του J Dalbey",
+  "exercise:eliuds-eggs:name": "Τα Αυγά του Eliud",
+  "exercise:eliuds-eggs:blurb": "Βοήθησε την Eliud να μετρήσει τον αριθμό των αυγών στο κοτέτσι της μετρώντας πόσα bit είναι 1 σε μια δυαδική αναπαράσταση.",
+  "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers"
 }

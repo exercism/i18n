@@ -198,5 +198,8 @@
   "exercise:rail-fence-cipher:source": "Wikipedia",
   "exercise:crypto-square:name": "암호 사각형",
   "exercise:crypto-square:blurb": "정사각형 암호라고 불리는, 비밀 메시지를 만드는 고전적인 방법을 구현해요.",
-  "exercise:crypto-square:source": "J Dalbey의 Programming Practice problems"
+  "exercise:crypto-square:source": "J Dalbey의 Programming Practice problems",
+  "exercise:eliuds-eggs:name": "Eliud의 달걀",
+  "exercise:eliuds-eggs:blurb": "이진수 표현에서 1인 비트의 개수를 세어, Eliud가 닭장에 있는 달걀의 개수를 셀 수 있도록 도와줘요.",
+  "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers"
 }

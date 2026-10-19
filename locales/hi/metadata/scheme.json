@@ -198,5 +198,8 @@
   "exercise:rail-fence-cipher:source": "Wikipedia",
   "exercise:crypto-square:name": "क्रिप्टो स्क्वायर",
   "exercise:crypto-square:blurb": "गुप्त संदेश बनाने का क्लासिक तरीका, जिसे स्क्वायर कोड कहते हैं, लागू कीजिए।",
-  "exercise:crypto-square:source": "J Dalbey की प्रोग्रामिंग अभ्यास की समस्याएँ"
+  "exercise:crypto-square:source": "J Dalbey की प्रोग्रामिंग अभ्यास की समस्याएँ",
+  "exercise:eliuds-eggs:name": "Eliud के अंडे",
+  "exercise:eliuds-eggs:blurb": "बाइनरी रूप में 1 बिट की संख्या गिनकर Eliud को उसके मुर्गीघर के अंडे गिनने में मदद कीजिए।",
+  "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers"
 }

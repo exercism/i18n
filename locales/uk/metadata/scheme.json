@@ -198,5 +198,8 @@
   "exercise:rail-fence-cipher:source": "Wikipedia",
   "exercise:crypto-square:name": "Криптографічний квадрат",
   "exercise:crypto-square:blurb": "Реалізуйте класичний метод побудови таємних повідомлень, відомий як квадратний код.",
-  "exercise:crypto-square:source": "Задачі з Programming Practice від J Dalbey"
+  "exercise:crypto-square:source": "Задачі з Programming Practice від J Dalbey",
+  "exercise:eliuds-eggs:name": "Яйця Еліуда",
+  "exercise:eliuds-eggs:blurb": "Допоможіть Еліуд порахувати кількість яєць у її курнику, порахувавши кількість одиничних бітів у двійковому поданні.",
+  "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers"
 }

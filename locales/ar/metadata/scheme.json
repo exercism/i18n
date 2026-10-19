@@ -198,5 +198,8 @@
   "exercise:rail-fence-cipher:source": "ويكيبيديا",
   "exercise:crypto-square:name": "المربع المشفّر",
   "exercise:crypto-square:blurb": "نفّذ الطريقة الكلاسيكية لتأليف الرسائل السرية التي تُعرف بالمربع المشفّر.",
-  "exercise:crypto-square:source": "مسائل Programming Practice لـ J Dalbey"
+  "exercise:crypto-square:source": "مسائل Programming Practice لـ J Dalbey",
+  "exercise:eliuds-eggs:name": "بيض Eliud",
+  "exercise:eliuds-eggs:blurb": "ساعد Eliud في إحصاء البيض في قنّ دجاجها عبر عدّ البتات ذات القيمة 1 في التمثيل الثنائي.",
+  "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers"
 }

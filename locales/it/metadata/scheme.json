@@ -198,5 +198,8 @@
   "exercise:rail-fence-cipher:source": "Wikipedia",
   "exercise:crypto-square:name": "Quadrato cifrato",
   "exercise:crypto-square:blurb": "Implementa il metodo classico per comporre messaggi segreti chiamato codice quadrato.",
-  "exercise:crypto-square:source": "Problemi di Programming Practice di J Dalbey"
+  "exercise:crypto-square:source": "Problemi di Programming Practice di J Dalbey",
+  "exercise:eliuds-eggs:name": "Le uova di Eliud",
+  "exercise:eliuds-eggs:blurb": "Aiuta Eliud a contare il numero di uova nel suo pollaio contando il numero di bit a 1 in una rappresentazione binaria.",
+  "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers"
 }

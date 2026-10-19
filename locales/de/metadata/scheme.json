@@ -198,5 +198,8 @@
   "exercise:rail-fence-cipher:source": "Wikipedia",
   "exercise:crypto-square:name": "Krypto-Quadrat",
   "exercise:crypto-square:blurb": "Implementiere die klassische Methode zum Verfassen geheimer Nachrichten, den Quadratcode.",
-  "exercise:crypto-square:source": "Programmierübungsaufgaben von J Dalbey"
+  "exercise:crypto-square:source": "Programmierübungsaufgaben von J Dalbey",
+  "exercise:eliuds-eggs:name": "Eliuds Eier",
+  "exercise:eliuds-eggs:blurb": "Hilf Eliud, die Anzahl der Eier in ihrem Hühnerstall zu zählen, indem du die Anzahl der 1-Bits in einer Binärdarstellung zählst.",
+  "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers"
 }
