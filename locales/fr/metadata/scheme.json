@@ -192,5 +192,8 @@
   "exercise:pythagorean-triplet:source": "Une variante du problème 9 de Project Euler",
   "exercise:intergalactic-transmission:name": "Transmission intergalactique",
   "exercise:intergalactic-transmission:blurb": "Ajouter des bits de parité à un message pour la transmission.",
-  "exercise:intergalactic-transmission:source": "Kah Goh"
+  "exercise:intergalactic-transmission:source": "Kah Goh",
+  "exercise:rail-fence-cipher:name": "Chiffre des rails",
+  "exercise:rail-fence-cipher:blurb": "Implémente l'encodage et le décodage du chiffre des rails.",
+  "exercise:rail-fence-cipher:source": "Wikipedia"
 }

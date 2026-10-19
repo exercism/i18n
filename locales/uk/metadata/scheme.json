@@ -192,5 +192,8 @@
   "exercise:pythagorean-triplet:source": "Варіація задачі 9 з Project Euler",
   "exercise:intergalactic-transmission:name": "Міжгалактична передача",
   "exercise:intergalactic-transmission:blurb": "Додайте біти парності до повідомлення для передачі",
-  "exercise:intergalactic-transmission:source": "Ка Го"
+  "exercise:intergalactic-transmission:source": "Ка Го",
+  "exercise:rail-fence-cipher:name": "Шифр паркану",
+  "exercise:rail-fence-cipher:blurb": "Реалізувати кодування та декодування для шифру паркану.",
+  "exercise:rail-fence-cipher:source": "Wikipedia"
 }

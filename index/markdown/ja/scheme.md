@@ -209,6 +209,10 @@ This page is generated from [the index](../../json/ja/scheme.json) by `scripts/b
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/queen-attack/.docs/instructions.md)): [Latest](../../../locales/ja/content/97/f2/2a0aee13f74801df153121aeb04104f68dbd.md)
 - `instructions.append.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/queen-attack/.docs/instructions.append.md)): [Latest](../../../locales/ja/content/7d/7d/4e01dfe2e675525c017bcb85337adc8278ef.md)
 
+### Rail Fence Cipher (レールフェンス暗号)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/rail-fence-cipher/.docs/instructions.md)): [Latest](../../../locales/ja/content/e3/11/de6cdfa562915e4d4090f3986732a6a6c76f.md)
+
 ### Raindrops (雨粒)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/raindrops/.docs/instructions.md)): [Latest](../../../locales/ja/content/df/64/41075165afbe92ecc878d674f6861777972d.md)

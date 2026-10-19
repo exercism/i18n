@@ -238,6 +238,10 @@ This page is generated from [the index](../../json/hu/scheme.json) by `scripts/b
   - [`1f8e61a684`](../../../locales/hu/content/1f/8e/61a6846ba510b02797720b721ce56dbb16be.md)
 - `instructions.append.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/queen-attack/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/7d/7d/4e01dfe2e675525c017bcb85337adc8278ef.md)
 
+### Rail Fence Cipher (Sínkerítés-rejtjel)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/rail-fence-cipher/.docs/instructions.md)): [Latest](../../../locales/hu/content/e3/11/de6cdfa562915e4d4090f3986732a6a6c76f.md)
+
 ### Raindrops (Esőcseppek)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/raindrops/.docs/instructions.md)): [Latest](../../../locales/hu/content/df/64/41075165afbe92ecc878d674f6861777972d.md)

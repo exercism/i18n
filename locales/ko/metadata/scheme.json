@@ -192,5 +192,8 @@
   "exercise:pythagorean-triplet:source": "Project Euler의 9번 문제를 변형한 것이에요.",
   "exercise:intergalactic-transmission:name": "은하 간 전송",
   "exercise:intergalactic-transmission:blurb": "전송을 위해 메시지에 패리티 비트를 추가해요.",
-  "exercise:intergalactic-transmission:source": "Kah Goh"
+  "exercise:intergalactic-transmission:source": "Kah Goh",
+  "exercise:rail-fence-cipher:name": "레일 펜스 암호",
+  "exercise:rail-fence-cipher:blurb": "레일 펜스 암호의 인코딩과 디코딩을 구현해요.",
+  "exercise:rail-fence-cipher:source": "Wikipedia"
 }

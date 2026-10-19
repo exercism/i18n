@@ -192,5 +192,8 @@
   "exercise:pythagorean-triplet:source": "Μια παραλλαγή του προβλήματος 9 από το Project Euler",
   "exercise:intergalactic-transmission:name": "Διαγαλαξιακή Μετάδοση",
   "exercise:intergalactic-transmission:blurb": "Πρόσθεσε bits ισοτιμίας σε ένα μήνυμα για μετάδοση",
-  "exercise:intergalactic-transmission:source": "Kah Goh"
+  "exercise:intergalactic-transmission:source": "Kah Goh",
+  "exercise:rail-fence-cipher:name": "Κρυπτογράφημα Rail Fence",
+  "exercise:rail-fence-cipher:blurb": "Υλοποίησε την κωδικοποίηση και την αποκωδικοποίηση για το κρυπτογράφημα Rail Fence.",
+  "exercise:rail-fence-cipher:source": "Wikipedia"
 }

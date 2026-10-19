@@ -192,5 +192,8 @@
   "exercise:pythagorean-triplet:source": "A Project Euler 9. feladatának egy változata",
   "exercise:intergalactic-transmission:name": "Intergalaktikus átvitel",
   "exercise:intergalactic-transmission:blurb": "Adj paritásbiteket egy üzenethez az átvitelhez",
-  "exercise:intergalactic-transmission:source": "Kah Goh"
+  "exercise:intergalactic-transmission:source": "Kah Goh",
+  "exercise:rail-fence-cipher:name": "Sínkerítés-rejtjel",
+  "exercise:rail-fence-cipher:blurb": "Valósítsd meg a rail fence rejtjel kódolását és dekódolását.",
+  "exercise:rail-fence-cipher:source": "Wikipedia"
 }

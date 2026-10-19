@@ -192,5 +192,8 @@
   "exercise:pythagorean-triplet:source": "Project Euler की समस्या 9 का एक रूपांतर",
   "exercise:intergalactic-transmission:name": "अंतरागांगिक संचरण",
   "exercise:intergalactic-transmission:blurb": "संचरण के लिए किसी संदेश में पैरिटी बिट जोड़िए",
-  "exercise:intergalactic-transmission:source": "Kah Goh"
+  "exercise:intergalactic-transmission:source": "Kah Goh",
+  "exercise:rail-fence-cipher:name": "रेल फेंस सिफर",
+  "exercise:rail-fence-cipher:blurb": "रेल फेंस सिफर के लिए एन्कोडिंग और डिकोडिंग बनाइए।",
+  "exercise:rail-fence-cipher:source": "Wikipedia"
 }

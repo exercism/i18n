@@ -192,5 +192,8 @@
   "exercise:pythagorean-triplet:source": "Project Euler 第 9 题的变体",
   "exercise:intergalactic-transmission:name": "星际传输",
   "exercise:intergalactic-transmission:blurb": "为待传输的消息添加奇偶校验位。",
-  "exercise:intergalactic-transmission:source": "Kah Goh"
+  "exercise:intergalactic-transmission:source": "Kah Goh",
+  "exercise:rail-fence-cipher:name": "栅栏密码",
+  "exercise:rail-fence-cipher:blurb": "实现栅栏密码的编码和解码。",
+  "exercise:rail-fence-cipher:source": "Wikipedia"
 }

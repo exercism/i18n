@@ -192,5 +192,8 @@
   "exercise:pythagorean-triplet:source": "گونه‌ای از مسئله‌ی ۹ در Project Euler",
   "exercise:intergalactic-transmission:name": "انتقال بین‌کهکشانی",
   "exercise:intergalactic-transmission:blurb": "بیت‌های توازن را برای انتقال به یک پیام اضافه کنید",
-  "exercise:intergalactic-transmission:source": "Kah Goh"
+  "exercise:intergalactic-transmission:source": "Kah Goh",
+  "exercise:rail-fence-cipher:name": "رمز حصار ریلی",
+  "exercise:rail-fence-cipher:blurb": "رمزگذاری و رمزگشایی رمز حصار ریلی را پیاده‌سازی کنید.",
+  "exercise:rail-fence-cipher:source": "Wikipedia"
 }

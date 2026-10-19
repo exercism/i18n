@@ -192,5 +192,8 @@
   "exercise:pythagorean-triplet:source": "Una variante del Problema 9 di Project Euler",
   "exercise:intergalactic-transmission:name": "Trasmissione intergalattica",
   "exercise:intergalactic-transmission:blurb": "Aggiungi bit di parità a un messaggio per la trasmissione",
-  "exercise:intergalactic-transmission:source": "Kah Goh"
+  "exercise:intergalactic-transmission:source": "Kah Goh",
+  "exercise:rail-fence-cipher:name": "Cifrario a recinzione",
+  "exercise:rail-fence-cipher:blurb": "Implementa la codifica e la decodifica del cifrario a recinzione.",
+  "exercise:rail-fence-cipher:source": "Wikipedia"
 }

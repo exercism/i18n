@@ -192,5 +192,8 @@
   "exercise:pythagorean-triplet:source": "Project EulerのProblem 9のバリエーションです。",
   "exercise:intergalactic-transmission:name": "銀河間通信",
   "exercise:intergalactic-transmission:blurb": "送信するメッセージにパリティビットを追加します。",
-  "exercise:intergalactic-transmission:source": "Kah Goh"
+  "exercise:intergalactic-transmission:source": "Kah Goh",
+  "exercise:rail-fence-cipher:name": "レールフェンス暗号",
+  "exercise:rail-fence-cipher:blurb": "レールフェンス暗号のエンコードとデコードを実装します。",
+  "exercise:rail-fence-cipher:source": "Wikipedia"
 }

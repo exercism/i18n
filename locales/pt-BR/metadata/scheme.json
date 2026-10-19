@@ -192,5 +192,8 @@
   "exercise:pythagorean-triplet:source": "Uma variação do Problema 9 do Project Euler",
   "exercise:intergalactic-transmission:name": "Transmissão Intergaláctica",
   "exercise:intergalactic-transmission:blurb": "Adicione bits de paridade a uma mensagem para transmissão",
-  "exercise:intergalactic-transmission:source": "Kah Goh"
+  "exercise:intergalactic-transmission:source": "Kah Goh",
+  "exercise:rail-fence-cipher:name": "Cifra de cerca de trilhos",
+  "exercise:rail-fence-cipher:blurb": "Implemente a codificação e a decodificação da cifra de cerca de trilhos.",
+  "exercise:rail-fence-cipher:source": "Wikipedia"
 }

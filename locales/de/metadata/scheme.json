@@ -192,5 +192,8 @@
   "exercise:pythagorean-triplet:source": "Eine Variation von Problem 9 aus Project Euler",
   "exercise:intergalactic-transmission:name": "Intergalaktische Übertragung",
   "exercise:intergalactic-transmission:blurb": "Füge einer Nachricht Paritätsbits für die Übertragung hinzu",
-  "exercise:intergalactic-transmission:source": "Kah Goh"
+  "exercise:intergalactic-transmission:source": "Kah Goh",
+  "exercise:rail-fence-cipher:name": "Zickzack-Chiffre",
+  "exercise:rail-fence-cipher:blurb": "Implementiere das Kodieren und Dekodieren für die Zickzack-Chiffre.",
+  "exercise:rail-fence-cipher:source": "Wikipedia"
 }

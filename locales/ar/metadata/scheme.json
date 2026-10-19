@@ -192,5 +192,8 @@
   "exercise:pythagorean-triplet:source": "تنويعة على المسألة 9 من Project Euler",
   "exercise:intergalactic-transmission:name": "الإرسال بين المجرات",
   "exercise:intergalactic-transmission:blurb": "أضف بتّات التكافؤ إلى رسالة بغرض الإرسال",
-  "exercise:intergalactic-transmission:source": "Kah Goh"
+  "exercise:intergalactic-transmission:source": "Kah Goh",
+  "exercise:rail-fence-cipher:name": "شيفرة السياج",
+  "exercise:rail-fence-cipher:blurb": "نفّذ الترميز وفك الترميز لشيفرة السياج.",
+  "exercise:rail-fence-cipher:source": "ويكيبيديا"
 }
