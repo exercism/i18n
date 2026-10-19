@@ -68,6 +68,10 @@ This page is generated from [the index](../../json/zh-TW/scheme.json) by `script
 - `instructions.append.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/collatz-conjecture/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/01/c1/a71a61e83ceb076601ad03431f447fe9ad4f.md)
 - `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/collatz-conjecture/.docs/introduction.md)): [Latest](../../../locales/zh-TW/content/c3/5b/deb67dceef4bf9769dbbf473e841cdd068f2.md)
 
+### Crypto Square (加密方陣)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/crypto-square/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/6c/38/26ee558d8a2ef2b7d20a2b41f2eaf31ec5cd.md)
+
 ### Difference of Squares (平方差)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/difference-of-squares/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/39/c3/8b5094a948fd87e8349a64d545ca847b3e89.md)

@@ -195,5 +195,8 @@
   "exercise:intergalactic-transmission:source": "Kah Goh",
   "exercise:rail-fence-cipher:name": "Cifrario a recinzione",
   "exercise:rail-fence-cipher:blurb": "Implementa la codifica e la decodifica del cifrario a recinzione.",
-  "exercise:rail-fence-cipher:source": "Wikipedia"
+  "exercise:rail-fence-cipher:source": "Wikipedia",
+  "exercise:crypto-square:name": "Quadrato cifrato",
+  "exercise:crypto-square:blurb": "Implementa il metodo classico per comporre messaggi segreti chiamato codice quadrato.",
+  "exercise:crypto-square:source": "Problemi di Programming Practice di J Dalbey"
 }

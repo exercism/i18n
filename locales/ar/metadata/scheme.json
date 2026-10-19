@@ -195,5 +195,8 @@
   "exercise:intergalactic-transmission:source": "Kah Goh",
   "exercise:rail-fence-cipher:name": "شيفرة السياج",
   "exercise:rail-fence-cipher:blurb": "نفّذ الترميز وفك الترميز لشيفرة السياج.",
-  "exercise:rail-fence-cipher:source": "ويكيبيديا"
+  "exercise:rail-fence-cipher:source": "ويكيبيديا",
+  "exercise:crypto-square:name": "المربع المشفّر",
+  "exercise:crypto-square:blurb": "نفّذ الطريقة الكلاسيكية لتأليف الرسائل السرية التي تُعرف بالمربع المشفّر.",
+  "exercise:crypto-square:source": "مسائل Programming Practice لـ J Dalbey"
 }

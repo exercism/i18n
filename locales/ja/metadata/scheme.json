@@ -195,5 +195,8 @@
   "exercise:intergalactic-transmission:source": "Kah Goh",
   "exercise:rail-fence-cipher:name": "レールフェンス暗号",
   "exercise:rail-fence-cipher:blurb": "レールフェンス暗号のエンコードとデコードを実装します。",
-  "exercise:rail-fence-cipher:source": "Wikipedia"
+  "exercise:rail-fence-cipher:source": "Wikipedia",
+  "exercise:crypto-square:name": "スクエア暗号",
+  "exercise:crypto-square:blurb": "スクエア暗号と呼ばれる、秘密のメッセージを組み立てる古典的な方法を実装します。",
+  "exercise:crypto-square:source": "J DalbeyのProgramming Practiceの問題集"
 }

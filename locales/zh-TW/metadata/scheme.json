@@ -195,5 +195,8 @@
   "exercise:intergalactic-transmission:source": "Kah Goh",
   "exercise:rail-fence-cipher:name": "柵欄密碼",
   "exercise:rail-fence-cipher:blurb": "實作柵欄密碼的編碼與解碼。",
-  "exercise:rail-fence-cipher:source": "Wikipedia"
+  "exercise:rail-fence-cipher:source": "Wikipedia",
+  "exercise:crypto-square:name": "加密方陣",
+  "exercise:crypto-square:blurb": "實作這種稱為方陣密碼、用來撰寫秘密訊息的經典方法。",
+  "exercise:crypto-square:source": "J Dalbey's Programming Practice problems"
 }

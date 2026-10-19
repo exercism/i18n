@@ -195,5 +195,8 @@
   "exercise:intergalactic-transmission:source": "Kah Goh",
   "exercise:rail-fence-cipher:name": "Sínkerítés-rejtjel",
   "exercise:rail-fence-cipher:blurb": "Valósítsd meg a rail fence rejtjel kódolását és dekódolását.",
-  "exercise:rail-fence-cipher:source": "Wikipedia"
+  "exercise:rail-fence-cipher:source": "Wikipedia",
+  "exercise:crypto-square:name": "Kriptonégyzet",
+  "exercise:crypto-square:blurb": "Valósítsd meg a titkos üzenetek összeállításának klasszikus módszerét, amelyet négyzetkódnak neveznek.",
+  "exercise:crypto-square:source": "J Dalbey Programming Practice feladatai"
 }

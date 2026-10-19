@@ -195,5 +195,8 @@
   "exercise:intergalactic-transmission:source": "Kah Goh",
   "exercise:rail-fence-cipher:name": "栅栏密码",
   "exercise:rail-fence-cipher:blurb": "实现栅栏密码的编码和解码。",
-  "exercise:rail-fence-cipher:source": "Wikipedia"
+  "exercise:rail-fence-cipher:source": "Wikipedia",
+  "exercise:crypto-square:name": "密码方阵",
+  "exercise:crypto-square:blurb": "实现这种叫作方阵密码的经典密文编写方法。",
+  "exercise:crypto-square:source": "J Dalbey 的 Programming Practice 习题"
 }

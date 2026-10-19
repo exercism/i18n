@@ -195,5 +195,8 @@
   "exercise:intergalactic-transmission:source": "Kah Goh",
   "exercise:rail-fence-cipher:name": "레일 펜스 암호",
   "exercise:rail-fence-cipher:blurb": "레일 펜스 암호의 인코딩과 디코딩을 구현해요.",
-  "exercise:rail-fence-cipher:source": "Wikipedia"
+  "exercise:rail-fence-cipher:source": "Wikipedia",
+  "exercise:crypto-square:name": "암호 사각형",
+  "exercise:crypto-square:blurb": "정사각형 암호라고 불리는, 비밀 메시지를 만드는 고전적인 방법을 구현해요.",
+  "exercise:crypto-square:source": "J Dalbey의 Programming Practice problems"
 }

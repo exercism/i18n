@@ -195,5 +195,8 @@
   "exercise:intergalactic-transmission:source": "Kah Goh",
   "exercise:rail-fence-cipher:name": "Cifra de cerca de trilhos",
   "exercise:rail-fence-cipher:blurb": "Implemente a codificação e a decodificação da cifra de cerca de trilhos.",
-  "exercise:rail-fence-cipher:source": "Wikipedia"
+  "exercise:rail-fence-cipher:source": "Wikipedia",
+  "exercise:crypto-square:name": "Quadrado criptográfico",
+  "exercise:crypto-square:blurb": "Implemente o método clássico de compor mensagens secretas chamado de código quadrado.",
+  "exercise:crypto-square:source": "Problemas de Programming Practice, de J Dalbey"
 }

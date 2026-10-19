@@ -195,5 +195,8 @@
   "exercise:intergalactic-transmission:source": "Ка Го",
   "exercise:rail-fence-cipher:name": "Шифр паркану",
   "exercise:rail-fence-cipher:blurb": "Реалізувати кодування та декодування для шифру паркану.",
-  "exercise:rail-fence-cipher:source": "Wikipedia"
+  "exercise:rail-fence-cipher:source": "Wikipedia",
+  "exercise:crypto-square:name": "Криптографічний квадрат",
+  "exercise:crypto-square:blurb": "Реалізуйте класичний метод побудови таємних повідомлень, відомий як квадратний код.",
+  "exercise:crypto-square:source": "Задачі з Programming Practice від J Dalbey"
 }

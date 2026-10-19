@@ -195,5 +195,8 @@
   "exercise:intergalactic-transmission:source": "Kah Goh",
   "exercise:rail-fence-cipher:name": "Chiffre des rails",
   "exercise:rail-fence-cipher:blurb": "Implémente l'encodage et le décodage du chiffre des rails.",
-  "exercise:rail-fence-cipher:source": "Wikipedia"
+  "exercise:rail-fence-cipher:source": "Wikipedia",
+  "exercise:crypto-square:name": "Carré cryptographique",
+  "exercise:crypto-square:blurb": "Implémente la méthode classique pour composer des messages secrets appelée code carré.",
+  "exercise:crypto-square:source": "Les problèmes de Programming Practice de J Dalbey"
 }

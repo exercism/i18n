@@ -195,5 +195,8 @@
   "exercise:intergalactic-transmission:source": "Kah Goh",
   "exercise:rail-fence-cipher:name": "রেল ফেন্স সাইফার",
   "exercise:rail-fence-cipher:blurb": "রেল ফেন্স সাইফারের জন্য এনকোডিং ও ডিকোডিং বাস্তবায়ন করুন।",
-  "exercise:rail-fence-cipher:source": "Wikipedia"
+  "exercise:rail-fence-cipher:source": "Wikipedia",
+  "exercise:crypto-square:name": "ক্রিপ্টো স্কয়ার",
+  "exercise:crypto-square:blurb": "স্কয়ার কোড নামে পরিচিত গোপন বার্তা তৈরি করার ক্লাসিক পদ্ধতি ইমপ্লিমেন্ট করুন।",
+  "exercise:crypto-square:source": "J Dalbey-এর Programming Practice সমস্যাগুলো"
 }

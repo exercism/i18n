@@ -195,5 +195,8 @@
   "exercise:intergalactic-transmission:source": "Kah Goh",
   "exercise:rail-fence-cipher:name": "रेल फेंस सिफर",
   "exercise:rail-fence-cipher:blurb": "रेल फेंस सिफर के लिए एन्कोडिंग और डिकोडिंग बनाइए।",
-  "exercise:rail-fence-cipher:source": "Wikipedia"
+  "exercise:rail-fence-cipher:source": "Wikipedia",
+  "exercise:crypto-square:name": "क्रिप्टो स्क्वायर",
+  "exercise:crypto-square:blurb": "गुप्त संदेश बनाने का क्लासिक तरीका, जिसे स्क्वायर कोड कहते हैं, लागू कीजिए।",
+  "exercise:crypto-square:source": "J Dalbey की प्रोग्रामिंग अभ्यास की समस्याएँ"
 }
