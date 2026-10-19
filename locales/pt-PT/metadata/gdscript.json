@@ -179,5 +179,8 @@
   "exercise:alphametics:blurb": "Dado um quebra-cabeças de alfamética, encontra a solução correta.",
   "exercise:game-of-life:name": "O Jogo da Vida de Conway",
   "exercise:game-of-life:blurb": "Implementa o Jogo da Vida de Conway.",
-  "exercise:game-of-life:source": "Wikipedia"
+  "exercise:game-of-life:source": "Wikipedia",
+  "exercise:killer-sudoku-helper:name": "Ajudante de Killer Sudoku",
+  "exercise:killer-sudoku-helper:blurb": "Escreve uma ferramenta que facilite a resolução de Killer Sudokus",
+  "exercise:killer-sudoku-helper:source": "Criado por Sascha Mann, Jeremy Walker e BethanyG para a track de Julia no Exercism."
 }

@@ -100,6 +100,10 @@ This page is generated from [the index](../../json/ko/gdscript.json) by `scripts
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/isogram/.docs/instructions.md)): [Latest](../../../locales/ko/content/2e/8d/f851a99beccd161344d687e5b90ec194f954.md)
 
+### Killer Sudoku Helper (킬러 스도쿠 도우미)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/killer-sudoku-helper/.docs/instructions.md)): [Latest](../../../locales/ko/content/41/53/c3e9e1cbc213191557d177cc695e9231aadd.md)
+
 ### Leap (윤년)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/leap/.docs/instructions.md)): [Latest](../../../locales/ko/content/b1/4f/8565d61694d7c20d78e10f966bd3deaaf748.md)

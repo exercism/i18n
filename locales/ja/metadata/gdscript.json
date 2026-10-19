@@ -179,5 +179,8 @@
   "exercise:alphametics:blurb": "アルファメティックスのパズルが与えられたとき、正しい解答を見つけてください。",
   "exercise:game-of-life:name": "コンウェイのライフゲーム",
   "exercise:game-of-life:blurb": "コンウェイのライフゲームを実装します。",
-  "exercise:game-of-life:source": "Wikipedia"
+  "exercise:game-of-life:source": "Wikipedia",
+  "exercise:killer-sudoku-helper:name": "キラー数独ヘルパー",
+  "exercise:killer-sudoku-helper:blurb": "キラー数独をもっと簡単に解けるようにするツールを作成します。",
+  "exercise:killer-sudoku-helper:source": "ExercismのJuliaトラックのために、Sascha Mann、Jeremy Walker、BethanyGが作成しました。"
 }

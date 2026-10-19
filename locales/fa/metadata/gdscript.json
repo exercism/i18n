@@ -179,5 +179,8 @@
   "exercise:alphametics:blurb": "پاسخ درست یک معمای آلفامتیک را پیدا کنید.",
   "exercise:game-of-life:name": "بازی زندگی کانوی",
   "exercise:game-of-life:blurb": "بازی زندگی کانوی را پیاده‌سازی کنید.",
-  "exercise:game-of-life:source": "Wikipedia"
+  "exercise:game-of-life:source": "Wikipedia",
+  "exercise:killer-sudoku-helper:name": "کمک‌کننده‌ی سودوکوی قاتل",
+  "exercise:killer-sudoku-helper:blurb": "ابزاری بنویسید که حل سودوکوی قاتل را آسان‌تر کند",
+  "exercise:killer-sudoku-helper:source": "ساخته‌شده توسط Sascha Mann، Jeremy Walker و BethanyG برای مسیر Julia در Exercism."
 }

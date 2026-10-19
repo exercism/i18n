@@ -179,5 +179,8 @@
   "exercise:alphametics:blurb": "दी गई अल्फामेटिक्स पहेली का सही हल निकालिए।",
   "exercise:game-of-life:name": "Conway's Game of Life",
   "exercise:game-of-life:blurb": "Conway's Game of Life लागू कीजिए।",
-  "exercise:game-of-life:source": "Wikipedia"
+  "exercise:game-of-life:source": "Wikipedia",
+  "exercise:killer-sudoku-helper:name": "किलर सुडोकू सहायक",
+  "exercise:killer-sudoku-helper:blurb": "एक ऐसा टूल लिखिए जिससे किलर सुडोकू हल करना आसान हो जाए",
+  "exercise:killer-sudoku-helper:source": "Sascha Mann, Jeremy Walker और BethanyG द्वारा Exercism के Julia ट्रैक के लिए बनाया गया।"
 }

@@ -179,5 +179,8 @@
   "exercise:alphametics:blurb": "Δεδομένου ενός αλφαριθμητικού γρίφου, βρες τη σωστή λύση.",
   "exercise:game-of-life:name": "Το Παιχνίδι της Ζωής του Conway",
   "exercise:game-of-life:blurb": "Υλοποίησε το Παιχνίδι της Ζωής του Conway.",
-  "exercise:game-of-life:source": "Wikipedia"
+  "exercise:game-of-life:source": "Wikipedia",
+  "exercise:killer-sudoku-helper:name": "Βοηθός Killer Sudoku",
+  "exercise:killer-sudoku-helper:blurb": "Γράψε ένα εργαλείο που κάνει πιο εύκολη τη λύση των Killer Sudoku",
+  "exercise:killer-sudoku-helper:source": "Δημιουργήθηκε από τους Sascha Mann, Jeremy Walker και BethanyG για τη Julia στο Exercism."
 }

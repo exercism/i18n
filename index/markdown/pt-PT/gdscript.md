@@ -100,6 +100,10 @@ This page is generated from [the index](../../json/pt-PT/gdscript.json) by `scri
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/isogram/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/2e/8d/f851a99beccd161344d687e5b90ec194f954.md)
 
+### Killer Sudoku Helper (Ajudante de Killer Sudoku)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/killer-sudoku-helper/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/41/53/c3e9e1cbc213191557d177cc695e9231aadd.md)
+
 ### Leap (Ano bissexto)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/leap/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/b1/4f/8565d61694d7c20d78e10f966bd3deaaf748.md)

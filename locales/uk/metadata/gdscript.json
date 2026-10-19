@@ -179,5 +179,8 @@
   "exercise:alphametics:blurb": "За заданою алфаметичною головоломкою знайдіть правильний розвʼязок.",
   "exercise:game-of-life:name": "Гра життя Конвея",
   "exercise:game-of-life:blurb": "Реалізуйте гру життя Конвея.",
-  "exercise:game-of-life:source": "Wikipedia"
+  "exercise:game-of-life:source": "Wikipedia",
+  "exercise:killer-sudoku-helper:name": "Помічник для Killer Sudoku",
+  "exercise:killer-sudoku-helper:blurb": "Напишіть інструмент, який полегшує розвʼязування головоломок Killer Sudoku.",
+  "exercise:killer-sudoku-helper:source": "Створено Сашею Манном, Джеремі Вокером і BethanyG для треку Julia на Exercism."
 }

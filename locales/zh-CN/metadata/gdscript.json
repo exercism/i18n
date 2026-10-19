@@ -179,5 +179,8 @@
   "exercise:alphametics:blurb": "给定一道字母算术谜题，找出正确的答案。",
   "exercise:game-of-life:name": "康威生命游戏",
   "exercise:game-of-life:blurb": "实现康威生命游戏。",
-  "exercise:game-of-life:source": "Wikipedia"
+  "exercise:game-of-life:source": "Wikipedia",
+  "exercise:killer-sudoku-helper:name": "杀手数独助手",
+  "exercise:killer-sudoku-helper:blurb": "写一个工具，让解杀手数独变得更容易。",
+  "exercise:killer-sudoku-helper:source": "由 Sascha Mann、Jeremy Walker 和 BethanyG 为 Exercism 的 Julia 学习轨道创建。"
 }

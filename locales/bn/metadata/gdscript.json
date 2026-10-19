@@ -179,5 +179,8 @@
   "exercise:alphametics:blurb": "একটি অ্যালফামেটিকস ধাঁধা দেওয়া হলে সঠিক সমাধান খুঁজে বের করুন।",
   "exercise:game-of-life:name": "কনওয়ের গেম অফ লাইফ",
   "exercise:game-of-life:blurb": "কনওয়ের গেম অফ লাইফ বাস্তবায়ন করুন।",
-  "exercise:game-of-life:source": "Wikipedia"
+  "exercise:game-of-life:source": "Wikipedia",
+  "exercise:killer-sudoku-helper:name": "Killer Sudoku হেল্পার",
+  "exercise:killer-sudoku-helper:blurb": "Killer Sudoku সমাধান করা সহজ করে এমন একটি টুল লিখুন",
+  "exercise:killer-sudoku-helper:source": "Exercism-এর Julia ট্র্যাকের জন্য Sascha Mann, Jeremy Walker এবং BethanyG তৈরি করেছেন।"
 }

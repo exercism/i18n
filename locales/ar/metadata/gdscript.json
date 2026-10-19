@@ -179,5 +179,8 @@
   "exercise:alphametics:blurb": "بالنظر إلى لغز Alphametics، ابحث عن الحل الصحيح.",
   "exercise:game-of-life:name": "لعبة الحياة لـ Conway",
   "exercise:game-of-life:blurb": "نفّذ لعبة الحياة لـ Conway.",
-  "exercise:game-of-life:source": "ويكيبيديا"
+  "exercise:game-of-life:source": "ويكيبيديا",
+  "exercise:killer-sudoku-helper:name": "مساعد Killer Sudoku",
+  "exercise:killer-sudoku-helper:blurb": "اكتب أداة تسهّل حل ألغاز Killer Sudoku",
+  "exercise:killer-sudoku-helper:source": "أنشأه Sascha Mann وJeremy Walker وBethanyG لمسار Julia على Exercism."
 }

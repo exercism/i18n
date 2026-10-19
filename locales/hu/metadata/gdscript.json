@@ -179,5 +179,8 @@
   "exercise:alphametics:blurb": "Adott egy alphametics rejtvény, keresd meg a helyes megoldást.",
   "exercise:game-of-life:name": "Conway életjátéka",
   "exercise:game-of-life:blurb": "Valósítsd meg Conway életjátékát.",
-  "exercise:game-of-life:source": "Wikipedia"
+  "exercise:game-of-life:source": "Wikipedia",
+  "exercise:killer-sudoku-helper:name": "Killer Sudoku segéd",
+  "exercise:killer-sudoku-helper:blurb": "Írj egy eszközt, amely megkönnyíti a killer sudokuk megoldását",
+  "exercise:killer-sudoku-helper:source": "Sascha Mann, Jeremy Walker és BethanyG készítette az Exercism Julia-kurzusához."
 }

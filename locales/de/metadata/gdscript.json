@@ -179,5 +179,8 @@
   "exercise:alphametics:blurb": "Finde die richtige Lösung für ein Alphametik-Rätsel.",
   "exercise:game-of-life:name": "Conways Spiel des Lebens",
   "exercise:game-of-life:blurb": "Implementiere Conways Spiel des Lebens.",
-  "exercise:game-of-life:source": "Wikipedia"
+  "exercise:game-of-life:source": "Wikipedia",
+  "exercise:killer-sudoku-helper:name": "Killer-Sudoku-Helfer",
+  "exercise:killer-sudoku-helper:blurb": "Schreibe ein Tool, mit dem sich Killer-Sudokus leichter lösen lassen",
+  "exercise:killer-sudoku-helper:source": "Erstellt von Sascha Mann, Jeremy Walker und BethanyG für den Julia-Track auf Exercism."
 }
