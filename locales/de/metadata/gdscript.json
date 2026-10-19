@@ -176,5 +176,8 @@
   "exercise:save-the-cow:name": "Rette die Kuh",
   "exercise:save-the-cow:blurb": "Implementiere ein Wortratespiel.",
   "exercise:alphametics:name": "Alphametik",
-  "exercise:alphametics:blurb": "Finde die richtige Lösung für ein Alphametik-Rätsel."
+  "exercise:alphametics:blurb": "Finde die richtige Lösung für ein Alphametik-Rätsel.",
+  "exercise:game-of-life:name": "Conways Spiel des Lebens",
+  "exercise:game-of-life:blurb": "Implementiere Conways Spiel des Lebens.",
+  "exercise:game-of-life:source": "Wikipedia"
 }

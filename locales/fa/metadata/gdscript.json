@@ -176,5 +176,8 @@
   "exercise:save-the-cow:name": "گاو را نجات دهید",
   "exercise:save-the-cow:blurb": "یک بازی حدس کلمه پیاده‌سازی کنید.",
   "exercise:alphametics:name": "آلفامتیک",
-  "exercise:alphametics:blurb": "پاسخ درست یک معمای آلفامتیک را پیدا کنید."
+  "exercise:alphametics:blurb": "پاسخ درست یک معمای آلفامتیک را پیدا کنید.",
+  "exercise:game-of-life:name": "بازی زندگی کانوی",
+  "exercise:game-of-life:blurb": "بازی زندگی کانوی را پیاده‌سازی کنید.",
+  "exercise:game-of-life:source": "Wikipedia"
 }

@@ -176,5 +176,8 @@
   "exercise:save-the-cow:name": "Salva la mucca",
   "exercise:save-the-cow:blurb": "Implementa un gioco di indovinelli di parole.",
   "exercise:alphametics:name": "Alfametica",
-  "exercise:alphametics:blurb": "Dato un puzzle di alfametica, trova la soluzione corretta."
+  "exercise:alphametics:blurb": "Dato un puzzle di alfametica, trova la soluzione corretta.",
+  "exercise:game-of-life:name": "Il gioco della vita di Conway",
+  "exercise:game-of-life:blurb": "Implementa il gioco della vita di Conway.",
+  "exercise:game-of-life:source": "Wikipedia"
 }

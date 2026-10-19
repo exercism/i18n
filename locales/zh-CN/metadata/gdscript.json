@@ -176,5 +176,8 @@
   "exercise:save-the-cow:name": "拯救奶牛",
   "exercise:save-the-cow:blurb": "实现一个猜词游戏。",
   "exercise:alphametics:name": "字母算术",
-  "exercise:alphametics:blurb": "给定一道字母算术谜题，找出正确的答案。"
+  "exercise:alphametics:blurb": "给定一道字母算术谜题，找出正确的答案。",
+  "exercise:game-of-life:name": "康威生命游戏",
+  "exercise:game-of-life:blurb": "实现康威生命游戏。",
+  "exercise:game-of-life:source": "Wikipedia"
 }

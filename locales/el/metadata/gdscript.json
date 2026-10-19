@@ -176,5 +176,8 @@
   "exercise:save-the-cow:name": "Σώσε την αγελάδα",
   "exercise:save-the-cow:blurb": "Υλοποίησε ένα παιχνίδι μαντέματος λέξεων.",
   "exercise:alphametics:name": "Αλφαριθμητικά",
-  "exercise:alphametics:blurb": "Δεδομένου ενός αλφαριθμητικού γρίφου, βρες τη σωστή λύση."
+  "exercise:alphametics:blurb": "Δεδομένου ενός αλφαριθμητικού γρίφου, βρες τη σωστή λύση.",
+  "exercise:game-of-life:name": "Το Παιχνίδι της Ζωής του Conway",
+  "exercise:game-of-life:blurb": "Υλοποίησε το Παιχνίδι της Ζωής του Conway.",
+  "exercise:game-of-life:source": "Wikipedia"
 }

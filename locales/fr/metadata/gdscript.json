@@ -176,5 +176,8 @@
   "exercise:save-the-cow:name": "Sauve la vache",
   "exercise:save-the-cow:blurb": "Implémenter un jeu de devinettes de mots.",
   "exercise:alphametics:name": "Alphamétique",
-  "exercise:alphametics:blurb": "Étant donné une énigme alphamétique, trouve la solution correcte."
+  "exercise:alphametics:blurb": "Étant donné une énigme alphamétique, trouve la solution correcte.",
+  "exercise:game-of-life:name": "Le jeu de la vie de Conway",
+  "exercise:game-of-life:blurb": "Implémente le jeu de la vie de Conway.",
+  "exercise:game-of-life:source": "Wikipedia"
 }

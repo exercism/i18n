@@ -176,5 +176,8 @@
   "exercise:save-the-cow:name": "소를 구해요",
   "exercise:save-the-cow:blurb": "단어 맞히기 게임을 구현해요.",
   "exercise:alphametics:name": "알파메틱스",
-  "exercise:alphametics:blurb": "알파메틱스 퍼즐이 주어지면 올바른 해답을 찾아요."
+  "exercise:alphametics:blurb": "알파메틱스 퍼즐이 주어지면 올바른 해답을 찾아요.",
+  "exercise:game-of-life:name": "콘웨이의 생명 게임",
+  "exercise:game-of-life:blurb": "콘웨이의 생명 게임을 구현해요.",
+  "exercise:game-of-life:source": "Wikipedia"
 }

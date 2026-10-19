@@ -176,5 +176,8 @@
   "exercise:save-the-cow:name": "牛を救え",
   "exercise:save-the-cow:blurb": "単語当てゲームを実装します。",
   "exercise:alphametics:name": "アルファメティックス",
-  "exercise:alphametics:blurb": "アルファメティックスのパズルが与えられたとき、正しい解答を見つけてください。"
+  "exercise:alphametics:blurb": "アルファメティックスのパズルが与えられたとき、正しい解答を見つけてください。",
+  "exercise:game-of-life:name": "コンウェイのライフゲーム",
+  "exercise:game-of-life:blurb": "コンウェイのライフゲームを実装します。",
+  "exercise:game-of-life:source": "Wikipedia"
 }

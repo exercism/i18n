@@ -176,5 +176,8 @@
   "exercise:save-the-cow:name": "Mentsd meg a tehenet",
   "exercise:save-the-cow:blurb": "Valósíts meg egy szókitaláló játékot.",
   "exercise:alphametics:name": "Alfametika",
-  "exercise:alphametics:blurb": "Adott egy alphametics rejtvény, keresd meg a helyes megoldást."
+  "exercise:alphametics:blurb": "Adott egy alphametics rejtvény, keresd meg a helyes megoldást.",
+  "exercise:game-of-life:name": "Conway életjátéka",
+  "exercise:game-of-life:blurb": "Valósítsd meg Conway életjátékát.",
+  "exercise:game-of-life:source": "Wikipedia"
 }

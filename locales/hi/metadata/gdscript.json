@@ -176,5 +176,8 @@
   "exercise:save-the-cow:name": "गाय को बचाइए",
   "exercise:save-the-cow:blurb": "शब्द का अनुमान लगाने वाला खेल बनाइए।",
   "exercise:alphametics:name": "अल्फामेटिक्स",
-  "exercise:alphametics:blurb": "दी गई अल्फामेटिक्स पहेली का सही हल निकालिए।"
+  "exercise:alphametics:blurb": "दी गई अल्फामेटिक्स पहेली का सही हल निकालिए।",
+  "exercise:game-of-life:name": "Conway's Game of Life",
+  "exercise:game-of-life:blurb": "Conway's Game of Life लागू कीजिए।",
+  "exercise:game-of-life:source": "Wikipedia"
 }

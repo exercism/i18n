@@ -176,5 +176,8 @@
   "exercise:save-the-cow:name": "أنقذ البقرة",
   "exercise:save-the-cow:blurb": "نفّذ لعبة تخمين الكلمات.",
   "exercise:alphametics:name": "Alphametics",
-  "exercise:alphametics:blurb": "بالنظر إلى لغز Alphametics، ابحث عن الحل الصحيح."
+  "exercise:alphametics:blurb": "بالنظر إلى لغز Alphametics، ابحث عن الحل الصحيح.",
+  "exercise:game-of-life:name": "لعبة الحياة لـ Conway",
+  "exercise:game-of-life:blurb": "نفّذ لعبة الحياة لـ Conway.",
+  "exercise:game-of-life:source": "ويكيبيديا"
 }

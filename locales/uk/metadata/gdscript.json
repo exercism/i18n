@@ -176,5 +176,8 @@
   "exercise:save-the-cow:name": "Врятуйте корову",
   "exercise:save-the-cow:blurb": "Реалізуйте гру з угадування слів.",
   "exercise:alphametics:name": "Алфаметика",
-  "exercise:alphametics:blurb": "За заданою алфаметичною головоломкою знайдіть правильний розвʼязок."
+  "exercise:alphametics:blurb": "За заданою алфаметичною головоломкою знайдіть правильний розвʼязок.",
+  "exercise:game-of-life:name": "Гра життя Конвея",
+  "exercise:game-of-life:blurb": "Реалізуйте гру життя Конвея.",
+  "exercise:game-of-life:source": "Wikipedia"
 }
