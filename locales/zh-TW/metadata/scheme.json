@@ -201,5 +201,7 @@
   "exercise:crypto-square:source": "J Dalbey's Programming Practice problems",
   "exercise:eliuds-eggs:name": "艾利烏的蛋",
   "exercise:eliuds-eggs:blurb": "透過計算二進位表示中 1 的個數，幫艾利烏數出她的雞舍裡有幾顆蛋。",
-  "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers"
+  "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers",
+  "exercise:rectangles:name": "矩形",
+  "exercise:rectangles:blurb": "計算 ASCII 圖形中的矩形數量。"
 }

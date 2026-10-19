@@ -201,5 +201,7 @@
   "exercise:crypto-square:source": "Οι ασκήσεις Programming Practice του J Dalbey",
   "exercise:eliuds-eggs:name": "Τα Αυγά του Eliud",
   "exercise:eliuds-eggs:blurb": "Βοήθησε την Eliud να μετρήσει τον αριθμό των αυγών στο κοτέτσι της μετρώντας πόσα bit είναι 1 σε μια δυαδική αναπαράσταση.",
-  "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers"
+  "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers",
+  "exercise:rectangles:name": "Ορθογώνια",
+  "exercise:rectangles:blurb": "Μέτρησε τα ορθογώνια σε ένα διάγραμμα ASCII."
 }

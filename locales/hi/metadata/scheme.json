@@ -201,5 +201,7 @@
   "exercise:crypto-square:source": "J Dalbey की प्रोग्रामिंग अभ्यास की समस्याएँ",
   "exercise:eliuds-eggs:name": "Eliud के अंडे",
   "exercise:eliuds-eggs:blurb": "बाइनरी रूप में 1 बिट की संख्या गिनकर Eliud को उसके मुर्गीघर के अंडे गिनने में मदद कीजिए।",
-  "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers"
+  "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers",
+  "exercise:rectangles:name": "आयत",
+  "exercise:rectangles:blurb": "एक ASCII आरेख में आयत गिनिए।"
 }

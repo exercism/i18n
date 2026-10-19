@@ -201,5 +201,7 @@
   "exercise:crypto-square:source": "J Dalbey-এর Programming Practice সমস্যাগুলো",
   "exercise:eliuds-eggs:name": "এলিউদের ডিম",
   "exercise:eliuds-eggs:blurb": "বাইনারি রূপে 1 বিটের সংখ্যা গুনে এলিউদকে তার মুরগির খাঁচার ডিমের সংখ্যা গণনা করতে সাহায্য করুন।",
-  "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers"
+  "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers",
+  "exercise:rectangles:name": "আয়তক্ষেত্র",
+  "exercise:rectangles:blurb": "একটি ASCII ডায়াগ্রামে আয়তক্ষেত্রগুলো গণনা করুন।"
 }

@@ -201,5 +201,7 @@
   "exercise:crypto-square:source": "مسائل Programming Practice لـ J Dalbey",
   "exercise:eliuds-eggs:name": "بيض Eliud",
   "exercise:eliuds-eggs:blurb": "ساعد Eliud في إحصاء البيض في قنّ دجاجها عبر عدّ البتات ذات القيمة 1 في التمثيل الثنائي.",
-  "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers"
+  "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers",
+  "exercise:rectangles:name": "المستطيلات",
+  "exercise:rectangles:blurb": "عُدّ المستطيلات في مخطط ASCII."
 }

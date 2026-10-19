@@ -201,5 +201,7 @@
   "exercise:crypto-square:source": "J DalbeyのProgramming Practiceの問題集",
   "exercise:eliuds-eggs:name": "エリウドの卵",
   "exercise:eliuds-eggs:blurb": "2進数表現の1のビットを数えることで、エリウドが鶏小屋の卵の数を数えるのを手伝いましょう。",
-  "exercise:eliuds-eggs:source": "Christian Willner、Eric Willigers"
+  "exercise:eliuds-eggs:source": "Christian Willner、Eric Willigers",
+  "exercise:rectangles:name": "長方形",
+  "exercise:rectangles:blurb": "ASCIIの図の中にある長方形を数えます。"
 }

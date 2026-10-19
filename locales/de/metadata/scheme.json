@@ -201,5 +201,7 @@
   "exercise:crypto-square:source": "Programmierübungsaufgaben von J Dalbey",
   "exercise:eliuds-eggs:name": "Eliuds Eier",
   "exercise:eliuds-eggs:blurb": "Hilf Eliud, die Anzahl der Eier in ihrem Hühnerstall zu zählen, indem du die Anzahl der 1-Bits in einer Binärdarstellung zählst.",
-  "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers"
+  "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers",
+  "exercise:rectangles:name": "Rechtecke",
+  "exercise:rectangles:blurb": "Zähle die Rechtecke in einem ASCII-Diagramm."
 }

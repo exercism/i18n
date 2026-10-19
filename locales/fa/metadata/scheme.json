@@ -201,5 +201,7 @@
   "exercise:crypto-square:source": "مسائل Programming Practice از J Dalbey",
   "exercise:eliuds-eggs:name": "تخم‌های الیود",
   "exercise:eliuds-eggs:blurb": "به الیود کمک کنید تا با شمردن تعداد بیت‌های ۱ در نمایش دودویی، تعداد تخم‌مرغ‌های مرغدانی‌اش را بشمارد.",
-  "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers"
+  "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers",
+  "exercise:rectangles:name": "مستطیل‌ها",
+  "exercise:rectangles:blurb": "مستطیل‌های یک نمودار ASCII را بشمارید."
 }

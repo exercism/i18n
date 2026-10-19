@@ -201,5 +201,7 @@
   "exercise:crypto-square:source": "Problemi di Programming Practice di J Dalbey",
   "exercise:eliuds-eggs:name": "Le uova di Eliud",
   "exercise:eliuds-eggs:blurb": "Aiuta Eliud a contare il numero di uova nel suo pollaio contando il numero di bit a 1 in una rappresentazione binaria.",
-  "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers"
+  "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers",
+  "exercise:rectangles:name": "Rettangoli",
+  "exercise:rectangles:blurb": "Conta i rettangoli in un diagramma ASCII."
 }

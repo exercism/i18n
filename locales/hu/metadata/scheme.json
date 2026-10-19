@@ -201,5 +201,7 @@
   "exercise:crypto-square:source": "J Dalbey Programming Practice feladatai",
   "exercise:eliuds-eggs:name": "Eliud tojásai",
   "exercise:eliuds-eggs:blurb": "Segíts Eliudnak megszámolni a tyúkólban lévő tojásokat azáltal, hogy megszámolod az 1-es biteket a bináris ábrázolásban.",
-  "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers"
+  "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers",
+  "exercise:rectangles:name": "Téglalapok",
+  "exercise:rectangles:blurb": "Számold meg a téglalapokat egy ASCII-ábrában."
 }

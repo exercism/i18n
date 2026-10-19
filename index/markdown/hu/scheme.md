@@ -256,6 +256,10 @@ This page is generated from [the index](../../json/hu/scheme.json) by `scripts/b
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/raindrops/.docs/instructions.md)): [Latest](../../../locales/hu/content/df/64/41075165afbe92ecc878d674f6861777972d.md)
 - `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/raindrops/.docs/introduction.md)): [Latest](../../../locales/hu/content/ba/12/100f3b87d51b814910614974e4923fbe5a6e.md)
 
+### Rectangles (Téglalapok)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/rectangles/.docs/instructions.md)): [Latest](../../../locales/hu/content/8e/b4/ed470e6582ebdd8d9986eb46255aacd24425.md)
+
 ### RNA Transcription (RNS-átírás)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/rna-transcription/.docs/instructions.md)): [Latest](../../../locales/hu/content/4d/bf/d3a2719c7dc9a1096d8879e916cc1d55305a.md)
