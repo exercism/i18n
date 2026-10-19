@@ -172,5 +172,7 @@
   "exercise:square-root:source": "wolf99",
   "exercise:saddle-points:name": "안장점",
   "exercise:saddle-points:blurb": "행렬에서 안장점을 찾아요.",
-  "exercise:saddle-points:source": "J Dalbey의 Programming Practice problems"
+  "exercise:saddle-points:source": "J Dalbey의 Programming Practice problems",
+  "exercise:save-the-cow:name": "소를 구해요",
+  "exercise:save-the-cow:blurb": "단어 맞히기 게임을 구현해요."
 }

@@ -172,5 +172,7 @@
   "exercise:square-root:source": "wolf99",
   "exercise:saddle-points:name": "Puntos de silla",
   "exercise:saddle-points:blurb": "Detectar los puntos de silla en una matriz.",
-  "exercise:saddle-points:source": "Problemas de práctica de programación de J Dalbey"
+  "exercise:saddle-points:source": "Problemas de práctica de programación de J Dalbey",
+  "exercise:save-the-cow:name": "Salva a la vaca",
+  "exercise:save-the-cow:blurb": "Implementar un juego de adivinanza de palabras."
 }

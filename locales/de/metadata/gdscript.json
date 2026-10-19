@@ -172,5 +172,7 @@
   "exercise:square-root:source": "wolf99",
   "exercise:saddle-points:name": "Sattelpunkte",
   "exercise:saddle-points:blurb": "Finde Sattelpunkte in einer Matrix.",
-  "exercise:saddle-points:source": "Programmierübungsaufgaben von J Dalbey"
+  "exercise:saddle-points:source": "Programmierübungsaufgaben von J Dalbey",
+  "exercise:save-the-cow:name": "Rette die Kuh",
+  "exercise:save-the-cow:blurb": "Implementiere ein Wortratespiel."
 }

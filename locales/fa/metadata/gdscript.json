@@ -172,5 +172,7 @@
   "exercise:square-root:source": "wolf99",
   "exercise:saddle-points:name": "نقاط زینی",
   "exercise:saddle-points:blurb": "نقاط زینی را در یک ماتریس تشخیص دهید.",
-  "exercise:saddle-points:source": "مسائل Programming Practice از J Dalbey"
+  "exercise:saddle-points:source": "مسائل Programming Practice از J Dalbey",
+  "exercise:save-the-cow:name": "گاو را نجات دهید",
+  "exercise:save-the-cow:blurb": "یک بازی حدس کلمه پیاده‌سازی کنید."
 }

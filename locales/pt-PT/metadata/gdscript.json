@@ -172,5 +172,7 @@
   "exercise:square-root:source": "wolf99",
   "exercise:saddle-points:name": "Pontos de sela",
   "exercise:saddle-points:blurb": "Deteta pontos de sela numa matriz.",
-  "exercise:saddle-points:source": "Programming Practice problems de J Dalbey"
+  "exercise:saddle-points:source": "Programming Practice problems de J Dalbey",
+  "exercise:save-the-cow:name": "Salva a vaca",
+  "exercise:save-the-cow:blurb": "Implementa um jogo de adivinhação de palavras."
 }

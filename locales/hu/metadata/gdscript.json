@@ -172,5 +172,7 @@
   "exercise:square-root:source": "wolf99",
   "exercise:saddle-points:name": "Nyeregpontok",
   "exercise:saddle-points:blurb": "Keresd meg a nyeregpontokat egy mátrixban.",
-  "exercise:saddle-points:source": "J Dalbey Programming Practice feladatai"
+  "exercise:saddle-points:source": "J Dalbey Programming Practice feladatai",
+  "exercise:save-the-cow:name": "Mentsd meg a tehenet",
+  "exercise:save-the-cow:blurb": "Valósíts meg egy szókitaláló játékot."
 }

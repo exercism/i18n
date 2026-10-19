@@ -172,5 +172,7 @@
   "exercise:square-root:source": "wolf99",
   "exercise:saddle-points:name": "Σαγματικά σημεία",
   "exercise:saddle-points:blurb": "Εντόπισε τα σαγματικά σημεία σε έναν πίνακα.",
-  "exercise:saddle-points:source": "Οι ασκήσεις Programming Practice του J Dalbey"
+  "exercise:saddle-points:source": "Οι ασκήσεις Programming Practice του J Dalbey",
+  "exercise:save-the-cow:name": "Σώσε την αγελάδα",
+  "exercise:save-the-cow:blurb": "Υλοποίησε ένα παιχνίδι μαντέματος λέξεων."
 }

@@ -172,5 +172,7 @@
   "exercise:square-root:source": "wolf99",
   "exercise:saddle-points:name": "Сідлові точки",
   "exercise:saddle-points:blurb": "Знайдіть сідлові точки в матриці.",
-  "exercise:saddle-points:source": "Задачі з Programming Practice від J Dalbey"
+  "exercise:saddle-points:source": "Задачі з Programming Practice від J Dalbey",
+  "exercise:save-the-cow:name": "Врятуйте корову",
+  "exercise:save-the-cow:blurb": "Реалізуйте гру з угадування слів."
 }

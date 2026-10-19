@@ -175,6 +175,11 @@ This page is generated from [the index](../../json/hu/gdscript.json) by `scripts
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/saddle-points/.docs/instructions.md)): [Latest](../../../locales/hu/content/f6/9c/dab9584a340834264ecee97cfd6df709cd21.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/saddle-points/.docs/introduction.md)): [Latest](../../../locales/hu/content/34/b2/c77e0cfd255425411a905ec311019c2d7375.md)
 
+### Save the Cow (Mentsd meg a tehenet)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/save-the-cow/.docs/instructions.md)): [Latest](../../../locales/hu/content/1e/c9/8a43a4245d184d048235e6b2792b0fcf8d59.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/save-the-cow/.docs/introduction.md)): [Latest](../../../locales/hu/content/c8/7a/7fa92873b675ba6dd90749e1af7958b0d4bf.md)
+
 ### Scale Generator (Skálagenerátor)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/scale-generator/.docs/instructions.md)): [Latest](../../../locales/hu/content/eb/b7/debc7636b1656892b7cd9783e4fd91775c26.md)

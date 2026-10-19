@@ -172,5 +172,7 @@
   "exercise:square-root:source": "wolf99",
   "exercise:saddle-points:name": "Points de selle",
   "exercise:saddle-points:blurb": "Détecter les points de selle dans une matrice.",
-  "exercise:saddle-points:source": "Les problèmes de Programming Practice de J Dalbey"
+  "exercise:saddle-points:source": "Les problèmes de Programming Practice de J Dalbey",
+  "exercise:save-the-cow:name": "Sauve la vache",
+  "exercise:save-the-cow:blurb": "Implémenter un jeu de devinettes de mots."
 }

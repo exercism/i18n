@@ -172,5 +172,7 @@
   "exercise:square-root:source": "wolf99",
   "exercise:saddle-points:name": "鞍点",
   "exercise:saddle-points:blurb": "行列の中の鞍点を検出します。",
-  "exercise:saddle-points:source": "J DalbeyのProgramming Practiceの問題集"
+  "exercise:saddle-points:source": "J DalbeyのProgramming Practiceの問題集",
+  "exercise:save-the-cow:name": "牛を救え",
+  "exercise:save-the-cow:blurb": "単語当てゲームを実装します。"
 }

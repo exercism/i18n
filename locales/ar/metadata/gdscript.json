@@ -172,5 +172,7 @@
   "exercise:square-root:source": "wolf99",
   "exercise:saddle-points:name": "نقاط السرج",
   "exercise:saddle-points:blurb": "اكتشف نقاط السرج في مصفوفة.",
-  "exercise:saddle-points:source": "مسائل Programming Practice لـ J Dalbey"
+  "exercise:saddle-points:source": "مسائل Programming Practice لـ J Dalbey",
+  "exercise:save-the-cow:name": "أنقذ البقرة",
+  "exercise:save-the-cow:blurb": "نفّذ لعبة تخمين الكلمات."
 }
