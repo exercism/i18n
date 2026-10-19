@@ -174,5 +174,7 @@
   "exercise:saddle-points:blurb": "Finde Sattelpunkte in einer Matrix.",
   "exercise:saddle-points:source": "Programmierübungsaufgaben von J Dalbey",
   "exercise:save-the-cow:name": "Rette die Kuh",
-  "exercise:save-the-cow:blurb": "Implementiere ein Wortratespiel."
+  "exercise:save-the-cow:blurb": "Implementiere ein Wortratespiel.",
+  "exercise:alphametics:name": "Alphametik",
+  "exercise:alphametics:blurb": "Finde die richtige Lösung für ein Alphametik-Rätsel."
 }

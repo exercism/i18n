@@ -174,5 +174,7 @@
   "exercise:saddle-points:blurb": "نقاط زینی را در یک ماتریس تشخیص دهید.",
   "exercise:saddle-points:source": "مسائل Programming Practice از J Dalbey",
   "exercise:save-the-cow:name": "گاو را نجات دهید",
-  "exercise:save-the-cow:blurb": "یک بازی حدس کلمه پیاده‌سازی کنید."
+  "exercise:save-the-cow:blurb": "یک بازی حدس کلمه پیاده‌سازی کنید.",
+  "exercise:alphametics:name": "آلفامتیک",
+  "exercise:alphametics:blurb": "پاسخ درست یک معمای آلفامتیک را پیدا کنید."
 }

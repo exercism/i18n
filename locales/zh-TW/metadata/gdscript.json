@@ -174,5 +174,7 @@
   "exercise:saddle-points:blurb": "找出矩陣中的鞍點。",
   "exercise:saddle-points:source": "J Dalbey's Programming Practice problems",
   "exercise:save-the-cow:name": "拯救乳牛",
-  "exercise:save-the-cow:blurb": "實作一個猜字遊戲。"
+  "exercise:save-the-cow:blurb": "實作一個猜字遊戲。",
+  "exercise:alphametics:name": "字母算術",
+  "exercise:alphametics:blurb": "給定一道字母算術謎題，找出正確解答。"
 }

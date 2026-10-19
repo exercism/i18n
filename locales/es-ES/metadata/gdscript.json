@@ -174,5 +174,7 @@
   "exercise:saddle-points:blurb": "Detecta los puntos de silla en una matriz.",
   "exercise:saddle-points:source": "Problemas de práctica de programación de J Dalbey",
   "exercise:save-the-cow:name": "Salva a la vaca",
-  "exercise:save-the-cow:blurb": "Implementa un juego de adivinanza de palabras."
+  "exercise:save-the-cow:blurb": "Implementa un juego de adivinanza de palabras.",
+  "exercise:alphametics:name": "Alfamética",
+  "exercise:alphametics:blurb": "Dado un puzle de alfamética, encuentra la solución correcta."
 }

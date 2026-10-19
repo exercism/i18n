@@ -174,5 +174,7 @@
   "exercise:saddle-points:blurb": "Знайдіть сідлові точки в матриці.",
   "exercise:saddle-points:source": "Задачі з Programming Practice від J Dalbey",
   "exercise:save-the-cow:name": "Врятуйте корову",
-  "exercise:save-the-cow:blurb": "Реалізуйте гру з угадування слів."
+  "exercise:save-the-cow:blurb": "Реалізуйте гру з угадування слів.",
+  "exercise:alphametics:name": "Алфаметика",
+  "exercise:alphametics:blurb": "За заданою алфаметичною головоломкою знайдіть правильний розвʼязок."
 }

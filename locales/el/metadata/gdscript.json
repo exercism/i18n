@@ -174,5 +174,7 @@
   "exercise:saddle-points:blurb": "Εντόπισε τα σαγματικά σημεία σε έναν πίνακα.",
   "exercise:saddle-points:source": "Οι ασκήσεις Programming Practice του J Dalbey",
   "exercise:save-the-cow:name": "Σώσε την αγελάδα",
-  "exercise:save-the-cow:blurb": "Υλοποίησε ένα παιχνίδι μαντέματος λέξεων."
+  "exercise:save-the-cow:blurb": "Υλοποίησε ένα παιχνίδι μαντέματος λέξεων.",
+  "exercise:alphametics:name": "Αλφαριθμητικά",
+  "exercise:alphametics:blurb": "Δεδομένου ενός αλφαριθμητικού γρίφου, βρες τη σωστή λύση."
 }

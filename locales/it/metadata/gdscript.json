@@ -174,5 +174,7 @@
   "exercise:saddle-points:blurb": "Individua i punti di sella in una matrice.",
   "exercise:saddle-points:source": "Problemi di Programming Practice di J Dalbey",
   "exercise:save-the-cow:name": "Salva la mucca",
-  "exercise:save-the-cow:blurb": "Implementa un gioco di indovinelli di parole."
+  "exercise:save-the-cow:blurb": "Implementa un gioco di indovinelli di parole.",
+  "exercise:alphametics:name": "Alfametica",
+  "exercise:alphametics:blurb": "Dato un puzzle di alfametica, trova la soluzione corretta."
 }

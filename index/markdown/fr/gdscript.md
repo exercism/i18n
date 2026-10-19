@@ -12,6 +12,10 @@ This page is generated from [the index](../../json/fr/gdscript.json) by `scripts
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/allergies/.docs/instructions.md)): [Latest](../../../locales/fr/content/da/f8/cfde214667c949800c801fafecaa053efa0e.md)
 
+### Alphametics (Alphamétique)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/alphametics/.docs/instructions.md)): [Latest](../../../locales/fr/content/ef/2c/bb4a71296cd830b1bc59eb7a63c9074e95a8.md)
+
 ### Anagram (Anagramme)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/anagram/.docs/instructions.md)): [Latest](../../../locales/fr/content/dc/a2/4f52627e3ba6b999322fb89d8c686c3ec634.md)

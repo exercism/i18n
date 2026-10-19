@@ -174,5 +174,7 @@
   "exercise:saddle-points:blurb": "मैट्रिक्स में सैडल पॉइंट पहचानिए।",
   "exercise:saddle-points:source": "J Dalbey की प्रोग्रामिंग अभ्यास की समस्याएँ",
   "exercise:save-the-cow:name": "गाय को बचाइए",
-  "exercise:save-the-cow:blurb": "शब्द का अनुमान लगाने वाला खेल बनाइए।"
+  "exercise:save-the-cow:blurb": "शब्द का अनुमान लगाने वाला खेल बनाइए।",
+  "exercise:alphametics:name": "अल्फामेटिक्स",
+  "exercise:alphametics:blurb": "दी गई अल्फामेटिक्स पहेली का सही हल निकालिए।"
 }
