@@ -191,5 +191,8 @@
   "exercise:gigasecond:source": "Chris Pine के ऑनलाइन 'Learn to Program' ट्यूटोरियल का अध्याय 9।",
   "exercise:acronym:name": "संक्षिप्ताक्षर",
   "exercise:acronym:blurb": "एक लंबे वाक्यांश को उसके संक्षिप्ताक्षर में बदलिए।",
-  "exercise:acronym:source": "Julien Vanier"
+  "exercise:acronym:source": "Julien Vanier",
+  "exercise:protein-translation:name": "प्रोटीन अनुवाद",
+  "exercise:protein-translation:blurb": "RNA अनुक्रमों का प्रोटीन में अनुवाद कीजिए।",
+  "exercise:protein-translation:source": "Tyler Long"
 }

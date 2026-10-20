@@ -151,6 +151,10 @@ This page is generated from [the index](../../json/bn/gdscript.json) by `scripts
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/prism/.docs/instructions.md)): [Latest](../../../locales/bn/content/13/ce/fae8c50b049c89d60b4cb12f8ecabb126706.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/prism/.docs/introduction.md)): [Latest](../../../locales/bn/content/bf/a7/ed72e4055b24b3c9c2b69a32d8fd5b95c27f.md)
 
+### Protein Translation (প্রোটিন ট্রান্সলেশন)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/protein-translation/.docs/instructions.md)): [Latest](../../../locales/bn/content/35/c9/53b11f9642c30978222e743aff4dc38f1451.md)
+
 ### Pythagorean Triplet (পিথাগোরীয় ত্রয়ী)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/pythagorean-triplet/.docs/instructions.md)): [Latest](../../../locales/bn/content/ce/d8/33d7a5b09a55ae68cc498c1997700bbcb45c.md)

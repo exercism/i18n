@@ -191,5 +191,8 @@
   "exercise:gigasecond:source": "Chris Pine-এর অনলাইন Learn to Program টিউটোরিয়ালের ৯ নম্বর অধ্যায়।",
   "exercise:acronym:name": "সংক্ষিপ্ত রূপ",
   "exercise:acronym:blurb": "একটি দীর্ঘ বাক্যাংশের সংক্ষিপ্ত রূপ তৈরি করুন।",
-  "exercise:acronym:source": "Julien Vanier"
+  "exercise:acronym:source": "Julien Vanier",
+  "exercise:protein-translation:name": "প্রোটিন ট্রান্সলেশন",
+  "exercise:protein-translation:blurb": "RNA সিকোয়েন্সকে প্রোটিনে রূপান্তর করুন।",
+  "exercise:protein-translation:source": "Tyler Long"
 }

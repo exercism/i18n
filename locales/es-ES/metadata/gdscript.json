@@ -191,5 +191,8 @@
   "exercise:gigasecond:source": "Capítulo 9 del tutorial en línea Learn to Program de Chris Pine.",
   "exercise:acronym:name": "Acrónimo",
   "exercise:acronym:blurb": "Convierte una frase larga en su acrónimo.",
-  "exercise:acronym:source": "Julien Vanier"
+  "exercise:acronym:source": "Julien Vanier",
+  "exercise:protein-translation:name": "Traducción de proteínas",
+  "exercise:protein-translation:blurb": "Traduce secuencias de ARN en proteínas.",
+  "exercise:protein-translation:source": "Tyler Long"
 }

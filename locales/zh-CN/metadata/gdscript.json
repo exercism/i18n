@@ -191,5 +191,8 @@
   "exercise:gigasecond:source": "Chris Pine 在线教程 Learn to Program 的第 9 章。",
   "exercise:acronym:name": "首字母缩写",
   "exercise:acronym:blurb": "把一个长短语转换成它的首字母缩写。",
-  "exercise:acronym:source": "Julien Vanier"
+  "exercise:acronym:source": "Julien Vanier",
+  "exercise:protein-translation:name": "蛋白质翻译",
+  "exercise:protein-translation:blurb": "将 RNA 序列翻译成蛋白质。",
+  "exercise:protein-translation:source": "Tyler Long"
 }

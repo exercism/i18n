@@ -191,5 +191,8 @@
   "exercise:gigasecond:source": "Chris Pineのオンラインチュートリアル『Learn to Program』の第9章。",
   "exercise:acronym:name": "頭字語",
   "exercise:acronym:blurb": "長いフレーズをその頭字語に変換してください。",
-  "exercise:acronym:source": "Julien Vanier"
+  "exercise:acronym:source": "Julien Vanier",
+  "exercise:protein-translation:name": "タンパク質の翻訳",
+  "exercise:protein-translation:blurb": "RNAの配列をタンパク質に翻訳します。",
+  "exercise:protein-translation:source": "Tyler Long"
 }

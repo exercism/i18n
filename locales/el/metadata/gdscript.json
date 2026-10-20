@@ -191,5 +191,8 @@
   "exercise:gigasecond:source": "Κεφάλαιο 9 στο διαδικτυακό σεμινάριο Learn to Program του Chris Pine.",
   "exercise:acronym:name": "Ακρώνυμο",
   "exercise:acronym:blurb": "Μετέτρεψε μια μεγάλη φράση στο ακρώνυμό της.",
-  "exercise:acronym:source": "Julien Vanier"
+  "exercise:acronym:source": "Julien Vanier",
+  "exercise:protein-translation:name": "Μετάφραση πρωτεϊνών",
+  "exercise:protein-translation:blurb": "Μετάφρασε αλληλουχίες RNA σε πρωτεΐνες.",
+  "exercise:protein-translation:source": "Tyler Long"
 }

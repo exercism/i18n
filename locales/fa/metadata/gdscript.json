@@ -191,5 +191,8 @@
   "exercise:gigasecond:source": "فصل ۹ در آموزش آنلاین Learn to Program نوشته‌ی Chris Pine.",
   "exercise:acronym:name": "سرنام",
   "exercise:acronym:blurb": "یک عبارت طولانی را به سرنامش تبدیل کنید.",
-  "exercise:acronym:source": "Julien Vanier"
+  "exercise:acronym:source": "Julien Vanier",
+  "exercise:protein-translation:name": "ترجمه‌ی پروتئین",
+  "exercise:protein-translation:blurb": "توالی‌های RNA را به پروتئین ترجمه کنید.",
+  "exercise:protein-translation:source": "Tyler Long"
 }

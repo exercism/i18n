@@ -191,5 +191,8 @@
   "exercise:gigasecond:source": "Chris Pine의 온라인 Learn to Program 튜토리얼 9장.",
   "exercise:acronym:name": "두문자어",
   "exercise:acronym:blurb": "긴 구문을 두문자어로 변환해요.",
-  "exercise:acronym:source": "Julien Vanier"
+  "exercise:acronym:source": "Julien Vanier",
+  "exercise:protein-translation:name": "단백질 번역",
+  "exercise:protein-translation:blurb": "RNA 서열을 단백질로 번역해요.",
+  "exercise:protein-translation:source": "Tyler Long"
 }

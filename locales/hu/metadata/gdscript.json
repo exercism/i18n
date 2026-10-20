@@ -191,5 +191,8 @@
   "exercise:gigasecond:source": "A 9. fejezet Chris Pine Learn to Program online oktatóanyagából.",
   "exercise:acronym:name": "Mozaikszó",
   "exercise:acronym:blurb": "Alakítsd át egy hosszú kifejezést betűszóvá.",
-  "exercise:acronym:source": "Julien Vanier"
+  "exercise:acronym:source": "Julien Vanier",
+  "exercise:protein-translation:name": "Fehérjetranszláció",
+  "exercise:protein-translation:blurb": "Fordítsd le az RNS-szekvenciákat fehérjékké.",
+  "exercise:protein-translation:source": "Tyler Long"
 }

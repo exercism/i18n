@@ -191,5 +191,8 @@
   "exercise:gigasecond:source": "الفصل 9 من درس Learn to Program عبر الإنترنت لـ Chris Pine.",
   "exercise:acronym:name": "الاختصار",
   "exercise:acronym:blurb": "حوّل عبارة طويلة إلى اختصارها.",
-  "exercise:acronym:source": "Julien Vanier"
+  "exercise:acronym:source": "Julien Vanier",
+  "exercise:protein-translation:name": "ترجمة البروتين",
+  "exercise:protein-translation:blurb": "ترجم تسلسلات RNA إلى بروتينات.",
+  "exercise:protein-translation:source": "Tyler Long"
 }
