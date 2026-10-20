@@ -188,5 +188,8 @@
   "exercise:pythagorean-triplet:source": "Uma variação do Problema 9 do Project Euler",
   "exercise:gigasecond:name": "Gigassegundo",
   "exercise:gigasecond:blurb": "Dado um instante, determine o instante que ocorre depois de passar um gigassegundo.",
-  "exercise:gigasecond:source": "Capítulo 9 do tutorial online Learn to Program, de Chris Pine."
+  "exercise:gigasecond:source": "Capítulo 9 do tutorial online Learn to Program, de Chris Pine.",
+  "exercise:acronym:name": "Acrônimo",
+  "exercise:acronym:blurb": "Converta uma frase longa em seu acrônimo.",
+  "exercise:acronym:source": "Julien Vanier"
 }

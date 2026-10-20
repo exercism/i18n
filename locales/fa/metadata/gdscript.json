@@ -188,5 +188,8 @@
   "exercise:pythagorean-triplet:source": "گونه‌ای از مسئله‌ی ۹ در Project Euler",
   "exercise:gigasecond:name": "گیگاثانیه",
   "exercise:gigasecond:blurb": "با دریافت یک لحظه، لحظه‌ای را تعیین کنید که پس از گذشت یک گیگاثانیه فرا می‌رسد.",
-  "exercise:gigasecond:source": "فصل ۹ در آموزش آنلاین Learn to Program نوشته‌ی Chris Pine."
+  "exercise:gigasecond:source": "فصل ۹ در آموزش آنلاین Learn to Program نوشته‌ی Chris Pine.",
+  "exercise:acronym:name": "سرنام",
+  "exercise:acronym:blurb": "یک عبارت طولانی را به سرنامش تبدیل کنید.",
+  "exercise:acronym:source": "Julien Vanier"
 }

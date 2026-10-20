@@ -188,5 +188,8 @@
   "exercise:pythagorean-triplet:source": "Μια παραλλαγή του προβλήματος 9 από το Project Euler",
   "exercise:gigasecond:name": "Γιγαδευτερόλεπτο",
   "exercise:gigasecond:blurb": "Δεδομένης μιας στιγμής, υπολόγισε τη στιγμή που θα είναι μετά την πάροδο ενός γιγαδευτερολέπτου.",
-  "exercise:gigasecond:source": "Κεφάλαιο 9 στο διαδικτυακό σεμινάριο Learn to Program του Chris Pine."
+  "exercise:gigasecond:source": "Κεφάλαιο 9 στο διαδικτυακό σεμινάριο Learn to Program του Chris Pine.",
+  "exercise:acronym:name": "Ακρώνυμο",
+  "exercise:acronym:blurb": "Μετέτρεψε μια μεγάλη φράση στο ακρώνυμό της.",
+  "exercise:acronym:source": "Julien Vanier"
 }

@@ -188,5 +188,8 @@
   "exercise:pythagorean-triplet:source": "Варіація задачі 9 з Project Euler",
   "exercise:gigasecond:name": "Гігасекунда",
   "exercise:gigasecond:blurb": "Для заданого моменту визначте момент, що настане через гігасекунду.",
-  "exercise:gigasecond:source": "Розділ 9 в онлайн-туторіалі Learn to Program від Chris Pine."
+  "exercise:gigasecond:source": "Розділ 9 в онлайн-туторіалі Learn to Program від Chris Pine.",
+  "exercise:acronym:name": "Акронім",
+  "exercise:acronym:blurb": "Перетворіть довгу фразу на акронім.",
+  "exercise:acronym:source": "Julien Vanier"
 }

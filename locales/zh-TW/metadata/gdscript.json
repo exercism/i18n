@@ -188,5 +188,8 @@
   "exercise:pythagorean-triplet:source": "Project Euler 第 9 題的變體。",
   "exercise:gigasecond:name": "十億秒",
   "exercise:gigasecond:blurb": "給定一個時間點，算出十億秒之後的時刻。",
-  "exercise:gigasecond:source": "Chris Pine 線上教學《Learn to Program》的第 9 章。"
+  "exercise:gigasecond:source": "Chris Pine 線上教學《Learn to Program》的第 9 章。",
+  "exercise:acronym:name": "縮寫",
+  "exercise:acronym:blurb": "將一段長詞語轉換成它的縮寫。",
+  "exercise:acronym:source": "Julien Vanier"
 }

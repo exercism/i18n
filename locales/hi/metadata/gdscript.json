@@ -188,5 +188,8 @@
   "exercise:pythagorean-triplet:source": "Project Euler की समस्या 9 का एक रूपांतर",
   "exercise:gigasecond:name": "गीगासेकंड",
   "exercise:gigasecond:blurb": "एक पल दिया जाए तो बताइए कि एक गीगासेकंड बीत जाने के बाद कौन-सा पल होगा।",
-  "exercise:gigasecond:source": "Chris Pine के ऑनलाइन 'Learn to Program' ट्यूटोरियल का अध्याय 9।"
+  "exercise:gigasecond:source": "Chris Pine के ऑनलाइन 'Learn to Program' ट्यूटोरियल का अध्याय 9।",
+  "exercise:acronym:name": "संक्षिप्ताक्षर",
+  "exercise:acronym:blurb": "एक लंबे वाक्यांश को उसके संक्षिप्ताक्षर में बदलिए।",
+  "exercise:acronym:source": "Julien Vanier"
 }

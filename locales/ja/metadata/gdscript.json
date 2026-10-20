@@ -188,5 +188,8 @@
   "exercise:pythagorean-triplet:source": "Project EulerのProblem 9のバリエーションです。",
   "exercise:gigasecond:name": "ギガ秒",
   "exercise:gigasecond:blurb": "ある時点が与えられたとき、ギガ秒が経過した後の時点を求めます。",
-  "exercise:gigasecond:source": "Chris Pineのオンラインチュートリアル『Learn to Program』の第9章。"
+  "exercise:gigasecond:source": "Chris Pineのオンラインチュートリアル『Learn to Program』の第9章。",
+  "exercise:acronym:name": "頭字語",
+  "exercise:acronym:blurb": "長いフレーズをその頭字語に変換してください。",
+  "exercise:acronym:source": "Julien Vanier"
 }

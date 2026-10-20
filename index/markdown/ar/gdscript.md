@@ -8,6 +8,10 @@ This page is generated from [the index](../../json/ar/gdscript.json) by `scripts
 
 ## Practice exercises
 
+### Acronym (الاختصار)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/acronym/.docs/instructions.md)): [Latest](../../../locales/ar/content/13/3b/d2cbb78d186c92e5d2b8ca41cf13f77d6bea.md)
+
 ### Allergies (الحساسية)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/allergies/.docs/instructions.md)): [Latest](../../../locales/ar/content/da/f8/cfde214667c949800c801fafecaa053efa0e.md)

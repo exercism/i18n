@@ -188,5 +188,8 @@
   "exercise:pythagorean-triplet:source": "Project Euler의 9번 문제를 변형한 것이에요.",
   "exercise:gigasecond:name": "기가초",
   "exercise:gigasecond:blurb": "어떤 시각이 주어지면, 기가초가 지난 뒤의 시각을 구해요.",
-  "exercise:gigasecond:source": "Chris Pine의 온라인 Learn to Program 튜토리얼 9장."
+  "exercise:gigasecond:source": "Chris Pine의 온라인 Learn to Program 튜토리얼 9장.",
+  "exercise:acronym:name": "두문자어",
+  "exercise:acronym:blurb": "긴 구문을 두문자어로 변환해요.",
+  "exercise:acronym:source": "Julien Vanier"
 }

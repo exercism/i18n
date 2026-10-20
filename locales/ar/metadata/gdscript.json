@@ -188,5 +188,8 @@
   "exercise:pythagorean-triplet:source": "تنويعة على المسألة 9 من Project Euler",
   "exercise:gigasecond:name": "جيجاثانية",
   "exercise:gigasecond:blurb": "بإعطاء لحظة زمنية، حدّد اللحظة التي تلي مرور جيجاثانية.",
-  "exercise:gigasecond:source": "الفصل 9 من درس Learn to Program عبر الإنترنت لـ Chris Pine."
+  "exercise:gigasecond:source": "الفصل 9 من درس Learn to Program عبر الإنترنت لـ Chris Pine.",
+  "exercise:acronym:name": "الاختصار",
+  "exercise:acronym:blurb": "حوّل عبارة طويلة إلى اختصارها.",
+  "exercise:acronym:source": "Julien Vanier"
 }

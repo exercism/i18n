@@ -188,5 +188,8 @@
   "exercise:pythagorean-triplet:source": "Project Euler-এর Problem 9-এর একটি ভিন্ন রূপ",
   "exercise:gigasecond:name": "গিগাসেকেন্ড",
   "exercise:gigasecond:blurb": "একটি মুহূর্ত দেওয়া হলে, সেখান থেকে এক গিগাসেকেন্ড পেরিয়ে যাওয়ার পরের মুহূর্তটি নির্ণয় করুন।",
-  "exercise:gigasecond:source": "Chris Pine-এর অনলাইন Learn to Program টিউটোরিয়ালের ৯ নম্বর অধ্যায়।"
+  "exercise:gigasecond:source": "Chris Pine-এর অনলাইন Learn to Program টিউটোরিয়ালের ৯ নম্বর অধ্যায়।",
+  "exercise:acronym:name": "সংক্ষিপ্ত রূপ",
+  "exercise:acronym:blurb": "একটি দীর্ঘ বাক্যাংশের সংক্ষিপ্ত রূপ তৈরি করুন।",
+  "exercise:acronym:source": "Julien Vanier"
 }
