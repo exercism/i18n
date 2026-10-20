@@ -2,7 +2,7 @@
   "exercise:hello-world:name": "Hello, World!",
   "exercise:leap:name": "Szökőév",
   "exercise:yacht:name": "Jacht",
-  "exercise:pangram:name": "Pangram",
+  "exercise:pangram:name": "Pangramma",
   "exercise:isogram:name": "Izogram",
   "exercise:rotational-cipher:name": "Rotációs rejtjel",
   "exercise:rna-transcription:name": "RNS-átírás",

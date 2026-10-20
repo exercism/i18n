@@ -41,7 +41,7 @@
   "exercise:isbn-verifier:name": "ISBN-ellenőrző",
   "exercise:isogram:name": "Izogram",
   "exercise:luhn:name": "Luhn",
-  "exercise:pangram:name": "Pangram",
+  "exercise:pangram:name": "Pangramma",
   "exercise:phone-number:name": "Telefonszám",
   "exercise:pig-latin:name": "Malaclatin",
   "exercise:protein-translation:name": "Fehérjetranszláció",

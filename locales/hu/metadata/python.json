@@ -25,7 +25,7 @@
   "exercise:darts:name": "Darts",
   "exercise:perfect-numbers:name": "Tökéletes számok",
   "exercise:reverse-string:name": "String megfordítása",
-  "exercise:pangram:name": "Pangram",
+  "exercise:pangram:name": "Pangramma",
   "exercise:isogram:name": "Izogram",
   "exercise:isbn-verifier:name": "ISBN-ellenőrző",
   "exercise:rotational-cipher:name": "Rotációs rejtjel",

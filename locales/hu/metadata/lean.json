@@ -17,7 +17,7 @@
   "exercise:hamming:name": "Hamming",
   "exercise:high-scores:name": "Legjobb pontszámok",
   "exercise:isogram:name": "Izogram",
-  "exercise:pangram:name": "Pangram",
+  "exercise:pangram:name": "Pangramma",
   "exercise:raindrops:name": "Esőcseppek",
   "exercise:reverse-string:name": "String megfordítása",
   "exercise:scrabble-score:name": "Scrabble-pontszám",

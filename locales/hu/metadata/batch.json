@@ -1,6 +1,6 @@
 {
   "exercise:hello-world:name": "Helló, világ!",
-  "exercise:pangram:name": "Pangram",
+  "exercise:pangram:name": "Pangramma",
   "exercise:leap:name": "Szökőév",
   "exercise:raindrops:name": "Esőcseppek",
   "exercise:nucleotide-count:name": "Nukleotidszámlálás",

@@ -18,7 +18,7 @@
   "exercise:nucleotide-count:name": "Nukleotidszámlálás",
   "exercise:hamming:name": "Hamming",
   "exercise:leap:name": "Szökőév",
-  "exercise:pangram:name": "Pangram",
+  "exercise:pangram:name": "Pangramma",
   "exercise:darts:name": "Darts",
   "exercise:reverse-string:name": "String megfordítása",
   "exercise:rna-transcription:name": "RNS-átírás",

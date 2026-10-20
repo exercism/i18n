@@ -34,7 +34,7 @@
   "exercise:ocr-numbers:name": "OCR-számok",
   "exercise:pig-latin:name": "Malaclatin",
   "exercise:hamming:name": "Hamming",
-  "exercise:pangram:name": "Pangram",
+  "exercise:pangram:name": "Pangramma",
   "exercise:isogram:name": "Izogram",
   "exercise:twelve-days:name": "Tizenkét nap",
   "exercise:phone-number:name": "Telefonszám",
