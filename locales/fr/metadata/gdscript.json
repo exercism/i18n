@@ -194,5 +194,8 @@
   "exercise:acronym:source": "Julien Vanier",
   "exercise:protein-translation:name": "Traduction des protéines",
   "exercise:protein-translation:blurb": "Traduis des séquences d'ARN en protéines.",
-  "exercise:protein-translation:source": "Tyler Long"
+  "exercise:protein-translation:source": "Tyler Long",
+  "exercise:binary-search-tree:name": "Arbre binaire de recherche",
+  "exercise:binary-search-tree:blurb": "Insère et recherche des nombres dans un arbre binaire.",
+  "exercise:binary-search-tree:source": "Josh Cheek"
 }

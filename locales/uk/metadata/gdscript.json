@@ -194,5 +194,8 @@
   "exercise:acronym:source": "Julien Vanier",
   "exercise:protein-translation:name": "Трансляція білків",
   "exercise:protein-translation:blurb": "Перекласти послідовності РНК у білки.",
-  "exercise:protein-translation:source": "Tyler Long"
+  "exercise:protein-translation:source": "Tyler Long",
+  "exercise:binary-search-tree:name": "Двійкове дерево пошуку",
+  "exercise:binary-search-tree:blurb": "Вставляйте числа в двійкове дерево та шукайте їх.",
+  "exercise:binary-search-tree:source": "Josh Cheek"
 }

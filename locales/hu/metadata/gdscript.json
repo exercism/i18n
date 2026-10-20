@@ -194,5 +194,8 @@
   "exercise:acronym:source": "Julien Vanier",
   "exercise:protein-translation:name": "Fehérjetranszláció",
   "exercise:protein-translation:blurb": "Fordítsd le az RNS-szekvenciákat fehérjékké.",
-  "exercise:protein-translation:source": "Tyler Long"
+  "exercise:protein-translation:source": "Tyler Long",
+  "exercise:binary-search-tree:name": "Bináris keresőfa",
+  "exercise:binary-search-tree:blurb": "Szúrj be és keress számokat egy bináris fában.",
+  "exercise:binary-search-tree:source": "Josh Cheek"
 }

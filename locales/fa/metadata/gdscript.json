@@ -194,5 +194,8 @@
   "exercise:acronym:source": "Julien Vanier",
   "exercise:protein-translation:name": "ترجمه‌ی پروتئین",
   "exercise:protein-translation:blurb": "توالی‌های RNA را به پروتئین ترجمه کنید.",
-  "exercise:protein-translation:source": "Tyler Long"
+  "exercise:protein-translation:source": "Tyler Long",
+  "exercise:binary-search-tree:name": "درخت جست‌وجوی دودویی",
+  "exercise:binary-search-tree:blurb": "عددها را در یک درخت دودویی درج و جست‌وجو کنید.",
+  "exercise:binary-search-tree:source": "Josh Cheek"
 }

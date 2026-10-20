@@ -194,5 +194,8 @@
   "exercise:acronym:source": "Julien Vanier",
   "exercise:protein-translation:name": "প্রোটিন ট্রান্সলেশন",
   "exercise:protein-translation:blurb": "RNA সিকোয়েন্সকে প্রোটিনে রূপান্তর করুন।",
-  "exercise:protein-translation:source": "Tyler Long"
+  "exercise:protein-translation:source": "Tyler Long",
+  "exercise:binary-search-tree:name": "বাইনারি সার্চ ট্রি",
+  "exercise:binary-search-tree:blurb": "একটি বাইনারি ট্রিতে সংখ্যা ইনসার্ট করুন এবং খুঁজুন।",
+  "exercise:binary-search-tree:source": "Josh Cheek"
 }

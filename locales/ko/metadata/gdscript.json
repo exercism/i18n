@@ -194,5 +194,8 @@
   "exercise:acronym:source": "Julien Vanier",
   "exercise:protein-translation:name": "단백질 번역",
   "exercise:protein-translation:blurb": "RNA 서열을 단백질로 번역해요.",
-  "exercise:protein-translation:source": "Tyler Long"
+  "exercise:protein-translation:source": "Tyler Long",
+  "exercise:binary-search-tree:name": "이진 탐색 트리",
+  "exercise:binary-search-tree:blurb": "이진 트리에 숫자를 삽입하고 탐색해요.",
+  "exercise:binary-search-tree:source": "Josh Cheek"
 }

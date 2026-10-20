@@ -194,5 +194,8 @@
   "exercise:acronym:source": "Julien Vanier",
   "exercise:protein-translation:name": "タンパク質の翻訳",
   "exercise:protein-translation:blurb": "RNAの配列をタンパク質に翻訳します。",
-  "exercise:protein-translation:source": "Tyler Long"
+  "exercise:protein-translation:source": "Tyler Long",
+  "exercise:binary-search-tree:name": "二分探索木",
+  "exercise:binary-search-tree:blurb": "二分木に数値を挿入し、探索してください。",
+  "exercise:binary-search-tree:source": "Josh Cheek"
 }

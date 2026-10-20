@@ -194,5 +194,8 @@
   "exercise:acronym:source": "Julien Vanier",
   "exercise:protein-translation:name": "蛋白质翻译",
   "exercise:protein-translation:blurb": "将 RNA 序列翻译成蛋白质。",
-  "exercise:protein-translation:source": "Tyler Long"
+  "exercise:protein-translation:source": "Tyler Long",
+  "exercise:binary-search-tree:name": "二叉搜索树",
+  "exercise:binary-search-tree:blurb": "在二叉树中插入和查找数字。",
+  "exercise:binary-search-tree:source": "Josh Cheek"
 }

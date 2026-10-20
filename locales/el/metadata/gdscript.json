@@ -194,5 +194,8 @@
   "exercise:acronym:source": "Julien Vanier",
   "exercise:protein-translation:name": "Μετάφραση πρωτεϊνών",
   "exercise:protein-translation:blurb": "Μετάφρασε αλληλουχίες RNA σε πρωτεΐνες.",
-  "exercise:protein-translation:source": "Tyler Long"
+  "exercise:protein-translation:source": "Tyler Long",
+  "exercise:binary-search-tree:name": "Δυαδικό Δέντρο Αναζήτησης",
+  "exercise:binary-search-tree:blurb": "Εισήγαγε και αναζήτησε αριθμούς σε ένα δυαδικό δέντρο.",
+  "exercise:binary-search-tree:source": "Josh Cheek"
 }

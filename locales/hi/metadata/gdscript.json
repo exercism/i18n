@@ -194,5 +194,8 @@
   "exercise:acronym:source": "Julien Vanier",
   "exercise:protein-translation:name": "प्रोटीन अनुवाद",
   "exercise:protein-translation:blurb": "RNA अनुक्रमों का प्रोटीन में अनुवाद कीजिए।",
-  "exercise:protein-translation:source": "Tyler Long"
+  "exercise:protein-translation:source": "Tyler Long",
+  "exercise:binary-search-tree:name": "बाइनरी सर्च ट्री",
+  "exercise:binary-search-tree:blurb": "बाइनरी ट्री में संख्याएँ डालिए और उन्हें ढूँढिए।",
+  "exercise:binary-search-tree:source": "Josh Cheek"
 }

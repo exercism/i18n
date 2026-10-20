@@ -39,6 +39,10 @@ This page is generated from [the index](../../json/pt-BR/gdscript.json) by `scri
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/binary-search/.docs/instructions.md)): [Latest](../../../locales/pt-BR/content/12/f4/358ebcd8c63ffc623eca661c55da4419e410.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/binary-search/.docs/introduction.md)): [Latest](../../../locales/pt-BR/content/03/49/6599e75d565905a3ce892520576b7db35990.md)
 
+### Binary Search Tree (Árvore binária de busca)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/binary-search-tree/.docs/instructions.md)): [Latest](../../../locales/pt-BR/content/76/25/220e9a0fb2412ea4c5432e87b1309d425ff1.md)
+
 ### Bob
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/bob/.docs/instructions.md)): [Latest](../../../locales/pt-BR/content/bb/70/2f7bbe91ee7c4f8a095bff0bc6b9c090051b.md)

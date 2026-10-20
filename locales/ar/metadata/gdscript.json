@@ -194,5 +194,8 @@
   "exercise:acronym:source": "Julien Vanier",
   "exercise:protein-translation:name": "ترجمة البروتين",
   "exercise:protein-translation:blurb": "ترجم تسلسلات RNA إلى بروتينات.",
-  "exercise:protein-translation:source": "Tyler Long"
+  "exercise:protein-translation:source": "Tyler Long",
+  "exercise:binary-search-tree:name": "شجرة البحث الثنائية",
+  "exercise:binary-search-tree:blurb": "أدخل الأعداد وابحث عنها في شجرة ثنائية.",
+  "exercise:binary-search-tree:source": "Josh Cheek"
 }
