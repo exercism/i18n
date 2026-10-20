@@ -182,5 +182,8 @@
   "exercise:game-of-life:source": "Wikipedia",
   "exercise:killer-sudoku-helper:name": "Killer Sudoku segéd",
   "exercise:killer-sudoku-helper:blurb": "Írj egy eszközt, amely megkönnyíti a killer sudokuk megoldását",
-  "exercise:killer-sudoku-helper:source": "Sascha Mann, Jeremy Walker és BethanyG készítette az Exercism Julia-kurzusához."
+  "exercise:killer-sudoku-helper:source": "Sascha Mann, Jeremy Walker és BethanyG készítette az Exercism Julia-kurzusához.",
+  "exercise:pythagorean-triplet:name": "Pitagoraszi számhármas",
+  "exercise:pythagorean-triplet:blurb": "Adott egy N egész szám, keresd meg az összes pitagoraszi számhármast, amelyre a + b + c = N.",
+  "exercise:pythagorean-triplet:source": "A Project Euler 9. feladatának egy változata"
 }

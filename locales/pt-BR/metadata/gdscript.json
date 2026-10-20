@@ -182,5 +182,8 @@
   "exercise:game-of-life:source": "Wikipedia",
   "exercise:killer-sudoku-helper:name": "Auxiliar de Killer Sudoku",
   "exercise:killer-sudoku-helper:blurb": "Escreva uma ferramenta que torne mais fácil resolver Killer Sudokus",
-  "exercise:killer-sudoku-helper:source": "Criado por Sascha Mann, Jeremy Walker e BethanyG para a trilha de Julia no Exercism."
+  "exercise:killer-sudoku-helper:source": "Criado por Sascha Mann, Jeremy Walker e BethanyG para a trilha de Julia no Exercism.",
+  "exercise:pythagorean-triplet:name": "Terno pitagórico",
+  "exercise:pythagorean-triplet:blurb": "Dado um número inteiro N, encontre todos os ternos pitagóricos para os quais a + b + c = N.",
+  "exercise:pythagorean-triplet:source": "Uma variação do Problema 9 do Project Euler"
 }

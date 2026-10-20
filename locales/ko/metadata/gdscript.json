@@ -182,5 +182,8 @@
   "exercise:game-of-life:source": "Wikipedia",
   "exercise:killer-sudoku-helper:name": "킬러 스도쿠 도우미",
   "exercise:killer-sudoku-helper:blurb": "킬러 스도쿠를 더 쉽게 풀 수 있게 도와주는 도구를 만들어요.",
-  "exercise:killer-sudoku-helper:source": "Exercism의 Julia 트랙을 위해 Sascha Mann, Jeremy Walker, BethanyG가 만들었어요."
+  "exercise:killer-sudoku-helper:source": "Exercism의 Julia 트랙을 위해 Sascha Mann, Jeremy Walker, BethanyG가 만들었어요.",
+  "exercise:pythagorean-triplet:name": "피타고라스 삼조",
+  "exercise:pythagorean-triplet:blurb": "정수 N이 주어졌을 때, a + b + c = N을 만족하는 모든 피타고라스 삼조를 찾아요.",
+  "exercise:pythagorean-triplet:source": "Project Euler의 9번 문제를 변형한 것이에요."
 }

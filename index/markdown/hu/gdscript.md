@@ -123,7 +123,7 @@ This page is generated from [the index](../../json/hu/gdscript.json) by `scripts
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/matching-brackets/.docs/instructions.md)): [Latest](../../../locales/hu/content/ea/17/0842326b8639a4d921462397a601ec5c9f4c.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/matching-brackets/.docs/introduction.md)): [Latest](../../../locales/hu/content/06/18/221b21efeaba2463792b44635639e410ddd8.md)
 
-### Pangram
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/pangram/.docs/introduction.md)): [Latest](../../../locales/hu/content/32/b6/f1fc3178c36f2677b2d7bbeb35bafd6c786d.md)
@@ -145,6 +145,11 @@ This page is generated from [the index](../../json/hu/gdscript.json) by `scripts
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/prism/.docs/instructions.md)): [Latest](../../../locales/hu/content/13/ce/fae8c50b049c89d60b4cb12f8ecabb126706.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/prism/.docs/introduction.md)): [Latest](../../../locales/hu/content/bf/a7/ed72e4055b24b3c9c2b69a32d8fd5b95c27f.md)
+
+### Pythagorean Triplet (Pitagoraszi számhármas)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/pythagorean-triplet/.docs/instructions.md)): [Latest](../../../locales/hu/content/ce/d8/33d7a5b09a55ae68cc498c1997700bbcb45c.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/pythagorean-triplet/.docs/introduction.md)): [Latest](../../../locales/hu/content/34/53/c6ed48f511c52467f009f5483cd0664caea2.md)
 
 ### Raindrops (Esőcseppek)
 

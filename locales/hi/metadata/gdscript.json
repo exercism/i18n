@@ -182,5 +182,8 @@
   "exercise:game-of-life:source": "Wikipedia",
   "exercise:killer-sudoku-helper:name": "किलर सुडोकू सहायक",
   "exercise:killer-sudoku-helper:blurb": "एक ऐसा टूल लिखिए जिससे किलर सुडोकू हल करना आसान हो जाए",
-  "exercise:killer-sudoku-helper:source": "Sascha Mann, Jeremy Walker और BethanyG द्वारा Exercism के Julia ट्रैक के लिए बनाया गया।"
+  "exercise:killer-sudoku-helper:source": "Sascha Mann, Jeremy Walker और BethanyG द्वारा Exercism के Julia ट्रैक के लिए बनाया गया।",
+  "exercise:pythagorean-triplet:name": "पाइथागोरस त्रिक",
+  "exercise:pythagorean-triplet:blurb": "पूर्णांक N दिया है; ऐसे सभी पाइथागोरस त्रिक खोजिए जिनके लिए a + b + c = N हो।",
+  "exercise:pythagorean-triplet:source": "Project Euler की समस्या 9 का एक रूपांतर"
 }

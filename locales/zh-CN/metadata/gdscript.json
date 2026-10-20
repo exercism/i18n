@@ -182,5 +182,8 @@
   "exercise:game-of-life:source": "Wikipedia",
   "exercise:killer-sudoku-helper:name": "杀手数独助手",
   "exercise:killer-sudoku-helper:blurb": "写一个工具，让解杀手数独变得更容易。",
-  "exercise:killer-sudoku-helper:source": "由 Sascha Mann、Jeremy Walker 和 BethanyG 为 Exercism 的 Julia 学习轨道创建。"
+  "exercise:killer-sudoku-helper:source": "由 Sascha Mann、Jeremy Walker 和 BethanyG 为 Exercism 的 Julia 学习轨道创建。",
+  "exercise:pythagorean-triplet:name": "毕达哥拉斯三元组",
+  "exercise:pythagorean-triplet:blurb": "给定整数 N，找出所有满足 a + b + c = N 的毕达哥拉斯三元组。",
+  "exercise:pythagorean-triplet:source": "Project Euler 第 9 题的变体"
 }

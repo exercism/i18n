@@ -182,5 +182,8 @@
   "exercise:game-of-life:source": "Wikipedia",
   "exercise:killer-sudoku-helper:name": "Assistant de Killer Sudoku",
   "exercise:killer-sudoku-helper:blurb": "Écrire un outil qui facilite la résolution des Killer Sudokus.",
-  "exercise:killer-sudoku-helper:source": "Créé par Sascha Mann, Jeremy Walker et BethanyG pour le parcours Julia sur Exercism."
+  "exercise:killer-sudoku-helper:source": "Créé par Sascha Mann, Jeremy Walker et BethanyG pour le parcours Julia sur Exercism.",
+  "exercise:pythagorean-triplet:name": "Triplet pythagoricien",
+  "exercise:pythagorean-triplet:blurb": "Étant donné un entier N, trouve tous les triplets pythagoriciens tels que a + b + c = N.",
+  "exercise:pythagorean-triplet:source": "Une variante du problème 9 de Project Euler"
 }

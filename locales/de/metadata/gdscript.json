@@ -182,5 +182,8 @@
   "exercise:game-of-life:source": "Wikipedia",
   "exercise:killer-sudoku-helper:name": "Killer-Sudoku-Helfer",
   "exercise:killer-sudoku-helper:blurb": "Schreibe ein Tool, mit dem sich Killer-Sudokus leichter lösen lassen",
-  "exercise:killer-sudoku-helper:source": "Erstellt von Sascha Mann, Jeremy Walker und BethanyG für den Julia-Track auf Exercism."
+  "exercise:killer-sudoku-helper:source": "Erstellt von Sascha Mann, Jeremy Walker und BethanyG für den Julia-Track auf Exercism.",
+  "exercise:pythagorean-triplet:name": "Pythagoreisches Tripel",
+  "exercise:pythagorean-triplet:blurb": "Finde zu einer gegebenen Ganzzahl N alle pythagoreischen Tripel, für die a + b + c = N gilt.",
+  "exercise:pythagorean-triplet:source": "Eine Variation von Problem 9 aus Project Euler"
 }

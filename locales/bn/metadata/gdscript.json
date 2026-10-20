@@ -182,5 +182,8 @@
   "exercise:game-of-life:source": "Wikipedia",
   "exercise:killer-sudoku-helper:name": "Killer Sudoku হেল্পার",
   "exercise:killer-sudoku-helper:blurb": "Killer Sudoku সমাধান করা সহজ করে এমন একটি টুল লিখুন",
-  "exercise:killer-sudoku-helper:source": "Exercism-এর Julia ট্র্যাকের জন্য Sascha Mann, Jeremy Walker এবং BethanyG তৈরি করেছেন।"
+  "exercise:killer-sudoku-helper:source": "Exercism-এর Julia ট্র্যাকের জন্য Sascha Mann, Jeremy Walker এবং BethanyG তৈরি করেছেন।",
+  "exercise:pythagorean-triplet:name": "পিথাগোরীয় ত্রয়ী",
+  "exercise:pythagorean-triplet:blurb": "একটি পূর্ণসংখ্যা N দেওয়া থাকলে, যেসব পিথাগোরীয় ত্রয়ীর জন্য a + b + c = N, সেগুলো খুঁজে বের করুন।",
+  "exercise:pythagorean-triplet:source": "Project Euler-এর Problem 9-এর একটি ভিন্ন রূপ"
 }

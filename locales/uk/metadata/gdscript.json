@@ -182,5 +182,8 @@
   "exercise:game-of-life:source": "Wikipedia",
   "exercise:killer-sudoku-helper:name": "Помічник для Killer Sudoku",
   "exercise:killer-sudoku-helper:blurb": "Напишіть інструмент, який полегшує розвʼязування головоломок Killer Sudoku.",
-  "exercise:killer-sudoku-helper:source": "Створено Сашею Манном, Джеремі Вокером і BethanyG для треку Julia на Exercism."
+  "exercise:killer-sudoku-helper:source": "Створено Сашею Манном, Джеремі Вокером і BethanyG для треку Julia на Exercism.",
+  "exercise:pythagorean-triplet:name": "Піфагорова трійка",
+  "exercise:pythagorean-triplet:blurb": "Дано ціле число N: знайти всі піфагорові трійки, для яких a + b + c = N.",
+  "exercise:pythagorean-triplet:source": "Варіація задачі 9 з Project Euler"
 }

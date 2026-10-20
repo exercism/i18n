@@ -182,5 +182,8 @@
   "exercise:game-of-life:source": "ويكيبيديا",
   "exercise:killer-sudoku-helper:name": "مساعد Killer Sudoku",
   "exercise:killer-sudoku-helper:blurb": "اكتب أداة تسهّل حل ألغاز Killer Sudoku",
-  "exercise:killer-sudoku-helper:source": "أنشأه Sascha Mann وJeremy Walker وBethanyG لمسار Julia على Exercism."
+  "exercise:killer-sudoku-helper:source": "أنشأه Sascha Mann وJeremy Walker وBethanyG لمسار Julia على Exercism.",
+  "exercise:pythagorean-triplet:name": "ثلاثي فيثاغورس",
+  "exercise:pythagorean-triplet:blurb": "بمعلومية عدد صحيح N، أوجد كل ثلاثيات فيثاغورس التي تحقق a + b + c = N.",
+  "exercise:pythagorean-triplet:source": "تنويعة على المسألة 9 من Project Euler"
 }

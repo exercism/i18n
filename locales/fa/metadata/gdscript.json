@@ -182,5 +182,8 @@
   "exercise:game-of-life:source": "Wikipedia",
   "exercise:killer-sudoku-helper:name": "کمک‌کننده‌ی سودوکوی قاتل",
   "exercise:killer-sudoku-helper:blurb": "ابزاری بنویسید که حل سودوکوی قاتل را آسان‌تر کند",
-  "exercise:killer-sudoku-helper:source": "ساخته‌شده توسط Sascha Mann، Jeremy Walker و BethanyG برای مسیر Julia در Exercism."
+  "exercise:killer-sudoku-helper:source": "ساخته‌شده توسط Sascha Mann، Jeremy Walker و BethanyG برای مسیر Julia در Exercism.",
+  "exercise:pythagorean-triplet:name": "سه‌گانه‌ی فیثاغورسی",
+  "exercise:pythagorean-triplet:blurb": "با داشتن عدد صحیح N، همه‌ی سه‌گانه‌های فیثاغورسی را بیابید که در آن‌ها a + b + c = N باشد.",
+  "exercise:pythagorean-triplet:source": "گونه‌ای از مسئله‌ی ۹ در Project Euler"
 }

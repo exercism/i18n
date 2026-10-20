@@ -182,5 +182,8 @@
   "exercise:game-of-life:source": "Wikipedia",
   "exercise:killer-sudoku-helper:name": "キラー数独ヘルパー",
   "exercise:killer-sudoku-helper:blurb": "キラー数独をもっと簡単に解けるようにするツールを作成します。",
-  "exercise:killer-sudoku-helper:source": "ExercismのJuliaトラックのために、Sascha Mann、Jeremy Walker、BethanyGが作成しました。"
+  "exercise:killer-sudoku-helper:source": "ExercismのJuliaトラックのために、Sascha Mann、Jeremy Walker、BethanyGが作成しました。",
+  "exercise:pythagorean-triplet:name": "ピタゴラスの三つ組",
+  "exercise:pythagorean-triplet:blurb": "整数Nが与えられたとき、a + b + c = Nを満たすピタゴラスの三つ組をすべて求めます。",
+  "exercise:pythagorean-triplet:source": "Project EulerのProblem 9のバリエーションです。"
 }

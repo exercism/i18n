@@ -148,6 +148,11 @@ This page is generated from [the index](../../json/fr/gdscript.json) by `scripts
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/prism/.docs/instructions.md)): [Latest](../../../locales/fr/content/13/ce/fae8c50b049c89d60b4cb12f8ecabb126706.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/prism/.docs/introduction.md)): [Latest](../../../locales/fr/content/bf/a7/ed72e4055b24b3c9c2b69a32d8fd5b95c27f.md)
 
+### Pythagorean Triplet (Triplet pythagoricien)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/pythagorean-triplet/.docs/instructions.md)): [Latest](../../../locales/fr/content/ce/d8/33d7a5b09a55ae68cc498c1997700bbcb45c.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/pythagorean-triplet/.docs/introduction.md)): [Latest](../../../locales/fr/content/34/53/c6ed48f511c52467f009f5483cd0664caea2.md)
+
 ### Raindrops (Gouttes de pluie)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/raindrops/.docs/instructions.md)): [Latest](../../../locales/fr/content/df/64/41075165afbe92ecc878d674f6861777972d.md)
