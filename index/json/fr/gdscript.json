@@ -69,7 +69,7 @@
     "exercises/practice/word-count": {"en":"Word Count","fr":"Comptage de mots"}
   },
   "paths": {
-    "docs/ABOUT.md": ["493d25b877124188e890c2d1e5fc212d6084d341","7ef490acc4c3ba3df784aac8b6f84df60e62ad64","9864ed00303fd196319f4058cddc6994eaed0a14"],
+    "docs/ABOUT.md": ["ba43e584acdf41701bd1ca58d0187d5027163a10","493d25b877124188e890c2d1e5fc212d6084d341","7ef490acc4c3ba3df784aac8b6f84df60e62ad64","9864ed00303fd196319f4058cddc6994eaed0a14"],
     "docs/INSTALLATION.md": ["7986e4d227a47082a0ade5c587a32bb46b99dabd","a92cec1dd35597abd59eeb4a43e313bc4a0c3fbe","435c67e3c0809614be9bfc28abaa223f1c9ad166","cd6ce8521d1baba7dc72cdaf56a8a9eb3cb23882","bc2f38a184cd5edd21df356dfd78764a7a232520"],
     "docs/LEARNING.md": ["a593e01a01683db43e36cba712d2d2e4ec9b5d29","8b4152022fa497c704650fa3031e9872be2f1413","b14434dc01362de2abac1b97d0cc6b759d3a2c8b"],
     "docs/RESOURCES.md": ["b02766018521635221aea3514ddfeeebc98744fa","d8b3a83b68e75f1f603986998bedb3d5eafd71b8"],

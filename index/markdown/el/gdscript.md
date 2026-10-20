@@ -306,7 +306,8 @@ This page is generated from [the index](../../json/el/gdscript.json) by `scripts
 
 ### ABOUT.md
 
-- `ABOUT.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/ABOUT.md)): [Latest](../../../locales/el/content/49/3d/25b877124188e890c2d1e5fc212d6084d341.md)
+- `ABOUT.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/ABOUT.md)): [Latest](../../../locales/el/content/ba/43/e584acdf41701bd1ca58d0187d5027163a10.md)
+  - [`493d25b877`](../../../locales/el/content/49/3d/25b877124188e890c2d1e5fc212d6084d341.md)
   - [`7ef490acc4`](../../../locales/el/content/7e/f4/90acc4c3ba3df784aac8b6f84df60e62ad64.md)
   - [`9864ed0030`](../../../locales/el/content/98/64/ed00303fd196319f4058cddc6994eaed0a14.md)
 

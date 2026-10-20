@@ -299,7 +299,8 @@ This page is generated from [the index](../../json/hu/gdscript.json) by `scripts
 
 ### ABOUT.md
 
-- `ABOUT.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/ABOUT.md)): [Latest](../../../locales/hu/content/49/3d/25b877124188e890c2d1e5fc212d6084d341.md)
+- `ABOUT.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/ABOUT.md)): [Latest](../../../locales/hu/content/ba/43/e584acdf41701bd1ca58d0187d5027163a10.md)
+  - [`493d25b877`](../../../locales/hu/content/49/3d/25b877124188e890c2d1e5fc212d6084d341.md)
   - [`7ef490acc4`](../../../locales/hu/content/7e/f4/90acc4c3ba3df784aac8b6f84df60e62ad64.md)
 
 ### How to learn GDScript (Hogyan tanulj GDScript-et)
