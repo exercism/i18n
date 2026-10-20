@@ -203,5 +203,8 @@
   "exercise:eliuds-eggs:blurb": "বাইনারি রূপে 1 বিটের সংখ্যা গুনে এলিউদকে তার মুরগির খাঁচার ডিমের সংখ্যা গণনা করতে সাহায্য করুন।",
   "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers",
   "exercise:rectangles:name": "আয়তক্ষেত্র",
-  "exercise:rectangles:blurb": "একটি ASCII ডায়াগ্রামে আয়তক্ষেত্রগুলো গণনা করুন।"
+  "exercise:rectangles:blurb": "একটি ASCII ডায়াগ্রামে আয়তক্ষেত্রগুলো গণনা করুন।",
+  "exercise:diamond:name": "ডায়মন্ড",
+  "exercise:diamond:blurb": "একটি অক্ষর দেওয়া হলে, সেই অক্ষরটি সবচেয়ে চওড়া জায়গায় রেখে 'A' দিয়ে শুরু হয় এমন একটি ডায়মন্ড প্রিন্ট করুন।",
+  "exercise:diamond:source": "Seb Rose"
 }

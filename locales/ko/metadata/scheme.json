@@ -203,5 +203,8 @@
   "exercise:eliuds-eggs:blurb": "이진수 표현에서 1인 비트의 개수를 세어, Eliud가 닭장에 있는 달걀의 개수를 셀 수 있도록 도와줘요.",
   "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers",
   "exercise:rectangles:name": "직사각형",
-  "exercise:rectangles:blurb": "ASCII 다이어그램에 있는 직사각형의 개수를 세요."
+  "exercise:rectangles:blurb": "ASCII 다이어그램에 있는 직사각형의 개수를 세요.",
+  "exercise:diamond:name": "다이아몬드",
+  "exercise:diamond:blurb": "문자 하나가 주어지면, 'A'로 시작하고 주어진 문자가 가장 넓은 지점에 오는 다이아몬드를 출력해요.",
+  "exercise:diamond:source": "Seb Rose"
 }

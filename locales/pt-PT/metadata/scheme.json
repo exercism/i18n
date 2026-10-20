@@ -203,5 +203,8 @@
   "exercise:eliuds-eggs:blurb": "Ajuda a Eliud a contar o número de ovos do seu galinheiro, contando os bits com valor 1 numa representação binária.",
   "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers",
   "exercise:rectangles:name": "Retângulos",
-  "exercise:rectangles:blurb": "Conta os retângulos num diagrama ASCII."
+  "exercise:rectangles:blurb": "Conta os retângulos num diagrama ASCII.",
+  "exercise:diamond:name": "Diamante",
+  "exercise:diamond:blurb": "Dada uma letra, imprime um diamante que começa com 'A', com a letra fornecida no ponto mais largo.",
+  "exercise:diamond:source": "Seb Rose"
 }

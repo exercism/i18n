@@ -72,6 +72,10 @@ This page is generated from [the index](../../json/zh-TW/scheme.json) by `script
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/crypto-square/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/6c/38/26ee558d8a2ef2b7d20a2b41f2eaf31ec5cd.md)
 
+### Diamond (菱形)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/diamond/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/30/34/802feb201a5773f49c2fd798d81013934fcf.md)
+
 ### Difference of Squares (平方差)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/difference-of-squares/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/39/c3/8b5094a948fd87e8349a64d545ca847b3e89.md)

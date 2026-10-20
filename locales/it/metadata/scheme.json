@@ -203,5 +203,8 @@
   "exercise:eliuds-eggs:blurb": "Aiuta Eliud a contare il numero di uova nel suo pollaio contando il numero di bit a 1 in una rappresentazione binaria.",
   "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers",
   "exercise:rectangles:name": "Rettangoli",
-  "exercise:rectangles:blurb": "Conta i rettangoli in un diagramma ASCII."
+  "exercise:rectangles:blurb": "Conta i rettangoli in un diagramma ASCII.",
+  "exercise:diamond:name": "Diamante",
+  "exercise:diamond:blurb": "Data una lettera, stampa un diamante che inizia con 'A' e che ha la lettera fornita nel punto più largo.",
+  "exercise:diamond:source": "Seb Rose"
 }

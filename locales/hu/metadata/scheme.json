@@ -203,5 +203,8 @@
   "exercise:eliuds-eggs:blurb": "Segíts Eliudnak megszámolni a tyúkólban lévő tojásokat azáltal, hogy megszámolod az 1-es biteket a bináris ábrázolásban.",
   "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers",
   "exercise:rectangles:name": "Téglalapok",
-  "exercise:rectangles:blurb": "Számold meg a téglalapokat egy ASCII-ábrában."
+  "exercise:rectangles:blurb": "Számold meg a téglalapokat egy ASCII-ábrában.",
+  "exercise:diamond:name": "Gyémánt",
+  "exercise:diamond:blurb": "Egy betű ismeretében írj ki egy gyémántot, amely az „A” betűvel kezdődik, és amelynek legszélesebb pontján a megadott betű áll.",
+  "exercise:diamond:source": "Seb Rose"
 }

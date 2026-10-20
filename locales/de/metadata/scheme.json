@@ -203,5 +203,8 @@
   "exercise:eliuds-eggs:blurb": "Hilf Eliud, die Anzahl der Eier in ihrem Hühnerstall zu zählen, indem du die Anzahl der 1-Bits in einer Binärdarstellung zählst.",
   "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers",
   "exercise:rectangles:name": "Rechtecke",
-  "exercise:rectangles:blurb": "Zähle die Rechtecke in einem ASCII-Diagramm."
+  "exercise:rectangles:blurb": "Zähle die Rechtecke in einem ASCII-Diagramm.",
+  "exercise:diamond:name": "Diamant",
+  "exercise:diamond:blurb": "Gib zu einem Buchstaben einen Diamanten aus, der mit 'A' beginnt und den übergebenen Buchstaben an der breitesten Stelle hat.",
+  "exercise:diamond:source": "Seb Rose"
 }

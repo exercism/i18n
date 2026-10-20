@@ -203,5 +203,8 @@
   "exercise:eliuds-eggs:blurb": "बाइनरी रूप में 1 बिट की संख्या गिनकर Eliud को उसके मुर्गीघर के अंडे गिनने में मदद कीजिए।",
   "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers",
   "exercise:rectangles:name": "आयत",
-  "exercise:rectangles:blurb": "एक ASCII आरेख में आयत गिनिए।"
+  "exercise:rectangles:blurb": "एक ASCII आरेख में आयत गिनिए।",
+  "exercise:diamond:name": "हीरा",
+  "exercise:diamond:blurb": "एक अक्षर दिया जाए तो 'A' से शुरू होने वाला हीरा छापिए, जिसके सबसे चौड़े हिस्से पर वही दिया गया अक्षर हो।",
+  "exercise:diamond:source": "Seb Rose"
 }

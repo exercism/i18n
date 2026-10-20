@@ -203,5 +203,8 @@
   "exercise:eliuds-eggs:blurb": "Допоможіть Еліуд порахувати кількість яєць у її курнику, порахувавши кількість одиничних бітів у двійковому поданні.",
   "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers",
   "exercise:rectangles:name": "Прямокутники",
-  "exercise:rectangles:blurb": "Порахувати прямокутники на ASCII-діаграмі."
+  "exercise:rectangles:blurb": "Порахувати прямокутники на ASCII-діаграмі.",
+  "exercise:diamond:name": "Ромб",
+  "exercise:diamond:blurb": "Для заданої літери надрукуйте ромб, що починається з 'A' і має задану літеру в найширшому місці.",
+  "exercise:diamond:source": "Seb Rose"
 }

@@ -203,5 +203,8 @@
   "exercise:eliuds-eggs:blurb": "Βοήθησε την Eliud να μετρήσει τον αριθμό των αυγών στο κοτέτσι της μετρώντας πόσα bit είναι 1 σε μια δυαδική αναπαράσταση.",
   "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers",
   "exercise:rectangles:name": "Ορθογώνια",
-  "exercise:rectangles:blurb": "Μέτρησε τα ορθογώνια σε ένα διάγραμμα ASCII."
+  "exercise:rectangles:blurb": "Μέτρησε τα ορθογώνια σε ένα διάγραμμα ASCII.",
+  "exercise:diamond:name": "Διαμάντι",
+  "exercise:diamond:blurb": "Με δεδομένο ένα γράμμα, τύπωσε ένα διαμάντι που ξεκινά με το 'A' και έχει στο πλατύτερο σημείο του το γράμμα που δίνεται.",
+  "exercise:diamond:source": "Seb Rose"
 }

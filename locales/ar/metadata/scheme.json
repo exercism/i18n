@@ -203,5 +203,8 @@
   "exercise:eliuds-eggs:blurb": "ساعد Eliud في إحصاء البيض في قنّ دجاجها عبر عدّ البتات ذات القيمة 1 في التمثيل الثنائي.",
   "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers",
   "exercise:rectangles:name": "المستطيلات",
-  "exercise:rectangles:blurb": "عُدّ المستطيلات في مخطط ASCII."
+  "exercise:rectangles:blurb": "عُدّ المستطيلات في مخطط ASCII.",
+  "exercise:diamond:name": "الماسة",
+  "exercise:diamond:blurb": "بإعطاء حرف، اطبع ماسة تبدأ بالحرف 'A' ويكون الحرف المُعطى عند أوسع نقطة.",
+  "exercise:diamond:source": "Seb Rose"
 }

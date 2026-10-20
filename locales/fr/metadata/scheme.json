@@ -203,5 +203,8 @@
   "exercise:eliuds-eggs:blurb": "Aide Eliud à compter le nombre d'œufs dans son poulailler en comptant le nombre de bits à 1 dans une représentation binaire.",
   "exercise:eliuds-eggs:source": "Christian Willner, Eric Willigers",
   "exercise:rectangles:name": "Rectangles",
-  "exercise:rectangles:blurb": "Compte les rectangles dans un diagramme ASCII."
+  "exercise:rectangles:blurb": "Compte les rectangles dans un diagramme ASCII.",
+  "exercise:diamond:name": "Diamant",
+  "exercise:diamond:blurb": "Étant donné une lettre, affiche un diamant commençant par 'A', la lettre fournie se trouvant au point le plus large.",
+  "exercise:diamond:source": "Seb Rose"
 }

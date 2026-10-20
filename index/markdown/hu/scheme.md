@@ -82,6 +82,10 @@ This page is generated from [the index](../../json/hu/scheme.json) by `scripts/b
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/crypto-square/.docs/instructions.md)): [Latest](../../../locales/hu/content/6c/38/26ee558d8a2ef2b7d20a2b41f2eaf31ec5cd.md)
 
+### Diamond (Gyémánt)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/diamond/.docs/instructions.md)): [Latest](../../../locales/hu/content/30/34/802feb201a5773f49c2fd798d81013934fcf.md)
+
 ### Difference of Squares (Négyzetek különbsége)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/difference-of-squares/.docs/instructions.md)): [Latest](../../../locales/hu/content/39/c3/8b5094a948fd87e8349a64d545ca847b3e89.md)
@@ -194,7 +198,7 @@ This page is generated from [the index](../../json/hu/scheme.json) by `scripts/b
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/palindrome-products/.docs/instructions.md)): [Latest](../../../locales/hu/content/aa/c6/6521ce736be8ce737ea709a5b1eed507cbb8.md)
 - `instructions.append.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/palindrome-products/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/0a/82/6bd3815e1c0f14a0aafe888c4d56c1a6782d.md)
 
-### Pangram
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
   - [`d5698bc2a2`](../../../locales/hu/content/d5/69/8bc2a292baf2fb128de3543b748165088c4f.md)
