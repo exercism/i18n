@@ -927,7 +927,8 @@ This page is generated from [the index](../../json/ar/ruby.json) by `scripts/bui
 
 ### How to learn Ruby (كيفية تعلّم Ruby)
 
-- `LEARNING.md` ([English](https://github.com/exercism/ruby/blob/main/docs/LEARNING.md)): [Latest](../../../locales/ar/content/b1/b5/a7ad363bb709e51787374d146778b11f9250.md)
+- `LEARNING.md` ([English](https://github.com/exercism/ruby/blob/main/docs/LEARNING.md)): [Latest](../../../locales/ar/content/d3/9b/6ec1a45a4a20e54f902ad03cb4d3206abf7c.md)
+  - [`b1b5a7ad36`](../../../locales/ar/content/b1/b5/a7ad363bb709e51787374d146778b11f9250.md)
   - [`71f79f31c5`](../../../locales/ar/content/71/f7/9f31c56678a6de5d1604925d645a11572e75.md)
 
 ### Installing Ruby locally (تثبيت Ruby محليًا)

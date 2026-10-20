@@ -367,7 +367,7 @@ This page is generated from [the index](../../json/hu/ruby.json) by `scripts/bui
 - `instructions.md` ([English](https://github.com/exercism/ruby/blob/main/exercises/practice/palindrome-products/.docs/instructions.md)): [Latest](../../../locales/hu/content/aa/c6/6521ce736be8ce737ea709a5b1eed507cbb8.md)
   - [`fd9a441247`](../../../locales/hu/content/fd/9a/441247b65a9a8604f6ef581df4b1054a1fad.md)
 
-### Pangram
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/ruby/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
   - [`d5698bc2a2`](../../../locales/hu/content/d5/69/8bc2a292baf2fb128de3543b748165088c4f.md)
@@ -870,7 +870,8 @@ This page is generated from [the index](../../json/hu/ruby.json) by `scripts/bui
 
 ### How to learn Ruby (Hogyan tanulj meg Ruby-t?)
 
-- `LEARNING.md` ([English](https://github.com/exercism/ruby/blob/main/docs/LEARNING.md)): [Latest](../../../locales/hu/content/b1/b5/a7ad363bb709e51787374d146778b11f9250.md)
+- `LEARNING.md` ([English](https://github.com/exercism/ruby/blob/main/docs/LEARNING.md)): [Latest](../../../locales/hu/content/d3/9b/6ec1a45a4a20e54f902ad03cb4d3206abf7c.md)
+  - [`b1b5a7ad36`](../../../locales/hu/content/b1/b5/a7ad363bb709e51787374d146778b11f9250.md)
   - [`71f79f31c5`](../../../locales/hu/content/71/f7/9f31c56678a6de5d1604925d645a11572e75.md)
 
 ### Installing Ruby locally (A Ruby telepítése helyben)
