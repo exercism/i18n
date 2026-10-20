@@ -206,5 +206,8 @@
   "exercise:rectangles:blurb": "统计 ASCII 图中的矩形数量。",
   "exercise:diamond:name": "菱形",
   "exercise:diamond:blurb": "给定一个字母，打印一个以 'A' 开头的菱形，最宽处为所给的字母。",
-  "exercise:diamond:source": "Seb Rose"
+  "exercise:diamond:source": "Seb Rose",
+  "exercise:say:name": "说出来",
+  "exercise:say:blurb": "给定一个 0 到 999,999,999,999 之间的数字，用英文拼写出该数字。",
+  "exercise:say:source": "改编自 JavaRanch CattleDrive 的第 4 个作业"
 }

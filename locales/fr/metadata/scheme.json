@@ -206,5 +206,8 @@
   "exercise:rectangles:blurb": "Compte les rectangles dans un diagramme ASCII.",
   "exercise:diamond:name": "Diamant",
   "exercise:diamond:blurb": "Étant donné une lettre, affiche un diamant commençant par 'A', la lettre fournie se trouvant au point le plus large.",
-  "exercise:diamond:source": "Seb Rose"
+  "exercise:diamond:source": "Seb Rose",
+  "exercise:say:name": "Dis",
+  "exercise:say:blurb": "Étant donné un nombre de 0 à 999 999 999 999, écrire ce nombre en toutes lettres en anglais.",
+  "exercise:say:source": "Une variation sur le JavaRanch CattleDrive, Assignment 4"
 }

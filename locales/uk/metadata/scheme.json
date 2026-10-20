@@ -206,5 +206,8 @@
   "exercise:rectangles:blurb": "Порахувати прямокутники на ASCII-діаграмі.",
   "exercise:diamond:name": "Ромб",
   "exercise:diamond:blurb": "Для заданої літери надрукуйте ромб, що починається з 'A' і має задану літеру в найширшому місці.",
-  "exercise:diamond:source": "Seb Rose"
+  "exercise:diamond:source": "Seb Rose",
+  "exercise:say:name": "Вимова",
+  "exercise:say:blurb": "За заданим числом від 0 до 999 999 999 999 запишіть це число словами англійською.",
+  "exercise:say:source": "Варіація на тему JavaRanch CattleDrive, завдання 4"
 }

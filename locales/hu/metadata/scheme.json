@@ -206,5 +206,8 @@
   "exercise:rectangles:blurb": "Számold meg a téglalapokat egy ASCII-ábrában.",
   "exercise:diamond:name": "Gyémánt",
   "exercise:diamond:blurb": "Egy betű ismeretében írj ki egy gyémántot, amely az „A” betűvel kezdődik, és amelynek legszélesebb pontján a megadott betű áll.",
-  "exercise:diamond:source": "Seb Rose"
+  "exercise:diamond:source": "Seb Rose",
+  "exercise:say:name": "Mondd",
+  "exercise:say:blurb": "Egy 0 és 999 999 999 999 közötti számot írj ki betűvel angolul.",
+  "exercise:say:source": "A JavaRanch CattleDrive 4. feladatának egy változata"
 }

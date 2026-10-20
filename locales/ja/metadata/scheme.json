@@ -206,5 +206,8 @@
   "exercise:rectangles:blurb": "ASCIIの図の中にある長方形を数えます。",
   "exercise:diamond:name": "ダイヤモンド",
   "exercise:diamond:blurb": "文字を1つ受け取ったら、'A'から始まり、与えられた文字を最も幅の広い位置に置いたダイヤモンドを出力します。",
-  "exercise:diamond:source": "Seb Rose"
+  "exercise:diamond:source": "Seb Rose",
+  "exercise:say:name": "言う",
+  "exercise:say:blurb": "0から999,999,999,999までの数値が与えられたら、その数値を英語で書き表します。",
+  "exercise:say:source": "JavaRanch CattleDriveのAssignment 4をアレンジしたもの"
 }

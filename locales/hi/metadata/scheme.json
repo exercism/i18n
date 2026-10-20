@@ -206,5 +206,8 @@
   "exercise:rectangles:blurb": "एक ASCII आरेख में आयत गिनिए।",
   "exercise:diamond:name": "हीरा",
   "exercise:diamond:blurb": "एक अक्षर दिया जाए तो 'A' से शुरू होने वाला हीरा छापिए, जिसके सबसे चौड़े हिस्से पर वही दिया गया अक्षर हो।",
-  "exercise:diamond:source": "Seb Rose"
+  "exercise:diamond:source": "Seb Rose",
+  "exercise:say:name": "कहिए",
+  "exercise:say:blurb": "0 से 999,999,999,999 तक की कोई संख्या दी गई हो तो उस संख्या को अंग्रेज़ी में लिखकर बताइए।",
+  "exercise:say:source": "JavaRanch CattleDrive, Assignment 4 का एक रूपांतर"
 }

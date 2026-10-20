@@ -206,5 +206,8 @@
   "exercise:rectangles:blurb": "Conte os retângulos em um diagrama ASCII.",
   "exercise:diamond:name": "Diamante",
   "exercise:diamond:blurb": "Dada uma letra, imprima um diamante começando com 'A', com a letra fornecida no ponto mais largo.",
-  "exercise:diamond:source": "Seb Rose"
+  "exercise:diamond:source": "Seb Rose",
+  "exercise:say:name": "Diga",
+  "exercise:say:blurb": "Dado um número de 0 a 999.999.999.999, escreva esse número por extenso em inglês.",
+  "exercise:say:source": "Uma variação do JavaRanch CattleDrive, Tarefa 4"
 }

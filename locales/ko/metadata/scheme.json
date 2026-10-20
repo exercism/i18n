@@ -206,5 +206,8 @@
   "exercise:rectangles:blurb": "ASCII 다이어그램에 있는 직사각형의 개수를 세요.",
   "exercise:diamond:name": "다이아몬드",
   "exercise:diamond:blurb": "문자 하나가 주어지면, 'A'로 시작하고 주어진 문자가 가장 넓은 지점에 오는 다이아몬드를 출력해요.",
-  "exercise:diamond:source": "Seb Rose"
+  "exercise:diamond:source": "Seb Rose",
+  "exercise:say:name": "말하기",
+  "exercise:say:blurb": "0부터 999,999,999,999까지의 숫자가 주어지면, 그 숫자를 영어로 풀어 써요.",
+  "exercise:say:source": "JavaRanch CattleDrive, Assignment 4를 변형한 문제예요."
 }

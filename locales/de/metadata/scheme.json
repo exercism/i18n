@@ -206,5 +206,8 @@
   "exercise:rectangles:blurb": "Zähle die Rechtecke in einem ASCII-Diagramm.",
   "exercise:diamond:name": "Diamant",
   "exercise:diamond:blurb": "Gib zu einem Buchstaben einen Diamanten aus, der mit 'A' beginnt und den übergebenen Buchstaben an der breitesten Stelle hat.",
-  "exercise:diamond:source": "Seb Rose"
+  "exercise:diamond:source": "Seb Rose",
+  "exercise:say:name": "Sag",
+  "exercise:say:blurb": "Schreibe eine Zahl von 0 bis 999.999.999.999 in englischen Wörtern aus.",
+  "exercise:say:source": "Eine Variante des JavaRanch CattleDrive, Assignment 4"
 }

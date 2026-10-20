@@ -206,5 +206,8 @@
   "exercise:rectangles:blurb": "عُدّ المستطيلات في مخطط ASCII.",
   "exercise:diamond:name": "الماسة",
   "exercise:diamond:blurb": "بإعطاء حرف، اطبع ماسة تبدأ بالحرف 'A' ويكون الحرف المُعطى عند أوسع نقطة.",
-  "exercise:diamond:source": "Seb Rose"
+  "exercise:diamond:source": "Seb Rose",
+  "exercise:say:name": "قل",
+  "exercise:say:blurb": "إذا أُعطيت عددًا من 0 إلى 999,999,999,999، فاكتب هذا العدد بالحروف بالإنجليزية.",
+  "exercise:say:source": "تنويع على JavaRanch CattleDrive، Assignment 4"
 }

@@ -206,5 +206,8 @@
   "exercise:rectangles:blurb": "مستطیل‌های یک نمودار ASCII را بشمارید.",
   "exercise:diamond:name": "الماس",
   "exercise:diamond:blurb": "با دریافت یک حرف، الماسی چاپ کنید که با 'A' شروع می‌شود و حرف داده‌شده در پهن‌ترین نقطه‌ی آن قرار دارد.",
-  "exercise:diamond:source": "Seb Rose"
+  "exercise:diamond:source": "Seb Rose",
+  "exercise:say:name": "گفتن",
+  "exercise:say:blurb": "با گرفتن عددی از ۰ تا ۹۹۹٬۹۹۹٬۹۹۹٬۹۹۹، آن عدد را به حروف انگلیسی بنویسید.",
+  "exercise:say:source": "نسخه‌ای متفاوت از JavaRanch CattleDrive، Assignment 4"
 }

@@ -206,5 +206,8 @@
   "exercise:rectangles:blurb": "একটি ASCII ডায়াগ্রামে আয়তক্ষেত্রগুলো গণনা করুন।",
   "exercise:diamond:name": "ডায়মন্ড",
   "exercise:diamond:blurb": "একটি অক্ষর দেওয়া হলে, সেই অক্ষরটি সবচেয়ে চওড়া জায়গায় রেখে 'A' দিয়ে শুরু হয় এমন একটি ডায়মন্ড প্রিন্ট করুন।",
-  "exercise:diamond:source": "Seb Rose"
+  "exercise:diamond:source": "Seb Rose",
+  "exercise:say:name": "বলুন",
+  "exercise:say:blurb": "০ থেকে ৯৯৯,৯৯৯,৯৯৯,৯৯৯ পর্যন্ত একটি সংখ্যা দেওয়া হলে সেই সংখ্যাটি ইংরেজিতে বানান করে লিখুন।",
+  "exercise:say:source": "JavaRanch CattleDrive, Assignment 4-এর একটি ভিন্ন রূপ"
 }

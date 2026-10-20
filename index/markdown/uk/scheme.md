@@ -257,6 +257,11 @@ This page is generated from [the index](../../json/uk/scheme.json) by `scripts/b
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/run-length-encoding/.docs/instructions.md)): [Latest](../../../locales/uk/content/fc/8c/e0569424400fd47414d998ffd7278103431f.md)
 
+### Say (Вимова)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/say/.docs/instructions.md)): [Latest](../../../locales/uk/content/32/51/c519acefd3c98f5ecf6edf4cb11db4290468.md)
+- `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/say/.docs/introduction.md)): [Latest](../../../locales/uk/content/ab/d2/2851ef7557171c636e876d5c7d19495f8421.md)
+
 ### Scrabble Score (Рахунок у Scrabble)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/scrabble-score/.docs/instructions.md)): [Latest](../../../locales/uk/content/73/8f/928c5b64a1453fe44d29b22efbf90479500b.md)
