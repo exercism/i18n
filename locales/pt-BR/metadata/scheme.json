@@ -209,5 +209,8 @@
   "exercise:diamond:source": "Seb Rose",
   "exercise:say:name": "Diga",
   "exercise:say:blurb": "Dado um número de 0 a 999.999.999.999, escreva esse número por extenso em inglês.",
-  "exercise:say:source": "Uma variação do JavaRanch CattleDrive, Tarefa 4"
+  "exercise:say:source": "Uma variação do JavaRanch CattleDrive, Tarefa 4",
+  "exercise:darts:name": "Dardos",
+  "exercise:darts:blurb": "Calcule os pontos marcados em um único arremesso de uma partida de dardos.",
+  "exercise:darts:source": "Inspirado em um exercício criado pelo professor Della Paolera, na Argentina"
 }

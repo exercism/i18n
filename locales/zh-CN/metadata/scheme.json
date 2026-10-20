@@ -209,5 +209,8 @@
   "exercise:diamond:source": "Seb Rose",
   "exercise:say:name": "说出来",
   "exercise:say:blurb": "给定一个 0 到 999,999,999,999 之间的数字，用英文拼写出该数字。",
-  "exercise:say:source": "改编自 JavaRanch CattleDrive 的第 4 个作业"
+  "exercise:say:source": "改编自 JavaRanch CattleDrive 的第 4 个作业",
+  "exercise:darts:name": "飞镖",
+  "exercise:darts:blurb": "计算飞镖游戏中投掷一次所得的分数。",
+  "exercise:darts:source": "灵感来自阿根廷的 Della Paolera 教授创作的一道练习"
 }

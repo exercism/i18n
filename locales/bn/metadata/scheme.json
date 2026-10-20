@@ -209,5 +209,8 @@
   "exercise:diamond:source": "Seb Rose",
   "exercise:say:name": "বলুন",
   "exercise:say:blurb": "০ থেকে ৯৯৯,৯৯৯,৯৯৯,৯৯৯ পর্যন্ত একটি সংখ্যা দেওয়া হলে সেই সংখ্যাটি ইংরেজিতে বানান করে লিখুন।",
-  "exercise:say:source": "JavaRanch CattleDrive, Assignment 4-এর একটি ভিন্ন রূপ"
+  "exercise:say:source": "JavaRanch CattleDrive, Assignment 4-এর একটি ভিন্ন রূপ",
+  "exercise:darts:name": "ডার্টস",
+  "exercise:darts:blurb": "ডার্টস খেলার একটি একক নিক্ষেপে পাওয়া পয়েন্ট গণনা করুন।",
+  "exercise:darts:source": "আর্জেন্টিনার অধ্যাপক Della Paolera-এর তৈরি একটি অনুশীলনী থেকে অনুপ্রাণিত"
 }

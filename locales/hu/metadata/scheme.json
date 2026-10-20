@@ -209,5 +209,8 @@
   "exercise:diamond:source": "Seb Rose",
   "exercise:say:name": "Mondd",
   "exercise:say:blurb": "Egy 0 és 999 999 999 999 közötti számot írj ki betűvel angolul.",
-  "exercise:say:source": "A JavaRanch CattleDrive 4. feladatának egy változata"
+  "exercise:say:source": "A JavaRanch CattleDrive 4. feladatának egy változata",
+  "exercise:darts:name": "Darts",
+  "exercise:darts:blurb": "Számítsd ki egy dartsjáték egyetlen dobásával szerzett pontokat.",
+  "exercise:darts:source": "Egy Argentínában Della Paolera professzor által készített feladat ihlette"
 }

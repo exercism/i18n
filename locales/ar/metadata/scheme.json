@@ -209,5 +209,8 @@
   "exercise:diamond:source": "Seb Rose",
   "exercise:say:name": "قل",
   "exercise:say:blurb": "إذا أُعطيت عددًا من 0 إلى 999,999,999,999، فاكتب هذا العدد بالحروف بالإنجليزية.",
-  "exercise:say:source": "تنويع على JavaRanch CattleDrive، Assignment 4"
+  "exercise:say:source": "تنويع على JavaRanch CattleDrive، Assignment 4",
+  "exercise:darts:name": "السهام",
+  "exercise:darts:blurb": "احسب النقاط المحرزة في رمية واحدة في لعبة السهام.",
+  "exercise:darts:source": "مستوحى من تمرين أنشأه البروفيسور Della Paolera في الأرجنتين"
 }

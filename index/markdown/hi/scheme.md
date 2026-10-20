@@ -72,6 +72,10 @@ This page is generated from [the index](../../json/hi/scheme.json) by `scripts/b
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/crypto-square/.docs/instructions.md)): [Latest](../../../locales/hi/content/6c/38/26ee558d8a2ef2b7d20a2b41f2eaf31ec5cd.md)
 
+### Darts (डार्ट्स)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/darts/.docs/instructions.md)): [Latest](../../../locales/hi/content/65/18/201c77f96397a5b3e5e572de5a6778136ee0.md)
+
 ### Diamond (हीरा)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/diamond/.docs/instructions.md)): [Latest](../../../locales/hi/content/30/34/802feb201a5773f49c2fd798d81013934fcf.md)

@@ -209,5 +209,8 @@
   "exercise:diamond:source": "Seb Rose",
   "exercise:say:name": "Πες",
   "exercise:say:blurb": "Με δεδομένο έναν αριθμό από το 0 έως το 999.999.999.999, γράψε τον αριθμό ολογράφως στα αγγλικά.",
-  "exercise:say:source": "Μια παραλλαγή του JavaRanch CattleDrive, Εργασία 4"
+  "exercise:say:source": "Μια παραλλαγή του JavaRanch CattleDrive, Εργασία 4",
+  "exercise:darts:name": "Βελάκια",
+  "exercise:darts:blurb": "Υπολόγισε τους πόντους σε μία ρίψη ενός παιχνιδιού βελάκια.",
+  "exercise:darts:source": "Εμπνευσμένο από μια άσκηση που δημιούργησε ο καθηγητής Della Paolera στην Αργεντινή"
 }

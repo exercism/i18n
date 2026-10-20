@@ -209,5 +209,8 @@
   "exercise:diamond:source": "Seb Rose",
   "exercise:say:name": "Dis",
   "exercise:say:blurb": "Étant donné un nombre de 0 à 999 999 999 999, écrire ce nombre en toutes lettres en anglais.",
-  "exercise:say:source": "Une variation sur le JavaRanch CattleDrive, Assignment 4"
+  "exercise:say:source": "Une variation sur le JavaRanch CattleDrive, Assignment 4",
+  "exercise:darts:name": "Fléchettes",
+  "exercise:darts:blurb": "Calcule les points marqués lors d'un lancer dans une partie de fléchettes.",
+  "exercise:darts:source": "Inspiré par un exercice créé par un professeur Della Paolera en Argentine"
 }

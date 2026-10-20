@@ -209,5 +209,8 @@
   "exercise:diamond:source": "Seb Rose",
   "exercise:say:name": "Вимова",
   "exercise:say:blurb": "За заданим числом від 0 до 999 999 999 999 запишіть це число словами англійською.",
-  "exercise:say:source": "Варіація на тему JavaRanch CattleDrive, завдання 4"
+  "exercise:say:source": "Варіація на тему JavaRanch CattleDrive, завдання 4",
+  "exercise:darts:name": "Дартс",
+  "exercise:darts:blurb": "Обчисліть очки, набрані за один кидок у грі в дартс.",
+  "exercise:darts:source": "За мотивами вправи, створеної професором Делла Паолера в Аргентині"
 }

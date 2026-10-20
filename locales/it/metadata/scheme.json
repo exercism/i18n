@@ -209,5 +209,8 @@
   "exercise:diamond:source": "Seb Rose",
   "exercise:say:name": "Pronuncia",
   "exercise:say:blurb": "Dato un numero da 0 a 999.999.999.999, scrivi quel numero a parole in inglese.",
-  "exercise:say:source": "Una variazione sulla JavaRanch CattleDrive, Assignment 4"
+  "exercise:say:source": "Una variazione sulla JavaRanch CattleDrive, Assignment 4",
+  "exercise:darts:name": "Freccette",
+  "exercise:darts:blurb": "Calcola i punti segnati con un singolo lancio in una partita a freccette.",
+  "exercise:darts:source": "Ispirato a un esercizio creato dal professor Della Paolera in Argentina"
 }

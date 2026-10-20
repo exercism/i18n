@@ -72,6 +72,10 @@ This page is generated from [the index](../../json/es-419/scheme.json) by `scrip
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/crypto-square/.docs/instructions.md)): [Latest](../../../locales/es-419/content/6c/38/26ee558d8a2ef2b7d20a2b41f2eaf31ec5cd.md)
 
+### Darts (Dardos)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/darts/.docs/instructions.md)): [Latest](../../../locales/es-419/content/65/18/201c77f96397a5b3e5e572de5a6778136ee0.md)
+
 ### Diamond (Diamante)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/diamond/.docs/instructions.md)): [Latest](../../../locales/es-419/content/30/34/802feb201a5773f49c2fd798d81013934fcf.md)

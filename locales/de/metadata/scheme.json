@@ -209,5 +209,8 @@
   "exercise:diamond:source": "Seb Rose",
   "exercise:say:name": "Sag",
   "exercise:say:blurb": "Schreibe eine Zahl von 0 bis 999.999.999.999 in englischen Wörtern aus.",
-  "exercise:say:source": "Eine Variante des JavaRanch CattleDrive, Assignment 4"
+  "exercise:say:source": "Eine Variante des JavaRanch CattleDrive, Assignment 4",
+  "exercise:darts:name": "Darts",
+  "exercise:darts:blurb": "Berechne die Punkte, die bei einem einzelnen Dartwurf erzielt werden.",
+  "exercise:darts:source": "Inspiriert von einer Übung, die Professor Della Paolera in Argentinien erstellt hat."
 }

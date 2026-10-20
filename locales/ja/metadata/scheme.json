@@ -209,5 +209,8 @@
   "exercise:diamond:source": "Seb Rose",
   "exercise:say:name": "言う",
   "exercise:say:blurb": "0から999,999,999,999までの数値が与えられたら、その数値を英語で書き表します。",
-  "exercise:say:source": "JavaRanch CattleDriveのAssignment 4をアレンジしたもの"
+  "exercise:say:source": "JavaRanch CattleDriveのAssignment 4をアレンジしたもの",
+  "exercise:darts:name": "ダーツ",
+  "exercise:darts:blurb": "ダーツゲームで1回投げたときの得点を計算します。",
+  "exercise:darts:source": "アルゼンチンのDella Paolera教授が作った演習に着想を得たものです。"
 }
