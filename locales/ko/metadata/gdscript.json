@@ -185,5 +185,8 @@
   "exercise:killer-sudoku-helper:source": "Exercism의 Julia 트랙을 위해 Sascha Mann, Jeremy Walker, BethanyG가 만들었어요.",
   "exercise:pythagorean-triplet:name": "피타고라스 삼조",
   "exercise:pythagorean-triplet:blurb": "정수 N이 주어졌을 때, a + b + c = N을 만족하는 모든 피타고라스 삼조를 찾아요.",
-  "exercise:pythagorean-triplet:source": "Project Euler의 9번 문제를 변형한 것이에요."
+  "exercise:pythagorean-triplet:source": "Project Euler의 9번 문제를 변형한 것이에요.",
+  "exercise:gigasecond:name": "기가초",
+  "exercise:gigasecond:blurb": "어떤 시각이 주어지면, 기가초가 지난 뒤의 시각을 구해요.",
+  "exercise:gigasecond:source": "Chris Pine의 온라인 Learn to Program 튜토리얼 9장."
 }

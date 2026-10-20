@@ -185,5 +185,8 @@
   "exercise:killer-sudoku-helper:source": "Criado por Sascha Mann, Jeremy Walker e BethanyG para a track de Julia no Exercism.",
   "exercise:pythagorean-triplet:name": "Terno pitagórico",
   "exercise:pythagorean-triplet:blurb": "Dado um número inteiro N, encontra todos os ternos pitagóricos para os quais a + b + c = N.",
-  "exercise:pythagorean-triplet:source": "Uma variação do Problema 9 do Project Euler"
+  "exercise:pythagorean-triplet:source": "Uma variação do Problema 9 do Project Euler",
+  "exercise:gigasecond:name": "Gigassegundo",
+  "exercise:gigasecond:blurb": "Dado um momento, determina o momento que será depois de ter passado um gigassegundo.",
+  "exercise:gigasecond:source": "Capítulo 9 do tutorial online Learn to Program, de Chris Pine."
 }

@@ -185,5 +185,8 @@
   "exercise:killer-sudoku-helper:source": "Erstellt von Sascha Mann, Jeremy Walker und BethanyG für den Julia-Track auf Exercism.",
   "exercise:pythagorean-triplet:name": "Pythagoreisches Tripel",
   "exercise:pythagorean-triplet:blurb": "Finde zu einer gegebenen Ganzzahl N alle pythagoreischen Tripel, für die a + b + c = N gilt.",
-  "exercise:pythagorean-triplet:source": "Eine Variation von Problem 9 aus Project Euler"
+  "exercise:pythagorean-triplet:source": "Eine Variation von Problem 9 aus Project Euler",
+  "exercise:gigasecond:name": "Gigasekunde",
+  "exercise:gigasecond:blurb": "Bestimme zu einem Zeitpunkt den Zeitpunkt, der nach Ablauf einer Gigasekunde erreicht wäre.",
+  "exercise:gigasecond:source": "Kapitel 9 in Chris Pines Online-Tutorial Learn to Program."
 }

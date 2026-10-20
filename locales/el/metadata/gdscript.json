@@ -185,5 +185,8 @@
   "exercise:killer-sudoku-helper:source": "Δημιουργήθηκε από τους Sascha Mann, Jeremy Walker και BethanyG για τη Julia στο Exercism.",
   "exercise:pythagorean-triplet:name": "Πυθαγόρεια τριάδα",
   "exercise:pythagorean-triplet:blurb": "Δεδομένου ενός ακέραιου N, βρες όλες τις πυθαγόρειες τριάδες για τις οποίες a + b + c = N.",
-  "exercise:pythagorean-triplet:source": "Μια παραλλαγή του προβλήματος 9 από το Project Euler"
+  "exercise:pythagorean-triplet:source": "Μια παραλλαγή του προβλήματος 9 από το Project Euler",
+  "exercise:gigasecond:name": "Γιγαδευτερόλεπτο",
+  "exercise:gigasecond:blurb": "Δεδομένης μιας στιγμής, υπολόγισε τη στιγμή που θα είναι μετά την πάροδο ενός γιγαδευτερολέπτου.",
+  "exercise:gigasecond:source": "Κεφάλαιο 9 στο διαδικτυακό σεμινάριο Learn to Program του Chris Pine."
 }

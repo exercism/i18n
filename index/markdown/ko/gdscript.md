@@ -81,6 +81,11 @@ This page is generated from [the index](../../json/ko/gdscript.json) by `scripts
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/food-chain/.docs/instructions.md)): [Latest](../../../locales/ko/content/12/58/20e321bd07292c3a17dc8b57a7a2cff09245.md)
 
+### Gigasecond (기가초)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/gigasecond/.docs/instructions.md)): [Latest](../../../locales/ko/content/1e/20/f0022e47d16c84030db24f4c83f00b60652d.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/gigasecond/.docs/introduction.md)): [Latest](../../../locales/ko/content/18/a3/dc2005835723646b6cd216c36ae4dfc7550f.md)
+
 ### Grains (밀알)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/grains/.docs/instructions.md)): [Latest](../../../locales/ko/content/f5/b7/52a81754e88e6e41120237c7d3b24d150e58.md)

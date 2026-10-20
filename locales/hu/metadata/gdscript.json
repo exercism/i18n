@@ -185,5 +185,8 @@
   "exercise:killer-sudoku-helper:source": "Sascha Mann, Jeremy Walker és BethanyG készítette az Exercism Julia-kurzusához.",
   "exercise:pythagorean-triplet:name": "Pitagoraszi számhármas",
   "exercise:pythagorean-triplet:blurb": "Adott egy N egész szám, keresd meg az összes pitagoraszi számhármast, amelyre a + b + c = N.",
-  "exercise:pythagorean-triplet:source": "A Project Euler 9. feladatának egy változata"
+  "exercise:pythagorean-triplet:source": "A Project Euler 9. feladatának egy változata",
+  "exercise:gigasecond:name": "Gigaszekundum",
+  "exercise:gigasecond:blurb": "Adott egy időpont; határozd meg, melyik időpont lesz egy gigamásodperc elteltével.",
+  "exercise:gigasecond:source": "A 9. fejezet Chris Pine Learn to Program online oktatóanyagából."
 }

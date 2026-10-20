@@ -185,5 +185,8 @@
   "exercise:killer-sudoku-helper:source": "Створено Сашею Манном, Джеремі Вокером і BethanyG для треку Julia на Exercism.",
   "exercise:pythagorean-triplet:name": "Піфагорова трійка",
   "exercise:pythagorean-triplet:blurb": "Дано ціле число N: знайти всі піфагорові трійки, для яких a + b + c = N.",
-  "exercise:pythagorean-triplet:source": "Варіація задачі 9 з Project Euler"
+  "exercise:pythagorean-triplet:source": "Варіація задачі 9 з Project Euler",
+  "exercise:gigasecond:name": "Гігасекунда",
+  "exercise:gigasecond:blurb": "Для заданого моменту визначте момент, що настане через гігасекунду.",
+  "exercise:gigasecond:source": "Розділ 9 в онлайн-туторіалі Learn to Program від Chris Pine."
 }

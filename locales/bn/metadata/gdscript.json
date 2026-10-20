@@ -185,5 +185,8 @@
   "exercise:killer-sudoku-helper:source": "Exercism-এর Julia ট্র্যাকের জন্য Sascha Mann, Jeremy Walker এবং BethanyG তৈরি করেছেন।",
   "exercise:pythagorean-triplet:name": "পিথাগোরীয় ত্রয়ী",
   "exercise:pythagorean-triplet:blurb": "একটি পূর্ণসংখ্যা N দেওয়া থাকলে, যেসব পিথাগোরীয় ত্রয়ীর জন্য a + b + c = N, সেগুলো খুঁজে বের করুন।",
-  "exercise:pythagorean-triplet:source": "Project Euler-এর Problem 9-এর একটি ভিন্ন রূপ"
+  "exercise:pythagorean-triplet:source": "Project Euler-এর Problem 9-এর একটি ভিন্ন রূপ",
+  "exercise:gigasecond:name": "গিগাসেকেন্ড",
+  "exercise:gigasecond:blurb": "একটি মুহূর্ত দেওয়া হলে, সেখান থেকে এক গিগাসেকেন্ড পেরিয়ে যাওয়ার পরের মুহূর্তটি নির্ণয় করুন।",
+  "exercise:gigasecond:source": "Chris Pine-এর অনলাইন Learn to Program টিউটোরিয়ালের ৯ নম্বর অধ্যায়।"
 }

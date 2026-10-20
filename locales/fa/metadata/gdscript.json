@@ -185,5 +185,8 @@
   "exercise:killer-sudoku-helper:source": "ساخته‌شده توسط Sascha Mann، Jeremy Walker و BethanyG برای مسیر Julia در Exercism.",
   "exercise:pythagorean-triplet:name": "سه‌گانه‌ی فیثاغورسی",
   "exercise:pythagorean-triplet:blurb": "با داشتن عدد صحیح N، همه‌ی سه‌گانه‌های فیثاغورسی را بیابید که در آن‌ها a + b + c = N باشد.",
-  "exercise:pythagorean-triplet:source": "گونه‌ای از مسئله‌ی ۹ در Project Euler"
+  "exercise:pythagorean-triplet:source": "گونه‌ای از مسئله‌ی ۹ در Project Euler",
+  "exercise:gigasecond:name": "گیگاثانیه",
+  "exercise:gigasecond:blurb": "با دریافت یک لحظه، لحظه‌ای را تعیین کنید که پس از گذشت یک گیگاثانیه فرا می‌رسد.",
+  "exercise:gigasecond:source": "فصل ۹ در آموزش آنلاین Learn to Program نوشته‌ی Chris Pine."
 }

@@ -185,5 +185,8 @@
   "exercise:killer-sudoku-helper:source": "Sascha Mann, Jeremy Walker और BethanyG द्वारा Exercism के Julia ट्रैक के लिए बनाया गया।",
   "exercise:pythagorean-triplet:name": "पाइथागोरस त्रिक",
   "exercise:pythagorean-triplet:blurb": "पूर्णांक N दिया है; ऐसे सभी पाइथागोरस त्रिक खोजिए जिनके लिए a + b + c = N हो।",
-  "exercise:pythagorean-triplet:source": "Project Euler की समस्या 9 का एक रूपांतर"
+  "exercise:pythagorean-triplet:source": "Project Euler की समस्या 9 का एक रूपांतर",
+  "exercise:gigasecond:name": "गीगासेकंड",
+  "exercise:gigasecond:blurb": "एक पल दिया जाए तो बताइए कि एक गीगासेकंड बीत जाने के बाद कौन-सा पल होगा।",
+  "exercise:gigasecond:source": "Chris Pine के ऑनलाइन 'Learn to Program' ट्यूटोरियल का अध्याय 9।"
 }

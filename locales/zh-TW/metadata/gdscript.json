@@ -185,5 +185,8 @@
   "exercise:killer-sudoku-helper:source": "由 Sascha Mann、Jeremy Walker 和 BethanyG 為 Exercism 上的 Julia 學習路徑所建立。",
   "exercise:pythagorean-triplet:name": "畢氏三元組",
   "exercise:pythagorean-triplet:blurb": "給定整數 N，找出所有滿足 a + b + c = N 的畢氏三元組。",
-  "exercise:pythagorean-triplet:source": "Project Euler 第 9 題的變體。"
+  "exercise:pythagorean-triplet:source": "Project Euler 第 9 題的變體。",
+  "exercise:gigasecond:name": "十億秒",
+  "exercise:gigasecond:blurb": "給定一個時間點，算出十億秒之後的時刻。",
+  "exercise:gigasecond:source": "Chris Pine 線上教學《Learn to Program》的第 9 章。"
 }
