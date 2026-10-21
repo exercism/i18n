@@ -3036,7 +3036,7 @@
       },
       "partners_section": {
         "title": "इन संस्थाओं को विशेष धन्यवाद…",
-        "donors_sentence_html": "और <a href=\"%{donors_url}\" class=\"underline hover:text-lightBlue\">700 से ज़्यादा व्यक्तिगत दानदाता</a> भी!\n"
+        "donors_sentence_html": "और <a href=\"%{donors_url}\" class=\"underline hover:text-lightBlue\">1,000 से ज़्यादा व्यक्तिगत दानदाता</a> भी!\n"
       },
       "growth_section": {
         "title": "हम सिर्फ लोगों के आपस में बताने से %{num_users} से ज़्यादा छात्रों तक पहुँच गए हैं।",

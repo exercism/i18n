@@ -2758,7 +2758,7 @@
       },
       "partners_section": {
         "title": "이 단체들께 특별한 감사를 전해요…",
-        "donors_sentence_html": "그리고 <a href=\"%{donors_url}\" class=\"underline hover:text-lightBlue\">700명이 넘는 개인 후원자들!</a>\n"
+        "donors_sentence_html": "그리고 <a href=\"%{donors_url}\" class=\"underline hover:text-lightBlue\">1,000명이 넘는 개인 후원자들!</a>\n"
       },
       "growth_section": {
         "title": "우리는 오직 입소문만으로 %{num_users}명이 넘는 학생으로 성장했어요.",

@@ -232,7 +232,7 @@
       },
       "partners_section": {
         "title": "Külön köszönet ezeknek a szervezeteknek…",
-        "donors_sentence_html": "És több mint <a href=\"%{donors_url}\" class=\"underline hover:text-lightBlue\">700 egyéni adományozónak!</a>\n"
+        "donors_sentence_html": "És több mint <a href=\"%{donors_url}\" class=\"underline hover:text-lightBlue\">1000 egyéni adományozónak!</a>\n"
       },
       "growth_section": {
         "title": "Kizárólag szóbeszéd útján nőttünk több mint %{num_users} tanulóra.",

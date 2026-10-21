@@ -3228,7 +3228,7 @@
       },
       "partners_section": {
         "title": "Ein besonderer Dank an diese Organisationen…",
-        "donors_sentence_html": "Und über <a href=\"%{donors_url}\" class=\"underline hover:text-lightBlue\">700 Einzelspender!</a>\n"
+        "donors_sentence_html": "Und über <a href=\"%{donors_url}\" class=\"underline hover:text-lightBlue\">1.000 Einzelspender!</a>\n"
       },
       "growth_section": {
         "title": "Wir sind allein durch Mundpropaganda auf über %{num_users} Lernende gewachsen.",

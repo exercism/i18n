@@ -3273,7 +3273,7 @@
       },
       "partners_section": {
         "title": "これらの団体に心より感謝します…",
-        "donors_sentence_html": "そして<a href=\"%{donors_url}\" class=\"underline hover:text-lightBlue\">700人を超える個人寄付者のみなさん！</a>\n"
+        "donors_sentence_html": "そして<a href=\"%{donors_url}\" class=\"underline hover:text-lightBlue\">1,000人を超える個人寄付者のみなさん！</a>\n"
       },
       "growth_section": {
         "title": "口コミだけで、%{num_users}人を超える受講生にまで成長しました。",

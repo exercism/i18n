@@ -2756,7 +2756,7 @@
       },
       "partners_section": {
         "title": "Окрема подяка цим організаціям…",
-        "donors_sentence_html": "І понад <a href=\"%{donors_url}\" class=\"underline hover:text-lightBlue\">700 індивідуальних донорів!</a>\n"
+        "donors_sentence_html": "І понад <a href=\"%{donors_url}\" class=\"underline hover:text-lightBlue\">1000 індивідуальних донорів!</a>\n"
       },
       "growth_section": {
         "title": "Ми виросли до понад %{num_users} учнів виключно завдяки «сарафанному радіо».",
