@@ -1045,7 +1045,7 @@
       },
       "partners_section": {
         "title": "تشکر ویژه از این سازمان‌ها…",
-        "donors_sentence_html": "و بیش از <a href=\"%{donors_url}\" class=\"underline hover:text-lightBlue\">۱۰۰۰ اهداکننده‌ی فردی!</a>\n"
+        "donors_sentence_html": "و بیش از <a href=\"%{donors_url}\" class=\"underline hover:text-lightBlue\">۷۰۰ اهداکننده‌ی فردی!</a>\n"
       },
       "growth_section": {
         "title": "ما تنها با تبلیغ دهان‌به‌دهان به بیش از %{num_users} دانش‌آموز رسیده‌ایم.",

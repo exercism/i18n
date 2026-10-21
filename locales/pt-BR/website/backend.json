@@ -2643,7 +2643,7 @@
       },
       "partners_section": {
         "title": "Um agradecimento especial a estas organizações…",
-        "donors_sentence_html": "E mais de <a href=\"%{donors_url}\" class=\"underline hover:text-lightBlue\">1.000 doadores individuais!</a>\n"
+        "donors_sentence_html": "E mais de <a href=\"%{donors_url}\" class=\"underline hover:text-lightBlue\">700 doadores individuais!</a>\n"
       },
       "growth_section": {
         "title": "Crescemos para mais de %{num_users} estudantes apenas com o boca a boca.",

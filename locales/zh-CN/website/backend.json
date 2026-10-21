@@ -2938,7 +2938,7 @@
       },
       "partners_section": {
         "title": "特别感谢这些机构……",
-        "donors_sentence_html": "还有超过 <a href=\"%{donors_url}\" class=\"underline hover:text-lightBlue\">1,000 位个人捐赠者！</a>\n"
+        "donors_sentence_html": "还有超过 <a href=\"%{donors_url}\" class=\"underline hover:text-lightBlue\">700 位个人捐赠者！</a>\n"
       },
       "growth_section": {
         "title": "我们完全依靠口口相传，发展到了超过 %{num_users} 名学员。",

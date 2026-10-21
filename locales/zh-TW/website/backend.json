@@ -3024,7 +3024,7 @@
       },
       "partners_section": {
         "title": "特別感謝這些組織……",
-        "donors_sentence_html": "以及超過 <a href=\"%{donors_url}\" class=\"underline hover:text-lightBlue\">1,000 位個人捐款者！</a>\n"
+        "donors_sentence_html": "以及超過 <a href=\"%{donors_url}\" class=\"underline hover:text-lightBlue\">700 位個人捐款者！</a>\n"
       },
       "growth_section": {
         "title": "我們完全靠口碑成長到超過 %{num_users} 位學生。",

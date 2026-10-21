@@ -2915,7 +2915,7 @@
       },
       "partners_section": {
         "title": "Un ringraziamento speciale a queste organizzazioni…",
-        "donors_sentence_html": "E oltre <a href=\"%{donors_url}\" class=\"underline hover:text-lightBlue\">1.000 donatori individuali!</a>\n"
+        "donors_sentence_html": "E oltre <a href=\"%{donors_url}\" class=\"underline hover:text-lightBlue\">700 donatori individuali!</a>\n"
       },
       "growth_section": {
         "title": "Siamo cresciuti fino a oltre %{num_users} studenti, solo grazie al passaparola.",

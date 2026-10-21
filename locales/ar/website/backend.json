@@ -2978,7 +2978,7 @@
       },
       "partners_section": {
         "title": "شكر خاص لهذه المؤسسات…",
-        "donors_sentence_html": "وأكثر من <a href=\"%{donors_url}\" class=\"underline hover:text-lightBlue\">1,000 متبرع فردي!</a>\n"
+        "donors_sentence_html": "وأكثر من <a href=\"%{donors_url}\" class=\"underline hover:text-lightBlue\">700 متبرع فردي!</a>\n"
       },
       "growth_section": {
         "title": "وصلنا إلى أكثر من %{num_users} طالب بالتناقل الشفهي وحده.",
