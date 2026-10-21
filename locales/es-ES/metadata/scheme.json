@@ -212,5 +212,8 @@
   "exercise:say:source": "Una variación del JavaRanch CattleDrive, Assignment 4",
   "exercise:darts:name": "Dardos",
   "exercise:darts:blurb": "Calcula los puntos obtenidos en un solo lanzamiento de una partida de dardos.",
-  "exercise:darts:source": "Inspirado en un ejercicio creado por el profesor Della Paolera en Argentina"
+  "exercise:darts:source": "Inspirado en un ejercicio creado por el profesor Della Paolera en Argentina",
+  "exercise:wordy:name": "Wordy",
+  "exercise:wordy:blurb": "Analiza y evalúa problemas matemáticos sencillos planteados con palabras y devuelve la respuesta como un número entero.",
+  "exercise:wordy:source": "Inspirado en una de las preguntas generadas en el juego Extreme Startup."
 }

@@ -212,5 +212,8 @@
   "exercise:say:source": "Eine Variante des JavaRanch CattleDrive, Assignment 4",
   "exercise:darts:name": "Darts",
   "exercise:darts:blurb": "Berechne die Punkte, die bei einem einzelnen Dartwurf erzielt werden.",
-  "exercise:darts:source": "Inspiriert von einer Übung, die Professor Della Paolera in Argentinien erstellt hat."
+  "exercise:darts:source": "Inspiriert von einer Übung, die Professor Della Paolera in Argentinien erstellt hat.",
+  "exercise:wordy:name": "Wortreich",
+  "exercise:wordy:blurb": "Zerlege und werte einfache mathematische Textaufgaben aus und gib die Antwort als Ganzzahl zurück.",
+  "exercise:wordy:source": "Inspiriert von einer der generierten Fragen im Spiel Extreme Startup."
 }

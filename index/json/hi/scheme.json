@@ -71,6 +71,7 @@
     "exercises/practice/two-fer": {"en":"Two Fer","hi":"Two Fer"},
     "exercises/practice/variable-length-quantity": {"en":"Variable Length Quantity","hi":"वेरिएबल लंबाई की मात्रा"},
     "exercises/practice/word-count": {"en":"Word Count","hi":"शब्दों की गिनती"},
+    "exercises/practice/wordy": {"en":"Wordy","hi":"Wordy"},
     "exercises/practice/yacht": {"en":"Yacht","hi":"Yacht"}
   },
   "paths": {
@@ -190,6 +191,7 @@
     "exercises/practice/variable-length-quantity/.docs/instructions.md": ["5012548268111bd52081b3774efc2a51a0271fd3"],
     "exercises/practice/word-count/.docs/instructions.md": ["064393c8a0f68810d215d0bec650f9cab19953b5"],
     "exercises/practice/word-count/.docs/introduction.md": ["1654508e79dc91420825d8a1a9818089e4167f70"],
+    "exercises/practice/wordy/.docs/instructions.md": ["aafb9ee54bf49aa33e99af41ba55cbe6f4e1a784"],
     "exercises/practice/yacht/.docs/instructions.append.md": ["ad3d244ed049b1093a194053adc6007a72695aa1"],
     "exercises/practice/yacht/.docs/instructions.md": ["519b7a68b876e58fc845cccc10ae1d28519db33a"],
     "exercises/practice/yacht/.docs/introduction.md": ["5b541f5625ce0d5916f9545a824de17a55d433f1"],

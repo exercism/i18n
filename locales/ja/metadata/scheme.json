@@ -212,5 +212,8 @@
   "exercise:say:source": "JavaRanch CattleDriveのAssignment 4をアレンジしたもの",
   "exercise:darts:name": "ダーツ",
   "exercise:darts:blurb": "ダーツゲームで1回投げたときの得点を計算します。",
-  "exercise:darts:source": "アルゼンチンのDella Paolera教授が作った演習に着想を得たものです。"
+  "exercise:darts:source": "アルゼンチンのDella Paolera教授が作った演習に着想を得たものです。",
+  "exercise:wordy:name": "Wordy",
+  "exercise:wordy:blurb": "簡単な数学の文章題を解析して評価し、答えを整数として返します。",
+  "exercise:wordy:source": "Extreme Startupゲームで生成された問題の1つに着想を得たもの"
 }

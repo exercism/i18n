@@ -212,5 +212,8 @@
   "exercise:say:source": "Une variation sur le JavaRanch CattleDrive, Assignment 4",
   "exercise:darts:name": "Fléchettes",
   "exercise:darts:blurb": "Calcule les points marqués lors d'un lancer dans une partie de fléchettes.",
-  "exercise:darts:source": "Inspiré par un exercice créé par un professeur Della Paolera en Argentine"
+  "exercise:darts:source": "Inspiré par un exercice créé par un professeur Della Paolera en Argentine",
+  "exercise:wordy:name": "Bavard",
+  "exercise:wordy:blurb": "Analyse et évalue de simples problèmes mathématiques énoncés en mots, et renvoie la réponse sous forme d'entier.",
+  "exercise:wordy:source": "Inspiré par l'une des questions générées dans le jeu Extreme Startup."
 }

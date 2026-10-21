@@ -323,6 +323,10 @@ This page is generated from [the index](../../json/es-419/scheme.json) by `scrip
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/word-count/.docs/instructions.md)): [Latest](../../../locales/es-419/content/06/43/93c8a0f68810d215d0bec650f9cab19953b5.md)
 - `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/word-count/.docs/introduction.md)): [Latest](../../../locales/es-419/content/16/54/508e79dc91420825d8a1a9818089e4167f70.md)
 
+### Wordy
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/wordy/.docs/instructions.md)): [Latest](../../../locales/es-419/content/aa/fb/9ee54bf49aa33e99af41ba55cbe6f4e1a784.md)
+
 ### Yacht
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/yacht/.docs/instructions.md)): [Latest](../../../locales/es-419/content/51/9b/7a68b876e58fc845cccc10ae1d28519db33a.md)

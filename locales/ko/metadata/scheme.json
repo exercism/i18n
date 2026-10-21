@@ -212,5 +212,8 @@
   "exercise:say:source": "JavaRanch CattleDrive, Assignment 4를 변형한 문제예요.",
   "exercise:darts:name": "다트",
   "exercise:darts:blurb": "다트 게임을 한 번 던졌을 때 얻는 점수를 계산해요.",
-  "exercise:darts:source": "아르헨티나의 Della Paolera 교수가 만든 연습 문제에서 영감을 받았어요."
+  "exercise:darts:source": "아르헨티나의 Della Paolera 교수가 만든 연습 문제에서 영감을 받았어요.",
+  "exercise:wordy:name": "문장제",
+  "exercise:wordy:blurb": "간단한 수학 문장제를 분석하고 계산해 답을 정수로 반환해요.",
+  "exercise:wordy:source": "Extreme Startup 게임에 나오는 생성된 질문 중 하나에서 착안했어요."
 }

@@ -212,5 +212,8 @@
   "exercise:say:source": "نسخه‌ای متفاوت از JavaRanch CattleDrive، Assignment 4",
   "exercise:darts:name": "دارت",
   "exercise:darts:blurb": "امتیازهای به دست آمده در یک پرتاب بازی دارت را محاسبه کنید.",
-  "exercise:darts:source": "الهام‌گرفته از تمرینی که پروفسور Della Paolera در آرژانتین ساخته است"
+  "exercise:darts:source": "الهام‌گرفته از تمرینی که پروفسور Della Paolera در آرژانتین ساخته است",
+  "exercise:wordy:name": "پرحرف",
+  "exercise:wordy:blurb": "مسئله‌های کلامی ساده‌ی ریاضی را تجزیه و ارزیابی کنید و پاسخ را به‌صورت یک عدد صحیح برگردانید.",
+  "exercise:wordy:source": "با الهام از یکی از پرسش‌های تولیدشده در بازی Extreme Startup."
 }

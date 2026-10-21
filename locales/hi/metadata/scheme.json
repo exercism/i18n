@@ -212,5 +212,8 @@
   "exercise:say:source": "JavaRanch CattleDrive, Assignment 4 का एक रूपांतर",
   "exercise:darts:name": "डार्ट्स",
   "exercise:darts:blurb": "डार्ट्स के खेल में एक बार डार्ट फेंकने पर मिलने वाले अंक निकालिए।",
-  "exercise:darts:source": "अर्जेंटीना में प्रोफेसर Della Paolera द्वारा बनाए गए एक अभ्यास से प्रेरित।"
+  "exercise:darts:source": "अर्जेंटीना में प्रोफेसर Della Paolera द्वारा बनाए गए एक अभ्यास से प्रेरित।",
+  "exercise:wordy:name": "Wordy",
+  "exercise:wordy:blurb": "आसान गणितीय शब्द-समस्याओं को पार्स करके हल कीजिए और उत्तर पूर्णांक के रूप में लौटाइए।",
+  "exercise:wordy:source": "Extreme Startup गेम में बनाए गए प्रश्नों में से एक से प्रेरित।"
 }

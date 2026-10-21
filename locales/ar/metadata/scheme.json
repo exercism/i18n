@@ -212,5 +212,8 @@
   "exercise:say:source": "تنويع على JavaRanch CattleDrive، Assignment 4",
   "exercise:darts:name": "السهام",
   "exercise:darts:blurb": "احسب النقاط المحرزة في رمية واحدة في لعبة السهام.",
-  "exercise:darts:source": "مستوحى من تمرين أنشأه البروفيسور Della Paolera في الأرجنتين"
+  "exercise:darts:source": "مستوحى من تمرين أنشأه البروفيسور Della Paolera في الأرجنتين",
+  "exercise:wordy:name": "اللفظي",
+  "exercise:wordy:blurb": "حلّل مسائل رياضية كلامية بسيطة وقيّمها، مع إرجاع الإجابة كعدد صحيح.",
+  "exercise:wordy:source": "مستوحى من أحد الأسئلة المولَّدة في لعبة Extreme Startup."
 }

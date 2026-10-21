@@ -323,6 +323,10 @@ This page is generated from [the index](../../json/zh-TW/scheme.json) by `script
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/word-count/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/06/43/93c8a0f68810d215d0bec650f9cab19953b5.md)
 - `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/word-count/.docs/introduction.md)): [Latest](../../../locales/zh-TW/content/16/54/508e79dc91420825d8a1a9818089e4167f70.md)
 
+### Wordy (文字題)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/wordy/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/aa/fb/9ee54bf49aa33e99af41ba55cbe6f4e1a784.md)
+
 ### Yacht (快艇骰子)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/yacht/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/51/9b/7a68b876e58fc845cccc10ae1d28519db33a.md)

@@ -212,5 +212,8 @@
   "exercise:say:source": "Una variazione sulla JavaRanch CattleDrive, Assignment 4",
   "exercise:darts:name": "Freccette",
   "exercise:darts:blurb": "Calcola i punti segnati con un singolo lancio in una partita a freccette.",
-  "exercise:darts:source": "Ispirato a un esercizio creato dal professor Della Paolera in Argentina"
+  "exercise:darts:source": "Ispirato a un esercizio creato dal professor Della Paolera in Argentina",
+  "exercise:wordy:name": "Parolaio",
+  "exercise:wordy:blurb": "Analizza e risolvi semplici problemi matematici espressi a parole, restituendo la risposta come numero intero.",
+  "exercise:wordy:source": "Ispirato a una delle domande generate nel gioco Extreme Startup."
 }

@@ -212,5 +212,8 @@
   "exercise:say:source": "A JavaRanch CattleDrive 4. feladatának egy változata",
   "exercise:darts:name": "Darts",
   "exercise:darts:blurb": "Számítsd ki egy dartsjáték egyetlen dobásával szerzett pontokat.",
-  "exercise:darts:source": "Egy Argentínában Della Paolera professzor által készített feladat ihlette"
+  "exercise:darts:source": "Egy Argentínában Della Paolera professzor által készített feladat ihlette",
+  "exercise:wordy:name": "Szószátyár",
+  "exercise:wordy:blurb": "Elemezz és értékelj ki egyszerű szöveges matematikai feladatokat, és add vissza a választ egész számként.",
+  "exercise:wordy:source": "A Extreme Startup játék egyik generált kérdése ihlette."
 }

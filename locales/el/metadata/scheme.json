@@ -212,5 +212,8 @@
   "exercise:say:source": "Μια παραλλαγή του JavaRanch CattleDrive, Εργασία 4",
   "exercise:darts:name": "Βελάκια",
   "exercise:darts:blurb": "Υπολόγισε τους πόντους σε μία ρίψη ενός παιχνιδιού βελάκια.",
-  "exercise:darts:source": "Εμπνευσμένο από μια άσκηση που δημιούργησε ο καθηγητής Della Paolera στην Αργεντινή"
+  "exercise:darts:source": "Εμπνευσμένο από μια άσκηση που δημιούργησε ο καθηγητής Della Paolera στην Αργεντινή",
+  "exercise:wordy:name": "Wordy",
+  "exercise:wordy:blurb": "Ανάλυσε και υπολόγισε απλά μαθηματικά προβλήματα με λόγια, επιστρέφοντας την απάντηση ως ακέραιο.",
+  "exercise:wordy:source": "Εμπνευσμένο από μία από τις παραγόμενες ερωτήσεις του παιχνιδιού Extreme Startup."
 }
