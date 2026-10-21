@@ -3178,7 +3178,7 @@
       },
       "partners_section": {
         "title": "এই প্রতিষ্ঠানগুলোর প্রতি রইল বিশেষ কৃতজ্ঞতা…",
-        "donors_sentence_html": "আর <a href=\"%{donors_url}\" class=\"underline hover:text-lightBlue\">৭০০ জনেরও বেশি ব্যক্তিগত দাতা!</a>\n"
+        "donors_sentence_html": "আর <a href=\"%{donors_url}\" class=\"underline hover:text-lightBlue\">১,০০০ জনেরও বেশি ব্যক্তিগত দাতা!</a>\n"
       },
       "growth_section": {
         "title": "শুধু মুখে মুখে ছড়ানো আলোচনার কারণেই আমাদের শিক্ষার্থীর সংখ্যা %{num_users} ছাড়িয়ে গেছে।",

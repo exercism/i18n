@@ -2989,7 +2989,7 @@
       },
       "partners_section": {
         "title": "Ένα ξεχωριστό ευχαριστώ σε αυτούς τους οργανισμούς…",
-        "donors_sentence_html": "Και πάνω από <a href=\"%{donors_url}\" class=\"underline hover:text-lightBlue\">700 μεμονωμένοι δωρητές!</a>\n"
+        "donors_sentence_html": "Και πάνω από <a href=\"%{donors_url}\" class=\"underline hover:text-lightBlue\">1.000 μεμονωμένοι δωρητές!</a>\n"
       },
       "growth_section": {
         "title": "Έχουμε φτάσει πάνω από %{num_users} μαθητές, αποκλειστικά από στόμα σε στόμα.",
