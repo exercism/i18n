@@ -919,7 +919,8 @@ This page is generated from [the index](../../json/ja/ruby.json) by `scripts/bui
 
 ### 24pullrequests.md
 
-- `24pullrequests.md` ([English](https://github.com/exercism/ruby/blob/main/docs/24pullrequests.md)): [Latest](../../../locales/ja/content/f5/f8/b9389123087756d1128f25baf995818a04be.md)
+- `24pullrequests.md` ([English](https://github.com/exercism/ruby/blob/main/docs/24pullrequests.md)): [Latest](../../../locales/ja/content/2f/4c/fb28c972a3fb8b1dac489676df19b0719b3e.md)
+  - [`f5f8b93891`](../../../locales/ja/content/f5/f8/b9389123087756d1128f25baf995818a04be.md)
 
 ### ABOUT.md
 
