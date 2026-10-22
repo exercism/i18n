@@ -197,5 +197,8 @@
   "exercise:protein-translation:source": "Tyler Long",
   "exercise:binary-search-tree:name": "이진 탐색 트리",
   "exercise:binary-search-tree:blurb": "이진 트리에 숫자를 삽입하고 탐색해요.",
-  "exercise:binary-search-tree:source": "Josh Cheek"
+  "exercise:binary-search-tree:source": "Josh Cheek",
+  "exercise:resistor-color-tolerance:name": "저항 색 허용 오차",
+  "exercise:resistor-color-tolerance:blurb": "여러 띠가 있는 저항기에 사용되는 색상 코드를 사람이 읽을 수 있는 레이블로 변환해요.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

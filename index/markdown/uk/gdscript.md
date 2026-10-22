@@ -193,6 +193,10 @@ This page is generated from [the index](../../json/uk/gdscript.json) by `scripts
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/resistor-color-expert/.docs/instructions.md)): [Latest](../../../locales/uk/content/7a/11/0832c8faf1afdc18ddd5470221d8d6db4f29.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/resistor-color-expert/.docs/introduction.md)): [Latest](../../../locales/uk/content/fd/9e/05efc4d93b8df536a5d2f92f8109f32ecd2c.md)
 
+### Resistor Color Tolerance (Кольоровий допуск резистора)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/resistor-color-tolerance/.docs/instructions.md)): [Latest](../../../locales/uk/content/f4/79/50f0140496ad1b9a967379766d8a7583b002.md)
+
 ### Resistor Color Trio (Тріо кольорів резистора)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/resistor-color-trio/.docs/instructions.md)): [Latest](../../../locales/uk/content/1a/c5/cf5e9fe0b7e589bf6cba0c31c2c8a0e98d7e.md)

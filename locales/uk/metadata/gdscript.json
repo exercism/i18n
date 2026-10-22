@@ -197,5 +197,8 @@
   "exercise:protein-translation:source": "Tyler Long",
   "exercise:binary-search-tree:name": "Двійкове дерево пошуку",
   "exercise:binary-search-tree:blurb": "Вставляйте числа в двійкове дерево та шукайте їх.",
-  "exercise:binary-search-tree:source": "Josh Cheek"
+  "exercise:binary-search-tree:source": "Josh Cheek",
+  "exercise:resistor-color-tolerance:name": "Кольоровий допуск резистора",
+  "exercise:resistor-color-tolerance:blurb": "Перетворіть кольорові коди, які використовують на резисторах із різною кількістю смуг, у зрозумілу для людини позначку.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

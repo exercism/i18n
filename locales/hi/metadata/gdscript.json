@@ -197,5 +197,8 @@
   "exercise:protein-translation:source": "Tyler Long",
   "exercise:binary-search-tree:name": "बाइनरी सर्च ट्री",
   "exercise:binary-search-tree:blurb": "बाइनरी ट्री में संख्याएँ डालिए और उन्हें ढूँढिए।",
-  "exercise:binary-search-tree:source": "Josh Cheek"
+  "exercise:binary-search-tree:source": "Josh Cheek",
+  "exercise:resistor-color-tolerance:name": "प्रतिरोधक रंग सहनशीलता",
+  "exercise:resistor-color-tolerance:blurb": "रेज़िस्टरों पर अलग-अलग बैंडों के साथ इस्तेमाल होने वाले रंग कोडों को मनुष्य के पढ़ने लायक लेबल में बदलिए।",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

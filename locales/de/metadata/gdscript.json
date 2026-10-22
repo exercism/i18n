@@ -197,5 +197,8 @@
   "exercise:protein-translation:source": "Tyler Long",
   "exercise:binary-search-tree:name": "Binärer Suchbaum",
   "exercise:binary-search-tree:blurb": "Füge Zahlen in einen Binärbaum ein und suche sie darin.",
-  "exercise:binary-search-tree:source": "Josh Cheek"
+  "exercise:binary-search-tree:source": "Josh Cheek",
+  "exercise:resistor-color-tolerance:name": "Farbtoleranz von Widerständen",
+  "exercise:resistor-color-tolerance:blurb": "Wandle Farbcodes, wie sie bei Widerständen mit unterschiedlichen Ringen verwendet werden, in eine für Menschen lesbare Bezeichnung um.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

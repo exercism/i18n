@@ -197,5 +197,8 @@
   "exercise:protein-translation:source": "Tyler Long",
   "exercise:binary-search-tree:name": "二分探索木",
   "exercise:binary-search-tree:blurb": "二分木に数値を挿入し、探索してください。",
-  "exercise:binary-search-tree:source": "Josh Cheek"
+  "exercise:binary-search-tree:source": "Josh Cheek",
+  "exercise:resistor-color-tolerance:name": "抵抗器のカラーコードの許容差",
+  "exercise:resistor-color-tolerance:blurb": "異なるバンドを持つ抵抗器で使われるカラーコードを、人が読めるラベルに変換します。",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }
