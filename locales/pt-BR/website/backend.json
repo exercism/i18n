@@ -1446,7 +1446,7 @@
       },
       "no_test_runner": {
         "editor_unavailable_title": "Editor indisponível.",
-        "test_runner_not_working_title": "Não dá para resolver esta trilha ou este exercício usando o editor do Exercism",
+        "test_runner_not_working_title": "Não dá para resolver esta trilha usando o editor do Exercism",
         "test_runner_not_working_description_html": "Esta trilha ainda não tem um executor de testes funcionando, então o editor está desativado. Estamos trabalhando para resolver isso. Se você quiser ajudar, veja as Issues no %{github_link}.",
         "github_repo_link_text": "o repositório do GitHub",
         "editor_unsupported_title": "Desculpe, não dá para resolver este exercício no editor.",

@@ -1938,7 +1938,7 @@
       },
       "no_test_runner": {
         "editor_unavailable_title": "A szerkesztő nem érhető el.",
-        "test_runner_not_working_title": "A kurzus vagy a feladat nem oldható meg az Exercism szerkesztővel",
+        "test_runner_not_working_title": "Ez a kurzus nem oldható meg az Exercism szerkesztővel",
         "test_runner_not_working_description_html": "Ennek a kurzusnak még nincs működő tesztfuttatója, ezért a szerkesztő le van tiltva. Éppen dolgozunk a megoldásán. Ha szeretnél segíteni, nézd meg a hibajegyeket: %{github_link}.",
         "github_repo_link_text": "a GitHub-tároló",
         "editor_unsupported_title": "Sajnáljuk, ezt a feladatot nem lehet megoldani a szerkesztőben.",

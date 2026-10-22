@@ -904,7 +904,7 @@
       },
       "no_test_runner": {
         "editor_unavailable_title": "एडिटर उपलब्ध नहीं है।",
-        "test_runner_not_working_title": "इस ट्रैक या अभ्यास को Exercism एडिटर से हल नहीं किया जा सकता",
+        "test_runner_not_working_title": "इस ट्रैक को Exercism एडिटर से हल नहीं किया जा सकता",
         "test_runner_not_working_description_html": "इस ट्रैक के लिए अभी कोई काम करने वाला टेस्ट रनर नहीं है, इसलिए एडिटर बंद है। हम इसे ठीक करने पर काम कर रहे हैं। अगर आप मदद करना चाहें, तो %{github_link} पर Issues देखिए।",
         "github_repo_link_text": "GitHub रिपॉज़िटरी",
         "editor_unsupported_title": "क्षमा कीजिए, इस अभ्यास को एडिटर में हल नहीं किया जा सकता।",

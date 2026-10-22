@@ -2082,7 +2082,7 @@
       },
       "no_test_runner": {
         "editor_unavailable_title": "エディターを利用できません。",
-        "test_runner_not_working_title": "このトラックや演習は、Exercismのエディターでは解けません",
+        "test_runner_not_working_title": "このトラックは、Exercismのエディターでは解けません",
         "test_runner_not_working_description_html": "このトラックにはまだ動作するテストランナーがないため、エディターは無効になっています。現在、解決に向けて取り組んでいます。もし協力していただける場合は、%{github_link}のIssuesをご覧ください。",
         "github_repo_link_text": "GitHubリポジトリ",
         "editor_unsupported_title": "申し訳ありません。この演習はエディターでは解けません。",

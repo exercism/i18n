@@ -2265,7 +2265,7 @@
       },
       "no_test_runner": {
         "editor_unavailable_title": "المحرّر غير متاح.",
-        "test_runner_not_working_title": "لا يمكن حل هذا المسار أو التمرين باستخدام محرّر Exercism",
+        "test_runner_not_working_title": "لا يمكن حل هذا المسار باستخدام محرّر Exercism",
         "test_runner_not_working_description_html": "لا يمتلك هذا المسار بعد مشغّل اختبارات يعمل، لذلك المحرّر معطّل. نعمل على حل هذه المشكلة. إذا أردت المساعدة، فراجع Issues على %{github_link}.",
         "github_repo_link_text": "مستودع GitHub",
         "editor_unsupported_title": "عذرًا، لا يمكن حل هذا التمرين في المحرّر.",

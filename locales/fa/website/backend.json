@@ -2567,7 +2567,7 @@
       },
       "no_test_runner": {
         "editor_unavailable_title": "ویرایشگر در دسترس نیست.",
-        "test_runner_not_working_title": "این ترک یا تمرین با ویرایشگر Exercism قابل حل نیست",
+        "test_runner_not_working_title": "این ترک با ویرایشگر Exercism قابل حل نیست",
         "test_runner_not_working_description_html": "این ترک هنوز اجراکننده‌ی تست فعالی ندارد، بنابراین ویرایشگر غیرفعال است. ما در حال رفع این مشکل هستیم. اگر می‌خواهید کمک کنید، لطفاً Issues را در %{github_link} ببینید.",
         "github_repo_link_text": "مخزن GitHub",
         "editor_unsupported_title": "متأسفانه این تمرین در ویرایشگر قابل حل نیست.",

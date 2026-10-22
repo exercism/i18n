@@ -1733,7 +1733,7 @@
       },
       "no_test_runner": {
         "editor_unavailable_title": "Editor nicht verfügbar.",
-        "test_runner_not_working_title": "Dieser Track oder diese Übung kann nicht mit dem Exercism-Editor gelöst werden",
+        "test_runner_not_working_title": "Dieser Track kann nicht mit dem Exercism-Editor gelöst werden",
         "test_runner_not_working_description_html": "Dieser Track hat noch keinen funktionierenden Test-Runner, deshalb ist der Editor deaktiviert. Wir arbeiten an einer Lösung. Wenn du helfen möchtest, schau dir die Issues auf %{github_link} an.",
         "github_repo_link_text": "das GitHub-Repository",
         "editor_unsupported_title": "Leider kann diese Übung nicht im Editor gelöst werden.",

@@ -1383,7 +1383,7 @@
       },
       "no_test_runner": {
         "editor_unavailable_title": "编辑器不可用。",
-        "test_runner_not_working_title": "这条学习路径或练习无法使用 Exercism 编辑器完成",
+        "test_runner_not_working_title": "这条学习路径无法使用 Exercism 编辑器完成",
         "test_runner_not_working_description_html": "这条学习路径还没有可用的测试运行器，因此编辑器已停用。我们正在努力解决这个问题。如果你想帮忙，请查看 %{github_link} 上的 Issues。",
         "github_repo_link_text": "GitHub 代码仓库",
         "editor_unsupported_title": "抱歉，这个练习无法在编辑器中完成。",
