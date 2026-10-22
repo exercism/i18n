@@ -1362,7 +1362,7 @@
       },
       "no_test_runner": {
         "editor_unavailable_title": "এডিটর পাওয়া যাচ্ছে না।",
-        "test_runner_not_working_title": "Exercism এডিটর দিয়ে এই ট্র্যাকটি সমাধান করা যায় না",
+        "test_runner_not_working_title": "Exercism এডিটর দিয়ে এই ট্র্যাকটি বা অনুশীলনীটি সমাধান করা যায় না",
         "test_runner_not_working_description_html": "এই ট্র্যাকটির জন্য এখনও কার্যকর টেস্ট রানার নেই, তাই এডিটরটি বন্ধ রাখা হয়েছে। আমরা এটি সমাধানের কাজ করছি। আপনি সাহায্য করতে চাইলে %{github_link} পেজে Issues দেখুন।",
         "github_repo_link_text": "GitHub রিপোজিটরি",
         "editor_unsupported_title": "দুঃখিত, এই অনুশীলনীটি এডিটরে সমাধান করা যায় না।",

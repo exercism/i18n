@@ -1535,7 +1535,7 @@
       },
       "no_test_runner": {
         "editor_unavailable_title": "Ο επεξεργαστής δεν είναι διαθέσιμος.",
-        "test_runner_not_working_title": "Αυτή η διαδρομή δεν μπορεί να λυθεί με τον επεξεργαστή του Exercism",
+        "test_runner_not_working_title": "Η διαδρομή ή η άσκηση δεν μπορεί να λυθεί με τον επεξεργαστή του Exercism",
         "test_runner_not_working_description_html": "Αυτή η διαδρομή δεν έχει ακόμη λειτουργικό εκτελεστή τεστ, γι’ αυτό ο επεξεργαστής είναι απενεργοποιημένος. Εργαζόμαστε για να το λύσουμε. Αν θέλεις να βοηθήσεις, δες τα Issues στο %{github_link}.",
         "github_repo_link_text": "το αποθετήριο GitHub",
         "editor_unsupported_title": "Συγγνώμη, δεν μπορείς να λύσεις αυτή την άσκηση στον επεξεργαστή.",

@@ -1454,7 +1454,7 @@
       },
       "no_test_runner": {
         "editor_unavailable_title": "에디터를 사용할 수 없어요.",
-        "test_runner_not_working_title": "이 트랙은 Exercism 에디터로 풀 수 없어요",
+        "test_runner_not_working_title": "트랙이나 연습 문제는 Exercism 에디터로 풀 수 없어요",
         "test_runner_not_working_description_html": "이 트랙에는 아직 작동하는 테스트 러너가 없어서 에디터가 비활성화되어 있어요. 지금 이 문제를 해결하기 위해 작업 중이에요. 도와주고 싶다면 %{github_link}의 이슈를 확인해 주세요.",
         "github_repo_link_text": "GitHub 저장소",
         "editor_unsupported_title": "죄송해요, 이 연습 문제는 에디터에서 풀 수 없어요.",

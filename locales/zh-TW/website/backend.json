@@ -631,7 +631,7 @@
       },
       "no_test_runner": {
         "editor_unavailable_title": "編輯器無法使用。",
-        "test_runner_not_working_title": "這個學習軌道無法用 Exercism 編輯器解題",
+        "test_runner_not_working_title": "這個學習軌道或練習無法用 Exercism 編輯器解題",
         "test_runner_not_working_description_html": "這個學習軌道還沒有可用的測試執行器，所以編輯器目前停用。我們正在設法解決這個問題。如果你願意幫忙，請看看 %{github_link} 上的 Issues。",
         "github_repo_link_text": "GitHub 儲存庫",
         "editor_unsupported_title": "抱歉，這個練習無法在編輯器裡解題。",

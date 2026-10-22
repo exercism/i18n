@@ -2012,7 +2012,7 @@
       },
       "no_test_runner": {
         "editor_unavailable_title": "Editor no disponible.",
-        "test_runner_not_working_title": "Este track no se puede resolver con el editor de Exercism",
+        "test_runner_not_working_title": "Este track o ejercicio no se puede resolver con el editor de Exercism",
         "test_runner_not_working_description_html": "Este track todavía no tiene un test runner que funcione, así que el editor está desactivado. Estamos trabajando en solucionarlo. Si quieres ayudar, echa un vistazo a las issues en %{github_link}.",
         "github_repo_link_text": "el repositorio de GitHub",
         "editor_unsupported_title": "Lo sentimos, este ejercicio no se puede resolver en el editor.",

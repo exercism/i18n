@@ -2072,7 +2072,7 @@
       },
       "no_test_runner": {
         "editor_unavailable_title": "Éditeur indisponible.",
-        "test_runner_not_working_title": "Ce parcours ne peut pas être résolu avec l'éditeur d'Exercism",
+        "test_runner_not_working_title": "Ce parcours ou cet exercice ne peut pas être résolu avec l'éditeur d'Exercism",
         "test_runner_not_working_description_html": "Ce parcours n'a pas encore d'exécuteur de tests fonctionnel, l'éditeur est donc désactivé. Nous travaillons à résoudre ce problème. Si tu souhaites aider, consulte les _issues_ sur %{github_link}.",
         "github_repo_link_text": "le dépôt GitHub",
         "editor_unsupported_title": "Désolé, cet exercice ne peut pas être résolu dans l'éditeur.",

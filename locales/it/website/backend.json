@@ -1177,7 +1177,7 @@
       },
       "no_test_runner": {
         "editor_unavailable_title": "Editor non disponibile.",
-        "test_runner_not_working_title": "Questo track non può essere risolto con l'editor di Exercism",
+        "test_runner_not_working_title": "Il track o l'esercizio non possono essere risolti con l'editor di Exercism",
         "test_runner_not_working_description_html": "Questo track non ha ancora un test runner funzionante, quindi l'editor è disattivato. Ci stiamo lavorando per risolverlo. Se vuoi dare una mano, dai un'occhiata alle Issues su %{github_link}.",
         "github_repo_link_text": "il repository GitHub",
         "editor_unsupported_title": "Ci dispiace, questo esercizio non può essere risolto nell'editor.",
