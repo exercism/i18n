@@ -215,5 +215,8 @@
   "exercise:darts:source": "靈感來自阿根廷教授 Della Paolera 所設計的練習。",
   "exercise:wordy:name": "文字題",
   "exercise:wordy:blurb": "解析並計算簡單的數學文字題，並以整數回傳答案。",
-  "exercise:wordy:source": "靈感來自 Extreme Startup 遊戲中其中一道自動產生的題目。"
+  "exercise:wordy:source": "靈感來自 Extreme Startup 遊戲中其中一道自動產生的題目。",
+  "exercise:space-age:name": "太空時代",
+  "exercise:space-age:blurb": "給定以秒為單位的年齡，計算某人在指定行星的太陽年下是幾歲。",
+  "exercise:space-age:source": "部分靈感來自 Chris Pine 線上教學《Learn to Program》的第 1 章。"
 }

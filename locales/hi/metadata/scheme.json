@@ -215,5 +215,8 @@
   "exercise:darts:source": "अर्जेंटीना में प्रोफेसर Della Paolera द्वारा बनाए गए एक अभ्यास से प्रेरित।",
   "exercise:wordy:name": "Wordy",
   "exercise:wordy:blurb": "आसान गणितीय शब्द-समस्याओं को पार्स करके हल कीजिए और उत्तर पूर्णांक के रूप में लौटाइए।",
-  "exercise:wordy:source": "Extreme Startup गेम में बनाए गए प्रश्नों में से एक से प्रेरित।"
+  "exercise:wordy:source": "Extreme Startup गेम में बनाए गए प्रश्नों में से एक से प्रेरित।",
+  "exercise:space-age:name": "अंतरिक्ष युग",
+  "exercise:space-age:blurb": "सेकंड में दी गई आयु को देखते हुए गणना कीजिए कि कोई व्यक्ति किसी दिए गए ग्रह के सौर वर्षों के हिसाब से कितने साल का है।",
+  "exercise:space-age:source": "Chris Pine के ऑनलाइन Learn to Program ट्यूटोरियल के अध्याय 1 से आंशिक रूप से प्रेरित।"
 }

@@ -281,6 +281,12 @@ This page is generated from [the index](../../json/zh-TW/scheme.json) by `script
   - [`085c0a57d9`](../../../locales/zh-TW/content/08/5c/0a57d96c7cd846a7948241899ce46778f01d.md)
 - `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/sieve/.docs/introduction.md)): [Latest](../../../locales/zh-TW/content/f6/c1/cf79a9d4ccf67f1ed34dabb8ab0a58030358.md)
 
+### Space Age (太空時代)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/space-age/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/f2/3b/5e2c1fee01d8283d5399594d9324bd35e2f4.md)
+- `instructions.append.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/space-age/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/04/79/d5cca62c783eb7bc634a591fe85e5ea62435.md)
+- `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/space-age/.docs/introduction.md)): [Latest](../../../locales/zh-TW/content/01/4d/78857c784d435eefd1b428aab209c2f2d7b1.md)
+
 ### Square Root (平方根)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/square-root/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/d2/58/b86876e35a1553677ed6a7cb068f27cf1aba.md)

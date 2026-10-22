@@ -215,5 +215,8 @@
   "exercise:darts:source": "Egy Argentínában Della Paolera professzor által készített feladat ihlette",
   "exercise:wordy:name": "Szószátyár",
   "exercise:wordy:blurb": "Elemezz és értékelj ki egyszerű szöveges matematikai feladatokat, és add vissza a választ egész számként.",
-  "exercise:wordy:source": "A Extreme Startup játék egyik generált kérdése ihlette."
+  "exercise:wordy:source": "A Extreme Startup játék egyik generált kérdése ihlette.",
+  "exercise:space-age:name": "Űrkorszak",
+  "exercise:space-age:blurb": "Adott egy életkor másodpercben; számítsd ki, hány éves valaki egy adott bolygó napéveiben.",
+  "exercise:space-age:source": "Részben Chris Pine Learn to Program online oktatóanyagának 1. fejezete ihlette."
 }

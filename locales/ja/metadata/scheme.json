@@ -215,5 +215,8 @@
   "exercise:darts:source": "アルゼンチンのDella Paolera教授が作った演習に着想を得たものです。",
   "exercise:wordy:name": "Wordy",
   "exercise:wordy:blurb": "簡単な数学の文章題を解析して評価し、答えを整数として返します。",
-  "exercise:wordy:source": "Extreme Startupゲームで生成された問題の1つに着想を得たもの"
+  "exercise:wordy:source": "Extreme Startupゲームで生成された問題の1つに着想を得たもの",
+  "exercise:space-age:name": "宇宙の年齢",
+  "exercise:space-age:blurb": "秒単位の年齢が与えられたとき、ある惑星の公転年でその人が何歳になるかを計算します。",
+  "exercise:space-age:source": "Chris Pineのオンラインチュートリアル『Learn to Program』の第1章から一部着想を得ています。"
 }

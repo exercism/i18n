@@ -215,5 +215,8 @@
   "exercise:darts:source": "Ispirato a un esercizio creato dal professor Della Paolera in Argentina",
   "exercise:wordy:name": "Parolaio",
   "exercise:wordy:blurb": "Analizza e risolvi semplici problemi matematici espressi a parole, restituendo la risposta come numero intero.",
-  "exercise:wordy:source": "Ispirato a una delle domande generate nel gioco Extreme Startup."
+  "exercise:wordy:source": "Ispirato a una delle domande generate nel gioco Extreme Startup.",
+  "exercise:space-age:name": "Era spaziale",
+  "exercise:space-age:blurb": "Data un'età in secondi, calcola quanti anni ha qualcuno in anni solari di un dato pianeta.",
+  "exercise:space-age:source": "Parzialmente ispirato al Capitolo 1 del tutorial online Learn to Program di Chris Pine."
 }

@@ -215,5 +215,8 @@
   "exercise:darts:source": "الهام‌گرفته از تمرینی که پروفسور Della Paolera در آرژانتین ساخته است",
   "exercise:wordy:name": "پرحرف",
   "exercise:wordy:blurb": "مسئله‌های کلامی ساده‌ی ریاضی را تجزیه و ارزیابی کنید و پاسخ را به‌صورت یک عدد صحیح برگردانید.",
-  "exercise:wordy:source": "با الهام از یکی از پرسش‌های تولیدشده در بازی Extreme Startup."
+  "exercise:wordy:source": "با الهام از یکی از پرسش‌های تولیدشده در بازی Extreme Startup.",
+  "exercise:space-age:name": "عصر فضا",
+  "exercise:space-age:blurb": "اگر سن یک نفر بر حسب ثانیه داده شود، محاسبه کنید که او بر حسب سال‌های خورشیدی یک سیاره‌ی مشخص چند سال دارد.",
+  "exercise:space-age:source": "تا حدی با الهام از فصل ۱ از آموزش آنلاین Learn to Program نوشته‌ی Chris Pine."
 }

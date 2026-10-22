@@ -215,5 +215,8 @@
   "exercise:darts:source": "مستوحى من تمرين أنشأه البروفيسور Della Paolera في الأرجنتين",
   "exercise:wordy:name": "اللفظي",
   "exercise:wordy:blurb": "حلّل مسائل رياضية كلامية بسيطة وقيّمها، مع إرجاع الإجابة كعدد صحيح.",
-  "exercise:wordy:source": "مستوحى من أحد الأسئلة المولَّدة في لعبة Extreme Startup."
+  "exercise:wordy:source": "مستوحى من أحد الأسئلة المولَّدة في لعبة Extreme Startup.",
+  "exercise:space-age:name": "عصر الفضاء",
+  "exercise:space-age:blurb": "بمعلومية عمر بالثواني، احسب عمر شخص ما بدلالة السنوات الشمسية لكوكب معطى.",
+  "exercise:space-age:source": "مستوحى جزئيًا من الفصل 1 في درس Chris Pine التفاعلي Learn to Program."
 }

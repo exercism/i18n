@@ -215,5 +215,8 @@
   "exercise:darts:source": "Inspiré par un exercice créé par un professeur Della Paolera en Argentine",
   "exercise:wordy:name": "Bavard",
   "exercise:wordy:blurb": "Analyse et évalue de simples problèmes mathématiques énoncés en mots, et renvoie la réponse sous forme d'entier.",
-  "exercise:wordy:source": "Inspiré par l'une des questions générées dans le jeu Extreme Startup."
+  "exercise:wordy:source": "Inspiré par l'une des questions générées dans le jeu Extreme Startup.",
+  "exercise:space-age:name": "Ère spatiale",
+  "exercise:space-age:blurb": "À partir d'un âge en secondes, calcule quel âge aurait une personne en années solaires sur une planète donnée.",
+  "exercise:space-age:source": "Partiellement inspiré par le chapitre 1 du tutoriel en ligne Learn to Program de Chris Pine."
 }

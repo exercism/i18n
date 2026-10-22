@@ -215,5 +215,8 @@
   "exercise:darts:source": "아르헨티나의 Della Paolera 교수가 만든 연습 문제에서 영감을 받았어요.",
   "exercise:wordy:name": "문장제",
   "exercise:wordy:blurb": "간단한 수학 문장제를 분석하고 계산해 답을 정수로 반환해요.",
-  "exercise:wordy:source": "Extreme Startup 게임에 나오는 생성된 질문 중 하나에서 착안했어요."
+  "exercise:wordy:source": "Extreme Startup 게임에 나오는 생성된 질문 중 하나에서 착안했어요.",
+  "exercise:space-age:name": "우주 시대",
+  "exercise:space-age:blurb": "초 단위의 나이가 주어지면, 주어진 행성의 태양년 기준으로 나이를 계산해요.",
+  "exercise:space-age:source": "Chris Pine의 온라인 Learn to Program 튜토리얼 1장에서 부분적으로 영감을 받았어요."
 }

@@ -215,5 +215,8 @@
   "exercise:darts:source": "Inspiriert von einer Übung, die Professor Della Paolera in Argentinien erstellt hat.",
   "exercise:wordy:name": "Wortreich",
   "exercise:wordy:blurb": "Zerlege und werte einfache mathematische Textaufgaben aus und gib die Antwort als Ganzzahl zurück.",
-  "exercise:wordy:source": "Inspiriert von einer der generierten Fragen im Spiel Extreme Startup."
+  "exercise:wordy:source": "Inspiriert von einer der generierten Fragen im Spiel Extreme Startup.",
+  "exercise:space-age:name": "Weltraumzeitalter",
+  "exercise:space-age:blurb": "Berechne aus einem Alter in Sekunden, wie alt jemand in Sonnenjahren eines gegebenen Planeten ist.",
+  "exercise:space-age:source": "Teilweise inspiriert von Kapitel 1 in Chris Pines Online-Tutorial Learn to Program."
 }

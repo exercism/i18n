@@ -215,5 +215,8 @@
   "exercise:darts:source": "За мотивами вправи, створеної професором Делла Паолера в Аргентині",
   "exercise:wordy:name": "Wordy",
   "exercise:wordy:blurb": "Розберіть і обчисліть прості математичні задачі, подані словами, повертаючи відповідь як ціле число.",
-  "exercise:wordy:source": "За мотивами одного із згенерованих запитань у грі Extreme Startup."
+  "exercise:wordy:source": "За мотивами одного із згенерованих запитань у грі Extreme Startup.",
+  "exercise:space-age:name": "Космічний вік",
+  "exercise:space-age:blurb": "Дано вік у секундах, обчисліть, скільки років людині за сонячними роками заданої планети.",
+  "exercise:space-age:source": "Частково за мотивами розділу 1 з онлайн-туторіалу Learn to Program від Chris Pine."
 }
