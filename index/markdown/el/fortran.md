@@ -212,7 +212,8 @@ This page is generated from [the index](../../json/el/fortran.json) by `scripts/
 
 ### MAINTAINERS.md
 
-- `MAINTAINERS.md` ([English](https://github.com/exercism/fortran/blob/main/docs/MAINTAINERS.md)): [Latest](../../../locales/el/content/fa/65/43e0d1ebced833fe2625da31f5d6917424a7.md)
+- `MAINTAINERS.md` ([English](https://github.com/exercism/fortran/blob/main/docs/MAINTAINERS.md)): [Latest](../../../locales/el/content/7c/4e/ad146efe91e641f802e52750c71266f0ceed.md)
+  - [`fa6543e0d1`](../../../locales/el/content/fa/65/43e0d1ebced833fe2625da31f5d6917424a7.md)
 
 ### Testing on the Fortran track (Δοκιμές στο track της Fortran)
 
