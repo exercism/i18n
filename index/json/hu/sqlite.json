@@ -46,7 +46,7 @@
     "exercises/practice/meetup": {"en":"Meetup","hu":"Találkozó"},
     "exercises/practice/nucleotide-count": {"en":"Nucleotide Count","hu":"Nukleotidszámlálás"},
     "exercises/practice/ocr-numbers": {"en":"OCR Numbers","hu":"OCR-számok"},
-    "exercises/practice/pangram": {"en":"Pangram","hu":"Pangram"},
+    "exercises/practice/pangram": {"en":"Pangram","hu":"Pangramma"},
     "exercises/practice/pascals-triangle": {"en":"Pascal's Triangle","hu":"Pascal-háromszög"},
     "exercises/practice/perfect-numbers": {"en":"Perfect Numbers","hu":"Tökéletes számok"},
     "exercises/practice/phone-number": {"en":"Phone Number","hu":"Telefonszám"},
@@ -90,7 +90,7 @@
   },
   "paths": {
     "docs/ABOUT.md": ["f96dfe044d8ccfe2f18b9feaa9a75c82d1d04658"],
-    "docs/INSTALLATION.md": ["e352231edd429228dd63a2d06d4854ae60ac0f0b"],
+    "docs/INSTALLATION.md": ["8a90501a33b81b2fa3eac30c86ba2c366d263f03","e352231edd429228dd63a2d06d4854ae60ac0f0b"],
     "docs/LEARNING.md": ["eeda1159dcd0028a83f0e06b0b198ffd5f00ae08"],
     "docs/RESOURCES.md": ["9b1937e6b34fd10bb85115ff4d1c72dc5bd6d255"],
     "docs/TESTS.md": ["effcae98518313344cc757e0e9b0a46b2c5095f0"],

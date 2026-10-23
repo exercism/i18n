@@ -405,7 +405,8 @@ This page is generated from [the index](../../json/el/sqlite.json) by `scripts/b
 
 ### Installing SQLite locally (Εγκατάσταση του SQLite τοπικά)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/sqlite/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/el/content/e3/52/231edd429228dd63a2d06d4854ae60ac0f0b.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/sqlite/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/el/content/8a/90/501a33b81b2fa3eac30c86ba2c366d263f03.md)
+  - [`e352231edd`](../../../locales/el/content/e3/52/231edd429228dd63a2d06d4854ae60ac0f0b.md)
 
 ### Testing on the SQLite track (Δοκιμές στη διαδρομή SQLite)
 

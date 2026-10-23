@@ -405,7 +405,8 @@ This page is generated from [the index](../../json/zh-TW/sqlite.json) by `script
 
 ### Installing SQLite locally (在本機安裝 SQLite)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/sqlite/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/zh-TW/content/e3/52/231edd429228dd63a2d06d4854ae60ac0f0b.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/sqlite/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/zh-TW/content/8a/90/501a33b81b2fa3eac30c86ba2c366d263f03.md)
+  - [`e352231edd`](../../../locales/zh-TW/content/e3/52/231edd429228dd63a2d06d4854ae60ac0f0b.md)
 
 ### Testing on the SQLite track (在 SQLite 學習路徑上測試)
 

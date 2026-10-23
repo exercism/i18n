@@ -208,7 +208,7 @@ This page is generated from [the index](../../json/hu/sqlite.json) by `scripts/b
   - [`7beb257795`](../../../locales/hu/content/7b/eb/257795750af8a41226dc35558924106c5657.md)
 - `introduction.md` ([English](https://github.com/exercism/sqlite/blob/main/exercises/practice/ocr-numbers/.docs/introduction.md)): [Latest](../../../locales/hu/content/36/6d/76062c7f4620198bfa95f32a8341b17493c4.md)
 
-### Pangram
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/sqlite/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
 - `introduction.md` ([English](https://github.com/exercism/sqlite/blob/main/exercises/practice/pangram/.docs/introduction.md)): [Latest](../../../locales/hu/content/32/b6/f1fc3178c36f2677b2d7bbeb35bafd6c786d.md)
@@ -417,7 +417,8 @@ This page is generated from [the index](../../json/hu/sqlite.json) by `scripts/b
 
 ### Installing SQLite locally (Az SQLite helyi telepítése)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/sqlite/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/hu/content/e3/52/231edd429228dd63a2d06d4854ae60ac0f0b.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/sqlite/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/hu/content/8a/90/501a33b81b2fa3eac30c86ba2c366d263f03.md)
+  - [`e352231edd`](../../../locales/hu/content/e3/52/231edd429228dd63a2d06d4854ae60ac0f0b.md)
 
 ### Testing on the SQLite track (Tesztelés az SQLite-kurzuson)
 

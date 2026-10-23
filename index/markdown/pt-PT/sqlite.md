@@ -405,7 +405,8 @@ This page is generated from [the index](../../json/pt-PT/sqlite.json) by `script
 
 ### Installing SQLite locally (Instalar o SQLite localmente)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/sqlite/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/pt-PT/content/e3/52/231edd429228dd63a2d06d4854ae60ac0f0b.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/sqlite/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/pt-PT/content/8a/90/501a33b81b2fa3eac30c86ba2c366d263f03.md)
+  - [`e352231edd`](../../../locales/pt-PT/content/e3/52/231edd429228dd63a2d06d4854ae60ac0f0b.md)
 
 ### Testing on the SQLite track (Testar no percurso de SQLite)
 
