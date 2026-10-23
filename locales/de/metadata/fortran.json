@@ -133,5 +133,8 @@
   "doc:tests:title": "Testen im Fortran-Track",
   "doc:tests:blurb": "Lerne, wie du deine Fortran-Übungen auf Exercism testest",
   "doc:resources:title": "Nützliche Fortran-Ressourcen",
-  "doc:resources:blurb": "Eine Sammlung nützlicher Ressourcen, mit denen du Fortran meistern kannst"
+  "doc:resources:blurb": "Eine Sammlung nützlicher Ressourcen, mit denen du Fortran meistern kannst",
+  "exercise:anagram:name": "Anagramm",
+  "exercise:anagram:blurb": "Finde die Wörter, die dieselben Buchstaben wie ein anderes Wort verwenden.",
+  "exercise:anagram:source": "Inspiriert vom Spiel Extreme Startup"
 }

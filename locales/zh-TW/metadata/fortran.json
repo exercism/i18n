@@ -133,5 +133,8 @@
   "doc:tests:title": "在 Fortran 軌道上測試",
   "doc:tests:blurb": "了解如何在 Exercism 上測試你的 Fortran 練習。",
   "doc:resources:title": "實用的 Fortran 資源",
-  "doc:resources:blurb": "收錄實用資源，幫助你精通 Fortran。"
+  "doc:resources:blurb": "收錄實用資源，幫助你精通 Fortran。",
+  "exercise:anagram:name": "變位詞",
+  "exercise:anagram:blurb": "找出與另一個詞使用相同字母的詞。",
+  "exercise:anagram:source": "靈感來自 Extreme Startup 這款遊戲"
 }

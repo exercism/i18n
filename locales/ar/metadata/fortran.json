@@ -133,5 +133,8 @@
   "doc:tests:title": "الاختبار في مسار Fortran",
   "doc:tests:blurb": "تعلّم كيفية اختبار تمارين Fortran على Exercism",
   "doc:resources:title": "مصادر مفيدة عن Fortran",
-  "doc:resources:blurb": "مجموعة من المصادر المفيدة التي تساعدك على إتقان Fortran"
+  "doc:resources:blurb": "مجموعة من المصادر المفيدة التي تساعدك على إتقان Fortran",
+  "exercise:anagram:name": "الأناغرام",
+  "exercise:anagram:blurb": "ابحث عن الكلمات التي تتكوّن من الحروف نفسها التي تتكوّن منها كلمة أخرى.",
+  "exercise:anagram:source": "مستوحى من لعبة Extreme Startup"
 }

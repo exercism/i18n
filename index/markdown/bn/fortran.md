@@ -16,6 +16,11 @@ This page is generated from [the index](../../json/bn/fortran.json) by `scripts/
 
 - `instructions.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/practice/allergies/.docs/instructions.md)): [Latest](../../../locales/bn/content/da/f8/cfde214667c949800c801fafecaa053efa0e.md)
 
+### Anagram (অ্যানাগ্রাম)
+
+- `instructions.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/practice/anagram/.docs/instructions.md)): [Latest](../../../locales/bn/content/dc/a2/4f52627e3ba6b999322fb89d8c686c3ec634.md)
+- `introduction.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/practice/anagram/.docs/introduction.md)): [Latest](../../../locales/bn/content/1a/cb/df00b059f44fb4ce4c00be743d24eda86d60.md)
+
 ### Armstrong Numbers (আর্মস্ট্রং সংখ্যা)
 
 - `instructions.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/practice/armstrong-numbers/.docs/instructions.md)): [Latest](../../../locales/bn/content/5e/56/bbe4656fc837237e9d778b2d0d614554330b.md)

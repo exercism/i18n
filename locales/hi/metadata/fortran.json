@@ -133,5 +133,8 @@
   "doc:tests:title": "Fortran ट्रैक पर जाँच",
   "doc:tests:blurb": "Exercism पर अपने Fortran अभ्यासों को जाँचना सीखिए",
   "doc:resources:title": "उपयोगी Fortran संसाधन",
-  "doc:resources:blurb": "Fortran में महारत हासिल करने में आपकी मदद करने वाले उपयोगी संसाधनों का संग्रह"
+  "doc:resources:blurb": "Fortran में महारत हासिल करने में आपकी मदद करने वाले उपयोगी संसाधनों का संग्रह",
+  "exercise:anagram:name": "विपर्यय",
+  "exercise:anagram:blurb": "वे शब्द ढूँढिए जो किसी दूसरे शब्द के वही अक्षर इस्तेमाल करते हैं।",
+  "exercise:anagram:source": "Extreme Startup गेम से प्रेरित"
 }

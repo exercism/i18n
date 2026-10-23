@@ -133,5 +133,8 @@
   "doc:tests:title": "Fortran ট্র্যাকে পরীক্ষা করা",
   "doc:tests:blurb": "Exercism-এ আপনার Fortran অনুশীলনীগুলো পরীক্ষা করার পদ্ধতি শিখুন",
   "doc:resources:title": "দরকারি Fortran রিসোর্স",
-  "doc:resources:blurb": "Fortran-এ দক্ষ হয়ে উঠতে সহায়ক দরকারি রিসোর্সের সংগ্রহ"
+  "doc:resources:blurb": "Fortran-এ দক্ষ হয়ে উঠতে সহায়ক দরকারি রিসোর্সের সংগ্রহ",
+  "exercise:anagram:name": "অ্যানাগ্রাম",
+  "exercise:anagram:blurb": "অন্য একটি শব্দের মতো একই অক্ষর ব্যবহার করে এমন শব্দগুলো খুঁজে বের করুন।",
+  "exercise:anagram:source": "Extreme Startup গেম থেকে অনুপ্রাণিত"
 }

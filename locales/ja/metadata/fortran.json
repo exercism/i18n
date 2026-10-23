@@ -133,5 +133,8 @@
   "doc:tests:title": "Fortranトラックでのテスト",
   "doc:tests:blurb": "ExercismでFortranの演習をテストする方法を学びます",
   "doc:resources:title": "Fortran学習に役立つリソース",
-  "doc:resources:blurb": "Fortranをマスターするのに役立つリソース集"
+  "doc:resources:blurb": "Fortranをマスターするのに役立つリソース集",
+  "exercise:anagram:name": "アナグラム",
+  "exercise:anagram:blurb": "別の単語と同じ文字を使う単語を見つけてください。",
+  "exercise:anagram:source": "Extreme Startupゲームに着想を得たもの"
 }

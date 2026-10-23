@@ -18,6 +18,11 @@ This page is generated from [the index](../../json/hu/fortran.json) by `scripts/
 - `instructions.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/practice/allergies/.docs/instructions.md)): [Latest](../../../locales/hu/content/da/f8/cfde214667c949800c801fafecaa053efa0e.md)
   - [`b8bbd5a3f5`](../../../locales/hu/content/b8/bb/d5a3f5a4a0cbef4c8e44f2403512e0635537.md)
 
+### Anagram (Anagramma)
+
+- `instructions.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/practice/anagram/.docs/instructions.md)): [Latest](../../../locales/hu/content/dc/a2/4f52627e3ba6b999322fb89d8c686c3ec634.md)
+- `introduction.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/practice/anagram/.docs/introduction.md)): [Latest](../../../locales/hu/content/1a/cb/df00b059f44fb4ce4c00be743d24eda86d60.md)
+
 ### Armstrong Numbers (Armstrong-számok)
 
 - `instructions.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/practice/armstrong-numbers/.docs/instructions.md)): [Latest](../../../locales/hu/content/5e/56/bbe4656fc837237e9d778b2d0d614554330b.md)
@@ -128,7 +133,7 @@ This page is generated from [the index](../../json/hu/fortran.json) by `scripts/
 - `instructions.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/practice/nth-prime/.docs/instructions.md)): [Latest](../../../locales/hu/content/06/5e/323ab2ca1bcfdd97c52d8051605b4872f94a.md)
   - [`30a75216fd`](../../../locales/hu/content/30/a7/5216fd5395e4b31a69b3bf00c2e4d4acb189.md)
 
-### Pangram
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
   - [`d5698bc2a2`](../../../locales/hu/content/d5/69/8bc2a292baf2fb128de3543b748165088c4f.md)

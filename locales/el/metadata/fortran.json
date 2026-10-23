@@ -133,5 +133,8 @@
   "doc:tests:title": "Δοκιμές στο track της Fortran",
   "doc:tests:blurb": "Μάθε πώς να δοκιμάζεις τις ασκήσεις σου σε Fortran στο Exercism.",
   "doc:resources:title": "Χρήσιμοι πόροι για τη Fortran",
-  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων που θα σε βοηθήσουν να κατακτήσεις τη Fortran."
+  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων που θα σε βοηθήσουν να κατακτήσεις τη Fortran.",
+  "exercise:anagram:name": "Ανάγραμμα",
+  "exercise:anagram:blurb": "Βρες τις λέξεις που χρησιμοποιούν τα ίδια γράμματα με μια άλλη λέξη.",
+  "exercise:anagram:source": "Εμπνευσμένο από το παιχνίδι Extreme Startup"
 }

@@ -133,5 +133,8 @@
   "doc:tests:title": "تست در مسیر Fortran",
   "doc:tests:blurb": "بیاموزید چگونه تمرین‌های Fortran خود را در Exercism تست کنید.",
   "doc:resources:title": "منابع مفید Fortran",
-  "doc:resources:blurb": "مجموعه‌ای از منابع مفید برای کمک به شما در تسلط بر Fortran."
+  "doc:resources:blurb": "مجموعه‌ای از منابع مفید برای کمک به شما در تسلط بر Fortran.",
+  "exercise:anagram:name": "آناگرام",
+  "exercise:anagram:blurb": "واژه‌هایی را پیدا کنید که از همان حروف یک واژه‌ی دیگر ساخته شده‌اند.",
+  "exercise:anagram:source": "با الهام از بازی Extreme Startup"
 }

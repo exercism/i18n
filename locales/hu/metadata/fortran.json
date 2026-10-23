@@ -133,5 +133,8 @@
   "doc:tests:title": "Tesztelés a Fortran-kurzuson",
   "doc:tests:blurb": "Tanuld meg, hogyan tesztelheted a Fortran-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Fortran-források",
-  "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Fortrant"
+  "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Fortrant",
+  "exercise:anagram:name": "Anagramma",
+  "exercise:anagram:blurb": "Keresd meg azokat a szavakat, amelyek ugyanazokat a betűket használják, mint egy másik szó.",
+  "exercise:anagram:source": "Az Extreme Startup játék ihlette"
 }

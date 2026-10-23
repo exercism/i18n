@@ -133,5 +133,8 @@
   "doc:tests:title": "Les tests sur le parcours Fortran",
   "doc:tests:blurb": "Apprends à tester tes exercices Fortran sur Exercism",
   "doc:resources:title": "Ressources utiles pour Fortran",
-  "doc:resources:blurb": "Une sélection de ressources utiles pour t'aider à maîtriser Fortran"
+  "doc:resources:blurb": "Une sélection de ressources utiles pour t'aider à maîtriser Fortran",
+  "exercise:anagram:name": "Anagramme",
+  "exercise:anagram:blurb": "Trouve les mots qui utilisent les mêmes lettres qu'un autre mot.",
+  "exercise:anagram:source": "Inspiré du jeu Extreme Startup"
 }
