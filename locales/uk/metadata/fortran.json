@@ -136,5 +136,7 @@
   "doc:resources:blurb": "Добірка корисних ресурсів, які допоможуть опанувати Fortran",
   "exercise:anagram:name": "Анаграма",
   "exercise:anagram:blurb": "Знайдіть слова, які використовують ті самі літери, що й інше слово.",
-  "exercise:anagram:source": "За мотивами гри Extreme Startup"
+  "exercise:anagram:source": "За мотивами гри Extreme Startup",
+  "exercise:all-your-base:name": "All Your Base",
+  "exercise:all-your-base:blurb": "Перетворіть число, подане як послідовність цифр в одній основі, на будь-яку іншу основу."
 }

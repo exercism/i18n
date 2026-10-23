@@ -136,5 +136,7 @@
   "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων που θα σε βοηθήσουν να κατακτήσεις τη Fortran.",
   "exercise:anagram:name": "Ανάγραμμα",
   "exercise:anagram:blurb": "Βρες τις λέξεις που χρησιμοποιούν τα ίδια γράμματα με μια άλλη λέξη.",
-  "exercise:anagram:source": "Εμπνευσμένο από το παιχνίδι Extreme Startup"
+  "exercise:anagram:source": "Εμπνευσμένο από το παιχνίδι Extreme Startup",
+  "exercise:all-your-base:name": "All Your Base",
+  "exercise:all-your-base:blurb": "Μετέτρεψε έναν αριθμό, που αναπαρίσταται ως ακολουθία ψηφίων σε μια βάση, σε οποιαδήποτε άλλη βάση."
 }

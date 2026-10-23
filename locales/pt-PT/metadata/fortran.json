@@ -136,5 +136,7 @@
   "doc:resources:blurb": "Uma coleção de recursos úteis para te ajudar a dominar o Fortran",
   "exercise:anagram:name": "Anagrama",
   "exercise:anagram:blurb": "Encontra as palavras que usam as mesmas letras que outra palavra.",
-  "exercise:anagram:source": "Inspirado no jogo Extreme Startup"
+  "exercise:anagram:source": "Inspirado no jogo Extreme Startup",
+  "exercise:all-your-base:name": "All Your Base",
+  "exercise:all-your-base:blurb": "Converte um número, representado como uma sequência de algarismos numa base, para qualquer outra base."
 }

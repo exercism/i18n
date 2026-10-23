@@ -136,5 +136,7 @@
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Fortrant",
   "exercise:anagram:name": "Anagramma",
   "exercise:anagram:blurb": "Keresd meg azokat a szavakat, amelyek ugyanazokat a betűket használják, mint egy másik szó.",
-  "exercise:anagram:source": "Az Extreme Startup játék ihlette"
+  "exercise:anagram:source": "Az Extreme Startup játék ihlette",
+  "exercise:all-your-base:name": "All Your Base",
+  "exercise:all-your-base:blurb": "Alakíts át egy számot, amely egy adott számrendszer számjegyeinek sorozataként áll elő, bármely más számrendszerbe."
 }

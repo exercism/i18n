@@ -12,6 +12,11 @@ This page is generated from [the index](../../json/zh-CN/fortran.json) by `scrip
 
 - `instructions.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/practice/acronym/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/13/3b/d2cbb78d186c92e5d2b8ca41cf13f77d6bea.md)
 
+### All Your Base
+
+- `instructions.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/practice/all-your-base/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/1b/68/8b6915eb31f5ee6c3b67d2803024a353806e.md)
+- `introduction.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/practice/all-your-base/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/68/aa/ffbed953c276623458752955558a09819203.md)
+
 ### Allergies (过敏)
 
 - `instructions.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/practice/allergies/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/da/f8/cfde214667c949800c801fafecaa053efa0e.md)

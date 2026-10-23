@@ -136,5 +136,7 @@
   "doc:resources:blurb": "一系列有用的资源，助你精通 Fortran",
   "exercise:anagram:name": "变位词",
   "exercise:anagram:blurb": "找出与另一个单词使用相同字母的单词。",
-  "exercise:anagram:source": "灵感来自 Extreme Startup 游戏"
+  "exercise:anagram:source": "灵感来自 Extreme Startup 游戏",
+  "exercise:all-your-base:name": "All Your Base",
+  "exercise:all-your-base:blurb": "把一个用某种进制的数字序列表示的数转换成任意其他进制。"
 }

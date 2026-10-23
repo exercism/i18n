@@ -136,5 +136,7 @@
   "doc:resources:blurb": "مجموعة من المصادر المفيدة التي تساعدك على إتقان Fortran",
   "exercise:anagram:name": "الأناغرام",
   "exercise:anagram:blurb": "ابحث عن الكلمات التي تتكوّن من الحروف نفسها التي تتكوّن منها كلمة أخرى.",
-  "exercise:anagram:source": "مستوحى من لعبة Extreme Startup"
+  "exercise:anagram:source": "مستوحى من لعبة Extreme Startup",
+  "exercise:all-your-base:name": "All Your Base",
+  "exercise:all-your-base:blurb": "حوّل عددًا، ممثَّلًا كتسلسل من الأرقام في أساس ما، إلى أي أساس آخر."
 }
