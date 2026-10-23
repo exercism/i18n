@@ -569,5 +569,9 @@
   "doc:roadmap:blurb": "Go 赛道未来开发的优先事项",
   "exercise:resistor-color-tolerance:name": "电阻色环容差",
   "exercise:resistor-color-tolerance:blurb": "把电阻上不同色环所用的色码转换成人类可读的标签。",
-  "exercise:resistor-color-tolerance:source": "@meatball133"
+  "exercise:resistor-color-tolerance:source": "@meatball133",
+  "exercise:sql-builder:name": "SQL 构建器",
+  "concept:strings-builder:name": "Strings Builder",
+  "exercise:sql-builder:blurb": "学习如何使用 strings.Builder 从各个组件高效地拼接 SQL 查询字符串。",
+  "concept:strings-builder:blurb": "标准库的 `strings` 包中包含 `Builder` 类型，可以用它高效地构建字符串。"
 }

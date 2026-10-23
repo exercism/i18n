@@ -569,5 +569,9 @@
   "concept:strings:blurb": "السلسلة النصية في Go تسلسل ثابت من البايتات، وقد لا تمثّل هذه البايتات أحرفًا بالضرورة.",
   "exercise:resistor-color-tolerance:name": "سماحية ألوان المقاومة",
   "exercise:resistor-color-tolerance:blurb": "حوّل أكواد الألوان المستخدمة في المقاومات ذات الأشرطة المختلفة إلى تسمية يمكن للبشر قراءتها.",
-  "exercise:resistor-color-tolerance:source": "@meatball133"
+  "exercise:resistor-color-tolerance:source": "@meatball133",
+  "exercise:sql-builder:name": "باني SQL",
+  "concept:strings-builder:name": "باني السلاسل النصية",
+  "exercise:sql-builder:blurb": "تعلّم كيف تبني سلاسل استعلامات SQL من مكوّنات بكفاءة باستخدام `strings.Builder`.",
+  "concept:strings-builder:blurb": "تتضمن حزمة `strings` في المكتبة القياسية النوع `Builder`، الذي يُستخدم لبناء السلاسل النصية بكفاءة."
 }

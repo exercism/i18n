@@ -569,5 +569,9 @@
   "concept:strings:blurb": "Go में स्ट्रिंग बाइट्स का एक अपरिवर्तनीय क्रम होती है, और यह ज़रूरी नहीं कि वह अक्षरों को दर्शाए।",
   "exercise:resistor-color-tolerance:name": "प्रतिरोधक रंग सहनशीलता",
   "exercise:resistor-color-tolerance:blurb": "रेज़िस्टरों पर अलग-अलग बैंडों के साथ इस्तेमाल होने वाले रंग कोडों को मनुष्य के पढ़ने लायक लेबल में बदलिए।",
-  "exercise:resistor-color-tolerance:source": "@meatball133"
+  "exercise:resistor-color-tolerance:source": "@meatball133",
+  "exercise:sql-builder:name": "SQL बिल्डर",
+  "concept:strings-builder:name": "स्ट्रिंग बिल्डर",
+  "exercise:sql-builder:blurb": "कंपोनेंट से SQL क्वेरी स्ट्रिंग कुशलता से बनाने के लिए strings.Builder का उपयोग करना सीखिए।",
+  "concept:strings-builder:blurb": "स्टैंडर्ड लाइब्रेरी के `strings` पैकेज में `Builder` टाइप शामिल है, जिसका उपयोग स्ट्रिंग को कुशलता से बनाने के लिए किया जाता है।"
 }

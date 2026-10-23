@@ -571,5 +571,9 @@
   "concept:slices:blurb": "Τα slices είναι λίστες στοιχείων του ίδιου τύπου.",
   "exercise:resistor-color-tolerance:name": "Ανοχή Χρώματος Αντίστασης",
   "exercise:resistor-color-tolerance:blurb": "Μετάτρεψε τους χρωματικούς κωδικούς που χρησιμοποιούνται σε αντιστάσεις με διαφορετικές ζώνες σε μια ευανάγνωστη ετικέτα.",
-  "exercise:resistor-color-tolerance:source": "@meatball133"
+  "exercise:resistor-color-tolerance:source": "@meatball133",
+  "exercise:sql-builder:name": "SQL Builder",
+  "concept:strings-builder:name": "Strings Builder",
+  "exercise:sql-builder:blurb": "Μάθε να κατασκευάζεις αποδοτικά συμβολοσειρές ερωτημάτων SQL από επιμέρους τμήματα, χρησιμοποιώντας το strings.Builder.",
+  "concept:strings-builder:blurb": "Το πακέτο `strings` της βασικής βιβλιοθήκης περιλαμβάνει τον τύπο `Builder`, ο οποίος χρησιμοποιείται για την αποδοτική κατασκευή συμβολοσειρών."
 }

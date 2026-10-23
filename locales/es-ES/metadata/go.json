@@ -569,5 +569,9 @@
   "concept:strings:blurb": "Un string en Go es una secuencia inmutable de bytes que no tiene por qué representar caracteres.",
   "exercise:resistor-color-tolerance:name": "Tolerancia de color de la resistencia",
   "exercise:resistor-color-tolerance:blurb": "Convierte los códigos de color que se usan en las resistencias con distintas bandas en una etiqueta legible para las personas.",
-  "exercise:resistor-color-tolerance:source": "@meatball133"
+  "exercise:resistor-color-tolerance:source": "@meatball133",
+  "exercise:sql-builder:name": "Constructor de SQL",
+  "concept:strings-builder:name": "Constructor de strings",
+  "exercise:sql-builder:blurb": "Aprende a construir de forma eficiente strings de consulta SQL a partir de componentes usando strings.Builder.",
+  "concept:strings-builder:blurb": "El paquete `strings` de la biblioteca estándar incluye el tipo `Builder`, que se usa para construir strings de forma eficiente."
 }

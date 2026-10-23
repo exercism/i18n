@@ -571,5 +571,9 @@
   "concept:runes:blurb": "Les runes représentent les caractères Unicode dans les chaînes de caractères Go.",
   "exercise:resistor-color-tolerance:name": "Tolérance des couleurs de résistance",
   "exercise:resistor-color-tolerance:blurb": "Convertis les codes couleur utilisés sur les résistances à plusieurs bandes en une étiquette lisible par un humain.",
-  "exercise:resistor-color-tolerance:source": "@meatball133"
+  "exercise:resistor-color-tolerance:source": "@meatball133",
+  "exercise:sql-builder:name": "SQL Builder",
+  "concept:strings-builder:name": "Strings Builder",
+  "exercise:sql-builder:blurb": "Apprends à construire efficacement des requêtes SQL à partir de composants grâce à strings.Builder.",
+  "concept:strings-builder:blurb": "Le paquet `strings` de la bibliothèque standard contient le type `Builder`, qui sert à construire efficacement des chaînes de caractères."
 }

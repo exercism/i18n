@@ -437,7 +437,7 @@ This page is generated from [the index](../../json/hu/go.json) by `scripts/build
 - `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/palindrome-products/.docs/instructions.md)): [Latest](../../../locales/hu/content/aa/c6/6521ce736be8ce737ea709a5b1eed507cbb8.md)
   - [`fd9a441247`](../../../locales/hu/content/fd/9a/441247b65a9a8604f6ef581df4b1054a1fad.md)
 
-### Pangram
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
   - [`d5698bc2a2`](../../../locales/hu/content/d5/69/8bc2a292baf2fb128de3543b748165088c4f.md)
@@ -955,6 +955,12 @@ This page is generated from [the index](../../json/hu/go.json) by `scripts/build
 - `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/sorting-room/.docs/introduction.md)): [Latest](../../../locales/hu/content/c5/5b/677e62d311f392c6989daa8a02638ab6e6ca.md)
 - `hints.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/sorting-room/.docs/hints.md)): [Latest](../../../locales/hu/content/3f/e8/fe733e0cca98642858d6d84d8af1898f87ff.md)
 
+### SQL Builder
+
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/sql-builder/.docs/instructions.md)): [Latest](../../../locales/hu/content/11/b9/d82e65aedcdb864484c470c3a9a45a782b44.md)
+- `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/sql-builder/.docs/introduction.md)): [Latest](../../../locales/hu/content/10/b0/124a992d204da017ec46874c8660188368a3.md)
+- `hints.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/sql-builder/.docs/hints.md)): [Latest](../../../locales/hu/content/53/9b/558dde5bb4cfc0830b899b3e6667b1f91623.md)
+
 ### The Farm (A farm)
 
 - `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/the-farm/.docs/instructions.md)): [Latest](../../../locales/hu/content/f9/e6/3c1770b86ced0cd59cb7eb6cd305203ff3e0.md)
@@ -1133,6 +1139,11 @@ This page is generated from [the index](../../json/hu/go.json) by `scripts/build
 
 - `introduction.md` ([English](https://github.com/exercism/go/blob/main/concepts/strings/introduction.md)): [Latest](../../../locales/hu/content/00/31/a1701e6fa4199cc4ee88db89816b3059b2ee.md)
 - `about.md` ([English](https://github.com/exercism/go/blob/main/concepts/strings/about.md)): [Latest](../../../locales/hu/content/ce/b3/02df2eaf2579b7913b4f07ef5f1d4ac897b6.md)
+
+### Strings Builder
+
+- `introduction.md` ([English](https://github.com/exercism/go/blob/main/concepts/strings-builder/introduction.md)): [Latest](../../../locales/hu/content/10/b0/124a992d204da017ec46874c8660188368a3.md)
+- `about.md` ([English](https://github.com/exercism/go/blob/main/concepts/strings-builder/about.md)): [Latest](../../../locales/hu/content/f9/d3/168d2c201740c96350046c226f23412e06bc.md)
 
 ### Strings Package (A strings csomag)
 

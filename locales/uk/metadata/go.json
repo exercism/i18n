@@ -571,5 +571,9 @@
   "concept:runes:blurb": "Руни представляють символи Unicode у рядках Go.",
   "exercise:resistor-color-tolerance:name": "Кольоровий допуск резистора",
   "exercise:resistor-color-tolerance:blurb": "Перетворіть кольорові коди, які використовують на резисторах із різною кількістю смуг, у зрозумілу для людини позначку.",
-  "exercise:resistor-color-tolerance:source": "@meatball133"
+  "exercise:resistor-color-tolerance:source": "@meatball133",
+  "exercise:sql-builder:name": "Конструктор SQL",
+  "concept:strings-builder:name": "Конструктор рядків",
+  "exercise:sql-builder:blurb": "Навчімося ефективно будувати рядки тексту SQL-запитів з компонентів за допомогою `strings.Builder`.",
+  "concept:strings-builder:blurb": "Стандартна бібліотека містить пакет `strings` із типом `Builder`, який використовується для ефективної побудови рядків тексту."
 }

@@ -569,5 +569,9 @@
   "concept:strings:blurb": "Go 中的字串是不可變的位元組序列，這些位元組不一定代表字元。",
   "exercise:resistor-color-tolerance:name": "電阻色碼容差",
   "exercise:resistor-color-tolerance:blurb": "將電阻器上不同色帶所用的色碼轉換成人類可讀的標籤。",
-  "exercise:resistor-color-tolerance:source": "@meatball133"
+  "exercise:resistor-color-tolerance:source": "@meatball133",
+  "exercise:sql-builder:name": "SQL Builder",
+  "concept:strings-builder:name": "Strings Builder",
+  "exercise:sql-builder:blurb": "學習如何使用 strings.Builder，有效率地從各個元件建構出 SQL 查詢字串。",
+  "concept:strings-builder:blurb": "標準函式庫的`strings`套件包含`Builder`型別，可以用來有效率地建構字串。"
 }

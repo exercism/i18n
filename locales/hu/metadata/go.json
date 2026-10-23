@@ -571,5 +571,9 @@
   "concept:slices:blurb": "A szeletek azonos típusú elemek listái.",
   "exercise:resistor-color-tolerance:name": "Ellenállás színtűrése",
   "exercise:resistor-color-tolerance:blurb": "Alakítsd át az ellenállásokon különböző sávokkal használt színkódokat ember számára olvasható címkévé.",
-  "exercise:resistor-color-tolerance:source": "@meatball133"
+  "exercise:resistor-color-tolerance:source": "@meatball133",
+  "exercise:sql-builder:name": "SQL Builder",
+  "concept:strings-builder:name": "Strings Builder",
+  "exercise:sql-builder:blurb": "Tanuld meg, hogyan építhetsz fel hatékonyan SQL-lekérdezés-stringeket komponensekből a strings.Builder segítségével.",
+  "concept:strings-builder:blurb": "A standard könyvtár `strings` csomagja tartalmazza a `Builder` típust, amellyel hatékonyan lehet stringeket építeni."
 }

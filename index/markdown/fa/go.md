@@ -1011,6 +1011,12 @@ This page is generated from [the index](../../json/fa/go.json) by `scripts/build
 - `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/sorting-room/.docs/introduction.md)): [Latest](../../../locales/fa/content/c5/5b/677e62d311f392c6989daa8a02638ab6e6ca.md)
 - `hints.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/sorting-room/.docs/hints.md)): [Latest](../../../locales/fa/content/3f/e8/fe733e0cca98642858d6d84d8af1898f87ff.md)
 
+### SQL Builder (سازنده‌ی SQL)
+
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/sql-builder/.docs/instructions.md)): [Latest](../../../locales/fa/content/11/b9/d82e65aedcdb864484c470c3a9a45a782b44.md)
+- `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/sql-builder/.docs/introduction.md)): [Latest](../../../locales/fa/content/10/b0/124a992d204da017ec46874c8660188368a3.md)
+- `hints.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/sql-builder/.docs/hints.md)): [Latest](../../../locales/fa/content/53/9b/558dde5bb4cfc0830b899b3e6667b1f91623.md)
+
 ### The Farm (مزرعه)
 
 - `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/the-farm/.docs/instructions.md)): [Latest](../../../locales/fa/content/f9/e6/3c1770b86ced0cd59cb7eb6cd305203ff3e0.md)
@@ -1187,6 +1193,11 @@ This page is generated from [the index](../../json/fa/go.json) by `scripts/build
 
 - `introduction.md` ([English](https://github.com/exercism/go/blob/main/concepts/strings/introduction.md)): [Latest](../../../locales/fa/content/00/31/a1701e6fa4199cc4ee88db89816b3059b2ee.md)
 - `about.md` ([English](https://github.com/exercism/go/blob/main/concepts/strings/about.md)): [Latest](../../../locales/fa/content/ce/b3/02df2eaf2579b7913b4f07ef5f1d4ac897b6.md)
+
+### Strings Builder (سازنده‌ی رشته‌ها)
+
+- `introduction.md` ([English](https://github.com/exercism/go/blob/main/concepts/strings-builder/introduction.md)): [Latest](../../../locales/fa/content/10/b0/124a992d204da017ec46874c8660188368a3.md)
+- `about.md` ([English](https://github.com/exercism/go/blob/main/concepts/strings-builder/about.md)): [Latest](../../../locales/fa/content/f9/d3/168d2c201740c96350046c226f23412e06bc.md)
 
 ### Strings Package (بسته‌ی strings)
 

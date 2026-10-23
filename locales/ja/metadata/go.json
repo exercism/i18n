@@ -569,5 +569,9 @@
   "concept:strings:blurb": "Goの文字列は不変のバイト列で、必ずしも文字を表すとは限りません。",
   "exercise:resistor-color-tolerance:name": "抵抗器のカラーコードの許容差",
   "exercise:resistor-color-tolerance:blurb": "異なるバンドを持つ抵抗器で使われるカラーコードを、人が読めるラベルに変換します。",
-  "exercise:resistor-color-tolerance:source": "@meatball133"
+  "exercise:resistor-color-tolerance:source": "@meatball133",
+  "exercise:sql-builder:name": "SQL Builder",
+  "concept:strings-builder:name": "Strings Builder",
+  "exercise:sql-builder:blurb": "`strings.Builder`を使って、部品からSQLクエリ文字列を効率的に組み立てる方法を学びましょう。",
+  "concept:strings-builder:blurb": "標準ライブラリの`strings`パッケージには`Builder`型があり、文字列を効率的に組み立てるために使います。"
 }

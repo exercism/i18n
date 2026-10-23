@@ -569,5 +569,9 @@
   "concept:strings:blurb": "Go-তে স্ট্রিং হলো বাইটের একটি অপরিবর্তনীয় ক্রম, যেগুলো সবসময় ক্যারেক্টার প্রকাশ করে না।",
   "exercise:resistor-color-tolerance:name": "রেজিস্টর কালার টলারেন্স",
   "exercise:resistor-color-tolerance:blurb": "বিভিন্ন ব্যান্ডযুক্ত রেজিস্টরে ব্যবহৃত রঙের কোডকে মানুষের পড়ার উপযোগী লেবেলে রূপান্তর করুন।",
-  "exercise:resistor-color-tolerance:source": "@meatball133"
+  "exercise:resistor-color-tolerance:source": "@meatball133",
+  "exercise:sql-builder:name": "SQL বিল্ডার",
+  "concept:strings-builder:name": "স্ট্রিং বিল্ডার",
+  "exercise:sql-builder:blurb": "কম্পোনেন্ট থেকে strings.Builder ব্যবহার করে দক্ষভাবে SQL কোয়েরি স্ট্রিং তৈরি করা শিখুন।",
+  "concept:strings-builder:blurb": "স্ট্যান্ডার্ড লাইব্রেরির `strings` প্যাকেজে `Builder` টাইপ রয়েছে, যা দক্ষভাবে স্ট্রিং তৈরি করতে ব্যবহৃত হয়।"
 }

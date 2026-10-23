@@ -569,5 +569,9 @@
   "concept:strings:blurb": "رشته در Go دنباله‌ای تغییرناپذیر از بایت است که لزوماً نیازی نیست کاراکترها را نمایش دهد.",
   "exercise:resistor-color-tolerance:name": "تلورانس رنگ مقاومت",
   "exercise:resistor-color-tolerance:blurb": "کدهای رنگی به‌کاررفته روی مقاومت‌هایی با نوارهای مختلف را به برچسبی خوانا برای انسان تبدیل کنید.",
-  "exercise:resistor-color-tolerance:source": "@meatball133"
+  "exercise:resistor-color-tolerance:source": "@meatball133",
+  "exercise:sql-builder:name": "سازنده‌ی SQL",
+  "concept:strings-builder:name": "سازنده‌ی رشته‌ها",
+  "exercise:sql-builder:blurb": "بیاموزید چگونه با `strings.Builder` رشته‌های پرس‌وجوی SQL را به شکلی کارآمد از اجزا بسازید.",
+  "concept:strings-builder:blurb": "بسته‌ی `strings` در کتابخانه‌ی استاندارد شامل نوع `Builder` است که برای ساختن رشته‌ها به شکلی کارآمد به کار می‌رود."
 }

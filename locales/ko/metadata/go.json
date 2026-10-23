@@ -569,5 +569,9 @@
   "concept:strings:blurb": "Go의 문자열은 변경할 수 없는 바이트 시퀀스로, 반드시 문자를 나타낼 필요는 없어요",
   "exercise:resistor-color-tolerance:name": "저항 색 허용 오차",
   "exercise:resistor-color-tolerance:blurb": "여러 띠가 있는 저항기에 사용되는 색상 코드를 사람이 읽을 수 있는 레이블로 변환해요.",
-  "exercise:resistor-color-tolerance:source": "@meatball133"
+  "exercise:resistor-color-tolerance:source": "@meatball133",
+  "exercise:sql-builder:name": "SQL 빌더",
+  "concept:strings-builder:name": "문자열 빌더",
+  "exercise:sql-builder:blurb": "`strings.Builder`를 사용해 구성 요소로부터 SQL 쿼리 문자열을 효율적으로 만드는 방법을 배워요.",
+  "concept:strings-builder:blurb": "표준 라이브러리 `strings` 패키지에는 문자열을 효율적으로 만들 때 사용하는 `Builder` 타입이 있어요."
 }
