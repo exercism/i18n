@@ -203,5 +203,8 @@
   "exercise:resistor-color-tolerance:source": "@meatball133",
   "exercise:circular-buffer:name": "环形缓冲区",
   "exercise:circular-buffer:blurb": "一种使用单个固定大小缓冲区、并把它视为首尾相接的数据结构。",
-  "exercise:circular-buffer:source": "Wikipedia"
+  "exercise:circular-buffer:source": "Wikipedia",
+  "exercise:simple-linked-list:name": "简单链表",
+  "exercise:simple-linked-list:blurb": "用 Elements 和 List 编写一个简单的链表实现。",
+  "exercise:simple-linked-list:source": "灵感来自《Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby》中的单链表。"
 }

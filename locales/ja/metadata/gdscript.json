@@ -203,5 +203,8 @@
   "exercise:resistor-color-tolerance:source": "@meatball133",
   "exercise:circular-buffer:name": "リングバッファ",
   "exercise:circular-buffer:blurb": "単一の固定サイズのバッファを、端と端がつながっているかのように扱うデータ構造です。",
-  "exercise:circular-buffer:source": "Wikipedia"
+  "exercise:circular-buffer:source": "Wikipedia",
+  "exercise:simple-linked-list:name": "単純な連結リスト",
+  "exercise:simple-linked-list:blurb": "ElementとListを使ったシンプルな連結リストを実装します。",
+  "exercise:simple-linked-list:source": "『Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby』の単方向連結リストから着想を得ています。"
 }

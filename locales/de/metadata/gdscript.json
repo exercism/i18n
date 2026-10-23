@@ -203,5 +203,8 @@
   "exercise:resistor-color-tolerance:source": "@meatball133",
   "exercise:circular-buffer:name": "Ringpuffer",
   "exercise:circular-buffer:blurb": "Eine Datenstruktur, die einen einzelnen Puffer fester Größe verwendet, als wäre er an den Enden miteinander verbunden.",
-  "exercise:circular-buffer:source": "Wikipedia"
+  "exercise:circular-buffer:source": "Wikipedia",
+  "exercise:simple-linked-list:name": "Einfache verkettete Liste",
+  "exercise:simple-linked-list:blurb": "Schreibe eine einfache Implementierung einer verketteten Liste, die Elemente und eine Liste verwendet.",
+  "exercise:simple-linked-list:source": "Inspiriert von „Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby“, einfach verkettete Listen."
 }

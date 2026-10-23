@@ -203,5 +203,8 @@
   "exercise:resistor-color-tolerance:source": "@meatball133",
   "exercise:circular-buffer:name": "Tampon circulaire",
   "exercise:circular-buffer:blurb": "Une structure de données qui utilise un unique tampon de taille fixe comme s'il était relié de bout en bout.",
-  "exercise:circular-buffer:source": "Wikipedia"
+  "exercise:circular-buffer:source": "Wikipedia",
+  "exercise:simple-linked-list:name": "Liste chaînée simple",
+  "exercise:simple-linked-list:blurb": "Écris une implémentation simple de liste chaînée qui utilise des Elements et une List.",
+  "exercise:simple-linked-list:source": "Inspiré par « Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby », les listes simplement chaînées."
 }

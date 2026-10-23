@@ -203,5 +203,8 @@
   "exercise:resistor-color-tolerance:source": "@meatball133",
   "exercise:circular-buffer:name": "Κυκλικός buffer",
   "exercise:circular-buffer:blurb": "Μια δομή δεδομένων που χρησιμοποιεί έναν μόνο buffer σταθερού μεγέθους, σαν να ήταν συνδεδεμένος από άκρη σε άκρη.",
-  "exercise:circular-buffer:source": "Wikipedia"
+  "exercise:circular-buffer:source": "Wikipedia",
+  "exercise:simple-linked-list:name": "Απλή συνδεδεμένη λίστα",
+  "exercise:simple-linked-list:blurb": "Γράψε μια απλή υλοποίηση συνδεδεμένης λίστας που χρησιμοποιεί Elements και μια List.",
+  "exercise:simple-linked-list:source": "Εμπνευσμένο από το \"Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby\", τις απλά συνδεδεμένες λίστες."
 }

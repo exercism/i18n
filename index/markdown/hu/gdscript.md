@@ -250,6 +250,11 @@ This page is generated from [the index](../../json/hu/gdscript.json) by `scripts
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/simple-cipher/.docs/instructions.md)): [Latest](../../../locales/hu/content/af/d0/b57da930f59595d830df56eb0c9e891e83f4.md)
 
+### Simple Linked List (Egyszerű láncolt lista)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/simple-linked-list/.docs/instructions.md)): [Latest](../../../locales/hu/content/04/64/0b1fb0316d5bc0ddb86e1c1960595f298402.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/simple-linked-list/.docs/introduction.md)): [Latest](../../../locales/hu/content/0e/1d/f72f9bfdbc27674463923bf42d36fcd643be.md)
+
 ### Space Age (Űrkorszak)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/space-age/.docs/instructions.md)): [Latest](../../../locales/hu/content/f2/3b/5e2c1fee01d8283d5399594d9324bd35e2f4.md)

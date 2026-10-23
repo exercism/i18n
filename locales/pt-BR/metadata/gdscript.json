@@ -203,5 +203,8 @@
   "exercise:resistor-color-tolerance:source": "@meatball133",
   "exercise:circular-buffer:name": "Buffer circular",
   "exercise:circular-buffer:blurb": "Uma estrutura de dados que usa um único buffer de tamanho fixo como se estivesse conectado de ponta a ponta.",
-  "exercise:circular-buffer:source": "Wikipedia"
+  "exercise:circular-buffer:source": "Wikipedia",
+  "exercise:simple-linked-list:name": "Lista encadeada simples",
+  "exercise:simple-linked-list:blurb": "Escreva uma implementação simples de lista encadeada que usa Elementos e uma Lista.",
+  "exercise:simple-linked-list:source": "Inspirado em 'Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby', listas simplesmente encadeadas."
 }

@@ -203,5 +203,8 @@
   "exercise:resistor-color-tolerance:source": "@meatball133",
   "exercise:circular-buffer:name": "Кільцевий буфер",
   "exercise:circular-buffer:blurb": "Структура даних, яка використовує єдиний буфер фіксованого розміру так, ніби його зʼєднано кінець до кінця.",
-  "exercise:circular-buffer:source": "Wikipedia"
+  "exercise:circular-buffer:source": "Wikipedia",
+  "exercise:simple-linked-list:name": "Простий звʼязаний список",
+  "exercise:simple-linked-list:blurb": "Напишіть просту реалізацію звʼязаного списку, яка використовує елементи та список.",
+  "exercise:simple-linked-list:source": "За мотивами книги «Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby», розділ про однозвʼязні списки."
 }

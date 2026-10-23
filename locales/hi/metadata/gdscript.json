@@ -203,5 +203,8 @@
   "exercise:resistor-color-tolerance:source": "@meatball133",
   "exercise:circular-buffer:name": "वृत्ताकार बफर",
   "exercise:circular-buffer:blurb": "ऐसा डेटा स्ट्रक्चर जो एक ही, तय आकार के बफर को ऐसे इस्तेमाल करता है जैसे उसके दोनों सिरे आपस में जुड़े हों।",
-  "exercise:circular-buffer:source": "Wikipedia"
+  "exercise:circular-buffer:source": "Wikipedia",
+  "exercise:simple-linked-list:name": "सरल लिंक्ड लिस्ट",
+  "exercise:simple-linked-list:blurb": "एक सरल लिंक्ड लिस्ट का कार्यान्वयन लिखिए जो Elements और List का इस्तेमाल करता है।",
+  "exercise:simple-linked-list:source": "'Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby' से प्रेरित, सिंगली लिंक्ड लिस्ट।"
 }

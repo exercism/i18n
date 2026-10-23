@@ -203,5 +203,8 @@
   "exercise:resistor-color-tolerance:source": "@meatball133",
   "exercise:circular-buffer:name": "Körkörös puffer",
   "exercise:circular-buffer:blurb": "Egy adatszerkezet, amely egyetlen, rögzített méretű puffert használ, mintha a végei össze lennének kapcsolva.",
-  "exercise:circular-buffer:source": "Wikipedia"
+  "exercise:circular-buffer:source": "Wikipedia",
+  "exercise:simple-linked-list:name": "Egyszerű láncolt lista",
+  "exercise:simple-linked-list:blurb": "Írj egy egyszerű láncolt lista megvalósítást, amely Element-eket és egy List-et használ.",
+  "exercise:simple-linked-list:source": "Az egyszeresen láncolt listák ötletét a „Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby” című könyv adta."
 }

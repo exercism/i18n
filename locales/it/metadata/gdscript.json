@@ -203,5 +203,8 @@
   "exercise:resistor-color-tolerance:source": "@meatball133",
   "exercise:circular-buffer:name": "Buffer circolare",
   "exercise:circular-buffer:blurb": "Una struttura dati che usa un unico buffer di dimensione fissa come se fosse collegato da un'estremità all'altra.",
-  "exercise:circular-buffer:source": "Wikipedia"
+  "exercise:circular-buffer:source": "Wikipedia",
+  "exercise:simple-linked-list:name": "Lista concatenata semplice",
+  "exercise:simple-linked-list:blurb": "Scrivi una semplice implementazione di lista concatenata che usa Elements e una List.",
+  "exercise:simple-linked-list:source": "Ispirato a «Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby», liste concatenate singole."
 }

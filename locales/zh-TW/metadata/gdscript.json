@@ -203,5 +203,8 @@
   "exercise:resistor-color-tolerance:source": "@meatball133",
   "exercise:circular-buffer:name": "環狀緩衝區",
   "exercise:circular-buffer:blurb": "一種使用單一固定大小緩衝區、彷彿頭尾相連的資料結構。",
-  "exercise:circular-buffer:source": "Wikipedia"
+  "exercise:circular-buffer:source": "Wikipedia",
+  "exercise:simple-linked-list:name": "簡易鏈結串列",
+  "exercise:simple-linked-list:blurb": "撰寫一個使用 Element 和 List 的簡易鏈結串列實作。",
+  "exercise:simple-linked-list:source": "靈感來自《Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby》的單向鏈結串列。"
 }

@@ -203,5 +203,8 @@
   "exercise:resistor-color-tolerance:source": "@meatball133",
   "exercise:circular-buffer:name": "المخزن المؤقت الدائري",
   "exercise:circular-buffer:blurb": "بنية بيانات تستخدم مخزنًا مؤقتًا واحدًا ثابت الحجم كما لو كان متصلًا من طرف إلى طرف.",
-  "exercise:circular-buffer:source": "ويكيبيديا"
+  "exercise:circular-buffer:source": "ويكيبيديا",
+  "exercise:simple-linked-list:name": "القائمة المترابطة البسيطة",
+  "exercise:simple-linked-list:blurb": "اكتب تطبيقًا بسيطًا لقائمة مترابطة يستخدم `Element` و`List`.",
+  "exercise:simple-linked-list:source": "مستوحى من 'Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby'، القوائم المترابطة الأحادية."
 }

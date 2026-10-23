@@ -203,5 +203,8 @@
   "exercise:resistor-color-tolerance:source": "@meatball133",
   "exercise:circular-buffer:name": "সার্কুলার বাফার",
   "exercise:circular-buffer:blurb": "একটি ডেটা স্ট্রাকচার, যা একটি একক নির্দিষ্ট আকারের বাফার এমনভাবে ব্যবহার করে যেন তার দুই প্রান্ত পরস্পরের সাথে জোড়া।",
-  "exercise:circular-buffer:source": "Wikipedia"
+  "exercise:circular-buffer:source": "Wikipedia",
+  "exercise:simple-linked-list:name": "সরল লিংকড লিস্ট",
+  "exercise:simple-linked-list:blurb": "Element ও List ব্যবহার করে একটি সরল লিংকড লিস্ট বাস্তবায়ন লিখুন।",
+  "exercise:simple-linked-list:source": "'Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby' থেকে অনুপ্রাণিত, সিঙ্গলি লিংকড লিস্ট।"
 }

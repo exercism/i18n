@@ -203,5 +203,8 @@
   "exercise:resistor-color-tolerance:source": "@meatball133",
   "exercise:circular-buffer:name": "بافر حلقه‌ای",
   "exercise:circular-buffer:blurb": "ساختار داده‌ای که از یک بافر واحد با اندازه‌ی ثابت استفاده می‌کند، گویی که انتها به ابتدا به هم وصل شده است.",
-  "exercise:circular-buffer:source": "Wikipedia"
+  "exercise:circular-buffer:source": "Wikipedia",
+  "exercise:simple-linked-list:name": "لیست پیوندی ساده",
+  "exercise:simple-linked-list:blurb": "یک پیاده‌سازی ساده از لیست پیوندی بنویسید که از `Element`ها و یک `List` استفاده می‌کند.",
+  "exercise:simple-linked-list:source": "با الهام از «Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby»، لیست‌های پیوندی یک‌طرفه."
 }
