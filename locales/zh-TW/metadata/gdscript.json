@@ -200,5 +200,8 @@
   "exercise:binary-search-tree:source": "Josh Cheek",
   "exercise:resistor-color-tolerance:name": "電阻色碼容差",
   "exercise:resistor-color-tolerance:blurb": "將電阻器上不同色帶所用的色碼轉換成人類可讀的標籤。",
-  "exercise:resistor-color-tolerance:source": "@meatball133"
+  "exercise:resistor-color-tolerance:source": "@meatball133",
+  "exercise:circular-buffer:name": "環狀緩衝區",
+  "exercise:circular-buffer:blurb": "一種使用單一固定大小緩衝區、彷彿頭尾相連的資料結構。",
+  "exercise:circular-buffer:source": "Wikipedia"
 }

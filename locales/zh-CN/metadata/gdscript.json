@@ -200,5 +200,8 @@
   "exercise:binary-search-tree:source": "Josh Cheek",
   "exercise:resistor-color-tolerance:name": "电阻色环容差",
   "exercise:resistor-color-tolerance:blurb": "把电阻上不同色环所用的色码转换成人类可读的标签。",
-  "exercise:resistor-color-tolerance:source": "@meatball133"
+  "exercise:resistor-color-tolerance:source": "@meatball133",
+  "exercise:circular-buffer:name": "环形缓冲区",
+  "exercise:circular-buffer:blurb": "一种使用单个固定大小缓冲区、并把它视为首尾相接的数据结构。",
+  "exercise:circular-buffer:source": "Wikipedia"
 }

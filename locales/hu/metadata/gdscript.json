@@ -200,5 +200,8 @@
   "exercise:binary-search-tree:source": "Josh Cheek",
   "exercise:resistor-color-tolerance:name": "Ellenállás színtűrése",
   "exercise:resistor-color-tolerance:blurb": "Alakítsd át az ellenállásokon különböző sávokkal használt színkódokat ember számára olvasható címkévé.",
-  "exercise:resistor-color-tolerance:source": "@meatball133"
+  "exercise:resistor-color-tolerance:source": "@meatball133",
+  "exercise:circular-buffer:name": "Körkörös puffer",
+  "exercise:circular-buffer:blurb": "Egy adatszerkezet, amely egyetlen, rögzített méretű puffert használ, mintha a végei össze lennének kapcsolva.",
+  "exercise:circular-buffer:source": "Wikipedia"
 }

@@ -200,5 +200,8 @@
   "exercise:binary-search-tree:source": "Josh Cheek",
   "exercise:resistor-color-tolerance:name": "Tolleranza del colore della resistenza",
   "exercise:resistor-color-tolerance:blurb": "Converti i codici colore usati sulle resistenze con diverse bande in un'etichetta leggibile da una persona.",
-  "exercise:resistor-color-tolerance:source": "@meatball133"
+  "exercise:resistor-color-tolerance:source": "@meatball133",
+  "exercise:circular-buffer:name": "Buffer circolare",
+  "exercise:circular-buffer:blurb": "Una struttura dati che usa un unico buffer di dimensione fissa come se fosse collegato da un'estremità all'altra.",
+  "exercise:circular-buffer:source": "Wikipedia"
 }

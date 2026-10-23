@@ -52,6 +52,10 @@ This page is generated from [the index](../../json/it/gdscript.json) by `scripts
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/camicia/.docs/instructions.md)): [Latest](../../../locales/it/content/db/62/fcef27d59da1ecd8287b36edfede272b9197.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/camicia/.docs/introduction.md)): [Latest](../../../locales/it/content/76/1d/8a82c502ac4117787d8314c74fcf79dc5159.md)
 
+### Circular Buffer (Buffer circolare)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/circular-buffer/.docs/instructions.md)): [Latest](../../../locales/it/content/2b/a1/fda2aa73e920e1ae0b25441be2f00fd3dd12.md)
+
 ### Collatz Conjecture (Congettura di Collatz)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/collatz-conjecture/.docs/instructions.md)): [Latest](../../../locales/it/content/af/33/2a810f0f31aa1233e92bea57721d3025f4e0.md)

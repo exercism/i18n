@@ -200,5 +200,8 @@
   "exercise:binary-search-tree:source": "Josh Cheek",
   "exercise:resistor-color-tolerance:name": "Tolérance des couleurs de résistance",
   "exercise:resistor-color-tolerance:blurb": "Convertis les codes couleur utilisés sur les résistances à plusieurs bandes en une étiquette lisible par un humain.",
-  "exercise:resistor-color-tolerance:source": "@meatball133"
+  "exercise:resistor-color-tolerance:source": "@meatball133",
+  "exercise:circular-buffer:name": "Tampon circulaire",
+  "exercise:circular-buffer:blurb": "Une structure de données qui utilise un unique tampon de taille fixe comme s'il était relié de bout en bout.",
+  "exercise:circular-buffer:source": "Wikipedia"
 }

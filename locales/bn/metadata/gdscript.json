@@ -200,5 +200,8 @@
   "exercise:binary-search-tree:source": "Josh Cheek",
   "exercise:resistor-color-tolerance:name": "রেজিস্টর কালার টলারেন্স",
   "exercise:resistor-color-tolerance:blurb": "বিভিন্ন ব্যান্ডযুক্ত রেজিস্টরে ব্যবহৃত রঙের কোডকে মানুষের পড়ার উপযোগী লেবেলে রূপান্তর করুন।",
-  "exercise:resistor-color-tolerance:source": "@meatball133"
+  "exercise:resistor-color-tolerance:source": "@meatball133",
+  "exercise:circular-buffer:name": "সার্কুলার বাফার",
+  "exercise:circular-buffer:blurb": "একটি ডেটা স্ট্রাকচার, যা একটি একক নির্দিষ্ট আকারের বাফার এমনভাবে ব্যবহার করে যেন তার দুই প্রান্ত পরস্পরের সাথে জোড়া।",
+  "exercise:circular-buffer:source": "Wikipedia"
 }

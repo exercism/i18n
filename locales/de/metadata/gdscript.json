@@ -200,5 +200,8 @@
   "exercise:binary-search-tree:source": "Josh Cheek",
   "exercise:resistor-color-tolerance:name": "Farbtoleranz von Widerständen",
   "exercise:resistor-color-tolerance:blurb": "Wandle Farbcodes, wie sie bei Widerständen mit unterschiedlichen Ringen verwendet werden, in eine für Menschen lesbare Bezeichnung um.",
-  "exercise:resistor-color-tolerance:source": "@meatball133"
+  "exercise:resistor-color-tolerance:source": "@meatball133",
+  "exercise:circular-buffer:name": "Ringpuffer",
+  "exercise:circular-buffer:blurb": "Eine Datenstruktur, die einen einzelnen Puffer fester Größe verwendet, als wäre er an den Enden miteinander verbunden.",
+  "exercise:circular-buffer:source": "Wikipedia"
 }

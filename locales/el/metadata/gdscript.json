@@ -200,5 +200,8 @@
   "exercise:binary-search-tree:source": "Josh Cheek",
   "exercise:resistor-color-tolerance:name": "Ανοχή Χρώματος Αντίστασης",
   "exercise:resistor-color-tolerance:blurb": "Μετάτρεψε τους χρωματικούς κωδικούς που χρησιμοποιούνται σε αντιστάσεις με διαφορετικές ζώνες σε μια ευανάγνωστη ετικέτα.",
-  "exercise:resistor-color-tolerance:source": "@meatball133"
+  "exercise:resistor-color-tolerance:source": "@meatball133",
+  "exercise:circular-buffer:name": "Κυκλικός buffer",
+  "exercise:circular-buffer:blurb": "Μια δομή δεδομένων που χρησιμοποιεί έναν μόνο buffer σταθερού μεγέθους, σαν να ήταν συνδεδεμένος από άκρη σε άκρη.",
+  "exercise:circular-buffer:source": "Wikipedia"
 }

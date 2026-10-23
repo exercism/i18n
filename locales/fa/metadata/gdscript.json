@@ -200,5 +200,8 @@
   "exercise:binary-search-tree:source": "Josh Cheek",
   "exercise:resistor-color-tolerance:name": "تلورانس رنگ مقاومت",
   "exercise:resistor-color-tolerance:blurb": "کدهای رنگی به‌کاررفته روی مقاومت‌هایی با نوارهای مختلف را به برچسبی خوانا برای انسان تبدیل کنید.",
-  "exercise:resistor-color-tolerance:source": "@meatball133"
+  "exercise:resistor-color-tolerance:source": "@meatball133",
+  "exercise:circular-buffer:name": "بافر حلقه‌ای",
+  "exercise:circular-buffer:blurb": "ساختار داده‌ای که از یک بافر واحد با اندازه‌ی ثابت استفاده می‌کند، گویی که انتها به ابتدا به هم وصل شده است.",
+  "exercise:circular-buffer:source": "Wikipedia"
 }
