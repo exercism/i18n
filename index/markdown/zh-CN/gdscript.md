@@ -318,7 +318,8 @@ This page is generated from [the index](../../json/zh-CN/gdscript.json) by `scri
 
 ### Installing GDScript locally (在本地安装 GDScript)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/zh-CN/content/79/86/e4d227a47082a0ade5c587a32bb46b99dabd.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/zh-CN/content/af/68/336c0416e18d12015c9c8b154ace48b89b47.md)
+  - [`7986e4d227`](../../../locales/zh-CN/content/79/86/e4d227a47082a0ade5c587a32bb46b99dabd.md)
   - [`a92cec1dd3`](../../../locales/zh-CN/content/a9/2c/ec1dd35597abd59eeb4a43e313bc4a0c3fbe.md)
   - [`435c67e3c0`](../../../locales/zh-CN/content/43/5c/67e3c0809614be9bfc28abaa223f1c9ad166.md)
 
