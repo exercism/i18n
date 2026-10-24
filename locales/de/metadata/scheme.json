@@ -218,5 +218,8 @@
   "exercise:wordy:source": "Inspiriert von einer der generierten Fragen im Spiel Extreme Startup.",
   "exercise:space-age:name": "Weltraumzeitalter",
   "exercise:space-age:blurb": "Berechne aus einem Alter in Sekunden, wie alt jemand in Sonnenjahren eines gegebenen Planeten ist.",
-  "exercise:space-age:source": "Teilweise inspiriert von Kapitel 1 in Chris Pines Online-Tutorial Learn to Program."
+  "exercise:space-age:source": "Teilweise inspiriert von Kapitel 1 in Chris Pines Online-Tutorial Learn to Program.",
+  "exercise:state-of-tic-tac-toe:name": "Zustand von Tic-Tac-Toe",
+  "exercise:state-of-tic-tac-toe:blurb": "Bestimme den Spielzustand einer Partie Tic-Tac-Toe.",
+  "exercise:state-of-tic-tac-toe:source": "Erstellt von Sascha Mann für den Julia-Track des Exercism Research Experiment."
 }

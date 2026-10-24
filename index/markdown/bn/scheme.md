@@ -292,6 +292,11 @@ This page is generated from [the index](../../json/bn/scheme.json) by `scripts/b
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/square-root/.docs/instructions.md)): [Latest](../../../locales/bn/content/d2/58/b86876e35a1553677ed6a7cb068f27cf1aba.md)
 - `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/square-root/.docs/introduction.md)): [Latest](../../../locales/bn/content/1d/69/2934f280a866528bcb54cd3044d7e8a5eeeb.md)
 
+### State of Tic-Tac-Toe (টিক-ট্যাক-টোর অবস্থা)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/state-of-tic-tac-toe/.docs/instructions.md)): [Latest](../../../locales/bn/content/1a/03/ebb6cb4c4468e3c93f90e0a76e4f1812ec55.md)
+- `instructions.append.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/state-of-tic-tac-toe/.docs/instructions.append.md)): [Latest](../../../locales/bn/content/b3/45/e427f5dab4f1cdfd3948a07b1fe786110365.md)
+
 ### Strain (স্ট্রেইন)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/strain/.docs/instructions.md)): [Latest](../../../locales/bn/content/34/69/ae6579d482e30ce3deac8cf0baf2a6a83cb2.md)

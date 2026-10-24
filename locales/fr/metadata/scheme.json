@@ -218,5 +218,8 @@
   "exercise:wordy:source": "Inspiré par l'une des questions générées dans le jeu Extreme Startup.",
   "exercise:space-age:name": "Ère spatiale",
   "exercise:space-age:blurb": "À partir d'un âge en secondes, calcule quel âge aurait une personne en années solaires sur une planète donnée.",
-  "exercise:space-age:source": "Partiellement inspiré par le chapitre 1 du tutoriel en ligne Learn to Program de Chris Pine."
+  "exercise:space-age:source": "Partiellement inspiré par le chapitre 1 du tutoriel en ligne Learn to Program de Chris Pine.",
+  "exercise:state-of-tic-tac-toe:name": "État du morpion",
+  "exercise:state-of-tic-tac-toe:blurb": "Détermine l'état d'une partie de morpion.",
+  "exercise:state-of-tic-tac-toe:source": "Créé par Sascha Mann pour le parcours Julia de l'Exercism Research Experiment."
 }

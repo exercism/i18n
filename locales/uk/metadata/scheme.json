@@ -218,5 +218,8 @@
   "exercise:wordy:source": "За мотивами одного із згенерованих запитань у грі Extreme Startup.",
   "exercise:space-age:name": "Космічний вік",
   "exercise:space-age:blurb": "Дано вік у секундах, обчисліть, скільки років людині за сонячними роками заданої планети.",
-  "exercise:space-age:source": "Частково за мотивами розділу 1 з онлайн-туторіалу Learn to Program від Chris Pine."
+  "exercise:space-age:source": "Частково за мотивами розділу 1 з онлайн-туторіалу Learn to Program від Chris Pine.",
+  "exercise:state-of-tic-tac-toe:name": "Стан гри у хрестики-нулики",
+  "exercise:state-of-tic-tac-toe:blurb": "Визначте стан партії у хрестики-нулики.",
+  "exercise:state-of-tic-tac-toe:source": "Створено Sascha Mann для треку Julia в межах Exercism Research Experiment."
 }

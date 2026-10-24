@@ -218,5 +218,8 @@
   "exercise:wordy:source": "Extreme Startupゲームで生成された問題の1つに着想を得たもの",
   "exercise:space-age:name": "宇宙の年齢",
   "exercise:space-age:blurb": "秒単位の年齢が与えられたとき、ある惑星の公転年でその人が何歳になるかを計算します。",
-  "exercise:space-age:source": "Chris Pineのオンラインチュートリアル『Learn to Program』の第1章から一部着想を得ています。"
+  "exercise:space-age:source": "Chris Pineのオンラインチュートリアル『Learn to Program』の第1章から一部着想を得ています。",
+  "exercise:state-of-tic-tac-toe:name": "三目並べの状態",
+  "exercise:state-of-tic-tac-toe:blurb": "三目並べの対局の状態を判定します。",
+  "exercise:state-of-tic-tac-toe:source": "Sascha MannがExercism Research ExperimentのJuliaトラックのために作成しました。"
 }

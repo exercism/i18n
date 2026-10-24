@@ -218,5 +218,8 @@
   "exercise:wordy:source": "با الهام از یکی از پرسش‌های تولیدشده در بازی Extreme Startup.",
   "exercise:space-age:name": "عصر فضا",
   "exercise:space-age:blurb": "اگر سن یک نفر بر حسب ثانیه داده شود، محاسبه کنید که او بر حسب سال‌های خورشیدی یک سیاره‌ی مشخص چند سال دارد.",
-  "exercise:space-age:source": "تا حدی با الهام از فصل ۱ از آموزش آنلاین Learn to Program نوشته‌ی Chris Pine."
+  "exercise:space-age:source": "تا حدی با الهام از فصل ۱ از آموزش آنلاین Learn to Program نوشته‌ی Chris Pine.",
+  "exercise:state-of-tic-tac-toe:name": "وضعیت بازی دوز",
+  "exercise:state-of-tic-tac-toe:blurb": "وضعیت بازی را در یک دست از بازی دوز تعیین کنید.",
+  "exercise:state-of-tic-tac-toe:source": "ساخته‌ی Sascha Mann برای مسیر Julia در Exercism Research Experiment."
 }

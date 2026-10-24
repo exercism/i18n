@@ -218,5 +218,8 @@
   "exercise:wordy:source": "Extreme Startup गेम में बनाए गए प्रश्नों में से एक से प्रेरित।",
   "exercise:space-age:name": "अंतरिक्ष युग",
   "exercise:space-age:blurb": "सेकंड में दी गई आयु को देखते हुए गणना कीजिए कि कोई व्यक्ति किसी दिए गए ग्रह के सौर वर्षों के हिसाब से कितने साल का है।",
-  "exercise:space-age:source": "Chris Pine के ऑनलाइन Learn to Program ट्यूटोरियल के अध्याय 1 से आंशिक रूप से प्रेरित।"
+  "exercise:space-age:source": "Chris Pine के ऑनलाइन Learn to Program ट्यूटोरियल के अध्याय 1 से आंशिक रूप से प्रेरित।",
+  "exercise:state-of-tic-tac-toe:name": "टिक-टैक-टो की स्थिति",
+  "exercise:state-of-tic-tac-toe:blurb": "टिक-टैक-टो के एक मैच की खेल-स्थिति तय कीजिए।",
+  "exercise:state-of-tic-tac-toe:source": "Sascha Mann द्वारा Exercism Research Experiment के Julia ट्रैक के लिए बनाया गया।"
 }

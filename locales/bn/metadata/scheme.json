@@ -218,5 +218,8 @@
   "exercise:wordy:source": "Extreme Startup গেমে জেনারেট করা প্রশ্নগুলোর একটি থেকে অনুপ্রাণিত।",
   "exercise:space-age:name": "মহাকাশ যুগ",
   "exercise:space-age:blurb": "সেকেন্ডে একটি বয়স দেওয়া থাকলে একটি নির্দিষ্ট গ্রহের সৌর বছরের হিসেবে কারও বয়স কত হবে তা গণনা করুন।",
-  "exercise:space-age:source": "Chris Pine-এর অনলাইন Learn to Program টিউটোরিয়ালের প্রথম অধ্যায় থেকে আংশিক অনুপ্রাণিত।"
+  "exercise:space-age:source": "Chris Pine-এর অনলাইন Learn to Program টিউটোরিয়ালের প্রথম অধ্যায় থেকে আংশিক অনুপ্রাণিত।",
+  "exercise:state-of-tic-tac-toe:name": "টিক-ট্যাক-টোর অবস্থা",
+  "exercise:state-of-tic-tac-toe:blurb": "একটি টিক-ট্যাক-টো ম্যাচের গেম অবস্থা নির্ধারণ করুন।",
+  "exercise:state-of-tic-tac-toe:source": "Sascha Mann তৈরি করেছেন Exercism Research Experiment-এর Julia ট্র্যাকের জন্য।"
 }

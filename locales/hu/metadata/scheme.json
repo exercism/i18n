@@ -218,5 +218,8 @@
   "exercise:wordy:source": "A Extreme Startup játék egyik generált kérdése ihlette.",
   "exercise:space-age:name": "Űrkorszak",
   "exercise:space-age:blurb": "Adott egy életkor másodpercben; számítsd ki, hány éves valaki egy adott bolygó napéveiben.",
-  "exercise:space-age:source": "Részben Chris Pine Learn to Program online oktatóanyagának 1. fejezete ihlette."
+  "exercise:space-age:source": "Részben Chris Pine Learn to Program online oktatóanyagának 1. fejezete ihlette.",
+  "exercise:state-of-tic-tac-toe:name": "Az amőba állása",
+  "exercise:state-of-tic-tac-toe:blurb": "Határozd meg egy amőbajátszma állapotát.",
+  "exercise:state-of-tic-tac-toe:source": "Sascha Mann készítette az Exercism Research Experiment Julia kurzusa számára."
 }

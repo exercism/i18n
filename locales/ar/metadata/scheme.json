@@ -218,5 +218,8 @@
   "exercise:wordy:source": "مستوحى من أحد الأسئلة المولَّدة في لعبة Extreme Startup.",
   "exercise:space-age:name": "عصر الفضاء",
   "exercise:space-age:blurb": "بمعلومية عمر بالثواني، احسب عمر شخص ما بدلالة السنوات الشمسية لكوكب معطى.",
-  "exercise:space-age:source": "مستوحى جزئيًا من الفصل 1 في درس Chris Pine التفاعلي Learn to Program."
+  "exercise:space-age:source": "مستوحى جزئيًا من الفصل 1 في درس Chris Pine التفاعلي Learn to Program.",
+  "exercise:state-of-tic-tac-toe:name": "حالة تيك تاك تو",
+  "exercise:state-of-tic-tac-toe:blurb": "حدّد حالة اللعب لمباراة في تيك تاك تو.",
+  "exercise:state-of-tic-tac-toe:source": "أنشأه Sascha Mann لمسارج Julia في Exercism Research Experiment."
 }

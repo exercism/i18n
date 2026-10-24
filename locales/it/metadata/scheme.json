@@ -218,5 +218,8 @@
   "exercise:wordy:source": "Ispirato a una delle domande generate nel gioco Extreme Startup.",
   "exercise:space-age:name": "Era spaziale",
   "exercise:space-age:blurb": "Data un'età in secondi, calcola quanti anni ha qualcuno in anni solari di un dato pianeta.",
-  "exercise:space-age:source": "Parzialmente ispirato al Capitolo 1 del tutorial online Learn to Program di Chris Pine."
+  "exercise:space-age:source": "Parzialmente ispirato al Capitolo 1 del tutorial online Learn to Program di Chris Pine.",
+  "exercise:state-of-tic-tac-toe:name": "Stato del tris",
+  "exercise:state-of-tic-tac-toe:blurb": "Determina lo stato di gioco di una partita a tris.",
+  "exercise:state-of-tic-tac-toe:source": "Creato da Sascha Mann per il track Julia dell'Exercism Research Experiment."
 }

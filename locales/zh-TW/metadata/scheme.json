@@ -218,5 +218,8 @@
   "exercise:wordy:source": "靈感來自 Extreme Startup 遊戲中其中一道自動產生的題目。",
   "exercise:space-age:name": "太空時代",
   "exercise:space-age:blurb": "給定以秒為單位的年齡，計算某人在指定行星的太陽年下是幾歲。",
-  "exercise:space-age:source": "部分靈感來自 Chris Pine 線上教學《Learn to Program》的第 1 章。"
+  "exercise:space-age:source": "部分靈感來自 Chris Pine 線上教學《Learn to Program》的第 1 章。",
+  "exercise:state-of-tic-tac-toe:name": "井字遊戲的狀態",
+  "exercise:state-of-tic-tac-toe:blurb": "判斷一場井字遊戲的遊戲狀態。",
+  "exercise:state-of-tic-tac-toe:source": "由 Sascha Mann 為 Exercism Research Experiment 的 Julia track 所建立。"
 }

@@ -218,5 +218,8 @@
   "exercise:wordy:source": "Εμπνευσμένο από μία από τις παραγόμενες ερωτήσεις του παιχνιδιού Extreme Startup.",
   "exercise:space-age:name": "Διαστημική εποχή",
   "exercise:space-age:blurb": "Με δεδομένη μια ηλικία σε δευτερόλεπτα, υπολόγισε πόσο χρονών είναι κάποιος σε ηλιακά έτη ενός δεδομένου πλανήτη.",
-  "exercise:space-age:source": "Εν μέρει εμπνευσμένο από το Κεφάλαιο 1 στον διαδικτυακό οδηγό Learn to Program του Chris Pine."
+  "exercise:space-age:source": "Εν μέρει εμπνευσμένο από το Κεφάλαιο 1 στον διαδικτυακό οδηγό Learn to Program του Chris Pine.",
+  "exercise:state-of-tic-tac-toe:name": "Κατάσταση της τρίλιζας",
+  "exercise:state-of-tic-tac-toe:blurb": "Προσδιόρισε την κατάσταση του παιχνιδιού σε έναν αγώνα τρίλιζας.",
+  "exercise:state-of-tic-tac-toe:source": "Δημιουργήθηκε από τον Sascha Mann για το track Julia του Exercism Research Experiment."
 }
