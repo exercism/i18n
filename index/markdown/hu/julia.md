@@ -390,7 +390,8 @@ This page is generated from [the index](../../json/hu/julia.json) by `scripts/bu
 ### Reverse String (String megfordítása)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/reverse-string/.docs/instructions.md)): [Latest](../../../locales/hu/content/0f/f4/198e46ef06331339f8a44292d7e287bdeeec.md)
-- `instructions.append.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/reverse-string/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/b7/6c/a61e43f7d410ef90ae2a304feec8cf1378c0.md)
+- `instructions.append.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/reverse-string/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/19/67/9c8e877e6103c8bb4ba4ef1a4d781e7a58d6.md)
+  - [`b76ca61e43`](../../../locales/hu/content/b7/6c/a61e43f7d410ef90ae2a304feec8cf1378c0.md)
 - `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/reverse-string/.docs/introduction.md)): [Latest](../../../locales/hu/content/02/23/3e0755e8aa76ba1fa8d6f7f05ae17ff9cc70.md)
 
 ### RNA Transcription (RNS-átírás)
