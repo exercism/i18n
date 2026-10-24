@@ -332,7 +332,8 @@ This page is generated from [the index](../../json/pt-BR/gdscript.json) by `scri
 
 ### Useful GDScript resources (Recursos úteis de GDScript)
 
-- `RESOURCES.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/pt-BR/content/b0/27/66018521635221aea3514ddfeeebc98744fa.md)
+- `RESOURCES.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/pt-BR/content/45/39/cbf8e5b55398eb22552ef040eb7b63fdcbaf.md)
+  - [`b027660185`](../../../locales/pt-BR/content/b0/27/66018521635221aea3514ddfeeebc98744fa.md)
   - [`d8b3a83b68`](../../../locales/pt-BR/content/d8/b3/a83b68e75f1f603986998bedb3d5eafd71b8.md)
 
 ## Shared exercise docs
