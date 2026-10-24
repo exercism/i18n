@@ -206,5 +206,8 @@
   "exercise:circular-buffer:source": "Wikipedia",
   "exercise:simple-linked-list:name": "簡易鏈結串列",
   "exercise:simple-linked-list:blurb": "撰寫一個使用 Element 和 List 的簡易鏈結串列實作。",
-  "exercise:simple-linked-list:source": "靈感來自《Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby》的單向鏈結串列。"
+  "exercise:simple-linked-list:source": "靈感來自《Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby》的單向鏈結串列。",
+  "exercise:run-length-encoding:name": "游程編碼",
+  "exercise:run-length-encoding:blurb": "實作游程編碼與解碼。",
+  "exercise:run-length-encoding:source": "Wikipedia"
 }

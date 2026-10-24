@@ -210,6 +210,10 @@ This page is generated from [the index](../../json/es-419/gdscript.json) by `scr
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/robot-simulator/.docs/instructions.md)): [Latest](../../../locales/es-419/content/0a/c9/6ce0bdfd660ca416dd86b21f64517fa33eb9.md)
 - `instructions.append.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/robot-simulator/.docs/instructions.append.md)): [Latest](../../../locales/es-419/content/5d/88/22108fdcc43785dce923827252a7cd5cc87c.md)
 
+### Run-Length Encoding (Codificación por longitud de rachas)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/run-length-encoding/.docs/instructions.md)): [Latest](../../../locales/es-419/content/fc/8c/e0569424400fd47414d998ffd7278103431f.md)
+
 ### Saddle Points (Puntos de silla)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/saddle-points/.docs/instructions.md)): [Latest](../../../locales/es-419/content/f6/9c/dab9584a340834264ecee97cfd6df709cd21.md)
@@ -318,8 +322,8 @@ This page is generated from [the index](../../json/es-419/gdscript.json) by `scr
 
 ### Installing GDScript locally (Instalar GDScript localmente)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/es-419/content/af/68/336c0416e18d12015c9c8b154ace48b89b47.md)
-  - [`7986e4d227`](../../../locales/es-419/content/79/86/e4d227a47082a0ade5c587a32bb46b99dabd.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/es-419/content/79/86/e4d227a47082a0ade5c587a32bb46b99dabd.md)
+  - [`af68336c04`](../../../locales/es-419/content/af/68/336c0416e18d12015c9c8b154ace48b89b47.md)
   - [`a92cec1dd3`](../../../locales/es-419/content/a9/2c/ec1dd35597abd59eeb4a43e313bc4a0c3fbe.md)
   - [`435c67e3c0`](../../../locales/es-419/content/43/5c/67e3c0809614be9bfc28abaa223f1c9ad166.md)
 

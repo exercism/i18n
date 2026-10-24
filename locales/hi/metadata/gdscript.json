@@ -206,5 +206,8 @@
   "exercise:circular-buffer:source": "Wikipedia",
   "exercise:simple-linked-list:name": "सरल लिंक्ड लिस्ट",
   "exercise:simple-linked-list:blurb": "एक सरल लिंक्ड लिस्ट का कार्यान्वयन लिखिए जो Elements और List का इस्तेमाल करता है।",
-  "exercise:simple-linked-list:source": "'Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby' से प्रेरित, सिंगली लिंक्ड लिस्ट।"
+  "exercise:simple-linked-list:source": "'Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby' से प्रेरित, सिंगली लिंक्ड लिस्ट।",
+  "exercise:run-length-encoding:name": "रन-लेंथ एन्कोडिंग",
+  "exercise:run-length-encoding:blurb": "रन-लेंथ एन्कोडिंग और डिकोडिंग लागू कीजिए।",
+  "exercise:run-length-encoding:source": "Wikipedia"
 }

@@ -206,5 +206,8 @@
   "exercise:circular-buffer:source": "Wikipedia",
   "exercise:simple-linked-list:name": "Lista concatenata semplice",
   "exercise:simple-linked-list:blurb": "Scrivi una semplice implementazione di lista concatenata che usa Elements e una List.",
-  "exercise:simple-linked-list:source": "Ispirato a «Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby», liste concatenate singole."
+  "exercise:simple-linked-list:source": "Ispirato a «Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby», liste concatenate singole.",
+  "exercise:run-length-encoding:name": "Codifica run-length",
+  "exercise:run-length-encoding:blurb": "Implementa la codifica e la decodifica run-length.",
+  "exercise:run-length-encoding:source": "Wikipedia"
 }

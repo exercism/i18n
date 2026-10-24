@@ -206,5 +206,8 @@
   "exercise:circular-buffer:source": "Wikipedia",
   "exercise:simple-linked-list:name": "Egyszerű láncolt lista",
   "exercise:simple-linked-list:blurb": "Írj egy egyszerű láncolt lista megvalósítást, amely Element-eket és egy List-et használ.",
-  "exercise:simple-linked-list:source": "Az egyszeresen láncolt listák ötletét a „Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby” című könyv adta."
+  "exercise:simple-linked-list:source": "Az egyszeresen láncolt listák ötletét a „Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby” című könyv adta.",
+  "exercise:run-length-encoding:name": "Futáshossz-kódolás",
+  "exercise:run-length-encoding:blurb": "Valósítsd meg a futáshossz-kódolást és a dekódolást.",
+  "exercise:run-length-encoding:source": "Wikipedia"
 }

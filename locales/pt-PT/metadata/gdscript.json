@@ -206,5 +206,8 @@
   "exercise:circular-buffer:source": "Wikipedia",
   "exercise:simple-linked-list:name": "Lista ligada simples",
   "exercise:simple-linked-list:blurb": "Escreve uma implementação simples de lista ligada que usa Elements e uma List.",
-  "exercise:simple-linked-list:source": "Inspirado em «Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby», listas simplesmente ligadas."
+  "exercise:simple-linked-list:source": "Inspirado em «Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby», listas simplesmente ligadas.",
+  "exercise:run-length-encoding:name": "Codificação run-length",
+  "exercise:run-length-encoding:blurb": "Implementa a codificação e a descodificação run-length.",
+  "exercise:run-length-encoding:source": "Wikipedia"
 }

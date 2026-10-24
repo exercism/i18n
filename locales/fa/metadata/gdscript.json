@@ -206,5 +206,8 @@
   "exercise:circular-buffer:source": "Wikipedia",
   "exercise:simple-linked-list:name": "لیست پیوندی ساده",
   "exercise:simple-linked-list:blurb": "یک پیاده‌سازی ساده از لیست پیوندی بنویسید که از `Element`ها و یک `List` استفاده می‌کند.",
-  "exercise:simple-linked-list:source": "با الهام از «Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby»، لیست‌های پیوندی یک‌طرفه."
+  "exercise:simple-linked-list:source": "با الهام از «Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby»، لیست‌های پیوندی یک‌طرفه.",
+  "exercise:run-length-encoding:name": "کدگذاری طول اجرا",
+  "exercise:run-length-encoding:blurb": "کدگذاری و کدگشایی طول اجرا را پیاده‌سازی کنید.",
+  "exercise:run-length-encoding:source": "Wikipedia"
 }

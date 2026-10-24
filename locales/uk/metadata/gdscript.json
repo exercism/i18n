@@ -206,5 +206,8 @@
   "exercise:circular-buffer:source": "Wikipedia",
   "exercise:simple-linked-list:name": "Простий звʼязаний список",
   "exercise:simple-linked-list:blurb": "Напишіть просту реалізацію звʼязаного списку, яка використовує елементи та список.",
-  "exercise:simple-linked-list:source": "За мотивами книги «Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby», розділ про однозвʼязні списки."
+  "exercise:simple-linked-list:source": "За мотивами книги «Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby», розділ про однозвʼязні списки.",
+  "exercise:run-length-encoding:name": "Кодування довжин серій",
+  "exercise:run-length-encoding:blurb": "Реалізуйте кодування та декодування довжин серій.",
+  "exercise:run-length-encoding:source": "Wikipedia"
 }

@@ -210,6 +210,10 @@ This page is generated from [the index](../../json/zh-CN/gdscript.json) by `scri
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/robot-simulator/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/0a/c9/6ce0bdfd660ca416dd86b21f64517fa33eb9.md)
 - `instructions.append.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/robot-simulator/.docs/instructions.append.md)): [Latest](../../../locales/zh-CN/content/5d/88/22108fdcc43785dce923827252a7cd5cc87c.md)
 
+### Run-Length Encoding (游程编码)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/run-length-encoding/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/fc/8c/e0569424400fd47414d998ffd7278103431f.md)
+
 ### Saddle Points (鞍点)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/saddle-points/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/f6/9c/dab9584a340834264ecee97cfd6df709cd21.md)
@@ -318,8 +322,8 @@ This page is generated from [the index](../../json/zh-CN/gdscript.json) by `scri
 
 ### Installing GDScript locally (在本地安装 GDScript)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/zh-CN/content/af/68/336c0416e18d12015c9c8b154ace48b89b47.md)
-  - [`7986e4d227`](../../../locales/zh-CN/content/79/86/e4d227a47082a0ade5c587a32bb46b99dabd.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/gdscript/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/zh-CN/content/79/86/e4d227a47082a0ade5c587a32bb46b99dabd.md)
+  - [`af68336c04`](../../../locales/zh-CN/content/af/68/336c0416e18d12015c9c8b154ace48b89b47.md)
   - [`a92cec1dd3`](../../../locales/zh-CN/content/a9/2c/ec1dd35597abd59eeb4a43e313bc4a0c3fbe.md)
   - [`435c67e3c0`](../../../locales/zh-CN/content/43/5c/67e3c0809614be9bfc28abaa223f1c9ad166.md)
 

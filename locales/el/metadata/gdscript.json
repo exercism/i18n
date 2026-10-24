@@ -206,5 +206,8 @@
   "exercise:circular-buffer:source": "Wikipedia",
   "exercise:simple-linked-list:name": "Απλή συνδεδεμένη λίστα",
   "exercise:simple-linked-list:blurb": "Γράψε μια απλή υλοποίηση συνδεδεμένης λίστας που χρησιμοποιεί Elements και μια List.",
-  "exercise:simple-linked-list:source": "Εμπνευσμένο από το \"Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby\", τις απλά συνδεδεμένες λίστες."
+  "exercise:simple-linked-list:source": "Εμπνευσμένο από το \"Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby\", τις απλά συνδεδεμένες λίστες.",
+  "exercise:run-length-encoding:name": "Κωδικοποίηση μήκους σειράς",
+  "exercise:run-length-encoding:blurb": "Υλοποίησε την κωδικοποίηση και την αποκωδικοποίηση μήκους σειράς.",
+  "exercise:run-length-encoding:source": "Wikipedia"
 }

@@ -206,5 +206,8 @@
   "exercise:circular-buffer:source": "Wikipedia",
   "exercise:simple-linked-list:name": "সরল লিংকড লিস্ট",
   "exercise:simple-linked-list:blurb": "Element ও List ব্যবহার করে একটি সরল লিংকড লিস্ট বাস্তবায়ন লিখুন।",
-  "exercise:simple-linked-list:source": "'Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby' থেকে অনুপ্রাণিত, সিঙ্গলি লিংকড লিস্ট।"
+  "exercise:simple-linked-list:source": "'Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby' থেকে অনুপ্রাণিত, সিঙ্গলি লিংকড লিস্ট।",
+  "exercise:run-length-encoding:name": "রান-লেংথ এনকোডিং",
+  "exercise:run-length-encoding:blurb": "রান-লেংথ এনকোডিং ও ডিকোডিং ইমপ্লিমেন্ট করুন।",
+  "exercise:run-length-encoding:source": "Wikipedia"
 }

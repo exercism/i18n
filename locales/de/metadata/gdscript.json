@@ -206,5 +206,8 @@
   "exercise:circular-buffer:source": "Wikipedia",
   "exercise:simple-linked-list:name": "Einfache verkettete Liste",
   "exercise:simple-linked-list:blurb": "Schreibe eine einfache Implementierung einer verketteten Liste, die Elemente und eine Liste verwendet.",
-  "exercise:simple-linked-list:source": "Inspiriert von „Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby“, einfach verkettete Listen."
+  "exercise:simple-linked-list:source": "Inspiriert von „Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby“, einfach verkettete Listen.",
+  "exercise:run-length-encoding:name": "Lauflängenkodierung",
+  "exercise:run-length-encoding:blurb": "Implementiere die Lauflängenkodierung und die dazugehörige Dekodierung.",
+  "exercise:run-length-encoding:source": "Wikipedia"
 }

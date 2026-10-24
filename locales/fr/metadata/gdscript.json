@@ -206,5 +206,8 @@
   "exercise:circular-buffer:source": "Wikipedia",
   "exercise:simple-linked-list:name": "Liste chaînée simple",
   "exercise:simple-linked-list:blurb": "Écris une implémentation simple de liste chaînée qui utilise des Elements et une List.",
-  "exercise:simple-linked-list:source": "Inspiré par « Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby », les listes simplement chaînées."
+  "exercise:simple-linked-list:source": "Inspiré par « Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby », les listes simplement chaînées.",
+  "exercise:run-length-encoding:name": "Codage par plages",
+  "exercise:run-length-encoding:blurb": "Implémenter le codage par plages et son décodage.",
+  "exercise:run-length-encoding:source": "Wikipedia"
 }

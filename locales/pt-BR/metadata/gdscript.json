@@ -206,5 +206,8 @@
   "exercise:circular-buffer:source": "Wikipedia",
   "exercise:simple-linked-list:name": "Lista encadeada simples",
   "exercise:simple-linked-list:blurb": "Escreva uma implementação simples de lista encadeada que usa Elementos e uma Lista.",
-  "exercise:simple-linked-list:source": "Inspirado em 'Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby', listas simplesmente encadeadas."
+  "exercise:simple-linked-list:source": "Inspirado em 'Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby', listas simplesmente encadeadas.",
+  "exercise:run-length-encoding:name": "Codificação run-length",
+  "exercise:run-length-encoding:blurb": "Implemente a codificação e a decodificação run-length.",
+  "exercise:run-length-encoding:source": "Wikipedia"
 }
