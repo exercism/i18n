@@ -45,6 +45,7 @@ This page is generated from [the index](../../json/el/julia.json) by `scripts/bu
 ### Armstrong Numbers (Αριθμοί Armstrong)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/armstrong-numbers/.docs/instructions.md)): [Latest](../../../locales/el/content/5e/56/bbe4656fc837237e9d778b2d0d614554330b.md)
+- `instructions.append.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/armstrong-numbers/.docs/instructions.append.md)): [Latest](../../../locales/el/content/41/dc/c83073ded9a4535f7d1dfc0bd823adf85bee.md)
 
 ### Atbash Cipher (Κρυπτογράφημα Atbash)
 

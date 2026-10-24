@@ -415,6 +415,7 @@
     "exercises/practice/anagram/.docs/instructions.append.md": ["0f5c35b6aedbba133c851ccfb31cfecccaa3e298"],
     "exercises/practice/anagram/.docs/instructions.md": ["dca24f52627e3ba6b999322fb89d8c686c3ec634"],
     "exercises/practice/anagram/.docs/introduction.md": ["1acbdf00b059f44fb4ce4c00be743d24eda86d60"],
+    "exercises/practice/armstrong-numbers/.docs/instructions.append.md": ["41dcc83073ded9a4535f7d1dfc0bd823adf85bee"],
     "exercises/practice/armstrong-numbers/.docs/instructions.md": ["5e56bbe4656fc837237e9d778b2d0d614554330b"],
     "exercises/practice/atbash-cipher/.docs/instructions.md": ["1e7627b1e5989878f0f1bf735feb1300de7a2664"],
     "exercises/practice/baffling-birthdays/.docs/hints.md": ["cabaea6e30937d1741ebd054a23b0f907f6b6baa"],

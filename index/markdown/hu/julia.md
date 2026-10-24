@@ -49,6 +49,7 @@ This page is generated from [the index](../../json/hu/julia.json) by `scripts/bu
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/armstrong-numbers/.docs/instructions.md)): [Latest](../../../locales/hu/content/5e/56/bbe4656fc837237e9d778b2d0d614554330b.md)
   - [`452a996fb1`](../../../locales/hu/content/45/2a/996fb189ac771da322205d53f532bb238d3e.md)
+- `instructions.append.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/armstrong-numbers/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/41/dc/c83073ded9a4535f7d1dfc0bd823adf85bee.md)
 
 ### Atbash Cipher (Atbash-rejtjel)
 
@@ -304,7 +305,7 @@ This page is generated from [the index](../../json/hu/julia.json) by `scripts/bu
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/palindrome-products/.docs/instructions.md)): [Latest](../../../locales/hu/content/aa/c6/6521ce736be8ce737ea709a5b1eed507cbb8.md)
 
-### Pangram
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
   - [`d5698bc2a2`](../../../locales/hu/content/d5/69/8bc2a292baf2fb128de3543b748165088c4f.md)
