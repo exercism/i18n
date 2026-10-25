@@ -414,5 +414,8 @@
   "exercise:bank-account:name": "Bankszámla",
   "exercise:bank-account:blurb": "Szimulálj egy banki számlát, amely támogatja a nyitást/zárást, a pénzfelvételt és a befizetést. Vigyázz a párhuzamos tranzakciókra!",
   "exercise:parallel-letter-frequency:name": "Párhuzamos betűgyakoriság",
-  "exercise:parallel-letter-frequency:blurb": "Számold meg a betűk gyakoriságát szövegekben párhuzamos számítással."
+  "exercise:parallel-letter-frequency:blurb": "Számold meg a betűk gyakoriságát szövegekben párhuzamos számítással.",
+  "exercise:paasio:name": "PaaS I/O",
+  "exercise:paasio:blurb": "Készíts jelentést a hálózati IO-statisztikákról.",
+  "exercise:paasio:source": "Brian Matsuo"
 }

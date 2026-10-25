@@ -414,5 +414,8 @@
   "exercise:bank-account:name": "Банківський рахунок",
   "exercise:bank-account:blurb": "Змоделюйте банківський рахунок, який підтримує відкриття й закриття, зняття та внесення коштів. Обережно з конкурентними транзакціями!",
   "exercise:parallel-letter-frequency:name": "Паралельний підрахунок частоти літер",
-  "exercise:parallel-letter-frequency:blurb": "Порахуйте частоту літер у текстах, використовуючи паралельні обчислення."
+  "exercise:parallel-letter-frequency:blurb": "Порахуйте частоту літер у текстах, використовуючи паралельні обчислення.",
+  "exercise:paasio:name": "PaaS I/O",
+  "exercise:paasio:blurb": "Повідомте статистику мережевого введення-виведення.",
+  "exercise:paasio:source": "Brian Matsuo"
 }

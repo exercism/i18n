@@ -348,6 +348,11 @@ This page is generated from [the index](../../json/it/roc.json) by `scripts/buil
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/octal/.docs/instructions.md)): [Latest](../../../locales/it/content/00/74/560343bb394f941f4da6cc2b40a6c81fbf0d.md)
 
+### PaaS I/O
+
+- `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/paasio/.docs/instructions.md)): [Latest](../../../locales/it/content/59/56/447487e0c549796d649508c77d36a8019479.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/paasio/.docs/instructions.append.md)): [Latest](../../../locales/it/content/a0/5e/05d19b739fd2cac8ac86660e9599bb25bd52.md)
+
 ### Palindrome Products (Prodotti palindromi)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/palindrome-products/.docs/instructions.md)): [Latest](../../../locales/it/content/aa/c6/6521ce736be8ce737ea709a5b1eed507cbb8.md)

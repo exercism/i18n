@@ -414,5 +414,8 @@
   "exercise:bank-account:name": "銀行口座",
   "exercise:bank-account:blurb": "開設・閉鎖、引き出し、入金をサポートする銀行口座をシミュレートしてください。同時トランザクションに注意してください！",
   "exercise:parallel-letter-frequency:name": "並列文字頻度",
-  "exercise:parallel-letter-frequency:blurb": "並列計算を使って、テキスト中の文字の出現頻度を数えます。"
+  "exercise:parallel-letter-frequency:blurb": "並列計算を使って、テキスト中の文字の出現頻度を数えます。",
+  "exercise:paasio:name": "PaaS I/O",
+  "exercise:paasio:blurb": "ネットワークI/Oの統計を報告します。",
+  "exercise:paasio:source": "Brian Matsuo"
 }

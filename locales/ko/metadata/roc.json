@@ -414,5 +414,8 @@
   "exercise:camicia:blurb": "카드 게임을 시뮬레이션하고, 승부가 끝나는지 아니면 무한 루프에 빠지는지 판단해요.",
   "exercise:camicia:source": "Beggar-My-Neighbour",
   "exercise:parallel-letter-frequency:name": "병렬 문자 빈도",
-  "exercise:parallel-letter-frequency:blurb": "병렬 연산을 사용해 텍스트에서 문자의 빈도를 세어요."
+  "exercise:parallel-letter-frequency:blurb": "병렬 연산을 사용해 텍스트에서 문자의 빈도를 세어요.",
+  "exercise:paasio:name": "PaaS I/O",
+  "exercise:paasio:blurb": "네트워크 I/O 통계를 보고해요.",
+  "exercise:paasio:source": "Brian Matsuo"
 }

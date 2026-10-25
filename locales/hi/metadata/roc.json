@@ -414,5 +414,8 @@
   "exercise:bank-account:name": "बैंक खाता",
   "exercise:bank-account:blurb": "ऐसा बैंक खाता बनाइए जो खाता खोलना और बंद करना, पैसे निकालना और जमा करना संभाल सके, और एक साथ चलने वाले लेन-देन का ध्यान रखिए!",
   "exercise:parallel-letter-frequency:name": "समानांतर अक्षर आवृत्ति",
-  "exercise:parallel-letter-frequency:blurb": "समानांतर गणना का इस्तेमाल करके टेक्स्टों में अक्षरों की आवृत्ति गिनिए।"
+  "exercise:parallel-letter-frequency:blurb": "समानांतर गणना का इस्तेमाल करके टेक्स्टों में अक्षरों की आवृत्ति गिनिए।",
+  "exercise:paasio:name": "PaaS I/O",
+  "exercise:paasio:blurb": "नेटवर्क IO के आँकड़े बताइए।",
+  "exercise:paasio:source": "Brian Matsuo"
 }

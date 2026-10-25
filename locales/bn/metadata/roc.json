@@ -414,5 +414,8 @@
   "exercise:camicia:blurb": "কার্ড গেমটি সিমুলেট করুন এবং ম্যাচটি শেষ হয় নাকি অসীম লুপে ঢুকে পড়ে তা নির্ধারণ করুন।",
   "exercise:camicia:source": "Beggar-My-Neighbour",
   "exercise:parallel-letter-frequency:name": "প্যারালাল অক্ষর ফ্রিকোয়েন্সি",
-  "exercise:parallel-letter-frequency:blurb": "প্যারালাল কম্পিউটেশন ব্যবহার করে টেক্সটে অক্ষরগুলোর ফ্রিকোয়েন্সি গণনা করুন।"
+  "exercise:parallel-letter-frequency:blurb": "প্যারালাল কম্পিউটেশন ব্যবহার করে টেক্সটে অক্ষরগুলোর ফ্রিকোয়েন্সি গণনা করুন।",
+  "exercise:paasio:name": "PaaS I/O",
+  "exercise:paasio:blurb": "নেটওয়ার্ক IO-এর পরিসংখ্যান রিপোর্ট করুন।",
+  "exercise:paasio:source": "Brian Matsuo"
 }
