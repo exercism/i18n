@@ -602,7 +602,8 @@ This page is generated from [the index](../../json/bn/roc.json) by `scripts/buil
 ### Swift Scheduling (দ্রুত সময়সূচি)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/swift-scheduling/.docs/instructions.md)): [Latest](../../../locales/bn/content/64/23/a1066b7347cdd50a8f63f70b9293acdc1fa7.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/swift-scheduling/.docs/instructions.append.md)): [Latest](../../../locales/bn/content/d2/a1/60e13f9e7cb7a6c0c838332d02acce52bb77.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/swift-scheduling/.docs/instructions.append.md)): [Latest](../../../locales/bn/content/2b/60/86525b244c5535e08a7545a15d7ad899c926.md)
+  - [`d2a160e13f`](../../../locales/bn/content/d2/a1/60e13f9e7cb7a6c0c838332d02acce52bb77.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/swift-scheduling/.docs/introduction.md)): [Latest](../../../locales/bn/content/23/22/f813fff1b2d03718b7f2764eed21f7b2d627.md)
 
 ### Tournament (টুর্নামেন্ট)
