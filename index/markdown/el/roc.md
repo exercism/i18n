@@ -56,7 +56,8 @@ This page is generated from [the index](../../json/el/roc.json) by `scripts/buil
 ### Bank Account (Τραπεζικός Λογαριασμός)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/bank-account/.docs/instructions.md)): [Latest](../../../locales/el/content/73/98/fbea1882dcf62be8957af20bc28779a93cbd.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/bank-account/.docs/instructions.append.md)): [Latest](../../../locales/el/content/22/2d/c560b587fb93fd283ff4e1993b763db25911.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/bank-account/.docs/instructions.append.md)): [Latest](../../../locales/el/content/92/4e/5b11f43c09d497bb34c4d780ef1759aaa5a1.md)
+  - [`222dc560b5`](../../../locales/el/content/22/2d/c560b587fb93fd283ff4e1993b763db25911.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/bank-account/.docs/introduction.md)): [Latest](../../../locales/el/content/65/0b/5d9c46f00d99296ce5cb86ae7df14e3c1302.md)
 
 ### Binary (Δυαδικό)

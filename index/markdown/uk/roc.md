@@ -56,7 +56,8 @@ This page is generated from [the index](../../json/uk/roc.json) by `scripts/buil
 ### Bank Account (Банківський рахунок)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/bank-account/.docs/instructions.md)): [Latest](../../../locales/uk/content/73/98/fbea1882dcf62be8957af20bc28779a93cbd.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/bank-account/.docs/instructions.append.md)): [Latest](../../../locales/uk/content/22/2d/c560b587fb93fd283ff4e1993b763db25911.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/bank-account/.docs/instructions.append.md)): [Latest](../../../locales/uk/content/92/4e/5b11f43c09d497bb34c4d780ef1759aaa5a1.md)
+  - [`222dc560b5`](../../../locales/uk/content/22/2d/c560b587fb93fd283ff4e1993b763db25911.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/bank-account/.docs/introduction.md)): [Latest](../../../locales/uk/content/65/0b/5d9c46f00d99296ce5cb86ae7df14e3c1302.md)
 
 ### Binary (Двійкове число)
