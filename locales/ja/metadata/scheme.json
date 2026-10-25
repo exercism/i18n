@@ -221,5 +221,7 @@
   "exercise:space-age:source": "Chris Pineのオンラインチュートリアル『Learn to Program』の第1章から一部着想を得ています。",
   "exercise:state-of-tic-tac-toe:name": "三目並べの状態",
   "exercise:state-of-tic-tac-toe:blurb": "三目並べの対局の状態を判定します。",
-  "exercise:state-of-tic-tac-toe:source": "Sascha MannがExercism Research ExperimentのJuliaトラックのために作成しました。"
+  "exercise:state-of-tic-tac-toe:source": "Sascha MannがExercism Research ExperimentのJuliaトラックのために作成しました。",
+  "exercise:flower-field:name": "花畑",
+  "exercise:flower-field:blurb": "庭にあるすべての花に印を付けます。"
 }

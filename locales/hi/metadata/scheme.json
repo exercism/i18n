@@ -221,5 +221,7 @@
   "exercise:space-age:source": "Chris Pine के ऑनलाइन Learn to Program ट्यूटोरियल के अध्याय 1 से आंशिक रूप से प्रेरित।",
   "exercise:state-of-tic-tac-toe:name": "टिक-टैक-टो की स्थिति",
   "exercise:state-of-tic-tac-toe:blurb": "टिक-टैक-टो के एक मैच की खेल-स्थिति तय कीजिए।",
-  "exercise:state-of-tic-tac-toe:source": "Sascha Mann द्वारा Exercism Research Experiment के Julia ट्रैक के लिए बनाया गया।"
+  "exercise:state-of-tic-tac-toe:source": "Sascha Mann द्वारा Exercism Research Experiment के Julia ट्रैक के लिए बनाया गया।",
+  "exercise:flower-field:name": "फूलों का खेत",
+  "exercise:flower-field:blurb": "बगीचे के सभी फूलों को चिह्नित कीजिए।"
 }

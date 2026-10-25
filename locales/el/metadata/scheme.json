@@ -221,5 +221,7 @@
   "exercise:space-age:source": "Εν μέρει εμπνευσμένο από το Κεφάλαιο 1 στον διαδικτυακό οδηγό Learn to Program του Chris Pine.",
   "exercise:state-of-tic-tac-toe:name": "Κατάσταση της τρίλιζας",
   "exercise:state-of-tic-tac-toe:blurb": "Προσδιόρισε την κατάσταση του παιχνιδιού σε έναν αγώνα τρίλιζας.",
-  "exercise:state-of-tic-tac-toe:source": "Δημιουργήθηκε από τον Sascha Mann για το track Julia του Exercism Research Experiment."
+  "exercise:state-of-tic-tac-toe:source": "Δημιουργήθηκε από τον Sascha Mann για το track Julia του Exercism Research Experiment.",
+  "exercise:flower-field:name": "Χωράφι με Λουλούδια",
+  "exercise:flower-field:blurb": "Σημείωσε όλα τα λουλούδια σε έναν κήπο."
 }

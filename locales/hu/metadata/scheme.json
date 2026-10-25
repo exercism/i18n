@@ -221,5 +221,7 @@
   "exercise:space-age:source": "Részben Chris Pine Learn to Program online oktatóanyagának 1. fejezete ihlette.",
   "exercise:state-of-tic-tac-toe:name": "Az amőba állása",
   "exercise:state-of-tic-tac-toe:blurb": "Határozd meg egy amőbajátszma állapotát.",
-  "exercise:state-of-tic-tac-toe:source": "Sascha Mann készítette az Exercism Research Experiment Julia kurzusa számára."
+  "exercise:state-of-tic-tac-toe:source": "Sascha Mann készítette az Exercism Research Experiment Julia kurzusa számára.",
+  "exercise:flower-field:name": "Virágmező",
+  "exercise:flower-field:blurb": "Jelöld meg a kert összes virágát."
 }

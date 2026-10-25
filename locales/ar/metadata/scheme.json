@@ -221,5 +221,7 @@
   "exercise:space-age:source": "مستوحى جزئيًا من الفصل 1 في درس Chris Pine التفاعلي Learn to Program.",
   "exercise:state-of-tic-tac-toe:name": "حالة تيك تاك تو",
   "exercise:state-of-tic-tac-toe:blurb": "حدّد حالة اللعب لمباراة في تيك تاك تو.",
-  "exercise:state-of-tic-tac-toe:source": "أنشأه Sascha Mann لمسارج Julia في Exercism Research Experiment."
+  "exercise:state-of-tic-tac-toe:source": "أنشأه Sascha Mann لمسارج Julia في Exercism Research Experiment.",
+  "exercise:flower-field:name": "حقل الأزهار",
+  "exercise:flower-field:blurb": "حدّد كل الأزهار في حديقة."
 }

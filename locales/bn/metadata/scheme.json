@@ -221,5 +221,7 @@
   "exercise:space-age:source": "Chris Pine-এর অনলাইন Learn to Program টিউটোরিয়ালের প্রথম অধ্যায় থেকে আংশিক অনুপ্রাণিত।",
   "exercise:state-of-tic-tac-toe:name": "টিক-ট্যাক-টোর অবস্থা",
   "exercise:state-of-tic-tac-toe:blurb": "একটি টিক-ট্যাক-টো ম্যাচের গেম অবস্থা নির্ধারণ করুন।",
-  "exercise:state-of-tic-tac-toe:source": "Sascha Mann তৈরি করেছেন Exercism Research Experiment-এর Julia ট্র্যাকের জন্য।"
+  "exercise:state-of-tic-tac-toe:source": "Sascha Mann তৈরি করেছেন Exercism Research Experiment-এর Julia ট্র্যাকের জন্য।",
+  "exercise:flower-field:name": "ফুলের ক্ষেত",
+  "exercise:flower-field:blurb": "একটি বাগানের সব ফুল চিহ্নিত করুন।"
 }

@@ -221,5 +221,7 @@
   "exercise:space-age:source": "Parcialmente inspirado en el capítulo 1 del tutorial en línea Learn to Program de Chris Pine.",
   "exercise:state-of-tic-tac-toe:name": "Estado del tres en línea",
   "exercise:state-of-tic-tac-toe:blurb": "Determina el estado del juego de una partida de tres en línea.",
-  "exercise:state-of-tic-tac-toe:source": "Creado por Sascha Mann para el track de Julia del Exercism Research Experiment."
+  "exercise:state-of-tic-tac-toe:source": "Creado por Sascha Mann para el track de Julia del Exercism Research Experiment.",
+  "exercise:flower-field:name": "Campo de flores",
+  "exercise:flower-field:blurb": "Marca todas las flores de un jardín."
 }

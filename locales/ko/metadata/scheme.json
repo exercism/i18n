@@ -221,5 +221,7 @@
   "exercise:space-age:source": "Chris Pine의 온라인 Learn to Program 튜토리얼 1장에서 부분적으로 영감을 받았어요.",
   "exercise:state-of-tic-tac-toe:name": "틱택토의 상태",
   "exercise:state-of-tic-tac-toe:blurb": "틱택토 한 판의 게임 상태를 판별해요.",
-  "exercise:state-of-tic-tac-toe:source": "Sascha Mann이 Exercism Research Experiment의 Julia 트랙을 위해 만들었어요."
+  "exercise:state-of-tic-tac-toe:source": "Sascha Mann이 Exercism Research Experiment의 Julia 트랙을 위해 만들었어요.",
+  "exercise:flower-field:name": "꽃밭",
+  "exercise:flower-field:blurb": "정원에 있는 꽃을 모두 표시해요."
 }

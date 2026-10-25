@@ -221,5 +221,7 @@
   "exercise:space-age:source": "Partiellement inspiré par le chapitre 1 du tutoriel en ligne Learn to Program de Chris Pine.",
   "exercise:state-of-tic-tac-toe:name": "État du morpion",
   "exercise:state-of-tic-tac-toe:blurb": "Détermine l'état d'une partie de morpion.",
-  "exercise:state-of-tic-tac-toe:source": "Créé par Sascha Mann pour le parcours Julia de l'Exercism Research Experiment."
+  "exercise:state-of-tic-tac-toe:source": "Créé par Sascha Mann pour le parcours Julia de l'Exercism Research Experiment.",
+  "exercise:flower-field:name": "Champ de fleurs",
+  "exercise:flower-field:blurb": "Marque toutes les fleurs d'un jardin."
 }

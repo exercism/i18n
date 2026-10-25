@@ -221,5 +221,7 @@
   "exercise:space-age:source": "تا حدی با الهام از فصل ۱ از آموزش آنلاین Learn to Program نوشته‌ی Chris Pine.",
   "exercise:state-of-tic-tac-toe:name": "وضعیت بازی دوز",
   "exercise:state-of-tic-tac-toe:blurb": "وضعیت بازی را در یک دست از بازی دوز تعیین کنید.",
-  "exercise:state-of-tic-tac-toe:source": "ساخته‌ی Sascha Mann برای مسیر Julia در Exercism Research Experiment."
+  "exercise:state-of-tic-tac-toe:source": "ساخته‌ی Sascha Mann برای مسیر Julia در Exercism Research Experiment.",
+  "exercise:flower-field:name": "دشت گل",
+  "exercise:flower-field:blurb": "همه‌ی گل‌های یک باغ را علامت بزنید."
 }

@@ -89,6 +89,11 @@ This page is generated from [the index](../../json/ko/scheme.json) by `scripts/b
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/eliuds-eggs/.docs/instructions.md)): [Latest](../../../locales/ko/content/b0/c2/df593c0c15f1f94dfc13bddacffd6b0f5ddc.md)
 - `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/eliuds-eggs/.docs/introduction.md)): [Latest](../../../locales/ko/content/2b/2e/5c43d8b2546885ba33bb6c3c8bdc88e3b0dc.md)
 
+### Flower Field (꽃밭)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/flower-field/.docs/instructions.md)): [Latest](../../../locales/ko/content/bb/da/e0c2cb1fa4a25852a885a02a4f42b9b677e7.md)
+- `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/flower-field/.docs/introduction.md)): [Latest](../../../locales/ko/content/af/9b/6153617f87f5d4e8ce3ab55e4aa805a21a04.md)
+
 ### Forth
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/forth/.docs/instructions.md)): [Latest](../../../locales/ko/content/91/ad/26e6e9cbd2d45e452071e2daf79156cd7186.md)

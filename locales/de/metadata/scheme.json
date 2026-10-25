@@ -221,5 +221,7 @@
   "exercise:space-age:source": "Teilweise inspiriert von Kapitel 1 in Chris Pines Online-Tutorial Learn to Program.",
   "exercise:state-of-tic-tac-toe:name": "Zustand von Tic-Tac-Toe",
   "exercise:state-of-tic-tac-toe:blurb": "Bestimme den Spielzustand einer Partie Tic-Tac-Toe.",
-  "exercise:state-of-tic-tac-toe:source": "Erstellt von Sascha Mann für den Julia-Track des Exercism Research Experiment."
+  "exercise:state-of-tic-tac-toe:source": "Erstellt von Sascha Mann für den Julia-Track des Exercism Research Experiment.",
+  "exercise:flower-field:name": "Blumenfeld",
+  "exercise:flower-field:blurb": "Markiere alle Blumen in einem Garten."
 }

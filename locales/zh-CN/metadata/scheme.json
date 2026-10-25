@@ -221,5 +221,7 @@
   "exercise:space-age:source": "部分灵感来自 Chris Pine 的在线教程 Learn to Program 第 1 章。",
   "exercise:state-of-tic-tac-toe:name": "井字棋的状态",
   "exercise:state-of-tic-tac-toe:blurb": "判断一局井字棋的游戏状态。",
-  "exercise:state-of-tic-tac-toe:source": "由 Sascha Mann 为 Exercism 研究实验的 Julia 赛道创建。"
+  "exercise:state-of-tic-tac-toe:source": "由 Sascha Mann 为 Exercism 研究实验的 Julia 赛道创建。",
+  "exercise:flower-field:name": "花田",
+  "exercise:flower-field:blurb": "标出花园里所有的花。"
 }
