@@ -370,7 +370,8 @@ This page is generated from [the index](../../json/bn/roc.json) by `scripts/buil
 ### Parallel Letter Frequency (প্যারালাল অক্ষর ফ্রিকোয়েন্সি)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/parallel-letter-frequency/.docs/instructions.md)): [Latest](../../../locales/bn/content/61/47/b90af7ffabb5b826dc5a6d0a6439859335c7.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/parallel-letter-frequency/.docs/instructions.append.md)): [Latest](../../../locales/bn/content/e3/c1/dbce6bed611eaa7fadeb8a9a784bda568a85.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/parallel-letter-frequency/.docs/instructions.append.md)): [Latest](../../../locales/bn/content/2a/08/5773fde59e971be60bafa430657f4a4ce2f4.md)
+  - [`e3c1dbce6b`](../../../locales/bn/content/e3/c1/dbce6bed611eaa7fadeb8a9a784bda568a85.md)
 
 ### Pascal's Triangle (প্যাসকেলের ত্রিভুজ)
 

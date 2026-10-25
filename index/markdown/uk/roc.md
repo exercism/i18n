@@ -370,7 +370,8 @@ This page is generated from [the index](../../json/uk/roc.json) by `scripts/buil
 ### Parallel Letter Frequency (Паралельний підрахунок частоти літер)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/parallel-letter-frequency/.docs/instructions.md)): [Latest](../../../locales/uk/content/61/47/b90af7ffabb5b826dc5a6d0a6439859335c7.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/parallel-letter-frequency/.docs/instructions.append.md)): [Latest](../../../locales/uk/content/e3/c1/dbce6bed611eaa7fadeb8a9a784bda568a85.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/parallel-letter-frequency/.docs/instructions.append.md)): [Latest](../../../locales/uk/content/2a/08/5773fde59e971be60bafa430657f4a4ce2f4.md)
+  - [`e3c1dbce6b`](../../../locales/uk/content/e3/c1/dbce6bed611eaa7fadeb8a9a784bda568a85.md)
 
 ### Pascal's Triangle (Трикутник Паскаля)
 
