@@ -50,7 +50,8 @@ This page is generated from [the index](../../json/es-ES/roc.json) by `scripts/b
 ### Baffling Birthdays (Cumpleaños desconcertantes)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/baffling-birthdays/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/a0/1e/c86796ac6bc6e2873dca01003a8e5f02ee32.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/baffling-birthdays/.docs/instructions.append.md)): [Latest](../../../locales/es-ES/content/81/e6/4513ae3c8973789ada4177ae86df2e29a970.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/baffling-birthdays/.docs/instructions.append.md)): [Latest](../../../locales/es-ES/content/6d/b1/1c6692b5457fe0af6a0fb4b7e50a542bee74.md)
+  - [`81e64513ae`](../../../locales/es-ES/content/81/e6/4513ae3c8973789ada4177ae86df2e29a970.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/baffling-birthdays/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/97/da/bd1e6cfffbcb4a20748b3b328e8cbc284b98.md)
 
 ### Bank Account (Cuenta bancaria)
