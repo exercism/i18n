@@ -223,5 +223,8 @@
   "exercise:state-of-tic-tac-toe:blurb": "三目並べの対局の状態を判定します。",
   "exercise:state-of-tic-tac-toe:source": "Sascha MannがExercism Research ExperimentのJuliaトラックのために作成しました。",
   "exercise:flower-field:name": "花畑",
-  "exercise:flower-field:blurb": "庭にあるすべての花に印を付けます。"
+  "exercise:flower-field:blurb": "庭にあるすべての花に印を付けます。",
+  "exercise:twelve-days:name": "12日間",
+  "exercise:twelve-days:blurb": "『The Twelve Days of Christmas』の歌詞を出力します。",
+  "exercise:twelve-days:source": "Wikipedia"
 }

@@ -223,5 +223,8 @@
   "exercise:state-of-tic-tac-toe:blurb": "Визначте стан партії у хрестики-нулики.",
   "exercise:state-of-tic-tac-toe:source": "Створено Sascha Mann для треку Julia в межах Exercism Research Experiment.",
   "exercise:flower-field:name": "Квіткове поле",
-  "exercise:flower-field:blurb": "Позначте всі квіти в саду."
+  "exercise:flower-field:blurb": "Позначте всі квіти в саду.",
+  "exercise:twelve-days:name": "Дванадцять днів",
+  "exercise:twelve-days:blurb": "Виведіть текст пісні «The Twelve Days of Christmas».",
+  "exercise:twelve-days:source": "Wikipedia"
 }

@@ -223,5 +223,8 @@
   "exercise:state-of-tic-tac-toe:blurb": "Determine o estado de uma partida de jogo da velha.",
   "exercise:state-of-tic-tac-toe:source": "Criado por Sascha Mann para a trilha de Julia do Exercism Research Experiment.",
   "exercise:flower-field:name": "Campo de flores",
-  "exercise:flower-field:blurb": "Marque todas as flores de um jardim."
+  "exercise:flower-field:blurb": "Marque todas as flores de um jardim.",
+  "exercise:twelve-days:name": "Doze dias",
+  "exercise:twelve-days:blurb": "Produza a letra de 'The Twelve Days of Christmas'.",
+  "exercise:twelve-days:source": "Wikipedia"
 }

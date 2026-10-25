@@ -223,5 +223,8 @@
   "exercise:state-of-tic-tac-toe:blurb": "टिक-टैक-टो के एक मैच की खेल-स्थिति तय कीजिए।",
   "exercise:state-of-tic-tac-toe:source": "Sascha Mann द्वारा Exercism Research Experiment के Julia ट्रैक के लिए बनाया गया।",
   "exercise:flower-field:name": "फूलों का खेत",
-  "exercise:flower-field:blurb": "बगीचे के सभी फूलों को चिह्नित कीजिए।"
+  "exercise:flower-field:blurb": "बगीचे के सभी फूलों को चिह्नित कीजिए।",
+  "exercise:twelve-days:name": "बारह दिन",
+  "exercise:twelve-days:blurb": "'The Twelve Days of Christmas' के बोल आउटपुट कीजिए।",
+  "exercise:twelve-days:source": "Wikipedia"
 }

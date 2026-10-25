@@ -223,5 +223,8 @@
   "exercise:state-of-tic-tac-toe:blurb": "判断一局井字棋的游戏状态。",
   "exercise:state-of-tic-tac-toe:source": "由 Sascha Mann 为 Exercism 研究实验的 Julia 赛道创建。",
   "exercise:flower-field:name": "花田",
-  "exercise:flower-field:blurb": "标出花园里所有的花。"
+  "exercise:flower-field:blurb": "标出花园里所有的花。",
+  "exercise:twelve-days:name": "十二天",
+  "exercise:twelve-days:blurb": "输出 'The Twelve Days of Christmas' 的歌词。",
+  "exercise:twelve-days:source": "Wikipedia"
 }

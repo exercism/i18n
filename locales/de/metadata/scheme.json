@@ -223,5 +223,8 @@
   "exercise:state-of-tic-tac-toe:blurb": "Bestimme den Spielzustand einer Partie Tic-Tac-Toe.",
   "exercise:state-of-tic-tac-toe:source": "Erstellt von Sascha Mann für den Julia-Track des Exercism Research Experiment.",
   "exercise:flower-field:name": "Blumenfeld",
-  "exercise:flower-field:blurb": "Markiere alle Blumen in einem Garten."
+  "exercise:flower-field:blurb": "Markiere alle Blumen in einem Garten.",
+  "exercise:twelve-days:name": "Zwölf Tage",
+  "exercise:twelve-days:blurb": "Gib den Liedtext von „The Twelve Days of Christmas“ aus.",
+  "exercise:twelve-days:source": "Wikipedia"
 }

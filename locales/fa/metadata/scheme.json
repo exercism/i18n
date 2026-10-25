@@ -223,5 +223,8 @@
   "exercise:state-of-tic-tac-toe:blurb": "وضعیت بازی را در یک دست از بازی دوز تعیین کنید.",
   "exercise:state-of-tic-tac-toe:source": "ساخته‌ی Sascha Mann برای مسیر Julia در Exercism Research Experiment.",
   "exercise:flower-field:name": "دشت گل",
-  "exercise:flower-field:blurb": "همه‌ی گل‌های یک باغ را علامت بزنید."
+  "exercise:flower-field:blurb": "همه‌ی گل‌های یک باغ را علامت بزنید.",
+  "exercise:twelve-days:name": "دوازده روز",
+  "exercise:twelve-days:blurb": "متن ترانه‌ی «دوازده روز کریسمس» را خروجی بدهید.",
+  "exercise:twelve-days:source": "Wikipedia"
 }

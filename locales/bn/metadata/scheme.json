@@ -223,5 +223,8 @@
   "exercise:state-of-tic-tac-toe:blurb": "একটি টিক-ট্যাক-টো ম্যাচের গেম অবস্থা নির্ধারণ করুন।",
   "exercise:state-of-tic-tac-toe:source": "Sascha Mann তৈরি করেছেন Exercism Research Experiment-এর Julia ট্র্যাকের জন্য।",
   "exercise:flower-field:name": "ফুলের ক্ষেত",
-  "exercise:flower-field:blurb": "একটি বাগানের সব ফুল চিহ্নিত করুন।"
+  "exercise:flower-field:blurb": "একটি বাগানের সব ফুল চিহ্নিত করুন।",
+  "exercise:twelve-days:name": "বারো দিন",
+  "exercise:twelve-days:blurb": "'The Twelve Days of Christmas'-এর গানের কথা আউটপুট দিন।",
+  "exercise:twelve-days:source": "Wikipedia"
 }

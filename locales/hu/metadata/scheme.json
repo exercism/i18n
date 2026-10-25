@@ -223,5 +223,8 @@
   "exercise:state-of-tic-tac-toe:blurb": "Határozd meg egy amőbajátszma állapotát.",
   "exercise:state-of-tic-tac-toe:source": "Sascha Mann készítette az Exercism Research Experiment Julia kurzusa számára.",
   "exercise:flower-field:name": "Virágmező",
-  "exercise:flower-field:blurb": "Jelöld meg a kert összes virágát."
+  "exercise:flower-field:blurb": "Jelöld meg a kert összes virágát.",
+  "exercise:twelve-days:name": "Tizenkét nap",
+  "exercise:twelve-days:blurb": "Írd ki a »The Twelve Days of Christmas« dalszövegét.",
+  "exercise:twelve-days:source": "Wikipedia"
 }

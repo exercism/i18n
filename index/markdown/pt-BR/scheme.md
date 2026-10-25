@@ -324,6 +324,11 @@ This page is generated from [the index](../../json/pt-BR/scheme.json) by `script
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/trinary/.docs/instructions.md)): [Latest](../../../locales/pt-BR/content/d3/8e/3b5bbf4f873b8103e19f43fcc3c4e7b70d6e.md)
 
+### Twelve Days (Doze dias)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/twelve-days/.docs/instructions.md)): [Latest](../../../locales/pt-BR/content/83/bb/6e1926b68a987d8c4d600996261f49281067.md)
+- `instructions.append.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/twelve-days/.docs/instructions.append.md)): [Latest](../../../locales/pt-BR/content/bd/1d/738ced7338732fd284971aaeb54221df06b6.md)
+
 ### Two Fer
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/two-fer/.docs/instructions.md)): [Latest](../../../locales/pt-BR/content/ad/c5/3487981faa7797e5099ff92acffd3df180be.md)

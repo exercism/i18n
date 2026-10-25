@@ -223,5 +223,8 @@
   "exercise:state-of-tic-tac-toe:blurb": "判斷一場井字遊戲的遊戲狀態。",
   "exercise:state-of-tic-tac-toe:source": "由 Sascha Mann 為 Exercism Research Experiment 的 Julia track 所建立。",
   "exercise:flower-field:name": "花田",
-  "exercise:flower-field:blurb": "標出花園裡所有的花。"
+  "exercise:flower-field:blurb": "標出花園裡所有的花。",
+  "exercise:twelve-days:name": "十二天",
+  "exercise:twelve-days:blurb": "輸出「The Twelve Days of Christmas」的歌詞。",
+  "exercise:twelve-days:source": "Wikipedia"
 }

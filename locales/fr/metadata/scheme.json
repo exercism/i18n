@@ -223,5 +223,8 @@
   "exercise:state-of-tic-tac-toe:blurb": "Détermine l'état d'une partie de morpion.",
   "exercise:state-of-tic-tac-toe:source": "Créé par Sascha Mann pour le parcours Julia de l'Exercism Research Experiment.",
   "exercise:flower-field:name": "Champ de fleurs",
-  "exercise:flower-field:blurb": "Marque toutes les fleurs d'un jardin."
+  "exercise:flower-field:blurb": "Marque toutes les fleurs d'un jardin.",
+  "exercise:twelve-days:name": "Les douze jours",
+  "exercise:twelve-days:blurb": "Affiche les paroles de _The Twelve Days of Christmas_.",
+  "exercise:twelve-days:source": "Wikipedia"
 }

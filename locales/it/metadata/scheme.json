@@ -223,5 +223,8 @@
   "exercise:state-of-tic-tac-toe:blurb": "Determina lo stato di gioco di una partita a tris.",
   "exercise:state-of-tic-tac-toe:source": "Creato da Sascha Mann per il track Julia dell'Exercism Research Experiment.",
   "exercise:flower-field:name": "Campo di fiori",
-  "exercise:flower-field:blurb": "Segna tutti i fiori di un giardino."
+  "exercise:flower-field:blurb": "Segna tutti i fiori di un giardino.",
+  "exercise:twelve-days:name": "I dodici giorni",
+  "exercise:twelve-days:blurb": "Restituisci in output il testo di «The Twelve Days of Christmas».",
+  "exercise:twelve-days:source": "Wikipedia"
 }
