@@ -297,7 +297,8 @@ This page is generated from [the index](../../json/hu/roc.json) by `scripts/buil
 ### Ledger (Főkönyv)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/ledger/.docs/instructions.md)): [Latest](../../../locales/hu/content/a5/3e/5c15e3e6f5f6a62a8ea6be82e3072477baae.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/ledger/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/8a/90/ca181bfbfee68ca492f6f28613a034f2e528.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/ledger/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/f4/1f/d3d46966933d26b8fd7d26a5851597956d86.md)
+  - [`8a90ca181b`](../../../locales/hu/content/8a/90/ca181bfbfee68ca492f6f28613a034f2e528.md)
 
 ### Lens Person (Lencsés személy)
 
