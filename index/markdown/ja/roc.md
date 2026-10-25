@@ -574,7 +574,8 @@ This page is generated from [the index](../../json/ja/roc.json) by `scripts/buil
 ### Split-Second Stopwatch (一瞬のストップウォッチ)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/split-second-stopwatch/.docs/instructions.md)): [Latest](../../../locales/ja/content/30/bd/c988dadd9ef5da03ac87eb44f49313c5d84d.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/split-second-stopwatch/.docs/instructions.append.md)): [Latest](../../../locales/ja/content/87/79/0ec57eda5a9edbd54c52a0254649e8b68c3b.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/split-second-stopwatch/.docs/instructions.append.md)): [Latest](../../../locales/ja/content/bd/cd/a34045f1b3a08138e4b60b1f03d8d3e26746.md)
+  - [`87790ec57e`](../../../locales/ja/content/87/79/0ec57eda5a9edbd54c52a0254649e8b68c3b.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/split-second-stopwatch/.docs/introduction.md)): [Latest](../../../locales/ja/content/a8/43/2247712455ffa459dffa8fc411000905b0ed.md)
 
 ### Square Root (平方根)
