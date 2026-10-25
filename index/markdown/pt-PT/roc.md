@@ -450,7 +450,8 @@ This page is generated from [the index](../../json/pt-PT/roc.json) by `scripts/b
 ### React
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/react/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/1b/9a/175d0bccd4c17985a5b3a4cd81bb19fd0735.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/react/.docs/instructions.append.md)): [Latest](../../../locales/pt-PT/content/17/7e/d2918815bd259d7f2511324184b14b8b0210.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/react/.docs/instructions.append.md)): [Latest](../../../locales/pt-PT/content/27/18/135ea1465f54505ec3d95acda98a006df4bd.md)
+  - [`177ed29188`](../../../locales/pt-PT/content/17/7e/d2918815bd259d7f2511324184b14b8b0210.md)
 
 ### Rectangles (Retângulos)
 
