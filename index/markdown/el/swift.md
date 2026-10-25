@@ -255,6 +255,7 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 ### OCR Numbers (Αριθμοί OCR)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/practice/ocr-numbers/.docs/instructions.md)): [Latest](../../../locales/el/content/8a/39/1ce4f6e1c32cd61c2140ed3e0e2e24299efd.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/practice/ocr-numbers/.docs/introduction.md)): [Latest](../../../locales/el/content/36/6d/76062c7f4620198bfa95f32a8341b17493c4.md)
 
 ### Octal (Οκταδικό σύστημα)
 
@@ -374,6 +375,7 @@ This page is generated from [the index](../../json/el/swift.json) by `scripts/bu
 ### Say (Πες)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/practice/say/.docs/instructions.md)): [Latest](../../../locales/el/content/32/51/c519acefd3c98f5ecf6edf4cb11db4290468.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/practice/say/.docs/introduction.md)): [Latest](../../../locales/el/content/ab/d2/2851ef7557171c636e876d5c7d19495f8421.md)
 
 ### Scale Generator (Γεννήτρια κλιμάκων)
 

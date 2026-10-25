@@ -303,6 +303,7 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/practice/ocr-numbers/.docs/instructions.md)): [Latest](../../../locales/hu/content/8a/39/1ce4f6e1c32cd61c2140ed3e0e2e24299efd.md)
   - [`7beb257795`](../../../locales/hu/content/7b/eb/257795750af8a41226dc35558924106c5657.md)
   - [`4086329bd8`](../../../locales/hu/content/40/86/329bd80259175d519e6b5ddbab0c829a876a.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/practice/ocr-numbers/.docs/introduction.md)): [Latest](../../../locales/hu/content/36/6d/76062c7f4620198bfa95f32a8341b17493c4.md)
 
 ### Octal (Oktális)
 
@@ -313,7 +314,7 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/practice/palindrome-products/.docs/instructions.md)): [Latest](../../../locales/hu/content/aa/c6/6521ce736be8ce737ea709a5b1eed507cbb8.md)
   - [`fd9a441247`](../../../locales/hu/content/fd/9a/441247b65a9a8604f6ef581df4b1054a1fad.md)
 
-### Pangram
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
   - [`d5698bc2a2`](../../../locales/hu/content/d5/69/8bc2a292baf2fb128de3543b748165088c4f.md)
@@ -448,6 +449,7 @@ This page is generated from [the index](../../json/hu/swift.json) by `scripts/bu
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/practice/say/.docs/instructions.md)): [Latest](../../../locales/hu/content/32/51/c519acefd3c98f5ecf6edf4cb11db4290468.md)
   - [`ad3d347782`](../../../locales/hu/content/ad/3d/347782e2cbdd3e40cdabde2b31c5bc18fc41.md)
   - [`727b0186db`](../../../locales/hu/content/72/7b/0186db47215c97477a750fbeb6c39184b4d1.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/practice/say/.docs/introduction.md)): [Latest](../../../locales/hu/content/ab/d2/2851ef7557171c636e876d5c7d19495f8421.md)
 
 ### Scale Generator (Skálagenerátor)
 

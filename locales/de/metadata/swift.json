@@ -175,7 +175,7 @@
   "exercise:isogram:source": "Wikipedia",
   "exercise:list-ops:blurb": "Implementiere grundlegende Listenoperationen.",
   "exercise:nucleotide-count:blurb": "Bestimme für einen DNA-String, wie oft jedes Nukleotid darin vorkommt.",
-  "exercise:nucleotide-count:source": "The Calculating DNA Nucleotides_problem bei Rosalind",
+  "exercise:nucleotide-count:source": "Das Problem Counting DNA Nucleotides bei Rosalind",
   "exercise:raindrops:blurb": "Wandle eine Zahl in die entsprechenden Regentropfenklänge um: Pling, Plang und Plong.",
   "exercise:raindrops:source": "Eine Variation von FizzBuzz, einer berühmten Frage aus technischen Bewerbungsgesprächen, mit der potenzielle Kandidaten aussortiert werden sollen. Diese Frage wiederum stammt von Fizz Buzz ab, einem beliebten Kinderspiel zum Üben der Division.",
   "exercise:resistor-color-duo:blurb": "Wandle Farbcodes, wie sie auf Widerständen verwendet werden, in einen Zahlenwert um.",

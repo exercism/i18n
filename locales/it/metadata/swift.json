@@ -175,7 +175,7 @@
   "exercise:isogram:source": "Wikipedia",
   "exercise:list-ops:blurb": "Implementa le operazioni di base sugli array.",
   "exercise:nucleotide-count:blurb": "Data una stringa di DNA, calcola quante volte ciascun nucleotide compare nella stringa.",
-  "exercise:nucleotide-count:source": "The Calculating DNA Nucleotides_problem su Rosalind",
+  "exercise:nucleotide-count:source": "Il problema Counting DNA Nucleotides di Rosalind",
   "exercise:raindrops:blurb": "Converti un numero nei suoi corrispondenti suoni di goccia: Pling, Plang e Plong.",
   "exercise:raindrops:source": "Una variante di FizzBuzz, una famosa domanda dei colloqui tecnici pensata per scremare i potenziali candidati. Quella domanda deriva a sua volta da Fizz Buzz, un popolare gioco per bambini che insegna la divisione.",
   "exercise:resistor-color-duo:blurb": "Converti in un valore numerico i codici colore usati sulle resistenze.",

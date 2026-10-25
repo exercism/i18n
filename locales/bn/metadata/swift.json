@@ -175,7 +175,7 @@
   "exercise:isogram:source": "Wikipedia",
   "exercise:list-ops:blurb": "সাধারণ অ্যারে অপারেশন বাস্তবায়ন করুন।",
   "exercise:nucleotide-count:blurb": "একটি DNA স্ট্রিং দেওয়া হলে, স্ট্রিংটিতে প্রতিটি নিউক্লিওটাইড কতবার আছে তা গণনা করুন।",
-  "exercise:nucleotide-count:source": "Rosalind-এ The Calculating DNA Nucleotides_problem",
+  "exercise:nucleotide-count:source": "Rosalind-এর Counting DNA Nucleotides সমস্যা।",
   "exercise:raindrops:blurb": "একটি সংখ্যাকে তার সংশ্লিষ্ট বৃষ্টির ফোঁটার শব্দে রূপান্তর করুন: Pling, Plang এবং Plong।",
   "exercise:raindrops:source": "FizzBuzz-এর একটি ভিন্ন রূপ, যা একটি বিখ্যাত টেকনিক্যাল ইন্টারভিউ প্রশ্ন এবং সম্ভাব্য প্রার্থীদের বাদ দেওয়ার উদ্দেশ্যে করা হয়। ওই প্রশ্নটি আবার Fizz Buzz থেকে এসেছে, যা ভাগ শেখানোর জন্য একটি জনপ্রিয় শিশুদের গেম।",
   "exercise:resistor-color-duo:blurb": "রেজিস্টরে যেভাবে ব্যবহৃত হয়, সেই কালার কোডগুলোকে একটি সংখ্যাগত মানে রূপান্তর করুন।",

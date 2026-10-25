@@ -175,7 +175,7 @@
   "exercise:isogram:source": "Wikipedia",
   "exercise:list-ops:blurb": "عملیات پایه‌ای لیست را پیاده‌سازی کنید.",
   "exercise:nucleotide-count:blurb": "با داشتن یک رشته‌ی DNA حساب کنید هر نوکلئوتید چند بار در رشته ظاهر می‌شود.",
-  "exercise:nucleotide-count:source": "مسئله‌ی Calculating DNA Nucleotides در Rosalind",
+  "exercise:nucleotide-count:source": "مسئله‌ی Counting DNA Nucleotides در Rosalind",
   "exercise:raindrops:blurb": "یک عدد را به صداهای قطره‌های بارانِ متناظر با آن تبدیل کنید: Pling، Plang و Plong.",
   "exercise:raindrops:source": "گونه‌ای از FizzBuzz، پرسش مصاحبه‌ی فنی مشهوری که هدفش غربال کردن نامزدهای بالقوه است. خود این پرسش از Fizz Buzz گرفته شده، بازی محبوب کودکان‌ای برای آموزش تقسیم.",
   "exercise:resistor-color-duo:blurb": "کدهای رنگی مورد استفاده در مقاومت‌ها را به یک مقدار عددی تبدیل کنید.",

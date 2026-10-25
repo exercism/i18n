@@ -175,7 +175,7 @@
   "exercise:isogram:source": "ويكيبيديا",
   "exercise:list-ops:blurb": "نفّذ عمليات أساسية على القوائم.",
   "exercise:nucleotide-count:blurb": "بالنظر إلى سلسلة نصية من DNA، احسب عدد مرات ظهور كل نوكليوتيدة فيها.",
-  "exercise:nucleotide-count:source": "The Calculating DNA Nucleotides_problem في Rosalind",
+  "exercise:nucleotide-count:source": "مسألة عدّ نوكليوتيدات DNA في Rosalind",
   "exercise:raindrops:blurb": "حوّل عددًا إلى أصوات قطرات المطر المقابلة له، وهي Pling وPlang وPlong.",
   "exercise:raindrops:source": "تنويعة على FizzBuzz، وهو سؤال مقابلة تقنية شهير يُقصد به استبعاد المرشحين المحتملين. والسؤال نفسه مشتق من Fizz Buzz، وهي لعبة أطفال شائعة لتعليم القسمة.",
   "exercise:resistor-color-duo:blurb": "حوّل رموز الألوان المستخدمة في المقاومات إلى قيمة عددية.",

@@ -174,7 +174,7 @@
   "exercise:isogram:source": "Wikipedia",
   "exercise:list-ops:blurb": "Valósítsd meg a lista alapvető műveleteit.",
   "exercise:nucleotide-count:blurb": "Adott egy DNS-string, számold ki, hogy az egyes nukleotidok hányszor fordulnak elő benne.",
-  "exercise:nucleotide-count:source": "A Calculating DNA Nucleotides probléma a Rosalindon",
+  "exercise:nucleotide-count:source": "A Counting DNA Nucleotides feladat a Rosalindon",
   "exercise:raindrops:blurb": "Alakítsd át a számot a hozzá tartozó esőcsepphangokká: Pling, Plang és Plong.",
   "exercise:raindrops:source": "A FizzBuzz egy változata, amely egy híres technikai interjúkérdés, amellyel a potenciális jelölteket szűrik ki. Maga a kérdés a Fizz Buzzból ered, egy népszerű gyerekjátékból, amely az osztást tanítja.",
   "exercise:resistor-color-duo:blurb": "Alakítsd át az ellenállásokon használt színkódokat számszerű értékké.",
