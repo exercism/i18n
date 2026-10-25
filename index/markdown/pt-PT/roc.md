@@ -81,6 +81,7 @@ This page is generated from [the index](../../json/pt-PT/roc.json) by `scripts/b
 ### Book Store (Livraria)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/book-store/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/54/40/3f17bf5c35e9b5d6c20503e87e02c232e1a7.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/book-store/.docs/instructions.append.md)): [Latest](../../../locales/pt-PT/content/59/35/bc09cf7383620db2b53e1a9f81f820a55043.md)
 
 ### Bottle Song (Canção das Garrafas)
 
