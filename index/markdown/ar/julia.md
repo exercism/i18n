@@ -320,6 +320,7 @@ This page is generated from [the index](../../json/ar/julia.json) by `scripts/bu
 ### Rational Numbers (الأعداد النسبية)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/rational-numbers/.docs/instructions.md)): [Latest](../../../locales/ar/content/f6/4f/c0f28e5f84c9e991e52b275f5eef1ff7ea86.md)
+- `instructions.append.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/rational-numbers/.docs/instructions.append.md)): [Latest](../../../locales/ar/content/6b/58/4a3927f745790553f81bd5ffa75e5040b196.md)
 
 ### Rectangles (المستطيلات)
 
@@ -367,7 +368,8 @@ This page is generated from [the index](../../json/ar/julia.json) by `scripts/bu
 ### Rotational Cipher (شفرة التدوير)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/rotational-cipher/.docs/instructions.md)): [Latest](../../../locales/ar/content/4b/f6/4ca1d358d2d07e3c8c06c3b686e06170d73d.md)
-- `instructions.append.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/rotational-cipher/.docs/instructions.append.md)): [Latest](../../../locales/ar/content/fa/bc/bf35bfff25685220292e407d7ac4f246f89a.md)
+- `instructions.append.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/rotational-cipher/.docs/instructions.append.md)): [Latest](../../../locales/ar/content/0a/c9/480568e36f7f966748e4847ed076e14a371e.md)
+  - [`fabcbf35bf`](../../../locales/ar/content/fa/bc/bf35bfff25685220292e407d7ac4f246f89a.md)
 
 ### Run-Length Encoding (ترميز طول التسلسل)
 
