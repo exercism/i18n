@@ -417,5 +417,7 @@
   "exercise:parallel-letter-frequency:blurb": "Zähle die Häufigkeit von Buchstaben in Texten mithilfe paralleler Berechnung.",
   "exercise:paasio:name": "PaaS-I/O",
   "exercise:paasio:blurb": "Melde Statistiken zur Netzwerk-IO.",
-  "exercise:paasio:source": "Brian Matsuo"
+  "exercise:paasio:source": "Brian Matsuo",
+  "exercise:markdown:name": "Markdown",
+  "exercise:markdown:blurb": "Refaktoriere einen Markdown-Parser."
 }

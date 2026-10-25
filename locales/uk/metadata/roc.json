@@ -417,5 +417,7 @@
   "exercise:parallel-letter-frequency:blurb": "Порахуйте частоту літер у текстах, використовуючи паралельні обчислення.",
   "exercise:paasio:name": "PaaS I/O",
   "exercise:paasio:blurb": "Повідомте статистику мережевого введення-виведення.",
-  "exercise:paasio:source": "Brian Matsuo"
+  "exercise:paasio:source": "Brian Matsuo",
+  "exercise:markdown:name": "Markdown",
+  "exercise:markdown:blurb": "Відрефакторте парсер Markdown."
 }

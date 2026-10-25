@@ -417,5 +417,7 @@
   "exercise:parallel-letter-frequency:blurb": "使用平行運算計算文本中字母出現的頻率。",
   "exercise:paasio:name": "PaaS I/O",
   "exercise:paasio:blurb": "回報網路 IO 統計資料。",
-  "exercise:paasio:source": "Brian Matsuo"
+  "exercise:paasio:source": "Brian Matsuo",
+  "exercise:markdown:name": "Markdown",
+  "exercise:markdown:blurb": "重構一個 Markdown 解析器。"
 }

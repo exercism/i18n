@@ -417,5 +417,7 @@
   "exercise:parallel-letter-frequency:blurb": "समानांतर गणना का इस्तेमाल करके टेक्स्टों में अक्षरों की आवृत्ति गिनिए।",
   "exercise:paasio:name": "PaaS I/O",
   "exercise:paasio:blurb": "नेटवर्क IO के आँकड़े बताइए।",
-  "exercise:paasio:source": "Brian Matsuo"
+  "exercise:paasio:source": "Brian Matsuo",
+  "exercise:markdown:name": "Markdown",
+  "exercise:markdown:blurb": "एक Markdown पार्सर को रीफैक्टर कीजिए।"
 }

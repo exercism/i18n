@@ -417,5 +417,7 @@
   "exercise:parallel-letter-frequency:blurb": "병렬 연산을 사용해 텍스트에서 문자의 빈도를 세어요.",
   "exercise:paasio:name": "PaaS I/O",
   "exercise:paasio:blurb": "네트워크 I/O 통계를 보고해요.",
-  "exercise:paasio:source": "Brian Matsuo"
+  "exercise:paasio:source": "Brian Matsuo",
+  "exercise:markdown:name": "마크다운",
+  "exercise:markdown:blurb": "Markdown 파서를 리팩터링해요."
 }

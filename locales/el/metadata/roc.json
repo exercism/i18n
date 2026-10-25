@@ -417,5 +417,7 @@
   "exercise:parallel-letter-frequency:blurb": "Μέτρησε τη συχνότητα των γραμμάτων σε κείμενα χρησιμοποιώντας παράλληλο υπολογισμό.",
   "exercise:paasio:name": "PaaS I/O",
   "exercise:paasio:blurb": "Ανάφερε στατιστικά I/O δικτύου.",
-  "exercise:paasio:source": "Brian Matsuo"
+  "exercise:paasio:source": "Brian Matsuo",
+  "exercise:markdown:name": "Markdown",
+  "exercise:markdown:blurb": "Κάνε refactor σε έναν αναλυτή Markdown."
 }

@@ -417,5 +417,7 @@
   "exercise:parallel-letter-frequency:blurb": "Conta la frequenza delle lettere nei testi usando il calcolo parallelo.",
   "exercise:paasio:name": "PaaS I/O",
   "exercise:paasio:blurb": "Riporta statistiche di I/O di rete.",
-  "exercise:paasio:source": "Brian Matsuo"
+  "exercise:paasio:source": "Brian Matsuo",
+  "exercise:markdown:name": "Markdown",
+  "exercise:markdown:blurb": "Riorganizza un parser Markdown."
 }

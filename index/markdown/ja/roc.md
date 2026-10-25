@@ -308,6 +308,11 @@ This page is generated from [the index](../../json/ja/roc.json) by `scripts/buil
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/luhn/.docs/instructions.md)): [Latest](../../../locales/ja/content/77/02/c6bbb5f849683e3074163e48ce1154ad2957.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/luhn/.docs/introduction.md)): [Latest](../../../locales/ja/content/de/e4/8006eddee9458a5414ddc96c4b9d2fc9109f.md)
 
+### Markdown
+
+- `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/markdown/.docs/instructions.md)): [Latest](../../../locales/ja/content/b3/f3/044c66f1d886af7f5fb180da8b81bee9ad87.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/markdown/.docs/instructions.append.md)): [Latest](../../../locales/ja/content/52/6d/4a168e493481a6ec283ea40b3d93c514177f.md)
+
 ### Matching Brackets (括弧の対応)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/matching-brackets/.docs/instructions.md)): [Latest](../../../locales/ja/content/ea/17/0842326b8639a4d921462397a601ec5c9f4c.md)

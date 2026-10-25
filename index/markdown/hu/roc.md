@@ -326,6 +326,11 @@ This page is generated from [the index](../../json/hu/roc.json) by `scripts/buil
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/luhn/.docs/introduction.md)): [Latest](../../../locales/hu/content/de/e4/8006eddee9458a5414ddc96c4b9d2fc9109f.md)
   - [`ec2bd709d2`](../../../locales/hu/content/ec/2b/d709d2bb2cbfbbcdf3bf6d4e6b6f4a8bf3cd.md)
 
+### Markdown
+
+- `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/markdown/.docs/instructions.md)): [Latest](../../../locales/hu/content/b3/f3/044c66f1d886af7f5fb180da8b81bee9ad87.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/markdown/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/52/6d/4a168e493481a6ec283ea40b3d93c514177f.md)
+
 ### Matching Brackets (Zárójelpárosítás)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/matching-brackets/.docs/instructions.md)): [Latest](../../../locales/hu/content/ea/17/0842326b8639a4d921462397a601ec5c9f4c.md)

@@ -417,5 +417,7 @@
   "exercise:parallel-letter-frequency:blurb": "並列計算を使って、テキスト中の文字の出現頻度を数えます。",
   "exercise:paasio:name": "PaaS I/O",
   "exercise:paasio:blurb": "ネットワークI/Oの統計を報告します。",
-  "exercise:paasio:source": "Brian Matsuo"
+  "exercise:paasio:source": "Brian Matsuo",
+  "exercise:markdown:name": "Markdown",
+  "exercise:markdown:blurb": "Markdownパーサーをリファクタリングします。"
 }

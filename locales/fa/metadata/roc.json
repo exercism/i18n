@@ -417,5 +417,7 @@
   "exercise:parallel-letter-frequency:blurb": "فراوانی حروف را در متن‌ها با استفاده از محاسبات موازی بشمارید.",
   "exercise:paasio:name": "PaaS I/O",
   "exercise:paasio:blurb": "آمار ورودی/خروجی شبکه را گزارش کنید.",
-  "exercise:paasio:source": "Brian Matsuo"
+  "exercise:paasio:source": "Brian Matsuo",
+  "exercise:markdown:name": "Markdown",
+  "exercise:markdown:blurb": "یک تجزیه‌گر Markdown را بازآرایی کنید."
 }

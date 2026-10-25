@@ -417,5 +417,7 @@
   "exercise:parallel-letter-frequency:blurb": "احسب تكرار الحروف في النصوص باستخدام الحوسبة المتوازية.",
   "exercise:paasio:name": "الإدخال/الإخراج في PaaS",
   "exercise:paasio:blurb": "أبلغ عن إحصاءات الإدخال والإخراج في الشبكة.",
-  "exercise:paasio:source": "Brian Matsuo"
+  "exercise:paasio:source": "Brian Matsuo",
+  "exercise:markdown:name": "Markdown",
+  "exercise:markdown:blurb": "أعد هيكلة محلّل Markdown."
 }
