@@ -278,6 +278,10 @@ This page is generated from [the index](../../json/hu/website-copy.json) by `scr
 - `valentines-day/use_case_statement.md` ([English](https://github.com/exercism/website-copy/blob/main/analyzer-comments/elm/valentines-day/use_case_statement.md)): [Latest](../../../locales/hu/content/d7/fc/1df5877f8119e2b3bb3b385f35560b23cdbd.md)
 - `zebra-puzzle/do_not_hardcode_solution.md` ([English](https://github.com/exercism/website-copy/blob/main/analyzer-comments/elm/zebra-puzzle/do_not_hardcode_solution.md)): [Latest](../../../locales/hu/content/34/f1/19004cc1db99074c95019711d73e8ce4824e.md)
 
+### gdscript
+
+- `gdlint/finding.md` ([English](https://github.com/exercism/website-copy/blob/main/analyzer-comments/gdscript/gdlint/finding.md)): [Latest](../../../locales/hu/content/8d/11/67a8fa283ffc48588f301ea61e3474572335.md)
+
 ### go
 
 - `general/avoid_init_function.md` ([English](https://github.com/exercism/website-copy/blob/main/analyzer-comments/go/general/avoid_init_function.md)): [Latest](../../../locales/hu/content/9b/43/f5ccd6056e63721eba93c087f59ea7bdaab8.md)
@@ -480,8 +484,8 @@ This page is generated from [the index](../../json/hu/website-copy.json) by `scr
 ### ruby
 
 - `general/explicit_return.md` ([English](https://github.com/exercism/website-copy/blob/main/analyzer-comments/ruby/general/explicit_return.md)): [Latest](../../../locales/hu/content/a8/00/95d5006148dd19f5086f03a56c88e13a092d.md)
-- `general/incorrect_indentation.md` ([English](https://github.com/exercism/website-copy/blob/main/analyzer-comments/ruby/general/incorrect_indentation.md)): [Latest](../../../locales/hu/content/17/7b/5cef09f693f877939154dff90e1ad0b896be.md)
-  - [`c31ad15dc5`](../../../locales/hu/content/c3/1a/d15dc50e79a3d70f3362f674f7b484a20b52.md)
+- `general/incorrect_indentation.md` ([English](https://github.com/exercism/website-copy/blob/main/analyzer-comments/ruby/general/incorrect_indentation.md)): [Latest](../../../locales/hu/content/c3/1a/d15dc50e79a3d70f3362f674f7b484a20b52.md)
+  - [`177b5cef09`](../../../locales/hu/content/17/7b/5cef09f693f877939154dff90e1ad0b896be.md)
   - [`bb1186a242`](../../../locales/hu/content/bb/11/86a242cdfa9f2ac78534a97c9eb2b3750f0b.md)
   - [`32e9389ef9`](../../../locales/hu/content/32/e9/389ef940d1c6a2f9f1b13c3fc51f47f31c07.md)
 - `general/no_target_method.md` ([English](https://github.com/exercism/website-copy/blob/main/analyzer-comments/ruby/general/no_target_method.md)): [Latest](../../../locales/hu/content/02/46/1dab540e599a74a6b726f07da96f9bca8dd2.md)

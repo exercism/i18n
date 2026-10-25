@@ -278,6 +278,10 @@ This page is generated from [the index](../../json/zh-CN/website-copy.json) by `
 - `valentines-day/use_case_statement.md` ([English](https://github.com/exercism/website-copy/blob/main/analyzer-comments/elm/valentines-day/use_case_statement.md)): [Latest](../../../locales/zh-CN/content/d7/fc/1df5877f8119e2b3bb3b385f35560b23cdbd.md)
 - `zebra-puzzle/do_not_hardcode_solution.md` ([English](https://github.com/exercism/website-copy/blob/main/analyzer-comments/elm/zebra-puzzle/do_not_hardcode_solution.md)): [Latest](../../../locales/zh-CN/content/34/f1/19004cc1db99074c95019711d73e8ce4824e.md)
 
+### gdscript
+
+- `gdlint/finding.md` ([English](https://github.com/exercism/website-copy/blob/main/analyzer-comments/gdscript/gdlint/finding.md)): [Latest](../../../locales/zh-CN/content/8d/11/67a8fa283ffc48588f301ea61e3474572335.md)
+
 ### go
 
 - `general/avoid_init_function.md` ([English](https://github.com/exercism/website-copy/blob/main/analyzer-comments/go/general/avoid_init_function.md)): [Latest](../../../locales/zh-CN/content/9b/43/f5ccd6056e63721eba93c087f59ea7bdaab8.md)

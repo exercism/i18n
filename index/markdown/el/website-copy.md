@@ -278,6 +278,10 @@ This page is generated from [the index](../../json/el/website-copy.json) by `scr
 - `valentines-day/use_case_statement.md` ([English](https://github.com/exercism/website-copy/blob/main/analyzer-comments/elm/valentines-day/use_case_statement.md)): [Latest](../../../locales/el/content/d7/fc/1df5877f8119e2b3bb3b385f35560b23cdbd.md)
 - `zebra-puzzle/do_not_hardcode_solution.md` ([English](https://github.com/exercism/website-copy/blob/main/analyzer-comments/elm/zebra-puzzle/do_not_hardcode_solution.md)): [Latest](../../../locales/el/content/34/f1/19004cc1db99074c95019711d73e8ce4824e.md)
 
+### gdscript
+
+- `gdlint/finding.md` ([English](https://github.com/exercism/website-copy/blob/main/analyzer-comments/gdscript/gdlint/finding.md)): [Latest](../../../locales/el/content/8d/11/67a8fa283ffc48588f301ea61e3474572335.md)
+
 ### go
 
 - `general/avoid_init_function.md` ([English](https://github.com/exercism/website-copy/blob/main/analyzer-comments/go/general/avoid_init_function.md)): [Latest](../../../locales/el/content/9b/43/f5ccd6056e63721eba93c087f59ea7bdaab8.md)
@@ -554,7 +558,7 @@ This page is generated from [the index](../../json/el/website-copy.json) by `scr
 - `general/no_parameter.md` ([English](https://github.com/exercism/website-copy/blob/main/analyzer-comments/typescript/general/no_parameter.md)): [Latest](../../../locales/el/content/c6/8c/80aa71ff896a4deff399b81fb200971f4bd2.md)
 - `general/parse_error.md` ([English](https://github.com/exercism/website-copy/blob/main/analyzer-comments/typescript/general/parse_error.md)): [Latest](../../../locales/el/content/53/16/369e9840e2b35127fb24f694a6a46333cd7c.md)
 - `general/prefer_const_over_let_and_var.md` ([English](https://github.com/exercism/website-copy/blob/main/analyzer-comments/typescript/general/prefer_const_over_let_and_var.md)): [Latest](../../../locales/el/content/9f/fe/43028be0cf30204fd7644ce3278d77fc67ef.md)
-- `general/prefer_explicit_return_type.md` ([English](https://github.com/exercism/website-copy/blob/main/analyzer-comments/typescript/general/prefer_explicit_return_type.md)): missing
+- `general/prefer_explicit_return_type.md` ([English](https://github.com/exercism/website-copy/blob/main/analyzer-comments/typescript/general/prefer_explicit_return_type.md)): [Latest](../../../locales/el/content/17/d4/db593c3e90488918088eb328994e30bc8da7.md)
 - `general/prefer_strict_equality.md` ([English](https://github.com/exercism/website-copy/blob/main/analyzer-comments/typescript/general/prefer_strict_equality.md)): [Latest](../../../locales/el/content/05/b7/c034d8bb3e66ba9a465724f49f162e7b336e.md)
 - `general/prefer_templated_strings.md` ([English](https://github.com/exercism/website-copy/blob/main/analyzer-comments/typescript/general/prefer_templated_strings.md)): [Latest](../../../locales/el/content/f5/6d/66ee8013ef1a48def433b6ac4c06736121e9.md)
 - `general/prefer_unprefixed_underscore_parameters.md` ([English](https://github.com/exercism/website-copy/blob/main/analyzer-comments/typescript/general/prefer_unprefixed_underscore_parameters.md)): [Latest](../../../locales/el/content/a7/84/a3d0cd8818b06a5724c1ec8391c601b864b1.md)
