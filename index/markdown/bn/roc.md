@@ -460,6 +460,7 @@ This page is generated from [the index](../../json/bn/roc.json) by `scripts/buil
 ### Relative Distance (আপেক্ষিক দূরত্ব)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/relative-distance/.docs/instructions.md)): [Latest](../../../locales/bn/content/64/ca/4e43744fdf4aaf8b64ea34b795b8933a0e3e.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/relative-distance/.docs/instructions.append.md)): [Latest](../../../locales/bn/content/31/8a/0245846a9f312ad1474466a36dcb6870d18c.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/relative-distance/.docs/introduction.md)): [Latest](../../../locales/bn/content/34/07/3b40ac6e0494777808026c336f21678ba93e.md)
 
 ### Resistor Color (রেজিস্টর কালার)
