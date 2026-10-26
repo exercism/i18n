@@ -229,5 +229,8 @@
   "exercise:twelve-days:source": "Wikipedia",
   "exercise:proverb:name": "속담",
   "exercise:proverb:blurb": "편자 못 하나가 부족해 왕국을 잃었다는 옛말이 있어요. 이 속담의 운율을 담은 글 전체를 출력해요.",
-  "exercise:proverb:source": "Wikipedia"
+  "exercise:proverb:source": "Wikipedia",
+  "exercise:house:name": "집",
+  "exercise:house:blurb": "'This is the House that Jack Built' 동요를 출력해요.",
+  "exercise:house:source": "영국 동요"
 }

@@ -229,5 +229,8 @@
   "exercise:twelve-days:source": "Wikipedia",
   "exercise:proverb:name": "Proverbio",
   "exercise:proverb:blurb": "Por falta de un clavo de herradura se perdió un reino, o eso dice el refrán. Devuelve el texto completo de esta rima proverbial.",
-  "exercise:proverb:source": "Wikipedia"
+  "exercise:proverb:source": "Wikipedia",
+  "exercise:house:name": "La casa",
+  "exercise:house:blurb": "Muestra la canción infantil «This is the House that Jack Built».",
+  "exercise:house:source": "Canción infantil británica"
 }

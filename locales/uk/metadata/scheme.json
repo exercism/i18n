@@ -229,5 +229,8 @@
   "exercise:twelve-days:source": "Wikipedia",
   "exercise:proverb:name": "Прислівʼя",
   "exercise:proverb:blurb": "Через брак цвяха в підкові загубилося королівство, принаймні так каже приказка. Вивести повний текст цього вірша-прислівʼя.",
-  "exercise:proverb:source": "Wikipedia"
+  "exercise:proverb:source": "Wikipedia",
+  "exercise:house:name": "Дім",
+  "exercise:house:blurb": "Виведіть дитячий віршик «This is the House that Jack Built».",
+  "exercise:house:source": "Британський дитячий віршик"
 }

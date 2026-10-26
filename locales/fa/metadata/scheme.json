@@ -229,5 +229,8 @@
   "exercise:twelve-days:source": "Wikipedia",
   "exercise:proverb:name": "ضرب‌المثل",
   "exercise:proverb:blurb": "به خاطر نبود یک میخ نعل، پادشاهی‌ای از دست رفت، یا دست‌کم این‌طور می‌گویند. متن کامل این شعر ضرب‌المثلی را به خروجی بدهید.",
-  "exercise:proverb:source": "Wikipedia"
+  "exercise:proverb:source": "Wikipedia",
+  "exercise:house:name": "خانه",
+  "exercise:house:blurb": "شعر کودکانه‌ی «This is the House that Jack Built» را چاپ کنید.",
+  "exercise:house:source": "شعر کودکانه‌ی بریتانیایی"
 }

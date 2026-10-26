@@ -229,5 +229,8 @@
   "exercise:twelve-days:source": "Wikipedia",
   "exercise:proverb:name": "ことわざ",
   "exercise:proverb:blurb": "蹄鉄の釘が1本足りないばかりに、王国が失われたと言われています。このことわざの韻文の全文を出力します。",
-  "exercise:proverb:source": "Wikipedia"
+  "exercise:proverb:source": "Wikipedia",
+  "exercise:house:name": "家",
+  "exercise:house:blurb": "童謡『This is the House that Jack Built』を出力します。",
+  "exercise:house:source": "イギリスの童謡"
 }

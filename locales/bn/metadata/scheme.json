@@ -229,5 +229,8 @@
   "exercise:twelve-days:source": "Wikipedia",
   "exercise:proverb:name": "প্রবাদ",
   "exercise:proverb:blurb": "একটি ঘোড়ার নালের পেরেকের অভাবে একটি রাজ্য হারিয়ে যায়, প্রবাদটি এমনই বলে। এই প্রবাদ ছড়ার সম্পূর্ণ পাঠ আউটপুট করুন।",
-  "exercise:proverb:source": "Wikipedia"
+  "exercise:proverb:source": "Wikipedia",
+  "exercise:house:name": "বাড়ি",
+  "exercise:house:blurb": "'This is the House that Jack Built' ছড়াটি আউটপুট দিন।",
+  "exercise:house:source": "ব্রিটিশ ছড়া"
 }

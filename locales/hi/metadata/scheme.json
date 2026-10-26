@@ -229,5 +229,8 @@
   "exercise:twelve-days:source": "Wikipedia",
   "exercise:proverb:name": "कहावत",
   "exercise:proverb:blurb": "कहावत है कि नाल की एक कील के बिना ही एक राज्य खो गया था। इस कहावत वाली कविता का पूरा पाठ दीजिए।",
-  "exercise:proverb:source": "Wikipedia"
+  "exercise:proverb:source": "Wikipedia",
+  "exercise:house:name": "घर",
+  "exercise:house:blurb": "बालगीत 'This is the House that Jack Built' का आउटपुट दीजिए।",
+  "exercise:house:source": "ब्रिटिश बालगीत"
 }

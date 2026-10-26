@@ -229,5 +229,8 @@
   "exercise:twelve-days:source": "Wikipedia",
   "exercise:proverb:name": "Provérbio",
   "exercise:proverb:blurb": "Por falta de um cravo, perdeu-se um reino, ou assim diz o ditado. Devolve o texto completo desta rima proverbial.",
-  "exercise:proverb:source": "Wikipedia"
+  "exercise:proverb:source": "Wikipedia",
+  "exercise:house:name": "Casa",
+  "exercise:house:blurb": "Reproduz a rima infantil 'This is the House that Jack Built'.",
+  "exercise:house:source": "Rima infantil britânica"
 }

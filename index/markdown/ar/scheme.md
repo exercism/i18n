@@ -117,6 +117,11 @@ This page is generated from [the index](../../json/ar/scheme.json) by `scripts/b
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/hello-world/.docs/instructions.md)): [Latest](../../../locales/ar/content/c9/57/0e48a9765b083b274c356cbb997754706318.md)
 - `instructions.append.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/hello-world/.docs/instructions.append.md)): [Latest](../../../locales/ar/content/7e/53/1ed895b13aedaed407f05d5dbc50035ab225.md)
 
+### House (المنزل)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/house/.docs/instructions.md)): [Latest](../../../locales/ar/content/88/92/8c5fa22b95a2e911e44cb398811b860de52a.md)
+- `instructions.append.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/house/.docs/instructions.append.md)): [Latest](../../../locales/ar/content/bd/1d/738ced7338732fd284971aaeb54221df06b6.md)
+
 ### Intergalactic Transmission (الإرسال بين المجرات)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/intergalactic-transmission/.docs/instructions.md)): [Latest](../../../locales/ar/content/54/97/088176af7a635f7378966725130623109749.md)

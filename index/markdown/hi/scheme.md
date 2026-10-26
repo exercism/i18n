@@ -117,6 +117,11 @@ This page is generated from [the index](../../json/hi/scheme.json) by `scripts/b
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/hello-world/.docs/instructions.md)): [Latest](../../../locales/hi/content/c9/57/0e48a9765b083b274c356cbb997754706318.md)
 - `instructions.append.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/hello-world/.docs/instructions.append.md)): [Latest](../../../locales/hi/content/7e/53/1ed895b13aedaed407f05d5dbc50035ab225.md)
 
+### House (घर)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/house/.docs/instructions.md)): [Latest](../../../locales/hi/content/88/92/8c5fa22b95a2e911e44cb398811b860de52a.md)
+- `instructions.append.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/house/.docs/instructions.append.md)): [Latest](../../../locales/hi/content/bd/1d/738ced7338732fd284971aaeb54221df06b6.md)
+
 ### Intergalactic Transmission (अंतरागांगिक संचरण)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/intergalactic-transmission/.docs/instructions.md)): [Latest](../../../locales/hi/content/54/97/088176af7a635f7378966725130623109749.md)

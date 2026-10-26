@@ -229,5 +229,8 @@
   "exercise:twelve-days:source": "Wikipedia",
   "exercise:proverb:name": "Sprichwort",
   "exercise:proverb:blurb": "Wegen eines fehlenden Hufeisennagels ging ein Königreich verloren, so sagt man zumindest. Gib den vollständigen Text dieses sprichwörtlichen Reims aus.",
-  "exercise:proverb:source": "Wikipedia"
+  "exercise:proverb:source": "Wikipedia",
+  "exercise:house:name": "Haus",
+  "exercise:house:blurb": "Gib den Kinderreim 'This is the House that Jack Built' aus.",
+  "exercise:house:source": "Britischer Kinderreim"
 }

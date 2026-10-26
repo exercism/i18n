@@ -229,5 +229,8 @@
   "exercise:twelve-days:source": "Wikipedia",
   "exercise:proverb:name": "諺語",
   "exercise:proverb:blurb": "少了一根馬蹄釘，就失去了一個王國，這句俗話是這麼說的。請輸出這首諺語韻文的完整內容。",
-  "exercise:proverb:source": "Wikipedia"
+  "exercise:proverb:source": "Wikipedia",
+  "exercise:house:name": "房子",
+  "exercise:house:blurb": "輸出童謠「This is the House that Jack Built」。",
+  "exercise:house:source": "英國童謠"
 }

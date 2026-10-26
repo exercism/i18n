@@ -133,6 +133,11 @@ This page is generated from [the index](../../json/hu/scheme.json) by `scripts/b
   - [`6e08ebba53`](../../../locales/hu/content/6e/08/ebba535b4523f69eaf89d50d387ff926daf0.md)
 - `instructions.append.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/hello-world/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/7e/53/1ed895b13aedaed407f05d5dbc50035ab225.md)
 
+### House (Ház)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/house/.docs/instructions.md)): [Latest](../../../locales/hu/content/88/92/8c5fa22b95a2e911e44cb398811b860de52a.md)
+- `instructions.append.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/house/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/bd/1d/738ced7338732fd284971aaeb54221df06b6.md)
+
 ### Intergalactic Transmission (Intergalaktikus átvitel)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/intergalactic-transmission/.docs/instructions.md)): [Latest](../../../locales/hu/content/54/97/088176af7a635f7378966725130623109749.md)

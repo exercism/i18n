@@ -229,5 +229,8 @@
   "exercise:twelve-days:source": "Wikipedia",
   "exercise:proverb:name": "Közmondás",
   "exercise:proverb:blurb": "Egy patkószeg hiányán múlott, hogy elveszett egy királyság, így szól a mondás. Írd ki ennek a verses közmondásnak a teljes szövegét.",
-  "exercise:proverb:source": "Wikipedia"
+  "exercise:proverb:source": "Wikipedia",
+  "exercise:house:name": "Ház",
+  "exercise:house:blurb": "Írd ki a „This is the House that Jack Built” mondókát.",
+  "exercise:house:source": "Brit mondóka"
 }

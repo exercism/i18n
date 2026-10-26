@@ -229,5 +229,8 @@
   "exercise:twelve-days:source": "Wikipedia",
   "exercise:proverb:name": "谚语",
   "exercise:proverb:blurb": "只因少了一颗马蹄钉，便失去了一整个王国，谚语里就是这么说的。请输出这首谚语韵文的全文。",
-  "exercise:proverb:source": "Wikipedia"
+  "exercise:proverb:source": "Wikipedia",
+  "exercise:house:name": "房子",
+  "exercise:house:blurb": "输出童谣《This is the House that Jack Built》。",
+  "exercise:house:source": "英国童谣"
 }

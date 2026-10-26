@@ -229,5 +229,8 @@
   "exercise:twelve-days:source": "Wikipedia",
   "exercise:proverb:name": "Proverbio",
   "exercise:proverb:blurb": "Per la mancanza di un chiodo del ferro di cavallo, andò perduto un regno, o almeno così dice il detto. Fornisci in output il testo completo di questa filastrocca proverbiale.",
-  "exercise:proverb:source": "Wikipedia"
+  "exercise:proverb:source": "Wikipedia",
+  "exercise:house:name": "La casa",
+  "exercise:house:blurb": "Stampa la filastrocca «This is the House that Jack Built».",
+  "exercise:house:source": "Filastrocca britannica"
 }

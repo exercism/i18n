@@ -229,5 +229,8 @@
   "exercise:twelve-days:source": "Wikipedia",
   "exercise:proverb:name": "Παροιμία",
   "exercise:proverb:blurb": "Για ένα καρφί του πετάλου, χάθηκε ένα βασίλειο, ή έτσι λέει η παροιμία. Τύπωσε ολόκληρο το κείμενο αυτού του παροιμιακού ποιήματος.",
-  "exercise:proverb:source": "Wikipedia"
+  "exercise:proverb:source": "Wikipedia",
+  "exercise:house:name": "Σπίτι",
+  "exercise:house:blurb": "Εκτύπωσε το παιδικό τραγούδι \"This is the House that Jack Built\".",
+  "exercise:house:source": "Βρετανικό παιδικό τραγούδι"
 }

@@ -229,5 +229,8 @@
   "exercise:twelve-days:source": "ويكيبيديا",
   "exercise:proverb:name": "المثل",
   "exercise:proverb:blurb": "بسبب مسمار في حدوة خسرنا مملكة، أو هكذا يقول المثل. أخرج النص الكامل لهذا المثل المنظوم.",
-  "exercise:proverb:source": "ويكيبيديا"
+  "exercise:proverb:source": "ويكيبيديا",
+  "exercise:house:name": "المنزل",
+  "exercise:house:blurb": "أخرج أنشودة الأطفال 'This is the House that Jack Built'.",
+  "exercise:house:source": "أنشودة أطفال بريطانية"
 }
