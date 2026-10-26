@@ -209,5 +209,7 @@
   "exercise:simple-linked-list:source": "مستوحى من 'Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby'، القوائم المترابطة الأحادية.",
   "exercise:run-length-encoding:name": "ترميز طول التسلسل",
   "exercise:run-length-encoding:blurb": "نفّذ ترميز طول التسلسل وفك الترميز.",
-  "exercise:run-length-encoding:source": "ويكيبيديا"
+  "exercise:run-length-encoding:source": "ويكيبيديا",
+  "exercise:custom-set:name": "المجموعة المخصصة",
+  "exercise:custom-set:blurb": "أنشئ نوع مجموعة مخصصًا."
 }

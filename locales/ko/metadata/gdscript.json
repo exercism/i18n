@@ -209,5 +209,7 @@
   "exercise:simple-linked-list:source": "'Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby'의 단일 연결 리스트에서 영감을 받았어요.",
   "exercise:run-length-encoding:name": "런 렝스 인코딩",
   "exercise:run-length-encoding:blurb": "런 렝스 인코딩과 디코딩을 구현해요.",
-  "exercise:run-length-encoding:source": "Wikipedia"
+  "exercise:run-length-encoding:source": "Wikipedia",
+  "exercise:custom-set:name": "사용자 정의 집합",
+  "exercise:custom-set:blurb": "사용자 정의 집합 타입을 만들어요."
 }

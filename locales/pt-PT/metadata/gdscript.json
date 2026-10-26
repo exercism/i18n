@@ -209,5 +209,7 @@
   "exercise:simple-linked-list:source": "Inspirado em «Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby», listas simplesmente ligadas.",
   "exercise:run-length-encoding:name": "Codificação run-length",
   "exercise:run-length-encoding:blurb": "Implementa a codificação e a descodificação run-length.",
-  "exercise:run-length-encoding:source": "Wikipedia"
+  "exercise:run-length-encoding:source": "Wikipedia",
+  "exercise:custom-set:name": "Conjunto Personalizado",
+  "exercise:custom-set:blurb": "Cria um tipo de conjunto personalizado."
 }

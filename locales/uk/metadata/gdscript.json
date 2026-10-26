@@ -209,5 +209,7 @@
   "exercise:simple-linked-list:source": "За мотивами книги «Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby», розділ про однозвʼязні списки.",
   "exercise:run-length-encoding:name": "Кодування довжин серій",
   "exercise:run-length-encoding:blurb": "Реалізуйте кодування та декодування довжин серій.",
-  "exercise:run-length-encoding:source": "Wikipedia"
+  "exercise:run-length-encoding:source": "Wikipedia",
+  "exercise:custom-set:name": "Власна множина",
+  "exercise:custom-set:blurb": "Створіть власний тип множини."
 }

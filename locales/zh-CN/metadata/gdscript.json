@@ -209,5 +209,7 @@
   "exercise:simple-linked-list:source": "灵感来自《Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby》中的单链表。",
   "exercise:run-length-encoding:name": "游程编码",
   "exercise:run-length-encoding:blurb": "实现游程编码和解码。",
-  "exercise:run-length-encoding:source": "Wikipedia"
+  "exercise:run-length-encoding:source": "Wikipedia",
+  "exercise:custom-set:name": "自定义集合",
+  "exercise:custom-set:blurb": "创建一个自定义的集合类型。"
 }

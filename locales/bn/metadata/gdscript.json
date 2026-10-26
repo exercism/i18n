@@ -209,5 +209,7 @@
   "exercise:simple-linked-list:source": "'Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby' থেকে অনুপ্রাণিত, সিঙ্গলি লিংকড লিস্ট।",
   "exercise:run-length-encoding:name": "রান-লেংথ এনকোডিং",
   "exercise:run-length-encoding:blurb": "রান-লেংথ এনকোডিং ও ডিকোডিং ইমপ্লিমেন্ট করুন।",
-  "exercise:run-length-encoding:source": "Wikipedia"
+  "exercise:run-length-encoding:source": "Wikipedia",
+  "exercise:custom-set:name": "কাস্টম সেট",
+  "exercise:custom-set:blurb": "একটি কাস্টম সেট টাইপ তৈরি করুন।"
 }

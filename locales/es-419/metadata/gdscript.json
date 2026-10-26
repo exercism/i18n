@@ -209,5 +209,7 @@
   "exercise:simple-linked-list:source": "Inspirado en «Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby», listas enlazadas simples.",
   "exercise:run-length-encoding:name": "Codificación por longitud de rachas",
   "exercise:run-length-encoding:blurb": "Implementar la codificación y la decodificación por longitud de rachas.",
-  "exercise:run-length-encoding:source": "Wikipedia"
+  "exercise:run-length-encoding:source": "Wikipedia",
+  "exercise:custom-set:name": "Conjunto personalizado",
+  "exercise:custom-set:blurb": "Crea un tipo de conjunto personalizado."
 }

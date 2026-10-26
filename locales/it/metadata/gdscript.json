@@ -209,5 +209,7 @@
   "exercise:simple-linked-list:source": "Ispirato a «Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby», liste concatenate singole.",
   "exercise:run-length-encoding:name": "Codifica run-length",
   "exercise:run-length-encoding:blurb": "Implementa la codifica e la decodifica run-length.",
-  "exercise:run-length-encoding:source": "Wikipedia"
+  "exercise:run-length-encoding:source": "Wikipedia",
+  "exercise:custom-set:name": "Insieme personalizzato",
+  "exercise:custom-set:blurb": "Crea un tipo di insieme personalizzato."
 }

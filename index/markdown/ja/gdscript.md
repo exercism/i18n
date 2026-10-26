@@ -67,6 +67,10 @@ This page is generated from [the index](../../json/ja/gdscript.json) by `scripts
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/game-of-life/.docs/instructions.md)): [Latest](../../../locales/ja/content/49/53/1406489df7cb6954979f2bf223729a268e22.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/game-of-life/.docs/introduction.md)): [Latest](../../../locales/ja/content/23/47/b936e442ec74936e574d83b9e845d8068f33.md)
 
+### Custom Set (カスタムセット)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/custom-set/.docs/instructions.md)): [Latest](../../../locales/ja/content/33/b9/0e28d7f87328d24652822d4424354b2590a1.md)
+
 ### Darts (ダーツ)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/darts/.docs/instructions.md)): [Latest](../../../locales/ja/content/65/18/201c77f96397a5b3e5e572de5a6778136ee0.md)

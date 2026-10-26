@@ -209,5 +209,7 @@
   "exercise:simple-linked-list:source": "Inspiré par « Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby », les listes simplement chaînées.",
   "exercise:run-length-encoding:name": "Codage par plages",
   "exercise:run-length-encoding:blurb": "Implémenter le codage par plages et son décodage.",
-  "exercise:run-length-encoding:source": "Wikipedia"
+  "exercise:run-length-encoding:source": "Wikipedia",
+  "exercise:custom-set:name": "Ensemble personnalisé",
+  "exercise:custom-set:blurb": "Crée un type ensemble personnalisé."
 }

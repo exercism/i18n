@@ -209,5 +209,7 @@
   "exercise:simple-linked-list:source": "靈感來自《Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby》的單向鏈結串列。",
   "exercise:run-length-encoding:name": "游程編碼",
   "exercise:run-length-encoding:blurb": "實作游程編碼與解碼。",
-  "exercise:run-length-encoding:source": "Wikipedia"
+  "exercise:run-length-encoding:source": "Wikipedia",
+  "exercise:custom-set:name": "自訂集合",
+  "exercise:custom-set:blurb": "建立一個自訂的集合型別。"
 }

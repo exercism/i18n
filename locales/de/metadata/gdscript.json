@@ -209,5 +209,7 @@
   "exercise:simple-linked-list:source": "Inspiriert von „Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby“, einfach verkettete Listen.",
   "exercise:run-length-encoding:name": "Lauflängenkodierung",
   "exercise:run-length-encoding:blurb": "Implementiere die Lauflängenkodierung und die dazugehörige Dekodierung.",
-  "exercise:run-length-encoding:source": "Wikipedia"
+  "exercise:run-length-encoding:source": "Wikipedia",
+  "exercise:custom-set:name": "Eigene Menge",
+  "exercise:custom-set:blurb": "Erstelle einen eigenen Mengentyp."
 }

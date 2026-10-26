@@ -209,5 +209,7 @@
   "exercise:simple-linked-list:source": "Εμπνευσμένο από το \"Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby\", τις απλά συνδεδεμένες λίστες.",
   "exercise:run-length-encoding:name": "Κωδικοποίηση μήκους σειράς",
   "exercise:run-length-encoding:blurb": "Υλοποίησε την κωδικοποίηση και την αποκωδικοποίηση μήκους σειράς.",
-  "exercise:run-length-encoding:source": "Wikipedia"
+  "exercise:run-length-encoding:source": "Wikipedia",
+  "exercise:custom-set:name": "Προσαρμοσμένο σύνολο",
+  "exercise:custom-set:blurb": "Δημιούργησε έναν προσαρμοσμένο τύπο συνόλου."
 }

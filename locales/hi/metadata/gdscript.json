@@ -209,5 +209,7 @@
   "exercise:simple-linked-list:source": "'Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby' से प्रेरित, सिंगली लिंक्ड लिस्ट।",
   "exercise:run-length-encoding:name": "रन-लेंथ एन्कोडिंग",
   "exercise:run-length-encoding:blurb": "रन-लेंथ एन्कोडिंग और डिकोडिंग लागू कीजिए।",
-  "exercise:run-length-encoding:source": "Wikipedia"
+  "exercise:run-length-encoding:source": "Wikipedia",
+  "exercise:custom-set:name": "कस्टम सेट",
+  "exercise:custom-set:blurb": "एक कस्टम सेट टाइप बनाइए।"
 }

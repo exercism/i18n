@@ -209,5 +209,7 @@
   "exercise:simple-linked-list:source": "『Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby』の単方向連結リストから着想を得ています。",
   "exercise:run-length-encoding:name": "ランレングス符号化",
   "exercise:run-length-encoding:blurb": "ランレングス符号化と復号を実装します。",
-  "exercise:run-length-encoding:source": "Wikipedia"
+  "exercise:run-length-encoding:source": "Wikipedia",
+  "exercise:custom-set:name": "カスタムセット",
+  "exercise:custom-set:blurb": "カスタムセット型を作成します。"
 }
