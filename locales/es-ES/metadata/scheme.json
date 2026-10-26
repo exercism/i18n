@@ -226,5 +226,8 @@
   "exercise:flower-field:blurb": "Marca todas las flores de un jardín.",
   "exercise:twelve-days:name": "Los doce días",
   "exercise:twelve-days:blurb": "Muestra la letra de «The Twelve Days of Christmas».",
-  "exercise:twelve-days:source": "Wikipedia"
+  "exercise:twelve-days:source": "Wikipedia",
+  "exercise:proverb:name": "Proverbio",
+  "exercise:proverb:blurb": "Por falta de un clavo de herradura se perdió un reino, o eso dice el refrán. Devuelve el texto completo de esta rima proverbial.",
+  "exercise:proverb:source": "Wikipedia"
 }

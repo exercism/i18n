@@ -226,5 +226,8 @@
   "exercise:flower-field:blurb": "बगीचे के सभी फूलों को चिह्नित कीजिए।",
   "exercise:twelve-days:name": "बारह दिन",
   "exercise:twelve-days:blurb": "'The Twelve Days of Christmas' के बोल आउटपुट कीजिए।",
-  "exercise:twelve-days:source": "Wikipedia"
+  "exercise:twelve-days:source": "Wikipedia",
+  "exercise:proverb:name": "कहावत",
+  "exercise:proverb:blurb": "कहावत है कि नाल की एक कील के बिना ही एक राज्य खो गया था। इस कहावत वाली कविता का पूरा पाठ दीजिए।",
+  "exercise:proverb:source": "Wikipedia"
 }

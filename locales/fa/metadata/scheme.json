@@ -226,5 +226,8 @@
   "exercise:flower-field:blurb": "همه‌ی گل‌های یک باغ را علامت بزنید.",
   "exercise:twelve-days:name": "دوازده روز",
   "exercise:twelve-days:blurb": "متن ترانه‌ی «دوازده روز کریسمس» را خروجی بدهید.",
-  "exercise:twelve-days:source": "Wikipedia"
+  "exercise:twelve-days:source": "Wikipedia",
+  "exercise:proverb:name": "ضرب‌المثل",
+  "exercise:proverb:blurb": "به خاطر نبود یک میخ نعل، پادشاهی‌ای از دست رفت، یا دست‌کم این‌طور می‌گویند. متن کامل این شعر ضرب‌المثلی را به خروجی بدهید.",
+  "exercise:proverb:source": "Wikipedia"
 }

@@ -226,5 +226,8 @@
   "exercise:flower-field:blurb": "Marque todas as flores de um jardim.",
   "exercise:twelve-days:name": "Doze dias",
   "exercise:twelve-days:blurb": "Produza a letra de 'The Twelve Days of Christmas'.",
-  "exercise:twelve-days:source": "Wikipedia"
+  "exercise:twelve-days:source": "Wikipedia",
+  "exercise:proverb:name": "Provérbio",
+  "exercise:proverb:blurb": "Por falta de um prego de ferradura, perdeu-se um reino, ou pelo menos é o que diz o ditado. Produza o texto completo dessa rima proverbial.",
+  "exercise:proverb:source": "Wikipedia"
 }

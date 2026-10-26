@@ -226,5 +226,8 @@
   "exercise:flower-field:blurb": "Marca todas as flores de um jardim.",
   "exercise:twelve-days:name": "Doze Dias",
   "exercise:twelve-days:blurb": "Escreve a letra de 'The Twelve Days of Christmas'.",
-  "exercise:twelve-days:source": "Wikipedia"
+  "exercise:twelve-days:source": "Wikipedia",
+  "exercise:proverb:name": "Provérbio",
+  "exercise:proverb:blurb": "Por falta de um cravo, perdeu-se um reino, ou assim diz o ditado. Devolve o texto completo desta rima proverbial.",
+  "exercise:proverb:source": "Wikipedia"
 }

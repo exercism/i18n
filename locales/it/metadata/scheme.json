@@ -226,5 +226,8 @@
   "exercise:flower-field:blurb": "Segna tutti i fiori di un giardino.",
   "exercise:twelve-days:name": "I dodici giorni",
   "exercise:twelve-days:blurb": "Restituisci in output il testo di «The Twelve Days of Christmas».",
-  "exercise:twelve-days:source": "Wikipedia"
+  "exercise:twelve-days:source": "Wikipedia",
+  "exercise:proverb:name": "Proverbio",
+  "exercise:proverb:blurb": "Per la mancanza di un chiodo del ferro di cavallo, andò perduto un regno, o almeno così dice il detto. Fornisci in output il testo completo di questa filastrocca proverbiale.",
+  "exercise:proverb:source": "Wikipedia"
 }

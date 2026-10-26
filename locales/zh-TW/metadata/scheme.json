@@ -226,5 +226,8 @@
   "exercise:flower-field:blurb": "標出花園裡所有的花。",
   "exercise:twelve-days:name": "十二天",
   "exercise:twelve-days:blurb": "輸出「The Twelve Days of Christmas」的歌詞。",
-  "exercise:twelve-days:source": "Wikipedia"
+  "exercise:twelve-days:source": "Wikipedia",
+  "exercise:proverb:name": "諺語",
+  "exercise:proverb:blurb": "少了一根馬蹄釘，就失去了一個王國，這句俗話是這麼說的。請輸出這首諺語韻文的完整內容。",
+  "exercise:proverb:source": "Wikipedia"
 }

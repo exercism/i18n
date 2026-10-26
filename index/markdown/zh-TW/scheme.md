@@ -221,6 +221,10 @@ This page is generated from [the index](../../json/zh-TW/scheme.json) by `script
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/protein-translation/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/35/c9/53b11f9642c30978222e743aff4dc38f1451.md)
 - `instructions.append.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/protein-translation/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/ca/cd/31bfbf7fcbc87c864d235f9b567a6dfc934c.md)
 
+### Proverb (諺語)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/proverb/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/f6/fb/859325f92dec6336d03d5e1f3bc3026b249f.md)
+
 ### Pythagorean Triplet (畢氏三元組)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/pythagorean-triplet/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/ce/d8/33d7a5b09a55ae68cc498c1997700bbcb45c.md)

@@ -226,5 +226,8 @@
   "exercise:flower-field:blurb": "Markiere alle Blumen in einem Garten.",
   "exercise:twelve-days:name": "Zwölf Tage",
   "exercise:twelve-days:blurb": "Gib den Liedtext von „The Twelve Days of Christmas“ aus.",
-  "exercise:twelve-days:source": "Wikipedia"
+  "exercise:twelve-days:source": "Wikipedia",
+  "exercise:proverb:name": "Sprichwort",
+  "exercise:proverb:blurb": "Wegen eines fehlenden Hufeisennagels ging ein Königreich verloren, so sagt man zumindest. Gib den vollständigen Text dieses sprichwörtlichen Reims aus.",
+  "exercise:proverb:source": "Wikipedia"
 }

@@ -226,5 +226,8 @@
   "exercise:flower-field:blurb": "Позначте всі квіти в саду.",
   "exercise:twelve-days:name": "Дванадцять днів",
   "exercise:twelve-days:blurb": "Виведіть текст пісні «The Twelve Days of Christmas».",
-  "exercise:twelve-days:source": "Wikipedia"
+  "exercise:twelve-days:source": "Wikipedia",
+  "exercise:proverb:name": "Прислівʼя",
+  "exercise:proverb:blurb": "Через брак цвяха в підкові загубилося королівство, принаймні так каже приказка. Вивести повний текст цього вірша-прислівʼя.",
+  "exercise:proverb:source": "Wikipedia"
 }

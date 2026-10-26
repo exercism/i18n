@@ -226,5 +226,8 @@
   "exercise:flower-field:blurb": "Jelöld meg a kert összes virágát.",
   "exercise:twelve-days:name": "Tizenkét nap",
   "exercise:twelve-days:blurb": "Írd ki a »The Twelve Days of Christmas« dalszövegét.",
-  "exercise:twelve-days:source": "Wikipedia"
+  "exercise:twelve-days:source": "Wikipedia",
+  "exercise:proverb:name": "Közmondás",
+  "exercise:proverb:blurb": "Egy patkószeg hiányán múlott, hogy elveszett egy királyság, így szól a mondás. Írd ki ennek a verses közmondásnak a teljes szövegét.",
+  "exercise:proverb:source": "Wikipedia"
 }

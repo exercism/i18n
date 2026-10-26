@@ -226,5 +226,8 @@
   "exercise:flower-field:blurb": "标出花园里所有的花。",
   "exercise:twelve-days:name": "十二天",
   "exercise:twelve-days:blurb": "输出 'The Twelve Days of Christmas' 的歌词。",
-  "exercise:twelve-days:source": "Wikipedia"
+  "exercise:twelve-days:source": "Wikipedia",
+  "exercise:proverb:name": "谚语",
+  "exercise:proverb:blurb": "只因少了一颗马蹄钉，便失去了一整个王国，谚语里就是这么说的。请输出这首谚语韵文的全文。",
+  "exercise:proverb:source": "Wikipedia"
 }

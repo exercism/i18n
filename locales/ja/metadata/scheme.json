@@ -226,5 +226,8 @@
   "exercise:flower-field:blurb": "庭にあるすべての花に印を付けます。",
   "exercise:twelve-days:name": "12日間",
   "exercise:twelve-days:blurb": "『The Twelve Days of Christmas』の歌詞を出力します。",
-  "exercise:twelve-days:source": "Wikipedia"
+  "exercise:twelve-days:source": "Wikipedia",
+  "exercise:proverb:name": "ことわざ",
+  "exercise:proverb:blurb": "蹄鉄の釘が1本足りないばかりに、王国が失われたと言われています。このことわざの韻文の全文を出力します。",
+  "exercise:proverb:source": "Wikipedia"
 }

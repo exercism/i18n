@@ -226,5 +226,8 @@
   "exercise:flower-field:blurb": "Σημείωσε όλα τα λουλούδια σε έναν κήπο.",
   "exercise:twelve-days:name": "Δώδεκα μέρες",
   "exercise:twelve-days:blurb": "Εμφάνισε τους στίχους του τραγουδιού \"The Twelve Days of Christmas\".",
-  "exercise:twelve-days:source": "Wikipedia"
+  "exercise:twelve-days:source": "Wikipedia",
+  "exercise:proverb:name": "Παροιμία",
+  "exercise:proverb:blurb": "Για ένα καρφί του πετάλου, χάθηκε ένα βασίλειο, ή έτσι λέει η παροιμία. Τύπωσε ολόκληρο το κείμενο αυτού του παροιμιακού ποιήματος.",
+  "exercise:proverb:source": "Wikipedia"
 }

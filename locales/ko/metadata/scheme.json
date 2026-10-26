@@ -226,5 +226,8 @@
   "exercise:flower-field:blurb": "정원에 있는 꽃을 모두 표시해요.",
   "exercise:twelve-days:name": "열두 날",
   "exercise:twelve-days:blurb": "'The Twelve Days of Christmas'의 가사를 출력해요.",
-  "exercise:twelve-days:source": "Wikipedia"
+  "exercise:twelve-days:source": "Wikipedia",
+  "exercise:proverb:name": "속담",
+  "exercise:proverb:blurb": "편자 못 하나가 부족해 왕국을 잃었다는 옛말이 있어요. 이 속담의 운율을 담은 글 전체를 출력해요.",
+  "exercise:proverb:source": "Wikipedia"
 }

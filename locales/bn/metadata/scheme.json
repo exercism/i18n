@@ -226,5 +226,8 @@
   "exercise:flower-field:blurb": "একটি বাগানের সব ফুল চিহ্নিত করুন।",
   "exercise:twelve-days:name": "বারো দিন",
   "exercise:twelve-days:blurb": "'The Twelve Days of Christmas'-এর গানের কথা আউটপুট দিন।",
-  "exercise:twelve-days:source": "Wikipedia"
+  "exercise:twelve-days:source": "Wikipedia",
+  "exercise:proverb:name": "প্রবাদ",
+  "exercise:proverb:blurb": "একটি ঘোড়ার নালের পেরেকের অভাবে একটি রাজ্য হারিয়ে যায়, প্রবাদটি এমনই বলে। এই প্রবাদ ছড়ার সম্পূর্ণ পাঠ আউটপুট করুন।",
+  "exercise:proverb:source": "Wikipedia"
 }
