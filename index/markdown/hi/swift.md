@@ -514,7 +514,8 @@ This page is generated from [the index](../../json/hi/swift.json) by `scripts/bu
 ### Expert Mixologist (विशेषज्ञ मिक्सोलॉजिस्ट)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/expert-mixologist/.docs/instructions.md)): [Latest](../../../locales/hi/content/d9/14/2c32b6e814bb2891908c4160e93b0204c02c.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/expert-mixologist/.docs/introduction.md)): [Latest](../../../locales/hi/content/1a/4f/a35675609e2965b1143a0c76cc53a78d74be.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/expert-mixologist/.docs/introduction.md)): [Latest](../../../locales/hi/content/dd/bb/0474bfd79725c64d1232b62457788460f40e.md)
+  - [`1a4fa35675`](../../../locales/hi/content/1a/4f/a35675609e2965b1143a0c76cc53a78d74be.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/expert-mixologist/.docs/hints.md)): [Latest](../../../locales/hi/content/67/39/d849a648f6c51e598906317968b33944e1ac.md)
 
 ### Freelancer Rates (फ्रीलांसर दरें)
@@ -642,15 +643,17 @@ This page is generated from [the index](../../json/hi/swift.json) by `scripts/bu
 
 ### Conditionals Guard (शर्तें और guard)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals-guard/introduction.md)): [Latest](../../../locales/hi/content/c0/39/fab30c3316cbef75f0ff6acdf1c933dc834d.md)
-  - [`fc43e48cc4`](../../../locales/hi/content/fc/43/e48cc481e05cc559b9d81ad7f072158ba6c3.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals-guard/about.md)): [Latest](../../../locales/hi/content/a1/7a/7459795166fa056c4cda0641bd973ceba3d0.md)
-  - [`fb49d6df56`](../../../locales/hi/content/fb/49/d6df56fb98d80d4a11e0b46342df36584ea5.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals-guard/introduction.md)): [Latest](../../../locales/hi/content/fc/43/e48cc481e05cc559b9d81ad7f072158ba6c3.md)
+  - [`c039fab30c`](../../../locales/hi/content/c0/39/fab30c3316cbef75f0ff6acdf1c933dc834d.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals-guard/about.md)): [Latest](../../../locales/hi/content/fb/49/d6df56fb98d80d4a11e0b46342df36584ea5.md)
+  - [`a17a745979`](../../../locales/hi/content/a1/7a/7459795166fa056c4cda0641bd973ceba3d0.md)
 
 ### Conditionals Switch (switch शर्तें)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals-switch/introduction.md)): [Latest](../../../locales/hi/content/ed/d2/b140135aa5ac4ef3a1f06f37c7b3e16f692f.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals-switch/about.md)): [Latest](../../../locales/hi/content/02/d2/5263488bc7f7b4bbea83a4d00c1cc6806a57.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals-switch/introduction.md)): [Latest](../../../locales/hi/content/59/a5/12c5ce4f0685ec29e91a6ece0dabb3b0d074.md)
+  - [`edd2b14013`](../../../locales/hi/content/ed/d2/b140135aa5ac4ef3a1f06f37c7b3e16f692f.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals-switch/about.md)): [Latest](../../../locales/hi/content/5e/f3/5b247502b3bc5ed06329633e8ac3036dfd07.md)
+  - [`02d2526348`](../../../locales/hi/content/02/d2/5263488bc7f7b4bbea83a4d00c1cc6806a57.md)
 
 ### Control transfer (कंट्रोल ट्रांसफर)
 
