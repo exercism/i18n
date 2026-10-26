@@ -214,5 +214,7 @@
   "exercise:custom-set:blurb": "建立一個自訂的集合型別。",
   "exercise:nth-prime:name": "第 n 個質數",
   "exercise:nth-prime:blurb": "給定一個數字 n，判斷第 n 個質數是多少。",
-  "exercise:nth-prime:source": "Project Euler 第 7 題的變體"
+  "exercise:nth-prime:source": "Project Euler 第 7 題的變體",
+  "exercise:all-your-base:name": "All Your Base",
+  "exercise:all-your-base:blurb": "將以某個進位的一串數字所表示的數，轉換成任意其他進位。"
 }

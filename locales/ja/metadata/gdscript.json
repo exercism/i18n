@@ -214,5 +214,7 @@
   "exercise:custom-set:blurb": "カスタムセット型を作成します。",
   "exercise:nth-prime:name": "N番目の素数",
   "exercise:nth-prime:blurb": "数値nが与えられたとき、n番目の素数を求めます。",
-  "exercise:nth-prime:source": "Project EulerのProblem 7をアレンジしたもの"
+  "exercise:nth-prime:source": "Project EulerのProblem 7をアレンジしたもの",
+  "exercise:all-your-base:name": "All Your Base",
+  "exercise:all-your-base:blurb": "ある基数の桁の並びとして表された数値を、別の基数に変換してください。"
 }

@@ -12,6 +12,11 @@ This page is generated from [the index](../../json/el/gdscript.json) by `scripts
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/acronym/.docs/instructions.md)): [Latest](../../../locales/el/content/13/3b/d2cbb78d186c92e5d2b8ca41cf13f77d6bea.md)
 
+### All Your Base
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/all-your-base/.docs/instructions.md)): [Latest](../../../locales/el/content/1b/68/8b6915eb31f5ee6c3b67d2803024a353806e.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/all-your-base/.docs/introduction.md)): [Latest](../../../locales/el/content/68/aa/ffbed953c276623458752955558a09819203.md)
+
 ### Allergies (Αλλεργίες)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/allergies/.docs/instructions.md)): [Latest](../../../locales/el/content/da/f8/cfde214667c949800c801fafecaa053efa0e.md)

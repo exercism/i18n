@@ -214,5 +214,7 @@
   "exercise:custom-set:blurb": "Crée un type ensemble personnalisé.",
   "exercise:nth-prime:name": "N-ième nombre premier",
   "exercise:nth-prime:blurb": "Étant donné un nombre n, détermine quel est le n-ième nombre premier.",
-  "exercise:nth-prime:source": "Une variante du problème 7 de Project Euler"
+  "exercise:nth-prime:source": "Une variante du problème 7 de Project Euler",
+  "exercise:all-your-base:name": "All Your Base",
+  "exercise:all-your-base:blurb": "Convertis un nombre, représenté comme une suite de chiffres dans une base, vers n'importe quelle autre base."
 }

@@ -214,5 +214,7 @@
   "exercise:custom-set:blurb": "एक कस्टम सेट टाइप बनाइए।",
   "exercise:nth-prime:name": "nवाँ अभाज्य",
   "exercise:nth-prime:blurb": "एक संख्या n दी गई है; पता कीजिए कि nवाँ अभाज्य कौन-सा है।",
-  "exercise:nth-prime:source": "Project Euler पर Problem 7 का एक रूपांतर"
+  "exercise:nth-prime:source": "Project Euler पर Problem 7 का एक रूपांतर",
+  "exercise:all-your-base:name": "All Your Base",
+  "exercise:all-your-base:blurb": "एक आधार में अंकों के क्रम के रूप में दी गई संख्या को किसी भी दूसरे आधार में बदलिए।"
 }

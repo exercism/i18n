@@ -214,5 +214,7 @@
   "exercise:custom-set:blurb": "یک نوع مجموعه‌ی سفارشی بسازید.",
   "exercise:nth-prime:name": "عدد اولِ n",
   "exercise:nth-prime:blurb": "با داشتن عدد n تعیین کنید که nاُمین عدد اول کدام است.",
-  "exercise:nth-prime:source": "گونه‌ای از مسئله‌ی ۷ در Project Euler"
+  "exercise:nth-prime:source": "گونه‌ای از مسئله‌ی ۷ در Project Euler",
+  "exercise:all-your-base:name": "All Your Base",
+  "exercise:all-your-base:blurb": "عددی را که به‌صورت دنباله‌ای از رقم‌ها در یک پایه نمایش داده می‌شود، به هر پایه‌ی دیگری تبدیل کنید."
 }

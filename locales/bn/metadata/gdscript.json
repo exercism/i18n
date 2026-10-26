@@ -214,5 +214,7 @@
   "exercise:custom-set:blurb": "একটি কাস্টম সেট টাইপ তৈরি করুন।",
   "exercise:nth-prime:name": "n-তম মৌলিক সংখ্যা",
   "exercise:nth-prime:blurb": "একটি সংখ্যা n দেওয়া হলে, n-তম মৌলিক সংখ্যাটি কী তা নির্ণয় করুন।",
-  "exercise:nth-prime:source": "Project Euler-এর Problem 7-এর একটি ভিন্ন রূপ।"
+  "exercise:nth-prime:source": "Project Euler-এর Problem 7-এর একটি ভিন্ন রূপ।",
+  "exercise:all-your-base:name": "অল ইওর বেস",
+  "exercise:all-your-base:blurb": "একটি বেসে অঙ্কের ক্রম হিসেবে লেখা একটি সংখ্যাকে যেকোনো অন্য বেসে রূপান্তর করুন।"
 }

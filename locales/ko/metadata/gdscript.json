@@ -214,5 +214,7 @@
   "exercise:custom-set:blurb": "사용자 정의 집합 타입을 만들어요.",
   "exercise:nth-prime:name": "N번째 소수",
   "exercise:nth-prime:blurb": "숫자 n이 주어졌을 때, n번째 소수가 무엇인지 알아내요.",
-  "exercise:nth-prime:source": "Project Euler의 Problem 7을 변형한 문제"
+  "exercise:nth-prime:source": "Project Euler의 Problem 7을 변형한 문제",
+  "exercise:all-your-base:name": "All Your Base",
+  "exercise:all-your-base:blurb": "어떤 진법에서 숫자 열로 표현된 수를 다른 진법으로 변환해요."
 }

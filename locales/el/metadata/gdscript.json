@@ -214,5 +214,7 @@
   "exercise:custom-set:blurb": "Δημιούργησε έναν προσαρμοσμένο τύπο συνόλου.",
   "exercise:nth-prime:name": "Νιοστός πρώτος αριθμός",
   "exercise:nth-prime:blurb": "Με δεδομένο έναν αριθμό n, προσδιόρισε ποιος είναι ο νιοστός πρώτος αριθμός.",
-  "exercise:nth-prime:source": "Μια παραλλαγή του προβλήματος 7 στο Project Euler"
+  "exercise:nth-prime:source": "Μια παραλλαγή του προβλήματος 7 στο Project Euler",
+  "exercise:all-your-base:name": "All Your Base",
+  "exercise:all-your-base:blurb": "Μετέτρεψε έναν αριθμό, που αναπαρίσταται ως ακολουθία ψηφίων σε μια βάση, σε οποιαδήποτε άλλη βάση."
 }

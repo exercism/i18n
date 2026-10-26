@@ -214,5 +214,7 @@
   "exercise:custom-set:blurb": "创建一个自定义的集合类型。",
   "exercise:nth-prime:name": "第 N 个质数",
   "exercise:nth-prime:blurb": "给定一个数字 n，确定第 n 个质数是多少。",
-  "exercise:nth-prime:source": "Project Euler 第 7 题的变体"
+  "exercise:nth-prime:source": "Project Euler 第 7 题的变体",
+  "exercise:all-your-base:name": "All Your Base",
+  "exercise:all-your-base:blurb": "把一个用某种进制的数字序列表示的数转换成任意其他进制。"
 }

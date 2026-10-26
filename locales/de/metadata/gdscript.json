@@ -214,5 +214,7 @@
   "exercise:custom-set:blurb": "Erstelle einen eigenen Mengentyp.",
   "exercise:nth-prime:name": "n-te Primzahl",
   "exercise:nth-prime:blurb": "Bestimme für eine Zahl n, welche die n-te Primzahl ist.",
-  "exercise:nth-prime:source": "Eine Variation von Problem 7 bei Project Euler"
+  "exercise:nth-prime:source": "Eine Variation von Problem 7 bei Project Euler",
+  "exercise:all-your-base:name": "All Your Base",
+  "exercise:all-your-base:blurb": "Wandle eine Zahl, die als Ziffernfolge in einer Basis dargestellt ist, in eine beliebige andere Basis um."
 }

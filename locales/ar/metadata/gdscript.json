@@ -214,5 +214,7 @@
   "exercise:custom-set:blurb": "أنشئ نوع مجموعة مخصصًا.",
   "exercise:nth-prime:name": "العدد الأولي رقم `n`",
   "exercise:nth-prime:blurb": "إذا أُعطيت العدد `n`، فحدّد ما هو العدد الأولي ذو الرتبة `n`.",
-  "exercise:nth-prime:source": "تنويع على المسألة 7 في Project Euler"
+  "exercise:nth-prime:source": "تنويع على المسألة 7 في Project Euler",
+  "exercise:all-your-base:name": "All Your Base",
+  "exercise:all-your-base:blurb": "حوّل عددًا، ممثَّلًا كتسلسل من الأرقام في أساس ما، إلى أي أساس آخر."
 }

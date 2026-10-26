@@ -214,5 +214,7 @@
   "exercise:custom-set:blurb": "Crea un tipo de conjunto personalizado.",
   "exercise:nth-prime:name": "Enésimo primo",
   "exercise:nth-prime:blurb": "Dado un número n, determina cuál es el enésimo primo.",
-  "exercise:nth-prime:source": "Una variación del problema 7 en Project Euler"
+  "exercise:nth-prime:source": "Una variación del problema 7 en Project Euler",
+  "exercise:all-your-base:name": "All Your Base",
+  "exercise:all-your-base:blurb": "Convierte un número, representado como una secuencia de dígitos en una base, a cualquier otra base."
 }

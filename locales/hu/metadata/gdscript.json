@@ -214,5 +214,7 @@
   "exercise:custom-set:blurb": "Hozz létre egy egyedi halmaz típust.",
   "exercise:nth-prime:name": "N-edik prímszám",
   "exercise:nth-prime:blurb": "Adott egy n szám, határozd meg, mi az n-edik prímszám.",
-  "exercise:nth-prime:source": "A Project Euler 7. feladatának egy változata"
+  "exercise:nth-prime:source": "A Project Euler 7. feladatának egy változata",
+  "exercise:all-your-base:name": "All Your Base",
+  "exercise:all-your-base:blurb": "Alakíts át egy számot, amely egy adott számrendszer számjegyeinek sorozataként áll elő, bármely más számrendszerbe."
 }
