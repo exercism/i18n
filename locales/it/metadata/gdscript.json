@@ -211,5 +211,8 @@
   "exercise:run-length-encoding:blurb": "Implementa la codifica e la decodifica run-length.",
   "exercise:run-length-encoding:source": "Wikipedia",
   "exercise:custom-set:name": "Insieme personalizzato",
-  "exercise:custom-set:blurb": "Crea un tipo di insieme personalizzato."
+  "exercise:custom-set:blurb": "Crea un tipo di insieme personalizzato.",
+  "exercise:nth-prime:name": "Ennesimo numero primo",
+  "exercise:nth-prime:blurb": "Dato un numero n, determina qual è l'ennesimo numero primo.",
+  "exercise:nth-prime:source": "Una variazione sul Problema 7 di Project Euler"
 }

@@ -211,5 +211,8 @@
   "exercise:run-length-encoding:blurb": "کدگذاری و کدگشایی طول اجرا را پیاده‌سازی کنید.",
   "exercise:run-length-encoding:source": "Wikipedia",
   "exercise:custom-set:name": "مجموعه‌ی سفارشی",
-  "exercise:custom-set:blurb": "یک نوع مجموعه‌ی سفارشی بسازید."
+  "exercise:custom-set:blurb": "یک نوع مجموعه‌ی سفارشی بسازید.",
+  "exercise:nth-prime:name": "عدد اولِ n",
+  "exercise:nth-prime:blurb": "با داشتن عدد n تعیین کنید که nاُمین عدد اول کدام است.",
+  "exercise:nth-prime:source": "گونه‌ای از مسئله‌ی ۷ در Project Euler"
 }

@@ -211,5 +211,8 @@
   "exercise:run-length-encoding:blurb": "Υλοποίησε την κωδικοποίηση και την αποκωδικοποίηση μήκους σειράς.",
   "exercise:run-length-encoding:source": "Wikipedia",
   "exercise:custom-set:name": "Προσαρμοσμένο σύνολο",
-  "exercise:custom-set:blurb": "Δημιούργησε έναν προσαρμοσμένο τύπο συνόλου."
+  "exercise:custom-set:blurb": "Δημιούργησε έναν προσαρμοσμένο τύπο συνόλου.",
+  "exercise:nth-prime:name": "Νιοστός πρώτος αριθμός",
+  "exercise:nth-prime:blurb": "Με δεδομένο έναν αριθμό n, προσδιόρισε ποιος είναι ο νιοστός πρώτος αριθμός.",
+  "exercise:nth-prime:source": "Μια παραλλαγή του προβλήματος 7 στο Project Euler"
 }

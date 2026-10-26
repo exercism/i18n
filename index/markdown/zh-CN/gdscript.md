@@ -141,6 +141,10 @@ This page is generated from [the index](../../json/zh-CN/gdscript.json) by `scri
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/matching-brackets/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/ea/17/0842326b8639a4d921462397a601ec5c9f4c.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/matching-brackets/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/06/18/221b21efeaba2463792b44635639e410ddd8.md)
 
+### Nth Prime (第 N 个质数)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/nth-prime/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/06/5e/323ab2ca1bcfdd97c52d8051605b4872f94a.md)
+
 ### Pangram (全字母句)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)

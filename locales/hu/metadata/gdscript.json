@@ -211,5 +211,8 @@
   "exercise:run-length-encoding:blurb": "Valósítsd meg a futáshossz-kódolást és a dekódolást.",
   "exercise:run-length-encoding:source": "Wikipedia",
   "exercise:custom-set:name": "Saját halmaz",
-  "exercise:custom-set:blurb": "Hozz létre egy egyedi halmaz típust."
+  "exercise:custom-set:blurb": "Hozz létre egy egyedi halmaz típust.",
+  "exercise:nth-prime:name": "N-edik prímszám",
+  "exercise:nth-prime:blurb": "Adott egy n szám, határozd meg, mi az n-edik prímszám.",
+  "exercise:nth-prime:source": "A Project Euler 7. feladatának egy változata"
 }

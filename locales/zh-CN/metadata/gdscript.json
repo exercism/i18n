@@ -211,5 +211,8 @@
   "exercise:run-length-encoding:blurb": "实现游程编码和解码。",
   "exercise:run-length-encoding:source": "Wikipedia",
   "exercise:custom-set:name": "自定义集合",
-  "exercise:custom-set:blurb": "创建一个自定义的集合类型。"
+  "exercise:custom-set:blurb": "创建一个自定义的集合类型。",
+  "exercise:nth-prime:name": "第 N 个质数",
+  "exercise:nth-prime:blurb": "给定一个数字 n，确定第 n 个质数是多少。",
+  "exercise:nth-prime:source": "Project Euler 第 7 题的变体"
 }

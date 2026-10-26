@@ -211,5 +211,8 @@
   "exercise:run-length-encoding:blurb": "런 렝스 인코딩과 디코딩을 구현해요.",
   "exercise:run-length-encoding:source": "Wikipedia",
   "exercise:custom-set:name": "사용자 정의 집합",
-  "exercise:custom-set:blurb": "사용자 정의 집합 타입을 만들어요."
+  "exercise:custom-set:blurb": "사용자 정의 집합 타입을 만들어요.",
+  "exercise:nth-prime:name": "N번째 소수",
+  "exercise:nth-prime:blurb": "숫자 n이 주어졌을 때, n번째 소수가 무엇인지 알아내요.",
+  "exercise:nth-prime:source": "Project Euler의 Problem 7을 변형한 문제"
 }

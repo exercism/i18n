@@ -211,5 +211,8 @@
   "exercise:run-length-encoding:blurb": "Implementar la codificación y la decodificación por longitud de rachas.",
   "exercise:run-length-encoding:source": "Wikipedia",
   "exercise:custom-set:name": "Conjunto personalizado",
-  "exercise:custom-set:blurb": "Crea un tipo de conjunto personalizado."
+  "exercise:custom-set:blurb": "Crea un tipo de conjunto personalizado.",
+  "exercise:nth-prime:name": "Enésimo primo",
+  "exercise:nth-prime:blurb": "Dado un número n, determina cuál es el enésimo primo.",
+  "exercise:nth-prime:source": "Una variación del Problema 7 de Project Euler"
 }

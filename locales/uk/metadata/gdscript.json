@@ -211,5 +211,8 @@
   "exercise:run-length-encoding:blurb": "Реалізуйте кодування та декодування довжин серій.",
   "exercise:run-length-encoding:source": "Wikipedia",
   "exercise:custom-set:name": "Власна множина",
-  "exercise:custom-set:blurb": "Створіть власний тип множини."
+  "exercise:custom-set:blurb": "Створіть власний тип множини.",
+  "exercise:nth-prime:name": "N-те просте число",
+  "exercise:nth-prime:blurb": "За заданим числом n визначте n-те просте число.",
+  "exercise:nth-prime:source": "Варіація на задачу 7 з Project Euler"
 }

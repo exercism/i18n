@@ -211,5 +211,8 @@
   "exercise:run-length-encoding:blurb": "Implémenter le codage par plages et son décodage.",
   "exercise:run-length-encoding:source": "Wikipedia",
   "exercise:custom-set:name": "Ensemble personnalisé",
-  "exercise:custom-set:blurb": "Crée un type ensemble personnalisé."
+  "exercise:custom-set:blurb": "Crée un type ensemble personnalisé.",
+  "exercise:nth-prime:name": "N-ième nombre premier",
+  "exercise:nth-prime:blurb": "Étant donné un nombre n, détermine quel est le n-ième nombre premier.",
+  "exercise:nth-prime:source": "Une variante du problème 7 de Project Euler"
 }

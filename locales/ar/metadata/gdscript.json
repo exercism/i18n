@@ -211,5 +211,8 @@
   "exercise:run-length-encoding:blurb": "نفّذ ترميز طول التسلسل وفك الترميز.",
   "exercise:run-length-encoding:source": "ويكيبيديا",
   "exercise:custom-set:name": "المجموعة المخصصة",
-  "exercise:custom-set:blurb": "أنشئ نوع مجموعة مخصصًا."
+  "exercise:custom-set:blurb": "أنشئ نوع مجموعة مخصصًا.",
+  "exercise:nth-prime:name": "العدد الأولي رقم `n`",
+  "exercise:nth-prime:blurb": "إذا أُعطيت العدد `n`، فحدّد ما هو العدد الأولي ذو الرتبة `n`.",
+  "exercise:nth-prime:source": "تنويع على المسألة 7 في Project Euler"
 }

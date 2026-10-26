@@ -211,5 +211,8 @@
   "exercise:run-length-encoding:blurb": "रन-लेंथ एन्कोडिंग और डिकोडिंग लागू कीजिए।",
   "exercise:run-length-encoding:source": "Wikipedia",
   "exercise:custom-set:name": "कस्टम सेट",
-  "exercise:custom-set:blurb": "एक कस्टम सेट टाइप बनाइए।"
+  "exercise:custom-set:blurb": "एक कस्टम सेट टाइप बनाइए।",
+  "exercise:nth-prime:name": "nवाँ अभाज्य",
+  "exercise:nth-prime:blurb": "एक संख्या n दी गई है; पता कीजिए कि nवाँ अभाज्य कौन-सा है।",
+  "exercise:nth-prime:source": "Project Euler पर Problem 7 का एक रूपांतर"
 }
