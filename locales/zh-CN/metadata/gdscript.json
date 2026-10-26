@@ -216,5 +216,8 @@
   "exercise:nth-prime:blurb": "给定一个数字 n，确定第 n 个质数是多少。",
   "exercise:nth-prime:source": "Project Euler 第 7 题的变体",
   "exercise:all-your-base:name": "All Your Base",
-  "exercise:all-your-base:blurb": "把一个用某种进制的数字序列表示的数转换成任意其他进制。"
+  "exercise:all-your-base:blurb": "把一个用某种进制的数字序列表示的数转换成任意其他进制。",
+  "exercise:nucleotide-count:name": "核苷酸计数",
+  "exercise:nucleotide-count:blurb": "给定一个 DNA 字符串，统计字符串中每种核苷酸出现的次数。",
+  "exercise:nucleotide-count:source": "Rosalind 上的 Counting DNA Nucleotides 问题"
 }

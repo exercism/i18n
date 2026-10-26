@@ -216,5 +216,8 @@
   "exercise:nth-prime:blurb": "За заданим числом n визначте n-те просте число.",
   "exercise:nth-prime:source": "Варіація на задачу 7 з Project Euler",
   "exercise:all-your-base:name": "All Your Base",
-  "exercise:all-your-base:blurb": "Перетворіть число, подане як послідовність цифр в одній основі, на будь-яку іншу основу."
+  "exercise:all-your-base:blurb": "Перетворіть число, подане як послідовність цифр в одній основі, на будь-яку іншу основу.",
+  "exercise:nucleotide-count:name": "Підрахунок нуклеотидів",
+  "exercise:nucleotide-count:blurb": "Порахуйте, скільки разів кожен нуклеотид трапляється в заданому рядку тексту (англ. string) ДНК.",
+  "exercise:nucleotide-count:source": "Задача «Counting DNA Nucleotides» на Rosalind"
 }

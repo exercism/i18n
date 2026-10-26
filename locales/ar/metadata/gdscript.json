@@ -216,5 +216,8 @@
   "exercise:nth-prime:blurb": "إذا أُعطيت العدد `n`، فحدّد ما هو العدد الأولي ذو الرتبة `n`.",
   "exercise:nth-prime:source": "تنويع على المسألة 7 في Project Euler",
   "exercise:all-your-base:name": "All Your Base",
-  "exercise:all-your-base:blurb": "حوّل عددًا، ممثَّلًا كتسلسل من الأرقام في أساس ما، إلى أي أساس آخر."
+  "exercise:all-your-base:blurb": "حوّل عددًا، ممثَّلًا كتسلسل من الأرقام في أساس ما، إلى أي أساس آخر.",
+  "exercise:nucleotide-count:name": "عدّ النوكليوتيدات",
+  "exercise:nucleotide-count:blurb": "بالنظر إلى سلسلة نصية من DNA، احسب عدد مرات ظهور كل نوكليوتيدة فيها.",
+  "exercise:nucleotide-count:source": "مسألة عدّ نوكليوتيدات DNA في Rosalind"
 }

@@ -216,5 +216,8 @@
   "exercise:nth-prime:blurb": "Dado un número n, determina cuál es el enésimo primo.",
   "exercise:nth-prime:source": "Una variación del Problema 7 de Project Euler",
   "exercise:all-your-base:name": "All Your Base",
-  "exercise:all-your-base:blurb": "Convierte un número, representado como una secuencia de dígitos en una base, a cualquier otra base."
+  "exercise:all-your-base:blurb": "Convierte un número, representado como una secuencia de dígitos en una base, a cualquier otra base.",
+  "exercise:nucleotide-count:name": "Recuento de nucleótidos",
+  "exercise:nucleotide-count:blurb": "Dado un string de ADN, calcula cuántas veces aparece cada nucleótido en el string.",
+  "exercise:nucleotide-count:source": "El problema Counting DNA Nucleotides de Rosalind"
 }

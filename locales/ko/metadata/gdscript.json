@@ -216,5 +216,8 @@
   "exercise:nth-prime:blurb": "숫자 n이 주어졌을 때, n번째 소수가 무엇인지 알아내요.",
   "exercise:nth-prime:source": "Project Euler의 Problem 7을 변형한 문제",
   "exercise:all-your-base:name": "All Your Base",
-  "exercise:all-your-base:blurb": "어떤 진법에서 숫자 열로 표현된 수를 다른 진법으로 변환해요."
+  "exercise:all-your-base:blurb": "어떤 진법에서 숫자 열로 표현된 수를 다른 진법으로 변환해요.",
+  "exercise:nucleotide-count:name": "뉴클레오타이드 개수",
+  "exercise:nucleotide-count:blurb": "DNA 문자열이 주어졌을 때, 각 뉴클레오타이드가 그 문자열에서 몇 번 나타나는지 세어요.",
+  "exercise:nucleotide-count:source": "Rosalind의 Counting DNA Nucleotides 문제"
 }

@@ -216,5 +216,8 @@
   "exercise:nth-prime:blurb": "একটি সংখ্যা n দেওয়া হলে, n-তম মৌলিক সংখ্যাটি কী তা নির্ণয় করুন।",
   "exercise:nth-prime:source": "Project Euler-এর Problem 7-এর একটি ভিন্ন রূপ।",
   "exercise:all-your-base:name": "অল ইওর বেস",
-  "exercise:all-your-base:blurb": "একটি বেসে অঙ্কের ক্রম হিসেবে লেখা একটি সংখ্যাকে যেকোনো অন্য বেসে রূপান্তর করুন।"
+  "exercise:all-your-base:blurb": "একটি বেসে অঙ্কের ক্রম হিসেবে লেখা একটি সংখ্যাকে যেকোনো অন্য বেসে রূপান্তর করুন।",
+  "exercise:nucleotide-count:name": "নিউক্লিওটাইড গণনা",
+  "exercise:nucleotide-count:blurb": "একটি DNA স্ট্রিং দেওয়া হলে, স্ট্রিংটিতে প্রতিটি নিউক্লিওটাইড কতবার আছে তা গণনা করুন।",
+  "exercise:nucleotide-count:source": "Rosalind-এর Counting DNA Nucleotides সমস্যা।"
 }

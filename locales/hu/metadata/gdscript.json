@@ -216,5 +216,8 @@
   "exercise:nth-prime:blurb": "Adott egy n szám, határozd meg, mi az n-edik prímszám.",
   "exercise:nth-prime:source": "A Project Euler 7. feladatának egy változata",
   "exercise:all-your-base:name": "All Your Base",
-  "exercise:all-your-base:blurb": "Alakíts át egy számot, amely egy adott számrendszer számjegyeinek sorozataként áll elő, bármely más számrendszerbe."
+  "exercise:all-your-base:blurb": "Alakíts át egy számot, amely egy adott számrendszer számjegyeinek sorozataként áll elő, bármely más számrendszerbe.",
+  "exercise:nucleotide-count:name": "Nukleotidszámlálás",
+  "exercise:nucleotide-count:blurb": "Adott egy DNS-string, számold ki, hogy az egyes nukleotidok hányszor fordulnak elő benne.",
+  "exercise:nucleotide-count:source": "A Counting DNA Nucleotides feladat a Rosalindon"
 }

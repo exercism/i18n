@@ -216,5 +216,8 @@
   "exercise:nth-prime:blurb": "Bestimme für eine Zahl n, welche die n-te Primzahl ist.",
   "exercise:nth-prime:source": "Eine Variation von Problem 7 bei Project Euler",
   "exercise:all-your-base:name": "All Your Base",
-  "exercise:all-your-base:blurb": "Wandle eine Zahl, die als Ziffernfolge in einer Basis dargestellt ist, in eine beliebige andere Basis um."
+  "exercise:all-your-base:blurb": "Wandle eine Zahl, die als Ziffernfolge in einer Basis dargestellt ist, in eine beliebige andere Basis um.",
+  "exercise:nucleotide-count:name": "Nukleotidzählung",
+  "exercise:nucleotide-count:blurb": "Bestimme für einen DNA-String, wie oft jedes Nukleotid darin vorkommt.",
+  "exercise:nucleotide-count:source": "Das Problem Counting DNA Nucleotides bei Rosalind"
 }

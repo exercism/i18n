@@ -154,6 +154,10 @@ This page is generated from [the index](../../json/el/gdscript.json) by `scripts
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/nth-prime/.docs/instructions.md)): [Latest](../../../locales/el/content/06/5e/323ab2ca1bcfdd97c52d8051605b4872f94a.md)
 
+### Nucleotide Count (Καταμέτρηση νουκλεοτιδίων)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/nucleotide-count/.docs/instructions.md)): [Latest](../../../locales/el/content/54/8d/9ba5a5ee79a79fc4ff3e1d942c6c7f7c68af.md)
+
 ### Pangram (Πανόγραμμα)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/el/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
