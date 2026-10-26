@@ -642,8 +642,10 @@ This page is generated from [the index](../../json/pt-PT/swift.json) by `scripts
 
 ### Conditionals Guard (Condicionais guard)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals-guard/introduction.md)): [Latest](../../../locales/pt-PT/content/fc/43/e48cc481e05cc559b9d81ad7f072158ba6c3.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals-guard/about.md)): [Latest](../../../locales/pt-PT/content/fb/49/d6df56fb98d80d4a11e0b46342df36584ea5.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals-guard/introduction.md)): [Latest](../../../locales/pt-PT/content/c0/39/fab30c3316cbef75f0ff6acdf1c933dc834d.md)
+  - [`fc43e48cc4`](../../../locales/pt-PT/content/fc/43/e48cc481e05cc559b9d81ad7f072158ba6c3.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals-guard/about.md)): [Latest](../../../locales/pt-PT/content/a1/7a/7459795166fa056c4cda0641bd973ceba3d0.md)
+  - [`fb49d6df56`](../../../locales/pt-PT/content/fb/49/d6df56fb98d80d4a11e0b46342df36584ea5.md)
 
 ### Conditionals Switch (Condicionais Switch)
 

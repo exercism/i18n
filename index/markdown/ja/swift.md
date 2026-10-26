@@ -642,8 +642,10 @@ This page is generated from [the index](../../json/ja/swift.json) by `scripts/bu
 
 ### Conditionals Guard (\`guard\`による条件分岐)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals-guard/introduction.md)): [Latest](../../../locales/ja/content/fc/43/e48cc481e05cc559b9d81ad7f072158ba6c3.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals-guard/about.md)): [Latest](../../../locales/ja/content/fb/49/d6df56fb98d80d4a11e0b46342df36584ea5.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals-guard/introduction.md)): [Latest](../../../locales/ja/content/c0/39/fab30c3316cbef75f0ff6acdf1c933dc834d.md)
+  - [`fc43e48cc4`](../../../locales/ja/content/fc/43/e48cc481e05cc559b9d81ad7f072158ba6c3.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals-guard/about.md)): [Latest](../../../locales/ja/content/a1/7a/7459795166fa056c4cda0641bd973ceba3d0.md)
+  - [`fb49d6df56`](../../../locales/ja/content/fb/49/d6df56fb98d80d4a11e0b46342df36584ea5.md)
 
 ### Conditionals Switch (条件分岐（\`switch\`）)
 

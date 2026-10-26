@@ -1,0 +1,30 @@
+# Introducción
+
+La sentencia `guard` de Swift se usa para hacer salidas anticipadas de funciones, bucles o métodos cuando no se cumple una condición requerida:
+
+```swift
+guard myValue >= 0 else { return 0 }
+let root = myValue.squareRoot()
+```
+
+En el ejemplo anterior, `guard` evalúa la expresión Boolean que va después.
+Si la condición es `true`, la ejecución continúa con el código que sigue a la sentencia `guard`.
+Si la condición es `false`, se ejecuta el código dentro del bloque `else`.
+
+A diferencia de una sentencia `if`:
+
+- Una sentencia `guard` **debe** incluir una cláusula `else`.
+- La cláusula `else` **debe** transferir el control para salir del ámbito que la rodea (por ejemplo, usando `return`, `continue`, `break` o lanzando un error).
+
+`guard` se usa a menudo para validar precondiciones de forma clara.
+Por ejemplo, considera la función sinc ($\text{sinc}(x) = \frac{\sin(x)}{x}$, con $\text{sinc}(0) = 1$ para evitar la división por cero):
+
+```swift
+func sinc(_ x: Double) -> Double {
+    guard x != 0 else { return 1 }
+    return sin(x) / x
+}
+
+sinc(0)             // returns 1
+sinc(Double.pi / 2) // returns 0.6366197723675814
+```

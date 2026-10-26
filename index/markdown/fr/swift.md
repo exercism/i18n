@@ -676,8 +676,10 @@ This page is generated from [the index](../../json/fr/swift.json) by `scripts/bu
 
 ### Conditionals Guard (Garde conditionnelle)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals-guard/introduction.md)): [Latest](../../../locales/fr/content/fc/43/e48cc481e05cc559b9d81ad7f072158ba6c3.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals-guard/about.md)): [Latest](../../../locales/fr/content/fb/49/d6df56fb98d80d4a11e0b46342df36584ea5.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals-guard/introduction.md)): [Latest](../../../locales/fr/content/c0/39/fab30c3316cbef75f0ff6acdf1c933dc834d.md)
+  - [`fc43e48cc4`](../../../locales/fr/content/fc/43/e48cc481e05cc559b9d81ad7f072158ba6c3.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals-guard/about.md)): [Latest](../../../locales/fr/content/a1/7a/7459795166fa056c4cda0641bd973ceba3d0.md)
+  - [`fb49d6df56`](../../../locales/fr/content/fb/49/d6df56fb98d80d4a11e0b46342df36584ea5.md)
 
 ### Conditionals Switch (Conditions \`switch\`)
 
