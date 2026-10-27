@@ -3861,6 +3861,10 @@
         "github_syncer": {
           "heading": "GitHub-szinkronizáló"
         }
+      },
+      "callback": {
+        "missing_installation_id": "Hiányzó telepítési azonosító",
+        "connected": "A GitHub sikeresen csatlakoztatva"
       }
     },
     "insiders": {
@@ -4286,6 +4290,22 @@
         "publishing": {
           "one": "%{formatted_count} közzétett megoldás",
           "other": "%{formatted_count} közzétett megoldás"
+        }
+      }
+    },
+    "user_github_solution_syncer": {
+      "create": {
+        "errors": {
+          "missing_installation_id": "Hiányzó telepítési azonosító",
+          "invalid_installation_id": "Érvénytelen telepítési azonosító",
+          "github_account_not_connected": "A GitHub Syncer beállítása előtt kapcsold össze a GitHub-fiókodat az Exercism-mel",
+          "organization_account": "A GitHub Syncer csak személyes GitHub-fiókokat támogat. Telepítsd a saját GitHub-fiókodra",
+          "different_github_account": "Ezt a GitHub Appot egy másik GitHub-fiókra telepítették, mint amelyik az Exercism-fiókodhoz kapcsolódik",
+          "installation_not_found": "A GitHub App telepítése nem található, vagy már nem érhető el",
+          "authorization_failed": "A GitHub-hitelesítés nem sikerült",
+          "api_error": "GitHub API-hiba: %{message}",
+          "not_exactly_one_repository": "Pontosan egy tárolóhoz adj hozzáférést",
+          "installation_token_missing": "Nem sikerült lekérni a GitHub telepítési tokent"
         }
       }
     }

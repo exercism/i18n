@@ -971,6 +971,10 @@
         "github_syncer": {
           "heading": "GitHub Syncer"
         }
+      },
+      "callback": {
+        "missing_installation_id": "Installations-ID fehlt",
+        "connected": "GitHub erfolgreich verbunden"
       }
     },
     "insiders": {
@@ -4287,6 +4291,22 @@
         "publishing": {
           "one": "%{formatted_count} veröffentlichte Lösung",
           "other": "%{formatted_count} veröffentlichte Lösungen"
+        }
+      }
+    },
+    "user_github_solution_syncer": {
+      "create": {
+        "errors": {
+          "missing_installation_id": "Installations-ID fehlt",
+          "invalid_installation_id": "Ungültige Installations-ID",
+          "github_account_not_connected": "Bitte verbinde dein GitHub-Konto mit Exercism, bevor du den GitHub Syncer einrichtest",
+          "organization_account": "Der GitHub Syncer unterstützt nur persönliche GitHub-Konten. Bitte installiere ihn auf deinem eigenen GitHub-Konto",
+          "different_github_account": "Diese GitHub App wurde auf einem anderen GitHub-Konto installiert als dem, das mit deinem Exercism-Konto verbunden ist",
+          "installation_not_found": "Installation der GitHub App nicht gefunden oder nicht mehr zugänglich",
+          "authorization_failed": "GitHub-Autorisierung fehlgeschlagen",
+          "api_error": "GitHub-API-Fehler: %{message}",
+          "not_exactly_one_repository": "Bitte gewähre Zugriff auf genau ein Repository",
+          "installation_token_missing": "Das GitHub-Installationstoken konnte nicht abgerufen werden"
         }
       }
     }

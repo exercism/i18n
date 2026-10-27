@@ -2055,6 +2055,10 @@
         "github_syncer": {
           "heading": "GitHub 동기화"
         }
+      },
+      "callback": {
+        "missing_installation_id": "설치 ID가 없어요",
+        "connected": "GitHub가 성공적으로 연결되었어요"
       }
     },
     "insiders": {
@@ -4220,6 +4224,22 @@
         },
         "publishing": {
           "other": "솔루션 %{formatted_count}개 게시"
+        }
+      }
+    },
+    "user_github_solution_syncer": {
+      "create": {
+        "errors": {
+          "missing_installation_id": "설치 ID가 없어요",
+          "invalid_installation_id": "설치 ID가 올바르지 않아요",
+          "github_account_not_connected": "GitHub Syncer를 설정하기 전에 Exercism에 GitHub 계정을 연결해 주세요",
+          "organization_account": "GitHub Syncer는 개인 GitHub 계정만 지원해요. 본인의 GitHub 계정에 설치해 주세요",
+          "different_github_account": "이 GitHub App은 Exercism 계정에 연결된 GitHub 계정과 다른 GitHub 계정에 설치되었어요",
+          "installation_not_found": "GitHub App 설치를 찾을 수 없거나 더 이상 접근할 수 없어요",
+          "authorization_failed": "GitHub 인증에 실패했어요",
+          "api_error": "GitHub API 오류: %{message}",
+          "not_exactly_one_repository": "리포지토리 하나에만 접근 권한을 부여해 주세요",
+          "installation_token_missing": "GitHub 설치 토큰을 가져오지 못했어요"
         }
       }
     }

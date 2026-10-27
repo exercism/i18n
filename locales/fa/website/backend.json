@@ -2784,6 +2784,10 @@
         "github_syncer": {
           "heading": "همگام‌ساز GitHub"
         }
+      },
+      "callback": {
+        "missing_installation_id": "شناسه‌ی نصب موجود نیست",
+        "connected": "GitHub با موفقیت متصل شد"
       }
     },
     "insiders": {
@@ -4287,6 +4291,22 @@
         "publishing": {
           "one": "%{formatted_count} راه‌حل منتشرشده",
           "other": "%{formatted_count} راه‌حل منتشرشده"
+        }
+      }
+    },
+    "user_github_solution_syncer": {
+      "create": {
+        "errors": {
+          "missing_installation_id": "شناسه‌ی نصب موجود نیست",
+          "invalid_installation_id": "شناسه‌ی نصب نامعتبر است",
+          "github_account_not_connected": "لطفاً پیش از راه‌اندازی GitHub Syncer، حساب GitHub خودتان را به Exercism متصل کنید",
+          "organization_account": "GitHub Syncer فقط از حساب‌های شخصی GitHub پشتیبانی می‌کند. لطفاً آن را روی حساب GitHub خودتان نصب کنید",
+          "different_github_account": "این GitHub App روی حساب GitHub دیگری نصب شده است، نه روی حسابی که به حساب Exercism شما متصل است",
+          "installation_not_found": "نصب GitHub App پیدا نشد یا دیگر در دسترس نیست",
+          "authorization_failed": "مجوزدهی GitHub ناموفق بود",
+          "api_error": "خطای GitHub API: %{message}",
+          "not_exactly_one_repository": "لطفاً فقط به یک مخزن دسترسی بدهید",
+          "installation_token_missing": "دریافت توکن نصب GitHub ناموفق بود"
         }
       }
     }

@@ -3535,6 +3535,10 @@
         "github_syncer": {
           "heading": "مزامنة GitHub"
         }
+      },
+      "callback": {
+        "missing_installation_id": "معرّف التثبيت مفقود",
+        "connected": "تم ربط GitHub بنجاح"
       }
     },
     "insiders": {
@@ -4545,6 +4549,22 @@
           "few": "نشر %{formatted_count} حلول",
           "many": "نشر %{formatted_count} حل",
           "other": "نشر %{formatted_count} حل"
+        }
+      }
+    },
+    "user_github_solution_syncer": {
+      "create": {
+        "errors": {
+          "missing_installation_id": "معرّف التثبيت مفقود",
+          "invalid_installation_id": "معرّف التثبيت غير صالح",
+          "github_account_not_connected": "يرجى ربط حسابك على GitHub بـ Exercism قبل إعداد GitHub Syncer",
+          "organization_account": "يدعم GitHub Syncer حسابات GitHub الشخصية فقط. يرجى تثبيته على حسابك الشخصي على GitHub",
+          "different_github_account": "ثُبّت تطبيق GitHub هذا على حساب GitHub مختلف عن الحساب المرتبط بحسابك على Exercism",
+          "installation_not_found": "لم يُعثر على تثبيت تطبيق GitHub أو لم يعد متاحًا",
+          "authorization_failed": "فشل التفويض من GitHub",
+          "api_error": "خطأ في GitHub API: %{message}",
+          "not_exactly_one_repository": "يرجى منح الوصول إلى مستودع واحد فقط",
+          "installation_token_missing": "تعذّر استرداد رمز تثبيت GitHub"
         }
       }
     }

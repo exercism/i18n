@@ -761,6 +761,10 @@
         "github_syncer": {
           "heading": "Sincronizador de GitHub"
         }
+      },
+      "callback": {
+        "missing_installation_id": "Falta el ID de instalación",
+        "connected": "GitHub se ha conectado correctamente"
       }
     },
     "insiders": {
@@ -4352,6 +4356,22 @@
           "one": "%{formatted_count} solución publicada",
           "many": "%{formatted_count} soluciones publicadas",
           "other": "%{formatted_count} soluciones publicadas"
+        }
+      }
+    },
+    "user_github_solution_syncer": {
+      "create": {
+        "errors": {
+          "missing_installation_id": "Falta el ID de instalación",
+          "invalid_installation_id": "ID de instalación no válido",
+          "github_account_not_connected": "Conecta tu cuenta de GitHub a Exercism antes de configurar GitHub Syncer",
+          "organization_account": "GitHub Syncer solo admite cuentas personales de GitHub. Instálalo en tu propia cuenta de GitHub",
+          "different_github_account": "Esta aplicación de GitHub se instaló en una cuenta de GitHub distinta de la que está conectada a tu cuenta de Exercism",
+          "installation_not_found": "No se ha encontrado la instalación de la aplicación de GitHub o ya no es accesible",
+          "authorization_failed": "La autorización de GitHub ha fallado",
+          "api_error": "Error de la API de GitHub: %{message}",
+          "not_exactly_one_repository": "Concede acceso a exactamente un repositorio",
+          "installation_token_missing": "No se ha podido obtener el token de instalación de GitHub"
         }
       }
     }

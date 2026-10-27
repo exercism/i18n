@@ -3027,6 +3027,10 @@
         "github_syncer": {
           "heading": "GitHub Syncer"
         }
+      },
+      "callback": {
+        "missing_installation_id": "ID d'installation manquant",
+        "connected": "GitHub connecté avec succès"
       }
     },
     "insiders": {
@@ -4353,6 +4357,22 @@
           "one": "%{formatted_count} solution publiée",
           "many": "%{formatted_count} solutions publiées",
           "other": "%{formatted_count} solutions publiées"
+        }
+      }
+    },
+    "user_github_solution_syncer": {
+      "create": {
+        "errors": {
+          "missing_installation_id": "ID d'installation manquant",
+          "invalid_installation_id": "ID d'installation invalide",
+          "github_account_not_connected": "Connecte ton compte GitHub à Exercism avant de configurer le GitHub Syncer",
+          "organization_account": "Le GitHub Syncer ne prend en charge que les comptes GitHub personnels. Installe-le sur ton propre compte GitHub",
+          "different_github_account": "Cette GitHub App a été installée sur un compte GitHub différent de celui qui est connecté à ton compte Exercism",
+          "installation_not_found": "Installation de la GitHub App introuvable ou plus accessible",
+          "authorization_failed": "L'autorisation GitHub a échoué",
+          "api_error": "Erreur de l'API GitHub : %{message}",
+          "not_exactly_one_repository": "Accorde l'accès à un seul dépôt",
+          "installation_token_missing": "Impossible de récupérer le jeton d'installation GitHub"
         }
       }
     }

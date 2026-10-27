@@ -776,6 +776,10 @@
         "github_syncer": {
           "heading": "GitHub Syncer"
         }
+      },
+      "callback": {
+        "missing_installation_id": "インストールIDがありません",
+        "connected": "GitHubの連携が完了しました"
       }
     },
     "insiders": {
@@ -4215,6 +4219,22 @@
         },
         "publishing": {
           "other": "解答を%{formatted_count}件公開"
+        }
+      }
+    },
+    "user_github_solution_syncer": {
+      "create": {
+        "errors": {
+          "missing_installation_id": "インストールIDがありません",
+          "invalid_installation_id": "インストールIDが正しくありません",
+          "github_account_not_connected": "GitHub Syncerを設定する前に、GitHubアカウントをExercismに連携してください",
+          "organization_account": "GitHub Syncerは個人のGitHubアカウントにのみ対応しています。自分のGitHubアカウントにインストールしてください",
+          "different_github_account": "このGitHub Appは、Exercismアカウントに連携しているGitHubアカウントとは別のアカウントにインストールされています",
+          "installation_not_found": "GitHub Appのインストールが見つからないか、アクセスできなくなっています",
+          "authorization_failed": "GitHubの認可に失敗しました",
+          "api_error": "GitHub APIエラー: %{message}",
+          "not_exactly_one_repository": "アクセスを許可するリポジトリは、1つだけにしてください",
+          "installation_token_missing": "GitHubのインストールトークンを取得できませんでした"
         }
       }
     }

@@ -3148,6 +3148,10 @@
         "github_syncer": {
           "heading": "Синхронізація з GitHub"
         }
+      },
+      "callback": {
+        "missing_installation_id": "Відсутній ID встановлення",
+        "connected": "GitHub успішно підключено"
       }
     },
     "insiders": {
@@ -4413,6 +4417,22 @@
           "few": "Опубліковано %{formatted_count} рішення",
           "many": "Опубліковано %{formatted_count} рішень",
           "other": "Опубліковано %{formatted_count} рішення"
+        }
+      }
+    },
+    "user_github_solution_syncer": {
+      "create": {
+        "errors": {
+          "missing_installation_id": "Відсутній ID встановлення",
+          "invalid_installation_id": "Недійсний ID встановлення",
+          "github_account_not_connected": "Будь ласка, підключіть свій обліковий запис GitHub до Exercism, перш ніж налаштувати GitHub Syncer",
+          "organization_account": "GitHub Syncer підтримує лише особисті облікові записи GitHub. Будь ласка, встановіть його на власний обліковий запис GitHub",
+          "different_github_account": "Цей GitHub App встановлено на інший обліковий запис GitHub, ніж той, що підключений до облікового запису Exercism",
+          "installation_not_found": "Встановлення GitHub App не знайдено або воно більше недоступне",
+          "authorization_failed": "Авторизація GitHub не вдалася",
+          "api_error": "Помилка GitHub API: %{message}",
+          "not_exactly_one_repository": "Будь ласка, надайте доступ рівно до одного репозиторію",
+          "installation_token_missing": "Не вдалося отримати токен встановлення GitHub"
         }
       }
     }

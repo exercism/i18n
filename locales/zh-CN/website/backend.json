@@ -2477,6 +2477,10 @@
         "github_syncer": {
           "heading": "GitHub 同步器"
         }
+      },
+      "callback": {
+        "missing_installation_id": "缺少安装 ID",
+        "connected": "GitHub 连接成功"
       }
     },
     "insiders": {
@@ -4215,6 +4219,22 @@
         },
         "publishing": {
           "other": "发布了 %{formatted_count} 份提交的解答"
+        }
+      }
+    },
+    "user_github_solution_syncer": {
+      "create": {
+        "errors": {
+          "missing_installation_id": "缺少安装 ID",
+          "invalid_installation_id": "安装 ID 无效",
+          "github_account_not_connected": "请先将你的 GitHub 账号连接到 Exercism，然后再设置 GitHub Syncer",
+          "organization_account": "GitHub Syncer 只支持个人 GitHub 账号。请把它安装在你自己的 GitHub 账号上",
+          "different_github_account": "这个 GitHub App 安装所在的 GitHub 账号，与你 Exercism 账号所关联的 GitHub 账号不一致",
+          "installation_not_found": "未找到 GitHub App 安装，或该安装已无法访问",
+          "authorization_failed": "GitHub 授权失败",
+          "api_error": "GitHub API 错误：%{message}",
+          "not_exactly_one_repository": "请只授权一个代码仓库",
+          "installation_token_missing": "无法获取 GitHub 安装令牌"
         }
       }
     }

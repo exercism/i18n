@@ -3317,6 +3317,10 @@
         "github_syncer": {
           "heading": "GitHub সিঙ্কার"
         }
+      },
+      "callback": {
+        "missing_installation_id": "ইনস্টলেশন আইডি অনুপস্থিত",
+        "connected": "GitHub সফলভাবে সংযুক্ত হয়েছে"
       }
     },
     "insiders": {
@@ -4286,6 +4290,22 @@
         "publishing": {
           "one": "%{formatted_count}টি সলিউশন পাবলিশ করা হয়েছে",
           "other": "%{formatted_count}টি সলিউশন পাবলিশ করা হয়েছে"
+        }
+      }
+    },
+    "user_github_solution_syncer": {
+      "create": {
+        "errors": {
+          "missing_installation_id": "ইনস্টলেশন আইডি অনুপস্থিত",
+          "invalid_installation_id": "ইনস্টলেশন আইডি অবৈধ",
+          "github_account_not_connected": "GitHub Syncer সেট আপ করার আগে অনুগ্রহ করে আপনার GitHub অ্যাকাউন্ট Exercism-এর সাথে সংযুক্ত করুন",
+          "organization_account": "GitHub Syncer কেবল ব্যক্তিগত GitHub অ্যাকাউন্ট সমর্থন করে। অনুগ্রহ করে এটি আপনার নিজের GitHub অ্যাকাউন্টে ইনস্টল করুন",
+          "different_github_account": "এই GitHub App আপনার Exercism অ্যাকাউন্টের সাথে সংযুক্ত GitHub অ্যাকাউন্ট থেকে ভিন্ন একটি GitHub অ্যাকাউন্টে ইনস্টল করা হয়েছে",
+          "installation_not_found": "GitHub App-এর ইনস্টলেশন পাওয়া যায়নি বা আর অ্যাক্সেস করা যায় না",
+          "authorization_failed": "GitHub অথরাইজেশন ব্যর্থ হয়েছে",
+          "api_error": "GitHub API এরর: %{message}",
+          "not_exactly_one_repository": "অনুগ্রহ করে ঠিক একটি রিপোজিটরির জন্য অ্যাক্সেস দিন",
+          "installation_token_missing": "GitHub ইনস্টলেশন টোকেন পুনরুদ্ধার করা যায়নি"
         }
       }
     }

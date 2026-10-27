@@ -3312,6 +3312,10 @@
         "github_syncer": {
           "heading": "Συγχρονισμός GitHub"
         }
+      },
+      "callback": {
+        "missing_installation_id": "Λείπει το αναγνωριστικό εγκατάστασης",
+        "connected": "Το GitHub συνδέθηκε με επιτυχία"
       }
     },
     "insiders": {
@@ -4287,6 +4291,22 @@
         "publishing": {
           "one": "%{formatted_count} λύση δημοσιεύτηκε",
           "other": "%{formatted_count} λύσεις δημοσιεύτηκαν"
+        }
+      }
+    },
+    "user_github_solution_syncer": {
+      "create": {
+        "errors": {
+          "missing_installation_id": "Λείπει το αναγνωριστικό εγκατάστασης",
+          "invalid_installation_id": "Μη έγκυρο αναγνωριστικό εγκατάστασης",
+          "github_account_not_connected": "Σύνδεσε τον λογαριασμό σου στο GitHub με το Exercism πριν ρυθμίσεις το GitHub Syncer",
+          "organization_account": "Το GitHub Syncer υποστηρίζει μόνο προσωπικούς λογαριασμούς GitHub. Εγκατέστησέ το στον δικό σου λογαριασμό GitHub",
+          "different_github_account": "Αυτή η εφαρμογή GitHub εγκαταστάθηκε σε διαφορετικό λογαριασμό GitHub από αυτόν που είναι συνδεδεμένος με τον λογαριασμό σου στο Exercism",
+          "installation_not_found": "Η εγκατάσταση της εφαρμογής GitHub δεν βρέθηκε ή δεν είναι πλέον προσβάσιμη",
+          "authorization_failed": "Η εξουσιοδότηση στο GitHub απέτυχε",
+          "api_error": "Σφάλμα στο API του GitHub: %{message}",
+          "not_exactly_one_repository": "Δώσε πρόσβαση σε ένα μόνο αποθετήριο",
+          "installation_token_missing": "Αποτυχία ανάκτησης του token εγκατάστασης του GitHub"
         }
       }
     }

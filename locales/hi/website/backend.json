@@ -2007,6 +2007,10 @@
         "github_syncer": {
           "heading": "GitHub सिंकर"
         }
+      },
+      "callback": {
+        "missing_installation_id": "इंस्टॉलेशन ID मौजूद नहीं है",
+        "connected": "GitHub सफलतापूर्वक जुड़ गया"
       }
     },
     "insiders": {
@@ -4286,6 +4290,22 @@
         "publishing": {
           "one": "%{formatted_count} हल प्रकाशित किया गया",
           "other": "%{formatted_count} हल प्रकाशित किए गए"
+        }
+      }
+    },
+    "user_github_solution_syncer": {
+      "create": {
+        "errors": {
+          "missing_installation_id": "इंस्टॉलेशन ID मौजूद नहीं है",
+          "invalid_installation_id": "इंस्टॉलेशन ID अमान्य है",
+          "github_account_not_connected": "GitHub Syncer सेट करने से पहले अपना GitHub अकाउंट Exercism से जोड़िए",
+          "organization_account": "GitHub Syncer सिर्फ निजी GitHub अकाउंट का समर्थन करता है। इसे अपने खुद के GitHub अकाउंट पर इंस्टॉल कीजिए",
+          "different_github_account": "यह GitHub App किसी दूसरे GitHub अकाउंट पर इंस्टॉल किया गया है, जो आपके Exercism अकाउंट से जुड़े GitHub अकाउंट से अलग है",
+          "installation_not_found": "GitHub App का इंस्टॉलेशन नहीं मिला या अब उपलब्ध नहीं है",
+          "authorization_failed": "GitHub का ऑथेंटिकेशन विफल रहा",
+          "api_error": "GitHub API एरर: %{message}",
+          "not_exactly_one_repository": "ठीक एक रिपॉज़िटरी तक पहुँच दीजिए",
+          "installation_token_missing": "GitHub इंस्टॉलेशन टोकन प्राप्त नहीं हो सका"
         }
       }
     }

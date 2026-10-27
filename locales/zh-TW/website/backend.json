@@ -2476,6 +2476,10 @@
         "github_syncer": {
           "heading": "GitHub 同步器"
         }
+      },
+      "callback": {
+        "missing_installation_id": "缺少安裝 ID",
+        "connected": "GitHub 連結成功"
       }
     },
     "insiders": {
@@ -4216,6 +4220,22 @@
         },
         "publishing": {
           "other": "發佈了 %{formatted_count} 個解決方案"
+        }
+      }
+    },
+    "user_github_solution_syncer": {
+      "create": {
+        "errors": {
+          "missing_installation_id": "缺少安裝 ID",
+          "invalid_installation_id": "安裝 ID 無效",
+          "github_account_not_connected": "設定 GitHub Syncer 之前，請先將你的 GitHub 帳號連結到 Exercism",
+          "organization_account": "GitHub Syncer 只支援個人的 GitHub 帳號。請將它安裝在你自己的 GitHub 帳號上",
+          "different_github_account": "這個 GitHub App 安裝在另一個 GitHub 帳號上，與你 Exercism 帳號所連結的帳號不同",
+          "installation_not_found": "找不到 GitHub App 安裝，或已無法存取",
+          "authorization_failed": "GitHub 授權失敗",
+          "api_error": "GitHub API 錯誤：%{message}",
+          "not_exactly_one_repository": "請只授予一個儲存庫的存取權",
+          "installation_token_missing": "無法取得 GitHub 安裝權杖"
         }
       }
     }
