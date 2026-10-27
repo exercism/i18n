@@ -376,8 +376,10 @@ This page is generated from [the index](../../json/ja/roc.json) by `scripts/buil
 ### Parallel Letter Frequency (並列文字頻度)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/parallel-letter-frequency/.docs/instructions.md)): [Latest](../../../locales/ja/content/61/47/b90af7ffabb5b826dc5a6d0a6439859335c7.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/parallel-letter-frequency/.docs/instructions.append.md)): [Latest](../../../locales/ja/content/2a/08/5773fde59e971be60bafa430657f4a4ce2f4.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/parallel-letter-frequency/.docs/instructions.append.md)): [Latest](../../../locales/ja/content/42/62/c3516c8adf1e94edeb3a57342e4d58831c8e.md)
+  - [`2a085773fd`](../../../locales/ja/content/2a/08/5773fde59e971be60bafa430657f4a4ce2f4.md)
   - [`e3c1dbce6b`](../../../locales/ja/content/e3/c1/dbce6bed611eaa7fadeb8a9a784bda568a85.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/parallel-letter-frequency/.docs/hints.md)): [Latest](../../../locales/ja/content/50/17/385b86bcf0f5e51e1340573d37852a55c3df.md)
 
 ### Pascal's Triangle (パスカルの三角形)
 
