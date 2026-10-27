@@ -614,6 +614,7 @@ This page is generated from [the index](../../json/pt-BR/roc.json) by `scripts/b
 - `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/swift-scheduling/.docs/instructions.append.md)): [Latest](../../../locales/pt-BR/content/2b/60/86525b244c5535e08a7545a15d7ad899c926.md)
   - [`d2a160e13f`](../../../locales/pt-BR/content/d2/a1/60e13f9e7cb7a6c0c838332d02acce52bb77.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/swift-scheduling/.docs/introduction.md)): [Latest](../../../locales/pt-BR/content/23/22/f813fff1b2d03718b7f2764eed21f7b2d627.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/swift-scheduling/.docs/hints.md)): [Latest](../../../locales/pt-BR/content/54/c7/d478bad71d0d6ffdc60b17fbad7e1ea75530.md)
 
 ### Tournament (Torneio)
 
