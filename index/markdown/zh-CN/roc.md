@@ -50,9 +50,11 @@ This page is generated from [the index](../../json/zh-CN/roc.json) by `scripts/b
 ### Baffling Birthdays (令人困惑的生日)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/baffling-birthdays/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/a0/1e/c86796ac6bc6e2873dca01003a8e5f02ee32.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/baffling-birthdays/.docs/instructions.append.md)): [Latest](../../../locales/zh-CN/content/6d/b1/1c6692b5457fe0af6a0fb4b7e50a542bee74.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/baffling-birthdays/.docs/instructions.append.md)): [Latest](../../../locales/zh-CN/content/1c/c0/b0f04aac288f14108aa2dd1ce4f8225caafb.md)
+  - [`6db11c6692`](../../../locales/zh-CN/content/6d/b1/1c6692b5457fe0af6a0fb4b7e50a542bee74.md)
   - [`81e64513ae`](../../../locales/zh-CN/content/81/e6/4513ae3c8973789ada4177ae86df2e29a970.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/baffling-birthdays/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/97/da/bd1e6cfffbcb4a20748b3b328e8cbc284b98.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/baffling-birthdays/.docs/hints.md)): [Latest](../../../locales/zh-CN/content/77/46/27c2cb18b959ffa9960ae7b47d01ef8ca1b5.md)
 
 ### Bank Account (银行账户)
 
