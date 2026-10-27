@@ -454,8 +454,10 @@ This page is generated from [the index](../../json/it/roc.json) by `scripts/buil
 ### React
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/react/.docs/instructions.md)): [Latest](../../../locales/it/content/1b/9a/175d0bccd4c17985a5b3a4cd81bb19fd0735.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/react/.docs/instructions.append.md)): [Latest](../../../locales/it/content/27/18/135ea1465f54505ec3d95acda98a006df4bd.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/react/.docs/instructions.append.md)): [Latest](../../../locales/it/content/7b/e4/d5f56e3c193074c8dbae442b6ffc894e7e9f.md)
+  - [`2718135ea1`](../../../locales/it/content/27/18/135ea1465f54505ec3d95acda98a006df4bd.md)
   - [`177ed29188`](../../../locales/it/content/17/7e/d2918815bd259d7f2511324184b14b8b0210.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/react/.docs/hints.md)): [Latest](../../../locales/it/content/ac/34/1674e4288f0531e692f154c91f5bea7993e8.md)
 
 ### Rectangles (Rettangoli)
 
