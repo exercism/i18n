@@ -579,9 +579,11 @@ This page is generated from [the index](../../json/fa/roc.json) by `scripts/buil
 ### Split-Second Stopwatch (کرنومتر دقیق)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/split-second-stopwatch/.docs/instructions.md)): [Latest](../../../locales/fa/content/30/bd/c988dadd9ef5da03ac87eb44f49313c5d84d.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/split-second-stopwatch/.docs/instructions.append.md)): [Latest](../../../locales/fa/content/bd/cd/a34045f1b3a08138e4b60b1f03d8d3e26746.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/split-second-stopwatch/.docs/instructions.append.md)): [Latest](../../../locales/fa/content/a4/12/f421212b112ce7b6ec2af048357009c9bde6.md)
+  - [`bdcda34045`](../../../locales/fa/content/bd/cd/a34045f1b3a08138e4b60b1f03d8d3e26746.md)
   - [`87790ec57e`](../../../locales/fa/content/87/79/0ec57eda5a9edbd54c52a0254649e8b68c3b.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/split-second-stopwatch/.docs/introduction.md)): [Latest](../../../locales/fa/content/a8/43/2247712455ffa459dffa8fc411000905b0ed.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/split-second-stopwatch/.docs/hints.md)): [Latest](../../../locales/fa/content/68/fc/da3bdadb19cc528c64d1cb026af727c6d1d4.md)
 
 ### Square Root (جذر)
 
