@@ -62,7 +62,8 @@
       "invalid_discussion_status": "चर्चा का स्टेटस अमान्य है।",
       "training_data_code_tags_sample_locked": "यह ट्रेनिंग डेटा कोड टैग सैंपल किसी और द्वारा लॉक किया गया है।",
       "could_not_generate_coupon_code": "कूपन कोड नहीं बनाया जा सका।",
-      "invalid_filename": "आपके द्वारा जमा किए गए एक या अधिक फाइलनाम मान्य नहीं हैं"
+      "invalid_filename": "आपके द्वारा जमा किए गए एक या अधिक फाइलनाम मान्य नहीं हैं",
+      "invalid_avatar_format": "आपकी प्रोफाइल तस्वीर PNG, JPEG, GIF या WebP इमेज होनी चाहिए"
     }
   },
   "devise": {

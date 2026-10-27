@@ -62,7 +62,8 @@
       "invalid_discussion_status": "আলোচনার স্টেটাসটি ভুল",
       "training_data_code_tags_sample_locked": "এই ট্রেনিং ডেটা কোড ট্যাগ স্যাম্পলটি অন্য কেউ লক করে রেখেছে।",
       "could_not_generate_coupon_code": "কুপন কোড তৈরি করা যায়নি",
-      "invalid_filename": "আপনি জমা দেওয়া ফাইলনামগুলোর মধ্যে এক বা একাধিক বৈধ নয়"
+      "invalid_filename": "আপনি জমা দেওয়া ফাইলনামগুলোর মধ্যে এক বা একাধিক বৈধ নয়",
+      "invalid_avatar_format": "আপনার প্রোফাইল ছবিটি অবশ্যই একটি PNG, JPEG, GIF অথবা WebP ইমেজ হতে হবে"
     }
   },
   "doorkeeper": {

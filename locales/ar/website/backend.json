@@ -62,7 +62,8 @@
       "invalid_discussion_status": "حالة النقاش غير صالحة",
       "training_data_code_tags_sample_locked": "عيّنة وسوم كود بيانات التدريب هذه مقفلة من شخص آخر.",
       "could_not_generate_coupon_code": "تعذّر إنشاء رمز قسيمة",
-      "invalid_filename": "واحد أو أكثر من أسماء الملفات التي أرسلتها غير صالح"
+      "invalid_filename": "واحد أو أكثر من أسماء الملفات التي أرسلتها غير صالح",
+      "invalid_avatar_format": "يجب أن تكون صورة ملفك الشخصي بصيغة PNG أو JPEG أو GIF أو WebP"
     }
   },
   "components": {

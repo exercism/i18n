@@ -62,7 +62,8 @@
       "invalid_discussion_status": "Der Status der Diskussion ist ungültig",
       "training_data_code_tags_sample_locked": "Dieses Beispiel für Trainingsdaten-Code-Tags ist von jemand anderem gesperrt.",
       "could_not_generate_coupon_code": "Gutscheincode konnte nicht generiert werden",
-      "invalid_filename": "Mindestens einer der Dateinamen, die du eingereicht hast, ist ungültig"
+      "invalid_filename": "Mindestens einer der Dateinamen, die du eingereicht hast, ist ungültig",
+      "invalid_avatar_format": "Dein Profilbild muss ein Bild im PNG-, JPEG-, GIF- oder WebP-Format sein"
     }
   },
   "devise": {

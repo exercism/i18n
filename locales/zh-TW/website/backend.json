@@ -62,7 +62,8 @@
       "invalid_discussion_status": "討論狀態無效",
       "training_data_code_tags_sample_locked": "這份訓練資料程式碼標籤樣本已被其他人鎖定。",
       "could_not_generate_coupon_code": "無法產生優惠券代碼",
-      "invalid_filename": "你提交的檔案名稱中，有一個或多個無效。"
+      "invalid_filename": "你提交的檔案名稱中，有一個或多個無效。",
+      "invalid_avatar_format": "你的個人資料照片必須是 PNG、JPEG、GIF 或 WebP 圖片"
     }
   },
   "tracks": {

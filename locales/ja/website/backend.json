@@ -62,7 +62,8 @@
       "invalid_discussion_status": "ディスカッションのステータスが無効です",
       "training_data_code_tags_sample_locked": "このトレーニングデータのコードタグサンプルは、他の人によってロックされています。",
       "could_not_generate_coupon_code": "クーポンコードを生成できませんでした",
-      "invalid_filename": "送信したファイル名の1つ以上が無効です"
+      "invalid_filename": "送信したファイル名の1つ以上が無効です",
+      "invalid_avatar_format": "プロフィール画像はPNG・JPEG・GIF・WebPのいずれかの形式にしてください"
     }
   },
   "components": {

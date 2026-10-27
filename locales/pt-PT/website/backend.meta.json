@@ -242,6 +242,7 @@
     "api.errors.file_too_large": "f80318fba95590ce433311dbeab68d40aca18996",
     "api.errors.incorrect_password": "8fb1469408c7a3b4bd1fb9fa7fa24c559fa35500",
     "api.errors.invalid_auth_token": "be0a5f24f68c6912642dc119e911b698a2dd5b78",
+    "api.errors.invalid_avatar_format": "12eee2a1f3405f3f02929ac90b6a88bbbe970309",
     "api.errors.invalid_captcha": "c44247bed33c4f8f3f18e6dd7a4ef0d0250e00dd",
     "api.errors.invalid_community_video_url": "e19aa4bf95d652a8f6f991c92379cdf4a01e4d0a",
     "api.errors.invalid_discussion_status": "dc9098d5872ae20f479b618c0c639ce7992bdf36",

@@ -62,7 +62,8 @@
       "invalid_discussion_status": "El estado de la conversación no es válido",
       "training_data_code_tags_sample_locked": "Otra persona bloqueó esta muestra de etiquetas de código de datos de entrenamiento.",
       "could_not_generate_coupon_code": "No se pudo generar un código de cupón",
-      "invalid_filename": "Uno o más de los nombres de archivo que enviaste no son válidos"
+      "invalid_filename": "Uno o más de los nombres de archivo que enviaste no son válidos",
+      "invalid_avatar_format": "Tu foto de perfil debe ser una imagen PNG, JPEG, GIF o WebP"
     }
   },
   "components": {

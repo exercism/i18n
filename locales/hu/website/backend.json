@@ -62,7 +62,8 @@
       "training_data_code_tags_sample_locked": "Ezt a tanítási adatokhoz tartozó kódcímke-mintát valaki más zárolta.",
       "could_not_generate_coupon_code": "Nem sikerült kuponkódot létrehozni",
       "invalid_locale": "Ezt a nyelvet nem szolgáljuk ki",
-      "invalid_filename": "Egy vagy több beküldött fájlnév érvénytelen"
+      "invalid_filename": "Egy vagy több beküldött fájlnév érvénytelen",
+      "invalid_avatar_format": "A profilképed csak PNG, JPEG, GIF vagy WebP formátumú kép lehet"
     }
   },
   "about": {

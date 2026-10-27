@@ -62,7 +62,8 @@
       "invalid_discussion_status": "O estado da discussão é inválido",
       "training_data_code_tags_sample_locked": "Esta amostra de etiquetas de código dos dados de treino está bloqueada por outra pessoa.",
       "could_not_generate_coupon_code": "Não foi possível gerar um código de cupão",
-      "invalid_filename": "Um ou mais dos nomes de ficheiro que submeteste não são válidos"
+      "invalid_filename": "Um ou mais dos nomes de ficheiro que submeteste não são válidos",
+      "invalid_avatar_format": "A tua foto de perfil tem de ser uma imagem PNG, JPEG, GIF ou WebP"
     }
   },
   "components": {
