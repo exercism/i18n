@@ -234,5 +234,8 @@
   "exercise:house:blurb": "Gib den Kinderreim 'This is the House that Jack Built' aus.",
   "exercise:house:source": "Britischer Kinderreim",
   "exercise:connect:name": "Verbinden",
-  "exercise:connect:blurb": "Berechne das Ergebnis einer Partie Hex / Polygon."
+  "exercise:connect:blurb": "Berechne das Ergebnis einer Partie Hex / Polygon.",
+  "exercise:secret-handshake:name": "Geheimer Handschlag",
+  "exercise:secret-handshake:blurb": "Wandle eine Dezimalzahl in die passende Abfolge von Ereignissen für einen geheimen Handschlag um.",
+  "exercise:secret-handshake:source": "Bert, in Mary Poppins"
 }

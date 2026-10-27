@@ -234,5 +234,8 @@
   "exercise:house:blurb": "Εκτύπωσε το παιδικό τραγούδι \"This is the House that Jack Built\".",
   "exercise:house:source": "Βρετανικό παιδικό τραγούδι",
   "exercise:connect:name": "Connect",
-  "exercise:connect:blurb": "Υπολόγισε το αποτέλεσμα για ένα παιχνίδι Hex / Polygon."
+  "exercise:connect:blurb": "Υπολόγισε το αποτέλεσμα για ένα παιχνίδι Hex / Polygon.",
+  "exercise:secret-handshake:name": "Μυστική χειραψία",
+  "exercise:secret-handshake:blurb": "Με δεδομένο έναν δεκαδικό αριθμό, μετέτρεψέ τον στην κατάλληλη ακολουθία γεγονότων για μια μυστική χειραψία.",
+  "exercise:secret-handshake:source": "Ο Bert, στη Mary Poppins"
 }

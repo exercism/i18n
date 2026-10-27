@@ -234,5 +234,8 @@
   "exercise:house:blurb": "Reproduz a rima infantil 'This is the House that Jack Built'.",
   "exercise:house:source": "Rima infantil britânica",
   "exercise:connect:name": "Connect",
-  "exercise:connect:blurb": "Calcula o resultado de um jogo de Hex / Polygon."
+  "exercise:connect:blurb": "Calcula o resultado de um jogo de Hex / Polygon.",
+  "exercise:secret-handshake:name": "Aperto de mão secreto",
+  "exercise:secret-handshake:blurb": "Dado um número decimal, converte-o na sequência de eventos adequada para um aperto de mão secreto.",
+  "exercise:secret-handshake:source": "Bert, em Mary Poppins"
 }

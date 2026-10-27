@@ -234,5 +234,8 @@
   "exercise:house:blurb": "Виведіть дитячий віршик «This is the House that Jack Built».",
   "exercise:house:source": "Британський дитячий віршик",
   "exercise:connect:name": "Зʼєднання",
-  "exercise:connect:blurb": "Обчисліть результат гри в Hex / Polygon."
+  "exercise:connect:blurb": "Обчисліть результат гри в Hex / Polygon.",
+  "exercise:secret-handshake:name": "Таємне рукостискання",
+  "exercise:secret-handshake:blurb": "Дано десяткове число, перетворіть його на відповідну послідовність подій для таємного рукостискання.",
+  "exercise:secret-handshake:source": "Берт, у Mary Poppins"
 }

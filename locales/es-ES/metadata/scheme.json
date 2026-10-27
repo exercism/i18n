@@ -234,5 +234,8 @@
   "exercise:house:blurb": "Muestra la canción infantil «This is the House that Jack Built».",
   "exercise:house:source": "Canción infantil británica",
   "exercise:connect:name": "Connect",
-  "exercise:connect:blurb": "Calcula el resultado de una partida de Hex / Polygon."
+  "exercise:connect:blurb": "Calcula el resultado de una partida de Hex / Polygon.",
+  "exercise:secret-handshake:name": "Apretón de manos secreto",
+  "exercise:secret-handshake:blurb": "Dado un número decimal, conviértelo en la secuencia de eventos adecuada para un apretón de manos secreto.",
+  "exercise:secret-handshake:source": "Bert, en Mary Poppins"
 }

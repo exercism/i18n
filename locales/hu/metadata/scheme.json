@@ -234,5 +234,8 @@
   "exercise:house:blurb": "Írd ki a „This is the House that Jack Built” mondókát.",
   "exercise:house:source": "Brit mondóka",
   "exercise:connect:name": "Connect",
-  "exercise:connect:blurb": "Számítsd ki egy Hex / Polygon játék eredményét."
+  "exercise:connect:blurb": "Számítsd ki egy Hex / Polygon játék eredményét.",
+  "exercise:secret-handshake:name": "Titkos kézfogás",
+  "exercise:secret-handshake:blurb": "Adott egy tízes számrendszerbeli szám; alakítsd át egy titkos kézfogás megfelelő eseménysorozatává.",
+  "exercise:secret-handshake:source": "Bert a Mary Poppinsból"
 }

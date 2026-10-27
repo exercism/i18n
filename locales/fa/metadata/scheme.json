@@ -234,5 +234,8 @@
   "exercise:house:blurb": "شعر کودکانه‌ی «This is the House that Jack Built» را چاپ کنید.",
   "exercise:house:source": "شعر کودکانه‌ی بریتانیایی",
   "exercise:connect:name": "اتصال",
-  "exercise:connect:blurb": "نتیجه‌ی یک بازی Hex / Polygon را محاسبه کنید."
+  "exercise:connect:blurb": "نتیجه‌ی یک بازی Hex / Polygon را محاسبه کنید.",
+  "exercise:secret-handshake:name": "دست‌دادن مخفی",
+  "exercise:secret-handshake:blurb": "اگر یک عدد دهدهی داده شود، آن را به دنباله‌ی مناسب رویدادها برای یک دست‌دادن مخفی تبدیل کنید.",
+  "exercise:secret-handshake:source": "Bert، در Mary Poppins"
 }

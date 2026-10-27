@@ -234,5 +234,8 @@
   "exercise:house:blurb": "أخرج أنشودة الأطفال 'This is the House that Jack Built'.",
   "exercise:house:source": "أنشودة أطفال بريطانية",
   "exercise:connect:name": "وصل",
-  "exercise:connect:blurb": "احسب نتيجة مباراة في لعبة Hex / Polygon."
+  "exercise:connect:blurb": "احسب نتيجة مباراة في لعبة Hex / Polygon.",
+  "exercise:secret-handshake:name": "المصافحة السرية",
+  "exercise:secret-handshake:blurb": "بمعلومية عدد عشري، حوّله إلى تتابع الأحداث المناسب لمصافحة سرية.",
+  "exercise:secret-handshake:source": "Bert، في Mary Poppins"
 }

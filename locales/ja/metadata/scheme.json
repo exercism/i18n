@@ -234,5 +234,8 @@
   "exercise:house:blurb": "童謡『This is the House that Jack Built』を出力します。",
   "exercise:house:source": "イギリスの童謡",
   "exercise:connect:name": "コネクト",
-  "exercise:connect:blurb": "Hex / Polygonの対戦結果を計算します。"
+  "exercise:connect:blurb": "Hex / Polygonの対戦結果を計算します。",
+  "exercise:secret-handshake:name": "秘密の握手",
+  "exercise:secret-handshake:blurb": "10進数が与えられたとき、それを秘密の握手のための適切なイベントの並びに変換します。",
+  "exercise:secret-handshake:source": "Mary PoppinsのBert"
 }

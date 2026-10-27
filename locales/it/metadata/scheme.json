@@ -234,5 +234,8 @@
   "exercise:house:blurb": "Stampa la filastrocca «This is the House that Jack Built».",
   "exercise:house:source": "Filastrocca britannica",
   "exercise:connect:name": "Collega",
-  "exercise:connect:blurb": "Calcola il risultato di una partita a Hex / Polygon."
+  "exercise:connect:blurb": "Calcola il risultato di una partita a Hex / Polygon.",
+  "exercise:secret-handshake:name": "Stretta di mano segreta",
+  "exercise:secret-handshake:blurb": "Dato un numero decimale, convertilo nella sequenza appropriata di eventi per una stretta di mano segreta.",
+  "exercise:secret-handshake:source": "Bert, in Mary Poppins"
 }

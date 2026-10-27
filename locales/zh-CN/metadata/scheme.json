@@ -234,5 +234,8 @@
   "exercise:house:blurb": "输出童谣《This is the House that Jack Built》。",
   "exercise:house:source": "英国童谣",
   "exercise:connect:name": "连线",
-  "exercise:connect:blurb": "计算一局 Hex / Polygon 游戏的结果。"
+  "exercise:connect:blurb": "计算一局 Hex / Polygon 游戏的结果。",
+  "exercise:secret-handshake:name": "秘密握手",
+  "exercise:secret-handshake:blurb": "给定一个十进制数，把它转换成秘密握手对应的动作序列。",
+  "exercise:secret-handshake:source": "Mary Poppins 中的 Bert"
 }
