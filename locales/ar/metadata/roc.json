@@ -419,5 +419,8 @@
   "exercise:paasio:blurb": "أبلغ عن إحصاءات الإدخال والإخراج في الشبكة.",
   "exercise:paasio:source": "Brian Matsuo",
   "exercise:markdown:name": "Markdown",
-  "exercise:markdown:blurb": "أعد هيكلة محلّل Markdown."
+  "exercise:markdown:blurb": "أعد هيكلة محلّل Markdown.",
+  "exercise:resistor-color-tolerance:name": "سماحية ألوان المقاومة",
+  "exercise:resistor-color-tolerance:blurb": "حوّل أكواد الألوان المستخدمة في المقاومات ذات الأشرطة المختلفة إلى تسمية يمكن للبشر قراءتها.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

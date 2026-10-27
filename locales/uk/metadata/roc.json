@@ -419,5 +419,8 @@
   "exercise:paasio:blurb": "Повідомте статистику мережевого введення-виведення.",
   "exercise:paasio:source": "Brian Matsuo",
   "exercise:markdown:name": "Markdown",
-  "exercise:markdown:blurb": "Відрефакторте парсер Markdown."
+  "exercise:markdown:blurb": "Відрефакторте парсер Markdown.",
+  "exercise:resistor-color-tolerance:name": "Кольоровий допуск резистора",
+  "exercise:resistor-color-tolerance:blurb": "Перетворіть кольорові коди, які використовують на резисторах із різною кількістю смуг, у зрозумілу для людини позначку.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

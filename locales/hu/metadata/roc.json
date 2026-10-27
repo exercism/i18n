@@ -419,5 +419,8 @@
   "exercise:paasio:blurb": "Készíts jelentést a hálózati IO-statisztikákról.",
   "exercise:paasio:source": "Brian Matsuo",
   "exercise:markdown:name": "Markdown",
-  "exercise:markdown:blurb": "Refaktoráld a Markdown-parsert."
+  "exercise:markdown:blurb": "Refaktoráld a Markdown-parsert.",
+  "exercise:resistor-color-tolerance:name": "Ellenállás színtűrése",
+  "exercise:resistor-color-tolerance:blurb": "Alakítsd át az ellenállásokon különböző sávokkal használt színkódokat ember számára olvasható címkévé.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

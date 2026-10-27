@@ -419,5 +419,8 @@
   "exercise:paasio:blurb": "Melde Statistiken zur Netzwerk-IO.",
   "exercise:paasio:source": "Brian Matsuo",
   "exercise:markdown:name": "Markdown",
-  "exercise:markdown:blurb": "Refaktoriere einen Markdown-Parser."
+  "exercise:markdown:blurb": "Refaktoriere einen Markdown-Parser.",
+  "exercise:resistor-color-tolerance:name": "Farbtoleranz von Widerständen",
+  "exercise:resistor-color-tolerance:blurb": "Wandle Farbcodes, wie sie bei Widerständen mit unterschiedlichen Ringen verwendet werden, in eine für Menschen lesbare Bezeichnung um.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

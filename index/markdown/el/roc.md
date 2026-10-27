@@ -36,8 +36,8 @@ This page is generated from [the index](../../json/el/roc.json) by `scripts/buil
 ### Anagram (Ανάγραμμα)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/anagram/.docs/instructions.md)): [Latest](../../../locales/el/content/dc/a2/4f52627e3ba6b999322fb89d8c686c3ec634.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/anagram/.docs/instructions.append.md)): [Latest](../../../locales/el/content/6f/50/d84e1eacf07d1f1776d5ce858056c48d6331.md)
-  - [`0f5c35b6ae`](../../../locales/el/content/0f/5c/35b6aedbba133c851ccfb31cfecccaa3e298.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/anagram/.docs/instructions.append.md)): [Latest](../../../locales/el/content/0f/5c/35b6aedbba133c851ccfb31cfecccaa3e298.md)
+  - [`6f50d84e1e`](../../../locales/el/content/6f/50/d84e1eacf07d1f1776d5ce858056c48d6331.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/anagram/.docs/introduction.md)): [Latest](../../../locales/el/content/1a/cb/df00b059f44fb4ce4c00be743d24eda86d60.md)
 - `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/anagram/.docs/hints.md)): [Latest](../../../locales/el/content/4c/9e/0dcb3ac62c6671ad4dbfa245bcc3ec1d0dc9.md)
 
@@ -61,8 +61,8 @@ This page is generated from [the index](../../json/el/roc.json) by `scripts/buil
 ### Bank Account (Τραπεζικός Λογαριασμός)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/bank-account/.docs/instructions.md)): [Latest](../../../locales/el/content/73/98/fbea1882dcf62be8957af20bc28779a93cbd.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/bank-account/.docs/instructions.append.md)): [Latest](../../../locales/el/content/a7/c7/1dd2f06e207ffd27621aaeb0b5e7097e2f8d.md)
-  - [`924e5b11f4`](../../../locales/el/content/92/4e/5b11f43c09d497bb34c4d780ef1759aaa5a1.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/bank-account/.docs/instructions.append.md)): [Latest](../../../locales/el/content/92/4e/5b11f43c09d497bb34c4d780ef1759aaa5a1.md)
+  - [`a7c71dd2f0`](../../../locales/el/content/a7/c7/1dd2f06e207ffd27621aaeb0b5e7097e2f8d.md)
   - [`222dc560b5`](../../../locales/el/content/22/2d/c560b587fb93fd283ff4e1993b763db25911.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/bank-account/.docs/introduction.md)): [Latest](../../../locales/el/content/65/0b/5d9c46f00d99296ce5cb86ae7df14e3c1302.md)
 - `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/bank-account/.docs/hints.md)): [Latest](../../../locales/el/content/cd/d0/3754adff1f98b9d5dcbae1528ec6b0ef24ca.md)
@@ -103,8 +103,8 @@ This page is generated from [the index](../../json/el/roc.json) by `scripts/buil
 ### Camicia
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/camicia/.docs/instructions.md)): [Latest](../../../locales/el/content/db/62/fcef27d59da1ecd8287b36edfede272b9197.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/camicia/.docs/instructions.append.md)): [Latest](../../../locales/el/content/87/77/fb2c454e9ada224523e7c4019d29071f5bd7.md)
-  - [`8955a32702`](../../../locales/el/content/89/55/a327021ba30259b33f888d24336465523742.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/camicia/.docs/instructions.append.md)): [Latest](../../../locales/el/content/89/55/a327021ba30259b33f888d24336465523742.md)
+  - [`8777fb2c45`](../../../locales/el/content/87/77/fb2c454e9ada224523e7c4019d29071f5bd7.md)
   - [`be8f8de6f2`](../../../locales/el/content/be/8f/8de6f29011b2fc9e8d54ba4920c3e688cfe6.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/camicia/.docs/introduction.md)): [Latest](../../../locales/el/content/76/1d/8a82c502ac4117787d8314c74fcf79dc5159.md)
 - `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/camicia/.docs/hints.md)): [Latest](../../../locales/el/content/ad/a4/ec88ada512eec5a6fd36b0fd7dd7af79d0ef.md)
@@ -176,8 +176,8 @@ This page is generated from [the index](../../json/el/roc.json) by `scripts/buil
 ### DOT DSL
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/dot-dsl/.docs/instructions.md)): [Latest](../../../locales/el/content/5e/65/ebef9436c86ec75a54714ffddc6da381c8ac.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/dot-dsl/.docs/instructions.append.md)): [Latest](../../../locales/el/content/bd/50/5db3af23c37900fa90c6a47fb4e9044a3361.md)
-  - [`c8e3115a94`](../../../locales/el/content/c8/e3/115a948e9ff70660d04ad8d36300a48b181f.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/dot-dsl/.docs/instructions.append.md)): [Latest](../../../locales/el/content/c8/e3/115a948e9ff70660d04ad8d36300a48b181f.md)
+  - [`bd505db3af`](../../../locales/el/content/bd/50/5db3af23c37900fa90c6a47fb4e9044a3361.md)
   - [`6d3ab4642d`](../../../locales/el/content/6d/3a/b4642d7601e242e2679520804e069b757338.md)
 - `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/dot-dsl/.docs/hints.md)): [Latest](../../../locales/el/content/79/8d/b23287d69a4614337a4634d4ed4c05c4c771.md)
 
@@ -189,8 +189,8 @@ This page is generated from [the index](../../json/el/roc.json) by `scripts/buil
 ### Error Handling (Διαχείριση Σφαλμάτων)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/error-handling/.docs/instructions.md)): [Latest](../../../locales/el/content/25/dd/4d2928fe41cfa50ac620eba863c6f82344c2.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/error-handling/.docs/instructions.append.md)): [Latest](../../../locales/el/content/07/9f/4f2fa6f6f4b3b68590f84eb03b2b051ef820.md)
-  - [`e4519f4f74`](../../../locales/el/content/e4/51/9f4f74f8ca4db66ab6946619f080afcaf125.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/error-handling/.docs/instructions.append.md)): [Latest](../../../locales/el/content/e4/51/9f4f74f8ca4db66ab6946619f080afcaf125.md)
+  - [`079f4f2fa6`](../../../locales/el/content/07/9f/4f2fa6f6f4b3b68590f84eb03b2b051ef820.md)
 
 ### ETL
 
@@ -249,8 +249,8 @@ This page is generated from [the index](../../json/el/roc.json) by `scripts/buil
 ### Hello World
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/hello-world/.docs/instructions.md)): [Latest](../../../locales/el/content/c9/57/0e48a9765b083b274c356cbb997754706318.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/hello-world/.docs/instructions.append.md)): [Latest](../../../locales/el/content/8c/6a/4e98e263a8f6e824f08d55b7c55989119da6.md)
-  - [`2886ae84b6`](../../../locales/el/content/28/86/ae84b6848a15d082e747b4d28921d1bbb1ef.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/hello-world/.docs/instructions.append.md)): [Latest](../../../locales/el/content/28/86/ae84b6848a15d082e747b4d28921d1bbb1ef.md)
+  - [`8c6a4e98e2`](../../../locales/el/content/8c/6a/4e98e263a8f6e824f08d55b7c55989119da6.md)
 
 ### Hexadecimal (Δεκαεξαδικό)
 
@@ -312,8 +312,8 @@ This page is generated from [the index](../../json/el/roc.json) by `scripts/buil
 ### Lens Person (Άνθρωπος με φακό)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/lens-person/.docs/instructions.md)): [Latest](../../../locales/el/content/c7/c7/07e249dc11476b1c4a2ed23179e26701715d.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/lens-person/.docs/instructions.append.md)): [Latest](../../../locales/el/content/5f/6a/90cd102b04e7089cdffac91f1b5aacda6e3b.md)
-  - [`6381a5496f`](../../../locales/el/content/63/81/a5496fa5121887ba25ee07f6cfaab40abb45.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/lens-person/.docs/instructions.append.md)): [Latest](../../../locales/el/content/63/81/a5496fa5121887ba25ee07f6cfaab40abb45.md)
+  - [`5f6a90cd10`](../../../locales/el/content/5f/6a/90cd102b04e7089cdffac91f1b5aacda6e3b.md)
 - `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/lens-person/.docs/hints.md)): [Latest](../../../locales/el/content/89/4d/67fda76cd4d06088f7fd37e9f709f685c8c5.md)
 
 ### Line Up (Στην ουρά)
@@ -330,8 +330,8 @@ This page is generated from [the index](../../json/el/roc.json) by `scripts/buil
 ### List Ops (Λειτουργίες λίστας)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/list-ops/.docs/instructions.md)): [Latest](../../../locales/el/content/eb/c5/dffed02ecca9b62a12fd9c7327b58dd49bba.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/list-ops/.docs/instructions.append.md)): [Latest](../../../locales/el/content/24/b0/5d83d828fe293365f12eb2313bdf7f0c1a3a.md)
-  - [`1cabfb382a`](../../../locales/el/content/1c/ab/fb382a0d43ce235e065ef567386c4738defc.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/list-ops/.docs/instructions.append.md)): [Latest](../../../locales/el/content/1c/ab/fb382a0d43ce235e065ef567386c4738defc.md)
+  - [`24b05d83d8`](../../../locales/el/content/24/b0/5d83d828fe293365f12eb2313bdf7f0c1a3a.md)
 - `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/list-ops/.docs/hints.md)): [Latest](../../../locales/el/content/4b/2f/9db856f093fe4af71cd0c3f99a805172a600.md)
 
 ### Luhn
@@ -342,8 +342,8 @@ This page is generated from [the index](../../json/el/roc.json) by `scripts/buil
 ### Markdown
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/markdown/.docs/instructions.md)): [Latest](../../../locales/el/content/b3/f3/044c66f1d886af7f5fb180da8b81bee9ad87.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/markdown/.docs/instructions.append.md)): [Latest](../../../locales/el/content/e9/52/0bfed3d9589abe7035465350d63771303b4b.md)
-  - [`526d4a168e`](../../../locales/el/content/52/6d/4a168e493481a6ec283ea40b3d93c514177f.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/markdown/.docs/instructions.append.md)): [Latest](../../../locales/el/content/52/6d/4a168e493481a6ec283ea40b3d93c514177f.md)
+  - [`e9520bfed3`](../../../locales/el/content/e9/52/0bfed3d9589abe7035465350d63771303b4b.md)
 - `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/markdown/.docs/hints.md)): [Latest](../../../locales/el/content/00/13/ccad168f7a2bedd8a74c42f82f6b74081dae.md)
 
 ### Matching Brackets (Αντιστοίχιση αγκυλών)
@@ -391,8 +391,8 @@ This page is generated from [the index](../../json/el/roc.json) by `scripts/buil
 ### PaaS I/O
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/paasio/.docs/instructions.md)): [Latest](../../../locales/el/content/59/56/447487e0c549796d649508c77d36a8019479.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/paasio/.docs/instructions.append.md)): [Latest](../../../locales/el/content/62/e5/8a788955397d54dbe0ffcd2d437f4db45735.md)
-  - [`a05e05d19b`](../../../locales/el/content/a0/5e/05d19b739fd2cac8ac86660e9599bb25bd52.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/paasio/.docs/instructions.append.md)): [Latest](../../../locales/el/content/a0/5e/05d19b739fd2cac8ac86660e9599bb25bd52.md)
+  - [`62e58a7889`](../../../locales/el/content/62/e5/8a788955397d54dbe0ffcd2d437f4db45735.md)
 - `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/paasio/.docs/hints.md)): [Latest](../../../locales/el/content/d2/b0/016e4614b18d66081614775fdfcad6e37a58.md)
 
 ### Palindrome Products (Παλίνδρομα γινόμενα)
@@ -471,8 +471,8 @@ This page is generated from [the index](../../json/el/roc.json) by `scripts/buil
 ### Queen Attack (Επίθεση βασίλισσας)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/queen-attack/.docs/instructions.md)): [Latest](../../../locales/el/content/97/f2/2a0aee13f74801df153121aeb04104f68dbd.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/queen-attack/.docs/instructions.append.md)): [Latest](../../../locales/el/content/5a/a6/eb948a382b8dc9c9621fe7a9a38a54de6d5f.md)
-  - [`dea983c802`](../../../locales/el/content/de/a9/83c802c541f23f503a1d7d9b0969e44d5a8a.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/queen-attack/.docs/instructions.append.md)): [Latest](../../../locales/el/content/de/a9/83c802c541f23f503a1d7d9b0969e44d5a8a.md)
+  - [`5aa6eb948a`](../../../locales/el/content/5a/a6/eb948a382b8dc9c9621fe7a9a38a54de6d5f.md)
 
 ### Rail Fence Cipher (Κρυπτογράφημα Rail Fence)
 
@@ -514,6 +514,10 @@ This page is generated from [the index](../../json/el/roc.json) by `scripts/buil
 ### Resistor Color Duo (Δύο χρώματα αντίστασης)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/resistor-color-duo/.docs/instructions.md)): [Latest](../../../locales/el/content/4a/e6/94da025b329a9e51e07c741aa41925253b1a.md)
+
+### Resistor Color Tolerance (Ανοχή Χρώματος Αντίστασης)
+
+- `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/resistor-color-tolerance/.docs/instructions.md)): [Latest](../../../locales/el/content/f4/79/50f0140496ad1b9a967379766d8a7583b002.md)
 
 ### Resistor Color Trio (Τρία χρώματα αντίστασης)
 
@@ -637,8 +641,8 @@ This page is generated from [the index](../../json/el/roc.json) by `scripts/buil
 ### Square Root (Τετραγωνική ρίζα)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/square-root/.docs/instructions.md)): [Latest](../../../locales/el/content/d2/58/b86876e35a1553677ed6a7cb068f27cf1aba.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/square-root/.docs/instructions.append.md)): [Latest](../../../locales/el/content/73/f9/84181dbcc0608f82c8ffe1a0fc3b257cb8c5.md)
-  - [`91033c755b`](../../../locales/el/content/91/03/3c755b99d757749014f0c7fc829a878c19f5.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/square-root/.docs/instructions.append.md)): [Latest](../../../locales/el/content/91/03/3c755b99d757749014f0c7fc829a878c19f5.md)
+  - [`73f984181d`](../../../locales/el/content/73/f9/84181dbcc0608f82c8ffe1a0fc3b257cb8c5.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/square-root/.docs/introduction.md)): [Latest](../../../locales/el/content/1d/69/2934f280a866528bcb54cd3044d7e8a5eeeb.md)
 
 ### State of Tic-Tac-Toe (Κατάσταση της τρίλιζας)
@@ -745,8 +749,8 @@ This page is generated from [the index](../../json/el/roc.json) by `scripts/buil
 
 ### Testing on the Roc track (Δοκιμές στη διαδρομή Roc)
 
-- `TESTS.md` ([English](https://github.com/exercism/roc/blob/main/docs/TESTS.md)): [Latest](../../../locales/el/content/80/72/bcf317c4f1dae8e5e8f6e387d5973eab24df.md)
-  - [`33ffd9956a`](../../../locales/el/content/33/ff/d9956a7bb7c729da44ea36aec849c1dc3751.md)
+- `TESTS.md` ([English](https://github.com/exercism/roc/blob/main/docs/TESTS.md)): [Latest](../../../locales/el/content/33/ff/d9956a7bb7c729da44ea36aec849c1dc3751.md)
+  - [`8072bcf317`](../../../locales/el/content/80/72/bcf317c4f1dae8e5e8f6e387d5973eab24df.md)
 
 ### Useful Roc resources (Χρήσιμοι πόροι για τη Roc)
 
@@ -756,10 +760,10 @@ This page is generated from [the index](../../json/el/roc.json) by `scripts/buil
 
 ### help.md
 
-- `help.md` ([English](https://github.com/exercism/roc/blob/main/exercises/shared/.docs/help.md)): [Latest](../../../locales/el/content/a9/ce/68c39ba4d2326f69adf66adbe971255bf712.md)
-  - [`3ba777299d`](../../../locales/el/content/3b/a7/77299d1718a8351a208d8c541d71d9a7751a.md)
+- `help.md` ([English](https://github.com/exercism/roc/blob/main/exercises/shared/.docs/help.md)): [Latest](../../../locales/el/content/3b/a7/77299d1718a8351a208d8c541d71d9a7751a.md)
+  - [`a9ce68c39b`](../../../locales/el/content/a9/ce/68c39ba4d2326f69adf66adbe971255bf712.md)
 
 ### tests.md
 
-- `tests.md` ([English](https://github.com/exercism/roc/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/el/content/66/bd/86be409047097a33213ec72c1b179cf5800a.md)
-  - [`a6b40fc41f`](../../../locales/el/content/a6/b4/0fc41fd05bf957de730d1df8d795940d90d0.md)
+- `tests.md` ([English](https://github.com/exercism/roc/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/el/content/a6/b4/0fc41fd05bf957de730d1df8d795940d90d0.md)
+  - [`66bd86be40`](../../../locales/el/content/66/bd/86be409047097a33213ec72c1b179cf5800a.md)

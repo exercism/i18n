@@ -419,5 +419,8 @@
   "exercise:paasio:blurb": "آمار ورودی/خروجی شبکه را گزارش کنید.",
   "exercise:paasio:source": "Brian Matsuo",
   "exercise:markdown:name": "Markdown",
-  "exercise:markdown:blurb": "یک تجزیه‌گر Markdown را بازآرایی کنید."
+  "exercise:markdown:blurb": "یک تجزیه‌گر Markdown را بازآرایی کنید.",
+  "exercise:resistor-color-tolerance:name": "تلورانس رنگ مقاومت",
+  "exercise:resistor-color-tolerance:blurb": "کدهای رنگی به‌کاررفته روی مقاومت‌هایی با نوارهای مختلف را به برچسبی خوانا برای انسان تبدیل کنید.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

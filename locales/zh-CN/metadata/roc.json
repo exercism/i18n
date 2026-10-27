@@ -419,5 +419,8 @@
   "exercise:paasio:blurb": "报告网络 IO 统计信息。",
   "exercise:paasio:source": "Brian Matsuo",
   "exercise:markdown:name": "Markdown",
-  "exercise:markdown:blurb": "重构一个 Markdown 解析器。"
+  "exercise:markdown:blurb": "重构一个 Markdown 解析器。",
+  "exercise:resistor-color-tolerance:name": "电阻色环容差",
+  "exercise:resistor-color-tolerance:blurb": "把电阻上不同色环所用的色码转换成人类可读的标签。",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

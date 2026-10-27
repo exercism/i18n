@@ -419,5 +419,8 @@
   "exercise:paasio:blurb": "नेटवर्क IO के आँकड़े बताइए।",
   "exercise:paasio:source": "Brian Matsuo",
   "exercise:markdown:name": "Markdown",
-  "exercise:markdown:blurb": "एक Markdown पार्सर को रीफैक्टर कीजिए।"
+  "exercise:markdown:blurb": "एक Markdown पार्सर को रीफैक्टर कीजिए।",
+  "exercise:resistor-color-tolerance:name": "प्रतिरोधक रंग सहनशीलता",
+  "exercise:resistor-color-tolerance:blurb": "रेज़िस्टरों पर अलग-अलग बैंडों के साथ इस्तेमाल होने वाले रंग कोडों को मनुष्य के पढ़ने लायक लेबल में बदलिए।",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

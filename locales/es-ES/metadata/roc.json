@@ -419,5 +419,8 @@
   "exercise:paasio:blurb": "Informa de las estadísticas de E/S de red.",
   "exercise:paasio:source": "Brian Matsuo",
   "exercise:markdown:name": "Markdown",
-  "exercise:markdown:blurb": "Refactoriza un analizador de Markdown."
+  "exercise:markdown:blurb": "Refactoriza un analizador de Markdown.",
+  "exercise:resistor-color-tolerance:name": "Tolerancia de color de la resistencia",
+  "exercise:resistor-color-tolerance:blurb": "Convierte los códigos de color que se usan en las resistencias con distintas bandas en una etiqueta legible para las personas.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

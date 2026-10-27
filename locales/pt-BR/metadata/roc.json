@@ -419,5 +419,8 @@
   "exercise:paasio:blurb": "Reporte estatísticas de IO de rede.",
   "exercise:paasio:source": "Brian Matsuo",
   "exercise:markdown:name": "Markdown",
-  "exercise:markdown:blurb": "Refatore um parser de Markdown."
+  "exercise:markdown:blurb": "Refatore um parser de Markdown.",
+  "exercise:resistor-color-tolerance:name": "Tolerância de cores de resistores",
+  "exercise:resistor-color-tolerance:blurb": "Converta códigos de cores, como os usados em resistores com diferentes faixas, para um rótulo legível para humanos.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }
