@@ -36,8 +36,10 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 ### Anagram (變位詞)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/anagram/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/dc/a2/4f52627e3ba6b999322fb89d8c686c3ec634.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/anagram/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/0f/5c/35b6aedbba133c851ccfb31cfecccaa3e298.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/anagram/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/6f/50/d84e1eacf07d1f1776d5ce858056c48d6331.md)
+  - [`0f5c35b6ae`](../../../locales/zh-TW/content/0f/5c/35b6aedbba133c851ccfb31cfecccaa3e298.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/anagram/.docs/introduction.md)): [Latest](../../../locales/zh-TW/content/1a/cb/df00b059f44fb4ce4c00be743d24eda86d60.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/anagram/.docs/hints.md)): [Latest](../../../locales/zh-TW/content/4c/9e/0dcb3ac62c6671ad4dbfa245bcc3ec1d0dc9.md)
 
 ### Armstrong Numbers (阿姆斯壯數)
 
@@ -59,9 +61,11 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 ### Bank Account (銀行帳戶)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/bank-account/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/73/98/fbea1882dcf62be8957af20bc28779a93cbd.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/bank-account/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/92/4e/5b11f43c09d497bb34c4d780ef1759aaa5a1.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/bank-account/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/a7/c7/1dd2f06e207ffd27621aaeb0b5e7097e2f8d.md)
+  - [`924e5b11f4`](../../../locales/zh-TW/content/92/4e/5b11f43c09d497bb34c4d780ef1759aaa5a1.md)
   - [`222dc560b5`](../../../locales/zh-TW/content/22/2d/c560b587fb93fd283ff4e1993b763db25911.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/bank-account/.docs/introduction.md)): [Latest](../../../locales/zh-TW/content/65/0b/5d9c46f00d99296ce5cb86ae7df14e3c1302.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/bank-account/.docs/hints.md)): [Latest](../../../locales/zh-TW/content/cd/d0/3754adff1f98b9d5dcbae1528ec6b0ef24ca.md)
 
 ### Binary (二進位)
 
@@ -75,6 +79,7 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 ### Binary Search Tree (二元搜尋樹)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/binary-search-tree/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/76/25/220e9a0fb2412ea4c5432e87b1309d425ff1.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/binary-search-tree/.docs/hints.md)): [Latest](../../../locales/zh-TW/content/a3/2d/347a6b5bb2ede18ab57a20effb55b734325b.md)
 
 ### Bob
 
@@ -85,6 +90,7 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/book-store/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/54/40/3f17bf5c35e9b5d6c20503e87e02c232e1a7.md)
 - `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/book-store/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/59/35/bc09cf7383620db2b53e1a9f81f820a55043.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/book-store/.docs/hints.md)): [Latest](../../../locales/zh-TW/content/66/8c/84594a6f2b209d51cc846bc5778bfaf401b9.md)
 
 ### Bottle Song (瓶子之歌)
 
@@ -97,9 +103,11 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 ### Camicia
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/camicia/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/db/62/fcef27d59da1ecd8287b36edfede272b9197.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/camicia/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/89/55/a327021ba30259b33f888d24336465523742.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/camicia/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/87/77/fb2c454e9ada224523e7c4019d29071f5bd7.md)
+  - [`8955a32702`](../../../locales/zh-TW/content/89/55/a327021ba30259b33f888d24336465523742.md)
   - [`be8f8de6f2`](../../../locales/zh-TW/content/be/8f/8de6f29011b2fc9e8d54ba4920c3e688cfe6.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/camicia/.docs/introduction.md)): [Latest](../../../locales/zh-TW/content/76/1d/8a82c502ac4117787d8314c74fcf79dc5159.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/camicia/.docs/hints.md)): [Latest](../../../locales/zh-TW/content/ad/a4/ec88ada512eec5a6fd36b0fd7dd7af79d0ef.md)
 
 ### Change (找零)
 
@@ -109,6 +117,7 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 ### Circular Buffer (環狀緩衝區)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/circular-buffer/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/2b/a1/fda2aa73e920e1ae0b25441be2f00fd3dd12.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/circular-buffer/.docs/hints.md)): [Latest](../../../locales/zh-TW/content/f5/40/0068e02bc89d39780df8cd11ddf50e420167.md)
 
 ### Clock (時鐘)
 
@@ -122,6 +131,7 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 ### Complex Numbers (複數)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/complex-numbers/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/2b/8a/7a49d824f84448eda21c4281ab2c8213d03a.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/complex-numbers/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/33/04/a1b48a949c28b7f380acf4e1ae5c2a9750f3.md)
 
 ### Connect (連線)
 
@@ -144,6 +154,7 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/dnd-character/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/e1/4e/7949d60df15f34f13fb04f45f77d59eaf9f7.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/dnd-character/.docs/introduction.md)): [Latest](../../../locales/zh-TW/content/53/01/f61829de5444f758a53845f0c366a00aacdc.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/dnd-character/.docs/hints.md)): [Latest](../../../locales/zh-TW/content/06/b7/2f92742e46c2571f211bb6b6292186132a27.md)
 
 ### Darts (飛鏢)
 
@@ -165,8 +176,10 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 ### DOT DSL
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/dot-dsl/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/5e/65/ebef9436c86ec75a54714ffddc6da381c8ac.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/dot-dsl/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/c8/e3/115a948e9ff70660d04ad8d36300a48b181f.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/dot-dsl/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/bd/50/5db3af23c37900fa90c6a47fb4e9044a3361.md)
+  - [`c8e3115a94`](../../../locales/zh-TW/content/c8/e3/115a948e9ff70660d04ad8d36300a48b181f.md)
   - [`6d3ab4642d`](../../../locales/zh-TW/content/6d/3a/b4642d7601e242e2679520804e069b757338.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/dot-dsl/.docs/hints.md)): [Latest](../../../locales/zh-TW/content/79/8d/b23287d69a4614337a4634d4ed4c05c4c771.md)
 
 ### Eliud's Eggs (艾利烏的蛋)
 
@@ -176,7 +189,8 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 ### Error Handling (錯誤處理)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/error-handling/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/25/dd/4d2928fe41cfa50ac620eba863c6f82344c2.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/error-handling/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/e4/51/9f4f74f8ca4db66ab6946619f080afcaf125.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/error-handling/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/07/9f/4f2fa6f6f4b3b68590f84eb03b2b051ef820.md)
+  - [`e4519f4f74`](../../../locales/zh-TW/content/e4/51/9f4f74f8ca4db66ab6946619f080afcaf125.md)
 
 ### ETL
 
@@ -187,6 +201,7 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/flatten-array/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/b5/b8/2713d928a59e350e468d35c4ee92d49316cf.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/flatten-array/.docs/introduction.md)): [Latest](../../../locales/zh-TW/content/a3/14/857465e75cc95c88b634ddd355f7393888ad.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/flatten-array/.docs/hints.md)): [Latest](../../../locales/zh-TW/content/dd/76/e37ace51a06d613950bb901848f9d9bfa02a.md)
 
 ### Flower Field (花田)
 
@@ -205,6 +220,7 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/gigasecond/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/1e/20/f0022e47d16c84030db24f4c83f00b60652d.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/gigasecond/.docs/introduction.md)): [Latest](../../../locales/zh-TW/content/18/a3/dc2005835723646b6cd216c36ae4dfc7550f.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/gigasecond/.docs/hints.md)): [Latest](../../../locales/zh-TW/content/eb/95/53b81364c55a53b243cfd35f3d82db434513.md)
 
 ### Go Counting (圍棋計數)
 
@@ -223,6 +239,7 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/grep/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/00/4f/28acd55341a8d5847d4a5671f44b2b074eb4.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/grep/.docs/introduction.md)): [Latest](../../../locales/zh-TW/content/40/41/2904653e071868dde0f0e497679d96ae5854.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/grep/.docs/hints.md)): [Latest](../../../locales/zh-TW/content/b8/03/dd5cd0895f0affc5aea042438a24d34e53ce.md)
 
 ### Hamming
 
@@ -232,7 +249,8 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 ### Hello World (哈囉，世界)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/hello-world/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/c9/57/0e48a9765b083b274c356cbb997754706318.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/hello-world/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/28/86/ae84b6848a15d082e747b4d28921d1bbb1ef.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/hello-world/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/8c/6a/4e98e263a8f6e824f08d55b7c55989119da6.md)
+  - [`2886ae84b6`](../../../locales/zh-TW/content/28/86/ae84b6848a15d082e747b4d28921d1bbb1ef.md)
 
 ### Hexadecimal (十六進位)
 
@@ -250,6 +268,7 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/intergalactic-transmission/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/54/97/088176af7a635f7378966725130623109749.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/intergalactic-transmission/.docs/introduction.md)): [Latest](../../../locales/zh-TW/content/f1/9d/ffbead7bcf8578a86e3311749fead73f9a93.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/intergalactic-transmission/.docs/hints.md)): [Latest](../../../locales/zh-TW/content/34/63/a6ee8bd998e6b0743a75e80cac8053511cd7.md)
 
 ### ISBN Verifier (ISBN 驗證器)
 
@@ -288,11 +307,14 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/ledger/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/a5/3e/5c15e3e6f5f6a62a8ea6be82e3072477baae.md)
 - `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/ledger/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/f4/1f/d3d46966933d26b8fd7d26a5851597956d86.md)
   - [`8a90ca181b`](../../../locales/zh-TW/content/8a/90/ca181bfbfee68ca492f6f28613a034f2e528.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/ledger/.docs/hints.md)): [Latest](../../../locales/zh-TW/content/a5/29/471aebc498476e01ad467f121d1d08f244fa.md)
 
 ### Lens Person (透鏡人)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/lens-person/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/c7/c7/07e249dc11476b1c4a2ed23179e26701715d.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/lens-person/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/63/81/a5496fa5121887ba25ee07f6cfaab40abb45.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/lens-person/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/5f/6a/90cd102b04e7089cdffac91f1b5aacda6e3b.md)
+  - [`6381a5496f`](../../../locales/zh-TW/content/63/81/a5496fa5121887ba25ee07f6cfaab40abb45.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/lens-person/.docs/hints.md)): [Latest](../../../locales/zh-TW/content/89/4d/67fda76cd4d06088f7fd37e9f709f685c8c5.md)
 
 ### Line Up (排隊)
 
@@ -302,12 +324,15 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 ### Linked List (連結串列)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/linked-list/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/ed/f4/055b38ca35950a3600fa268e267763b69a17.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/linked-list/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/1b/9d/c79f4d0cc561321837ad248b20c3ac45985a.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/linked-list/.docs/introduction.md)): [Latest](../../../locales/zh-TW/content/6e/83/ae7b6e530aec64acc119d995eec9a678f228.md)
 
 ### List Ops (陣列操作)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/list-ops/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/eb/c5/dffed02ecca9b62a12fd9c7327b58dd49bba.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/list-ops/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/1c/ab/fb382a0d43ce235e065ef567386c4738defc.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/list-ops/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/24/b0/5d83d828fe293365f12eb2313bdf7f0c1a3a.md)
+  - [`1cabfb382a`](../../../locales/zh-TW/content/1c/ab/fb382a0d43ce235e065ef567386c4738defc.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/list-ops/.docs/hints.md)): [Latest](../../../locales/zh-TW/content/4b/2f/9db856f093fe4af71cd0c3f99a805172a600.md)
 
 ### Luhn
 
@@ -317,7 +342,9 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 ### Markdown
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/markdown/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/b3/f3/044c66f1d886af7f5fb180da8b81bee9ad87.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/markdown/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/52/6d/4a168e493481a6ec283ea40b3d93c514177f.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/markdown/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/e9/52/0bfed3d9589abe7035465350d63771303b4b.md)
+  - [`526d4a168e`](../../../locales/zh-TW/content/52/6d/4a168e493481a6ec283ea40b3d93c514177f.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/markdown/.docs/hints.md)): [Latest](../../../locales/zh-TW/content/00/13/ccad168f7a2bedd8a74c42f82f6b74081dae.md)
 
 ### Matching Brackets (括號配對)
 
@@ -332,10 +359,12 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/meetup/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/8b/1b/da5eb4c26f8eaa3fc25d659cc05589b6f127.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/meetup/.docs/introduction.md)): [Latest](../../../locales/zh-TW/content/29/17/0ef1fda6839c4c8b51f1fd0af663ab860023.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/meetup/.docs/hints.md)): [Latest](../../../locales/zh-TW/content/50/d1/370e0344346552e5cda56cdb27d8bee62a6f.md)
 
 ### Micro Blog (微網誌)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/micro-blog/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/d6/c6/cf65613fcc07cf362aaaf2031f7414380d0d.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/micro-blog/.docs/hints.md)): [Latest](../../../locales/zh-TW/content/04/30/6591618ad9cd561bd4f9c6bfa0244bdbc859.md)
 
 ### Minesweeper (踩地雷)
 
@@ -362,7 +391,9 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 ### PaaS I/O
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/paasio/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/59/56/447487e0c549796d649508c77d36a8019479.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/paasio/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/a0/5e/05d19b739fd2cac8ac86660e9599bb25bd52.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/paasio/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/62/e5/8a788955397d54dbe0ffcd2d437f4db45735.md)
+  - [`a05e05d19b`](../../../locales/zh-TW/content/a0/5e/05d19b739fd2cac8ac86660e9599bb25bd52.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/paasio/.docs/hints.md)): [Latest](../../../locales/zh-TW/content/d2/b0/016e4614b18d66081614775fdfcad6e37a58.md)
 
 ### Palindrome Products (迴文乘積)
 
@@ -412,6 +443,8 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 ### POV
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/pov/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/0f/de/ed2250f9472452d51b3978daa8bdc6523688.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/pov/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/7b/9f/c24953dccc6ac51975202060cb29dee519f1.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/pov/.docs/hints.md)): [Latest](../../../locales/zh-TW/content/87/a7/d99c031d565e5f7148a39a4d1f37e981b638.md)
 
 ### Prime Factors (質因數)
 
@@ -438,7 +471,8 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 ### Queen Attack (皇后攻擊)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/queen-attack/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/97/f2/2a0aee13f74801df153121aeb04104f68dbd.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/queen-attack/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/de/a9/83c802c541f23f503a1d7d9b0969e44d5a8a.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/queen-attack/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/5a/a6/eb948a382b8dc9c9621fe7a9a38a54de6d5f.md)
+  - [`dea983c802`](../../../locales/zh-TW/content/de/a9/83c802c541f23f503a1d7d9b0969e44d5a8a.md)
 
 ### Rail Fence Cipher (柵欄密碼)
 
@@ -452,6 +486,7 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 ### Rational Numbers (有理數)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/rational-numbers/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/f6/4f/c0f28e5f84c9e991e52b275f5eef1ff7ea86.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/rational-numbers/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/e6/ed/7ee419200b5cdefbb62e570265eb3f7080b7.md)
 
 ### React
 
@@ -470,6 +505,7 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/relative-distance/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/64/ca/4e43744fdf4aaf8b64ea34b795b8933a0e3e.md)
 - `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/relative-distance/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/31/8a/0245846a9f312ad1474466a36dcb6870d18c.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/relative-distance/.docs/introduction.md)): [Latest](../../../locales/zh-TW/content/34/07/3b40ac6e0494777808026c336f21678ba93e.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/relative-distance/.docs/hints.md)): [Latest](../../../locales/zh-TW/content/80/a6/6ebb4300448eb1d493b9156b9c39ea758872.md)
 
 ### Resistor Color (電阻色碼)
 
@@ -486,11 +522,13 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 ### REST API
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/rest-api/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/e8/89/b1bf20762398566d9811888616e8ee03cb54.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/rest-api/.docs/hints.md)): [Latest](../../../locales/zh-TW/content/71/76/120efb6c6ce920c604efaf4b26a3fea1aa9b.md)
 
 ### Reverse String (反轉字串)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/reverse-string/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/0f/f4/198e46ef06331339f8a44292d7e287bdeeec.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/reverse-string/.docs/introduction.md)): [Latest](../../../locales/zh-TW/content/02/23/3e0755e8aa76ba1fa8d6f7f05ae17ff9cc70.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/reverse-string/.docs/hints.md)): [Latest](../../../locales/zh-TW/content/23/9e/c3e6977b842d7ee48a1f7321ea7f5f9d76b0.md)
 
 ### RNA Transcription (RNA 轉錄)
 
@@ -500,6 +538,8 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 ### Robot Name (機器人名稱)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/robot-name/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/fc/a3/a41aeccc9ce1e2839ec947ffcf8e6ef8e2bb.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/robot-name/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/cf/c8/2af23c7107f72b9edebb2664547e53cb859b.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/robot-name/.docs/hints.md)): [Latest](../../../locales/zh-TW/content/6c/f7/611eb743e9bb1a953934a0ca0ce6d0d8e86a.md)
 
 ### Robot Simulator (機器人模擬器)
 
@@ -526,6 +566,7 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 ### Satellite (衛星)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/satellite/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/fb/bf/14f439558fa6451f8ebfac7253e0c9e12189.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/satellite/.docs/hints.md)): [Latest](../../../locales/zh-TW/content/26/ec/fea0ff42fe301feec7ab73b9daa471dbd815.md)
 
 ### Save the Cow (拯救乳牛)
 
@@ -546,6 +587,7 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/secret-handshake/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/d2/12/0b9bf2e57109955caddbfc1646b9fcc8070e.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/secret-handshake/.docs/introduction.md)): [Latest](../../../locales/zh-TW/content/17/6b/92e8cf395ab6d07a5d8ae60f86c73e4da085.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/secret-handshake/.docs/hints.md)): [Latest](../../../locales/zh-TW/content/14/f9/208ed18b8f895e4d5967b26be017a3d7b73b.md)
 
 ### Series (序列)
 
@@ -555,6 +597,7 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/sgf-parsing/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/ed/c8/d6b1888156a7c9480c8a16222c3a0e76c32b.md)
 - `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/sgf-parsing/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/91/cb/b74fe7fc7564818914b76a6cdb981c2bf641.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/sgf-parsing/.docs/hints.md)): [Latest](../../../locales/zh-TW/content/af/c5/026d19cb5ad2956a6f2040c351a2bd5bc61e.md)
 
 ### Sieve (篩法)
 
@@ -564,11 +607,13 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 ### Simple Cipher (簡易加密法)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/simple-cipher/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/af/d0/b57da930f59595d830df56eb0c9e891e83f4.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/simple-cipher/.docs/hints.md)): [Latest](../../../locales/zh-TW/content/cc/a5/a088931010996aeb6560fe583900e8f14bc9.md)
 
 ### Simple Linked List (簡易鏈結串列)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/simple-linked-list/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/04/64/0b1fb0316d5bc0ddb86e1c1960595f298402.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/simple-linked-list/.docs/introduction.md)): [Latest](../../../locales/zh-TW/content/0e/1d/f72f9bfdbc27674463923bf42d36fcd643be.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/simple-linked-list/.docs/hints.md)): [Latest](../../../locales/zh-TW/content/51/8f/7a4fa8933d3172de29471eceb0289877cbdd.md)
 
 ### Space Age (太空時代)
 
@@ -592,7 +637,8 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 ### Square Root (平方根)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/square-root/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/d2/58/b86876e35a1553677ed6a7cb068f27cf1aba.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/square-root/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/91/03/3c755b99d757749014f0c7fc829a878c19f5.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/square-root/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/73/f9/84181dbcc0608f82c8ffe1a0fc3b257cb8c5.md)
+  - [`91033c755b`](../../../locales/zh-TW/content/91/03/3c755b99d757749014f0c7fc829a878c19f5.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/square-root/.docs/introduction.md)): [Latest](../../../locales/zh-TW/content/1d/69/2934f280a866528bcb54cd3044d7e8a5eeeb.md)
 
 ### State of Tic-Tac-Toe (井字遊戲的狀態)
@@ -631,6 +677,7 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 ### Tree Building (建立樹狀結構)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/tree-building/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/01/48/e8a010e1e0b4dd42d17963abb313398e1873.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/tree-building/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/c7/b8/d1953b6db74b44a5b425ad8708d8a747810b.md)
 
 ### Triangle (三角形)
 
@@ -679,6 +726,8 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 ### Zipper (拉鍊)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/zipper/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/54/45/db0035780cdedeb3348d1441df7c4158586b.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/zipper/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/2f/8c/5e1fe16412c3d8749e56ee42cb7366674de1.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/zipper/.docs/hints.md)): [Latest](../../../locales/zh-TW/content/12/09/5278ec24fbb8443ca713d59c39171ff69bcd.md)
 
 ## Track docs
 
@@ -696,7 +745,8 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 
 ### Testing on the Roc track (在 Roc 軌道上測試)
 
-- `TESTS.md` ([English](https://github.com/exercism/roc/blob/main/docs/TESTS.md)): [Latest](../../../locales/zh-TW/content/33/ff/d9956a7bb7c729da44ea36aec849c1dc3751.md)
+- `TESTS.md` ([English](https://github.com/exercism/roc/blob/main/docs/TESTS.md)): [Latest](../../../locales/zh-TW/content/80/72/bcf317c4f1dae8e5e8f6e387d5973eab24df.md)
+  - [`33ffd9956a`](../../../locales/zh-TW/content/33/ff/d9956a7bb7c729da44ea36aec849c1dc3751.md)
 
 ### Useful Roc resources (實用的 Roc 資源)
 
@@ -706,8 +756,10 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 
 ### help.md
 
-- `help.md` ([English](https://github.com/exercism/roc/blob/main/exercises/shared/.docs/help.md)): [Latest](../../../locales/zh-TW/content/3b/a7/77299d1718a8351a208d8c541d71d9a7751a.md)
+- `help.md` ([English](https://github.com/exercism/roc/blob/main/exercises/shared/.docs/help.md)): [Latest](../../../locales/zh-TW/content/a9/ce/68c39ba4d2326f69adf66adbe971255bf712.md)
+  - [`3ba777299d`](../../../locales/zh-TW/content/3b/a7/77299d1718a8351a208d8c541d71d9a7751a.md)
 
 ### tests.md
 
-- `tests.md` ([English](https://github.com/exercism/roc/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/zh-TW/content/a6/b4/0fc41fd05bf957de730d1df8d795940d90d0.md)
+- `tests.md` ([English](https://github.com/exercism/roc/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/zh-TW/content/66/bd/86be409047097a33213ec72c1b179cf5800a.md)
+  - [`a6b40fc41f`](../../../locales/zh-TW/content/a6/b4/0fc41fd05bf957de730d1df8d795940d90d0.md)

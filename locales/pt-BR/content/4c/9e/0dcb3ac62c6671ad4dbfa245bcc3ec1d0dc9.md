@@ -1,0 +1,6 @@
+# Dicas
+
+## Geral
+
+- O [pacote `unicode`](https://github.com/roc-lang/unicode) está disponível no cabeçalho de `anagram-test.roc`.
+  Você pode usá-lo na sua solução, por exemplo importando `unicode.Grapheme`.
