@@ -1,0 +1,174 @@
+# परिचय
+## Switch
+
+एक [switch स्टेटमेंट][switch] की मदद से आप एक वैल्यू की तुलना कई संभावित वैल्यूओं से कर सकते हैं, जिनसे वह मेल खा सकती है।
+यह आपको कई `else-if` स्टेटमेंट इस्तेमाल करने की तुलना में ज़्यादा संक्षिप्त कोड लिखने देता है।
+एक switch स्टेटमेंट `switch` कीवर्ड से शुरू होता है, जिसके बाद वह वैल्यू आती है जिसकी तुलना करनी है।
+इसके बाद आप `case` कीवर्ड से केस बनाते हैं, जिसके बाद वह वैल्यू आती है जिससे तुलना करनी है।
+जब कोई भी केस मेल न खाए, तो डिफॉल्ट केस बनाने के लिए `default` कीवर्ड इस्तेमाल किया जाता है।
+`else-if` स्टेटमेंट की तरह, `switch` स्टेटमेंट भी सिर्फ पहले मेल खाने वाले केस से जुड़ा कोड ब्लॉक ही चलाता है।
+
+```swift
+switch value {
+case 1:
+    print("One")
+case 2:
+    print("Two")
+default:
+    print("Other")
+}
+```
+
+इस उदाहरण को देखिए:
+
+```swift
+if str == "apple" {
+    print("Let's bake an apple crumble")
+} else if str == "lemon" {
+    print("Let's bake a lemon meringue pie!")
+} else if str == "peach" {
+    print("Let's bake a peach pie!")
+} else {
+    print("Let's buy ice cream.")
+}
+```
+
+इसके बजाय इसे ऐसे लिखा जा सकता है:
+
+```swift
+switch str {
+case "apple":
+    print("Let's bake an apple crumble")
+case "lemon":
+    print("Let's bake a lemon meringue pie!")
+case "peach":
+    print("Let's bake a peach pie!")
+default:
+    print("Let's buy ice cream.")
+}
+```
+
+## `while` लूप
+
+एक [`while` लूप][while-loops] एक नियंत्रण प्रवाह स्टेटमेंट है, जिससे कोड तब तक चलाया जा सकता है जब तक कोई शर्त सही रहती है।
+Swift दो तरह के `while` लूप देता है: `while` लूप और `repeat-while` लूप।
+`while` लूप की शर्त का मूल्यांकन लूप के अंदर का कोड चलने से पहले होता है; अगर शर्त गलत है, तो लूप के अंदर का कोड बिल्कुल नहीं चलेगा।
+Swift में `while` लूप का ढाँचा इस तरह होता है:
+
+```swift
+while <#condition#> {
+  <#code#>
+}
+```
+
+यहाँ लूप तब तक चलेगा जब तक count 0 से बड़ा रहता है, और इस तरह वह संख्याएँ 2, 1 और "Liftoff!" छापेगा।
+
+```swift
+var count = 2
+while count > 0 {
+  print("\(count)…")
+  count -= 1
+}
+print("Liftoff!")
+
+// prints:
+// 2…
+// 1…
+// Liftoff!
+```
+
+एक [`repeat-while` लूप][while-loops] `while` लूप जैसा ही होता है, लेकिन इसमें शर्त का मूल्यांकन लूप के अंदर का कोड चलने के बाद होता है।
+इसका मतलब है कि लूप के अंदर का कोड हमेशा कम से कम एक बार चलेगा, भले ही शर्त गलत हो।
+Swift में `repeat-while` लूप का ढाँचा इस तरह होता है:
+
+```swift
+repeat {
+  <#code#>
+} while <#condition#>
+```
+
+यहाँ लूप सिर्फ एक बार चलेगा, क्योंकि शर्त गलत है।
+चूँकि यह `repeat-while` लूप है, शर्त का मूल्यांकन होने से पहले लूप के अंदर का कोड एक बार चल चुकेगा।
+
+```swift
+var count = 2
+repeat {
+  print("\(count)…")
+} while count < 0
+print("Liftoff!")
+```
+
+## नियंत्रण हस्तांतरण
+
+लूप और `switch` स्टेटमेंट का चलने का क्रम बदलने के लिए Swift नियंत्रण हस्तांतरण स्टेटमेंट देता है।
+`return` के अलावा Swift में `continue`, `break`, लूप लेबल और `fallthrough` भी हैं।
+
+### Continue
+
+`continue` स्टेटमेंट लूप से कहता है कि वह मौजूदा इटरेशन चलाना बंद करके तुरंत अगला इटरेशन शुरू करे।
+`while` या `repeat-while` लूप में यह सीधे शर्त की जाँच पर पहुँच जाता है।
+`for-in` लूप में यह सीक्वेंस के अगले एलिमेंट तक आगे बढ़ जाता है।
+
+```swift
+var count = 1
+while count < 6 {
+    count += 1
+    if count == 4 {
+        continue
+    }
+    print(count)
+}
+
+// Prints:
+// 2
+// 3
+// 5
+// 6
+```
+
+### Break
+
+`break` स्टेटमेंट किसी पूरे लूप या `switch` स्टेटमेंट से तुरंत बाहर निकल जाता है।
+लूप या `switch` के बाद वाली कोड की पहली लाइन से कोड फिर चलना शुरू हो जाता है।
+
+```swift
+for fruit in ["banana", "grapes", "apple", "strawberry", "kiwi", "lemon"] {
+    if !fruit.count.isMultiple(of: 2) {
+        break
+    }
+    print(fruit)
+}
+
+// Prints:
+// banana
+// grapes
+```
+
+### लेबल वाले स्टेटमेंट
+
+नेस्टेड लूप में कभी-कभी आप चाह सकते हैं कि `break` या `continue` सबसे अंदर वाले लूप के बजाय किसी बाहरी लूप पर प्रभाव डाले।
+आप किसी लूप के शुरू में एक नाम और कोलन (`labelName:`) लगाकर उसे लेबल दे सकते हैं।
+फिर आप वह लेबल `break` या `continue` को दे सकते हैं:
+
+```swift
+outerLoop: for fruit in ["banana", "grapes", "apple", "strawberry", "kiwi", "lemon"] {
+    print("\n--- \(fruit) ---")
+    for letter in fruit {
+        guard letter != "n" else {
+            break outerLoop
+        }
+        print(letter)
+    }
+}
+
+// Prints:
+// --- banana ---
+// b
+// a
+```
+
+[control-transfer]: https://docs.swift.org/swift-book/documentation/the-swift-programming-language/controlflow/#Control-Transfer-Statements
+[fallthrough]: https://docs.swift.org/swift-book/documentation/the-swift-programming-language/controlflow/#Fallthrough
+[while-loops]: https://docs.swift.org/swift-book/documentation/the-swift-programming-language/controlflow/#While-Loops
+[repeat-loops]: https://docs.swift.org/swift-book/documentation/the-swift-programming-language/controlflow/#Repeat-While
+[switch]: https://docs.swift.org/swift-book/documentation/the-swift-programming-language/controlflow/#Switch

@@ -660,7 +660,8 @@ This page is generated from [the index](../../json/de/swift.json) by `scripts/bu
 ### Expert Mixologist (Erfahrener Mixologe)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/expert-mixologist/.docs/instructions.md)): [Latest](../../../locales/de/content/d9/14/2c32b6e814bb2891908c4160e93b0204c02c.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/expert-mixologist/.docs/introduction.md)): [Latest](../../../locales/de/content/1a/4f/a35675609e2965b1143a0c76cc53a78d74be.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/expert-mixologist/.docs/introduction.md)): [Latest](../../../locales/de/content/d1/03/c1bf80db5e295a35cfda1da9eab289e3c5a4.md)
+  - [`1a4fa35675`](../../../locales/de/content/1a/4f/a35675609e2965b1143a0c76cc53a78d74be.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/expert-mixologist/.docs/hints.md)): [Latest](../../../locales/de/content/67/39/d849a648f6c51e598906317968b33944e1ac.md)
 
 ### Freelancer Rates (Freelancer-Sätze)
@@ -797,7 +798,8 @@ This page is generated from [the index](../../json/de/swift.json) by `scripts/bu
 
 ### Control transfer (Kontrolltransfer)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/control-transfer/introduction.md)): [Latest](../../../locales/de/content/fd/78/22ca2a3262dcc15f466060fc8db8e683bb5d.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/control-transfer/introduction.md)): [Latest](../../../locales/de/content/0c/45/fbb83c2d3110179994c2ebd694b11eccbd2f.md)
+  - [`fd7822ca2a`](../../../locales/de/content/fd/78/22ca2a3262dcc15f466060fc8db8e683bb5d.md)
 - `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/control-transfer/about.md)): [Latest](../../../locales/de/content/2d/3f/38110dec6cdf7bd4dd71a852f4930e2a0121.md)
   - [`8e11abc2e4`](../../../locales/de/content/8e/11/abc2e487d233637766382bac6b1a5f4f13d2.md)
 

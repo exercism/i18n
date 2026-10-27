@@ -514,7 +514,8 @@ This page is generated from [the index](../../json/zh-TW/swift.json) by `scripts
 ### Expert Mixologist (調酒專家)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/expert-mixologist/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/d9/14/2c32b6e814bb2891908c4160e93b0204c02c.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/expert-mixologist/.docs/introduction.md)): [Latest](../../../locales/zh-TW/content/dd/bb/0474bfd79725c64d1232b62457788460f40e.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/expert-mixologist/.docs/introduction.md)): [Latest](../../../locales/zh-TW/content/d1/03/c1bf80db5e295a35cfda1da9eab289e3c5a4.md)
+  - [`ddbb0474bf`](../../../locales/zh-TW/content/dd/bb/0474bfd79725c64d1232b62457788460f40e.md)
   - [`1a4fa35675`](../../../locales/zh-TW/content/1a/4f/a35675609e2965b1143a0c76cc53a78d74be.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/expert-mixologist/.docs/hints.md)): [Latest](../../../locales/zh-TW/content/67/39/d849a648f6c51e598906317968b33944e1ac.md)
 
@@ -650,15 +651,17 @@ This page is generated from [the index](../../json/zh-TW/swift.json) by `scripts
 
 ### Conditionals Switch (switch 條件式)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals-switch/introduction.md)): [Latest](../../../locales/zh-TW/content/59/a5/12c5ce4f0685ec29e91a6ece0dabb3b0d074.md)
-  - [`edd2b14013`](../../../locales/zh-TW/content/ed/d2/b140135aa5ac4ef3a1f06f37c7b3e16f692f.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals-switch/about.md)): [Latest](../../../locales/zh-TW/content/5e/f3/5b247502b3bc5ed06329633e8ac3036dfd07.md)
-  - [`02d2526348`](../../../locales/zh-TW/content/02/d2/5263488bc7f7b4bbea83a4d00c1cc6806a57.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals-switch/introduction.md)): [Latest](../../../locales/zh-TW/content/ed/d2/b140135aa5ac4ef3a1f06f37c7b3e16f692f.md)
+  - [`59a512c5ce`](../../../locales/zh-TW/content/59/a5/12c5ce4f0685ec29e91a6ece0dabb3b0d074.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals-switch/about.md)): [Latest](../../../locales/zh-TW/content/02/d2/5263488bc7f7b4bbea83a4d00c1cc6806a57.md)
+  - [`5ef35b2475`](../../../locales/zh-TW/content/5e/f3/5b247502b3bc5ed06329633e8ac3036dfd07.md)
 
 ### Control transfer (控制轉移)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/control-transfer/introduction.md)): [Latest](../../../locales/zh-TW/content/fd/78/22ca2a3262dcc15f466060fc8db8e683bb5d.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/control-transfer/about.md)): [Latest](../../../locales/zh-TW/content/8e/11/abc2e487d233637766382bac6b1a5f4f13d2.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/control-transfer/introduction.md)): [Latest](../../../locales/zh-TW/content/0c/45/fbb83c2d3110179994c2ebd694b11eccbd2f.md)
+  - [`fd7822ca2a`](../../../locales/zh-TW/content/fd/78/22ca2a3262dcc15f466060fc8db8e683bb5d.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/control-transfer/about.md)): [Latest](../../../locales/zh-TW/content/2d/3f/38110dec6cdf7bd4dd71a852f4930e2a0121.md)
+  - [`8e11abc2e4`](../../../locales/zh-TW/content/8e/11/abc2e487d233637766382bac6b1a5f4f13d2.md)
 
 ### Default Parameters (預設參數)
 

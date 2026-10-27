@@ -1,0 +1,174 @@
+# Introduction
+## L'instruction `switch`
+
+Une [instruction `switch`][switch] permet de comparer une valeur à plusieurs valeurs correspondantes possibles.
+Elle permet d'écrire du code plus concis qu'en enchaînant plusieurs instructions `else-if`.
+Une instruction `switch` commence par le mot-clé `switch`, suivi de la valeur à comparer.
+On définit ensuite les cas avec le mot-clé `case`, suivi de la valeur à laquelle se comparer.
+Le mot-clé `default` sert à définir le cas par défaut, lorsque aucun des cas ne correspond.
+Comme les instructions `else-if`, les instructions `switch` n'exécutent que le bloc de code associé au premier cas qui correspond.
+
+```swift
+switch value {
+case 1:
+    print("One")
+case 2:
+    print("Two")
+default:
+    print("Other")
+}
+```
+
+Prenons l'exemple suivant :
+
+```swift
+if str == "apple" {
+    print("Let's bake an apple crumble")
+} else if str == "lemon" {
+    print("Let's bake a lemon meringue pie!")
+} else if str == "peach" {
+    print("Let's bake a peach pie!")
+} else {
+    print("Let's buy ice cream.")
+}
+```
+
+On pourrait plutôt l'écrire comme ceci :
+
+```swift
+switch str {
+case "apple":
+    print("Let's bake an apple crumble")
+case "lemon":
+    print("Let's bake a lemon meringue pie!")
+case "peach":
+    print("Let's bake a peach pie!")
+default:
+    print("Let's buy ice cream.")
+}
+```
+
+## Les boucles _while_
+
+Une [boucle _while_][while-loops] est une instruction de contrôle de flux qui permet d'exécuter du code tant qu'une certaine condition est vraie.
+Swift propose deux sortes de boucles _while_ : les boucles _while_ et les boucles _repeat-while_.
+La condition d'une boucle _while_ est évaluée avant l'exécution du corps de la boucle ; si la condition est fausse, le corps de la boucle ne sera pas exécuté du tout.
+Les boucles _while_ en Swift ont la structure suivante :
+
+```swift
+while <#condition#> {
+  <#code#>
+}
+```
+
+Ici, la boucle s'exécute tant que count est supérieur à 0, et affiche donc les nombres 2, 1 et « Liftoff! ».
+
+```swift
+var count = 2
+while count > 0 {
+  print("\(count)…")
+  count -= 1
+}
+print("Liftoff!")
+
+// prints:
+// 2…
+// 1…
+// Liftoff!
+```
+
+Une [boucle _repeat-while_][while-loops] est semblable à une boucle _while_, mais la condition est évaluée après l'exécution du corps de la boucle.
+Cela signifie que le corps de la boucle s'exécute toujours au moins une fois, même si la condition est fausse.
+Les boucles _repeat-while_ en Swift ont la structure suivante :
+
+```swift
+repeat {
+  <#code#>
+} while <#condition#>
+```
+
+Ici, la boucle ne s'exécute qu'une seule fois, puisque la condition est fausse.
+Comme il s'agit d'une boucle _repeat-while_, le corps de la boucle s'exécute une fois avant que la condition ne soit évaluée.
+
+```swift
+var count = 2
+repeat {
+  print("\(count)…")
+} while count < 0
+print("Liftoff!")
+```
+
+## Le transfert de contrôle
+
+Swift fournit des instructions de transfert de contrôle qui permettent de modifier le déroulement d'exécution des boucles et des instructions `switch`.
+En plus de `return`, Swift propose `continue`, `break`, les étiquettes de boucle et `fallthrough`.
+
+### Continue
+
+L'instruction `continue` demande à une boucle d'arrêter l'exécution de l'itération en cours et de passer immédiatement à l'itération suivante.
+Dans une boucle `while` ou `repeat-while`, elle saute directement à l'évaluation de la condition.
+Dans une boucle `for-in`, elle passe à l'élément suivant de la séquence.
+
+```swift
+var count = 1
+while count < 6 {
+    count += 1
+    if count == 4 {
+        continue
+    }
+    print(count)
+}
+
+// Prints:
+// 2
+// 3
+// 5
+// 6
+```
+
+### Break
+
+L'instruction `break` quitte immédiatement toute une boucle ou une instruction `switch`.
+L'exécution reprend à la première ligne de code qui suit la boucle ou le `switch`.
+
+```swift
+for fruit in ["banana", "grapes", "apple", "strawberry", "kiwi", "lemon"] {
+    if !fruit.count.isMultiple(of: 2) {
+        break
+    }
+    print(fruit)
+}
+
+// Prints:
+// banana
+// grapes
+```
+
+### Les instructions étiquetées
+
+Dans des boucles imbriquées, il arrive que l'on veuille que `break` ou `continue` agisse sur une boucle externe plutôt que sur la boucle la plus interne.
+On peut étiqueter une boucle en la faisant précéder d'un nom suivi de deux-points (`labelName:`).
+On peut ensuite passer cette étiquette à `break` ou à `continue` :
+
+```swift
+outerLoop: for fruit in ["banana", "grapes", "apple", "strawberry", "kiwi", "lemon"] {
+    print("\n--- \(fruit) ---")
+    for letter in fruit {
+        guard letter != "n" else {
+            break outerLoop
+        }
+        print(letter)
+    }
+}
+
+// Prints:
+// --- banana ---
+// b
+// a
+```
+
+[control-transfer]: https://docs.swift.org/swift-book/documentation/the-swift-programming-language/controlflow/#Control-Transfer-Statements
+[fallthrough]: https://docs.swift.org/swift-book/documentation/the-swift-programming-language/controlflow/#Fallthrough
+[while-loops]: https://docs.swift.org/swift-book/documentation/the-swift-programming-language/controlflow/#While-Loops
+[repeat-loops]: https://docs.swift.org/swift-book/documentation/the-swift-programming-language/controlflow/#Repeat-While
+[switch]: https://docs.swift.org/swift-book/documentation/the-swift-programming-language/controlflow/#Switch
