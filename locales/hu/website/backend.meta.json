@@ -1618,6 +1618,8 @@
     "settings.github_syncer.callback.connected": "266f8182b43a8d0942c58249fe8b97a4a72ba99d",
     "settings.github_syncer.callback.missing_installation_id": "9159b619c4dff61a122b1242e00384ff03f15ba1",
     "settings.github_syncer.show.github_syncer.heading": "78c2c8fe1034addfa76535666258ec047382ef75",
+    "settings.github_syncer.update.failed": "64fe99fcc4d968324fe2ba0648f1da0971742b51",
+    "settings.github_syncer.update.invalid_main_branch_name": "3bc1f4f4dd1a994cac5e9ce432cc79f2470a59e6",
     "settings.insiders.insiders.heading": "e31bdab62e36eb90db0c07f82cfe2e8167891a5a",
     "settings.integrations.discord.connect_button": "f01fbd5b4c0125a0e263de698181eb485e327622",
     "settings.integrations.discord.disconnect_button": "a47ddea5bc309f19e04b79b50681d7237335aee9",

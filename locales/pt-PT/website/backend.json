@@ -3827,6 +3827,10 @@
       "callback": {
         "missing_installation_id": "ID de instalação em falta",
         "connected": "GitHub ligado com sucesso"
+      },
+      "update": {
+        "invalid_main_branch_name": "O nome do ramo principal tem de ser um nome de ramo Git válido, com até %{max_length} carateres, usando apenas letras, números, pontos, hífenes, sublinhados e barras.",
+        "failed": "Não foi possível guardar as tuas definições do GitHub Syncer."
       }
     },
     "insiders": {

@@ -2481,6 +2481,10 @@
       "callback": {
         "missing_installation_id": "缺少安装 ID",
         "connected": "GitHub 连接成功"
+      },
+      "update": {
+        "invalid_main_branch_name": "主分支名称必须是有效的 Git 分支名称，最多 %{max_length} 个字符，只能使用字母、数字、点、连字符、下划线和斜杠。",
+        "failed": "我们无法保存你的 GitHub Syncer 设置。"
       }
     },
     "insiders": {

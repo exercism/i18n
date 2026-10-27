@@ -2059,6 +2059,10 @@
       "callback": {
         "missing_installation_id": "설치 ID가 없어요",
         "connected": "GitHub가 성공적으로 연결되었어요"
+      },
+      "update": {
+        "invalid_main_branch_name": "메인 브랜치 이름은 최대 %{max_length}자까지의 유효한 Git 브랜치 이름이어야 하며, 문자, 숫자, 마침표, 대시, 밑줄, 슬래시만 사용할 수 있어요.",
+        "failed": "GitHub Syncer 설정을 저장하지 못했어요."
       }
     },
     "insiders": {

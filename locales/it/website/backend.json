@@ -2205,6 +2205,10 @@
       "callback": {
         "missing_installation_id": "ID di installazione mancante",
         "connected": "GitHub collegato con successo"
+      },
+      "update": {
+        "invalid_main_branch_name": "Il nome del branch principale deve essere un nome di branch Git valido, lungo al massimo %{max_length} caratteri e composto solo da lettere, numeri, punti, trattini, underscore e barre.",
+        "failed": "Non siamo riusciti a salvare le impostazioni di GitHub Syncer."
       }
     },
     "insiders": {

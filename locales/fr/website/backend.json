@@ -3031,6 +3031,10 @@
       "callback": {
         "missing_installation_id": "ID d'installation manquant",
         "connected": "GitHub connecté avec succès"
+      },
+      "update": {
+        "invalid_main_branch_name": "Le nom de la branche principale doit être un nom de branche Git valide de %{max_length} caractères maximum, et ne contenir que des lettres, des chiffres, des points, des tirets, des traits de soulignement et des barres obliques.",
+        "failed": "Impossible d'enregistrer tes paramètres GitHub Syncer."
       }
     },
     "insiders": {

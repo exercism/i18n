@@ -2788,6 +2788,10 @@
       "callback": {
         "missing_installation_id": "شناسه‌ی نصب موجود نیست",
         "connected": "GitHub با موفقیت متصل شد"
+      },
+      "update": {
+        "invalid_main_branch_name": "اسم شاخه‌ی اصلی باید یک اسم شاخه‌ی معتبر در Git باشد که حداکثر %{max_length} نویسه دارد و فقط شامل حروف، اعداد، نقطه، خط تیره، زیرخط و اسلش است.",
+        "failed": "نتوانستیم تنظیمات GitHub Syncer شما را ذخیره کنیم."
       }
     },
     "insiders": {

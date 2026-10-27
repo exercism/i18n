@@ -780,6 +780,10 @@
       "callback": {
         "missing_installation_id": "インストールIDがありません",
         "connected": "GitHubの連携が完了しました"
+      },
+      "update": {
+        "invalid_main_branch_name": "メインブランチ名は、%{max_length}文字以内の有効なGitブランチ名である必要があります。使える文字は、英字・数字・ドット・ダッシュ・アンダースコア・スラッシュだけです。",
+        "failed": "GitHub Syncerの設定を保存できませんでした。"
       }
     },
     "insiders": {

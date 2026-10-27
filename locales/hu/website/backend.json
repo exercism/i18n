@@ -3865,6 +3865,10 @@
       "callback": {
         "missing_installation_id": "Hiányzó telepítési azonosító",
         "connected": "A GitHub sikeresen csatlakoztatva"
+      },
+      "update": {
+        "invalid_main_branch_name": "A főág neve legfeljebb %{max_length} karakter hosszú, érvényes Git-ágazatnév kell legyen, amely csak betűket, számokat, pontokat, kötőjeleket, aláhúzásjeleket és perjeleket tartalmaz.",
+        "failed": "Nem sikerült elmentenünk a GitHub Syncer beállításaidat."
       }
     },
     "insiders": {

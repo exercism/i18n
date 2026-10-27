@@ -3539,6 +3539,10 @@
       "callback": {
         "missing_installation_id": "معرّف التثبيت مفقود",
         "connected": "تم ربط GitHub بنجاح"
+      },
+      "update": {
+        "invalid_main_branch_name": "يجب أن يكون اسم الفرع الرئيسي اسم فرع Git صالحًا لا يتجاوز %{max_length} حرفًا، على أن يستخدم الحروف والأرقام والنقاط والشرطات والشرطات السفلية والشرطات المائلة فقط.",
+        "failed": "لم نتمكن من حفظ إعدادات GitHub Syncer الخاصة بك."
       }
     },
     "insiders": {

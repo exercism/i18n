@@ -975,6 +975,10 @@
       "callback": {
         "missing_installation_id": "Installations-ID fehlt",
         "connected": "GitHub erfolgreich verbunden"
+      },
+      "update": {
+        "invalid_main_branch_name": "Der Name des Main-Branches muss ein gültiger Git-Branchname mit bis zu %{max_length} Zeichen sein, der nur Buchstaben, Zahlen, Punkte, Bindestriche, Unterstriche und Schrägstriche enthält.",
+        "failed": "Wir konnten deine GitHub-Syncer-Einstellungen nicht speichern."
       }
     },
     "insiders": {

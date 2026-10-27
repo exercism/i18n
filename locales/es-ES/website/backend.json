@@ -765,6 +765,10 @@
       "callback": {
         "missing_installation_id": "Falta el ID de instalación",
         "connected": "GitHub se ha conectado correctamente"
+      },
+      "update": {
+        "invalid_main_branch_name": "El nombre de la rama principal debe ser un nombre de rama de Git válido de hasta %{max_length} caracteres y solo puede contener letras, números, puntos, guiones, guiones bajos y barras.",
+        "failed": "No hemos podido guardar la configuración de GitHub Syncer."
       }
     },
     "insiders": {
