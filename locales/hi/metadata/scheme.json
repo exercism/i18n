@@ -232,5 +232,7 @@
   "exercise:proverb:source": "Wikipedia",
   "exercise:house:name": "घर",
   "exercise:house:blurb": "बालगीत 'This is the House that Jack Built' का आउटपुट दीजिए।",
-  "exercise:house:source": "ब्रिटिश बालगीत"
+  "exercise:house:source": "ब्रिटिश बालगीत",
+  "exercise:connect:name": "कनेक्ट",
+  "exercise:connect:blurb": "Hex / Polygon के एक खेल का नतीजा निकालिए।"
 }

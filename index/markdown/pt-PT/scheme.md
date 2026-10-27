@@ -68,6 +68,11 @@ This page is generated from [the index](../../json/pt-PT/scheme.json) by `script
 - `instructions.append.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/collatz-conjecture/.docs/instructions.append.md)): [Latest](../../../locales/pt-PT/content/01/c1/a71a61e83ceb076601ad03431f447fe9ad4f.md)
 - `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/collatz-conjecture/.docs/introduction.md)): [Latest](../../../locales/pt-PT/content/c3/5b/deb67dceef4bf9769dbbf473e841cdd068f2.md)
 
+### Connect
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/connect/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/7f/34/bfa817f0d0c1d360892d0cbaaa1d5347b0cd.md)
+- `instructions.append.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/connect/.docs/instructions.append.md)): [Latest](../../../locales/pt-PT/content/d4/48/ab4ba1a08f757361f1c56216ed5fc87cea61.md)
+
 ### Crypto Square (Cifra Quadrada)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/crypto-square/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/6c/38/26ee558d8a2ef2b7d20a2b41f2eaf31ec5cd.md)

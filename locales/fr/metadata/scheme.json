@@ -232,5 +232,7 @@
   "exercise:proverb:source": "Wikipedia",
   "exercise:house:name": "La maison",
   "exercise:house:blurb": "Afficher la comptine « This is the House that Jack Built ».",
-  "exercise:house:source": "Comptine britannique."
+  "exercise:house:source": "Comptine britannique.",
+  "exercise:connect:name": "Connecte",
+  "exercise:connect:blurb": "Calcule le résultat d'une partie de Hex / Polygon."
 }

@@ -232,5 +232,7 @@
   "exercise:proverb:source": "Wikipedia",
   "exercise:house:name": "房子",
   "exercise:house:blurb": "输出童谣《This is the House that Jack Built》。",
-  "exercise:house:source": "英国童谣"
+  "exercise:house:source": "英国童谣",
+  "exercise:connect:name": "连线",
+  "exercise:connect:blurb": "计算一局 Hex / Polygon 游戏的结果。"
 }

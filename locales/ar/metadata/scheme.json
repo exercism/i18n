@@ -232,5 +232,7 @@
   "exercise:proverb:source": "ويكيبيديا",
   "exercise:house:name": "المنزل",
   "exercise:house:blurb": "أخرج أنشودة الأطفال 'This is the House that Jack Built'.",
-  "exercise:house:source": "أنشودة أطفال بريطانية"
+  "exercise:house:source": "أنشودة أطفال بريطانية",
+  "exercise:connect:name": "وصل",
+  "exercise:connect:blurb": "احسب نتيجة مباراة في لعبة Hex / Polygon."
 }

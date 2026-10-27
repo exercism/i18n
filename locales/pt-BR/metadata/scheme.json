@@ -232,5 +232,7 @@
   "exercise:proverb:source": "Wikipedia",
   "exercise:house:name": "Casa",
   "exercise:house:blurb": "Imprima a cantiga infantil 'This is the House that Jack Built'.",
-  "exercise:house:source": "Cantiga infantil britânica"
+  "exercise:house:source": "Cantiga infantil britânica",
+  "exercise:connect:name": "Conectar",
+  "exercise:connect:blurb": "Calcule o resultado de uma partida de Hex / Polygon."
 }

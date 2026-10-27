@@ -232,5 +232,7 @@
   "exercise:proverb:source": "Wikipedia",
   "exercise:house:name": "La casa",
   "exercise:house:blurb": "Stampa la filastrocca «This is the House that Jack Built».",
-  "exercise:house:source": "Filastrocca britannica"
+  "exercise:house:source": "Filastrocca britannica",
+  "exercise:connect:name": "Collega",
+  "exercise:connect:blurb": "Calcola il risultato di una partita a Hex / Polygon."
 }

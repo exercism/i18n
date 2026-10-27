@@ -232,5 +232,7 @@
   "exercise:proverb:source": "Wikipedia",
   "exercise:house:name": "Casa",
   "exercise:house:blurb": "Reproduz a rima infantil 'This is the House that Jack Built'.",
-  "exercise:house:source": "Rima infantil britânica"
+  "exercise:house:source": "Rima infantil britânica",
+  "exercise:connect:name": "Connect",
+  "exercise:connect:blurb": "Calcula o resultado de um jogo de Hex / Polygon."
 }

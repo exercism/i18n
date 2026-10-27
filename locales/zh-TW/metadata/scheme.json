@@ -232,5 +232,7 @@
   "exercise:proverb:source": "Wikipedia",
   "exercise:house:name": "房子",
   "exercise:house:blurb": "輸出童謠「This is the House that Jack Built」。",
-  "exercise:house:source": "英國童謠"
+  "exercise:house:source": "英國童謠",
+  "exercise:connect:name": "連線",
+  "exercise:connect:blurb": "計算一局 Hex / Polygon 的結果。"
 }

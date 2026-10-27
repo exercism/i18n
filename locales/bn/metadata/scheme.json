@@ -232,5 +232,7 @@
   "exercise:proverb:source": "Wikipedia",
   "exercise:house:name": "বাড়ি",
   "exercise:house:blurb": "'This is the House that Jack Built' ছড়াটি আউটপুট দিন।",
-  "exercise:house:source": "ব্রিটিশ ছড়া"
+  "exercise:house:source": "ব্রিটিশ ছড়া",
+  "exercise:connect:name": "কানেক্ট",
+  "exercise:connect:blurb": "Hex / Polygon খেলার ফলাফল গণনা করুন।"
 }

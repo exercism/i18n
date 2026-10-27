@@ -232,5 +232,7 @@
   "exercise:proverb:source": "Wikipedia",
   "exercise:house:name": "خانه",
   "exercise:house:blurb": "شعر کودکانه‌ی «This is the House that Jack Built» را چاپ کنید.",
-  "exercise:house:source": "شعر کودکانه‌ی بریتانیایی"
+  "exercise:house:source": "شعر کودکانه‌ی بریتانیایی",
+  "exercise:connect:name": "اتصال",
+  "exercise:connect:blurb": "نتیجه‌ی یک بازی Hex / Polygon را محاسبه کنید."
 }

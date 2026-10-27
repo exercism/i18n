@@ -232,5 +232,7 @@
   "exercise:proverb:source": "Wikipedia",
   "exercise:house:name": "Haus",
   "exercise:house:blurb": "Gib den Kinderreim 'This is the House that Jack Built' aus.",
-  "exercise:house:source": "Britischer Kinderreim"
+  "exercise:house:source": "Britischer Kinderreim",
+  "exercise:connect:name": "Verbinden",
+  "exercise:connect:blurb": "Berechne das Ergebnis einer Partie Hex / Polygon."
 }

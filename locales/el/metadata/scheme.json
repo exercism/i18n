@@ -232,5 +232,7 @@
   "exercise:proverb:source": "Wikipedia",
   "exercise:house:name": "Σπίτι",
   "exercise:house:blurb": "Εκτύπωσε το παιδικό τραγούδι \"This is the House that Jack Built\".",
-  "exercise:house:source": "Βρετανικό παιδικό τραγούδι"
+  "exercise:house:source": "Βρετανικό παιδικό τραγούδι",
+  "exercise:connect:name": "Connect",
+  "exercise:connect:blurb": "Υπολόγισε το αποτέλεσμα για ένα παιχνίδι Hex / Polygon."
 }

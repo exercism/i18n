@@ -232,5 +232,7 @@
   "exercise:proverb:source": "Wikipedia",
   "exercise:house:name": "La casa",
   "exercise:house:blurb": "Muestra la canción infantil «This is the House that Jack Built».",
-  "exercise:house:source": "Canción infantil británica"
+  "exercise:house:source": "Canción infantil británica",
+  "exercise:connect:name": "Connect",
+  "exercise:connect:blurb": "Calcula el resultado de una partida de Hex / Polygon."
 }

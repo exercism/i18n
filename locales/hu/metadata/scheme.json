@@ -232,5 +232,7 @@
   "exercise:proverb:source": "Wikipedia",
   "exercise:house:name": "Ház",
   "exercise:house:blurb": "Írd ki a „This is the House that Jack Built” mondókát.",
-  "exercise:house:source": "Brit mondóka"
+  "exercise:house:source": "Brit mondóka",
+  "exercise:connect:name": "Connect",
+  "exercise:connect:blurb": "Számítsd ki egy Hex / Polygon játék eredményét."
 }
