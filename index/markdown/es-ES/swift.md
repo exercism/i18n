@@ -514,7 +514,8 @@ This page is generated from [the index](../../json/es-ES/swift.json) by `scripts
 ### Expert Mixologist (Coctelero experto)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/expert-mixologist/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/d9/14/2c32b6e814bb2891908c4160e93b0204c02c.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/expert-mixologist/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/d1/03/c1bf80db5e295a35cfda1da9eab289e3c5a4.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/expert-mixologist/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/16/83/0b3d8d213842e6b6fbe44bf33c79c295010f.md)
+  - [`d103c1bf80`](../../../locales/es-ES/content/d1/03/c1bf80db5e295a35cfda1da9eab289e3c5a4.md)
   - [`ddbb0474bf`](../../../locales/es-ES/content/dd/bb/0474bfd79725c64d1232b62457788460f40e.md)
   - [`1a4fa35675`](../../../locales/es-ES/content/1a/4f/a35675609e2965b1143a0c76cc53a78d74be.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/expert-mixologist/.docs/hints.md)): [Latest](../../../locales/es-ES/content/67/39/d849a648f6c51e598906317968b33944e1ac.md)
@@ -644,17 +645,17 @@ This page is generated from [the index](../../json/es-ES/swift.json) by `scripts
 
 ### Conditionals Guard (Condicionales con guard)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals-guard/introduction.md)): [Latest](../../../locales/es-ES/content/fc/43/e48cc481e05cc559b9d81ad7f072158ba6c3.md)
-  - [`c039fab30c`](../../../locales/es-ES/content/c0/39/fab30c3316cbef75f0ff6acdf1c933dc834d.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals-guard/about.md)): [Latest](../../../locales/es-ES/content/fb/49/d6df56fb98d80d4a11e0b46342df36584ea5.md)
-  - [`a17a745979`](../../../locales/es-ES/content/a1/7a/7459795166fa056c4cda0641bd973ceba3d0.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals-guard/introduction.md)): [Latest](../../../locales/es-ES/content/c0/39/fab30c3316cbef75f0ff6acdf1c933dc834d.md)
+  - [`fc43e48cc4`](../../../locales/es-ES/content/fc/43/e48cc481e05cc559b9d81ad7f072158ba6c3.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals-guard/about.md)): [Latest](../../../locales/es-ES/content/a1/7a/7459795166fa056c4cda0641bd973ceba3d0.md)
+  - [`fb49d6df56`](../../../locales/es-ES/content/fb/49/d6df56fb98d80d4a11e0b46342df36584ea5.md)
 
 ### Conditionals Switch (Condicionales switch)
 
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals-switch/introduction.md)): [Latest](../../../locales/es-ES/content/ed/d2/b140135aa5ac4ef3a1f06f37c7b3e16f692f.md)
-  - [`59a512c5ce`](../../../locales/es-ES/content/59/a5/12c5ce4f0685ec29e91a6ece0dabb3b0d074.md)
-- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals-switch/about.md)): [Latest](../../../locales/es-ES/content/02/d2/5263488bc7f7b4bbea83a4d00c1cc6806a57.md)
-  - [`5ef35b2475`](../../../locales/es-ES/content/5e/f3/5b247502b3bc5ed06329633e8ac3036dfd07.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals-switch/introduction.md)): [Latest](../../../locales/es-ES/content/59/a5/12c5ce4f0685ec29e91a6ece0dabb3b0d074.md)
+  - [`edd2b14013`](../../../locales/es-ES/content/ed/d2/b140135aa5ac4ef3a1f06f37c7b3e16f692f.md)
+- `about.md` ([English](https://github.com/exercism/swift/blob/main/concepts/conditionals-switch/about.md)): [Latest](../../../locales/es-ES/content/5e/f3/5b247502b3bc5ed06329633e8ac3036dfd07.md)
+  - [`02d2526348`](../../../locales/es-ES/content/02/d2/5263488bc7f7b4bbea83a4d00c1cc6806a57.md)
 
 ### Control transfer (Transferencia de control)
 
