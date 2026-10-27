@@ -61,7 +61,8 @@
       "invalid_community_video_url": "ویدیویی از YouTube یا Vimeo متناسب با این URL پیدا نکردیم",
       "invalid_discussion_status": "وضعیت بحث نامعتبر است",
       "training_data_code_tags_sample_locked": "این نمونه‌ی برچسب‌های کد داده‌ی آموزشی توسط شخص دیگری قفل شده است.",
-      "could_not_generate_coupon_code": "کد تخفیف ساخته نشد"
+      "could_not_generate_coupon_code": "کد تخفیف ساخته نشد",
+      "invalid_filename": "یک یا چند مورد از نام فایل‌هایی که ارسال کرده‌اید معتبر نیست"
     }
   },
   "jiki": {

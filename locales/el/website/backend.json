@@ -61,7 +61,8 @@
       "invalid_community_video_url": "Δε μπορέσαμε να βρούμε βίντεο στο YouTube ή το Vimeo που να αντιστοιχεί σε αυτό το URL",
       "invalid_discussion_status": "Η κατάσταση της συζήτησης δεν είναι έγκυρη",
       "training_data_code_tags_sample_locked": "Αυτό το δείγμα ετικετών κώδικα για τα δεδομένα εκπαίδευσης είναι κλειδωμένο από κάποιον άλλο.",
-      "could_not_generate_coupon_code": "Δεν ήταν δυνατή η δημιουργία κωδικού κουπονιού"
+      "could_not_generate_coupon_code": "Δεν ήταν δυνατή η δημιουργία κωδικού κουπονιού",
+      "invalid_filename": "Ένα ή περισσότερα από τα ονόματα αρχείων που υπέβαλες δεν είναι έγκυρα"
     }
   },
   "devise": {

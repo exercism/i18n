@@ -61,7 +61,8 @@
       "invalid_community_video_url": "我们找不到与此 URL 匹配的 YouTube 或 Vimeo 视频",
       "invalid_discussion_status": "讨论状态无效",
       "training_data_code_tags_sample_locked": "这个训练数据代码标签样本已被他人锁定。",
-      "could_not_generate_coupon_code": "无法生成优惠码"
+      "could_not_generate_coupon_code": "无法生成优惠码",
+      "invalid_filename": "你提交的一个或多个文件名无效"
     }
   },
   "devise": {

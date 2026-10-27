@@ -61,7 +61,8 @@
       "invalid_community_video_url": "Non abbiamo trovato nessun video YouTube o Vimeo corrispondente a questo URL",
       "invalid_discussion_status": "Lo stato della discussione non è valido",
       "training_data_code_tags_sample_locked": "Questo esempio di tag di codice per i dati di addestramento è bloccato da qualcun altro.",
-      "could_not_generate_coupon_code": "Impossibile generare un codice coupon"
+      "could_not_generate_coupon_code": "Impossibile generare un codice coupon",
+      "invalid_filename": "Uno o più nomi di file che hai inviato non sono validi"
     }
   },
   "tracks": {

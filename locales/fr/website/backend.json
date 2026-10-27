@@ -61,7 +61,8 @@
       "invalid_community_video_url": "Nous n'avons pas trouvé de vidéo YouTube ou Vimeo correspondant à cette URL",
       "invalid_discussion_status": "Le statut de la discussion est invalide",
       "training_data_code_tags_sample_locked": "Cet échantillon de balises de code pour les données d'entraînement est verrouillé par quelqu'un d'autre.",
-      "could_not_generate_coupon_code": "Impossible de générer un code de réduction"
+      "could_not_generate_coupon_code": "Impossible de générer un code de réduction",
+      "invalid_filename": "Un ou plusieurs des noms de fichier que tu as soumis ne sont pas valides"
     }
   },
   "components": {

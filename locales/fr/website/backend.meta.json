@@ -245,6 +245,7 @@
     "api.errors.invalid_captcha": "c44247bed33c4f8f3f18e6dd7a4ef0d0250e00dd",
     "api.errors.invalid_community_video_url": "e19aa4bf95d652a8f6f991c92379cdf4a01e4d0a",
     "api.errors.invalid_discussion_status": "dc9098d5872ae20f479b618c0c639ce7992bdf36",
+    "api.errors.invalid_filename": "b8692f7fb4e5a8bfd2c16b592f70bc7db78ed370",
     "api.errors.invalid_locale": "42c7c3e93881cd32884e17b3eed684597830a3c0",
     "api.errors.invalid_mentor_student_relationship": "390f6e258a57601e0a74a3d24200774df2d552a3",
     "api.errors.invalid_signature": "ffe69722d0f98eddadbff93d2a9df94221555478",

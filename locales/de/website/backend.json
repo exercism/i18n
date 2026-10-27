@@ -61,7 +61,8 @@
       "invalid_community_video_url": "Wir konnten kein YouTube- oder Vimeo-Video zu dieser URL finden",
       "invalid_discussion_status": "Der Status der Diskussion ist ungültig",
       "training_data_code_tags_sample_locked": "Dieses Beispiel für Trainingsdaten-Code-Tags ist von jemand anderem gesperrt.",
-      "could_not_generate_coupon_code": "Gutscheincode konnte nicht generiert werden"
+      "could_not_generate_coupon_code": "Gutscheincode konnte nicht generiert werden",
+      "invalid_filename": "Mindestens einer der Dateinamen, die du eingereicht hast, ist ungültig"
     }
   },
   "devise": {

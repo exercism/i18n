@@ -61,7 +61,8 @@
       "invalid_community_video_url": "Не вдалося знайти відео на YouTube або Vimeo за цим посиланням",
       "invalid_discussion_status": "Неприпустимий статус обговорення",
       "training_data_code_tags_sample_locked": "Цей зразок тегів коду для навчальних даних заблокував хтось інший.",
-      "could_not_generate_coupon_code": "Не вдалося згенерувати код купона"
+      "could_not_generate_coupon_code": "Не вдалося згенерувати код купона",
+      "invalid_filename": "Одне або кілька надісланих імен файлів недійсні"
     }
   },
   "tracks": {

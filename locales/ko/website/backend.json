@@ -61,7 +61,8 @@
       "invalid_community_video_url": "이 URL과 일치하는 YouTube 또는 Vimeo 영상을 찾을 수 없어요",
       "invalid_discussion_status": "토론 상태가 올바르지 않아요",
       "training_data_code_tags_sample_locked": "이 훈련 데이터 코드 태그 샘플은 다른 사람이 이미 잠가 두었어요",
-      "could_not_generate_coupon_code": "쿠폰 코드를 생성할 수 없어요"
+      "could_not_generate_coupon_code": "쿠폰 코드를 생성할 수 없어요",
+      "invalid_filename": "제출한 파일 이름 중 하나 이상이 유효하지 않아요"
     }
   },
   "components": {

@@ -61,7 +61,8 @@
       "invalid_community_video_url": "我們找不到符合這個 URL 的 YouTube 或 Vimeo 影片",
       "invalid_discussion_status": "討論狀態無效",
       "training_data_code_tags_sample_locked": "這份訓練資料程式碼標籤樣本已被其他人鎖定。",
-      "could_not_generate_coupon_code": "無法產生優惠券代碼"
+      "could_not_generate_coupon_code": "無法產生優惠券代碼",
+      "invalid_filename": "你提交的檔案名稱中，有一個或多個無效。"
     }
   },
   "tracks": {

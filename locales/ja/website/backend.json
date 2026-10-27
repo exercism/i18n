@@ -61,7 +61,8 @@
       "invalid_community_video_url": "このURLに一致するYouTubeまたはVimeoの動画が見つかりませんでした",
       "invalid_discussion_status": "ディスカッションのステータスが無効です",
       "training_data_code_tags_sample_locked": "このトレーニングデータのコードタグサンプルは、他の人によってロックされています。",
-      "could_not_generate_coupon_code": "クーポンコードを生成できませんでした"
+      "could_not_generate_coupon_code": "クーポンコードを生成できませんでした",
+      "invalid_filename": "送信したファイル名の1つ以上が無効です"
     }
   },
   "components": {
