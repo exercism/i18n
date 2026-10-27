@@ -674,7 +674,7 @@
       },
       "no_test_runner": {
         "editor_unavailable_title": "Редактор недоступний.",
-        "test_runner_not_working_title": "Цей трек не можна розвʼязати в редакторі Exercism",
+        "test_runner_not_working_title": "Цей трек або цю вправу не можна розвʼязати в редакторі Exercism",
         "test_runner_not_working_description_html": "У цього треку ще немає робочого тест-раннера, тому редактор вимкнено. Ми працюємо над цим. Якщо є бажання допомогти, зазирніть у %{github_link} і перегляньте Issues.",
         "github_repo_link_text": "репозиторій на GitHub",
         "editor_unsupported_title": "Вибачте, цю вправу не можна розвʼязати в редакторі.",
