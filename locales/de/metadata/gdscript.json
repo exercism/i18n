@@ -222,5 +222,8 @@
   "exercise:nucleotide-count:source": "Das Problem Counting DNA Nucleotides bei Rosalind",
   "exercise:matrix:name": "Matrix",
   "exercise:matrix:blurb": "Gib für einen String, der eine Matrix aus Zahlen darstellt, die Zeilen und Spalten dieser Matrix zurück.",
-  "exercise:matrix:source": "Übung des JumpstartLab-Teams für Studierende der Turing School of Software and Design."
+  "exercise:matrix:source": "Übung des JumpstartLab-Teams für Studierende der Turing School of Software and Design.",
+  "exercise:linked-list:name": "Verkettete Liste",
+  "exercise:linked-list:blurb": "Implementiere eine doppelt verkettete Liste.",
+  "exercise:linked-list:source": "Klassisches Thema der Informatik"
 }

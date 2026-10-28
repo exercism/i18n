@@ -222,5 +222,8 @@
   "exercise:nucleotide-count:source": "RosalindのCounting DNA Nucleotides問題",
   "exercise:matrix:name": "行列",
   "exercise:matrix:blurb": "数値の行列を表す文字列が与えられたとき、その行列の行と列を返します。",
-  "exercise:matrix:source": "JumpstartLabチームによる、The Turing School of Software and Designの学生向けの演習"
+  "exercise:matrix:source": "JumpstartLabチームによる、The Turing School of Software and Designの学生向けの演習",
+  "exercise:linked-list:name": "連結リスト",
+  "exercise:linked-list:blurb": "双方向連結リストを実装します。",
+  "exercise:linked-list:source": "コンピューターサイエンスの定番のテーマ"
 }

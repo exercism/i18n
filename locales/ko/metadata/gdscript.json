@@ -222,5 +222,8 @@
   "exercise:nucleotide-count:source": "Rosalind의 Counting DNA Nucleotides 문제",
   "exercise:matrix:name": "행렬",
   "exercise:matrix:blurb": "숫자 행렬을 나타내는 문자열이 주어졌을 때, 그 행렬의 행과 열을 반환해요.",
-  "exercise:matrix:source": "JumpstartLab 팀이 The Turing School of Software and Design 학생들을 위해 만든 연습 문제예요."
+  "exercise:matrix:source": "JumpstartLab 팀이 The Turing School of Software and Design 학생들을 위해 만든 연습 문제예요.",
+  "exercise:linked-list:name": "연결 리스트",
+  "exercise:linked-list:blurb": "이중 연결 리스트를 구현해요.",
+  "exercise:linked-list:source": "고전적인 컴퓨터 과학 주제"
 }

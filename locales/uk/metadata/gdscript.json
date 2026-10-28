@@ -222,5 +222,8 @@
   "exercise:nucleotide-count:source": "Задача «Counting DNA Nucleotides» на Rosalind",
   "exercise:matrix:name": "Матриця",
   "exercise:matrix:blurb": "Дано рядок тексту (англ. string), який представляє матрицю чисел; поверніть рядки та стовпці цієї матриці.",
-  "exercise:matrix:source": "Вправа від команди JumpstartLab для студентів The Turing School of Software and Design."
+  "exercise:matrix:source": "Вправа від команди JumpstartLab для студентів The Turing School of Software and Design.",
+  "exercise:linked-list:name": "Звʼязаний список",
+  "exercise:linked-list:blurb": "Реалізуйте двобічно звʼязаний список.",
+  "exercise:linked-list:source": "Класична тема з інформатики"
 }

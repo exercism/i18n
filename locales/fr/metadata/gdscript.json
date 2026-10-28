@@ -222,5 +222,8 @@
   "exercise:nucleotide-count:source": "Le problème Counting DNA Nucleotides sur Rosalind",
   "exercise:matrix:name": "Matrice",
   "exercise:matrix:blurb": "Étant donné une chaîne de caractères représentant une matrice de nombres, renvoie les lignes et les colonnes de cette matrice.",
-  "exercise:matrix:source": "Exercice proposé par l'équipe JumpstartLab pour les étudiants de The Turing School of Software and Design."
+  "exercise:matrix:source": "Exercice proposé par l'équipe JumpstartLab pour les étudiants de The Turing School of Software and Design.",
+  "exercise:linked-list:name": "Liste chaînée",
+  "exercise:linked-list:blurb": "Implémente une liste doublement chaînée.",
+  "exercise:linked-list:source": "Un classique de l'informatique."
 }

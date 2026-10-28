@@ -222,5 +222,8 @@
   "exercise:nucleotide-count:source": "Rosalind 上的 Counting DNA Nucleotides 问题",
   "exercise:matrix:name": "矩阵",
   "exercise:matrix:blurb": "给定一个表示数字矩阵的字符串，返回该矩阵的行和列。",
-  "exercise:matrix:source": "由 JumpstartLab 团队为 The Turing School of Software and Design 的学生编写的练习。"
+  "exercise:matrix:source": "由 JumpstartLab 团队为 The Turing School of Software and Design 的学生编写的练习。",
+  "exercise:linked-list:name": "链表",
+  "exercise:linked-list:blurb": "实现一个双向链表。",
+  "exercise:linked-list:source": "经典的计算机科学主题"
 }

@@ -222,5 +222,8 @@
   "exercise:nucleotide-count:source": "مسئله‌ی Counting DNA Nucleotides در Rosalind",
   "exercise:matrix:name": "ماتریس",
   "exercise:matrix:blurb": "با داشتن رشته‌ای که یک ماتریس از اعداد را نشان می‌دهد، سطرها و ستون‌های آن ماتریس را برگردانید.",
-  "exercise:matrix:source": "تمرینی از تیم JumpstartLab برای دانشجویان The Turing School of Software and Design."
+  "exercise:matrix:source": "تمرینی از تیم JumpstartLab برای دانشجویان The Turing School of Software and Design.",
+  "exercise:linked-list:name": "لیست پیوندی",
+  "exercise:linked-list:blurb": "یک لیست پیوندی دوطرفه پیاده‌سازی کنید.",
+  "exercise:linked-list:source": "موضوعی کلاسیک در علوم کامپیوتر"
 }

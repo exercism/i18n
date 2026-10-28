@@ -222,5 +222,8 @@
   "exercise:nucleotide-count:source": "A Counting DNA Nucleotides feladat a Rosalindon",
   "exercise:matrix:name": "Mátrix",
   "exercise:matrix:blurb": "A számok mátrixát reprezentáló string alapján add vissza a mátrix sorait és oszlopait.",
-  "exercise:matrix:source": "Feladat a JumpstartLab csapatától a The Turing School of Software and Design tanulóinak."
+  "exercise:matrix:source": "Feladat a JumpstartLab csapatától a The Turing School of Software and Design tanulóinak.",
+  "exercise:linked-list:name": "Láncolt lista",
+  "exercise:linked-list:blurb": "Valósíts meg egy kétszeresen láncolt listát.",
+  "exercise:linked-list:source": "Klasszikus számítástudományi téma"
 }

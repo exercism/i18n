@@ -222,5 +222,8 @@
   "exercise:nucleotide-count:source": "Rosalind 上的 Counting DNA Nucleotides 問題",
   "exercise:matrix:name": "矩陣",
   "exercise:matrix:blurb": "給定一個代表數字矩陣的字串，回傳該矩陣的行與列。",
-  "exercise:matrix:source": "由 JumpstartLab 團隊為 The Turing School of Software and Design 的學生所設計的練習。"
+  "exercise:matrix:source": "由 JumpstartLab 團隊為 The Turing School of Software and Design 的學生所設計的練習。",
+  "exercise:linked-list:name": "連結串列",
+  "exercise:linked-list:blurb": "實作一個雙向連結串列。",
+  "exercise:linked-list:source": "經典的電腦科學主題"
 }

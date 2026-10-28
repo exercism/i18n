@@ -136,6 +136,11 @@ This page is generated from [the index](../../json/zh-CN/gdscript.json) by `scri
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/leap/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/b1/4f/8565d61694d7c20d78e10f966bd3deaaf748.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/leap/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/4f/fd/2da594a51072cb08a32004b217c1c988cfdc.md)
 
+### Linked List (链表)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/linked-list/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/ed/f4/055b38ca35950a3600fa268e267763b69a17.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/linked-list/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/6e/83/ae7b6e530aec64acc119d995eec9a678f228.md)
+
 ### Luhn
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/luhn/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/77/02/c6bbb5f849683e3074163e48ce1154ad2957.md)

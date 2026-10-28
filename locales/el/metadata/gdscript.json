@@ -222,5 +222,8 @@
   "exercise:nucleotide-count:source": "Το πρόβλημα Counting DNA Nucleotides στο Rosalind",
   "exercise:matrix:name": "Πίνακας",
   "exercise:matrix:blurb": "Με δεδομένη μια συμβολοσειρά που αναπαριστά έναν πίνακα αριθμών, επέστρεψε τις γραμμές και τις στήλες αυτού του πίνακα.",
-  "exercise:matrix:source": "Άσκηση από την ομάδα JumpstartLab για τους σπουδαστές του The Turing School of Software and Design."
+  "exercise:matrix:source": "Άσκηση από την ομάδα JumpstartLab για τους σπουδαστές του The Turing School of Software and Design.",
+  "exercise:linked-list:name": "Συνδεδεμένη λίστα",
+  "exercise:linked-list:blurb": "Υλοποίησε μια διπλά συνδεδεμένη λίστα.",
+  "exercise:linked-list:source": "Κλασικό θέμα επιστήμης υπολογιστών"
 }

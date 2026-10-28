@@ -222,5 +222,8 @@
   "exercise:nucleotide-count:source": "Rosalind की Counting DNA Nucleotides समस्या",
   "exercise:matrix:name": "मैट्रिक्स",
   "exercise:matrix:blurb": "संख्याओं के मैट्रिक्स को दर्शाने वाली एक स्ट्रिंग दी गई है; उस मैट्रिक्स की पंक्तियाँ और स्तंभ लौटाइए।",
-  "exercise:matrix:source": "JumpstartLab टीम द्वारा The Turing School of Software and Design के छात्रों के लिए बनाया गया अभ्यास।"
+  "exercise:matrix:source": "JumpstartLab टीम द्वारा The Turing School of Software and Design के छात्रों के लिए बनाया गया अभ्यास।",
+  "exercise:linked-list:name": "लिंक्ड लिस्ट",
+  "exercise:linked-list:blurb": "एक डबल लिंक्ड लिस्ट बनाइए।",
+  "exercise:linked-list:source": "कंप्यूटर विज्ञान का एक क्लासिक विषय"
 }

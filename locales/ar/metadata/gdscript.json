@@ -222,5 +222,8 @@
   "exercise:nucleotide-count:source": "مسألة عدّ نوكليوتيدات DNA في Rosalind",
   "exercise:matrix:name": "المصفوفة",
   "exercise:matrix:blurb": "بمعطى سلسلة نصية تمثل مصفوفة أعداد، أرجِع صفوف تلك المصفوفة وأعمدتها.",
-  "exercise:matrix:source": "تمرين من فريق JumpstartLab لطلاب The Turing School of Software and Design."
+  "exercise:matrix:source": "تمرين من فريق JumpstartLab لطلاب The Turing School of Software and Design.",
+  "exercise:linked-list:name": "القائمة المترابطة",
+  "exercise:linked-list:blurb": "نفّذ قائمة مترابطة مزدوجة.",
+  "exercise:linked-list:source": "موضوع كلاسيكي في علوم الحاسوب"
 }
