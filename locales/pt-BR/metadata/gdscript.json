@@ -219,5 +219,8 @@
   "exercise:all-your-base:blurb": "Converta um número, representado como uma sequência de dígitos em uma base, para qualquer outra base.",
   "exercise:nucleotide-count:name": "Contagem de Nucleotídeos",
   "exercise:nucleotide-count:blurb": "Dada uma string de DNA, calcule quantas vezes cada nucleotídeo aparece nela.",
-  "exercise:nucleotide-count:source": "O problema Counting DNA Nucleotides no Rosalind"
+  "exercise:nucleotide-count:source": "O problema Counting DNA Nucleotides no Rosalind",
+  "exercise:matrix:name": "Matriz",
+  "exercise:matrix:blurb": "Dada uma string que representa uma matriz de números, retorne as linhas e as colunas dessa matriz.",
+  "exercise:matrix:source": "Exercício da equipe JumpstartLab para estudantes da Turing School of Software and Design."
 }

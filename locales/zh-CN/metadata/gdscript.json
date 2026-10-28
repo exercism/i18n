@@ -219,5 +219,8 @@
   "exercise:all-your-base:blurb": "把一个用某种进制的数字序列表示的数转换成任意其他进制。",
   "exercise:nucleotide-count:name": "核苷酸计数",
   "exercise:nucleotide-count:blurb": "给定一个 DNA 字符串，统计字符串中每种核苷酸出现的次数。",
-  "exercise:nucleotide-count:source": "Rosalind 上的 Counting DNA Nucleotides 问题"
+  "exercise:nucleotide-count:source": "Rosalind 上的 Counting DNA Nucleotides 问题",
+  "exercise:matrix:name": "矩阵",
+  "exercise:matrix:blurb": "给定一个表示数字矩阵的字符串，返回该矩阵的行和列。",
+  "exercise:matrix:source": "由 JumpstartLab 团队为 The Turing School of Software and Design 的学生编写的练习。"
 }

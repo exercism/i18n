@@ -219,5 +219,8 @@
   "exercise:all-your-base:blurb": "حوّل عددًا، ممثَّلًا كتسلسل من الأرقام في أساس ما، إلى أي أساس آخر.",
   "exercise:nucleotide-count:name": "عدّ النوكليوتيدات",
   "exercise:nucleotide-count:blurb": "بالنظر إلى سلسلة نصية من DNA، احسب عدد مرات ظهور كل نوكليوتيدة فيها.",
-  "exercise:nucleotide-count:source": "مسألة عدّ نوكليوتيدات DNA في Rosalind"
+  "exercise:nucleotide-count:source": "مسألة عدّ نوكليوتيدات DNA في Rosalind",
+  "exercise:matrix:name": "المصفوفة",
+  "exercise:matrix:blurb": "بمعطى سلسلة نصية تمثل مصفوفة أعداد، أرجِع صفوف تلك المصفوفة وأعمدتها.",
+  "exercise:matrix:source": "تمرين من فريق JumpstartLab لطلاب The Turing School of Software and Design."
 }

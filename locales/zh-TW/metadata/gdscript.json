@@ -219,5 +219,8 @@
   "exercise:all-your-base:blurb": "將以某個進位的一串數字所表示的數，轉換成任意其他進位。",
   "exercise:nucleotide-count:name": "核苷酸計數",
   "exercise:nucleotide-count:blurb": "給定一段 DNA 字串，計算每個核苷酸在字串中出現的次數。",
-  "exercise:nucleotide-count:source": "Rosalind 上的 Counting DNA Nucleotides 問題"
+  "exercise:nucleotide-count:source": "Rosalind 上的 Counting DNA Nucleotides 問題",
+  "exercise:matrix:name": "矩陣",
+  "exercise:matrix:blurb": "給定一個代表數字矩陣的字串，回傳該矩陣的行與列。",
+  "exercise:matrix:source": "由 JumpstartLab 團隊為 The Turing School of Software and Design 的學生所設計的練習。"
 }

@@ -219,5 +219,8 @@
   "exercise:all-your-base:blurb": "Alakíts át egy számot, amely egy adott számrendszer számjegyeinek sorozataként áll elő, bármely más számrendszerbe.",
   "exercise:nucleotide-count:name": "Nukleotidszámlálás",
   "exercise:nucleotide-count:blurb": "Adott egy DNS-string, számold ki, hogy az egyes nukleotidok hányszor fordulnak elő benne.",
-  "exercise:nucleotide-count:source": "A Counting DNA Nucleotides feladat a Rosalindon"
+  "exercise:nucleotide-count:source": "A Counting DNA Nucleotides feladat a Rosalindon",
+  "exercise:matrix:name": "Mátrix",
+  "exercise:matrix:blurb": "A számok mátrixát reprezentáló string alapján add vissza a mátrix sorait és oszlopait.",
+  "exercise:matrix:source": "Feladat a JumpstartLab csapatától a The Turing School of Software and Design tanulóinak."
 }

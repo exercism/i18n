@@ -219,5 +219,8 @@
   "exercise:all-your-base:blurb": "Wandle eine Zahl, die als Ziffernfolge in einer Basis dargestellt ist, in eine beliebige andere Basis um.",
   "exercise:nucleotide-count:name": "Nukleotidzählung",
   "exercise:nucleotide-count:blurb": "Bestimme für einen DNA-String, wie oft jedes Nukleotid darin vorkommt.",
-  "exercise:nucleotide-count:source": "Das Problem Counting DNA Nucleotides bei Rosalind"
+  "exercise:nucleotide-count:source": "Das Problem Counting DNA Nucleotides bei Rosalind",
+  "exercise:matrix:name": "Matrix",
+  "exercise:matrix:blurb": "Gib für einen String, der eine Matrix aus Zahlen darstellt, die Zeilen und Spalten dieser Matrix zurück.",
+  "exercise:matrix:source": "Übung des JumpstartLab-Teams für Studierende der Turing School of Software and Design."
 }

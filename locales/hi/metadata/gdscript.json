@@ -219,5 +219,8 @@
   "exercise:all-your-base:blurb": "एक आधार में अंकों के क्रम के रूप में दी गई संख्या को किसी भी दूसरे आधार में बदलिए।",
   "exercise:nucleotide-count:name": "न्यूक्लियोटाइड गणना",
   "exercise:nucleotide-count:blurb": "एक DNA स्ट्रिंग दी गई है; पता कीजिए कि उसमें हर न्यूक्लियोटाइड कितनी बार आता है।",
-  "exercise:nucleotide-count:source": "Rosalind की Counting DNA Nucleotides समस्या"
+  "exercise:nucleotide-count:source": "Rosalind की Counting DNA Nucleotides समस्या",
+  "exercise:matrix:name": "मैट्रिक्स",
+  "exercise:matrix:blurb": "संख्याओं के मैट्रिक्स को दर्शाने वाली एक स्ट्रिंग दी गई है; उस मैट्रिक्स की पंक्तियाँ और स्तंभ लौटाइए।",
+  "exercise:matrix:source": "JumpstartLab टीम द्वारा The Turing School of Software and Design के छात्रों के लिए बनाया गया अभ्यास।"
 }

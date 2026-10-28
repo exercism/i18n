@@ -146,6 +146,10 @@ This page is generated from [the index](../../json/es-419/gdscript.json) by `scr
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/matching-brackets/.docs/instructions.md)): [Latest](../../../locales/es-419/content/ea/17/0842326b8639a4d921462397a601ec5c9f4c.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/matching-brackets/.docs/introduction.md)): [Latest](../../../locales/es-419/content/06/18/221b21efeaba2463792b44635639e410ddd8.md)
 
+### Matrix (Matriz)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/matrix/.docs/instructions.md)): [Latest](../../../locales/es-419/content/da/de/a8acb59fba30ed9676608619dd52a12c6826.md)
+
 ### Nth Prime (Enésimo primo)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/nth-prime/.docs/instructions.md)): [Latest](../../../locales/es-419/content/06/5e/323ab2ca1bcfdd97c52d8051605b4872f94a.md)

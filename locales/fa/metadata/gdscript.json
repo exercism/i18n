@@ -219,5 +219,8 @@
   "exercise:all-your-base:blurb": "عددی را که به‌صورت دنباله‌ای از رقم‌ها در یک پایه نمایش داده می‌شود، به هر پایه‌ی دیگری تبدیل کنید.",
   "exercise:nucleotide-count:name": "شمارش نوکلئوتید",
   "exercise:nucleotide-count:blurb": "با داشتن یک رشته‌ی DNA حساب کنید هر نوکلئوتید چند بار در رشته ظاهر می‌شود.",
-  "exercise:nucleotide-count:source": "مسئله‌ی Counting DNA Nucleotides در Rosalind"
+  "exercise:nucleotide-count:source": "مسئله‌ی Counting DNA Nucleotides در Rosalind",
+  "exercise:matrix:name": "ماتریس",
+  "exercise:matrix:blurb": "با داشتن رشته‌ای که یک ماتریس از اعداد را نشان می‌دهد، سطرها و ستون‌های آن ماتریس را برگردانید.",
+  "exercise:matrix:source": "تمرینی از تیم JumpstartLab برای دانشجویان The Turing School of Software and Design."
 }

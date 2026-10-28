@@ -219,5 +219,8 @@
   "exercise:all-your-base:blurb": "Μετέτρεψε έναν αριθμό, που αναπαρίσταται ως ακολουθία ψηφίων σε μια βάση, σε οποιαδήποτε άλλη βάση.",
   "exercise:nucleotide-count:name": "Καταμέτρηση νουκλεοτιδίων",
   "exercise:nucleotide-count:blurb": "Με δεδομένη μια συμβολοσειρά DNA, υπολόγισε πόσες φορές εμφανίζεται κάθε νουκλεοτίδιο στη συμβολοσειρά.",
-  "exercise:nucleotide-count:source": "Το πρόβλημα Counting DNA Nucleotides στο Rosalind"
+  "exercise:nucleotide-count:source": "Το πρόβλημα Counting DNA Nucleotides στο Rosalind",
+  "exercise:matrix:name": "Πίνακας",
+  "exercise:matrix:blurb": "Με δεδομένη μια συμβολοσειρά που αναπαριστά έναν πίνακα αριθμών, επέστρεψε τις γραμμές και τις στήλες αυτού του πίνακα.",
+  "exercise:matrix:source": "Άσκηση από την ομάδα JumpstartLab για τους σπουδαστές του The Turing School of Software and Design."
 }
