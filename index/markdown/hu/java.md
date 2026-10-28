@@ -430,7 +430,7 @@ This page is generated from [the index](../../json/hu/java.json) by `scripts/bui
 - `instructions.md` ([English](https://github.com/exercism/java/blob/main/exercises/practice/palindrome-products/.docs/instructions.md)): [Latest](../../../locales/hu/content/aa/c6/6521ce736be8ce737ea709a5b1eed507cbb8.md)
   - [`fd9a441247`](../../../locales/hu/content/fd/9a/441247b65a9a8604f6ef581df4b1054a1fad.md)
 
-### Pangram
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/java/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
   - [`d5698bc2a2`](../../../locales/hu/content/d5/69/8bc2a292baf2fb128de3543b748165088c4f.md)
@@ -800,7 +800,8 @@ This page is generated from [the index](../../json/hu/java.json) by `scripts/bui
 
 ### Calculator Conundrum (A számológép rejtélye)
 
-- `instructions.md` ([English](https://github.com/exercism/java/blob/main/exercises/concept/calculator-conundrum/.docs/instructions.md)): [Latest](../../../locales/hu/content/5c/c8/022de200743f85f7ffd1dc1cac6cad8f7766.md)
+- `instructions.md` ([English](https://github.com/exercism/java/blob/main/exercises/concept/calculator-conundrum/.docs/instructions.md)): [Latest](../../../locales/hu/content/66/35/b066d9b311b44fd960da4579c229167bf3d1.md)
+  - [`5cc8022de2`](../../../locales/hu/content/5c/c8/022de200743f85f7ffd1dc1cac6cad8f7766.md)
 - `introduction.md` ([English](https://github.com/exercism/java/blob/main/exercises/concept/calculator-conundrum/.docs/introduction.md)): [Latest](../../../locales/hu/content/49/10/3a29752977d61f7da029d035b03e8be868dd.md)
 - `hints.md` ([English](https://github.com/exercism/java/blob/main/exercises/concept/calculator-conundrum/.docs/hints.md)): [Latest](../../../locales/hu/content/20/3e/bae6c59692de795cf61df5c352299ceecc47.md)
 

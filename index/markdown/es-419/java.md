@@ -694,7 +694,8 @@ This page is generated from [the index](../../json/es-419/java.json) by `scripts
 
 ### Calculator Conundrum (El enigma de la calculadora)
 
-- `instructions.md` ([English](https://github.com/exercism/java/blob/main/exercises/concept/calculator-conundrum/.docs/instructions.md)): [Latest](../../../locales/es-419/content/5c/c8/022de200743f85f7ffd1dc1cac6cad8f7766.md)
+- `instructions.md` ([English](https://github.com/exercism/java/blob/main/exercises/concept/calculator-conundrum/.docs/instructions.md)): [Latest](../../../locales/es-419/content/66/35/b066d9b311b44fd960da4579c229167bf3d1.md)
+  - [`5cc8022de2`](../../../locales/es-419/content/5c/c8/022de200743f85f7ffd1dc1cac6cad8f7766.md)
 - `introduction.md` ([English](https://github.com/exercism/java/blob/main/exercises/concept/calculator-conundrum/.docs/introduction.md)): [Latest](../../../locales/es-419/content/49/10/3a29752977d61f7da029d035b03e8be868dd.md)
 - `hints.md` ([English](https://github.com/exercism/java/blob/main/exercises/concept/calculator-conundrum/.docs/hints.md)): [Latest](../../../locales/es-419/content/20/3e/bae6c59692de795cf61df5c352299ceecc47.md)
 
