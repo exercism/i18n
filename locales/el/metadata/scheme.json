@@ -237,5 +237,8 @@
   "exercise:connect:blurb": "Υπολόγισε το αποτέλεσμα για ένα παιχνίδι Hex / Polygon.",
   "exercise:secret-handshake:name": "Μυστική χειραψία",
   "exercise:secret-handshake:blurb": "Με δεδομένο έναν δεκαδικό αριθμό, μετέτρεψέ τον στην κατάλληλη ακολουθία γεγονότων για μια μυστική χειραψία.",
-  "exercise:secret-handshake:source": "Ο Bert, στη Mary Poppins"
+  "exercise:secret-handshake:source": "Ο Bert, στη Mary Poppins",
+  "exercise:food-chain:name": "Τροφική Αλυσίδα",
+  "exercise:food-chain:blurb": "Δημιούργησε τους στίχους του τραγουδιού \"I Know an Old Lady Who Swallowed a Fly\".",
+  "exercise:food-chain:source": "Wikipedia"
 }

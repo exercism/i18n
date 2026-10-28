@@ -237,5 +237,8 @@
   "exercise:connect:blurb": "Calcule le résultat d'une partie de Hex / Polygon.",
   "exercise:secret-handshake:name": "Poignée de main secrète",
   "exercise:secret-handshake:blurb": "À partir d'un nombre décimal, convertis-le en la séquence d'événements appropriée pour une poignée de main secrète.",
-  "exercise:secret-handshake:source": "Bert, dans Mary Poppins"
+  "exercise:secret-handshake:source": "Bert, dans Mary Poppins",
+  "exercise:food-chain:name": "Chaîne alimentaire",
+  "exercise:food-chain:blurb": "Génère les paroles de la chanson « I Know an Old Lady Who Swallowed a Fly ».",
+  "exercise:food-chain:source": "Wikipedia"
 }

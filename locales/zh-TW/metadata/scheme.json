@@ -237,5 +237,8 @@
   "exercise:connect:blurb": "計算一局 Hex / Polygon 的結果。",
   "exercise:secret-handshake:name": "祕密握手",
   "exercise:secret-handshake:blurb": "給定一個十進位數字，將它轉換成祕密握手對應的事件序列。",
-  "exercise:secret-handshake:source": "Mary Poppins 裡的 Bert"
+  "exercise:secret-handshake:source": "Mary Poppins 裡的 Bert",
+  "exercise:food-chain:name": "食物鏈",
+  "exercise:food-chain:blurb": "生成歌曲「I Know an Old Lady Who Swallowed a Fly」的歌詞。",
+  "exercise:food-chain:source": "Wikipedia"
 }

@@ -237,5 +237,8 @@
   "exercise:connect:blurb": "Hex / Polygonの対戦結果を計算します。",
   "exercise:secret-handshake:name": "秘密の握手",
   "exercise:secret-handshake:blurb": "10進数が与えられたとき、それを秘密の握手のための適切なイベントの並びに変換します。",
-  "exercise:secret-handshake:source": "Mary PoppinsのBert"
+  "exercise:secret-handshake:source": "Mary PoppinsのBert",
+  "exercise:food-chain:name": "食物連鎖",
+  "exercise:food-chain:blurb": "『I Know an Old Lady Who Swallowed a Fly』という歌の歌詞を生成します。",
+  "exercise:food-chain:source": "Wikipedia"
 }

@@ -237,5 +237,8 @@
   "exercise:connect:blurb": "Обчисліть результат гри в Hex / Polygon.",
   "exercise:secret-handshake:name": "Таємне рукостискання",
   "exercise:secret-handshake:blurb": "Дано десяткове число, перетворіть його на відповідну послідовність подій для таємного рукостискання.",
-  "exercise:secret-handshake:source": "Берт, у Mary Poppins"
+  "exercise:secret-handshake:source": "Берт, у Mary Poppins",
+  "exercise:food-chain:name": "Харчовий ланцюг",
+  "exercise:food-chain:blurb": "Згенеруйте слова пісні «I Know an Old Lady Who Swallowed a Fly».",
+  "exercise:food-chain:source": "Wikipedia"
 }

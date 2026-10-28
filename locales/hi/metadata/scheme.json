@@ -237,5 +237,8 @@
   "exercise:connect:blurb": "Hex / Polygon के एक खेल का नतीजा निकालिए।",
   "exercise:secret-handshake:name": "गुप्त हाथ मिलाना",
   "exercise:secret-handshake:blurb": "एक दशमलव संख्या दी गई है; उसे गुप्त हाथ मिलाने की घटनाओं के उचित क्रम में बदलिए।",
-  "exercise:secret-handshake:source": "Mary Poppins में Bert"
+  "exercise:secret-handshake:source": "Mary Poppins में Bert",
+  "exercise:food-chain:name": "खाद्य श्रृंखला",
+  "exercise:food-chain:blurb": "गीत 'I Know an Old Lady Who Swallowed a Fly' के बोल बनाइए।",
+  "exercise:food-chain:source": "Wikipedia"
 }

@@ -237,5 +237,8 @@
   "exercise:connect:blurb": "Hex / Polygon খেলার ফলাফল গণনা করুন।",
   "exercise:secret-handshake:name": "গোপন হ্যান্ডশেক",
   "exercise:secret-handshake:blurb": "একটি দশমিক সংখ্যা দেওয়া থাকলে সেটিকে গোপন হ্যান্ডশেকের উপযুক্ত ঘটনাক্রমে রূপান্তর করুন।",
-  "exercise:secret-handshake:source": "Mary Poppins-এর Bert."
+  "exercise:secret-handshake:source": "Mary Poppins-এর Bert.",
+  "exercise:food-chain:name": "খাদ্য শৃঙ্খল",
+  "exercise:food-chain:blurb": "'I Know an Old Lady Who Swallowed a Fly' গানটির লিরিক তৈরি করুন।",
+  "exercise:food-chain:source": "Wikipedia"
 }

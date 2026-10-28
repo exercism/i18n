@@ -99,6 +99,10 @@ This page is generated from [the index](../../json/ja/scheme.json) by `scripts/b
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/flower-field/.docs/instructions.md)): [Latest](../../../locales/ja/content/bb/da/e0c2cb1fa4a25852a885a02a4f42b9b677e7.md)
 - `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/flower-field/.docs/introduction.md)): [Latest](../../../locales/ja/content/af/9b/6153617f87f5d4e8ce3ab55e4aa805a21a04.md)
 
+### Food Chain (食物連鎖)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/food-chain/.docs/instructions.md)): [Latest](../../../locales/ja/content/12/58/20e321bd07292c3a17dc8b57a7a2cff09245.md)
+
 ### Forth
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/forth/.docs/instructions.md)): [Latest](../../../locales/ja/content/91/ad/26e6e9cbd2d45e452071e2daf79156cd7186.md)
