@@ -418,7 +418,7 @@ This page is generated from [the index](../../json/hu/fsharp.json) by `scripts/b
   - [`fd9a441247`](../../../locales/hu/content/fd/9a/441247b65a9a8604f6ef581df4b1054a1fad.md)
 - `instructions.append.md` ([English](https://github.com/exercism/fsharp/blob/main/exercises/practice/palindrome-products/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/61/b2/92fb49801ea28981fddb972cb319e4e15236.md)
 
-### Pangram
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/fsharp/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
   - [`d5698bc2a2`](../../../locales/hu/content/d5/69/8bc2a292baf2fb128de3543b748165088c4f.md)
@@ -801,7 +801,8 @@ This page is generated from [the index](../../json/hu/fsharp.json) by `scripts/b
 
 ### Improved Password Checker (Továbbfejlesztett jelszóellenőrző)
 
-- `instructions.md` ([English](https://github.com/exercism/fsharp/blob/main/exercises/concept/improved-password-checker/.docs/instructions.md)): [Latest](../../../locales/hu/content/0a/5f/41cb22b3bb3c9440d235536d60413b7f4b9a.md)
+- `instructions.md` ([English](https://github.com/exercism/fsharp/blob/main/exercises/concept/improved-password-checker/.docs/instructions.md)): [Latest](../../../locales/hu/content/47/78/418693c652f15dfa83ad97d6d83391f08578.md)
+  - [`0a5f41cb22`](../../../locales/hu/content/0a/5f/41cb22b3bb3c9440d235536d60413b7f4b9a.md)
 - `introduction.md` ([English](https://github.com/exercism/fsharp/blob/main/exercises/concept/improved-password-checker/.docs/introduction.md)): [Latest](../../../locales/hu/content/c3/c9/c8bdf9107917884acfad70f98e6adc8844f6.md)
 - `hints.md` ([English](https://github.com/exercism/fsharp/blob/main/exercises/concept/improved-password-checker/.docs/hints.md)): [Latest](../../../locales/hu/content/e6/9d/e29bb2d1d6434b8b29ae775ad8c2e48c5391.md)
 

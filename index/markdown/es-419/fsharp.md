@@ -684,7 +684,8 @@ This page is generated from [the index](../../json/es-419/fsharp.json) by `scrip
 
 ### Improved Password Checker (Verificador de contraseñas mejorado)
 
-- `instructions.md` ([English](https://github.com/exercism/fsharp/blob/main/exercises/concept/improved-password-checker/.docs/instructions.md)): [Latest](../../../locales/es-419/content/0a/5f/41cb22b3bb3c9440d235536d60413b7f4b9a.md)
+- `instructions.md` ([English](https://github.com/exercism/fsharp/blob/main/exercises/concept/improved-password-checker/.docs/instructions.md)): [Latest](../../../locales/es-419/content/47/78/418693c652f15dfa83ad97d6d83391f08578.md)
+  - [`0a5f41cb22`](../../../locales/es-419/content/0a/5f/41cb22b3bb3c9440d235536d60413b7f4b9a.md)
 - `introduction.md` ([English](https://github.com/exercism/fsharp/blob/main/exercises/concept/improved-password-checker/.docs/introduction.md)): [Latest](../../../locales/es-419/content/c3/c9/c8bdf9107917884acfad70f98e6adc8844f6.md)
 - `hints.md` ([English](https://github.com/exercism/fsharp/blob/main/exercises/concept/improved-password-checker/.docs/hints.md)): [Latest](../../../locales/es-419/content/e6/9d/e29bb2d1d6434b8b29ae775ad8c2e48c5391.md)
 
