@@ -138,5 +138,7 @@
   "exercise:anagram:blurb": "Encontre as palavras que usam as mesmas letras que outra palavra.",
   "exercise:anagram:source": "Inspirado no jogo Extreme Startup",
   "exercise:all-your-base:name": "All Your Base",
-  "exercise:all-your-base:blurb": "Converta um número, representado como uma sequência de dígitos em uma base, para qualquer outra base."
+  "exercise:all-your-base:blurb": "Converta um número, representado como uma sequência de dígitos em uma base, para qualquer outra base.",
+  "exercise:flower-field:name": "Campo de flores",
+  "exercise:flower-field:blurb": "Marque todas as flores de um jardim."
 }

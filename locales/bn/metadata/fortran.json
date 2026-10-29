@@ -138,5 +138,7 @@
   "exercise:anagram:blurb": "অন্য একটি শব্দের মতো একই অক্ষর ব্যবহার করে এমন শব্দগুলো খুঁজে বের করুন।",
   "exercise:anagram:source": "Extreme Startup গেম থেকে অনুপ্রাণিত",
   "exercise:all-your-base:name": "অল ইওর বেস",
-  "exercise:all-your-base:blurb": "একটি বেসে অঙ্কের ক্রম হিসেবে লেখা একটি সংখ্যাকে যেকোনো অন্য বেসে রূপান্তর করুন।"
+  "exercise:all-your-base:blurb": "একটি বেসে অঙ্কের ক্রম হিসেবে লেখা একটি সংখ্যাকে যেকোনো অন্য বেসে রূপান্তর করুন।",
+  "exercise:flower-field:name": "ফুলের ক্ষেত",
+  "exercise:flower-field:blurb": "একটি বাগানের সব ফুল চিহ্নিত করুন।"
 }

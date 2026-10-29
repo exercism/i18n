@@ -138,5 +138,7 @@
   "exercise:anagram:blurb": "Finde die Wörter, die dieselben Buchstaben wie ein anderes Wort verwenden.",
   "exercise:anagram:source": "Inspiriert vom Spiel Extreme Startup",
   "exercise:all-your-base:name": "All Your Base",
-  "exercise:all-your-base:blurb": "Wandle eine Zahl, die als Ziffernfolge in einer Basis dargestellt ist, in eine beliebige andere Basis um."
+  "exercise:all-your-base:blurb": "Wandle eine Zahl, die als Ziffernfolge in einer Basis dargestellt ist, in eine beliebige andere Basis um.",
+  "exercise:flower-field:name": "Blumenfeld",
+  "exercise:flower-field:blurb": "Markiere alle Blumen in einem Garten."
 }

@@ -138,5 +138,7 @@
   "exercise:anagram:blurb": "找出與另一個詞使用相同字母的詞。",
   "exercise:anagram:source": "靈感來自 Extreme Startup 這款遊戲",
   "exercise:all-your-base:name": "All Your Base",
-  "exercise:all-your-base:blurb": "將以某個進位的一串數字所表示的數，轉換成任意其他進位。"
+  "exercise:all-your-base:blurb": "將以某個進位的一串數字所表示的數，轉換成任意其他進位。",
+  "exercise:flower-field:name": "花田",
+  "exercise:flower-field:blurb": "標出花園裡所有的花。"
 }

@@ -138,5 +138,7 @@
   "exercise:anagram:blurb": "別の単語と同じ文字を使う単語を見つけてください。",
   "exercise:anagram:source": "Extreme Startupゲームに着想を得たもの",
   "exercise:all-your-base:name": "All Your Base",
-  "exercise:all-your-base:blurb": "ある基数の桁の並びとして表された数値を、別の基数に変換してください。"
+  "exercise:all-your-base:blurb": "ある基数の桁の並びとして表された数値を、別の基数に変換してください。",
+  "exercise:flower-field:name": "花畑",
+  "exercise:flower-field:blurb": "庭にあるすべての花に印を付けます。"
 }

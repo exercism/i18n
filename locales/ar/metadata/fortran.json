@@ -138,5 +138,7 @@
   "exercise:anagram:blurb": "ابحث عن الكلمات التي تتكوّن من الحروف نفسها التي تتكوّن منها كلمة أخرى.",
   "exercise:anagram:source": "مستوحى من لعبة Extreme Startup",
   "exercise:all-your-base:name": "All Your Base",
-  "exercise:all-your-base:blurb": "حوّل عددًا، ممثَّلًا كتسلسل من الأرقام في أساس ما، إلى أي أساس آخر."
+  "exercise:all-your-base:blurb": "حوّل عددًا، ممثَّلًا كتسلسل من الأرقام في أساس ما، إلى أي أساس آخر.",
+  "exercise:flower-field:name": "حقل الأزهار",
+  "exercise:flower-field:blurb": "حدّد كل الأزهار في حديقة."
 }

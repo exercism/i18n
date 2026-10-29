@@ -138,5 +138,7 @@
   "exercise:anagram:blurb": "어떤 단어와 같은 글자를 사용하는 단어들을 찾아요.",
   "exercise:anagram:source": "Extreme Startup 게임에서 영감을 받았어요.",
   "exercise:all-your-base:name": "All Your Base",
-  "exercise:all-your-base:blurb": "어떤 진법에서 숫자 열로 표현된 수를 다른 진법으로 변환해요."
+  "exercise:all-your-base:blurb": "어떤 진법에서 숫자 열로 표현된 수를 다른 진법으로 변환해요.",
+  "exercise:flower-field:name": "꽃밭",
+  "exercise:flower-field:blurb": "정원에 있는 꽃을 모두 표시해요."
 }

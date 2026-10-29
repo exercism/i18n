@@ -138,5 +138,7 @@
   "exercise:anagram:blurb": "واژه‌هایی را پیدا کنید که از همان حروف یک واژه‌ی دیگر ساخته شده‌اند.",
   "exercise:anagram:source": "با الهام از بازی Extreme Startup",
   "exercise:all-your-base:name": "All Your Base",
-  "exercise:all-your-base:blurb": "عددی را که به‌صورت دنباله‌ای از رقم‌ها در یک پایه نمایش داده می‌شود، به هر پایه‌ی دیگری تبدیل کنید."
+  "exercise:all-your-base:blurb": "عددی را که به‌صورت دنباله‌ای از رقم‌ها در یک پایه نمایش داده می‌شود، به هر پایه‌ی دیگری تبدیل کنید.",
+  "exercise:flower-field:name": "دشت گل",
+  "exercise:flower-field:blurb": "همه‌ی گل‌های یک باغ را علامت بزنید."
 }

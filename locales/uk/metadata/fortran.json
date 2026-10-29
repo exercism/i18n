@@ -138,5 +138,7 @@
   "exercise:anagram:blurb": "Знайдіть слова, які використовують ті самі літери, що й інше слово.",
   "exercise:anagram:source": "За мотивами гри Extreme Startup",
   "exercise:all-your-base:name": "All Your Base",
-  "exercise:all-your-base:blurb": "Перетворіть число, подане як послідовність цифр в одній основі, на будь-яку іншу основу."
+  "exercise:all-your-base:blurb": "Перетворіть число, подане як послідовність цифр в одній основі, на будь-яку іншу основу.",
+  "exercise:flower-field:name": "Квіткове поле",
+  "exercise:flower-field:blurb": "Позначте всі квіти в саду."
 }

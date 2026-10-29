@@ -138,5 +138,7 @@
   "exercise:anagram:blurb": "Trouve les mots qui utilisent les mêmes lettres qu'un autre mot.",
   "exercise:anagram:source": "Inspiré du jeu Extreme Startup",
   "exercise:all-your-base:name": "All Your Base",
-  "exercise:all-your-base:blurb": "Convertis un nombre, représenté comme une suite de chiffres dans une base, vers n'importe quelle autre base."
+  "exercise:all-your-base:blurb": "Convertis un nombre, représenté comme une suite de chiffres dans une base, vers n'importe quelle autre base.",
+  "exercise:flower-field:name": "Champ de fleurs",
+  "exercise:flower-field:blurb": "Marque toutes les fleurs d'un jardin."
 }
