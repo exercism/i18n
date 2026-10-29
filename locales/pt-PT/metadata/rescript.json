@@ -115,5 +115,8 @@
   "doc:tests:title": "Testar no percurso ReScript",
   "doc:tests:blurb": "Aprende a testar os teus exercícios de ReScript no Exercism",
   "doc:resources:title": "Recursos úteis de ReScript",
-  "doc:resources:blurb": "Uma coleção de recursos úteis para te ajudar a dominar o ReScript"
+  "doc:resources:blurb": "Uma coleção de recursos úteis para te ajudar a dominar o ReScript",
+  "exercise:sieve:name": "Crivo",
+  "exercise:sieve:blurb": "Usa o Crivo de Eratóstenes para encontrar todos os números primos de 2 até um determinado número.",
+  "exercise:sieve:source": "Crivo de Eratóstenes na Wikipedia"
 }

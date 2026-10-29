@@ -115,5 +115,8 @@
   "doc:tests:title": "Δοκιμές στη διαδρομή ReScript",
   "doc:tests:blurb": "Μάθε πώς να δοκιμάζεις τις ασκήσεις σου στη ReScript στο Exercism",
   "doc:resources:title": "Χρήσιμοι πόροι για τη ReScript",
-  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων που θα σε βοηθήσουν να κατακτήσεις τη ReScript"
+  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων που θα σε βοηθήσουν να κατακτήσεις τη ReScript",
+  "exercise:sieve:name": "Κόσκινο",
+  "exercise:sieve:blurb": "Χρησιμοποίησε το Κόσκινο του Ερατοσθένη για να βρεις όλους τους πρώτους αριθμούς από το 2 μέχρι έναν δεδομένο αριθμό.",
+  "exercise:sieve:source": "Κόσκινο του Ερατοσθένη στη Wikipedia"
 }

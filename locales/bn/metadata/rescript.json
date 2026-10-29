@@ -115,5 +115,8 @@
   "doc:tests:title": "ReScript ট্র্যাকে টেস্ট করা",
   "doc:tests:blurb": "Exercism-এ আপনার ReScript অনুশীলনীগুলো কীভাবে টেস্ট করবেন, তা জানুন",
   "doc:resources:title": "ReScript-এর প্রয়োজনীয় রিসোর্স",
-  "doc:resources:blurb": "ReScript-এ দক্ষ হতে সাহায্য করবে এমন প্রয়োজনীয় রিসোর্সের সংগ্রহ"
+  "doc:resources:blurb": "ReScript-এ দক্ষ হতে সাহায্য করবে এমন প্রয়োজনীয় রিসোর্সের সংগ্রহ",
+  "exercise:sieve:name": "চালনি",
+  "exercise:sieve:blurb": "২ থেকে শুরু করে একটি নির্দিষ্ট সংখ্যা পর্যন্ত সব মৌলিক সংখ্যা খুঁজে বের করতে এরাটোস্থেনিসের চালনি ব্যবহার করুন।",
+  "exercise:sieve:source": "Wikipedia-তে এরাটোস্থেনিসের চালনি।"
 }

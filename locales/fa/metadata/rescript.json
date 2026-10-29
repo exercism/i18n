@@ -115,5 +115,8 @@
   "doc:tests:title": "تست در مسیر ReScript",
   "doc:tests:blurb": "یاد بگیرید چطور تمرین‌های ReScript خود را در Exercism تست کنید",
   "doc:resources:title": "منابع مفید ReScript",
-  "doc:resources:blurb": "مجموعه‌ای از منابع مفید که به شما کمک می‌کند در ReScript مهارت پیدا کنید"
+  "doc:resources:blurb": "مجموعه‌ای از منابع مفید که به شما کمک می‌کند در ReScript مهارت پیدا کنید",
+  "exercise:sieve:name": "غربال",
+  "exercise:sieve:blurb": "با استفاده از غربال اراتوستن، همه‌ی اعداد اول را از ۲ تا عدد داده‌شده پیدا کنید.",
+  "exercise:sieve:source": "غربال اراتوستن در Wikipedia"
 }

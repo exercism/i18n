@@ -115,5 +115,8 @@
   "doc:tests:title": "ReScriptトラックでのテスト",
   "doc:tests:blurb": "ExercismでReScriptの演習をテストする方法を学びます",
   "doc:resources:title": "役に立つReScriptのリソース",
-  "doc:resources:blurb": "ReScriptをマスターするのに役立つリソースのまとめ"
+  "doc:resources:blurb": "ReScriptをマスターするのに役立つリソースのまとめ",
+  "exercise:sieve:name": "ふるい",
+  "exercise:sieve:blurb": "エラトステネスのふるいを使って、2から与えられた数までの素数をすべて求めます。",
+  "exercise:sieve:source": "Wikipediaのエラトステネスのふるい"
 }

@@ -115,5 +115,8 @@
   "doc:tests:title": "在 ReScript 赛道上进行测试",
   "doc:tests:blurb": "了解如何在 Exercism 上测试你的 ReScript 练习",
   "doc:resources:title": "有用的 ReScript 资源",
-  "doc:resources:blurb": "一系列有用的资源，帮助你精通 ReScript"
+  "doc:resources:blurb": "一系列有用的资源，帮助你精通 ReScript",
+  "exercise:sieve:name": "筛法",
+  "exercise:sieve:blurb": "使用埃拉托斯特尼筛法查找从 2 到给定数字之间的所有质数。",
+  "exercise:sieve:source": "Wikipedia 上的埃拉托斯特尼筛法"
 }

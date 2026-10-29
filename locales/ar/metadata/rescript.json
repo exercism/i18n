@@ -115,5 +115,8 @@
   "doc:tests:title": "الاختبار في مسار ReScript",
   "doc:tests:blurb": "تعرّف على كيفية اختبار تمارين ReScript على Exercism",
   "doc:resources:title": "موارد مفيدة عن ReScript",
-  "doc:resources:blurb": "مجموعة من الموارد المفيدة لمساعدتك على إتقان ReScript"
+  "doc:resources:blurb": "مجموعة من الموارد المفيدة لمساعدتك على إتقان ReScript",
+  "exercise:sieve:name": "الغربال",
+  "exercise:sieve:blurb": "استخدم غربال إراتوستينس لإيجاد جميع الأعداد الأولية من 2 حتى عدد معطى.",
+  "exercise:sieve:source": "غربال إراتوستينس في Wikipedia"
 }

@@ -115,5 +115,8 @@
   "doc:tests:title": "ReScript ट्रैक पर टेस्ट करना",
   "doc:tests:blurb": "Exercism पर अपने ReScript अभ्यासों का टेस्ट करना सीखिए।",
   "doc:resources:title": "उपयोगी ReScript संसाधन",
-  "doc:resources:blurb": "ReScript में महारत हासिल करने में मदद करने वाले उपयोगी संसाधनों का संग्रह।"
+  "doc:resources:blurb": "ReScript में महारत हासिल करने में मदद करने वाले उपयोगी संसाधनों का संग्रह।",
+  "exercise:sieve:name": "छलनी",
+  "exercise:sieve:blurb": "2 से लेकर दी गई संख्या तक सभी अभाज्य संख्याएँ खोजने के लिए एराटोस्थनीज़ की छलनी का इस्तेमाल कीजिए।",
+  "exercise:sieve:source": "Wikipedia पर एराटोस्थनीज़ की छलनी"
 }

@@ -115,5 +115,8 @@
   "doc:tests:title": "ReScript 트랙에서 테스트하기",
   "doc:tests:blurb": "Exercism에서 ReScript 연습 문제를 테스트하는 방법을 알아봐요",
   "doc:resources:title": "유용한 ReScript 자료",
-  "doc:resources:blurb": "ReScript를 마스터하는 데 도움이 되는 유용한 자료 모음"
+  "doc:resources:blurb": "ReScript를 마스터하는 데 도움이 되는 유용한 자료 모음",
+  "exercise:sieve:name": "체",
+  "exercise:sieve:blurb": "에라토스테네스의 체를 사용해 주어진 수까지의 모든 소수를 찾아요.",
+  "exercise:sieve:source": "Wikipedia의 에라토스테네스의 체"
 }

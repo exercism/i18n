@@ -115,5 +115,8 @@
   "doc:tests:title": "I test nel track ReScript",
   "doc:tests:blurb": "Scopri come testare i tuoi esercizi ReScript su Exercism",
   "doc:resources:title": "Risorse utili su ReScript",
-  "doc:resources:blurb": "Una raccolta di risorse utili per aiutarti a padroneggiare ReScript"
+  "doc:resources:blurb": "Una raccolta di risorse utili per aiutarti a padroneggiare ReScript",
+  "exercise:sieve:name": "Crivello",
+  "exercise:sieve:blurb": "Usa il crivello di Eratostene per trovare tutti i numeri primi da 2 fino a un numero dato.",
+  "exercise:sieve:source": "Crivello di Eratostene su Wikipedia"
 }

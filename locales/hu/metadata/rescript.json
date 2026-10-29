@@ -115,5 +115,8 @@
   "doc:tests:title": "Tesztelés a ReScript kurzuson",
   "doc:tests:blurb": "Tanuld meg, hogyan teszteld a ReScript-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos ReScript-források",
-  "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a ReScriptet"
+  "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a ReScriptet",
+  "exercise:sieve:name": "Szita",
+  "exercise:sieve:blurb": "Az Eratoszthenész szitájával keresd meg az összes prímszámot 2-től egy adott számig.",
+  "exercise:sieve:source": "Eratoszthenész szitája a Wikipédián"
 }

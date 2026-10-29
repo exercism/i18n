@@ -115,5 +115,8 @@
   "doc:tests:title": "Tester sur le parcours ReScript",
   "doc:tests:blurb": "Apprends à tester tes exercices ReScript sur Exercism",
   "doc:resources:title": "Ressources utiles pour ReScript",
-  "doc:resources:blurb": "Une sélection de ressources utiles pour t'aider à maîtriser ReScript"
+  "doc:resources:blurb": "Une sélection de ressources utiles pour t'aider à maîtriser ReScript",
+  "exercise:sieve:name": "Crible",
+  "exercise:sieve:blurb": "Utilise le crible d'Ératosthène pour trouver tous les nombres premiers de 2 jusqu'à un nombre donné.",
+  "exercise:sieve:source": "Crible d'Ératosthène sur Wikipedia"
 }
