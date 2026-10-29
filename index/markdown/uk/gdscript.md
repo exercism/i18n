@@ -102,6 +102,11 @@ This page is generated from [the index](../../json/uk/gdscript.json) by `scripts
   - [`51bea67909`](../../../locales/uk/content/51/be/a67909f879fe54d8ec2ee70c146ee6ba8f61.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/flatten-array/.docs/introduction.md)): [Latest](../../../locales/uk/content/a3/14/857465e75cc95c88b634ddd355f7393888ad.md)
 
+### Flower Field (Квіткове поле)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/flower-field/.docs/instructions.md)): [Latest](../../../locales/uk/content/bb/da/e0c2cb1fa4a25852a885a02a4f42b9b677e7.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/flower-field/.docs/introduction.md)): [Latest](../../../locales/uk/content/af/9b/6153617f87f5d4e8ce3ab55e4aa805a21a04.md)
+
 ### Food Chain (Харчовий ланцюг)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/food-chain/.docs/instructions.md)): [Latest](../../../locales/uk/content/12/58/20e321bd07292c3a17dc8b57a7a2cff09245.md)

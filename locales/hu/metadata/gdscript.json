@@ -225,5 +225,7 @@
   "exercise:matrix:source": "Feladat a JumpstartLab csapatától a The Turing School of Software and Design tanulóinak.",
   "exercise:linked-list:name": "Láncolt lista",
   "exercise:linked-list:blurb": "Valósíts meg egy kétszeresen láncolt listát.",
-  "exercise:linked-list:source": "Klasszikus számítástudományi téma"
+  "exercise:linked-list:source": "Klasszikus számítástudományi téma",
+  "exercise:flower-field:name": "Virágmező",
+  "exercise:flower-field:blurb": "Jelöld meg a kert összes virágát."
 }

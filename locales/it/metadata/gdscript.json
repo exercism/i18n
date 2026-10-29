@@ -225,5 +225,7 @@
   "exercise:matrix:source": "Esercizio del team di JumpstartLab per gli studenti della Turing School of Software and Design.",
   "exercise:linked-list:name": "Lista concatenata",
   "exercise:linked-list:blurb": "Implementa una lista doppiamente concatenata.",
-  "exercise:linked-list:source": "Argomento classico dell'informatica"
+  "exercise:linked-list:source": "Argomento classico dell'informatica",
+  "exercise:flower-field:name": "Campo di fiori",
+  "exercise:flower-field:blurb": "Segna tutti i fiori di un giardino."
 }

@@ -225,5 +225,7 @@
   "exercise:matrix:source": "由 JumpstartLab 团队为 The Turing School of Software and Design 的学生编写的练习。",
   "exercise:linked-list:name": "链表",
   "exercise:linked-list:blurb": "实现一个双向链表。",
-  "exercise:linked-list:source": "经典的计算机科学主题"
+  "exercise:linked-list:source": "经典的计算机科学主题",
+  "exercise:flower-field:name": "花田",
+  "exercise:flower-field:blurb": "标出花园里所有的花。"
 }

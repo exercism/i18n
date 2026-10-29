@@ -225,5 +225,7 @@
   "exercise:matrix:source": "Exercice proposé par l'équipe JumpstartLab pour les étudiants de The Turing School of Software and Design.",
   "exercise:linked-list:name": "Liste chaînée",
   "exercise:linked-list:blurb": "Implémente une liste doublement chaînée.",
-  "exercise:linked-list:source": "Un classique de l'informatique."
+  "exercise:linked-list:source": "Un classique de l'informatique.",
+  "exercise:flower-field:name": "Champ de fleurs",
+  "exercise:flower-field:blurb": "Marque toutes les fleurs d'un jardin."
 }

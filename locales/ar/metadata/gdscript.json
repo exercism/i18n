@@ -225,5 +225,7 @@
   "exercise:matrix:source": "تمرين من فريق JumpstartLab لطلاب The Turing School of Software and Design.",
   "exercise:linked-list:name": "القائمة المترابطة",
   "exercise:linked-list:blurb": "نفّذ قائمة مترابطة مزدوجة.",
-  "exercise:linked-list:source": "موضوع كلاسيكي في علوم الحاسوب"
+  "exercise:linked-list:source": "موضوع كلاسيكي في علوم الحاسوب",
+  "exercise:flower-field:name": "حقل الأزهار",
+  "exercise:flower-field:blurb": "حدّد كل الأزهار في حديقة."
 }

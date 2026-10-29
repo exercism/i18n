@@ -225,5 +225,7 @@
   "exercise:matrix:source": "Übung des JumpstartLab-Teams für Studierende der Turing School of Software and Design.",
   "exercise:linked-list:name": "Verkettete Liste",
   "exercise:linked-list:blurb": "Implementiere eine doppelt verkettete Liste.",
-  "exercise:linked-list:source": "Klassisches Thema der Informatik"
+  "exercise:linked-list:source": "Klassisches Thema der Informatik",
+  "exercise:flower-field:name": "Blumenfeld",
+  "exercise:flower-field:blurb": "Markiere alle Blumen in einem Garten."
 }

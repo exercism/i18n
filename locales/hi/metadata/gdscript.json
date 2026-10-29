@@ -225,5 +225,7 @@
   "exercise:matrix:source": "JumpstartLab टीम द्वारा The Turing School of Software and Design के छात्रों के लिए बनाया गया अभ्यास।",
   "exercise:linked-list:name": "लिंक्ड लिस्ट",
   "exercise:linked-list:blurb": "एक डबल लिंक्ड लिस्ट बनाइए।",
-  "exercise:linked-list:source": "कंप्यूटर विज्ञान का एक क्लासिक विषय"
+  "exercise:linked-list:source": "कंप्यूटर विज्ञान का एक क्लासिक विषय",
+  "exercise:flower-field:name": "फूलों का खेत",
+  "exercise:flower-field:blurb": "बगीचे के सभी फूलों को चिह्नित कीजिए।"
 }

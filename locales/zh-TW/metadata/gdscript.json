@@ -225,5 +225,7 @@
   "exercise:matrix:source": "由 JumpstartLab 團隊為 The Turing School of Software and Design 的學生所設計的練習。",
   "exercise:linked-list:name": "連結串列",
   "exercise:linked-list:blurb": "實作一個雙向連結串列。",
-  "exercise:linked-list:source": "經典的電腦科學主題"
+  "exercise:linked-list:source": "經典的電腦科學主題",
+  "exercise:flower-field:name": "花田",
+  "exercise:flower-field:blurb": "標出花園裡所有的花。"
 }

@@ -98,6 +98,11 @@ This page is generated from [the index](../../json/pt-PT/gdscript.json) by `scri
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/flatten-array/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/b5/b8/2713d928a59e350e468d35c4ee92d49316cf.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/flatten-array/.docs/introduction.md)): [Latest](../../../locales/pt-PT/content/a3/14/857465e75cc95c88b634ddd355f7393888ad.md)
 
+### Flower Field (Campo de Flores)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/flower-field/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/bb/da/e0c2cb1fa4a25852a885a02a4f42b9b677e7.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/flower-field/.docs/introduction.md)): [Latest](../../../locales/pt-PT/content/af/9b/6153617f87f5d4e8ce3ab55e4aa805a21a04.md)
+
 ### Food Chain (Cadeia Alimentar)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/food-chain/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/12/58/20e321bd07292c3a17dc8b57a7a2cff09245.md)

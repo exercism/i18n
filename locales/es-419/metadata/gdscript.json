@@ -225,5 +225,7 @@
   "exercise:matrix:source": "Ejercicio del equipo de JumpstartLab para estudiantes de The Turing School of Software and Design.",
   "exercise:linked-list:name": "Lista enlazada",
   "exercise:linked-list:blurb": "Implementa una lista doblemente enlazada.",
-  "exercise:linked-list:source": "Tema clásico de las ciencias de la computación"
+  "exercise:linked-list:source": "Tema clásico de las ciencias de la computación",
+  "exercise:flower-field:name": "Campo de flores",
+  "exercise:flower-field:blurb": "Marca todas las flores de un jardín."
 }

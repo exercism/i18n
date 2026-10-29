@@ -225,5 +225,7 @@
   "exercise:matrix:source": "Άσκηση από την ομάδα JumpstartLab για τους σπουδαστές του The Turing School of Software and Design.",
   "exercise:linked-list:name": "Συνδεδεμένη λίστα",
   "exercise:linked-list:blurb": "Υλοποίησε μια διπλά συνδεδεμένη λίστα.",
-  "exercise:linked-list:source": "Κλασικό θέμα επιστήμης υπολογιστών"
+  "exercise:linked-list:source": "Κλασικό θέμα επιστήμης υπολογιστών",
+  "exercise:flower-field:name": "Χωράφι με Λουλούδια",
+  "exercise:flower-field:blurb": "Σημείωσε όλα τα λουλούδια σε έναν κήπο."
 }

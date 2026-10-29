@@ -225,5 +225,7 @@
   "exercise:matrix:source": "JumpstartLabチームによる、The Turing School of Software and Designの学生向けの演習",
   "exercise:linked-list:name": "連結リスト",
   "exercise:linked-list:blurb": "双方向連結リストを実装します。",
-  "exercise:linked-list:source": "コンピューターサイエンスの定番のテーマ"
+  "exercise:linked-list:source": "コンピューターサイエンスの定番のテーマ",
+  "exercise:flower-field:name": "花畑",
+  "exercise:flower-field:blurb": "庭にあるすべての花に印を付けます。"
 }

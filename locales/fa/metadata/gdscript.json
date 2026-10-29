@@ -225,5 +225,7 @@
   "exercise:matrix:source": "تمرینی از تیم JumpstartLab برای دانشجویان The Turing School of Software and Design.",
   "exercise:linked-list:name": "لیست پیوندی",
   "exercise:linked-list:blurb": "یک لیست پیوندی دوطرفه پیاده‌سازی کنید.",
-  "exercise:linked-list:source": "موضوعی کلاسیک در علوم کامپیوتر"
+  "exercise:linked-list:source": "موضوعی کلاسیک در علوم کامپیوتر",
+  "exercise:flower-field:name": "دشت گل",
+  "exercise:flower-field:blurb": "همه‌ی گل‌های یک باغ را علامت بزنید."
 }
