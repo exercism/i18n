@@ -104,8 +104,8 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 ### Camicia
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/camicia/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/db/62/fcef27d59da1ecd8287b36edfede272b9197.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/camicia/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/59/79/0c1255e8e4ad72fb44e369d7504fd307796b.md)
-  - [`8955a32702`](../../../locales/zh-TW/content/89/55/a327021ba30259b33f888d24336465523742.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/camicia/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/89/55/a327021ba30259b33f888d24336465523742.md)
+  - [`59790c1255`](../../../locales/zh-TW/content/59/79/0c1255e8e4ad72fb44e369d7504fd307796b.md)
   - [`8777fb2c45`](../../../locales/zh-TW/content/87/77/fb2c454e9ada224523e7c4019d29071f5bd7.md)
   - [`be8f8de6f2`](../../../locales/zh-TW/content/be/8f/8de6f29011b2fc9e8d54ba4920c3e688cfe6.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/camicia/.docs/introduction.md)): [Latest](../../../locales/zh-TW/content/76/1d/8a82c502ac4117787d8314c74fcf79dc5159.md)
@@ -634,7 +634,8 @@ This page is generated from [the index](../../json/zh-TW/roc.json) by `scripts/b
 ### Split-Second Stopwatch (分秒計時碼表)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/split-second-stopwatch/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/30/bd/c988dadd9ef5da03ac87eb44f49313c5d84d.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/split-second-stopwatch/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/a4/12/f421212b112ce7b6ec2af048357009c9bde6.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/split-second-stopwatch/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/46/0b/edbc39586334453374cfd45e2b3453ac2a28.md)
+  - [`a412f42121`](../../../locales/zh-TW/content/a4/12/f421212b112ce7b6ec2af048357009c9bde6.md)
   - [`bdcda34045`](../../../locales/zh-TW/content/bd/cd/a34045f1b3a08138e4b60b1f03d8d3e26746.md)
   - [`87790ec57e`](../../../locales/zh-TW/content/87/79/0ec57eda5a9edbd54c52a0254649e8b68c3b.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/split-second-stopwatch/.docs/introduction.md)): [Latest](../../../locales/zh-TW/content/a8/43/2247712455ffa459dffa8fc411000905b0ed.md)
