@@ -257,5 +257,9 @@
   "doc:tests:title": "الاختبار في مسار SQLite",
   "doc:tests:blurb": "تعرّف على كيفية اختبار تمارين SQLite الخاصة بك على Exercism",
   "doc:resources:title": "موارد مفيدة عن SQLite",
-  "doc:resources:blurb": "مجموعة من الموارد المفيدة لمساعدتك على إتقان SQLite"
+  "doc:resources:blurb": "مجموعة من الموارد المفيدة لمساعدتك على إتقان SQLite",
+  "exercise:weather-report:name": "تقرير الطقس",
+  "concept:select:name": "SELECT",
+  "exercise:weather-report:blurb": "تعلّم أساسيات عبارة `SELECT`",
+  "concept:select:blurb": "عبارة `SELECT` في SQL هي وسيلة الاستعلام عن قاعدة بيانات."
 }

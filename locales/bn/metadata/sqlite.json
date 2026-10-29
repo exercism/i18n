@@ -257,5 +257,9 @@
   "doc:tests:title": "SQLite ট্র্যাকে টেস্ট করা",
   "doc:tests:blurb": "Exercism-এ নিজের SQLite অনুশীলনী কীভাবে টেস্ট করবেন তা শিখুন",
   "doc:resources:title": "কাজের SQLite রিসোর্স",
-  "doc:resources:blurb": "SQLite-এ পারদর্শী হতে সাহায্য করবে এমন কাজের রিসোর্সের সংগ্রহ"
+  "doc:resources:blurb": "SQLite-এ পারদর্শী হতে সাহায্য করবে এমন কাজের রিসোর্সের সংগ্রহ",
+  "exercise:weather-report:name": "আবহাওয়ার প্রতিবেদন",
+  "concept:select:name": "SELECT",
+  "exercise:weather-report:blurb": "SELECT স্টেটমেন্টের মূল বিষয়গুলো শিখুন",
+  "concept:select:blurb": "SQL SELECT স্টেটমেন্ট হলো ডেটাবেসে কোয়েরি করার পদ্ধতি।"
 }

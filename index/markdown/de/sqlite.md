@@ -393,6 +393,21 @@ This page is generated from [the index](../../json/de/sqlite.json) by `scripts/b
 - `instructions.md` ([English](https://github.com/exercism/sqlite/blob/main/exercises/practice/yacht/.docs/instructions.md)): [Latest](../../../locales/de/content/51/9b/7a68b876e58fc845cccc10ae1d28519db33a.md)
 - `introduction.md` ([English](https://github.com/exercism/sqlite/blob/main/exercises/practice/yacht/.docs/introduction.md)): [Latest](../../../locales/de/content/5b/54/1f5625ce0d5916f9545a824de17a55d433f1.md)
 
+## Concept exercises
+
+### Weather Report (Wetterbericht)
+
+- `instructions.md` ([English](https://github.com/exercism/sqlite/blob/main/exercises/concept/weather-report/.docs/instructions.md)): [Latest](../../../locales/de/content/9a/7f/1bc4e9f8c1b75a0746f19ce0bda7974bd0d5.md)
+- `introduction.md` ([English](https://github.com/exercism/sqlite/blob/main/exercises/concept/weather-report/.docs/introduction.md)): [Latest](../../../locales/de/content/5d/d3/23c99c83985405950f789ad536d554227d7b.md)
+- `hints.md` ([English](https://github.com/exercism/sqlite/blob/main/exercises/concept/weather-report/.docs/hints.md)): [Latest](../../../locales/de/content/e6/9d/e29bb2d1d6434b8b29ae775ad8c2e48c5391.md)
+
+## Concepts
+
+### SELECT
+
+- `introduction.md` ([English](https://github.com/exercism/sqlite/blob/main/concepts/select/introduction.md)): [Latest](../../../locales/de/content/1f/79/9474ae9159ccd7897c65bd995753e526c7af.md)
+- `about.md` ([English](https://github.com/exercism/sqlite/blob/main/concepts/select/about.md)): [Latest](../../../locales/de/content/f0/d8/8dbc3ee82d329a17dddbd1ab1cfe2aa9a52d.md)
+
 ## Track docs
 
 ### ABOUT.md

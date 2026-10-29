@@ -257,5 +257,9 @@
   "doc:tests:title": "Testes no track SQLite",
   "doc:tests:blurb": "Aprenda a testar seus exercícios de SQLite no Exercism",
   "doc:resources:title": "Recursos úteis de SQLite",
-  "doc:resources:blurb": "Uma coleção de recursos úteis para ajudar você a dominar o SQLite"
+  "doc:resources:blurb": "Uma coleção de recursos úteis para ajudar você a dominar o SQLite",
+  "exercise:weather-report:name": "Boletim Meteorológico",
+  "concept:select:name": "SELECT",
+  "exercise:weather-report:blurb": "Aprenda o básico da instrução SELECT",
+  "concept:select:blurb": "A instrução SELECT do SQL é o mecanismo para consultar um banco de dados."
 }

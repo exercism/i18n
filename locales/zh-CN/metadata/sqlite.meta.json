@@ -1,5 +1,7 @@
 {
   "stamps": {
+    "concept:select:blurb": "e82c026c6751043d83b1a68fe482c9f3a088407b",
+    "concept:select:name": "18180e58b27862853023652fd8cf1c2736bbaee9",
     "doc:installation:blurb": "6735139b1feae8bfbd6e401d636b50a4d148dadc",
     "doc:installation:title": "d3589f73d071b13d6c9c7427e57280ae368af40d",
     "doc:learning:blurb": "e9aeadfac493052aeaeec4800d629d82073e6216",
@@ -237,6 +239,8 @@
     "exercise:twelve-days:source": "121eab03772e6fb6cc03880c3424ffdee4b03df5",
     "exercise:two-fer:blurb": "b82108bd9b2ab2241628cf077cb635a233880873",
     "exercise:two-fer:name": "96a003c7732111ce325b06a11a542e21f9091519",
+    "exercise:weather-report:blurb": "fe84720d40a9448ff499886d280da81f2fd16074",
+    "exercise:weather-report:name": "308ef62b358d80fac07511c7b619804d1380548f",
     "exercise:word-count:blurb": "747d18527060c9ae6aaeb31ec2276824792a3057",
     "exercise:word-count:name": "82bcce169d5dd9af029fd227014110b5f150dfbc",
     "exercise:word-count:source": "b690ca91cf789b9a6d87d777014afc193227fc17",

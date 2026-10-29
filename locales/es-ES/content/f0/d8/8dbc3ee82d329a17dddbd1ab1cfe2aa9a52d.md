@@ -1,0 +1,132 @@
+# La instrucción SELECT
+
+En SQL, una instrucción `SELECT` te permite recuperar datos de una base de datos.
+El resultado de una instrucción `SELECT` es un conjunto de resultados.
+Un conjunto de resultados contiene valores organizados en filas y columnas.
+Cada columna es un atributo concreto de los datos.
+Cada fila contiene un valor para cada columna.
+
+Una forma de verlo es pensar que un conjunto de columnas representa una estructura de datos, donde cada columna representa un campo de la estructura de datos y cada fila representa una instancia de esa estructura de datos.
+
+Con una instrucción `SELECT` puedes especificar los datos que quieres recuperar.
+Además, de forma opcional, puedes transformar, filtrar o modificar la forma de los datos de salida.
+
+## Lo esencial
+
+La anatomía de una instrucción `SELECT` básica es la siguiente:
+
+```sql
+SELECT <columns>
+FROM <source>
+WHERE <criteria>;
+```
+
+~~~~exercism/note
+Las cláusulas `FROM` y `WHERE` son opcionales.
+Por ejemplo, una instrucción como `SELECT "Hello, world.";` es perfectamente válida.
+
+Ten en cuenta también que los saltos de línea no son obligatorios; cualquier espacio sirve para separar las distintas cláusulas (es decir, las partes) de la instrucción `SELECT`.
+~~~~
+
+Justo después de la palabra clave `SELECT` va una lista de las columnas que quieres en el resultado.
+La cláusula `FROM` identifica el origen de los datos, que normalmente es una tabla de la base de datos.
+La cláusula `WHERE` filtra los datos de salida según uno o varios criterios.
+
+Por ejemplo, imagina una base de datos con una tabla llamada `inventory` que contiene los siguientes datos:
+
+|     upc      |  category  |    supplier    |    brand    |           product_name           | weight | stock |
+|--------------|------------|----------------|-------------|----------------------------------|--------|-------|
+| 812345670019 | Cookware   | KitchenCo      | HearthStone | 10" Non-Stick Skillet            | 1.8    | 42    |
+| 845678120334 | Utensils   | HomePro Supply | PrepMaster  | Stainless Steel Ladle            | 0.4    | 120   |
+| 899001234556 | Appliances | Culinary Depot | QuickBrew   | Single-Serve Coffee Maker        | 4.2    | 18    |
+| 823450987112 | Cookware   | KitchenCo      | FreshKeep   | 12-Piece Glass Container Set     | 6      | 33    |
+| 867530900221 | Utensils   | HomePro Supply | EdgeCraft   | 8' Chef's Knife                  | 0.6    | 27    |
+| 880012349876 | Appliances | Culinary Depot | HeatWave    | Compact Toaster Oven             | 7.5    | 14    |
+| 833221109443 | Utensils   | HomePro Supply | PureScrub   | Heavy-Duty Kitchen Sponge (3-pk) | 0.2    | 200   |
+| 899998877665 | Cookware   | KitchenCo      | IronCraft   | Cast-Iron Grill Pan              | 5.3    | 21    |
+| 844110220987 | Appliances | Culinary Depot | BlendPro    | High-Speed Personal Blender      | 3.1    | 16    |
+
+Si queremos recuperar todos los datos de la tabla, podemos ejecutar la siguiente consulta:
+
+```sql
+SELECT * FROM inventory;
+```
+
+Resultado:
+
+```
+upc           category    supplier        brand        product_name                      weight  stock
+------------  ----------  --------------  -----------  --------------------------------  ------  -----
+812345670019  Cookware    KitchenCo       HearthStone  10" Non-Stick Skillet             1.8     42   
+845678120334  Utensils    HomePro Supply  PrepMaster   Stainless Steel Ladle             0.4     120  
+899001234556  Appliances  Culinary Depot  QuickBrew    Single-Serve Coffee Maker         4.2     18   
+823450987112  Cookware    KitchenCo       FreshKeep    12-Piece Glass Container Set      6       33   
+867530900221  Utensils    HomePro Supply  EdgeCraft    8' Chef's Knife                   0.6     27   
+880012349876  Appliances  Culinary Depot  HeatWave     Compact Toaster Oven              7.5     14   
+833221109443  Utensils    HomePro Supply  PureScrub    Heavy-Duty Kitchen Sponge (3-pk)  0.2     200  
+899998877665  Cookware    KitchenCo       IronCraft    Cast-Iron Grill Pan               5.3     21   
+844110220987  Appliances  Culinary Depot  BlendPro     High-Speed Personal Blender       3.1     16   
+```
+
+Si solo queremos los valores de category y product_name, podemos especificar esas columnas:
+
+```sql
+SELECT category, product_name FROM inventory;
+```
+
+Resultado:
+
+```
+category    product_name                    
+----------  --------------------------------
+Cookware    10" Non-Stick Skillet           
+Utensils    Stainless Steel Ladle           
+Appliances  Single-Serve Coffee Maker       
+Cookware    12-Piece Glass Container Set    
+Utensils    8' Chef's Knife                 
+Appliances  Compact Toaster Oven            
+Utensils    Heavy-Duty Kitchen Sponge (3-pk)
+Cookware    Cast-Iron Grill Pan             
+Appliances  High-Speed Personal Blender     
+```
+
+## Filtrar datos con la cláusula WHERE
+
+La cláusula `WHERE` te permite filtrar los datos que recupera una instrucción `SELECT`.
+Por ejemplo, si solo queremos los valores Appliances, podemos hacer lo siguiente:
+
+```sql
+SELECT * FROM inventory
+WHERE category = "Appliances";
+```
+
+Resultado:
+```
+upc           category    supplier        brand      product_name                 weight  stock
+------------  ----------  --------------  ---------  ---------------------------  ------  -----
+899001234556  Appliances  Culinary Depot  QuickBrew  Single-Serve Coffee Maker    4.2     18   
+880012349876  Appliances  Culinary Depot  HeatWave   Compact Toaster Oven         7.5     14   
+844110220987  Appliances  Culinary Depot  BlendPro   High-Speed Personal Blender  3.1     16   
+```
+
+O quizá solo queremos los datos en los que el peso esté entre 2,0 y 6,0:
+
+```sql
+SELECT * FROM inventory
+WHERE weight BETWEEN 2.0 AND 6.0;
+```
+
+Resultado:
+```
+upc           category    supplier        brand      product_name                  weight  stock
+------------  ----------  --------------  ---------  ----------------------------  ------  -----
+899001234556  Appliances  Culinary Depot  QuickBrew  Single-Serve Coffee Maker     4.2     18   
+823450987112  Cookware    KitchenCo       FreshKeep  12-Piece Glass Container Set  6       33   
+899998877665  Cookware    KitchenCo       IronCraft  Cast-Iron Grill Pan           5.3     21   
+844110220987  Appliances  Culinary Depot  BlendPro   High-Speed Personal Blender   3.1     16   
+```
+
+Además de `=` y `BETWEEN...AND`, la cláusula `WHERE` admite una amplia variedad de expresiones, como las de comparación (`<`, `<=`, `>`, `>=`), las de coincidencia de patrones (`LIKE`, `GLOB`, `REGEXP`, `MATCH`) y las que comprueban la pertenencia a una lista (`IN`, `NOT IN`).
+Consulta [Expresiones del lenguaje SQL](sql-expr) para ver la documentación completa.
+
+[sql-expr]: https://sqlite.org/lang_expr.html

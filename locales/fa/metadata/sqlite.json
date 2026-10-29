@@ -257,5 +257,9 @@
   "doc:tests:title": "تست کردن در مسیر SQLite",
   "doc:tests:blurb": "یاد بگیرید چطور تمرین‌های SQLite خود را در Exercism تست کنید",
   "doc:resources:title": "منابع مفید SQLite",
-  "doc:resources:blurb": "مجموعه‌ای از منابع مفید که به شما کمک می‌کند در SQLite مهارت پیدا کنید"
+  "doc:resources:blurb": "مجموعه‌ای از منابع مفید که به شما کمک می‌کند در SQLite مهارت پیدا کنید",
+  "exercise:weather-report:name": "گزارش آب‌وهوا",
+  "concept:select:name": "SELECT",
+  "exercise:weather-report:blurb": "مبانی دستور `SELECT` را یاد بگیرید",
+  "concept:select:blurb": "دستور `SELECT` در SQL سازوکاری برای پرس‌وجو از پایگاه داده است."
 }

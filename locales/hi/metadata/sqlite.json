@@ -257,5 +257,9 @@
   "doc:tests:title": "SQLite ट्रैक पर टेस्टिंग",
   "doc:tests:blurb": "Exercism पर अपने SQLite अभ्यासों को टेस्ट करना सीखिए।",
   "doc:resources:title": "उपयोगी SQLite संसाधन",
-  "doc:resources:blurb": "SQLite में महारत हासिल करने में मदद करने वाले उपयोगी संसाधनों का संग्रह।"
+  "doc:resources:blurb": "SQLite में महारत हासिल करने में मदद करने वाले उपयोगी संसाधनों का संग्रह।",
+  "exercise:weather-report:name": "मौसम रिपोर्ट",
+  "concept:select:name": "SELECT",
+  "exercise:weather-report:blurb": "SELECT स्टेटमेंट की बुनियादी बातें सीखिए",
+  "concept:select:blurb": "SQL SELECT स्टेटमेंट डेटाबेस से डेटा निकालने का तरीका है।"
 }

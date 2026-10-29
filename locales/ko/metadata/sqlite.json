@@ -257,5 +257,9 @@
   "doc:tests:title": "SQLite 트랙에서 테스트하기",
   "doc:tests:blurb": "Exercism에서 SQLite 연습 문제를 테스트하는 방법을 배워요",
   "doc:resources:title": "유용한 SQLite 자료",
-  "doc:resources:blurb": "SQLite를 마스터하는 데 도움이 되는 유용한 자료 모음"
+  "doc:resources:blurb": "SQLite를 마스터하는 데 도움이 되는 유용한 자료 모음",
+  "exercise:weather-report:name": "날씨 보고서",
+  "concept:select:name": "SELECT",
+  "exercise:weather-report:blurb": "SELECT 문의 기초를 배워요",
+  "concept:select:blurb": "SQL의 SELECT 문은 데이터베이스에 질의하는 방법이에요."
 }

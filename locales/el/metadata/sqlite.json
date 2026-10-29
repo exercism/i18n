@@ -257,5 +257,9 @@
   "doc:tests:title": "Δοκιμές στη διαδρομή SQLite",
   "doc:tests:blurb": "Μάθε πώς να δοκιμάζεις τις ασκήσεις σου σε SQLite στο Exercism",
   "doc:resources:title": "Χρήσιμοι πόροι για το SQLite",
-  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων που θα σε βοηθήσουν να κατακτήσεις το SQLite"
+  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων που θα σε βοηθήσουν να κατακτήσεις το SQLite",
+  "exercise:weather-report:name": "Δελτίο καιρού",
+  "concept:select:name": "SELECT",
+  "exercise:weather-report:blurb": "Μάθε τα βασικά της εντολής SELECT",
+  "concept:select:blurb": "Η εντολή SELECT της SQL είναι ο μηχανισμός για την υποβολή ερωτημάτων σε μια βάση δεδομένων."
 }

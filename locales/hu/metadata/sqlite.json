@@ -257,5 +257,9 @@
   "doc:tests:title": "Tesztelés az SQLite-kurzuson",
   "doc:tests:blurb": "Tanuld meg, hogyan teszteld az SQLite-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos SQLite-források",
-  "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani az SQLite-ot"
+  "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani az SQLite-ot",
+  "exercise:weather-report:name": "Időjárásjelentés",
+  "concept:select:name": "SELECT",
+  "exercise:weather-report:blurb": "Tanuld meg a SELECT utasítás alapjait",
+  "concept:select:blurb": "Az SQL SELECT utasítás az adatbázis lekérdezésének eszköze."
 }

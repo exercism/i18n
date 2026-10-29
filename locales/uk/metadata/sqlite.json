@@ -257,5 +257,9 @@
   "doc:tests:title": "Тестування на треку SQLite",
   "doc:tests:blurb": "Дізнайтеся, як тестувати свої вправи з SQLite на Exercism",
   "doc:resources:title": "Корисні ресурси SQLite",
-  "doc:resources:blurb": "Добірка корисних ресурсів, які допоможуть опанувати SQLite"
+  "doc:resources:blurb": "Добірка корисних ресурсів, які допоможуть опанувати SQLite",
+  "exercise:weather-report:name": "Звіт про погоду",
+  "concept:select:name": "SELECT",
+  "exercise:weather-report:blurb": "Вивчіть основи інструкції SELECT",
+  "concept:select:blurb": "Інструкція SQL SELECT - це механізм для запитів до бази даних."
 }

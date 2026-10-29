@@ -257,5 +257,9 @@
   "doc:tests:title": "SQLiteトラックでのテスト",
   "doc:tests:blurb": "ExercismでSQLiteの演習をテストする方法を学びます。",
   "doc:resources:title": "役立つSQLiteのリソース",
-  "doc:resources:blurb": "SQLiteをマスターするのに役立つリソースのまとめ"
+  "doc:resources:blurb": "SQLiteをマスターするのに役立つリソースのまとめ",
+  "exercise:weather-report:name": "天気予報",
+  "concept:select:name": "SELECT",
+  "exercise:weather-report:blurb": "`SELECT`文の基本を学びましょう",
+  "concept:select:blurb": "SQLの`SELECT`文は、データベースに問い合わせるための仕組みです。"
 }

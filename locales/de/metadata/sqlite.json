@@ -257,5 +257,9 @@
   "doc:tests:title": "Testen im SQLite-Track",
   "doc:tests:blurb": "Lerne, wie du deine SQLite-Übungen auf Exercism testest.",
   "doc:resources:title": "Nützliche SQLite-Ressourcen",
-  "doc:resources:blurb": "Eine Sammlung nützlicher Ressourcen, mit denen du SQLite meistern kannst."
+  "doc:resources:blurb": "Eine Sammlung nützlicher Ressourcen, mit denen du SQLite meistern kannst.",
+  "exercise:weather-report:name": "Wetterbericht",
+  "concept:select:name": "SELECT",
+  "exercise:weather-report:blurb": "Lerne die Grundlagen der SELECT-Anweisung",
+  "concept:select:blurb": "Mit der SELECT-Anweisung in SQL fragst du eine Datenbank ab."
 }

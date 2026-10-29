@@ -1,0 +1,132 @@
+# دستور `SELECT`
+
+در SQL، دستور `SELECT` به شما امکان می‌دهد داده‌ها را از یک پایگاه داده بازیابی کنید.
+نتیجه‌ی یک دستور `SELECT` یک «مجموعه‌ی نتیجه» است.
+مجموعه‌ی نتیجه مقادیری را در خود دارد که در سطرها و ستون‌ها چیده شده‌اند.
+هر ستون یک ویژگی مشخص از داده است.
+هر سطر برای هر ستون یک مقدار دارد.
+
+یک راه برای فکر کردن به آن این است که مجموعه‌ی ستون‌ها نماینده‌ی یک ساختار داده است: هر ستون یکی از فیلدهای آن ساختار داده است و هر سطر یک نمونه از آن ساختار داده.
+
+با یک دستور `SELECT` می‌توانید مشخص کنید چه داده‌ای را می‌خواهید بازیابی کنید.
+همچنین می‌توانید به‌صورت اختیاری داده‌های خروجی را تبدیل، فیلتر یا شکلشان را تغییر دهید.
+
+## مبانی
+
+ساختار کلی یک دستور ساده‌ی `SELECT` به این صورت است:
+
+```sql
+SELECT <columns>
+FROM <source>
+WHERE <criteria>;
+```
+
+~~~~exercism/note
+بندهای `FROM` و `WHERE` اختیاری هستند.
+برای نمونه، دستوری مانند `SELECT "Hello, world.";` کاملاً معتبر است.
+
+همچنین توجه کنید که شکستن خط الزامی نیست؛ هر فاصله‌ای برای جدا کردن بندهای مختلف (یعنی بخش‌های) دستور `SELECT` کافی است.
+~~~~
+
+بلافاصله بعد از کلیدواژه‌ی `SELECT` فهرستی از ستون‌هایی می‌آید که می‌خواهید در نتیجه باشند.
+بند `FROM` منبع داده را مشخص می‌کند که معمولاً جدولی در پایگاه داده است.
+بند `WHERE` داده‌های خروجی را بر اساس یک یا چند معیار فیلتر می‌کند.
+
+برای نمونه، پایگاه داده‌ای را در نظر بگیرید که جدولی به اسم `inventory` دارد و این داده‌ها را در خود جای داده است:
+
+|     upc      |  category  |    supplier    |    brand    |           product_name           | weight | stock |
+|--------------|------------|----------------|-------------|----------------------------------|--------|-------|
+| 812345670019 | Cookware   | KitchenCo      | HearthStone | 10" Non-Stick Skillet            | 1.8    | 42    |
+| 845678120334 | Utensils   | HomePro Supply | PrepMaster  | Stainless Steel Ladle            | 0.4    | 120   |
+| 899001234556 | Appliances | Culinary Depot | QuickBrew   | Single-Serve Coffee Maker        | 4.2    | 18    |
+| 823450987112 | Cookware   | KitchenCo      | FreshKeep   | 12-Piece Glass Container Set     | 6      | 33    |
+| 867530900221 | Utensils   | HomePro Supply | EdgeCraft   | 8' Chef's Knife                  | 0.6    | 27    |
+| 880012349876 | Appliances | Culinary Depot | HeatWave    | Compact Toaster Oven             | 7.5    | 14    |
+| 833221109443 | Utensils   | HomePro Supply | PureScrub   | Heavy-Duty Kitchen Sponge (3-pk) | 0.2    | 200   |
+| 899998877665 | Cookware   | KitchenCo      | IronCraft   | Cast-Iron Grill Pan              | 5.3    | 21    |
+| 844110220987 | Appliances | Culinary Depot | BlendPro    | High-Speed Personal Blender      | 3.1    | 16    |
+
+اگر بخواهیم همه‌ی داده‌های جدول را بازیابی کنیم، می‌توانیم این پرس‌وجو را اجرا کنیم:
+
+```sql
+SELECT * FROM inventory;
+```
+
+نتیجه:
+
+```
+upc           category    supplier        brand        product_name                      weight  stock
+------------  ----------  --------------  -----------  --------------------------------  ------  -----
+812345670019  Cookware    KitchenCo       HearthStone  10" Non-Stick Skillet             1.8     42   
+845678120334  Utensils    HomePro Supply  PrepMaster   Stainless Steel Ladle             0.4     120  
+899001234556  Appliances  Culinary Depot  QuickBrew    Single-Serve Coffee Maker         4.2     18   
+823450987112  Cookware    KitchenCo       FreshKeep    12-Piece Glass Container Set      6       33   
+867530900221  Utensils    HomePro Supply  EdgeCraft    8' Chef's Knife                   0.6     27   
+880012349876  Appliances  Culinary Depot  HeatWave     Compact Toaster Oven              7.5     14   
+833221109443  Utensils    HomePro Supply  PureScrub    Heavy-Duty Kitchen Sponge (3-pk)  0.2     200  
+899998877665  Cookware    KitchenCo       IronCraft    Cast-Iron Grill Pan               5.3     21   
+844110220987  Appliances  Culinary Depot  BlendPro     High-Speed Personal Blender       3.1     16   
+```
+
+اگر فقط مقادیر category و product_name را بخواهیم، می‌توانیم همان ستون‌ها را مشخص کنیم:
+
+```sql
+SELECT category, product_name FROM inventory;
+```
+
+نتیجه:
+
+```
+category    product_name                    
+----------  --------------------------------
+Cookware    10" Non-Stick Skillet           
+Utensils    Stainless Steel Ladle           
+Appliances  Single-Serve Coffee Maker       
+Cookware    12-Piece Glass Container Set    
+Utensils    8' Chef's Knife                 
+Appliances  Compact Toaster Oven            
+Utensils    Heavy-Duty Kitchen Sponge (3-pk)
+Cookware    Cast-Iron Grill Pan             
+Appliances  High-Speed Personal Blender     
+```
+
+## فیلتر کردن داده‌ها با بند WHERE
+
+بند `WHERE` به شما امکان می‌دهد داده‌هایی را که یک دستور `SELECT` بازیابی می‌کند فیلتر کنید.
+برای نمونه، اگر فقط Appliances را بخواهیم، می‌توانیم این کار را انجام دهیم:
+
+```sql
+SELECT * FROM inventory
+WHERE category = "Appliances";
+```
+
+نتیجه:
+```
+upc           category    supplier        brand      product_name                 weight  stock
+------------  ----------  --------------  ---------  ---------------------------  ------  -----
+899001234556  Appliances  Culinary Depot  QuickBrew  Single-Serve Coffee Maker    4.2     18   
+880012349876  Appliances  Culinary Depot  HeatWave   Compact Toaster Oven         7.5     14   
+844110220987  Appliances  Culinary Depot  BlendPro   High-Speed Personal Blender  3.1     16   
+```
+
+یا شاید فقط داده‌هایی را بخواهیم که وزنشان بین ۲٫۰ و ۶٫۰ است:
+
+```sql
+SELECT * FROM inventory
+WHERE weight BETWEEN 2.0 AND 6.0;
+```
+
+نتیجه:
+```
+upc           category    supplier        brand      product_name                  weight  stock
+------------  ----------  --------------  ---------  ----------------------------  ------  -----
+899001234556  Appliances  Culinary Depot  QuickBrew  Single-Serve Coffee Maker     4.2     18   
+823450987112  Cookware    KitchenCo       FreshKeep  12-Piece Glass Container Set  6       33   
+899998877665  Cookware    KitchenCo       IronCraft  Cast-Iron Grill Pan           5.3     21   
+844110220987  Appliances  Culinary Depot  BlendPro   High-Speed Personal Blender   3.1     16   
+```
+
+علاوه بر `=` و `BETWEEN...AND`، بند `WHERE` طیف گسترده‌ای از عبارت‌ها را پشتیبانی می‌کند، از جمله مقایسه (`<`، `<=`، `>`، `>=`)، تطبیق الگو (`LIKE`، `GLOB`، `REGEXP`، `MATCH`) و بررسی عضویت در یک فهرست (`IN`، `NOT IN`).
+برای مستندات کامل، [عبارت‌های زبان SQL](sql-expr) را ببینید.
+
+[sql-expr]: https://sqlite.org/lang_expr.html
