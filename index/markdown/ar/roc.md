@@ -52,7 +52,8 @@ This page is generated from [the index](../../json/ar/roc.json) by `scripts/buil
 ### Baffling Birthdays (أعياد ميلاد محيّرة)
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/baffling-birthdays/.docs/instructions.md)): [Latest](../../../locales/ar/content/a0/1e/c86796ac6bc6e2873dca01003a8e5f02ee32.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/baffling-birthdays/.docs/instructions.append.md)): [Latest](../../../locales/ar/content/1c/c0/b0f04aac288f14108aa2dd1ce4f8225caafb.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/baffling-birthdays/.docs/instructions.append.md)): [Latest](../../../locales/ar/content/25/cc/83fc7c032373658f6c542b25681d8b6e74ad.md)
+  - [`1cc0b0f04a`](../../../locales/ar/content/1c/c0/b0f04aac288f14108aa2dd1ce4f8225caafb.md)
   - [`6db11c6692`](../../../locales/ar/content/6d/b1/1c6692b5457fe0af6a0fb4b7e50a542bee74.md)
   - [`81e64513ae`](../../../locales/ar/content/81/e6/4513ae3c8973789ada4177ae86df2e29a970.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/baffling-birthdays/.docs/introduction.md)): [Latest](../../../locales/ar/content/97/da/bd1e6cfffbcb4a20748b3b328e8cbc284b98.md)
@@ -103,7 +104,8 @@ This page is generated from [the index](../../json/ar/roc.json) by `scripts/buil
 ### Camicia
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/camicia/.docs/instructions.md)): [Latest](../../../locales/ar/content/db/62/fcef27d59da1ecd8287b36edfede272b9197.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/camicia/.docs/instructions.append.md)): [Latest](../../../locales/ar/content/89/55/a327021ba30259b33f888d24336465523742.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/camicia/.docs/instructions.append.md)): [Latest](../../../locales/ar/content/59/79/0c1255e8e4ad72fb44e369d7504fd307796b.md)
+  - [`8955a32702`](../../../locales/ar/content/89/55/a327021ba30259b33f888d24336465523742.md)
   - [`8777fb2c45`](../../../locales/ar/content/87/77/fb2c454e9ada224523e7c4019d29071f5bd7.md)
   - [`be8f8de6f2`](../../../locales/ar/content/be/8f/8de6f29011b2fc9e8d54ba4920c3e688cfe6.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/camicia/.docs/introduction.md)): [Latest](../../../locales/ar/content/76/1d/8a82c502ac4117787d8314c74fcf79dc5159.md)
