@@ -401,7 +401,7 @@ This page is generated from [the index](../../json/hu/elixir.json) by `scripts/b
   - [`fd9a441247`](../../../locales/hu/content/fd/9a/441247b65a9a8604f6ef581df4b1054a1fad.md)
 - `instructions.append.md` ([English](https://github.com/exercism/elixir/blob/main/exercises/practice/palindrome-products/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/ae/8f/2327e45588b6c8246902d932a574304a0b6e.md)
 
-### Pangram
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/elixir/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
   - [`d5698bc2a2`](../../../locales/hu/content/d5/69/8bc2a292baf2fb128de3543b748165088c4f.md)
@@ -814,7 +814,8 @@ This page is generated from [the index](../../json/hu/elixir.json) by `scripts/b
 
 ### Freelancer Rates (Szabadúszói díjak)
 
-- `instructions.md` ([English](https://github.com/exercism/elixir/blob/main/exercises/concept/freelancer-rates/.docs/instructions.md)): [Latest](../../../locales/hu/content/88/9f/691149f9e0a35aae497fa4580c908e25c9c3.md)
+- `instructions.md` ([English](https://github.com/exercism/elixir/blob/main/exercises/concept/freelancer-rates/.docs/instructions.md)): [Latest](../../../locales/hu/content/b1/9f/5f5836978e60e455f874f33635595667f8ca.md)
+  - [`889f691149`](../../../locales/hu/content/88/9f/691149f9e0a35aae497fa4580c908e25c9c3.md)
   - [`bfefe79a53`](../../../locales/hu/content/bf/ef/e79a53ffe07b8b10c0c7d8f8df147f6ca9a6.md)
 - `introduction.md` ([English](https://github.com/exercism/elixir/blob/main/exercises/concept/freelancer-rates/.docs/introduction.md)): [Latest](../../../locales/hu/content/81/4f/a4591937d044995d3d60b80477090aaa85c0.md)
 - `hints.md` ([English](https://github.com/exercism/elixir/blob/main/exercises/concept/freelancer-rates/.docs/hints.md)): [Latest](../../../locales/hu/content/f8/6d/948557060353e4febfafb8745834098c1913.md)
