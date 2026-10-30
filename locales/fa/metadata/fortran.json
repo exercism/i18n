@@ -143,5 +143,8 @@
   "exercise:flower-field:blurb": "همه‌ی گل‌های یک باغ را علامت بزنید.",
   "exercise:prime-factors:name": "عوامل اول",
   "exercise:prime-factors:blurb": "عوامل اول یک عدد طبیعی داده‌شده را محاسبه کنید.",
-  "exercise:prime-factors:source": "کاتای عوامل اول از Uncle Bob"
+  "exercise:prime-factors:source": "کاتای عوامل اول از Uncle Bob",
+  "exercise:game-of-life:name": "بازی زندگی کانوی",
+  "exercise:game-of-life:blurb": "بازی زندگی کانوی را پیاده‌سازی کنید.",
+  "exercise:game-of-life:source": "Wikipedia"
 }

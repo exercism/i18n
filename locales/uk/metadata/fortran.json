@@ -143,5 +143,8 @@
   "exercise:flower-field:blurb": "Позначте всі квіти в саду.",
   "exercise:prime-factors:name": "Прості множники",
   "exercise:prime-factors:blurb": "Обчислити прості множники заданого натурального числа.",
-  "exercise:prime-factors:source": "The Prime Factors Kata від Uncle Bob"
+  "exercise:prime-factors:source": "The Prime Factors Kata від Uncle Bob",
+  "exercise:game-of-life:name": "Гра життя Конвея",
+  "exercise:game-of-life:blurb": "Реалізуйте гру життя Конвея.",
+  "exercise:game-of-life:source": "Wikipedia"
 }

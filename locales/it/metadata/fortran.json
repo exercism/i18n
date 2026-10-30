@@ -143,5 +143,8 @@
   "exercise:flower-field:blurb": "Segna tutti i fiori di un giardino.",
   "exercise:prime-factors:name": "Fattori primi",
   "exercise:prime-factors:blurb": "Calcola i fattori primi di un numero naturale dato.",
-  "exercise:prime-factors:source": "The Prime Factors Kata di Uncle Bob"
+  "exercise:prime-factors:source": "The Prime Factors Kata di Uncle Bob",
+  "exercise:game-of-life:name": "Il gioco della vita di Conway",
+  "exercise:game-of-life:blurb": "Implementa il gioco della vita di Conway.",
+  "exercise:game-of-life:source": "Wikipedia"
 }

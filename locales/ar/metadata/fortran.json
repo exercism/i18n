@@ -143,5 +143,8 @@
   "exercise:flower-field:blurb": "حدّد كل الأزهار في حديقة.",
   "exercise:prime-factors:name": "العوامل الأولية",
   "exercise:prime-factors:blurb": "احسب العوامل الأولية لعدد طبيعي معطى.",
-  "exercise:prime-factors:source": "كاتا العوامل الأولية بقلم Uncle Bob"
+  "exercise:prime-factors:source": "كاتا العوامل الأولية بقلم Uncle Bob",
+  "exercise:game-of-life:name": "لعبة الحياة لـ Conway",
+  "exercise:game-of-life:blurb": "نفّذ لعبة الحياة لـ Conway.",
+  "exercise:game-of-life:source": "ويكيبيديا"
 }

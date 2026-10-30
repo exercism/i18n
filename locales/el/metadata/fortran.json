@@ -143,5 +143,8 @@
   "exercise:flower-field:blurb": "Σημείωσε όλα τα λουλούδια σε έναν κήπο.",
   "exercise:prime-factors:name": "Πρώτοι παράγοντες",
   "exercise:prime-factors:blurb": "Υπολόγισε τους πρώτους παράγοντες ενός δεδομένου φυσικού αριθμού.",
-  "exercise:prime-factors:source": "The Prime Factors Kata από τον Uncle Bob"
+  "exercise:prime-factors:source": "The Prime Factors Kata από τον Uncle Bob",
+  "exercise:game-of-life:name": "Το Παιχνίδι της Ζωής του Conway",
+  "exercise:game-of-life:blurb": "Υλοποίησε το Παιχνίδι της Ζωής του Conway.",
+  "exercise:game-of-life:source": "Wikipedia"
 }

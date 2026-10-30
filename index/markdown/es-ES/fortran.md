@@ -45,6 +45,11 @@ This page is generated from [the index](../../json/es-ES/fortran.json) by `scrip
 - `instructions.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/practice/collatz-conjecture/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/af/33/2a810f0f31aa1233e92bea57721d3025f4e0.md)
 - `introduction.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/practice/collatz-conjecture/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/c3/5b/deb67dceef4bf9769dbbf473e841cdd068f2.md)
 
+### Conway's Game of Life (El juego de la vida de Conway)
+
+- `instructions.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/practice/game-of-life/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/49/53/1406489df7cb6954979f2bf223729a268e22.md)
+- `introduction.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/practice/game-of-life/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/23/47/b936e442ec74936e574d83b9e845d8068f33.md)
+
 ### Darts (Dardos)
 
 - `instructions.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/practice/darts/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/65/18/201c77f96397a5b3e5e572de5a6778136ee0.md)

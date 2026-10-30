@@ -143,5 +143,8 @@
   "exercise:flower-field:blurb": "정원에 있는 꽃을 모두 표시해요.",
   "exercise:prime-factors:name": "소인수",
   "exercise:prime-factors:blurb": "주어진 자연수의 소인수를 구해요.",
-  "exercise:prime-factors:source": "Uncle Bob의 Prime Factors Kata"
+  "exercise:prime-factors:source": "Uncle Bob의 Prime Factors Kata",
+  "exercise:game-of-life:name": "콘웨이의 생명 게임",
+  "exercise:game-of-life:blurb": "콘웨이의 생명 게임을 구현해요.",
+  "exercise:game-of-life:source": "Wikipedia"
 }

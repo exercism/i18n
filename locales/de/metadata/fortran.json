@@ -143,5 +143,8 @@
   "exercise:flower-field:blurb": "Markiere alle Blumen in einem Garten.",
   "exercise:prime-factors:name": "Primfaktoren",
   "exercise:prime-factors:blurb": "Berechne die Primfaktoren einer gegebenen natürlichen Zahl.",
-  "exercise:prime-factors:source": "Die Prime Factors Kata von Uncle Bob"
+  "exercise:prime-factors:source": "Die Prime Factors Kata von Uncle Bob",
+  "exercise:game-of-life:name": "Conways Spiel des Lebens",
+  "exercise:game-of-life:blurb": "Implementiere Conways Spiel des Lebens.",
+  "exercise:game-of-life:source": "Wikipedia"
 }

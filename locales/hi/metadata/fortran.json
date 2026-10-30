@@ -143,5 +143,8 @@
   "exercise:flower-field:blurb": "बगीचे के सभी फूलों को चिह्नित कीजिए।",
   "exercise:prime-factors:name": "अभाज्य गुणनखंड",
   "exercise:prime-factors:blurb": "दी गई प्राकृत संख्या के अभाज्य गुणनखंड निकालिए।",
-  "exercise:prime-factors:source": "Uncle Bob का Prime Factors Kata"
+  "exercise:prime-factors:source": "Uncle Bob का Prime Factors Kata",
+  "exercise:game-of-life:name": "Conway's Game of Life",
+  "exercise:game-of-life:blurb": "Conway's Game of Life लागू कीजिए।",
+  "exercise:game-of-life:source": "Wikipedia"
 }

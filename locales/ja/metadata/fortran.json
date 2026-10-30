@@ -143,5 +143,8 @@
   "exercise:flower-field:blurb": "庭にあるすべての花に印を付けます。",
   "exercise:prime-factors:name": "素因数",
   "exercise:prime-factors:blurb": "与えられた自然数の素因数を計算します。",
-  "exercise:prime-factors:source": "Uncle BobによるThe Prime Factors Kata"
+  "exercise:prime-factors:source": "Uncle BobによるThe Prime Factors Kata",
+  "exercise:game-of-life:name": "コンウェイのライフゲーム",
+  "exercise:game-of-life:blurb": "コンウェイのライフゲームを実装します。",
+  "exercise:game-of-life:source": "Wikipedia"
 }

@@ -143,5 +143,8 @@
   "exercise:flower-field:blurb": "Jelöld meg a kert összes virágát.",
   "exercise:prime-factors:name": "Prímtényezők",
   "exercise:prime-factors:blurb": "Számítsd ki egy adott természetes szám prímtényezőit.",
-  "exercise:prime-factors:source": "The Prime Factors Kata, Uncle Bob tollából."
+  "exercise:prime-factors:source": "The Prime Factors Kata, Uncle Bob tollából.",
+  "exercise:game-of-life:name": "Conway életjátéka",
+  "exercise:game-of-life:blurb": "Valósítsd meg Conway életjátékát.",
+  "exercise:game-of-life:source": "Wikipedia"
 }

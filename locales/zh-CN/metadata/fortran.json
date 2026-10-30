@@ -143,5 +143,8 @@
   "exercise:flower-field:blurb": "标出花园里所有的花。",
   "exercise:prime-factors:name": "质因数",
   "exercise:prime-factors:blurb": "计算给定自然数的质因数。",
-  "exercise:prime-factors:source": "由 Uncle Bob 编写的 The Prime Factors Kata"
+  "exercise:prime-factors:source": "由 Uncle Bob 编写的 The Prime Factors Kata",
+  "exercise:game-of-life:name": "康威生命游戏",
+  "exercise:game-of-life:blurb": "实现康威生命游戏。",
+  "exercise:game-of-life:source": "Wikipedia"
 }
