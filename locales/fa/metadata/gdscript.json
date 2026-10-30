@@ -227,5 +227,8 @@
   "exercise:linked-list:blurb": "یک لیست پیوندی دوطرفه پیاده‌سازی کنید.",
   "exercise:linked-list:source": "موضوعی کلاسیک در علوم کامپیوتر",
   "exercise:flower-field:name": "دشت گل",
-  "exercise:flower-field:blurb": "همه‌ی گل‌های یک باغ را علامت بزنید."
+  "exercise:flower-field:blurb": "همه‌ی گل‌های یک باغ را علامت بزنید.",
+  "exercise:robot-name:name": "اسم ربات",
+  "exercise:robot-name:blurb": "تنظیمات کارخانه‌ی ربات را مدیریت کنید.",
+  "exercise:robot-name:source": "یک جلسه‌ی debug با Paul Blackwell در gSchool."
 }

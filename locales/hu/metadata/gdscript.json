@@ -227,5 +227,8 @@
   "exercise:linked-list:blurb": "Valósíts meg egy kétszeresen láncolt listát.",
   "exercise:linked-list:source": "Klasszikus számítástudományi téma",
   "exercise:flower-field:name": "Virágmező",
-  "exercise:flower-field:blurb": "Jelöld meg a kert összes virágát."
+  "exercise:flower-field:blurb": "Jelöld meg a kert összes virágát.",
+  "exercise:robot-name:name": "Robotnév",
+  "exercise:robot-name:blurb": "Kezeld a robotgyár beállításait.",
+  "exercise:robot-name:source": "Hibakeresési munkamenet Paul Blackwell-lel a gSchoolban."
 }

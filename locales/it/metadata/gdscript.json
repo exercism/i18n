@@ -227,5 +227,8 @@
   "exercise:linked-list:blurb": "Implementa una lista doppiamente concatenata.",
   "exercise:linked-list:source": "Argomento classico dell'informatica",
   "exercise:flower-field:name": "Campo di fiori",
-  "exercise:flower-field:blurb": "Segna tutti i fiori di un giardino."
+  "exercise:flower-field:blurb": "Segna tutti i fiori di un giardino.",
+  "exercise:robot-name:name": "Nome del robot",
+  "exercise:robot-name:blurb": "Gestisci le impostazioni di una fabbrica di robot.",
+  "exercise:robot-name:source": "Una sessione di debug con Paul Blackwell a gSchool."
 }

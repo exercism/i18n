@@ -236,6 +236,10 @@ This page is generated from [the index](../../json/hi/gdscript.json) by `scripts
 - `instructions.append.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/reverse-string/.docs/instructions.append.md)): [Latest](../../../locales/hi/content/73/cd/bb6d193818766f94c10e9074f5a6dc5fe625.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/reverse-string/.docs/introduction.md)): [Latest](../../../locales/hi/content/02/23/3e0755e8aa76ba1fa8d6f7f05ae17ff9cc70.md)
 
+### Robot Name (रोबोट का नाम)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/robot-name/.docs/instructions.md)): [Latest](../../../locales/hi/content/fc/a3/a41aeccc9ce1e2839ec947ffcf8e6ef8e2bb.md)
+
 ### Robot Simulator (रोबोट सिम्युलेटर)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/robot-simulator/.docs/instructions.md)): [Latest](../../../locales/hi/content/0a/c9/6ce0bdfd660ca416dd86b21f64517fa33eb9.md)

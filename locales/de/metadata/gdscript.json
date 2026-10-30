@@ -227,5 +227,8 @@
   "exercise:linked-list:blurb": "Implementiere eine doppelt verkettete Liste.",
   "exercise:linked-list:source": "Klassisches Thema der Informatik",
   "exercise:flower-field:name": "Blumenfeld",
-  "exercise:flower-field:blurb": "Markiere alle Blumen in einem Garten."
+  "exercise:flower-field:blurb": "Markiere alle Blumen in einem Garten.",
+  "exercise:robot-name:name": "Robotername",
+  "exercise:robot-name:blurb": "Verwalte die Einstellungen einer Roboterfabrik.",
+  "exercise:robot-name:source": "Eine Debugging-Sitzung mit Paul Blackwell bei gSchool."
 }

@@ -227,5 +227,8 @@
   "exercise:linked-list:blurb": "实现一个双向链表。",
   "exercise:linked-list:source": "经典的计算机科学主题",
   "exercise:flower-field:name": "花田",
-  "exercise:flower-field:blurb": "标出花园里所有的花。"
+  "exercise:flower-field:blurb": "标出花园里所有的花。",
+  "exercise:robot-name:name": "机器人名字",
+  "exercise:robot-name:blurb": "管理机器人出厂设置。",
+  "exercise:robot-name:source": "与 Paul Blackwell 在 gSchool 进行的一次调试会话。"
 }

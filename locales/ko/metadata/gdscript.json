@@ -227,5 +227,8 @@
   "exercise:linked-list:blurb": "이중 연결 리스트를 구현해요.",
   "exercise:linked-list:source": "고전적인 컴퓨터 과학 주제",
   "exercise:flower-field:name": "꽃밭",
-  "exercise:flower-field:blurb": "정원에 있는 꽃을 모두 표시해요."
+  "exercise:flower-field:blurb": "정원에 있는 꽃을 모두 표시해요.",
+  "exercise:robot-name:name": "로봇 이름",
+  "exercise:robot-name:blurb": "로봇 공장 설정을 관리해요.",
+  "exercise:robot-name:source": "gSchool에서 Paul Blackwell과 함께한 디버깅 세션."
 }

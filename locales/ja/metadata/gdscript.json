@@ -227,5 +227,8 @@
   "exercise:linked-list:blurb": "双方向連結リストを実装します。",
   "exercise:linked-list:source": "コンピューターサイエンスの定番のテーマ",
   "exercise:flower-field:name": "花畑",
-  "exercise:flower-field:blurb": "庭にあるすべての花に印を付けます。"
+  "exercise:flower-field:blurb": "庭にあるすべての花に印を付けます。",
+  "exercise:robot-name:name": "ロボットの名前",
+  "exercise:robot-name:blurb": "ロボット工場の設定を管理します。",
+  "exercise:robot-name:source": "gSchoolでのPaul Blackwellとのデバッグセッション。"
 }

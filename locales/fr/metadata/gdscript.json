@@ -227,5 +227,8 @@
   "exercise:linked-list:blurb": "Implémente une liste doublement chaînée.",
   "exercise:linked-list:source": "Un classique de l'informatique.",
   "exercise:flower-field:name": "Champ de fleurs",
-  "exercise:flower-field:blurb": "Marque toutes les fleurs d'un jardin."
+  "exercise:flower-field:blurb": "Marque toutes les fleurs d'un jardin.",
+  "exercise:robot-name:name": "Nom de robot",
+  "exercise:robot-name:blurb": "Gérer les réglages d'usine des robots.",
+  "exercise:robot-name:source": "Une session de débogage avec Paul Blackwell à gSchool."
 }

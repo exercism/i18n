@@ -227,5 +227,8 @@
   "exercise:linked-list:blurb": "Implementa uma lista duplamente ligada.",
   "exercise:linked-list:source": "Tópico clássico da informática",
   "exercise:flower-field:name": "Campo de Flores",
-  "exercise:flower-field:blurb": "Marca todas as flores de um jardim."
+  "exercise:flower-field:blurb": "Marca todas as flores de um jardim.",
+  "exercise:robot-name:name": "Nome do robô",
+  "exercise:robot-name:blurb": "Gere as definições da fábrica de robôs.",
+  "exercise:robot-name:source": "Uma sessão de depuração com o Paul Blackwell na gSchool."
 }

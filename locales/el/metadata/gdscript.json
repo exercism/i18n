@@ -227,5 +227,8 @@
   "exercise:linked-list:blurb": "Υλοποίησε μια διπλά συνδεδεμένη λίστα.",
   "exercise:linked-list:source": "Κλασικό θέμα επιστήμης υπολογιστών",
   "exercise:flower-field:name": "Χωράφι με Λουλούδια",
-  "exercise:flower-field:blurb": "Σημείωσε όλα τα λουλούδια σε έναν κήπο."
+  "exercise:flower-field:blurb": "Σημείωσε όλα τα λουλούδια σε έναν κήπο.",
+  "exercise:robot-name:name": "Όνομα ρομπότ",
+  "exercise:robot-name:blurb": "Διαχειρίσου τις ρυθμίσεις του εργοστασίου ρομπότ.",
+  "exercise:robot-name:source": "Μια συνεδρία debugging με τον Paul Blackwell στο gSchool."
 }

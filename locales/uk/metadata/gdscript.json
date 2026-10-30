@@ -227,5 +227,8 @@
   "exercise:linked-list:blurb": "Реалізуйте двобічно звʼязаний список.",
   "exercise:linked-list:source": "Класична тема з інформатики",
   "exercise:flower-field:name": "Квіткове поле",
-  "exercise:flower-field:blurb": "Позначте всі квіти в саду."
+  "exercise:flower-field:blurb": "Позначте всі квіти в саду.",
+  "exercise:robot-name:name": "Імʼя робота",
+  "exercise:robot-name:blurb": "Керуйте налаштуваннями фабрики роботів.",
+  "exercise:robot-name:source": "Сеанс налагодження з Paul Blackwell у gSchool."
 }

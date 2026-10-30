@@ -227,5 +227,8 @@
   "exercise:linked-list:blurb": "एक डबल लिंक्ड लिस्ट बनाइए।",
   "exercise:linked-list:source": "कंप्यूटर विज्ञान का एक क्लासिक विषय",
   "exercise:flower-field:name": "फूलों का खेत",
-  "exercise:flower-field:blurb": "बगीचे के सभी फूलों को चिह्नित कीजिए।"
+  "exercise:flower-field:blurb": "बगीचे के सभी फूलों को चिह्नित कीजिए।",
+  "exercise:robot-name:name": "रोबोट का नाम",
+  "exercise:robot-name:blurb": "रोबोट फैक्ट्री की सेटिंग्स संभालिए।",
+  "exercise:robot-name:source": "gSchool में Paul Blackwell के साथ एक डीबगिंग सेशन।"
 }

@@ -227,5 +227,8 @@
   "exercise:linked-list:blurb": "Implemente uma lista duplamente encadeada.",
   "exercise:linked-list:source": "Tópico clássico da ciência da computação",
   "exercise:flower-field:name": "Campo de flores",
-  "exercise:flower-field:blurb": "Marque todas as flores de um jardim."
+  "exercise:flower-field:blurb": "Marque todas as flores de um jardim.",
+  "exercise:robot-name:name": "Nome do robô",
+  "exercise:robot-name:blurb": "Gerencie as configurações da fábrica de robôs.",
+  "exercise:robot-name:source": "Uma sessão de depuração com Paul Blackwell na gSchool."
 }

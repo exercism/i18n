@@ -227,5 +227,8 @@
   "exercise:linked-list:blurb": "نفّذ قائمة مترابطة مزدوجة.",
   "exercise:linked-list:source": "موضوع كلاسيكي في علوم الحاسوب",
   "exercise:flower-field:name": "حقل الأزهار",
-  "exercise:flower-field:blurb": "حدّد كل الأزهار في حديقة."
+  "exercise:flower-field:blurb": "حدّد كل الأزهار في حديقة.",
+  "exercise:robot-name:name": "اسم الروبوت",
+  "exercise:robot-name:blurb": "أدِر إعدادات مصنع الروبوتات.",
+  "exercise:robot-name:source": "جلسة تصحيح أخطاء مع Paul Blackwell في gSchool."
 }

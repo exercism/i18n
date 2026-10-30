@@ -227,5 +227,8 @@
   "exercise:linked-list:blurb": "একটি ডাবলি লিংকড লিস্ট বাস্তবায়ন করুন।",
   "exercise:linked-list:source": "কম্পিউটার সায়েন্সের একটি চিরায়ত বিষয়",
   "exercise:flower-field:name": "ফুলের ক্ষেত",
-  "exercise:flower-field:blurb": "একটি বাগানের সব ফুল চিহ্নিত করুন।"
+  "exercise:flower-field:blurb": "একটি বাগানের সব ফুল চিহ্নিত করুন।",
+  "exercise:robot-name:name": "রোবটের নাম",
+  "exercise:robot-name:blurb": "রোবট ফ্যাক্টরির সেটিংস পরিচালনা করুন।",
+  "exercise:robot-name:source": "gSchool-এ Paul Blackwell-এর সঙ্গে একটি ডিবাগিং সেশন।"
 }
