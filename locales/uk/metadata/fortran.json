@@ -140,5 +140,8 @@
   "exercise:all-your-base:name": "All Your Base",
   "exercise:all-your-base:blurb": "Перетворіть число, подане як послідовність цифр в одній основі, на будь-яку іншу основу.",
   "exercise:flower-field:name": "Квіткове поле",
-  "exercise:flower-field:blurb": "Позначте всі квіти в саду."
+  "exercise:flower-field:blurb": "Позначте всі квіти в саду.",
+  "exercise:prime-factors:name": "Прості множники",
+  "exercise:prime-factors:blurb": "Обчислити прості множники заданого натурального числа.",
+  "exercise:prime-factors:source": "The Prime Factors Kata від Uncle Bob"
 }

@@ -140,5 +140,8 @@
   "exercise:all-your-base:name": "All Your Base",
   "exercise:all-your-base:blurb": "Μετέτρεψε έναν αριθμό, που αναπαρίσταται ως ακολουθία ψηφίων σε μια βάση, σε οποιαδήποτε άλλη βάση.",
   "exercise:flower-field:name": "Χωράφι με Λουλούδια",
-  "exercise:flower-field:blurb": "Σημείωσε όλα τα λουλούδια σε έναν κήπο."
+  "exercise:flower-field:blurb": "Σημείωσε όλα τα λουλούδια σε έναν κήπο.",
+  "exercise:prime-factors:name": "Πρώτοι παράγοντες",
+  "exercise:prime-factors:blurb": "Υπολόγισε τους πρώτους παράγοντες ενός δεδομένου φυσικού αριθμού.",
+  "exercise:prime-factors:source": "The Prime Factors Kata από τον Uncle Bob"
 }

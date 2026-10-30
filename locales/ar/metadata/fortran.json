@@ -140,5 +140,8 @@
   "exercise:all-your-base:name": "All Your Base",
   "exercise:all-your-base:blurb": "حوّل عددًا، ممثَّلًا كتسلسل من الأرقام في أساس ما، إلى أي أساس آخر.",
   "exercise:flower-field:name": "حقل الأزهار",
-  "exercise:flower-field:blurb": "حدّد كل الأزهار في حديقة."
+  "exercise:flower-field:blurb": "حدّد كل الأزهار في حديقة.",
+  "exercise:prime-factors:name": "العوامل الأولية",
+  "exercise:prime-factors:blurb": "احسب العوامل الأولية لعدد طبيعي معطى.",
+  "exercise:prime-factors:source": "كاتا العوامل الأولية بقلم Uncle Bob"
 }

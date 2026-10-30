@@ -140,5 +140,8 @@
   "exercise:all-your-base:name": "All Your Base",
   "exercise:all-your-base:blurb": "Wandle eine Zahl, die als Ziffernfolge in einer Basis dargestellt ist, in eine beliebige andere Basis um.",
   "exercise:flower-field:name": "Blumenfeld",
-  "exercise:flower-field:blurb": "Markiere alle Blumen in einem Garten."
+  "exercise:flower-field:blurb": "Markiere alle Blumen in einem Garten.",
+  "exercise:prime-factors:name": "Primfaktoren",
+  "exercise:prime-factors:blurb": "Berechne die Primfaktoren einer gegebenen natürlichen Zahl.",
+  "exercise:prime-factors:source": "Die Prime Factors Kata von Uncle Bob"
 }

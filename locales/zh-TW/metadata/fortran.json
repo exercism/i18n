@@ -140,5 +140,8 @@
   "exercise:all-your-base:name": "All Your Base",
   "exercise:all-your-base:blurb": "將以某個進位的一串數字所表示的數，轉換成任意其他進位。",
   "exercise:flower-field:name": "花田",
-  "exercise:flower-field:blurb": "標出花園裡所有的花。"
+  "exercise:flower-field:blurb": "標出花園裡所有的花。",
+  "exercise:prime-factors:name": "質因數",
+  "exercise:prime-factors:blurb": "計算指定自然數的質因數。",
+  "exercise:prime-factors:source": "出自 Uncle Bob 的 The Prime Factors Kata。"
 }

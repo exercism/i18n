@@ -140,5 +140,8 @@
   "exercise:all-your-base:name": "All Your Base",
   "exercise:all-your-base:blurb": "把一个用某种进制的数字序列表示的数转换成任意其他进制。",
   "exercise:flower-field:name": "花田",
-  "exercise:flower-field:blurb": "标出花园里所有的花。"
+  "exercise:flower-field:blurb": "标出花园里所有的花。",
+  "exercise:prime-factors:name": "质因数",
+  "exercise:prime-factors:blurb": "计算给定自然数的质因数。",
+  "exercise:prime-factors:source": "由 Uncle Bob 编写的 The Prime Factors Kata"
 }

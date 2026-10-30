@@ -154,6 +154,10 @@ This page is generated from [the index](../../json/hu/fortran.json) by `scripts/
 - `instructions.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/practice/perfect-numbers/.docs/instructions.md)): [Latest](../../../locales/hu/content/b2/bc/82ca3e9110b4fd7c2c7501f5bca0f5214cd2.md)
   - [`144c9133e4`](../../../locales/hu/content/14/4c/9133e45de7c49a649b8efef1f64c7d2d8c9c.md)
 
+### Prime Factors (Prímtényezők)
+
+- `instructions.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/practice/prime-factors/.docs/instructions.md)): [Latest](../../../locales/hu/content/25/2c/c8ee1853f4d7f7721273eee09e988a2f7421.md)
+
 ### Protein Translation (Fehérjetranszláció)
 
 - `instructions.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/practice/protein-translation/.docs/instructions.md)): [Latest](../../../locales/hu/content/35/c9/53b11f9642c30978222e743aff4dc38f1451.md)

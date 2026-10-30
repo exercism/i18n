@@ -140,5 +140,8 @@
   "exercise:all-your-base:name": "অল ইওর বেস",
   "exercise:all-your-base:blurb": "একটি বেসে অঙ্কের ক্রম হিসেবে লেখা একটি সংখ্যাকে যেকোনো অন্য বেসে রূপান্তর করুন।",
   "exercise:flower-field:name": "ফুলের ক্ষেত",
-  "exercise:flower-field:blurb": "একটি বাগানের সব ফুল চিহ্নিত করুন।"
+  "exercise:flower-field:blurb": "একটি বাগানের সব ফুল চিহ্নিত করুন।",
+  "exercise:prime-factors:name": "মৌলিক গুণনীয়ক",
+  "exercise:prime-factors:blurb": "প্রদত্ত একটি স্বাভাবিক সংখ্যার মৌলিক গুণনীয়ক নির্ণয় করুন।",
+  "exercise:prime-factors:source": "Uncle Bob-এর The Prime Factors Kata"
 }

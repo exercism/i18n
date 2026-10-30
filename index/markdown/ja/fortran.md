@@ -133,6 +133,10 @@ This page is generated from [the index](../../json/ja/fortran.json) by `scripts/
 
 - `instructions.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/practice/perfect-numbers/.docs/instructions.md)): [Latest](../../../locales/ja/content/b2/bc/82ca3e9110b4fd7c2c7501f5bca0f5214cd2.md)
 
+### Prime Factors (素因数)
+
+- `instructions.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/practice/prime-factors/.docs/instructions.md)): [Latest](../../../locales/ja/content/25/2c/c8ee1853f4d7f7721273eee09e988a2f7421.md)
+
 ### Protein Translation (タンパク質の翻訳)
 
 - `instructions.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/practice/protein-translation/.docs/instructions.md)): [Latest](../../../locales/ja/content/35/c9/53b11f9642c30978222e743aff4dc38f1451.md)

@@ -140,5 +140,8 @@
   "exercise:all-your-base:name": "All Your Base",
   "exercise:all-your-base:blurb": "Alakíts át egy számot, amely egy adott számrendszer számjegyeinek sorozataként áll elő, bármely más számrendszerbe.",
   "exercise:flower-field:name": "Virágmező",
-  "exercise:flower-field:blurb": "Jelöld meg a kert összes virágát."
+  "exercise:flower-field:blurb": "Jelöld meg a kert összes virágát.",
+  "exercise:prime-factors:name": "Prímtényezők",
+  "exercise:prime-factors:blurb": "Számítsd ki egy adott természetes szám prímtényezőit.",
+  "exercise:prime-factors:source": "The Prime Factors Kata, Uncle Bob tollából."
 }

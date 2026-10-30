@@ -140,5 +140,8 @@
   "exercise:all-your-base:name": "All Your Base",
   "exercise:all-your-base:blurb": "어떤 진법에서 숫자 열로 표현된 수를 다른 진법으로 변환해요.",
   "exercise:flower-field:name": "꽃밭",
-  "exercise:flower-field:blurb": "정원에 있는 꽃을 모두 표시해요."
+  "exercise:flower-field:blurb": "정원에 있는 꽃을 모두 표시해요.",
+  "exercise:prime-factors:name": "소인수",
+  "exercise:prime-factors:blurb": "주어진 자연수의 소인수를 구해요.",
+  "exercise:prime-factors:source": "Uncle Bob의 Prime Factors Kata"
 }

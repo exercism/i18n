@@ -140,5 +140,8 @@
   "exercise:all-your-base:name": "All Your Base",
   "exercise:all-your-base:blurb": "Convertis un nombre, représenté comme une suite de chiffres dans une base, vers n'importe quelle autre base.",
   "exercise:flower-field:name": "Champ de fleurs",
-  "exercise:flower-field:blurb": "Marque toutes les fleurs d'un jardin."
+  "exercise:flower-field:blurb": "Marque toutes les fleurs d'un jardin.",
+  "exercise:prime-factors:name": "Facteurs premiers",
+  "exercise:prime-factors:blurb": "Calcule les facteurs premiers d'un nombre naturel donné.",
+  "exercise:prime-factors:source": "Le kata Prime Factors d'Uncle Bob"
 }

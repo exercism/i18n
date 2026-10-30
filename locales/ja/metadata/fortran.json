@@ -140,5 +140,8 @@
   "exercise:all-your-base:name": "All Your Base",
   "exercise:all-your-base:blurb": "ある基数の桁の並びとして表された数値を、別の基数に変換してください。",
   "exercise:flower-field:name": "花畑",
-  "exercise:flower-field:blurb": "庭にあるすべての花に印を付けます。"
+  "exercise:flower-field:blurb": "庭にあるすべての花に印を付けます。",
+  "exercise:prime-factors:name": "素因数",
+  "exercise:prime-factors:blurb": "与えられた自然数の素因数を計算します。",
+  "exercise:prime-factors:source": "Uncle BobによるThe Prime Factors Kata"
 }
