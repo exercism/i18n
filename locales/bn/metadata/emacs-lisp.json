@@ -306,5 +306,11 @@
   "doc:tests:title": "Emacs Lisp ট্র্যাকে পরীক্ষা করা",
   "doc:tests:blurb": "Exercism-এ আপনার Emacs Lisp অনুশীলনীগুলো পরীক্ষা করার উপায় শিখুন",
   "doc:resources:title": "কাজের Emacs Lisp রিসোর্স",
-  "doc:resources:blurb": "Emacs Lisp-এ দক্ষতা অর্জনে সহায়ক কাজের রিসোর্সের সংগ্রহ"
+  "doc:resources:blurb": "Emacs Lisp-এ দক্ষতা অর্জনে সহায়ক কাজের রিসোর্সের সংগ্রহ",
+  "exercise:palindrome-products:name": "প্যালিনড্রোম গুণফল",
+  "exercise:piecing-it-together:name": "টুকরো জোড়া লাগানো",
+  "exercise:palindrome-products:blurb": "প্রদত্ত একটি পরিসরে প্যালিনড্রোম গুণফল শনাক্ত করুন।",
+  "exercise:palindrome-products:source": "Project Euler-এর Problem 4।",
+  "exercise:piecing-it-together:blurb": "আংশিক তথ্য থেকে জিগস পাজলের অনুপস্থিত বিবরণ পূরণ করুন",
+  "exercise:piecing-it-together:source": "atk সবে আরেকটি ১০০০ টুকরোর জিগস পাজল শুরু করেছিলেন, তখনই এই ধারণাটি তার মাথায় আসে"
 }

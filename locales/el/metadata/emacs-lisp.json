@@ -306,5 +306,11 @@
   "doc:tests:title": "Δοκιμές στην πίστα Emacs Lisp",
   "doc:tests:blurb": "Μάθε πώς να δοκιμάζεις τις ασκήσεις σου στην Emacs Lisp στο Exercism",
   "doc:resources:title": "Χρήσιμοι πόροι για την Emacs Lisp",
-  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων για να σε βοηθήσουν να κατακτήσεις την Emacs Lisp"
+  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων για να σε βοηθήσουν να κατακτήσεις την Emacs Lisp",
+  "exercise:palindrome-products:name": "Παλίνδρομα γινόμενα",
+  "exercise:piecing-it-together:name": "Ενώνοντας τα κομμάτια",
+  "exercise:palindrome-products:blurb": "Εντόπισε παλίνδρομα γινόμενα σε ένα δεδομένο εύρος.",
+  "exercise:palindrome-products:source": "Το πρόβλημα 4 στο Project Euler",
+  "exercise:piecing-it-together:blurb": "Συμπλήρωσε τις λεπτομέρειες που λείπουν σε ένα παζλ, με βάση μερικά δεδομένα",
+  "exercise:piecing-it-together:source": "Ο atk μόλις ξεκίνησε ακόμα ένα παζλ 1000 κομματιών, όταν του ήρθε αυτή η ιδέα"
 }

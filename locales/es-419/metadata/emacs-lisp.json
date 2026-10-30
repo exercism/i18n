@@ -306,5 +306,11 @@
   "doc:tests:title": "Probar en la pista de Emacs Lisp",
   "doc:tests:blurb": "Aprende a probar tus ejercicios de Emacs Lisp en Exercism",
   "doc:resources:title": "Recursos útiles de Emacs Lisp",
-  "doc:resources:blurb": "Una colección de recursos útiles para ayudarte a dominar Emacs Lisp"
+  "doc:resources:blurb": "Una colección de recursos útiles para ayudarte a dominar Emacs Lisp",
+  "exercise:palindrome-products:name": "Productos palíndromos",
+  "exercise:piecing-it-together:name": "Uniendo las piezas",
+  "exercise:palindrome-products:blurb": "Detecta productos palíndromos en un rango dado.",
+  "exercise:palindrome-products:source": "Problema 4 de Project Euler",
+  "exercise:piecing-it-together:blurb": "Completa los detalles que faltan de un rompecabezas a partir de datos parciales",
+  "exercise:piecing-it-together:source": "A atk se le ocurrió esta idea cuando empezaba otro rompecabezas de 1000 piezas"
 }

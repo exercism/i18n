@@ -306,5 +306,11 @@
   "doc:tests:title": "Emacs Lisp 赛道上的测试",
   "doc:tests:blurb": "了解如何在 Exercism 上测试你的 Emacs Lisp 练习",
   "doc:resources:title": "实用的 Emacs Lisp 资源",
-  "doc:resources:blurb": "一系列实用资源，帮助你精通 Emacs Lisp"
+  "doc:resources:blurb": "一系列实用资源，帮助你精通 Emacs Lisp",
+  "exercise:palindrome-products:name": "回文乘积",
+  "exercise:piecing-it-together:name": "拼凑起来",
+  "exercise:palindrome-products:blurb": "在给定范围内找出回文乘积。",
+  "exercise:palindrome-products:source": "Project Euler 第 4 题",
+  "exercise:piecing-it-together:blurb": "根据不完整的数据补全拼图中缺失的细节。",
+  "exercise:piecing-it-together:source": "atk 刚开始拼另一幅 1000 片的拼图时，冒出了这个想法"
 }

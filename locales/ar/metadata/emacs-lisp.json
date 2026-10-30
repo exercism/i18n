@@ -306,5 +306,11 @@
   "doc:tests:title": "الاختبار في مسار Emacs Lisp",
   "doc:tests:blurb": "تعلّم كيفية اختبار تمارين Emacs Lisp على Exercism",
   "doc:resources:title": "مصادر مفيدة عن Emacs Lisp",
-  "doc:resources:blurb": "مجموعة من المصادر المفيدة لمساعدتك على إتقان Emacs Lisp"
+  "doc:resources:blurb": "مجموعة من المصادر المفيدة لمساعدتك على إتقان Emacs Lisp",
+  "exercise:palindrome-products:name": "حاصلات ضرب متناظرة",
+  "exercise:piecing-it-together:name": "تجميع القطع معًا",
+  "exercise:palindrome-products:blurb": "اكتشف حاصلات الضرب المتناظرة ضمن نطاق معطى.",
+  "exercise:palindrome-products:source": "المسألة 4 في Project Euler",
+  "exercise:piecing-it-together:blurb": "أكمل تفاصيل قطع الأحجية الناقصة انطلاقًا من بيانات جزئية",
+  "exercise:piecing-it-together:source": "atk كان قد بدأ للتو أحجية صور مقطوعة أخرى من 1000 قطعة عندما خطرت له هذه الفكرة"
 }

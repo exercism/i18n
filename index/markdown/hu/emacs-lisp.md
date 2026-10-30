@@ -277,7 +277,12 @@ This page is generated from [the index](../../json/hu/emacs-lisp.json) by `scrip
   - [`cd08758943`](../../../locales/hu/content/cd/08/7589436f87eb6352dc6a86b5bed2f0e3b804.md)
 - `hints.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/nucleotide-count/.docs/hints.md)): [Latest](../../../locales/hu/content/33/20/02fcc19019a39455410569003cf43b76f53c.md)
 
-### Pangram
+### Palindrome Products (Palindrom szorzatok)
+
+- `instructions.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/palindrome-products/.docs/instructions.md)): [Latest](../../../locales/hu/content/aa/c6/6521ce736be8ce737ea709a5b1eed507cbb8.md)
+- `instructions.append.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/palindrome-products/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/09/52/dae22a781df325e1f0a29b37191cfa6a29c2.md)
+
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
   - [`d5698bc2a2`](../../../locales/hu/content/d5/69/8bc2a292baf2fb128de3543b748165088c4f.md)
@@ -307,6 +312,12 @@ This page is generated from [the index](../../json/hu/emacs-lisp.json) by `scrip
   - [`6e36daefe7`](../../../locales/hu/content/6e/36/daefe7c70ec2893761f126bbe7ba38cf6dd5.md)
 - `instructions.append.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/phone-number/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/69/51/460e2f618f438e5a5f8fb1a2460d176dafc7.md)
 - `introduction.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/phone-number/.docs/introduction.md)): [Latest](../../../locales/hu/content/c4/14/2c5af7289f74bf05d04c4563e2968a639cd2.md)
+
+### Piecing It Together (Kirakjuk a képet)
+
+- `instructions.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/piecing-it-together/.docs/instructions.md)): [Latest](../../../locales/hu/content/8a/27/81d9940a88c49e714173b7e930e687650b90.md)
+- `instructions.append.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/piecing-it-together/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/09/96/315093f94236c38836b863512420269cdb05.md)
+- `introduction.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/piecing-it-together/.docs/introduction.md)): [Latest](../../../locales/hu/content/2f/a2/0f6c5c0ac43ce432b6f518b599d7d4c473f6.md)
 
 ### Pig Latin (Malaclatin)
 

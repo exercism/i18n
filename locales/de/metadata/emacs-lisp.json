@@ -306,5 +306,11 @@
   "doc:tests:title": "Testen im Emacs-Lisp-Track",
   "doc:tests:blurb": "Lerne, wie du deine Emacs-Lisp-Übungen auf Exercism testest",
   "doc:resources:title": "Nützliche Ressourcen zu Emacs Lisp",
-  "doc:resources:blurb": "Eine Sammlung nützlicher Ressourcen, die dir helfen, Emacs Lisp zu meistern"
+  "doc:resources:blurb": "Eine Sammlung nützlicher Ressourcen, die dir helfen, Emacs Lisp zu meistern",
+  "exercise:palindrome-products:name": "Palindromprodukte",
+  "exercise:piecing-it-together:name": "Puzzleteile zusammensetzen",
+  "exercise:palindrome-products:blurb": "Finde Palindromprodukte in einem gegebenen Bereich.",
+  "exercise:palindrome-products:source": "Problem 4 bei Project Euler",
+  "exercise:piecing-it-together:blurb": "Ergänze fehlende Puzzledetails anhand unvollständiger Daten",
+  "exercise:piecing-it-together:source": "atk hatte gerade ein weiteres 1000-Teile-Puzzle angefangen, als ihm diese Idee kam"
 }

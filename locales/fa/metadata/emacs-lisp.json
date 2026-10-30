@@ -306,5 +306,11 @@
   "doc:tests:title": "تست کردن در مسیر Emacs Lisp",
   "doc:tests:blurb": "بیاموزید چگونه تمرین‌های Emacs Lisp خود را در Exercism تست کنید",
   "doc:resources:title": "منابع مفید Emacs Lisp",
-  "doc:resources:blurb": "مجموعه‌ای از منابع مفید که به شما کمک می‌کند در Emacs Lisp به تسلط برسید"
+  "doc:resources:blurb": "مجموعه‌ای از منابع مفید که به شما کمک می‌کند در Emacs Lisp به تسلط برسید",
+  "exercise:palindrome-products:name": "حاصل‌ضرب‌های پالیندروم",
+  "exercise:piecing-it-together:name": "کنار هم چیدن قطعه‌ها",
+  "exercise:palindrome-products:blurb": "حاصل‌ضرب‌های پالیندروم را در یک بازه‌ی داده‌شده تشخیص دهید.",
+  "exercise:palindrome-products:source": "مسئله‌ی ۴ در Project Euler",
+  "exercise:piecing-it-together:blurb": "جزئیات گم‌شده‌ی پازل را از روی داده‌های ناقص کامل کنید",
+  "exercise:piecing-it-together:source": "atk تازه داشت پازل ۱۰۰۰ تکه‌ی دیگری را می‌چید که این ایده به ذهنش رسید"
 }

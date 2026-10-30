@@ -306,5 +306,11 @@
   "doc:tests:title": "Emacs Lisp 트랙에서 테스트하기",
   "doc:tests:blurb": "Exercism에서 Emacs Lisp 연습 문제를 테스트하는 방법을 알아봐요",
   "doc:resources:title": "유용한 Emacs Lisp 자료",
-  "doc:resources:blurb": "Emacs Lisp를 능숙하게 다루는 데 도움이 되는 유용한 자료를 모아 두었어요"
+  "doc:resources:blurb": "Emacs Lisp를 능숙하게 다루는 데 도움이 되는 유용한 자료를 모아 두었어요",
+  "exercise:palindrome-products:name": "회문 곱",
+  "exercise:piecing-it-together:name": "퍼즐 맞추기",
+  "exercise:palindrome-products:blurb": "주어진 범위에서 회문이 되는 곱을 찾아내요.",
+  "exercise:palindrome-products:source": "Project Euler의 Problem 4",
+  "exercise:piecing-it-together:blurb": "일부 데이터만으로 직소 퍼즐의 빠진 세부 정보를 채워요",
+  "exercise:piecing-it-together:source": "atk이 또 다른 1000조각 직소 퍼즐을 시작했을 때 이 아이디어가 떠올랐어요"
 }

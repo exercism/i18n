@@ -240,6 +240,11 @@ This page is generated from [the index](../../json/ko/emacs-lisp.json) by `scrip
 - `instructions.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/nucleotide-count/.docs/instructions.md)): [Latest](../../../locales/ko/content/54/8d/9ba5a5ee79a79fc4ff3e1d942c6c7f7c68af.md)
 - `hints.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/nucleotide-count/.docs/hints.md)): [Latest](../../../locales/ko/content/33/20/02fcc19019a39455410569003cf43b76f53c.md)
 
+### Palindrome Products (회문 곱)
+
+- `instructions.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/palindrome-products/.docs/instructions.md)): [Latest](../../../locales/ko/content/aa/c6/6521ce736be8ce737ea709a5b1eed507cbb8.md)
+- `instructions.append.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/palindrome-products/.docs/instructions.append.md)): [Latest](../../../locales/ko/content/09/52/dae22a781df325e1f0a29b37191cfa6a29c2.md)
+
 ### Pangram (팬그램)
 
 - `instructions.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/ko/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
@@ -264,6 +269,12 @@ This page is generated from [the index](../../json/ko/emacs-lisp.json) by `scrip
 - `instructions.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/phone-number/.docs/instructions.md)): [Latest](../../../locales/ko/content/5d/4d/3739f4563d3f7781a1524df13f11cc8fbc71.md)
 - `instructions.append.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/phone-number/.docs/instructions.append.md)): [Latest](../../../locales/ko/content/69/51/460e2f618f438e5a5f8fb1a2460d176dafc7.md)
 - `introduction.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/phone-number/.docs/introduction.md)): [Latest](../../../locales/ko/content/c4/14/2c5af7289f74bf05d04c4563e2968a639cd2.md)
+
+### Piecing It Together (퍼즐 맞추기)
+
+- `instructions.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/piecing-it-together/.docs/instructions.md)): [Latest](../../../locales/ko/content/8a/27/81d9940a88c49e714173b7e930e687650b90.md)
+- `instructions.append.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/piecing-it-together/.docs/instructions.append.md)): [Latest](../../../locales/ko/content/09/96/315093f94236c38836b863512420269cdb05.md)
+- `introduction.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/piecing-it-together/.docs/introduction.md)): [Latest](../../../locales/ko/content/2f/a2/0f6c5c0ac43ce432b6f518b599d7d4c473f6.md)
 
 ### Pig Latin
 

@@ -306,5 +306,11 @@
   "doc:tests:title": "Emacs Lisp ट्रैक पर टेस्ट करना",
   "doc:tests:blurb": "सीखिए कि Exercism पर अपने Emacs Lisp अभ्यासों के टेस्ट कैसे चलाएँ",
   "doc:resources:title": "Emacs Lisp के उपयोगी संसाधन",
-  "doc:resources:blurb": "Emacs Lisp अच्छी तरह सीखने में आपकी मदद करने वाले उपयोगी संसाधनों का संग्रह"
+  "doc:resources:blurb": "Emacs Lisp अच्छी तरह सीखने में आपकी मदद करने वाले उपयोगी संसाधनों का संग्रह",
+  "exercise:palindrome-products:name": "पैलिंड्रोम गुणनफल",
+  "exercise:piecing-it-together:name": "टुकड़ों को जोड़िए",
+  "exercise:palindrome-products:blurb": "दी गई रेंज में पैलिंड्रोम गुणनफल ढूँढिए।",
+  "exercise:palindrome-products:source": "Project Euler पर Problem 4",
+  "exercise:piecing-it-together:blurb": "आंशिक डेटा से जिगसॉ पहेली की छूटी हुई जानकारियाँ भरिए",
+  "exercise:piecing-it-together:source": "जब atk ने अभी-अभी एक और 1000 टुकड़ों वाली जिगसॉ पहेली शुरू की थी, तभी उन्हें यह विचार आया"
 }

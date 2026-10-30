@@ -306,5 +306,11 @@
   "doc:tests:title": "Emacs Lispトラックでのテスト",
   "doc:tests:blurb": "ExercismでEmacs Lispの演習をテストする方法を学びます",
   "doc:resources:title": "役に立つEmacs Lispのリソース",
-  "doc:resources:blurb": "Emacs Lispの習得に役立つリソースをまとめました"
+  "doc:resources:blurb": "Emacs Lispの習得に役立つリソースをまとめました",
+  "exercise:palindrome-products:name": "回文の積",
+  "exercise:piecing-it-together:name": "パズルを組み立てる",
+  "exercise:palindrome-products:blurb": "与えられた範囲の中から、回文になる積を見つけます。",
+  "exercise:palindrome-products:source": "Project EulerのProblem 4",
+  "exercise:piecing-it-together:blurb": "一部のデータから、欠けているジグソーパズルの情報を補います。",
+  "exercise:piecing-it-together:source": "atkが新たに1000ピースのジグソーパズルを始めたとき、このアイデアが浮かびました。"
 }

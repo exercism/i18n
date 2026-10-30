@@ -306,5 +306,11 @@
   "doc:tests:title": "Tesztelés az Emacs Lisp kurzuson",
   "doc:tests:blurb": "Tanuld meg, hogyan tesztelheted az Emacs Lisp feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Emacs Lisp-források",
-  "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani az Emacs Lispt"
+  "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani az Emacs Lispt",
+  "exercise:palindrome-products:name": "Palindrom szorzatok",
+  "exercise:piecing-it-together:name": "Kirakjuk a képet",
+  "exercise:palindrome-products:blurb": "Keresd meg a palindrom szorzatokat egy adott tartományban.",
+  "exercise:palindrome-products:source": "A Project Euler 4. feladata",
+  "exercise:piecing-it-together:blurb": "Pótold a hiányzó kirakósrészleteket részleges adatok alapján",
+  "exercise:piecing-it-together:source": "atk épp elkezdett egy újabb 1000 darabos kirakóst, amikor eszébe jutott ez az ötlet"
 }

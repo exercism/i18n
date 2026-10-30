@@ -306,5 +306,11 @@
   "doc:tests:title": "Como testar na trilha de Emacs Lisp",
   "doc:tests:blurb": "Aprenda a testar seus exercícios de Emacs Lisp no Exercism",
   "doc:resources:title": "Recursos úteis de Emacs Lisp",
-  "doc:resources:blurb": "Uma coleção de recursos úteis para ajudar você a dominar Emacs Lisp"
+  "doc:resources:blurb": "Uma coleção de recursos úteis para ajudar você a dominar Emacs Lisp",
+  "exercise:palindrome-products:name": "Produtos Palíndromos",
+  "exercise:piecing-it-together:name": "Juntando as Peças",
+  "exercise:palindrome-products:blurb": "Detecte produtos palíndromos em um determinado intervalo.",
+  "exercise:palindrome-products:source": "Problema 4 do Project Euler",
+  "exercise:piecing-it-together:blurb": "Preencha os detalhes que faltam de um quebra-cabeça a partir de dados parciais",
+  "exercise:piecing-it-together:source": "atk estava começando mais um quebra-cabeça de 1000 peças quando teve essa ideia"
 }
