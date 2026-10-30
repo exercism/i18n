@@ -554,7 +554,8 @@ This page is generated from [the index](../../json/fr/x86-64-assembly.json) by `
 
 ### Freelancer Rates (Tarifs d'un freelance)
 
-- `instructions.md` ([English](https://github.com/exercism/x86-64-assembly/blob/main/exercises/concept/freelancer-rates/.docs/instructions.md)): [Latest](../../../locales/fr/content/a8/25/7c2a2ba3b0db268ee005f9fa2c24da82d334.md)
+- `instructions.md` ([English](https://github.com/exercism/x86-64-assembly/blob/main/exercises/concept/freelancer-rates/.docs/instructions.md)): [Latest](../../../locales/fr/content/ab/af/44d0ee1fd316f8f64f8cc1953ef92fae9687.md)
+  - [`a8257c2a2b`](../../../locales/fr/content/a8/25/7c2a2ba3b0db268ee005f9fa2c24da82d334.md)
 - `introduction.md` ([English](https://github.com/exercism/x86-64-assembly/blob/main/exercises/concept/freelancer-rates/.docs/introduction.md)): [Latest](../../../locales/fr/content/9f/2a/4a8b440ccc85ae4e865972ff7a443666d494.md)
 - `hints.md` ([English](https://github.com/exercism/x86-64-assembly/blob/main/exercises/concept/freelancer-rates/.docs/hints.md)): [Latest](../../../locales/fr/content/1a/f1/b83e95f939c49115bae901624d2e02cd5727.md)
 

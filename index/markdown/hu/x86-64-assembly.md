@@ -305,7 +305,7 @@ This page is generated from [the index](../../json/hu/x86-64-assembly.json) by `
 
 - `instructions.md` ([English](https://github.com/exercism/x86-64-assembly/blob/main/exercises/practice/palindrome-products/.docs/instructions.md)): [Latest](../../../locales/hu/content/aa/c6/6521ce736be8ce737ea709a5b1eed507cbb8.md)
 
-### Pangram
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/x86-64-assembly/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
   - [`d5698bc2a2`](../../../locales/hu/content/d5/69/8bc2a292baf2fb128de3543b748165088c4f.md)
@@ -586,7 +586,8 @@ This page is generated from [the index](../../json/hu/x86-64-assembly.json) by `
 
 ### Freelancer Rates (Szabadúszói díjak)
 
-- `instructions.md` ([English](https://github.com/exercism/x86-64-assembly/blob/main/exercises/concept/freelancer-rates/.docs/instructions.md)): [Latest](../../../locales/hu/content/a8/25/7c2a2ba3b0db268ee005f9fa2c24da82d334.md)
+- `instructions.md` ([English](https://github.com/exercism/x86-64-assembly/blob/main/exercises/concept/freelancer-rates/.docs/instructions.md)): [Latest](../../../locales/hu/content/ab/af/44d0ee1fd316f8f64f8cc1953ef92fae9687.md)
+  - [`a8257c2a2b`](../../../locales/hu/content/a8/25/7c2a2ba3b0db268ee005f9fa2c24da82d334.md)
 - `introduction.md` ([English](https://github.com/exercism/x86-64-assembly/blob/main/exercises/concept/freelancer-rates/.docs/introduction.md)): [Latest](../../../locales/hu/content/9f/2a/4a8b440ccc85ae4e865972ff7a443666d494.md)
 - `hints.md` ([English](https://github.com/exercism/x86-64-assembly/blob/main/exercises/concept/freelancer-rates/.docs/hints.md)): [Latest](../../../locales/hu/content/1a/f1/b83e95f939c49115bae901624d2e02cd5727.md)
 
