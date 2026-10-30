@@ -268,7 +268,7 @@ This page is generated from [the index](../../json/hu/cpp.json) by `scripts/buil
 - `instructions.md` ([English](https://github.com/exercism/cpp/blob/main/exercises/practice/nucleotide-count/.docs/instructions.md)): [Latest](../../../locales/hu/content/54/8d/9ba5a5ee79a79fc4ff3e1d942c6c7f7c68af.md)
   - [`cd08758943`](../../../locales/hu/content/cd/08/7589436f87eb6352dc6a86b5bed2f0e3b804.md)
 
-### Pangram
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/cpp/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
   - [`d5698bc2a2`](../../../locales/hu/content/d5/69/8bc2a292baf2fb128de3543b748165088c4f.md)
@@ -491,7 +491,8 @@ This page is generated from [the index](../../json/hu/cpp.json) by `scripts/buil
 
 ### Freelancer Rates (Szabadúszói díjak)
 
-- `instructions.md` ([English](https://github.com/exercism/cpp/blob/main/exercises/concept/freelancer-rates/.docs/instructions.md)): [Latest](../../../locales/hu/content/d6/b9/5b3ca18b04c55d4fb52adaf24f8bd46d308d.md)
+- `instructions.md` ([English](https://github.com/exercism/cpp/blob/main/exercises/concept/freelancer-rates/.docs/instructions.md)): [Latest](../../../locales/hu/content/8f/b8/5c91018df9b4f4764e795e14bcff4650d234.md)
+  - [`d6b95b3ca1`](../../../locales/hu/content/d6/b9/5b3ca18b04c55d4fb52adaf24f8bd46d308d.md)
 - `introduction.md` ([English](https://github.com/exercism/cpp/blob/main/exercises/concept/freelancer-rates/.docs/introduction.md)): [Latest](../../../locales/hu/content/83/c6/c14197189950ae793fe8b3c34e4955303edb.md)
 - `hints.md` ([English](https://github.com/exercism/cpp/blob/main/exercises/concept/freelancer-rates/.docs/hints.md)): [Latest](../../../locales/hu/content/3e/f8/8e5615cdc807f51e50149bf8252d59723bbe.md)
 

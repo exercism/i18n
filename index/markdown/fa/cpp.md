@@ -421,7 +421,8 @@ This page is generated from [the index](../../json/fa/cpp.json) by `scripts/buil
 
 ### Freelancer Rates (نرخ‌های فریلنسر)
 
-- `instructions.md` ([English](https://github.com/exercism/cpp/blob/main/exercises/concept/freelancer-rates/.docs/instructions.md)): [Latest](../../../locales/fa/content/d6/b9/5b3ca18b04c55d4fb52adaf24f8bd46d308d.md)
+- `instructions.md` ([English](https://github.com/exercism/cpp/blob/main/exercises/concept/freelancer-rates/.docs/instructions.md)): [Latest](../../../locales/fa/content/8f/b8/5c91018df9b4f4764e795e14bcff4650d234.md)
+  - [`d6b95b3ca1`](../../../locales/fa/content/d6/b9/5b3ca18b04c55d4fb52adaf24f8bd46d308d.md)
 - `introduction.md` ([English](https://github.com/exercism/cpp/blob/main/exercises/concept/freelancer-rates/.docs/introduction.md)): [Latest](../../../locales/fa/content/83/c6/c14197189950ae793fe8b3c34e4955303edb.md)
 - `hints.md` ([English](https://github.com/exercism/cpp/blob/main/exercises/concept/freelancer-rates/.docs/hints.md)): [Latest](../../../locales/fa/content/3e/f8/8e5615cdc807f51e50149bf8252d59723bbe.md)
 
