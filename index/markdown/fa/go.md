@@ -880,8 +880,8 @@ This page is generated from [the index](../../json/fa/go.json) by `scripts/build
 ### Bird Watcher (پرنده‌نگر)
 
 - `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/bird-watcher/.docs/instructions.md)): [Latest](../../../locales/fa/content/74/b6/edcc699b8f966e36cd999a82292f14410620.md)
-- `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/bird-watcher/.docs/introduction.md)): [Latest](../../../locales/fa/content/e5/ae/5d287cba59b175ed20e7cbaaec023b51881d.md)
-  - [`9414f94856`](../../../locales/fa/content/94/14/f94856c6be28f36b92d7bb8277ca85a105bf.md)
+- `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/bird-watcher/.docs/introduction.md)): [Latest](../../../locales/fa/content/94/14/f94856c6be28f36b92d7bb8277ca85a105bf.md)
+  - [`e5ae5d287c`](../../../locales/fa/content/e5/ae/5d287cba59b175ed20e7cbaaec023b51881d.md)
 - `hints.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/bird-watcher/.docs/hints.md)): [Latest](../../../locales/fa/content/dc/de/6ddc32033f6e2abc9b25ad24d50cb797d663.md)
 
 ### Blackjack (بلک‌جک)
@@ -1108,8 +1108,10 @@ This page is generated from [the index](../../json/fa/go.json) by `scripts/build
 
 ### For Loops (حلقه‌ی For)
 
-- `introduction.md` ([English](https://github.com/exercism/go/blob/main/concepts/for-loops/introduction.md)): [Latest](../../../locales/fa/content/e5/ae/5d287cba59b175ed20e7cbaaec023b51881d.md)
-- `about.md` ([English](https://github.com/exercism/go/blob/main/concepts/for-loops/about.md)): [Latest](../../../locales/fa/content/e1/38/5e1b686e0d2ce0bfd18c2caa0c4cbaf142c8.md)
+- `introduction.md` ([English](https://github.com/exercism/go/blob/main/concepts/for-loops/introduction.md)): [Latest](../../../locales/fa/content/b7/22/b9db1912732e0bcbec9b80681a2c7d7caa72.md)
+  - [`e5ae5d287c`](../../../locales/fa/content/e5/ae/5d287cba59b175ed20e7cbaaec023b51881d.md)
+- `about.md` ([English](https://github.com/exercism/go/blob/main/concepts/for-loops/about.md)): [Latest](../../../locales/fa/content/9a/7a/3eb2c120969da831641e399a22321ef18e06.md)
+  - [`e1385e1b68`](../../../locales/fa/content/e1/38/5e1b686e0d2ce0bfd18c2caa0c4cbaf142c8.md)
 
 ### Functions (تابع)
 
