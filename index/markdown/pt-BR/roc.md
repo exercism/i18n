@@ -104,8 +104,8 @@ This page is generated from [the index](../../json/pt-BR/roc.json) by `scripts/b
 ### Camicia
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/camicia/.docs/instructions.md)): [Latest](../../../locales/pt-BR/content/db/62/fcef27d59da1ecd8287b36edfede272b9197.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/camicia/.docs/instructions.append.md)): [Latest](../../../locales/pt-BR/content/89/55/a327021ba30259b33f888d24336465523742.md)
-  - [`59790c1255`](../../../locales/pt-BR/content/59/79/0c1255e8e4ad72fb44e369d7504fd307796b.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/camicia/.docs/instructions.append.md)): [Latest](../../../locales/pt-BR/content/59/79/0c1255e8e4ad72fb44e369d7504fd307796b.md)
+  - [`8955a32702`](../../../locales/pt-BR/content/89/55/a327021ba30259b33f888d24336465523742.md)
   - [`8777fb2c45`](../../../locales/pt-BR/content/87/77/fb2c454e9ada224523e7c4019d29071f5bd7.md)
   - [`be8f8de6f2`](../../../locales/pt-BR/content/be/8f/8de6f29011b2fc9e8d54ba4920c3e688cfe6.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/camicia/.docs/introduction.md)): [Latest](../../../locales/pt-BR/content/76/1d/8a82c502ac4117787d8314c74fcf79dc5159.md)
@@ -393,7 +393,8 @@ This page is generated from [the index](../../json/pt-BR/roc.json) by `scripts/b
 ### PaaS I/O
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/paasio/.docs/instructions.md)): [Latest](../../../locales/pt-BR/content/59/56/447487e0c549796d649508c77d36a8019479.md)
-- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/paasio/.docs/instructions.append.md)): [Latest](../../../locales/pt-BR/content/a0/5e/05d19b739fd2cac8ac86660e9599bb25bd52.md)
+- `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/paasio/.docs/instructions.append.md)): [Latest](../../../locales/pt-BR/content/1d/83/1866586b43d4883048cc6be0fe52553e74cc.md)
+  - [`a05e05d19b`](../../../locales/pt-BR/content/a0/5e/05d19b739fd2cac8ac86660e9599bb25bd52.md)
   - [`62e58a7889`](../../../locales/pt-BR/content/62/e5/8a788955397d54dbe0ffcd2d437f4db45735.md)
 - `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/paasio/.docs/hints.md)): [Latest](../../../locales/pt-BR/content/d2/b0/016e4614b18d66081614775fdfcad6e37a58.md)
 
