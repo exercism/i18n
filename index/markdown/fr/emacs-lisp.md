@@ -324,6 +324,10 @@ This page is generated from [the index](../../json/fr/emacs-lisp.json) by `scrip
 - `instructions.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/rational-numbers/.docs/instructions.md)): [Latest](../../../locales/fr/content/f6/4f/c0f28e5f84c9e991e52b275f5eef1ff7ea86.md)
 - `instructions.append.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/rational-numbers/.docs/instructions.append.md)): [Latest](../../../locales/fr/content/69/ad/be6073ff5e0da24e8b34502eb5d4f2c4af6b.md)
 
+### Rectangles
+
+- `instructions.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/rectangles/.docs/instructions.md)): [Latest](../../../locales/fr/content/8e/b4/ed470e6582ebdd8d9986eb46255aacd24425.md)
+
 ### Relative Distance (Distance relative)
 
 - `instructions.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/relative-distance/.docs/instructions.md)): [Latest](../../../locales/fr/content/64/ca/4e43744fdf4aaf8b64ea34b795b8933a0e3e.md)

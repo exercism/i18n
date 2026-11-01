@@ -320,5 +320,7 @@
   "exercise:connect:blurb": "Számítsd ki egy Hex / Polygon játék eredményét.",
   "exercise:relative-distance:name": "Relatív távolság",
   "exercise:relative-distance:blurb": "Adott egy családfa, számítsd ki a rokonsági fokot.",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:rectangles:name": "Téglalapok",
+  "exercise:rectangles:blurb": "Számold meg a téglalapokat egy ASCII-ábrában."
 }

@@ -320,5 +320,7 @@
   "exercise:connect:blurb": "计算一局 Hex / Polygon 游戏的结果。",
   "exercise:relative-distance:name": "相对距离",
   "exercise:relative-distance:blurb": "给定一棵家族树，计算两个人之间的亲疏程度。",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:rectangles:name": "矩形",
+  "exercise:rectangles:blurb": "统计 ASCII 图中的矩形数量。"
 }

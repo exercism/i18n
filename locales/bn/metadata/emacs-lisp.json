@@ -320,5 +320,7 @@
   "exercise:connect:blurb": "Hex / Polygon খেলার ফলাফল গণনা করুন।",
   "exercise:relative-distance:name": "আপেক্ষিক দূরত্ব",
   "exercise:relative-distance:blurb": "একটি বংশতালিকা দেওয়া থাকলে, সম্পর্কের দূরত্ব নির্ণয় করুন।",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:rectangles:name": "আয়তক্ষেত্র",
+  "exercise:rectangles:blurb": "একটি ASCII ডায়াগ্রামে আয়তক্ষেত্রগুলো গণনা করুন।"
 }

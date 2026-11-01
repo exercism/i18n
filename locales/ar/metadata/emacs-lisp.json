@@ -320,5 +320,7 @@
   "exercise:connect:blurb": "احسب نتيجة مباراة في لعبة Hex / Polygon.",
   "exercise:relative-distance:name": "المسافة النسبية",
   "exercise:relative-distance:blurb": "بمعلومية شجرة عائلة، احسب درجة القرابة.",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:rectangles:name": "المستطيلات",
+  "exercise:rectangles:blurb": "عُدّ المستطيلات في مخطط ASCII."
 }

@@ -320,5 +320,7 @@
   "exercise:connect:blurb": "Υπολόγισε το αποτέλεσμα για ένα παιχνίδι Hex / Polygon.",
   "exercise:relative-distance:name": "Σχετική απόσταση",
   "exercise:relative-distance:blurb": "Δεδομένου ενός γενεαλογικού δέντρου, υπολόγισε τον βαθμό συγγένειας.",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:rectangles:name": "Ορθογώνια",
+  "exercise:rectangles:blurb": "Μέτρησε τα ορθογώνια σε ένα διάγραμμα ASCII."
 }

@@ -320,5 +320,7 @@
   "exercise:connect:blurb": "Hex / Polygon 게임의 결과를 계산해요.",
   "exercise:relative-distance:name": "친척 간의 거리",
   "exercise:relative-distance:blurb": "가계도를 보고 촌수를 계산해요.",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:rectangles:name": "직사각형",
+  "exercise:rectangles:blurb": "ASCII 다이어그램에 있는 직사각형의 개수를 세요."
 }

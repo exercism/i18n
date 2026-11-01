@@ -320,5 +320,7 @@
   "exercise:connect:blurb": "Обчисліть результат гри в Hex / Polygon.",
   "exercise:relative-distance:name": "Відносна відстань",
   "exercise:relative-distance:blurb": "Дано родинне дерево: обчислити ступінь спорідненості.",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:rectangles:name": "Прямокутники",
+  "exercise:rectangles:blurb": "Порахувати прямокутники на ASCII-діаграмі."
 }

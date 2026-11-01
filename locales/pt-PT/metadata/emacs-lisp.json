@@ -320,5 +320,7 @@
   "exercise:connect:blurb": "Calcula o resultado de um jogo de Hex / Polygon.",
   "exercise:relative-distance:name": "Distância relativa",
   "exercise:relative-distance:blurb": "Dada uma árvore genealógica, calcula o grau de parentesco.",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:rectangles:name": "Retângulos",
+  "exercise:rectangles:blurb": "Conta os retângulos num diagrama ASCII."
 }

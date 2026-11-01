@@ -320,5 +320,7 @@
   "exercise:connect:blurb": "نتیجه‌ی یک بازی Hex / Polygon را محاسبه کنید.",
   "exercise:relative-distance:name": "فاصله‌ی نسبی",
   "exercise:relative-distance:blurb": "با داشتن یک شجره‌نامه، درجه‌ی خویشاوندی را محاسبه کنید.",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:rectangles:name": "مستطیل‌ها",
+  "exercise:rectangles:blurb": "مستطیل‌های یک نمودار ASCII را بشمارید."
 }

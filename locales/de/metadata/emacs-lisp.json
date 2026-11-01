@@ -320,5 +320,7 @@
   "exercise:connect:blurb": "Berechne das Ergebnis einer Partie Hex / Polygon.",
   "exercise:relative-distance:name": "Verwandtschaftsabstand",
   "exercise:relative-distance:blurb": "Berechne für einen Stammbaum den Verwandtschaftsgrad.",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:rectangles:name": "Rechtecke",
+  "exercise:rectangles:blurb": "Zähle die Rechtecke in einem ASCII-Diagramm."
 }
