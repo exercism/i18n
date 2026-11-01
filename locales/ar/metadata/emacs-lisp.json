@@ -317,5 +317,8 @@
   "exercise:book-store:blurb": "سعيًا إلى تشجيع بيع المزيد من النسخ المختلفة من مجموعة شائعة مؤلفة من خمسة كتب، قرر متجر كتب أن يقدّم خصومات على شراء عدة كتب في المرة الواحدة.",
   "exercise:book-store:source": "مستوحى من harry potter kata من Cyber-Dojo.",
   "exercise:connect:name": "وصل",
-  "exercise:connect:blurb": "احسب نتيجة مباراة في لعبة Hex / Polygon."
+  "exercise:connect:blurb": "احسب نتيجة مباراة في لعبة Hex / Polygon.",
+  "exercise:relative-distance:name": "المسافة النسبية",
+  "exercise:relative-distance:blurb": "بمعلومية شجرة عائلة، احسب درجة القرابة.",
+  "exercise:relative-distance:source": "vaeng"
 }

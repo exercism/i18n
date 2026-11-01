@@ -317,5 +317,8 @@
   "exercise:book-store:blurb": "একটি জনপ্রিয় ৫-বইয়ের সিরিজের বিভিন্ন বইয়ের বিক্রি বাড়ানোর চেষ্টায় একটি বইয়ের দোকান একাধিক বই কেনার উপর ছাড় দেওয়ার সিদ্ধান্ত নিয়েছে।",
   "exercise:book-store:source": "Cyber-Dojo-এর harry potter kata থেকে অনুপ্রাণিত।",
   "exercise:connect:name": "কানেক্ট",
-  "exercise:connect:blurb": "Hex / Polygon খেলার ফলাফল গণনা করুন।"
+  "exercise:connect:blurb": "Hex / Polygon খেলার ফলাফল গণনা করুন।",
+  "exercise:relative-distance:name": "আপেক্ষিক দূরত্ব",
+  "exercise:relative-distance:blurb": "একটি বংশতালিকা দেওয়া থাকলে, সম্পর্কের দূরত্ব নির্ণয় করুন।",
+  "exercise:relative-distance:source": "vaeng"
 }

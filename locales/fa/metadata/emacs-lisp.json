@@ -317,5 +317,8 @@
   "exercise:book-store:blurb": "برای تشویق فروش بیشتر کتاب‌های مختلف از یک مجموعه‌ی محبوب ۵ جلدی، یک کتاب‌فروشی تصمیم گرفته است برای خرید چند کتاب به‌طور همزمان تخفیف ارائه دهد.",
   "exercise:book-store:source": "الهام‌گرفته از کاتای harry potter از Cyber-Dojo.",
   "exercise:connect:name": "اتصال",
-  "exercise:connect:blurb": "نتیجه‌ی یک بازی Hex / Polygon را محاسبه کنید."
+  "exercise:connect:blurb": "نتیجه‌ی یک بازی Hex / Polygon را محاسبه کنید.",
+  "exercise:relative-distance:name": "فاصله‌ی نسبی",
+  "exercise:relative-distance:blurb": "با داشتن یک شجره‌نامه، درجه‌ی خویشاوندی را محاسبه کنید.",
+  "exercise:relative-distance:source": "vaeng"
 }

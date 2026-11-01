@@ -317,5 +317,8 @@
   "exercise:book-store:blurb": "Per provare a incoraggiare le vendite dei diversi libri di una popolare serie di 5 volumi, una libreria ha deciso di offrire sconti sugli acquisti di più libri.",
   "exercise:book-store:source": "Ispirato al kata harry potter di Cyber-Dojo.",
   "exercise:connect:name": "Collega",
-  "exercise:connect:blurb": "Calcola il risultato di una partita a Hex / Polygon."
+  "exercise:connect:blurb": "Calcola il risultato di una partita a Hex / Polygon.",
+  "exercise:relative-distance:name": "Distanza relativa",
+  "exercise:relative-distance:blurb": "Dato un albero genealogico, calcola il grado di separazione.",
+  "exercise:relative-distance:source": "vaeng"
 }

@@ -317,5 +317,8 @@
   "exercise:book-store:blurb": "为了促进一套热门 5 卷丛书里各册图书的销量，一家书店决定对多本一起购买的订单提供折扣。",
   "exercise:book-store:source": "灵感来自 Cyber-Dojo 上的 harry potter kata。",
   "exercise:connect:name": "连线",
-  "exercise:connect:blurb": "计算一局 Hex / Polygon 游戏的结果。"
+  "exercise:connect:blurb": "计算一局 Hex / Polygon 游戏的结果。",
+  "exercise:relative-distance:name": "相对距离",
+  "exercise:relative-distance:blurb": "给定一棵家族树，计算两个人之间的亲疏程度。",
+  "exercise:relative-distance:source": "vaeng"
 }

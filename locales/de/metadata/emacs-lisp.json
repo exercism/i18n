@@ -317,5 +317,8 @@
   "exercise:book-store:blurb": "Um den Verkauf verschiedener Bücher aus einer beliebten fünfbändigen Reihe anzukurbeln, hat ein Buchladen beschlossen, Rabatte beim Kauf mehrerer Bücher anzubieten.",
   "exercise:book-store:source": "Inspiriert von der Harry-Potter-Kata von Cyber-Dojo.",
   "exercise:connect:name": "Verbinden",
-  "exercise:connect:blurb": "Berechne das Ergebnis einer Partie Hex / Polygon."
+  "exercise:connect:blurb": "Berechne das Ergebnis einer Partie Hex / Polygon.",
+  "exercise:relative-distance:name": "Verwandtschaftsabstand",
+  "exercise:relative-distance:blurb": "Berechne für einen Stammbaum den Verwandtschaftsgrad.",
+  "exercise:relative-distance:source": "vaeng"
 }

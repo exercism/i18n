@@ -324,6 +324,11 @@ This page is generated from [the index](../../json/pt-PT/emacs-lisp.json) by `sc
 - `instructions.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/rational-numbers/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/f6/4f/c0f28e5f84c9e991e52b275f5eef1ff7ea86.md)
 - `instructions.append.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/rational-numbers/.docs/instructions.append.md)): [Latest](../../../locales/pt-PT/content/69/ad/be6073ff5e0da24e8b34502eb5d4f2c4af6b.md)
 
+### Relative Distance (Distância relativa)
+
+- `instructions.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/relative-distance/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/64/ca/4e43744fdf4aaf8b64ea34b795b8933a0e3e.md)
+- `introduction.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/relative-distance/.docs/introduction.md)): [Latest](../../../locales/pt-PT/content/34/07/3b40ac6e0494777808026c336f21678ba93e.md)
+
 ### Resistor Color (Cor de resistência)
 
 - `instructions.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/resistor-color/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/01/25/e718b455321a3e635d6ca42fc400e1be0d44.md)

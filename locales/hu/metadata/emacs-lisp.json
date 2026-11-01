@@ -317,5 +317,8 @@
   "exercise:book-store:blurb": "Hogy egy népszerű, öt részből álló könyvsorozat különböző köteteinek eladásait növelje, egy könyvesbolt úgy döntött, hogy kedvezményt ad a több könyv együttes vásárlására.",
   "exercise:book-store:source": "A Cyber-Dojo harry potter kata ihlette.",
   "exercise:connect:name": "Connect",
-  "exercise:connect:blurb": "Számítsd ki egy Hex / Polygon játék eredményét."
+  "exercise:connect:blurb": "Számítsd ki egy Hex / Polygon játék eredményét.",
+  "exercise:relative-distance:name": "Relatív távolság",
+  "exercise:relative-distance:blurb": "Adott egy családfa, számítsd ki a rokonsági fokot.",
+  "exercise:relative-distance:source": "vaeng"
 }
