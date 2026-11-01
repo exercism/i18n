@@ -312,5 +312,8 @@
   "exercise:palindrome-products:blurb": "Εντόπισε παλίνδρομα γινόμενα σε ένα δεδομένο εύρος.",
   "exercise:palindrome-products:source": "Το πρόβλημα 4 στο Project Euler",
   "exercise:piecing-it-together:blurb": "Συμπλήρωσε τις λεπτομέρειες που λείπουν σε ένα παζλ, με βάση μερικά δεδομένα",
-  "exercise:piecing-it-together:source": "Ο atk μόλις ξεκίνησε ακόμα ένα παζλ 1000 κομματιών, όταν του ήρθε αυτή η ιδέα"
+  "exercise:piecing-it-together:source": "Ο atk μόλις ξεκίνησε ακόμα ένα παζλ 1000 κομματιών, όταν του ήρθε αυτή η ιδέα",
+  "exercise:book-store:name": "Βιβλιοπωλείο",
+  "exercise:book-store:blurb": "Για να ενθαρρύνει περισσότερες πωλήσεις διαφορετικών βιβλίων από μια δημοφιλή σειρά 5 βιβλίων, ένα βιβλιοπωλείο αποφάσισε να προσφέρει εκπτώσεις σε αγορές πολλών βιβλίων.",
+  "exercise:book-store:source": "Εμπνευσμένο από το harry potter kata από το Cyber-Dojo."
 }

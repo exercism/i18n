@@ -312,5 +312,8 @@
   "exercise:palindrome-products:blurb": "Deteta produtos palíndromos num determinado intervalo.",
   "exercise:palindrome-products:source": "Problema 4 do Project Euler",
   "exercise:piecing-it-together:blurb": "Preenche os detalhes em falta de um puzzle a partir de dados parciais",
-  "exercise:piecing-it-together:source": "O atk tinha acabado de começar mais um puzzle de 1000 peças quando lhe surgiu esta ideia"
+  "exercise:piecing-it-together:source": "O atk tinha acabado de começar mais um puzzle de 1000 peças quando lhe surgiu esta ideia",
+  "exercise:book-store:name": "Livraria",
+  "exercise:book-store:blurb": "Para tentar aumentar as vendas dos diferentes livros de uma popular série de 5 livros, uma livraria decidiu oferecer descontos na compra de vários livros.",
+  "exercise:book-store:source": "Inspirado no harry potter kata do Cyber-Dojo."
 }

@@ -312,5 +312,8 @@
   "exercise:palindrome-products:blurb": "找出給定範圍內的迴文乘積。",
   "exercise:palindrome-products:source": "Project Euler 第 4 題",
   "exercise:piecing-it-together:blurb": "從部分資料中補齊拼圖缺少的細節。",
-  "exercise:piecing-it-together:source": "atk 剛開始拼另一幅 1000 片的拼圖時，突然想到這個點子"
+  "exercise:piecing-it-together:source": "atk 剛開始拼另一幅 1000 片的拼圖時，突然想到這個點子",
+  "exercise:book-store:name": "書店",
+  "exercise:book-store:blurb": "為了刺激一套熱門系列中 5 本不同書籍的銷量，一家書店決定對一次購買多本書提供折扣。",
+  "exercise:book-store:source": "靈感來自 Cyber-Dojo 的 harry potter kata。"
 }

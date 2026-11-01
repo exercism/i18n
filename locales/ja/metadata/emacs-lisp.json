@@ -312,5 +312,8 @@
   "exercise:palindrome-products:blurb": "与えられた範囲の中から、回文になる積を見つけます。",
   "exercise:palindrome-products:source": "Project EulerのProblem 4",
   "exercise:piecing-it-together:blurb": "一部のデータから、欠けているジグソーパズルの情報を補います。",
-  "exercise:piecing-it-together:source": "atkが新たに1000ピースのジグソーパズルを始めたとき、このアイデアが浮かびました。"
+  "exercise:piecing-it-together:source": "atkが新たに1000ピースのジグソーパズルを始めたとき、このアイデアが浮かびました。",
+  "exercise:book-store:name": "書店",
+  "exercise:book-store:blurb": "人気の5冊シリーズの本をもっと売るために、ある書店が複数冊の購入に割引を付けることにしました。",
+  "exercise:book-store:source": "Cyber-Dojoのharry potter kataに着想を得たものです。"
 }

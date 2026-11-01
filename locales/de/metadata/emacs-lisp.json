@@ -312,5 +312,8 @@
   "exercise:palindrome-products:blurb": "Finde Palindromprodukte in einem gegebenen Bereich.",
   "exercise:palindrome-products:source": "Problem 4 bei Project Euler",
   "exercise:piecing-it-together:blurb": "Ergänze fehlende Puzzledetails anhand unvollständiger Daten",
-  "exercise:piecing-it-together:source": "atk hatte gerade ein weiteres 1000-Teile-Puzzle angefangen, als ihm diese Idee kam"
+  "exercise:piecing-it-together:source": "atk hatte gerade ein weiteres 1000-Teile-Puzzle angefangen, als ihm diese Idee kam",
+  "exercise:book-store:name": "Buchladen",
+  "exercise:book-store:blurb": "Um den Verkauf verschiedener Bücher aus einer beliebten fünfbändigen Reihe anzukurbeln, hat ein Buchladen beschlossen, Rabatte beim Kauf mehrerer Bücher anzubieten.",
+  "exercise:book-store:source": "Inspiriert von der Harry-Potter-Kata von Cyber-Dojo."
 }
