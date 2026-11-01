@@ -315,5 +315,7 @@
   "exercise:piecing-it-together:source": "atk estava começando mais um quebra-cabeça de 1000 peças quando teve essa ideia",
   "exercise:book-store:name": "Livraria",
   "exercise:book-store:blurb": "Para tentar incentivar mais vendas de livros diferentes de uma popular série de 5 livros, uma livraria decidiu oferecer descontos em compras de vários livros.",
-  "exercise:book-store:source": "Inspirado no kata harry potter do Cyber-Dojo."
+  "exercise:book-store:source": "Inspirado no kata harry potter do Cyber-Dojo.",
+  "exercise:connect:name": "Conectar",
+  "exercise:connect:blurb": "Calcule o resultado de uma partida de Hex / Polygon."
 }

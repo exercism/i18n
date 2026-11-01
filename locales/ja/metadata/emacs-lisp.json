@@ -315,5 +315,7 @@
   "exercise:piecing-it-together:source": "atkが新たに1000ピースのジグソーパズルを始めたとき、このアイデアが浮かびました。",
   "exercise:book-store:name": "書店",
   "exercise:book-store:blurb": "人気の5冊シリーズの本をもっと売るために、ある書店が複数冊の購入に割引を付けることにしました。",
-  "exercise:book-store:source": "Cyber-Dojoのharry potter kataに着想を得たものです。"
+  "exercise:book-store:source": "Cyber-Dojoのharry potter kataに着想を得たものです。",
+  "exercise:connect:name": "コネクト",
+  "exercise:connect:blurb": "Hex / Polygonの対戦結果を計算します。"
 }

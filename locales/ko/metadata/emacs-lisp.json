@@ -315,5 +315,7 @@
   "exercise:piecing-it-together:source": "atk이 또 다른 1000조각 직소 퍼즐을 시작했을 때 이 아이디어가 떠올랐어요",
   "exercise:book-store:name": "서점",
   "exercise:book-store:blurb": "인기 있는 5권 시리즈의 여러 책을 더 많이 팔려고, 어느 서점이 여러 권을 구매하면 할인을 제공하기로 했어요.",
-  "exercise:book-store:source": "Cyber-Dojo의 harry potter kata에서 영감을 받았어요."
+  "exercise:book-store:source": "Cyber-Dojo의 harry potter kata에서 영감을 받았어요.",
+  "exercise:connect:name": "Connect",
+  "exercise:connect:blurb": "Hex / Polygon 게임의 결과를 계산해요."
 }

@@ -315,5 +315,7 @@
   "exercise:piecing-it-together:source": "atk সবে আরেকটি ১০০০ টুকরোর জিগস পাজল শুরু করেছিলেন, তখনই এই ধারণাটি তার মাথায় আসে",
   "exercise:book-store:name": "বইয়ের দোকান",
   "exercise:book-store:blurb": "একটি জনপ্রিয় ৫-বইয়ের সিরিজের বিভিন্ন বইয়ের বিক্রি বাড়ানোর চেষ্টায় একটি বইয়ের দোকান একাধিক বই কেনার উপর ছাড় দেওয়ার সিদ্ধান্ত নিয়েছে।",
-  "exercise:book-store:source": "Cyber-Dojo-এর harry potter kata থেকে অনুপ্রাণিত।"
+  "exercise:book-store:source": "Cyber-Dojo-এর harry potter kata থেকে অনুপ্রাণিত।",
+  "exercise:connect:name": "কানেক্ট",
+  "exercise:connect:blurb": "Hex / Polygon খেলার ফলাফল গণনা করুন।"
 }

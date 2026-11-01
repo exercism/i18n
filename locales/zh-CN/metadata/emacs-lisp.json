@@ -315,5 +315,7 @@
   "exercise:piecing-it-together:source": "atk 刚开始拼另一幅 1000 片的拼图时，冒出了这个想法",
   "exercise:book-store:name": "书店",
   "exercise:book-store:blurb": "为了促进一套热门 5 卷丛书里各册图书的销量，一家书店决定对多本一起购买的订单提供折扣。",
-  "exercise:book-store:source": "灵感来自 Cyber-Dojo 上的 harry potter kata。"
+  "exercise:book-store:source": "灵感来自 Cyber-Dojo 上的 harry potter kata。",
+  "exercise:connect:name": "连线",
+  "exercise:connect:blurb": "计算一局 Hex / Polygon 游戏的结果。"
 }

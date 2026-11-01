@@ -79,6 +79,10 @@ This page is generated from [the index](../../json/de/emacs-lisp.json) by `scrip
 - `instructions.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/collatz-conjecture/.docs/instructions.md)): [Latest](../../../locales/de/content/af/33/2a810f0f31aa1233e92bea57721d3025f4e0.md)
 - `introduction.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/collatz-conjecture/.docs/introduction.md)): [Latest](../../../locales/de/content/c3/5b/deb67dceef4bf9769dbbf473e841cdd068f2.md)
 
+### Connect (Verbinden)
+
+- `instructions.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/connect/.docs/instructions.md)): [Latest](../../../locales/de/content/7f/34/bfa817f0d0c1d360892d0cbaaa1d5347b0cd.md)
+
 ### Conway's Game of Life (Conways Spiel des Lebens)
 
 - `instructions.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/game-of-life/.docs/instructions.md)): [Latest](../../../locales/de/content/49/53/1406489df7cb6954979f2bf223729a268e22.md)

@@ -315,5 +315,7 @@
   "exercise:piecing-it-together:source": "जब atk ने अभी-अभी एक और 1000 टुकड़ों वाली जिगसॉ पहेली शुरू की थी, तभी उन्हें यह विचार आया",
   "exercise:book-store:name": "किताबों की दुकान",
   "exercise:book-store:blurb": "एक लोकप्रिय 5 किताबों की सीरीज़ की अलग-अलग किताबों की बिक्री बढ़ाने के लिए एक किताबों की दुकान ने एक साथ कई किताबें खरीदने पर छूट देने का फैसला किया है।",
-  "exercise:book-store:source": "Cyber-Dojo के harry potter kata से प्रेरित।"
+  "exercise:book-store:source": "Cyber-Dojo के harry potter kata से प्रेरित।",
+  "exercise:connect:name": "कनेक्ट",
+  "exercise:connect:blurb": "Hex / Polygon के एक खेल का नतीजा निकालिए।"
 }
