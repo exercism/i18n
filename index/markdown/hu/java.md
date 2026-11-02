@@ -786,6 +786,12 @@ This page is generated from [the index](../../json/hu/java.json) by `scripts/bui
 - `introduction.md` ([English](https://github.com/exercism/java/blob/main/exercises/concept/annalyns-infiltration/.docs/introduction.md)): [Latest](../../../locales/hu/content/6f/f3/6c4db5ab896fd1f2b5a111b4f83999a996ef.md)
 - `hints.md` ([English](https://github.com/exercism/java/blob/main/exercises/concept/annalyns-infiltration/.docs/hints.md)): [Latest](../../../locales/hu/content/ae/e2/c83028eda5214512557fbd917ceb1d1d4f4d.md)
 
+### Beauty Salon Regulars (Szépségszalon törzsvendégei)
+
+- `instructions.md` ([English](https://github.com/exercism/java/blob/main/exercises/concept/beauty-salon-regulars/.docs/instructions.md)): [Latest](../../../locales/hu/content/86/52/b016046e64c9bd9204e875512b45fc579e45.md)
+- `introduction.md` ([English](https://github.com/exercism/java/blob/main/exercises/concept/beauty-salon-regulars/.docs/introduction.md)): [Latest](../../../locales/hu/content/62/c6/95095577de37ebea9e38a94ef25a436b0428.md)
+- `hints.md` ([English](https://github.com/exercism/java/blob/main/exercises/concept/beauty-salon-regulars/.docs/hints.md)): [Latest](../../../locales/hu/content/8f/5c/b6ae4b4c00bcaefa7a61dfd83edc16e90ef6.md)
+
 ### Bird Watcher (Madárfigyelő)
 
 - `instructions.md` ([English](https://github.com/exercism/java/blob/main/exercises/concept/bird-watcher/.docs/instructions.md)): [Latest](../../../locales/hu/content/df/2f/b1fb778c746dfa527d3d286b94a2c827eee8.md)
@@ -1045,6 +1051,11 @@ This page is generated from [the index](../../json/hu/java.json) by `scripts/bui
 
 - `introduction.md` ([English](https://github.com/exercism/java/blob/main/concepts/switch-statement/introduction.md)): [Latest](../../../locales/hu/content/f9/e7/b275f2c3189210c5f69fe893bdae9bb3bc0e.md)
 - `about.md` ([English](https://github.com/exercism/java/blob/main/concepts/switch-statement/about.md)): [Latest](../../../locales/hu/content/2c/89/c5c04c76103c8b40c5405602896382c7f871.md)
+
+### Temporal Adjusters (Temporal adjusterek)
+
+- `introduction.md` ([English](https://github.com/exercism/java/blob/main/concepts/temporal-adjusters/introduction.md)): [Latest](../../../locales/hu/content/d1/be/e817f7525d48e5a200bb22d2f157c914f0a4.md)
+- `about.md` ([English](https://github.com/exercism/java/blob/main/concepts/temporal-adjusters/about.md)): [Latest](../../../locales/hu/content/66/29/1ab023c7852b93ac2cad8904b57d60e4d3b5.md)
 
 ### Ternary Operators (Ternáris operátorok)
 

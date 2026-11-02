@@ -523,5 +523,9 @@
   "doc:tests:title": "Δοκιμές στο track Java",
   "doc:tests:blurb": "Μάθε πώς να δοκιμάζεις τις ασκήσεις σου σε Java στο Exercism",
   "doc:resources:title": "Χρήσιμοι πόροι για τη Java",
-  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων που θα σε βοηθήσουν να μάθεις καλά τη Java"
+  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων που θα σε βοηθήσουν να μάθεις καλά τη Java",
+  "exercise:beauty-salon-regulars:name": "Τακτικοί πελάτες κομμωτηρίου",
+  "concept:temporal-adjusters:name": "Ρυθμιστές χρονικών τιμών",
+  "exercise:beauty-salon-regulars:blurb": "Μάθε για τους ρυθμιστές χρονικών τιμών κλείνοντας πάγια ραντεβού για τους τακτικούς πελάτες ενός κομμωτηρίου.",
+  "concept:temporal-adjusters:blurb": "Κάνε προσαρμογές ημερομηνιών χρησιμοποιώντας τη διεπαφή `TemporalAdjuster` και τη βοηθητική κλάση `TemporalAdjusters` της Java."
 }

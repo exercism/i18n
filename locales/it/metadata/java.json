@@ -523,5 +523,9 @@
   "doc:tests:title": "I test sul track Java",
   "doc:tests:blurb": "Scopri come testare i tuoi esercizi Java su Exercism",
   "doc:resources:title": "Risorse utili su Java",
-  "doc:resources:blurb": "Una raccolta di risorse utili per padroneggiare Java"
+  "doc:resources:blurb": "Una raccolta di risorse utili per padroneggiare Java",
+  "exercise:beauty-salon-regulars:name": "Clienti abituali del salone di bellezza",
+  "concept:temporal-adjusters:name": "Temporal adjusters",
+  "exercise:beauty-salon-regulars:blurb": "Impara a usare i temporal adjusters pianificando appuntamenti fissi per i clienti abituali di un salone di bellezza.",
+  "concept:temporal-adjusters:blurb": "Esegui modifiche alle date usando l'interfaccia `TemporalAdjuster` di Java e la classe di utilità `TemporalAdjusters`."
 }

@@ -523,5 +523,9 @@
   "concept:chars:blurb": "문자열은 char(예를 들어 글자 하나)로 이루어져 있어요.",
   "concept:classes:blurb": "클래스는 Java 객체 지향 프로그래밍의 토대예요.",
   "concept:if-else-statements:blurb": "if-else문을 사용해 조건부 로직을 처리할 수 있어요.",
-  "concept:constructors:blurb": "생성자는 클래스의 인스턴스를 만들 때 사용해요."
+  "concept:constructors:blurb": "생성자는 클래스의 인스턴스를 만들 때 사용해요.",
+  "exercise:beauty-salon-regulars:name": "미용실 단골 손님",
+  "concept:temporal-adjusters:name": "시간 조정자",
+  "exercise:beauty-salon-regulars:blurb": "미용실 단골 손님들의 정기 예약을 잡아 보면서 시간 조정자를 배워요.",
+  "concept:temporal-adjusters:blurb": "Java의 `TemporalAdjuster` 인터페이스와 `TemporalAdjusters` 유틸리티 클래스를 사용해 날짜를 조정해요."
 }

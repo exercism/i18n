@@ -523,5 +523,9 @@
   "doc:tests:title": "تست در مسیر Java",
   "doc:tests:blurb": "بیاموزید چگونه تمرین‌های Java خود را در Exercism تست کنید",
   "doc:resources:title": "منابع مفید Java",
-  "doc:resources:blurb": "مجموعه‌ای از منابع مفید برای کمک به تسلط شما بر Java"
+  "doc:resources:blurb": "مجموعه‌ای از منابع مفید برای کمک به تسلط شما بر Java",
+  "exercise:beauty-salon-regulars:name": "مشتریان همیشگی سالن زیبایی",
+  "concept:temporal-adjusters:name": "تنظیم‌کننده‌های زمانی",
+  "exercise:beauty-salon-regulars:blurb": "با تنظیم نوبت‌های ثابت برای مشتریان همیشگی یک سالن زیبایی، با تنظیم‌کننده‌های زمانی آشنا شوید.",
+  "concept:temporal-adjusters:blurb": "با استفاده از رابط `TemporalAdjuster` و کلاس کمکی `TemporalAdjusters` در Java، تاریخ‌ها را تنظیم کنید."
 }

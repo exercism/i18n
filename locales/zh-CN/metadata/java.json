@@ -523,5 +523,9 @@
   "doc:tests:title": "Java 赛道的测试",
   "doc:tests:blurb": "了解如何在 Exercism 上测试你的 Java 练习",
   "doc:resources:title": "实用的 Java 资源",
-  "doc:resources:blurb": "帮助你精通 Java 的实用资源合集"
+  "doc:resources:blurb": "帮助你精通 Java 的实用资源合集",
+  "exercise:beauty-salon-regulars:name": "美容院常客",
+  "concept:temporal-adjusters:name": "时间调节器",
+  "exercise:beauty-salon-regulars:blurb": "通过为美容院的常客安排固定预约，来了解时间调节器。",
+  "concept:temporal-adjusters:blurb": "使用 Java 的`TemporalAdjuster`接口和`TemporalAdjusters`工具类来进行日期调整。"
 }

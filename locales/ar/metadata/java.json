@@ -523,5 +523,9 @@
   "doc:tests:title": "الاختبار في مسار Java",
   "doc:tests:blurb": "تعرّف على كيفية اختبار تمارين Java الخاصة بك على Exercism",
   "doc:resources:title": "مصادر Java المفيدة",
-  "doc:resources:blurb": "مجموعة من المصادر المفيدة لمساعدتك على إتقان Java"
+  "doc:resources:blurb": "مجموعة من المصادر المفيدة لمساعدتك على إتقان Java",
+  "exercise:beauty-salon-regulars:name": "عملاء صالون التجميل الدائمون",
+  "concept:temporal-adjusters:name": "معدّلات الزمن",
+  "exercise:beauty-salon-regulars:blurb": "تعرّف على معدّلات الزمن عبر جدولة مواعيد ثابتة لعملاء صالون التجميل الدائمين.",
+  "concept:temporal-adjusters:blurb": "نفّذ تعديلات على التواريخ باستخدام واجهة `TemporalAdjuster` وفئة الأدوات `TemporalAdjusters` في Java."
 }

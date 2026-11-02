@@ -523,5 +523,9 @@
   "doc:tests:title": "Тестування на треку Java",
   "doc:tests:blurb": "Як тестувати свої вправи з Java на Exercism",
   "doc:resources:title": "Корисні ресурси для Java",
-  "doc:resources:blurb": "Добірка корисних ресурсів, які допоможуть опанувати Java"
+  "doc:resources:blurb": "Добірка корисних ресурсів, які допоможуть опанувати Java",
+  "exercise:beauty-salon-regulars:name": "Постійні клієнти салону краси",
+  "concept:temporal-adjusters:name": "Temporal Adjusters",
+  "exercise:beauty-salon-regulars:blurb": "Дізнаймося про temporal adjusters, плануючи регулярні візити постійних клієнтів салону краси.",
+  "concept:temporal-adjusters:blurb": "Виконуємо коригування дат за допомогою інтерфейсу `TemporalAdjuster` і допоміжного класу `TemporalAdjusters` з Java."
 }

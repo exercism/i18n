@@ -523,5 +523,9 @@
   "doc:tests:title": "Java ट्रैक पर टेस्टिंग",
   "doc:tests:blurb": "Exercism पर अपने Java अभ्यासों को टेस्ट करना सीखिए",
   "doc:resources:title": "Java के लिए उपयोगी संसाधन",
-  "doc:resources:blurb": "Java में महारत हासिल करने में आपकी मदद करने वाले उपयोगी संसाधनों का संग्रह"
+  "doc:resources:blurb": "Java में महारत हासिल करने में आपकी मदद करने वाले उपयोगी संसाधनों का संग्रह",
+  "exercise:beauty-salon-regulars:name": "ब्यूटी सैलून के नियमित ग्राहक",
+  "concept:temporal-adjusters:name": "टेम्पोरल एडजस्टर",
+  "exercise:beauty-salon-regulars:blurb": "ब्यूटी सैलून के नियमित ग्राहकों के लिए आगे के अपॉइंटमेंट तय करते हुए टेम्पोरल एडजस्टर के बारे में सीखिए।",
+  "concept:temporal-adjusters:blurb": "Java के `TemporalAdjuster` इंटरफेस और `TemporalAdjusters` यूटिलिटी क्लास की मदद से तारीख में बदलाव कीजिए।"
 }

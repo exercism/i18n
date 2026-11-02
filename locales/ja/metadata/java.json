@@ -523,5 +523,9 @@
   "doc:tests:title": "Javaトラックでのテスト",
   "doc:tests:blurb": "ExercismでJavaの演習をテストする方法を学びましょう。",
   "doc:resources:title": "役に立つJavaのリソース",
-  "doc:resources:blurb": "Javaをマスターするのに役立つリソースを集めました。"
+  "doc:resources:blurb": "Javaをマスターするのに役立つリソースを集めました。",
+  "exercise:beauty-salon-regulars:name": "美容院の常連客",
+  "concept:temporal-adjusters:name": "TemporalAdjusters",
+  "exercise:beauty-salon-regulars:blurb": "美容院の常連客のために定期的な予約を組みながら、`TemporalAdjuster`による日付の調整を学びましょう。",
+  "concept:temporal-adjusters:blurb": "Javaの`TemporalAdjuster`インターフェースと`TemporalAdjusters`ユーティリティクラスを使って、日付の調整を行います。"
 }

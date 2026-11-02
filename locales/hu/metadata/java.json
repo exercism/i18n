@@ -523,5 +523,9 @@
   "doc:tests:title": "Tesztelés a Java-kurzuson",
   "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Java-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Java-források",
-  "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Javát"
+  "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Javát",
+  "exercise:beauty-salon-regulars:name": "Szépségszalon törzsvendégei",
+  "concept:temporal-adjusters:name": "Temporal adjusterek",
+  "exercise:beauty-salon-regulars:blurb": "Ismerd meg a temporal adjustereket azon keresztül, hogy rendszeres időpontokat ütemezel be egy szépségszalon törzsvendégeinek.",
+  "concept:temporal-adjusters:blurb": "Végezz dátumkorrekciókat a Java `TemporalAdjuster` interfészével és a `TemporalAdjusters` segédosztállyal."
 }
