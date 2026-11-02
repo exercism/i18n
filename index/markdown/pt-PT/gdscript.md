@@ -341,6 +341,11 @@ This page is generated from [the index](../../json/pt-PT/gdscript.json) by `scri
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/word-count/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/06/43/93c8a0f68810d215d0bec650f9cab19953b5.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/word-count/.docs/introduction.md)): [Latest](../../../locales/pt-PT/content/16/54/508e79dc91420825d8a1a9818089e4167f70.md)
 
+### Yacht
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/yacht/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/51/9b/7a68b876e58fc845cccc10ae1d28519db33a.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/yacht/.docs/introduction.md)): [Latest](../../../locales/pt-PT/content/5b/54/1f5625ce0d5916f9545a824de17a55d433f1.md)
+
 ## Track docs
 
 ### ABOUT.md

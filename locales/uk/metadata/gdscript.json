@@ -230,5 +230,8 @@
   "exercise:flower-field:blurb": "Позначте всі квіти в саду.",
   "exercise:robot-name:name": "Імʼя робота",
   "exercise:robot-name:blurb": "Керуйте налаштуваннями фабрики роботів.",
-  "exercise:robot-name:source": "Сеанс налагодження з Paul Blackwell у gSchool."
+  "exercise:robot-name:source": "Сеанс налагодження з Paul Blackwell у gSchool.",
+  "exercise:yacht:name": "Яхта",
+  "exercise:yacht:blurb": "Підрахуйте очки за один кидок кубиків у грі «Яхта».",
+  "exercise:yacht:source": "James Kilfiger, за матеріалами Wikipedia"
 }

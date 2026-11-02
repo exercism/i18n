@@ -230,5 +230,8 @@
   "exercise:flower-field:blurb": "حدّد كل الأزهار في حديقة.",
   "exercise:robot-name:name": "اسم الروبوت",
   "exercise:robot-name:blurb": "أدِر إعدادات مصنع الروبوتات.",
-  "exercise:robot-name:source": "جلسة تصحيح أخطاء مع Paul Blackwell في gSchool."
+  "exercise:robot-name:source": "جلسة تصحيح أخطاء مع Paul Blackwell في gSchool.",
+  "exercise:yacht:name": "Yacht",
+  "exercise:yacht:blurb": "احسب نقاط رمية نرد واحدة في لعبة Yacht.",
+  "exercise:yacht:source": "James Kilfiger، بالاستعانة بـ Wikipedia"
 }

@@ -230,5 +230,8 @@
   "exercise:flower-field:blurb": "बगीचे के सभी फूलों को चिह्नित कीजिए।",
   "exercise:robot-name:name": "रोबोट का नाम",
   "exercise:robot-name:blurb": "रोबोट फैक्ट्री की सेटिंग्स संभालिए।",
-  "exercise:robot-name:source": "gSchool में Paul Blackwell के साथ एक डीबगिंग सेशन।"
+  "exercise:robot-name:source": "gSchool में Paul Blackwell के साथ एक डीबगिंग सेशन।",
+  "exercise:yacht:name": "Yacht",
+  "exercise:yacht:blurb": "Yacht गेम में पासों के एक थ्रो का स्कोर निकालिए।",
+  "exercise:yacht:source": "James Kilfiger, विकिपीडिया का उपयोग करके।"
 }

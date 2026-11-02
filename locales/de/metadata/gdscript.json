@@ -230,5 +230,8 @@
   "exercise:flower-field:blurb": "Markiere alle Blumen in einem Garten.",
   "exercise:robot-name:name": "Robotername",
   "exercise:robot-name:blurb": "Verwalte die Einstellungen einer Roboterfabrik.",
-  "exercise:robot-name:source": "Eine Debugging-Sitzung mit Paul Blackwell bei gSchool."
+  "exercise:robot-name:source": "Eine Debugging-Sitzung mit Paul Blackwell bei gSchool.",
+  "exercise:yacht:name": "Yacht",
+  "exercise:yacht:blurb": "Bewerte einen einzelnen Würfelwurf im Spiel Yacht.",
+  "exercise:yacht:source": "James Kilfiger, unter Verwendung von Wikipedia"
 }

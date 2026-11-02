@@ -230,5 +230,8 @@
   "exercise:flower-field:blurb": "標出花園裡所有的花。",
   "exercise:robot-name:name": "機器人名稱",
   "exercise:robot-name:blurb": "管理機器人的出廠設定。",
-  "exercise:robot-name:source": "源自與 Paul Blackwell 在 gSchool 的一次除錯過程。"
+  "exercise:robot-name:source": "源自與 Paul Blackwell 在 gSchool 的一次除錯過程。",
+  "exercise:yacht:name": "快艇骰子",
+  "exercise:yacht:blurb": "為快艇骰子遊戲中的單次擲骰計分。",
+  "exercise:yacht:source": "James Kilfiger，參考 Wikipedia"
 }

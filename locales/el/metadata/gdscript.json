@@ -230,5 +230,8 @@
   "exercise:flower-field:blurb": "Σημείωσε όλα τα λουλούδια σε έναν κήπο.",
   "exercise:robot-name:name": "Όνομα ρομπότ",
   "exercise:robot-name:blurb": "Διαχειρίσου τις ρυθμίσεις του εργοστασίου ρομπότ.",
-  "exercise:robot-name:source": "Μια συνεδρία debugging με τον Paul Blackwell στο gSchool."
+  "exercise:robot-name:source": "Μια συνεδρία debugging με τον Paul Blackwell στο gSchool.",
+  "exercise:yacht:name": "Yacht",
+  "exercise:yacht:blurb": "Βαθμολόγησε μια μόνο ρίψη ζαριών στο παιχνίδι Yacht.",
+  "exercise:yacht:source": "James Kilfiger, χρησιμοποιώντας τη Βικιπαίδεια"
 }

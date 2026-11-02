@@ -230,5 +230,8 @@
   "exercise:flower-field:blurb": "Jelöld meg a kert összes virágát.",
   "exercise:robot-name:name": "Robotnév",
   "exercise:robot-name:blurb": "Kezeld a robotgyár beállításait.",
-  "exercise:robot-name:source": "Hibakeresési munkamenet Paul Blackwell-lel a gSchoolban."
+  "exercise:robot-name:source": "Hibakeresési munkamenet Paul Blackwell-lel a gSchoolban.",
+  "exercise:yacht:name": "Jacht",
+  "exercise:yacht:blurb": "Számítsd ki a Yacht játékban egyetlen kockadobás pontszámát.",
+  "exercise:yacht:source": "James Kilfiger, a Wikipédiát használva"
 }

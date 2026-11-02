@@ -230,5 +230,8 @@
   "exercise:flower-field:blurb": "Marca todas las flores de un jardín.",
   "exercise:robot-name:name": "Nombre de robot",
   "exercise:robot-name:blurb": "Gestiona la configuración de una fábrica de robots.",
-  "exercise:robot-name:source": "Una sesión de depuración con Paul Blackwell en gSchool."
+  "exercise:robot-name:source": "Una sesión de depuración con Paul Blackwell en gSchool.",
+  "exercise:yacht:name": "Yacht",
+  "exercise:yacht:blurb": "Puntúa una única tirada de dados en el juego Yacht.",
+  "exercise:yacht:source": "James Kilfiger, usando Wikipedia"
 }

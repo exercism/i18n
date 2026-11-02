@@ -230,5 +230,8 @@
   "exercise:flower-field:blurb": "庭にあるすべての花に印を付けます。",
   "exercise:robot-name:name": "ロボットの名前",
   "exercise:robot-name:blurb": "ロボット工場の設定を管理します。",
-  "exercise:robot-name:source": "gSchoolでのPaul Blackwellとのデバッグセッション。"
+  "exercise:robot-name:source": "gSchoolでのPaul Blackwellとのデバッグセッション。",
+  "exercise:yacht:name": "ヨット",
+  "exercise:yacht:blurb": "ゲーム『ヨット』でサイコロを1回振った結果を採点します。",
+  "exercise:yacht:source": "James Kilfiger（Wikipediaより）"
 }
