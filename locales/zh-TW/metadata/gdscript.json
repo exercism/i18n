@@ -236,5 +236,8 @@
   "exercise:yacht:source": "James Kilfiger，參考 Wikipedia",
   "exercise:baffling-birthdays:name": "令人費解的生日",
   "exercise:baffling-birthdays:blurb": "估算生日悖論的機率。",
-  "exercise:baffling-birthdays:source": "Erik Schierboom"
+  "exercise:baffling-birthdays:source": "Erik Schierboom",
+  "exercise:state-of-tic-tac-toe:name": "井字遊戲的狀態",
+  "exercise:state-of-tic-tac-toe:blurb": "判斷一場井字遊戲的遊戲狀態。",
+  "exercise:state-of-tic-tac-toe:source": "由 Sascha Mann 為 Exercism Research Experiment 的 Julia track 所建立。"
 }

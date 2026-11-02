@@ -236,5 +236,8 @@
   "exercise:yacht:source": "James Kilfiger, Wikipedia 참고",
   "exercise:baffling-birthdays:name": "놀라운 생일",
   "exercise:baffling-birthdays:blurb": "생일 역설의 확률을 추정해요.",
-  "exercise:baffling-birthdays:source": "Erik Schierboom"
+  "exercise:baffling-birthdays:source": "Erik Schierboom",
+  "exercise:state-of-tic-tac-toe:name": "틱택토의 상태",
+  "exercise:state-of-tic-tac-toe:blurb": "틱택토 한 판의 게임 상태를 판별해요.",
+  "exercise:state-of-tic-tac-toe:source": "Sascha Mann이 Exercism Research Experiment의 Julia 트랙을 위해 만들었어요."
 }

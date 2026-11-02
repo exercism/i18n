@@ -236,5 +236,8 @@
   "exercise:yacht:source": "James Kilfiger, unter Verwendung von Wikipedia",
   "exercise:baffling-birthdays:name": "Verblüffende Geburtstage",
   "exercise:baffling-birthdays:blurb": "Schätze die Wahrscheinlichkeiten des Geburtstagsparadoxons.",
-  "exercise:baffling-birthdays:source": "Erik Schierboom"
+  "exercise:baffling-birthdays:source": "Erik Schierboom",
+  "exercise:state-of-tic-tac-toe:name": "Zustand von Tic-Tac-Toe",
+  "exercise:state-of-tic-tac-toe:blurb": "Bestimme den Spielzustand einer Partie Tic-Tac-Toe.",
+  "exercise:state-of-tic-tac-toe:source": "Erstellt von Sascha Mann für den Julia-Track des Exercism Research Experiment."
 }

@@ -236,5 +236,8 @@
   "exercise:yacht:source": "James Kilfiger, a Wikipédiát használva",
   "exercise:baffling-birthdays:name": "Meghökkentő születésnapok",
   "exercise:baffling-birthdays:blurb": "Becsüld meg a születésnapi paradoxon valószínűségeit.",
-  "exercise:baffling-birthdays:source": "Erik Schierboom"
+  "exercise:baffling-birthdays:source": "Erik Schierboom",
+  "exercise:state-of-tic-tac-toe:name": "Az amőba állása",
+  "exercise:state-of-tic-tac-toe:blurb": "Határozd meg egy amőbajátszma állapotát.",
+  "exercise:state-of-tic-tac-toe:source": "Sascha Mann készítette az Exercism Research Experiment Julia kurzusa számára."
 }

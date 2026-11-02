@@ -236,5 +236,8 @@
   "exercise:yacht:source": "James Kilfiger, com base na Wikipédia",
   "exercise:baffling-birthdays:name": "Aniversários desconcertantes",
   "exercise:baffling-birthdays:blurb": "Estima as probabilidades do paradoxo dos aniversários.",
-  "exercise:baffling-birthdays:source": "Erik Schierboom"
+  "exercise:baffling-birthdays:source": "Erik Schierboom",
+  "exercise:state-of-tic-tac-toe:name": "Estado do jogo do galo",
+  "exercise:state-of-tic-tac-toe:blurb": "Determina o estado de um jogo do galo.",
+  "exercise:state-of-tic-tac-toe:source": "Criado por Sascha Mann para o percurso Julia do Exercism Research Experiment."
 }

@@ -236,5 +236,8 @@
   "exercise:yacht:source": "James Kilfiger，资料来自 Wikipedia",
   "exercise:baffling-birthdays:name": "令人困惑的生日",
   "exercise:baffling-birthdays:blurb": "估算生日悖论的概率。",
-  "exercise:baffling-birthdays:source": "Erik Schierboom"
+  "exercise:baffling-birthdays:source": "Erik Schierboom",
+  "exercise:state-of-tic-tac-toe:name": "井字棋的状态",
+  "exercise:state-of-tic-tac-toe:blurb": "判断一局井字棋的游戏状态。",
+  "exercise:state-of-tic-tac-toe:source": "由 Sascha Mann 为 Exercism 研究实验的 Julia 赛道创建。"
 }

@@ -236,5 +236,8 @@
   "exercise:yacht:source": "James Kilfiger، بالاستعانة بـ Wikipedia",
   "exercise:baffling-birthdays:name": "أعياد ميلاد محيّرة",
   "exercise:baffling-birthdays:blurb": "قدّر احتمالات مفارقة أعياد الميلاد.",
-  "exercise:baffling-birthdays:source": "Erik Schierboom"
+  "exercise:baffling-birthdays:source": "Erik Schierboom",
+  "exercise:state-of-tic-tac-toe:name": "حالة تيك تاك تو",
+  "exercise:state-of-tic-tac-toe:blurb": "حدّد حالة اللعب لمباراة في تيك تاك تو.",
+  "exercise:state-of-tic-tac-toe:source": "أنشأه Sascha Mann لمسارج Julia في Exercism Research Experiment."
 }

@@ -236,5 +236,8 @@
   "exercise:yacht:source": "James Kilfiger، با استفاده از Wikipedia",
   "exercise:baffling-birthdays:name": "تولدهای گیج‌کننده",
   "exercise:baffling-birthdays:blurb": "احتمال‌های پارادوکس تولد را تخمین بزنید.",
-  "exercise:baffling-birthdays:source": "Erik Schierboom"
+  "exercise:baffling-birthdays:source": "Erik Schierboom",
+  "exercise:state-of-tic-tac-toe:name": "وضعیت بازی دوز",
+  "exercise:state-of-tic-tac-toe:blurb": "وضعیت بازی را در یک دست از بازی دوز تعیین کنید.",
+  "exercise:state-of-tic-tac-toe:source": "ساخته‌ی Sascha Mann برای مسیر Julia در Exercism Research Experiment."
 }

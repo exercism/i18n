@@ -311,6 +311,10 @@ This page is generated from [the index](../../json/hi/gdscript.json) by `scripts
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/square-root/.docs/instructions.md)): [Latest](../../../locales/hi/content/d2/58/b86876e35a1553677ed6a7cb068f27cf1aba.md)
 - `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/square-root/.docs/introduction.md)): [Latest](../../../locales/hi/content/1d/69/2934f280a866528bcb54cd3044d7e8a5eeeb.md)
 
+### State of Tic-Tac-Toe (टिक-टैक-टो की स्थिति)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/state-of-tic-tac-toe/.docs/instructions.md)): [Latest](../../../locales/hi/content/1a/03/ebb6cb4c4468e3c93f90e0a76e4f1812ec55.md)
+
 ### Sublist (सबलिस्ट)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/sublist/.docs/instructions.md)): [Latest](../../../locales/hi/content/82/28/edc6ce2f1aa9fd7171fa9d482b1fb5a50a62.md)

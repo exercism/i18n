@@ -236,5 +236,8 @@
   "exercise:yacht:source": "James Kilfiger, Wikipedia ব্যবহার করে",
   "exercise:baffling-birthdays:name": "হতবুদ্ধিকর জন্মদিন",
   "exercise:baffling-birthdays:blurb": "জন্মদিন প্যারাডক্সের সম্ভাব্যতা অনুমান করুন।",
-  "exercise:baffling-birthdays:source": "Erik Schierboom"
+  "exercise:baffling-birthdays:source": "Erik Schierboom",
+  "exercise:state-of-tic-tac-toe:name": "টিক-ট্যাক-টোর অবস্থা",
+  "exercise:state-of-tic-tac-toe:blurb": "একটি টিক-ট্যাক-টো ম্যাচের গেম অবস্থা নির্ধারণ করুন।",
+  "exercise:state-of-tic-tac-toe:source": "Sascha Mann তৈরি করেছেন Exercism Research Experiment-এর Julia ট্র্যাকের জন্য।"
 }

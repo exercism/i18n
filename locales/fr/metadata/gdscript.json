@@ -236,5 +236,8 @@
   "exercise:yacht:source": "James Kilfiger, à partir de Wikipédia",
   "exercise:baffling-birthdays:name": "Anniversaires déroutants",
   "exercise:baffling-birthdays:blurb": "Estime les probabilités du paradoxe des anniversaires.",
-  "exercise:baffling-birthdays:source": "Erik Schierboom"
+  "exercise:baffling-birthdays:source": "Erik Schierboom",
+  "exercise:state-of-tic-tac-toe:name": "État du morpion",
+  "exercise:state-of-tic-tac-toe:blurb": "Détermine l'état d'une partie de morpion.",
+  "exercise:state-of-tic-tac-toe:source": "Créé par Sascha Mann pour le parcours Julia de l'Exercism Research Experiment."
 }
