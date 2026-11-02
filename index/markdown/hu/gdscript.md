@@ -40,6 +40,11 @@ This page is generated from [the index](../../json/hu/gdscript.json) by `scripts
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/atbash-cipher/.docs/instructions.md)): [Latest](../../../locales/hu/content/1e/76/27b1e5989878f0f1bf735feb1300de7a2664.md)
   - [`21ca2ce0aa`](../../../locales/hu/content/21/ca/2ce0aa806b97f21182196eebe554c4b984ef.md)
 
+### Baffling Birthdays (Meghökkentő születésnapok)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/baffling-birthdays/.docs/instructions.md)): [Latest](../../../locales/hu/content/a0/1e/c86796ac6bc6e2873dca01003a8e5f02ee32.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/baffling-birthdays/.docs/introduction.md)): [Latest](../../../locales/hu/content/97/da/bd1e6cfffbcb4a20748b3b328e8cbc284b98.md)
+
 ### Binary Search (Bináris keresés)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/binary-search/.docs/instructions.md)): [Latest](../../../locales/hu/content/12/f4/358ebcd8c63ffc623eca661c55da4419e410.md)

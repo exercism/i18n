@@ -38,6 +38,11 @@ This page is generated from [the index](../../json/ar/gdscript.json) by `scripts
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/atbash-cipher/.docs/instructions.md)): [Latest](../../../locales/ar/content/1e/76/27b1e5989878f0f1bf735feb1300de7a2664.md)
 
+### Baffling Birthdays (أعياد ميلاد محيّرة)
+
+- `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/baffling-birthdays/.docs/instructions.md)): [Latest](../../../locales/ar/content/a0/1e/c86796ac6bc6e2873dca01003a8e5f02ee32.md)
+- `introduction.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/baffling-birthdays/.docs/introduction.md)): [Latest](../../../locales/ar/content/97/da/bd1e6cfffbcb4a20748b3b328e8cbc284b98.md)
+
 ### Binary Search (البحث الثنائي)
 
 - `instructions.md` ([English](https://github.com/exercism/gdscript/blob/main/exercises/practice/binary-search/.docs/instructions.md)): [Latest](../../../locales/ar/content/12/f4/358ebcd8c63ffc623eca661c55da4419e410.md)

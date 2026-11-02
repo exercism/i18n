@@ -233,5 +233,8 @@
   "exercise:robot-name:source": "Hibakeresési munkamenet Paul Blackwell-lel a gSchoolban.",
   "exercise:yacht:name": "Jacht",
   "exercise:yacht:blurb": "Számítsd ki a Yacht játékban egyetlen kockadobás pontszámát.",
-  "exercise:yacht:source": "James Kilfiger, a Wikipédiát használva"
+  "exercise:yacht:source": "James Kilfiger, a Wikipédiát használva",
+  "exercise:baffling-birthdays:name": "Meghökkentő születésnapok",
+  "exercise:baffling-birthdays:blurb": "Becsüld meg a születésnapi paradoxon valószínűségeit.",
+  "exercise:baffling-birthdays:source": "Erik Schierboom"
 }

@@ -233,5 +233,8 @@
   "exercise:robot-name:source": "Eine Debugging-Sitzung mit Paul Blackwell bei gSchool.",
   "exercise:yacht:name": "Yacht",
   "exercise:yacht:blurb": "Bewerte einen einzelnen Würfelwurf im Spiel Yacht.",
-  "exercise:yacht:source": "James Kilfiger, unter Verwendung von Wikipedia"
+  "exercise:yacht:source": "James Kilfiger, unter Verwendung von Wikipedia",
+  "exercise:baffling-birthdays:name": "Verblüffende Geburtstage",
+  "exercise:baffling-birthdays:blurb": "Schätze die Wahrscheinlichkeiten des Geburtstagsparadoxons.",
+  "exercise:baffling-birthdays:source": "Erik Schierboom"
 }

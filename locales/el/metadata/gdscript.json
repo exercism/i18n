@@ -233,5 +233,8 @@
   "exercise:robot-name:source": "Μια συνεδρία debugging με τον Paul Blackwell στο gSchool.",
   "exercise:yacht:name": "Yacht",
   "exercise:yacht:blurb": "Βαθμολόγησε μια μόνο ρίψη ζαριών στο παιχνίδι Yacht.",
-  "exercise:yacht:source": "James Kilfiger, χρησιμοποιώντας τη Βικιπαίδεια"
+  "exercise:yacht:source": "James Kilfiger, χρησιμοποιώντας τη Βικιπαίδεια",
+  "exercise:baffling-birthdays:name": "Μπερδεμένα Γενέθλια",
+  "exercise:baffling-birthdays:blurb": "Εκτίμησε τις πιθανότητες του παράδοξου των γενεθλίων.",
+  "exercise:baffling-birthdays:source": "Erik Schierboom"
 }

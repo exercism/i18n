@@ -233,5 +233,8 @@
   "exercise:robot-name:source": "gSchool में Paul Blackwell के साथ एक डीबगिंग सेशन।",
   "exercise:yacht:name": "Yacht",
   "exercise:yacht:blurb": "Yacht गेम में पासों के एक थ्रो का स्कोर निकालिए।",
-  "exercise:yacht:source": "James Kilfiger, विकिपीडिया का उपयोग करके।"
+  "exercise:yacht:source": "James Kilfiger, विकिपीडिया का उपयोग करके।",
+  "exercise:baffling-birthdays:name": "चौंकाने वाले जन्मदिन",
+  "exercise:baffling-birthdays:blurb": "जन्मदिन विरोधाभास की प्रायिकताओं का अनुमान लगाइए।",
+  "exercise:baffling-birthdays:source": "Erik Schierboom"
 }

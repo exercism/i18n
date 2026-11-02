@@ -233,5 +233,8 @@
   "exercise:robot-name:source": "gSchool-এ Paul Blackwell-এর সঙ্গে একটি ডিবাগিং সেশন।",
   "exercise:yacht:name": "ইয়ট",
   "exercise:yacht:blurb": "ইয়ট গেমে পাশার একবার ছোড়ার স্কোর হিসাব করুন।",
-  "exercise:yacht:source": "James Kilfiger, Wikipedia ব্যবহার করে"
+  "exercise:yacht:source": "James Kilfiger, Wikipedia ব্যবহার করে",
+  "exercise:baffling-birthdays:name": "হতবুদ্ধিকর জন্মদিন",
+  "exercise:baffling-birthdays:blurb": "জন্মদিন প্যারাডক্সের সম্ভাব্যতা অনুমান করুন।",
+  "exercise:baffling-birthdays:source": "Erik Schierboom"
 }

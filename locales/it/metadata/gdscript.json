@@ -233,5 +233,8 @@
   "exercise:robot-name:source": "Una sessione di debug con Paul Blackwell a gSchool.",
   "exercise:yacht:name": "Yacht",
   "exercise:yacht:blurb": "Assegna il punteggio a un singolo lancio di dadi nel gioco Yacht.",
-  "exercise:yacht:source": "James Kilfiger, usando Wikipedia"
+  "exercise:yacht:source": "James Kilfiger, usando Wikipedia",
+  "exercise:baffling-birthdays:name": "Compleanni sconcertanti",
+  "exercise:baffling-birthdays:blurb": "Stima le probabilità del paradosso del compleanno.",
+  "exercise:baffling-birthdays:source": "Erik Schierboom"
 }

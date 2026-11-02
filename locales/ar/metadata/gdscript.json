@@ -233,5 +233,8 @@
   "exercise:robot-name:source": "جلسة تصحيح أخطاء مع Paul Blackwell في gSchool.",
   "exercise:yacht:name": "Yacht",
   "exercise:yacht:blurb": "احسب نقاط رمية نرد واحدة في لعبة Yacht.",
-  "exercise:yacht:source": "James Kilfiger، بالاستعانة بـ Wikipedia"
+  "exercise:yacht:source": "James Kilfiger، بالاستعانة بـ Wikipedia",
+  "exercise:baffling-birthdays:name": "أعياد ميلاد محيّرة",
+  "exercise:baffling-birthdays:blurb": "قدّر احتمالات مفارقة أعياد الميلاد.",
+  "exercise:baffling-birthdays:source": "Erik Schierboom"
 }

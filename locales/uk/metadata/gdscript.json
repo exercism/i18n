@@ -233,5 +233,8 @@
   "exercise:robot-name:source": "Сеанс налагодження з Paul Blackwell у gSchool.",
   "exercise:yacht:name": "Яхта",
   "exercise:yacht:blurb": "Підрахуйте очки за один кидок кубиків у грі «Яхта».",
-  "exercise:yacht:source": "James Kilfiger, за матеріалами Wikipedia"
+  "exercise:yacht:source": "James Kilfiger, за матеріалами Wikipedia",
+  "exercise:baffling-birthdays:name": "Незбагненні дні народження",
+  "exercise:baffling-birthdays:blurb": "Оцініть імовірності парадоксу днів народження.",
+  "exercise:baffling-birthdays:source": "Erik Schierboom"
 }

@@ -233,5 +233,8 @@
   "exercise:robot-name:source": "یک جلسه‌ی debug با Paul Blackwell در gSchool.",
   "exercise:yacht:name": "Yacht",
   "exercise:yacht:blurb": "یک پرتاب تاس در بازی Yacht را امتیازدهی کنید.",
-  "exercise:yacht:source": "James Kilfiger، با استفاده از Wikipedia"
+  "exercise:yacht:source": "James Kilfiger، با استفاده از Wikipedia",
+  "exercise:baffling-birthdays:name": "تولدهای گیج‌کننده",
+  "exercise:baffling-birthdays:blurb": "احتمال‌های پارادوکس تولد را تخمین بزنید.",
+  "exercise:baffling-birthdays:source": "Erik Schierboom"
 }

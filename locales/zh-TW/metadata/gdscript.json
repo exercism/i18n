@@ -233,5 +233,8 @@
   "exercise:robot-name:source": "源自與 Paul Blackwell 在 gSchool 的一次除錯過程。",
   "exercise:yacht:name": "快艇骰子",
   "exercise:yacht:blurb": "為快艇骰子遊戲中的單次擲骰計分。",
-  "exercise:yacht:source": "James Kilfiger，參考 Wikipedia"
+  "exercise:yacht:source": "James Kilfiger，參考 Wikipedia",
+  "exercise:baffling-birthdays:name": "令人費解的生日",
+  "exercise:baffling-birthdays:blurb": "估算生日悖論的機率。",
+  "exercise:baffling-birthdays:source": "Erik Schierboom"
 }

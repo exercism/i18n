@@ -233,5 +233,8 @@
   "exercise:robot-name:source": "gSchool에서 Paul Blackwell과 함께한 디버깅 세션.",
   "exercise:yacht:name": "Yacht",
   "exercise:yacht:blurb": "Yacht 게임에서 주사위를 한 번 던진 결과를 채점해요.",
-  "exercise:yacht:source": "James Kilfiger, Wikipedia 참고"
+  "exercise:yacht:source": "James Kilfiger, Wikipedia 참고",
+  "exercise:baffling-birthdays:name": "놀라운 생일",
+  "exercise:baffling-birthdays:blurb": "생일 역설의 확률을 추정해요.",
+  "exercise:baffling-birthdays:source": "Erik Schierboom"
 }

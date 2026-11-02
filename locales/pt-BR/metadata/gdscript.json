@@ -233,5 +233,8 @@
   "exercise:robot-name:source": "Uma sessão de depuração com Paul Blackwell na gSchool.",
   "exercise:yacht:name": "Yacht",
   "exercise:yacht:blurb": "Calcule a pontuação de uma única jogada de dados no jogo Yacht.",
-  "exercise:yacht:source": "James Kilfiger, usando a Wikipédia"
+  "exercise:yacht:source": "James Kilfiger, usando a Wikipédia",
+  "exercise:baffling-birthdays:name": "Aniversários desconcertantes",
+  "exercise:baffling-birthdays:blurb": "Estime as probabilidades do paradoxo do aniversário.",
+  "exercise:baffling-birthdays:source": "Erik Schierboom"
 }

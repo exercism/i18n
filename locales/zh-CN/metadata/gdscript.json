@@ -233,5 +233,8 @@
   "exercise:robot-name:source": "与 Paul Blackwell 在 gSchool 进行的一次调试会话。",
   "exercise:yacht:name": "快艇",
   "exercise:yacht:blurb": "为快艇游戏中的一次掷骰计算得分。",
-  "exercise:yacht:source": "James Kilfiger，资料来自 Wikipedia"
+  "exercise:yacht:source": "James Kilfiger，资料来自 Wikipedia",
+  "exercise:baffling-birthdays:name": "令人困惑的生日",
+  "exercise:baffling-birthdays:blurb": "估算生日悖论的概率。",
+  "exercise:baffling-birthdays:source": "Erik Schierboom"
 }
