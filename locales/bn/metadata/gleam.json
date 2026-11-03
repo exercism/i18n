@@ -426,5 +426,8 @@
   "concept:labelled-arguments:blurb": "লেবেল ব্যবহার করে ফাংশন আর্গুমেন্টকে বাহ্যিক নাম দেওয়া যায়।",
   "concept:sets:blurb": "সেট কীভাবে ব্যবহার করতে হয় তা শিখুন।",
   "concept:options:blurb": "Option টাইপ দিয়ে অপশনাল মান সম্পর্কে শিখুন",
-  "concept:basics:blurb": "Gleam হলো স্কেলযোগ্য কনকারেন্ট সিস্টেম তৈরির জন্য একটি স্ট্যাটিক টাইপড ফাংশনাল প্রোগ্রামিং ভাষা। এটি Erlang-এ কম্পাইল হয় এবং Erlang, Elixir ও LFE-এর মতো অন্য BEAM ভাষার সাথে সহজে ইন্টারঅপারেট করতে পারে।"
+  "concept:basics:blurb": "Gleam হলো স্কেলযোগ্য কনকারেন্ট সিস্টেম তৈরির জন্য একটি স্ট্যাটিক টাইপড ফাংশনাল প্রোগ্রামিং ভাষা। এটি Erlang-এ কম্পাইল হয় এবং Erlang, Elixir ও LFE-এর মতো অন্য BEAM ভাষার সাথে সহজে ইন্টারঅপারেট করতে পারে।",
+  "exercise:zebra-puzzle:name": "জেব্রা ধাঁধা",
+  "exercise:zebra-puzzle:blurb": "জেব্রা ধাঁধাটি সমাধান করুন।",
+  "exercise:zebra-puzzle:source": "Wikipedia"
 }

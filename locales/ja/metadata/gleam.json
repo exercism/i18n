@@ -426,5 +426,8 @@
   "concept:labelled-arguments:blurb": "関数の引数には、ラベルを使って外から参照するための名前を付けられます。",
   "concept:sets:blurb": "集合の使い方を学びましょう。",
   "concept:options:blurb": "`Option`型を使って、値があるかないかを表す方法を学びましょう",
-  "concept:basics:blurb": "Gleamは、スケーラブルな並行システムを構築するための静的型付け関数型プログラミング言語です。Erlangにコンパイルされ、Erlang、Elixir、LFEなど他のBEAM言語と簡単に相互運用できます。"
+  "concept:basics:blurb": "Gleamは、スケーラブルな並行システムを構築するための静的型付け関数型プログラミング言語です。Erlangにコンパイルされ、Erlang、Elixir、LFEなど他のBEAM言語と簡単に相互運用できます。",
+  "exercise:zebra-puzzle:name": "シマウマのパズル",
+  "exercise:zebra-puzzle:blurb": "シマウマのパズルを解きます。",
+  "exercise:zebra-puzzle:source": "Wikipedia"
 }

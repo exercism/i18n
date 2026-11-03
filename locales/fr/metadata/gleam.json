@@ -426,5 +426,8 @@
   "concept:results:blurb": "Découvre la gestion des erreurs à l'aide du type Result.",
   "concept:dicts:blurb": "Un dictionnaire est une structure de données qui contient des paires clé-valeur. Les clés doivent être uniques.",
   "concept:type-aliases:blurb": "Les alias de type en Gleam permettent de donner un nom à un type existant.",
-  "concept:basics:blurb": "Gleam est un langage de programmation fonctionnel à typage statique, conçu pour construire des systèmes concurrents et évolutifs. Il compile vers Erlang et s'interopère simplement avec les autres langages de la BEAM tels qu'Erlang, Elixir et LFE."
+  "concept:basics:blurb": "Gleam est un langage de programmation fonctionnel à typage statique, conçu pour construire des systèmes concurrents et évolutifs. Il compile vers Erlang et s'interopère simplement avec les autres langages de la BEAM tels qu'Erlang, Elixir et LFE.",
+  "exercise:zebra-puzzle:name": "Énigme du zèbre",
+  "exercise:zebra-puzzle:blurb": "Résous l'énigme du zèbre.",
+  "exercise:zebra-puzzle:source": "Wikipedia"
 }

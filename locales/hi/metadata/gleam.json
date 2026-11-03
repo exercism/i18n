@@ -426,5 +426,8 @@
   "concept:labelled-arguments:blurb": "फंक्शन के आर्गुमेंट को लेबल की मदद से बाहरी नाम दिए जा सकते हैं।",
   "concept:sets:blurb": "सेट का उपयोग करना सीखिए।",
   "concept:options:blurb": "Option टाइप की मदद से वैकल्पिक वैल्यू के बारे में सीखिए",
-  "concept:basics:blurb": "Gleam एक स्टेटिकली टाइप्ड फंक्शनल प्रोग्रामिंग भाषा है, जो स्केलेबल समवर्ती सिस्टम बनाने के लिए है। यह Erlang में कंपाइल होती है और Erlang, Elixir तथा LFE जैसी अन्य BEAM भाषाओं के साथ आसानी से काम करती है।"
+  "concept:basics:blurb": "Gleam एक स्टेटिकली टाइप्ड फंक्शनल प्रोग्रामिंग भाषा है, जो स्केलेबल समवर्ती सिस्टम बनाने के लिए है। यह Erlang में कंपाइल होती है और Erlang, Elixir तथा LFE जैसी अन्य BEAM भाषाओं के साथ आसानी से काम करती है।",
+  "exercise:zebra-puzzle:name": "ज़ेब्रा पहेली",
+  "exercise:zebra-puzzle:blurb": "ज़ेब्रा पहेली हल कीजिए।",
+  "exercise:zebra-puzzle:source": "Wikipedia"
 }

@@ -426,5 +426,8 @@
   "concept:type-aliases:blurb": "Gleam 中的类型别名让我们可以给已有的类型起一个名字。",
   "concept:orders:blurb": "了解如何使用 Order 类型对值排序。",
   "concept:constants:blurb": "Gleam 中的常量用于创建有名字的值。",
-  "concept:basics:blurb": "Gleam 是一门静态类型的函数式编程语言，用于构建可扩展的并发系统。它编译为 Erlang，并能与其他 BEAM 语言（如 Erlang、Elixir 和 LFE）轻松互操作。"
+  "concept:basics:blurb": "Gleam 是一门静态类型的函数式编程语言，用于构建可扩展的并发系统。它编译为 Erlang，并能与其他 BEAM 语言（如 Erlang、Elixir 和 LFE）轻松互操作。",
+  "exercise:zebra-puzzle:name": "斑马谜题",
+  "exercise:zebra-puzzle:blurb": "解开斑马谜题。",
+  "exercise:zebra-puzzle:source": "Wikipedia"
 }

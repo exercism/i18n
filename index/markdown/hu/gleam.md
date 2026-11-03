@@ -264,7 +264,7 @@ This page is generated from [the index](../../json/hu/gleam.json) by `scripts/bu
   - [`7beb257795`](../../../locales/hu/content/7b/eb/257795750af8a41226dc35558924106c5657.md)
 - `introduction.md` ([English](https://github.com/exercism/gleam/blob/main/exercises/practice/ocr-numbers/.docs/introduction.md)): [Latest](../../../locales/hu/content/36/6d/76062c7f4620198bfa95f32a8341b17493c4.md)
 
-### Pangram
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/gleam/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
   - [`d5698bc2a2`](../../../locales/hu/content/d5/69/8bc2a292baf2fb128de3543b748165088c4f.md)
@@ -475,6 +475,11 @@ This page is generated from [the index](../../json/hu/gleam.json) by `scripts/bu
 
 - `instructions.md` ([English](https://github.com/exercism/gleam/blob/main/exercises/practice/yacht/.docs/instructions.md)): [Latest](../../../locales/hu/content/51/9b/7a68b876e58fc845cccc10ae1d28519db33a.md)
 - `introduction.md` ([English](https://github.com/exercism/gleam/blob/main/exercises/practice/yacht/.docs/introduction.md)): [Latest](../../../locales/hu/content/5b/54/1f5625ce0d5916f9545a824de17a55d433f1.md)
+
+### Zebra Puzzle (Zebrarejtvény)
+
+- `instructions.md` ([English](https://github.com/exercism/gleam/blob/main/exercises/practice/zebra-puzzle/.docs/instructions.md)): [Latest](../../../locales/hu/content/ae/dc/e9b25e7ed65c8f05d32cdae4cbd12adbb245.md)
+- `introduction.md` ([English](https://github.com/exercism/gleam/blob/main/exercises/practice/zebra-puzzle/.docs/introduction.md)): [Latest](../../../locales/hu/content/bb/ca/a6fd203b1287d74439822b072473408e4799.md)
 
 ### Zipper (Cipzár)
 

@@ -426,5 +426,8 @@
   "concept:labelled-arguments:blurb": "Аргументам функції можна дати зовнішні назви за допомогою міток.",
   "concept:sets:blurb": "Дізнайтеся, як користуватися множинами.",
   "concept:options:blurb": "Вивчіть необовʼязкові значення за допомогою типу Option",
-  "concept:basics:blurb": "Gleam - це статично типізована функційна мова програмування для створення масштабованих конкурентних систем. Вона компілюється в Erlang і має просту взаємодію з іншими мовами BEAM, як-от Erlang, Elixir і LFE."
+  "concept:basics:blurb": "Gleam - це статично типізована функційна мова програмування для створення масштабованих конкурентних систем. Вона компілюється в Erlang і має просту взаємодію з іншими мовами BEAM, як-от Erlang, Elixir і LFE.",
+  "exercise:zebra-puzzle:name": "Загадка про зебру",
+  "exercise:zebra-puzzle:blurb": "Розвʼяжіть загадку про зебру.",
+  "exercise:zebra-puzzle:source": "Wikipedia"
 }

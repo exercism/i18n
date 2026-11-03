@@ -426,5 +426,8 @@
   "doc:tests:blurb": "یاد بگیرید چگونه تمرین‌های Gleam خود را در Exercism تست کنید",
   "doc:resources:title": "منابع مفید Gleam",
   "doc:resources:blurb": "مجموعه‌ای از منابع مفید که به شما کمک می‌کند در Gleam مهارت پیدا کنید",
-  "concept:basics:blurb": "Gleam یک زبان برنامه‌نویسی تابعی با نوع‌دهی ایستا برای ساخت سیستم‌های هم‌روند و مقیاس‌پذیر است. این زبان به Erlang کامپایل می‌شود و هم‌کنش‌پذیری ساده‌ای با دیگر زبان‌های BEAM مانند Erlang، Elixir و LFE دارد."
+  "concept:basics:blurb": "Gleam یک زبان برنامه‌نویسی تابعی با نوع‌دهی ایستا برای ساخت سیستم‌های هم‌روند و مقیاس‌پذیر است. این زبان به Erlang کامپایل می‌شود و هم‌کنش‌پذیری ساده‌ای با دیگر زبان‌های BEAM مانند Erlang، Elixir و LFE دارد.",
+  "exercise:zebra-puzzle:name": "معمای گورخر",
+  "exercise:zebra-puzzle:blurb": "معمای گورخر را حل کنید.",
+  "exercise:zebra-puzzle:source": "Wikipedia"
 }

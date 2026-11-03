@@ -426,5 +426,8 @@
   "concept:sets:blurb": "Tanuld meg, hogyan használhatod a halmazokat.",
   "concept:options:blurb": "Ismerkedj meg az opcionális értékekkel az Option típus segítségével",
   "concept:let-assertions:blurb": "Ismerkedj meg a részleges mintaillesztéssel a let-állítások segítségével",
-  "concept:basics:blurb": "A Gleam egy statikusan típusos funkcionális programozási nyelv skálázható, párhuzamos rendszerek építéséhez. Erlangra fordul, és könnyedén együttműködik más BEAM-nyelvekkel, például az Erlanggal, az Elixirrel és az LFE-vel."
+  "concept:basics:blurb": "A Gleam egy statikusan típusos funkcionális programozási nyelv skálázható, párhuzamos rendszerek építéséhez. Erlangra fordul, és könnyedén együttműködik más BEAM-nyelvekkel, például az Erlanggal, az Elixirrel és az LFE-vel.",
+  "exercise:zebra-puzzle:name": "Zebrarejtvény",
+  "exercise:zebra-puzzle:blurb": "Oldd meg a zebrarejtvényt.",
+  "exercise:zebra-puzzle:source": "Wikipedia"
 }

@@ -426,5 +426,8 @@
   "concept:type-aliases:blurb": "Mit Typ-Aliasen können wir in Gleam einem vorhandenen Typ einen Namen geben.",
   "concept:orders:blurb": "Lerne, wie du Werte mit dem Order-Typ sortierst.",
   "concept:constants:blurb": "Konstanten werden in Gleam verwendet, um benannte Werte zu erstellen.",
-  "concept:basics:blurb": "Gleam ist eine statisch typisierte funktionale Programmiersprache für den Aufbau skalierbarer, nebenläufiger Systeme. Sie kompiliert zu Erlang und lässt sich unkompliziert mit anderen BEAM-Sprachen wie Erlang, Elixir und LFE kombinieren."
+  "concept:basics:blurb": "Gleam ist eine statisch typisierte funktionale Programmiersprache für den Aufbau skalierbarer, nebenläufiger Systeme. Sie kompiliert zu Erlang und lässt sich unkompliziert mit anderen BEAM-Sprachen wie Erlang, Elixir und LFE kombinieren.",
+  "exercise:zebra-puzzle:name": "Zebrarätsel",
+  "exercise:zebra-puzzle:blurb": "Löse das Zebrarätsel.",
+  "exercise:zebra-puzzle:source": "Wikipedia"
 }

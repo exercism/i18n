@@ -426,5 +426,8 @@
   "concept:type-aliases:blurb": "Gleam 的型別別名讓我們能為現有的型別命名。",
   "concept:orders:blurb": "學習使用 Order 型別來排序值。",
   "concept:constants:blurb": "Gleam 的常數用來建立具名的值。",
-  "concept:basics:blurb": "Gleam 是靜態型別的函式程式語言，用來打造可擴充的並行系統。它會編譯成 Erlang，並能與 Erlang、Elixir、LFE 等其他 BEAM 語言直接互通。"
+  "concept:basics:blurb": "Gleam 是靜態型別的函式程式語言，用來打造可擴充的並行系統。它會編譯成 Erlang，並能與 Erlang、Elixir、LFE 等其他 BEAM 語言直接互通。",
+  "exercise:zebra-puzzle:name": "斑馬謎題",
+  "exercise:zebra-puzzle:blurb": "解開斑馬謎題。",
+  "exercise:zebra-puzzle:source": "Wikipedia"
 }

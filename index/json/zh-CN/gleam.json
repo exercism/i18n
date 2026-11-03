@@ -168,6 +168,7 @@
     "exercises/practice/word-count": {"en":"Word Count","zh-CN":"单词计数"},
     "exercises/practice/wordy": {"en":"Wordy","zh-CN":"文字题"},
     "exercises/practice/yacht": {"en":"Yacht","zh-CN":"快艇"},
+    "exercises/practice/zebra-puzzle": {"en":"Zebra Puzzle","zh-CN":"斑马谜题"},
     "exercises/practice/zipper": {"en":"Zipper","zh-CN":"Zipper"}
   },
   "paths": {
@@ -477,6 +478,8 @@
     "exercises/practice/wordy/.docs/instructions.md": ["aafb9ee54bf49aa33e99af41ba55cbe6f4e1a784"],
     "exercises/practice/yacht/.docs/instructions.md": ["519b7a68b876e58fc845cccc10ae1d28519db33a"],
     "exercises/practice/yacht/.docs/introduction.md": ["5b541f5625ce0d5916f9545a824de17a55d433f1"],
+    "exercises/practice/zebra-puzzle/.docs/instructions.md": ["aedce9b25e7ed65c8f05d32cdae4cbd12adbb245"],
+    "exercises/practice/zebra-puzzle/.docs/introduction.md": ["bbcaa6fd203b1287d74439822b072473408e4799"],
     "exercises/practice/zipper/.docs/instructions.md": ["5445db0035780cdedeb3348d1441df7c4158586b"],
     "exercises/shared/.docs/debug.md": ["bd2665bb4f64b24d85db207e69d24e9c6cb3a35a"],
     "exercises/shared/.docs/help.md": ["03a83e7a7d6ae053552880b6314387b8ca5225b8"],

@@ -426,5 +426,8 @@
   "concept:labelled-arguments:blurb": "Os argumentos de uma função podem receber nomes externos através de etiquetas.",
   "concept:sets:blurb": "Aprende a usar conjuntos.",
   "concept:options:blurb": "Aprende a usar valores opcionais com o tipo Option.",
-  "concept:basics:blurb": "O Gleam é uma linguagem de programação funcional com tipos estáticos, para construir sistemas concorrentes escaláveis. Compila para Erlang e tem interoperabilidade simples com outras linguagens BEAM, como Erlang, Elixir e LFE."
+  "concept:basics:blurb": "O Gleam é uma linguagem de programação funcional com tipos estáticos, para construir sistemas concorrentes escaláveis. Compila para Erlang e tem interoperabilidade simples com outras linguagens BEAM, como Erlang, Elixir e LFE.",
+  "exercise:zebra-puzzle:name": "Enigma da Zebra",
+  "exercise:zebra-puzzle:blurb": "Resolve o enigma da zebra.",
+  "exercise:zebra-puzzle:source": "Wikipedia"
 }

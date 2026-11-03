@@ -426,5 +426,8 @@
   "concept:labelled-arguments:blurb": "함수 인자에는 레이블을 사용해 외부 이름을 붙일 수 있어요.",
   "concept:sets:blurb": "집합 사용법을 배워요.",
   "concept:options:blurb": "Option 타입으로 선택적인 값에 대해 배워요",
-  "concept:basics:blurb": "Gleam은 확장 가능한 동시성 시스템을 만들기 위한 정적 타입 함수형 프로그래밍 언어예요. Erlang으로 컴파일되며 Erlang, Elixir, LFE 같은 다른 BEAM 언어와 손쉽게 상호 운용할 수 있어요."
+  "concept:basics:blurb": "Gleam은 확장 가능한 동시성 시스템을 만들기 위한 정적 타입 함수형 프로그래밍 언어예요. Erlang으로 컴파일되며 Erlang, Elixir, LFE 같은 다른 BEAM 언어와 손쉽게 상호 운용할 수 있어요.",
+  "exercise:zebra-puzzle:name": "얼룩말 퍼즐",
+  "exercise:zebra-puzzle:blurb": "얼룩말 퍼즐을 풀어요.",
+  "exercise:zebra-puzzle:source": "Wikipedia"
 }

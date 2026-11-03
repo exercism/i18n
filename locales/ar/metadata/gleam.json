@@ -426,5 +426,8 @@
   "concept:labelled-arguments:blurb": "يمكن إعطاء وسائط الدالة أسماء خارجية باستخدام التسميات.",
   "concept:sets:blurb": "تعلّم كيفية استخدام المجموعات.",
   "concept:options:blurb": "تعلّم القيم الاختيارية باستخدام نوع `Option`",
-  "concept:basics:blurb": "Gleam لغة برمجة وظيفية ذات أنواع ساكنة لبناء أنظمة متزامنة قابلة للتوسّع. تُصرَّف إلى Erlang، وتتميّز بقابلية تشغيل متبادل مباشرة مع لغات BEAM الأخرى مثل Erlang وElixir وLFE."
+  "concept:basics:blurb": "Gleam لغة برمجة وظيفية ذات أنواع ساكنة لبناء أنظمة متزامنة قابلة للتوسّع. تُصرَّف إلى Erlang، وتتميّز بقابلية تشغيل متبادل مباشرة مع لغات BEAM الأخرى مثل Erlang وElixir وLFE.",
+  "exercise:zebra-puzzle:name": "لغز الحمار الوحشي",
+  "exercise:zebra-puzzle:blurb": "حل لغز الحمار الوحشي.",
+  "exercise:zebra-puzzle:source": "ويكيبيديا"
 }

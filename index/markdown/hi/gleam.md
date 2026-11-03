@@ -435,6 +435,11 @@ This page is generated from [the index](../../json/hi/gleam.json) by `scripts/bu
 - `instructions.md` ([English](https://github.com/exercism/gleam/blob/main/exercises/practice/yacht/.docs/instructions.md)): [Latest](../../../locales/hi/content/51/9b/7a68b876e58fc845cccc10ae1d28519db33a.md)
 - `introduction.md` ([English](https://github.com/exercism/gleam/blob/main/exercises/practice/yacht/.docs/introduction.md)): [Latest](../../../locales/hi/content/5b/54/1f5625ce0d5916f9545a824de17a55d433f1.md)
 
+### Zebra Puzzle (ज़ेब्रा पहेली)
+
+- `instructions.md` ([English](https://github.com/exercism/gleam/blob/main/exercises/practice/zebra-puzzle/.docs/instructions.md)): [Latest](../../../locales/hi/content/ae/dc/e9b25e7ed65c8f05d32cdae4cbd12adbb245.md)
+- `introduction.md` ([English](https://github.com/exercism/gleam/blob/main/exercises/practice/zebra-puzzle/.docs/introduction.md)): [Latest](../../../locales/hi/content/bb/ca/a6fd203b1287d74439822b072473408e4799.md)
+
 ### Zipper (ज़िपर)
 
 - `instructions.md` ([English](https://github.com/exercism/gleam/blob/main/exercises/practice/zipper/.docs/instructions.md)): [Latest](../../../locales/hi/content/54/45/db0035780cdedeb3348d1441df7c4158586b.md)

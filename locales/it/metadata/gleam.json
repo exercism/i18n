@@ -426,5 +426,8 @@
   "concept:type-aliases:blurb": "Gli alias di tipo in Gleam permettono di dare un nome a un tipo esistente.",
   "concept:orders:blurb": "Scopri come ordinare i valori usando il tipo Order.",
   "concept:constants:blurb": "Le costanti in Gleam si usano per creare valori con un nome.",
-  "concept:basics:blurb": "Gleam è un linguaggio di programmazione funzionale a tipizzazione statica per costruire sistemi concorrenti scalabili. Compila verso Erlang e si integra facilmente con gli altri linguaggi della BEAM, come Erlang, Elixir ed LFE."
+  "concept:basics:blurb": "Gleam è un linguaggio di programmazione funzionale a tipizzazione statica per costruire sistemi concorrenti scalabili. Compila verso Erlang e si integra facilmente con gli altri linguaggi della BEAM, come Erlang, Elixir ed LFE.",
+  "exercise:zebra-puzzle:name": "Puzzle della zebra",
+  "exercise:zebra-puzzle:blurb": "Risolvi il puzzle della zebra.",
+  "exercise:zebra-puzzle:source": "Wikipedia"
 }
