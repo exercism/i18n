@@ -232,5 +232,8 @@
   "doc:tests:title": "الاختبار في مسار Nim",
   "doc:tests:blurb": "تعرّف على كيفية اختبار تمارين Nim على Exercism.",
   "doc:resources:title": "مصادر مفيدة عن Nim",
-  "doc:resources:blurb": "مجموعة من المصادر المفيدة لمساعدتك على إتقان Nim."
+  "doc:resources:blurb": "مجموعة من المصادر المفيدة لمساعدتك على إتقان Nim.",
+  "exercise:robot-simulator:name": "محاكي الروبوت",
+  "exercise:robot-simulator:blurb": "اكتب محاكيًا للروبوت.",
+  "exercise:robot-simulator:source": "مستوحًى من سؤال مقابلة في شركة شهيرة."
 }

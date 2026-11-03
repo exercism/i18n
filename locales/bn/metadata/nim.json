@@ -232,5 +232,8 @@
   "doc:tests:title": "Nim ট্র্যাকে টেস্টিং",
   "doc:tests:blurb": "Exercism-এ আপনার Nim অনুশীলনীগুলো কীভাবে টেস্ট করবেন, তা শিখুন",
   "doc:resources:title": "Nim-এর দরকারি রিসোর্স",
-  "doc:resources:blurb": "Nim-এ দক্ষ হতে সাহায্য করবে এমন দরকারি রিসোর্সের সংগ্রহ"
+  "doc:resources:blurb": "Nim-এ দক্ষ হতে সাহায্য করবে এমন দরকারি রিসোর্সের সংগ্রহ",
+  "exercise:robot-simulator:name": "রোবট সিমুলেটর",
+  "exercise:robot-simulator:blurb": "একটি রোবট সিমুলেটর লিখুন।",
+  "exercise:robot-simulator:source": "একটি বিখ্যাত কোম্পানির ইন্টারভিউ প্রশ্ন থেকে অনুপ্রাণিত।"
 }

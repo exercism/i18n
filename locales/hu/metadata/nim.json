@@ -234,5 +234,8 @@
   "doc:tests:title": "Tesztelés a Nim kurzuson",
   "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Nim-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Nim-források",
-  "doc:resources:blurb": "Válogatott hasznos források, amelyek segítenek elsajátítani a Nim-et"
+  "doc:resources:blurb": "Válogatott hasznos források, amelyek segítenek elsajátítani a Nim-et",
+  "exercise:robot-simulator:name": "Robotszimulátor",
+  "exercise:robot-simulator:blurb": "Írj egy robotszimulátort.",
+  "exercise:robot-simulator:source": "Egy híres cég interjúkérdése ihlette."
 }

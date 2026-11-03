@@ -234,5 +234,8 @@
   "doc:tests:title": "Δοκιμές στη διαδρομή Nim",
   "doc:tests:blurb": "Μάθε πώς να δοκιμάζεις στο Exercism τις ασκήσεις σου στη Nim",
   "doc:resources:title": "Χρήσιμοι πόροι για τη Nim",
-  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων για να σε βοηθήσουν να κατακτήσεις τη Nim"
+  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων για να σε βοηθήσουν να κατακτήσεις τη Nim",
+  "exercise:robot-simulator:name": "Προσομοιωτής ρομπότ",
+  "exercise:robot-simulator:blurb": "Γράψε έναν προσομοιωτή ρομπότ.",
+  "exercise:robot-simulator:source": "Εμπνευσμένο από μια ερώτηση συνέντευξης σε μια διάσημη εταιρεία."
 }

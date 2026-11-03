@@ -234,5 +234,8 @@
   "doc:tests:title": "Тестування на треку Nim",
   "doc:tests:blurb": "Дізнайтеся, як тестувати свої вправи з Nim на Exercism",
   "doc:resources:title": "Корисні ресурси для Nim",
-  "doc:resources:blurb": "Добірка корисних ресурсів, які допоможуть опанувати Nim"
+  "doc:resources:blurb": "Добірка корисних ресурсів, які допоможуть опанувати Nim",
+  "exercise:robot-simulator:name": "Симулятор робота",
+  "exercise:robot-simulator:blurb": "Напишіть симулятор робота.",
+  "exercise:robot-simulator:source": "За мотивами запитання зі співбесіди у відомій компанії."
 }

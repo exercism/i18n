@@ -232,5 +232,8 @@
   "doc:tests:title": "Nim 트랙에서 테스트하기",
   "doc:tests:blurb": "Exercism에서 Nim 연습 문제를 테스트하는 방법을 알아봐요",
   "doc:resources:title": "유용한 Nim 자료",
-  "doc:resources:blurb": "Nim을 익히는 데 도움이 되는 유용한 자료 모음이에요"
+  "doc:resources:blurb": "Nim을 익히는 데 도움이 되는 유용한 자료 모음이에요",
+  "exercise:robot-simulator:name": "로봇 시뮬레이터",
+  "exercise:robot-simulator:blurb": "로봇 시뮬레이터를 작성해요.",
+  "exercise:robot-simulator:source": "유명 기업의 면접 질문에서 영감을 받았어요."
 }

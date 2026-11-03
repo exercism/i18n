@@ -235,6 +235,10 @@ This page is generated from [the index](../../json/bn/nim.json) by `scripts/buil
 
 - `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/robot-name/.docs/instructions.md)): [Latest](../../../locales/bn/content/fc/a3/a41aeccc9ce1e2839ec947ffcf8e6ef8e2bb.md)
 
+### Robot Simulator (রোবট সিমুলেটর)
+
+- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/robot-simulator/.docs/instructions.md)): [Latest](../../../locales/bn/content/0a/c9/6ce0bdfd660ca416dd86b21f64517fa33eb9.md)
+
 ### Roman Numerals (রোমান সংখ্যা)
 
 - `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/roman-numerals/.docs/instructions.md)): [Latest](../../../locales/bn/content/50/e2/f5bf1c668a66cff143097642a80dae9597d2.md)

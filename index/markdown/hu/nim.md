@@ -195,7 +195,7 @@ This page is generated from [the index](../../json/hu/nim.json) by `scripts/buil
 - `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/nucleotide-count/.docs/instructions.md)): [Latest](../../../locales/hu/content/54/8d/9ba5a5ee79a79fc4ff3e1d942c6c7f7c68af.md)
   - [`cd08758943`](../../../locales/hu/content/cd/08/7589436f87eb6352dc6a86b5bed2f0e3b804.md)
 
-### Pangram
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
   - [`d5698bc2a2`](../../../locales/hu/content/d5/69/8bc2a292baf2fb128de3543b748165088c4f.md)
@@ -271,6 +271,10 @@ This page is generated from [the index](../../json/hu/nim.json) by `scripts/buil
 
 - `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/robot-name/.docs/instructions.md)): [Latest](../../../locales/hu/content/fc/a3/a41aeccc9ce1e2839ec947ffcf8e6ef8e2bb.md)
   - [`a0079a341e`](../../../locales/hu/content/a0/07/9a341e851558be3406d8914849a68280f062.md)
+
+### Robot Simulator (Robotszimulátor)
+
+- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/robot-simulator/.docs/instructions.md)): [Latest](../../../locales/hu/content/0a/c9/6ce0bdfd660ca416dd86b21f64517fa33eb9.md)
 
 ### Roman Numerals (Római számok)
 

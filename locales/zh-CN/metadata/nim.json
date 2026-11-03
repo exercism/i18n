@@ -232,5 +232,8 @@
   "doc:tests:title": "Nim 轨道的测试",
   "doc:tests:blurb": "了解如何在 Exercism 上测试你的 Nim 练习",
   "doc:resources:title": "实用的 Nim 资源",
-  "doc:resources:blurb": "帮助你精通 Nim 的实用资源合集"
+  "doc:resources:blurb": "帮助你精通 Nim 的实用资源合集",
+  "exercise:robot-simulator:name": "机器人模拟器",
+  "exercise:robot-simulator:blurb": "编写一个机器人模拟器。",
+  "exercise:robot-simulator:source": "灵感来自一家知名公司的面试题。"
 }

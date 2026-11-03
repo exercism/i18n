@@ -232,5 +232,8 @@
   "doc:tests:title": "Testar no percurso de Nim",
   "doc:tests:blurb": "Aprende a testar os teus exercícios de Nim no Exercism",
   "doc:resources:title": "Recursos úteis de Nim",
-  "doc:resources:blurb": "Uma coleção de recursos úteis para te ajudar a dominar o Nim"
+  "doc:resources:blurb": "Uma coleção de recursos úteis para te ajudar a dominar o Nim",
+  "exercise:robot-simulator:name": "Simulador de robô",
+  "exercise:robot-simulator:blurb": "Escreve um simulador de robô.",
+  "exercise:robot-simulator:source": "Inspirado numa pergunta de entrevista numa empresa famosa."
 }

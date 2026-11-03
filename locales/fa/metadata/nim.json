@@ -232,5 +232,8 @@
   "doc:tests:title": "Test در مسیر Nim",
   "doc:tests:blurb": "بیاموزید چگونه تمرین‌های Nim خود را در Exercism Test کنید.",
   "doc:resources:title": "منابع مفید Nim",
-  "doc:resources:blurb": "مجموعه‌ای از منابع مفید برای کمک به تسلط شما بر Nim"
+  "doc:resources:blurb": "مجموعه‌ای از منابع مفید برای کمک به تسلط شما بر Nim",
+  "exercise:robot-simulator:name": "شبیه‌ساز ربات",
+  "exercise:robot-simulator:blurb": "یک شبیه‌ساز ربات بنویسید.",
+  "exercise:robot-simulator:source": "با الهام از یک پرسش مصاحبه در شرکتی مشهور."
 }

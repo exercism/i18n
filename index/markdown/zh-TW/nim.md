@@ -235,6 +235,10 @@ This page is generated from [the index](../../json/zh-TW/nim.json) by `scripts/b
 
 - `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/robot-name/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/fc/a3/a41aeccc9ce1e2839ec947ffcf8e6ef8e2bb.md)
 
+### Robot Simulator (機器人模擬器)
+
+- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/robot-simulator/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/0a/c9/6ce0bdfd660ca416dd86b21f64517fa33eb9.md)
+
 ### Roman Numerals (羅馬數字)
 
 - `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/roman-numerals/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/50/e2/f5bf1c668a66cff143097642a80dae9597d2.md)
