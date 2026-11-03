@@ -108,7 +108,8 @@ This page is generated from [the index](../../json/de/cobol.json) by `scripts/bu
 ### Leap (Schaltjahr)
 
 - `instructions.md` ([English](https://github.com/exercism/cobol/blob/main/exercises/practice/leap/.docs/instructions.md)): [Latest](../../../locales/de/content/b1/4f/8565d61694d7c20d78e10f966bd3deaaf748.md)
-- `introduction.md` ([English](https://github.com/exercism/cobol/blob/main/exercises/practice/leap/.docs/introduction.md)): [Latest](../../../locales/de/content/34/4d/3785a5380dd70b8e5b628b272af2fb202e36.md)
+- `introduction.md` ([English](https://github.com/exercism/cobol/blob/main/exercises/practice/leap/.docs/introduction.md)): [Latest](../../../locales/de/content/4f/fd/2da594a51072cb08a32004b217c1c988cfdc.md)
+  - [`344d3785a5`](../../../locales/de/content/34/4d/3785a5380dd70b8e5b628b272af2fb202e36.md)
 
 ### Luhn Algorithm (Luhn-Algorithmus)
 

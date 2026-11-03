@@ -114,8 +114,8 @@ This page is generated from [the index](../../json/hu/cobol.json) by `scripts/bu
 ### Leap (Szökőév)
 
 - `instructions.md` ([English](https://github.com/exercism/cobol/blob/main/exercises/practice/leap/.docs/instructions.md)): [Latest](../../../locales/hu/content/b1/4f/8565d61694d7c20d78e10f966bd3deaaf748.md)
-- `introduction.md` ([English](https://github.com/exercism/cobol/blob/main/exercises/practice/leap/.docs/introduction.md)): [Latest](../../../locales/hu/content/34/4d/3785a5380dd70b8e5b628b272af2fb202e36.md)
-  - [`4ffd2da594`](../../../locales/hu/content/4f/fd/2da594a51072cb08a32004b217c1c988cfdc.md)
+- `introduction.md` ([English](https://github.com/exercism/cobol/blob/main/exercises/practice/leap/.docs/introduction.md)): [Latest](../../../locales/hu/content/4f/fd/2da594a51072cb08a32004b217c1c988cfdc.md)
+  - [`344d3785a5`](../../../locales/hu/content/34/4d/3785a5380dd70b8e5b628b272af2fb202e36.md)
 
 ### Luhn Algorithm (Luhn-algoritmus)
 
@@ -139,7 +139,7 @@ This page is generated from [the index](../../json/hu/cobol.json) by `scripts/bu
 
 - `instructions.md` ([English](https://github.com/exercism/cobol/blob/main/exercises/practice/nucleotide-count/.docs/instructions.md)): [Latest](../../../locales/hu/content/54/8d/9ba5a5ee79a79fc4ff3e1d942c6c7f7c68af.md)
 
-### Pangram
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/cobol/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
   - [`d5698bc2a2`](../../../locales/hu/content/d5/69/8bc2a292baf2fb128de3543b748165088c4f.md)
