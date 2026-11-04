@@ -70,6 +70,11 @@ This page is generated from [the index](../../json/pt-BR/emacs-lisp.json) by `sc
 
 - `instructions.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/bottle-song/.docs/instructions.md)): [Latest](../../../locales/pt-BR/content/fe/bd/fc86395a2e95f0a9254013f526c70caf8903.md)
 
+### Change (Troco)
+
+- `instructions.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/change/.docs/instructions.md)): [Latest](../../../locales/pt-BR/content/58/87/f4cb6937d20d8dfc81f7fe369959cb0dd129.md)
+- `introduction.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/change/.docs/introduction.md)): [Latest](../../../locales/pt-BR/content/b4/f8/308a1b104c20cf45936c59c7b9deb2b67535.md)
+
 ### Circular Buffer (Buffer circular)
 
 - `instructions.md` ([English](https://github.com/exercism/emacs-lisp/blob/main/exercises/practice/circular-buffer/.docs/instructions.md)): [Latest](../../../locales/pt-BR/content/2b/a1/fda2aa73e920e1ae0b25441be2f00fd3dd12.md)

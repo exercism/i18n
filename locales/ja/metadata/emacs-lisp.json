@@ -322,5 +322,8 @@
   "exercise:relative-distance:blurb": "家系図が与えられたとき、2人の間の親等を計算します。",
   "exercise:relative-distance:source": "vaeng",
   "exercise:rectangles:name": "長方形",
-  "exercise:rectangles:blurb": "ASCIIの図の中にある長方形を数えます。"
+  "exercise:rectangles:blurb": "ASCIIの図の中にある長方形を数えます。",
+  "exercise:change:name": "お釣り",
+  "exercise:change:blurb": "最も少ない枚数の硬貨で、渡すべきお釣りを正しく求めます。",
+  "exercise:change:source": "Software Craftsmanship - Coin Change Kata"
 }

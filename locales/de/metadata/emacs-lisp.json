@@ -322,5 +322,8 @@
   "exercise:relative-distance:blurb": "Berechne für einen Stammbaum den Verwandtschaftsgrad.",
   "exercise:relative-distance:source": "vaeng",
   "exercise:rectangles:name": "Rechtecke",
-  "exercise:rectangles:blurb": "Zähle die Rechtecke in einem ASCII-Diagramm."
+  "exercise:rectangles:blurb": "Zähle die Rechtecke in einem ASCII-Diagramm.",
+  "exercise:change:name": "Wechselgeld",
+  "exercise:change:blurb": "Bestimme das herauszugebende Wechselgeld korrekt mit der kleinsten Anzahl an Münzen.",
+  "exercise:change:source": "Software Craftsmanship – Coin Change Kata"
 }

@@ -322,5 +322,8 @@
   "exercise:relative-distance:blurb": "একটি বংশতালিকা দেওয়া থাকলে, সম্পর্কের দূরত্ব নির্ণয় করুন।",
   "exercise:relative-distance:source": "vaeng",
   "exercise:rectangles:name": "আয়তক্ষেত্র",
-  "exercise:rectangles:blurb": "একটি ASCII ডায়াগ্রামে আয়তক্ষেত্রগুলো গণনা করুন।"
+  "exercise:rectangles:blurb": "একটি ASCII ডায়াগ্রামে আয়তক্ষেত্রগুলো গণনা করুন।",
+  "exercise:change:name": "খুচরা",
+  "exercise:change:blurb": "সবচেয়ে কম সংখ্যক কয়েন ব্যবহার করে কত খুচরা টাকা ফেরত দিতে হবে তা সঠিকভাবে নির্ধারণ করুন।",
+  "exercise:change:source": "Software Craftsmanship - Coin Change Kata"
 }

@@ -322,5 +322,8 @@
   "exercise:relative-distance:blurb": "दिए गए वंशवृक्ष से अलगाव की दूरी निकालिए।",
   "exercise:relative-distance:source": "vaeng",
   "exercise:rectangles:name": "आयत",
-  "exercise:rectangles:blurb": "एक ASCII आरेख में आयत गिनिए।"
+  "exercise:rectangles:blurb": "एक ASCII आरेख में आयत गिनिए।",
+  "exercise:change:name": "खुल्ले",
+  "exercise:change:blurb": "सबसे कम सिक्कों का उपयोग करके दिए जाने वाले खुल्ले पैसे सही-सही निकालिए।",
+  "exercise:change:source": "Software Craftsmanship - Coin Change Kata"
 }

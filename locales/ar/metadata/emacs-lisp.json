@@ -322,5 +322,8 @@
   "exercise:relative-distance:blurb": "بمعلومية شجرة عائلة، احسب درجة القرابة.",
   "exercise:relative-distance:source": "vaeng",
   "exercise:rectangles:name": "المستطيلات",
-  "exercise:rectangles:blurb": "عُدّ المستطيلات في مخطط ASCII."
+  "exercise:rectangles:blurb": "عُدّ المستطيلات في مخطط ASCII.",
+  "exercise:change:name": "الباقي",
+  "exercise:change:blurb": "حدّد الباقي الواجب إرجاعه باستخدام أقل عدد ممكن من العملات.",
+  "exercise:change:source": "Software Craftsmanship - Coin Change Kata"
 }

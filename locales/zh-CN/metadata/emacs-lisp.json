@@ -322,5 +322,8 @@
   "exercise:relative-distance:blurb": "给定一棵家族树，计算两个人之间的亲疏程度。",
   "exercise:relative-distance:source": "vaeng",
   "exercise:rectangles:name": "矩形",
-  "exercise:rectangles:blurb": "统计 ASCII 图中的矩形数量。"
+  "exercise:rectangles:blurb": "统计 ASCII 图中的矩形数量。",
+  "exercise:change:name": "找零",
+  "exercise:change:blurb": "用最少数量的硬币，正确算出应该找的零钱。",
+  "exercise:change:source": "Software Craftsmanship - Coin Change Kata"
 }

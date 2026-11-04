@@ -322,5 +322,8 @@
   "exercise:relative-distance:blurb": "Дано родинне дерево: обчислити ступінь спорідненості.",
   "exercise:relative-distance:source": "vaeng",
   "exercise:rectangles:name": "Прямокутники",
-  "exercise:rectangles:blurb": "Порахувати прямокутники на ASCII-діаграмі."
+  "exercise:rectangles:blurb": "Порахувати прямокутники на ASCII-діаграмі.",
+  "exercise:change:name": "Решта",
+  "exercise:change:blurb": "Правильно визначте решту, яку потрібно видати, використавши найменшу кількість монет.",
+  "exercise:change:source": "Software Craftsmanship - Coin Change Kata"
 }

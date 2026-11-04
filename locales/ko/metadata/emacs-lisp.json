@@ -322,5 +322,8 @@
   "exercise:relative-distance:blurb": "가계도를 보고 촌수를 계산해요.",
   "exercise:relative-distance:source": "vaeng",
   "exercise:rectangles:name": "직사각형",
-  "exercise:rectangles:blurb": "ASCII 다이어그램에 있는 직사각형의 개수를 세요."
+  "exercise:rectangles:blurb": "ASCII 다이어그램에 있는 직사각형의 개수를 세요.",
+  "exercise:change:name": "거스름돈",
+  "exercise:change:blurb": "가장 적은 수의 동전으로 거스름돈을 정확히 계산해요.",
+  "exercise:change:source": "Software Craftsmanship - Coin Change Kata"
 }

@@ -322,5 +322,8 @@
   "exercise:relative-distance:blurb": "با داشتن یک شجره‌نامه، درجه‌ی خویشاوندی را محاسبه کنید.",
   "exercise:relative-distance:source": "vaeng",
   "exercise:rectangles:name": "مستطیل‌ها",
-  "exercise:rectangles:blurb": "مستطیل‌های یک نمودار ASCII را بشمارید."
+  "exercise:rectangles:blurb": "مستطیل‌های یک نمودار ASCII را بشمارید.",
+  "exercise:change:name": "پول خرد",
+  "exercise:change:blurb": "پول خردی را که باید با کمترین تعداد سکه پرداخت شود، به‌درستی تعیین کنید.",
+  "exercise:change:source": "Software Craftsmanship - کاتای Coin Change"
 }

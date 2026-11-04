@@ -322,5 +322,8 @@
   "exercise:relative-distance:blurb": "Dado un árbol genealógico, calcula el grado de separación.",
   "exercise:relative-distance:source": "vaeng",
   "exercise:rectangles:name": "Rectángulos",
-  "exercise:rectangles:blurb": "Cuenta los rectángulos en un diagrama ASCII."
+  "exercise:rectangles:blurb": "Cuenta los rectángulos en un diagrama ASCII.",
+  "exercise:change:name": "Cambio",
+  "exercise:change:blurb": "Determina correctamente el cambio que hay que dar usando el menor número de monedas posible.",
+  "exercise:change:source": "Software Craftsmanship - Coin Change Kata"
 }

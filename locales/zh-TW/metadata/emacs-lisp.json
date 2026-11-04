@@ -322,5 +322,8 @@
   "exercise:relative-distance:blurb": "給定一棵家族樹，計算兩人之間的親等。",
   "exercise:relative-distance:source": "vaeng",
   "exercise:rectangles:name": "矩形",
-  "exercise:rectangles:blurb": "計算 ASCII 圖形中的矩形數量。"
+  "exercise:rectangles:blurb": "計算 ASCII 圖形中的矩形數量。",
+  "exercise:change:name": "找零",
+  "exercise:change:blurb": "以最少的硬幣數量，正確算出應找回的零錢。",
+  "exercise:change:source": "Software Craftsmanship - Coin Change Kata"
 }

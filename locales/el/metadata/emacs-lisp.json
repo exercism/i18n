@@ -322,5 +322,8 @@
   "exercise:relative-distance:blurb": "Δεδομένου ενός γενεαλογικού δέντρου, υπολόγισε τον βαθμό συγγένειας.",
   "exercise:relative-distance:source": "vaeng",
   "exercise:rectangles:name": "Ορθογώνια",
-  "exercise:rectangles:blurb": "Μέτρησε τα ορθογώνια σε ένα διάγραμμα ASCII."
+  "exercise:rectangles:blurb": "Μέτρησε τα ορθογώνια σε ένα διάγραμμα ASCII.",
+  "exercise:change:name": "Ρέστα",
+  "exercise:change:blurb": "Υπολόγισε σωστά τα ρέστα που πρέπει να δοθούν χρησιμοποιώντας τον μικρότερο αριθμό κερμάτων.",
+  "exercise:change:source": "Software Craftsmanship - Coin Change Kata"
 }

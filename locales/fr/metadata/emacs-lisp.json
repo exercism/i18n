@@ -322,5 +322,8 @@
   "exercise:relative-distance:blurb": "Étant donné un arbre généalogique, calcule le degré de séparation.",
   "exercise:relative-distance:source": "vaeng",
   "exercise:rectangles:name": "Rectangles",
-  "exercise:rectangles:blurb": "Compte les rectangles dans un diagramme ASCII."
+  "exercise:rectangles:blurb": "Compte les rectangles dans un diagramme ASCII.",
+  "exercise:change:name": "Rendu de monnaie",
+  "exercise:change:blurb": "Détermine correctement la monnaie à rendre en utilisant le moins de pièces possible.",
+  "exercise:change:source": "Software Craftsmanship - Coin Change Kata"
 }
