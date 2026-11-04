@@ -23,7 +23,8 @@ This page is generated from [the index](../../json/ar/nim.json) by `scripts/buil
 
 ### Anagram (الأناغرام)
 
-- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/anagram/.docs/instructions.md)): [Latest](../../../locales/ar/content/a7/29/8485b3f6ab5fd93ed7426e9e5331dc514e72.md)
+- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/anagram/.docs/instructions.md)): [Latest](../../../locales/ar/content/dc/a2/4f52627e3ba6b999322fb89d8c686c3ec634.md)
+  - [`a7298485b3`](../../../locales/ar/content/a7/29/8485b3f6ab5fd93ed7426e9e5331dc514e72.md)
 - `instructions.append.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/anagram/.docs/instructions.append.md)): [Latest](../../../locales/ar/content/0f/5c/35b6aedbba133c851ccfb31cfecccaa3e298.md)
 - `introduction.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/anagram/.docs/introduction.md)): [Latest](../../../locales/ar/content/1a/cb/df00b059f44fb4ce4c00be743d24eda86d60.md)
 
@@ -33,7 +34,8 @@ This page is generated from [the index](../../json/ar/nim.json) by `scripts/buil
 
 ### Atbash Cipher (شفرة أتبش)
 
-- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/atbash-cipher/.docs/instructions.md)): [Latest](../../../locales/ar/content/21/ca/2ce0aa806b97f21182196eebe554c4b984ef.md)
+- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/atbash-cipher/.docs/instructions.md)): [Latest](../../../locales/ar/content/1e/76/27b1e5989878f0f1bf735feb1300de7a2664.md)
+  - [`21ca2ce0aa`](../../../locales/ar/content/21/ca/2ce0aa806b97f21182196eebe554c4b984ef.md)
 
 ### Binary (الثنائي)
 
@@ -55,7 +57,9 @@ This page is generated from [the index](../../json/ar/nim.json) by `scripts/buil
 
 ### Collatz Conjecture (حدسية كولاتز)
 
-- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/collatz-conjecture/.docs/instructions.md)): [Latest](../../../locales/ar/content/ba/06/0483e4d45f77f20a8b048544aa5438022467.md)
+- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/collatz-conjecture/.docs/instructions.md)): [Latest](../../../locales/ar/content/af/33/2a810f0f31aa1233e92bea57721d3025f4e0.md)
+  - [`ba060483e4`](../../../locales/ar/content/ba/06/0483e4d45f77f20a8b048544aa5438022467.md)
+- `introduction.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/collatz-conjecture/.docs/introduction.md)): [Latest](../../../locales/ar/content/c3/5b/deb67dceef4bf9769dbbf473e841cdd068f2.md)
 
 ### Crypto Square (المربع المشفّر)
 
@@ -95,16 +99,21 @@ This page is generated from [the index](../../json/ar/nim.json) by `scripts/buil
 
 ### Grade School (المدرسة الابتدائية)
 
-- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/grade-school/.docs/instructions.md)): [Latest](../../../locales/ar/content/9a/63/e398d858326d60e2f7f5660cc243c92a917c.md)
+- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/grade-school/.docs/instructions.md)): [Latest](../../../locales/ar/content/3c/b1/b5d5f90032e59b5992fb588aff1758812973.md)
+  - [`9a63e398d8`](../../../locales/ar/content/9a/63/e398d858326d60e2f7f5660cc243c92a917c.md)
 - `instructions.append.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/grade-school/.docs/instructions.append.md)): [Latest](../../../locales/ar/content/e7/ab/e6066fe0263b913d7b8f8442c648595b71c7.md)
 
 ### Grains (الحبوب)
 
-- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/grains/.docs/instructions.md)): [Latest](../../../locales/ar/content/df/47/9fc0a174d105647e79d6c4dcaad6947b460c.md)
+- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/grains/.docs/instructions.md)): [Latest](../../../locales/ar/content/f5/b7/52a81754e88e6e41120237c7d3b24d150e58.md)
+  - [`df479fc0a1`](../../../locales/ar/content/df/47/9fc0a174d105647e79d6c4dcaad6947b460c.md)
+- `introduction.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/grains/.docs/introduction.md)): [Latest](../../../locales/ar/content/0d/f4/f46f726cabcd99719756067e04d6832e52a8.md)
 
 ### Hamming
 
-- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/hamming/.docs/instructions.md)): [Latest](../../../locales/ar/content/02/0f/dd02d4e000f12cb26a9fc01f5670f4ffdbc5.md)
+- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/hamming/.docs/instructions.md)): [Latest](../../../locales/ar/content/8f/47/a179e01a680d8d8311f0a54ba239c9982431.md)
+  - [`020fdd02d4`](../../../locales/ar/content/02/0f/dd02d4e000f12cb26a9fc01f5670f4ffdbc5.md)
+- `introduction.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/hamming/.docs/introduction.md)): [Latest](../../../locales/ar/content/84/19/bf479e5ef43be61485408c3758b2c7bd16da.md)
 
 ### Hello World (مرحبًا بالعالم)
 
@@ -139,11 +148,15 @@ This page is generated from [the index](../../json/ar/nim.json) by `scripts/buil
 
 ### Linked List (القائمة المترابطة)
 
-- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/linked-list/.docs/instructions.md)): [Latest](../../../locales/ar/content/3d/94/9d393574ccfec1adb4416c580dfbe88d2f65.md)
+- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/linked-list/.docs/instructions.md)): [Latest](../../../locales/ar/content/ed/f4/055b38ca35950a3600fa268e267763b69a17.md)
+  - [`3d949d3935`](../../../locales/ar/content/3d/94/9d393574ccfec1adb4416c580dfbe88d2f65.md)
+- `introduction.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/linked-list/.docs/introduction.md)): [Latest](../../../locales/ar/content/6e/83/ae7b6e530aec64acc119d995eec9a678f228.md)
 
 ### Luhn
 
-- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/luhn/.docs/instructions.md)): [Latest](../../../locales/ar/content/8c/be/791fc23118f7b852fd0072136884cfea81e3.md)
+- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/luhn/.docs/instructions.md)): [Latest](../../../locales/ar/content/77/02/c6bbb5f849683e3074163e48ce1154ad2957.md)
+  - [`8cbe791fc2`](../../../locales/ar/content/8c/be/791fc23118f7b852fd0072136884cfea81e3.md)
+- `introduction.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/luhn/.docs/introduction.md)): [Latest](../../../locales/ar/content/de/e4/8006eddee9458a5414ddc96c4b9d2fc9109f.md)
 
 ### Matching Brackets (الأقواس المتطابقة)
 
@@ -156,7 +169,8 @@ This page is generated from [the index](../../json/ar/nim.json) by `scripts/buil
 
 ### Meetup (اللقاء)
 
-- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/meetup/.docs/instructions.md)): [Latest](../../../locales/ar/content/00/0d/e2fd127be27c80571538cdcbbef5de8761f1.md)
+- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/meetup/.docs/instructions.md)): [Latest](../../../locales/ar/content/8b/1b/da5eb4c26f8eaa3fc25d659cc05589b6f127.md)
+  - [`000de2fd12`](../../../locales/ar/content/00/0d/e2fd127be27c80571538cdcbbef5de8761f1.md)
 - `introduction.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/meetup/.docs/introduction.md)): [Latest](../../../locales/ar/content/29/17/0ef1fda6839c4c8b51f1fd0af663ab860023.md)
 
 ### Nth Prime (العدد الأولي رقم \`n\`)
@@ -174,7 +188,9 @@ This page is generated from [the index](../../json/ar/nim.json) by `scripts/buil
 
 ### Pascal's Triangle (مثلث باسكال)
 
-- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/pascals-triangle/.docs/instructions.md)): [Latest](../../../locales/ar/content/f5/56/785931c3674ec43dd8f4e47e202fa6523c5f.md)
+- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/pascals-triangle/.docs/instructions.md)): [Latest](../../../locales/ar/content/0f/58/f0069688bc7dfd1a2705cc4382f27a0609dd.md)
+  - [`f556785931`](../../../locales/ar/content/f5/56/785931c3674ec43dd8f4e47e202fa6523c5f.md)
+- `introduction.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/pascals-triangle/.docs/introduction.md)): [Latest](../../../locales/ar/content/ea/b4/54e5a6995c899f852bcd23d9af558ca9e7bd.md)
 
 ### Perfect Numbers (الأعداد التامة)
 
@@ -182,7 +198,9 @@ This page is generated from [the index](../../json/ar/nim.json) by `scripts/buil
 
 ### Phone Number (رقم الهاتف)
 
-- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/phone-number/.docs/instructions.md)): [Latest](../../../locales/ar/content/62/ba/48e96fd2a47445a74ab075c7ef7198601815.md)
+- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/phone-number/.docs/instructions.md)): [Latest](../../../locales/ar/content/5d/4d/3739f4563d3f7781a1524df13f11cc8fbc71.md)
+  - [`62ba48e96f`](../../../locales/ar/content/62/ba/48e96fd2a47445a74ab075c7ef7198601815.md)
+- `introduction.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/phone-number/.docs/introduction.md)): [Latest](../../../locales/ar/content/c4/14/2c5af7289f74bf05d04c4563e2968a639cd2.md)
 
 ### Prime Factors (العوامل الأولية)
 
@@ -190,7 +208,8 @@ This page is generated from [the index](../../json/ar/nim.json) by `scripts/buil
 
 ### Protein Translation (ترجمة البروتين)
 
-- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/protein-translation/.docs/instructions.md)): [Latest](../../../locales/ar/content/7d/c3/4d2edfda1f154ed75b7cc6371485d8b0b39d.md)
+- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/protein-translation/.docs/instructions.md)): [Latest](../../../locales/ar/content/35/c9/53b11f9642c30978222e743aff4dc38f1451.md)
+  - [`7dc34d2edf`](../../../locales/ar/content/7d/c3/4d2edfda1f154ed75b7cc6371485d8b0b39d.md)
 
 ### Proverb (المثل)
 
@@ -228,7 +247,8 @@ This page is generated from [the index](../../json/ar/nim.json) by `scripts/buil
 
 ### RNA Transcription (نسخ RNA)
 
-- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/rna-transcription/.docs/instructions.md)): [Latest](../../../locales/ar/content/36/da/381f5a7bdd5c45617d92fbd2cbd34d934cc1.md)
+- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/rna-transcription/.docs/instructions.md)): [Latest](../../../locales/ar/content/4d/bf/d3a2719c7dc9a1096d8879e916cc1d55305a.md)
+  - [`36da381f5a`](../../../locales/ar/content/36/da/381f5a7bdd5c45617d92fbd2cbd34d934cc1.md)
 - `introduction.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/rna-transcription/.docs/introduction.md)): [Latest](../../../locales/ar/content/6b/3f/44b532d66665ff9c257ca28793f7e4bd1961.md)
 
 ### Robot Name (اسم الروبوت)
@@ -254,13 +274,16 @@ This page is generated from [the index](../../json/ar/nim.json) by `scripts/buil
 
 ### Saddle Points (نقاط السرج)
 
-- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/saddle-points/.docs/instructions.md)): [Latest](../../../locales/ar/content/c5/85/568b4623765c3f860779d107521d27e35d34.md)
+- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/saddle-points/.docs/instructions.md)): [Latest](../../../locales/ar/content/f6/9c/dab9584a340834264ecee97cfd6df709cd21.md)
+  - [`c585568b46`](../../../locales/ar/content/c5/85/568b4623765c3f860779d107521d27e35d34.md)
 - `instructions.append.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/saddle-points/.docs/instructions.append.md)): [Latest](../../../locales/ar/content/e6/c7/c3425e63d8e09900897d45bfbc56cb5dc6df.md)
 - `introduction.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/saddle-points/.docs/introduction.md)): [Latest](../../../locales/ar/content/34/b2/c77e0cfd255425411a905ec311019c2d7375.md)
 
 ### Say (قل)
 
-- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/say/.docs/instructions.md)): [Latest](../../../locales/ar/content/ad/3d/347782e2cbdd3e40cdabde2b31c5bc18fc41.md)
+- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/say/.docs/instructions.md)): [Latest](../../../locales/ar/content/32/51/c519acefd3c98f5ecf6edf4cb11db4290468.md)
+  - [`ad3d347782`](../../../locales/ar/content/ad/3d/347782e2cbdd3e40cdabde2b31c5bc18fc41.md)
+- `introduction.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/say/.docs/introduction.md)): [Latest](../../../locales/ar/content/ab/d2/2851ef7557171c636e876d5c7d19495f8421.md)
 
 ### Scale Generator (مولّد السلالم الموسيقية)
 
@@ -282,7 +305,8 @@ This page is generated from [the index](../../json/ar/nim.json) by `scripts/buil
 
 ### Sieve (الغربال)
 
-- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/sieve/.docs/instructions.md)): [Latest](../../../locales/ar/content/08/5c/0a57d96c7cd846a7948241899ce46778f01d.md)
+- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/sieve/.docs/instructions.md)): [Latest](../../../locales/ar/content/71/29/2e1782dc95e0430ae2b614e1d740dd41639f.md)
+  - [`085c0a57d9`](../../../locales/ar/content/08/5c/0a57d96c7cd846a7948241899ce46778f01d.md)
 - `introduction.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/sieve/.docs/introduction.md)): [Latest](../../../locales/ar/content/f6/c1/cf79a9d4ccf67f1ed34dabb8ab0a58030358.md)
 
 ### Space Age (عصر الفضاء)
@@ -297,15 +321,19 @@ This page is generated from [the index](../../json/ar/nim.json) by `scripts/buil
 
 ### Sublist (المصفوفة الفرعية)
 
-- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/sublist/.docs/instructions.md)): [Latest](../../../locales/ar/content/75/35/931afa8b796876e734263f4fe75dee811b09.md)
+- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/sublist/.docs/instructions.md)): [Latest](../../../locales/ar/content/82/28/edc6ce2f1aa9fd7171fa9d482b1fb5a50a62.md)
+  - [`7535931afa`](../../../locales/ar/content/75/35/931afa8b796876e734263f4fe75dee811b09.md)
 
 ### Sum of Multiples (مجموع المضاعفات)
 
-- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/sum-of-multiples/.docs/instructions.md)): [Latest](../../../locales/ar/content/7b/7e/c006e2cff2feb8f047f1e1b3651e61f34c55.md)
+- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/sum-of-multiples/.docs/instructions.md)): [Latest](../../../locales/ar/content/d6/9f/890e9d6a7e8ef9fa58d43d76032f689b8ff0.md)
+  - [`7b7ec006e2`](../../../locales/ar/content/7b/7e/c006e2cff2feb8f047f1e1b3651e61f34c55.md)
+- `introduction.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/sum-of-multiples/.docs/introduction.md)): [Latest](../../../locales/ar/content/69/ca/beed5abccbe7441644c24d20e0c23af51a79.md)
 
 ### Triangle (المثلث)
 
-- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/ar/content/ac/39/008726d5472b99e1aee556219eadca7fc49d.md)
+- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/ar/content/e9/b0/53dcd344e85179041c10dcd48406d735b2f9.md)
+  - [`ac39008726`](../../../locales/ar/content/ac/39/008726d5472b99e1aee556219eadca7fc49d.md)
 
 ### Twelve Days (الأيام الاثنا عشر)
 
@@ -329,8 +357,10 @@ This page is generated from [the index](../../json/ar/nim.json) by `scripts/buil
 
 ### Zebra Puzzle (لغز الحمار الوحشي)
 
-- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/zebra-puzzle/.docs/instructions.md)): [Latest](../../../locales/ar/content/c6/66/e33cb3f096af6a0e307501da8da591499a8d.md)
-- `introduction.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/zebra-puzzle/.docs/introduction.md)): [Latest](../../../locales/ar/content/33/d6/88fd51bb908204d0d51e3ca7e918a30c1088.md)
+- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/zebra-puzzle/.docs/instructions.md)): [Latest](../../../locales/ar/content/ae/dc/e9b25e7ed65c8f05d32cdae4cbd12adbb245.md)
+  - [`c666e33cb3`](../../../locales/ar/content/c6/66/e33cb3f096af6a0e307501da8da591499a8d.md)
+- `introduction.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/zebra-puzzle/.docs/introduction.md)): [Latest](../../../locales/ar/content/bb/ca/a6fd203b1287d74439822b072473408e4799.md)
+  - [`33d688fd51`](../../../locales/ar/content/33/d6/88fd51bb908204d0d51e3ca7e918a30c1088.md)
 
 ## Concept exercises
 
