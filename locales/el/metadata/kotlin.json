@@ -320,5 +320,7 @@
   "doc:tests:title": "Δοκιμές στη διαδρομή Kotlin",
   "doc:tests:blurb": "Μάθε πώς να δοκιμάζεις τις ασκήσεις σου στην Kotlin στο Exercism",
   "doc:resources:title": "Χρήσιμοι πόροι για την Kotlin",
-  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων για να σε βοηθήσουν να κατακτήσεις την Kotlin"
+  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων για να σε βοηθήσουν να κατακτήσεις την Kotlin",
+  "concept:classes:name": "Κλάσεις",
+  "concept:classes:blurb": "Η Kotlin υποστηρίζει κλάσεις για μια αντικειμενοστρεφή προσέγγιση στον προγραμματισμό."
 }

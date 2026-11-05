@@ -308,5 +308,7 @@
   "doc:tests:title": "Testes na trilha de Kotlin",
   "doc:tests:blurb": "Aprenda a testar seus exercícios de Kotlin no Exercism",
   "doc:resources:title": "Recursos úteis de Kotlin",
-  "doc:resources:blurb": "Uma coleção de recursos úteis para ajudar você a dominar Kotlin"
+  "doc:resources:blurb": "Uma coleção de recursos úteis para ajudar você a dominar Kotlin",
+  "concept:classes:name": "Classes",
+  "concept:classes:blurb": "Kotlin tem suporte a classes para uma abordagem de programação orientada a objetos."
 }

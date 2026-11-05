@@ -308,5 +308,7 @@
   "doc:tests:title": "Kotlin ट्रैक पर परीक्षण",
   "doc:tests:blurb": "Exercism पर अपने Kotlin अभ्यासों का परीक्षण करना सीखिए।",
   "doc:resources:title": "उपयोगी Kotlin संसाधन",
-  "doc:resources:blurb": "Kotlin में महारत हासिल करने में मदद के लिए उपयोगी संसाधनों का संग्रह।"
+  "doc:resources:blurb": "Kotlin में महारत हासिल करने में मदद के लिए उपयोगी संसाधनों का संग्रह।",
+  "concept:classes:name": "क्लास",
+  "concept:classes:blurb": "Kotlin में ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग के लिए क्लास का समर्थन है।"
 }

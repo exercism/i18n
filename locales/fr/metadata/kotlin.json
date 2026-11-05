@@ -320,5 +320,7 @@
   "doc:tests:title": "Les tests sur le parcours Kotlin",
   "doc:tests:blurb": "Apprends à tester tes exercices Kotlin sur Exercism",
   "doc:resources:title": "Ressources utiles pour Kotlin",
-  "doc:resources:blurb": "Une sélection de ressources utiles pour t'aider à maîtriser Kotlin"
+  "doc:resources:blurb": "Une sélection de ressources utiles pour t'aider à maîtriser Kotlin",
+  "concept:classes:name": "Classes",
+  "concept:classes:blurb": "Kotlin prend en charge les classes pour une approche orientée objet de la programmation."
 }

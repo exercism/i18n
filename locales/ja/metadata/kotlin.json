@@ -308,5 +308,7 @@
   "doc:tests:title": "Kotlinトラックでのテスト",
   "doc:tests:blurb": "ExercismでKotlinの演習をテストする方法を学びます。",
   "doc:resources:title": "役立つKotlinのリソース",
-  "doc:resources:blurb": "Kotlinをマスターするのに役立つリソースをまとめました。"
+  "doc:resources:blurb": "Kotlinをマスターするのに役立つリソースをまとめました。",
+  "concept:classes:name": "クラス",
+  "concept:classes:blurb": "Kotlinは、オブジェクト指向プログラミングのためのクラスをサポートしています。"
 }

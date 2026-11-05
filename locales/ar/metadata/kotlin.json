@@ -308,5 +308,7 @@
   "doc:tests:title": "الاختبار في مسار Kotlin",
   "doc:tests:blurb": "تعلّم كيفية اختبار تمارين Kotlin الخاصة بك على Exercism.",
   "doc:resources:title": "مصادر مفيدة لـ Kotlin",
-  "doc:resources:blurb": "مجموعة من المصادر المفيدة لمساعدتك على إتقان Kotlin."
+  "doc:resources:blurb": "مجموعة من المصادر المفيدة لمساعدتك على إتقان Kotlin.",
+  "concept:classes:name": "الأصناف",
+  "concept:classes:blurb": "توفّر Kotlin دعمًا للأصناف لاتّباع أسلوب البرمجة كائني التوجه."
 }

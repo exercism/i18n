@@ -444,6 +444,12 @@ This page is generated from [the index](../../json/it/kotlin.json) by `scripts/b
 - `introduction.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/annalyns-infiltration/.docs/introduction.md)): [Latest](../../../locales/it/content/17/3e/870f2368ea27c9b0cd02996108bbf2676b9c.md)
 - `hints.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/annalyns-infiltration/.docs/hints.md)): [Latest](../../../locales/it/content/1c/7b/260465294b0b4080a4cf41d50d2f3797adf6.md)
 
+### johannes-juice-maker
+
+- `instructions.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/johannes-juice-maker/.docs/instructions.md)): [Latest](../../../locales/it/content/67/6b/c4313c84c5244b07c039162a0f778249be2b.md)
+- `introduction.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/johannes-juice-maker/.docs/introduction.md)): [Latest](../../../locales/it/content/e3/20/e97e45a483199606849cdbb6aea828842227.md)
+- `hints.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/johannes-juice-maker/.docs/hints.md)): [Latest](../../../locales/it/content/f3/80/4c6df4c44241b2a2de1f82c1c8b9b5593129.md)
+
 ### log-levels
 
 - `instructions.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/log-levels/.docs/instructions.md)): [Latest](../../../locales/it/content/f3/20/564dbd252ef8ad57787e7b6ebd8204f2d2bc.md)
@@ -461,6 +467,12 @@ This page is generated from [the index](../../json/it/kotlin.json) by `scripts/b
 - `instructions.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/secret-agent/.docs/instructions.md)): [Latest](../../../locales/it/content/37/2f/199094b33924fc4bef977c49e7dfe5c81e28.md)
 - `introduction.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/secret-agent/.docs/introduction.md)): [Latest](../../../locales/it/content/4a/7d/3884a330afa290355c9ce9bfdff4b02ea29b.md)
 - `hints.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/secret-agent/.docs/hints.md)): [Latest](../../../locales/it/content/c6/61/5da003ac766d905cac4f59702b610b45fc90.md)
+
+### secrets
+
+- `instructions.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/secrets/.docs/instructions.md)): [Latest](../../../locales/it/content/08/2c/1d00b8ff83ecafd7d61db6e8e2eea349a7d7.md)
+- `introduction.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/secrets/.docs/introduction.md)): [Latest](../../../locales/it/content/9a/6b/05a3667274011351f744d21e273e2d5c0dfe.md)
+- `hints.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/secrets/.docs/hints.md)): [Latest](../../../locales/it/content/62/3a/fa32bdf5a44077c8c801014bbbc9968ee008.md)
 
 ### tim-from-marketing
 
@@ -495,6 +507,11 @@ This page is generated from [the index](../../json/it/kotlin.json) by `scripts/b
 
 - `introduction.md` ([English](https://github.com/exercism/kotlin/blob/main/concepts/chars/introduction.md)): [Latest](../../../locales/it/content/87/07/d5e147858df4c1287920915645558bfc44a0.md)
 - `about.md` ([English](https://github.com/exercism/kotlin/blob/main/concepts/chars/about.md)): [Latest](../../../locales/it/content/9f/fc/f770ece67bd4a14d34fbddd3044a8fc1c5c3.md)
+
+### Classes (Classi)
+
+- `introduction.md` ([English](https://github.com/exercism/kotlin/blob/main/concepts/classes/introduction.md)): [Latest](../../../locales/it/content/e3/20/e97e45a483199606849cdbb6aea828842227.md)
+- `about.md` ([English](https://github.com/exercism/kotlin/blob/main/concepts/classes/about.md)): [Latest](../../../locales/it/content/76/c7/023396d0a7301c6f0effb6291c3326f84d7f.md)
 
 ### Conditionals (Condizionali)
 

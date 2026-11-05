@@ -308,5 +308,7 @@
   "doc:tests:title": "تست کردن در مسیر Kotlin",
   "doc:tests:blurb": "بیاموزید چگونه تمرین‌های Kotlin خود را در Exercism تست کنید",
   "doc:resources:title": "منابع مفید Kotlin",
-  "doc:resources:blurb": "مجموعه‌ای از منابع مفید برای کمک به تسلط شما بر Kotlin"
+  "doc:resources:blurb": "مجموعه‌ای از منابع مفید برای کمک به تسلط شما بر Kotlin",
+  "concept:classes:name": "کلاس",
+  "concept:classes:blurb": "Kotlin از کلاس‌ها برای رویکرد شیءگرا در برنامه‌نویسی پشتیبانی می‌کند."
 }
