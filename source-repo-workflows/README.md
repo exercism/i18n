@@ -33,7 +33,7 @@ Each job that needs to act outside its own repo mints a short-lived installation
 | `source-queue.yml` `queue`, `withdraw` | `exercism/i18n` | Issues write | opening, updating and closing the queue issue |
 | `translate-on-issue.yml` `dispatch` | `exercism/translator` | Contents write | the `repository_dispatch` |
 | `rerun-source-check.yml` `rerun` | the source repo | Actions write, Pull requests read | re-running the completeness check |
-| `rerun-source-check.yml` `reply` | the source repo | Pull requests write | "This PR [has been translated](<the i18n issue>) 🚀" |
+| `rerun-source-check.yml` `reply` | the source repo | Pull requests write | "This PR [has been translated](<the i18n issue>) 🚀", or "This PR [has not been translated](<the i18n issue>) as this track is inactive." when the issue is labelled `inactive-track` |
 | translator `translate-issue.yml` | `exercism/i18n` | Contents write, Issues write | the push to `main`, the comments, labels and close |
 | translator `retry-stale-issues.yml` | `exercism/i18n`, then `exercism/translator` | Issues read, then Contents write | listing open issues, then dispatching |
 
