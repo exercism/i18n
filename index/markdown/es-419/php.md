@@ -576,7 +576,8 @@ This page is generated from [the index](../../json/es-419/php.json) by `scripts/
 ### Language List (Lista de lenguajes)
 
 - `instructions.md` ([English](https://github.com/exercism/php/blob/main/exercises/concept/language-list/.docs/instructions.md)): [Latest](../../../locales/es-419/content/c8/a2/0bc0fc457f2fe530f4d2618a148277f5c6ba.md)
-- `introduction.md` ([English](https://github.com/exercism/php/blob/main/exercises/concept/language-list/.docs/introduction.md)): [Latest](../../../locales/es-419/content/25/b8/cdd321a507c4476ad7f1e70b5f19c91cbd6d.md)
+- `introduction.md` ([English](https://github.com/exercism/php/blob/main/exercises/concept/language-list/.docs/introduction.md)): [Latest](../../../locales/es-419/content/19/0b/ad06021eb47bd941f394fdc4378c674ac532.md)
+  - [`25b8cdd321`](../../../locales/es-419/content/25/b8/cdd321a507c4476ad7f1e70b5f19c91cbd6d.md)
 - `hints.md` ([English](https://github.com/exercism/php/blob/main/exercises/concept/language-list/.docs/hints.md)): [Latest](../../../locales/es-419/content/5e/a3/b7834dba7f92fa9160226fa0f87924f94ab2.md)
 
 ### Lucian's Luscious Lasagna (La deliciosa lasaña de Lucian)
@@ -618,8 +619,10 @@ This page is generated from [the index](../../json/es-419/php.json) by `scripts/
 
 ### Arrays
 
-- `introduction.md` ([English](https://github.com/exercism/php/blob/main/concepts/arrays/introduction.md)): [Latest](../../../locales/es-419/content/c7/41/696ecc0f4c8660d08b62fb77df2b4dd68f26.md)
-- `about.md` ([English](https://github.com/exercism/php/blob/main/concepts/arrays/about.md)): [Latest](../../../locales/es-419/content/55/6f/2c8aa3c97e69780218caaf7854f81e6bebdd.md)
+- `introduction.md` ([English](https://github.com/exercism/php/blob/main/concepts/arrays/introduction.md)): [Latest](../../../locales/es-419/content/6e/e0/141cb214732dde09b98d700776c4b8c46437.md)
+  - [`c741696ecc`](../../../locales/es-419/content/c7/41/696ecc0f4c8660d08b62fb77df2b4dd68f26.md)
+- `about.md` ([English](https://github.com/exercism/php/blob/main/concepts/arrays/about.md)): [Latest](../../../locales/es-419/content/de/a1/09174c581f5e831f03771c7a74ce9c554c81.md)
+  - [`556f2c8aa3`](../../../locales/es-419/content/55/6f/2c8aa3c97e69780218caaf7854f81e6bebdd.md)
 
 ### Basics (Fundamentos)
 
