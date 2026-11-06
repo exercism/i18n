@@ -165,12 +165,16 @@ jobs:
           ISSUE: ${{ github.event.issue.number }}
           REPO: ${{ needs.pr.outputs.repo }}
           PR: ${{ needs.pr.outputs.number }}
+          INACTIVE: ${{ contains(github.event.issue.labels.*.name, 'inactive-track') }}
         run: |
           set -euo pipefail
 
           [[ "$ISSUE" =~ ^[1-9][0-9]*$ && "$PR" =~ ^[1-9][0-9]*$ ]] || { echo "Not an issue and PR number; no reply."; exit 0; }
 
+          # exercism/translator's run-issue.mjs labels an issue inactive-track
+          # when it closes it without translating, because the track is inactive.
           KIND=translated
+          if [ "$INACTIVE" = "true" ]; then KIND=inactive; fi
 
           if ! STATE=$(gh pr view "$PR" --repo "$REPO" --json state --jq '.state'); then
             echo "::warning::Could not read ${REPO}#${PR}, so no reply was posted."

@@ -6,7 +6,7 @@
 // i18n issue only.
 //
 // Usage:
-//   node scripts/pr-reply.mjs translated --issue=<n> --out=<file> [--comments=<file>]
+//   node scripts/pr-reply.mjs translated|inactive --issue=<n> --out=<file> [--comments=<file>]
 //
 //   --issue     the translation issue's number in exercism/i18n
 //   --out       where to write the reply's body
@@ -16,7 +16,10 @@
 // Prints `post=true` or `post=false`. It prints `post=false` when the PR's
 // latest loop reply is already this one, so a workflow run again does not post
 // twice. It never posts anything itself. .github/workflows/rerun-source-check.yml
-// calls it when an issue closes as completed.
+// calls it when an issue closes as completed. It passes `inactive` when the
+// issue carries the `inactive-track` label, which exercism/translator's
+// run-issue.mjs adds when it closes an issue without translating because the
+// track's config.json says `"active": false`.
 
 import fs from "node:fs";
 import path from "node:path";
@@ -24,7 +27,7 @@ import { parseArgs } from "./lib/args.mjs";
 import { PRODUCTION_LOCALES } from "./lib/constants.mjs";
 import { languageName } from "./lib/translation-index.mjs";
 
-export const KINDS = ["translated"];
+export const KINDS = ["translated", "inactive"];
 
 const MARKER = /<!-- exercism-i18n-reply: ([a-z-]+ exercism\/i18n#[0-9]+) -->/;
 
@@ -44,7 +47,10 @@ export function languageList(locales) {
 export function replyBody(kind, issue, locales = []) {
   if (!KINDS.includes(kind)) throw new Error(`"${kind}" is not one of ${KINDS.join(", ")}`);
   if (!/^[1-9][0-9]*$/.test(String(issue))) throw new Error(`"${issue}" is not an issue number`);
-  const lines = { translated: `This PR [has been translated](https://github.com/exercism/i18n/issues/${issue}) 🚀` };
+  const lines = {
+    translated: `This PR [has been translated](https://github.com/exercism/i18n/issues/${issue}) 🚀`,
+    inactive: `This PR [has not been translated](https://github.com/exercism/i18n/issues/${issue}) as this track is inactive.`
+  };
   return `${lines[kind]}\n\n${marker(kind, issue)}\n`;
 }
 
