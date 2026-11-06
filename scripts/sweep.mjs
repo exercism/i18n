@@ -90,11 +90,10 @@ function checkout(repo, mode) {
 /**
  * Whether Exercism still runs this repo, from the track's own config.json.
  *
- * Only a track can be inactive. The sweep asks the question rather than
- * scripts/completeness.mjs, which every source repo runs on every pull request:
- * whether a repo holds its translations does not change with the track's
- * status, so the gate is left exactly as it was, and it is the sweep, which has
- * to decide what goes in a headline, that asks. It costs no extra traffic: a
+ * Only a track can be inactive. scripts/completeness.mjs reports an inactive
+ * track's gaps in full and exits 0, so its report says the same as for an
+ * active track, and the sweep, which has to decide what goes in a headline,
+ * asks the question again here. It costs no extra traffic: a
  * track's config.json is one of the metadata files, so the run has already
  * fetched that blob and this read comes out of the local object store.
  */
