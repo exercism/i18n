@@ -600,7 +600,8 @@ This page is generated from [the index](../../json/pt-PT/php.json) by `scripts/b
 ### Windowing System (Sistema de janelas)
 
 - `instructions.md` ([English](https://github.com/exercism/php/blob/main/exercises/concept/windowing-system/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/5b/8f/3e268182fafe7612622788511a6b39975eef.md)
-- `introduction.md` ([English](https://github.com/exercism/php/blob/main/exercises/concept/windowing-system/.docs/introduction.md)): [Latest](../../../locales/pt-PT/content/00/e7/f92cea47d5c4d1c45564a419e21fd4cbdd69.md)
+- `introduction.md` ([English](https://github.com/exercism/php/blob/main/exercises/concept/windowing-system/.docs/introduction.md)): [Latest](../../../locales/pt-PT/content/f8/7e/0b3f5d810c860316d934c29f3e1352139516.md)
+  - [`00e7f92cea`](../../../locales/pt-PT/content/00/e7/f92cea47d5c4d1c45564a419e21fd4cbdd69.md)
 - `hints.md` ([English](https://github.com/exercism/php/blob/main/exercises/concept/windowing-system/.docs/hints.md)): [Latest](../../../locales/pt-PT/content/7a/1a/d21196f11e60477756ebd14455438adeab91.md)
 
 ## Concepts
@@ -642,7 +643,8 @@ This page is generated from [the index](../../json/pt-PT/php.json) by `scripts/b
 
 ### Classes
 
-- `introduction.md` ([English](https://github.com/exercism/php/blob/main/concepts/class-basics/introduction.md)): [Latest](../../../locales/pt-PT/content/29/8c/32cff86f5e202fd281c7752a8df67fcd9e05.md)
+- `introduction.md` ([English](https://github.com/exercism/php/blob/main/concepts/class-basics/introduction.md)): [Latest](../../../locales/pt-PT/content/17/e5/acb1990c18e6d6043e18d91762042fc6b059.md)
+  - [`298c32cff8`](../../../locales/pt-PT/content/29/8c/32cff86f5e202fd281c7752a8df67fcd9e05.md)
 - `about.md` ([English](https://github.com/exercism/php/blob/main/concepts/class-basics/about.md)): [Latest](../../../locales/pt-PT/content/29/8c/32cff86f5e202fd281c7752a8df67fcd9e05.md)
 
 ### Comparison Operators (Operadores de comparação)

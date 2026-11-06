@@ -600,7 +600,8 @@ This page is generated from [the index](../../json/el/php.json) by `scripts/buil
 ### Windowing System (Σύστημα Παραθύρων)
 
 - `instructions.md` ([English](https://github.com/exercism/php/blob/main/exercises/concept/windowing-system/.docs/instructions.md)): [Latest](../../../locales/el/content/5b/8f/3e268182fafe7612622788511a6b39975eef.md)
-- `introduction.md` ([English](https://github.com/exercism/php/blob/main/exercises/concept/windowing-system/.docs/introduction.md)): [Latest](../../../locales/el/content/00/e7/f92cea47d5c4d1c45564a419e21fd4cbdd69.md)
+- `introduction.md` ([English](https://github.com/exercism/php/blob/main/exercises/concept/windowing-system/.docs/introduction.md)): [Latest](../../../locales/el/content/f8/7e/0b3f5d810c860316d934c29f3e1352139516.md)
+  - [`00e7f92cea`](../../../locales/el/content/00/e7/f92cea47d5c4d1c45564a419e21fd4cbdd69.md)
 - `hints.md` ([English](https://github.com/exercism/php/blob/main/exercises/concept/windowing-system/.docs/hints.md)): [Latest](../../../locales/el/content/7a/1a/d21196f11e60477756ebd14455438adeab91.md)
 
 ## Concepts
@@ -642,7 +643,8 @@ This page is generated from [the index](../../json/el/php.json) by `scripts/buil
 
 ### Classes (Κλάσεις)
 
-- `introduction.md` ([English](https://github.com/exercism/php/blob/main/concepts/class-basics/introduction.md)): [Latest](../../../locales/el/content/29/8c/32cff86f5e202fd281c7752a8df67fcd9e05.md)
+- `introduction.md` ([English](https://github.com/exercism/php/blob/main/concepts/class-basics/introduction.md)): [Latest](../../../locales/el/content/17/e5/acb1990c18e6d6043e18d91762042fc6b059.md)
+  - [`298c32cff8`](../../../locales/el/content/29/8c/32cff86f5e202fd281c7752a8df67fcd9e05.md)
 - `about.md` ([English](https://github.com/exercism/php/blob/main/concepts/class-basics/about.md)): [Latest](../../../locales/el/content/29/8c/32cff86f5e202fd281c7752a8df67fcd9e05.md)
 
 ### Comparison Operators (Τελεστές σύγκρισης)
@@ -760,7 +762,7 @@ This page is generated from [the index](../../json/el/php.json) by `scripts/buil
 - `introduction.md` ([English](https://github.com/exercism/php/blob/main/concepts/variable-length-arguments/introduction.md)): [Latest](../../../locales/el/content/0b/61/56f82cde7708a6e146aa6d4a5c5049a2bac1.md)
 - `about.md` ([English](https://github.com/exercism/php/blob/main/concepts/variable-length-arguments/about.md)): [Latest](../../../locales/el/content/44/38/a0d37eb3f27c061cfaee1dd4302c1b45fe16.md)
 
-### While Loops (\`while\` βρόχοι)
+### While Loops (Βρόχοι \`while\`)
 
 - `introduction.md` ([English](https://github.com/exercism/php/blob/main/concepts/while-loops/introduction.md)): [Latest](../../../locales/el/content/39/54/d63f2b2ac446260af6ee645a834377a2ec08.md)
 - `about.md` ([English](https://github.com/exercism/php/blob/main/concepts/while-loops/about.md)): [Latest](../../../locales/el/content/39/54/d63f2b2ac446260af6ee645a834377a2ec08.md)

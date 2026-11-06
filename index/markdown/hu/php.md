@@ -358,7 +358,7 @@ This page is generated from [the index](../../json/hu/php.json) by `scripts/buil
 - `instructions.md` ([English](https://github.com/exercism/php/blob/main/exercises/practice/palindrome-products/.docs/instructions.md)): [Latest](../../../locales/hu/content/aa/c6/6521ce736be8ce737ea709a5b1eed507cbb8.md)
   - [`fd9a441247`](../../../locales/hu/content/fd/9a/441247b65a9a8604f6ef581df4b1054a1fad.md)
 
-### Pangram
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/php/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
   - [`d5698bc2a2`](../../../locales/hu/content/d5/69/8bc2a292baf2fb128de3543b748165088c4f.md)
@@ -674,7 +674,8 @@ This page is generated from [the index](../../json/hu/php.json) by `scripts/buil
 ### Windowing System (Ablakkezelő rendszer)
 
 - `instructions.md` ([English](https://github.com/exercism/php/blob/main/exercises/concept/windowing-system/.docs/instructions.md)): [Latest](../../../locales/hu/content/5b/8f/3e268182fafe7612622788511a6b39975eef.md)
-- `introduction.md` ([English](https://github.com/exercism/php/blob/main/exercises/concept/windowing-system/.docs/introduction.md)): [Latest](../../../locales/hu/content/00/e7/f92cea47d5c4d1c45564a419e21fd4cbdd69.md)
+- `introduction.md` ([English](https://github.com/exercism/php/blob/main/exercises/concept/windowing-system/.docs/introduction.md)): [Latest](../../../locales/hu/content/f8/7e/0b3f5d810c860316d934c29f3e1352139516.md)
+  - [`00e7f92cea`](../../../locales/hu/content/00/e7/f92cea47d5c4d1c45564a419e21fd4cbdd69.md)
 - `hints.md` ([English](https://github.com/exercism/php/blob/main/exercises/concept/windowing-system/.docs/hints.md)): [Latest](../../../locales/hu/content/7a/1a/d21196f11e60477756ebd14455438adeab91.md)
 
 ## Concepts
@@ -717,7 +718,8 @@ This page is generated from [the index](../../json/hu/php.json) by `scripts/buil
 
 ### Classes (Osztályok)
 
-- `introduction.md` ([English](https://github.com/exercism/php/blob/main/concepts/class-basics/introduction.md)): [Latest](../../../locales/hu/content/29/8c/32cff86f5e202fd281c7752a8df67fcd9e05.md)
+- `introduction.md` ([English](https://github.com/exercism/php/blob/main/concepts/class-basics/introduction.md)): [Latest](../../../locales/hu/content/17/e5/acb1990c18e6d6043e18d91762042fc6b059.md)
+  - [`298c32cff8`](../../../locales/hu/content/29/8c/32cff86f5e202fd281c7752a8df67fcd9e05.md)
 - `about.md` ([English](https://github.com/exercism/php/blob/main/concepts/class-basics/about.md)): [Latest](../../../locales/hu/content/29/8c/32cff86f5e202fd281c7752a8df67fcd9e05.md)
 
 ### Comparison Operators (Összehasonlító operátorok)
