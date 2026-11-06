@@ -112,8 +112,8 @@ This page is generated from [the index](../../json/bn/erlang.json) by `scripts/b
 ### Eliud's Eggs (এলিউদের ডিম)
 
 - `instructions.md` ([English](https://github.com/exercism/erlang/blob/main/exercises/practice/eliuds-eggs/.docs/instructions.md)): [Latest](../../../locales/bn/content/b0/c2/df593c0c15f1f94dfc13bddacffd6b0f5ddc.md)
-- `introduction.md` ([English](https://github.com/exercism/erlang/blob/main/exercises/practice/eliuds-eggs/.docs/introduction.md)): [Latest](../../../locales/bn/content/2b/2e/5c43d8b2546885ba33bb6c3c8bdc88e3b0dc.md)
-  - [`8198974809`](../../../locales/bn/content/81/98/97480992a58c8ef61fa5c9277d107f57424f.md)
+- `introduction.md` ([English](https://github.com/exercism/erlang/blob/main/exercises/practice/eliuds-eggs/.docs/introduction.md)): [Latest](../../../locales/bn/content/81/98/97480992a58c8ef61fa5c9277d107f57424f.md)
+  - [`2b2e5c43d8`](../../../locales/bn/content/2b/2e/5c43d8b2546885ba33bb6c3c8bdc88e3b0dc.md)
 
 ### ETL
 
@@ -182,10 +182,10 @@ This page is generated from [the index](../../json/bn/erlang.json) by `scripts/b
 
 ### Luhn
 
-- `instructions.md` ([English](https://github.com/exercism/erlang/blob/main/exercises/practice/luhn/.docs/instructions.md)): [Latest](../../../locales/bn/content/77/02/c6bbb5f849683e3074163e48ce1154ad2957.md)
-  - [`5bbf007b07`](../../../locales/bn/content/5b/bf/007b0754c7a7337b17cfe3923c978b323bd1.md)
-- `introduction.md` ([English](https://github.com/exercism/erlang/blob/main/exercises/practice/luhn/.docs/introduction.md)): [Latest](../../../locales/bn/content/de/e4/8006eddee9458a5414ddc96c4b9d2fc9109f.md)
-  - [`ec2bd709d2`](../../../locales/bn/content/ec/2b/d709d2bb2cbfbbcdf3bf6d4e6b6f4a8bf3cd.md)
+- `instructions.md` ([English](https://github.com/exercism/erlang/blob/main/exercises/practice/luhn/.docs/instructions.md)): [Latest](../../../locales/bn/content/5b/bf/007b0754c7a7337b17cfe3923c978b323bd1.md)
+  - [`7702c6bbb5`](../../../locales/bn/content/77/02/c6bbb5f849683e3074163e48ce1154ad2957.md)
+- `introduction.md` ([English](https://github.com/exercism/erlang/blob/main/exercises/practice/luhn/.docs/introduction.md)): [Latest](../../../locales/bn/content/ec/2b/d709d2bb2cbfbbcdf3bf6d4e6b6f4a8bf3cd.md)
+  - [`dee48006ed`](../../../locales/bn/content/de/e4/8006eddee9458a5414ddc96c4b9d2fc9109f.md)
 
 ### Matching Brackets (বন্ধনী মেলানো)
 
@@ -194,8 +194,8 @@ This page is generated from [the index](../../json/bn/erlang.json) by `scripts/b
 
 ### Meetup (মিটআপ)
 
-- `instructions.md` ([English](https://github.com/exercism/erlang/blob/main/exercises/practice/meetup/.docs/instructions.md)): [Latest](../../../locales/bn/content/8b/1b/da5eb4c26f8eaa3fc25d659cc05589b6f127.md)
-  - [`000de2fd12`](../../../locales/bn/content/00/0d/e2fd127be27c80571538cdcbbef5de8761f1.md)
+- `instructions.md` ([English](https://github.com/exercism/erlang/blob/main/exercises/practice/meetup/.docs/instructions.md)): [Latest](../../../locales/bn/content/00/0d/e2fd127be27c80571538cdcbbef5de8761f1.md)
+  - [`8b1bda5eb4`](../../../locales/bn/content/8b/1b/da5eb4c26f8eaa3fc25d659cc05589b6f127.md)
 - `introduction.md` ([English](https://github.com/exercism/erlang/blob/main/exercises/practice/meetup/.docs/introduction.md)): [Latest](../../../locales/bn/content/29/17/0ef1fda6839c4c8b51f1fd0af663ab860023.md)
 
 ### Minesweeper (মাইনসুইপার)
@@ -235,8 +235,8 @@ This page is generated from [the index](../../json/bn/erlang.json) by `scripts/b
 
 ### Phone Number (ফোন নম্বর)
 
-- `instructions.md` ([English](https://github.com/exercism/erlang/blob/main/exercises/practice/phone-number/.docs/instructions.md)): [Latest](../../../locales/bn/content/5d/4d/3739f4563d3f7781a1524df13f11cc8fbc71.md)
-  - [`62ba48e96f`](../../../locales/bn/content/62/ba/48e96fd2a47445a74ab075c7ef7198601815.md)
+- `instructions.md` ([English](https://github.com/exercism/erlang/blob/main/exercises/practice/phone-number/.docs/instructions.md)): [Latest](../../../locales/bn/content/62/ba/48e96fd2a47445a74ab075c7ef7198601815.md)
+  - [`5d4d3739f4`](../../../locales/bn/content/5d/4d/3739f4563d3f7781a1524df13f11cc8fbc71.md)
 - `introduction.md` ([English](https://github.com/exercism/erlang/blob/main/exercises/practice/phone-number/.docs/introduction.md)): [Latest](../../../locales/bn/content/c4/14/2c5af7289f74bf05d04c4563e2968a639cd2.md)
 
 ### Poker (পোকার)
@@ -249,8 +249,8 @@ This page is generated from [the index](../../json/bn/erlang.json) by `scripts/b
 
 ### Protein Translation (প্রোটিন ট্রান্সলেশন)
 
-- `instructions.md` ([English](https://github.com/exercism/erlang/blob/main/exercises/practice/protein-translation/.docs/instructions.md)): [Latest](../../../locales/bn/content/35/c9/53b11f9642c30978222e743aff4dc38f1451.md)
-  - [`44880802c5`](../../../locales/bn/content/44/88/0802c578d25f9638fab6a6bc1389ef45dd65.md)
+- `instructions.md` ([English](https://github.com/exercism/erlang/blob/main/exercises/practice/protein-translation/.docs/instructions.md)): [Latest](../../../locales/bn/content/44/88/0802c578d25f9638fab6a6bc1389ef45dd65.md)
+  - [`35c953b11f`](../../../locales/bn/content/35/c9/53b11f9642c30978222e743aff4dc38f1451.md)
 
 ### Pythagorean Triplet (পিথাগোরীয় ত্রয়ী)
 
@@ -377,8 +377,8 @@ This page is generated from [the index](../../json/bn/erlang.json) by `scripts/b
 
 ### Triangle (ত্রিভুজ)
 
-- `instructions.md` ([English](https://github.com/exercism/erlang/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/bn/content/e9/b0/53dcd344e85179041c10dcd48406d735b2f9.md)
-  - [`ac39008726`](../../../locales/bn/content/ac/39/008726d5472b99e1aee556219eadca7fc49d.md)
+- `instructions.md` ([English](https://github.com/exercism/erlang/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/bn/content/ac/39/008726d5472b99e1aee556219eadca7fc49d.md)
+  - [`e9b053dcd3`](../../../locales/bn/content/e9/b0/53dcd344e85179041c10dcd48406d735b2f9.md)
 
 ### Two Fer
 
