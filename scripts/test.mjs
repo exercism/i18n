@@ -1263,6 +1263,28 @@ await test("fixture: completeness blocks a track until every production locale h
   assert.match(after.out, /ok\s+hu/);
 });
 
+// An inactive track is not shown on the website, so its PRs are never held.
+// The report still carries what it would require, which scripts/sweep.mjs
+// lists under "Inactive tracks". exercism/sather#32 was held by this check.
+await test("fixture: completeness reports an inactive track's gaps and exits 0", () => {
+  const dozing = makeRepo("dozing-gate", { "config.json": JSON.stringify({ language: "Dozing", active: false, blurb: "Asleep." }), "docs/ABOUT.md": "# About Dozing\n\nIt sleeps.\n" });
+  const json = path.join(TMP, "dozing-gate.json");
+  const result = run("completeness.mjs", [`--source-repo=${dozing}`, "--repo=exercism/dozing-gate", `--json=${json}`]);
+  assert.equal(result.status, 0, result.out);
+  assert.match(result.out, /inactive: config\.json says "active": false/);
+  assert.match(result.out, /FAIL hu: 2 translation\(s\) outstanding/);
+  assert.match(result.out, /exercism\/dozing-gate is an inactive track, so nothing is held/);
+  const report = JSON.parse(fs.readFileSync(json, "utf8"));
+  assert.equal(report.active, false);
+  assert.equal(report.locales.hu.length, 2);
+
+  writeTree(dozing, { "config.json": JSON.stringify({ language: "Dozing", active: true, blurb: "Asleep." }) });
+  commitAll(dozing, "wake up");
+  const woken = run("completeness.mjs", [`--source-repo=${dozing}`, "--repo=exercism/dozing-gate"]);
+  assert.equal(woken.status, 1, woken.out);
+  assert.doesNotMatch(woken.out, /inactive/);
+});
+
 // CI names every repo any locale holds a catalog for, so without this one
 // locale translating an inactive track would require every other locale to
 // translate it too. That is what failed the run on the French PR: 37 tracks

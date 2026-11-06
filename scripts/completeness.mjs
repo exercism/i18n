@@ -53,13 +53,24 @@
 // stamped against exactly this English. So an edited blurb blocks its PR. With
 // `--base`, the metadata is only read when the PR touched one of the files it
 // is built from, because reading it means fetching a blob per exercise.
+//
+// ## An inactive track is never held
+//
+// A track whose config.json says `"active": false` at `--head` is not shown on
+// the website, so nobody can read its translations and nothing is gained by
+// holding its PRs. This script still works out and reports everything such a
+// track would require, so `--json` and scripts/sweep.mjs see the same numbers
+// as for an active track, but it exits 0. The track's config.json is one of the
+// metadata files, so reading it costs one blob that a run usually fetches
+// anyway. A PR that makes a track active is read at its head, so it is gated
+// like any other PR on an active track.
 
 import fs from "node:fs";
 import path from "node:path";
 import { PRODUCTION_LOCALES, assertTargetLocale, fail, productionGateNotice } from "./lib/constants.mjs";
 import { parseArgs } from "./lib/args.mjs";
 import { lsTree, refReader, resolveSha } from "./lib/git.mjs";
-import { kindForRepo, repoKind } from "./lib/source-repos.mjs";
+import { isActiveTrack, kindForRepo, repoKind } from "./lib/source-repos.mjs";
 import { buildWebsiteEnglish } from "./lib/website-english.mjs";
 import { CATALOG_KINDS, catalogPath, flattenCatalog, readStamps } from "./lib/catalogs.mjs";
 import { heldContent } from "./lib/content-store.mjs";
@@ -94,6 +105,7 @@ async function main() {
   let content = [];
   let metadata = [];
   let website = null;
+  let active = true;
   if (kind === "website") {
     const englishHead = await buildWebsiteEnglish(refReader(repo, head));
     const englishBase = base ? await buildWebsiteEnglish(refReader(repo, base)) : null;
@@ -102,6 +114,8 @@ async function main() {
     for (const catalog of CATALOG_KINDS) report.required[catalog] = website[catalog].length;
   } else {
     const headEntries = lsTree(repo, head);
+    if (kind === "track") active = isActiveTrack(headEntries, refReader(repo, head).readMany);
+    if (!active) console.log("  inactive: config.json says \"active\": false, so what follows is reported and nothing is held");
     const baseEntries = base ? lsTree(repo, base) : null;
     // The reader is what lets a `wip` exercise's files be left out: the track's
     // config.json is the only place that says an exercise is unfinished. It
@@ -121,6 +135,7 @@ async function main() {
     }
     console.log(`  requires ${metadata.length} metadata unit(s) (names, titles, blurbs), from ${touched.length} ${base ? "changed " : ""}file(s)`);
     report.required = { content: content.length, metadata: metadata.length };
+    report.active = active;
   }
 
   const notice = productionGateNotice();
@@ -171,6 +186,10 @@ async function main() {
 
   if (typeof flags.json === "string") fs.writeFileSync(path.resolve(flags.json), `${JSON.stringify(report, null, 2)}\n`);
 
+  if (incomplete > 0 && !active) {
+    console.log(`\n${incomplete} locale(s) incomplete, but ${name} is an inactive track, so nothing is held. Exiting 0.`);
+    return;
+  }
   if (incomplete > 0) {
     console.log(
       `\n${incomplete} locale(s) incomplete. Translations live in exercism/i18n and land there BEFORE this English merges.\n` +
