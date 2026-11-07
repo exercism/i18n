@@ -480,7 +480,8 @@ This page is generated from [the index](../../json/pt-BR/c.json) by `scripts/bui
 
 ### CONTRIBUTING.md
 
-- `CONTRIBUTING.md` ([English](https://github.com/exercism/c/blob/main/docs/CONTRIBUTING.md)): [Latest](../../../locales/pt-BR/content/7a/4f/1d9110ddb0dced3eb9aa3db6539f22c81a9a.md)
+- `CONTRIBUTING.md` ([English](https://github.com/exercism/c/blob/main/docs/CONTRIBUTING.md)): [Latest](../../../locales/pt-BR/content/20/e4/f72e2ee015d85dab61383164d3c1433106e8.md)
+  - [`7a4f1d9110`](../../../locales/pt-BR/content/7a/4f/1d9110ddb0dced3eb9aa3db6539f22c81a9a.md)
 
 ### How to learn C (Como aprender C)
 

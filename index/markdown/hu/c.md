@@ -256,7 +256,7 @@ This page is generated from [the index](../../json/hu/c.json) by `scripts/build-
 - `instructions.md` ([English](https://github.com/exercism/c/blob/main/exercises/practice/palindrome-products/.docs/instructions.md)): [Latest](../../../locales/hu/content/aa/c6/6521ce736be8ce737ea709a5b1eed507cbb8.md)
   - [`fd9a441247`](../../../locales/hu/content/fd/9a/441247b65a9a8604f6ef581df4b1054a1fad.md)
 
-### Pangram
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/c/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
   - [`d5698bc2a2`](../../../locales/hu/content/d5/69/8bc2a292baf2fb128de3543b748165088c4f.md)
@@ -561,7 +561,8 @@ This page is generated from [the index](../../json/hu/c.json) by `scripts/build-
 
 ### CONTRIBUTING.md
 
-- `CONTRIBUTING.md` ([English](https://github.com/exercism/c/blob/main/docs/CONTRIBUTING.md)): [Latest](../../../locales/hu/content/7a/4f/1d9110ddb0dced3eb9aa3db6539f22c81a9a.md)
+- `CONTRIBUTING.md` ([English](https://github.com/exercism/c/blob/main/docs/CONTRIBUTING.md)): [Latest](../../../locales/hu/content/20/e4/f72e2ee015d85dab61383164d3c1433106e8.md)
+  - [`7a4f1d9110`](../../../locales/hu/content/7a/4f/1d9110ddb0dced3eb9aa3db6539f22c81a9a.md)
 
 ### How to learn C (Hogyan tanuld meg a C-t)
 
