@@ -576,7 +576,8 @@ This page is generated from [the index](../../json/es-419/php.json) by `scripts/
 ### Language List (Lista de lenguajes)
 
 - `instructions.md` ([English](https://github.com/exercism/php/blob/main/exercises/concept/language-list/.docs/instructions.md)): [Latest](../../../locales/es-419/content/c8/a2/0bc0fc457f2fe530f4d2618a148277f5c6ba.md)
-- `introduction.md` ([English](https://github.com/exercism/php/blob/main/exercises/concept/language-list/.docs/introduction.md)): [Latest](../../../locales/es-419/content/19/0b/ad06021eb47bd941f394fdc4378c674ac532.md)
+- `introduction.md` ([English](https://github.com/exercism/php/blob/main/exercises/concept/language-list/.docs/introduction.md)): [Latest](../../../locales/es-419/content/43/b2/8dde5f65131443bad9fe7c13f600ffa8e973.md)
+  - [`190bad0602`](../../../locales/es-419/content/19/0b/ad06021eb47bd941f394fdc4378c674ac532.md)
   - [`25b8cdd321`](../../../locales/es-419/content/25/b8/cdd321a507c4476ad7f1e70b5f19c91cbd6d.md)
 - `hints.md` ([English](https://github.com/exercism/php/blob/main/exercises/concept/language-list/.docs/hints.md)): [Latest](../../../locales/es-419/content/5e/a3/b7834dba7f92fa9160226fa0f87924f94ab2.md)
 
