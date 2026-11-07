@@ -359,7 +359,7 @@ This page is generated from [the index](../../json/hu/crystal.json) by `scripts/
 
 - `instructions.md` ([English](https://github.com/exercism/crystal/blob/main/exercises/practice/palindrome-products/.docs/instructions.md)): [Latest](../../../locales/hu/content/aa/c6/6521ce736be8ce737ea709a5b1eed507cbb8.md)
 
-### Pangram
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/crystal/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
   - [`d5698bc2a2`](../../../locales/hu/content/d5/69/8bc2a292baf2fb128de3543b748165088c4f.md)
@@ -784,7 +784,8 @@ This page is generated from [the index](../../json/hu/crystal.json) by `scripts/
 ### Wellington's Weather Station (Wellington időjárásállomása)
 
 - `instructions.md` ([English](https://github.com/exercism/crystal/blob/main/exercises/concept/wellingtons-weather-station/.docs/instructions.md)): [Latest](../../../locales/hu/content/9c/9a/63594437ffe287d799c06883b2a778d0d2d9.md)
-- `introduction.md` ([English](https://github.com/exercism/crystal/blob/main/exercises/concept/wellingtons-weather-station/.docs/introduction.md)): [Latest](../../../locales/hu/content/88/83/926d7d65ff2b95ce16c9f6b78ef7a41bd57b.md)
+- `introduction.md` ([English](https://github.com/exercism/crystal/blob/main/exercises/concept/wellingtons-weather-station/.docs/introduction.md)): [Latest](../../../locales/hu/content/23/dc/b7795880862eaf1543a90b7e2f611a128f58.md)
+  - [`8883926d7d`](../../../locales/hu/content/88/83/926d7d65ff2b95ce16c9f6b78ef7a41bd57b.md)
 - `hints.md` ([English](https://github.com/exercism/crystal/blob/main/exercises/concept/wellingtons-weather-station/.docs/hints.md)): [Latest](../../../locales/hu/content/f7/86/5edc12db67f7b3fb3bc496de1cbb47cd3a5e.md)
 
 ## Concepts
@@ -871,8 +872,10 @@ This page is generated from [the index](../../json/hu/crystal.json) by `scripts/
 
 ### Numbers (Számok)
 
-- `introduction.md` ([English](https://github.com/exercism/crystal/blob/main/concepts/numbers/introduction.md)): [Latest](../../../locales/hu/content/88/83/926d7d65ff2b95ce16c9f6b78ef7a41bd57b.md)
-- `about.md` ([English](https://github.com/exercism/crystal/blob/main/concepts/numbers/about.md)): [Latest](../../../locales/hu/content/24/be/f21cfcaf9379aff5a73636b981f52dc23de4.md)
+- `introduction.md` ([English](https://github.com/exercism/crystal/blob/main/concepts/numbers/introduction.md)): [Latest](../../../locales/hu/content/23/dc/b7795880862eaf1543a90b7e2f611a128f58.md)
+  - [`8883926d7d`](../../../locales/hu/content/88/83/926d7d65ff2b95ce16c9f6b78ef7a41bd57b.md)
+- `about.md` ([English](https://github.com/exercism/crystal/blob/main/concepts/numbers/about.md)): [Latest](../../../locales/hu/content/a3/ec/0a64e878ac93d6244eb8469bd595dc4d9b24.md)
+  - [`24bef21cfc`](../../../locales/hu/content/24/be/f21cfcaf9379aff5a73636b981f52dc23de4.md)
 
 ### Procs & Blocks (Procok és blokkok)
 

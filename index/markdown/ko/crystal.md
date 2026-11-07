@@ -703,7 +703,8 @@ This page is generated from [the index](../../json/ko/crystal.json) by `scripts/
 ### Wellington's Weather Station (웰링턴의 기상 관측소)
 
 - `instructions.md` ([English](https://github.com/exercism/crystal/blob/main/exercises/concept/wellingtons-weather-station/.docs/instructions.md)): [Latest](../../../locales/ko/content/9c/9a/63594437ffe287d799c06883b2a778d0d2d9.md)
-- `introduction.md` ([English](https://github.com/exercism/crystal/blob/main/exercises/concept/wellingtons-weather-station/.docs/introduction.md)): [Latest](../../../locales/ko/content/88/83/926d7d65ff2b95ce16c9f6b78ef7a41bd57b.md)
+- `introduction.md` ([English](https://github.com/exercism/crystal/blob/main/exercises/concept/wellingtons-weather-station/.docs/introduction.md)): [Latest](../../../locales/ko/content/23/dc/b7795880862eaf1543a90b7e2f611a128f58.md)
+  - [`8883926d7d`](../../../locales/ko/content/88/83/926d7d65ff2b95ce16c9f6b78ef7a41bd57b.md)
 - `hints.md` ([English](https://github.com/exercism/crystal/blob/main/exercises/concept/wellingtons-weather-station/.docs/hints.md)): [Latest](../../../locales/ko/content/f7/86/5edc12db67f7b3fb3bc496de1cbb47cd3a5e.md)
 
 ## Concepts
@@ -790,8 +791,10 @@ This page is generated from [the index](../../json/ko/crystal.json) by `scripts/
 
 ### Numbers (숫자)
 
-- `introduction.md` ([English](https://github.com/exercism/crystal/blob/main/concepts/numbers/introduction.md)): [Latest](../../../locales/ko/content/88/83/926d7d65ff2b95ce16c9f6b78ef7a41bd57b.md)
-- `about.md` ([English](https://github.com/exercism/crystal/blob/main/concepts/numbers/about.md)): [Latest](../../../locales/ko/content/24/be/f21cfcaf9379aff5a73636b981f52dc23de4.md)
+- `introduction.md` ([English](https://github.com/exercism/crystal/blob/main/concepts/numbers/introduction.md)): [Latest](../../../locales/ko/content/23/dc/b7795880862eaf1543a90b7e2f611a128f58.md)
+  - [`8883926d7d`](../../../locales/ko/content/88/83/926d7d65ff2b95ce16c9f6b78ef7a41bd57b.md)
+- `about.md` ([English](https://github.com/exercism/crystal/blob/main/concepts/numbers/about.md)): [Latest](../../../locales/ko/content/a3/ec/0a64e878ac93d6244eb8469bd595dc4d9b24.md)
+  - [`24bef21cfc`](../../../locales/ko/content/24/be/f21cfcaf9379aff5a73636b981f52dc23de4.md)
 
 ### Procs & Blocks (Proc과 블록)
 

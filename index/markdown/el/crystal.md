@@ -703,7 +703,8 @@ This page is generated from [the index](../../json/el/crystal.json) by `scripts/
 ### Wellington's Weather Station (Ο μετεωρολογικός σταθμός του Wellington)
 
 - `instructions.md` ([English](https://github.com/exercism/crystal/blob/main/exercises/concept/wellingtons-weather-station/.docs/instructions.md)): [Latest](../../../locales/el/content/9c/9a/63594437ffe287d799c06883b2a778d0d2d9.md)
-- `introduction.md` ([English](https://github.com/exercism/crystal/blob/main/exercises/concept/wellingtons-weather-station/.docs/introduction.md)): [Latest](../../../locales/el/content/88/83/926d7d65ff2b95ce16c9f6b78ef7a41bd57b.md)
+- `introduction.md` ([English](https://github.com/exercism/crystal/blob/main/exercises/concept/wellingtons-weather-station/.docs/introduction.md)): [Latest](../../../locales/el/content/23/dc/b7795880862eaf1543a90b7e2f611a128f58.md)
+  - [`8883926d7d`](../../../locales/el/content/88/83/926d7d65ff2b95ce16c9f6b78ef7a41bd57b.md)
 - `hints.md` ([English](https://github.com/exercism/crystal/blob/main/exercises/concept/wellingtons-weather-station/.docs/hints.md)): [Latest](../../../locales/el/content/f7/86/5edc12db67f7b3fb3bc496de1cbb47cd3a5e.md)
 
 ## Concepts
@@ -790,8 +791,10 @@ This page is generated from [the index](../../json/el/crystal.json) by `scripts/
 
 ### Numbers (Αριθμοί)
 
-- `introduction.md` ([English](https://github.com/exercism/crystal/blob/main/concepts/numbers/introduction.md)): [Latest](../../../locales/el/content/88/83/926d7d65ff2b95ce16c9f6b78ef7a41bd57b.md)
-- `about.md` ([English](https://github.com/exercism/crystal/blob/main/concepts/numbers/about.md)): [Latest](../../../locales/el/content/24/be/f21cfcaf9379aff5a73636b981f52dc23de4.md)
+- `introduction.md` ([English](https://github.com/exercism/crystal/blob/main/concepts/numbers/introduction.md)): [Latest](../../../locales/el/content/23/dc/b7795880862eaf1543a90b7e2f611a128f58.md)
+  - [`8883926d7d`](../../../locales/el/content/88/83/926d7d65ff2b95ce16c9f6b78ef7a41bd57b.md)
+- `about.md` ([English](https://github.com/exercism/crystal/blob/main/concepts/numbers/about.md)): [Latest](../../../locales/el/content/a3/ec/0a64e878ac93d6244eb8469bd595dc4d9b24.md)
+  - [`24bef21cfc`](../../../locales/el/content/24/be/f21cfcaf9379aff5a73636b981f52dc23de4.md)
 
 ### Procs & Blocks (Procs και μπλοκ)
 
@@ -833,7 +836,7 @@ This page is generated from [the index](../../json/el/crystal.json) by `scripts/
 - `introduction.md` ([English](https://github.com/exercism/crystal/blob/main/concepts/union-type/introduction.md)): [Latest](../../../locales/el/content/e9/f2/93182f93f4e726e8da7950ca3db087ffdf62.md)
 - `about.md` ([English](https://github.com/exercism/crystal/blob/main/concepts/union-type/about.md)): [Latest](../../../locales/el/content/e8/29/a3f07a000f7f5d98ea5cf7e6aac5d1979c22.md)
 
-### While Loops (\`while\` βρόχοι)
+### While Loops (Βρόχοι \`while\`)
 
 - `introduction.md` ([English](https://github.com/exercism/crystal/blob/main/concepts/while-loops/introduction.md)): [Latest](../../../locales/el/content/98/2f/46f474bf957388c7797e7876ebe5617552ce.md)
 - `about.md` ([English](https://github.com/exercism/crystal/blob/main/concepts/while-loops/about.md)): [Latest](../../../locales/el/content/9d/0d/4d003f38d4eacb9e1d63ccb28f6cc54577c5.md)
