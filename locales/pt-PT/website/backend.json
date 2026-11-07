@@ -526,6 +526,89 @@
       "team": "Equipa",
       "supporters": "Apoiantes",
       "partners": "Parceiros"
+    },
+    "returning_user_modal": {
+      "level": {
+        "heading": "Bem-vindo de volta 👋",
+        "intro": "Fizemos algumas alterações recentemente. Para nos ajudares a dar-te a experiência mais adequada ao ponto em que estás, diz-nos",
+        "question": "em que ponto estás do teu percurso de programação?",
+        "save": "Guardar a minha escolha"
+      },
+      "code": {
+        "heading": "Vamos levar-te ao sítio certo",
+        "continue": "Continuar"
+      },
+      "thanks": {
+        "title": "Obrigado!",
+        "body": "O produto principal do Exercism foi pensado para ti. Esperamos que gostes!"
+      },
+      "jiki": {
+        "close": "Fechar",
+        "logo_alt": "Jiki, da equipa do Exercism",
+        "your_level": {
+          "heading_html": "Criámos uma <strong>nova plataforma</strong> para o teu nível!",
+          "body_html": "O Jiki vai deixar-te à vontade com os fundamentos da programação e levar-te até à construção de programas complexos. Vais criá-los nas primeiras semanas:"
+        },
+        "code_check": {
+          "heading_html": "Fizemos o Jiki para o teu nível!",
+          "body_html": "O Jiki preenche as lacunas nos teus fundamentos de programação, para que o código que acabaste de<br>ver comece a parecer fácil. Depois, volta ao Exercism para dominares %{language}."
+        },
+        "note": "Alguns dos jogos que vais fazer!",
+        "cta": "Inscreve-te no Jiki gratuitamente",
+        "later_html": "Não, obrigado, leva-me de volta ao %{link}",
+        "later_link": "Exercism"
+      }
+    },
+    "sign_up": {
+      "level_choices": {
+        "total_beginner": {
+          "title": "Sou principiante",
+          "description": "Estás a começar a programar."
+        },
+        "in_between": {
+          "title": "Sei programar um pouco",
+          "description": "Consegues escrever programas simples com à-vontade."
+        },
+        "confident_developer": {
+          "title": "Sou programador(a)",
+          "description": "Consegues escrever programas complexos com à-vontade."
+        }
+      },
+      "code_check": {
+        "i_mostly_code_in": "Programo sobretudo em",
+        "choose_language": "escolhe uma linguagem",
+        "search_placeholder": "Procurar linguagens",
+        "no_results": "Nenhuma linguagem corresponde",
+        "hint": "completa a frase",
+        "loading": "A carregar o código…",
+        "error": "Não conseguimos carregar o código. Escolhe a linguagem novamente.",
+        "sample_label": "Exemplo de código",
+        "question": "O que te parece este código?",
+        "answers": {
+          "easy": "Fácil 😎",
+          "tricky": "Complicado 🤔",
+          "impossible": "Impossível 🤯"
+        }
+      },
+      "jiki_snaps": {
+        "space_invaders": "space invaders",
+        "breakout": "breakout",
+        "maze": "resolvedor de labirintos"
+      },
+      "jiki_ticker": {
+        "label": "O que dizem os alunos sobre o Jiki",
+        "five_stars": "5 de 5 estrelas",
+        "quotes": [
+          "O melhor curso que já fiz",
+          "Voltou a tornar a aprendizagem uma alegria",
+          "Este curso é ouro puro.",
+          "Uma experiência de aprendizagem maravilhosa",
+          "Aprendizagem verdadeiramente prática",
+          "O conhecimento que não sabias que precisavas",
+          "O melhor investimento de tempo dos últimos anos",
+          "Incrivelmente divertido!"
+        ]
+      }
     }
   },
   "contributing": {
@@ -735,7 +818,46 @@
         "password_confirmation_label": "Confirmação da palavra-passe",
         "password_confirmation_placeholder": "Confirma a tua palavra-passe",
         "confirm_not_bot_label": "Confirma que não és um bot",
-        "sign_up_button": "Registar"
+        "sign_up_button": "Registar",
+        "continue": "Continuar",
+        "create_account": "Cria a tua conta no Exercism",
+        "panel": {
+          "label": "Sobre o Exercism",
+          "heading": "Pratica, aperfeiçoa o teu ofício e aprende novas linguagens.",
+          "body_html": "Evolui as tuas competências de programação com %{stats} e discussões esclarecedoras com a nossa equipa dedicada de mentores acolhedores. %{free_forever}",
+          "stats": "milhares de exercícios em %{track_count} linguagens,",
+          "free_forever": "Grátis para sempre.",
+          "more_tracks": "+mais %{count}"
+        },
+        "progress": {
+          "label": "Progresso do registo",
+          "step_1": "Passo 1: o teu percurso de programação",
+          "step_2": "Passo 2: verificação de linguagem e código",
+          "step_3": "Passo 3: registo"
+        },
+        "level": {
+          "question": "Em que ponto estás do teu percurso de programação?",
+          "intro": "Indicamos-te o melhor sítio para começar."
+        },
+        "code": {
+          "heading": "Vamos ver onde começar",
+          "intro": "Escolhe a linguagem que usas mais e diz-nos como te parece o código."
+        }
+      },
+      "jiki_dialog": {
+        "logo_alt": "Jiki, pela equipa do Exercism",
+        "your_level": {
+          "heading": "Criámos uma plataforma para o teu nível!",
+          "body_html": "O Exercism é pensado para quem já tem alguma experiência. <strong>Em vez disso, usa o Jiki, a nossa plataforma para principiantes, onde vais dominar os fundamentos da programação.</strong> É grátis, é divertido e vais construí-los nas primeiras semanas:"
+        },
+        "foundations": {
+          "heading": "Vamos primeiro consolidar as tuas bases!",
+          "body_html": "O Exercism é pensado para programadores. <strong>Usa o Jiki para construir as tuas bases e depois volta aqui para dominares %{language}.</strong> O Jiki é grátis, é divertido e vais fazê-los pelo caminho:"
+        },
+        "cta": "Regista-te no Jiki gratuitamente",
+        "later_html": "Não, obrigado, quero %{link} de qualquer forma",
+        "later_link": "usar o Exercism",
+        "later_aside": "(embora achemos que é uma má ideia 🤭)"
       }
     },
     "sessions": {

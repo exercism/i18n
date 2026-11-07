@@ -422,7 +422,7 @@
     "welcomeModal.exercismDeepenSkills": "Exercism 是讓你精進程式設計技能、探索超過 {{numTracks}} 種程式語言的地方。而且完全免費。",
     "welcomeModal.thanksForJoining": "感謝你的加入！",
     "welcomeModal.madeByThousands": "Exercism 是由數千人共同打造的，他們想創造一個有趣又強大的教育平台，讓學習和精進程式設計技能變得輕鬆。我們真的很開心你加入這段旅程！去看看我們的論壇、Youtube 和 Twitch，探索 Exercism 提供的一切 🎉",
-    "welcomeModal.watchWelcomeVideo": "首先，觀看右側的歡迎影片，然後前往 Tracks 頁面，選擇你最想先探索的程式語言。先解出經典的 &quot;Hello World&quot; 練習來熟悉這個平台，再開始真正解練習。",
+    "welcomeModal.watchWelcomeVideo": "首先，觀看右側的歡迎影片，然後前往 Tracks 頁面，選擇你最想先探索的程式語言。先解出經典的「Hello World」練習來熟悉這個平台，再開始真正解練習。",
     "welcomeModal.gotItCloseModal": "了解！關閉這個彈出視窗吧。",
     "welcomeModal.startWithWelcomeVideo": "先看我們的歡迎影片 👇🏽",
     "welcomeModal.whereCanIJoin": "我要去哪裡參加 #48in24？",

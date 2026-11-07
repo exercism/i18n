@@ -150,7 +150,31 @@
         "password_confirmation_label": "密码确认",
         "password_confirmation_placeholder": "确认你的密码",
         "confirm_not_bot_label": "确认你不是机器人",
-        "sign_up_button": "注册"
+        "sign_up_button": "注册",
+        "continue": "继续",
+        "create_account": "创建你的 Exercism 账号",
+        "panel": {
+          "label": "关于 Exercism",
+          "heading": "练习、打磨技艺，学习新的语言。",
+          "body_html": "通过 %{stats} 以及与我们热情的导师团队进行的富有洞见的讨论，提升你的编程技能。%{free_forever}",
+          "stats": "涵盖 %{track_count} 种语言的数千道练习，",
+          "free_forever": "永久免费。",
+          "more_tracks": "+%{count} 个"
+        },
+        "progress": {
+          "label": "注册进度",
+          "step_1": "第 1 步：你的编程之旅",
+          "step_2": "第 2 步：语言与代码检查",
+          "step_3": "第 3 步：注册"
+        },
+        "level": {
+          "question": "你的编程之旅走到哪一步了？",
+          "intro": "我们会为你指明最佳的起点。"
+        },
+        "code": {
+          "heading": "来看看该从哪里开始",
+          "intro": "选择你最常用的语言，然后告诉我们你觉得用起来怎么样。"
+        }
       },
       "destroyed": "再见！你的账户已成功注销。期待很快再次见到你。",
       "signed_up": "欢迎！你已成功注册。",
@@ -161,7 +185,22 @@
       "updated": "你的账户已成功更新。",
       "updated_but_not_signed_in": "你的账户已成功更新，但由于密码已更改，你需要重新登录",
       "captcha_verification_failed": "验证码验证失败。请重试。",
-      "csrf_failure": "你的会话已过期。请重试。"
+      "csrf_failure": "你的会话已过期。请重试。",
+      "jiki_dialog": {
+        "logo_alt": "Jiki，由 Exercism 团队打造",
+        "your_level": {
+          "heading": "我们为你这个水平打造了一个平台！",
+          "body_html": "Exercism 是为有一定经验的人设计的。<strong>不如改用 Jiki 吧，这是我们的初学者平台，你可以在那里掌握编程基础。</strong>它免费、有趣，而且头几周你就能做出这些作品："
+        },
+        "foundations": {
+          "heading": "先把基础打扎实吧！",
+          "body_html": "Exercism 是为开发者设计的。<strong>用 Jiki 打好基础，然后再回来这里精通 %{language}。</strong>Jiki 免费、有趣，你在这个过程中会做出这些作品："
+        },
+        "cta": "免费注册 Jiki",
+        "later_html": "不用了，谢谢，我还是想%{link}",
+        "later_link": "使用 Exercism",
+        "later_aside": "（虽然我们觉得这是个糟糕的主意 🤭）"
+      }
     },
     "shared": {
       "information": {
@@ -2110,6 +2149,89 @@
         "exercise_count": {
           "other": "%{count} 个新练习"
         }
+      }
+    },
+    "returning_user_modal": {
+      "level": {
+        "heading": "欢迎回来 👋",
+        "intro": "我们最近做了一些改动。为了给你最适合你当前水平的体验，请告诉我们",
+        "question": "你的编程之旅进行到哪一步了？",
+        "save": "保存我的选择"
+      },
+      "code": {
+        "heading": "让我们帮你找到合适的位置",
+        "continue": "继续"
+      },
+      "thanks": {
+        "title": "谢谢！",
+        "body": "Exercism 的核心产品就是为你设计的。希望你喜欢！"
+      },
+      "jiki": {
+        "close": "关闭",
+        "logo_alt": "Jiki，由 Exercism 团队打造",
+        "your_level": {
+          "heading_html": "我们为你的水平设计了一个<strong>新平台</strong>！",
+          "body_html": "Jiki 会让你对编程基础得心应手，并一路带你到构建复杂程序。你会在最初几周里做出这些："
+        },
+        "code_check": {
+          "heading_html": "我们为你的水平打造了 Jiki！",
+          "body_html": "Jiki 会补上你编程基础中的空缺，让你刚刚<br>看到的代码开始变得简单易懂。然后再回到 Exercism 来精通 %{language}。"
+        },
+        "note": "你会做出的一些游戏！",
+        "cta": "免费注册 Jiki",
+        "later_html": "不了，谢谢，带我回到 %{link}",
+        "later_link": "Exercism"
+      }
+    },
+    "sign_up": {
+      "level_choices": {
+        "total_beginner": {
+          "title": "我是初学者",
+          "description": "你刚刚开始学习编程。"
+        },
+        "in_between": {
+          "title": "我会一点编程",
+          "description": "你能轻松编写简单的程序。"
+        },
+        "confident_developer": {
+          "title": "我是开发者",
+          "description": "你能轻松编写复杂的程序。"
+        }
+      },
+      "code_check": {
+        "i_mostly_code_in": "我主要使用的语言",
+        "choose_language": "选择一门语言",
+        "search_placeholder": "搜索语言",
+        "no_results": "没有匹配的语言",
+        "hint": "补全句子",
+        "loading": "正在加载代码…",
+        "error": "我们无法加载代码。请重新选择语言。",
+        "sample_label": "代码示例",
+        "question": "你觉得这段代码难度如何？",
+        "answers": {
+          "easy": "简单 😎",
+          "tricky": "有点难 🤔",
+          "impossible": "完全看不懂 🤯"
+        }
+      },
+      "jiki_snaps": {
+        "space_invaders": "太空侵略者",
+        "breakout": "打砖块",
+        "maze": "迷宫求解器"
+      },
+      "jiki_ticker": {
+        "label": "学习者如何评价 Jiki",
+        "five_stars": "5 星（满分 5 星）",
+        "quotes": [
+          "我上过的最好的课程",
+          "让学习重新变得快乐",
+          "这门课程简直是宝藏。",
+          "一次美妙的学习体验",
+          "实打实的动手学习",
+          "那些你没想到自己需要的知识",
+          "多年来最值得的时间投入",
+          "超级有趣！"
+        ]
       }
     }
   },

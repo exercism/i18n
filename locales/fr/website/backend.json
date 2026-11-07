@@ -526,6 +526,89 @@
         "founder": "Fondateur",
         "staff": "Équipe"
       }
+    },
+    "returning_user_modal": {
+      "level": {
+        "heading": "Content de te revoir 👋",
+        "intro": "On a fait quelques changements récemment. Pour qu'on puisse t'offrir l'expérience la plus adaptée à ton niveau, dis-nous",
+        "question": "où tu en es dans ton apprentissage du code ?",
+        "save": "Enregistrer mon choix"
+      },
+      "code": {
+        "heading": "On va t'orienter vers le bon endroit",
+        "continue": "Continuer"
+      },
+      "thanks": {
+        "title": "Merci !",
+        "body": "Le produit phare d'Exercism est pensé pour toi. On espère qu'il te plaira !"
+      },
+      "jiki": {
+        "close": "Fermer",
+        "logo_alt": "Jiki, par l'équipe d'Exercism",
+        "your_level": {
+          "heading_html": "On a conçu une <strong>nouvelle plateforme</strong> pour ton niveau !",
+          "body_html": "Jiki va te mettre à l'aise avec les fondamentaux du code et te mener jusqu'à la création de programmes complexes. Tu réaliseras ces projets dans les premières semaines :"
+        },
+        "code_check": {
+          "heading_html": "On a créé Jiki pour ton niveau !",
+          "body_html": "Jiki comble les lacunes de tes fondamentaux en code, pour que le code que tu viens de<br>voir te paraisse soudain simple. Ensuite, reviens sur Exercism pour maîtriser %{language}."
+        },
+        "note": "Quelques-uns des jeux que tu vas créer !",
+        "cta": "Inscris-toi à Jiki gratuitement",
+        "later_html": "Non merci, ramène-moi sur %{link}",
+        "later_link": "Exercism"
+      }
+    },
+    "sign_up": {
+      "level_choices": {
+        "total_beginner": {
+          "title": "Je débute",
+          "description": "Tu fais tes premiers pas dans le code."
+        },
+        "in_between": {
+          "title": "Je code un peu",
+          "description": "Tu sais écrire des programmes simples sans difficulté."
+        },
+        "confident_developer": {
+          "title": "Je suis développeur",
+          "description": "Tu sais écrire des programmes complexes sans difficulté."
+        }
+      },
+      "code_check": {
+        "i_mostly_code_in": "Je code surtout en",
+        "choose_language": "choisis un langage",
+        "search_placeholder": "Rechercher un langage",
+        "no_results": "Aucun langage ne correspond",
+        "hint": "termine la phrase",
+        "loading": "Chargement du code…",
+        "error": "On n'a pas réussi à charger le code. Choisis à nouveau le langage.",
+        "sample_label": "Exemple de code",
+        "question": "Comment trouves-tu ce code ?",
+        "answers": {
+          "easy": "Facile 😎",
+          "tricky": "Corsé 🤔",
+          "impossible": "Impossible 🤯"
+        }
+      },
+      "jiki_snaps": {
+        "space_invaders": "space invaders",
+        "breakout": "breakout",
+        "maze": "sortie de labyrinthe"
+      },
+      "jiki_ticker": {
+        "label": "Ce que les apprenants disent de Jiki",
+        "five_stars": "5 étoiles sur 5",
+        "quotes": [
+          "Le meilleur cours que j'aie suivi",
+          "Redonne le plaisir d'apprendre",
+          "Ce cours est de l'or en barre.",
+          "Une formidable expérience d'apprentissage",
+          "Un apprentissage vraiment pratique",
+          "Les connaissances dont tu ne pensais pas avoir besoin",
+          "Mon meilleur investissement en temps depuis des années",
+          "Incroyablement amusant !"
+        ]
+      }
     }
   },
   "jiki": {
@@ -794,7 +877,46 @@
         "sign_up_button": "S'inscrire",
         "email_label": "E-mail",
         "password_label": "Mot de passe",
-        "password_confirmation_label": "Confirmation du mot de passe"
+        "password_confirmation_label": "Confirmation du mot de passe",
+        "continue": "Continuer",
+        "create_account": "Crée ton compte Exercism",
+        "panel": {
+          "label": "À propos d'Exercism",
+          "heading": "Entraîne-toi, perfectionne ton art et apprends de nouveaux langages.",
+          "body_html": "Développe tes compétences en programmation avec %{stats} et des échanges enrichissants avec notre équipe dévouée de mentors accueillants. %{free_forever}",
+          "stats": "des milliers d'exercices dans %{track_count} langages,",
+          "free_forever": "Gratuit pour toujours.",
+          "more_tracks": "+%{count} de plus"
+        },
+        "progress": {
+          "label": "Progression de l'inscription",
+          "step_1": "Étape 1 : ton parcours de programmation",
+          "step_2": "Étape 2 : langage et vérification du code",
+          "step_3": "Étape 3 : inscription"
+        },
+        "level": {
+          "question": "Où en es-tu dans ton parcours de programmation ?",
+          "intro": "On va t'indiquer le meilleur point de départ."
+        },
+        "code": {
+          "heading": "Voyons où commencer",
+          "intro": "Choisis le langage que tu utilises le plus, puis dis-nous comment tu trouves le code."
+        }
+      },
+      "jiki_dialog": {
+        "logo_alt": "Jiki, par l'équipe d'Exercism",
+        "your_level": {
+          "heading": "On a conçu une plateforme pour ton niveau !",
+          "body_html": "Exercism est conçu pour les personnes qui ont déjà un peu d'expérience. <strong>Utilise plutôt Jiki, notre plateforme pour débutants, où tu maîtriseras les bases de la programmation.</strong> C'est gratuit, amusant, et tu construiras ceci dans les premières semaines :"
+        },
+        "foundations": {
+          "heading": "Consolidons d'abord tes bases !",
+          "body_html": "Exercism est conçu pour les développeurs. <strong>Utilise Jiki pour construire tes bases, puis reviens ici pour maîtriser %{language}.</strong> Jiki est gratuit, amusant, et tu réaliseras ceci en chemin :"
+        },
+        "cta": "Inscris-toi gratuitement à Jiki",
+        "later_html": "Non merci, je veux quand même %{link}",
+        "later_link": "utiliser Exercism",
+        "later_aside": "(même si on pense que c'est une mauvaise idée 🤭)"
       }
     },
     "sessions": {

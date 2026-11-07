@@ -516,6 +516,89 @@
         "new_badge": "新着",
         "external_link": "リンクは新しいウィンドウまたはタブで開きます"
       }
+    },
+    "returning_user_modal": {
+      "level": {
+        "heading": "おかえりなさい👋",
+        "intro": "最近、いくつかの変更がありました。今の状況にいちばん合った体験をお届けできるよう、教えてください",
+        "question": "プログラミングの旅の、今どのあたりにいますか？",
+        "save": "この選択を保存する"
+      },
+      "code": {
+        "heading": "ぴったりの場所へご案内します",
+        "continue": "続ける"
+      },
+      "thanks": {
+        "title": "ありがとうございます！",
+        "body": "Exercismの中心となるプロダクトは、皆さんのために設計されています。ぜひ楽しんでください！"
+      },
+      "jiki": {
+        "close": "閉じる",
+        "logo_alt": "Exercismのチームが作ったJiki",
+        "your_level": {
+          "heading_html": "皆さんのレベルに合わせて、<strong>新しいプラットフォーム</strong>を用意しました！",
+          "body_html": "Jikiは、プログラミングの基礎に慣れるところから、複雑なプログラムを作れるところまで導きます。最初の数週間で、こんなものを作ります："
+        },
+        "code_check": {
+          "heading_html": "皆さんのレベルに合わせて、Jikiを作りました！",
+          "body_html": "Jikiは、プログラミングの基礎のすき間を埋めてくれるので、さっき見たばかりのコードも<br>やさしく感じられるようになります。その後はExercismに戻って、%{language}をマスターしましょう。"
+        },
+        "note": "作れるゲームの一部です！",
+        "cta": "Jikiに無料で登録する",
+        "later_html": "いいえ、%{link}に戻してください",
+        "later_link": "Exercism"
+      }
+    },
+    "sign_up": {
+      "level_choices": {
+        "total_beginner": {
+          "title": "初心者です",
+          "description": "これからプログラミングを始める方です。"
+        },
+        "in_between": {
+          "title": "少しならコードが書けます",
+          "description": "簡単なプログラムなら問題なく書けます。"
+        },
+        "confident_developer": {
+          "title": "エンジニアです",
+          "description": "複雑なプログラムも問題なく書けます。"
+        }
+      },
+      "code_check": {
+        "i_mostly_code_in": "主にコードを書く言語は",
+        "choose_language": "言語を選んでください",
+        "search_placeholder": "言語を検索",
+        "no_results": "一致する言語がありません",
+        "hint": "文を完成させてください",
+        "loading": "コードを読み込んでいます…",
+        "error": "コードを読み込めませんでした。もう一度言語を選んでください。",
+        "sample_label": "コードの例",
+        "question": "このコードはどんな感じがしますか？",
+        "answers": {
+          "easy": "かんたん😎",
+          "tricky": "むずかしい🤔",
+          "impossible": "まったくわからない🤯"
+        }
+      },
+      "jiki_snaps": {
+        "space_invaders": "スペースインベーダー",
+        "breakout": "ブロック崩し",
+        "maze": "迷路の探索"
+      },
+      "jiki_ticker": {
+        "label": "Jikiについて学習者が語る感想",
+        "five_stars": "5つ星のうち5",
+        "quotes": [
+          "今までで最高のコースです",
+          "学ぶことがもう一度楽しくなりました",
+          "このコースはまさに宝物です",
+          "素晴らしい学習体験です",
+          "本格的な実践型学習ができます",
+          "必要とは思っていなかった知識が身につきます",
+          "ここ数年で最高の時間の使い方です",
+          "とにかく楽しいです！"
+        ]
+      }
     }
   },
   "contributing": {
@@ -944,7 +1027,31 @@
         "password_confirmation_label": "パスワードの確認",
         "password_confirmation_placeholder": "パスワードをもう一度入力してください",
         "confirm_not_bot_label": "ロボットでないことを確認してください",
-        "sign_up_button": "サインアップ"
+        "sign_up_button": "サインアップ",
+        "continue": "続ける",
+        "create_account": "Exercismアカウントを作成しましょう",
+        "panel": {
+          "label": "Exercismについて",
+          "heading": "練習を重ね、腕を磨き、新しい言語を学びましょう。",
+          "body_html": "%{stats}や、温かく迎えてくれる専任メンターとの洞察に満ちた議論を通じて、プログラミングスキルを高めましょう。%{free_forever}",
+          "stats": "%{track_count}言語にわたる数千もの演習",
+          "free_forever": "ずっと無料です。",
+          "more_tracks": "+%{count}件"
+        },
+        "progress": {
+          "label": "登録の進行状況",
+          "step_1": "ステップ1：プログラミングの旅",
+          "step_2": "ステップ2：言語とコードの確認",
+          "step_3": "ステップ3：登録"
+        },
+        "level": {
+          "question": "プログラミング経験はどのくらいですか？",
+          "intro": "ぴったりのスタート地点を案内します。"
+        },
+        "code": {
+          "heading": "スタート地点を確認しましょう",
+          "intro": "いちばんよく使う言語を選んで、そのコードがどんな感じかを教えてください。"
+        }
       },
       "destroyed": "さようなら！アカウントの退会が完了しました。またお会いできる日を楽しみにしています。",
       "signed_up": "ようこそ！新規登録が完了しました。",
@@ -955,7 +1062,22 @@
       "updated": "アカウントの更新が完了しました。",
       "updated_but_not_signed_in": "アカウントの更新が完了しましたが、パスワードが変更されたため、もう一度サインインする必要があります",
       "captcha_verification_failed": "Captchaの確認に失敗しました。もう一度お試しください。",
-      "csrf_failure": "セッションの有効期限が切れました。もう一度お試しください。"
+      "csrf_failure": "セッションの有効期限が切れました。もう一度お試しください。",
+      "jiki_dialog": {
+        "logo_alt": "Exercismチームが作ったJiki",
+        "your_level": {
+          "heading": "レベルに合わせたプラットフォームを用意しました！",
+          "body_html": "Exercismは、少し経験のある方向けに設計されています。<strong>代わりに、初心者向けプラットフォームのJikiを使ってみましょう。そこでプログラミングの基礎をしっかり身につけられます。</strong>無料で楽しく、最初の数週間でこんなものを作れるようになります："
+        },
+        "foundations": {
+          "heading": "まずは基礎をしっかり固めましょう！",
+          "body_html": "Exercismはエンジニア向けに設計されています。<strong>まずJikiで基礎を築いてから、ここに戻って%{language}をマスターしましょう。</strong>Jikiは無料で楽しく、進めていくうちにこんなものを作れます："
+        },
+        "cta": "Jikiに無料で登録",
+        "later_html": "いいえ、それでも%{link}ことにします",
+        "later_link": "Exercismを使う",
+        "later_aside": "（よい考えとは思いませんが🤭）"
+      }
     },
     "sessions": {
       "new": {

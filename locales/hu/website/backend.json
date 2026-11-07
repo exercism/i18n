@@ -623,7 +623,46 @@
         "password_confirmation_label": "Jelszó megerősítése",
         "password_confirmation_placeholder": "Erősítsd meg a jelszavadat",
         "confirm_not_bot_label": "Igazold, hogy nem vagy robot",
-        "sign_up_button": "Regisztráció"
+        "sign_up_button": "Regisztráció",
+        "continue": "Folytatás",
+        "create_account": "Hozd létre az Exercism-fiókodat",
+        "panel": {
+          "label": "Az Exercism-ről",
+          "heading": "Gyakorolj, fejleszd a szakmai tudásodat és tanulj új nyelveket.",
+          "body_html": "Fejleszd a programozási készségeidet %{stats} és elmélyült beszélgetésekkel mentoraink barátságos, odaadó csapatával. %{free_forever}",
+          "stats": "több ezer feladattal %{track_count} nyelven,",
+          "free_forever": "Örökre ingyenes.",
+          "more_tracks": "+%{count} további"
+        },
+        "progress": {
+          "label": "A regisztráció menete",
+          "step_1": "1. lépés: a programozói utad",
+          "step_2": "2. lépés: nyelv és kód ellenőrzése",
+          "step_3": "3. lépés: regisztráció"
+        },
+        "level": {
+          "question": "Hol tartasz a programozói utadon?",
+          "intro": "Megmutatjuk, hol érdemes elkezdened."
+        },
+        "code": {
+          "heading": "Nézzük meg, hol kezdd",
+          "intro": "Válaszd ki a nyelvet, amit a legtöbbet használsz, aztán mondd el, milyen érzés vele kódolni."
+        }
+      },
+      "jiki_dialog": {
+        "logo_alt": "Jiki, az Exercism csapatától",
+        "your_level": {
+          "heading": "Olyan platformot terveztünk, ami a te szintednek megfelelő!",
+          "body_html": "Az Exercism azoknak készült, akiknek már egy kicsit több tapasztalatuk van. <strong>Használd inkább a Jikit, a kezdőknek szóló platformunkat, ahol elsajátíthatod a programozás alapjait.</strong> Ingyenes, szórakoztató, és az első hetekben ezeket építed meg:"
+        },
+        "foundations": {
+          "heading": "Először szilárdítsuk meg az alapjaidat!",
+          "body_html": "Az Exercism fejlesztőknek készült. <strong>Építsd fel az alapjaidat a Jikivel, aztán gyere vissza ide, és sajátítsd el a %{language} nyelvet.</strong> A Jiki ingyenes és szórakoztató, és közben ezeket készíted el:"
+        },
+        "cta": "Regisztrálj ingyen a Jikire",
+        "later_html": "Nem, köszönöm, én akkor is %{link} akarok",
+        "later_link": "használni az Exercism-t",
+        "later_aside": "(pedig szerintünk ez rossz ötlet 🤭)"
       }
     },
     "sessions": {
@@ -2854,6 +2893,89 @@
       "pre": "Ez az oldal %{current} nyelvű.",
       "link": "Nézd meg %{offered} nyelven",
       "dismiss": "Elvetés"
+    },
+    "returning_user_modal": {
+      "level": {
+        "heading": "Üdv újra itt 👋",
+        "intro": "Nemrég néhány dolgot megváltoztattunk. Hogy a helyzetednek leginkább megfelelő élményt nyújthassuk, mondd el,",
+        "question": "hol tartasz a programozási utadon?",
+        "save": "Választásom mentése"
+      },
+      "code": {
+        "heading": "Nézzük, hova tartozol",
+        "continue": "Folytatás"
+      },
+      "thanks": {
+        "title": "Köszönjük!",
+        "body": "Az Exercism fő terméke neked készült. Reméljük, tetszeni fog!"
+      },
+      "jiki": {
+        "close": "Bezárás",
+        "logo_alt": "Jiki, az Exercism csapatától",
+        "your_level": {
+          "heading_html": "A te szintedhez <strong>új platformot</strong> terveztünk!",
+          "body_html": "A Jiki segít, hogy magabiztosan mozogj a programozás alapjaiban, és elvezet egészen az összetett programok építéséig. Ezeket az első hetekben készíted el:"
+        },
+        "code_check": {
+          "heading_html": "A te szintedhez készítettük a Jikit!",
+          "body_html": "A Jiki kitölti a hiányosságokat a programozási alapjaidban, így az épp<br>látott kód is könnyedén érthetővé válik. Aztán gyere vissza az Exercism-re, hogy elsajátítsd a(z) %{language} nyelvet."
+        },
+        "note": "Néhány játék, amit készíteni fogsz!",
+        "cta": "Regisztrálj ingyen a Jikire",
+        "later_html": "Nem, köszönöm, vigyél vissza a(z) %{link} oldalra",
+        "later_link": "Exercism"
+      }
+    },
+    "sign_up": {
+      "level_choices": {
+        "total_beginner": {
+          "title": "Kezdő vagyok",
+          "description": "Most ismerkedsz a programozással."
+        },
+        "in_between": {
+          "title": "Kicsit már tudok programozni",
+          "description": "Egyszerű programokat magabiztosan meg tudsz írni."
+        },
+        "confident_developer": {
+          "title": "Fejlesztő vagyok",
+          "description": "Összetett programokat is magabiztosan meg tudsz írni."
+        }
+      },
+      "code_check": {
+        "i_mostly_code_in": "Leginkább ebben programozok:",
+        "choose_language": "válassz nyelvet",
+        "search_placeholder": "Nyelvek keresése",
+        "no_results": "Nincs találat",
+        "hint": "fejezd be a mondatot",
+        "loading": "Kód betöltése…",
+        "error": "Nem sikerült betölteni a kódot. Válaszd ki újra a nyelvet.",
+        "sample_label": "Kódpélda",
+        "question": "Neked milyennek tűnik ez a kód?",
+        "answers": {
+          "easy": "Könnyű 😎",
+          "tricky": "Húzós 🤔",
+          "impossible": "Lehetetlen 🤯"
+        }
+      },
+      "jiki_snaps": {
+        "space_invaders": "space invaders",
+        "breakout": "breakout",
+        "maze": "labirintusmegoldó"
+      },
+      "jiki_ticker": {
+        "label": "Mit mondanak a tanulók a Jikiről",
+        "five_stars": "5-ből 5 csillag",
+        "quotes": [
+          "A legjobb kurzus, amit eddig elvégeztem",
+          "Újra öröm lett a tanulás",
+          "Ez a kurzus színtiszta arany.",
+          "Csodálatos tanulási élmény",
+          "Igazi gyakorlati tanulás",
+          "A tudás, amiről nem is gondoltad, hogy kell",
+          "Az elmúlt évek legjobb időbefektetése",
+          "Hihetetlenül szórakoztató!"
+        ]
+      }
     }
   },
   "contributing": {

@@ -126,7 +126,31 @@
         "password_confirmation_label": "Passwortbestätigung",
         "password_confirmation_placeholder": "Bestätige dein Passwort",
         "confirm_not_bot_label": "Bestätige, dass du kein Bot bist",
-        "sign_up_button": "Registrieren"
+        "sign_up_button": "Registrieren",
+        "continue": "Weiter",
+        "create_account": "Erstelle dein Exercism-Konto",
+        "panel": {
+          "label": "Über Exercism",
+          "heading": "Übe, pflege dein Handwerk und lerne neue Sprachen.",
+          "body_html": "Bring deine Programmierfähigkeiten auf das nächste Level, mit %{stats} und anregenden Diskussionen mit unserem engagierten Team aus herzlichen Mentorinnen und Mentoren. %{free_forever}",
+          "stats": "Tausenden von Übungen in %{track_count} Sprachen,",
+          "free_forever": "Für immer kostenlos.",
+          "more_tracks": "+%{count} weitere"
+        },
+        "progress": {
+          "label": "Registrierungsfortschritt",
+          "step_1": "Schritt 1: deine Reise ins Programmieren",
+          "step_2": "Schritt 2: Sprache und Code-Check",
+          "step_3": "Schritt 3: registrieren"
+        },
+        "level": {
+          "question": "Wo stehst du auf deiner Reise ins Programmieren?",
+          "intro": "Wir zeigen dir, wo du am besten startest."
+        },
+        "code": {
+          "heading": "Finden wir heraus, wo du am besten startest",
+          "intro": "Wähle die Sprache, die du am häufigsten verwendest, und sag uns dann, wie sich der Code für dich anfühlt."
+        }
       },
       "destroyed": "Tschüss! Dein Konto wurde erfolgreich gelöscht. Wir hoffen, dich bald wiederzusehen.",
       "signed_up": "Willkommen! Du hast dich erfolgreich registriert.",
@@ -137,7 +161,22 @@
       "updated": "Dein Konto wurde erfolgreich aktualisiert.",
       "updated_but_not_signed_in": "Dein Konto wurde erfolgreich aktualisiert, aber da dein Passwort geändert wurde, musst du dich erneut anmelden",
       "captcha_verification_failed": "Die Captcha-Verifizierung ist fehlgeschlagen. Bitte versuch es noch einmal.",
-      "csrf_failure": "Deine Sitzung ist abgelaufen. Bitte versuch es noch einmal."
+      "csrf_failure": "Deine Sitzung ist abgelaufen. Bitte versuch es noch einmal.",
+      "jiki_dialog": {
+        "logo_alt": "Jiki, vom Team von Exercism",
+        "your_level": {
+          "heading": "Wir haben eine Plattform für dein Level entwickelt!",
+          "body_html": "Exercism ist für Menschen mit etwas mehr Erfahrung gedacht. <strong>Nutze stattdessen Jiki, unsere Plattform für Anfänger, auf der du die Grundlagen des Programmierens meisterst.</strong> Sie ist kostenlos, macht Spaß, und diese Dinge baust du schon in den ersten Wochen:"
+        },
+        "foundations": {
+          "heading": "Festigen wir zuerst deine Grundlagen!",
+          "body_html": "Exercism ist für Entwicklerinnen und Entwickler gedacht. <strong>Baue mit Jiki deine Grundlagen auf und komm dann hierher zurück, um %{language} zu meistern.</strong> Jiki ist kostenlos, macht Spaß, und diese Dinge entstehen dabei:"
+        },
+        "cta": "Melde dich kostenlos bei Jiki an",
+        "later_html": "Nein danke, ich möchte trotzdem %{link}",
+        "later_link": "Exercism nutzen",
+        "later_aside": "(auch wenn wir das für eine schlechte Idee halten 🤭)"
+      }
     },
     "sessions": {
       "new": {
@@ -934,6 +973,89 @@
       "nav_dropdown_helper": {
         "new_badge": "Neu",
         "external_link": "Der Link öffnet sich in einem neuen Fenster oder Tab"
+      }
+    },
+    "returning_user_modal": {
+      "level": {
+        "heading": "Willkommen zurück 👋",
+        "intro": "Wir haben in letzter Zeit einiges geändert. Damit wir dir genau das bieten können, was zu dir passt, sag uns,",
+        "question": "wo du auf deiner Programmierreise stehst?",
+        "save": "Auswahl speichern"
+      },
+      "code": {
+        "heading": "Wir bringen dich an die richtige Stelle",
+        "continue": "Weiter"
+      },
+      "thanks": {
+        "title": "Danke!",
+        "body": "Das Kernprodukt von Exercism ist für dich gemacht. Wir hoffen, es gefällt dir!"
+      },
+      "jiki": {
+        "close": "Schließen",
+        "logo_alt": "Jiki, vom Team von Exercism",
+        "your_level": {
+          "heading_html": "Wir haben eine <strong>neue Plattform</strong> für dein Level gebaut!",
+          "body_html": "Jiki macht dich mit den Grundlagen des Programmierens vertraut und führt dich bis zum Bau komplexer Programme. Diese baust du schon in den ersten Wochen:"
+        },
+        "code_check": {
+          "heading_html": "Wir haben Jiki für dein Level entwickelt!",
+          "body_html": "Jiki schließt die Lücken in deinen Programmiergrundlagen, sodass sich Code, den du gerade<br>gesehen hast, leicht anfühlt. Danach komm zurück zu Exercism und meistere %{language}."
+        },
+        "note": "Ein paar der Spiele, die du bauen wirst!",
+        "cta": "Melde dich kostenlos bei Jiki an",
+        "later_html": "Nein danke, bring mich zurück zu %{link}",
+        "later_link": "Exercism"
+      }
+    },
+    "sign_up": {
+      "level_choices": {
+        "total_beginner": {
+          "title": "Ich fange gerade erst an",
+          "description": "Du bist neu beim Programmieren."
+        },
+        "in_between": {
+          "title": "Ich kann schon etwas programmieren",
+          "description": "Du kannst einfache Programme ohne Probleme schreiben."
+        },
+        "confident_developer": {
+          "title": "Ich bin bereits Entwickler*in",
+          "description": "Du kannst komplexe Programme ohne Probleme schreiben."
+        }
+      },
+      "code_check": {
+        "i_mostly_code_in": "Ich programmiere meistens in",
+        "choose_language": "Sprache wählen",
+        "search_placeholder": "Sprachen suchen",
+        "no_results": "Keine passenden Sprachen gefunden",
+        "hint": "Satz vervollständigen",
+        "loading": "Code wird geladen…",
+        "error": "Wir konnten den Code nicht laden. Bitte wähle die Sprache noch einmal aus.",
+        "sample_label": "Codebeispiel",
+        "question": "Wie fühlt sich dieser Code für dich an?",
+        "answers": {
+          "easy": "Einfach 😎",
+          "tricky": "Knifflig 🤔",
+          "impossible": "Unmöglich 🤯"
+        }
+      },
+      "jiki_snaps": {
+        "space_invaders": "Space Invaders",
+        "breakout": "Breakout",
+        "maze": "Labyrinth-Löser"
+      },
+      "jiki_ticker": {
+        "label": "Das sagen Lernende über Jiki",
+        "five_stars": "5 von 5 Sternen",
+        "quotes": [
+          "Der beste Kurs, den ich je gemacht habe",
+          "Lernen macht wieder Freude",
+          "Dieser Kurs ist pures Gold.",
+          "Eine wunderbare Lernerfahrung",
+          "Richtiges Lernen durch eigenes Tun",
+          "Das Wissen, von dem du nicht wusstest, dass du es brauchst",
+          "Meine beste Zeitinvestition seit Jahren",
+          "Macht unglaublich Spaß!"
+        ]
       }
     }
   },

@@ -1690,6 +1690,89 @@
           "making_the_most_title": "如何充分利用導師引導"
         }
       }
+    },
+    "returning_user_modal": {
+      "level": {
+        "heading": "歡迎回來 👋",
+        "intro": "我們最近做了一些調整。為了提供最適合你目前狀況的體驗，請告訴我們",
+        "question": "你在寫程式這條路上走到哪裡了？",
+        "save": "儲存我的選擇"
+      },
+      "code": {
+        "heading": "帶你到對的地方吧",
+        "continue": "繼續"
+      },
+      "thanks": {
+        "title": "謝謝你！",
+        "body": "Exercism 的核心產品就是為你設計的。希望你會喜歡！"
+      },
+      "jiki": {
+        "close": "關閉",
+        "logo_alt": "Jiki，由 Exercism 團隊打造",
+        "your_level": {
+          "heading_html": "我們為你的程度打造了一個<strong>全新平台</strong>！",
+          "body_html": "Jiki 會帶你熟悉寫程式的基礎，一步步陪你做到能建構複雜的程式。你會在最初幾週做出這些作品："
+        },
+        "code_check": {
+          "heading_html": "我們為你的程度打造了 Jiki！",
+          "body_html": "Jiki 會補齊你寫程式基礎的缺口，讓你剛剛<br>看過的程式碼開始變得簡單。之後再回到 Exercism 精通 %{language}。"
+        },
+        "note": "你會做出的其中幾款遊戲！",
+        "cta": "免費註冊 Jiki",
+        "later_html": "不用了，帶我回到 %{link}",
+        "later_link": "Exercism"
+      }
+    },
+    "sign_up": {
+      "level_choices": {
+        "total_beginner": {
+          "title": "我是初學者",
+          "description": "你正要開始學寫程式。"
+        },
+        "in_between": {
+          "title": "我會寫一點程式",
+          "description": "你能輕鬆寫出簡單的程式。"
+        },
+        "confident_developer": {
+          "title": "我是開發者",
+          "description": "你能輕鬆寫出複雜的程式。"
+        }
+      },
+      "code_check": {
+        "i_mostly_code_in": "我最常使用的語言是",
+        "choose_language": "選擇語言",
+        "search_placeholder": "搜尋語言",
+        "no_results": "沒有符合的語言",
+        "hint": "完成這個句子",
+        "loading": "正在載入程式碼…",
+        "error": "我們無法載入程式碼。請重新選擇語言。",
+        "sample_label": "程式碼範例",
+        "question": "這段程式碼對你來說感覺如何？",
+        "answers": {
+          "easy": "簡單 😎",
+          "tricky": "有點難 🤔",
+          "impossible": "太難了 🤯"
+        }
+      },
+      "jiki_snaps": {
+        "space_invaders": "太空侵略者",
+        "breakout": "打磚塊",
+        "maze": "迷宮解謎"
+      },
+      "jiki_ticker": {
+        "label": "學習者對 Jiki 的評價",
+        "five_stars": "滿分 5 顆星",
+        "quotes": [
+          "我上過最棒的課程",
+          "讓學習重新變得有趣",
+          "這門課程真是無價之寶。",
+          "超棒的學習體驗",
+          "真正動手實作的學習",
+          "那些你原本以為自己不需要的知識",
+          "我近年來最值得的時間投資",
+          "好玩到不行！"
+        ]
+      }
     }
   },
   "devise": {
@@ -1751,7 +1834,31 @@
         "password_confirmation_label": "確認密碼",
         "password_confirmation_placeholder": "確認你的密碼",
         "confirm_not_bot_label": "確認你不是機器人",
-        "sign_up_button": "註冊"
+        "sign_up_button": "註冊",
+        "continue": "繼續",
+        "create_account": "建立你的 Exercism 帳號",
+        "panel": {
+          "label": "關於 Exercism",
+          "heading": "持續練習、精進你的技藝，並學習新的程式語言。",
+          "body_html": "透過%{stats}，以及我們熱情導師團隊帶來的深入討論，讓你的程式設計能力更上一層樓。%{free_forever}",
+          "stats": "橫跨 %{track_count} 種程式語言的數千個練習，",
+          "free_forever": "永久免費。",
+          "more_tracks": "還有 %{count} 個"
+        },
+        "progress": {
+          "label": "註冊進度",
+          "step_1": "步驟 1：你的寫程式旅程",
+          "step_2": "步驟 2：語言與程式碼檢測",
+          "step_3": "步驟 3：註冊"
+        },
+        "level": {
+          "question": "你的寫程式旅程走到哪裡了呢？",
+          "intro": "我們會指引你最適合的起點。"
+        },
+        "code": {
+          "heading": "我們來看看該從哪裡開始吧",
+          "intro": "選一個你最常用的程式語言，然後告訴我們你覺得這些程式碼讀起來如何。"
+        }
       },
       "destroyed": "再見！你的帳號已成功取消。希望很快能再見到你喔。",
       "signed_up": "歡迎！你已成功註冊。",
@@ -1762,7 +1869,22 @@
       "updated": "你的帳號已成功更新。",
       "updated_but_not_signed_in": "你的帳號已成功更新，但由於你的密碼已變更，你需要重新登入",
       "captcha_verification_failed": "驗證碼驗證失敗。請再試一次。",
-      "csrf_failure": "你的工作階段已過期。請再試一次。"
+      "csrf_failure": "你的工作階段已過期。請再試一次。",
+      "jiki_dialog": {
+        "logo_alt": "Jiki，由 Exercism 團隊打造",
+        "your_level": {
+          "heading": "我們為你的程度設計了一個平台！",
+          "body_html": "Exercism 是為稍有經驗的人設計的。<strong>建議你改用 Jiki，這是我們的初學者平台，你可以在那裡扎實掌握程式設計的基礎。</strong>它免費、好玩，而且你會在最初幾週做出這些東西："
+        },
+        "foundations": {
+          "heading": "我們先來打好你的基礎吧！",
+          "body_html": "Exercism 是為開發者設計的。<strong>先用 Jiki 打好基礎，再回來這裡精通 %{language}。</strong>Jiki 免費、好玩，而且你會在過程中做出這些東西："
+        },
+        "cta": "免費註冊 Jiki",
+        "later_html": "不用了，我還是想%{link}",
+        "later_link": "使用 Exercism",
+        "later_aside": "（雖然我們覺得這不是個好主意 🤭）"
+      }
     },
     "sessions": {
       "new": {

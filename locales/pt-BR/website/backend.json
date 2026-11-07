@@ -526,6 +526,89 @@
         "new_badge": "Novo",
         "external_link": "O link abre em uma nova janela ou aba"
       }
+    },
+    "returning_user_modal": {
+      "level": {
+        "heading": "Bem-vindo de volta 👋",
+        "intro": "Fizemos algumas mudanças recentemente. Para nos ajudar a oferecer a experiência mais adequada ao seu momento, conte para a gente",
+        "question": "em que ponto você está na sua jornada de programação?",
+        "save": "Salvar minha escolha"
+      },
+      "code": {
+        "heading": "Vamos te levar ao lugar certo",
+        "continue": "Continuar"
+      },
+      "thanks": {
+        "title": "Obrigado!",
+        "body": "O produto principal do Exercism foi feito para você. Esperamos que você goste!"
+      },
+      "jiki": {
+        "close": "Fechar",
+        "logo_alt": "Jiki, pela equipe do Exercism",
+        "your_level": {
+          "heading_html": "Criamos uma <strong>nova plataforma</strong> para o seu nível!",
+          "body_html": "O Jiki vai te deixar à vontade com os fundamentos de programação e te levar até a construção de programas complexos. Você vai criar programas assim nas primeiras semanas:"
+        },
+        "code_check": {
+          "heading_html": "Fizemos o Jiki para o seu nível!",
+          "body_html": "O Jiki preenche as lacunas dos seus fundamentos de programação, então o código que você acabou de ver<br>começa a parecer fácil. Depois, volte ao Exercism para dominar %{language}."
+        },
+        "note": "Alguns dos jogos que você vai criar!",
+        "cta": "Crie sua conta no Jiki de graça",
+        "later_html": "Não, obrigado. Me leve de volta para %{link}",
+        "later_link": "Exercism"
+      }
+    },
+    "sign_up": {
+      "level_choices": {
+        "total_beginner": {
+          "title": "Estou começando",
+          "description": "Você está começando a programar."
+        },
+        "in_between": {
+          "title": "Sei programar um pouco",
+          "description": "Você consegue escrever programas simples com tranquilidade."
+        },
+        "confident_developer": {
+          "title": "Sou desenvolvedor",
+          "description": "Você consegue escrever programas complexos com tranquilidade."
+        }
+      },
+      "code_check": {
+        "i_mostly_code_in": "Eu programo principalmente em",
+        "choose_language": "escolha uma linguagem",
+        "search_placeholder": "Buscar linguagens",
+        "no_results": "Nenhuma linguagem encontrada",
+        "hint": "complete a frase",
+        "loading": "Carregando o código…",
+        "error": "Não conseguimos carregar o código. Escolha a linguagem de novo.",
+        "sample_label": "Exemplo de código",
+        "question": "O que você achou deste código?",
+        "answers": {
+          "easy": "Fácil 😎",
+          "tricky": "Complicado 🤔",
+          "impossible": "Impossível 🤯"
+        }
+      },
+      "jiki_snaps": {
+        "space_invaders": "space invaders",
+        "breakout": "breakout",
+        "maze": "labirinto"
+      },
+      "jiki_ticker": {
+        "label": "O que os estudantes dizem sobre o Jiki",
+        "five_stars": "5 de 5 estrelas",
+        "quotes": [
+          "O melhor curso que já fiz",
+          "Devolveu a alegria de aprender",
+          "Este curso é ouro puro.",
+          "Uma experiência de aprendizado maravilhosa",
+          "Aprendizado prático de verdade",
+          "O conhecimento que você não achava que precisava",
+          "O melhor investimento de tempo que fiz em anos",
+          "Incrivelmente divertido!"
+        ]
+      }
     }
   },
   "errors": {
@@ -2056,7 +2139,31 @@
         "password_confirmation_label": "Confirmação de senha",
         "password_confirmation_placeholder": "Confirme sua senha",
         "confirm_not_bot_label": "Confirme que você não é um robô",
-        "sign_up_button": "Cadastre-se"
+        "sign_up_button": "Cadastre-se",
+        "continue": "Continuar",
+        "create_account": "Crie sua conta no Exercism",
+        "panel": {
+          "label": "Sobre o Exercism",
+          "heading": "Pratique, aperfeiçoe seu ofício e aprenda novas linguagens.",
+          "body_html": "Evolua suas habilidades de programação com %{stats} e discussões enriquecedoras com nosso time dedicado de mentores acolhedores. %{free_forever}",
+          "stats": "milhares de exercícios em %{track_count} linguagens,",
+          "free_forever": "Grátis para sempre.",
+          "more_tracks": "+%{count} mais"
+        },
+        "progress": {
+          "label": "Progresso do cadastro",
+          "step_1": "Etapa 1: sua jornada na programação",
+          "step_2": "Etapa 2: verificação de linguagem e código",
+          "step_3": "Etapa 3: cadastro"
+        },
+        "level": {
+          "question": "Em que ponto da sua jornada na programação você está?",
+          "intro": "Vamos indicar o melhor lugar para começar."
+        },
+        "code": {
+          "heading": "Vamos ver onde começar",
+          "intro": "Escolha a linguagem que você mais usa e nos diga como você se sente com o código."
+        }
       },
       "destroyed": "Tchau! Sua conta foi cancelada com sucesso. Esperamos ver você por aqui de novo em breve.",
       "signed_up": "Bem-vindo! Sua conta foi criada com sucesso.",
@@ -2067,7 +2174,22 @@
       "updated": "Sua conta foi atualizada com sucesso.",
       "updated_but_not_signed_in": "Sua conta foi atualizada com sucesso, mas como sua senha foi alterada, você precisa fazer login novamente",
       "captcha_verification_failed": "Falha na verificação do captcha. Tente novamente.",
-      "csrf_failure": "Sua sessão expirou. Tente novamente."
+      "csrf_failure": "Sua sessão expirou. Tente novamente.",
+      "jiki_dialog": {
+        "logo_alt": "Jiki, pela equipe do Exercism",
+        "your_level": {
+          "heading": "Projetamos uma plataforma para o seu nível!",
+          "body_html": "O Exercism foi feito para quem já tem um pouco mais de experiência. <strong>Em vez disso, use o Jiki, nossa plataforma para iniciantes, onde você vai dominar os fundamentos da programação.</strong> É grátis, divertido, e você vai construir estes nas primeiras semanas:"
+        },
+        "foundations": {
+          "heading": "Vamos firmar seus fundamentos primeiro!",
+          "body_html": "O Exercism foi feito para desenvolvedores. <strong>Use o Jiki para construir seus fundamentos e depois volte aqui para dominar %{language}.</strong> O Jiki é grátis, divertido, e você vai fazer estes ao longo do caminho:"
+        },
+        "cta": "Crie sua conta no Jiki de graça",
+        "later_html": "Não, valeu, quero %{link} assim mesmo",
+        "later_link": "usar o Exercism",
+        "later_aside": "(mesmo que a gente ache que isso é uma má ideia 🤭)"
+      }
     },
     "sessions": {
       "new": {
