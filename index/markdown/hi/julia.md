@@ -750,13 +750,17 @@ This page is generated from [the index](../../json/hi/julia.json) by `scripts/bu
 
 ### Basics (मूल बातें)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/basics/introduction.md)): [Latest](../../../locales/hi/content/2d/c3/5ddf76cb539727d1aeab8bd7ce1d62ab2fe4.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/basics/about.md)): [Latest](../../../locales/hi/content/3e/0b/d320f7d424d80aff7751e85d883a8e99808e.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/basics/introduction.md)): [Latest](../../../locales/hi/content/cc/28/55eb106b10637ad198ebdeb655a889fde0f1.md)
+  - [`2dc35ddf76`](../../../locales/hi/content/2d/c3/5ddf76cb539727d1aeab8bd7ce1d62ab2fe4.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/basics/about.md)): [Latest](../../../locales/hi/content/5d/6f/92aaed13cc41e4b8a8b81f1271c585396b21.md)
+  - [`3e0bd320f7`](../../../locales/hi/content/3e/0b/d320f7d424d80aff7751e85d883a8e99808e.md)
 
 ### Bitwise Operations (बिटवाइज़ ऑपरेशन)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/bitwise-operations/introduction.md)): [Latest](../../../locales/hi/content/8b/48/003d4abc2db08fa4c4667584d9eb1d92a7b2.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/bitwise-operations/about.md)): [Latest](../../../locales/hi/content/06/71/db0bc1ceca6c60280f4eedb4cbe8a940ffcb.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/bitwise-operations/introduction.md)): [Latest](../../../locales/hi/content/79/81/495b91199689fbbb1450b4b4cabce29f9d2f.md)
+  - [`8b48003d4a`](../../../locales/hi/content/8b/48/003d4abc2db08fa4c4667584d9eb1d92a7b2.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/bitwise-operations/about.md)): [Latest](../../../locales/hi/content/b1/a4/0356034afa62335a5fb4347ff020bb756dc7.md)
+  - [`0671db0bc1`](../../../locales/hi/content/06/71/db0bc1ceca6c60280f4eedb4cbe8a940ffcb.md)
 
 ### Booleans (बूलियन)
 
@@ -790,8 +794,10 @@ This page is generated from [the index](../../json/hi/julia.json) by `scripts/bu
 
 ### Dates and Times (दिनांक और समय)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/dates-times/introduction.md)): [Latest](../../../locales/hi/content/58/4d/902be2d49dbbbc3e14804d4e04945fe151a8.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/dates-times/about.md)): [Latest](../../../locales/hi/content/1c/e8/25b40242e2031c4b8db3fd0557f33bac0123.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/dates-times/introduction.md)): [Latest](../../../locales/hi/content/fa/44/6f9023989236c1242f9a91b5beff7d316b75.md)
+  - [`584d902be2`](../../../locales/hi/content/58/4d/902be2d49dbbbc3e14804d4e04945fe151a8.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/dates-times/about.md)): [Latest](../../../locales/hi/content/7e/07/3d16d4902220b93cc7fe7e4d645fc422822e.md)
+  - [`1ce825b402`](../../../locales/hi/content/1c/e8/25b40242e2031c4b8db3fd0557f33bac0123.md)
 
 ### Dict Functions (डिक्शनरी फंक्शन)
 
@@ -815,23 +821,30 @@ This page is generated from [the index](../../json/hi/julia.json) by `scripts/bu
 
 ### Higher Order Functions (हायर-ऑर्डर फंक्शन)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/higher-order-functions/introduction.md)): [Latest](../../../locales/hi/content/98/39/d9160a2b9e3d743b81cedd76ceecae5c21a8.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/higher-order-functions/about.md)): [Latest](../../../locales/hi/content/6b/41/8eeb5bb728c49588e00235c2f685498c226e.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/higher-order-functions/introduction.md)): [Latest](../../../locales/hi/content/5d/b2/89cf3584cc081f9b873887894778f732c45f.md)
+  - [`9839d9160a`](../../../locales/hi/content/98/39/d9160a2b9e3d743b81cedd76ceecae5c21a8.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/higher-order-functions/about.md)): [Latest](../../../locales/hi/content/e0/25/0ddf9e93bf9407c550d79eed3740c2c35184.md)
+  - [`6b418eeb5b`](../../../locales/hi/content/6b/41/8eeb5bb728c49588e00235c2f685498c226e.md)
 
 ### Interfaces (इंटरफेस)
 
 - `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/interfaces/introduction.md)): [Latest](../../../locales/hi/content/25/02/f9671511bf0c86b11dc93c7b663a888b784c.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/interfaces/about.md)): [Latest](../../../locales/hi/content/7c/29/fb6095bf4ef18587a24d77d6eed158f0499a.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/interfaces/about.md)): [Latest](../../../locales/hi/content/0d/a9/7f45ad13210726d3f6d8e6830c1b86a20fac.md)
+  - [`7c29fb6095`](../../../locales/hi/content/7c/29/fb6095bf4ef18587a24d77d6eed158f0499a.md)
 
 ### Linear Algebra Basics (रैखिक बीजगणित की मूल बातें)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/linear-algebra-basics/introduction.md)): [Latest](../../../locales/hi/content/24/c1/67e952d76d8fbe88b603de04d08f160244e6.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/linear-algebra-basics/about.md)): [Latest](../../../locales/hi/content/1a/2e/bb4905ff073eb5ac0abccdd5a4999a886783.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/linear-algebra-basics/introduction.md)): [Latest](../../../locales/hi/content/0e/ec/7e9db508de413de6ff3f3f9578f8b0537cd2.md)
+  - [`24c167e952`](../../../locales/hi/content/24/c1/67e952d76d8fbe88b603de04d08f160244e6.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/linear-algebra-basics/about.md)): [Latest](../../../locales/hi/content/8b/6d/45b6402db0895b628749fa77b37a0fe8522a.md)
+  - [`1a2ebb4905`](../../../locales/hi/content/1a/2e/bb4905ff073eb5ac0abccdd5a4999a886783.md)
 
 ### Linear Equation Solving (रैखिक समीकरण हल करना)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/linear-equation-solving/introduction.md)): [Latest](../../../locales/hi/content/be/af/1514ff96d544279f17a3e98e9bb21130e92f.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/linear-equation-solving/about.md)): [Latest](../../../locales/hi/content/1b/62/e22fd7d75991dcc7545e32abe945a6909d72.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/linear-equation-solving/introduction.md)): [Latest](../../../locales/hi/content/29/0b/503d6574260c427de145bbbb0d72ca459b7d.md)
+  - [`beaf1514ff`](../../../locales/hi/content/be/af/1514ff96d544279f17a3e98e9bb21130e92f.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/linear-equation-solving/about.md)): [Latest](../../../locales/hi/content/85/98/bff96608a4268a01b49bfdc5eb45aabbb228.md)
+  - [`1b62e22fd7`](../../../locales/hi/content/1b/62/e22fd7d75991dcc7545e32abe945a6909d72.md)
 
 ### Loops (लूप)
 
@@ -840,13 +853,17 @@ This page is generated from [the index](../../json/hi/julia.json) by `scripts/bu
 
 ### Multi Dimensional Arrays (बहुआयामी ऐरे)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/multi-dimensional-arrays/introduction.md)): [Latest](../../../locales/hi/content/98/e5/69adefa28c5b5005f95941221cddd29dc5d8.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/multi-dimensional-arrays/about.md)): [Latest](../../../locales/hi/content/9f/df/e6bce10ace127431454ec0b38be6ff53e870.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/multi-dimensional-arrays/introduction.md)): [Latest](../../../locales/hi/content/a9/be/7c7943878395de58746320f5e498baa4b07b.md)
+  - [`98e569adef`](../../../locales/hi/content/98/e5/69adefa28c5b5005f95941221cddd29dc5d8.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/multi-dimensional-arrays/about.md)): [Latest](../../../locales/hi/content/fd/eb/34ff7d4032dca92ec11a3f0d3316d4a5a0eb.md)
+  - [`9fdfe6bce1`](../../../locales/hi/content/9f/df/e6bce10ace127431454ec0b38be6ff53e870.md)
 
 ### Multiple Dispatch (मल्टीपल डिस्पैच)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/multiple-dispatch/introduction.md)): [Latest](../../../locales/hi/content/64/6b/d8f5985a76ab08ccfc6d286902f8a272b8c2.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/multiple-dispatch/about.md)): [Latest](../../../locales/hi/content/19/73/5db5eb0369f80871404368832f0e2d644188.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/multiple-dispatch/introduction.md)): [Latest](../../../locales/hi/content/96/74/9d516765ead1d1bd6142010485d24d738a3b.md)
+  - [`646bd8f598`](../../../locales/hi/content/64/6b/d8f5985a76ab08ccfc6d286902f8a272b8c2.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/multiple-dispatch/about.md)): [Latest](../../../locales/hi/content/ca/79/143f0de9781d6ada689326463fb97daaea43.md)
+  - [`19735db5eb`](../../../locales/hi/content/19/73/5db5eb0369f80871404368832f0e2d644188.md)
 
 ### Nothingness (शून्यता)
 
@@ -885,8 +902,10 @@ This page is generated from [the index](../../json/hi/julia.json) by `scripts/bu
 
 ### Regular Expressions (रेगुलर एक्सप्रेशन)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/regular-expressions/introduction.md)): [Latest](../../../locales/hi/content/8b/6a/3bcd7cae38afeb8107b228d4a536b56f68cf.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/regular-expressions/about.md)): [Latest](../../../locales/hi/content/d5/4d/76182f598b9663a069f44d7d7d2e98ab7b73.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/regular-expressions/introduction.md)): [Latest](../../../locales/hi/content/f8/a3/6a4ec3a0ec3650d446622e33d3b1b30d5203.md)
+  - [`8b6a3bcd7c`](../../../locales/hi/content/8b/6a/3bcd7cae38afeb8107b228d4a536b56f68cf.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/regular-expressions/about.md)): [Latest](../../../locales/hi/content/13/fa/0c254848bf3ad5a9a3aeb1e9d9d763462437.md)
+  - [`d54d76182f`](../../../locales/hi/content/d5/4d/76182f598b9663a069f44d7d7d2e98ab7b73.md)
 
 ### Sets (सेट)
 
@@ -895,8 +914,10 @@ This page is generated from [the index](../../json/hi/julia.json) by `scripts/bu
 
 ### Sorting (सॉर्टिंग)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/sorting/introduction.md)): [Latest](../../../locales/hi/content/36/73/f31e8e967df549ccf76009eb12b247da34e9.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/sorting/about.md)): [Latest](../../../locales/hi/content/b5/37/6f7afad01e3cd4f043e5436cd5c2b544306d.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/sorting/introduction.md)): [Latest](../../../locales/hi/content/b4/73/079680c1074643747a76c415e2b506916153.md)
+  - [`3673f31e8e`](../../../locales/hi/content/36/73/f31e8e967df549ccf76009eb12b247da34e9.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/sorting/about.md)): [Latest](../../../locales/hi/content/16/e5/b303308e3b97bcb07e0d53d5ffd2a3a07ba1.md)
+  - [`b5376f7afa`](../../../locales/hi/content/b5/37/6f7afad01e3cd4f043e5436cd5c2b544306d.md)
 
 ### Statistics (सांख्यिकी)
 
@@ -905,8 +926,10 @@ This page is generated from [the index](../../json/hi/julia.json) by `scripts/bu
 
 ### Strings (स्ट्रिंग)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/strings/introduction.md)): [Latest](../../../locales/hi/content/b0/98/9b656bb6ddabe142b14c1626cd08ce956bec.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/strings/about.md)): [Latest](../../../locales/hi/content/7a/90/d08ad35173e281a20a88edf9288e96870926.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/strings/introduction.md)): [Latest](../../../locales/hi/content/6e/ba/8572e636967a9212969fdcd621670cd5ac76.md)
+  - [`b0989b656b`](../../../locales/hi/content/b0/98/9b656bb6ddabe142b14c1626cd08ce956bec.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/strings/about.md)): [Latest](../../../locales/hi/content/27/ba/4938d41e0a7c76d268c26ebb10e31d1d80ee.md)
+  - [`7a90d08ad3`](../../../locales/hi/content/7a/90/d08ad35173e281a20a88edf9288e96870926.md)
 
 ### Tuples (टपल)
 
@@ -926,7 +949,8 @@ This page is generated from [the index](../../json/hi/julia.json) by `scripts/bu
 ### Vector Operations (वेक्टर ऑपरेशन)
 
 - `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/vector-operations/introduction.md)): [Latest](../../../locales/hi/content/ee/45/0f0c825c77decd9a578cac119e8b02188d19.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/vector-operations/about.md)): [Latest](../../../locales/hi/content/03/f6/b1735658281977f2d49da6a079c9756f8c20.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/vector-operations/about.md)): [Latest](../../../locales/hi/content/ab/5c/3859bea9faa09e6c77b83825de9311e02b10.md)
+  - [`03f6b17356`](../../../locales/hi/content/03/f6/b1735658281977f2d49da6a079c9756f8c20.md)
 
 ### Vectors (वेक्टर)
 
