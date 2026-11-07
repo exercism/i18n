@@ -256,7 +256,8 @@ This page is generated from [the index](../../json/el/docs.json) by `scripts/bui
 
 ### configlet lint
 
-- `lint.md` ([English](https://github.com/exercism/docs/blob/main/building/configlet/lint.md)): [Latest](../../../locales/el/content/9d/40/393ef2679972172c1ad00dd86a02f64c0e38.md)
+- `lint.md` ([English](https://github.com/exercism/docs/blob/main/building/configlet/lint.md)): [Latest](../../../locales/el/content/14/dd/002a7d34ace898402182151ab3305ce81bc0.md)
+  - [`9d40393ef2`](../../../locales/el/content/9d/40/393ef2679972172c1ad00dd86a02f64c0e38.md)
 
 ### configlet sync
 
@@ -509,6 +510,7 @@ This page is generated from [the index](../../json/el/docs.json) by `scripts/bui
 ### Markdown
 
 - `README.md` ([English](https://github.com/exercism/docs/blob/main/building/markdown/README.md)): [Latest](../../../locales/el/content/38/bc/446c57781f2b2e9ec024f63b237d2bddf742.md)
+  - [`e69de29bb2`](../../../locales/el/content/e6/9d/e29bb2d1d6434b8b29ae775ad8c2e48c5391.md)
 
 ### Markdown Specification (Προδιαγραφή Markdown)
 
@@ -736,7 +738,8 @@ This page is generated from [the index](../../json/el/docs.json) by `scripts/bui
 
 ### Track Docs (Τεκμηρίωση διαδρομών)
 
-- `docs.md` ([English](https://github.com/exercism/docs/blob/main/building/tracks/docs.md)): [Latest](../../../locales/el/content/a8/d0/4b37eb5246280754ad774971d9f086a3f43c.md)
+- `docs.md` ([English](https://github.com/exercism/docs/blob/main/building/tracks/docs.md)): [Latest](../../../locales/el/content/9a/b0/b598fb1115f97b4ad1a670106c25e57f7a02.md)
+  - [`a8d04b37eb`](../../../locales/el/content/a8/d0/4b37eb5246280754ad774971d9f086a3f43c.md)
 
 ### Track Tooling (Εργαλεία διαδρομής)
 

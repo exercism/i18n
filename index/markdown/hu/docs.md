@@ -72,7 +72,7 @@ This page is generated from [the index](../../json/hu/docs.json) by `scripts/bui
 
 - `README.md` ([English](https://github.com/exercism/docs/blob/main/using/legal/README.md)): [Latest](../../../locales/hu/content/f8/5a/236093a3828c35432345c85394f7295140a0.md)
 
-### Licenses used on Exercism (Az Exercismen használt licencek)
+### Licenses used on Exercism (Az Exercism-ön használt licencek)
 
 - `README.md` ([English](https://github.com/exercism/docs/blob/main/using/licenses/README.md)): [Latest](../../../locales/hu/content/44/8d/ae141d1803a098662a1a75616d2d7db3c967.md)
 
@@ -256,7 +256,8 @@ This page is generated from [the index](../../json/hu/docs.json) by `scripts/bui
 
 ### configlet lint
 
-- `lint.md` ([English](https://github.com/exercism/docs/blob/main/building/configlet/lint.md)): [Latest](../../../locales/hu/content/9d/40/393ef2679972172c1ad00dd86a02f64c0e38.md)
+- `lint.md` ([English](https://github.com/exercism/docs/blob/main/building/configlet/lint.md)): [Latest](../../../locales/hu/content/14/dd/002a7d34ace898402182151ab3305ce81bc0.md)
+  - [`9d40393ef2`](../../../locales/hu/content/9d/40/393ef2679972172c1ad00dd86a02f64c0e38.md)
 
 ### configlet sync
 
@@ -278,7 +279,7 @@ This page is generated from [the index](../../json/hu/docs.json) by `scripts/bui
 
 - `README.md` ([English](https://github.com/exercism/docs/blob/main/building/tracks/ci/README.md)): [Latest](../../../locales/hu/content/5f/e6/3e58555a7c556f2a9f0f0ee8650bfede7944.md)
 
-### Contributing to Exercism (Közreműködés az Exercismben)
+### Contributing to Exercism (Közreműködés az Exercism-ben)
 
 - `README.md` ([English](https://github.com/exercism/docs/blob/main/building/README.md)): [Latest](../../../locales/hu/content/d1/31/d82cba154e7f7c18bdc23ee883237023897f.md)
 
@@ -737,7 +738,8 @@ This page is generated from [the index](../../json/hu/docs.json) by `scripts/bui
 
 ### Track Docs (Kurzus dokumentációja)
 
-- `docs.md` ([English](https://github.com/exercism/docs/blob/main/building/tracks/docs.md)): [Latest](../../../locales/hu/content/a8/d0/4b37eb5246280754ad774971d9f086a3f43c.md)
+- `docs.md` ([English](https://github.com/exercism/docs/blob/main/building/tracks/docs.md)): [Latest](../../../locales/hu/content/9a/b0/b598fb1115f97b4ad1a670106c25e57f7a02.md)
+  - [`a8d04b37eb`](../../../locales/hu/content/a8/d0/4b37eb5246280754ad774971d9f086a3f43c.md)
 
 ### Track Tooling (Kurzus tooling)
 
