@@ -240,5 +240,7 @@
   "exercise:secret-handshake:source": "Mary Poppins의 Bert",
   "exercise:food-chain:name": "먹이 사슬",
   "exercise:food-chain:blurb": "'I Know an Old Lady Who Swallowed a Fly'라는 노래의 가사를 만들어요.",
-  "exercise:food-chain:source": "Wikipedia"
+  "exercise:food-chain:source": "Wikipedia",
+  "exercise:dominoes:name": "도미노",
+  "exercise:dominoes:blurb": "도미노를 이어서 하나의 사슬을 만들어요."
 }

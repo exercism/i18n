@@ -89,6 +89,12 @@ This page is generated from [the index](../../json/hi/scheme.json) by `scripts/b
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/difference-of-squares/.docs/instructions.md)): [Latest](../../../locales/hi/content/39/c3/8b5094a948fd87e8349a64d545ca847b3e89.md)
 
+### Dominoes (डोमिनोज़)
+
+- `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/dominoes/.docs/instructions.md)): [Latest](../../../locales/hi/content/75/05/5b9e8925dea56b07c073de34212358dc78fc.md)
+- `instructions.append.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/dominoes/.docs/instructions.append.md)): [Latest](../../../locales/hi/content/da/50/cefdffd5bf0e89a7086002589e3c009c35ce.md)
+- `introduction.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/dominoes/.docs/introduction.md)): [Latest](../../../locales/hi/content/df/24/8c2116efac6352f52bd2a18b665ceba16433.md)
+
 ### Eliud's Eggs (Eliud के अंडे)
 
 - `instructions.md` ([English](https://github.com/exercism/scheme/blob/main/exercises/practice/eliuds-eggs/.docs/instructions.md)): [Latest](../../../locales/hi/content/b0/c2/df593c0c15f1f94dfc13bddacffd6b0f5ddc.md)

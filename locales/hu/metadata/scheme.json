@@ -240,5 +240,7 @@
   "exercise:secret-handshake:source": "Bert a Mary Poppinsból",
   "exercise:food-chain:name": "Tápláléklánc",
   "exercise:food-chain:blurb": "Generáld az „I Know an Old Lady Who Swallowed a Fly” dal szövegét.",
-  "exercise:food-chain:source": "Wikipedia"
+  "exercise:food-chain:source": "Wikipedia",
+  "exercise:dominoes:name": "Dominók",
+  "exercise:dominoes:blurb": "Készíts dominóláncot."
 }

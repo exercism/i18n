@@ -240,5 +240,7 @@
   "exercise:secret-handshake:source": "Bert, in Mary Poppins",
   "exercise:food-chain:name": "Nahrungskette",
   "exercise:food-chain:blurb": "Erzeuge den Liedtext des Songs „I Know an Old Lady Who Swallowed a Fly“.",
-  "exercise:food-chain:source": "Wikipedia"
+  "exercise:food-chain:source": "Wikipedia",
+  "exercise:dominoes:name": "Domino",
+  "exercise:dominoes:blurb": "Bilde eine Kette aus Dominosteinen."
 }

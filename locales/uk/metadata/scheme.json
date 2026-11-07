@@ -240,5 +240,7 @@
   "exercise:secret-handshake:source": "Берт, у Mary Poppins",
   "exercise:food-chain:name": "Харчовий ланцюг",
   "exercise:food-chain:blurb": "Згенеруйте слова пісні «I Know an Old Lady Who Swallowed a Fly».",
-  "exercise:food-chain:source": "Wikipedia"
+  "exercise:food-chain:source": "Wikipedia",
+  "exercise:dominoes:name": "Доміно",
+  "exercise:dominoes:blurb": "Складіть ланцюжок доміно."
 }

@@ -240,5 +240,7 @@
   "exercise:secret-handshake:source": "Mary PoppinsのBert",
   "exercise:food-chain:name": "食物連鎖",
   "exercise:food-chain:blurb": "『I Know an Old Lady Who Swallowed a Fly』という歌の歌詞を生成します。",
-  "exercise:food-chain:source": "Wikipedia"
+  "exercise:food-chain:source": "Wikipedia",
+  "exercise:dominoes:name": "ドミノ",
+  "exercise:dominoes:blurb": "ドミノの連鎖を作ります。"
 }

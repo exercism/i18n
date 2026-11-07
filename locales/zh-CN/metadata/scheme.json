@@ -240,5 +240,7 @@
   "exercise:secret-handshake:source": "Mary Poppins 中的 Bert",
   "exercise:food-chain:name": "食物链",
   "exercise:food-chain:blurb": "生成歌曲《I Know an Old Lady Who Swallowed a Fly》的歌词。",
-  "exercise:food-chain:source": "Wikipedia"
+  "exercise:food-chain:source": "Wikipedia",
+  "exercise:dominoes:name": "多米诺骨牌",
+  "exercise:dominoes:blurb": "用多米诺骨牌摆出一条链。"
 }

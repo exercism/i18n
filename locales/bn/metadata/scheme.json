@@ -240,5 +240,7 @@
   "exercise:secret-handshake:source": "Mary Poppins-এর Bert.",
   "exercise:food-chain:name": "খাদ্য শৃঙ্খল",
   "exercise:food-chain:blurb": "'I Know an Old Lady Who Swallowed a Fly' গানটির লিরিক তৈরি করুন।",
-  "exercise:food-chain:source": "Wikipedia"
+  "exercise:food-chain:source": "Wikipedia",
+  "exercise:dominoes:name": "ডমিনো",
+  "exercise:dominoes:blurb": "ডমিনোর একটি চেইন তৈরি করুন।"
 }

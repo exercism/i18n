@@ -240,5 +240,7 @@
   "exercise:secret-handshake:source": "Bert، در Mary Poppins",
   "exercise:food-chain:name": "زنجیره‌ی غذایی",
   "exercise:food-chain:blurb": "متن ترانه‌ی «I Know an Old Lady Who Swallowed a Fly» را تولید کنید.",
-  "exercise:food-chain:source": "Wikipedia"
+  "exercise:food-chain:source": "Wikipedia",
+  "exercise:dominoes:name": "دومینو",
+  "exercise:dominoes:blurb": "زنجیره‌ای از دومینو بسازید."
 }
