@@ -370,5 +370,8 @@
   "doc:resources:blurb": "Uma coleção de recursos úteis para te ajudar a dominar Haskell",
   "concept:pattern-matching:blurb": "Introdução à correspondência de padrões em Haskell.",
   "concept:guards:name": "Guardas",
-  "concept:guards:blurb": "As guardas impedem a invocação de uma função com base na avaliação dos argumentos por funções de guarda. As guardas começam com o operador `|`, seguido de uma expressão Boolean. As guardas servem para complementar a correspondência de padrões com verificações mais complexas."
+  "concept:guards:blurb": "As guardas impedem a invocação de uma função com base na avaliação dos argumentos por funções de guarda. As guardas começam com o operador `|`, seguido de uma expressão Boolean. As guardas servem para complementar a correspondência de padrões com verificações mais complexas.",
+  "exercise:grep:name": "Grep",
+  "exercise:grep:blurb": "Procura num ficheiro as linhas que correspondem a um padrão de expressão regular. Devolve o número e o conteúdo de cada linha correspondente.",
+  "exercise:grep:source": "Conversa com Nate Foster."
 }

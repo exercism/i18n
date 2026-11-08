@@ -370,5 +370,8 @@
   "doc:resources:blurb": "一系列實用資源，幫助你精通 Haskell",
   "concept:pattern-matching:blurb": "Haskell 模式比對入門。",
   "concept:guards:name": "守衛",
-  "concept:guards:blurb": "守衛會透過守衛函式對引數求值，藉此阻止函式被呼叫。守衛以`|`運算子開頭，後面接一個布林運算式。守衛可以為模式比對加上更複雜的檢查。"
+  "concept:guards:blurb": "守衛會透過守衛函式對引數求值，藉此阻止函式被呼叫。守衛以`|`運算子開頭，後面接一個布林運算式。守衛可以為模式比對加上更複雜的檢查。",
+  "exercise:grep:name": "Grep",
+  "exercise:grep:blurb": "在檔案中搜尋符合正規表示式樣式的行，回傳每一個相符行的行號與內容。",
+  "exercise:grep:source": "與 Nate Foster 的對話。"
 }

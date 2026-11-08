@@ -372,5 +372,8 @@
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Haskellt",
   "concept:pattern-matching:blurb": "Bevezetés a mintaillesztésbe Haskellben.",
   "concept:guards:name": "Őrfeltételek",
-  "concept:guards:blurb": "Az őrfeltételek megakadályozzák, hogy a függvény meghívódjon, ha az őrfüggvények az argumentumok kiértékelése alapján ezt nem engedik. Az őrfeltételek `|` operátorral kezdődnek, amelyet egy Boolean-kifejezés követ. Segítségükkel a mintaillesztést összetettebb ellenőrzésekkel egészítheted ki."
+  "concept:guards:blurb": "Az őrfeltételek megakadályozzák, hogy a függvény meghívódjon, ha az őrfüggvények az argumentumok kiértékelése alapján ezt nem engedik. Az őrfeltételek `|` operátorral kezdődnek, amelyet egy Boolean-kifejezés követ. Segítségükkel a mintaillesztést összetettebb ellenőrzésekkel egészítheted ki.",
+  "exercise:grep:name": "Grep",
+  "exercise:grep:source": "Beszélgetés Nate Foster-rel.",
+  "exercise:grep:blurb": "Keress egy fájlban reguláris kifejezésmintának megfelelő sorokat. Minden egyező sornak add vissza a sorszámát és a tartalmát."
 }

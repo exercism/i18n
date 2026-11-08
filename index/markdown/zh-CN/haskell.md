@@ -191,6 +191,11 @@ This page is generated from [the index](../../json/zh-CN/haskell.json) by `scrip
 
 - `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/grains/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/df/47/9fc0a174d105647e79d6c4dcaad6947b460c.md)
 
+### Grep
+
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/grep/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/00/4f/28acd55341a8d5847d4a5671f44b2b074eb4.md)
+- `instructions.append.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/grep/.docs/instructions.append.md)): [Latest](../../../locales/zh-CN/content/0b/90/e1a006c34771fa6e77bd909dcd75392dc092.md)
+
 ### Hamming (汉明)
 
 - `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/hamming/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/b9/ae/6efc516eb335d6f456561f89a8b6acc4c850.md)

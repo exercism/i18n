@@ -370,5 +370,8 @@
   "doc:resources:blurb": "帮助你掌握 Haskell 的实用资源合集",
   "concept:pattern-matching:blurb": "Haskell 中模式匹配的入门介绍。",
   "concept:guards:name": "守卫",
-  "concept:guards:blurb": "守卫会根据守卫函数对参数的求值结果，阻止对函数的调用。守卫以 `|` 运算符开头，后面跟一个布尔表达式。守卫用于在模式匹配的基础上增加更复杂的检查。"
+  "concept:guards:blurb": "守卫会根据守卫函数对参数的求值结果，阻止对函数的调用。守卫以 `|` 运算符开头，后面跟一个布尔表达式。守卫用于在模式匹配的基础上增加更复杂的检查。",
+  "exercise:grep:name": "Grep",
+  "exercise:grep:blurb": "在文件中搜索与正则表达式模式匹配的行。返回每个匹配行的行号和内容。",
+  "exercise:grep:source": "与 Nate Foster 的一次对话。"
 }
