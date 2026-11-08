@@ -3230,7 +3230,57 @@
       "hero_subtitle_html": "<strong>Adományozz az Exercism-nek</strong>, és kapj <span class=\"underline\">bónusz funkciókat</span> és <span class=\"underline\">kulisszák mögötti tartalmakat.</span>",
       "donations_message_html": "A fennmaradáshoz &amp; a fejlődéshez a <strong>hozzád hasonló emberek</strong> adományaira van szükségünk! Az Insiders a módja annak, hogy megköszönjük a támogatásodat!",
       "features_summary_html": "Kapj kulisszák mögötti hozzáférést, <strong>sötét módot,</strong> exkluzív jelvényeket, <strong>fejlett GitHub-szinkronizálást és kedvenceket,</strong> Exercism AI-t, <strong>extra mentorálási helyeket,</strong> privát Discord-csatornát, <strong>reklámmentes élményt,</strong> és még sok mást, ha adományozol az Exercism-nek 🎉",
-      "non_profit_info": "Az Exercism egy független, bejegyzett nonprofit szervezet (UK #11733062), apró csapattal. Minden adományt a platform működtetésére és fejlesztésére fordítunk."
+      "non_profit_info": "Az Exercism egy független, bejegyzett nonprofit szervezet (UK #11733062), apró csapattal. Minden adományt a platform működtetésére és fejlesztésére fordítunk.",
+      "features": {
+        "dark_mode": {
+          "title": "Sötét mód",
+          "description": "A legtöbben kért funkciónk kizárólag az Insiders tagjai számára érhető el. Hangulatos sötét témánk feldobja az Exercism-ös élményt, és kíméli a szemedet, miközben késő éjszakáig programozol."
+        },
+        "favorites": {
+          "title": "Kedvencek",
+          "description": "Láttál egy megoldást, ami inspirál vagy felkelti az érdeklődésedet? Mentsd el a kedvenceid közé, és később térj vissza hozzá tanulni! Az Insiders korlátlan mennyiségű kedvencet és szűrési lehetőséget tesz elérhetővé."
+        },
+        "ad_free": {
+          "title": "Reklámmentes élmény",
+          "description": "Nem szereted a reklámokat? Még nyugodtabb tanulási környezetre vágysz? Az Insiders tagjai kikapcsolhatják az összes reklámot az egész platformon, így teljesen zavartalan a tanulás!"
+        },
+        "github_sync": {
+          "title": "GitHub-szinkronizálás beállításai",
+          "description": "Ki szeretnéd hagyni a pull request-eket? Módosítanád a commit üzeneteket? Saját fájlútvonalakat állítanál be? Az Insiders speciális testreszabási lehetőségeket kínál a GitHub-szinkronizáláshoz. Alakítsd a saját igényeidhez!"
+        },
+        "name_tag_flair": {
+          "title": "Névtábla-kitűző",
+          "description": "Mutassd meg Insiders-státuszodat az Insiders-logóval a neved mellett az egész oldalon, a Discordon és a fórumainkon. Tudja meg mindenki, hogy támogatsz minket!"
+        },
+        "behind_the_scenes": {
+          "title": "Kulisszák mögötti tartalmak",
+          "description": "Légy naprakész arról, min dolgozunk és mit tervezünk: zárt Insiders-élőközvetítések (igény szerint újranézhetők) és technikai mélyelemzések az Exercism technológiai stackjéről. Lentebb többet is találsz!"
+        },
+        "private_discord": {
+          "title": "Zárt Discord-csatorna",
+          "description": "Tölts időt a csapatunkkal és más Insiderekkel a zárt Discord-csatornánkon. Szerezz első kézből információt arról, min dolgozunk, és ötletelj velünk valós időben."
+        },
+        "ai_assistant": {
+          "title": "AI-asszisztens",
+          "description": "AI-asszisztensünk segít, ha elakadsz, közvetlenül az online szerkesztőben, minden feladatnál korlátlan beszélgetéssel. Inkább rávezet a megoldásra, mintsem odaadja."
+        },
+        "extra_mentoring_slots": {
+          "title": "Extra mentorálási helyek",
+          "description": "Oldj fel több párhuzamos mentorálási helyet kurzusként anélkül, hogy reputációt kellene gyűjtened, és haladj gyorsabban a kurzuson mentoraink támogatásával."
+        },
+        "exclusive_badges": {
+          "title": "Exkluzív jelvények",
+          "description": "Azonnal megkapod a ritka Insiders-jelvényt a profilodra. Aztán további exkluzív jelvényeket is feloldhatsz, ahogy használod az Exercism-öt, ezekhez csak Insiderek juthatnak hozzá."
+        },
+        "exclusive_perks": {
+          "title": "Exkluzív előnyök",
+          "description": "Az Exercism Perks részeként exkluzív kedvezményeket és ajánlatokat kapsz partnereinktől. Olcsóbb termékek, szolgáltatások, könyvek és még sok más, mindezt az Insiders révén."
+        },
+        "keep_exercism_alive": {
+          "title": "Tartsd életben az Exercism-öt",
+          "description": "Végül, de nem utolsósorban te segítesz életben tartani az Exercism-öt! A támogatásod nélkül nem tudjuk fizetni a szervereinket és a csapatunkat. Köszönjük, hogy visszaadsz és támogatod az ingyenes oktatást 💙"
+        }
+      }
     },
     "payment_pending": {
       "insiders_title": "Exercism Insiders",

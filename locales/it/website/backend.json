@@ -3703,6 +3703,56 @@
       "faq_reputation": {
         "question": "Come guadagno reputazione?",
         "answer_html": "La reputazione si guadagna facendo mentoring o contribuendo a Exercism. Puoi anche guadagnare reputazione pubblicando le tue soluzioni, ma questa non conta per l'accesso a Insiders. Puoi controllare quali azioni danno quanta reputazione consultando <a href=\"%{docs_link}\">la nostra documentazione</a>. Dai un'occhiata alla tua <a href=\"%{journey_link}\">pagina del tuo viaggio</a> per vedere dove stai guadagnando reputazione."
+      },
+      "features": {
+        "dark_mode": {
+          "title": "Modalità scura",
+          "description": "La funzionalità più richiesta è disponibile in esclusiva per gli Insiders. Il nostro tema scuro, elegante e curato, migliora l'esperienza su Exercism e dà un po' di sollievo ai tuoi occhi quando programmi fino a tarda notte."
+        },
+        "favorites": {
+          "title": "Preferiti",
+          "description": "Hai visto una soluzione che ti ispira o ti incuriosisce? Salvala nei \"Preferiti\" e torna a studiarla più tardi! Insiders sblocca preferiti illimitati e opzioni di filtro."
+        },
+        "ad_free": {
+          "title": "Esperienza senza pubblicità",
+          "description": "Non ti piacciono gli annunci pubblicitari? Preferisci un ambiente di apprendimento ancora più tranquillo? Con Insiders puoi disattivare tutti gli annunci sulla piattaforma e avere un'esperienza di apprendimento del tutto ininterrotta!"
+        },
+        "github_sync": {
+          "title": "Opzioni di sincronizzazione con GitHub",
+          "description": "Vuoi saltare le pull request? Vuoi cambiare i messaggi di commit? Vuoi configurare i tuoi percorsi dei file? Insiders sblocca opzioni di personalizzazione avanzate per la sincronizzazione con GitHub. Configurala come preferisci!"
+        },
+        "name_tag_flair": {
+          "title": "Distintivo accanto al nome",
+          "description": "Metti in mostra il tuo status di Insider con il nostro logo Insiders accanto al tuo nome sul sito, su Discord e sui nostri forum. Fai sapere a tutti che ci stai sostenendo!"
+        },
+        "behind_the_scenes": {
+          "title": "Contenuti dietro le quinte",
+          "description": "Resta aggiornato su quello che stiamo pianificando e costruendo con le livestream private per gli Insiders (rivedibili on demand) e con approfondimenti tecnici sullo stack di Exercism. Guarda qui sotto per saperne di più!"
+        },
+        "private_discord": {
+          "title": "Canale Discord privato",
+          "description": "Passa del tempo con il nostro staff e con gli altri Insiders nel nostro canale Discord privato. Scopri in anteprima a cosa stiamo lavorando e scambia idee con noi in tempo reale."
+        },
+        "ai_assistant": {
+          "title": "Assistente AI",
+          "description": "Il nostro assistente AI ti aiuta a sbloccarti direttamente nell'editor online, con conversazioni illimitate su ogni esercizio. Ti guida verso la risposta invece di rivelartela."
+        },
+        "extra_mentoring_slots": {
+          "title": "Slot di mentoring aggiuntivi",
+          "description": "Sblocca più slot di mentoring simultanei per ogni traccia, senza dover guadagnare reputazione, e porta avanti una traccia più velocemente grazie al supporto dei nostri mentori."
+        },
+        "exclusive_badges": {
+          "title": "Badge esclusivi",
+          "description": "Ricevi subito il raro badge Insiders per il tuo profilo. Poi sblocca altri badge esclusivi mentre usi Exercism: sono disponibili solo per gli Insiders."
+        },
+        "exclusive_perks": {
+          "title": "Vantaggi esclusivi",
+          "description": "Ricevi sconti e offerte esclusivi dai nostri partner nell'ambito di Exercism Perks. Ottieni prodotti, servizi, libri e molto altro a prezzi più bassi, tutto tramite Insiders."
+        },
+        "keep_exercism_alive": {
+          "title": "Aiuta Exercism a restare in vita",
+          "description": "Ultimo punto, ma non per importanza: aiuti a tenere in vita Exercism! Senza il tuo sostegno non possiamo pagare i nostri server né il nostro staff. Grazie per ricambiare e per sostenere l'istruzione gratuita 💙"
+        }
       }
     },
     "join": {

@@ -2025,6 +2025,56 @@
       "faq_reputation": {
         "question": "¿Cómo gano reputación?",
         "answer_html": "La reputación se gana haciendo mentoría o contribuyendo a Exercism. También puedes ganar reputación publicando tus soluciones, pero eso no cuenta para el acceso a Insiders. Puedes consultar qué acciones otorgan cuánta reputación en <a href=\"%{docs_link}\">nuestra documentación</a>. Revisa tu <a href=\"%{journey_link}\">página de trayectoria</a> para ver dónde estás ganando reputación."
+      },
+      "features": {
+        "dark_mode": {
+          "title": "Modo oscuro",
+          "description": "Nuestra funcionalidad más solicitada está disponible en exclusiva para Insiders. Nuestro elegante tema oscuro mejora la experiencia de Exercism y le da un respiro a tus ojos cuando programas de noche."
+        },
+        "favorites": {
+          "title": "Favoritos",
+          "description": "¿Ves una solución que te inspira o te intriga? ¡Guárdala en tus Favoritos y vuelve después a aprender de ella! Insiders desbloquea favoritos ilimitados y opciones de filtrado."
+        },
+        "ad_free": {
+          "title": "Experiencia sin anuncios",
+          "description": "¿No te gustan los anuncios? ¿Prefieres un entorno educativo aún más tranquilo? ¡Con Insiders puedes desactivar todos los anuncios de la plataforma para tener una experiencia de aprendizaje totalmente ininterrumpida!"
+        },
+        "github_sync": {
+          "title": "Opciones de sincronización con GitHub",
+          "description": "¿Quieres omitir los pull requests? ¿Quieres cambiar los mensajes de commit? ¿Quieres configurar tus propias rutas de archivos? Insiders desbloquea opciones de personalización avanzadas para GitHub Sync. ¡Configúralo a tu medida!"
+        },
+        "name_tag_flair": {
+          "title": "Distintivo junto a tu nombre",
+          "description": "Presume tu estatus de Insiders con nuestro logo de Insiders junto a tu nombre en todo el sitio, en Discord y en nuestros foros. ¡Deja que todos sepan que nos apoyas!"
+        },
+        "behind_the_scenes": {
+          "title": "Contenido detrás de cámaras",
+          "description": "Mantente al día con lo que estamos planeando y construyendo: transmisiones en vivo privadas para Insiders (que puedes volver a ver cuando quieras) y análisis técnicos a fondo del stack de Exercism. ¡Mira más abajo para saber más!"
+        },
+        "private_discord": {
+          "title": "Canal privado de Discord",
+          "description": "Convive con nuestro equipo y con otros Insiders en nuestro canal privado de Discord. Entérate de primera mano de lo que estamos trabajando y comparte ideas con nosotros en tiempo real."
+        },
+        "ai_assistant": {
+          "title": "Asistente de IA",
+          "description": "Nuestro asistente de IA te ayuda a superar bloqueos directamente en nuestro editor en línea, con conversaciones ilimitadas en cada ejercicio. Te guía hacia la respuesta en lugar de dártela."
+        },
+        "extra_mentoring_slots": {
+          "title": "Espacios de mentoría adicionales",
+          "description": "Desbloquea más espacios de mentoría simultáneos por track sin necesidad de ganar reputación, y avanza más rápido por un track con el apoyo de nuestros mentores."
+        },
+        "exclusive_badges": {
+          "title": "Insignias exclusivas",
+          "description": "Recibe de inmediato la rara insignia de Insiders para tu perfil. Después desbloquea insignias exclusivas adicionales mientras usas Exercism, disponibles solo para Insiders."
+        },
+        "exclusive_perks": {
+          "title": "Beneficios exclusivos",
+          "description": "Recibe descuentos y ofertas exclusivas de nuestros socios como parte de Exercism Perks. Consigue productos, servicios, libros y más a mejor precio, todo a través de Insiders."
+        },
+        "keep_exercism_alive": {
+          "title": "Mantén Exercism con vida",
+          "description": "Por último, pero no por eso menos importante, ¡tú ayudas a mantener Exercism con vida! Sin tu apoyo, no podemos pagar nuestros servidores ni a nuestro equipo. Gracias por retribuir y apoyar la educación gratuita 💙"
+        }
       }
     },
     "join": {

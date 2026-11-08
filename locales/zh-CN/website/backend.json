@@ -3562,6 +3562,56 @@
       "faq_reputation": {
         "question": "我如何获得声誉？",
         "answer_html": "声誉通过指导或为 Exercism 做贡献来获得。你也可以通过发布自己的解答来获得声誉，但这不计入 Insiders 权限。你可以查阅<a href=\"%{docs_link}\">我们的文档</a>，了解哪些操作会带来多少声誉。查看你的<a href=\"%{journey_link}\">历程页面</a>，看看你的声誉来自哪里。"
+      },
+      "features": {
+        "dark_mode": {
+          "title": "深色模式",
+          "description": "这是我们呼声最高的功能，专供 Insiders 使用。丝滑的深色主题让 Exercism 的体验更上一层楼，也能在你熬夜写代码时让眼睛更轻松。"
+        },
+        "favorites": {
+          "title": "收藏",
+          "description": "看到让你深受启发或眼前一亮的解答？把它存进收藏，之后再回来向它学习！Insiders 解锁无限收藏和筛选选项。"
+        },
+        "ad_free": {
+          "title": "无广告体验",
+          "description": "不喜欢广告？想要更安静的学习环境？Insiders 可以关闭全平台的广告，享受完全不被打断的学习体验！"
+        },
+        "github_sync": {
+          "title": "GitHub Sync 选项",
+          "description": "想跳过 pull request？想修改 commit message？想自定义文件路径？Insiders 为 GitHub Sync 解锁高级自定义选项，让它完全符合你的习惯！"
+        },
+        "name_tag_flair": {
+          "title": "名牌装饰",
+          "description": "在网站各处、Discord 和论坛上，让你的名字旁边显示 Insiders 标志，展示你的 Insiders 身份。让所有人都知道你正在支持我们！"
+        },
+        "behind_the_scenes": {
+          "title": "幕后内容",
+          "description": "通过 Insiders 专属直播（可随时回看）和 Exercism 技术栈的深度技术解析，随时了解我们正在计划什么、开发什么。更多内容见下方！"
+        },
+        "private_discord": {
+          "title": "私密 Discord 频道",
+          "description": "在我们的私密 Discord 频道里，和团队成员以及其他 Insiders 一起交流。第一时间了解我们正在做什么，并实时和我们碰撞想法。"
+        },
+        "ai_assistant": {
+          "title": "AI 助手",
+          "description": "我们的 AI 助手可以在在线编辑器中直接帮你摆脱困境，每道练习都有无限次对话。它会引导你自己找到答案，而不是直接告诉你。"
+        },
+        "extra_mentoring_slots": {
+          "title": "更多导师指导名额",
+          "description": "无需积攒声望，即可为每个学习路径解锁更多可同时进行的导师指导名额，借助导师的支持更快地完成一个学习路径。"
+        },
+        "exclusive_badges": {
+          "title": "专属徽章",
+          "description": "立即为你的个人主页获得稀有的 Insiders 徽章。之后在使用 Exercism 的过程中，还能解锁更多专属徽章，这些徽章只对 Insiders 开放。"
+        },
+        "exclusive_perks": {
+          "title": "专属福利",
+          "description": "作为 Exercism Perks 的一部分，获得合作伙伴提供的专属折扣和优惠。通过 Insiders，享受更便宜的产品、服务和书籍等等。"
+        },
+        "keep_exercism_alive": {
+          "title": "让 Exercism 继续前行",
+          "description": "最后同样重要的是，你帮助 Exercism 活下去！没有你的支持，我们就无法支付服务器和员工的费用。感谢你回馈并支持免费教育 💙"
+        }
       }
     },
     "join": {

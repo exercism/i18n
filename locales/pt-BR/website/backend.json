@@ -3475,6 +3475,56 @@
       "faq_reputation": {
         "question": "Como eu ganho reputação?",
         "answer_html": "A reputação é conquistada mentorando ou contribuindo com o Exercism. Você também pode ganhar reputação publicando suas soluções, mas isso não conta para o acesso ao Insiders. Você pode conferir quais ações geram quanta reputação consultando <a href=\"%{docs_link}\">nossa documentação</a>. Confira sua <a href=\"%{journey_link}\">página de jornada</a> para ver onde você está ganhando reputação."
+      },
+      "features": {
+        "dark_mode": {
+          "title": "Modo escuro",
+          "description": "Nosso recurso mais pedido está disponível exclusivamente para Insiders. Nosso tema escuro elegante eleva a experiência do Exercism e deixa seus olhos mais descansados enquanto você programa madrugada adentro."
+        },
+        "favorites": {
+          "title": "Favoritos",
+          "description": "Viu uma solução que inspira ou intriga você? Salve nos seus Favoritos e volte depois para aprender com ela! O Insiders libera favoritos ilimitados e opções de filtro."
+        },
+        "ad_free": {
+          "title": "Experiência sem anúncios",
+          "description": "Não gosta de anúncios? Prefere um ambiente de aprendizado ainda mais tranquilo? Com o Insiders, você pode desativar todos os anúncios da plataforma e ter uma experiência de aprendizado totalmente sem interrupções!"
+        },
+        "github_sync": {
+          "title": "Opções de sincronização com o GitHub",
+          "description": "Quer pular os pull requests? Quer alterar as mensagens de commit? Quer configurar seus próprios caminhos de arquivo? O Insiders libera opções avançadas de personalização para a sincronização com o GitHub. Deixe do seu jeito!"
+        },
+        "name_tag_flair": {
+          "title": "Flair na etiqueta de nome",
+          "description": "Mostre seu status de Insiders com o logo do Insiders ao lado do seu nome pelo site, no Discord e nos nossos fóruns. Deixe todo mundo saber que você apoia o projeto!"
+        },
+        "behind_the_scenes": {
+          "title": "Conteúdo dos bastidores",
+          "description": "Fique por dentro do que estamos planejando e construindo com lives privadas para Insiders (para reassistir quando quiser) e mergulhos técnicos aprofundados na stack do Exercism. Veja mais logo abaixo!"
+        },
+        "private_discord": {
+          "title": "Canal privado no Discord",
+          "description": "Converse com nossa equipe e com outros Insiders no nosso canal privado no Discord. Fique por dentro do que estamos trabalhando e troque ideias com a gente em tempo real."
+        },
+        "ai_assistant": {
+          "title": "Assistente de IA",
+          "description": "Nosso assistente de IA ajuda você a sair do impasse direto no nosso editor online, com conversas ilimitadas em todos os exercícios. Ele guia você até a resposta em vez de entregá-la."
+        },
+        "extra_mentoring_slots": {
+          "title": "Vagas extras de mentoria",
+          "description": "Libere mais vagas de mentoria simultâneas por trilha sem precisar ganhar reputação, e avance mais rápido em uma trilha com o apoio dos nossos mentores."
+        },
+        "exclusive_badges": {
+          "title": "Selos exclusivos",
+          "description": "Receba na hora o selo raro de Insiders no seu perfil. E desbloqueie selos exclusivos extras conforme você usa o Exercism. Eles estão disponíveis só para Insiders."
+        },
+        "exclusive_perks": {
+          "title": "Vantagens exclusivas",
+          "description": "Receba descontos e ofertas exclusivas dos nossos parceiros como parte do Exercism Perks. Produtos, serviços, livros e muito mais com preço menor, tudo pelo Insiders."
+        },
+        "keep_exercism_alive": {
+          "title": "Mantenha o Exercism vivo",
+          "description": "Por último, mas não menos importante, você ajuda a manter o Exercism vivo! Sem o seu apoio, não conseguimos pagar nossos servidores nem nossa equipe. Obrigado por retribuir e apoiar a educação gratuita 💙"
+        }
       }
     },
     "join": {
