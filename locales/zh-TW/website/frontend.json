@@ -2336,12 +2336,12 @@
     "handle.someone": "某個人",
     "userAvatar.userAvatar": "{{handle}} 的頭像",
     "pullRequestLink.pullRequest": "提取要求",
-    "sentence.publish_solution_metric": "<0/>發布了<1/>，適用於<3/>",
+    "sentence.publish_solution_metric": "<0/>發布了<1/>，適用於<3/>。",
     "sentence.open_pull_request_metric": "<0/>開啟了<2/>",
     "sentence.merge_pull_request_metric": "<0/>合併了<2/>",
-    "sentence.complete_solution_metric": "<0/>完成了<3/>",
-    "sentence.start_solution_metric": "<0/>開始了<3/>",
-    "sentence.submit_submission_metric": "<0/>嘗試了<3/>"
+    "sentence.complete_solution_metric": "<0/>完成了<3/>。",
+    "sentence.start_solution_metric": "<0/>開始了<3/>。",
+    "sentence.submit_submission_metric": "<0/>嘗試了<3/>。"
   },
   "components/track/dig-deeper-components": {
     "deepDiveVideo.deepDiveInto": "深入探索 {{exerciseTitle}}！",

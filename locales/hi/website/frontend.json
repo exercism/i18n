@@ -2202,12 +2202,12 @@
     "handle.someone": "कोई",
     "userAvatar.userAvatar": "{{handle}} का अवतार",
     "pullRequestLink.pullRequest": "पुल रिक्वेस्ट",
-    "sentence.publish_solution_metric": "<0/> ने <3/> के लिए एक <1/> प्रकाशित किया",
+    "sentence.publish_solution_metric": "<0/> ने <3/> के लिए एक <1/> प्रकाशित किया।",
     "sentence.open_pull_request_metric": "<0/> ने एक <2/> खोला",
     "sentence.merge_pull_request_metric": "<0/> ने एक <2/> मर्ज किया",
-    "sentence.complete_solution_metric": "<0/> ने <3/> पूरा किया",
-    "sentence.start_solution_metric": "<0/> ने <3/> शुरू किया",
-    "sentence.submit_submission_metric": "<0/> ने <3/> को हल करने की कोशिश की"
+    "sentence.complete_solution_metric": "<0/> ने <3/> पूरा किया।",
+    "sentence.start_solution_metric": "<0/> ने <3/> शुरू किया।",
+    "sentence.submit_submission_metric": "<0/> ने <3/> को हल करने की कोशिश की।"
   },
   "components/track/dig-deeper-components": {
     "deepDiveVideo.deepDiveInto": "{{exerciseTitle}} में गहराई से उतरिए!",

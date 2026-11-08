@@ -368,12 +368,12 @@
     "handle.someone": "شخص ما",
     "userAvatar.userAvatar": "صورة {{handle}} الرمزية",
     "pullRequestLink.pullRequest": "طلب سحب",
-    "sentence.publish_solution_metric": "<0/> نشر <1/> لـ <3/>",
+    "sentence.publish_solution_metric": "<0/> نشر <1/> لـ <3/>.",
     "sentence.open_pull_request_metric": "<0/> فتح <2/>",
     "sentence.merge_pull_request_metric": "<0/> دمج <2/>",
-    "sentence.complete_solution_metric": "<0/> أكمل <3/>",
-    "sentence.start_solution_metric": "<0/> بدأ <3/>",
-    "sentence.submit_submission_metric": "<0/> حاول <3/>"
+    "sentence.complete_solution_metric": "<0/> أكمل <3/>.",
+    "sentence.start_solution_metric": "<0/> بدأ <3/>.",
+    "sentence.submit_submission_metric": "<0/> حاول <3/>."
   },
   "components/track/dig-deeper-components": {
     "deepDiveVideo.deepDiveInto": "تعمّق في {{exerciseTitle}}!",

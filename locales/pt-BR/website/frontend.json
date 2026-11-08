@@ -1911,12 +1911,12 @@
     "handle.someone": "Alguém",
     "userAvatar.userAvatar": "Avatar de {{handle}}",
     "pullRequestLink.pullRequest": "Pull Request",
-    "sentence.publish_solution_metric": "<0/> publicou uma <1/> para <3/>",
+    "sentence.publish_solution_metric": "<0/> publicou uma <1/> para <3/>.",
     "sentence.open_pull_request_metric": "<0/> abriu um <2/>",
     "sentence.merge_pull_request_metric": "<0/> fez merge de um <2/>",
-    "sentence.complete_solution_metric": "<0/> concluiu <3/>",
-    "sentence.start_solution_metric": "<0/> começou <3/>",
-    "sentence.submit_submission_metric": "<0/> tentou <3/>"
+    "sentence.complete_solution_metric": "<0/> concluiu <3/>.",
+    "sentence.start_solution_metric": "<0/> começou <3/>.",
+    "sentence.submit_submission_metric": "<0/> tentou <3/>."
   },
   "components/track/dig-deeper-components": {
     "deepDiveVideo.deepDiveInto": "Mergulho profundo em {{exerciseTitle}}!",

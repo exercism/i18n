@@ -2578,12 +2578,12 @@
     "handle.someone": "Qualcuno",
     "userAvatar.userAvatar": "Avatar di {{handle}}",
     "pullRequestLink.pullRequest": "Pull Request",
-    "sentence.publish_solution_metric": "<0/> ha pubblicato una <1/> per <3/>",
+    "sentence.publish_solution_metric": "<0/> ha pubblicato una <1/> per <3/>.",
     "sentence.open_pull_request_metric": "<0/> ha aperto una <2/>",
     "sentence.merge_pull_request_metric": "<0/> ha unito una <2/>",
-    "sentence.complete_solution_metric": "<0/> ha completato <3/>",
-    "sentence.start_solution_metric": "<0/> ha iniziato <3/>",
-    "sentence.submit_submission_metric": "<0/> ha provato <3/>"
+    "sentence.complete_solution_metric": "<0/> ha completato <3/>.",
+    "sentence.start_solution_metric": "<0/> ha iniziato <3/>.",
+    "sentence.submit_submission_metric": "<0/> ha provato <3/>."
   },
   "components/track/dig-deeper-components": {
     "deepDiveVideo.deepDiveInto": "Deep Dive su {{exerciseTitle}}!",

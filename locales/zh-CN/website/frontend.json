@@ -1172,12 +1172,12 @@
     "handle.someone": "某人",
     "userAvatar.userAvatar": "{{handle}} 的头像",
     "pullRequestLink.pullRequest": "拉取请求",
-    "sentence.publish_solution_metric": "<0/> 发布了 <1/>，用于 <3/>",
+    "sentence.publish_solution_metric": "<0/> 发布了 <1/>，用于 <3/>。",
     "sentence.open_pull_request_metric": "<0/> 发起了 <2/>",
     "sentence.merge_pull_request_metric": "<0/> 合并了 <2/>",
-    "sentence.complete_solution_metric": "<0/> 完成了 <3/>",
-    "sentence.start_solution_metric": "<0/> 开始了 <3/>",
-    "sentence.submit_submission_metric": "<0/> 尝试了 <3/>"
+    "sentence.complete_solution_metric": "<0/> 完成了 <3/>。",
+    "sentence.start_solution_metric": "<0/> 开始了 <3/>。",
+    "sentence.submit_submission_metric": "<0/> 尝试了 <3/>。"
   },
   "components/track/dig-deeper-components": {
     "deepDiveVideo.deepDiveInto": "深入探索{{exerciseTitle}}！",

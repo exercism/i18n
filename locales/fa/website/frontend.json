@@ -2266,12 +2266,12 @@
     "handle.someone": "یک نفر",
     "userAvatar.userAvatar": "آواتار {{handle}}",
     "pullRequestLink.pullRequest": "درخواست ادغام",
-    "sentence.publish_solution_metric": "<0/> یک <1/> برای <3/> منتشر کرد",
+    "sentence.publish_solution_metric": "<0/> یک <1/> برای <3/> منتشر کرد.",
     "sentence.open_pull_request_metric": "<0/> یک <2/> باز کرد",
     "sentence.merge_pull_request_metric": "<0/> یک <2/> ادغام کرد",
-    "sentence.complete_solution_metric": "<0/> <3/> را تکمیل کرد",
-    "sentence.start_solution_metric": "<0/> <3/> را شروع کرد",
-    "sentence.submit_submission_metric": "<0/> <3/> را امتحان کرد"
+    "sentence.complete_solution_metric": "<0/> <3/> را تکمیل کرد.",
+    "sentence.start_solution_metric": "<0/> <3/> را شروع کرد.",
+    "sentence.submit_submission_metric": "<0/> <3/> را امتحان کرد."
   },
   "components/track/dig-deeper-components": {
     "deepDiveVideo.deepDiveInto": "بررسی عمیق {{exerciseTitle}}!",
