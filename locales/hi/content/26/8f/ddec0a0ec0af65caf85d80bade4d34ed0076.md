@@ -1,0 +1,141 @@
+# परिचय
+
+Kotlin में क्लास का उपयोग डेटा और व्यवहार को एनकैप्सुलेट करने के लिए किया जा सकता है।
+क्लास को `class` कीवर्ड से घोषित किया जाता है।
+उदाहरण के लिए:
+
+```kotlin
+class Car
+```
+
+क्लास को कॉल करके उसका एक इंस्टेंस बनाइए।
+
+```kotlin
+val instance = Car()
+```
+
+## प्रॉपर्टी
+
+ऊपर के उदाहरणों में `Car` क्लास को बिना किसी प्रॉपर्टी के घोषित किया गया था।
+क्लास की प्रॉपर्टी को क्लास बॉडी में `{}` के बीच घोषित किया जा सकता है। जो प्रॉपर्टी बदली जा सकती हैं उनके लिए `var` और जो नहीं बदली जा सकतीं उनके लिए `val` का उपयोग कीजिए।
+उदाहरण के लिए:
+
+```kotlin
+class Car {
+    // color is mutable
+    var color = "red"
+
+    // year is immutable
+    val year = 2025
+}
+```
+
+दूसरे तरीके से, प्रॉपर्टी को ऐसे कंस्ट्रक्टर में परिभाषित किया जा सकता है जो उन्हें लेता है।
+
+## कंस्ट्रक्टर
+
+Kotlin में दो तरह के कंस्ट्रक्टर होते हैं: [प्राइमरी कंस्ट्रक्टर][primary-constructors] और [सेकेंडरी कंस्ट्रक्टर][secondary-constructors]।
+प्राइमरी कंस्ट्रक्टर क्लास की घोषणा वाली उसी लाइन पर घोषित किया जाता है।
+उदाहरण के लिए:
+
+```kotlin
+class Car constructor(var color : String = "red", val year : Int = 2025) {
+    // ...
+}
+```
+
+अगर कोई एनोटेशन और विज़िबिलिटी मॉडिफायर नहीं हैं, तो `constructor` कीवर्ड छोड़ा जा सकता है:
+
+```kotlin
+class Car(var color : String = "red", val year : Int = 2025) {
+    // ...
+}
+```
+
+~~~~exercism/note
+Kotlin में अगर क्लास में सिर्फ प्रॉपर्टी हों, तो क्लास को बिना बॉडी के परिभाषित किया जा सकता है। कर्ली ब्रैकेट `{}` की ज़रूरत नहीं है:
+
+```kotlin
+class Car (var color : String = "red", val year : Int = 2025)
+```
+~~~~
+
+एक क्लास में सिर्फ एक ही प्राइमरी कंस्ट्रक्टर हो सकता है।
+सेकेंडरी कंस्ट्रक्टर अतिरिक्त कंस्ट्रक्टर होते हैं, जिन्हें क्लास बॉडी में `constructor` कीवर्ड के साथ घोषित करके जोड़ा जा सकता है।
+उदाहरण के लिए:
+
+```kotlin
+class Car constructor(var color : String = "red", val year : Int = 2025) {
+
+    // This constructor allows the year to be provided as a String
+    constructor(color : String = "red", yearText : String) : this(color, yearText.toIntOrNull() ?: 0)
+}
+```
+
+सेकेंडरी कंस्ट्रक्टर को प्राइमरी कंस्ट्रक्टर को कॉल करना ज़रूरी होता है, और यह `this` को कॉल करके किया जाता है।
+
+## इनिशियलाइज़र ब्लॉक
+
+प्राइमरी कंस्ट्रक्टर क्लास की प्रॉपर्टी को सेट करता है।
+अगर ऑब्जेक्ट बनाते समय और कुछ करना हो, तो अतिरिक्त काम करने के लिए `init` ब्लॉक का उपयोग किया जा सकता है।
+
+```kotlin
+class Car constructor(var color: String = "red", val year : Int = 2025) {
+    init {
+        println("Car is ${color}, made in ${year}")
+    }
+}
+```
+
+## फंक्शन
+
+क्लास बॉडी में फंक्शन बनाए जा सकते हैं।
+उदाहरण के लिए:
+
+```kotlin
+class Car (var color : String = "red", val year : Int = 2025) {
+    fun repaint(newColor : String) {
+        color = newColor
+    }
+}
+```
+
+## विज़िबिलिटी
+
+प्रॉपर्टी और फंक्शन `private`, `public`, `internal` या `protected` हो सकते हैं।
+
+- `private` को सिर्फ क्लास के अंदर से एक्सेस किया जा सकता है
+- `protected` को क्लास के अंदर की चीज़ें और सभी सबक्लास एक्सेस कर सकते हैं
+- `internal` को उसी [मॉड्यूल][kotlin-modules] के अंदर की चीज़ें एक्सेस कर सकती हैं
+- `public` को क्लास का उपयोग करने वाले दूसरे कंपोनेंट एक्सेस कर सकते हैं
+
+उदाहरण के लिए:
+
+```kotlin
+class Car {
+    private val color: String
+    public val year: Int
+    internal val model: String
+    protected val brand: String
+
+    private fun drive() {
+        // ...
+    }
+
+    internal fun start() {
+        // ...
+    }
+
+    protected fun stop() {
+        // ...
+    }
+
+    public fun make() {
+        // ...
+    }
+}
+```
+
+[kotlin-modules]: https://kotlinlang.org/spec/packages-and-imports.html#modules
+[primary-constructors]: https://kotlinlang.org/docs/classes.html#primary-constructor
+[secondary-constructors]: https://kotlinlang.org/docs/classes.html#secondary-constructors

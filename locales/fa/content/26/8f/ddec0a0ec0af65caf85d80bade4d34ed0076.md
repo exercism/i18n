@@ -1,0 +1,141 @@
+# درباره
+
+از کلاس‌ها در Kotlin می‌توان برای کپسوله‌سازی داده و رفتار استفاده کرد.
+یک کلاس با کلیدواژه‌ی `class` تعریف می‌شود.
+برای مثال:
+
+```kotlin
+class Car
+```
+
+با فراخوانی کلاس، یک «نمونه» از آن بسازید.
+
+```kotlin
+val instance = Car()
+```
+
+## ویژگی‌ها
+
+در مثال‌های بالا، کلاس `Car` بدون هیچ ویژگی‌ای تعریف شد.
+ویژگی‌های کلاس را می‌توان در بدنه‌ی آن، بین `{}`، تعریف کرد؛ برای ویژگی‌های تغییرپذیر از `var` و برای ویژگی‌های تغییرناپذیر از `val` استفاده کنید.
+برای مثال:
+
+```kotlin
+class Car {
+    // color is mutable
+    var color = "red"
+
+    // year is immutable
+    val year = 2025
+}
+```
+
+همچنین می‌توان ویژگی‌ها را در سازنده‌ای تعریف کرد که آن‌ها را به عنوان پارامتر می‌گیرد.
+
+## سازنده‌ها
+
+Kotlin دو نوع سازنده دارد: سازنده‌ی [اولیه][primary-constructors] و [سازنده‌های ثانویه][secondary-constructors].
+سازنده‌ی اولیه در همان خط اعلان کلاس تعریف می‌شود.
+برای مثال:
+
+```kotlin
+class Car constructor(var color : String = "red", val year : Int = 2025) {
+    // ...
+}
+```
+
+اگر هیچ حاشیه‌نویسی و تعدیل‌کننده‌ی دسترسی‌ای وجود نداشته باشد، می‌توان کلیدواژه‌ی `constructor` را حذف کرد:
+
+```kotlin
+class Car(var color : String = "red", val year : Int = 2025) {
+    // ...
+}
+```
+
+~~~~exercism/note
+Kotlin اجازه می‌دهد اگر کلاس فقط شامل ویژگی باشد، بدون بدنه تعریف شود؛ نیازی به آکولاد `{}` نیست:
+
+```kotlin
+class Car (var color : String = "red", val year : Int = 2025)
+```
+~~~~
+
+هر کلاس فقط می‌تواند یک سازنده‌ی اولیه داشته باشد.
+سازنده‌های ثانویه سازنده‌های بیشتری هستند که با تعریف آن‌ها در بدنه‌ی کلاس به کمک کلیدواژه‌ی `constructor` اضافه می‌شوند.
+برای مثال:
+
+```kotlin
+class Car constructor(var color : String = "red", val year : Int = 2025) {
+
+    // This constructor allows the year to be provided as a String
+    constructor(color : String = "red", yearText : String) : this(color, yearText.toIntOrNull() ?: 0)
+}
+```
+
+سازنده‌های ثانویه باید با فراخوانی `this`، سازنده‌ی اولیه را فراخوانی کنند.
+
+## بلوک‌های مقداردهی اولیه
+
+سازنده‌ی اولیه ویژگی‌های کلاس را مقداردهی می‌کند.
+اگر هنگام ساخت شیء کارهای بیشتری لازم باشد، می‌توان از بلوک‌های `init` برای انجام کارهای اضافی استفاده کرد.
+
+```kotlin
+class Car constructor(var color: String = "red", val year : Int = 2025) {
+    init {
+        println("Car is ${color}, made in ${year}")
+    }
+}
+```
+
+## توابع
+
+توابع را می‌توان در بدنه‌ی کلاس تعریف کرد.
+برای مثال:
+
+```kotlin
+class Car (var color : String = "red", val year : Int = 2025) {
+    fun repaint(newColor : String) {
+        color = newColor
+    }
+}
+```
+
+## سطح دسترسی
+
+ویژگی‌ها و توابع می‌توانند `private`، `public`، `internal` یا `protected` باشند.
+
+- به `private` فقط درون کلاس می‌توان دسترسی داشت
+- به `protected` هم موارد درون کلاس و هم زیرکلاس‌ها می‌توانند دسترسی داشته باشند
+- به `internal` موارد درون همان [ماژول][kotlin-modules] می‌توانند دسترسی داشته باشند
+- به `public` دیگر اجزایی که از کلاس استفاده می‌کنند می‌توانند دسترسی داشته باشند
+
+برای مثال:
+
+```kotlin
+class Car {
+    private val color: String
+    public val year: Int
+    internal val model: String
+    protected val brand: String
+
+    private fun drive() {
+        // ...
+    }
+
+    internal fun start() {
+        // ...
+    }
+
+    protected fun stop() {
+        // ...
+    }
+
+    public fun make() {
+        // ...
+    }
+}
+```
+
+[kotlin-modules]: https://kotlinlang.org/spec/packages-and-imports.html#modules
+[primary-constructors]: https://kotlinlang.org/docs/classes.html#primary-constructor
+[secondary-constructors]: https://kotlinlang.org/docs/classes.html#secondary-constructors

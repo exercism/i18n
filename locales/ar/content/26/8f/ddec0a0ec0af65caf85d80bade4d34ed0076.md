@@ -1,0 +1,141 @@
+# نبذة
+
+يمكن استخدام الأصناف في Kotlin لتغليف البيانات والسلوك.
+يُعرَّف الصنف باستخدام الكلمة المفتاحية `class`.
+على سبيل المثال:
+
+```kotlin
+class Car
+```
+
+أنشئ نسخة من الصنف عن طريق استدعائه.
+
+```kotlin
+val instance = Car()
+```
+
+## الخصائص
+
+في الأمثلة أعلاه، عُرِّف الصنف `Car` دون أي خصائص.
+يمكن تعريف خصائص الصنف في جسمه، بين الأقواس المعقوفة `{}`، باستخدام `var` للخصائص القابلة للتغيير و`val` للخصائص غير القابلة للتغيير.
+على سبيل المثال:
+
+```kotlin
+class Car {
+    // color is mutable
+    var color = "red"
+
+    // year is immutable
+    val year = 2025
+}
+```
+
+بدلًا من ذلك، يمكن تعريف الخصائص في مُنشئ يستقبلها.
+
+## المنشئات
+
+يحتوي Kotlin على نوعين من المنشئات: [المنشئات الأساسية][primary-constructors] و[المنشئات الثانوية][secondary-constructors].
+يُعرَّف المنشئ الأساسي في السطر نفسه الذي يُعرَّف فيه الصنف.
+على سبيل المثال:
+
+```kotlin
+class Car constructor(var color : String = "red", val year : Int = 2025) {
+    // ...
+}
+```
+
+يمكن حذف الكلمة المفتاحية `constructor` إذا لم توجد تعليقات توضيحية ولا محدِّدات رؤية:
+
+```kotlin
+class Car(var color : String = "red", val year : Int = 2025) {
+    // ...
+}
+```
+
+~~~~exercism/note
+يسمح Kotlin بتعريف الصنف دون جسم إذا كان يحتوي على خصائص فقط، فلا حاجة إلى الأقواس المعقوفة `{}`:
+
+```kotlin
+class Car (var color : String = "red", val year : Int = 2025)
+```
+~~~~
+
+يمكن أن يمتلك الصنف منشئًا أساسيًا واحدًا فقط.
+المنشئات الثانوية هي منشئات إضافية تُضاف بتعريفها في جسم الصنف باستخدام الكلمة المفتاحية `constructor`.
+على سبيل المثال:
+
+```kotlin
+class Car constructor(var color : String = "red", val year : Int = 2025) {
+
+    // This constructor allows the year to be provided as a String
+    constructor(color : String = "red", yearText : String) : this(color, yearText.toIntOrNull() ?: 0)
+}
+```
+
+يجب أن تستدعي المنشئات الثانوية المنشئ الأساسي عن طريق استدعاء `this`.
+
+## كتل التهيئة
+
+يضبط المنشئ الأساسي خصائص الصنف.
+إذا احتجت إلى تنفيذ خطوات إضافية أثناء إنشاء الكائن، فيمكنك استخدام كتل `init` لتنفيذ إجراءات إضافية.
+
+```kotlin
+class Car constructor(var color: String = "red", val year : Int = 2025) {
+    init {
+        println("Car is ${color}, made in ${year}")
+    }
+}
+```
+
+## الدوال
+
+يمكن تعريف الدوال في جسم الصنف.
+على سبيل المثال:
+
+```kotlin
+class Car (var color : String = "red", val year : Int = 2025) {
+    fun repaint(newColor : String) {
+        color = newColor
+    }
+}
+```
+
+## الرؤية
+
+يمكن أن تكون الخصائص والدوال `private` أو `public` أو `internal` أو `protected`.
+
+- لا يمكن الوصول إلى `private` إلا من داخل الصنف
+- يمكن الوصول إلى `protected` من داخل الصنف، وكذلك من أي صنف فرعي
+- يمكن الوصول إلى `internal` من داخل [الوحدة][kotlin-modules] نفسها
+- يمكن لأي مكوّن آخر يستخدم الصنف الوصول إلى `public`
+
+على سبيل المثال:
+
+```kotlin
+class Car {
+    private val color: String
+    public val year: Int
+    internal val model: String
+    protected val brand: String
+
+    private fun drive() {
+        // ...
+    }
+
+    internal fun start() {
+        // ...
+    }
+
+    protected fun stop() {
+        // ...
+    }
+
+    public fun make() {
+        // ...
+    }
+}
+```
+
+[kotlin-modules]: https://kotlinlang.org/spec/packages-and-imports.html#modules
+[primary-constructors]: https://kotlinlang.org/docs/classes.html#primary-constructor
+[secondary-constructors]: https://kotlinlang.org/docs/classes.html#secondary-constructors

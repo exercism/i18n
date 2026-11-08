@@ -1,0 +1,141 @@
+# Approfondimento
+
+In Kotlin, le classi possono essere usate per incapsulare dati e comportamento.
+Una classe si dichiara con la parola chiave `class`.
+Per esempio:
+
+```kotlin
+class Car
+```
+
+Per creare un'istanza della classe, chiamala.
+
+```kotlin
+val instance = Car()
+```
+
+## Proprietà
+
+Negli esempi qui sopra, la classe `Car` è stata dichiarata senza alcuna proprietà.
+Le proprietà della classe si possono dichiarare nel corpo, tra le parentesi graffe (`{}`), usando `var` per le proprietà modificabili e `val` per quelle immutabili.
+Per esempio:
+
+```kotlin
+class Car {
+    // color is mutable
+    var color = "red"
+
+    // year is immutable
+    val year = 2025
+}
+```
+
+In alternativa, le proprietà si possono definire in un costruttore che le accetta come parametri.
+
+## Costruttori
+
+Kotlin ha due tipi di costruttori: quello [primario][primary-constructors] e i [costruttori secondari][secondary-constructors].
+Il costruttore primario si dichiara sulla stessa riga della dichiarazione della classe.
+Per esempio:
+
+```kotlin
+class Car constructor(var color : String = "red", val year : Int = 2025) {
+    // ...
+}
+```
+
+La parola chiave `constructor` si può omettere se non ci sono annotazioni né modificatori di visibilità:
+
+```kotlin
+class Car(var color : String = "red", val year : Int = 2025) {
+    // ...
+}
+```
+
+~~~~exercism/note
+Kotlin permette di definire una classe senza corpo quando contiene solo proprietà. Non servono le parentesi graffe (`{}`):
+
+```kotlin
+class Car (var color : String = "red", val year : Int = 2025)
+```
+~~~~
+
+Una classe può avere un solo costruttore primario.
+I costruttori secondari sono costruttori aggiuntivi, che si possono aggiungere dichiarandoli nel corpo della classe con la parola chiave `constructor`.
+Per esempio:
+
+```kotlin
+class Car constructor(var color : String = "red", val year : Int = 2025) {
+
+    // This constructor allows the year to be provided as a String
+    constructor(color : String = "red", yearText : String) : this(color, yearText.toIntOrNull() ?: 0)
+}
+```
+
+I costruttori secondari devono chiamare il costruttore primario usando `this`.
+
+## Blocchi di inizializzazione
+
+Il costruttore primario imposta le proprietà della classe.
+Se durante la creazione dell'oggetto serve fare altro, si possono usare blocchi `init` per eseguire azioni aggiuntive.
+
+```kotlin
+class Car constructor(var color: String = "red", val year : Int = 2025) {
+    init {
+        println("Car is ${color}, made in ${year}")
+    }
+}
+```
+
+## Funzioni
+
+Le funzioni si possono definire nel corpo della classe.
+Per esempio:
+
+```kotlin
+class Car (var color : String = "red", val year : Int = 2025) {
+    fun repaint(newColor : String) {
+        color = newColor
+    }
+}
+```
+
+## Visibilità
+
+Le proprietà e le funzioni possono essere `private`, `public`, `internal` o `protected`.
+
+- `private`: è accessibile solo all'interno della classe
+- `protected`: è accessibile dall'interno della classe e dalle sue sottoclassi
+- `internal`: è accessibile dall'interno dello stesso [modulo][kotlin-modules]
+- `public`: è accessibile agli altri componenti che usano la classe
+
+Per esempio:
+
+```kotlin
+class Car {
+    private val color: String
+    public val year: Int
+    internal val model: String
+    protected val brand: String
+
+    private fun drive() {
+        // ...
+    }
+
+    internal fun start() {
+        // ...
+    }
+
+    protected fun stop() {
+        // ...
+    }
+
+    public fun make() {
+        // ...
+    }
+}
+```
+
+[kotlin-modules]: https://kotlinlang.org/spec/packages-and-imports.html#modules
+[primary-constructors]: https://kotlinlang.org/docs/classes.html#primary-constructor
+[secondary-constructors]: https://kotlinlang.org/docs/classes.html#secondary-constructors

@@ -447,7 +447,8 @@ This page is generated from [the index](../../json/ko/kotlin.json) by `scripts/b
 ### johannes-juice-maker
 
 - `instructions.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/johannes-juice-maker/.docs/instructions.md)): [Latest](../../../locales/ko/content/67/6b/c4313c84c5244b07c039162a0f778249be2b.md)
-- `introduction.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/johannes-juice-maker/.docs/introduction.md)): [Latest](../../../locales/ko/content/e3/20/e97e45a483199606849cdbb6aea828842227.md)
+- `introduction.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/johannes-juice-maker/.docs/introduction.md)): [Latest](../../../locales/ko/content/5e/8c/63ef68d4e793396d501133c7572e7e5c9045.md)
+  - [`e320e97e45`](../../../locales/ko/content/e3/20/e97e45a483199606849cdbb6aea828842227.md)
 - `hints.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/johannes-juice-maker/.docs/hints.md)): [Latest](../../../locales/ko/content/f3/80/4c6df4c44241b2a2de1f82c1c8b9b5593129.md)
 
 ### log-levels
@@ -510,8 +511,10 @@ This page is generated from [the index](../../json/ko/kotlin.json) by `scripts/b
 
 ### Classes (클래스)
 
-- `introduction.md` ([English](https://github.com/exercism/kotlin/blob/main/concepts/classes/introduction.md)): [Latest](../../../locales/ko/content/e3/20/e97e45a483199606849cdbb6aea828842227.md)
-- `about.md` ([English](https://github.com/exercism/kotlin/blob/main/concepts/classes/about.md)): [Latest](../../../locales/ko/content/76/c7/023396d0a7301c6f0effb6291c3326f84d7f.md)
+- `introduction.md` ([English](https://github.com/exercism/kotlin/blob/main/concepts/classes/introduction.md)): [Latest](../../../locales/ko/content/5e/8c/63ef68d4e793396d501133c7572e7e5c9045.md)
+  - [`e320e97e45`](../../../locales/ko/content/e3/20/e97e45a483199606849cdbb6aea828842227.md)
+- `about.md` ([English](https://github.com/exercism/kotlin/blob/main/concepts/classes/about.md)): [Latest](../../../locales/ko/content/26/8f/ddec0a0ec0af65caf85d80bade4d34ed0076.md)
+  - [`76c7023396`](../../../locales/ko/content/76/c7/023396d0a7301c6f0effb6291c3326f84d7f.md)
 
 ### Conditionals (조건문)
 
