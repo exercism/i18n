@@ -370,5 +370,7 @@
   "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Haskell feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Haskell-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Haskellt",
-  "concept:pattern-matching:blurb": "Bevezetés a mintaillesztésbe Haskellben."
+  "concept:pattern-matching:blurb": "Bevezetés a mintaillesztésbe Haskellben.",
+  "concept:guards:name": "Őrfeltételek",
+  "concept:guards:blurb": "Az őrfeltételek megakadályozzák, hogy a függvény meghívódjon, ha az őrfüggvények az argumentumok kiértékelése alapján ezt nem engedik. Az őrfeltételek `|` operátorral kezdődnek, amelyet egy Boolean-kifejezés követ. Segítségükkel a mintaillesztést összetettebb ellenőrzésekkel egészítheted ki."
 }

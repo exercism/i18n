@@ -333,7 +333,7 @@ This page is generated from [the index](../../json/hu/haskell.json) by `scripts/
   - [`fd9a441247`](../../../locales/hu/content/fd/9a/441247b65a9a8604f6ef581df4b1054a1fad.md)
 - `instructions.append.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/palindrome-products/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/fb/09/5448ce4cc997bda234e94bea3cab704e5fcd.md)
 
-### Pangram
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
   - [`d5698bc2a2`](../../../locales/hu/content/d5/69/8bc2a292baf2fb128de3543b748165088c4f.md)
@@ -673,7 +673,7 @@ This page is generated from [the index](../../json/hu/haskell.json) by `scripts/
 - `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/booleans/introduction.md)): [Latest](../../../locales/hu/content/13/49/c6f70136062abcf931dcb5bfc287332b26c4.md)
 - `about.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/booleans/about.md)): [Latest](../../../locales/hu/content/13/49/c6f70136062abcf931dcb5bfc287332b26c4.md)
 
-### guards
+### Guards (Őrfeltételek)
 
 - `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/guards/introduction.md)): [Latest](../../../locales/hu/content/58/93/b3a54429fdb2ae7507ea0565bebc828c1f93.md)
 - `about.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/guards/about.md)): [Latest](../../../locales/hu/content/58/93/b3a54429fdb2ae7507ea0565bebc828c1f93.md)

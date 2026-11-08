@@ -608,7 +608,7 @@ This page is generated from [the index](../../json/el/haskell.json) by `scripts/
 - `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/booleans/introduction.md)): [Latest](../../../locales/el/content/13/49/c6f70136062abcf931dcb5bfc287332b26c4.md)
 - `about.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/booleans/about.md)): [Latest](../../../locales/el/content/13/49/c6f70136062abcf931dcb5bfc287332b26c4.md)
 
-### guards
+### Guards (Φρουροί)
 
 - `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/guards/introduction.md)): [Latest](../../../locales/el/content/58/93/b3a54429fdb2ae7507ea0565bebc828c1f93.md)
 - `about.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/guards/about.md)): [Latest](../../../locales/el/content/58/93/b3a54429fdb2ae7507ea0565bebc828c1f93.md)

@@ -5,6 +5,7 @@
     "concepts/algebraic-data-types": {"ar":"أنماط البيانات الجبرية","en":"Algebraic Data Types"},
     "concepts/basics": {"ar":"الأساسيات","en":"Basics"},
     "concepts/booleans": {"ar":"القيم المنطقية","en":"Booleans"},
+    "concepts/guards": {"ar":"الحرّاس","en":"Guards"},
     "concepts/lists": {"ar":"القوائم","en":"Lists"},
     "concepts/numbers": {"ar":"الأعداد","en":"Numbers"},
     "concepts/pattern-matching": {"ar":"مطابقة الأنماط","en":"Pattern Matching"},

@@ -5,6 +5,7 @@
     "concepts/algebraic-data-types": {"en":"Algebraic Data Types","uk":"Алгебраїчні типи даних"},
     "concepts/basics": {"en":"Basics","uk":"Основи"},
     "concepts/booleans": {"en":"Booleans","uk":"Булеві значення"},
+    "concepts/guards": {"en":"Guards","uk":"Охоронні вирази"},
     "concepts/lists": {"en":"Lists","uk":"Списки"},
     "concepts/numbers": {"en":"Numbers","uk":"Числа"},
     "concepts/pattern-matching": {"en":"Pattern Matching","uk":"Зіставлення зі зразком"},

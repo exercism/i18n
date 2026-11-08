@@ -5,6 +5,7 @@
     "concepts/algebraic-data-types": {"en":"Algebraic Data Types","ko":"대수적 데이터 타입"},
     "concepts/basics": {"en":"Basics","ko":"기초"},
     "concepts/booleans": {"en":"Booleans","ko":"불리언"},
+    "concepts/guards": {"en":"Guards","ko":"가드"},
     "concepts/lists": {"en":"Lists","ko":"배열"},
     "concepts/numbers": {"en":"Numbers","ko":"숫자"},
     "concepts/pattern-matching": {"en":"Pattern Matching","ko":"패턴 매칭"},

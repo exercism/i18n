@@ -5,6 +5,7 @@
     "concepts/algebraic-data-types": {"bn":"অ্যালজেব্রাইক ডেটা টাইপ","en":"Algebraic Data Types"},
     "concepts/basics": {"bn":"মৌলিক বিষয়","en":"Basics"},
     "concepts/booleans": {"bn":"বুলিয়ান","en":"Booleans"},
+    "concepts/guards": {"bn":"গার্ড","en":"Guards"},
     "concepts/lists": {"bn":"অ্যারে","en":"Lists"},
     "concepts/numbers": {"bn":"সংখ্যা","en":"Numbers"},
     "concepts/pattern-matching": {"bn":"প্যাটার্ন ম্যাচিং","en":"Pattern Matching"},

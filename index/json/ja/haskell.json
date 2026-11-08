@@ -5,6 +5,7 @@
     "concepts/algebraic-data-types": {"en":"Algebraic Data Types","ja":"代数的データ型"},
     "concepts/basics": {"en":"Basics","ja":"基本"},
     "concepts/booleans": {"en":"Booleans","ja":"真偽値"},
+    "concepts/guards": {"en":"Guards","ja":"ガード"},
     "concepts/lists": {"en":"Lists","ja":"配列"},
     "concepts/numbers": {"en":"Numbers","ja":"数値"},
     "concepts/pattern-matching": {"en":"Pattern Matching","ja":"パターンマッチング"},

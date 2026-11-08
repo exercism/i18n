@@ -5,6 +5,7 @@
     "concepts/algebraic-data-types": {"en":"Algebraic Data Types","zh-TW":"代數資料型別"},
     "concepts/basics": {"en":"Basics","zh-TW":"基礎"},
     "concepts/booleans": {"en":"Booleans","zh-TW":"布林值"},
+    "concepts/guards": {"en":"Guards","zh-TW":"守衛"},
     "concepts/lists": {"en":"Lists","zh-TW":"清單"},
     "concepts/numbers": {"en":"Numbers","zh-TW":"數字"},
     "concepts/pattern-matching": {"en":"Pattern Matching","zh-TW":"模式配對"},

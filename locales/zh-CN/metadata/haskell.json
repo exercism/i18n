@@ -368,5 +368,7 @@
   "doc:tests:blurb": "了解如何在 Exercism 上测试你的 Haskell 练习",
   "doc:resources:title": "Haskell 实用资源",
   "doc:resources:blurb": "帮助你掌握 Haskell 的实用资源合集",
-  "concept:pattern-matching:blurb": "Haskell 中模式匹配的入门介绍。"
+  "concept:pattern-matching:blurb": "Haskell 中模式匹配的入门介绍。",
+  "concept:guards:name": "守卫",
+  "concept:guards:blurb": "守卫会根据守卫函数对参数的求值结果，阻止对函数的调用。守卫以 `|` 运算符开头，后面跟一个布尔表达式。守卫用于在模式匹配的基础上增加更复杂的检查。"
 }

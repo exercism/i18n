@@ -368,5 +368,7 @@
   "doc:tests:blurb": "ExercismでHaskellの演習をテストする方法を学びます",
   "doc:resources:title": "役立つHaskellのリソース",
   "doc:resources:blurb": "Haskellをマスターするのに役立つリソースのまとめ",
-  "concept:pattern-matching:blurb": "Haskellのパターンマッチ入門。"
+  "concept:pattern-matching:blurb": "Haskellのパターンマッチ入門。",
+  "concept:guards:name": "ガード",
+  "concept:guards:blurb": "ガードは、ガード関数が引数を評価した結果に基づいて、関数の呼び出しを止めるために使います。ガードは`|`演算子で始まり、その後に真偽値の式が続きます。ガードを使うと、パターンマッチングに、より複雑なチェックを加えることができます。"
 }

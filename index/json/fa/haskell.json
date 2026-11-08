@@ -5,6 +5,7 @@
     "concepts/algebraic-data-types": {"en":"Algebraic Data Types","fa":"نوع‌های داده‌ی جبری"},
     "concepts/basics": {"en":"Basics","fa":"مبانی"},
     "concepts/booleans": {"en":"Booleans","fa":"مقدار منطقی"},
+    "concepts/guards": {"en":"Guards","fa":"گارد"},
     "concepts/lists": {"en":"Lists","fa":"فهرست"},
     "concepts/numbers": {"en":"Numbers","fa":"اعداد"},
     "concepts/pattern-matching": {"en":"Pattern Matching","fa":"تطبیق الگو"},

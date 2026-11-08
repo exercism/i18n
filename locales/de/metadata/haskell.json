@@ -368,5 +368,7 @@
   "doc:tests:blurb": "Lerne, wie du deine Haskell-Übungen auf Exercism testest",
   "doc:resources:title": "Nützliche Haskell-Ressourcen",
   "doc:resources:blurb": "Eine Sammlung nützlicher Ressourcen, die dir helfen, Haskell zu meistern",
-  "concept:pattern-matching:blurb": "Einführung in Pattern Matching in Haskell."
+  "concept:pattern-matching:blurb": "Einführung in Pattern Matching in Haskell.",
+  "concept:guards:name": "Guards",
+  "concept:guards:blurb": "Du verwendest Guards, um den Aufruf einer Funktion abhängig von der Auswertung der Argumente durch Guard-Funktionen zu verhindern. Guards beginnen mit dem Operator `|`, gefolgt von einem booleschen Ausdruck. Mit Guards erweiterst du das Pattern Matching um komplexere Prüfungen."
 }

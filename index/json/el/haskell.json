@@ -5,6 +5,7 @@
     "concepts/algebraic-data-types": {"el":"Αλγεβρικοί τύποι δεδομένων","en":"Algebraic Data Types"},
     "concepts/basics": {"el":"Τα βασικά","en":"Basics"},
     "concepts/booleans": {"el":"Booleans","en":"Booleans"},
+    "concepts/guards": {"el":"Φρουροί","en":"Guards"},
     "concepts/lists": {"el":"Λίστες","en":"Lists"},
     "concepts/numbers": {"el":"Αριθμοί","en":"Numbers"},
     "concepts/pattern-matching": {"el":"Αντιστοίχιση προτύπων","en":"Pattern Matching"},

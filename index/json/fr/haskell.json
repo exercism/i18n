@@ -5,6 +5,7 @@
     "concepts/algebraic-data-types": {"en":"Algebraic Data Types","fr":"Types de données algébriques"},
     "concepts/basics": {"en":"Basics","fr":"Les bases"},
     "concepts/booleans": {"en":"Booleans","fr":"Booléens"},
+    "concepts/guards": {"en":"Guards","fr":"Gardes"},
     "concepts/lists": {"en":"Lists","fr":"Listes"},
     "concepts/numbers": {"en":"Numbers","fr":"Les nombres"},
     "concepts/pattern-matching": {"en":"Pattern Matching","fr":"Filtrage par motif"},

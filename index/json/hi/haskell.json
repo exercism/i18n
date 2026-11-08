@@ -5,6 +5,7 @@
     "concepts/algebraic-data-types": {"en":"Algebraic Data Types","hi":"अल्जेब्रिक डेटा टाइप"},
     "concepts/basics": {"en":"Basics","hi":"मूल बातें"},
     "concepts/booleans": {"en":"Booleans","hi":"बूलियन"},
+    "concepts/guards": {"en":"Guards","hi":"गार्ड"},
     "concepts/lists": {"en":"Lists","hi":"ऐरे"},
     "concepts/numbers": {"en":"Numbers","hi":"संख्याएँ"},
     "concepts/pattern-matching": {"en":"Pattern Matching","hi":"पैटर्न मैचिंग"},

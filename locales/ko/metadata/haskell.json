@@ -368,5 +368,7 @@
   "doc:tests:blurb": "Exercism에서 Haskell 연습 문제를 테스트하는 방법을 배워요",
   "doc:resources:title": "유용한 Haskell 자료",
   "doc:resources:blurb": "Haskell을 익히는 데 도움이 되는 유용한 자료 모음",
-  "concept:pattern-matching:blurb": "Haskell의 패턴 매칭을 소개해요."
+  "concept:pattern-matching:blurb": "Haskell의 패턴 매칭을 소개해요.",
+  "concept:guards:name": "가드",
+  "concept:guards:blurb": "가드는 가드 함수가 인자를 평가한 결과에 따라 함수 호출을 막는 데 사용해요. 가드는 `|` 연산자로 시작하고, 그 뒤에 불리언 표현식이 와요. 가드는 더 복잡한 검사로 패턴 매칭을 보강할 때 사용해요."
 }

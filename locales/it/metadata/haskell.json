@@ -368,5 +368,7 @@
   "doc:tests:blurb": "Scopri come testare i tuoi esercizi di Haskell su Exercism",
   "doc:resources:title": "Risorse utili su Haskell",
   "doc:resources:blurb": "Una raccolta di risorse utili per aiutarti a padroneggiare Haskell",
-  "concept:pattern-matching:blurb": "Introduzione al pattern matching in Haskell."
+  "concept:pattern-matching:blurb": "Introduzione al pattern matching in Haskell.",
+  "concept:guards:name": "Guards",
+  "concept:guards:blurb": "Le guardie servono a impedire la chiamata di una funzione in base alla valutazione degli argomenti da parte di apposite funzioni di controllo. Le guardie iniziano con l'operatore `|`, seguito da un'espressione booleana. Le guardie integrano il pattern matching con controlli più complessi."
 }

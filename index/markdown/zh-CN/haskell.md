@@ -608,7 +608,7 @@ This page is generated from [the index](../../json/zh-CN/haskell.json) by `scrip
 - `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/booleans/introduction.md)): [Latest](../../../locales/zh-CN/content/13/49/c6f70136062abcf931dcb5bfc287332b26c4.md)
 - `about.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/booleans/about.md)): [Latest](../../../locales/zh-CN/content/13/49/c6f70136062abcf931dcb5bfc287332b26c4.md)
 
-### guards
+### Guards (守卫)
 
 - `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/guards/introduction.md)): [Latest](../../../locales/zh-CN/content/58/93/b3a54429fdb2ae7507ea0565bebc828c1f93.md)
 - `about.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/guards/about.md)): [Latest](../../../locales/zh-CN/content/58/93/b3a54429fdb2ae7507ea0565bebc828c1f93.md)

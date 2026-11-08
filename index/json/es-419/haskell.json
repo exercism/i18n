@@ -5,6 +5,7 @@
     "concepts/algebraic-data-types": {"en":"Algebraic Data Types","es-419":"Tipos de datos algebraicos"},
     "concepts/basics": {"en":"Basics","es-419":"Fundamentos"},
     "concepts/booleans": {"en":"Booleans","es-419":"Booleanos"},
+    "concepts/guards": {"en":"Guards","es-419":"Guardas"},
     "concepts/lists": {"en":"Lists","es-419":"Listas"},
     "concepts/numbers": {"en":"Numbers","es-419":"Números"},
     "concepts/pattern-matching": {"en":"Pattern Matching","es-419":"Coincidencia de patrones"},

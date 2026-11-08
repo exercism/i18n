@@ -368,5 +368,7 @@
   "doc:tests:blurb": "تعلّم كيفية اختبار تمارينك في Haskell على Exercism",
   "doc:resources:title": "مصادر مفيدة عن Haskell",
   "doc:resources:blurb": "مجموعة من المصادر المفيدة لمساعدتك على إتقان Haskell",
-  "concept:pattern-matching:blurb": "مقدمة إلى مطابقة الأنماط في Haskell."
+  "concept:pattern-matching:blurb": "مقدمة إلى مطابقة الأنماط في Haskell.",
+  "concept:guards:name": "الحرّاس",
+  "concept:guards:blurb": "تُستخدم الحراس لمنع استدعاء الدالة بناءً على تقييم دوال الحماية للوسائط. يبدأ الحارس بالعامل `|` متبوعًا بتعبير منطقي. تُستخدم الحراس لتوسيع مطابقة الأنماط بفحوص أكثر تعقيدًا."
 }

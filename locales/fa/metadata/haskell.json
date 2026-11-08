@@ -368,5 +368,7 @@
   "doc:tests:blurb": "یاد بگیرید چگونه تمرین‌های Haskell خود را در Exercism Test کنید",
   "doc:resources:title": "منابع مفید Haskell",
   "doc:resources:blurb": "مجموعه‌ای از منابع مفید برای کمک به شما در تسلط بر Haskell",
-  "concept:pattern-matching:blurb": "درآمدی بر تطبیق الگو در Haskell."
+  "concept:pattern-matching:blurb": "درآمدی بر تطبیق الگو در Haskell.",
+  "concept:guards:name": "گارد",
+  "concept:guards:blurb": "گاردها برای جلوگیری از فراخوانی تابع بر اساس ارزیابی آرگومان‌ها توسط توابع گارد به کار می‌روند. گاردها با عملگر `|` شروع می‌شوند و پس از آن یک عبارت منطقی می‌آید. از گاردها برای تکمیل تطبیق الگو با بررسی‌های پیچیده‌تر استفاده می‌شود."
 }

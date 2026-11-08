@@ -370,5 +370,7 @@
   "doc:tests:blurb": "Apprends à tester tes exercices Haskell sur Exercism",
   "doc:resources:title": "Ressources utiles pour Haskell",
   "doc:resources:blurb": "Une collection de ressources utiles pour t'aider à maîtriser Haskell",
-  "concept:pattern-matching:blurb": "Introduction au filtrage par motif en Haskell."
+  "concept:pattern-matching:blurb": "Introduction au filtrage par motif en Haskell.",
+  "concept:guards:name": "Gardes",
+  "concept:guards:blurb": "Les gardes servent à empêcher l'appel d'une fonction selon l'évaluation des arguments par des fonctions de garde. Une garde commence par l'opérateur `|`, suivi d'une expression booléenne. Les gardes permettent de compléter le filtrage par motif avec des vérifications plus complexes."
 }
