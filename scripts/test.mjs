@@ -639,6 +639,20 @@ await test("catalogs flatten and unflatten to the on-disk shapes, arrays include
   assert.deepEqual(unflattenCatalog("frontend", { "components/x.tsx:a.b": "A" }), frontend);
 });
 
+await test("an array path English has since removed still unflattens as an array, not a hash", () => {
+  // The translated file still holds "perks.0"/"perks.1" untouched (the write
+  // path never removes a key), but the current English's `arrays` set no
+  // longer names "perks" because English dropped it. The node's own keys
+  // (0, 1, in order) are enough to tell it was an array.
+  const flat = { "perks.0": "a", "perks.1": "b" };
+  assert.deepEqual(unflattenCatalog("backend", flat, new Set()), { perks: ["a", "b"] });
+  // A real hash that happens to have a "0" key alongside an ordinary one is
+  // left as an object.
+  assert.deepEqual(unflattenCatalog("backend", { "reasons.0": "a", "reasons.spam": "b" }, new Set()), {
+    reasons: { 0: "a", spam: "b" },
+  });
+});
+
 // -------------------------------------------------------------------- stamps --
 
 await test("a unit's hash is the blob id of its English, so editing English makes it stale", () => {

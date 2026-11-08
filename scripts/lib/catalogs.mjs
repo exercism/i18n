@@ -136,12 +136,25 @@ export function unflattenCatalog(kind, flat, arrays = new Set()) {
   return root;
 }
 
+// A node's own keys are enough to tell it was an array, independent of
+// whether the current English still has a unit at this path: integer keys
+// enumerate in ascending numeric order before any other key (per the JS
+// spec), so a node whose keys are exactly "0".."n-1" in that order came
+// from an array. This covers a path English has since removed, whose
+// translation still holds the old array under `flatTarget` untouched: the
+// write path must give it back its array shape or the no-deletions guard
+// sees the object it would otherwise become as that key being deleted.
+function looksLikeArray(value) {
+  const keys = Object.keys(value);
+  return keys.length > 0 && keys.every((key, index) => key === String(index));
+}
+
 function arrayify(node, prefix, arrays) {
   for (const [key, value] of Object.entries(node)) {
     if (value === null || typeof value !== "object") continue;
     const flatKey = prefix ? `${prefix}.${key}` : key;
     arrayify(value, flatKey, arrays);
-    if (arrays.has(flatKey)) {
+    if (arrays.has(flatKey) || looksLikeArray(value)) {
       node[key] = Object.keys(value)
         .sort((a, b) => Number(a) - Number(b))
         .map((index) => value[index]);
