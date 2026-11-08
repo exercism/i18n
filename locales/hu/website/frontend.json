@@ -1177,7 +1177,7 @@
     "welcomeModal.exercismDeepenSkills": "Az Exercism az a hely, ahol elmélyítheted a programozási tudásodat, és több mint {{numTracks}} programozási nyelvet fedezhetsz fel. 100%-ban ingyenes.",
     "welcomeModal.thanksForJoining": "Köszönjük, hogy csatlakoztál!",
     "welcomeModal.madeByThousands": "Az Exercism-öt több ezer olyan ember készítette, akik egy szórakoztató és hatékony oktatási platformot szeretnének létrehozni, amely megkönnyíti a programozási ismeretek elsajátítását és elmélyítését. Nagyon örülünk, hogy velünk tartasz ezen az úton! Nézz körül a fórumainkon, a Youtube-on és a Twitchen, hogy felfedezd mindazt, amit az Exercism kínál 🎉",
-    "welcomeModal.watchWelcomeVideo": "A kezdéshez nézd meg a jobb oldali üdvözlővideót, majd menj a Kurzusok oldalára, és válaszd ki a nyelvet, amelyet először fel szeretnél fedezni. Oldd meg a klasszikus &quot;Hello World&quot; feladatot, hogy megismerkedj a platformmal, aztán kezdj el igazi feladatokat megoldani.",
+    "welcomeModal.watchWelcomeVideo": "A kezdéshez nézd meg a jobb oldali üdvözlővideót, majd menj a Kurzusok oldalára, és válaszd ki a nyelvet, amelyet először fel szeretnél fedezni. Oldd meg a klasszikus „Hello World” feladatot, hogy megismerkedj a platformmal, aztán kezdj el igazi feladatokat megoldani.",
     "welcomeModal.gotItCloseModal": "Értem! Zárd be ezt az ablakot.",
     "welcomeModal.startWithWelcomeVideo": "Kezdd az üdvözlővideónkkal 👇🏽",
     "welcomeModal.whereCanIJoin": "Hol tudok csatlakozni a #48in24-hez?",
