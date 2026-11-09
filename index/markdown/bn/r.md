@@ -437,8 +437,8 @@ This page is generated from [the index](../../json/bn/r.json) by `scripts/build-
 
 ### Annalyn's Infiltration (অ্যানালিনের অনুপ্রবেশ)
 
-- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/annalyns-infiltration/.docs/instructions.md)): [Latest](../../../locales/bn/content/e6/f1/74aea3a1a5696e8cf0947746280021a402c2.md)
-  - [`0b0087bb92`](../../../locales/bn/content/0b/00/87bb9245faffe07f5a0fd9b9c7a90720875b.md)
+- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/annalyns-infiltration/.docs/instructions.md)): [Latest](../../../locales/bn/content/0b/00/87bb9245faffe07f5a0fd9b9c7a90720875b.md)
+  - [`e6f174aea3`](../../../locales/bn/content/e6/f1/74aea3a1a5696e8cf0947746280021a402c2.md)
 - `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/annalyns-infiltration/.docs/introduction.md)): [Latest](../../../locales/bn/content/80/67/8c4fffe9e2b67f1b6d843aa8df793db79da1.md)
 - `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/annalyns-infiltration/.docs/hints.md)): [Latest](../../../locales/bn/content/c3/94/ff150226af9d3550dee0796e39f5ffa157b6.md)
 
@@ -455,18 +455,18 @@ This page is generated from [the index](../../json/bn/r.json) by `scripts/build-
   - [`8aa65da32d`](../../../locales/bn/content/8a/a6/5da32d18bd1b1c8d52786b89344c690a1bcc.md)
 - `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/blackjack/.docs/introduction.md)): [Latest](../../../locales/bn/content/17/4b/098f51db772d3d6fb159587cf69d1820a9e7.md)
   - [`d2401f897d`](../../../locales/bn/content/d2/40/1f897d9ee8e27ec39d93b69d0839ae197f25.md)
-- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/blackjack/.docs/hints.md)): [Latest](../../../locales/bn/content/a7/09/ae66eb2cd4ddafc206ef35660a6845a92d09.md)
-  - [`3ceb95cf6b`](../../../locales/bn/content/3c/eb/95cf6b8d0e049645b3e1b1a567c818db90a2.md)
+- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/blackjack/.docs/hints.md)): [Latest](../../../locales/bn/content/3c/eb/95cf6b8d0e049645b3e1b1a567c818db90a2.md)
+  - [`a709ae66eb`](../../../locales/bn/content/a7/09/ae66eb2cd4ddafc206ef35660a6845a92d09.md)
   - [`51dde08a77`](../../../locales/bn/content/51/dd/e08a778cb9d3d91e49c8aba4e256b4d2a82b.md)
 
 ### Booking Up For Beauty (সৌন্দর্যের জন্য বুকিং)
 
-- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/booking-up-for-beauty/.docs/instructions.md)): [Latest](../../../locales/bn/content/f2/ce/3c9a812b10d929f06ee861ba2017137eb6ce.md)
-  - [`44368e5a5b`](../../../locales/bn/content/44/36/8e5a5b423861524feae30a0e2f29256096d7.md)
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/booking-up-for-beauty/.docs/introduction.md)): [Latest](../../../locales/bn/content/97/f8/121261691c45207e0d4a12aa42c5b7a052e7.md)
-  - [`a0879f6466`](../../../locales/bn/content/a0/87/9f6466f18e3c2d86c0ddbd2e6dc0f7a8ef15.md)
-- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/booking-up-for-beauty/.docs/hints.md)): [Latest](../../../locales/bn/content/b7/d9/76264363445f85e6dde53fe581625abf4a23.md)
-  - [`c30eb2e991`](../../../locales/bn/content/c3/0e/b2e991974dbd80b5e538db250085381d8cac.md)
+- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/booking-up-for-beauty/.docs/instructions.md)): [Latest](../../../locales/bn/content/44/36/8e5a5b423861524feae30a0e2f29256096d7.md)
+  - [`f2ce3c9a81`](../../../locales/bn/content/f2/ce/3c9a812b10d929f06ee861ba2017137eb6ce.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/booking-up-for-beauty/.docs/introduction.md)): [Latest](../../../locales/bn/content/a0/87/9f6466f18e3c2d86c0ddbd2e6dc0f7a8ef15.md)
+  - [`97f8121261`](../../../locales/bn/content/97/f8/121261691c45207e0d4a12aa42c5b7a052e7.md)
+- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/booking-up-for-beauty/.docs/hints.md)): [Latest](../../../locales/bn/content/c3/0e/b2e991974dbd80b5e538db250085381d8cac.md)
+  - [`b7d9762643`](../../../locales/bn/content/b7/d9/76264363445f85e6dde53fe581625abf4a23.md)
 
 ### Captains Log (ক্যাপ্টেনের লগ)
 
@@ -478,10 +478,10 @@ This page is generated from [the index](../../json/bn/r.json) by `scripts/build-
 
 ### Cars, Assemble (গাড়ি, একত্র হও)
 
-- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/cars-assemble/.docs/instructions.md)): [Latest](../../../locales/bn/content/fd/59/a251bddf463d0e6f762fa08e6598e89aa0ca.md)
-  - [`18b8402be4`](../../../locales/bn/content/18/b8/402be4f8ce10e00fc94c8051386c703d43f6.md)
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/cars-assemble/.docs/introduction.md)): [Latest](../../../locales/bn/content/f9/85/4b443df21fc6f26e973eadbec61e5b007b07.md)
-  - [`5886542988`](../../../locales/bn/content/58/86/5429885a4a60aaa192b535330266694f02d1.md)
+- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/cars-assemble/.docs/instructions.md)): [Latest](../../../locales/bn/content/18/b8/402be4f8ce10e00fc94c8051386c703d43f6.md)
+  - [`fd59a251bd`](../../../locales/bn/content/fd/59/a251bddf463d0e6f762fa08e6598e89aa0ca.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/cars-assemble/.docs/introduction.md)): [Latest](../../../locales/bn/content/58/86/5429885a4a60aaa192b535330266694f02d1.md)
+  - [`f9854b443d`](../../../locales/bn/content/f9/85/4b443df21fc6f26e973eadbec61e5b007b07.md)
 - `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/cars-assemble/.docs/hints.md)): [Latest](../../../locales/bn/content/17/bd/61ada61bfd5569752c7d11522b9b26f9c766.md)
 
 ### Cheese Club (চিজ ক্লাব)
@@ -522,12 +522,12 @@ This page is generated from [the index](../../json/bn/r.json) by `scripts/build-
 
 ### Elyse's Enchantments (এলিসের জাদু)
 
-- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/elyses-enchantments/.docs/instructions.md)): [Latest](../../../locales/bn/content/66/7a/7b3cfd9c9c51d259e2ad24c163a7d4787722.md)
-  - [`f8364434ee`](../../../locales/bn/content/f8/36/4434eebe9ab702eae84bae55d41919966918.md)
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/elyses-enchantments/.docs/introduction.md)): [Latest](../../../locales/bn/content/79/ee/7f01c86f9c7acf6df46a4d4564709ca6482a.md)
-  - [`cf03dd6c49`](../../../locales/bn/content/cf/03/dd6c49edc68a4a49abfe3ba9e7a9c6d7df94.md)
-- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/elyses-enchantments/.docs/hints.md)): [Latest](../../../locales/bn/content/ee/43/4ff4baab15a12fd2f1a2d1016dc6ea09dfd6.md)
-  - [`1cfbfe45ce`](../../../locales/bn/content/1c/fb/fe45ce1a2998a7e3f0c7d04ec3a1b6dd0289.md)
+- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/elyses-enchantments/.docs/instructions.md)): [Latest](../../../locales/bn/content/f8/36/4434eebe9ab702eae84bae55d41919966918.md)
+  - [`667a7b3cfd`](../../../locales/bn/content/66/7a/7b3cfd9c9c51d259e2ad24c163a7d4787722.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/elyses-enchantments/.docs/introduction.md)): [Latest](../../../locales/bn/content/cf/03/dd6c49edc68a4a49abfe3ba9e7a9c6d7df94.md)
+  - [`79ee7f01c8`](../../../locales/bn/content/79/ee/7f01c86f9c7acf6df46a4d4564709ca6482a.md)
+- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/elyses-enchantments/.docs/hints.md)): [Latest](../../../locales/bn/content/1c/fb/fe45ce1a2998a7e3f0c7d04ec3a1b6dd0289.md)
+  - [`ee434ff4ba`](../../../locales/bn/content/ee/43/4ff4baab15a12fd2f1a2d1016dc6ea09dfd6.md)
 
 ### Factory Sensors (কারখানার সেন্সর)
 
@@ -540,12 +540,12 @@ This page is generated from [the index](../../json/bn/r.json) by `scripts/build-
 
 ### Lasagna (লাসাগনা)
 
-- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/lasagna/.docs/instructions.md)): [Latest](../../../locales/bn/content/81/a4/6a49c0d2b8c10ab3defa8b5332ad6774cbbc.md)
-  - [`98a9921063`](../../../locales/bn/content/98/a9/921063809f68b803ef1f568442f10ca2606d.md)
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/lasagna/.docs/introduction.md)): [Latest](../../../locales/bn/content/53/bb/0ff5f4a5e1c350e75086048cb88bc87094a8.md)
-  - [`4e5dd1dad9`](../../../locales/bn/content/4e/5d/d1dad9d6f2acd7ef2cd9ecbd245acdd232d5.md)
-- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/lasagna/.docs/hints.md)): [Latest](../../../locales/bn/content/86/2a/a7d8317cfc331f3349429db6c90c9512008a.md)
-  - [`490430b7b6`](../../../locales/bn/content/49/04/30b7b6eedd83d728cf75fe6c54fd9fb5685c.md)
+- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/lasagna/.docs/instructions.md)): [Latest](../../../locales/bn/content/98/a9/921063809f68b803ef1f568442f10ca2606d.md)
+  - [`81a46a49c0`](../../../locales/bn/content/81/a4/6a49c0d2b8c10ab3defa8b5332ad6774cbbc.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/lasagna/.docs/introduction.md)): [Latest](../../../locales/bn/content/4e/5d/d1dad9d6f2acd7ef2cd9ecbd245acdd232d5.md)
+  - [`53bb0ff5f4`](../../../locales/bn/content/53/bb/0ff5f4a5e1c350e75086048cb88bc87094a8.md)
+- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/lasagna/.docs/hints.md)): [Latest](../../../locales/bn/content/49/04/30b7b6eedd83d728cf75fe6c54fd9fb5685c.md)
+  - [`862aa7d831`](../../../locales/bn/content/86/2a/a7d8317cfc331f3349429db6c90c9512008a.md)
 
 ### Log Levels (লগ লেভেল)
 
@@ -616,16 +616,16 @@ This page is generated from [the index](../../json/bn/r.json) by `scripts/build-
 
 ### Basics (মৌলিক বিষয়)
 
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/basics/introduction.md)): [Latest](../../../locales/bn/content/53/bb/0ff5f4a5e1c350e75086048cb88bc87094a8.md)
-  - [`4e5dd1dad9`](../../../locales/bn/content/4e/5d/d1dad9d6f2acd7ef2cd9ecbd245acdd232d5.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/basics/about.md)): [Latest](../../../locales/bn/content/84/1e/35fabd0688680d4de353745899fb0071c674.md)
-  - [`366916fd04`](../../../locales/bn/content/36/69/16fd04c4f0555c60c6321fc3e6ff7460d55c.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/basics/introduction.md)): [Latest](../../../locales/bn/content/4e/5d/d1dad9d6f2acd7ef2cd9ecbd245acdd232d5.md)
+  - [`53bb0ff5f4`](../../../locales/bn/content/53/bb/0ff5f4a5e1c350e75086048cb88bc87094a8.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/basics/about.md)): [Latest](../../../locales/bn/content/36/69/16fd04c4f0555c60c6321fc3e6ff7460d55c.md)
+  - [`841e35fabd`](../../../locales/bn/content/84/1e/35fabd0688680d4de353745899fb0071c674.md)
 
 ### Booleans (বুলিয়ান)
 
 - `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/booleans/introduction.md)): [Latest](../../../locales/bn/content/5a/b7/a91e56b883bf5b04bfe8006beb0d019ab483.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/booleans/about.md)): [Latest](../../../locales/bn/content/59/22/9165ad45c2c31aaab62ecbaa176e31902aa7.md)
-  - [`334da53231`](../../../locales/bn/content/33/4d/a53231ac662b429516feb37ff8ab3953a455.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/booleans/about.md)): [Latest](../../../locales/bn/content/33/4d/a53231ac662b429516feb37ff8ab3953a455.md)
+  - [`59229165ad`](../../../locales/bn/content/59/22/9165ad45c2c31aaab62ecbaa176e31902aa7.md)
 
 ### Classes (ক্লাস)
 
@@ -642,8 +642,8 @@ This page is generated from [the index](../../json/bn/r.json) by `scripts/build-
 ### Conditionals (কন্ডিশনাল)
 
 - `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/conditionals/introduction.md)): [Latest](../../../locales/bn/content/04/c2/3c027ef75521c8ccfa89f2788d55f4edc460.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/conditionals/about.md)): [Latest](../../../locales/bn/content/15/fa/49fe6c3b3ac46b1bbb1b9ba47ab48eb799f4.md)
-  - [`752c3f58b0`](../../../locales/bn/content/75/2c/3f58b0c6969eb437af514d5c1ecb393f7da0.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/conditionals/about.md)): [Latest](../../../locales/bn/content/75/2c/3f58b0c6969eb437af514d5c1ecb393f7da0.md)
+  - [`15fa49fe6c`](../../../locales/bn/content/15/fa/49fe6c3b3ac46b1bbb1b9ba47ab48eb799f4.md)
 
 ### Dataframes (ডেটাফ্রেম)
 
@@ -654,10 +654,10 @@ This page is generated from [the index](../../json/bn/r.json) by `scripts/build-
 
 ### Dates Times (তারিখ ও সময়)
 
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/dates-times/introduction.md)): [Latest](../../../locales/bn/content/97/f8/121261691c45207e0d4a12aa42c5b7a052e7.md)
-  - [`2b564d5358`](../../../locales/bn/content/2b/56/4d5358b568634f00fab679322d49b195365f.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/dates-times/about.md)): [Latest](../../../locales/bn/content/ca/fa/64985a5f174ef365e48f0583f694cb0f255e.md)
-  - [`52a3eb8b65`](../../../locales/bn/content/52/a3/eb8b65c699bdc93504857ae899ae7f691ed4.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/dates-times/introduction.md)): [Latest](../../../locales/bn/content/2b/56/4d5358b568634f00fab679322d49b195365f.md)
+  - [`97f8121261`](../../../locales/bn/content/97/f8/121261691c45207e0d4a12aa42c5b7a052e7.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/dates-times/about.md)): [Latest](../../../locales/bn/content/52/a3/eb8b65c699bdc93504857ae899ae7f691ed4.md)
+  - [`cafa64985a`](../../../locales/bn/content/ca/fa/64985a5f174ef365e48f0583f694cb0f255e.md)
 
 ### Errors (এরর)
 
@@ -696,10 +696,10 @@ This page is generated from [the index](../../json/bn/r.json) by `scripts/build-
 
 ### Matrices and Arrays (ম্যাট্রিক্স ও অ্যারে)
 
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/matrices-arrays/introduction.md)): [Latest](../../../locales/bn/content/11/a8/f92123703290892f5a645a1671e20422e121.md)
-  - [`5386c92787`](../../../locales/bn/content/53/86/c92787fe202fd3bcf9009c66bac85f52c9f6.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/matrices-arrays/about.md)): [Latest](../../../locales/bn/content/80/19/91d894664c458531185e996755d410af5284.md)
-  - [`eb8fb63e35`](../../../locales/bn/content/eb/8f/b63e3595d3434dc637badbd55bbcc2f93266.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/matrices-arrays/introduction.md)): [Latest](../../../locales/bn/content/53/86/c92787fe202fd3bcf9009c66bac85f52c9f6.md)
+  - [`11a8f92123`](../../../locales/bn/content/11/a8/f92123703290892f5a645a1671e20422e121.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/matrices-arrays/about.md)): [Latest](../../../locales/bn/content/eb/8f/b63e3595d3434dc637badbd55bbcc2f93266.md)
+  - [`801991d894`](../../../locales/bn/content/80/19/91d894664c458531185e996755d410af5284.md)
 
 ### Names Attribute (নেমস অ্যাট্রিবিউট)
 
@@ -765,10 +765,10 @@ This page is generated from [the index](../../json/bn/r.json) by `scripts/build-
 
 ### Vectors (ভেক্টর)
 
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/vectors/introduction.md)): [Latest](../../../locales/bn/content/c9/36/e32c2ce287657fd9348c2a2ca78b7fd32a7a.md)
-  - [`3faab81c2f`](../../../locales/bn/content/3f/aa/b81c2ff6d0036b712d8027976301d97673bc.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/vectors/about.md)): [Latest](../../../locales/bn/content/cf/60/a5cdeabb580edaaf70536858c11f689255ac.md)
-  - [`a9e47133b1`](../../../locales/bn/content/a9/e4/7133b10043376bf082ecfa544c3a596ce0ac.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/vectors/introduction.md)): [Latest](../../../locales/bn/content/3f/aa/b81c2ff6d0036b712d8027976301d97673bc.md)
+  - [`c936e32c2c`](../../../locales/bn/content/c9/36/e32c2ce287657fd9348c2a2ca78b7fd32a7a.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/vectors/about.md)): [Latest](../../../locales/bn/content/a9/e4/7133b10043376bf082ecfa544c3a596ce0ac.md)
+  - [`cf60a5cdea`](../../../locales/bn/content/cf/60/a5cdeabb580edaaf70536858c11f689255ac.md)
 
 ## Track docs
 

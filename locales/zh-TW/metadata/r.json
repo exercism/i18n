@@ -356,7 +356,7 @@
   "concept:strings:blurb": "Base R 內含一組相當精簡的字串處理函式。stringr 套件則新得多，也更容易使用。",
   "concept:regular-expressions:blurb": "正規表示式在 Base R 中也能使用，但用 string 套件來操作會容易得多。",
   "concept:vector-filtering:blurb": "R 有強大且彈性的方式，可從向量中篩選出想要的元素，並回傳子集向量。",
-  "concept:switch:blurb": "如果要根據某個值（尤其是字串）進行比對，switch() 會比 if-else 更簡潔。較新、更有彈性的替代方案包括 case_when() 和 recode_values()。",
+  "concept:switch:blurb": "如果要根據某個值（尤其是字串）進行比對，switch() 會比 if-else 更簡潔。較新、更有彈性的替代方案包括 case_when() 和 case_match()。",
   "concept:vector-functions:blurb": "許多 R 函式能直接操作整個向量，不需要明確的迴圈。",
   "concept:lists:blurb": "R 中的陣列是一種有序的集合，可以存放異質資料，也能包含其他陣列。",
   "concept:functions:blurb": "在 R 中，函式是一級物件，可以作為引數傳入，也能包含在回傳值中。",

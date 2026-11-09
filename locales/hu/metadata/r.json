@@ -356,7 +356,7 @@
   "concept:strings:blurb": "A Base R meglehetősen kis függvénykészletet kínál a stringek kezelésére. A stringr könyvtár sokkal újabb és felhasználóbarátabb.",
   "concept:regular-expressions:blurb": "A reguláris kifejezések a Base R-ben is elérhetők, de a string könyvtárral sokkal könnyebb velük dolgozni.",
   "concept:vector-filtering:blurb": "Az R hatékony és rugalmas módokat kínál arra, hogy egy vektorból kiszűrd a kívánt elemeket, és egy részhalmazvektort kapj vissza.",
-  "concept:switch:blurb": "Ha egy értékre, különösen egy stringre szeretnél illeszteni, a switch() tömörebb lehet az if-else-nél. Újabb, rugalmasabb alternatívák a case_when() és a recode_values().",
+  "concept:switch:blurb": "Ha egy értékre, különösen egy stringre szeretnél illeszteni, a switch() tömörebb lehet az if-else-nél. Újabb, rugalmasabb alternatívák a case_when() és a case_match().",
   "concept:vector-functions:blurb": "Sok R-függvény tud egész vektorokon működni anélkül, hogy explicit ciklusokra lenne szükség.",
   "concept:lists:blurb": "Az R-ben a lista egy rendezett gyűjtemény, amely heterogén adatokat, köztük más listákat is tárolhat.",
   "concept:functions:blurb": "Az R-ben a függvények első osztályú objektumok: argumentumként átadhatók és visszatérési értékekben is szerepelhetnek.",
