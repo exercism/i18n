@@ -11,7 +11,8 @@ This page is generated from [the index](../../json/el/julia.json) by `scripts/bu
 ### Accumulate (Συσσώρευση)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/accumulate/.docs/instructions.md)): [Latest](../../../locales/el/content/43/5e/0b3246950084d4940bdf4bd741259dce3165.md)
-- `instructions.append.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/accumulate/.docs/instructions.append.md)): [Latest](../../../locales/el/content/c2/15/f956ab2c01de6fcb326243acee1e07f04189.md)
+- `instructions.append.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/accumulate/.docs/instructions.append.md)): [Latest](../../../locales/el/content/77/a8/28de59b68f8ad1df3200361737ce958fc175.md)
+  - [`c215f956ab`](../../../locales/el/content/c2/15/f956ab2c01de6fcb326243acee1e07f04189.md)
 
 ### Acronym (Ακρώνυμο)
 
@@ -34,7 +35,8 @@ This page is generated from [the index](../../json/el/julia.json) by `scripts/bu
 ### Alphametics (Αλφαριθμητικά)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/alphametics/.docs/instructions.md)): [Latest](../../../locales/el/content/ef/2c/bb4a71296cd830b1bc59eb7a63c9074e95a8.md)
-- `instructions.append.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/alphametics/.docs/instructions.append.md)): [Latest](../../../locales/el/content/9e/eb/edc7d339dd47af89bb6b0c11e48bad293c6a.md)
+- `instructions.append.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/alphametics/.docs/instructions.append.md)): [Latest](../../../locales/el/content/36/49/735aec5344916b288259c12550ec45df7d18.md)
+  - [`9eebedc7d3`](../../../locales/el/content/9e/eb/edc7d339dd47af89bb6b0c11e48bad293c6a.md)
 
 ### Anagram (Ανάγραμμα)
 
@@ -133,7 +135,8 @@ This page is generated from [the index](../../json/el/julia.json) by `scripts/bu
 ### Dominoes (Ντόμινο)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/dominoes/.docs/instructions.md)): [Latest](../../../locales/el/content/75/05/5b9e8925dea56b07c073de34212358dc78fc.md)
-- `instructions.append.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/dominoes/.docs/instructions.append.md)): [Latest](../../../locales/el/content/64/14/748e7fef3e18bda52c056939042412f8eda7.md)
+- `instructions.append.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/dominoes/.docs/instructions.append.md)): [Latest](../../../locales/el/content/a3/d0/aac59756bde9b01e12f74fa4dfc20a3134ee.md)
+  - [`6414748e7f`](../../../locales/el/content/64/14/748e7fef3e18bda52c056939042412f8eda7.md)
 - `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/dominoes/.docs/introduction.md)): [Latest](../../../locales/el/content/df/24/8c2116efac6352f52bd2a18b665ceba16433.md)
 
 ### Eliud's Eggs (Τα Αυγά του Eliud)
@@ -149,7 +152,8 @@ This page is generated from [the index](../../json/el/julia.json) by `scripts/bu
 ### FFT
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/fft/.docs/instructions.md)): [Latest](../../../locales/el/content/b3/82/3fbe92991230deac4a9e86774bda0f897f23.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/fft/.docs/introduction.md)): [Latest](../../../locales/el/content/08/d9/f7951a8d5782613050673a431e51acfe9868.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/fft/.docs/introduction.md)): [Latest](../../../locales/el/content/ce/bc/39ebfff87fcd1583d37d10359c7946bda9c4.md)
+  - [`08d9f7951a`](../../../locales/el/content/08/d9/f7951a8d5782613050673a431e51acfe9868.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/fft/.docs/hints.md)): [Latest](../../../locales/el/content/e7/1a/40aa1f11bc1045d83ab8cb6b5b0d764fdcae.md)
 
 ### Flower Field (Χωράφι με Λουλούδια)
@@ -422,7 +426,8 @@ This page is generated from [the index](../../json/el/julia.json) by `scripts/bu
 ### State of Tic-Tac-Toe (Κατάσταση της τρίλιζας)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/state-of-tic-tac-toe/.docs/instructions.md)): [Latest](../../../locales/el/content/1a/03/ebb6cb4c4468e3c93f90e0a76e4f1812ec55.md)
-- `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/state-of-tic-tac-toe/.docs/hints.md)): [Latest](../../../locales/el/content/ac/d2/83d80a6e18a69ad51a338ca4277d83e2755b.md)
+- `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/state-of-tic-tac-toe/.docs/hints.md)): [Latest](../../../locales/el/content/5c/99/ef78733d06a36861600603f8cdb2062b0dd9.md)
+  - [`acd283d80a`](../../../locales/el/content/ac/d2/83d80a6e18a69ad51a338ca4277d83e2755b.md)
 
 ### Strain (Στράγγισμα)
 
@@ -479,25 +484,31 @@ This page is generated from [the index](../../json/el/julia.json) by `scripts/bu
 ### Annalyns Infiltration (Η παρείσφρηση της Annalyn)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/annalyns-infiltration/.docs/instructions.md)): [Latest](../../../locales/el/content/26/64/617b245b743f2fbd0222e9502cce315d4b3c.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/annalyns-infiltration/.docs/introduction.md)): [Latest](../../../locales/el/content/4b/37/877b6204d782c5279bb21a045cf9ed2ca13e.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/annalyns-infiltration/.docs/introduction.md)): [Latest](../../../locales/el/content/b8/81/8e8147e1f8948951b55791dd3f523fa15ca9.md)
+  - [`4b37877b62`](../../../locales/el/content/4b/37/877b6204d782c5279bb21a045cf9ed2ca13e.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/annalyns-infiltration/.docs/hints.md)): [Latest](../../../locales/el/content/3b/02/d841e091d49082234748ce9f2f263b3f4d83.md)
 
 ### Bird Watcher (Παρατηρητής πουλιών)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/bird-watcher/.docs/instructions.md)): [Latest](../../../locales/el/content/53/4e/3322311958d835b0a12567baa78bb5803ac2.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/bird-watcher/.docs/introduction.md)): [Latest](../../../locales/el/content/87/5c/da29cc67e7ce4dca4d210e3f18a0a5636609.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/bird-watcher/.docs/instructions.md)): [Latest](../../../locales/el/content/07/a9/75f20e323b76eb19b7f2d682071e2acf8d42.md)
+  - [`534e332231`](../../../locales/el/content/53/4e/3322311958d835b0a12567baa78bb5803ac2.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/bird-watcher/.docs/introduction.md)): [Latest](../../../locales/el/content/19/45/7eaf1899b8bbac76dfcad29a32ad91dbded8.md)
+  - [`875cda29cc`](../../../locales/el/content/87/5c/da29cc67e7ce4dca4d210e3f18a0a5636609.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/bird-watcher/.docs/hints.md)): [Latest](../../../locales/el/content/5d/35/e9bb1ee50f6cd138e8b0725e461cc165e91e.md)
 
 ### Booking Up For Beauty (Κλείσε ραντεβού για ομορφιά)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/booking-up-for-beauty/.docs/instructions.md)): [Latest](../../../locales/el/content/30/92/99b596dcddc929c5c17234fafa6167739d18.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/booking-up-for-beauty/.docs/introduction.md)): [Latest](../../../locales/el/content/71/39/b70b5fa91778f186adf35379343dc159bf1c.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/booking-up-for-beauty/.docs/introduction.md)): [Latest](../../../locales/el/content/02/cb/464ace438498a38830374a3dc98b1f75a4aa.md)
+  - [`7139b70b5f`](../../../locales/el/content/71/39/b70b5fa91778f186adf35379343dc159bf1c.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/booking-up-for-beauty/.docs/hints.md)): [Latest](../../../locales/el/content/d5/cd/d35eeb92a7bd2b22d9275a774aee84e389d2.md)
 
 ### Boutique Suggestions (Προτάσεις μπουτίκ)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/boutique-suggestions/.docs/instructions.md)): [Latest](../../../locales/el/content/18/b0/4b12a641f4ca1f6e719233fc784b76d75628.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/boutique-suggestions/.docs/introduction.md)): [Latest](../../../locales/el/content/5b/5c/81e4e7fe448c5f59b969351eadc6baaaae61.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/boutique-suggestions/.docs/instructions.md)): [Latest](../../../locales/el/content/35/5e/ba47f8332202e990080f440f683a4c8e9a4e.md)
+  - [`18b04b12a6`](../../../locales/el/content/18/b0/4b12a641f4ca1f6e719233fc784b76d75628.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/boutique-suggestions/.docs/introduction.md)): [Latest](../../../locales/el/content/c8/75/32be14ec01da1e6dbd331e035454e3307406.md)
+  - [`5b5c81e4e7`](../../../locales/el/content/5b/5c/81e4e7fe448c5f59b969351eadc6baaaae61.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/boutique-suggestions/.docs/hints.md)): [Latest](../../../locales/el/content/23/54/48ac04527b3d2b08730a72e424eff9c0660d.md)
 
 ### Captains Log (Ημερολόγιο καπετάνιου)
@@ -508,25 +519,31 @@ This page is generated from [the index](../../json/el/julia.json) by `scripts/bu
 
 ### Cars Assemble (Συναρμολόγηση Αυτοκινήτων)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/cars-assemble/.docs/instructions.md)): [Latest](../../../locales/el/content/f0/01/f54f754b1fe8e43a3c087d4396d7b46e9075.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/cars-assemble/.docs/introduction.md)): [Latest](../../../locales/el/content/d4/63/97cc0538285f3eee46b8acd7595cdbe38504.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/cars-assemble/.docs/instructions.md)): [Latest](../../../locales/el/content/53/14/45383a34676ba14b9af2dee0654e7d98c828.md)
+  - [`f001f54f75`](../../../locales/el/content/f0/01/f54f754b1fe8e43a3c087d4396d7b46e9075.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/cars-assemble/.docs/introduction.md)): [Latest](../../../locales/el/content/3c/17/48bc4f78f5ae24a6d530ad5337db0905b8fe.md)
+  - [`d46397cc05`](../../../locales/el/content/d4/63/97cc0538285f3eee46b8acd7595cdbe38504.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/cars-assemble/.docs/hints.md)): [Latest](../../../locales/el/content/09/9f/ba1815599ee4b16f790642fdbece022aff99.md)
 
 ### Cater Waiter (Σερβιτόρος εστίασης)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/cater-waiter/.docs/instructions.md)): [Latest](../../../locales/el/content/6c/0a/cf6799e133bccd3544061f750859cae19752.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/cater-waiter/.docs/introduction.md)): [Latest](../../../locales/el/content/6f/ee/7f35bbdb7abdb94d5af21637654ff08d38da.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/cater-waiter/.docs/instructions.md)): [Latest](../../../locales/el/content/8b/bb/7701dac5e05bd9f4bef71b6f4b0bd8f38501.md)
+  - [`6c0acf6799`](../../../locales/el/content/6c/0a/cf6799e133bccd3544061f750859cae19752.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/cater-waiter/.docs/introduction.md)): [Latest](../../../locales/el/content/72/de/dc9adef956f569bdcb362f5b229c8f887c2b.md)
+  - [`6fee7f35bb`](../../../locales/el/content/6f/ee/7f35bbdb7abdb94d5af21637654ff08d38da.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/cater-waiter/.docs/hints.md)): [Latest](../../../locales/el/content/9a/4b/604d36c1320df910d5f7c7fd9f738d8b57a7.md)
 
 ### Cheese Club (Λέσχη τυριού)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/cheese-club/.docs/instructions.md)): [Latest](../../../locales/el/content/30/ef/eebc611176bb249604a0555d3b09a01d973f.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/cheese-club/.docs/introduction.md)): [Latest](../../../locales/el/content/98/39/d9160a2b9e3d743b81cedd76ceecae5c21a8.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/cheese-club/.docs/introduction.md)): [Latest](../../../locales/el/content/f3/28/c15e9397a7fbe972289f07d7a1c80b2e9441.md)
+  - [`9839d9160a`](../../../locales/el/content/98/39/d9160a2b9e3d743b81cedd76ceecae5c21a8.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/cheese-club/.docs/hints.md)): [Latest](../../../locales/el/content/f6/93/f4ff6fdbf6580a8020aebb25ebfbbf1db670.md)
 
 ### Chessboard (Σκακιέρα)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/chessboard/.docs/instructions.md)): [Latest](../../../locales/el/content/9a/2a/f8d05d7760912c254bf2b2f31efa036f6e3f.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/chessboard/.docs/instructions.md)): [Latest](../../../locales/el/content/fb/c6/3cd1c6dfcb49b634b73f6a7257a4ae5ad04e.md)
+  - [`9a2af8d05d`](../../../locales/el/content/9a/2a/f8d05d7760912c254bf2b2f31efa036f6e3f.md)
 - `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/chessboard/.docs/introduction.md)): [Latest](../../../locales/el/content/e4/a2/39587e4b9ff03322a605a6e11775ceb3231c.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/chessboard/.docs/hints.md)): [Latest](../../../locales/el/content/69/8f/f3a179ac933f6761301546e28447bff46390.md)
 
@@ -534,36 +551,45 @@ This page is generated from [the index](../../json/el/julia.json) by `scripts/bu
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/currency-exchange/.docs/instructions.md)): [Latest](../../../locales/el/content/c9/5d/53348ea31fddfbe6a7db4d86dd8a3d146b5e.md)
 - `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/currency-exchange/.docs/introduction.md)): [Latest](../../../locales/el/content/69/78/0c24ece162d7e0572a88549d8bdd407c216e.md)
-- `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/currency-exchange/.docs/hints.md)): [Latest](../../../locales/el/content/db/89/04e639fc25e8c14ed3ff531c8c7c6dc54288.md)
+- `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/currency-exchange/.docs/hints.md)): [Latest](../../../locales/el/content/3c/59/e55a081b0b80c7af1ae846363cd45db88dd7.md)
+  - [`db8904e639`](../../../locales/el/content/db/89/04e639fc25e8c14ed3ff531c8c7c6dc54288.md)
 
 ### Elyses Enchantments (Τα μαγικά της Elyse)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/elyses-enchantments/.docs/instructions.md)): [Latest](../../../locales/el/content/89/3f/eab7784ed026b3aaa9d0468207383f7f802b.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/elyses-enchantments/.docs/instructions.md)): [Latest](../../../locales/el/content/ab/d4/49e7ef4c079fa3ad4eeb8381b451cd199e9b.md)
+  - [`893feab778`](../../../locales/el/content/89/3f/eab7784ed026b3aaa9d0468207383f7f802b.md)
 - `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/elyses-enchantments/.docs/introduction.md)): [Latest](../../../locales/el/content/cf/6f/14254d869da17e7d910cfe1fcfafc540f4a4.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/elyses-enchantments/.docs/hints.md)): [Latest](../../../locales/el/content/9d/49/56736bdd0d26419e61ba9cb72a42139a8eb1.md)
 
 ### Encounters (Συναντήσεις)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/encounters/.docs/instructions.md)): [Latest](../../../locales/el/content/cd/8b/c7b35891f926d461023d58a957ab02439c17.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/encounters/.docs/introduction.md)): [Latest](../../../locales/el/content/64/6b/d8f5985a76ab08ccfc6d286902f8a272b8c2.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/encounters/.docs/instructions.md)): [Latest](../../../locales/el/content/a5/f1/e1e691ba93383fe96a883aadda2921262956.md)
+  - [`cd8bc7b358`](../../../locales/el/content/cd/8b/c7b35891f926d461023d58a957ab02439c17.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/encounters/.docs/introduction.md)): [Latest](../../../locales/el/content/16/00/22ddaa2754b5661a022910c70300e7bab426.md)
+  - [`646bd8f598`](../../../locales/el/content/64/6b/d8f5985a76ab08ccfc6d286902f8a272b8c2.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/encounters/.docs/hints.md)): [Latest](../../../locales/el/content/bd/a6/a3877e01a93ee06f44bddffae1d1a10f3fac.md)
 
 ### Exercism Matrix (Η μήτρα του Exercism)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/exercism-matrix/.docs/instructions.md)): [Latest](../../../locales/el/content/cf/9e/227151fdd9903ac4707081a11c44729dc551.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/exercism-matrix/.docs/introduction.md)): [Latest](../../../locales/el/content/98/e5/69adefa28c5b5005f95941221cddd29dc5d8.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/exercism-matrix/.docs/instructions.md)): [Latest](../../../locales/el/content/ca/36/74a6728a9b9f8482c81a5b2b9cbfdde0a1fb.md)
+  - [`cf9e227151`](../../../locales/el/content/cf/9e/227151fdd9903ac4707081a11c44729dc551.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/exercism-matrix/.docs/introduction.md)): [Latest](../../../locales/el/content/ce/8a/e9b6f4838cee1779943055d8056b99d6d80f.md)
+  - [`98e569adef`](../../../locales/el/content/98/e5/69adefa28c5b5005f95941221cddd29dc5d8.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/exercism-matrix/.docs/hints.md)): [Latest](../../../locales/el/content/93/26/dacaf4caab789c8415ed25d5baab9c64a533.md)
 
 ### Factory Sensors (Αισθητήρες εργοστασίου)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/factory-sensors/.docs/instructions.md)): [Latest](../../../locales/el/content/41/2d/4f37a3faf77d57beccc3f7cdaa137d9c63c0.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/factory-sensors/.docs/introduction.md)): [Latest](../../../locales/el/content/78/ad/8cec45a56705805b97f019417c00ea346de7.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/factory-sensors/.docs/instructions.md)): [Latest](../../../locales/el/content/37/0c/869c1c0e360c68c512b15c169f1768aa23f6.md)
+  - [`412d4f37a3`](../../../locales/el/content/41/2d/4f37a3faf77d57beccc3f7cdaa137d9c63c0.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/factory-sensors/.docs/introduction.md)): [Latest](../../../locales/el/content/e9/06/f4b12895b06edfdb7170a70ad4ae4ec216e2.md)
+  - [`78ad8cec45`](../../../locales/el/content/78/ad/8cec45a56705805b97f019417c00ea346de7.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/factory-sensors/.docs/hints.md)): [Latest](../../../locales/el/content/ea/34/e7291aa4c6608e110388d58d9bbd26d70dce.md)
 
 ### Fibonacci Iterator (Επαναλήπτης Fibonacci)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/fibonacci-iterator/.docs/instructions.md)): [Latest](../../../locales/el/content/63/77/d18534dd99604d466148e0893160456f1c7f.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/fibonacci-iterator/.docs/introduction.md)): [Latest](../../../locales/el/content/6e/54/665548520c6b136ca94504fb4feb53490715.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/fibonacci-iterator/.docs/introduction.md)): [Latest](../../../locales/el/content/5c/be/7813bc1215ddd07ed70b6611f0cc47d1268d.md)
+  - [`6e54665548`](../../../locales/el/content/6e/54/665548520c6b136ca94504fb4feb53490715.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/fibonacci-iterator/.docs/hints.md)): [Latest](../../../locales/el/content/4f/70/a0460ee103630ae0ffc14af5b6b49b6e4b7c.md)
 
 ### Grading Guru (Γκουρού βαθμολόγησης)
@@ -586,7 +612,8 @@ This page is generated from [the index](../../json/el/julia.json) by `scripts/bu
 
 ### Land Grab In Space (Αρπαγή γης στο διάστημα)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/land-grab-in-space/.docs/instructions.md)): [Latest](../../../locales/el/content/1e/8f/98defa4e38c50aeebe4201b2bd2c22db87a4.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/land-grab-in-space/.docs/instructions.md)): [Latest](../../../locales/el/content/14/87/27599f699a3334b3e88cdfed06409699d2b4.md)
+  - [`1e8f98defa`](../../../locales/el/content/1e/8f/98defa4e38c50aeebe4201b2bd2c22db87a4.md)
 - `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/land-grab-in-space/.docs/introduction.md)): [Latest](../../../locales/el/content/2f/aa/ac82b786373a2561f128f31ce594424b954a.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/land-grab-in-space/.docs/hints.md)): [Latest](../../../locales/el/content/75/13/0fe8e26508e7630c23cc0771273aab2ff23f.md)
 
@@ -594,36 +621,42 @@ This page is generated from [the index](../../json/el/julia.json) by `scripts/bu
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/lasagna/.docs/instructions.md)): [Latest](../../../locales/el/content/28/cd/5efbb15a9e4d01ae24b3236625f89c2f541e.md)
 - `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/lasagna/.docs/introduction.md)): [Latest](../../../locales/el/content/3e/18/826005b0bdce73ffebe672926baae2183429.md)
-- `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/lasagna/.docs/hints.md)): [Latest](../../../locales/el/content/e5/15/8fe880c40c7006e9427417165b4f8bca21bd.md)
+- `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/lasagna/.docs/hints.md)): [Latest](../../../locales/el/content/0b/0f/2dec77da6289fb39d9fae2899fd1a537a126.md)
+  - [`e5158fe880`](../../../locales/el/content/e5/15/8fe880c40c7006e9427417165b4f8bca21bd.md)
 
 ### Locomotive Engineer (Μηχανοδηγός)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/locomotive-engineer/.docs/instructions.md)): [Latest](../../../locales/el/content/8d/b2/fcf98ceb948815c19bcb6b7c98af254f8ea1.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/locomotive-engineer/.docs/introduction.md)): [Latest](../../../locales/el/content/35/47/2a6931b5d6da0d29521b29eb1ce4e73bf20b.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/locomotive-engineer/.docs/introduction.md)): [Latest](../../../locales/el/content/fe/a6/c682b4beb9db9da01005b457895de2b6be99.md)
+  - [`35472a6931`](../../../locales/el/content/35/47/2a6931b5d6da0d29521b29eb1ce4e73bf20b.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/locomotive-engineer/.docs/hints.md)): [Latest](../../../locales/el/content/02/89/6e4b8913e102520d8cb5e247d2507818a653.md)
 
 ### Log Levels (Επίπεδα καταγραφής)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/log-levels/.docs/instructions.md)): [Latest](../../../locales/el/content/70/b3/0a12c80688dcde5d6d3c18adafd1f6b1abef.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/log-levels/.docs/introduction.md)): [Latest](../../../locales/el/content/e5/f1/54e925765f975f7ae118facf4457816b7cf1.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/log-levels/.docs/introduction.md)): [Latest](../../../locales/el/content/f6/1d/f91a4ad639549cb88146149917d2d087ca43.md)
+  - [`e5f154e925`](../../../locales/el/content/e5/f1/54e925765f975f7ae118facf4457816b7cf1.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/log-levels/.docs/hints.md)): [Latest](../../../locales/el/content/7c/1b/67da981dbc1949315fdb6ac8427594072465.md)
 
 ### Mecha Munch Management (Διαχείριση γευμάτων mecha)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/mecha-munch-management/.docs/instructions.md)): [Latest](../../../locales/el/content/ea/cc/9c0f44a36994137ba06ad6ad89896623a8be.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/mecha-munch-management/.docs/instructions.md)): [Latest](../../../locales/el/content/b0/75/54fcb5d9b4ad9a06b842fe156754940c2efc.md)
+  - [`eacc9c0f44`](../../../locales/el/content/ea/cc/9c0f44a36994137ba06ad6ad89896623a8be.md)
 - `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/mecha-munch-management/.docs/introduction.md)): [Latest](../../../locales/el/content/b2/45/652db1459ba4327b2848f6602a8d7f9cb0fe.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/mecha-munch-management/.docs/hints.md)): [Latest](../../../locales/el/content/24/f9/6751f9530de2ba711957d94d244d99b1b2d3.md)
 
 ### Mixed Juices (Ανάμεικτοι χυμοί)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/mixed-juices/.docs/instructions.md)): [Latest](../../../locales/el/content/1a/bd/a35df5d1235b3dea3e2743aa89f6babebbab.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/mixed-juices/.docs/introduction.md)): [Latest](../../../locales/el/content/c8/7c/591a1944b64b64624a0abac5c3b030e5f57e.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/mixed-juices/.docs/introduction.md)): [Latest](../../../locales/el/content/a1/b1/76a07f7543130ff987b8e2ed8eb8febb3e47.md)
+  - [`c87c591a19`](../../../locales/el/content/c8/7c/591a1944b64b64624a0abac5c3b030e5f57e.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/mixed-juices/.docs/hints.md)): [Latest](../../../locales/el/content/d4/87/c5b353af5b87754511d9f320857d063177a5.md)
 
 ### Name Badges (Κονκάρδες ονόματος)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/name-badges/.docs/instructions.md)): [Latest](../../../locales/el/content/62/58/556c9dd0a7cc627966cf80731d594f7203f7.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/name-badges/.docs/introduction.md)): [Latest](../../../locales/el/content/07/77/8f56c4bf9518d7313ec6f51691db71086d8d.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/name-badges/.docs/introduction.md)): [Latest](../../../locales/el/content/11/9f/f1c9eb20b5adcf2b780cadee99e43094730c.md)
+  - [`07778f56c4`](../../../locales/el/content/07/77/8f56c4bf9518d7313ec6f51691db71086d8d.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/name-badges/.docs/hints.md)): [Latest](../../../locales/el/content/e3/2f/3e69717496f10f1730505bd01d9764e32dd8.md)
 
 ### Old Annalyn's Infiltration Ⅱ (Παλιά παρείσφρηση της Annalyn Ⅱ)
@@ -634,7 +667,8 @@ This page is generated from [the index](../../json/el/julia.json) by `scripts/bu
 
 ### Old DND Character (Παλιός χαρακτήρας DND)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/old-dnd-char/.docs/instructions.md)): [Latest](../../../locales/el/content/5d/d8/f68d1790a7a9953af83fbae60578a7c52a09.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/old-dnd-char/.docs/instructions.md)): [Latest](../../../locales/el/content/a8/ff/6a755b1b1c3f5bca9f2796a72ba6574f58fb.md)
+  - [`5dd8f68d17`](../../../locales/el/content/5d/d8/f68d1790a7a9953af83fbae60578a7c52a09.md)
 - `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/old-dnd-char/.docs/introduction.md)): [Latest](../../../locales/el/content/ef/34/6ffbb7cda3dca56832941a9fd4db7bf0189c.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/old-dnd-char/.docs/hints.md)): [Latest](../../../locales/el/content/e6/9d/e29bb2d1d6434b8b29ae775ad8c2e48c5391.md)
 
@@ -664,8 +698,10 @@ This page is generated from [the index](../../json/el/julia.json) by `scripts/bu
 
 ### Old Stage Heralding (Παλιά αναγγελία σκηνής)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/old-stage-heralding/.docs/instructions.md)): [Latest](../../../locales/el/content/a6/24/c0ecb43e19f70b931a59447198c192bd839a.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/old-stage-heralding/.docs/introduction.md)): [Latest](../../../locales/el/content/3d/07/efe555d3ce74da304571d46338266d5f860e.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/old-stage-heralding/.docs/instructions.md)): [Latest](../../../locales/el/content/d4/36/37b15251fe2ecd32b070709cd402946a7780.md)
+  - [`a624c0ecb4`](../../../locales/el/content/a6/24/c0ecb43e19f70b931a59447198c192bd839a.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/old-stage-heralding/.docs/introduction.md)): [Latest](../../../locales/el/content/e1/0b/99d01382d9c6527dfa7a9cf1b0c81f3d5307.md)
+  - [`3d07efe555`](../../../locales/el/content/3d/07/efe555d3ce74da304571d46338266d5f860e.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/old-stage-heralding/.docs/hints.md)): [Latest](../../../locales/el/content/cd/c2/e4e86334e4b66e7a3460f98f59d7904dba12.md)
 
 ### Old Vehicle Purchase (Παλιά αγορά οχήματος)
@@ -688,9 +724,11 @@ This page is generated from [the index](../../json/el/julia.json) by `scripts/bu
 
 ### Ordering Ordeal (Δοκιμασία διάταξης)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/ordering-ordeal/.docs/instructions.md)): [Latest](../../../locales/el/content/5e/99/191fbf72762217542f8124d2d27830bd7e74.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/ordering-ordeal/.docs/instructions.md)): [Latest](../../../locales/el/content/a5/19/d161266e7f7d911a05fc00469928bcc41761.md)
+  - [`5e99191fbf`](../../../locales/el/content/5e/99/191fbf72762217542f8124d2d27830bd7e74.md)
 - `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/ordering-ordeal/.docs/introduction.md)): [Latest](../../../locales/el/content/c7/bb/f104e00c22fcdd502b63928d4d97901390b2.md)
-- `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/ordering-ordeal/.docs/hints.md)): [Latest](../../../locales/el/content/8d/6c/440b056be85ccf83ef88d54a770ff48099fc.md)
+- `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/ordering-ordeal/.docs/hints.md)): [Latest](../../../locales/el/content/98/36/b9cdf9fbcd3de5ede00f68fec3c28af66774.md)
+  - [`8d6c440b05`](../../../locales/el/content/8d/6c/440b056be85ccf83ef88d54a770ff48099fc.md)
 
 ### Problematic Probabilities (Προβληματικές πιθανότητες)
 
@@ -700,27 +738,32 @@ This page is generated from [the index](../../json/el/julia.json) by `scripts/bu
 
 ### Regular Chatbot (Κανονικό chatbot)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/regular-chatbot/.docs/instructions.md)): [Latest](../../../locales/el/content/62/91/ae121c9ede00701b29bb93fd616d54b93ca3.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/regular-chatbot/.docs/instructions.md)): [Latest](../../../locales/el/content/0e/15/cc021815866fc1386315ec9ad2a3b2a4c7fb.md)
+  - [`6291ae121c`](../../../locales/el/content/62/91/ae121c9ede00701b29bb93fd616d54b93ca3.md)
 - `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/regular-chatbot/.docs/introduction.md)): [Latest](../../../locales/el/content/8b/6a/3bcd7cae38afeb8107b228d4a536b56f68cf.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/regular-chatbot/.docs/hints.md)): [Latest](../../../locales/el/content/e5/59/c2f99808e370ebb3fcd646b899f65b828cc0.md)
 
 ### Robot Revolution (Επανάσταση των ρομπότ)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/robot-revolution/.docs/instructions.md)): [Latest](../../../locales/el/content/9e/55/eceab6e864d8baa81a0a2128a9f42749586a.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/robot-revolution/.docs/introduction.md)): [Latest](../../../locales/el/content/43/88/04f6effc3e96d82e22b14162ec0f684617c9.md)
-- `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/robot-revolution/.docs/hints.md)): [Latest](../../../locales/el/content/d8/d2/8d30b73ed8ef59afcfe760ad0a0faa1a400d.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/robot-revolution/.docs/introduction.md)): [Latest](../../../locales/el/content/78/d1/9b40cd1047d54cc73f9ceb6220c332a8aa9a.md)
+  - [`438804f6ef`](../../../locales/el/content/43/88/04f6effc3e96d82e22b14162ec0f684617c9.md)
+- `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/robot-revolution/.docs/hints.md)): [Latest](../../../locales/el/content/27/20/a620458501614cb14e34974cda3f4a73d413.md)
+  - [`d8d28d30b7`](../../../locales/el/content/d8/d2/8d30b73ed8ef59afcfe760ad0a0faa1a400d.md)
 
 ### Role Playing Game (Παιχνίδι Ρόλων)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/role-playing-game/.docs/instructions.md)): [Latest](../../../locales/el/content/c8/6d/0f53939b2cd65114e42782f76d57ecc9aebd.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/role-playing-game/.docs/introduction.md)): [Latest](../../../locales/el/content/9d/08/8de0b28ca8f320577b5d785128e0ad6fde7c.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/role-playing-game/.docs/introduction.md)): [Latest](../../../locales/el/content/10/41/0a27faa232348151adc8f1d0abb71687c548.md)
+  - [`9d088de0b2`](../../../locales/el/content/9d/08/8de0b28ca8f320577b5d785128e0ad6fde7c.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/role-playing-game/.docs/hints.md)): [Latest](../../../locales/el/content/98/36/7a91ff86697746086cefc4a0de286368047a.md)
 
 ### Secrets (Μυστικά)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/secrets/.docs/instructions.md)): [Latest](../../../locales/el/content/3b/d0/1659586672c940c1962715313a83f1fb82b3.md)
 - `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/secrets/.docs/introduction.md)): [Latest](../../../locales/el/content/79/81/495b91199689fbbb1450b4b4cabce29f9d2f.md)
-- `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/secrets/.docs/hints.md)): [Latest](../../../locales/el/content/8e/4f/228d3bf9cbcf2479fe1aa4ae5e359ad8a2f9.md)
+- `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/secrets/.docs/hints.md)): [Latest](../../../locales/el/content/4f/78/b7cf974416c98fc357714a232fd1c34c6954.md)
+  - [`8e4f228d3b`](../../../locales/el/content/8e/4f/228d3bf9cbcf2479fe1aa4ae5e359ad8a2f9.md)
 
 ### Squeaky Clean (Πεντακάθαρος)
 
@@ -731,20 +774,25 @@ This page is generated from [the index](../../json/el/julia.json) by `scripts/bu
 ### Tisbury Treasure Hunt (Κυνήγι θησαυρού στο Tisbury)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/tisbury-treasure-hunt/.docs/instructions.md)): [Latest](../../../locales/el/content/85/c0/be75f9270a88545b35187067fcc46d24d7cd.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/tisbury-treasure-hunt/.docs/introduction.md)): [Latest](../../../locales/el/content/6b/64/83522f4405d4e48ea9b316e71f9b25653c16.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/tisbury-treasure-hunt/.docs/introduction.md)): [Latest](../../../locales/el/content/bd/9f/a11bcf52e4a5799b264849c7de03d0675439.md)
+  - [`6b6483522f`](../../../locales/el/content/6b/64/83522f4405d4e48ea9b316e71f9b25653c16.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/tisbury-treasure-hunt/.docs/hints.md)): [Latest](../../../locales/el/content/14/11/ef232b3563f6de56b2d0e5fd9f56ac3e291a.md)
 
 ### Tracking Turntable (Πικάπ παρακολούθησης)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/tracking-turntable/.docs/instructions.md)): [Latest](../../../locales/el/content/b9/ce/bb6f30f47e9b2518e31002854d7c190b8b6c.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/tracking-turntable/.docs/instructions.md)): [Latest](../../../locales/el/content/21/a2/ff8ce6860790a7cb53a658f91a4e48241a95.md)
+  - [`b9cebb6f30`](../../../locales/el/content/b9/ce/bb6f30f47e9b2518e31002854d7c190b8b6c.md)
 - `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/tracking-turntable/.docs/introduction.md)): [Latest](../../../locales/el/content/d9/5c/7ff0715456f9013737fe902def1165a2dc3d.md)
-- `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/tracking-turntable/.docs/hints.md)): [Latest](../../../locales/el/content/0e/88/d67371ef5624d2caa26e04f30c56d8d19344.md)
+- `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/tracking-turntable/.docs/hints.md)): [Latest](../../../locales/el/content/e6/7e/a0a0de9450cb2bfccef551cff148f50f5a82.md)
+  - [`0e88d67371`](../../../locales/el/content/0e/88/d67371ef5624d2caa26e04f30c56d8d19344.md)
 
 ### Treasure Chest (Σεντούκι θησαυρού)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/treasure-chest/.docs/instructions.md)): [Latest](../../../locales/el/content/ed/95/539a0f8ca6d3b5e1fca8f7084e728061deb3.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/treasure-chest/.docs/instructions.md)): [Latest](../../../locales/el/content/06/91/9ee1771105814a118ef791c26d239746d82c.md)
+  - [`ed95539a0f`](../../../locales/el/content/ed/95/539a0f8ca6d3b5e1fca8f7084e728061deb3.md)
 - `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/treasure-chest/.docs/introduction.md)): [Latest](../../../locales/el/content/94/ad/97e2ac812ad7b62f58e482f82fb80f0bd8fb.md)
-- `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/treasure-chest/.docs/hints.md)): [Latest](../../../locales/el/content/a6/c4/015c8ce942dcd4bb8849e8d31ee859ef41d1.md)
+- `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/treasure-chest/.docs/hints.md)): [Latest](../../../locales/el/content/9b/8b/61843e76bf3c06dfa30b712ec8b19b8fd7a3.md)
+  - [`a6c4015c8c`](../../../locales/el/content/a6/c4/015c8ce942dcd4bb8849e8d31ee859ef41d1.md)
 
 ## Concepts
 
@@ -752,7 +800,8 @@ This page is generated from [the index](../../json/el/julia.json) by `scripts/bu
 
 - `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/basics/introduction.md)): [Latest](../../../locales/el/content/cc/28/55eb106b10637ad198ebdeb655a889fde0f1.md)
   - [`2dc35ddf76`](../../../locales/el/content/2d/c3/5ddf76cb539727d1aeab8bd7ce1d62ab2fe4.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/basics/about.md)): [Latest](../../../locales/el/content/5d/6f/92aaed13cc41e4b8a8b81f1271c585396b21.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/basics/about.md)): [Latest](../../../locales/el/content/1d/ce/f6063afbfcb4575076c6466524e446298d06.md)
+  - [`5d6f92aaed`](../../../locales/el/content/5d/6f/92aaed13cc41e4b8a8b81f1271c585396b21.md)
   - [`3e0bd320f7`](../../../locales/el/content/3e/0b/d320f7d424d80aff7751e85d883a8e99808e.md)
 
 ### Bitwise Operations (Πράξεις σε επίπεδο bit)
@@ -780,23 +829,30 @@ This page is generated from [the index](../../json/el/julia.json) by `scripts/bu
 ### Composite Types (Σύνθετοι τύποι)
 
 - `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/composite-types/introduction.md)): [Latest](../../../locales/el/content/e3/e7/ecff52b5f5b564ac0f62ed0d5e1466424bec.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/composite-types/about.md)): [Latest](../../../locales/el/content/71/87/6bef9d2db8c0db5cbcd6099e9306c3e9fa26.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/composite-types/about.md)): [Latest](../../../locales/el/content/0d/90/67c0feb8d799e19097124bcd0c7e77b4320d.md)
+  - [`71876bef9d`](../../../locales/el/content/71/87/6bef9d2db8c0db5cbcd6099e9306c3e9fa26.md)
 
 ### Comprehensions (Κατανοήσεις)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/comprehensions/introduction.md)): [Latest](../../../locales/el/content/5b/5c/81e4e7fe448c5f59b969351eadc6baaaae61.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/comprehensions/about.md)): [Latest](../../../locales/el/content/55/63/2ce67292c1765d9740c71e61dca549d088d4.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/comprehensions/introduction.md)): [Latest](../../../locales/el/content/c8/75/32be14ec01da1e6dbd331e035454e3307406.md)
+  - [`5b5c81e4e7`](../../../locales/el/content/5b/5c/81e4e7fe448c5f59b969351eadc6baaaae61.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/comprehensions/about.md)): [Latest](../../../locales/el/content/86/48/aa3d07f9f8804b1ab9eec7da3e1e4ecf5b47.md)
+  - [`55632ce672`](../../../locales/el/content/55/63/2ce67292c1765d9740c71e61dca549d088d4.md)
 
 ### Conditionals (Συνθήκες)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/conditionals/introduction.md)): [Latest](../../../locales/el/content/d4/63/97cc0538285f3eee46b8acd7595cdbe38504.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/conditionals/about.md)): [Latest](../../../locales/el/content/ab/ea/884222ebbdd7b109dcdb99533110a3a9f819.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/conditionals/introduction.md)): [Latest](../../../locales/el/content/3c/17/48bc4f78f5ae24a6d530ad5337db0905b8fe.md)
+  - [`d46397cc05`](../../../locales/el/content/d4/63/97cc0538285f3eee46b8acd7595cdbe38504.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/conditionals/about.md)): [Latest](../../../locales/el/content/5c/eb/289781254932d56e294cdece94ca317ba3ae.md)
+  - [`abea884222`](../../../locales/el/content/ab/ea/884222ebbdd7b109dcdb99533110a3a9f819.md)
 
 ### Dates and Times (Ημερομηνίες και ώρες)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/dates-times/introduction.md)): [Latest](../../../locales/el/content/fa/44/6f9023989236c1242f9a91b5beff7d316b75.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/dates-times/introduction.md)): [Latest](../../../locales/el/content/cc/66/34dd358958ad16880edf510e90866834e4b7.md)
+  - [`fa446f9023`](../../../locales/el/content/fa/44/6f9023989236c1242f9a91b5beff7d316b75.md)
   - [`584d902be2`](../../../locales/el/content/58/4d/902be2d49dbbbc3e14804d4e04945fe151a8.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/dates-times/about.md)): [Latest](../../../locales/el/content/7e/07/3d16d4902220b93cc7fe7e4d645fc422822e.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/dates-times/about.md)): [Latest](../../../locales/el/content/2b/f4/5d9ac93591146af910d20740e9b670e38452.md)
+  - [`7e073d16d4`](../../../locales/el/content/7e/07/3d16d4902220b93cc7fe7e4d645fc422822e.md)
   - [`1ce825b402`](../../../locales/el/content/1c/e8/25b40242e2031c4b8db3fd0557f33bac0123.md)
 
 ### Dict Functions (Συναρτήσεις λεξικών)
@@ -806,8 +862,10 @@ This page is generated from [the index](../../json/el/julia.json) by `scripts/bu
 
 ### Errors (Σφάλματα)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/errors/introduction.md)): [Latest](../../../locales/el/content/78/ad/8cec45a56705805b97f019417c00ea346de7.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/errors/about.md)): [Latest](../../../locales/el/content/d0/49/d90ff9aa23cd37678b3c250d0f63c8cdd1db.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/errors/introduction.md)): [Latest](../../../locales/el/content/e9/06/f4b12895b06edfdb7170a70ad4ae4ec216e2.md)
+  - [`78ad8cec45`](../../../locales/el/content/78/ad/8cec45a56705805b97f019417c00ea346de7.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/errors/about.md)): [Latest](../../../locales/el/content/31/45/7b291fa4315ce64519209b185e1918e28abd.md)
+  - [`d049d90ff9`](../../../locales/el/content/d0/49/d90ff9aa23cd37678b3c250d0f63c8cdd1db.md)
 
 ### Function Composition (Σύνθεση συναρτήσεων)
 
@@ -816,27 +874,34 @@ This page is generated from [the index](../../json/el/julia.json) by `scripts/bu
 
 ### Functions (Συναρτήσεις)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/functions/introduction.md)): [Latest](../../../locales/el/content/ad/5e/32098e6a95413f42301e318602f03e398223.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/functions/about.md)): [Latest](../../../locales/el/content/1e/0a/606852aeb76a77b666dbd4229c065be060dc.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/functions/introduction.md)): [Latest](../../../locales/el/content/e9/3f/aa862d52b012404969c393b8ab0a6eb06597.md)
+  - [`ad5e32098e`](../../../locales/el/content/ad/5e/32098e6a95413f42301e318602f03e398223.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/functions/about.md)): [Latest](../../../locales/el/content/12/47/128cf722e11e63e77fb67f88871bec69ffdc.md)
+  - [`1e0a606852`](../../../locales/el/content/1e/0a/606852aeb76a77b666dbd4229c065be060dc.md)
 
 ### Higher Order Functions (Συναρτήσεις ανώτερης τάξης)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/higher-order-functions/introduction.md)): [Latest](../../../locales/el/content/5d/b2/89cf3584cc081f9b873887894778f732c45f.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/higher-order-functions/introduction.md)): [Latest](../../../locales/el/content/7d/9b/a2e119621997b8dd3da48c772d53542c4dda.md)
+  - [`5db289cf35`](../../../locales/el/content/5d/b2/89cf3584cc081f9b873887894778f732c45f.md)
   - [`9839d9160a`](../../../locales/el/content/98/39/d9160a2b9e3d743b81cedd76ceecae5c21a8.md)
 - `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/higher-order-functions/about.md)): [Latest](../../../locales/el/content/e0/25/0ddf9e93bf9407c550d79eed3740c2c35184.md)
   - [`6b418eeb5b`](../../../locales/el/content/6b/41/8eeb5bb728c49588e00235c2f685498c226e.md)
 
 ### Interfaces (Διεπαφές)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/interfaces/introduction.md)): [Latest](../../../locales/el/content/25/02/f9671511bf0c86b11dc93c7b663a888b784c.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/interfaces/about.md)): [Latest](../../../locales/el/content/0d/a9/7f45ad13210726d3f6d8e6830c1b86a20fac.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/interfaces/introduction.md)): [Latest](../../../locales/el/content/38/2d/4139e996db3267e4c9044db7210dbf939c5b.md)
+  - [`2502f96715`](../../../locales/el/content/25/02/f9671511bf0c86b11dc93c7b663a888b784c.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/interfaces/about.md)): [Latest](../../../locales/el/content/29/32/4ceef65f332997c44c5bf3b3a2cc3c595724.md)
+  - [`0da97f45ad`](../../../locales/el/content/0d/a9/7f45ad13210726d3f6d8e6830c1b86a20fac.md)
   - [`7c29fb6095`](../../../locales/el/content/7c/29/fb6095bf4ef18587a24d77d6eed158f0499a.md)
 
 ### Linear Algebra Basics (Βασικά στοιχεία γραμμικής άλγεβρας)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/linear-algebra-basics/introduction.md)): [Latest](../../../locales/el/content/0e/ec/7e9db508de413de6ff3f3f9578f8b0537cd2.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/linear-algebra-basics/introduction.md)): [Latest](../../../locales/el/content/fc/a7/b0793267cc688f723af2cad6aabb30f3198d.md)
+  - [`0eec7e9db5`](../../../locales/el/content/0e/ec/7e9db508de413de6ff3f3f9578f8b0537cd2.md)
   - [`24c167e952`](../../../locales/el/content/24/c1/67e952d76d8fbe88b603de04d08f160244e6.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/linear-algebra-basics/about.md)): [Latest](../../../locales/el/content/8b/6d/45b6402db0895b628749fa77b37a0fe8522a.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/linear-algebra-basics/about.md)): [Latest](../../../locales/el/content/5d/6d/ce20300d720b70e01e20821ceecd061c6b6f.md)
+  - [`8b6d45b640`](../../../locales/el/content/8b/6d/45b6402db0895b628749fa77b37a0fe8522a.md)
   - [`1a2ebb4905`](../../../locales/el/content/1a/2e/bb4905ff073eb5ac0abccdd5a4999a886783.md)
 
 ### Linear Equation Solving (Επίλυση γραμμικών εξισώσεων)
@@ -848,27 +913,35 @@ This page is generated from [the index](../../json/el/julia.json) by `scripts/bu
 
 ### Loops (Βρόχοι)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/loops/introduction.md)): [Latest](../../../locales/el/content/27/04/b7be28d1be382a9caf5dbf268e8da8c1e2a2.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/loops/about.md)): [Latest](../../../locales/el/content/13/f4/1f2db837b4ce28a436dda96ce7ff542e1ecf.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/loops/introduction.md)): [Latest](../../../locales/el/content/aa/cd/bbb70a968ad975ced08e1906a2f3725027f2.md)
+  - [`2704b7be28`](../../../locales/el/content/27/04/b7be28d1be382a9caf5dbf268e8da8c1e2a2.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/loops/about.md)): [Latest](../../../locales/el/content/df/63/b3d78eb56846973708883f59175224026176.md)
+  - [`13f41f2db8`](../../../locales/el/content/13/f4/1f2db837b4ce28a436dda96ce7ff542e1ecf.md)
 
 ### Multi Dimensional Arrays (Πολυδιάστατοι πίνακες)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/multi-dimensional-arrays/introduction.md)): [Latest](../../../locales/el/content/a9/be/7c7943878395de58746320f5e498baa4b07b.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/multi-dimensional-arrays/introduction.md)): [Latest](../../../locales/el/content/36/c5/df27dcd3a0c6755d1961877ba9d06c85e8ff.md)
+  - [`a9be7c7943`](../../../locales/el/content/a9/be/7c7943878395de58746320f5e498baa4b07b.md)
   - [`98e569adef`](../../../locales/el/content/98/e5/69adefa28c5b5005f95941221cddd29dc5d8.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/multi-dimensional-arrays/about.md)): [Latest](../../../locales/el/content/fd/eb/34ff7d4032dca92ec11a3f0d3316d4a5a0eb.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/multi-dimensional-arrays/about.md)): [Latest](../../../locales/el/content/de/83/b29be966c3199dca023443b8b0e31dbb1ce6.md)
+  - [`fdeb34ff7d`](../../../locales/el/content/fd/eb/34ff7d4032dca92ec11a3f0d3316d4a5a0eb.md)
   - [`9fdfe6bce1`](../../../locales/el/content/9f/df/e6bce10ace127431454ec0b38be6ff53e870.md)
 
 ### Multiple Dispatch (Πολλαπλή αποστολή)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/multiple-dispatch/introduction.md)): [Latest](../../../locales/el/content/96/74/9d516765ead1d1bd6142010485d24d738a3b.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/multiple-dispatch/introduction.md)): [Latest](../../../locales/el/content/b6/2d/91af722fc46f046a481667e0a58de6bb75a7.md)
+  - [`96749d5167`](../../../locales/el/content/96/74/9d516765ead1d1bd6142010485d24d738a3b.md)
   - [`646bd8f598`](../../../locales/el/content/64/6b/d8f5985a76ab08ccfc6d286902f8a272b8c2.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/multiple-dispatch/about.md)): [Latest](../../../locales/el/content/ca/79/143f0de9781d6ada689326463fb97daaea43.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/multiple-dispatch/about.md)): [Latest](../../../locales/el/content/67/bd/0383ed9f877ccc324767453647faf870d9dc.md)
+  - [`ca79143f0d`](../../../locales/el/content/ca/79/143f0de9781d6ada689326463fb97daaea43.md)
   - [`19735db5eb`](../../../locales/el/content/19/73/5db5eb0369f80871404368832f0e2d644188.md)
 
 ### Nothingness (Τίποτα)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/nothingness/introduction.md)): [Latest](../../../locales/el/content/d1/2e/a1a30a53adf1ec30f44b2a049dbe49e59b17.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/nothingness/about.md)): [Latest](../../../locales/el/content/81/33/179662aefba24f2cbff64bdb5f81c5af545a.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/nothingness/introduction.md)): [Latest](../../../locales/el/content/ee/24/e0414ce62902780ab1ff93f98cb94351bb49.md)
+  - [`d12ea1a30a`](../../../locales/el/content/d1/2e/a1a30a53adf1ec30f44b2a049dbe49e59b17.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/nothingness/about.md)): [Latest](../../../locales/el/content/62/16/a94a7cca636d67e3fda2b1636de7b3d7c1e9.md)
+  - [`8133179662`](../../../locales/el/content/81/33/179662aefba24f2cbff64bdb5f81c5af545a.md)
 
 ### Numbers (Αριθμοί)
 
@@ -909,8 +982,10 @@ This page is generated from [the index](../../json/el/julia.json) by `scripts/bu
 
 ### Sets (Σύνολα)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/sets/introduction.md)): [Latest](../../../locales/el/content/c7/47/8b6b428ad3a466b3a42d774a408ed1ed1a3e.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/sets/about.md)): [Latest](../../../locales/el/content/a4/9b/0c614100da7ab88df74bcc0fc2fdef5748ee.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/sets/introduction.md)): [Latest](../../../locales/el/content/80/3d/12696e927ead84d2db252e3ee70980c2dad9.md)
+  - [`c7478b6b42`](../../../locales/el/content/c7/47/8b6b428ad3a466b3a42d774a408ed1ed1a3e.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/sets/about.md)): [Latest](../../../locales/el/content/e5/ec/b133fc9d853e6b94a3029d15c12d44f15cee.md)
+  - [`a49b0c6141`](../../../locales/el/content/a4/9b/0c614100da7ab88df74bcc0fc2fdef5748ee.md)
 
 ### Sorting (Ταξινόμηση)
 
@@ -926,20 +1001,25 @@ This page is generated from [the index](../../json/el/julia.json) by `scripts/bu
 
 ### Strings (Συμβολοσειρές)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/strings/introduction.md)): [Latest](../../../locales/el/content/6e/ba/8572e636967a9212969fdcd621670cd5ac76.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/strings/introduction.md)): [Latest](../../../locales/el/content/29/89/942b67ef3ff2f83707d0a6197af2457093a8.md)
+  - [`6eba8572e6`](../../../locales/el/content/6e/ba/8572e636967a9212969fdcd621670cd5ac76.md)
   - [`b0989b656b`](../../../locales/el/content/b0/98/9b656bb6ddabe142b14c1626cd08ce956bec.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/strings/about.md)): [Latest](../../../locales/el/content/27/ba/4938d41e0a7c76d268c26ebb10e31d1d80ee.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/strings/about.md)): [Latest](../../../locales/el/content/e3/fe/556ea22fcf2112fc72cecb79c406a767622e.md)
+  - [`27ba4938d4`](../../../locales/el/content/27/ba/4938d41e0a7c76d268c26ebb10e31d1d80ee.md)
   - [`7a90d08ad3`](../../../locales/el/content/7a/90/d08ad35173e281a20a88edf9288e96870926.md)
 
 ### Tuples (Πλειάδες)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/tuples/introduction.md)): [Latest](../../../locales/el/content/21/18/325aa92a7dcb4723405a7176dd3269ba9227.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/tuples/introduction.md)): [Latest](../../../locales/el/content/00/3f/1ab45458213ddc91205489f4dc94499d6196.md)
+  - [`2118325aa9`](../../../locales/el/content/21/18/325aa92a7dcb4723405a7176dd3269ba9227.md)
 - `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/tuples/about.md)): [Latest](../../../locales/el/content/9e/ae/7e0addcedbcf9566edf2a862b3371f339b20.md)
 
 ### Type Unions (Ενώσεις τύπων)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/type-unions/introduction.md)): [Latest](../../../locales/el/content/11/3e/fb47f80b4045657ab917d59842873e711e4f.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/type-unions/about.md)): [Latest](../../../locales/el/content/59/61/622cb051db16b4db18d9e6d16af43c3f1c7b.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/type-unions/introduction.md)): [Latest](../../../locales/el/content/d9/fe/ff86501c2cfb7885b3561c8de5d0b4c1c6d4.md)
+  - [`113efb47f8`](../../../locales/el/content/11/3e/fb47f80b4045657ab917d59842873e711e4f.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/type-unions/about.md)): [Latest](../../../locales/el/content/51/82/62c70c7cc9e95ff7c86605d76d7e196906fb.md)
+  - [`5961622cb0`](../../../locales/el/content/59/61/622cb051db16b4db18d9e6d16af43c3f1c7b.md)
 
 ### Types (Τύποι)
 
@@ -948,8 +1028,10 @@ This page is generated from [the index](../../json/el/julia.json) by `scripts/bu
 
 ### Vector Operations (Πράξεις με διανύσματα)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/vector-operations/introduction.md)): [Latest](../../../locales/el/content/ee/45/0f0c825c77decd9a578cac119e8b02188d19.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/vector-operations/about.md)): [Latest](../../../locales/el/content/ab/5c/3859bea9faa09e6c77b83825de9311e02b10.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/vector-operations/introduction.md)): [Latest](../../../locales/el/content/e0/bc/57db45efe697632541104b5b6d496c72716f.md)
+  - [`ee450f0c82`](../../../locales/el/content/ee/45/0f0c825c77decd9a578cac119e8b02188d19.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/vector-operations/about.md)): [Latest](../../../locales/el/content/5a/01/53ea2bd13060ab70f93f6445085b92e3f492.md)
+  - [`ab5c3859be`](../../../locales/el/content/ab/5c/3859bea9faa09e6c77b83825de9311e02b10.md)
   - [`03f6b17356`](../../../locales/el/content/03/f6/b1735658281977f2d49da6a079c9756f8c20.md)
 
 ### Vectors (Διανύσματα)
