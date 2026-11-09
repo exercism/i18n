@@ -482,24 +482,30 @@ This page is generated from [the index](../../json/es-ES/r.json) by `scripts/bui
 
 ### Cheese Club (Club del queso)
 
-- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/cheese-club/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/fc/21/82f8d263548097eb849c9e4e2c77da42f246.md)
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/cheese-club/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/75/e6/3c966eca74615de3c4c35b932ee5f52160c7.md)
-- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/cheese-club/.docs/hints.md)): [Latest](../../../locales/es-ES/content/d9/ab/ec06247bb316a88fd4f4067c6857c47d90dd.md)
+- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/cheese-club/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/2e/50/419860593fb0960b8217d80ebcb1333b2047.md)
+  - [`fc2182f8d2`](../../../locales/es-ES/content/fc/21/82f8d263548097eb849c9e4e2c77da42f246.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/cheese-club/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/49/6c/c31dc96e8e624c95504962c43348942a3180.md)
+  - [`75e63c966e`](../../../locales/es-ES/content/75/e6/3c966eca74615de3c4c35b932ee5f52160c7.md)
+- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/cheese-club/.docs/hints.md)): [Latest](../../../locales/es-ES/content/15/59/d9ba8fc739a73a2d7f3bd4f0984249f0666c.md)
+  - [`d9abec0624`](../../../locales/es-ES/content/d9/ab/ec06247bb316a88fd4f4067c6857c47d90dd.md)
 
 ### Coordinate Transformation (Transformación de coordenadas)
 
-- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/coordinate-transformation/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/ad/1d/a0e14b41450dd3d481056a96ff1ffc2604e0.md)
-  - [`6d299ae1be`](../../../locales/es-ES/content/6d/29/9ae1be84c37fe77d36fa97b95a800340089d.md)
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/coordinate-transformation/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/10/8c/e683e20cbc5da26ef4c18b848b1b6b5afb30.md)
-  - [`40335472e4`](../../../locales/es-ES/content/40/33/5472e459a45f3e7450a8a07fad28224db441.md)
-- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/coordinate-transformation/.docs/hints.md)): [Latest](../../../locales/es-ES/content/62/07/30bb901849f9b7abf4fda43fd1ab9eda321d.md)
-  - [`3d6e3d1653`](../../../locales/es-ES/content/3d/6e/3d16531da6dc1f6ed1f3d3e8eedeb45e0c54.md)
+- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/coordinate-transformation/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/6d/29/9ae1be84c37fe77d36fa97b95a800340089d.md)
+  - [`ad1da0e14b`](../../../locales/es-ES/content/ad/1d/a0e14b41450dd3d481056a96ff1ffc2604e0.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/coordinate-transformation/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/40/33/5472e459a45f3e7450a8a07fad28224db441.md)
+  - [`108ce683e2`](../../../locales/es-ES/content/10/8c/e683e20cbc5da26ef4c18b848b1b6b5afb30.md)
+- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/coordinate-transformation/.docs/hints.md)): [Latest](../../../locales/es-ES/content/3d/6e/3d16531da6dc1f6ed1f3d3e8eedeb45e0c54.md)
+  - [`620730bb90`](../../../locales/es-ES/content/62/07/30bb901849f9b7abf4fda43fd1ab9eda321d.md)
 
 ### Crow Cab (Taxi Cuervo)
 
-- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/crow-cab/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/d4/d8/98524268e9e6b6a46f6c3c35fed1286d5951.md)
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/crow-cab/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/bb/1f/39548a5e39992dadfa07152f10b3246c5079.md)
-- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/crow-cab/.docs/hints.md)): [Latest](../../../locales/es-ES/content/80/97/507d13779bf1402b66d048b575d606555524.md)
+- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/crow-cab/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/e6/0b/8c71d373346702469fc6dd142eb90ed9710b.md)
+  - [`d4d8985242`](../../../locales/es-ES/content/d4/d8/98524268e9e6b6a46f6c3c35fed1286d5951.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/crow-cab/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/64/e1/2159823a5ca133dad3cc610c84907efd0da2.md)
+  - [`bb1f39548a`](../../../locales/es-ES/content/bb/1f/39548a5e39992dadfa07152f10b3246c5079.md)
+- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/crow-cab/.docs/hints.md)): [Latest](../../../locales/es-ES/content/b1/57/60d8783ab4698ad69a387fa3ef6c04791292.md)
+  - [`8097507d13`](../../../locales/es-ES/content/80/97/507d13779bf1402b66d048b575d606555524.md)
 
 ### Elyse's Analytic Enchantments (Los encantamientos analíticos de Elyse)
 
@@ -521,12 +527,12 @@ This page is generated from [the index](../../json/es-ES/r.json) by `scripts/bui
 
 ### Factory Sensors (Sensores de fábrica)
 
-- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/factory-sensors/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/ec/60/a8f65b8f244f489df289939fa5ac37a3f18c.md)
-  - [`949bc1b6c7`](../../../locales/es-ES/content/94/9b/c1b6c7e33caf91d311a438bca874e45a7b5b.md)
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/factory-sensors/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/50/ad/76869b64f75cfe8b4521ed8301d614da0e31.md)
-  - [`8968c5886c`](../../../locales/es-ES/content/89/68/c5886cca9f53abd856677709d2f72f160ceb.md)
-- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/factory-sensors/.docs/hints.md)): [Latest](../../../locales/es-ES/content/a5/21/5b3e102038888b83189d4cce1604cc012b27.md)
-  - [`eb7a23997a`](../../../locales/es-ES/content/eb/7a/23997aba8cdbf074c38d668fd40e0b3ecb13.md)
+- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/factory-sensors/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/94/9b/c1b6c7e33caf91d311a438bca874e45a7b5b.md)
+  - [`ec60a8f65b`](../../../locales/es-ES/content/ec/60/a8f65b8f244f489df289939fa5ac37a3f18c.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/factory-sensors/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/89/68/c5886cca9f53abd856677709d2f72f160ceb.md)
+  - [`50ad76869b`](../../../locales/es-ES/content/50/ad/76869b64f75cfe8b4521ed8301d614da0e31.md)
+- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/factory-sensors/.docs/hints.md)): [Latest](../../../locales/es-ES/content/eb/7a/23997aba8cdbf074c38d668fd40e0b3ecb13.md)
+  - [`a5215b3e10`](../../../locales/es-ES/content/a5/21/5b3e102038888b83189d4cce1604cc012b27.md)
 
 ### Lasagna (Lasaña)
 
@@ -547,10 +553,10 @@ This page is generated from [the index](../../json/es-ES/r.json) by `scripts/bui
 
 ### Mixed Juices (Zumos variados)
 
-- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/mixed-juices/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/ac/33/de3f3a0780346d931b5120704776cf2832fd.md)
-  - [`67d2517608`](../../../locales/es-ES/content/67/d2/5176087790a32827ec3e25079726f03275fd.md)
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/mixed-juices/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/43/05/43cde309735a688c8455252d7e90c7d34214.md)
-  - [`738a83b798`](../../../locales/es-ES/content/73/8a/83b798a6c0339db2ae6d552a497ae7637a4d.md)
+- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/mixed-juices/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/67/d2/5176087790a32827ec3e25079726f03275fd.md)
+  - [`ac33de3f3a`](../../../locales/es-ES/content/ac/33/de3f3a0780346d931b5120704776cf2832fd.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/mixed-juices/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/73/8a/83b798a6c0339db2ae6d552a497ae7637a4d.md)
+  - [`430543cde3`](../../../locales/es-ES/content/43/05/43cde309735a688c8455252d7e90c7d34214.md)
 - `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/mixed-juices/.docs/hints.md)): [Latest](../../../locales/es-ES/content/a7/d1/96dd2a683078a12de3a9735eb1dc20ac1a3d.md)
 
 ### Name Badges (Etiquetas con el nombre)
@@ -571,12 +577,12 @@ This page is generated from [the index](../../json/es-ES/r.json) by `scripts/bui
 
 ### Need For Speed (Necesidad de velocidad)
 
-- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/need-for-speed/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/56/36/a13d601ec16cebedc605b76a933a8fcfdc45.md)
-  - [`97d2b5c9ca`](../../../locales/es-ES/content/97/d2/b5c9cab5c562e52405eff5a472c6f1a7037c.md)
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/need-for-speed/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/32/19/b760359da9865aa76cf74f2145c97a0d67b9.md)
-  - [`39a5c14475`](../../../locales/es-ES/content/39/a5/c1447505bc34ca45b398806559788a55d652.md)
-- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/need-for-speed/.docs/hints.md)): [Latest](../../../locales/es-ES/content/81/28/86d0b64d8904a3ff52ad9bcd66dae490a959.md)
-  - [`e875db4845`](../../../locales/es-ES/content/e8/75/db4845d0ad1898a1aa48eb0af5ebf5528563.md)
+- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/need-for-speed/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/97/d2/b5c9cab5c562e52405eff5a472c6f1a7037c.md)
+  - [`5636a13d60`](../../../locales/es-ES/content/56/36/a13d601ec16cebedc605b76a933a8fcfdc45.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/need-for-speed/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/39/a5/c1447505bc34ca45b398806559788a55d652.md)
+  - [`3219b76035`](../../../locales/es-ES/content/32/19/b760359da9865aa76cf74f2145c97a0d67b9.md)
+- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/need-for-speed/.docs/hints.md)): [Latest](../../../locales/es-ES/content/e8/75/db4845d0ad1898a1aa48eb0af5ebf5528563.md)
+  - [`812886d0b6`](../../../locales/es-ES/content/81/28/86d0b64d8904a3ff52ad9bcd66dae490a959.md)
 
 ### Ozan's Playlist (La lista de reproducción de Ozan)
 
@@ -588,14 +594,18 @@ This page is generated from [the index](../../json/es-ES/r.json) by `scripts/bui
 
 ### Regular Chatbot (Chatbot de expresiones regulares)
 
-- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/regular-chatbot/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/4a/0f/e9572e0f5861d759b2884e04a81a798ba335.md)
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/regular-chatbot/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/06/77/70120dfefe929603bcccd13fb4fb6a4e53af.md)
+- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/regular-chatbot/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/75/bc/7f4bd8cd31c7c2dcf0e510b59fa576b84522.md)
+  - [`4a0fe9572e`](../../../locales/es-ES/content/4a/0f/e9572e0f5861d759b2884e04a81a798ba335.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/regular-chatbot/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/16/14/87fc6c3f407dc17f16245038d5f6d167013d.md)
+  - [`067770120d`](../../../locales/es-ES/content/06/77/70120dfefe929603bcccd13fb4fb6a4e53af.md)
 - `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/regular-chatbot/.docs/hints.md)): [Latest](../../../locales/es-ES/content/aa/0b/f45d61173fb80747b2b990b52fbd00f38cdd.md)
 
 ### Trees & Tibble-ations (Árboles y tibble-aciones)
 
-- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/trees-and-tibbleations/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/b2/94/eb222e586a2fe99dd1cc6227a1fe52d3135e.md)
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/trees-and-tibbleations/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/b2/ff/8c98ea4bba42e682cf49743df56a745bd17d.md)
+- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/trees-and-tibbleations/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/49/4d/af7ba36b1bc7363447558345d2e82e074814.md)
+  - [`b294eb222e`](../../../locales/es-ES/content/b2/94/eb222e586a2fe99dd1cc6227a1fe52d3135e.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/trees-and-tibbleations/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/02/44/53d96ae3d0d6653e5c46f721889c7c7d281a.md)
+  - [`b2ff8c98ea`](../../../locales/es-ES/content/b2/ff/8c98ea4bba42e682cf49743df56a745bd17d.md)
 - `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/trees-and-tibbleations/.docs/hints.md)): [Latest](../../../locales/es-ES/content/b5/0f/28ff428e99faa2faa787355a034d421d996d.md)
 
 ## Concepts
@@ -620,8 +630,10 @@ This page is generated from [the index](../../json/es-ES/r.json) by `scripts/bui
 
 ### Complex Numbers (Números complejos)
 
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/complex-numbers/introduction.md)): [Latest](../../../locales/es-ES/content/f5/89/c2bd4d8bce8f30347c243a9778942da27eae.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/complex-numbers/about.md)): [Latest](../../../locales/es-ES/content/79/db/158b6f7821033b41c54667de3efce1f52265.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/complex-numbers/introduction.md)): [Latest](../../../locales/es-ES/content/ec/11/76bfb24fff3ac287ed8ebbde96804fdb276e.md)
+  - [`f589c2bd4d`](../../../locales/es-ES/content/f5/89/c2bd4d8bce8f30347c243a9778942da27eae.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/complex-numbers/about.md)): [Latest](../../../locales/es-ES/content/44/d1/4e580ee056a6e41d475ce67d6e81aef31f7e.md)
+  - [`79db158b6f`](../../../locales/es-ES/content/79/db/158b6f7821033b41c54667de3efce1f52265.md)
 
 ### Conditionals (Condicionales)
 
@@ -631,8 +643,10 @@ This page is generated from [the index](../../json/es-ES/r.json) by `scripts/bui
 
 ### Dataframes
 
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/dataframes/introduction.md)): [Latest](../../../locales/es-ES/content/b2/ff/8c98ea4bba42e682cf49743df56a745bd17d.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/dataframes/about.md)): [Latest](../../../locales/es-ES/content/61/1e/911f1f864b8c1a04d8e935e0a03dd82e4da5.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/dataframes/introduction.md)): [Latest](../../../locales/es-ES/content/02/44/53d96ae3d0d6653e5c46f721889c7c7d281a.md)
+  - [`b2ff8c98ea`](../../../locales/es-ES/content/b2/ff/8c98ea4bba42e682cf49743df56a745bd17d.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/dataframes/about.md)): [Latest](../../../locales/es-ES/content/5a/4c/f4e40403b7d08324f2fb20c211f5630c420e.md)
+  - [`611e911f1f`](../../../locales/es-ES/content/61/1e/911f1f864b8c1a04d8e935e0a03dd82e4da5.md)
 
 ### Dates Times (Fechas y horas)
 
@@ -641,36 +655,38 @@ This page is generated from [the index](../../json/es-ES/r.json) by `scripts/bui
 
 ### Errors (Errores)
 
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/errors/introduction.md)): [Latest](../../../locales/es-ES/content/c0/25/bf71c8f2dcee05488d8c8c9973508c2dc210.md)
-  - [`9e6d328a23`](../../../locales/es-ES/content/9e/6d/328a237842b3c772f20dc9454b9a8e02f9dd.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/errors/about.md)): [Latest](../../../locales/es-ES/content/9b/98/92e6eb9db18b35097cba2a6645f6406fe459.md)
-  - [`6f3dd89634`](../../../locales/es-ES/content/6f/3d/d896344a6aa1ff7431d7bfc5fdc63950fc74.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/errors/introduction.md)): [Latest](../../../locales/es-ES/content/9e/6d/328a237842b3c772f20dc9454b9a8e02f9dd.md)
+  - [`c025bf71c8`](../../../locales/es-ES/content/c0/25/bf71c8f2dcee05488d8c8c9973508c2dc210.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/errors/about.md)): [Latest](../../../locales/es-ES/content/6f/3d/d896344a6aa1ff7431d7bfc5fdc63950fc74.md)
+  - [`9b9892e6eb`](../../../locales/es-ES/content/9b/98/92e6eb9db18b35097cba2a6645f6406fe459.md)
 
 ### Functional Programming (Programación funcional)
 
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/functional-programming/introduction.md)): [Latest](../../../locales/es-ES/content/9e/19/10efecbd31c6523051910b903361d8a5391e.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/functional-programming/about.md)): [Latest](../../../locales/es-ES/content/91/5b/181d122d906d908d31817747c648d47eaee9.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/functional-programming/introduction.md)): [Latest](../../../locales/es-ES/content/49/6c/c31dc96e8e624c95504962c43348942a3180.md)
+  - [`9e1910efec`](../../../locales/es-ES/content/9e/19/10efecbd31c6523051910b903361d8a5391e.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/functional-programming/about.md)): [Latest](../../../locales/es-ES/content/93/a8/173cb3f09896700122092b61b561f5b70ebf.md)
+  - [`915b181d12`](../../../locales/es-ES/content/91/5b/181d122d906d908d31817747c648d47eaee9.md)
 
 ### Functions (Funciones)
 
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/functions/introduction.md)): [Latest](../../../locales/es-ES/content/11/47/e97442f7e14330a3dc8712f5fbc5e06e27fe.md)
-  - [`47f60086ad`](../../../locales/es-ES/content/47/f6/0086ad4b564e07eb473ba876fbf91ae8bbdf.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/functions/about.md)): [Latest](../../../locales/es-ES/content/7b/79/aca3b61909222f36f5f844feb2f406ecdd4e.md)
-  - [`6eb559bb95`](../../../locales/es-ES/content/6e/b5/59bb955043c04d75e1ac5fe499249343f11a.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/functions/introduction.md)): [Latest](../../../locales/es-ES/content/47/f6/0086ad4b564e07eb473ba876fbf91ae8bbdf.md)
+  - [`1147e97442`](../../../locales/es-ES/content/11/47/e97442f7e14330a3dc8712f5fbc5e06e27fe.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/functions/about.md)): [Latest](../../../locales/es-ES/content/6e/b5/59bb955043c04d75e1ac5fe499249343f11a.md)
+  - [`7b79aca3b6`](../../../locales/es-ES/content/7b/79/aca3b61909222f36f5f844feb2f406ecdd4e.md)
 
 ### Lists (Listas)
 
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/lists/introduction.md)): [Latest](../../../locales/es-ES/content/32/19/b760359da9865aa76cf74f2145c97a0d67b9.md)
-  - [`7af1831bef`](../../../locales/es-ES/content/7a/f1/831bef5e7bf4d92def7e840622c570435eb3.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/lists/about.md)): [Latest](../../../locales/es-ES/content/30/b0/2ff9760fc5b8f499b89a4a2cb96928aff1f4.md)
-  - [`d0a3e7bf98`](../../../locales/es-ES/content/d0/a3/e7bf9841bb46c71685201861d21f4bf97c55.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/lists/introduction.md)): [Latest](../../../locales/es-ES/content/7a/f1/831bef5e7bf4d92def7e840622c570435eb3.md)
+  - [`3219b76035`](../../../locales/es-ES/content/32/19/b760359da9865aa76cf74f2145c97a0d67b9.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/lists/about.md)): [Latest](../../../locales/es-ES/content/d0/a3/e7bf9841bb46c71685201861d21f4bf97c55.md)
+  - [`30b02ff976`](../../../locales/es-ES/content/30/b0/2ff9760fc5b8f499b89a4a2cb96928aff1f4.md)
 
 ### Loops (Bucles)
 
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/loops/introduction.md)): [Latest](../../../locales/es-ES/content/43/05/43cde309735a688c8455252d7e90c7d34214.md)
-  - [`738a83b798`](../../../locales/es-ES/content/73/8a/83b798a6c0339db2ae6d552a497ae7637a4d.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/loops/about.md)): [Latest](../../../locales/es-ES/content/19/ea/c25fb6d78c147ea8507d31766164ef5d0ab6.md)
-  - [`073af0ddd3`](../../../locales/es-ES/content/07/3a/f0ddd32215a7138b2b4c7c5f21ca1b9b9a6f.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/loops/introduction.md)): [Latest](../../../locales/es-ES/content/73/8a/83b798a6c0339db2ae6d552a497ae7637a4d.md)
+  - [`430543cde3`](../../../locales/es-ES/content/43/05/43cde309735a688c8455252d7e90c7d34214.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/loops/about.md)): [Latest](../../../locales/es-ES/content/07/3a/f0ddd32215a7138b2b4c7c5f21ca1b9b9a6f.md)
+  - [`19eac25fb6`](../../../locales/es-ES/content/19/ea/c25fb6d78c147ea8507d31766164ef5d0ab6.md)
 
 ### Matrices and Arrays (Matrices y arrays)
 
@@ -700,8 +716,10 @@ This page is generated from [the index](../../json/es-ES/r.json) by `scripts/bui
 
 ### Regular Expressions (Expresiones regulares)
 
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/regular-expressions/introduction.md)): [Latest](../../../locales/es-ES/content/61/14/a52c9d7a4446c68c56efbff4742b39134f96.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/regular-expressions/about.md)): [Latest](../../../locales/es-ES/content/03/e8/c9c713cc69db03124595ecdfdaa80b1b0abc.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/regular-expressions/introduction.md)): [Latest](../../../locales/es-ES/content/99/d2/d9e6aaf2e0b1e9d766f6cafd78759d0b17b3.md)
+  - [`6114a52c9d`](../../../locales/es-ES/content/61/14/a52c9d7a4446c68c56efbff4742b39134f96.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/regular-expressions/about.md)): [Latest](../../../locales/es-ES/content/e7/87/fe6b9c137224c566b10914405c7c0a3baf0e.md)
+  - [`03e8c9c713`](../../../locales/es-ES/content/03/e8/c9c713cc69db03124595ecdfdaa80b1b0abc.md)
 
 ### Set Operations (Operaciones de conjuntos)
 
