@@ -451,9 +451,12 @@ This page is generated from [the index](../../json/zh-CN/r.json) by `scripts/bui
 
 ### Blackjack (二十一点)
 
-- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/blackjack/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/7b/e0/99d66950a1cede38c60bb7470f814585af6f.md)
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/blackjack/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/17/4b/098f51db772d3d6fb159587cf69d1820a9e7.md)
-- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/blackjack/.docs/hints.md)): [Latest](../../../locales/zh-CN/content/3c/eb/95cf6b8d0e049645b3e1b1a567c818db90a2.md)
+- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/blackjack/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/8a/a6/5da32d18bd1b1c8d52786b89344c690a1bcc.md)
+  - [`7be099d669`](../../../locales/zh-CN/content/7b/e0/99d66950a1cede38c60bb7470f814585af6f.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/blackjack/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/d2/40/1f897d9ee8e27ec39d93b69d0839ae197f25.md)
+  - [`174b098f51`](../../../locales/zh-CN/content/17/4b/098f51db772d3d6fb159587cf69d1820a9e7.md)
+- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/blackjack/.docs/hints.md)): [Latest](../../../locales/zh-CN/content/51/dd/e08a778cb9d3d91e49c8aba4e256b4d2a82b.md)
+  - [`3ceb95cf6b`](../../../locales/zh-CN/content/3c/eb/95cf6b8d0e049645b3e1b1a567c818db90a2.md)
 
 ### Booking Up For Beauty (预约美容)
 
@@ -463,8 +466,10 @@ This page is generated from [the index](../../json/zh-CN/r.json) by `scripts/bui
 
 ### Captains Log (船长日志)
 
-- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/captains-log/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/a9/c6/494c7435a83ac147d3c4d057afe58cb49461.md)
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/captains-log/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/e7/67/2e76114dbf8a8493130ce83cd7cc38ae9395.md)
+- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/captains-log/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/01/56/ce62910c4c6734a16f3cce28e6fe76c6dead.md)
+  - [`a9c6494c74`](../../../locales/zh-CN/content/a9/c6/494c7435a83ac147d3c4d057afe58cb49461.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/captains-log/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/5c/1b/63194f930ff3cdaecd5b48960afac3277621.md)
+  - [`e7672e7611`](../../../locales/zh-CN/content/e7/67/2e76114dbf8a8493130ce83cd7cc38ae9395.md)
 - `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/captains-log/.docs/hints.md)): [Latest](../../../locales/zh-CN/content/c2/80/e710ec812ed7f306e5bdf3e6250396402a38.md)
 
 ### Cars, Assemble (组装汽车)
@@ -495,12 +500,12 @@ This page is generated from [the index](../../json/zh-CN/r.json) by `scripts/bui
 
 ### Elyse's Analytic Enchantments (Elyse 的分析魔法)
 
-- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/elyses-analytic-enchantments/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/3f/eb/9d8eeabdb1cf59cedd3d241cd067f5b78617.md)
-  - [`7ee3fa1e36`](../../../locales/zh-CN/content/7e/e3/fa1e3609dfc3154b93b00f7ddb32a5b4a6fd.md)
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/elyses-analytic-enchantments/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/e8/6b/224b31e597ffb5d68076bf2c0baac42efb85.md)
-  - [`03bc718e7f`](../../../locales/zh-CN/content/03/bc/718e7f3037c80dc73cd142854ae18c0cbd84.md)
-- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/elyses-analytic-enchantments/.docs/hints.md)): [Latest](../../../locales/zh-CN/content/70/c2/76eb0ee9b939ea4edcbc9dc1fa2bfcbd61f7.md)
-  - [`91465cbdf1`](../../../locales/zh-CN/content/91/46/5cbdf18a5de43fd489856077e5d598336424.md)
+- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/elyses-analytic-enchantments/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/7e/e3/fa1e3609dfc3154b93b00f7ddb32a5b4a6fd.md)
+  - [`3feb9d8eea`](../../../locales/zh-CN/content/3f/eb/9d8eeabdb1cf59cedd3d241cd067f5b78617.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/elyses-analytic-enchantments/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/03/bc/718e7f3037c80dc73cd142854ae18c0cbd84.md)
+  - [`e86b224b31`](../../../locales/zh-CN/content/e8/6b/224b31e597ffb5d68076bf2c0baac42efb85.md)
+- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/elyses-analytic-enchantments/.docs/hints.md)): [Latest](../../../locales/zh-CN/content/91/46/5cbdf18a5de43fd489856077e5d598336424.md)
+  - [`70c276eb0e`](../../../locales/zh-CN/content/70/c2/76eb0ee9b939ea4edcbc9dc1fa2bfcbd61f7.md)
 
 ### Elyse's Enchantments (Elyse 的魔法)
 
@@ -528,10 +533,10 @@ This page is generated from [the index](../../json/zh-CN/r.json) by `scripts/bui
 
 ### Log Levels (日志级别)
 
-- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/log-levels/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/31/9a/7d2bd67bad316b3ce1a836c34ef77b1f1add.md)
-  - [`63410e3b5c`](../../../locales/zh-CN/content/63/41/0e3b5c71921b54ff67ac62ed3df4499231db.md)
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/log-levels/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/ca/fa/6f03902ff97258395234aee85b355be8fd85.md)
-  - [`322c5a9660`](../../../locales/zh-CN/content/32/2c/5a9660ffa5b1f05abfd7b082155c6395f1a2.md)
+- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/log-levels/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/63/41/0e3b5c71921b54ff67ac62ed3df4499231db.md)
+  - [`319a7d2bd6`](../../../locales/zh-CN/content/31/9a/7d2bd67bad316b3ce1a836c34ef77b1f1add.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/log-levels/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/32/2c/5a9660ffa5b1f05abfd7b082155c6395f1a2.md)
+  - [`cafa6f0390`](../../../locales/zh-CN/content/ca/fa/6f03902ff97258395234aee85b355be8fd85.md)
 - `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/log-levels/.docs/hints.md)): [Latest](../../../locales/zh-CN/content/f4/a5/e30487c232f9b2d113e79b9d4f4642a7c9e4.md)
 
 ### Mixed Juices (混合果汁)
@@ -542,14 +547,18 @@ This page is generated from [the index](../../json/zh-CN/r.json) by `scripts/bui
 
 ### Name Badges (姓名牌)
 
-- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/name-badges/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/2b/a0/c77f6e17ac327c49d772de12eb34a3d10d0d.md)
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/name-badges/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/ba/7f/c56ce9964834b0ecc58042e14bb4b9bcdb72.md)
-- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/name-badges/.docs/hints.md)): [Latest](../../../locales/zh-CN/content/99/88/7d9be14262ec7873a4369534f63765e4eb38.md)
+- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/name-badges/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/52/1c/eb7e29cb1b73084b9d9bf6cf17c1a9e0c3ae.md)
+  - [`2ba0c77f6e`](../../../locales/zh-CN/content/2b/a0/c77f6e17ac327c49d772de12eb34a3d10d0d.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/name-badges/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/ab/89/7b934ee8db158d5bc1c27f94cc3e14afd075.md)
+  - [`ba7fc56ce9`](../../../locales/zh-CN/content/ba/7f/c56ce9964834b0ecc58042e14bb4b9bcdb72.md)
+- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/name-badges/.docs/hints.md)): [Latest](../../../locales/zh-CN/content/fe/87/b863df099384f6433321956c8bd3abe9274f.md)
+  - [`99887d9be1`](../../../locales/zh-CN/content/99/88/7d9be14262ec7873a4369534f63765e4eb38.md)
 
 ### Named Resistor Color (命名电阻颜色)
 
 - `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/named-resistor-color/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/8c/88/e100736116f28b00d98a1b8c620dd6b16446.md)
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/named-resistor-color/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/97/26/0fbca5517c1272c87f3b7e974028b57cae15.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/named-resistor-color/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/a9/fe/fbff2b07d024a8b2436ed0e3c0bc1b4174cf.md)
+  - [`97260fbca5`](../../../locales/zh-CN/content/97/26/0fbca5517c1272c87f3b7e974028b57cae15.md)
 - `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/named-resistor-color/.docs/hints.md)): [Latest](../../../locales/zh-CN/content/3b/08/4b654568e4eb63de17e0dfce37a86d2946d5.md)
 
 ### Need For Speed (追求速度)
@@ -560,10 +569,10 @@ This page is generated from [the index](../../json/zh-CN/r.json) by `scripts/bui
 
 ### Ozan's Playlist (奥赞的播放列表)
 
-- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/ozans-playlist/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/28/e6/9e8409c0c289c0c4d1042cdacc1412820f47.md)
-  - [`51a139532d`](../../../locales/zh-CN/content/51/a1/39532d4dbeb0ed31ae88f58bb9a57a54700f.md)
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/ozans-playlist/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/2a/fa/3f4179f5c58085df037e983044f960103609.md)
-  - [`7eef8cc1f6`](../../../locales/zh-CN/content/7e/ef/8cc1f654b3827ef049505cc3bc673050fe7f.md)
+- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/ozans-playlist/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/51/a1/39532d4dbeb0ed31ae88f58bb9a57a54700f.md)
+  - [`28e69e8409`](../../../locales/zh-CN/content/28/e6/9e8409c0c289c0c4d1042cdacc1412820f47.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/ozans-playlist/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/7e/ef/8cc1f654b3827ef049505cc3bc673050fe7f.md)
+  - [`2afa3f4179`](../../../locales/zh-CN/content/2a/fa/3f4179f5c58085df037e983044f960103609.md)
 - `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/ozans-playlist/.docs/hints.md)): [Latest](../../../locales/zh-CN/content/8f/a4/e5250879ad883e231186a2445d4328057bd8.md)
 
 ### Regular Chatbot (正则聊天机器人)
@@ -651,18 +660,24 @@ This page is generated from [the index](../../json/zh-CN/r.json) by `scripts/bui
 
 ### Names Attribute (名称属性)
 
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/names-attribute/introduction.md)): [Latest](../../../locales/zh-CN/content/4a/45/7e5dc6fe22efd8f5e6de4d0bd715e81b6c8b.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/names-attribute/about.md)): [Latest](../../../locales/zh-CN/content/53/a2/81f0f1fbc3e602ffd22dec48106d85864a2f.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/names-attribute/introduction.md)): [Latest](../../../locales/zh-CN/content/4a/ee/963a9dda9d4d8b58e52ef3c36b016a8e3803.md)
+  - [`4a457e5dc6`](../../../locales/zh-CN/content/4a/45/7e5dc6fe22efd8f5e6de4d0bd715e81b6c8b.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/names-attribute/about.md)): [Latest](../../../locales/zh-CN/content/24/b5/a491580e9143db84fdaf4665608efb01747a.md)
+  - [`53a281f0f1`](../../../locales/zh-CN/content/53/a2/81f0f1fbc3e602ffd22dec48106d85864a2f.md)
 
 ### Nothingness (无值)
 
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/nothingness/introduction.md)): [Latest](../../../locales/zh-CN/content/a0/cc/5048c58d1c646d5f9adb411dfb6ae471e4b8.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/nothingness/about.md)): [Latest](../../../locales/zh-CN/content/f0/92/287a0953819945f8e5dc63d25eed272ec5ba.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/nothingness/introduction.md)): [Latest](../../../locales/zh-CN/content/90/57/b5f702929ff52ba458be499dbb029c9818b8.md)
+  - [`a0cc5048c5`](../../../locales/zh-CN/content/a0/cc/5048c58d1c646d5f9adb411dfb6ae471e4b8.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/nothingness/about.md)): [Latest](../../../locales/zh-CN/content/ce/4b/3749eb828661ef05b1de48862c0cefacd8a9.md)
+  - [`f092287a09`](../../../locales/zh-CN/content/f0/92/287a0953819945f8e5dc63d25eed272ec5ba.md)
 
 ### Randomness (随机性)
 
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/randomness/introduction.md)): [Latest](../../../locales/zh-CN/content/e7/67/2e76114dbf8a8493130ce83cd7cc38ae9395.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/randomness/about.md)): [Latest](../../../locales/zh-CN/content/b8/6c/6ff78f2630113fb05c62da3cc093dd7473bd.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/randomness/introduction.md)): [Latest](../../../locales/zh-CN/content/5c/1b/63194f930ff3cdaecd5b48960afac3277621.md)
+  - [`e7672e7611`](../../../locales/zh-CN/content/e7/67/2e76114dbf8a8493130ce83cd7cc38ae9395.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/randomness/about.md)): [Latest](../../../locales/zh-CN/content/9e/34/f7502d9fcb3cc18953bb8ba067353e296e98.md)
+  - [`b86c6ff78f`](../../../locales/zh-CN/content/b8/6c/6ff78f2630113fb05c62da3cc093dd7473bd.md)
 
 ### Regular Expressions (正则表达式)
 
@@ -671,35 +686,37 @@ This page is generated from [the index](../../json/zh-CN/r.json) by `scripts/bui
 
 ### Set Operations (集合运算)
 
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/set-operations/introduction.md)): [Latest](../../../locales/zh-CN/content/6d/16/9fe4a6b925233d61d38cfbc58261134e7bf3.md)
-  - [`7eef8cc1f6`](../../../locales/zh-CN/content/7e/ef/8cc1f654b3827ef049505cc3bc673050fe7f.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/set-operations/about.md)): [Latest](../../../locales/zh-CN/content/61/f5/438d77e4ba93ba626f5237f0d4bcefb095bf.md)
-  - [`1efc9e52f9`](../../../locales/zh-CN/content/1e/fc/9e52f9d0c895910b203f77133ee0f636760f.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/set-operations/introduction.md)): [Latest](../../../locales/zh-CN/content/7e/ef/8cc1f654b3827ef049505cc3bc673050fe7f.md)
+  - [`6d169fe4a6`](../../../locales/zh-CN/content/6d/16/9fe4a6b925233d61d38cfbc58261134e7bf3.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/set-operations/about.md)): [Latest](../../../locales/zh-CN/content/1e/fc/9e52f9d0c895910b203f77133ee0f636760f.md)
+  - [`61f5438d77`](../../../locales/zh-CN/content/61/f5/438d77e4ba93ba626f5237f0d4bcefb095bf.md)
 
 ### Strings (字符串)
 
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/strings/introduction.md)): [Latest](../../../locales/zh-CN/content/ca/fa/6f03902ff97258395234aee85b355be8fd85.md)
-  - [`1ac5c0ab7a`](../../../locales/zh-CN/content/1a/c5/c0ab7aa422e6377fb4450ee7ee87f9ff93bb.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/strings/about.md)): [Latest](../../../locales/zh-CN/content/c7/e2/e02b0e1eb728438687beba2b4a97c3629811.md)
-  - [`856596dff6`](../../../locales/zh-CN/content/85/65/96dff62845de5ca2ed29b8fb7a01f7cd93a8.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/strings/introduction.md)): [Latest](../../../locales/zh-CN/content/1a/c5/c0ab7aa422e6377fb4450ee7ee87f9ff93bb.md)
+  - [`cafa6f0390`](../../../locales/zh-CN/content/ca/fa/6f03902ff97258395234aee85b355be8fd85.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/strings/about.md)): [Latest](../../../locales/zh-CN/content/85/65/96dff62845de5ca2ed29b8fb7a01f7cd93a8.md)
+  - [`c7e2e02b0e`](../../../locales/zh-CN/content/c7/e2/e02b0e1eb728438687beba2b4a97c3629811.md)
 
 ### Switch (switch)
 
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/switch/introduction.md)): [Latest](../../../locales/zh-CN/content/a9/4f/71ed394c51ef5f90c76b0944b4cea81caec0.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/switch/about.md)): [Latest](../../../locales/zh-CN/content/b2/0d/bafca7630faf5999140303720694be9d5915.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/switch/introduction.md)): [Latest](../../../locales/zh-CN/content/5c/cc/39ec2d5e5188f3bd59f9f0f75b1d91558488.md)
+  - [`a94f71ed39`](../../../locales/zh-CN/content/a9/4f/71ed394c51ef5f90c76b0944b4cea81caec0.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/switch/about.md)): [Latest](../../../locales/zh-CN/content/d2/a1/d9072f4f9546cd580f4ddd86cdf31e00b70b.md)
+  - [`b20dbafca7`](../../../locales/zh-CN/content/b2/0d/bafca7630faf5999140303720694be9d5915.md)
 
 ### Vector Filtering (向量筛选)
 
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/vector-filtering/introduction.md)): [Latest](../../../locales/zh-CN/content/e8/6b/224b31e597ffb5d68076bf2c0baac42efb85.md)
-  - [`03bc718e7f`](../../../locales/zh-CN/content/03/bc/718e7f3037c80dc73cd142854ae18c0cbd84.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/vector-filtering/about.md)): [Latest](../../../locales/zh-CN/content/7d/5f/d10d3e74ef9ea0df60932d1bcda64abfd912.md)
-  - [`d165f8bed2`](../../../locales/zh-CN/content/d1/65/f8bed2d95e446b1160a59787383c408b9699.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/vector-filtering/introduction.md)): [Latest](../../../locales/zh-CN/content/03/bc/718e7f3037c80dc73cd142854ae18c0cbd84.md)
+  - [`e86b224b31`](../../../locales/zh-CN/content/e8/6b/224b31e597ffb5d68076bf2c0baac42efb85.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/vector-filtering/about.md)): [Latest](../../../locales/zh-CN/content/d1/65/f8bed2d95e446b1160a59787383c408b9699.md)
+  - [`7d5fd10d3e`](../../../locales/zh-CN/content/7d/5f/d10d3e74ef9ea0df60932d1bcda64abfd912.md)
 
 ### Vector Functions (向量函数)
 
 - `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/vector-functions/introduction.md)): [Latest](../../../locales/zh-CN/content/79/54/be3711e164355ca85f6dcc45e2eb48e28453.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/vector-functions/about.md)): [Latest](../../../locales/zh-CN/content/d2/3a/930ecf3dd09fadede7c144fa8d40e0d26f21.md)
-  - [`88c5028cd2`](../../../locales/zh-CN/content/88/c5/028cd2fdd18ccdc8c45b49de07d2676b84b4.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/vector-functions/about.md)): [Latest](../../../locales/zh-CN/content/88/c5/028cd2fdd18ccdc8c45b49de07d2676b84b4.md)
+  - [`d23a930ecf`](../../../locales/zh-CN/content/d2/3a/930ecf3dd09fadede7c144fa8d40e0d26f21.md)
 
 ### Vectors (向量)
 
