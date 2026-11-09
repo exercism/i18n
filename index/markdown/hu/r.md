@@ -260,7 +260,7 @@ This page is generated from [the index](../../json/hu/r.json) by `scripts/build-
 
 - `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/practice/palindrome-products/.docs/instructions.md)): [Latest](../../../locales/hu/content/aa/c6/6521ce736be8ce737ea709a5b1eed507cbb8.md)
 
-### Pangram
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
   - [`d5698bc2a2`](../../../locales/hu/content/d5/69/8bc2a292baf2fb128de3543b748165088c4f.md)
@@ -489,7 +489,8 @@ This page is generated from [the index](../../json/hu/r.json) by `scripts/build-
 
 ### Annalyn's Infiltration (Annalyn beszivárgása)
 
-- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/annalyns-infiltration/.docs/instructions.md)): [Latest](../../../locales/hu/content/e6/f1/74aea3a1a5696e8cf0947746280021a402c2.md)
+- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/annalyns-infiltration/.docs/instructions.md)): [Latest](../../../locales/hu/content/0b/00/87bb9245faffe07f5a0fd9b9c7a90720875b.md)
+  - [`e6f174aea3`](../../../locales/hu/content/e6/f1/74aea3a1a5696e8cf0947746280021a402c2.md)
 - `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/annalyns-infiltration/.docs/introduction.md)): [Latest](../../../locales/hu/content/80/67/8c4fffe9e2b67f1b6d843aa8df793db79da1.md)
 - `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/annalyns-infiltration/.docs/hints.md)): [Latest](../../../locales/hu/content/c3/94/ff150226af9d3550dee0796e39f5ffa157b6.md)
   - [`b5296c3664`](../../../locales/hu/content/b5/29/6c3664c77d9b84d725321e4fbc6624a749f6.md)
@@ -520,8 +521,10 @@ This page is generated from [the index](../../json/hu/r.json) by `scripts/build-
 
 ### Cars, Assemble (Autók, gyülekezzetek!)
 
-- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/cars-assemble/.docs/instructions.md)): [Latest](../../../locales/hu/content/fd/59/a251bddf463d0e6f762fa08e6598e89aa0ca.md)
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/cars-assemble/.docs/introduction.md)): [Latest](../../../locales/hu/content/f9/85/4b443df21fc6f26e973eadbec61e5b007b07.md)
+- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/cars-assemble/.docs/instructions.md)): [Latest](../../../locales/hu/content/18/b8/402be4f8ce10e00fc94c8051386c703d43f6.md)
+  - [`fd59a251bd`](../../../locales/hu/content/fd/59/a251bddf463d0e6f762fa08e6598e89aa0ca.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/cars-assemble/.docs/introduction.md)): [Latest](../../../locales/hu/content/58/86/5429885a4a60aaa192b535330266694f02d1.md)
+  - [`f9854b443d`](../../../locales/hu/content/f9/85/4b443df21fc6f26e973eadbec61e5b007b07.md)
 - `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/cars-assemble/.docs/hints.md)): [Latest](../../../locales/hu/content/17/bd/61ada61bfd5569752c7d11522b9b26f9c766.md)
   - [`b5296c3664`](../../../locales/hu/content/b5/29/6c3664c77d9b84d725321e4fbc6624a749f6.md)
 
@@ -551,9 +554,12 @@ This page is generated from [the index](../../json/hu/r.json) by `scripts/build-
 
 ### Elyse's Enchantments (Elyse varázslatai)
 
-- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/elyses-enchantments/.docs/instructions.md)): [Latest](../../../locales/hu/content/66/7a/7b3cfd9c9c51d259e2ad24c163a7d4787722.md)
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/elyses-enchantments/.docs/introduction.md)): [Latest](../../../locales/hu/content/79/ee/7f01c86f9c7acf6df46a4d4564709ca6482a.md)
-- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/elyses-enchantments/.docs/hints.md)): [Latest](../../../locales/hu/content/ee/43/4ff4baab15a12fd2f1a2d1016dc6ea09dfd6.md)
+- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/elyses-enchantments/.docs/instructions.md)): [Latest](../../../locales/hu/content/f8/36/4434eebe9ab702eae84bae55d41919966918.md)
+  - [`667a7b3cfd`](../../../locales/hu/content/66/7a/7b3cfd9c9c51d259e2ad24c163a7d4787722.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/elyses-enchantments/.docs/introduction.md)): [Latest](../../../locales/hu/content/cf/03/dd6c49edc68a4a49abfe3ba9e7a9c6d7df94.md)
+  - [`79ee7f01c8`](../../../locales/hu/content/79/ee/7f01c86f9c7acf6df46a4d4564709ca6482a.md)
+- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/elyses-enchantments/.docs/hints.md)): [Latest](../../../locales/hu/content/1c/fb/fe45ce1a2998a7e3f0c7d04ec3a1b6dd0289.md)
+  - [`ee434ff4ba`](../../../locales/hu/content/ee/43/4ff4baab15a12fd2f1a2d1016dc6ea09dfd6.md)
   - [`b5296c3664`](../../../locales/hu/content/b5/29/6c3664c77d9b84d725321e4fbc6624a749f6.md)
 
 ### Factory Sensors (Gyári érzékelők)
@@ -564,10 +570,13 @@ This page is generated from [the index](../../json/hu/r.json) by `scripts/build-
 
 ### Lasagna (Lasagne)
 
-- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/lasagna/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/a4/6a49c0d2b8c10ab3defa8b5332ad6774cbbc.md)
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/lasagna/.docs/introduction.md)): [Latest](../../../locales/hu/content/53/bb/0ff5f4a5e1c350e75086048cb88bc87094a8.md)
+- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/lasagna/.docs/instructions.md)): [Latest](../../../locales/hu/content/98/a9/921063809f68b803ef1f568442f10ca2606d.md)
+  - [`81a46a49c0`](../../../locales/hu/content/81/a4/6a49c0d2b8c10ab3defa8b5332ad6774cbbc.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/lasagna/.docs/introduction.md)): [Latest](../../../locales/hu/content/4e/5d/d1dad9d6f2acd7ef2cd9ecbd245acdd232d5.md)
+  - [`53bb0ff5f4`](../../../locales/hu/content/53/bb/0ff5f4a5e1c350e75086048cb88bc87094a8.md)
   - [`e69de29bb2`](../../../locales/hu/content/e6/9d/e29bb2d1d6434b8b29ae775ad8c2e48c5391.md)
-- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/lasagna/.docs/hints.md)): [Latest](../../../locales/hu/content/86/2a/a7d8317cfc331f3349429db6c90c9512008a.md)
+- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/lasagna/.docs/hints.md)): [Latest](../../../locales/hu/content/49/04/30b7b6eedd83d728cf75fe6c54fd9fb5685c.md)
+  - [`862aa7d831`](../../../locales/hu/content/86/2a/a7d8317cfc331f3349429db6c90c9512008a.md)
   - [`e69de29bb2`](../../../locales/hu/content/e6/9d/e29bb2d1d6434b8b29ae775ad8c2e48c5391.md)
 
 ### Log Levels (Logszintek)
@@ -622,15 +631,18 @@ This page is generated from [the index](../../json/hu/r.json) by `scripts/build-
 
 ### Basics (Alapok)
 
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/basics/introduction.md)): [Latest](../../../locales/hu/content/53/bb/0ff5f4a5e1c350e75086048cb88bc87094a8.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/basics/introduction.md)): [Latest](../../../locales/hu/content/4e/5d/d1dad9d6f2acd7ef2cd9ecbd245acdd232d5.md)
+  - [`53bb0ff5f4`](../../../locales/hu/content/53/bb/0ff5f4a5e1c350e75086048cb88bc87094a8.md)
   - [`e69de29bb2`](../../../locales/hu/content/e6/9d/e29bb2d1d6434b8b29ae775ad8c2e48c5391.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/basics/about.md)): [Latest](../../../locales/hu/content/84/1e/35fabd0688680d4de353745899fb0071c674.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/basics/about.md)): [Latest](../../../locales/hu/content/36/69/16fd04c4f0555c60c6321fc3e6ff7460d55c.md)
+  - [`841e35fabd`](../../../locales/hu/content/84/1e/35fabd0688680d4de353745899fb0071c674.md)
   - [`e69de29bb2`](../../../locales/hu/content/e6/9d/e29bb2d1d6434b8b29ae775ad8c2e48c5391.md)
 
 ### Booleans (Booleanok)
 
 - `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/booleans/introduction.md)): [Latest](../../../locales/hu/content/5a/b7/a91e56b883bf5b04bfe8006beb0d019ab483.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/booleans/about.md)): [Latest](../../../locales/hu/content/59/22/9165ad45c2c31aaab62ecbaa176e31902aa7.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/booleans/about.md)): [Latest](../../../locales/hu/content/33/4d/a53231ac662b429516feb37ff8ab3953a455.md)
+  - [`59229165ad`](../../../locales/hu/content/59/22/9165ad45c2c31aaab62ecbaa176e31902aa7.md)
 
 ### Classes (Osztályok)
 
@@ -645,7 +657,8 @@ This page is generated from [the index](../../json/hu/r.json) by `scripts/build-
 ### Conditionals (Elágazások)
 
 - `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/conditionals/introduction.md)): [Latest](../../../locales/hu/content/04/c2/3c027ef75521c8ccfa89f2788d55f4edc460.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/conditionals/about.md)): [Latest](../../../locales/hu/content/15/fa/49fe6c3b3ac46b1bbb1b9ba47ab48eb799f4.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/conditionals/about.md)): [Latest](../../../locales/hu/content/75/2c/3f58b0c6969eb437af514d5c1ecb393f7da0.md)
+  - [`15fa49fe6c`](../../../locales/hu/content/15/fa/49fe6c3b3ac46b1bbb1b9ba47ab48eb799f4.md)
 
 ### Dataframes (Adatkeretek)
 
@@ -734,8 +747,10 @@ This page is generated from [the index](../../json/hu/r.json) by `scripts/build-
 
 ### Vectors (Vektorok)
 
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/vectors/introduction.md)): [Latest](../../../locales/hu/content/c9/36/e32c2ce287657fd9348c2a2ca78b7fd32a7a.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/vectors/about.md)): [Latest](../../../locales/hu/content/cf/60/a5cdeabb580edaaf70536858c11f689255ac.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/vectors/introduction.md)): [Latest](../../../locales/hu/content/3f/aa/b81c2ff6d0036b712d8027976301d97673bc.md)
+  - [`c936e32c2c`](../../../locales/hu/content/c9/36/e32c2ce287657fd9348c2a2ca78b7fd32a7a.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/vectors/about.md)): [Latest](../../../locales/hu/content/a9/e4/7133b10043376bf082ecfa544c3a596ce0ac.md)
+  - [`cf60a5cdea`](../../../locales/hu/content/cf/60/a5cdeabb580edaaf70536858c11f689255ac.md)
 
 ## Track docs
 
