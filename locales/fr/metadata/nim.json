@@ -237,5 +237,8 @@
   "doc:resources:blurb": "Une sélection de ressources utiles pour t'aider à maîtriser Nim",
   "exercise:robot-simulator:name": "Simulateur de robot",
   "exercise:robot-simulator:blurb": "Écrire un simulateur de robot.",
-  "exercise:robot-simulator:source": "Inspiré par une question d'entretien dans une entreprise célèbre."
+  "exercise:robot-simulator:source": "Inspiré par une question d'entretien dans une entreprise célèbre.",
+  "exercise:knapsack:name": "Sac à dos",
+  "exercise:knapsack:blurb": "Étant donné un sac à dos qui ne peut porter qu'un certain poids, détermine quels objets y mettre afin de maximiser leur valeur totale.",
+  "exercise:knapsack:source": "Wikipedia"
 }

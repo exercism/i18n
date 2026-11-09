@@ -237,5 +237,8 @@
   "doc:resources:blurb": "Добірка корисних ресурсів, які допоможуть опанувати Nim",
   "exercise:robot-simulator:name": "Симулятор робота",
   "exercise:robot-simulator:blurb": "Напишіть симулятор робота.",
-  "exercise:robot-simulator:source": "За мотивами запитання зі співбесіди у відомій компанії."
+  "exercise:robot-simulator:source": "За мотивами запитання зі співбесіди у відомій компанії.",
+  "exercise:knapsack:name": "Рюкзак",
+  "exercise:knapsack:blurb": "Дано рюкзак, який витримує лише певну вагу; визначте, які предмети покласти в рюкзак, щоб максимізувати їхню сумарну цінність.",
+  "exercise:knapsack:source": "Wikipedia"
 }

@@ -235,5 +235,8 @@
   "doc:resources:blurb": "Nim을 익히는 데 도움이 되는 유용한 자료 모음이에요",
   "exercise:robot-simulator:name": "로봇 시뮬레이터",
   "exercise:robot-simulator:blurb": "로봇 시뮬레이터를 작성해요.",
-  "exercise:robot-simulator:source": "유명 기업의 면접 질문에서 영감을 받았어요."
+  "exercise:robot-simulator:source": "유명 기업의 면접 질문에서 영감을 받았어요.",
+  "exercise:knapsack:name": "배낭 문제",
+  "exercise:knapsack:blurb": "특정 무게까지만 담을 수 있는 배낭이 주어졌을 때, 담긴 물건들의 가치 합이 최대가 되도록 배낭에 넣을 물건을 정해요.",
+  "exercise:knapsack:source": "Wikipedia"
 }

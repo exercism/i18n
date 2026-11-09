@@ -235,5 +235,8 @@
   "doc:resources:blurb": "Nim में दक्षता पाने में आपकी मदद के लिए उपयोगी संसाधनों का संग्रह।",
   "exercise:robot-simulator:name": "रोबोट सिम्युलेटर",
   "exercise:robot-simulator:blurb": "एक रोबोट सिम्युलेटर लिखिए।",
-  "exercise:robot-simulator:source": "एक प्रसिद्ध कंपनी के इंटरव्यू सवाल से प्रेरित।"
+  "exercise:robot-simulator:source": "एक प्रसिद्ध कंपनी के इंटरव्यू सवाल से प्रेरित।",
+  "exercise:knapsack:name": "नैपसैक",
+  "exercise:knapsack:blurb": "एक ऐसा नैपसैक दिया गया है जो केवल एक निश्चित वज़न उठा सकता है; तय कीजिए कि नैपसैक में कौन-सी चीज़ें रखी जाएँ ताकि उनका कुल मूल्य अधिकतम हो जाए।",
+  "exercise:knapsack:source": "Wikipedia"
 }

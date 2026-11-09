@@ -237,5 +237,8 @@
   "doc:resources:blurb": "Válogatott hasznos források, amelyek segítenek elsajátítani a Nim-et",
   "exercise:robot-simulator:name": "Robotszimulátor",
   "exercise:robot-simulator:blurb": "Írj egy robotszimulátort.",
-  "exercise:robot-simulator:source": "Egy híres cég interjúkérdése ihlette."
+  "exercise:robot-simulator:source": "Egy híres cég interjúkérdése ihlette.",
+  "exercise:knapsack:name": "Hátizsák",
+  "exercise:knapsack:blurb": "Adott egy hátizsák, amely csak egy bizonyos súlyt bír el; határozd meg, mely tárgyakat tedd a hátizsákba, hogy együttes értékük a lehető legnagyobb legyen.",
+  "exercise:knapsack:source": "Wikipedia"
 }

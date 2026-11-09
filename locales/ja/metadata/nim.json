@@ -235,5 +235,8 @@
   "doc:resources:blurb": "Nimをマスターするのに役立つリソース集",
   "exercise:robot-simulator:name": "ロボットシミュレーター",
   "exercise:robot-simulator:blurb": "ロボットシミュレーターを書きます。",
-  "exercise:robot-simulator:source": "とある有名企業の面接の質問に着想を得たもの。"
+  "exercise:robot-simulator:source": "とある有名企業の面接の質問に着想を得たもの。",
+  "exercise:knapsack:name": "ナップサック",
+  "exercise:knapsack:blurb": "一定の重さしか運べないナップサックについて、価値の合計が最大になるように入れる品物を選びます。",
+  "exercise:knapsack:source": "Wikipedia"
 }

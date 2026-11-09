@@ -235,5 +235,8 @@
   "doc:resources:blurb": "帮助你精通 Nim 的实用资源合集",
   "exercise:robot-simulator:name": "机器人模拟器",
   "exercise:robot-simulator:blurb": "编写一个机器人模拟器。",
-  "exercise:robot-simulator:source": "灵感来自一家知名公司的面试题。"
+  "exercise:robot-simulator:source": "灵感来自一家知名公司的面试题。",
+  "exercise:knapsack:name": "背包问题",
+  "exercise:knapsack:blurb": "给定一个只能承载一定重量的背包，确定要往背包里放哪些物品，才能使它们的总价值最大。",
+  "exercise:knapsack:source": "Wikipedia"
 }

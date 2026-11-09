@@ -235,5 +235,8 @@
   "doc:resources:blurb": "Una raccolta di risorse utili per aiutarti a padroneggiare Nim",
   "exercise:robot-simulator:name": "Simulatore di robot",
   "exercise:robot-simulator:blurb": "Scrivi un simulatore di robot.",
-  "exercise:robot-simulator:source": "Ispirato a una domanda di colloquio presso un'azienda famosa."
+  "exercise:robot-simulator:source": "Ispirato a una domanda di colloquio presso un'azienda famosa.",
+  "exercise:knapsack:name": "Zaino",
+  "exercise:knapsack:blurb": "Dato uno zaino che può portare solo un certo peso, determina quali oggetti mettere nello zaino per massimizzare il loro valore complessivo.",
+  "exercise:knapsack:source": "Wikipedia"
 }

@@ -235,5 +235,8 @@
   "doc:resources:blurb": "Nim-এ দক্ষ হতে সাহায্য করবে এমন দরকারি রিসোর্সের সংগ্রহ",
   "exercise:robot-simulator:name": "রোবট সিমুলেটর",
   "exercise:robot-simulator:blurb": "একটি রোবট সিমুলেটর লিখুন।",
-  "exercise:robot-simulator:source": "একটি বিখ্যাত কোম্পানির ইন্টারভিউ প্রশ্ন থেকে অনুপ্রাণিত।"
+  "exercise:robot-simulator:source": "একটি বিখ্যাত কোম্পানির ইন্টারভিউ প্রশ্ন থেকে অনুপ্রাণিত।",
+  "exercise:knapsack:name": "ন্যাপস্যাক",
+  "exercise:knapsack:blurb": "এমন একটি ন্যাপস্যাক দেওয়া আছে যেটি কেবল একটি নির্দিষ্ট ওজন পর্যন্ত বহন করতে পারে; তাদের সম্মিলিত মান সর্বাধিক করতে কোন জিনিসগুলো ন্যাপস্যাকে রাখতে হবে, তা নির্ণয় করুন।",
+  "exercise:knapsack:source": "Wikipedia"
 }

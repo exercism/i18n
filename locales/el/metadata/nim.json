@@ -237,5 +237,8 @@
   "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων για να σε βοηθήσουν να κατακτήσεις τη Nim",
   "exercise:robot-simulator:name": "Προσομοιωτής ρομπότ",
   "exercise:robot-simulator:blurb": "Γράψε έναν προσομοιωτή ρομπότ.",
-  "exercise:robot-simulator:source": "Εμπνευσμένο από μια ερώτηση συνέντευξης σε μια διάσημη εταιρεία."
+  "exercise:robot-simulator:source": "Εμπνευσμένο από μια ερώτηση συνέντευξης σε μια διάσημη εταιρεία.",
+  "exercise:knapsack:name": "Σακίδιο",
+  "exercise:knapsack:blurb": "Με δεδομένο ένα σακίδιο που μπορεί να μεταφέρει μόνο ένα συγκεκριμένο βάρος, προσδιόρισε ποια αντικείμενα θα βάλεις μέσα ώστε να μεγιστοποιήσεις τη συνολική τους αξία.",
+  "exercise:knapsack:source": "Wikipedia"
 }

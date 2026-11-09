@@ -136,6 +136,10 @@ This page is generated from [the index](../../json/uk/nim.json) by `scripts/buil
 - `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/kindergarten-garden/.docs/instructions.md)): [Latest](../../../locales/uk/content/6f/e1/1a58cec2888895b2a6ba323fc36010645b3e.md)
 - `introduction.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/kindergarten-garden/.docs/introduction.md)): [Latest](../../../locales/uk/content/5a/d9/7d23eccdf15809e63df8ccf48471126095d0.md)
 
+### Knapsack (Рюкзак)
+
+- `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/knapsack/.docs/instructions.md)): [Latest](../../../locales/uk/content/fa/dc/ee1b18253288260e8501eb6e7119ea19682f.md)
+
 ### Largest Series Product (Найбільший добуток у послідовності)
 
 - `instructions.md` ([English](https://github.com/exercism/nim/blob/main/exercises/practice/largest-series-product/.docs/instructions.md)): [Latest](../../../locales/uk/content/f2/97/b57f7c48aed917ec935f39efc1cf15e62c1e.md)

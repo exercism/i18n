@@ -235,5 +235,8 @@
   "doc:resources:blurb": "Una colección de recursos útiles para ayudarte a dominar Nim",
   "exercise:robot-simulator:name": "Simulador de robot",
   "exercise:robot-simulator:blurb": "Escribir un simulador de robot.",
-  "exercise:robot-simulator:source": "Inspirado en una pregunta de entrevista en una empresa famosa."
+  "exercise:robot-simulator:source": "Inspirado en una pregunta de entrevista en una empresa famosa.",
+  "exercise:knapsack:name": "Mochila",
+  "exercise:knapsack:blurb": "Dada una mochila que solo puede cargar cierto peso, determina qué objetos poner en la mochila para maximizar su valor combinado.",
+  "exercise:knapsack:source": "Wikipedia"
 }

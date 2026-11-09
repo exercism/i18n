@@ -235,5 +235,8 @@
   "doc:resources:blurb": "مجموعة من المصادر المفيدة لمساعدتك على إتقان Nim.",
   "exercise:robot-simulator:name": "محاكي الروبوت",
   "exercise:robot-simulator:blurb": "اكتب محاكيًا للروبوت.",
-  "exercise:robot-simulator:source": "مستوحًى من سؤال مقابلة في شركة شهيرة."
+  "exercise:robot-simulator:source": "مستوحًى من سؤال مقابلة في شركة شهيرة.",
+  "exercise:knapsack:name": "حقيبة الظهر",
+  "exercise:knapsack:blurb": "بمعطى حقيبة ظهر لا يمكنها حمل سوى وزن معيّن، حدّد العناصر التي يجب وضعها فيها لتعظيم قيمتها الإجمالية.",
+  "exercise:knapsack:source": "ويكيبيديا"
 }

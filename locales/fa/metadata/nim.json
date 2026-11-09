@@ -235,5 +235,8 @@
   "doc:resources:blurb": "مجموعه‌ای از منابع مفید برای کمک به تسلط شما بر Nim",
   "exercise:robot-simulator:name": "شبیه‌ساز ربات",
   "exercise:robot-simulator:blurb": "یک شبیه‌ساز ربات بنویسید.",
-  "exercise:robot-simulator:source": "با الهام از یک پرسش مصاحبه در شرکتی مشهور."
+  "exercise:robot-simulator:source": "با الهام از یک پرسش مصاحبه در شرکتی مشهور.",
+  "exercise:knapsack:name": "کوله‌پشتی",
+  "exercise:knapsack:blurb": "با داشتن کوله‌پشتی‌ای که فقط می‌تواند وزن مشخصی را حمل کند، مشخص کنید کدام عناصر را در آن بگذارید تا ارزش ترکیبی‌شان بیشینه شود.",
+  "exercise:knapsack:source": "Wikipedia"
 }
