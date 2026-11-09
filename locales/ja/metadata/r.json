@@ -356,7 +356,7 @@
   "concept:strings:blurb": "Base Rに含まれる文字列処理の関数は比較的少数です。stringrライブラリはずっと新しく、はるかに使いやすくなっています。",
   "concept:regular-expressions:blurb": "正規表現はBase Rでも使えますが、stringライブラリを使うとはるかに扱いやすくなります。",
   "concept:vector-filtering:blurb": "Rには、ベクトルから目的の要素を絞り込み、その部分集合をベクトルとして返す、強力で柔軟な方法があります。",
-  "concept:switch:blurb": "値、特に文字列でマッチングする場合、switch()はif-elseよりも簡潔に書けることがあります。より新しく柔軟な代替手段にはcase_when()やcase_match()があります。",
+  "concept:switch:blurb": "値、特に文字列でマッチングする場合、`switch()`はif-elseよりも簡潔に書けることがあります。より新しく柔軟な代替手段には`case_when()`や`recode_values()`があります。",
   "concept:vector-functions:blurb": "Rの多くの関数は、明示的なループを使わなくても、ベクトル全体を操作できます。",
   "concept:lists:blurb": "Rのリストは、ほかのリストも含め、異なる型のデータを保持できる順序付きのコレクションです。",
   "concept:functions:blurb": "Rの関数は第一級オブジェクトで、引数として渡したり、戻り値に含めたりできます。",

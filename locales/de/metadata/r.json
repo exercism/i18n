@@ -356,7 +356,7 @@
   "concept:strings:blurb": "Base R enthält eine ziemlich kleine Gruppe von Funktionen zur Verarbeitung von Zeichenketten. Die Bibliothek stringr ist deutlich neuer und benutzerfreundlicher.",
   "concept:regular-expressions:blurb": "Reguläre Ausdrücke gibt es in Base R, aber mit der Bibliothek string lassen sie sich viel einfacher verwenden.",
   "concept:vector-filtering:blurb": "R bietet leistungsstarke und flexible Möglichkeiten, die gewünschten Elemente aus einem Vektor herauszufiltern und einen Teilvektor zurückzugeben.",
-  "concept:switch:blurb": "Wenn du auf einen Wert prüfst, besonders auf eine Zeichenkette, kann switch() prägnanter sein als if-else. Neuere, flexiblere Alternativen sind case_when() und case_match().",
+  "concept:switch:blurb": "Wenn du auf einen Wert prüfst, besonders auf eine Zeichenkette, kann switch() prägnanter sein als if-else. Neuere, flexiblere Alternativen sind case_when() und recode_values().",
   "concept:vector-functions:blurb": "Viele R-Funktionen können auf ganze Vektoren angewendet werden, ohne dass du explizite Schleifen brauchst.",
   "concept:lists:blurb": "Eine Liste in R ist eine geordnete Sammlung, die heterogene Daten enthalten kann, einschließlich anderer Listen.",
   "concept:functions:blurb": "Funktionen in R sind erstklassige Objekte, die als Argumente übergeben und in Rückgabewerten enthalten sein können.",

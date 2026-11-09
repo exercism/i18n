@@ -356,7 +356,7 @@
   "concept:strings:blurb": "Base R 包含一小部分处理字符串的函数。stringr 库则新得多，也更易用。",
   "concept:regular-expressions:blurb": "Base R 中可以使用正则表达式，但用 string 库处理起来要容易得多。",
   "concept:vector-filtering:blurb": "R 提供了强大而灵活的方式，从向量中筛选出想要的元素，返回一个子集向量。",
-  "concept:switch:blurb": "如果要根据某个值（尤其是字符串）进行匹配，switch() 可能比 if-else 更简洁。较新、更灵活的替代方案包括 case_when() 和 case_match()。",
+  "concept:switch:blurb": "如果要根据某个值（尤其是字符串）进行匹配，switch() 可能比 if-else 更简洁。较新、更灵活的替代方案包括 case_when() 和 recode_values()。",
   "concept:vector-functions:blurb": "许多 R 函数可以直接作用于整个向量，无需显式循环。",
   "concept:lists:blurb": "R 中的列表是一种有序集合，可以存放不同类型的数据，包括其他列表。",
   "concept:functions:blurb": "在 R 中，函数是一等对象，可以作为实参传递，也可以包含在返回值中。",
