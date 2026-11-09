@@ -307,5 +307,8 @@
   "doc:tests:title": "Scala 트랙에서 테스트하기",
   "doc:tests:blurb": "Exercism에서 Scala 연습 문제를 테스트하는 방법을 알아봐요",
   "doc:resources:title": "유용한 Scala 자료",
-  "doc:resources:blurb": "Scala를 능숙하게 다루도록 도와주는 유용한 자료 모음"
+  "doc:resources:blurb": "Scala를 능숙하게 다루도록 도와주는 유용한 자료 모음",
+  "exercise:relative-distance:name": "친척 간의 거리",
+  "exercise:relative-distance:blurb": "가계도를 보고 촌수를 계산해요.",
+  "exercise:relative-distance:source": "vaeng"
 }

@@ -319,7 +319,7 @@ This page is generated from [the index](../../json/hu/scala.json) by `scripts/bu
 - `instructions.md` ([English](https://github.com/exercism/scala/blob/main/exercises/practice/palindrome-products/.docs/instructions.md)): [Latest](../../../locales/hu/content/aa/c6/6521ce736be8ce737ea709a5b1eed507cbb8.md)
   - [`fd9a441247`](../../../locales/hu/content/fd/9a/441247b65a9a8604f6ef581df4b1054a1fad.md)
 
-### Pangram
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/scala/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
   - [`d5698bc2a2`](../../../locales/hu/content/d5/69/8bc2a292baf2fb128de3543b748165088c4f.md)
@@ -387,6 +387,11 @@ This page is generated from [the index](../../json/hu/scala.json) by `scripts/bu
 
 - `instructions.md` ([English](https://github.com/exercism/scala/blob/main/exercises/practice/raindrops/.docs/instructions.md)): [Latest](../../../locales/hu/content/df/64/41075165afbe92ecc878d674f6861777972d.md)
 - `introduction.md` ([English](https://github.com/exercism/scala/blob/main/exercises/practice/raindrops/.docs/introduction.md)): [Latest](../../../locales/hu/content/ba/12/100f3b87d51b814910614974e4923fbe5a6e.md)
+
+### Relative Distance (Relatív távolság)
+
+- `instructions.md` ([English](https://github.com/exercism/scala/blob/main/exercises/practice/relative-distance/.docs/instructions.md)): [Latest](../../../locales/hu/content/64/ca/4e43744fdf4aaf8b64ea34b795b8933a0e3e.md)
+- `introduction.md` ([English](https://github.com/exercism/scala/blob/main/exercises/practice/relative-distance/.docs/introduction.md)): [Latest](../../../locales/hu/content/34/07/3b40ac6e0494777808026c336f21678ba93e.md)
 
 ### Reverse String (String megfordítása)
 

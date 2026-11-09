@@ -307,5 +307,8 @@
   "doc:tests:title": "تست در مسیر Scala",
   "doc:tests:blurb": "بیاموزید چگونه تمرین‌های Scala خود را در Exercism تست کنید",
   "doc:resources:title": "منابع مفید Scala",
-  "doc:resources:blurb": "مجموعه‌ای از منابع مفید که به شما کمک می‌کند در Scala مهارت پیدا کنید"
+  "doc:resources:blurb": "مجموعه‌ای از منابع مفید که به شما کمک می‌کند در Scala مهارت پیدا کنید",
+  "exercise:relative-distance:name": "فاصله‌ی نسبی",
+  "exercise:relative-distance:blurb": "با داشتن یک شجره‌نامه، درجه‌ی خویشاوندی را محاسبه کنید.",
+  "exercise:relative-distance:source": "vaeng"
 }

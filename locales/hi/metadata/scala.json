@@ -307,5 +307,8 @@
   "doc:tests:title": "Scala ट्रैक पर टेस्टिंग",
   "doc:tests:blurb": "Exercism पर अपने Scala अभ्यास टेस्ट करना सीखिए",
   "doc:resources:title": "उपयोगी Scala संसाधन",
-  "doc:resources:blurb": "Scala में महारत हासिल करने में आपकी मदद करने वाले उपयोगी संसाधनों का संग्रह"
+  "doc:resources:blurb": "Scala में महारत हासिल करने में आपकी मदद करने वाले उपयोगी संसाधनों का संग्रह",
+  "exercise:relative-distance:name": "सापेक्ष दूरी",
+  "exercise:relative-distance:blurb": "दिए गए वंशवृक्ष से अलगाव की दूरी निकालिए।",
+  "exercise:relative-distance:source": "vaeng"
 }

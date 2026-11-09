@@ -309,5 +309,8 @@
   "doc:tests:title": "Δοκιμές στη διαδρομή Scala",
   "doc:tests:blurb": "Μάθε πώς να δοκιμάζεις τις ασκήσεις σου στη Scala στο Exercism",
   "doc:resources:title": "Χρήσιμοι πόροι για τη Scala",
-  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων που θα σε βοηθήσουν να κατακτήσεις τη Scala"
+  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων που θα σε βοηθήσουν να κατακτήσεις τη Scala",
+  "exercise:relative-distance:name": "Σχετική απόσταση",
+  "exercise:relative-distance:blurb": "Δεδομένου ενός γενεαλογικού δέντρου, υπολόγισε τον βαθμό συγγένειας.",
+  "exercise:relative-distance:source": "vaeng"
 }

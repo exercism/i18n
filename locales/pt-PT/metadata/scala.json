@@ -307,5 +307,8 @@
   "doc:tests:title": "Testes na track de Scala",
   "doc:tests:blurb": "Aprende a testar os teus exercícios de Scala no Exercism",
   "doc:resources:title": "Recursos úteis de Scala",
-  "doc:resources:blurb": "Uma coleção de recursos úteis para te ajudar a dominar a Scala"
+  "doc:resources:blurb": "Uma coleção de recursos úteis para te ajudar a dominar a Scala",
+  "exercise:relative-distance:name": "Distância relativa",
+  "exercise:relative-distance:blurb": "Dada uma árvore genealógica, calcula o grau de parentesco.",
+  "exercise:relative-distance:source": "vaeng"
 }

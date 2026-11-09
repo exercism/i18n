@@ -307,5 +307,8 @@
   "doc:tests:title": "الاختبار في مسار Scala",
   "doc:tests:blurb": "تعلّم كيف تختبر تمارين Scala على Exercism",
   "doc:resources:title": "مصادر Scala المفيدة",
-  "doc:resources:blurb": "مجموعة من المصادر المفيدة لمساعدتك على إتقان Scala"
+  "doc:resources:blurb": "مجموعة من المصادر المفيدة لمساعدتك على إتقان Scala",
+  "exercise:relative-distance:name": "المسافة النسبية",
+  "exercise:relative-distance:blurb": "بمعلومية شجرة عائلة، احسب درجة القرابة.",
+  "exercise:relative-distance:source": "vaeng"
 }

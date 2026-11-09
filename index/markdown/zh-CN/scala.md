@@ -330,6 +330,11 @@ This page is generated from [the index](../../json/zh-CN/scala.json) by `scripts
 - `instructions.md` ([English](https://github.com/exercism/scala/blob/main/exercises/practice/raindrops/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/df/64/41075165afbe92ecc878d674f6861777972d.md)
 - `introduction.md` ([English](https://github.com/exercism/scala/blob/main/exercises/practice/raindrops/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/ba/12/100f3b87d51b814910614974e4923fbe5a6e.md)
 
+### Relative Distance (相对距离)
+
+- `instructions.md` ([English](https://github.com/exercism/scala/blob/main/exercises/practice/relative-distance/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/64/ca/4e43744fdf4aaf8b64ea34b795b8933a0e3e.md)
+- `introduction.md` ([English](https://github.com/exercism/scala/blob/main/exercises/practice/relative-distance/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/34/07/3b40ac6e0494777808026c336f21678ba93e.md)
+
 ### Reverse String (反转字符串)
 
 - `instructions.md` ([English](https://github.com/exercism/scala/blob/main/exercises/practice/reverse-string/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/0f/f4/198e46ef06331339f8a44292d7e287bdeeec.md)

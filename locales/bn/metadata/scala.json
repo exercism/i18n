@@ -307,5 +307,8 @@
   "doc:tests:title": "Scala ট্র্যাকে টেস্টিং",
   "doc:tests:blurb": "Exercism-এ আপনার Scala অনুশীলনী কীভাবে টেস্ট করবেন তা শিখুন",
   "doc:resources:title": "উপকারী Scala রিসোর্স",
-  "doc:resources:blurb": "Scala আয়ত্ত করতে সহায়ক উপকারী রিসোর্সের একটি সংগ্রহ"
+  "doc:resources:blurb": "Scala আয়ত্ত করতে সহায়ক উপকারী রিসোর্সের একটি সংগ্রহ",
+  "exercise:relative-distance:name": "আপেক্ষিক দূরত্ব",
+  "exercise:relative-distance:blurb": "একটি বংশতালিকা দেওয়া থাকলে, সম্পর্কের দূরত্ব নির্ণয় করুন।",
+  "exercise:relative-distance:source": "vaeng"
 }
