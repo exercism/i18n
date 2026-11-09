@@ -1298,6 +1298,14 @@ await test("fixture: completeness reports an inactive track's gaps and exits 0",
   const woken = run("completeness.mjs", [`--source-repo=${dozing}`, "--repo=exercism/dozing-gate"]);
   assert.equal(woken.status, 1, woken.out);
   assert.doesNotMatch(woken.out, /inactive/);
+
+  // The PR that wakes it changes no translatable English, but merging it puts
+  // the whole track on the website, so a PR check requires all of it.
+  const pr = run("completeness.mjs", [`--source-repo=${dozing}`, "--repo=exercism/dozing-gate", "--head=HEAD", "--base=HEAD^1"]);
+  assert.equal(pr.status, 1, pr.out);
+  assert.match(pr.out, /activates the track/);
+  assert.match(pr.out, /requires 1 content file/);
+  assert.match(pr.out, /FAIL hu: 2 translation\(s\) outstanding/);
 });
 
 // CI names every repo any locale holds a catalog for, so without this one

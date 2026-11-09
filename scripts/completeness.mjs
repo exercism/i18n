@@ -62,8 +62,10 @@
 // track would require, so `--json` and scripts/sweep.mjs see the same numbers
 // as for an active track, but it exits 0. The track's config.json is one of the
 // metadata files, so reading it costs one blob that a run usually fetches
-// anyway. A PR that makes a track active is read at its head, so it is gated
-// like any other PR on an active track.
+// anyway. A PR that makes a track active is read at its head, so it is gated,
+// and it is gated on the whole track: merging it puts everything the track
+// holds on the website, so everything at the head is required, as without
+// `--base`.
 
 import fs from "node:fs";
 import path from "node:path";
@@ -116,12 +118,20 @@ async function main() {
     const headEntries = lsTree(repo, head);
     if (kind === "track") active = isActiveTrack(headEntries, refReader(repo, head).readMany);
     if (!active) console.log("  inactive: config.json says \"active\": false, so what follows is reported and nothing is held");
-    const baseEntries = base ? lsTree(repo, base) : null;
+    let baseEntries = base ? lsTree(repo, base) : null;
+    // A PR that makes a track active changes little or no English, but merging
+    // it puts the whole track on the website. So when the track is inactive at
+    // the base and active at the head, everything at the head is required, as
+    // if there were no base.
+    if (baseEntries !== null && kind === "track" && active && !isActiveTrack(baseEntries, refReader(repo, base).readMany)) {
+      console.log("  activates the track: config.json says \"active\": false at the base, so everything at the head is required");
+      baseEntries = null;
+    }
     // The reader is what lets a `wip` exercise's files be left out: the track's
     // config.json is the only place that says an exercise is unfinished. It
     // costs one blob per ref, which on a track repo is one extra request from
     // the blobless clone this check runs against.
-    content = requiredContent(kind, headEntries, baseEntries, { read: refReader(repo, head).readMany, baseRead: base ? refReader(repo, base).readMany : null });
+    content = requiredContent(kind, headEntries, baseEntries, { read: refReader(repo, head).readMany, baseRead: baseEntries ? refReader(repo, base).readMany : null });
     console.log(`  requires ${content.length} content file(s), ${new Set(content.map((file) => file.id)).size} distinct`);
 
 
