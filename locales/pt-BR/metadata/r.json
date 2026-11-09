@@ -356,7 +356,7 @@
   "concept:strings:blurb": "O R base tem um grupo bastante pequeno de funções para lidar com strings. A biblioteca stringr é muito mais recente e mais amigável.",
   "concept:regular-expressions:blurb": "As expressões regulares estão disponíveis no R base, mas são muito mais fáceis de usar com a biblioteca de strings.",
   "concept:vector-filtering:blurb": "O R tem formas poderosas e flexíveis de filtrar os elementos desejados de um vetor, retornando um subconjunto do vetor.",
-  "concept:switch:blurb": "Para comparar um valor, especialmente uma string, switch() pode ser mais conciso que if-else. Alternativas mais novas e mais flexíveis incluem case_when() e case_match().",
+  "concept:switch:blurb": "Para comparar um valor, especialmente uma string, switch() pode ser mais conciso que if-else. Alternativas mais novas e mais flexíveis incluem case_when() e recode_values().",
   "concept:vector-functions:blurb": "Muitas funções do R conseguem operar sobre vetores inteiros sem precisar de laços explícitos.",
   "concept:lists:blurb": "Uma lista no R é uma coleção ordenada que pode conter dados heterogêneos, incluindo outras listas.",
   "concept:functions:blurb": "As funções no R são objetos de primeira classe, que podem ser passados como argumentos e incluídos em valores de retorno.",

@@ -356,7 +356,7 @@
   "concept:strings:blurb": "Base R에는 문자열 처리를 위한 함수가 비교적 적게 들어 있어요. stringr 라이브러리는 훨씬 최신이고 사용하기도 편해요.",
   "concept:regular-expressions:blurb": "정규 표현식은 Base R에서도 사용할 수 있지만, string 라이브러리를 쓰면 훨씬 다루기 쉬워요.",
   "concept:vector-filtering:blurb": "R에는 벡터에서 원하는 원소를 걸러 내고 부분 벡터를 반환하는 강력하고 유연한 방법이 있어요.",
-  "concept:switch:blurb": "값, 특히 문자열을 기준으로 매칭할 때는 switch()가 if-else보다 더 간결할 수 있어요. 더 새롭고 유연한 대안으로는 case_when()과 case_match()가 있어요.",
+  "concept:switch:blurb": "값, 특히 문자열을 기준으로 매칭할 때는 switch()가 if-else보다 더 간결할 수 있어요. 더 새롭고 유연한 대안으로는 case_when()과 recode_values()가 있어요.",
   "concept:vector-functions:blurb": "R의 많은 함수는 명시적인 루프 없이도 벡터 전체를 대상으로 동작할 수 있어요.",
   "concept:lists:blurb": "R의 리스트는 다른 리스트를 포함해 서로 다른 타입의 데이터를 담을 수 있는 순서 있는 모음이에요.",
   "concept:functions:blurb": "R에서 함수는 일급 객체라서 인자로 전달할 수 있고 반환값에 포함할 수도 있어요.",
