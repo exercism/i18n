@@ -437,14 +437,15 @@ This page is generated from [the index](../../json/ar/r.json) by `scripts/build-
 
 ### Annalyn's Infiltration (تسلّل أنالين)
 
-- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/annalyns-infiltration/.docs/instructions.md)): [Latest](../../../locales/ar/content/0b/00/87bb9245faffe07f5a0fd9b9c7a90720875b.md)
-  - [`e6f174aea3`](../../../locales/ar/content/e6/f1/74aea3a1a5696e8cf0947746280021a402c2.md)
+- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/annalyns-infiltration/.docs/instructions.md)): [Latest](../../../locales/ar/content/e6/f1/74aea3a1a5696e8cf0947746280021a402c2.md)
+  - [`0b0087bb92`](../../../locales/ar/content/0b/00/87bb9245faffe07f5a0fd9b9c7a90720875b.md)
 - `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/annalyns-infiltration/.docs/introduction.md)): [Latest](../../../locales/ar/content/80/67/8c4fffe9e2b67f1b6d843aa8df793db79da1.md)
 - `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/annalyns-infiltration/.docs/hints.md)): [Latest](../../../locales/ar/content/c3/94/ff150226af9d3550dee0796e39f5ffa157b6.md)
 
 ### Bird Watcher (مراقب الطيور)
 
-- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/bird-watcher/.docs/instructions.md)): [Latest](../../../locales/ar/content/7e/50/219a7e0dae0a6da939600ca0c443a731278a.md)
+- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/bird-watcher/.docs/instructions.md)): [Latest](../../../locales/ar/content/a7/1c/8d134d18347d719f04dfdc1b27969069f3a3.md)
+  - [`7e50219a7e`](../../../locales/ar/content/7e/50/219a7e0dae0a6da939600ca0c443a731278a.md)
 - `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/bird-watcher/.docs/introduction.md)): [Latest](../../../locales/ar/content/79/54/be3711e164355ca85f6dcc45e2eb48e28453.md)
 - `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/bird-watcher/.docs/hints.md)): [Latest](../../../locales/ar/content/89/49/add5b70546336c16f03d359967fed7a2dfea.md)
 
@@ -468,10 +469,10 @@ This page is generated from [the index](../../json/ar/r.json) by `scripts/build-
 
 ### Cars, Assemble (السيارات، تجمّعوا)
 
-- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/cars-assemble/.docs/instructions.md)): [Latest](../../../locales/ar/content/18/b8/402be4f8ce10e00fc94c8051386c703d43f6.md)
-  - [`fd59a251bd`](../../../locales/ar/content/fd/59/a251bddf463d0e6f762fa08e6598e89aa0ca.md)
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/cars-assemble/.docs/introduction.md)): [Latest](../../../locales/ar/content/58/86/5429885a4a60aaa192b535330266694f02d1.md)
-  - [`f9854b443d`](../../../locales/ar/content/f9/85/4b443df21fc6f26e973eadbec61e5b007b07.md)
+- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/cars-assemble/.docs/instructions.md)): [Latest](../../../locales/ar/content/fd/59/a251bddf463d0e6f762fa08e6598e89aa0ca.md)
+  - [`18b8402be4`](../../../locales/ar/content/18/b8/402be4f8ce10e00fc94c8051386c703d43f6.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/cars-assemble/.docs/introduction.md)): [Latest](../../../locales/ar/content/f9/85/4b443df21fc6f26e973eadbec61e5b007b07.md)
+  - [`5886542988`](../../../locales/ar/content/58/86/5429885a4a60aaa192b535330266694f02d1.md)
 - `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/cars-assemble/.docs/hints.md)): [Latest](../../../locales/ar/content/17/bd/61ada61bfd5569752c7d11522b9b26f9c766.md)
 
 ### Cheese Club (نادي الجبن)
@@ -494,18 +495,21 @@ This page is generated from [the index](../../json/ar/r.json) by `scripts/build-
 
 ### Elyse's Analytic Enchantments (تعويذات إليز التحليلية)
 
-- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/elyses-analytic-enchantments/.docs/instructions.md)): [Latest](../../../locales/ar/content/7e/e3/fa1e3609dfc3154b93b00f7ddb32a5b4a6fd.md)
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/elyses-analytic-enchantments/.docs/introduction.md)): [Latest](../../../locales/ar/content/03/bc/718e7f3037c80dc73cd142854ae18c0cbd84.md)
-- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/elyses-analytic-enchantments/.docs/hints.md)): [Latest](../../../locales/ar/content/91/46/5cbdf18a5de43fd489856077e5d598336424.md)
+- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/elyses-analytic-enchantments/.docs/instructions.md)): [Latest](../../../locales/ar/content/3f/eb/9d8eeabdb1cf59cedd3d241cd067f5b78617.md)
+  - [`7ee3fa1e36`](../../../locales/ar/content/7e/e3/fa1e3609dfc3154b93b00f7ddb32a5b4a6fd.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/elyses-analytic-enchantments/.docs/introduction.md)): [Latest](../../../locales/ar/content/e8/6b/224b31e597ffb5d68076bf2c0baac42efb85.md)
+  - [`03bc718e7f`](../../../locales/ar/content/03/bc/718e7f3037c80dc73cd142854ae18c0cbd84.md)
+- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/elyses-analytic-enchantments/.docs/hints.md)): [Latest](../../../locales/ar/content/70/c2/76eb0ee9b939ea4edcbc9dc1fa2bfcbd61f7.md)
+  - [`91465cbdf1`](../../../locales/ar/content/91/46/5cbdf18a5de43fd489856077e5d598336424.md)
 
 ### Elyse's Enchantments (تعويذات إليز)
 
-- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/elyses-enchantments/.docs/instructions.md)): [Latest](../../../locales/ar/content/f8/36/4434eebe9ab702eae84bae55d41919966918.md)
-  - [`667a7b3cfd`](../../../locales/ar/content/66/7a/7b3cfd9c9c51d259e2ad24c163a7d4787722.md)
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/elyses-enchantments/.docs/introduction.md)): [Latest](../../../locales/ar/content/cf/03/dd6c49edc68a4a49abfe3ba9e7a9c6d7df94.md)
-  - [`79ee7f01c8`](../../../locales/ar/content/79/ee/7f01c86f9c7acf6df46a4d4564709ca6482a.md)
-- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/elyses-enchantments/.docs/hints.md)): [Latest](../../../locales/ar/content/1c/fb/fe45ce1a2998a7e3f0c7d04ec3a1b6dd0289.md)
-  - [`ee434ff4ba`](../../../locales/ar/content/ee/43/4ff4baab15a12fd2f1a2d1016dc6ea09dfd6.md)
+- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/elyses-enchantments/.docs/instructions.md)): [Latest](../../../locales/ar/content/66/7a/7b3cfd9c9c51d259e2ad24c163a7d4787722.md)
+  - [`f8364434ee`](../../../locales/ar/content/f8/36/4434eebe9ab702eae84bae55d41919966918.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/elyses-enchantments/.docs/introduction.md)): [Latest](../../../locales/ar/content/79/ee/7f01c86f9c7acf6df46a4d4564709ca6482a.md)
+  - [`cf03dd6c49`](../../../locales/ar/content/cf/03/dd6c49edc68a4a49abfe3ba9e7a9c6d7df94.md)
+- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/elyses-enchantments/.docs/hints.md)): [Latest](../../../locales/ar/content/ee/43/4ff4baab15a12fd2f1a2d1016dc6ea09dfd6.md)
+  - [`1cfbfe45ce`](../../../locales/ar/content/1c/fb/fe45ce1a2998a7e3f0c7d04ec3a1b6dd0289.md)
 
 ### Factory Sensors (مستشعرات المصنع)
 
@@ -515,17 +519,19 @@ This page is generated from [the index](../../json/ar/r.json) by `scripts/build-
 
 ### Lasagna (اللازانيا)
 
-- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/lasagna/.docs/instructions.md)): [Latest](../../../locales/ar/content/98/a9/921063809f68b803ef1f568442f10ca2606d.md)
-  - [`81a46a49c0`](../../../locales/ar/content/81/a4/6a49c0d2b8c10ab3defa8b5332ad6774cbbc.md)
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/lasagna/.docs/introduction.md)): [Latest](../../../locales/ar/content/4e/5d/d1dad9d6f2acd7ef2cd9ecbd245acdd232d5.md)
-  - [`53bb0ff5f4`](../../../locales/ar/content/53/bb/0ff5f4a5e1c350e75086048cb88bc87094a8.md)
-- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/lasagna/.docs/hints.md)): [Latest](../../../locales/ar/content/49/04/30b7b6eedd83d728cf75fe6c54fd9fb5685c.md)
-  - [`862aa7d831`](../../../locales/ar/content/86/2a/a7d8317cfc331f3349429db6c90c9512008a.md)
+- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/lasagna/.docs/instructions.md)): [Latest](../../../locales/ar/content/81/a4/6a49c0d2b8c10ab3defa8b5332ad6774cbbc.md)
+  - [`98a9921063`](../../../locales/ar/content/98/a9/921063809f68b803ef1f568442f10ca2606d.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/lasagna/.docs/introduction.md)): [Latest](../../../locales/ar/content/53/bb/0ff5f4a5e1c350e75086048cb88bc87094a8.md)
+  - [`4e5dd1dad9`](../../../locales/ar/content/4e/5d/d1dad9d6f2acd7ef2cd9ecbd245acdd232d5.md)
+- `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/lasagna/.docs/hints.md)): [Latest](../../../locales/ar/content/86/2a/a7d8317cfc331f3349429db6c90c9512008a.md)
+  - [`490430b7b6`](../../../locales/ar/content/49/04/30b7b6eedd83d728cf75fe6c54fd9fb5685c.md)
 
 ### Log Levels (مستويات السجل)
 
-- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/log-levels/.docs/instructions.md)): [Latest](../../../locales/ar/content/63/41/0e3b5c71921b54ff67ac62ed3df4499231db.md)
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/log-levels/.docs/introduction.md)): [Latest](../../../locales/ar/content/32/2c/5a9660ffa5b1f05abfd7b082155c6395f1a2.md)
+- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/log-levels/.docs/instructions.md)): [Latest](../../../locales/ar/content/31/9a/7d2bd67bad316b3ce1a836c34ef77b1f1add.md)
+  - [`63410e3b5c`](../../../locales/ar/content/63/41/0e3b5c71921b54ff67ac62ed3df4499231db.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/log-levels/.docs/introduction.md)): [Latest](../../../locales/ar/content/ca/fa/6f03902ff97258395234aee85b355be8fd85.md)
+  - [`322c5a9660`](../../../locales/ar/content/32/2c/5a9660ffa5b1f05abfd7b082155c6395f1a2.md)
 - `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/log-levels/.docs/hints.md)): [Latest](../../../locales/ar/content/f4/a5/e30487c232f9b2d113e79b9d4f4642a7c9e4.md)
 
 ### Mixed Juices (عصائر مشكّلة)
@@ -554,8 +560,10 @@ This page is generated from [the index](../../json/ar/r.json) by `scripts/build-
 
 ### Ozan's Playlist (قائمة تشغيل Ozan)
 
-- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/ozans-playlist/.docs/instructions.md)): [Latest](../../../locales/ar/content/51/a1/39532d4dbeb0ed31ae88f58bb9a57a54700f.md)
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/ozans-playlist/.docs/introduction.md)): [Latest](../../../locales/ar/content/7e/ef/8cc1f654b3827ef049505cc3bc673050fe7f.md)
+- `instructions.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/ozans-playlist/.docs/instructions.md)): [Latest](../../../locales/ar/content/28/e6/9e8409c0c289c0c4d1042cdacc1412820f47.md)
+  - [`51a139532d`](../../../locales/ar/content/51/a1/39532d4dbeb0ed31ae88f58bb9a57a54700f.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/ozans-playlist/.docs/introduction.md)): [Latest](../../../locales/ar/content/2a/fa/3f4179f5c58085df037e983044f960103609.md)
+  - [`7eef8cc1f6`](../../../locales/ar/content/7e/ef/8cc1f654b3827ef049505cc3bc673050fe7f.md)
 - `hints.md` ([English](https://github.com/exercism/r/blob/main/exercises/concept/ozans-playlist/.docs/hints.md)): [Latest](../../../locales/ar/content/8f/a4/e5250879ad883e231186a2445d4328057bd8.md)
 
 ### Regular Chatbot (روبوت المحادثة النمطي)
@@ -574,16 +582,16 @@ This page is generated from [the index](../../json/ar/r.json) by `scripts/build-
 
 ### Basics (الأساسيات)
 
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/basics/introduction.md)): [Latest](../../../locales/ar/content/4e/5d/d1dad9d6f2acd7ef2cd9ecbd245acdd232d5.md)
-  - [`53bb0ff5f4`](../../../locales/ar/content/53/bb/0ff5f4a5e1c350e75086048cb88bc87094a8.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/basics/about.md)): [Latest](../../../locales/ar/content/36/69/16fd04c4f0555c60c6321fc3e6ff7460d55c.md)
-  - [`841e35fabd`](../../../locales/ar/content/84/1e/35fabd0688680d4de353745899fb0071c674.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/basics/introduction.md)): [Latest](../../../locales/ar/content/53/bb/0ff5f4a5e1c350e75086048cb88bc87094a8.md)
+  - [`4e5dd1dad9`](../../../locales/ar/content/4e/5d/d1dad9d6f2acd7ef2cd9ecbd245acdd232d5.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/basics/about.md)): [Latest](../../../locales/ar/content/84/1e/35fabd0688680d4de353745899fb0071c674.md)
+  - [`366916fd04`](../../../locales/ar/content/36/69/16fd04c4f0555c60c6321fc3e6ff7460d55c.md)
 
 ### Booleans (القيم المنطقية)
 
 - `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/booleans/introduction.md)): [Latest](../../../locales/ar/content/5a/b7/a91e56b883bf5b04bfe8006beb0d019ab483.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/booleans/about.md)): [Latest](../../../locales/ar/content/33/4d/a53231ac662b429516feb37ff8ab3953a455.md)
-  - [`59229165ad`](../../../locales/ar/content/59/22/9165ad45c2c31aaab62ecbaa176e31902aa7.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/booleans/about.md)): [Latest](../../../locales/ar/content/59/22/9165ad45c2c31aaab62ecbaa176e31902aa7.md)
+  - [`334da53231`](../../../locales/ar/content/33/4d/a53231ac662b429516feb37ff8ab3953a455.md)
 
 ### Classes (الأصناف)
 
@@ -598,8 +606,8 @@ This page is generated from [the index](../../json/ar/r.json) by `scripts/build-
 ### Conditionals (الجمل الشرطية)
 
 - `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/conditionals/introduction.md)): [Latest](../../../locales/ar/content/04/c2/3c027ef75521c8ccfa89f2788d55f4edc460.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/conditionals/about.md)): [Latest](../../../locales/ar/content/75/2c/3f58b0c6969eb437af514d5c1ecb393f7da0.md)
-  - [`15fa49fe6c`](../../../locales/ar/content/15/fa/49fe6c3b3ac46b1bbb1b9ba47ab48eb799f4.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/conditionals/about.md)): [Latest](../../../locales/ar/content/15/fa/49fe6c3b3ac46b1bbb1b9ba47ab48eb799f4.md)
+  - [`752c3f58b0`](../../../locales/ar/content/75/2c/3f58b0c6969eb437af514d5c1ecb393f7da0.md)
 
 ### Dataframes (إطارات البيانات)
 
@@ -663,13 +671,17 @@ This page is generated from [the index](../../json/ar/r.json) by `scripts/build-
 
 ### Set Operations (عمليات المجموعات)
 
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/set-operations/introduction.md)): [Latest](../../../locales/ar/content/7e/ef/8cc1f654b3827ef049505cc3bc673050fe7f.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/set-operations/about.md)): [Latest](../../../locales/ar/content/1e/fc/9e52f9d0c895910b203f77133ee0f636760f.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/set-operations/introduction.md)): [Latest](../../../locales/ar/content/6d/16/9fe4a6b925233d61d38cfbc58261134e7bf3.md)
+  - [`7eef8cc1f6`](../../../locales/ar/content/7e/ef/8cc1f654b3827ef049505cc3bc673050fe7f.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/set-operations/about.md)): [Latest](../../../locales/ar/content/61/f5/438d77e4ba93ba626f5237f0d4bcefb095bf.md)
+  - [`1efc9e52f9`](../../../locales/ar/content/1e/fc/9e52f9d0c895910b203f77133ee0f636760f.md)
 
 ### Strings (السلاسل النصية)
 
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/strings/introduction.md)): [Latest](../../../locales/ar/content/1a/c5/c0ab7aa422e6377fb4450ee7ee87f9ff93bb.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/strings/about.md)): [Latest](../../../locales/ar/content/85/65/96dff62845de5ca2ed29b8fb7a01f7cd93a8.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/strings/introduction.md)): [Latest](../../../locales/ar/content/ca/fa/6f03902ff97258395234aee85b355be8fd85.md)
+  - [`1ac5c0ab7a`](../../../locales/ar/content/1a/c5/c0ab7aa422e6377fb4450ee7ee87f9ff93bb.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/strings/about.md)): [Latest](../../../locales/ar/content/c7/e2/e02b0e1eb728438687beba2b4a97c3629811.md)
+  - [`856596dff6`](../../../locales/ar/content/85/65/96dff62845de5ca2ed29b8fb7a01f7cd93a8.md)
 
 ### Switch
 
@@ -678,20 +690,23 @@ This page is generated from [the index](../../json/ar/r.json) by `scripts/build-
 
 ### Vector Filtering (تصفية المتجهات)
 
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/vector-filtering/introduction.md)): [Latest](../../../locales/ar/content/03/bc/718e7f3037c80dc73cd142854ae18c0cbd84.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/vector-filtering/about.md)): [Latest](../../../locales/ar/content/d1/65/f8bed2d95e446b1160a59787383c408b9699.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/vector-filtering/introduction.md)): [Latest](../../../locales/ar/content/e8/6b/224b31e597ffb5d68076bf2c0baac42efb85.md)
+  - [`03bc718e7f`](../../../locales/ar/content/03/bc/718e7f3037c80dc73cd142854ae18c0cbd84.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/vector-filtering/about.md)): [Latest](../../../locales/ar/content/7d/5f/d10d3e74ef9ea0df60932d1bcda64abfd912.md)
+  - [`d165f8bed2`](../../../locales/ar/content/d1/65/f8bed2d95e446b1160a59787383c408b9699.md)
 
 ### Vector Functions (دوال المتجهات)
 
 - `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/vector-functions/introduction.md)): [Latest](../../../locales/ar/content/79/54/be3711e164355ca85f6dcc45e2eb48e28453.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/vector-functions/about.md)): [Latest](../../../locales/ar/content/88/c5/028cd2fdd18ccdc8c45b49de07d2676b84b4.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/vector-functions/about.md)): [Latest](../../../locales/ar/content/d2/3a/930ecf3dd09fadede7c144fa8d40e0d26f21.md)
+  - [`88c5028cd2`](../../../locales/ar/content/88/c5/028cd2fdd18ccdc8c45b49de07d2676b84b4.md)
 
 ### Vectors (المتجهات)
 
-- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/vectors/introduction.md)): [Latest](../../../locales/ar/content/3f/aa/b81c2ff6d0036b712d8027976301d97673bc.md)
-  - [`c936e32c2c`](../../../locales/ar/content/c9/36/e32c2ce287657fd9348c2a2ca78b7fd32a7a.md)
-- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/vectors/about.md)): [Latest](../../../locales/ar/content/a9/e4/7133b10043376bf082ecfa544c3a596ce0ac.md)
-  - [`cf60a5cdea`](../../../locales/ar/content/cf/60/a5cdeabb580edaaf70536858c11f689255ac.md)
+- `introduction.md` ([English](https://github.com/exercism/r/blob/main/concepts/vectors/introduction.md)): [Latest](../../../locales/ar/content/c9/36/e32c2ce287657fd9348c2a2ca78b7fd32a7a.md)
+  - [`3faab81c2f`](../../../locales/ar/content/3f/aa/b81c2ff6d0036b712d8027976301d97673bc.md)
+- `about.md` ([English](https://github.com/exercism/r/blob/main/concepts/vectors/about.md)): [Latest](../../../locales/ar/content/cf/60/a5cdeabb580edaaf70536858c11f689255ac.md)
+  - [`a9e47133b1`](../../../locales/ar/content/a9/e4/7133b10043376bf082ecfa544c3a596ce0ac.md)
 
 ## Track docs
 
