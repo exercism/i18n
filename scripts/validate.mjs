@@ -274,7 +274,10 @@ function validateMetadata({ locale, contentRepos, requireComplete, stamp, stampU
       const key = repoKey(repo);
       if (!metadataEnglish.has(key)) metadataEnglish.set(key, buildMetadataEnglish(repo.kind, treeOf(repo), refReader(repo.dir, repo.ref).readMany));
       const english = metadataEnglish.get(key);
-      results.push(validateCatalog({ locale, kind: METADATA_KIND, english, requireComplete, stamp, stampUnits, changedRef, file, type }));
+      // A catalog held for an inactive track is checked against its English,
+      // but what it lacks is not an error: the track is not on the website, so
+      // nothing it lacks is shown in English.
+      results.push(validateCatalog({ locale, kind: METADATA_KIND, english, requireComplete: requireComplete && mustHold(name), stamp, stampUnits, changedRef, file, type }));
       continue;
     }
     const result = { locale, type, issues: [], counts: { total: 0, unverified: 0 }, unverified: true };

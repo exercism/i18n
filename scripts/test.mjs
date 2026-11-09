@@ -1322,14 +1322,15 @@ await test("fixture: a production locale must hold a catalog for an active track
   assert.equal(other.status, 0, other.out);
   assert.doesNotMatch(other.out, /metadata\/awake/);
 
-  // The exemption decides what a locale must hold. A locale that holds an
-  // inactive track's catalog anyway is checked against its English as usual.
+  // A locale that holds an inactive track's catalog anyway (one written before
+  // inactive tracks stopped being translated) is checked against its English,
+  // but what it lacks is not an error: the track is not on the website. Every
+  // locale held part of sather's catalog, and requiring the rest failed main.
   writeTree(ROOT, { "locales/hu/metadata/dozing.json": "{}" });
   const held = run("validate.mjs", ["hu", "--type=metadata", `--content-repos=${repos}`]);
   fs.rmSync(path.join(ROOT, "locales/hu/metadata/dozing.json"));
-  assert.equal(held.status, 1, held.out);
-  assert.match(held.out, /FAIL hu\s+metadata\/dozing/, held.out);
-  assert.match(held.out, /ERROR missing: track:blurb/, held.out);
+  assert.doesNotMatch(held.out, /FAIL hu\s+metadata\/dozing/, held.out);
+  assert.doesNotMatch(held.out, /ERROR missing: track:blurb/, held.out);
 });
 
 // A source repo syncs one exercise into a hundred-odd tracks, so one author
