@@ -3370,7 +3370,7 @@
     },
     "impact": {
       "meta_title": "Exercismのインパクトレポート",
-      "meta_description": "100万人以上の人に、3億1000万分を超える無料の学習を提供してきました。詳しくはインパクトレポートをご覧ください！",
+      "meta_description": "100万人以上の人に、5億5000万分を超える無料の学習を提供してきました。詳しくはインパクトレポートをご覧ください！",
       "header": {
         "title": "Exercismインパクトレポート",
         "provided_text_html": "%{highlight_open}%{count}%{highlight_close}%{highlight_unit_open}分%{highlight_unit_close}の無料教育を提供してきました。\n",

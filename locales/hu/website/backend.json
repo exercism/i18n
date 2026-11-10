@@ -199,7 +199,7 @@
     },
     "impact": {
       "meta_title": "Az Exercism hatásjelentése",
-      "meta_description": "Több mint 310 millió perc ingyenes tanulást biztosítottunk több mint egymillió embernek. Tudj meg többet a hatásjelentésünkben!",
+      "meta_description": "Több mint 550 millió perc ingyenes tanulást biztosítottunk több mint egymillió embernek. Tudj meg többet a hatásjelentésünkben!",
       "header": {
         "title": "Az Exercism hatásjelentése",
         "provided_text_html": "%{highlight_open}%{count}%{highlight_close} %{highlight_unit_open}perc%{highlight_unit_close} ingyenes oktatást biztosítottunk.\n",

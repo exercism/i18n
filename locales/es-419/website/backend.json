@@ -1395,7 +1395,7 @@
   "about": {
     "impact": {
       "meta_title": "Informe de impacto de Exercism",
-      "meta_description": "Hemos brindado más de 310 millones de minutos de aprendizaje gratuito a más de un millón de personas. ¡Conoce más en nuestro informe de impacto!",
+      "meta_description": "Hemos brindado más de 550 millones de minutos de aprendizaje gratuito a más de un millón de personas. ¡Conoce más en nuestro informe de impacto!",
       "header": {
         "title": "Informe de impacto de Exercism",
         "provided_text_html": "Hemos brindado %{highlight_open}%{count}%{highlight_close} %{highlight_unit_open}minutos%{highlight_unit_close} de educación gratuita.\n",

@@ -3330,7 +3330,7 @@
     },
     "impact": {
       "meta_title": "Exercisms Wirkungsbericht",
-      "meta_description": "Wir haben über einer Million Menschen mehr als 310 Millionen Minuten kostenloses Lernen ermöglicht. Erfahre mehr in unserem Wirkungsbericht!",
+      "meta_description": "Wir haben über einer Million Menschen mehr als 550 Millionen Minuten kostenloses Lernen ermöglicht. Erfahre mehr in unserem Wirkungsbericht!",
       "header": {
         "title": "Exercism Wirkungsbericht",
         "provided_text_html": "Wir haben %{highlight_open}%{count}%{highlight_close} %{highlight_unit_open}Minuten%{highlight_unit_close} kostenlose Bildung bereitgestellt.\n",

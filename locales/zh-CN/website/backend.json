@@ -3040,7 +3040,7 @@
     },
     "impact": {
       "meta_title": "Exercism 影响力报告",
-      "meta_description": "我们已经为超过 100 万人提供了超过 3.1 亿分钟的免费学习。想了解更多，请看我们的影响力报告！",
+      "meta_description": "我们已经为超过 100 万人提供了超过 5.5 亿分钟的免费学习。想了解更多，请看我们的影响力报告！",
       "header": {
         "title": "Exercism 影响力报告",
         "provided_text_html": "我们已经提供了 %{highlight_open}%{count}%{highlight_close} %{highlight_unit_open}分钟%{highlight_unit_close}的免费教育。\n",

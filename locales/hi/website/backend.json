@@ -3133,7 +3133,7 @@
     },
     "impact": {
       "meta_title": "Exercism की प्रभाव रिपोर्ट",
-      "meta_description": "हमने दस लाख से ज़्यादा लोगों को मुफ्त सीखने के 31 करोड़ मिनट से ज़्यादा दिए हैं। हमारी प्रभाव रिपोर्ट में और जानिए!",
+      "meta_description": "हमने दस लाख से ज़्यादा लोगों को मुफ्त सीखने के 55 करोड़ मिनट से ज़्यादा दिए हैं। हमारी प्रभाव रिपोर्ट में और जानिए!",
       "header": {
         "title": "Exercism प्रभाव रिपोर्ट",
         "provided_text_html": "हमने मुफ्त शिक्षा के %{highlight_open}%{count}%{highlight_close} %{highlight_unit_open}मिनट%{highlight_unit_close} प्रदान किए हैं।\n",

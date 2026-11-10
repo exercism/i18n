@@ -3072,7 +3072,7 @@
     },
     "impact": {
       "meta_title": "تقرير أثر Exercism",
-      "meta_description": "قدّمنا أكثر من 310 ملايين دقيقة من التعلّم المجاني لأكثر من مليون شخص. اعرف المزيد في تقرير الأثر!",
+      "meta_description": "قدّمنا أكثر من 550 مليون دقيقة من التعلّم المجاني لأكثر من مليون شخص. اعرف المزيد في تقرير الأثر!",
       "header": {
         "title": "تقرير أثر Exercism",
         "provided_text_html": "قدّمنا %{highlight_open}%{count}%{highlight_close} %{highlight_unit_open}دقيقة%{highlight_unit_close} من التعليم المجاني.\n",

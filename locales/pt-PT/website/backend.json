@@ -2753,7 +2753,7 @@
     },
     "impact": {
       "meta_title": "Relatório de Impacto do Exercism",
-      "meta_description": "Já proporcionámos mais de 310 milhões de minutos de aprendizagem gratuita a mais de um milhão de pessoas. Sabe mais no nosso relatório de impacto!",
+      "meta_description": "Já proporcionámos mais de 550 milhões de minutos de aprendizagem gratuita a mais de um milhão de pessoas. Sabe mais no nosso relatório de impacto!",
       "header": {
         "title": "Relatório de Impacto do Exercism",
         "provided_text_html": "Já proporcionámos %{highlight_open}%{count}%{highlight_close} %{highlight_unit_open}minutos%{highlight_unit_close} de educação gratuita.\n",

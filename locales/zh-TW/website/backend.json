@@ -3126,7 +3126,7 @@
   "about": {
     "impact": {
       "meta_title": "Exercism 的影響力報告",
-      "meta_description": "我們已經為超過 100 萬人提供逾 3.1 億分鐘的免費學習。想看更多，請見我們的影響力報告！",
+      "meta_description": "我們已經為超過 100 萬人提供逾 5.5 億分鐘的免費學習。想看更多，請見我們的影響力報告！",
       "header": {
         "title": "Exercism 影響力報告",
         "provided_text_html": "我們已提供 %{highlight_open}%{count}%{highlight_close} %{highlight_unit_open}分鐘%{highlight_unit_close}的免費教育。\n",

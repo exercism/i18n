@@ -2860,7 +2860,7 @@
     },
     "impact": {
       "meta_title": "Exercism 임팩트 리포트",
-      "meta_description": "우리는 백만 명이 넘는 사람들에게 3억 1천만 분이 넘는 무료 학습을 제공했어요. 임팩트 리포트에서 더 자세히 알아봐요!",
+      "meta_description": "우리는 백만 명이 넘는 사람들에게 5억 5천만 분이 넘는 무료 학습을 제공했어요. 임팩트 리포트에서 더 자세히 알아봐요!",
       "header": {
         "title": "Exercism 임팩트 리포트",
         "provided_text_html": "무료 교육을 %{highlight_open}%{count}%{highlight_close}%{highlight_unit_open}분%{highlight_unit_close} 제공했어요.\n",

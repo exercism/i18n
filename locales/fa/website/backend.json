@@ -1139,7 +1139,7 @@
     },
     "impact": {
       "meta_title": "گزارش تأثیر Exercism",
-      "meta_description": "ما بیش از ۳۱۰ میلیون دقیقه یادگیری رایگان را به بیش از یک میلیون نفر ارائه کرده‌ایم. در گزارش تأثیر ما بیشتر بخوانید!",
+      "meta_description": "ما بیش از ۵۵۰ میلیون دقیقه یادگیری رایگان را به بیش از یک میلیون نفر ارائه کرده‌ایم. در گزارش تأثیر ما بیشتر بخوانید!",
       "header": {
         "title": "گزارش تأثیر Exercism",
         "provided_text_html": "ما %{highlight_open}%{count}%{highlight_close} %{highlight_unit_open}دقیقه%{highlight_unit_close} آموزش رایگان ارائه کرده‌ایم.\n",

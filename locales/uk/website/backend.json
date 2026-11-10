@@ -2845,7 +2845,7 @@
     },
     "impact": {
       "meta_title": "Звіт про вплив Exercism",
-      "meta_description": "Ми надали понад 310 мільйонів хвилин безкоштовного навчання понад мільйону людей. Дізнайтеся більше у нашому звіті про вплив!",
+      "meta_description": "Ми надали понад 550 мільйонів хвилин безкоштовного навчання понад мільйону людей. Дізнайтеся більше у нашому звіті про вплив!",
       "header": {
         "title": "Звіт про вплив Exercism",
         "provided_text_html": "Ми надали %{highlight_open}%{count}%{highlight_close} %{highlight_unit_open}хвилин%{highlight_unit_close} безкоштовної освіти.\n",

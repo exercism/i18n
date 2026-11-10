@@ -3272,7 +3272,7 @@
     },
     "impact": {
       "meta_title": "Exercism-এর ইমপ্যাক্ট রিপোর্ট",
-      "meta_description": "আমরা ১০ লাখেরও বেশি মানুষকে বিনামূল্যে ৩১ কোটিরও বেশি মিনিট শেখার সুযোগ দিয়েছি। আমাদের ইমপ্যাক্ট রিপোর্টে আরও জানুন!",
+      "meta_description": "আমরা ১০ লাখেরও বেশি মানুষকে বিনামূল্যে ৫৫ কোটিরও বেশি মিনিট শেখার সুযোগ দিয়েছি। আমাদের ইমপ্যাক্ট রিপোর্টে আরও জানুন!",
       "header": {
         "title": "Exercism ইমপ্যাক্ট রিপোর্ট",
         "provided_text_html": "আমরা বিনামূল্যে শিক্ষার %{highlight_open}%{count}%{highlight_close} %{highlight_unit_open}মিনিট%{highlight_unit_close} দিয়েছি।\n",
