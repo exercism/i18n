@@ -2675,8 +2675,8 @@
           "description": "Fejlődj 65+ nyelven"
         },
         "coding_fundamentals": {
-          "title": "Tanulj Jikivel",
-          "description": "Tanulj és alkoss az LLM-korban"
+          "title": "Sajátítsd el az alapokat",
+          "description": "Barátkozz meg az alapokkal"
         },
         "journey": {
           "title": "Az utad",
@@ -3391,7 +3391,12 @@
         "description_p1_html": "A programozás megváltozott. Annak is változnia kell, ahogy tanulsz. A Jiki egy vadonatúj platform, amely segít megtanulni programozni és alkotni az LLM-korszakban. Kifejezetten <strong>kezdőknek, junioroknak és vibe codereknek</strong> készült.",
         "strong_text_1": "Teljesen új vagy?",
         "strong_text_2": "Az oktatóanyagok pokla?",
-        "explore_button": "Vágj bele, ingyenes!"
+        "explore_button": "Vágj bele, ingyenes!",
+        "logo_alt": "Jiki, az Exercism csapatától",
+        "title_html": "%{highlight} közben tanulj meg programozni",
+        "title_highlight": "Építés",
+        "description": "Érezd magad otthonosan a programozás alapjaiban. A legeslegelejétől elvezetünk egészen az összetett programok megírásáig.",
+        "note": "Nézd, mit fogsz alkotni!"
       },
       "favorites": {
         "heading": "A kedvenceid",

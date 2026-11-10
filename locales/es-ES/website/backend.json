@@ -320,8 +320,8 @@
           "description": "Mejora tus habilidades en más de 65 lenguajes"
         },
         "coding_fundamentals": {
-          "title": "Aprende a programar con Jiki",
-          "description": "Aprende a programar y a crear en la era de los LLM."
+          "title": "Domina los fundamentos",
+          "description": "Familiarízate con lo básico"
         }
       },
       "discover": {
@@ -2870,7 +2870,12 @@
         "strong_text_1": "¿Empiezas de cero?",
         "strong_text_2": "¿Infierno de tutoriales?",
         "explore_button": "Empieza ya, ¡es gratis!",
-        "title": "Jiki"
+        "title": "Jiki",
+        "logo_alt": "Jiki, del equipo de Exercism",
+        "title_html": "Aprende a programar %{highlight}",
+        "title_highlight": "construyendo",
+        "description": "Familiarízate con los fundamentos de la programación. Te llevaremos desde lo más básico hasta construir programas complejos.",
+        "note": "¡Mira lo que vas a crear!"
       },
       "insiders": {
         "title": "Exercism Insiders",

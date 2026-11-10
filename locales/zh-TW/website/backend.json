@@ -1263,8 +1263,8 @@
           "description": "在 65 種以上的語言中精進技能"
         },
         "coding_fundamentals": {
-          "title": "用 Jiki 學習寫程式",
-          "description": "在 LLM 時代學習寫程式並打造作品。"
+          "title": "掌握基礎",
+          "description": "熟悉基礎概念"
         }
       },
       "discover": {
@@ -2380,7 +2380,12 @@
         "description_p1_html": "寫程式這件事已經改變了，你的學習方式也得跟著改變。Jiki 是全新的平台，幫助你在 LLM 時代學會寫程式並打造作品。專為<strong>初學者、初階開發者和 vibe coder 打造。</strong>",
         "strong_text_1": "完全是新手？",
         "strong_text_2": "卡在教學地獄？",
-        "explore_button": "馬上開始，完全免費！"
+        "explore_button": "馬上開始，完全免費！",
+        "logo_alt": "Jiki，由 Exercism 團隊打造",
+        "title_html": "透過 %{highlight} 學習寫程式",
+        "title_highlight": "打造作品",
+        "description": "熟悉寫程式的基礎。我們會帶你從最基礎的內容，一路做到打造複雜的程式。",
+        "note": "看看你能做出什麼！"
       }
     }
   },

@@ -234,8 +234,8 @@
           "description": "65개 이상의 언어로 실력을 키워보세요"
         },
         "coding_fundamentals": {
-          "title": "Jiki와 함께 코딩 배우기",
-          "description": "LLM 시대에 코딩을 배우고 직접 만들어 봐요."
+          "title": "기초를 확실히 다져요",
+          "description": "기본 개념에 익숙해져요"
         }
       },
       "discover": {
@@ -2385,7 +2385,12 @@
         "description_p1_html": "코딩은 달라졌어요. 배우는 방식도 달라져야 해요. Jiki는 LLM 시대에 코딩을 배우고 만들어 볼 수 있도록 설계된 완전히 새로운 플랫폼이에요. <strong>초보자, 주니어, 바이브 코더</strong>를 위해 만들었어요.",
         "strong_text_1": "완전히 처음이에요?",
         "strong_text_2": "튜토리얼 지옥에 빠졌어요?",
-        "explore_button": "지금 시작해요 - 무료예요!"
+        "explore_button": "지금 시작해요 - 무료예요!",
+        "logo_alt": "Exercism 팀이 만든 Jiki",
+        "title_html": "%{highlight} 코딩을 배워요",
+        "title_highlight": "만들면서",
+        "description": "코딩 기초에 익숙해져요. 완전한 초보에서 시작해 복잡한 프로그램을 만드는 단계까지 함께 나아가요.",
+        "note": "이런 걸 직접 만들 수 있게 돼요!"
       }
     }
   },

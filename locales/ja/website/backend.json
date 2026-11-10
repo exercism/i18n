@@ -152,8 +152,8 @@
           "description": "65以上の言語でスキルアップ"
         },
         "coding_fundamentals": {
-          "title": "Jikiでプログラミングを学ぶ",
-          "description": "LLM時代のプログラミングとものづくりを学ぶ。"
+          "title": "基礎をマスターしよう",
+          "description": "基礎をしっかり身につけましょう"
         }
       },
       "discover": {
@@ -3708,7 +3708,12 @@
         "description_p1_html": "プログラミングは変わりました。学び方も変える必要があります。Jikiは、LLM時代にコードを書くこと、ものを作ることを学ぶための、まったく新しいプラットフォームです。<strong>初心者、ジュニア、バイブコーダー</strong>向けに設計されています。",
         "strong_text_1": "まったくの初心者？",
         "strong_text_2": "チュートリアル地獄？",
-        "explore_button": "今すぐ始めよう！無料です"
+        "explore_button": "今すぐ始めよう！無料です",
+        "logo_alt": "ExercismチームによるJiki",
+        "title_html": "%{highlight}ことでプログラミングを学ぼう",
+        "title_highlight": "つくること",
+        "description": "プログラミングの基礎をしっかり身につけましょう。基礎の基礎から、複雑なプログラムづくりまで案内します。",
+        "note": "こんなものが作れるようになります！"
       }
     }
   },

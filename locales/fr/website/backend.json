@@ -147,8 +147,8 @@
           "description": "Développe tes compétences dans plus de 65 langages"
         },
         "coding_fundamentals": {
-          "title": "Apprends à coder avec Jiki",
-          "description": "Apprends à coder et à créer à l'ère des LLM."
+          "title": "Maîtrise les fondamentaux",
+          "description": "Familiarise-toi avec les bases"
         },
         "journey": {
           "title": "Ton voyage",
@@ -736,7 +736,12 @@
         "description_p1_html": "La programmation a changé. Ta façon d'apprendre doit changer, elle aussi. Jiki est une toute nouvelle plateforme, conçue pour t'aider à apprendre à coder et à construire à l'ère des LLM. Pensée pour les <strong>débutants, les juniors et les vibe coders.</strong>.",
         "strong_text_1": "Complètement débutant ?",
         "strong_text_2": "L'enfer des tutoriels ?",
-        "explore_button": "Commence, c'est gratuit !"
+        "explore_button": "Commence, c'est gratuit !",
+        "logo_alt": "Jiki par l'équipe d'Exercism",
+        "title_html": "Apprends à coder en %{highlight}",
+        "title_highlight": "construisant",
+        "description": "Familiarise-toi avec les fondamentaux de la programmation. On te guide des bases les plus simples jusqu'à la création de programmes complexes.",
+        "note": "Regarde ce que tu vas créer !"
       }
     }
   },

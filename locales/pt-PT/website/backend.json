@@ -82,8 +82,8 @@
           "description": "Melhora as tuas competências em mais de 65 linguagens"
         },
         "coding_fundamentals": {
-          "title": "Aprende a programar com o Jiki",
-          "description": "Aprende a programar e a construir na era dos grandes modelos de linguagem (LLM)."
+          "title": "Domina os fundamentos",
+          "description": "Familiariza-te com o básico"
         }
       },
       "discover": {
@@ -2354,7 +2354,12 @@
         "description_p1_html": "A programação mudou. A forma como aprendes também tem de mudar. O Jiki é uma plataforma novinha em folha, concebida para te ajudar a aprender a programar e a construir na era dos LLM. Pensada para <strong>principiantes, júniores e vibe coders.</strong>.",
         "strong_text_1": "Completamente novo?",
         "strong_text_2": "Inferno dos tutoriais?",
-        "explore_button": "Começa já - é grátis!"
+        "explore_button": "Começa já - é grátis!",
+        "logo_alt": "Jiki, da equipa do Exercism",
+        "title_html": "Aprende a programar enquanto %{highlight}",
+        "title_highlight": "construis",
+        "description": "Familiariza-te com os fundamentos da programação. Levamos-te dos básicos absolutos à construção de programas complexos.",
+        "note": "Vê o que vais construir!"
       }
     }
   },
