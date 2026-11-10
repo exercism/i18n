@@ -490,31 +490,36 @@ This page is generated from [the index](../../json/ko/swift.json) by `scripts/bu
 ### Bird Watcher (새 관찰자)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/bird-watcher/.docs/instructions.md)): [Latest](../../../locales/ko/content/f2/f7/54a5b18e67ee7376f9a5fdea925fa879b9cf.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/bird-watcher/.docs/introduction.md)): [Latest](../../../locales/ko/content/e4/1f/afaf973e38a44cd097b88cb102dc24ea8a14.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/bird-watcher/.docs/introduction.md)): [Latest](../../../locales/ko/content/53/5f/7c4c1a1f2cf9631810d893ae16e901899ecc.md)
+  - [`e41fafaf97`](../../../locales/ko/content/e4/1f/afaf973e38a44cd097b88cb102dc24ea8a14.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/bird-watcher/.docs/hints.md)): [Latest](../../../locales/ko/content/dc/de/6ddc32033f6e2abc9b25ad24d50cb797d663.md)
 
 ### Cal's Custom Sign Shop (Cal의 맞춤 간판 가게)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/custom-signs/.docs/instructions.md)): [Latest](../../../locales/ko/content/9d/85/6f0aa8809a16ac843e2694859b54a64e0cd0.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/custom-signs/.docs/introduction.md)): [Latest](../../../locales/ko/content/83/8c/df737db94f1b3f12168170b3345747a96f27.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/custom-signs/.docs/introduction.md)): [Latest](../../../locales/ko/content/65/09/c22cd4b67dd8cf6a58569b68c2bf06c2fa60.md)
+  - [`838cdf737d`](../../../locales/ko/content/83/8c/df737db94f1b3f12168170b3345747a96f27.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/custom-signs/.docs/hints.md)): [Latest](../../../locales/ko/content/99/8f/c2d6aa9963472e8f5c84903f004565d65e30.md)
 
 ### ChessBoard (체스판)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/chessboard/.docs/instructions.md)): [Latest](../../../locales/ko/content/cb/5a/cc863e25f06c909f01efe2652d9d6836dbcc.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/chessboard/.docs/introduction.md)): [Latest](../../../locales/ko/content/e6/30/9215096118f858eefb4af2ba876d01fa8c3e.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/chessboard/.docs/introduction.md)): [Latest](../../../locales/ko/content/bc/6c/6b776e3f95b2e009c195f9fc6efe53b8df99.md)
+  - [`e630921509`](../../../locales/ko/content/e6/30/9215096118f858eefb4af2ba876d01fa8c3e.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/chessboard/.docs/hints.md)): [Latest](../../../locales/ko/content/47/a7/1301d8ebee5ae1f661f6baf6cbf9279af50a.md)
 
 ### Double-Null0111: Closures Are Forever (Double-Null0111: 클로저는 영원히)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/bomb-defuser/.docs/instructions.md)): [Latest](../../../locales/ko/content/79/d6/703480654fecff625ccbe592b1213368e008.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/bomb-defuser/.docs/introduction.md)): [Latest](../../../locales/ko/content/89/37/6e00999093bad42e61563da428c7688e843c.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/bomb-defuser/.docs/introduction.md)): [Latest](../../../locales/ko/content/b3/74/429cde44ca04145b6e4080f8af17845c44ce.md)
+  - [`89376e0099`](../../../locales/ko/content/89/37/6e00999093bad42e61563da428c7688e843c.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/bomb-defuser/.docs/hints.md)): [Latest](../../../locales/ko/content/d2/43/c79243eb05ae3437d50e5baa62b10dcef31f.md)
 
 ### Expert Mixologist (전문 믹솔로지스트)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/expert-mixologist/.docs/instructions.md)): [Latest](../../../locales/ko/content/d9/14/2c32b6e814bb2891908c4160e93b0204c02c.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/expert-mixologist/.docs/introduction.md)): [Latest](../../../locales/ko/content/16/83/0b3d8d213842e6b6fbe44bf33c79c295010f.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/expert-mixologist/.docs/introduction.md)): [Latest](../../../locales/ko/content/90/0c/86e333ee8c05c9352cb97b7faaf5e29ad74d.md)
+  - [`16830b3d8d`](../../../locales/ko/content/16/83/0b3d8d213842e6b6fbe44bf33c79c295010f.md)
   - [`d103c1bf80`](../../../locales/ko/content/d1/03/c1bf80db5e295a35cfda1da9eab289e3c5a4.md)
   - [`ddbb0474bf`](../../../locales/ko/content/dd/bb/0474bfd79725c64d1232b62457788460f40e.md)
   - [`1a4fa35675`](../../../locales/ko/content/1a/4f/a35675609e2965b1143a0c76cc53a78d74be.md)
@@ -524,19 +529,22 @@ This page is generated from [the index](../../json/ko/swift.json) by `scripts/bu
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/freelancer-rates/.docs/instructions.md)): [Latest](../../../locales/ko/content/52/1d/ab65184e5d7df59106394da804bc2edb86eb.md)
   - [`60d376a2e8`](../../../locales/ko/content/60/d3/76a2e8df613e76db64860c011b2365ef36b9.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/freelancer-rates/.docs/introduction.md)): [Latest](../../../locales/ko/content/17/1c/c68f3162723617d93f362ecd2d22bfb6602b.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/freelancer-rates/.docs/introduction.md)): [Latest](../../../locales/ko/content/43/e6/ab059c9b8019fcf310c44ee9d1e24aace232.md)
+  - [`171cc68f31`](../../../locales/ko/content/17/1c/c68f3162723617d93f362ecd2d22bfb6602b.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/freelancer-rates/.docs/hints.md)): [Latest](../../../locales/ko/content/65/e2/2184fb49adbd4a20e90acc616ed393ec814d.md)
 
 ### High Score Board (최고 점수 게시판)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/high-score-board/.docs/instructions.md)): [Latest](../../../locales/ko/content/43/f1/ae5a885c16bd8ed9e6782f0850d31678dccc.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/high-score-board/.docs/introduction.md)): [Latest](../../../locales/ko/content/f8/e7/30798ee5413f1987cd85ce98dc0e9ee755d1.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/high-score-board/.docs/introduction.md)): [Latest](../../../locales/ko/content/0c/8c/49bec8a71f67c55da31a7bd5295ca7f8c63e.md)
+  - [`f8e730798e`](../../../locales/ko/content/f8/e7/30798ee5413f1987cd85ce98dc0e9ee755d1.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/high-score-board/.docs/hints.md)): [Latest](../../../locales/ko/content/06/d9/a9631734df1961e78f2289e6df537a450b8c.md)
 
 ### Lasagna Master (라자냐 마스터)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/instructions.md)): [Latest](../../../locales/ko/content/e7/be/156216e1bfe80505bfd12b3fd32d2216fff1.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/introduction.md)): [Latest](../../../locales/ko/content/42/56/a5cf42e8c50052ed7626a3827fc66e2f54bb.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/introduction.md)): [Latest](../../../locales/ko/content/6c/72/f2ecacaa58e253a655a4a8b4fc61bc485cfb.md)
+  - [`4256a5cf42`](../../../locales/ko/content/42/56/a5cf42e8c50052ed7626a3827fc66e2f54bb.md)
   - [`2377faff06`](../../../locales/ko/content/23/77/faff0684164dc4fcc00e56ddd9618faca817.md)
   - [`b76d05faa7`](../../../locales/ko/content/b7/6d/05faa716fdcf89ea70a93ed0944f5e6cacd6.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna-master/.docs/hints.md)): [Latest](../../../locales/ko/content/58/5b/ba325cb63f84fb923ea554b22f1b5ec3c258.md)
@@ -544,49 +552,57 @@ This page is generated from [the index](../../json/ko/swift.json) by `scripts/bu
 ### Layers of Lasagna (라자냐의 층)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna/.docs/instructions.md)): [Latest](../../../locales/ko/content/85/b7/f84723a199fa798330f2a925786b8f2d550d.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna/.docs/introduction.md)): [Latest](../../../locales/ko/content/bd/58/0f8d31960155d8fc93b9f25fac5befbdae36.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna/.docs/introduction.md)): [Latest](../../../locales/ko/content/6c/31/04c2880eed128e2998f80cd3a08be38d80f4.md)
+  - [`bd580f8d31`](../../../locales/ko/content/bd/58/0f8d31960155d8fc93b9f25fac5befbdae36.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/lasagna/.docs/hints.md)): [Latest](../../../locales/ko/content/7a/07/6d48f3db8d7f60be3880c0afd4ba7917ff7c.md)
 
 ### Log Lines (로그 줄)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/log-lines/.docs/instructions.md)): [Latest](../../../locales/ko/content/ac/d3/4a5b3e3eaa553973351eec917886f187e86b.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/log-lines/.docs/introduction.md)): [Latest](../../../locales/ko/content/9d/17/36c43ea98bc71a93ceefa2a9596ef15f5549.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/log-lines/.docs/introduction.md)): [Latest](../../../locales/ko/content/ed/dc/76e9268696824aef2b5eaa238d05ee64f09b.md)
+  - [`9d1736c43e`](../../../locales/ko/content/9d/17/36c43ea98bc71a93ceefa2a9596ef15f5549.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/log-lines/.docs/hints.md)): [Latest](../../../locales/ko/content/68/c7/3e248749ca96ad15ab14788ca4a610631905.md)
 
 ### Magician-in-Training (마법사 수련생)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/magician-in-training/.docs/instructions.md)): [Latest](../../../locales/ko/content/f2/3a/75d4fd3585f0ca5afdf30fe28dd6fc6d2f2c.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/magician-in-training/.docs/introduction.md)): [Latest](../../../locales/ko/content/0c/51/2f947ff06ff60bffe8e5ab6a6f9f87fde7e0.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/magician-in-training/.docs/introduction.md)): [Latest](../../../locales/ko/content/56/b3/f6697f54e6b257a1d67632e8b89a03c422e4.md)
+  - [`0c512f947f`](../../../locales/ko/content/0c/51/2f947ff06ff60bffe8e5ab6a6f9f87fde7e0.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/magician-in-training/.docs/hints.md)): [Latest](../../../locales/ko/content/96/4d/833490d0c1a96201675d5c49d72f50d40de7.md)
 
 ### Santa's Swifty Helper (산타의 Swifty 조수)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/instructions.md)): [Latest](../../../locales/ko/content/94/76/35eee692acb0eb2bcc0fbd62cf07a25062b1.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/introduction.md)): [Latest](../../../locales/ko/content/23/a4/b650c9632a8196d3f13772c635bd4d7cb94f.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/introduction.md)): [Latest](../../../locales/ko/content/93/b6/542c044cdf5a8ed36357516c02825c07cccc.md)
+  - [`23a4b650c9`](../../../locales/ko/content/23/a4/b650c9632a8196d3f13772c635bd4d7cb94f.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/hints.md)): [Latest](../../../locales/ko/content/02/a6/1bb02901f32857a1a1c89f50145d3b6c6181.md)
 
 ### Secret Agent Double-Null0111 (비밀 요원 Double-Null0111)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/secret-agent/.docs/instructions.md)): [Latest](../../../locales/ko/content/16/3b/ca04bee1b86b908a079c809b20a2776931da.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/secret-agent/.docs/introduction.md)): [Latest](../../../locales/ko/content/30/7e/e3ea6c0530f7f8b5c5886e1a2600eca67ed4.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/secret-agent/.docs/introduction.md)): [Latest](../../../locales/ko/content/bc/aa/3adf2d88ddc233faacb16c84cb97472892cc.md)
+  - [`307ee3ea6c`](../../../locales/ko/content/30/7e/e3ea6c0530f7f8b5c5886e1a2600eca67ed4.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/secret-agent/.docs/hints.md)): [Latest](../../../locales/ko/content/a2/47/5c9be238bc325f2248df41cd92330e22d73f.md)
 
 ### Slice Sizing (조각 크기 계산)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/pizza-slices/.docs/instructions.md)): [Latest](../../../locales/ko/content/3e/e5/55bea7f32e3784b5fc5373e047a726757a79.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/pizza-slices/.docs/introduction.md)): [Latest](../../../locales/ko/content/7c/dd/8d6dbe21111c9812c44317d7524dd2e6ad95.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/pizza-slices/.docs/introduction.md)): [Latest](../../../locales/ko/content/af/fa/f03deac575fe212f591b332510210d66de2c.md)
+  - [`7cdd8d6dbe`](../../../locales/ko/content/7c/dd/8d6dbe21111c9812c44317d7524dd2e6ad95.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/pizza-slices/.docs/hints.md)): [Latest](../../../locales/ko/content/14/a7/429e7ccd47f8c9ef32b81197fc6a667f20d4.md)
 
 ### The 1st Rule of Poetry Club (시 모임의 첫 번째 규칙)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/poetry-club/.docs/instructions.md)): [Latest](../../../locales/ko/content/92/47/55bac6400e3b74d39047ea27737535026236.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/poetry-club/.docs/introduction.md)): [Latest](../../../locales/ko/content/a3/22/9b3b000ada4ef1fa4549eaf5774e2f9e1934.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/poetry-club/.docs/introduction.md)): [Latest](../../../locales/ko/content/f4/3a/ec68d5f080c65480c53f420945f320eceefd.md)
+  - [`a3229b3b00`](../../../locales/ko/content/a3/22/9b3b000ada4ef1fa4549eaf5774e2f9e1934.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/poetry-club/.docs/hints.md)): [Latest](../../../locales/ko/content/a0/a7/68a9aed1d311ae21fb849eaeecc3e203dae5.md)
 
 ### Vexing Vehicle Purchase (골치 아픈 차량 구매)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/vehicle-purchase/.docs/instructions.md)): [Latest](../../../locales/ko/content/72/60/5a19df3ad3b3f5457da18c94f1b12af3443f.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/vehicle-purchase/.docs/introduction.md)): [Latest](../../../locales/ko/content/86/3f/5c837c0b8871702ac49a39b443508f77c97c.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/vehicle-purchase/.docs/introduction.md)): [Latest](../../../locales/ko/content/f7/7d/858c2067cbeb6ecbf9fab079e2686d9cbb22.md)
+  - [`863f5c837c`](../../../locales/ko/content/86/3f/5c837c0b8871702ac49a39b443508f77c97c.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/vehicle-purchase/.docs/hints.md)): [Latest](../../../locales/ko/content/6a/b8/7ae86eab6dc16effafc3306fdfa26efa56d7.md)
 
 ### Windowing System (창 관리 시스템)
@@ -598,7 +614,8 @@ This page is generated from [the index](../../json/ko/swift.json) by `scripts/bu
 ### Wings Quest (날개 퀘스트)
 
 - `instructions.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/wings-quest/.docs/instructions.md)): [Latest](../../../locales/ko/content/a8/9d/dfaae955ffc61319fdb9f08d0eb1d845b854.md)
-- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/wings-quest/.docs/introduction.md)): [Latest](../../../locales/ko/content/ef/fe/1187809b9b57f1a8523e5f688f3c62890235.md)
+- `introduction.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/wings-quest/.docs/introduction.md)): [Latest](../../../locales/ko/content/05/fa/f3d2935d3f5a11824edfa5f7d60dc2021ddc.md)
+  - [`effe118780`](../../../locales/ko/content/ef/fe/1187809b9b57f1a8523e5f688f3c62890235.md)
 - `hints.md` ([English](https://github.com/exercism/swift/blob/main/exercises/concept/wings-quest/.docs/hints.md)): [Latest](../../../locales/ko/content/03/45/d3e7e6c4212b902ce5391c4b6a95987d505e.md)
 
 ## Concepts
