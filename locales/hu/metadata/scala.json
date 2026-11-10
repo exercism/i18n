@@ -216,7 +216,7 @@
   "exercise:flatten-array:source": "Interjúkérdés",
   "exercise:high-scores:blurb": "Kezeld egy játékos csúcseredményeinek listáját.",
   "exercise:high-scores:source": "Tiszteletadás a nyolcvanas évek Frogger játéktermi játéka előtt",
-  "exercise:pangram:blurb": "Állapítsd meg, hogy egy mondat pangram-e.",
+  "exercise:pangram:blurb": "Állapítsd meg, hogy egy kifejezés a latin ábécé minden betűjét használja-e.",
   "exercise:pangram:source": "Wikipedia",
   "exercise:raindrops:blurb": "Alakítsd át a számot a hozzá tartozó esőcsepphangokká: Pling, Plang és Plong.",
   "exercise:raindrops:source": "A FizzBuzz egy változata, amely egy híres technikai interjúkérdés, amellyel a potenciális jelölteket szűrik ki. Maga a kérdés a Fizz Buzzból ered, egy népszerű gyerekjátékból, amely az osztást tanítja.",

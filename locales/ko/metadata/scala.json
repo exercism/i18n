@@ -217,7 +217,7 @@
   "exercise:flatten-array:source": "면접 질문",
   "exercise:high-scores:blurb": "플레이어의 최고 점수 목록을 관리해요.",
   "exercise:high-scores:source": "80년대 아케이드 게임 Frogger에 대한 오마주",
-  "exercise:pangram:blurb": "문장이 팬그램인지 판별해요.",
+  "exercise:pangram:blurb": "어떤 문구가 라틴 알파벳의 모든 글자를 사용하는지 판별해요.",
   "exercise:pangram:source": "Wikipedia",
   "exercise:raindrops:blurb": "숫자를 그에 해당하는 빗방울 소리인 Pling, Plang, Plong으로 변환해요.",
   "exercise:raindrops:source": "잠재적인 지원자를 걸러 내기 위해 만든 유명한 기술 면접 질문인 FizzBuzz를 변형한 것이에요. 그 질문 자체는 나눗셈을 가르칠 때 쓰는 인기 있는 어린이 게임인 Fizz Buzz에서 비롯했어요.",

@@ -217,7 +217,7 @@
   "exercise:flatten-array:source": "Domanda di colloquio",
   "exercise:high-scores:blurb": "Gestisci i punteggi migliori di un giocatore.",
   "exercise:high-scores:source": "Omaggio al videogioco arcade degli anni Ottanta Frogger",
-  "exercise:pangram:blurb": "Determina se una frase è un pangramma.",
+  "exercise:pangram:blurb": "Determina se una frase usa tutte le lettere dell'alfabeto latino.",
   "exercise:pangram:source": "Wikipedia",
   "exercise:raindrops:blurb": "Converti un numero nei suoi corrispondenti suoni di goccia: Pling, Plang e Plong.",
   "exercise:raindrops:source": "Una variante di FizzBuzz, una famosa domanda dei colloqui tecnici pensata per scremare i potenziali candidati. Quella domanda deriva a sua volta da Fizz Buzz, un popolare gioco per bambini che insegna la divisione.",

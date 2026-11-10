@@ -217,7 +217,7 @@
   "exercise:flatten-array:source": "面试题",
   "exercise:high-scores:blurb": "管理玩家的高分榜。",
   "exercise:high-scores:source": "致敬八十年代的街机游戏 Frogger",
-  "exercise:pangram:blurb": "判断一个句子是否为全字母句。",
+  "exercise:pangram:blurb": "判断一个短语是否用到了拉丁字母表中的每一个字母。",
   "exercise:pangram:source": "Wikipedia",
   "exercise:raindrops:blurb": "将一个数字转换为其对应的雨滴声：Pling、Plang 和 Plong。",
   "exercise:raindrops:source": "FizzBuzz 的变体。FizzBuzz 是一道著名的技术面试题，用来筛掉不合适的候选人。这道题本身又源自 Fizz Buzz，一个用来教除法的流行儿童游戏。",

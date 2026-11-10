@@ -217,7 +217,7 @@
   "exercise:flatten-array:source": "इंटरव्यू प्रश्न",
   "exercise:high-scores:blurb": "एक खिलाड़ी की हाई स्कोर सूची प्रबंधित कीजिए।",
   "exercise:high-scores:source": "अस्सी के दशक के आर्केड गेम Frogger को श्रद्धांजलि",
-  "exercise:pangram:blurb": "पता कीजिए कि कोई वाक्य पैनग्राम है या नहीं।",
+  "exercise:pangram:blurb": "पता कीजिए कि कोई वाक्यांश लैटिन वर्णमाला के हर अक्षर का इस्तेमाल करता है या नहीं।",
   "exercise:pangram:source": "Wikipedia",
   "exercise:raindrops:blurb": "संख्या को उसके संगत बूँदों की आवाज़ों में बदलिए: Pling, Plang और Plong।",
   "exercise:raindrops:source": "FizzBuzz का एक रूपांतर, जो तकनीकी इंटरव्यू का एक मशहूर सवाल है और इसका उद्देश्य संभावित उम्मीदवारों को छाँटना है। यह सवाल खुद Fizz Buzz से निकला है, जो बच्चों का एक लोकप्रिय खेल है और भाग सिखाने के काम आता है।",

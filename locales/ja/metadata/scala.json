@@ -217,7 +217,7 @@
   "exercise:flatten-array:source": "面接の問題",
   "exercise:high-scores:blurb": "プレイヤーのハイスコアリストを管理します。",
   "exercise:high-scores:source": "80年代のアーケードゲームFroggerへのオマージュ",
-  "exercise:pangram:blurb": "文がパングラムかどうかを判定します。",
+  "exercise:pangram:blurb": "あるフレーズがラテンアルファベットのすべての文字を使っているかどうかを判定します。",
   "exercise:pangram:source": "Wikipedia",
   "exercise:raindrops:blurb": "数値を対応する雨粒の音、Pling、Plang、Plongに変換します。",
   "exercise:raindrops:source": "FizzBuzzをアレンジしたものです。FizzBuzzは、候補者をふるいにかけるために使われる有名な技術面接の問題です。この問題自体は、割り算を教えるための子どもたちに人気のゲーム、Fizz Buzzに由来します。",

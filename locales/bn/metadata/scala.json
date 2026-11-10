@@ -217,7 +217,7 @@
   "exercise:flatten-array:source": "ইন্টারভিউ প্রশ্ন",
   "exercise:high-scores:blurb": "একজন খেলোয়াড়ের হাই স্কোর তালিকা পরিচালনা করুন।",
   "exercise:high-scores:source": "আশির দশকের আর্কেড গেম Frogger-এর প্রতি শ্রদ্ধাঞ্জলি",
-  "exercise:pangram:blurb": "একটি বাক্য প্যানগ্রাম কি না তা নির্ণয় করুন।",
+  "exercise:pangram:blurb": "একটি বাক্যাংশে লাতিন বর্ণমালার প্রতিটি অক্ষর ব্যবহৃত হয়েছে কি না তা নির্ণয় করুন।",
   "exercise:pangram:source": "Wikipedia",
   "exercise:raindrops:blurb": "একটি সংখ্যাকে তার সংশ্লিষ্ট বৃষ্টির ফোঁটার শব্দে রূপান্তর করুন: Pling, Plang এবং Plong।",
   "exercise:raindrops:source": "FizzBuzz-এর একটি ভিন্ন রূপ, যা একটি বিখ্যাত টেকনিক্যাল ইন্টারভিউ প্রশ্ন এবং সম্ভাব্য প্রার্থীদের বাদ দেওয়ার উদ্দেশ্যে করা হয়। ওই প্রশ্নটি আবার Fizz Buzz থেকে এসেছে, যা ভাগ শেখানোর জন্য একটি জনপ্রিয় শিশুদের গেম।",

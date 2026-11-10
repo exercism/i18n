@@ -217,7 +217,7 @@
   "exercise:flatten-array:source": "Pergunta de entrevista",
   "exercise:high-scores:blurb": "Gere a lista de melhores pontuações de um jogador.",
   "exercise:high-scores:source": "Uma homenagem ao jogo de arcada Frogger, dos anos oitenta",
-  "exercise:pangram:blurb": "Determina se uma frase é um pangrama.",
+  "exercise:pangram:blurb": "Determina se uma frase usa todas as letras do alfabeto latino.",
   "exercise:pangram:source": "Wikipedia",
   "exercise:raindrops:blurb": "Converte um número nos sons de gota de chuva correspondentes: Pling, Plang e Plong.",
   "exercise:raindrops:source": "Uma variação do FizzBuzz, uma famosa pergunta de entrevista técnica destinada a eliminar potenciais candidatos. Essa pergunta deriva, por sua vez, do Fizz Buzz, um jogo infantil popular para ensinar a divisão.",

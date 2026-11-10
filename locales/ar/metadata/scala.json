@@ -217,7 +217,7 @@
   "exercise:flatten-array:source": "سؤال مقابلة عمل",
   "exercise:high-scores:blurb": "أدر قائمة أعلى النتائج للاعب.",
   "exercise:high-scores:source": "تحية إلى لعبة الأركيد Frogger من الثمانينيات",
-  "exercise:pangram:blurb": "حدّد ما إذا كانت جملة تحتوي على كل حروف الأبجدية.",
+  "exercise:pangram:blurb": "حدّد ما إذا كانت عبارة تستخدم كل حرف في الأبجدية اللاتينية.",
   "exercise:pangram:source": "ويكيبيديا",
   "exercise:raindrops:blurb": "حوّل عددًا إلى أصوات قطرات المطر المقابلة له، وهي Pling وPlang وPlong.",
   "exercise:raindrops:source": "تنويعة على FizzBuzz، وهو سؤال مقابلة تقنية شهير يُقصد به استبعاد المرشحين المحتملين. والسؤال نفسه مشتق من Fizz Buzz، وهي لعبة أطفال شائعة لتعليم القسمة.",
