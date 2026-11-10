@@ -11,7 +11,8 @@ This page is generated from [the index](../../json/pt-BR/julia.json) by `scripts
 ### Accumulate (Acumular)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/accumulate/.docs/instructions.md)): [Latest](../../../locales/pt-BR/content/43/5e/0b3246950084d4940bdf4bd741259dce3165.md)
-- `instructions.append.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/accumulate/.docs/instructions.append.md)): [Latest](../../../locales/pt-BR/content/77/a8/28de59b68f8ad1df3200361737ce958fc175.md)
+- `instructions.append.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/accumulate/.docs/instructions.append.md)): [Latest](../../../locales/pt-BR/content/48/c2/0f6041931bea84bd8ac89975659b9f17340c.md)
+  - [`77a828de59`](../../../locales/pt-BR/content/77/a8/28de59b68f8ad1df3200361737ce958fc175.md)
   - [`c215f956ab`](../../../locales/pt-BR/content/c2/15/f956ab2c01de6fcb326243acee1e07f04189.md)
 
 ### Acronym (Acrônimo)
@@ -57,7 +58,8 @@ This page is generated from [the index](../../json/pt-BR/julia.json) by `scripts
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/baffling-birthdays/.docs/instructions.md)): [Latest](../../../locales/pt-BR/content/a0/1e/c86796ac6bc6e2873dca01003a8e5f02ee32.md)
 - `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/baffling-birthdays/.docs/introduction.md)): [Latest](../../../locales/pt-BR/content/97/da/bd1e6cfffbcb4a20748b3b328e8cbc284b98.md)
-- `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/baffling-birthdays/.docs/hints.md)): [Latest](../../../locales/pt-BR/content/ca/ba/ea6e30937d1741ebd054a23b0f907f6b6baa.md)
+- `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/baffling-birthdays/.docs/hints.md)): [Latest](../../../locales/pt-BR/content/d4/07/6381c6eb2ac8e9005e6a44a247a2927c7ea1.md)
+  - [`cabaea6e30`](../../../locales/pt-BR/content/ca/ba/ea6e30937d1741ebd054a23b0f907f6b6baa.md)
 
 ### Binary Search (Busca binária)
 
@@ -82,7 +84,8 @@ This page is generated from [the index](../../json/pt-BR/julia.json) by `scripts
 ### Circular Buffer (Buffer circular)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/circular-buffer/.docs/instructions.md)): [Latest](../../../locales/pt-BR/content/2b/a1/fda2aa73e920e1ae0b25441be2f00fd3dd12.md)
-- `instructions.append.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/circular-buffer/.docs/instructions.append.md)): [Latest](../../../locales/pt-BR/content/f4/5a/c96c3b978a3dc946f6aa7b257981da0ae03b.md)
+- `instructions.append.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/circular-buffer/.docs/instructions.append.md)): [Latest](../../../locales/pt-BR/content/81/eb/afec9edcc36d272dce8a3dc56f8b416b90c4.md)
+  - [`f45ac96c3b`](../../../locales/pt-BR/content/f4/5a/c96c3b978a3dc946f6aa7b257981da0ae03b.md)
 
 ### Clock (Relógio)
 
@@ -96,7 +99,8 @@ This page is generated from [the index](../../json/pt-BR/julia.json) by `scripts
 ### Complex Numbers (Números complexos)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/complex-numbers/.docs/instructions.md)): [Latest](../../../locales/pt-BR/content/2b/8a/7a49d824f84448eda21c4281ab2c8213d03a.md)
-- `instructions.append.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/complex-numbers/.docs/instructions.append.md)): [Latest](../../../locales/pt-BR/content/84/fe/b72f4e6f04cbc2696f8ae11cd3d8017bfd4d.md)
+- `instructions.append.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/complex-numbers/.docs/instructions.append.md)): [Latest](../../../locales/pt-BR/content/6b/4e/d65e30158fe863026dcbce5901d082a91e4d.md)
+  - [`84feb72f4e`](../../../locales/pt-BR/content/84/fe/b72f4e6f04cbc2696f8ae11cd3d8017bfd4d.md)
 
 ### Connect (Conectar)
 
@@ -114,7 +118,8 @@ This page is generated from [the index](../../json/pt-BR/julia.json) by `scripts
 ### Custom Set (Conjunto personalizado)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/custom-set/.docs/instructions.md)): [Latest](../../../locales/pt-BR/content/33/b9/0e28d7f87328d24652822d4424354b2590a1.md)
-- `instructions.append.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/custom-set/.docs/instructions.append.md)): [Latest](../../../locales/pt-BR/content/6c/0a/3bff577cb671a2ecb22789de732fddbf939c.md)
+- `instructions.append.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/custom-set/.docs/instructions.append.md)): [Latest](../../../locales/pt-BR/content/f8/85/524e72ba57ca4f760d2448fbafd9fa7f7cae.md)
+  - [`6c0a3bff57`](../../../locales/pt-BR/content/6c/0a/3bff577cb671a2ecb22789de732fddbf939c.md)
 
 ### D&D Character (Personagem de D&D)
 
