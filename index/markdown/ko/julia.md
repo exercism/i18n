@@ -11,8 +11,8 @@ This page is generated from [the index](../../json/ko/julia.json) by `scripts/bu
 ### Accumulate (누적)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/accumulate/.docs/instructions.md)): [Latest](../../../locales/ko/content/43/5e/0b3246950084d4940bdf4bd741259dce3165.md)
-- `instructions.append.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/accumulate/.docs/instructions.append.md)): [Latest](../../../locales/ko/content/48/c2/0f6041931bea84bd8ac89975659b9f17340c.md)
-  - [`77a828de59`](../../../locales/ko/content/77/a8/28de59b68f8ad1df3200361737ce958fc175.md)
+- `instructions.append.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/accumulate/.docs/instructions.append.md)): [Latest](../../../locales/ko/content/77/a8/28de59b68f8ad1df3200361737ce958fc175.md)
+  - [`48c20f6041`](../../../locales/ko/content/48/c2/0f6041931bea84bd8ac89975659b9f17340c.md)
   - [`c215f956ab`](../../../locales/ko/content/c2/15/f956ab2c01de6fcb326243acee1e07f04189.md)
 
 ### Acronym (두문자어)
@@ -58,8 +58,8 @@ This page is generated from [the index](../../json/ko/julia.json) by `scripts/bu
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/baffling-birthdays/.docs/instructions.md)): [Latest](../../../locales/ko/content/a0/1e/c86796ac6bc6e2873dca01003a8e5f02ee32.md)
 - `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/baffling-birthdays/.docs/introduction.md)): [Latest](../../../locales/ko/content/97/da/bd1e6cfffbcb4a20748b3b328e8cbc284b98.md)
-- `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/baffling-birthdays/.docs/hints.md)): [Latest](../../../locales/ko/content/d4/07/6381c6eb2ac8e9005e6a44a247a2927c7ea1.md)
-  - [`cabaea6e30`](../../../locales/ko/content/ca/ba/ea6e30937d1741ebd054a23b0f907f6b6baa.md)
+- `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/baffling-birthdays/.docs/hints.md)): [Latest](../../../locales/ko/content/ca/ba/ea6e30937d1741ebd054a23b0f907f6b6baa.md)
+  - [`d4076381c6`](../../../locales/ko/content/d4/07/6381c6eb2ac8e9005e6a44a247a2927c7ea1.md)
 
 ### Binary Search (이진 탐색)
 
@@ -84,8 +84,8 @@ This page is generated from [the index](../../json/ko/julia.json) by `scripts/bu
 ### Circular Buffer (원형 버퍼)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/circular-buffer/.docs/instructions.md)): [Latest](../../../locales/ko/content/2b/a1/fda2aa73e920e1ae0b25441be2f00fd3dd12.md)
-- `instructions.append.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/circular-buffer/.docs/instructions.append.md)): [Latest](../../../locales/ko/content/81/eb/afec9edcc36d272dce8a3dc56f8b416b90c4.md)
-  - [`f45ac96c3b`](../../../locales/ko/content/f4/5a/c96c3b978a3dc946f6aa7b257981da0ae03b.md)
+- `instructions.append.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/circular-buffer/.docs/instructions.append.md)): [Latest](../../../locales/ko/content/f4/5a/c96c3b978a3dc946f6aa7b257981da0ae03b.md)
+  - [`81ebafec9e`](../../../locales/ko/content/81/eb/afec9edcc36d272dce8a3dc56f8b416b90c4.md)
 
 ### Clock (시계)
 
@@ -99,8 +99,8 @@ This page is generated from [the index](../../json/ko/julia.json) by `scripts/bu
 ### Complex Numbers (복소수)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/complex-numbers/.docs/instructions.md)): [Latest](../../../locales/ko/content/2b/8a/7a49d824f84448eda21c4281ab2c8213d03a.md)
-- `instructions.append.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/complex-numbers/.docs/instructions.append.md)): [Latest](../../../locales/ko/content/6b/4e/d65e30158fe863026dcbce5901d082a91e4d.md)
-  - [`84feb72f4e`](../../../locales/ko/content/84/fe/b72f4e6f04cbc2696f8ae11cd3d8017bfd4d.md)
+- `instructions.append.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/complex-numbers/.docs/instructions.append.md)): [Latest](../../../locales/ko/content/84/fe/b72f4e6f04cbc2696f8ae11cd3d8017bfd4d.md)
+  - [`6b4ed65e30`](../../../locales/ko/content/6b/4e/d65e30158fe863026dcbce5901d082a91e4d.md)
 
 ### Connect
 
@@ -118,8 +118,8 @@ This page is generated from [the index](../../json/ko/julia.json) by `scripts/bu
 ### Custom Set (사용자 정의 집합)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/custom-set/.docs/instructions.md)): [Latest](../../../locales/ko/content/33/b9/0e28d7f87328d24652822d4424354b2590a1.md)
-- `instructions.append.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/custom-set/.docs/instructions.append.md)): [Latest](../../../locales/ko/content/f8/85/524e72ba57ca4f760d2448fbafd9fa7f7cae.md)
-  - [`6c0a3bff57`](../../../locales/ko/content/6c/0a/3bff577cb671a2ecb22789de732fddbf939c.md)
+- `instructions.append.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/custom-set/.docs/instructions.append.md)): [Latest](../../../locales/ko/content/6c/0a/3bff577cb671a2ecb22789de732fddbf939c.md)
+  - [`f885524e72`](../../../locales/ko/content/f8/85/524e72ba57ca4f760d2448fbafd9fa7f7cae.md)
 
 ### D&D Character (D&D 캐릭터)
 
@@ -878,9 +878,11 @@ This page is generated from [the index](../../json/ko/julia.json) by `scripts/bu
 
 ### Chars (문자)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/chars/introduction.md)): [Latest](../../../locales/ko/content/93/0a/103ad46525dc3af6d9bf0ff29539de663099.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/chars/introduction.md)): [Latest](../../../locales/ko/content/73/1a/852c8dd3005b75a242ff52318168677def28.md)
+  - [`930a103ad4`](../../../locales/ko/content/93/0a/103ad46525dc3af6d9bf0ff29539de663099.md)
   - [`afc077c851`](../../../locales/ko/content/af/c0/77c851008c82e66f35f0f17dd97d6232cd22.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/chars/about.md)): [Latest](../../../locales/ko/content/cb/16/2f36cf4fb9fc94b5cafb3024a229202aadbc.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/chars/about.md)): [Latest](../../../locales/ko/content/3c/20/5605d1ce2d59f3e83e64f52876bee6711f81.md)
+  - [`cb162f36cf`](../../../locales/ko/content/cb/16/2f36cf4fb9fc94b5cafb3024a229202aadbc.md)
   - [`68cdb9e356`](../../../locales/ko/content/68/cd/b9e3563a6cc8fa4e7393ff891022287d843a.md)
 
 ### Complex Numbers (복소수)
@@ -916,11 +918,13 @@ This page is generated from [the index](../../json/ko/julia.json) by `scripts/bu
 
 ### Dates and Times (날짜와 시간)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/dates-times/introduction.md)): [Latest](../../../locales/ko/content/50/53/db6ebf657dc837b0b46f2a9cff8a453c99bc.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/dates-times/introduction.md)): [Latest](../../../locales/ko/content/09/b4/5876493fd1c6abf1feb981eff98640113a38.md)
+  - [`5053db6ebf`](../../../locales/ko/content/50/53/db6ebf657dc837b0b46f2a9cff8a453c99bc.md)
   - [`cc6634dd35`](../../../locales/ko/content/cc/66/34dd358958ad16880edf510e90866834e4b7.md)
   - [`fa446f9023`](../../../locales/ko/content/fa/44/6f9023989236c1242f9a91b5beff7d316b75.md)
   - [`584d902be2`](../../../locales/ko/content/58/4d/902be2d49dbbbc3e14804d4e04945fe151a8.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/dates-times/about.md)): [Latest](../../../locales/ko/content/43/69/f44edefd14acc4d1b9db1d559be23fa2e70f.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/dates-times/about.md)): [Latest](../../../locales/ko/content/46/c0/af2b395ebb6b4d1de5f92f4d715c9126f869.md)
+  - [`4369f44ede`](../../../locales/ko/content/43/69/f44edefd14acc4d1b9db1d559be23fa2e70f.md)
   - [`2bf45d9ac9`](../../../locales/ko/content/2b/f4/5d9ac93591146af910d20740e9b670e38452.md)
   - [`7e073d16d4`](../../../locales/ko/content/7e/07/3d16d4902220b93cc7fe7e4d645fc422822e.md)
   - [`1ce825b402`](../../../locales/ko/content/1c/e8/25b40242e2031c4b8db3fd0557f33bac0123.md)
@@ -978,11 +982,13 @@ This page is generated from [the index](../../json/ko/julia.json) by `scripts/bu
 
 ### Linear Algebra Basics (선형 대수 기초)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/linear-algebra-basics/introduction.md)): [Latest](../../../locales/ko/content/d9/c4/0f1ef52deb5a7dfef4c77dbc830ccbeb3587.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/linear-algebra-basics/introduction.md)): [Latest](../../../locales/ko/content/b7/a7/36244d33f54c707c5922cf67c0c5c2f310c4.md)
+  - [`d9c40f1ef5`](../../../locales/ko/content/d9/c4/0f1ef52deb5a7dfef4c77dbc830ccbeb3587.md)
   - [`fca7b07932`](../../../locales/ko/content/fc/a7/b0793267cc688f723af2cad6aabb30f3198d.md)
   - [`0eec7e9db5`](../../../locales/ko/content/0e/ec/7e9db508de413de6ff3f3f9578f8b0537cd2.md)
   - [`24c167e952`](../../../locales/ko/content/24/c1/67e952d76d8fbe88b603de04d08f160244e6.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/linear-algebra-basics/about.md)): [Latest](../../../locales/ko/content/12/a3/b0dc8065faa655f4db195de2039b64e59e94.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/linear-algebra-basics/about.md)): [Latest](../../../locales/ko/content/6c/43/387f320e9b24bab7ac2f45100bb9e8e03204.md)
+  - [`12a3b0dc80`](../../../locales/ko/content/12/a3/b0dc8065faa655f4db195de2039b64e59e94.md)
   - [`5d6dce2030`](../../../locales/ko/content/5d/6d/ce20300d720b70e01e20821ceecd061c6b6f.md)
   - [`8b6d45b640`](../../../locales/ko/content/8b/6d/45b6402db0895b628749fa77b37a0fe8522a.md)
   - [`1a2ebb4905`](../../../locales/ko/content/1a/2e/bb4905ff073eb5ac0abccdd5a4999a886783.md)
@@ -1036,9 +1042,11 @@ This page is generated from [the index](../../json/ko/julia.json) by `scripts/bu
 
 ### Numbers (숫자)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/numbers/introduction.md)): [Latest](../../../locales/ko/content/30/a5/9dd9b6c37186aba9f52e58ca6e7d665d73bc.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/numbers/introduction.md)): [Latest](../../../locales/ko/content/c1/b9/24773139b44edea1838caeef942a9b02f17d.md)
+  - [`30a59dd9b6`](../../../locales/ko/content/30/a5/9dd9b6c37186aba9f52e58ca6e7d665d73bc.md)
   - [`69780c24ec`](../../../locales/ko/content/69/78/0c24ece162d7e0572a88549d8bdd407c216e.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/numbers/about.md)): [Latest](../../../locales/ko/content/83/7a/7ab0d87a70d15d20151dcbdc2d21d9caae33.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/numbers/about.md)): [Latest](../../../locales/ko/content/40/66/6288c799dfee99a722db47a6087f894bd1fd.md)
+  - [`837a7ab0d8`](../../../locales/ko/content/83/7a/7ab0d87a70d15d20151dcbdc2d21d9caae33.md)
   - [`51fcb645aa`](../../../locales/ko/content/51/fc/b645aa3f4d4881228814d68d2737148e1cae.md)
 
 ### Pairs And Dicts (쌍과 딕셔너리)
@@ -1071,8 +1079,10 @@ This page is generated from [the index](../../json/ko/julia.json) by `scripts/bu
 
 ### Rational Numbers (유리수)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/rational-numbers/introduction.md)): [Latest](../../../locales/ko/content/48/ac/3e64f0f926161146cd8a0b7c415c3e0a834c.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/rational-numbers/about.md)): [Latest](../../../locales/ko/content/23/6e/8b421a6c6df5112dcb0e5810af6f1a35a753.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/rational-numbers/introduction.md)): [Latest](../../../locales/ko/content/79/41/66cee6cbc1f31b0fb9462014ca0dfe961449.md)
+  - [`48ac3e64f0`](../../../locales/ko/content/48/ac/3e64f0f926161146cd8a0b7c415c3e0a834c.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/rational-numbers/about.md)): [Latest](../../../locales/ko/content/2d/ba/7706679c807d5fc1b1ec33001d781d3932f6.md)
+  - [`236e8b421a`](../../../locales/ko/content/23/6e/8b421a6c6df5112dcb0e5810af6f1a35a753.md)
 
 ### Regular Expressions (정규 표현식)
 
@@ -1095,15 +1105,18 @@ This page is generated from [the index](../../json/ko/julia.json) by `scripts/bu
 - `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/sorting/introduction.md)): [Latest](../../../locales/ko/content/60/93/acc5c95e3b2933eb6b56f82982117bbf5cdc.md)
   - [`b473079680`](../../../locales/ko/content/b4/73/079680c1074643747a76c415e2b506916153.md)
   - [`3673f31e8e`](../../../locales/ko/content/36/73/f31e8e967df549ccf76009eb12b247da34e9.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/sorting/about.md)): [Latest](../../../locales/ko/content/1d/5a/b5d9da4fdd0054a8f0f27e060cf1ee77f838.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/sorting/about.md)): [Latest](../../../locales/ko/content/b2/e7/c008e62cdf8152660d69fc0c4bc0ac8274d4.md)
+  - [`1d5ab5d9da`](../../../locales/ko/content/1d/5a/b5d9da4fdd0054a8f0f27e060cf1ee77f838.md)
   - [`16e5b30330`](../../../locales/ko/content/16/e5/b303308e3b97bcb07e0d53d5ffd2a3a07ba1.md)
   - [`b5376f7afa`](../../../locales/ko/content/b5/37/6f7afad01e3cd4f043e5436cd5c2b544306d.md)
 
 ### Statistics (통계)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/statistics/introduction.md)): [Latest](../../../locales/ko/content/36/38/af4a962da0b58ccdb76fd43bac9fb1626ac8.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/statistics/introduction.md)): [Latest](../../../locales/ko/content/75/be/0c68e15df21bb226aa4d26ec85bf444a6b1f.md)
+  - [`3638af4a96`](../../../locales/ko/content/36/38/af4a962da0b58ccdb76fd43bac9fb1626ac8.md)
   - [`c0440a097c`](../../../locales/ko/content/c0/44/0a097c682216d9354744167e300f9bdd586a.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/statistics/about.md)): [Latest](../../../locales/ko/content/a4/e9/099c8307cfa9db3f26fa14f4b79abb9557d0.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/statistics/about.md)): [Latest](../../../locales/ko/content/21/4b/340ed9363a12ade122978c5f69812fe4d4d8.md)
+  - [`a4e9099c83`](../../../locales/ko/content/a4/e9/099c8307cfa9db3f26fa14f4b79abb9557d0.md)
   - [`1496f75142`](../../../locales/ko/content/14/96/f75142bbc8cfb112dd5425634e3a33e04662.md)
 
 ### Strings (문자열)
@@ -1146,7 +1159,8 @@ This page is generated from [the index](../../json/ko/julia.json) by `scripts/bu
 - `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/vector-operations/introduction.md)): [Latest](../../../locales/ko/content/b0/e2/f2f36e3ca6fff3825284888709723a306de4.md)
   - [`e0bc57db45`](../../../locales/ko/content/e0/bc/57db45efe697632541104b5b6d496c72716f.md)
   - [`ee450f0c82`](../../../locales/ko/content/ee/45/0f0c825c77decd9a578cac119e8b02188d19.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/vector-operations/about.md)): [Latest](../../../locales/ko/content/13/bc/99a7042f250b449dd6295fa5483d72c5d33c.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/vector-operations/about.md)): [Latest](../../../locales/ko/content/d2/23/efdd6c620f94d2aba0181cbf1621ef439a79.md)
+  - [`13bc99a704`](../../../locales/ko/content/13/bc/99a7042f250b449dd6295fa5483d72c5d33c.md)
   - [`5a0153ea2b`](../../../locales/ko/content/5a/01/53ea2bd13060ab70f93f6445085b92e3f492.md)
   - [`ab5c3859be`](../../../locales/ko/content/ab/5c/3859bea9faa09e6c77b83825de9311e02b10.md)
   - [`03f6b17356`](../../../locales/ko/content/03/f6/b1735658281977f2d49da6a079c9756f8c20.md)
