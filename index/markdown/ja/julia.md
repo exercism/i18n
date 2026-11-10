@@ -483,23 +483,27 @@ This page is generated from [the index](../../json/ja/julia.json) by `scripts/bu
 
 ### Annalyns Infiltration (Annalynの潜入)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/annalyns-infiltration/.docs/instructions.md)): [Latest](../../../locales/ja/content/26/64/617b245b743f2fbd0222e9502cce315d4b3c.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/annalyns-infiltration/.docs/instructions.md)): [Latest](../../../locales/ja/content/f9/4c/21b3ac33ecb015e5cdb4a9a66df96a910fe8.md)
+  - [`2664617b24`](../../../locales/ja/content/26/64/617b245b743f2fbd0222e9502cce315d4b3c.md)
 - `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/annalyns-infiltration/.docs/introduction.md)): [Latest](../../../locales/ja/content/b8/81/8e8147e1f8948951b55791dd3f523fa15ca9.md)
   - [`4b37877b62`](../../../locales/ja/content/4b/37/877b6204d782c5279bb21a045cf9ed2ca13e.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/annalyns-infiltration/.docs/hints.md)): [Latest](../../../locales/ja/content/3b/02/d841e091d49082234748ce9f2f263b3f4d83.md)
 
 ### Bird Watcher (バードウォッチャー)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/bird-watcher/.docs/instructions.md)): [Latest](../../../locales/ja/content/07/a9/75f20e323b76eb19b7f2d682071e2acf8d42.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/bird-watcher/.docs/instructions.md)): [Latest](../../../locales/ja/content/62/54/9ea3f8681667c9ca1f9f21ff8dd5c17369b6.md)
+  - [`07a975f20e`](../../../locales/ja/content/07/a9/75f20e323b76eb19b7f2d682071e2acf8d42.md)
   - [`534e332231`](../../../locales/ja/content/53/4e/3322311958d835b0a12567baa78bb5803ac2.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/bird-watcher/.docs/introduction.md)): [Latest](../../../locales/ja/content/19/45/7eaf1899b8bbac76dfcad29a32ad91dbded8.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/bird-watcher/.docs/introduction.md)): [Latest](../../../locales/ja/content/13/02/d05ac5bd441a5844f93b58a1734a3157267a.md)
+  - [`19457eaf18`](../../../locales/ja/content/19/45/7eaf1899b8bbac76dfcad29a32ad91dbded8.md)
   - [`875cda29cc`](../../../locales/ja/content/87/5c/da29cc67e7ce4dca4d210e3f18a0a5636609.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/bird-watcher/.docs/hints.md)): [Latest](../../../locales/ja/content/5d/35/e9bb1ee50f6cd138e8b0725e461cc165e91e.md)
 
 ### Booking Up For Beauty (美容の予約)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/booking-up-for-beauty/.docs/instructions.md)): [Latest](../../../locales/ja/content/30/92/99b596dcddc929c5c17234fafa6167739d18.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/booking-up-for-beauty/.docs/introduction.md)): [Latest](../../../locales/ja/content/02/cb/464ace438498a38830374a3dc98b1f75a4aa.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/booking-up-for-beauty/.docs/introduction.md)): [Latest](../../../locales/ja/content/e3/c5/7d53662fa301f43d51c0850d0ce0c6fb3518.md)
+  - [`02cb464ace`](../../../locales/ja/content/02/cb/464ace438498a38830374a3dc98b1f75a4aa.md)
   - [`7139b70b5f`](../../../locales/ja/content/71/39/b70b5fa91778f186adf35379343dc159bf1c.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/booking-up-for-beauty/.docs/hints.md)): [Latest](../../../locales/ja/content/d5/cd/d35eeb92a7bd2b22d9275a774aee84e389d2.md)
 
@@ -507,14 +511,17 @@ This page is generated from [the index](../../json/ja/julia.json) by `scripts/bu
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/boutique-suggestions/.docs/instructions.md)): [Latest](../../../locales/ja/content/35/5e/ba47f8332202e990080f440f683a4c8e9a4e.md)
   - [`18b04b12a6`](../../../locales/ja/content/18/b0/4b12a641f4ca1f6e719233fc784b76d75628.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/boutique-suggestions/.docs/introduction.md)): [Latest](../../../locales/ja/content/c8/75/32be14ec01da1e6dbd331e035454e3307406.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/boutique-suggestions/.docs/introduction.md)): [Latest](../../../locales/ja/content/be/72/db6b7aa42a99739f2424e93aa2baf83186f1.md)
+  - [`c87532be14`](../../../locales/ja/content/c8/75/32be14ec01da1e6dbd331e035454e3307406.md)
   - [`5b5c81e4e7`](../../../locales/ja/content/5b/5c/81e4e7fe448c5f59b969351eadc6baaaae61.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/boutique-suggestions/.docs/hints.md)): [Latest](../../../locales/ja/content/23/54/48ac04527b3d2b08730a72e424eff9c0660d.md)
 
 ### Captains Log (船長の日誌)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/captains-log/.docs/instructions.md)): [Latest](../../../locales/ja/content/ec/6d/7e2d2999b64c3cee36bf18155c5d944d6e3c.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/captains-log/.docs/introduction.md)): [Latest](../../../locales/ja/content/50/0e/710684a23267602b282423308cc746adcb84.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/captains-log/.docs/instructions.md)): [Latest](../../../locales/ja/content/67/55/a9629723dd0e19623043a4411f5ad51012e0.md)
+  - [`ec6d7e2d29`](../../../locales/ja/content/ec/6d/7e2d2999b64c3cee36bf18155c5d944d6e3c.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/captains-log/.docs/introduction.md)): [Latest](../../../locales/ja/content/bc/18/facf53e489d35e6475be3fe54b3fd3d7e0be.md)
+  - [`500e710684`](../../../locales/ja/content/50/0e/710684a23267602b282423308cc746adcb84.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/captains-log/.docs/hints.md)): [Latest](../../../locales/ja/content/9d/06/802e185b2cc229ae472d6babc3d76e21976a.md)
 
 ### Cars Assemble (車の組み立て)
@@ -527,7 +534,8 @@ This page is generated from [the index](../../json/ja/julia.json) by `scripts/bu
 
 ### Cater Waiter (ケータリングのウェイター)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/cater-waiter/.docs/instructions.md)): [Latest](../../../locales/ja/content/8b/bb/7701dac5e05bd9f4bef71b6f4b0bd8f38501.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/cater-waiter/.docs/instructions.md)): [Latest](../../../locales/ja/content/7c/8e/5f416d3fd8c8feaafdd08b871704b680ad87.md)
+  - [`8bbb7701da`](../../../locales/ja/content/8b/bb/7701dac5e05bd9f4bef71b6f4b0bd8f38501.md)
   - [`6c0acf6799`](../../../locales/ja/content/6c/0a/cf6799e133bccd3544061f750859cae19752.md)
 - `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/cater-waiter/.docs/introduction.md)): [Latest](../../../locales/ja/content/72/de/dc9adef956f569bdcb362f5b229c8f887c2b.md)
   - [`6fee7f35bb`](../../../locales/ja/content/6f/ee/7f35bbdb7abdb94d5af21637654ff08d38da.md)
@@ -535,22 +543,27 @@ This page is generated from [the index](../../json/ja/julia.json) by `scripts/bu
 
 ### Cheese Club (チーズクラブ)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/cheese-club/.docs/instructions.md)): [Latest](../../../locales/ja/content/30/ef/eebc611176bb249604a0555d3b09a01d973f.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/cheese-club/.docs/introduction.md)): [Latest](../../../locales/ja/content/f3/28/c15e9397a7fbe972289f07d7a1c80b2e9441.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/cheese-club/.docs/instructions.md)): [Latest](../../../locales/ja/content/0d/2e/f33254c56d457de3ace6d7f96d1367623e48.md)
+  - [`30efeebc61`](../../../locales/ja/content/30/ef/eebc611176bb249604a0555d3b09a01d973f.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/cheese-club/.docs/introduction.md)): [Latest](../../../locales/ja/content/7d/9b/a2e119621997b8dd3da48c772d53542c4dda.md)
+  - [`f328c15e93`](../../../locales/ja/content/f3/28/c15e9397a7fbe972289f07d7a1c80b2e9441.md)
   - [`9839d9160a`](../../../locales/ja/content/98/39/d9160a2b9e3d743b81cedd76ceecae5c21a8.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/cheese-club/.docs/hints.md)): [Latest](../../../locales/ja/content/f6/93/f4ff6fdbf6580a8020aebb25ebfbbf1db670.md)
 
 ### Chessboard (チェス盤)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/chessboard/.docs/instructions.md)): [Latest](../../../locales/ja/content/fb/c6/3cd1c6dfcb49b634b73f6a7257a4ae5ad04e.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/chessboard/.docs/instructions.md)): [Latest](../../../locales/ja/content/54/de/9de6a638b866da24223712d8a1578e480360.md)
+  - [`fbc63cd1c6`](../../../locales/ja/content/fb/c6/3cd1c6dfcb49b634b73f6a7257a4ae5ad04e.md)
   - [`9a2af8d05d`](../../../locales/ja/content/9a/2a/f8d05d7760912c254bf2b2f31efa036f6e3f.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/chessboard/.docs/introduction.md)): [Latest](../../../locales/ja/content/e4/a2/39587e4b9ff03322a605a6e11775ceb3231c.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/chessboard/.docs/introduction.md)): [Latest](../../../locales/ja/content/81/24/58193b3055a9510648df884cec4afe4e66fc.md)
+  - [`e4a239587e`](../../../locales/ja/content/e4/a2/39587e4b9ff03322a605a6e11775ceb3231c.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/chessboard/.docs/hints.md)): [Latest](../../../locales/ja/content/69/8f/f3a179ac933f6761301546e28447bff46390.md)
 
 ### Currency Exchange (通貨交換)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/currency-exchange/.docs/instructions.md)): [Latest](../../../locales/ja/content/c9/5d/53348ea31fddfbe6a7db4d86dd8a3d146b5e.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/currency-exchange/.docs/introduction.md)): [Latest](../../../locales/ja/content/69/78/0c24ece162d7e0572a88549d8bdd407c216e.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/currency-exchange/.docs/introduction.md)): [Latest](../../../locales/ja/content/30/a5/9dd9b6c37186aba9f52e58ca6e7d665d73bc.md)
+  - [`69780c24ec`](../../../locales/ja/content/69/78/0c24ece162d7e0572a88549d8bdd407c216e.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/currency-exchange/.docs/hints.md)): [Latest](../../../locales/ja/content/3c/59/e55a081b0b80c7af1ae846363cd45db88dd7.md)
   - [`db8904e639`](../../../locales/ja/content/db/89/04e639fc25e8c14ed3ff531c8c7c6dc54288.md)
 
@@ -558,14 +571,17 @@ This page is generated from [the index](../../json/ja/julia.json) by `scripts/bu
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/elyses-enchantments/.docs/instructions.md)): [Latest](../../../locales/ja/content/ab/d4/49e7ef4c079fa3ad4eeb8381b451cd199e9b.md)
   - [`893feab778`](../../../locales/ja/content/89/3f/eab7784ed026b3aaa9d0468207383f7f802b.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/elyses-enchantments/.docs/introduction.md)): [Latest](../../../locales/ja/content/cf/6f/14254d869da17e7d910cfe1fcfafc540f4a4.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/elyses-enchantments/.docs/introduction.md)): [Latest](../../../locales/ja/content/c9/7c/f0e174775395236fa9cec7f331fa7f836385.md)
+  - [`cf6f14254d`](../../../locales/ja/content/cf/6f/14254d869da17e7d910cfe1fcfafc540f4a4.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/elyses-enchantments/.docs/hints.md)): [Latest](../../../locales/ja/content/9d/49/56736bdd0d26419e61ba9cb72a42139a8eb1.md)
 
 ### Encounters (遭遇)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/encounters/.docs/instructions.md)): [Latest](../../../locales/ja/content/a5/f1/e1e691ba93383fe96a883aadda2921262956.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/encounters/.docs/instructions.md)): [Latest](../../../locales/ja/content/20/f7/e9f8d52f6d9d1241f46047ee86c9065a3950.md)
+  - [`a5f1e1e691`](../../../locales/ja/content/a5/f1/e1e691ba93383fe96a883aadda2921262956.md)
   - [`cd8bc7b358`](../../../locales/ja/content/cd/8b/c7b35891f926d461023d58a957ab02439c17.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/encounters/.docs/introduction.md)): [Latest](../../../locales/ja/content/16/00/22ddaa2754b5661a022910c70300e7bab426.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/encounters/.docs/introduction.md)): [Latest](../../../locales/ja/content/06/bd/2f7fe9af297dbf30cdd459c0fa71e41ab562.md)
+  - [`160022ddaa`](../../../locales/ja/content/16/00/22ddaa2754b5661a022910c70300e7bab426.md)
   - [`646bd8f598`](../../../locales/ja/content/64/6b/d8f5985a76ab08ccfc6d286902f8a272b8c2.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/encounters/.docs/hints.md)): [Latest](../../../locales/ja/content/bd/a6/a3877e01a93ee06f44bddffae1d1a10f3fac.md)
 
@@ -573,91 +589,111 @@ This page is generated from [the index](../../json/ja/julia.json) by `scripts/bu
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/exercism-matrix/.docs/instructions.md)): [Latest](../../../locales/ja/content/ca/36/74a6728a9b9f8482c81a5b2b9cbfdde0a1fb.md)
   - [`cf9e227151`](../../../locales/ja/content/cf/9e/227151fdd9903ac4707081a11c44729dc551.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/exercism-matrix/.docs/introduction.md)): [Latest](../../../locales/ja/content/ce/8a/e9b6f4838cee1779943055d8056b99d6d80f.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/exercism-matrix/.docs/introduction.md)): [Latest](../../../locales/ja/content/9b/9b/3a48f918eebcb6faa33e8e66b131088cbade.md)
+  - [`ce8ae9b6f4`](../../../locales/ja/content/ce/8a/e9b6f4838cee1779943055d8056b99d6d80f.md)
   - [`98e569adef`](../../../locales/ja/content/98/e5/69adefa28c5b5005f95941221cddd29dc5d8.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/exercism-matrix/.docs/hints.md)): [Latest](../../../locales/ja/content/93/26/dacaf4caab789c8415ed25d5baab9c64a533.md)
 
 ### Factory Sensors (工場のセンサー)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/factory-sensors/.docs/instructions.md)): [Latest](../../../locales/ja/content/37/0c/869c1c0e360c68c512b15c169f1768aa23f6.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/factory-sensors/.docs/instructions.md)): [Latest](../../../locales/ja/content/7e/18/3ba3068658670b50ebc25e40c5bae5f53861.md)
+  - [`370c869c1c`](../../../locales/ja/content/37/0c/869c1c0e360c68c512b15c169f1768aa23f6.md)
   - [`412d4f37a3`](../../../locales/ja/content/41/2d/4f37a3faf77d57beccc3f7cdaa137d9c63c0.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/factory-sensors/.docs/introduction.md)): [Latest](../../../locales/ja/content/e9/06/f4b12895b06edfdb7170a70ad4ae4ec216e2.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/factory-sensors/.docs/introduction.md)): [Latest](../../../locales/ja/content/bf/eb/8f41f81d77edc2c6dc96a02ae61873af8278.md)
+  - [`e906f4b128`](../../../locales/ja/content/e9/06/f4b12895b06edfdb7170a70ad4ae4ec216e2.md)
   - [`78ad8cec45`](../../../locales/ja/content/78/ad/8cec45a56705805b97f019417c00ea346de7.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/factory-sensors/.docs/hints.md)): [Latest](../../../locales/ja/content/ea/34/e7291aa4c6608e110388d58d9bbd26d70dce.md)
 
 ### Fibonacci Iterator (フィボナッチのイテレーター)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/fibonacci-iterator/.docs/instructions.md)): [Latest](../../../locales/ja/content/63/77/d18534dd99604d466148e0893160456f1c7f.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/fibonacci-iterator/.docs/introduction.md)): [Latest](../../../locales/ja/content/5c/be/7813bc1215ddd07ed70b6611f0cc47d1268d.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/fibonacci-iterator/.docs/introduction.md)): [Latest](../../../locales/ja/content/54/1c/a74d9d306a5d445835cfcbe1576822b210a3.md)
+  - [`5cbe7813bc`](../../../locales/ja/content/5c/be/7813bc1215ddd07ed70b6611f0cc47d1268d.md)
   - [`6e54665548`](../../../locales/ja/content/6e/54/665548520c6b136ca94504fb4feb53490715.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/fibonacci-iterator/.docs/hints.md)): [Latest](../../../locales/ja/content/4f/70/a0460ee103630ae0ffc14af5b6b49b6e4b7c.md)
 
 ### Grading Guru (採点の達人)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/grading-guru/.docs/instructions.md)): [Latest](../../../locales/ja/content/dc/c0/487314133cd801abb081ebd6822e3a957f4a.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/grading-guru/.docs/introduction.md)): [Latest](../../../locales/ja/content/a7/f7/e5e859a9b98de3c537313e9fa352b5b66b92.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/grading-guru/.docs/instructions.md)): [Latest](../../../locales/ja/content/b1/4c/1c45e4b6759707b23c768f52bef43197edd2.md)
+  - [`dcc0487314`](../../../locales/ja/content/dc/c0/487314133cd801abb081ebd6822e3a957f4a.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/grading-guru/.docs/introduction.md)): [Latest](../../../locales/ja/content/f1/9f/0487e1050225ac9328be4c3f21cb602a195a.md)
+  - [`a7f7e5e859`](../../../locales/ja/content/a7/f7/e5e859a9b98de3c537313e9fa352b5b66b92.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/grading-guru/.docs/hints.md)): [Latest](../../../locales/ja/content/43/9c/10290f31b12e731e453b9f3d23e548e39845.md)
 
 ### High School Sweetheart (高校の恋人)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/high-school-sweetheart/.docs/instructions.md)): [Latest](../../../locales/ja/content/bd/69/f44fee7700a7b4578edee59049b71922284a.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/high-school-sweetheart/.docs/introduction.md)): [Latest](../../../locales/ja/content/51/9e/41403dc8ea3dbc6012ee318bacc43f9db565.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/high-school-sweetheart/.docs/instructions.md)): [Latest](../../../locales/ja/content/6c/53/8faf38bf5843e7cff74bd49f704da5b24716.md)
+  - [`bd69f44fee`](../../../locales/ja/content/bd/69/f44fee7700a7b4578edee59049b71922284a.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/high-school-sweetheart/.docs/introduction.md)): [Latest](../../../locales/ja/content/3f/e7/7ae7882c3f7a07770c7eb8d3169b70892a77.md)
+  - [`519e41403d`](../../../locales/ja/content/51/9e/41403dc8ea3dbc6012ee318bacc43f9db565.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/high-school-sweetheart/.docs/hints.md)): [Latest](../../../locales/ja/content/1d/43/0b91460d47e71248df0d102ca6fa67536fd7.md)
 
 ### Inventory Management (在庫管理)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/inventory-management/.docs/instructions.md)): [Latest](../../../locales/ja/content/ae/ef/83ad1205b6bac387d1482cd3ccd22fcbf8f0.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/inventory-management/.docs/introduction.md)): [Latest](../../../locales/ja/content/51/6c/daa3a49eb3281fdf058a2ff7ec6ae06e7552.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/inventory-management/.docs/introduction.md)): [Latest](../../../locales/ja/content/b3/fb/c022e527042ae44b64f8e1d2cd0773fcebb3.md)
+  - [`516cdaa3a4`](../../../locales/ja/content/51/6c/daa3a49eb3281fdf058a2ff7ec6ae06e7552.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/inventory-management/.docs/hints.md)): [Latest](../../../locales/ja/content/fc/05/ae022f7c63a768300c10c8a6d6dcd9b30516.md)
 
 ### Land Grab In Space (宇宙の土地争い)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/land-grab-in-space/.docs/instructions.md)): [Latest](../../../locales/ja/content/14/87/27599f699a3334b3e88cdfed06409699d2b4.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/land-grab-in-space/.docs/instructions.md)): [Latest](../../../locales/ja/content/03/22/00b8f61b899fe27390d1d8005ca1be72845e.md)
+  - [`148727599f`](../../../locales/ja/content/14/87/27599f699a3334b3e88cdfed06409699d2b4.md)
   - [`1e8f98defa`](../../../locales/ja/content/1e/8f/98defa4e38c50aeebe4201b2bd2c22db87a4.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/land-grab-in-space/.docs/introduction.md)): [Latest](../../../locales/ja/content/2f/aa/ac82b786373a2561f128f31ce594424b954a.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/land-grab-in-space/.docs/introduction.md)): [Latest](../../../locales/ja/content/37/3d/45ea5085013313f74666d8f335a1f348e391.md)
+  - [`2faaac82b7`](../../../locales/ja/content/2f/aa/ac82b786373a2561f128f31ce594424b954a.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/land-grab-in-space/.docs/hints.md)): [Latest](../../../locales/ja/content/75/13/0fe8e26508e7630c23cc0771273aab2ff23f.md)
 
 ### Lasagna (ラザニア)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/lasagna/.docs/instructions.md)): [Latest](../../../locales/ja/content/28/cd/5efbb15a9e4d01ae24b3236625f89c2f541e.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/lasagna/.docs/introduction.md)): [Latest](../../../locales/ja/content/3e/18/826005b0bdce73ffebe672926baae2183429.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/lasagna/.docs/introduction.md)): [Latest](../../../locales/ja/content/b7/91/fc5234be1e77bece042162d596bba2c6ac48.md)
+  - [`3e18826005`](../../../locales/ja/content/3e/18/826005b0bdce73ffebe672926baae2183429.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/lasagna/.docs/hints.md)): [Latest](../../../locales/ja/content/0b/0f/2dec77da6289fb39d9fae2899fd1a537a126.md)
   - [`e5158fe880`](../../../locales/ja/content/e5/15/8fe880c40c7006e9427417165b4f8bca21bd.md)
 
 ### Locomotive Engineer (機関車の運転士)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/locomotive-engineer/.docs/instructions.md)): [Latest](../../../locales/ja/content/8d/b2/fcf98ceb948815c19bcb6b7c98af254f8ea1.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/locomotive-engineer/.docs/introduction.md)): [Latest](../../../locales/ja/content/fe/a6/c682b4beb9db9da01005b457895de2b6be99.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/locomotive-engineer/.docs/introduction.md)): [Latest](../../../locales/ja/content/48/f3/c60d9bde1d860349c7c09bf0a400187995ee.md)
+  - [`fea6c682b4`](../../../locales/ja/content/fe/a6/c682b4beb9db9da01005b457895de2b6be99.md)
   - [`35472a6931`](../../../locales/ja/content/35/47/2a6931b5d6da0d29521b29eb1ce4e73bf20b.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/locomotive-engineer/.docs/hints.md)): [Latest](../../../locales/ja/content/02/89/6e4b8913e102520d8cb5e247d2507818a653.md)
 
 ### Log Levels (ログレベル)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/log-levels/.docs/instructions.md)): [Latest](../../../locales/ja/content/70/b3/0a12c80688dcde5d6d3c18adafd1f6b1abef.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/log-levels/.docs/introduction.md)): [Latest](../../../locales/ja/content/f6/1d/f91a4ad639549cb88146149917d2d087ca43.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/log-levels/.docs/introduction.md)): [Latest](../../../locales/ja/content/8a/b4/a0e2015b842e9e7960c56eaa2ad9ccb49896.md)
+  - [`f61df91a4a`](../../../locales/ja/content/f6/1d/f91a4ad639549cb88146149917d2d087ca43.md)
   - [`e5f154e925`](../../../locales/ja/content/e5/f1/54e925765f975f7ae118facf4457816b7cf1.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/log-levels/.docs/hints.md)): [Latest](../../../locales/ja/content/7c/1b/67da981dbc1949315fdb6ac8427594072465.md)
 
 ### Mecha Munch Management (メカむしゃむしゃ管理)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/mecha-munch-management/.docs/instructions.md)): [Latest](../../../locales/ja/content/b0/75/54fcb5d9b4ad9a06b842fe156754940c2efc.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/mecha-munch-management/.docs/instructions.md)): [Latest](../../../locales/ja/content/4f/11/e8bb7b51ea6c5e1416a220aba708a8669c90.md)
+  - [`b07554fcb5`](../../../locales/ja/content/b0/75/54fcb5d9b4ad9a06b842fe156754940c2efc.md)
   - [`eacc9c0f44`](../../../locales/ja/content/ea/cc/9c0f44a36994137ba06ad6ad89896623a8be.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/mecha-munch-management/.docs/introduction.md)): [Latest](../../../locales/ja/content/b2/45/652db1459ba4327b2848f6602a8d7f9cb0fe.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/mecha-munch-management/.docs/introduction.md)): [Latest](../../../locales/ja/content/aa/df/97061c19ffce68f7e86d47f23f961b2c3c94.md)
+  - [`b245652db1`](../../../locales/ja/content/b2/45/652db1459ba4327b2848f6602a8d7f9cb0fe.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/mecha-munch-management/.docs/hints.md)): [Latest](../../../locales/ja/content/24/f9/6751f9530de2ba711957d94d244d99b1b2d3.md)
 
 ### Mixed Juices (ミックスジュース)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/mixed-juices/.docs/instructions.md)): [Latest](../../../locales/ja/content/1a/bd/a35df5d1235b3dea3e2743aa89f6babebbab.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/mixed-juices/.docs/instructions.md)): [Latest](../../../locales/ja/content/05/c0/f5b5aab1522765392c434a764bc43b6d58f8.md)
+  - [`1abda35df5`](../../../locales/ja/content/1a/bd/a35df5d1235b3dea3e2743aa89f6babebbab.md)
 - `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/mixed-juices/.docs/introduction.md)): [Latest](../../../locales/ja/content/a1/b1/76a07f7543130ff987b8e2ed8eb8febb3e47.md)
   - [`c87c591a19`](../../../locales/ja/content/c8/7c/591a1944b64b64624a0abac5c3b030e5f57e.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/mixed-juices/.docs/hints.md)): [Latest](../../../locales/ja/content/d4/87/c5b353af5b87754511d9f320857d063177a5.md)
 
 ### Name Badges (名札)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/name-badges/.docs/instructions.md)): [Latest](../../../locales/ja/content/62/58/556c9dd0a7cc627966cf80731d594f7203f7.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/name-badges/.docs/introduction.md)): [Latest](../../../locales/ja/content/11/9f/f1c9eb20b5adcf2b780cadee99e43094730c.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/name-badges/.docs/instructions.md)): [Latest](../../../locales/ja/content/b3/ab/ea81c492b7477318dc38e5492709d4ba2f17.md)
+  - [`6258556c9d`](../../../locales/ja/content/62/58/556c9dd0a7cc627966cf80731d594f7203f7.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/name-badges/.docs/introduction.md)): [Latest](../../../locales/ja/content/a5/3a/391e255e088269c7cdb078ee941662d63a98.md)
+  - [`119ff1c9eb`](../../../locales/ja/content/11/9f/f1c9eb20b5adcf2b780cadee99e43094730c.md)
   - [`07778f56c4`](../../../locales/ja/content/07/77/8f56c4bf9518d7313ec6f51691db71086d8d.md)
-- `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/name-badges/.docs/hints.md)): [Latest](../../../locales/ja/content/e3/2f/3e69717496f10f1730505bd01d9764e32dd8.md)
+- `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/name-badges/.docs/hints.md)): [Latest](../../../locales/ja/content/03/e6/8139fa3602e9c62b870da9acee26f893e2d2.md)
+  - [`e32f3e6971`](../../../locales/ja/content/e3/2f/3e69717496f10f1730505bd01d9764e32dd8.md)
 
 ### Old Annalyn's Infiltration Ⅱ (旧Annalynの潜入Ⅱ)
 
@@ -724,65 +760,80 @@ This page is generated from [the index](../../json/ja/julia.json) by `scripts/bu
 
 ### Ordering Ordeal (並べ替えの試練)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/ordering-ordeal/.docs/instructions.md)): [Latest](../../../locales/ja/content/a5/19/d161266e7f7d911a05fc00469928bcc41761.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/ordering-ordeal/.docs/instructions.md)): [Latest](../../../locales/ja/content/c8/a5/4ff96acc66a51a8df8ef005857a18fc0a05c.md)
+  - [`a519d16126`](../../../locales/ja/content/a5/19/d161266e7f7d911a05fc00469928bcc41761.md)
   - [`5e99191fbf`](../../../locales/ja/content/5e/99/191fbf72762217542f8124d2d27830bd7e74.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/ordering-ordeal/.docs/introduction.md)): [Latest](../../../locales/ja/content/c7/bb/f104e00c22fcdd502b63928d4d97901390b2.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/ordering-ordeal/.docs/introduction.md)): [Latest](../../../locales/ja/content/cb/a6/2c004355e1453af4bcad25f1070e25f7d393.md)
+  - [`c7bbf104e0`](../../../locales/ja/content/c7/bb/f104e00c22fcdd502b63928d4d97901390b2.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/ordering-ordeal/.docs/hints.md)): [Latest](../../../locales/ja/content/98/36/b9cdf9fbcd3de5ede00f68fec3c28af66774.md)
   - [`8d6c440b05`](../../../locales/ja/content/8d/6c/440b056be85ccf83ef88d54a770ff48099fc.md)
 
 ### Problematic Probabilities (厄介な確率)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/problematic-probabilities/.docs/instructions.md)): [Latest](../../../locales/ja/content/70/32/177a40c344b491718370f4f9a010aabdc139.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/problematic-probabilities/.docs/instructions.md)): [Latest](../../../locales/ja/content/6b/6a/32ef2ea9c3b22dafddc96c5bd09a559abf3e.md)
+  - [`7032177a40`](../../../locales/ja/content/70/32/177a40c344b491718370f4f9a010aabdc139.md)
 - `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/problematic-probabilities/.docs/introduction.md)): [Latest](../../../locales/ja/content/80/ea/cde3699487704fbc7bd4a860ed02351de316.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/problematic-probabilities/.docs/hints.md)): [Latest](../../../locales/ja/content/ee/30/28ebe655acc96baea76736b2ef9446c7ae69.md)
 
 ### Regular Chatbot (正規表現チャットボット)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/regular-chatbot/.docs/instructions.md)): [Latest](../../../locales/ja/content/0e/15/cc021815866fc1386315ec9ad2a3b2a4c7fb.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/regular-chatbot/.docs/instructions.md)): [Latest](../../../locales/ja/content/b7/d2/2f491d2445b6be89a69df2a418ebb45e6c93.md)
+  - [`0e15cc0218`](../../../locales/ja/content/0e/15/cc021815866fc1386315ec9ad2a3b2a4c7fb.md)
   - [`6291ae121c`](../../../locales/ja/content/62/91/ae121c9ede00701b29bb93fd616d54b93ca3.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/regular-chatbot/.docs/introduction.md)): [Latest](../../../locales/ja/content/8b/6a/3bcd7cae38afeb8107b228d4a536b56f68cf.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/regular-chatbot/.docs/introduction.md)): [Latest](../../../locales/ja/content/3d/f7/bbec12e31ac01f4b61a71a1bca7f74da1838.md)
+  - [`8b6a3bcd7c`](../../../locales/ja/content/8b/6a/3bcd7cae38afeb8107b228d4a536b56f68cf.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/regular-chatbot/.docs/hints.md)): [Latest](../../../locales/ja/content/e5/59/c2f99808e370ebb3fcd646b899f65b828cc0.md)
 
 ### Robot Revolution (ロボット革命)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/robot-revolution/.docs/instructions.md)): [Latest](../../../locales/ja/content/9e/55/eceab6e864d8baa81a0a2128a9f42749586a.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/robot-revolution/.docs/introduction.md)): [Latest](../../../locales/ja/content/78/d1/9b40cd1047d54cc73f9ceb6220c332a8aa9a.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/robot-revolution/.docs/introduction.md)): [Latest](../../../locales/ja/content/8d/1a/7608f648347fe53039bac350de3a825235a7.md)
+  - [`78d19b40cd`](../../../locales/ja/content/78/d1/9b40cd1047d54cc73f9ceb6220c332a8aa9a.md)
   - [`438804f6ef`](../../../locales/ja/content/43/88/04f6effc3e96d82e22b14162ec0f684617c9.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/robot-revolution/.docs/hints.md)): [Latest](../../../locales/ja/content/27/20/a620458501614cb14e34974cda3f4a73d413.md)
   - [`d8d28d30b7`](../../../locales/ja/content/d8/d2/8d30b73ed8ef59afcfe760ad0a0faa1a400d.md)
 
 ### Role Playing Game (ロールプレイングゲーム)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/role-playing-game/.docs/instructions.md)): [Latest](../../../locales/ja/content/c8/6d/0f53939b2cd65114e42782f76d57ecc9aebd.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/role-playing-game/.docs/introduction.md)): [Latest](../../../locales/ja/content/10/41/0a27faa232348151adc8f1d0abb71687c548.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/role-playing-game/.docs/instructions.md)): [Latest](../../../locales/ja/content/c2/b9/38b43be25b86013fc6a295163825fd12133d.md)
+  - [`c86d0f5393`](../../../locales/ja/content/c8/6d/0f53939b2cd65114e42782f76d57ecc9aebd.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/role-playing-game/.docs/introduction.md)): [Latest](../../../locales/ja/content/30/39/77e52d5955a7e28ecddec2f62ba7d51eb312.md)
+  - [`10410a27fa`](../../../locales/ja/content/10/41/0a27faa232348151adc8f1d0abb71687c548.md)
   - [`9d088de0b2`](../../../locales/ja/content/9d/08/8de0b28ca8f320577b5d785128e0ad6fde7c.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/role-playing-game/.docs/hints.md)): [Latest](../../../locales/ja/content/98/36/7a91ff86697746086cefc4a0de286368047a.md)
 
 ### Secrets (秘密)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/secrets/.docs/instructions.md)): [Latest](../../../locales/ja/content/3b/d0/1659586672c940c1962715313a83f1fb82b3.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/secrets/.docs/introduction.md)): [Latest](../../../locales/ja/content/79/81/495b91199689fbbb1450b4b4cabce29f9d2f.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/secrets/.docs/instructions.md)): [Latest](../../../locales/ja/content/4f/69/17b25fadefb0c10fbe7b539d21620dbd7780.md)
+  - [`3bd0165958`](../../../locales/ja/content/3b/d0/1659586672c940c1962715313a83f1fb82b3.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/secrets/.docs/introduction.md)): [Latest](../../../locales/ja/content/bf/8f/1504e2a85124da8130afc589d91141c017d6.md)
+  - [`7981495b91`](../../../locales/ja/content/79/81/495b91199689fbbb1450b4b4cabce29f9d2f.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/secrets/.docs/hints.md)): [Latest](../../../locales/ja/content/4f/78/b7cf974416c98fc357714a232fd1c34c6954.md)
   - [`8e4f228d3b`](../../../locales/ja/content/8e/4f/228d3bf9cbcf2479fe1aa4ae5e359ad8a2f9.md)
 
 ### Squeaky Clean (ピカピカ)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/squeaky-clean/.docs/instructions.md)): [Latest](../../../locales/ja/content/50/29/872e996398b5163620ec84796124a862c783.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/squeaky-clean/.docs/introduction.md)): [Latest](../../../locales/ja/content/8f/a5/cca881b2ae3a17c0061d39fa67cc34c04b68.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/squeaky-clean/.docs/introduction.md)): [Latest](../../../locales/ja/content/9b/9b/a7269f1d3244011ff52acd2793ce9cba97b0.md)
+  - [`8fa5cca881`](../../../locales/ja/content/8f/a5/cca881b2ae3a17c0061d39fa67cc34c04b68.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/squeaky-clean/.docs/hints.md)): [Latest](../../../locales/ja/content/14/a6/d9b423707be050d5a27e5a61949af42111bd.md)
 
 ### Tisbury Treasure Hunt (ティズベリーの宝探し)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/tisbury-treasure-hunt/.docs/instructions.md)): [Latest](../../../locales/ja/content/85/c0/be75f9270a88545b35187067fcc46d24d7cd.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/tisbury-treasure-hunt/.docs/introduction.md)): [Latest](../../../locales/ja/content/bd/9f/a11bcf52e4a5799b264849c7de03d0675439.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/tisbury-treasure-hunt/.docs/instructions.md)): [Latest](../../../locales/ja/content/c9/2c/adf266ddc4c13ac0e30be275d0f49189ea8e.md)
+  - [`85c0be75f9`](../../../locales/ja/content/85/c0/be75f9270a88545b35187067fcc46d24d7cd.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/tisbury-treasure-hunt/.docs/introduction.md)): [Latest](../../../locales/ja/content/27/16/aba1629767659c48922145169c99d2afb784.md)
+  - [`bd9fa11bcf`](../../../locales/ja/content/bd/9f/a11bcf52e4a5799b264849c7de03d0675439.md)
   - [`6b6483522f`](../../../locales/ja/content/6b/64/83522f4405d4e48ea9b316e71f9b25653c16.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/tisbury-treasure-hunt/.docs/hints.md)): [Latest](../../../locales/ja/content/14/11/ef232b3563f6de56b2d0e5fd9f56ac3e291a.md)
 
 ### Tracking Turntable (ターンテーブルの追跡)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/tracking-turntable/.docs/instructions.md)): [Latest](../../../locales/ja/content/21/a2/ff8ce6860790a7cb53a658f91a4e48241a95.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/tracking-turntable/.docs/instructions.md)): [Latest](../../../locales/ja/content/48/70/76decd0fc2a3af2052445e62986391c28f60.md)
+  - [`21a2ff8ce6`](../../../locales/ja/content/21/a2/ff8ce6860790a7cb53a658f91a4e48241a95.md)
   - [`b9cebb6f30`](../../../locales/ja/content/b9/ce/bb6f30f47e9b2518e31002854d7c190b8b6c.md)
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/tracking-turntable/.docs/introduction.md)): [Latest](../../../locales/ja/content/d9/5c/7ff0715456f9013737fe902def1165a2dc3d.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/tracking-turntable/.docs/introduction.md)): [Latest](../../../locales/ja/content/eb/86/08e7d517d4ea4300cecfe08c98dd02501ac1.md)
+  - [`d95c7ff071`](../../../locales/ja/content/d9/5c/7ff0715456f9013737fe902def1165a2dc3d.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/tracking-turntable/.docs/hints.md)): [Latest](../../../locales/ja/content/e6/7e/a0a0de9450cb2bfccef551cff148f50f5a82.md)
   - [`0e88d67371`](../../../locales/ja/content/0e/88/d67371ef5624d2caa26e04f30c56d8d19344.md)
 
@@ -798,17 +849,21 @@ This page is generated from [the index](../../json/ja/julia.json) by `scripts/bu
 
 ### Basics (基本)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/basics/introduction.md)): [Latest](../../../locales/ja/content/cc/28/55eb106b10637ad198ebdeb655a889fde0f1.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/basics/introduction.md)): [Latest](../../../locales/ja/content/b7/91/fc5234be1e77bece042162d596bba2c6ac48.md)
+  - [`cc2855eb10`](../../../locales/ja/content/cc/28/55eb106b10637ad198ebdeb655a889fde0f1.md)
   - [`2dc35ddf76`](../../../locales/ja/content/2d/c3/5ddf76cb539727d1aeab8bd7ce1d62ab2fe4.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/basics/about.md)): [Latest](../../../locales/ja/content/1d/ce/f6063afbfcb4575076c6466524e446298d06.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/basics/about.md)): [Latest](../../../locales/ja/content/f3/d7/7bf896363d0c00ac3234c3cb7dd0fb2934cc.md)
+  - [`1dcef6063a`](../../../locales/ja/content/1d/ce/f6063afbfcb4575076c6466524e446298d06.md)
   - [`5d6f92aaed`](../../../locales/ja/content/5d/6f/92aaed13cc41e4b8a8b81f1271c585396b21.md)
   - [`3e0bd320f7`](../../../locales/ja/content/3e/0b/d320f7d424d80aff7751e85d883a8e99808e.md)
 
 ### Bitwise Operations (ビット演算)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/bitwise-operations/introduction.md)): [Latest](../../../locales/ja/content/79/81/495b91199689fbbb1450b4b4cabce29f9d2f.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/bitwise-operations/introduction.md)): [Latest](../../../locales/ja/content/bf/8f/1504e2a85124da8130afc589d91141c017d6.md)
+  - [`7981495b91`](../../../locales/ja/content/79/81/495b91199689fbbb1450b4b4cabce29f9d2f.md)
   - [`8b48003d4a`](../../../locales/ja/content/8b/48/003d4abc2db08fa4c4667584d9eb1d92a7b2.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/bitwise-operations/about.md)): [Latest](../../../locales/ja/content/b1/a4/0356034afa62335a5fb4347ff020bb756dc7.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/bitwise-operations/about.md)): [Latest](../../../locales/ja/content/d5/f8/f834b7d027c5f11156a399d39959dc137b16.md)
+  - [`b1a4035603`](../../../locales/ja/content/b1/a4/0356034afa62335a5fb4347ff020bb756dc7.md)
   - [`0671db0bc1`](../../../locales/ja/content/06/71/db0bc1ceca6c60280f4eedb4cbe8a940ffcb.md)
 
 ### Booleans (真偽値)
@@ -818,25 +873,33 @@ This page is generated from [the index](../../json/ja/julia.json) by `scripts/bu
 
 ### Chars (文字)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/chars/introduction.md)): [Latest](../../../locales/ja/content/af/c0/77c851008c82e66f35f0f17dd97d6232cd22.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/chars/about.md)): [Latest](../../../locales/ja/content/68/cd/b9e3563a6cc8fa4e7393ff891022287d843a.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/chars/introduction.md)): [Latest](../../../locales/ja/content/93/0a/103ad46525dc3af6d9bf0ff29539de663099.md)
+  - [`afc077c851`](../../../locales/ja/content/af/c0/77c851008c82e66f35f0f17dd97d6232cd22.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/chars/about.md)): [Latest](../../../locales/ja/content/cb/16/2f36cf4fb9fc94b5cafb3024a229202aadbc.md)
+  - [`68cdb9e356`](../../../locales/ja/content/68/cd/b9e3563a6cc8fa4e7393ff891022287d843a.md)
 
 ### Complex Numbers (複素数)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/complex-numbers/introduction.md)): [Latest](../../../locales/ja/content/c9/2e/e054e4dcc43c622e7adabd8fa42f8ceada0e.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/complex-numbers/about.md)): [Latest](../../../locales/ja/content/07/d8/0ff56c09bca44b3aa716f436ef0871685d57.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/complex-numbers/introduction.md)): [Latest](../../../locales/ja/content/b3/d8/edaae85396459af6eb54d524bcf7ff74461f.md)
+  - [`c92ee054e4`](../../../locales/ja/content/c9/2e/e054e4dcc43c622e7adabd8fa42f8ceada0e.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/complex-numbers/about.md)): [Latest](../../../locales/ja/content/79/7c/16785da7bf41d7d10245ab52d6a86583362e.md)
+  - [`07d80ff56c`](../../../locales/ja/content/07/d8/0ff56c09bca44b3aa716f436ef0871685d57.md)
 
 ### Composite Types (複合型)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/composite-types/introduction.md)): [Latest](../../../locales/ja/content/e3/e7/ecff52b5f5b564ac0f62ed0d5e1466424bec.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/composite-types/about.md)): [Latest](../../../locales/ja/content/0d/90/67c0feb8d799e19097124bcd0c7e77b4320d.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/composite-types/introduction.md)): [Latest](../../../locales/ja/content/64/56/f1f637aea023e53a4695e801256a8ae5c679.md)
+  - [`e3e7ecff52`](../../../locales/ja/content/e3/e7/ecff52b5f5b564ac0f62ed0d5e1466424bec.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/composite-types/about.md)): [Latest](../../../locales/ja/content/dd/91/4d82b6a555f3f1797c5ab1a5d84e993ef446.md)
+  - [`0d9067c0fe`](../../../locales/ja/content/0d/90/67c0feb8d799e19097124bcd0c7e77b4320d.md)
   - [`71876bef9d`](../../../locales/ja/content/71/87/6bef9d2db8c0db5cbcd6099e9306c3e9fa26.md)
 
 ### Comprehensions (内包表記)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/comprehensions/introduction.md)): [Latest](../../../locales/ja/content/c8/75/32be14ec01da1e6dbd331e035454e3307406.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/comprehensions/introduction.md)): [Latest](../../../locales/ja/content/be/72/db6b7aa42a99739f2424e93aa2baf83186f1.md)
+  - [`c87532be14`](../../../locales/ja/content/c8/75/32be14ec01da1e6dbd331e035454e3307406.md)
   - [`5b5c81e4e7`](../../../locales/ja/content/5b/5c/81e4e7fe448c5f59b969351eadc6baaaae61.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/comprehensions/about.md)): [Latest](../../../locales/ja/content/86/48/aa3d07f9f8804b1ab9eec7da3e1e4ecf5b47.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/comprehensions/about.md)): [Latest](../../../locales/ja/content/5d/85/adb5a0717df6d48c5f62182831d94b6be8bf.md)
+  - [`8648aa3d07`](../../../locales/ja/content/86/48/aa3d07f9f8804b1ab9eec7da3e1e4ecf5b47.md)
   - [`55632ce672`](../../../locales/ja/content/55/63/2ce67292c1765d9740c71e61dca549d088d4.md)
 
 ### Conditionals (条件分岐)
@@ -848,35 +911,45 @@ This page is generated from [the index](../../json/ja/julia.json) by `scripts/bu
 
 ### Dates and Times (日付と時刻)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/dates-times/introduction.md)): [Latest](../../../locales/ja/content/cc/66/34dd358958ad16880edf510e90866834e4b7.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/dates-times/introduction.md)): [Latest](../../../locales/ja/content/50/53/db6ebf657dc837b0b46f2a9cff8a453c99bc.md)
+  - [`cc6634dd35`](../../../locales/ja/content/cc/66/34dd358958ad16880edf510e90866834e4b7.md)
   - [`fa446f9023`](../../../locales/ja/content/fa/44/6f9023989236c1242f9a91b5beff7d316b75.md)
   - [`584d902be2`](../../../locales/ja/content/58/4d/902be2d49dbbbc3e14804d4e04945fe151a8.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/dates-times/about.md)): [Latest](../../../locales/ja/content/2b/f4/5d9ac93591146af910d20740e9b670e38452.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/dates-times/about.md)): [Latest](../../../locales/ja/content/43/69/f44edefd14acc4d1b9db1d559be23fa2e70f.md)
+  - [`2bf45d9ac9`](../../../locales/ja/content/2b/f4/5d9ac93591146af910d20740e9b670e38452.md)
   - [`7e073d16d4`](../../../locales/ja/content/7e/07/3d16d4902220b93cc7fe7e4d645fc422822e.md)
   - [`1ce825b402`](../../../locales/ja/content/1c/e8/25b40242e2031c4b8db3fd0557f33bac0123.md)
 
 ### Dict Functions (\`Dict\`の関数)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/dict-functions/introduction.md)): [Latest](../../../locales/ja/content/b7/cb/00033d85908787b44c16cb93c0ca4ba1fa19.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/dict-functions/about.md)): [Latest](../../../locales/ja/content/69/25/c8bf90f3ff61df1cf7bad04d8664a40ae51c.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/dict-functions/introduction.md)): [Latest](../../../locales/ja/content/31/48/4abc8410de93e248b7a56e4fbf459f6b3457.md)
+  - [`b7cb00033d`](../../../locales/ja/content/b7/cb/00033d85908787b44c16cb93c0ca4ba1fa19.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/dict-functions/about.md)): [Latest](../../../locales/ja/content/ed/4f/953329798fe801cb9091f38c4f1f6c6c644f.md)
+  - [`6925c8bf90`](../../../locales/ja/content/69/25/c8bf90f3ff61df1cf7bad04d8664a40ae51c.md)
 
 ### Errors (エラー)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/errors/introduction.md)): [Latest](../../../locales/ja/content/e9/06/f4b12895b06edfdb7170a70ad4ae4ec216e2.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/errors/introduction.md)): [Latest](../../../locales/ja/content/bf/eb/8f41f81d77edc2c6dc96a02ae61873af8278.md)
+  - [`e906f4b128`](../../../locales/ja/content/e9/06/f4b12895b06edfdb7170a70ad4ae4ec216e2.md)
   - [`78ad8cec45`](../../../locales/ja/content/78/ad/8cec45a56705805b97f019417c00ea346de7.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/errors/about.md)): [Latest](../../../locales/ja/content/31/45/7b291fa4315ce64519209b185e1918e28abd.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/errors/about.md)): [Latest](../../../locales/ja/content/ae/8b/9d01b2ece50f660361eebffe568f5f90c31e.md)
+  - [`31457b291f`](../../../locales/ja/content/31/45/7b291fa4315ce64519209b185e1918e28abd.md)
   - [`d049d90ff9`](../../../locales/ja/content/d0/49/d90ff9aa23cd37678b3c250d0f63c8cdd1db.md)
 
 ### Function Composition (関数合成)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/function-composition/introduction.md)): [Latest](../../../locales/ja/content/2c/e8/cb7b51b8e7c73591c9ae61869dc14f6e2bf6.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/function-composition/about.md)): [Latest](../../../locales/ja/content/16/2b/8daf4f030d7854d2f5e4ec801f1667d95c9b.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/function-composition/introduction.md)): [Latest](../../../locales/ja/content/a8/e9/d74e304bfef53770965c3c17569fa6b38208.md)
+  - [`2ce8cb7b51`](../../../locales/ja/content/2c/e8/cb7b51b8e7c73591c9ae61869dc14f6e2bf6.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/function-composition/about.md)): [Latest](../../../locales/ja/content/9a/7d/90c0b9f4cb60fda96476d3907694cdfe76fe.md)
+  - [`162b8daf4f`](../../../locales/ja/content/16/2b/8daf4f030d7854d2f5e4ec801f1667d95c9b.md)
 
 ### Functions (関数)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/functions/introduction.md)): [Latest](../../../locales/ja/content/e9/3f/aa862d52b012404969c393b8ab0a6eb06597.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/functions/introduction.md)): [Latest](../../../locales/ja/content/78/66/a233cbaf829ce578d6b683e4d07c266996c4.md)
+  - [`e93faa862d`](../../../locales/ja/content/e9/3f/aa862d52b012404969c393b8ab0a6eb06597.md)
   - [`ad5e32098e`](../../../locales/ja/content/ad/5e/32098e6a95413f42301e318602f03e398223.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/functions/about.md)): [Latest](../../../locales/ja/content/12/47/128cf722e11e63e77fb67f88871bec69ffdc.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/functions/about.md)): [Latest](../../../locales/ja/content/48/36/4d725e78c820d1ac82d7e8e800f3c67ad59f.md)
+  - [`1247128cf7`](../../../locales/ja/content/12/47/128cf722e11e63e77fb67f88871bec69ffdc.md)
   - [`1e0a606852`](../../../locales/ja/content/1e/0a/606852aeb76a77b666dbd4229c065be060dc.md)
 
 ### Higher Order Functions (高階関数)
@@ -884,31 +957,38 @@ This page is generated from [the index](../../json/ja/julia.json) by `scripts/bu
 - `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/higher-order-functions/introduction.md)): [Latest](../../../locales/ja/content/7d/9b/a2e119621997b8dd3da48c772d53542c4dda.md)
   - [`5db289cf35`](../../../locales/ja/content/5d/b2/89cf3584cc081f9b873887894778f732c45f.md)
   - [`9839d9160a`](../../../locales/ja/content/98/39/d9160a2b9e3d743b81cedd76ceecae5c21a8.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/higher-order-functions/about.md)): [Latest](../../../locales/ja/content/e0/25/0ddf9e93bf9407c550d79eed3740c2c35184.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/higher-order-functions/about.md)): [Latest](../../../locales/ja/content/6b/73/a83ce061d571ff84bfdc9c70251b347454ec.md)
+  - [`e0250ddf9e`](../../../locales/ja/content/e0/25/0ddf9e93bf9407c550d79eed3740c2c35184.md)
   - [`6b418eeb5b`](../../../locales/ja/content/6b/41/8eeb5bb728c49588e00235c2f685498c226e.md)
 
 ### Interfaces (インターフェース)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/interfaces/introduction.md)): [Latest](../../../locales/ja/content/38/2d/4139e996db3267e4c9044db7210dbf939c5b.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/interfaces/introduction.md)): [Latest](../../../locales/ja/content/29/16/06a2fe98fc7d0b2d23d2e57413887a919c1a.md)
+  - [`382d4139e9`](../../../locales/ja/content/38/2d/4139e996db3267e4c9044db7210dbf939c5b.md)
   - [`2502f96715`](../../../locales/ja/content/25/02/f9671511bf0c86b11dc93c7b663a888b784c.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/interfaces/about.md)): [Latest](../../../locales/ja/content/29/32/4ceef65f332997c44c5bf3b3a2cc3c595724.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/interfaces/about.md)): [Latest](../../../locales/ja/content/d2/f2/a1a18cea4fc60894b9c68473ddfd5c3cca09.md)
+  - [`29324ceef6`](../../../locales/ja/content/29/32/4ceef65f332997c44c5bf3b3a2cc3c595724.md)
   - [`0da97f45ad`](../../../locales/ja/content/0d/a9/7f45ad13210726d3f6d8e6830c1b86a20fac.md)
   - [`7c29fb6095`](../../../locales/ja/content/7c/29/fb6095bf4ef18587a24d77d6eed158f0499a.md)
 
 ### Linear Algebra Basics (線形代数の基本)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/linear-algebra-basics/introduction.md)): [Latest](../../../locales/ja/content/fc/a7/b0793267cc688f723af2cad6aabb30f3198d.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/linear-algebra-basics/introduction.md)): [Latest](../../../locales/ja/content/d9/c4/0f1ef52deb5a7dfef4c77dbc830ccbeb3587.md)
+  - [`fca7b07932`](../../../locales/ja/content/fc/a7/b0793267cc688f723af2cad6aabb30f3198d.md)
   - [`0eec7e9db5`](../../../locales/ja/content/0e/ec/7e9db508de413de6ff3f3f9578f8b0537cd2.md)
   - [`24c167e952`](../../../locales/ja/content/24/c1/67e952d76d8fbe88b603de04d08f160244e6.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/linear-algebra-basics/about.md)): [Latest](../../../locales/ja/content/5d/6d/ce20300d720b70e01e20821ceecd061c6b6f.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/linear-algebra-basics/about.md)): [Latest](../../../locales/ja/content/12/a3/b0dc8065faa655f4db195de2039b64e59e94.md)
+  - [`5d6dce2030`](../../../locales/ja/content/5d/6d/ce20300d720b70e01e20821ceecd061c6b6f.md)
   - [`8b6d45b640`](../../../locales/ja/content/8b/6d/45b6402db0895b628749fa77b37a0fe8522a.md)
   - [`1a2ebb4905`](../../../locales/ja/content/1a/2e/bb4905ff073eb5ac0abccdd5a4999a886783.md)
 
 ### Linear Equation Solving (線形方程式の求解)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/linear-equation-solving/introduction.md)): [Latest](../../../locales/ja/content/29/0b/503d6574260c427de145bbbb0d72ca459b7d.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/linear-equation-solving/introduction.md)): [Latest](../../../locales/ja/content/f1/4b/48d46d1bdfd61cdee953e80a3a21baa7a487.md)
+  - [`290b503d65`](../../../locales/ja/content/29/0b/503d6574260c427de145bbbb0d72ca459b7d.md)
   - [`beaf1514ff`](../../../locales/ja/content/be/af/1514ff96d544279f17a3e98e9bb21130e92f.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/linear-equation-solving/about.md)): [Latest](../../../locales/ja/content/85/98/bff96608a4268a01b49bfdc5eb45aabbb228.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/linear-equation-solving/about.md)): [Latest](../../../locales/ja/content/d8/91/a7bebe0fe1b1486aaf76da816a9909cf1b13.md)
+  - [`8598bff966`](../../../locales/ja/content/85/98/bff96608a4268a01b49bfdc5eb45aabbb228.md)
   - [`1b62e22fd7`](../../../locales/ja/content/1b/62/e22fd7d75991dcc7545e32abe945a6909d72.md)
 
 ### Loops (ループ)
@@ -920,53 +1000,69 @@ This page is generated from [the index](../../json/ja/julia.json) by `scripts/bu
 
 ### Multi Dimensional Arrays (多次元配列)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/multi-dimensional-arrays/introduction.md)): [Latest](../../../locales/ja/content/36/c5/df27dcd3a0c6755d1961877ba9d06c85e8ff.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/multi-dimensional-arrays/introduction.md)): [Latest](../../../locales/ja/content/39/5e/e0ab9fdfb43c57baa2dd014b58f04980607c.md)
+  - [`36c5df27dc`](../../../locales/ja/content/36/c5/df27dcd3a0c6755d1961877ba9d06c85e8ff.md)
   - [`a9be7c7943`](../../../locales/ja/content/a9/be/7c7943878395de58746320f5e498baa4b07b.md)
   - [`98e569adef`](../../../locales/ja/content/98/e5/69adefa28c5b5005f95941221cddd29dc5d8.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/multi-dimensional-arrays/about.md)): [Latest](../../../locales/ja/content/de/83/b29be966c3199dca023443b8b0e31dbb1ce6.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/multi-dimensional-arrays/about.md)): [Latest](../../../locales/ja/content/8b/58/539a76f9378e4df819d1345647e2a6de278a.md)
+  - [`de83b29be9`](../../../locales/ja/content/de/83/b29be966c3199dca023443b8b0e31dbb1ce6.md)
   - [`fdeb34ff7d`](../../../locales/ja/content/fd/eb/34ff7d4032dca92ec11a3f0d3316d4a5a0eb.md)
   - [`9fdfe6bce1`](../../../locales/ja/content/9f/df/e6bce10ace127431454ec0b38be6ff53e870.md)
 
 ### Multiple Dispatch (多重ディスパッチ)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/multiple-dispatch/introduction.md)): [Latest](../../../locales/ja/content/b6/2d/91af722fc46f046a481667e0a58de6bb75a7.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/multiple-dispatch/introduction.md)): [Latest](../../../locales/ja/content/06/bd/2f7fe9af297dbf30cdd459c0fa71e41ab562.md)
+  - [`b62d91af72`](../../../locales/ja/content/b6/2d/91af722fc46f046a481667e0a58de6bb75a7.md)
   - [`96749d5167`](../../../locales/ja/content/96/74/9d516765ead1d1bd6142010485d24d738a3b.md)
   - [`646bd8f598`](../../../locales/ja/content/64/6b/d8f5985a76ab08ccfc6d286902f8a272b8c2.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/multiple-dispatch/about.md)): [Latest](../../../locales/ja/content/67/bd/0383ed9f877ccc324767453647faf870d9dc.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/multiple-dispatch/about.md)): [Latest](../../../locales/ja/content/a0/df/28e23974cbd421d82e64896a6a0e39782b51.md)
+  - [`67bd0383ed`](../../../locales/ja/content/67/bd/0383ed9f877ccc324767453647faf870d9dc.md)
   - [`ca79143f0d`](../../../locales/ja/content/ca/79/143f0de9781d6ada689326463fb97daaea43.md)
   - [`19735db5eb`](../../../locales/ja/content/19/73/5db5eb0369f80871404368832f0e2d644188.md)
 
 ### Nothingness (\`Nothing\`型)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/nothingness/introduction.md)): [Latest](../../../locales/ja/content/ee/24/e0414ce62902780ab1ff93f98cb94351bb49.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/nothingness/introduction.md)): [Latest](../../../locales/ja/content/4c/82/251690d6ce6d3662b9a7daebe456aeb8716e.md)
+  - [`ee24e0414c`](../../../locales/ja/content/ee/24/e0414ce62902780ab1ff93f98cb94351bb49.md)
   - [`d12ea1a30a`](../../../locales/ja/content/d1/2e/a1a30a53adf1ec30f44b2a049dbe49e59b17.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/nothingness/about.md)): [Latest](../../../locales/ja/content/62/16/a94a7cca636d67e3fda2b1636de7b3d7c1e9.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/nothingness/about.md)): [Latest](../../../locales/ja/content/af/2a/fb62491bf5061935701a06483ee648454443.md)
+  - [`6216a94a7c`](../../../locales/ja/content/62/16/a94a7cca636d67e3fda2b1636de7b3d7c1e9.md)
   - [`8133179662`](../../../locales/ja/content/81/33/179662aefba24f2cbff64bdb5f81c5af545a.md)
 
 ### Numbers (数値)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/numbers/introduction.md)): [Latest](../../../locales/ja/content/69/78/0c24ece162d7e0572a88549d8bdd407c216e.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/numbers/about.md)): [Latest](../../../locales/ja/content/51/fc/b645aa3f4d4881228814d68d2737148e1cae.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/numbers/introduction.md)): [Latest](../../../locales/ja/content/30/a5/9dd9b6c37186aba9f52e58ca6e7d665d73bc.md)
+  - [`69780c24ec`](../../../locales/ja/content/69/78/0c24ece162d7e0572a88549d8bdd407c216e.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/numbers/about.md)): [Latest](../../../locales/ja/content/83/7a/7ab0d87a70d15d20151dcbdc2d21d9caae33.md)
+  - [`51fcb645aa`](../../../locales/ja/content/51/fc/b645aa3f4d4881228814d68d2737148e1cae.md)
 
 ### Pairs And Dicts (ペアと\`Dict\`)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/pairs-and-dicts/introduction.md)): [Latest](../../../locales/ja/content/51/6c/daa3a49eb3281fdf058a2ff7ec6ae06e7552.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/pairs-and-dicts/about.md)): [Latest](../../../locales/ja/content/3f/1b/dfceb236e4ebbc513c5a5ee1ac43e4ea06fa.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/pairs-and-dicts/introduction.md)): [Latest](../../../locales/ja/content/b3/fb/c022e527042ae44b64f8e1d2cd0773fcebb3.md)
+  - [`516cdaa3a4`](../../../locales/ja/content/51/6c/daa3a49eb3281fdf058a2ff7ec6ae06e7552.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/pairs-and-dicts/about.md)): [Latest](../../../locales/ja/content/94/5f/b7d649d2fc1fcd9260a6633116c48c33368c.md)
+  - [`3f1bdfceb2`](../../../locales/ja/content/3f/1b/dfceb236e4ebbc513c5a5ee1ac43e4ea06fa.md)
 
 ### Parametric Types (パラメトリック型)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/parametric-types/introduction.md)): [Latest](../../../locales/ja/content/88/72/37e1ab6f0841d776c57e1f4ef07f5f924d27.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/parametric-types/about.md)): [Latest](../../../locales/ja/content/ec/4f/3fda65bbc5cf5be3c39cf372d106f699293d.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/parametric-types/introduction.md)): [Latest](../../../locales/ja/content/b0/1c/e21fcb1ad178ed8d0bda756ec0d4ef2e5da5.md)
+  - [`887237e1ab`](../../../locales/ja/content/88/72/37e1ab6f0841d776c57e1f4ef07f5f924d27.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/parametric-types/about.md)): [Latest](../../../locales/ja/content/f3/03/8df6e5abe087afcb9a3838bc135ca63e7eeb.md)
+  - [`ec4f3fda65`](../../../locales/ja/content/ec/4f/3fda65bbc5cf5be3c39cf372d106f699293d.md)
 
 ### Randomness (乱数)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/randomness/introduction.md)): [Latest](../../../locales/ja/content/50/0e/710684a23267602b282423308cc746adcb84.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/randomness/about.md)): [Latest](../../../locales/ja/content/30/de/3c4114c79a78972e954c3070880277a917da.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/randomness/introduction.md)): [Latest](../../../locales/ja/content/bc/18/facf53e489d35e6475be3fe54b3fd3d7e0be.md)
+  - [`500e710684`](../../../locales/ja/content/50/0e/710684a23267602b282423308cc746adcb84.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/randomness/about.md)): [Latest](../../../locales/ja/content/d0/46/78aa8241d4969390b00e40fc1d4797df1245.md)
+  - [`30de3c4114`](../../../locales/ja/content/30/de/3c4114c79a78972e954c3070880277a917da.md)
 
 ### Ranges (範囲)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/ranges/introduction.md)): [Latest](../../../locales/ja/content/e4/a2/39587e4b9ff03322a605a6e11775ceb3231c.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/ranges/about.md)): [Latest](../../../locales/ja/content/3c/5c/2c61a76021e7afdc1a985b736d999945322c.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/ranges/introduction.md)): [Latest](../../../locales/ja/content/81/24/58193b3055a9510648df884cec4afe4e66fc.md)
+  - [`e4a239587e`](../../../locales/ja/content/e4/a2/39587e4b9ff03322a605a6e11775ceb3231c.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/ranges/about.md)): [Latest](../../../locales/ja/content/53/9e/f193c83102afe14182ae96401bc53f035c33.md)
+  - [`3c5c2c61a7`](../../../locales/ja/content/3c/5c/2c61a76021e7afdc1a985b736d999945322c.md)
 
 ### Rational Numbers (有理数)
 
@@ -975,9 +1071,11 @@ This page is generated from [the index](../../json/ja/julia.json) by `scripts/bu
 
 ### Regular Expressions (正規表現)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/regular-expressions/introduction.md)): [Latest](../../../locales/ja/content/f8/a3/6a4ec3a0ec3650d446622e33d3b1b30d5203.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/regular-expressions/introduction.md)): [Latest](../../../locales/ja/content/3d/f7/bbec12e31ac01f4b61a71a1bca7f74da1838.md)
+  - [`f8a36a4ec3`](../../../locales/ja/content/f8/a3/6a4ec3a0ec3650d446622e33d3b1b30d5203.md)
   - [`8b6a3bcd7c`](../../../locales/ja/content/8b/6a/3bcd7cae38afeb8107b228d4a536b56f68cf.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/regular-expressions/about.md)): [Latest](../../../locales/ja/content/13/fa/0c254848bf3ad5a9a3aeb1e9d9d763462437.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/regular-expressions/about.md)): [Latest](../../../locales/ja/content/74/aa/78834060b56961d0f817480d3f3369b31600.md)
+  - [`13fa0c2548`](../../../locales/ja/content/13/fa/0c254848bf3ad5a9a3aeb1e9d9d763462437.md)
   - [`d54d76182f`](../../../locales/ja/content/d5/4d/76182f598b9663a069f44d7d7d2e98ab7b73.md)
 
 ### Sets (集合)
@@ -989,55 +1087,71 @@ This page is generated from [the index](../../json/ja/julia.json) by `scripts/bu
 
 ### Sorting (ソート)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/sorting/introduction.md)): [Latest](../../../locales/ja/content/b4/73/079680c1074643747a76c415e2b506916153.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/sorting/introduction.md)): [Latest](../../../locales/ja/content/60/93/acc5c95e3b2933eb6b56f82982117bbf5cdc.md)
+  - [`b473079680`](../../../locales/ja/content/b4/73/079680c1074643747a76c415e2b506916153.md)
   - [`3673f31e8e`](../../../locales/ja/content/36/73/f31e8e967df549ccf76009eb12b247da34e9.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/sorting/about.md)): [Latest](../../../locales/ja/content/16/e5/b303308e3b97bcb07e0d53d5ffd2a3a07ba1.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/sorting/about.md)): [Latest](../../../locales/ja/content/1d/5a/b5d9da4fdd0054a8f0f27e060cf1ee77f838.md)
+  - [`16e5b30330`](../../../locales/ja/content/16/e5/b303308e3b97bcb07e0d53d5ffd2a3a07ba1.md)
   - [`b5376f7afa`](../../../locales/ja/content/b5/37/6f7afad01e3cd4f043e5436cd5c2b544306d.md)
 
 ### Statistics (統計)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/statistics/introduction.md)): [Latest](../../../locales/ja/content/c0/44/0a097c682216d9354744167e300f9bdd586a.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/statistics/about.md)): [Latest](../../../locales/ja/content/14/96/f75142bbc8cfb112dd5425634e3a33e04662.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/statistics/introduction.md)): [Latest](../../../locales/ja/content/36/38/af4a962da0b58ccdb76fd43bac9fb1626ac8.md)
+  - [`c0440a097c`](../../../locales/ja/content/c0/44/0a097c682216d9354744167e300f9bdd586a.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/statistics/about.md)): [Latest](../../../locales/ja/content/a4/e9/099c8307cfa9db3f26fa14f4b79abb9557d0.md)
+  - [`1496f75142`](../../../locales/ja/content/14/96/f75142bbc8cfb112dd5425634e3a33e04662.md)
 
 ### Strings (文字列)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/strings/introduction.md)): [Latest](../../../locales/ja/content/29/89/942b67ef3ff2f83707d0a6197af2457093a8.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/strings/introduction.md)): [Latest](../../../locales/ja/content/0c/c2/662f74210923159228d83314661511101e5f.md)
+  - [`2989942b67`](../../../locales/ja/content/29/89/942b67ef3ff2f83707d0a6197af2457093a8.md)
   - [`6eba8572e6`](../../../locales/ja/content/6e/ba/8572e636967a9212969fdcd621670cd5ac76.md)
   - [`b0989b656b`](../../../locales/ja/content/b0/98/9b656bb6ddabe142b14c1626cd08ce956bec.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/strings/about.md)): [Latest](../../../locales/ja/content/e3/fe/556ea22fcf2112fc72cecb79c406a767622e.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/strings/about.md)): [Latest](../../../locales/ja/content/13/db/35cd0402b138f443149d1812b9fef068beef.md)
+  - [`e3fe556ea2`](../../../locales/ja/content/e3/fe/556ea22fcf2112fc72cecb79c406a767622e.md)
   - [`27ba4938d4`](../../../locales/ja/content/27/ba/4938d41e0a7c76d268c26ebb10e31d1d80ee.md)
   - [`7a90d08ad3`](../../../locales/ja/content/7a/90/d08ad35173e281a20a88edf9288e96870926.md)
 
 ### Tuples (タプル)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/tuples/introduction.md)): [Latest](../../../locales/ja/content/00/3f/1ab45458213ddc91205489f4dc94499d6196.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/tuples/introduction.md)): [Latest](../../../locales/ja/content/ae/bb/7f844dfaf82f7814853e30002c634f69edd0.md)
+  - [`003f1ab454`](../../../locales/ja/content/00/3f/1ab45458213ddc91205489f4dc94499d6196.md)
   - [`2118325aa9`](../../../locales/ja/content/21/18/325aa92a7dcb4723405a7176dd3269ba9227.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/tuples/about.md)): [Latest](../../../locales/ja/content/9e/ae/7e0addcedbcf9566edf2a862b3371f339b20.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/tuples/about.md)): [Latest](../../../locales/ja/content/a6/10/db1af8dcd155f40ca6afe063bd59e8701bd3.md)
+  - [`9eae7e0add`](../../../locales/ja/content/9e/ae/7e0addcedbcf9566edf2a862b3371f339b20.md)
 
 ### Type Unions (ユニオン型)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/type-unions/introduction.md)): [Latest](../../../locales/ja/content/d9/fe/ff86501c2cfb7885b3561c8de5d0b4c1c6d4.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/type-unions/introduction.md)): [Latest](../../../locales/ja/content/77/23/ff9627781b108ea961acb394742869ef0bc7.md)
+  - [`d9feff8650`](../../../locales/ja/content/d9/fe/ff86501c2cfb7885b3561c8de5d0b4c1c6d4.md)
   - [`113efb47f8`](../../../locales/ja/content/11/3e/fb47f80b4045657ab917d59842873e711e4f.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/type-unions/about.md)): [Latest](../../../locales/ja/content/51/82/62c70c7cc9e95ff7c86605d76d7e196906fb.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/type-unions/about.md)): [Latest](../../../locales/ja/content/51/05/463aee4905dcab895a577ce33dce783aaf54.md)
+  - [`518262c70c`](../../../locales/ja/content/51/82/62c70c7cc9e95ff7c86605d76d7e196906fb.md)
   - [`5961622cb0`](../../../locales/ja/content/59/61/622cb051db16b4db18d9e6d16af43c3f1c7b.md)
 
 ### Types (型)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/types/introduction.md)): [Latest](../../../locales/ja/content/1e/f6/eba3ea39c9295a35b0e0aa97870c3fdefb64.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/types/about.md)): [Latest](../../../locales/ja/content/96/9d/292f8411cbc75f9e2ce13df4849dc70673d2.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/types/introduction.md)): [Latest](../../../locales/ja/content/d4/5e/9ed98e1964a12846d9d1c1c4f375a8cfc6c7.md)
+  - [`1ef6eba3ea`](../../../locales/ja/content/1e/f6/eba3ea39c9295a35b0e0aa97870c3fdefb64.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/types/about.md)): [Latest](../../../locales/ja/content/85/89/86177a357446009f33542d7bd2bd0cb136b8.md)
+  - [`969d292f84`](../../../locales/ja/content/96/9d/292f8411cbc75f9e2ce13df4849dc70673d2.md)
 
 ### Vector Operations (ベクトル演算)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/vector-operations/introduction.md)): [Latest](../../../locales/ja/content/e0/bc/57db45efe697632541104b5b6d496c72716f.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/vector-operations/introduction.md)): [Latest](../../../locales/ja/content/b0/e2/f2f36e3ca6fff3825284888709723a306de4.md)
+  - [`e0bc57db45`](../../../locales/ja/content/e0/bc/57db45efe697632541104b5b6d496c72716f.md)
   - [`ee450f0c82`](../../../locales/ja/content/ee/45/0f0c825c77decd9a578cac119e8b02188d19.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/vector-operations/about.md)): [Latest](../../../locales/ja/content/5a/01/53ea2bd13060ab70f93f6445085b92e3f492.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/vector-operations/about.md)): [Latest](../../../locales/ja/content/13/bc/99a7042f250b449dd6295fa5483d72c5d33c.md)
+  - [`5a0153ea2b`](../../../locales/ja/content/5a/01/53ea2bd13060ab70f93f6445085b92e3f492.md)
   - [`ab5c3859be`](../../../locales/ja/content/ab/5c/3859bea9faa09e6c77b83825de9311e02b10.md)
   - [`03f6b17356`](../../../locales/ja/content/03/f6/b1735658281977f2d49da6a079c9756f8c20.md)
 
 ### Vectors (ベクター)
 
-- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/vectors/introduction.md)): [Latest](../../../locales/ja/content/cf/6f/14254d869da17e7d910cfe1fcfafc540f4a4.md)
-- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/vectors/about.md)): [Latest](../../../locales/ja/content/28/83/135e1b575e81ddf0a4519554dec8a68eabab.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/concepts/vectors/introduction.md)): [Latest](../../../locales/ja/content/c9/7c/f0e174775395236fa9cec7f331fa7f836385.md)
+  - [`cf6f14254d`](../../../locales/ja/content/cf/6f/14254d869da17e7d910cfe1fcfafc540f4a4.md)
+- `about.md` ([English](https://github.com/exercism/julia/blob/main/concepts/vectors/about.md)): [Latest](../../../locales/ja/content/00/f7/6e41c1db8c52bb47c28ee4e39187ff9c4fc3.md)
+  - [`2883135e1b`](../../../locales/ja/content/28/83/135e1b575e81ddf0a4519554dec8a68eabab.md)
 
 ## Track docs
 

@@ -1,0 +1,77 @@
+# 소개
+
+"통계학"은 여러 측면을 지닌 크고 복잡한 주제예요.
+
+일부 측면은 [`Randomness`][randomness] 개념에서 다뤘는데, 이는 별개이면서도 관련 있는 주제예요.
+
+가장 단순하게 말하면, 통계학은 반복 가능한 데이터 모음을 하나의 값으로 요약하는 방법을 다룰 수 있어요.
+Julia를 처음 접하는 분들은 언어에 기본으로 내장된 함수가 얼마나 적은지 놀랄지도 몰라요.
+
+- [`sum`][sum], 숫자를 모두 더해요.
+- [`min`][min]과 [`max`][max], 주어진 매개변수들의 극값을 구해요.
+- [`extrema`][extrema], 반복 가능한 값의 (min, max) 튜플을 구해요.
+- [`length`][length], 모든 값의 개수를 세요.
+- [`count`][count], 어떤 조건을 만족하는 값만 세요.
+
+```julia-repl
+julia> v = collect(1:0.2:3)
+11-element Vector{Float64}:
+ 1.0
+ 1.2
+ ... # display truncated
+ 3.0
+
+julia> mean(v)
+2.0
+
+julia> extrema(v)
+(1.0, 3.0)
+
+julia> length(v)
+11
+
+julia> min('g', 'a', 'c')
+'a': ASCII/Unicode U+0061 (category Ll: Letter, lowercase)
+
+julia> count(isodd, 1:5)  # 1, 3, and 5 are odd
+3
+```
+
+이렇게 제한된 함수 집합은 다른 함수들을 여러 모듈과 패키지로 옮겨 기본 Julia가 비대해지는 것을 최소화하려는 의도적인 결정이에요.
+
+## `Statistics` 모듈
+
+표준 라이브러리의 일부이므로 [`Statistics`][statistics]는 대개 미리 설치되어 있어요. 따라서 프로그램 맨 위에 `using Statistics`를 추가하면 네임스페이스로 가져올 수 있어요.
+
+이 모듈에는 다음 단계의 흔한 함수들이 들어 있는데, 일부 프로그래머들이 폭넓게 사용할 만한 것들이에요.
+
+`Statistics`의 많은 함수는 이 주제에 대한 어느 정도의 배경 지식을 전제로 해요.
+가장 단순한 예로는 다음이 있어요.
+
+- [`mean`][mean], 많은 사람이 평균이라고 부르는 값이에요 (`sum / length`와 같은 결과예요).
+- [`median`][median], 정렬한 뒤의 가운데 값이에요.
+- [`std`][std], [표준 편차][stddev]: 값들이 얼마나 넓게 퍼져 있는지를 나타내는 척도예요.
+- [`var`][var], 분산: `std`의 제곱으로, 일반적으로 계산이 더 빨라요.
+
+각 함수에는 보통 여러 가지 옵션이 있고, 함수가 _훨씬_ 더 많으니 관심 있다면 [문서][statistics]를 확인해 봐요.
+
+## 다른 패키지
+
+짐작하겠지만, 통계학은 Julia의 큰 활용 분야이고, 더 전문적인 작업을 지원하는 패키지가 많이 있어요.
+
+JuliaStats 그룹이 친절하게도 [온라인 목록][juliastats]을 관리하고 있어요.
+
+[statistics]: https://docs.julialang.org/en/v1/stdlib/Statistics/
+[randomness]: https://exercism.org/tracks/julia/concepts/randomness
+[sum]: https://docs.julialang.org/en/v1/base/collections/#Base.sum
+[min]: https://docs.julialang.org/en/v1/base/math/#Base.min
+[max]: https://docs.julialang.org/en/v1/base/math/#Base.max
+[extrema]: https://docs.julialang.org/en/v1/base/collections/#Base.extrema
+[length]: https://docs.julialang.org/en/v1/base/collections/#Base.length
+[count]: https://docs.julialang.org/en/v1/base/collections/#Base.count
+[mean]: https://docs.julialang.org/en/v1/stdlib/Statistics/#Statistics.mean
+[median]: https://docs.julialang.org/en/v1/stdlib/Statistics/#Statistics.median
+[std]: https://docs.julialang.org/en/v1/stdlib/Statistics/#Statistics.std
+[var]: https://docs.julialang.org/en/v1/stdlib/Statistics/#Statistics.var
+[stddev]: https://en.wikipedia.org/wiki/Standard_deviation
+[juliastats]: https://juliapackages.com/u/juliastats

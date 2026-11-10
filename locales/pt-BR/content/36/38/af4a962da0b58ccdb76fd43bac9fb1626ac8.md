@@ -1,0 +1,77 @@
+# Introdução
+
+"Estatística" é um assunto amplo e complexo, com muitas facetas.
+
+Alguns aspectos foram abordados no conceito [`Randomness`][randomness], que é um assunto separado, mas relacionado.
+
+Na sua forma mais simples, a estatística pode envolver maneiras de resumir uma coleção iterável de dados em um único valor.
+Quem está começando em Julia pode se surpreender com quão poucas funções vêm embutidas na linguagem por padrão:
+
+- [`sum`][sum], para somar números.
+- [`min`][min] e [`max`][max], para obter os valores extremos dos parâmetros fornecidos.
+- [`extrema`][extrema], para obter a tupla (min, max) de um iterável.
+- [`length`][length], para contar todos os valores.
+- [`count`][count], para contar apenas os valores que atendem a algum critério.
+
+```julia-repl
+julia> v = collect(1:0.2:3)
+11-element Vector{Float64}:
+ 1.0
+ 1.2
+ ... # display truncated
+ 3.0
+
+julia> mean(v)
+2.0
+
+julia> extrema(v)
+(1.0, 3.0)
+
+julia> length(v)
+11
+
+julia> min('g', 'a', 'c')
+'a': ASCII/Unicode U+0061 (category Ll: Letter, lowercase)
+
+julia> count(isodd, 1:5)  # 1, 3, and 5 are odd
+3
+```
+
+Esse conjunto limitado de funções é uma decisão deliberada para minimizar o inchaço do Julia base, movendo outras funções para uma cascata de outros módulos e pacotes.
+
+## O módulo `Statistics`
+
+Como faz parte da biblioteca padrão, é provável que [`Statistics`][statistics] já venha instalado, então basta adicionar `using Statistics` no topo do programa para trazê-lo para o namespace.
+
+Esse módulo contém a próxima camada de funções comuns, que provavelmente serão bastante usadas por um subconjunto de programadores.
+
+Muitas das funções em `Statistics` pressupõem algum conhecimento prévio do assunto.
+Os exemplos mais simples incluem:
+
+- [`mean`][mean], que muita gente chamaria de média (mesmo resultado que `sum / length`).
+- [`median`][median], o valor do meio depois de ordenar.
+- [`std`][std], [desvio padrão][stddev]: uma medida de quão espalhados os valores estão.
+- [`var`][var], variância: o quadrado do `std`, que em geral é mais rápido de calcular.
+
+Cada função costuma ter várias opções, e existem _muitas_ outras funções, então consulte a [documentação][statistics] se tiver interesse.
+
+## Outros pacotes
+
+Como você já deve imaginar, a estatística é um grande caso de uso do Julia, e há muitos pacotes disponíveis para dar suporte a trabalhos mais especializados.
+
+O grupo JuliaStats mantém, gentilmente, uma [lista online][juliastats].
+
+[statistics]: https://docs.julialang.org/en/v1/stdlib/Statistics/
+[randomness]: https://exercism.org/tracks/julia/concepts/randomness
+[sum]: https://docs.julialang.org/en/v1/base/collections/#Base.sum
+[min]: https://docs.julialang.org/en/v1/base/math/#Base.min
+[max]: https://docs.julialang.org/en/v1/base/math/#Base.max
+[extrema]: https://docs.julialang.org/en/v1/base/collections/#Base.extrema
+[length]: https://docs.julialang.org/en/v1/base/collections/#Base.length
+[count]: https://docs.julialang.org/en/v1/base/collections/#Base.count
+[mean]: https://docs.julialang.org/en/v1/stdlib/Statistics/#Statistics.mean
+[median]: https://docs.julialang.org/en/v1/stdlib/Statistics/#Statistics.median
+[std]: https://docs.julialang.org/en/v1/stdlib/Statistics/#Statistics.std
+[var]: https://docs.julialang.org/en/v1/stdlib/Statistics/#Statistics.var
+[stddev]: https://en.wikipedia.org/wiki/Standard_deviation
+[juliastats]: https://juliapackages.com/u/juliastats

@@ -1,0 +1,199 @@
+# Introduzione
+
+I `Complex numbers` non sono complicati.
+Hanno solo bisogno di un nome meno allarmante.
+
+Sono così utili, soprattutto in ingegneria e nelle scienze, che Julia include i numeri complessi tra i tipi numerici standard, insieme ai numeri interi e ai numeri in virgola mobile.
+
+## Le basi
+
+Un valore `complex` in Julia è essenzialmente una coppia di numeri: di solito, ma non sempre, in virgola mobile.
+Queste sono chiamate la parte «reale» e la parte «immaginaria», per ragioni storiche poco fortunate.
+Ancora una volta, è meglio concentrarsi sulla semplicità di fondo e non sui nomi strani.
+
+Per creare numeri complessi a partire da due numeri reali, basta aggiungere il suffisso `im` alla parte immaginaria.
+
+```julia-repl
+julia> z = 1.2 + 3.4im
+1.2 + 3.4im
+
+julia> typeof(z)
+ComplexF64 (alias for Complex{Float64})
+
+julia> zi = 1 + 2im
+1 + 2im
+
+julia> typeof(zi)
+Complex{Int64}
+```
+
+Esistono quindi vari tipi `Complex`, derivati dal corrispondente tipo intero o in virgola mobile.
+
+Per creare un numero complesso a partire da variabili reali, la sintassi vista sopra non funziona.
+Scrivere `a + bim` confonde il parser, che pensa che `bim` sia il nome di una variabile (inesistente).
+
+Scrivere `b*im` è possibile, ma il metodo preferito usa la funzione `complex()`, che evita le operazioni di moltiplicazione e addizione.
+
+```julia-repl
+julia> a = 1.2; b = 3.4; complex(a, b)
+1.2 + 3.4im
+```
+
+Per accedere alle singole parti di un numero complesso:
+
+```julia-repl
+julia> z = 1.2 + 3.4im
+1.2 + 3.4im
+
+julia> real(z)
+1.2
+
+julia> imag(z)
+3.4
+```
+
+Oppure insieme:
+
+```julia-repl
+julia> reim(z)
+(1.2, 3.4)
+```
+
+Entrambe le parti possono essere zero, e i matematici possono allora parlare del numero come «del tutto reale» o «del tutto immaginario».
+Tuttavia, in Julia resta comunque un numero complesso.
+
+```julia-repl
+julia> zr = 1.2 + 0im
+1.2 + 0.0im
+
+julia> typeof(zr)
+ComplexF64 (alias for Complex{Float64})
+
+julia> zi = 3.4im
+0.0 + 3.4im
+
+julia> typeof(zi)
+ComplexF64 (alias for Complex{Float64})
+```
+
+Potresti aver sentito dire che «`i` (o `j`) è la radice quadrata di -1».
+
+Per ora, tutto questo significa solo che la parte immaginaria, _per definizione_, soddisfa la seguente uguaglianza:
+
+```julia-repl
+julia> 1im * 1im == -1
+true
+```
+
+È un'idea semplice, ma porta a conseguenze interessanti.
+
+## Aritmetica
+
+Tutti gli `operators` matematici standard e le funzioni elementari usati con i numeri in virgola mobile e con gli interi funzionano anche con i numeri complessi. Un piccolo esempio:
+
+```julia-repl
+julia> z1 = 1.5 + 2im
+1.5 + 2.0im
+
+julia> z2 = 2 + 1.5im
+2.0 + 1.5im
+
+julia> z1 + z2  # addition
+3.5 + 3.5im
+
+julia> z1 * z2  # multiplication
+0.0 + 6.25im
+
+julia> z1 / z2  # division
+0.96 + 0.28im
+
+julia> z1^2  # exponentiation
+-1.75 + 6.0im
+
+julia> 2^z1  # another exponentiation
+0.5188946835878313 + 2.7804223253571183im
+```
+
+## Funzioni
+
+Oltre a `real()` e `imag()`, ci sono diverse funzioni di particolare rilevanza per i numeri complessi.
+
+- `conj()` si limita a cambiare il segno della parte immaginaria di un numero complesso (_da + a - o viceversa_).
+    - Per come funziona la moltiplicazione tra numeri complessi, è più utile di quanto potresti pensare.
+- `abs(<complex number>)` restituisce sempre un numero reale senza parte immaginaria.
+- `abs2(<complex number>)` restituisce il quadrato di `abs(<complex number>)`: più veloce da calcolare rispetto a `abs()`, ed è spesso ciò che serve a un calcolo.
+- `angle(<complex number>)` restituisce l'angolo di fase in radianti.
+
+```julia-repl
+julia> z1
+1.5 + 2.0im
+
+julia> conj(z1)
+1.5 - 2.0im
+
+julia> abs(z1)
+2.5
+
+julia> abs2(z1)
+6.25
+
+julia> angle(z1)
+0.9272952180016122
+```
+Una spiegazione parziale, per chi ha una mente matematica:
+
+- La rappresentazione `(real, imag)` di `z1` usa di fatto le coordinate cartesiane sul piano complesso.
+- Lo stesso numero complesso può essere rappresentato con la notazione `(r, θ)`, usando le coordinate polari.
+- Qui, `r` e `θ` sono dati rispettivamente da `abs(z1)` e `angle(z1)`.
+
+Ecco un esempio che usa alcune costanti:
+
+```julia-repl
+julia> euler = exp(1im * π)
+-1.0 + 1.2246467991473532e-16im
+
+julia> real(euler)
+-1.0
+
+julia> round(imag(euler), digits=15)  # round to 15 decimal places
+0.0
+```
+
+La notazione polare `(r, θ)` è così utile che esistono funzioni integrate, `cis` (abbreviazione di `cos(x) + isin(x)`) e `cispi` (abbreviazione di `cos(πx) + isin(πx)`), che possono aiutare a costruirla in modo più efficiente.
+
+L'utilità della notazione polare si trova nell'elegante formula di Eulero, `ℯ^(iθ) = cos(θ) + isin(θ) = x + iy`, dove `|x + iy| = 1`.
+Con `|x + iy| = r`, otteniamo la forma polare più generale, `r * ℯ^(iθ) = r * (cos(θ) + isin(θ)) = x + iy`.
+Nota che la forma esponenziale, in particolare, è compatta e facile da manipolare.
+
+```julia-repl
+julia> exp(1im * π) ≈ cis(π) ≈ cispi(1)
+true
+```
+
+L'uguaglianza approssimata qui sopra dipende dal fatto che le funzioni `cis` e `cispi` possono dare risultati numerici più puliti, con `cispi` in particolare quando si ha a che fare con argomenti che sono fattori arbitrari di π (ad esempio i radianti!).
+
+```julia-repl
+julia> cis(π)
+-1.0 + 0.0im
+
+julia> cispi(1)
+-1.0 + 0.0im
+
+julia> θ = π/2;
+julia> exp(im*θ)
+6.123233995736766e-17 + 1.0im
+
+julia> cis(θ)
+6.123233995736766e-17 + 1.0im
+
+julia> cispi(θ / π)  # θ/π == 1/2
+0.0 + 1.0im
+```
+
+Per inciso, questo rende i numeri complessi molto utili per eseguire rotazioni e spostamenti radiali in 2D.
+
+Per le rotazioni, il numero complesso `z = x + iy` può essere ruotato di un angolo `θ` attorno all'origine con una semplice moltiplicazione: `z * ℯ^(iθ)`.
+Nota che qui `x` e `y` sono semplicemente le solite coordinate sul piano cartesiano reale 2D: un angolo positivo produce una rotazione *in senso antiorario*, mentre un angolo negativo ne produce una *in senso orario*.
+
+Allo stesso modo, si può ottenere uno spostamento radiale `Δr` sommandolo alla magnitudine `r` di un numero complesso in forma polare (ad es. `z = r * ℯ^(iθ)` -> `z' = (r + Δr) * ℯ^(iθ)`).
+Nota come la parte angolare resti la stessa e vari solo la magnitudine, `r`, come ci si aspetta.

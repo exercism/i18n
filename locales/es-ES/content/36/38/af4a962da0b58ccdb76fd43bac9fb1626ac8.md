@@ -1,0 +1,77 @@
+# Introducción
+
+La «Estadística» es una materia amplia y compleja con muchos aspectos.
+
+Algunos de esos aspectos se trataron en el concepto [`Randomness`][randomness], que es una materia aparte, aunque relacionada.
+
+En su forma más simple, la estadística puede consistir en distintas maneras de resumir una colección iterable de datos en un único valor.
+A quienes se acercan por primera vez a Julia puede sorprenderles lo pocas funciones que trae el lenguaje de serie:
+
+- [`sum`][sum], para sumar números.
+- [`min`][min] y [`max`][max], para obtener los valores extremos de los parámetros dados.
+- [`extrema`][extrema], para obtener la tupla (min, max) de un iterable.
+- [`length`][length], para contar todos los valores.
+- [`count`][count], para contar solo los valores que cumplen algún criterio.
+
+```julia-repl
+julia> v = collect(1:0.2:3)
+11-element Vector{Float64}:
+ 1.0
+ 1.2
+ ... # display truncated
+ 3.0
+
+julia> mean(v)
+2.0
+
+julia> extrema(v)
+(1.0, 3.0)
+
+julia> length(v)
+11
+
+julia> min('g', 'a', 'c')
+'a': ASCII/Unicode U+0061 (category Ll: Letter, lowercase)
+
+julia> count(isodd, 1:5)  # 1, 3, and 5 are odd
+3
+```
+
+Este conjunto limitado de funciones es una decisión deliberada para minimizar el tamaño de la base de Julia, trasladando otras funciones a una cascada de módulos y paquetes adicionales.
+
+## El módulo `Statistics`
+
+Como forma parte de la biblioteca estándar, es probable que `Statistics` ya venga preinstalado, así que basta con añadir `using Statistics` al principio del programa para incorporarlo al espacio de nombres.
+
+Este módulo contiene el siguiente nivel de funciones habituales, que probablemente use de forma generalizada un subconjunto de los programadores.
+
+Muchas de las funciones de `Statistics` dan por supuesto cierto conocimiento previo de la materia.
+Los ejemplos más sencillos son los siguientes:
+
+- [`mean`][mean], que mucha gente llamaría la media (el mismo resultado que `sum / length`).
+- [`median`][median], el valor central tras ordenar.
+- [`std`][std], la [desviación típica][stddev]: una medida de cuánto se dispersan los valores.
+- [`var`][var], la varianza: el cuadrado de `std`, que por lo general es más rápida de calcular.
+
+Cada función suele tener varias opciones, y hay _muchas_ más funciones, así que consulta la [documentación][statistics] si te interesa.
+
+## Otros paquetes
+
+Como puedes imaginar, la estadística es uno de los grandes usos de Julia, y hay muchos paquetes disponibles para trabajos más especializados.
+
+El grupo JuliaStats mantiene una útil [lista en línea][juliastats].
+
+[statistics]: https://docs.julialang.org/en/v1/stdlib/Statistics/
+[randomness]: https://exercism.org/tracks/julia/concepts/randomness
+[sum]: https://docs.julialang.org/en/v1/base/collections/#Base.sum
+[min]: https://docs.julialang.org/en/v1/base/math/#Base.min
+[max]: https://docs.julialang.org/en/v1/base/math/#Base.max
+[extrema]: https://docs.julialang.org/en/v1/base/collections/#Base.extrema
+[length]: https://docs.julialang.org/en/v1/base/collections/#Base.length
+[count]: https://docs.julialang.org/en/v1/base/collections/#Base.count
+[mean]: https://docs.julialang.org/en/v1/stdlib/Statistics/#Statistics.mean
+[median]: https://docs.julialang.org/en/v1/stdlib/Statistics/#Statistics.median
+[std]: https://docs.julialang.org/en/v1/stdlib/Statistics/#Statistics.std
+[var]: https://docs.julialang.org/en/v1/stdlib/Statistics/#Statistics.var
+[stddev]: https://en.wikipedia.org/wiki/Standard_deviation
+[juliastats]: https://juliapackages.com/u/juliastats
