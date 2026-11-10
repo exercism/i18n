@@ -304,5 +304,7 @@
   "doc:tests:title": "Teste sur le parcours Perl",
   "doc:tests:blurb": "Apprends à tester tes exercices Perl sur Exercism",
   "doc:resources:title": "Ressources utiles pour Perl",
-  "doc:resources:blurb": "Une sélection de ressources utiles pour t'aider à maîtriser Perl"
+  "doc:resources:blurb": "Une sélection de ressources utiles pour t'aider à maîtriser Perl",
+  "exercise:flower-field:name": "Champ de fleurs",
+  "exercise:flower-field:blurb": "Marque toutes les fleurs d'un jardin."
 }

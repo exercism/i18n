@@ -298,5 +298,7 @@
   "doc:tests:title": "Testando na trilha de Perl",
   "doc:tests:blurb": "Aprenda a testar seus exercícios de Perl no Exercism",
   "doc:resources:title": "Recursos úteis de Perl",
-  "doc:resources:blurb": "Uma coleção de recursos úteis para ajudar você a dominar Perl"
+  "doc:resources:blurb": "Uma coleção de recursos úteis para ajudar você a dominar Perl",
+  "exercise:flower-field:name": "Campo de flores",
+  "exercise:flower-field:blurb": "Marque todas as flores de um jardim."
 }

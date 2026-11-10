@@ -113,6 +113,11 @@ This page is generated from [the index](../../json/es-ES/perl5.json) by `scripts
 - `instructions.md` ([English](https://github.com/exercism/perl5/blob/main/exercises/practice/etl/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/80/28/63b5405bcf80186009792ed7c54ccb8d797e.md)
 - `introduction.md` ([English](https://github.com/exercism/perl5/blob/main/exercises/practice/etl/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/5b/e6/5147d7f5170564e32b582966d522ed9f4ce8.md)
 
+### Flower Field (Campo de flores)
+
+- `instructions.md` ([English](https://github.com/exercism/perl5/blob/main/exercises/practice/flower-field/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/bb/da/e0c2cb1fa4a25852a885a02a4f42b9b677e7.md)
+- `introduction.md` ([English](https://github.com/exercism/perl5/blob/main/exercises/practice/flower-field/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/af/9b/6153617f87f5d4e8ce3ab55e4aa805a21a04.md)
+
 ### Food Chain (Cadena alimentaria)
 
 - `instructions.md` ([English](https://github.com/exercism/perl5/blob/main/exercises/practice/food-chain/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/12/58/20e321bd07292c3a17dc8b57a7a2cff09245.md)

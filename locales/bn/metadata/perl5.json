@@ -298,5 +298,7 @@
   "doc:tests:title": "Perl ট্র্যাকে টেস্টিং",
   "doc:tests:blurb": "Exercism-এ আপনার Perl অনুশীলনীগুলো টেস্ট করার উপায় শিখুন",
   "doc:resources:title": "দরকারি Perl রিসোর্স",
-  "doc:resources:blurb": "Perl-এ দক্ষতা অর্জনে সহায়ক দরকারি রিসোর্সের সংগ্রহ"
+  "doc:resources:blurb": "Perl-এ দক্ষতা অর্জনে সহায়ক দরকারি রিসোর্সের সংগ্রহ",
+  "exercise:flower-field:name": "ফুলের ক্ষেত",
+  "exercise:flower-field:blurb": "একটি বাগানের সব ফুল চিহ্নিত করুন।"
 }

@@ -298,5 +298,7 @@
   "doc:tests:title": "تست در مسیر Perl",
   "doc:tests:blurb": "یاد بگیرید چگونه تمرین‌های Perl خود را در Exercism تست کنید",
   "doc:resources:title": "منابع مفید Perl",
-  "doc:resources:blurb": "مجموعه‌ای از منابع مفید برای تسلط شما بر Perl"
+  "doc:resources:blurb": "مجموعه‌ای از منابع مفید برای تسلط شما بر Perl",
+  "exercise:flower-field:name": "دشت گل",
+  "exercise:flower-field:blurb": "همه‌ی گل‌های یک باغ را علامت بزنید."
 }

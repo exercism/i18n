@@ -304,5 +304,7 @@
   "doc:tests:title": "Δοκιμές στο track της Perl",
   "doc:tests:blurb": "Μάθε πώς να δοκιμάζεις τις ασκήσεις σου σε Perl στο Exercism",
   "doc:resources:title": "Χρήσιμοι πόροι για την Perl",
-  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων που θα σε βοηθήσουν να κατακτήσεις την Perl"
+  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων που θα σε βοηθήσουν να κατακτήσεις την Perl",
+  "exercise:flower-field:name": "Χωράφι με Λουλούδια",
+  "exercise:flower-field:blurb": "Σημείωσε όλα τα λουλούδια σε έναν κήπο."
 }

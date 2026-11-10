@@ -298,5 +298,7 @@
   "doc:tests:title": "Perl 学习路径上的测试",
   "doc:tests:blurb": "学习如何在 Exercism 上测试你的 Perl 练习",
   "doc:resources:title": "实用的 Perl 资源",
-  "doc:resources:blurb": "帮助你精通 Perl 的实用资源合集"
+  "doc:resources:blurb": "帮助你精通 Perl 的实用资源合集",
+  "exercise:flower-field:name": "花田",
+  "exercise:flower-field:blurb": "标出花园里所有的花。"
 }

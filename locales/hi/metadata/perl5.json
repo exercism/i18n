@@ -298,5 +298,7 @@
   "doc:tests:title": "Perl ट्रैक पर टेस्टिंग",
   "doc:tests:blurb": "Exercism पर अपने Perl अभ्यासों की जाँच करना सीखिए।",
   "doc:resources:title": "Perl के उपयोगी संसाधन",
-  "doc:resources:blurb": "Perl में निपुण होने में आपकी मदद करने वाले उपयोगी संसाधनों का संग्रह।"
+  "doc:resources:blurb": "Perl में निपुण होने में आपकी मदद करने वाले उपयोगी संसाधनों का संग्रह।",
+  "exercise:flower-field:name": "फूलों का खेत",
+  "exercise:flower-field:blurb": "बगीचे के सभी फूलों को चिह्नित कीजिए।"
 }

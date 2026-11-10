@@ -298,5 +298,7 @@
   "doc:tests:title": "Perl 트랙에서 테스트하기",
   "doc:tests:blurb": "Exercism에서 Perl 연습 문제를 테스트하는 방법을 배워봐요",
   "doc:resources:title": "유용한 Perl 자료",
-  "doc:resources:blurb": "Perl을 마스터하는 데 도움이 되는 유용한 자료 모음"
+  "doc:resources:blurb": "Perl을 마스터하는 데 도움이 되는 유용한 자료 모음",
+  "exercise:flower-field:name": "꽃밭",
+  "exercise:flower-field:blurb": "정원에 있는 꽃을 모두 표시해요."
 }

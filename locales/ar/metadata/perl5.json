@@ -298,5 +298,7 @@
   "doc:tests:title": "الاختبار في مسار Perl",
   "doc:tests:blurb": "تعلّم كيفية اختبار تمارين Perl على Exercism",
   "doc:resources:title": "مصادر مفيدة عن Perl",
-  "doc:resources:blurb": "مجموعة من المصادر المفيدة لمساعدتك على إتقان Perl"
+  "doc:resources:blurb": "مجموعة من المصادر المفيدة لمساعدتك على إتقان Perl",
+  "exercise:flower-field:name": "حقل الأزهار",
+  "exercise:flower-field:blurb": "حدّد كل الأزهار في حديقة."
 }

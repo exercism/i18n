@@ -298,5 +298,7 @@
   "doc:tests:title": "Perlトラックでのテスト",
   "doc:tests:blurb": "ExercismでPerlの演習をテストする方法を学びましょう",
   "doc:resources:title": "Perlの役立つリソース",
-  "doc:resources:blurb": "Perlをマスターするのに役立つリソースを集めました"
+  "doc:resources:blurb": "Perlをマスターするのに役立つリソースを集めました",
+  "exercise:flower-field:name": "花畑",
+  "exercise:flower-field:blurb": "庭にあるすべての花に印を付けます。"
 }
