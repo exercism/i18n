@@ -11,6 +11,7 @@ This page is generated from [the index](../../json/de/website-copy.json) by `scr
 ### bash
 
 - `general/boilerplate_comment.md` ([English](https://github.com/exercism/website-copy/blob/main/analyzer-comments/bash/general/boilerplate_comment.md)): [Latest](../../../locales/de/content/37/63/f1440b142d75bdcb4e0cc12db5faedcebb2d.md)
+- `reverse-string/uses_rev.md` ([English](https://github.com/exercism/website-copy/blob/main/analyzer-comments/bash/reverse-string/uses_rev.md)): [Latest](../../../locales/de/content/bd/9c/66eadb65e7a7a36da60f1e35303c8a5c5b52.md)
 - `shellcheck/generic.md` ([English](https://github.com/exercism/website-copy/blob/main/analyzer-comments/bash/shellcheck/generic.md)): [Latest](../../../locales/de/content/bc/b4/f1042cdc41a327431fc7ec89a6c6ec337a75.md)
 
 ### crystal

@@ -4,6 +4,7 @@
   "names": {},
   "paths": {
     "analyzer-comments/bash/general/boilerplate_comment.md": ["3763f1440b142d75bdcb4e0cc12db5faedcebb2d"],
+    "analyzer-comments/bash/reverse-string/uses_rev.md": ["bd9c66eadb65e7a7a36da60f1e35303c8a5c5b52"],
     "analyzer-comments/bash/shellcheck/generic.md": ["bcb4f1042cdc41a327431fc7ec89a6c6ec337a75"],
     "analyzer-comments/crystal/ameba/convention.md": ["2694ef30d05a3e4b17b3cf92da36c51fe7d64264"],
     "analyzer-comments/crystal/ameba/error.md": ["e16203dec0c94576b8b77a7cbd7cc3506ad621c9"],
