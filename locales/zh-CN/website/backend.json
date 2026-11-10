@@ -1721,8 +1721,8 @@
           "description": "在 65 多种语言中提升技能"
         },
         "coding_fundamentals": {
-          "title": "掌握基础知识",
-          "description": "熟悉基础内容"
+          "title": "用 Jiki 学编程",
+          "description": "在 LLM 时代学习编程，动手构建。"
         }
       },
       "discover": {
