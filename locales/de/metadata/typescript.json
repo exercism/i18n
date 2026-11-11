@@ -340,5 +340,7 @@
   "doc:tests:title": "Testen im TypeScript-Track",
   "doc:tests:blurb": "Lerne, wie du deine TypeScript-Übungen auf Exercism testest",
   "doc:resources:title": "Nützliche TypeScript-Ressourcen",
-  "doc:resources:blurb": "Eine Sammlung nützlicher Ressourcen, mit denen du TypeScript meistern kannst"
+  "doc:resources:blurb": "Eine Sammlung nützlicher Ressourcen, mit denen du TypeScript meistern kannst",
+  "exercise:satellite:name": "Satellit",
+  "exercise:satellite:blurb": "Rekonstruiere Binärbäume aus Preorder- und Inorder-Durchläufen."
 }

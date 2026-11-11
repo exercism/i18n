@@ -342,5 +342,7 @@
   "doc:tests:title": "Les tests sur le parcours TypeScript",
   "doc:tests:blurb": "Apprends à tester tes exercices TypeScript sur Exercism",
   "doc:resources:title": "Ressources utiles pour TypeScript",
-  "doc:resources:blurb": "Une sélection de ressources utiles pour t'aider à maîtriser TypeScript"
+  "doc:resources:blurb": "Une sélection de ressources utiles pour t'aider à maîtriser TypeScript",
+  "exercise:satellite:name": "Satellite",
+  "exercise:satellite:blurb": "Reconstruire des arbres binaires à partir des parcours préfixe et infixe."
 }

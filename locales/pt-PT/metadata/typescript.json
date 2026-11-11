@@ -340,5 +340,7 @@
   "doc:tests:title": "Testar na track de TypeScript",
   "doc:tests:blurb": "Aprende a testar os teus exercícios de TypeScript no Exercism",
   "doc:resources:title": "Recursos úteis de TypeScript",
-  "doc:resources:blurb": "Uma coleção de recursos úteis para te ajudar a dominar o TypeScript"
+  "doc:resources:blurb": "Uma coleção de recursos úteis para te ajudar a dominar o TypeScript",
+  "exercise:satellite:name": "Satélite",
+  "exercise:satellite:blurb": "Reconstrói árvores binárias a partir de percursos em pré-ordem e em ordem."
 }

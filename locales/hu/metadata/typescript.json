@@ -342,5 +342,7 @@
   "doc:tests:title": "Tesztelés a TypeScript-kurzuson",
   "doc:tests:blurb": "Tanuld meg, hogyan teszteld a TypeScript-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos TypeScript-források",
-  "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a TypeScriptet"
+  "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a TypeScriptet",
+  "exercise:satellite:name": "Műhold",
+  "exercise:satellite:blurb": "Építsd újra a bináris fákat preorder és inorder bejárásból."
 }

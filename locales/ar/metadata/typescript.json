@@ -340,5 +340,7 @@
   "doc:tests:title": "الاختبار في مسار TypeScript",
   "doc:tests:blurb": "تعلّم كيفية اختبار تمارين TypeScript على Exercism",
   "doc:resources:title": "مصادر مفيدة عن TypeScript",
-  "doc:resources:blurb": "مجموعة من المصادر المفيدة لمساعدتك على إتقان TypeScript"
+  "doc:resources:blurb": "مجموعة من المصادر المفيدة لمساعدتك على إتقان TypeScript",
+  "exercise:satellite:name": "القمر الصناعي",
+  "exercise:satellite:blurb": "أعد بناء الأشجار الثنائية من الاجتياز المسبق والاجتياز الداخلي."
 }

@@ -340,5 +340,7 @@
   "doc:tests:title": "TypeScript ট্র্যাকে টেস্ট করা",
   "doc:tests:blurb": "Exercism-এ আপনার TypeScript অনুশীলনীগুলো কীভাবে টেস্ট করবেন, তা শিখুন",
   "doc:resources:title": "উপকারী TypeScript রিসোর্স",
-  "doc:resources:blurb": "TypeScript-এ দক্ষ হতে সাহায্যকারী উপকারী রিসোর্সের সংগ্রহ"
+  "doc:resources:blurb": "TypeScript-এ দক্ষ হতে সাহায্যকারী উপকারী রিসোর্সের সংগ্রহ",
+  "exercise:satellite:name": "স্যাটেলাইট",
+  "exercise:satellite:blurb": "প্রি-অর্ডার ও ইন-অর্ডার ট্রাভার্সাল থেকে বাইনারি ট্রি পুনর্গঠন করুন।"
 }

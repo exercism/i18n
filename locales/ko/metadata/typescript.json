@@ -340,5 +340,7 @@
   "doc:tests:title": "TypeScript 트랙에서 테스트하기",
   "doc:tests:blurb": "Exercism에서 TypeScript 연습 문제를 테스트하는 방법을 알아봐요",
   "doc:resources:title": "유용한 TypeScript 자료",
-  "doc:resources:blurb": "TypeScript를 익히는 데 도움이 되는 유용한 자료 모음"
+  "doc:resources:blurb": "TypeScript를 익히는 데 도움이 되는 유용한 자료 모음",
+  "exercise:satellite:name": "위성",
+  "exercise:satellite:blurb": "전위 순회와 중위 순회로 이진 트리를 재구성해요."
 }

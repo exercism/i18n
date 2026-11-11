@@ -316,7 +316,7 @@ This page is generated from [the index](../../json/hu/typescript.json) by `scrip
 - `instructions.md` ([English](https://github.com/exercism/typescript/blob/main/exercises/practice/palindrome-products/.docs/instructions.md)): [Latest](../../../locales/hu/content/aa/c6/6521ce736be8ce737ea709a5b1eed507cbb8.md)
   - [`fd9a441247`](../../../locales/hu/content/fd/9a/441247b65a9a8604f6ef581df4b1054a1fad.md)
 
-### Pangram
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/typescript/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
   - [`d5698bc2a2`](../../../locales/hu/content/d5/69/8bc2a292baf2fb128de3543b748165088c4f.md)
@@ -462,6 +462,10 @@ This page is generated from [the index](../../json/hu/typescript.json) by `scrip
   - [`d861388e43`](../../../locales/hu/content/d8/61/388e437835d110767651287a6573a0a51952.md)
 - `introduction.md` ([English](https://github.com/exercism/typescript/blob/main/exercises/practice/saddle-points/.docs/introduction.md)): [Latest](../../../locales/hu/content/34/b2/c77e0cfd255425411a905ec311019c2d7375.md)
   - [`b582efbd21`](../../../locales/hu/content/b5/82/efbd21d43f424bb7b186d884732e88e9aa29.md)
+
+### Satellite (Műhold)
+
+- `instructions.md` ([English](https://github.com/exercism/typescript/blob/main/exercises/practice/satellite/.docs/instructions.md)): [Latest](../../../locales/hu/content/fb/bf/14f439558fa6451f8ebfac7253e0c9e12189.md)
 
 ### Say (Mondd)
 

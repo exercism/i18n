@@ -340,5 +340,7 @@
   "doc:tests:title": "تست کردن در مسیر TypeScript",
   "doc:tests:blurb": "بیاموزید چگونه تمرین‌های TypeScript خود را در Exercism تست کنید",
   "doc:resources:title": "منابع مفید TypeScript",
-  "doc:resources:blurb": "مجموعه‌ای از منابع مفید برای کمک به تسلط شما بر TypeScript"
+  "doc:resources:blurb": "مجموعه‌ای از منابع مفید برای کمک به تسلط شما بر TypeScript",
+  "exercise:satellite:name": "ماهواره",
+  "exercise:satellite:blurb": "درخت‌های دودویی را از پیمایش‌های پیش‌ترتیب و میان‌ترتیب بازسازی کنید."
 }

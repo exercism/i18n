@@ -340,5 +340,7 @@
   "doc:tests:title": "在 TypeScript 学习路径上测试",
   "doc:tests:blurb": "了解如何在 Exercism 上测试你的 TypeScript 练习",
   "doc:resources:title": "实用的 TypeScript 资源",
-  "doc:resources:blurb": "一系列实用资源，帮助你精通 TypeScript"
+  "doc:resources:blurb": "一系列实用资源，帮助你精通 TypeScript",
+  "exercise:satellite:name": "卫星",
+  "exercise:satellite:blurb": "根据前序遍历和中序遍历重建二叉树。"
 }

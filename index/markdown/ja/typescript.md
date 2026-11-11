@@ -395,6 +395,10 @@ This page is generated from [the index](../../json/ja/typescript.json) by `scrip
 - `instructions.md` ([English](https://github.com/exercism/typescript/blob/main/exercises/practice/saddle-points/.docs/instructions.md)): [Latest](../../../locales/ja/content/f6/9c/dab9584a340834264ecee97cfd6df709cd21.md)
 - `introduction.md` ([English](https://github.com/exercism/typescript/blob/main/exercises/practice/saddle-points/.docs/introduction.md)): [Latest](../../../locales/ja/content/34/b2/c77e0cfd255425411a905ec311019c2d7375.md)
 
+### Satellite (人工衛星)
+
+- `instructions.md` ([English](https://github.com/exercism/typescript/blob/main/exercises/practice/satellite/.docs/instructions.md)): [Latest](../../../locales/ja/content/fb/bf/14f439558fa6451f8ebfac7253e0c9e12189.md)
+
 ### Say (言う)
 
 - `instructions.md` ([English](https://github.com/exercism/typescript/blob/main/exercises/practice/say/.docs/instructions.md)): [Latest](../../../locales/ja/content/32/51/c519acefd3c98f5ecf6edf4cb11db4290468.md)

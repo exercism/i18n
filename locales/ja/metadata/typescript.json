@@ -340,5 +340,7 @@
   "doc:tests:title": "TypeScriptトラックでのテスト",
   "doc:tests:blurb": "ExercismでTypeScriptの演習をテストする方法を学びます。",
   "doc:resources:title": "役立つTypeScriptのリソース",
-  "doc:resources:blurb": "TypeScriptの習得に役立つリソース集"
+  "doc:resources:blurb": "TypeScriptの習得に役立つリソース集",
+  "exercise:satellite:name": "人工衛星",
+  "exercise:satellite:blurb": "行きがけ順と通りがけ順の走査から、二分木を再構築します。"
 }
