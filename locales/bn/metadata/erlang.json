@@ -261,5 +261,8 @@
   "doc:learning:title": "Erlang শেখার উপায়",
   "doc:learning:blurb": "একেবারে শূন্য থেকে Erlang শুরু করার একটি সংক্ষিপ্ত পরিচয়",
   "doc:tests:title": "Erlang ট্র্যাকে টেস্টিং",
-  "doc:tests:blurb": "Exercism-এ আপনার Erlang অনুশীলনীগুলো কীভাবে টেস্ট করবেন, তা জানুন"
+  "doc:tests:blurb": "Exercism-এ আপনার Erlang অনুশীলনীগুলো কীভাবে টেস্ট করবেন, তা জানুন",
+  "exercise:game-of-life:name": "কনওয়ের গেম অফ লাইফ",
+  "exercise:game-of-life:blurb": "কনওয়ের গেম অফ লাইফ বাস্তবায়ন করুন।",
+  "exercise:game-of-life:source": "Wikipedia"
 }

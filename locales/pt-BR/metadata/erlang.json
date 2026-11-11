@@ -261,5 +261,8 @@
   "doc:learning:title": "Como aprender Erlang",
   "doc:learning:blurb": "Uma visão geral de como começar do zero com Erlang",
   "doc:tests:title": "Testes na trilha de Erlang",
-  "doc:tests:blurb": "Aprenda a testar seus exercícios de Erlang no Exercism"
+  "doc:tests:blurb": "Aprenda a testar seus exercícios de Erlang no Exercism",
+  "exercise:game-of-life:name": "O Jogo da Vida de Conway",
+  "exercise:game-of-life:blurb": "Implemente o Jogo da Vida de Conway.",
+  "exercise:game-of-life:source": "Wikipedia"
 }

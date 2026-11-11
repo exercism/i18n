@@ -261,5 +261,8 @@
   "doc:learning:title": "Erlang कैसे सीखें",
   "doc:learning:blurb": "Erlang में शून्य से शुरुआत करने का संक्षिप्त परिचय।",
   "doc:tests:title": "Erlang ट्रैक पर टेस्टिंग",
-  "doc:tests:blurb": "Exercism पर अपने Erlang अभ्यासों को टेस्ट करना सीखिए।"
+  "doc:tests:blurb": "Exercism पर अपने Erlang अभ्यासों को टेस्ट करना सीखिए।",
+  "exercise:game-of-life:name": "Conway's Game of Life",
+  "exercise:game-of-life:blurb": "Conway's Game of Life लागू कीजिए।",
+  "exercise:game-of-life:source": "Wikipedia"
 }

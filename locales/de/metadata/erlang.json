@@ -261,5 +261,8 @@
   "doc:learning:title": "Wie du Erlang lernst",
   "doc:learning:blurb": "Ein Überblick, wie du von null mit Erlang startest",
   "doc:tests:title": "Testen im Erlang-Track",
-  "doc:tests:blurb": "Lerne, wie du deine Erlang-Übungen auf Exercism testest"
+  "doc:tests:blurb": "Lerne, wie du deine Erlang-Übungen auf Exercism testest",
+  "exercise:game-of-life:name": "Conways Spiel des Lebens",
+  "exercise:game-of-life:blurb": "Implementiere Conways Spiel des Lebens.",
+  "exercise:game-of-life:source": "Wikipedia"
 }

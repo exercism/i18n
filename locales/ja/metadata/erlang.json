@@ -261,5 +261,8 @@
   "doc:learning:title": "Erlangの学び方",
   "doc:learning:blurb": "Erlangをゼロから始める方法の概要です。",
   "doc:tests:title": "Erlangトラックでのテスト",
-  "doc:tests:blurb": "ExercismでErlangの演習をテストする方法を学びます。"
+  "doc:tests:blurb": "ExercismでErlangの演習をテストする方法を学びます。",
+  "exercise:game-of-life:name": "コンウェイのライフゲーム",
+  "exercise:game-of-life:blurb": "コンウェイのライフゲームを実装します。",
+  "exercise:game-of-life:source": "Wikipedia"
 }

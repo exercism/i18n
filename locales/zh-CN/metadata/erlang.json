@@ -261,5 +261,8 @@
   "doc:learning:title": "如何学习 Erlang",
   "doc:learning:blurb": "从零开始入门 Erlang 的概览",
   "doc:tests:title": "在 Erlang 轨道上测试",
-  "doc:tests:blurb": "了解如何在 Exercism 上测试你的 Erlang 练习"
+  "doc:tests:blurb": "了解如何在 Exercism 上测试你的 Erlang 练习",
+  "exercise:game-of-life:name": "康威生命游戏",
+  "exercise:game-of-life:blurb": "实现康威生命游戏。",
+  "exercise:game-of-life:source": "Wikipedia"
 }

@@ -261,5 +261,8 @@
   "doc:learning:title": "چگونه Erlang را یاد بگیریم",
   "doc:learning:blurb": "مروری بر اینکه چطور از صفر با Erlang شروع کنید",
   "doc:tests:title": "Test در مسیر Erlang",
-  "doc:tests:blurb": "بیاموزید چطور تمرین‌های Erlang خود را در Exercism Test کنید"
+  "doc:tests:blurb": "بیاموزید چطور تمرین‌های Erlang خود را در Exercism Test کنید",
+  "exercise:game-of-life:name": "بازی زندگی کانوی",
+  "exercise:game-of-life:blurb": "بازی زندگی کانوی را پیاده‌سازی کنید.",
+  "exercise:game-of-life:source": "Wikipedia"
 }

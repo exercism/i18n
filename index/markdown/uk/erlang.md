@@ -84,6 +84,11 @@ This page is generated from [the index](../../json/uk/erlang.json) by `scripts/b
 
 - `instructions.md` ([English](https://github.com/exercism/erlang/blob/main/exercises/practice/connect/.docs/instructions.md)): [Latest](../../../locales/uk/content/7f/34/bfa817f0d0c1d360892d0cbaaa1d5347b0cd.md)
 
+### Conway's Game of Life (Гра життя Конвея)
+
+- `instructions.md` ([English](https://github.com/exercism/erlang/blob/main/exercises/practice/game-of-life/.docs/instructions.md)): [Latest](../../../locales/uk/content/49/53/1406489df7cb6954979f2bf223729a268e22.md)
+- `introduction.md` ([English](https://github.com/exercism/erlang/blob/main/exercises/practice/game-of-life/.docs/introduction.md)): [Latest](../../../locales/uk/content/23/47/b936e442ec74936e574d83b9e845d8068f33.md)
+
 ### Crypto Square (Криптографічний квадрат)
 
 - `instructions.md` ([English](https://github.com/exercism/erlang/blob/main/exercises/practice/crypto-square/.docs/instructions.md)): [Latest](../../../locales/uk/content/6c/38/26ee558d8a2ef2b7d20a2b41f2eaf31ec5cd.md)

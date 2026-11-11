@@ -261,5 +261,8 @@
   "doc:learning:title": "Як вивчати Erlang",
   "doc:learning:blurb": "Огляд того, як почати з нуля в Erlang",
   "doc:tests:title": "Тестування на треку Erlang",
-  "doc:tests:blurb": "Дізнайтеся, як тестувати свої вправи з Erlang на Exercism"
+  "doc:tests:blurb": "Дізнайтеся, як тестувати свої вправи з Erlang на Exercism",
+  "exercise:game-of-life:name": "Гра життя Конвея",
+  "exercise:game-of-life:blurb": "Реалізуйте гру життя Конвея.",
+  "exercise:game-of-life:source": "Wikipedia"
 }
