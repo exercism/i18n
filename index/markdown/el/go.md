@@ -782,7 +782,7 @@ This page is generated from [the index](../../json/el/go.json) by `scripts/build
 - `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/expenses/.docs/introduction.md)): [Latest](../../../locales/el/content/03/8b/ec432525f27bcfa4a0332453b5ccf77b5c23.md)
 - `hints.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/expenses/.docs/hints.md)): [Latest](../../../locales/el/content/1c/6a/1ad1a6f3543021138cf4f1cec0062105b58b.md)
 
-### generic-set (Γενικό σύνολο)
+### Generic Set (Γενικό σύνολο)
 
 - `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/generic-set/.docs/instructions.md)): [Latest](../../../locales/el/content/0c/46/8aa8a0324643b6a90645df2a1da3afc87876.md)
 - `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/generic-set/.docs/introduction.md)): [Latest](../../../locales/el/content/dc/39/070f52bd2453779e2e3e0c0c8f6cfd522e86.md)

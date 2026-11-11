@@ -575,7 +575,7 @@
   "exercise:sql-builder:blurb": "कंपोनेंट से SQL क्वेरी स्ट्रिंग कुशलता से बनाने के लिए strings.Builder का उपयोग करना सीखिए।",
   "concept:strings-builder:blurb": "स्टैंडर्ड लाइब्रेरी के `strings` पैकेज में `Builder` टाइप शामिल है, जिसका उपयोग स्ट्रिंग को कुशलता से बनाने के लिए किया जाता है।",
   "concept:generics:name": "जेनेरिक",
-  "exercise:generic-set:name": "generic-set",
+  "exercise:generic-set:name": "जेनेरिक सेट",
   "exercise:generic-set:blurb": "एक साधारण जेनेरिक सेट बनाइए।",
   "concept:generics:blurb": "जेनेरिक की मदद से आप ऐसे फंक्शन और डेटा स्ट्रक्चर लिख सकते हैं जो अलग-अलग टाइप के साथ काम करते हैं, और इसके लिए आपको कोड दोहराना नहीं पड़ता।"
 }

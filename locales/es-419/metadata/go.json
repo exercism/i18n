@@ -575,7 +575,7 @@
   "exercise:sql-builder:blurb": "Aprende a construir de forma eficiente strings de consulta SQL a partir de componentes usando `strings.Builder`.",
   "concept:strings-builder:blurb": "El paquete `strings` de la biblioteca estándar incluye el tipo `Builder`, que se usa para construir strings de forma eficiente.",
   "concept:generics:name": "Genéricos",
-  "exercise:generic-set:name": "generic-set",
+  "exercise:generic-set:name": "Conjunto genérico",
   "exercise:generic-set:blurb": "Implementa un conjunto genérico sencillo.",
   "concept:generics:blurb": "Los genéricos te permiten escribir funciones y estructuras de datos que funcionan con distintos tipos sin duplicar código."
 }
