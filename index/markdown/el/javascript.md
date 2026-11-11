@@ -535,6 +535,11 @@ This page is generated from [the index](../../json/el/javascript.json) by `scrip
 
 - `instructions.md` ([English](https://github.com/exercism/javascript/blob/main/exercises/practice/series/.docs/instructions.md)): [Latest](../../../locales/el/content/fd/97/a6706a66b377147ae91d1495db35a1b291e8.md)
 
+### SGF Parsing (Ανάλυση SGF)
+
+- `instructions.md` ([English](https://github.com/exercism/javascript/blob/main/exercises/practice/sgf-parsing/.docs/instructions.md)): [Latest](../../../locales/el/content/4e/1f/59b0dcf85b09a6217093734844a0b1cf3b95.md)
+- `introduction.md` ([English](https://github.com/exercism/javascript/blob/main/exercises/practice/sgf-parsing/.docs/introduction.md)): [Latest](../../../locales/el/content/c1/d0/51e45c662099f0fba9c13c5d83418c2d643b.md)
+
 ### Sieve (Κόσκινο)
 
 - `instructions.md` ([English](https://github.com/exercism/javascript/blob/main/exercises/practice/sieve/.docs/instructions.md)): [Latest](../../../locales/el/content/71/29/2e1782dc95e0430ae2b614e1d740dd41639f.md)
@@ -1013,7 +1018,7 @@ This page is generated from [the index](../../json/el/javascript.json) by `scrip
 - `introduction.md` ([English](https://github.com/exercism/javascript/blob/main/concepts/type-conversion/introduction.md)): [Latest](../../../locales/el/content/6e/15/0efb72c67131b35faa217e46f9b881acfba9.md)
 - `about.md` ([English](https://github.com/exercism/javascript/blob/main/concepts/type-conversion/about.md)): [Latest](../../../locales/el/content/ef/5d/b85ecb3bc69d44cd0200c9662a230a9563e4.md)
 
-### While Loops (\`while\` βρόχοι)
+### While Loops (Βρόχοι \`while\`)
 
 - `introduction.md` ([English](https://github.com/exercism/javascript/blob/main/concepts/while-loops/introduction.md)): [Latest](../../../locales/el/content/02/86/807411fe4fff4eb72d3459964ebe3d4d9e75.md)
 - `about.md` ([English](https://github.com/exercism/javascript/blob/main/concepts/while-loops/about.md)): [Latest](../../../locales/el/content/30/a1/a1f743936ff6d37b9c4cca9e862c1187f8d7.md)

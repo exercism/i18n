@@ -547,5 +547,7 @@
   "concept:arithmetic-operators:blurb": "JavaScript ha 6 operatori diversi per eseguire le operazioni aritmetiche di base sui numeri. Inoltre, per ognuno di essi esiste un operatore di assegnazione abbreviato corrispondente.",
   "concept:array-destructuring:blurb": "L'assegnazione con destrutturazione degli array è un modo conciso per estrarre valori da un array.",
   "concept:array-transformations:blurb": "JavaScript ha molti metodi integrati utili per trasformare gli array.",
-  "concept:promises:name": "Promesse"
+  "concept:promises:name": "Promesse",
+  "exercise:sgf-parsing:name": "Parsing di SGF",
+  "exercise:sgf-parsing:blurb": "Esegui il parsing di una stringa in formato Smart Game Format."
 }

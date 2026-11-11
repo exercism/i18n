@@ -547,5 +547,7 @@
   "concept:arithmetic-operators:blurb": "JavaScript hat 6 verschiedene Operatoren für grundlegende arithmetische Operationen mit Zahlen. Außerdem gibt es für jeden davon einen passenden Zuweisungsoperator in Kurzform.",
   "concept:array-destructuring:blurb": "Die Array-Destrukturierungszuweisung ist eine prägnante Möglichkeit, Werte aus einem Array zu extrahieren.",
   "concept:array-transformations:blurb": "JavaScript hat viele nützliche eingebaute Methoden, um Arrays zu transformieren.",
-  "concept:promises:name": "Promises"
+  "concept:promises:name": "Promises",
+  "exercise:sgf-parsing:name": "SGF-Parsing",
+  "exercise:sgf-parsing:blurb": "Einen String im Smart Game Format parsen."
 }

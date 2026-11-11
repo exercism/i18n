@@ -547,5 +547,7 @@
   "doc:learning:blurb": "JavaScript को शुरू से सीखने पर एक नज़र",
   "doc:tests:title": "JavaScript ट्रैक पर टेस्टिंग",
   "doc:tests:blurb": "Exercism पर अपने JavaScript अभ्यास टेस्ट करना सीखिए",
-  "concept:promises:name": "प्रॉमिस"
+  "concept:promises:name": "प्रॉमिस",
+  "exercise:sgf-parsing:name": "SGF पार्सिंग",
+  "exercise:sgf-parsing:blurb": "Smart Game Format की स्ट्रिंग को पार्स करना।"
 }

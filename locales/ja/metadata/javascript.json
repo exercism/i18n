@@ -547,5 +547,7 @@
   "concept:arithmetic-operators:blurb": "JavaScriptには、数値の基本的な四則演算を行うための6つの演算子があります。さらに、それぞれに対応する省略記法の代入演算子があります。",
   "concept:array-destructuring:blurb": "配列の分割代入は、配列から値を取り出す簡潔な方法です。",
   "concept:array-transformations:blurb": "JavaScriptには、配列を変換するための便利な組み込みメソッドがたくさんあります。",
-  "concept:promises:name": "Promise"
+  "concept:promises:name": "Promise",
+  "exercise:sgf-parsing:name": "SGF解析",
+  "exercise:sgf-parsing:blurb": "Smart Game Formatの文字列を解析します。"
 }

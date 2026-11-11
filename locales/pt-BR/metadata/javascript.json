@@ -547,5 +547,7 @@
   "doc:learning:blurb": "Uma visão geral de como começar do zero com JavaScript",
   "doc:tests:title": "Testes na trilha de JavaScript",
   "doc:tests:blurb": "Aprenda a testar seus exercícios de JavaScript no Exercism",
-  "concept:promises:name": "Promises"
+  "concept:promises:name": "Promises",
+  "exercise:sgf-parsing:name": "Análise de SGF",
+  "exercise:sgf-parsing:blurb": "Análise de uma string no formato Smart Game Format."
 }

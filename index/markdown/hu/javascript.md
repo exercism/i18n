@@ -417,7 +417,7 @@ This page is generated from [the index](../../json/hu/javascript.json) by `scrip
 - `instructions.md` ([English](https://github.com/exercism/javascript/blob/main/exercises/practice/palindrome-products/.docs/instructions.md)): [Latest](../../../locales/hu/content/aa/c6/6521ce736be8ce737ea709a5b1eed507cbb8.md)
   - [`fd9a441247`](../../../locales/hu/content/fd/9a/441247b65a9a8604f6ef581df4b1054a1fad.md)
 
-### Pangram
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/javascript/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
   - [`d5698bc2a2`](../../../locales/hu/content/d5/69/8bc2a292baf2fb128de3543b748165088c4f.md)
@@ -623,6 +623,11 @@ This page is generated from [the index](../../json/hu/javascript.json) by `scrip
 
 - `instructions.md` ([English](https://github.com/exercism/javascript/blob/main/exercises/practice/series/.docs/instructions.md)): [Latest](../../../locales/hu/content/fd/97/a6706a66b377147ae91d1495db35a1b291e8.md)
   - [`3f9d371fa2`](../../../locales/hu/content/3f/9d/371fa25f8bc3ae8210d5a4eaf2db2becc997.md)
+
+### SGF Parsing (SGF-elemzés)
+
+- `instructions.md` ([English](https://github.com/exercism/javascript/blob/main/exercises/practice/sgf-parsing/.docs/instructions.md)): [Latest](../../../locales/hu/content/4e/1f/59b0dcf85b09a6217093734844a0b1cf3b95.md)
+- `introduction.md` ([English](https://github.com/exercism/javascript/blob/main/exercises/practice/sgf-parsing/.docs/introduction.md)): [Latest](../../../locales/hu/content/c1/d0/51e45c662099f0fba9c13c5d83418c2d643b.md)
 
 ### Sieve (Szita)
 

@@ -547,5 +547,7 @@
   "doc:learning:blurb": "একেবারে শূন্য থেকে JavaScript শুরু করার একটি সারসংক্ষেপ",
   "doc:tests:title": "JavaScript ট্র্যাকে টেস্টিং",
   "doc:tests:blurb": "Exercism-এ আপনার JavaScript অনুশীলনীগুলো কীভাবে টেস্ট করবেন, তা শিখুন",
-  "concept:promises:name": "প্রমিস"
+  "concept:promises:name": "প্রমিস",
+  "exercise:sgf-parsing:name": "SGF পার্সিং",
+  "exercise:sgf-parsing:blurb": "একটি Smart Game Format স্ট্রিং পার্স করা।"
 }

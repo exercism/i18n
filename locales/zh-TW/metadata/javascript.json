@@ -547,5 +547,7 @@
   "doc:learning:blurb": "從零開始學習 JavaScript 的入門總覽。",
   "doc:tests:title": "JavaScript 軌道上的測試",
   "doc:tests:blurb": "了解如何在 Exercism 上測試你的 JavaScript 練習。",
-  "concept:promises:name": "Promise"
+  "concept:promises:name": "Promise",
+  "exercise:sgf-parsing:name": "SGF 解析",
+  "exercise:sgf-parsing:blurb": "解析 Smart Game Format 字串。"
 }

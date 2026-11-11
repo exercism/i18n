@@ -547,5 +547,7 @@
   "concept:objects:name": "Objets",
   "concept:object-destructuring:name": "Déstructuration d'objet",
   "concept:classes:name": "Prototypes et classes",
-  "concept:promises:name": "Promesses"
+  "concept:promises:name": "Promesses",
+  "exercise:sgf-parsing:name": "Analyse de SGF",
+  "exercise:sgf-parsing:blurb": "Analyse une _string_ au format Smart Game Format."
 }

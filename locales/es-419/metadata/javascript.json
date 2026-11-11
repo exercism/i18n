@@ -547,5 +547,7 @@
   "doc:learning:title": "Cómo aprender JavaScript",
   "doc:learning:blurb": "Una introducción a cómo empezar con JavaScript desde cero",
   "doc:tests:title": "Pruebas en la pista de JavaScript",
-  "doc:tests:blurb": "Aprende a probar tus ejercicios de JavaScript en Exercism"
+  "doc:tests:blurb": "Aprende a probar tus ejercicios de JavaScript en Exercism",
+  "exercise:sgf-parsing:name": "Análisis de SGF",
+  "exercise:sgf-parsing:blurb": "Analizar un string en formato Smart Game Format."
 }

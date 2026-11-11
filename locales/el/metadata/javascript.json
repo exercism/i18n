@@ -547,5 +547,7 @@
   "concept:arithmetic-operators:blurb": "Η JavaScript έχει 6 διαφορετικούς τελεστές για να εκτελείς βασικές αριθμητικές πράξεις σε αριθμούς. Επιπλέον, υπάρχει ένας αντίστοιχος συντομευμένος τελεστής ανάθεσης για τον καθένα από αυτούς.",
   "concept:array-destructuring:blurb": "Η ανάθεση με αποδόμηση πίνακα είναι ένας συνοπτικός τρόπος εξαγωγής τιμών από έναν πίνακα.",
   "concept:array-transformations:blurb": "Η JavaScript έχει πολλές χρήσιμες ενσωματωμένες μεθόδους για τον μετασχηματισμό πινάκων.",
-  "concept:array-loops:blurb": "Μάθε για πολλούς τρόπους επανάληψης πάνω σε πίνακες στη JavaScript."
+  "concept:array-loops:blurb": "Μάθε για πολλούς τρόπους επανάληψης πάνω σε πίνακες στη JavaScript.",
+  "exercise:sgf-parsing:name": "Ανάλυση SGF",
+  "exercise:sgf-parsing:blurb": "Ανάλυση μιας συμβολοσειράς Smart Game Format."
 }

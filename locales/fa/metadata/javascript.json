@@ -547,5 +547,7 @@
   "concept:arithmetic-operators:blurb": "JavaScript شش عملگر مختلف برای انجام عملیات حسابی پایه روی اعداد دارد. علاوه بر این، برای هر یک از آن‌ها یک عملگر انتساب کوتاه‌نویسی متناظر هم وجود دارد.",
   "concept:array-destructuring:blurb": "انتساب ساختارشکنی آرایه، روشی مختصر برای استخراج مقدارها از یک آرایه است.",
   "concept:array-transformations:blurb": "JavaScript متدهای توکار مفید زیادی برای تبدیل آرایه‌ها دارد.",
-  "concept:promises:name": "Promiseها"
+  "concept:promises:name": "Promiseها",
+  "exercise:sgf-parsing:name": "تجزیه‌ی SGF",
+  "exercise:sgf-parsing:blurb": "تجزیه‌ی یک رشته‌ی Smart Game Format."
 }

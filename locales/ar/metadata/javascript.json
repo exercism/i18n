@@ -547,5 +547,7 @@
   "doc:learning:blurb": "نظرة عامة على كيفية البدء مع JavaScript من الصفر",
   "doc:tests:title": "الاختبار في مسار JavaScript",
   "doc:tests:blurb": "تعلّم كيف تختبر تمارين JavaScript على Exercism",
-  "concept:promises:name": "الوعود"
+  "concept:promises:name": "الوعود",
+  "exercise:sgf-parsing:name": "تحليل SGF",
+  "exercise:sgf-parsing:blurb": "تحليل سلسلة نصية بصيغة Smart Game Format."
 }

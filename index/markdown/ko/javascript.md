@@ -535,6 +535,11 @@ This page is generated from [the index](../../json/ko/javascript.json) by `scrip
 
 - `instructions.md` ([English](https://github.com/exercism/javascript/blob/main/exercises/practice/series/.docs/instructions.md)): [Latest](../../../locales/ko/content/fd/97/a6706a66b377147ae91d1495db35a1b291e8.md)
 
+### SGF Parsing (SGF 파싱)
+
+- `instructions.md` ([English](https://github.com/exercism/javascript/blob/main/exercises/practice/sgf-parsing/.docs/instructions.md)): [Latest](../../../locales/ko/content/4e/1f/59b0dcf85b09a6217093734844a0b1cf3b95.md)
+- `introduction.md` ([English](https://github.com/exercism/javascript/blob/main/exercises/practice/sgf-parsing/.docs/introduction.md)): [Latest](../../../locales/ko/content/c1/d0/51e45c662099f0fba9c13c5d83418c2d643b.md)
+
 ### Sieve (체)
 
 - `instructions.md` ([English](https://github.com/exercism/javascript/blob/main/exercises/practice/sieve/.docs/instructions.md)): [Latest](../../../locales/ko/content/71/29/2e1782dc95e0430ae2b614e1d740dd41639f.md)

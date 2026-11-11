@@ -547,5 +547,7 @@
   "concept:arithmetic-operators:blurb": "JavaScript 有 6 个不同的运算符，用来对数字进行基本的算术运算。此外，每个运算符都有一个对应的简写赋值运算符。",
   "concept:array-destructuring:blurb": "数组解构赋值是一种从数组中提取值的简洁方式。",
   "concept:array-transformations:blurb": "JavaScript 有很多实用的内置方法可以用来变换数组。",
-  "concept:promises:name": "Promise"
+  "concept:promises:name": "Promise",
+  "exercise:sgf-parsing:name": "SGF 解析",
+  "exercise:sgf-parsing:blurb": "解析 Smart Game Format 字符串。"
 }

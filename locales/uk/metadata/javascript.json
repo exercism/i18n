@@ -547,5 +547,7 @@
   "concept:array-destructuring:blurb": "Деструктуризація масиву - це лаконічний спосіб вилучити значення з масиву.",
   "concept:array-transformations:blurb": "У JavaScript є багато корисних вбудованих методів для перетворення масивів.",
   "concept:array-loops:blurb": "Дізнайтеся про різні способи перебору масивів у JavaScript.",
-  "concept:promises:name": "Проміси"
+  "concept:promises:name": "Проміси",
+  "exercise:sgf-parsing:name": "Розбір SGF",
+  "exercise:sgf-parsing:blurb": "Розбір рядка тексту (англ. string) у форматі Smart Game Format."
 }
