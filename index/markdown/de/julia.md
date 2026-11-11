@@ -675,7 +675,8 @@ This page is generated from [the index](../../json/de/julia.json) by `scripts/bu
 
 ### Mecha Munch Management (Mecha-Mampf-Management)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/mecha-munch-management/.docs/instructions.md)): [Latest](../../../locales/de/content/4f/11/e8bb7b51ea6c5e1416a220aba708a8669c90.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/mecha-munch-management/.docs/instructions.md)): [Latest](../../../locales/de/content/9c/7b/f3345f825b9de28153a8d02aff6e060b7e49.md)
+  - [`4f11e8bb7b`](../../../locales/de/content/4f/11/e8bb7b51ea6c5e1416a220aba708a8669c90.md)
   - [`b07554fcb5`](../../../locales/de/content/b0/75/54fcb5d9b4ad9a06b842fe156754940c2efc.md)
   - [`eacc9c0f44`](../../../locales/de/content/ea/cc/9c0f44a36994137ba06ad6ad89896623a8be.md)
 - `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/mecha-munch-management/.docs/introduction.md)): [Latest](../../../locales/de/content/aa/df/97061c19ffce68f7e86d47f23f961b2c3c94.md)
