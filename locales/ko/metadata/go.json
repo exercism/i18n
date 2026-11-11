@@ -573,5 +573,9 @@
   "exercise:sql-builder:name": "SQL 빌더",
   "concept:strings-builder:name": "문자열 빌더",
   "exercise:sql-builder:blurb": "`strings.Builder`를 사용해 구성 요소로부터 SQL 쿼리 문자열을 효율적으로 만드는 방법을 배워요.",
-  "concept:strings-builder:blurb": "표준 라이브러리 `strings` 패키지에는 문자열을 효율적으로 만들 때 사용하는 `Builder` 타입이 있어요."
+  "concept:strings-builder:blurb": "표준 라이브러리 `strings` 패키지에는 문자열을 효율적으로 만들 때 사용하는 `Builder` 타입이 있어요.",
+  "concept:generics:name": "제네릭",
+  "exercise:generic-set:name": "제네릭 집합",
+  "exercise:generic-set:blurb": "간단한 제네릭 집합을 구현해 봐요.",
+  "concept:generics:blurb": "제네릭을 사용하면 코드를 중복하지 않고도 다양한 타입에서 동작하는 함수와 자료 구조를 작성할 수 있어요."
 }

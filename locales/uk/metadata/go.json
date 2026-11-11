@@ -575,5 +575,9 @@
   "exercise:sql-builder:name": "Конструктор SQL",
   "concept:strings-builder:name": "Конструктор рядків",
   "exercise:sql-builder:blurb": "Навчімося ефективно будувати рядки тексту SQL-запитів з компонентів за допомогою `strings.Builder`.",
-  "concept:strings-builder:blurb": "Стандартна бібліотека містить пакет `strings` із типом `Builder`, який використовується для ефективної побудови рядків тексту."
+  "concept:strings-builder:blurb": "Стандартна бібліотека містить пакет `strings` із типом `Builder`, який використовується для ефективної побудови рядків тексту.",
+  "concept:generics:name": "Узагальнення",
+  "exercise:generic-set:name": "Узагальнена множина",
+  "exercise:generic-set:blurb": "Реалізуйте просту узагальнену множину.",
+  "concept:generics:blurb": "Узагальнення дають змогу писати функції та структури даних, які працюють з різними типами, не дублюючи код."
 }

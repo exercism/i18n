@@ -573,5 +573,9 @@
   "exercise:sql-builder:name": "SQL Builder",
   "concept:strings-builder:name": "Strings Builder",
   "exercise:sql-builder:blurb": "學習如何使用 strings.Builder，有效率地從各個元件建構出 SQL 查詢字串。",
-  "concept:strings-builder:blurb": "標準函式庫的`strings`套件包含`Builder`型別，可以用來有效率地建構字串。"
+  "concept:strings-builder:blurb": "標準函式庫的`strings`套件包含`Builder`型別，可以用來有效率地建構字串。",
+  "concept:generics:name": "泛型",
+  "exercise:generic-set:name": "泛型集合",
+  "exercise:generic-set:blurb": "實作一個簡單的泛型集合。",
+  "concept:generics:blurb": "泛型讓你能撰寫適用於不同型別的函式與資料結構，而不必重複撰寫程式碼。"
 }

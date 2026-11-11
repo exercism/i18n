@@ -573,5 +573,9 @@
   "exercise:sql-builder:name": "SQL 构建器",
   "concept:strings-builder:name": "Strings Builder",
   "exercise:sql-builder:blurb": "学习如何使用 strings.Builder 从各个组件高效地拼接 SQL 查询字符串。",
-  "concept:strings-builder:blurb": "标准库的 `strings` 包中包含 `Builder` 类型，可以用它高效地构建字符串。"
+  "concept:strings-builder:blurb": "标准库的 `strings` 包中包含 `Builder` 类型，可以用它高效地构建字符串。",
+  "concept:generics:name": "泛型",
+  "exercise:generic-set:name": "泛型集合",
+  "exercise:generic-set:blurb": "实现一个简单的泛型集合。",
+  "concept:generics:blurb": "泛型让你可以编写适用于不同数据类型的函数和数据结构，而不必重复代码。"
 }

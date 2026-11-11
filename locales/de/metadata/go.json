@@ -573,5 +573,9 @@
   "exercise:sql-builder:name": "SQL-Builder",
   "concept:strings-builder:name": "Strings-Builder",
   "exercise:sql-builder:blurb": "Lerne, wie du mit strings.Builder SQL-Abfrage-Strings effizient aus Komponenten zusammensetzt.",
-  "concept:strings-builder:blurb": "Das Paket `strings` aus der Standardbibliothek enthält den Typ `Builder`, mit dem du Strings effizient aufbauen kannst."
+  "concept:strings-builder:blurb": "Das Paket `strings` aus der Standardbibliothek enthält den Typ `Builder`, mit dem du Strings effizient aufbauen kannst.",
+  "concept:generics:name": "Generics",
+  "exercise:generic-set:name": "Generisches Set",
+  "exercise:generic-set:blurb": "Implementiere ein einfaches generisches Set.",
+  "concept:generics:blurb": "Mit Generics kannst du Funktionen und Datenstrukturen schreiben, die mit verschiedenen Typen funktionieren, ohne Code zu duplizieren."
 }

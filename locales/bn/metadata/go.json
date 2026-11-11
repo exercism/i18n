@@ -573,5 +573,9 @@
   "exercise:sql-builder:name": "SQL বিল্ডার",
   "concept:strings-builder:name": "স্ট্রিং বিল্ডার",
   "exercise:sql-builder:blurb": "কম্পোনেন্ট থেকে strings.Builder ব্যবহার করে দক্ষভাবে SQL কোয়েরি স্ট্রিং তৈরি করা শিখুন।",
-  "concept:strings-builder:blurb": "স্ট্যান্ডার্ড লাইব্রেরির `strings` প্যাকেজে `Builder` টাইপ রয়েছে, যা দক্ষভাবে স্ট্রিং তৈরি করতে ব্যবহৃত হয়।"
+  "concept:strings-builder:blurb": "স্ট্যান্ডার্ড লাইব্রেরির `strings` প্যাকেজে `Builder` টাইপ রয়েছে, যা দক্ষভাবে স্ট্রিং তৈরি করতে ব্যবহৃত হয়।",
+  "concept:generics:name": "জেনেরিকস",
+  "exercise:generic-set:name": "জেনেরিক সেট",
+  "exercise:generic-set:blurb": "একটি সাধারণ জেনেরিক সেট ইমপ্লিমেন্ট করুন।",
+  "concept:generics:blurb": "জেনেরিক্স ব্যবহার করে আপনি বিভিন্ন টাইপের সঙ্গে কাজ করে এমন ফাংশন ও ডেটা স্ট্রাকচার লিখতে পারেন, কোড ডুপ্লিকেট না করেই।"
 }

@@ -573,5 +573,9 @@
   "exercise:sql-builder:name": "SQL Builder",
   "concept:strings-builder:name": "Strings Builder",
   "exercise:sql-builder:blurb": "`strings.Builder`を使って、部品からSQLクエリ文字列を効率的に組み立てる方法を学びましょう。",
-  "concept:strings-builder:blurb": "標準ライブラリの`strings`パッケージには`Builder`型があり、文字列を効率的に組み立てるために使います。"
+  "concept:strings-builder:blurb": "標準ライブラリの`strings`パッケージには`Builder`型があり、文字列を効率的に組み立てるために使います。",
+  "concept:generics:name": "ジェネリクス",
+  "exercise:generic-set:name": "ジェネリックセット",
+  "exercise:generic-set:blurb": "シンプルなジェネリックセットを実装しましょう。",
+  "concept:generics:blurb": "ジェネリクスを使うと、コードを重複させることなく、さまざまな型で動作する関数やデータ構造を書けます。"
 }

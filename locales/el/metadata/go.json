@@ -575,5 +575,9 @@
   "exercise:sql-builder:name": "SQL Builder",
   "concept:strings-builder:name": "Strings Builder",
   "exercise:sql-builder:blurb": "Μάθε να κατασκευάζεις αποδοτικά συμβολοσειρές ερωτημάτων SQL από επιμέρους τμήματα, χρησιμοποιώντας το strings.Builder.",
-  "concept:strings-builder:blurb": "Το πακέτο `strings` της βασικής βιβλιοθήκης περιλαμβάνει τον τύπο `Builder`, ο οποίος χρησιμοποιείται για την αποδοτική κατασκευή συμβολοσειρών."
+  "concept:strings-builder:blurb": "Το πακέτο `strings` της βασικής βιβλιοθήκης περιλαμβάνει τον τύπο `Builder`, ο οποίος χρησιμοποιείται για την αποδοτική κατασκευή συμβολοσειρών.",
+  "concept:generics:name": "Γενικευμένοι τύποι",
+  "exercise:generic-set:name": "Γενικό σύνολο",
+  "exercise:generic-set:blurb": "Υλοποίησε ένα απλό γενικό σύνολο.",
+  "concept:generics:blurb": "Τα generics σου επιτρέπουν να γράφεις συναρτήσεις και δομές δεδομένων που λειτουργούν με διαφορετικούς τύπους, χωρίς να αντιγράφεις κώδικα."
 }

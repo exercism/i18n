@@ -573,5 +573,9 @@
   "exercise:sql-builder:name": "سازنده‌ی SQL",
   "concept:strings-builder:name": "سازنده‌ی رشته‌ها",
   "exercise:sql-builder:blurb": "بیاموزید چگونه با `strings.Builder` رشته‌های پرس‌وجوی SQL را به شکلی کارآمد از اجزا بسازید.",
-  "concept:strings-builder:blurb": "بسته‌ی `strings` در کتابخانه‌ی استاندارد شامل نوع `Builder` است که برای ساختن رشته‌ها به شکلی کارآمد به کار می‌رود."
+  "concept:strings-builder:blurb": "بسته‌ی `strings` در کتابخانه‌ی استاندارد شامل نوع `Builder` است که برای ساختن رشته‌ها به شکلی کارآمد به کار می‌رود.",
+  "concept:generics:name": "جنریک",
+  "exercise:generic-set:name": "مجموعه‌ی جنریک",
+  "exercise:generic-set:blurb": "یک مجموعه‌ی جنریک ساده پیاده‌سازی کنید.",
+  "concept:generics:blurb": "«جنریک» به شما امکان می‌دهد توابع و ساختارهای داده‌ای بنویسید که با انواع مختلف کار می‌کنند، بدون اینکه کد را تکرار کنید."
 }

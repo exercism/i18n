@@ -940,6 +940,12 @@ This page is generated from [the index](../../json/ar/go.json) by `scripts/build
 - `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/expenses/.docs/introduction.md)): [Latest](../../../locales/ar/content/03/8b/ec432525f27bcfa4a0332453b5ccf77b5c23.md)
 - `hints.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/expenses/.docs/hints.md)): [Latest](../../../locales/ar/content/1c/6a/1ad1a6f3543021138cf4f1cec0062105b58b.md)
 
+### generic-set (مجموعة عامة)
+
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/generic-set/.docs/instructions.md)): [Latest](../../../locales/ar/content/0c/46/8aa8a0324643b6a90645df2a1da3afc87876.md)
+- `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/generic-set/.docs/introduction.md)): [Latest](../../../locales/ar/content/dc/39/070f52bd2453779e2e3e0c0c8f6cfd522e86.md)
+- `hints.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/generic-set/.docs/hints.md)): [Latest](../../../locales/ar/content/c7/73/2b65db88fc59abeeace63ff366f9fe053c2c.md)
+
 ### Gopher's Gorgeous Lasagna (لازانيا Gopher الرائعة)
 
 - `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/lasagna/.docs/instructions.md)): [Latest](../../../locales/ar/content/36/3d/6635cf0e5aeee014d8eaa232863e45f54fb1.md)
@@ -1122,6 +1128,11 @@ This page is generated from [the index](../../json/ar/go.json) by `scripts/build
 - `introduction.md` ([English](https://github.com/exercism/go/blob/main/concepts/functions/introduction.md)): [Latest](../../../locales/ar/content/cf/7e/44724388d83cc5bfd53244ae2293d25ad201.md)
 - `about.md` ([English](https://github.com/exercism/go/blob/main/concepts/functions/about.md)): [Latest](../../../locales/ar/content/68/c5/db48629b799641d0056b56e990b952fa1627.md)
   - [`7a9b7664d8`](../../../locales/ar/content/7a/9b/7664d83479c9c58a1b2864221522a727fc02.md)
+
+### Generics (الأنواع العامة)
+
+- `introduction.md` ([English](https://github.com/exercism/go/blob/main/concepts/generics/introduction.md)): [Latest](../../../locales/ar/content/dc/39/070f52bd2453779e2e3e0c0c8f6cfd522e86.md)
+- `about.md` ([English](https://github.com/exercism/go/blob/main/concepts/generics/about.md)): [Latest](../../../locales/ar/content/26/8e/bd6c58ccc56b405c5063b15245ec1672ab82.md)
 
 ### Interfaces (الواجهات)
 

@@ -575,5 +575,9 @@
   "exercise:sql-builder:name": "SQL Builder",
   "concept:strings-builder:name": "Strings Builder",
   "exercise:sql-builder:blurb": "Apprends à construire efficacement des requêtes SQL à partir de composants grâce à strings.Builder.",
-  "concept:strings-builder:blurb": "Le paquet `strings` de la bibliothèque standard contient le type `Builder`, qui sert à construire efficacement des chaînes de caractères."
+  "concept:strings-builder:blurb": "Le paquet `strings` de la bibliothèque standard contient le type `Builder`, qui sert à construire efficacement des chaînes de caractères.",
+  "concept:generics:name": "Génériques",
+  "exercise:generic-set:name": "Ensemble générique",
+  "exercise:generic-set:blurb": "Implémente un ensemble générique simple.",
+  "concept:generics:blurb": "Les génériques permettent d'écrire des fonctions et des structures de données qui fonctionnent avec différents types sans dupliquer le code."
 }

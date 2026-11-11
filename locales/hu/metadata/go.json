@@ -575,5 +575,9 @@
   "exercise:sql-builder:name": "SQL Builder",
   "concept:strings-builder:name": "Strings Builder",
   "exercise:sql-builder:blurb": "Tanuld meg, hogyan építhetsz fel hatékonyan SQL-lekérdezés-stringeket komponensekből a strings.Builder segítségével.",
-  "concept:strings-builder:blurb": "A standard könyvtár `strings` csomagja tartalmazza a `Builder` típust, amellyel hatékonyan lehet stringeket építeni."
+  "concept:strings-builder:blurb": "A standard könyvtár `strings` csomagja tartalmazza a `Builder` típust, amellyel hatékonyan lehet stringeket építeni.",
+  "concept:generics:name": "Generikusok",
+  "exercise:generic-set:name": "Generikus halmaz",
+  "exercise:generic-set:blurb": "Valósíts meg egy egyszerű generikus halmazt.",
+  "concept:generics:blurb": "A generikusok segítségével olyan függvényeket és adatszerkezeteket írhatsz, amelyek különböző típusokkal is működnek, anélkül hogy duplikálnád a kódot."
 }

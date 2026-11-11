@@ -573,5 +573,9 @@
   "exercise:sql-builder:name": "باني SQL",
   "concept:strings-builder:name": "باني السلاسل النصية",
   "exercise:sql-builder:blurb": "تعلّم كيف تبني سلاسل استعلامات SQL من مكوّنات بكفاءة باستخدام `strings.Builder`.",
-  "concept:strings-builder:blurb": "تتضمن حزمة `strings` في المكتبة القياسية النوع `Builder`، الذي يُستخدم لبناء السلاسل النصية بكفاءة."
+  "concept:strings-builder:blurb": "تتضمن حزمة `strings` في المكتبة القياسية النوع `Builder`، الذي يُستخدم لبناء السلاسل النصية بكفاءة.",
+  "concept:generics:name": "الأنواع العامة",
+  "exercise:generic-set:name": "مجموعة عامة",
+  "exercise:generic-set:blurb": "نفّذ مجموعة عامة بسيطة.",
+  "concept:generics:blurb": "تسمح لك الأنواع العامة بكتابة دوال وهياكل بيانات تعمل مع أنواع مختلفة دون تكرار الكود."
 }
