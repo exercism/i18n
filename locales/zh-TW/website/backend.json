@@ -1889,7 +1889,8 @@
         "cta": "免費註冊 Jiki",
         "later_html": "不用了，我還是想%{link}",
         "later_link": "使用 Exercism",
-        "later_aside": "（雖然我們覺得這不是個好主意 🤭）"
+        "later_aside": "（雖然我們覺得這不是個好主意 🤭）",
+        "later_aside_html": "（雖然我們覺得這是個<strong>糟糕的主意</strong> 🤭）"
       }
     },
     "sessions": {
@@ -3979,6 +3980,9 @@
         "accept_privacy_policy": "我接受 Exercism 的隱私權政策"
       },
       "save_button": "儲存並開始"
+    },
+    "questions": {
+      "progress_step_3": "步驟 3：條款與隱私"
     }
   },
   "serializers": {

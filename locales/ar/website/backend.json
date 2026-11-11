@@ -902,7 +902,8 @@
         "cta": "سجّل في Jiki مجانًا",
         "later_html": "لا، شكرًا، أريد أن %{link} على أي حال",
         "later_link": "أستخدم Exercism",
-        "later_aside": "(حتى لو كنا نعتقد أن هذه فكرة سيئة 🤭)"
+        "later_aside": "(حتى لو كنا نعتقد أن هذه فكرة سيئة 🤭)",
+        "later_aside_html": "(رغم أننا نعتقد أن هذه <strong>فكرة سيئة</strong> 🤭)"
       }
     },
     "sessions": {
@@ -1015,6 +1016,9 @@
         "accept_privacy_policy": "أوافق على سياسة الخصوصية الخاصة بـ Exercism"
       },
       "save_button": "احفظ وابدأ"
+    },
+    "questions": {
+      "progress_step_3": "الخطوة 3: الشروط والخصوصية"
     }
   },
   "communication_preferences": {

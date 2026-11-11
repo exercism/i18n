@@ -662,7 +662,8 @@
         "cta": "Regisztrálj ingyen a Jikire",
         "later_html": "Nem, köszönöm, én akkor is %{link} akarok",
         "later_link": "használni az Exercism-t",
-        "later_aside": "(pedig szerintünk ez rossz ötlet 🤭)"
+        "later_aside": "(pedig szerintünk ez rossz ötlet 🤭)",
+        "later_aside_html": "(még ha szerintünk ez <strong>rossz ötlet</strong> is 🤭)"
       }
     },
     "sessions": {
@@ -4262,6 +4263,9 @@
         "privacy_policy_link_text": "itt olvashatod el teljes egészében"
       },
       "save_button": "Mentés & kezdjük el"
+    },
+    "questions": {
+      "progress_step_3": "3. lépés: felhasználási feltételek és adatvédelem"
     }
   },
   "docs": {

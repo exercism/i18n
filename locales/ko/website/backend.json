@@ -2087,7 +2087,8 @@
         "cta": "Jiki에 무료로 가입하기",
         "later_html": "괜찮아요, 그래도 %{link}.",
         "later_link": "Exercism을 사용할래요",
-        "later_aside": "(별로 좋은 생각은 아니라고 생각하지만요 🤭)"
+        "later_aside": "(별로 좋은 생각은 아니라고 생각하지만요 🤭)",
+        "later_aside_html": "(저희 생각에는 <strong>좋지 않은 생각</strong>이지만요 🤭)"
       }
     },
     "sessions": {
@@ -4325,6 +4326,9 @@
         "accept_privacy_policy": "Exercism의 개인정보 처리방침에 동의해요"
       },
       "save_button": "저장하고 시작하기"
+    },
+    "questions": {
+      "progress_step_3": "3단계: 약관 및 개인정보"
     }
   },
   "premium_mailer": {

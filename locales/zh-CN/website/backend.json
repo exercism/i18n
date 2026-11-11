@@ -199,7 +199,8 @@
         "cta": "免费注册 Jiki",
         "later_html": "不用了，谢谢，我还是想%{link}",
         "later_link": "使用 Exercism",
-        "later_aside": "（虽然我们觉得这是个糟糕的主意 🤭）"
+        "later_aside": "（虽然我们觉得这是个糟糕的主意 🤭）",
+        "later_aside_html": "（虽然我们觉得这是个<strong>坏主意</strong> 🤭）"
       }
     },
     "shared": {
@@ -2741,6 +2742,9 @@
         "accept_privacy_policy": "我接受 Exercism 的隐私政策"
       },
       "save_button": "保存并开始"
+    },
+    "questions": {
+      "progress_step_3": "第 3 步：条款与隐私"
     }
   },
   "dashboard": {

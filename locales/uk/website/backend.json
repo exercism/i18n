@@ -1345,7 +1345,8 @@
         "cta": "Зареєструватися в Jiki безкоштовно",
         "later_html": "Ні, дякую, я все одно хочу %{link}",
         "later_link": "скористатися Exercism",
-        "later_aside": "(хоча ми вважаємо, що це погана ідея 🤭)"
+        "later_aside": "(хоча ми вважаємо, що це погана ідея 🤭)",
+        "later_aside_html": "(хоча ми вважаємо, що це <strong>погана ідея</strong> 🤭)"
       }
     },
     "sessions": {
@@ -3598,6 +3599,9 @@
         "accept_privacy_policy": "Я приймаю Політику конфіденційності Exercism"
       },
       "save_button": "Зберегти та почати"
+    },
+    "questions": {
+      "progress_step_3": "Крок 3: умови та конфіденційність"
     }
   },
   "community": {

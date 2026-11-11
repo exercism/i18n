@@ -1082,7 +1082,8 @@
         "cta": "Jikiに無料で登録",
         "later_html": "いいえ、それでも%{link}ことにします",
         "later_link": "Exercismを使う",
-        "later_aside": "（よい考えとは思いませんが🤭）"
+        "later_aside": "（よい考えとは思いませんが🤭）",
+        "later_aside_html": "（それは<strong>よくない考え</strong>だと思いますが 🤭）"
       }
     },
     "sessions": {
@@ -3798,6 +3799,9 @@
         "accept_privacy_policy": "Exercismのプライバシーポリシーに同意します"
       },
       "save_button": "保存して始める"
+    },
+    "questions": {
+      "progress_step_3": "ステップ3：利用規約とプライバシー"
     }
   },
   "images": {

@@ -932,7 +932,8 @@
         "cta": "رایگان در Jiki ثبت‌نام کنید",
         "later_html": "نه ممنون، به هر حال می‌خواهم %{link}",
         "later_link": "از Exercism استفاده کنم",
-        "later_aside": "(هرچند به نظر ما فکر بدی است 🤭)"
+        "later_aside": "(هرچند به نظر ما فکر بدی است 🤭)",
+        "later_aside_html": "(هرچند فکر می‌کنیم این <strong>ایده‌ی بدی</strong> است 🤭)"
       }
     },
     "sessions": {
@@ -3829,6 +3830,9 @@
         "accept_privacy_policy": "سیاست حفظ حریم خصوصی Exercism را می‌پذیرم"
       },
       "save_button": "ذخیره و شروع"
+    },
+    "questions": {
+      "progress_step_3": "مرحله ۳: شرایط و حریم خصوصی"
     }
   },
   "pages": {

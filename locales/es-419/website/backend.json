@@ -1137,7 +1137,8 @@
         "cta": "Regístrate gratis en Jiki",
         "later_html": "No, gracias, de todos modos quiero %{link}",
         "later_link": "usar Exercism",
-        "later_aside": "(aunque nos parezca una mala idea 🤭)"
+        "later_aside": "(aunque nos parezca una mala idea 🤭)",
+        "later_aside_html": "(aunque pensamos que es una <strong>mala idea</strong> 🤭)"
       }
     },
     "shared": {
@@ -1940,6 +1941,9 @@
         "accept_privacy_policy": "Acepto la Política de Privacidad de Exercism"
       },
       "save_button": "Guardar y empezar"
+    },
+    "questions": {
+      "progress_step_3": "Paso 3: términos y privacidad"
     }
   },
   "insiders": {
