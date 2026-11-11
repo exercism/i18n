@@ -84,6 +84,10 @@
         "coding_fundamentals": {
           "title": "Aprende a programar con Jiki",
           "description": "Aprende a programar y a crear en la era de los LLM."
+        },
+        "jiki": {
+          "title": "Aprende a programar con Jiki",
+          "description": "Aprende a programar y a crear en la era de los LLM."
         }
       },
       "discover": {
@@ -267,7 +271,9 @@
         "coding_fundamentals": "¿Estás aprendiendo a programar? Conoce nuestra nueva plataforma dedicada a principiantes -",
         "coding_fundamentals_link_text": "Jiki!",
         "donation_ask": "¿Disfrutas de Exercism? Necesitamos tu ayuda para seguir adelante…",
-        "donation_ask_link_text": "¡Dona si puedes!"
+        "donation_ask_link_text": "¡Dona si puedes!",
+        "jiki": "¿Estás aprendiendo a programar? Conoce nuestra nueva plataforma para principiantes -",
+        "jiki_link_text": "¡Jiki!"
       },
       "nav": {
         "learn": "Aprende",
@@ -742,6 +748,15 @@
         "title_highlight": "construyendo",
         "description": "Familiarízate con los fundamentos de la programación. Te llevamos desde lo más básico hasta construir programas complejos.",
         "note": "¡Mira lo que vas a crear!"
+      },
+      "jiki": {
+        "title": "Jiki",
+        "bubble": "¡Recién lanzado!",
+        "subtitle": "Aprende a programar y a crear en la era de los LLM.",
+        "description_p1_html": "La programación ha cambiado. Tu forma de aprender también tiene que cambiar. Jiki es una plataforma totalmente nueva, diseñada para ayudarte a aprender a programar y a crear en la era de los grandes modelos de lenguaje. Pensada para <strong>principiantes, juniors y vibe coders.</strong>.",
+        "strong_text_1": "¿Empiezas de cero?",
+        "strong_text_2": "¿Infierno de tutoriales?",
+        "explore_button": "¡Empieza ahora, es gratis!"
       }
     }
   },

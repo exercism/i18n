@@ -619,6 +619,10 @@
         "coding_fundamentals": {
           "title": "Programmieren lernen mit Jiki",
           "description": "Lerne programmieren und baue eigene Projekte im LLM-Zeitalter"
+        },
+        "jiki": {
+          "title": "Programmieren lernen mit Jiki",
+          "description": "Programmieren lernen und bauen in der LLM-Ära."
         }
       },
       "discover": {
@@ -790,7 +794,9 @@
         "coding_fundamentals": "Du willst Programmieren lernen? Dann schau dir unsere neue Plattform speziell für Anfänger an -",
         "coding_fundamentals_link_text": "Jiki!",
         "donation_ask": "Gefällt dir Exercism? Wir brauchen deine Hilfe, um zu überleben…",
-        "donation_ask_link_text": "Bitte spende, wenn du kannst!"
+        "donation_ask_link_text": "Bitte spende, wenn du kannst!",
+        "jiki": "Du willst programmieren lernen? Schau dir unsere neue Plattform speziell für Einsteiger an -",
+        "jiki_link_text": "Jiki!"
       },
       "nav": {
         "learn": "Lernen",
@@ -2521,6 +2527,15 @@
         "title_highlight": "Bauen",
         "description": "Werde sicher in den Programmiergrundlagen. Wir bringen dich von den absoluten Grundlagen bis zum Bauen komplexer Programme.",
         "note": "Schau, was du bauen wirst!"
+      },
+      "jiki": {
+        "title": "Jiki",
+        "bubble": "Gerade gestartet!",
+        "subtitle": "Programmieren lernen und bauen in der LLM-Ära.",
+        "description_p1_html": "Das Programmieren hat sich verändert. Also muss sich auch verändern, wie du lernst. Jiki ist eine brandneue Plattform, die dir hilft, in der LLM-Ära programmieren und bauen zu lernen. Gedacht für <strong>Einsteiger, Juniors und Vibe-Coder.</strong>",
+        "strong_text_1": "Ganz neu hier?",
+        "strong_text_2": "Tutorial-Hölle?",
+        "explore_button": "Starte jetzt - kostenlos!"
       }
     }
   },

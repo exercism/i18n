@@ -1493,7 +1493,7 @@
   "components/modals/track-welcome-modal/LHS": {
     "bootcampRecommendation.header": "O Jiki pode ser melhor para você…",
     "bootcampRecommendation.tracksAudience": "As trilhas do Exercism são feitas para quem <strong>já sabe programar</strong> e está praticando ou aprendendo novas linguagens.",
-    "bootcampRecommendation.codingJourney": "Se você está começando agora na sua jornada de programação, nossa nova plataforma, <strong>Jiki</strong>, pode ser mais adequada para você.",
+    "bootcampRecommendation.codingJourney": "Se você está começando agora na sua jornada de programação, nossa nova plataforma <strong>Jiki</strong> pode ser mais adequada para você.",
     "bootcampRecommendation.selfPaced": "Já está disponível e, melhor de tudo, <strong>é de graça!</strong>",
     "bootcampRecommendation.cta.checkOutCourse": "Conheça o Jiki",
     "bootcampRecommendation.cta.continueAnyway": "Continuar mesmo assim"

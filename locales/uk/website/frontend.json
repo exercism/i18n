@@ -1996,7 +1996,7 @@
   "components/modals/track-welcome-modal/LHS": {
     "bootcampRecommendation.header": "Jiki може підійти краще…",
     "bootcampRecommendation.tracksAudience": "Треки Exercism створені для людей, які <strong>вже вміють програмувати</strong> і практикують або вивчають нові мови.",
-    "bootcampRecommendation.codingJourney": "Якщо подорож у програмування лише починається, наша нова платформа <strong>Jiki</strong> може підійти краще.",
+    "bootcampRecommendation.codingJourney": "Якщо подорож у програмування лише починається, наша нова платформа <strong>Jiki</strong> може підійти вам краще.",
     "bootcampRecommendation.selfPaced": "Вона вже доступна, а найкраще те, що <strong>вона безкоштовна!</strong>",
     "bootcampRecommendation.cta.checkOutCourse": "Переглянути Jiki",
     "bootcampRecommendation.cta.continueAnyway": "Все одно продовжити"

@@ -2685,6 +2685,10 @@
         "favorites": {
           "title": "A kedvenceid",
           "description": "Térj vissza a kedvenceidhez"
+        },
+        "jiki": {
+          "title": "Tanulj meg programozni a Jikivel",
+          "description": "Tanulj meg programozni és alkotni az LLM-korszakban."
         }
       },
       "discover": {
@@ -2850,7 +2854,9 @@
         "coding_fundamentals": "Most tanulsz programozni? Nézd meg az új, kifejezetten kezdőknek szánt platformunkat -",
         "coding_fundamentals_link_text": "Jiki!",
         "donation_ask": "Tetszik az Exercism? Szükségünk van a segítségedre, hogy talpon maradjunk…",
-        "donation_ask_link_text": "Kérünk, adományozz, ha teheted!"
+        "donation_ask_link_text": "Kérünk, adományozz, ha teheted!",
+        "jiki": "Programozni tanulsz? Nézd meg új, kifejezetten kezdőknek szánt platformunkat -",
+        "jiki_link_text": "Jiki!"
       },
       "nav": {
         "learn": "Tanulás",
@@ -3406,6 +3412,15 @@
         "solution_title": "%{handle} megoldása",
         "solution_subtitle": "a(z) %{track} kurzus %{exercise} feladatához",
         "view_all_button": "Összes megtekintése"
+      },
+      "jiki": {
+        "title": "Jiki",
+        "bubble": "Most indult!",
+        "subtitle": "Tanulj meg programozni és alkotni az LLM-korszakban.",
+        "description_p1_html": "Megváltozott a programozás. A tanulás módjának is meg kell változnia. A Jiki egy vadonatúj platform, amely segít megtanulni programozni és alkotni az LLM-korszakban. <strong>Kezdőknek, junioroknak és vibe codereknek készült.</strong>",
+        "strong_text_1": "Teljesen kezdő vagy?",
+        "strong_text_2": "Oktatóvideó-pokol?",
+        "explore_button": "Kezdj bele - ingyenes!"
       }
     },
     "mailer": {

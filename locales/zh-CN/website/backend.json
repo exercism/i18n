@@ -620,6 +620,15 @@
         "title_highlight": "构建",
         "description": "熟悉编程基础。我们会带你从最基础的内容一路走到构建复杂的程序。",
         "note": "看看你能做出什么！"
+      },
+      "jiki": {
+        "title": "Jiki",
+        "bubble": "全新上线！",
+        "subtitle": "在 LLM 时代学习编程与实践开发。",
+        "description_p1_html": "编程已经变了，学习的方式也得跟着变。Jiki 是一个全新的平台，帮你学会在 LLM 时代编程与实践开发。专为<strong>初学者、初级开发者和 vibe coding 爱好者</strong>。",
+        "strong_text_1": "完全零基础？",
+        "strong_text_2": "困在教程地狱里？",
+        "explore_button": "立即开始，完全免费！"
       }
     }
   },
@@ -1723,6 +1732,10 @@
         "coding_fundamentals": {
           "title": "用 Jiki 学编程",
           "description": "在 LLM 时代学习编程，动手构建。"
+        },
+        "jiki": {
+          "title": "用 Jiki 学编程",
+          "description": "在 LLM 时代学习编程与实践开发。"
         }
       },
       "discover": {
@@ -1981,7 +1994,9 @@
         "coding_fundamentals": "想学编程？看看我们全新的初学者专属平台：",
         "coding_fundamentals_link_text": "Jiki！",
         "donation_ask": "喜欢 Exercism 吗？我们需要你的帮助才能继续运营……",
-        "donation_ask_link_text": "如果可以，请捐赠！"
+        "donation_ask_link_text": "如果可以，请捐赠！",
+        "jiki": "正在学编程？来看看我们全新打造的初学者专属平台：",
+        "jiki_link_text": "Jiki！"
       },
       "nav": {
         "learn": "学习",

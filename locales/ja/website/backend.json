@@ -154,6 +154,10 @@
         "coding_fundamentals": {
           "title": "Jikiと一緒にプログラミングを学ぼう",
           "description": "LLM時代のプログラミングとものづくりを学びましょう"
+        },
+        "jiki": {
+          "title": "Jikiでプログラミングを学ぼう",
+          "description": "LLM時代に、プログラミングとものづくりを学ぼう。"
         }
       },
       "discover": {
@@ -412,7 +416,9 @@
         "coding_fundamentals": "プログラミングを学びたいですか？　初心者向けの新しい専用プラットフォームはこちら",
         "coding_fundamentals_link_text": "Jiki!",
         "donation_ask": "Exercismを楽しんでいますか？　存続のために、助けが必要です…",
-        "donation_ask_link_text": "よろしければ、寄付をお願いします！"
+        "donation_ask_link_text": "よろしければ、寄付をお願いします！",
+        "jiki": "プログラミングを学びたい方へ。初心者向けの新しい専用プラットフォームがあります -",
+        "jiki_link_text": "Jiki！"
       },
       "nav": {
         "learn": "学ぶ",
@@ -3714,6 +3720,15 @@
         "title_highlight": "つくること",
         "description": "プログラミングの基礎をしっかり身につけましょう。基礎の基礎から、複雑なプログラムづくりまで案内します。",
         "note": "こんなものが作れるようになります！"
+      },
+      "jiki": {
+        "title": "Jiki",
+        "bubble": "登場したばかり！",
+        "subtitle": "LLM時代に、プログラミングとものづくりを学ぼう。",
+        "description_p1_html": "プログラミングは変わりました。学び方も変える必要があります。Jikiは、LLM時代にプログラミングとものづくりを学べるよう設計された、まったく新しいプラットフォームです。<strong>初心者、ジュニア、そしてバイブコーダー</strong>のために作られています。",
+        "strong_text_1": "まったくの初心者？",
+        "strong_text_2": "チュートリアル地獄にはまっていませんか？",
+        "explore_button": "今すぐ無料で始めよう！"
       }
     }
   },
