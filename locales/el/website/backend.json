@@ -2614,7 +2614,7 @@
     },
     "alternatives": {
       "heading": "Ψάχνεις άλλον πάροχο πληρωμών;",
-      "text_html": "Προς το παρόν υποστηρίζουμε το Paypal και το GitHub Sponsors ως εναλλακτικούς παρόχους πληρωμών. Επικοινώνησε με τον <a href=\"%{jeremy_url}\">Jeremy</a> αν πιστεύεις ότι θα έπρεπε να προσθέσουμε κάποιον άλλον πάροχο.\n",
+      "text_html": "Προς το παρόν υποστηρίζουμε το GitHub Sponsors ως εναλλακτικό πάροχο πληρωμών. Επικοινώνησε με τον <a href=\"%{jeremy_url}\">Jeremy</a> αν πιστεύεις ότι θα έπρεπε να προσθέσουμε κάποιον άλλον πάροχο.\n",
       "jeremy": "Jeremy",
       "paypal_button": "Κάνε δωρεά με Paypal",
       "github_sponsors_button": "Κάνε δωρεά μέσω GitHub Sponsors"

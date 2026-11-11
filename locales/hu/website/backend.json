@@ -3741,7 +3741,7 @@
     },
     "alternatives": {
       "heading": "Más fizetési szolgáltatót keresel?",
-      "text_html": "Jelenleg a Paypal és a GitHub Sponsors alternatív fizetési szolgáltatókat támogatjuk. Kérjük, vedd fel a kapcsolatot <a href=\"%{jeremy_url}\">Jeremyvel</a>, ha úgy gondolod, hogy egy másik szolgáltatót is hozzá kellene adnunk.\n",
+      "text_html": "Jelenleg a GitHub Sponsorst támogatjuk alternatív fizetési szolgáltatóként. Kérjük, vedd fel a kapcsolatot <a href=\"%{jeremy_url}\">Jeremyvel</a>, ha úgy gondolod, hogy egy másik szolgáltatót is hozzá kellene adnunk.\n",
       "jeremy": "Jeremy",
       "paypal_button": "Adományozás Paypallal",
       "github_sponsors_button": "Adományozás GitHub Sponsorson keresztül"

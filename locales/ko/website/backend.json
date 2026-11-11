@@ -3208,7 +3208,7 @@
       "paypal_button": "Paypal로 기부하기",
       "github_sponsors_button": "GitHub Sponsors를 통해 기부하기",
       "heading": "다른 결제 서비스 제공자를 찾고 있나요?",
-      "text_html": "현재 대체 결제 서비스 제공자로 Paypal과 GitHub Sponsors를 지원하고 있어요. 추가했으면 하는 다른 제공자가 있다면 <a href=\"%{jeremy_url}\">Jeremy</a>에게 연락해 주세요.\n"
+      "text_html": "현재 대체 결제 서비스 제공자로 GitHub Sponsors를 지원하고 있어요. 추가했으면 하는 다른 제공자가 있다면 <a href=\"%{jeremy_url}\">Jeremy</a>에게 연락해 주세요.\n"
     },
     "donated": {
       "title": "기부가 완료됐어요",

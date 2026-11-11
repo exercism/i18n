@@ -2641,7 +2641,7 @@
   "donations": {
     "alternatives": {
       "heading": "Cerchi un altro provider di pagamenti?",
-      "text_html": "Al momento supportiamo Paypal e GitHub Sponsors come provider di pagamento alternativi. Contatta <a href=\"%{jeremy_url}\">Jeremy</a> se ritieni che dovremmo aggiungere un altro provider.\n",
+      "text_html": "Al momento supportiamo GitHub Sponsors come provider di pagamento alternativo. Contatta <a href=\"%{jeremy_url}\">Jeremy</a> se ritieni che dovremmo aggiungere un altro provider.\n",
       "jeremy": "Jeremy",
       "paypal_button": "Dona con Paypal",
       "github_sponsors_button": "Dona tramite GitHub Sponsors"

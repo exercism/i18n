@@ -2288,7 +2288,7 @@
   "donations": {
     "alternatives": {
       "heading": "想找其他支付服务商？",
-      "text_html": "我们目前支持 Paypal 和 GitHub Sponsors 作为替代支付服务商。如果你觉得还有别的服务商值得我们加入，请联系 <a href=\"%{jeremy_url}\">Jeremy</a>。\n",
+      "text_html": "我们目前支持 GitHub Sponsors 作为替代支付服务商。如果你觉得还有别的服务商值得我们加入，请联系 <a href=\"%{jeremy_url}\">Jeremy</a>。\n",
       "jeremy": "Jeremy",
       "paypal_button": "使用 Paypal 捐款",
       "github_sponsors_button": "通过 GitHub Sponsors 捐款"

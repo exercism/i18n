@@ -2204,7 +2204,7 @@
       "paypal_button": "Doar com PayPal",
       "github_sponsors_button": "Doar através do GitHub Sponsors",
       "heading": "À procura de outro fornecedor de pagamentos?",
-      "text_html": "Atualmente, aceitamos o Paypal e o GitHub Sponsors como fornecedores alternativos de pagamentos. Contacta <a href=\"%{jeremy_url}\">Jeremy</a> se houver outro fornecedor que aches que devíamos acrescentar.\n"
+      "text_html": "Atualmente, aceitamos o GitHub Sponsors como fornecedor alternativo de pagamentos. Contacta <a href=\"%{jeremy_url}\">Jeremy</a> se houver outro fornecedor que aches que devíamos acrescentar.\n"
     },
     "donated": {
       "title": "Doação bem-sucedida",

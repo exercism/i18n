@@ -2823,7 +2823,7 @@
   "donations": {
     "alternatives": {
       "heading": "به دنبال ارائه‌دهنده‌ی پرداخت دیگری هستید؟",
-      "text_html": "ما در حال حاضر از Paypal و GitHub Sponsors به عنوان ارائه‌دهنده‌های پرداخت جایگزین پشتیبانی می‌کنیم. اگر فکر می‌کنید ارائه‌دهنده‌ی دیگری هست که باید اضافه کنیم، لطفاً با <a href=\"%{jeremy_url}\">Jeremy</a> تماس بگیرید.\n",
+      "text_html": "ما در حال حاضر از GitHub Sponsors به عنوان ارائه‌دهنده‌ی پرداخت جایگزین پشتیبانی می‌کنیم. اگر فکر می‌کنید ارائه‌دهنده‌ی دیگری هست که باید اضافه کنیم، لطفاً با <a href=\"%{jeremy_url}\">Jeremy</a> تماس بگیرید.\n",
       "jeremy": "Jeremy",
       "paypal_button": "کمک مالی با Paypal",
       "github_sponsors_button": "کمک مالی از طریق GitHub Sponsors"

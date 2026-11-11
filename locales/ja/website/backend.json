@@ -2586,7 +2586,7 @@
   "donations": {
     "alternatives": {
       "heading": "別の決済サービスをお探しですか？",
-      "text_html": "現在、別の決済サービスとしてPaypalとGitHub Sponsorsに対応しています。追加してほしい決済サービスがあれば、<a href=\"%{jeremy_url}\">Jeremy</a>まで連絡してください。\n",
+      "text_html": "現在、別の決済サービスとしてGitHub Sponsorsに対応しています。追加してほしい決済サービスがあれば、<a href=\"%{jeremy_url}\">Jeremy</a>まで連絡してください。\n",
       "jeremy": "Jeremy",
       "paypal_button": "Paypalで寄付する",
       "github_sponsors_button": "GitHub Sponsorsで寄付する"

@@ -2794,7 +2794,7 @@
       "paypal_button": "تبرّع عبر Paypal",
       "github_sponsors_button": "تبرّع عبر GitHub Sponsors",
       "heading": "هل تبحث عن مزوّد دفع آخر؟",
-      "text_html": "ندعم حاليًا Paypal و GitHub Sponsors كمزوّدي دفع بديلين. يُرجى التواصل مع <a href=\"%{jeremy_url}\">Jeremy</a> إذا كان هناك مزوّد آخر ترى أنه ينبغي إضافته.\n"
+      "text_html": "ندعم حاليًا GitHub Sponsors كمزوّد دفع بديل. يُرجى التواصل مع <a href=\"%{jeremy_url}\">Jeremy</a> إذا كان هناك مزوّد آخر ترى أنه ينبغي إضافته.\n"
     },
     "donated": {
       "title": "تم التبرّع بنجاح",

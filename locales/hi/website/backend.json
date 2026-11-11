@@ -1471,7 +1471,7 @@
   "donations": {
     "alternatives": {
       "heading": "कोई दूसरा पेमेंट प्रोवाइडर ढूँढ रहे हैं?",
-      "text_html": "फिलहाल हम वैकल्पिक पेमेंट प्रोवाइडर के रूप में Paypal और GitHub Sponsors को सपोर्ट करते हैं। अगर आपको लगता है कि हमें कोई और प्रोवाइडर जोड़ना चाहिए, तो कृपया <a href=\"%{jeremy_url}\">Jeremy</a> से संपर्क कीजिए।\n",
+      "text_html": "फिलहाल हम वैकल्पिक पेमेंट प्रोवाइडर के रूप में GitHub Sponsors को सपोर्ट करते हैं। अगर आपको लगता है कि हमें कोई और प्रोवाइडर जोड़ना चाहिए, तो कृपया <a href=\"%{jeremy_url}\">Jeremy</a> से संपर्क कीजिए।\n",
       "jeremy": "Jeremy",
       "paypal_button": "Paypal से दान करें",
       "github_sponsors_button": "GitHub Sponsors के ज़रिए दान करें"
