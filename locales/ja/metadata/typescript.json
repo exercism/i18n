@@ -342,5 +342,8 @@
   "doc:resources:title": "役立つTypeScriptのリソース",
   "doc:resources:blurb": "TypeScriptの習得に役立つリソース集",
   "exercise:satellite:name": "人工衛星",
-  "exercise:satellite:blurb": "行きがけ順と通りがけ順の走査から、二分木を再構築します。"
+  "exercise:satellite:blurb": "行きがけ順と通りがけ順の走査から、二分木を再構築します。",
+  "exercise:affine-cipher:name": "アフィン暗号",
+  "exercise:affine-cipher:blurb": "中東で生まれた古代の暗号アルゴリズム、アフィン暗号を実装してください。",
+  "exercise:affine-cipher:source": "Wikipedia"
 }

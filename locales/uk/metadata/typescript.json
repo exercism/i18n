@@ -344,5 +344,8 @@
   "doc:resources:title": "Корисні ресурси з TypeScript",
   "doc:resources:blurb": "Добірка корисних ресурсів, що допоможуть опанувати TypeScript",
   "exercise:satellite:name": "Супутник",
-  "exercise:satellite:blurb": "Відновіть двійкові дерева за прямим і симетричним обходом."
+  "exercise:satellite:blurb": "Відновіть двійкові дерева за прямим і симетричним обходом.",
+  "exercise:affine-cipher:name": "Афінний шифр",
+  "exercise:affine-cipher:blurb": "Створіть реалізацію афінного шифру, стародавнього алгоритму шифрування з Близького Сходу.",
+  "exercise:affine-cipher:source": "Wikipedia"
 }

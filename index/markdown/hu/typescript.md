@@ -17,6 +17,10 @@ This page is generated from [the index](../../json/hu/typescript.json) by `scrip
 - `instructions.md` ([English](https://github.com/exercism/typescript/blob/main/exercises/practice/acronym/.docs/instructions.md)): [Latest](../../../locales/hu/content/13/3b/d2cbb78d186c92e5d2b8ca41cf13f77d6bea.md)
   - [`e0515b4d1d`](../../../locales/hu/content/e0/51/5b4d1d8a82e331ca4a3439ce1494b58fee1e.md)
 
+### Affine Cipher (Affin-rejtjel)
+
+- `instructions.md` ([English](https://github.com/exercism/typescript/blob/main/exercises/practice/affine-cipher/.docs/instructions.md)): [Latest](../../../locales/hu/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
+
 ### All Your Base
 
 - `instructions.md` ([English](https://github.com/exercism/typescript/blob/main/exercises/practice/all-your-base/.docs/instructions.md)): [Latest](../../../locales/hu/content/1b/68/8b6915eb31f5ee6c3b67d2803024a353806e.md)

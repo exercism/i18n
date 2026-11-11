@@ -344,5 +344,8 @@
   "doc:resources:title": "Hasznos TypeScript-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a TypeScriptet",
   "exercise:satellite:name": "Műhold",
-  "exercise:satellite:blurb": "Építsd újra a bináris fákat preorder és inorder bejárásból."
+  "exercise:satellite:blurb": "Építsd újra a bináris fákat preorder és inorder bejárásból.",
+  "exercise:affine-cipher:name": "Affin-rejtjel",
+  "exercise:affine-cipher:blurb": "Készítsd el az affin rejtjel implementációját, amely egy ősi titkosítási algoritmus a Közel-Keletről.",
+  "exercise:affine-cipher:source": "Wikipedia"
 }

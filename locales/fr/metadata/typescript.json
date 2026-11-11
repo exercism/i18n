@@ -344,5 +344,8 @@
   "doc:resources:title": "Ressources utiles pour TypeScript",
   "doc:resources:blurb": "Une sélection de ressources utiles pour t'aider à maîtriser TypeScript",
   "exercise:satellite:name": "Satellite",
-  "exercise:satellite:blurb": "Reconstruire des arbres binaires à partir des parcours préfixe et infixe."
+  "exercise:satellite:blurb": "Reconstruire des arbres binaires à partir des parcours préfixe et infixe.",
+  "exercise:affine-cipher:name": "Chiffrement affine",
+  "exercise:affine-cipher:blurb": "Crée une implémentation du chiffrement affine, un ancien algorithme de chiffrement venu du Moyen-Orient.",
+  "exercise:affine-cipher:source": "Wikipedia"
 }

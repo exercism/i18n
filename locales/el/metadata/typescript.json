@@ -344,5 +344,8 @@
   "doc:resources:title": "Χρήσιμοι πόροι για την TypeScript",
   "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων που θα σε βοηθήσουν να μάθεις την TypeScript σε βάθος",
   "exercise:satellite:name": "Δορυφόρος",
-  "exercise:satellite:blurb": "Ανακατασκεύασε δυαδικά δέντρα από προθεματικές και ενδοθεματικές διασχίσεις."
+  "exercise:satellite:blurb": "Ανακατασκεύασε δυαδικά δέντρα από προθεματικές και ενδοθεματικές διασχίσεις.",
+  "exercise:affine-cipher:name": "Κρυπτογράφημα Affine",
+  "exercise:affine-cipher:blurb": "Δημιούργησε μια υλοποίηση του κρυπτογραφήματος Affine, ενός αρχαίου αλγορίθμου κρυπτογράφησης από τη Μέση Ανατολή.",
+  "exercise:affine-cipher:source": "Wikipedia"
 }

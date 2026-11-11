@@ -342,5 +342,8 @@
   "doc:resources:title": "Nützliche TypeScript-Ressourcen",
   "doc:resources:blurb": "Eine Sammlung nützlicher Ressourcen, mit denen du TypeScript meistern kannst",
   "exercise:satellite:name": "Satellit",
-  "exercise:satellite:blurb": "Rekonstruiere Binärbäume aus Preorder- und Inorder-Durchläufen."
+  "exercise:satellite:blurb": "Rekonstruiere Binärbäume aus Preorder- und Inorder-Durchläufen.",
+  "exercise:affine-cipher:name": "Affine Chiffre",
+  "exercise:affine-cipher:blurb": "Erstelle eine Implementierung der Affinen Chiffre, eines alten Verschlüsselungsalgorithmus aus dem Nahen Osten.",
+  "exercise:affine-cipher:source": "Wikipedia"
 }

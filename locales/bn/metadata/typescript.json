@@ -342,5 +342,8 @@
   "doc:resources:title": "উপকারী TypeScript রিসোর্স",
   "doc:resources:blurb": "TypeScript-এ দক্ষ হতে সাহায্যকারী উপকারী রিসোর্সের সংগ্রহ",
   "exercise:satellite:name": "স্যাটেলাইট",
-  "exercise:satellite:blurb": "প্রি-অর্ডার ও ইন-অর্ডার ট্রাভার্সাল থেকে বাইনারি ট্রি পুনর্গঠন করুন।"
+  "exercise:satellite:blurb": "প্রি-অর্ডার ও ইন-অর্ডার ট্রাভার্সাল থেকে বাইনারি ট্রি পুনর্গঠন করুন।",
+  "exercise:affine-cipher:name": "অ্যাফাইন সাইফার",
+  "exercise:affine-cipher:blurb": "মধ্যপ্রাচ্যের প্রাচীন এনক্রিপশন অ্যালগরিদম অ্যাফাইন সাইফারের একটি ইমপ্লিমেন্টেশন তৈরি করুন।",
+  "exercise:affine-cipher:source": "Wikipedia"
 }

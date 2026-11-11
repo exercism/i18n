@@ -16,6 +16,10 @@ This page is generated from [the index](../../json/es-ES/typescript.json) by `sc
 
 - `instructions.md` ([English](https://github.com/exercism/typescript/blob/main/exercises/practice/acronym/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/13/3b/d2cbb78d186c92e5d2b8ca41cf13f77d6bea.md)
 
+### Affine Cipher (Cifrado afín)
+
+- `instructions.md` ([English](https://github.com/exercism/typescript/blob/main/exercises/practice/affine-cipher/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
+
 ### All Your Base
 
 - `instructions.md` ([English](https://github.com/exercism/typescript/blob/main/exercises/practice/all-your-base/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/1b/68/8b6915eb31f5ee6c3b67d2803024a353806e.md)

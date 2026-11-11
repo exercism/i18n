@@ -342,5 +342,8 @@
   "doc:resources:title": "Recursos útiles de TypeScript",
   "doc:resources:blurb": "Una colección de recursos útiles para ayudarte a dominar TypeScript",
   "exercise:satellite:name": "Satélite",
-  "exercise:satellite:blurb": "Reconstruye árboles binarios a partir de recorridos en preorden y en inorden."
+  "exercise:satellite:blurb": "Reconstruye árboles binarios a partir de recorridos en preorden y en inorden.",
+  "exercise:affine-cipher:name": "Cifrado afín",
+  "exercise:affine-cipher:blurb": "Crea una implementación del cifrado afín, un antiguo algoritmo de cifrado de Oriente Medio.",
+  "exercise:affine-cipher:source": "Wikipedia"
 }

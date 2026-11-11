@@ -342,5 +342,8 @@
   "doc:resources:title": "유용한 TypeScript 자료",
   "doc:resources:blurb": "TypeScript를 익히는 데 도움이 되는 유용한 자료 모음",
   "exercise:satellite:name": "위성",
-  "exercise:satellite:blurb": "전위 순회와 중위 순회로 이진 트리를 재구성해요."
+  "exercise:satellite:blurb": "전위 순회와 중위 순회로 이진 트리를 재구성해요.",
+  "exercise:affine-cipher:name": "아핀 암호",
+  "exercise:affine-cipher:blurb": "중동에서 만들어진 고대 암호화 알고리즘인 아핀 암호를 구현해요.",
+  "exercise:affine-cipher:source": "Wikipedia"
 }

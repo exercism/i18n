@@ -342,5 +342,8 @@
   "doc:resources:title": "實用的 TypeScript 資源",
   "doc:resources:blurb": "一系列實用資源，幫助你精通 TypeScript",
   "exercise:satellite:name": "衛星",
-  "exercise:satellite:blurb": "根據前序與中序遍歷重建二元樹。"
+  "exercise:satellite:blurb": "根據前序與中序遍歷重建二元樹。",
+  "exercise:affine-cipher:name": "仿射密碼",
+  "exercise:affine-cipher:blurb": "實作仿射密碼，一種源自中東的古老加密演算法。",
+  "exercise:affine-cipher:source": "Wikipedia"
 }

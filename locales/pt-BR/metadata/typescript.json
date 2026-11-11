@@ -342,5 +342,8 @@
   "doc:resources:title": "Recursos úteis de TypeScript",
   "doc:resources:blurb": "Uma coleção de recursos úteis para ajudar você a dominar o TypeScript",
   "exercise:satellite:name": "Satélite",
-  "exercise:satellite:blurb": "Reconstrua árvores binárias a partir de percursos em pré-ordem e em ordem."
+  "exercise:satellite:blurb": "Reconstrua árvores binárias a partir de percursos em pré-ordem e em ordem.",
+  "exercise:affine-cipher:name": "Cifra afim",
+  "exercise:affine-cipher:blurb": "Crie uma implementação da cifra afim, um antigo algoritmo de criptografia do Oriente Médio.",
+  "exercise:affine-cipher:source": "Wikipedia"
 }
