@@ -883,9 +883,12 @@ This page is generated from [the index](../../json/ja/csharp.json) by `scripts/b
 
 ### Roll the Die! (サイコロを振ろう！)
 
-- `instructions.md` ([English](https://github.com/exercism/csharp/blob/main/exercises/concept/roll-the-die/.docs/instructions.md)): [Latest](../../../locales/ja/content/13/44/3d60b742aed1719236ab5eef70cf458a7572.md)
-- `introduction.md` ([English](https://github.com/exercism/csharp/blob/main/exercises/concept/roll-the-die/.docs/introduction.md)): [Latest](../../../locales/ja/content/9f/98/be975d42c0f0aabd64f942517f3564388c48.md)
-- `hints.md` ([English](https://github.com/exercism/csharp/blob/main/exercises/concept/roll-the-die/.docs/hints.md)): [Latest](../../../locales/ja/content/75/b4/6b724ddf053b47997556788f14fab58fb167.md)
+- `instructions.md` ([English](https://github.com/exercism/csharp/blob/main/exercises/concept/roll-the-die/.docs/instructions.md)): [Latest](../../../locales/ja/content/28/fd/4007b4e03788fa2b1f5aa81532a0d9cd16fe.md)
+  - [`13443d60b7`](../../../locales/ja/content/13/44/3d60b742aed1719236ab5eef70cf458a7572.md)
+- `introduction.md` ([English](https://github.com/exercism/csharp/blob/main/exercises/concept/roll-the-die/.docs/introduction.md)): [Latest](../../../locales/ja/content/04/83/f96e78b2fb74e08accb8ce2904ab218b8144.md)
+  - [`9f98be975d`](../../../locales/ja/content/9f/98/be975d42c0f0aabd64f942517f3564388c48.md)
+- `hints.md` ([English](https://github.com/exercism/csharp/blob/main/exercises/concept/roll-the-die/.docs/hints.md)): [Latest](../../../locales/ja/content/04/30/bc53f3b514770e8b3861f54c576ef2b1d24a.md)
+  - [`75b46b724d`](../../../locales/ja/content/75/b4/6b724ddf053b47997556788f14fab58fb167.md)
 
 ### Secure Munchester United
 
@@ -1199,8 +1202,10 @@ This page is generated from [the index](../../json/ja/csharp.json) by `scripts/b
 
 ### Randomness (乱数)
 
-- `introduction.md` ([English](https://github.com/exercism/csharp/blob/main/concepts/randomness/introduction.md)): [Latest](../../../locales/ja/content/f4/94/01bb66f6e23e22c279b319e758fdf1a509cd.md)
-- `about.md` ([English](https://github.com/exercism/csharp/blob/main/concepts/randomness/about.md)): [Latest](../../../locales/ja/content/3a/02/eeb769a64729776dba97b4eb8c8c049d720b.md)
+- `introduction.md` ([English](https://github.com/exercism/csharp/blob/main/concepts/randomness/introduction.md)): [Latest](../../../locales/ja/content/2e/9b/f4889837123289f76ce1db73c50bf37a4c9f.md)
+  - [`f49401bb66`](../../../locales/ja/content/f4/94/01bb66f6e23e22c279b319e758fdf1a509cd.md)
+- `about.md` ([English](https://github.com/exercism/csharp/blob/main/concepts/randomness/about.md)): [Latest](../../../locales/ja/content/8c/1e/25610a05ff92fe668e058e092ee4bbf76ded.md)
+  - [`3a02eeb769`](../../../locales/ja/content/3a/02/eeb769a64729776dba97b4eb8c8c049d720b.md)
 
 ### Readonly Collections (読み取り専用コレクション)
 

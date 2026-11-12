@@ -436,7 +436,7 @@ This page is generated from [the index](../../json/hu/csharp.json) by `scripts/b
   - [`fd9a441247`](../../../locales/hu/content/fd/9a/441247b65a9a8604f6ef581df4b1054a1fad.md)
 - `instructions.append.md` ([English](https://github.com/exercism/csharp/blob/main/exercises/practice/palindrome-products/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/83/62/eef6b71171e66201b7d8396f7b328599f5e8.md)
 
-### Pangram
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/csharp/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
   - [`d5698bc2a2`](../../../locales/hu/content/d5/69/8bc2a292baf2fb128de3543b748165088c4f.md)
@@ -1014,10 +1014,13 @@ This page is generated from [the index](../../json/hu/csharp.json) by `scripts/b
 
 ### Roll the Die! (Dobj a kockával!)
 
-- `instructions.md` ([English](https://github.com/exercism/csharp/blob/main/exercises/concept/roll-the-die/.docs/instructions.md)): [Latest](../../../locales/hu/content/13/44/3d60b742aed1719236ab5eef70cf458a7572.md)
-- `introduction.md` ([English](https://github.com/exercism/csharp/blob/main/exercises/concept/roll-the-die/.docs/introduction.md)): [Latest](../../../locales/hu/content/9f/98/be975d42c0f0aabd64f942517f3564388c48.md)
+- `instructions.md` ([English](https://github.com/exercism/csharp/blob/main/exercises/concept/roll-the-die/.docs/instructions.md)): [Latest](../../../locales/hu/content/28/fd/4007b4e03788fa2b1f5aa81532a0d9cd16fe.md)
+  - [`13443d60b7`](../../../locales/hu/content/13/44/3d60b742aed1719236ab5eef70cf458a7572.md)
+- `introduction.md` ([English](https://github.com/exercism/csharp/blob/main/exercises/concept/roll-the-die/.docs/introduction.md)): [Latest](../../../locales/hu/content/04/83/f96e78b2fb74e08accb8ce2904ab218b8144.md)
+  - [`9f98be975d`](../../../locales/hu/content/9f/98/be975d42c0f0aabd64f942517f3564388c48.md)
   - [`f49401bb66`](../../../locales/hu/content/f4/94/01bb66f6e23e22c279b319e758fdf1a509cd.md)
-- `hints.md` ([English](https://github.com/exercism/csharp/blob/main/exercises/concept/roll-the-die/.docs/hints.md)): [Latest](../../../locales/hu/content/75/b4/6b724ddf053b47997556788f14fab58fb167.md)
+- `hints.md` ([English](https://github.com/exercism/csharp/blob/main/exercises/concept/roll-the-die/.docs/hints.md)): [Latest](../../../locales/hu/content/04/30/bc53f3b514770e8b3861f54c576ef2b1d24a.md)
+  - [`75b46b724d`](../../../locales/hu/content/75/b4/6b724ddf053b47997556788f14fab58fb167.md)
 
 ### Secure Munchester United (Biztonságos Munchester United)
 
@@ -1334,8 +1337,10 @@ This page is generated from [the index](../../json/hu/csharp.json) by `scripts/b
 
 ### Randomness (Véletlenszerűség)
 
-- `introduction.md` ([English](https://github.com/exercism/csharp/blob/main/concepts/randomness/introduction.md)): [Latest](../../../locales/hu/content/f4/94/01bb66f6e23e22c279b319e758fdf1a509cd.md)
-- `about.md` ([English](https://github.com/exercism/csharp/blob/main/concepts/randomness/about.md)): [Latest](../../../locales/hu/content/3a/02/eeb769a64729776dba97b4eb8c8c049d720b.md)
+- `introduction.md` ([English](https://github.com/exercism/csharp/blob/main/concepts/randomness/introduction.md)): [Latest](../../../locales/hu/content/2e/9b/f4889837123289f76ce1db73c50bf37a4c9f.md)
+  - [`f49401bb66`](../../../locales/hu/content/f4/94/01bb66f6e23e22c279b319e758fdf1a509cd.md)
+- `about.md` ([English](https://github.com/exercism/csharp/blob/main/concepts/randomness/about.md)): [Latest](../../../locales/hu/content/8c/1e/25610a05ff92fe668e058e092ee4bbf76ded.md)
+  - [`3a02eeb769`](../../../locales/hu/content/3a/02/eeb769a64729776dba97b4eb8c8c049d720b.md)
 
 ### Readonly Collections (Írásvédett gyűjtemények)
 

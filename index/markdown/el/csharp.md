@@ -883,9 +883,12 @@ This page is generated from [the index](../../json/el/csharp.json) by `scripts/b
 
 ### Roll the Die! (Ρίξε το ζάρι!)
 
-- `instructions.md` ([English](https://github.com/exercism/csharp/blob/main/exercises/concept/roll-the-die/.docs/instructions.md)): [Latest](../../../locales/el/content/13/44/3d60b742aed1719236ab5eef70cf458a7572.md)
-- `introduction.md` ([English](https://github.com/exercism/csharp/blob/main/exercises/concept/roll-the-die/.docs/introduction.md)): [Latest](../../../locales/el/content/9f/98/be975d42c0f0aabd64f942517f3564388c48.md)
-- `hints.md` ([English](https://github.com/exercism/csharp/blob/main/exercises/concept/roll-the-die/.docs/hints.md)): [Latest](../../../locales/el/content/75/b4/6b724ddf053b47997556788f14fab58fb167.md)
+- `instructions.md` ([English](https://github.com/exercism/csharp/blob/main/exercises/concept/roll-the-die/.docs/instructions.md)): [Latest](../../../locales/el/content/28/fd/4007b4e03788fa2b1f5aa81532a0d9cd16fe.md)
+  - [`13443d60b7`](../../../locales/el/content/13/44/3d60b742aed1719236ab5eef70cf458a7572.md)
+- `introduction.md` ([English](https://github.com/exercism/csharp/blob/main/exercises/concept/roll-the-die/.docs/introduction.md)): [Latest](../../../locales/el/content/04/83/f96e78b2fb74e08accb8ce2904ab218b8144.md)
+  - [`9f98be975d`](../../../locales/el/content/9f/98/be975d42c0f0aabd64f942517f3564388c48.md)
+- `hints.md` ([English](https://github.com/exercism/csharp/blob/main/exercises/concept/roll-the-die/.docs/hints.md)): [Latest](../../../locales/el/content/04/30/bc53f3b514770e8b3861f54c576ef2b1d24a.md)
+  - [`75b46b724d`](../../../locales/el/content/75/b4/6b724ddf053b47997556788f14fab58fb167.md)
 
 ### Secure Munchester United
 
@@ -1199,8 +1202,10 @@ This page is generated from [the index](../../json/el/csharp.json) by `scripts/b
 
 ### Randomness (Τυχαιότητα)
 
-- `introduction.md` ([English](https://github.com/exercism/csharp/blob/main/concepts/randomness/introduction.md)): [Latest](../../../locales/el/content/f4/94/01bb66f6e23e22c279b319e758fdf1a509cd.md)
-- `about.md` ([English](https://github.com/exercism/csharp/blob/main/concepts/randomness/about.md)): [Latest](../../../locales/el/content/3a/02/eeb769a64729776dba97b4eb8c8c049d720b.md)
+- `introduction.md` ([English](https://github.com/exercism/csharp/blob/main/concepts/randomness/introduction.md)): [Latest](../../../locales/el/content/2e/9b/f4889837123289f76ce1db73c50bf37a4c9f.md)
+  - [`f49401bb66`](../../../locales/el/content/f4/94/01bb66f6e23e22c279b319e758fdf1a509cd.md)
+- `about.md` ([English](https://github.com/exercism/csharp/blob/main/concepts/randomness/about.md)): [Latest](../../../locales/el/content/8c/1e/25610a05ff92fe668e058e092ee4bbf76ded.md)
+  - [`3a02eeb769`](../../../locales/el/content/3a/02/eeb769a64729776dba97b4eb8c8c049d720b.md)
 
 ### Readonly Collections (Συλλογές μόνο για ανάγνωση)
 
@@ -1292,7 +1297,7 @@ This page is generated from [the index](../../json/el/csharp.json) by `scripts/b
 - `introduction.md` ([English](https://github.com/exercism/csharp/blob/main/concepts/verbatim-strings/introduction.md)): [Latest](../../../locales/el/content/75/38/524eecee5a910baea4834339310d51c04e2e.md)
 - `about.md` ([English](https://github.com/exercism/csharp/blob/main/concepts/verbatim-strings/about.md)): [Latest](../../../locales/el/content/9d/6c/fc1e2e21713d254cdbd912a80ddca8f0c953.md)
 
-### While Loops (\`while\` βρόχοι)
+### While Loops (Βρόχοι \`while\`)
 
 - `introduction.md` ([English](https://github.com/exercism/csharp/blob/main/concepts/while-loops/introduction.md)): [Latest](../../../locales/el/content/1c/a5/7916e41fd937cfe50a944817e7b16fa4d910.md)
 - `about.md` ([English](https://github.com/exercism/csharp/blob/main/concepts/while-loops/about.md)): [Latest](../../../locales/el/content/97/2e/f9a8d2199773c6d5802a67f73b8271f1a003.md)
