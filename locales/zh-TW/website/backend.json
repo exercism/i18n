@@ -1267,8 +1267,8 @@
           "description": "在大型語言模型時代，學會寫程式並打造作品。"
         },
         "jiki": {
-          "title": "用 Jiki 學習程式設計",
-          "description": "在 LLM 時代學習程式設計並打造作品。"
+          "title": "學習基礎",
+          "description": "熟悉基礎，輕鬆上手"
         }
       },
       "discover": {
@@ -2401,7 +2401,17 @@
         "description_p1_html": "程式設計的方式已經改變了，你的學習方式也必須跟著改變。Jiki 是一個全新的平台，旨在幫助你在 LLM 時代學習程式設計並打造作品。專為<strong>初學者、新手開發者，以及 vibe coder 而設計。</strong>",
         "strong_text_1": "完全新手嗎？",
         "strong_text_2": "卡在教學地獄嗎？",
-        "explore_button": "馬上開始，完全免費！"
+        "explore_button": "馬上開始，完全免費！",
+        "logo_alt": "Jiki 由 Exercism 團隊打造",
+        "title_html": "先精通%{highlight}",
+        "title_highlight": "基礎",
+        "description": "Jiki 是我們為程式新手打造的平台。我們會帶你從基礎一路走到複雜的程式，讓你開始像開發者一樣思考。",
+        "note_html": "你將做出的<br>幾個作品",
+        "prints": {
+          "space_invaders": "太空侵略者",
+          "breakout": "打磚塊",
+          "maze": "迷宮"
+        }
       }
     }
   },

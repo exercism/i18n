@@ -86,8 +86,8 @@
           "description": "Aprende a programar y a crear en la era de los LLM."
         },
         "jiki": {
-          "title": "Aprende a programar con Jiki",
-          "description": "Aprende a programar y a crear en la era de los LLM."
+          "title": "Aprende los fundamentos",
+          "description": "Toma confianza con los fundamentos"
         }
       },
       "discover": {
@@ -756,7 +756,17 @@
         "description_p1_html": "La programación ha cambiado. Tu forma de aprender también tiene que cambiar. Jiki es una plataforma totalmente nueva, diseñada para ayudarte a aprender a programar y a crear en la era de los grandes modelos de lenguaje. Pensada para <strong>principiantes, juniors y vibe coders.</strong>.",
         "strong_text_1": "¿Empiezas de cero?",
         "strong_text_2": "¿Infierno de tutoriales?",
-        "explore_button": "¡Empieza ahora, es gratis!"
+        "explore_button": "¡Empieza ahora, es gratis!",
+        "logo_alt": "Jiki, del equipo de Exercism",
+        "title_html": "Domina %{highlight} primero",
+        "title_highlight": "los fundamentos",
+        "description": "Jiki es nuestra plataforma para quienes recién empiezan a programar. Te llevamos de lo básico a programas complejos y te enseñamos a pensar como desarrollador.",
+        "note_html": "Algunas cosas<br>que vas a crear",
+        "prints": {
+          "space_invaders": "Space Invaders",
+          "breakout": "Breakout",
+          "maze": "Laberinto"
+        }
       }
     }
   },

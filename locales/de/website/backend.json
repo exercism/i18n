@@ -622,8 +622,8 @@
           "description": "Lerne programmieren und baue eigene Projekte im LLM-Zeitalter"
         },
         "jiki": {
-          "title": "Programmieren lernen mit Jiki",
-          "description": "Programmieren lernen und bauen in der LLM-Ära."
+          "title": "Lerne die Grundlagen",
+          "description": "Mach dich mit den Grundlagen vertraut"
         }
       },
       "discover": {
@@ -2536,7 +2536,17 @@
         "description_p1_html": "Das Programmieren hat sich verändert. Also muss sich auch verändern, wie du lernst. Jiki ist eine brandneue Plattform, die dir hilft, in der LLM-Ära programmieren und bauen zu lernen. Gedacht für <strong>Einsteiger, Juniors und Vibe-Coder.</strong>",
         "strong_text_1": "Ganz neu hier?",
         "strong_text_2": "Tutorial-Hölle?",
-        "explore_button": "Starte jetzt - kostenlos!"
+        "explore_button": "Starte jetzt - kostenlos!",
+        "logo_alt": "Jiki vom Team von Exercism",
+        "title_html": "Beherrsche zuerst die %{highlight}",
+        "title_highlight": "Grundlagen",
+        "description": "Jiki ist unsere Plattform für alle, die gerade programmieren lernen. Wir begleiten dich von den Grundlagen bis zu komplexen Programmen und bringen dir bei, wie ein Entwickler zu denken.",
+        "note_html": "Ein paar Dinge,<br>die du bauen wirst",
+        "prints": {
+          "space_invaders": "Space Invaders",
+          "breakout": "Breakout",
+          "maze": "Labyrinth"
+        }
       }
     }
   },

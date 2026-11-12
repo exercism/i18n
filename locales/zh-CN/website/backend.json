@@ -629,7 +629,17 @@
         "description_p1_html": "编程已经变了，学习的方式也得跟着变。Jiki 是一个全新的平台，帮你学会在 LLM 时代编程与实践开发。专为<strong>初学者、初级开发者和 vibe coding 爱好者</strong>。",
         "strong_text_1": "完全零基础？",
         "strong_text_2": "困在教程地狱里？",
-        "explore_button": "立即开始，完全免费！"
+        "explore_button": "立即开始，完全免费！",
+        "logo_alt": "由 Exercism 团队打造的 Jiki",
+        "title_html": "先掌握%{highlight}",
+        "title_highlight": "基础知识",
+        "description": "Jiki 是我们为编程新手打造的平台。我们会带你从基础起步，一路做到复杂的程序，让你像开发者一样思考。",
+        "note_html": "你会做出来的<br>几样东西",
+        "prints": {
+          "space_invaders": "Space Invaders",
+          "breakout": "Breakout",
+          "maze": "Maze"
+        }
       }
     }
   },
@@ -1735,8 +1745,8 @@
           "description": "在 LLM 时代学习编程，动手构建。"
         },
         "jiki": {
-          "title": "用 Jiki 学编程",
-          "description": "在 LLM 时代学习编程与实践开发。"
+          "title": "学习基础知识",
+          "description": "把基础知识练熟"
         }
       },
       "discover": {

@@ -2688,8 +2688,8 @@
           "description": "Térj vissza a kedvenceidhez"
         },
         "jiki": {
-          "title": "Tanulj meg programozni a Jikivel",
-          "description": "Tanulj meg programozni és alkotni az LLM-korszakban."
+          "title": "Tanuld meg az alapokat",
+          "description": "Érezd otthon magad az alapokban"
         }
       },
       "discover": {
@@ -3421,7 +3421,17 @@
         "description_p1_html": "Megváltozott a programozás. A tanulás módjának is meg kell változnia. A Jiki egy vadonatúj platform, amely segít megtanulni programozni és alkotni az LLM-korszakban. <strong>Kezdőknek, junioroknak és vibe codereknek készült.</strong>",
         "strong_text_1": "Teljesen kezdő vagy?",
         "strong_text_2": "Oktatóvideó-pokol?",
-        "explore_button": "Kezdj bele - ingyenes!"
+        "explore_button": "Kezdj bele - ingyenes!",
+        "logo_alt": "Jiki az Exercism csapatától",
+        "title_html": "Kezdd az %{highlight} elsajátításával",
+        "title_highlight": "alapok",
+        "description": "A Jiki a platformunk azoknak, akik most kezdenek programozni. Az alapoktól az összetett programokig vezetünk, és megtanítunk fejlesztőként gondolkodni.",
+        "note_html": "Néhány dolog,<br>amit megalkotsz",
+        "prints": {
+          "space_invaders": "Space Invaders",
+          "breakout": "Breakout",
+          "maze": "Labirintus"
+        }
       }
     },
     "mailer": {

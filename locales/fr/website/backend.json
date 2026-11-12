@@ -159,8 +159,8 @@
           "description": "Revois tes solutions favorites"
         },
         "jiki": {
-          "title": "Apprends à coder avec Jiki",
-          "description": "Apprends à coder et à construire des projets à l'ère des LLM."
+          "title": "Apprends les fondamentaux",
+          "description": "Mets-toi à l'aise avec les fondamentaux"
         }
       }
     },
@@ -756,7 +756,17 @@
         "description_p1_html": "Le code a changé. Ta façon d'apprendre doit changer aussi. Jiki est une toute nouvelle plateforme, conçue pour t'aider à apprendre à coder et à construire des projets à l'ère des LLM. Pensée pour les <strong>débutants, les juniors et les vibe coders.</strong>.",
         "strong_text_1": "Complètement débutant ?",
         "strong_text_2": "L'enfer des tutoriels ?",
-        "explore_button": "Commence, c'est gratuit !"
+        "explore_button": "Commence, c'est gratuit !",
+        "logo_alt": "Jiki par l'équipe d'Exercism",
+        "title_html": "Maîtrise d'abord les %{highlight}",
+        "title_highlight": "fondamentaux",
+        "description": "Jiki est notre plateforme pour les nouveaux codeurs. On te fait passer des bases aux programmes complexes et on t'apprend à penser comme un développeur.",
+        "note_html": "Quelques projets<br>que tu vas réaliser",
+        "prints": {
+          "space_invaders": "Space Invaders",
+          "breakout": "Breakout",
+          "maze": "Labyrinthe"
+        }
       }
     }
   },

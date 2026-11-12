@@ -156,8 +156,8 @@
           "description": "LLM時代のプログラミングとものづくりを学びましょう"
         },
         "jiki": {
-          "title": "Jikiでプログラミングを学ぼう",
-          "description": "LLM時代に、プログラミングとものづくりを学ぼう。"
+          "title": "基礎を学ぼう",
+          "description": "基礎をしっかり身につけよう"
         }
       },
       "discover": {
@@ -3729,7 +3729,17 @@
         "description_p1_html": "プログラミングは変わりました。学び方も変える必要があります。Jikiは、LLM時代にプログラミングとものづくりを学べるよう設計された、まったく新しいプラットフォームです。<strong>初心者、ジュニア、そしてバイブコーダー</strong>のために作られています。",
         "strong_text_1": "まったくの初心者？",
         "strong_text_2": "チュートリアル地獄にはまっていませんか？",
-        "explore_button": "今すぐ無料で始めよう！"
+        "explore_button": "今すぐ無料で始めよう！",
+        "logo_alt": "Exercismのチームが作ったJiki",
+        "title_html": "まずは%{highlight}をマスターしましょう",
+        "title_highlight": "基礎",
+        "description": "Jikiは、プログラミングを始めたばかりの人向けのプラットフォームです。基礎から複雑なプログラムまで一緒に進めていき、エンジニアのように考える力も身につきます。",
+        "note_html": "作れるもの<br>ほんの一例",
+        "prints": {
+          "space_invaders": "Space Invaders",
+          "breakout": "Breakout",
+          "maze": "迷路"
+        }
       }
     }
   },
