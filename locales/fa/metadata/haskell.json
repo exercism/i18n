@@ -275,7 +275,7 @@
   "exercise:bank-account:blurb": "حساب بانکی‌ای را شبیه‌سازی کنید که باز کردن و بستن، برداشت و واریز پول را پشتیبانی می‌کند. مراقب تراکنش‌های همزمان باشید!",
   "exercise:rail-fence-cipher:blurb": "رمزگذاری و رمزگشایی رمز حصار ریلی را پیاده‌سازی کنید.",
   "exercise:rail-fence-cipher:source": "Wikipedia",
-  "exercise:sublist:blurb": "تابعی بنویسید که تعیین کند آیا یک فهرست، زیرفهرست فهرست دیگری است یا نه.",
+  "exercise:sublist:blurb": "تعیین کنید که آیا یک لیست زیرلیست لیست دیگری است یا نه.",
   "exercise:sgf-parsing:blurb": "تجزیه‌ی یک رشته‌ی Smart Game Format.",
   "exercise:zipper:blurb": "ساختن یک زیپ برای درخت دودویی.",
   "exercise:armstrong-numbers:blurb": "تعیین کنید که آیا یک عدد، عدد آرمسترانگ است یا نه.",

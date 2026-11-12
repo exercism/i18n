@@ -275,7 +275,7 @@
   "exercise:bank-account:blurb": "খোলা/বন্ধ করা, টাকা তোলা ও জমা সমর্থন করে এমন একটি ব্যাংক অ্যাকাউন্ট সিমুলেট করুন। একসাথে চলতে থাকা লেনদেন সম্পর্কে সাবধান থাকুন!",
   "exercise:rail-fence-cipher:blurb": "রেল ফেন্স সাইফারের জন্য এনকোডিং ও ডিকোডিং বাস্তবায়ন করুন।",
   "exercise:rail-fence-cipher:source": "Wikipedia",
-  "exercise:sublist:blurb": "একটি অ্যারে অন্য একটি অ্যারের উপ-অ্যারে কি না তা নির্ণয় করার জন্য একটি ফাংশন লিখুন।",
+  "exercise:sublist:blurb": "একটি লিস্ট অন্য একটি লিস্টের সাবলিস্ট কি না তা নির্ধারণ করুন।",
   "exercise:sgf-parsing:blurb": "একটি Smart Game Format স্ট্রিং পার্স করা।",
   "exercise:zipper:blurb": "বাইনারি ট্রির জন্য একটি জিপার তৈরি করা।",
   "exercise:armstrong-numbers:blurb": "একটি সংখ্যা আর্মস্ট্রং সংখ্যা কি না তা নির্ণয় করুন।",

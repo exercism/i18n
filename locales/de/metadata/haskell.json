@@ -275,7 +275,7 @@
   "exercise:bank-account:blurb": "Simuliere ein Bankkonto, das Öffnen und Schließen, Abhebungen und Einzahlungen unterstützt. Vorsicht vor gleichzeitigen Transaktionen!",
   "exercise:rail-fence-cipher:blurb": "Implementiere das Kodieren und Dekodieren für die Zickzack-Chiffre.",
   "exercise:rail-fence-cipher:source": "Wikipedia",
-  "exercise:sublist:blurb": "Schreibe eine Funktion, die feststellt, ob eine Liste eine Teilliste einer anderen Liste ist.",
+  "exercise:sublist:blurb": "Bestimme, ob eine Liste eine Teilliste einer anderen Liste ist.",
   "exercise:sgf-parsing:blurb": "Einen String im Smart Game Format parsen.",
   "exercise:zipper:blurb": "Einen Zipper für einen Binärbaum erstellen.",
   "exercise:armstrong-numbers:blurb": "Bestimme, ob eine Zahl eine Armstrong-Zahl ist.",

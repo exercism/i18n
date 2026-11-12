@@ -275,7 +275,7 @@
   "exercise:bank-account:blurb": "Simula una cuenta bancaria que permita abrirla y cerrarla, retirar y depositar dinero. ¡Cuidado con las transacciones concurrentes!",
   "exercise:rail-fence-cipher:blurb": "Implementa la codificación y la decodificación del cifrado de valla.",
   "exercise:rail-fence-cipher:source": "Wikipedia",
-  "exercise:sublist:blurb": "Escribe una función que determine si un array es un subarray de otro array.",
+  "exercise:sublist:blurb": "Determina si un array es un subarray de otro array.",
   "exercise:sgf-parsing:blurb": "Analizar un string en formato Smart Game Format.",
   "exercise:zipper:blurb": "Crear un zipper para un árbol binario.",
   "exercise:armstrong-numbers:blurb": "Determina si un número es un número de Armstrong.",

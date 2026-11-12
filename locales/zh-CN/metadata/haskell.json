@@ -275,7 +275,7 @@
   "exercise:bank-account:blurb": "模拟一个支持开户/销户、取款和存款的银行账户。小心并发事务！",
   "exercise:rail-fence-cipher:blurb": "实现栅栏密码的编码和解码。",
   "exercise:rail-fence-cipher:source": "Wikipedia",
-  "exercise:sublist:blurb": "写一个函数，判断一个数组是否是另一个数组的子数组。",
+  "exercise:sublist:blurb": "判断一个数组是否是另一个数组的子数组。",
   "exercise:sgf-parsing:blurb": "解析 Smart Game Format 字符串。",
   "exercise:zipper:blurb": "为二叉树创建一个 Zipper。",
   "exercise:armstrong-numbers:blurb": "判断一个数是否为阿姆斯特朗数。",

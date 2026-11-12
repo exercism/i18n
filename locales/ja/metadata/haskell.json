@@ -275,7 +275,7 @@
   "exercise:bank-account:blurb": "開設・閉鎖、引き出し、入金をサポートする銀行口座をシミュレートしてください。同時トランザクションに注意してください！",
   "exercise:rail-fence-cipher:blurb": "レールフェンス暗号のエンコードとデコードを実装します。",
   "exercise:rail-fence-cipher:source": "Wikipedia",
-  "exercise:sublist:blurb": "ある配列が別の配列の部分配列かどうかを判定する関数を書きます。",
+  "exercise:sublist:blurb": "あるリストが別のリストのサブリストかどうかを判定します。",
   "exercise:sgf-parsing:blurb": "Smart Game Formatの文字列を解析します。",
   "exercise:zipper:blurb": "二分木のためのジッパーを作ります。",
   "exercise:armstrong-numbers:blurb": "ある数値がアームストロング数かどうかを判定してください。",

@@ -275,7 +275,7 @@
   "exercise:bank-account:blurb": "Simule un compte bancaire prenant en charge l'ouverture, la fermeture, les retraits et les dépôts d'argent. Attention aux transactions concurrentes !",
   "exercise:rail-fence-cipher:blurb": "Implémente l'encodage et le décodage du chiffre des rails.",
   "exercise:rail-fence-cipher:source": "Wikipedia",
-  "exercise:sublist:blurb": "Écris une fonction qui détermine si un tableau est un sous-tableau d'un autre tableau.",
+  "exercise:sublist:blurb": "Détermine si une liste est une sous-liste d'une autre liste.",
   "exercise:sgf-parsing:blurb": "Analyse une _string_ au format Smart Game Format.",
   "exercise:zipper:blurb": "Crée un zipper pour un arbre binaire.",
   "exercise:armstrong-numbers:blurb": "Détermine si un nombre est un nombre d'Armstrong.",

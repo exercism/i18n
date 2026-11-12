@@ -276,7 +276,7 @@
   "exercise:bank-account:blurb": "Szimulálj egy banki számlát, amely támogatja a nyitást/zárást, a pénzfelvételt és a befizetést. Vigyázz a párhuzamos tranzakciókra!",
   "exercise:rail-fence-cipher:blurb": "Valósítsd meg a rail fence rejtjel kódolását és dekódolását.",
   "exercise:rail-fence-cipher:source": "Wikipedia",
-  "exercise:sublist:blurb": "Írj egy függvényt, amely meghatározza, hogy egy lista egy másik lista részlistája-e.",
+  "exercise:sublist:blurb": "Határozd meg, hogy egy lista egy másik lista részlistája-e.",
   "exercise:sgf-parsing:blurb": "Egy Smart Game Format string elemzése.",
   "exercise:zipper:blurb": "Egy zipper létrehozása bináris fához.",
   "exercise:armstrong-numbers:blurb": "Állapítsd meg, hogy egy szám Armstrong-szám-e.",

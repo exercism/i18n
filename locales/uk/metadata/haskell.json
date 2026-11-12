@@ -276,7 +276,7 @@
   "exercise:bank-account:blurb": "Змоделюйте банківський рахунок, який підтримує відкриття й закриття, зняття та внесення коштів. Обережно з конкурентними транзакціями!",
   "exercise:rail-fence-cipher:blurb": "Реалізувати кодування та декодування для шифру паркану.",
   "exercise:rail-fence-cipher:source": "Wikipedia",
-  "exercise:sublist:blurb": "Написати функцію, яка визначає, чи є масив підмасивом іншого масиву.",
+  "exercise:sublist:blurb": "Визначте, чи є масив підмасивом іншого масиву.",
   "exercise:sgf-parsing:blurb": "Розбір рядка тексту (англ. string) у форматі Smart Game Format.",
   "exercise:zipper:blurb": "Створення zipper для бінарного дерева.",
   "exercise:armstrong-numbers:blurb": "Визначте, чи є число числом Армстронга.",

@@ -275,7 +275,7 @@
   "exercise:bank-account:blurb": "حاكِ حسابًا بنكيًا يدعم الفتح والإغلاق وسحب الأموال وإيداعها. احترس من المعاملات المتزامنة!",
   "exercise:rail-fence-cipher:blurb": "نفّذ الترميز وفك الترميز لشيفرة السياج.",
   "exercise:rail-fence-cipher:source": "ويكيبيديا",
-  "exercise:sublist:blurb": "اكتب دالة تحدّد ما إذا كانت مصفوفة فرعية من مصفوفة أخرى.",
+  "exercise:sublist:blurb": "حدّد ما إذا كانت مصفوفة ما مصفوفة فرعية من مصفوفة أخرى.",
   "exercise:sgf-parsing:blurb": "تحليل سلسلة نصية بصيغة Smart Game Format.",
   "exercise:zipper:blurb": "إنشاء سحّاب لشجرة ثنائية.",
   "exercise:armstrong-numbers:blurb": "حدّد ما إذا كان العدد من أعداد أرمسترونغ.",

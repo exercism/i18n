@@ -275,7 +275,7 @@
   "exercise:bank-account:blurb": "模擬一個銀行帳戶，支援開戶／關戶、提款和存款。小心並行交易！",
   "exercise:rail-fence-cipher:blurb": "實作柵欄密碼的編碼與解碼。",
   "exercise:rail-fence-cipher:source": "Wikipedia",
-  "exercise:sublist:blurb": "撰寫一個函式，判斷一個陣列是否為另一個陣列的子陣列。",
+  "exercise:sublist:blurb": "判斷某個陣列是否為另一個陣列的子陣列。",
   "exercise:sgf-parsing:blurb": "解析 Smart Game Format 字串。",
   "exercise:zipper:blurb": "為二元樹建立拉鍊。",
   "exercise:armstrong-numbers:blurb": "判斷一個數字是否為阿姆斯壯數。",
