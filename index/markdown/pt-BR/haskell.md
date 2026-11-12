@@ -96,7 +96,9 @@ This page is generated from [the index](../../json/pt-BR/haskell.json) by `scrip
 
 ### Change (Troco)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/change/.docs/instructions.md)): [Latest](../../../locales/pt-BR/content/30/fa/567750ef2666736095f166c3572ba2f331d0.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/change/.docs/instructions.md)): [Latest](../../../locales/pt-BR/content/58/87/f4cb6937d20d8dfc81f7fe369959cb0dd129.md)
+  - [`30fa567750`](../../../locales/pt-BR/content/30/fa/567750ef2666736095f166c3572ba2f331d0.md)
+- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/change/.docs/introduction.md)): [Latest](../../../locales/pt-BR/content/b4/f8/308a1b104c20cf45936c59c7b9deb2b67535.md)
 
 ### Clock (Relógio)
 
@@ -145,7 +147,9 @@ This page is generated from [the index](../../json/pt-BR/haskell.json) by `scrip
 
 ### Dominoes (Dominós)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/dominoes/.docs/instructions.md)): [Latest](../../../locales/pt-BR/content/1c/ed/9f6448fe01d161c198f319d659406de08d2c.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/dominoes/.docs/instructions.md)): [Latest](../../../locales/pt-BR/content/75/05/5b9e8925dea56b07c073de34212358dc78fc.md)
+  - [`1ced9f6448`](../../../locales/pt-BR/content/1c/ed/9f6448fe01d161c198f319d659406de08d2c.md)
+- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/dominoes/.docs/introduction.md)): [Latest](../../../locales/pt-BR/content/df/24/8c2116efac6352f52bd2a18b665ceba16433.md)
 
 ### ETL
 
