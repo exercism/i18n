@@ -159,8 +159,8 @@
           "description": "Revois tes solutions favorites"
         },
         "jiki": {
-          "title": "Apprends les fondamentaux",
-          "description": "Mets-toi à l'aise avec les fondamentaux"
+          "title": "Apprends à coder avec Jiki",
+          "description": "Apprends à coder et à créer à l'ère des grands modèles de langage (LLM)."
         }
       }
     },
