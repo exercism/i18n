@@ -310,7 +310,8 @@ This page is generated from [the index](../../json/de/go.json) by `scripts/build
 ### Linked List (Verkettete Liste)
 
 - `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/linked-list/.docs/instructions.md)): [Latest](../../../locales/de/content/ed/f4/055b38ca35950a3600fa268e267763b69a17.md)
-- `instructions.append.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/linked-list/.docs/instructions.append.md)): [Latest](../../../locales/de/content/3b/cd/ef1f6cf5363c784fe4b35135922d28cd8460.md)
+- `instructions.append.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/linked-list/.docs/instructions.append.md)): [Latest](../../../locales/de/content/1d/70/5c6cbda06759dcc46bf44504c1c3d816fb68.md)
+  - [`3bcdef1f6c`](../../../locales/de/content/3b/cd/ef1f6cf5363c784fe4b35135922d28cd8460.md)
 - `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/linked-list/.docs/introduction.md)): [Latest](../../../locales/de/content/6e/83/ae7b6e530aec64acc119d995eec9a678f228.md)
 
 ### List Ops (Listenoperationen)
@@ -781,7 +782,7 @@ This page is generated from [the index](../../json/de/go.json) by `scripts/build
 - `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/expenses/.docs/introduction.md)): [Latest](../../../locales/de/content/03/8b/ec432525f27bcfa4a0332453b5ccf77b5c23.md)
 - `hints.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/expenses/.docs/hints.md)): [Latest](../../../locales/de/content/1c/6a/1ad1a6f3543021138cf4f1cec0062105b58b.md)
 
-### Generic Set (Generisches Set)
+### generic-set (Generisches Set)
 
 - `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/generic-set/.docs/instructions.md)): [Latest](../../../locales/de/content/0c/46/8aa8a0324643b6a90645df2a1da3afc87876.md)
 - `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/generic-set/.docs/introduction.md)): [Latest](../../../locales/de/content/dc/39/070f52bd2453779e2e3e0c0c8f6cfd522e86.md)
