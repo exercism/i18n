@@ -19,8 +19,8 @@ This page is generated from [the index](../../json/zh-CN/haskell.json) by `scrip
 
 ### Affine Cipher (仿射密码)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/affine-cipher/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/4e/ff/918de78a6802897690f4044259301d140dfa.md)
-  - [`1603dbbce9`](../../../locales/zh-CN/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/affine-cipher/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
+  - [`4eff918de7`](../../../locales/zh-CN/content/4e/ff/918de78a6802897690f4044259301d140dfa.md)
 - `instructions.append.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/affine-cipher/.docs/instructions.append.md)): [Latest](../../../locales/zh-CN/content/6b/36/7c8841927bfe65e5b113d3cbf3ceba714a85.md)
 
 ### All Your Base
@@ -50,8 +50,8 @@ This page is generated from [the index](../../json/zh-CN/haskell.json) by `scrip
 
 ### Atbash Cipher (埃特巴什密码)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/atbash-cipher/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/21/ca/2ce0aa806b97f21182196eebe554c4b984ef.md)
-  - [`1e7627b1e5`](../../../locales/zh-CN/content/1e/76/27b1e5989878f0f1bf735feb1300de7a2664.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/atbash-cipher/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/1e/76/27b1e5989878f0f1bf735feb1300de7a2664.md)
+  - [`21ca2ce0aa`](../../../locales/zh-CN/content/21/ca/2ce0aa806b97f21182196eebe554c4b984ef.md)
 - `instructions.append.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/atbash-cipher/.docs/instructions.append.md)): [Latest](../../../locales/zh-CN/content/2e/ae/5c603226976322bf23ea75fce41afa05008b.md)
 
 ### Bank Account (银行账户)
@@ -77,8 +77,8 @@ This page is generated from [the index](../../json/zh-CN/haskell.json) by `scrip
 
 ### Binary Search Tree (二叉搜索树)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/binary-search-tree/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/c9/bb/ba5b96df34462caa9482f3d6a810c6686524.md)
-  - [`7625220e9a`](../../../locales/zh-CN/content/76/25/220e9a0fb2412ea4c5432e87b1309d425ff1.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/binary-search-tree/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/76/25/220e9a0fb2412ea4c5432e87b1309d425ff1.md)
+  - [`c9bbba5b96`](../../../locales/zh-CN/content/c9/bb/ba5b96df34462caa9482f3d6a810c6686524.md)
 - `instructions.append.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/binary-search-tree/.docs/instructions.append.md)): [Latest](../../../locales/zh-CN/content/f2/a4/7fbcb47d972b09ecd0121604f34ab945cb68.md)
 
 ### Bob
@@ -110,8 +110,8 @@ This page is generated from [the index](../../json/zh-CN/haskell.json) by `scrip
 
 ### Collatz Conjecture (考拉兹猜想)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/collatz-conjecture/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/ba/06/0483e4d45f77f20a8b048544aa5438022467.md)
-  - [`af332a810f`](../../../locales/zh-CN/content/af/33/2a810f0f31aa1233e92bea57721d3025f4e0.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/collatz-conjecture/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/af/33/2a810f0f31aa1233e92bea57721d3025f4e0.md)
+  - [`ba060483e4`](../../../locales/zh-CN/content/ba/06/0483e4d45f77f20a8b048544aa5438022467.md)
 - `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/collatz-conjecture/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/c3/5b/deb67dceef4bf9769dbbf473e841cdd068f2.md)
 
 ### Complex Numbers (复数)
@@ -198,8 +198,8 @@ This page is generated from [the index](../../json/zh-CN/haskell.json) by `scrip
 
 ### Grains (麦粒)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/grains/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/df/47/9fc0a174d105647e79d6c4dcaad6947b460c.md)
-  - [`f5b752a817`](../../../locales/zh-CN/content/f5/b7/52a81754e88e6e41120237c7d3b24d150e58.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/grains/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/f5/b7/52a81754e88e6e41120237c7d3b24d150e58.md)
+  - [`df479fc0a1`](../../../locales/zh-CN/content/df/47/9fc0a174d105647e79d6c4dcaad6947b460c.md)
 - `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/grains/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/0d/f4/f46f726cabcd99719756067e04d6832e52a8.md)
 
 ### Grep
@@ -241,10 +241,10 @@ This page is generated from [the index](../../json/zh-CN/haskell.json) by `scrip
 
 ### Knapsack (背包问题)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/knapsack/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/34/11/db9886a8b0e72f88fe4c4399fb965942a3d7.md)
-  - [`0ebf7914c5`](../../../locales/zh-CN/content/0e/bf/7914c5505c5fe376d5466c5c12dcff37f14c.md)
-- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/knapsack/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/9b/2b/ed8b4e9bf51cbbdfcceee9d323749ee77e0e.md)
-  - [`9ac9df596b`](../../../locales/zh-CN/content/9a/c9/df596b629552e1f89f828a734f99ebc769c7.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/knapsack/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/0e/bf/7914c5505c5fe376d5466c5c12dcff37f14c.md)
+  - [`3411db9886`](../../../locales/zh-CN/content/34/11/db9886a8b0e72f88fe4c4399fb965942a3d7.md)
+- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/knapsack/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/9a/c9/df596b629552e1f89f828a734f99ebc769c7.md)
+  - [`9b2bed8b4e`](../../../locales/zh-CN/content/9b/2b/ed8b4e9bf51cbbdfcceee9d323749ee77e0e.md)
 
 ### Largest Series Product (最大连续乘积)
 
@@ -287,8 +287,8 @@ This page is generated from [the index](../../json/zh-CN/haskell.json) by `scrip
 
 ### Meetup (聚会)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/meetup/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/00/0d/e2fd127be27c80571538cdcbbef5de8761f1.md)
-  - [`8b1bda5eb4`](../../../locales/zh-CN/content/8b/1b/da5eb4c26f8eaa3fc25d659cc05589b6f127.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/meetup/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/8b/1b/da5eb4c26f8eaa3fc25d659cc05589b6f127.md)
+  - [`000de2fd12`](../../../locales/zh-CN/content/00/0d/e2fd127be27c80571538cdcbbef5de8761f1.md)
 - `instructions.append.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/meetup/.docs/instructions.append.md)): [Latest](../../../locales/zh-CN/content/54/9d/c3e5316adfd4956e4ad109d2814b99a71d99.md)
 - `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/meetup/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/29/17/0ef1fda6839c4c8b51f1fd0af663ab860023.md)
 
@@ -307,8 +307,8 @@ This page is generated from [the index](../../json/zh-CN/haskell.json) by `scrip
 
 ### OCR Numbers (OCR 数字)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/ocr-numbers/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/7b/eb/257795750af8a41226dc35558924106c5657.md)
-  - [`8a391ce4f6`](../../../locales/zh-CN/content/8a/39/1ce4f6e1c32cd61c2140ed3e0e2e24299efd.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/ocr-numbers/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/8a/39/1ce4f6e1c32cd61c2140ed3e0e2e24299efd.md)
+  - [`7beb257795`](../../../locales/zh-CN/content/7b/eb/257795750af8a41226dc35558924106c5657.md)
 - `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/ocr-numbers/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/36/6d/76062c7f4620198bfa95f32a8341b17493c4.md)
 
 ### Octal (八进制)
@@ -334,8 +334,8 @@ This page is generated from [the index](../../json/zh-CN/haskell.json) by `scrip
 ### Pascal's Triangle (帕斯卡三角形)
 
 - `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/pascals-triangle/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/0f/58/f0069688bc7dfd1a2705cc4382f27a0609dd.md)
-- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/pascals-triangle/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/60/b8/ec30dc8dc60f313c8ec911007aed15c3df45.md)
-  - [`eab454e5a6`](../../../locales/zh-CN/content/ea/b4/54e5a6995c899f852bcd23d9af558ca9e7bd.md)
+- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/pascals-triangle/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/ea/b4/54e5a6995c899f852bcd23d9af558ca9e7bd.md)
+  - [`60b8ec30dc`](../../../locales/zh-CN/content/60/b8/ec30dc8dc60f313c8ec911007aed15c3df45.md)
 
 ### Perfect Numbers (完全数)
 
@@ -343,8 +343,8 @@ This page is generated from [the index](../../json/zh-CN/haskell.json) by `scrip
 
 ### Phone Number (电话号码)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/phone-number/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/62/ba/48e96fd2a47445a74ab075c7ef7198601815.md)
-  - [`5d4d3739f4`](../../../locales/zh-CN/content/5d/4d/3739f4563d3f7781a1524df13f11cc8fbc71.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/phone-number/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/5d/4d/3739f4563d3f7781a1524df13f11cc8fbc71.md)
+  - [`62ba48e96f`](../../../locales/zh-CN/content/62/ba/48e96fd2a47445a74ab075c7ef7198601815.md)
 - `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/phone-number/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/c4/14/2c5af7289f74bf05d04c4563e2968a639cd2.md)
 
 ### Pig Latin (猪拉丁)
@@ -375,8 +375,8 @@ This page is generated from [the index](../../json/zh-CN/haskell.json) by `scrip
 
 ### Pythagorean Triplet (毕达哥拉斯三元组)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/pythagorean-triplet/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/1c/1a/8aea61c3a2cdb8eb36a0f915a9e4fe5f49cd.md)
-  - [`ced833d7a5`](../../../locales/zh-CN/content/ce/d8/33d7a5b09a55ae68cc498c1997700bbcb45c.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/pythagorean-triplet/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/ce/d8/33d7a5b09a55ae68cc498c1997700bbcb45c.md)
+  - [`1c1a8aea61`](../../../locales/zh-CN/content/1c/1a/8aea61c3a2cdb8eb36a0f915a9e4fe5f49cd.md)
 - `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/pythagorean-triplet/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/34/53/c6ed48f511c52467f009f5483cd0664caea2.md)
 
 ### Queen Attack (皇后攻击)
@@ -446,8 +446,8 @@ This page is generated from [the index](../../json/zh-CN/haskell.json) by `scrip
 
 ### Saddle Points (鞍点)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/saddle-points/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/c5/85/568b4623765c3f860779d107521d27e35d34.md)
-  - [`f69cdab958`](../../../locales/zh-CN/content/f6/9c/dab9584a340834264ecee97cfd6df709cd21.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/saddle-points/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/f6/9c/dab9584a340834264ecee97cfd6df709cd21.md)
+  - [`c585568b46`](../../../locales/zh-CN/content/c5/85/568b4623765c3f860779d107521d27e35d34.md)
 - `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/saddle-points/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/34/b2/c77e0cfd255425411a905ec311019c2d7375.md)
 
 ### Satellite (卫星)
@@ -480,14 +480,14 @@ This page is generated from [the index](../../json/zh-CN/haskell.json) by `scrip
 
 ### Sieve (筛法)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/sieve/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/08/5c/0a57d96c7cd846a7948241899ce46778f01d.md)
-  - [`71292e1782`](../../../locales/zh-CN/content/71/29/2e1782dc95e0430ae2b614e1d740dd41639f.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/sieve/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/71/29/2e1782dc95e0430ae2b614e1d740dd41639f.md)
+  - [`085c0a57d9`](../../../locales/zh-CN/content/08/5c/0a57d96c7cd846a7948241899ce46778f01d.md)
 - `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/sieve/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/f6/c1/cf79a9d4ccf67f1ed34dabb8ab0a58030358.md)
 
 ### Simple Cipher (简单密码)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/simple-cipher/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/47/5a/f61828f2d53e65f912b0f0cb94b26702daee.md)
-  - [`afd0b57da9`](../../../locales/zh-CN/content/af/d0/b57da930f59595d830df56eb0c9e891e83f4.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/simple-cipher/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/af/d0/b57da930f59595d830df56eb0c9e891e83f4.md)
+  - [`475af61828`](../../../locales/zh-CN/content/47/5a/f61828f2d53e65f912b0f0cb94b26702daee.md)
 
 ### Simple Linked List (简单链表)
 
