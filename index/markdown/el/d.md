@@ -87,6 +87,7 @@ This page is generated from [the index](../../json/el/d.json) by `scripts/build-
 ### Crypto Square (Κρυπτογραφικό τετράγωνο)
 
 - `instructions.md` ([English](https://github.com/exercism/d/blob/main/exercises/practice/crypto-square/.docs/instructions.md)): [Latest](../../../locales/el/content/6c/38/26ee558d8a2ef2b7d20a2b41f2eaf31ec5cd.md)
+- `instructions.append.md` ([English](https://github.com/exercism/d/blob/main/exercises/practice/crypto-square/.docs/instructions.append.md)): [Latest](../../../locales/el/content/b2/5e/ab60022df3133f068f9bc5b15af0afb9a0a6.md)
 
 ### D&D Character (Χαρακτήρας D&D)
 
