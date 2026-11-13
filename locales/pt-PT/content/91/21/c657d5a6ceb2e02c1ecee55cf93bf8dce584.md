@@ -1,0 +1,93 @@
+# Acerca de
+
+Os dois tipos principais de propriedades são:
+
+1. As propriedades autoimplementadas, em que os accessores `get` e `set` não têm corpo.
+   Podem ou não ser explicitamente inicializadas.
+   Por exemplo:
+
+   ```csharp
+   public int MyProperty { get; set; } = 42;
+   ```
+
+2. Aquelas em que os accessores avaliam expressões e executam instruções.
+   O código pode ser tão simples como devolver ou atribuir um campo de apoio.
+   Por exemplo:
+
+   ```csharp
+   private int myField;
+   public int MyProperty
+   {
+     get { return myField; }
+     set { myField = value; }
+   }
+   ```
+
+Existe uma sobreposição considerável de comportamento e de capacidades entre propriedades e métodos.
+Quando não são autoimplementadas, as propriedades podem conter qualquer instrução ou expressão
+que possa aparecer dentro do âmbito da classe. Num caso comum, são frequentemente descritas
+como envolvendo um campo de apoio.
+Embora muitas vezes seja óbvio se devemos escrever um comportamento como propriedade ou como método num determinado caso, é
+frequentemente uma questão de julgamento para quem programa, em particular quanto código deve ser
+executado dentro dos accessores. A validação num accessor set e o cálculo ou formatação simples num
+accessor get são comuns:
+
+```csharp
+private float fraction;
+public float Percentage
+{
+  get { return fraction * 100; }
+  set
+  {
+    if (value < 0 || value > 100)
+    {
+      throw new ArgumentException("Percentage must be between 0 and 100");
+    }
+    fraction = value / 100;
+  }
+}
+```
+
+De forma semelhante a outros membros da classe, as propriedades podem ter níveis de acesso.
+Na maioria dos casos, as propriedades têm um nível de acesso não privado, em linha com
+o seu propósito essencial. Por vezes, um dos accessores tem
+um nível de acesso diferente do da propriedade. No caso de `TareWeight`,
+sob a restrição de "segurança" um tanto artificial, havia a oportunidade
+de ter uma propriedade pública com um getter privado. Isto significa que o código externo
+à classe pode definir o valor da propriedade, mas esta só pode ser lida (get) por código dentro
+da classe.
+
+```csharp
+public int ConfidentialValueUsedInternally { private get; set; }
+```
+
+Também são suportados accessores set não públicos, mas o caso mais comum é aquele em que
+o accessor set pode ser omitido por completo. Talvez porque
+o valor da propriedade é definido no construtor da classe.
+
+```csharp
+class MyClass
+{
+  public MyClass(int importantValue)
+  {
+    ConstructedValue = importantValue;
+  }
+  public int ConstructedValue { get; }
+}
+```
+
+Este exercício abordou a utilização básica das propriedades. Vais encontrar tópicos mais avançados
+noutros exercícios:
+
+- propriedades com corpo de expressão, accessores get e accessores set (abordado por [Membros com corpo de expressão][[concept-expression-bodied-members]])
+- propriedades em interfaces (abordado por [Interfaces][concept-interfaces])
+- propriedades/propriedades abstratas em classes abstratas (abordado por [Herança][concept-inheritance])
+- utilização da palavra-chave `readonly` com propriedades (abordado por [Coleções só de leitura][concept-readonly-collections])
+- propriedades estáticas (abordado por Estáticos)
+- indexadores (abordado por [Indexadores][concept-indexers])
+
+[concept-expression-bodied-members]: https://exercism.org/tracks/csharp/concepts/expression-bodied-members
+[concept-interfaces]: https://exercism.org/tracks/csharp/concepts/interfaces
+[concept-inheritance]: https://exercism.org/tracks/csharp/concepts/inheritance
+[concept-readonly-collections]: https://exercism.org/tracks/csharp/concepts/readonly-collections
+[concept-indexers]: https://exercism.org/tracks/csharp/concepts/indexers

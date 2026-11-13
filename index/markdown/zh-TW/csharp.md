@@ -922,8 +922,10 @@ This page is generated from [the index](../../json/zh-TW/csharp.json) by `script
 
 ### Weighing Machine (體重計)
 
-- `instructions.md` ([English](https://github.com/exercism/csharp/blob/main/exercises/concept/weighing-machine/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/db/70/d7d7722414f2a22243138702afbc52c1a4d7.md)
-- `introduction.md` ([English](https://github.com/exercism/csharp/blob/main/exercises/concept/weighing-machine/.docs/introduction.md)): [Latest](../../../locales/zh-TW/content/b4/90/b3db2abd68e1dc915dcd04f89410df63136a.md)
+- `instructions.md` ([English](https://github.com/exercism/csharp/blob/main/exercises/concept/weighing-machine/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/2e/4b/b43e43ca2b0eea5ca3898e2a1d31cef89d84.md)
+  - [`db70d7d772`](../../../locales/zh-TW/content/db/70/d7d7722414f2a22243138702afbc52c1a4d7.md)
+- `introduction.md` ([English](https://github.com/exercism/csharp/blob/main/exercises/concept/weighing-machine/.docs/introduction.md)): [Latest](../../../locales/zh-TW/content/de/8c/903128d376119cc7d4398012c266f6b4b589.md)
+  - [`b490b3db2a`](../../../locales/zh-TW/content/b4/90/b3db2abd68e1dc915dcd04f89410df63136a.md)
 - `hints.md` ([English](https://github.com/exercism/csharp/blob/main/exercises/concept/weighing-machine/.docs/hints.md)): [Latest](../../../locales/zh-TW/content/0f/c5/662241ff59142d3a38a59e3d8b762dae1f5f.md)
 
 ### Wizards and Warriors (巫師與戰士)
@@ -1197,8 +1199,10 @@ This page is generated from [the index](../../json/zh-TW/csharp.json) by `script
 
 ### Properties (屬性)
 
-- `introduction.md` ([English](https://github.com/exercism/csharp/blob/main/concepts/properties/introduction.md)): [Latest](../../../locales/zh-TW/content/0e/f0/964175bc9fd1bbd0fc69965b4321dec2f014.md)
-- `about.md` ([English](https://github.com/exercism/csharp/blob/main/concepts/properties/about.md)): [Latest](../../../locales/zh-TW/content/af/e0/1e847e13e8e2f6f7a0253afe6c567524ec5e.md)
+- `introduction.md` ([English](https://github.com/exercism/csharp/blob/main/concepts/properties/introduction.md)): [Latest](../../../locales/zh-TW/content/e1/b7/2d66f0161c6a1976bc622815184c9a0497ec.md)
+  - [`0ef0964175`](../../../locales/zh-TW/content/0e/f0/964175bc9fd1bbd0fc69965b4321dec2f014.md)
+- `about.md` ([English](https://github.com/exercism/csharp/blob/main/concepts/properties/about.md)): [Latest](../../../locales/zh-TW/content/91/21/c657d5a6ceb2e02c1ecee55cf93bf8dce584.md)
+  - [`afe01e847e`](../../../locales/zh-TW/content/af/e0/1e847e13e8e2f6f7a0253afe6c567524ec5e.md)
 
 ### Randomness (隨機性)
 
