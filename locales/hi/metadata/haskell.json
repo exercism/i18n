@@ -66,7 +66,7 @@
   "exercise:beer-song:name": "बियर गीत",
   "exercise:list-ops:name": "ऐरे ऑपरेशन",
   "exercise:matrix:name": "मैट्रिक्स (अप्रचलित)",
-  "exercise:binary-search:name": "बाइनरी सर्च",
+  "exercise:binary-search:name": "बाइनरी सर्च (अप्रचलित)",
   "exercise:parallel-letter-frequency:name": "समानांतर अक्षर आवृत्ति",
   "exercise:transpose:name": "ट्रांसपोज़",
   "exercise:poker:name": "पोकर",
@@ -379,5 +379,8 @@
   "exercise:grid:source": "JumpstartLab टीम द्वारा The Turing School of Software and Design के छात्रों के लिए बनाया गया अभ्यास।",
   "exercise:pronounce:name": "कहिए",
   "exercise:pronounce:blurb": "0 से 999,999,999,999 तक की कोई संख्या दी गई हो तो उस संख्या को अंग्रेज़ी में लिखकर बताइए।",
-  "exercise:pronounce:source": "JavaRanch CattleDrive, Assignment 4 का एक रूपांतर"
+  "exercise:pronounce:source": "JavaRanch CattleDrive, Assignment 4 का एक रूपांतर",
+  "exercise:binary-chop:name": "बाइनरी सर्च",
+  "exercise:binary-chop:blurb": "बाइनरी सर्च एल्गोरिदम लागू कीजिए।",
+  "exercise:binary-chop:source": "Wikipedia"
 }

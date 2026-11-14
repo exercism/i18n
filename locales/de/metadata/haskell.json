@@ -66,7 +66,7 @@
   "exercise:beer-song:name": "Bierlied",
   "exercise:list-ops:name": "Listenoperationen",
   "exercise:matrix:name": "Matrix (veraltet)",
-  "exercise:binary-search:name": "Binäre Suche",
+  "exercise:binary-search:name": "Binäre Suche (veraltet)",
   "exercise:parallel-letter-frequency:name": "Parallele Buchstabenhäufigkeit",
   "exercise:transpose:name": "Transponieren",
   "exercise:poker:name": "Poker",
@@ -379,5 +379,8 @@
   "exercise:grid:source": "Übung des JumpstartLab-Teams für Studierende der Turing School of Software and Design.",
   "exercise:pronounce:name": "Sag",
   "exercise:pronounce:blurb": "Schreibe eine Zahl von 0 bis 999.999.999.999 in englischen Wörtern aus.",
-  "exercise:pronounce:source": "Eine Variante des JavaRanch CattleDrive, Assignment 4"
+  "exercise:pronounce:source": "Eine Variante des JavaRanch CattleDrive, Assignment 4",
+  "exercise:binary-chop:name": "Binäre Suche",
+  "exercise:binary-chop:blurb": "Implementiere einen Algorithmus für die binäre Suche.",
+  "exercise:binary-chop:source": "Wikipedia"
 }

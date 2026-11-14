@@ -66,7 +66,7 @@
   "exercise:beer-song:name": "맥주 노래",
   "exercise:list-ops:name": "배열 연산",
   "exercise:matrix:name": "행렬 (사용 중단)",
-  "exercise:binary-search:name": "이진 탐색",
+  "exercise:binary-search:name": "이진 탐색 (사용 중단)",
   "exercise:parallel-letter-frequency:name": "병렬 문자 빈도",
   "exercise:transpose:name": "전치",
   "exercise:poker:name": "포커",
@@ -379,5 +379,8 @@
   "exercise:grid:source": "JumpstartLab 팀이 The Turing School of Software and Design 학생들을 위해 만든 연습 문제예요.",
   "exercise:pronounce:name": "말하기",
   "exercise:pronounce:blurb": "0부터 999,999,999,999까지의 숫자가 주어지면, 그 숫자를 영어로 풀어 써요.",
-  "exercise:pronounce:source": "JavaRanch CattleDrive, Assignment 4를 변형한 문제예요."
+  "exercise:pronounce:source": "JavaRanch CattleDrive, Assignment 4를 변형한 문제예요.",
+  "exercise:binary-chop:name": "이진 탐색",
+  "exercise:binary-chop:blurb": "이진 탐색 알고리즘을 구현해요.",
+  "exercise:binary-chop:source": "Wikipedia"
 }

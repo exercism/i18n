@@ -66,7 +66,7 @@
   "exercise:beer-song:name": "Τραγούδι της Μπίρας",
   "exercise:list-ops:name": "Λειτουργίες λίστας",
   "exercise:matrix:name": "Πίνακας (παρωχημένος)",
-  "exercise:binary-search:name": "Δυαδική Αναζήτηση",
+  "exercise:binary-search:name": "Δυαδική Αναζήτηση (παρωχημένο)",
   "exercise:parallel-letter-frequency:name": "Παράλληλη συχνότητα γραμμάτων",
   "exercise:transpose:name": "Αντιμετάθεση",
   "exercise:poker:name": "Πόκερ",
@@ -381,5 +381,8 @@
   "exercise:grid:source": "Άσκηση από την ομάδα JumpstartLab για τους σπουδαστές του The Turing School of Software and Design.",
   "exercise:pronounce:name": "Πες",
   "exercise:pronounce:blurb": "Με δεδομένο έναν αριθμό από το 0 έως το 999.999.999.999, γράψε τον αριθμό ολογράφως στα αγγλικά.",
-  "exercise:pronounce:source": "Μια παραλλαγή του JavaRanch CattleDrive, Εργασία 4"
+  "exercise:pronounce:source": "Μια παραλλαγή του JavaRanch CattleDrive, Εργασία 4",
+  "exercise:binary-chop:name": "Δυαδική Αναζήτηση",
+  "exercise:binary-chop:blurb": "Υλοποίησε έναν αλγόριθμο δυαδικής αναζήτησης.",
+  "exercise:binary-chop:source": "Wikipedia"
 }

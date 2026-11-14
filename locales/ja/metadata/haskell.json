@@ -66,7 +66,7 @@
   "exercise:beer-song:name": "ビールの歌",
   "exercise:list-ops:name": "配列操作",
   "exercise:matrix:name": "行列（非推奨）",
-  "exercise:binary-search:name": "二分探索",
+  "exercise:binary-search:name": "二分探索（非推奨）",
   "exercise:parallel-letter-frequency:name": "並列文字頻度",
   "exercise:transpose:name": "転置",
   "exercise:poker:name": "ポーカー",
@@ -379,5 +379,8 @@
   "exercise:grid:source": "JumpstartLabチームによる、The Turing School of Software and Designの学生向けの演習",
   "exercise:pronounce:name": "言う",
   "exercise:pronounce:blurb": "0から999,999,999,999までの数値が与えられたら、その数値を英語で書き表します。",
-  "exercise:pronounce:source": "JavaRanch CattleDriveのAssignment 4をアレンジしたもの"
+  "exercise:pronounce:source": "JavaRanch CattleDriveのAssignment 4をアレンジしたもの",
+  "exercise:binary-chop:name": "二分探索",
+  "exercise:binary-chop:blurb": "二分探索アルゴリズムを実装してください。",
+  "exercise:binary-chop:source": "Wikipedia"
 }

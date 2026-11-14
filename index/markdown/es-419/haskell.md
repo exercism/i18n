@@ -71,6 +71,12 @@ This page is generated from [the index](../../json/es-419/haskell.json) by `scri
 
 ### Binary Search (Búsqueda binaria)
 
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/binary-chop/.docs/instructions.md)): [Latest](../../../locales/es-419/content/12/f4/358ebcd8c63ffc623eca661c55da4419e410.md)
+- `instructions.append.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/binary-chop/.docs/instructions.append.md)): [Latest](../../../locales/es-419/content/57/b8/3875d0c005bb2a5dd92b27fe0f7896e7936b.md)
+- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/binary-chop/.docs/introduction.md)): [Latest](../../../locales/es-419/content/03/49/6599e75d565905a3ce892520576b7db35990.md)
+
+### Binary Search (deprecated) (Búsqueda binaria (obsoleta))
+
 - `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/binary-search/.docs/instructions.md)): [Latest](../../../locales/es-419/content/12/f4/358ebcd8c63ffc623eca661c55da4419e410.md)
 - `instructions.append.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/binary-search/.docs/instructions.append.md)): [Latest](../../../locales/es-419/content/57/b8/3875d0c005bb2a5dd92b27fe0f7896e7936b.md)
 - `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/binary-search/.docs/introduction.md)): [Latest](../../../locales/es-419/content/03/49/6599e75d565905a3ce892520576b7db35990.md)
@@ -464,7 +470,7 @@ This page is generated from [the index](../../json/es-419/haskell.json) by `scri
 - `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/pronounce/.docs/instructions.md)): [Latest](../../../locales/es-419/content/32/51/c519acefd3c98f5ecf6edf4cb11db4290468.md)
 - `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/pronounce/.docs/introduction.md)): [Latest](../../../locales/es-419/content/ab/d2/2851ef7557171c636e876d5c7d19495f8421.md)
 
-### Say (deprecated) (Decir (obsoleto))
+### Say (Decir (obsoleto))
 
 - `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/say/.docs/instructions.md)): [Latest](../../../locales/es-419/content/ad/3d/347782e2cbdd3e40cdabde2b31c5bc18fc41.md)
 

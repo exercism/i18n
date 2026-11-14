@@ -66,7 +66,7 @@
   "exercise:beer-song:name": "বিয়ারের গান",
   "exercise:list-ops:name": "অ্যারে অপারেশন",
   "exercise:matrix:name": "ম্যাট্রিক্স (ডেপ্রিকেটেড)",
-  "exercise:binary-search:name": "বাইনারি সার্চ",
+  "exercise:binary-search:name": "বাইনারি সার্চ (অপ্রচলিত)",
   "exercise:parallel-letter-frequency:name": "প্যারালাল অক্ষর ফ্রিকোয়েন্সি",
   "exercise:transpose:name": "ট্রান্সপোজ",
   "exercise:poker:name": "পোকার",
@@ -379,5 +379,8 @@
   "exercise:grid:source": "The Turing School of Software and Design-এর শিক্ষার্থীদের জন্য JumpstartLab দলের তৈরি অনুশীলনী।",
   "exercise:pronounce:name": "বলুন",
   "exercise:pronounce:blurb": "০ থেকে ৯৯৯,৯৯৯,৯৯৯,৯৯৯ পর্যন্ত একটি সংখ্যা দেওয়া হলে সেই সংখ্যাটি ইংরেজিতে বানান করে লিখুন।",
-  "exercise:pronounce:source": "JavaRanch CattleDrive, Assignment 4-এর একটি ভিন্ন রূপ"
+  "exercise:pronounce:source": "JavaRanch CattleDrive, Assignment 4-এর একটি ভিন্ন রূপ",
+  "exercise:binary-chop:name": "বাইনারি সার্চ",
+  "exercise:binary-chop:blurb": "একটি বাইনারি সার্চ অ্যালগরিদম ইমপ্লিমেন্ট করুন।",
+  "exercise:binary-chop:source": "Wikipedia"
 }

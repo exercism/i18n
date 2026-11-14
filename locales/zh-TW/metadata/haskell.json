@@ -66,7 +66,7 @@
   "exercise:beer-song:name": "啤酒之歌",
   "exercise:list-ops:name": "陣列操作",
   "exercise:matrix:name": "矩陣（已棄用）",
-  "exercise:binary-search:name": "二分搜尋",
+  "exercise:binary-search:name": "二分搜尋（已棄用）",
   "exercise:parallel-letter-frequency:name": "平行字母頻率",
   "exercise:transpose:name": "轉置",
   "exercise:poker:name": "撲克",
@@ -379,5 +379,8 @@
   "exercise:grid:source": "由 JumpstartLab 團隊為 The Turing School of Software and Design 的學生所設計的練習。",
   "exercise:pronounce:name": "說出來",
   "exercise:pronounce:blurb": "給定一個 0 到 999,999,999,999 之間的數字，用英文拼出這個數字。",
-  "exercise:pronounce:source": "改編自 JavaRanch CattleDrive 的作業 4"
+  "exercise:pronounce:source": "改編自 JavaRanch CattleDrive 的作業 4",
+  "exercise:binary-chop:name": "二分搜尋",
+  "exercise:binary-chop:blurb": "實作二分搜尋演算法。",
+  "exercise:binary-chop:source": "Wikipedia"
 }

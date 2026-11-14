@@ -66,7 +66,7 @@
   "exercise:beer-song:name": "آهنگ آبجو",
   "exercise:list-ops:name": "عملیات لیست",
   "exercise:matrix:name": "ماتریس (منسوخ)",
-  "exercise:binary-search:name": "جست‌وجوی دودویی",
+  "exercise:binary-search:name": "جستوجوی دودویی (منسوخ)",
   "exercise:parallel-letter-frequency:name": "فراوانی موازی حروف",
   "exercise:transpose:name": "ترانهاده",
   "exercise:poker:name": "پوکر",
@@ -379,5 +379,8 @@
   "exercise:grid:source": "تمرینی از تیم JumpstartLab برای دانشجویان The Turing School of Software and Design.",
   "exercise:pronounce:name": "گفتن",
   "exercise:pronounce:blurb": "با گرفتن عددی از ۰ تا ۹۹۹٬۹۹۹٬۹۹۹٬۹۹۹، آن عدد را به حروف انگلیسی بنویسید.",
-  "exercise:pronounce:source": "نسخه‌ای متفاوت از JavaRanch CattleDrive، Assignment 4"
+  "exercise:pronounce:source": "نسخه‌ای متفاوت از JavaRanch CattleDrive، Assignment 4",
+  "exercise:binary-chop:name": "جست‌وجوی دودویی",
+  "exercise:binary-chop:blurb": "الگوریتم جست‌وجوی دودویی را پیاده‌سازی کنید.",
+  "exercise:binary-chop:source": "Wikipedia"
 }

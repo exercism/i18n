@@ -66,7 +66,7 @@
   "exercise:beer-song:name": "Sördal",
   "exercise:list-ops:name": "Listaműveletek",
   "exercise:matrix:name": "Mátrix (elavult)",
-  "exercise:binary-search:name": "Bináris keresés",
+  "exercise:binary-search:name": "Bináris keresés (elavult)",
   "exercise:parallel-letter-frequency:name": "Párhuzamos betűgyakoriság",
   "exercise:transpose:name": "Transzponálás",
   "exercise:poker:name": "Póker",
@@ -381,5 +381,8 @@
   "exercise:grid:source": "Feladat a JumpstartLab csapatától a The Turing School of Software and Design tanulóinak.",
   "exercise:pronounce:name": "Mondd",
   "exercise:pronounce:blurb": "Egy 0 és 999 999 999 999 közötti számot írj ki betűvel angolul.",
-  "exercise:pronounce:source": "A JavaRanch CattleDrive 4. feladatának egy változata"
+  "exercise:pronounce:source": "A JavaRanch CattleDrive 4. feladatának egy változata",
+  "exercise:binary-chop:name": "Bináris keresés",
+  "exercise:binary-chop:blurb": "Valósítsd meg a bináris keresés algoritmusát.",
+  "exercise:binary-chop:source": "Wikipedia"
 }

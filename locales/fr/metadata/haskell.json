@@ -65,7 +65,7 @@
   "exercise:beer-song:name": "Chanson de la bière",
   "exercise:list-ops:name": "Opérations sur les tableaux",
   "exercise:matrix:name": "Matrice (obsolète)",
-  "exercise:binary-search:name": "Recherche binaire",
+  "exercise:binary-search:name": "Recherche binaire (obsolète)",
   "exercise:parallel-letter-frequency:name": "Fréquence des lettres en parallèle",
   "exercise:transpose:name": "Transpose",
   "exercise:poker:name": "Poker",
@@ -381,5 +381,8 @@
   "exercise:grid:source": "Exercice proposé par l'équipe JumpstartLab pour les étudiants de The Turing School of Software and Design.",
   "exercise:pronounce:name": "Dis",
   "exercise:pronounce:blurb": "Étant donné un nombre de 0 à 999 999 999 999, écrire ce nombre en toutes lettres en anglais.",
-  "exercise:pronounce:source": "Une variation sur le JavaRanch CattleDrive, Assignment 4"
+  "exercise:pronounce:source": "Une variation sur le JavaRanch CattleDrive, Assignment 4",
+  "exercise:binary-chop:name": "Recherche binaire",
+  "exercise:binary-chop:blurb": "Implémente un algorithme de recherche binaire.",
+  "exercise:binary-chop:source": "Wikipedia"
 }

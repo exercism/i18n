@@ -66,7 +66,7 @@
   "exercise:beer-song:name": "Canción de la cerveza",
   "exercise:list-ops:name": "Operaciones con arrays",
   "exercise:matrix:name": "Matriz (obsoleta)",
-  "exercise:binary-search:name": "Búsqueda binaria",
+  "exercise:binary-search:name": "Búsqueda binaria (obsoleta)",
   "exercise:parallel-letter-frequency:name": "Frecuencia de letras en paralelo",
   "exercise:transpose:name": "Transposición",
   "exercise:poker:name": "Póker",
@@ -379,5 +379,8 @@
   "exercise:grid:source": "Ejercicio del equipo de JumpstartLab para estudiantes de The Turing School of Software and Design.",
   "exercise:pronounce:name": "Decir",
   "exercise:pronounce:blurb": "Dado un número del 0 al 999.999.999.999, escribe ese número con letras en inglés.",
-  "exercise:pronounce:source": "Una variación del JavaRanch CattleDrive, Assignment 4"
+  "exercise:pronounce:source": "Una variación del JavaRanch CattleDrive, Assignment 4",
+  "exercise:binary-chop:name": "Búsqueda binaria",
+  "exercise:binary-chop:blurb": "Implementa un algoritmo de búsqueda binaria.",
+  "exercise:binary-chop:source": "Wikipedia"
 }

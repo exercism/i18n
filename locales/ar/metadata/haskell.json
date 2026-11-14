@@ -66,7 +66,7 @@
   "exercise:beer-song:name": "أغنية البيرة",
   "exercise:list-ops:name": "عمليات القوائم",
   "exercise:matrix:name": "المصفوفة (مهجورة)",
-  "exercise:binary-search:name": "البحث الثنائي",
+  "exercise:binary-search:name": "البحث الثنائي (مهمَل)",
   "exercise:parallel-letter-frequency:name": "تكرار الحروف بالتوازي",
   "exercise:transpose:name": "التبديل",
   "exercise:poker:name": "البوكر",
@@ -379,5 +379,8 @@
   "exercise:grid:source": "تمرين من فريق JumpstartLab لطلاب The Turing School of Software and Design.",
   "exercise:pronounce:name": "قل",
   "exercise:pronounce:blurb": "إذا أُعطيت عددًا من 0 إلى 999,999,999,999، فاكتب هذا العدد بالحروف بالإنجليزية.",
-  "exercise:pronounce:source": "تنويع على JavaRanch CattleDrive، Assignment 4"
+  "exercise:pronounce:source": "تنويع على JavaRanch CattleDrive، Assignment 4",
+  "exercise:binary-chop:name": "البحث الثنائي",
+  "exercise:binary-chop:blurb": "نفّذ خوارزمية بحث ثنائي.",
+  "exercise:binary-chop:source": "ويكيبيديا"
 }
