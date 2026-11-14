@@ -466,5 +466,8 @@
   "concept:randomness:blurb": "Juliaには、モデリングやシミュレーションのために乱数を生成する方法が豊富に用意されています。",
   "concept:statistics:blurb": "Juliaには非常に幅広い統計関数があり、その多くはStatisticsモジュールに移されました。",
   "concept:rational-numbers:blurb": "有理数とは、2つの整数の比、つまり分数のことです。Juliaでは標準的な数値型の1つです。",
-  "concept:complex-numbers:blurb": "複素数は、工学や自然科学で非常に広く使われています。Juliaでは標準的な数値型の1つです。"
+  "concept:complex-numbers:blurb": "複素数は、工学や自然科学で非常に広く使われています。Juliaでは標準的な数値型の1つです。",
+  "exercise:zebra-puzzle:name": "シマウマのパズル",
+  "exercise:zebra-puzzle:blurb": "シマウマのパズルを解きます。",
+  "exercise:zebra-puzzle:source": "Wikipedia"
 }

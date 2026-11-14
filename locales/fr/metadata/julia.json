@@ -466,5 +466,8 @@
   "concept:chars:blurb": "Julia a été conçu dès le départ pour utiliser des caractères Unicode plutôt que de l'ASCII.",
   "concept:tuples:blurb": "Les tuples sont similaires aux tableaux, mais immuables. Leurs éléments individuels peuvent avoir des noms.",
   "concept:pairs-and-dicts:blurb": "Un Dict est une collection de Pairs clé => valeur, mais le même type Pair a de nombreux autres usages.",
-  "concept:nothingness:blurb": "Julia utilise nothing pour l'absence totale de valeur, missing pour les lacunes dans notre connaissance des données, NaN pour les problèmes de calcul et unknown pour certains types d'état d'erreur."
+  "concept:nothingness:blurb": "Julia utilise nothing pour l'absence totale de valeur, missing pour les lacunes dans notre connaissance des données, NaN pour les problèmes de calcul et unknown pour certains types d'état d'erreur.",
+  "exercise:zebra-puzzle:name": "Énigme du zèbre",
+  "exercise:zebra-puzzle:blurb": "Résous l'énigme du zèbre.",
+  "exercise:zebra-puzzle:source": "Wikipedia"
 }

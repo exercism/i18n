@@ -466,5 +466,8 @@
   "concept:tuples:blurb": "튜플은 배열과 비슷하지만 불변이에요. 각 항목에는 이름을 붙일 수 있어요.",
   "concept:pairs-and-dicts:blurb": "Dict는 key => value 쌍의 컬렉션이지만, 같은 Pair 타입은 다른 용도로도 많이 쓰여요.",
   "concept:nothingness:blurb": "Julia는 값이 완전히 없음을 나타낼 때 nothing을, 데이터에 대한 지식의 공백을 나타낼 때 missing을, 계산 문제를 나타낼 때 NaN을, 일부 오류 상태를 나타낼 때 unknown을 사용해요.",
-  "concept:randomness:blurb": "Julia는 모델링과 시뮬레이션을 위한 무작위 값을 생성하는 다양한 방법을 제공해요."
+  "concept:randomness:blurb": "Julia는 모델링과 시뮬레이션을 위한 무작위 값을 생성하는 다양한 방법을 제공해요.",
+  "exercise:zebra-puzzle:name": "얼룩말 퍼즐",
+  "exercise:zebra-puzzle:blurb": "얼룩말 퍼즐을 풀어요.",
+  "exercise:zebra-puzzle:source": "Wikipedia"
 }

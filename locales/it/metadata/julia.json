@@ -466,5 +466,8 @@
   "concept:chars:blurb": "Julia è stata progettata fin dall'inizio per usare caratteri Unicode invece di ASCII.",
   "concept:tuples:blurb": "Le tuple sono simili agli array, ma immutabili. Le singole voci possono avere un nome.",
   "concept:pairs-and-dicts:blurb": "Un Dict è una collezione di Pair chiave => valore, anche se lo stesso tipo Pair ha molti altri usi.",
-  "concept:nothingness:blurb": "Julia usa nothing per la completa assenza di un valore, missing per le lacune nella nostra conoscenza dei dati, NaN per i problemi di calcolo e unknown per alcuni tipi di stato di errore."
+  "concept:nothingness:blurb": "Julia usa nothing per la completa assenza di un valore, missing per le lacune nella nostra conoscenza dei dati, NaN per i problemi di calcolo e unknown per alcuni tipi di stato di errore.",
+  "exercise:zebra-puzzle:name": "Puzzle della zebra",
+  "exercise:zebra-puzzle:blurb": "Risolvi il puzzle della zebra.",
+  "exercise:zebra-puzzle:source": "Wikipedia"
 }

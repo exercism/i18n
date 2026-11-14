@@ -466,5 +466,8 @@
   "concept:chars:blurb": "Julia 从一开始就被设计为使用 Unicode 字符，而不是 ASCII。",
   "concept:tuples:blurb": "元组与数组类似，但不可变。其中的各个条目可以有名字。",
   "concept:pairs-and-dicts:blurb": "Dict 是由`key => value`这样的键值对组成的集合，不过同一种 Pair 类型还有许多其他用途。",
-  "concept:nothingness:blurb": "Julia 用 nothing 表示值的完全缺失，用 missing 表示数据认知上的空缺，用 NaN 表示计算上的问题，用 unknown 表示某些类型的错误状态。"
+  "concept:nothingness:blurb": "Julia 用 nothing 表示值的完全缺失，用 missing 表示数据认知上的空缺，用 NaN 表示计算上的问题，用 unknown 表示某些类型的错误状态。",
+  "exercise:zebra-puzzle:name": "斑马谜题",
+  "exercise:zebra-puzzle:blurb": "解开斑马谜题。",
+  "exercise:zebra-puzzle:source": "Wikipedia"
 }

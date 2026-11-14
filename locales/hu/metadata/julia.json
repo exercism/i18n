@@ -466,5 +466,8 @@
   "exercise:booking-up-for-beauty:blurb": "Ismerd meg a dátum- és időkezelést szépségszalon időpontjainak kezelésével.",
   "exercise:regular-chatbot:blurb": "Ismerd meg a reguláris kifejezések alapjait a Julia nyelvben, miközben egy chatbotnak segítesz megérteni az embereket.",
   "exercise:boutique-suggestions:blurb": "Ismerd meg a komprehenziókat a divatbutikod ügyfeleinek szóló öltözékjavaslatok készítésével.",
-  "exercise:exercism-matrix:blurb": "Ismerd meg a többdimenziós tömböket az Exercism logójával."
+  "exercise:exercism-matrix:blurb": "Ismerd meg a többdimenziós tömböket az Exercism logójával.",
+  "exercise:zebra-puzzle:name": "Zebrarejtvény",
+  "exercise:zebra-puzzle:blurb": "Oldd meg a zebrarejtvényt.",
+  "exercise:zebra-puzzle:source": "Wikipedia"
 }

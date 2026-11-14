@@ -466,5 +466,8 @@
   "concept:randomness:blurb": "تمتلك Julia مجموعة واسعة من الأساليب لتوليد قيم عشوائية للنمذجة والمحاكاة.",
   "concept:statistics:blurb": "تمتلك Julia مجموعة واسعة جدًا من الدوال الإحصائية، وقد نُقل الكثير منها إلى وحدة `Statistics`.",
   "concept:rational-numbers:blurb": "الأعداد النسبية ليست سوى كسور: النسبة بين عددين صحيحين. وهي نوع عددي قياسي في Julia.",
-  "concept:complex-numbers:blurb": "تُستخدم الأعداد المركبة على نطاق واسع في الهندسة والعلوم الفيزيائية. وهي نوع عددي قياسي في Julia."
+  "concept:complex-numbers:blurb": "تُستخدم الأعداد المركبة على نطاق واسع في الهندسة والعلوم الفيزيائية. وهي نوع عددي قياسي في Julia.",
+  "exercise:zebra-puzzle:name": "لغز الحمار الوحشي",
+  "exercise:zebra-puzzle:blurb": "حل لغز الحمار الوحشي.",
+  "exercise:zebra-puzzle:source": "ويكيبيديا"
 }

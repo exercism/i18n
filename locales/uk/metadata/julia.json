@@ -466,5 +466,8 @@
   "concept:randomness:blurb": "У мові Julia є безліч способів генерувати випадкові значення для моделювання та симуляцій.",
   "concept:statistics:blurb": "У мові Julia є дуже широкий набір статистичних функцій, і багато з них переміщено до модуля Statistics.",
   "concept:rational-numbers:blurb": "Раціональні числа - це просто дроби: відношення двох цілих чисел. Це стандартний числовий тип у мові Julia.",
-  "concept:complex-numbers:blurb": "Комплексні числа дуже широко застосовуються в інженерії та фізичних науках. Це стандартний числовий тип у мові Julia."
+  "concept:complex-numbers:blurb": "Комплексні числа дуже широко застосовуються в інженерії та фізичних науках. Це стандартний числовий тип у мові Julia.",
+  "exercise:zebra-puzzle:name": "Загадка про зебру",
+  "exercise:zebra-puzzle:blurb": "Розвʼяжіть загадку про зебру.",
+  "exercise:zebra-puzzle:source": "Wikipedia"
 }

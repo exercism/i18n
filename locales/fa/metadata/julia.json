@@ -466,5 +466,8 @@
   "concept:chars:blurb": "Julia از همان آغاز برای استفاده از کاراکترهای یونیکد طراحی شد، نه ASCII.",
   "concept:tuples:blurb": "تاپل‌ها شبیه آرایه‌ها هستند، اما تغییرناپذیرند. هر درایه می‌تواند اسم داشته باشد.",
   "concept:pairs-and-dicts:blurb": "یک `Dict` مجموعه‌ای از جفت‌های کلید => مقدار است، هرچند نوع `Pair` کاربردهای بسیار دیگری هم دارد.",
-  "concept:nothingness:blurb": "Julia برای نبود کامل مقدار از `nothing`، برای شکاف در دانش ما از داده‌ها از `missing`، برای مشکلات محاسباتی از `NaN` و برای برخی انواع وضعیت خطا از `unknown` استفاده می‌کند."
+  "concept:nothingness:blurb": "Julia برای نبود کامل مقدار از `nothing`، برای شکاف در دانش ما از داده‌ها از `missing`، برای مشکلات محاسباتی از `NaN` و برای برخی انواع وضعیت خطا از `unknown` استفاده می‌کند.",
+  "exercise:zebra-puzzle:name": "معمای گورخر",
+  "exercise:zebra-puzzle:blurb": "معمای گورخر را حل کنید.",
+  "exercise:zebra-puzzle:source": "Wikipedia"
 }

@@ -185,7 +185,8 @@
     "exercises/practice/two-fer": {"en":"Two-Fer","fr":"Two-Fer"},
     "exercises/practice/word-count": {"en":"Word Count","fr":"Comptage de mots"},
     "exercises/practice/wordy": {"en":"Wordy","fr":"Bavard"},
-    "exercises/practice/yacht": {"en":"Yacht","fr":"Yacht"}
+    "exercises/practice/yacht": {"en":"Yacht","fr":"Yacht"},
+    "exercises/practice/zebra-puzzle": {"en":"Zebra Puzzle","fr":"Énigme du zèbre"}
   },
   "paths": {
     "concepts/basics/about.md": ["f3d77bf896363d0c00ac3234c3cb7dd0fb2934cc","1dcef6063afbfcb4575076c6466524e446298d06","5d6f92aaed13cc41e4b8a8b81f1271c585396b21","3e0bd320f7d424d80aff7751e85d883a8e99808e"],
@@ -572,6 +573,8 @@
     "exercises/practice/wordy/.docs/instructions.md": ["aafb9ee54bf49aa33e99af41ba55cbe6f4e1a784"],
     "exercises/practice/yacht/.docs/instructions.md": ["519b7a68b876e58fc845cccc10ae1d28519db33a"],
     "exercises/practice/yacht/.docs/introduction.md": ["5b541f5625ce0d5916f9545a824de17a55d433f1"],
+    "exercises/practice/zebra-puzzle/.docs/instructions.md": ["aedce9b25e7ed65c8f05d32cdae4cbd12adbb245"],
+    "exercises/practice/zebra-puzzle/.docs/introduction.md": ["bbcaa6fd203b1287d74439822b072473408e4799"],
     "exercises/shared/.docs/debug.md": ["1a6446d5b3a4b4ba21a7fdd7686017e2cd3358cb"],
     "exercises/shared/.docs/help.md": ["129123952592ac0ee71878c7e3c94e529c7c77ff"],
     "exercises/shared/.docs/tests.md": ["929a803e17d59aa026d48a6400e8bbf7ec43950b"]

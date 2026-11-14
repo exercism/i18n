@@ -466,5 +466,8 @@
   "concept:randomness:blurb": "Julia में मॉडलिंग और सिमुलेशन के लिए यादृच्छिक वैल्यू बनाने के बहुत सारे तरीके हैं।",
   "concept:statistics:blurb": "Julia में सांख्यिकीय फंक्शनों की बहुत विस्तृत श्रृंखला है, और इनमें से बहुत से Statistics मॉड्यूल में स्थानांतरित कर दिए गए हैं।",
   "concept:rational-numbers:blurb": "परिमेय संख्याएँ भिन्न ही हैं: दो पूर्णांकों का अनुपात। Julia में ये एक मानक संख्यात्मक टाइप हैं।",
-  "concept:complex-numbers:blurb": "सम्मिश्र संख्याओं का इंजीनियरिंग और भौतिक विज्ञानों में बहुत व्यापक उपयोग होता है। Julia में ये एक मानक संख्यात्मक टाइप हैं।"
+  "concept:complex-numbers:blurb": "सम्मिश्र संख्याओं का इंजीनियरिंग और भौतिक विज्ञानों में बहुत व्यापक उपयोग होता है। Julia में ये एक मानक संख्यात्मक टाइप हैं।",
+  "exercise:zebra-puzzle:name": "ज़ेब्रा पहेली",
+  "exercise:zebra-puzzle:blurb": "ज़ेब्रा पहेली हल कीजिए।",
+  "exercise:zebra-puzzle:source": "Wikipedia"
 }

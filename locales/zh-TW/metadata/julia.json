@@ -466,5 +466,8 @@
   "concept:tuples:blurb": "元組和陣列很像，但不可變。個別項目可以有名稱。",
   "concept:pairs-and-dicts:blurb": "Dict 是 key => value Pair 的集合，不過同一個 Pair 型別還有許多其他用途。",
   "concept:nothingness:blurb": "Julia 用 nothing 表示完全沒有值，用 missing 表示我們對資料的認知有缺漏，用 NaN 表示計算問題，並用 unknown 表示某些型別的錯誤狀態。",
-  "concept:randomness:blurb": "Julia 有各式各樣的隨機值產生方式，可用於建模與模擬。"
+  "concept:randomness:blurb": "Julia 有各式各樣的隨機值產生方式，可用於建模與模擬。",
+  "exercise:zebra-puzzle:name": "斑馬謎題",
+  "exercise:zebra-puzzle:blurb": "解開斑馬謎題。",
+  "exercise:zebra-puzzle:source": "Wikipedia"
 }

@@ -466,5 +466,8 @@
   "exercise:factory-sensors:blurb": "Aprende a manejar errores creando un programa para una fábrica de periódicos.",
   "exercise:problematic-probabilities:blurb": "Ayuda a que las estadísticas sean más precisas con números racionales",
   "exercise:booking-up-for-beauty:blurb": "Aprende sobre la manipulación de fechas y horas gestionando las citas de un salón de belleza.",
-  "exercise:regular-chatbot:blurb": "Aprende lo básico de las expresiones regulares con Julia ayudando a un chatbot a entender a los humanos."
+  "exercise:regular-chatbot:blurb": "Aprende lo básico de las expresiones regulares con Julia ayudando a un chatbot a entender a los humanos.",
+  "exercise:zebra-puzzle:name": "El acertijo de la cebra",
+  "exercise:zebra-puzzle:blurb": "Resuelve el acertijo de la cebra.",
+  "exercise:zebra-puzzle:source": "Wikipedia"
 }

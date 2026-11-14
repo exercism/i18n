@@ -466,5 +466,8 @@
   "concept:tuples:blurb": "Tupel ähneln Arrays, sind aber unveränderlich. Die einzelnen Einträge können Namen haben.",
   "concept:pairs-and-dicts:blurb": "Ein Dict ist eine Sammlung von key => value Pairs, wobei derselbe Pair-Typ viele weitere Verwendungen hat.",
   "concept:nothingness:blurb": "Julia verwendet nothing für die vollständige Abwesenheit eines Werts, missing für Lücken in unserem Wissen über die Daten, NaN für Berechnungsprobleme und unknown für einige Arten von Fehlerzuständen.",
-  "concept:randomness:blurb": "Julia hat eine Vielzahl von Möglichkeiten, Zufallswerte für Modellierung und Simulationen zu erzeugen."
+  "concept:randomness:blurb": "Julia hat eine Vielzahl von Möglichkeiten, Zufallswerte für Modellierung und Simulationen zu erzeugen.",
+  "exercise:zebra-puzzle:name": "Zebrarätsel",
+  "exercise:zebra-puzzle:blurb": "Löse das Zebrarätsel.",
+  "exercise:zebra-puzzle:source": "Wikipedia"
 }

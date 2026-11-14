@@ -466,5 +466,8 @@
   "concept:randomness:blurb": "Julia tem uma ampla gama de formas de gerar valores aleatórios para modelagem e simulações.",
   "concept:statistics:blurb": "Julia tem uma gama muito ampla de funções estatísticas, e muitas delas foram movidas para o módulo Statistics.",
   "concept:rational-numbers:blurb": "Números racionais são apenas frações: a razão entre dois inteiros. São um tipo numérico padrão em Julia.",
-  "concept:complex-numbers:blurb": "Números complexos são amplamente usados na engenharia e nas ciências físicas. São um tipo numérico padrão em Julia."
+  "concept:complex-numbers:blurb": "Números complexos são amplamente usados na engenharia e nas ciências físicas. São um tipo numérico padrão em Julia.",
+  "exercise:zebra-puzzle:name": "Quebra-cabeça da zebra",
+  "exercise:zebra-puzzle:blurb": "Resolva o quebra-cabeça da zebra.",
+  "exercise:zebra-puzzle:source": "Wikipedia"
 }

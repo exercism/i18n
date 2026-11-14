@@ -484,6 +484,11 @@ This page is generated from [the index](../../json/it/julia.json) by `scripts/bu
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/yacht/.docs/instructions.md)): [Latest](../../../locales/it/content/51/9b/7a68b876e58fc845cccc10ae1d28519db33a.md)
 - `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/yacht/.docs/introduction.md)): [Latest](../../../locales/it/content/5b/54/1f5625ce0d5916f9545a824de17a55d433f1.md)
 
+### Zebra Puzzle (Puzzle della zebra)
+
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/zebra-puzzle/.docs/instructions.md)): [Latest](../../../locales/it/content/ae/dc/e9b25e7ed65c8f05d32cdae4cbd12adbb245.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/zebra-puzzle/.docs/introduction.md)): [Latest](../../../locales/it/content/bb/ca/a6fd203b1287d74439822b072473408e4799.md)
+
 ## Concept exercises
 
 ### Annalyns Infiltration (L'infiltrazione di Annalyn)
