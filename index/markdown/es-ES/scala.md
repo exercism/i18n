@@ -260,7 +260,8 @@ This page is generated from [the index](../../json/es-ES/scala.json) by `scripts
 ### Nucleotide Count (Recuento de nucleótidos)
 
 - `instructions.md` ([English](https://github.com/exercism/scala/blob/main/exercises/practice/nucleotide-count/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/54/8d/9ba5a5ee79a79fc4ff3e1d942c6c7f7c68af.md)
-- `instructions.append.md` ([English](https://github.com/exercism/scala/blob/main/exercises/practice/nucleotide-count/.docs/instructions.append.md)): [Latest](../../../locales/es-ES/content/e3/05/4906de3928e3b92297a7b9a9f54e30f9944b.md)
+- `instructions.append.md` ([English](https://github.com/exercism/scala/blob/main/exercises/practice/nucleotide-count/.docs/instructions.append.md)): [Latest](../../../locales/es-ES/content/5e/99/4d4d0d142a6316fae3d8a8db5f24a55418ba.md)
+  - [`e3054906de`](../../../locales/es-ES/content/e3/05/4906de3928e3b92297a7b9a9f54e30f9944b.md)
 
 ### OCR Numbers (Números OCR)
 
@@ -348,7 +349,8 @@ This page is generated from [the index](../../json/es-ES/scala.json) by `scripts
 ### Robot Name (Nombre de robot)
 
 - `instructions.md` ([English](https://github.com/exercism/scala/blob/main/exercises/practice/robot-name/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/fc/a3/a41aeccc9ce1e2839ec947ffcf8e6ef8e2bb.md)
-- `instructions.append.md` ([English](https://github.com/exercism/scala/blob/main/exercises/practice/robot-name/.docs/instructions.append.md)): [Latest](../../../locales/es-ES/content/d3/90/5c2760ed5943b60e313be22d3e16b9c48307.md)
+- `instructions.append.md` ([English](https://github.com/exercism/scala/blob/main/exercises/practice/robot-name/.docs/instructions.append.md)): [Latest](../../../locales/es-ES/content/3b/ea/478188ea20a391ff05e501112691f2b8a01c.md)
+  - [`d3905c2760`](../../../locales/es-ES/content/d3/90/5c2760ed5943b60e313be22d3e16b9c48307.md)
 
 ### Robot Simulator (Simulador de robot)
 
@@ -357,7 +359,8 @@ This page is generated from [the index](../../json/es-ES/scala.json) by `scripts
 ### Roman Numerals (Números romanos)
 
 - `instructions.md` ([English](https://github.com/exercism/scala/blob/main/exercises/practice/roman-numerals/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/50/e2/f5bf1c668a66cff143097642a80dae9597d2.md)
-- `instructions.append.md` ([English](https://github.com/exercism/scala/blob/main/exercises/practice/roman-numerals/.docs/instructions.append.md)): [Latest](../../../locales/es-ES/content/19/c6/d4536657a33e734871e3854b0e16adb559a0.md)
+- `instructions.append.md` ([English](https://github.com/exercism/scala/blob/main/exercises/practice/roman-numerals/.docs/instructions.append.md)): [Latest](../../../locales/es-ES/content/ab/e4/345cff9756138370fa9d5f12fe37503c4752.md)
+  - [`19c6d45366`](../../../locales/es-ES/content/19/c6/d4536657a33e734871e3854b0e16adb559a0.md)
 - `introduction.md` ([English](https://github.com/exercism/scala/blob/main/exercises/practice/roman-numerals/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/6f/d9/42fef30f76ae037294b8fa382471665ffc2a.md)
 
 ### Rotational Cipher (Cifrado por rotación)

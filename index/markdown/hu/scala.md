@@ -303,7 +303,8 @@ This page is generated from [the index](../../json/hu/scala.json) by `scripts/bu
 
 - `instructions.md` ([English](https://github.com/exercism/scala/blob/main/exercises/practice/nucleotide-count/.docs/instructions.md)): [Latest](../../../locales/hu/content/54/8d/9ba5a5ee79a79fc4ff3e1d942c6c7f7c68af.md)
   - [`cd08758943`](../../../locales/hu/content/cd/08/7589436f87eb6352dc6a86b5bed2f0e3b804.md)
-- `instructions.append.md` ([English](https://github.com/exercism/scala/blob/main/exercises/practice/nucleotide-count/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/e3/05/4906de3928e3b92297a7b9a9f54e30f9944b.md)
+- `instructions.append.md` ([English](https://github.com/exercism/scala/blob/main/exercises/practice/nucleotide-count/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/5e/99/4d4d0d142a6316fae3d8a8db5f24a55418ba.md)
+  - [`e3054906de`](../../../locales/hu/content/e3/05/4906de3928e3b92297a7b9a9f54e30f9944b.md)
 
 ### OCR Numbers (OCR-számok)
 
@@ -408,7 +409,8 @@ This page is generated from [the index](../../json/hu/scala.json) by `scripts/bu
 
 - `instructions.md` ([English](https://github.com/exercism/scala/blob/main/exercises/practice/robot-name/.docs/instructions.md)): [Latest](../../../locales/hu/content/fc/a3/a41aeccc9ce1e2839ec947ffcf8e6ef8e2bb.md)
   - [`a0079a341e`](../../../locales/hu/content/a0/07/9a341e851558be3406d8914849a68280f062.md)
-- `instructions.append.md` ([English](https://github.com/exercism/scala/blob/main/exercises/practice/robot-name/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/d3/90/5c2760ed5943b60e313be22d3e16b9c48307.md)
+- `instructions.append.md` ([English](https://github.com/exercism/scala/blob/main/exercises/practice/robot-name/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/3b/ea/478188ea20a391ff05e501112691f2b8a01c.md)
+  - [`d3905c2760`](../../../locales/hu/content/d3/90/5c2760ed5943b60e313be22d3e16b9c48307.md)
 
 ### Robot Simulator (Robotszimulátor)
 
@@ -418,7 +420,8 @@ This page is generated from [the index](../../json/hu/scala.json) by `scripts/bu
 ### Roman Numerals (Római számok)
 
 - `instructions.md` ([English](https://github.com/exercism/scala/blob/main/exercises/practice/roman-numerals/.docs/instructions.md)): [Latest](../../../locales/hu/content/50/e2/f5bf1c668a66cff143097642a80dae9597d2.md)
-- `instructions.append.md` ([English](https://github.com/exercism/scala/blob/main/exercises/practice/roman-numerals/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/19/c6/d4536657a33e734871e3854b0e16adb559a0.md)
+- `instructions.append.md` ([English](https://github.com/exercism/scala/blob/main/exercises/practice/roman-numerals/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/ab/e4/345cff9756138370fa9d5f12fe37503c4752.md)
+  - [`19c6d45366`](../../../locales/hu/content/19/c6/d4536657a33e734871e3854b0e16adb559a0.md)
 - `introduction.md` ([English](https://github.com/exercism/scala/blob/main/exercises/practice/roman-numerals/.docs/introduction.md)): [Latest](../../../locales/hu/content/6f/d9/42fef30f76ae037294b8fa382471665ffc2a.md)
 
 ### Rotational Cipher (Rotációs rejtjel)
