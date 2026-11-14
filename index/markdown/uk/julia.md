@@ -797,7 +797,8 @@ This page is generated from [the index](../../json/uk/julia.json) by `scripts/bu
 
 ### Robot Revolution (Революція роботів)
 
-- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/robot-revolution/.docs/instructions.md)): [Latest](../../../locales/uk/content/9e/55/eceab6e864d8baa81a0a2128a9f42749586a.md)
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/robot-revolution/.docs/instructions.md)): [Latest](../../../locales/uk/content/a3/be/ae42341cbcff71a092ce457bd7e428019c3e.md)
+  - [`9e55eceab6`](../../../locales/uk/content/9e/55/eceab6e864d8baa81a0a2128a9f42749586a.md)
 - `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/concept/robot-revolution/.docs/introduction.md)): [Latest](../../../locales/uk/content/8d/1a/7608f648347fe53039bac350de3a825235a7.md)
   - [`78d19b40cd`](../../../locales/uk/content/78/d1/9b40cd1047d54cc73f9ceb6220c332a8aa9a.md)
   - [`438804f6ef`](../../../locales/uk/content/43/88/04f6effc3e96d82e22b14162ec0f684617c9.md)
