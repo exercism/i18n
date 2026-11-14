@@ -65,7 +65,7 @@
   "exercise:alphametics:name": "Alphametics",
   "exercise:beer-song:name": "أغنية البيرة",
   "exercise:list-ops:name": "عمليات القوائم",
-  "exercise:matrix:name": "المصفوفة",
+  "exercise:matrix:name": "المصفوفة (مهجورة)",
   "exercise:binary-search:name": "البحث الثنائي",
   "exercise:parallel-letter-frequency:name": "تكرار الحروف بالتوازي",
   "exercise:transpose:name": "التبديل",
@@ -373,5 +373,8 @@
   "concept:guards:blurb": "تُستخدم الحراس لمنع استدعاء الدالة بناءً على تقييم دوال الحماية للوسائط. يبدأ الحارس بالعامل `|` متبوعًا بتعبير منطقي. تُستخدم الحراس لتوسيع مطابقة الأنماط بفحوص أكثر تعقيدًا.",
   "exercise:grep:name": "Grep",
   "exercise:grep:blurb": "ابحث في ملف عن الأسطر المطابقة لنمط تعبير نمطي. أرجِع رقم السطر ومحتوى كل سطر مطابق.",
-  "exercise:grep:source": "محادثة مع Nate Foster."
+  "exercise:grep:source": "محادثة مع Nate Foster.",
+  "exercise:grid:name": "المصفوفة",
+  "exercise:grid:blurb": "بمعطى سلسلة نصية تمثل مصفوفة أعداد، أرجِع صفوف تلك المصفوفة وأعمدتها.",
+  "exercise:grid:source": "تمرين من فريق JumpstartLab لطلاب The Turing School of Software and Design."
 }

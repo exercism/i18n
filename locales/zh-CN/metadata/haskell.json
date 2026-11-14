@@ -65,7 +65,7 @@
   "exercise:alphametics:name": "字母算术",
   "exercise:beer-song:name": "啤酒歌",
   "exercise:list-ops:name": "数组操作",
-  "exercise:matrix:name": "矩阵",
+  "exercise:matrix:name": "矩阵（已弃用）",
   "exercise:binary-search:name": "二分查找",
   "exercise:parallel-letter-frequency:name": "并行字母频率",
   "exercise:transpose:name": "转置",
@@ -373,5 +373,8 @@
   "concept:guards:blurb": "守卫会根据守卫函数对参数的求值结果，阻止对函数的调用。守卫以 `|` 运算符开头，后面跟一个布尔表达式。守卫用于在模式匹配的基础上增加更复杂的检查。",
   "exercise:grep:name": "Grep",
   "exercise:grep:blurb": "在文件中搜索与正则表达式模式匹配的行。返回每个匹配行的行号和内容。",
-  "exercise:grep:source": "与 Nate Foster 的一次对话。"
+  "exercise:grep:source": "与 Nate Foster 的一次对话。",
+  "exercise:grid:name": "矩阵",
+  "exercise:grid:blurb": "给定一个表示数字矩阵的字符串，返回该矩阵的行和列。",
+  "exercise:grid:source": "由 JumpstartLab 团队为 The Turing School of Software and Design 的学生编写的练习。"
 }

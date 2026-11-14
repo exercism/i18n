@@ -65,7 +65,7 @@
   "exercise:alphametics:name": "Αλφαριθμητικά",
   "exercise:beer-song:name": "Τραγούδι της Μπίρας",
   "exercise:list-ops:name": "Λειτουργίες λίστας",
-  "exercise:matrix:name": "Πίνακας",
+  "exercise:matrix:name": "Πίνακας (παρωχημένος)",
   "exercise:binary-search:name": "Δυαδική Αναζήτηση",
   "exercise:parallel-letter-frequency:name": "Παράλληλη συχνότητα γραμμάτων",
   "exercise:transpose:name": "Αντιμετάθεση",
@@ -375,5 +375,8 @@
   "concept:guards:blurb": "Οι φρουροί χρησιμοποιούνται για να αποτρέψουν την κλήση μιας συνάρτησης με βάση την αξιολόγηση των ορισμάτων από συναρτήσεις φρουρούς. Οι φρουροί ξεκινούν με τον τελεστή `|`, ακολουθούμενο από μια έκφραση Boolean. Χρησιμοποιούνται για να εμπλουτίσουν την αντιστοίχιση προτύπων με πιο σύνθετους ελέγχους.",
   "exercise:grep:name": "Grep",
   "exercise:grep:blurb": "Αναζήτησε σε ένα αρχείο τις γραμμές που ταιριάζουν με ένα μοτίβο κανονικής έκφρασης. Επίστρεψε τον αριθμό γραμμής και το περιεχόμενο κάθε γραμμής που ταιριάζει.",
-  "exercise:grep:source": "Συζήτηση με τον Nate Foster."
+  "exercise:grep:source": "Συζήτηση με τον Nate Foster.",
+  "exercise:grid:name": "Πίνακας",
+  "exercise:grid:blurb": "Με δεδομένη μια συμβολοσειρά που αναπαριστά έναν πίνακα αριθμών, επέστρεψε τις γραμμές και τις στήλες αυτού του πίνακα.",
+  "exercise:grid:source": "Άσκηση από την ομάδα JumpstartLab για τους σπουδαστές του The Turing School of Software and Design."
 }

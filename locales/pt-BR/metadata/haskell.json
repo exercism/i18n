@@ -65,7 +65,7 @@
   "exercise:alphametics:name": "Alphametics",
   "exercise:beer-song:name": "Canção da cerveja",
   "exercise:list-ops:name": "Operações com Listas",
-  "exercise:matrix:name": "Matriz",
+  "exercise:matrix:name": "Matriz (descontinuado)",
   "exercise:binary-search:name": "Busca binária",
   "exercise:parallel-letter-frequency:name": "Frequência de Letras em Paralelo",
   "exercise:transpose:name": "Transposição",
@@ -373,5 +373,8 @@
   "concept:guards:blurb": "As guardas servem para evitar a chamada de uma função com base na avaliação dos argumentos por funções de guarda. As guardas começam com o operador `|`, seguido de uma expressão booleana. As guardas ampliam a correspondência de padrões com verificações mais complexas.",
   "exercise:grep:name": "Grep",
   "exercise:grep:blurb": "Busque em um arquivo as linhas que correspondem a um padrão de expressão regular. Retorne o número e o conteúdo de cada linha correspondente.",
-  "exercise:grep:source": "Conversa com Nate Foster."
+  "exercise:grep:source": "Conversa com Nate Foster.",
+  "exercise:grid:name": "Matriz",
+  "exercise:grid:blurb": "Dada uma string que representa uma matriz de números, retorne as linhas e as colunas dessa matriz.",
+  "exercise:grid:source": "Exercício da equipe JumpstartLab para estudantes da Turing School of Software and Design."
 }

@@ -65,7 +65,7 @@
   "exercise:alphametics:name": "Alfametika",
   "exercise:beer-song:name": "Sördal",
   "exercise:list-ops:name": "Listaműveletek",
-  "exercise:matrix:name": "Mátrix",
+  "exercise:matrix:name": "Mátrix (elavult)",
   "exercise:binary-search:name": "Bináris keresés",
   "exercise:parallel-letter-frequency:name": "Párhuzamos betűgyakoriság",
   "exercise:transpose:name": "Transzponálás",
@@ -375,5 +375,8 @@
   "concept:guards:blurb": "Az őrfeltételek megakadályozzák, hogy a függvény meghívódjon, ha az őrfüggvények az argumentumok kiértékelése alapján ezt nem engedik. Az őrfeltételek `|` operátorral kezdődnek, amelyet egy Boolean-kifejezés követ. Segítségükkel a mintaillesztést összetettebb ellenőrzésekkel egészítheted ki.",
   "exercise:grep:name": "Grep",
   "exercise:grep:source": "Beszélgetés Nate Foster-rel.",
-  "exercise:grep:blurb": "Keress egy fájlban reguláris kifejezésmintának megfelelő sorokat. Minden egyező sornak add vissza a sorszámát és a tartalmát."
+  "exercise:grep:blurb": "Keress egy fájlban reguláris kifejezésmintának megfelelő sorokat. Minden egyező sornak add vissza a sorszámát és a tartalmát.",
+  "exercise:grid:name": "Mátrix",
+  "exercise:grid:blurb": "A számok mátrixát reprezentáló string alapján add vissza a mátrix sorait és oszlopait.",
+  "exercise:grid:source": "Feladat a JumpstartLab csapatától a The Turing School of Software and Design tanulóinak."
 }

@@ -65,7 +65,7 @@
   "exercise:alphametics:name": "알파메틱스",
   "exercise:beer-song:name": "맥주 노래",
   "exercise:list-ops:name": "배열 연산",
-  "exercise:matrix:name": "행렬",
+  "exercise:matrix:name": "행렬 (사용 중단)",
   "exercise:binary-search:name": "이진 탐색",
   "exercise:parallel-letter-frequency:name": "병렬 문자 빈도",
   "exercise:transpose:name": "전치",
@@ -373,5 +373,8 @@
   "concept:guards:blurb": "가드는 가드 함수가 인자를 평가한 결과에 따라 함수 호출을 막는 데 사용해요. 가드는 `|` 연산자로 시작하고, 그 뒤에 불리언 표현식이 와요. 가드는 더 복잡한 검사로 패턴 매칭을 보강할 때 사용해요.",
   "exercise:grep:name": "grep",
   "exercise:grep:blurb": "정규 표현식 패턴에 일치하는 줄을 파일에서 찾아요. 일치하는 각 줄의 줄 번호와 내용을 반환해요.",
-  "exercise:grep:source": "Nate Foster와의 대화"
+  "exercise:grep:source": "Nate Foster와의 대화",
+  "exercise:grid:name": "행렬",
+  "exercise:grid:blurb": "숫자 행렬을 나타내는 문자열이 주어졌을 때, 그 행렬의 행과 열을 반환해요.",
+  "exercise:grid:source": "JumpstartLab 팀이 The Turing School of Software and Design 학생들을 위해 만든 연습 문제예요."
 }

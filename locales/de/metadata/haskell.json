@@ -65,7 +65,7 @@
   "exercise:alphametics:name": "Alphametik",
   "exercise:beer-song:name": "Bierlied",
   "exercise:list-ops:name": "Listenoperationen",
-  "exercise:matrix:name": "Matrix",
+  "exercise:matrix:name": "Matrix (veraltet)",
   "exercise:binary-search:name": "Binäre Suche",
   "exercise:parallel-letter-frequency:name": "Parallele Buchstabenhäufigkeit",
   "exercise:transpose:name": "Transponieren",
@@ -373,5 +373,8 @@
   "concept:guards:blurb": "Du verwendest Guards, um den Aufruf einer Funktion abhängig von der Auswertung der Argumente durch Guard-Funktionen zu verhindern. Guards beginnen mit dem Operator `|`, gefolgt von einem booleschen Ausdruck. Mit Guards erweiterst du das Pattern Matching um komplexere Prüfungen.",
   "exercise:grep:name": "Grep",
   "exercise:grep:blurb": "Such in einer Datei nach Zeilen, die einem regulären Ausdruck entsprechen. Gib die Zeilennummer und den Inhalt jeder passenden Zeile zurück.",
-  "exercise:grep:source": "Ein Gespräch mit Nate Foster."
+  "exercise:grep:source": "Ein Gespräch mit Nate Foster.",
+  "exercise:grid:name": "Matrix",
+  "exercise:grid:blurb": "Gib für einen String, der eine Matrix aus Zahlen darstellt, die Zeilen und Spalten dieser Matrix zurück.",
+  "exercise:grid:source": "Übung des JumpstartLab-Teams für Studierende der Turing School of Software and Design."
 }

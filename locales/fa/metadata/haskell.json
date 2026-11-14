@@ -65,7 +65,7 @@
   "exercise:alphametics:name": "آلفامتیک",
   "exercise:beer-song:name": "آهنگ آبجو",
   "exercise:list-ops:name": "عملیات لیست",
-  "exercise:matrix:name": "ماتریس",
+  "exercise:matrix:name": "ماتریس (منسوخ)",
   "exercise:binary-search:name": "جست‌وجوی دودویی",
   "exercise:parallel-letter-frequency:name": "فراوانی موازی حروف",
   "exercise:transpose:name": "ترانهاده",
@@ -373,5 +373,8 @@
   "concept:guards:blurb": "گاردها برای جلوگیری از فراخوانی تابع بر اساس ارزیابی آرگومان‌ها توسط توابع گارد به کار می‌روند. گاردها با عملگر `|` شروع می‌شوند و پس از آن یک عبارت منطقی می‌آید. از گاردها برای تکمیل تطبیق الگو با بررسی‌های پیچیده‌تر استفاده می‌شود.",
   "exercise:grep:name": "Grep",
   "exercise:grep:blurb": "یک فایل را برای یافتن خطوطی که با الگوی یک عبارت باقاعده مطابقت دارند جست‌وجو کنید. شماره‌ی خط و محتوای هر خط منطبق را برگردانید.",
-  "exercise:grep:source": "گفت‌وگو با Nate Foster."
+  "exercise:grep:source": "گفت‌وگو با Nate Foster.",
+  "exercise:grid:name": "ماتریس",
+  "exercise:grid:blurb": "با داشتن رشته‌ای که یک ماتریس از اعداد را نشان می‌دهد، سطرها و ستون‌های آن ماتریس را برگردانید.",
+  "exercise:grid:source": "تمرینی از تیم JumpstartLab برای دانشجویان The Turing School of Software and Design."
 }

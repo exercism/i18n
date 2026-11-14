@@ -64,7 +64,7 @@
   "exercise:alphametics:name": "Alphamétique",
   "exercise:beer-song:name": "Chanson de la bière",
   "exercise:list-ops:name": "Opérations sur les tableaux",
-  "exercise:matrix:name": "Matrice",
+  "exercise:matrix:name": "Matrice (obsolète)",
   "exercise:binary-search:name": "Recherche binaire",
   "exercise:parallel-letter-frequency:name": "Fréquence des lettres en parallèle",
   "exercise:transpose:name": "Transpose",
@@ -375,5 +375,8 @@
   "concept:guards:blurb": "Les gardes servent à empêcher l'appel d'une fonction selon l'évaluation des arguments par des fonctions de garde. Une garde commence par l'opérateur `|`, suivi d'une expression booléenne. Les gardes permettent de compléter le filtrage par motif avec des vérifications plus complexes.",
   "exercise:grep:name": "Grep",
   "exercise:grep:blurb": "Cherche dans un fichier les lignes qui correspondent à un motif d'expression régulière. Renvoie le numéro de ligne et le contenu de chaque ligne correspondante.",
-  "exercise:grep:source": "Conversation avec Nate Foster."
+  "exercise:grep:source": "Conversation avec Nate Foster.",
+  "exercise:grid:name": "Matrice",
+  "exercise:grid:blurb": "Étant donné une chaîne de caractères représentant une matrice de nombres, renvoie les lignes et les colonnes de cette matrice.",
+  "exercise:grid:source": "Exercice proposé par l'équipe JumpstartLab pour les étudiants de The Turing School of Software and Design."
 }

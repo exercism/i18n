@@ -65,7 +65,7 @@
   "exercise:alphametics:name": "Алфаметика",
   "exercise:beer-song:name": "Пісня про пиво",
   "exercise:list-ops:name": "Операції з масивом",
-  "exercise:matrix:name": "Матриця",
+  "exercise:matrix:name": "Матриця (застаріла)",
   "exercise:binary-search:name": "Двійковий пошук",
   "exercise:parallel-letter-frequency:name": "Паралельний підрахунок частоти літер",
   "exercise:transpose:name": "Транспонування",
@@ -375,5 +375,8 @@
   "concept:guards:blurb": "Охоронні вирази запобігають виклику функції залежно від того, як охоронні функції оцінять її аргументи. Вони починаються з оператора `|`, за яким іде логічний вираз. Охоронні вирази доповнюють зіставлення зі зразком складнішими перевірками.",
   "exercise:grep:name": "Grep",
   "exercise:grep:blurb": "Знайдіть у файлі рядки, що відповідають шаблону регулярного виразу. Поверніть номер і вміст кожного відповідного рядка.",
-  "exercise:grep:source": "Розмова з Нейтом Фостером."
+  "exercise:grep:source": "Розмова з Нейтом Фостером.",
+  "exercise:grid:name": "Матриця",
+  "exercise:grid:blurb": "Дано рядок тексту (англ. string), який представляє матрицю чисел; поверніть рядки та стовпці цієї матриці.",
+  "exercise:grid:source": "Вправа від команди JumpstartLab для студентів The Turing School of Software and Design."
 }

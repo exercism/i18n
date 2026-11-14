@@ -65,7 +65,7 @@
   "exercise:alphametics:name": "Alfametica",
   "exercise:beer-song:name": "Canzone della birra",
   "exercise:list-ops:name": "Operazioni su array",
-  "exercise:matrix:name": "Matrice",
+  "exercise:matrix:name": "Matrice (deprecato)",
   "exercise:binary-search:name": "Ricerca binaria",
   "exercise:parallel-letter-frequency:name": "Frequenza delle lettere in parallelo",
   "exercise:transpose:name": "Trasposizione",
@@ -373,5 +373,8 @@
   "concept:guards:blurb": "Le guardie servono a impedire la chiamata di una funzione in base alla valutazione degli argomenti da parte di apposite funzioni di controllo. Le guardie iniziano con l'operatore `|`, seguito da un'espressione booleana. Le guardie integrano il pattern matching con controlli più complessi.",
   "exercise:grep:name": "Grep",
   "exercise:grep:blurb": "Cerca in un file le righe che corrispondono a un pattern di espressione regolare. Restituisci il numero di riga e il contenuto di ogni riga corrispondente.",
-  "exercise:grep:source": "Conversazione con Nate Foster."
+  "exercise:grep:source": "Conversazione con Nate Foster.",
+  "exercise:grid:name": "Matrice",
+  "exercise:grid:blurb": "Data una stringa che rappresenta una matrice di numeri, restituisci le righe e le colonne di quella matrice.",
+  "exercise:grid:source": "Esercizio del team di JumpstartLab per gli studenti della Turing School of Software and Design."
 }

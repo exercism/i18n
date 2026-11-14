@@ -65,7 +65,7 @@
   "exercise:alphametics:name": "अल्फामेटिक्स",
   "exercise:beer-song:name": "बियर गीत",
   "exercise:list-ops:name": "ऐरे ऑपरेशन",
-  "exercise:matrix:name": "मैट्रिक्स",
+  "exercise:matrix:name": "मैट्रिक्स (अप्रचलित)",
   "exercise:binary-search:name": "बाइनरी सर्च",
   "exercise:parallel-letter-frequency:name": "समानांतर अक्षर आवृत्ति",
   "exercise:transpose:name": "ट्रांसपोज़",
@@ -373,5 +373,8 @@
   "concept:guards:blurb": "गार्ड का उपयोग गार्ड फंक्शन द्वारा आर्गुमेंट के मूल्यांकन के आधार पर फंक्शन को कॉल होने से रोकने के लिए किया जाता है। गार्ड `|` ऑपरेटर से शुरू होते हैं, जिसके बाद एक बूलियन एक्सप्रेशन आता है। गार्ड पैटर्न मैचिंग में अधिक जटिल जाँचें जोड़ने के लिए उपयोग किए जाते हैं।",
   "exercise:grep:name": "Grep",
   "exercise:grep:blurb": "किसी फाइल में रेगुलर एक्सप्रेशन पैटर्न से मेल खाने वाली लाइनें ढूँढिए। हर मेल खाने वाली लाइन की लाइन संख्या और उसका टेक्स्ट लौटाइए।",
-  "exercise:grep:source": "Nate Foster के साथ बातचीत।"
+  "exercise:grep:source": "Nate Foster के साथ बातचीत।",
+  "exercise:grid:name": "मैट्रिक्स",
+  "exercise:grid:blurb": "संख्याओं के मैट्रिक्स को दर्शाने वाली एक स्ट्रिंग दी गई है; उस मैट्रिक्स की पंक्तियाँ और स्तंभ लौटाइए।",
+  "exercise:grid:source": "JumpstartLab टीम द्वारा The Turing School of Software and Design के छात्रों के लिए बनाया गया अभ्यास।"
 }
