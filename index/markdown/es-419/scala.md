@@ -489,7 +489,8 @@ This page is generated from [the index](../../json/es-419/scala.json) by `script
 
 ### How to learn Scala (Cómo aprender Scala)
 
-- `LEARNING.md` ([English](https://github.com/exercism/scala/blob/main/docs/LEARNING.md)): [Latest](../../../locales/es-419/content/c3/a3/a34fc0fef3abb421e4748e113348f03a7c8f.md)
+- `LEARNING.md` ([English](https://github.com/exercism/scala/blob/main/docs/LEARNING.md)): [Latest](../../../locales/es-419/content/9e/f9/26940e7725ceaf43b573686c2f9448da864b.md)
+  - [`c3a3a34fc0`](../../../locales/es-419/content/c3/a3/a34fc0fef3abb421e4748e113348f03a7c8f.md)
 
 ### Installing Scala locally (Instalar Scala localmente)
 

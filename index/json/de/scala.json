@@ -113,7 +113,7 @@
   "paths": {
     "docs/ABOUT.md": ["82447fe8dd3fbcbc55b994647d2661bcfc6a979c"],
     "docs/INSTALLATION.md": ["5a17909ea670ae085e3ca550f6ab7a869ef5586e"],
-    "docs/LEARNING.md": ["c3a3a34fc0fef3abb421e4748e113348f03a7c8f"],
+    "docs/LEARNING.md": ["9ef926940e7725ceaf43b573686c2f9448da864b","c3a3a34fc0fef3abb421e4748e113348f03a7c8f"],
     "docs/RESOURCES.md": ["96d232a0ae8488034ecbef3febf82c4526236e6a"],
     "docs/TESTS.md": ["d1a6d963a3408bee2e30759739712bee56bb57c0"],
     "exercises/concept/basics/.docs/hints.md": ["76cde68bb45fa028f8cc6d93e6fc6b6dccdc04de"],

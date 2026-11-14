@@ -489,7 +489,8 @@ This page is generated from [the index](../../json/zh-CN/scala.json) by `scripts
 
 ### How to learn Scala (如何学习 Scala)
 
-- `LEARNING.md` ([English](https://github.com/exercism/scala/blob/main/docs/LEARNING.md)): [Latest](../../../locales/zh-CN/content/c3/a3/a34fc0fef3abb421e4748e113348f03a7c8f.md)
+- `LEARNING.md` ([English](https://github.com/exercism/scala/blob/main/docs/LEARNING.md)): [Latest](../../../locales/zh-CN/content/9e/f9/26940e7725ceaf43b573686c2f9448da864b.md)
+  - [`c3a3a34fc0`](../../../locales/zh-CN/content/c3/a3/a34fc0fef3abb421e4748e113348f03a7c8f.md)
 
 ### Installing Scala locally (在本地安装 Scala)
 
