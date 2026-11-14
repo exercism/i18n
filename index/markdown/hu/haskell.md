@@ -313,7 +313,7 @@ This page is generated from [the index](../../json/hu/haskell.json) by `scripts/
 - `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/grid/.docs/instructions.md)): [Latest](../../../locales/hu/content/da/de/a8acb59fba30ed9676608619dd52a12c6826.md)
 - `instructions.append.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/grid/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/f2/dc/18043457445a92082ecc3d88d0b3c8b199ee.md)
 
-### Matrix (deprecated) (Mátrix (elavult))
+### Matrix (Mátrix (elavult))
 
 - `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/matrix/.docs/instructions.md)): [Latest](../../../locales/hu/content/da/de/a8acb59fba30ed9676608619dd52a12c6826.md)
   - [`1b2d0f84b0`](../../../locales/hu/content/1b/2d/0f84b082e143ba3a8a0fb7d50ccc650224de.md)
@@ -511,6 +511,11 @@ This page is generated from [the index](../../json/hu/haskell.json) by `scripts/
 - `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/satellite/.docs/instructions.md)): [Latest](../../../locales/hu/content/fb/bf/14f439558fa6451f8ebfac7253e0c9e12189.md)
 
 ### Say (Mondd)
+
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/pronounce/.docs/instructions.md)): [Latest](../../../locales/hu/content/32/51/c519acefd3c98f5ecf6edf4cb11db4290468.md)
+- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/pronounce/.docs/introduction.md)): [Latest](../../../locales/hu/content/ab/d2/2851ef7557171c636e876d5c7d19495f8421.md)
+
+### Say (deprecated) (Mondd (elavult))
 
 - `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/say/.docs/instructions.md)): [Latest](../../../locales/hu/content/ad/3d/347782e2cbdd3e40cdabde2b31c5bc18fc41.md)
   - [`727b0186db`](../../../locales/hu/content/72/7b/0186db47215c97477a750fbeb6c39184b4d1.md)

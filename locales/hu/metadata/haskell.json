@@ -97,7 +97,7 @@
   "exercise:atbash-cipher:name": "Atbash-rejtjel",
   "exercise:pig-latin:name": "Malaclatin",
   "exercise:robot-name:name": "Robotnév",
-  "exercise:say:name": "Mondd",
+  "exercise:say:name": "Mondd (elavult)",
   "exercise:dominoes:name": "Dominók",
   "exercise:accumulate:name": "Halmozás",
   "exercise:complex-numbers:name": "Komplex számok",
@@ -378,5 +378,8 @@
   "exercise:grep:blurb": "Keress egy fájlban reguláris kifejezésmintának megfelelő sorokat. Minden egyező sornak add vissza a sorszámát és a tartalmát.",
   "exercise:grid:name": "Mátrix",
   "exercise:grid:blurb": "A számok mátrixát reprezentáló string alapján add vissza a mátrix sorait és oszlopait.",
-  "exercise:grid:source": "Feladat a JumpstartLab csapatától a The Turing School of Software and Design tanulóinak."
+  "exercise:grid:source": "Feladat a JumpstartLab csapatától a The Turing School of Software and Design tanulóinak.",
+  "exercise:pronounce:name": "Mondd",
+  "exercise:pronounce:blurb": "Egy 0 és 999 999 999 999 közötti számot írj ki betűvel angolul.",
+  "exercise:pronounce:source": "A JavaRanch CattleDrive 4. feladatának egy változata"
 }

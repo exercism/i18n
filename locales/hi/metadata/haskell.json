@@ -97,7 +97,7 @@
   "exercise:atbash-cipher:name": "Atbash सिफर",
   "exercise:pig-latin:name": "पिग लैटिन",
   "exercise:robot-name:name": "रोबोट का नाम",
-  "exercise:say:name": "कहिए",
+  "exercise:say:name": "कहिए (अप्रचलित)",
   "exercise:dominoes:name": "डोमिनोज़",
   "exercise:accumulate:name": "एकत्र कीजिए",
   "exercise:complex-numbers:name": "सम्मिश्र संख्याएँ",
@@ -376,5 +376,8 @@
   "exercise:grep:source": "Nate Foster के साथ बातचीत।",
   "exercise:grid:name": "मैट्रिक्स",
   "exercise:grid:blurb": "संख्याओं के मैट्रिक्स को दर्शाने वाली एक स्ट्रिंग दी गई है; उस मैट्रिक्स की पंक्तियाँ और स्तंभ लौटाइए।",
-  "exercise:grid:source": "JumpstartLab टीम द्वारा The Turing School of Software and Design के छात्रों के लिए बनाया गया अभ्यास।"
+  "exercise:grid:source": "JumpstartLab टीम द्वारा The Turing School of Software and Design के छात्रों के लिए बनाया गया अभ्यास।",
+  "exercise:pronounce:name": "कहिए",
+  "exercise:pronounce:blurb": "0 से 999,999,999,999 तक की कोई संख्या दी गई हो तो उस संख्या को अंग्रेज़ी में लिखकर बताइए।",
+  "exercise:pronounce:source": "JavaRanch CattleDrive, Assignment 4 का एक रूपांतर"
 }

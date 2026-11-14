@@ -97,7 +97,7 @@
   "exercise:atbash-cipher:name": "埃特巴什密碼",
   "exercise:pig-latin:name": "兒童黑話",
   "exercise:robot-name:name": "機器人名稱",
-  "exercise:say:name": "說出來",
+  "exercise:say:name": "說出來（已棄用）",
   "exercise:dominoes:name": "骨牌",
   "exercise:accumulate:name": "累加",
   "exercise:complex-numbers:name": "複數",
@@ -376,5 +376,8 @@
   "exercise:grep:source": "與 Nate Foster 的對話。",
   "exercise:grid:name": "矩陣",
   "exercise:grid:blurb": "給定一個代表數字矩陣的字串，回傳該矩陣的行與列。",
-  "exercise:grid:source": "由 JumpstartLab 團隊為 The Turing School of Software and Design 的學生所設計的練習。"
+  "exercise:grid:source": "由 JumpstartLab 團隊為 The Turing School of Software and Design 的學生所設計的練習。",
+  "exercise:pronounce:name": "說出來",
+  "exercise:pronounce:blurb": "給定一個 0 到 999,999,999,999 之間的數字，用英文拼出這個數字。",
+  "exercise:pronounce:source": "改編自 JavaRanch CattleDrive 的作業 4"
 }

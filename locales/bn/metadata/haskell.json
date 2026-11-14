@@ -97,7 +97,7 @@
   "exercise:atbash-cipher:name": "অ্যাটবাশ সাইফার",
   "exercise:pig-latin:name": "পিগ ল্যাটিন",
   "exercise:robot-name:name": "রোবটের নাম",
-  "exercise:say:name": "বলুন",
+  "exercise:say:name": "বলুন (অপ্রচলিত)",
   "exercise:dominoes:name": "ডমিনো",
   "exercise:accumulate:name": "অ্যাকুমুলেট",
   "exercise:complex-numbers:name": "জটিল সংখ্যা",
@@ -376,5 +376,8 @@
   "exercise:grep:source": "Nate Foster-এর সাথে কথোপকথন।",
   "exercise:grid:name": "ম্যাট্রিক্স",
   "exercise:grid:blurb": "সংখ্যার একটি ম্যাট্রিক্স প্রকাশ করা একটি স্ট্রিং দেওয়া আছে; সেই ম্যাট্রিক্সের সারি ও কলাম রিটার্ন করুন।",
-  "exercise:grid:source": "The Turing School of Software and Design-এর শিক্ষার্থীদের জন্য JumpstartLab দলের তৈরি অনুশীলনী।"
+  "exercise:grid:source": "The Turing School of Software and Design-এর শিক্ষার্থীদের জন্য JumpstartLab দলের তৈরি অনুশীলনী।",
+  "exercise:pronounce:name": "বলুন",
+  "exercise:pronounce:blurb": "০ থেকে ৯৯৯,৯৯৯,৯৯৯,৯৯৯ পর্যন্ত একটি সংখ্যা দেওয়া হলে সেই সংখ্যাটি ইংরেজিতে বানান করে লিখুন।",
+  "exercise:pronounce:source": "JavaRanch CattleDrive, Assignment 4-এর একটি ভিন্ন রূপ"
 }

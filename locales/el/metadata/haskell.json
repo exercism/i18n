@@ -97,7 +97,7 @@
   "exercise:atbash-cipher:name": "Κρυπτογράφημα Atbash",
   "exercise:pig-latin:name": "Pig Latin",
   "exercise:robot-name:name": "Όνομα ρομπότ",
-  "exercise:say:name": "Πες",
+  "exercise:say:name": "Πες (παρωχημένη)",
   "exercise:dominoes:name": "Ντόμινο",
   "exercise:accumulate:name": "Συσσώρευση",
   "exercise:complex-numbers:name": "Μιγαδικοί αριθμοί",
@@ -378,5 +378,8 @@
   "exercise:grep:source": "Συζήτηση με τον Nate Foster.",
   "exercise:grid:name": "Πίνακας",
   "exercise:grid:blurb": "Με δεδομένη μια συμβολοσειρά που αναπαριστά έναν πίνακα αριθμών, επέστρεψε τις γραμμές και τις στήλες αυτού του πίνακα.",
-  "exercise:grid:source": "Άσκηση από την ομάδα JumpstartLab για τους σπουδαστές του The Turing School of Software and Design."
+  "exercise:grid:source": "Άσκηση από την ομάδα JumpstartLab για τους σπουδαστές του The Turing School of Software and Design.",
+  "exercise:pronounce:name": "Πες",
+  "exercise:pronounce:blurb": "Με δεδομένο έναν αριθμό από το 0 έως το 999.999.999.999, γράψε τον αριθμό ολογράφως στα αγγλικά.",
+  "exercise:pronounce:source": "Μια παραλλαγή του JavaRanch CattleDrive, Εργασία 4"
 }

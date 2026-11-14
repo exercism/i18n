@@ -97,7 +97,7 @@
   "exercise:atbash-cipher:name": "شفرة أتبش",
   "exercise:pig-latin:name": "Pig Latin",
   "exercise:robot-name:name": "اسم الروبوت",
-  "exercise:say:name": "قل",
+  "exercise:say:name": "قل (مهجورة)",
   "exercise:dominoes:name": "الدومينو",
   "exercise:accumulate:name": "التجميع",
   "exercise:complex-numbers:name": "الأعداد المركبة",
@@ -376,5 +376,8 @@
   "exercise:grep:source": "محادثة مع Nate Foster.",
   "exercise:grid:name": "المصفوفة",
   "exercise:grid:blurb": "بمعطى سلسلة نصية تمثل مصفوفة أعداد، أرجِع صفوف تلك المصفوفة وأعمدتها.",
-  "exercise:grid:source": "تمرين من فريق JumpstartLab لطلاب The Turing School of Software and Design."
+  "exercise:grid:source": "تمرين من فريق JumpstartLab لطلاب The Turing School of Software and Design.",
+  "exercise:pronounce:name": "قل",
+  "exercise:pronounce:blurb": "إذا أُعطيت عددًا من 0 إلى 999,999,999,999، فاكتب هذا العدد بالحروف بالإنجليزية.",
+  "exercise:pronounce:source": "تنويع على JavaRanch CattleDrive، Assignment 4"
 }

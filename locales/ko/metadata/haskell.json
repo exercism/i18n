@@ -97,7 +97,7 @@
   "exercise:atbash-cipher:name": "아트바시 암호",
   "exercise:pig-latin:name": "Pig Latin",
   "exercise:robot-name:name": "로봇 이름",
-  "exercise:say:name": "말하기",
+  "exercise:say:name": "말하기 (지원 중단됨)",
   "exercise:dominoes:name": "도미노",
   "exercise:accumulate:name": "누적",
   "exercise:complex-numbers:name": "복소수",
@@ -376,5 +376,8 @@
   "exercise:grep:source": "Nate Foster와의 대화",
   "exercise:grid:name": "행렬",
   "exercise:grid:blurb": "숫자 행렬을 나타내는 문자열이 주어졌을 때, 그 행렬의 행과 열을 반환해요.",
-  "exercise:grid:source": "JumpstartLab 팀이 The Turing School of Software and Design 학생들을 위해 만든 연습 문제예요."
+  "exercise:grid:source": "JumpstartLab 팀이 The Turing School of Software and Design 학생들을 위해 만든 연습 문제예요.",
+  "exercise:pronounce:name": "말하기",
+  "exercise:pronounce:blurb": "0부터 999,999,999,999까지의 숫자가 주어지면, 그 숫자를 영어로 풀어 써요.",
+  "exercise:pronounce:source": "JavaRanch CattleDrive, Assignment 4를 변형한 문제예요."
 }

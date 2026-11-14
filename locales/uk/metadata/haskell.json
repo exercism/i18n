@@ -97,7 +97,7 @@
   "exercise:atbash-cipher:name": "Шифр Атбаш",
   "exercise:pig-latin:name": "Поросяча латина",
   "exercise:robot-name:name": "Імʼя робота",
-  "exercise:say:name": "Вимова",
+  "exercise:say:name": "Вимова (застаріла)",
   "exercise:dominoes:name": "Доміно",
   "exercise:accumulate:name": "Накопичення",
   "exercise:complex-numbers:name": "Комплексні числа",
@@ -378,5 +378,8 @@
   "exercise:grep:source": "Розмова з Нейтом Фостером.",
   "exercise:grid:name": "Матриця",
   "exercise:grid:blurb": "Дано рядок тексту (англ. string), який представляє матрицю чисел; поверніть рядки та стовпці цієї матриці.",
-  "exercise:grid:source": "Вправа від команди JumpstartLab для студентів The Turing School of Software and Design."
+  "exercise:grid:source": "Вправа від команди JumpstartLab для студентів The Turing School of Software and Design.",
+  "exercise:pronounce:name": "Вимова",
+  "exercise:pronounce:blurb": "За заданим числом від 0 до 999 999 999 999 запишіть це число словами англійською.",
+  "exercise:pronounce:source": "Варіація на тему JavaRanch CattleDrive, завдання 4"
 }

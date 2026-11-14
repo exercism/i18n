@@ -97,7 +97,7 @@
   "exercise:atbash-cipher:name": "アトバシュ暗号",
   "exercise:pig-latin:name": "ピッグ・ラテン",
   "exercise:robot-name:name": "ロボットの名前",
-  "exercise:say:name": "言う",
+  "exercise:say:name": "言う（非推奨）",
   "exercise:dominoes:name": "ドミノ",
   "exercise:accumulate:name": "累積",
   "exercise:complex-numbers:name": "複素数",
@@ -376,5 +376,8 @@
   "exercise:grep:source": "Nate Fosterとの会話",
   "exercise:grid:name": "行列",
   "exercise:grid:blurb": "数値の行列を表す文字列が与えられたとき、その行列の行と列を返します。",
-  "exercise:grid:source": "JumpstartLabチームによる、The Turing School of Software and Designの学生向けの演習"
+  "exercise:grid:source": "JumpstartLabチームによる、The Turing School of Software and Designの学生向けの演習",
+  "exercise:pronounce:name": "言う",
+  "exercise:pronounce:blurb": "0から999,999,999,999までの数値が与えられたら、その数値を英語で書き表します。",
+  "exercise:pronounce:source": "JavaRanch CattleDriveのAssignment 4をアレンジしたもの"
 }

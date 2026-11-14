@@ -97,7 +97,7 @@
   "exercise:atbash-cipher:name": "Atbash-Chiffre",
   "exercise:pig-latin:name": "Pig Latin",
   "exercise:robot-name:name": "Robotername",
-  "exercise:say:name": "Sag",
+  "exercise:say:name": "Sag (veraltet)",
   "exercise:dominoes:name": "Domino",
   "exercise:accumulate:name": "Akkumulieren",
   "exercise:complex-numbers:name": "Komplexe Zahlen",
@@ -376,5 +376,8 @@
   "exercise:grep:source": "Ein Gespräch mit Nate Foster.",
   "exercise:grid:name": "Matrix",
   "exercise:grid:blurb": "Gib für einen String, der eine Matrix aus Zahlen darstellt, die Zeilen und Spalten dieser Matrix zurück.",
-  "exercise:grid:source": "Übung des JumpstartLab-Teams für Studierende der Turing School of Software and Design."
+  "exercise:grid:source": "Übung des JumpstartLab-Teams für Studierende der Turing School of Software and Design.",
+  "exercise:pronounce:name": "Sag",
+  "exercise:pronounce:blurb": "Schreibe eine Zahl von 0 bis 999.999.999.999 in englischen Wörtern aus.",
+  "exercise:pronounce:source": "Eine Variante des JavaRanch CattleDrive, Assignment 4"
 }
