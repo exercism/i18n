@@ -146,5 +146,8 @@
   "exercise:prime-factors:source": "کاتای عوامل اول از Uncle Bob",
   "exercise:game-of-life:name": "بازی زندگی کانوی",
   "exercise:game-of-life:blurb": "بازی زندگی کانوی را پیاده‌سازی کنید.",
-  "exercise:game-of-life:source": "Wikipedia"
+  "exercise:game-of-life:source": "Wikipedia",
+  "exercise:two-bucket:name": "دو سطل",
+  "exercise:two-bucket:blurb": "با داشتن دو سطل با اندازه‌های متفاوت، نشان دهید چگونه می‌توان مقدار دقیقی بر حسب لیتر اندازه گرفت.",
+  "exercise:two-bucket:source": "مسئله‌ی ریختن آب"
 }

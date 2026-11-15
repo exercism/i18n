@@ -146,5 +146,8 @@
   "exercise:prime-factors:source": "The Prime Factors Kata di Uncle Bob",
   "exercise:game-of-life:name": "Il gioco della vita di Conway",
   "exercise:game-of-life:blurb": "Implementa il gioco della vita di Conway.",
-  "exercise:game-of-life:source": "Wikipedia"
+  "exercise:game-of-life:source": "Wikipedia",
+  "exercise:two-bucket:name": "Due secchi",
+  "exercise:two-bucket:blurb": "Dati due secchi di dimensioni diverse, dimostra come misurare un numero esatto di litri.",
+  "exercise:two-bucket:source": "Il problema del travaso dell'acqua"
 }

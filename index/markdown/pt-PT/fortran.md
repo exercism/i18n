@@ -205,6 +205,10 @@ This page is generated from [the index](../../json/pt-PT/fortran.json) by `scrip
 - `instructions.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/e9/b0/53dcd344e85179041c10dcd48406d735b2f9.md)
 - `hints.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/practice/triangle/.docs/hints.md)): [Latest](../../../locales/pt-PT/content/c3/35/cdc964ca6b417c1c1bd1b344ebea0790c65d.md)
 
+### Two Bucket (Dois Baldes)
+
+- `instructions.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/practice/two-bucket/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/30/d7/79aa9225cde761d6e21a3b8cae231d24e087.md)
+
 ### Two-Fer
 
 - `instructions.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/practice/two-fer/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/ad/c5/3487981faa7797e5099ff92acffd3df180be.md)

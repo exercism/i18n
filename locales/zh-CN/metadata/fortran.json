@@ -146,5 +146,8 @@
   "exercise:prime-factors:source": "由 Uncle Bob 编写的 The Prime Factors Kata",
   "exercise:game-of-life:name": "康威生命游戏",
   "exercise:game-of-life:blurb": "实现康威生命游戏。",
-  "exercise:game-of-life:source": "Wikipedia"
+  "exercise:game-of-life:source": "Wikipedia",
+  "exercise:two-bucket:name": "两个水桶",
+  "exercise:two-bucket:blurb": "给定两个容量不同的水桶，演示如何量出精确的升数。",
+  "exercise:two-bucket:source": "倒水问题"
 }

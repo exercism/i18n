@@ -47,6 +47,7 @@
     "exercises/practice/space-age": {"en":"Space Age","ko":"우주 시대"},
     "exercises/practice/sum-of-multiples": {"en":"Sum of Multiples","ko":"배수의 합"},
     "exercises/practice/triangle": {"en":"Triangle","ko":"삼각형"},
+    "exercises/practice/two-bucket": {"en":"Two Bucket","ko":"두 개의 양동이"},
     "exercises/practice/two-fer": {"en":"Two-Fer","ko":"Two-Fer"},
     "exercises/practice/yacht": {"en":"Yacht","ko":"Yacht"}
   },
@@ -128,6 +129,7 @@
     "exercises/practice/sum-of-multiples/.docs/introduction.md": ["69cabeed5abccbe7441644c24d20e0c23af51a79"],
     "exercises/practice/triangle/.docs/hints.md": ["c335cdc964ca6b417c1c1bd1b344ebea0790c65d"],
     "exercises/practice/triangle/.docs/instructions.md": ["e9b053dcd344e85179041c10dcd48406d735b2f9"],
+    "exercises/practice/two-bucket/.docs/instructions.md": ["30d779aa9225cde761d6e21a3b8cae231d24e087"],
     "exercises/practice/two-fer/.docs/instructions.md": ["adc53487981faa7797e5099ff92acffd3df180be"],
     "exercises/practice/two-fer/.docs/introduction.md": ["5947a2230bd8a36f4e653ca80f726386df06ccee"],
     "exercises/practice/yacht/.docs/instructions.md": ["519b7a68b876e58fc845cccc10ae1d28519db33a"],

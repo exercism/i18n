@@ -146,5 +146,8 @@
   "exercise:prime-factors:source": "The Prime Factors Kata, Uncle Bob tollából.",
   "exercise:game-of-life:name": "Conway életjátéka",
   "exercise:game-of-life:blurb": "Valósítsd meg Conway életjátékát.",
-  "exercise:game-of-life:source": "Wikipedia"
+  "exercise:game-of-life:source": "Wikipedia",
+  "exercise:two-bucket:name": "Két vödör",
+  "exercise:two-bucket:blurb": "Adott két különböző méretű vödör, mutasd meg, hogyan mérhetsz ki pontosan egy adott számú litert.",
+  "exercise:two-bucket:source": "Water Pouring Problem"
 }

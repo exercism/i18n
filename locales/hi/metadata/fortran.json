@@ -146,5 +146,8 @@
   "exercise:prime-factors:source": "Uncle Bob का Prime Factors Kata",
   "exercise:game-of-life:name": "Conway's Game of Life",
   "exercise:game-of-life:blurb": "Conway's Game of Life लागू कीजिए।",
-  "exercise:game-of-life:source": "Wikipedia"
+  "exercise:game-of-life:source": "Wikipedia",
+  "exercise:two-bucket:name": "दो बाल्टियाँ",
+  "exercise:two-bucket:blurb": "अलग-अलग आकार की दो बाल्टियाँ दी गई हैं। दिखाइए कि लीटर की एक ठीक संख्या कैसे मापी जाए।",
+  "exercise:two-bucket:source": "पानी डालने की समस्या"
 }

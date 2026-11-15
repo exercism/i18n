@@ -146,5 +146,8 @@
   "exercise:prime-factors:source": "The Prime Factors Kata από τον Uncle Bob",
   "exercise:game-of-life:name": "Το Παιχνίδι της Ζωής του Conway",
   "exercise:game-of-life:blurb": "Υλοποίησε το Παιχνίδι της Ζωής του Conway.",
-  "exercise:game-of-life:source": "Wikipedia"
+  "exercise:game-of-life:source": "Wikipedia",
+  "exercise:two-bucket:name": "Δύο κουβάδες",
+  "exercise:two-bucket:blurb": "Με δεδομένους δύο κουβάδες διαφορετικού μεγέθους, δείξε πώς να μετρήσεις μια ακριβή ποσότητα λίτρων.",
+  "exercise:two-bucket:source": "Πρόβλημα έκχυσης νερού"
 }

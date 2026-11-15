@@ -146,5 +146,8 @@
   "exercise:prime-factors:source": "Le kata Prime Factors d'Uncle Bob",
   "exercise:game-of-life:name": "Le jeu de la vie de Conway",
   "exercise:game-of-life:blurb": "Implémente le jeu de la vie de Conway.",
-  "exercise:game-of-life:source": "Wikipedia"
+  "exercise:game-of-life:source": "Wikipedia",
+  "exercise:two-bucket:name": "Deux seaux",
+  "exercise:two-bucket:blurb": "Étant donné deux seaux de tailles différentes, montre comment mesurer une quantité exacte de litres.",
+  "exercise:two-bucket:source": "Problème de transvasement d'eau"
 }

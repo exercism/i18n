@@ -146,5 +146,8 @@
   "exercise:prime-factors:source": "Die Prime Factors Kata von Uncle Bob",
   "exercise:game-of-life:name": "Conways Spiel des Lebens",
   "exercise:game-of-life:blurb": "Implementiere Conways Spiel des Lebens.",
-  "exercise:game-of-life:source": "Wikipedia"
+  "exercise:game-of-life:source": "Wikipedia",
+  "exercise:two-bucket:name": "Zwei Eimer",
+  "exercise:two-bucket:blurb": "Zeige mit zwei unterschiedlich großen Eimern, wie man eine exakte Anzahl Liter abmisst.",
+  "exercise:two-bucket:source": "Water Pouring Problem"
 }

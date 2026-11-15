@@ -146,5 +146,8 @@
   "exercise:prime-factors:source": "Uncle Bob의 Prime Factors Kata",
   "exercise:game-of-life:name": "콘웨이의 생명 게임",
   "exercise:game-of-life:blurb": "콘웨이의 생명 게임을 구현해요.",
-  "exercise:game-of-life:source": "Wikipedia"
+  "exercise:game-of-life:source": "Wikipedia",
+  "exercise:two-bucket:name": "두 개의 양동이",
+  "exercise:two-bucket:blurb": "크기가 다른 양동이 두 개가 주어졌을 때, 정확한 리터 수를 재는 방법을 보여줘요.",
+  "exercise:two-bucket:source": "물 붓기 문제"
 }

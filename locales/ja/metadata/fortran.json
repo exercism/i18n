@@ -146,5 +146,8 @@
   "exercise:prime-factors:source": "Uncle BobによるThe Prime Factors Kata",
   "exercise:game-of-life:name": "コンウェイのライフゲーム",
   "exercise:game-of-life:blurb": "コンウェイのライフゲームを実装します。",
-  "exercise:game-of-life:source": "Wikipedia"
+  "exercise:game-of-life:source": "Wikipedia",
+  "exercise:two-bucket:name": "2つのバケツ",
+  "exercise:two-bucket:blurb": "大きさの異なる2つのバケツを使い、決まった量の水を正確に量る方法を示します。",
+  "exercise:two-bucket:source": "水差し問題"
 }

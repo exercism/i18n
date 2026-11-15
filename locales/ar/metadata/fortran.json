@@ -146,5 +146,8 @@
   "exercise:prime-factors:source": "كاتا العوامل الأولية بقلم Uncle Bob",
   "exercise:game-of-life:name": "لعبة الحياة لـ Conway",
   "exercise:game-of-life:blurb": "نفّذ لعبة الحياة لـ Conway.",
-  "exercise:game-of-life:source": "ويكيبيديا"
+  "exercise:game-of-life:source": "ويكيبيديا",
+  "exercise:two-bucket:name": "الدلوان",
+  "exercise:two-bucket:blurb": "إذا كان لديك دلوان مختلفان في الحجم، فأوضح كيفية قياس عدد دقيق من اللترات.",
+  "exercise:two-bucket:source": "مسألة صب الماء"
 }

@@ -146,5 +146,8 @@
   "exercise:prime-factors:source": "O Prime Factors Kata de Uncle Bob",
   "exercise:game-of-life:name": "O Jogo da Vida de Conway",
   "exercise:game-of-life:blurb": "Implementa o Jogo da Vida de Conway.",
-  "exercise:game-of-life:source": "Wikipedia"
+  "exercise:game-of-life:source": "Wikipedia",
+  "exercise:two-bucket:name": "Dois Baldes",
+  "exercise:two-bucket:blurb": "Dados dois baldes de tamanhos diferentes, demonstra como medir uma quantidade exata de litros.",
+  "exercise:two-bucket:source": "Problema de Verter Água"
 }
