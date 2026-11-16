@@ -542,7 +542,8 @@ This page is generated from [the index](../../json/ko/bash.json) by `scripts/bui
 
 ### How to learn Bash (Bash 배우는 방법)
 
-- `LEARNING.md` ([English](https://github.com/exercism/bash/blob/main/docs/LEARNING.md)): [Latest](../../../locales/ko/content/81/8f/6fd2d6114a52b5c5a8cf1d0270bd61703f02.md)
+- `LEARNING.md` ([English](https://github.com/exercism/bash/blob/main/docs/LEARNING.md)): [Latest](../../../locales/ko/content/c7/53/7c5df76744bb359ee35d9ddf287e4f054a8d.md)
+  - [`818f6fd2d6`](../../../locales/ko/content/81/8f/6fd2d6114a52b5c5a8cf1d0270bd61703f02.md)
   - [`e8a34aa6dc`](../../../locales/ko/content/e8/a3/4aa6dc33f21300009dcc75d5202f0a87c3a9.md)
 
 ### Installing Bash locally (Bash를 로컬에 설치하기)
@@ -557,11 +558,13 @@ This page is generated from [the index](../../json/ko/bash.json) by `scripts/bui
 
 ### Testing on the Bash track (Bash 트랙에서 테스트하기)
 
-- `TESTS.md` ([English](https://github.com/exercism/bash/blob/main/docs/TESTS.md)): [Latest](../../../locales/ko/content/6e/73/e0d359078bd0981063ad826ab79aff8dd564.md)
+- `TESTS.md` ([English](https://github.com/exercism/bash/blob/main/docs/TESTS.md)): [Latest](../../../locales/ko/content/33/52/508711c97ae137e91d0edc943f0ba29501a1.md)
+  - [`6e73e0d359`](../../../locales/ko/content/6e/73/e0d359078bd0981063ad826ab79aff8dd564.md)
 
 ### Useful Bash resources (유용한 Bash 자료)
 
-- `RESOURCES.md` ([English](https://github.com/exercism/bash/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/ko/content/b0/3c/ddeb57946a54b5dd5ea555a9eaa6f3ac106b.md)
+- `RESOURCES.md` ([English](https://github.com/exercism/bash/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/ko/content/c7/e6/bcf02ca0c6a4dfc07cc898c9cafc510f22f8.md)
+  - [`b03cddeb57`](../../../locales/ko/content/b0/3c/ddeb57946a54b5dd5ea555a9eaa6f3ac106b.md)
   - [`9c63ab9380`](../../../locales/ko/content/9c/63/ab9380e34ba74717b64d193216203eb9dbc8.md)
   - [`69284bd422`](../../../locales/ko/content/69/28/4bd422f9e7357960f2592f5812a381db20a0.md)
 

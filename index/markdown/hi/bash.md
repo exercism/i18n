@@ -542,7 +542,8 @@ This page is generated from [the index](../../json/hi/bash.json) by `scripts/bui
 
 ### How to learn Bash (Bash कैसे सीखें)
 
-- `LEARNING.md` ([English](https://github.com/exercism/bash/blob/main/docs/LEARNING.md)): [Latest](../../../locales/hi/content/81/8f/6fd2d6114a52b5c5a8cf1d0270bd61703f02.md)
+- `LEARNING.md` ([English](https://github.com/exercism/bash/blob/main/docs/LEARNING.md)): [Latest](../../../locales/hi/content/c7/53/7c5df76744bb359ee35d9ddf287e4f054a8d.md)
+  - [`818f6fd2d6`](../../../locales/hi/content/81/8f/6fd2d6114a52b5c5a8cf1d0270bd61703f02.md)
   - [`e8a34aa6dc`](../../../locales/hi/content/e8/a3/4aa6dc33f21300009dcc75d5202f0a87c3a9.md)
 
 ### Installing Bash locally (Bash को अपने कंप्यूटर पर इंस्टॉल करना)
@@ -557,11 +558,13 @@ This page is generated from [the index](../../json/hi/bash.json) by `scripts/bui
 
 ### Testing on the Bash track (Bash ट्रैक पर टेस्टिंग)
 
-- `TESTS.md` ([English](https://github.com/exercism/bash/blob/main/docs/TESTS.md)): [Latest](../../../locales/hi/content/6e/73/e0d359078bd0981063ad826ab79aff8dd564.md)
+- `TESTS.md` ([English](https://github.com/exercism/bash/blob/main/docs/TESTS.md)): [Latest](../../../locales/hi/content/33/52/508711c97ae137e91d0edc943f0ba29501a1.md)
+  - [`6e73e0d359`](../../../locales/hi/content/6e/73/e0d359078bd0981063ad826ab79aff8dd564.md)
 
 ### Useful Bash resources (उपयोगी Bash संसाधन)
 
-- `RESOURCES.md` ([English](https://github.com/exercism/bash/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/hi/content/b0/3c/ddeb57946a54b5dd5ea555a9eaa6f3ac106b.md)
+- `RESOURCES.md` ([English](https://github.com/exercism/bash/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/hi/content/c7/e6/bcf02ca0c6a4dfc07cc898c9cafc510f22f8.md)
+  - [`b03cddeb57`](../../../locales/hi/content/b0/3c/ddeb57946a54b5dd5ea555a9eaa6f3ac106b.md)
   - [`9c63ab9380`](../../../locales/hi/content/9c/63/ab9380e34ba74717b64d193216203eb9dbc8.md)
   - [`69284bd422`](../../../locales/hi/content/69/28/4bd422f9e7357960f2592f5812a381db20a0.md)
 

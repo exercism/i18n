@@ -302,7 +302,7 @@ This page is generated from [the index](../../json/hu/bash.json) by `scripts/bui
 - `instructions.md` ([English](https://github.com/exercism/bash/blob/main/exercises/practice/palindrome-products/.docs/instructions.md)): [Latest](../../../locales/hu/content/aa/c6/6521ce736be8ce737ea709a5b1eed507cbb8.md)
   - [`fd9a441247`](../../../locales/hu/content/fd/9a/441247b65a9a8604f6ef581df4b1054a1fad.md)
 
-### Pangram
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/bash/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
   - [`d5698bc2a2`](../../../locales/hu/content/d5/69/8bc2a292baf2fb128de3543b748165088c4f.md)
@@ -630,7 +630,8 @@ This page is generated from [the index](../../json/hu/bash.json) by `scripts/bui
 
 ### How to learn Bash (Hogyan tanuld meg a Basht)
 
-- `LEARNING.md` ([English](https://github.com/exercism/bash/blob/main/docs/LEARNING.md)): [Latest](../../../locales/hu/content/81/8f/6fd2d6114a52b5c5a8cf1d0270bd61703f02.md)
+- `LEARNING.md` ([English](https://github.com/exercism/bash/blob/main/docs/LEARNING.md)): [Latest](../../../locales/hu/content/c7/53/7c5df76744bb359ee35d9ddf287e4f054a8d.md)
+  - [`818f6fd2d6`](../../../locales/hu/content/81/8f/6fd2d6114a52b5c5a8cf1d0270bd61703f02.md)
   - [`e8a34aa6dc`](../../../locales/hu/content/e8/a3/4aa6dc33f21300009dcc75d5202f0a87c3a9.md)
 
 ### Installing Bash locally (A Bash telepítése helyben)
@@ -645,11 +646,13 @@ This page is generated from [the index](../../json/hu/bash.json) by `scripts/bui
 
 ### Testing on the Bash track (Tesztelés a Bash-kurzuson)
 
-- `TESTS.md` ([English](https://github.com/exercism/bash/blob/main/docs/TESTS.md)): [Latest](../../../locales/hu/content/6e/73/e0d359078bd0981063ad826ab79aff8dd564.md)
+- `TESTS.md` ([English](https://github.com/exercism/bash/blob/main/docs/TESTS.md)): [Latest](../../../locales/hu/content/33/52/508711c97ae137e91d0edc943f0ba29501a1.md)
+  - [`6e73e0d359`](../../../locales/hu/content/6e/73/e0d359078bd0981063ad826ab79aff8dd564.md)
 
 ### Useful Bash resources (Hasznos Bash-források)
 
-- `RESOURCES.md` ([English](https://github.com/exercism/bash/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/hu/content/b0/3c/ddeb57946a54b5dd5ea555a9eaa6f3ac106b.md)
+- `RESOURCES.md` ([English](https://github.com/exercism/bash/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/hu/content/c7/e6/bcf02ca0c6a4dfc07cc898c9cafc510f22f8.md)
+  - [`b03cddeb57`](../../../locales/hu/content/b0/3c/ddeb57946a54b5dd5ea555a9eaa6f3ac106b.md)
   - [`9c63ab9380`](../../../locales/hu/content/9c/63/ab9380e34ba74717b64d193216203eb9dbc8.md)
   - [`69284bd422`](../../../locales/hu/content/69/28/4bd422f9e7357960f2592f5812a381db20a0.md)
 
