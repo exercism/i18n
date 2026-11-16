@@ -817,7 +817,8 @@
     "form.monthlyRecurring": "Ricorrente mensile",
     "form.oneOff": "Una tantum",
     "stripeForm.progressing": "In corso",
-    "stripeForm.eligibleForInsidersAccess": "Idoneo all'accesso Insiders"
+    "stripeForm.eligibleForInsidersAccess": "Idoneo all'accesso Insiders",
+    "existingSubscriptionNotice.updateCard": "Per aggiornare la tua carta, <0>usa questa pagina ospitata da Stripe</0>."
   },
   "components/donations/subscription-form": {
     "formOptions.initializedOption.changeAmount": "Cambia importo",
@@ -831,7 +832,9 @@
     "formOptions.updatingOption.cancelThisChange": "Annulla questa modifica",
     "formOptions.cancellingOption.areYouSure": "Sei sicuro di voler annullare la tua donazione ricorrente?",
     "formOptions.cancellingOption.yesPleaseCancel": "Sì, annullala.",
-    "formOptions.cancellingOption.noCloseThis": "No, chiudi."
+    "formOptions.cancellingOption.noCloseThis": "No, chiudi.",
+    "formOptions.initializedOption.updateCard": "aggiorna la tua carta",
+    "formOptions.initializedOption.cancelDonation": "annulla la tua donazione"
   },
   "components/dropdowns": {
     "trackMenu.seeTrackOnGithub": "Vedi la traccia {{trackTitle}} su Github <icon/>",

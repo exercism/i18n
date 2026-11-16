@@ -1398,7 +1398,8 @@
     "stripeForm.progressing": "處理中",
     "stripeForm.eligibleForInsidersAccess": "符合 Insiders 存取資格",
     "stripeForm.defaultError": "無法取得訂閱資訊",
-    "transactionForm.specifyAmount": "指定金額"
+    "transactionForm.specifyAmount": "指定金額",
+    "existingSubscriptionNotice.updateCard": "如要更新你的卡片，請<0>使用這個由 Stripe 託管的頁面</0>。"
   },
   "components/journey/contributions-list": {
     "categorySelect.contributingToExercises": "貢獻練習",
@@ -1958,7 +1959,9 @@
     "formOptions.updatingOption.cancelThisChange": "取消這項變更",
     "formOptions.cancellingOption.areYouSure": "你確定要取消你的定期捐款嗎？",
     "formOptions.cancellingOption.yesPleaseCancel": "是，請取消。",
-    "formOptions.cancellingOption.noCloseThis": "不，關閉這個。"
+    "formOptions.cancellingOption.noCloseThis": "不，關閉這個。",
+    "formOptions.initializedOption.updateCard": "更新你的卡片",
+    "formOptions.initializedOption.cancelDonation": "取消你的捐款"
   },
   "components/dropdowns": {
     "trackMenu.seeTrackOnGithub": "在 Github 上查看 {{trackTitle}} 軌道 <icon/>",

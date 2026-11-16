@@ -944,7 +944,8 @@
     "form.monthlyRecurring": "매달 정기 후원",
     "form.oneOff": "일회성",
     "stripeForm.progressing": "처리 중",
-    "stripeForm.eligibleForInsidersAccess": "Insiders 이용 자격이 있어요"
+    "stripeForm.eligibleForInsidersAccess": "Insiders 이용 자격이 있어요",
+    "existingSubscriptionNotice.updateCard": "카드를 업데이트하려면 <0>이 Stripe 호스팅 페이지를 이용해 주세요</0>."
   },
   "components/donations/subscription-form": {
     "formOptions.initializedOption.changeAmount": "금액 변경",
@@ -958,7 +959,9 @@
     "formOptions.updatingOption.cancelThisChange": "이 변경 취소하기",
     "formOptions.cancellingOption.areYouSure": "정기 후원을 정말 취소하시겠어요?",
     "formOptions.cancellingOption.yesPleaseCancel": "네, 취소해 주세요.",
-    "formOptions.cancellingOption.noCloseThis": "아니요, 닫아 주세요."
+    "formOptions.cancellingOption.noCloseThis": "아니요, 닫아 주세요.",
+    "formOptions.initializedOption.updateCard": "카드 업데이트하기",
+    "formOptions.initializedOption.cancelDonation": "기부 취소하기"
   },
   "components/dropdowns": {
     "trackMenu.seeTrackOnGithub": "Github에서 {{trackTitle}} 트랙 보기 <icon/>",

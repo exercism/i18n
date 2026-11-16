@@ -888,7 +888,8 @@
     "form.monthlyRecurring": "Mensual recurrente",
     "form.oneOff": "Pago único",
     "stripeForm.progressing": "En proceso",
-    "stripeForm.eligibleForInsidersAccess": "Elegible para el acceso a Insiders"
+    "stripeForm.eligibleForInsidersAccess": "Elegible para el acceso a Insiders",
+    "existingSubscriptionNotice.updateCard": "Para actualizar tu tarjeta, <0>usa esta página alojada por Stripe</0>."
   },
   "components/donations/subscription-form": {
     "formOptions.initializedOption.changeAmount": "Cambiar monto",
@@ -902,7 +903,9 @@
     "formOptions.updatingOption.cancelThisChange": "Cancelar este cambio",
     "formOptions.cancellingOption.areYouSure": "¿Seguro que quieres cancelar tu donación recurrente?",
     "formOptions.cancellingOption.yesPleaseCancel": "Sí, por favor cancélala.",
-    "formOptions.cancellingOption.noCloseThis": "No, cierra esto."
+    "formOptions.cancellingOption.noCloseThis": "No, cierra esto.",
+    "formOptions.initializedOption.updateCard": "actualiza tu tarjeta",
+    "formOptions.initializedOption.cancelDonation": "cancela tu donación"
   },
   "components/dropdowns": {
     "trackMenu.seeTrackOnGithub": "Ver la ruta {{trackTitle}} en Github <icon/>",

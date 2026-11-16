@@ -456,7 +456,8 @@
     "stripeForm.progressing": "En cours",
     "stripeForm.eligibleForInsidersAccess": "Éligible à l'accès Insiders",
     "stripeForm.defaultError": "Impossible de récupérer les informations d'abonnement",
-    "transactionForm.specifyAmount": "Indique le montant"
+    "transactionForm.specifyAmount": "Indique le montant",
+    "existingSubscriptionNotice.updateCard": "Pour mettre à jour ta carte, <0>utilise cette page hébergée par Stripe</0>."
   },
   "components/modals/realtime-feedback-modal/feedback-content/no-automated-feedback": {
     "index.noImmediateFeedback": "Pas de retour immédiat",
@@ -1594,7 +1595,9 @@
     "formOptions.updatingOption.cancelThisChange": "Annule cette modification",
     "formOptions.cancellingOption.areYouSure": "Veux-tu vraiment annuler ton don récurrent ?",
     "formOptions.cancellingOption.yesPleaseCancel": "Oui, annule-le, s'il te plaît.",
-    "formOptions.cancellingOption.noCloseThis": "Non, ferme ça."
+    "formOptions.cancellingOption.noCloseThis": "Non, ferme ça.",
+    "formOptions.initializedOption.updateCard": "mettre à jour ta carte",
+    "formOptions.initializedOption.cancelDonation": "annuler ton don"
   },
   "components/dropdowns": {
     "trackMenu.seeTrackOnGithub": "Regarde le parcours {{trackTitle}} sur Github <icon/>",

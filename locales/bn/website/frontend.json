@@ -530,7 +530,8 @@
     "form.monthlyRecurring": "মাসিক পুনরাবৃত্ত",
     "form.oneOff": "এককালীন",
     "stripeForm.progressing": "চলমান",
-    "stripeForm.eligibleForInsidersAccess": "Insiders Access-এর জন্য যোগ্য"
+    "stripeForm.eligibleForInsidersAccess": "Insiders Access-এর জন্য যোগ্য",
+    "existingSubscriptionNotice.updateCard": "আপনার কার্ড আপডেট করতে, অনুগ্রহ করে <0>Stripe-এর হোস্ট করা এই পৃষ্ঠাটি ব্যবহার করুন</0>।"
   },
   "components/donations/subscription-form": {
     "formOptions.initializedOption.changeAmount": "পরিমাণ পরিবর্তন করুন",
@@ -544,7 +545,9 @@
     "formOptions.updatingOption.cancelThisChange": "এই পরিবর্তন বাতিল করুন",
     "formOptions.cancellingOption.areYouSure": "আপনি কি নিশ্চিত যে আপনার নিয়মিত ডোনেশন বাতিল করতে চান?",
     "formOptions.cancellingOption.yesPleaseCancel": "হ্যাঁ - অনুগ্রহ করে এটি বাতিল করুন।",
-    "formOptions.cancellingOption.noCloseThis": "না, এটি বন্ধ করুন।"
+    "formOptions.cancellingOption.noCloseThis": "না, এটি বন্ধ করুন।",
+    "formOptions.initializedOption.updateCard": "আপনার কার্ড আপডেট করুন",
+    "formOptions.initializedOption.cancelDonation": "আপনার ডোনেশন বাতিল করুন"
   },
   "components/dropdowns": {
     "trackMenu.seeTrackOnGithub": "Github-এ {{trackTitle}} ট্র্যাক দেখুন <icon/>",

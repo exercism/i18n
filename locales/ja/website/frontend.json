@@ -943,7 +943,8 @@
     "form.monthlyRecurring": "毎月の継続寄付",
     "form.oneOff": "単発の寄付",
     "stripeForm.progressing": "処理中",
-    "stripeForm.eligibleForInsidersAccess": "Insidersアクセスの対象です"
+    "stripeForm.eligibleForInsidersAccess": "Insidersアクセスの対象です",
+    "existingSubscriptionNotice.updateCard": "カードを更新するには、<0>Stripeがホストするこのページを使ってください</0>。"
   },
   "components/donations/subscription-form": {
     "formOptions.initializedOption.changeAmount": "金額を変更する",
@@ -957,7 +958,9 @@
     "formOptions.updatingOption.cancelThisChange": "この変更をキャンセルする",
     "formOptions.cancellingOption.areYouSure": "定期寄付をキャンセルしてもよろしいですか？",
     "formOptions.cancellingOption.yesPleaseCancel": "はい、キャンセルしてください。",
-    "formOptions.cancellingOption.noCloseThis": "いいえ、このまま閉じます。"
+    "formOptions.cancellingOption.noCloseThis": "いいえ、このまま閉じます。",
+    "formOptions.initializedOption.updateCard": "カードを更新する",
+    "formOptions.initializedOption.cancelDonation": "寄付をキャンセルする"
   },
   "components/dropdowns": {
     "trackMenu.seeTrackOnGithub": "Githubで{{trackTitle}}トラックを見る<icon/>",

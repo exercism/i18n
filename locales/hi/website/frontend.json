@@ -575,7 +575,8 @@
     "form.monthlyRecurring": "मासिक आवर्ती",
     "form.oneOff": "एकमुश्त",
     "stripeForm.progressing": "प्रगति पर है",
-    "stripeForm.eligibleForInsidersAccess": "Insiders एक्सेस के लिए पात्र"
+    "stripeForm.eligibleForInsidersAccess": "Insiders एक्सेस के लिए पात्र",
+    "existingSubscriptionNotice.updateCard": "अपना कार्ड अपडेट करने के लिए कृपया <0>Stripe के इस पेज का इस्तेमाल कीजिए</0>।"
   },
   "components/donations/subscription-form": {
     "formOptions.initializedOption.changeAmount": "राशि बदलें",
@@ -589,7 +590,9 @@
     "formOptions.updatingOption.cancelThisChange": "यह बदलाव रद्द करें",
     "formOptions.cancellingOption.areYouSure": "क्या आप वाकई अपना आवर्ती दान रद्द करना चाहते हैं?",
     "formOptions.cancellingOption.yesPleaseCancel": "हाँ, इसे रद्द करें।",
-    "formOptions.cancellingOption.noCloseThis": "नहीं, इसे बंद करें।"
+    "formOptions.cancellingOption.noCloseThis": "नहीं, इसे बंद करें।",
+    "formOptions.initializedOption.updateCard": "अपना कार्ड अपडेट करें",
+    "formOptions.initializedOption.cancelDonation": "अपना दान रद्द करें"
   },
   "components/dropdowns": {
     "trackMenu.seeTrackOnGithub": "Github पर {{trackTitle}} ट्रैक देखें <icon/>",

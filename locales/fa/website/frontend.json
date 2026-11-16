@@ -866,7 +866,8 @@
     "stripeForm.progressing": "در حال پردازش",
     "stripeForm.eligibleForInsidersAccess": "واجد شرایط دسترسی به Insiders",
     "stripeForm.defaultError": "دریافت اطلاعات اشتراک ممکن نیست",
-    "transactionForm.specifyAmount": "مبلغ را مشخص کنید"
+    "transactionForm.specifyAmount": "مبلغ را مشخص کنید",
+    "existingSubscriptionNotice.updateCard": "برای به‌روزرسانی کارت خود، لطفاً <0>از این صفحه‌ی میزبانی‌شده‌ی Stripe استفاده کنید</0>."
   },
   "components/settings/github-syncer/sections/ConnectedSection/ManualSyncSection.tsx": {
     "notePleaseUseThisSparingForExampleWhenYouWantToBootstrapANewRepoThisIsNotDesignedToBePartOfYourNormalWorkflow": "<strong>توجه:</strong> لطفاً از این قابلیت کم استفاده کنید، مثلاً وقتی می‌خواهید مخزن جدیدی راه‌اندازی کنید. این قابلیت برای بخشی از روند کاری معمول شما در نظر گرفته نشده است.",
@@ -2539,7 +2540,9 @@
     "formOptions.updatingOption.cancelThisChange": "لغو این تغییر",
     "formOptions.cancellingOption.areYouSure": "آیا مطمئن هستید که می‌خواهید کمک مالی تکرارشونده‌تان را لغو کنید؟",
     "formOptions.cancellingOption.yesPleaseCancel": "بله، لطفاً آن را لغو کنید.",
-    "formOptions.cancellingOption.noCloseThis": "نه، این را ببندید."
+    "formOptions.cancellingOption.noCloseThis": "نه، این را ببندید.",
+    "formOptions.initializedOption.updateCard": "به‌روزرسانی کارت",
+    "formOptions.initializedOption.cancelDonation": "لغو کمک مالی"
   },
   "components/dropdowns": {
     "trackMenu.seeTrackOnGithub": "مشاهده‌ی مسیر {{trackTitle}} در Github <icon/>",

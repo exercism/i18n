@@ -2146,7 +2146,8 @@
     "existingSubscriptionNotice.extra": "Doações extras <0>pontuais</0> ainda são muito bem-vindas!",
     "stripeForm.yourEmailAddressForReceipts": "Seu endereço de e-mail (para recibos):",
     "stripeForm.defaultError": "Não foi possível obter as informações da assinatura",
-    "transactionForm.specifyAmount": "Informe o valor"
+    "transactionForm.specifyAmount": "Informe o valor",
+    "existingSubscriptionNotice.updateCard": "Para atualizar seu cartão, <0>use esta página hospedada pelo Stripe</0>."
   },
   "components/profile/contributions-list": {
     "buildingContributionsList.generic": "Genérico",
@@ -2659,7 +2660,9 @@
     "formOptions.updatingOption.cancelThisChange": "Cancelar esta alteração",
     "formOptions.cancellingOption.areYouSure": "Tem certeza de que quer cancelar sua doação recorrente?",
     "formOptions.cancellingOption.yesPleaseCancel": "Sim, por favor, cancele.",
-    "formOptions.cancellingOption.noCloseThis": "Não, feche isto."
+    "formOptions.cancellingOption.noCloseThis": "Não, feche isto.",
+    "formOptions.initializedOption.updateCard": "atualizar seu cartão",
+    "formOptions.initializedOption.cancelDonation": "cancelar sua doação"
   },
   "components/dropdowns": {
     "trackMenu.seeTrackOnGithub": "Ver a trilha {{trackTitle}} no Github <icon/>",

@@ -199,7 +199,8 @@
     "stripeForm.progressing": "In Bearbeitung",
     "stripeForm.eligibleForInsidersAccess": "Berechtigt für Insiders-Zugang",
     "stripeForm.defaultError": "Abonnementinformationen konnten nicht geladen werden",
-    "transactionForm.specifyAmount": "Betrag angeben"
+    "transactionForm.specifyAmount": "Betrag angeben",
+    "existingSubscriptionNotice.updateCard": "Um deine Karte zu aktualisieren, <0>nutze bitte diese von Stripe gehostete Seite</0>."
   },
   "components/student/mentoring-session/mentoring-request": {
     "mentoringRequestForm.learnMore": "Mehr erfahren",
@@ -1900,7 +1901,9 @@
     "formOptions.updatingOption.cancelThisChange": "Diese Änderung verwerfen",
     "formOptions.cancellingOption.areYouSure": "Bist du sicher, dass du deine wiederkehrende Spende kündigen möchtest?",
     "formOptions.cancellingOption.yesPleaseCancel": "Ja, bitte kündige sie.",
-    "formOptions.cancellingOption.noCloseThis": "Nein, schließen."
+    "formOptions.cancellingOption.noCloseThis": "Nein, schließen.",
+    "formOptions.initializedOption.updateCard": "Karte aktualisieren",
+    "formOptions.initializedOption.cancelDonation": "Spende kündigen"
   },
   "components/dropdowns": {
     "trackMenu.seeTrackOnGithub": "Den {{trackTitle}}-Track auf GitHub ansehen <icon/>",

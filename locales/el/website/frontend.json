@@ -1502,7 +1502,8 @@
     "form.monthlyRecurring": "Μηνιαία επαναλαμβανόμενη",
     "form.oneOff": "Εφάπαξ",
     "stripeForm.progressing": "Σε εξέλιξη",
-    "stripeForm.eligibleForInsidersAccess": "Δικαίωμα πρόσβασης στα Insiders"
+    "stripeForm.eligibleForInsidersAccess": "Δικαίωμα πρόσβασης στα Insiders",
+    "existingSubscriptionNotice.updateCard": "Για να ενημερώσεις την κάρτα σου, χρησιμοποίησε <0>αυτή τη σελίδα που φιλοξενείται από το Stripe</0>."
   },
   "components/donations/subscription-form": {
     "formOptions.initializedOption.changeAmount": "Αλλαγή ποσού",
@@ -1516,7 +1517,9 @@
     "formOptions.updatingOption.cancelThisChange": "Ακύρωσε αυτή την αλλαγή",
     "formOptions.cancellingOption.areYouSure": "Είσαι σίγουρος ότι θέλεις να ακυρώσεις την τακτική σου δωρεά;",
     "formOptions.cancellingOption.yesPleaseCancel": "Ναι, ακύρωσέ την.",
-    "formOptions.cancellingOption.noCloseThis": "Όχι, κλείσε το."
+    "formOptions.cancellingOption.noCloseThis": "Όχι, κλείσε το.",
+    "formOptions.initializedOption.updateCard": "ενημέρωση της κάρτας σου",
+    "formOptions.initializedOption.cancelDonation": "ακύρωση της δωρεάς σου"
   },
   "components/dropdowns": {
     "trackMenu.seeTrackOnGithub": "Δες τη διαδρομή {{trackTitle}} στο Github <icon/>",

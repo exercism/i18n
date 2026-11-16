@@ -1601,7 +1601,8 @@
     "form.monthlyRecurring": "每月定期",
     "form.oneOff": "一次性",
     "stripeForm.progressing": "处理中",
-    "stripeForm.eligibleForInsidersAccess": "有资格获得 Insiders 访问权限"
+    "stripeForm.eligibleForInsidersAccess": "有资格获得 Insiders 访问权限",
+    "existingSubscriptionNotice.updateCard": "要更新你的银行卡，请<0>使用这个由 Stripe 托管的页面</0>。"
   },
   "components/donations/subscription-form": {
     "formOptions.initializedOption.changeAmount": "更改金额",
@@ -1615,7 +1616,9 @@
     "formOptions.updatingOption.cancelThisChange": "取消这次更改",
     "formOptions.cancellingOption.areYouSure": "你确定要取消定期捐赠吗？",
     "formOptions.cancellingOption.yesPleaseCancel": "是的，请取消。",
-    "formOptions.cancellingOption.noCloseThis": "不，关闭此窗口。"
+    "formOptions.cancellingOption.noCloseThis": "不，关闭此窗口。",
+    "formOptions.initializedOption.updateCard": "更新你的银行卡",
+    "formOptions.initializedOption.cancelDonation": "取消你的捐款"
   },
   "components/dropdowns": {
     "trackMenu.seeTrackOnGithub": "在 Github 上查看 {{trackTitle}} 学习路径 <icon/>",

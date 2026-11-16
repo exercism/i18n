@@ -509,7 +509,8 @@
     "stripeForm.progressing": "جارٍ التقدّم",
     "stripeForm.eligibleForInsidersAccess": "مؤهّل للوصول إلى Insiders",
     "stripeForm.defaultError": "تعذّر جلب معلومات الاشتراك",
-    "transactionForm.specifyAmount": "حدّد المبلغ"
+    "transactionForm.specifyAmount": "حدّد المبلغ",
+    "existingSubscriptionNotice.updateCard": "لتحديث بطاقتك، يُرجى <0>استخدام هذه الصفحة المستضافة على Stripe</0>."
   },
   "components/modals/EnableSolutionCommentsModal.tsx": {
     "enableSolutionCommentsModal.enableCommentsButton": "تفعيل التعليقات",
@@ -2359,7 +2360,9 @@
     "formOptions.updatingOption.cancelThisChange": "إلغاء هذا التغيير",
     "formOptions.cancellingOption.areYouSure": "هل أنت متأكد من أنك تريد إلغاء تبرعك المتكرر؟",
     "formOptions.cancellingOption.yesPleaseCancel": "نعم، من فضلك ألغِه.",
-    "formOptions.cancellingOption.noCloseThis": "لا، أغلق هذا."
+    "formOptions.cancellingOption.noCloseThis": "لا، أغلق هذا.",
+    "formOptions.initializedOption.updateCard": "تحديث بطاقتك",
+    "formOptions.initializedOption.cancelDonation": "إلغاء تبرعك"
   },
   "components/dropdowns": {
     "trackMenu.seeTrackOnGithub": "شاهد مسار {{trackTitle}} على Github <icon/>",

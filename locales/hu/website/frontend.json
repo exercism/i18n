@@ -243,7 +243,8 @@
     "form.oneOff": "Egyszeri",
     "stripeForm.progressing": "Folyamatban",
     "stripeForm.eligibleForInsidersAccess": "Jogosult az Insiders hozzáférésre",
-    "transactionForm.specifyAmount": "Add meg az összeget"
+    "transactionForm.specifyAmount": "Add meg az összeget",
+    "existingSubscriptionNotice.updateCard": "A kártyád frissítéséhez <0>használd ezt a Stripe által üzemeltetett oldalt</0>."
   },
   "components/donations/subscription-form": {
     "formOptions.initializedOption.changeAmount": "Összeg módosítása",
@@ -257,7 +258,9 @@
     "formOptions.updatingOption.cancelThisChange": "Módosítás visszavonása",
     "formOptions.cancellingOption.areYouSure": "Biztosan le szeretnéd mondani az ismétlődő adományodat?",
     "formOptions.cancellingOption.yesPleaseCancel": "Igen, kérlek, mondd le.",
-    "formOptions.cancellingOption.noCloseThis": "Nem, zárd be."
+    "formOptions.cancellingOption.noCloseThis": "Nem, zárd be.",
+    "formOptions.initializedOption.updateCard": "kártyád frissítése",
+    "formOptions.initializedOption.cancelDonation": "adományod lemondása"
   },
   "components/dropdowns": {
     "trackMenu.seeTrackOnGithub": "A(z) {{trackTitle}} kurzus megtekintése a Githubon <icon/>",

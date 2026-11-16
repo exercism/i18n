@@ -845,7 +845,9 @@
     "formOptions.updatingOption.cancelThisChange": "Скасувати цю зміну",
     "formOptions.cancellingOption.areYouSure": "Точно скасувати регулярний донат?",
     "formOptions.cancellingOption.yesPleaseCancel": "Так, скасувати.",
-    "formOptions.cancellingOption.noCloseThis": "Ні, закрити."
+    "formOptions.cancellingOption.noCloseThis": "Ні, закрити.",
+    "formOptions.initializedOption.updateCard": "оновити картку",
+    "formOptions.initializedOption.cancelDonation": "скасувати пожертву"
   },
   "components/dropdowns": {
     "trackMenu.seeTrackOnGithub": "Переглянути трек {{trackTitle}} на GitHub <icon/>",
@@ -1473,7 +1475,8 @@
     "stripeForm.progressing": "Обробляється",
     "stripeForm.eligibleForInsidersAccess": "Право на доступ до Insiders",
     "stripeForm.defaultError": "Не вдалося отримати інформацію про підписку",
-    "transactionForm.specifyAmount": "Вкажіть суму"
+    "transactionForm.specifyAmount": "Вкажіть суму",
+    "existingSubscriptionNotice.updateCard": "Щоб оновити картку, <0>скористайтеся цією сторінкою на Stripe</0>."
   },
   "components/Editor.tsx": {
     "submitError.unableToSubmitFile": "Не вдалося надіслати файл. Спробуйте ще раз.",
