@@ -416,7 +416,8 @@ This page is generated from [the index](../../json/es-ES/sqlite.json) by `script
 
 ### How to learn SQLite (Cómo aprender SQLite)
 
-- `LEARNING.md` ([English](https://github.com/exercism/sqlite/blob/main/docs/LEARNING.md)): [Latest](../../../locales/es-ES/content/ee/da/1159dcd0028a83f0e06b0b198ffd5f00ae08.md)
+- `LEARNING.md` ([English](https://github.com/exercism/sqlite/blob/main/docs/LEARNING.md)): [Latest](../../../locales/es-ES/content/f9/48/34e01869d7a68dc015afcdb8cb1040b7c5c7.md)
+  - [`eeda1159dc`](../../../locales/es-ES/content/ee/da/1159dcd0028a83f0e06b0b198ffd5f00ae08.md)
 
 ### Installing SQLite locally (Instalar SQLite localmente)
 

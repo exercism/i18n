@@ -428,7 +428,8 @@ This page is generated from [the index](../../json/hu/sqlite.json) by `scripts/b
 
 ### How to learn SQLite (Hogyan tanulj meg SQLite-ot)
 
-- `LEARNING.md` ([English](https://github.com/exercism/sqlite/blob/main/docs/LEARNING.md)): [Latest](../../../locales/hu/content/ee/da/1159dcd0028a83f0e06b0b198ffd5f00ae08.md)
+- `LEARNING.md` ([English](https://github.com/exercism/sqlite/blob/main/docs/LEARNING.md)): [Latest](../../../locales/hu/content/f9/48/34e01869d7a68dc015afcdb8cb1040b7c5c7.md)
+  - [`eeda1159dc`](../../../locales/hu/content/ee/da/1159dcd0028a83f0e06b0b198ffd5f00ae08.md)
 
 ### Installing SQLite locally (Az SQLite helyi telepítése)
 

@@ -416,7 +416,8 @@ This page is generated from [the index](../../json/hi/sqlite.json) by `scripts/b
 
 ### How to learn SQLite (SQLite कैसे सीखें)
 
-- `LEARNING.md` ([English](https://github.com/exercism/sqlite/blob/main/docs/LEARNING.md)): [Latest](../../../locales/hi/content/ee/da/1159dcd0028a83f0e06b0b198ffd5f00ae08.md)
+- `LEARNING.md` ([English](https://github.com/exercism/sqlite/blob/main/docs/LEARNING.md)): [Latest](../../../locales/hi/content/f9/48/34e01869d7a68dc015afcdb8cb1040b7c5c7.md)
+  - [`eeda1159dc`](../../../locales/hi/content/ee/da/1159dcd0028a83f0e06b0b198ffd5f00ae08.md)
 
 ### Installing SQLite locally (SQLite को अपने कंप्यूटर पर इंस्टॉल करना)
 
