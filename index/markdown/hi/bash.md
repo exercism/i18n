@@ -558,7 +558,8 @@ This page is generated from [the index](../../json/hi/bash.json) by `scripts/bui
 
 ### Testing on the Bash track (Bash ट्रैक पर टेस्टिंग)
 
-- `TESTS.md` ([English](https://github.com/exercism/bash/blob/main/docs/TESTS.md)): [Latest](../../../locales/hi/content/33/52/508711c97ae137e91d0edc943f0ba29501a1.md)
+- `TESTS.md` ([English](https://github.com/exercism/bash/blob/main/docs/TESTS.md)): [Latest](../../../locales/hi/content/9c/ab/163486b1c6add040d959bcdc761a84b86d50.md)
+  - [`3352508711`](../../../locales/hi/content/33/52/508711c97ae137e91d0edc943f0ba29501a1.md)
   - [`6e73e0d359`](../../../locales/hi/content/6e/73/e0d359078bd0981063ad826ab79aff8dd564.md)
 
 ### Useful Bash resources (उपयोगी Bash संसाधन)
@@ -576,4 +577,5 @@ This page is generated from [the index](../../json/hi/bash.json) by `scripts/bui
 
 ### tests.md
 
-- `tests.md` ([English](https://github.com/exercism/bash/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/hi/content/8a/42/2ff32eceabdd0e4af53054ab4221e6639b7a.md)
+- `tests.md` ([English](https://github.com/exercism/bash/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/hi/content/57/f6/e0d2c3a97d1670472ef05ce62be8e2ad5ac9.md)
+  - [`8a422ff32e`](../../../locales/hi/content/8a/42/2ff32eceabdd0e4af53054ab4221e6639b7a.md)

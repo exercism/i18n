@@ -558,7 +558,8 @@ This page is generated from [the index](../../json/zh-TW/bash.json) by `scripts/
 
 ### Testing on the Bash track (在 Bash 軌道上測試)
 
-- `TESTS.md` ([English](https://github.com/exercism/bash/blob/main/docs/TESTS.md)): [Latest](../../../locales/zh-TW/content/33/52/508711c97ae137e91d0edc943f0ba29501a1.md)
+- `TESTS.md` ([English](https://github.com/exercism/bash/blob/main/docs/TESTS.md)): [Latest](../../../locales/zh-TW/content/9c/ab/163486b1c6add040d959bcdc761a84b86d50.md)
+  - [`3352508711`](../../../locales/zh-TW/content/33/52/508711c97ae137e91d0edc943f0ba29501a1.md)
   - [`6e73e0d359`](../../../locales/zh-TW/content/6e/73/e0d359078bd0981063ad826ab79aff8dd564.md)
 
 ### Useful Bash resources (實用的 Bash 資源)
@@ -576,4 +577,5 @@ This page is generated from [the index](../../json/zh-TW/bash.json) by `scripts/
 
 ### tests.md
 
-- `tests.md` ([English](https://github.com/exercism/bash/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/zh-TW/content/8a/42/2ff32eceabdd0e4af53054ab4221e6639b7a.md)
+- `tests.md` ([English](https://github.com/exercism/bash/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/zh-TW/content/57/f6/e0d2c3a97d1670472ef05ce62be8e2ad5ac9.md)
+  - [`8a422ff32e`](../../../locales/zh-TW/content/8a/42/2ff32eceabdd0e4af53054ab4221e6639b7a.md)

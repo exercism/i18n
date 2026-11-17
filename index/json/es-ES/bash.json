@@ -153,7 +153,7 @@
     "docs/MAINTAINING.md": ["c0f4c55d05b8f05b4b57ca963491af3bd1c9f7cb","031a507f827467f93a96b3eec32b0b66757c3834"],
     "docs/RESOURCES.md": ["c7e6bcf02ca0c6a4dfc07cc898c9cafc510f22f8","b03cddeb57946a54b5dd5ea555a9eaa6f3ac106b","9c63ab9380e34ba74717b64d193216203eb9dbc8","69284bd422f9e7357960f2592f5812a381db20a0"],
     "docs/SYLLABUS.md": ["3474ec1c1314b49fda6edbdf58bfba1275768bdf"],
-    "docs/TESTS.md": ["3352508711c97ae137e91d0edc943f0ba29501a1","6e73e0d359078bd0981063ad826ab79aff8dd564"],
+    "docs/TESTS.md": ["9cab163486b1c6add040d959bcdc761a84b86d50","3352508711c97ae137e91d0edc943f0ba29501a1","6e73e0d359078bd0981063ad826ab79aff8dd564"],
     "exercises/practice/acronym/.docs/instructions.md": ["133bd2cbb78d186c92e5d2b8ca41cf13f77d6bea"],
     "exercises/practice/affine-cipher/.docs/instructions.md": ["1603dbbce91dee78f8c1520ceb8bc96c6dc9528a"],
     "exercises/practice/all-your-base/.docs/instructions.md": ["1b688b6915eb31f5ee6c3b67d2803024a353806e"],
@@ -311,7 +311,7 @@
     "exercises/practice/yacht/.docs/instructions.md": ["519b7a68b876e58fc845cccc10ae1d28519db33a"],
     "exercises/practice/yacht/.docs/introduction.md": ["5b541f5625ce0d5916f9545a824de17a55d433f1"],
     "exercises/shared/.docs/help.md": ["681723e6ed553def1183d7b9eaef14ae32a5d734"],
-    "exercises/shared/.docs/tests.md": ["8a422ff32eceabdd0e4af53054ab4221e6639b7a"]
+    "exercises/shared/.docs/tests.md": ["57f6e0d2c3a97d1670472ef05ce62be8e2ad5ac9","8a422ff32eceabdd0e4af53054ab4221e6639b7a"]
   },
   "repo": "bash"
 }
