@@ -71,7 +71,7 @@
     "exercises/practice/nucleotide-count": {"en":"Nucleotide Count","hu":"Nukleotidszámlálás"},
     "exercises/practice/ocr-numbers": {"en":"OCR Numbers","hu":"OCR-számok"},
     "exercises/practice/palindrome-products": {"en":"Palindrome Products","hu":"Palindrom szorzatok"},
-    "exercises/practice/pangram": {"en":"Pangram","hu":"Pangram"},
+    "exercises/practice/pangram": {"en":"Pangram","hu":"Pangramma"},
     "exercises/practice/pascals-triangle": {"en":"Pascal's Triangle","hu":"Pascal-háromszög"},
     "exercises/practice/perfect-numbers": {"en":"Perfect Numbers","hu":"Tökéletes számok"},
     "exercises/practice/phone-number": {"en":"Phone Number","hu":"Telefonszám"},
@@ -138,7 +138,7 @@
     "docs/INSTALLATION.md": ["a14750cacde98b9caec8eed303e66f337ba20da4"],
     "docs/LEARNING.md": ["bfcddfc76febd4f2b71ea9a6cee4ab92231c3308"],
     "docs/RESOURCES.md": ["1d182b98479b878992926dba3aefeeeb50abc480"],
-    "docs/TESTS.md": ["189adea153d81f99fa6156343b04ebe932c0a3aa"],
+    "docs/TESTS.md": ["215d962f62f9719b8e776552fb7727da9f942317","189adea153d81f99fa6156343b04ebe932c0a3aa"],
     "exercises/practice/acronym/.docs/instructions.md": ["133bd2cbb78d186c92e5d2b8ca41cf13f77d6bea"],
     "exercises/practice/affine-cipher/.docs/instructions.md": ["1603dbbce91dee78f8c1520ceb8bc96c6dc9528a"],
     "exercises/practice/all-your-base/.docs/instructions.md": ["1b688b6915eb31f5ee6c3b67d2803024a353806e"],
@@ -334,7 +334,7 @@
     "exercises/practice/zebra-puzzle/.docs/instructions.md": ["aedce9b25e7ed65c8f05d32cdae4cbd12adbb245"],
     "exercises/practice/zebra-puzzle/.docs/introduction.md": ["bbcaa6fd203b1287d74439822b072473408e4799"],
     "exercises/shared/.docs/help.md": ["01fdb0b8f7bd3e5a9e6ab0dcd8c9c181fe1daeaa"],
-    "exercises/shared/.docs/tests.md": ["5e988f41be017e40f836e1b1384aee2b1414534d"]
+    "exercises/shared/.docs/tests.md": ["a49898b5dac54ef7270849dd4855255854609d8c","5e988f41be017e40f836e1b1384aee2b1414534d"]
   },
   "repo": "moonscript"
 }

@@ -304,7 +304,7 @@ This page is generated from [the index](../../json/hu/moonscript.json) by `scrip
 
 - `instructions.md` ([English](https://github.com/exercism/moonscript/blob/main/exercises/practice/palindrome-products/.docs/instructions.md)): [Latest](../../../locales/hu/content/aa/c6/6521ce736be8ce737ea709a5b1eed507cbb8.md)
 
-### Pangram
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/moonscript/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
 - `introduction.md` ([English](https://github.com/exercism/moonscript/blob/main/exercises/practice/pangram/.docs/introduction.md)): [Latest](../../../locales/hu/content/32/b6/f1fc3178c36f2677b2d7bbeb35bafd6c786d.md)
@@ -596,7 +596,8 @@ This page is generated from [the index](../../json/hu/moonscript.json) by `scrip
 
 ### Testing on the MoonScript track (Tesztelés a MoonScript-kurzuson)
 
-- `TESTS.md` ([English](https://github.com/exercism/moonscript/blob/main/docs/TESTS.md)): [Latest](../../../locales/hu/content/18/9a/dea153d81f99fa6156343b04ebe932c0a3aa.md)
+- `TESTS.md` ([English](https://github.com/exercism/moonscript/blob/main/docs/TESTS.md)): [Latest](../../../locales/hu/content/21/5d/962f62f9719b8e776552fb7727da9f942317.md)
+  - [`189adea153`](../../../locales/hu/content/18/9a/dea153d81f99fa6156343b04ebe932c0a3aa.md)
 
 ### Useful MoonScript resources (Hasznos MoonScript-források)
 
@@ -610,4 +611,5 @@ This page is generated from [the index](../../json/hu/moonscript.json) by `scrip
 
 ### tests.md
 
-- `tests.md` ([English](https://github.com/exercism/moonscript/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/hu/content/5e/98/8f41be017e40f836e1b1384aee2b1414534d.md)
+- `tests.md` ([English](https://github.com/exercism/moonscript/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/hu/content/a4/98/98b5dac54ef7270849dd4855255854609d8c.md)
+  - [`5e988f41be`](../../../locales/hu/content/5e/98/8f41be017e40f836e1b1384aee2b1414534d.md)

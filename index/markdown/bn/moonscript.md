@@ -596,7 +596,8 @@ This page is generated from [the index](../../json/bn/moonscript.json) by `scrip
 
 ### Testing on the MoonScript track (MoonScript ট্র্যাকে টেস্ট করা)
 
-- `TESTS.md` ([English](https://github.com/exercism/moonscript/blob/main/docs/TESTS.md)): [Latest](../../../locales/bn/content/18/9a/dea153d81f99fa6156343b04ebe932c0a3aa.md)
+- `TESTS.md` ([English](https://github.com/exercism/moonscript/blob/main/docs/TESTS.md)): [Latest](../../../locales/bn/content/21/5d/962f62f9719b8e776552fb7727da9f942317.md)
+  - [`189adea153`](../../../locales/bn/content/18/9a/dea153d81f99fa6156343b04ebe932c0a3aa.md)
 
 ### Useful MoonScript resources (MoonScript-এর কাজের রিসোর্স)
 
@@ -610,4 +611,5 @@ This page is generated from [the index](../../json/bn/moonscript.json) by `scrip
 
 ### tests.md
 
-- `tests.md` ([English](https://github.com/exercism/moonscript/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/bn/content/5e/98/8f41be017e40f836e1b1384aee2b1414534d.md)
+- `tests.md` ([English](https://github.com/exercism/moonscript/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/bn/content/a4/98/98b5dac54ef7270849dd4855255854609d8c.md)
+  - [`5e988f41be`](../../../locales/bn/content/5e/98/8f41be017e40f836e1b1384aee2b1414534d.md)
