@@ -113,7 +113,8 @@ This page is generated from [the index](../../json/el/c.json) by `scripts/build-
 ### Gigasecond (Γιγαδευτερόλεπτο)
 
 - `instructions.md` ([English](https://github.com/exercism/c/blob/main/exercises/practice/gigasecond/.docs/instructions.md)): [Latest](../../../locales/el/content/1e/20/f0022e47d16c84030db24f4c83f00b60652d.md)
-- `instructions.append.md` ([English](https://github.com/exercism/c/blob/main/exercises/practice/gigasecond/.docs/instructions.append.md)): [Latest](../../../locales/el/content/fa/c5/186ca8c59ad622d435538c71b16e1709377d.md)
+- `instructions.append.md` ([English](https://github.com/exercism/c/blob/main/exercises/practice/gigasecond/.docs/instructions.append.md)): [Latest](../../../locales/el/content/1a/56/d8d4060a22d55539bb9a4a4bdfa42549fac2.md)
+  - [`fac5186ca8`](../../../locales/el/content/fa/c5/186ca8c59ad622d435538c71b16e1709377d.md)
 - `introduction.md` ([English](https://github.com/exercism/c/blob/main/exercises/practice/gigasecond/.docs/introduction.md)): [Latest](../../../locales/el/content/18/a3/dc2005835723646b6cd216c36ae4dfc7550f.md)
 
 ### Grade School (Δημοτικό Σχολείο)
@@ -400,8 +401,10 @@ This page is generated from [the index](../../json/el/c.json) by `scripts/build-
 
 ### Basics (Τα βασικά)
 
-- `introduction.md` ([English](https://github.com/exercism/c/blob/main/concepts/basics/introduction.md)): [Latest](../../../locales/el/content/2f/a6/92188d17b092d76dd4be167e666ea6a1a2ab.md)
-- `about.md` ([English](https://github.com/exercism/c/blob/main/concepts/basics/about.md)): [Latest](../../../locales/el/content/d5/38/2a6b955c597a23757c5498ee5bc24481fdbe.md)
+- `introduction.md` ([English](https://github.com/exercism/c/blob/main/concepts/basics/introduction.md)): [Latest](../../../locales/el/content/81/5e/d32dc16a2381dd689cd8903cb29d5be4034c.md)
+  - [`2fa692188d`](../../../locales/el/content/2f/a6/92188d17b092d76dd4be167e666ea6a1a2ab.md)
+- `about.md` ([English](https://github.com/exercism/c/blob/main/concepts/basics/about.md)): [Latest](../../../locales/el/content/17/ae/3bb454c4a97efc67a5d5387ddcf9f6836ad3.md)
+  - [`d5382a6b95`](../../../locales/el/content/d5/38/2a6b955c597a23757c5498ee5bc24481fdbe.md)
 
 ### Bits (Δυφία)
 
@@ -480,16 +483,19 @@ This page is generated from [the index](../../json/el/c.json) by `scripts/build-
 
 ### CONTRIBUTING.md
 
-- `CONTRIBUTING.md` ([English](https://github.com/exercism/c/blob/main/docs/CONTRIBUTING.md)): [Latest](../../../locales/el/content/20/e4/f72e2ee015d85dab61383164d3c1433106e8.md)
+- `CONTRIBUTING.md` ([English](https://github.com/exercism/c/blob/main/docs/CONTRIBUTING.md)): [Latest](../../../locales/el/content/93/24/0ade5903e226f10531594f90f65746b0c679.md)
+  - [`20e4f72e2e`](../../../locales/el/content/20/e4/f72e2ee015d85dab61383164d3c1433106e8.md)
   - [`7a4f1d9110`](../../../locales/el/content/7a/4f/1d9110ddb0dced3eb9aa3db6539f22c81a9a.md)
 
 ### How to learn C (Πώς να μάθεις C)
 
-- `LEARNING.md` ([English](https://github.com/exercism/c/blob/main/docs/LEARNING.md)): [Latest](../../../locales/el/content/a2/f0/27da1860ef88fdd381e7088f1db3c8efa2b2.md)
+- `LEARNING.md` ([English](https://github.com/exercism/c/blob/main/docs/LEARNING.md)): [Latest](../../../locales/el/content/22/ea/6b37d680d06079ea12da1c072b62dd28f8e0.md)
+  - [`a2f027da18`](../../../locales/el/content/a2/f0/27da1860ef88fdd381e7088f1db3c8efa2b2.md)
 
 ### Installing C locally (Εγκατάσταση της C τοπικά)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/c/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/el/content/13/1e/33c62d3a75a09ba08f2ed718469bac78d9bd.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/c/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/el/content/ef/50/d11be4a3f95a6231dd03e70658a78f277c3e.md)
+  - [`131e33c62d`](../../../locales/el/content/13/1e/33c62d3a75a09ba08f2ed718469bac78d9bd.md)
 
 ### Testing on the C track (Δοκιμές στη διαδρομή C)
 
@@ -497,7 +503,8 @@ This page is generated from [the index](../../json/el/c.json) by `scripts/build-
 
 ### Useful C resources (Χρήσιμοι πόροι για τη C)
 
-- `RESOURCES.md` ([English](https://github.com/exercism/c/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/el/content/a7/9c/b55802f304b0a5182d719ac26d6b5a282f54.md)
+- `RESOURCES.md` ([English](https://github.com/exercism/c/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/el/content/e8/c5/8e5d6b675a17dc7ae558148c79b1e5430b8a.md)
+  - [`a79cb55802`](../../../locales/el/content/a7/9c/b55802f304b0a5182d719ac26d6b5a282f54.md)
 
 ### VERSIONS.md
 
@@ -507,7 +514,8 @@ This page is generated from [the index](../../json/el/c.json) by `scripts/build-
 
 ### help.md
 
-- `help.md` ([English](https://github.com/exercism/c/blob/main/exercises/shared/.docs/help.md)): [Latest](../../../locales/el/content/7d/7c/ef60e9077fd20c977013d530bbcebb664760.md)
+- `help.md` ([English](https://github.com/exercism/c/blob/main/exercises/shared/.docs/help.md)): [Latest](../../../locales/el/content/72/ef/4eb3c3f6afe3a57875f7932b4ab3a6fcee5d.md)
+  - [`7d7cef60e9`](../../../locales/el/content/7d/7c/ef60e9077fd20c977013d530bbcebb664760.md)
 
 ### tests.md
 
