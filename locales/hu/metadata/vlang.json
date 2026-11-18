@@ -353,5 +353,8 @@
   "exercise:relative-distance:blurb": "Adott egy családfa, számítsd ki a rokonsági fokot.",
   "exercise:relative-distance:source": "vaeng",
   "exercise:alphametics:name": "Alfametika",
-  "exercise:alphametics:blurb": "Adott egy alphametics rejtvény, keresd meg a helyes megoldást."
+  "exercise:alphametics:blurb": "Adott egy alphametics rejtvény, keresd meg a helyes megoldást.",
+  "exercise:resistor-color-tolerance:name": "Ellenállás színtűrése",
+  "exercise:resistor-color-tolerance:blurb": "Alakítsd át az ellenállásokon különböző sávokkal használt színkódokat ember számára olvasható címkévé.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

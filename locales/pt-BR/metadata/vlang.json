@@ -353,5 +353,8 @@
   "exercise:relative-distance:blurb": "Dada uma árvore genealógica, calcule o grau de separação.",
   "exercise:relative-distance:source": "vaeng",
   "exercise:alphametics:name": "Alphametics",
-  "exercise:alphametics:blurb": "Dado um quebra-cabeça de alphametics, encontre a solução correta."
+  "exercise:alphametics:blurb": "Dado um quebra-cabeça de alphametics, encontre a solução correta.",
+  "exercise:resistor-color-tolerance:name": "Tolerância de cores de resistores",
+  "exercise:resistor-color-tolerance:blurb": "Converta códigos de cores, como os usados em resistores com diferentes faixas, para um rótulo legível para humanos.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

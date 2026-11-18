@@ -353,5 +353,8 @@
   "exercise:relative-distance:blurb": "Dato un albero genealogico, calcola il grado di separazione.",
   "exercise:relative-distance:source": "vaeng",
   "exercise:alphametics:name": "Alfametica",
-  "exercise:alphametics:blurb": "Dato un puzzle di alfametica, trova la soluzione corretta."
+  "exercise:alphametics:blurb": "Dato un puzzle di alfametica, trova la soluzione corretta.",
+  "exercise:resistor-color-tolerance:name": "Tolleranza del colore della resistenza",
+  "exercise:resistor-color-tolerance:blurb": "Converti i codici colore usati sulle resistenze con diverse bande in un'etichetta leggibile da una persona.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

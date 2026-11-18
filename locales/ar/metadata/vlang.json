@@ -353,5 +353,8 @@
   "exercise:relative-distance:blurb": "بمعلومية شجرة عائلة، احسب درجة القرابة.",
   "exercise:relative-distance:source": "vaeng",
   "exercise:alphametics:name": "Alphametics",
-  "exercise:alphametics:blurb": "بالنظر إلى لغز Alphametics، ابحث عن الحل الصحيح."
+  "exercise:alphametics:blurb": "بالنظر إلى لغز Alphametics، ابحث عن الحل الصحيح.",
+  "exercise:resistor-color-tolerance:name": "سماحية ألوان المقاومة",
+  "exercise:resistor-color-tolerance:blurb": "حوّل أكواد الألوان المستخدمة في المقاومات ذات الأشرطة المختلفة إلى تسمية يمكن للبشر قراءتها.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

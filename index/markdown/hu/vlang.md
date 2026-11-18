@@ -305,7 +305,7 @@ This page is generated from [the index](../../json/hu/vlang.json) by `scripts/bu
 
 - `instructions.md` ([English](https://github.com/exercism/vlang/blob/main/exercises/practice/palindrome-products/.docs/instructions.md)): [Latest](../../../locales/hu/content/aa/c6/6521ce736be8ce737ea709a5b1eed507cbb8.md)
 
-### Pangram
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/vlang/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
   - [`d5698bc2a2`](../../../locales/hu/content/d5/69/8bc2a292baf2fb128de3543b748165088c4f.md)
@@ -397,6 +397,10 @@ This page is generated from [the index](../../json/hu/vlang.json) by `scripts/bu
 ### Resistor Color Duo (Ellenállás színkódja: duó)
 
 - `instructions.md` ([English](https://github.com/exercism/vlang/blob/main/exercises/practice/resistor-color-duo/.docs/instructions.md)): [Latest](../../../locales/hu/content/4a/e6/94da025b329a9e51e07c741aa41925253b1a.md)
+
+### Resistor Color Tolerance (Ellenállás színtűrése)
+
+- `instructions.md` ([English](https://github.com/exercism/vlang/blob/main/exercises/practice/resistor-color-tolerance/.docs/instructions.md)): [Latest](../../../locales/hu/content/f4/79/50f0140496ad1b9a967379766d8a7583b002.md)
 
 ### Resistor Color Trio (Ellenállás színkódja: trió)
 

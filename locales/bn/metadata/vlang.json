@@ -353,5 +353,8 @@
   "exercise:relative-distance:blurb": "একটি বংশতালিকা দেওয়া থাকলে, সম্পর্কের দূরত্ব নির্ণয় করুন।",
   "exercise:relative-distance:source": "vaeng",
   "exercise:alphametics:name": "অ্যালফামেটিকস",
-  "exercise:alphametics:blurb": "একটি অ্যালফামেটিকস ধাঁধা দেওয়া হলে সঠিক সমাধান খুঁজে বের করুন।"
+  "exercise:alphametics:blurb": "একটি অ্যালফামেটিকস ধাঁধা দেওয়া হলে সঠিক সমাধান খুঁজে বের করুন।",
+  "exercise:resistor-color-tolerance:name": "রেজিস্টর কালার টলারেন্স",
+  "exercise:resistor-color-tolerance:blurb": "বিভিন্ন ব্যান্ডযুক্ত রেজিস্টরে ব্যবহৃত রঙের কোডকে মানুষের পড়ার উপযোগী লেবেলে রূপান্তর করুন।",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

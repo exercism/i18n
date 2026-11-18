@@ -353,5 +353,8 @@
   "exercise:relative-distance:blurb": "با داشتن یک شجره‌نامه، درجه‌ی خویشاوندی را محاسبه کنید.",
   "exercise:relative-distance:source": "vaeng",
   "exercise:alphametics:name": "آلفامتیک",
-  "exercise:alphametics:blurb": "پاسخ درست یک معمای آلفامتیک را پیدا کنید."
+  "exercise:alphametics:blurb": "پاسخ درست یک معمای آلفامتیک را پیدا کنید.",
+  "exercise:resistor-color-tolerance:name": "تلورانس رنگ مقاومت",
+  "exercise:resistor-color-tolerance:blurb": "کدهای رنگی به‌کاررفته روی مقاومت‌هایی با نوارهای مختلف را به برچسبی خوانا برای انسان تبدیل کنید.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

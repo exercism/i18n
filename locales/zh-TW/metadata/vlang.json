@@ -353,5 +353,8 @@
   "exercise:relative-distance:blurb": "給定一棵家族樹，計算兩人之間的親等。",
   "exercise:relative-distance:source": "vaeng",
   "exercise:alphametics:name": "字母算術",
-  "exercise:alphametics:blurb": "給定一道字母算術謎題，找出正確解答。"
+  "exercise:alphametics:blurb": "給定一道字母算術謎題，找出正確解答。",
+  "exercise:resistor-color-tolerance:name": "電阻色碼容差",
+  "exercise:resistor-color-tolerance:blurb": "將電阻器上不同色帶所用的色碼轉換成人類可讀的標籤。",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

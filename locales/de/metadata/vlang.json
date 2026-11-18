@@ -353,5 +353,8 @@
   "exercise:relative-distance:blurb": "Berechne für einen Stammbaum den Verwandtschaftsgrad.",
   "exercise:relative-distance:source": "vaeng",
   "exercise:alphametics:name": "Alphametik",
-  "exercise:alphametics:blurb": "Finde die richtige Lösung für ein Alphametik-Rätsel."
+  "exercise:alphametics:blurb": "Finde die richtige Lösung für ein Alphametik-Rätsel.",
+  "exercise:resistor-color-tolerance:name": "Farbtoleranz von Widerständen",
+  "exercise:resistor-color-tolerance:blurb": "Wandle Farbcodes, wie sie bei Widerständen mit unterschiedlichen Ringen verwendet werden, in eine für Menschen lesbare Bezeichnung um.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

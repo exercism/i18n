@@ -353,5 +353,8 @@
   "exercise:relative-distance:blurb": "दिए गए वंशवृक्ष से अलगाव की दूरी निकालिए।",
   "exercise:relative-distance:source": "vaeng",
   "exercise:alphametics:name": "अल्फामेटिक्स",
-  "exercise:alphametics:blurb": "दी गई अल्फामेटिक्स पहेली का सही हल निकालिए।"
+  "exercise:alphametics:blurb": "दी गई अल्फामेटिक्स पहेली का सही हल निकालिए।",
+  "exercise:resistor-color-tolerance:name": "प्रतिरोधक रंग सहनशीलता",
+  "exercise:resistor-color-tolerance:blurb": "रेज़िस्टरों पर अलग-अलग बैंडों के साथ इस्तेमाल होने वाले रंग कोडों को मनुष्य के पढ़ने लायक लेबल में बदलिए।",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

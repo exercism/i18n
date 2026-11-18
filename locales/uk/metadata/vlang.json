@@ -353,5 +353,8 @@
   "exercise:relative-distance:blurb": "Дано родинне дерево: обчислити ступінь спорідненості.",
   "exercise:relative-distance:source": "vaeng",
   "exercise:alphametics:name": "Алфаметика",
-  "exercise:alphametics:blurb": "За заданою алфаметичною головоломкою знайдіть правильний розвʼязок."
+  "exercise:alphametics:blurb": "За заданою алфаметичною головоломкою знайдіть правильний розвʼязок.",
+  "exercise:resistor-color-tolerance:name": "Кольоровий допуск резистора",
+  "exercise:resistor-color-tolerance:blurb": "Перетворіть кольорові коди, які використовують на резисторах із різною кількістю смуг, у зрозумілу для людини позначку.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

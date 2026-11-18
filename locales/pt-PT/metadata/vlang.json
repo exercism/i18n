@@ -353,5 +353,8 @@
   "exercise:relative-distance:blurb": "Dada uma árvore genealógica, calcula o grau de parentesco.",
   "exercise:relative-distance:source": "vaeng",
   "exercise:alphametics:name": "Alfamética",
-  "exercise:alphametics:blurb": "Dado um quebra-cabeças de alfamética, encontra a solução correta."
+  "exercise:alphametics:blurb": "Dado um quebra-cabeças de alfamética, encontra a solução correta.",
+  "exercise:resistor-color-tolerance:name": "Tolerância da cor da resistência",
+  "exercise:resistor-color-tolerance:blurb": "Converte códigos de cores usados em resistências com diferentes faixas num rótulo legível para humanos.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }
