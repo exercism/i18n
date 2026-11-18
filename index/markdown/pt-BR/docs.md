@@ -437,7 +437,8 @@ This page is generated from [the index](../../json/pt-BR/docs.json) by `scripts/
 
 ### Icons (Ícones)
 
-- `icons.md` ([English](https://github.com/exercism/docs/blob/main/building/tracks/icons.md)): [Latest](../../../locales/pt-BR/content/2f/4c/da3118c6c6000f61cc7d76beef4ffde2e60a.md)
+- `icons.md` ([English](https://github.com/exercism/docs/blob/main/building/tracks/icons.md)): [Latest](../../../locales/pt-BR/content/fa/4a/086b4e44a00d4729092cde9658dc714fe275.md)
+  - [`2f4cda3118`](../../../locales/pt-BR/content/2f/4c/da3118c6c6000f61cc7d76beef4ffde2e60a.md)
 
 ### Implement additional tooling (Implemente ferramentas adicionais)
 

@@ -437,7 +437,8 @@ This page is generated from [the index](../../json/zh-TW/docs.json) by `scripts/
 
 ### Icons (圖示)
 
-- `icons.md` ([English](https://github.com/exercism/docs/blob/main/building/tracks/icons.md)): [Latest](../../../locales/zh-TW/content/2f/4c/da3118c6c6000f61cc7d76beef4ffde2e60a.md)
+- `icons.md` ([English](https://github.com/exercism/docs/blob/main/building/tracks/icons.md)): [Latest](../../../locales/zh-TW/content/fa/4a/086b4e44a00d4729092cde9658dc714fe275.md)
+  - [`2f4cda3118`](../../../locales/zh-TW/content/2f/4c/da3118c6c6000f61cc7d76beef4ffde2e60a.md)
 
 ### Implement additional tooling (實作其他工具)
 

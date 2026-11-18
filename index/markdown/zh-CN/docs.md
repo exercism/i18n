@@ -437,7 +437,8 @@ This page is generated from [the index](../../json/zh-CN/docs.json) by `scripts/
 
 ### Icons (图标)
 
-- `icons.md` ([English](https://github.com/exercism/docs/blob/main/building/tracks/icons.md)): [Latest](../../../locales/zh-CN/content/2f/4c/da3118c6c6000f61cc7d76beef4ffde2e60a.md)
+- `icons.md` ([English](https://github.com/exercism/docs/blob/main/building/tracks/icons.md)): [Latest](../../../locales/zh-CN/content/fa/4a/086b4e44a00d4729092cde9658dc714fe275.md)
+  - [`2f4cda3118`](../../../locales/zh-CN/content/2f/4c/da3118c6c6000f61cc7d76beef4ffde2e60a.md)
 
 ### Implement additional tooling (实现额外的工具)
 
