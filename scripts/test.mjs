@@ -33,7 +33,7 @@ import { ERROR, WARN, checkCatalog, checkContentFile, placeholders, tags } from 
 import { ALLOWLIST_FILE, allowlistIssues, allowlistPath, allows, collapseUnitIds, renderIdentical, summariseIdentical } from "./lib/identical.mjs";
 import { countNeverStamped, extraKeyRows, renderExtraKeys, summariseExtraKeys } from "./lib/extra-keys.mjs";
 import { CONTENT_TYPES, CONTENT_TYPE_IDS, contentRelativePath, parseContentRelativePath, typeForPath } from "./lib/content-types.mjs";
-import { REPO_KINDS, checkoutDir, isActiveTrack, kindForRepo } from "./lib/source-repos.mjs";
+import { REPO_KINDS, checkoutDir, isActiveTrack, kindForRepo, servedTrackDocs } from "./lib/source-repos.mjs";
 import { contentReposList, fetchSource, fetchSources, sourceTarget, targetForName } from "./lib/fetch-sources.mjs";
 import { missingContent, missingUnits, requiredContent, requiredUnits, translatableFiles } from "./lib/completeness.mjs";
 import { SAMPLE, fixCommand, freshness, gated, lastSweptAt, parseShard, shardOf, singletonRepos, standing, summariseRepo, summaryBody, summaryTitle, sweptRepos } from "./lib/sweep.mjs";
@@ -226,6 +226,54 @@ await test("a wip exercise is not translatable English; every other status is", 
   const finished = { ...withDocs, "config.json": JSON.stringify({ ...config, exercises: { concept: [], practice: entries.map((entry) => (entry.slug === "wip" ? { ...entry, status: "active" } : entry)) } }) };
   const required = requiredContent("track", asTree(finished), tree, { read: asReader(finished), baseRead: read });
   assert.deepEqual(required.map((file) => file.path), ["exercises/practice/wip/.docs/instructions.md"]);
+});
+
+await test("a track doc is translatable only if the website serves it: ABOUT.md or a path in docs/config.json", () => {
+  const manifest = (...paths) => JSON.stringify({ docs: paths.map((file, i) => ({ uuid: `d${i}`, slug: `s${i}`, path: file, title: `T${i}`, blurb: "" })) });
+  const files = {
+    "docs/config.json": manifest("docs/INSTALLATION.md", "docs/TESTS.md"),
+    "docs/ABOUT.md": "# About\n",
+    "docs/INSTALLATION.md": "# Install\n",
+    "docs/TESTS.md": "# Tests\n",
+    "docs/CONTRIBUTING.md": "# Contributing\n",
+    "docs/archived/old.md": "# Old\n"
+  };
+  const docs = (found) => found.filter((file) => file.type === "track-docs").map((file) => file.path).sort();
+  assert.deepEqual(docs(translatableFiles("track", asTree(files), asReader(files))), ["docs/ABOUT.md", "docs/INSTALLATION.md", "docs/TESTS.md"], "CONTRIBUTING.md and archived docs are never shown");
+  assert.deepEqual(docs(translatableFiles("track", asTree(files))).length, 5, "with no reader every matched doc is required");
+  assert.deepEqual(docs(translatableFiles("docs", asTree(files), asReader(files))), [], "only track repos have track docs");
+
+  // Missing, unparseable or listless: every doc, as an unreadable config.json marks nothing as wip.
+  for (const config of [undefined, "{nope", JSON.stringify({ docs: "x" })]) {
+    const other = { ...files, "docs/config.json": config };
+    if (config === undefined) delete other["docs/config.json"];
+    assert.equal(servedTrackDocs(asTree(other), asReader(other)), null);
+    assert.equal(docs(translatableFiles("track", asTree(other), asReader(other))).length, 5, `docs/config.json ${config ?? "missing"}`);
+  }
+
+  // With a base: listing a doc requires it though its file is unchanged, and
+  // unlisting one requires nothing.
+  const listed = { ...files, "docs/config.json": manifest("docs/INSTALLATION.md", "docs/TESTS.md", "docs/CONTRIBUTING.md") };
+  assert.deepEqual(requiredContent("track", asTree(listed), asTree(files), { read: asReader(listed), baseRead: asReader(files) }).map((file) => file.path), ["docs/CONTRIBUTING.md"]);
+  const unlisted = { ...files, "docs/config.json": manifest("docs/INSTALLATION.md") };
+  assert.deepEqual(requiredContent("track", asTree(unlisted), asTree(files), { read: asReader(unlisted), baseRead: asReader(files) }), []);
+  const edited = { ...files, "docs/CONTRIBUTING.md": "# Contributing, edited\n" };
+  assert.deepEqual(requiredContent("track", asTree(edited), asTree(files), { read: asReader(edited), baseRead: asReader(files) }), [], "editing an unserved doc requires nothing");
+
+  // The queue sees a file list, and reads docs/config.json through the blob fetch.
+  const baseTree = new Map(asTree(files).map((entry) => [entry.path, entry.id]));
+  const blobs = new Map([files, listed, unlisted, edited].flatMap(Object.values).map((text) => [blobId(text), text]));
+  const readBlob = (id) => blobs.get(id) ?? null;
+  const queue = (head, changed, options = { baseTree, readBlob }) => summarise("track", changed.map((file) => ({ path: file, id: blobId(head[file]) })), options);
+  assert.equal(queue(edited, ["docs/CONTRIBUTING.md"]).count, 0, "no issue for a PR that only edits an unserved doc");
+  const blind = queue(edited, ["docs/CONTRIBUTING.md"], { baseTree });
+  assert.equal(blind.count, 1, "until docs/config.json is fetched, every doc counts");
+  assert.deepEqual(blind.needs, [blobId(files["docs/config.json"])], "the first pass asks for the unchanged docs/config.json");
+  const tests = { ...files, "docs/TESTS.md": "# Tests, edited\n" };
+  blobs.set(blobId(tests["docs/TESTS.md"]), tests["docs/TESTS.md"]);
+  assert.deepEqual(queue(tests, ["docs/TESTS.md"]).files.map((file) => file.path), ["docs/TESTS.md"]);
+  assert.deepEqual(queue(listed, ["docs/config.json"]).files.map((file) => [file.path, file.id]), [["docs/CONTRIBUTING.md", blobId(files["docs/CONTRIBUTING.md"])]], "a newly listed doc is in the issue though its file is unchanged");
+  assert.deepEqual(queue(unlisted, ["docs/config.json"]).files, []);
 });
 
 await test("reordering changes no key; a rename is new keys, and the old ones are simply no longer English", () => {

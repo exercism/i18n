@@ -45,6 +45,10 @@
 // is API responses parsed as JSON. If a blob was not fetched, its file is
 // reported as changed with its keys unknown.
 //
+// The same fetch reads a track's docs/config.json whenever the PR touches a
+// track doc or that file, because only the docs it lists are served
+// (`trackDocsChanges` below). If it was not fetched, every track doc counts.
+//
 // ## `--push`: did one push to a queued PR change English?
 //
 // The `ready-to-translate` label means "this English is final". A push that
@@ -74,11 +78,11 @@ import path from "node:path";
 import { fail } from "./lib/constants.mjs";
 import { parseArgs } from "./lib/args.mjs";
 import { BLOB_ID } from "./lib/git.mjs";
-import { kindForRepo, repoKind } from "./lib/source-repos.mjs";
+import { TRACK_DOCS_CONFIG, kindForRepo, repoKind, servedTrackDocsFrom } from "./lib/source-repos.mjs";
 import { isWebsiteEnglishPath } from "./lib/website-english.mjs";
 import { metadataFiles, translatableFiles } from "./lib/completeness.mjs";
 import { changedCopyKeys, fileCopy } from "./lib/metadata.mjs";
-import { contentRelativePath } from "./lib/content-types.mjs";
+import { contentRelativePath, typeForPath } from "./lib/content-types.mjs";
 
 const SHOWN = 100;
 
@@ -151,6 +155,50 @@ export function pushChanges(kind, { scope, beforeTree, afterTree, readBlob = nul
   return { ...summary, removed: gone, count: summary.count + gone.length };
 }
 
+/**
+ * Which track docs the website serves after this PR, and which it starts
+ * serving, so the issue agrees with the completeness check
+ * (`servedTrackDocs` in scripts/lib/source-repos.mjs).
+ *
+ * The file list has no tree, but docs/config.json at the head is either in the
+ * list or, when the PR leaves it alone, the same blob as at the base. Its text
+ * comes from the same two-pass blob fetch as the metadata files, so the first
+ * pass asks for it. Until it is read, `served` is null and every track doc in
+ * the list is reported, which over-reports.
+ *
+ * A doc that docs/config.json starts listing is English the website will start
+ * showing, even when the PR leaves the file alone. Its blob id comes from the
+ * base tree, since the file is unchanged.
+ *
+ * @returns {{ served: Set<string>|null, added: {path,id}[], needs: string[] }}
+ */
+export function trackDocsChanges(entries, { baseTree = null, readBlob = null } = {}) {
+  const none = { served: null, added: [], needs: [] };
+  const changedConfig = entries.find((entry) => entry.path === TRACK_DOCS_CONFIG) ?? null;
+  if (!changedConfig && !entries.some((entry) => typeForPath("track", entry.path) === "track-docs")) return none;
+
+  const needs = [];
+  const textOf = (id) => {
+    if (!id) return null;
+    const text = readBlob?.(id) ?? null;
+    if (text === null) needs.push(id);
+    return text;
+  };
+  const baseId = baseTree?.get(TRACK_DOCS_CONFIG) ?? null;
+  const served = servedTrackDocsFrom(textOf(changedConfig?.id ?? baseId));
+  const added = [];
+  if (changedConfig && served && baseId) {
+    // A base with no readable list required every doc, so nothing is new.
+    const before = servedTrackDocsFrom(textOf(baseId));
+    const listed = new Set(entries.map((entry) => entry.path));
+    for (const file of before ? served : []) {
+      const id = baseTree.get(file);
+      if (!before.has(file) && !listed.has(file) && id && typeForPath("track", file) === "track-docs") added.push({ path: file, id });
+    }
+  }
+  return { served, added, needs };
+}
+
 /** A path, safe inside a Markdown table cell's code span. */
 const code = (text) => `\`${String(text).replace(/`/g, "'").replace(/\|/g, "\\|")}\``;
 
@@ -169,9 +217,10 @@ export function summarise(kind, entries, { baseTree = null, readBlob = null } = 
     const files = entries.filter((entry) => isWebsiteEnglishPath(entry.path));
     return { kind, count: files.length, files: files.map((entry) => ({ type: entry.path.endsWith(".ts") ? "website-frontend" : "website-backend", path: entry.path })), metadata: [], needs: [] };
   }
-  const files = translatableFiles(kind, entries).map((file) => ({ ...file, store: contentRelativePath(file.id, file.extension) }));
+  const docs = kind === "track" ? trackDocsChanges(entries, { baseTree, readBlob }) : { served: null, added: [], needs: [] };
+  const files = translatableFiles(kind, [...entries, ...docs.added], null, { servedDocs: docs.served }).map((file) => ({ ...file, store: contentRelativePath(file.id, file.extension) }));
 
-  const needs = new Set();
+  const needs = new Set(docs.needs);
   const metadata = [];
   for (const file of metadataFiles(kind, entries)) {
     const baseId = baseTree?.get(file.path) ?? null;
