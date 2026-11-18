@@ -141,6 +141,64 @@ export function wipExerciseDirs(entries, read) {
   return dirs;
 }
 
+/** The track's docs manifest, read by `servedTrackDocsFrom`. */
+export const TRACK_DOCS_CONFIG = "docs/config.json";
+const TRACK_ABOUT = "docs/ABOUT.md";
+
+/**
+ * The track docs the website serves, as repo-relative paths, read from the text
+ * of a track's docs/config.json. Null means "not known", and the caller then
+ * requires every file the `track-docs` pattern matches.
+ *
+ * The website reads docs/ABOUT.md on its own (Git::Track#about) and every other
+ * track doc from a `path` in docs/config.json (Git::SyncTrackDocs). Anything
+ * else under docs/, such as CONTRIBUTING.md or exercism/ruby's
+ * 24pullrequests.md, is about the repo and is never shown. So ABOUT.md is always
+ * in the set, and the listed paths join it.
+ *
+ * A docs/config.json that is missing or unparseable, or has no `docs` list,
+ * gives null, as an unreadable config.json does for `wipExerciseDirs`. The
+ * website would then serve nothing but ABOUT.md, so requiring every doc costs a
+ * few translations nobody reads. Guessing the other way when the read itself
+ * failed (a half-fetched repo, a blob that did not arrive) would quietly drop
+ * served docs out of the check, and a reader would get English with nothing
+ * reporting it.
+ *
+ * @param {string|null} text
+ * @returns {Set<string>|null}
+ */
+export function servedTrackDocsFrom(text) {
+  if (typeof text !== "string") return null;
+  let parsed;
+  try {
+    parsed = JSON.parse(text);
+  } catch {
+    return null;
+  }
+  if (!Array.isArray(parsed?.docs)) return null;
+  const served = new Set([TRACK_ABOUT]);
+  for (const doc of parsed.docs) if (typeof doc?.path === "string" && doc.path !== "") served.add(doc.path);
+  return served;
+}
+
+/**
+ * `servedTrackDocsFrom` for a tree, reading docs/config.json at the ref being
+ * processed, as `wipExerciseDirs` reads config.json.
+ *
+ * @param {{path,id}[]} entries  the repo's tree (`git ls-tree`)
+ * @param {(entries) => {path,id,text}[]} read  reads blobs as text
+ * @returns {Set<string>|null}
+ */
+export function servedTrackDocs(entries, read) {
+  const config = entries.find((entry) => entry.path === TRACK_DOCS_CONFIG);
+  if (!config) return null;
+  try {
+    return servedTrackDocsFrom(read([config])[0].text);
+  } catch {
+    return null;
+  }
+}
+
 export function repoKind(id) {
   const kind = REPO_KINDS[id];
   if (!kind) fail(`unknown repo kind "${id}". Known: ${REPO_KIND_IDS.join(", ")}`);

@@ -139,6 +139,15 @@ id, shared by every track with byte-identical English.
   the config, and requiring the file costs one translation nobody reads where the other
   mistake costs a reader English text. `scripts/completeness.mjs` makes the final decision, as
   it does for the metadata half.
+- **A track doc is required only if the website serves it.** `track-docs` matches any
+  `docs/**/*.md`, but the website shows only `docs/ABOUT.md` and the `path`s listed in
+  `docs/config.json`, so `docs/CONTRIBUTING.md` is never shown. `servedTrackDocs`
+  (`scripts/lib/source-repos.mjs`) reads that list at the ref being processed, and
+  `translatableFiles` applies it next to the `wip` rule. With `--base`, a doc that the list
+  starts naming is required even if its file did not change. A missing or unparseable
+  `docs/config.json` requires every doc, as an unreadable `config.json` marks nothing as wip.
+  `scripts/english-changes.mjs` reads the same list through its two-pass blob fetch, so the
+  queue opens no issue for a PR that only touches an unserved doc.
 - **The `docs`, `blog` and `website-copy` patterns have been verified** against the real trees
   and against how the website loads each, and the registry records the commit, the match
   counts and what is left out on purpose. `docs` has one type per served section (212 served

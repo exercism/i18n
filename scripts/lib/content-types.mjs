@@ -114,6 +114,13 @@ export const CONTENT_TYPES = {
   "track-docs": {
     // ABOUT, INSTALLATION, LEARNING, RESOURCES, TESTS and whatever else a track's
     // docs/config.json lists. SNIPPET.txt is code and is not here.
+    //
+    // The pattern also matches files the website never shows, such as
+    // docs/CONTRIBUTING.md or exercism/ruby's docs/24pullrequests.md. A caller
+    // that can read the tree drops those: `servedTrackDocs`
+    // (scripts/lib/source-repos.mjs) keeps ABOUT.md and the `path`s listed in
+    // docs/config.json, and scripts/lib/completeness.mjs `translatableFiles`
+    // applies it, as it does for `wip` exercises.
     label: "track docs",
     kind: "track",
     unit: "file",
@@ -147,9 +154,7 @@ export const CONTENT_TYPES = {
   // anyway: translated but never shown. That is the safe side to err on.
   //
   // TODO(iHiD): if requiring extra files ever matters, membership has to come
-  // from the manifest instead of a pattern. The same applies to `track-docs`
-  // above: a track's served docs are the `path`s in its docs/config.json, and
-  // exercism/ruby has docs/24pullrequests.md, which that manifest omits.
+  // from the manifest instead of a pattern, as it does for `track-docs` above.
   //
   // One type per section, so changing the scope is a one-line change.
   //
