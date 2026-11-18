@@ -422,7 +422,7 @@ This page is generated from [the index](../../json/hu/tcl.json) by `scripts/buil
 - `instructions.md` ([English](https://github.com/exercism/tcl/blob/main/exercises/practice/palindrome-products/.docs/instructions.md)): [Latest](../../../locales/hu/content/aa/c6/6521ce736be8ce737ea709a5b1eed507cbb8.md)
   - [`fd9a441247`](../../../locales/hu/content/fd/9a/441247b65a9a8604f6ef581df4b1054a1fad.md)
 
-### Pangram
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/tcl/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
   - [`d5698bc2a2`](../../../locales/hu/content/d5/69/8bc2a292baf2fb128de3543b748165088c4f.md)
@@ -785,7 +785,8 @@ This page is generated from [the index](../../json/hu/tcl.json) by `scripts/buil
 
 ### Testing on the Tcl track (Tesztelés a Tcl-kurzuson)
 
-- `TESTS.md` ([English](https://github.com/exercism/tcl/blob/main/docs/TESTS.md)): [Latest](../../../locales/hu/content/72/6a/680e188f29f62c2d9340a96d11cda9fe8d5c.md)
+- `TESTS.md` ([English](https://github.com/exercism/tcl/blob/main/docs/TESTS.md)): [Latest](../../../locales/hu/content/7c/70/fb6228f73e7c2ae2f6a12baf5f465f36d4aa.md)
+  - [`726a680e18`](../../../locales/hu/content/72/6a/680e188f29f62c2d9340a96d11cda9fe8d5c.md)
   - [`e69de29bb2`](../../../locales/hu/content/e6/9d/e29bb2d1d6434b8b29ae775ad8c2e48c5391.md)
 
 ### Useful Tcl resources (Hasznos Tcl-források)
@@ -801,4 +802,5 @@ This page is generated from [the index](../../json/hu/tcl.json) by `scripts/buil
 
 ### tests.md
 
-- `tests.md` ([English](https://github.com/exercism/tcl/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/hu/content/7a/ae/1825c61190dd9efa70e417c4329580fbde58.md)
+- `tests.md` ([English](https://github.com/exercism/tcl/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/hu/content/96/b7/ca5a0af67a1574a4124e9a8f20e39d442213.md)
+  - [`7aae1825c6`](../../../locales/hu/content/7a/ae/1825c61190dd9efa70e417c4329580fbde58.md)

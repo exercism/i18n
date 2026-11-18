@@ -665,7 +665,8 @@ This page is generated from [the index](../../json/zh-CN/tcl.json) by `scripts/b
 
 ### Testing on the Tcl track (在 Tcl 轨道上测试)
 
-- `TESTS.md` ([English](https://github.com/exercism/tcl/blob/main/docs/TESTS.md)): [Latest](../../../locales/zh-CN/content/72/6a/680e188f29f62c2d9340a96d11cda9fe8d5c.md)
+- `TESTS.md` ([English](https://github.com/exercism/tcl/blob/main/docs/TESTS.md)): [Latest](../../../locales/zh-CN/content/7c/70/fb6228f73e7c2ae2f6a12baf5f465f36d4aa.md)
+  - [`726a680e18`](../../../locales/zh-CN/content/72/6a/680e188f29f62c2d9340a96d11cda9fe8d5c.md)
 
 ### Useful Tcl resources (实用的 Tcl 资源)
 
@@ -679,4 +680,5 @@ This page is generated from [the index](../../json/zh-CN/tcl.json) by `scripts/b
 
 ### tests.md
 
-- `tests.md` ([English](https://github.com/exercism/tcl/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/zh-CN/content/7a/ae/1825c61190dd9efa70e417c4329580fbde58.md)
+- `tests.md` ([English](https://github.com/exercism/tcl/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/zh-CN/content/96/b7/ca5a0af67a1574a4124e9a8f20e39d442213.md)
+  - [`7aae1825c6`](../../../locales/zh-CN/content/7a/ae/1825c61190dd9efa70e417c4329580fbde58.md)
