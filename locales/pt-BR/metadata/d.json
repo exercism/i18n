@@ -287,5 +287,8 @@
   "doc:tests:title": "Testes na trilha de D",
   "doc:tests:blurb": "Aprenda a testar seus exercícios de D no Exercism",
   "doc:resources:title": "Recursos úteis de D",
-  "doc:resources:blurb": "Uma coleção de recursos úteis para ajudar você a dominar D"
+  "doc:resources:blurb": "Uma coleção de recursos úteis para ajudar você a dominar D",
+  "exercise:resistor-color-tolerance:name": "Tolerância de cores de resistores",
+  "exercise:resistor-color-tolerance:blurb": "Converta códigos de cores, como os usados em resistores com diferentes faixas, para um rótulo legível para humanos.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

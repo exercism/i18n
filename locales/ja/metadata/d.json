@@ -287,5 +287,8 @@
   "doc:tests:title": "Dトラックでのテスト",
   "doc:tests:blurb": "ExercismでDの演習をテストする方法を学びましょう",
   "doc:resources:title": "役に立つDのリソース",
-  "doc:resources:blurb": "Dをマスターするのに役立つリソースを集めました"
+  "doc:resources:blurb": "Dをマスターするのに役立つリソースを集めました",
+  "exercise:resistor-color-tolerance:name": "抵抗器のカラーコードの許容差",
+  "exercise:resistor-color-tolerance:blurb": "異なるバンドを持つ抵抗器で使われるカラーコードを、人が読めるラベルに変換します。",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

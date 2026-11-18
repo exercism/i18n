@@ -287,5 +287,8 @@
   "doc:tests:title": "D ট্র্যাকে টেস্টিং",
   "doc:tests:blurb": "Exercism-এ আপনার D অনুশীলনীগুলো কীভাবে টেস্ট করবেন শিখুন",
   "doc:resources:title": "D-এর দরকারি রিসোর্স",
-  "doc:resources:blurb": "D-এ দক্ষ হয়ে উঠতে সাহায্যকারী দরকারি রিসোর্সের সংগ্রহ"
+  "doc:resources:blurb": "D-এ দক্ষ হয়ে উঠতে সাহায্যকারী দরকারি রিসোর্সের সংগ্রহ",
+  "exercise:resistor-color-tolerance:name": "রেজিস্টর কালার টলারেন্স",
+  "exercise:resistor-color-tolerance:blurb": "বিভিন্ন ব্যান্ডযুক্ত রেজিস্টরে ব্যবহৃত রঙের কোডকে মানুষের পড়ার উপযোগী লেবেলে রূপান্তর করুন।",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

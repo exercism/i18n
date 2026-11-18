@@ -287,5 +287,8 @@
   "doc:tests:title": "Test در مسیر D",
   "doc:tests:blurb": "بیاموزید چطور تمرین‌های D خود را در Exercism Test کنید.",
   "doc:resources:title": "منابع مفید D",
-  "doc:resources:blurb": "مجموعه‌ای از منابع مفید برای کمک به تسلط شما بر D"
+  "doc:resources:blurb": "مجموعه‌ای از منابع مفید برای کمک به تسلط شما بر D",
+  "exercise:resistor-color-tolerance:name": "تلورانس رنگ مقاومت",
+  "exercise:resistor-color-tolerance:blurb": "کدهای رنگی به‌کاررفته روی مقاومت‌هایی با نوارهای مختلف را به برچسبی خوانا برای انسان تبدیل کنید.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

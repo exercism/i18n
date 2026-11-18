@@ -287,5 +287,8 @@
   "doc:tests:title": "在 D 軌道上測試",
   "doc:tests:blurb": "了解如何在 Exercism 上測試你的 D 練習",
   "doc:resources:title": "實用的 D 資源",
-  "doc:resources:blurb": "收錄各種實用資源，幫助你精通 D"
+  "doc:resources:blurb": "收錄各種實用資源，幫助你精通 D",
+  "exercise:resistor-color-tolerance:name": "電阻色碼容差",
+  "exercise:resistor-color-tolerance:blurb": "將電阻器上不同色帶所用的色碼轉換成人類可讀的標籤。",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

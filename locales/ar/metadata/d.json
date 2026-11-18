@@ -287,5 +287,8 @@
   "doc:tests:title": "الاختبار في مسار D",
   "doc:tests:blurb": "تعرّف على كيفية اختبار تمارين D الخاصة بك على Exercism",
   "doc:resources:title": "مصادر مفيدة عن D",
-  "doc:resources:blurb": "مجموعة من المصادر المفيدة لمساعدتك على إتقان D"
+  "doc:resources:blurb": "مجموعة من المصادر المفيدة لمساعدتك على إتقان D",
+  "exercise:resistor-color-tolerance:name": "سماحية ألوان المقاومة",
+  "exercise:resistor-color-tolerance:blurb": "حوّل أكواد الألوان المستخدمة في المقاومات ذات الأشرطة المختلفة إلى تسمية يمكن للبشر قراءتها.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

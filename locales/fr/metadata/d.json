@@ -287,5 +287,8 @@
   "doc:tests:title": "Les tests sur le parcours D",
   "doc:tests:blurb": "Apprends à tester tes exercices D sur Exercism",
   "doc:resources:title": "Ressources utiles pour D",
-  "doc:resources:blurb": "Une sélection de ressources utiles pour t'aider à maîtriser D"
+  "doc:resources:blurb": "Une sélection de ressources utiles pour t'aider à maîtriser D",
+  "exercise:resistor-color-tolerance:name": "Tolérance des couleurs de résistance",
+  "exercise:resistor-color-tolerance:blurb": "Convertis les codes couleur utilisés sur les résistances à plusieurs bandes en une étiquette lisible par un humain.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

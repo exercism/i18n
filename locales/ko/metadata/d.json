@@ -287,5 +287,8 @@
   "doc:tests:title": "D 트랙에서 테스트하기",
   "doc:tests:blurb": "Exercism에서 D 연습 문제를 테스트하는 방법을 알아봐요",
   "doc:resources:title": "유용한 D 자료",
-  "doc:resources:blurb": "D를 마스터하는 데 도움이 되는 유용한 자료 모음이에요"
+  "doc:resources:blurb": "D를 마스터하는 데 도움이 되는 유용한 자료 모음이에요",
+  "exercise:resistor-color-tolerance:name": "저항 색 허용 오차",
+  "exercise:resistor-color-tolerance:blurb": "여러 띠가 있는 저항기에 사용되는 색상 코드를 사람이 읽을 수 있는 레이블로 변환해요.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

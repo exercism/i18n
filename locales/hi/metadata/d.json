@@ -287,5 +287,8 @@
   "doc:tests:title": "D ट्रैक पर टेस्टिंग",
   "doc:tests:blurb": "Exercism पर अपने D अभ्यासों को टेस्ट करना सीखिए",
   "doc:resources:title": "काम के D संसाधन",
-  "doc:resources:blurb": "काम के संसाधनों का संग्रह, जो आपको D में निपुण बनाने में मदद करेंगे"
+  "doc:resources:blurb": "काम के संसाधनों का संग्रह, जो आपको D में निपुण बनाने में मदद करेंगे",
+  "exercise:resistor-color-tolerance:name": "प्रतिरोधक रंग सहनशीलता",
+  "exercise:resistor-color-tolerance:blurb": "रेज़िस्टरों पर अलग-अलग बैंडों के साथ इस्तेमाल होने वाले रंग कोडों को मनुष्य के पढ़ने लायक लेबल में बदलिए।",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }
