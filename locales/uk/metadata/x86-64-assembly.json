@@ -423,5 +423,8 @@
   "doc:learning:blurb": "Огляд того, як з нуля опанувати x86-64 Assembly",
   "doc:tests:title": "Тестування на треку x86-64 Assembly",
   "doc:tests:blurb": "Дізнаймося, як тестувати вправи x86-64 Assembly на Exercism",
-  "doc:resources:title": "Корисні ресурси x86-64 Assembly"
+  "doc:resources:title": "Корисні ресурси x86-64 Assembly",
+  "exercise:resistor-color-tolerance:name": "Кольоровий допуск резистора",
+  "exercise:resistor-color-tolerance:blurb": "Перетворіть кольорові коди, які використовують на резисторах із різною кількістю смуг, у зрозумілу для людини позначку.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

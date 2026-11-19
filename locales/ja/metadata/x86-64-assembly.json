@@ -423,5 +423,8 @@
   "doc:learning:blurb": "x86-64アセンブリをゼロから始める方法の概要",
   "doc:tests:title": "x86-64アセンブリトラックでのテスト",
   "doc:tests:blurb": "Exercismでx86-64アセンブリの演習をテストする方法を学びます",
-  "doc:resources:title": "役に立つx86-64アセンブリのリソース"
+  "doc:resources:title": "役に立つx86-64アセンブリのリソース",
+  "exercise:resistor-color-tolerance:name": "抵抗器のカラーコードの許容差",
+  "exercise:resistor-color-tolerance:blurb": "異なるバンドを持つ抵抗器で使われるカラーコードを、人が読めるラベルに変換します。",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

@@ -423,5 +423,8 @@
   "doc:learning:blurb": "نظرة عامة على كيفية البدء من الصفر مع لغة تجميع x86-64",
   "doc:tests:title": "الاختبار في مسار لغة تجميع x86-64",
   "doc:tests:blurb": "تعرّف على كيفية اختبار تمارين لغة تجميع x86-64 على Exercism",
-  "doc:resources:title": "مصادر مفيدة للغة تجميع x86-64"
+  "doc:resources:title": "مصادر مفيدة للغة تجميع x86-64",
+  "exercise:resistor-color-tolerance:name": "سماحية ألوان المقاومة",
+  "exercise:resistor-color-tolerance:blurb": "حوّل أكواد الألوان المستخدمة في المقاومات ذات الأشرطة المختلفة إلى تسمية يمكن للبشر قراءتها.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

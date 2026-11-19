@@ -423,5 +423,8 @@
   "doc:learning:blurb": "Áttekintés arról, hogyan kezdj a nulláról az x86-64 Assembly-vel",
   "doc:tests:title": "Tesztelés az x86-64 Assembly kurzuson",
   "doc:tests:blurb": "Tanuld meg, hogyan teszteld az x86-64 Assembly feladataidat az Exercism-ön",
-  "doc:resources:title": "Hasznos x86-64 Assembly-források"
+  "doc:resources:title": "Hasznos x86-64 Assembly-források",
+  "exercise:resistor-color-tolerance:name": "Ellenállás színtűrése",
+  "exercise:resistor-color-tolerance:blurb": "Alakítsd át az ellenállásokon különböző sávokkal használt színkódokat ember számára olvasható címkévé.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

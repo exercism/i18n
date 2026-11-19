@@ -423,5 +423,8 @@
   "doc:learning:blurb": "Una visión general de cómo empezar desde cero con el ensamblador x86-64",
   "doc:tests:title": "Cómo hacer pruebas en el track de ensamblador x86-64",
   "doc:tests:blurb": "Aprende a probar tus ejercicios de ensamblador x86-64 en Exercism",
-  "doc:resources:title": "Recursos útiles de ensamblador x86-64"
+  "doc:resources:title": "Recursos útiles de ensamblador x86-64",
+  "exercise:resistor-color-tolerance:name": "Tolerancia de color de las resistencias",
+  "exercise:resistor-color-tolerance:blurb": "Convierte los códigos de color usados en resistencias con diferentes bandas en una etiqueta legible para humanos.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

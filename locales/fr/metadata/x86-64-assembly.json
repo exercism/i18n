@@ -423,5 +423,8 @@
   "doc:learning:blurb": "Un aperçu pour démarrer de zéro avec l'assembleur x86-64",
   "doc:tests:title": "Teste sur le parcours assembleur x86-64",
   "doc:tests:blurb": "Apprends à tester tes exercices d'assembleur x86-64 sur Exercism",
-  "doc:resources:title": "Ressources utiles pour l'assembleur x86-64"
+  "doc:resources:title": "Ressources utiles pour l'assembleur x86-64",
+  "exercise:resistor-color-tolerance:name": "Tolérance des couleurs de résistance",
+  "exercise:resistor-color-tolerance:blurb": "Convertis les codes couleur utilisés sur les résistances à plusieurs bandes en une étiquette lisible par un humain.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

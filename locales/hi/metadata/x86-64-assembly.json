@@ -423,5 +423,8 @@
   "doc:learning:blurb": "x86-64 असेंबली में शून्य से शुरुआत कैसे करें, इसका अवलोकन",
   "doc:tests:title": "x86-64 असेंबली ट्रैक पर परीक्षण कीजिए",
   "doc:tests:blurb": "Exercism पर अपने x86-64 असेंबली अभ्यासों का परीक्षण करना सीखिए",
-  "doc:resources:title": "उपयोगी x86-64 असेंबली संसाधन"
+  "doc:resources:title": "उपयोगी x86-64 असेंबली संसाधन",
+  "exercise:resistor-color-tolerance:name": "प्रतिरोधक रंग सहनशीलता",
+  "exercise:resistor-color-tolerance:blurb": "रेज़िस्टरों पर अलग-अलग बैंडों के साथ इस्तेमाल होने वाले रंग कोडों को मनुष्य के पढ़ने लायक लेबल में बदलिए।",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

@@ -423,5 +423,8 @@
   "doc:learning:blurb": "Ein Überblick, wie du mit x86-64 Assembly von Grund auf loslegst",
   "doc:tests:title": "Testen im x86-64-Assembly-Track",
   "doc:tests:blurb": "Lerne, wie du deine x86-64-Assembly-Übungen auf Exercism testest",
-  "doc:resources:title": "Nützliche Ressourcen für x86-64 Assembly"
+  "doc:resources:title": "Nützliche Ressourcen für x86-64 Assembly",
+  "exercise:resistor-color-tolerance:name": "Farbtoleranz von Widerständen",
+  "exercise:resistor-color-tolerance:blurb": "Wandle Farbcodes, wie sie bei Widerständen mit unterschiedlichen Ringen verwendet werden, in eine für Menschen lesbare Bezeichnung um.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

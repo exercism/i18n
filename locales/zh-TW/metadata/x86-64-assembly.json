@@ -423,5 +423,8 @@
   "doc:learning:blurb": "從零開始入門 x86-64 組合語言的概觀",
   "doc:tests:title": "x86-64 組合語言的測試",
   "doc:tests:blurb": "了解如何在 Exercism 上測試你的 x86-64 組合語言練習",
-  "doc:resources:title": "實用的 x86-64 組合語言資源"
+  "doc:resources:title": "實用的 x86-64 組合語言資源",
+  "exercise:resistor-color-tolerance:name": "電阻色碼容差",
+  "exercise:resistor-color-tolerance:blurb": "將電阻器上不同色帶所用的色碼轉換成人類可讀的標籤。",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

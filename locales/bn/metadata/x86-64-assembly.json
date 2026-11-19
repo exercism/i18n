@@ -423,5 +423,8 @@
   "doc:learning:blurb": "একেবারে শূন্য থেকে x86-64 অ্যাসেম্বলি শুরু করার একটি সংক্ষিপ্ত বিবরণ",
   "doc:tests:title": "x86-64 অ্যাসেম্বলি ট্র্যাকে টেস্টিং",
   "doc:tests:blurb": "Exercism-এ আপনার x86-64 অ্যাসেম্বলি অনুশীলনী টেস্ট করার উপায় শিখুন",
-  "doc:resources:title": "x86-64 অ্যাসেম্বলির জন্য দরকারি রিসোর্স"
+  "doc:resources:title": "x86-64 অ্যাসেম্বলির জন্য দরকারি রিসোর্স",
+  "exercise:resistor-color-tolerance:name": "রেজিস্টর কালার টলারেন্স",
+  "exercise:resistor-color-tolerance:blurb": "বিভিন্ন ব্যান্ডযুক্ত রেজিস্টরে ব্যবহৃত রঙের কোডকে মানুষের পড়ার উপযোগী লেবেলে রূপান্তর করুন।",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

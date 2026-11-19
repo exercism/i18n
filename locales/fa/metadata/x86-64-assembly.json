@@ -423,5 +423,8 @@
   "doc:learning:blurb": "مروری بر اینکه چگونه از صفر با اسمبلی x86-64 شروع کنید",
   "doc:tests:title": "آزمایش کردن در مسیر اسمبلی x86-64",
   "doc:tests:blurb": "بیاموزید چگونه تمرین‌های اسمبلی x86-64 خود را در Exercism آزمایش کنید",
-  "doc:resources:title": "منابع مفید اسمبلی x86-64"
+  "doc:resources:title": "منابع مفید اسمبلی x86-64",
+  "exercise:resistor-color-tolerance:name": "تلورانس رنگ مقاومت",
+  "exercise:resistor-color-tolerance:blurb": "کدهای رنگی به‌کاررفته روی مقاومت‌هایی با نوارهای مختلف را به برچسبی خوانا برای انسان تبدیل کنید.",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }

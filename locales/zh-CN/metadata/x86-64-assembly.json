@@ -423,5 +423,8 @@
   "doc:learning:blurb": "从零开始上手 x86-64 汇编的概览",
   "doc:tests:title": "在 x86-64 汇编赛道中测试",
   "doc:tests:blurb": "了解如何在 Exercism 上测试你的 x86-64 汇编练习",
-  "doc:resources:title": "有用的 x86-64 汇编资源"
+  "doc:resources:title": "有用的 x86-64 汇编资源",
+  "exercise:resistor-color-tolerance:name": "电阻色环容差",
+  "exercise:resistor-color-tolerance:blurb": "把电阻上不同色环所用的色码转换成人类可读的标签。",
+  "exercise:resistor-color-tolerance:source": "@meatball133"
 }
