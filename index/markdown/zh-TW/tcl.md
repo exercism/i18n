@@ -173,7 +173,8 @@ This page is generated from [the index](../../json/zh-TW/tcl.json) by `scripts/b
 ### Error Handling (錯誤處理)
 
 - `instructions.md` ([English](https://github.com/exercism/tcl/blob/main/exercises/practice/error-handling/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/25/dd/4d2928fe41cfa50ac620eba863c6f82344c2.md)
-- `instructions.append.md` ([English](https://github.com/exercism/tcl/blob/main/exercises/practice/error-handling/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/e2/db/a026952468ff8afe0664a1c460006184970f.md)
+- `instructions.append.md` ([English](https://github.com/exercism/tcl/blob/main/exercises/practice/error-handling/.docs/instructions.append.md)): [Latest](../../../locales/zh-TW/content/dc/e2/a4f653fd7fb4238277499cc3b8c32ee34763.md)
+  - [`e2dba02695`](../../../locales/zh-TW/content/e2/db/a026952468ff8afe0664a1c460006184970f.md)
 
 ### ETL
 

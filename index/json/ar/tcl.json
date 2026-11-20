@@ -205,7 +205,7 @@
     "exercises/practice/dot-dsl/.docs/instructions.md": ["5e65ebef9436c86ec75a54714ffddc6da381c8ac"],
     "exercises/practice/eliuds-eggs/.docs/instructions.md": ["b0c2df593c0c15f1f94dfc13bddacffd6b0f5ddc"],
     "exercises/practice/eliuds-eggs/.docs/introduction.md": ["2b2e5c43d8b2546885ba33bb6c3c8bdc88e3b0dc"],
-    "exercises/practice/error-handling/.docs/instructions.append.md": ["e2dba026952468ff8afe0664a1c460006184970f"],
+    "exercises/practice/error-handling/.docs/instructions.append.md": ["dce2a4f653fd7fb4238277499cc3b8c32ee34763","e2dba026952468ff8afe0664a1c460006184970f"],
     "exercises/practice/error-handling/.docs/instructions.md": ["25dd4d2928fe41cfa50ac620eba863c6f82344c2"],
     "exercises/practice/etl/.docs/instructions.md": ["802863b5405bcf80186009792ed7c54ccb8d797e"],
     "exercises/practice/etl/.docs/introduction.md": ["5be65147d7f5170564e32b582966d522ed9f4ce8"],
