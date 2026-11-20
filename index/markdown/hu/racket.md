@@ -257,7 +257,7 @@ This page is generated from [the index](../../json/hu/racket.json) by `scripts/b
 - `instructions.md` ([English](https://github.com/exercism/racket/blob/main/exercises/practice/nucleotide-count/.docs/instructions.md)): [Latest](../../../locales/hu/content/54/8d/9ba5a5ee79a79fc4ff3e1d942c6c7f7c68af.md)
   - [`cd08758943`](../../../locales/hu/content/cd/08/7589436f87eb6352dc6a86b5bed2f0e3b804.md)
 
-### Pangram
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/racket/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
 - `introduction.md` ([English](https://github.com/exercism/racket/blob/main/exercises/practice/pangram/.docs/introduction.md)): [Latest](../../../locales/hu/content/32/b6/f1fc3178c36f2677b2d7bbeb35bafd6c786d.md)
@@ -463,15 +463,18 @@ This page is generated from [the index](../../json/hu/racket.json) by `scripts/b
 
 ### ABOUT.md
 
-- `ABOUT.md` ([English](https://github.com/exercism/racket/blob/main/docs/ABOUT.md)): [Latest](../../../locales/hu/content/50/93/cea1e6ce1063e9d9efbe3a05d5410ec2e64e.md)
+- `ABOUT.md` ([English](https://github.com/exercism/racket/blob/main/docs/ABOUT.md)): [Latest](../../../locales/hu/content/e2/65/570fcc24d71f30912bc002b824c1bb1d11d0.md)
+  - [`5093cea1e6`](../../../locales/hu/content/50/93/cea1e6ce1063e9d9efbe3a05d5410ec2e64e.md)
 
 ### How to learn Racket (Hogyan tanuld meg a Racketet)
 
-- `LEARNING.md` ([English](https://github.com/exercism/racket/blob/main/docs/LEARNING.md)): [Latest](../../../locales/hu/content/7e/1a/7f9f51d2145e8c994c569cff65aeff533a95.md)
+- `LEARNING.md` ([English](https://github.com/exercism/racket/blob/main/docs/LEARNING.md)): [Latest](../../../locales/hu/content/83/75/039919c4ead81b71c222798d58c1662e6af2.md)
+  - [`7e1a7f9f51`](../../../locales/hu/content/7e/1a/7f9f51d2145e8c994c569cff65aeff533a95.md)
 
 ### Installing Racket locally (A Racket telepítése helyben)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/racket/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/hu/content/4c/44/cc480c92803a30eb447dcb9941712e3bac99.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/racket/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/hu/content/67/33/765dffaa1b7dec99066da0abefc519c79c3e.md)
+  - [`4c44cc480c`](../../../locales/hu/content/4c/44/cc480c92803a30eb447dcb9941712e3bac99.md)
 
 ### Testing on the Racket track (Tesztelés a Racket-kurzuson)
 
@@ -479,13 +482,15 @@ This page is generated from [the index](../../json/hu/racket.json) by `scripts/b
 
 ### Useful Racket resources (Hasznos Racket-források)
 
-- `RESOURCES.md` ([English](https://github.com/exercism/racket/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/hu/content/d2/1f/685f2bd6f7a2e415d1851961af9073c1eaf9.md)
+- `RESOURCES.md` ([English](https://github.com/exercism/racket/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/hu/content/95/84/e2be7756343173331ac30764cdf0ac50fae9.md)
+  - [`d21f685f2b`](../../../locales/hu/content/d2/1f/685f2bd6f7a2e415d1851961af9073c1eaf9.md)
 
 ## Shared exercise docs
 
 ### help.md
 
-- `help.md` ([English](https://github.com/exercism/racket/blob/main/exercises/shared/.docs/help.md)): [Latest](../../../locales/hu/content/81/a5/b2612c23a82f87887ec2be8d7bad97072cbb.md)
+- `help.md` ([English](https://github.com/exercism/racket/blob/main/exercises/shared/.docs/help.md)): [Latest](../../../locales/hu/content/a4/44/93fbd5d665fe461b4bb42f01da2946401c5f.md)
+  - [`81a5b2612c`](../../../locales/hu/content/81/a5/b2612c23a82f87887ec2be8d7bad97072cbb.md)
 
 ### tests.md
 

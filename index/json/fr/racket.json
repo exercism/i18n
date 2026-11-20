@@ -95,10 +95,10 @@
     "exercises/practice/zebra-puzzle": {"en":"Zebra Puzzle","fr":"Énigme du zèbre"}
   },
   "paths": {
-    "docs/ABOUT.md": ["5093cea1e6ce1063e9d9efbe3a05d5410ec2e64e"],
-    "docs/INSTALLATION.md": ["4c44cc480c92803a30eb447dcb9941712e3bac99"],
-    "docs/LEARNING.md": ["7e1a7f9f51d2145e8c994c569cff65aeff533a95"],
-    "docs/RESOURCES.md": ["d21f685f2bd6f7a2e415d1851961af9073c1eaf9"],
+    "docs/ABOUT.md": ["e265570fcc24d71f30912bc002b824c1bb1d11d0","5093cea1e6ce1063e9d9efbe3a05d5410ec2e64e"],
+    "docs/INSTALLATION.md": ["6733765dffaa1b7dec99066da0abefc519c79c3e","4c44cc480c92803a30eb447dcb9941712e3bac99"],
+    "docs/LEARNING.md": ["8375039919c4ead81b71c222798d58c1662e6af2","7e1a7f9f51d2145e8c994c569cff65aeff533a95"],
+    "docs/RESOURCES.md": ["9584e2be7756343173331ac30764cdf0ac50fae9","d21f685f2bd6f7a2e415d1851961af9073c1eaf9"],
     "docs/TESTS.md": ["30fb644d8d3689e86fe4428a79ed3ad4a0b88037"],
     "exercises/practice/accumulate/.docs/instructions.md": ["435e0b3246950084d4940bdf4bd741259dce3165"],
     "exercises/practice/acronym/.docs/instructions.md": ["133bd2cbb78d186c92e5d2b8ca41cf13f77d6bea"],
@@ -237,7 +237,7 @@
     "exercises/practice/yacht/.docs/introduction.md": ["5b541f5625ce0d5916f9545a824de17a55d433f1"],
     "exercises/practice/zebra-puzzle/.docs/instructions.md": ["aedce9b25e7ed65c8f05d32cdae4cbd12adbb245"],
     "exercises/practice/zebra-puzzle/.docs/introduction.md": ["bbcaa6fd203b1287d74439822b072473408e4799"],
-    "exercises/shared/.docs/help.md": ["81a5b2612c23a82f87887ec2be8d7bad97072cbb"],
+    "exercises/shared/.docs/help.md": ["a44493fbd5d665fe461b4bb42f01da2946401c5f","81a5b2612c23a82f87887ec2be8d7bad97072cbb"],
     "exercises/shared/.docs/tests.md": ["97f713031ecc765a1be19d570d7b48fd9f79536a"]
   },
   "repo": "racket"

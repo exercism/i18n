@@ -304,7 +304,7 @@ This page is generated from [the index](../../json/el/racket.json) by `scripts/b
 ### Robot Name (Όνομα ρομπότ)
 
 - `instructions.md` ([English](https://github.com/exercism/racket/blob/main/exercises/practice/robot-name/.docs/instructions.md)): [Latest](../../../locales/el/content/fc/a3/a41aeccc9ce1e2839ec947ffcf8e6ef8e2bb.md)
-- `instructions.append.md` ([English](https://github.com/exercism/racket/blob/main/exercises/practice/robot-name/.docs/instructions.append.md)): missing
+- `instructions.append.md` ([English](https://github.com/exercism/racket/blob/main/exercises/practice/robot-name/.docs/instructions.append.md)): [Latest](../../../locales/el/content/8e/ae/4978aa1a520368fe0895a295d3fe5ec81406.md)
 
 ### Robot Simulator (Προσομοιωτής ρομπότ)
 
@@ -410,15 +410,18 @@ This page is generated from [the index](../../json/el/racket.json) by `scripts/b
 
 ### ABOUT.md
 
-- `ABOUT.md` ([English](https://github.com/exercism/racket/blob/main/docs/ABOUT.md)): [Latest](../../../locales/el/content/50/93/cea1e6ce1063e9d9efbe3a05d5410ec2e64e.md)
+- `ABOUT.md` ([English](https://github.com/exercism/racket/blob/main/docs/ABOUT.md)): [Latest](../../../locales/el/content/e2/65/570fcc24d71f30912bc002b824c1bb1d11d0.md)
+  - [`5093cea1e6`](../../../locales/el/content/50/93/cea1e6ce1063e9d9efbe3a05d5410ec2e64e.md)
 
 ### How to learn Racket (Πώς να μάθεις Racket)
 
-- `LEARNING.md` ([English](https://github.com/exercism/racket/blob/main/docs/LEARNING.md)): [Latest](../../../locales/el/content/7e/1a/7f9f51d2145e8c994c569cff65aeff533a95.md)
+- `LEARNING.md` ([English](https://github.com/exercism/racket/blob/main/docs/LEARNING.md)): [Latest](../../../locales/el/content/83/75/039919c4ead81b71c222798d58c1662e6af2.md)
+  - [`7e1a7f9f51`](../../../locales/el/content/7e/1a/7f9f51d2145e8c994c569cff65aeff533a95.md)
 
 ### Installing Racket locally (Εγκατάσταση του Racket τοπικά)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/racket/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/el/content/4c/44/cc480c92803a30eb447dcb9941712e3bac99.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/racket/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/el/content/67/33/765dffaa1b7dec99066da0abefc519c79c3e.md)
+  - [`4c44cc480c`](../../../locales/el/content/4c/44/cc480c92803a30eb447dcb9941712e3bac99.md)
 
 ### Testing on the Racket track (Δοκιμές στη διαδρομή Racket)
 
@@ -426,13 +429,15 @@ This page is generated from [the index](../../json/el/racket.json) by `scripts/b
 
 ### Useful Racket resources (Χρήσιμοι πόροι για το Racket)
 
-- `RESOURCES.md` ([English](https://github.com/exercism/racket/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/el/content/d2/1f/685f2bd6f7a2e415d1851961af9073c1eaf9.md)
+- `RESOURCES.md` ([English](https://github.com/exercism/racket/blob/main/docs/RESOURCES.md)): [Latest](../../../locales/el/content/95/84/e2be7756343173331ac30764cdf0ac50fae9.md)
+  - [`d21f685f2b`](../../../locales/el/content/d2/1f/685f2bd6f7a2e415d1851961af9073c1eaf9.md)
 
 ## Shared exercise docs
 
 ### help.md
 
-- `help.md` ([English](https://github.com/exercism/racket/blob/main/exercises/shared/.docs/help.md)): [Latest](../../../locales/el/content/81/a5/b2612c23a82f87887ec2be8d7bad97072cbb.md)
+- `help.md` ([English](https://github.com/exercism/racket/blob/main/exercises/shared/.docs/help.md)): [Latest](../../../locales/el/content/a4/44/93fbd5d665fe461b4bb42f01da2946401c5f.md)
+  - [`81a5b2612c`](../../../locales/el/content/81/a5/b2612c23a82f87887ec2be8d7bad97072cbb.md)
 
 ### tests.md
 
