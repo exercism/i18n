@@ -1,0 +1,6 @@
+# 提示
+
+## 通用
+
+- [`roc-isodate`包](https://github.com/imclerran/roc-isodate)可以在`meetup-test.roc`的文件头部使用（别名为`isodate`）。
+  如果需要，你可以在自己的解答中使用它，比如导入`isodate.Date`。

@@ -223,7 +223,8 @@ This page is generated from [the index](../../json/ar/roc.json) by `scripts/buil
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/gigasecond/.docs/instructions.md)): [Latest](../../../locales/ar/content/1e/20/f0022e47d16c84030db24f4c83f00b60652d.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/gigasecond/.docs/introduction.md)): [Latest](../../../locales/ar/content/18/a3/dc2005835723646b6cd216c36ae4dfc7550f.md)
-- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/gigasecond/.docs/hints.md)): [Latest](../../../locales/ar/content/eb/95/53b81364c55a53b243cfd35f3d82db434513.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/gigasecond/.docs/hints.md)): [Latest](../../../locales/ar/content/0d/3f/954ca21a3eab73bbdf7ae17950f1affd4015.md)
+  - [`eb9553b813`](../../../locales/ar/content/eb/95/53b81364c55a53b243cfd35f3d82db434513.md)
 
 ### Go Counting (عدّ نقاط Go)
 
@@ -362,7 +363,8 @@ This page is generated from [the index](../../json/ar/roc.json) by `scripts/buil
 
 - `instructions.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/meetup/.docs/instructions.md)): [Latest](../../../locales/ar/content/8b/1b/da5eb4c26f8eaa3fc25d659cc05589b6f127.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/meetup/.docs/introduction.md)): [Latest](../../../locales/ar/content/29/17/0ef1fda6839c4c8b51f1fd0af663ab860023.md)
-- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/meetup/.docs/hints.md)): [Latest](../../../locales/ar/content/50/d1/370e0344346552e5cda56cdb27d8bee62a6f.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/meetup/.docs/hints.md)): [Latest](../../../locales/ar/content/e9/fa/aec9e57ac8dc504dfe69c120c3a90de6f9fc.md)
+  - [`50d1370e03`](../../../locales/ar/content/50/d1/370e0344346552e5cda56cdb27d8bee62a6f.md)
 
 ### Micro Blog (المدوّنة المصغّرة)
 
@@ -674,7 +676,8 @@ This page is generated from [the index](../../json/ar/roc.json) by `scripts/buil
 - `instructions.append.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/swift-scheduling/.docs/instructions.append.md)): [Latest](../../../locales/ar/content/2b/60/86525b244c5535e08a7545a15d7ad899c926.md)
   - [`d2a160e13f`](../../../locales/ar/content/d2/a1/60e13f9e7cb7a6c0c838332d02acce52bb77.md)
 - `introduction.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/swift-scheduling/.docs/introduction.md)): [Latest](../../../locales/ar/content/23/22/f813fff1b2d03718b7f2764eed21f7b2d627.md)
-- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/swift-scheduling/.docs/hints.md)): [Latest](../../../locales/ar/content/54/c7/d478bad71d0d6ffdc60b17fbad7e1ea75530.md)
+- `hints.md` ([English](https://github.com/exercism/roc/blob/main/exercises/practice/swift-scheduling/.docs/hints.md)): [Latest](../../../locales/ar/content/8c/9e/1ead3c76d2dc31c3a13b38863c0abab6adb6.md)
+  - [`54c7d478ba`](../../../locales/ar/content/54/c7/d478bad71d0d6ffdc60b17fbad7e1ea75530.md)
 
 ### Tournament (البطولة)
 
