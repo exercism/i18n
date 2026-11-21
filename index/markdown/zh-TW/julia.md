@@ -404,6 +404,10 @@ This page is generated from [the index](../../json/zh-TW/julia.json) by `scripts
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/secret-handshake/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/d2/12/0b9bf2e57109955caddbfc1646b9fcc8070e.md)
 - `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/secret-handshake/.docs/introduction.md)): [Latest](../../../locales/zh-TW/content/17/6b/92e8cf395ab6d07a5d8ae60f86c73e4da085.md)
 
+### Series (序列)
+
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/series/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/fd/97/a6706a66b377147ae91d1495db35a1b291e8.md)
+
 ### Sieve (篩法)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/sieve/.docs/instructions.md)): [Latest](../../../locales/zh-TW/content/71/29/2e1782dc95e0430ae2b614e1d740dd41639f.md)

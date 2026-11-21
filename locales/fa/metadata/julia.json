@@ -469,5 +469,8 @@
   "concept:nothingness:blurb": "Julia برای نبود کامل مقدار از `nothing`، برای شکاف در دانش ما از داده‌ها از `missing`، برای مشکلات محاسباتی از `NaN` و برای برخی انواع وضعیت خطا از `unknown` استفاده می‌کند.",
   "exercise:zebra-puzzle:name": "معمای گورخر",
   "exercise:zebra-puzzle:blurb": "معمای گورخر را حل کنید.",
-  "exercise:zebra-puzzle:source": "Wikipedia"
+  "exercise:zebra-puzzle:source": "Wikipedia",
+  "exercise:series:name": "دنباله",
+  "exercise:series:blurb": "اگر رشته‌ای از رقم‌ها داده شود، همه‌ی زیررشته‌های به‌هم‌پیوسته با طول `n` را در آن رشته خروجی بدهید.",
+  "exercise:series:source": "زیرمجموعه‌ای از مسئله‌ی ۸ در Project Euler"
 }

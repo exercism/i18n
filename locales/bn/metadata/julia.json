@@ -469,5 +469,8 @@
   "exercise:booking-up-for-beauty:blurb": "বিউটি সেলুনের অ্যাপয়েন্টমেন্ট সামলিয়ে তারিখ ও সময় ম্যানিপুলেশন সম্পর্কে জানুন।",
   "exercise:zebra-puzzle:name": "জেব্রা ধাঁধা",
   "exercise:zebra-puzzle:blurb": "জেব্রা ধাঁধাটি সমাধান করুন।",
-  "exercise:zebra-puzzle:source": "Wikipedia"
+  "exercise:zebra-puzzle:source": "Wikipedia",
+  "exercise:series:name": "সিরিজ",
+  "exercise:series:blurb": "সংখ্যার একটি স্ট্রিং দেওয়া থাকলে সেই স্ট্রিংয়ের ভেতরে `n` দৈর্ঘ্যের সব সংলগ্ন সাবস্ট্রিং আউটপুট দিন।",
+  "exercise:series:source": "Project Euler-এর Problem 8-এর একটি উপসেট।"
 }

@@ -469,5 +469,8 @@
   "concept:randomness:blurb": "Η Julia προσφέρει μεγάλη ποικιλία τρόπων για τη δημιουργία τυχαίων τιμών για μοντελοποίηση και προσομοιώσεις.",
   "exercise:zebra-puzzle:name": "Γρίφος της ζέβρας",
   "exercise:zebra-puzzle:blurb": "Λύσε τον γρίφο της ζέβρας.",
-  "exercise:zebra-puzzle:source": "Wikipedia"
+  "exercise:zebra-puzzle:source": "Wikipedia",
+  "exercise:series:name": "Σειρές",
+  "exercise:series:blurb": "Με δεδομένη μια συμβολοσειρά ψηφίων, δώσε όλες τις συνεχόμενες υποσυμβολοσειρές μήκους `n` μέσα σε αυτή τη συμβολοσειρά.",
+  "exercise:series:source": "Ένα υποσύνολο του Προβλήματος 8 στο Project Euler"
 }

@@ -469,5 +469,8 @@
   "concept:nothingness:blurb": "Julia utilise nothing pour l'absence totale de valeur, missing pour les lacunes dans notre connaissance des données, NaN pour les problèmes de calcul et unknown pour certains types d'état d'erreur.",
   "exercise:zebra-puzzle:name": "Énigme du zèbre",
   "exercise:zebra-puzzle:blurb": "Résous l'énigme du zèbre.",
-  "exercise:zebra-puzzle:source": "Wikipedia"
+  "exercise:zebra-puzzle:source": "Wikipedia",
+  "exercise:series:name": "Séries",
+  "exercise:series:blurb": "À partir d'une _string_ de chiffres, renvoie toutes les sous-chaînes contiguës de longueur `n` qu'elle contient.",
+  "exercise:series:source": "Un sous-ensemble du problème 8 de Project Euler"
 }

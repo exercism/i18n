@@ -469,5 +469,8 @@
   "concept:randomness:blurb": "Julia는 모델링과 시뮬레이션을 위한 무작위 값을 생성하는 다양한 방법을 제공해요.",
   "exercise:zebra-puzzle:name": "얼룩말 퍼즐",
   "exercise:zebra-puzzle:blurb": "얼룩말 퍼즐을 풀어요.",
-  "exercise:zebra-puzzle:source": "Wikipedia"
+  "exercise:zebra-puzzle:source": "Wikipedia",
+  "exercise:series:name": "수열",
+  "exercise:series:blurb": "숫자 문자열이 주어지면, 그 문자열에서 길이가 `n`인 모든 연속 부분 문자열을 출력해요.",
+  "exercise:series:source": "Project Euler Problem 8의 일부"
 }

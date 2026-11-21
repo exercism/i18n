@@ -462,6 +462,10 @@ This page is generated from [the index](../../json/hu/julia.json) by `scripts/bu
   - [`77136cf0f7`](../../../locales/hu/content/77/13/6cf0f7baee68c7abcae571479994df203134.md)
 - `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/secret-handshake/.docs/introduction.md)): [Latest](../../../locales/hu/content/17/6b/92e8cf395ab6d07a5d8ae60f86c73e4da085.md)
 
+### Series (Sorozat)
+
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/series/.docs/instructions.md)): [Latest](../../../locales/hu/content/fd/97/a6706a66b377147ae91d1495db35a1b291e8.md)
+
 ### Sieve (Szita)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/sieve/.docs/instructions.md)): [Latest](../../../locales/hu/content/71/29/2e1782dc95e0430ae2b614e1d740dd41639f.md)

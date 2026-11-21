@@ -469,5 +469,8 @@
   "concept:nothingness:blurb": "Julia 用 nothing 表示值的完全缺失，用 missing 表示数据认知上的空缺，用 NaN 表示计算上的问题，用 unknown 表示某些类型的错误状态。",
   "exercise:zebra-puzzle:name": "斑马谜题",
   "exercise:zebra-puzzle:blurb": "解开斑马谜题。",
-  "exercise:zebra-puzzle:source": "Wikipedia"
+  "exercise:zebra-puzzle:source": "Wikipedia",
+  "exercise:series:name": "数列",
+  "exercise:series:blurb": "给定一个由数字组成的字符串，输出其中所有长度为`n`的连续子串。",
+  "exercise:series:source": "Project Euler 第 8 题的一个子集"
 }

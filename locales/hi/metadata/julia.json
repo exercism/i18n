@@ -469,5 +469,8 @@
   "concept:complex-numbers:blurb": "सम्मिश्र संख्याओं का इंजीनियरिंग और भौतिक विज्ञानों में बहुत व्यापक उपयोग होता है। Julia में ये एक मानक संख्यात्मक टाइप हैं।",
   "exercise:zebra-puzzle:name": "ज़ेब्रा पहेली",
   "exercise:zebra-puzzle:blurb": "ज़ेब्रा पहेली हल कीजिए।",
-  "exercise:zebra-puzzle:source": "Wikipedia"
+  "exercise:zebra-puzzle:source": "Wikipedia",
+  "exercise:series:name": "श्रेणी",
+  "exercise:series:blurb": "अंकों की एक स्ट्रिंग दी गई है; उसमें लंबाई `n` वाले सभी क्रमागत सबस्ट्रिंग आउटपुट कीजिए।",
+  "exercise:series:source": "Project Euler पर Problem 8 का एक उपसमूह"
 }

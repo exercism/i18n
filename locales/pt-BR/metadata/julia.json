@@ -469,5 +469,8 @@
   "concept:complex-numbers:blurb": "Números complexos são amplamente usados na engenharia e nas ciências físicas. São um tipo numérico padrão em Julia.",
   "exercise:zebra-puzzle:name": "Quebra-cabeça da zebra",
   "exercise:zebra-puzzle:blurb": "Resolva o quebra-cabeça da zebra.",
-  "exercise:zebra-puzzle:source": "Wikipedia"
+  "exercise:zebra-puzzle:source": "Wikipedia",
+  "exercise:series:name": "Séries",
+  "exercise:series:blurb": "Dada uma string de dígitos, retorne todas as substrings contíguas de comprimento `n` nessa string.",
+  "exercise:series:source": "Um subconjunto do Problema 8 do Project Euler"
 }

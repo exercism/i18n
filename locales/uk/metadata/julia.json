@@ -469,5 +469,8 @@
   "concept:complex-numbers:blurb": "Комплексні числа дуже широко застосовуються в інженерії та фізичних науках. Це стандартний числовий тип у мові Julia.",
   "exercise:zebra-puzzle:name": "Загадка про зебру",
   "exercise:zebra-puzzle:blurb": "Розвʼяжіть загадку про зебру.",
-  "exercise:zebra-puzzle:source": "Wikipedia"
+  "exercise:zebra-puzzle:source": "Wikipedia",
+  "exercise:series:name": "Послідовність",
+  "exercise:series:blurb": "Дано рядок тексту (англ. string) з цифр, виведіть усі суміжні підрядки довжиною `n` у ньому.",
+  "exercise:series:source": "Підмножина задачі 8 з Project Euler"
 }

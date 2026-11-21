@@ -469,5 +469,8 @@
   "exercise:regular-chatbot:blurb": "Aprende lo básico de las expresiones regulares con Julia ayudando a un chatbot a entender a los humanos.",
   "exercise:zebra-puzzle:name": "El acertijo de la cebra",
   "exercise:zebra-puzzle:blurb": "Resuelve el acertijo de la cebra.",
-  "exercise:zebra-puzzle:source": "Wikipedia"
+  "exercise:zebra-puzzle:source": "Wikipedia",
+  "exercise:series:name": "Series",
+  "exercise:series:blurb": "Dado un string de dígitos, devuelve todas las subcadenas contiguas de longitud `n` en ese string.",
+  "exercise:series:source": "Un subconjunto del Problema 8 de Project Euler"
 }

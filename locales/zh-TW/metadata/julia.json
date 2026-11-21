@@ -469,5 +469,8 @@
   "concept:randomness:blurb": "Julia 有各式各樣的隨機值產生方式，可用於建模與模擬。",
   "exercise:zebra-puzzle:name": "斑馬謎題",
   "exercise:zebra-puzzle:blurb": "解開斑馬謎題。",
-  "exercise:zebra-puzzle:source": "Wikipedia"
+  "exercise:zebra-puzzle:source": "Wikipedia",
+  "exercise:series:name": "序列",
+  "exercise:series:blurb": "給定一串數字，輸出該字串中所有長度為`n`的連續子字串。",
+  "exercise:series:source": "Project Euler 第 8 題的子集。"
 }

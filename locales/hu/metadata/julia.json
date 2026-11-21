@@ -469,5 +469,8 @@
   "exercise:exercism-matrix:blurb": "Ismerd meg a többdimenziós tömböket az Exercism logójával.",
   "exercise:zebra-puzzle:name": "Zebrarejtvény",
   "exercise:zebra-puzzle:blurb": "Oldd meg a zebrarejtvényt.",
-  "exercise:zebra-puzzle:source": "Wikipedia"
+  "exercise:zebra-puzzle:source": "Wikipedia",
+  "exercise:series:name": "Sorozat",
+  "exercise:series:blurb": "Egy számjegyekből álló string esetén add ki az összes `n` hosszú, összefüggő részstringet.",
+  "exercise:series:source": "A Project Euler 8. feladatának egy részhalmaza"
 }

@@ -469,5 +469,8 @@
   "concept:complex-numbers:blurb": "Los números complejos tienen un uso muy extendido en la ingeniería y las ciencias físicas. Son un tipo numérico estándar en Julia.",
   "exercise:zebra-puzzle:name": "Acertijo de la cebra",
   "exercise:zebra-puzzle:blurb": "Resuelve el acertijo de la cebra.",
-  "exercise:zebra-puzzle:source": "Wikipedia"
+  "exercise:zebra-puzzle:source": "Wikipedia",
+  "exercise:series:name": "Series",
+  "exercise:series:blurb": "Dado un string de dígitos, muestra todas las subcadenas contiguas de longitud `n` de ese string.",
+  "exercise:series:source": "Un subconjunto del Problema 8 de Project Euler"
 }
