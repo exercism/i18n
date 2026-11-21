@@ -182,5 +182,7 @@
   "doc:tests:title": "YAMLScriptトラックでのテスト",
   "doc:tests:blurb": "ExercismでYAMLScriptの演習をテストする方法を学びます",
   "doc:resources:title": "役立つYAMLScriptリソース",
-  "doc:resources:blurb": "YAMLScriptをマスターするのに役立つリソース集です"
+  "doc:resources:blurb": "YAMLScriptをマスターするのに役立つリソース集です",
+  "exercise:flower-field:name": "花畑",
+  "exercise:flower-field:blurb": "庭にあるすべての花に印を付けます。"
 }

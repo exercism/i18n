@@ -182,5 +182,7 @@
   "doc:tests:title": "آزمایش در مسیر YAMLScript",
   "doc:tests:blurb": "یاد بگیرید چطور تمرین‌های YAMLScript خود را در Exercism آزمایش کنید.",
   "doc:resources:title": "منابع مفید YAMLScript",
-  "doc:resources:blurb": "مجموعه‌ای از منابع مفید که به شما کمک می‌کند در YAMLScript تسلط پیدا کنید."
+  "doc:resources:blurb": "مجموعه‌ای از منابع مفید که به شما کمک می‌کند در YAMLScript تسلط پیدا کنید.",
+  "exercise:flower-field:name": "دشت گل",
+  "exercise:flower-field:blurb": "همه‌ی گل‌های یک باغ را علامت بزنید."
 }

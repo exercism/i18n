@@ -182,5 +182,7 @@
   "doc:tests:title": "YAMLScript ট্র্যাকে টেস্ট করা",
   "doc:tests:blurb": "Exercism-এ আপনার YAMLScript অনুশীলনীগুলো কীভাবে টেস্ট করবেন, তা শিখুন।",
   "doc:resources:title": "কাজের YAMLScript রিসোর্স",
-  "doc:resources:blurb": "YAMLScript-এ দক্ষতা অর্জনে সাহায্যকারী কাজের রিসোর্সের একটি সংগ্রহ।"
+  "doc:resources:blurb": "YAMLScript-এ দক্ষতা অর্জনে সাহায্যকারী কাজের রিসোর্সের একটি সংগ্রহ।",
+  "exercise:flower-field:name": "ফুলের ক্ষেত",
+  "exercise:flower-field:blurb": "একটি বাগানের সব ফুল চিহ্নিত করুন।"
 }

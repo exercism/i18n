@@ -89,6 +89,11 @@ This page is generated from [the index](../../json/hu/yamlscript.json) by `scrip
 - `instructions.md` ([English](https://github.com/exercism/yamlscript/blob/main/exercises/practice/etl/.docs/instructions.md)): [Latest](../../../locales/hu/content/80/28/63b5405bcf80186009792ed7c54ccb8d797e.md)
 - `introduction.md` ([English](https://github.com/exercism/yamlscript/blob/main/exercises/practice/etl/.docs/introduction.md)): [Latest](../../../locales/hu/content/5b/e6/5147d7f5170564e32b582966d522ed9f4ce8.md)
 
+### Flower Field (Virágmező)
+
+- `instructions.md` ([English](https://github.com/exercism/yamlscript/blob/main/exercises/practice/flower-field/.docs/instructions.md)): [Latest](../../../locales/hu/content/bb/da/e0c2cb1fa4a25852a885a02a4f42b9b677e7.md)
+- `introduction.md` ([English](https://github.com/exercism/yamlscript/blob/main/exercises/practice/flower-field/.docs/introduction.md)): [Latest](../../../locales/hu/content/af/9b/6153617f87f5d4e8ce3ab55e4aa805a21a04.md)
+
 ### Food Chain (Tápláléklánc)
 
 - `instructions.md` ([English](https://github.com/exercism/yamlscript/blob/main/exercises/practice/food-chain/.docs/instructions.md)): [Latest](../../../locales/hu/content/12/58/20e321bd07292c3a17dc8b57a7a2cff09245.md)
@@ -155,7 +160,7 @@ This page is generated from [the index](../../json/hu/yamlscript.json) by `scrip
 
 - `instructions.md` ([English](https://github.com/exercism/yamlscript/blob/main/exercises/practice/nucleotide-count/.docs/instructions.md)): [Latest](../../../locales/hu/content/54/8d/9ba5a5ee79a79fc4ff3e1d942c6c7f7c68af.md)
 
-### Pangram
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/yamlscript/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
 - `introduction.md` ([English](https://github.com/exercism/yamlscript/blob/main/exercises/practice/pangram/.docs/introduction.md)): [Latest](../../../locales/hu/content/32/b6/f1fc3178c36f2677b2d7bbeb35bafd6c786d.md)

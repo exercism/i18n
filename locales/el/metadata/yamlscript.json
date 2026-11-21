@@ -182,5 +182,7 @@
   "doc:tests:title": "Δοκιμές στη διαδρομή YAMLScript",
   "doc:tests:blurb": "Μάθε πώς να δοκιμάζεις τις ασκήσεις YAMLScript στο Exercism",
   "doc:resources:title": "Χρήσιμοι πόροι για το YAMLScript",
-  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων για να σε βοηθήσουν να κατακτήσεις το YAMLScript"
+  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων για να σε βοηθήσουν να κατακτήσεις το YAMLScript",
+  "exercise:flower-field:name": "Χωράφι με Λουλούδια",
+  "exercise:flower-field:blurb": "Σημείωσε όλα τα λουλούδια σε έναν κήπο."
 }

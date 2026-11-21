@@ -182,5 +182,7 @@
   "doc:tests:title": "الاختبار في مسار YAMLScript",
   "doc:tests:blurb": "تعرّف على كيفية اختبار تمارين YAMLScript على Exercism.",
   "doc:resources:title": "مصادر مفيدة عن YAMLScript",
-  "doc:resources:blurb": "مجموعة من المصادر المفيدة التي تساعدك على إتقان YAMLScript."
+  "doc:resources:blurb": "مجموعة من المصادر المفيدة التي تساعدك على إتقان YAMLScript.",
+  "exercise:flower-field:name": "حقل الأزهار",
+  "exercise:flower-field:blurb": "حدّد كل الأزهار في حديقة."
 }

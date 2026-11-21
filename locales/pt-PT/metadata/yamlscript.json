@@ -182,5 +182,7 @@
   "doc:tests:title": "Testar no percurso YAMLScript",
   "doc:tests:blurb": "Aprende a testar os teus exercícios de YAMLScript no Exercism.",
   "doc:resources:title": "Recursos úteis de YAMLScript",
-  "doc:resources:blurb": "Uma coleção de recursos úteis que te ajudam a dominar o YAMLScript."
+  "doc:resources:blurb": "Uma coleção de recursos úteis que te ajudam a dominar o YAMLScript.",
+  "exercise:flower-field:name": "Campo de Flores",
+  "exercise:flower-field:blurb": "Marca todas as flores de um jardim."
 }

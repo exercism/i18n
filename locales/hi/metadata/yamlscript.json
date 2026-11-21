@@ -182,5 +182,7 @@
   "doc:tests:title": "YAMLScript ट्रैक पर जाँच",
   "doc:tests:blurb": "Exercism पर अपने YAMLScript अभ्यासों की जाँच करना सीखिए।",
   "doc:resources:title": "काम के YAMLScript संसाधन",
-  "doc:resources:blurb": "YAMLScript में महारत हासिल करने में मदद करने वाले उपयोगी संसाधनों का संग्रह।"
+  "doc:resources:blurb": "YAMLScript में महारत हासिल करने में मदद करने वाले उपयोगी संसाधनों का संग्रह।",
+  "exercise:flower-field:name": "फूलों का खेत",
+  "exercise:flower-field:blurb": "बगीचे के सभी फूलों को चिह्नित कीजिए।"
 }
