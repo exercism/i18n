@@ -310,5 +310,7 @@
   "doc:resources:blurb": "一系列实用资源，助你精通 Scala",
   "exercise:relative-distance:name": "相对距离",
   "exercise:relative-distance:blurb": "给定一棵家族树，计算两个人之间的亲疏程度。",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:basics:name": "卢西安的美味千层面",
+  "exercise:basics:blurb": "TODO：为基础练习添加简介"
 }

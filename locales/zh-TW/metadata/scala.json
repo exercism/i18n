@@ -310,5 +310,7 @@
   "doc:resources:blurb": "一系列實用資源，幫助你精通 Scala",
   "exercise:relative-distance:name": "相對距離",
   "exercise:relative-distance:blurb": "給定一棵家族樹，計算兩人之間的親等。",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:basics:name": "Lucian 的美味千層麵",
+  "exercise:basics:blurb": "TODO：為基礎練習新增簡介"
 }

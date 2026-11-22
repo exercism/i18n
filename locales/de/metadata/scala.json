@@ -310,5 +310,7 @@
   "doc:resources:blurb": "Eine Sammlung nützlicher Ressourcen, die dir helfen, Scala zu meistern",
   "exercise:relative-distance:name": "Verwandtschaftsabstand",
   "exercise:relative-distance:blurb": "Berechne für einen Stammbaum den Verwandtschaftsgrad.",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:basics:name": "Lucians leckere Lasagne",
+  "exercise:basics:blurb": "TODO: Kurzbeschreibung für die Übung Grundlagen hinzufügen"
 }

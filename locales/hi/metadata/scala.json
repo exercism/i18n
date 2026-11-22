@@ -310,5 +310,7 @@
   "doc:resources:blurb": "Scala में महारत हासिल करने में आपकी मदद करने वाले उपयोगी संसाधनों का संग्रह",
   "exercise:relative-distance:name": "सापेक्ष दूरी",
   "exercise:relative-distance:blurb": "दिए गए वंशवृक्ष से अलगाव की दूरी निकालिए।",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:basics:name": "Lucian की स्वादिष्ट लसैग्ना",
+  "exercise:basics:blurb": "बेसिक्स अभ्यास के लिए ब्लर्ब जोड़ना बाकी है"
 }

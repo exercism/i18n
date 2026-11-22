@@ -310,5 +310,7 @@
   "doc:resources:blurb": "مجموعه‌ای از منابع مفید که به شما کمک می‌کند در Scala مهارت پیدا کنید",
   "exercise:relative-distance:name": "فاصله‌ی نسبی",
   "exercise:relative-distance:blurb": "با داشتن یک شجره‌نامه، درجه‌ی خویشاوندی را محاسبه کنید.",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:basics:name": "لازانیای لذیذ لوسین",
+  "exercise:basics:blurb": "TODO: افزودن توضیح کوتاه برای تمرین مبانی"
 }

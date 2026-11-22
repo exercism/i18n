@@ -478,13 +478,14 @@ This page is generated from [the index](../../json/pt-PT/scala.json) by `scripts
 
 ## Concept exercises
 
-### Lucians Luscious Lasagna
+### Lucians Luscious Lasagna (A lasanha deliciosa do Lucian)
 
 - `instructions.md` ([English](https://github.com/exercism/scala/blob/main/exercises/concept/basics/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/18/43/8816267400534c5c9c919959e61feea96d39.md)
   - [`eb14ec97f3`](../../../locales/pt-PT/content/eb/14/ec97f3d6c368df1a68c2d7e2929bcf3d6606.md)
 - `introduction.md` ([English](https://github.com/exercism/scala/blob/main/exercises/concept/basics/.docs/introduction.md)): [Latest](../../../locales/pt-PT/content/92/2f/cac45514393531d2520f6f022e38c55bc257.md)
   - [`a1d2983cad`](../../../locales/pt-PT/content/a1/d2/983cad9bacdd3c5fd6ef1295d722d7c5f2f6.md)
-- `hints.md` ([English](https://github.com/exercism/scala/blob/main/exercises/concept/basics/.docs/hints.md)): [Latest](../../../locales/pt-PT/content/76/cd/e68bb45fa028f8cc6d93e6fc6b6dccdc04de.md)
+- `hints.md` ([English](https://github.com/exercism/scala/blob/main/exercises/concept/basics/.docs/hints.md)): [Latest](../../../locales/pt-PT/content/8a/73/c092e6adb92775a4950ade2c5a302470f074.md)
+  - [`76cde68bb4`](../../../locales/pt-PT/content/76/cd/e68bb45fa028f8cc6d93e6fc6b6dccdc04de.md)
 
 ## Track docs
 
