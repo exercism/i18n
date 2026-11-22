@@ -310,5 +310,7 @@
   "doc:resources:blurb": "Scala를 능숙하게 다루도록 도와주는 유용한 자료 모음",
   "exercise:relative-distance:name": "친척 간의 거리",
   "exercise:relative-distance:blurb": "가계도를 보고 촌수를 계산해요.",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:basics:name": "루시안의 맛있는 라자냐",
+  "exercise:basics:blurb": "TODO: basics 연습 문제의 소개 문구를 추가해요"
 }

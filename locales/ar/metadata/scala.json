@@ -310,5 +310,7 @@
   "doc:resources:blurb": "مجموعة من المصادر المفيدة لمساعدتك على إتقان Scala",
   "exercise:relative-distance:name": "المسافة النسبية",
   "exercise:relative-distance:blurb": "بمعلومية شجرة عائلة، احسب درجة القرابة.",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:basics:name": "لازانيا لوسيان اللذيذة",
+  "exercise:basics:blurb": "قيد الإنجاز: أضف وصفًا لتمرين الأساسيات"
 }

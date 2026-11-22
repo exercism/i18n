@@ -310,5 +310,7 @@
   "doc:resources:blurb": "Uma coleção de recursos úteis para te ajudar a dominar a Scala",
   "exercise:relative-distance:name": "Distância relativa",
   "exercise:relative-distance:blurb": "Dada uma árvore genealógica, calcula o grau de parentesco.",
-  "exercise:relative-distance:source": "vaeng"
+  "exercise:relative-distance:source": "vaeng",
+  "exercise:basics:name": "A lasanha deliciosa do Lucian",
+  "exercise:basics:blurb": "TODO: adicionar uma descrição para o exercício de noções básicas."
 }
