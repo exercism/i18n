@@ -258,5 +258,7 @@
   "doc:resources:title": "काम के jq संसाधन",
   "doc:resources:blurb": "jq में महारत हासिल करने में आपकी मदद करने वाले काम के संसाधनों का संग्रह।",
   "doc:debugging:title": "`jq` में डिबग करने का तरीका",
-  "doc:debugging:blurb": "`debug` फंक्शन इस्तेमाल करने के कुछ सुझाव।"
+  "doc:debugging:blurb": "`debug` फंक्शन इस्तेमाल करने के कुछ सुझाव।",
+  "concept:error-handling:name": "एरर हैंडलिंग",
+  "concept:error-handling:blurb": "error, try-catch, और ? ऑपरेटर की मदद से रनटाइम एरर उठाना, पकड़ना और दबाना।"
 }

@@ -258,5 +258,7 @@
   "doc:resources:title": "实用的 jq 资源",
   "doc:resources:blurb": "帮助你精通 jq 的实用资源合集",
   "doc:debugging:title": "如何在`jq`中调试",
-  "doc:debugging:blurb": "使用`debug`函数的一些技巧"
+  "doc:debugging:blurb": "使用`debug`函数的一些技巧",
+  "concept:error-handling:name": "错误处理",
+  "concept:error-handling:blurb": "使用 error、try-catch 和 ? 运算符抛出、捕获并抑制运行时错误。"
 }

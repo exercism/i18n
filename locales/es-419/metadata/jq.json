@@ -258,5 +258,7 @@
   "concept:compare:blurb": "Operadores de comparación: mayor que, menor que, igual y distinto.",
   "concept:conditionals:blurb": "Ejecución condicional de código mediante sentencias if-else.",
   "concept:recursion:blurb": "Las funciones recursivas son funciones que se llaman a sí mismas. En lenguajes funcionales inmutables como jq, la recursión es útil para lograr el comportamiento que tienen los bucles en otros lenguajes.",
-  "concept:regular-expressions:blurb": "jq admite expresiones regulares compatibles con Perl como una forma muy poderosa de probar y manipular strings."
+  "concept:regular-expressions:blurb": "jq admite expresiones regulares compatibles con Perl como una forma muy poderosa de probar y manipular strings.",
+  "concept:error-handling:name": "Manejo de errores",
+  "concept:error-handling:blurb": "Lanzar, capturar y suprimir errores en tiempo de ejecución con error, try-catch y el operador ?."
 }

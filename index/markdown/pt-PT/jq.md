@@ -406,6 +406,11 @@ This page is generated from [the index](../../json/pt-PT/jq.json) by `scripts/bu
 - `introduction.md` ([English](https://github.com/exercism/jq/blob/main/concepts/conditionals/introduction.md)): [Latest](../../../locales/pt-PT/content/70/0b/22118790fde2f8323885adbb44bc254496b5.md)
 - `about.md` ([English](https://github.com/exercism/jq/blob/main/concepts/conditionals/about.md)): [Latest](../../../locales/pt-PT/content/d9/4d/0ee90f16d6d4fdcb20f8995fd5cb2cbba723.md)
 
+### Error Handling (Tratamento de Erros)
+
+- `introduction.md` ([English](https://github.com/exercism/jq/blob/main/concepts/error-handling/introduction.md)): [Latest](../../../locales/pt-PT/content/c0/d6/3f1b60b88b3ba77805cb1df8baf23fccad5b.md)
+- `about.md` ([English](https://github.com/exercism/jq/blob/main/concepts/error-handling/about.md)): [Latest](../../../locales/pt-PT/content/0a/a3/cd8c1367c68b6a6e64c84b53263043ad961b.md)
+
 ### Functions (Funções)
 
 - `introduction.md` ([English](https://github.com/exercism/jq/blob/main/concepts/functions/introduction.md)): [Latest](../../../locales/pt-PT/content/7e/f7/deee3b019935f21c4b1c473556599315815e.md)

@@ -258,5 +258,7 @@
   "doc:resources:title": "Risorse utili su jq",
   "doc:resources:blurb": "Una raccolta di risorse utili per aiutarti a padroneggiare jq",
   "doc:debugging:title": "Come eseguire il debug in `jq`",
-  "doc:debugging:blurb": "Alcuni suggerimenti per usare la funzione `debug`"
+  "doc:debugging:blurb": "Alcuni suggerimenti per usare la funzione `debug`",
+  "concept:error-handling:name": "Gestione degli errori",
+  "concept:error-handling:blurb": "Sollevare, catturare e sopprimere errori di runtime con error, try-catch e l'operatore ?."
 }

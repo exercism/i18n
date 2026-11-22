@@ -258,5 +258,7 @@
   "doc:resources:title": "দরকারি jq রিসোর্স",
   "doc:resources:blurb": "jq-এ দক্ষ হয়ে উঠতে সাহায্য করবে এমন দরকারি রিসোর্সের সংগ্রহ",
   "doc:debugging:title": "`jq`-এ কীভাবে ডিবাগ করবেন",
-  "doc:debugging:blurb": "`debug` ফাংশন ব্যবহারের কিছু টিপস"
+  "doc:debugging:blurb": "`debug` ফাংশন ব্যবহারের কিছু টিপস",
+  "concept:error-handling:name": "এরর হ্যান্ডলিং",
+  "concept:error-handling:blurb": "error, try-catch এবং ? অপারেটরের মাধ্যমে রানটাইম এরর রেইজ করা, ক্যাচ করা ও সাপ্রেস করা।"
 }

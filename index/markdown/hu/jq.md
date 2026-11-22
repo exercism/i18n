@@ -194,7 +194,7 @@ This page is generated from [the index](../../json/hu/jq.json) by `scripts/build
 
 - `instructions.md` ([English](https://github.com/exercism/jq/blob/main/exercises/practice/nucleotide-count/.docs/instructions.md)): [Latest](../../../locales/hu/content/54/8d/9ba5a5ee79a79fc4ff3e1d942c6c7f7c68af.md)
 
-### Pangram
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/jq/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
 - `introduction.md` ([English](https://github.com/exercism/jq/blob/main/exercises/practice/pangram/.docs/introduction.md)): [Latest](../../../locales/hu/content/32/b6/f1fc3178c36f2677b2d7bbeb35bafd6c786d.md)
@@ -439,6 +439,11 @@ This page is generated from [the index](../../json/hu/jq.json) by `scripts/build
 
 - `introduction.md` ([English](https://github.com/exercism/jq/blob/main/concepts/conditionals/introduction.md)): [Latest](../../../locales/hu/content/70/0b/22118790fde2f8323885adbb44bc254496b5.md)
 - `about.md` ([English](https://github.com/exercism/jq/blob/main/concepts/conditionals/about.md)): [Latest](../../../locales/hu/content/d9/4d/0ee90f16d6d4fdcb20f8995fd5cb2cbba723.md)
+
+### Error Handling (Hibakezelés)
+
+- `introduction.md` ([English](https://github.com/exercism/jq/blob/main/concepts/error-handling/introduction.md)): [Latest](../../../locales/hu/content/c0/d6/3f1b60b88b3ba77805cb1df8baf23fccad5b.md)
+- `about.md` ([English](https://github.com/exercism/jq/blob/main/concepts/error-handling/about.md)): [Latest](../../../locales/hu/content/0a/a3/cd8c1367c68b6a6e64c84b53263043ad961b.md)
 
 ### Functions (Függvények)
 

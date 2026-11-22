@@ -258,5 +258,7 @@
   "doc:resources:title": "jqの学習に役立つリソース",
   "doc:resources:blurb": "jqをマスターするのに役立つリソースをまとめました。",
   "doc:debugging:title": "`jq`でデバッグする方法",
-  "doc:debugging:blurb": "`debug`関数を使うときのヒントを紹介します。"
+  "doc:debugging:blurb": "`debug`関数を使うときのヒントを紹介します。",
+  "concept:error-handling:name": "エラー処理",
+  "concept:error-handling:blurb": "`error`、`try-catch`、`?`演算子を使って、実行時エラーを発生・捕捉・抑制します。"
 }

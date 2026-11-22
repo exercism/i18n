@@ -258,5 +258,7 @@
   "doc:resources:title": "實用的 jq 資源",
   "doc:resources:blurb": "一系列實用資源，幫助你精通 jq",
   "doc:debugging:title": "如何在`jq`中除錯",
-  "doc:debugging:blurb": "使用`debug`函式的一些技巧"
+  "doc:debugging:blurb": "使用`debug`函式的一些技巧",
+  "concept:error-handling:name": "錯誤處理",
+  "concept:error-handling:blurb": "使用 error、try-catch 和 ? 運算子來引發、捕捉與抑制執行期錯誤。"
 }

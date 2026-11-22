@@ -258,5 +258,7 @@
   "doc:resources:title": "Корисні ресурси для jq",
   "doc:resources:blurb": "Добірка корисних ресурсів, які допоможуть опанувати jq",
   "doc:debugging:title": "Як налагоджувати код у `jq`",
-  "doc:debugging:blurb": "Кілька порад щодо використання функції `debug`"
+  "doc:debugging:blurb": "Кілька порад щодо використання функції `debug`",
+  "concept:error-handling:name": "Обробка помилок",
+  "concept:error-handling:blurb": "Генерування, перехоплення та придушення помилок часу виконання за допомогою error, try-catch і оператора ?."
 }

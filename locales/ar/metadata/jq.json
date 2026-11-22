@@ -258,5 +258,7 @@
   "doc:resources:title": "موارد مفيدة عن jq",
   "doc:resources:blurb": "مجموعة من الموارد المفيدة لمساعدتك على إتقان jq",
   "doc:debugging:title": "كيفية تصحيح الأخطاء في `jq`",
-  "doc:debugging:blurb": "بعض النصائح لاستخدام دالة `debug`"
+  "doc:debugging:blurb": "بعض النصائح لاستخدام دالة `debug`",
+  "concept:error-handling:name": "معالجة الأخطاء",
+  "concept:error-handling:blurb": "إثارة أخطاء وقت التشغيل والتقاطها وكبتها باستخدام `error` و`try-catch` وعامل `?`."
 }

@@ -258,5 +258,7 @@
   "doc:resources:title": "منابع مفید jq",
   "doc:resources:blurb": "مجموعه‌ای از منابع مفید که به شما کمک می‌کند بر jq تسلط پیدا کنید",
   "doc:debugging:title": "چگونه در `jq` debug کنیم",
-  "doc:debugging:blurb": "چند نکته برای استفاده از تابع `debug`"
+  "doc:debugging:blurb": "چند نکته برای استفاده از تابع `debug`",
+  "concept:error-handling:name": "مدیریت خطا",
+  "concept:error-handling:blurb": "ایجاد، گرفتن و سرکوب خطاهای زمان اجرا با `error`، `try-catch` و عملگر `?`."
 }

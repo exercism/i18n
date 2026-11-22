@@ -258,5 +258,7 @@
   "doc:resources:title": "Χρήσιμοι πόροι για το jq",
   "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων που θα σε βοηθήσουν να κατακτήσεις το jq",
   "doc:debugging:title": "Πώς να κάνεις debug στο `jq`",
-  "doc:debugging:blurb": "Μερικές συμβουλές για τη χρήση της συνάρτησης `debug`"
+  "doc:debugging:blurb": "Μερικές συμβουλές για τη χρήση της συνάρτησης `debug`",
+  "concept:error-handling:name": "Διαχείριση Σφαλμάτων",
+  "concept:error-handling:blurb": "Πώς πετάμε, πιάνουμε και καταστέλλουμε σφάλματα χρόνου εκτέλεσης με το `error`, το `try-catch` και τον τελεστή `?`."
 }

@@ -258,5 +258,7 @@
   "doc:resources:title": "Hasznos jq-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a jq-t",
   "doc:debugging:title": "Hogyan debugolj `jq`-ban?",
-  "doc:debugging:blurb": "Néhány tipp a `debug` függvény használatához"
+  "doc:debugging:blurb": "Néhány tipp a `debug` függvény használatához",
+  "concept:error-handling:name": "Hibakezelés",
+  "concept:error-handling:blurb": "Futásidejű hibák kiváltása, elkapása és elnyomása az error, a try-catch és a ? operátor segítségével."
 }

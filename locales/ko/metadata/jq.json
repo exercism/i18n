@@ -258,5 +258,7 @@
   "doc:resources:title": "유용한 jq 자료",
   "doc:resources:blurb": "jq를 완벽하게 익히는 데 도움이 되는 유용한 자료 모음",
   "doc:debugging:title": "`jq`에서 디버깅하는 방법",
-  "doc:debugging:blurb": "`debug` 함수를 사용할 때 도움이 되는 몇 가지 팁"
+  "doc:debugging:blurb": "`debug` 함수를 사용할 때 도움이 되는 몇 가지 팁",
+  "concept:error-handling:name": "오류 처리",
+  "concept:error-handling:blurb": "error, try-catch, ? 연산자로 런타임 오류를 발생시키고, 잡아내고, 억제하는 방법을 다뤄요."
 }
