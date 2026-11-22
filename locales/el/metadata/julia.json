@@ -475,5 +475,7 @@
   "exercise:series:source": "Ένα υποσύνολο του Προβλήματος 8 στο Project Euler",
   "exercise:rail-fence-cipher:name": "Κρυπτογράφημα Rail Fence",
   "exercise:rail-fence-cipher:blurb": "Υλοποίησε την κωδικοποίηση και την αποκωδικοποίηση για το κρυπτογράφημα Rail Fence.",
-  "exercise:rail-fence-cipher:source": "Wikipedia"
+  "exercise:rail-fence-cipher:source": "Wikipedia",
+  "exercise:save-the-cow:name": "Σώσε την αγελάδα",
+  "exercise:save-the-cow:blurb": "Υλοποίησε ένα παιχνίδι μαντέματος λέξεων."
 }

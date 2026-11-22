@@ -475,5 +475,7 @@
   "exercise:series:source": "Project Euler Problem 8의 일부",
   "exercise:rail-fence-cipher:name": "레일 펜스 암호",
   "exercise:rail-fence-cipher:blurb": "레일 펜스 암호의 인코딩과 디코딩을 구현해요.",
-  "exercise:rail-fence-cipher:source": "Wikipedia"
+  "exercise:rail-fence-cipher:source": "Wikipedia",
+  "exercise:save-the-cow:name": "소를 구해요",
+  "exercise:save-the-cow:blurb": "단어 맞히기 게임을 구현해요."
 }

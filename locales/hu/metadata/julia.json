@@ -475,5 +475,7 @@
   "exercise:series:source": "A Project Euler 8. feladatának egy részhalmaza",
   "exercise:rail-fence-cipher:name": "Sínkerítés-rejtjel",
   "exercise:rail-fence-cipher:blurb": "Valósítsd meg a rail fence rejtjel kódolását és dekódolását.",
-  "exercise:rail-fence-cipher:source": "Wikipedia"
+  "exercise:rail-fence-cipher:source": "Wikipedia",
+  "exercise:save-the-cow:name": "Mentsd meg a tehenet",
+  "exercise:save-the-cow:blurb": "Valósíts meg egy szókitaláló játékot."
 }

@@ -398,6 +398,11 @@ This page is generated from [the index](../../json/uk/julia.json) by `scripts/bu
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/satellite/.docs/instructions.md)): [Latest](../../../locales/uk/content/fb/bf/14f439558fa6451f8ebfac7253e0c9e12189.md)
 - `hints.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/satellite/.docs/hints.md)): [Latest](../../../locales/uk/content/ee/39/ab1c3bb2508a495956aa39a11f83b22a984b.md)
 
+### Save the Cow (Врятуйте корову)
+
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/save-the-cow/.docs/instructions.md)): [Latest](../../../locales/uk/content/1e/c9/8a43a4245d184d048235e6b2792b0fcf8d59.md)
+- `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/save-the-cow/.docs/introduction.md)): [Latest](../../../locales/uk/content/c8/7a/7fa92873b675ba6dd90749e1af7958b0d4bf.md)
+
 ### Scrabble Score (Рахунок у Scrabble)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/scrabble-score/.docs/instructions.md)): [Latest](../../../locales/uk/content/73/8f/928c5b64a1453fe44d29b22efbf90479500b.md)

@@ -475,5 +475,7 @@
   "exercise:series:source": "Project Euler पर Problem 8 का एक उपसमूह",
   "exercise:rail-fence-cipher:name": "रेल फेंस सिफर",
   "exercise:rail-fence-cipher:blurb": "रेल फेंस सिफर के लिए एन्कोडिंग और डिकोडिंग बनाइए।",
-  "exercise:rail-fence-cipher:source": "Wikipedia"
+  "exercise:rail-fence-cipher:source": "Wikipedia",
+  "exercise:save-the-cow:name": "गाय को बचाइए",
+  "exercise:save-the-cow:blurb": "शब्द का अनुमान लगाने वाला खेल बनाइए।"
 }

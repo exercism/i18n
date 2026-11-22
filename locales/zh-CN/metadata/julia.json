@@ -475,5 +475,7 @@
   "exercise:series:source": "Project Euler 第 8 题的一个子集",
   "exercise:rail-fence-cipher:name": "栅栏密码",
   "exercise:rail-fence-cipher:blurb": "实现栅栏密码的编码和解码。",
-  "exercise:rail-fence-cipher:source": "Wikipedia"
+  "exercise:rail-fence-cipher:source": "Wikipedia",
+  "exercise:save-the-cow:name": "拯救奶牛",
+  "exercise:save-the-cow:blurb": "实现一个猜词游戏。"
 }

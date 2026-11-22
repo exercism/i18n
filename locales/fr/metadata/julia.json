@@ -475,5 +475,7 @@
   "exercise:series:source": "Un sous-ensemble du problème 8 de Project Euler",
   "exercise:rail-fence-cipher:name": "Chiffre des rails",
   "exercise:rail-fence-cipher:blurb": "Implémente l'encodage et le décodage du chiffre des rails.",
-  "exercise:rail-fence-cipher:source": "Wikipedia"
+  "exercise:rail-fence-cipher:source": "Wikipedia",
+  "exercise:save-the-cow:name": "Sauve la vache",
+  "exercise:save-the-cow:blurb": "Implémenter un jeu de devinettes de mots."
 }

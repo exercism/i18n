@@ -475,5 +475,7 @@
   "exercise:series:source": "زیرمجموعه‌ای از مسئله‌ی ۸ در Project Euler",
   "exercise:rail-fence-cipher:name": "رمز حصار ریلی",
   "exercise:rail-fence-cipher:blurb": "رمزگذاری و رمزگشایی رمز حصار ریلی را پیاده‌سازی کنید.",
-  "exercise:rail-fence-cipher:source": "Wikipedia"
+  "exercise:rail-fence-cipher:source": "Wikipedia",
+  "exercise:save-the-cow:name": "گاو را نجات دهید",
+  "exercise:save-the-cow:blurb": "یک بازی حدس کلمه پیاده‌سازی کنید."
 }

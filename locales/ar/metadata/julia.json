@@ -475,5 +475,7 @@
   "exercise:series:source": "مجموعة فرعية من المسألة 8 في Project Euler",
   "exercise:rail-fence-cipher:name": "شيفرة السياج",
   "exercise:rail-fence-cipher:blurb": "نفّذ الترميز وفك الترميز لشيفرة السياج.",
-  "exercise:rail-fence-cipher:source": "ويكيبيديا"
+  "exercise:rail-fence-cipher:source": "ويكيبيديا",
+  "exercise:save-the-cow:name": "أنقذ البقرة",
+  "exercise:save-the-cow:blurb": "نفّذ لعبة تخمين الكلمات."
 }

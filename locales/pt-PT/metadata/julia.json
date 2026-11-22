@@ -475,5 +475,7 @@
   "exercise:series:source": "Um subconjunto do Problema 8 do Project Euler",
   "exercise:rail-fence-cipher:name": "Cifra de cerca",
   "exercise:rail-fence-cipher:blurb": "Implementa a codificação e a descodificação da cifra de cerca.",
-  "exercise:rail-fence-cipher:source": "Wikipedia"
+  "exercise:rail-fence-cipher:source": "Wikipedia",
+  "exercise:save-the-cow:name": "Salva a vaca",
+  "exercise:save-the-cow:blurb": "Implementa um jogo de adivinhação de palavras."
 }

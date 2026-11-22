@@ -475,5 +475,7 @@
   "exercise:series:source": "Eine Teilmenge von Problem 8 bei Project Euler",
   "exercise:rail-fence-cipher:name": "Zickzack-Chiffre",
   "exercise:rail-fence-cipher:blurb": "Implementiere das Kodieren und Dekodieren für die Zickzack-Chiffre.",
-  "exercise:rail-fence-cipher:source": "Wikipedia"
+  "exercise:rail-fence-cipher:source": "Wikipedia",
+  "exercise:save-the-cow:name": "Rette die Kuh",
+  "exercise:save-the-cow:blurb": "Implementiere ein Wortratespiel."
 }

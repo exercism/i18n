@@ -475,5 +475,7 @@
   "exercise:series:source": "Підмножина задачі 8 з Project Euler",
   "exercise:rail-fence-cipher:name": "Шифр паркану",
   "exercise:rail-fence-cipher:blurb": "Реалізувати кодування та декодування для шифру паркану.",
-  "exercise:rail-fence-cipher:source": "Wikipedia"
+  "exercise:rail-fence-cipher:source": "Wikipedia",
+  "exercise:save-the-cow:name": "Врятуйте корову",
+  "exercise:save-the-cow:blurb": "Реалізуйте гру з угадування слів."
 }

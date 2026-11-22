@@ -475,5 +475,7 @@
   "exercise:series:source": "Un subconjunto del Problema 8 de Project Euler",
   "exercise:rail-fence-cipher:name": "Cifrado de valla",
   "exercise:rail-fence-cipher:blurb": "Implementa la codificación y la decodificación del cifrado de valla.",
-  "exercise:rail-fence-cipher:source": "Wikipedia"
+  "exercise:rail-fence-cipher:source": "Wikipedia",
+  "exercise:save-the-cow:name": "Salva a la vaca",
+  "exercise:save-the-cow:blurb": "Implementa un juego de adivinanza de palabras."
 }

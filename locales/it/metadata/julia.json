@@ -475,5 +475,7 @@
   "exercise:series:source": "Un sottoinsieme del Problema 8 di Project Euler",
   "exercise:rail-fence-cipher:name": "Cifrario a recinzione",
   "exercise:rail-fence-cipher:blurb": "Implementa la codifica e la decodifica del cifrario a recinzione.",
-  "exercise:rail-fence-cipher:source": "Wikipedia"
+  "exercise:rail-fence-cipher:source": "Wikipedia",
+  "exercise:save-the-cow:name": "Salva la mucca",
+  "exercise:save-the-cow:blurb": "Implementa un gioco di indovinelli di parole."
 }
