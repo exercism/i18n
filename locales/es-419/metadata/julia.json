@@ -472,5 +472,8 @@
   "exercise:zebra-puzzle:source": "Wikipedia",
   "exercise:series:name": "Series",
   "exercise:series:blurb": "Dado un string de dígitos, devuelve todas las subcadenas contiguas de longitud `n` en ese string.",
-  "exercise:series:source": "Un subconjunto del Problema 8 de Project Euler"
+  "exercise:series:source": "Un subconjunto del Problema 8 de Project Euler",
+  "exercise:rail-fence-cipher:name": "Cifrado de valla",
+  "exercise:rail-fence-cipher:blurb": "Implementa la codificación y la decodificación del cifrado de valla.",
+  "exercise:rail-fence-cipher:source": "Wikipedia"
 }

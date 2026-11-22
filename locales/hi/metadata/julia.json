@@ -472,5 +472,8 @@
   "exercise:zebra-puzzle:source": "Wikipedia",
   "exercise:series:name": "श्रेणी",
   "exercise:series:blurb": "अंकों की एक स्ट्रिंग दी गई है; उसमें लंबाई `n` वाले सभी क्रमागत सबस्ट्रिंग आउटपुट कीजिए।",
-  "exercise:series:source": "Project Euler पर Problem 8 का एक उपसमूह"
+  "exercise:series:source": "Project Euler पर Problem 8 का एक उपसमूह",
+  "exercise:rail-fence-cipher:name": "रेल फेंस सिफर",
+  "exercise:rail-fence-cipher:blurb": "रेल फेंस सिफर के लिए एन्कोडिंग और डिकोडिंग बनाइए।",
+  "exercise:rail-fence-cipher:source": "Wikipedia"
 }

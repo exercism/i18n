@@ -472,5 +472,8 @@
   "exercise:zebra-puzzle:source": "Wikipedia",
   "exercise:series:name": "সিরিজ",
   "exercise:series:blurb": "সংখ্যার একটি স্ট্রিং দেওয়া থাকলে সেই স্ট্রিংয়ের ভেতরে `n` দৈর্ঘ্যের সব সংলগ্ন সাবস্ট্রিং আউটপুট দিন।",
-  "exercise:series:source": "Project Euler-এর Problem 8-এর একটি উপসেট।"
+  "exercise:series:source": "Project Euler-এর Problem 8-এর একটি উপসেট।",
+  "exercise:rail-fence-cipher:name": "রেল ফেন্স সাইফার",
+  "exercise:rail-fence-cipher:blurb": "রেল ফেন্স সাইফারের জন্য এনকোডিং ও ডিকোডিং বাস্তবায়ন করুন।",
+  "exercise:rail-fence-cipher:source": "Wikipedia"
 }

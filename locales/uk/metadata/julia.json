@@ -472,5 +472,8 @@
   "exercise:zebra-puzzle:source": "Wikipedia",
   "exercise:series:name": "Послідовність",
   "exercise:series:blurb": "Дано рядок тексту (англ. string) з цифр, виведіть усі суміжні підрядки довжиною `n` у ньому.",
-  "exercise:series:source": "Підмножина задачі 8 з Project Euler"
+  "exercise:series:source": "Підмножина задачі 8 з Project Euler",
+  "exercise:rail-fence-cipher:name": "Шифр паркану",
+  "exercise:rail-fence-cipher:blurb": "Реалізувати кодування та декодування для шифру паркану.",
+  "exercise:rail-fence-cipher:source": "Wikipedia"
 }

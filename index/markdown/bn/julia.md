@@ -321,6 +321,10 @@ This page is generated from [the index](../../json/bn/julia.json) by `scripts/bu
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/queen-attack/.docs/instructions.md)): [Latest](../../../locales/bn/content/97/f2/2a0aee13f74801df153121aeb04104f68dbd.md)
 
+### Rail Fence Cipher (রেল ফেন্স সাইফার)
+
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/rail-fence-cipher/.docs/instructions.md)): [Latest](../../../locales/bn/content/e3/11/de6cdfa562915e4d4090f3986732a6a6c76f.md)
+
 ### Raindrops (বৃষ্টির ফোঁটা)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/raindrops/.docs/instructions.md)): [Latest](../../../locales/bn/content/df/64/41075165afbe92ecc878d674f6861777972d.md)

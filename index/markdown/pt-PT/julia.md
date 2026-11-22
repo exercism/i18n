@@ -321,6 +321,10 @@ This page is generated from [the index](../../json/pt-PT/julia.json) by `scripts
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/queen-attack/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/97/f2/2a0aee13f74801df153121aeb04104f68dbd.md)
 
+### Rail Fence Cipher (Cifra de cerca)
+
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/rail-fence-cipher/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/e3/11/de6cdfa562915e4d4090f3986732a6a6c76f.md)
+
 ### Raindrops (Gotas de chuva)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/raindrops/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/df/64/41075165afbe92ecc878d674f6861777972d.md)

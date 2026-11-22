@@ -472,5 +472,8 @@
   "exercise:zebra-puzzle:source": "Wikipedia",
   "exercise:series:name": "数列",
   "exercise:series:blurb": "给定一个由数字组成的字符串，输出其中所有长度为`n`的连续子串。",
-  "exercise:series:source": "Project Euler 第 8 题的一个子集"
+  "exercise:series:source": "Project Euler 第 8 题的一个子集",
+  "exercise:rail-fence-cipher:name": "栅栏密码",
+  "exercise:rail-fence-cipher:blurb": "实现栅栏密码的编码和解码。",
+  "exercise:rail-fence-cipher:source": "Wikipedia"
 }

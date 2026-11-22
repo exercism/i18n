@@ -472,5 +472,8 @@
   "exercise:zebra-puzzle:source": "Wikipedia",
   "exercise:series:name": "دنباله",
   "exercise:series:blurb": "اگر رشته‌ای از رقم‌ها داده شود، همه‌ی زیررشته‌های به‌هم‌پیوسته با طول `n` را در آن رشته خروجی بدهید.",
-  "exercise:series:source": "زیرمجموعه‌ای از مسئله‌ی ۸ در Project Euler"
+  "exercise:series:source": "زیرمجموعه‌ای از مسئله‌ی ۸ در Project Euler",
+  "exercise:rail-fence-cipher:name": "رمز حصار ریلی",
+  "exercise:rail-fence-cipher:blurb": "رمزگذاری و رمزگشایی رمز حصار ریلی را پیاده‌سازی کنید.",
+  "exercise:rail-fence-cipher:source": "Wikipedia"
 }

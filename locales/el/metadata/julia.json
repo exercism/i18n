@@ -472,5 +472,8 @@
   "exercise:zebra-puzzle:source": "Wikipedia",
   "exercise:series:name": "Σειρές",
   "exercise:series:blurb": "Με δεδομένη μια συμβολοσειρά ψηφίων, δώσε όλες τις συνεχόμενες υποσυμβολοσειρές μήκους `n` μέσα σε αυτή τη συμβολοσειρά.",
-  "exercise:series:source": "Ένα υποσύνολο του Προβλήματος 8 στο Project Euler"
+  "exercise:series:source": "Ένα υποσύνολο του Προβλήματος 8 στο Project Euler",
+  "exercise:rail-fence-cipher:name": "Κρυπτογράφημα Rail Fence",
+  "exercise:rail-fence-cipher:blurb": "Υλοποίησε την κωδικοποίηση και την αποκωδικοποίηση για το κρυπτογράφημα Rail Fence.",
+  "exercise:rail-fence-cipher:source": "Wikipedia"
 }

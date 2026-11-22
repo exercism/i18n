@@ -472,5 +472,8 @@
   "exercise:zebra-puzzle:source": "Wikipedia",
   "exercise:series:name": "Séries",
   "exercise:series:blurb": "À partir d'une _string_ de chiffres, renvoie toutes les sous-chaînes contiguës de longueur `n` qu'elle contient.",
-  "exercise:series:source": "Un sous-ensemble du problème 8 de Project Euler"
+  "exercise:series:source": "Un sous-ensemble du problème 8 de Project Euler",
+  "exercise:rail-fence-cipher:name": "Chiffre des rails",
+  "exercise:rail-fence-cipher:blurb": "Implémente l'encodage et le décodage du chiffre des rails.",
+  "exercise:rail-fence-cipher:source": "Wikipedia"
 }

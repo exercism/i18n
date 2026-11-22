@@ -472,5 +472,8 @@
   "exercise:zebra-puzzle:source": "Wikipedia",
   "exercise:series:name": "連続部分文字列",
   "exercise:series:blurb": "数字の文字列が与えられたとき、その文字列にある長さ`n`の連続した部分文字列をすべて出力します。",
-  "exercise:series:source": "Project EulerのProblem 8の一部"
+  "exercise:series:source": "Project EulerのProblem 8の一部",
+  "exercise:rail-fence-cipher:name": "レールフェンス暗号",
+  "exercise:rail-fence-cipher:blurb": "レールフェンス暗号のエンコードとデコードを実装します。",
+  "exercise:rail-fence-cipher:source": "Wikipedia"
 }

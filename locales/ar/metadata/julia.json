@@ -472,5 +472,8 @@
   "exercise:zebra-puzzle:source": "ويكيبيديا",
   "exercise:series:name": "المتسلسلة",
   "exercise:series:blurb": "بمعلومية سلسلة نصية من الأرقام، أخرج جميع السلاسل النصية الفرعية المتلاصقة ذات الطول `n` في تلك السلسلة النصية.",
-  "exercise:series:source": "مجموعة فرعية من المسألة 8 في Project Euler"
+  "exercise:series:source": "مجموعة فرعية من المسألة 8 في Project Euler",
+  "exercise:rail-fence-cipher:name": "شيفرة السياج",
+  "exercise:rail-fence-cipher:blurb": "نفّذ الترميز وفك الترميز لشيفرة السياج.",
+  "exercise:rail-fence-cipher:source": "ويكيبيديا"
 }
