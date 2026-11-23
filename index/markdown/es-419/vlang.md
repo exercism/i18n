@@ -503,7 +503,8 @@ This page is generated from [the index](../../json/es-419/vlang.json) by `script
 
 ### Two Bucket (Dos baldes)
 
-- `instructions.md` ([English](https://github.com/exercism/vlang/blob/main/exercises/practice/two-bucket/.docs/instructions.md)): [Latest](../../../locales/es-419/content/30/d7/79aa9225cde761d6e21a3b8cae231d24e087.md)
+- `instructions.md` ([English](https://github.com/exercism/vlang/blob/main/exercises/practice/two-bucket/.docs/instructions.md)): [Latest](../../../locales/es-419/content/9e/9a/eefb4a0299193106852a0ee9370f1e506403.md)
+  - [`30d779aa92`](../../../locales/es-419/content/30/d7/79aa9225cde761d6e21a3b8cae231d24e087.md)
 
 ### Two-Fer
 
