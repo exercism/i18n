@@ -80,8 +80,8 @@ This page is generated from [the index](../../json/ko/problem-specifications.jso
 
 ### Book Store (서점)
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/book-store/description.md)): [Latest](../../../locales/ko/content/30/c3/f056879d815af202362909a1ef676b9df62c.md)
-  - [`54403f17bf`](../../../locales/ko/content/54/40/3f17bf5c35e9b5d6c20503e87e02c232e1a7.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/book-store/description.md)): [Latest](../../../locales/ko/content/54/40/3f17bf5c35e9b5d6c20503e87e02c232e1a7.md)
+  - [`30c3f05687`](../../../locales/ko/content/30/c3/f056879d815af202362909a1ef676b9df62c.md)
 
 ### Bottle Song (병 노래)
 
@@ -112,8 +112,8 @@ This page is generated from [the index](../../json/ko/problem-specifications.jso
 ### Collatz Conjecture (콜라츠 추측)
 
 - `instructions.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/collatz-conjecture/instructions.md)): [Latest](../../../locales/ko/content/af/33/2a810f0f31aa1233e92bea57721d3025f4e0.md)
-- `introduction.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/collatz-conjecture/introduction.md)): [Latest](../../../locales/ko/content/40/09/942af059319797763f5424d4cfb08e5aa5f3.md)
-  - [`c35bdeb67d`](../../../locales/ko/content/c3/5b/deb67dceef4bf9769dbbf473e841cdd068f2.md)
+- `introduction.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/collatz-conjecture/introduction.md)): [Latest](../../../locales/ko/content/c3/5b/deb67dceef4bf9769dbbf473e841cdd068f2.md)
+  - [`4009942af0`](../../../locales/ko/content/40/09/942af059319797763f5424d4cfb08e5aa5f3.md)
 
 ### Complex Numbers (복소수)
 
@@ -142,8 +142,8 @@ This page is generated from [the index](../../json/ko/problem-specifications.jso
 
 ### D&D Character (D&D 캐릭터)
 
-- `instructions.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/dnd-character/instructions.md)): [Latest](../../../locales/ko/content/0f/8e/8394b1c82e21d79ba218068e4092c8a496d2.md)
-  - [`e14e7949d6`](../../../locales/ko/content/e1/4e/7949d60df15f34f13fb04f45f77d59eaf9f7.md)
+- `instructions.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/dnd-character/instructions.md)): [Latest](../../../locales/ko/content/e1/4e/7949d60df15f34f13fb04f45f77d59eaf9f7.md)
+  - [`0f8e8394b1`](../../../locales/ko/content/0f/8e/8394b1c82e21d79ba218068e4092c8a496d2.md)
 - `introduction.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/dnd-character/introduction.md)): [Latest](../../../locales/ko/content/53/01/f61829de5444f758a53845f0c366a00aacdc.md)
 
 ### Darts (다트)
@@ -169,8 +169,8 @@ This page is generated from [the index](../../json/ko/problem-specifications.jso
 
 ### DOT DSL
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/dot-dsl/description.md)): [Latest](../../../locales/ko/content/23/6b/a6d103dede4c17bf3573e43a3f46936be179.md)
-  - [`5e65ebef94`](../../../locales/ko/content/5e/65/ebef9436c86ec75a54714ffddc6da381c8ac.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/dot-dsl/description.md)): [Latest](../../../locales/ko/content/5e/65/ebef9436c86ec75a54714ffddc6da381c8ac.md)
+  - [`236ba6d103`](../../../locales/ko/content/23/6b/a6d103dede4c17bf3573e43a3f46936be179.md)
 
 ### Eliud's Eggs (Eliud의 달걀)
 
@@ -254,8 +254,8 @@ This page is generated from [the index](../../json/ko/problem-specifications.jso
 
 ### Intergalactic Transmission (은하 간 전송)
 
-- `instructions.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/intergalactic-transmission/instructions.md)): [Latest](../../../locales/ko/content/45/86/36c6bc24500b6db784ccfd143799a0a3c7af.md)
-  - [`5497088176`](../../../locales/ko/content/54/97/088176af7a635f7378966725130623109749.md)
+- `instructions.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/intergalactic-transmission/instructions.md)): [Latest](../../../locales/ko/content/54/97/088176af7a635f7378966725130623109749.md)
+  - [`458636c6bc`](../../../locales/ko/content/45/86/36c6bc24500b6db784ccfd143799a0a3c7af.md)
 - `introduction.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/intergalactic-transmission/introduction.md)): [Latest](../../../locales/ko/content/f1/9d/ffbead7bcf8578a86e3311749fead73f9a93.md)
 
 ### ISBN Verifier (ISBN 검증기)
@@ -268,8 +268,8 @@ This page is generated from [the index](../../json/ko/problem-specifications.jso
 
 ### Killer Sudoku Helper (킬러 스도쿠 도우미)
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/killer-sudoku-helper/description.md)): [Latest](../../../locales/ko/content/2a/2f/c5055018ea07784e54c0e0d04ca0d084c4fa.md)
-  - [`4153c3e9e1`](../../../locales/ko/content/41/53/c3e9e1cbc213191557d177cc695e9231aadd.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/killer-sudoku-helper/description.md)): [Latest](../../../locales/ko/content/41/53/c3e9e1cbc213191557d177cc695e9231aadd.md)
+  - [`2a2fc50550`](../../../locales/ko/content/2a/2f/c5055018ea07784e54c0e0d04ca0d084c4fa.md)
 
 ### Kindergarten Garden (유치원 정원)
 
@@ -311,8 +311,8 @@ This page is generated from [the index](../../json/ko/problem-specifications.jso
 
 ### List Ops (배열 연산)
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/list-ops/description.md)): [Latest](../../../locales/ko/content/f5/02/2032b6935cf6d8b897da723f67d379784338.md)
-  - [`ebc5dffed0`](../../../locales/ko/content/eb/c5/dffed02ecca9b62a12fd9c7327b58dd49bba.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/list-ops/description.md)): [Latest](../../../locales/ko/content/eb/c5/dffed02ecca9b62a12fd9c7327b58dd49bba.md)
+  - [`f5022032b6`](../../../locales/ko/content/f5/02/2032b6935cf6d8b897da723f67d379784338.md)
 
 ### Luhn
 
@@ -360,8 +360,8 @@ This page is generated from [the index](../../json/ko/problem-specifications.jso
 
 ### OCR Numbers (OCR 숫자)
 
-- `instructions.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/ocr-numbers/instructions.md)): [Latest](../../../locales/ko/content/ea/40/a4ecd36432db63c2a9769d44ad1763d21819.md)
-  - [`8a391ce4f6`](../../../locales/ko/content/8a/39/1ce4f6e1c32cd61c2140ed3e0e2e24299efd.md)
+- `instructions.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/ocr-numbers/instructions.md)): [Latest](../../../locales/ko/content/8a/39/1ce4f6e1c32cd61c2140ed3e0e2e24299efd.md)
+  - [`ea40a4ecd3`](../../../locales/ko/content/ea/40/a4ecd36432db63c2a9769d44ad1763d21819.md)
 - `introduction.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/ocr-numbers/introduction.md)): [Latest](../../../locales/ko/content/36/6d/76062c7f4620198bfa95f32a8341b17493c4.md)
 
 ### Octal (8진수)
@@ -388,8 +388,8 @@ This page is generated from [the index](../../json/ko/problem-specifications.jso
 ### Pascal's Triangle (파스칼의 삼각형)
 
 - `instructions.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/pascals-triangle/instructions.md)): [Latest](../../../locales/ko/content/0f/58/f0069688bc7dfd1a2705cc4382f27a0609dd.md)
-- `introduction.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/pascals-triangle/introduction.md)): [Latest](../../../locales/ko/content/c2/bc/6f5d2113231f444250958019fc51738615de.md)
-  - [`eab454e5a6`](../../../locales/ko/content/ea/b4/54e5a6995c899f852bcd23d9af558ca9e7bd.md)
+- `introduction.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/pascals-triangle/introduction.md)): [Latest](../../../locales/ko/content/ea/b4/54e5a6995c899f852bcd23d9af558ca9e7bd.md)
+  - [`c2bc6f5d21`](../../../locales/ko/content/c2/bc/6f5d2113231f444250958019fc51738615de.md)
 
 ### Perfect Numbers (완전수)
 
@@ -407,8 +407,8 @@ This page is generated from [the index](../../json/ko/problem-specifications.jso
 
 ### Pig Latin
 
-- `instructions.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/pig-latin/instructions.md)): [Latest](../../../locales/ko/content/4e/e6/0a75d160a2d244d1169214a026d1728b6070.md)
-  - [`a9645ac236`](../../../locales/ko/content/a9/64/5ac236fe312760f0c7f6a3e5c8137114c92f.md)
+- `instructions.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/pig-latin/instructions.md)): [Latest](../../../locales/ko/content/a9/64/5ac236fe312760f0c7f6a3e5c8137114c92f.md)
+  - [`4ee60a75d1`](../../../locales/ko/content/4e/e6/0a75d160a2d244d1169214a026d1728b6070.md)
 - `introduction.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/pig-latin/introduction.md)): [Latest](../../../locales/ko/content/04/ba/a47586f616a397cd8973490a67937af067cd.md)
 
 ### Point Mutations (점 돌연변이)
@@ -460,8 +460,8 @@ This page is generated from [the index](../../json/ko/problem-specifications.jso
 
 ### Rational Numbers (유리수)
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/rational-numbers/description.md)): [Latest](../../../locales/ko/content/35/ed/bd0bd8a7031007e7a0f0cc85256af9db6824.md)
-  - [`f64fc0f28e`](../../../locales/ko/content/f6/4f/c0f28e5f84c9e991e52b275f5eef1ff7ea86.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/rational-numbers/description.md)): [Latest](../../../locales/ko/content/f6/4f/c0f28e5f84c9e991e52b275f5eef1ff7ea86.md)
+  - [`35edbd0bd8`](../../../locales/ko/content/35/ed/bd0bd8a7031007e7a0f0cc85256af9db6824.md)
 
 ### React
 
@@ -491,13 +491,13 @@ This page is generated from [the index](../../json/ko/problem-specifications.jso
 
 ### Resistor Color Trio (저항 색상 트리오)
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/resistor-color-trio/description.md)): [Latest](../../../locales/ko/content/8e/f1/1628e00a8553579594981d7c31900f8c1835.md)
-  - [`1ac5cf5e9f`](../../../locales/ko/content/1a/c5/cf5e9fe0b7e589bf6cba0c31c2c8a0e98d7e.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/resistor-color-trio/description.md)): [Latest](../../../locales/ko/content/1a/c5/cf5e9fe0b7e589bf6cba0c31c2c8a0e98d7e.md)
+  - [`8ef11628e0`](../../../locales/ko/content/8e/f1/1628e00a8553579594981d7c31900f8c1835.md)
 
 ### REST API
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/rest-api/description.md)): [Latest](../../../locales/ko/content/6c/c5/c91ee67091420872d1c3cd4137337f8e5679.md)
-  - [`e889b1bf20`](../../../locales/ko/content/e8/89/b1bf20762398566d9811888616e8ee03cb54.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/rest-api/description.md)): [Latest](../../../locales/ko/content/e8/89/b1bf20762398566d9811888616e8ee03cb54.md)
+  - [`6cc5c91ee6`](../../../locales/ko/content/6c/c5/c91ee67091420872d1c3cd4137337f8e5679.md)
 
 ### Reverse String (문자열 뒤집기)
 
@@ -537,8 +537,8 @@ This page is generated from [the index](../../json/ko/problem-specifications.jso
 
 ### Satellite (위성)
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/satellite/description.md)): [Latest](../../../locales/ko/content/99/ba/aed0ecdac2a4d4af2803b65a3e9cb86f2ba3.md)
-  - [`fbbf14f439`](../../../locales/ko/content/fb/bf/14f439558fa6451f8ebfac7253e0c9e12189.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/satellite/description.md)): [Latest](../../../locales/ko/content/fb/bf/14f439558fa6451f8ebfac7253e0c9e12189.md)
+  - [`99baaed0ec`](../../../locales/ko/content/99/ba/aed0ecdac2a4d4af2803b65a3e9cb86f2ba3.md)
 
 ### Save the Cow (소를 구해요)
 
@@ -574,14 +574,14 @@ This page is generated from [the index](../../json/ko/problem-specifications.jso
 
 ### Sieve (체)
 
-- `instructions.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/sieve/instructions.md)): [Latest](../../../locales/ko/content/4b/0f/47d4fafff7a8d2cde09247ad4fced7d73121.md)
-  - [`71292e1782`](../../../locales/ko/content/71/29/2e1782dc95e0430ae2b614e1d740dd41639f.md)
+- `instructions.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/sieve/instructions.md)): [Latest](../../../locales/ko/content/71/29/2e1782dc95e0430ae2b614e1d740dd41639f.md)
+  - [`4b0f47d4fa`](../../../locales/ko/content/4b/0f/47d4fafff7a8d2cde09247ad4fced7d73121.md)
 - `introduction.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/sieve/introduction.md)): [Latest](../../../locales/ko/content/f6/c1/cf79a9d4ccf67f1ed34dabb8ab0a58030358.md)
 
 ### Simple Cipher (간단한 암호)
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/simple-cipher/description.md)): [Latest](../../../locales/ko/content/46/0f/8761e98be9192e40453fc8733228d400b5da.md)
-  - [`afd0b57da9`](../../../locales/ko/content/af/d0/b57da930f59595d830df56eb0c9e891e83f4.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/simple-cipher/description.md)): [Latest](../../../locales/ko/content/af/d0/b57da930f59595d830df56eb0c9e891e83f4.md)
+  - [`460f8761e9`](../../../locales/ko/content/46/0f/8761e98be9192e40453fc8733228d400b5da.md)
 
 ### Simple Linked List (간단한 연결 리스트)
 
@@ -610,8 +610,8 @@ This page is generated from [the index](../../json/ko/problem-specifications.jso
 
 ### State of Tic-Tac-Toe (틱택토의 상태)
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/state-of-tic-tac-toe/description.md)): [Latest](../../../locales/ko/content/37/99/94c5ebfd3f9d2491c9ad4f7ec30e6d86320e.md)
-  - [`1a03ebb6cb`](../../../locales/ko/content/1a/03/ebb6cb4c4468e3c93f90e0a76e4f1812ec55.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/state-of-tic-tac-toe/description.md)): [Latest](../../../locales/ko/content/1a/03/ebb6cb4c4468e3c93f90e0a76e4f1812ec55.md)
+  - [`379994c5eb`](../../../locales/ko/content/37/99/94c5ebfd3f9d2491c9ad4f7ec30e6d86320e.md)
 
 ### Strain (거르기)
 
