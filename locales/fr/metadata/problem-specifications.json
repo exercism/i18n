@@ -396,7 +396,7 @@
   "exercise:phone-number:title": "Numéro de téléphone",
   "exercise:phone-number:blurb": "Nettoie les numéros de téléphone saisis par l'utilisateur afin de pouvoir leur envoyer des SMS.",
   "exercise:piecing-it-together:title": "Assemble les pièces",
-  "exercise:piecing-it-together:blurb": "Complète les détails manquants d'un puzzle à partir de données partielles",
+  "exercise:piecing-it-together:blurb": "Complète les détails manquants d'un puzzle à partir de données partielles.",
   "exercise:piecing-it-together:source": "atk venait de commencer un nouveau puzzle de 1000 pièces quand cette idée lui est venue",
   "exercise:pig-latin:title": "Pig Latin",
   "exercise:pig-latin:blurb": "Implémente un programme qui traduit de l'anglais vers le Pig Latin.",

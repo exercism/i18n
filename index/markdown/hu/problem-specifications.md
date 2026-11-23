@@ -18,8 +18,8 @@ This page is generated from [the index](../../json/hu/problem-specifications.jso
 
 ### Affine Cipher (Affin-rejtjel)
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/affine-cipher/description.md)): [Latest](../../../locales/hu/content/ea/cf/56dd7948b580ef042a0db6ff9d299a2d76af.md)
-  - [`1603dbbce9`](../../../locales/hu/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/affine-cipher/description.md)): [Latest](../../../locales/hu/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
+  - [`eacf56dd79`](../../../locales/hu/content/ea/cf/56dd7948b580ef042a0db6ff9d299a2d76af.md)
 
 ### All Your Base
 
@@ -84,8 +84,8 @@ This page is generated from [the index](../../json/hu/problem-specifications.jso
 
 ### Book Store (Könyvesbolt)
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/book-store/description.md)): [Latest](../../../locales/hu/content/54/40/3f17bf5c35e9b5d6c20503e87e02c232e1a7.md)
-  - [`30c3f05687`](../../../locales/hu/content/30/c3/f056879d815af202362909a1ef676b9df62c.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/book-store/description.md)): [Latest](../../../locales/hu/content/30/c3/f056879d815af202362909a1ef676b9df62c.md)
+  - [`54403f17bf`](../../../locales/hu/content/54/40/3f17bf5c35e9b5d6c20503e87e02c232e1a7.md)
 
 ### Bottle Song (Üvegdal)
 
@@ -116,8 +116,8 @@ This page is generated from [the index](../../json/hu/problem-specifications.jso
 ### Collatz Conjecture (Collatz-sejtés)
 
 - `instructions.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/collatz-conjecture/instructions.md)): [Latest](../../../locales/hu/content/af/33/2a810f0f31aa1233e92bea57721d3025f4e0.md)
-- `introduction.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/collatz-conjecture/introduction.md)): [Latest](../../../locales/hu/content/c3/5b/deb67dceef4bf9769dbbf473e841cdd068f2.md)
-  - [`4009942af0`](../../../locales/hu/content/40/09/942af059319797763f5424d4cfb08e5aa5f3.md)
+- `introduction.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/collatz-conjecture/introduction.md)): [Latest](../../../locales/hu/content/40/09/942af059319797763f5424d4cfb08e5aa5f3.md)
+  - [`c35bdeb67d`](../../../locales/hu/content/c3/5b/deb67dceef4bf9769dbbf473e841cdd068f2.md)
 
 ### Complex Numbers (Komplex számok)
 
@@ -146,7 +146,8 @@ This page is generated from [the index](../../json/hu/problem-specifications.jso
 
 ### D&D Character (D&D-karakter)
 
-- `instructions.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/dnd-character/instructions.md)): [Latest](../../../locales/hu/content/e1/4e/7949d60df15f34f13fb04f45f77d59eaf9f7.md)
+- `instructions.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/dnd-character/instructions.md)): [Latest](../../../locales/hu/content/05/80/37575ca0f072b9194b11b567a5abeadbd404.md)
+  - [`e14e7949d6`](../../../locales/hu/content/e1/4e/7949d60df15f34f13fb04f45f77d59eaf9f7.md)
   - [`0f8e8394b1`](../../../locales/hu/content/0f/8e/8394b1c82e21d79ba218068e4092c8a496d2.md)
 - `introduction.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/dnd-character/introduction.md)): [Latest](../../../locales/hu/content/53/01/f61829de5444f758a53845f0c366a00aacdc.md)
 
@@ -173,8 +174,8 @@ This page is generated from [the index](../../json/hu/problem-specifications.jso
 
 ### DOT DSL
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/dot-dsl/description.md)): [Latest](../../../locales/hu/content/5e/65/ebef9436c86ec75a54714ffddc6da381c8ac.md)
-  - [`236ba6d103`](../../../locales/hu/content/23/6b/a6d103dede4c17bf3573e43a3f46936be179.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/dot-dsl/description.md)): [Latest](../../../locales/hu/content/23/6b/a6d103dede4c17bf3573e43a3f46936be179.md)
+  - [`5e65ebef94`](../../../locales/hu/content/5e/65/ebef9436c86ec75a54714ffddc6da381c8ac.md)
 
 ### Eliud's Eggs (Eliud tojásai)
 
@@ -259,8 +260,8 @@ This page is generated from [the index](../../json/hu/problem-specifications.jso
 
 ### Intergalactic Transmission (Intergalaktikus átvitel)
 
-- `instructions.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/intergalactic-transmission/instructions.md)): [Latest](../../../locales/hu/content/54/97/088176af7a635f7378966725130623109749.md)
-  - [`458636c6bc`](../../../locales/hu/content/45/86/36c6bc24500b6db784ccfd143799a0a3c7af.md)
+- `instructions.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/intergalactic-transmission/instructions.md)): [Latest](../../../locales/hu/content/45/86/36c6bc24500b6db784ccfd143799a0a3c7af.md)
+  - [`5497088176`](../../../locales/hu/content/54/97/088176af7a635f7378966725130623109749.md)
 - `introduction.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/intergalactic-transmission/introduction.md)): [Latest](../../../locales/hu/content/f1/9d/ffbead7bcf8578a86e3311749fead73f9a93.md)
 
 ### ISBN Verifier (ISBN-ellenőrző)
@@ -273,8 +274,8 @@ This page is generated from [the index](../../json/hu/problem-specifications.jso
 
 ### Killer Sudoku Helper (Killer Sudoku segéd)
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/killer-sudoku-helper/description.md)): [Latest](../../../locales/hu/content/41/53/c3e9e1cbc213191557d177cc695e9231aadd.md)
-  - [`2a2fc50550`](../../../locales/hu/content/2a/2f/c5055018ea07784e54c0e0d04ca0d084c4fa.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/killer-sudoku-helper/description.md)): [Latest](../../../locales/hu/content/2a/2f/c5055018ea07784e54c0e0d04ca0d084c4fa.md)
+  - [`4153c3e9e1`](../../../locales/hu/content/41/53/c3e9e1cbc213191557d177cc695e9231aadd.md)
 
 ### Kindergarten Garden (Óvodakert)
 
@@ -318,8 +319,8 @@ This page is generated from [the index](../../json/hu/problem-specifications.jso
 
 ### List Ops (Listaműveletek)
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/list-ops/description.md)): [Latest](../../../locales/hu/content/eb/c5/dffed02ecca9b62a12fd9c7327b58dd49bba.md)
-  - [`f5022032b6`](../../../locales/hu/content/f5/02/2032b6935cf6d8b897da723f67d379784338.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/list-ops/description.md)): [Latest](../../../locales/hu/content/f5/02/2032b6935cf6d8b897da723f67d379784338.md)
+  - [`ebc5dffed0`](../../../locales/hu/content/eb/c5/dffed02ecca9b62a12fd9c7327b58dd49bba.md)
 
 ### Luhn
 
@@ -371,8 +372,8 @@ This page is generated from [the index](../../json/hu/problem-specifications.jso
 
 ### OCR Numbers (OCR-számok)
 
-- `instructions.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/ocr-numbers/instructions.md)): [Latest](../../../locales/hu/content/8a/39/1ce4f6e1c32cd61c2140ed3e0e2e24299efd.md)
-  - [`ea40a4ecd3`](../../../locales/hu/content/ea/40/a4ecd36432db63c2a9769d44ad1763d21819.md)
+- `instructions.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/ocr-numbers/instructions.md)): [Latest](../../../locales/hu/content/ea/40/a4ecd36432db63c2a9769d44ad1763d21819.md)
+  - [`8a391ce4f6`](../../../locales/hu/content/8a/39/1ce4f6e1c32cd61c2140ed3e0e2e24299efd.md)
   - [`7beb257795`](../../../locales/hu/content/7b/eb/257795750af8a41226dc35558924106c5657.md)
 - `introduction.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/ocr-numbers/introduction.md)): [Latest](../../../locales/hu/content/36/6d/76062c7f4620198bfa95f32a8341b17493c4.md)
 
@@ -401,8 +402,8 @@ This page is generated from [the index](../../json/hu/problem-specifications.jso
 ### Pascal's Triangle (Pascal-háromszög)
 
 - `instructions.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/pascals-triangle/instructions.md)): [Latest](../../../locales/hu/content/0f/58/f0069688bc7dfd1a2705cc4382f27a0609dd.md)
-- `introduction.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/pascals-triangle/introduction.md)): [Latest](../../../locales/hu/content/ea/b4/54e5a6995c899f852bcd23d9af558ca9e7bd.md)
-  - [`c2bc6f5d21`](../../../locales/hu/content/c2/bc/6f5d2113231f444250958019fc51738615de.md)
+- `introduction.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/pascals-triangle/introduction.md)): [Latest](../../../locales/hu/content/c2/bc/6f5d2113231f444250958019fc51738615de.md)
+  - [`eab454e5a6`](../../../locales/hu/content/ea/b4/54e5a6995c899f852bcd23d9af558ca9e7bd.md)
   - [`60b8ec30dc`](../../../locales/hu/content/60/b8/ec30dc8dc60f313c8ec911007aed15c3df45.md)
 
 ### Perfect Numbers (Tökéletes számok)
@@ -423,8 +424,8 @@ This page is generated from [the index](../../json/hu/problem-specifications.jso
 
 ### Pig Latin (Malaclatin)
 
-- `instructions.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/pig-latin/instructions.md)): [Latest](../../../locales/hu/content/a9/64/5ac236fe312760f0c7f6a3e5c8137114c92f.md)
-  - [`4ee60a75d1`](../../../locales/hu/content/4e/e6/0a75d160a2d244d1169214a026d1728b6070.md)
+- `instructions.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/pig-latin/instructions.md)): [Latest](../../../locales/hu/content/4e/e6/0a75d160a2d244d1169214a026d1728b6070.md)
+  - [`a9645ac236`](../../../locales/hu/content/a9/64/5ac236fe312760f0c7f6a3e5c8137114c92f.md)
   - [`6c843080d4`](../../../locales/hu/content/6c/84/3080d445871fafbf2768deef48fbab032142.md)
 - `introduction.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/pig-latin/introduction.md)): [Latest](../../../locales/hu/content/04/ba/a47586f616a397cd8973490a67937af067cd.md)
 
@@ -438,7 +439,8 @@ This page is generated from [the index](../../json/hu/problem-specifications.jso
 
 ### POV (Nézőpont)
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/pov/description.md)): [Latest](../../../locales/hu/content/0f/de/ed2250f9472452d51b3978daa8bdc6523688.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/pov/description.md)): [Latest](../../../locales/hu/content/32/f7/822d7ad99a1429476bdccdc63af95d17f31c.md)
+  - [`0fdeed2250`](../../../locales/hu/content/0f/de/ed2250f9472452d51b3978daa8bdc6523688.md)
 
 ### Prime Factors (Prímtényezők)
 
@@ -477,8 +479,8 @@ This page is generated from [the index](../../json/hu/problem-specifications.jso
 
 ### Rational Numbers (Racionális számok)
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/rational-numbers/description.md)): [Latest](../../../locales/hu/content/f6/4f/c0f28e5f84c9e991e52b275f5eef1ff7ea86.md)
-  - [`35edbd0bd8`](../../../locales/hu/content/35/ed/bd0bd8a7031007e7a0f0cc85256af9db6824.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/rational-numbers/description.md)): [Latest](../../../locales/hu/content/35/ed/bd0bd8a7031007e7a0f0cc85256af9db6824.md)
+  - [`f64fc0f28e`](../../../locales/hu/content/f6/4f/c0f28e5f84c9e991e52b275f5eef1ff7ea86.md)
 
 ### React
 
@@ -509,13 +511,13 @@ This page is generated from [the index](../../json/hu/problem-specifications.jso
 
 ### Resistor Color Trio (Ellenállás színkódja: trió)
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/resistor-color-trio/description.md)): [Latest](../../../locales/hu/content/1a/c5/cf5e9fe0b7e589bf6cba0c31c2c8a0e98d7e.md)
-  - [`8ef11628e0`](../../../locales/hu/content/8e/f1/1628e00a8553579594981d7c31900f8c1835.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/resistor-color-trio/description.md)): [Latest](../../../locales/hu/content/8e/f1/1628e00a8553579594981d7c31900f8c1835.md)
+  - [`1ac5cf5e9f`](../../../locales/hu/content/1a/c5/cf5e9fe0b7e589bf6cba0c31c2c8a0e98d7e.md)
 
 ### REST API
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/rest-api/description.md)): [Latest](../../../locales/hu/content/e8/89/b1bf20762398566d9811888616e8ee03cb54.md)
-  - [`6cc5c91ee6`](../../../locales/hu/content/6c/c5/c91ee67091420872d1c3cd4137337f8e5679.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/rest-api/description.md)): [Latest](../../../locales/hu/content/6c/c5/c91ee67091420872d1c3cd4137337f8e5679.md)
+  - [`e889b1bf20`](../../../locales/hu/content/e8/89/b1bf20762398566d9811888616e8ee03cb54.md)
 
 ### Reverse String (String megfordítása)
 
@@ -538,8 +540,10 @@ This page is generated from [the index](../../json/hu/problem-specifications.jso
 
 ### Roman Numerals (Római számok)
 
-- `instructions.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/roman-numerals/instructions.md)): [Latest](../../../locales/hu/content/50/e2/f5bf1c668a66cff143097642a80dae9597d2.md)
-- `introduction.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/roman-numerals/introduction.md)): [Latest](../../../locales/hu/content/6f/d9/42fef30f76ae037294b8fa382471665ffc2a.md)
+- `instructions.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/roman-numerals/instructions.md)): [Latest](../../../locales/hu/content/fe/28/f4d99ace840334fb8e1b022ffea2c36fe770.md)
+  - [`50e2f5bf1c`](../../../locales/hu/content/50/e2/f5bf1c668a66cff143097642a80dae9597d2.md)
+- `introduction.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/roman-numerals/introduction.md)): [Latest](../../../locales/hu/content/06/f4/84fe38a75497e4a5c12fc9e3eb153e5fa47e.md)
+  - [`6fd942fef3`](../../../locales/hu/content/6f/d9/42fef30f76ae037294b8fa382471665ffc2a.md)
 
 ### Rotational Cipher (Rotációs rejtjel)
 
@@ -559,8 +563,8 @@ This page is generated from [the index](../../json/hu/problem-specifications.jso
 
 ### Satellite (Műhold)
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/satellite/description.md)): [Latest](../../../locales/hu/content/fb/bf/14f439558fa6451f8ebfac7253e0c9e12189.md)
-  - [`99baaed0ec`](../../../locales/hu/content/99/ba/aed0ecdac2a4d4af2803b65a3e9cb86f2ba3.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/satellite/description.md)): [Latest](../../../locales/hu/content/99/ba/aed0ecdac2a4d4af2803b65a3e9cb86f2ba3.md)
+  - [`fbbf14f439`](../../../locales/hu/content/fb/bf/14f439558fa6451f8ebfac7253e0c9e12189.md)
 
 ### Save the Cow (Mentsd meg a tehenet)
 
@@ -597,15 +601,15 @@ This page is generated from [the index](../../json/hu/problem-specifications.jso
 
 ### Sieve (Szita)
 
-- `instructions.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/sieve/instructions.md)): [Latest](../../../locales/hu/content/71/29/2e1782dc95e0430ae2b614e1d740dd41639f.md)
-  - [`4b0f47d4fa`](../../../locales/hu/content/4b/0f/47d4fafff7a8d2cde09247ad4fced7d73121.md)
+- `instructions.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/sieve/instructions.md)): [Latest](../../../locales/hu/content/4b/0f/47d4fafff7a8d2cde09247ad4fced7d73121.md)
+  - [`71292e1782`](../../../locales/hu/content/71/29/2e1782dc95e0430ae2b614e1d740dd41639f.md)
   - [`085c0a57d9`](../../../locales/hu/content/08/5c/0a57d96c7cd846a7948241899ce46778f01d.md)
 - `introduction.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/sieve/introduction.md)): [Latest](../../../locales/hu/content/f6/c1/cf79a9d4ccf67f1ed34dabb8ab0a58030358.md)
 
 ### Simple Cipher (Egyszerű rejtjel)
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/simple-cipher/description.md)): [Latest](../../../locales/hu/content/af/d0/b57da930f59595d830df56eb0c9e891e83f4.md)
-  - [`460f8761e9`](../../../locales/hu/content/46/0f/8761e98be9192e40453fc8733228d400b5da.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/simple-cipher/description.md)): [Latest](../../../locales/hu/content/46/0f/8761e98be9192e40453fc8733228d400b5da.md)
+  - [`afd0b57da9`](../../../locales/hu/content/af/d0/b57da930f59595d830df56eb0c9e891e83f4.md)
 
 ### Simple Linked List (Egyszerű láncolt lista)
 
@@ -634,8 +638,8 @@ This page is generated from [the index](../../json/hu/problem-specifications.jso
 
 ### State of Tic-Tac-Toe (Az amőba állása)
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/state-of-tic-tac-toe/description.md)): [Latest](../../../locales/hu/content/1a/03/ebb6cb4c4468e3c93f90e0a76e4f1812ec55.md)
-  - [`379994c5eb`](../../../locales/hu/content/37/99/94c5ebfd3f9d2491c9ad4f7ec30e6d86320e.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/state-of-tic-tac-toe/description.md)): [Latest](../../../locales/hu/content/37/99/94c5ebfd3f9d2491c9ad4f7ec30e6d86320e.md)
+  - [`1a03ebb6cb`](../../../locales/hu/content/1a/03/ebb6cb4c4468e3c93f90e0a76e4f1812ec55.md)
 
 ### Strain (Szűrés)
 
