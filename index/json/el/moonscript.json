@@ -103,7 +103,7 @@
     "exercises/practice/saddle-points": {"el":"Σαγματικά σημεία","en":"Saddle Points"},
     "exercises/practice/satellite": {"el":"Δορυφόρος","en":"Satellite"},
     "exercises/practice/save-the-cow": {"el":"Σώσε την αγελάδα","en":"Save the Cow"},
-    "exercises/practice/say": {"el":"Πες (Παρωχημένη)","en":"Say (Deprecated)"},
+    "exercises/practice/say": {"el":"Πες","en":"Say"},
     "exercises/practice/say-numbers": {"el":"Πες","en":"Say"},
     "exercises/practice/scrabble-score": {"el":"Βαθμολογία στο Scrabble","en":"Scrabble Score"},
     "exercises/practice/secret-handshake": {"el":"Μυστική χειραψία","en":"Secret Handshake"},

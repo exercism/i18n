@@ -103,7 +103,7 @@
     "exercises/practice/saddle-points": {"en":"Saddle Points","hu":"Nyeregpontok"},
     "exercises/practice/satellite": {"en":"Satellite","hu":"Műhold"},
     "exercises/practice/save-the-cow": {"en":"Save the Cow","hu":"Mentsd meg a tehenet"},
-    "exercises/practice/say": {"en":"Say (Deprecated)","hu":"Mondd (elavult)"},
+    "exercises/practice/say": {"en":"Say","hu":"Mondd"},
     "exercises/practice/say-numbers": {"en":"Say","hu":"Mondd"},
     "exercises/practice/scrabble-score": {"en":"Scrabble Score","hu":"Scrabble-pontszám"},
     "exercises/practice/secret-handshake": {"en":"Secret Handshake","hu":"Titkos kézfogás"},

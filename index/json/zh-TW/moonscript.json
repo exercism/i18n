@@ -103,7 +103,7 @@
     "exercises/practice/saddle-points": {"en":"Saddle Points","zh-TW":"鞍點"},
     "exercises/practice/satellite": {"en":"Satellite","zh-TW":"衛星"},
     "exercises/practice/save-the-cow": {"en":"Save the Cow","zh-TW":"拯救乳牛"},
-    "exercises/practice/say": {"en":"Say (Deprecated)","zh-TW":"說出來（已棄用）"},
+    "exercises/practice/say": {"en":"Say","zh-TW":"說出來"},
     "exercises/practice/say-numbers": {"en":"Say","zh-TW":"說出來"},
     "exercises/practice/scrabble-score": {"en":"Scrabble Score","zh-TW":"Scrabble 分數"},
     "exercises/practice/secret-handshake": {"en":"Secret Handshake","zh-TW":"祕密握手"},

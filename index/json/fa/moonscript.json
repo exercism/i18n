@@ -103,7 +103,7 @@
     "exercises/practice/saddle-points": {"en":"Saddle Points","fa":"نقاط زینی"},
     "exercises/practice/satellite": {"en":"Satellite","fa":"ماهواره"},
     "exercises/practice/save-the-cow": {"en":"Save the Cow","fa":"گاو را نجات دهید"},
-    "exercises/practice/say": {"en":"Say (Deprecated)","fa":"گفتن (منسوخ)"},
+    "exercises/practice/say": {"en":"Say","fa":"گفتن"},
     "exercises/practice/say-numbers": {"en":"Say","fa":"گفتن"},
     "exercises/practice/scrabble-score": {"en":"Scrabble Score","fa":"امتیاز Scrabble"},
     "exercises/practice/secret-handshake": {"en":"Secret Handshake","fa":"دست‌دادن مخفی"},
