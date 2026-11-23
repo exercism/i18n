@@ -110,7 +110,7 @@
   "exercise:intergalactic-transmission:name": "은하 간 전송",
   "exercise:palindrome-products:name": "회문 곱",
   "exercise:rail-fence-cipher:name": "레일 펜스 암호",
-  "exercise:say:name": "말하기",
+  "exercise:say:name": "말하기 (사용 중단)",
   "exercise:wordy:name": "문장제",
   "exercise:book-store:name": "서점",
   "exercise:dominoes:name": "도미노",
@@ -376,5 +376,8 @@
   "doc:tests:title": "MoonScript 트랙에서 테스트하기",
   "doc:tests:blurb": "Exercism에서 MoonScript 연습 문제를 테스트하는 방법을 알아봐요.",
   "doc:resources:title": "유용한 MoonScript 자료",
-  "doc:resources:blurb": "MoonScript를 익히는 데 도움이 되는 유용한 자료 모음이에요."
+  "doc:resources:blurb": "MoonScript를 익히는 데 도움이 되는 유용한 자료 모음이에요.",
+  "exercise:say-numbers:name": "말하기",
+  "exercise:say-numbers:blurb": "0부터 999,999,999,999까지의 숫자가 주어지면, 그 숫자를 영어로 풀어 써요.",
+  "exercise:say-numbers:source": "JavaRanch CattleDrive, Assignment 4를 변형한 문제예요."
 }

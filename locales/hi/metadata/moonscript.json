@@ -110,7 +110,7 @@
   "exercise:intergalactic-transmission:name": "अंतरागांगिक संचरण",
   "exercise:palindrome-products:name": "पैलिंड्रोम गुणनफल",
   "exercise:rail-fence-cipher:name": "रेल फेंस सिफर",
-  "exercise:say:name": "कहिए",
+  "exercise:say:name": "कहिए (अप्रचलित)",
   "exercise:wordy:name": "Wordy",
   "exercise:book-store:name": "किताबों की दुकान",
   "exercise:dominoes:name": "डोमिनोज़",
@@ -376,5 +376,8 @@
   "doc:tests:title": "MoonScript ट्रैक पर टेस्टिंग",
   "doc:tests:blurb": "Exercism पर अपने MoonScript अभ्यासों की टेस्टिंग कैसे करें, यह सीखिए",
   "doc:resources:title": "उपयोगी MoonScript संसाधन",
-  "doc:resources:blurb": "MoonScript में महारत हासिल करने में मदद करने वाले उपयोगी संसाधनों का संग्रह"
+  "doc:resources:blurb": "MoonScript में महारत हासिल करने में मदद करने वाले उपयोगी संसाधनों का संग्रह",
+  "exercise:say-numbers:name": "कहिए",
+  "exercise:say-numbers:blurb": "0 से 999,999,999,999 तक की कोई संख्या दी गई हो तो उस संख्या को अंग्रेज़ी में लिखकर बताइए।",
+  "exercise:say-numbers:source": "JavaRanch CattleDrive, Assignment 4 का एक रूपांतर"
 }

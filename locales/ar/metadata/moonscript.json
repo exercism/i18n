@@ -110,7 +110,7 @@
   "exercise:intergalactic-transmission:name": "الإرسال بين المجرات",
   "exercise:palindrome-products:name": "حاصلات ضرب متناظرة",
   "exercise:rail-fence-cipher:name": "شيفرة السياج",
-  "exercise:say:name": "قل",
+  "exercise:say:name": "قل (مهجور)",
   "exercise:wordy:name": "اللفظي",
   "exercise:book-store:name": "متجر الكتب",
   "exercise:dominoes:name": "الدومينو",
@@ -376,5 +376,8 @@
   "doc:tests:title": "الاختبار في مسار MoonScript",
   "doc:tests:blurb": "تعلّم كيف تختبر تمارين MoonScript على Exercism",
   "doc:resources:title": "مصادر مفيدة لتعلّم MoonScript",
-  "doc:resources:blurb": "مجموعة من المصادر المفيدة التي تساعدك على إتقان MoonScript"
+  "doc:resources:blurb": "مجموعة من المصادر المفيدة التي تساعدك على إتقان MoonScript",
+  "exercise:say-numbers:name": "قل",
+  "exercise:say-numbers:blurb": "إذا أُعطيت عددًا من 0 إلى 999,999,999,999، فاكتب هذا العدد بالحروف بالإنجليزية.",
+  "exercise:say-numbers:source": "تنويع على JavaRanch CattleDrive، Assignment 4"
 }

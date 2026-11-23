@@ -110,7 +110,7 @@
   "exercise:intergalactic-transmission:name": "星際傳輸",
   "exercise:palindrome-products:name": "迴文乘積",
   "exercise:rail-fence-cipher:name": "柵欄密碼",
-  "exercise:say:name": "說出來",
+  "exercise:say:name": "說出來（已棄用）",
   "exercise:wordy:name": "文字題",
   "exercise:book-store:name": "書店",
   "exercise:dominoes:name": "骨牌",
@@ -376,5 +376,8 @@
   "doc:tests:title": "在 MoonScript 軌道上測試",
   "doc:tests:blurb": "了解如何在 Exercism 上測試你的 MoonScript 練習。",
   "doc:resources:title": "實用的 MoonScript 資源",
-  "doc:resources:blurb": "一系列實用資源，幫助你精通 MoonScript。"
+  "doc:resources:blurb": "一系列實用資源，幫助你精通 MoonScript。",
+  "exercise:say-numbers:name": "說出來",
+  "exercise:say-numbers:blurb": "給定一個 0 到 999,999,999,999 之間的數字，用英文拼出這個數字。",
+  "exercise:say-numbers:source": "改編自 JavaRanch CattleDrive 的作業 4"
 }

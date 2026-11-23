@@ -110,7 +110,7 @@
   "exercise:intergalactic-transmission:name": "Διαγαλαξιακή Μετάδοση",
   "exercise:palindrome-products:name": "Παλίνδρομα γινόμενα",
   "exercise:rail-fence-cipher:name": "Κρυπτογράφημα Rail Fence",
-  "exercise:say:name": "Πες",
+  "exercise:say:name": "Πες (Παρωχημένη)",
   "exercise:wordy:name": "Wordy",
   "exercise:book-store:name": "Βιβλιοπωλείο",
   "exercise:dominoes:name": "Ντόμινο",
@@ -376,5 +376,8 @@
   "doc:tests:title": "Δοκιμές στη διαδρομή MoonScript",
   "doc:tests:blurb": "Μάθε πώς να δοκιμάζεις τις ασκήσεις σου στη διαδρομή MoonScript στο Exercism",
   "doc:resources:title": "Χρήσιμοι πόροι για τη MoonScript",
-  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων που θα σε βοηθήσουν να κατακτήσεις τη MoonScript"
+  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων που θα σε βοηθήσουν να κατακτήσεις τη MoonScript",
+  "exercise:say-numbers:name": "Πες",
+  "exercise:say-numbers:blurb": "Με δεδομένο έναν αριθμό από το 0 έως το 999.999.999.999, γράψε τον αριθμό ολογράφως στα αγγλικά.",
+  "exercise:say-numbers:source": "Μια παραλλαγή του JavaRanch CattleDrive, Εργασία 4"
 }

@@ -110,7 +110,7 @@
   "exercise:intergalactic-transmission:name": "Intergalaktikus átvitel",
   "exercise:palindrome-products:name": "Palindrom szorzatok",
   "exercise:rail-fence-cipher:name": "Sínkerítés-rejtjel",
-  "exercise:say:name": "Mondd",
+  "exercise:say:name": "Mondd (elavult)",
   "exercise:wordy:name": "Szószátyár",
   "exercise:book-store:name": "Könyvesbolt",
   "exercise:dominoes:name": "Dominók",
@@ -376,5 +376,8 @@
   "doc:tests:title": "Tesztelés a MoonScript-kurzuson",
   "doc:tests:blurb": "Tanuld meg, hogyan tesztelheted a MoonScript-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos MoonScript-források",
-  "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a MoonScriptet"
+  "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a MoonScriptet",
+  "exercise:say-numbers:name": "Mondd",
+  "exercise:say-numbers:blurb": "Egy 0 és 999 999 999 999 közötti számot írj ki betűvel angolul.",
+  "exercise:say-numbers:source": "A JavaRanch CattleDrive 4. feladatának egy változata"
 }

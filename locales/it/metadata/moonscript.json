@@ -110,7 +110,7 @@
   "exercise:intergalactic-transmission:name": "Trasmissione intergalattica",
   "exercise:palindrome-products:name": "Prodotti palindromi",
   "exercise:rail-fence-cipher:name": "Cifrario a recinzione",
-  "exercise:say:name": "Pronuncia",
+  "exercise:say:name": "Pronuncia (deprecato)",
   "exercise:wordy:name": "Parolaio",
   "exercise:book-store:name": "Libreria",
   "exercise:dominoes:name": "Domino",
@@ -376,5 +376,8 @@
   "doc:tests:title": "Testare sul track MoonScript",
   "doc:tests:blurb": "Scopri come testare gli esercizi di MoonScript su Exercism",
   "doc:resources:title": "Risorse utili per MoonScript",
-  "doc:resources:blurb": "Una raccolta di risorse utili per aiutarti a padroneggiare MoonScript"
+  "doc:resources:blurb": "Una raccolta di risorse utili per aiutarti a padroneggiare MoonScript",
+  "exercise:say-numbers:name": "Pronuncia",
+  "exercise:say-numbers:blurb": "Dato un numero da 0 a 999.999.999.999, scrivi quel numero a parole in inglese.",
+  "exercise:say-numbers:source": "Una variazione sulla JavaRanch CattleDrive, Assignment 4"
 }

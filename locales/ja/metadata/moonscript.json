@@ -110,7 +110,7 @@
   "exercise:intergalactic-transmission:name": "銀河間通信",
   "exercise:palindrome-products:name": "回文の積",
   "exercise:rail-fence-cipher:name": "レールフェンス暗号",
-  "exercise:say:name": "言う",
+  "exercise:say:name": "言う（非推奨）",
   "exercise:wordy:name": "Wordy",
   "exercise:book-store:name": "書店",
   "exercise:dominoes:name": "ドミノ",
@@ -376,5 +376,8 @@
   "doc:tests:title": "MoonScriptトラックでのテスト",
   "doc:tests:blurb": "ExercismでMoonScriptの演習をテストする方法を学びます。",
   "doc:resources:title": "役立つMoonScriptのリソース",
-  "doc:resources:blurb": "MoonScriptをマスターするのに役立つリソース集"
+  "doc:resources:blurb": "MoonScriptをマスターするのに役立つリソース集",
+  "exercise:say-numbers:name": "言う",
+  "exercise:say-numbers:blurb": "0から999,999,999,999までの数値が与えられたら、その数値を英語で書き表します。",
+  "exercise:say-numbers:source": "JavaRanch CattleDriveのAssignment 4をアレンジしたもの"
 }
