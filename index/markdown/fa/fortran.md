@@ -227,7 +227,8 @@ This page is generated from [the index](../../json/fa/fortran.json) by `scripts/
 
 ### Installing Fortran locally (نصب محلی Fortran)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/fortran/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/fa/content/ef/d8/fa7fd241bebef7db3f8dd2ea384ac9e1f8ec.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/fortran/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/fa/content/fa/4c/85a0d341b4669226b45987d0b331831d3b78.md)
+  - [`efd8fa7fd2`](../../../locales/fa/content/ef/d8/fa7fd241bebef7db3f8dd2ea384ac9e1f8ec.md)
 
 ### LEARNING.md
 

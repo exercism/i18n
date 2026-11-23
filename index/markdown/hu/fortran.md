@@ -258,7 +258,8 @@ This page is generated from [the index](../../json/hu/fortran.json) by `scripts/
 
 ### Installing Fortran locally (A Fortran helyi telepítése)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/fortran/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/hu/content/ef/d8/fa7fd241bebef7db3f8dd2ea384ac9e1f8ec.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/fortran/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/hu/content/fa/4c/85a0d341b4669226b45987d0b331831d3b78.md)
+  - [`efd8fa7fd2`](../../../locales/hu/content/ef/d8/fa7fd241bebef7db3f8dd2ea384ac9e1f8ec.md)
   - [`e69de29bb2`](../../../locales/hu/content/e6/9d/e29bb2d1d6434b8b29ae775ad8c2e48c5391.md)
 
 ### LEARNING.md
