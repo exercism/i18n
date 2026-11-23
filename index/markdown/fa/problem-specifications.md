@@ -486,7 +486,8 @@ This page is generated from [the index](../../json/fa/problem-specifications.jso
 
 ### Resistor Color Tolerance (تلورانس رنگ مقاومت)
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/resistor-color-tolerance/description.md)): [Latest](../../../locales/fa/content/ef/c8/e1f9c08c000b6a2cdeeddd2e7dd78b7bdcbc.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/resistor-color-tolerance/description.md)): [Latest](../../../locales/fa/content/9e/7d/e36d24ee58116eeead63d7256a246b07e199.md)
+  - [`efc8e1f9c0`](../../../locales/fa/content/ef/c8/e1f9c08c000b6a2cdeeddd2e7dd78b7bdcbc.md)
   - [`d47cb16ab4`](../../../locales/fa/content/d4/7c/b16ab41d77f14012aa04003f1f94b1c276c4.md)
 
 ### Resistor Color Trio (رنگ مقاومت سه‌گانه)
