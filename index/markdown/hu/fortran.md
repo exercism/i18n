@@ -258,7 +258,8 @@ This page is generated from [the index](../../json/hu/fortran.json) by `scripts/
 
 ### Installing Fortran locally (A Fortran helyi telepítése)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/fortran/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/hu/content/fa/4c/85a0d341b4669226b45987d0b331831d3b78.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/fortran/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/hu/content/70/1d/478b5a952b1b462a12da8237790f37e421f9.md)
+  - [`fa4c85a0d3`](../../../locales/hu/content/fa/4c/85a0d341b4669226b45987d0b331831d3b78.md)
   - [`efd8fa7fd2`](../../../locales/hu/content/ef/d8/fa7fd241bebef7db3f8dd2ea384ac9e1f8ec.md)
   - [`e69de29bb2`](../../../locales/hu/content/e6/9d/e29bb2d1d6434b8b29ae775ad8c2e48c5391.md)
 
@@ -274,7 +275,8 @@ This page is generated from [the index](../../json/hu/fortran.json) by `scripts/
 
 ### Testing on the Fortran track (Tesztelés a Fortran-kurzuson)
 
-- `TESTS.md` ([English](https://github.com/exercism/fortran/blob/main/docs/TESTS.md)): [Latest](../../../locales/hu/content/6e/82/25d4599bdf2599caabd4fb7fa584221ea3d8.md)
+- `TESTS.md` ([English](https://github.com/exercism/fortran/blob/main/docs/TESTS.md)): [Latest](../../../locales/hu/content/e0/9b/62696c2d6288af5074bd4f1d57f20458bead.md)
+  - [`6e8225d459`](../../../locales/hu/content/6e/82/25d4599bdf2599caabd4fb7fa584221ea3d8.md)
   - [`8eca382864`](../../../locales/hu/content/8e/ca/382864b0b8b051ab9772e4b2f832ad4ebfac.md)
   - [`e69de29bb2`](../../../locales/hu/content/e6/9d/e29bb2d1d6434b8b29ae775ad8c2e48c5391.md)
 
@@ -291,4 +293,5 @@ This page is generated from [the index](../../json/hu/fortran.json) by `scripts/
 
 ### tests.md
 
-- `tests.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/hu/content/8e/ca/382864b0b8b051ab9772e4b2f832ad4ebfac.md)
+- `tests.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/hu/content/5f/c5/0417d4e7886da1ac6412d50d039fdf24b3da.md)
+  - [`8eca382864`](../../../locales/hu/content/8e/ca/382864b0b8b051ab9772e4b2f832ad4ebfac.md)

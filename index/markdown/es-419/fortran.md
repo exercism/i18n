@@ -227,7 +227,8 @@ This page is generated from [the index](../../json/es-419/fortran.json) by `scri
 
 ### Installing Fortran locally (Instalar Fortran de forma local)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/fortran/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/es-419/content/fa/4c/85a0d341b4669226b45987d0b331831d3b78.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/fortran/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/es-419/content/70/1d/478b5a952b1b462a12da8237790f37e421f9.md)
+  - [`fa4c85a0d3`](../../../locales/es-419/content/fa/4c/85a0d341b4669226b45987d0b331831d3b78.md)
   - [`efd8fa7fd2`](../../../locales/es-419/content/ef/d8/fa7fd241bebef7db3f8dd2ea384ac9e1f8ec.md)
 
 ### LEARNING.md
@@ -241,7 +242,8 @@ This page is generated from [the index](../../json/es-419/fortran.json) by `scri
 
 ### Testing on the Fortran track (Pruebas en la pista de Fortran)
 
-- `TESTS.md` ([English](https://github.com/exercism/fortran/blob/main/docs/TESTS.md)): [Latest](../../../locales/es-419/content/6e/82/25d4599bdf2599caabd4fb7fa584221ea3d8.md)
+- `TESTS.md` ([English](https://github.com/exercism/fortran/blob/main/docs/TESTS.md)): [Latest](../../../locales/es-419/content/e0/9b/62696c2d6288af5074bd4f1d57f20458bead.md)
+  - [`6e8225d459`](../../../locales/es-419/content/6e/82/25d4599bdf2599caabd4fb7fa584221ea3d8.md)
 
 ### Useful Fortran resources (Recursos útiles de Fortran)
 
@@ -255,4 +257,5 @@ This page is generated from [the index](../../json/es-419/fortran.json) by `scri
 
 ### tests.md
 
-- `tests.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/es-419/content/8e/ca/382864b0b8b051ab9772e4b2f832ad4ebfac.md)
+- `tests.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/es-419/content/5f/c5/0417d4e7886da1ac6412d50d039fdf24b3da.md)
+  - [`8eca382864`](../../../locales/es-419/content/8e/ca/382864b0b8b051ab9772e4b2f832ad4ebfac.md)
