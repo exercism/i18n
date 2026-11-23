@@ -464,13 +464,13 @@ This page is generated from [the index](../../json/zh-CN/moonscript.json) by `sc
 
 ### Say (说出来)
 
-- `instructions.md` ([English](https://github.com/exercism/moonscript/blob/main/exercises/practice/say/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/32/51/c519acefd3c98f5ecf6edf4cb11db4290468.md)
-- `introduction.md` ([English](https://github.com/exercism/moonscript/blob/main/exercises/practice/say/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/ab/d2/2851ef7557171c636e876d5c7d19495f8421.md)
-
-### Say (说出来)
-
 - `instructions.md` ([English](https://github.com/exercism/moonscript/blob/main/exercises/practice/say-numbers/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/32/51/c519acefd3c98f5ecf6edf4cb11db4290468.md)
 - `introduction.md` ([English](https://github.com/exercism/moonscript/blob/main/exercises/practice/say-numbers/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/ab/d2/2851ef7557171c636e876d5c7d19495f8421.md)
+
+### Say (Deprecated) (说出来（已弃用）)
+
+- `instructions.md` ([English](https://github.com/exercism/moonscript/blob/main/exercises/practice/say/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/32/51/c519acefd3c98f5ecf6edf4cb11db4290468.md)
+- `introduction.md` ([English](https://github.com/exercism/moonscript/blob/main/exercises/practice/say/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/ab/d2/2851ef7557171c636e876d5c7d19495f8421.md)
 
 ### Scrabble Score (Scrabble 得分)
 

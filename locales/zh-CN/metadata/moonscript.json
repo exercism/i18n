@@ -110,7 +110,7 @@
   "exercise:intergalactic-transmission:name": "星际传输",
   "exercise:palindrome-products:name": "回文乘积",
   "exercise:rail-fence-cipher:name": "栅栏密码",
-  "exercise:say:name": "说出来",
+  "exercise:say:name": "说出来（已弃用）",
   "exercise:wordy:name": "文字题",
   "exercise:book-store:name": "书店",
   "exercise:dominoes:name": "多米诺骨牌",

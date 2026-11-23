@@ -103,7 +103,7 @@
     "exercises/practice/saddle-points": {"en":"Saddle Points","ko":"안장점"},
     "exercises/practice/satellite": {"en":"Satellite","ko":"위성"},
     "exercises/practice/save-the-cow": {"en":"Save the Cow","ko":"소를 구해요"},
-    "exercises/practice/say": {"en":"Say","ko":"말하기"},
+    "exercises/practice/say": {"en":"Say (Deprecated)","ko":"말하기 (사용 중단)"},
     "exercises/practice/say-numbers": {"en":"Say","ko":"말하기"},
     "exercises/practice/scrabble-score": {"en":"Scrabble Score","ko":"스크래블 점수"},
     "exercises/practice/secret-handshake": {"en":"Secret Handshake","ko":"비밀 악수"},

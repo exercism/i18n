@@ -464,13 +464,13 @@ This page is generated from [the index](../../json/hi/moonscript.json) by `scrip
 
 ### Say (कहिए)
 
-- `instructions.md` ([English](https://github.com/exercism/moonscript/blob/main/exercises/practice/say/.docs/instructions.md)): [Latest](../../../locales/hi/content/32/51/c519acefd3c98f5ecf6edf4cb11db4290468.md)
-- `introduction.md` ([English](https://github.com/exercism/moonscript/blob/main/exercises/practice/say/.docs/introduction.md)): [Latest](../../../locales/hi/content/ab/d2/2851ef7557171c636e876d5c7d19495f8421.md)
-
-### Say (कहिए)
-
 - `instructions.md` ([English](https://github.com/exercism/moonscript/blob/main/exercises/practice/say-numbers/.docs/instructions.md)): [Latest](../../../locales/hi/content/32/51/c519acefd3c98f5ecf6edf4cb11db4290468.md)
 - `introduction.md` ([English](https://github.com/exercism/moonscript/blob/main/exercises/practice/say-numbers/.docs/introduction.md)): [Latest](../../../locales/hi/content/ab/d2/2851ef7557171c636e876d5c7d19495f8421.md)
+
+### Say (Deprecated) (कहिए (अप्रचलित))
+
+- `instructions.md` ([English](https://github.com/exercism/moonscript/blob/main/exercises/practice/say/.docs/instructions.md)): [Latest](../../../locales/hi/content/32/51/c519acefd3c98f5ecf6edf4cb11db4290468.md)
+- `introduction.md` ([English](https://github.com/exercism/moonscript/blob/main/exercises/practice/say/.docs/introduction.md)): [Latest](../../../locales/hi/content/ab/d2/2851ef7557171c636e876d5c7d19495f8421.md)
 
 ### Scrabble Score (Scrabble स्कोर)
 

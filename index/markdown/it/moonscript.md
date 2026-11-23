@@ -464,13 +464,13 @@ This page is generated from [the index](../../json/it/moonscript.json) by `scrip
 
 ### Say (Pronuncia)
 
-- `instructions.md` ([English](https://github.com/exercism/moonscript/blob/main/exercises/practice/say/.docs/instructions.md)): [Latest](../../../locales/it/content/32/51/c519acefd3c98f5ecf6edf4cb11db4290468.md)
-- `introduction.md` ([English](https://github.com/exercism/moonscript/blob/main/exercises/practice/say/.docs/introduction.md)): [Latest](../../../locales/it/content/ab/d2/2851ef7557171c636e876d5c7d19495f8421.md)
-
-### Say (Pronuncia)
-
 - `instructions.md` ([English](https://github.com/exercism/moonscript/blob/main/exercises/practice/say-numbers/.docs/instructions.md)): [Latest](../../../locales/it/content/32/51/c519acefd3c98f5ecf6edf4cb11db4290468.md)
 - `introduction.md` ([English](https://github.com/exercism/moonscript/blob/main/exercises/practice/say-numbers/.docs/introduction.md)): [Latest](../../../locales/it/content/ab/d2/2851ef7557171c636e876d5c7d19495f8421.md)
+
+### Say (Deprecated) (Pronuncia (deprecata))
+
+- `instructions.md` ([English](https://github.com/exercism/moonscript/blob/main/exercises/practice/say/.docs/instructions.md)): [Latest](../../../locales/it/content/32/51/c519acefd3c98f5ecf6edf4cb11db4290468.md)
+- `introduction.md` ([English](https://github.com/exercism/moonscript/blob/main/exercises/practice/say/.docs/introduction.md)): [Latest](../../../locales/it/content/ab/d2/2851ef7557171c636e876d5c7d19495f8421.md)
 
 ### Scrabble Score (Punteggio Scrabble)
 

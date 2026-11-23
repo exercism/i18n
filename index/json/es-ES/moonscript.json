@@ -103,7 +103,7 @@
     "exercises/practice/saddle-points": {"en":"Saddle Points","es-ES":"Puntos de silla"},
     "exercises/practice/satellite": {"en":"Satellite","es-ES":"Satélite"},
     "exercises/practice/save-the-cow": {"en":"Save the Cow","es-ES":"Salva a la vaca"},
-    "exercises/practice/say": {"en":"Say","es-ES":"Decir"},
+    "exercises/practice/say": {"en":"Say (Deprecated)","es-ES":"Decir (obsoleto)"},
     "exercises/practice/say-numbers": {"en":"Say","es-ES":"Decir"},
     "exercises/practice/scrabble-score": {"en":"Scrabble Score","es-ES":"Puntuación de Scrabble"},
     "exercises/practice/secret-handshake": {"en":"Secret Handshake","es-ES":"Apretón de manos secreto"},

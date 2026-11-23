@@ -103,7 +103,7 @@
     "exercises/practice/saddle-points": {"ar":"نقاط السرج","en":"Saddle Points"},
     "exercises/practice/satellite": {"ar":"القمر الصناعي","en":"Satellite"},
     "exercises/practice/save-the-cow": {"ar":"أنقذ البقرة","en":"Save the Cow"},
-    "exercises/practice/say": {"ar":"قل","en":"Say"},
+    "exercises/practice/say": {"ar":"قل (مهجور)","en":"Say (Deprecated)"},
     "exercises/practice/say-numbers": {"ar":"قل","en":"Say"},
     "exercises/practice/scrabble-score": {"ar":"نقاط Scrabble","en":"Scrabble Score"},
     "exercises/practice/secret-handshake": {"ar":"المصافحة السرية","en":"Secret Handshake"},

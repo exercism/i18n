@@ -103,7 +103,7 @@
     "exercises/practice/saddle-points": {"en":"Saddle Points","uk":"Сідлові точки"},
     "exercises/practice/satellite": {"en":"Satellite","uk":"Супутник"},
     "exercises/practice/save-the-cow": {"en":"Save the Cow","uk":"Врятуйте корову"},
-    "exercises/practice/say": {"en":"Say","uk":"Вимова"},
+    "exercises/practice/say": {"en":"Say (Deprecated)","uk":"Вимова (застаріла)"},
     "exercises/practice/say-numbers": {"en":"Say","uk":"Вимова"},
     "exercises/practice/scrabble-score": {"en":"Scrabble Score","uk":"Рахунок у Scrabble"},
     "exercises/practice/secret-handshake": {"en":"Secret Handshake","uk":"Таємне рукостискання"},
