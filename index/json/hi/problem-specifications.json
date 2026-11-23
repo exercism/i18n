@@ -158,7 +158,7 @@
   "paths": {
     "exercises/accumulate/description.md": ["c25a03fab188a59dda0ae9d9d30d1add28585ea0"],
     "exercises/acronym/description.md": ["133bd2cbb78d186c92e5d2b8ca41cf13f77d6bea"],
-    "exercises/affine-cipher/description.md": ["1603dbbce91dee78f8c1520ceb8bc96c6dc9528a"],
+    "exercises/affine-cipher/description.md": ["eacf56dd7948b580ef042a0db6ff9d299a2d76af","1603dbbce91dee78f8c1520ceb8bc96c6dc9528a"],
     "exercises/all-your-base/instructions.md": ["1b688b6915eb31f5ee6c3b67d2803024a353806e"],
     "exercises/all-your-base/introduction.md": ["68aaffbed953c276623458752955558a09819203"],
     "exercises/allergies/description.md": ["daf8cfde214667c949800c801fafecaa053efa0e"],
@@ -302,7 +302,7 @@
     "exercises/relative-distance/instructions.md": ["64ca4e43744fdf4aaf8b64ea34b795b8933a0e3e"],
     "exercises/relative-distance/introduction.md": ["34073b40ac6e0494777808026c336f21678ba93e"],
     "exercises/resistor-color-duo/description.md": ["4ae694da025b329a9e51e07c741aa41925253b1a"],
-    "exercises/resistor-color-tolerance/description.md": ["9e7de36d24ee58116eeead63d7256a246b07e199","efc8e1f9c08c000b6a2cdeeddd2e7dd78b7bdcbc","d47cb16ab41d77f14012aa04003f1f94b1c276c4"],
+    "exercises/resistor-color-tolerance/description.md": ["efc8e1f9c08c000b6a2cdeeddd2e7dd78b7bdcbc","9e7de36d24ee58116eeead63d7256a246b07e199","d47cb16ab41d77f14012aa04003f1f94b1c276c4"],
     "exercises/resistor-color-trio/description.md": ["1ac5cf5e9fe0b7e589bf6cba0c31c2c8a0e98d7e","8ef11628e00a8553579594981d7c31900f8c1835"],
     "exercises/resistor-color/description.md": ["0125e718b455321a3e635d6ca42fc400e1be0d44"],
     "exercises/rest-api/description.md": ["e889b1bf20762398566d9811888616e8ee03cb54","6cc5c91ee67091420872d1c3cd4137337f8e5679"],

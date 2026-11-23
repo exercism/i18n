@@ -18,7 +18,8 @@ This page is generated from [the index](../../json/pt-BR/problem-specifications.
 
 ### Affine Cipher (Cifra afim)
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/affine-cipher/description.md)): [Latest](../../../locales/pt-BR/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/affine-cipher/description.md)): [Latest](../../../locales/pt-BR/content/ea/cf/56dd7948b580ef042a0db6ff9d299a2d76af.md)
+  - [`1603dbbce9`](../../../locales/pt-BR/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
 
 ### All Your Base
 
@@ -486,8 +487,8 @@ This page is generated from [the index](../../json/pt-BR/problem-specifications.
 
 ### Resistor Color Tolerance (Tolerância de cores de resistores)
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/resistor-color-tolerance/description.md)): [Latest](../../../locales/pt-BR/content/9e/7d/e36d24ee58116eeead63d7256a246b07e199.md)
-  - [`efc8e1f9c0`](../../../locales/pt-BR/content/ef/c8/e1f9c08c000b6a2cdeeddd2e7dd78b7bdcbc.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/resistor-color-tolerance/description.md)): [Latest](../../../locales/pt-BR/content/ef/c8/e1f9c08c000b6a2cdeeddd2e7dd78b7bdcbc.md)
+  - [`9e7de36d24`](../../../locales/pt-BR/content/9e/7d/e36d24ee58116eeead63d7256a246b07e199.md)
   - [`d47cb16ab4`](../../../locales/pt-BR/content/d4/7c/b16ab41d77f14012aa04003f1f94b1c276c4.md)
 
 ### Resistor Color Trio (Trio de cores do resistor)

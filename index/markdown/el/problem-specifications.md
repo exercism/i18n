@@ -18,7 +18,8 @@ This page is generated from [the index](../../json/el/problem-specifications.jso
 
 ### Affine Cipher (Κρυπτογράφημα Affine)
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/affine-cipher/description.md)): [Latest](../../../locales/el/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/affine-cipher/description.md)): [Latest](../../../locales/el/content/ea/cf/56dd7948b580ef042a0db6ff9d299a2d76af.md)
+  - [`1603dbbce9`](../../../locales/el/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
 
 ### All Your Base
 
@@ -486,8 +487,8 @@ This page is generated from [the index](../../json/el/problem-specifications.jso
 
 ### Resistor Color Tolerance (Ανοχή Χρώματος Αντίστασης)
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/resistor-color-tolerance/description.md)): [Latest](../../../locales/el/content/9e/7d/e36d24ee58116eeead63d7256a246b07e199.md)
-  - [`efc8e1f9c0`](../../../locales/el/content/ef/c8/e1f9c08c000b6a2cdeeddd2e7dd78b7bdcbc.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/resistor-color-tolerance/description.md)): [Latest](../../../locales/el/content/ef/c8/e1f9c08c000b6a2cdeeddd2e7dd78b7bdcbc.md)
+  - [`9e7de36d24`](../../../locales/el/content/9e/7d/e36d24ee58116eeead63d7256a246b07e199.md)
   - [`d47cb16ab4`](../../../locales/el/content/d4/7c/b16ab41d77f14012aa04003f1f94b1c276c4.md)
 
 ### Resistor Color Trio (Τρία χρώματα αντίστασης)
