@@ -330,7 +330,7 @@
   "exercise:change:source": "Software Craftsmanship - Coin Change Kata",
   "exercise:complex-numbers:blurb": "Реалізуйте комплексні числа.",
   "exercise:complex-numbers:source": "Wikipedia",
-  "exercise:intergalactic-transmission:blurb": "Додайте біти парності до повідомлення для передачі",
+  "exercise:intergalactic-transmission:blurb": "Додайте біти парності до повідомлення для передачі.",
   "exercise:intergalactic-transmission:source": "Ка Го",
   "exercise:palindrome-products:blurb": "Знайдіть паліндромні добутки в заданому діапазоні.",
   "exercise:palindrome-products:source": "Задача 4 з Project Euler",
