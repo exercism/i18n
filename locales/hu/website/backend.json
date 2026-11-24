@@ -3796,7 +3796,7 @@
       },
       "featured_in_2024_section": {
         "challenge_title": "A #48in24 része",
-        "challenge_text_html": "A %{exercise_title} szerepel a %{challenge_link} részeként. Oldd meg %{languages} nyelven, hogy elnyerd az arany díjat.",
+        "challenge_text_html": "A %{exercise_title} szerepel a %{challenge_link} részeként. Oldd meg a(z) %{languages} kurzusban, hogy elnyerd az arany díjat.",
         "challenge_link_text": "#48in24 kihívás"
       },
       "track_variants_section": {
@@ -3805,7 +3805,7 @@
           "one": "Eddig 1 kurzusban teljesítetted.",
           "other": "Eddig %{count} kurzusban teljesítetted."
         },
-        "not_yet_completed": "Még egyetlen nyelven sem teljesítetted."
+        "not_yet_completed": "Még egyetlen kurzusban sem teljesítetted."
       }
     }
   },
