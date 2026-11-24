@@ -18,7 +18,8 @@ This page is generated from [the index](../../json/zh-CN/problem-specifications.
 
 ### Affine Cipher (仿射密码)
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/affine-cipher/description.md)): [Latest](../../../locales/zh-CN/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/affine-cipher/description.md)): [Latest](../../../locales/zh-CN/content/bc/89/0882d3e2305a80a44c7d921bc9bf6be0cf8f.md)
+  - [`1603dbbce9`](../../../locales/zh-CN/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
   - [`eacf56dd79`](../../../locales/zh-CN/content/ea/cf/56dd7948b580ef042a0db6ff9d299a2d76af.md)
 
 ### All Your Base
@@ -489,8 +490,8 @@ This page is generated from [the index](../../json/zh-CN/problem-specifications.
 
 ### Resistor Color Tolerance (电阻色环容差)
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/resistor-color-tolerance/description.md)): [Latest](../../../locales/zh-CN/content/ef/c8/e1f9c08c000b6a2cdeeddd2e7dd78b7bdcbc.md)
-  - [`9e7de36d24`](../../../locales/zh-CN/content/9e/7d/e36d24ee58116eeead63d7256a246b07e199.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/resistor-color-tolerance/description.md)): [Latest](../../../locales/zh-CN/content/9e/7d/e36d24ee58116eeead63d7256a246b07e199.md)
+  - [`efc8e1f9c0`](../../../locales/zh-CN/content/ef/c8/e1f9c08c000b6a2cdeeddd2e7dd78b7bdcbc.md)
   - [`d47cb16ab4`](../../../locales/zh-CN/content/d4/7c/b16ab41d77f14012aa04003f1f94b1c276c4.md)
 
 ### Resistor Color Trio (电阻色环三重奏)

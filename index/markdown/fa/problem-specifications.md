@@ -18,7 +18,8 @@ This page is generated from [the index](../../json/fa/problem-specifications.jso
 
 ### Affine Cipher (رمز افاین)
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/affine-cipher/description.md)): [Latest](../../../locales/fa/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/affine-cipher/description.md)): [Latest](../../../locales/fa/content/bc/89/0882d3e2305a80a44c7d921bc9bf6be0cf8f.md)
+  - [`1603dbbce9`](../../../locales/fa/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
   - [`eacf56dd79`](../../../locales/fa/content/ea/cf/56dd7948b580ef042a0db6ff9d299a2d76af.md)
 
 ### All Your Base
@@ -489,8 +490,8 @@ This page is generated from [the index](../../json/fa/problem-specifications.jso
 
 ### Resistor Color Tolerance (تلورانس رنگ مقاومت)
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/resistor-color-tolerance/description.md)): [Latest](../../../locales/fa/content/ef/c8/e1f9c08c000b6a2cdeeddd2e7dd78b7bdcbc.md)
-  - [`9e7de36d24`](../../../locales/fa/content/9e/7d/e36d24ee58116eeead63d7256a246b07e199.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/resistor-color-tolerance/description.md)): [Latest](../../../locales/fa/content/9e/7d/e36d24ee58116eeead63d7256a246b07e199.md)
+  - [`efc8e1f9c0`](../../../locales/fa/content/ef/c8/e1f9c08c000b6a2cdeeddd2e7dd78b7bdcbc.md)
   - [`d47cb16ab4`](../../../locales/fa/content/d4/7c/b16ab41d77f14012aa04003f1f94b1c276c4.md)
 
 ### Resistor Color Trio (رنگ مقاومت سه‌گانه)

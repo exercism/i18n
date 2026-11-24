@@ -18,7 +18,8 @@ This page is generated from [the index](../../json/ja/problem-specifications.jso
 
 ### Affine Cipher (アフィン暗号)
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/affine-cipher/description.md)): [Latest](../../../locales/ja/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/affine-cipher/description.md)): [Latest](../../../locales/ja/content/bc/89/0882d3e2305a80a44c7d921bc9bf6be0cf8f.md)
+  - [`1603dbbce9`](../../../locales/ja/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
   - [`eacf56dd79`](../../../locales/ja/content/ea/cf/56dd7948b580ef042a0db6ff9d299a2d76af.md)
 
 ### All Your Base
@@ -489,8 +490,8 @@ This page is generated from [the index](../../json/ja/problem-specifications.jso
 
 ### Resistor Color Tolerance (抵抗器のカラーコードの許容差)
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/resistor-color-tolerance/description.md)): [Latest](../../../locales/ja/content/ef/c8/e1f9c08c000b6a2cdeeddd2e7dd78b7bdcbc.md)
-  - [`9e7de36d24`](../../../locales/ja/content/9e/7d/e36d24ee58116eeead63d7256a246b07e199.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/resistor-color-tolerance/description.md)): [Latest](../../../locales/ja/content/9e/7d/e36d24ee58116eeead63d7256a246b07e199.md)
+  - [`efc8e1f9c0`](../../../locales/ja/content/ef/c8/e1f9c08c000b6a2cdeeddd2e7dd78b7bdcbc.md)
   - [`d47cb16ab4`](../../../locales/ja/content/d4/7c/b16ab41d77f14012aa04003f1f94b1c276c4.md)
 
 ### Resistor Color Trio (抵抗器カラートリオ)
