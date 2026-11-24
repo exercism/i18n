@@ -756,7 +756,8 @@ This page is generated from [the index](../../json/hu/javascript.json) by `scrip
 
 ### Zipper (Cipzár)
 
-- `instructions.md` ([English](https://github.com/exercism/javascript/blob/main/exercises/practice/zipper/.docs/instructions.md)): [Latest](../../../locales/hu/content/54/45/db0035780cdedeb3348d1441df7c4158586b.md)
+- `instructions.md` ([English](https://github.com/exercism/javascript/blob/main/exercises/practice/zipper/.docs/instructions.md)): [Latest](../../../locales/hu/content/fd/40/1c27e13824505f092df1a4576b56e755d441.md)
+  - [`5445db0035`](../../../locales/hu/content/54/45/db0035780cdedeb3348d1441df7c4158586b.md)
 
 ## Concept exercises
 
