@@ -18,8 +18,8 @@ This page is generated from [the index](../../json/it/problem-specifications.jso
 
 ### Affine Cipher (Cifrario affine)
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/affine-cipher/description.md)): [Latest](../../../locales/it/content/bc/89/0882d3e2305a80a44c7d921bc9bf6be0cf8f.md)
-  - [`1603dbbce9`](../../../locales/it/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/affine-cipher/description.md)): [Latest](../../../locales/it/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
+  - [`bc890882d3`](../../../locales/it/content/bc/89/0882d3e2305a80a44c7d921bc9bf6be0cf8f.md)
   - [`eacf56dd79`](../../../locales/it/content/ea/cf/56dd7948b580ef042a0db6ff9d299a2d76af.md)
 
 ### All Your Base
@@ -390,7 +390,8 @@ This page is generated from [the index](../../json/it/problem-specifications.jso
 
 ### Pascal's Triangle (Triangolo di Tartaglia)
 
-- `instructions.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/pascals-triangle/instructions.md)): [Latest](../../../locales/it/content/0f/58/f0069688bc7dfd1a2705cc4382f27a0609dd.md)
+- `instructions.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/pascals-triangle/instructions.md)): [Latest](../../../locales/it/content/4f/a8/8553825636eca6a9053583288e07ed0e1cda.md)
+  - [`0f58f00696`](../../../locales/it/content/0f/58/f0069688bc7dfd1a2705cc4382f27a0609dd.md)
 - `introduction.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/pascals-triangle/introduction.md)): [Latest](../../../locales/it/content/c2/bc/6f5d2113231f444250958019fc51738615de.md)
   - [`eab454e5a6`](../../../locales/it/content/ea/b4/54e5a6995c899f852bcd23d9af558ca9e7bd.md)
 

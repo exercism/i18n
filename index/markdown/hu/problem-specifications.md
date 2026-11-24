@@ -18,8 +18,8 @@ This page is generated from [the index](../../json/hu/problem-specifications.jso
 
 ### Affine Cipher (Affin-rejtjel)
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/affine-cipher/description.md)): [Latest](../../../locales/hu/content/bc/89/0882d3e2305a80a44c7d921bc9bf6be0cf8f.md)
-  - [`1603dbbce9`](../../../locales/hu/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/affine-cipher/description.md)): [Latest](../../../locales/hu/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
+  - [`bc890882d3`](../../../locales/hu/content/bc/89/0882d3e2305a80a44c7d921bc9bf6be0cf8f.md)
   - [`eacf56dd79`](../../../locales/hu/content/ea/cf/56dd7948b580ef042a0db6ff9d299a2d76af.md)
 
 ### All Your Base
@@ -402,7 +402,8 @@ This page is generated from [the index](../../json/hu/problem-specifications.jso
 
 ### Pascal's Triangle (Pascal-háromszög)
 
-- `instructions.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/pascals-triangle/instructions.md)): [Latest](../../../locales/hu/content/0f/58/f0069688bc7dfd1a2705cc4382f27a0609dd.md)
+- `instructions.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/pascals-triangle/instructions.md)): [Latest](../../../locales/hu/content/4f/a8/8553825636eca6a9053583288e07ed0e1cda.md)
+  - [`0f58f00696`](../../../locales/hu/content/0f/58/f0069688bc7dfd1a2705cc4382f27a0609dd.md)
 - `introduction.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/pascals-triangle/introduction.md)): [Latest](../../../locales/hu/content/c2/bc/6f5d2113231f444250958019fc51738615de.md)
   - [`eab454e5a6`](../../../locales/hu/content/ea/b4/54e5a6995c899f852bcd23d9af558ca9e7bd.md)
   - [`60b8ec30dc`](../../../locales/hu/content/60/b8/ec30dc8dc60f313c8ec911007aed15c3df45.md)
