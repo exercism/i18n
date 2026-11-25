@@ -310,5 +310,7 @@
   "doc:resources:title": "منابع مفید Kotlin",
   "doc:resources:blurb": "مجموعه‌ای از منابع مفید برای کمک به تسلط شما بر Kotlin",
   "concept:classes:name": "کلاس",
-  "concept:classes:blurb": "Kotlin از کلاس‌ها برای رویکرد شیءگرا در برنامه‌نویسی پشتیبانی می‌کند."
+  "concept:classes:blurb": "Kotlin از کلاس‌ها برای رویکرد شیءگرا در برنامه‌نویسی پشتیبانی می‌کند.",
+  "concept:when:name": "`when`",
+  "concept:when:blurb": "`when` جایگزینی برای زنجیره‌های طولانی `if` / `else if` / `else` است."
 }

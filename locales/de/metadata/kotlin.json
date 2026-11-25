@@ -310,5 +310,7 @@
   "doc:resources:title": "Nützliche Kotlin-Ressourcen",
   "doc:resources:blurb": "Eine Sammlung nützlicher Ressourcen, mit denen du Kotlin meistern kannst",
   "concept:classes:name": "Klassen",
-  "concept:classes:blurb": "Kotlin unterstützt Klassen und ermöglicht so einen objektorientierten Programmieransatz."
+  "concept:classes:blurb": "Kotlin unterstützt Klassen und ermöglicht so einen objektorientierten Programmieransatz.",
+  "concept:when:name": "When",
+  "concept:when:blurb": "When ist eine Alternative zu langen Ketten aus if, else if und else."
 }

@@ -310,5 +310,7 @@
   "doc:resources:title": "مصادر مفيدة لـ Kotlin",
   "doc:resources:blurb": "مجموعة من المصادر المفيدة لمساعدتك على إتقان Kotlin.",
   "concept:classes:name": "الأصناف",
-  "concept:classes:blurb": "توفّر Kotlin دعمًا للأصناف لاتّباع أسلوب البرمجة كائني التوجه."
+  "concept:classes:blurb": "توفّر Kotlin دعمًا للأصناف لاتّباع أسلوب البرمجة كائني التوجه.",
+  "concept:when:name": "When",
+  "concept:when:blurb": "تعد `when` بديلًا عن سلاسل `if` / `else if` / `else` الطويلة."
 }

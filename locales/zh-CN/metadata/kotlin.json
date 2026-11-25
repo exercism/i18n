@@ -310,5 +310,7 @@
   "doc:resources:title": "有用的 Kotlin 资源",
   "doc:resources:blurb": "一组有用的资源，帮助你精通 Kotlin",
   "concept:classes:name": "类",
-  "concept:classes:blurb": "Kotlin 支持类，可用于面向对象编程。"
+  "concept:classes:blurb": "Kotlin 支持类，可用于面向对象编程。",
+  "concept:when:name": "when",
+  "concept:when:blurb": "when 是冗长的 if / else if / else 链的替代方案。"
 }

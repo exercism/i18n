@@ -322,5 +322,7 @@
   "doc:resources:title": "Hasznos Kotlin-források",
   "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Kotlint",
   "concept:classes:name": "Osztályok",
-  "concept:classes:blurb": "A Kotlin osztályokkal támogatja az objektumorientált programozási megközelítést."
+  "concept:classes:blurb": "A Kotlin osztályokkal támogatja az objektumorientált programozási megközelítést.",
+  "concept:when:name": "When",
+  "concept:when:blurb": "A When a hosszú if / else if / else láncok alternatívája."
 }

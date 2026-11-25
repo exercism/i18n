@@ -322,5 +322,7 @@
   "doc:resources:title": "Χρήσιμοι πόροι για την Kotlin",
   "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων για να σε βοηθήσουν να κατακτήσεις την Kotlin",
   "concept:classes:name": "Κλάσεις",
-  "concept:classes:blurb": "Η Kotlin υποστηρίζει κλάσεις για μια αντικειμενοστρεφή προσέγγιση στον προγραμματισμό."
+  "concept:classes:blurb": "Η Kotlin υποστηρίζει κλάσεις για μια αντικειμενοστρεφή προσέγγιση στον προγραμματισμό.",
+  "concept:when:name": "when",
+  "concept:when:blurb": "Το when είναι μια εναλλακτική στις μεγάλες αλυσίδες if / else if / else."
 }

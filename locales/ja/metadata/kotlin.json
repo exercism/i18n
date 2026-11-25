@@ -310,5 +310,7 @@
   "doc:resources:title": "役立つKotlinのリソース",
   "doc:resources:blurb": "Kotlinをマスターするのに役立つリソースをまとめました。",
   "concept:classes:name": "クラス",
-  "concept:classes:blurb": "Kotlinは、オブジェクト指向プログラミングのためのクラスをサポートしています。"
+  "concept:classes:blurb": "Kotlinは、オブジェクト指向プログラミングのためのクラスをサポートしています。",
+  "concept:when:name": "when",
+  "concept:when:blurb": "`when`は、長い`if`や`else if`、`else`の連鎖に代わるものです。"
 }

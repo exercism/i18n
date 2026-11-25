@@ -322,5 +322,7 @@
   "doc:resources:title": "Ressources utiles pour Kotlin",
   "doc:resources:blurb": "Une sélection de ressources utiles pour t'aider à maîtriser Kotlin",
   "concept:classes:name": "Classes",
-  "concept:classes:blurb": "Kotlin prend en charge les classes pour une approche orientée objet de la programmation."
+  "concept:classes:blurb": "Kotlin prend en charge les classes pour une approche orientée objet de la programmation.",
+  "concept:when:name": "When",
+  "concept:when:blurb": "`when` est une alternative aux longues chaînes de `if` / `else if` / `else`."
 }

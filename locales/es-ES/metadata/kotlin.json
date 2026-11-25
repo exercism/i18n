@@ -310,5 +310,7 @@
   "doc:resources:title": "Recursos útiles de Kotlin",
   "doc:resources:blurb": "Una colección de recursos útiles para ayudarte a dominar Kotlin",
   "concept:classes:name": "Clases",
-  "concept:classes:blurb": "Kotlin admite clases, lo que permite un enfoque de programación orientada a objetos."
+  "concept:classes:blurb": "Kotlin admite clases, lo que permite un enfoque de programación orientada a objetos.",
+  "concept:when:name": "When",
+  "concept:when:blurb": "When es una alternativa a las largas cadenas de if / else if / else."
 }

@@ -322,5 +322,7 @@
   "doc:resources:title": "Корисні ресурси з Kotlin",
   "doc:resources:blurb": "Добірка корисних ресурсів, які допоможуть опанувати Kotlin",
   "concept:classes:name": "Класи",
-  "concept:classes:blurb": "У Kotlin є підтримка класів для обʼєктно-орієнтованого підходу до програмування."
+  "concept:classes:blurb": "У Kotlin є підтримка класів для обʼєктно-орієнтованого підходу до програмування.",
+  "concept:when:name": "When",
+  "concept:when:blurb": "When - це альтернатива довгим ланцюжкам if / else if / else."
 }

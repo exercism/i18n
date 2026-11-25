@@ -444,14 +444,14 @@ This page is generated from [the index](../../json/ar/kotlin.json) by `scripts/b
 - `introduction.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/annalyns-infiltration/.docs/introduction.md)): [Latest](../../../locales/ar/content/17/3e/870f2368ea27c9b0cd02996108bbf2676b9c.md)
 - `hints.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/annalyns-infiltration/.docs/hints.md)): [Latest](../../../locales/ar/content/1c/7b/260465294b0b4080a4cf41d50d2f3797adf6.md)
 
-### johannes-juice-maker
+### Johannes Juice Maker
 
 - `instructions.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/johannes-juice-maker/.docs/instructions.md)): [Latest](../../../locales/ar/content/67/6b/c4313c84c5244b07c039162a0f778249be2b.md)
 - `introduction.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/johannes-juice-maker/.docs/introduction.md)): [Latest](../../../locales/ar/content/5e/8c/63ef68d4e793396d501133c7572e7e5c9045.md)
   - [`e320e97e45`](../../../locales/ar/content/e3/20/e97e45a483199606849cdbb6aea828842227.md)
 - `hints.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/johannes-juice-maker/.docs/hints.md)): [Latest](../../../locales/ar/content/f3/80/4c6df4c44241b2a2de1f82c1c8b9b5593129.md)
 
-### log-levels
+### Log Levels
 
 - `instructions.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/log-levels/.docs/instructions.md)): [Latest](../../../locales/ar/content/f3/20/564dbd252ef8ad57787e7b6ebd8204f2d2bc.md)
 - `introduction.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/log-levels/.docs/introduction.md)): [Latest](../../../locales/ar/content/c2/c4/dfcd0fe3b9f904e778927d8ae19a6e7b6364.md)
@@ -463,25 +463,25 @@ This page is generated from [the index](../../json/ar/kotlin.json) by `scripts/b
 - `introduction.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/lucians-luscious-lasagna/.docs/introduction.md)): [Latest](../../../locales/ar/content/e4/b2/acd448378fa70517a723b0c82861b6d89182.md)
 - `hints.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/lucians-luscious-lasagna/.docs/hints.md)): [Latest](../../../locales/ar/content/e8/35/7fe2e074f4c194cc78714db8a8c8990b7cc1.md)
 
-### secret-agent
+### Secret Agent
 
 - `instructions.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/secret-agent/.docs/instructions.md)): [Latest](../../../locales/ar/content/37/2f/199094b33924fc4bef977c49e7dfe5c81e28.md)
 - `introduction.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/secret-agent/.docs/introduction.md)): [Latest](../../../locales/ar/content/4a/7d/3884a330afa290355c9ce9bfdff4b02ea29b.md)
 - `hints.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/secret-agent/.docs/hints.md)): [Latest](../../../locales/ar/content/c6/61/5da003ac766d905cac4f59702b610b45fc90.md)
 
-### secrets
+### Secrets
 
 - `instructions.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/secrets/.docs/instructions.md)): [Latest](../../../locales/ar/content/08/2c/1d00b8ff83ecafd7d61db6e8e2eea349a7d7.md)
 - `introduction.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/secrets/.docs/introduction.md)): [Latest](../../../locales/ar/content/9a/6b/05a3667274011351f744d21e273e2d5c0dfe.md)
 - `hints.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/secrets/.docs/hints.md)): [Latest](../../../locales/ar/content/62/3a/fa32bdf5a44077c8c801014bbbc9968ee008.md)
 
-### tim-from-marketing
+### Tim From Marketing
 
 - `instructions.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/tim-from-marketing/.docs/instructions.md)): [Latest](../../../locales/ar/content/51/5a/4bc40e96e8b7005f0877f08b387be4e035e0.md)
 - `introduction.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/tim-from-marketing/.docs/introduction.md)): [Latest](../../../locales/ar/content/96/bd/85e50e1ff2fac8d4a8a525360dc4bd32625a.md)
 - `hints.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/tim-from-marketing/.docs/hints.md)): [Latest](../../../locales/ar/content/93/14/88ac637b91b43ebce823484e02fc8ee499fe.md)
 
-### vehicle-purchase
+### Vehicle Purchase
 
 - `instructions.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/vehicle-purchase/.docs/instructions.md)): [Latest](../../../locales/ar/content/98/bf/8727997b8bdc859007a9ba1003acb7f506bb.md)
 - `introduction.md` ([English](https://github.com/exercism/kotlin/blob/main/exercises/concept/vehicle-purchase/.docs/introduction.md)): [Latest](../../../locales/ar/content/54/29/0d5a08119382da48091d36cf9e35a60bfa5d.md)
@@ -535,6 +535,11 @@ This page is generated from [the index](../../json/ar/kotlin.json) by `scripts/b
 
 - `introduction.md` ([English](https://github.com/exercism/kotlin/blob/main/concepts/strings/introduction.md)): [Latest](../../../locales/ar/content/46/5b/38b329bd1211b893296ef5878609e36cb3a3.md)
 - `about.md` ([English](https://github.com/exercism/kotlin/blob/main/concepts/strings/about.md)): [Latest](../../../locales/ar/content/87/4f/8bbe91886f087ef15bd3d63b1590e3d7c922.md)
+
+### When
+
+- `introduction.md` ([English](https://github.com/exercism/kotlin/blob/main/concepts/when/introduction.md)): [Latest](../../../locales/ar/content/cd/53/c1bc91cddc7079bb8519b9f0e884c65ede5c.md)
+- `about.md` ([English](https://github.com/exercism/kotlin/blob/main/concepts/when/about.md)): [Latest](../../../locales/ar/content/f2/21/862d446d23465242be246b6611d886de4eb1.md)
 
 ## Track docs
 

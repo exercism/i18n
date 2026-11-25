@@ -310,5 +310,7 @@
   "doc:resources:title": "কাজের Kotlin রিসোর্স",
   "doc:resources:blurb": "Kotlin আয়ত্ত করতে সহায়ক কাজের রিসোর্সের একটি সংগ্রহ",
   "concept:classes:name": "ক্লাস",
-  "concept:classes:blurb": "Kotlin অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিংয়ের জন্য ক্লাসের সুবিধা দেয়।"
+  "concept:classes:blurb": "Kotlin অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিংয়ের জন্য ক্লাসের সুবিধা দেয়।",
+  "concept:when:name": "When",
+  "concept:when:blurb": "দীর্ঘ if / else if / else চেইনের বিকল্প হিসেবে When কাজ করে।"
 }
