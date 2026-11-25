@@ -66,7 +66,7 @@
   "exercise:beer-song:name": "Τραγούδι της Μπίρας",
   "exercise:list-ops:name": "Λειτουργίες λίστας",
   "exercise:matrix:name": "Πίνακας (παρωχημένος)",
-  "exercise:binary-search:name": "Δυαδική Αναζήτηση (παρωχημένο)",
+  "exercise:binary-search:name": "Δυαδική Αναζήτηση",
   "exercise:parallel-letter-frequency:name": "Παράλληλη συχνότητα γραμμάτων",
   "exercise:transpose:name": "Αντιμετάθεση",
   "exercise:poker:name": "Πόκερ",
