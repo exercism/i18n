@@ -116,7 +116,7 @@
   "exercise:minesweeper:name": "マインスイーパー",
   "exercise:ocr-numbers:name": "OCR数字",
   "exercise:rail-fence-cipher:name": "レールフェンス暗号",
-  "exercise:say:name": "言う",
+  "exercise:say:name": "言う（非推奨）",
   "exercise:transpose:name": "転置",
   "exercise:word-search:name": "ワードサーチ",
   "exercise:alphametics:name": "アルファメティックス",
@@ -381,5 +381,8 @@
   "doc:tests:title": "Luaトラックでのテスト",
   "doc:tests:blurb": "ExercismでLuaの演習をテストする方法を学びます",
   "doc:resources:title": "役立つLuaのリソース",
-  "doc:resources:blurb": "Luaを使いこなすのに役立つリソースのまとめ"
+  "doc:resources:blurb": "Luaを使いこなすのに役立つリソースのまとめ",
+  "exercise:say-numbers:name": "言う",
+  "exercise:say-numbers:blurb": "0から999,999,999,999までの数値が与えられたら、その数値を英語で書き表します。",
+  "exercise:say-numbers:source": "JavaRanch CattleDriveのAssignment 4をアレンジしたもの"
 }

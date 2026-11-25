@@ -116,7 +116,7 @@
   "exercise:minesweeper:name": "Aknakereső",
   "exercise:ocr-numbers:name": "OCR-számok",
   "exercise:rail-fence-cipher:name": "Sínkerítés-rejtjel",
-  "exercise:say:name": "Mondd",
+  "exercise:say:name": "Mondd (elavult)",
   "exercise:transpose:name": "Transzponálás",
   "exercise:word-search:name": "Szókereső",
   "exercise:alphametics:name": "Alfametika",
@@ -381,5 +381,8 @@
   "doc:tests:title": "Tesztelés a Lua-kurzuson",
   "doc:tests:blurb": "Tanuld meg, hogyan teszteld a Lua-feladataidat az Exercism-ön",
   "doc:resources:title": "Hasznos Lua-források",
-  "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Luát"
+  "doc:resources:blurb": "Hasznos források gyűjteménye, amelyek segítenek elsajátítani a Luát",
+  "exercise:say-numbers:name": "Mondd",
+  "exercise:say-numbers:blurb": "Egy 0 és 999 999 999 999 közötti számot írj ki betűvel angolul.",
+  "exercise:say-numbers:source": "A JavaRanch CattleDrive 4. feladatának egy változata"
 }

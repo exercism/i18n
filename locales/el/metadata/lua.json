@@ -116,7 +116,7 @@
   "exercise:minesweeper:name": "Ναρκαλιευτής",
   "exercise:ocr-numbers:name": "Αριθμοί OCR",
   "exercise:rail-fence-cipher:name": "Κρυπτογράφημα Rail Fence",
-  "exercise:say:name": "Πες",
+  "exercise:say:name": "Πες (Παρωχημένη)",
   "exercise:transpose:name": "Αντιμετάθεση",
   "exercise:word-search:name": "Κρυπτόλεξο",
   "exercise:alphametics:name": "Αλφαριθμητικά",
@@ -381,5 +381,8 @@
   "doc:tests:title": "Δοκιμές στη διαδρομή Lua",
   "doc:tests:blurb": "Μάθε πώς να δοκιμάζεις τις ασκήσεις σου στη Lua στο Exercism",
   "doc:resources:title": "Χρήσιμοι πόροι για τη Lua",
-  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων που θα σε βοηθήσουν να κατακτήσεις τη Lua"
+  "doc:resources:blurb": "Μια συλλογή χρήσιμων πόρων που θα σε βοηθήσουν να κατακτήσεις τη Lua",
+  "exercise:say-numbers:name": "Πες",
+  "exercise:say-numbers:blurb": "Με δεδομένο έναν αριθμό από το 0 έως το 999.999.999.999, γράψε τον αριθμό ολογράφως στα αγγλικά.",
+  "exercise:say-numbers:source": "Μια παραλλαγή του JavaRanch CattleDrive, Εργασία 4"
 }

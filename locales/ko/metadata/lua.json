@@ -116,7 +116,7 @@
   "exercise:minesweeper:name": "지뢰찾기",
   "exercise:ocr-numbers:name": "OCR 숫자",
   "exercise:rail-fence-cipher:name": "레일 펜스 암호",
-  "exercise:say:name": "말하기",
+  "exercise:say:name": "말하기 (사용 중단)",
   "exercise:transpose:name": "전치",
   "exercise:word-search:name": "단어 찾기",
   "exercise:alphametics:name": "알파메틱스",
@@ -381,5 +381,8 @@
   "doc:tests:title": "Lua 트랙에서 테스트하기",
   "doc:tests:blurb": "Exercism에서 Lua 연습 문제를 테스트하는 방법을 배워요.",
   "doc:resources:title": "유용한 Lua 자료",
-  "doc:resources:blurb": "Lua를 마스터하는 데 도움이 되는 유용한 자료 모음"
+  "doc:resources:blurb": "Lua를 마스터하는 데 도움이 되는 유용한 자료 모음",
+  "exercise:say-numbers:name": "말하기",
+  "exercise:say-numbers:blurb": "0부터 999,999,999,999까지의 숫자가 주어지면, 그 숫자를 영어로 풀어 써요.",
+  "exercise:say-numbers:source": "JavaRanch CattleDrive, Assignment 4를 변형한 문제예요."
 }

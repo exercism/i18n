@@ -116,7 +116,7 @@
   "exercise:minesweeper:name": "扫雷",
   "exercise:ocr-numbers:name": "OCR 数字",
   "exercise:rail-fence-cipher:name": "栅栏密码",
-  "exercise:say:name": "说出来",
+  "exercise:say:name": "说出来（已弃用）",
   "exercise:transpose:name": "转置",
   "exercise:word-search:name": "单词搜索",
   "exercise:alphametics:name": "字母算术",
@@ -381,5 +381,8 @@
   "doc:tests:title": "在 Lua 轨道上测试",
   "doc:tests:blurb": "了解如何在 Exercism 上测试你的 Lua 练习",
   "doc:resources:title": "实用的 Lua 资源",
-  "doc:resources:blurb": "帮助你精通 Lua 的实用资源合集"
+  "doc:resources:blurb": "帮助你精通 Lua 的实用资源合集",
+  "exercise:say-numbers:name": "说出来",
+  "exercise:say-numbers:blurb": "给定一个 0 到 999,999,999,999 之间的数字，用英文拼写出该数字。",
+  "exercise:say-numbers:source": "改编自 JavaRanch CattleDrive 的第 4 个作业"
 }

@@ -116,7 +116,7 @@
   "exercise:minesweeper:name": "Minesweeper",
   "exercise:ocr-numbers:name": "OCR-Zahlen",
   "exercise:rail-fence-cipher:name": "Zickzack-Chiffre",
-  "exercise:say:name": "Sag",
+  "exercise:say:name": "Sag (veraltet)",
   "exercise:transpose:name": "Transponieren",
   "exercise:word-search:name": "Wortsuche",
   "exercise:alphametics:name": "Alphametik",
@@ -381,5 +381,8 @@
   "doc:tests:title": "Testen im Lua-Track",
   "doc:tests:blurb": "Lerne, wie du deine Lua-Übungen auf Exercism testest",
   "doc:resources:title": "Nützliche Lua-Ressourcen",
-  "doc:resources:blurb": "Eine Sammlung nützlicher Ressourcen, die dir helfen, Lua zu meistern"
+  "doc:resources:blurb": "Eine Sammlung nützlicher Ressourcen, die dir helfen, Lua zu meistern",
+  "exercise:say-numbers:name": "Sag",
+  "exercise:say-numbers:blurb": "Schreibe eine Zahl von 0 bis 999.999.999.999 in englischen Wörtern aus.",
+  "exercise:say-numbers:source": "Eine Variante des JavaRanch CattleDrive, Assignment 4"
 }

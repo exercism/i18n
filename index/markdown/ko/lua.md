@@ -444,6 +444,11 @@ This page is generated from [the index](../../json/ko/lua.json) by `scripts/buil
 
 ### Say (말하기)
 
+- `instructions.md` ([English](https://github.com/exercism/lua/blob/main/exercises/practice/say-numbers/.docs/instructions.md)): [Latest](../../../locales/ko/content/32/51/c519acefd3c98f5ecf6edf4cb11db4290468.md)
+- `introduction.md` ([English](https://github.com/exercism/lua/blob/main/exercises/practice/say-numbers/.docs/introduction.md)): [Latest](../../../locales/ko/content/ab/d2/2851ef7557171c636e876d5c7d19495f8421.md)
+
+### Say (Deprecated) (말하기 (사용 중단))
+
 - `instructions.md` ([English](https://github.com/exercism/lua/blob/main/exercises/practice/say/.docs/instructions.md)): [Latest](../../../locales/ko/content/32/51/c519acefd3c98f5ecf6edf4cb11db4290468.md)
 - `introduction.md` ([English](https://github.com/exercism/lua/blob/main/exercises/practice/say/.docs/introduction.md)): [Latest](../../../locales/ko/content/ab/d2/2851ef7557171c636e876d5c7d19495f8421.md)
 

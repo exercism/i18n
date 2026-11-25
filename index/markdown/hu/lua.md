@@ -372,7 +372,7 @@ This page is generated from [the index](../../json/hu/lua.json) by `scripts/buil
 
 - `instructions.md` ([English](https://github.com/exercism/lua/blob/main/exercises/practice/palindrome-products/.docs/instructions.md)): [Latest](../../../locales/hu/content/aa/c6/6521ce736be8ce737ea709a5b1eed507cbb8.md)
 
-### Pangram
+### Pangram (Pangramma)
 
 - `instructions.md` ([English](https://github.com/exercism/lua/blob/main/exercises/practice/pangram/.docs/instructions.md)): [Latest](../../../locales/hu/content/81/7c/872d90714d0a0ec02f76def55091630f7ff5.md)
   - [`d5698bc2a2`](../../../locales/hu/content/d5/69/8bc2a292baf2fb128de3543b748165088c4f.md)
@@ -515,6 +515,11 @@ This page is generated from [the index](../../json/hu/lua.json) by `scripts/buil
 - `introduction.md` ([English](https://github.com/exercism/lua/blob/main/exercises/practice/saddle-points/.docs/introduction.md)): [Latest](../../../locales/hu/content/34/b2/c77e0cfd255425411a905ec311019c2d7375.md)
 
 ### Say (Mondd)
+
+- `instructions.md` ([English](https://github.com/exercism/lua/blob/main/exercises/practice/say-numbers/.docs/instructions.md)): [Latest](../../../locales/hu/content/32/51/c519acefd3c98f5ecf6edf4cb11db4290468.md)
+- `introduction.md` ([English](https://github.com/exercism/lua/blob/main/exercises/practice/say-numbers/.docs/introduction.md)): [Latest](../../../locales/hu/content/ab/d2/2851ef7557171c636e876d5c7d19495f8421.md)
+
+### Say (Deprecated) (Mondd (elavult))
 
 - `instructions.md` ([English](https://github.com/exercism/lua/blob/main/exercises/practice/say/.docs/instructions.md)): [Latest](../../../locales/hu/content/32/51/c519acefd3c98f5ecf6edf4cb11db4290468.md)
   - [`ad3d347782`](../../../locales/hu/content/ad/3d/347782e2cbdd3e40cdabde2b31c5bc18fc41.md)

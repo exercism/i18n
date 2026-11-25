@@ -116,7 +116,7 @@
   "exercise:minesweeper:name": "Сапер",
   "exercise:ocr-numbers:name": "Числа OCR",
   "exercise:rail-fence-cipher:name": "Шифр паркану",
-  "exercise:say:name": "Вимова",
+  "exercise:say:name": "Вимова (застаріла)",
   "exercise:transpose:name": "Транспонування",
   "exercise:word-search:name": "Пошук слів",
   "exercise:alphametics:name": "Алфаметика",
@@ -381,5 +381,8 @@
   "doc:tests:title": "Тестування на треку Lua",
   "doc:tests:blurb": "Дізнайтеся, як тестувати свої вправи з Lua на Exercism",
   "doc:resources:title": "Корисні ресурси з Lua",
-  "doc:resources:blurb": "Добірка корисних ресурсів, які допоможуть опанувати Lua"
+  "doc:resources:blurb": "Добірка корисних ресурсів, які допоможуть опанувати Lua",
+  "exercise:say-numbers:name": "Вимова",
+  "exercise:say-numbers:blurb": "За заданим числом від 0 до 999 999 999 999 запишіть це число словами англійською.",
+  "exercise:say-numbers:source": "Варіація на тему JavaRanch CattleDrive, завдання 4"
 }

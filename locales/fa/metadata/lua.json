@@ -116,7 +116,7 @@
   "exercise:minesweeper:name": "مین‌یاب",
   "exercise:ocr-numbers:name": "اعداد OCR",
   "exercise:rail-fence-cipher:name": "رمز حصار ریلی",
-  "exercise:say:name": "گفتن",
+  "exercise:say:name": "گفتن (منسوخ‌شده)",
   "exercise:transpose:name": "ترانهاده",
   "exercise:word-search:name": "جست‌وجوی کلمه",
   "exercise:alphametics:name": "آلفامتیک",
@@ -381,5 +381,8 @@
   "doc:tests:title": "Testing در مسیر Lua",
   "doc:tests:blurb": "یاد بگیرید چطور تمرین‌های Lua خود را در Exercism test کنید",
   "doc:resources:title": "منابع مفید Lua",
-  "doc:resources:blurb": "مجموعه‌ای از منابع مفید که به شما در تسلط بر Lua کمک می‌کند"
+  "doc:resources:blurb": "مجموعه‌ای از منابع مفید که به شما در تسلط بر Lua کمک می‌کند",
+  "exercise:say-numbers:name": "گفتن",
+  "exercise:say-numbers:blurb": "با گرفتن عددی از ۰ تا ۹۹۹٬۹۹۹٬۹۹۹٬۹۹۹، آن عدد را به حروف انگلیسی بنویسید.",
+  "exercise:say-numbers:source": "نسخه‌ای متفاوت از JavaRanch CattleDrive، Assignment 4"
 }

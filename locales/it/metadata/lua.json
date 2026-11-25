@@ -116,7 +116,7 @@
   "exercise:minesweeper:name": "Campo minato",
   "exercise:ocr-numbers:name": "Numeri OCR",
   "exercise:rail-fence-cipher:name": "Cifrario a recinzione",
-  "exercise:say:name": "Pronuncia",
+  "exercise:say:name": "Pronuncia (deprecata)",
   "exercise:transpose:name": "Trasposizione",
   "exercise:word-search:name": "Ricerca di parole",
   "exercise:alphametics:name": "Alfametica",
@@ -381,5 +381,8 @@
   "doc:tests:title": "Testare nella track di Lua",
   "doc:tests:blurb": "Scopri come testare i tuoi esercizi di Lua su Exercism",
   "doc:resources:title": "Risorse utili per Lua",
-  "doc:resources:blurb": "Una raccolta di risorse utili per aiutarti a padroneggiare Lua"
+  "doc:resources:blurb": "Una raccolta di risorse utili per aiutarti a padroneggiare Lua",
+  "exercise:say-numbers:name": "Pronuncia",
+  "exercise:say-numbers:blurb": "Dato un numero da 0 a 999.999.999.999, scrivi quel numero a parole in inglese.",
+  "exercise:say-numbers:source": "Una variazione sulla JavaRanch CattleDrive, Assignment 4"
 }

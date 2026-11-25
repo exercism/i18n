@@ -116,7 +116,7 @@
   "exercise:minesweeper:name": "踩地雷",
   "exercise:ocr-numbers:name": "OCR 數字",
   "exercise:rail-fence-cipher:name": "柵欄密碼",
-  "exercise:say:name": "說出來",
+  "exercise:say:name": "說出來（已棄用）",
   "exercise:transpose:name": "轉置",
   "exercise:word-search:name": "單字搜尋",
   "exercise:alphametics:name": "字母算術",
@@ -381,5 +381,8 @@
   "doc:tests:title": "在 Lua 軌道上測試",
   "doc:tests:blurb": "了解如何在 Exercism 上測試你的 Lua 練習。",
   "doc:resources:title": "實用的 Lua 資源",
-  "doc:resources:blurb": "精選實用資源，幫助你精通 Lua。"
+  "doc:resources:blurb": "精選實用資源，幫助你精通 Lua。",
+  "exercise:say-numbers:name": "說出來",
+  "exercise:say-numbers:blurb": "給定一個 0 到 999,999,999,999 之間的數字，用英文拼出這個數字。",
+  "exercise:say-numbers:source": "改編自 JavaRanch CattleDrive 的作業 4"
 }

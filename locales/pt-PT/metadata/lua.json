@@ -116,7 +116,7 @@
   "exercise:minesweeper:name": "Campo minado",
   "exercise:ocr-numbers:name": "Números OCR",
   "exercise:rail-fence-cipher:name": "Cifra de cerca",
-  "exercise:say:name": "Diz",
+  "exercise:say:name": "Diz (Descontinuado)",
   "exercise:transpose:name": "Transposição",
   "exercise:word-search:name": "Sopa de Letras",
   "exercise:alphametics:name": "Alfamética",
@@ -381,5 +381,8 @@
   "doc:tests:title": "Testar no percurso de Lua",
   "doc:tests:blurb": "Aprende a testar os teus exercícios de Lua no Exercism",
   "doc:resources:title": "Recursos úteis para Lua",
-  "doc:resources:blurb": "Uma coleção de recursos úteis para te ajudar a dominar a Lua"
+  "doc:resources:blurb": "Uma coleção de recursos úteis para te ajudar a dominar a Lua",
+  "exercise:say-numbers:name": "Diz",
+  "exercise:say-numbers:blurb": "Dado um número de 0 a 999 999 999 999, escreve esse número por extenso em inglês.",
+  "exercise:say-numbers:source": "Uma variação do JavaRanch CattleDrive, Tarefa 4"
 }

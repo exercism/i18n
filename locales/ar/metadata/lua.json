@@ -116,7 +116,7 @@
   "exercise:minesweeper:name": "كانسة الألغام",
   "exercise:ocr-numbers:name": "أرقام التعرّف الضوئي (OCR)",
   "exercise:rail-fence-cipher:name": "شيفرة السياج",
-  "exercise:say:name": "قل",
+  "exercise:say:name": "قل (مهجور)",
   "exercise:transpose:name": "التبديل",
   "exercise:word-search:name": "البحث عن الكلمات",
   "exercise:alphametics:name": "Alphametics",
@@ -381,5 +381,8 @@
   "doc:tests:title": "الاختبار في مسار Lua",
   "doc:tests:blurb": "تعرّف على كيفية اختبار تمارين Lua الخاصة بك على Exercism",
   "doc:resources:title": "موارد Lua المفيدة",
-  "doc:resources:blurb": "مجموعة من الموارد المفيدة لمساعدتك على إتقان Lua"
+  "doc:resources:blurb": "مجموعة من الموارد المفيدة لمساعدتك على إتقان Lua",
+  "exercise:say-numbers:name": "قل",
+  "exercise:say-numbers:blurb": "إذا أُعطيت عددًا من 0 إلى 999,999,999,999، فاكتب هذا العدد بالحروف بالإنجليزية.",
+  "exercise:say-numbers:source": "تنويع على JavaRanch CattleDrive، Assignment 4"
 }

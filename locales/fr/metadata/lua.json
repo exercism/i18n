@@ -116,7 +116,7 @@
   "exercise:minesweeper:name": "Démineur",
   "exercise:ocr-numbers:name": "Nombres OCR",
   "exercise:rail-fence-cipher:name": "Chiffre des rails",
-  "exercise:say:name": "Dis",
+  "exercise:say:name": "Dis (déprécié)",
   "exercise:transpose:name": "Transpose",
   "exercise:word-search:name": "Mots mêlés",
   "exercise:alphametics:name": "Alphamétique",
@@ -381,5 +381,8 @@
   "doc:tests:title": "Tester sur le parcours Lua",
   "doc:tests:blurb": "Apprends à tester tes exercices Lua sur Exercism",
   "doc:resources:title": "Ressources utiles pour Lua",
-  "doc:resources:blurb": "Une collection de ressources utiles pour t'aider à maîtriser Lua"
+  "doc:resources:blurb": "Une collection de ressources utiles pour t'aider à maîtriser Lua",
+  "exercise:say-numbers:name": "Dis",
+  "exercise:say-numbers:blurb": "Étant donné un nombre de 0 à 999 999 999 999, écrire ce nombre en toutes lettres en anglais.",
+  "exercise:say-numbers:source": "Une variation sur le JavaRanch CattleDrive, Assignment 4"
 }

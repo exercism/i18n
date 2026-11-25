@@ -444,6 +444,11 @@ This page is generated from [the index](../../json/ar/lua.json) by `scripts/buil
 
 ### Say (قل)
 
+- `instructions.md` ([English](https://github.com/exercism/lua/blob/main/exercises/practice/say-numbers/.docs/instructions.md)): [Latest](../../../locales/ar/content/32/51/c519acefd3c98f5ecf6edf4cb11db4290468.md)
+- `introduction.md` ([English](https://github.com/exercism/lua/blob/main/exercises/practice/say-numbers/.docs/introduction.md)): [Latest](../../../locales/ar/content/ab/d2/2851ef7557171c636e876d5c7d19495f8421.md)
+
+### Say (Deprecated) (قل (مهجور))
+
 - `instructions.md` ([English](https://github.com/exercism/lua/blob/main/exercises/practice/say/.docs/instructions.md)): [Latest](../../../locales/ar/content/32/51/c519acefd3c98f5ecf6edf4cb11db4290468.md)
 - `introduction.md` ([English](https://github.com/exercism/lua/blob/main/exercises/practice/say/.docs/introduction.md)): [Latest](../../../locales/ar/content/ab/d2/2851ef7557171c636e876d5c7d19495f8421.md)
 

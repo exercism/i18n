@@ -116,7 +116,7 @@
   "exercise:minesweeper:name": "মাইনসুইপার",
   "exercise:ocr-numbers:name": "OCR সংখ্যা",
   "exercise:rail-fence-cipher:name": "রেল ফেন্স সাইফার",
-  "exercise:say:name": "বলুন",
+  "exercise:say:name": "বলুন (ডেপ্রিকেটেড)",
   "exercise:transpose:name": "ট্রান্সপোজ",
   "exercise:word-search:name": "শব্দ খোঁজা",
   "exercise:alphametics:name": "অ্যালফামেটিকস",
@@ -381,5 +381,8 @@
   "doc:tests:title": "Lua ট্র্যাকে টেস্টিং",
   "doc:tests:blurb": "Exercism-এ আপনার Lua অনুশীলনী কীভাবে টেস্ট করবেন তা শিখুন",
   "doc:resources:title": "উপযোগী Lua রিসোর্স",
-  "doc:resources:blurb": "Lua আয়ত্ত করতে সাহায্য করবে এমন উপযোগী রিসোর্সের একটি সংগ্রহ"
+  "doc:resources:blurb": "Lua আয়ত্ত করতে সাহায্য করবে এমন উপযোগী রিসোর্সের একটি সংগ্রহ",
+  "exercise:say-numbers:name": "বলুন",
+  "exercise:say-numbers:blurb": "০ থেকে ৯৯৯,৯৯৯,৯৯৯,৯৯৯ পর্যন্ত একটি সংখ্যা দেওয়া হলে সেই সংখ্যাটি ইংরেজিতে বানান করে লিখুন।",
+  "exercise:say-numbers:source": "JavaRanch CattleDrive, Assignment 4-এর একটি ভিন্ন রূপ"
 }
