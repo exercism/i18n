@@ -97,7 +97,7 @@
   "exercise:atbash-cipher:name": "Cifrario Atbash",
   "exercise:pig-latin:name": "Pig Latin",
   "exercise:robot-name:name": "Nome del robot",
-  "exercise:say:name": "Pronuncia",
+  "exercise:say:name": "Pronuncia (deprecato)",
   "exercise:dominoes:name": "Domino",
   "exercise:accumulate:name": "Accumula",
   "exercise:complex-numbers:name": "Numeri complessi",

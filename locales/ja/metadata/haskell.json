@@ -97,7 +97,7 @@
   "exercise:atbash-cipher:name": "アトバシュ暗号",
   "exercise:pig-latin:name": "ピッグ・ラテン",
   "exercise:robot-name:name": "ロボットの名前",
-  "exercise:say:name": "言う",
+  "exercise:say:name": "言う（非推奨）",
   "exercise:dominoes:name": "ドミノ",
   "exercise:accumulate:name": "累積",
   "exercise:complex-numbers:name": "複素数",

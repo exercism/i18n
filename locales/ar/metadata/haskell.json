@@ -97,7 +97,7 @@
   "exercise:atbash-cipher:name": "شفرة أتبش",
   "exercise:pig-latin:name": "Pig Latin",
   "exercise:robot-name:name": "اسم الروبوت",
-  "exercise:say:name": "قل",
+  "exercise:say:name": "قل (مهمل)",
   "exercise:dominoes:name": "الدومينو",
   "exercise:accumulate:name": "التجميع",
   "exercise:complex-numbers:name": "الأعداد المركبة",

@@ -97,7 +97,7 @@
   "exercise:atbash-cipher:name": "埃特巴什密碼",
   "exercise:pig-latin:name": "兒童黑話",
   "exercise:robot-name:name": "機器人名稱",
-  "exercise:say:name": "說出來",
+  "exercise:say:name": "說出來（已棄用）",
   "exercise:dominoes:name": "骨牌",
   "exercise:accumulate:name": "累加",
   "exercise:complex-numbers:name": "複數",
