@@ -489,7 +489,8 @@ This page is generated from [the index](../../json/ko/c.json) by `scripts/build-
 
 ### How to learn C (C를 배우는 방법)
 
-- `LEARNING.md` ([English](https://github.com/exercism/c/blob/main/docs/LEARNING.md)): [Latest](../../../locales/ko/content/22/ea/6b37d680d06079ea12da1c072b62dd28f8e0.md)
+- `LEARNING.md` ([English](https://github.com/exercism/c/blob/main/docs/LEARNING.md)): [Latest](../../../locales/ko/content/f8/e0/5a5972d22430d63d1ed8d4d494bcdb529f3e.md)
+  - [`22ea6b37d6`](../../../locales/ko/content/22/ea/6b37d680d06079ea12da1c072b62dd28f8e0.md)
   - [`a2f027da18`](../../../locales/ko/content/a2/f0/27da1860ef88fdd381e7088f1db3c8efa2b2.md)
 
 ### Installing C locally (C를 로컬에 설치하기)
