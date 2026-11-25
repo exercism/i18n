@@ -78,7 +78,7 @@
     "exercises/practice/list-ops": {"en":"List Ops","fr":"Opérations sur les tableaux"},
     "exercises/practice/luhn": {"en":"Luhn","fr":"Luhn"},
     "exercises/practice/matching-brackets": {"en":"Matching Brackets","fr":"Parenthèses équilibrées"},
-    "exercises/practice/matrix": {"en":"Matrix","fr":"Matrice"},
+    "exercises/practice/matrix": {"en":"Matrix (deprecated)","fr":"Matrice (dépréciée)"},
     "exercises/practice/meetup": {"en":"Meetup","fr":"Rencontre"},
     "exercises/practice/minesweeper": {"en":"Minesweeper","fr":"Démineur"},
     "exercises/practice/nth-prime": {"en":"Nth Prime","fr":"N-ième nombre premier"},

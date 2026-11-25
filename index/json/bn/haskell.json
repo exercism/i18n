@@ -78,7 +78,7 @@
     "exercises/practice/list-ops": {"bn":"অ্যারে অপারেশন","en":"List Ops"},
     "exercises/practice/luhn": {"bn":"Luhn","en":"Luhn"},
     "exercises/practice/matching-brackets": {"bn":"বন্ধনী মেলানো","en":"Matching Brackets"},
-    "exercises/practice/matrix": {"bn":"ম্যাট্রিক্স","en":"Matrix"},
+    "exercises/practice/matrix": {"bn":"ম্যাট্রিক্স (ডেপ্রিকেটেড)","en":"Matrix (deprecated)"},
     "exercises/practice/meetup": {"bn":"মিটআপ","en":"Meetup"},
     "exercises/practice/minesweeper": {"bn":"মাইনসুইপার","en":"Minesweeper"},
     "exercises/practice/nth-prime": {"bn":"n-তম মৌলিক সংখ্যা","en":"Nth Prime"},

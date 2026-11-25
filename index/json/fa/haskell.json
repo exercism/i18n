@@ -78,7 +78,7 @@
     "exercises/practice/list-ops": {"en":"List Ops","fa":"عملیات لیست"},
     "exercises/practice/luhn": {"en":"Luhn","fa":"Luhn"},
     "exercises/practice/matching-brackets": {"en":"Matching Brackets","fa":"تطبیق پرانتزها"},
-    "exercises/practice/matrix": {"en":"Matrix","fa":"ماتریس"},
+    "exercises/practice/matrix": {"en":"Matrix (deprecated)","fa":"ماتریس (منسوخ)"},
     "exercises/practice/meetup": {"en":"Meetup","fa":"دورهمی"},
     "exercises/practice/minesweeper": {"en":"Minesweeper","fa":"مین‌یاب"},
     "exercises/practice/nth-prime": {"en":"Nth Prime","fa":"عدد اولِ n"},

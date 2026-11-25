@@ -78,7 +78,7 @@
     "exercises/practice/list-ops": {"en":"List Ops","pt-PT":"Operações com listas"},
     "exercises/practice/luhn": {"en":"Luhn","pt-PT":"Luhn"},
     "exercises/practice/matching-brackets": {"en":"Matching Brackets","pt-PT":"Parênteses correspondentes"},
-    "exercises/practice/matrix": {"en":"Matrix","pt-PT":"Matriz"},
+    "exercises/practice/matrix": {"en":"Matrix (deprecated)","pt-PT":"Matriz (obsoleto)"},
     "exercises/practice/meetup": {"en":"Meetup","pt-PT":"Encontro"},
     "exercises/practice/minesweeper": {"en":"Minesweeper","pt-PT":"Campo minado"},
     "exercises/practice/nth-prime": {"en":"Nth Prime","pt-PT":"N-ésimo primo"},

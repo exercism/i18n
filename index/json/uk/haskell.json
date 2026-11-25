@@ -78,7 +78,7 @@
     "exercises/practice/list-ops": {"en":"List Ops","uk":"Операції з масивом"},
     "exercises/practice/luhn": {"en":"Luhn","uk":"Luhn"},
     "exercises/practice/matching-brackets": {"en":"Matching Brackets","uk":"Збіг дужок"},
-    "exercises/practice/matrix": {"en":"Matrix","uk":"Матриця"},
+    "exercises/practice/matrix": {"en":"Matrix (deprecated)","uk":"Матриця (застаріла)"},
     "exercises/practice/meetup": {"en":"Meetup","uk":"Зустріч"},
     "exercises/practice/minesweeper": {"en":"Minesweeper","uk":"Сапер"},
     "exercises/practice/nth-prime": {"en":"Nth Prime","uk":"N-те просте число"},

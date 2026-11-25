@@ -291,7 +291,7 @@ This page is generated from [the index](../../json/el/haskell.json) by `scripts/
 - `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/grid/.docs/instructions.md)): [Latest](../../../locales/el/content/da/de/a8acb59fba30ed9676608619dd52a12c6826.md)
 - `instructions.append.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/grid/.docs/instructions.append.md)): [Latest](../../../locales/el/content/f2/dc/18043457445a92082ecc3d88d0b3c8b199ee.md)
 
-### Matrix (Πίνακας)
+### Matrix (deprecated) (Πίνακας (παρωχημένος))
 
 - `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/matrix/.docs/instructions.md)): [Latest](../../../locales/el/content/da/de/a8acb59fba30ed9676608619dd52a12c6826.md)
 - `instructions.append.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/matrix/.docs/instructions.append.md)): [Latest](../../../locales/el/content/f2/dc/18043457445a92082ecc3d88d0b3c8b199ee.md)

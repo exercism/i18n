@@ -65,7 +65,7 @@
   "exercise:alphametics:name": "Алфаметика",
   "exercise:beer-song:name": "Пісня про пиво",
   "exercise:list-ops:name": "Операції з масивом",
-  "exercise:matrix:name": "Матриця",
+  "exercise:matrix:name": "Матриця (застаріла)",
   "exercise:binary-search:name": "Двійковий пошук",
   "exercise:parallel-letter-frequency:name": "Паралельний підрахунок частоти літер",
   "exercise:transpose:name": "Транспонування",

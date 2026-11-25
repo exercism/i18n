@@ -78,7 +78,7 @@
     "exercises/practice/list-ops": {"el":"Λειτουργίες λίστας","en":"List Ops"},
     "exercises/practice/luhn": {"el":"Luhn","en":"Luhn"},
     "exercises/practice/matching-brackets": {"el":"Αντιστοίχιση αγκυλών","en":"Matching Brackets"},
-    "exercises/practice/matrix": {"el":"Πίνακας","en":"Matrix"},
+    "exercises/practice/matrix": {"el":"Πίνακας (παρωχημένος)","en":"Matrix (deprecated)"},
     "exercises/practice/meetup": {"el":"Συνάντηση","en":"Meetup"},
     "exercises/practice/minesweeper": {"el":"Ναρκαλιευτής","en":"Minesweeper"},
     "exercises/practice/nth-prime": {"el":"Νιοστός πρώτος αριθμός","en":"Nth Prime"},

@@ -78,7 +78,7 @@
     "exercises/practice/list-ops": {"en":"List Ops","ja":"配列操作"},
     "exercises/practice/luhn": {"en":"Luhn","ja":"Luhn"},
     "exercises/practice/matching-brackets": {"en":"Matching Brackets","ja":"括弧の対応"},
-    "exercises/practice/matrix": {"en":"Matrix","ja":"行列"},
+    "exercises/practice/matrix": {"en":"Matrix (deprecated)","ja":"行列（非推奨）"},
     "exercises/practice/meetup": {"en":"Meetup","ja":"ミートアップ"},
     "exercises/practice/minesweeper": {"en":"Minesweeper","ja":"マインスイーパー"},
     "exercises/practice/nth-prime": {"en":"Nth Prime","ja":"N番目の素数"},

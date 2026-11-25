@@ -65,7 +65,7 @@
   "exercise:alphametics:name": "알파메틱스",
   "exercise:beer-song:name": "맥주 노래",
   "exercise:list-ops:name": "배열 연산",
-  "exercise:matrix:name": "행렬",
+  "exercise:matrix:name": "행렬 (지원 중단됨)",
   "exercise:binary-search:name": "이진 탐색",
   "exercise:parallel-letter-frequency:name": "병렬 문자 빈도",
   "exercise:transpose:name": "전치",

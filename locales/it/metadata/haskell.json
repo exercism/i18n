@@ -65,7 +65,7 @@
   "exercise:alphametics:name": "Alfametica",
   "exercise:beer-song:name": "Canzone della birra",
   "exercise:list-ops:name": "Operazioni su array",
-  "exercise:matrix:name": "Matrice",
+  "exercise:matrix:name": "Matrice (deprecata)",
   "exercise:binary-search:name": "Ricerca binaria",
   "exercise:parallel-letter-frequency:name": "Frequenza delle lettere in parallelo",
   "exercise:transpose:name": "Trasposizione",

@@ -65,7 +65,7 @@
   "exercise:alphametics:name": "字母算術",
   "exercise:beer-song:name": "啤酒之歌",
   "exercise:list-ops:name": "陣列操作",
-  "exercise:matrix:name": "矩陣",
+  "exercise:matrix:name": "矩陣（已棄用）",
   "exercise:binary-search:name": "二分搜尋",
   "exercise:parallel-letter-frequency:name": "平行字母頻率",
   "exercise:transpose:name": "轉置",

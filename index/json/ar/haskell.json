@@ -78,7 +78,7 @@
     "exercises/practice/list-ops": {"ar":"عمليات القوائم","en":"List Ops"},
     "exercises/practice/luhn": {"ar":"Luhn","en":"Luhn"},
     "exercises/practice/matching-brackets": {"ar":"الأقواس المتطابقة","en":"Matching Brackets"},
-    "exercises/practice/matrix": {"ar":"المصفوفة","en":"Matrix"},
+    "exercises/practice/matrix": {"ar":"المصفوفة (مهملة)","en":"Matrix (deprecated)"},
     "exercises/practice/meetup": {"ar":"اللقاء","en":"Meetup"},
     "exercises/practice/minesweeper": {"ar":"كانسة الألغام","en":"Minesweeper"},
     "exercises/practice/nth-prime": {"ar":"العدد الأولي رقم `n`","en":"Nth Prime"},

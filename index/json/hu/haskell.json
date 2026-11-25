@@ -78,7 +78,7 @@
     "exercises/practice/list-ops": {"en":"List Ops","hu":"Listaműveletek"},
     "exercises/practice/luhn": {"en":"Luhn","hu":"Luhn"},
     "exercises/practice/matching-brackets": {"en":"Matching Brackets","hu":"Zárójelpárosítás"},
-    "exercises/practice/matrix": {"en":"Matrix","hu":"Mátrix"},
+    "exercises/practice/matrix": {"en":"Matrix (deprecated)","hu":"Mátrix (elavult)"},
     "exercises/practice/meetup": {"en":"Meetup","hu":"Találkozó"},
     "exercises/practice/minesweeper": {"en":"Minesweeper","hu":"Aknakereső"},
     "exercises/practice/nth-prime": {"en":"Nth Prime","hu":"N-edik prímszám"},
