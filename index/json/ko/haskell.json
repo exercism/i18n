@@ -35,7 +35,7 @@
     "exercises/practice/beer-song": {"en":"Beer Song","ko":"맥주 노래"},
     "exercises/practice/binary": {"en":"Binary","ko":"이진법"},
     "exercises/practice/binary-chop": {"en":"Binary Search","ko":"이진 탐색"},
-    "exercises/practice/binary-search": {"en":"Binary Search","ko":"이진 탐색"},
+    "exercises/practice/binary-search": {"en":"Binary Search (deprecated)","ko":"이진 탐색 (사용 중단)"},
     "exercises/practice/binary-search-tree": {"en":"Binary Search Tree","ko":"이진 탐색 트리"},
     "exercises/practice/bob": {"en":"Bob","ko":"Bob"},
     "exercises/practice/book-store": {"en":"Book Store","ko":"서점"},

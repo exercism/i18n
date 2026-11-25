@@ -35,7 +35,7 @@
     "exercises/practice/beer-song": {"en":"Beer Song","it":"Canzone della birra"},
     "exercises/practice/binary": {"en":"Binary","it":"Binario"},
     "exercises/practice/binary-chop": {"en":"Binary Search","it":"Ricerca binaria"},
-    "exercises/practice/binary-search": {"en":"Binary Search","it":"Ricerca binaria"},
+    "exercises/practice/binary-search": {"en":"Binary Search (deprecated)","it":"Ricerca binaria (deprecata)"},
     "exercises/practice/binary-search-tree": {"en":"Binary Search Tree","it":"Albero binario di ricerca"},
     "exercises/practice/bob": {"en":"Bob","it":"Bob"},
     "exercises/practice/book-store": {"en":"Book Store","it":"Libreria"},

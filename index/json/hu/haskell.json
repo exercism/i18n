@@ -35,7 +35,7 @@
     "exercises/practice/beer-song": {"en":"Beer Song","hu":"Sördal"},
     "exercises/practice/binary": {"en":"Binary","hu":"Bináris"},
     "exercises/practice/binary-chop": {"en":"Binary Search","hu":"Bináris keresés"},
-    "exercises/practice/binary-search": {"en":"Binary Search","hu":"Bináris keresés"},
+    "exercises/practice/binary-search": {"en":"Binary Search (deprecated)","hu":"Bináris keresés (elavult)"},
     "exercises/practice/binary-search-tree": {"en":"Binary Search Tree","hu":"Bináris keresőfa"},
     "exercises/practice/bob": {"en":"Bob","hu":"Bob"},
     "exercises/practice/book-store": {"en":"Book Store","hu":"Könyvesbolt"},

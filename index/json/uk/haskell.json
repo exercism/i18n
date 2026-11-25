@@ -35,7 +35,7 @@
     "exercises/practice/beer-song": {"en":"Beer Song","uk":"Пісня про пиво"},
     "exercises/practice/binary": {"en":"Binary","uk":"Двійкове число"},
     "exercises/practice/binary-chop": {"en":"Binary Search","uk":"Двійковий пошук"},
-    "exercises/practice/binary-search": {"en":"Binary Search","uk":"Двійковий пошук"},
+    "exercises/practice/binary-search": {"en":"Binary Search (deprecated)","uk":"Двійковий пошук (застаріла)"},
     "exercises/practice/binary-search-tree": {"en":"Binary Search Tree","uk":"Двійкове дерево пошуку"},
     "exercises/practice/bob": {"en":"Bob","uk":"Bob"},
     "exercises/practice/book-store": {"en":"Book Store","uk":"Книгарня"},

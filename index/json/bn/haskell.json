@@ -35,7 +35,7 @@
     "exercises/practice/beer-song": {"bn":"বিয়ারের গান","en":"Beer Song"},
     "exercises/practice/binary": {"bn":"বাইনারি","en":"Binary"},
     "exercises/practice/binary-chop": {"bn":"বাইনারি সার্চ","en":"Binary Search"},
-    "exercises/practice/binary-search": {"bn":"বাইনারি সার্চ","en":"Binary Search"},
+    "exercises/practice/binary-search": {"bn":"বাইনারি সার্চ (অপ্রচলিত)","en":"Binary Search (deprecated)"},
     "exercises/practice/binary-search-tree": {"bn":"বাইনারি সার্চ ট্রি","en":"Binary Search Tree"},
     "exercises/practice/bob": {"bn":"Bob","en":"Bob"},
     "exercises/practice/book-store": {"bn":"বইয়ের দোকান","en":"Book Store"},

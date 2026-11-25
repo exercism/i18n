@@ -35,7 +35,7 @@
     "exercises/practice/beer-song": {"el":"Τραγούδι της Μπίρας","en":"Beer Song"},
     "exercises/practice/binary": {"el":"Δυαδικό","en":"Binary"},
     "exercises/practice/binary-chop": {"el":"Δυαδική Αναζήτηση","en":"Binary Search"},
-    "exercises/practice/binary-search": {"el":"Δυαδική Αναζήτηση","en":"Binary Search"},
+    "exercises/practice/binary-search": {"el":"Δυαδική Αναζήτηση (παρωχημένο)","en":"Binary Search (deprecated)"},
     "exercises/practice/binary-search-tree": {"el":"Δυαδικό Δέντρο Αναζήτησης","en":"Binary Search Tree"},
     "exercises/practice/bob": {"el":"Bob","en":"Bob"},
     "exercises/practice/book-store": {"el":"Βιβλιοπωλείο","en":"Book Store"},

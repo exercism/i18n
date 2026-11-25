@@ -35,7 +35,7 @@
     "exercises/practice/beer-song": {"en":"Beer Song","zh-CN":"啤酒歌"},
     "exercises/practice/binary": {"en":"Binary","zh-CN":"二进制"},
     "exercises/practice/binary-chop": {"en":"Binary Search","zh-CN":"二分查找"},
-    "exercises/practice/binary-search": {"en":"Binary Search","zh-CN":"二分查找"},
+    "exercises/practice/binary-search": {"en":"Binary Search (deprecated)","zh-CN":"二分查找（已弃用）"},
     "exercises/practice/binary-search-tree": {"en":"Binary Search Tree","zh-CN":"二叉搜索树"},
     "exercises/practice/bob": {"en":"Bob","zh-CN":"Bob"},
     "exercises/practice/book-store": {"en":"Book Store","zh-CN":"书店"},

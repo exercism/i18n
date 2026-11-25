@@ -35,7 +35,7 @@
     "exercises/practice/beer-song": {"en":"Beer Song","fa":"آهنگ آبجو"},
     "exercises/practice/binary": {"en":"Binary","fa":"دودویی"},
     "exercises/practice/binary-chop": {"en":"Binary Search","fa":"جست‌وجوی دودویی"},
-    "exercises/practice/binary-search": {"en":"Binary Search","fa":"جست‌وجوی دودویی"},
+    "exercises/practice/binary-search": {"en":"Binary Search (deprecated)","fa":"جستوجوی دودویی (منسوخ)"},
     "exercises/practice/binary-search-tree": {"en":"Binary Search Tree","fa":"درخت جست‌وجوی دودویی"},
     "exercises/practice/bob": {"en":"Bob","fa":"Bob"},
     "exercises/practice/book-store": {"en":"Book Store","fa":"کتاب‌فروشی"},

@@ -35,7 +35,7 @@
     "exercises/practice/beer-song": {"ar":"أغنية البيرة","en":"Beer Song"},
     "exercises/practice/binary": {"ar":"الثنائي","en":"Binary"},
     "exercises/practice/binary-chop": {"ar":"البحث الثنائي","en":"Binary Search"},
-    "exercises/practice/binary-search": {"ar":"البحث الثنائي","en":"Binary Search"},
+    "exercises/practice/binary-search": {"ar":"البحث الثنائي (مهمَل)","en":"Binary Search (deprecated)"},
     "exercises/practice/binary-search-tree": {"ar":"شجرة البحث الثنائية","en":"Binary Search Tree"},
     "exercises/practice/bob": {"ar":"Bob","en":"Bob"},
     "exercises/practice/book-store": {"ar":"متجر الكتب","en":"Book Store"},

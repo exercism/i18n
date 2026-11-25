@@ -66,7 +66,7 @@
   "exercise:beer-song:name": "ビールの歌",
   "exercise:list-ops:name": "配列操作",
   "exercise:matrix:name": "行列（非推奨）",
-  "exercise:binary-search:name": "二分探索",
+  "exercise:binary-search:name": "二分探索（非推奨）",
   "exercise:parallel-letter-frequency:name": "並列文字頻度",
   "exercise:transpose:name": "転置",
   "exercise:poker:name": "ポーカー",

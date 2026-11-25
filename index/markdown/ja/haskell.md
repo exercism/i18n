@@ -75,7 +75,7 @@ This page is generated from [the index](../../json/ja/haskell.json) by `scripts/
 - `instructions.append.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/binary-chop/.docs/instructions.append.md)): [Latest](../../../locales/ja/content/57/b8/3875d0c005bb2a5dd92b27fe0f7896e7936b.md)
 - `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/binary-chop/.docs/introduction.md)): [Latest](../../../locales/ja/content/03/49/6599e75d565905a3ce892520576b7db35990.md)
 
-### Binary Search (二分探索)
+### Binary Search (deprecated) (二分探索（非推奨）)
 
 - `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/binary-search/.docs/instructions.md)): [Latest](../../../locales/ja/content/12/f4/358ebcd8c63ffc623eca661c55da4419e410.md)
 - `instructions.append.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/binary-search/.docs/instructions.append.md)): [Latest](../../../locales/ja/content/57/b8/3875d0c005bb2a5dd92b27fe0f7896e7936b.md)

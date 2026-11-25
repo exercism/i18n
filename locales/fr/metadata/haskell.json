@@ -65,7 +65,7 @@
   "exercise:beer-song:name": "Chanson de la bière",
   "exercise:list-ops:name": "Opérations sur les tableaux",
   "exercise:matrix:name": "Matrice (dépréciée)",
-  "exercise:binary-search:name": "Recherche binaire",
+  "exercise:binary-search:name": "Recherche binaire (obsolète)",
   "exercise:parallel-letter-frequency:name": "Fréquence des lettres en parallèle",
   "exercise:transpose:name": "Transpose",
   "exercise:poker:name": "Poker",

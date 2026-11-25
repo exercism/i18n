@@ -35,7 +35,7 @@
     "exercises/practice/beer-song": {"en":"Beer Song","ja":"ビールの歌"},
     "exercises/practice/binary": {"en":"Binary","ja":"2進数"},
     "exercises/practice/binary-chop": {"en":"Binary Search","ja":"二分探索"},
-    "exercises/practice/binary-search": {"en":"Binary Search","ja":"二分探索"},
+    "exercises/practice/binary-search": {"en":"Binary Search (deprecated)","ja":"二分探索（非推奨）"},
     "exercises/practice/binary-search-tree": {"en":"Binary Search Tree","ja":"二分探索木"},
     "exercises/practice/bob": {"en":"Bob","ja":"Bob"},
     "exercises/practice/book-store": {"en":"Book Store","ja":"書店"},
