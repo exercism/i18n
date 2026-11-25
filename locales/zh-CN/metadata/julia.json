@@ -477,5 +477,7 @@
   "exercise:rail-fence-cipher:blurb": "实现栅栏密码的编码和解码。",
   "exercise:rail-fence-cipher:source": "Wikipedia",
   "exercise:save-the-cow:name": "拯救奶牛",
-  "exercise:save-the-cow:blurb": "实现一个猜词游戏。"
+  "exercise:save-the-cow:blurb": "实现一个猜词游戏。",
+  "exercise:parallel-letter-frequency:name": "并行字母频率",
+  "exercise:parallel-letter-frequency:blurb": "使用并行计算统计文本中字母出现的频率。"
 }

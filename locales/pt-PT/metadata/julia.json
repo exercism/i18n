@@ -477,5 +477,7 @@
   "exercise:rail-fence-cipher:blurb": "Implementa a codificação e a descodificação da cifra de cerca.",
   "exercise:rail-fence-cipher:source": "Wikipedia",
   "exercise:save-the-cow:name": "Salva a vaca",
-  "exercise:save-the-cow:blurb": "Implementa um jogo de adivinhação de palavras."
+  "exercise:save-the-cow:blurb": "Implementa um jogo de adivinhação de palavras.",
+  "exercise:parallel-letter-frequency:name": "Frequência de letras em paralelo",
+  "exercise:parallel-letter-frequency:blurb": "Conta a frequência das letras em textos recorrendo a computação paralela."
 }

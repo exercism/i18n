@@ -477,5 +477,7 @@
   "exercise:rail-fence-cipher:blurb": "レールフェンス暗号のエンコードとデコードを実装します。",
   "exercise:rail-fence-cipher:source": "Wikipedia",
   "exercise:save-the-cow:name": "牛を救え",
-  "exercise:save-the-cow:blurb": "単語当てゲームを実装します。"
+  "exercise:save-the-cow:blurb": "単語当てゲームを実装します。",
+  "exercise:parallel-letter-frequency:name": "並列文字頻度",
+  "exercise:parallel-letter-frequency:blurb": "並列計算を使って、テキスト中の文字の出現頻度を数えます。"
 }

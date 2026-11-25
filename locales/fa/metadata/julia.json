@@ -477,5 +477,7 @@
   "exercise:rail-fence-cipher:blurb": "رمزگذاری و رمزگشایی رمز حصار ریلی را پیاده‌سازی کنید.",
   "exercise:rail-fence-cipher:source": "Wikipedia",
   "exercise:save-the-cow:name": "گاو را نجات دهید",
-  "exercise:save-the-cow:blurb": "یک بازی حدس کلمه پیاده‌سازی کنید."
+  "exercise:save-the-cow:blurb": "یک بازی حدس کلمه پیاده‌سازی کنید.",
+  "exercise:parallel-letter-frequency:name": "فراوانی موازی حروف",
+  "exercise:parallel-letter-frequency:blurb": "فراوانی حروف را در متن‌ها با استفاده از محاسبات موازی بشمارید."
 }

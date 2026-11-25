@@ -477,5 +477,7 @@
   "exercise:rail-fence-cipher:blurb": "रेल फेंस सिफर के लिए एन्कोडिंग और डिकोडिंग बनाइए।",
   "exercise:rail-fence-cipher:source": "Wikipedia",
   "exercise:save-the-cow:name": "गाय को बचाइए",
-  "exercise:save-the-cow:blurb": "शब्द का अनुमान लगाने वाला खेल बनाइए।"
+  "exercise:save-the-cow:blurb": "शब्द का अनुमान लगाने वाला खेल बनाइए।",
+  "exercise:parallel-letter-frequency:name": "समानांतर अक्षर आवृत्ति",
+  "exercise:parallel-letter-frequency:blurb": "समानांतर गणना का इस्तेमाल करके टेक्स्टों में अक्षरों की आवृत्ति गिनिए।"
 }

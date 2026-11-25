@@ -477,5 +477,7 @@
   "exercise:rail-fence-cipher:blurb": "Implémente l'encodage et le décodage du chiffre des rails.",
   "exercise:rail-fence-cipher:source": "Wikipedia",
   "exercise:save-the-cow:name": "Sauve la vache",
-  "exercise:save-the-cow:blurb": "Implémenter un jeu de devinettes de mots."
+  "exercise:save-the-cow:blurb": "Implémenter un jeu de devinettes de mots.",
+  "exercise:parallel-letter-frequency:name": "Fréquence des lettres en parallèle",
+  "exercise:parallel-letter-frequency:blurb": "Compte la fréquence des lettres dans des textes en utilisant le calcul parallèle."
 }

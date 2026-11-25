@@ -477,5 +477,7 @@
   "exercise:rail-fence-cipher:blurb": "Implementiere das Kodieren und Dekodieren für die Zickzack-Chiffre.",
   "exercise:rail-fence-cipher:source": "Wikipedia",
   "exercise:save-the-cow:name": "Rette die Kuh",
-  "exercise:save-the-cow:blurb": "Implementiere ein Wortratespiel."
+  "exercise:save-the-cow:blurb": "Implementiere ein Wortratespiel.",
+  "exercise:parallel-letter-frequency:name": "Parallele Buchstabenhäufigkeit",
+  "exercise:parallel-letter-frequency:blurb": "Zähle die Häufigkeit von Buchstaben in Texten mithilfe paralleler Berechnung."
 }

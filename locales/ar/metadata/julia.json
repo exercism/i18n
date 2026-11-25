@@ -477,5 +477,7 @@
   "exercise:rail-fence-cipher:blurb": "نفّذ الترميز وفك الترميز لشيفرة السياج.",
   "exercise:rail-fence-cipher:source": "ويكيبيديا",
   "exercise:save-the-cow:name": "أنقذ البقرة",
-  "exercise:save-the-cow:blurb": "نفّذ لعبة تخمين الكلمات."
+  "exercise:save-the-cow:blurb": "نفّذ لعبة تخمين الكلمات.",
+  "exercise:parallel-letter-frequency:name": "تكرار الحروف بالتوازي",
+  "exercise:parallel-letter-frequency:blurb": "احسب تكرار الحروف في النصوص باستخدام الحوسبة المتوازية."
 }

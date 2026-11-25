@@ -477,5 +477,7 @@
   "exercise:rail-fence-cipher:blurb": "Реалізувати кодування та декодування для шифру паркану.",
   "exercise:rail-fence-cipher:source": "Wikipedia",
   "exercise:save-the-cow:name": "Врятуйте корову",
-  "exercise:save-the-cow:blurb": "Реалізуйте гру з угадування слів."
+  "exercise:save-the-cow:blurb": "Реалізуйте гру з угадування слів.",
+  "exercise:parallel-letter-frequency:name": "Паралельний підрахунок частоти літер",
+  "exercise:parallel-letter-frequency:blurb": "Порахуйте частоту літер у текстах, використовуючи паралельні обчислення."
 }

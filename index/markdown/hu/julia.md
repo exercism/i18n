@@ -320,6 +320,10 @@ This page is generated from [the index](../../json/hu/julia.json) by `scripts/bu
   - [`d5698bc2a2`](../../../locales/hu/content/d5/69/8bc2a292baf2fb128de3543b748165088c4f.md)
 - `introduction.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/pangram/.docs/introduction.md)): [Latest](../../../locales/hu/content/32/b6/f1fc3178c36f2677b2d7bbeb35bafd6c786d.md)
 
+### Parallel Letter Frequency (Párhuzamos betűgyakoriság)
+
+- `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/parallel-letter-frequency/.docs/instructions.md)): [Latest](../../../locales/hu/content/61/47/b90af7ffabb5b826dc5a6d0a6439859335c7.md)
+
 ### Pascal's Triangle (Pascal-háromszög)
 
 - `instructions.md` ([English](https://github.com/exercism/julia/blob/main/exercises/practice/pascals-triangle/.docs/instructions.md)): [Latest](../../../locales/hu/content/0f/58/f0069688bc7dfd1a2705cc4382f27a0609dd.md)

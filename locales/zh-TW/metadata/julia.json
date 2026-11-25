@@ -477,5 +477,7 @@
   "exercise:rail-fence-cipher:blurb": "實作柵欄密碼的編碼與解碼。",
   "exercise:rail-fence-cipher:source": "Wikipedia",
   "exercise:save-the-cow:name": "拯救乳牛",
-  "exercise:save-the-cow:blurb": "實作一個猜字遊戲。"
+  "exercise:save-the-cow:blurb": "實作一個猜字遊戲。",
+  "exercise:parallel-letter-frequency:name": "平行字母頻率",
+  "exercise:parallel-letter-frequency:blurb": "使用平行運算計算文本中字母出現的頻率。"
 }
