@@ -66,7 +66,7 @@
   "exercise:beer-song:name": "啤酒歌",
   "exercise:list-ops:name": "数组操作",
   "exercise:matrix:name": "矩阵（已弃用）",
-  "exercise:binary-search:name": "二分查找",
+  "exercise:binary-search:name": "二分查找（已弃用）",
   "exercise:parallel-letter-frequency:name": "并行字母频率",
   "exercise:transpose:name": "转置",
   "exercise:poker:name": "扑克",
