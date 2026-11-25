@@ -627,7 +627,8 @@ This page is generated from [the index](../../json/pt-PT/haskell.json) by `scrip
 ### Temperature (Temperatura)
 
 - `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/concept/temperature/.docs/instructions.md)): [Latest](../../../locales/pt-PT/content/60/bf/97baa7b1ca3deb60f1e0b0b7273c9cf60f91.md)
-- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/concept/temperature/.docs/introduction.md)): [Latest](../../../locales/pt-PT/content/87/f9/2aff41910ccb539f4435c4df3cceb560751c.md)
+- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/concept/temperature/.docs/introduction.md)): [Latest](../../../locales/pt-PT/content/94/bf/a9373bdaa686e414828917ade871e0f77ae8.md)
+  - [`87f92aff41`](../../../locales/pt-PT/content/87/f9/2aff41910ccb539f4435c4df3cceb560751c.md)
 - `hints.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/concept/temperature/.docs/hints.md)): [Latest](../../../locales/pt-PT/content/ae/df/b9ee4f35b9fa77a9121159c6f50b288fb27b.md)
 
 ### Valentines Day (Dia dos Namorados)
@@ -665,8 +666,10 @@ This page is generated from [the index](../../json/pt-PT/haskell.json) by `scrip
 
 ### Numbers (Números)
 
-- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/numbers/introduction.md)): [Latest](../../../locales/pt-PT/content/87/f9/2aff41910ccb539f4435c4df3cceb560751c.md)
-- `about.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/numbers/about.md)): [Latest](../../../locales/pt-PT/content/61/b9/7be477f6f11d172233a6d0d5c1016f853e6d.md)
+- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/numbers/introduction.md)): [Latest](../../../locales/pt-PT/content/94/bf/a9373bdaa686e414828917ade871e0f77ae8.md)
+  - [`87f92aff41`](../../../locales/pt-PT/content/87/f9/2aff41910ccb539f4435c4df3cceb560751c.md)
+- `about.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/numbers/about.md)): [Latest](../../../locales/pt-PT/content/19/fb/2fb09f922776714c2476719261ff3485b9c1.md)
+  - [`61b97be477`](../../../locales/pt-PT/content/61/b9/7be477f6f11d172233a6d0d5c1016f853e6d.md)
 
 ### Pattern Matching (Correspondência de padrões)
 
