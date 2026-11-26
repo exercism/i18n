@@ -478,8 +478,10 @@ This page is generated from [the index](../../json/ko/bash.json) by `scripts/bui
 
 ### Commands and Arguments (명령과 인자)
 
-- `introduction.md` ([English](https://github.com/exercism/bash/blob/main/concepts/commands-and-arguments/introduction.md)): [Latest](../../../locales/ko/content/7f/a6/42b6d90b755b5daf483893d502e0f54949d7.md)
-- `about.md` ([English](https://github.com/exercism/bash/blob/main/concepts/commands-and-arguments/about.md)): [Latest](../../../locales/ko/content/ec/ac/6bfa633774e26e59d2ab8e3204a731bc28b1.md)
+- `introduction.md` ([English](https://github.com/exercism/bash/blob/main/concepts/commands-and-arguments/introduction.md)): [Latest](../../../locales/ko/content/8c/11/0b825df0d2bdde17f2a393a7cc8c6438e004.md)
+  - [`7fa642b6d9`](../../../locales/ko/content/7f/a6/42b6d90b755b5daf483893d502e0f54949d7.md)
+- `about.md` ([English](https://github.com/exercism/bash/blob/main/concepts/commands-and-arguments/about.md)): [Latest](../../../locales/ko/content/a8/05/1cedc95e428b1be9cb10c8e28bdaf93e3fa5.md)
+  - [`ecac6bfa63`](../../../locales/ko/content/ec/ac/6bfa633774e26e59d2ab8e3204a731bc28b1.md)
 
 ### Conditionals (조건문)
 
