@@ -158,7 +158,7 @@
   "paths": {
     "exercises/accumulate/description.md": ["c25a03fab188a59dda0ae9d9d30d1add28585ea0"],
     "exercises/acronym/description.md": ["133bd2cbb78d186c92e5d2b8ca41cf13f77d6bea"],
-    "exercises/affine-cipher/description.md": ["1603dbbce91dee78f8c1520ceb8bc96c6dc9528a","bc890882d3e2305a80a44c7d921bc9bf6be0cf8f","eacf56dd7948b580ef042a0db6ff9d299a2d76af"],
+    "exercises/affine-cipher/description.md": ["909e19545b8d19e0ffbd64b0d74af7643e5e05a8","1603dbbce91dee78f8c1520ceb8bc96c6dc9528a","bc890882d3e2305a80a44c7d921bc9bf6be0cf8f","eacf56dd7948b580ef042a0db6ff9d299a2d76af"],
     "exercises/all-your-base/instructions.md": ["1b688b6915eb31f5ee6c3b67d2803024a353806e"],
     "exercises/all-your-base/introduction.md": ["68aaffbed953c276623458752955558a09819203"],
     "exercises/allergies/description.md": ["daf8cfde214667c949800c801fafecaa053efa0e"],

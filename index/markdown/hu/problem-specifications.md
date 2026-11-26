@@ -18,7 +18,8 @@ This page is generated from [the index](../../json/hu/problem-specifications.jso
 
 ### Affine Cipher (Affin-rejtjel)
 
-- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/affine-cipher/description.md)): [Latest](../../../locales/hu/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
+- `description.md` ([English](https://github.com/exercism/problem-specifications/blob/main/exercises/affine-cipher/description.md)): [Latest](../../../locales/hu/content/90/9e/19545b8d19e0ffbd64b0d74af7643e5e05a8.md)
+  - [`1603dbbce9`](../../../locales/hu/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
   - [`bc890882d3`](../../../locales/hu/content/bc/89/0882d3e2305a80a44c7d921bc9bf6be0cf8f.md)
   - [`eacf56dd79`](../../../locales/hu/content/ea/cf/56dd7948b580ef042a0db6ff9d299a2d76af.md)
 
