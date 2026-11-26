@@ -153,7 +153,7 @@
   "exercise:acronym:source": "Julien Vanier",
   "exercise:strain:blurb": "نفّذ عمليتي `keep` و`discard` على المجموعات.",
   "exercise:strain:source": "محادثة مع James Edward Gray II",
-  "exercise:anagram:blurb": "إذا أُعطيت كلمة وقائمة من الأناغرامات المحتملة، فاختر القائمة الفرعية الصحيحة.",
+  "exercise:anagram:blurb": "ابحث عن الكلمات التي تتكوّن من الحروف نفسها التي تتكوّن منها كلمة أخرى.",
   "exercise:anagram:source": "مستوحى من لعبة Extreme Startup",
   "exercise:clock:blurb": "نفّذ ساعة تتعامل مع الأوقات دون تواريخ.",
   "exercise:clock:source": "جلسة برمجة ثنائية مع Erin Drummond",

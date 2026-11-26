@@ -151,7 +151,7 @@
   "exercise:acronym:source": "Julien Vanier",
   "exercise:strain:blurb": "Implementa as operações `keep` e `discard` sobre coleções.",
   "exercise:strain:source": "Conversa com James Edward Gray II",
-  "exercise:anagram:blurb": "Dada uma palavra e uma lista de anagramas possíveis, seleciona a sublista correta.",
+  "exercise:anagram:blurb": "Encontra as palavras que usam as mesmas letras que outra palavra.",
   "exercise:anagram:source": "Inspirado no jogo Extreme Startup",
   "exercise:clock:blurb": "Implementa um relógio que lida com horas sem datas.",
   "exercise:clock:source": "Sessão de programação em par com Erin Drummond",

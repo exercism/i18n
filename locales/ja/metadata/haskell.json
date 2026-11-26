@@ -153,7 +153,7 @@
   "exercise:acronym:source": "Julien Vanier",
   "exercise:strain:blurb": "コレクションに対する`keep`と`discard`の操作を実装します。",
   "exercise:strain:source": "James Edward Gray IIとの会話",
-  "exercise:anagram:blurb": "ある単語とアナグラム候補の配列が与えられたとき、正しい部分配列を選び出します。",
+  "exercise:anagram:blurb": "別の単語と同じ文字を使う単語を見つけてください。",
   "exercise:anagram:source": "Extreme Startupゲームに着想を得たもの",
   "exercise:clock:blurb": "日付を持たずに時刻を扱う時計を実装します。",
   "exercise:clock:source": "Erin Drummondとのペアプログラミングセッション",

@@ -154,7 +154,7 @@
   "exercise:acronym:source": "Julien Vanier",
   "exercise:strain:blurb": "Υλοποίησε τις λειτουργίες `keep` και `discard` πάνω σε συλλογές.",
   "exercise:strain:source": "Συζήτηση με τον James Edward Gray II",
-  "exercise:anagram:blurb": "Με δεδομένη μια λέξη και μια λίστα πιθανών αναγραμματισμών, επίλεξε τη σωστή υπολίστα.",
+  "exercise:anagram:blurb": "Βρες τις λέξεις που χρησιμοποιούν τα ίδια γράμματα με μια άλλη λέξη.",
   "exercise:anagram:source": "Εμπνευσμένο από το παιχνίδι Extreme Startup",
   "exercise:clock:blurb": "Υλοποίησε ένα ρολόι που χειρίζεται ώρες χωρίς ημερομηνίες.",
   "exercise:clock:source": "Συνεδρία προγραμματισμού σε ζεύγη με την Erin Drummond",

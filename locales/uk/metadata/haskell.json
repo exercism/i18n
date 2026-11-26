@@ -154,7 +154,7 @@
   "exercise:acronym:source": "Julien Vanier",
   "exercise:strain:blurb": "Реалізуйте операції `keep` і `discard` над колекціями.",
   "exercise:strain:source": "Розмова з James Edward Gray II",
-  "exercise:anagram:blurb": "Маючи слово та масив можливих анаграм, виберіть правильний підмасив.",
+  "exercise:anagram:blurb": "Знайдіть слова, які використовують ті самі літери, що й інше слово.",
   "exercise:anagram:source": "За мотивами гри Extreme Startup",
   "exercise:clock:blurb": "Реалізуйте годинник, який працює з часом без дат.",
   "exercise:clock:source": "Сесія парного програмування з Ерін Драммонд",

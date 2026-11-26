@@ -153,7 +153,7 @@
   "exercise:acronym:source": "Julien Vanier",
   "exercise:strain:blurb": "عمل‌های `keep` و `discard` را روی مجموعه‌ها پیاده‌سازی کنید.",
   "exercise:strain:source": "گفت‌وگو با James Edward Gray II",
-  "exercise:anagram:blurb": "با داشتن یک واژه و فهرستی از آناگرام‌های ممکن، زیرفهرست درست را انتخاب کنید.",
+  "exercise:anagram:blurb": "واژه‌هایی را پیدا کنید که از همان حروف یک واژه‌ی دیگر ساخته شده‌اند.",
   "exercise:anagram:source": "با الهام از بازی Extreme Startup",
   "exercise:clock:blurb": "ساعتی پیاده‌سازی کنید که زمان‌ها را بدون تاریخ مدیریت می‌کند.",
   "exercise:clock:source": "جلسه‌ی برنامه‌نویسی دونفره با Erin Drummond",

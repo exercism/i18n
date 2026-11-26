@@ -153,7 +153,7 @@
   "exercise:acronym:source": "Julien Vanier",
   "exercise:strain:blurb": "在集合上實作`keep`和`discard`操作。",
   "exercise:strain:source": "與 James Edward Gray II 的對話",
-  "exercise:anagram:blurb": "給定一個單字和一個可能變位字的陣列，選出正確的子陣列。",
+  "exercise:anagram:blurb": "找出與另一個詞使用相同字母的詞。",
   "exercise:anagram:source": "靈感來自 Extreme Startup 這款遊戲",
   "exercise:clock:blurb": "實作一個只處理時間、不含日期的時鐘。",
   "exercise:clock:source": "與 Erin Drummond 的結對工作階段",

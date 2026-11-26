@@ -40,7 +40,8 @@ This page is generated from [the index](../../json/es-ES/haskell.json) by `scrip
 
 ### Anagram (Anagrama)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/anagram/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/a7/29/8485b3f6ab5fd93ed7426e9e5331dc514e72.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/anagram/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/dc/a2/4f52627e3ba6b999322fb89d8c686c3ec634.md)
+  - [`a7298485b3`](../../../locales/es-ES/content/a7/29/8485b3f6ab5fd93ed7426e9e5331dc514e72.md)
 - `instructions.append.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/anagram/.docs/instructions.append.md)): [Latest](../../../locales/es-ES/content/72/fa/7ab8e93a80e6f8ff0dc2dc316aa059f973ab.md)
 - `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/anagram/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/1a/cb/df00b059f44fb4ce4c00be743d24eda86d60.md)
 
@@ -122,7 +123,8 @@ This page is generated from [the index](../../json/es-ES/haskell.json) by `scrip
 
 ### Complex Numbers (Números complejos)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/complex-numbers/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/50/b1/9aedff6171cfffa9400416645af344ea019a.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/complex-numbers/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/2b/8a/7a49d824f84448eda21c4281ab2c8213d03a.md)
+  - [`50b19aedff`](../../../locales/es-ES/content/50/b1/9aedff6171cfffa9400416645af344ea019a.md)
 
 ### Connect
 

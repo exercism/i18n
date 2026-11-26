@@ -153,7 +153,7 @@
   "exercise:acronym:source": "Julien Vanier",
   "exercise:strain:blurb": "কলেকশনের উপর `keep` ও `discard` অপারেশন বাস্তবায়ন করুন।",
   "exercise:strain:source": "James Edward Gray II-এর সাথে কথোপকথন",
-  "exercise:anagram:blurb": "একটি শব্দ আর সম্ভাব্য অ্যানাগ্রামের একটি তালিকা দেওয়া হলে, সঠিক সাবলিস্টটি বেছে নিন।",
+  "exercise:anagram:blurb": "অন্য একটি শব্দের মতো একই অক্ষর ব্যবহার করে এমন শব্দগুলো খুঁজে বের করুন।",
   "exercise:anagram:source": "Extreme Startup গেম থেকে অনুপ্রাণিত",
   "exercise:clock:blurb": "তারিখ ছাড়া সময় সামলাতে পারে এমন একটি ঘড়ি ইমপ্লিমেন্ট করুন।",
   "exercise:clock:source": "Erin Drummond-এর সাথে পেয়ারিং সেশন",

@@ -154,7 +154,7 @@
   "exercise:acronym:source": "Julien Vanier",
   "exercise:strain:blurb": "Valósítsd meg a `keep` és `discard` műveletet a kollekciókon.",
   "exercise:strain:source": "Beszélgetés James Edward Gray II-vel",
-  "exercise:anagram:blurb": "Egy szó és a lehetséges anagrammák listája alapján válaszd ki a helyes részlistát.",
+  "exercise:anagram:blurb": "Keresd meg azokat a szavakat, amelyek ugyanazokat a betűket használják, mint egy másik szó.",
   "exercise:anagram:source": "Az Extreme Startup játék ihlette",
   "exercise:clock:blurb": "Készíts egy órát, amely dátum nélkül kezeli az időpontokat.",
   "exercise:clock:source": "Páros programozási foglalkozás Erin Drummonddal",
