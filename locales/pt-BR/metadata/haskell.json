@@ -135,7 +135,7 @@
   "exercise:darts:source": "Inspirado em um exercício criado pelo professor Della Paolera, na Argentina",
   "exercise:space-age:blurb": "Dada uma idade em segundos, calcule a idade de alguém em anos solares de um planeta dado.",
   "exercise:space-age:source": "Parcialmente inspirado no Capítulo 1 do tutorial online Learn to Program, de Chris Pine.",
-  "exercise:pangram:blurb": "Determine se uma frase é um pangrama.",
+  "exercise:pangram:blurb": "Determine se uma frase usa todas as letras do alfabeto latino.",
   "exercise:pangram:source": "Wikipedia",
   "exercise:bob:blurb": "Bob é um adolescente indolente. Em uma conversa, suas respostas são muito limitadas.",
   "exercise:bob:source": "Inspirado no exercício 'Deaf Grandma' do tutorial Learn to Program, de Chris Pine.",

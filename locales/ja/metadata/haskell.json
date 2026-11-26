@@ -135,7 +135,7 @@
   "exercise:darts:source": "アルゼンチンのDella Paolera教授が作った演習に着想を得たものです。",
   "exercise:space-age:blurb": "秒単位の年齢が与えられたとき、ある惑星の公転年でその人が何歳になるかを計算します。",
   "exercise:space-age:source": "Chris Pineのオンラインチュートリアル『Learn to Program』の第1章から一部着想を得ています。",
-  "exercise:pangram:blurb": "文がパングラムかどうかを判定します。",
+  "exercise:pangram:blurb": "あるフレーズがラテンアルファベットのすべての文字を使っているかどうかを判定します。",
   "exercise:pangram:source": "Wikipedia",
   "exercise:bob:blurb": "Bobはのんびり屋のティーンエイジャーです。会話での彼の返事はごく限られています。",
   "exercise:bob:source": "Chris PineのLearn to Programチュートリアルにある『Deaf Grandma』演習に着想を得たものです。",

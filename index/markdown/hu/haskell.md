@@ -43,8 +43,8 @@ This page is generated from [the index](../../json/hu/haskell.json) by `scripts/
 
 ### Anagram (Anagramma)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/anagram/.docs/instructions.md)): [Latest](../../../locales/hu/content/dc/a2/4f52627e3ba6b999322fb89d8c686c3ec634.md)
-  - [`a7298485b3`](../../../locales/hu/content/a7/29/8485b3f6ab5fd93ed7426e9e5331dc514e72.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/anagram/.docs/instructions.md)): [Latest](../../../locales/hu/content/a7/29/8485b3f6ab5fd93ed7426e9e5331dc514e72.md)
+  - [`dca24f5262`](../../../locales/hu/content/dc/a2/4f52627e3ba6b999322fb89d8c686c3ec634.md)
 - `instructions.append.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/anagram/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/72/fa/7ab8e93a80e6f8ff0dc2dc316aa059f973ab.md)
 - `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/anagram/.docs/introduction.md)): [Latest](../../../locales/hu/content/1a/cb/df00b059f44fb4ce4c00be743d24eda86d60.md)
 
@@ -134,8 +134,8 @@ This page is generated from [the index](../../json/hu/haskell.json) by `scripts/
 
 ### Complex Numbers (Komplex számok)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/complex-numbers/.docs/instructions.md)): [Latest](../../../locales/hu/content/2b/8a/7a49d824f84448eda21c4281ab2c8213d03a.md)
-  - [`50b19aedff`](../../../locales/hu/content/50/b1/9aedff6171cfffa9400416645af344ea019a.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/complex-numbers/.docs/instructions.md)): [Latest](../../../locales/hu/content/50/b1/9aedff6171cfffa9400416645af344ea019a.md)
+  - [`2b8a7a49d8`](../../../locales/hu/content/2b/8a/7a49d824f84448eda21c4281ab2c8213d03a.md)
 
 ### Connect
 
@@ -300,14 +300,17 @@ This page is generated from [the index](../../json/hu/haskell.json) by `scripts/
 
 ### List Ops (Listaműveletek)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/list-ops/.docs/instructions.md)): [Latest](../../../locales/hu/content/eb/c5/dffed02ecca9b62a12fd9c7327b58dd49bba.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/list-ops/.docs/instructions.md)): [Latest](../../../locales/hu/content/f5/02/2032b6935cf6d8b897da723f67d379784338.md)
+  - [`ebc5dffed0`](../../../locales/hu/content/eb/c5/dffed02ecca9b62a12fd9c7327b58dd49bba.md)
   - [`b5b20ff20a`](../../../locales/hu/content/b5/b2/0ff20a2012f9680c917abae1e2869d5ab2f3.md)
 
 ### Luhn
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/luhn/.docs/instructions.md)): [Latest](../../../locales/hu/content/49/93/4c10646b3753256c6a6290f2ad11a8ae11a4.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/luhn/.docs/instructions.md)): [Latest](../../../locales/hu/content/77/02/c6bbb5f849683e3074163e48ce1154ad2957.md)
+  - [`49934c1064`](../../../locales/hu/content/49/93/4c10646b3753256c6a6290f2ad11a8ae11a4.md)
   - [`8cbe791fc2`](../../../locales/hu/content/8c/be/791fc23118f7b852fd0072136884cfea81e3.md)
   - [`c7c7d3e0f1`](../../../locales/hu/content/c7/c7/d3e0f1c36177c4e93db61f99a96e39932fe4.md)
+- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/luhn/.docs/introduction.md)): [Latest](../../../locales/hu/content/de/e4/8006eddee9458a5414ddc96c4b9d2fc9109f.md)
 
 ### Matching Brackets (Zárójelpárosítás)
 

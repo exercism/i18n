@@ -135,7 +135,7 @@
   "exercise:darts:source": "아르헨티나의 Della Paolera 교수가 만든 연습 문제에서 영감을 받았어요.",
   "exercise:space-age:blurb": "초 단위의 나이가 주어지면, 주어진 행성의 태양년 기준으로 나이를 계산해요.",
   "exercise:space-age:source": "Chris Pine의 온라인 Learn to Program 튜토리얼 1장에서 부분적으로 영감을 받았어요.",
-  "exercise:pangram:blurb": "문장이 팬그램인지 판별해요.",
+  "exercise:pangram:blurb": "어떤 문구가 라틴 알파벳의 모든 글자를 사용하는지 판별해요.",
   "exercise:pangram:source": "Wikipedia",
   "exercise:bob:blurb": "Bob은 무기력한 십 대예요. 대화에서 돌아오는 대답은 아주 제한적이에요.",
   "exercise:bob:source": "Chris Pine의 Learn to Program 튜토리얼에 나오는 'Deaf Grandma' 연습 문제에서 영감을 받았어요.",

@@ -135,7 +135,7 @@
   "exercise:darts:source": "灵感来自阿根廷的 Della Paolera 教授创作的一道练习",
   "exercise:space-age:blurb": "给定一个以秒为单位的年龄，计算某人在给定行星的太阳年中的年龄。",
   "exercise:space-age:source": "部分灵感来自 Chris Pine 的在线教程 Learn to Program 第 1 章。",
-  "exercise:pangram:blurb": "判断一个句子是否为全字母句。",
+  "exercise:pangram:blurb": "判断一个短语是否用到了拉丁字母表中的每一个字母。",
   "exercise:pangram:source": "Wikipedia",
   "exercise:bob:blurb": "Bob 是一个懒洋洋的少年。聊天时，他的回答很有限。",
   "exercise:bob:source": "灵感来自 Chris Pine 的 Learn to Program 教程中的“Deaf Grandma”练习。",
