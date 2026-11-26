@@ -61,11 +61,13 @@ This page is generated from [the index](../../json/hi/groovy.json) by `scripts/b
 ### Collatz Conjecture (Collatz अनुमान)
 
 - `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/collatz-conjecture/.docs/instructions.md)): [Latest](../../../locales/hi/content/af/33/2a810f0f31aa1233e92bea57721d3025f4e0.md)
-- `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/collatz-conjecture/.docs/introduction.md)): [Latest](../../../locales/hi/content/c3/5b/deb67dceef4bf9769dbbf473e841cdd068f2.md)
+- `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/collatz-conjecture/.docs/introduction.md)): [Latest](../../../locales/hi/content/40/09/942af059319797763f5424d4cfb08e5aa5f3.md)
+  - [`c35bdeb67d`](../../../locales/hi/content/c3/5b/deb67dceef4bf9769dbbf473e841cdd068f2.md)
 
 ### D&D Character (D&D पात्र)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/dnd-character/.docs/instructions.md)): [Latest](../../../locales/hi/content/e1/4e/7949d60df15f34f13fb04f45f77d59eaf9f7.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/dnd-character/.docs/instructions.md)): [Latest](../../../locales/hi/content/05/80/37575ca0f072b9194b11b567a5abeadbd404.md)
+  - [`e14e7949d6`](../../../locales/hi/content/e1/4e/7949d60df15f34f13fb04f45f77d59eaf9f7.md)
 - `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/dnd-character/.docs/introduction.md)): [Latest](../../../locales/hi/content/53/01/f61829de5444f758a53845f0c366a00aacdc.md)
 
 ### Darts (डार्ट्स)
@@ -139,7 +141,8 @@ This page is generated from [the index](../../json/hi/groovy.json) by `scripts/b
 
 ### List Ops (ऐरे ऑपरेशन)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/list-ops/.docs/instructions.md)): [Latest](../../../locales/hi/content/eb/c5/dffed02ecca9b62a12fd9c7327b58dd49bba.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/list-ops/.docs/instructions.md)): [Latest](../../../locales/hi/content/f5/02/2032b6935cf6d8b897da723f67d379784338.md)
+  - [`ebc5dffed0`](../../../locales/hi/content/eb/c5/dffed02ecca9b62a12fd9c7327b58dd49bba.md)
 
 ### Luhn
 
@@ -170,8 +173,10 @@ This page is generated from [the index](../../json/hi/groovy.json) by `scripts/b
 
 ### Pascal's Triangle (पास्कल का त्रिभुज)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/pascals-triangle/.docs/instructions.md)): [Latest](../../../locales/hi/content/0f/58/f0069688bc7dfd1a2705cc4382f27a0609dd.md)
-- `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/pascals-triangle/.docs/introduction.md)): [Latest](../../../locales/hi/content/ea/b4/54e5a6995c899f852bcd23d9af558ca9e7bd.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/pascals-triangle/.docs/instructions.md)): [Latest](../../../locales/hi/content/4f/a8/8553825636eca6a9053583288e07ed0e1cda.md)
+  - [`0f58f00696`](../../../locales/hi/content/0f/58/f0069688bc7dfd1a2705cc4382f27a0609dd.md)
+- `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/pascals-triangle/.docs/introduction.md)): [Latest](../../../locales/hi/content/c2/bc/6f5d2113231f444250958019fc51738615de.md)
+  - [`eab454e5a6`](../../../locales/hi/content/ea/b4/54e5a6995c899f852bcd23d9af558ca9e7bd.md)
 
 ### Perfect Numbers (पूर्ण संख्याएँ)
 
@@ -184,7 +189,8 @@ This page is generated from [the index](../../json/hi/groovy.json) by `scripts/b
 
 ### Pig Latin (पिग लैटिन)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/pig-latin/.docs/instructions.md)): [Latest](../../../locales/hi/content/a9/64/5ac236fe312760f0c7f6a3e5c8137114c92f.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/pig-latin/.docs/instructions.md)): [Latest](../../../locales/hi/content/4e/e6/0a75d160a2d244d1169214a026d1728b6070.md)
+  - [`a9645ac236`](../../../locales/hi/content/a9/64/5ac236fe312760f0c7f6a3e5c8137114c92f.md)
 - `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/pig-latin/.docs/introduction.md)): [Latest](../../../locales/hi/content/04/ba/a47586f616a397cd8973490a67937af067cd.md)
 
 ### Prime Factors (अभाज्य गुणनखंड)
@@ -218,7 +224,8 @@ This page is generated from [the index](../../json/hi/groovy.json) by `scripts/b
 
 ### Resistor Color Trio (प्रतिरोधक रंग तिकड़ी)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/resistor-color-trio/.docs/instructions.md)): [Latest](../../../locales/hi/content/1a/c5/cf5e9fe0b7e589bf6cba0c31c2c8a0e98d7e.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/resistor-color-trio/.docs/instructions.md)): [Latest](../../../locales/hi/content/8e/f1/1628e00a8553579594981d7c31900f8c1835.md)
+  - [`1ac5cf5e9f`](../../../locales/hi/content/1a/c5/cf5e9fe0b7e589bf6cba0c31c2c8a0e98d7e.md)
 
 ### Reverse String (स्ट्रिंग को उलटिए)
 
@@ -241,8 +248,10 @@ This page is generated from [the index](../../json/hi/groovy.json) by `scripts/b
 
 ### Roman Numerals (रोमन अंक)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/roman-numerals/.docs/instructions.md)): [Latest](../../../locales/hi/content/50/e2/f5bf1c668a66cff143097642a80dae9597d2.md)
-- `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/roman-numerals/.docs/introduction.md)): [Latest](../../../locales/hi/content/6f/d9/42fef30f76ae037294b8fa382471665ffc2a.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/roman-numerals/.docs/instructions.md)): [Latest](../../../locales/hi/content/fe/28/f4d99ace840334fb8e1b022ffea2c36fe770.md)
+  - [`50e2f5bf1c`](../../../locales/hi/content/50/e2/f5bf1c668a66cff143097642a80dae9597d2.md)
+- `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/roman-numerals/.docs/introduction.md)): [Latest](../../../locales/hi/content/06/f4/84fe38a75497e4a5c12fc9e3eb153e5fa47e.md)
+  - [`6fd942fef3`](../../../locales/hi/content/6f/d9/42fef30f76ae037294b8fa382471665ffc2a.md)
 
 ### Rotational Cipher (घूर्णी सिफर)
 
@@ -273,7 +282,8 @@ This page is generated from [the index](../../json/hi/groovy.json) by `scripts/b
 
 ### Sieve (छलनी)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/sieve/.docs/instructions.md)): [Latest](../../../locales/hi/content/71/29/2e1782dc95e0430ae2b614e1d740dd41639f.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/sieve/.docs/instructions.md)): [Latest](../../../locales/hi/content/4b/0f/47d4fafff7a8d2cde09247ad4fced7d73121.md)
+  - [`71292e1782`](../../../locales/hi/content/71/29/2e1782dc95e0430ae2b614e1d740dd41639f.md)
 - `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/sieve/.docs/introduction.md)): [Latest](../../../locales/hi/content/f6/c1/cf79a9d4ccf67f1ed34dabb8ab0a58030358.md)
 
 ### Space Age (अंतरिक्ष युग)

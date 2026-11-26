@@ -27,8 +27,8 @@ This page is generated from [the index](../../json/el/groovy.json) by `scripts/b
 
 ### Anagram (Ανάγραμμα)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/anagram/.docs/instructions.md)): [Latest](../../../locales/el/content/a7/29/8485b3f6ab5fd93ed7426e9e5331dc514e72.md)
-  - [`dca24f5262`](../../../locales/el/content/dc/a2/4f52627e3ba6b999322fb89d8c686c3ec634.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/anagram/.docs/instructions.md)): [Latest](../../../locales/el/content/dc/a2/4f52627e3ba6b999322fb89d8c686c3ec634.md)
+  - [`a7298485b3`](../../../locales/el/content/a7/29/8485b3f6ab5fd93ed7426e9e5331dc514e72.md)
 - `instructions.append.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/anagram/.docs/instructions.append.md)): [Latest](../../../locales/el/content/0f/5c/35b6aedbba133c851ccfb31cfecccaa3e298.md)
 - `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/anagram/.docs/introduction.md)): [Latest](../../../locales/el/content/1a/cb/df00b059f44fb4ce4c00be743d24eda86d60.md)
 
@@ -38,13 +38,13 @@ This page is generated from [the index](../../json/el/groovy.json) by `scripts/b
 
 ### Atbash Cipher (Κρυπτογράφημα Atbash)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/atbash-cipher/.docs/instructions.md)): [Latest](../../../locales/el/content/21/ca/2ce0aa806b97f21182196eebe554c4b984ef.md)
-  - [`1e7627b1e5`](../../../locales/el/content/1e/76/27b1e5989878f0f1bf735feb1300de7a2664.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/atbash-cipher/.docs/instructions.md)): [Latest](../../../locales/el/content/1e/76/27b1e5989878f0f1bf735feb1300de7a2664.md)
+  - [`21ca2ce0aa`](../../../locales/el/content/21/ca/2ce0aa806b97f21182196eebe554c4b984ef.md)
 
 ### Bank Account (Τραπεζικός Λογαριασμός)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/bank-account/.docs/instructions.md)): [Latest](../../../locales/el/content/09/55/520bbff199efc461649b5a0a3761b0e760e2.md)
-  - [`7398fbea18`](../../../locales/el/content/73/98/fbea1882dcf62be8957af20bc28779a93cbd.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/bank-account/.docs/instructions.md)): [Latest](../../../locales/el/content/73/98/fbea1882dcf62be8957af20bc28779a93cbd.md)
+  - [`0955520bbf`](../../../locales/el/content/09/55/520bbff199efc461649b5a0a3761b0e760e2.md)
 - `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/bank-account/.docs/introduction.md)): [Latest](../../../locales/el/content/65/0b/5d9c46f00d99296ce5cb86ae7df14e3c1302.md)
 
 ### Binary Search (Δυαδική Αναζήτηση)
@@ -63,13 +63,15 @@ This page is generated from [the index](../../json/el/groovy.json) by `scripts/b
 
 ### Collatz Conjecture (Εικασία του Collatz)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/collatz-conjecture/.docs/instructions.md)): [Latest](../../../locales/el/content/ba/06/0483e4d45f77f20a8b048544aa5438022467.md)
-  - [`af332a810f`](../../../locales/el/content/af/33/2a810f0f31aa1233e92bea57721d3025f4e0.md)
-- `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/collatz-conjecture/.docs/introduction.md)): [Latest](../../../locales/el/content/c3/5b/deb67dceef4bf9769dbbf473e841cdd068f2.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/collatz-conjecture/.docs/instructions.md)): [Latest](../../../locales/el/content/af/33/2a810f0f31aa1233e92bea57721d3025f4e0.md)
+  - [`ba060483e4`](../../../locales/el/content/ba/06/0483e4d45f77f20a8b048544aa5438022467.md)
+- `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/collatz-conjecture/.docs/introduction.md)): [Latest](../../../locales/el/content/40/09/942af059319797763f5424d4cfb08e5aa5f3.md)
+  - [`c35bdeb67d`](../../../locales/el/content/c3/5b/deb67dceef4bf9769dbbf473e841cdd068f2.md)
 
 ### D&D Character (Χαρακτήρας D&D)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/dnd-character/.docs/instructions.md)): [Latest](../../../locales/el/content/e1/4e/7949d60df15f34f13fb04f45f77d59eaf9f7.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/dnd-character/.docs/instructions.md)): [Latest](../../../locales/el/content/05/80/37575ca0f072b9194b11b567a5abeadbd404.md)
+  - [`e14e7949d6`](../../../locales/el/content/e1/4e/7949d60df15f34f13fb04f45f77d59eaf9f7.md)
 - `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/dnd-character/.docs/introduction.md)): [Latest](../../../locales/el/content/53/01/f61829de5444f758a53845f0c366a00aacdc.md)
 
 ### Darts (Βελάκια)
@@ -83,8 +85,8 @@ This page is generated from [the index](../../json/el/groovy.json) by `scripts/b
 ### Eliud's Eggs (Τα Αυγά του Eliud)
 
 - `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/eliuds-eggs/.docs/instructions.md)): [Latest](../../../locales/el/content/b0/c2/df593c0c15f1f94dfc13bddacffd6b0f5ddc.md)
-- `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/eliuds-eggs/.docs/introduction.md)): [Latest](../../../locales/el/content/49/ea/ffd8bc357c737e30533d0b97dce321657843.md)
-  - [`2b2e5c43d8`](../../../locales/el/content/2b/2e/5c43d8b2546885ba33bb6c3c8bdc88e3b0dc.md)
+- `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/eliuds-eggs/.docs/introduction.md)): [Latest](../../../locales/el/content/2b/2e/5c43d8b2546885ba33bb6c3c8bdc88e3b0dc.md)
+  - [`49eaffd8bc`](../../../locales/el/content/49/ea/ffd8bc357c737e30533d0b97dce321657843.md)
 
 ### ETL
 
@@ -93,8 +95,8 @@ This page is generated from [the index](../../json/el/groovy.json) by `scripts/b
 
 ### Flatten Array (Ισοπέδωση Πίνακα)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/flatten-array/.docs/instructions.md)): [Latest](../../../locales/el/content/89/da/cfa327af81651d91fd769d2a723244848985.md)
-  - [`b5b82713d9`](../../../locales/el/content/b5/b8/2713d928a59e350e468d35c4ee92d49316cf.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/flatten-array/.docs/instructions.md)): [Latest](../../../locales/el/content/b5/b8/2713d928a59e350e468d35c4ee92d49316cf.md)
+  - [`89dacfa327`](../../../locales/el/content/89/da/cfa327af81651d91fd769d2a723244848985.md)
 - `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/flatten-array/.docs/introduction.md)): [Latest](../../../locales/el/content/a3/14/857465e75cc95c88b634ddd355f7393888ad.md)
 
 ### Gigasecond (Γιγαδευτερόλεπτο)
@@ -104,14 +106,14 @@ This page is generated from [the index](../../json/el/groovy.json) by `scripts/b
 
 ### Grains (Κόκκοι)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/grains/.docs/instructions.md)): [Latest](../../../locales/el/content/df/47/9fc0a174d105647e79d6c4dcaad6947b460c.md)
-  - [`f5b752a817`](../../../locales/el/content/f5/b7/52a81754e88e6e41120237c7d3b24d150e58.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/grains/.docs/instructions.md)): [Latest](../../../locales/el/content/f5/b7/52a81754e88e6e41120237c7d3b24d150e58.md)
+  - [`df479fc0a1`](../../../locales/el/content/df/47/9fc0a174d105647e79d6c4dcaad6947b460c.md)
 - `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/grains/.docs/introduction.md)): [Latest](../../../locales/el/content/0d/f4/f46f726cabcd99719756067e04d6832e52a8.md)
 
 ### Hamming
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/hamming/.docs/instructions.md)): [Latest](../../../locales/el/content/02/0f/dd02d4e000f12cb26a9fc01f5670f4ffdbc5.md)
-  - [`8f47a179e0`](../../../locales/el/content/8f/47/a179e01a680d8d8311f0a54ba239c9982431.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/hamming/.docs/instructions.md)): [Latest](../../../locales/el/content/8f/47/a179e01a680d8d8311f0a54ba239c9982431.md)
+  - [`020fdd02d4`](../../../locales/el/content/02/0f/dd02d4e000f12cb26a9fc01f5670f4ffdbc5.md)
 - `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/hamming/.docs/introduction.md)): [Latest](../../../locales/el/content/84/19/bf479e5ef43be61485408c3758b2c7bd16da.md)
 
 ### Hello World
@@ -147,12 +149,13 @@ This page is generated from [the index](../../json/el/groovy.json) by `scripts/b
 
 ### List Ops (Λειτουργίες λίστας)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/list-ops/.docs/instructions.md)): [Latest](../../../locales/el/content/eb/c5/dffed02ecca9b62a12fd9c7327b58dd49bba.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/list-ops/.docs/instructions.md)): [Latest](../../../locales/el/content/f5/02/2032b6935cf6d8b897da723f67d379784338.md)
+  - [`ebc5dffed0`](../../../locales/el/content/eb/c5/dffed02ecca9b62a12fd9c7327b58dd49bba.md)
 
 ### Luhn
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/luhn/.docs/instructions.md)): [Latest](../../../locales/el/content/8c/be/791fc23118f7b852fd0072136884cfea81e3.md)
-  - [`7702c6bbb5`](../../../locales/el/content/77/02/c6bbb5f849683e3074163e48ce1154ad2957.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/luhn/.docs/instructions.md)): [Latest](../../../locales/el/content/77/02/c6bbb5f849683e3074163e48ce1154ad2957.md)
+  - [`8cbe791fc2`](../../../locales/el/content/8c/be/791fc23118f7b852fd0072136884cfea81e3.md)
 - `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/luhn/.docs/introduction.md)): [Latest](../../../locales/el/content/de/e4/8006eddee9458a5414ddc96c4b9d2fc9109f.md)
 
 ### Matching Brackets (Αντιστοίχιση αγκυλών)
@@ -179,8 +182,10 @@ This page is generated from [the index](../../json/el/groovy.json) by `scripts/b
 
 ### Pascal's Triangle (Τρίγωνο του Πασκάλ)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/pascals-triangle/.docs/instructions.md)): [Latest](../../../locales/el/content/0f/58/f0069688bc7dfd1a2705cc4382f27a0609dd.md)
-- `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/pascals-triangle/.docs/introduction.md)): [Latest](../../../locales/el/content/ea/b4/54e5a6995c899f852bcd23d9af558ca9e7bd.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/pascals-triangle/.docs/instructions.md)): [Latest](../../../locales/el/content/4f/a8/8553825636eca6a9053583288e07ed0e1cda.md)
+  - [`0f58f00696`](../../../locales/el/content/0f/58/f0069688bc7dfd1a2705cc4382f27a0609dd.md)
+- `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/pascals-triangle/.docs/introduction.md)): [Latest](../../../locales/el/content/c2/bc/6f5d2113231f444250958019fc51738615de.md)
+  - [`eab454e5a6`](../../../locales/el/content/ea/b4/54e5a6995c899f852bcd23d9af558ca9e7bd.md)
 
 ### Perfect Numbers (Τέλειοι αριθμοί)
 
@@ -188,13 +193,14 @@ This page is generated from [the index](../../json/el/groovy.json) by `scripts/b
 
 ### Phone Number (Αριθμός τηλεφώνου)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/phone-number/.docs/instructions.md)): [Latest](../../../locales/el/content/62/ba/48e96fd2a47445a74ab075c7ef7198601815.md)
-  - [`5d4d3739f4`](../../../locales/el/content/5d/4d/3739f4563d3f7781a1524df13f11cc8fbc71.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/phone-number/.docs/instructions.md)): [Latest](../../../locales/el/content/5d/4d/3739f4563d3f7781a1524df13f11cc8fbc71.md)
+  - [`62ba48e96f`](../../../locales/el/content/62/ba/48e96fd2a47445a74ab075c7ef7198601815.md)
 - `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/phone-number/.docs/introduction.md)): [Latest](../../../locales/el/content/c4/14/2c5af7289f74bf05d04c4563e2968a639cd2.md)
 
 ### Pig Latin
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/pig-latin/.docs/instructions.md)): [Latest](../../../locales/el/content/a9/64/5ac236fe312760f0c7f6a3e5c8137114c92f.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/pig-latin/.docs/instructions.md)): [Latest](../../../locales/el/content/4e/e6/0a75d160a2d244d1169214a026d1728b6070.md)
+  - [`a9645ac236`](../../../locales/el/content/a9/64/5ac236fe312760f0c7f6a3e5c8137114c92f.md)
 - `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/pig-latin/.docs/introduction.md)): [Latest](../../../locales/el/content/04/ba/a47586f616a397cd8973490a67937af067cd.md)
 
 ### Prime Factors (Πρώτοι παράγοντες)
@@ -203,8 +209,8 @@ This page is generated from [the index](../../json/el/groovy.json) by `scripts/b
 
 ### Protein Translation (Μετάφραση πρωτεϊνών)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/protein-translation/.docs/instructions.md)): [Latest](../../../locales/el/content/7d/c3/4d2edfda1f154ed75b7cc6371485d8b0b39d.md)
-  - [`35c953b11f`](../../../locales/el/content/35/c9/53b11f9642c30978222e743aff4dc38f1451.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/protein-translation/.docs/instructions.md)): [Latest](../../../locales/el/content/35/c9/53b11f9642c30978222e743aff4dc38f1451.md)
+  - [`7dc34d2edf`](../../../locales/el/content/7d/c3/4d2edfda1f154ed75b7cc6371485d8b0b39d.md)
 
 ### Proverb (Παροιμία)
 
@@ -229,7 +235,8 @@ This page is generated from [the index](../../json/el/groovy.json) by `scripts/b
 
 ### Resistor Color Trio (Τρία χρώματα αντίστασης)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/resistor-color-trio/.docs/instructions.md)): [Latest](../../../locales/el/content/1a/c5/cf5e9fe0b7e589bf6cba0c31c2c8a0e98d7e.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/resistor-color-trio/.docs/instructions.md)): [Latest](../../../locales/el/content/8e/f1/1628e00a8553579594981d7c31900f8c1835.md)
+  - [`1ac5cf5e9f`](../../../locales/el/content/1a/c5/cf5e9fe0b7e589bf6cba0c31c2c8a0e98d7e.md)
 
 ### Reverse String (Αντιστροφή συμβολοσειράς)
 
@@ -238,8 +245,8 @@ This page is generated from [the index](../../json/el/groovy.json) by `scripts/b
 
 ### RNA Transcription (Μεταγραφή RNA)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/rna-transcription/.docs/instructions.md)): [Latest](../../../locales/el/content/36/da/381f5a7bdd5c45617d92fbd2cbd34d934cc1.md)
-  - [`4dbfd3a271`](../../../locales/el/content/4d/bf/d3a2719c7dc9a1096d8879e916cc1d55305a.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/rna-transcription/.docs/instructions.md)): [Latest](../../../locales/el/content/4d/bf/d3a2719c7dc9a1096d8879e916cc1d55305a.md)
+  - [`36da381f5a`](../../../locales/el/content/36/da/381f5a7bdd5c45617d92fbd2cbd34d934cc1.md)
 - `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/rna-transcription/.docs/introduction.md)): [Latest](../../../locales/el/content/6b/3f/44b532d66665ff9c257ca28793f7e4bd1961.md)
 
 ### Robot Name (Όνομα ρομπότ)
@@ -253,8 +260,10 @@ This page is generated from [the index](../../json/el/groovy.json) by `scripts/b
 
 ### Roman Numerals (Ρωμαϊκοί αριθμοί)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/roman-numerals/.docs/instructions.md)): [Latest](../../../locales/el/content/50/e2/f5bf1c668a66cff143097642a80dae9597d2.md)
-- `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/roman-numerals/.docs/introduction.md)): [Latest](../../../locales/el/content/6f/d9/42fef30f76ae037294b8fa382471665ffc2a.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/roman-numerals/.docs/instructions.md)): [Latest](../../../locales/el/content/fe/28/f4d99ace840334fb8e1b022ffea2c36fe770.md)
+  - [`50e2f5bf1c`](../../../locales/el/content/50/e2/f5bf1c668a66cff143097642a80dae9597d2.md)
+- `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/roman-numerals/.docs/introduction.md)): [Latest](../../../locales/el/content/06/f4/84fe38a75497e4a5c12fc9e3eb153e5fa47e.md)
+  - [`6fd942fef3`](../../../locales/el/content/6f/d9/42fef30f76ae037294b8fa382471665ffc2a.md)
 
 ### Rotational Cipher (Κρυπτογράφηση με περιστροφή)
 
@@ -266,8 +275,8 @@ This page is generated from [the index](../../json/el/groovy.json) by `scripts/b
 
 ### Saddle Points (Σαγματικά σημεία)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/saddle-points/.docs/instructions.md)): [Latest](../../../locales/el/content/c5/85/568b4623765c3f860779d107521d27e35d34.md)
-  - [`f69cdab958`](../../../locales/el/content/f6/9c/dab9584a340834264ecee97cfd6df709cd21.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/saddle-points/.docs/instructions.md)): [Latest](../../../locales/el/content/f6/9c/dab9584a340834264ecee97cfd6df709cd21.md)
+  - [`c585568b46`](../../../locales/el/content/c5/85/568b4623765c3f860779d107521d27e35d34.md)
 - `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/saddle-points/.docs/introduction.md)): [Latest](../../../locales/el/content/34/b2/c77e0cfd255425411a905ec311019c2d7375.md)
 
 ### Scrabble Score (Βαθμολογία στο Scrabble)
@@ -286,7 +295,8 @@ This page is generated from [the index](../../json/el/groovy.json) by `scripts/b
 
 ### Sieve (Κόσκινο)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/sieve/.docs/instructions.md)): [Latest](../../../locales/el/content/08/5c/0a57d96c7cd846a7948241899ce46778f01d.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/sieve/.docs/instructions.md)): [Latest](../../../locales/el/content/4b/0f/47d4fafff7a8d2cde09247ad4fced7d73121.md)
+  - [`085c0a57d9`](../../../locales/el/content/08/5c/0a57d96c7cd846a7948241899ce46778f01d.md)
   - [`71292e1782`](../../../locales/el/content/71/29/2e1782dc95e0430ae2b614e1d740dd41639f.md)
 - `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/sieve/.docs/introduction.md)): [Latest](../../../locales/el/content/f6/c1/cf79a9d4ccf67f1ed34dabb8ab0a58030358.md)
 
@@ -297,8 +307,8 @@ This page is generated from [the index](../../json/el/groovy.json) by `scripts/b
 
 ### Square Root (Τετραγωνική ρίζα)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/square-root/.docs/instructions.md)): [Latest](../../../locales/el/content/e9/90/5e9d416b2698b2edf9b48ed466c615327ea0.md)
-  - [`d258b86876`](../../../locales/el/content/d2/58/b86876e35a1553677ed6a7cb068f27cf1aba.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/square-root/.docs/instructions.md)): [Latest](../../../locales/el/content/d2/58/b86876e35a1553677ed6a7cb068f27cf1aba.md)
+  - [`e9905e9d41`](../../../locales/el/content/e9/90/5e9d416b2698b2edf9b48ed466c615327ea0.md)
 - `introduction.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/square-root/.docs/introduction.md)): [Latest](../../../locales/el/content/1d/69/2934f280a866528bcb54cd3044d7e8a5eeeb.md)
 
 ### Strain (Στράγγισμα)
@@ -312,8 +322,8 @@ This page is generated from [the index](../../json/el/groovy.json) by `scripts/b
 
 ### Triangle (Τρίγωνο)
 
-- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/el/content/ac/39/008726d5472b99e1aee556219eadca7fc49d.md)
-  - [`e9b053dcd3`](../../../locales/el/content/e9/b0/53dcd344e85179041c10dcd48406d735b2f9.md)
+- `instructions.md` ([English](https://github.com/exercism/groovy/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/el/content/e9/b0/53dcd344e85179041c10dcd48406d735b2f9.md)
+  - [`ac39008726`](../../../locales/el/content/ac/39/008726d5472b99e1aee556219eadca7fc49d.md)
 
 ### Two Fer
 
