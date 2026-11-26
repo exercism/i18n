@@ -18,7 +18,8 @@ This page is generated from [the index](../../json/ja/go.json) by `scripts/build
 
 ### Affine Cipher (アフィン暗号)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/affine-cipher/.docs/instructions.md)): [Latest](../../../locales/ja/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/affine-cipher/.docs/instructions.md)): [Latest](../../../locales/ja/content/bc/89/0882d3e2305a80a44c7d921bc9bf6be0cf8f.md)
+  - [`1603dbbce9`](../../../locales/ja/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
 
 ### All Your Base
 
@@ -84,7 +85,8 @@ This page is generated from [the index](../../json/ja/go.json) by `scripts/build
 
 ### Book Store (書店)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/book-store/.docs/instructions.md)): [Latest](../../../locales/ja/content/54/40/3f17bf5c35e9b5d6c20503e87e02c232e1a7.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/book-store/.docs/instructions.md)): [Latest](../../../locales/ja/content/30/c3/f056879d815af202362909a1ef676b9df62c.md)
+  - [`54403f17bf`](../../../locales/ja/content/54/40/3f17bf5c35e9b5d6c20503e87e02c232e1a7.md)
 - `instructions.append.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/book-store/.docs/instructions.append.md)): [Latest](../../../locales/ja/content/64/68/7faa1a69b65be7628d7d1c6437f3b1367cdd.md)
 
 ### Bottle Song (ボトルの歌)
@@ -117,7 +119,8 @@ This page is generated from [the index](../../json/ja/go.json) by `scripts/build
 ### Collatz Conjecture (コラッツ予想)
 
 - `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/collatz-conjecture/.docs/instructions.md)): [Latest](../../../locales/ja/content/af/33/2a810f0f31aa1233e92bea57721d3025f4e0.md)
-- `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/collatz-conjecture/.docs/introduction.md)): [Latest](../../../locales/ja/content/c3/5b/deb67dceef4bf9769dbbf473e841cdd068f2.md)
+- `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/collatz-conjecture/.docs/introduction.md)): [Latest](../../../locales/ja/content/40/09/942af059319797763f5424d4cfb08e5aa5f3.md)
+  - [`c35bdeb67d`](../../../locales/ja/content/c3/5b/deb67dceef4bf9769dbbf473e841cdd068f2.md)
 
 ### Complex Numbers (複素数)
 
@@ -146,7 +149,8 @@ This page is generated from [the index](../../json/ja/go.json) by `scripts/build
 
 ### D&D Character (D&Dのキャラクター)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/dnd-character/.docs/instructions.md)): [Latest](../../../locales/ja/content/e1/4e/7949d60df15f34f13fb04f45f77d59eaf9f7.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/dnd-character/.docs/instructions.md)): [Latest](../../../locales/ja/content/05/80/37575ca0f072b9194b11b567a5abeadbd404.md)
+  - [`e14e7949d6`](../../../locales/ja/content/e1/4e/7949d60df15f34f13fb04f45f77d59eaf9f7.md)
 - `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/dnd-character/.docs/introduction.md)): [Latest](../../../locales/ja/content/53/01/f61829de5444f758a53845f0c366a00aacdc.md)
 
 ### Darts (ダーツ)
@@ -174,7 +178,8 @@ This page is generated from [the index](../../json/ja/go.json) by `scripts/build
 
 ### DOT DSL
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/dot-dsl/.docs/instructions.md)): [Latest](../../../locales/ja/content/5e/65/ebef9436c86ec75a54714ffddc6da381c8ac.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/dot-dsl/.docs/instructions.md)): [Latest](../../../locales/ja/content/23/6b/a6d103dede4c17bf3573e43a3f46936be179.md)
+  - [`5e65ebef94`](../../../locales/ja/content/5e/65/ebef9436c86ec75a54714ffddc6da381c8ac.md)
 
 ### Eliud's Eggs (エリウドの卵)
 
@@ -261,7 +266,8 @@ This page is generated from [the index](../../json/ja/go.json) by `scripts/build
 
 ### Intergalactic Transmission (銀河間通信)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/intergalactic-transmission/.docs/instructions.md)): [Latest](../../../locales/ja/content/54/97/088176af7a635f7378966725130623109749.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/intergalactic-transmission/.docs/instructions.md)): [Latest](../../../locales/ja/content/45/86/36c6bc24500b6db784ccfd143799a0a3c7af.md)
+  - [`5497088176`](../../../locales/ja/content/54/97/088176af7a635f7378966725130623109749.md)
 - `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/intergalactic-transmission/.docs/introduction.md)): [Latest](../../../locales/ja/content/f1/9d/ffbead7bcf8578a86e3311749fead73f9a93.md)
 
 ### ISBN Verifier (ISBN検証)
@@ -274,7 +280,8 @@ This page is generated from [the index](../../json/ja/go.json) by `scripts/build
 
 ### Killer Sudoku Helper (キラー数独ヘルパー)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/killer-sudoku-helper/.docs/instructions.md)): [Latest](../../../locales/ja/content/41/53/c3e9e1cbc213191557d177cc695e9231aadd.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/killer-sudoku-helper/.docs/instructions.md)): [Latest](../../../locales/ja/content/2a/2f/c5055018ea07784e54c0e0d04ca0d084c4fa.md)
+  - [`4153c3e9e1`](../../../locales/ja/content/41/53/c3e9e1cbc213191557d177cc695e9231aadd.md)
 
 ### Kindergarten Garden (幼稚園の庭)
 
@@ -316,7 +323,8 @@ This page is generated from [the index](../../json/ja/go.json) by `scripts/build
 
 ### List Ops (配列操作)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/list-ops/.docs/instructions.md)): [Latest](../../../locales/ja/content/eb/c5/dffed02ecca9b62a12fd9c7327b58dd49bba.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/list-ops/.docs/instructions.md)): [Latest](../../../locales/ja/content/f5/02/2032b6935cf6d8b897da723f67d379784338.md)
+  - [`ebc5dffed0`](../../../locales/ja/content/eb/c5/dffed02ecca9b62a12fd9c7327b58dd49bba.md)
 
 ### Luhn
 
@@ -364,7 +372,8 @@ This page is generated from [the index](../../json/ja/go.json) by `scripts/build
 
 ### OCR Numbers (OCR数字)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/ocr-numbers/.docs/instructions.md)): [Latest](../../../locales/ja/content/8a/39/1ce4f6e1c32cd61c2140ed3e0e2e24299efd.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/ocr-numbers/.docs/instructions.md)): [Latest](../../../locales/ja/content/ea/40/a4ecd36432db63c2a9769d44ad1763d21819.md)
+  - [`8a391ce4f6`](../../../locales/ja/content/8a/39/1ce4f6e1c32cd61c2140ed3e0e2e24299efd.md)
 - `instructions.append.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/ocr-numbers/.docs/instructions.append.md)): [Latest](../../../locales/ja/content/18/76/4e9312b465a9e992e6e67535e92807982d8b.md)
 - `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/ocr-numbers/.docs/introduction.md)): [Latest](../../../locales/ja/content/36/6d/76062c7f4620198bfa95f32a8341b17493c4.md)
 
@@ -392,8 +401,10 @@ This page is generated from [the index](../../json/ja/go.json) by `scripts/build
 
 ### Pascal's Triangle (パスカルの三角形)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/pascals-triangle/.docs/instructions.md)): [Latest](../../../locales/ja/content/0f/58/f0069688bc7dfd1a2705cc4382f27a0609dd.md)
-- `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/pascals-triangle/.docs/introduction.md)): [Latest](../../../locales/ja/content/ea/b4/54e5a6995c899f852bcd23d9af558ca9e7bd.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/pascals-triangle/.docs/instructions.md)): [Latest](../../../locales/ja/content/4f/a8/8553825636eca6a9053583288e07ed0e1cda.md)
+  - [`0f58f00696`](../../../locales/ja/content/0f/58/f0069688bc7dfd1a2705cc4382f27a0609dd.md)
+- `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/pascals-triangle/.docs/introduction.md)): [Latest](../../../locales/ja/content/c2/bc/6f5d2113231f444250958019fc51738615de.md)
+  - [`eab454e5a6`](../../../locales/ja/content/ea/b4/54e5a6995c899f852bcd23d9af558ca9e7bd.md)
 
 ### Perfect Numbers (完全数)
 
@@ -413,7 +424,8 @@ This page is generated from [the index](../../json/ja/go.json) by `scripts/build
 
 ### Pig Latin (ピッグ・ラテン)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/pig-latin/.docs/instructions.md)): [Latest](../../../locales/ja/content/a9/64/5ac236fe312760f0c7f6a3e5c8137114c92f.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/pig-latin/.docs/instructions.md)): [Latest](../../../locales/ja/content/4e/e6/0a75d160a2d244d1169214a026d1728b6070.md)
+  - [`a9645ac236`](../../../locales/ja/content/a9/64/5ac236fe312760f0c7f6a3e5c8137114c92f.md)
 - `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/pig-latin/.docs/introduction.md)): [Latest](../../../locales/ja/content/04/ba/a47586f616a397cd8973490a67937af067cd.md)
 
 ### Poker (ポーカー)
@@ -423,7 +435,8 @@ This page is generated from [the index](../../json/ja/go.json) by `scripts/build
 
 ### POV (視点)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/pov/.docs/instructions.md)): [Latest](../../../locales/ja/content/0f/de/ed2250f9472452d51b3978daa8bdc6523688.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/pov/.docs/instructions.md)): [Latest](../../../locales/ja/content/32/f7/822d7ad99a1429476bdccdc63af95d17f31c.md)
+  - [`0fdeed2250`](../../../locales/ja/content/0f/de/ed2250f9472452d51b3978daa8bdc6523688.md)
 - `instructions.append.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/pov/.docs/instructions.append.md)): [Latest](../../../locales/ja/content/c6/43/febf9b95f79c5f25ace8f6feba8c92dad457.md)
 
 ### Prime Factors (素因数)
@@ -464,7 +477,8 @@ This page is generated from [the index](../../json/ja/go.json) by `scripts/build
 
 ### Rational Numbers (有理数)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/rational-numbers/.docs/instructions.md)): [Latest](../../../locales/ja/content/f6/4f/c0f28e5f84c9e991e52b275f5eef1ff7ea86.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/rational-numbers/.docs/instructions.md)): [Latest](../../../locales/ja/content/35/ed/bd0bd8a7031007e7a0f0cc85256af9db6824.md)
+  - [`f64fc0f28e`](../../../locales/ja/content/f6/4f/c0f28e5f84c9e991e52b275f5eef1ff7ea86.md)
 
 ### React
 
@@ -490,15 +504,18 @@ This page is generated from [the index](../../json/ja/go.json) by `scripts/build
 
 ### Resistor Color Tolerance (抵抗器のカラーコードの許容差)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/resistor-color-tolerance/.docs/instructions.md)): [Latest](../../../locales/ja/content/f4/79/50f0140496ad1b9a967379766d8a7583b002.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/resistor-color-tolerance/.docs/instructions.md)): [Latest](../../../locales/ja/content/35/0f/8b11f6731586b9dcc89452dcc7ca81b7914d.md)
+  - [`f47950f014`](../../../locales/ja/content/f4/79/50f0140496ad1b9a967379766d8a7583b002.md)
 
 ### Resistor Color Trio (抵抗器カラートリオ)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/resistor-color-trio/.docs/instructions.md)): [Latest](../../../locales/ja/content/1a/c5/cf5e9fe0b7e589bf6cba0c31c2c8a0e98d7e.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/resistor-color-trio/.docs/instructions.md)): [Latest](../../../locales/ja/content/8e/f1/1628e00a8553579594981d7c31900f8c1835.md)
+  - [`1ac5cf5e9f`](../../../locales/ja/content/1a/c5/cf5e9fe0b7e589bf6cba0c31c2c8a0e98d7e.md)
 
 ### REST API
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/rest-api/.docs/instructions.md)): [Latest](../../../locales/ja/content/e8/89/b1bf20762398566d9811888616e8ee03cb54.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/rest-api/.docs/instructions.md)): [Latest](../../../locales/ja/content/6c/c5/c91ee67091420872d1c3cd4137337f8e5679.md)
+  - [`e889b1bf20`](../../../locales/ja/content/e8/89/b1bf20762398566d9811888616e8ee03cb54.md)
 
 ### Reverse String (文字列の反転)
 
@@ -522,8 +539,10 @@ This page is generated from [the index](../../json/ja/go.json) by `scripts/build
 
 ### Roman Numerals (ローマ数字)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/roman-numerals/.docs/instructions.md)): [Latest](../../../locales/ja/content/50/e2/f5bf1c668a66cff143097642a80dae9597d2.md)
-- `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/roman-numerals/.docs/introduction.md)): [Latest](../../../locales/ja/content/6f/d9/42fef30f76ae037294b8fa382471665ffc2a.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/roman-numerals/.docs/instructions.md)): [Latest](../../../locales/ja/content/fe/28/f4d99ace840334fb8e1b022ffea2c36fe770.md)
+  - [`50e2f5bf1c`](../../../locales/ja/content/50/e2/f5bf1c668a66cff143097642a80dae9597d2.md)
+- `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/roman-numerals/.docs/introduction.md)): [Latest](../../../locales/ja/content/06/f4/84fe38a75497e4a5c12fc9e3eb153e5fa47e.md)
+  - [`6fd942fef3`](../../../locales/ja/content/6f/d9/42fef30f76ae037294b8fa382471665ffc2a.md)
 
 ### Rotational Cipher (回転暗号)
 
@@ -540,7 +559,8 @@ This page is generated from [the index](../../json/ja/go.json) by `scripts/build
 
 ### Satellite (人工衛星)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/satellite/.docs/instructions.md)): [Latest](../../../locales/ja/content/fb/bf/14f439558fa6451f8ebfac7253e0c9e12189.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/satellite/.docs/instructions.md)): [Latest](../../../locales/ja/content/99/ba/aed0ecdac2a4d4af2803b65a3e9cb86f2ba3.md)
+  - [`fbbf14f439`](../../../locales/ja/content/fb/bf/14f439558fa6451f8ebfac7253e0c9e12189.md)
 
 ### Save the Cow (牛を救え)
 
@@ -577,12 +597,14 @@ This page is generated from [the index](../../json/ja/go.json) by `scripts/build
 
 ### Sieve (ふるい)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/sieve/.docs/instructions.md)): [Latest](../../../locales/ja/content/71/29/2e1782dc95e0430ae2b614e1d740dd41639f.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/sieve/.docs/instructions.md)): [Latest](../../../locales/ja/content/4b/0f/47d4fafff7a8d2cde09247ad4fced7d73121.md)
+  - [`71292e1782`](../../../locales/ja/content/71/29/2e1782dc95e0430ae2b614e1d740dd41639f.md)
 - `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/sieve/.docs/introduction.md)): [Latest](../../../locales/ja/content/f6/c1/cf79a9d4ccf67f1ed34dabb8ab0a58030358.md)
 
 ### Simple Cipher (単純な暗号)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/simple-cipher/.docs/instructions.md)): [Latest](../../../locales/ja/content/af/d0/b57da930f59595d830df56eb0c9e891e83f4.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/simple-cipher/.docs/instructions.md)): [Latest](../../../locales/ja/content/46/0f/8761e98be9192e40453fc8733228d400b5da.md)
+  - [`afd0b57da9`](../../../locales/ja/content/af/d0/b57da930f59595d830df56eb0c9e891e83f4.md)
 - `instructions.append.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/simple-cipher/.docs/instructions.append.md)): [Latest](../../../locales/ja/content/80/3b/046a06eefd1bc29a84c571be744c4e4ed062.md)
 
 ### Simple Linked List (単純な連結リスト)
@@ -612,7 +634,8 @@ This page is generated from [the index](../../json/ja/go.json) by `scripts/build
 
 ### State of Tic-Tac-Toe (三目並べの状態)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/state-of-tic-tac-toe/.docs/instructions.md)): [Latest](../../../locales/ja/content/1a/03/ebb6cb4c4468e3c93f90e0a76e4f1812ec55.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/state-of-tic-tac-toe/.docs/instructions.md)): [Latest](../../../locales/ja/content/37/99/94c5ebfd3f9d2491c9ad4f7ec30e6d86320e.md)
+  - [`1a03ebb6cb`](../../../locales/ja/content/1a/03/ebb6cb4c4468e3c93f90e0a76e4f1812ec55.md)
 
 ### Strain (選別)
 
@@ -782,7 +805,7 @@ This page is generated from [the index](../../json/ja/go.json) by `scripts/build
 - `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/expenses/.docs/introduction.md)): [Latest](../../../locales/ja/content/03/8b/ec432525f27bcfa4a0332453b5ccf77b5c23.md)
 - `hints.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/expenses/.docs/hints.md)): [Latest](../../../locales/ja/content/1c/6a/1ad1a6f3543021138cf4f1cec0062105b58b.md)
 
-### generic-set (ジェネリックセット)
+### Generic Set (ジェネリックセット)
 
 - `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/generic-set/.docs/instructions.md)): [Latest](../../../locales/ja/content/0c/46/8aa8a0324643b6a90645df2a1da3afc87876.md)
 - `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/generic-set/.docs/introduction.md)): [Latest](../../../locales/ja/content/dc/39/070f52bd2453779e2e3e0c0c8f6cfd522e86.md)

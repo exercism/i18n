@@ -21,7 +21,8 @@ This page is generated from [the index](../../json/fa/go.json) by `scripts/build
 
 ### Affine Cipher (رمز افاین)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/affine-cipher/.docs/instructions.md)): [Latest](../../../locales/fa/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/affine-cipher/.docs/instructions.md)): [Latest](../../../locales/fa/content/bc/89/0882d3e2305a80a44c7d921bc9bf6be0cf8f.md)
+  - [`1603dbbce9`](../../../locales/fa/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
 
 ### All Your Base
 
@@ -109,7 +110,8 @@ This page is generated from [the index](../../json/fa/go.json) by `scripts/build
 
 ### Book Store (کتاب‌فروشی)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/book-store/.docs/instructions.md)): [Latest](../../../locales/fa/content/54/40/3f17bf5c35e9b5d6c20503e87e02c232e1a7.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/book-store/.docs/instructions.md)): [Latest](../../../locales/fa/content/30/c3/f056879d815af202362909a1ef676b9df62c.md)
+  - [`54403f17bf`](../../../locales/fa/content/54/40/3f17bf5c35e9b5d6c20503e87e02c232e1a7.md)
   - [`8ec0a7ba20`](../../../locales/fa/content/8e/c0/a7ba2047a1aa18316d20bf7164b160db7cb2.md)
 - `instructions.append.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/book-store/.docs/instructions.append.md)): [Latest](../../../locales/fa/content/64/68/7faa1a69b65be7628d7d1c6437f3b1367cdd.md)
 
@@ -150,7 +152,8 @@ This page is generated from [the index](../../json/fa/go.json) by `scripts/build
 - `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/collatz-conjecture/.docs/instructions.md)): [Latest](../../../locales/fa/content/af/33/2a810f0f31aa1233e92bea57721d3025f4e0.md)
   - [`ba060483e4`](../../../locales/fa/content/ba/06/0483e4d45f77f20a8b048544aa5438022467.md)
   - [`f8c76e7f11`](../../../locales/fa/content/f8/c7/6e7f11ed42a07577ae6ef350d169de59bf76.md)
-- `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/collatz-conjecture/.docs/introduction.md)): [Latest](../../../locales/fa/content/c3/5b/deb67dceef4bf9769dbbf473e841cdd068f2.md)
+- `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/collatz-conjecture/.docs/introduction.md)): [Latest](../../../locales/fa/content/40/09/942af059319797763f5424d4cfb08e5aa5f3.md)
+  - [`c35bdeb67d`](../../../locales/fa/content/c3/5b/deb67dceef4bf9769dbbf473e841cdd068f2.md)
 
 ### Complex Numbers (عدد مختلط)
 
@@ -181,7 +184,8 @@ This page is generated from [the index](../../json/fa/go.json) by `scripts/build
 
 ### D&D Character (شخصیت D&D)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/dnd-character/.docs/instructions.md)): [Latest](../../../locales/fa/content/e1/4e/7949d60df15f34f13fb04f45f77d59eaf9f7.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/dnd-character/.docs/instructions.md)): [Latest](../../../locales/fa/content/05/80/37575ca0f072b9194b11b567a5abeadbd404.md)
+  - [`e14e7949d6`](../../../locales/fa/content/e1/4e/7949d60df15f34f13fb04f45f77d59eaf9f7.md)
 - `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/dnd-character/.docs/introduction.md)): [Latest](../../../locales/fa/content/53/01/f61829de5444f758a53845f0c366a00aacdc.md)
 
 ### Darts (دارت)
@@ -215,7 +219,8 @@ This page is generated from [the index](../../json/fa/go.json) by `scripts/build
 
 ### DOT DSL
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/dot-dsl/.docs/instructions.md)): [Latest](../../../locales/fa/content/5e/65/ebef9436c86ec75a54714ffddc6da381c8ac.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/dot-dsl/.docs/instructions.md)): [Latest](../../../locales/fa/content/23/6b/a6d103dede4c17bf3573e43a3f46936be179.md)
+  - [`5e65ebef94`](../../../locales/fa/content/5e/65/ebef9436c86ec75a54714ffddc6da381c8ac.md)
 
 ### Eliud's Eggs (تخم‌های الیود)
 
@@ -314,7 +319,8 @@ This page is generated from [the index](../../json/fa/go.json) by `scripts/build
 
 ### Intergalactic Transmission (انتقال بین‌کهکشانی)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/intergalactic-transmission/.docs/instructions.md)): [Latest](../../../locales/fa/content/54/97/088176af7a635f7378966725130623109749.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/intergalactic-transmission/.docs/instructions.md)): [Latest](../../../locales/fa/content/45/86/36c6bc24500b6db784ccfd143799a0a3c7af.md)
+  - [`5497088176`](../../../locales/fa/content/54/97/088176af7a635f7378966725130623109749.md)
 - `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/intergalactic-transmission/.docs/introduction.md)): [Latest](../../../locales/fa/content/f1/9d/ffbead7bcf8578a86e3311749fead73f9a93.md)
 
 ### ISBN Verifier (اعتبارسنج ISBN)
@@ -330,7 +336,8 @@ This page is generated from [the index](../../json/fa/go.json) by `scripts/build
 
 ### Killer Sudoku Helper (کمک‌کننده‌ی سودوکوی قاتل)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/killer-sudoku-helper/.docs/instructions.md)): [Latest](../../../locales/fa/content/41/53/c3e9e1cbc213191557d177cc695e9231aadd.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/killer-sudoku-helper/.docs/instructions.md)): [Latest](../../../locales/fa/content/2a/2f/c5055018ea07784e54c0e0d04ca0d084c4fa.md)
+  - [`4153c3e9e1`](../../../locales/fa/content/41/53/c3e9e1cbc213191557d177cc695e9231aadd.md)
 
 ### Kindergarten Garden (باغ کودکستان)
 
@@ -379,7 +386,8 @@ This page is generated from [the index](../../json/fa/go.json) by `scripts/build
 
 ### List Ops (عملیات لیست)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/list-ops/.docs/instructions.md)): [Latest](../../../locales/fa/content/eb/c5/dffed02ecca9b62a12fd9c7327b58dd49bba.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/list-ops/.docs/instructions.md)): [Latest](../../../locales/fa/content/f5/02/2032b6935cf6d8b897da723f67d379784338.md)
+  - [`ebc5dffed0`](../../../locales/fa/content/eb/c5/dffed02ecca9b62a12fd9c7327b58dd49bba.md)
   - [`d34533387a`](../../../locales/fa/content/d3/45/33387ae1a822191db4199a37da27f6def5ed.md)
   - [`b5b20ff20a`](../../../locales/fa/content/b5/b2/0ff20a2012f9680c917abae1e2869d5ab2f3.md)
 
@@ -443,7 +451,8 @@ This page is generated from [the index](../../json/fa/go.json) by `scripts/build
 
 ### OCR Numbers (اعداد OCR)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/ocr-numbers/.docs/instructions.md)): [Latest](../../../locales/fa/content/8a/39/1ce4f6e1c32cd61c2140ed3e0e2e24299efd.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/ocr-numbers/.docs/instructions.md)): [Latest](../../../locales/fa/content/ea/40/a4ecd36432db63c2a9769d44ad1763d21819.md)
+  - [`8a391ce4f6`](../../../locales/fa/content/8a/39/1ce4f6e1c32cd61c2140ed3e0e2e24299efd.md)
   - [`7beb257795`](../../../locales/fa/content/7b/eb/257795750af8a41226dc35558924106c5657.md)
   - [`4086329bd8`](../../../locales/fa/content/40/86/329bd80259175d519e6b5ddbab0c829a876a.md)
 - `instructions.append.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/ocr-numbers/.docs/instructions.append.md)): [Latest](../../../locales/fa/content/18/76/4e9312b465a9e992e6e67535e92807982d8b.md)
@@ -478,10 +487,12 @@ This page is generated from [the index](../../json/fa/go.json) by `scripts/build
 
 ### Pascal's Triangle (مثلث خیام)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/pascals-triangle/.docs/instructions.md)): [Latest](../../../locales/fa/content/0f/58/f0069688bc7dfd1a2705cc4382f27a0609dd.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/pascals-triangle/.docs/instructions.md)): [Latest](../../../locales/fa/content/4f/a8/8553825636eca6a9053583288e07ed0e1cda.md)
+  - [`0f58f00696`](../../../locales/fa/content/0f/58/f0069688bc7dfd1a2705cc4382f27a0609dd.md)
   - [`f556785931`](../../../locales/fa/content/f5/56/785931c3674ec43dd8f4e47e202fa6523c5f.md)
   - [`7109334fbd`](../../../locales/fa/content/71/09/334fbdec440cec98d7570f54536a39d7e7d8.md)
-- `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/pascals-triangle/.docs/introduction.md)): [Latest](../../../locales/fa/content/ea/b4/54e5a6995c899f852bcd23d9af558ca9e7bd.md)
+- `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/pascals-triangle/.docs/introduction.md)): [Latest](../../../locales/fa/content/c2/bc/6f5d2113231f444250958019fc51738615de.md)
+  - [`eab454e5a6`](../../../locales/fa/content/ea/b4/54e5a6995c899f852bcd23d9af558ca9e7bd.md)
 
 ### Perfect Numbers (اعداد تام)
 
@@ -506,7 +517,8 @@ This page is generated from [the index](../../json/fa/go.json) by `scripts/build
 
 ### Pig Latin (پیگ لاتین)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/pig-latin/.docs/instructions.md)): [Latest](../../../locales/fa/content/a9/64/5ac236fe312760f0c7f6a3e5c8137114c92f.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/pig-latin/.docs/instructions.md)): [Latest](../../../locales/fa/content/4e/e6/0a75d160a2d244d1169214a026d1728b6070.md)
+  - [`a9645ac236`](../../../locales/fa/content/a9/64/5ac236fe312760f0c7f6a3e5c8137114c92f.md)
   - [`6c843080d4`](../../../locales/fa/content/6c/84/3080d445871fafbf2768deef48fbab032142.md)
   - [`571708814c`](../../../locales/fa/content/57/17/08814cdbb326b6cd36d08ed6dcc785e64038.md)
   - [`c9de5ca186`](../../../locales/fa/content/c9/de/5ca186500645c6ea0dacca87d2b69105d909.md)
@@ -522,7 +534,8 @@ This page is generated from [the index](../../json/fa/go.json) by `scripts/build
 
 ### POV (زاویه‌ی دید)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/pov/.docs/instructions.md)): [Latest](../../../locales/fa/content/0f/de/ed2250f9472452d51b3978daa8bdc6523688.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/pov/.docs/instructions.md)): [Latest](../../../locales/fa/content/32/f7/822d7ad99a1429476bdccdc63af95d17f31c.md)
+  - [`0fdeed2250`](../../../locales/fa/content/0f/de/ed2250f9472452d51b3978daa8bdc6523688.md)
   - [`25820172a1`](../../../locales/fa/content/25/82/0172a15ae36eb48fa8e6f82482c82dc4795d.md)
 - `instructions.append.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/pov/.docs/instructions.append.md)): [Latest](../../../locales/fa/content/c6/43/febf9b95f79c5f25ace8f6feba8c92dad457.md)
 
@@ -573,7 +586,8 @@ This page is generated from [the index](../../json/fa/go.json) by `scripts/build
 
 ### Rational Numbers (اعداد گویا)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/rational-numbers/.docs/instructions.md)): [Latest](../../../locales/fa/content/f6/4f/c0f28e5f84c9e991e52b275f5eef1ff7ea86.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/rational-numbers/.docs/instructions.md)): [Latest](../../../locales/fa/content/35/ed/bd0bd8a7031007e7a0f0cc85256af9db6824.md)
+  - [`f64fc0f28e`](../../../locales/fa/content/f6/4f/c0f28e5f84c9e991e52b275f5eef1ff7ea86.md)
 
 ### React
 
@@ -600,15 +614,18 @@ This page is generated from [the index](../../json/fa/go.json) by `scripts/build
 
 ### Resistor Color Tolerance (تلورانس رنگ مقاومت)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/resistor-color-tolerance/.docs/instructions.md)): [Latest](../../../locales/fa/content/f4/79/50f0140496ad1b9a967379766d8a7583b002.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/resistor-color-tolerance/.docs/instructions.md)): [Latest](../../../locales/fa/content/35/0f/8b11f6731586b9dcc89452dcc7ca81b7914d.md)
+  - [`f47950f014`](../../../locales/fa/content/f4/79/50f0140496ad1b9a967379766d8a7583b002.md)
 
 ### Resistor Color Trio (رنگ مقاومت سه‌گانه)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/resistor-color-trio/.docs/instructions.md)): [Latest](../../../locales/fa/content/1a/c5/cf5e9fe0b7e589bf6cba0c31c2c8a0e98d7e.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/resistor-color-trio/.docs/instructions.md)): [Latest](../../../locales/fa/content/8e/f1/1628e00a8553579594981d7c31900f8c1835.md)
+  - [`1ac5cf5e9f`](../../../locales/fa/content/1a/c5/cf5e9fe0b7e589bf6cba0c31c2c8a0e98d7e.md)
 
 ### REST API
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/rest-api/.docs/instructions.md)): [Latest](../../../locales/fa/content/e8/89/b1bf20762398566d9811888616e8ee03cb54.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/rest-api/.docs/instructions.md)): [Latest](../../../locales/fa/content/6c/c5/c91ee67091420872d1c3cd4137337f8e5679.md)
+  - [`e889b1bf20`](../../../locales/fa/content/e8/89/b1bf20762398566d9811888616e8ee03cb54.md)
 
 ### Reverse String (معکوس‌کردن رشته)
 
@@ -636,10 +653,12 @@ This page is generated from [the index](../../json/fa/go.json) by `scripts/build
 
 ### Roman Numerals (اعداد رومی)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/roman-numerals/.docs/instructions.md)): [Latest](../../../locales/fa/content/50/e2/f5bf1c668a66cff143097642a80dae9597d2.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/roman-numerals/.docs/instructions.md)): [Latest](../../../locales/fa/content/fe/28/f4d99ace840334fb8e1b022ffea2c36fe770.md)
+  - [`50e2f5bf1c`](../../../locales/fa/content/50/e2/f5bf1c668a66cff143097642a80dae9597d2.md)
   - [`247ea0892e`](../../../locales/fa/content/24/7e/a0892e00a5568fc62d11c9f3e9a0e84c8cdb.md)
   - [`ce25f205e9`](../../../locales/fa/content/ce/25/f205e9bc94ea1f7ba4ed23b251e4c55503ae.md)
-- `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/roman-numerals/.docs/introduction.md)): [Latest](../../../locales/fa/content/6f/d9/42fef30f76ae037294b8fa382471665ffc2a.md)
+- `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/roman-numerals/.docs/introduction.md)): [Latest](../../../locales/fa/content/06/f4/84fe38a75497e4a5c12fc9e3eb153e5fa47e.md)
+  - [`6fd942fef3`](../../../locales/fa/content/6f/d9/42fef30f76ae037294b8fa382471665ffc2a.md)
 
 ### Rotational Cipher (رمز چرخشی)
 
@@ -662,7 +681,8 @@ This page is generated from [the index](../../json/fa/go.json) by `scripts/build
 
 ### Satellite (ماهواره)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/satellite/.docs/instructions.md)): [Latest](../../../locales/fa/content/fb/bf/14f439558fa6451f8ebfac7253e0c9e12189.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/satellite/.docs/instructions.md)): [Latest](../../../locales/fa/content/99/ba/aed0ecdac2a4d4af2803b65a3e9cb86f2ba3.md)
+  - [`fbbf14f439`](../../../locales/fa/content/fb/bf/14f439558fa6451f8ebfac7253e0c9e12189.md)
 
 ### Save the Cow (گاو را نجات دهید)
 
@@ -708,7 +728,8 @@ This page is generated from [the index](../../json/fa/go.json) by `scripts/build
 
 ### Sieve (غربال)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/sieve/.docs/instructions.md)): [Latest](../../../locales/fa/content/71/29/2e1782dc95e0430ae2b614e1d740dd41639f.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/sieve/.docs/instructions.md)): [Latest](../../../locales/fa/content/4b/0f/47d4fafff7a8d2cde09247ad4fced7d73121.md)
+  - [`71292e1782`](../../../locales/fa/content/71/29/2e1782dc95e0430ae2b614e1d740dd41639f.md)
   - [`085c0a57d9`](../../../locales/fa/content/08/5c/0a57d96c7cd846a7948241899ce46778f01d.md)
   - [`3adf1d551b`](../../../locales/fa/content/3a/df/1d551be96439551de01ce42c13d39c3a4915.md)
   - [`7228737a24`](../../../locales/fa/content/72/28/737a2439b2a6a230d70e284a81411628d01d.md)
@@ -716,7 +737,8 @@ This page is generated from [the index](../../json/fa/go.json) by `scripts/build
 
 ### Simple Cipher (رمز ساده)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/simple-cipher/.docs/instructions.md)): [Latest](../../../locales/fa/content/af/d0/b57da930f59595d830df56eb0c9e891e83f4.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/simple-cipher/.docs/instructions.md)): [Latest](../../../locales/fa/content/46/0f/8761e98be9192e40453fc8733228d400b5da.md)
+  - [`afd0b57da9`](../../../locales/fa/content/af/d0/b57da930f59595d830df56eb0c9e891e83f4.md)
   - [`475af61828`](../../../locales/fa/content/47/5a/f61828f2d53e65f912b0f0cb94b26702daee.md)
 - `instructions.append.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/simple-cipher/.docs/instructions.append.md)): [Latest](../../../locales/fa/content/80/3b/046a06eefd1bc29a84c571be744c4e4ed062.md)
 
@@ -751,7 +773,8 @@ This page is generated from [the index](../../json/fa/go.json) by `scripts/build
 
 ### State of Tic-Tac-Toe (وضعیت بازی دوز)
 
-- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/state-of-tic-tac-toe/.docs/instructions.md)): [Latest](../../../locales/fa/content/1a/03/ebb6cb4c4468e3c93f90e0a76e4f1812ec55.md)
+- `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/practice/state-of-tic-tac-toe/.docs/instructions.md)): [Latest](../../../locales/fa/content/37/99/94c5ebfd3f9d2491c9ad4f7ec30e6d86320e.md)
+  - [`1a03ebb6cb`](../../../locales/fa/content/1a/03/ebb6cb4c4468e3c93f90e0a76e4f1812ec55.md)
   - [`f525d3585b`](../../../locales/fa/content/f5/25/d3585be35ad822164b9c57a37b8979169976.md)
 
 ### Strain (صاف‌کردن)
@@ -940,7 +963,7 @@ This page is generated from [the index](../../json/fa/go.json) by `scripts/build
 - `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/expenses/.docs/introduction.md)): [Latest](../../../locales/fa/content/03/8b/ec432525f27bcfa4a0332453b5ccf77b5c23.md)
 - `hints.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/expenses/.docs/hints.md)): [Latest](../../../locales/fa/content/1c/6a/1ad1a6f3543021138cf4f1cec0062105b58b.md)
 
-### generic-set (مجموعه‌ی جنریک)
+### Generic Set (مجموعه‌ی جنریک)
 
 - `instructions.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/generic-set/.docs/instructions.md)): [Latest](../../../locales/fa/content/0c/46/8aa8a0324643b6a90645df2a1da3afc87876.md)
 - `introduction.md` ([English](https://github.com/exercism/go/blob/main/exercises/concept/generic-set/.docs/introduction.md)): [Latest](../../../locales/fa/content/dc/39/070f52bd2453779e2e3e0c0c8f6cfd522e86.md)

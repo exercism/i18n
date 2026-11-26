@@ -417,7 +417,7 @@
   "exercise:ocr-numbers:source": "Inspiré du kata Bank OCR",
   "exercise:paasio:blurb": "Rapporte les statistiques d'E/S réseau.",
   "exercise:paasio:source": "Brian Matsuo",
-  "exercise:piecing-it-together:blurb": "Complète les détails manquants d'un puzzle à partir de données partielles",
+  "exercise:piecing-it-together:blurb": "Complète les détails manquants d'un puzzle à partir de données partielles.",
   "exercise:piecing-it-together:source": "atk venait de commencer un nouveau puzzle de 1000 pièces quand cette idée lui est venue",
   "exercise:pov:blurb": "Rattache un graphe à un nœud sélectionné.",
   "exercise:pov:source": "Adaptation d'un exercice de 4clojure",
