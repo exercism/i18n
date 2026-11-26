@@ -240,7 +240,8 @@ This page is generated from [the index](../../json/es-419/docs.json) by `scripts
 
 ### config.json
 
-- `config-json.md` ([English](https://github.com/exercism/docs/blob/main/building/tracks/config-json.md)): [Latest](../../../locales/es-419/content/10/45/08e5ed472525bab198f051e51fac62dfceb3.md)
+- `config-json.md` ([English](https://github.com/exercism/docs/blob/main/building/tracks/config-json.md)): [Latest](../../../locales/es-419/content/c4/a2/af4b95f98d50844de04f71f9c99b4e74af85.md)
+  - [`104508e5ed`](../../../locales/es-419/content/10/45/08e5ed472525bab198f051e51fac62dfceb3.md)
 
 ### Configlet
 
@@ -261,7 +262,8 @@ This page is generated from [the index](../../json/es-419/docs.json) by `scripts
 
 ### configlet sync
 
-- `sync.md` ([English](https://github.com/exercism/docs/blob/main/building/configlet/sync.md)): [Latest](../../../locales/es-419/content/a7/98/5b07361b50fe4779c4c63751749ae2f2f39e.md)
+- `sync.md` ([English](https://github.com/exercism/docs/blob/main/building/configlet/sync.md)): [Latest](../../../locales/es-419/content/91/c1/91178daa71bf8412ac9b75ed8ec87cb900fd.md)
+  - [`a7985b0736`](../../../locales/es-419/content/a7/98/5b07361b50fe4779c4c63751749ae2f2f39e.md)
 
 ### configlet uuid
 
