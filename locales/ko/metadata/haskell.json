@@ -384,5 +384,8 @@
   "exercise:binary-chop:blurb": "이진 탐색 알고리즘을 구현해요.",
   "exercise:binary-chop:source": "Wikipedia",
   "exercise:freelancer-rates:name": "프리랜서 요율",
-  "exercise:freelancer-rates:blurb": "프리랜서가 프로젝트 매니저와 요금 청구에 대해 소통하도록 도우면서 정수와 실수에 대해 배워요."
+  "exercise:freelancer-rates:blurb": "프리랜서가 프로젝트 매니저와 요금 청구에 대해 소통하도록 도우면서 정수와 실수에 대해 배워요.",
+  "exercise:variable-length-quantity:name": "가변 길이 수량",
+  "exercise:variable-length-quantity:blurb": "가변 길이 수량 인코딩과 디코딩을 구현해요.",
+  "exercise:variable-length-quantity:source": "MIDI 인코딩/디코딩을 구현해야 했던 Splice의 가여운 개발자."
 }

@@ -588,6 +588,10 @@ This page is generated from [the index](../../json/el/haskell.json) by `scripts/
 - `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/two-bucket/.docs/instructions.md)): [Latest](../../../locales/el/content/30/d7/79aa9225cde761d6e21a3b8cae231d24e087.md)
 - `instructions.append.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/two-bucket/.docs/instructions.append.md)): [Latest](../../../locales/el/content/4c/67/67690aabf32e62e70950f6f4983eba903b21.md)
 
+### Variable Length Quantity (Ποσότητα μεταβλητού μήκους)
+
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/variable-length-quantity/.docs/instructions.md)): [Latest](../../../locales/el/content/50/12/548268111bd52081b3774efc2a51a0271fd3.md)
+
 ### Word Count (Μέτρηση λέξεων)
 
 - `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/word-count/.docs/instructions.md)): [Latest](../../../locales/el/content/06/43/93c8a0f68810d215d0bec650f9cab19953b5.md)
@@ -645,12 +649,12 @@ This page is generated from [the index](../../json/el/haskell.json) by `scripts/
 
 ### Lucian's Luscious Lasagna (Τα λαχταριστά λαζάνια του Lucian)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/concept/lucians-luscious-lasagna/.docs/instructions.md)): [Latest](../../../locales/el/content/1e/96/3a8d4f0296b3d3aed3c9e8f710898e195c6f.md)
-  - [`41a75b9b7f`](../../../locales/el/content/41/a7/5b9b7f74386b8699f03139fd4ff975dce146.md)
-- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/concept/lucians-luscious-lasagna/.docs/introduction.md)): [Latest](../../../locales/el/content/96/80/7773f99ea2762586bbd937db592a66a048d0.md)
-  - [`db6018f971`](../../../locales/el/content/db/60/18f971ab89a5d6ab66d732f888d02d6b3179.md)
-- `hints.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/concept/lucians-luscious-lasagna/.docs/hints.md)): [Latest](../../../locales/el/content/3e/2c/107b80dc328f9d1ebf85c9a2a58d3047fcc6.md)
-  - [`d28386dd09`](../../../locales/el/content/d2/83/86dd09ca3fb07c539784dc34e19be4c10c56.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/concept/lucians-luscious-lasagna/.docs/instructions.md)): [Latest](../../../locales/el/content/41/a7/5b9b7f74386b8699f03139fd4ff975dce146.md)
+  - [`1e963a8d4f`](../../../locales/el/content/1e/96/3a8d4f0296b3d3aed3c9e8f710898e195c6f.md)
+- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/concept/lucians-luscious-lasagna/.docs/introduction.md)): [Latest](../../../locales/el/content/db/60/18f971ab89a5d6ab66d732f888d02d6b3179.md)
+  - [`96807773f9`](../../../locales/el/content/96/80/7773f99ea2762586bbd937db592a66a048d0.md)
+- `hints.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/concept/lucians-luscious-lasagna/.docs/hints.md)): [Latest](../../../locales/el/content/d2/83/86dd09ca3fb07c539784dc34e19be4c10c56.md)
+  - [`3e2c107b80`](../../../locales/el/content/3e/2c/107b80dc328f9d1ebf85c9a2a58d3047fcc6.md)
 
 ### Pac-Man Rules (Κανόνες Pac-Man)
 
@@ -680,10 +684,10 @@ This page is generated from [the index](../../json/el/haskell.json) by `scripts/
 
 ### Basics (Τα βασικά)
 
-- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/basics/introduction.md)): [Latest](../../../locales/el/content/1f/a4/6a7188627368f90dff5b074563e4c1a651bd.md)
-  - [`db6018f971`](../../../locales/el/content/db/60/18f971ab89a5d6ab66d732f888d02d6b3179.md)
-- `about.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/basics/about.md)): [Latest](../../../locales/el/content/1f/a4/6a7188627368f90dff5b074563e4c1a651bd.md)
-  - [`db6018f971`](../../../locales/el/content/db/60/18f971ab89a5d6ab66d732f888d02d6b3179.md)
+- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/basics/introduction.md)): [Latest](../../../locales/el/content/db/60/18f971ab89a5d6ab66d732f888d02d6b3179.md)
+  - [`1fa46a7188`](../../../locales/el/content/1f/a4/6a7188627368f90dff5b074563e4c1a651bd.md)
+- `about.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/basics/about.md)): [Latest](../../../locales/el/content/db/60/18f971ab89a5d6ab66d732f888d02d6b3179.md)
+  - [`1fa46a7188`](../../../locales/el/content/1f/a4/6a7188627368f90dff5b074563e4c1a651bd.md)
 
 ### Booleans
 
@@ -702,11 +706,11 @@ This page is generated from [the index](../../json/el/haskell.json) by `scripts/
 
 ### Numbers (Αριθμοί)
 
-- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/numbers/introduction.md)): [Latest](../../../locales/el/content/96/78/e70cf777a77214b72f5865b886a20fc867a2.md)
-  - [`94bfa9373b`](../../../locales/el/content/94/bf/a9373bdaa686e414828917ade871e0f77ae8.md)
+- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/numbers/introduction.md)): [Latest](../../../locales/el/content/94/bf/a9373bdaa686e414828917ade871e0f77ae8.md)
+  - [`9678e70cf7`](../../../locales/el/content/96/78/e70cf777a77214b72f5865b886a20fc867a2.md)
   - [`87f92aff41`](../../../locales/el/content/87/f9/2aff41910ccb539f4435c4df3cceb560751c.md)
-- `about.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/numbers/about.md)): [Latest](../../../locales/el/content/6e/db/53a4d7eeb22551f1b53aff0079664bbeb8b2.md)
-  - [`19fb2fb09f`](../../../locales/el/content/19/fb/2fb09f922776714c2476719261ff3485b9c1.md)
+- `about.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/numbers/about.md)): [Latest](../../../locales/el/content/19/fb/2fb09f922776714c2476719261ff3485b9c1.md)
+  - [`6edb53a4d7`](../../../locales/el/content/6e/db/53a4d7eeb22551f1b53aff0079664bbeb8b2.md)
   - [`61b97be477`](../../../locales/el/content/61/b9/7be477f6f11d172233a6d0d5c1016f853e6d.md)
 
 ### Pattern Matching (Αντιστοίχιση προτύπων)

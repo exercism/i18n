@@ -384,5 +384,8 @@
   "exercise:binary-chop:blurb": "الگوریتم جست‌وجوی دودویی را پیاده‌سازی کنید.",
   "exercise:binary-chop:source": "Wikipedia",
   "exercise:freelancer-rates:name": "نرخ‌های فریلنسر",
-  "exercise:freelancer-rates:blurb": "با کمک به یک فریلنسر برای گفت‌وگو با مدیر پروژه درباره‌ی صورت‌حساب، با اعداد صحیح و اعداد اعشاری آشنا شوید."
+  "exercise:freelancer-rates:blurb": "با کمک به یک فریلنسر برای گفت‌وگو با مدیر پروژه درباره‌ی صورت‌حساب، با اعداد صحیح و اعداد اعشاری آشنا شوید.",
+  "exercise:variable-length-quantity:name": "کمیت با طول متغیر",
+  "exercise:variable-length-quantity:blurb": "رمزگذاری و رمزگشایی کمیت با طول متغیر را پیاده‌سازی کنید.",
+  "exercise:variable-length-quantity:source": "یک توسعه‌دهنده‌ی بیچاره در Splice که مجبور شده رمزگذاری و رمزگشایی MIDI را پیاده‌سازی کند."
 }

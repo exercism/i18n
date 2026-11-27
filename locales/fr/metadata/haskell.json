@@ -386,5 +386,8 @@
   "exercise:binary-chop:blurb": "Implémente un algorithme de recherche binaire.",
   "exercise:binary-chop:source": "Wikipedia",
   "exercise:freelancer-rates:name": "Tarifs d'un freelance",
-  "exercise:freelancer-rates:blurb": "Apprends les entiers et les nombres à virgule flottante en aidant un freelance à communiquer avec un chef de projet au sujet de la facturation."
+  "exercise:freelancer-rates:blurb": "Apprends les entiers et les nombres à virgule flottante en aidant un freelance à communiquer avec un chef de projet au sujet de la facturation.",
+  "exercise:variable-length-quantity:name": "Quantité de longueur variable",
+  "exercise:variable-length-quantity:blurb": "Implémente l'encodage et le décodage de quantités de longueur variable.",
+  "exercise:variable-length-quantity:source": "Un pauvre développeur de Splice obligé d'implémenter l'encodage et le décodage MIDI."
 }

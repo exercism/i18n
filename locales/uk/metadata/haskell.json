@@ -386,5 +386,8 @@
   "exercise:binary-chop:blurb": "Реалізуйте алгоритм двійкового пошуку.",
   "exercise:binary-chop:source": "Wikipedia",
   "exercise:freelancer-rates:name": "Ставки фрилансера",
-  "exercise:freelancer-rates:blurb": "Вивчаємо цілі числа та числа з плаваючою комою, допомагаючи фрилансеру порозумітися з менеджером проєкту щодо оплати."
+  "exercise:freelancer-rates:blurb": "Вивчаємо цілі числа та числа з плаваючою комою, допомагаючи фрилансеру порозумітися з менеджером проєкту щодо оплати.",
+  "exercise:variable-length-quantity:name": "Величина змінної довжини",
+  "exercise:variable-length-quantity:blurb": "Реалізуйте кодування та декодування величин змінної довжини.",
+  "exercise:variable-length-quantity:source": "Бідолашний розробник зі Splice, якому довелося реалізувати кодування й декодування MIDI."
 }

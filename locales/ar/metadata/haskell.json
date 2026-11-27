@@ -384,5 +384,8 @@
   "exercise:binary-chop:blurb": "نفّذ خوارزمية بحث ثنائي.",
   "exercise:binary-chop:source": "ويكيبيديا",
   "exercise:freelancer-rates:name": "أسعار المستقلّين",
-  "exercise:freelancer-rates:blurb": "تعلّم عن الأعداد الصحيحة والأعداد العشرية من خلال مساعدة مستقل على التواصل مع مدير مشروع بشأن الفوترة."
+  "exercise:freelancer-rates:blurb": "تعلّم عن الأعداد الصحيحة والأعداد العشرية من خلال مساعدة مستقل على التواصل مع مدير مشروع بشأن الفوترة.",
+  "exercise:variable-length-quantity:name": "الكمية متغيرة الطول",
+  "exercise:variable-length-quantity:blurb": "نفّذ ترميز الكمية متغيرة الطول وفك ترميزها.",
+  "exercise:variable-length-quantity:source": "مطوّر مسكين في Splice اضطر إلى تنفيذ ترميز MIDI وفك ترميزه."
 }

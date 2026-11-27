@@ -384,5 +384,8 @@
   "exercise:binary-chop:blurb": "Implemente um algoritmo de busca binária.",
   "exercise:binary-chop:source": "Wikipedia",
   "exercise:freelancer-rates:name": "Tarifas de freelancer",
-  "exercise:freelancer-rates:blurb": "Aprenda sobre números inteiros e números de ponto flutuante ajudando um freelancer a se comunicar com um gerente de projetos sobre cobrança."
+  "exercise:freelancer-rates:blurb": "Aprenda sobre números inteiros e números de ponto flutuante ajudando um freelancer a se comunicar com um gerente de projetos sobre cobrança.",
+  "exercise:variable-length-quantity:name": "Quantidade de comprimento variável",
+  "exercise:variable-length-quantity:blurb": "Implemente a codificação e a decodificação de quantidade de comprimento variável.",
+  "exercise:variable-length-quantity:source": "Um pobre desenvolvedor da Splice tendo que implementar codificação/decodificação MIDI."
 }

@@ -384,5 +384,8 @@
   "exercise:binary-chop:blurb": "实现二分查找算法。",
   "exercise:binary-chop:source": "Wikipedia",
   "exercise:freelancer-rates:name": "自由职业者费率",
-  "exercise:freelancer-rates:blurb": "通过帮助一位自由职业者就账单问题与项目经理沟通，学习整数和浮点数。"
+  "exercise:freelancer-rates:blurb": "通过帮助一位自由职业者就账单问题与项目经理沟通，学习整数和浮点数。",
+  "exercise:variable-length-quantity:name": "可变长度数量",
+  "exercise:variable-length-quantity:blurb": "实现可变长度数量的编码和解码。",
+  "exercise:variable-length-quantity:source": "出自一位可怜的 Splice 开发者，他不得不实现 MIDI 的编码和解码。"
 }
