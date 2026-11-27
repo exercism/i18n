@@ -272,7 +272,15 @@
     "syncBehaviourSection.syncBehaviour": "सिंक का व्यवहार",
     "syncBehaviourSection.chooseWhetherSyncing": "चुनिए कि सिंक तब अपने आप हो जब आप नया इटरेशन बनाएँ, या तब हो जब आप खुद इसे शुरू करें। <strong>स्वचालित</strong> सिंक आपकी GitHub रिपॉज़िटरी को अप टू डेट रखता है, वहीं <strong>मैनुअल</strong> में पूरा नियंत्रण आपके पास रहता है।",
     "syncBehaviourSection.automatic": "स्वचालित",
-    "syncBehaviourSection.manual": "मैनुअल"
+    "syncBehaviourSection.manual": "मैनुअल",
+    "commitAuthorSection.commitAuthor": "कमिट का लेखक",
+    "commitAuthorSection.description": "चुनिए कि आपके सिंक किए गए कमिट के लेखक के रूप में किसका नाम दिखे। अगर आप खुद को चुनते हैं, तो कमिट आपके GitHub अकाउंट के नाम से दिखते हैं और आपके GitHub कंट्रीब्यूशन ग्राफ़ में गिने जाते हैं। हम आपका GitHub noreply ईमेल पता इस्तेमाल करते हैं, इसलिए आपका वास्तविक ईमेल पता निजी रहता है। अगर आप सिंकर बॉट चुनते हैं, तो कमिट Exercism के Solution Syncer Bot के नाम से दिखते हैं।",
+    "commitAuthorSection.me": "मैं",
+    "commitAuthorSection.theSyncerBot": "सिंकर बॉट",
+    "commitAuthorSection.saveChanges": "बदलाव सहेजें",
+    "commitAuthorSection.savedChangesSuccessfully": "बदलाव सफलतापूर्वक सहेजे गए!",
+    "commitAuthorSection.failedToSaveChanges": "बदलाव सहेजे नहीं जा सके।",
+    "commitAuthorSection.somethingWentWrongWhileSaving": "बदलाव सहेजते समय कुछ गड़बड़ हो गई। कृपया फिर से कोशिश कीजिए।"
   },
   "components/common/Reputation.tsx": {
     "reputation.reputation": "प्रतिष्ठा",
@@ -1234,7 +1242,14 @@
     "index.githubAlt": "Github",
     "connectModal.exercismAlt": "Exercism",
     "connectModal.syncWithAlt": "इसके साथ सिंक",
-    "connectModal.githubAlt": "Github"
+    "connectModal.githubAlt": "Github",
+    "index.connectYourAccount": "अपना GitHub अकाउंट जोड़िए",
+    "index.accountMustBeLinked": "आपकी बैकअप रिपॉज़िटरी उसी GitHub अकाउंट पर होनी चाहिए जो आपके Exercism अकाउंट से जुड़ा है। अपने अकाउंट जोड़ने के लिए बटन पर क्लिक कीजिए।",
+    "index.linkGithubAccount": "अपना GitHub अकाउंट जोड़ें",
+    "index.accountLinkedAs": "GitHub अकाउंट जुड़ा: {{username}}",
+    "index.accountLinked": "GitHub अकाउंट जुड़ा है",
+    "index.setUpTheBackup": "बैकअप सेट करें",
+    "index.completeStepOneFirst": "जारी रखने के लिए अपना GitHub अकाउंट जोड़िए।"
   },
   "components/journey/overview/learning-section/track-summary/TrackProgressBar.tsx": {
     "trackProgressBar.completed": "पूरा हुआ"

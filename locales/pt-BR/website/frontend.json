@@ -190,7 +190,15 @@
     "commitMessageTemplateSection.revert_button": "Restaurar o padrão",
     "commitMessageTemplateSection.confirm_modal.title": "Tem certeza de que quer restaurar o modelo da sua mensagem de commit para o padrão?",
     "commitMessageTemplateSection.confirm_modal.confirm": "Restaurar",
-    "commitMessageTemplateSection.confirm_modal.cancel": "Cancelar"
+    "commitMessageTemplateSection.confirm_modal.cancel": "Cancelar",
+    "commitAuthorSection.commitAuthor": "Autor do commit",
+    "commitAuthorSection.description": "Escolha quem aparece como autor dos seus commits sincronizados. Se você escolher você mesmo, os commits mostram sua conta do GitHub e contam para o seu gráfico de contribuições do GitHub. Usamos seu endereço de email noreply do GitHub, então seu endereço de email real continua privado. Se você escolher o bot de sincronização, os commits mostram o Solution Syncer Bot do Exercism.",
+    "commitAuthorSection.me": "Eu",
+    "commitAuthorSection.theSyncerBot": "O bot de sincronização",
+    "commitAuthorSection.saveChanges": "Salvar alterações",
+    "commitAuthorSection.savedChangesSuccessfully": "Alterações salvas com sucesso!",
+    "commitAuthorSection.failedToSaveChanges": "Não foi possível salvar as alterações.",
+    "commitAuthorSection.somethingWentWrongWhileSaving": "Algo deu errado ao salvar as alterações. Tente novamente."
   },
   "components/modals/EnableSolutionCommentsModal.tsx": {
     "enableSolutionCommentsModal.enableCommentsButton": "Ativar comentários",
@@ -559,7 +567,14 @@
     "index.githubAlt": "Github",
     "connectModal.exercismAlt": "Exercism",
     "connectModal.syncWithAlt": "Sincronizar com",
-    "connectModal.githubAlt": "Github"
+    "connectModal.githubAlt": "Github",
+    "index.connectYourAccount": "Conecte sua conta do GitHub",
+    "index.accountMustBeLinked": "Seu repositório de backup precisa estar na conta do GitHub vinculada à sua conta do Exercism. Clique no botão para vincular suas contas.",
+    "index.linkGithubAccount": "Vincule sua conta do GitHub",
+    "index.accountLinkedAs": "Conta do GitHub vinculada: {{username}}",
+    "index.accountLinked": "Conta do GitHub vinculada",
+    "index.setUpTheBackup": "Configure o backup",
+    "index.completeStepOneFirst": "Vincule sua conta do GitHub para continuar."
   },
   "components/settings/HandleForm.tsx": {
     "handleForm.changeYourHandle": "Alterar seu nome de usuário",

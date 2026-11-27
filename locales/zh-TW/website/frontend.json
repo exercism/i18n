@@ -645,7 +645,15 @@
     "commitMessageTemplateSection.revert_button": "還原為預設值",
     "commitMessageTemplateSection.confirm_modal.title": "你確定要將提交訊息範本還原為預設值嗎？",
     "commitMessageTemplateSection.confirm_modal.confirm": "還原",
-    "commitMessageTemplateSection.confirm_modal.cancel": "取消"
+    "commitMessageTemplateSection.confirm_modal.cancel": "取消",
+    "commitAuthorSection.commitAuthor": "提交作者",
+    "commitAuthorSection.description": "選擇要將誰列為同步提交的作者。如果選擇你自己，提交會顯示你的 GitHub 帳號，並計入你的 GitHub 貢獻圖。我們會使用你的 GitHub noreply 電子郵件地址，所以你的真實電子郵件地址會保持私密。如果選擇同步機器人，提交會顯示為 Exercism 的 Solution Syncer Bot。",
+    "commitAuthorSection.me": "我",
+    "commitAuthorSection.theSyncerBot": "同步機器人",
+    "commitAuthorSection.saveChanges": "儲存變更",
+    "commitAuthorSection.savedChangesSuccessfully": "已成功儲存變更！",
+    "commitAuthorSection.failedToSaveChanges": "儲存變更失敗。",
+    "commitAuthorSection.somethingWentWrongWhileSaving": "儲存變更時發生錯誤，請再試一次。"
   },
   "components/settings/github-syncer/sections/ConnectedSection/ManualSyncSection.tsx": {
     "backupATrack": "備份軌道",
@@ -2090,7 +2098,14 @@
     "index.githubAlt": "Github",
     "connectModal.exercismAlt": "Exercism",
     "connectModal.syncWithAlt": "同步至",
-    "connectModal.githubAlt": "Github"
+    "connectModal.githubAlt": "Github",
+    "index.connectYourAccount": "連結你的 GitHub 帳號",
+    "index.accountMustBeLinked": "你的備份儲存庫必須位於已連結至你 Exercism 帳號的 GitHub 帳號上。點擊按鈕來連結你的帳號。",
+    "index.linkGithubAccount": "連結你的 GitHub 帳號",
+    "index.accountLinkedAs": "已連結 GitHub 帳號：{{username}}",
+    "index.accountLinked": "已連結 GitHub 帳號",
+    "index.setUpTheBackup": "設定備份",
+    "index.completeStepOneFirst": "連結你的 GitHub 帳號以繼續。"
   },
   "session-batch-3": {
     "components.mentoring.session.iterationView.iterationDeleted": "這個疊代已被刪除",

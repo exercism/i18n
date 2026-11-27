@@ -272,7 +272,15 @@
     "commitMessageTemplateSection.revert_button": "بازگشت به پیش‌فرض",
     "commitMessageTemplateSection.confirm_modal.title": "آیا مطمئن هستید که می‌خواهید قالب پیام کامیت خود را به حالت پیش‌فرض بازگردانید؟",
     "commitMessageTemplateSection.confirm_modal.confirm": "بازگرداندن",
-    "commitMessageTemplateSection.confirm_modal.cancel": "انصراف"
+    "commitMessageTemplateSection.confirm_modal.cancel": "انصراف",
+    "commitAuthorSection.commitAuthor": "نویسنده‌ی کامیت",
+    "commitAuthorSection.description": "انتخاب کنید چه کسی به‌عنوان نویسنده‌ی کامیت‌های همگام‌سازی‌شده‌ی شما نام برده شود. اگر خودتان را انتخاب کنید، کامیت‌ها حساب GitHub شما را نشان می‌دهند و در نمودار مشارکت GitHub شما به حساب می‌آیند. ما از نشانی ایمیل noreply GitHub شما استفاده می‌کنیم تا نشانی ایمیل واقعی‌تان خصوصی بماند. اگر ربات همگام‌ساز را انتخاب کنید، کامیت‌ها Solution Syncer Bot مربوط به Exercism را نشان می‌دهند.",
+    "commitAuthorSection.me": "خودم",
+    "commitAuthorSection.theSyncerBot": "ربات همگام‌ساز",
+    "commitAuthorSection.saveChanges": "ذخیره‌ی تغییرات",
+    "commitAuthorSection.savedChangesSuccessfully": "تغییرات با موفقیت ذخیره شد!",
+    "commitAuthorSection.failedToSaveChanges": "ذخیره‌ی تغییرات ناموفق بود.",
+    "commitAuthorSection.somethingWentWrongWhileSaving": "هنگام ذخیره‌ی تغییرات مشکلی پیش آمد. لطفاً دوباره تلاش کنید."
   },
   "components/profile": {
     "newProfileForm.howDoYouWantToBeKnown": "دوست دارید با چه اسمی شناخته شوید؟",
@@ -919,7 +927,14 @@
     "index.githubAlt": "Github",
     "connectModal.exercismAlt": "Exercism",
     "connectModal.syncWithAlt": "همگام‌سازی با",
-    "connectModal.githubAlt": "Github"
+    "connectModal.githubAlt": "Github",
+    "index.connectYourAccount": "حساب GitHub خود را متصل کنید",
+    "index.accountMustBeLinked": "مخزن پشتیبان شما باید در حساب GitHub مرتبط با حساب Exercism شما قرار داشته باشد. برای پیوند دادن حساب‌هایتان روی دکمه کلیک کنید.",
+    "index.linkGithubAccount": "حساب GitHub خود را پیوند دهید",
+    "index.accountLinkedAs": "حساب GitHub پیوند داده شد: {{username}}",
+    "index.accountLinked": "حساب GitHub پیوند داده شد",
+    "index.setUpTheBackup": "پشتیبان‌گیری را راه‌اندازی کنید",
+    "index.completeStepOneFirst": "برای ادامه، حساب GitHub خود را پیوند دهید."
   },
   "components/modals/track-welcome-modal/LHS/steps": {
     "noLearningModeStep.description": "مسیر {{trackTitle}} طوری طراحی شده است که به شما در تمرین این زبان کمک کند. برخلاف برخی مسیرها، {{trackTitle}} هنوز حالت یادگیری ندارد، بنابراین {{numExercises}} تمرین این مسیر را در حالت تمرین انجام خواهید داد.",

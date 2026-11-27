@@ -736,7 +736,15 @@
     "justConnectedModal.backUpLater": "Sauvegarder plus tard",
     "manualSyncSection.backupTrack": "Sauvegarder un parcours",
     "manualSyncSection.backupTrackInfo": "Si tu veux sauvegarder un parcours sur GitHub, tu peux utiliser cette fonction.",
-    "manualSyncSection.pleaseUseSparing": "<strong className=\"font-medium\">Note :</strong> Utilise cette fonction avec parcimonie, par exemple lorsque tu souhaites sauvegarder un parcours pour la première fois. Elle n'est pas prévue pour faire partie de ton workflow habituel et tu risques d'atteindre les limites de requêtes à force de l'utiliser."
+    "manualSyncSection.pleaseUseSparing": "<strong className=\"font-medium\">Note :</strong> Utilise cette fonction avec parcimonie, par exemple lorsque tu souhaites sauvegarder un parcours pour la première fois. Elle n'est pas prévue pour faire partie de ton workflow habituel et tu risques d'atteindre les limites de requêtes à force de l'utiliser.",
+    "commitAuthorSection.commitAuthor": "Auteur du commit",
+    "commitAuthorSection.description": "Choisis qui apparaît comme auteur de tes commits synchronisés. Si tu choisis ton propre compte, les commits affichent ton compte GitHub et sont comptabilisés dans ton graphique de contributions GitHub. On utilise ton adresse e-mail noreply de GitHub, pour que ta véritable adresse e-mail reste privée. Si tu choisis le bot de synchronisation, les commits affichent le Solution Syncer Bot d'Exercism.",
+    "commitAuthorSection.me": "Moi",
+    "commitAuthorSection.theSyncerBot": "Le bot de synchronisation",
+    "commitAuthorSection.saveChanges": "Enregistrer les modifications",
+    "commitAuthorSection.savedChangesSuccessfully": "Modifications enregistrées avec succès !",
+    "commitAuthorSection.failedToSaveChanges": "Échec de l'enregistrement des modifications.",
+    "commitAuthorSection.somethingWentWrongWhileSaving": "Une erreur est survenue lors de l'enregistrement des modifications. Réessaie."
   },
   "components/dropdowns/track-menu": {
     "leaveTrackModal.leaveResetTrackForm.cancel": "Annuler",
@@ -2129,7 +2137,14 @@
     "index.githubAlt": "Github",
     "connectModal.exercismAlt": "Exercism",
     "connectModal.syncWithAlt": "Synchroniser avec",
-    "connectModal.githubAlt": "Github"
+    "connectModal.githubAlt": "Github",
+    "index.connectYourAccount": "Connecte ton compte GitHub",
+    "index.accountMustBeLinked": "Ton dépôt de sauvegarde doit se trouver sur le compte GitHub lié à ton compte Exercism. Clique sur le bouton pour lier tes comptes.",
+    "index.linkGithubAccount": "Lier ton compte GitHub",
+    "index.accountLinkedAs": "Compte GitHub lié : {{username}}",
+    "index.accountLinked": "Compte GitHub lié",
+    "index.setUpTheBackup": "Configurer la sauvegarde",
+    "index.completeStepOneFirst": "Lie ton compte GitHub pour continuer."
   },
   "components/settings/HandleForm.tsx": {
     "handleForm.changeYourHandle": "Change ton nom d'utilisateur",

@@ -1175,7 +1175,15 @@
     "dangerZoneSection.failedToChangeStatus": "Não foi possível alterar o estado.",
     "dangerZoneSection.githubSyncDeleted": "Sincronização com o GitHub eliminada com sucesso",
     "dangerZoneSection.failedToDeleteSync": "Não foi possível eliminar a sincronização com o GitHub.",
-    "dangerZoneSection.unexpectedErrorDeleting": "Ups! Recebemos um erro inesperado ao eliminar a sincronização com o GitHub."
+    "dangerZoneSection.unexpectedErrorDeleting": "Ups! Recebemos um erro inesperado ao eliminar a sincronização com o GitHub.",
+    "commitAuthorSection.commitAuthor": "Autor do commit",
+    "commitAuthorSection.description": "Escolhe quem aparece como autor dos teus commits sincronizados. Se escolheres tu, os commits mostram a tua conta GitHub e contam para o teu gráfico de contribuições do GitHub. Usamos o teu endereço de email noreply do GitHub, para que o teu endereço de email real continue privado. Se escolheres o bot de sincronização, os commits mostram o Solution Syncer Bot do Exercism.",
+    "commitAuthorSection.me": "Eu",
+    "commitAuthorSection.theSyncerBot": "O bot de sincronização",
+    "commitAuthorSection.saveChanges": "Guardar alterações",
+    "commitAuthorSection.savedChangesSuccessfully": "Alterações guardadas com sucesso!",
+    "commitAuthorSection.failedToSaveChanges": "Não foi possível guardar as alterações.",
+    "commitAuthorSection.somethingWentWrongWhileSaving": "Algo correu mal ao guardar as alterações. Tenta novamente."
   },
   "components/mentoring/discussion/finished-wizard": {
     "favoriteStep.addToFavorites": "Adicionar aos favoritos",
@@ -2163,7 +2171,14 @@
     "index.githubAlt": "Github",
     "connectModal.exercismAlt": "Exercism",
     "connectModal.syncWithAlt": "Sincronizar com",
-    "connectModal.githubAlt": "Github"
+    "connectModal.githubAlt": "Github",
+    "index.connectYourAccount": "Liga a tua conta GitHub",
+    "index.accountMustBeLinked": "O teu repositório de backup tem de estar na conta GitHub associada à tua conta do Exercism. Clica no botão para associares as tuas contas.",
+    "index.linkGithubAccount": "Associa a tua conta GitHub",
+    "index.accountLinkedAs": "Conta GitHub associada: {{username}}",
+    "index.accountLinked": "Conta GitHub associada",
+    "index.setUpTheBackup": "Configura o backup",
+    "index.completeStepOneFirst": "Associa a tua conta GitHub para continuares."
   },
   "components/journey/overview/learning-section/track-summary/TrackProgressBar.tsx": {
     "trackProgressBar.completed": "Concluído"

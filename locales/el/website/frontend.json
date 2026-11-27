@@ -93,7 +93,14 @@
     "index.githubAlt": "Github",
     "connectModal.exercismAlt": "Exercism",
     "connectModal.syncWithAlt": "Συγχρονισμός με",
-    "connectModal.githubAlt": "Github"
+    "connectModal.githubAlt": "Github",
+    "index.connectYourAccount": "Σύνδεσε τον λογαριασμό σου στο GitHub",
+    "index.accountMustBeLinked": "Το αποθετήριο αντιγράφων ασφαλείας σου πρέπει να βρίσκεται στον λογαριασμό GitHub που είναι συνδεδεμένος με τον λογαριασμό σου στο Exercism. Πάτησε το κουμπί για να συνδέσεις τους λογαριασμούς σου.",
+    "index.linkGithubAccount": "Σύνδεσε τον λογαριασμό σου στο GitHub",
+    "index.accountLinkedAs": "Ο λογαριασμός GitHub είναι συνδεδεμένος: {{username}}",
+    "index.accountLinked": "Ο λογαριασμός GitHub είναι συνδεδεμένος",
+    "index.setUpTheBackup": "Ρύθμισε τα αντίγραφα ασφαλείας",
+    "index.completeStepOneFirst": "Σύνδεσε τον λογαριασμό σου στο GitHub για να συνεχίσεις."
   },
   "components/settings/HandleForm.tsx": {
     "handleForm.changeYourHandle": "Άλλαξε το όνομα χρήστη σου",
@@ -908,7 +915,15 @@
     "syncBehaviourSection.syncBehaviour": "Συμπεριφορά συγχρονισμού",
     "syncBehaviourSection.chooseWhetherSyncing": "Διάλεξε αν ο συγχρονισμός θα γίνεται αυτόματα όταν δημιουργείς μια νέα επανάληψη ή χειροκίνητα όταν τον ενεργοποιείς εσύ. Ο <strong>αυτόματος</strong> κρατά το αποθετήριό σου στο GitHub ενημερωμένο, ενώ ο <strong>χειροκίνητος</strong> σου δίνει τον πλήρη έλεγχο.",
     "syncBehaviourSection.automatic": "Αυτόματος",
-    "syncBehaviourSection.manual": "Χειροκίνητος"
+    "syncBehaviourSection.manual": "Χειροκίνητος",
+    "commitAuthorSection.commitAuthor": "Συντάκτης commit",
+    "commitAuthorSection.description": "Διάλεξε ποιος θα εμφανίζεται ως συντάκτης των commit που συγχρονίζονται. Αν διαλέξεις τον εαυτό σου, τα commit εμφανίζονται με τον λογαριασμό σου στο GitHub και μετράνε στο γράφημα συνεισφορών σου στο GitHub. Χρησιμοποιούμε τη διεύθυνση noreply email του GitHub σου, ώστε η πραγματική σου διεύθυνση email να παραμένει ιδιωτική. Αν διαλέξεις το bot του συγχρονισμού, τα commit εμφανίζονται με το Solution Syncer Bot του Exercism.",
+    "commitAuthorSection.me": "Εγώ",
+    "commitAuthorSection.theSyncerBot": "Το bot συγχρονισμού",
+    "commitAuthorSection.saveChanges": "Αποθήκευσε τις αλλαγές",
+    "commitAuthorSection.savedChangesSuccessfully": "Οι αλλαγές αποθηκεύτηκαν με επιτυχία!",
+    "commitAuthorSection.failedToSaveChanges": "Αποτυχία αποθήκευσης των αλλαγών.",
+    "commitAuthorSection.somethingWentWrongWhileSaving": "Κάτι πήγε στραβά κατά την αποθήκευση των αλλαγών. Δοκίμασε ξανά."
   },
   "components/modals/mentor-registration-modal": {
     "stepIndicator.becomeAMentorProgress": "Πρόοδος: Γίνε μέντορας",

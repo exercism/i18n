@@ -905,7 +905,15 @@
     "dangerZoneSection.failedToChangeStatus": "Status konnte nicht geändert werden.",
     "dangerZoneSection.githubSyncDeleted": "GitHub-Synchronisierung erfolgreich gelöscht",
     "dangerZoneSection.failedToDeleteSync": "GitHub-Synchronisierung konnte nicht gelöscht werden.",
-    "dangerZoneSection.unexpectedErrorDeleting": "Hoppla! Beim Löschen der GitHub-Synchronisierung ist ein unerwarteter Fehler aufgetreten."
+    "dangerZoneSection.unexpectedErrorDeleting": "Hoppla! Beim Löschen der GitHub-Synchronisierung ist ein unerwarteter Fehler aufgetreten.",
+    "commitAuthorSection.commitAuthor": "Commit-Autor",
+    "commitAuthorSection.description": "Wähle, wer als Autor deiner synchronisierten Commits genannt wird. Wenn du dich selbst wählst, zeigen die Commits deinen GitHub-Account und zählen für deinen GitHub-Contribution-Graph. Wir verwenden deine GitHub-noreply-E-Mail-Adresse, damit deine echte E-Mail-Adresse privat bleibt. Wenn du den Syncer-Bot wählst, zeigen die Commits Exercisms Solution Syncer Bot.",
+    "commitAuthorSection.me": "Ich",
+    "commitAuthorSection.theSyncerBot": "Der Syncer-Bot",
+    "commitAuthorSection.saveChanges": "Änderungen speichern",
+    "commitAuthorSection.savedChangesSuccessfully": "Änderungen erfolgreich gespeichert!",
+    "commitAuthorSection.failedToSaveChanges": "Änderungen konnten nicht gespeichert werden.",
+    "commitAuthorSection.somethingWentWrongWhileSaving": "Beim Speichern der Änderungen ist etwas schiefgelaufen. Bitte versuche es erneut."
   },
   "components/settings/github-syncer/sections/ConnectedSection/ManualSyncSection.tsx": {
     "backupATrack": "Track sichern",
@@ -1284,7 +1292,14 @@
     "index.githubAlt": "Github",
     "connectModal.exercismAlt": "Exercism",
     "connectModal.syncWithAlt": "Synchronisieren mit",
-    "connectModal.githubAlt": "Github"
+    "connectModal.githubAlt": "Github",
+    "index.connectYourAccount": "Verbinde deinen GitHub-Account",
+    "index.accountMustBeLinked": "Dein Backup-Repository muss in dem GitHub-Account liegen, der mit deinem Exercism-Account verknüpft ist. Klicke auf den Button, um deine Accounts zu verknüpfen.",
+    "index.linkGithubAccount": "Verknüpfe deinen GitHub-Account",
+    "index.accountLinkedAs": "GitHub-Account verknüpft: {{username}}",
+    "index.accountLinked": "GitHub-Account verknüpft",
+    "index.setUpTheBackup": "Backup einrichten",
+    "index.completeStepOneFirst": "Verknüpfe deinen GitHub-Account, um fortzufahren."
   },
   "components/settings/HandleForm.tsx": {
     "handleForm.changeYourHandle": "Ändere deinen Handle",

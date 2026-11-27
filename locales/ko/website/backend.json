@@ -2139,7 +2139,8 @@
     },
     "omniauth_callbacks": {
       "failure": "죄송해요, %{kind} 계정으로 인증할 수 없었어요.",
-      "success": "%{kind} 계정으로 인증되었어요."
+      "success": "%{kind} 계정으로 인증되었어요.",
+      "github_already_linked": "이 GitHub 계정은 이미 다른 Exercism 계정에 연결되어 있어요."
     },
     "unlocks": {
       "send_instructions": "몇 분 안에 계정 잠금을 해제하는 방법을 안내하는 이메일을 받게 될 거예요.",
@@ -2186,7 +2187,7 @@
         }
       },
       "callback": {
-        "missing_installation_id": "설치 ID가 없어요",
+        "missing_installation_id": "GitHub에서 설치 정보를 보내지 않았어요. Setup Backup을 클릭한 뒤 다시 시도해 주세요.",
         "connected": "GitHub가 성공적으로 연결되었어요"
       },
       "update": {
@@ -4440,16 +4441,17 @@
     "user_github_solution_syncer": {
       "create": {
         "errors": {
-          "missing_installation_id": "설치 ID가 없어요",
-          "invalid_installation_id": "설치 ID가 올바르지 않아요",
-          "github_account_not_connected": "GitHub Syncer를 설정하기 전에 Exercism에 GitHub 계정을 연결해 주세요",
-          "organization_account": "GitHub Syncer는 개인 GitHub 계정만 지원해요. 본인의 GitHub 계정에 설치해 주세요",
-          "different_github_account": "이 GitHub App은 Exercism 계정에 연결된 GitHub 계정과 다른 GitHub 계정에 설치되었어요",
-          "installation_not_found": "GitHub App 설치를 찾을 수 없거나 더 이상 접근할 수 없어요",
-          "authorization_failed": "GitHub 인증에 실패했어요",
-          "api_error": "GitHub API 오류: %{message}",
-          "not_exactly_one_repository": "리포지토리 하나에만 접근 권한을 부여해 주세요",
-          "installation_token_missing": "GitHub 설치 토큰을 가져오지 못했어요"
+          "missing_installation_id": "GitHub에서 설치 정보를 보내지 않았어요. Setup Backup을 클릭한 뒤 다시 시도해 주세요.",
+          "invalid_installation_id": "GitHub에서 설치 정보를 보내지 않았어요. Setup Backup을 클릭한 뒤 다시 시도해 주세요.",
+          "github_account_not_connected": "먼저 Exercism에 GitHub 계정을 연결한 다음(아래 1단계), 백업을 다시 설정해 주세요.",
+          "organization_account": "GitHub Syncer는 개인 GitHub 계정의 리포지토리에 백업해요. 본인 계정에 앱을 설치한 뒤 다시 시도해 주세요.",
+          "different_github_account": "Exercism에 연결된 GitHub 계정(%{github_username})과 다른 GitHub 계정에 앱을 설치했어요. %{github_username} 계정에 설치하거나, Settings > Integrations에서 다른 계정을 연결해 주세요.",
+          "installation_not_found": "GitHub에서 앱 설치를 찾을 수 없어요. Setup Backup을 클릭한 뒤 다시 시도해 주세요.",
+          "authorization_failed": "GitHub에서 리포지토리 접근 권한을 받지 못했어요. Setup Backup을 클릭한 뒤 다시 시도해 주세요.",
+          "api_error": "GitHub에서 오류가 발생했어요(%{message}). 몇 분 뒤에 다시 시도해 주세요.",
+          "not_exactly_one_repository": "GitHub Syncer는 리포지토리 하나에만 접근해야 하는데, %{count}개에 접근하도록 설정했어요. GitHub에서 앱의 리포지토리 접근 권한을 리포지토리 하나로 변경한 뒤 다시 시도해 주세요.",
+          "installation_token_missing": "GitHub에서 리포지토리 접근 권한을 받지 못했어요. Setup Backup을 클릭한 뒤 다시 시도해 주세요.",
+          "different_github_account_without_username": "Exercism에 연결된 계정과 다른 GitHub 계정에 앱을 설치했어요. 연결된 계정에 설치하거나, Settings > Integrations에서 다른 계정을 연결해 주세요."
         }
       }
     }

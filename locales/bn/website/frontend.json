@@ -432,7 +432,15 @@
     "commitMessageTemplateSection.revert_button": "ডিফল্টে ফিরিয়ে আনুন",
     "commitMessageTemplateSection.confirm_modal.title": "আপনি কি সত্যিই আপনার কমিট মেসেজ টেমপ্লেট ডিফল্টে ফিরিয়ে আনতে চান?",
     "commitMessageTemplateSection.confirm_modal.confirm": "ফিরিয়ে আনুন",
-    "commitMessageTemplateSection.confirm_modal.cancel": "বাতিল করুন"
+    "commitMessageTemplateSection.confirm_modal.cancel": "বাতিল করুন",
+    "commitAuthorSection.commitAuthor": "কমিটের লেখক",
+    "commitAuthorSection.description": "আপনার সিঙ্ক করা কমিটগুলোর লেখক হিসেবে কার নাম থাকবে তা বেছে নিন। আপনি নিজেকে বেছে নিলে কমিটগুলোতে আপনার GitHub অ্যাকাউন্ট দেখানো হবে এবং সেগুলো আপনার GitHub contribution graph-এ গণনা করা হবে। আমরা আপনার GitHub noreply ইমেইল ব্যবহার করি, তাই আপনার আসল ইমেইল গোপন থাকে। সিঙ্কার বট বেছে নিলে কমিটগুলোতে Exercism-এর Solution Syncer Bot দেখানো হবে।",
+    "commitAuthorSection.me": "আমি",
+    "commitAuthorSection.theSyncerBot": "সিঙ্কার বট",
+    "commitAuthorSection.saveChanges": "পরিবর্তন সংরক্ষণ করুন",
+    "commitAuthorSection.savedChangesSuccessfully": "পরিবর্তনগুলো সফলভাবে সংরক্ষণ করা হয়েছে!",
+    "commitAuthorSection.failedToSaveChanges": "পরিবর্তন সংরক্ষণ করা যায়নি।",
+    "commitAuthorSection.somethingWentWrongWhileSaving": "পরিবর্তন সংরক্ষণ করার সময় কিছু একটা সমস্যা হয়েছে। আবার চেষ্টা করুন।"
   },
   "components/modals/EnableSolutionCommentsModal.tsx": {
     "enableSolutionCommentsModal.enableCommentsButton": "কমেন্ট চালু করুন",
@@ -685,7 +693,14 @@
     "index.githubAlt": "Github",
     "connectModal.exercismAlt": "Exercism",
     "connectModal.syncWithAlt": "এর সাথে সিঙ্ক",
-    "connectModal.githubAlt": "Github"
+    "connectModal.githubAlt": "Github",
+    "index.connectYourAccount": "আপনার GitHub অ্যাকাউন্ট সংযুক্ত করুন",
+    "index.accountMustBeLinked": "আপনার ব্যাকআপ রিপোজিটরিটি অবশ্যই আপনার Exercism অ্যাকাউন্টের সাথে সংযুক্ত GitHub অ্যাকাউন্টে থাকতে হবে। অ্যাকাউন্টগুলো সংযুক্ত করতে বোতামটিতে ক্লিক করুন।",
+    "index.linkGithubAccount": "আপনার GitHub অ্যাকাউন্ট লিংক করুন",
+    "index.accountLinkedAs": "GitHub অ্যাকাউন্ট সংযুক্ত: {{username}}",
+    "index.accountLinked": "GitHub অ্যাকাউন্ট সংযুক্ত হয়েছে",
+    "index.setUpTheBackup": "ব্যাকআপ সেট আপ করুন",
+    "index.completeStepOneFirst": "চালিয়ে যেতে আপনার GitHub অ্যাকাউন্ট লিংক করুন।"
   },
   "components/editor/testComponents": {
     "testsList.details": "নাম: {{name}}, স্ট্যাটাস: {{status}}, আউটপুট: {{output}}",

@@ -1970,7 +1970,8 @@
     },
     "omniauth_callbacks": {
       "failure": "抱歉，我們無法透過 %{kind} 驗證你的身分。",
-      "success": "已成功透過 %{kind} 帳號驗證身分。"
+      "success": "已成功透過 %{kind} 帳號驗證身分。",
+      "github_already_linked": "這個 GitHub 帳號已經連結到另一個 Exercism 帳號。"
     },
     "mailer": {
       "unlock_instructions": {
@@ -2631,7 +2632,7 @@
         }
       },
       "callback": {
-        "missing_installation_id": "缺少安裝 ID",
+        "missing_installation_id": "GitHub 沒有把安裝的詳細資訊傳給我們。請點選「設定備份」再試一次。",
         "connected": "GitHub 連結成功"
       },
       "update": {
@@ -4436,16 +4437,17 @@
     "user_github_solution_syncer": {
       "create": {
         "errors": {
-          "missing_installation_id": "缺少安裝 ID",
-          "invalid_installation_id": "安裝 ID 無效",
-          "github_account_not_connected": "設定 GitHub Syncer 之前，請先將你的 GitHub 帳號連結到 Exercism",
-          "organization_account": "GitHub Syncer 只支援個人的 GitHub 帳號。請將它安裝在你自己的 GitHub 帳號上",
-          "different_github_account": "這個 GitHub App 安裝在另一個 GitHub 帳號上，與你 Exercism 帳號所連結的帳號不同",
-          "installation_not_found": "找不到 GitHub App 安裝，或已無法存取",
-          "authorization_failed": "GitHub 授權失敗",
-          "api_error": "GitHub API 錯誤：%{message}",
-          "not_exactly_one_repository": "請只授予一個儲存庫的存取權",
-          "installation_token_missing": "無法取得 GitHub 安裝權杖"
+          "missing_installation_id": "GitHub 沒有把安裝的詳細資訊傳給我們。請點選「設定備份」再試一次。",
+          "invalid_installation_id": "GitHub 沒有把安裝的詳細資訊傳給我們。請點選「設定備份」再試一次。",
+          "github_account_not_connected": "請先將你的 GitHub 帳號連結到 Exercism（下方的步驟 1），然後再設定一次備份。",
+          "organization_account": "GitHub Syncer 會備份到你個人 GitHub 帳號上的儲存庫。請將應用程式安裝在你自己的帳號上，然後再試一次。",
+          "different_github_account": "你將應用程式安裝在另一個 GitHub 帳號上，與連結到 Exercism 的帳號不同（%{github_username}）。請將它安裝在 %{github_username} 上，或到「設定 > 整合」連結另一個帳號。",
+          "installation_not_found": "我們在 GitHub 上找不到這個應用程式的安裝。請點選「設定備份」再試一次。",
+          "authorization_failed": "GitHub 沒有授予我們存取你的儲存庫的權限。請點選「設定備份」再試一次。",
+          "api_error": "GitHub 傳回了錯誤（%{message}）。請過幾分鐘再試一次。",
+          "not_exactly_one_repository": "GitHub Syncer 需要存取恰好一個儲存庫，但你授予了 %{count} 個儲存庫的存取權。請在 GitHub 上把應用程式的儲存庫存取權改成一個儲存庫，然後再試一次。",
+          "installation_token_missing": "GitHub 沒有授予我們存取你的儲存庫的權限。請點選「設定備份」再試一次。",
+          "different_github_account_without_username": "你將應用程式安裝在另一個 GitHub 帳號上，與連結到 Exercism 的帳號不同。請將它安裝在你已連結的帳號上，或到「設定 > 整合」連結另一個帳號。"
         }
       }
     }

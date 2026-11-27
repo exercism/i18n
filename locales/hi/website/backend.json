@@ -301,7 +301,8 @@
     },
     "omniauth_callbacks": {
       "failure": "क्षमा कीजिए, हम %{kind} से आपकी पहचान सत्यापित नहीं कर सके।",
-      "success": "%{kind} खाते से पहचान सफलतापूर्वक सत्यापित हो गई।"
+      "success": "%{kind} खाते से पहचान सफलतापूर्वक सत्यापित हो गई।",
+      "github_already_linked": "यह GitHub अकाउंट पहले से किसी दूसरे Exercism अकाउंट से जुड़ा हुआ है।"
     }
   },
   "tracks": {
@@ -2138,7 +2139,7 @@
         }
       },
       "callback": {
-        "missing_installation_id": "इंस्टॉलेशन ID मौजूद नहीं है",
+        "missing_installation_id": "GitHub ने हमें आपके इंस्टॉलेशन का विवरण नहीं भेजा। कृपया Setup Backup पर क्लिक कीजिए और फिर से कोशिश कीजिए।",
         "connected": "GitHub सफलतापूर्वक जुड़ गया"
       },
       "update": {
@@ -4506,16 +4507,17 @@
     "user_github_solution_syncer": {
       "create": {
         "errors": {
-          "missing_installation_id": "इंस्टॉलेशन ID मौजूद नहीं है",
-          "invalid_installation_id": "इंस्टॉलेशन ID अमान्य है",
-          "github_account_not_connected": "GitHub Syncer सेट करने से पहले अपना GitHub अकाउंट Exercism से जोड़िए",
-          "organization_account": "GitHub Syncer सिर्फ निजी GitHub अकाउंट का समर्थन करता है। इसे अपने खुद के GitHub अकाउंट पर इंस्टॉल कीजिए",
-          "different_github_account": "यह GitHub App किसी दूसरे GitHub अकाउंट पर इंस्टॉल किया गया है, जो आपके Exercism अकाउंट से जुड़े GitHub अकाउंट से अलग है",
-          "installation_not_found": "GitHub App का इंस्टॉलेशन नहीं मिला या अब उपलब्ध नहीं है",
-          "authorization_failed": "GitHub का ऑथेंटिकेशन विफल रहा",
-          "api_error": "GitHub API एरर: %{message}",
-          "not_exactly_one_repository": "ठीक एक रिपॉज़िटरी तक पहुँच दीजिए",
-          "installation_token_missing": "GitHub इंस्टॉलेशन टोकन प्राप्त नहीं हो सका"
+          "missing_installation_id": "GitHub ने हमें आपके इंस्टॉलेशन का विवरण नहीं भेजा। कृपया Setup Backup पर क्लिक कीजिए और फिर से कोशिश कीजिए।",
+          "invalid_installation_id": "GitHub ने हमें आपके इंस्टॉलेशन का विवरण नहीं भेजा। कृपया Setup Backup पर क्लिक कीजिए और फिर से कोशिश कीजिए।",
+          "github_account_not_connected": "कृपया पहले अपना GitHub अकाउंट Exercism से जोड़िए (नीचे चरण 1), फिर बैकअप फिर से सेट कीजिए।",
+          "organization_account": "GitHub Syncer आपके निजी GitHub अकाउंट की रिपॉज़िटरी में बैकअप लेता है। कृपया ऐप को अपने खुद के अकाउंट पर इंस्टॉल कीजिए, फिर से कोशिश कीजिए।",
+          "different_github_account": "आपने ऐप को Exercism से जुड़े GitHub अकाउंट (%{github_username}) के अलावा किसी दूसरे GitHub अकाउंट पर इंस्टॉल किया है। कृपया इसे %{github_username} पर इंस्टॉल कीजिए, या Settings > Integrations में दूसरा अकाउंट जोड़िए।",
+          "installation_not_found": "हमें GitHub पर ऐप का इंस्टॉलेशन नहीं मिला। कृपया Setup Backup पर क्लिक कीजिए और फिर से कोशिश कीजिए।",
+          "authorization_failed": "GitHub ने हमें आपकी रिपॉज़िटरी तक पहुँच नहीं दी। कृपया Setup Backup पर क्लिक कीजिए और फिर से कोशिश कीजिए।",
+          "api_error": "GitHub से एक एरर मिली (%{message})। कृपया कुछ मिनट बाद फिर से कोशिश कीजिए।",
+          "not_exactly_one_repository": "GitHub Syncer को ठीक एक रिपॉज़िटरी तक पहुँच चाहिए, और आपने ऐप को %{count} रिपॉज़िटरी तक पहुँच दी है। कृपया GitHub पर ऐप की रिपॉज़िटरी पहुँच बदलकर एक रिपॉज़िटरी कीजिए, फिर से कोशिश कीजिए।",
+          "installation_token_missing": "GitHub ने हमें आपकी रिपॉज़िटरी तक पहुँच नहीं दी। कृपया Setup Backup पर क्लिक कीजिए और फिर से कोशिश कीजिए।",
+          "different_github_account_without_username": "आपने ऐप को Exercism से जुड़े GitHub अकाउंट के अलावा किसी दूसरे GitHub अकाउंट पर इंस्टॉल किया है। कृपया इसे अपने जुड़े हुए अकाउंट पर इंस्टॉल कीजिए, या Settings > Integrations में दूसरा अकाउंट जोड़िए।"
         }
       }
     }

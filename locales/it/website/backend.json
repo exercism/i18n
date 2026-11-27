@@ -1407,7 +1407,8 @@
     },
     "omniauth_callbacks": {
       "failure": "Spiacenti, non è stato possibile autenticarti da %{kind}.",
-      "success": "Autenticazione riuscita dall'account %{kind}."
+      "success": "Autenticazione riuscita dall'account %{kind}.",
+      "github_already_linked": "Questo account GitHub è già collegato a un altro account Exercism."
     },
     "mailer": {
       "unlock_instructions": {
@@ -2332,7 +2333,7 @@
         }
       },
       "callback": {
-        "missing_installation_id": "ID di installazione mancante",
+        "missing_installation_id": "GitHub non ci ha inviato i dettagli della tua installazione. Clicca su \"Setup Backup\" e riprova.",
         "connected": "GitHub collegato con successo"
       },
       "update": {
@@ -4572,16 +4573,17 @@
     "user_github_solution_syncer": {
       "create": {
         "errors": {
-          "missing_installation_id": "ID di installazione mancante",
-          "invalid_installation_id": "ID di installazione non valido",
-          "github_account_not_connected": "Collega il tuo account GitHub a Exercism prima di configurare il GitHub Syncer",
-          "organization_account": "Il GitHub Syncer supporta solo account GitHub personali. Installalo sul tuo account GitHub personale",
-          "different_github_account": "Questa GitHub App è stata installata su un account GitHub diverso da quello collegato al tuo account Exercism",
-          "installation_not_found": "Installazione della GitHub App non trovata o non più accessibile",
-          "authorization_failed": "Autorizzazione GitHub non riuscita",
-          "api_error": "Errore dell'API di GitHub: %{message}",
-          "not_exactly_one_repository": "Concedi l'accesso esattamente a un repository",
-          "installation_token_missing": "Impossibile recuperare il token di installazione di GitHub"
+          "missing_installation_id": "GitHub non ci ha inviato i dettagli della tua installazione. Clicca su \"Setup Backup\" e riprova.",
+          "invalid_installation_id": "GitHub non ci ha inviato i dettagli della tua installazione. Clicca su \"Setup Backup\" e riprova.",
+          "github_account_not_connected": "Collega prima il tuo account GitHub a Exercism (passaggio 1 qui sotto), poi configura di nuovo il backup.",
+          "organization_account": "Il GitHub Syncer esegue il backup su un repository del tuo account GitHub personale. Installa l'app sul tuo account e riprova.",
+          "different_github_account": "Hai installato l'app su un account GitHub diverso da quello collegato a Exercism (%{github_username}). Installala su %{github_username}, oppure collega l'altro account in Settings > Integrations.",
+          "installation_not_found": "Non abbiamo trovato l'installazione dell'app su GitHub. Clicca su \"Setup Backup\" e riprova.",
+          "authorization_failed": "GitHub non ci ha concesso l'accesso al tuo repository. Clicca su \"Setup Backup\" e riprova.",
+          "api_error": "GitHub ha restituito un errore (%{message}). Riprova tra qualche minuto.",
+          "not_exactly_one_repository": "Il GitHub Syncer deve poter accedere a esattamente un repository, ma gli hai dato accesso a %{count}. Cambia su GitHub l'accesso ai repository dell'app impostandolo su un solo repository, poi riprova.",
+          "installation_token_missing": "GitHub non ci ha concesso l'accesso al tuo repository. Clicca su \"Setup Backup\" e riprova.",
+          "different_github_account_without_username": "Hai installato l'app su un account GitHub diverso da quello collegato a Exercism. Installala sul tuo account collegato oppure collega l'altro account in Settings > Integrations."
         }
       }
     }

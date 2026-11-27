@@ -1323,7 +1323,15 @@
     "statusSection.resumedCodeSync": "A GitHubbal való kódszinkronizálás folytatva.",
     "justConnectedModal.exercismAlt": "Exercism",
     "justConnectedModal.syncWithAlt": "Szinkronizálás ezzel",
-    "justConnectedModal.githubAlt": "Github"
+    "justConnectedModal.githubAlt": "Github",
+    "commitAuthorSection.commitAuthor": "Commit szerzője",
+    "commitAuthorSection.description": "Válaszd ki, kit jelöljünk meg a szinkronizált commitok szerzőjeként. Ha magadat választod, a commitok a GitHub-fiókodat mutatják, és beleszámítanak a GitHub közreműködési grafikonodba. A GitHub noreply e-mail-címedet használjuk, így a valódi e-mail-címed nem válik nyilvánossá. Ha a szinkronizáló botot választod, a commitok szerzőjeként az Exercism Solution Syncer Bot jelenik meg.",
+    "commitAuthorSection.me": "Én",
+    "commitAuthorSection.theSyncerBot": "A szinkronizáló bot",
+    "commitAuthorSection.saveChanges": "Változtatások mentése",
+    "commitAuthorSection.savedChangesSuccessfully": "A változtatások mentése sikerült!",
+    "commitAuthorSection.failedToSaveChanges": "A változtatások mentése nem sikerült.",
+    "commitAuthorSection.somethingWentWrongWhileSaving": "Hiba történt a változtatások mentése közben. Próbáld újra."
   },
   "components/settings/github-syncer/sections/ConnectedSection/ManualSyncSection.tsx": {
     "backupATrack": "Kurzus mentése",
@@ -1375,7 +1383,14 @@
     "index.githubAlt": "Github",
     "connectModal.exercismAlt": "Exercism",
     "connectModal.syncWithAlt": "Szinkronizálás ezzel",
-    "connectModal.githubAlt": "Github"
+    "connectModal.githubAlt": "Github",
+    "index.connectYourAccount": "Kapcsold össze a GitHub-fiókodat",
+    "index.accountMustBeLinked": "A biztonsági mentés repozitóriumának az Exercism-fiókodhoz kapcsolt GitHub-fiókon kell lennie. Kattints a gombra a fiókok összekapcsolásához.",
+    "index.linkGithubAccount": "Kapcsold össze a GitHub-fiókodat",
+    "index.accountLinkedAs": "GitHub-fiók összekapcsolva: {{username}}",
+    "index.accountLinked": "GitHub-fiók összekapcsolva",
+    "index.setUpTheBackup": "A biztonsági mentés beállítása",
+    "index.completeStepOneFirst": "A folytatáshoz kapcsold össze a GitHub-fiókodat."
   },
   "components/settings/HandleForm.tsx": {
     "handleForm.changeYourHandle": "Felhasználóneved módosítása",

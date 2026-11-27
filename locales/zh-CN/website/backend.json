@@ -255,7 +255,8 @@
     },
     "omniauth_callbacks": {
       "failure": "抱歉，我们无法通过 %{kind} 验证你的身份。",
-      "success": "已成功通过 %{kind} 账户验证身份。"
+      "success": "已成功通过 %{kind} 账户验证身份。",
+      "github_already_linked": "这个 GitHub 账号已经关联到另一个 Exercism 账号。"
     },
     "mailer": {
       "unlock_instructions": {
@@ -2632,7 +2633,7 @@
         }
       },
       "callback": {
-        "missing_installation_id": "缺少安装 ID",
+        "missing_installation_id": "GitHub 没有把这次安装的详情发给我们。请点击 Setup Backup 再试一次。",
         "connected": "GitHub 连接成功"
       },
       "update": {
@@ -4435,16 +4436,17 @@
     "user_github_solution_syncer": {
       "create": {
         "errors": {
-          "missing_installation_id": "缺少安装 ID",
-          "invalid_installation_id": "安装 ID 无效",
-          "github_account_not_connected": "请先将你的 GitHub 账号连接到 Exercism，然后再设置 GitHub Syncer",
-          "organization_account": "GitHub Syncer 只支持个人 GitHub 账号。请把它安装在你自己的 GitHub 账号上",
-          "different_github_account": "这个 GitHub App 安装所在的 GitHub 账号，与你 Exercism 账号所关联的 GitHub 账号不一致",
-          "installation_not_found": "未找到 GitHub App 安装，或该安装已无法访问",
-          "authorization_failed": "GitHub 授权失败",
-          "api_error": "GitHub API 错误：%{message}",
-          "not_exactly_one_repository": "请只授权一个代码仓库",
-          "installation_token_missing": "无法获取 GitHub 安装令牌"
+          "missing_installation_id": "GitHub 没有把这次安装的详情发给我们。请点击 Setup Backup 再试一次。",
+          "invalid_installation_id": "GitHub 没有把这次安装的详情发给我们。请点击 Setup Backup 再试一次。",
+          "github_account_not_connected": "请先把你的 GitHub 账号关联到 Exercism（下面的第 1 步），然后再重新设置备份。",
+          "organization_account": "GitHub Syncer 会把内容备份到你个人 GitHub 账号下的代码仓库。请把这个 App 安装在你自己的账号上，然后再试一次。",
+          "different_github_account": "你把这个 App 安装在了另一个 GitHub 账号上，它和关联到 Exercism 的账号（%{github_username}）并不一致。请把它安装到 %{github_username} 上，或者在 Settings > Integrations 中关联另一个账号。",
+          "installation_not_found": "我们在 GitHub 上找不到这个 App 的安装。请点击 Setup Backup 再试一次。",
+          "authorization_failed": "GitHub 没有授予我们访问你代码仓库的权限。请点击 Setup Backup 再试一次。",
+          "api_error": "GitHub 返回了一个错误（%{message}）。请过几分钟再试一次。",
+          "not_exactly_one_repository": "GitHub Syncer 需要且只能访问一个代码仓库，而你授予了它 %{count} 个的访问权限。请在 GitHub 上把这个 App 的仓库访问权限改成一个代码仓库，然后再试一次。",
+          "installation_token_missing": "GitHub 没有授予我们访问你代码仓库的权限。请点击 Setup Backup 再试一次。",
+          "different_github_account_without_username": "你把这个 App 安装在了另一个 GitHub 账号上，它和关联到 Exercism 的账号并不一致。请把它安装到你已关联的账号上，或者在 Settings > Integrations 中关联另一个账号。"
         }
       }
     }

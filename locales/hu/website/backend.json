@@ -552,7 +552,8 @@
     },
     "omniauth_callbacks": {
       "failure": "Sajnos nem sikerült hitelesítenünk téged a(z) %{kind} segítségével.",
-      "success": "Sikeresen bejelentkeztél a(z) %{kind} fiókkal."
+      "success": "Sikeresen bejelentkeztél a(z) %{kind} fiókkal.",
+      "github_already_linked": "Ez a GitHub-fiók már egy másik Exercism-fiókhoz van kapcsolva."
     },
     "passwords": {
       "no_token": "Nem érheted el ezt az oldalt, ha nem egy jelszó-visszaállítási e-mailből érkeztél. Ha mégis egy jelszó-visszaállítási e-mailből jöttél, győződj meg róla, hogy a teljes megadott URL-t használtad.",
@@ -4066,7 +4067,7 @@
         }
       },
       "callback": {
-        "missing_installation_id": "Hiányzó telepítési azonosító",
+        "missing_installation_id": "A GitHub nem küldte el a telepítésed részleteit. Kattints a Setup Backup gombra, és próbáld újra.",
         "connected": "A GitHub sikeresen csatlakoztatva"
       },
       "update": {
@@ -4506,16 +4507,17 @@
     "user_github_solution_syncer": {
       "create": {
         "errors": {
-          "missing_installation_id": "Hiányzó telepítési azonosító",
-          "invalid_installation_id": "Érvénytelen telepítési azonosító",
-          "github_account_not_connected": "A GitHub Syncer beállítása előtt kapcsold össze a GitHub-fiókodat az Exercism-mel",
-          "organization_account": "A GitHub Syncer csak személyes GitHub-fiókokat támogat. Telepítsd a saját GitHub-fiókodra",
-          "different_github_account": "Ezt a GitHub Appot egy másik GitHub-fiókra telepítették, mint amelyik az Exercism-fiókodhoz kapcsolódik",
-          "installation_not_found": "A GitHub App telepítése nem található, vagy már nem érhető el",
-          "authorization_failed": "A GitHub-hitelesítés nem sikerült",
-          "api_error": "GitHub API-hiba: %{message}",
-          "not_exactly_one_repository": "Pontosan egy tárolóhoz adj hozzáférést",
-          "installation_token_missing": "Nem sikerült lekérni a GitHub telepítési tokent"
+          "missing_installation_id": "A GitHub nem küldte el a telepítésed részleteit. Kattints a Setup Backup gombra, és próbáld újra.",
+          "invalid_installation_id": "A GitHub nem küldte el a telepítésed részleteit. Kattints a Setup Backup gombra, és próbáld újra.",
+          "github_account_not_connected": "Először kapcsold össze a GitHub-fiókodat az Exercism-mel (lent az 1. lépés), majd állítsd be újra a biztonsági mentést.",
+          "organization_account": "A GitHub Syncer a személyes GitHub-fiókod egyik tárolójába készít biztonsági mentést. Telepítsd az alkalmazást a saját fiókodra, majd próbáld újra.",
+          "different_github_account": "Az alkalmazást egy másik GitHub-fiókra telepítetted, mint amelyik az Exercism-fiókodhoz kapcsolódik (%{github_username}). Telepítsd a(z) %{github_username} fiókra, vagy kapcsold össze a másik fiókot a Beállítások > Integrációk alatt.",
+          "installation_not_found": "Nem találtuk az alkalmazás telepítését a GitHubon. Kattints a Setup Backup gombra, és próbáld újra.",
+          "authorization_failed": "A GitHub nem adott hozzáférést a tárolódhoz. Kattints a Setup Backup gombra, és próbáld újra.",
+          "api_error": "A GitHub hibát adott vissza (%{message}). Próbáld újra néhány perc múlva.",
+          "not_exactly_one_repository": "A GitHub Syncernek pontosan egy tárolóhoz kell hozzáférnie, te viszont %{count} tárolóhoz adtál hozzáférést. Módosítsd az alkalmazás tárolóhozzáférését a GitHubon egy tárolóra, majd próbáld újra.",
+          "installation_token_missing": "A GitHub nem adott hozzáférést a tárolódhoz. Kattints a Setup Backup gombra, és próbáld újra.",
+          "different_github_account_without_username": "Az alkalmazást egy másik GitHub-fiókra telepítetted, mint amelyik az Exercism-fiókodhoz kapcsolódik. Telepítsd a kapcsolt fiókodra, vagy kapcsold össze a másik fiókot a Beállítások > Integrációk alatt."
         }
       }
     }

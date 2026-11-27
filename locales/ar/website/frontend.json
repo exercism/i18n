@@ -284,7 +284,15 @@
     "syncBehaviourSection.syncBehaviour": "سلوك المزامنة",
     "syncBehaviourSection.chooseWhetherSyncing": "اختر ما إذا كانت المزامنة ستحدث تلقائيًا عند إنشاء تكرار جديد، أم يدويًا عندما تشغّلها بنفسك. <strong>تلقائي</strong> يُبقي مستودعك على GitHub محدَّثًا، بينما <strong>يدوي</strong> يمنحك تحكمًا كاملًا.",
     "syncBehaviourSection.automatic": "تلقائي",
-    "syncBehaviourSection.manual": "يدوي"
+    "syncBehaviourSection.manual": "يدوي",
+    "commitAuthorSection.commitAuthor": "مؤلف الـ commit",
+    "commitAuthorSection.description": "اختر مَن سيُذكر كمؤلف لـ commits المزامنة الخاصة بك. إذا اخترت نفسك، فستظهر الـ commits باسم حسابك على GitHub وستُحتسب في مخطط مساهماتك على GitHub. نستخدم عنوان بريدك الإلكتروني noreply الخاص بـ GitHub، لذا يبقى بريدك الإلكتروني الحقيقي خاصًا. وإذا اخترت روبوت المزامنة، فستظهر الـ commits باسم Solution Syncer Bot الخاص بـ Exercism.",
+    "commitAuthorSection.me": "أنا",
+    "commitAuthorSection.theSyncerBot": "روبوت المزامنة",
+    "commitAuthorSection.saveChanges": "حفظ التغييرات",
+    "commitAuthorSection.savedChangesSuccessfully": "تم حفظ التغييرات بنجاح!",
+    "commitAuthorSection.failedToSaveChanges": "تعذّر حفظ التغييرات.",
+    "commitAuthorSection.somethingWentWrongWhileSaving": "حدث خطأ ما أثناء حفظ التغييرات. يُرجى المحاولة مرة أخرى."
   },
   "components/tooltips/task-tooltip": {
     "summary.task": "مهمة",
@@ -872,7 +880,14 @@
     "index.githubAlt": "Github",
     "connectModal.exercismAlt": "Exercism",
     "connectModal.syncWithAlt": "المزامنة مع",
-    "connectModal.githubAlt": "Github"
+    "connectModal.githubAlt": "Github",
+    "index.connectYourAccount": "اربط حسابك على GitHub",
+    "index.accountMustBeLinked": "يجب أن يكون مستودع النسخ الاحتياطي على حساب GitHub المرتبط بحسابك على Exercism. اضغط على الزر لربط حسابيك.",
+    "index.linkGithubAccount": "اربط حسابك على GitHub",
+    "index.accountLinkedAs": "تم ربط حساب GitHub: {{username}}",
+    "index.accountLinked": "تم ربط حساب GitHub",
+    "index.setUpTheBackup": "أعدّ النسخ الاحتياطي",
+    "index.completeStepOneFirst": "اربط حسابك على GitHub للمتابعة."
   },
   "components/modals/realtime-feedback-modal/feedback-content/found-automated-feedback": {
     "representerFeedback.gaveFeedbackSimilarSolution": "<0>{{author}}</0> قدّم هذه الملاحظات على حل شبيه جدًا بحلك",

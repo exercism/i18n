@@ -867,7 +867,7 @@
         }
       },
       "callback": {
-        "missing_installation_id": "インストールIDがありません",
+        "missing_installation_id": "GitHubからインストールの詳細が届きませんでした。Setup Backupをクリックして、もう一度お試しください。",
         "connected": "GitHubの連携が完了しました"
       },
       "update": {
@@ -1155,7 +1155,8 @@
     },
     "omniauth_callbacks": {
       "failure": "申し訳ありません。%{kind}からの認証ができませんでした。",
-      "success": "%{kind}アカウントでの認証に成功しました。"
+      "success": "%{kind}アカウントでの認証に成功しました。",
+      "github_already_linked": "このGitHubアカウントは、すでに別のExercismアカウントに連携されています。"
     },
     "mailer": {
       "unlock_instructions": {
@@ -4435,16 +4436,17 @@
     "user_github_solution_syncer": {
       "create": {
         "errors": {
-          "missing_installation_id": "インストールIDがありません",
-          "invalid_installation_id": "インストールIDが正しくありません",
-          "github_account_not_connected": "GitHub Syncerを設定する前に、GitHubアカウントをExercismに連携してください",
-          "organization_account": "GitHub Syncerは個人のGitHubアカウントにのみ対応しています。自分のGitHubアカウントにインストールしてください",
-          "different_github_account": "このGitHub Appは、Exercismアカウントに連携しているGitHubアカウントとは別のアカウントにインストールされています",
-          "installation_not_found": "GitHub Appのインストールが見つからないか、アクセスできなくなっています",
-          "authorization_failed": "GitHubの認可に失敗しました",
-          "api_error": "GitHub APIエラー: %{message}",
-          "not_exactly_one_repository": "アクセスを許可するリポジトリは、1つだけにしてください",
-          "installation_token_missing": "GitHubのインストールトークンを取得できませんでした"
+          "missing_installation_id": "GitHubからインストールの詳細が届きませんでした。Setup Backupをクリックして、もう一度お試しください。",
+          "invalid_installation_id": "GitHubからインストールの詳細が届きませんでした。Setup Backupをクリックして、もう一度お試しください。",
+          "github_account_not_connected": "先にGitHubアカウントをExercismに連携してください（下のステップ1）。その後、バックアップをもう一度設定してください。",
+          "organization_account": "GitHub Syncerのバックアップ先は、個人のGitHubアカウントにあるリポジトリです。自分のアカウントにアプリをインストールしてから、もう一度お試しください。",
+          "different_github_account": "Exercismに連携しているGitHubアカウント（%{github_username}）とは別のアカウントに、アプリがインストールされています。%{github_username}にインストールするか、Settings > Integrationsで別のアカウントを連携してください。",
+          "installation_not_found": "GitHub上でアプリのインストールが見つかりませんでした。Setup Backupをクリックして、もう一度お試しください。",
+          "authorization_failed": "GitHubからリポジトリへのアクセスが許可されませんでした。Setup Backupをクリックして、もう一度お試しください。",
+          "api_error": "GitHubがエラーを返しました（%{message}）。数分待ってから、もう一度お試しください。",
+          "not_exactly_one_repository": "GitHub Syncerは1つのリポジトリへのアクセスだけを必要としますが、%{count}個のリポジトリへのアクセスが許可されています。GitHubでアプリのリポジトリアクセスを1つに変更してから、もう一度お試しください。",
+          "installation_token_missing": "GitHubからリポジトリへのアクセスが許可されませんでした。Setup Backupをクリックして、もう一度お試しください。",
+          "different_github_account_without_username": "Exercismに連携しているGitHubアカウントとは別のアカウントに、アプリがインストールされています。連携済みのアカウントにインストールするか、Settings > Integrationsで別のアカウントを連携してください。"
         }
       }
     }

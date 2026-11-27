@@ -1428,7 +1428,15 @@
     "dangerZoneSection.failedToChangeStatus": "Impossibile cambiare lo stato.",
     "dangerZoneSection.githubSyncDeleted": "Sincronizzazione con GitHub eliminata correttamente",
     "dangerZoneSection.failedToDeleteSync": "Impossibile eliminare la sincronizzazione con GitHub.",
-    "dangerZoneSection.unexpectedErrorDeleting": "Ops! Si è verificato un errore imprevisto durante l'eliminazione della sincronizzazione con GitHub."
+    "dangerZoneSection.unexpectedErrorDeleting": "Ops! Si è verificato un errore imprevisto durante l'eliminazione della sincronizzazione con GitHub.",
+    "commitAuthorSection.commitAuthor": "Autore dei commit",
+    "commitAuthorSection.description": "Scegli chi viene indicato come autore dei commit sincronizzati. Se scegli te stesso, i commit mostrano il tuo account GitHub e contano per il grafico dei contributi su GitHub. Usiamo il tuo indirizzo email noreply di GitHub, così il tuo vero indirizzo email resta privato. Se scegli il bot di sincronizzazione, i commit mostrano il Solution Syncer Bot di Exercism.",
+    "commitAuthorSection.me": "Io",
+    "commitAuthorSection.theSyncerBot": "Il bot di sincronizzazione",
+    "commitAuthorSection.saveChanges": "Salva le modifiche",
+    "commitAuthorSection.savedChangesSuccessfully": "Modifiche salvate correttamente!",
+    "commitAuthorSection.failedToSaveChanges": "Impossibile salvare le modifiche.",
+    "commitAuthorSection.somethingWentWrongWhileSaving": "Si è verificato un errore durante il salvataggio delle modifiche. Riprova."
   },
   "components/modals/welcome-modal": {
     "juniorView.gameAlt.breakout": "Immagine di un gioco Breakout",
@@ -2565,7 +2573,14 @@
     "index.githubAlt": "Github",
     "connectModal.exercismAlt": "Exercism",
     "connectModal.syncWithAlt": "Sincronizza con",
-    "connectModal.githubAlt": "Github"
+    "connectModal.githubAlt": "Github",
+    "index.connectYourAccount": "Collega il tuo account GitHub",
+    "index.accountMustBeLinked": "Il tuo repository di backup deve trovarsi sull'account GitHub collegato al tuo account Exercism. Clicca il pulsante per collegare i tuoi account.",
+    "index.linkGithubAccount": "Collega il tuo account GitHub",
+    "index.accountLinkedAs": "Account GitHub collegato: {{username}}",
+    "index.accountLinked": "Account GitHub collegato",
+    "index.setUpTheBackup": "Configura il backup",
+    "index.completeStepOneFirst": "Collega il tuo account GitHub per continuare."
   },
   "components/tooltips/ToolingTooltip.tsx": {
     "toolingTooltip.loadingData": "Caricamento dati",

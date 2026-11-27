@@ -290,7 +290,8 @@
     },
     "omniauth_callbacks": {
       "failure": "দুঃখিত, %{kind} থেকে আমরা আপনাকে যাচাই করতে পারিনি।",
-      "success": "%{kind} অ্যাকাউন্ট থেকে সফলভাবে যাচাই করা হয়েছে।"
+      "success": "%{kind} অ্যাকাউন্ট থেকে সফলভাবে যাচাই করা হয়েছে।",
+      "github_already_linked": "এই GitHub অ্যাকাউন্টটি ইতিমধ্যেই অন্য একটি Exercism অ্যাকাউন্টের সাথে লিঙ্ক করা আছে।"
     },
     "passwords": {
       "no_token": "পাসওয়ার্ড রিসেটের ইমেইল থেকে না এলে আপনি এই পেজে ঢুকতে পারবেন না। যদি পাসওয়ার্ড রিসেটের ইমেইল থেকেই এসে থাকেন, তাহলে অনুগ্রহ করে দেখে নিন যে দেওয়া সম্পূর্ণ URL-টি আপনি ব্যবহার করেছেন।",
@@ -3475,7 +3476,7 @@
         }
       },
       "callback": {
-        "missing_installation_id": "ইনস্টলেশন আইডি অনুপস্থিত",
+        "missing_installation_id": "GitHub আপনার ইনস্টলেশনের বিবরণ আমাদের কাছে পাঠায়নি। অনুগ্রহ করে Setup Backup-এ ক্লিক করে আবার চেষ্টা করুন।",
         "connected": "GitHub সফলভাবে সংযুক্ত হয়েছে"
       },
       "update": {
@@ -4506,16 +4507,17 @@
     "user_github_solution_syncer": {
       "create": {
         "errors": {
-          "missing_installation_id": "ইনস্টলেশন আইডি অনুপস্থিত",
-          "invalid_installation_id": "ইনস্টলেশন আইডি অবৈধ",
-          "github_account_not_connected": "GitHub Syncer সেট আপ করার আগে অনুগ্রহ করে আপনার GitHub অ্যাকাউন্ট Exercism-এর সাথে সংযুক্ত করুন",
-          "organization_account": "GitHub Syncer কেবল ব্যক্তিগত GitHub অ্যাকাউন্ট সমর্থন করে। অনুগ্রহ করে এটি আপনার নিজের GitHub অ্যাকাউন্টে ইনস্টল করুন",
-          "different_github_account": "এই GitHub App আপনার Exercism অ্যাকাউন্টের সাথে সংযুক্ত GitHub অ্যাকাউন্ট থেকে ভিন্ন একটি GitHub অ্যাকাউন্টে ইনস্টল করা হয়েছে",
-          "installation_not_found": "GitHub App-এর ইনস্টলেশন পাওয়া যায়নি বা আর অ্যাক্সেস করা যায় না",
-          "authorization_failed": "GitHub অথরাইজেশন ব্যর্থ হয়েছে",
-          "api_error": "GitHub API এরর: %{message}",
-          "not_exactly_one_repository": "অনুগ্রহ করে ঠিক একটি রিপোজিটরির জন্য অ্যাক্সেস দিন",
-          "installation_token_missing": "GitHub ইনস্টলেশন টোকেন পুনরুদ্ধার করা যায়নি"
+          "missing_installation_id": "GitHub আপনার ইনস্টলেশনের বিবরণ আমাদের কাছে পাঠায়নি। অনুগ্রহ করে Setup Backup-এ ক্লিক করে আবার চেষ্টা করুন।",
+          "invalid_installation_id": "GitHub আপনার ইনস্টলেশনের বিবরণ আমাদের কাছে পাঠায়নি। অনুগ্রহ করে Setup Backup-এ ক্লিক করে আবার চেষ্টা করুন।",
+          "github_account_not_connected": "অনুগ্রহ করে প্রথমে আপনার GitHub অ্যাকাউন্ট Exercism-এর সাথে লিঙ্ক করুন (নিচের ধাপ ১), তারপর ব্যাকআপটি আবার সেট আপ করুন।",
+          "organization_account": "GitHub Syncer আপনার ব্যক্তিগত GitHub অ্যাকাউন্টের একটি রিপোজিটরিতে ব্যাকআপ রাখে। অনুগ্রহ করে অ্যাপটি আপনার নিজের অ্যাকাউন্টে ইনস্টল করে আবার চেষ্টা করুন।",
+          "different_github_account": "Exercism-এর সাথে সংযুক্ত GitHub অ্যাকাউন্ট (%{github_username}) থেকে ভিন্ন একটি GitHub অ্যাকাউন্টে আপনি অ্যাপটি ইনস্টল করেছেন। অনুগ্রহ করে %{github_username} অ্যাকাউন্টে এটি ইনস্টল করুন, অথবা Settings > Integrations-এ গিয়ে অন্য অ্যাকাউন্টটি লিঙ্ক করুন।",
+          "installation_not_found": "GitHub-এ অ্যাপটির ইনস্টলেশন আমরা খুঁজে পাইনি। অনুগ্রহ করে Setup Backup-এ ক্লিক করে আবার চেষ্টা করুন।",
+          "authorization_failed": "GitHub আপনার রিপোজিটরিতে আমাদের অ্যাক্সেস দেয়নি। অনুগ্রহ করে Setup Backup-এ ক্লিক করে আবার চেষ্টা করুন।",
+          "api_error": "GitHub একটি এরর ফিরিয়ে দিয়েছে (%{message})। অনুগ্রহ করে কয়েক মিনিট পর আবার চেষ্টা করুন।",
+          "not_exactly_one_repository": "GitHub Syncer-এর ঠিক একটি রিপোজিটরিতে অ্যাক্সেস প্রয়োজন, কিন্তু আপনি %{count}টি রিপোজিটরিতে অ্যাক্সেস দিয়েছেন। অনুগ্রহ করে GitHub-এ অ্যাপটির রিপোজিটরি অ্যাক্সেস একটিতে পরিবর্তন করে আবার চেষ্টা করুন।",
+          "installation_token_missing": "GitHub আপনার রিপোজিটরিতে আমাদের অ্যাক্সেস দেয়নি। অনুগ্রহ করে Setup Backup-এ ক্লিক করে আবার চেষ্টা করুন।",
+          "different_github_account_without_username": "Exercism-এর সাথে সংযুক্ত অ্যাকাউন্ট থেকে ভিন্ন একটি GitHub অ্যাকাউন্টে আপনি অ্যাপটি ইনস্টল করেছেন। অনুগ্রহ করে আপনার সংযুক্ত অ্যাকাউন্টে এটি ইনস্টল করুন, অথবা Settings > Integrations-এ গিয়ে অন্য অ্যাকাউন্টটি লিঙ্ক করুন।"
         }
       }
     }

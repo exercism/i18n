@@ -480,7 +480,15 @@
     "manualSyncSection.backupTrackInfo": "Якщо потрібно зробити резервну копію треку в GitHub, можна скористатися цією можливістю.",
     "manualSyncSection.pleaseUseSparing": "<strong className=\"font-medium\">Примітка:</strong> Користуйтеся цим помірно, наприклад, коли потрібно вперше зробити резервну копію треку. Це не призначено для звичайного робочого процесу і, найімовірніше, впиратиметься в ліміти запитів, якщо користуватися ним занадто часто.",
     "manualSyncSection.selectTrackToBackup": "Виберіть трек для резервного копіювання",
-    "manualSyncSection.backupTrackButton": "Зробити резервну копію треку"
+    "manualSyncSection.backupTrackButton": "Зробити резервну копію треку",
+    "commitAuthorSection.commitAuthor": "Автор коміту",
+    "commitAuthorSection.description": "Виберіть, кого вказати автором синхронізованих комітів. Якщо вибрати себе, коміти показуватимуть обліковий запис на GitHub і зараховуватимуться до графіка внесків GitHub. Ми використовуємо адресу електронної пошти noreply від GitHub, тож справжня адреса залишається приватною. Якщо вибрати бота синхронізації, коміти показуватимуть Solution Syncer Bot від Exercism.",
+    "commitAuthorSection.me": "Я",
+    "commitAuthorSection.theSyncerBot": "Бот синхронізації",
+    "commitAuthorSection.saveChanges": "Зберегти зміни",
+    "commitAuthorSection.savedChangesSuccessfully": "Зміни успішно збережено!",
+    "commitAuthorSection.failedToSaveChanges": "Не вдалося зберегти зміни.",
+    "commitAuthorSection.somethingWentWrongWhileSaving": "Під час збереження змін щось пішло не так. Спробуйте ще раз."
   },
   "components/profile": {
     "newProfileForm.exercismIsMadeUpOfPeople": "Exercism складається з людей з усього світу 🌎",
@@ -988,7 +996,14 @@
     "connectModal.syncWithAlt": "Синхронізувати з",
     "connectModal.githubAlt": "Github",
     "index.backupYourSolutionsToGithub": "Резервне копіювання рішень у GitHub",
-    "index.automatedBackupDescription": "Автоматичне резервне копіювання рішень у GitHub за допомогою нашого інструменту автоматичного резервного копіювання."
+    "index.automatedBackupDescription": "Автоматичне резервне копіювання рішень у GitHub за допомогою нашого інструменту автоматичного резервного копіювання.",
+    "index.connectYourAccount": "Привʼяжіть обліковий запис GitHub",
+    "index.accountMustBeLinked": "Резервний репозиторій має бути на обліковому записі GitHub, привʼязаному до облікового запису Exercism. Натисніть кнопку, щоб привʼязати облікові записи.",
+    "index.linkGithubAccount": "Привʼязати обліковий запис GitHub",
+    "index.accountLinkedAs": "Обліковий запис GitHub привʼязано: {{username}}",
+    "index.accountLinked": "Обліковий запис GitHub привʼязано",
+    "index.setUpTheBackup": "Налаштуйте резервне копіювання",
+    "index.completeStepOneFirst": "Привʼяжіть обліковий запис GitHub, щоб продовжити."
   },
   "components/settings/HandleForm.tsx": {
     "handleForm.changeYourHandle": "Змінити нікнейм",

@@ -1015,7 +1015,8 @@
     },
     "omniauth_callbacks": {
       "failure": "متأسفیم، نتوانستیم هویت شما را از طریق %{kind} احراز کنیم.",
-      "success": "هویت شما با موفقیت از طریق حساب %{kind} احراز شد."
+      "success": "هویت شما با موفقیت از طریق حساب %{kind} احراز شد.",
+      "github_already_linked": "این حساب GitHub پیش‌تر به حساب Exercism دیگری متصل شده است."
     },
     "unlocks": {
       "new": {
@@ -2939,7 +2940,7 @@
         }
       },
       "callback": {
-        "missing_installation_id": "شناسه‌ی نصب موجود نیست",
+        "missing_installation_id": "GitHub جزئیات نصب شما را برای ما ارسال نکرد. لطفاً روی «Setup Backup» کلیک کنید و دوباره امتحان کنید.",
         "connected": "GitHub با موفقیت متصل شد"
       },
       "update": {
@@ -4507,16 +4508,17 @@
     "user_github_solution_syncer": {
       "create": {
         "errors": {
-          "missing_installation_id": "شناسه‌ی نصب موجود نیست",
-          "invalid_installation_id": "شناسه‌ی نصب نامعتبر است",
-          "github_account_not_connected": "لطفاً پیش از راه‌اندازی GitHub Syncer، حساب GitHub خودتان را به Exercism متصل کنید",
-          "organization_account": "GitHub Syncer فقط از حساب‌های شخصی GitHub پشتیبانی می‌کند. لطفاً آن را روی حساب GitHub خودتان نصب کنید",
-          "different_github_account": "این GitHub App روی حساب GitHub دیگری نصب شده است، نه روی حسابی که به حساب Exercism شما متصل است",
-          "installation_not_found": "نصب GitHub App پیدا نشد یا دیگر در دسترس نیست",
-          "authorization_failed": "مجوزدهی GitHub ناموفق بود",
-          "api_error": "خطای GitHub API: %{message}",
-          "not_exactly_one_repository": "لطفاً فقط به یک مخزن دسترسی بدهید",
-          "installation_token_missing": "دریافت توکن نصب GitHub ناموفق بود"
+          "missing_installation_id": "GitHub جزئیات نصب شما را برای ما ارسال نکرد. لطفاً روی «Setup Backup» کلیک کنید و دوباره امتحان کنید.",
+          "invalid_installation_id": "GitHub جزئیات نصب شما را برای ما ارسال نکرد. لطفاً روی «Setup Backup» کلیک کنید و دوباره امتحان کنید.",
+          "github_account_not_connected": "لطفاً ابتدا حساب GitHub خودتان را به Exercism متصل کنید (مرحله‌ی ۱ در پایین)، سپس دوباره پشتیبان‌گیری را راه‌اندازی کنید.",
+          "organization_account": "پشتیبان‌گیری GitHub Syncer در یک مخزن روی حساب شخصی GitHub شما انجام می‌شود. لطفاً برنامه را روی حساب خودتان نصب کنید و دوباره امتحان کنید.",
+          "different_github_account": "شما برنامه را روی حساب GitHub دیگری غیر از حسابی نصب کرده‌اید که به Exercism متصل است (%{github_username}). لطفاً آن را روی %{github_username} نصب کنید، یا حساب دیگر را در بخش «Settings» > «Integrations» متصل کنید.",
+          "installation_not_found": "نصب برنامه را در GitHub پیدا نکردیم. لطفاً روی «Setup Backup» کلیک کنید و دوباره امتحان کنید.",
+          "authorization_failed": "GitHub به ما اجازه‌ی دسترسی به مخزن شما را نداد. لطفاً روی «Setup Backup» کلیک کنید و دوباره امتحان کنید.",
+          "api_error": "GitHub خطایی برگرداند (%{message}). لطفاً چند دقیقه‌ی دیگر دوباره امتحان کنید.",
+          "not_exactly_one_repository": "GitHub Syncer به دسترسی به دقیقاً یک مخزن نیاز دارد و شما به %{count} مخزن دسترسی داده‌اید. لطفاً دسترسی مخزن برنامه را در GitHub به یک مخزن تغییر دهید و دوباره امتحان کنید.",
+          "installation_token_missing": "GitHub به ما اجازه‌ی دسترسی به مخزن شما را نداد. لطفاً روی «Setup Backup» کلیک کنید و دوباره امتحان کنید.",
+          "different_github_account_without_username": "شما برنامه را روی حساب GitHub دیگری غیر از حسابی نصب کرده‌اید که به Exercism متصل است. لطفاً آن را روی حساب متصل‌شده‌ی خودتان نصب کنید، یا حساب دیگر را در بخش «Settings» > «Integrations» متصل کنید."
         }
       }
     }

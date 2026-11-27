@@ -269,7 +269,15 @@
     "commitMessageTemplateSection.revert_button": "デフォルトに戻す",
     "commitMessageTemplateSection.confirm_modal.title": "コミットメッセージのテンプレートをデフォルトに戻してもよろしいですか？",
     "commitMessageTemplateSection.confirm_modal.confirm": "戻す",
-    "commitMessageTemplateSection.confirm_modal.cancel": "キャンセル"
+    "commitMessageTemplateSection.confirm_modal.cancel": "キャンセル",
+    "commitAuthorSection.commitAuthor": "コミットの作成者",
+    "commitAuthorSection.description": "同期されたコミットの作成者を選べます。自分を選ぶと、コミットにはGitHubアカウントが表示され、GitHubのコントリビューショングラフにも反映されます。メールアドレスにはGitHubのnoreplyアドレスを使うので、実際のメールアドレスは公開されません。同期ボットを選ぶと、コミットにはExercismのSolution Syncer Botが表示されます。",
+    "commitAuthorSection.me": "自分",
+    "commitAuthorSection.theSyncerBot": "同期ボット",
+    "commitAuthorSection.saveChanges": "変更を保存",
+    "commitAuthorSection.savedChangesSuccessfully": "変更を保存しました！",
+    "commitAuthorSection.failedToSaveChanges": "変更を保存できませんでした。",
+    "commitAuthorSection.somethingWentWrongWhileSaving": "変更の保存中に問題が発生しました。もう一度お試しください。"
   },
   "components/editor/AssistantChat": {
     "insidersUpsellModal.receiptInYourInbox": "まもなく受信箱に領収書が届きます。",
@@ -1437,7 +1445,14 @@
     "index.githubAlt": "Github",
     "connectModal.exercismAlt": "Exercism",
     "connectModal.syncWithAlt": "と同期",
-    "connectModal.githubAlt": "Github"
+    "connectModal.githubAlt": "Github",
+    "index.connectYourAccount": "GitHubアカウントを連携する",
+    "index.accountMustBeLinked": "バックアップ用リポジトリは、Exercismアカウントに連携しているGitHubアカウント上にある必要があります。ボタンをクリックしてアカウントを連携してください。",
+    "index.linkGithubAccount": "GitHubアカウントを連携する",
+    "index.accountLinkedAs": "連携中のGitHubアカウント：{{username}}",
+    "index.accountLinked": "GitHubアカウントを連携しました",
+    "index.setUpTheBackup": "バックアップを設定する",
+    "index.completeStepOneFirst": "続けるには、GitHubアカウントを連携してください。"
   },
   "components/journey/contribution-results": {
     "markAllAsSeenModal.cancel": "キャンセル",
