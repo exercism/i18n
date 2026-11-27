@@ -21,7 +21,8 @@ This page is generated from [the index](../../json/hu/haskell.json) by `scripts/
 
 ### Affine Cipher (Affin-rejtjel)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/affine-cipher/.docs/instructions.md)): [Latest](../../../locales/hu/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/affine-cipher/.docs/instructions.md)): [Latest](../../../locales/hu/content/bc/89/0882d3e2305a80a44c7d921bc9bf6be0cf8f.md)
+  - [`1603dbbce9`](../../../locales/hu/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
   - [`4eff918de7`](../../../locales/hu/content/4e/ff/918de78a6802897690f4044259301d140dfa.md)
 - `instructions.append.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/affine-cipher/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/6b/36/7c8841927bfe65e5b113d3cbf3ceba714a85.md)
 
@@ -43,8 +44,8 @@ This page is generated from [the index](../../json/hu/haskell.json) by `scripts/
 
 ### Anagram (Anagramma)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/anagram/.docs/instructions.md)): [Latest](../../../locales/hu/content/a7/29/8485b3f6ab5fd93ed7426e9e5331dc514e72.md)
-  - [`dca24f5262`](../../../locales/hu/content/dc/a2/4f52627e3ba6b999322fb89d8c686c3ec634.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/anagram/.docs/instructions.md)): [Latest](../../../locales/hu/content/dc/a2/4f52627e3ba6b999322fb89d8c686c3ec634.md)
+  - [`a7298485b3`](../../../locales/hu/content/a7/29/8485b3f6ab5fd93ed7426e9e5331dc514e72.md)
 - `instructions.append.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/anagram/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/72/fa/7ab8e93a80e6f8ff0dc2dc316aa059f973ab.md)
 - `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/anagram/.docs/introduction.md)): [Latest](../../../locales/hu/content/1a/cb/df00b059f44fb4ce4c00be743d24eda86d60.md)
 
@@ -105,7 +106,8 @@ This page is generated from [the index](../../json/hu/haskell.json) by `scripts/
 
 ### Book Store (Könyvesbolt)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/book-store/.docs/instructions.md)): [Latest](../../../locales/hu/content/54/40/3f17bf5c35e9b5d6c20503e87e02c232e1a7.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/book-store/.docs/instructions.md)): [Latest](../../../locales/hu/content/30/c3/f056879d815af202362909a1ef676b9df62c.md)
+  - [`54403f17bf`](../../../locales/hu/content/54/40/3f17bf5c35e9b5d6c20503e87e02c232e1a7.md)
 - `instructions.append.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/book-store/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/47/4d/ceb72666d366071f5159e9b330ccc500bbf7.md)
 
 ### Bowling
@@ -130,12 +132,13 @@ This page is generated from [the index](../../json/hu/haskell.json) by `scripts/
 - `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/collatz-conjecture/.docs/instructions.md)): [Latest](../../../locales/hu/content/af/33/2a810f0f31aa1233e92bea57721d3025f4e0.md)
   - [`ba060483e4`](../../../locales/hu/content/ba/06/0483e4d45f77f20a8b048544aa5438022467.md)
   - [`f8c76e7f11`](../../../locales/hu/content/f8/c7/6e7f11ed42a07577ae6ef350d169de59bf76.md)
-- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/collatz-conjecture/.docs/introduction.md)): [Latest](../../../locales/hu/content/c3/5b/deb67dceef4bf9769dbbf473e841cdd068f2.md)
+- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/collatz-conjecture/.docs/introduction.md)): [Latest](../../../locales/hu/content/40/09/942af059319797763f5424d4cfb08e5aa5f3.md)
+  - [`c35bdeb67d`](../../../locales/hu/content/c3/5b/deb67dceef4bf9769dbbf473e841cdd068f2.md)
 
 ### Complex Numbers (Komplex számok)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/complex-numbers/.docs/instructions.md)): [Latest](../../../locales/hu/content/50/b1/9aedff6171cfffa9400416645af344ea019a.md)
-  - [`2b8a7a49d8`](../../../locales/hu/content/2b/8a/7a49d824f84448eda21c4281ab2c8213d03a.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/complex-numbers/.docs/instructions.md)): [Latest](../../../locales/hu/content/2b/8a/7a49d824f84448eda21c4281ab2c8213d03a.md)
+  - [`50b19aedff`](../../../locales/hu/content/50/b1/9aedff6171cfffa9400416645af344ea019a.md)
 
 ### Connect
 
@@ -235,9 +238,11 @@ This page is generated from [the index](../../json/hu/haskell.json) by `scripts/
 
 ### Hamming
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/hamming/.docs/instructions.md)): [Latest](../../../locales/hu/content/b9/ae/6efc516eb335d6f456561f89a8b6acc4c850.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/hamming/.docs/instructions.md)): [Latest](../../../locales/hu/content/8f/47/a179e01a680d8d8311f0a54ba239c9982431.md)
+  - [`b9ae6efc51`](../../../locales/hu/content/b9/ae/6efc516eb335d6f456561f89a8b6acc4c850.md)
   - [`020fdd02d4`](../../../locales/hu/content/02/0f/dd02d4e000f12cb26a9fc01f5670f4ffdbc5.md)
   - [`56c5696de1`](../../../locales/hu/content/56/c5/696de15a9846b0717c8ca54479fe15aa8672.md)
+- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/hamming/.docs/introduction.md)): [Latest](../../../locales/hu/content/84/19/bf479e5ef43be61485408c3758b2c7bd16da.md)
 
 ### Hello World (Helló, világ!)
 
@@ -354,7 +359,8 @@ This page is generated from [the index](../../json/hu/haskell.json) by `scripts/
 
 ### OCR Numbers (OCR-számok)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/ocr-numbers/.docs/instructions.md)): [Latest](../../../locales/hu/content/8a/39/1ce4f6e1c32cd61c2140ed3e0e2e24299efd.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/ocr-numbers/.docs/instructions.md)): [Latest](../../../locales/hu/content/ea/40/a4ecd36432db63c2a9769d44ad1763d21819.md)
+  - [`8a391ce4f6`](../../../locales/hu/content/8a/39/1ce4f6e1c32cd61c2140ed3e0e2e24299efd.md)
   - [`7beb257795`](../../../locales/hu/content/7b/eb/257795750af8a41226dc35558924106c5657.md)
   - [`4086329bd8`](../../../locales/hu/content/40/86/329bd80259175d519e6b5ddbab0c829a876a.md)
 - `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/ocr-numbers/.docs/introduction.md)): [Latest](../../../locales/hu/content/36/6d/76062c7f4620198bfa95f32a8341b17493c4.md)
@@ -384,10 +390,12 @@ This page is generated from [the index](../../json/hu/haskell.json) by `scripts/
 
 ### Pascal's Triangle (Pascal-háromszög)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/pascals-triangle/.docs/instructions.md)): [Latest](../../../locales/hu/content/0f/58/f0069688bc7dfd1a2705cc4382f27a0609dd.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/pascals-triangle/.docs/instructions.md)): [Latest](../../../locales/hu/content/4f/a8/8553825636eca6a9053583288e07ed0e1cda.md)
+  - [`0f58f00696`](../../../locales/hu/content/0f/58/f0069688bc7dfd1a2705cc4382f27a0609dd.md)
   - [`f556785931`](../../../locales/hu/content/f5/56/785931c3674ec43dd8f4e47e202fa6523c5f.md)
   - [`7109334fbd`](../../../locales/hu/content/71/09/334fbdec440cec98d7570f54536a39d7e7d8.md)
-- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/pascals-triangle/.docs/introduction.md)): [Latest](../../../locales/hu/content/ea/b4/54e5a6995c899f852bcd23d9af558ca9e7bd.md)
+- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/pascals-triangle/.docs/introduction.md)): [Latest](../../../locales/hu/content/c2/bc/6f5d2113231f444250958019fc51738615de.md)
+  - [`eab454e5a6`](../../../locales/hu/content/ea/b4/54e5a6995c899f852bcd23d9af558ca9e7bd.md)
   - [`60b8ec30dc`](../../../locales/hu/content/60/b8/ec30dc8dc60f313c8ec911007aed15c3df45.md)
 
 ### Perfect Numbers (Tökéletes számok)
@@ -404,7 +412,8 @@ This page is generated from [the index](../../json/hu/haskell.json) by `scripts/
 
 ### Pig Latin (Malaclatin)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/pig-latin/.docs/instructions.md)): [Latest](../../../locales/hu/content/a9/64/5ac236fe312760f0c7f6a3e5c8137114c92f.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/pig-latin/.docs/instructions.md)): [Latest](../../../locales/hu/content/4e/e6/0a75d160a2d244d1169214a026d1728b6070.md)
+  - [`a9645ac236`](../../../locales/hu/content/a9/64/5ac236fe312760f0c7f6a3e5c8137114c92f.md)
   - [`6c843080d4`](../../../locales/hu/content/6c/84/3080d445871fafbf2768deef48fbab032142.md)
 - `instructions.append.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/pig-latin/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/85/b1/a9f49a250c6e31d0a054342b9a3bc9089673.md)
 - `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/pig-latin/.docs/introduction.md)): [Latest](../../../locales/hu/content/04/ba/a47586f616a397cd8973490a67937af067cd.md)
@@ -416,7 +425,8 @@ This page is generated from [the index](../../json/hu/haskell.json) by `scripts/
 
 ### POV (Nézőpont)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/pov/.docs/instructions.md)): [Latest](../../../locales/hu/content/0f/de/ed2250f9472452d51b3978daa8bdc6523688.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/pov/.docs/instructions.md)): [Latest](../../../locales/hu/content/32/f7/822d7ad99a1429476bdccdc63af95d17f31c.md)
+  - [`0fdeed2250`](../../../locales/hu/content/0f/de/ed2250f9472452d51b3978daa8bdc6523688.md)
 
 ### Prime Factors (Prímtényezők)
 
@@ -425,7 +435,8 @@ This page is generated from [the index](../../json/hu/haskell.json) by `scripts/
 
 ### Protein Translation (Fehérjetranszláció)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/protein-translation/.docs/instructions.md)): [Latest](../../../locales/hu/content/44/88/0802c578d25f9638fab6a6bc1389ef45dd65.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/protein-translation/.docs/instructions.md)): [Latest](../../../locales/hu/content/35/c9/53b11f9642c30978222e743aff4dc38f1451.md)
+  - [`44880802c5`](../../../locales/hu/content/44/88/0802c578d25f9638fab6a6bc1389ef45dd65.md)
   - [`c211345ed9`](../../../locales/hu/content/c2/11/345ed984d09974f68e37fa0bec90b5e33371.md)
 
 ### Proverb (Közmondás)
@@ -457,7 +468,8 @@ This page is generated from [the index](../../json/hu/haskell.json) by `scripts/
 
 ### Rational Numbers (Racionális számok)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/rational-numbers/.docs/instructions.md)): [Latest](../../../locales/hu/content/f6/4f/c0f28e5f84c9e991e52b275f5eef1ff7ea86.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/rational-numbers/.docs/instructions.md)): [Latest](../../../locales/hu/content/35/ed/bd0bd8a7031007e7a0f0cc85256af9db6824.md)
+  - [`f64fc0f28e`](../../../locales/hu/content/f6/4f/c0f28e5f84c9e991e52b275f5eef1ff7ea86.md)
 
 ### Resistor Color Duo (Ellenállás színkódja: duó)
 
@@ -466,7 +478,8 @@ This page is generated from [the index](../../json/hu/haskell.json) by `scripts/
 
 ### Resistor Color Trio (Ellenállás színkódja: trió)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/resistor-color-trio/.docs/instructions.md)): [Latest](../../../locales/hu/content/1a/c5/cf5e9fe0b7e589bf6cba0c31c2c8a0e98d7e.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/resistor-color-trio/.docs/instructions.md)): [Latest](../../../locales/hu/content/8e/f1/1628e00a8553579594981d7c31900f8c1835.md)
+  - [`1ac5cf5e9f`](../../../locales/hu/content/1a/c5/cf5e9fe0b7e589bf6cba0c31c2c8a0e98d7e.md)
 - `instructions.append.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/resistor-color-trio/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/b4/fe/fddc50ef2d0e4e0267cff122c8f72b0b7058.md)
 
 ### Reverse String (String megfordítása)
@@ -495,9 +508,11 @@ This page is generated from [the index](../../json/hu/haskell.json) by `scripts/
 
 ### Roman Numerals (Római számok)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/roman-numerals/.docs/instructions.md)): [Latest](../../../locales/hu/content/50/e2/f5bf1c668a66cff143097642a80dae9597d2.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/roman-numerals/.docs/instructions.md)): [Latest](../../../locales/hu/content/fe/28/f4d99ace840334fb8e1b022ffea2c36fe770.md)
+  - [`50e2f5bf1c`](../../../locales/hu/content/50/e2/f5bf1c668a66cff143097642a80dae9597d2.md)
 - `instructions.append.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/roman-numerals/.docs/instructions.append.md)): [Latest](../../../locales/hu/content/57/d3/b2703ff1b9233be78651febdd1b248a3cdb6.md)
-- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/roman-numerals/.docs/introduction.md)): [Latest](../../../locales/hu/content/6f/d9/42fef30f76ae037294b8fa382471665ffc2a.md)
+- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/roman-numerals/.docs/introduction.md)): [Latest](../../../locales/hu/content/06/f4/84fe38a75497e4a5c12fc9e3eb153e5fa47e.md)
+  - [`6fd942fef3`](../../../locales/hu/content/6f/d9/42fef30f76ae037294b8fa382471665ffc2a.md)
 
 ### Rotational Cipher (Rotációs rejtjel)
 
@@ -519,7 +534,8 @@ This page is generated from [the index](../../json/hu/haskell.json) by `scripts/
 
 ### Satellite (Műhold)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/satellite/.docs/instructions.md)): [Latest](../../../locales/hu/content/fb/bf/14f439558fa6451f8ebfac7253e0c9e12189.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/satellite/.docs/instructions.md)): [Latest](../../../locales/hu/content/99/ba/aed0ecdac2a4d4af2803b65a3e9cb86f2ba3.md)
+  - [`fbbf14f439`](../../../locales/hu/content/fb/bf/14f439558fa6451f8ebfac7253e0c9e12189.md)
 
 ### Say (Mondd)
 
@@ -555,13 +571,15 @@ This page is generated from [the index](../../json/hu/haskell.json) by `scripts/
 
 ### Sieve (Szita)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/sieve/.docs/instructions.md)): [Latest](../../../locales/hu/content/71/29/2e1782dc95e0430ae2b614e1d740dd41639f.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/sieve/.docs/instructions.md)): [Latest](../../../locales/hu/content/4b/0f/47d4fafff7a8d2cde09247ad4fced7d73121.md)
+  - [`71292e1782`](../../../locales/hu/content/71/29/2e1782dc95e0430ae2b614e1d740dd41639f.md)
   - [`085c0a57d9`](../../../locales/hu/content/08/5c/0a57d96c7cd846a7948241899ce46778f01d.md)
 - `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/sieve/.docs/introduction.md)): [Latest](../../../locales/hu/content/f6/c1/cf79a9d4ccf67f1ed34dabb8ab0a58030358.md)
 
 ### Simple Cipher (Egyszerű rejtjel)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/simple-cipher/.docs/instructions.md)): [Latest](../../../locales/hu/content/af/d0/b57da930f59595d830df56eb0c9e891e83f4.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/simple-cipher/.docs/instructions.md)): [Latest](../../../locales/hu/content/46/0f/8761e98be9192e40453fc8733228d400b5da.md)
+  - [`afd0b57da9`](../../../locales/hu/content/af/d0/b57da930f59595d830df56eb0c9e891e83f4.md)
   - [`475af61828`](../../../locales/hu/content/47/5a/f61828f2d53e65f912b0f0cb94b26702daee.md)
 
 ### Simple Linked List (Egyszerű láncolt lista)
@@ -585,7 +603,8 @@ This page is generated from [the index](../../json/hu/haskell.json) by `scripts/
 
 ### State of Tic-Tac-Toe (Az amőba állása)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/state-of-tic-tac-toe/.docs/instructions.md)): [Latest](../../../locales/hu/content/1a/03/ebb6cb4c4468e3c93f90e0a76e4f1812ec55.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/state-of-tic-tac-toe/.docs/instructions.md)): [Latest](../../../locales/hu/content/37/99/94c5ebfd3f9d2491c9ad4f7ec30e6d86320e.md)
+  - [`1a03ebb6cb`](../../../locales/hu/content/1a/03/ebb6cb4c4468e3c93f90e0a76e4f1812ec55.md)
 
 ### Strain (Szűrés)
 
@@ -611,7 +630,8 @@ This page is generated from [the index](../../json/hu/haskell.json) by `scripts/
 
 ### Triangle (Háromszög)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/hu/content/ac/39/008726d5472b99e1aee556219eadca7fc49d.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/hu/content/e9/b0/53dcd344e85179041c10dcd48406d735b2f9.md)
+  - [`ac39008726`](../../../locales/hu/content/ac/39/008726d5472b99e1aee556219eadca7fc49d.md)
   - [`0a9c68e3b0`](../../../locales/hu/content/0a/9c/68e3b09a420ce304a9dbe387bb2a04b73f48.md)
 
 ### Trinary (Hármas)
@@ -684,9 +704,12 @@ This page is generated from [the index](../../json/hu/haskell.json) by `scripts/
 
 ### Lucian's Luscious Lasagna (Lucian ínycsiklandó lasagnéja)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/concept/lucians-luscious-lasagna/.docs/instructions.md)): [Latest](../../../locales/hu/content/1e/96/3a8d4f0296b3d3aed3c9e8f710898e195c6f.md)
-- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/concept/lucians-luscious-lasagna/.docs/introduction.md)): [Latest](../../../locales/hu/content/96/80/7773f99ea2762586bbd937db592a66a048d0.md)
-- `hints.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/concept/lucians-luscious-lasagna/.docs/hints.md)): [Latest](../../../locales/hu/content/3e/2c/107b80dc328f9d1ebf85c9a2a58d3047fcc6.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/concept/lucians-luscious-lasagna/.docs/instructions.md)): [Latest](../../../locales/hu/content/41/a7/5b9b7f74386b8699f03139fd4ff975dce146.md)
+  - [`1e963a8d4f`](../../../locales/hu/content/1e/96/3a8d4f0296b3d3aed3c9e8f710898e195c6f.md)
+- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/concept/lucians-luscious-lasagna/.docs/introduction.md)): [Latest](../../../locales/hu/content/db/60/18f971ab89a5d6ab66d732f888d02d6b3179.md)
+  - [`96807773f9`](../../../locales/hu/content/96/80/7773f99ea2762586bbd937db592a66a048d0.md)
+- `hints.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/concept/lucians-luscious-lasagna/.docs/hints.md)): [Latest](../../../locales/hu/content/d2/83/86dd09ca3fb07c539784dc34e19be4c10c56.md)
+  - [`3e2c107b80`](../../../locales/hu/content/3e/2c/107b80dc328f9d1ebf85c9a2a58d3047fcc6.md)
 
 ### Pac-Man Rules (Pac-Man szabályai)
 
@@ -716,8 +739,10 @@ This page is generated from [the index](../../json/hu/haskell.json) by `scripts/
 
 ### Basics (Alapok)
 
-- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/basics/introduction.md)): [Latest](../../../locales/hu/content/1f/a4/6a7188627368f90dff5b074563e4c1a651bd.md)
-- `about.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/basics/about.md)): [Latest](../../../locales/hu/content/1f/a4/6a7188627368f90dff5b074563e4c1a651bd.md)
+- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/basics/introduction.md)): [Latest](../../../locales/hu/content/db/60/18f971ab89a5d6ab66d732f888d02d6b3179.md)
+  - [`1fa46a7188`](../../../locales/hu/content/1f/a4/6a7188627368f90dff5b074563e4c1a651bd.md)
+- `about.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/basics/about.md)): [Latest](../../../locales/hu/content/db/60/18f971ab89a5d6ab66d732f888d02d6b3179.md)
+  - [`1fa46a7188`](../../../locales/hu/content/1f/a4/6a7188627368f90dff5b074563e4c1a651bd.md)
 
 ### Booleans (Booleanok)
 
