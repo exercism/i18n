@@ -527,5 +527,9 @@
   "exercise:beauty-salon-regulars:name": "عملاء صالون التجميل الدائمون",
   "concept:temporal-adjusters:name": "معدّلات الزمن",
   "exercise:beauty-salon-regulars:blurb": "تعرّف على معدّلات الزمن عبر جدولة مواعيد ثابتة لعملاء صالون التجميل الدائمين.",
-  "concept:temporal-adjusters:blurb": "نفّذ تعديلات على التواريخ باستخدام واجهة `TemporalAdjuster` وفئة الأدوات `TemporalAdjusters` في Java."
+  "concept:temporal-adjusters:blurb": "نفّذ تعديلات على التواريخ باستخدام واجهة `TemporalAdjuster` وفئة الأدوات `TemporalAdjusters` في Java.",
+  "exercise:gym-front-desk:name": "مكتب استقبال الصالة الرياضية",
+  "concept:durations-and-periods:name": "المدد والفترات",
+  "exercise:gym-front-desk:blurb": "تعلّم عن المدد والفترات بالإجابة عن أسئلة الأعضاء في مكتب استقبال صالة تسلّق.",
+  "concept:durations-and-periods:blurb": "مثّل مقادير الوقت باستخدام صنفَي `Period` المعتمد على التواريخ و`Duration` المعتمد على الوقت في Java."
 }

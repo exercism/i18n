@@ -735,6 +735,12 @@ This page is generated from [the index](../../json/es-ES/java.json) by `scripts/
 - `introduction.md` ([English](https://github.com/exercism/java/blob/main/exercises/concept/gotta-snatch-em-all/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/92/11/74753d771b398d9873aef6780adc9e5f552e.md)
 - `hints.md` ([English](https://github.com/exercism/java/blob/main/exercises/concept/gotta-snatch-em-all/.docs/hints.md)): [Latest](../../../locales/es-ES/content/48/62/7ff3be9ac58b564a948524e126c4e9b5af8a.md)
 
+### Gym Front Desk (Recepción del gimnasio)
+
+- `instructions.md` ([English](https://github.com/exercism/java/blob/main/exercises/concept/gym-front-desk/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/4c/7a/39df80aae628d4c6f200e38403780c3ea11d.md)
+- `introduction.md` ([English](https://github.com/exercism/java/blob/main/exercises/concept/gym-front-desk/.docs/introduction.md)): [Latest](../../../locales/es-ES/content/b9/59/60451ecc23b1cb2e7f64cbdeeb9de09214e0.md)
+- `hints.md` ([English](https://github.com/exercism/java/blob/main/exercises/concept/gym-front-desk/.docs/hints.md)): [Latest](../../../locales/es-ES/content/ad/7d/e7befb7342956fa622806a6612ff54449f8f.md)
+
 ### International Calling Connoisseur (Experto en llamadas internacionales)
 
 - `instructions.md` ([English](https://github.com/exercism/java/blob/main/exercises/concept/international-calling-connoisseur/.docs/instructions.md)): [Latest](../../../locales/es-ES/content/10/b8/2546f23ef75584a326de387fd1110e2ef1f0.md)
@@ -860,6 +866,11 @@ This page is generated from [the index](../../json/es-ES/java.json) by `scripts/
 
 - `introduction.md` ([English](https://github.com/exercism/java/blob/main/concepts/datetime/introduction.md)): [Latest](../../../locales/es-ES/content/d4/fb/d59608d695ba5f73511b3c16b220576a3cbc.md)
 - `about.md` ([English](https://github.com/exercism/java/blob/main/concepts/datetime/about.md)): [Latest](../../../locales/es-ES/content/eb/eb/1b3a3ccd6c654c89184d68090693a6ec60ad.md)
+
+### Durations and Periods (Duraciones y periodos)
+
+- `introduction.md` ([English](https://github.com/exercism/java/blob/main/concepts/durations-and-periods/introduction.md)): [Latest](../../../locales/es-ES/content/d7/7f/fc4cd8870fb0f178bfe4fb27a664cf6c5cf5.md)
+- `about.md` ([English](https://github.com/exercism/java/blob/main/concepts/durations-and-periods/about.md)): [Latest](../../../locales/es-ES/content/db/48/6cdc440dabe0195216190e231fcd005f3a41.md)
 
 ### Enums (Enumeraciones)
 

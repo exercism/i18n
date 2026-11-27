@@ -527,5 +527,9 @@
   "exercise:beauty-salon-regulars:name": "미용실 단골 손님",
   "concept:temporal-adjusters:name": "시간 조정자",
   "exercise:beauty-salon-regulars:blurb": "미용실 단골 손님들의 정기 예약을 잡아 보면서 시간 조정자를 배워요.",
-  "concept:temporal-adjusters:blurb": "Java의 `TemporalAdjuster` 인터페이스와 `TemporalAdjusters` 유틸리티 클래스를 사용해 날짜를 조정해요."
+  "concept:temporal-adjusters:blurb": "Java의 `TemporalAdjuster` 인터페이스와 `TemporalAdjusters` 유틸리티 클래스를 사용해 날짜를 조정해요.",
+  "exercise:gym-front-desk:name": "클라이밍 짐 프런트 데스크",
+  "concept:durations-and-periods:name": "Duration과 Period",
+  "exercise:gym-front-desk:blurb": "클라이밍 짐 프런트 데스크에서 회원들의 질문에 답하며 Duration과 Period에 대해 배워요.",
+  "concept:durations-and-periods:blurb": "Java의 날짜 기반 `Period` 클래스와 시간 기반 `Duration` 클래스로 시간의 양을 표현해요."
 }

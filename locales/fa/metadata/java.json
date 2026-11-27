@@ -527,5 +527,9 @@
   "exercise:beauty-salon-regulars:name": "مشتریان همیشگی سالن زیبایی",
   "concept:temporal-adjusters:name": "تنظیم‌کننده‌های زمانی",
   "exercise:beauty-salon-regulars:blurb": "با تنظیم نوبت‌های ثابت برای مشتریان همیشگی یک سالن زیبایی، با تنظیم‌کننده‌های زمانی آشنا شوید.",
-  "concept:temporal-adjusters:blurb": "با استفاده از رابط `TemporalAdjuster` و کلاس کمکی `TemporalAdjusters` در Java، تاریخ‌ها را تنظیم کنید."
+  "concept:temporal-adjusters:blurb": "با استفاده از رابط `TemporalAdjuster` و کلاس کمکی `TemporalAdjusters` در Java، تاریخ‌ها را تنظیم کنید.",
+  "exercise:gym-front-desk:name": "میز پذیرش باشگاه",
+  "concept:durations-and-periods:name": "مدت‌ها و دوره‌ها",
+  "exercise:gym-front-desk:blurb": "با پاسخ دادن به پرسش‌های اعضا در میز پذیرش یک باشگاه سنگ‌نوردی، با مدت‌ها و دوره‌ها آشنا می‌شوید.",
+  "concept:durations-and-periods:blurb": "مقدارهای زمانی را با کلاس `Period` که بر پایه‌ی تاریخ است و کلاس `Duration` که بر پایه‌ی زمان است، در Java بازنمایی کنید."
 }

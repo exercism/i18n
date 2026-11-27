@@ -527,5 +527,9 @@
   "exercise:beauty-salon-regulars:name": "Stammkunden im Beauty-Salon",
   "concept:temporal-adjusters:name": "Temporal Adjusters",
   "exercise:beauty-salon-regulars:blurb": "Lerne Temporal Adjusters kennen, indem du wiederkehrende Termine für die Stammkunden eines Beauty-Salons planst.",
-  "concept:temporal-adjusters:blurb": "Passe Daten mit der Schnittstelle `TemporalAdjuster` und der Hilfsklasse `TemporalAdjusters` von Java an."
+  "concept:temporal-adjusters:blurb": "Passe Daten mit der Schnittstelle `TemporalAdjuster` und der Hilfsklasse `TemporalAdjusters` von Java an.",
+  "exercise:gym-front-desk:name": "Empfang in der Kletterhalle",
+  "concept:durations-and-periods:name": "Zeitdauern und Zeiträume",
+  "exercise:gym-front-desk:blurb": "Lerne Zeitdauern und Zeiträume kennen, indem du am Empfang einer Kletterhalle die Fragen der Mitglieder beantwortest.",
+  "concept:durations-and-periods:blurb": "Stelle Zeitangaben mit den datumsbasierten `Period`- und den zeitbasierten `Duration`-Klassen von Java dar."
 }

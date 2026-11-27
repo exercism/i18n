@@ -527,5 +527,9 @@
   "exercise:beauty-salon-regulars:name": "Clientes frequentes do salão de beleza",
   "concept:temporal-adjusters:name": "Ajustadores temporais",
   "exercise:beauty-salon-regulars:blurb": "Aprenda sobre ajustadores temporais ao agendar horários fixos para os clientes frequentes de um salão de beleza.",
-  "concept:temporal-adjusters:blurb": "Faça ajustes de data usando a interface `TemporalAdjuster` e a classe utilitária `TemporalAdjusters` do Java."
+  "concept:temporal-adjusters:blurb": "Faça ajustes de data usando a interface `TemporalAdjuster` e a classe utilitária `TemporalAdjusters` do Java.",
+  "exercise:gym-front-desk:name": "Recepção da Academia",
+  "concept:durations-and-periods:name": "Durações e Períodos",
+  "exercise:gym-front-desk:blurb": "Aprenda sobre durações e períodos respondendo às perguntas dos frequentadores na recepção de uma academia de escalada.",
+  "concept:durations-and-periods:blurb": "Represente quantidades de tempo com as classes `Period` e `Duration` do Java, baseadas em datas e em horários, respectivamente."
 }

@@ -527,5 +527,9 @@
   "exercise:beauty-salon-regulars:name": "美容院の常連客",
   "concept:temporal-adjusters:name": "TemporalAdjusters",
   "exercise:beauty-salon-regulars:blurb": "美容院の常連客のために定期的な予約を組みながら、`TemporalAdjuster`による日付の調整を学びましょう。",
-  "concept:temporal-adjusters:blurb": "Javaの`TemporalAdjuster`インターフェースと`TemporalAdjusters`ユーティリティクラスを使って、日付の調整を行います。"
+  "concept:temporal-adjusters:blurb": "Javaの`TemporalAdjuster`インターフェースと`TemporalAdjusters`ユーティリティクラスを使って、日付の調整を行います。",
+  "exercise:gym-front-desk:name": "ジムの受付",
+  "concept:durations-and-periods:name": "期間と時間",
+  "exercise:gym-front-desk:blurb": "クライミングジムの受付で会員の質問に答えながら、期間と時間について学びましょう。",
+  "concept:durations-and-periods:blurb": "Javaの日付ベースの`Period`クラスと時間ベースの`Duration`クラスを使って、時間の長さを表します。"
 }

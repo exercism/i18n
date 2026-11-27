@@ -527,5 +527,9 @@
   "exercise:beauty-salon-regulars:name": "ब्यूटी सैलून के नियमित ग्राहक",
   "concept:temporal-adjusters:name": "टेम्पोरल एडजस्टर",
   "exercise:beauty-salon-regulars:blurb": "ब्यूटी सैलून के नियमित ग्राहकों के लिए आगे के अपॉइंटमेंट तय करते हुए टेम्पोरल एडजस्टर के बारे में सीखिए।",
-  "concept:temporal-adjusters:blurb": "Java के `TemporalAdjuster` इंटरफेस और `TemporalAdjusters` यूटिलिटी क्लास की मदद से तारीख में बदलाव कीजिए।"
+  "concept:temporal-adjusters:blurb": "Java के `TemporalAdjuster` इंटरफेस और `TemporalAdjusters` यूटिलिटी क्लास की मदद से तारीख में बदलाव कीजिए।",
+  "exercise:gym-front-desk:name": "जिम फ्रंट डेस्क",
+  "concept:durations-and-periods:name": "अवधि और अंतराल",
+  "exercise:gym-front-desk:blurb": "क्लाइम्बिंग जिम के फ्रंट डेस्क पर सदस्यों के सवालों के जवाब देकर अवधि और अंतराल के बारे में सीखिए।",
+  "concept:durations-and-periods:blurb": "समय की मात्राओं को दर्शाने के लिए Java की तारीख-आधारित `Period` क्लास और समय-आधारित `Duration` क्लास का इस्तेमाल कीजिए।"
 }

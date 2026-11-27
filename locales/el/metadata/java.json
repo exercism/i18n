@@ -527,5 +527,9 @@
   "exercise:beauty-salon-regulars:name": "Τακτικοί πελάτες κομμωτηρίου",
   "concept:temporal-adjusters:name": "Ρυθμιστές χρονικών τιμών",
   "exercise:beauty-salon-regulars:blurb": "Μάθε για τους ρυθμιστές χρονικών τιμών κλείνοντας πάγια ραντεβού για τους τακτικούς πελάτες ενός κομμωτηρίου.",
-  "concept:temporal-adjusters:blurb": "Κάνε προσαρμογές ημερομηνιών χρησιμοποιώντας τη διεπαφή `TemporalAdjuster` και τη βοηθητική κλάση `TemporalAdjusters` της Java."
+  "concept:temporal-adjusters:blurb": "Κάνε προσαρμογές ημερομηνιών χρησιμοποιώντας τη διεπαφή `TemporalAdjuster` και τη βοηθητική κλάση `TemporalAdjusters` της Java.",
+  "exercise:gym-front-desk:name": "Ρεσεψιόν γυμναστηρίου",
+  "concept:durations-and-periods:name": "Διάρκειες και Περίοδοι",
+  "exercise:gym-front-desk:blurb": "Μάθε για τις διάρκειες και τις περιόδους απαντώντας στις ερωτήσεις των μελών στη ρεσεψιόν ενός γυμναστηρίου αναρρίχησης.",
+  "concept:durations-and-periods:blurb": "Αναπαράστησε ποσά χρόνου με τις κλάσεις `Period` και `Duration` της Java, για ημερομηνίες και ώρες αντίστοιχα."
 }

@@ -527,5 +527,9 @@
   "exercise:beauty-salon-regulars:name": "Szépségszalon törzsvendégei",
   "concept:temporal-adjusters:name": "Temporal adjusterek",
   "exercise:beauty-salon-regulars:blurb": "Ismerd meg a temporal adjustereket azon keresztül, hogy rendszeres időpontokat ütemezel be egy szépségszalon törzsvendégeinek.",
-  "concept:temporal-adjusters:blurb": "Végezz dátumkorrekciókat a Java `TemporalAdjuster` interfészével és a `TemporalAdjusters` segédosztállyal."
+  "concept:temporal-adjusters:blurb": "Végezz dátumkorrekciókat a Java `TemporalAdjuster` interfészével és a `TemporalAdjusters` segédosztállyal.",
+  "exercise:gym-front-desk:name": "Recepció a mászóteremben",
+  "concept:durations-and-periods:name": "Időtartamok és periódusok",
+  "exercise:gym-front-desk:blurb": "Ismerd meg az időtartamokat és a periódusokat úgy, hogy egy mászóterem recepcióján a tagok kérdéseire válaszolsz.",
+  "concept:durations-and-periods:blurb": "Ábrázolj időmennyiségeket a Java dátumalapú `Period` és időalapú `Duration` osztályaival."
 }

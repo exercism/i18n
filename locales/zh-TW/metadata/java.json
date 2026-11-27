@@ -527,5 +527,9 @@
   "exercise:beauty-salon-regulars:name": "美容院常客",
   "concept:temporal-adjusters:name": "Temporal Adjusters",
   "exercise:beauty-salon-regulars:blurb": "為美容院的常客安排固定預約，從中認識 temporal adjusters 的用法。",
-  "concept:temporal-adjusters:blurb": "使用 Java 的`TemporalAdjuster`介面和`TemporalAdjusters`工具類別來調整日期。"
+  "concept:temporal-adjusters:blurb": "使用 Java 的`TemporalAdjuster`介面和`TemporalAdjusters`工具類別來調整日期。",
+  "exercise:gym-front-desk:name": "健身房櫃檯",
+  "concept:durations-and-periods:name": "Duration 與 Period",
+  "exercise:gym-front-desk:blurb": "在攀岩館櫃檯回答會員的問題，了解 Duration 與 Period。",
+  "concept:durations-and-periods:blurb": "用 Java 以日期為基礎的`Period`類別和以時間為基礎的`Duration`類別來表示時間長度。"
 }
