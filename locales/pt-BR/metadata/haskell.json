@@ -382,5 +382,7 @@
   "exercise:pronounce:source": "Uma variação do JavaRanch CattleDrive, Tarefa 4",
   "exercise:binary-chop:name": "Busca binária",
   "exercise:binary-chop:blurb": "Implemente um algoritmo de busca binária.",
-  "exercise:binary-chop:source": "Wikipedia"
+  "exercise:binary-chop:source": "Wikipedia",
+  "exercise:freelancer-rates:name": "Tarifas de freelancer",
+  "exercise:freelancer-rates:blurb": "Aprenda sobre números inteiros e números de ponto flutuante ajudando um freelancer a se comunicar com um gerente de projetos sobre cobrança."
 }

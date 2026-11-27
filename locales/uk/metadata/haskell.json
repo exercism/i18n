@@ -384,5 +384,7 @@
   "exercise:pronounce:source": "Варіація на тему JavaRanch CattleDrive, завдання 4",
   "exercise:binary-chop:name": "Двійковий пошук",
   "exercise:binary-chop:blurb": "Реалізуйте алгоритм двійкового пошуку.",
-  "exercise:binary-chop:source": "Wikipedia"
+  "exercise:binary-chop:source": "Wikipedia",
+  "exercise:freelancer-rates:name": "Ставки фрилансера",
+  "exercise:freelancer-rates:blurb": "Вивчаємо цілі числа та числа з плаваючою комою, допомагаючи фрилансеру порозумітися з менеджером проєкту щодо оплати."
 }

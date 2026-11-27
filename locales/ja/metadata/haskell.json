@@ -382,5 +382,7 @@
   "exercise:pronounce:source": "JavaRanch CattleDriveのAssignment 4をアレンジしたもの",
   "exercise:binary-chop:name": "二分探索",
   "exercise:binary-chop:blurb": "二分探索アルゴリズムを実装してください。",
-  "exercise:binary-chop:source": "Wikipedia"
+  "exercise:binary-chop:source": "Wikipedia",
+  "exercise:freelancer-rates:name": "フリーランスの料金",
+  "exercise:freelancer-rates:blurb": "フリーランサーがプロジェクトマネージャーと請求についてやり取りするのを手伝いながら、整数と浮動小数点数について学びます。"
 }

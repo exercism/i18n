@@ -684,6 +684,12 @@ This page is generated from [the index](../../json/hu/haskell.json) by `scripts/
 
 ## Concept exercises
 
+### Freelancer Rates (Szabadúszói díjak)
+
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/concept/freelancer-rates/.docs/instructions.md)): [Latest](../../../locales/hu/content/6b/d3/ed73df26baad03a65c0f34412f8294b4f09f.md)
+- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/concept/freelancer-rates/.docs/introduction.md)): [Latest](../../../locales/hu/content/8c/5e/44986ae8f7281ded02e7052c6606a19b1b53.md)
+- `hints.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/concept/freelancer-rates/.docs/hints.md)): [Latest](../../../locales/hu/content/f8/6d/948557060353e4febfafb8745834098c1913.md)
+
 ### Guessing Game (Kitalálós játék)
 
 - `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/concept/guessing-game/.docs/instructions.md)): [Latest](../../../locales/hu/content/61/b4/5ec4b107593520625a6acedecc434fc21531.md)
@@ -704,12 +710,12 @@ This page is generated from [the index](../../json/hu/haskell.json) by `scripts/
 
 ### Lucian's Luscious Lasagna (Lucian ínycsiklandó lasagnéja)
 
-- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/concept/lucians-luscious-lasagna/.docs/instructions.md)): [Latest](../../../locales/hu/content/41/a7/5b9b7f74386b8699f03139fd4ff975dce146.md)
-  - [`1e963a8d4f`](../../../locales/hu/content/1e/96/3a8d4f0296b3d3aed3c9e8f710898e195c6f.md)
-- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/concept/lucians-luscious-lasagna/.docs/introduction.md)): [Latest](../../../locales/hu/content/db/60/18f971ab89a5d6ab66d732f888d02d6b3179.md)
-  - [`96807773f9`](../../../locales/hu/content/96/80/7773f99ea2762586bbd937db592a66a048d0.md)
-- `hints.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/concept/lucians-luscious-lasagna/.docs/hints.md)): [Latest](../../../locales/hu/content/d2/83/86dd09ca3fb07c539784dc34e19be4c10c56.md)
-  - [`3e2c107b80`](../../../locales/hu/content/3e/2c/107b80dc328f9d1ebf85c9a2a58d3047fcc6.md)
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/concept/lucians-luscious-lasagna/.docs/instructions.md)): [Latest](../../../locales/hu/content/1e/96/3a8d4f0296b3d3aed3c9e8f710898e195c6f.md)
+  - [`41a75b9b7f`](../../../locales/hu/content/41/a7/5b9b7f74386b8699f03139fd4ff975dce146.md)
+- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/concept/lucians-luscious-lasagna/.docs/introduction.md)): [Latest](../../../locales/hu/content/96/80/7773f99ea2762586bbd937db592a66a048d0.md)
+  - [`db6018f971`](../../../locales/hu/content/db/60/18f971ab89a5d6ab66d732f888d02d6b3179.md)
+- `hints.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/concept/lucians-luscious-lasagna/.docs/hints.md)): [Latest](../../../locales/hu/content/3e/2c/107b80dc328f9d1ebf85c9a2a58d3047fcc6.md)
+  - [`d28386dd09`](../../../locales/hu/content/d2/83/86dd09ca3fb07c539784dc34e19be4c10c56.md)
 
 ### Pac-Man Rules (Pac-Man szabályai)
 
@@ -739,10 +745,10 @@ This page is generated from [the index](../../json/hu/haskell.json) by `scripts/
 
 ### Basics (Alapok)
 
-- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/basics/introduction.md)): [Latest](../../../locales/hu/content/db/60/18f971ab89a5d6ab66d732f888d02d6b3179.md)
-  - [`1fa46a7188`](../../../locales/hu/content/1f/a4/6a7188627368f90dff5b074563e4c1a651bd.md)
-- `about.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/basics/about.md)): [Latest](../../../locales/hu/content/db/60/18f971ab89a5d6ab66d732f888d02d6b3179.md)
-  - [`1fa46a7188`](../../../locales/hu/content/1f/a4/6a7188627368f90dff5b074563e4c1a651bd.md)
+- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/basics/introduction.md)): [Latest](../../../locales/hu/content/1f/a4/6a7188627368f90dff5b074563e4c1a651bd.md)
+  - [`db6018f971`](../../../locales/hu/content/db/60/18f971ab89a5d6ab66d732f888d02d6b3179.md)
+- `about.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/basics/about.md)): [Latest](../../../locales/hu/content/1f/a4/6a7188627368f90dff5b074563e4c1a651bd.md)
+  - [`db6018f971`](../../../locales/hu/content/db/60/18f971ab89a5d6ab66d732f888d02d6b3179.md)
 
 ### Booleans (Booleanok)
 
@@ -761,9 +767,11 @@ This page is generated from [the index](../../json/hu/haskell.json) by `scripts/
 
 ### Numbers (Számok)
 
-- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/numbers/introduction.md)): [Latest](../../../locales/hu/content/94/bf/a9373bdaa686e414828917ade871e0f77ae8.md)
+- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/numbers/introduction.md)): [Latest](../../../locales/hu/content/96/78/e70cf777a77214b72f5865b886a20fc867a2.md)
+  - [`94bfa9373b`](../../../locales/hu/content/94/bf/a9373bdaa686e414828917ade871e0f77ae8.md)
   - [`87f92aff41`](../../../locales/hu/content/87/f9/2aff41910ccb539f4435c4df3cceb560751c.md)
-- `about.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/numbers/about.md)): [Latest](../../../locales/hu/content/19/fb/2fb09f922776714c2476719261ff3485b9c1.md)
+- `about.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/numbers/about.md)): [Latest](../../../locales/hu/content/6e/db/53a4d7eeb22551f1b53aff0079664bbeb8b2.md)
+  - [`19fb2fb09f`](../../../locales/hu/content/19/fb/2fb09f922776714c2476719261ff3485b9c1.md)
   - [`61b97be477`](../../../locales/hu/content/61/b9/7be477f6f11d172233a6d0d5c1016f853e6d.md)
 
 ### Pattern Matching (Mintailesztés)

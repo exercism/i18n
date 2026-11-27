@@ -382,5 +382,7 @@
   "exercise:pronounce:source": "JavaRanch CattleDrive, Assignment 4 का एक रूपांतर",
   "exercise:binary-chop:name": "बाइनरी सर्च",
   "exercise:binary-chop:blurb": "बाइनरी सर्च एल्गोरिदम लागू कीजिए।",
-  "exercise:binary-chop:source": "Wikipedia"
+  "exercise:binary-chop:source": "Wikipedia",
+  "exercise:freelancer-rates:name": "फ्रीलांसर दरें",
+  "exercise:freelancer-rates:blurb": "बिलिंग के बारे में एक फ्रीलांसर की प्रोजेक्ट मैनेजर से बात करने में मदद करके पूर्णांक और दशमलव संख्याओं के बारे में सीखिए।"
 }

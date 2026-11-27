@@ -382,5 +382,7 @@
   "exercise:pronounce:source": "Una variazione sulla JavaRanch CattleDrive, Assignment 4",
   "exercise:binary-chop:name": "Ricerca binaria",
   "exercise:binary-chop:blurb": "Implementa un algoritmo di ricerca binaria.",
-  "exercise:binary-chop:source": "Wikipedia"
+  "exercise:binary-chop:source": "Wikipedia",
+  "exercise:freelancer-rates:name": "Tariffe da freelance",
+  "exercise:freelancer-rates:blurb": "Impara i numeri interi e i numeri in virgola mobile aiutando un freelance a comunicare con un project manager sulla fatturazione."
 }

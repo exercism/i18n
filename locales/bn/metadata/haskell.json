@@ -382,5 +382,7 @@
   "exercise:pronounce:source": "JavaRanch CattleDrive, Assignment 4-এর একটি ভিন্ন রূপ",
   "exercise:binary-chop:name": "বাইনারি সার্চ",
   "exercise:binary-chop:blurb": "একটি বাইনারি সার্চ অ্যালগরিদম ইমপ্লিমেন্ট করুন।",
-  "exercise:binary-chop:source": "Wikipedia"
+  "exercise:binary-chop:source": "Wikipedia",
+  "exercise:freelancer-rates:name": "ফ্রিল্যান্সার রেট",
+  "exercise:freelancer-rates:blurb": "বিলিং নিয়ে একজন ফ্রিল্যান্সারকে প্রজেক্ট ম্যানেজারের সাথে যোগাযোগ করতে সাহায্য করে ইন্টিজার ও ফ্লোটিং পয়েন্ট সংখ্যা সম্পর্কে জানুন।"
 }

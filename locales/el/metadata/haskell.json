@@ -384,5 +384,7 @@
   "exercise:pronounce:source": "Μια παραλλαγή του JavaRanch CattleDrive, Εργασία 4",
   "exercise:binary-chop:name": "Δυαδική Αναζήτηση",
   "exercise:binary-chop:blurb": "Υλοποίησε έναν αλγόριθμο δυαδικής αναζήτησης.",
-  "exercise:binary-chop:source": "Wikipedia"
+  "exercise:binary-chop:source": "Wikipedia",
+  "exercise:freelancer-rates:name": "Χρεώσεις ελεύθερου επαγγελματία",
+  "exercise:freelancer-rates:blurb": "Μάθε για τους ακέραιους και τους αριθμούς κινητής υποδιαστολής βοηθώντας έναν ελεύθερο επαγγελματία να συνεννοηθεί με έναν διαχειριστή έργου για την τιμολόγηση."
 }

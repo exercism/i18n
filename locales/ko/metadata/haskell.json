@@ -382,5 +382,7 @@
   "exercise:pronounce:source": "JavaRanch CattleDrive, Assignment 4를 변형한 문제예요.",
   "exercise:binary-chop:name": "이진 탐색",
   "exercise:binary-chop:blurb": "이진 탐색 알고리즘을 구현해요.",
-  "exercise:binary-chop:source": "Wikipedia"
+  "exercise:binary-chop:source": "Wikipedia",
+  "exercise:freelancer-rates:name": "프리랜서 요율",
+  "exercise:freelancer-rates:blurb": "프리랜서가 프로젝트 매니저와 요금 청구에 대해 소통하도록 도우면서 정수와 실수에 대해 배워요."
 }

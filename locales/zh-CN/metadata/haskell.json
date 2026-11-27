@@ -382,5 +382,7 @@
   "exercise:pronounce:source": "改编自 JavaRanch CattleDrive 的第 4 个作业",
   "exercise:binary-chop:name": "二分查找",
   "exercise:binary-chop:blurb": "实现二分查找算法。",
-  "exercise:binary-chop:source": "Wikipedia"
+  "exercise:binary-chop:source": "Wikipedia",
+  "exercise:freelancer-rates:name": "自由职业者费率",
+  "exercise:freelancer-rates:blurb": "通过帮助一位自由职业者就账单问题与项目经理沟通，学习整数和浮点数。"
 }

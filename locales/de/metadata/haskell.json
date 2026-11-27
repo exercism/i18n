@@ -382,5 +382,7 @@
   "exercise:pronounce:source": "Eine Variante des JavaRanch CattleDrive, Assignment 4",
   "exercise:binary-chop:name": "Binäre Suche",
   "exercise:binary-chop:blurb": "Implementiere einen Algorithmus für die binäre Suche.",
-  "exercise:binary-chop:source": "Wikipedia"
+  "exercise:binary-chop:source": "Wikipedia",
+  "exercise:freelancer-rates:name": "Freelancer-Sätze",
+  "exercise:freelancer-rates:blurb": "Lerne Ganzzahlen und Gleitkommazahlen kennen, indem du einem Freelancer bei der Abrechnung mit einem Projektmanager hilfst."
 }

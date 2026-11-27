@@ -382,5 +382,7 @@
   "exercise:pronounce:source": "改編自 JavaRanch CattleDrive 的作業 4",
   "exercise:binary-chop:name": "二分搜尋",
   "exercise:binary-chop:blurb": "實作二分搜尋演算法。",
-  "exercise:binary-chop:source": "Wikipedia"
+  "exercise:binary-chop:source": "Wikipedia",
+  "exercise:freelancer-rates:name": "自由工作者費率",
+  "exercise:freelancer-rates:blurb": "透過協助自由工作者與專案經理溝通請款事宜，學習整數與浮點數。"
 }

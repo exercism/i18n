@@ -384,5 +384,7 @@
   "exercise:pronounce:source": "A JavaRanch CattleDrive 4. feladatának egy változata",
   "exercise:binary-chop:name": "Bináris keresés",
   "exercise:binary-chop:blurb": "Valósítsd meg a bináris keresés algoritmusát.",
-  "exercise:binary-chop:source": "Wikipedia"
+  "exercise:binary-chop:source": "Wikipedia",
+  "exercise:freelancer-rates:name": "Szabadúszói díjak",
+  "exercise:freelancer-rates:blurb": "Ismerd meg az egész számokat és a lebegőpontos számokat, miközben segítesz egy szabadúszónak a projektmenedzserrel folytatott számlázási kommunikációban."
 }

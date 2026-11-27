@@ -382,5 +382,7 @@
   "exercise:pronounce:source": "تنويع على JavaRanch CattleDrive، Assignment 4",
   "exercise:binary-chop:name": "البحث الثنائي",
   "exercise:binary-chop:blurb": "نفّذ خوارزمية بحث ثنائي.",
-  "exercise:binary-chop:source": "ويكيبيديا"
+  "exercise:binary-chop:source": "ويكيبيديا",
+  "exercise:freelancer-rates:name": "أسعار المستقلّين",
+  "exercise:freelancer-rates:blurb": "تعلّم عن الأعداد الصحيحة والأعداد العشرية من خلال مساعدة مستقل على التواصل مع مدير مشروع بشأن الفوترة."
 }
