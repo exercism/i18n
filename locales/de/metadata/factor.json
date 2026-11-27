@@ -544,5 +544,9 @@
   "exercise:boardwalk-games:blurb": "Lerne Zufall in Factor kennen, indem du die Glücksspiele in einer Spielhalle an der Strandpromenade betreibst.",
   "exercise:ferry-schedule:blurb": "Lerne das calendar-Vokabular in Factor kennen, indem du den Fahrplan einer Inselfähre pflegst.",
   "exercise:bering-bearings:blurb": "Trage Peilungen, die in drei verschiedenen Formen gemeldet werden, mit generischen Wörtern und klassenspezifischen Methoden in eine einzige Karte ein.",
-  "exercise:lighthouse-logbook:blurb": "Verfolge einzigartige Schiffsichtungen und die Erreichbarkeit über Signalrelais mit veränderlichen Hash-Sets und einer BFS nach Lehrbuch."
+  "exercise:lighthouse-logbook:blurb": "Verfolge einzigartige Schiffsichtungen und die Erreichbarkeit über Signalrelais mit veränderlichen Hash-Sets und einer BFS nach Lehrbuch.",
+  "exercise:cricket-oval:name": "Cricket-Oval",
+  "concept:math-functions:name": "Mathematische Funktionen",
+  "exercise:cricket-oval:blurb": "Lerne Quadratwurzeln, Winkel, e^ und log kennen, indem du ein Cricket-Oval ausmisst.",
+  "concept:math-functions:blurb": "math.functions und math.constants liefern Quadratwurzeln, Trigonometrie, Exponentialfunktionen und Logarithmen; Winkel werden im Bogenmaß angegeben."
 }

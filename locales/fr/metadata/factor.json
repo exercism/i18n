@@ -544,5 +544,9 @@
   "concept:assocs:blurb": "Les tables de hachage (H{ }) et les autres collections associatives partagent le protocole assocs : at, set-at, change-at, inc-at.",
   "concept:heaps:blurb": "Le vocabulaire heaps est une file de priorité : pousse des valeurs avec leur clé et retire-les en commençant par la plus petite clé.",
   "concept:quotations-call:blurb": "call exécute une quotation ; déclare un effet de pile avec call( a b -- c ) quand il ne peut pas être déduit.",
-  "concept:recursion:blurb": "Une définition introduite par : peut s'appeler elle-même ; if-empty et unclip sont la forme canonique de la récursion sur les séquences."
+  "concept:recursion:blurb": "Une définition introduite par : peut s'appeler elle-même ; if-empty et unclip sont la forme canonique de la récursion sur les séquences.",
+  "exercise:cricket-oval:name": "Ovale de cricket",
+  "concept:math-functions:name": "Fonctions mathématiques",
+  "exercise:cricket-oval:blurb": "Découvre les racines carrées, les angles, e^ et log en prenant les mesures d'un ovale de cricket.",
+  "concept:math-functions:blurb": "math.functions et math.constants fournissent les fonctions de racine carrée, de trigonométrie, d'exponentielle et de logarithme ; les angles sont en radians."
 }

@@ -595,8 +595,10 @@ This page is generated from [the index](../../json/fr/factor.json) by `scripts/b
 ### Bering Bearings (Relèvements de Béring)
 
 - `instructions.md` ([English](https://github.com/exercism/factor/blob/main/exercises/concept/bering-bearings/.docs/instructions.md)): [Latest](../../../locales/fr/content/11/d8/bef22fd74b297c21de0bf86a7fb2799debe6.md)
-- `introduction.md` ([English](https://github.com/exercism/factor/blob/main/exercises/concept/bering-bearings/.docs/introduction.md)): [Latest](../../../locales/fr/content/57/3d/ae60c95f0845a2cbee9cd41799623229bb6b.md)
-- `hints.md` ([English](https://github.com/exercism/factor/blob/main/exercises/concept/bering-bearings/.docs/hints.md)): [Latest](../../../locales/fr/content/f1/4d/fd83a08b5d9454f53a7fb2e62cc786056d98.md)
+- `introduction.md` ([English](https://github.com/exercism/factor/blob/main/exercises/concept/bering-bearings/.docs/introduction.md)): [Latest](../../../locales/fr/content/81/e1/883c2affc9904026bbe3b566b89dd66e7921.md)
+  - [`573dae60c9`](../../../locales/fr/content/57/3d/ae60c95f0845a2cbee9cd41799623229bb6b.md)
+- `hints.md` ([English](https://github.com/exercism/factor/blob/main/exercises/concept/bering-bearings/.docs/hints.md)): [Latest](../../../locales/fr/content/b6/fc/452065d99850e9511b68a0eefbde0dec349f.md)
+  - [`f14dfd83a0`](../../../locales/fr/content/f1/4d/fd83a08b5d9454f53a7fb2e62cc786056d98.md)
 
 ### Boardwalk Games (Jeux de la promenade)
 
@@ -657,6 +659,12 @@ This page is generated from [the index](../../json/fr/factor.json) by `scripts/b
 - `instructions.md` ([English](https://github.com/exercism/factor/blob/main/exercises/concept/coordinate-choreography/.docs/instructions.md)): [Latest](../../../locales/fr/content/bb/7a/f4061081bf8852198482d5717f7cb3aa27d4.md)
 - `introduction.md` ([English](https://github.com/exercism/factor/blob/main/exercises/concept/coordinate-choreography/.docs/introduction.md)): [Latest](../../../locales/fr/content/35/60/4d19ae6d35509f3dfff8b24c32d72f069389.md)
 - `hints.md` ([English](https://github.com/exercism/factor/blob/main/exercises/concept/coordinate-choreography/.docs/hints.md)): [Latest](../../../locales/fr/content/05/3a/a14da14124479763bcde164bcc9c8337d45d.md)
+
+### Cricket Oval (Ovale de cricket)
+
+- `instructions.md` ([English](https://github.com/exercism/factor/blob/main/exercises/concept/cricket-oval/.docs/instructions.md)): [Latest](../../../locales/fr/content/0a/81/95a293b9976185bd60d3d9f9552aef6d52d8.md)
+- `introduction.md` ([English](https://github.com/exercism/factor/blob/main/exercises/concept/cricket-oval/.docs/introduction.md)): [Latest](../../../locales/fr/content/ad/2e/f3da1db64904877f9e4dae5fc92bcc393617.md)
+- `hints.md` ([English](https://github.com/exercism/factor/blob/main/exercises/concept/cricket-oval/.docs/hints.md)): [Latest](../../../locales/fr/content/21/60/cfeccaccb3749eb78990637b5ea71490d4d5.md)
 
 ### Currency Conversion (Conversion de devises)
 
@@ -987,6 +995,11 @@ This page is generated from [the index](../../json/fr/factor.json) by `scripts/b
 
 - `introduction.md` ([English](https://github.com/exercism/factor/blob/main/concepts/macros/introduction.md)): [Latest](../../../locales/fr/content/14/83/161a29e0aee53ebda3e61822d40be53442d4.md)
 - `about.md` ([English](https://github.com/exercism/factor/blob/main/concepts/macros/about.md)): [Latest](../../../locales/fr/content/bc/2d/365df6698ed96e6b86e8bf8638d634e606b6.md)
+
+### Math Functions (Fonctions mathématiques)
+
+- `introduction.md` ([English](https://github.com/exercism/factor/blob/main/concepts/math-functions/introduction.md)): [Latest](../../../locales/fr/content/d9/f7/8ca478f0592a291f699576de00b32b6f3230.md)
+- `about.md` ([English](https://github.com/exercism/factor/blob/main/concepts/math-functions/about.md)): [Latest](../../../locales/fr/content/bb/7b/e4f8e4b844f94f31944929174cb2d454b654.md)
 
 ### Mutation
 

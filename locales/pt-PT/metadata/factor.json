@@ -544,5 +544,9 @@
   "exercise:boardwalk-games:blurb": "Aprende sobre aleatoriedade em Factor ao gerir os jogos de azar de uma sala de jogos à beira-mar.",
   "exercise:ferry-schedule:blurb": "Aprende sobre o vocabulário de calendário em Factor ao manter o horário de um ferry de uma ilha.",
   "exercise:bering-bearings:blurb": "Traça rumos reportados em três formas diferentes num único gráfico com palavras genéricas e métodos por classe.",
-  "exercise:lighthouse-logbook:blurb": "Regista avistamentos únicos de embarcações e a acessibilidade dos relés de sinal com conjuntos de hash mutáveis e uma BFS de manual."
+  "exercise:lighthouse-logbook:blurb": "Regista avistamentos únicos de embarcações e a acessibilidade dos relés de sinal com conjuntos de hash mutáveis e uma BFS de manual.",
+  "exercise:cricket-oval:name": "Oval de críquete",
+  "concept:math-functions:name": "Funções matemáticas",
+  "exercise:cricket-oval:blurb": "Aprende sobre raízes quadradas, ângulos, e^ e log ao medir um oval de críquete.",
+  "concept:math-functions:blurb": "math.functions e math.constants disponibilizam raízes quadradas, trigonometria, exponenciais e logaritmos; os ângulos são medidos em radianos."
 }

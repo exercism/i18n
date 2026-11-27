@@ -544,5 +544,9 @@
   "exercise:boardwalk-games:blurb": "透過在海濱木板路的遊樂場營運各種機率遊戲，學習 Factor 中的隨機性。",
   "exercise:ferry-schedule:blurb": "透過維護離島渡輪的時刻表，學習 Factor 的 calendar 詞彙。",
   "exercise:bering-bearings:blurb": "用泛型詞與每個類別專屬的方法，把以三種不同形式回報的方位標繪在同一張海圖上。",
-  "exercise:lighthouse-logbook:blurb": "用可變的雜湊集合與教科書式的 BFS，追蹤不重複的船隻目擊紀錄與訊號中繼的可達性。"
+  "exercise:lighthouse-logbook:blurb": "用可變的雜湊集合與教科書式的 BFS，追蹤不重複的船隻目擊紀錄與訊號中繼的可達性。",
+  "exercise:cricket-oval:name": "板球橢圓球場",
+  "concept:math-functions:name": "數學函式",
+  "exercise:cricket-oval:blurb": "透過測量板球橢圓球場，學習平方根、角度、e^ 和對數。",
+  "concept:math-functions:blurb": "math.functions 和 math.constants 提供平方根、三角函式、指數和對數；角度以弧度為單位。"
 }

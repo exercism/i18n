@@ -544,5 +544,9 @@
   "concept:heaps:blurb": "heaps ভোকাবুলারি একটি প্রায়োরিটি কিউ: কীযুক্ত মান পুশ করুন এবং সবচেয়ে ছোট কী আগে এমনভাবে পপ করুন।",
   "concept:quotations-call:blurb": "call একটি কোোটেশন রান করে; স্ট্যাক ইফেক্ট অনুমান করা না গেলে call( a b -- c ) দিয়ে ডিক্লেয়ার করুন।",
   "concept:recursion:blurb": "একটি : ডেফিনিশন নিজেকে কল করতে পারে; if-empty ও unclip হল সিকোয়েন্স-রিকার্সনের ক্যানোনিকাল রূপ।",
-  "concept:case:blurb": "combinators-এর case একটি মানের উপর { value [ body ] } ক্লজের অ্যালিস্টের মাধ্যমে ডিসপ্যাচ করে।"
+  "concept:case:blurb": "combinators-এর case একটি মানের উপর { value [ body ] } ক্লজের অ্যালিস্টের মাধ্যমে ডিসপ্যাচ করে।",
+  "exercise:cricket-oval:name": "ক্রিকেট ওভাল",
+  "concept:math-functions:name": "গণিত ফাংশন",
+  "exercise:cricket-oval:blurb": "একটি ক্রিকেট ওভাল মেপে বর্গমূল, কোণ, e^ ও লগ সম্পর্কে শিখুন।",
+  "concept:math-functions:blurb": "math.functions ও math.constants বর্গমূল, ত্রিকোণমিতি, সূচকীয় রাশি ও লগারিদম প্রদান করে; কোণগুলো রেডিয়ানে থাকে।"
 }

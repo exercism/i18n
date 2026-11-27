@@ -544,5 +544,9 @@
   "concept:concurrency:name": "Concurrencia",
   "concept:wire-format:name": "Formato de transmisión",
   "concept:subclasses:name": "Subclases",
-  "concept:destructors:name": "Destructores"
+  "concept:destructors:name": "Destructores",
+  "exercise:cricket-oval:name": "Óvalo de críquet",
+  "concept:math-functions:name": "Funciones matemáticas",
+  "exercise:cricket-oval:blurb": "Aprende sobre raíces cuadradas, ángulos, e^ y log mientras mides un óvalo de críquet.",
+  "concept:math-functions:blurb": "math.functions y math.constants proporcionan raíces cuadradas, trigonometría, exponenciales y logaritmos; los ángulos están en radianes."
 }

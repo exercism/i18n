@@ -544,5 +544,9 @@
   "doc:tests:title": "Factor ट्रैक पर टेस्ट चलाना",
   "doc:tests:blurb": "Exercism पर अपने Factor अभ्यासों को टेस्ट करना सीखिए",
   "doc:resources:title": "Factor के उपयोगी संसाधन",
-  "doc:resources:blurb": "Factor में महारत हासिल करने में आपकी मदद के लिए उपयोगी संसाधनों का संग्रह"
+  "doc:resources:blurb": "Factor में महारत हासिल करने में आपकी मदद के लिए उपयोगी संसाधनों का संग्रह",
+  "exercise:cricket-oval:name": "अंडाकार क्रिकेट मैदान",
+  "concept:math-functions:name": "गणित के फंक्शन",
+  "exercise:cricket-oval:blurb": "क्रिकेट के अंडाकार मैदान को नापकर वर्गमूल, कोण, e^ और log के बारे में सीखिए।",
+  "concept:math-functions:blurb": "math.functions और math.constants वर्गमूल, त्रिकोणमिति, घातांक और लघुगणक देते हैं; कोण रेडियन में होते हैं।"
 }

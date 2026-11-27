@@ -544,5 +544,9 @@
   "exercise:boardwalk-games:blurb": "Ismerd meg a véletlenszerűséget a Factorban, miközben egy tengerparti móló játéktermében működteted a szerencsejátékokat.",
   "exercise:ferry-schedule:blurb": "Ismerd meg a calendar szótárat a Factorban, miközben egy szigeti komp menetrendjét vezeted.",
   "exercise:bering-bearings:blurb": "Rajzolj fel három különböző formában jelentett irányszögeket egyetlen térképre generikus szavakkal és osztályonkénti metódusokkal.",
-  "exercise:lighthouse-logbook:blurb": "Kövesd nyomon az egyedi hajóészleléseket és a jelátjátszó elérhetőségét módosítható hash-setekkel és egy tankönyvi BFS-sel."
+  "exercise:lighthouse-logbook:blurb": "Kövesd nyomon az egyedi hajóészleléseket és a jelátjátszó elérhetőségét módosítható hash-setekkel és egy tankönyvi BFS-sel.",
+  "exercise:cricket-oval:name": "Krikettpálya",
+  "concept:math-functions:name": "Matematikai függvények",
+  "exercise:cricket-oval:blurb": "Négyzetgyökökkel, szögekkel, az e^ hatvánnyal és a logaritmussal ismerkedhetsz meg, miközben felmérsz egy krikettpályát.",
+  "concept:math-functions:blurb": "A math.functions és a math.constants modul négyzetgyököket, trigonometriát, exponenciálisokat és logaritmusokat biztosít; a szögek radiánban értendők."
 }

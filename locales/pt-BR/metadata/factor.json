@@ -544,5 +544,9 @@
   "concept:concurrency:name": "Concorrência",
   "concept:wire-format:name": "Formato de Transmissão",
   "concept:subclasses:name": "Subclasses",
-  "concept:destructors:name": "Destrutores"
+  "concept:destructors:name": "Destrutores",
+  "exercise:cricket-oval:name": "Oval de críquete",
+  "concept:math-functions:name": "Funções matemáticas",
+  "exercise:cricket-oval:blurb": "Aprenda sobre raízes quadradas, ângulos, e^ e log medindo um oval de críquete.",
+  "concept:math-functions:blurb": "math.functions e math.constants fornecem raízes quadradas, trigonometria, exponenciais e logaritmos; os ângulos estão em radianos."
 }

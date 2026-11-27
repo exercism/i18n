@@ -544,5 +544,9 @@
   "exercise:boardwalk-games:blurb": "海辺のボードウォークのゲームコーナーで運任せのゲームを運営しながら、Factorの乱数について学びます。",
   "exercise:ferry-schedule:blurb": "島のフェリーの時刻表を管理しながら、Factorのカレンダーボキャブラリについて学びます。",
   "exercise:bering-bearings:blurb": "3つの異なる形式で報告された方位を、ジェネリックワードとクラスごとのメソッドを使って1つの海図にプロットします。",
-  "exercise:lighthouse-logbook:blurb": "書き換え可能なハッシュセットと教科書どおりのBFSを使って、重複のない船の目撃情報と信号中継の到達可能性を追跡します。"
+  "exercise:lighthouse-logbook:blurb": "書き換え可能なハッシュセットと教科書どおりのBFSを使って、重複のない船の目撃情報と信号中継の到達可能性を追跡します。",
+  "exercise:cricket-oval:name": "クリケットの楕円",
+  "concept:math-functions:name": "数学関数",
+  "exercise:cricket-oval:blurb": "クリケットの楕円形を測って、平方根、角度、`e^`、`log`について学びましょう。",
+  "concept:math-functions:blurb": "`math.functions`と`math.constants`を使うと、平方根、三角関数、指数関数、対数関数が利用できます。角度はラジアン単位です。"
 }

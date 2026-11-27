@@ -544,5 +544,9 @@
   "concept:heaps:blurb": "مفردات heaps هي طابور أولوية: ادفع قيمًا بمفاتيح وانزعها بدءًا من أصغر مفتاح.",
   "concept:quotations-call:blurb": "تشغّل call اقتباسًا؛ وأعلن أثر المكدّس بـ call( a b -- c ) عندما يتعذّر استنتاجه.",
   "concept:recursion:blurb": "يمكن لتعريف : أن ينادي نفسه؛ وتُعدّ if-empty وunclip الشكل القياسي للعودية على المتتاليات.",
-  "concept:case:blurb": "توزّع case في combinators على قيمة عبر قائمة ترابطية من بنود { value [ body ] }."
+  "concept:case:blurb": "توزّع case في combinators على قيمة عبر قائمة ترابطية من بنود { value [ body ] }.",
+  "exercise:cricket-oval:name": "ملعب الكريكيت البيضاوي",
+  "concept:math-functions:name": "دوال الرياضيات",
+  "exercise:cricket-oval:blurb": "تعرّف على الجذور التربيعية والزوايا و`e^` واللوغاريتم من خلال قياس ملعب كريكيت بيضاوي.",
+  "concept:math-functions:blurb": "توفّر `math.functions` و`math.constants` الجذور التربيعية وحساب المثلثات والدوال الأسية واللوغاريتمات، وتُقاس الزوايا بالراديان."
 }

@@ -544,5 +544,9 @@
   "concept:heaps:blurb": "Словник heaps - це черга з пріоритетом: додавайте значення з ключами через push і виймайте їх через pop, починаючи з найменшого ключа.",
   "concept:quotations-call:blurb": "call виконує quotation; оголошуйте стековий ефект через call( a b -- c ), коли його не вдається вивести.",
   "concept:recursion:blurb": "Визначення через : може викликати саме себе; if-empty й unclip - це канонічна форма рекурсії по послідовності.",
-  "concept:case:blurb": "case зі словника combinators розгалужується за значенням через alist із клауз { value [ body ] }."
+  "concept:case:blurb": "case зі словника combinators розгалужується за значенням через alist із клауз { value [ body ] }.",
+  "exercise:cricket-oval:name": "Овал для крикету",
+  "concept:math-functions:name": "Математичні функції",
+  "exercise:cricket-oval:blurb": "Дізнаймося про квадратні корені, кути, e^ і логарифми, вимірюючи овал для крикету.",
+  "concept:math-functions:blurb": "math.functions і math.constants дають квадратні корені, тригонометрію, експоненти й логарифми; кути задаються в радіанах."
 }

@@ -544,5 +544,9 @@
   "concept:heaps:blurb": "Το λεξιλόγιο heaps είναι μια ουρά προτεραιότητας: ώθησε τιμές με κλειδιά και βγάλε τες με το μικρότερο κλειδί πρώτα.",
   "concept:quotations-call:blurb": "Το call εκτελεί μια παράθεση; δήλωσε ένα αποτέλεσμα στοίβας με call( a b -- c ) όταν δεν μπορεί να συναχθεί.",
   "concept:recursion:blurb": "Ένας ορισμός : μπορεί να καλέσει τον εαυτό του; τα if-empty και unclip είναι η κανονική μορφή αναδρομής ακολουθίας.",
-  "concept:case:blurb": "Το case στο combinators διανέμει βάσει μιας τιμής μέσω μιας alist από όρους { value [ body ] }."
+  "concept:case:blurb": "Το case στο combinators διανέμει βάσει μιας τιμής μέσω μιας alist από όρους { value [ body ] }.",
+  "exercise:cricket-oval:name": "Οβάλ του κρίκετ",
+  "concept:math-functions:name": "Μαθηματικές Συναρτήσεις",
+  "exercise:cricket-oval:blurb": "Μάθε για τις τετραγωνικές ρίζες, τις γωνίες, το e^ και τον λογάριθμο κάνοντας μετρήσεις σε ένα οβάλ κρίκετ.",
+  "concept:math-functions:blurb": "Τα math.functions και math.constants παρέχουν τετραγωνικές ρίζες, τριγωνομετρία, εκθετικές συναρτήσεις και λογαρίθμους και οι γωνίες είναι σε ακτίνια."
 }

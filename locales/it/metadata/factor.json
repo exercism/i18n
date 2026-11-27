@@ -544,5 +544,9 @@
   "concept:assocs:blurb": "Le hashtable (H{ }) e le altre collezioni associative condividono il protocollo assocs: at, set-at, change-at, inc-at.",
   "concept:heaps:blurb": "Il vocabolario heaps è una coda con priorità: inserisci valori con una chiave ed estraili partendo dalla chiave più piccola.",
   "concept:quotations-call:blurb": "call esegue una quotation; dichiara un effetto sullo stack con call( a b -- c ) quando non può essere inferito.",
-  "concept:recursion:blurb": "Una definizione : può chiamare se stessa; if-empty e unclip sono la forma canonica della ricorsione sulle sequenze."
+  "concept:recursion:blurb": "Una definizione : può chiamare se stessa; if-empty e unclip sono la forma canonica della ricorsione sulle sequenze.",
+  "exercise:cricket-oval:name": "Ovale del cricket",
+  "concept:math-functions:name": "Funzioni matematiche",
+  "exercise:cricket-oval:blurb": "Impara le radici quadrate, gli angoli, e^ e log misurando un ovale del cricket.",
+  "concept:math-functions:blurb": "math.functions e math.constants forniscono radici quadrate, trigonometria, esponenziali e logaritmi; gli angoli sono in radianti."
 }

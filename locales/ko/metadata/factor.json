@@ -544,5 +544,9 @@
   "doc:tests:title": "Factor 트랙에서 테스트하기",
   "doc:tests:blurb": "Exercism에서 Factor 연습 문제를 테스트하는 방법을 배워요.",
   "doc:resources:title": "유용한 Factor 자료",
-  "doc:resources:blurb": "Factor를 능숙하게 다루는 데 도움이 되는 유용한 자료 모음이에요."
+  "doc:resources:blurb": "Factor를 능숙하게 다루는 데 도움이 되는 유용한 자료 모음이에요.",
+  "exercise:cricket-oval:name": "크리켓 경기장",
+  "concept:math-functions:name": "수학 함수",
+  "exercise:cricket-oval:blurb": "크리켓 경기장을 재어 보며 제곱근, 각도, e^, 로그에 대해 배워요.",
+  "concept:math-functions:blurb": "math.functions와 math.constants는 제곱근, 삼각법, 지수 함수, 로그를 제공해요. 각도는 라디안으로 표현해요."
 }

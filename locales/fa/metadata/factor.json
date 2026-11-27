@@ -544,5 +544,9 @@
   "doc:tests:title": "Test در مسیر Factor",
   "doc:tests:blurb": "یاد بگیرید چطور تمرین‌های Factor خود را در Exercism test کنید.",
   "doc:resources:title": "منابع مفید Factor",
-  "doc:resources:blurb": "مجموعه‌ای از منابع مفید که به شما کمک می‌کند بر Factor مسلط شوید."
+  "doc:resources:blurb": "مجموعه‌ای از منابع مفید که به شما کمک می‌کند بر Factor مسلط شوید.",
+  "exercise:cricket-oval:name": "زمین بیضی‌شکل کریکت",
+  "concept:math-functions:name": "توابع ریاضی",
+  "exercise:cricket-oval:blurb": "جذر، زاویه، e^ و لگاریتم را با اندازه‌گیری یک زمین بیضی‌شکل کریکت یاد بگیرید.",
+  "concept:math-functions:blurb": "math.functions و math.constants جذر، مثلثات، توابع نمایی و لگاریتم را در اختیار شما می‌گذارند؛ زاویه‌ها بر حسب رادیان هستند."
 }
