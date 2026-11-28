@@ -14,7 +14,8 @@ This page is generated from [the index](../../json/fa/lean.json) by `scripts/bui
 
 ### Affine Cipher (رمز افاین)
 
-- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/affine-cipher/.docs/instructions.md)): [Latest](../../../locales/fa/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
+- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/affine-cipher/.docs/instructions.md)): [Latest](../../../locales/fa/content/90/9e/19545b8d19e0ffbd64b0d74af7643e5e05a8.md)
+  - [`1603dbbce9`](../../../locales/fa/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
 
 ### All Your Base
 
@@ -67,7 +68,8 @@ This page is generated from [the index](../../json/fa/lean.json) by `scripts/bui
 
 ### Book Store (کتاب‌فروشی)
 
-- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/book-store/.docs/instructions.md)): [Latest](../../../locales/fa/content/54/40/3f17bf5c35e9b5d6c20503e87e02c232e1a7.md)
+- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/book-store/.docs/instructions.md)): [Latest](../../../locales/fa/content/30/c3/f056879d815af202362909a1ef676b9df62c.md)
+  - [`54403f17bf`](../../../locales/fa/content/54/40/3f17bf5c35e9b5d6c20503e87e02c232e1a7.md)
 - `instructions.append.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/book-store/.docs/instructions.append.md)): [Latest](../../../locales/fa/content/9a/79/33a4b5f2e28e4f400a9c0e260c09b429f468.md)
 
 ### Camicia
@@ -89,7 +91,8 @@ This page is generated from [the index](../../json/fa/lean.json) by `scripts/bui
 
 - `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/collatz-conjecture/.docs/instructions.md)): [Latest](../../../locales/fa/content/af/33/2a810f0f31aa1233e92bea57721d3025f4e0.md)
 - `instructions.append.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/collatz-conjecture/.docs/instructions.append.md)): [Latest](../../../locales/fa/content/6f/79/28524ccd9125af9d2851b4f5f296816709a8.md)
-- `introduction.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/collatz-conjecture/.docs/introduction.md)): [Latest](../../../locales/fa/content/c3/5b/deb67dceef4bf9769dbbf473e841cdd068f2.md)
+- `introduction.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/collatz-conjecture/.docs/introduction.md)): [Latest](../../../locales/fa/content/40/09/942af059319797763f5424d4cfb08e5aa5f3.md)
+  - [`c35bdeb67d`](../../../locales/fa/content/c3/5b/deb67dceef4bf9769dbbf473e841cdd068f2.md)
 
 ### Complex Numbers (عدد مختلط)
 
@@ -114,7 +117,8 @@ This page is generated from [the index](../../json/fa/lean.json) by `scripts/bui
 
 ### D&D Character (شخصیت D&D)
 
-- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/dnd-character/.docs/instructions.md)): [Latest](../../../locales/fa/content/e1/4e/7949d60df15f34f13fb04f45f77d59eaf9f7.md)
+- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/dnd-character/.docs/instructions.md)): [Latest](../../../locales/fa/content/05/80/37575ca0f072b9194b11b567a5abeadbd404.md)
+  - [`e14e7949d6`](../../../locales/fa/content/e1/4e/7949d60df15f34f13fb04f45f77d59eaf9f7.md)
 - `instructions.append.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/dnd-character/.docs/instructions.append.md)): [Latest](../../../locales/fa/content/de/63/687eb88f82eb6b36fdcaf196b3208a11513e.md)
 - `introduction.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/dnd-character/.docs/introduction.md)): [Latest](../../../locales/fa/content/53/01/f61829de5444f758a53845f0c366a00aacdc.md)
 
@@ -137,7 +141,8 @@ This page is generated from [the index](../../json/fa/lean.json) by `scripts/bui
 
 ### DOT DSL
 
-- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/dot-dsl/.docs/instructions.md)): [Latest](../../../locales/fa/content/5e/65/ebef9436c86ec75a54714ffddc6da381c8ac.md)
+- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/dot-dsl/.docs/instructions.md)): [Latest](../../../locales/fa/content/23/6b/a6d103dede4c17bf3573e43a3f46936be179.md)
+  - [`5e65ebef94`](../../../locales/fa/content/5e/65/ebef9436c86ec75a54714ffddc6da381c8ac.md)
 - `instructions.append.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/dot-dsl/.docs/instructions.append.md)): [Latest](../../../locales/fa/content/8f/48/6d5106e3a12207534332a5e7dc59f42aa3db.md)
 
 ### Eliud's Eggs (تخم‌های الیود)
@@ -283,8 +288,10 @@ This page is generated from [the index](../../json/fa/lean.json) by `scripts/bui
 
 ### Pascal's Triangle (مثلث خیام)
 
-- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/pascals-triangle/.docs/instructions.md)): [Latest](../../../locales/fa/content/0f/58/f0069688bc7dfd1a2705cc4382f27a0609dd.md)
-- `introduction.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/pascals-triangle/.docs/introduction.md)): [Latest](../../../locales/fa/content/ea/b4/54e5a6995c899f852bcd23d9af558ca9e7bd.md)
+- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/pascals-triangle/.docs/instructions.md)): [Latest](../../../locales/fa/content/4f/a8/8553825636eca6a9053583288e07ed0e1cda.md)
+  - [`0f58f00696`](../../../locales/fa/content/0f/58/f0069688bc7dfd1a2705cc4382f27a0609dd.md)
+- `introduction.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/pascals-triangle/.docs/introduction.md)): [Latest](../../../locales/fa/content/c2/bc/6f5d2113231f444250958019fc51738615de.md)
+  - [`eab454e5a6`](../../../locales/fa/content/ea/b4/54e5a6995c899f852bcd23d9af558ca9e7bd.md)
 
 ### Perfect Numbers (اعداد تام)
 
@@ -325,7 +332,8 @@ This page is generated from [the index](../../json/fa/lean.json) by `scripts/bui
 
 ### Rational Numbers (اعداد گویا)
 
-- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/rational-numbers/.docs/instructions.md)): [Latest](../../../locales/fa/content/f6/4f/c0f28e5f84c9e991e52b275f5eef1ff7ea86.md)
+- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/rational-numbers/.docs/instructions.md)): [Latest](../../../locales/fa/content/35/ed/bd0bd8a7031007e7a0f0cc85256af9db6824.md)
+  - [`f64fc0f28e`](../../../locales/fa/content/f6/4f/c0f28e5f84c9e991e52b275f5eef1ff7ea86.md)
 - `instructions.append.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/rational-numbers/.docs/instructions.append.md)): [Latest](../../../locales/fa/content/8e/55/0ef7061d61ccadd0759405c52d8024f4559b.md)
 
 ### Rectangles (مستطیل‌ها)
@@ -349,7 +357,8 @@ This page is generated from [the index](../../json/fa/lean.json) by `scripts/bui
 
 ### Resistor Color Trio (رنگ مقاومت سه‌گانه)
 
-- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/resistor-color-trio/.docs/instructions.md)): [Latest](../../../locales/fa/content/1a/c5/cf5e9fe0b7e589bf6cba0c31c2c8a0e98d7e.md)
+- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/resistor-color-trio/.docs/instructions.md)): [Latest](../../../locales/fa/content/8e/f1/1628e00a8553579594981d7c31900f8c1835.md)
+  - [`1ac5cf5e9f`](../../../locales/fa/content/1a/c5/cf5e9fe0b7e589bf6cba0c31c2c8a0e98d7e.md)
 - `instructions.append.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/resistor-color-trio/.docs/instructions.append.md)): [Latest](../../../locales/fa/content/4e/af/b262787a12bbd378c1356b14ba7a8170133e.md)
 
 ### Reverse List (معکوس‌سازی فهرست)
@@ -370,8 +379,10 @@ This page is generated from [the index](../../json/fa/lean.json) by `scripts/bui
 
 ### Roman Numerals (اعداد رومی)
 
-- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/roman-numerals/.docs/instructions.md)): [Latest](../../../locales/fa/content/50/e2/f5bf1c668a66cff143097642a80dae9597d2.md)
-- `introduction.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/roman-numerals/.docs/introduction.md)): [Latest](../../../locales/fa/content/6f/d9/42fef30f76ae037294b8fa382471665ffc2a.md)
+- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/roman-numerals/.docs/instructions.md)): [Latest](../../../locales/fa/content/fe/28/f4d99ace840334fb8e1b022ffea2c36fe770.md)
+  - [`50e2f5bf1c`](../../../locales/fa/content/50/e2/f5bf1c668a66cff143097642a80dae9597d2.md)
+- `introduction.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/roman-numerals/.docs/introduction.md)): [Latest](../../../locales/fa/content/06/f4/84fe38a75497e4a5c12fc9e3eb153e5fa47e.md)
+  - [`6fd942fef3`](../../../locales/fa/content/6f/d9/42fef30f76ae037294b8fa382471665ffc2a.md)
 
 ### Rotational Cipher (رمز چرخشی)
 
@@ -383,7 +394,8 @@ This page is generated from [the index](../../json/fa/lean.json) by `scripts/bui
 
 ### Satellite (ماهواره)
 
-- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/satellite/.docs/instructions.md)): [Latest](../../../locales/fa/content/fb/bf/14f439558fa6451f8ebfac7253e0c9e12189.md)
+- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/satellite/.docs/instructions.md)): [Latest](../../../locales/fa/content/99/ba/aed0ecdac2a4d4af2803b65a3e9cb86f2ba3.md)
+  - [`fbbf14f439`](../../../locales/fa/content/fb/bf/14f439558fa6451f8ebfac7253e0c9e12189.md)
 
 ### Say (گفتن)
 

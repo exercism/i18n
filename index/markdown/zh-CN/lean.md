@@ -14,7 +14,8 @@ This page is generated from [the index](../../json/zh-CN/lean.json) by `scripts/
 
 ### Affine Cipher (仿射密码)
 
-- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/affine-cipher/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
+- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/affine-cipher/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/90/9e/19545b8d19e0ffbd64b0d74af7643e5e05a8.md)
+  - [`1603dbbce9`](../../../locales/zh-CN/content/16/03/dbbce91dee78f8c1520ceb8bc96c6dc9528a.md)
 
 ### All Your Base
 
@@ -67,7 +68,8 @@ This page is generated from [the index](../../json/zh-CN/lean.json) by `scripts/
 
 ### Book Store (书店)
 
-- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/book-store/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/54/40/3f17bf5c35e9b5d6c20503e87e02c232e1a7.md)
+- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/book-store/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/30/c3/f056879d815af202362909a1ef676b9df62c.md)
+  - [`54403f17bf`](../../../locales/zh-CN/content/54/40/3f17bf5c35e9b5d6c20503e87e02c232e1a7.md)
 - `instructions.append.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/book-store/.docs/instructions.append.md)): [Latest](../../../locales/zh-CN/content/9a/79/33a4b5f2e28e4f400a9c0e260c09b429f468.md)
 
 ### Camicia
@@ -89,7 +91,8 @@ This page is generated from [the index](../../json/zh-CN/lean.json) by `scripts/
 
 - `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/collatz-conjecture/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/af/33/2a810f0f31aa1233e92bea57721d3025f4e0.md)
 - `instructions.append.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/collatz-conjecture/.docs/instructions.append.md)): [Latest](../../../locales/zh-CN/content/6f/79/28524ccd9125af9d2851b4f5f296816709a8.md)
-- `introduction.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/collatz-conjecture/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/c3/5b/deb67dceef4bf9769dbbf473e841cdd068f2.md)
+- `introduction.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/collatz-conjecture/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/40/09/942af059319797763f5424d4cfb08e5aa5f3.md)
+  - [`c35bdeb67d`](../../../locales/zh-CN/content/c3/5b/deb67dceef4bf9769dbbf473e841cdd068f2.md)
 
 ### Complex Numbers (复数)
 
@@ -114,7 +117,8 @@ This page is generated from [the index](../../json/zh-CN/lean.json) by `scripts/
 
 ### D&D Character (D&D 角色)
 
-- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/dnd-character/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/e1/4e/7949d60df15f34f13fb04f45f77d59eaf9f7.md)
+- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/dnd-character/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/05/80/37575ca0f072b9194b11b567a5abeadbd404.md)
+  - [`e14e7949d6`](../../../locales/zh-CN/content/e1/4e/7949d60df15f34f13fb04f45f77d59eaf9f7.md)
 - `instructions.append.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/dnd-character/.docs/instructions.append.md)): [Latest](../../../locales/zh-CN/content/de/63/687eb88f82eb6b36fdcaf196b3208a11513e.md)
 - `introduction.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/dnd-character/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/53/01/f61829de5444f758a53845f0c366a00aacdc.md)
 
@@ -137,7 +141,8 @@ This page is generated from [the index](../../json/zh-CN/lean.json) by `scripts/
 
 ### DOT DSL
 
-- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/dot-dsl/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/5e/65/ebef9436c86ec75a54714ffddc6da381c8ac.md)
+- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/dot-dsl/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/23/6b/a6d103dede4c17bf3573e43a3f46936be179.md)
+  - [`5e65ebef94`](../../../locales/zh-CN/content/5e/65/ebef9436c86ec75a54714ffddc6da381c8ac.md)
 - `instructions.append.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/dot-dsl/.docs/instructions.append.md)): [Latest](../../../locales/zh-CN/content/8f/48/6d5106e3a12207534332a5e7dc59f42aa3db.md)
 
 ### Eliud's Eggs (Eliud 的蛋)
@@ -283,8 +288,10 @@ This page is generated from [the index](../../json/zh-CN/lean.json) by `scripts/
 
 ### Pascal's Triangle (帕斯卡三角形)
 
-- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/pascals-triangle/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/0f/58/f0069688bc7dfd1a2705cc4382f27a0609dd.md)
-- `introduction.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/pascals-triangle/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/ea/b4/54e5a6995c899f852bcd23d9af558ca9e7bd.md)
+- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/pascals-triangle/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/4f/a8/8553825636eca6a9053583288e07ed0e1cda.md)
+  - [`0f58f00696`](../../../locales/zh-CN/content/0f/58/f0069688bc7dfd1a2705cc4382f27a0609dd.md)
+- `introduction.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/pascals-triangle/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/c2/bc/6f5d2113231f444250958019fc51738615de.md)
+  - [`eab454e5a6`](../../../locales/zh-CN/content/ea/b4/54e5a6995c899f852bcd23d9af558ca9e7bd.md)
 
 ### Perfect Numbers (完全数)
 
@@ -325,7 +332,8 @@ This page is generated from [the index](../../json/zh-CN/lean.json) by `scripts/
 
 ### Rational Numbers (有理数)
 
-- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/rational-numbers/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/f6/4f/c0f28e5f84c9e991e52b275f5eef1ff7ea86.md)
+- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/rational-numbers/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/35/ed/bd0bd8a7031007e7a0f0cc85256af9db6824.md)
+  - [`f64fc0f28e`](../../../locales/zh-CN/content/f6/4f/c0f28e5f84c9e991e52b275f5eef1ff7ea86.md)
 - `instructions.append.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/rational-numbers/.docs/instructions.append.md)): [Latest](../../../locales/zh-CN/content/8e/55/0ef7061d61ccadd0759405c52d8024f4559b.md)
 
 ### Rectangles (矩形)
@@ -349,7 +357,8 @@ This page is generated from [the index](../../json/zh-CN/lean.json) by `scripts/
 
 ### Resistor Color Trio (电阻色环三重奏)
 
-- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/resistor-color-trio/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/1a/c5/cf5e9fe0b7e589bf6cba0c31c2c8a0e98d7e.md)
+- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/resistor-color-trio/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/8e/f1/1628e00a8553579594981d7c31900f8c1835.md)
+  - [`1ac5cf5e9f`](../../../locales/zh-CN/content/1a/c5/cf5e9fe0b7e589bf6cba0c31c2c8a0e98d7e.md)
 - `instructions.append.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/resistor-color-trio/.docs/instructions.append.md)): [Latest](../../../locales/zh-CN/content/4e/af/b262787a12bbd378c1356b14ba7a8170133e.md)
 
 ### Reverse List (反转数组)
@@ -370,8 +379,10 @@ This page is generated from [the index](../../json/zh-CN/lean.json) by `scripts/
 
 ### Roman Numerals (罗马数字)
 
-- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/roman-numerals/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/50/e2/f5bf1c668a66cff143097642a80dae9597d2.md)
-- `introduction.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/roman-numerals/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/6f/d9/42fef30f76ae037294b8fa382471665ffc2a.md)
+- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/roman-numerals/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/fe/28/f4d99ace840334fb8e1b022ffea2c36fe770.md)
+  - [`50e2f5bf1c`](../../../locales/zh-CN/content/50/e2/f5bf1c668a66cff143097642a80dae9597d2.md)
+- `introduction.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/roman-numerals/.docs/introduction.md)): [Latest](../../../locales/zh-CN/content/06/f4/84fe38a75497e4a5c12fc9e3eb153e5fa47e.md)
+  - [`6fd942fef3`](../../../locales/zh-CN/content/6f/d9/42fef30f76ae037294b8fa382471665ffc2a.md)
 
 ### Rotational Cipher (旋转密码)
 
@@ -383,7 +394,8 @@ This page is generated from [the index](../../json/zh-CN/lean.json) by `scripts/
 
 ### Satellite (卫星)
 
-- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/satellite/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/fb/bf/14f439558fa6451f8ebfac7253e0c9e12189.md)
+- `instructions.md` ([English](https://github.com/exercism/lean/blob/main/exercises/practice/satellite/.docs/instructions.md)): [Latest](../../../locales/zh-CN/content/99/ba/aed0ecdac2a4d4af2803b65a3e9cb86f2ba3.md)
+  - [`fbbf14f439`](../../../locales/zh-CN/content/fb/bf/14f439558fa6451f8ebfac7253e0c9e12189.md)
 
 ### Say (说出来)
 
