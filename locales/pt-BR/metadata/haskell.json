@@ -387,5 +387,7 @@
   "exercise:freelancer-rates:blurb": "Aprenda sobre números inteiros e números de ponto flutuante ajudando um freelancer a se comunicar com um gerente de projetos sobre cobrança.",
   "exercise:variable-length-quantity:name": "Quantidade de comprimento variável",
   "exercise:variable-length-quantity:blurb": "Implemente a codificação e a decodificação de quantidade de comprimento variável.",
-  "exercise:variable-length-quantity:source": "Um pobre desenvolvedor da Splice tendo que implementar codificação/decodificação MIDI."
+  "exercise:variable-length-quantity:source": "Um pobre desenvolvedor da Splice tendo que implementar codificação/decodificação MIDI.",
+  "exercise:tree-building:name": "Construção de árvores",
+  "exercise:tree-building:blurb": "Refatore um algoritmo de construção de árvores."
 }

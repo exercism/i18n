@@ -389,5 +389,7 @@
   "exercise:freelancer-rates:blurb": "Ismerd meg az egész számokat és a lebegőpontos számokat, miközben segítesz egy szabadúszónak a projektmenedzserrel folytatott számlázási kommunikációban.",
   "exercise:variable-length-quantity:name": "Változó hosszúságú mennyiség",
   "exercise:variable-length-quantity:blurb": "Valósítsd meg a változó hosszúságú mennyiség kódolását és dekódolását.",
-  "exercise:variable-length-quantity:source": "Egy szegény Splice-fejlesztő, akinek MIDI-kódolást/dekódolást kellett megvalósítania."
+  "exercise:variable-length-quantity:source": "Egy szegény Splice-fejlesztő, akinek MIDI-kódolást/dekódolást kellett megvalósítania.",
+  "exercise:tree-building:name": "Faépítés",
+  "exercise:tree-building:blurb": "Refaktoráld egy faépítő algoritmust."
 }

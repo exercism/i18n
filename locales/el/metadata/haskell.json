@@ -389,5 +389,7 @@
   "exercise:freelancer-rates:blurb": "Μάθε για τους ακέραιους και τους αριθμούς κινητής υποδιαστολής βοηθώντας έναν ελεύθερο επαγγελματία να συνεννοηθεί με έναν διαχειριστή έργου για την τιμολόγηση.",
   "exercise:variable-length-quantity:name": "Ποσότητα μεταβλητού μήκους",
   "exercise:variable-length-quantity:blurb": "Υλοποίησε κωδικοποίηση και αποκωδικοποίηση ποσότητας μεταβλητού μήκους.",
-  "exercise:variable-length-quantity:source": "Ένας καημένος προγραμματιστής της Splice που έπρεπε να υλοποιήσει κωδικοποίηση/αποκωδικοποίηση MIDI."
+  "exercise:variable-length-quantity:source": "Ένας καημένος προγραμματιστής της Splice που έπρεπε να υλοποιήσει κωδικοποίηση/αποκωδικοποίηση MIDI.",
+  "exercise:tree-building:name": "Κατασκευή δέντρου",
+  "exercise:tree-building:blurb": "Αναδιαμόρφωσε έναν αλγόριθμο κατασκευής δέντρου."
 }

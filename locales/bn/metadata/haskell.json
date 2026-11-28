@@ -387,5 +387,7 @@
   "exercise:freelancer-rates:blurb": "বিলিং নিয়ে একজন ফ্রিল্যান্সারকে প্রজেক্ট ম্যানেজারের সাথে যোগাযোগ করতে সাহায্য করে ইন্টিজার ও ফ্লোটিং পয়েন্ট সংখ্যা সম্পর্কে জানুন।",
   "exercise:variable-length-quantity:name": "ভ্যারিয়েবল লেংথ কোয়ান্টিটি",
   "exercise:variable-length-quantity:blurb": "ভ্যারিয়েবল লেংথ কোয়ান্টিটি এনকোডিং ও ডিকোডিং বাস্তবায়ন করুন।",
-  "exercise:variable-length-quantity:source": "একজন বেচারা Splice ডেভেলপার, যাকে MIDI এনকোডিং/ডিকোডিং বাস্তবায়ন করতে হয়েছিল।"
+  "exercise:variable-length-quantity:source": "একজন বেচারা Splice ডেভেলপার, যাকে MIDI এনকোডিং/ডিকোডিং বাস্তবায়ন করতে হয়েছিল।",
+  "exercise:tree-building:name": "ট্রি বিল্ডিং",
+  "exercise:tree-building:blurb": "একটি ট্রি বিল্ডিং অ্যালগরিদম রিফ্যাক্টর করুন।"
 }

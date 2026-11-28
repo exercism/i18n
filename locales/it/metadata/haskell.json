@@ -387,5 +387,7 @@
   "exercise:freelancer-rates:blurb": "Impara i numeri interi e i numeri in virgola mobile aiutando un freelance a comunicare con un project manager sulla fatturazione.",
   "exercise:variable-length-quantity:name": "Quantità a lunghezza variabile",
   "exercise:variable-length-quantity:blurb": "Implementa la codifica e la decodifica delle quantità a lunghezza variabile.",
-  "exercise:variable-length-quantity:source": "Un povero sviluppatore di Splice costretto a implementare la codifica e la decodifica MIDI."
+  "exercise:variable-length-quantity:source": "Un povero sviluppatore di Splice costretto a implementare la codifica e la decodifica MIDI.",
+  "exercise:tree-building:name": "Costruzione di un albero",
+  "exercise:tree-building:blurb": "Riorganizza un algoritmo di costruzione di un albero."
 }

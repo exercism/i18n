@@ -568,6 +568,11 @@ This page is generated from [the index](../../json/ko/haskell.json) by `scripts/
 
 - `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/transpose/.docs/instructions.md)): [Latest](../../../locales/ko/content/60/33/af745f45f5dcedcd87af4c3a6d692c2a0640.md)
 
+### Tree Building (트리 구성)
+
+- `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/tree-building/.docs/instructions.md)): [Latest](../../../locales/ko/content/01/48/e8a010e1e0b4dd42d17963abb313398e1873.md)
+- `instructions.append.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/tree-building/.docs/instructions.append.md)): [Latest](../../../locales/ko/content/92/12/6a8a5b1de63570529df4d04584f140d552b3.md)
+
 ### Triangle (삼각형)
 
 - `instructions.md` ([English](https://github.com/exercism/haskell/blob/main/exercises/practice/triangle/.docs/instructions.md)): [Latest](../../../locales/ko/content/e9/b0/53dcd344e85179041c10dcd48406d735b2f9.md)
@@ -706,11 +711,11 @@ This page is generated from [the index](../../json/ko/haskell.json) by `scripts/
 
 ### Numbers (숫자)
 
-- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/numbers/introduction.md)): [Latest](../../../locales/ko/content/94/bf/a9373bdaa686e414828917ade871e0f77ae8.md)
-  - [`9678e70cf7`](../../../locales/ko/content/96/78/e70cf777a77214b72f5865b886a20fc867a2.md)
+- `introduction.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/numbers/introduction.md)): [Latest](../../../locales/ko/content/96/78/e70cf777a77214b72f5865b886a20fc867a2.md)
+  - [`94bfa9373b`](../../../locales/ko/content/94/bf/a9373bdaa686e414828917ade871e0f77ae8.md)
   - [`87f92aff41`](../../../locales/ko/content/87/f9/2aff41910ccb539f4435c4df3cceb560751c.md)
-- `about.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/numbers/about.md)): [Latest](../../../locales/ko/content/19/fb/2fb09f922776714c2476719261ff3485b9c1.md)
-  - [`6edb53a4d7`](../../../locales/ko/content/6e/db/53a4d7eeb22551f1b53aff0079664bbeb8b2.md)
+- `about.md` ([English](https://github.com/exercism/haskell/blob/main/concepts/numbers/about.md)): [Latest](../../../locales/ko/content/6e/db/53a4d7eeb22551f1b53aff0079664bbeb8b2.md)
+  - [`19fb2fb09f`](../../../locales/ko/content/19/fb/2fb09f922776714c2476719261ff3485b9c1.md)
   - [`61b97be477`](../../../locales/ko/content/61/b9/7be477f6f11d172233a6d0d5c1016f853e6d.md)
 
 ### Pattern Matching (패턴 매칭)

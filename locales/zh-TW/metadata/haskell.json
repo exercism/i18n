@@ -387,5 +387,7 @@
   "exercise:freelancer-rates:blurb": "透過協助自由工作者與專案經理溝通請款事宜，學習整數與浮點數。",
   "exercise:variable-length-quantity:name": "可變長度數量",
   "exercise:variable-length-quantity:blurb": "實作可變長度數量的編碼與解碼。",
-  "exercise:variable-length-quantity:source": "一位可憐的 Splice 開發者不得不實作 MIDI 編碼／解碼。"
+  "exercise:variable-length-quantity:source": "一位可憐的 Splice 開發者不得不實作 MIDI 編碼／解碼。",
+  "exercise:tree-building:name": "建立樹狀結構",
+  "exercise:tree-building:blurb": "重構一個建立樹狀結構的演算法。"
 }

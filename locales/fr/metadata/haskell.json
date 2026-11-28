@@ -389,5 +389,7 @@
   "exercise:freelancer-rates:blurb": "Apprends les entiers et les nombres à virgule flottante en aidant un freelance à communiquer avec un chef de projet au sujet de la facturation.",
   "exercise:variable-length-quantity:name": "Quantité de longueur variable",
   "exercise:variable-length-quantity:blurb": "Implémente l'encodage et le décodage de quantités de longueur variable.",
-  "exercise:variable-length-quantity:source": "Un pauvre développeur de Splice obligé d'implémenter l'encodage et le décodage MIDI."
+  "exercise:variable-length-quantity:source": "Un pauvre développeur de Splice obligé d'implémenter l'encodage et le décodage MIDI.",
+  "exercise:tree-building:name": "Construction d'un arbre",
+  "exercise:tree-building:blurb": "Réécris un algorithme de construction d'arbre."
 }

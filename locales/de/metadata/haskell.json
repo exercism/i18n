@@ -387,5 +387,7 @@
   "exercise:freelancer-rates:blurb": "Lerne Ganzzahlen und Gleitkommazahlen kennen, indem du einem Freelancer bei der Abrechnung mit einem Projektmanager hilfst.",
   "exercise:variable-length-quantity:name": "Zahlen variabler Länge",
   "exercise:variable-length-quantity:blurb": "Implementiere die Kodierung und Dekodierung von Zahlen variabler Länge.",
-  "exercise:variable-length-quantity:source": "Ein armer Splice-Entwickler, der MIDI-Kodierung/-Dekodierung implementieren musste."
+  "exercise:variable-length-quantity:source": "Ein armer Splice-Entwickler, der MIDI-Kodierung/-Dekodierung implementieren musste.",
+  "exercise:tree-building:name": "Baumaufbau",
+  "exercise:tree-building:blurb": "Refaktoriere einen Algorithmus zum Aufbau eines Baums."
 }

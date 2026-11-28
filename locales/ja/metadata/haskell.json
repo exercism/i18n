@@ -387,5 +387,7 @@
   "exercise:freelancer-rates:blurb": "フリーランサーがプロジェクトマネージャーと請求についてやり取りするのを手伝いながら、整数と浮動小数点数について学びます。",
   "exercise:variable-length-quantity:name": "可変長数量",
   "exercise:variable-length-quantity:blurb": "可変長数量のエンコードとデコードを実装します。",
-  "exercise:variable-length-quantity:source": "MIDIのエンコードとデコードを実装することになった、かわいそうなSpliceのエンジニア"
+  "exercise:variable-length-quantity:source": "MIDIのエンコードとデコードを実装することになった、かわいそうなSpliceのエンジニア",
+  "exercise:tree-building:name": "木の構築",
+  "exercise:tree-building:blurb": "木を構築するアルゴリズムをリファクタリングします。"
 }

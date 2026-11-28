@@ -387,5 +387,7 @@
   "exercise:freelancer-rates:blurb": "बिलिंग के बारे में एक फ्रीलांसर की प्रोजेक्ट मैनेजर से बात करने में मदद करके पूर्णांक और दशमलव संख्याओं के बारे में सीखिए।",
   "exercise:variable-length-quantity:name": "वेरिएबल लंबाई की मात्रा",
   "exercise:variable-length-quantity:blurb": "वेरिएबल लंबाई की मात्रा की एन्कोडिंग और डिकोडिंग लागू कीजिए।",
-  "exercise:variable-length-quantity:source": "एक बेचारा Splice डेवलपर, जिसे MIDI की एन्कोडिंग/डिकोडिंग लागू करनी पड़ी।"
+  "exercise:variable-length-quantity:source": "एक बेचारा Splice डेवलपर, जिसे MIDI की एन्कोडिंग/डिकोडिंग लागू करनी पड़ी।",
+  "exercise:tree-building:name": "ट्री निर्माण",
+  "exercise:tree-building:blurb": "ट्री बनाने वाले एल्गोरिदम को रीफैक्टर कीजिए।"
 }

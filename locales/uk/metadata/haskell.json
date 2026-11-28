@@ -389,5 +389,7 @@
   "exercise:freelancer-rates:blurb": "Вивчаємо цілі числа та числа з плаваючою комою, допомагаючи фрилансеру порозумітися з менеджером проєкту щодо оплати.",
   "exercise:variable-length-quantity:name": "Величина змінної довжини",
   "exercise:variable-length-quantity:blurb": "Реалізуйте кодування та декодування величин змінної довжини.",
-  "exercise:variable-length-quantity:source": "Бідолашний розробник зі Splice, якому довелося реалізувати кодування й декодування MIDI."
+  "exercise:variable-length-quantity:source": "Бідолашний розробник зі Splice, якому довелося реалізувати кодування й декодування MIDI.",
+  "exercise:tree-building:name": "Побудова дерева",
+  "exercise:tree-building:blurb": "Зробіть рефакторинг алгоритму побудови дерева."
 }
