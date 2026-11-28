@@ -53,11 +53,11 @@
   },
   "paths": {
     "docs/ABOUT.md": ["9a8e49626f77deedc83ca6c59e2d6ca2bec7652a","e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"],
-    "docs/INSTALLATION.md": ["701d478b5a952b1b462a12da8237790f37e421f9","fa4c85a0d341b4669226b45987d0b331831d3b78","efd8fa7fd241bebef7db3f8dd2ea384ac9e1f8ec","e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"],
+    "docs/INSTALLATION.md": ["b83523dc35e5bc07da68b2c8aca93e58464ad027","701d478b5a952b1b462a12da8237790f37e421f9","fa4c85a0d341b4669226b45987d0b331831d3b78","efd8fa7fd241bebef7db3f8dd2ea384ac9e1f8ec","e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"],
     "docs/LEARNING.md": ["1d2c4d1ccf7d55ad26ea115fe44491551be46d01","e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"],
     "docs/MAINTAINERS.md": ["7c4ead146efe91e641f802e52750c71266f0ceed","fa6543e0d1ebced833fe2625da31f5d6917424a7"],
     "docs/RESOURCES.md": ["bdc61a0e85df340d11a0d6b86db4298af2c8edb1","e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"],
-    "docs/TESTS.md": ["e09b62696c2d6288af5074bd4f1d57f20458bead","6e8225d4599bdf2599caabd4fb7fa584221ea3d8","8eca382864b0b8b051ab9772e4b2f832ad4ebfac","e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"],
+    "docs/TESTS.md": ["05ca89da756d0ca3c2c03f1a414724fd514785b5","e09b62696c2d6288af5074bd4f1d57f20458bead","6e8225d4599bdf2599caabd4fb7fa584221ea3d8","8eca382864b0b8b051ab9772e4b2f832ad4ebfac","e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"],
     "exercises/practice/acronym/.docs/instructions.md": ["133bd2cbb78d186c92e5d2b8ca41cf13f77d6bea","e0515b4d1d8a82e331ca4a3439ce1494b58fee1e"],
     "exercises/practice/all-your-base/.docs/instructions.md": ["1b688b6915eb31f5ee6c3b67d2803024a353806e"],
     "exercises/practice/all-your-base/.docs/introduction.md": ["68aaffbed953c276623458752955558a09819203"],
@@ -135,7 +135,7 @@
     "exercises/practice/yacht/.docs/instructions.md": ["519b7a68b876e58fc845cccc10ae1d28519db33a"],
     "exercises/practice/yacht/.docs/introduction.md": ["5b541f5625ce0d5916f9545a824de17a55d433f1"],
     "exercises/shared/.docs/help.md": ["61d1b9d695f3beb0f63e4efc506e5b9bf98746ce"],
-    "exercises/shared/.docs/tests.md": ["5fc50417d4e7886da1ac6412d50d039fdf24b3da","8eca382864b0b8b051ab9772e4b2f832ad4ebfac"]
+    "exercises/shared/.docs/tests.md": ["05ca89da756d0ca3c2c03f1a414724fd514785b5","5fc50417d4e7886da1ac6412d50d039fdf24b3da","8eca382864b0b8b051ab9772e4b2f832ad4ebfac"]
   },
   "repo": "fortran"
 }

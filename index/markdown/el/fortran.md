@@ -227,7 +227,8 @@ This page is generated from [the index](../../json/el/fortran.json) by `scripts/
 
 ### Installing Fortran locally (Εγκατάσταση της Fortran τοπικά)
 
-- `INSTALLATION.md` ([English](https://github.com/exercism/fortran/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/el/content/70/1d/478b5a952b1b462a12da8237790f37e421f9.md)
+- `INSTALLATION.md` ([English](https://github.com/exercism/fortran/blob/main/docs/INSTALLATION.md)): [Latest](../../../locales/el/content/b8/35/23dc35e5bc07da68b2c8aca93e58464ad027.md)
+  - [`701d478b5a`](../../../locales/el/content/70/1d/478b5a952b1b462a12da8237790f37e421f9.md)
   - [`fa4c85a0d3`](../../../locales/el/content/fa/4c/85a0d341b4669226b45987d0b331831d3b78.md)
   - [`efd8fa7fd2`](../../../locales/el/content/ef/d8/fa7fd241bebef7db3f8dd2ea384ac9e1f8ec.md)
 
@@ -242,7 +243,8 @@ This page is generated from [the index](../../json/el/fortran.json) by `scripts/
 
 ### Testing on the Fortran track (Δοκιμές στο track της Fortran)
 
-- `TESTS.md` ([English](https://github.com/exercism/fortran/blob/main/docs/TESTS.md)): [Latest](../../../locales/el/content/e0/9b/62696c2d6288af5074bd4f1d57f20458bead.md)
+- `TESTS.md` ([English](https://github.com/exercism/fortran/blob/main/docs/TESTS.md)): [Latest](../../../locales/el/content/05/ca/89da756d0ca3c2c03f1a414724fd514785b5.md)
+  - [`e09b62696c`](../../../locales/el/content/e0/9b/62696c2d6288af5074bd4f1d57f20458bead.md)
   - [`6e8225d459`](../../../locales/el/content/6e/82/25d4599bdf2599caabd4fb7fa584221ea3d8.md)
 
 ### Useful Fortran resources (Χρήσιμοι πόροι για τη Fortran)
@@ -257,5 +259,6 @@ This page is generated from [the index](../../json/el/fortran.json) by `scripts/
 
 ### tests.md
 
-- `tests.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/el/content/5f/c5/0417d4e7886da1ac6412d50d039fdf24b3da.md)
+- `tests.md` ([English](https://github.com/exercism/fortran/blob/main/exercises/shared/.docs/tests.md)): [Latest](../../../locales/el/content/05/ca/89da756d0ca3c2c03f1a414724fd514785b5.md)
+  - [`5fc50417d4`](../../../locales/el/content/5f/c5/0417d4e7886da1ac6412d50d039fdf24b3da.md)
   - [`8eca382864`](../../../locales/el/content/8e/ca/382864b0b8b051ab9772e4b2f832ad4ebfac.md)
